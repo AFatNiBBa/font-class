@@ -5,10 +5,8 @@
 	"author": "AFatNiBBa",
 	"license": "ISC",
 	"exports": {
-		"./*": {
-			"import": "./src/*.module.scss",
-			"types": "./src/*.module.scss.d.ts"
-		}
+		".": { "import": "./src/index.tsx" },
+		"./*": { "import": "./src/component/*.tsx" }
 	},
 	"scripts": {
 		"start": "vite dev",

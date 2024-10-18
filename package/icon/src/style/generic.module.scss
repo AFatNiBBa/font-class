@@ -1,7 +1,7 @@
 
-@use "./util.scss";
+@use "./util.scss" as *;
 
-.reverse { @include util.set(animation-direction, reverse); }
+.reverse { animation-direction: user(animationDirection, reverse); }
 
 .rotate90 { transform: rotate(90deg); }
 

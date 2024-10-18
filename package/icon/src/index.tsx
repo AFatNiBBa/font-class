@@ -4,11 +4,8 @@ import generic from "./style/generic.module.scss";
 
 import { ComponentProps, splitProps } from "solid-js";
 
-/** The customization CSS classes */
+export * from "./custom";
 export { anim, generic };
-
-/** The prefix of the customization CSS variables */
-export const CSS_VARIABLE_PREFIX = "--solid-fa6-pro-";
 
 /** The default size for an icon */
 export const DEFAULT_ICON_SIZE = "1em";

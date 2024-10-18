@@ -13,12 +13,12 @@
 
 .bounce {
 	@include default(bounce);
-    @include set(animation-timing-function, cubic-bezier(0.28, 0.84, 0.42, 1));
+    animation-timing-function: user(animationTimingFunction, cubic-bezier(0.28, 0.84, 0.42, 1));
 
 	@keyframes bounce {
 		from { transform: scale(1) translateY(0); }
 		10% { transform: scale(user(bounceStartScaleX, 1.1), user(bounceStartScaleY, 0.9)) translateY(0); }
-		30% { transform: scale(user(bounceJumpScaleX, 0.9), user(bounceJumpScaleY, 1.1)) translateY(user(bounceHeight, -0.5em)); }
+		30% { transform: scale(user(bounceJumpScaleX, 0.9), user(bounceJumpScaleY, 1.1)) translateY(user(bounceJumpHeight, -0.5em)); }
 		50% { transform: scale(user(bounceLandScaleX, 1.05), user(bounceLandScaleY, 0.95)) translateY(0); }
 		57% { transform: scale(1) translateY(user(bounceRebound, -0.125em)); }
 		64% { transform: scale(1) translateY(0); }
@@ -28,7 +28,7 @@
 
 .fade {
 	@include default(fade);
-    @include set(animation-timing-function, cubic-bezier(0.4, 0, 0.6, 1));
+	animation-timing-function: user(animationTimingFunction, cubic-bezier(0.4, 0, 0.6, 1));
 
 	@keyframes fade {
 		50% { opacity: user(fadeOpacity, 0.4); }
@@ -37,7 +37,7 @@
 
 .beatFade {
 	@include default(beatFade);
-    @include set(animation-timing-function, cubic-bezier(0.4, 0, 0.6, 1));
+	animation-timing-function: user(animationTimingFunction, cubic-bezier(0.4, 0, 0.6, 1));
 
 	@keyframes beatFade {
 		from,
@@ -63,7 +63,7 @@
 
 .shake {
 	@include default(shake);
-    @include set(animation-timing-function, linear);
+    animation-timing-function: user(animationTimingFunction, linear);
 
 	@keyframes shake {
 		from { transform: rotate(-15deg); }
@@ -83,8 +83,8 @@
 
 .spin {
 	@include default(spin);
-    @include set(animation-duration, 2s);
-    @include set(animation-timing-function, linear);
+	animation-duration: user(animationDuration, 2s);
+    animation-timing-function: user(animationTimingFunction, linear);
 
 	@keyframes spin {
 		from { transform: rotate(0deg); }
@@ -94,5 +94,5 @@
 
 .pulse {
 	@include default(spin);
-    @include set(animation-timing-function, steps(8));
+    animation-timing-function: user(animationTimingFunction, steps(8));
 }
