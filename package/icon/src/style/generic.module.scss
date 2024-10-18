@@ -1,0 +1,19 @@
+
+@use "./util.scss";
+
+.reverse { @include util.set(animation-direction, reverse); }
+
+.rotate90 { transform: rotate(90deg); }
+
+.rotate180 { transform: rotate(180deg); }
+
+.rotate270 { transform: rotate(270deg); }
+
+.rotateBy { transform: rotate(user(rotateAngle, none)); }
+
+.flipHorizontal { transform: scaleX(-1); }
+
+.flipVertical { transform: scaleY(-1); }
+
+.flipBoth,
+.flipHorizontal.flipVertical { transform: scale(-1); }

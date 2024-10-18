@@ -1,11 +1,5 @@
 
-# Solid Start
-.output/
-.vinxi/
-dist/
+# Typescript
 node_modules/
 package-lock.json
-
-# Antlr4
-**/.antlr/**
-!**/.antlr/**/*.ts
+bun.lockb

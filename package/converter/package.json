@@ -1,4 +1,5 @@
 {
+  "name": "solid-fa6-pro-converter",
   "module": "src/index.ts",
   "type": "module",
   "scripts": {

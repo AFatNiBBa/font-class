@@ -1,19 +1,13 @@
 {
-	"compilerOptions": {
-		"target": "ESNext",
-		"module": "ESNext",
-		"moduleResolution": "Bundler",
-		"allowSyntheticDefaultImports": true,
-		"esModuleInterop": true,
-		"allowJs": true,
-		"strict": true,
-		"noEmit": true,
+    "include": [ "src/**/*.ts", "src/**/*.tsx" ],
+    "compilerOptions": {
+        "target": "ESNext",
+        "moduleResolution": "Bundler",
+        "noImplicitThis": true,
+        "strict": true,
 
-		"types": [ "vite/client" ],
-		"isolatedModules": true,
-
-		"paths": {
-			"~/*": [ "./src/*" ]
-		}
-	}
+        "types": [ "vite/client" ],
+        "jsxImportSource": "solid-js",
+        "jsx": "preserve"
+    }
 }
