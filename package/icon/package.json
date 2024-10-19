@@ -1,7 +1,7 @@
 {
 	"name": "solid-fa6-pro",
 	"description": "Fontawesome 6 Pro components for solid-js",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"author": "AFatNiBBa",
 	"license": "ISC",
 	"exports": {

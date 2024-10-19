@@ -3,7 +3,7 @@
 
 .reverse { #{prefix(animation-direction)}: reverse; }
 
-.secondary { opacity: rotate(custom(secondaryOpacity, .4)); }
+.secondary { opacity: custom(secondaryOpacity, .4); }
 
 .rotateBy { transform: rotate(custom(rotateAngle, none)); }
 
