@@ -19,6 +19,7 @@ export function Icon(props: { size?: string | number } & ComponentProps<"svg">) 
             width={mine.width ?? mine.size ?? DEFAULT_ICON_SIZE}
             height={mine.height ?? mine.size ?? DEFAULT_ICON_SIZE}
             viewBox="0 0 512 512"
+            fill="currentColor"
             {...other}
         />
     </>
