@@ -1,14 +1,16 @@
 
-@function user($k, $v) { @return var(--solid-fa6-pro-#{$k}, $v); }
+@function prefix($k) { @return --solid-fa6-pro-#{$k}; }
+
+@function custom($k, $v) { @return var(prefix($k), $v); }
 
 @mixin default($name) {
 	animation-name: $name;
 
-	animation-delay: user(animationDelay, 0);
-    animation-direction: user(animationDirection, normal);
-    animation-duration: user(animationDuration, 1s);
-    animation-iteration-count: user(animationIterationCount, infinite);
-    animation-timing-function: user(animationTimingFunction, ease-in-out);
+	animation-delay: custom(animationDelay, 0);
+    animation-direction: custom(animationDirection, normal);
+    animation-duration: custom(animationDuration, 1s);
+    animation-iteration-count: custom(animationIterationCount, infinite);
+    animation-timing-function: custom(animationTimingFunction, ease-in-out);
 
 	@media (prefers-reduced-motion: reduce) {
 		transition-delay: 0s;

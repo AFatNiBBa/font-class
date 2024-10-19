@@ -19,6 +19,9 @@ export function custom(opts: IconOpts) {
 /** Type that lists the available customization CSS variables */
 export interface IconOpts {
 
+    /** Custom angle for the {@link generic.secondary} class */
+    secondaryOpacity?: number | string;
+
     /** Custom angle for the {@link generic.rotateBy} class */
     rotateAngle?: number | string;
 
@@ -39,6 +42,15 @@ export interface IconOpts {
 
     /** Custom override of the scale for the {@link anim.beat} animation */
     beatScale?: number | string;
+    
+    /** Custom override of the opacity for the {@link anim.fade} animation */
+    fadeOpacity?: number | string;
+    
+    /** Custom override of the scale for the {@link anim.beat} animation */
+    beatFadeScale?: number | string;
+    
+    /** Custom override of the opacity for the {@link anim.beat} animation */
+    beatFadeOpacity?: number | string;
     
     /** Custom override of the horizontal start scale for the {@link anim.bounce} animation */
     bounceStartScaleX?: number | string;
@@ -63,15 +75,6 @@ export interface IconOpts {
     
     /** Custom override of the rebound for the {@link anim.bounce} animation */
     bounceRebound?: number | string;
-    
-    /** Custom override of the opacity for the {@link anim.fade} animation */
-    fadeOpacity?: number | string;
-    
-    /** Custom override of the opacity for the {@link anim.beat} animation */
-    beatFadeOpacity?: number | string;
-    
-    /** Custom override of the scale for the {@link anim.beat} animation */
-    beatFadeScale?: number | string;
     
     /** Custom override of the X component of the rotation axis vector for the {@link anim.flip} animation */
     flipX?: number | string;

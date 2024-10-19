@@ -7,49 +7,49 @@
 	@keyframes beat {
 		from,
 		90% { transform: scale(1); }
-		45% { transform: scale(user(beatScale, 1.25)); }
-	}
-}
-
-.bounce {
-	@include default(bounce);
-    animation-timing-function: user(animationTimingFunction, cubic-bezier(0.28, 0.84, 0.42, 1));
-
-	@keyframes bounce {
-		from { transform: scale(1) translateY(0); }
-		10% { transform: scale(user(bounceStartScaleX, 1.1), user(bounceStartScaleY, 0.9)) translateY(0); }
-		30% { transform: scale(user(bounceJumpScaleX, 0.9), user(bounceJumpScaleY, 1.1)) translateY(user(bounceJumpHeight, -0.5em)); }
-		50% { transform: scale(user(bounceLandScaleX, 1.05), user(bounceLandScaleY, 0.95)) translateY(0); }
-		57% { transform: scale(1) translateY(user(bounceRebound, -0.125em)); }
-		64% { transform: scale(1) translateY(0); }
-		to { transform: scale(1) translateY(0); }
+		45% { transform: scale(custom(beatScale, 1.25)); }
 	}
 }
 
 .fade {
 	@include default(fade);
-	animation-timing-function: user(animationTimingFunction, cubic-bezier(0.4, 0, 0.6, 1));
+	animation-timing-function: custom(animationTimingFunction, cubic-bezier(0.4, 0, 0.6, 1));
 
 	@keyframes fade {
-		50% { opacity: user(fadeOpacity, 0.4); }
+		50% { opacity: custom(fadeOpacity, 0.4); }
 	}
 }
 
 .beatFade {
 	@include default(beatFade);
-	animation-timing-function: user(animationTimingFunction, cubic-bezier(0.4, 0, 0.6, 1));
+	animation-timing-function: custom(animationTimingFunction, cubic-bezier(0.4, 0, 0.6, 1));
 
 	@keyframes beatFade {
 		from,
 		to {
-			opacity: user(beatFadeOpacity, 0.4);
 			transform: scale(1);
+			opacity: custom(beatFadeOpacity, 0.4);
 		}
 
 		50% {
+			transform: scale(custom(beatFadeScale, 1.125));
 			opacity: 1;
-			transform: scale(user(beatFadeScale, 1.125));
 		}
+	}
+}
+
+.bounce {
+	@include default(bounce);
+    animation-timing-function: custom(animationTimingFunction, cubic-bezier(0.28, 0.84, 0.42, 1));
+
+	@keyframes bounce {
+		from { transform: scale(1) translateY(0); }
+		10% { transform: scale(custom(bounceStartScaleX, 1.1), custom(bounceStartScaleY, 0.9)) translateY(0); }
+		30% { transform: scale(custom(bounceJumpScaleX, 0.9), custom(bounceJumpScaleY, 1.1)) translateY(custom(bounceJumpHeight, -0.5em)); }
+		50% { transform: scale(custom(bounceLandScaleX, 1.05), custom(bounceLandScaleY, 0.95)) translateY(0); }
+		57% { transform: scale(1) translateY(custom(bounceRebound, -0.125em)); }
+		64% { transform: scale(1) translateY(0); }
+		to { transform: scale(1) translateY(0); }
 	}
 }
 
@@ -57,13 +57,13 @@
 	@include default(flip);
 	
 	@keyframes flip {
-		50% { transform: rotate3d(user(flipX, 0), user(flipY, 1), user(flipZ, 0), user(flipAngle, -180deg)); }
+		50% { transform: rotate3d(custom(flipX, 0), custom(flipY, 1), custom(flipZ, 0), custom(flipAngle, -180deg)); }
 	}
 }
 
 .shake {
 	@include default(shake);
-    animation-timing-function: user(animationTimingFunction, linear);
+    animation-timing-function: custom(animationTimingFunction, linear);
 
 	@keyframes shake {
 		from { transform: rotate(-15deg); }
@@ -83,8 +83,8 @@
 
 .spin {
 	@include default(spin);
-	animation-duration: user(animationDuration, 2s);
-    animation-timing-function: user(animationTimingFunction, linear);
+	animation-duration: custom(animationDuration, 2s);
+    animation-timing-function: custom(animationTimingFunction, linear);
 
 	@keyframes spin {
 		from { transform: rotate(0deg); }
@@ -94,5 +94,5 @@
 
 .pulse {
 	@include default(spin);
-    animation-timing-function: user(animationTimingFunction, steps(8));
+    animation-timing-function: custom(animationTimingFunction, steps(8));
 }

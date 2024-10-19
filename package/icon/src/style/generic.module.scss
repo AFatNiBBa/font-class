@@ -1,15 +1,17 @@
 
 @use "./util.scss" as *;
 
-.reverse { animation-direction: user(animationDirection, reverse); }
+.reverse { #{prefix(animation-direction)}: reverse; }
+
+.secondary { opacity: rotate(custom(secondaryOpacity, .4)); }
+
+.rotateBy { transform: rotate(custom(rotateAngle, none)); }
 
 .rotate90 { transform: rotate(90deg); }
 
 .rotate180 { transform: rotate(180deg); }
 
 .rotate270 { transform: rotate(270deg); }
-
-.rotateBy { transform: rotate(user(rotateAngle, none)); }
 
 .flipHorizontal { transform: scaleX(-1); }
 
