@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `calendar-arrow-down` icon from the `solid` section of Font Awesome 6 Pro

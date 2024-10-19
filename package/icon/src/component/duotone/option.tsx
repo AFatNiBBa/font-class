@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `option` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Option(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M360 112H472C494.092 112 512 94.092 512 72S494.092 32 472 32H360C337.908 32 320 49.908 320 72S337.908 112 360 112Z" />
+            <path class={generic.secondary} d="M360 112H472C494.092 112 512 94.092 512 72S494.092 32 472 32H360C337.908 32 320 49.908 320 72S337.908 112 360 112Z" />
             <path d="M472 400H412.188L152.156 48.219C144.625 38.031 132.688 32 120 32H40C17.906 32 0 49.906 0 72S17.906 112 40 112H99.812L359.844 463.781C367.375 473.969 379.312 480 392 480H472C494.094 480 512 462.094 512 440S494.094 400 472 400Z" />
         </Icon>
     </>

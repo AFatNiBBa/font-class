@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `bars-filter` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BarsFilter(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M352 224H96C78.327 224 64 238.327 64 256V256C64 273.673 78.327 288 96 288H352C369.673 288 384 273.673 384 256V256C384 238.327 369.673 224 352 224Z" />
+            <path class={generic.secondary} d="M352 224H96C78.327 224 64 238.327 64 256V256C64 273.673 78.327 288 96 288H352C369.673 288 384 273.673 384 256V256C384 238.327 369.673 224 352 224Z" />
             <path d="M256 384H192C174.327 384 160 398.327 160 416V416C160 433.673 174.327 448 192 448H256C273.673 448 288 433.673 288 416V416C288 398.327 273.673 384 256 384ZM416 64H32C14.327 64 0 78.327 0 96V96C0 113.673 14.327 128 32 128H416C433.673 128 448 113.673 448 96V96C448 78.327 433.673 64 416 64Z" />
         </Icon>
     </>

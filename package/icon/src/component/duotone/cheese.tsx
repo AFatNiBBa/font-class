@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `cheese` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Cheese(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M299.875 32.017C292.125 31.767 284.625 34.267 278.75 39.017L0 256.009H512C512 136.138 417.999 38.267 299.875 32.017Z" />
+            <path class={generic.secondary} d="M299.875 32.017C292.125 31.767 284.625 34.267 278.75 39.017L0 256.009H512C512 136.138 417.999 38.267 299.875 32.017Z" />
             <path d="M512 256V448.001C512 465.626 497.625 480 480 480H32C14.375 480 0 465.626 0 448.001V256H512Z" />
         </Icon>
     </>

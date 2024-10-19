@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `user-large` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function UserLarge(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M256 288.001C335.533 288.001 400 223.528 400 144.001S335.533 0.001 256 0.001C176.477 0.001 112 64.473 112 144.001S176.477 288.001 256 288.001Z" />
+            <path class={generic.secondary} d="M256 288.001C335.533 288.001 400 223.528 400 144.001S335.533 0.001 256 0.001C176.477 0.001 112 64.473 112 144.001S176.477 288.001 256 288.001Z" />
             <path d="M351.998 320.001H160.002C71.639 320.001 0 391.633 0 480.001C0 497.672 14.33 512.001 31.998 512.001H480.002C497.67 512.001 512 497.672 512 480.001C512 391.633 440.367 320.001 351.998 320.001Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `notdef` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Notdef(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M64 390.312L153.541 256L64 121.688V64H102.459L192 198.312L281.541 64H320V121.688L230.459 256L320 390.312V448H281.541L192 313.688L102.459 448H64V390.312Z" />
+            <path class={generic.secondary} d="M64 390.312L153.541 256L64 121.688V64H102.459L192 198.312L281.541 64H320V121.688L230.459 256L320 390.312V448H281.541L192 313.688L102.459 448H64V390.312Z" />
             <path d="M336 0H48C21.49 0 0 21.49 0 48V464C0 490.51 21.49 512 48 512H336C362.51 512 384 490.51 384 464V48C384 21.49 362.51 0 336 0ZM320 448H64V64H320V448Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `chart-pyramid` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function ChartPyramid(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M292.95 53C276.618 25 235.397 25 218.954 53L137.534 192H374.411L292.95 53ZM506.274 417L449.426 320H62.559L5.741 417C-10.591 444.891 9.852 480 42.741 480H469.276C502.051 480 522.606 445 506.274 417Z" />
+            <path class={generic.secondary} d="M292.95 53C276.618 25 235.397 25 218.954 53L137.534 192H374.411L292.95 53ZM506.274 417L449.426 320H62.559L5.741 417C-10.591 444.891 9.852 480 42.741 480H469.276C502.051 480 522.606 445 506.274 417Z" />
             <path d="M449.867 320H63L137.975 192H374.852L449.867 320Z" />
         </Icon>
     </>

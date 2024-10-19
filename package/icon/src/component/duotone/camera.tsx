@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `camera` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Camera(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M256 384C203 384 160 341 160 288S203 192 256 192S352 235 352 288S309 384 256 384Z" />
+            <path class={generic.secondary} d="M256 384C203 384 160 341 160 288S203 192 256 192S352 235 352 288S309 384 256 384Z" />
             <path d="M464 96H376L363.625 63.125C356.625 44.375 338.75 32 318.75 32H193.25C173.25 32 155.25 44.375 148.25 63.125L136 96H48C21.5 96 0 117.5 0 144V432C0 458.5 21.5 480 48 480H464C490.5 480 512 458.5 512 432V144C512 117.5 490.5 96 464 96ZM256 384C203 384 160 341 160 288S203 192 256 192S352 235 352 288S309 384 256 384Z" />
         </Icon>
     </>

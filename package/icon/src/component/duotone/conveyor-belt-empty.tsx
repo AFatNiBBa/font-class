@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `conveyor-belt-empty` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function ConveyorBeltEmpty(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M544 320H96C41.6 320 0 361.6 0 416S41.6 512 96 512H544C598.4 512 640 470.4 640 416S598.4 320 544 320ZM128 448C108.8 448 96 435.2 96 416S108.8 384 128 384S160 396.8 160 416S147.2 448 128 448ZM320 448C300.8 448 288 435.2 288 416S300.8 384 320 384S352 396.8 352 416S339.2 448 320 448ZM512 448C492.8 448 480 435.2 480 416S492.8 384 512 384S544 396.8 544 416S531.2 448 512 448Z" />
+            <path class={generic.secondary} d="M544 320H96C41.6 320 0 361.6 0 416S41.6 512 96 512H544C598.4 512 640 470.4 640 416S598.4 320 544 320ZM128 448C108.8 448 96 435.2 96 416S108.8 384 128 384S160 396.8 160 416S147.2 448 128 448ZM320 448C300.8 448 288 435.2 288 416S300.8 384 320 384S352 396.8 352 416S339.2 448 320 448ZM512 448C492.8 448 480 435.2 480 416S492.8 384 512 384S544 396.8 544 416S531.2 448 512 448Z" />
         </Icon>
     </>
 }

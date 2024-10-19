@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `pen-fancy` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function PenFancy(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M64 288L0 496L97.625 391.75C96.875 389.25 96 386.75 96 384C96 366.375 110.375 352 128 352S160 366.375 160 384S145.625 416 128 416C125.25 416 122.75 415.125 120.25 414.375L16 512L224 448L262.125 348.75L163.25 249.875L64 288Z" />
+            <path class={generic.secondary} d="M64 288L0 496L97.625 391.75C96.875 389.25 96 386.75 96 384C96 366.375 110.375 352 128 352S160 366.375 160 384S145.625 416 128 416C125.25 416 122.75 415.125 120.25 414.375L16 512L224 448L262.125 348.75L163.25 249.875L64 288Z" />
             <path d="M369 28.375L163 249.875L261.875 348.75L483.25 142.5C568.125 67.5 443.5 -56 369 28.375Z" />
         </Icon>
     </>

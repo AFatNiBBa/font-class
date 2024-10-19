@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `up-long` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function UpLong(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 320 512" {...props}>
-            <path opacity={.4} d="M120 159.999H200V471.987C200 494.087 182.094 511.999 160 511.999S120 494.087 120 471.987V159.999Z" />
+            <path class={generic.secondary} d="M120 159.999H200V471.987C200 494.087 182.094 511.999 160 511.999S120 494.087 120 471.987V159.999Z" />
             <path d="M177.594 7.679L281.594 119.749C288.078 126.741 289.812 136.933 286 145.686C282.285 154.218 273.969 159.716 264.715 159.999H55.281C46.031 159.716 37.711 154.218 33.996 145.686C30.187 136.933 31.922 126.741 38.406 119.749L142.406 7.679C151.906 -2.56 168.094 -2.56 177.594 7.679Z" />
         </Icon>
     </>

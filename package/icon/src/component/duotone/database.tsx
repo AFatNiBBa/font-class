@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `database` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Database(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M448 73.125V118.875C448 159.125 347.625 192 224 192S0 159.125 0 118.875V73.125C0 32.875 100.375 0 224 0S448 32.875 448 73.125Z" />
+            <path class={generic.secondary} d="M448 73.125V118.875C448 159.125 347.625 192 224 192S0 159.125 0 118.875V73.125C0 32.875 100.375 0 224 0S448 32.875 448 73.125Z" />
             <path d="M224 224.625C136.25 224.625 48.125 209.125 0 176V278.875C0 319.125 100.375 352 224 352S448 319.125 448 278.875V176C399.875 209.125 311.75 224.625 224 224.625ZM0 336V438.875C0 479.125 100.375 512 224 512S448 479.125 448 438.875V336C399.875 369.125 311.75 384.625 224 384.625S48.125 369.125 0 336Z" />
         </Icon>
     </>

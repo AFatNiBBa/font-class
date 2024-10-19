@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `computer-mouse-scrollwheel` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function ComputerMouseScrollwheel(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M224 0H160C71.625 0 0 71.625 0 160V352C0 440.375 71.625 512 160 512H224C312.375 512 384 440.375 384 352V160C384 71.625 312.375 0 224 0ZM224 160C224 177.625 209.625 192 192 192C174.375 192 160 177.625 160 160V128C160 110.375 174.375 96 192 96C209.625 96 224 110.375 224 128V160Z" />
+            <path class={generic.secondary} d="M224 0H160C71.625 0 0 71.625 0 160V352C0 440.375 71.625 512 160 512H224C312.375 512 384 440.375 384 352V160C384 71.625 312.375 0 224 0ZM224 160C224 177.625 209.625 192 192 192C174.375 192 160 177.625 160 160V128C160 110.375 174.375 96 192 96C209.625 96 224 110.375 224 128V160Z" />
             <path d="M224 160C224 177.625 209.625 192 192 192C174.375 192 160 177.625 160 160V128C160 110.375 174.375 96 192 96C209.625 96 224 110.375 224 128V160Z" />
         </Icon>
     </>

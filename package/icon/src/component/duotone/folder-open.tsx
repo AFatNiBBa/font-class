@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `folder-open` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function FolderOpen(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 576 512" {...props}>
-            <path opacity={.4} d="M480 144V224H147.781C135.656 224 124.578 230.848 119.156 241.688L0 480V80C0 53.492 21.49 32 48 32H208L272 96H432C458.51 96 480 117.492 480 144Z" />
+            <path class={generic.secondary} d="M480 144V224H147.781C135.656 224 124.578 230.848 119.156 241.688L0 480V80C0 53.492 21.49 32 48 32H208L272 96H432C458.51 96 480 117.492 480 144Z" />
             <path d="M572.578 270.312L476.578 462.312C471.16 473.152 460.078 480 447.961 480H0L119.156 241.688C124.578 230.848 135.656 224 147.781 224H543.961C567.746 224 583.219 249.031 572.578 270.312Z" />
         </Icon>
     </>

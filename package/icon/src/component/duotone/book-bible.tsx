@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `book-bible` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BookBible(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M416 384V448H96C78.326 448 64 433.672 64 416C64 398.326 78.326 384 96 384H416Z" />
+            <path class={generic.secondary} d="M416 384V448H96C78.326 448 64 433.672 64 416C64 398.326 78.326 384 96 384H416Z" />
             <path d="M96 384H424C437.254 384 448 373.254 448 360V32C448 14.326 433.674 0 416 0H96C42.98 0 0 42.98 0 96V416C0 469.02 42.98 512 96 512H424C437.254 512 448 501.254 448 488V472C448 458.744 437.254 448 424 448H96C78.326 448 64 433.672 64 416C64 398.326 78.326 384 96 384ZM144 144C144 135.125 151.125 128 160 128H208V80C208 71.125 215.125 64 224 64H256C264.875 64 272 71.125 272 80V128H320C328.875 128 336 135.125 336 144V176C336 184.875 328.875 192 320 192H272V304C272 312.875 264.875 320 256 320H224C215.125 320 208 312.875 208 304V192H160C151.125 192 144 184.875 144 176V144Z" />
         </Icon>
     </>

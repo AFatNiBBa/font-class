@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `megaphone` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Megaphone(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 576 512" {...props}>
-            <path opacity={.4} d="M64 192V320L165.5 353.125C162.25 362.875 160 373.125 160 384C160 437 203 480 256 480C300.5 480 337.625 449.375 348.5 408.25L512 464V48L64 192ZM256 432C229.5 432 208 410.5 208 384C208 378 209.25 372.25 211.25 366.875L302.75 394.5C298 415.875 278.875 432 256 432Z" />
+            <path class={generic.secondary} d="M64 192V320L165.5 353.125C162.25 362.875 160 373.125 160 384C160 437 203 480 256 480C300.5 480 337.625 449.375 348.5 408.25L512 464V48L64 192ZM256 432C229.5 432 208 410.5 208 384C208 378 209.25 372.25 211.25 366.875L302.75 394.5C298 415.875 278.875 432 256 432Z" />
             <path d="M560 32H528C519.125 32 512 39.125 512 48V464C512 472.875 519.125 480 528 480H560C568.875 480 576 472.875 576 464V48C576 39.125 568.875 32 560 32ZM32 160C14.326 160 0 174.328 0 192V320C0 337.672 14.326 352 32 352S64 337.672 64 320V192C64 174.328 49.674 160 32 160Z" />
         </Icon>
     </>

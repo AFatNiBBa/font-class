@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `siren` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Siren(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M128.25 167C128.5 164.875 129.625 162.875 131.25 161.625C133 160.375 135.125 159.75 137.25 160.125L153.125 162.25C155.125 162.5 157.125 163.625 158.375 165.25C159.625 167 160.25 169.125 160 171.25L135.875 352H400L375 152C371 120 343.75 96 311.5 96H136.5C104.25 96 77 120 73 152L48 352H103.5L128.25 167Z" />
+            <path class={generic.secondary} d="M128.25 167C128.5 164.875 129.625 162.875 131.25 161.625C133 160.375 135.125 159.75 137.25 160.125L153.125 162.25C155.125 162.5 157.125 163.625 158.375 165.25C159.625 167 160.25 169.125 160 171.25L135.875 352H400L375 152C371 120 343.75 96 311.5 96H136.5C104.25 96 77 120 73 152L48 352H103.5L128.25 167Z" />
             <path d="M424 352H24C10.745 352 0 362.745 0 376V456C0 469.255 10.745 480 24 480H424C437.255 480 448 469.255 448 456V376C448 362.745 437.255 352 424 352Z" />
         </Icon>
     </>

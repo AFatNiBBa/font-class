@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `rectangle-vertical-history` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function RectangleVerticalHistory(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 576 512" {...props}>
-            <path opacity={.4} d="M0 144V368C0 394.508 21.49 416 48 416V96C21.49 96 0 117.492 0 144ZM96 96V416C96 442.508 117.49 464 144 464V48C117.49 48 96 69.492 96 96Z" />
+            <path class={generic.secondary} d="M0 144V368C0 394.508 21.49 416 48 416V96C21.49 96 0 117.492 0 144ZM96 96V416C96 442.508 117.49 464 144 464V48C117.49 48 96 69.492 96 96Z" />
             <path d="M512 0H256C220.654 0 192 28.652 192 64V448C192 483.348 220.654 512 256 512H512C547.346 512 576 483.348 576 448V64C576 28.652 547.346 0 512 0Z" />
         </Icon>
     </>

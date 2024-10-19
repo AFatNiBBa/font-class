@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `genderless` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Genderless(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M192 320C156.699 320 128 291.297 128 256C128 220.699 156.699 192 192 192S256 220.699 256 256C256 291.297 227.301 320 192 320Z" />
+            <path class={generic.secondary} d="M192 320C156.699 320 128 291.297 128 256C128 220.699 156.699 192 192 192S256 220.699 256 256C256 291.297 227.301 320 192 320Z" />
             <path d="M192 160C244.936 160 288 203.064 288 256S244.936 352 192 352S96 308.936 96 256S139.064 160 192 160M192 80C94.832 80 16 158.83 16 256C16 353.166 94.832 432 192 432S368 353.166 368 256C368 158.83 289.168 80 192 80L192 80Z" />
         </Icon>
     </>

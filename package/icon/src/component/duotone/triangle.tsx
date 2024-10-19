@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `triangle` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Triangle(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M506.274 417.001C522.606 445.001 502.052 480.001 469.275 480.001H42.739C9.852 480.001 -10.592 444.891 5.741 417.001L218.954 53.001C235.397 25.001 276.617 25.001 292.95 53.001L506.274 417.001Z" />
+            <path class={generic.secondary} d="M506.274 417.001C522.606 445.001 502.052 480.001 469.275 480.001H42.739C9.852 480.001 -10.592 444.891 5.741 417.001L218.954 53.001C235.397 25.001 276.617 25.001 292.95 53.001L506.274 417.001Z" />
         </Icon>
     </>
 }

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `shelves-empty` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function ShelvesEmpty(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M608 0C590.4 0 576 14.398 576 32V160H64V32C64 14.398 49.6 0 32 0S0 14.398 0 32V512H64V480H576V512H640V32C640 14.398 625.6 0 608 0ZM576 416H64V224H576V416Z" />
+            <path class={generic.secondary} d="M608 0C590.4 0 576 14.398 576 32V160H64V32C64 14.398 49.6 0 32 0S0 14.398 0 32V512H64V480H576V512H640V32C640 14.398 625.6 0 608 0ZM576 416H64V224H576V416Z" />
         </Icon>
     </>
 }

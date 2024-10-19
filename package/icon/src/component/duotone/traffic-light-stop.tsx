@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `traffic-light-stop` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function TrafficLightStop(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M192 160.001C165.5 160.001 144 138.501 144 112.001S165.5 64.001 192 64.001S240 85.501 240 112.001S218.5 160.001 192 160.001Z" />
+            <path class={generic.secondary} d="M192 160.001C165.5 160.001 144 138.501 144 112.001S165.5 64.001 192 64.001S240 85.501 240 112.001S218.5 160.001 192 160.001Z" />
             <path d="M384 192H320V154.125C357.25 140.875 384 105.75 384 64H320V32C320 14.375 305.625 0 288 0H96C78.375 0 64 14.375 64 32V64H0C0 105.75 26.75 140.875 64 154.125V192H0C0 233.75 26.75 268.875 64 282.125V320H0C0 362.875 28.25 398.75 67 411C79.375 468.75 130.625 512 192 512S304.625 468.75 317 411C355.75 398.75 384 362.875 384 320H320V282.125C357.25 268.875 384 233.75 384 192ZM192 416C165.5 416 144 394.5 144 368S165.5 320 192 320S240 341.5 240 368S218.5 416 192 416ZM192 288C165.5 288 144 266.5 144 240S165.5 192 192 192S240 213.5 240 240S218.5 288 192 288ZM192 160C165.5 160 144 138.5 144 112S165.5 64 192 64S240 85.5 240 112S218.5 160 192 160Z" />
         </Icon>
     </>

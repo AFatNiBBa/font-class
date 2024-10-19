@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `lamp-street` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function LampStreet(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M288 128V227.453L352 227.439V128C352 57.422 294.594 0 224 0H128C57.406 0 0 57.422 0 128V512H64V128C64 92.703 92.719 64 128 64H224C259.281 64 288 92.703 288 128ZM256.041 448C256.041 483.375 284.666 512 320.041 512S384.041 483.375 384.041 448H256.041Z" />
+            <path class={generic.secondary} d="M288 128V227.453L352 227.439V128C352 57.422 294.594 0 224 0H128C57.406 0 0 57.422 0 128V512H64V128C64 92.703 92.719 64 128 64H224C259.281 64 288 92.703 288 128ZM256.041 448C256.041 483.375 284.666 512 320.041 512S384.041 483.375 384.041 448H256.041Z" />
             <path d="M511.781 388.906C513.749 403.25 502.124 416 487.593 416H152.406C137.874 416 126.249 403.25 128.218 388.906C140.019 306.215 205.251 241.23 287.999 227.453L351.999 227.439C434.773 241.197 499.978 306.193 511.781 388.906Z" />
         </Icon>
     </>

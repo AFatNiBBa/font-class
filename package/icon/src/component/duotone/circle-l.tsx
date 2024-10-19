@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `circle-l` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function CircleL(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M256 16C123.451 16 16 123.451 16 256S123.451 496 256 496S496 388.549 496 256S388.549 16 256 16ZM328 384H184C170.75 384 160 373.25 160 360V152C160 138.75 170.75 128 184 128S208 138.75 208 152V336H328C341.25 336 352 346.75 352 360S341.25 384 328 384Z" />
+            <path class={generic.secondary} d="M256 16C123.451 16 16 123.451 16 256S123.451 496 256 496S496 388.549 496 256S388.549 16 256 16ZM328 384H184C170.75 384 160 373.25 160 360V152C160 138.75 170.75 128 184 128S208 138.75 208 152V336H328C341.25 336 352 346.75 352 360S341.25 384 328 384Z" />
             <path d="M328 336H208V152C208 138.75 197.25 128 184 128S160 138.75 160 152V360C160 373.25 170.75 384 184 384H328C341.25 384 352 373.25 352 360S341.25 336 328 336Z" />
         </Icon>
     </>

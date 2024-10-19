@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `seedling` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Seedling(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M512.098 32C512.098 155.75 411.848 256 288.098 256V320C288.098 266.484 269.289 217.412 238 178.893C269.449 93.215 351.49 32 448.098 32H512.098Z" />
+            <path class={generic.secondary} d="M512.098 32C512.098 155.75 411.848 256 288.098 256V320C288.098 266.484 269.289 217.412 238 178.893C269.449 93.215 351.49 32 448.098 32H512.098Z" />
             <path d="M64 96H0C0 219.75 100.25 320 224 320V448C224 465.6 238.4 480 256 480H256C273.6 480 288 465.6 288 448V320C288 196.288 187.712 96 64 96Z" />
         </Icon>
     </>

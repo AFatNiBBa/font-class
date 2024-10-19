@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `gem` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Gem(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M256 192L400 64H112L256 192ZM222.25 224L112 64L0 224H222.25ZM512 224L400 64L289.75 224H512Z" />
+            <path class={generic.secondary} d="M256 192L400 64H112L256 192ZM222.25 224L112 64L0 224H222.25ZM512 224L400 64L289.75 224H512Z" />
             <path d="M512 224L267.688 474.938C264.656 478.172 260.438 480 256 480S247.344 478.172 244.312 474.938L0 224H512Z" />
         </Icon>
     </>

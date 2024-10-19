@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `bookmark` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Bookmark(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M384 48V512L192 400L0 512V48C0 21.5 21.5 0 48 0H336C362.5 0 384 21.5 384 48Z" />
+            <path class={generic.secondary} d="M384 48V512L192 400L0 512V48C0 21.5 21.5 0 48 0H336C362.5 0 384 21.5 384 48Z" />
         </Icon>
     </>
 }

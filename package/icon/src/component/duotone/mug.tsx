@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `mug` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Mug(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 576 512" {...props}>
-            <path opacity={.4} d="M416 128V64H448C518.75 64 576 121.25 576 192S518.75 320 448 320H416V256H448C483.375 256 512 227.375 512 192S483.375 128 448 128H416Z" />
+            <path class={generic.secondary} d="M416 128V64H448C518.75 64 576 121.25 576 192S518.75 320 448 320H416V256H448C483.375 256 512 227.375 512 192S483.375 128 448 128H416Z" />
             <path d="M416 352C416 405 373 448 320 448H128C75 448 32 405 32 352V88C32 72.976 44.419 64 56 64H416V352Z" />
         </Icon>
     </>

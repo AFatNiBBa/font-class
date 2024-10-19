@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `block-quote` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BlockQuote(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M512 96C512 78.326 497.674 64 480 64H32C14.326 64 0 78.326 0 96S14.326 128 32 128H480C497.674 128 512 113.674 512 96ZM480 224H192C174.326 224 160 238.326 160 256S174.326 288 192 288H480C497.674 288 512 273.674 512 256S497.674 224 480 224ZM480 384H192C174.326 384 160 398.326 160 416S174.326 448 192 448H480C497.674 448 512 433.674 512 416S497.674 384 480 384Z" />
+            <path class={generic.secondary} d="M512 96C512 78.326 497.674 64 480 64H32C14.326 64 0 78.326 0 96S14.326 128 32 128H480C497.674 128 512 113.674 512 96ZM480 224H192C174.326 224 160 238.326 160 256S174.326 288 192 288H480C497.674 288 512 273.674 512 256S497.674 224 480 224ZM480 384H192C174.326 384 160 398.326 160 416S174.326 448 192 448H480C497.674 448 512 433.674 512 416S497.674 384 480 384Z" />
             <path d="M32 208C14.326 208 0 222.326 0 240V432C0 449.674 14.326 464 32 464S64 449.674 64 432V240C64 222.326 49.674 208 32 208Z" />
         </Icon>
     </>

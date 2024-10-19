@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `window-restore` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function WindowRestore(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M448 0.001H192C156.654 0.001 128 28.653 128 64.001V96.001H320C372.936 96.001 416 139.067 416 192.001V384.001H448C483.346 384.001 512 355.344 512 320.001V64.001C512 28.653 483.346 0.001 448 0.001Z" />
+            <path class={generic.secondary} d="M448 0.001H192C156.654 0.001 128 28.653 128 64.001V96.001H320C372.936 96.001 416 139.067 416 192.001V384.001H448C483.346 384.001 512 355.344 512 320.001V64.001C512 28.653 483.346 0.001 448 0.001Z" />
             <path d="M320 128.001H64C28.654 128.001 0 156.653 0 192.001V448.001C0 483.344 28.654 512.001 64 512.001H320C355.346 512.001 384 483.344 384 448.001V192.001C384 159.723 357.684 128.001 320 128.001ZM320 256.001H64V192.001H320V256.001Z" />
         </Icon>
     </>

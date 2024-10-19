@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `circle-quarter` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function CircleQuarter(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M256 256V16C388.547 16 496 123.451 496 256S388.547 496 256 496C123.451 496 16 388.547 16 256H256Z" />
+            <path class={generic.secondary} d="M256 256V16C388.547 16 496 123.451 496 256S388.547 496 256 496C123.451 496 16 388.547 16 256H256Z" />
             <path d="M256 256H16C16 123.451 123.453 16 256 16V256Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `book-open-reader` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BookOpenReader(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M352 96C352 43 309 0 256 0S160 43 160 96S203 192 256 192S352 149 352 96Z" />
+            <path class={generic.secondary} d="M352 96C352 43 309 0 256 0S160 43 160 96S203 192 256 192S352 149 352 96Z" />
             <path d="M0 219.125V431.662C0 445.912 11.625 457.912 26.5 458.662C75.318 461.18 180.178 471.367 240 512V245.232C181.361 205.492 79.898 194.85 29.75 192C13.5 191.125 0 203.5 0 219.125ZM482.25 192C432.16 194.848 330.875 205.467 272.203 245.094C272.074 245.182 272 245.326 272 245.482V511.906C332.043 471.518 436.695 461.178 485.5 458.662C500.375 457.912 512 445.912 512 431.662V219.125C512 203.5 498.5 191.125 482.25 192Z" />
         </Icon>
     </>

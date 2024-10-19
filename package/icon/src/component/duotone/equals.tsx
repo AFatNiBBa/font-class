@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `equals` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Equals(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M392 200H56C33.906 200 16 182.094 16 160S33.906 120 56 120H392C414.094 120 432 137.906 432 160S414.094 200 392 200Z" />
+            <path class={generic.secondary} d="M392 200H56C33.906 200 16 182.094 16 160S33.906 120 56 120H392C414.094 120 432 137.906 432 160S414.094 200 392 200Z" />
             <path d="M392 392H56C33.906 392 16 374.094 16 352S33.906 312 56 312H392C414.094 312 432 329.906 432 352S414.094 392 392 392Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `flag-pennant` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function FlagPennant(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M512.264 208C512.264 218.062 505.998 227.031 496.561 230.531L64.264 389.801V32C64.264 29.777 63.432 27.828 63 25.734L496.561 185.469C505.998 188.969 512.264 197.938 512.264 208Z" />
+            <path class={generic.secondary} d="M512.264 208C512.264 218.062 505.998 227.031 496.561 230.531L64.264 389.801V32C64.264 29.777 63.432 27.828 63 25.734L496.561 185.469C505.998 188.969 512.264 197.938 512.264 208Z" />
             <path d="M32 0C14.326 0 0 14.328 0 32V496C0 504.836 7.164 512 16 512H48C56.836 512 64 504.836 64 496V32C64 14.328 49.674 0 32 0Z" />
         </Icon>
     </>

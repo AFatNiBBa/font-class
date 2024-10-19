@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `star-sharp-half` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function StarSharpHalf(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 576 512" {...props}>
-            <path opacity={.4} d="M548.475 214.543L404.775 319.035L459.664 488.109C465.102 504.865 445.941 518.799 431.699 508.443L288 403.951V0C295.283 0 302.562 4.188 305.282 12.566L360.171 181.641H537.792C555.396 181.641 562.716 204.186 548.475 214.543Z" />
+            <path class={generic.secondary} d="M548.475 214.543L404.775 319.035L459.664 488.109C465.102 504.865 445.941 518.799 431.699 508.443L288 403.951V0C295.283 0 302.562 4.188 305.282 12.566L360.171 181.641H537.792C555.396 181.641 562.716 204.186 548.475 214.543Z" />
             <path d="M288 0V403.951L144.301 508.443C130.059 518.799 110.898 504.865 116.336 488.109L171.225 319.035L27.525 214.543C13.284 204.186 20.604 181.641 38.208 181.641H215.829L270.718 12.566C273.438 4.188 280.717 0 288 0Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `forward` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Forward(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M52.506 440.594L223.996 297.727V214.273L52.506 71.406C31.879 54.284 0 68.657 0 96.027V415.973C0 443.343 31.879 457.716 52.506 440.594Z" />
+            <path class={generic.secondary} d="M52.506 440.594L223.996 297.727V214.273L52.506 71.406C31.879 54.284 0 68.657 0 96.027V415.973C0 443.343 31.879 457.716 52.506 440.594Z" />
             <path d="M308.506 440.594L500.53 280.621C515.782 267.748 515.782 244.252 500.53 231.379L308.506 71.406C287.879 54.284 256 68.657 256 96.027V415.973C256 443.343 287.879 457.716 308.506 440.594Z" />
         </Icon>
     </>

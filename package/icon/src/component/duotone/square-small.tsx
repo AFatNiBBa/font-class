@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `square-small` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function SquareSmall(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 320 512" {...props}>
-            <path opacity={.4} d="M320 160V352C320 387.346 291.346 416 256 416H64C28.654 416 0 387.346 0 352V160C0 124.654 28.654 96 64 96H256C291.346 96 320 124.654 320 160Z" />
+            <path class={generic.secondary} d="M320 160V352C320 387.346 291.346 416 256 416H64C28.654 416 0 387.346 0 352V160C0 124.654 28.654 96 64 96H256C291.346 96 320 124.654 320 160Z" />
         </Icon>
     </>
 }

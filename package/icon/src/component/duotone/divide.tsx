@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `divide` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Divide(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M224 144C250.531 144 272 122.531 272 96S250.531 48 224 48S176 69.469 176 96S197.469 144 224 144ZM224 368C197.469 368 176 389.469 176 416S197.469 464 224 464S272 442.531 272 416S250.531 368 224 368Z" />
+            <path class={generic.secondary} d="M224 144C250.531 144 272 122.531 272 96S250.531 48 224 48S176 69.469 176 96S197.469 144 224 144ZM224 368C197.469 368 176 389.469 176 416S197.469 464 224 464S272 442.531 272 416S250.531 368 224 368Z" />
             <path d="M392 216H56C33.906 216 16 233.906 16 256S33.906 296 56 296H392C414.094 296 432 278.094 432 256S414.094 216 392 216Z" />
         </Icon>
     </>

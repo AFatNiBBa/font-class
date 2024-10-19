@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `laptop-medical` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function LaptopMedical(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M128 96H512V352H576V80C576 53.625 554.375 32 528 32H112C85.625 32 64 53.625 64 80V352H128V96ZM624 384H16C7.25 384 0 391.25 0 400V416C0 451.25 28.75 480 64 480H576C611.25 480 640 451.25 640 416V400C640 391.25 632.75 384 624 384Z" />
+            <path class={generic.secondary} d="M128 96H512V352H576V80C576 53.625 554.375 32 528 32H112C85.625 32 64 53.625 64 80V352H128V96ZM624 384H16C7.25 384 0 391.25 0 400V416C0 451.25 28.75 480 64 480H576C611.25 480 640 451.25 640 416V400C640 391.25 632.75 384 624 384Z" />
             <path d="M128 96V352H512V96H128ZM416 240C416 248.8 408.8 256 400 256H352V304C352 312.8 344.8 320 336 320H304C295.2 320 288 312.8 288 304V256H240C231.2 256 224 248.8 224 240V208C224 199.2 231.2 192 240 192H288V144C288 135.2 295.2 128 304 128H336C344.8 128 352 135.2 352 144V192H400C408.8 192 416 199.2 416 208V240Z" />
         </Icon>
     </>

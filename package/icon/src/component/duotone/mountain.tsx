@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `mountain` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Mountain(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M208.129 275.754L137 180.914L232.057 32C242.475 15.672 269.785 15.672 280.203 32L394.945 211.754H256.129L208.129 275.754Z" />
+            <path class={generic.secondary} d="M208.129 275.754L137 180.914L232.057 32C242.475 15.672 269.785 15.672 280.203 32L394.945 211.754H256.129L208.129 275.754Z" />
             <path d="M503.193 393.783C514.306 411.18 514.945 433.193 504.861 451.234C494.929 468.973 476.078 480 455.685 480H56.314C35.921 480 17.072 468.973 7.14 451.234C-2.946 433.207 -2.307 411.193 8.806 393.783L136.871 193.16L208 288L256 224H394.816L503.193 393.783Z" />
         </Icon>
     </>

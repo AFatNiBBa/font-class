@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `circle-stop` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function CircleStop(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M256 16C123.42 16 16 123.418 16 256C16 388.58 123.42 496 256 496S496 388.58 496 256C496 123.418 388.58 16 256 16ZM352 328C352 341.199 341.199 352 328 352H184C170.801 352 160 341.199 160 328V184C160 170.799 170.801 160 184 160H328C341.199 160 352 170.799 352 184V328Z" />
+            <path class={generic.secondary} d="M256 16C123.42 16 16 123.418 16 256C16 388.58 123.42 496 256 496S496 388.58 496 256C496 123.418 388.58 16 256 16ZM352 328C352 341.199 341.199 352 328 352H184C170.801 352 160 341.199 160 328V184C160 170.799 170.801 160 184 160H328C341.199 160 352 170.799 352 184V328Z" />
             <path d="M352 328C352 341.199 341.199 352 328 352H184C170.801 352 160 341.199 160 328V184C160 170.799 170.801 160 184 160H328C341.199 160 352 170.799 352 184V328Z" />
         </Icon>
     </>

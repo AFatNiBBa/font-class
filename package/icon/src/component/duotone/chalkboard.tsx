@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `chalkboard` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Chalkboard(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 576 512" {...props}>
-            <path opacity={.4} d="M560 416H544V72C544 50 526 32 504 32H72C49.999 32 32 50 32 72V416H16C7.164 416 0 423.162 0 432V464C0 472.836 7.164 480 16 480H560C568.836 480 576 472.836 576 464V432C576 423.162 568.836 416 560 416ZM96 416V96H480V416H96Z" />
+            <path class={generic.secondary} d="M560 416H544V72C544 50 526 32 504 32H72C49.999 32 32 50 32 72V416H16C7.164 416 0 423.162 0 432V464C0 472.836 7.164 480 16 480H560C568.836 480 576 472.836 576 464V432C576 423.162 568.836 416 560 416ZM96 416V96H480V416H96Z" />
             <path d="M480 96V416H416V368C416 359.162 408.836 352 400 352H240C231.164 352 224 359.162 224 368V416H96V96H480Z" />
         </Icon>
     </>

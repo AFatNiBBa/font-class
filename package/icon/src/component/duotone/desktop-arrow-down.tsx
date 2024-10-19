@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `desktop-arrow-down` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function DesktopArrowDown(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 576 512" {...props}>
-            <path opacity={.4} d="M576 48V368C576 394.5 554.5 416 528 416H48C21.5 416 0 394.5 0 368V48C0 21.5 21.5 0 48 0H264V64H64V288H512V64H312V0H528C554.5 0 576 21.5 576 48Z" />
+            <path class={generic.secondary} d="M576 48V368C576 394.5 554.5 416 528 416H48C21.5 416 0 394.5 0 368V48C0 21.5 21.5 0 48 0H264V64H64V288H512V64H312V0H528C554.5 0 576 21.5 576 48Z" />
             <path d="M424 464H352L336 416H240L224 464H152C138.75 464 128 474.75 128 488S138.75 512 152 512H424C437.25 512 448 501.25 448 488S437.25 464 424 464ZM312 64V158.062L351.031 119.031C360.406 109.656 375.594 109.656 384.969 119.031S394.344 143.594 384.969 152.969L304.969 232.969C295.594 242.344 280.406 242.344 271.031 232.969L191.031 152.969C181.656 143.594 181.656 128.406 191.031 119.031C195.719 114.344 201.844 112 208 112S220.281 114.344 224.969 119.031L264 158.062V64H64V288H512V64H312Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `diagram-lean-canvas` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function DiagramLeanCanvas(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M64 320H128V96H64V320ZM512 96V320H576V96H512Z" />
+            <path class={generic.secondary} d="M64 320H128V96H64V320ZM512 96V320H576V96H512Z" />
             <path d="M576 32H64C28.652 32 0 60.654 0 96V416C0 451.346 28.652 480 64 480H576C611.348 480 640 451.346 640 416V96C640 60.654 611.348 32 576 32ZM576 96V320H512V96H576ZM400 232H464V320H400V232ZM464 96V184H400V96H464ZM352 96V320H288V96H352ZM176 232H240V320H176V232ZM240 96V184H176V96H240ZM128 96V320H64V96H128ZM64 416V368H296V416H64ZM344 416V368H576V416H344Z" />
         </Icon>
     </>

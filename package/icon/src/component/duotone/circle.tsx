@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `circle` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Circle(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M496 256C496 388.548 388.548 496 256 496S16 388.548 16 256S123.452 16 256 16S496 123.452 496 256Z" />
+            <path class={generic.secondary} d="M496 256C496 388.548 388.548 496 256 496S16 388.548 16 256S123.452 16 256 16S496 123.452 496 256Z" />
         </Icon>
     </>
 }

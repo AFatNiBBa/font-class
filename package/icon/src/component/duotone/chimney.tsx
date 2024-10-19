@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `chimney` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Chimney(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M128 192H32V320H128V192ZM32 480H288V352H32V480ZM160 192V320H416V192H160ZM320 480H416V352H320V480Z" />
+            <path class={generic.secondary} d="M128 192H32V320H128V192ZM32 480H288V352H32V480ZM160 192V320H416V192H160ZM320 480H416V352H320V480Z" />
             <path d="M416 32H32C14.25 32 0 46.25 0 64V128C0 145.75 14.25 160 32 160H416C433.75 160 448 145.75 448 128V64C448 46.25 433.75 32 416 32Z" />
         </Icon>
     </>

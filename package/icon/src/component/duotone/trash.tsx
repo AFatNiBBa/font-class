@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `trash` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Trash(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M53.188 467.001C54.75 491.844 76.219 512.001 101.094 512.001H346.906C371.781 512.001 393.25 491.844 394.812 467.001L416 96.001H32L53.188 467.001Z" />
+            <path class={generic.secondary} d="M53.188 467.001C54.75 491.844 76.219 512.001 101.094 512.001H346.906C371.781 512.001 393.25 491.844 394.812 467.001L416 96.001H32L53.188 467.001Z" />
             <path d="M448 48.001V80.001C448 88.837 440.838 96.001 432 96.001H16C7.164 96.001 0 88.837 0 80.001V48.001C0 39.163 7.164 32.001 16 32.001H128L139.578 8.844C142.289 3.424 147.828 0.001 153.889 0.001H294.111C300.172 0.001 305.713 3.424 308.422 8.844L320 32.001H432C440.838 32.001 448 39.163 448 48.001Z" />
         </Icon>
     </>

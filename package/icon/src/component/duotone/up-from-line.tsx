@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `up-from-line` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function UpFromLine(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M352 416H32C14.327 416 0 430.327 0 448V448C0 465.673 14.327 480 32 480H352C369.673 480 384 465.673 384 448V448C384 430.327 369.673 416 352 416Z" />
+            <path class={generic.secondary} d="M352 416H32C14.327 416 0 430.327 0 448V448C0 465.673 14.327 480 32 480H352C369.673 480 384 465.673 384 448V448C384 430.327 369.673 416 352 416Z" />
             <path d="M33.955 209.306C30.173 200.503 31.97 190.277 38.548 183.303L174.548 39.2C183.611 29.6 200.392 29.6 209.455 39.2L345.455 183.303C352.033 190.277 353.83 200.503 350.048 209.306C346.251 218.11 337.58 223.817 328.001 223.817H256.001V351.908C256.001 369.595 241.675 383.931 224.001 383.931H160.001C142.33 383.931 128.001 369.595 128.001 351.908V223.817H56.001C46.423 223.817 37.751 218.11 33.955 209.306Z" />
         </Icon>
     </>

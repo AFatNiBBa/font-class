@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `sign-hanging` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function SignHanging(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M496 64H128V16C128 7.25 120.75 0 112 0H80C71.25 0 64 7.25 64 16V64H16C7.25 64 0 71.25 0 80V112C0 120.75 7.25 128 16 128H64V496C64 504.75 71.25 512 80 512H112C120.75 512 128 504.75 128 496V128H496C504.75 128 512 120.75 512 112V80C512 71.25 504.75 64 496 64Z" />
+            <path class={generic.secondary} d="M496 64H128V16C128 7.25 120.75 0 112 0H80C71.25 0 64 7.25 64 16V64H16C7.25 64 0 71.25 0 80V112C0 120.75 7.25 128 16 128H64V496C64 504.75 71.25 512 80 512H112C120.75 512 128 504.75 128 496V128H496C504.75 128 512 120.75 512 112V80C512 71.25 504.75 64 496 64Z" />
             <path d="M160 384H480V128H160V384Z" />
         </Icon>
     </>

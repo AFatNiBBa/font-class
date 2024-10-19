@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `copy` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Copy(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M512 96V336C512 362.508 490.51 384 464 384H272C245.49 384 224 362.508 224 336V48C224 21.492 245.49 0 272 0H416V96H512Z" />
+            <path class={generic.secondary} d="M512 96V336C512 362.508 490.51 384 464 384H272C245.49 384 224 362.508 224 336V48C224 21.492 245.49 0 272 0H416V96H512Z" />
             <path d="M192 352V128H48C21.49 128 0 149.492 0 176V464C0 490.508 21.49 512 48 512H240C266.51 512 288 490.508 288 464V416H256C220.652 416 192 387.344 192 352ZM416 0V96H512L416 0Z" />
         </Icon>
     </>

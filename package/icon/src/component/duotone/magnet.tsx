@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `magnet` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Magnet(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M96 31.999H32C14.328 31.999 0 46.327 0 63.999V127.999H128V63.999C128 46.327 113.674 31.999 96 31.999ZM416 31.999H352C334.328 31.999 320 46.327 320 63.999V127.999H448V63.999C448 46.327 433.674 31.999 416 31.999Z" />
+            <path class={generic.secondary} d="M96 31.999H32C14.328 31.999 0 46.327 0 63.999V127.999H128V63.999C128 46.327 113.674 31.999 96 31.999ZM416 31.999H352C334.328 31.999 320 46.327 320 63.999V127.999H448V63.999C448 46.327 433.674 31.999 416 31.999Z" />
             <path d="M448 127.999V256C448 389.212 331.117 495.638 194.52 478.103C81.611 463.61 0 362.032 0 248.199V127.999H128V252.211C128 298.641 159.291 341.289 204.867 350.141C266.154 362.043 320 315.196 320 256V127.999H448Z" />
         </Icon>
     </>

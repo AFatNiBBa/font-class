@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `caret-down` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function CaretDown(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 320 512" {...props}>
-            <path opacity={.4} d="M310.625 246.625L182.625 374.625C176.375 380.875 168.188 384 160 384S143.625 380.875 137.375 374.625L9.375 246.625C0.219 237.469 -2.516 223.719 2.438 211.75S19.063 192 32 192H288C300.938 192 312.609 199.781 317.563 211.75S319.781 237.469 310.625 246.625Z" />
+            <path class={generic.secondary} d="M310.625 246.625L182.625 374.625C176.375 380.875 168.188 384 160 384S143.625 380.875 137.375 374.625L9.375 246.625C0.219 237.469 -2.516 223.719 2.438 211.75S19.063 192 32 192H288C300.938 192 312.609 199.781 317.563 211.75S319.781 237.469 310.625 246.625Z" />
         </Icon>
     </>
 }

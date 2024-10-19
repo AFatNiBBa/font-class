@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `scythe` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Scythe(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M583.873 0H338.852C191.986 0 63.996 64 0 192H544L583.873 0Z" />
+            <path class={generic.secondary} d="M583.873 0H338.852C191.986 0 63.996 64 0 192H544L583.873 0Z" />
             <path d="M632.607 11.625C626.607 4.25 617.482 0 607.984 0H582.486L522.74 288H415.998C398.326 288 384 302.326 384 320S398.326 352 415.998 352H509.49L480.242 493C479.367 497.75 480.617 502.5 483.742 506.25C486.742 509.875 491.242 512 495.992 512H527.49C535.113 512 541.738 506.5 543.113 499L639.48 38C641.23 28.625 638.73 19 632.607 11.625Z" />
         </Icon>
     </>

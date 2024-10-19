@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `grip-lines` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function GripLines(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M416 288H32C14.4 288 0 302.4 0 320V320C0 337.6 14.4 352 32 352H416C433.6 352 448 337.6 448 320V320C448 302.4 433.6 288 416 288Z" />
+            <path class={generic.secondary} d="M416 288H32C14.4 288 0 302.4 0 320V320C0 337.6 14.4 352 32 352H416C433.6 352 448 337.6 448 320V320C448 302.4 433.6 288 416 288Z" />
             <path d="M416 160H32C14.4 160 0 174.4 0 192V192C0 209.6 14.4 224 32 224H416C433.6 224 448 209.6 448 192V192C448 174.4 433.6 160 416 160Z" />
         </Icon>
     </>

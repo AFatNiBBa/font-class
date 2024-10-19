@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `industry` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Industry(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M512 152.016V448C512 465.672 497.672 480 480 480H128C145.672 480 160 465.672 160 448V224L299.125 131.766C315.125 121.641 336 133.141 336 152.016V224L475.125 131.766C491.125 121.641 512 133.141 512 152.016Z" />
+            <path class={generic.secondary} d="M512 152.016V448C512 465.672 497.672 480 480 480H128C145.672 480 160 465.672 160 448V224L299.125 131.766C315.125 121.641 336 133.141 336 152.016V224L475.125 131.766C491.125 121.641 512 133.141 512 152.016Z" />
             <path d="M128 480H32C14.327 480 0 465.673 0 448V64C0 46.327 14.327 32 32 32H128C145.673 32 160 46.327 160 64V448C160 465.673 145.673 480 128 480Z" />
         </Icon>
     </>

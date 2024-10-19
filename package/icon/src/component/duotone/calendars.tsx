@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `calendars` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Calendars(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M96 368C96 394.5 117.5 416 144 416H464C490.5 416 512 394.5 512 368V192H96V368Z" />
+            <path class={generic.secondary} d="M96 368C96 394.5 117.5 416 144 416H464C490.5 416 512 394.5 512 368V192H96V368Z" />
             <path d="M464 64H416V32C416 14.4 401.6 0 384 0H384C366.4 0 352 14.4 352 32V64H256V32C256 14.4 241.6 0 224 0H224C206.4 0 192 14.4 192 32V64H144C117.49 64 96 85.491 96 112V192H512V112C512 85.491 490.51 64 464 64ZM48 432V160C21.49 160 0 181.493 0 208V448C0 483.344 28.654 512 64 512H368C394.51 512 416 490.508 416 464H80C62.326 464 48 449.672 48 432Z" />
         </Icon>
     </>

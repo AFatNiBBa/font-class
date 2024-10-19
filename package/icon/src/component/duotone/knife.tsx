@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `knife` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Knife(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M279.609 315.086L202 237.477L441.322 8.379C452.443 -2.742 470.574 -2.844 481.801 8.379C529.574 56.156 556.461 331.18 279.609 315.086Z" />
+            <path class={generic.secondary} d="M279.609 315.086L202 237.477L441.322 8.379C452.443 -2.742 470.574 -2.844 481.801 8.379C529.574 56.156 556.461 331.18 279.609 315.086Z" />
             <path d="M201.826 237.477L279.435 315.086L90.388 502.504C85.144 508.328 77.738 511.781 69.886 511.992C62.005 512.176 54.417 509.172 48.857 503.609L8.38 463.133C-2.793 451.961 -2.793 433.828 8.38 422.656L201.826 237.477Z" />
         </Icon>
     </>

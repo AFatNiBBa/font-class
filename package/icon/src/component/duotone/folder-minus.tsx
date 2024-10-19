@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `folder-minus` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function FolderMinus(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M464 96H272L208 32H48C21.5 32 0 53.5 0 80V432C0 458.5 21.5 480 48 480H464C490.5 480 512 458.5 512 432V144C512 117.5 490.5 96 464 96ZM336 311.998H176C162.73 311.998 152 301.256 152 288C152 274.742 162.738 264.002 176 264.002H336C349.262 264.002 360 274.742 360 288S349.262 311.998 336 311.998Z" />
+            <path class={generic.secondary} d="M464 96H272L208 32H48C21.5 32 0 53.5 0 80V432C0 458.5 21.5 480 48 480H464C490.5 480 512 458.5 512 432V144C512 117.5 490.5 96 464 96ZM336 311.998H176C162.73 311.998 152 301.256 152 288C152 274.742 162.738 264.002 176 264.002H336C349.262 264.002 360 274.742 360 288S349.262 311.998 336 311.998Z" />
             <path d="M360 288C360 301.258 349.262 311.998 336.002 311.998H175.998C162.73 311.998 152 301.256 152 288C152 274.742 162.738 264.002 175.998 264.002H336.002C349.262 264.002 360 274.742 360 288Z" />
         </Icon>
     </>

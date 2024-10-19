@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `van-shuttle` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function VanShuttle(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M160 320C115.816 320 80 355.816 80 400S115.816 480 160 480S240 444.184 240 400S204.184 320 160 320ZM480 320C435.816 320 400 355.816 400 400S435.816 480 480 480S560 444.184 560 400S524.184 320 480 320Z" />
+            <path class={generic.secondary} d="M160 320C115.816 320 80 355.816 80 400S115.816 480 160 480S240 444.184 240 400S204.184 320 160 320ZM480 320C435.816 320 400 355.816 400 400S435.816 480 480 480S560 444.184 560 400S524.184 320 480 320Z" />
             <path d="M628.875 210.625L494.391 49.268C485.271 38.326 471.762 32 457.518 32H48C21.6 32 0 53.6 0 80V336C0 362.4 21.6 384 48 384H49.613C57.438 329.791 103.625 288 160 288S262.562 329.791 270.387 384H369.613C377.438 329.791 423.625 288 480 288S582.562 329.791 590.387 384H592C618.4 384 640 362.4 640 336V241.375C640 230.125 636 219.25 628.875 210.625ZM160 192H64V96H160V192ZM320 192H224V96H320V192ZM384 192V96H450L530 192H384Z" />
         </Icon>
     </>

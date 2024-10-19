@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `location` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Location(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M0 192.001C0 85.969 85.969 0 192 0S384 85.969 384 192.001C384 269.408 357.031 291.033 211.719 501.676C202.187 515.441 181.812 515.441 172.281 501.676C26.969 291.033 0 269.408 0 192.001Z" />
+            <path class={generic.secondary} d="M0 192.001C0 85.969 85.969 0 192 0S384 85.969 384 192.001C384 269.408 357.031 291.033 211.719 501.676C202.187 515.441 181.812 515.441 172.281 501.676C26.969 291.033 0 269.408 0 192.001Z" />
         </Icon>
     </>
 }

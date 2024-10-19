@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `location-arrow` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function LocationArrow(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M444.422 98.206L300.424 450.189C292.939 468.469 275.189 480 256.018 480C227.178 480 208.002 456.002 208.002 432.002V272.01H48.004C25.067 272.01 5.332 255.792 0.91 233.262C-3.527 210.763 8.598 188.264 29.832 179.577L381.829 35.584C399.688 28.241 420.282 32.397 433.938 46.083C447.61 59.739 451.75 80.301 444.422 98.206Z" />
+            <path class={generic.secondary} d="M444.422 98.206L300.424 450.189C292.939 468.469 275.189 480 256.018 480C227.178 480 208.002 456.002 208.002 432.002V272.01H48.004C25.067 272.01 5.332 255.792 0.91 233.262C-3.527 210.763 8.598 188.264 29.832 179.577L381.829 35.584C399.688 28.241 420.282 32.397 433.938 46.083C447.61 59.739 451.75 80.301 444.422 98.206Z" />
         </Icon>
     </>
 }

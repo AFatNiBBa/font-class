@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `suitcase` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Suitcase(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M64 480H128V96H64V480ZM384 96V480H448V96H384Z" />
+            <path class={generic.secondary} d="M64 480H128V96H64V480ZM384 96V480H448V96H384Z" />
             <path d="M0 144V432C0 457.594 22.406 480 48 480H64V96H48C22.406 96 0 118.406 0 144ZM464 96H448V480H464C489.594 480 512 457.594 512 432V144C512 118.406 489.594 96 464 96ZM336 0H176C150.406 0 128 22.406 128 48V480H384V48C384 22.406 361.594 0 336 0ZM336 96H176V48H336V96Z" />
         </Icon>
     </>

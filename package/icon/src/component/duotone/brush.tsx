@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `brush` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Brush(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M384 32V288H0V32C0 14.375 14.375 0 32 0H64L96 64L128 0H160L192 64L224 0H352C369.625 0 384 14.375 384 32Z" />
+            <path class={generic.secondary} d="M384 32V288H0V32C0 14.375 14.375 0 32 0H64L96 64L128 0H160L192 64L224 0H352C369.625 0 384 14.375 384 32Z" />
             <path d="M0 288V320C0 355.375 28.625 384 64 384H128V448C128 483.375 156.625 512 192 512S256 483.375 256 448V384H320C355.375 384 384 355.375 384 320V288H0ZM192 472C178.75 472 168 461.25 168 448S178.75 424 192 424S216 434.75 216 448S205.25 472 192 472Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `traffic-cone` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function TrafficCone(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M400.125 288H111.375L86 352H425.5L400.125 288ZM336.375 128H175.125L149.625 192H361.875L336.375 128Z" />
+            <path class={generic.secondary} d="M400.125 288H111.375L86 352H425.5L400.125 288ZM336.375 128H175.125L149.625 192H361.875L336.375 128Z" />
             <path d="M362.125 192H149.875L111.625 288H400.375L362.125 192ZM289.75 10.125C287.25 4 281.375 0 274.875 0H237.125C230.625 0 224.75 4 222.25 10.125L175.375 128H336.625L289.75 10.125ZM480 448H464L425.75 352H86.25L48 448H32C14.326 448 0 462.326 0 480S14.326 512 32 512H480C497.674 512 512 497.674 512 480S497.674 448 480 448Z" />
         </Icon>
     </>

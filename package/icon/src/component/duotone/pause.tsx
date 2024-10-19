@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `pause` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Pause(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 320 512" {...props}>
-            <path opacity={.4} d="M272 64C245.49 64 224 85.49 224 112V400C224 426.51 245.49 448 272 448S320 426.51 320 400V112C320 85.49 298.51 64 272 64ZM48 64C21.49 64 0 85.49 0 112V400C0 426.51 21.49 448 48 448S96 426.51 96 400V112C96 85.49 74.51 64 48 64Z" />
+            <path class={generic.secondary} d="M272 64C245.49 64 224 85.49 224 112V400C224 426.51 245.49 448 272 448S320 426.51 320 400V112C320 85.49 298.51 64 272 64ZM48 64C21.49 64 0 85.49 0 112V400C0 426.51 21.49 448 48 448S96 426.51 96 400V112C96 85.49 74.51 64 48 64Z" />
         </Icon>
     </>
 }

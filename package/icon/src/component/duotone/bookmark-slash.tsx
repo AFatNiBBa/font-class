@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `bookmark-slash` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BookmarkSlash(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M128 512L358.564 377.713L128 197.002V512ZM464 0H176C149.5 0 128 21.5 128 48V75.012L512 375.98V48C512 21.5 490.5 0 464 0Z" />
+            <path class={generic.secondary} d="M128 512L358.564 377.713L128 197.002V512ZM464 0H176C149.5 0 128 21.5 128 48V75.012L512 375.98V48C512 21.5 490.5 0 464 0Z" />
             <path d="M630.81 469.102L38.814 5.109C34.407 1.672 29.189 0 24.032 0C16.907 0 9.845 3.156 5.126 9.188C-3.061 19.625 -1.249 34.719 9.189 42.891L601.185 506.883C611.685 515.086 626.747 513.211 634.872 502.805C643.06 492.367 641.247 477.273 630.81 469.102Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `intersection` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Intersection(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M344 480C321.906 480 304 462.094 304 440V224C304 162.25 253.75 112 192 112S80 162.25 80 224V440C80 462.094 62.094 480 40 480S0 462.094 0 440V224C0 118.125 86.125 32 192 32S384 118.125 384 224V440C384 462.094 366.094 480 344 480Z" />
+            <path class={generic.secondary} d="M344 480C321.906 480 304 462.094 304 440V224C304 162.25 253.75 112 192 112S80 162.25 80 224V440C80 462.094 62.094 480 40 480S0 462.094 0 440V224C0 118.125 86.125 32 192 32S384 118.125 384 224V440C384 462.094 366.094 480 344 480Z" />
         </Icon>
     </>
 }

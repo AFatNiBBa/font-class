@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-from-bracket` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function ArrowRightFromBracket(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M160 416H96C78.326 416 64 401.672 64 384V128C64 110.328 78.326 96 96 96H160C177.674 96 192 81.672 192 64S177.674 32 160 32H96C42.98 32 0 74.98 0 128V384C0 437.02 42.98 480 96 480H160C177.674 480 192 465.672 192 448S177.674 416 160 416Z" />
+            <path class={generic.secondary} d="M160 416H96C78.326 416 64 401.672 64 384V128C64 110.328 78.326 96 96 96H160C177.674 96 192 81.672 192 64S177.674 32 160 32H96C42.98 32 0 74.98 0 128V384C0 437.02 42.98 480 96 480H160C177.674 480 192 465.672 192 448S177.674 416 160 416Z" />
             <path d="M502.625 278.625L374.625 406.625C362.125 419.125 341.875 419.125 329.375 406.625S316.875 373.875 329.375 361.375L402.75 288H192C174.312 288 160 273.688 160 256S174.312 224 192 224H402.75L329.375 150.625C316.875 138.125 316.875 117.875 329.375 105.375C341.867 92.883 362.117 92.867 374.625 105.375L502.625 233.375C515.125 245.875 515.125 266.125 502.625 278.625Z" />
         </Icon>
     </>

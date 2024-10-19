@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `lock-keyhole` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function LockKeyhole(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M416 144V224H352V144C352 99.875 316.109 64 272 64S192 99.875 192 144V224H128V144C128 64.594 192.594 0 272 0S416 64.594 416 144Z" />
+            <path class={generic.secondary} d="M416 144V224H352V144C352 99.875 316.109 64 272 64S192 99.875 192 144V224H128V144C128 64.594 192.594 0 272 0S416 64.594 416 144Z" />
             <path d="M48 288V448C48 483.344 76.654 512 112 512H432C467.346 512 496 483.344 496 448V288C496 252.652 467.346 224 432 224H112C76.654 224 48 252.652 48 288ZM240 352C240 334.328 254.326 320 272 320S304 334.328 304 352V384C304 401.672 289.674 416 272 416S240 401.672 240 384V352Z" />
         </Icon>
     </>

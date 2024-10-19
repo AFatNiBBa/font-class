@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-from-line` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function ArrowLeftFromLine(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M384 96V416C384 433.688 398.312 448 416 448S448 433.688 448 416V96C448 78.312 433.688 64 416 64S384 78.312 384 96Z" />
+            <path class={generic.secondary} d="M384 96V416C384 433.688 398.312 448 416 448S448 433.688 448 416V96C448 78.312 433.688 64 416 64S384 78.312 384 96Z" />
             <path d="M182.625 406.625C170.125 419.125 149.875 419.125 137.375 406.625L9.375 278.625C-3.125 266.125 -3.125 245.875 9.375 233.375L137.375 105.375C149.875 92.875 170.125 92.875 182.625 105.375C188.875 111.625 192 119.812 192 128S188.875 144.375 182.625 150.625L109.25 224H288C305.688 224 320 238.312 320 256S305.688 288 288 288H109.25L182.625 361.375C195.125 373.875 195.125 394.125 182.625 406.625Z" />
         </Icon>
     </>

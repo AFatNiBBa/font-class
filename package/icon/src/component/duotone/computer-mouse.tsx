@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `computer-mouse` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function ComputerMouse(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M176 0H160C71.625 0 0 71.625 0 160V192H176V0ZM0 352C0 440.375 71.625 512 160 512H224C312.375 512 384 440.375 384 352V224H0V352ZM224 0H208V192H384V160C384 71.625 312.375 0 224 0Z" />
+            <path class={generic.secondary} d="M176 0H160C71.625 0 0 71.625 0 160V192H176V0ZM0 352C0 440.375 71.625 512 160 512H224C312.375 512 384 440.375 384 352V224H0V352ZM224 0H208V192H384V160C384 71.625 312.375 0 224 0Z" />
             <path d="M384 192V224H0V192H176V0H208V192H384Z" />
         </Icon>
     </>

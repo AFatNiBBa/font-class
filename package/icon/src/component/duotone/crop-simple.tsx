@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `crop-simple` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function CropSimple(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M160 24C160 10.75 149.25 0 136 0H88C74.75 0 64 10.75 64 24V416C64 433.625 78.375 448 96 448H320V352H160V24ZM488 352H448V448H488C501.25 448 512 437.25 512 424V376C512 362.75 501.25 352 488 352Z" />
+            <path class={generic.secondary} d="M160 24C160 10.75 149.25 0 136 0H88C74.75 0 64 10.75 64 24V416C64 433.625 78.375 448 96 448H320V352H160V24ZM488 352H448V448H488C501.25 448 512 437.25 512 424V376C512 362.75 501.25 352 488 352Z" />
             <path d="M416 64H192V160H352V488C352 501.25 362.75 512 376 512H424C437.25 512 448 501.25 448 488V96C448 78.375 433.625 64 416 64ZM0 88V136C0 149.25 10.75 160 24 160H64V64H24C10.75 64 0 74.75 0 88Z" />
         </Icon>
     </>

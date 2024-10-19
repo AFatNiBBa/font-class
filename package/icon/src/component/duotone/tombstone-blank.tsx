@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `tombstone-blank` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function TombstoneBlank(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M416 192.001C416 86.001 330 0.001 224 0.001C118 0.001 32 86.001 32 192.001V448H416V192.001Z" />
+            <path class={generic.secondary} d="M416 192.001C416 86.001 330 0.001 224 0.001C118 0.001 32 86.001 32 192.001V448H416V192.001Z" />
             <path d="M432 448.001H16C7.125 448.001 0 455.126 0 464.001V496.001C0 504.876 7.125 512.001 16 512.001H432C440.875 512.001 448 504.876 448 496.001V464.001C448 455.126 440.875 448.001 432 448.001Z" />
         </Icon>
     </>

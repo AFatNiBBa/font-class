@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `truck-ramp` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function TruckRamp(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M640 416C640 469.02 597.02 512 544 512S448 469.02 448 416S490.98 320 544 320S640 362.98 640 416Z" />
+            <path class={generic.secondary} d="M640 416C640 469.02 597.02 512 544 512S448 469.02 448 416S490.98 320 544 320S640 362.98 640 416Z" />
             <path d="M640 0V332.145C616.537 305.305 582.451 288 544 288C477.424 288 423.554 339.072 417.426 404.045L22.769 511.73C18.519 512.855 14.144 510.355 12.894 506.105L0.269 459.732C-0.856 455.607 1.644 451.232 5.894 449.982L352.008 355.611V64C352.008 28.654 380.661 0 416.008 0H640Z" />
         </Icon>
     </>

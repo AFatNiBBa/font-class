@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `window-maximize` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function WindowMaximize(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M448 192.001H64V96.001H448V192.001Z" />
+            <path class={generic.secondary} d="M448 192.001H64V96.001H448V192.001Z" />
             <path d="M448 32.001H64C28.654 32.001 0 60.654 0 96.001V416.001C0 451.347 28.654 480.001 64 480.001H448C483.346 480.001 512 451.347 512 416.001V96.001C512 60.654 483.346 32.001 448 32.001ZM448 192.001H64V96.001H448V192.001Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `shapes` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Shapes(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M128 256C57.25 256 0 313.25 0 384S57.25 512 128 512S256 454.75 256 384S198.75 256 128 256ZM411.551 175.984L316.557 15.969C310.557 6.125 299.67 0 288.004 0S265.449 6.125 259.449 15.969L164.455 175.984C151.789 197.312 167.678 224 193.01 224H382.996C408.328 224 424.217 197.312 411.551 175.984Z" />
+            <path class={generic.secondary} d="M128 256C57.25 256 0 313.25 0 384S57.25 512 128 512S256 454.75 256 384S198.75 256 128 256ZM411.551 175.984L316.557 15.969C310.557 6.125 299.67 0 288.004 0S265.449 6.125 259.449 15.969L164.455 175.984C151.789 197.312 167.678 224 193.01 224H382.996C408.328 224 424.217 197.312 411.551 175.984Z" />
             <path d="M480 272H320C302.375 272 288 286.375 288 304V464C288 481.625 302.375 496 320 496H480C497.625 496 512 481.625 512 464V304C512 286.375 497.625 272 480 272Z" />
         </Icon>
     </>

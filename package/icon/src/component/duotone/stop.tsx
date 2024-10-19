@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `stop` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Stop(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M384 128V384C384 419.346 355.346 448 320 448H64C28.654 448 0 419.346 0 384V128C0 92.654 28.654 64 64 64H320C355.346 64 384 92.654 384 128Z" />
+            <path class={generic.secondary} d="M384 128V384C384 419.346 355.346 448 320 448H64C28.654 448 0 419.346 0 384V128C0 92.654 28.654 64 64 64H320C355.346 64 384 92.654 384 128Z" />
         </Icon>
     </>
 }

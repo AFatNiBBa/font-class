@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `less-than` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function LessThan(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M22.109 220.179L326.102 68.247C345.898 58.346 369.898 66.342 379.772 86.146C389.647 105.887 381.632 129.907 361.882 139.778L129.435 255.945L361.882 372.112C381.632 381.982 389.647 406.003 379.772 425.744C372.085 441.111 349.768 455.47 326.102 443.642L22.109 291.71C8.562 284.932 0 271.094 0 255.945S8.562 226.958 22.109 220.179Z" />
+            <path class={generic.secondary} d="M22.109 220.179L326.102 68.247C345.898 58.346 369.898 66.342 379.772 86.146C389.647 105.887 381.632 129.907 361.882 139.778L129.435 255.945L361.882 372.112C381.632 381.982 389.647 406.003 379.772 425.744C372.085 441.111 349.768 455.47 326.102 443.642L22.109 291.71C8.562 284.932 0 271.094 0 255.945S8.562 226.958 22.109 220.179Z" />
         </Icon>
     </>
 }

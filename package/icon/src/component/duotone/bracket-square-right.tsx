@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `bracket-square-right` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BracketSquareRight(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 192 512" {...props}>
-            <path opacity={.4} d="M32 64V64C32 81.673 46.327 96 64 96H128V416H64C46.327 416 32 430.327 32 448V448C32 465.673 46.327 480 64 480H160C177.6 480 192 465.6 192 448V64C192 46.4 177.6 32 160 32H64C46.327 32 32 46.327 32 64Z" />
+            <path class={generic.secondary} d="M32 64V64C32 81.673 46.327 96 64 96H128V416H64C46.327 416 32 430.327 32 448V448C32 465.673 46.327 480 64 480H160C177.6 480 192 465.6 192 448V64C192 46.4 177.6 32 160 32H64C46.327 32 32 46.327 32 64Z" />
         </Icon>
     </>
 }

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `alt` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Alt(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M472 400H360C337.908 400 320 417.908 320 440S337.908 480 360 480H472C494.092 480 512 462.092 512 440S494.092 400 472 400Z" />
+            <path class={generic.secondary} d="M472 400H360C337.908 400 320 417.908 320 440S337.908 480 360 480H472C494.092 480 512 462.092 512 440S494.092 400 472 400Z" />
             <path d="M472 112C494.094 112 512 94.094 512 72S494.094 32 472 32H392C379.312 32 367.375 38.031 359.844 48.219L99.812 400H40C17.906 400 0 417.906 0 440S17.906 480 40 480H120C132.688 480 144.625 473.969 152.156 463.781L412.188 112H472Z" />
         </Icon>
     </>

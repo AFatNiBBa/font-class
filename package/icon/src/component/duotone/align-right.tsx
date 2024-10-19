@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `align-right` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function AlignRight(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M160 320C160 337.674 174.326 352 192 352H416C433.674 352 448 337.674 448 320S433.674 288 416 288H192C174.326 288 160 302.326 160 320ZM448 64C448 46.326 433.674 32 416 32H192C174.326 32 160 46.326 160 64S174.326 96 192 96H416C433.674 96 448 81.674 448 64Z" />
+            <path class={generic.secondary} d="M160 320C160 337.674 174.326 352 192 352H416C433.674 352 448 337.674 448 320S433.674 288 416 288H192C174.326 288 160 302.326 160 320ZM448 64C448 46.326 433.674 32 416 32H192C174.326 32 160 46.326 160 64S174.326 96 192 96H416C433.674 96 448 81.674 448 64Z" />
             <path d="M448 192C448 174.326 433.674 160 416 160H32C14.326 160 0 174.326 0 192S14.326 224 32 224H416C433.674 224 448 209.674 448 192ZM0 448C0 465.674 14.326 480 32 480H416C433.674 480 448 465.674 448 448S433.674 416 416 416H32C14.326 416 0 430.326 0 448Z" />
         </Icon>
     </>

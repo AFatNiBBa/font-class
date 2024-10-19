@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `arrow-up` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function ArrowUp(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M224 127.188L264 165.18V440C264 462.094 246.094 480 224 480S184 462.094 184 440V165.18L224 127.188Z" />
+            <path class={generic.secondary} d="M224 127.188L264 165.18V440C264 462.094 246.094 480 224 480S184 462.094 184 440V165.18L224 127.188Z" />
             <path d="M251.547 43L411.547 195C427.562 210.219 428.218 235.531 413 251.562C397.781 267.531 372.437 268.187 356.453 253L224 127.188L91.547 253C75.578 268.188 50.234 267.5 35 251.562C19.781 235.531 20.437 210.219 36.453 195L196.453 43C204.172 35.656 214.078 32 224 32S243.828 35.656 251.547 43Z" />
         </Icon>
     </>

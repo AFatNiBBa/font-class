@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `franc-sign` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function FrancSign(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 320 512" {...props}>
-            <path opacity={.4} d="M0 352C0 369.672 14.312 384 32 384H48V320H32C14.312 320 0 334.328 0 352ZM192 320H128V384H192C209.688 384 224 369.672 224 352S209.688 320 192 320Z" />
+            <path class={generic.secondary} d="M0 352C0 369.672 14.312 384 32 384H48V320H32C14.312 320 0 334.328 0 352ZM192 320H128V384H192C209.688 384 224 369.672 224 352S209.688 320 192 320Z" />
             <path d="M320 72C320 94.094 302.094 112 280 112H128V192H248C270.094 192 288 209.906 288 232S270.094 272 248 272H128V440C128 462.094 110.094 480 88 480S48 462.094 48 440V72C48 49.906 65.906 32 88 32H280C302.094 32 320 49.906 320 72Z" />
         </Icon>
     </>

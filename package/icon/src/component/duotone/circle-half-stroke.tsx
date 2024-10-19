@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `circle-half-stroke` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function CircleHalfStroke(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M496 256C496 388.549 388.549 496 256 496V432C353.047 432 432 353.047 432 256S353.047 80 256 80V16C388.549 16 496 123.451 496 256Z" />
+            <path class={generic.secondary} d="M496 256C496 388.549 388.549 496 256 496V432C353.047 432 432 353.047 432 256S353.047 80 256 80V16C388.549 16 496 123.451 496 256Z" />
             <path d="M256 496C123.453 496 16 388.549 16 256S123.453 16 256 16V496Z" />
         </Icon>
     </>

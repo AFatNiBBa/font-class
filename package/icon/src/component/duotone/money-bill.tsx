@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `money-bill` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function MoneyBill(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 576 512" {...props}>
-            <path opacity={.4} d="M464 112H112C112 147.375 83.375 176 48 176V336C83.375 336 112 364.625 112 400H464C464 364.625 492.625 336 528 336V176C492.625 176 464 147.375 464 112ZM288 352C243.816 352 208 309.018 208 256C208 202.98 243.816 160 288 160S368 202.98 368 256C368 309.018 332.184 352 288 352Z" />
+            <path class={generic.secondary} d="M464 112H112C112 147.375 83.375 176 48 176V336C83.375 336 112 364.625 112 400H464C464 364.625 492.625 336 528 336V176C492.625 176 464 147.375 464 112ZM288 352C243.816 352 208 309.018 208 256C208 202.98 243.816 160 288 160S368 202.98 368 256C368 309.018 332.184 352 288 352Z" />
             <path d="M528 64H48C21.492 64 0 85.492 0 112V400C0 426.508 21.492 448 48 448H528C554.512 448 576 426.508 576 400V112C576 85.492 554.512 64 528 64ZM528 336C492.625 336 464 364.625 464 400H112C112 364.625 83.375 336 48 336V176C83.375 176 112 147.375 112 112H464C464 147.375 492.625 176 528 176V336Z" />
         </Icon>
     </>

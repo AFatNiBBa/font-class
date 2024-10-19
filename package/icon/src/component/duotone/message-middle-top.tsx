@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `message-middle-top` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function MessageMiddleTop(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M512 160.029V448.006C512 483.252 483.25 512 448 512H64C28.75 512 0 483.252 0 448.006V160.029C0 124.781 28.75 96.033 64 96.033H175.975L243.199 6.4C246.399 2.134 251.2 0 256 0S265.601 2.134 268.801 6.4L336.025 96.033H448C483.25 96.033 512 124.781 512 160.029Z " />
+            <path class={generic.secondary} d="M512 160.029V448.006C512 483.252 483.25 512 448 512H64C28.75 512 0 483.252 0 448.006V160.029C0 124.781 28.75 96.033 64 96.033H175.975L243.199 6.4C246.399 2.134 251.2 0 256 0S265.601 2.134 268.801 6.4L336.025 96.033H448C483.25 96.033 512 124.781 512 160.029Z " />
         </Icon>
     </>
 }

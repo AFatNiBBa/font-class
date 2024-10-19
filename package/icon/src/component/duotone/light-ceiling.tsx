@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `light-ceiling` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function LightCeiling(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M192 448C192 483.375 220.625 512 256 512S320 483.375 320 448H192ZM287.959 162.203V0H223.959V162.203C234.5 160.902 245.141 160 255.959 160S277.418 160.902 287.959 162.203Z" />
+            <path class={generic.secondary} d="M192 448C192 483.375 220.625 512 256 512S320 483.375 320 448H192ZM287.959 162.203V0H223.959V162.203C234.5 160.902 245.141 160 255.959 160S277.418 160.902 287.959 162.203Z" />
             <path d="M512 380.797V384C512 403.199 499.133 416 479.83 416H32.17C12.867 416 0 403.199 0 384V380.797C16.01 253.398 128 160 256 160S495.99 253.398 512 380.797Z" />
         </Icon>
     </>

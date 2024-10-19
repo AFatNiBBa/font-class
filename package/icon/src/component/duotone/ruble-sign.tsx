@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `ruble-sign` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function RubleSign(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M0 384C0 401.672 14.328 416 32 416H64V352H32C14.328 352 0 366.328 0 384ZM288 352H144V416H288C305.672 416 320 401.672 320 384S305.672 352 288 352Z" />
+            <path class={generic.secondary} d="M0 384C0 401.672 14.328 416 32 416H64V352H32C14.328 352 0 366.328 0 384ZM288 352H144V416H288C305.672 416 320 401.672 320 384S305.672 352 288 352Z" />
             <path d="M104 480C81.906 480 64 462.094 64 440V320H40C17.906 320 0 302.094 0 280S17.906 240 40 240H64V72C64 49.906 81.906 32 104 32H240C319.406 32 384 96.594 384 176S319.406 320 240 320H144V440C144 462.094 126.094 480 104 480ZM144 240H240C275.297 240 304 211.297 304 176S275.297 112 240 112H144V240Z" />
         </Icon>
     </>

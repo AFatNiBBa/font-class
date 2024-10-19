@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `h` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function H(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M384 80V432C384 458.5 362.516 480 336 480S288 458.5 288 432V288H96V432C96 458.5 74.516 480 48 480S0 458.5 0 432V80C0 53.5 21.484 32 48 32S96 53.5 96 80V192H288V80C288 53.5 309.484 32 336 32S384 53.5 384 80Z" />
+            <path class={generic.secondary} d="M384 80V432C384 458.5 362.516 480 336 480S288 458.5 288 432V288H96V432C96 458.5 74.516 480 48 480S0 458.5 0 432V80C0 53.5 21.484 32 48 32S96 53.5 96 80V192H288V80C288 53.5 309.484 32 336 32S384 53.5 384 80Z" />
         </Icon>
     </>
 }

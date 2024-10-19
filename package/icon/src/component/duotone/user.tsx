@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `user` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function User(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M352 128C352 198.691 294.695 256 224 256C153.312 256 96 198.691 96 128S153.312 0 224 0C294.695 0 352 57.309 352 128Z" />
+            <path class={generic.secondary} d="M352 128C352 198.691 294.695 256 224 256C153.312 256 96 198.691 96 128S153.312 0 224 0C294.695 0 352 57.309 352 128Z" />
             <path d="M274.664 304.001H173.336C77.609 304.001 0 381.602 0 477.333C0 496.477 15.523 512.001 34.664 512.001H413.336C432.477 512.001 448 496.477 448 477.333C448 381.602 370.398 304.001 274.664 304.001Z" />
         </Icon>
     </>

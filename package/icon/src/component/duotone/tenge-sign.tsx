@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `tenge-sign` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function TengeSign(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M384 200C384 222.094 366.094 240 344 240H232V440C232 462.094 214.094 480 192 480S152 462.094 152 440V240H40C17.906 240 0 222.094 0 200S17.906 160 40 160H344C366.094 160 384 177.906 384 200Z" />
+            <path class={generic.secondary} d="M384 200C384 222.094 366.094 240 344 240H232V440C232 462.094 214.094 480 192 480S152 462.094 152 440V240H40C17.906 240 0 222.094 0 200S17.906 160 40 160H344C366.094 160 384 177.906 384 200Z" />
             <path d="M384 72C384 94.094 366.094 112 344 112H40C17.906 112 0 94.094 0 72S17.906 32 40 32H344C366.094 32 384 49.906 384 72Z" />
         </Icon>
     </>

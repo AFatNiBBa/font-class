@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `mobile-button` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function MobileButton(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M32 384V464C32 490.508 53.49 512 80 512H304C330.51 512 352 490.508 352 464V384H32ZM192 480C174.25 480 160 465.75 160 448S174.25 416 192 416S224 430.25 224 448S209.75 480 192 480Z" />
+            <path class={generic.secondary} d="M32 384V464C32 490.508 53.49 512 80 512H304C330.51 512 352 490.508 352 464V384H32ZM192 480C174.25 480 160 465.75 160 448S174.25 416 192 416S224 430.25 224 448S209.75 480 192 480Z" />
             <path d="M352 48V384H32V48C32 21.492 53.49 0 80 0H304C330.51 0 352 21.492 352 48Z" />
         </Icon>
     </>

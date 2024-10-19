@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `diagram-nested` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function DiagramNested(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M288 432H176C123.062 432 80 388.938 80 336V224H144V336C144 353.656 158.344 368 176 368H288V432Z" />
+            <path class={generic.secondary} d="M288 432H176C123.062 432 80 388.938 80 336V224H144V336C144 353.656 158.344 368 176 368H288V432Z" />
             <path d="M176 0H48C21.49 0 0 21.49 0 48V176C0 202.51 21.49 224 48 224H176C202.51 224 224 202.51 224 176V48C224 21.49 202.51 0 176 0ZM464 288H336C309.49 288 288 309.49 288 336V464C288 490.51 309.49 512 336 512H464C490.51 512 512 490.51 512 464V336C512 309.49 490.51 288 464 288Z" />
         </Icon>
     </>

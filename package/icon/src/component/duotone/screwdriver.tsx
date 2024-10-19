@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `screwdriver` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Screwdriver(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M511.615 64L415.615 192H353.615L246.916 298.615C243.393 291.441 238.961 284.596 232.99 278.625S220.174 268.223 213 264.699L319.615 158V96L447.615 0L511.615 64Z" />
+            <path class={generic.secondary} d="M511.615 64L415.615 192H353.615L246.916 298.615C243.393 291.441 238.961 284.596 232.99 278.625S220.174 268.223 213 264.699L319.615 158V96L447.615 0L511.615 64Z" />
             <path d="M128 278.625L10.875 395.625C-3.625 410.25 -3.625 433.875 10.875 448.375L63.625 501.125C78.125 515.625 101.75 515.625 116.375 501.125L233.375 384C262.5 354.875 262.5 307.75 233.375 278.625S157.125 249.5 128 278.625Z" />
         </Icon>
     </>

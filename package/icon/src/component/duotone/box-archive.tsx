@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `box-archive` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BoxArchive(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M32 432C32 458.51 53.49 480 80 480H432C458.51 480 480 458.51 480 432V128H32V432ZM160 208C160 199.2 167.2 192 176 192H336C344.8 192 352 199.2 352 208V240C352 248.8 344.8 256 336 256H176C167.2 256 160 248.8 160 240V208Z" />
+            <path class={generic.secondary} d="M32 432C32 458.51 53.49 480 80 480H432C458.51 480 480 458.51 480 432V128H32V432ZM160 208C160 199.2 167.2 192 176 192H336C344.8 192 352 199.2 352 208V240C352 248.8 344.8 256 336 256H176C167.2 256 160 248.8 160 240V208Z" />
             <path d="M512 64V112C512 120.812 504.812 128 496 128H16C7.188 128 0 120.812 0 112V64C0 46.312 14.312 32 32 32H480C497.688 32 512 46.312 512 64Z" />
         </Icon>
     </>

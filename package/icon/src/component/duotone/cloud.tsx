@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `cloud` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Cloud(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M640 352C640 422.703 582.688 480 512 480H144C64.5 480 0 415.5 0 336C0 273.203 40.188 219.797 96.188 200.094C96.094 197.406 96 194.703 96 192C96 103.594 167.594 32 256 32C315.312 32 367 64.203 394.688 112.203C409.906 102 428.312 96 448 96C501 96 544 139 544 192C544 204.203 541.688 215.906 537.594 226.594C596 238.406 640 290.094 640 352Z" />
+            <path class={generic.secondary} d="M640 352C640 422.703 582.688 480 512 480H144C64.5 480 0 415.5 0 336C0 273.203 40.188 219.797 96.188 200.094C96.094 197.406 96 194.703 96 192C96 103.594 167.594 32 256 32C315.312 32 367 64.203 394.688 112.203C409.906 102 428.312 96 448 96C501 96 544 139 544 192C544 204.203 541.688 215.906 537.594 226.594C596 238.406 640 290.094 640 352Z" />
         </Icon>
     </>
 }

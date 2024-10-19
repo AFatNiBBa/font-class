@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `book-bookmark` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BookBookmark(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M416 384V448H96C78.326 448 64 433.672 64 416C64 398.326 78.326 384 96 384H416Z" />
+            <path class={generic.secondary} d="M416 384V448H96C78.326 448 64 433.672 64 416C64 398.326 78.326 384 96 384H416Z" />
             <path d="M64 416C64 433.672 78.328 448 96 448H424C437.254 448 448 458.742 448 472V488C448 501.254 437.254 512 424 512H96C42.98 512 0 469.02 0 416V96C0 42.98 42.98 0 96 0H192V191.971C192 205.385 207.52 212.846 217.996 204.463L272 160.002L326.004 204.463C336.48 212.846 352 205.385 352 191.971V0H416C433.672 0 448 14.328 448 32V360C448 373.254 437.254 384 424 384H96C78.328 384 64 398.328 64 416Z" />
         </Icon>
     </>

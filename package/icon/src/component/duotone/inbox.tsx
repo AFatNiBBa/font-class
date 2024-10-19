@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `inbox` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Inbox(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M439.051 288H384.025L352.025 352H160.025L128.025 288H73L121.025 96H391.025L439.051 288Z" />
+            <path class={generic.secondary} d="M439.051 288H384.025L352.025 352H160.025L128.025 288H73L121.025 96H391.025L439.051 288Z" />
             <path d="M447.031 56.25C443.469 42 430.688 32 416 32H96C81.312 32 68.531 42 64.969 56.25L3.715 304.918C1.247 314.936 0 325.215 0 335.533V432C0 458.51 21.49 480 48 480H464C490.51 480 512 458.51 512 432V335.533C512 325.215 510.753 314.936 508.285 304.918L447.031 56.25ZM352 352H160L128 288H72.975L121 96H391L439.025 288H384L352 352Z" />
         </Icon>
     </>

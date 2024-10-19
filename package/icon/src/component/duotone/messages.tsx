@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `messages` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Messages(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M416 63.994V256.004C416 291.25 387.25 320 352 319.875L194.25 320.018L111.5 382.139C105.125 386.887 96 382.262 96 374.264V320.018L64 320C28.75 320 0 291.25 0 256.004V63.994C0 28.748 28.75 0 64 0H352C387.25 0 416 28.748 416 63.994Z" />
+            <path class={generic.secondary} d="M416 63.994V256.004C416 291.25 387.25 320 352 319.875L194.25 320.018L111.5 382.139C105.125 386.887 96 382.262 96 374.264V320.018L64 320C28.75 320 0 291.25 0 256.004V63.994C0 28.748 28.75 0 64 0H352C387.25 0 416 28.748 416 63.994Z" />
             <path d="M640 191.994V383.969C640 419.215 611.25 447.963 576 447.963H544V502.209C544 510.207 534.875 514.832 528.5 510.082L445.75 447.963H320C284.75 447.963 256 419.215 256 383.969V351.992H352C404.875 351.992 448 308.871 448 256V128H576C611.25 128 640 156.748 640 191.994Z" />
         </Icon>
     </>

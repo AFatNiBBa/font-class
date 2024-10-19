@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `backpack` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Backpack(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M96 384V512H352V384H96ZM176 56C176 51.625 179.625 48 184 48H264C268.375 48 272 51.625 272 56V80H320V56C320 25.125 294.875 0 264 0H184C153.125 0 128 25.125 128 56V80H176V56Z" />
+            <path class={generic.secondary} d="M96 384V512H352V384H96ZM176 56C176 51.625 179.625 48 184 48H264C268.375 48 272 51.625 272 56V80H320V56C320 25.125 294.875 0 264 0H184C153.125 0 128 25.125 128 56V80H176V56Z" />
             <path d="M320 80H128C57.25 80 0 137.25 0 208V448C0 483.375 28.625 512 64 512H96V320C96 302.375 110.375 288 128 288H320C337.625 288 352 302.375 352 320V512H384C419.375 512 448 483.375 448 448V208C448 137.25 390.75 80 320 80ZM320 200C320 204.375 316.375 208 312 208H136C131.625 208 128 204.375 128 200V184C128 179.625 131.625 176 136 176H312C316.375 176 320 179.625 320 184V200Z" />
         </Icon>
     </>

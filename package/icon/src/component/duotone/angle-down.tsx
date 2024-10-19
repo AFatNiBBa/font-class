@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `angle-down` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function AngleDown(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M371.515 229.055L219.516 373.033C211.797 380.344 201.891 384 192 384S172.203 380.344 164.484 373.033L12.485 229.055C-3.546 213.87 -4.233 188.561 10.97 172.532C26.157 156.472 51.485 155.785 67.516 171.001L192 288.921L316.484 171.001C332.499 155.754 357.827 156.441 373.03 172.532C388.233 188.561 387.546 213.87 371.515 229.055Z" />
+            <path class={generic.secondary} d="M371.515 229.055L219.516 373.033C211.797 380.344 201.891 384 192 384S172.203 380.344 164.484 373.033L12.485 229.055C-3.546 213.87 -4.233 188.561 10.97 172.532C26.157 156.472 51.485 155.785 67.516 171.001L192 288.921L316.484 171.001C332.499 155.754 357.827 156.441 373.03 172.532C388.233 188.561 387.546 213.87 371.515 229.055Z" />
         </Icon>
     </>
 }

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `diagram-project` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function DiagramProject(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M144.25 192H128L224.883 361.771C227.988 338.314 247.98 320 272.25 320H274.699L186.646 165.971C178.621 181.334 162.701 192 144.25 192ZM192.25 64V128H448.25V64H192.25Z" />
+            <path class={generic.secondary} d="M144.25 192H128L224.883 361.771C227.988 338.314 247.98 320 272.25 320H274.699L186.646 165.971C178.621 181.334 162.701 192 144.25 192ZM192.25 64V128H448.25V64H192.25Z" />
             <path d="M592 0H496C469.6 0 448 21.6 448 48V144C448 170.4 469.6 192 496 192H592C618.4 192 640 170.4 640 144V48C640 21.6 618.4 0 592 0ZM368 320H272C245.6 320 224 341.6 224 368V464C224 490.4 245.6 512 272 512H368C394.4 512 416 490.4 416 464V368C416 341.6 394.4 320 368 320ZM144 0H48C21.6 0 0 21.6 0 48V144C0 170.4 21.6 192 48 192H144C170.4 192 192 170.4 192 144V48C192 21.6 170.4 0 144 0Z" />
         </Icon>
     </>

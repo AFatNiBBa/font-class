@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `tally-1` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Tally_1(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M64 64.001V448.001C64 465.674 49.673 480.001 32 480.001H32C14.327 480.001 0 465.674 0 448.001V64.001C0 46.327 14.327 32.001 32 32.001H32C49.673 32.001 64 46.327 64 64.001Z" />
+            <path class={generic.secondary} d="M64 64.001V448.001C64 465.674 49.673 480.001 32 480.001H32C14.327 480.001 0 465.674 0 448.001V64.001C0 46.327 14.327 32.001 32 32.001H32C49.673 32.001 64 46.327 64 64.001Z" />
         </Icon>
     </>
 }

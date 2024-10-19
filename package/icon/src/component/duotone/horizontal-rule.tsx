@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `horizontal-rule` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function HorizontalRule(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M640 255.874V255.874C640 273.543 625.543 288 607.874 288H31.874C14.343 288 0 273.657 0 256.126V256.126C0 238.457 14.457 224 32.126 224H608.126C625.73 224 640 238.27 640 255.874Z" />
+            <path class={generic.secondary} d="M640 255.874V255.874C640 273.543 625.543 288 607.874 288H31.874C14.343 288 0 273.657 0 256.126V256.126C0 238.457 14.457 224 32.126 224H608.126C625.73 224 640 238.27 640 255.874Z" />
         </Icon>
     </>
 }

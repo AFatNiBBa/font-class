@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `landmark` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Landmark(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M512 464V496C512 504.799 504.801 512 496 512H16C7.199 512 0 504.799 0 496V464C0 455.199 7.199 448 16 448H32V416C32 398.326 46.326 384 64 384V160H128V384H224V160H288V384H384V160H448V384C465.674 384 480 398.326 480 416V448H496C504.801 448 512 455.199 512 464Z" />
+            <path class={generic.secondary} d="M512 464V496C512 504.799 504.801 512 496 512H16C7.199 512 0 504.799 0 496V464C0 455.199 7.199 448 16 448H32V416C32 398.326 46.326 384 64 384V160H128V384H224V160H288V384H384V160H448V384C465.674 384 480 398.326 480 416V448H496C504.801 448 512 455.199 512 464Z" />
             <path d="M501.625 92.125L267.25 2.062C264.25 0.906 259.219 0 256 0C252.812 0 247.781 0.906 244.781 2.062L10.375 92.125C4.656 94.25 0 100.969 0 107.094V144C0 152.844 7.156 160 16 160H496C504.844 160 512 152.844 512 144V107.094C512 100.406 507.875 94.438 501.625 92.125Z" />
         </Icon>
     </>

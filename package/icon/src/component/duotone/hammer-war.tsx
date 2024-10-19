@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `hammer-war` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function HammerWar(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M224 267.074V496C224 504.836 216.836 512 208 512H176C167.164 512 160 504.836 160 496V267.074L192 261.75L224 267.074ZM192 58.25L224 52.926V16C224 7.164 216.836 0 208 0H176C167.164 0 160 7.164 160 16V52.926L192 58.25Z" />
+            <path class={generic.secondary} d="M224 267.074V496C224 504.836 216.836 512 208 512H176C167.164 512 160 504.836 160 496V267.074L192 261.75L224 267.074ZM192 58.25L224 52.926V16C224 7.164 216.836 0 208 0H176C167.164 0 160 7.164 160 16V52.926L192 58.25Z" />
             <path d="M384 64V256C384 275.75 366.25 290.75 346.75 287.5L192 261.75L37.25 287.5C17.75 290.75 0 275.75 0 256V64C0 44.25 17.75 29.25 37.25 32.5L192 58.25L346.75 32.5C366.25 29.25 384 44.25 384 64Z" />
         </Icon>
     </>

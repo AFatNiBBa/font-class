@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `diamond` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Diamond(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M497.97 222.13L289.871 14.03C271.164 -4.677 240.835 -4.677 222.128 14.03L14.029 222.13C-4.676 240.835 -4.676 271.165 14.029 289.872L222.128 497.97C240.835 516.677 271.164 516.677 289.871 497.97L497.97 289.872C516.675 271.165 516.675 240.835 497.97 222.13Z" />
+            <path class={generic.secondary} d="M497.97 222.13L289.871 14.03C271.164 -4.677 240.835 -4.677 222.128 14.03L14.029 222.13C-4.676 240.835 -4.676 271.165 14.029 289.872L222.128 497.97C240.835 516.677 271.164 516.677 289.871 497.97L497.97 289.872C516.675 271.165 516.675 240.835 497.97 222.13Z" />
         </Icon>
     </>
 }

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `envelope` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Envelope(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M511.08 120H512V400C512 426.51 490.51 448 464 448H48C21.49 448 0 426.51 0 400V120H0.92C2.846 129.936 8.156 138.98 16.287 145.305L228.469 310.359C244.662 322.955 267.338 322.955 283.531 310.359L495.713 145.305C503.844 138.98 509.154 129.936 511.08 120Z" />
+            <path class={generic.secondary} d="M511.08 120H512V400C512 426.51 490.51 448 464 448H48C21.49 448 0 426.51 0 400V120H0.92C2.846 129.936 8.156 138.98 16.287 145.305L228.469 310.359C244.662 322.955 267.338 322.955 283.531 310.359L495.713 145.305C503.844 138.98 509.154 129.936 511.08 120Z" />
             <path d="M16.287 145.305L228.469 310.359C244.662 322.955 267.338 322.955 283.531 310.359L495.713 145.305C505.99 137.311 512 125.02 512 112C512 85.49 490.51 64 464 64H48C21.49 64 0 85.49 0 112C0 125.02 6.01 137.311 16.287 145.305Z" />
         </Icon>
     </>

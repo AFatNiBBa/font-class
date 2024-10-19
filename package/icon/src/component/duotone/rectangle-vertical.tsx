@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `rectangle-vertical` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function RectangleVertical(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 448 512" {...props}>
-            <path opacity={.4} d="M32 448V64C32 28.654 60.654 0 96 0H352C387.346 0 416 28.654 416 64V448C416 483.346 387.346 512 352 512H96C60.654 512 32 483.346 32 448Z" />
+            <path class={generic.secondary} d="M32 448V64C32 28.654 60.654 0 96 0H352C387.346 0 416 28.654 416 64V448C416 483.346 387.346 512 352 512H96C60.654 512 32 483.346 32 448Z" />
         </Icon>
     </>
 }

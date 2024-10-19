@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `hockey-puck` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function HockeyPuck(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M512 160C512 213 397.375 256 256 256S0 213 0 160S114.625 64 256 64S512 107 512 160Z" />
+            <path class={generic.secondary} d="M512 160C512 213 397.375 256 256 256S0 213 0 160S114.625 64 256 64S512 107 512 160Z" />
             <path d="M512 160V352C512 405 397.375 448 256 448S0 405 0 352V160C0 213 114.625 256 256 256S512 213 512 160Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `caret-left` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function CaretLeft(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 256 512" {...props}>
-            <path opacity={.4} d="M137.375 406.625L9.375 278.625C3.125 272.375 0 264.187 0 256C0 247.812 3.125 239.625 9.375 233.375L137.375 105.375C146.531 96.219 160.281 93.484 172.25 98.437S192 115.062 192 128V384C192 396.937 184.219 408.609 172.25 413.562S146.531 415.781 137.375 406.625Z" />
+            <path class={generic.secondary} d="M137.375 406.625L9.375 278.625C3.125 272.375 0 264.187 0 256C0 247.812 3.125 239.625 9.375 233.375L137.375 105.375C146.531 96.219 160.281 93.484 172.25 98.437S192 115.062 192 128V384C192 396.937 184.219 408.609 172.25 413.562S146.531 415.781 137.375 406.625Z" />
         </Icon>
     </>
 }

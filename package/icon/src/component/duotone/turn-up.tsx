@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `turn-up` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function TurnUp(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 384 512" {...props}>
-            <path opacity={.4} d="M232 160V472C232 494.094 214.094 512 192 512H40C17.906 512 0 494.094 0 472S17.906 432 40 432H152V160H232Z" />
+            <path class={generic.secondary} d="M232 160V472C232 494.094 214.094 512 192 512H40C17.906 512 0 494.094 0 472S17.906 432 40 432H152V160H232Z" />
             <path d="M65.999 145.594C62.186 136.843 63.921 126.656 70.405 119.671L174.406 7.67C183.904 -2.557 200.094 -2.557 209.594 7.67L313.595 119.671C320.079 126.656 321.813 136.843 318.001 145.594S305.548 160 296.001 160H87.999C78.452 160 69.811 154.344 65.999 145.594Z" />
         </Icon>
     </>

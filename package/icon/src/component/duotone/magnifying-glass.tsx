@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function MagnifyingGlass(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M208 0C93.125 0 0 93.125 0 208S93.125 416 208 416S416 322.875 416 208S322.875 0 208 0ZM208 336C137.42 336 80 278.578 80 208C80 137.42 137.42 80 208 80S336 137.42 336 208C336 278.578 278.58 336 208 336Z" />
+            <path class={generic.secondary} d="M208 0C93.125 0 0 93.125 0 208S93.125 416 208 416S416 322.875 416 208S322.875 0 208 0ZM208 336C137.42 336 80 278.578 80 208C80 137.42 137.42 80 208 80S336 137.42 336 208C336 278.578 278.58 336 208 336Z" />
             <path d="M504.918 482.344L482.291 504.971C472.918 514.344 457.723 514.344 448.35 504.971L324 380.623C346.309 365.594 365.541 346.361 380.57 324.053L504.918 448.402C514.291 457.775 514.291 472.971 504.918 482.344Z" />
         </Icon>
     </>

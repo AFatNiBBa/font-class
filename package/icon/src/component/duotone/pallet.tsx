@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `pallet` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Pallet(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M624 384C632.75 384 640 376.75 640 368V336C640 327.25 632.75 320 624 320H16C7.25 320 0 327.25 0 336V368C0 376.75 7.25 384 16 384H64V448H16C7.25 448 0 455.25 0 464V496C0 504.75 7.25 512 16 512H624C632.75 512 640 504.75 640 496V464C640 455.25 632.75 448 624 448H576V384H624ZM288 448H128V384H288V448ZM512 448H352V384H512V448Z" />
+            <path class={generic.secondary} d="M624 384C632.75 384 640 376.75 640 368V336C640 327.25 632.75 320 624 320H16C7.25 320 0 327.25 0 336V368C0 376.75 7.25 384 16 384H64V448H16C7.25 448 0 455.25 0 464V496C0 504.75 7.25 512 16 512H624C632.75 512 640 504.75 640 496V464C640 455.25 632.75 448 624 448H576V384H624ZM288 448H128V384H288V448ZM512 448H352V384H512V448Z" />
         </Icon>
     </>
 }

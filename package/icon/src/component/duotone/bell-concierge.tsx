@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `bell-concierge` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BellConcierge(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M216 112H232V145.324C239.891 144.484 247.887 144 256 144S272.109 144.484 280 145.324V112H296C309.255 112 320 101.255 320 88V88C320 74.745 309.255 64 296 64H216C202.745 64 192 74.745 192 88V88C192 101.255 202.745 112 216 112ZM488 400H24C10.745 400 0 410.745 0 424V424C0 437.255 10.745 448 24 448H488C501.255 448 512 437.255 512 424V424C512 410.745 501.255 400 488 400Z" />
+            <path class={generic.secondary} d="M216 112H232V145.324C239.891 144.484 247.887 144 256 144S272.109 144.484 280 145.324V112H296C309.255 112 320 101.255 320 88V88C320 74.745 309.255 64 296 64H216C202.745 64 192 74.745 192 88V88C192 101.255 202.745 112 216 112ZM488 400H24C10.745 400 0 410.745 0 424V424C0 437.255 10.745 448 24 448H488C501.255 448 512 437.255 512 424V424C512 410.745 501.255 400 488 400Z" />
             <path d="M480 368H32C32 244.289 132.289 144 256 144S480 244.289 480 368Z" />
         </Icon>
     </>

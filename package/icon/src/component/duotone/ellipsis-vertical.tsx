@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `ellipsis-vertical` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function EllipsisVertical(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 128 512" {...props}>
-            <path opacity={.4} d="M128 256C128 220.611 99.375 192 64 192S0 220.611 0 256S28.625 320 64 320S128 291.389 128 256Z" />
+            <path class={generic.secondary} d="M128 256C128 220.611 99.375 192 64 192S0 220.611 0 256S28.625 320 64 320S128 291.389 128 256Z" />
             <path d="M128 64C128 28.611 99.375 0 64 0S0 28.611 0 64S28.625 128 64 128S128 99.389 128 64ZM128 448C128 412.611 99.375 384 64 384S0 412.611 0 448S28.625 512 64 512S128 483.389 128 448Z" />
         </Icon>
     </>

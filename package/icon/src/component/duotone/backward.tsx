@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `backward` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function Backward(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M459.49 71.406L288 214.273V297.727L459.49 440.594C480.117 457.716 511.996 443.343 511.996 415.973V96.027C511.996 68.657 480.117 54.284 459.49 71.406Z" />
+            <path class={generic.secondary} d="M459.49 71.406L288 214.273V297.727L459.49 440.594C480.117 457.716 511.996 443.343 511.996 415.973V96.027C511.996 68.657 480.117 54.284 459.49 71.406Z" />
             <path d="M244.53 96.027V415.973C244.53 443.343 212.651 457.716 192.023 440.594L0 280.621C-15.252 267.748 -15.252 244.252 0 231.379L192.023 71.406C212.651 54.284 244.53 68.657 244.53 96.027Z" />
         </Icon>
     </>

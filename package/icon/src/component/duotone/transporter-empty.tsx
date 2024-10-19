@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `transporter-empty` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function TransporterEmpty(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 320 512" {...props}>
-            <path opacity={.4} d="M288 448H32C14.375 448 0 462.375 0 480V512H320V480C320 462.375 305.625 448 288 448Z" />
+            <path class={generic.secondary} d="M288 448H32C14.375 448 0 462.375 0 480V512H320V480C320 462.375 305.625 448 288 448Z" />
         </Icon>
     </>
 }

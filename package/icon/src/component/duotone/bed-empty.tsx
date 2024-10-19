@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `bed-empty` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function BedEmpty(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M544 224H64V320H640C640 266.981 597.019 224 544 224Z" />
+            <path class={generic.secondary} d="M544 224H64V320H640C640 266.981 597.019 224 544 224Z" />
             <path d="M640 320V464C640 472.844 632.844 480 624 480H592C583.156 480 576 472.844 576 464V416H64V464C64 472.844 56.844 480 48 480H16C7.156 480 0 472.844 0 464V48C0 39.156 7.156 32 16 32H48C56.844 32 64 39.156 64 48V320H640Z" />
         </Icon>
     </>

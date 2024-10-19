@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `left-right` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function LeftRight(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            <path opacity={.4} d="M256 208H352.336V152C352.336 142.453 357.992 133.812 366.742 130S385.68 127.922 392.664 134.406L504.664 238.406C514.445 247.5 514.445 264.5 504.664 273.594L392.664 377.594C385.68 384.078 375.492 385.812 366.742 382S352.336 369.547 352.336 360V304H256V208Z" />
+            <path class={generic.secondary} d="M256 208H352.336V152C352.336 142.453 357.992 133.812 366.742 130S385.68 127.922 392.664 134.406L504.664 238.406C514.445 247.5 514.445 264.5 504.664 273.594L392.664 377.594C385.68 384.078 375.492 385.812 366.742 382S352.336 369.547 352.336 360V304H256V208Z" />
             <path d="M256 304H159.664V360C159.664 369.547 154.008 378.188 145.258 382S126.32 384.078 119.336 377.594L7.336 273.594C-2.445 264.5 -2.445 247.5 7.336 238.406L119.336 134.406C126.32 127.922 136.508 126.188 145.258 130S159.664 142.453 159.664 152V208H256V304Z" />
         </Icon>
     </>

@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `rectangle-wide` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function RectangleWide(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 640 512" {...props}>
-            <path opacity={.4} d="M576 448H64C28.654 448 0 419.346 0 384V128C0 92.654 28.654 64 64 64H576C611.346 64 640 92.654 640 128V384C640 419.346 611.346 448 576 448Z" />
+            <path class={generic.secondary} d="M576 448H64C28.654 448 0 419.346 0 384V128C0 92.654 28.654 64 64 64H576C611.346 64 640 92.654 640 128V384C640 419.346 611.346 448 576 448Z" />
         </Icon>
     </>
 }

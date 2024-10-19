@@ -1,6 +1,6 @@
 
+import { Icon, generic } from "../../index";
 import { ComponentProps } from "solid-js";
-import { Icon } from "../../index";
 
 /**
  * A component that renders the `casette-betamax` icon from the `duotone` section of Font Awesome 6 Pro
@@ -10,7 +10,7 @@ import { Icon } from "../../index";
 export default function CasetteBetamax(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon viewBox="0 0 576 512" {...props}>
-            <path opacity={.4} d="M0 160V432C0 458.51 21.49 480 48 480H528C554.51 480 576 458.51 576 432V160H0ZM160 416C107.051 416 64 372.949 64 320S107.051 224 160 224C212.951 224 256 267.051 256 320S212.951 416 160 416ZM512 416H320V224H512V416Z" />
+            <path class={generic.secondary} d="M0 160V432C0 458.51 21.49 480 48 480H528C554.51 480 576 458.51 576 432V160H0ZM160 416C107.051 416 64 372.949 64 320S107.051 224 160 224C212.951 224 256 267.051 256 320S212.951 416 160 416ZM512 416H320V224H512V416Z" />
             <path d="M528 32H48C21.49 32 0 53.49 0 80V160H576V80C576 53.49 554.51 32 528 32ZM160 224C107.051 224 64 267.051 64 320S107.051 416 160 416C212.951 416 256 372.949 256 320S212.951 224 160 224ZM160 352C142.375 352 128 337.625 128 320S142.375 288 160 288S192 302.375 192 320S177.625 352 160 352Z" />
         </Icon>
     </>
