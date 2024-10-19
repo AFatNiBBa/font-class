@@ -12,6 +12,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "change-case": "^5.4.4"
+    "change-case": "^5.4.4",
+    "dedent-js": "^1.0.1",
+    "node-html-parser": "^6.1.13"
   }
 }

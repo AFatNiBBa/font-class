@@ -1,5 +1,5 @@
 
-import { svgToComponentDir } from "./lib";
+import { svgToComponentDir } from "./lib/convert";
 import { join } from "path";
 
 /** The source folder */
