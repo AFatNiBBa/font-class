@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `tablet-button` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/tablet-button?s=light tablet-button}
+ * @preview ![tablet-button](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMjQgMzkyQzIxMC42ODggMzkyIDIwMCA0MDIuNjg4IDIwMCA0MTZTMjEwLjY4OCA0NDAgMjI0IDQ0MFMyNDggNDI5LjMxMiAyNDggNDE2UzIzNy4zMTIgMzkyIDIyNCAzOTJaTTM4NCAwSDY0QzI4LjY1NCAwIDAgMjguNjU0IDAgNjRWNDQ4QzAgNDgzLjM0NiAyOC42NTQgNTEyIDY0IDUxMkgzODRDNDE5LjM0NiA1MTIgNDQ4IDQ4My4zNDYgNDQ4IDQ0OFY2NEM0NDggMjguNjU0IDQxOS4zNDYgMCAzODQgMFpNNDE2IDQ0OEM0MTYgNDY1LjY0NSA0MDEuNjQ1IDQ4MCAzODQgNDgwSDY0QzQ2LjM1NSA0ODAgMzIgNDY1LjY0NSAzMiA0NDhWNjRDMzIgNDYuMzU1IDQ2LjM1NSAzMiA2NCAzMkgzODRDNDAxLjY0NSAzMiA0MTYgNDYuMzU1IDQxNiA2NFY0NDhaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function TabletButton(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M224 392C210.688 392 200 402.688 200 416S210.688 440 224 440S248 429.312 248 416S237.312 392 224 392ZM384 0H64C28.654 0 0 28.654 0 64V448C0 483.346 28.654 512 64 512H384C419.346 512 448 483.346 448 448V64C448 28.654 419.346 0 384 0ZM416 448C416 465.645 401.645 480 384 480H64C46.355 480 32 465.645 32 448V64C32 46.355 46.355 32 64 32H384C401.645 32 416 46.355 416 64V448Z" />
         </Icon>
     </>
 }
-    

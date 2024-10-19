@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `folder-heart` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/folder-heart?s=solid folder-heart}
+ * @preview ![folder-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NjQgOTZIMjcyTDIwOCAzMkg0OEMyMS41IDMyIDAgNTMuNSAwIDgwVjQzMkMwIDQ1OC41IDIxLjUgNDgwIDQ4IDQ4MEg0NjRDNDkwLjUgNDgwIDUxMiA0NTguNSA1MTIgNDMyVjE0NEM1MTIgMTE3LjUgNDkwLjUgOTYgNDY0IDk2Wk0zNDguNjY4IDI5NC4zMTRMMjY1LjY3NiAzNzkuODczQzI2MC4yODkgMzg1LjM3NyAyNTEuNzIzIDM4NS4zNzcgMjQ2LjMzNiAzNzkuODczTDE2My4zNDQgMjk0LjMxNEMxMzkuMjM0IDI2OS4yOTkgMTQwLjcwMyAyMjguMTQzIDE2Ny42MjkgMjA1LjEyN0MxOTEuMTMzIDE4NS4xMTEgMjI2LjAxNiAxODguNzQgMjQ3LjQzOCAyMTAuODgxTDI1NS44ODMgMjE5LjYzNUwyNjQuMzI4IDIxMC44ODFDMjg1Ljg3NSAxODguNzQgMzIwLjg4MyAxODUuMTExIDM0NC4yNTggMjA1LjEyN0MzNzEuMzEyIDIyOC4xNDMgMzcyLjc4MSAyNjkuMjk5IDM0OC42NjggMjk0LjMxNFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function FolderHeart(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M464 96H272L208 32H48C21.5 32 0 53.5 0 80V432C0 458.5 21.5 480 48 480H464C490.5 480 512 458.5 512 432V144C512 117.5 490.5 96 464 96ZM348.668 294.314L265.676 379.873C260.289 385.377 251.723 385.377 246.336 379.873L163.344 294.314C139.234 269.299 140.703 228.143 167.629 205.127C191.133 185.111 226.016 188.74 247.438 210.881L255.883 219.635L264.328 210.881C285.875 188.74 320.883 185.111 344.258 205.127C371.312 228.143 372.781 269.299 348.668 294.314Z" />
         </Icon>
     </>
 }
-    

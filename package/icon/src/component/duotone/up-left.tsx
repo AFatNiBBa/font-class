@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `up-left` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/up-left?s=duotone up-left}
+ * @preview ![up-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTM1OS4xMTkgMzc3LjM3NEwzMTMuODY0IDQyMi42MjhDMzAxLjM2NyA0MzUuMTI0IDI4MS4xMDggNDM1LjEyNCAyNjguNjEgNDIyLjYyOEwxMzkgMjkzLjAxNkwyMjkuNTA4IDIwMi41MDRMMzU5LjExOSAzMzIuMTE2QzM3MS42MTcgMzQ0LjYxNiAzNzEuNjE1IDM2NC44NzQgMzU5LjExOSAzNzcuMzc0WiIgY2xhc3M9ImZhLXNlY29uZGFyeSIvPjxwYXRoIGQ9Ik03MC42MjUgMzYwLjg5OEM2MS40NzcgMzcwLjA0NyA0Ny43MDkgMzcyLjc4NSAzNS43NTYgMzY3LjgzNkMyMy43ODkgMzYyLjg3OSAxNiAzNTEuMjIzIDE2IDMzOC4yN1YxMTEuOTk2QzE2IDEwMy4xNiAxOS41OCA5NS4xNiAyNS4zNjkgODkuMzcxQzMxLjE2IDgzLjU4MiAzOS4xNTggODAgNDcuOTk4IDgwSDI3NC4yNzFDMjg3LjIyMSA4MCAyOTguODc3IDg3Ljc4OSAzMDMuODM4IDk5Ljc1NEMzMDguNzg3IDExMS43MDcgMzA2LjA0NyAxMjUuNDc3IDI5Ni44OTggMTM0LjYyNUw3MC42MjUgMzYwLjg5OFoiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ */
 export default function UpLeft(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path opacity={.4} d="M359.119 377.374L313.864 422.628C301.367 435.124 281.108 435.124 268.61 422.628L139 293.016L229.508 202.504L359.119 332.116C371.617 344.616 371.615 364.874 359.119 377.374Z" />
+            <path d="M70.625 360.898C61.477 370.047 47.709 372.785 35.756 367.836C23.789 362.879 16 351.223 16 338.27V111.996C16 103.16 19.58 95.16 25.369 89.371C31.16 83.582 39.158 80 47.998 80H274.271C287.221 80 298.877 87.789 303.838 99.754C308.787 111.707 306.047 125.477 296.898 134.625L70.625 360.898Z" />
         </Icon>
     </>
 }
-    

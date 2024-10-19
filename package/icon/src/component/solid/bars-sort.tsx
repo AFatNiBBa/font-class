@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `bars-sort` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/bars-sort?s=solid bars-sort}
+ * @preview ![bars-sort](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yODggMjI0SDMyQzE0LjMyNyAyMjQgMCAyMzguMzI3IDAgMjU2VjI1NkMwIDI3My42NzMgMTQuMzI3IDI4OCAzMiAyODhIMjg4QzMwNS42NzMgMjg4IDMyMCAyNzMuNjczIDMyMCAyNTZWMjU2QzMyMCAyMzguMzI3IDMwNS42NzMgMjI0IDI4OCAyMjRaTTE2MCAzODRIMzJDMTQuMzI3IDM4NCAwIDM5OC4zMjcgMCA0MTZWNDE2QzAgNDMzLjY3MyAxNC4zMjcgNDQ4IDMyIDQ0OEgxNjBDMTc3LjY3MyA0NDggMTkyIDQzMy42NzMgMTkyIDQxNlY0MTZDMTkyIDM5OC4zMjcgMTc3LjY3MyAzODQgMTYwIDM4NFpNNDE2IDY0SDMyQzE0LjMyNyA2NCAwIDc4LjMyNyAwIDk2Vjk2QzAgMTEzLjY3MyAxNC4zMjcgMTI4IDMyIDEyOEg0MTZDNDMzLjY3MyAxMjggNDQ4IDExMy42NzMgNDQ4IDk2Vjk2QzQ0OCA3OC4zMjcgNDMzLjY3MyA2NCA0MTYgNjRaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function BarsSort(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M288 224H32C14.327 224 0 238.327 0 256V256C0 273.673 14.327 288 32 288H288C305.673 288 320 273.673 320 256V256C320 238.327 305.673 224 288 224ZM160 384H32C14.327 384 0 398.327 0 416V416C0 433.673 14.327 448 32 448H160C177.673 448 192 433.673 192 416V416C192 398.327 177.673 384 160 384ZM416 64H32C14.327 64 0 78.327 0 96V96C0 113.673 14.327 128 32 128H416C433.673 128 448 113.673 448 96V96C448 78.327 433.673 64 416 64Z" />
         </Icon>
     </>
 }
-    

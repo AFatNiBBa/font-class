@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `bring-forward` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/bring-forward?s=duotone bring-forward}
+ * @preview ![bring-forward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTUxMiAyMjRWNDQ4QzUxMiA0ODMuMzQ2IDQ4My4zNDYgNTEyIDQ0OCA1MTJIMjI0QzE4OC42NTQgNTEyIDE2MCA0ODMuMzQ2IDE2MCA0NDhWMzUySDIyNFY0MzJDMjI0IDQ0MC44MzYgMjMxLjE2NCA0NDggMjQwIDQ0OEg0MzJDNDQwLjgzNiA0NDggNDQ4IDQ0MC44MzYgNDQ4IDQzMlYyNDBDNDQ4IDIzMS4xNjIgNDQwLjgzNiAyMjQgNDMyIDIyNEgzNTJWMTYwSDQ0OEM0ODMuMzQ2IDE2MCA1MTIgMTg4LjY1MiA1MTIgMjI0WiIgY2xhc3M9ImZhLXNlY29uZGFyeSIvPjxwYXRoIGQ9Ik0zNTIgMjg4VjY0QzM1MiAyOC42NTIgMzIzLjM0NiAwIDI4OCAwSDY0QzI4LjY1NCAwIDAgMjguNjUyIDAgNjRWMjg4QzAgMzIzLjM0NiAyOC42NTQgMzUyIDY0IDM1MkgyODhDMzIzLjM0NiAzNTIgMzUyIDMyMy4zNDYgMzUyIDI4OFoiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ */
 export default function BringForward(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path opacity={.4} d="M512 224V448C512 483.346 483.346 512 448 512H224C188.654 512 160 483.346 160 448V352H224V432C224 440.836 231.164 448 240 448H432C440.836 448 448 440.836 448 432V240C448 231.162 440.836 224 432 224H352V160H448C483.346 160 512 188.652 512 224Z" />
+            <path d="M352 288V64C352 28.652 323.346 0 288 0H64C28.654 0 0 28.652 0 64V288C0 323.346 28.654 352 64 352H288C323.346 352 352 323.346 352 288Z" />
         </Icon>
     </>
 }
-    

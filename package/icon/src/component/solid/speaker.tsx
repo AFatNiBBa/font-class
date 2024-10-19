@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `speaker` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/speaker?s=solid speaker}
+ * @preview ![speaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMzYgMEg0OEMyMS41IDAgMCAyMS41IDAgNDhWNDY0QzAgNDkwLjUgMjEuNSA1MTIgNDggNTEySDMzNkMzNjIuNSA1MTIgMzg0IDQ5MC41IDM4NCA0NjRWNDhDMzg0IDIxLjUgMzYyLjUgMCAzMzYgMFpNMTkyIDY0QzIxOC41IDY0IDI0MCA4NS41IDI0MCAxMTJTMjE4LjUgMTYwIDE5MiAxNjBTMTQ0IDEzOC41IDE0NCAxMTJTMTY1LjUgNjQgMTkyIDY0Wk0xOTIgNDQ4QzEzMC4xODggNDQ4IDgwIDM5Ny44MjggODAgMzM2UzEzMC4xODggMjI0IDE5MiAyMjRTMzA0IDI3NC4xNzIgMzA0IDMzNlMyNTMuODEyIDQ0OCAxOTIgNDQ4Wk0xOTIgMjcyQzE1Ni42ODggMjcyIDEyOCAzMDAuNjcyIDEyOCAzMzZTMTU2LjY4OCA0MDAgMTkyIDQwMFMyNTYgMzcxLjMyOCAyNTYgMzM2UzIyNy4zMTIgMjcyIDE5MiAyNzJaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function Speaker(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M336 0H48C21.5 0 0 21.5 0 48V464C0 490.5 21.5 512 48 512H336C362.5 512 384 490.5 384 464V48C384 21.5 362.5 0 336 0ZM192 64C218.5 64 240 85.5 240 112S218.5 160 192 160S144 138.5 144 112S165.5 64 192 64ZM192 448C130.188 448 80 397.828 80 336S130.188 224 192 224S304 274.172 304 336S253.812 448 192 448ZM192 272C156.688 272 128 300.672 128 336S156.688 400 192 400S256 371.328 256 336S227.312 272 192 272Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `bars` icon from the `thin` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/bars?s=thin bars}
+ * @preview ![bars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik04IDEwNEg0NDBDNDQ0LjQwNiAxMDQgNDQ4IDEwMC40MDYgNDQ4IDk2UzQ0NC40MDYgODggNDQwIDg4SDhDMy41OTQgODggMCA5MS41OTQgMCA5NlMzLjU5NCAxMDQgOCAxMDRaTTQ0MCAyNDhIOEMzLjU5NCAyNDggMCAyNTEuNTk0IDAgMjU2UzMuNTk0IDI2NCA4IDI2NEg0NDBDNDQ0LjQwNiAyNjQgNDQ4IDI2MC40MDYgNDQ4IDI1NlM0NDQuNDA2IDI0OCA0NDAgMjQ4Wk00NDAgNDA4SDhDMy41OTQgNDA4IDAgNDExLjU5NCAwIDQxNlMzLjU5NCA0MjQgOCA0MjRINDQwQzQ0NC40MDYgNDI0IDQ0OCA0MjAuNDA2IDQ0OCA0MTZTNDQ0LjQwNiA0MDggNDQwIDQwOFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Bars(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M8 104H440C444.406 104 448 100.406 448 96S444.406 88 440 88H8C3.594 88 0 91.594 0 96S3.594 104 8 104ZM440 248H8C3.594 248 0 251.594 0 256S3.594 264 8 264H440C444.406 264 448 260.406 448 256S444.406 248 440 248ZM440 408H8C3.594 408 0 411.594 0 416S3.594 424 8 424H440C444.406 424 448 420.406 448 416S444.406 408 440 408Z" />
         </Icon>
     </>
 }
-    

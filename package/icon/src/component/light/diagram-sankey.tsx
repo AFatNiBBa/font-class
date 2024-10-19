@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `diagram-sankey` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/diagram-sankey?s=light diagram-sankey}
+ * @preview ![diagram-sankey](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00OCAyMjRIMjg4QzI5NCAyMjQgMjk5IDIyMSAzMDIgMjE2TDM4OCA3MkMzOTEgNjcgMzk3IDY0IDQwMiA2NEg1OTJDNjAxIDY0IDYwOCA1NyA2MDggNDhTNjAxIDMyIDU5MiAzMkg0MDJDMzg1IDMyIDM3MCA0MSAzNjEgNTVMMjc5IDE5Mkg0OEMzOSAxOTIgMzIgMTk5IDMyIDIwOFMzOSAyMjQgNDggMjI0Wk02MDggMzA0QzYwOCAyOTUgNjAxIDI4OCA1OTIgMjg4SDQ4QzM5IDI4OCAzMiAyOTUgMzIgMzA0UzM5IDMyMCA0OCAzMjBIMTk5TDI4MSA0NTdDMjkwIDQ3MSAzMDUgNDgwIDMyMiA0ODBINTkyQzYwMSA0ODAgNjA4IDQ3MyA2MDggNDY0UzYwMSA0NDggNTkyIDQ0OEgzMjJDMzE3IDQ0OCAzMTEgNDQ1IDMwOCA0NDBMMjM2IDMyMEg1OTJDNjAxIDMyMCA2MDggMzEzIDYwOCAzMDRaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function DiagramSankey(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 640 512" {...props}>
+            <path d="M48 224H288C294 224 299 221 302 216L388 72C391 67 397 64 402 64H592C601 64 608 57 608 48S601 32 592 32H402C385 32 370 41 361 55L279 192H48C39 192 32 199 32 208S39 224 48 224ZM608 304C608 295 601 288 592 288H48C39 288 32 295 32 304S39 320 48 320H199L281 457C290 471 305 480 322 480H592C601 480 608 473 608 464S601 448 592 448H322C317 448 311 445 308 440L236 320H592C601 320 608 313 608 304Z" />
         </Icon>
     </>
 }
-    

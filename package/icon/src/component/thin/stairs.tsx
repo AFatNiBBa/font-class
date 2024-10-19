@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `stairs` icon from the `thin` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/stairs?s=thin stairs}
+ * @preview ![stairs](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01NzYgNDBDNTc2IDQ0LjQyMiA1NzIuNDA2IDQ4IDU2OCA0OEg0NDBWMTg0QzQ0MCAxODguNDIyIDQzNi40MDYgMTkyIDQzMiAxOTJIMjk2VjMyOEMyOTYgMzMyLjQyMiAyOTIuNDA2IDMzNiAyODggMzM2SDE1MlY0NzJDMTUyIDQ3Ni40MjIgMTQ4LjQwNiA0ODAgMTQ0IDQ4MEg4QzMuNTk0IDQ4MCAwIDQ3Ni40MjIgMCA0NzJTMy41OTQgNDY0IDggNDY0SDEzNlYzMjhDMTM2IDMyMy41NzggMTM5LjU5NCAzMjAgMTQ0IDMyMEgyODBWMTg0QzI4MCAxNzkuNTc4IDI4My41OTQgMTc2IDI4OCAxNzZINDI0VjQwQzQyNCAzNS41NzggNDI3LjU5NCAzMiA0MzIgMzJINTY4QzU3Mi40MDYgMzIgNTc2IDM1LjU3OCA1NzYgNDBaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function Stairs(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 576 512" {...props}>
+            <path d="M576 40C576 44.422 572.406 48 568 48H440V184C440 188.422 436.406 192 432 192H296V328C296 332.422 292.406 336 288 336H152V472C152 476.422 148.406 480 144 480H8C3.594 480 0 476.422 0 472S3.594 464 8 464H136V328C136 323.578 139.594 320 144 320H280V184C280 179.578 283.594 176 288 176H424V40C424 35.578 427.594 32 432 32H568C572.406 32 576 35.578 576 40Z" />
         </Icon>
     </>
 }
-    

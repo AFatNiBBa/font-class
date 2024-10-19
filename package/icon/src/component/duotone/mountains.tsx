@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `mountains` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/mountains?s=duotone mountains}
+ * @preview ![mountains](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU3Ni4zMDkgNDgwSDQ1Ni4wMjdDNTAwLjQwNCA0ODAgNTI3LjI3MSA0MzAuOTc5IDUwMy4zOTYgMzkzLjU3Mkw0MTAgMjQ3LjIzNEw0MTAuMDA2IDI0Ny4xMDVMNDUwLjI1MiAxODQuMDQ1QzQ2Mi44MzQgMTY0LjMzNCA0OTEuNjEzIDE2NC4zMzQgNTA0LjE5MyAxODQuMDQ1TDYzMC4yNDggMzgxLjU1N0M2NTcuNDM5IDQyNC4xNjIgNjI2Ljg0NCA0ODAgNTc2LjMwOSA0ODBaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTI3OS45MzQgNDQuMjE3TDUwMi44OTkgMzkzLjU3MkM1MjYuNzczIDQzMC45OCA0OTkuOTA2IDQ4MCA0NTUuNTMgNDgwSDU2LjI4N0MxMS45MSA0ODAgLTE0Ljk1NyA0MzAuOTggOC45MTcgMzkzLjU3MkwyMzEuODgyIDQ0LjIxN0MyNDIuMjQ3IDI3Ljk2OCAyNjkuMjkgMjcuOTQ3IDI3OS44MTkgNDQuMDM4QzI3OS44MzUgNDQuMDYxIDI3OS45MjEgNDQuMTk2IDI3OS45MzQgNDQuMjE3WiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Mountains(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 640 512" {...props}>
+            <path opacity={.4} d="M576.309 480H456.027C500.404 480 527.271 430.979 503.396 393.572L410 247.234L410.006 247.105L450.252 184.045C462.834 164.334 491.613 164.334 504.193 184.045L630.248 381.557C657.439 424.162 626.844 480 576.309 480Z" />
+            <path d="M279.934 44.217L502.899 393.572C526.773 430.98 499.906 480 455.53 480H56.287C11.91 480 -14.957 430.98 8.917 393.572L231.882 44.217C242.247 27.968 269.29 27.947 279.819 44.038C279.835 44.061 279.921 44.196 279.934 44.217Z" />
         </Icon>
     </>
 }
-    

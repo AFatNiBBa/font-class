@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `box-ballot` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/box-ballot?s=solid box-ballot}
+ * @preview ![box-ballot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0wIDQ2NEMwIDQ5MC41MSAyMS40OSA1MTIgNDggNTEySDUyOEM1NTQuNTEgNTEyIDU3NiA0OTAuNTEgNTc2IDQ2NFYzNTJIMFY0NjRaTTQ0OCAyNEM0NDggMTAuNzQ0IDQzNy4yNTQgMCA0MjQgMEgxNTJDMTM4Ljc0NiAwIDEyOCAxMC43NDQgMTI4IDI0VjIyNEg0NDhWMjRaTTU0NCAxNjBINDgwVjIyNEM0ODAgMjQxLjY3MiA0NjUuNjc0IDI1NiA0NDggMjU2SDEyOEMxMTAuMzI2IDI1NiA5NiAyNDEuNjcyIDk2IDIyNFYxNjBIMzJDMTQuMzI2IDE2MCAwIDE3NC4zMjYgMCAxOTJWMzE5LjEyNUwwLjg3NSAzMjBINTc1LjEyNUw1NzYgMzE5LjEyNVYxOTJDNTc2IDE3NC4zMjYgNTYxLjY3NCAxNjAgNTQ0IDE2MFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function BoxBallot(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 576 512" {...props}>
+            <path d="M0 464C0 490.51 21.49 512 48 512H528C554.51 512 576 490.51 576 464V352H0V464ZM448 24C448 10.744 437.254 0 424 0H152C138.746 0 128 10.744 128 24V224H448V24ZM544 160H480V224C480 241.672 465.674 256 448 256H128C110.326 256 96 241.672 96 224V160H32C14.326 160 0 174.326 0 192V319.125L0.875 320H575.125L576 319.125V192C576 174.326 561.674 160 544 160Z" />
         </Icon>
     </>
 }
-    

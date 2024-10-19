@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `record-vinyl` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/record-vinyl?s=regular record-vinyl}
+ * @preview ![record-vinyl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNTYgMTUyQzE5OC41IDE1MiAxNTIgMTk4LjUgMTUyIDI1NlMxOTguNSAzNjAgMjU2IDM2MFMzNjAgMzEzLjUgMzYwIDI1NlMzMTMuNSAxNTIgMjU2IDE1MlpNMjU2IDI4MEMyNDIuNzUgMjgwIDIzMiAyNjkuMjUgMjMyIDI1NlMyNDIuNzUgMjMyIDI1NiAyMzJTMjgwIDI0Mi43NSAyODAgMjU2UzI2OS4yNSAyODAgMjU2IDI4MFpNMjU2IDE2QzEyMy40NTEgMTYgMTYgMTIzLjQ1MSAxNiAyNTZTMTIzLjQ1MSA0OTYgMjU2IDQ5NlM0OTYgMzg4LjU0OSA0OTYgMjU2UzM4OC41NDkgMTYgMjU2IDE2Wk0yNTYgNDQ4QzE1MC4xMzEgNDQ4IDY0IDM2MS44NjkgNjQgMjU2UzE1MC4xMzEgNjQgMjU2IDY0UzQ0OCAxNTAuMTMxIDQ0OCAyNTZTMzYxLjg2OSA0NDggMjU2IDQ0OFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function RecordVinyl(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M256 152C198.5 152 152 198.5 152 256S198.5 360 256 360S360 313.5 360 256S313.5 152 256 152ZM256 280C242.75 280 232 269.25 232 256S242.75 232 256 232S280 242.75 280 256S269.25 280 256 280ZM256 16C123.451 16 16 123.451 16 256S123.451 496 256 496S496 388.549 496 256S388.549 16 256 16ZM256 448C150.131 448 64 361.869 64 256S150.131 64 256 64S448 150.131 448 256S361.869 448 256 448Z" />
         </Icon>
     </>
 }
-    

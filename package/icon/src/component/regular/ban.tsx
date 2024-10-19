@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `ban` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/ban?s=regular ban}
+ * @preview ![ban](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNTYgMTZDMTIzLjQ1MSAxNiAxNiAxMjMuNDUxIDE2IDI1NlMxMjMuNDUxIDQ5NiAyNTYgNDk2UzQ5NiAzODguNTQ5IDQ5NiAyNTZTMzg4LjU0OSAxNiAyNTYgMTZaTTY0IDI1NkM2NCAyMTEuNzAzIDc5LjIyNSAxNzAuOTc5IDEwNC41MiAxMzguNDU3TDM3My41NDMgNDA3LjQ4QzM0MS4wMjEgNDMyLjc3NSAzMDAuMjk3IDQ0OCAyNTYgNDQ4QzE1MC4xMzEgNDQ4IDY0IDM2MS44NjkgNjQgMjU2Wk00MDcuNDggMzczLjU0M0wxMzguNDU3IDEwNC41MkMxNzAuOTc5IDc5LjIyNSAyMTEuNzAzIDY0IDI1NiA2NEMzNjEuODY5IDY0IDQ0OCAxNTAuMTMxIDQ0OCAyNTZDNDQ4IDMwMC4yOTcgNDMyLjc3NSAzNDEuMDIxIDQwNy40OCAzNzMuNTQzWiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Ban(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M256 16C123.451 16 16 123.451 16 256S123.451 496 256 496S496 388.549 496 256S388.549 16 256 16ZM64 256C64 211.703 79.225 170.979 104.52 138.457L373.543 407.48C341.021 432.775 300.297 448 256 448C150.131 448 64 361.869 64 256ZM407.48 373.543L138.457 104.52C170.979 79.225 211.703 64 256 64C361.869 64 448 150.131 448 256C448 300.297 432.775 341.021 407.48 373.543Z" />
         </Icon>
     </>
 }
-    

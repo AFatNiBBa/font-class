@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `b` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/b?s=light b}
+ * @preview ![b](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNDEuODY5IDIzNC4xMjVDMjY5LjY5MyAyMTMuNzI3IDI4OCAxODEuMDYxIDI4OCAxNDRDMjg4IDgyLjI1IDIzNy43NSAzMiAxNzYgMzJIMTZDNy4xNTYgMzIgMCAzOS4xNTYgMCA0OFY0NjRDMCA0NzIuODQ0IDcuMTU2IDQ4MCAxNiA0ODBIMTkyQzI2Mi41NzggNDgwIDMyMCA0MjIuNTc4IDMyMCAzNTJDMzIwIDI5OS4xMDQgMjg3Ljc0MiAyNTMuNjA3IDI0MS44NjkgMjM0LjEyNVpNMzIgNjRIMTc2QzIyMC4xMDkgNjQgMjU2IDk5Ljg5MSAyNTYgMTQ0UzIyMC4xMDkgMjI0IDE3NiAyMjRIMzJWNjRaTTE5MiA0NDhIMzJWMjU2SDE5MkMyNDQuOTM4IDI1NiAyODggMjk5LjA2MiAyODggMzUyUzI0NC45MzggNDQ4IDE5MiA0NDhaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function B(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 320 512" {...props}>
+            <path d="M241.869 234.125C269.693 213.727 288 181.061 288 144C288 82.25 237.75 32 176 32H16C7.156 32 0 39.156 0 48V464C0 472.844 7.156 480 16 480H192C262.578 480 320 422.578 320 352C320 299.104 287.742 253.607 241.869 234.125ZM32 64H176C220.109 64 256 99.891 256 144S220.109 224 176 224H32V64ZM192 448H32V256H192C244.938 256 288 299.062 288 352S244.938 448 192 448Z" />
         </Icon>
     </>
 }
-    

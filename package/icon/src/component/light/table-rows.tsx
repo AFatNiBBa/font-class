@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `table-rows` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/table-rows?s=light table-rows}
+ * @preview ![table-rows](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NDggMzJINjRDMjguNjUyIDMyIDAgNjAuNjU0IDAgOTZWNDE2QzAgNDUxLjM0NiAyOC42NTIgNDgwIDY0IDQ4MEg0NDhDNDgzLjM0NiA0ODAgNTEyIDQ1MS4zNDYgNTEyIDQxNlY5NkM1MTIgNjAuNjU0IDQ4My4zNDYgMzIgNDQ4IDMyWk0xMjggNDQ4SDY0QzQ2LjM1NSA0NDggMzIgNDMzLjY0NSAzMiA0MTZWOTZDMzIgNzguMzU1IDQ2LjM1NSA2NCA2NCA2NEgxMjhWNDQ4Wk00ODAgNDE2QzQ4MCA0MzMuNjQ1IDQ2NS42NDUgNDQ4IDQ0OCA0NDhIMTYwVjI3Mkg0ODBWNDE2Wk00ODAgMjQwSDE2MFY2NEg0NDhDNDY1LjY0NSA2NCA0ODAgNzguMzU1IDQ4MCA5NlYyNDBaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function TableRows(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M448 32H64C28.652 32 0 60.654 0 96V416C0 451.346 28.652 480 64 480H448C483.346 480 512 451.346 512 416V96C512 60.654 483.346 32 448 32ZM128 448H64C46.355 448 32 433.645 32 416V96C32 78.355 46.355 64 64 64H128V448ZM480 416C480 433.645 465.645 448 448 448H160V272H480V416ZM480 240H160V64H448C465.645 64 480 78.355 480 96V240Z" />
         </Icon>
     </>
 }
-    

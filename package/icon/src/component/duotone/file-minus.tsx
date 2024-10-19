@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `file-minus` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/file-minus?s=duotone file-minus}
+ * @preview ![file-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTI1NiAxMjhWMEg0OEMyMS40OTIgMCAwIDIxLjQ5MiAwIDQ4VjQ2NEMwIDQ5MC41MDggMjEuNDkyIDUxMiA0OCA1MTJIMzM2QzM2Mi41MDggNTEyIDM4NCA0OTAuNTA4IDM4NCA0NjRWMTI4SDI1NlpNMjcyIDM1OS45OThIMTEyQzk4LjczIDM1OS45OTggODggMzQ5LjI1NiA4OCAzMzZDODggMzIyLjc0MiA5OC43MzggMzEyLjAwMiAxMTIgMzEyLjAwMkgyNzJDMjg1LjI2MiAzMTIuMDAyIDI5NiAzMjIuNzQyIDI5NiAzMzZTMjg1LjI2MiAzNTkuOTk4IDI3MiAzNTkuOTk4WiIgY2xhc3M9ImZhLXNlY29uZGFyeSIvPjxwYXRoIGQ9Ik0yNTYgMFYxMjhIMzg0TDI1NiAwWk0yNzIgMzEyLjAwMkgxMTEuOTk2Qzk4LjczNCAzMTIuMDAyIDg4IDMyMi43NDIgODggMzM2Qzg4IDM0OS4yNTYgOTguNzI3IDM1OS45OTggMTExLjk5NiAzNTkuOTk4SDI3MkMyODUuMjU4IDM1OS45OTggMjk2IDM0OS4yNTggMjk2IDMzNlMyODUuMjU4IDMxMi4wMDIgMjcyIDMxMi4wMDJaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function FileMinus(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path opacity={.4} d="M256 128V0H48C21.492 0 0 21.492 0 48V464C0 490.508 21.492 512 48 512H336C362.508 512 384 490.508 384 464V128H256ZM272 359.998H112C98.73 359.998 88 349.256 88 336C88 322.742 98.738 312.002 112 312.002H272C285.262 312.002 296 322.742 296 336S285.262 359.998 272 359.998Z" />
+            <path d="M256 0V128H384L256 0ZM272 312.002H111.996C98.734 312.002 88 322.742 88 336C88 349.256 98.727 359.998 111.996 359.998H272C285.258 359.998 296 349.258 296 336S285.258 312.002 272 312.002Z" />
         </Icon>
     </>
 }
-    

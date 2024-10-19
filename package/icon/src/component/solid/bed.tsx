@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `bed` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/bed?s=solid bed}
+ * @preview ![bed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0xNzYgMjg4QzIyMC4xMjUgMjg4IDI1NiAyNTIuMTI1IDI1NiAyMDhTMjIwLjEyNSAxMjggMTc2IDEyOFM5NiAxNjMuODc1IDk2IDIwOFMxMzEuODc1IDI4OCAxNzYgMjg4Wk01NDQgMTI4SDMwNEMyOTUuMTYzIDEyOCAyODggMTM1LjE2MyAyODggMTQ0VjMyMEg2NFY0OEM2NCAzOS4xNjMgNTYuODM3IDMyIDQ4IDMySDE2QzcuMTYzIDMyIDAgMzkuMTYzIDAgNDhWNDY0QzAgNDcyLjgzNyA3LjE2MyA0ODAgMTYgNDgwSDQ4QzU2LjgzNyA0ODAgNjQgNDcyLjgzNyA2NCA0NjRWNDE2SDU3NlY0NjRDNTc2IDQ3Mi44MzcgNTgzLjE2MyA0ODAgNTkyIDQ4MEg2MjRDNjMyLjgzNyA0ODAgNjQwIDQ3Mi44MzcgNjQwIDQ2NFYyMjRDNjQwIDE3MC45ODEgNTk3LjAxOSAxMjggNTQ0IDEyOFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Bed(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 640 512" {...props}>
+            <path d="M176 288C220.125 288 256 252.125 256 208S220.125 128 176 128S96 163.875 96 208S131.875 288 176 288ZM544 128H304C295.163 128 288 135.163 288 144V320H64V48C64 39.163 56.837 32 48 32H16C7.163 32 0 39.163 0 48V464C0 472.837 7.163 480 16 480H48C56.837 480 64 472.837 64 464V416H576V464C576 472.837 583.163 480 592 480H624C632.837 480 640 472.837 640 464V224C640 170.981 597.019 128 544 128Z" />
         </Icon>
     </>
 }
-    

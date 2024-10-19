@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `voicemail` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/voicemail?s=regular voicemail}
+ * @preview ![voicemail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00OTYgOTZDNDE2LjUgOTYgMzUyIDE2MC41IDM1MiAyNDBDMzUyIDI3NyAzNjYuMzc1IDMxMC41IDM4OS4zNzUgMzM2SDI1MC42MjVDMjczLjYyNSAzMTAuNSAyODggMjc3IDI4OCAyNDBDMjg4IDE2MC41IDIyMy41IDk2IDE0NCA5NlMwIDE2MC41IDAgMjQwUzY0LjUgMzg0IDE0NCAzODRINDk2QzU3NS41IDM4NCA2NDAgMzE5LjUgNjQwIDI0MFM1NzUuNSA5NiA0OTYgOTZaTTQ4IDI0MEM0OCAxODcgOTEgMTQ0IDE0NCAxNDRTMjQwIDE4NyAyNDAgMjQwUzE5NyAzMzYgMTQ0IDMzNlM0OCAyOTMgNDggMjQwWk00OTYgMzM2QzQ0MyAzMzYgNDAwIDI5MyA0MDAgMjQwUzQ0MyAxNDQgNDk2IDE0NFM1OTIgMTg3IDU5MiAyNDBTNTQ5IDMzNiA0OTYgMzM2WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Voicemail(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 640 512" {...props}>
+            <path d="M496 96C416.5 96 352 160.5 352 240C352 277 366.375 310.5 389.375 336H250.625C273.625 310.5 288 277 288 240C288 160.5 223.5 96 144 96S0 160.5 0 240S64.5 384 144 384H496C575.5 384 640 319.5 640 240S575.5 96 496 96ZM48 240C48 187 91 144 144 144S240 187 240 240S197 336 144 336S48 293 48 240ZM496 336C443 336 400 293 400 240S443 144 496 144S592 187 592 240S549 336 496 336Z" />
         </Icon>
     </>
 }
-    

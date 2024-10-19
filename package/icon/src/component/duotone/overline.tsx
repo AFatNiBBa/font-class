@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `overline` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/overline?s=duotone overline}
+ * @preview ![overline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTIzMi4yNSAxMjhIMjE1Ljc1QzEyMy4xMjUgMTI4IDQ4IDIwMy4xMjUgNDggMjk1Ljc1VjM0NC4yNUM0OCA0MzYuODc1IDEyMy4xMjUgNTEyIDIxNS43NSA1MTJIMjMyLjI1QzMyNC44NzUgNTEyIDQwMCA0MzYuODc1IDQwMCAzNDQuMjVWMjk1Ljc1QzQwMCAyMDMuMTI1IDMyNC44NzUgMTI4IDIzMi4yNSAxMjhaTTMyMCAzNDQuMjVDMzIwIDM5Mi42MjUgMjgwLjYyNSA0MzIgMjMyLjI1IDQzMkgyMTUuNzVDMTY3LjM3NSA0MzIgMTI4IDM5Mi42MjUgMTI4IDM0NC4yNVYyOTUuNzVDMTI4IDI0Ny4zNzUgMTY3LjM3NSAyMDggMjE1Ljc1IDIwOEgyMzIuMjVDMjgwLjYyNSAyMDggMzIwIDI0Ny4zNzUgMzIwIDI5NS43NVYzNDQuMjVaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTQxNiA2NEgzMkMxNC4zMTIgNjQgMCA0OS42ODggMCAzMlMxNC4zMTIgMCAzMiAwSDQxNkM0MzMuNjg4IDAgNDQ4IDE0LjMxMiA0NDggMzJTNDMzLjY4OCA2NCA0MTYgNjRaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Overline(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path opacity={.4} d="M232.25 128H215.75C123.125 128 48 203.125 48 295.75V344.25C48 436.875 123.125 512 215.75 512H232.25C324.875 512 400 436.875 400 344.25V295.75C400 203.125 324.875 128 232.25 128ZM320 344.25C320 392.625 280.625 432 232.25 432H215.75C167.375 432 128 392.625 128 344.25V295.75C128 247.375 167.375 208 215.75 208H232.25C280.625 208 320 247.375 320 295.75V344.25Z" />
+            <path d="M416 64H32C14.312 64 0 49.688 0 32S14.312 0 32 0H416C433.688 0 448 14.312 448 32S433.688 64 416 64Z" />
         </Icon>
     </>
 }
-    

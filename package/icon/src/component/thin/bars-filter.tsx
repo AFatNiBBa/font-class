@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `bars-filter` icon from the `thin` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/bars-filter?s=thin bars-filter}
+ * @preview ![bars-filter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik04IDEwNEg0NDBDNDQ0LjQwNiAxMDQgNDQ4IDEwMC40MDYgNDQ4IDk2UzQ0NC40MDYgODggNDQwIDg4SDhDMy41OTQgODggMCA5MS41OTQgMCA5NlMzLjU5NCAxMDQgOCAxMDRaTTM3NiAyNDhINzJDNjcuNTk0IDI0OCA2NCAyNTEuNTk0IDY0IDI1NlM2Ny41OTQgMjY0IDcyIDI2NEgzNzZDMzgwLjQwNiAyNjQgMzg0IDI2MC40MDYgMzg0IDI1NlMzODAuNDA2IDI0OCAzNzYgMjQ4Wk0yODAgNDA4SDE2OEMxNjMuNTk0IDQwOCAxNjAgNDExLjU5NCAxNjAgNDE2UzE2My41OTQgNDI0IDE2OCA0MjRIMjgwQzI4NC40MDYgNDI0IDI4OCA0MjAuNDA2IDI4OCA0MTZTMjg0LjQwNiA0MDggMjgwIDQwOFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function BarsFilter(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M8 104H440C444.406 104 448 100.406 448 96S444.406 88 440 88H8C3.594 88 0 91.594 0 96S3.594 104 8 104ZM376 248H72C67.594 248 64 251.594 64 256S67.594 264 72 264H376C380.406 264 384 260.406 384 256S380.406 248 376 248ZM280 408H168C163.594 408 160 411.594 160 416S163.594 424 168 424H280C284.406 424 288 420.406 288 416S284.406 408 280 408Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `lambda` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/lambda?s=duotone lambda}
+ * @preview ![lambda](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQwOCA0ODBIMzI3Ljc1TDEzNS43NSAxMTJINDBDMTcuOTA2IDExMiAwIDk0LjA5NCAwIDcyUzE3LjkwNiAzMiA0MCAzMkgxODQuMjVMMzc2LjI1IDQwMEg0MDhDNDMwLjA5NCA0MDAgNDQ4IDQxNy45MDYgNDQ4IDQ0MFM0MzAuMDk0IDQ4MCA0MDggNDgwWiIgY2xhc3M9ImZhLXNlY29uZGFyeSIvPjxwYXRoIGQ9Ik01NS45OSA0ODBDNTAuNDkgNDgwIDQ0Ljg5NiA0NzguODc1IDM5LjU1MyA0NzYuNDY5QzE5LjQyOCA0NjcuMzc1IDEwLjQ1OSA0NDMuNjU2IDE5LjU1MyA0MjMuNTMxTDE0OS42MTUgMTM1LjUzMUMxNTguNzQgMTE1LjQwNiAxODIuMzk2IDEwNi40NjkgMjAyLjU1MyAxMTUuNTMxQzIyMi42NzggMTI0LjYyNSAyMzEuNjQ2IDE0OC4zNDQgMjIyLjU1MyAxNjguNDY5TDkyLjQ5IDQ1Ni40NjlDODUuODAzIDQ3MS4yNSA3MS4yNCA0ODAgNTUuOTkgNDgwWiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Lambda(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path opacity={.4} d="M408 480H327.75L135.75 112H40C17.906 112 0 94.094 0 72S17.906 32 40 32H184.25L376.25 400H408C430.094 400 448 417.906 448 440S430.094 480 408 480Z" />
+            <path d="M55.99 480C50.49 480 44.896 478.875 39.553 476.469C19.428 467.375 10.459 443.656 19.553 423.531L149.615 135.531C158.74 115.406 182.396 106.469 202.553 115.531C222.678 124.625 231.646 148.344 222.553 168.469L92.49 456.469C85.803 471.25 71.24 480 55.99 480Z" />
         </Icon>
     </>
 }
-    

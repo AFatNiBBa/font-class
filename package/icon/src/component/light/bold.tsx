@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `bold` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/bold?s=light bold}
+ * @preview ![bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMTQuNzIzIDI1MS42NTJDMzQ2LjgyIDIzMC4wOSAzNjggMTkzLjQ4IDM2OCAxNTJDMzY4IDg1Ljg0NCAzMTQuMTcyIDMyIDI0OCAzMkgxNkM3LjE1NiAzMiAwIDM5LjE1NiAwIDQ4UzcuMTU2IDY0IDE2IDY0SDMyVjQ0OEgxNkM3LjE1NiA0NDggMCA0NTUuMTU2IDAgNDY0UzcuMTU2IDQ4MCAxNiA0ODBIMjY0QzMzMC4xNzIgNDgwIDM4NCA0MjYuMTU2IDM4NCAzNjBDMzg0IDMxMi4wMjkgMzU1LjUxMiAyNzAuODQyIDMxNC43MjMgMjUxLjY1MlpNNjQgNjRIMjQ4QzI5Ni41MzEgNjQgMzM2IDEwMy40NjkgMzM2IDE1MlMyOTYuNTMxIDI0MCAyNDggMjQwSDY0VjY0Wk0yNjQgNDQ4SDY0VjI3MkgyNjRDMzEyLjUzMSAyNzIgMzUyIDMxMS40NjkgMzUyIDM2MFMzMTIuNTMxIDQ0OCAyNjQgNDQ4WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Bold(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M314.723 251.652C346.82 230.09 368 193.48 368 152C368 85.844 314.172 32 248 32H16C7.156 32 0 39.156 0 48S7.156 64 16 64H32V448H16C7.156 448 0 455.156 0 464S7.156 480 16 480H264C330.172 480 384 426.156 384 360C384 312.029 355.512 270.842 314.723 251.652ZM64 64H248C296.531 64 336 103.469 336 152S296.531 240 248 240H64V64ZM264 448H64V272H264C312.531 272 352 311.469 352 360S312.531 448 264 448Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `a` icon from the `thin` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/a?s=thin a}
+ * @preview ![a](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODMuMzU2IDQ2OC44NjVMMTk5LjM1OSAzNi40NTdDMTk2Ljg1OSAzMC41MTQgMTg3LjE0MSAzMC41MTQgMTg0LjY0MSAzNi40NTdMMC42NDQgNDY4Ljg2NUMtMS4wOTEgNDcyLjkzMSAwLjggNDc3LjYyMyA0Ljg2MiA0NzkuMzc0QzguOTg3IDQ4MC45NyAxMy42MjggNDc5LjIxOCAxNS4zNjIgNDc1LjEyTDYwLjk4OSAzNjcuODk0SDMyMy4wMTFMMzY4LjYzOCA0NzUuMTJDMzY5LjkzNSA0NzguMTg2IDM3Mi44ODggNDgwIDM3NS45OTcgNDgwQzM3Ny4wNDQgNDgwIDM3OC4xMDYgNDc5Ljc4MSAzNzkuMTM4IDQ3OS4zNzRDMzgzLjIgNDc3LjYyMyAzODUuMDkxIDQ3Mi45MzEgMzgzLjM1NiA0NjguODY1Wk02Ny44MDUgMzUxLjg3OUwxOTIgNjAuMDExTDMxNi4xOTUgMzUxLjg3OUg2Ny44MDVaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function A(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M383.356 468.865L199.359 36.457C196.859 30.514 187.141 30.514 184.641 36.457L0.644 468.865C-1.091 472.931 0.8 477.623 4.862 479.374C8.987 480.97 13.628 479.218 15.362 475.12L60.989 367.894H323.011L368.638 475.12C369.935 478.186 372.888 480 375.997 480C377.044 480 378.106 479.781 379.138 479.374C383.2 477.623 385.091 472.931 383.356 468.865ZM67.805 351.879L192 60.011L316.195 351.879H67.805Z" />
         </Icon>
     </>
 }
-    

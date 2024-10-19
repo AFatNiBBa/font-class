@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `arrow-right` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/arrow-right?s=light arrow-right}
+ * @preview ![arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00MjcuODQ0IDI2Ni43NUwyNjcuODQ0IDQ0Mi43NUMyNjQuNjg4IDQ0Ni4yNSAyNjAuMzQ0IDQ0OCAyNTYgNDQ4QzI1Mi4xNTYgNDQ4IDI0OC4yOTcgNDQ2LjYyNSAyNDUuMjM0IDQ0My44NDRDMjM4LjcwMyA0MzcuOTA2IDIzOC4yMTkgNDI3Ljc4MSAyNDQuMTU2IDQyMS4yNUwzNzkuODMgMjcySDE2QzcuMTU2IDI3MiAwIDI2NC44NDQgMCAyNTZTNy4xNTYgMjQwIDE2IDI0MEgzNzkuODNMMjQ0LjE1NiA5MC43NUMyMzguMjE5IDg0LjIxOSAyMzguNzAzIDc0LjA5NCAyNDUuMjM0IDY4LjE1NkMyNTEuNzgxIDYyLjI1IDI2MS44OTEgNjIuNjg4IDI2Ny44NDQgNjkuMjVMNDI3Ljg0NCAyNDUuMjVDNDMzLjM5MSAyNTEuMzQ0IDQzMy4zOTEgMjYwLjY1NiA0MjcuODQ0IDI2Ni43NVoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function ArrowRight(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M427.844 266.75L267.844 442.75C264.688 446.25 260.344 448 256 448C252.156 448 248.297 446.625 245.234 443.844C238.703 437.906 238.219 427.781 244.156 421.25L379.83 272H16C7.156 272 0 264.844 0 256S7.156 240 16 240H379.83L244.156 90.75C238.219 84.219 238.703 74.094 245.234 68.156C251.781 62.25 261.891 62.688 267.844 69.25L427.844 245.25C433.391 251.344 433.391 260.656 427.844 266.75Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `file-video` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/file-video?s=solid file-video}
+ * @preview ![file-video](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNTYgMFYxMjhIMzg0TDI1NiAwWk0yMjQgMTI4VjBINDhDMjEuNDkgMCAwIDIxLjQ5MiAwIDQ4VjQ2NEMwIDQ5MC41MDggMjEuNDkgNTEyIDQ4IDUxMkgzMzZDMzYyLjUxIDUxMiAzODQgNDkwLjUwOCAzODQgNDY0VjE2MEgyNTZDMjM4LjMyNiAxNjAgMjI0IDE0NS42NzIgMjI0IDEyOFpNMjI0IDM4NEMyMjQgNDAxLjY3MiAyMDkuNjc0IDQxNiAxOTIgNDE2SDk2Qzc4LjMyNiA0MTYgNjQgNDAxLjY3MiA2NCAzODRWMjg4QzY0IDI3MC4zMjggNzguMzI2IDI1NiA5NiAyNTZIMTkyQzIwOS42NzQgMjU2IDIyNCAyNzAuMzI4IDIyNCAyODhWMzg0Wk0zMjAgMjg0Ljg2N1YzODcuMTMzQzMyMCAzOTkuNjk5IDMwNi4xNzggNDA3LjM1OSAyOTUuNTIgNDAwLjY5OUwyNTYgMzc2VjI5NkwyOTUuNTIgMjcxLjI5N0MzMDYuMTc4IDI2NC42NDEgMzIwIDI3Mi4zMDEgMzIwIDI4NC44NjdaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function FileVideo(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M256 0V128H384L256 0ZM224 128V0H48C21.49 0 0 21.492 0 48V464C0 490.508 21.49 512 48 512H336C362.51 512 384 490.508 384 464V160H256C238.326 160 224 145.672 224 128ZM224 384C224 401.672 209.674 416 192 416H96C78.326 416 64 401.672 64 384V288C64 270.328 78.326 256 96 256H192C209.674 256 224 270.328 224 288V384ZM320 284.867V387.133C320 399.699 306.178 407.359 295.52 400.699L256 376V296L295.52 271.297C306.178 264.641 320 272.301 320 284.867Z" />
         </Icon>
     </>
 }
-    

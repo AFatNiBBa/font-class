@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `comment-middle` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/comment-middle?s=light comment-middle}
+ * @preview ![comment-middle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNTYgMEMxMTQuNTk0IDAgMCA5My4wOTQgMCAyMDhDMCAzMDMuOTg4IDgwLjA3NiAzODQuNTMzIDE4OC44MzggNDA4LjUyNUwyMzcuNzI1IDUwMS45MTZDMjQxLjI0MiA1MDguNjM5IDI0OC42MjEgNTEyIDI1NiA1MTJTMjcwLjc1OCA1MDguNjM5IDI3NC4yNzUgNTAxLjkxNkwzMjMuMTYyIDQwOC41MjVDNDMxLjkyNCAzODQuNTMzIDUxMiAzMDMuOTg4IDUxMiAyMDhDNTEyIDkzLjA5NCAzOTcuNDA2IDAgMjU2IDBaTTMxNi4yNyAzNzcuMjc3TDMwMS43MjEgMzgwLjQ4NkwyNTYgNDY3LjgyOEwyMTAuMjc5IDM4MC40ODZMMTk1LjczIDM3Ny4yNzdDOTkuMzI4IDM1Ni4wMTIgMzIgMjg2LjQwMiAzMiAyMDhDMzIgMTEwLjk1MyAxMzIuNDg2IDMyIDI1NiAzMlM0ODAgMTEwLjk1MyA0ODAgMjA4QzQ4MCAyODYuNDAyIDQxMi42NzIgMzU2LjAxMiAzMTYuMjcgMzc3LjI3N1oiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function CommentMiddle(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M256 0C114.594 0 0 93.094 0 208C0 303.988 80.076 384.533 188.838 408.525L237.725 501.916C241.242 508.639 248.621 512 256 512S270.758 508.639 274.275 501.916L323.162 408.525C431.924 384.533 512 303.988 512 208C512 93.094 397.406 0 256 0ZM316.27 377.277L301.721 380.486L256 467.828L210.279 380.486L195.73 377.277C99.328 356.012 32 286.402 32 208C32 110.953 132.486 32 256 32S480 110.953 480 208C480 286.402 412.672 356.012 316.27 377.277Z" />
         </Icon>
     </>
 }
-    

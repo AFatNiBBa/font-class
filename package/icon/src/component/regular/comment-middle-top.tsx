@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `comment-middle-top` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/comment-middle-top?s=regular comment-middle-top}
+ * @preview ![comment-middle-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMjMuMTYyIDEwMy40NzVMMjc0LjI3NSAxMC4wODRDMjcwLjc1OCAzLjM2MSAyNjMuMzc5IDAgMjU2IDBTMjQxLjI0MiAzLjM2MSAyMzcuNzI1IDEwLjA4NEwxODguODM4IDEwMy40NzVDODAuMDc2IDEyNy40NjcgMCAyMDguMDEyIDAgMzA0QzAgNDE4LjkwNiAxMTQuNTk0IDUxMiAyNTYgNTEyUzUxMiA0MTguOTA2IDUxMiAzMDRDNTEyIDIwOC4wMTIgNDMxLjkyNCAxMjcuNDY3IDMyMy4xNjIgMTAzLjQ3NVpNMjU2IDQ2NEMxNDEuMzA5IDQ2NCA0OCAzOTIuMjI1IDQ4IDMwNEM0OCAyMzMuMTY4IDExMC4xNjYgMTY5Ljk4MiAxOTkuMTc4IDE1MC4zNDhMMjIxIDE0NS41MzNMMjU2IDc4LjY3MkwyOTEgMTQ1LjUzM0wzMTIuODIyIDE1MC4zNDhDNDAxLjgzNCAxNjkuOTgyIDQ2NCAyMzMuMTY4IDQ2NCAzMDRDNDY0IDM5Mi4yMjUgMzcwLjY5MSA0NjQgMjU2IDQ2NFogIj48L3BhdGg+PC9zdmc+|width=32|height=32)
+ */
 export default function CommentMiddleTop(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M323.162 103.475L274.275 10.084C270.758 3.361 263.379 0 256 0S241.242 3.361 237.725 10.084L188.838 103.475C80.076 127.467 0 208.012 0 304C0 418.906 114.594 512 256 512S512 418.906 512 304C512 208.012 431.924 127.467 323.162 103.475ZM256 464C141.309 464 48 392.225 48 304C48 233.168 110.166 169.982 199.178 150.348L221 145.533L256 78.672L291 145.533L312.822 150.348C401.834 169.982 464 233.168 464 304C464 392.225 370.691 464 256 464Z " />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `note` icon from the `thin` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/note?s=thin note}
+ * @preview ![note](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMzJINjRDMjguNjU0IDMyIDAgNjAuNjU0IDAgOTZWNDE2QzAgNDUxLjM0NiAyOC42NTQgNDgwIDY0IDQ4MEgyOTAuNzQ2QzI5OS4yMzIgNDgwIDMwNy4zNzEgNDc2LjYyOSAzMTMuMzczIDQ3MC42MjdMNDM4LjYyNyAzNDUuMzczQzQ0NC42MjkgMzM5LjM3MSA0NDggMzMxLjIzMiA0NDggMzIyLjc0NlY5NkM0NDggNjAuNjU0IDQxOS4zNDggMzIgMzg0IDMyWk0zMDQgNDU3LjM3M1YzNjBDMzA0IDM0Ni43NjYgMzE0Ljc4MSAzMzYgMzI4IDMzNkg0MjUuMzczTDMwNCA0NTcuMzczWk00MzIgMzIwSDMyOEMzMDUuOTM4IDMyMCAyODggMzM3LjkzOCAyODggMzYwVjQ2NEg2NEMzNy41MzMgNDY0IDE2IDQ0Mi40NjcgMTYgNDE2Vjk2QzE2IDY5LjUzMyAzNy41MzMgNDggNjQgNDhIMzg0QzQxMC40NjcgNDggNDMyIDY5LjUzMyA0MzIgOTZWMzIwWiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Note(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M384 32H64C28.654 32 0 60.654 0 96V416C0 451.346 28.654 480 64 480H290.746C299.232 480 307.371 476.629 313.373 470.627L438.627 345.373C444.629 339.371 448 331.232 448 322.746V96C448 60.654 419.348 32 384 32ZM304 457.373V360C304 346.766 314.781 336 328 336H425.373L304 457.373ZM432 320H328C305.938 320 288 337.938 288 360V464H64C37.533 464 16 442.467 16 416V96C16 69.533 37.533 48 64 48H384C410.467 48 432 69.533 432 96V320Z" />
         </Icon>
     </>
 }
-    

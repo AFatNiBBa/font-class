@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `table-columns` icon from the `thin` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/table-columns?s=thin table-columns}
+ * @preview ![table-columns](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NjQgMzJINDhDMjEuNDkyIDMyIDAgNTMuNDkgMCA4MFYxNjBWMTc2VjQzMkMwIDQ1OC41MSAyMS40OTIgNDgwIDQ4IDQ4MEg0NjRDNDkwLjUwOCA0ODAgNTEyIDQ1OC41MSA1MTIgNDMyVjE3NlYxNjBWODBDNTEyIDUzLjQ5IDQ5MC41MDggMzIgNDY0IDMyWk00OCA0NjRDMzAuMzU1IDQ2NCAxNiA0NDkuNjQ1IDE2IDQzMlYxNzZIMjQ4VjQ2NEg0OFpNNDk2IDQzMkM0OTYgNDQ5LjY0NSA0ODEuNjQ1IDQ2NCA0NjQgNDY0SDI2NFYxNzZINDk2VjQzMlpNMjY0IDE2MEgyNDhIMTZWODBDMTYgNjIuMzU1IDMwLjM1NSA0OCA0OCA0OEg0NjRDNDgxLjY0NSA0OCA0OTYgNjIuMzU1IDQ5NiA4MFYxNjBIMjY0WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function TableColumns(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M464 32H48C21.492 32 0 53.49 0 80V160V176V432C0 458.51 21.492 480 48 480H464C490.508 480 512 458.51 512 432V176V160V80C512 53.49 490.508 32 464 32ZM48 464C30.355 464 16 449.645 16 432V176H248V464H48ZM496 432C496 449.645 481.645 464 464 464H264V176H496V432ZM264 160H248H16V80C16 62.355 30.355 48 48 48H464C481.645 48 496 62.355 496 80V160H264Z" />
         </Icon>
     </>
 }
-    

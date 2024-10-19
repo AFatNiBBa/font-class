@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `code-commit` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/code-commit?s=duotone code-commit}
+ * @preview ![code-commit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTMyIDIyNEMxNC4zMjggMjI0IDAgMjM4LjMxMiAwIDI1NlMxNC4zMjggMjg4IDMyIDI4OEgxNjMuMjI1QzE2MS4xMjUgMjc3LjY1NiAxNjAgMjY2Ljk2MSAxNjAgMjU2UzE2MS4xMjUgMjM0LjM0NCAxNjMuMjI1IDIyNEgzMlpNNjA4IDIyNEg0NzYuNzc1QzQ3OC44NzUgMjM0LjM0NCA0ODAgMjQ1LjAzOSA0ODAgMjU2UzQ3OC44NzUgMjc3LjY1NiA0NzYuNzc1IDI4OEg2MDhDNjI1LjY3MiAyODggNjQwIDI3My42ODggNjQwIDI1NlM2MjUuNjcyIDIyNCA2MDggMjI0WiIgY2xhc3M9ImZhLXNlY29uZGFyeSIvPjxwYXRoIGQ9Ik0zMjAgOTZDMjMxLjYzNSA5NiAxNjAgMTY3LjYzMyAxNjAgMjU2UzIzMS42MzUgNDE2IDMyMCA0MTZTNDgwIDM0NC4zNjcgNDgwIDI1NlM0MDguMzY1IDk2IDMyMCA5NlpNMzIwIDMzNkMyNzUuODg5IDMzNiAyNDAgMzAwLjExMyAyNDAgMjU2UzI3NS44ODkgMTc2IDMyMCAxNzZTNDAwIDIxMS44ODcgNDAwIDI1NlMzNjQuMTExIDMzNiAzMjAgMzM2WiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function CodeCommit(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 640 512" {...props}>
+            <path opacity={.4} d="M32 224C14.328 224 0 238.312 0 256S14.328 288 32 288H163.225C161.125 277.656 160 266.961 160 256S161.125 234.344 163.225 224H32ZM608 224H476.775C478.875 234.344 480 245.039 480 256S478.875 277.656 476.775 288H608C625.672 288 640 273.688 640 256S625.672 224 608 224Z" />
+            <path d="M320 96C231.635 96 160 167.633 160 256S231.635 416 320 416S480 344.367 480 256S408.365 96 320 96ZM320 336C275.889 336 240 300.113 240 256S275.889 176 320 176S400 211.887 400 256S364.111 336 320 336Z" />
         </Icon>
     </>
 }
-    

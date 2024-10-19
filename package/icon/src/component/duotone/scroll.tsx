@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `scroll` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/scroll?s=duotone scroll}
+ * @preview ![scroll](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQ4MCAxMjhWMzUySDI4OFY0MDBDMjg4IDQ0NC4xODQgMjUyLjE4NCA0ODAgMjA4IDQ4MEMxNjMuODE4IDQ4MCAxMjggNDQ0LjE4NCAxMjggNDAwVjk2QzEyOCA2MC42NTQgOTkuMzQ4IDMyIDY0IDMySDM4NEM0MzcgMzIgNDgwIDc1IDQ4MCAxMjhaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTY0IDMyQzI4LjY1NCAzMiAwIDYwLjY1NCAwIDk2VjE0NEMwIDE1Mi44MzYgNy4xNjQgMTYwIDE2IDE2MEgxMjhWOTZDMTI4IDYwLjY1NCA5OS4zNDggMzIgNjQgMzJaTTU2MCAzNTJIMjg4QzI4OCAzNTIgMjg4IDM5Ny4yNTYgMjg4IDQwMEMyODggNDQ0LjE4NCAyNTIuMTg0IDQ4MCAyMDggNDgwSDQ2NEM1MjUuODc1IDQ4MCA1NzYgNDI5Ljg3NSA1NzYgMzY4QzU3NiAzNTkuMTI1IDU2OC44NzUgMzUyIDU2MCAzNTJaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Scroll(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 576 512" {...props}>
+            <path opacity={.4} d="M480 128V352H288V400C288 444.184 252.184 480 208 480C163.818 480 128 444.184 128 400V96C128 60.654 99.348 32 64 32H384C437 32 480 75 480 128Z" />
+            <path d="M64 32C28.654 32 0 60.654 0 96V144C0 152.836 7.164 160 16 160H128V96C128 60.654 99.348 32 64 32ZM560 352H288C288 352 288 397.256 288 400C288 444.184 252.184 480 208 480H464C525.875 480 576 429.875 576 368C576 359.125 568.875 352 560 352Z" />
         </Icon>
     </>
 }
-    

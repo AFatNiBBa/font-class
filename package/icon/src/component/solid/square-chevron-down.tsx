@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `square-chevron-down` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/square-chevron-down?s=solid square-chevron-down}
+ * @preview ![square-chevron-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMzJINjRDMjguNjU2IDMyIDAgNjAuNjUyIDAgOTZWNDE2QzAgNDUxLjM0NCAyOC42NTYgNDgwIDY0IDQ4MEgzODRDNDE5LjM0NCA0ODAgNDQ4IDQ1MS4zNDQgNDQ4IDQxNlY5NkM0NDggNjAuNjUyIDQxOS4zNDQgMzIgMzg0IDMyWk0zNTguNjI1IDIzMC42MjVMMjQ2LjYyNSAzNDIuNjI1QzI0MC4zNzUgMzQ4Ljg3NSAyMzIuMTg4IDM1MiAyMjQgMzUyUzIwNy42MjUgMzQ4Ljg3NSAyMDEuMzc1IDM0Mi42MjVMODkuMzc1IDIzMC42MjVDNzYuODc1IDIxOC4xMjUgNzYuODc1IDE5Ny44NzUgODkuMzc1IDE4NS4zNzVTMTIyLjEyNSAxNzIuODc1IDEzNC42MjUgMTg1LjM3NUwyMjQgMjc0Ljc1TDMxMy4zNzUgMTg1LjM3NUMzMjUuODc1IDE3Mi44NzUgMzQ2LjEyNSAxNzIuODc1IDM1OC42MjUgMTg1LjM3NVMzNzEuMTI1IDIxOC4xMjUgMzU4LjYyNSAyMzAuNjI1WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function SquareChevronDown(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M384 32H64C28.656 32 0 60.652 0 96V416C0 451.344 28.656 480 64 480H384C419.344 480 448 451.344 448 416V96C448 60.652 419.344 32 384 32ZM358.625 230.625L246.625 342.625C240.375 348.875 232.188 352 224 352S207.625 348.875 201.375 342.625L89.375 230.625C76.875 218.125 76.875 197.875 89.375 185.375S122.125 172.875 134.625 185.375L224 274.75L313.375 185.375C325.875 172.875 346.125 172.875 358.625 185.375S371.125 218.125 358.625 230.625Z" />
         </Icon>
     </>
 }
-    

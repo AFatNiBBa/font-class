@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `wave-triangle` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/wave-triangle?s=solid wave-triangle}
+ * @preview ![wave-triangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik02MzMuNTkyIDI2Mi43NDVMNDg5LjU5MyA0NTUuMDU0QzQ4My41NjEgNDYzLjEyOSA0NzQuMDc3IDQ2Ny44ODcgNDYzLjk5OSA0NjcuODg3UzQ0NC40MzcgNDYzLjEyOSA0MzguNDA1IDQ1NS4wNTRMMTc2LjAwMSAxMDQuNjQ4TDU3LjU5NSAyNjIuNzQ1QzQ3LjAxNyAyNzYuOTU1IDI2Ljk4NiAyNzkuODA0IDEyLjc5OSAyNjkuMTYyQy0xLjM0MiAyNTguNTUxIC00LjIwMSAyMzguNDU2IDYuNDA4IDIyNC4zMDlMMTUwLjQwNyAzMkMxNjIuNDcgMTUuODQ5IDE4OS41MzIgMTUuODQ5IDIwMS41OTUgMzJMNDYzLjk5OSAzODIuNDA2TDU4Mi40MDUgMjI0LjMwOUM1OTIuOTk4IDIxMC4xMyA2MTMuMDI5IDIwNy4zMTIgNjI3LjIwMSAyMTcuODkyQzY0MS4zNDIgMjI4LjUwMyA2NDQuMjAxIDI0OC41OTggNjMzLjU5MiAyNjIuNzQ1WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function WaveTriangle(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 640 512" {...props}>
+            <path d="M633.592 262.745L489.593 455.054C483.561 463.129 474.077 467.887 463.999 467.887S444.437 463.129 438.405 455.054L176.001 104.648L57.595 262.745C47.017 276.955 26.986 279.804 12.799 269.162C-1.342 258.551 -4.201 238.456 6.408 224.309L150.407 32C162.47 15.849 189.532 15.849 201.595 32L463.999 382.406L582.405 224.309C592.998 210.13 613.029 207.312 627.201 217.892C641.342 228.503 644.201 248.598 633.592 262.745Z" />
         </Icon>
     </>
 }
-    

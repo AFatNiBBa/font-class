@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `linode` icon from the `brands` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/linode?s=brands linode}
+ * @preview ![linode](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNjYuMDM2LDE4Ni44NjdsLTU5LjUsMzYuODcxLS44MzgsMzYuODcxLTI5LjMyOS0xOS4yNzMtMzkuMzg0LDI0LjNjMi4yMzgsNTUuMjExLDIuNDgzLDU5LjI3MSwyLjUxLDU5LjVsLTk3LjIsNjUuMzU5TDEyNy4yMTQsMjg1Ljc0OGwxMDguMS02Mi4wMUwxOTUuMDksMTk3Ljc2MWwtNzUuNDE3LDM4LjU0N0w5OC43MjMsOTMuMDE1LDIyNy43NzEsNDMuNTc0LDEzNi40MzIsMCwxMC43MzcsMzkuMzg1LDM4LjM5LDE3NC4zbDQxLjksMzIuNjgxTDQ4LjQ0NSwyMjIuMDYyLDY5LjM5NCwzMjMuNDU3LDk4LjcyMywzNTEuMTEsNzcuNzc0LDM2My42NzlsMTYuNzYsNzguNzY5TDE2MC43MzMsNTEyYy0xMC44LTc0Ljg0Mi0xMS42NTgtNzguNjQxLTExLjcyNS03OC43NzNsNzcuOTI1LTU1LjNjMTYuNzU5LTEyLjU3LDE1LjA4My0xMC44OTQsMTUuMDgzLTEwLjg5NGwuODM4LDI0LjMsMzMuNTE5LDI4LjQ5MS0uODM4LTc3LjA5Myw0Ni45MjctMzMuNTE5LDI2LjgxNS0xOC40MzUtMi41MTQsMzYuMDMzLDI1LjEzOSwxNy42LDYuNy03NC41NzksNTguNjU3LTQzLjU3NVoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Linode(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M366.036,186.867l-59.5,36.871-.838,36.871-29.329-19.273-39.384,24.3c2.238,55.211,2.483,59.271,2.51,59.5l-97.2,65.359L127.214,285.748l108.1-62.01L195.09,197.761l-75.417,38.547L98.723,93.015,227.771,43.574,136.432,0,10.737,39.385,38.39,174.3l41.9,32.681L48.445,222.062,69.394,323.457,98.723,351.11,77.774,363.679l16.76,78.769L160.733,512c-10.8-74.842-11.658-78.641-11.725-78.773l77.925-55.3c16.759-12.57,15.083-10.894,15.083-10.894l.838,24.3,33.519,28.491-.838-77.093,46.927-33.519,26.815-18.435-2.514,36.033,25.139,17.6,6.7-74.579,58.657-43.575Z" />
         </Icon>
     </>
 }
-    

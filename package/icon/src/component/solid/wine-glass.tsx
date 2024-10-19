@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `wine-glass` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/wine-glass?s=solid wine-glass}
+ * @preview ![wine-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMzIuMDE1IDQ2NEgxOTIuMDA3VjM0Ni43NUMyNjAuNTIxIDMzMC44NzUgMzEwLjAzMiAyNjYuODc1IDMwMy40MDUgMTkyLjYyNUwyODcuNTI3IDE0LjVDMjg2Ljc3NyA2LjI1IDI3OS45MDEgMCAyNzEuNzc0IDBINDguMjI2QzQwLjEgMCAzMy4yMjMgNi4yNSAzMi40NzMgMTQuNUwxNi41OTUgMTkyLjYyNUM5Ljk2OCAyNjYuODc1IDU5LjQ3OSAzMzAuODc1IDEyNy45OTMgMzQ2Ljg3NVY0NjRIODcuOTg1QzY1Ljg1NSA0NjQgNDcuOTc2IDQ4MS44NzUgNDcuOTc2IDUwNEM0Ny45NzYgNTA4LjM3NSA1MS42MDIgNTEyIDU1Ljk3OCA1MTJIMjY0LjAyMkMyNjguMzk4IDUxMiAyNzIuMDI0IDUwOC4zNzUgMjcyLjAyNCA1MDRDMjcyLjAyNCA0ODEuODc1IDI1NC4xNDUgNDY0IDIzMi4wMTUgNDY0Wk03Ny43MzMgNDhIMjQyLjI2N0wyNDkuMzk0IDEyOEg3MC42MDZMNzcuNzMzIDQ4WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function WineGlass(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 320 512" {...props}>
+            <path d="M232.015 464H192.007V346.75C260.521 330.875 310.032 266.875 303.405 192.625L287.527 14.5C286.777 6.25 279.901 0 271.774 0H48.226C40.1 0 33.223 6.25 32.473 14.5L16.595 192.625C9.968 266.875 59.479 330.875 127.993 346.875V464H87.985C65.855 464 47.976 481.875 47.976 504C47.976 508.375 51.602 512 55.978 512H264.022C268.398 512 272.024 508.375 272.024 504C272.024 481.875 254.145 464 232.015 464ZM77.733 48H242.267L249.394 128H70.606L77.733 48Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `down-from-line` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/down-from-line?s=regular down-from-line}
+ * @preview ![down-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMTQuOTE0IDI0MEgyNzJWMTc2QzI3MiAxNDkuNDkyIDI1MC41MSAxMjggMjI0IDEyOEgxNjBDMTMzLjQ5IDEyOCAxMTIgMTQ5LjQ5MiAxMTIgMTc2VjI0MEg2OC43MTNDMjcuMDgyIDI0MCA1LjE4OSAyODkuMzcxIDMzLjEzNyAzMjAuMjI3TDE2OS4zNzUgNDcwLjYyNUMxNzUuNjI1IDQ3Ni44NzUgMTgzLjgxMiA0ODAgMTkyIDQ4MFMyMDguMzc1IDQ3Ni44NzUgMjE0LjYyNSA0NzAuNjI1TDM1MC41MzMgMzIwLjE3NkMzNzguNDE4IDI4OS4zMDkgMzU2LjUxMiAyNDAgMzE0LjkxNCAyNDBaTTE5MiA0MjUuMzY3TDcwLjYzMyAyODhIMTYwVjE3NkgyMjRWMjg4SDMxMy4zNjdMMTkyIDQyNS4zNjdaTTM2MCAzMkgyNEMxMC43NSAzMiAwIDQyLjc1IDAgNTZTMTAuNzUgODAgMjQgODBIMzYwQzM3My4yNSA4MCAzODQgNjkuMjUgMzg0IDU2UzM3My4yNSAzMiAzNjAgMzJaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function DownFromLine(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M314.914 240H272V176C272 149.492 250.51 128 224 128H160C133.49 128 112 149.492 112 176V240H68.713C27.082 240 5.189 289.371 33.137 320.227L169.375 470.625C175.625 476.875 183.812 480 192 480S208.375 476.875 214.625 470.625L350.533 320.176C378.418 289.309 356.512 240 314.914 240ZM192 425.367L70.633 288H160V176H224V288H313.367L192 425.367ZM360 32H24C10.75 32 0 42.75 0 56S10.75 80 24 80H360C373.25 80 384 69.25 384 56S373.25 32 360 32Z" />
         </Icon>
     </>
 }
-    

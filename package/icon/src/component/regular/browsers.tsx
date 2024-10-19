@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `browsers` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/browsers?s=regular browsers}
+ * @preview ![browsers](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01MTIgMEgxNjBDMTI0LjY1NCAwIDk2IDI4LjY1MiA5NiA2NFYzNTJDOTYgMzg3LjM0OCAxMjQuNjU0IDQxNiAxNjAgNDE2SDUxMkM1NDcuMzQ2IDQxNiA1NzYgMzg3LjM0OCA1NzYgMzUyVjY0QzU3NiAyOC42NTIgNTQ3LjM0NiAwIDUxMiAwWk01MjggMzUyQzUyOCAzNjAuODI0IDUyMC44MjIgMzY4IDUxMiAzNjhIMTYwQzE1MS4xNzggMzY4IDE0NCAzNjAuODI0IDE0NCAzNTJWMTI4SDUyOFYzNTJaTTQ4IDQzMlY5NkMyMS40OSA5NiAwIDExNy40OTIgMCAxNDRWNDQ4QzAgNDgzLjM0NCAyOC42NTQgNTEyIDY0IDUxMkg0MzJDNDU4LjUxIDUxMiA0ODAgNDkwLjUwOCA0ODAgNDY0SDgwQzYyLjMyNiA0NjQgNDggNDQ5LjY3MiA0OCA0MzJaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function Browsers(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 576 512" {...props}>
+            <path d="M512 0H160C124.654 0 96 28.652 96 64V352C96 387.348 124.654 416 160 416H512C547.346 416 576 387.348 576 352V64C576 28.652 547.346 0 512 0ZM528 352C528 360.824 520.822 368 512 368H160C151.178 368 144 360.824 144 352V128H528V352ZM48 432V96C21.49 96 0 117.492 0 144V448C0 483.344 28.654 512 64 512H432C458.51 512 480 490.508 480 464H80C62.326 464 48 449.672 48 432Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `circle-exclamation` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/circle-exclamation?s=light circle-exclamation}
+ * @preview ![circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNTYgMzQ0QzI0Mi43NDYgMzQ0IDIzMiAzNTQuNzQ2IDIzMiAzNjhTMjQyLjc0NiAzOTIgMjU2IDM5MlMyODAgMzgxLjI1NCAyODAgMzY4UzI2OS4yNTQgMzQ0IDI1NiAzNDRaTTI1NiAzMDRDMjY0Ljg0NCAzMDQgMjcyIDI5Ni44NDQgMjcyIDI4OFYxMjhDMjcyIDExOS4xNTYgMjY0Ljg0NCAxMTIgMjU2IDExMlMyNDAgMTE5LjE1NiAyNDAgMTI4VjI4OEMyNDAgMjk2Ljg0NCAyNDcuMTU2IDMwNCAyNTYgMzA0Wk0yNTYgMTZDMTIzLjQ1MSAxNiAxNiAxMjMuNDUxIDE2IDI1NlMxMjMuNDUxIDQ5NiAyNTYgNDk2UzQ5NiAzODguNTQ5IDQ5NiAyNTZTMzg4LjU0OSAxNiAyNTYgMTZaTTI1NiA0NjRDMTQxLjMwOSA0NjQgNDggMzcwLjY5MSA0OCAyNTZTMTQxLjMwOSA0OCAyNTYgNDhTNDY0IDE0MS4zMDkgNDY0IDI1NlMzNzAuNjkxIDQ2NCAyNTYgNDY0WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function CircleExclamation(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M256 344C242.746 344 232 354.746 232 368S242.746 392 256 392S280 381.254 280 368S269.254 344 256 344ZM256 304C264.844 304 272 296.844 272 288V128C272 119.156 264.844 112 256 112S240 119.156 240 128V288C240 296.844 247.156 304 256 304ZM256 16C123.451 16 16 123.451 16 256S123.451 496 256 496S496 388.549 496 256S388.549 16 256 16ZM256 464C141.309 464 48 370.691 48 256S141.309 48 256 48S464 141.309 464 256S370.691 464 256 464Z" />
         </Icon>
     </>
 }
-    

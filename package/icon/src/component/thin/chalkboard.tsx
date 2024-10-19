@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `chalkboard` icon from the `thin` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/chalkboard?s=thin chalkboard}
+ * @preview ![chalkboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01NjggNDY0SDU0NFY1NkM1NDQgNDIuNzgxIDUzMy4yMTkgMzIgNTIwIDMySDU2QzQyLjc4MSAzMiAzMiA0Mi43ODEgMzIgNTZWNDY0SDhDMy41OTQgNDY0IDAgNDY3LjU5NCAwIDQ3MlMzLjU5NCA0ODAgOCA0ODBINTY4QzU3Mi40MDYgNDgwIDU3NiA0NzYuNDA2IDU3NiA0NzJTNTcyLjQwNiA0NjQgNTY4IDQ2NFpNMjcyIDQ2NFY0MDBINDMyVjQ2NEgyNzJaTTQzMiAzODRIMjcyQzI2My4xNjQgMzg0IDI1NiAzOTEuMTY0IDI1NiA0MDBWNDY0SDQ4VjU2QzQ4IDUxLjU5NCA1MS41OTQgNDggNTYgNDhINTIwQzUyNC40MDYgNDggNTI4IDUxLjU5NCA1MjggNTZWNDY0SDQ0OFY0MDBDNDQ4IDM5MS4xNjQgNDQwLjgzNiAzODQgNDMyIDM4NFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Chalkboard(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 576 512" {...props}>
+            <path d="M568 464H544V56C544 42.781 533.219 32 520 32H56C42.781 32 32 42.781 32 56V464H8C3.594 464 0 467.594 0 472S3.594 480 8 480H568C572.406 480 576 476.406 576 472S572.406 464 568 464ZM272 464V400H432V464H272ZM432 384H272C263.164 384 256 391.164 256 400V464H48V56C48 51.594 51.594 48 56 48H520C524.406 48 528 51.594 528 56V464H448V400C448 391.164 440.836 384 432 384Z" />
         </Icon>
     </>
 }
-    

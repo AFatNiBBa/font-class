@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `r` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/r?s=regular r}
+ * @preview ![r](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMjkuOTY5IDMwOS4yOTdDMjgyLjY2OCAyODcuODgzIDMyMCAyMzYuMzAxIDMyMCAxNzZDMzIwIDk2LjU5NCAyNTUuNDA2IDMyIDE3NiAzMkgzMkMxNC4zMjggMzIgMCA0Ni4zMTIgMCA2NFY0NDhDMCA0NjUuNjg4IDE0LjMyOCA0ODAgMzIgNDgwUzY0IDQ2NS42ODggNjQgNDQ4VjMyMEgxNTkuMzRMMjYxLjc4MSA0NjYuMzQ0QzI2OC4wMTYgNDc1LjI1IDI3Ny45MzggNDgwIDI4OC4wMzEgNDgwQzI5NC4zNTkgNDgwIDMwMC43NjYgNDc4LjEyNSAzMDYuMzQ0IDQ3NC4yMTlDMzIwLjgyOCA0NjQuMDk0IDMyNC4zNDQgNDQ0LjEyNSAzMTQuMjE5IDQyOS42NTZMMjI5Ljk2OSAzMDkuMjk3Wk02NCA5NkgxNzZDMjIwLjEwOSA5NiAyNTYgMTMxLjg3NSAyNTYgMTc2UzIyMC4xMDkgMjU2IDE3NiAyNTZINjRWOTZaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function R(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 320 512" {...props}>
+            <path d="M229.969 309.297C282.668 287.883 320 236.301 320 176C320 96.594 255.406 32 176 32H32C14.328 32 0 46.312 0 64V448C0 465.688 14.328 480 32 480S64 465.688 64 448V320H159.34L261.781 466.344C268.016 475.25 277.938 480 288.031 480C294.359 480 300.766 478.125 306.344 474.219C320.828 464.094 324.344 444.125 314.219 429.656L229.969 309.297ZM64 96H176C220.109 96 256 131.875 256 176S220.109 256 176 256H64V96Z" />
         </Icon>
     </>
 }
-    

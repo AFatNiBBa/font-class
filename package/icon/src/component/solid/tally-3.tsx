@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `tally-3` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/tally-3?s=solid tally-3}
+ * @preview ![tally-3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMiAzMkgzMkMxNC4zMjcgMzIgMCA0Ni4zMjcgMCA2NFY0NDhDMCA0NjUuNjczIDE0LjMyNyA0ODAgMzIgNDgwSDMyQzQ5LjY3MyA0ODAgNjQgNDY1LjY3MyA2NCA0NDhWNjRDNjQgNDYuMzI3IDQ5LjY3MyAzMiAzMiAzMlpNMTYwIDMySDE2MEMxNDIuMzI3IDMyIDEyOCA0Ni4zMjcgMTI4IDY0VjQ0OEMxMjggNDY1LjY3MyAxNDIuMzI3IDQ4MCAxNjAgNDgwSDE2MEMxNzcuNjczIDQ4MCAxOTIgNDY1LjY3MyAxOTIgNDQ4VjY0QzE5MiA0Ni4zMjcgMTc3LjY3MyAzMiAxNjAgMzJaTTI4OCAzMkgyODhDMjcwLjMyNyAzMiAyNTYgNDYuMzI3IDI1NiA2NFY0NDhDMjU2IDQ2NS42NzMgMjcwLjMyNyA0ODAgMjg4IDQ4MEgyODhDMzA1LjY3MyA0ODAgMzIwIDQ2NS42NzMgMzIwIDQ0OFY2NEMzMjAgNDYuMzI3IDMwNS42NzMgMzIgMjg4IDMyWiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Tally_3(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M32 32H32C14.327 32 0 46.327 0 64V448C0 465.673 14.327 480 32 480H32C49.673 480 64 465.673 64 448V64C64 46.327 49.673 32 32 32ZM160 32H160C142.327 32 128 46.327 128 64V448C128 465.673 142.327 480 160 480H160C177.673 480 192 465.673 192 448V64C192 46.327 177.673 32 160 32ZM288 32H288C270.327 32 256 46.327 256 64V448C256 465.673 270.327 480 288 480H288C305.673 480 320 465.673 320 448V64C320 46.327 305.673 32 288 32Z" />
         </Icon>
     </>
 }
-    

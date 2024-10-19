@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `square-j` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/square-j?s=solid square-j}
+ * @preview ![square-j](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMzJINjRDMjguNjU0IDMyIDAgNjAuNjU0IDAgOTZWNDE2QzAgNDUxLjM0NiAyOC42NTQgNDgwIDY0IDQ4MEgzODRDNDE5LjM0NiA0ODAgNDQ4IDQ1MS4zNDYgNDQ4IDQxNlY5NkM0NDggNjAuNjU0IDQxOS4zNDYgMzIgMzg0IDMyWk0zMDQgMjkwLjY3MkMzMDQgMzQyLjE0MSAyNjAuOTM4IDM4NCAyMDggMzg0UzExMiAzNDIuMTQxIDExMiAyOTAuNjcyVjI4MEMxMTIgMjY2Ljc1IDEyMi43NSAyNTYgMTM2IDI1NlMxNjAgMjY2Ljc1IDE2MCAyODBWMjkwLjY3MkMxNjAgMzE1LjY3MiAxODEuNTMxIDMzNiAyMDggMzM2UzI1NiAzMTUuNjcyIDI1NiAyOTAuNjcyVjE1MkMyNTYgMTM4Ljc1IDI2Ni43NSAxMjggMjgwIDEyOFMzMDQgMTM4Ljc1IDMwNCAxNTJWMjkwLjY3MloiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function SquareJ(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M384 32H64C28.654 32 0 60.654 0 96V416C0 451.346 28.654 480 64 480H384C419.346 480 448 451.346 448 416V96C448 60.654 419.346 32 384 32ZM304 290.672C304 342.141 260.938 384 208 384S112 342.141 112 290.672V280C112 266.75 122.75 256 136 256S160 266.75 160 280V290.672C160 315.672 181.531 336 208 336S256 315.672 256 290.672V152C256 138.75 266.75 128 280 128S304 138.75 304 152V290.672Z" />
         </Icon>
     </>
 }
-    

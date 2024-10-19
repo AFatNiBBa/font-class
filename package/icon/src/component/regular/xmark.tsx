@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `xmark` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/xmark?s=regular xmark}
+ * @preview ![xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMTIuOTczIDM3NS4wMzJDMzIyLjM0MiAzODQuNDAxIDMyMi4zNDIgMzk5LjYwNCAzMTIuOTczIDQwOC45NzNTMjg4LjQwMSA0MTguMzQyIDI3OS4wMzIgNDA4Ljk3M0wxNjAgMjg5Ljk0MUw0MC45NjggNDA4Ljk3M0MzMS41OTkgNDE4LjM0MiAxNi4zOTYgNDE4LjM0MiA3LjAyNyA0MDguOTczUy0yLjM0MiAzODQuNDAxIDcuMDI3IDM3NS4wMzJMMTI2LjA1OSAyNTZMNy4wMjcgMTM2Ljk2OEMtMi4zNDIgMTI3LjU5OSAtMi4zNDIgMTEyLjM5NiA3LjAyNyAxMDMuMDI3UzMxLjU5OSA5My42NTggNDAuOTY4IDEwMy4wMjdMMTYwIDIyMi4wNTlMMjc5LjAzMiAxMDMuMDI3QzI4OC40MDEgOTMuNjU4IDMwMy42MDQgOTMuNjU4IDMxMi45NzMgMTAzLjAyN1MzMjIuMzQyIDEyNy41OTkgMzEyLjk3MyAxMzYuOTY4TDE5My45NDEgMjU2TDMxMi45NzMgMzc1LjAzMloiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Xmark(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 320 512" {...props}>
+            <path d="M312.973 375.032C322.342 384.401 322.342 399.604 312.973 408.973S288.401 418.342 279.032 408.973L160 289.941L40.968 408.973C31.599 418.342 16.396 418.342 7.027 408.973S-2.342 384.401 7.027 375.032L126.059 256L7.027 136.968C-2.342 127.599 -2.342 112.396 7.027 103.027S31.599 93.658 40.968 103.027L160 222.059L279.032 103.027C288.401 93.658 303.604 93.658 312.973 103.027S322.342 127.599 312.973 136.968L193.941 256L312.973 375.032Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `bracket-round` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/bracket-round?s=solid bracket-round}
+ * @preview ![bracket-round](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0xMjcuOTA0IDQ4MEMxMjEuODQxIDQ4MCAxMTUuNjg1IDQ3OC4yNSAxMTAuMjQ4IDQ3NC42MjVDMTA1Ljc0OCA0NzEuNjI1IDAgMzk5LjQ3MSAwIDI1Ni4wMDVTMTA1Ljc0OCA0MC4zODUgMTEwLjI0OCAzNy4zODVDMTI0Ljk2NiAyNy41NzMgMTQ0LjgxIDMxLjU0MiAxNTQuNjIyIDQ2LjI2QzE2NC40MDMgNjAuOTE2IDE2MC40NjYgODAuNzI4IDE0NS44NzIgOTAuNTRDMTQyLjM3MiA5Mi45NDcgNjMuOTk5IDE0Ny43NTggNjMuOTk5IDI1Ni4wMDVDNjMuOTk5IDM2NC4zNzggMTQyLjUyOCA0MTkuMTg5IDE0NS44NzIgNDIxLjQ3QzE2MC40MzQgNDMxLjM3NiAxNjQuMzA5IDQ1MS4yNTEgMTU0LjQ2NiA0NjUuODQ0QzE0OC4yNzggNDc1LjAzMSAxMzguMTg1IDQ4MCAxMjcuOTA0IDQ4MFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function BracketRound(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 192 512" {...props}>
+            <path d="M127.904 480C121.841 480 115.685 478.25 110.248 474.625C105.748 471.625 0 399.471 0 256.005S105.748 40.385 110.248 37.385C124.966 27.573 144.81 31.542 154.622 46.26C164.403 60.916 160.466 80.728 145.872 90.54C142.372 92.947 63.999 147.758 63.999 256.005C63.999 364.378 142.528 419.189 145.872 421.47C160.434 431.376 164.309 451.251 154.466 465.844C148.278 475.031 138.185 480 127.904 480Z" />
         </Icon>
     </>
 }
-    

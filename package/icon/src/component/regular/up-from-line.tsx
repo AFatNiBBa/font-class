@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `up-from-line` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/up-from-line?s=regular up-from-line}
+ * @preview ![up-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNjAgNDMySDI0QzEwLjc1IDQzMiAwIDQ0Mi43NSAwIDQ1NlMxMC43NSA0ODAgMjQgNDgwSDM2MEMzNzMuMjUgNDgwIDM4NCA0NjkuMjUgMzg0IDQ1NlMzNzMuMjUgNDMyIDM2MCA0MzJaTTY5LjA4NiAyNzJIMTEyVjMzNkMxMTIgMzYyLjUwOCAxMzMuNDkgMzg0IDE2MCAzODRIMjI0QzI1MC41MSAzODQgMjcyIDM2Mi41MDggMjcyIDMzNlYyNzJIMzE1LjI4N0MzNTYuOTE4IDI3MiAzNzguODExIDIyMi42MjkgMzUwLjg2MyAxOTEuNzczTDIxNC42MjUgNDEuMzc1QzIwOC4zNzUgMzUuMTI1IDIwMC4xODggMzIgMTkyIDMyUzE3NS42MjUgMzUuMTI1IDE2OS4zNzUgNDEuMzc1TDMzLjQ2NyAxOTEuODI0QzUuNTgyIDIyMi42OTEgMjcuNDg4IDI3MiA2OS4wODYgMjcyWk0xOTIgODYuNjMzTDMxMy4zNjcgMjI0SDIyNFYzMzZIMTYwVjIyNEg3MC42MzNMMTkyIDg2LjYzM1oiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function UpFromLine(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M360 432H24C10.75 432 0 442.75 0 456S10.75 480 24 480H360C373.25 480 384 469.25 384 456S373.25 432 360 432ZM69.086 272H112V336C112 362.508 133.49 384 160 384H224C250.51 384 272 362.508 272 336V272H315.287C356.918 272 378.811 222.629 350.863 191.773L214.625 41.375C208.375 35.125 200.188 32 192 32S175.625 35.125 169.375 41.375L33.467 191.824C5.582 222.691 27.488 272 69.086 272ZM192 86.633L313.367 224H224V336H160V224H70.633L192 86.633Z" />
         </Icon>
     </>
 }
-    

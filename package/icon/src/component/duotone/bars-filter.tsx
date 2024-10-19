@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `bars-filter` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/bars-filter?s=duotone bars-filter}
+ * @preview ![bars-filter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTM1MiAyMjRIOTZDNzguMzI3IDIyNCA2NCAyMzguMzI3IDY0IDI1NlYyNTZDNjQgMjczLjY3MyA3OC4zMjcgMjg4IDk2IDI4OEgzNTJDMzY5LjY3MyAyODggMzg0IDI3My42NzMgMzg0IDI1NlYyNTZDMzg0IDIzOC4zMjcgMzY5LjY3MyAyMjQgMzUyIDIyNFoiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNMjU2IDM4NEgxOTJDMTc0LjMyNyAzODQgMTYwIDM5OC4zMjcgMTYwIDQxNlY0MTZDMTYwIDQzMy42NzMgMTc0LjMyNyA0NDggMTkyIDQ0OEgyNTZDMjczLjY3MyA0NDggMjg4IDQzMy42NzMgMjg4IDQxNlY0MTZDMjg4IDM5OC4zMjcgMjczLjY3MyAzODQgMjU2IDM4NFpNNDE2IDY0SDMyQzE0LjMyNyA2NCAwIDc4LjMyNyAwIDk2Vjk2QzAgMTEzLjY3MyAxNC4zMjcgMTI4IDMyIDEyOEg0MTZDNDMzLjY3MyAxMjggNDQ4IDExMy42NzMgNDQ4IDk2Vjk2QzQ0OCA3OC4zMjcgNDMzLjY3MyA2NCA0MTYgNjRaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function BarsFilter(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path opacity={.4} d="M352 224H96C78.327 224 64 238.327 64 256V256C64 273.673 78.327 288 96 288H352C369.673 288 384 273.673 384 256V256C384 238.327 369.673 224 352 224Z" />
+            <path d="M256 384H192C174.327 384 160 398.327 160 416V416C160 433.673 174.327 448 192 448H256C273.673 448 288 433.673 288 416V416C288 398.327 273.673 384 256 384ZM416 64H32C14.327 64 0 78.327 0 96V96C0 113.673 14.327 128 32 128H416C433.673 128 448 113.673 448 96V96C448 78.327 433.673 64 416 64Z" />
         </Icon>
     </>
 }
-    

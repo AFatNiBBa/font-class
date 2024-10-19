@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `bars-staggered` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/bars-staggered?s=solid bars-staggered}
+ * @preview ![bars-staggered](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMiAxMjhINDE2QzQzMy42NzMgMTI4IDQ0OCAxMTMuNjczIDQ0OCA5NlY5NkM0NDggNzguMzI3IDQzMy42NzMgNjQgNDE2IDY0SDMyQzE0LjMyNyA2NCAwIDc4LjMyNyAwIDk2Vjk2QzAgMTEzLjY3MyAxNC4zMjcgMTI4IDMyIDEyOFpNNDgwIDIyNEg5NkM3OC4zMjcgMjI0IDY0IDIzOC4zMjcgNjQgMjU2VjI1NkM2NCAyNzMuNjczIDc4LjMyNyAyODggOTYgMjg4SDQ4MEM0OTcuNjczIDI4OCA1MTIgMjczLjY3MyA1MTIgMjU2VjI1NkM1MTIgMjM4LjMyNyA0OTcuNjczIDIyNCA0ODAgMjI0Wk00MTYgMzg0SDMyQzE0LjMyNyAzODQgMCAzOTguMzI3IDAgNDE2VjQxNkMwIDQzMy42NzMgMTQuMzI3IDQ0OCAzMiA0NDhINDE2QzQzMy42NzMgNDQ4IDQ0OCA0MzMuNjczIDQ0OCA0MTZWNDE2QzQ0OCAzOTguMzI3IDQzMy42NzMgMzg0IDQxNiAzODRaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function BarsStaggered(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M32 128H416C433.673 128 448 113.673 448 96V96C448 78.327 433.673 64 416 64H32C14.327 64 0 78.327 0 96V96C0 113.673 14.327 128 32 128ZM480 224H96C78.327 224 64 238.327 64 256V256C64 273.673 78.327 288 96 288H480C497.673 288 512 273.673 512 256V256C512 238.327 497.673 224 480 224ZM416 384H32C14.327 384 0 398.327 0 416V416C0 433.673 14.327 448 32 448H416C433.673 448 448 433.673 448 416V416C448 398.327 433.673 384 416 384Z" />
         </Icon>
     </>
 }
-    

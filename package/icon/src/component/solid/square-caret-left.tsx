@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `square-caret-left` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/square-caret-left?s=solid square-caret-left}
+ * @preview ![square-caret-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMzJINjRDMjguNjU0IDMyIDAgNjAuNjUyIDAgOTZWNDE2QzAgNDUxLjM0NCAyOC42NTQgNDgwIDY0IDQ4MEgzODRDNDE5LjM0NiA0ODAgNDQ4IDQ1MS4zNDQgNDQ4IDQxNlY5NkM0NDggNjAuNjUyIDQxOS4zNDYgMzIgMzg0IDMyWk0yODggMzYwQzI4OCAzNjkuNTMxIDI4Mi4zNDQgMzc4LjE4OCAyNzMuNTk0IDM4MkMyNzAuNSAzODMuMzQ0IDI2Ny4yNSAzODQgMjY0IDM4NEMyNTguMDYyIDM4NCAyNTIuMTg4IDM4MS43ODEgMjQ3LjY1NiAzNzcuNTk0TDEzNS42NTYgMjczLjU5NEMxMzAuNzgxIDI2OS4wMzEgMTI4IDI2Mi42ODggMTI4IDI1NlMxMzAuNzgxIDI0Mi45NjkgMTM1LjY1NiAyMzguNDA2TDI0Ny42NTYgMTM0LjQwNkMyNTQuNjg4IDEyNy45MzggMjY0Ljg3NSAxMjYuMjUgMjczLjU5NCAxMzBDMjgyLjM0NCAxMzMuODEyIDI4OCAxNDIuNDY5IDI4OCAxNTJWMzYwWiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function SquareCaretLeft(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M384 32H64C28.654 32 0 60.652 0 96V416C0 451.344 28.654 480 64 480H384C419.346 480 448 451.344 448 416V96C448 60.652 419.346 32 384 32ZM288 360C288 369.531 282.344 378.188 273.594 382C270.5 383.344 267.25 384 264 384C258.062 384 252.188 381.781 247.656 377.594L135.656 273.594C130.781 269.031 128 262.688 128 256S130.781 242.969 135.656 238.406L247.656 134.406C254.688 127.938 264.875 126.25 273.594 130C282.344 133.812 288 142.469 288 152V360Z" />
         </Icon>
     </>
 }
-    

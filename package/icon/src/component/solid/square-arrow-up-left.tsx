@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `square-arrow-up-left` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/square-arrow-up-left?s=solid square-arrow-up-left}
+ * @preview ![square-arrow-up-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMzJINjRDMjguNjU2IDMyIDAgNjAuNjU2IDAgOTZWNDE2QzAgNDUxLjM0NCAyOC42NTYgNDgwIDY0IDQ4MEgzODRDNDE5LjM0NCA0ODAgNDQ4IDQ1MS4zNDQgNDQ4IDQxNlY5NkM0NDggNjAuNjU2IDQxOS4zNDQgMzIgMzg0IDMyWk0zMzQuNjI1IDM2Ni42MjVDMzI4LjM3NSAzNzIuODc1IDMyMC4xODggMzc2IDMxMiAzNzZTMjk1LjYyNSAzNzIuODc1IDI4OS4zNzUgMzY2LjYyNUwxNjggMjQ1LjI1VjMxMkMxNjggMzI5LjY4OCAxNTMuNjg4IDM0NCAxMzYgMzQ0UzEwNCAzMjkuNjg4IDEwNCAzMTJWMTY4QzEwNCAxNTAuMzEyIDExOC4zMTIgMTM2IDEzNiAxMzZIMjgwQzI5Ny42ODggMTM2IDMxMiAxNTAuMzEyIDMxMiAxNjhTMjk3LjY4OCAyMDAgMjgwIDIwMEgyMTMuMjVMMzM0LjYyNSAzMjEuMzc1QzM0Ny4xMjUgMzMzLjg3NSAzNDcuMTI1IDM1NC4xMjUgMzM0LjYyNSAzNjYuNjI1WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function SquareArrowUpLeft(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M384 32H64C28.656 32 0 60.656 0 96V416C0 451.344 28.656 480 64 480H384C419.344 480 448 451.344 448 416V96C448 60.656 419.344 32 384 32ZM334.625 366.625C328.375 372.875 320.188 376 312 376S295.625 372.875 289.375 366.625L168 245.25V312C168 329.688 153.688 344 136 344S104 329.688 104 312V168C104 150.312 118.312 136 136 136H280C297.688 136 312 150.312 312 168S297.688 200 280 200H213.25L334.625 321.375C347.125 333.875 347.125 354.125 334.625 366.625Z" />
         </Icon>
     </>
 }
-    

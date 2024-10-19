@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `alt` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/alt?s=duotone alt}
+ * @preview ![alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQ3MiA0MDBIMzYwQzMzNy45MDggNDAwIDMyMCA0MTcuOTA4IDMyMCA0NDBTMzM3LjkwOCA0ODAgMzYwIDQ4MEg0NzJDNDk0LjA5MiA0ODAgNTEyIDQ2Mi4wOTIgNTEyIDQ0MFM0OTQuMDkyIDQwMCA0NzIgNDAwWiIgY2xhc3M9ImZhLXNlY29uZGFyeSIvPjxwYXRoIGQ9Ik00NzIgMTEyQzQ5NC4wOTQgMTEyIDUxMiA5NC4wOTQgNTEyIDcyUzQ5NC4wOTQgMzIgNDcyIDMySDM5MkMzNzkuMzEyIDMyIDM2Ny4zNzUgMzguMDMxIDM1OS44NDQgNDguMjE5TDk5LjgxMiA0MDBINDBDMTcuOTA2IDQwMCAwIDQxNy45MDYgMCA0NDBTMTcuOTA2IDQ4MCA0MCA0ODBIMTIwQzEzMi42ODggNDgwIDE0NC42MjUgNDczLjk2OSAxNTIuMTU2IDQ2My43ODFMNDEyLjE4OCAxMTJINDcyWiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Alt(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path opacity={.4} d="M472 400H360C337.908 400 320 417.908 320 440S337.908 480 360 480H472C494.092 480 512 462.092 512 440S494.092 400 472 400Z" />
+            <path d="M472 112C494.094 112 512 94.094 512 72S494.094 32 472 32H392C379.312 32 367.375 38.031 359.844 48.219L99.812 400H40C17.906 400 0 417.906 0 440S17.906 480 40 480H120C132.688 480 144.625 473.969 152.156 463.781L412.188 112H472Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `square-d` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/square-d?s=solid square-d}
+ * @preview ![square-d](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMjIuNDA2IDE3NkgxNzZWMzM2SDIyMi40MDZDMjY3LjM5MSAzMzYgMzA0IDMwMC4xMjUgMzA0IDI1NkMzMDQgMjExLjg5MSAyNjcuMzkxIDE3NiAyMjIuNDA2IDE3NlpNMzg0IDMySDY0QzI4LjY1NCAzMiAwIDYwLjY1NCAwIDk2VjQxNkMwIDQ1MS4zNDYgMjguNjU0IDQ4MCA2NCA0ODBIMzg0QzQxOS4zNDggNDgwIDQ0OCA0NTEuMzQ2IDQ0OCA0MTZWOTZDNDQ4IDYwLjY1NCA0MTkuMzQ4IDMyIDM4NCAzMlpNMjIyLjQwNiAzODRIMTUyQzEzOC43NSAzODQgMTI4IDM3My4yNSAxMjggMzYwVjE1MkMxMjggMTM4Ljc1IDEzOC43NSAxMjggMTUyIDEyOEgyMjIuNDA2QzI5My44NTkgMTI4IDM1MiAxODUuNDIyIDM1MiAyNTZDMzUyIDMyNi41OTQgMjkzLjg1OSAzODQgMjIyLjQwNiAzODRaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function SquareD(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M222.406 176H176V336H222.406C267.391 336 304 300.125 304 256C304 211.891 267.391 176 222.406 176ZM384 32H64C28.654 32 0 60.654 0 96V416C0 451.346 28.654 480 64 480H384C419.348 480 448 451.346 448 416V96C448 60.654 419.348 32 384 32ZM222.406 384H152C138.75 384 128 373.25 128 360V152C128 138.75 138.75 128 152 128H222.406C293.859 128 352 185.422 352 256C352 326.594 293.859 384 222.406 384Z" />
         </Icon>
     </>
 }
-    

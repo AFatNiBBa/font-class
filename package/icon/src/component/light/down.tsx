@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `down` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/down?s=light down}
+ * @preview ![down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0xMTIgNjRWMjQwSDMyQzE0LjMxNCAyNDAgMCAyNTQuMzYzIDAgMjcxLjk5NkMwIDI4MC4zMjIgMy4yNTIgMjg4LjUwMiA5LjM3NSAyOTQuNjI1TDE2OS4zNzUgNDcwLjYyNUMxNzUuNjI1IDQ3Ni44NzUgMTgzLjgxMiA0ODAgMTkyIDQ4MFMyMDguMzc1IDQ3Ni44NzUgMjE0LjYyNSA0NzAuNjI1TDM3NC42MjUgMjk0LjYyNUMzODAuNzQ4IDI4OC41IDM4NCAyODAuMzIyIDM4NCAyNzEuOTk2QzM4NCAyNTQuMzgzIDM2OS43MDMgMjQwIDM1MiAyNDBIMjcyVjY0QzI3MiA0Ni4zMjYgMjU3LjY3NCAzMiAyNDAgMzJIMTQ0QzEyNi4zMjggMzIgMTEyIDQ2LjMyNiAxMTIgNjRaTTI0MCA2NFYyNzJMMzUwLjk0NyAyNzMuMUwxOTIgNDQ3Ljk0MUwzMi4wMDQgMjcySDE0NFY2NEgyNDBaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function Down(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M112 64V240H32C14.314 240 0 254.363 0 271.996C0 280.322 3.252 288.502 9.375 294.625L169.375 470.625C175.625 476.875 183.812 480 192 480S208.375 476.875 214.625 470.625L374.625 294.625C380.748 288.5 384 280.322 384 271.996C384 254.383 369.703 240 352 240H272V64C272 46.326 257.674 32 240 32H144C126.328 32 112 46.326 112 64ZM240 64V272L350.947 273.1L192 447.941L32.004 272H144V64H240Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `star-sharp-half` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/star-sharp-half?s=duotone star-sharp-half}
+ * @preview ![star-sharp-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0OC40NzUgMjE0LjU0M0w0MDQuNzc1IDMxOS4wMzVMNDU5LjY2NCA0ODguMTA5QzQ2NS4xMDIgNTA0Ljg2NSA0NDUuOTQxIDUxOC43OTkgNDMxLjY5OSA1MDguNDQzTDI4OCA0MDMuOTUxVjBDMjk1LjI4MyAwIDMwMi41NjIgNC4xODggMzA1LjI4MiAxMi41NjZMMzYwLjE3MSAxODEuNjQxSDUzNy43OTJDNTU1LjM5NiAxODEuNjQxIDU2Mi43MTYgMjA0LjE4NiA1NDguNDc1IDIxNC41NDNaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTI4OCAwVjQwMy45NTFMMTQ0LjMwMSA1MDguNDQzQzEzMC4wNTkgNTE4Ljc5OSAxMTAuODk4IDUwNC44NjUgMTE2LjMzNiA0ODguMTA5TDE3MS4yMjUgMzE5LjAzNUwyNy41MjUgMjE0LjU0M0MxMy4yODQgMjA0LjE4NiAyMC42MDQgMTgxLjY0MSAzOC4yMDggMTgxLjY0MUgyMTUuODI5TDI3MC43MTggMTIuNTY2QzI3My40MzggNC4xODggMjgwLjcxNyAwIDI4OCAwWiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function StarSharpHalf(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 576 512" {...props}>
+            <path opacity={.4} d="M548.475 214.543L404.775 319.035L459.664 488.109C465.102 504.865 445.941 518.799 431.699 508.443L288 403.951V0C295.283 0 302.562 4.188 305.282 12.566L360.171 181.641H537.792C555.396 181.641 562.716 204.186 548.475 214.543Z" />
+            <path d="M288 0V403.951L144.301 508.443C130.059 518.799 110.898 504.865 116.336 488.109L171.225 319.035L27.525 214.543C13.284 204.186 20.604 181.641 38.208 181.641H215.829L270.718 12.566C273.438 4.188 280.717 0 288 0Z" />
         </Icon>
     </>
 }
-    

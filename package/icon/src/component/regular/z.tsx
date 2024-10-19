@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `z` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/z?s=regular z}
+ * @preview ![z](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNTIgNDgwLjAxOEgzMkMxOS41OTQgNDgwLjAxOCA4LjI4MiA0NzIuODMxIDMuMDMyIDQ2MS41ODFDLTIuMjUgNDUwLjM2MiAtMC41MzEgNDM3LjA4MSA3LjQwNyA0MjcuNTE4TDI4My42ODggOTYuMDE4SDMyQzE0LjMxMyA5Ni4wMTggMCA4MS43MDYgMCA2NC4wMThTMTQuMzEzIDMyLjAxOCAzMiAzMi4wMThIMzUyQzM2NC40MDcgMzIuMDE4IDM3NS43MTkgMzkuMjA2IDM4MC45NjkgNTAuNDU2QzM4Ni4yNSA2MS42NzQgMzg0LjUzMiA3NC45NTYgMzc2LjU5NCA4NC41MThMMTAwLjMxMyA0MTYuMDE4SDM1MkMzNjkuNjg4IDQxNi4wMTggMzg0IDQzMC4zMzEgMzg0IDQ0OC4wMThTMzY5LjY4OCA0ODAuMDE4IDM1MiA0ODAuMDE4WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Z(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M352 480.018H32C19.594 480.018 8.282 472.831 3.032 461.581C-2.25 450.362 -0.531 437.081 7.407 427.518L283.688 96.018H32C14.313 96.018 0 81.706 0 64.018S14.313 32.018 32 32.018H352C364.407 32.018 375.719 39.206 380.969 50.456C386.25 61.674 384.532 74.956 376.594 84.518L100.313 416.018H352C369.688 416.018 384 430.331 384 448.018S369.688 480.018 352 480.018Z" />
         </Icon>
     </>
 }
-    

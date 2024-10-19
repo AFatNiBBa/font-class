@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `arrow-turn-down` icon from the `thin` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/arrow-turn-down?s=thin arrow-turn-down}
+ * @preview ![arrow-turn-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNDkuNDk3IDM2NS44MDFMMTk3LjQ5OCA1MDkuNzk3QzE5NC40MzYgNTEyLjczNCAxODkuNTYxIDUxMi43MzQgMTg2LjQ5OCA1MDkuNzk3TDM0LjUgMzY1LjgwMUMzMS4yODEgMzYyLjc3IDMxLjE1NiAzNTcuNzA4IDM0LjE4NyAzNTQuNDg5QzM3LjI1IDM1MS4zMDIgNDIuMzEyIDM1MS4xNDYgNDUuNSAzNTQuMTc3TDE4My45OTkgNDg1LjM3NlY3MS45OThDMTgzLjk5OSA0MS4xMjQgMTU4Ljg3NCAxNiAxMjcuOTk5IDE2SDhDMy41OTQgMTYgMCAxMi40MDYgMCA4UzMuNTk0IDAgOCAwTDEyNy45OTkgMEMxNjcuNjg2IDAgMTk5Ljk5OCAzMi4zMTIgMTk5Ljk5OCA3MS45OThWNDg1LjM3NkwzMzguNDk3IDM1NC4xNzdDMzQwLjAyOCAzNTIuNzA4IDM0Mi4wMjggMzUxLjk4OSAzNDMuOTk3IDM1MS45ODlDMzQ2LjEyMiAzNTEuOTg5IDM0OC4yNDcgMzUyLjgzMyAzNDkuODEgMzU0LjQ4OUMzNTIuODQxIDM1Ny43MDggMzUyLjcxNiAzNjIuNzcgMzQ5LjQ5NyAzNjUuODAxWiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function ArrowTurnDown(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M349.497 365.801L197.498 509.797C194.436 512.734 189.561 512.734 186.498 509.797L34.5 365.801C31.281 362.77 31.156 357.708 34.187 354.489C37.25 351.302 42.312 351.146 45.5 354.177L183.999 485.376V71.998C183.999 41.124 158.874 16 127.999 16H8C3.594 16 0 12.406 0 8S3.594 0 8 0L127.999 0C167.686 0 199.998 32.312 199.998 71.998V485.376L338.497 354.177C340.028 352.708 342.028 351.989 343.997 351.989C346.122 351.989 348.247 352.833 349.81 354.489C352.841 357.708 352.716 362.77 349.497 365.801Z" />
         </Icon>
     </>
 }
-    

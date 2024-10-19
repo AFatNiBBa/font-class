@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `mitten` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/mitten?s=duotone mitten}
+ * @preview ![mitten](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTM1Mi4wMTQgMzg0SDY0QzQ2LjM5OCAzODQgMzIgMzk4LjQgMzIgNDE2VjQ4MEMzMiA0OTcuNiA0Ni4zOTggNTEyIDY0IDUxMkgzNTIuMDE0QzM2OS42MTMgNTEyIDM4NC4wMTQgNDk3LjYgMzg0LjAxNCA0ODBWNDE2QzM4NC4wMTQgMzk4LjQgMzY5LjYxMyAzODQgMzUyLjAxNCAzODRaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTQyNS4wMjEgMjA2Ljg3N0MzOTcuNzY5IDE4NC4yNTIgMzU3LjUxNyAxODcuODc3IDMzNC44OTIgMjE1LjEyN0wzMTQuMDE3IDI0MC4xMjdMMjg0LjM5IDExMS43NTJDMjY2LjM4OCAzNC4yNTIgMTg5LjAxMSAtMTQuMjQ2IDExMS42MzIgMy43NTJDMzQuMjU1IDIxLjYyNyAtMTQuMjQ3IDk4Ljg3NyAzLjc1MyAxNzYuMzc3TDYzLjk5OSAzODRIMzUxLjk5OUw0MzMuMTQ2IDI5Ny4wMDJDNDU1Ljc3MyAyNjkuNzUyIDQ1Mi4xNDYgMjI5LjUwMiA0MjUuMDIxIDIwNi44NzdaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Mitten(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path opacity={.4} d="M352.014 384H64C46.398 384 32 398.4 32 416V480C32 497.6 46.398 512 64 512H352.014C369.613 512 384.014 497.6 384.014 480V416C384.014 398.4 369.613 384 352.014 384Z" />
+            <path d="M425.021 206.877C397.769 184.252 357.517 187.877 334.892 215.127L314.017 240.127L284.39 111.752C266.388 34.252 189.011 -14.246 111.632 3.752C34.255 21.627 -14.247 98.877 3.753 176.377L63.999 384H351.999L433.146 297.002C455.773 269.752 452.146 229.502 425.021 206.877Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `location` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/location?s=regular location}
+ * @preview ![location](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0xOTIgMEM4NS45NjkgMCAwIDg1Ljk2OSAwIDE5MkMwIDI2OS40MSAyNi45NjkgMjkxLjAzNSAxNzIuMjgxIDUwMS42NzZDMTc3LjA0NyA1MDguNTU5IDE4NC41MjMgNTEyIDE5MiA1MTJTMjA2Ljk1MyA1MDguNTU5IDIxMS43MTkgNTAxLjY3NkMzNTcuMDMxIDI5MS4wMzUgMzg0IDI2OS40MSAzODQgMTkyQzM4NCA4NS45NjkgMjk4LjAzMSAwIDE5MiAwWk0xOTIgNDQ1LjgzNkMxNzQuMzA3IDQyMC4zNzEgMTU4LjU4MiAzOTcuOTY5IDE0NC42MjMgMzc4LjA4NkM1Ny41NjIgMjU0LjA2NiA0OCAyMzguODc1IDQ4IDE5MkM0OCAxMTIuNTk4IDExMi41OTggNDggMTkyIDQ4UzMzNiAxMTIuNTk4IDMzNiAxOTJDMzM2IDIzOC44NzUgMzI2LjQzOCAyNTQuMDY2IDIzOS4zNzcgMzc4LjA4NkMyMjUuNDEyIDM5Ny45OCAyMDkuNjg0IDQyMC4zODMgMTkyIDQ0NS44MzZaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function Location(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M192 0C85.969 0 0 85.969 0 192C0 269.41 26.969 291.035 172.281 501.676C177.047 508.559 184.523 512 192 512S206.953 508.559 211.719 501.676C357.031 291.035 384 269.41 384 192C384 85.969 298.031 0 192 0ZM192 445.836C174.307 420.371 158.582 397.969 144.623 378.086C57.562 254.066 48 238.875 48 192C48 112.598 112.598 48 192 48S336 112.598 336 192C336 238.875 326.438 254.066 239.377 378.086C225.412 397.98 209.684 420.383 192 445.836Z" />
         </Icon>
     </>
 }
-    

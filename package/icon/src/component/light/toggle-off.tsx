@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `toggle-off` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/toggle-off?s=light toggle-off}
+ * @preview ![toggle-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00MTYgOTZIMTYwQzcxLjYzNSA5NiAwIDE2Ny42MzUgMCAyNTZTNzEuNjM1IDQxNiAxNjAgNDE2SDQxNkM1MDQuMzY1IDQxNiA1NzYgMzQ0LjM2NSA1NzYgMjU2UzUwNC4zNjUgOTYgNDE2IDk2Wk00MTYgMzg0SDE2MEM4OS40MiAzODQgMzIgMzI2LjU4IDMyIDI1NlM4OS40MiAxMjggMTYwIDEyOEg0MTZDNDg2LjU4IDEyOCA1NDQgMTg1LjQyIDU0NCAyNTZTNDg2LjU4IDM4NCA0MTYgMzg0Wk0xNjAgMTYwQzEwNi45OCAxNjAgNjQgMjAyLjk4IDY0IDI1NlMxMDYuOTggMzUyIDE2MCAzNTJTMjU2IDMwOS4wMiAyNTYgMjU2UzIxMy4wMiAxNjAgMTYwIDE2MFpNMTYwIDMyMEMxMjQuNzExIDMyMCA5NiAyOTEuMjg5IDk2IDI1NlMxMjQuNzExIDE5MiAxNjAgMTkyUzIyNCAyMjAuNzExIDIyNCAyNTZTMTk1LjI4OSAzMjAgMTYwIDMyMFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function ToggleOff(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 576 512" {...props}>
+            <path d="M416 96H160C71.635 96 0 167.635 0 256S71.635 416 160 416H416C504.365 416 576 344.365 576 256S504.365 96 416 96ZM416 384H160C89.42 384 32 326.58 32 256S89.42 128 160 128H416C486.58 128 544 185.42 544 256S486.58 384 416 384ZM160 160C106.98 160 64 202.98 64 256S106.98 352 160 352S256 309.02 256 256S213.02 160 160 160ZM160 320C124.711 320 96 291.289 96 256S124.711 192 160 192S224 220.711 224 256S195.289 320 160 320Z" />
         </Icon>
     </>
 }
-    

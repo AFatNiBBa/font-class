@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `user-crown` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/user-crown?s=regular user-crown}
+ * @preview ![user-crown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMjQgMjcyQzI5NC43NSAyNzIgMzUyIDIxNC43NSAzNTIgMTQ0VjBMMjg4IDMyTDIyNCAwTDE2MCAzMkw5NiAwVjE0NEM5NiAyMTQuNzUgMTUzLjI1IDI3MiAyMjQgMjcyWk0xNDQgMTI4SDMwNFYxNDRDMzA0IDE4OC4xMjUgMjY4LjEyNSAyMjQgMjI0IDIyNFMxNDQgMTg4LjEyNSAxNDQgMTQ0VjEyOFpNMjcyIDMwNEgxNzZDNzguNzk3IDMwNCAwIDM4Mi43OTcgMCA0ODBDMCA0OTcuNjcyIDE0LjMyNiA1MTIgMzIgNTEySDQxNkM0MzMuNjc0IDUxMiA0NDggNDk3LjY3MiA0NDggNDgwQzQ0OCAzODIuNzk3IDM2OS4yMDMgMzA0IDI3MiAzMDRaTTQ4Ljk5NCA0NjRDNTYuODk1IDQwMC45NDUgMTEwLjg0IDM1MiAxNzYgMzUySDI3MkMzMzcuMTYgMzUyIDM5MS4xMDUgNDAwLjk0NSAzOTkuMDA2IDQ2NEg0OC45OTRaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function UserCrown(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M224 272C294.75 272 352 214.75 352 144V0L288 32L224 0L160 32L96 0V144C96 214.75 153.25 272 224 272ZM144 128H304V144C304 188.125 268.125 224 224 224S144 188.125 144 144V128ZM272 304H176C78.797 304 0 382.797 0 480C0 497.672 14.326 512 32 512H416C433.674 512 448 497.672 448 480C448 382.797 369.203 304 272 304ZM48.994 464C56.895 400.945 110.84 352 176 352H272C337.16 352 391.105 400.945 399.006 464H48.994Z" />
         </Icon>
     </>
 }
-    

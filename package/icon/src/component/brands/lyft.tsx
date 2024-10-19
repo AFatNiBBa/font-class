@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `lyft` icon from the `brands` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/lyft?s=brands lyft}
+ * @preview ![lyft](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0wIDgxLjFoNzcuOHYyMDguN2MwIDMzLjEgMTUgNTIuOCAyNy4yIDYxLTEyLjcgMTEuMS01MS4yIDIwLjktODAuMi0yLjhDNy44IDMzNCAwIDMxMC43IDAgMjg5VjgxLjF6bTQ4NS45IDE3My41di0yMmgyMy44di03Ni44aC0yNi4xYy0xMC4xLTQ2LjMtNTEuMi04MC43LTEwMC4zLTgwLjctNTYuNiAwLTEwMi43IDQ2LTEwMi43IDEwMi43VjM1N2MxNiAyLjMgMzUuNC0uMyA1MS43LTE0IDE3LjEtMTQgMjQuOC0zNy4yIDI0LjgtNTl2LTYuN2gzOC44di03Ni44aC0zOC44di0yMy4zYzAtMzQuNiA1Mi4yLTM0LjYgNTIuMiAwdjc3LjFjMCA1Ni42IDQ2IDEwMi43IDEwMi43IDEwMi43di03Ni41Yy0xNC41IDAtMjYuMS0xMS43LTI2LjEtMjUuOXptLTI5NC4zLTk5djExM2MwIDE1LjQtMjMuOCAxNS40LTIzLjggMHYtMTEzSDkxdjEzMi43YzAgMjMuOCA4IDU0IDQ1IDYzLjkgMzcgOS44IDU4LjItMTAuNiA1OC4yLTEwLjYtMi4xIDEzLjQtMTQuNSAyMy4zLTM0LjkgMjUuMy0xNS41IDEuNi0zNS4yLTMuNi00NS03Ljh2NzAuM2MyNS4xIDcuNSA1MS41IDkuOCA3Ny42IDQuNyA0Ny4xLTkuMSA3Ni44LTQ4LjQgNzYuOC0xMDAuOFYxNTUuMWgtNzcuMXYuNXoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Lyft(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M0 81.1h77.8v208.7c0 33.1 15 52.8 27.2 61-12.7 11.1-51.2 20.9-80.2-2.8C7.8 334 0 310.7 0 289V81.1zm485.9 173.5v-22h23.8v-76.8h-26.1c-10.1-46.3-51.2-80.7-100.3-80.7-56.6 0-102.7 46-102.7 102.7V357c16 2.3 35.4-.3 51.7-14 17.1-14 24.8-37.2 24.8-59v-6.7h38.8v-76.8h-38.8v-23.3c0-34.6 52.2-34.6 52.2 0v77.1c0 56.6 46 102.7 102.7 102.7v-76.5c-14.5 0-26.1-11.7-26.1-25.9zm-294.3-99v113c0 15.4-23.8 15.4-23.8 0v-113H91v132.7c0 23.8 8 54 45 63.9 37 9.8 58.2-10.6 58.2-10.6-2.1 13.4-14.5 23.3-34.9 25.3-15.5 1.6-35.2-3.6-45-7.8v70.3c25.1 7.5 51.5 9.8 77.6 4.7 47.1-9.1 76.8-48.4 76.8-100.8V155.1h-77.1v.5z" />
         </Icon>
     </>
 }
-    

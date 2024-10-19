@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `arrow-turn-up` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/arrow-turn-up?s=regular arrow-turn-up}
+ * @preview ![arrow-turn-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMzYuOTY5IDE2OC45NjlDMzI3LjU5NCAxNzguMzQ0IDMxMi40MDYgMTc4LjM0NCAzMDMuMDMxIDE2OC45NjlMMjE2IDgxLjkzOFY0ODhDMjE2IDUwMS4yNSAyMDUuMjUgNTEyIDE5MiA1MTJIMjRDMTAuNzUgNTEyIDAgNTAxLjI1IDAgNDg4UzEwLjc1IDQ2NCAyNCA0NjRIMTY4VjgxLjkzOEw4MC45NjkgMTY4Ljk2OUM3MS41OTQgMTc4LjM0NCA1Ni40MDYgMTc4LjM0NCA0Ny4wMzEgMTY4Ljk2OVMzNy42NTYgMTQ0LjQwNiA0Ny4wMzEgMTM1LjAzMUwxNzUuMDMxIDcuMDMxQzE3OS43MTkgMi4zNDQgMTg1Ljg0NCAwIDE5MiAwUzIwNC4yODEgMi4zNDQgMjA4Ljk2OSA3LjAzMUwzMzYuOTY5IDEzNS4wMzFDMzQ2LjM0NCAxNDQuNDA2IDM0Ni4zNDQgMTU5LjU5NCAzMzYuOTY5IDE2OC45NjlaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function ArrowTurnUp(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M336.969 168.969C327.594 178.344 312.406 178.344 303.031 168.969L216 81.938V488C216 501.25 205.25 512 192 512H24C10.75 512 0 501.25 0 488S10.75 464 24 464H168V81.938L80.969 168.969C71.594 178.344 56.406 178.344 47.031 168.969S37.656 144.406 47.031 135.031L175.031 7.031C179.719 2.344 185.844 0 192 0S204.281 2.344 208.969 7.031L336.969 135.031C346.344 144.406 346.344 159.594 336.969 168.969Z" />
         </Icon>
     </>
 }
-    

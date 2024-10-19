@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `forward-step` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/forward-step?s=solid forward-step}
+ * @preview ![forward-step](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yODcuOTcxIDQ0Ny45NjhDMzA1LjY0MyA0NDcuOTY4IDMxOS45NjkgNDMzLjY0MiAzMTkuOTY5IDQxNS45NjhWOTYuMDMyQzMxOS45NjkgNzguMzU5IDMwNS42NDEgNjQuMDMyIDI4Ny45NjcgNjQuMDMyQzI3MC4yOTUgNjQuMDMyIDI1NS45NjkgNzguMzU5IDI1NS45NjkgOTYuMDNWMjU1Ljk5OVY0MTUuOTY2QzI1NS45NjkgNDMzLjY0IDI3MC4yOTcgNDQ3Ljk2OCAyODcuOTcxIDQ0Ny45NjhaTTUyLjUwNiA0NDAuNTkzTDI0NC41MjkgMjgwLjYyQzI1Mi4xNTQgMjc0LjE4NSAyNTUuOTY5IDI2NS4wOTEgMjU1Ljk2OSAyNTUuOTk5QzI1NS45NjkgMjQ2LjkwNSAyNTIuMTU0IDIzNy44MTYgMjQ0LjUyOSAyMzEuMzc4TDUyLjUwNiA3MS40MDVDMzEuODc5IDU0LjI4NCAwIDY4LjY1NSAwIDk2LjAyNlY0MTUuOTcyQzAgNDQzLjM0MyAzMS44NzkgNDU3LjcxNiA1Mi41MDYgNDQwLjU5M1oiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function ForwardStep(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 320 512" {...props}>
+            <path d="M287.971 447.968C305.643 447.968 319.969 433.642 319.969 415.968V96.032C319.969 78.359 305.641 64.032 287.967 64.032C270.295 64.032 255.969 78.359 255.969 96.03V255.999V415.966C255.969 433.64 270.297 447.968 287.971 447.968ZM52.506 440.593L244.529 280.62C252.154 274.185 255.969 265.091 255.969 255.999C255.969 246.905 252.154 237.816 244.529 231.378L52.506 71.405C31.879 54.284 0 68.655 0 96.026V415.972C0 443.343 31.879 457.716 52.506 440.593Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `game-board` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/game-board?s=duotone game-board}
+ * @preview ![game-board](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTM4NCAzMkg2NEMyOC42NTQgMzIgMCA2MC42NTIgMCA5NlY0MTZDMCA0NTEuMzQ2IDI4LjY1NCA0ODAgNjQgNDgwSDM4NEM0MTkuMzQ2IDQ4MCA0NDggNDUxLjM0NiA0NDggNDE2Vjk2QzQ0OCA2MC42NTIgNDE5LjM0NiAzMiAzODQgMzJaTTM4NCA0MTZINjRWOTZIMzg0VjQxNloiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNNjQgMjU2VjMzNkgxNDRWMjU2SDY0Wk0zODQgNDE2VjMzNkgzMDRWNDE2SDM4NFpNMTQ0IDQxNkgyMjRWMzM2SDE0NFY0MTZaTTY0IDk2VjE3NkgxNDRWOTZINjRaTTIyNCAxNzZIMTQ0VjI1NkgyMjRWMTc2Wk0yMjQgMjU2VjMzNkgzMDRWMjU2SDIyNFpNMzg0IDI1NlYxNzZIMzA0VjI1NkgzODRaTTMwNCA5NkgyMjRWMTc2SDMwNFY5NloiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ */
 export default function GameBoard(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path opacity={.4} d="M384 32H64C28.654 32 0 60.652 0 96V416C0 451.346 28.654 480 64 480H384C419.346 480 448 451.346 448 416V96C448 60.652 419.346 32 384 32ZM384 416H64V96H384V416Z" />
+            <path d="M64 256V336H144V256H64ZM384 416V336H304V416H384ZM144 416H224V336H144V416ZM64 96V176H144V96H64ZM224 176H144V256H224V176ZM224 256V336H304V256H224ZM384 256V176H304V256H384ZM304 96H224V176H304V96Z" />
         </Icon>
     </>
 }
-    

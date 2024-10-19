@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `arrow-up-to-line` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/arrow-up-to-line?s=light arrow-up-to-line}
+ * @preview ![arrow-up-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMDMuMzEyIDExNi42ODhDMjAwLjE4OCAxMTMuNTYyIDE5Ni4wOTQgMTEyIDE5MiAxMTJTMTgzLjgxMiAxMTMuNTYyIDE4MC42ODggMTE2LjY4OEwzNi42ODggMjYwLjY4OEMzMC40MzggMjY2LjkzOCAzMC40MzggMjc3LjA2MyAzNi42ODggMjgzLjMxMlM1My4wNjMgMjg5LjU2MiA1OS4zMTIgMjgzLjMxMkwxNzYgMTY2LjYyNVY0NjRDMTc2IDQ3Mi44NDQgMTgzLjE1NiA0ODAgMTkyIDQ4MFMyMDggNDcyLjg0NCAyMDggNDY0VjE2Ni42MjVMMzI0LjY4OCAyODMuMzEyQzMzMC45MzggMjg5LjU2MiAzNDEuMDYzIDI4OS41NjIgMzQ3LjMxMiAyODMuMzEyUzM1My41NjIgMjY2LjkzNyAzNDcuMzEyIDI2MC42ODhMMjAzLjMxMiAxMTYuNjg4Wk0zNjggMzJIMTZDNy4xNTYgMzIgMCAzOS4xNTYgMCA0OFM3LjE1NiA2NCAxNiA2NEgzNjhDMzc2Ljg0NCA2NCAzODQgNTYuODQ0IDM4NCA0OFMzNzYuODQ0IDMyIDM2OCAzMloiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function ArrowUpToLine(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M203.312 116.688C200.188 113.562 196.094 112 192 112S183.812 113.562 180.688 116.688L36.688 260.688C30.438 266.938 30.438 277.063 36.688 283.312S53.063 289.562 59.312 283.312L176 166.625V464C176 472.844 183.156 480 192 480S208 472.844 208 464V166.625L324.688 283.312C330.938 289.562 341.063 289.562 347.312 283.312S353.562 266.937 347.312 260.688L203.312 116.688ZM368 32H16C7.156 32 0 39.156 0 48S7.156 64 16 64H368C376.844 64 384 56.844 384 48S376.844 32 368 32Z" />
         </Icon>
     </>
 }
-    

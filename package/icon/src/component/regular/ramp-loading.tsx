@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `ramp-loading` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/ramp-loading?s=regular ramp-loading}
+ * @preview ![ramp-loading](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMzUyVjMyQzM4NCAxNC4yNSAzNjkuNzUgMCAzNTIgMEgzMkMxNC4yNSAwIDAgMTQuMjUgMCAzMlYzNTJDMCAzNjkuNzUgMTQuMjUgMzg0IDMyIDM4NEgzOC44NzVMMy4yNSA0NjcuMzc1Qy01Ljg3NSA0ODguNSA5LjYyNSA1MTIgMzIuNjI1IDUxMkgzNTEuNUMzNzQuNSA1MTIgMzkwIDQ4OC41IDM4MC44NzUgNDY3LjM3NUwzNDUuMTI1IDM4NEgzNTJDMzY5Ljc1IDM4NCAzODQgMzY5Ljc1IDM4NCAzNTJaTTU2Ljc1IDQ2NEwxMTEuNzUgMzM2SDI3Mi4yNUwzMjcuMjUgNDY0SDU2Ljc1Wk0zMTIuMjUgMzA3LjM3NUMzMDcuMjUgMjk1LjYyNSAyOTUuNzUgMjg4IDI4Mi44NzUgMjg4SDEwMS4xMjVDODguMjUgMjg4IDc2Ljc1IDI5NS42MjUgNzEuNzUgMzA3LjM3NUw1OS41IDMzNkg0OFY0OEgzMzZWMzM2SDMyNC41TDMxMi4yNSAzMDcuMzc1WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function RampLoading(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M384 352V32C384 14.25 369.75 0 352 0H32C14.25 0 0 14.25 0 32V352C0 369.75 14.25 384 32 384H38.875L3.25 467.375C-5.875 488.5 9.625 512 32.625 512H351.5C374.5 512 390 488.5 380.875 467.375L345.125 384H352C369.75 384 384 369.75 384 352ZM56.75 464L111.75 336H272.25L327.25 464H56.75ZM312.25 307.375C307.25 295.625 295.75 288 282.875 288H101.125C88.25 288 76.75 295.625 71.75 307.375L59.5 336H48V48H336V336H324.5L312.25 307.375Z" />
         </Icon>
     </>
 }
-    

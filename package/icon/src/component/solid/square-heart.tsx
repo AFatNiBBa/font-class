@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `square-heart` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/square-heart?s=solid square-heart}
+ * @preview ![square-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMzJINjRDMjguNjU0IDMyIDAgNjAuNjUyIDAgOTZWNDE2QzAgNDUxLjM0NCAyOC42NTQgNDgwIDY0IDQ4MEgzODRDNDE5LjM0NiA0ODAgNDQ4IDQ1MS4zNDQgNDQ4IDQxNlY5NkM0NDggNjAuNjUyIDQxOS4zNDYgMzIgMzg0IDMyWk0zNDcuNSAyODAuMjVMMjM2Ljg3NSAzOTQuNUMyMjkuNzUgNDAxLjg3NSAyMTguMjUgNDAxLjg3NSAyMTEgMzk0LjVMMTAwLjUgMjgwLjI1QzY4LjM3NSAyNDcuMTI1IDcwLjI1IDE5Mi4xMjUgMTA2LjI1IDE2MS41QzEzNy41IDEzNC43NSAxODQuMTI1IDEzOS42MjUgMjEyLjc1IDE2OS4yNUwyMjQuMTI1IDE4MC43NUwyMzUuMzc1IDE2OS4yNUMyNjQuMTI1IDEzOS42MjUgMzEwLjc1IDEzNC43NSAzNDEuOTk5IDE2MS41QzM3Ny43NSAxOTIuMTI1IDM3OS43NSAyNDcuMTI1IDM0Ny41IDI4MC4yNVoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function SquareHeart(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M384 32H64C28.654 32 0 60.652 0 96V416C0 451.344 28.654 480 64 480H384C419.346 480 448 451.344 448 416V96C448 60.652 419.346 32 384 32ZM347.5 280.25L236.875 394.5C229.75 401.875 218.25 401.875 211 394.5L100.5 280.25C68.375 247.125 70.25 192.125 106.25 161.5C137.5 134.75 184.125 139.625 212.75 169.25L224.125 180.75L235.375 169.25C264.125 139.625 310.75 134.75 341.999 161.5C377.75 192.125 379.75 247.125 347.5 280.25Z" />
         </Icon>
     </>
 }
-    

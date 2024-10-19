@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `up` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/up?s=regular up}
+ * @preview ![up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yLjQzOCAyNTIuMjVDNy4zOTEgMjY0LjIwMyAxOS4wNjMgMjcyIDMyIDI3MkgxMTJWNDMyQzExMiA0NTguNTA4IDEzMy40OSA0ODAgMTYwIDQ4MEgyMjRDMjUwLjUxIDQ4MCAyNzIgNDU4LjUwOCAyNzIgNDMyVjI3MkgzNTJDMzY0LjkzOCAyNzIgMzc2LjYwOSAyNjQuMjAzIDM4MS41NjMgMjUyLjI1QzM4Ni41MTYgMjQwLjI4MSAzODMuNzgxIDIyNi41MzEgMzc0LjYyNSAyMTcuMzc1TDIxNC42MjUgNDEuMzc1QzIwOC4zNzUgMzUuMTI1IDIwMC4xODggMzIgMTkyIDMyUzE3NS42MjUgMzUuMTI1IDE2OS4zNzUgNDEuMzc1TDkuMzc1IDIxNy4zNzVDMC4yMTkgMjI2LjUzMSAtMi41MTYgMjQwLjI4MSAyLjQzOCAyNTIuMjVaTTE5MiA4Ni42MzNMMzEzLjM2NyAyMjRIMjI0VjQzMkgxNjBWMjI0SDcwLjYzM0wxOTIgODYuNjMzWiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Up(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M2.438 252.25C7.391 264.203 19.063 272 32 272H112V432C112 458.508 133.49 480 160 480H224C250.51 480 272 458.508 272 432V272H352C364.938 272 376.609 264.203 381.563 252.25C386.516 240.281 383.781 226.531 374.625 217.375L214.625 41.375C208.375 35.125 200.188 32 192 32S175.625 35.125 169.375 41.375L9.375 217.375C0.219 226.531 -2.516 240.281 2.438 252.25ZM192 86.633L313.367 224H224V432H160V224H70.633L192 86.633Z" />
         </Icon>
     </>
 }
-    

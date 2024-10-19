@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `arrow-up-left` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/arrow-up-left?s=light arrow-up-left}
+ * @preview ![arrow-up-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNDcuMzEyIDQxMS4zMTJDMzQ0LjE4OCA0MTQuNDM4IDM0MC4wOTQgNDE2IDMzNiA0MTZTMzI3LjgxMiA0MTQuNDM4IDMyNC42ODggNDExLjMxMkw2NCAxNTAuNjI1VjMzNS4yNUM2NCAzNDQuMDk0IDU2Ljg0NCAzNTEuMjUgNDggMzUxLjI1UzMyIDM0NC4wOTQgMzIgMzM1LjI1VjExMS45MDZDMzIgMTAzLjA5NCAzOS4xNDEgOTUuOTM4IDQ3Ljk1MyA5NS45MDZMMjcxLjk1MyA5NS4yNUMyNzEuOTY5IDk1LjI1IDI3MS45ODQgOTUuMjUgMjcyIDk1LjI1QzI4MC44MTIgOTUuMjUgMjg3Ljk2OSAxMDIuMzc1IDI4OCAxMTEuMjE5QzI4OC4wMzEgMTIwLjAzMSAyODAuODkxIDEyNy4yMTkgMjcyLjA0NyAxMjcuMjVMODYuNDMyIDEyNy44MDVMMzQ3LjMxMiAzODguNjg4QzM1My41NjIgMzk0LjkzOCAzNTMuNTYyIDQwNS4wNjIgMzQ3LjMxMiA0MTEuMzEyWiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function ArrowUpLeft(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M347.312 411.312C344.188 414.438 340.094 416 336 416S327.812 414.438 324.688 411.312L64 150.625V335.25C64 344.094 56.844 351.25 48 351.25S32 344.094 32 335.25V111.906C32 103.094 39.141 95.938 47.953 95.906L271.953 95.25C271.969 95.25 271.984 95.25 272 95.25C280.812 95.25 287.969 102.375 288 111.219C288.031 120.031 280.891 127.219 272.047 127.25L86.432 127.805L347.312 388.688C353.562 394.938 353.562 405.062 347.312 411.312Z" />
         </Icon>
     </>
 }
-    

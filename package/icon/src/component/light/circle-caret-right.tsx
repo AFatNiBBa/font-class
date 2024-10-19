@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `circle-caret-right` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/circle-caret-right?s=light circle-caret-right}
+ * @preview ![circle-caret-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNDYuNjI1IDEzNy4zNTlDMjI2LjUgMTE3LjM2OSAxOTIgMTMxLjQ4OCAxOTIgMTU5Ljk3M1YzNTEuOTk4QzE5MiAzODAuMzU3IDIyNi41IDM5NC43MjUgMjQ2LjYyNSAzNzQuNjExTDM0Mi42MjUgMjc4LjY2QzM1NS4xMjUgMjY2LjE2OCAzNTUuMTI1IDI0NS44MDMgMzQyLjYyNSAyMzMuMzA5TDI0Ni42MjUgMTM3LjM1OVpNMjI0IDM1MlYxNjBMMzIwIDI1NkwyMjQgMzUyWk0yNTYgMTZDMTIzLjQ1MSAxNiAxNiAxMjMuNDUxIDE2IDI1NlMxMjMuNDUxIDQ5NiAyNTYgNDk2UzQ5NiAzODguNTQ5IDQ5NiAyNTZTMzg4LjU0OSAxNiAyNTYgMTZaTTI1NiA0NjRDMTQxLjMwOSA0NjQgNDggMzcwLjY5MSA0OCAyNTZTMTQxLjMwOSA0OCAyNTYgNDhTNDY0IDE0MS4zMDkgNDY0IDI1NlMzNzAuNjkxIDQ2NCAyNTYgNDY0WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function CircleCaretRight(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M246.625 137.359C226.5 117.369 192 131.488 192 159.973V351.998C192 380.357 226.5 394.725 246.625 374.611L342.625 278.66C355.125 266.168 355.125 245.803 342.625 233.309L246.625 137.359ZM224 352V160L320 256L224 352ZM256 16C123.451 16 16 123.451 16 256S123.451 496 256 496S496 388.549 496 256S388.549 16 256 16ZM256 464C141.309 464 48 370.691 48 256S141.309 48 256 48S464 141.309 464 256S370.691 464 256 464Z" />
         </Icon>
     </>
 }
-    

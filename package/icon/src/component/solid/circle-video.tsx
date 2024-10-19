@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `circle-video` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/circle-video?s=solid circle-video}
+ * @preview ![circle-video](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNTYgMTZDMTIzLjQ1MSAxNiAxNiAxMjMuNDUxIDE2IDI1NlMxMjMuNDUxIDQ5NiAyNTYgNDk2UzQ5NiAzODguNTQ5IDQ5NiAyNTZTMzg4LjU0OSAxNiAyNTYgMTZaTTMyMCAzMjhDMzIwIDM0MS4yNTQgMzA5LjI1NCAzNTIgMjk2IDM1MkgxNTJDMTM4Ljc0NiAzNTIgMTI4IDM0MS4yNTQgMTI4IDMyOFYxODRDMTI4IDE3MC43NDQgMTM4Ljc0NiAxNjAgMTUyIDE2MEgyOTZDMzA5LjI1NCAxNjAgMzIwIDE3MC43NDQgMzIwIDE4NFYzMjhaTTQxNiAzMDcuMzU3QzQxNiAzMTcuNTU5IDQwNC4zMjQgMzIzLjUxNCAzOTUuODM4IDMxNy42NzZMMzUyIDI4Ny40NzdWMjI0LjUxNEwzOTUuODM4IDE5NC4yNzdDNDA0LjM2MyAxODguNDM0IDQxNiAxOTQuNDM0IDQxNiAyMDQuNTk2VjMwNy4zNTdaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function CircleVideo(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M256 16C123.451 16 16 123.451 16 256S123.451 496 256 496S496 388.549 496 256S388.549 16 256 16ZM320 328C320 341.254 309.254 352 296 352H152C138.746 352 128 341.254 128 328V184C128 170.744 138.746 160 152 160H296C309.254 160 320 170.744 320 184V328ZM416 307.357C416 317.559 404.324 323.514 395.838 317.676L352 287.477V224.514L395.838 194.277C404.363 188.434 416 194.434 416 204.596V307.357Z" />
         </Icon>
     </>
 }
-    

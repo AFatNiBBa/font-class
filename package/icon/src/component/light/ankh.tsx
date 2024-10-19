@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `ankh` icon from the `light` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/ankh?s=light ankh}
+ * @preview ![ankh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMDQgMjg4SDIxNS4zNzVDMjUyLjI1IDI1MiAyODggMTkxLjYyNSAyODggMTM3LjEyNUMyODggNTMgMjMwLjc1IDAgMTYwIDBTMzIgNTMgMzIgMTM3LjEyNUMzMiAxOTEuNjI1IDY3Ljc1IDI1MiAxMDQuNjI1IDI4OEgxNkM3LjE5OSAyODggMCAyOTUuMTk5IDAgMzA0UzcuMTk5IDMyMCAxNiAzMjBIMTQ0VjQ5NkMxNDQgNTA0LjgwMSAxNTEuMTk5IDUxMiAxNjAgNTEyUzE3NiA1MDQuODAxIDE3NiA0OTZWMzIwSDMwNEMzMTIuODAxIDMyMCAzMjAgMzEyLjgwMSAzMjAgMzA0UzMxMi44MDEgMjg4IDMwNCAyODhaTTE2MC4yNSAyODhIMTYwLjEyNUMxMzkuMjUgMjg2LjEyNSA2NCAyMDguODc1IDY0IDEzNy4xMjVDNjQgNzUuMjUgMTAzLjUgMzIgMTYwIDMyUzI1NiA3NS4yNSAyNTYgMTM3LjEyNUMyNTYgMjA4Ljg3NSAxODAuNzUgMjg2LjEyNSAxNjAuMjUgMjg4WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Ankh(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 320 512" {...props}>
+            <path d="M304 288H215.375C252.25 252 288 191.625 288 137.125C288 53 230.75 0 160 0S32 53 32 137.125C32 191.625 67.75 252 104.625 288H16C7.199 288 0 295.199 0 304S7.199 320 16 320H144V496C144 504.801 151.199 512 160 512S176 504.801 176 496V320H304C312.801 320 320 312.801 320 304S312.801 288 304 288ZM160.25 288H160.125C139.25 286.125 64 208.875 64 137.125C64 75.25 103.5 32 160 32S256 75.25 256 137.125C256 208.875 180.75 286.125 160.25 288Z" />
         </Icon>
     </>
 }
-    

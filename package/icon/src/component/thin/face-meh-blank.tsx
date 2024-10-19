@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `face-meh-blank` icon from the `thin` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/face-meh-blank?s=thin face-meh-blank}
+ * @preview ![face-meh-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0xNzYgMTkyQzE2Ny4xNTYgMTkyIDE2MCAxOTkuMTQ4IDE2MCAyMDhTMTY3LjE1NiAyMjQgMTc2IDIyNFMxOTIgMjE2Ljg1MiAxOTIgMjA4UzE4NC44NDQgMTkyIDE3NiAxOTJaTTMzNiAxOTJDMzI3LjE1NiAxOTIgMzIwIDE5OS4xNDggMzIwIDIwOFMzMjcuMTU2IDIyNCAzMzYgMjI0UzM1MiAyMTYuODUyIDM1MiAyMDhTMzQ0Ljg0NCAxOTIgMzM2IDE5MlpNMjU2IDE2QzEyMy40MTggMTYgMTYgMTIzLjQyMiAxNiAyNTZTMTIzLjQxOCA0OTYgMjU2IDQ5NlM0OTYgMzg4LjU3OCA0OTYgMjU2UzM4OC41ODIgMTYgMjU2IDE2Wk0yNTYgNDgwQzEzMi40ODQgNDgwIDMyIDM3OS41MTYgMzIgMjU2UzEzMi40ODQgMzIgMjU2IDMyUzQ4MCAxMzIuNDg0IDQ4MCAyNTZTMzc5LjUxNiA0ODAgMjU2IDQ4MFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function FaceMehBlank(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M176 192C167.156 192 160 199.148 160 208S167.156 224 176 224S192 216.852 192 208S184.844 192 176 192ZM336 192C327.156 192 320 199.148 320 208S327.156 224 336 224S352 216.852 352 208S344.844 192 336 192ZM256 16C123.418 16 16 123.422 16 256S123.418 496 256 496S496 388.578 496 256S388.582 16 256 16ZM256 480C132.484 480 32 379.516 32 256S132.484 32 256 32S480 132.484 480 256S379.516 480 256 480Z" />
         </Icon>
     </>
 }
-    

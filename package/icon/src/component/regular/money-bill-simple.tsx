@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `money-bill-simple` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/money-bill-simple?s=regular money-bill-simple}
+ * @preview ![money-bill-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01MTIgNjRINjRDMjguNjU0IDY0IDAgOTIuNjUyIDAgMTI4VjM4NEMwIDQxOS4zNDYgMjguNjU0IDQ0OCA2NCA0NDhINTEyQzU0Ny4zNDggNDQ4IDU3NiA0MTkuMzQ2IDU3NiAzODRWMTI4QzU3NiA5Mi42NTIgNTQ3LjM0OCA2NCA1MTIgNjRaTTUyOCAzODRDNTI4IDM5Mi44MjIgNTIwLjgyMiA0MDAgNTEyIDQwMEg2NEM1NS4xNzggNDAwIDQ4IDM5Mi44MjIgNDggMzg0VjEyOEM0OCAxMTkuMTc4IDU1LjE3OCAxMTIgNjQgMTEySDUxMkM1MjAuODIyIDExMiA1MjggMTE5LjE3OCA1MjggMTI4VjM4NFpNMzY4IDI1NkMzNjggMzA5LjAxOCAzMzIuMTg0IDM1MiAyODggMzUyUzIwOCAzMDkuMDE4IDIwOCAyNTZDMjA4IDIwMi45OCAyNDMuODE2IDE2MCAyODggMTYwUzM2OCAyMDIuOTggMzY4IDI1NloiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function MoneyBillSimple(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 576 512" {...props}>
+            <path d="M512 64H64C28.654 64 0 92.652 0 128V384C0 419.346 28.654 448 64 448H512C547.348 448 576 419.346 576 384V128C576 92.652 547.348 64 512 64ZM528 384C528 392.822 520.822 400 512 400H64C55.178 400 48 392.822 48 384V128C48 119.178 55.178 112 64 112H512C520.822 112 528 119.178 528 128V384ZM368 256C368 309.018 332.184 352 288 352S208 309.018 208 256C208 202.98 243.816 160 288 160S368 202.98 368 256Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `e` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/e?s=regular e}
+ * @preview ![e](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMjAgNDQ4QzMyMCA0NjUuNjg4IDMwNS42NzIgNDgwIDI4OCA0ODBIMzJDMTQuMzI4IDQ4MCAwIDQ2NS42ODggMCA0NDhWNjRDMCA0Ni4zMTIgMTQuMzI4IDMyIDMyIDMySDI4OEMzMDUuNjcyIDMyIDMyMCA0Ni4zMTIgMzIwIDY0UzMwNS42NzIgOTYgMjg4IDk2SDY0VjIyNC45MjJDNjUuNTU5IDIyNC42OTEgNjYuOTU1IDIyNCA2OC41NzggMjI0SDIyNEMyNDEuNjcyIDIyNCAyNTYgMjM4LjMxMiAyNTYgMjU2UzI0MS42NzIgMjg4IDIyNCAyODhINjguNTc4QzY2Ljk1NSAyODggNjUuNTU5IDI4Ny4zMDkgNjQgMjg3LjA3OFY0MTZIMjg4QzMwNS42NzIgNDE2IDMyMCA0MzAuMzEyIDMyMCA0NDhaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function E(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 320 512" {...props}>
+            <path d="M320 448C320 465.688 305.672 480 288 480H32C14.328 480 0 465.688 0 448V64C0 46.312 14.328 32 32 32H288C305.672 32 320 46.312 320 64S305.672 96 288 96H64V224.922C65.559 224.691 66.955 224 68.578 224H224C241.672 224 256 238.312 256 256S241.672 288 224 288H68.578C66.955 288 65.559 287.309 64 287.078V416H288C305.672 416 320 430.312 320 448Z" />
         </Icon>
     </>
 }
-    

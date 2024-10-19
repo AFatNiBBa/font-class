@@ -2,11 +2,16 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `eject` icon from the `duotone` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/eject?s=duotone eject}
+ * @preview ![eject](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQ0Ny45NjUgNDMyLjAxVjQzMi4wMUM0NDcuOTY1IDQ1OC40MDQgNDI2LjM2OSA0ODAgMzk5Ljk3NSA0ODBINDcuOTg2QzIxLjU5NCA0ODAgMCA0NTguNDA2IDAgNDMyLjAxNFY0MzIuMDE0QzAgNDA1LjYxOSAyMS41OTYgMzg0LjAyMyA0Ny45OSAzODQuMDIzSDM5OS45NzlDNDI2LjM3MSAzODQuMDIzIDQ0Ny45NjUgNDA1LjYxNyA0NDcuOTY1IDQzMi4wMVoiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNNDguMDEzIDMxOS45ODhIMzk5Ljk4NkM0NDEuNjA3IDMxOS45ODggNDYzLjQ4IDI3MC4zNTkgNDM1LjM1OSAyMzkuNjA3TDI1OS4zNzMgNDcuNDY5QzI0MC4zNzMgMjYuODQ0IDIwNy42MjcgMjYuODQ0IDE4OC42MjcgNDcuNDY5TDEyLjY0IDIzOS42MDdDLTE1LjQ4MSAyNzAuMjM0IDYuMzkyIDMxOS45ODggNDguMDEzIDMxOS45ODhaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function Eject(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path opacity={.4} d="M447.965 432.01V432.01C447.965 458.404 426.369 480 399.975 480H47.986C21.594 480 0 458.406 0 432.014V432.014C0 405.619 21.596 384.023 47.99 384.023H399.979C426.371 384.023 447.965 405.617 447.965 432.01Z" />
+            <path d="M48.013 319.988H399.986C441.607 319.988 463.48 270.359 435.359 239.607L259.373 47.469C240.373 26.844 207.627 26.844 188.627 47.469L12.64 239.607C-15.481 270.234 6.392 319.988 48.013 319.988Z" />
         </Icon>
     </>
 }
-    

@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `square-chevron-up` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/square-chevron-up?s=solid square-chevron-up}
+ * @preview ![square-chevron-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMzJINjRDMjguNjU2IDMyIDAgNjAuNjU2IDAgOTZWNDE2QzAgNDUxLjM0OCAyOC42NTYgNDgwIDY0IDQ4MEgzODRDNDE5LjM0NCA0ODAgNDQ4IDQ1MS4zNDggNDQ4IDQxNlY5NkM0NDggNjAuNjU2IDQxOS4zNDQgMzIgMzg0IDMyWk0zNTguNjI1IDMyNi42MjVDMzQ2LjEyNSAzMzkuMTI1IDMyNS44NzUgMzM5LjEyNSAzMTMuMzc1IDMyNi42MjVMMjI0IDIzNy4yNUwxMzQuNjI1IDMyNi42MjVDMTIyLjEyNSAzMzkuMTI1IDEwMS44NzUgMzM5LjEyNSA4OS4zNzUgMzI2LjYyNVM3Ni44NzUgMjkzLjg3NSA4OS4zNzUgMjgxLjM3NUwyMDEuMzc1IDE2OS4zNzVDMjA3LjYyNSAxNjMuMTI1IDIxNS44MTIgMTYwIDIyNCAxNjBTMjQwLjM3NSAxNjMuMTI1IDI0Ni42MjUgMTY5LjM3NUwzNTguNjI1IDI4MS4zNzVDMzcxLjEyNSAyOTMuODc1IDM3MS4xMjUgMzE0LjEyNSAzNTguNjI1IDMyNi42MjVaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function SquareChevronUp(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M384 32H64C28.656 32 0 60.656 0 96V416C0 451.348 28.656 480 64 480H384C419.344 480 448 451.348 448 416V96C448 60.656 419.344 32 384 32ZM358.625 326.625C346.125 339.125 325.875 339.125 313.375 326.625L224 237.25L134.625 326.625C122.125 339.125 101.875 339.125 89.375 326.625S76.875 293.875 89.375 281.375L201.375 169.375C207.625 163.125 215.812 160 224 160S240.375 163.125 246.625 169.375L358.625 281.375C371.125 293.875 371.125 314.125 358.625 326.625Z" />
         </Icon>
     </>
 }
-    

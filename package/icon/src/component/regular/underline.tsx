@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `underline` icon from the `regular` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/underline?s=regular underline}
+ * @preview ![underline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00MCA0OEg2NFYyNDBDNjQgMzI4LjIxOSAxMzUuNzgxIDQwMCAyMjQgNDAwUzM4NCAzMjguMjE5IDM4NCAyNDBWNDhINDA4QzQyMS4yNSA0OCA0MzIgMzcuMjUgNDMyIDI0UzQyMS4yNSAwIDQwOCAwSDMxMkMyOTguNzUgMCAyODggMTAuNzUgMjg4IDI0UzI5OC43NSA0OCAzMTIgNDhIMzM2VjI0MEMzMzYgMzAxLjc1IDI4NS43NSAzNTIgMjI0IDM1MlMxMTIgMzAxLjc1IDExMiAyNDBWNDhIMTM2QzE0OS4yNSA0OCAxNjAgMzcuMjUgMTYwIDI0UzE0OS4yNSAwIDEzNiAwSDQwQzI2Ljc1IDAgMTYgMTAuNzUgMTYgMjRTMjYuNzUgNDggNDAgNDhaTTQyNCA0NjRIMjRDMTAuNzUgNDY0IDAgNDc0Ljc1IDAgNDg4UzEwLjc1IDUxMiAyNCA1MTJINDI0QzQzNy4yNSA1MTIgNDQ4IDUwMS4yNSA0NDggNDg4UzQzNy4yNSA0NjQgNDI0IDQ2NFoiLz48L3N2Zz4=|width=32|height=32)
+ */
 export default function Underline(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 448 512" {...props}>
+            <path d="M40 48H64V240C64 328.219 135.781 400 224 400S384 328.219 384 240V48H408C421.25 48 432 37.25 432 24S421.25 0 408 0H312C298.75 0 288 10.75 288 24S298.75 48 312 48H336V240C336 301.75 285.75 352 224 352S112 301.75 112 240V48H136C149.25 48 160 37.25 160 24S149.25 0 136 0H40C26.75 0 16 10.75 16 24S26.75 48 40 48ZM424 464H24C10.75 464 0 474.75 0 488S10.75 512 24 512H424C437.25 512 448 501.25 448 488S437.25 464 424 464Z" />
         </Icon>
     </>
 }
-    

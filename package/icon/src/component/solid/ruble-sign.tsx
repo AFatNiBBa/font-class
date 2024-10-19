@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `ruble-sign` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/ruble-sign?s=solid ruble-sign}
+ * @preview ![ruble-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNDAgMzIwQzMxOS40MDYgMzIwIDM4NCAyNTUuNDA2IDM4NCAxNzZTMzE5LjQwNiAzMiAyNDAgMzJIMTA0QzgxLjkwNiAzMiA2NCA0OS45MDYgNjQgNzJWMjQwSDQwQzE3LjkwNiAyNDAgMCAyNTcuOTA2IDAgMjgwUzE3LjkwNiAzMjAgNDAgMzIwSDY0VjM1MkgzMkMxNC4zMjggMzUyIDAgMzY2LjMyOCAwIDM4NFMxNC4zMjggNDE2IDMyIDQxNkg2NFY0NDBDNjQgNDYyLjA5NCA4MS45MDYgNDgwIDEwNCA0ODBTMTQ0IDQ2Mi4wOTQgMTQ0IDQ0MFY0MTZIMjg4QzMwNS42NzIgNDE2IDMyMCA0MDEuNjcyIDMyMCAzODRTMzA1LjY3MiAzNTIgMjg4IDM1MkgxNDRWMzIwSDI0MFpNMTQ0IDExMkgyNDBDMjc1LjI5NyAxMTIgMzA0IDE0MC43MDMgMzA0IDE3NlMyNzUuMjk3IDI0MCAyNDAgMjQwSDE0NFYxMTJaIi8+PC9zdmc+|width=32|height=32)
+ */
 export default function RubleSign(props: ComponentProps<typeof Icon>) {
     return <>
-        <Icon {...props}>
-            
+        <Icon viewBox="0 0 384 512" {...props}>
+            <path d="M240 320C319.406 320 384 255.406 384 176S319.406 32 240 32H104C81.906 32 64 49.906 64 72V240H40C17.906 240 0 257.906 0 280S17.906 320 40 320H64V352H32C14.328 352 0 366.328 0 384S14.328 416 32 416H64V440C64 462.094 81.906 480 104 480S144 462.094 144 440V416H288C305.672 416 320 401.672 320 384S305.672 352 288 352H144V320H240ZM144 112H240C275.297 112 304 140.703 304 176S275.297 240 240 240H144V112Z" />
         </Icon>
     </>
 }
-    

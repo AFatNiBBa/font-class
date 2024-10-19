@@ -2,11 +2,15 @@
 import { ComponentProps } from "solid-js";
 import { Icon } from "../../index";
 
+/**
+ * A component that renders the `flower-tulip` icon from the `solid` section of Font Awesome 6 Pro
+ * @see {@link https://fontawesome.com/icons/flower-tulip?s=solid flower-tulip}
+ * @preview ![flower-tulip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01MTEuOTE0IDMzNi44NzVDNTAyLjAzOCA0MzUgNDA1LjY0OCA1MTIgMjg4LjEzIDUxMkgyMjMuODdDMTA2LjM1MiA1MTIgOS45NjIgNDM1IDAuMDg2IDMzNi44NzVDLTAuOTE0IDMyNy43NSA2Ljk2MiAzMjAgMTYuMDg4IDMyMEg2My4zNDZDMTI2LjM1NSAzMjAgMTgzLjIzOSAzNDIuMjUgMjIzLjk5NSAzNzcuODc1VjI1NkMxNTMuMjM0IDI1NiA5NS45NzYgMTk4Ljc1IDk1Ljk3NiAxMjhWMzJMMTc1Ljk4OCA4MEwyNTcuMTI1IDBMMzM2LjAxMiA4MEw0MTYuMDI0IDMyVjEyOEM0MTYuMDI0IDE5OC43NSAzNTguNzY2IDI1NiAyODguMDA1IDI1NlYzNzcuODc1QzMyOC43NjEgMzQyLjI1IDM4NS42NDUgMzIwIDQ0OC42NTQgMzIwSDQ5NS45MTJDNTA1LjAzOCAzMjAgNTEyLjkxNCAzMjcuNzUgNTExLjkxNCAzMzYuODc1WiIvPjwvc3ZnPg==|width=32|height=32)
+ */
 export default function FlowerTulip(props: ComponentProps<typeof Icon>) {
     return <>
         <Icon {...props}>
-            
+            <path d="M511.914 336.875C502.038 435 405.648 512 288.13 512H223.87C106.352 512 9.962 435 0.086 336.875C-0.914 327.75 6.962 320 16.088 320H63.346C126.355 320 183.239 342.25 223.995 377.875V256C153.234 256 95.976 198.75 95.976 128V32L175.988 80L257.125 0L336.012 80L416.024 32V128C416.024 198.75 358.766 256 288.005 256V377.875C328.761 342.25 385.645 320 448.654 320H495.912C505.038 320 512.914 327.75 511.914 336.875Z" />
         </Icon>
     </>
 }
-    
