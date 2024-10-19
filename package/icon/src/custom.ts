@@ -1,4 +1,7 @@
 
+import type anim from "./style/anim.module.scss";
+import type generic from "./style/generic.module.scss";
+
 /** The prefix of the customization CSS variables */
 export const CSS_VARIABLE_PREFIX = "--solid-fa6-pro-";
 
@@ -35,50 +38,50 @@ export interface IconOpts {
     animationTimingFunction?: string;
 
     /** Custom override of the scale for the {@link anim.beat} animation */
-    beatScale?: string;
+    beatScale?: number | string;
     
     /** Custom override of the horizontal start scale for the {@link anim.bounce} animation */
-    bounceStartScaleX?: string;
+    bounceStartScaleX?: number | string;
     
     /** Custom override of the vertical start scale for the {@link anim.bounce} animation */
-    bounceStartScaleY?: string;
+    bounceStartScaleY?: number | string;
     
     /** Custom override of the horizontal jump scale for the {@link anim.bounce} animation */
-    bounceJumpScaleX?: string;
+    bounceJumpScaleX?: number | string;
     
     /** Custom override of the vertical jump scale for the {@link anim.bounce} animation */
-    bounceJumpScaleY?: string;
+    bounceJumpScaleY?: number | string;
     
     /** Custom override of the jump height for the {@link anim.bounce} animation */
-    bounceJumpHeight?: string;
+    bounceJumpHeight?: number | string;
     
     /** Custom override of the horizontal land scale for the {@link anim.bounce} animation */
-    bounceLandScaleX?: string;
+    bounceLandScaleX?: number | string;
     
     /** Custom override of the vertical land scale for the {@link anim.bounce} animation */
-    bounceLandScaleY?: string;
+    bounceLandScaleY?: number | string;
     
     /** Custom override of the rebound for the {@link anim.bounce} animation */
-    bounceRebound?: string;
+    bounceRebound?: number | string;
     
     /** Custom override of the opacity for the {@link anim.fade} animation */
-    fadeOpacity?: string;
+    fadeOpacity?: number | string;
     
     /** Custom override of the opacity for the {@link anim.beat} animation */
-    beatFadeOpacity?: string;
+    beatFadeOpacity?: number | string;
     
     /** Custom override of the scale for the {@link anim.beat} animation */
-    beatFadeScale?: string;
+    beatFadeScale?: number | string;
     
     /** Custom override of the X component of the rotation axis vector for the {@link anim.flip} animation */
-    flipX?: string;
+    flipX?: number | string;
     
     /** Custom override of the Y component of the rotation axis vector for the {@link anim.flip} animation */
-    flipY?: string;
+    flipY?: number | string;
     
     /** Custom override of the Z component of the rotation axis vector for the {@link anim.flip} animation */
-    flipZ?: string;
+    flipZ?: number | string;
     
     /** Custom override of the rotation angle for the {@link anim.flip} animation */
-    flipAngle?: string;
+    flipAngle?: number | string;
 }
