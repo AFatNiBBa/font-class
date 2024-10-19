@@ -52,24 +52,24 @@ export async function svgToComponentEntry(source: string, dest: string, input: s
  */
 export function svgToComponent(name: string, nameSpace: string, source: string) {
     const info = parseSvg(source);
+    const identifier = sanitize(name);
     const children = info.path.map(x => `<path ${x.isSecondary ? "class={generic.secondary} " : ""}d="${x.d}" />`);
     const sep = `\n${" ".repeat(12)}`;
     return dedent`
 
-        import { Icon, generic } from "../../index";
-        import { ComponentProps } from "solid-js";
+        import { Icon${info.path.some(x => x.isSecondary) ? ", generic" : ""} } from "../../index";
 
         /**
          * A component that renders the \`${name}\` icon from the \`${nameSpace}\` section of Font Awesome 6 Pro
          * @see {@link https://fontawesome.com/icons/${name}?s=${nameSpace} ${name}}
          * @preview ![${name}](data:image/svg+xml;base64,${btoa(source)}|width=32|height=32)
          */
-        export default function ${sanitize(name)}(props: ComponentProps<typeof Icon>) {
-            return <>
-                <Icon ${info.viewBox ? `viewBox="${info.viewBox}" ` : ""}{...props}>
-                    ${children.join(sep)}
-                </Icon>
-            </>
-        }
+        const ${identifier}: typeof Icon = x => (
+            <Icon ${info.viewBox ? `viewBox="${info.viewBox}" ` : ""}{...x}>
+                ${children.join(sep)}
+            </Icon>
+        );
+
+        export default ${identifier};
     `;
 }
