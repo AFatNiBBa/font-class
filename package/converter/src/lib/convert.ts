@@ -40,7 +40,7 @@ export async function svgToComponentEntry(source: string, dest: string, input: s
     const name = basename(input, extname(input)), output = `${name}.tsx`;
     const svg = await readFile(sub);
     const component = svgToComponent(name, basename(dest), svg.toString());
-    if (!exists(dest)) await mkdir(dest, { recursive: true });
+    if (!await exists(dest)) await mkdir(dest, { recursive: true });
     await writeFile(join(dest, output), component);
 }
 
@@ -60,7 +60,7 @@ export function svgToComponent(name: string, nameSpace: string, source: string) 
         import { Icon${info.path.some(x => x.isSecondary) ? ", generic" : ""} } from "../../index";
 
         /**
-         * A component that renders the \`${name}\` icon from the \`${nameSpace}\` section of Font Awesome 6 Pro
+         * A component that renders the \`${name}\` icon from the \`${nameSpace}\` section of Font Awesome 6.6 Pro
          * @see {@link https://fontawesome.com/icons/${name}?s=${nameSpace} ${name}}
          * @preview ![${name}](data:image/svg+xml;base64,${btoa(source)}|width=32|height=32)
          */
