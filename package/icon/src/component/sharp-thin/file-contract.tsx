@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `file-contract` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/file-contract?s=sharp-thin file-contract}
+ * @preview ![file-contract](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2TDE2IDE2bDE5MiAwIDAgMTUyIDAgOCA4IDAgMTUyIDAgMCAzMjBMMTYgNDk2ek0yMjQgMjIuNkwzNjEuNCAxNjAgMjI0IDE2MGwwLTEzNy40ek0yMjQgMEwxNiAwIDAgMCAwIDE2IDAgNDk2bDAgMTYgMTYgMCAzNTIgMCAxNiAwIDAtMTYgMC0zMzZMMjI0IDB6TTcyIDY0bC04IDAgMCAxNiA4IDAgODAgMCA4IDAgMC0xNi04IDBMNzIgNjR6bTAgNjRsLTggMCAwIDE2IDggMCA4MCAwIDggMCAwLTE2LTggMC04MCAwem00OCAxNjhsLTYuMSAwLTEuNiA1LjlMODkuOSAzODQgNjQgMzg0bC04IDAgMCAxNiA4IDAgMzIgMCA2LjEgMCAxLjYtNS45TDEyNi4xIDMxMmwzLjggMCAyMi40IDgyLjEgMS42IDUuOSA2LjEgMCA4IDAgNC42IDAgMi4zLTQgMjkuNy01MiAxNC43IDAgMjkuNyA1MiAyLjMgNCA0LjYgMCA2NCAwIDggMCAwLTE2LTggMC01OS40IDAtMjkuNy01Mi0yLjMtNC00LjYgMC0yNCAwLTQuNiAwLTIuMyA0LTI3LjggNDguNy0yMS41LTc4LjgtMS42LTUuOS02LjEgMC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const FileContract: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M16 496L16 16l192 0 0 152 0 8 8 0 152 0 0 320L16 496zM224 22.6L361.4 160 224 160l0-137.4zM224 0L16 0 0 0 0 16 0 496l0 16 16 0 352 0 16 0 0-16 0-336L224 0zM72 64l-8 0 0 16 8 0 80 0 8 0 0-16-8 0L72 64zm0 64l-8 0 0 16 8 0 80 0 8 0 0-16-8 0-80 0zm48 168l-6.1 0-1.6 5.9L89.9 384 64 384l-8 0 0 16 8 0 32 0 6.1 0 1.6-5.9L126.1 312l3.8 0 22.4 82.1 1.6 5.9 6.1 0 8 0 4.6 0 2.3-4 29.7-52 14.7 0 29.7 52 2.3 4 4.6 0 64 0 8 0 0-16-8 0-59.4 0-29.7-52-2.3-4-4.6 0-24 0-4.6 0-2.3 4-27.8 48.7-21.5-78.8-1.6-5.9-6.1 0-16 0z" />
+    </Icon>
+);
+
+export default FileContract;

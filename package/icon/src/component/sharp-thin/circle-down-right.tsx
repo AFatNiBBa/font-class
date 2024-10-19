@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `circle-down-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/circle-down-right?s=sharp-thin circle-down-right}
+ * @preview ![circle-down-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ5NmEyNDAgMjQwIDAgMSAxIDAtNDgwIDI0MCAyNDAgMCAxIDEgMCA0ODB6TTI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJBMjU2IDI1NiAwIDEgMCAyNTYgMHpNMTk1LjMgMzMyLjdMMTg0IDM0NGwxMS4zIDExLjNMMjA4IDM2OGwxNDQgMCAxNiAwIDAtMTYgMC0xNDQtMTIuNy0xMi43TDM0NCAxODRsLTExLjMgMTEuMy0yNS40IDI1LjRMMjk2IDIzMmwtMTEuMy0xMS4zLTczLjQtNzMuNEwyMDAgMTM2bC0xMS4zIDExLjMtNDEuNCA0MS40TDEzNiAyMDBsMTEuMyAxMS4zIDczLjQgNzMuNEwyMzIgMjk2bC0xMS4zIDExLjMtMjUuNCAyNS40em00OC00OEwxNTguNiAyMDAgMjAwIDE1OC42bDg0LjcgODQuN0wyOTYgMjU0LjZsMTEuMy0xMS4zTDM0NCAyMDYuNmw4IDhMMzUyIDM1MmwtMTM3LjQgMC04LTggMzYuNy0zNi43TDI1NC42IDI5NmwtMTEuMy0xMS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const CircleDownRight: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M256 496a240 240 0 1 1 0-480 240 240 0 1 1 0 480zM256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM195.3 332.7L184 344l11.3 11.3L208 368l144 0 16 0 0-16 0-144-12.7-12.7L344 184l-11.3 11.3-25.4 25.4L296 232l-11.3-11.3-73.4-73.4L200 136l-11.3 11.3-41.4 41.4L136 200l11.3 11.3 73.4 73.4L232 296l-11.3 11.3-25.4 25.4zm48-48L158.6 200 200 158.6l84.7 84.7L296 254.6l11.3-11.3L344 206.6l8 8L352 352l-137.4 0-8-8 36.7-36.7L254.6 296l-11.3-11.3z" />
+    </Icon>
+);
+
+export default CircleDownRight;

@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `patreon` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `patreon` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/patreon?s=brands patreon}
- * @preview ![patreon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01MTIgMTk0LjhjMCAxMDEuMy04Mi40IDE4My44LTE4My44IDE4My44LTEwMS43IDAtMTg0LjQtODIuNC0xODQuNC0xODMuOCAwLTEwMS42IDgyLjctMTg0LjMgMTg0LjQtMTg0LjNDNDI5LjYgMTAuNSA1MTIgOTMuMiA1MTIgMTk0Ljh6TTAgNTAxLjVoOTB2LTQ5MUgwdjQ5MXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![patreon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg5LjcgMTUzLjhjLS4xLTY1LjQtNTEtMTE5LTExMC43LTEzOC4zQzMwNC44LTguNSAyMDctNSAxMzYuMSAyOC40QzUwLjMgNjguOSAyMy4zIDE1Ny43IDIyLjMgMjQ2LjJDMjEuNSAzMTkgMjguNyA1MTAuNiAxMzYuOSA1MTJjODAuMyAxIDkyLjMtMTAyLjUgMTI5LjUtMTUyLjNjMjYuNC0zNS41IDYwLjUtNDUuNSAxMDIuNC01NS45YzcyLTE3LjggMTIxLjEtNzQuNyAxMjEtMTUweiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Patreon: typeof Icon = x => (
     <Icon {...x}>
-        <path d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z" />
+        <path d="M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4C50.3 68.9 23.3 157.7 22.3 246.2C21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3c26.4-35.5 60.5-45.5 102.4-55.9c72-17.8 121.1-74.7 121-150z" />
     </Icon>
 );
 

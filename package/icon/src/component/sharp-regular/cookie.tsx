@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `cookie` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/cookie?s=sharp-regular cookie}
+ * @preview ![cookie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE4IDEyMS43TDY2IDIyOS4xIDg2LjYgMzQ2LjggMTcyIDQyOS43bDExNy4zIDE2LjYgMTA0LjctNTZMNDQ2IDI4Mi45IDQyNS40IDE2NS4yIDM0MCA4Mi4zIDIyMi43IDY1LjcgMTE4IDEyMS43ek0yMTMuOSAxNkwzNjIuMiAzNyA0NzAgMTQxLjZsMjYgMTQ4LjNMNDMwLjMgNDI1LjMgMjk4LjEgNDk2IDE0OS44IDQ3NSA0MiAzNzAuNCAxNiAyMjIuMSA4MS43IDg2LjcgMjEzLjkgMTZ6TTMyMCAxNjBsLTMyLTMyIDMyLTMyIDMyIDMyLTMyIDMyek0xMjggMTkybDMyLTMyIDMyIDMyLTMyIDMyLTMyLTMyem0xNjAgOTZsLTMyLTMyIDMyLTMyIDMyIDMyLTMyIDMyem0tOTYgOTZsLTMyLTMyIDMyLTMyIDMyIDMyLTMyIDMyem0xMjgtMzJsMzItMzIgMzIgMzItMzIgMzItMzItMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Cookie: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M118 121.7L66 229.1 86.6 346.8 172 429.7l117.3 16.6 104.7-56L446 282.9 425.4 165.2 340 82.3 222.7 65.7 118 121.7zM213.9 16L362.2 37 470 141.6l26 148.3L430.3 425.3 298.1 496 149.8 475 42 370.4 16 222.1 81.7 86.7 213.9 16zM320 160l-32-32 32-32 32 32-32 32zM128 192l32-32 32 32-32 32-32-32zm160 96l-32-32 32-32 32 32-32 32zm-96 96l-32-32 32-32 32 32-32 32zm128-32l32-32 32 32-32 32-32-32z" />
+    </Icon>
+);
+
+export default Cookie;

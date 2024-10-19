@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `hand-back-point-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/hand-back-point-up?s=sharp-regular hand-back-point-up}
+ * @preview ![hand-back-point-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA0IDBMODAgMGwwIDI0IDAgMjI3LjItNTYuMSA1MUwxNiAzMDkuNCAxNiAzMjBsMCAzOC41YzAgNTQuMSAyOC43IDEwNC4xIDc1LjQgMTMxLjNsMi42IDEuNWMyMy4yIDEzLjYgNDkuNyAyMC43IDc2LjYgMjAuN0wyOTYgNTEyYzY2LjMgMCAxMjAtNTMuNyAxMjAtMTIwbDAtOCAwLTk2IDAtNDAgMC0yNC0yNCAwLTQwIDAgMC04IDAtMjQtMjQgMC00OCAwIDAtOCAwLTI0LTI0IDAtNDggMCAwLTEzNiAwLTI0TDE4NCAwIDEwNCAwek0yMzIgMjQwbDI0IDAgNDggMCAwIDggMCAyNCAyNCAwIDQwIDAgMCAxNiAwIDk2IDAgOGMwIDM5LjgtMzIuMiA3Mi03MiA3MmwtMTI1LjQgMGMtMTguNCAwLTM2LjUtNC45LTUyLjQtMTQuMmwtMTEuNyAyMCAxMS43LTIwLTIuNi0xLjVDODMuNiA0MjkuNyA2NCAzOTUuNSA2NCAzNTguNWwwLTI3LjkgMzItMjkuMUw5NiAzNDRsMCAxNiAzMiAwIDAtMTYgMC03MS42IDAtOC40IDAtMi4yIDAtMTMuOCAwLTIwMCAzMiAwIDAgMTM2IDAgMjQgMjQgMCA0OCAwIDAgOCAwIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const HandBackPointUp: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M104 0L80 0l0 24 0 227.2-56.1 51L16 309.4 16 320l0 38.5c0 54.1 28.7 104.1 75.4 131.3l2.6 1.5c23.2 13.6 49.7 20.7 76.6 20.7L296 512c66.3 0 120-53.7 120-120l0-8 0-96 0-40 0-24-24 0-40 0 0-8 0-24-24 0-48 0 0-8 0-24-24 0-48 0 0-136 0-24L184 0 104 0zM232 240l24 0 48 0 0 8 0 24 24 0 40 0 0 16 0 96 0 8c0 39.8-32.2 72-72 72l-125.4 0c-18.4 0-36.5-4.9-52.4-14.2l-11.7 20 11.7-20-2.6-1.5C83.6 429.7 64 395.5 64 358.5l0-27.9 32-29.1L96 344l0 16 32 0 0-16 0-71.6 0-8.4 0-2.2 0-13.8 0-200 32 0 0 136 0 24 24 0 48 0 0 8 0 24z" />
+    </Icon>
+);
+
+export default HandBackPointUp;

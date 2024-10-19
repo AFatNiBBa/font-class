@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `timeline` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/timeline?s=sharp-solid timeline}
+ * @preview ![timeline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDcybDAgNDgtNDggMCAwLTQ4IDQ4IDB6TTEwNCAxNkw0OCAxNmwwIDU2IDAgNDggMCA1NiA0OCAwIDAgNDgtNjQgMEwwIDIyNGwwIDY0IDMyIDAgMjU2IDAgMCA0OC00OCAwIDAgNTYgMCA0OCAwIDU2IDU2IDAgNDggMCA1NiAwIDAtNTYgMC00OCAwLTU2LTQ4IDAgMC00OCAyNTYgMCAzMiAwIDAtNjQtMzIgMC02NCAwIDAtNDggNDggMCAwLTU2IDAtNDggMC01Ni01NiAwLTQ4IDAtNTYgMCAwIDU2IDAgNDggMCA1NiA0OCAwIDAgNDgtMzIwIDAgMC00OCA0OCAwIDAtNTYgMC00OCAwLTU2LTU2IDAtNDggMHpNNDg4IDcybDQ4IDAgMCA0OC00OCAwIDAtNDh6TTM0NCAzOTJsMCA0OC00OCAwIDAtNDggNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Timeline: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M152 72l0 48-48 0 0-48 48 0zM104 16L48 16l0 56 0 48 0 56 48 0 0 48-64 0L0 224l0 64 32 0 256 0 0 48-48 0 0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-48 0 0-48 256 0 32 0 0-64-32 0-64 0 0-48 48 0 0-56 0-48 0-56-56 0-48 0-56 0 0 56 0 48 0 56 48 0 0 48-320 0 0-48 48 0 0-56 0-48 0-56-56 0-48 0zM488 72l48 0 0 48-48 0 0-48zM344 392l0 48-48 0 0-48 48 0z" />
+    </Icon>
+);
+
+export default Timeline;

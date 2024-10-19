@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `modx` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `modx` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/modx?s=brands modx}
- * @preview ![modx](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNTYgMjQxLjhsMzYuNyAyMy43VjQ4MGwtMTMzLTgzLjhMMzU2IDI0MS44ek00NDAgNzVIMjI2LjNsLTIzIDM3LjggMTUzLjUgOTYuNUw0NDAgNzV6bS04OSAxNDIuOEw1NS4yIDMydjIxNC41bDQ2IDI5TDM1MSAyMTcuOHpNOTcgMjk0LjJMOCA0MzdoMjEzLjdsMTI1LTIwMC41TDk3IDI5NC4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![modx](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzU2IDI0MS44bDM2LjcgMjMuN1Y0ODBsLTEzMy04My44TDM1NiAyNDEuOHpNNDQwIDc1SDIyNi4zbC0yMyAzNy44IDE1My41IDk2LjVMNDQwIDc1em0tODkgMTQyLjhMNTUuMiAzMnYyMTQuNWw0NiAyOUwzNTEgMjE3Ljh6TTk3IDI5NC4yTDggNDM3aDIxMy43bDEyNS0yMDAuNUw5NyAyOTQuMnoiLz48L3N2Zz4=|width=32|height=32)
  */
 const Modx: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

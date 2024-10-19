@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `honey-pot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/honey-pot?s=sharp-regular honey-pot}
+ * @preview ![honey-pot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDIyNGMwIDE3Ni0xMjggMjU2LTEyOCAyNTZsLTE5MiAwcy0xMjgtODAtMTI4LTI1NkMwIDE2Ni43IDI1LjEgMTE1LjIgNjUgODBsLTkgMEwzMiA4MGwwLTQ4IDI0IDAgNzIgMCA0OCAwIDE2IDAgNjQgMCAxMzYgMCAyNCAwIDAgNDgtMjQgMC05IDBjMzkuOSAzNS4yIDY1IDg2LjcgNjUgMTQ0ek00OCAyMjRsMzUyIDBjMC03OS41LTY0LjUtMTQ0LTE0NC0xNDRsLTY0IDBjLTUuNCAwLTEwLjcgLjMtMTYgLjlsMCA1NS4xIDAgMjQtNDggMCAwLTI0IDAtNDFjLTQ3LjQgMjMuNi04MCA3Mi41LTgwIDEyOXpNNzguNiAzNTJjNy40IDE0IDE1LjUgMjYuMyAyMy42IDM2LjljMTMuNiAxNy44IDI3LjEgMzAuOSAzNyAzOS4zYzEuNiAxLjQgMy4xIDIuNiA0LjUgMy43bDE2MC42IDBjMS40LTEuMSAyLjktMi40IDQuNS0zLjdjOS45LTguNSAyMy40LTIxLjUgMzctMzkuM2M4LjEtMTAuNiAxNi4yLTIyLjkgMjMuNi0zNi45TDc4LjYgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const HoneyPot: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M448 224c0 176-128 256-128 256l-192 0s-128-80-128-256C0 166.7 25.1 115.2 65 80l-9 0L32 80l0-48 24 0 72 0 48 0 16 0 64 0 136 0 24 0 0 48-24 0-9 0c39.9 35.2 65 86.7 65 144zM48 224l352 0c0-79.5-64.5-144-144-144l-64 0c-5.4 0-10.7 .3-16 .9l0 55.1 0 24-48 0 0-24 0-41c-47.4 23.6-80 72.5-80 129zM78.6 352c7.4 14 15.5 26.3 23.6 36.9c13.6 17.8 27.1 30.9 37 39.3c1.6 1.4 3.1 2.6 4.5 3.7l160.6 0c1.4-1.1 2.9-2.4 4.5-3.7c9.9-8.5 23.4-21.5 37-39.3c8.1-10.6 16.2-22.9 23.6-36.9L78.6 352z" />
+    </Icon>
+);
+
+export default HoneyPot;

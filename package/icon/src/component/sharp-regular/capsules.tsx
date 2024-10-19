@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `capsules` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/capsules?s=sharp-regular capsules}
+ * @preview ![capsules](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTQ0YzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRsMCAxMTJMNDggMjU2bDAtMTEyek0wIDE0NEwwIDM2OGMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMnMxMTItNTAuMSAxMTItMTEybDAtMTc4LjRjMS44IDE5LjEgOC4yIDM4IDE5LjggNTQuOEwzNzIuMyA0MzEuN2MzNS41IDUxLjcgMTA1LjMgNjQuMyAxNTYgMjguMXM2My0xMDcuNSAyNy41LTE1OS4yTDQyNy4zIDExMy4zQzM5MS44IDYxLjUgMzIxLjkgNDkgMjcxLjMgODUuMmMtMjggMjAtNDQuMyA1MC44LTQ3LjMgODNsMC0yNC4yYzAtNjEuOS01MC4xLTExMi0xMTItMTEyUzAgODIuMSAwIDE0NHptMjgzLjQgNzMuM2MtMjAuOS0zMC40LTEzLjMtNzIuMiAxNS44LTkzYzI4LjUtMjAuNCA2OC0xMy43IDg4LjUgMTYuMmw2Ni45IDk3LjVMMzQ4LjUgMzEyLjJsLTY1LjEtOTQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Capsules: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M48 144c0-35.3 28.7-64 64-64s64 28.7 64 64l0 112L48 256l0-112zM0 144L0 368c0 61.9 50.1 112 112 112s112-50.1 112-112l0-178.4c1.8 19.1 8.2 38 19.8 54.8L372.3 431.7c35.5 51.7 105.3 64.3 156 28.1s63-107.5 27.5-159.2L427.3 113.3C391.8 61.5 321.9 49 271.3 85.2c-28 20-44.3 50.8-47.3 83l0-24.2c0-61.9-50.1-112-112-112S0 82.1 0 144zm283.4 73.3c-20.9-30.4-13.3-72.2 15.8-93c28.5-20.4 68-13.7 88.5 16.2l66.9 97.5L348.5 312.2l-65.1-94.9z" />
+    </Icon>
+);
+
+export default Capsules;

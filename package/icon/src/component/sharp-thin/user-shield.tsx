@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `user-shield` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/user-shield?s=sharp-thin user-shield}
+ * @preview ![user-shield](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE2YTExMiAxMTIgMCAxIDEgMCAyMjQgMTEyIDExMiAwIDEgMSAwLTIyNHpNNzUuOCAzMjBsMjQ1LjMgMGMtLjUtNS40LS44LTEwLjctMS0xNkw2NCAzMDQgNC45IDQ5NiAwIDUxMmwxNi43IDAgNDA5LjQgMGMtNy01LTEzLjctMTAuMy0xOS45LTE2TDIxLjcgNDk2IDc1LjggMzIwek0zNTIgMTI4QTEyOCAxMjggMCAxIDAgOTYgMTI4YTEyOCAxMjggMCAxIDAgMjU2IDB6TTYyNCAyOTAuN2wwIDUuM2MwIDc2LjktNDAuOSAxNjIuNC0xMjAgMTk1LjlsMC0yNDcuNiAxMjAgNDYuNXptLTI1NiAwbDEyMC00Ni41IDAgMjQ3LjZjLTc5LjEtMzMuNS0xMjAtMTE5LTEyMC0xOTUuOWwwLTUuM3pNNDk2IDUxMmM5Ni0zMiAxNDQtMTMwLjIgMTQ0LTIxNmwwLTE2LjJMNDk2IDIyNCAzNTIgMjc5LjhsMCAxNi4yYzAgODUuOCA0OCAxODQgMTQ0IDIxNnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const UserShield: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M224 16a112 112 0 1 1 0 224 112 112 0 1 1 0-224zM75.8 320l245.3 0c-.5-5.4-.8-10.7-1-16L64 304 4.9 496 0 512l16.7 0 409.4 0c-7-5-13.7-10.3-19.9-16L21.7 496 75.8 320zM352 128A128 128 0 1 0 96 128a128 128 0 1 0 256 0zM624 290.7l0 5.3c0 76.9-40.9 162.4-120 195.9l0-247.6 120 46.5zm-256 0l120-46.5 0 247.6c-79.1-33.5-120-119-120-195.9l0-5.3zM496 512c96-32 144-130.2 144-216l0-16.2L496 224 352 279.8l0 16.2c0 85.8 48 184 144 216z" />
+    </Icon>
+);
+
+export default UserShield;

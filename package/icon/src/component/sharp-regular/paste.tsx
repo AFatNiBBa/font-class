@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `paste` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/paste?s=sharp-regular paste}
+ * @preview ![paste](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTZsMCA0OCA4MCAwIDAtMTYgMC0zMiAzMiAwIDY0IDAgMTYgMCA0OCAwIDAtNDgtNDggMC01Ni42IDBDMjExLjYgMjAuOSAxODguMiAwIDE2MCAwcy01MS42IDIwLjktNTUuNCA0OEw0OCA0OCAwIDQ4IDAgOTYgMCA0MDBsMCA0OCA0OCAwIDExMiAwIDAtNDhMNDggNDAwIDQ4IDk2bDMyIDB6bTY0LTQwYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6TTQ2NCA0NjRsLTIyNCAwIDAtMjg4IDE1Ni4xIDBMNDY0IDI0My45IDQ2NCA0NjR6bTQ4LTI0MGwtOTYtOTYtMTc2IDAtNDggMCAwIDQ4IDAgMjg4IDAgNDggNDggMCAyMjQgMCA0OCAwIDAtNDggMC0yNDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Paste: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M80 96l0 48 80 0 0-16 0-32 32 0 64 0 16 0 48 0 0-48-48 0-56.6 0C211.6 20.9 188.2 0 160 0s-51.6 20.9-55.4 48L48 48 0 48 0 96 0 400l0 48 48 0 112 0 0-48L48 400 48 96l32 0zm64-40a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM464 464l-224 0 0-288 156.1 0L464 243.9 464 464zm48-240l-96-96-176 0-48 0 0 48 0 288 0 48 48 0 224 0 48 0 0-48 0-240z" />
+    </Icon>
+);
+
+export default Paste;

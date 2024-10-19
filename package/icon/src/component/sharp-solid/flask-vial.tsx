@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `flask-vial` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/flask-vial?s=sharp-solid flask-vial}
+ * @preview ![flask-vial](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBsMzIgMCAwIDY0LTMyIDAgMCAyNDUuOS01OS4zIDk2LjMtNC43IDcuNyAwIDkuMSAwIDE5LjZjLTEwIDMuNS0yMC44IDUuNS0zMiA1LjVjLTUzIDAtOTYtNDMtOTYtOTZMMzIgNjQgMCA2NCAwIDAgMzIgMCA5NiAwbDY0IDAgNjQgMHpNMTk2LjcgNDE1LjJMMjIxIDM3NS44bDk5LTE2MC44TDMyMCA2NGwtMzIgMCAwLTY0IDMyIDAgMzIgMEw0ODAgMGwzMiAwIDMyIDAgMCA2NC0zMiAwIDAgMTUwLjlMNjM1LjMgNDE1LjJsNC43IDcuNyAwIDkuMSAwIDQ4IDAgMzItMzIgMC0zODQgMC0zMiAwIDAtMzIgMC00OCAwLTguNCAwLS42IDQuNy03Ljd6TTk2IDY0bDAgOTYgNjQgMCAwLTk2TDk2IDY0em0yODggMGwwIDE2MCAwIDkuMS00LjcgNy43TDMzMC41IDMyMGwxNzEgMC00OC44LTc5LjItNC43LTcuNyAwLTkuMSAwLTE2MC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const FlaskVial: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M224 0l32 0 0 64-32 0 0 245.9-59.3 96.3-4.7 7.7 0 9.1 0 19.6c-10 3.5-20.8 5.5-32 5.5c-53 0-96-43-96-96L32 64 0 64 0 0 32 0 96 0l64 0 64 0zM196.7 415.2L221 375.8l99-160.8L320 64l-32 0 0-64 32 0 32 0L480 0l32 0 32 0 0 64-32 0 0 150.9L635.3 415.2l4.7 7.7 0 9.1 0 48 0 32-32 0-384 0-32 0 0-32 0-48 0-8.4 0-.6 4.7-7.7zM96 64l0 96 64 0 0-96L96 64zm288 0l0 160 0 9.1-4.7 7.7L330.5 320l171 0-48.8-79.2-4.7-7.7 0-9.1 0-160-64 0z" />
+    </Icon>
+);
+
+export default FlaskVial;

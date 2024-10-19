@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `keynote` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/keynote?s=sharp-light keynote}
+ * @preview ![keynote](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDMyYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC04MCAwIDAtMzIgODAgMHpNMjI0IDBMMTkyIDBsMCAzMi04IDBjLTQ0LjIgMC04MCAzNS44LTgwIDgwbDAgNDgtNDAgMEwwIDI4OGwwIDE2IDAgNDggMCAzMiAzMiAwIDQ0OCAwIDMyIDAgMC0zMiAwLTQ4IDAtMTZMNDQ4IDE2MGwtMzEyIDAgMC00OGMwLTI2LjUgMjEuNS00OCA0OC00OGw4IDAgMCAzMiAzMiAwIDgwIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhzLTIxLjUtNDgtNDgtNDhMMjI0IDB6TTMyIDM1MmwwLTMyIDQ0OCAwIDAgMzJMMzIgMzUyem0zLjgtNjRsNDgtOTYgMzQ0LjQgMCA0OCA5NkwzNS44IDI4OHpNMTI4IDUxMmwxNiAwIDExMiAwIDExMiAwIDE2IDAgMC0zMi0xNiAwLTk2IDAgMC02NC0zMiAwIDAgNjQtOTYgMC0xNiAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Keynote: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M304 32c8.8 0 16 7.2 16 16s-7.2 16-16 16l-80 0 0-32 80 0zM224 0L192 0l0 32-8 0c-44.2 0-80 35.8-80 80l0 48-40 0L0 288l0 16 0 48 0 32 32 0 448 0 32 0 0-32 0-48 0-16L448 160l-312 0 0-48c0-26.5 21.5-48 48-48l8 0 0 32 32 0 80 0c26.5 0 48-21.5 48-48s-21.5-48-48-48L224 0zM32 352l0-32 448 0 0 32L32 352zm3.8-64l48-96 344.4 0 48 96L35.8 288zM128 512l16 0 112 0 112 0 16 0 0-32-16 0-96 0 0-64-32 0 0 64-96 0-16 0 0 32z" />
+    </Icon>
+);
+
+export default Keynote;

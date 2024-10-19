@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `yahoo` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `yahoo` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/yahoo?s=brands yahoo}
- * @preview ![yahoo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMjMuNjksMTQxLjA2LDE2NywyODQuMjMsMTExLDE0MS4wNkgxNC45M0wxMjAuNzYsMzkwLjE5LDgyLjE5LDQ4MGg5NC4xN0wzMTcuMjcsMTQxLjA2Wm0xMDUuNCwxMzUuNzlhNTguMjIsNTguMjIsMCwxLDAsNTguMjIsNTguMjJBNTguMjIsNTguMjIsMCwwLDAsMzI5LjA5LDI3Ni44NVpNMzk0LjY1LDMybC05MywyMjMuNDdINDA2LjQ0TDQ5OS4wNywzMloiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![yahoo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjIzLjY5LDE0MS4wNiwxNjcsMjg0LjIzLDExMSwxNDEuMDZIMTQuOTNMMTIwLjc2LDM5MC4xOSw4Mi4xOSw0ODBoOTQuMTdMMzE3LjI3LDE0MS4wNlptMTA1LjQsMTM1Ljc5YTU4LjIyLDU4LjIyLDAsMSwwLDU4LjIyLDU4LjIyQTU4LjIyLDU4LjIyLDAsMCwwLDMyOS4wOSwyNzYuODVaTTM5NC42NSwzMmwtOTMsMjIzLjQ3SDQwNi40NEw0OTkuMDcsMzJaIi8+PC9zdmc+|width=32|height=32)
  */
 const Yahoo: typeof Icon = x => (
     <Icon {...x}>

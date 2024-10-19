@@ -2,14 +2,14 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `ellipsis` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `ellipsis` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ellipsis?s=duotone ellipsis}
- * @preview ![ellipsis](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTI1NiAxOTJDMjIwLjYxMSAxOTIgMTkyIDIyMC42MjUgMTkyIDI1NlMyMjAuNjExIDMyMCAyNTYgMzIwUzMyMCAyOTEuMzc1IDMyMCAyNTZTMjkxLjM4OSAxOTIgMjU2IDE5MloiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNNjQgMTkyQzI4LjYxMSAxOTIgMCAyMjAuNjI1IDAgMjU2UzI4LjYxMSAzMjAgNjQgMzIwUzEyOCAyOTEuMzc1IDEyOCAyNTZTOTkuMzg5IDE5MiA2NCAxOTJaTTQ0OCAxOTJDNDEyLjYxMSAxOTIgMzg0IDIyMC42MjUgMzg0IDI1NlM0MTIuNjExIDMyMCA0NDggMzIwUzUxMiAyOTEuMzc1IDUxMiAyNTZTNDgzLjM4OSAxOTIgNDQ4IDE5MloiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ellipsis](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNjggMjU2YTU2IDU2IDAgMSAwIDExMiAwIDU2IDU2IDAgMSAwIC0xMTIgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTY0IDMxMmE1NiA1NiAwIDEgMCAwLTExMiA1NiA1NiAwIDEgMCAwIDExMnptMzIwIDBhNTYgNTYgMCAxIDAgMC0xMTIgNTYgNTYgMCAxIDAgMCAxMTJ6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Ellipsis: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M256 192C220.611 192 192 220.625 192 256S220.611 320 256 320S320 291.375 320 256S291.389 192 256 192Z" />
-            <path d="M64 192C28.611 192 0 220.625 0 256S28.611 320 64 320S128 291.375 128 256S99.389 192 64 192ZM448 192C412.611 192 384 220.625 384 256S412.611 320 448 320S512 291.375 512 256S483.389 192 448 192Z" />
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M168 256a56 56 0 1 0 112 0 56 56 0 1 0 -112 0z" />
+            <path d="M64 312a56 56 0 1 0 0-112 56 56 0 1 0 0 112zm320 0a56 56 0 1 0 0-112 56 56 0 1 0 0 112z" />
     </Icon>
 );
 

@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `css3` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `css3` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/css3?s=brands css3}
- * @preview ![css3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00ODAgMzJsLTY0IDM2OC0yMjMuMyA4MEwwIDQwMGwxOS42LTk0LjhoODJsLTggNDAuNkwyMTAgMzkwLjJsMTM0LjEtNDQuNCAxOC44LTk3LjFIMjkuNWwxNi04MmgzMzMuN2wxMC41LTUyLjdINTYuM2wxNi4zLTgySDQ4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![css3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDMybC02NCAzNjgtMjIzLjMgODBMMCA0MDBsMTkuNi05NC44aDgybC04IDQwLjZMMjEwIDM5MC4ybDEzNC4xLTQ0LjQgMTguOC05Ny4xSDI5LjVsMTYtODJoMzMzLjdsMTAuNS01Mi43SDU2LjNsMTYuMy04Mkg0ODB6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Css3: typeof Icon = x => (
     <Icon {...x}>

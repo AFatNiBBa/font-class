@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `stethoscope` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/stethoscope?s=sharp-solid stethoscope}
+ * @preview ![stethoscope](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE5LjMgMS4ybDE1LjUgNjIuMS0zMSA3LjhMOTYgNzNsMCAxMTljMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwwLTExOUwyODAuMiA3MWwtMzEtNy44TDI2NC43IDEuMmwzMSA3LjggMzIgOEwzNTIgMjNsMCAyNSAwIDE0NGMwIDc3LjItNTQuNiAxNDEuNi0xMjcuMyAxNTYuN0MyMzEgNDA0LjYgMjc4LjQgNDQ4IDMzNiA0NDhjNjEuOSAwIDExMi01MC4xIDExMi0xMTJsMC03MC43Yy0yOC4zLTEyLjMtNDgtNDAuNS00OC03My4zYzAtNDQuMiAzNS44LTgwIDgwLTgwczgwIDM1LjggODAgODBjMCAzMi44LTE5LjcgNjEtNDggNzMuM2wwIDcwLjdjMCA5Ny4yLTc4LjggMTc2LTE3NiAxNzZjLTkyLjkgMC0xNjguOS03MS45LTE3NS41LTE2My4xQzg3LjIgMzM0LjIgMzIgMjY5LjYgMzIgMTkyTDMyIDQ4bDAtMjVMNTYuMiAxN2wzMi04IDMxLTcuOHpNNDgwIDIyNGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Stethoscope: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M119.3 1.2l15.5 62.1-31 7.8L96 73l0 119c0 53 43 96 96 96s96-43 96-96l0-119L280.2 71l-31-7.8L264.7 1.2l31 7.8 32 8L352 23l0 25 0 144c0 77.2-54.6 141.6-127.3 156.7C231 404.6 278.4 448 336 448c61.9 0 112-50.1 112-112l0-70.7c-28.3-12.3-48-40.5-48-73.3c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3l0 70.7c0 97.2-78.8 176-176 176c-92.9 0-168.9-71.9-175.5-163.1C87.2 334.2 32 269.6 32 192L32 48l0-25L56.2 17l32-8 31-7.8zM480 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
+    </Icon>
+);
+
+export default Stethoscope;

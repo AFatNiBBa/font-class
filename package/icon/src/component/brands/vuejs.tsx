@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `vuejs` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `vuejs` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vuejs?s=brands vuejs}
- * @preview ![vuejs](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNTYuOSA2NC4zSDI4MGwtNTYgODguNi00OC04OC42SDBMMjI0IDQ0OCA0NDggNjQuM2gtOTEuMXptLTMwMS4yIDMyaDUzLjhMMjI0IDI5NC41IDMzOC40IDk2LjNoNTMuOEwyMjQgMzg0LjUgNTUuNyA5Ni4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vuejs](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzU2LjkgNjQuM0gyODBsLTU2IDg4LjYtNDgtODguNkgwTDIyNCA0NDggNDQ4IDY0LjNoLTkxLjF6bS0zMDEuMiAzMmg1My44TDIyNCAyOTQuNSAzMzguNCA5Ni4zaDUzLjhMMjI0IDM4NC41IDU1LjcgOTYuM3oiLz48L3N2Zz4=|width=32|height=32)
  */
 const Vuejs: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

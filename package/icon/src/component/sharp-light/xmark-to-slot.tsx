@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `xmark-to-slot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/xmark-to-slot?s=sharp-light xmark-to-slot}
+ * @preview ![xmark-to-slot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDY0bDAgMzIwIDMyMCAwIDAtMzIwTDEyOCA2NHptMzUyIDBsMCAzMjAgMTYgMCAxNiAwIDAgMzItMTYgMC0xNiAwLTMyIDAtMzIwIDAtMzIgMC0xNiAwLTE2IDAgMC0zMiAxNiAwIDE2IDBMOTYgNjRsMC0zMiAzMiAwIDMyMCAwIDMyIDAgMCAzMnpNMzIgMzIwbDMyIDAgMCAzMi0zMiAwIDAgOTYgNTEyIDAgMC05Ni0zMiAwIDAtMzIgMzIgMCAzMiAwIDAgMzIgMCA5NiAwIDMyLTMyIDBMMzIgNDgwIDAgNDgwbDAtMzIgMC05NiAwLTMyIDMyIDB6TTIyMy40IDEzNi44bDExLjMgMTEuM0wyODggMjAxLjRsNTMuMy01My4zIDExLjMtMTEuMyAyMi42IDIyLjYtMTEuMyAxMS4zTDMxMC42IDIyNGw1My4zIDUzLjMgMTEuMyAxMS4zLTIyLjYgMjIuNi0xMS4zLTExLjNMMjg4IDI0Ni42bC01My4zIDUzLjMtMTEuMyAxMS4zLTIyLjYtMjIuNiAxMS4zLTExLjNMMjY1LjQgMjI0bC01My4zLTUzLjMtMTEuMy0xMS4zIDIyLjYtMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const XmarkToSlot: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M128 64l0 320 320 0 0-320L128 64zm352 0l0 320 16 0 16 0 0 32-16 0-16 0-32 0-320 0-32 0-16 0-16 0 0-32 16 0 16 0L96 64l0-32 32 0 320 0 32 0 0 32zM32 320l32 0 0 32-32 0 0 96 512 0 0-96-32 0 0-32 32 0 32 0 0 32 0 96 0 32-32 0L32 480 0 480l0-32 0-96 0-32 32 0zM223.4 136.8l11.3 11.3L288 201.4l53.3-53.3 11.3-11.3 22.6 22.6-11.3 11.3L310.6 224l53.3 53.3 11.3 11.3-22.6 22.6-11.3-11.3L288 246.6l-53.3 53.3-11.3 11.3-22.6-22.6 11.3-11.3L265.4 224l-53.3-53.3-11.3-11.3 22.6-22.6z" />
+    </Icon>
+);
+
+export default XmarkToSlot;

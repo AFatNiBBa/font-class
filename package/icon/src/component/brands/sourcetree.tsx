@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `sourcetree` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `sourcetree` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sourcetree?s=brands sourcetree}
- * @preview ![sourcetree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00MjcuMiAyMDNjMC0xMTIuMS05MC45LTIwMy0yMDMtMjAzQzExMi4xLS4yIDIxLjIgOTAuNiAyMSAyMDIuNkEyMDIuODYgMjAyLjg2IDAgMCAwIDE2MS41IDM5NnYxMDEuN2ExNC4zIDE0LjMgMCAwIDAgMTQuMyAxNC4zaDk2LjRhMTQuMyAxNC4zIDAgMCAwIDE0LjMtMTQuM1YzOTYuMUEyMDMuMTggMjAzLjE4IDAgMCAwIDQyNy4yIDIwM3ptLTI3MS42IDBjMC05MC44IDEzNy4zLTkwLjggMTM3LjMgMC0uMSA4OS45LTEzNy4zIDkxLTEzNy4zIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sourcetree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI3LjIgMjAzYzAtMTEyLjEtOTAuOS0yMDMtMjAzLTIwM0MxMTIuMS0uMiAyMS4yIDkwLjYgMjEgMjAyLjZBMjAyLjg2IDIwMi44NiAwIDAgMCAxNjEuNSAzOTZ2MTAxLjdhMTQuMyAxNC4zIDAgMCAwIDE0LjMgMTQuM2g5Ni40YTE0LjMgMTQuMyAwIDAgMCAxNC4zLTE0LjNWMzk2LjFBMjAzLjE4IDIwMy4xOCAwIDAgMCA0MjcuMiAyMDN6bS0yNzEuNiAwYzAtOTAuOCAxMzcuMy05MC44IDEzNy4zIDAtLjEgODkuOS0xMzcuMyA5MS0xMzcuMyAweiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Sourcetree: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

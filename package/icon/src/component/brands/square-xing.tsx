@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `square-xing` icon from the `brands` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/square-xing?s=brands square-xing}
+ * @preview ![square-xing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDk2YzAtMzUuMy0yOC43LTY0LTY0LTY0SDY0QzI4LjcgMzIgMCA2MC43IDAgOTZWNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0SDM4NGMzNS4zIDAgNjQtMjguNyA2NC02NFY5NnpNOTMuOCAzMjAuMmMtNS41IDAtOC43LTUuMy02LTEwLjNsNDkuMy04Ni43Yy4xIDAgLjEtLjEgMC0uMmwtMzEuNC01NGMtMy01LjYgLjItMTAuMSA2LTEwLjFoNDYuNmM1LjIgMCA5LjUgMi45IDEyLjkgOC43bDMxLjkgNTUuM2MtMS4zIDIuMy0xOCAzMS43LTUwLjEgODguMmMtMy41IDYuMi03LjcgOS4xLTEyLjYgOS4xSDkzLjh6bTE2My41LTMzLjR2LjJsNjUuNSAxMTljMi44IDUuMSAuMSAxMC4xLTYgMTAuMUgyNzAuMmMtNS41IDAtOS43LTIuOS0xMi45LTguN2wtNjYtMTIwLjNjMS44LTMuMiAyMi45LTQwLjQgNjMuMy0xMTEuNmMxMS43LTIwLjcgMjUuMS00NC4zIDQwLjEtNzAuOGMzLjMtNS44IDcuNC04LjcgMTIuNS04LjdoNDYuOWM1LjctLjEgOC44IDQuNyA2IDEwTDI1Ny4zIDI4Ni44eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const SquareXing: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM93.8 320.2c-5.5 0-8.7-5.3-6-10.3l49.3-86.7c.1 0 .1-.1 0-.2l-31.4-54c-3-5.6 .2-10.1 6-10.1h46.6c5.2 0 9.5 2.9 12.9 8.7l31.9 55.3c-1.3 2.3-18 31.7-50.1 88.2c-3.5 6.2-7.7 9.1-12.6 9.1H93.8zm163.5-33.4v.2l65.5 119c2.8 5.1 .1 10.1-6 10.1H270.2c-5.5 0-9.7-2.9-12.9-8.7l-66-120.3c1.8-3.2 22.9-40.4 63.3-111.6c11.7-20.7 25.1-44.3 40.1-70.8c3.3-5.8 7.4-8.7 12.5-8.7h46.9c5.7-.1 8.8 4.7 6 10L257.3 286.8z" />
+    </Icon>
+);
+
+export default SquareXing;

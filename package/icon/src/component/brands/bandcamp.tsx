@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `bandcamp` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `bandcamp` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bandcamp?s=brands bandcamp}
- * @preview ![bandcamp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNTYsOEMxMTksOCw4LDExOSw4LDI1NlMxMTksNTA0LDI1Niw1MDQsNTA0LDM5Myw1MDQsMjU2LDM5Myw4LDI1Niw4Wm00OC4yLDMyNi4xaC0xODFMMjA3LjksMTc4aDE4MVoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bandcamp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2LDhDMTE5LDgsOCwxMTksOCwyNTZTMTE5LDUwNCwyNTYsNTA0LDUwNCwzOTMsNTA0LDI1NiwzOTMsOCwyNTYsOFptNDguMiwzMjYuMWgtMTgxTDIwNy45LDE3OGgxODFaIi8+PC9zdmc+|width=32|height=32)
  */
 const Bandcamp: typeof Icon = x => (
     <Icon {...x}>

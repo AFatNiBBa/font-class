@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `house-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/house-fire?s=sharp-solid house-fire}
+ * @preview ![house-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDM5LjQgMTI2TDI4OC40IDAgMCAyNDBsMCA0Ny42IDY0LjEgMCAwIDIyNC40TDIyNCA1MTJsMC0xNjAgNjQgMGMuMS01Ni44IDM2LjEtMTA4LjcgNzEuOC0xNDkuOWMyNC4zLTI4IDUxLjItNTIuNiA3OS42LTc2LjF6bTguNiAzNC4xcy0xMjggMTAzLjYtMTI4IDE5MnM3MS42IDE2MCAxNjAgMTYwczE2MC03MS42IDE2MC0xNjBjMC03My42LTk2LTE2MC05Ni0xNjBzLTEzLjkgMTIuNS0zMSAzMmMtMzIuMy0zNy41LTY1LTY0LTY1LTY0ek00ODEgNDQ4Yy00NSAwLTgxLTI5LTgxLTc4YzAtMjQgMTUtNDUgNDUtODJjNCA1IDYyIDc5IDYyIDc5bDM2LTQyYzMgNCA1IDggNyAxMmMxOCAzMyAxMCA3NS0yMCA5NmMtMTUgMTAtMzEgMTUtNDkgMTV6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const HouseFire: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M439.4 126L288.4 0 0 240l0 47.6 64.1 0 0 224.4L224 512l0-160 64 0c.1-56.8 36.1-108.7 71.8-149.9c24.3-28 51.2-52.6 79.6-76.1zm8.6 34.1s-128 103.6-128 192s71.6 160 160 160s160-71.6 160-160c0-73.6-96-160-96-160s-13.9 12.5-31 32c-32.3-37.5-65-64-65-64zM481 448c-45 0-81-29-81-78c0-24 15-45 45-82c4 5 62 79 62 79l36-42c3 4 5 8 7 12c18 33 10 75-20 96c-15 10-31 15-49 15z" />
+    </Icon>
+);
+
+export default HouseFire;

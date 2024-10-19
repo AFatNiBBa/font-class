@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `layer-plus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/layer-plus?s=sharp-regular layer-plus}
+ * @preview ![layer-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg0IDI0bDAgMzYgMzYgMCAyMCAwIDAgNDAtMjAgMC0zNiAwIDAgMzYgMCAyMC00MCAwIDAtMjAgMC0zNi0zNiAwLTIwIDAgMC00MCAyMCAwIDM2IDAgMC0zNiAwLTIwIDQwIDAgMCAyMHpNMTE4LjIgMjU2TDI4OCAzMzEuNSA0NTcuOCAyNTYgMjg4IDE4MC41IDExOC4yIDI1NnpNMjg4IDEyOEw1MTYuOSAyMjkuNyA1NzYgMjU2bC01OS4xIDI2LjNMMjg4IDM4NCA1OS4xIDI4Mi4zIDAgMjU2bDU5LjEtMjYuM0wyODggMTI4ek0xMDQuNiAzMzcuNWw1OS4xIDI2LjNMMTE4LjIgMzg0IDI4OCA0NTkuNSA0NTcuOCAzODRsLTQ1LjUtMjAuMiA1OS4xLTI2LjMgNDUuNSAyMC4yTDU3NiAzODRsLTU5LjEgMjYuM0wyODggNTEyIDU5LjEgNDEwLjMgMCAzODRsNTkuMS0yNi4zIDQ1LjUtMjAuMnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const LayerPlus: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M484 24l0 36 36 0 20 0 0 40-20 0-36 0 0 36 0 20-40 0 0-20 0-36-36 0-20 0 0-40 20 0 36 0 0-36 0-20 40 0 0 20zM118.2 256L288 331.5 457.8 256 288 180.5 118.2 256zM288 128L516.9 229.7 576 256l-59.1 26.3L288 384 59.1 282.3 0 256l59.1-26.3L288 128zM104.6 337.5l59.1 26.3L118.2 384 288 459.5 457.8 384l-45.5-20.2 59.1-26.3 45.5 20.2L576 384l-59.1 26.3L288 512 59.1 410.3 0 384l59.1-26.3 45.5-20.2z" />
+    </Icon>
+);
+
+export default LayerPlus;

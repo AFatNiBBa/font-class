@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `paw` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/paw?s=sharp-solid paw}
+ * @preview ![paw](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEwLjEgMTg5LjdjLTMyLjMtMTAuNi00Ni45LTUzLjktMzIuNi05Ni44czUyLjEtNjkuMSA4NC40LTU4LjVzNDYuOSA1My45IDMyLjYgOTYuOHMtNTIuMSA2OS4xLTg0LjQgNTguNXpNMjM0LjUgOTIuOWMxNC4zIDQyLjktLjMgODYuMi0zMi42IDk2LjhzLTcwLjEtMTUuNi04NC40LTU4LjVzLjMtODYuMiAzMi42LTk2LjhzNzAuMSAxNS42IDg0LjQgNTguNXpNMTAwLjQgMTk4LjZjMTguOSAzMi40IDE0LjMgNzAuMS0xMC4yIDg0LjFzLTU5LjctLjktNzguNS0zMy4zUy0yLjcgMTc5LjMgMjEuOCAxNjUuM3M1OS43IC45IDc4LjUgMzMuM3pNNjQgNDgwYzAtMTc2IDEyOC0yNTYgMTkyLTI1NnMxOTIgODAgMTkyIDI1NkwyNTYgNDMyIDY0IDQ4MHpNNDIxLjggMjgyLjdjLTI0LjUtMTQtMjkuMS01MS43LTEwLjItODQuMXM1NC00Ny4zIDc4LjUtMzMuM3MyOS4xIDUxLjcgMTAuMiA4NC4xcy01NCA0Ny4zLTc4LjUgMzMuM3oiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Paw: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5zM234.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM64 480c0-176 128-256 192-256s192 80 192 256L256 432 64 480zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3z" />
+    </Icon>
+);
+
+export default Paw;

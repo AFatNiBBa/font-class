@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `chart-line-up-down` icon from the `thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/chart-line-up-down?s=thin chart-line-up-down}
+ * @preview ![chart-line-up-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAzMmM0LjQgMCA4IDMuNiA4IDhsMCAzNjhjMCAzMC45IDI1LjEgNTYgNTYgNTZsNDMyIDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhMNzIgNDgwYy0zOS44IDAtNzItMzIuMi03Mi03MkwwIDQwYzAtNC40IDMuNi04IDgtOHpNMzUyIDcyYzAtNC40IDMuNi04IDgtOGwxMTIgMGM0LjQgMCA4IDMuNiA4IDhsMCAxMTJjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC05Mi43TDI5My43IDI2MS43Yy0zLjEgMy4xLTguMiAzLjEtMTEuMyAwTDIwOCAxODcuM2wtOTguMyA5OC4zYy0zLjEgMy4xLTguMiAzLjEtMTEuMyAwcy0zLjEtOC4yIDAtMTEuM2wxMDQtMTA0YzMuMS0zLjEgOC4yLTMuMSAxMS4zIDBMMjg4IDI0NC43IDQ1Mi43IDgwIDM2MCA4MGMtNC40IDAtOC0zLjYtOC04em04IDMxMmMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGw5Mi43IDAtOTAuMy05MC4zIDExLjMtMTEuM0w0NjQgMzU2LjdsMC05Mi43YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhsMCAxMTJjMCA0LjQtMy42IDgtOCA4bC0xMTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ChartLineUpDown: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M8 32c4.4 0 8 3.6 8 8l0 368c0 30.9 25.1 56 56 56l432 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L72 480c-39.8 0-72-32.2-72-72L0 40c0-4.4 3.6-8 8-8zM352 72c0-4.4 3.6-8 8-8l112 0c4.4 0 8 3.6 8 8l0 112c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-92.7L293.7 261.7c-3.1 3.1-8.2 3.1-11.3 0L208 187.3l-98.3 98.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l104-104c3.1-3.1 8.2-3.1 11.3 0L288 244.7 452.7 80 360 80c-4.4 0-8-3.6-8-8zm8 312c-4.4 0-8-3.6-8-8s3.6-8 8-8l92.7 0-90.3-90.3 11.3-11.3L464 356.7l0-92.7c0-4.4 3.6-8 8-8s8 3.6 8 8l0 112c0 4.4-3.6 8-8 8l-112 0z" />
+    </Icon>
+);
+
+export default ChartLineUpDown;

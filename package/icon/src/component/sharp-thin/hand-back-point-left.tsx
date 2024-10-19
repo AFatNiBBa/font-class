@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `hand-back-point-left` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/hand-back-point-left?s=sharp-thin hand-back-point-left}
+ * @preview ![hand-back-point-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMjhsMC04IDggMCAyMjQgMCA4IDAgNy40IDAgNTguNS02OS4yIDIuNC0yLjggMy43IDAgNTMuNyAwYzQ4LjggMCA5My45IDI2LjIgMTE4LjEgNjguNWwxMC4zIDE4QzUwNS44IDE1NS4xIDUxMiAxNzguMyA1MTIgMjAybDAgMTQyYzAgNTcuNC00Ni42IDEwNC0xMDQgMTA0bC0xNiAwLTg4IDAtNDggMC04IDAgMC04IDAtNTYtMjQgMC04IDAgMC04IDAtNjQtMjQgMC04IDAgMC04IDAtODBMOCAyMjRsLTggMCAwLTggMC04OHptMjY4LjMtOGw3NS43IDAgOCAwIDAgMTYtOCAwLTg5LjIgMC0zLjcgMEwyNDAgMTM2bC04IDBMMTYgMTM2bDAgNzIgMTc2IDAgOCAwIDAgOCAwIDgwIDI0IDAgOCAwIDAgOCAwIDY0IDI0IDAgOCAwIDAgOCAwIDU2IDQwIDAgODggMCAxNiAwYzQ4LjYgMCA4OC0zOS40IDg4LTg4bDAtMTQyYzAtMjAuOS01LjQtNDEuNC0xNS44LTU5LjVsLTEwLjMtMThDNDQ4LjUgODcuMSA0MDguOCA2NCAzNjUuNyA2NGwtNTAgMC00Ny40IDU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const HandBackPointLeft: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M0 128l0-8 8 0 224 0 8 0 7.4 0 58.5-69.2 2.4-2.8 3.7 0 53.7 0c48.8 0 93.9 26.2 118.1 68.5l10.3 18C505.8 155.1 512 178.3 512 202l0 142c0 57.4-46.6 104-104 104l-16 0-88 0-48 0-8 0 0-8 0-56-24 0-8 0 0-8 0-64-24 0-8 0 0-8 0-80L8 224l-8 0 0-8 0-88zm268.3-8l75.7 0 8 0 0 16-8 0-89.2 0-3.7 0L240 136l-8 0L16 136l0 72 176 0 8 0 0 8 0 80 24 0 8 0 0 8 0 64 24 0 8 0 0 8 0 56 40 0 88 0 16 0c48.6 0 88-39.4 88-88l0-142c0-20.9-5.4-41.4-15.8-59.5l-10.3-18C448.5 87.1 408.8 64 365.7 64l-50 0-47.4 56z" />
+    </Icon>
+);
+
+export default HandBackPointLeft;

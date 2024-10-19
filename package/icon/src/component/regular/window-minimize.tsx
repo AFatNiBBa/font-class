@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `window-minimize` icon from the `regular` section of Font Awesome 6 Pro
+ * A component that renders the `window-minimize` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-minimize?s=regular window-minimize}
- * @preview ![window-minimize](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00ODAgNDgwSDMyQzE0LjI1IDQ4MCAwIDQ2NS43NSAwIDQ0OFMxNC4yNSA0MTYgMzIgNDE2SDQ4MEM0OTcuNzUgNDE2IDUxMiA0MzAuMjUgNTEyIDQ0OFM0OTcuNzUgNDgwIDQ4MCA0ODBaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![window-minimize](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgNDMyYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDQ2NCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDI0IDQzMnoiLz48L3N2Zz4=|width=32|height=32)
  */
 const WindowMinimize: typeof Icon = x => (
     <Icon {...x}>
-        <path d="M480 480H32C14.25 480 0 465.75 0 448S14.25 416 32 416H480C497.75 416 512 430.25 512 448S497.75 480 480 480Z" />
+        <path d="M24 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l464 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 432z" />
     </Icon>
 );
 

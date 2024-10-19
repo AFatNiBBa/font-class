@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `cassette-tape` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/cassette-tape?s=sharp-regular cassette-tape}
+ * @preview ![cassette-tape](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDgwbDAgMzUyLTU2IDAtMzMuOC04MS4yTDQzMiAzMzZsLTE2IDAtMjU2IDAtMTYgMC02LjIgMTQuOEwxMDQgNDMybC01NiAwTDQ4IDgwbDQ4MCAwek00MjAgNDMybC0yNjQgMCAyMC00OCAyMjQgMCAyMCA0OHpNNDggMzJMMCAzMiAwIDgwIDAgNDMybDAgNDggNDggMCA0ODAgMCA0OCAwIDAtNDggMC0zNTIgMC00OC00OCAwTDQ4IDMyek0xNzYgMjA4YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptNjQgMTZjMC01LjUtLjctMTAuOS0yLTE2bDEwMCAwYy0xLjMgNS4xLTIgMTAuNS0yIDE2cy43IDEwLjkgMiAxNmwtMTAwIDBjMS4zLTUuMSAyLTEwLjUgMi0xNnptMjI0IDBjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTIyNCAwYy0zNS4zIDAtNjQgMjguNy02NCA2NHMyOC43IDY0IDY0IDY0bDIyNCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0em0tODAgMGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const CassetteTape: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M528 80l0 352-56 0-33.8-81.2L432 336l-16 0-256 0-16 0-6.2 14.8L104 432l-56 0L48 80l480 0zM420 432l-264 0 20-48 224 0 20 48zM48 32L0 32 0 80 0 432l0 48 48 0 480 0 48 0 0-48 0-352 0-48-48 0L48 32zM176 208a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm64 16c0-5.5-.7-10.9-2-16l100 0c-1.3 5.1-2 10.5-2 16s.7 10.9 2 16l-100 0c1.3-5.1 2-10.5 2-16zm224 0c0-35.3-28.7-64-64-64l-224 0c-35.3 0-64 28.7-64 64s28.7 64 64 64l224 0c35.3 0 64-28.7 64-64zm-80 0a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
+    </Icon>
+);
+
+export default CassetteTape;

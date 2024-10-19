@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `deviantart` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `deviantart` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/deviantart?s=brands deviantart}
- * @preview ![deviantart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMjAgOTMuMmwtOTguMiAxNzkuMSA3LjQgOS41SDMyMHYxMjcuN0gxNTkuMWwtMTMuNSA5LjItNDMuNyA4NGMtLjMgMC04LjYgOC42LTkuMiA5LjJIMHYtOTMuMmw5My4yLTE3OS40LTcuNC05LjJIMFYxMDIuNWgxNTZsMTMuNS05LjIgNDMuNy04NGMuMyAwIDguNi04LjYgOS4yLTkuMkgzMjB2OTMuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![deviantart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDkzLjJsLTk4LjIgMTc5LjEgNy40IDkuNUgzMjB2MTI3LjdIMTU5LjFsLTEzLjUgOS4yLTQzLjcgODRjLS4zIDAtOC42IDguNi05LjIgOS4ySDB2LTkzLjJsOTMuMi0xNzkuNC03LjQtOS4ySDBWMTAyLjVoMTU2bDEzLjUtOS4yIDQzLjctODRjLjMgMCA4LjYtOC42IDkuMi05LjJIMzIwdjkzLjF6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Deviantart: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

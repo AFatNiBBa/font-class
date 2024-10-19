@@ -2,14 +2,14 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `scrubber` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `scrubber` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scrubber?s=duotone scrubber}
- * @preview ![scrubber](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTI1NiAzMjBDMjIwLjY3NCAzMjAgMTkyIDI5MS4yNSAxOTIgMjU2UzIyMC42NzQgMTkyIDI1NiAxOTJTMzIwIDIyMC43NSAzMjAgMjU2UzI5MS4zMjYgMzIwIDI1NiAzMjBaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTI1NiAxNkMxMjMuNDYxIDE2IDE2IDEyMy40MiAxNiAyNTZTMTIzLjQ2MSA0OTYgMjU2IDQ5NlM0OTYgMzg4LjU4IDQ5NiAyNTZTMzg4LjUzOSAxNiAyNTYgMTZaTTI1NiAzMjBDMjIwLjY3NCAzMjAgMTkyIDI5MS4yNSAxOTIgMjU2UzIyMC42NzQgMTkyIDI1NiAxOTJTMzIwIDIyMC43NSAzMjAgMjU2UzI5MS4zMjYgMzIwIDI1NiAzMjBaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![scrubber](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xOTIgMjU2YTY0IDY0IDAgMSAwIDEyOCAwIDY0IDY0IDAgMSAwIC0xMjggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTI1NiA1MTJBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem0wLTMyMGE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const Scrubber: typeof Icon = x => (
     <Icon {...x}>
-        <path class={generic.secondary} d="M256 320C220.674 320 192 291.25 192 256S220.674 192 256 192S320 220.75 320 256S291.326 320 256 320Z" />
-            <path d="M256 16C123.461 16 16 123.42 16 256S123.461 496 256 496S496 388.58 496 256S388.539 16 256 16ZM256 320C220.674 320 192 291.25 192 256S220.674 192 256 192S320 220.75 320 256S291.326 320 256 320Z" />
+        <path class={generic.secondary} d="M192 256a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
+            <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-320a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
     </Icon>
 );
 

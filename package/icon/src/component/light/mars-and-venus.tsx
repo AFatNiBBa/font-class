@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `mars-and-venus` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/mars-and-venus?s=light mars-and-venus}
+ * @preview ![mars-and-venus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDE2YzAgOC44IDcuMiAxNiAxNiAxNmw3My40IDAtNzUuNiA3NS42QzMzNy4xIDgwLjYgMjk4LjUgNjQgMjU2IDY0QzE2Ny42IDY0IDk2IDEzNS42IDk2IDIyNGMwIDgzIDYzLjEgMTUxLjIgMTQ0IDE1OS4ybDAgMzIuOC0zMiAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDMyIDAgMCA0OGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtNDggMzIgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMzIgMCAwLTMyLjhjODAuOS04IDE0NC03Ni4yIDE0NC0xNTkuMmMwLTM0LjMtMTAuOC02Ni4xLTI5LjItOTIuMkw0NjQgNTQuNmwwIDczLjRjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTExMmMwLTguOC03LjItMTYtMTYtMTZMMzY4IDBjLTguOCAwLTE2IDcuMi0xNiAxNnpNMjU2IDk2YTEyOCAxMjggMCAxIDEgMCAyNTYgMTI4IDEyOCAwIDEgMSAwLTI1NnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const MarsAndVenus: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M352 16c0 8.8 7.2 16 16 16l73.4 0-75.6 75.6C337.1 80.6 298.5 64 256 64C167.6 64 96 135.6 96 224c0 83 63.1 151.2 144 159.2l0 32.8-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0-32.8c80.9-8 144-76.2 144-159.2c0-34.3-10.8-66.1-29.2-92.2L464 54.6l0 73.4c0 8.8 7.2 16 16 16s16-7.2 16-16l0-112c0-8.8-7.2-16-16-16L368 0c-8.8 0-16 7.2-16 16zM256 96a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
+    </Icon>
+);
+
+export default MarsAndVenus;

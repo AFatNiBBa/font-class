@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `archway` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/archway?s=sharp-regular archway}
+ * @preview ![archway](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwyNCAwIDggMCA0OCAwIDM1MiAwIDQ4IDAgMjQgMCAwIDQ4LTI0IDAgMCAzNTIgOCAwIDI0IDAgMCA0OC0yNCAwLTggMC00OCAwLTggMC0yNCAwLTE2IDAtNDggMCAwLTQ4IDAtOTZjMC00NC4yLTM1LjgtODAtODAtODBzLTgwIDM1LjgtODAgODBsMCA5NiAwIDQ4LTQ4IDAtMTYgMC0yNCAwLTggMC00OCAwLTggMEwwIDQ4MGwwLTQ4IDI0IDAgOCAwTDMyIDgwbC04IDBMMCA4MCAwIDMyek04MCA4MGwwIDMyIDM1MiAwIDAtMzJMODAgODB6bTAgODBsMCAyNzIgOCAwIDI0IDAgMTYgMCAwLTk2YzAtNzAuNyA1Ny4zLTEyOCAxMjgtMTI4czEyOCA1Ny4zIDEyOCAxMjhsMCA5NiAxNiAwIDI0IDAgOCAwIDAtMjcyTDgwIDE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Archway: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M0 32l24 0 8 0 48 0 352 0 48 0 24 0 0 48-24 0 0 352 8 0 24 0 0 48-24 0-8 0-48 0-8 0-24 0-16 0-48 0 0-48 0-96c0-44.2-35.8-80-80-80s-80 35.8-80 80l0 96 0 48-48 0-16 0-24 0-8 0-48 0-8 0L0 480l0-48 24 0 8 0L32 80l-8 0L0 80 0 32zM80 80l0 32 352 0 0-32L80 80zm0 80l0 272 8 0 24 0 16 0 0-96c0-70.7 57.3-128 128-128s128 57.3 128 128l0 96 16 0 24 0 8 0 0-272L80 160z" />
+    </Icon>
+);
+
+export default Archway;

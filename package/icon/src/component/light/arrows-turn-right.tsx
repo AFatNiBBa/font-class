@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `arrows-turn-right` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/arrows-turn-right?s=light arrows-turn-right}
+ * @preview ![arrows-turn-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkyIDUuNWM1LjgtNi43IDE1LjktNy4zIDIyLjYtMS41bDEyOCAxMTJjMy41IDMgNS41IDcuNCA1LjUgMTJzLTIgOS01LjUgMTJsLTEyOCAxMTJjLTYuNyA1LjgtMTYuOCA1LjEtMjIuNi0xLjVzLTUuMS0xNi44IDEuNS0yMi42bDk2LTg0TDExMiAxNDRjLTQ0LjIgMC04MCAzNS44LTgwIDgwbDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC00OGMwLTYxLjkgNTAuMS0xMTIgMTEyLTExMmwyNzcuNCAwLTk2LTg0Yy02LjYtNS44LTcuMy0xNS45LTEuNS0yMi42em0tOTYgMjU2YzUuOC02LjYgMTUuOS03LjMgMjIuNi0xLjVsMTI4IDExMmMzLjUgMyA1LjUgNy40IDUuNSAxMnMtMiA5LTUuNSAxMmwtMTI4IDExMmMtNi43IDUuOC0xNi44IDUuMS0yMi42LTEuNXMtNS4xLTE2LjggMS41LTIyLjZsOTYtODRMODAgNDAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDQ4YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNDhjMC00NC4yIDM1LjgtODAgODAtODBsMjEzLjQgMC05Ni04NGMtNi43LTUuOC03LjMtMTUuOS0xLjUtMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ArrowsTurnRight: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M292 5.5c5.8-6.7 15.9-7.3 22.6-1.5l128 112c3.5 3 5.5 7.4 5.5 12s-2 9-5.5 12l-128 112c-6.7 5.8-16.8 5.1-22.6-1.5s-5.1-16.8 1.5-22.6l96-84L112 144c-44.2 0-80 35.8-80 80l0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48c0-61.9 50.1-112 112-112l277.4 0-96-84c-6.6-5.8-7.3-15.9-1.5-22.6zm-96 256c5.8-6.6 15.9-7.3 22.6-1.5l128 112c3.5 3 5.5 7.4 5.5 12s-2 9-5.5 12l-128 112c-6.7 5.8-16.8 5.1-22.6-1.5s-5.1-16.8 1.5-22.6l96-84L80 400c-26.5 0-48 21.5-48 48l0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48c0-44.2 35.8-80 80-80l213.4 0-96-84c-6.7-5.8-7.3-15.9-1.5-22.6z" />
+    </Icon>
+);
+
+export default ArrowsTurnRight;

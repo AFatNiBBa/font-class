@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `poop` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/poop?s=sharp-solid poop}
+ * @preview ![poop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDEyOGM0NC4yIDAgODAtMzUuOCA4MC04MGMwLTE3LjUtNS42LTMzLjctMTUuMS00Ni44QzI0NS44IC40IDI1MC45IDAgMjU2IDBjNTMgMCA5NiA0MyA5NiA5NmMwIDExLjItMS45IDIyLTUuNSAzMmw1LjUgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGMwIDE5LjEtOC40IDM2LjMtMjEuNyA0OGwxMy43IDBjMzkuOCAwIDcyIDMyLjIgNzIgNzJjMCAyNS42LTEzLjQgNDguMi0zMy42IDYwLjlDNDg0LjUgMzg1LjYgNTEyIDQyMS42IDUxMiA0NjRsMCA0OEwwIDUxMmwwLTQ4YzAtNDIuNCAyNy41LTc4LjQgNjUuNi05MS4xQzQ1LjQgMzYwLjIgMzIgMzM3LjYgMzIgMzEyYzAtMzkuOCAzMi4yLTcyIDcyLTcybDEzLjcgMEMxMDQuNCAyMjguMyA5NiAyMTEuMSA5NiAxOTJjMC0zNS4zIDI4LjctNjQgNjQtNjRsNS41IDAgMTAuNSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Poop: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M176 128c44.2 0 80-35.8 80-80c0-17.5-5.6-33.7-15.1-46.8C245.8 .4 250.9 0 256 0c53 0 96 43 96 96c0 11.2-1.9 22-5.5 32l5.5 0c35.3 0 64 28.7 64 64c0 19.1-8.4 36.3-21.7 48l13.7 0c39.8 0 72 32.2 72 72c0 25.6-13.4 48.2-33.6 60.9C484.5 385.6 512 421.6 512 464l0 48L0 512l0-48c0-42.4 27.5-78.4 65.6-91.1C45.4 360.2 32 337.6 32 312c0-39.8 32.2-72 72-72l13.7 0C104.4 228.3 96 211.1 96 192c0-35.3 28.7-64 64-64l5.5 0 10.5 0z" />
+    </Icon>
+);
+
+export default Poop;

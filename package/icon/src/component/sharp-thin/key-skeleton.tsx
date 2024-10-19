@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `key-skeleton` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/key-skeleton?s=sharp-thin key-skeleton}
+ * @preview ![key-skeleton](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDI3MmMtMzIuNSAwLTYyLjMtMTIuMS04NC44LTMyLjJsLTExLTExYy0yMC0yMi42LTMyLjItNTIuMy0zMi4yLTg0LjhjMC03MC43IDU3LjMtMTI4IDEyOC0xMjhzMTI4IDU3LjMgMTI4IDEyOHMtNTcuMyAxMjgtMTI4IDEyOHpNMTYwIDE0NGMwIDM2LjkgMTMuOSA3MC41IDM2LjcgOTZMNzIgMzY0LjcgNjAuNyAzNzYgMTAuMyA0MjYuMyA0LjcgNDMybDUuNyA1LjcgNjQgNjQgNS43IDUuN0w5MS4zIDQ5NmwtNS43LTUuN0wyNy4zIDQzMiA3MiAzODcuM2w1OC4zIDU4LjMgNS43IDUuN0wxNDcuMyA0NDBsLTUuNy01LjdMODMuMyAzNzYgMjA4IDI1MS4zYzI1LjUgMjIuOCA1OS4xIDM2LjcgOTYgMzYuN2M3OS41IDAgMTQ0LTY0LjUgMTQ0LTE0NFMzODMuNSAwIDMwNCAwUzE2MCA2NC41IDE2MCAxNDR6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const KeySkeleton: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M304 272c-32.5 0-62.3-12.1-84.8-32.2l-11-11c-20-22.6-32.2-52.3-32.2-84.8c0-70.7 57.3-128 128-128s128 57.3 128 128s-57.3 128-128 128zM160 144c0 36.9 13.9 70.5 36.7 96L72 364.7 60.7 376 10.3 426.3 4.7 432l5.7 5.7 64 64 5.7 5.7L91.3 496l-5.7-5.7L27.3 432 72 387.3l58.3 58.3 5.7 5.7L147.3 440l-5.7-5.7L83.3 376 208 251.3c25.5 22.8 59.1 36.7 96 36.7c79.5 0 144-64.5 144-144S383.5 0 304 0S160 64.5 160 144z" />
+    </Icon>
+);
+
+export default KeySkeleton;

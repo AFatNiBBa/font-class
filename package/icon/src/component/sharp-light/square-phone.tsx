@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `square-phone` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/square-phone?s=sharp-light square-phone}
+ * @preview ![square-phone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMzg0IDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnptMTk4LjggOTAuMWwzMiA4MCAzLjkgOS44LTcuNSA3LjVMMjA4LjYgMjM4YzkuMSAxMyAyMC40IDI0LjMgMzMuNCAzMy40bDE4LjctMTguNyA3LjUtNy41IDkuOCAzLjkgODAgMzIgMTIuMSA0LjktMi4zIDEyLjktMTYgODhMMzQ5LjMgNDAwIDMzNiA0MDBsLTE2IDBDMTg3LjQgNDAwIDgwIDI5Mi41IDgwIDE2MGwwLTE2IDAtMTMuNCAxMy4xLTIuNCA4OC0xNiAxMi45LTIuMyA0LjkgMTIuMXpNMTEyIDE2MGMwIDExNC45IDkzLjEgMjA4IDIwOCAyMDhsMi42IDAgMTEuMy02Mi01OC4xLTIzLjItMjAuMyAyMC4zLTguNyA4LjctMTAuNi02LjFjLTI1LjctMTQuOC00Ny4xLTM2LjItNjEuOS02MS45bC02LjEtMTAuNiA4LjctOC43IDIwLjMtMjAuM0wxNzQgMTQ2LjFsLTYyIDExLjMgMCAyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const SquarePhone: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M32 64l0 384 384 0 0-384L32 64zM0 32l32 0 384 0 32 0 0 32 0 384 0 32-32 0L32 480 0 480l0-32L0 64 0 32zm198.8 90.1l32 80 3.9 9.8-7.5 7.5L208.6 238c9.1 13 20.4 24.3 33.4 33.4l18.7-18.7 7.5-7.5 9.8 3.9 80 32 12.1 4.9-2.3 12.9-16 88L349.3 400 336 400l-16 0C187.4 400 80 292.5 80 160l0-16 0-13.4 13.1-2.4 88-16 12.9-2.3 4.9 12.1zM112 160c0 114.9 93.1 208 208 208l2.6 0 11.3-62-58.1-23.2-20.3 20.3-8.7 8.7-10.6-6.1c-25.7-14.8-47.1-36.2-61.9-61.9l-6.1-10.6 8.7-8.7 20.3-20.3L174 146.1l-62 11.3 0 2.6z" />
+    </Icon>
+);
+
+export default SquarePhone;

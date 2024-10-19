@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `laptop-code` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/laptop-code?s=sharp-thin laptop-code}
+ * @preview ![laptop-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgNDhsNDgwIDAgMCAzMDQgMTYgMCAwLTMwNCAwLTE2LTE2IDBMODAgMzIgNjQgMzJsMCAxNiAwIDMwNCAxNiAwTDgwIDQ4ek0xNiA0MjUuNEwxNiA0MDBsNjA4IDAgMCAyNS40TDU4NS40IDQ2NCA1NC42IDQ2NCAxNiA0MjUuNHpNNjI0IDM4NEwxNiAzODQgMCAzODRsMCAxNiAwIDMyIDQ4IDQ4IDU0NCAwIDQ4LTQ4IDAtMzIgMC0xNi0xNiAwek0yNjkuNyAxNTcuN2w1LjctNS43TDI2NCAxNDAuN2wtNS43IDUuNy02NCA2NC01LjcgNS43IDUuNyA1LjcgNjQgNjQgNS43IDUuN0wyNzUuMyAyODBsLTUuNy01LjdMMjExLjMgMjE2bDU4LjMtNTguM3ptMTEyLTExLjNsLTUuNy01LjdMMzY0LjcgMTUybDUuNyA1LjdMNDI4LjcgMjE2bC01OC4zIDU4LjMtNS43IDUuN0wzNzYgMjkxLjNsNS43LTUuNyA2NC02NCA1LjctNS43LTUuNy01LjctNjQtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const LaptopCode: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M80 48l480 0 0 304 16 0 0-304 0-16-16 0L80 32 64 32l0 16 0 304 16 0L80 48zM16 425.4L16 400l608 0 0 25.4L585.4 464 54.6 464 16 425.4zM624 384L16 384 0 384l0 16 0 32 48 48 544 0 48-48 0-32 0-16-16 0zM269.7 157.7l5.7-5.7L264 140.7l-5.7 5.7-64 64-5.7 5.7 5.7 5.7 64 64 5.7 5.7L275.3 280l-5.7-5.7L211.3 216l58.3-58.3zm112-11.3l-5.7-5.7L364.7 152l5.7 5.7L428.7 216l-58.3 58.3-5.7 5.7L376 291.3l5.7-5.7 64-64 5.7-5.7-5.7-5.7-64-64z" />
+    </Icon>
+);
+
+export default LaptopCode;

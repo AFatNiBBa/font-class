@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `circle-minus` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `circle-minus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-minus?s=solid circle-minus}
- * @preview ![circle-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNTYuMDAyIDE2QzEyMy40MzggMTYgMTYgMTIzLjQzOCAxNiAyNTZTMTIzLjQzOCA0OTYgMjU2LjAwMiA0OTZDMzg4LjU2MiA0OTYgNDk2IDM4OC41NjIgNDk2IDI1NlMzODguNTYyIDE2IDI1Ni4wMDIgMTZaTTM1Mi4wMDIgMjgwSDE2MC4wMDJDMTQ2LjgwMSAyODAgMTM2IDI2OS4xOTcgMTM2IDI1NkMxMzYgMjQyLjc5OSAxNDYuODAxIDIzMiAxNjAuMDAyIDIzMkgzNTIuMDAyQzM2NS4xOTkgMjMyIDM3NiAyNDIuNzk5IDM3NiAyNTZDMzc2IDI2OS4xOTcgMzY1LjE5OSAyODAgMzUyLjAwMiAyODBaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTE4NCAyMzJsMTQ0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTE0NCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const CircleMinus: typeof Icon = x => (
     <Icon {...x}>
-        <path d="M256.002 16C123.438 16 16 123.438 16 256S123.438 496 256.002 496C388.562 496 496 388.562 496 256S388.562 16 256.002 16ZM352.002 280H160.002C146.801 280 136 269.197 136 256C136 242.799 146.801 232 160.002 232H352.002C365.199 232 376 242.799 376 256C376 269.197 365.199 280 352.002 280Z" />
+        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 232l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
     </Icon>
 );
 

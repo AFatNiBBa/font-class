@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `arrow-down-up-across-line` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/arrow-down-up-across-line?s=regular arrow-down-up-across-line}
+ * @preview ![arrow-down-up-across-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQzIDUwNWM5LjQgOS40IDI0LjYgOS40IDMzLjkgMGw5Ni05NmM5LjQtOS40IDkuNC0yNC42IDAtMzMuOXMtMjQuNi05LjQtMzMuOSAwbC01NSA1NUwxODQgMjgwbDM2OCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0xMTIgMCAwLTE1MC4xIDU1IDU1YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOUw0MzMgN2MtOS40LTkuNC0yNC42LTkuNC0zMy45IDBsLTk2IDk2Yy05LjQgOS40LTkuNCAyNC42IDAgMzMuOXMyNC42IDkuNCAzMy45IDBsNTUtNTVMMzkyIDIzMmwtMjA4IDAtNDggMEwyNCAyMzJjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMTEyIDAgMCAxNTAuMUw4MSAzNzVjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsOTYgOTZ6bS03LTMxM2w0OCAwIDAtMTM2YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMTM2ek00NDAgMzIwbC00OCAwIDAgMTM2YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const ArrowDownUpAcrossLine: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M143 505c9.4 9.4 24.6 9.4 33.9 0l96-96c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-55 55L184 280l368 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0 0-150.1 55 55c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L433 7c-9.4-9.4-24.6-9.4-33.9 0l-96 96c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l55-55L392 232l-208 0-48 0L24 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0 0 150.1L81 375c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l96 96zm-7-313l48 0 0-136c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 136zM440 320l-48 0 0 136c0 13.3 10.7 24 24 24s24-10.7 24-24l0-136z" />
+    </Icon>
+);
+
+export default ArrowDownUpAcrossLine;

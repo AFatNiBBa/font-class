@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `hockey-stick-puck` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/hockey-stick-puck?s=regular hockey-stick-puck}
+ * @preview ![hockey-stick-puck](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk5IDIuN2MxMS44IDYuMSAxNi40IDIwLjYgMTAuMyAzMi4zTDI4Mi43IDQ3My4xYy0xMi40IDIzLjktMzcgMzguOS02NCAzOC45TDY0IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC02NGMwLTM1LjMgMjguNy02NCA2NC02NGwyNDAgMGMxLjMgMCAyLjUgLjEgMy43IC4zTDQ2Ni43IDEzQzQ3Mi44IDEuMiA0ODcuMy0zLjQgNDk5IDIuN3pNMjgzIDM2OGwtMTM5IDAgMCA5NiA3NC44IDBjOSAwIDE3LjItNSAyMS4zLTEzTDI4MyAzNjh6TTY0IDM2OGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2bDMyIDAgMC05Ni0zMiAwem0zNjggNjRsMCAzMiAxNjAgMCAwLTMyLTE2MCAwem0tNDggMGMwLTI2LjUgMjEuNS00OCA0OC00OGwxNjAgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDMyYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0xNjAgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const HockeyStickPuck: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M499 2.7c11.8 6.1 16.4 20.6 10.3 32.3L282.7 473.1c-12.4 23.9-37 38.9-64 38.9L64 512c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l240 0c1.3 0 2.5 .1 3.7 .3L466.7 13C472.8 1.2 487.3-3.4 499 2.7zM283 368l-139 0 0 96 74.8 0c9 0 17.2-5 21.3-13L283 368zM64 368c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l32 0 0-96-32 0zm368 64l0 32 160 0 0-32-160 0zm-48 0c0-26.5 21.5-48 48-48l160 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48l-160 0c-26.5 0-48-21.5-48-48l0-32z" />
+    </Icon>
+);
+
+export default HockeyStickPuck;

@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `avocado` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/avocado?s=sharp-duotone-solid avocado}
+ * @preview ![avocado](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02MC45IDE1Ni45Yy04MS4yIDgxLjItODEuMiAyMTIuOSAwIDI5NC4yczIxMi45IDgxLjIgMjk0LjIgMGM0MS43LTQxLjcgNjItOTYuNyA2MC45LTE1MS40bDUzLjktNTMuOWM1Ni4yLTU2LjIgNTYuMi0xNDcuNCAwLTIwMy42QzQ0MS43IDE0LjEgNDA0LjkgMCAzNjggMHMtNzMuNyAxNC4xLTEwMS44IDQyLjJMMjEyLjMgOTZjLTU0LjctMS4xLTEwOS43IDE5LjItMTUxLjQgNjAuOXptODcuNSAyMDYuN2MtMzIuNy0zMi43LTI1LjMtOTMgMTYuNC0xMzQuOEMxODkgMjA0LjYgMjE5LjQgMTkyIDI0Ny4xIDE5MmMyMC4xIDAgMzguNyA2LjcgNTIuNSAyMC40czIwLjQgMzIuNCAyMC40IDUyLjVjMCAyNy43LTEyLjYgNTguMS0zNi44IDgyLjNjLTQxLjcgNDEuNy0xMDIuMSA0OS4xLTEzNC44IDE2LjR6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yOTkuNiAyMTIuNGMzMi43IDMyLjcgMjUuMyA5My0xNi40IDEzNC44cy0xMDIuMSA0OS4xLTEzNC44IDE2LjRzLTI1LjMtOTMgMTYuNC0xMzQuOHMxMDIuMS00OS4xIDEzNC44LTE2LjR6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Avocado: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M60.9 156.9c-81.2 81.2-81.2 212.9 0 294.2s212.9 81.2 294.2 0c41.7-41.7 62-96.7 60.9-151.4l53.9-53.9c56.2-56.2 56.2-147.4 0-203.6C441.7 14.1 404.9 0 368 0s-73.7 14.1-101.8 42.2L212.3 96c-54.7-1.1-109.7 19.2-151.4 60.9zm87.5 206.7c-32.7-32.7-25.3-93 16.4-134.8C189 204.6 219.4 192 247.1 192c20.1 0 38.7 6.7 52.5 20.4s20.4 32.4 20.4 52.5c0 27.7-12.6 58.1-36.8 82.3c-41.7 41.7-102.1 49.1-134.8 16.4z" />
+            <path d="M299.6 212.4c32.7 32.7 25.3 93-16.4 134.8s-102.1 49.1-134.8 16.4s-25.3-93 16.4-134.8s102.1-49.1 134.8-16.4z" />
+    </Icon>
+);
+
+export default Avocado;

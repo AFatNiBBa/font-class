@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `autoprefixer` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `autoprefixer` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/autoprefixer?s=brands autoprefixer}
- * @preview ![autoprefixer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMTguNCAxNmwtMTYxIDQ4MGg3Ny41bDI1LjQtODEuNGgxMTkuNUw0MDUgNDk2aDc3LjVMMzE4LjQgMTZ6bS00MC4zIDM0MS45bDQxLjItMTMwLjRoMS41bDQwLjkgMTMwLjRoLTgzLjZ6TTY0MCA0MDVsLTEwLTMxLjRMNDYyLjEgMzU4bDE5LjQgNTYuNUw2NDAgNDA1em0tNDYyLjEtNDdMMTAgMzczLjcgMCA0MDVsMTU4LjUgOS40IDE5LjQtNTYuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![autoprefixer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE4LjQgMTZsLTE2MSA0ODBoNzcuNWwyNS40LTgxLjRoMTE5LjVMNDA1IDQ5Nmg3Ny41TDMxOC40IDE2em0tNDAuMyAzNDEuOWw0MS4yLTEzMC40aDEuNWw0MC45IDEzMC40aC04My42ek02NDAgNDA1bC0xMC0zMS40TDQ2Mi4xIDM1OGwxOS40IDU2LjVMNjQwIDQwNXptLTQ2Mi4xLTQ3TDEwIDM3My43IDAgNDA1bDE1OC41IDkuNCAxOS40LTU2LjR6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Autoprefixer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

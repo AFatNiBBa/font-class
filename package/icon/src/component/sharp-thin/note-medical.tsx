@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `note-medical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/note-medical?s=sharp-thin note-medical}
+ * @preview ![note-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDQ4bDAgMjcyLTEyOCAwLTE2IDAgMCAxNiAwIDEyOEwxNiA0NjQgMTYgNDhsNDE2IDB6bS02LjYgMjg4TDMwNCA0NTcuNCAzMDQgMzM2bDEyMS40IDB6TTE2IDQ4MGwyNzIgMCAxNiAwTDQ0OCAzMzZsMC0xNiAwLTI3MiAwLTE2LTE2IDBMMTYgMzIgMCAzMiAwIDQ4IDAgNDY0bDAgMTYgMTYgMHpNMTkyIDExMmwtOCAwIDAgOCAwIDY0LTY0IDAtOCAwIDAgOCAwIDY0IDAgOCA4IDAgNjQgMCAwIDY0IDAgOCA4IDAgNjQgMCA4IDAgMC04IDAtNjQgNjQgMCA4IDAgMC04IDAtNjQgMC04LTggMC02NCAwIDAtNjQgMC04LTggMC02NCAwem04IDgwbDAtNjQgNDggMCAwIDY0IDAgOCA4IDAgNjQgMCAwIDQ4LTY0IDAtOCAwIDAgOCAwIDY0LTQ4IDAgMC02NCAwLTgtOCAwLTY0IDAgMC00OCA2NCAwIDggMCAwLTh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const NoteMedical: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M432 48l0 272-128 0-16 0 0 16 0 128L16 464 16 48l416 0zm-6.6 288L304 457.4 304 336l121.4 0zM16 480l272 0 16 0L448 336l0-16 0-272 0-16-16 0L16 32 0 32 0 48 0 464l0 16 16 0zM192 112l-8 0 0 8 0 64-64 0-8 0 0 8 0 64 0 8 8 0 64 0 0 64 0 8 8 0 64 0 8 0 0-8 0-64 64 0 8 0 0-8 0-64 0-8-8 0-64 0 0-64 0-8-8 0-64 0zm8 80l0-64 48 0 0 64 0 8 8 0 64 0 0 48-64 0-8 0 0 8 0 64-48 0 0-64 0-8-8 0-64 0 0-48 64 0 8 0 0-8z" />
+    </Icon>
+);
+
+export default NoteMedical;

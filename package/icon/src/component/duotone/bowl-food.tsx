@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `bowl-food` icon from the `duotone` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/bowl-food?s=duotone bowl-food}
+ * @preview ![bowl-food](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE5MmMwIDExLjcgMy4xIDIyLjYgOC42IDMybDQ5NC45IDBjNS40LTkuNCA4LjYtMjAuMyA4LjYtMzJjMC0zNS4zLTI4LjctNjQtNjQtNjRjLS41IDAtMS4xIDAtMS42IDBDNDM5IDkxLjUgNDA2LjcgNjQgMzY4IDY0Yy0xNSAwLTI5IDQuMS00MC45IDExLjJDMzEzLjggNDkuNiAyODYuOSAzMiAyNTYgMzJzLTU3LjggMTcuNi03MS4xIDQzLjJDMTczIDY4LjEgMTU5IDY0IDE0NCA2NGMtMzguNyAwLTcxIDI3LjUtNzguNCA2NGMtLjUgMC0xLjEgMC0xLjYgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjR6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yNy40IDI1NkMxMi4zIDI1NiAwIDI2OC4zIDAgMjgzLjRjMCA3MC41IDQ0LjQgMTMwLjcgMTA2LjcgMTU0LjFsMS44IDE0LjRjMiAxNiAxNS42IDI4IDMxLjggMjhsMjMxLjUgMGMxNi4xIDAgMjkuOC0xMiAzMS44LTI4bDEuOC0xNC40QzQ2Ny42IDQxNC4xIDUxMiAzNTMuOSA1MTIgMjgzLjRjMC0xNS4xLTEyLjMtMjcuNC0yNy40LTI3LjRMMjcuNCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const BowlFood: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M0 192c0 11.7 3.1 22.6 8.6 32l494.9 0c5.4-9.4 8.6-20.3 8.6-32c0-35.3-28.7-64-64-64c-.5 0-1.1 0-1.6 0C439 91.5 406.7 64 368 64c-15 0-29 4.1-40.9 11.2C313.8 49.6 286.9 32 256 32s-57.8 17.6-71.1 43.2C173 68.1 159 64 144 64c-38.7 0-71 27.5-78.4 64c-.5 0-1.1 0-1.6 0c-35.3 0-64 28.7-64 64z" />
+            <path d="M27.4 256C12.3 256 0 268.3 0 283.4c0 70.5 44.4 130.7 106.7 154.1l1.8 14.4c2 16 15.6 28 31.8 28l231.5 0c16.1 0 29.8-12 31.8-28l1.8-14.4C467.6 414.1 512 353.9 512 283.4c0-15.1-12.3-27.4-27.4-27.4L27.4 256z" />
+    </Icon>
+);
+
+export default BowlFood;

@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `keyboard-down` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/keyboard-down?s=sharp-duotone-solid keyboard-down}
+ * @preview ![keyboard-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDBMNTc2IDBsMCAyODhMMCAyODggMCAwek02NCA2NGwwIDY0IDY0IDAgMC02NEw2NCA2NHptMCA5NmwwIDY0IDY0IDAgMC02NC02NCAwem05Ni05NmwwIDY0IDY0IDAgMC02NC02NCAwem0wIDk2bDAgNjQgMjU2IDAgMC02NC0yNTYgMHptOTYtOTZsMCA2NCA2NCAwIDAtNjQtNjQgMHptOTYgMGwwIDY0IDY0IDAgMC02NC02NCAwem05NiAwbDAgNjQgNjQgMCAwLTY0LTY0IDB6bTAgOTZsMCA2NCA2NCAwIDAtNjQtNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTEyOCA2NEw2NCA2NGwwIDY0IDY0IDAgMC02NHptMCA5NmwtNjQgMCAwIDY0IDY0IDAgMC02NHptMzIwIDBsMCA2NCA2NCAwIDAtNjQtNjQgMHpNMjI0IDY0bC02NCAwIDAgNjQgNjQgMCAwLTY0em0zMiAwbDAgNjQgNjQgMCAwLTY0LTY0IDB6bTE2MCAwbC02NCAwIDAgNjQgNjQgMCAwLTY0em0zMiAwbDAgNjQgNjQgMCAwLTY0LTY0IDB6TTE2MCAzNTJsMCAzMkwyODggNTEyIDQxNiAzODRsMC0zMi0yNTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const KeyboardDown: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path class={generic.secondary} d="M0 0L576 0l0 288L0 288 0 0zM64 64l0 64 64 0 0-64L64 64zm0 96l0 64 64 0 0-64-64 0zm96-96l0 64 64 0 0-64-64 0zm0 96l0 64 256 0 0-64-256 0zm96-96l0 64 64 0 0-64-64 0zm96 0l0 64 64 0 0-64-64 0zm96 0l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0z" />
+            <path d="M128 64L64 64l0 64 64 0 0-64zm0 96l-64 0 0 64 64 0 0-64zm320 0l0 64 64 0 0-64-64 0zM224 64l-64 0 0 64 64 0 0-64zm32 0l0 64 64 0 0-64-64 0zm160 0l-64 0 0 64 64 0 0-64zm32 0l0 64 64 0 0-64-64 0zM160 352l0 32L288 512 416 384l0-32-256 0z" />
+    </Icon>
+);
+
+export default KeyboardDown;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `colon-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/colon-sign?s=sharp-light colon-sign}
+ * @preview ![colon-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4LjcgNDIyLjdsLTE2LjMgNjkuNyAzMS4yIDcuMyAxNC43LTYzLjJjMTQuMiA1LjIgMjkuMiA4LjcgNDQuNyAxMC40bC0xMC42IDQ1LjUgMzEuMiA3LjMgMTIuMS01MmM1OC0zLjUgMTA5LjEtMzIuNyAxNDEuOS03Ni40TDM1MiAzNTJjLTI1LjYgMzQtNjQuMyA1Ny41LTEwOC42IDYyLjhsNjguMy0yOTIuN2MxNS41IDEwLjIgMjkuMiAyMyA0MC4zIDM3LjlsMjUuNi0xOS4yYy0xNS43LTIwLjktMzUuNS0zOC40LTU4LjMtNTEuNWwxNi4zLTY5LjctMzEuMi03LjNMMjg5LjcgNzUuNWMtMTQuMi01LjItMjkuMi04LjctNDQuNy0xMC40bDEwLjYtNDUuNS0zMS4yLTcuMy0xMi4xIDUyQzExMS43IDcwLjQgMzIgMTUzLjkgMzIgMjU2YzAgNzEuMyAzOC45IDEzMy42IDk2LjcgMTY2Ljd6bTM3LTE3LjdsNzItMzA4LjVjMTUuNyAxLjMgMzAuNyA0LjkgNDQuNyAxMC40bC03MiAzMDguNWMtMTUuNy0xLjMtMzAuNy00LjktNDQuNy0xMC40em0zOS0zMDcuOUwxMzYuMyAzODkuOUM5Mi44IDM2MS4zIDY0IDMxMiA2NCAyNTZjMC04MS44IDYxLjQtMTQ5LjMgMTQwLjYtMTU4Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const ColonSign: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M128.7 422.7l-16.3 69.7 31.2 7.3 14.7-63.2c14.2 5.2 29.2 8.7 44.7 10.4l-10.6 45.5 31.2 7.3 12.1-52c58-3.5 109.1-32.7 141.9-76.4L352 352c-25.6 34-64.3 57.5-108.6 62.8l68.3-292.7c15.5 10.2 29.2 23 40.3 37.9l25.6-19.2c-15.7-20.9-35.5-38.4-58.3-51.5l16.3-69.7-31.2-7.3L289.7 75.5c-14.2-5.2-29.2-8.7-44.7-10.4l10.6-45.5-31.2-7.3-12.1 52C111.7 70.4 32 153.9 32 256c0 71.3 38.9 133.6 96.7 166.7zm37-17.7l72-308.5c15.7 1.3 30.7 4.9 44.7 10.4l-72 308.5c-15.7-1.3-30.7-4.9-44.7-10.4zm39-307.9L136.3 389.9C92.8 361.3 64 312 64 256c0-81.8 61.4-149.3 140.6-158.8z" />
+    </Icon>
+);
+
+export default ColonSign;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `arrow-up-z-a` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/arrow-up-z-a?s=sharp-solid arrow-up-z-a}
+ * @preview ![arrow-up-z-a](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDMybDMyIDAgMTI4IDAgMzIgMCAwIDMyIDAgOCAwIDE0LjUtMTAuOSA5LjZMNDI4IDE2MGw1MiAwIDMyIDAgMCA2NC0zMiAwLTEyOCAwLTMyIDAgMC0zMiAwLTggMC0xNC41IDEwLjktOS42TDQwNCA5NmwtNTIgMC0zMiAwIDAtNjR6bS0xNjAgLjZsMjMuNiAyNS43IDg4IDk2TDI5My4yIDE3OCAyNDYgMjIxLjJsLTIxLjYtMjMuNkwxOTIgMTYyLjMgMTkyIDQ0OGwwIDMyLTY0IDAgMC0zMiAwLTI4NS43TDk1LjYgMTk3LjYgNzQgMjIxLjIgMjYuOCAxNzhsMjEuNi0yMy42IDg4LTk2TDE2MCAzMi42ek0zOTUuNSAyNTZsNDEuMSAwIDguNiAxOC43IDg4IDE5MiA2LjEgMTMuMy03MC40IDAtMTQuNy0zMi03Ni4zIDAtMTQuNyAzMi03MC40IDAgNi4xLTEzLjMgODgtMTkyIDguNi0xOC43ek00MTYgMzY0LjhMMzk5LjkgNDAwbDMyLjMgMEw0MTYgMzY0Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const ArrowUpZA: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M320 32l32 0 128 0 32 0 0 32 0 8 0 14.5-10.9 9.6L428 160l52 0 32 0 0 64-32 0-128 0-32 0 0-32 0-8 0-14.5 10.9-9.6L404 96l-52 0-32 0 0-64zm-160 .6l23.6 25.7 88 96L293.2 178 246 221.2l-21.6-23.6L192 162.3 192 448l0 32-64 0 0-32 0-285.7L95.6 197.6 74 221.2 26.8 178l21.6-23.6 88-96L160 32.6zM395.5 256l41.1 0 8.6 18.7 88 192 6.1 13.3-70.4 0-14.7-32-76.3 0-14.7 32-70.4 0 6.1-13.3 88-192 8.6-18.7zM416 364.8L399.9 400l32.3 0L416 364.8z" />
+    </Icon>
+);
+
+export default ArrowUpZA;

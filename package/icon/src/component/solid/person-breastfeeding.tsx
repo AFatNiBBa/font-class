@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `person-breastfeeding` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-breastfeeding?s=solid person-breastfeeding}
+ * @preview ![person-breastfeeding](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBhODAgODAgMCAxIDEgMCAxNjBBODAgODAgMCAxIDEgMjI0IDB6TTQzNi44IDM4Mi44TDM3My41IDQ2MmMtMTYuNiAyMC43LTQ2LjggMjQuMS02Ny41IDcuNWMtMTcuNi0xNC4xLTIyLjctMzguMS0xMy41LTU3LjdsLS44LS4xYy0zOC45LTUuNi03NC4zLTI1LjEtOTkuNy01NC44bDAtMzYuOGMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDQ4YzAgLjggMCAxLjYgLjEgMi40bDEwMS40IDUwLjdjMjMuNyAxMS45IDMzLjMgNDAuNyAyMS41IDY0LjRzLTQwLjcgMzMuMy02NC40IDIxLjVMMjcuMiA0MjcuM2MtMS4xLS41LTIuMi0xLjEtMy4zLTEuN2MtNC45LTIuOC05LjItNi40LTEyLjYtMTAuNmMtNC42LTUuNC03LjgtMTEuNy05LjYtMTguNGMtMy4zLTEyLTEuOS0yNS4yIDQuOC0zNi42Yy42LTEuMSAxLjMtMi4yIDItMy4yTDc1LjYgMjU2LjFjMjYuNy00MC4xIDcxLjctNjQuMSAxMTkuOC02NC4xbDc1LjIgMGM0Ni41IDAgOTAuMSAyMi41IDExNy4yIDYwLjNsNTAuNyA3MC45YzIuMiAzIDQgNi4xIDUuNSA5LjRjMi45IDYuNyA0LjMgMTMuOCA0IDIwLjhjLS4zIDEwLjYtNC4yIDIxLTExLjIgMjkuNHpNMzIwIDMzMmE0NCA0NCAwIDEgMCAtODggMCA0NCA0NCAwIDEgMCA4OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const PersonBreastfeeding: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M224 0a80 80 0 1 1 0 160A80 80 0 1 1 224 0zM436.8 382.8L373.5 462c-16.6 20.7-46.8 24.1-67.5 7.5c-17.6-14.1-22.7-38.1-13.5-57.7l-.8-.1c-38.9-5.6-74.3-25.1-99.7-54.8l0-36.8c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48c0 .8 0 1.6 .1 2.4l101.4 50.7c23.7 11.9 33.3 40.7 21.5 64.4s-40.7 33.3-64.4 21.5L27.2 427.3c-1.1-.5-2.2-1.1-3.3-1.7c-4.9-2.8-9.2-6.4-12.6-10.6c-4.6-5.4-7.8-11.7-9.6-18.4c-3.3-12-1.9-25.2 4.8-36.6c.6-1.1 1.3-2.2 2-3.2L75.6 256.1c26.7-40.1 71.7-64.1 119.8-64.1l75.2 0c46.5 0 90.1 22.5 117.2 60.3l50.7 70.9c2.2 3 4 6.1 5.5 9.4c2.9 6.7 4.3 13.8 4 20.8c-.3 10.6-4.2 21-11.2 29.4zM320 332a44 44 0 1 0 -88 0 44 44 0 1 0 88 0z" />
+    </Icon>
+);
+
+export default PersonBreastfeeding;

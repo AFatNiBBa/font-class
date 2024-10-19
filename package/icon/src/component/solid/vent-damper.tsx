@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `vent-damper` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/vent-damper?s=solid vent-damper}
+ * @preview ![vent-damper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTI4YzAtMzUuMyAyOC43LTY0IDY0LTY0bDM4NCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIgMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDEyOGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMzIgMCAwIDMyYzAgMzUuMy0yOC43IDY0LTY0IDY0bC0zODQgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0zMi0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMkwwIDE5MmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMiAwIDAtMzJ6bTEyMCAxNmMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwyNzIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMjcyIDB6bTAgODhjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMjcyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTI3MiAwem0wIDg4Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDI3MiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0yNzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const VentDamper: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M64 128c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 32 32 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-32 0 0 32c0 35.3-28.7 64-64 64l-384 0c-35.3 0-64-28.7-64-64l0-32-32 0c-17.7 0-32-14.3-32-32L0 192c0-17.7 14.3-32 32-32l32 0 0-32zm120 16c-13.3 0-24 10.7-24 24s10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-272 0zm0 88c-13.3 0-24 10.7-24 24s10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-272 0zm0 88c-13.3 0-24 10.7-24 24s10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-272 0z" />
+    </Icon>
+);
+
+export default VentDamper;

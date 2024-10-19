@@ -2,14 +2,14 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `circle-half-stroke` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `circle-half-stroke` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-half-stroke?s=duotone circle-half-stroke}
- * @preview ![circle-half-stroke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQ5NiAyNTZDNDk2IDM4OC41NDkgMzg4LjU0OSA0OTYgMjU2IDQ5NlY0MzJDMzUzLjA0NyA0MzIgNDMyIDM1My4wNDcgNDMyIDI1NlMzNTMuMDQ3IDgwIDI1NiA4MFYxNkMzODguNTQ5IDE2IDQ5NiAxMjMuNDUxIDQ5NiAyNTZaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTI1NiA0OTZDMTIzLjQ1MyA0OTYgMTYgMzg4LjU0OSAxNiAyNTZTMTIzLjQ1MyAxNiAyNTYgMTZWNDk2WiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-half-stroke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yNTYgMGwwIDY0YzEwNiAwIDE5MiA4NiAxOTIgMTkycy04NiAxOTItMTkyIDE5MmwwIDY0YzE0MS40IDAgMjU2LTExNC42IDI1Ni0yNTZTMzk3LjQgMCAyNTYgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTI1NiAwQzExNC42IDAgMCAxMTQuNiAwIDI1NlMxMTQuNiA1MTIgMjU2IDUxMkwyNTYgMHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const CircleHalfStroke: typeof Icon = x => (
     <Icon {...x}>
-        <path class={generic.secondary} d="M496 256C496 388.549 388.549 496 256 496V432C353.047 432 432 353.047 432 256S353.047 80 256 80V16C388.549 16 496 123.451 496 256Z" />
-            <path d="M256 496C123.453 496 16 388.549 16 256S123.453 16 256 16V496Z" />
+        <path class={generic.secondary} d="M256 0l0 64c106 0 192 86 192 192s-86 192-192 192l0 64c141.4 0 256-114.6 256-256S397.4 0 256 0z" />
+            <path d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512L256 0z" />
     </Icon>
 );
 

@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `house-heart` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/house-heart?s=sharp-duotone-solid house-heart}
+ * @preview ![house-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCAyNzJsLjEgMjQwIDQ0OC41IDAtLjUtMjI0Yy0uMS01LjMtLjEtMTAuNy0uMS0xNkM0MzcuMyAyMTAuNyAzNjIuNyAxNDkuMyAyODggODhDMjEzLjMgMTQ5LjMgMTM4LjcgMjEwLjYgNjQgMjcyem0xMTIgNDMuMmMwLTMyLjcgMjYuNS01OS4yIDU5LjItNTkuMmwyLjQgMGMxNS45IDAgMzEuMiA2LjIgNDIuNyAxNy4ybDcuNyA3LjQgNy43LTcuNGMxMS41LTExIDI2LjgtMTcuMiA0Mi43LTE3LjJsMi40IDBjMzIuNyAwIDU5LjIgMjYuNSA1OS4yIDU5LjJjMCAxNi4xLTYuNiAzMS41LTE4LjIgNDIuN2wtODIuOCA3OS42TDI4OCA0NDguMWwtMTEuMS0xMC43LTgyLjgtNzkuNmMtMTEuNi0xMS4yLTE4LjItMjYuNi0xOC4yLTQyLjd6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yODggMEwwIDI0MGwwIDMyIDY0IDBMMjg4IDg4IDUxMiAyNzJsNjQgMCAwLTMyTDI4OCAwek0xNzYgMzE1LjJjMCAxNi4xIDYuNiAzMS41IDE4LjIgNDIuN2w4Mi44IDc5LjZMMjg4IDQ0OC4xbDExLjEtMTAuNyA4Mi44LTc5LjZjMTEuNi0xMS4yIDE4LjItMjYuNiAxOC4yLTQyLjdjMC0zMi43LTI2LjUtNTkuMi01OS4yLTU5LjJsLTIuNCAwYy0xNS45IDAtMzEuMiA2LjItNDIuNyAxNy4ybC03LjcgNy40LTcuNy03LjRjLTExLjUtMTEtMjYuOC0xNy4yLTQyLjctMTcuMmwtMi40IDBjLTMyLjcgMC01OS4yIDI2LjUtNTkuMiA1OS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const HouseHeart: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path class={generic.secondary} d="M64 272l.1 240 448.5 0-.5-224c-.1-5.3-.1-10.7-.1-16C437.3 210.7 362.7 149.3 288 88C213.3 149.3 138.7 210.6 64 272zm112 43.2c0-32.7 26.5-59.2 59.2-59.2l2.4 0c15.9 0 31.2 6.2 42.7 17.2l7.7 7.4 7.7-7.4c11.5-11 26.8-17.2 42.7-17.2l2.4 0c32.7 0 59.2 26.5 59.2 59.2c0 16.1-6.6 31.5-18.2 42.7l-82.8 79.6L288 448.1l-11.1-10.7-82.8-79.6c-11.6-11.2-18.2-26.6-18.2-42.7z" />
+            <path d="M288 0L0 240l0 32 64 0L288 88 512 272l64 0 0-32L288 0zM176 315.2c0 16.1 6.6 31.5 18.2 42.7l82.8 79.6L288 448.1l11.1-10.7 82.8-79.6c11.6-11.2 18.2-26.6 18.2-42.7c0-32.7-26.5-59.2-59.2-59.2l-2.4 0c-15.9 0-31.2 6.2-42.7 17.2l-7.7 7.4-7.7-7.4c-11.5-11-26.8-17.2-42.7-17.2l-2.4 0c-32.7 0-59.2 26.5-59.2 59.2z" />
+    </Icon>
+);
+
+export default HouseHeart;

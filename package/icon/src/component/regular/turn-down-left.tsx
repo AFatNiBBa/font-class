@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `turn-down-left` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/turn-down-left?s=regular turn-down-left}
+ * @preview ![turn-down-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNi41IDI3MS42Yy04LjcgOS4yLTguNyAyMy43IDAgMzIuOWwxMjEuNCAxMjljOC44IDkuMyAyMSAxNC42IDMzLjcgMTQuNmMyNS42IDAgNDYuMy0yMC43IDQ2LjMtNDYuM2wwLTQxLjcgMTQ0IDBjODguNCAwIDE2MC03MS42IDE2MC0xNjBsMC0xMTJjMC0zMC45LTI1LjEtNTYtNTYtNTZsLTMyIDBjLTMwLjkgMC01NiAyNS4xLTU2IDU2bDAgMTIwYzAgNC40LTMuNiA4LTggOGwtMTUyIDAgMC00MS43YzAtMjUuNi0yMC43LTQ2LjMtNDYuMy00Ni4zYy0xMi44IDAtMjUgNS4zLTMzLjcgMTQuNkw2LjUgMjcxLjZ6bTE1My41LTkzbDAgNjEuNWMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxNzYgMGMzMC45IDAgNTYtMjUuMSA1Ni01NmwwLTEyMGMwLTQuNCAzLjYtOCA4LThsMzIgMGM0LjQgMCA4IDMuNiA4IDhsMCAxMTJjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJsLTE2OCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDYxLjVMNTcgMjg4IDE2MCAxNzguNXoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const TurnDownLeft: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M6.5 271.6c-8.7 9.2-8.7 23.7 0 32.9l121.4 129c8.8 9.3 21 14.6 33.7 14.6c25.6 0 46.3-20.7 46.3-46.3l0-41.7 144 0c88.4 0 160-71.6 160-160l0-112c0-30.9-25.1-56-56-56l-32 0c-30.9 0-56 25.1-56 56l0 120c0 4.4-3.6 8-8 8l-152 0 0-41.7c0-25.6-20.7-46.3-46.3-46.3c-12.8 0-25 5.3-33.7 14.6L6.5 271.6zm153.5-93l0 61.5c0 13.3 10.7 24 24 24l176 0c30.9 0 56-25.1 56-56l0-120c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 112c0 61.9-50.1 112-112 112l-168 0c-13.3 0-24 10.7-24 24l0 61.5L57 288 160 178.5z" />
+    </Icon>
+);
+
+export default TurnDownLeft;

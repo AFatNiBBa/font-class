@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `plane-prop` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/plane-prop?s=sharp-solid plane-prop}
+ * @preview ![plane-prop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBsNjQgMCA4IDY0IDQwIDAgMC0xNiAwLTE2IDMyIDAgMCAxNiAwIDMyYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bDAgMzIgMCAxNi0zMiAwIDAtMTYgMC0xNi0zMiAwIDggNjQgMTM4LjMgMGMzNC4yIDAgOTMuNyAyOSA5My43IDY0YzAgMzYtNTkuNSA2NC05My43IDY0TDM0NCAzMjBsLTggNjQgMzIgMCAwLTE2IDAtMTYgMzIgMCAwIDE2IDAgMzJjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsMCAzMiAwIDE2LTMyIDAgMC0xNiAwLTE2LTQwIDAtOCA2NC02NCAwLTgtNjQtNTYgMCAwLTY0IDQ4IDAtOC4zLTY2LjQtMTEwLTExTDExMiAzODRsLTY0IDBMMzYgMjg3LjhjLTEuMyAuMi0yLjYgLjItNCAuMmMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmMxLjMgMCAyLjcgLjEgNCAuMkw0OCAxMjhsNjQgMCA5LjcgNzcuNCAxMTAtMTFMMjQwIDEyOGwtNDggMCAwLTY0IDU2IDAgOC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const PlaneProp: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M256 0l64 0 8 64 40 0 0-16 0-16 32 0 0 16 0 32c8.8 0 16 7.2 16 16s-7.2 16-16 16l0 32 0 16-32 0 0-16 0-16-32 0 8 64 138.3 0c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64L344 320l-8 64 32 0 0-16 0-16 32 0 0 16 0 32c8.8 0 16 7.2 16 16s-7.2 16-16 16l0 32 0 16-32 0 0-16 0-16-40 0-8 64-64 0-8-64-56 0 0-64 48 0-8.3-66.4-110-11L112 384l-64 0L36 287.8c-1.3 .2-2.6 .2-4 .2c-17.7 0-32-14.3-32-32s14.3-32 32-32c1.3 0 2.7 .1 4 .2L48 128l64 0 9.7 77.4 110-11L240 128l-48 0 0-64 56 0 8-64z" />
+    </Icon>
+);
+
+export default PlaneProp;

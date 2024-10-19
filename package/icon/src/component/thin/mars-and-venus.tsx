@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `mars-and-venus` icon from the `thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/mars-and-venus?s=thin mars-and-venus}
+ * @preview ![mars-and-venus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDhjMCA0LjQgMy42IDggOCA4bDkyLjcgMC05Ny4yIDk3LjJDMzQyLjMgODIuOSAzMDEuNCA2NCAyNTYgNjRDMTY3LjYgNjQgOTYgMTM1LjYgOTYgMjI0YzAgODUuNyA2Ny40IDE1NS42IDE1MiAxNTkuOGwwIDQ4LjItNDggMGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGw0OCAwIDAgNTZjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTU2IDQ4IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTQ4IDAgMC00OC4yYzg0LjYtNC4yIDE1Mi03NC4xIDE1Mi0xNTkuOGMwLTM3LjItMTIuNy03MS41LTM0LTk4LjdsOTgtOTggMCA5Mi43YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThMNDk2IDhjMC00LjQtMy42LTgtOC04TDM3NiAwYy00LjQgMC04IDMuNi04IDh6TTI1NiA4MGExNDQgMTQ0IDAgMSAxIDAgMjg4IDE0NCAxNDQgMCAxIDEgMC0yODh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const MarsAndVenus: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M368 8c0 4.4 3.6 8 8 8l92.7 0-97.2 97.2C342.3 82.9 301.4 64 256 64C167.6 64 96 135.6 96 224c0 85.7 67.4 155.6 152 159.8l0 48.2-48 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l48 0 0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 48 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-48 0 0-48.2c84.6-4.2 152-74.1 152-159.8c0-37.2-12.7-71.5-34-98.7l98-98 0 92.7c0 4.4 3.6 8 8 8s8-3.6 8-8L496 8c0-4.4-3.6-8-8-8L376 0c-4.4 0-8 3.6-8 8zM256 80a144 144 0 1 1 0 288 144 144 0 1 1 0-288z" />
+    </Icon>
+);
+
+export default MarsAndVenus;

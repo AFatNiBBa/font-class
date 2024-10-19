@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `code-pull-request` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/code-pull-request?s=sharp-duotone-solid code-pull-request}
+ * @preview ![code-pull-request](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik00OCAxNjBsOCAwIDQ4IDAgOCAwIDAgMTkyLTggMC00OCAwLTggMCAwLTE5MnpNMTkyIDk2TDI4OCAwbDMyIDAgMCA2NCAxNiAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4bDAgMTYwLTggMC00OCAwLTggMCAwLTE2MGMwLTM1LjMtMjguNy02NC02NC02NGwtMTYgMCAwIDY0LTMyIDBMMTkyIDk2eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTA0IDU2bDAgNDgtNDggMCAwLTQ4IDQ4IDB6TTU2IDBMMCAwIDAgNTZsMCA0OCAwIDU2IDU2IDAgNDggMCA1NiAwIDAtNTYgMC00OCAwLTU2TDEwNCAwIDU2IDB6bTQ4IDQwOGwwIDQ4LTQ4IDAgMC00OCA0OCAwek01NiAzNTJMMCAzNTJsMCA1NiAwIDQ4IDAgNTYgNTYgMCA0OCAwIDU2IDAgMC01NiAwLTQ4IDAtNTYtNTYgMC00OCAwem0zNTIgNTZsNDggMCAwIDQ4LTQ4IDAgMC00OHptLTU2LTU2bDAgNTYgMCA0OCAwIDU2IDU2IDAgNDggMCA1NiAwIDAtNTYgMC00OCAwLTU2LTU2IDAtNDggMC01NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const CodePullRequest: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M48 160l8 0 48 0 8 0 0 192-8 0-48 0-8 0 0-192zM192 96L288 0l32 0 0 64 16 0c70.7 0 128 57.3 128 128l0 160-8 0-48 0-8 0 0-160c0-35.3-28.7-64-64-64l-16 0 0 64-32 0L192 96z" />
+            <path d="M104 56l0 48-48 0 0-48 48 0zM56 0L0 0 0 56l0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56L104 0 56 0zm48 408l0 48-48 0 0-48 48 0zM56 352L0 352l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0zm352 56l48 0 0 48-48 0 0-48zm-56-56l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0-56 0z" />
+    </Icon>
+);
+
+export default CodePullRequest;

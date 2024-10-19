@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `fire-extinguisher` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/fire-extinguisher?s=sharp-light fire-extinguisher}
+ * @preview ![fire-extinguisher](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBsMCA2NEMxMDQuNSA2NCA1NS42IDkyLjMgMjcgMTM1LjFjLTcuMyAxMS0xMy40IDIyLjktMTcuOCAzNS42bDMwLjIgMTAuN2MzLjYtMTAuMSA4LjQtMTkuNyAxNC4zLTI4LjRDNzYuNSAxMTguNiAxMTUuNiA5NiAxNjAgOTZsMCAzMy4xYy01NC4zIDcuOC05NiA1NC40LTk2IDExMC45bDAgMjQwIDAgMzIgMzIgMCAxNjAgMCAzMiAwIDAtMzIgMC0yNDBjMC01Ni40LTQxLjctMTAzLjEtOTYtMTEwLjlMMTkyIDk2bDk2IDAgMCAzMiAxOTIgMjcuNCAzMiA0LjYgMC0zMi4zIDAtOTUuNEw1MTIgMCA0ODAgNC42IDI4OCAzMmwwIDMyLTk2IDAgMC02NEwxNjAgMHpNMzIwIDEwMC4ybDAtNDAuNUw0ODAgMzYuOWwwIDg2LjJMMzIwIDEwMC4yek0yNTYgMzg0TDk2IDM4NGwwLTE0NGMwLTQ0LjIgMzUuOC04MCA4MC04MHM4MCAzNS44IDgwIDgwbDAgMTQ0ek05NiA0MTZsMTYwIDAgMCA2NEw5NiA0ODBsMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const FireExtinguisher: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M160 0l0 64C104.5 64 55.6 92.3 27 135.1c-7.3 11-13.4 22.9-17.8 35.6l30.2 10.7c3.6-10.1 8.4-19.7 14.3-28.4C76.5 118.6 115.6 96 160 96l0 33.1c-54.3 7.8-96 54.4-96 110.9l0 240 0 32 32 0 160 0 32 0 0-32 0-240c0-56.4-41.7-103.1-96-110.9L192 96l96 0 0 32 192 27.4 32 4.6 0-32.3 0-95.4L512 0 480 4.6 288 32l0 32-96 0 0-64L160 0zM320 100.2l0-40.5L480 36.9l0 86.2L320 100.2zM256 384L96 384l0-144c0-44.2 35.8-80 80-80s80 35.8 80 80l0 144zM96 416l160 0 0 64L96 480l0-64z" />
+    </Icon>
+);
+
+export default FireExtinguisher;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `user-group-simple` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/user-group-simple?s=sharp-light user-group-simple}
+ * @preview ![user-group-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMTM2YTcyIDcyIDAgMSAxIDE0NCAwQTcyIDcyIDAgMSAxIDg4IDEzNnptMTc2IDBBMTA0IDEwNCAwIDEgMCA1NiAxMzZhMTA0IDEwNCAwIDEgMCAyMDggMHptMTQ0IDBhNzIgNzIgMCAxIDEgMTQ0IDAgNzIgNzIgMCAxIDEgLTE0NCAwem0xNzYgMGExMDQgMTA0IDAgMSAwIC0yMDggMCAxMDQgMTA0IDAgMSAwIDIwOCAwek04Ny4xIDMyMGwxNDUuOSAwIDQyLjcgMTI4TDQ0LjQgNDQ4IDg3LjEgMzIwek0yNTYgMjg4TDY0IDI4OCAxMC43IDQ0OCAwIDQ4MGwzMy43IDAgMjUyLjUgMCAzMy43IDAtMTAuNy0zMkwyNTYgMjg4em0xMDguNCAzMmwyMzEuMiAwTDU1Mi45IDQ0OGwtMTQ1LjkgMEwzNjQuNCAzMjB6TTM4NCA0ODBsMTkyIDAgNTMuMy0xNjBMNjQwIDI4OGwtMzMuNyAwLTI1Mi41IDBMMzIwIDI4OGwxMC43IDMyTDM4NCA0ODB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const UserGroupSimple: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M88 136a72 72 0 1 1 144 0A72 72 0 1 1 88 136zm176 0A104 104 0 1 0 56 136a104 104 0 1 0 208 0zm144 0a72 72 0 1 1 144 0 72 72 0 1 1 -144 0zm176 0a104 104 0 1 0 -208 0 104 104 0 1 0 208 0zM87.1 320l145.9 0 42.7 128L44.4 448 87.1 320zM256 288L64 288 10.7 448 0 480l33.7 0 252.5 0 33.7 0-10.7-32L256 288zm108.4 32l231.2 0L552.9 448l-145.9 0L364.4 320zM384 480l192 0 53.3-160L640 288l-33.7 0-252.5 0L320 288l10.7 32L384 480z" />
+    </Icon>
+);
+
+export default UserGroupSimple;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `text-width` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/text-width?s=sharp-regular text-width}
+ * @preview ![text-width](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMzJMMCAzMiAwIDU2bDAgNTYgMCAyNCA0OCAwIDAtMjQgMC0zMiAxNTIgMCAwIDE2MC0zMiAwLTI0IDAgMCA0OCAyNCAwIDExMiAwIDI0IDAgMC00OC0yNCAwLTMyIDAgMC0xNjAgMTUyIDAgMCAzMiAwIDI0IDQ4IDAgMC0yNCAwLTU2IDAtMjQtMjQgMEwyNCAzMnpNNDI5LjggNDAxbDE3LTE3LTE3LTE3TDM2OSAzMDYuMmwtMTctMTctMzMuOSAzMy45IDE3IDE3TDM1NC45IDM2MCA5My4xIDM2MCAxMTMgMzQwLjJsMTctMTdMOTYgMjg5LjNsLTE3IDE3TDE4LjIgMzY3bC0xNyAxNyAxNyAxN0w3OSA0NjEuOGwxNyAxNyAzMy45LTMzLjktMTctMTdMOTMuMSA0MDhsMjYxLjcgMEwzMzUgNDI3LjhsLTE3IDE3TDM1MiA0NzguN2wxNy0xN0w0MjkuOCA0MDF6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const TextWidth: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M24 32L0 32 0 56l0 56 0 24 48 0 0-24 0-32 152 0 0 160-32 0-24 0 0 48 24 0 112 0 24 0 0-48-24 0-32 0 0-160 152 0 0 32 0 24 48 0 0-24 0-56 0-24-24 0L24 32zM429.8 401l17-17-17-17L369 306.2l-17-17-33.9 33.9 17 17L354.9 360 93.1 360 113 340.2l17-17L96 289.3l-17 17L18.2 367l-17 17 17 17L79 461.8l17 17 33.9-33.9-17-17L93.1 408l261.7 0L335 427.8l-17 17L352 478.7l17-17L429.8 401z" />
+    </Icon>
+);
+
+export default TextWidth;

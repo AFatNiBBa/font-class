@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `backpack` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/backpack?s=sharp-light backpack}
+ * @preview ![backpack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBsMTYgMEwyODggMGwxNiAwIDAgMTYgMCA0OCAxNiAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4bDAgMjg4IDAgMzItMzIgMEwzMiA1MTIgMCA1MTJsMC0zMkwwIDE5MkMwIDEyMS4zIDU3LjMgNjQgMTI4IDY0bDE2IDAgMC00OCAwLTE2ek0yNzIgMzJsLTk2IDAgMCAzMiA5NiAwIDAtMzJ6TTMyIDE5MmwwIDI4OCA0OCAwIDAtMTEyIDAtOTYgMC0xNiAxNiAwIDI1NiAwIDE2IDAgMCAxNiAwIDk2IDAgMTEyIDQ4IDAgMC0yODhjMC01My00My05Ni05Ni05NmwtMzIgMEwxNjAgOTZsLTMyIDBjLTUzIDAtOTYgNDMtOTYgOTZ6bTgwIDI4OGwyMjQgMCAwLTk2LTIyNCAwIDAgOTZ6bTMyLTMyMGwxNjAgMCAxNiAwIDAgMzItMTYgMC0xNjAgMC0xNiAwIDAtMzIgMTYgMHpNMzM2IDM1MmwwLTY0LTIyNCAwIDAgNjQgMjI0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Backpack: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M144 0l16 0L288 0l16 0 0 16 0 48 16 0c70.7 0 128 57.3 128 128l0 288 0 32-32 0L32 512 0 512l0-32L0 192C0 121.3 57.3 64 128 64l16 0 0-48 0-16zM272 32l-96 0 0 32 96 0 0-32zM32 192l0 288 48 0 0-112 0-96 0-16 16 0 256 0 16 0 0 16 0 96 0 112 48 0 0-288c0-53-43-96-96-96l-32 0L160 96l-32 0c-53 0-96 43-96 96zm80 288l224 0 0-96-224 0 0 96zm32-320l160 0 16 0 0 32-16 0-160 0-16 0 0-32 16 0zM336 352l0-64-224 0 0 64 224 0z" />
+    </Icon>
+);
+
+export default Backpack;

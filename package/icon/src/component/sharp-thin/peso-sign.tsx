@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `peso-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/peso-sign?s=sharp-thin peso-sign}
+ * @preview ![peso-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzJsOCAwIDEyOCAwYzcwLjEgMCAxMjkuMSA0Ny41IDE0Ni43IDExMmw1My4zIDAgMCAxNi00OS45IDBjMS4yIDcuOCAxLjkgMTUuOCAxLjkgMjRjMCAxMy44LTEuOCAyNy4zLTUuMyA0MGw1My4zIDAgMCAxNi01OC42IDBjLTIyLjMgNTYuMi03Ny4yIDk2LTE0MS40IDk2TDY0IDMzNmwwIDEzNiAwIDgtMTYgMCAwLTggMC0xNDQgMC04OEwwIDI0MGwwLTE2IDQ4IDAgMC02NEwwIDE2MGwwLTE2IDQ4IDBMNDggNDBsMC04ek02NCAyNDBsMCA4MCAxMjAgMGM1NS4xIDAgMTAyLjYtMzIuOCAxMjQtODBMNjQgMjQwem0yNTAtMTZjMy45LTEyLjYgNi0yNi4xIDYtNDBjMC04LjItLjctMTYuMi0yLjEtMjRMNjQgMTYwbDAgNjQgMjUwIDB6TTE4NCA0OEw2NCA0OGwwIDk2IDI1MCAwYy0xNy4xLTU1LjYtNjguOC05Ni0xMzAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const PesoSign: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M48 32l8 0 128 0c70.1 0 129.1 47.5 146.7 112l53.3 0 0 16-49.9 0c1.2 7.8 1.9 15.8 1.9 24c0 13.8-1.8 27.3-5.3 40l53.3 0 0 16-58.6 0c-22.3 56.2-77.2 96-141.4 96L64 336l0 136 0 8-16 0 0-8 0-144 0-88L0 240l0-16 48 0 0-64L0 160l0-16 48 0L48 40l0-8zM64 240l0 80 120 0c55.1 0 102.6-32.8 124-80L64 240zm250-16c3.9-12.6 6-26.1 6-40c0-8.2-.7-16.2-2.1-24L64 160l0 64 250 0zM184 48L64 48l0 96 250 0c-17.1-55.6-68.8-96-130-96z" />
+    </Icon>
+);
+
+export default PesoSign;

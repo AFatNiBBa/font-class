@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `dice-d12` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/dice-d12?s=sharp-solid dice-d12}
+ * @preview ![dice-d12](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI0LjYgMEwxODcuNCAwIDk0LjggNTMuNCAyNTYgMTExIDQxNy4yIDUzLjQgMzI0LjYgMHpNNDQ3LjkgNzYuNEwyNzIgMTM5LjNsMCAxMDYuOCAxMDguOCA1NC40TDUwNS40IDE3NiA0NDcuOSA3Ni40ek01MTIgMjE0LjZMMzk4LjEgMzI4LjUgMzQ0LjMgNTAwLjZsOTkuMS01Ny4yTDUxMiAzMjQuNmwwLTExMHpNMzA3LjIgNTEybDU3LjQtMTgzLjhMMjU2IDI3My45IDE0Ny4zIDMyOC4yIDIwNC44IDUxMmwxMDIuNSAwek0xNjcuNyA1MDAuNkwxMTMuOSAzMjguNSAwIDIxNC42bDAgMTEwTDY4LjYgNDQzLjRsOTkuMSA1Ny4yek02LjYgMTc2TDEzMS4yIDMwMC41IDI0MCAyNDYuMWwwLTEwNi44TDY0LjEgNzYuNCA2LjYgMTc2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const DiceD12: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M324.6 0L187.4 0 94.8 53.4 256 111 417.2 53.4 324.6 0zM447.9 76.4L272 139.3l0 106.8 108.8 54.4L505.4 176 447.9 76.4zM512 214.6L398.1 328.5 344.3 500.6l99.1-57.2L512 324.6l0-110zM307.2 512l57.4-183.8L256 273.9 147.3 328.2 204.8 512l102.5 0zM167.7 500.6L113.9 328.5 0 214.6l0 110L68.6 443.4l99.1 57.2zM6.6 176L131.2 300.5 240 246.1l0-106.8L64.1 76.4 6.6 176z" />
+    </Icon>
+);
+
+export default DiceD12;

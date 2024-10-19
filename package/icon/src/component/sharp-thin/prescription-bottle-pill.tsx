@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `prescription-bottle-pill` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/prescription-bottle-pill?s=sharp-thin prescription-bottle-pill}
+ * @preview ![prescription-bottle-pill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDE2bDAgOTZMMTYgMTEybDAtOTYgMzUyIDB6TTE2IDBMMCAwIDAgMTZsMCA5NiAwIDE2IDE2IDAgMzUyIDAgMTYgMCAwLTE2IDAtOTYgMC0xNkwzNjggMCAxNiAwek0zMiA0MTZsMCA4MCAwIDE2IDE2IDAgMjgyLjggMGMtNi45LTQuOS0xMy41LTEwLjItMTkuNi0xNkw0OCA0OTZsMC04MCAxMDQgMCA4IDAgMC0xNi04IDBMNDggNDAwbDAtODAgMTA0IDAgOCAwIDAtMTYtOCAwTDQ4IDMwNGwwLTgwIDEwNCAwIDggMCAwLTE2LTggMEw0OCAyMDhsMC00OC0xNiAwIDAgNDggMCAxNiAwIDgwIDAgMTYgMCA4MCAwIDE2ek0zNTIgMTYwbC0xNiAwIDAgNjAuNWM1LjItMy40IDEwLjUtNi41IDE2LTkuM2wwLTUxLjJ6bTgwIDgwYTEyOCAxMjggMCAxIDEgMCAyNTYgMTI4IDEyOCAwIDEgMSAwLTI1NnptMCAyNzJhMTQ0IDE0NCAwIDEgMCAwLTI4OCAxNDQgMTQ0IDAgMSAwIDAgMjg4ek0zNzYgMzAwLjdMMzY0LjcgMzEybDUuNyA1LjcgMTEyIDExMiA1LjcgNS43TDQ5OS4zIDQyNGwtNS43LTUuNy0xMTItMTEyLTUuNy01Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const PrescriptionBottlePill: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M368 16l0 96L16 112l0-96 352 0zM16 0L0 0 0 16l0 96 0 16 16 0 352 0 16 0 0-16 0-96 0-16L368 0 16 0zM32 416l0 80 0 16 16 0 282.8 0c-6.9-4.9-13.5-10.2-19.6-16L48 496l0-80 104 0 8 0 0-16-8 0L48 400l0-80 104 0 8 0 0-16-8 0L48 304l0-80 104 0 8 0 0-16-8 0L48 208l0-48-16 0 0 48 0 16 0 80 0 16 0 80 0 16zM352 160l-16 0 0 60.5c5.2-3.4 10.5-6.5 16-9.3l0-51.2zm80 80a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 272a144 144 0 1 0 0-288 144 144 0 1 0 0 288zM376 300.7L364.7 312l5.7 5.7 112 112 5.7 5.7L499.3 424l-5.7-5.7-112-112-5.7-5.7z" />
+    </Icon>
+);
+
+export default PrescriptionBottlePill;

@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `maxcdn` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `maxcdn` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/maxcdn?s=brands maxcdn}
- * @preview ![maxcdn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NjEuMSA0NDIuN2gtOTcuNEw0MTUuNiAyMDBjMi4zLTEwLjIuOS0xOS41LTQuNC0yNS43LTUtNi4xLTEzLjctOS42LTI0LjItOS42aC00OS4zbC01OS41IDI3OGgtOTcuNGw1OS41LTI3OGgtODMuNGwtNTkuNSAyNzhIMGw1OS41LTI3OC00NC42LTk1LjRIMzg3YzM5LjQgMCA3NS4zIDE2LjMgOTguMyA0NC45IDIzLjMgMjguNiAzMS44IDY3LjQgMjMuNiAxMDUuOWwtNDcuOCAyMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![maxcdn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDYxLjEgNDQyLjdoLTk3LjRMNDE1LjYgMjAwYzIuMy0xMC4yLjktMTkuNS00LjQtMjUuNy01LTYuMS0xMy43LTkuNi0yNC4yLTkuNmgtNDkuM2wtNTkuNSAyNzhoLTk3LjRsNTkuNS0yNzhoLTgzLjRsLTU5LjUgMjc4SDBsNTkuNS0yNzgtNDQuNi05NS40SDM4N2MzOS40IDAgNzUuMyAxNi4zIDk4LjMgNDQuOSAyMy4zIDI4LjYgMzEuOCA2Ny40IDIzLjYgMTA1LjlsLTQ3LjggMjIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Maxcdn: typeof Icon = x => (
     <Icon {...x}>

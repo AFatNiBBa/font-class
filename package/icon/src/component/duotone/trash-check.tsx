@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `trash-check` icon from the `duotone` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/trash-check?s=duotone trash-check}
+ * @preview ![trash-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiA5NmwzODQgMEwzOTQuNiA0NjYuOGMtMS41IDI1LjQtMjIuNSA0NS4yLTQ3LjkgNDUuMmwtMjQ1LjQgMGMtMjUuNCAwLTQ2LjUtMTkuOC00Ny45LTQ1LjJMMzIgOTZ6bTc5IDE3NWMtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlsNjQgNjRjNC43IDQuNyAxMC44IDcgMTcgN3MxMi4zLTIuMyAxNy03TDMzNyAyNDFjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMGwtMTExIDExMS00Ny00N2MtOS40LTkuNC0yNC42LTkuNC0zMy45IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0xMzUuMiAxNy43TDEyOCAzMiAzMiAzMkMxNC4zIDMyIDAgNDYuMyAwIDY0UzE0LjMgOTYgMzIgOTZsMzg0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJsLTk2IDAtNy4yLTE0LjNDMzA3LjQgNi44IDI5Ni4zIDAgMjg0LjIgMEwxNjMuOCAwYy0xMi4xIDAtMjMuMiA2LjgtMjguNiAxNy43ek0zMzcgMjQxYzkuNC05LjQgOS40LTI0LjYgMC0zMy45cy0yNC42LTkuNC0zMy45IDBsLTExMSAxMTEtNDctNDdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsNjQgNjRjOS40IDkuNCAyNC42IDkuNCAzMy45IDBMMzM3IDI0MXoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const TrashCheck: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M32 96l384 0L394.6 466.8c-1.5 25.4-22.5 45.2-47.9 45.2l-245.4 0c-25.4 0-46.5-19.8-47.9-45.2L32 96zm79 175c-9.4 9.4-9.4 24.6 0 33.9l64 64c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7L337 241c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
+            <path d="M135.2 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0c-12.1 0-23.2 6.8-28.6 17.7zM337 241c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L337 241z" />
+    </Icon>
+);
+
+export default TrashCheck;

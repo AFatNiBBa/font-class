@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `square-poll-horizontal` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/square-poll-horizontal?s=sharp-thin square-poll-horizontal}
+ * @preview ![square-poll-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDQ4TDE2IDQ4bDAgNDE2IDQxNiAwIDAtNDE2em0xNi0xNmwwIDE2IDAgNDE2IDAgMTYtMTYgMEwxNiA0ODAgMCA0ODBsMC0xNkwwIDQ4IDAgMzJsMTYgMCA0MTYgMCAxNiAwek0xMTIgMTQ0bDAgMzIgMTYgMCA5NiAwIDE2IDAgMC0zMi0xNiAwLTk2IDAtMTYgMHptMTQ0IDQ4bC0xNiAwLTE2IDAtOTYgMC0xNiAwLTE2IDAgMC0xNiAwLTMyIDAtMTYgMTYgMCAxNiAwIDk2IDAgMTYgMCAxNiAwIDAgMTYgMCAzMiAwIDE2ek0xMTIgMjQwbDAgMzIgMTYgMCAxOTIgMCAxNiAwIDAtMzItMTYgMC0xOTIgMC0xNiAwem0wIDk2bDAgMzIgMTYgMCAzMiAwIDE2IDAgMC0zMi0xNiAwLTMyIDAtMTYgMHptMTYtMTEybDE5MiAwIDE2IDAgMTYgMCAwIDE2IDAgMzIgMCAxNi0xNiAwLTE2IDAtMTkyIDAtMTYgMC0xNiAwIDAtMTYgMC0zMiAwLTE2IDE2IDAgMTYgMHptMCA5NmwzMiAwIDE2IDAgMTYgMCAwIDE2IDAgMzIgMCAxNi0xNiAwLTE2IDAtMzIgMC0xNiAwLTE2IDAgMC0xNiAwLTMyIDAtMTYgMTYgMCAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const SquarePollHorizontal: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M432 48L16 48l0 416 416 0 0-416zm16-16l0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32l16 0 416 0 16 0zM112 144l0 32 16 0 96 0 16 0 0-32-16 0-96 0-16 0zm144 48l-16 0-16 0-96 0-16 0-16 0 0-16 0-32 0-16 16 0 16 0 96 0 16 0 16 0 0 16 0 32 0 16zM112 240l0 32 16 0 192 0 16 0 0-32-16 0-192 0-16 0zm0 96l0 32 16 0 32 0 16 0 0-32-16 0-32 0-16 0zm16-112l192 0 16 0 16 0 0 16 0 32 0 16-16 0-16 0-192 0-16 0-16 0 0-16 0-32 0-16 16 0 16 0zm0 96l32 0 16 0 16 0 0 16 0 32 0 16-16 0-16 0-32 0-16 0-16 0 0-16 0-32 0-16 16 0 16 0z" />
+    </Icon>
+);
+
+export default SquarePollHorizontal;

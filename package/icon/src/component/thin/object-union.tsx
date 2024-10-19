@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `object-union` icon from the `thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/object-union?s=thin object-union}
+ * @preview ![object-union](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMzNmM4LjggMCAxNiA3LjIgMTYgMTZsMCA5NmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwyMjQgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTIyNGMwLTI2LjUtMjEuNS00OC00OC00OGwtOTYgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtOTZjMC0yNi41LTIxLjUtNDgtNDgtNDhMNjQgMTZDMzcuNSAxNiAxNiAzNy41IDE2IDY0bDAgMjI0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDk2IDB6bS0xNiAxNmwtODAgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjg4IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCA4MCAwIDE2IDE2IDAgODAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDIyNGMwIDM1LjMtMjguNyA2NC02NCA2NGwtMjI0IDBjLTM1LjMgMC02NC0yOC43LTY0LTY0bDAtODAgMC0xNi0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const ObjectUnion: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M160 336c8.8 0 16 7.2 16 16l0 96c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48l-96 0c-8.8 0-16-7.2-16-16l0-96c0-26.5-21.5-48-48-48L64 16C37.5 16 16 37.5 16 64l0 224c0 26.5 21.5 48 48 48l96 0zm-16 16l-80 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L288 0c35.3 0 64 28.7 64 64l0 80 0 16 16 0 80 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-224 0c-35.3 0-64-28.7-64-64l0-80 0-16-16 0z" />
+    </Icon>
+);
+
+export default ObjectUnion;

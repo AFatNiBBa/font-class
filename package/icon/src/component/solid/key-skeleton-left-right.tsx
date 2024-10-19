@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `key-skeleton-left-right` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/key-skeleton-left-right?s=solid key-skeleton-left-right}
+ * @preview ![key-skeleton-left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDEyOGE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6bTY0IDBjMCA3MC43LTU3LjMgMTI4LTEyOCAxMjhjLTU5LjYgMC0xMDkuOC00MC44LTEyNC05NmwtNjggMCAwIDMyYzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtMzItMzIgMCAwIDMyYzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMTk2IDBDNDAyLjIgNDAuOCA0NTIuNCAwIDUxMiAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4ek02NCAzODRhNjQgNjQgMCAxIDAgMTI4IDBBNjQgNjQgMCAxIDAgNjQgMzg0ek0wIDM4NGMwLTcwLjcgNTcuMy0xMjggMTI4LTEyOGM1OS42IDAgMTA5LjggNDAuOCAxMjQgOTZsNjggMCAwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJsMCAzMiAzMiAwIDAtMzJjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xOTYgMGMtMTQuMiA1NS4yLTY0LjMgOTYtMTI0IDk2QzU3LjMgNTEyIDAgNDU0LjcgMCAzODR6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const KeySkeletonLeftRight: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M576 128a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm64 0c0 70.7-57.3 128-128 128c-59.6 0-109.8-40.8-124-96l-68 0 0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32-32 0 0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l196 0C402.2 40.8 452.4 0 512 0c70.7 0 128 57.3 128 128zM64 384a64 64 0 1 0 128 0A64 64 0 1 0 64 384zM0 384c0-70.7 57.3-128 128-128c59.6 0 109.8 40.8 124 96l68 0 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32 32 0 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-196 0c-14.2 55.2-64.3 96-124 96C57.3 512 0 454.7 0 384z" />
+    </Icon>
+);
+
+export default KeySkeletonLeftRight;

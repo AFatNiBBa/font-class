@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `music-note` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/music-note?s=sharp-thin music-note}
+ * @preview ![music-note](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDEyOGwwIDU5LjEgMTQ0LTM5LjMgMC0xMjYuOEwyMjQgNjAuMmwwIDY3Ljh6bS0xNiAwbDAtODBMMzY4IDQuNCAzODQgMGwwIDE2LjZMMzg0IDE2MCAyMjQgMjAzLjYgMjI0IDQzMmMwIDQ0LjItNTAuMSA4MC0xMTIgODBTMCA0NzYuMiAwIDQzMnM1MC4xLTgwIDExMi04MGM0MC43IDAgNzYuNCAxNS41IDk2IDM4LjhMMjA4IDIwOGwwLTE2LjYgMC02My40ek0xODEuOSAzODguNUMxNjQuNiAzNzYuMSAxNDAgMzY4IDExMiAzNjhzLTUyLjYgOC4xLTY5LjkgMjAuNUMyNC44IDQwMC44IDE2IDQxNi40IDE2IDQzMnM4LjggMzEuMiAyNi4xIDQzLjVDNTkuNCA0ODcuOSA4NCA0OTYgMTEyIDQ5NnM1Mi42LTguMSA2OS45LTIwLjVjMTcuMy0xMi4zIDI2LjEtMjggMjYuMS00My41cy04LjgtMzEuMi0yNi4xLTQzLjV6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const MusicNote: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M224 128l0 59.1 144-39.3 0-126.8L224 60.2l0 67.8zm-16 0l0-80L368 4.4 384 0l0 16.6L384 160 224 203.6 224 432c0 44.2-50.1 80-112 80S0 476.2 0 432s50.1-80 112-80c40.7 0 76.4 15.5 96 38.8L208 208l0-16.6 0-63.4zM181.9 388.5C164.6 376.1 140 368 112 368s-52.6 8.1-69.9 20.5C24.8 400.8 16 416.4 16 432s8.8 31.2 26.1 43.5C59.4 487.9 84 496 112 496s52.6-8.1 69.9-20.5c17.3-12.3 26.1-28 26.1-43.5s-8.8-31.2-26.1-43.5z" />
+    </Icon>
+);
+
+export default MusicNote;

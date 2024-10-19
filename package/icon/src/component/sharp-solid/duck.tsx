@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `duck` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/duck?s=sharp-solid duck}
+ * @preview ![duck](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMxLjUgMTI1LjlDNDI2LjUgNzMuMiAzODIgMzIgMzI4IDMyYy01Ny40IDAtMTA0IDQ2LjYtMTA0IDEwNGMwIDM2LjggMTkuMSA2OS4yIDQ4IDg3LjdsMCA0LjlMNjQgMjg4IDMyIDI1NiAwIDI1NmwwIDMyQzAgMzk0IDg2IDQ4MCAxOTIgNDgwbDEyMCAwYzcwLjcgMCAxMjgtNTcuMyAxMjgtMTI4YzAtMzYuNi0xNS40LTY5LjYtNDAtOTNsMC0zNSAxNiAwYzUzIDAgOTYtNDMgOTYtOTZsLTY0IDAtMTYuNS0yLjF6TTMyMCAxMzZhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHpNMzA4LjYgMjk1LjFsMzEuOSAxLjljLTMuMiA1NS42LTQzLjUgMTA0LjktMTAxLjUgMTE5LjNjLTUyLjQgMTMuMS0xMDUuMy01LjgtMTM2LjQtNDQuNWwyNS0yMGMyMy4yIDI4LjkgNjMuMyA0My42IDEwMy43IDMzLjVjNDQuNy0xMS4yIDc0LjktNDguOSA3Ny4zLTkwLjF6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Duck: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M431.5 125.9C426.5 73.2 382 32 328 32c-57.4 0-104 46.6-104 104c0 36.8 19.1 69.2 48 87.7l0 4.9L64 288 32 256 0 256l0 32C0 394 86 480 192 480l120 0c70.7 0 128-57.3 128-128c0-36.6-15.4-69.6-40-93l0-35 16 0c53 0 96-43 96-96l-64 0-16.5-2.1zM320 136a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM308.6 295.1l31.9 1.9c-3.2 55.6-43.5 104.9-101.5 119.3c-52.4 13.1-105.3-5.8-136.4-44.5l25-20c23.2 28.9 63.3 43.6 103.7 33.5c44.7-11.2 74.9-48.9 77.3-90.1z" />
+    </Icon>
+);
+
+export default Duck;

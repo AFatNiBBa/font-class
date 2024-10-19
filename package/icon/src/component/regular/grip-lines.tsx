@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `grip-lines` icon from the `regular` section of Font Awesome 6 Pro
+ * A component that renders the `grip-lines` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grip-lines?s=regular grip-lines}
- * @preview ![grip-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00MjQgMTY4SDI0QzEwLjggMTY4IDAgMTc4LjggMCAxOTJWMTkyQzAgMjA1LjIgMTAuOCAyMTYgMjQgMjE2SDQyNEM0MzcuMiAyMTYgNDQ4IDIwNS4yIDQ0OCAxOTJWMTkyQzQ0OCAxNzguOCA0MzcuMiAxNjggNDI0IDE2OFpNNDI0IDI5NkgyNEMxMC44IDI5NiAwIDMwNi44IDAgMzIwVjMyMEMwIDMzMy4yIDEwLjggMzQ0IDI0IDM0NEg0MjRDNDM3LjIgMzQ0IDQ0OCAzMzMuMiA0NDggMzIwVjMyMEM0NDggMzA2LjggNDM3LjIgMjk2IDQyNCAyOTZaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![grip-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDE5MmMwLTEzLjMtMTAuNy0yNC0yNC0yNEwyNCAxNjhjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNDAwIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjR6bTAgMTI4YzAtMTMuMy0xMC43LTI0LTI0LTI0TDI0IDI5NmMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw0MDAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const GripLines: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M424 168H24C10.8 168 0 178.8 0 192V192C0 205.2 10.8 216 24 216H424C437.2 216 448 205.2 448 192V192C448 178.8 437.2 168 424 168ZM424 296H24C10.8 296 0 306.8 0 320V320C0 333.2 10.8 344 24 344H424C437.2 344 448 333.2 448 320V320C448 306.8 437.2 296 424 296Z" />
+        <path d="M448 192c0-13.3-10.7-24-24-24L24 168c-13.3 0-24 10.7-24 24s10.7 24 24 24l400 0c13.3 0 24-10.7 24-24zm0 128c0-13.3-10.7-24-24-24L24 296c-13.3 0-24 10.7-24 24s10.7 24 24 24l400 0c13.3 0 24-10.7 24-24z" />
     </Icon>
 );
 

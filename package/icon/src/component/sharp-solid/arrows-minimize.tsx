@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `arrows-minimize` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/arrows-minimize?s=sharp-solid arrows-minimize}
+ * @preview ![arrows-minimize](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMi43TDcwLjYgMjUuNCAxNjAgMTE0LjcgMTYwIDgwbDAtMzIgNjQgMCAwIDMyIDAgMTEyIDAgMzItMzIgMEw4MCAyMjRsLTMyIDAgMC02NCAzMiAwIDM0LjcgMEwyNS40IDcwLjYgMi43IDQ4IDQ4IDIuN3pNNTA5LjMgNDhMNDg2LjYgNzAuNiAzOTcuMyAxNjBsMzQuNyAwIDMyIDAgMCA2NC0zMiAwLTExMiAwLTMyIDAgMC0zMiAwLTExMiAwLTMyIDY0IDAgMCAzMiAwIDM0LjcgODkuNC04OS40TDQ2NCAyLjcgNTA5LjMgNDh6TTQ4IDI4OGwzMiAwIDExMiAwIDMyIDAgMCAzMiAwIDExMiAwIDMyLTY0IDAgMC0zMiAwLTM0LjdMNzAuNiA0ODYuNiA0OCA1MDkuMyAyLjcgNDY0bDIyLjYtMjIuNkwxMTQuNyAzNTIgODAgMzUybC0zMiAwIDAtNjR6bTI0MCAwbDMyIDAgMTEyIDAgMzIgMCAwIDY0LTMyIDAtMzQuNyAwIDg5LjQgODkuNEw1MDkuMyA0NjQgNDY0IDUwOS4zbC0yMi42LTIyLjZMMzUyIDM5Ny4zbDAgMzQuNyAwIDMyLTY0IDAgMC0zMiAwLTExMiAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const ArrowsMinimize: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M48 2.7L70.6 25.4 160 114.7 160 80l0-32 64 0 0 32 0 112 0 32-32 0L80 224l-32 0 0-64 32 0 34.7 0L25.4 70.6 2.7 48 48 2.7zM509.3 48L486.6 70.6 397.3 160l34.7 0 32 0 0 64-32 0-112 0-32 0 0-32 0-112 0-32 64 0 0 32 0 34.7 89.4-89.4L464 2.7 509.3 48zM48 288l32 0 112 0 32 0 0 32 0 112 0 32-64 0 0-32 0-34.7L70.6 486.6 48 509.3 2.7 464l22.6-22.6L114.7 352 80 352l-32 0 0-64zm240 0l32 0 112 0 32 0 0 64-32 0-34.7 0 89.4 89.4L509.3 464 464 509.3l-22.6-22.6L352 397.3l0 34.7 0 32-64 0 0-32 0-112 0-32z" />
+    </Icon>
+);
+
+export default ArrowsMinimize;

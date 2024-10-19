@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `face-rolling-eyes` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/face-rolling-eyes?s=sharp-solid face-rolling-eyes}
+ * @preview ![face-rolling-eyes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTE5MiAzNjhsMTI4IDAgMTYgMCAwIDMyLTE2IDAtMTI4IDAtMTYgMCAwLTMyIDE2IDB6bTMyLTE0NGMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NGMwLTI2IDE1LjUtNDguNCAzNy44LTU4LjRjLTMuNyA1LjItNS44IDExLjYtNS44IDE4LjRjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmMwLTYuOS0yLjItMTMuMi01LjgtMTguNEMyMDguNSAxNzUuNiAyMjQgMTk4IDIyNCAyMjR6bTEyOCA2NGMtMzUuMyAwLTY0LTI4LjctNjQtNjRjMC0yNiAxNS41LTQ4LjQgMzcuOC01OC40Yy0zLjcgNS4yLTUuOCAxMS42LTUuOCAxOC40YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJjMC02LjktMi4yLTEzLjItNS44LTE4LjRDNDAwLjUgMTc1LjYgNDE2IDE5OCA0MTYgMjI0YzAgMzUuMy0yOC43IDY0LTY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const FaceRollingEyes: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM192 368l128 0 16 0 0 32-16 0-128 0-16 0 0-32 16 0zm32-144c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-26 15.5-48.4 37.8-58.4c-3.7 5.2-5.8 11.6-5.8 18.4c0 17.7 14.3 32 32 32s32-14.3 32-32c0-6.9-2.2-13.2-5.8-18.4C208.5 175.6 224 198 224 224zm128 64c-35.3 0-64-28.7-64-64c0-26 15.5-48.4 37.8-58.4c-3.7 5.2-5.8 11.6-5.8 18.4c0 17.7 14.3 32 32 32s32-14.3 32-32c0-6.9-2.2-13.2-5.8-18.4C400.5 175.6 416 198 416 224c0 35.3-28.7 64-64 64z" />
+    </Icon>
+);
+
+export default FaceRollingEyes;

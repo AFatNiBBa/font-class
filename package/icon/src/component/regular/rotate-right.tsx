@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `rotate-right` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/rotate-right?s=regular rotate-right}
+ * @preview ![rotate-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzcxLjIgMTIyLjlDMzQwLjMgOTYuMiAzMDAgODAgMjU2IDgwQzE1OC44IDgwIDgwIDE1OC44IDgwIDI1NnM3OC44IDE3NiAxNzYgMTc2YzM5LjcgMCA3Ni4yLTEzLjEgMTA1LjYtMzUuMmMxMC42LTggMjUuNi01LjggMzMuNiA0LjhzNS44IDI1LjYtNC44IDMzLjZDMzUzIDQ2My4zIDMwNi40IDQ4MCAyNTYgNDgwQzEzMi4zIDQ4MCAzMiAzNzkuNyAzMiAyNTZTMTMyLjMgMzIgMjU2IDMyYzU3LjMgMCAxMDkuNiAyMS41IDE0OS4yIDU2LjlsMzAuNS0zMC41YzYuNi02LjYgMTUuNi0xMC4zIDI1LTEwLjNDNDgwLjIgNDggNDk2IDYzLjggNDk2IDgzLjNMNDk2IDIwMGMwIDEzLjMtMTAuNyAyNC0yNCAyNGwtMTE2LjcgMGMtMTkuNSAwLTM1LjMtMTUuOC0zNS4zLTM1LjNjMC05LjQgMy43LTE4LjMgMTAuMy0yNWw0MC44LTQwLjh6bTc2LjgtOUwzODUuOSAxNzZsNjIuMSAwIDAtNjIuMXoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const RotateRight: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M371.2 122.9C340.3 96.2 300 80 256 80C158.8 80 80 158.8 80 256s78.8 176 176 176c39.7 0 76.2-13.1 105.6-35.2c10.6-8 25.6-5.8 33.6 4.8s5.8 25.6-4.8 33.6C353 463.3 306.4 480 256 480C132.3 480 32 379.7 32 256S132.3 32 256 32c57.3 0 109.6 21.5 149.2 56.9l30.5-30.5c6.6-6.6 15.6-10.3 25-10.3C480.2 48 496 63.8 496 83.3L496 200c0 13.3-10.7 24-24 24l-116.7 0c-19.5 0-35.3-15.8-35.3-35.3c0-9.4 3.7-18.3 10.3-25l40.8-40.8zm76.8-9L385.9 176l62.1 0 0-62.1z" />
+    </Icon>
+);
+
+export default RotateRight;

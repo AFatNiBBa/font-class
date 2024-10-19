@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `ufo` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/ufo?s=sharp-duotone-solid ufo}
+ * @preview ![ufo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNDQgMjM3LjFzNTEuOCA1MC45IDE3NiA1MC45czE3Ni01MC45IDE3Ni01MC45YzAtOC4zLS42LTE2LjUtMS43LTI0LjVDNDgyLjIgMTI4LjYgNDA4LjggNjQgMzIwIDY0cy0xNjIuMiA2NC42LTE3NC4zIDE0OC42Yy0xLjIgOC0xLjcgMTYuMi0xLjcgMjQuNXoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTMyMCAyODhjMTI0LjIgMCAxNzYtNTAuOSAxNzYtNTAuOWMwLTguMy0uNi0xNi41LTEuNy0yNC41QzU4MiAyMzUuNSA2NDAgMjc1IDY0MCAzMjBjMCA3MC43LTE0My4zIDEyOC0zMjAgMTI4UzAgMzkwLjcgMCAzMjBjMC00NSA1OC04NC41IDE0NS43LTEwNy40Yy0xLjIgOC0xLjcgMTYuMi0xLjcgMjQuNWMwIDAgNTEuOCA1MC45IDE3NiA1MC45em0tMzIgODhsMzIgMzIgMzItMzItMzItMzItMzIgMzJ6TTEyOCAyOTZMOTYgMzI4bDMyIDMyIDMyLTMyLTMyLTMyem00MTYgMzJsLTMyLTMyLTMyIDMyIDMyIDMyIDMyLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Ufo: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path class={generic.secondary} d="M144 237.1s51.8 50.9 176 50.9s176-50.9 176-50.9c0-8.3-.6-16.5-1.7-24.5C482.2 128.6 408.8 64 320 64s-162.2 64.6-174.3 148.6c-1.2 8-1.7 16.2-1.7 24.5z" />
+            <path d="M320 288c124.2 0 176-50.9 176-50.9c0-8.3-.6-16.5-1.7-24.5C582 235.5 640 275 640 320c0 70.7-143.3 128-320 128S0 390.7 0 320c0-45 58-84.5 145.7-107.4c-1.2 8-1.7 16.2-1.7 24.5c0 0 51.8 50.9 176 50.9zm-32 88l32 32 32-32-32-32-32 32zM128 296L96 328l32 32 32-32-32-32zm416 32l-32-32-32 32 32 32 32-32z" />
+    </Icon>
+);
+
+export default Ufo;

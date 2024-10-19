@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `broom-wide` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/broom-wide?s=solid broom-wide}
+ * @preview ![broom-wide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTAyLjYgOS40Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMGwtMTI4IDEyOC0xNS44LTE1LjhjLTE1LjItMTUuMi0zOC41LTE4LjQtNTcuMy04bC0zMi41IDE4TDM4MC40IDI4OC4xbDE4LTMyLjVjMTAuNC0xOC43IDcuMS00Mi4xLTgtNTcuM2wtMTUuOC0xNS44IDEyOC0xMjhjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjN6TTE4Ny41IDE1MS44TDE2LjQgMjQ2LjlDNi4zIDI1Mi41IDAgMjYzLjIgMCAyNzQuOGMwIDguNSAzLjQgMTYuNiA5LjMgMjIuNmw0My4yIDQzLjJjMi4xIDIuMSA1LjMgMi45IDguMiAxLjlsNTIuMS0xNy40YzYuMy0yLjEgMTIuMiAzLjkgMTAuMSAxMC4xbC0xNy40IDUyLjFjLTEgMi45LS4yIDYgMS45IDguMkwyMTQuNyA1MDIuN2M2IDYgMTQuMSA5LjMgMjIuNiA5LjNjMTEuNiAwIDIyLjMtNi4zIDI3LjktMTYuNGw5NS4xLTE3MS4xTDE4Ny41IDE1MS44eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const BroomWide: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M502.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128-15.8-15.8c-15.2-15.2-38.5-18.4-57.3-8l-32.5 18L380.4 288.1l18-32.5c10.4-18.7 7.1-42.1-8-57.3l-15.8-15.8 128-128c12.5-12.5 12.5-32.8 0-45.3zM187.5 151.8L16.4 246.9C6.3 252.5 0 263.2 0 274.8c0 8.5 3.4 16.6 9.3 22.6l43.2 43.2c2.1 2.1 5.3 2.9 8.2 1.9l52.1-17.4c6.3-2.1 12.2 3.9 10.1 10.1l-17.4 52.1c-1 2.9-.2 6 1.9 8.2L214.7 502.7c6 6 14.1 9.3 22.6 9.3c11.6 0 22.3-6.3 27.9-16.4l95.1-171.1L187.5 151.8z" />
+    </Icon>
+);
+
+export default BroomWide;

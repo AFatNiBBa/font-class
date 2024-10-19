@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `cards-blank` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/cards-blank?s=light cards-blank}
+ * @preview ![cards-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAyLjMgNDY4LjNjNi43IDExIDIwLjkgMTQuOCAzMi4xIDguNmwuMS0uMUw0MjcuNCAzNjUuNWwuMS0uMWMxMS4yLTYuNyAxNS0yMS4yIDguNC0zMi42TDI2OS4yIDQ0LjFjLTYuNi0xMS41LTIxLjMtMTUuNC0zMi44LTguOEw0NC4xIDE0Ni40Yy0xMS4zIDYuNS0xNS4zIDIwLjktOSAzMi4zbC4xIC4yIDE2NyAyODkuMyAuMSAuMnptLTI3LjUgMTYuNGMtLjItLjMtLjMtLjYtLjUtLjlMNy42IDE5NS4yYy0uMi0uMy0uMy0uNi0uNS0uOWMtMTQuOS0yNi41LTUuNy02MC4yIDIwLjctNzUuNUwyMjAuNyA3LjVjMjYuNi0xNS40IDYwLjctNi4zIDc2LjEgMjAuNGwxNjcgMjg5LjNjMTUuMyAyNi41IDYuMyA2MC4zLTIwIDc1LjhjLS4yIC4xLS41IC4zLS43IC40bC0xOTIuMyAxMTFjLS4yIC4xLS41IC4zLS43IC40Yy0yNi40IDE0LjktNTkuOCA2LTc1LjMtMjB6TTMyNC4xIDQ5OWwzMy4yLTE5LjFjLjkgLjEgMS44IC4yIDIuNyAuMmwyMjQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTMzNmMwLTEzLjMtMTAuNy0yNC0yNC0yNEwzNzMgOTYgMzU0LjcgNjQuMmMxLjctLjIgMy41LS4yIDUuMy0uMmwyMjQgMGMzMC45IDAgNTYgMjUuMSA1NiA1NmwwIDMzNmMwIDMwLjktMjUuMSA1Ni01NiA1NmwtMjI0IDBjLTEzLjcgMC0yNi4yLTQuOS0zNS45LTEzeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const CardsBlank: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M202.3 468.3c6.7 11 20.9 14.8 32.1 8.6l.1-.1L427.4 365.5l.1-.1c11.2-6.7 15-21.2 8.4-32.6L269.2 44.1c-6.6-11.5-21.3-15.4-32.8-8.8L44.1 146.4c-11.3 6.5-15.3 20.9-9 32.3l.1 .2 167 289.3 .1 .2zm-27.5 16.4c-.2-.3-.3-.6-.5-.9L7.6 195.2c-.2-.3-.3-.6-.5-.9c-14.9-26.5-5.7-60.2 20.7-75.5L220.7 7.5c26.6-15.4 60.7-6.3 76.1 20.4l167 289.3c15.3 26.5 6.3 60.3-20 75.8c-.2 .1-.5 .3-.7 .4l-192.3 111c-.2 .1-.5 .3-.7 .4c-26.4 14.9-59.8 6-75.3-20zM324.1 499l33.2-19.1c.9 .1 1.8 .2 2.7 .2l224 0c13.3 0 24-10.7 24-24l0-336c0-13.3-10.7-24-24-24L373 96 354.7 64.2c1.7-.2 3.5-.2 5.3-.2l224 0c30.9 0 56 25.1 56 56l0 336c0 30.9-25.1 56-56 56l-224 0c-13.7 0-26.2-4.9-35.9-13z" />
+    </Icon>
+);
+
+export default CardsBlank;

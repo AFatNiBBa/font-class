@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `think-peaks` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `think-peaks` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/think-peaks?s=brands think-peaks}
- * @preview ![think-peaks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NjUuNCA0MDkuNGw4Ny4xLTE1MC4yLTMyLS4zLTU1LjEgOTVMMjU5LjIgMCAyMyA0MDcuNGwzMiAuM0wyNTkuMiA1NS42em0tMzU1LjMtNDQuMWgzMi4xbDExNy40LTIwMi41TDQ2MyA1MTEuOWwzMi41LjEtMjM1LjgtNDA0LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![think-peaks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY1LjQgNDA5LjRsODcuMS0xNTAuMi0zMi0uMy01NS4xIDk1TDI1OS4yIDAgMjMgNDA3LjRsMzIgLjNMMjU5LjIgNTUuNnptLTM1NS4zLTQ0LjFoMzIuMWwxMTcuNC0yMDIuNUw0NjMgNTExLjlsMzIuNS4xLTIzNS44LTQwNC42eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const ThinkPeaks: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

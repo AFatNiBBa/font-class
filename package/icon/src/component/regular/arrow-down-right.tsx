@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `arrow-down-right` icon from the `regular` section of Font Awesome 6 Pro
+ * A component that renders the `arrow-down-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-right?s=regular arrow-down-right}
- * @preview ![arrow-down-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNTIgMTUyVjM5MkMzNTIgNDA1LjI1IDM0MS4yNSA0MTYgMzI4IDQxNkg4OEM3NC43NSA0MTYgNjQgNDA1LjI1IDY0IDM5MlM3NC43NSAzNjggODggMzY4SDI3MC4wNjJMMzkuMDMxIDEzNi45NjlDMjkuNjU2IDEyNy41OTQgMjkuNjU2IDExMi40MDYgMzkuMDMxIDEwMy4wMzFTNjMuNTk0IDkzLjY1NiA3Mi45NjkgMTAzLjAzMUwzMDQgMzM0LjA2MlYxNTJDMzA0IDEzOC43NSAzMTQuNzUgMTI4IDMyOCAxMjhTMzUyIDEzOC43NSAzNTIgMTUyWiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI4IDQxNmMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTI0MGMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDE4Mi4xTDczIDEwM2MtOS40LTkuNC0yNC42LTkuNC0zMy45IDBzLTkuNCAyNC42IDAgMzMuOWwyMzEgMjMxTDg4IDM2OGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwyNDAgMHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const ArrowDownRight: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 152V392C352 405.25 341.25 416 328 416H88C74.75 416 64 405.25 64 392S74.75 368 88 368H270.062L39.031 136.969C29.656 127.594 29.656 112.406 39.031 103.031S63.594 93.656 72.969 103.031L304 334.062V152C304 138.75 314.75 128 328 128S352 138.75 352 152Z" />
+        <path d="M328 416c13.3 0 24-10.7 24-24l0-240c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 182.1L73 103c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l231 231L88 368c-13.3 0-24 10.7-24 24s10.7 24 24 24l240 0z" />
     </Icon>
 );
 

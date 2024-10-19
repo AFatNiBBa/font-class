@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `pencil` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/pencil?s=sharp-duotone-solid pencil}
+ * @preview ![pencil](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMzcuNyAzMTkuN0wxNjAgMzQyLjFsMTEuMy0xMS4zIDE0NC0xNDQgMTEtMTFMMzA0IDE1My40bC0xMS4zIDExLjMtMTQ0IDE0NC0xMSAxMXpNMzA0IDgwTDQzMiAyMDhjMTUuNC0xNS40IDMwLjctMzAuNyA0Ni4xLTQ2LjFMNTEyIDEyOCA0NzguMSA5NC4xIDQxNy45IDMzLjkgMzg0IDAgMzUwLjEgMzMuOUMzMzQuNyA0OS4zIDMxOS40IDY0LjYgMzA0IDgweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDMyIDIwOEwzMDQgODAgMzIgMzUyIDEwLjIgNDYxIDAgNTEybDUxLTEwLjJMMTYwIDQ4MCA0MzIgMjA4ek0xMzYuMyA0MzUuOGwtNzUuMSAxNSAxNS03NS4xIDI0LjItMjQuMiAxMS41IDAgMCA0OCA0OCAwIDAgMTIuNy0yMy43IDIzLjd6TTMyNi42IDE3NS40bC0xMS4zIDExLjMtMTQ0IDE0NEwxNjAgMzQyLjFsLTIyLjYtMjIuNiAxMS4zLTExLjMgMTQ0LTE0NEwzMDQgMTUyLjhsMjIuNiAyMi42eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Pencil: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M137.7 319.7L160 342.1l11.3-11.3 144-144 11-11L304 153.4l-11.3 11.3-144 144-11 11zM304 80L432 208c15.4-15.4 30.7-30.7 46.1-46.1L512 128 478.1 94.1 417.9 33.9 384 0 350.1 33.9C334.7 49.3 319.4 64.6 304 80z" />
+            <path d="M432 208L304 80 32 352 10.2 461 0 512l51-10.2L160 480 432 208zM136.3 435.8l-75.1 15 15-75.1 24.2-24.2 11.5 0 0 48 48 0 0 12.7-23.7 23.7zM326.6 175.4l-11.3 11.3-144 144L160 342.1l-22.6-22.6 11.3-11.3 144-144L304 152.8l22.6 22.6z" />
+    </Icon>
+);
+
+export default Pencil;

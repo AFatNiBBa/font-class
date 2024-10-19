@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `child-dress` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/child-dress?s=solid child-dress}
+ * @preview ![child-dress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0QTY0IDY0IDAgMSAwIDk2IDY0YTY0IDY0IDAgMSAwIDEyOCAwek04OCA0MDBsMCA4MGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtODAgMTYgMCAwIDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC04MCAxNy44IDBjMTAuOSAwIDE4LjYtMTAuNyAxNS4yLTIxLjFsLTMxLjEtOTMuNCAyOC42IDM3LjhjMTAuNyAxNC4xIDMwLjggMTYuOCA0NC44IDYuMnMxNi44LTMwLjcgNi4yLTQ0LjhMMjU0LjYgMjA3Yy0yMi40LTI5LjYtNTcuNS00Ny05NC42LTQ3cy03Mi4yIDE3LjQtOTQuNiA0N0w2LjUgMjg0LjdjLTEwLjcgMTQuMS03LjkgMzQuMiA2LjIgNDQuOHMzNC4yIDcuOSA0NC44LTYuMmwyOC43LTM3LjhMNTUgMzc4LjlDNTEuNiAzODkuMyA1OS4zIDQwMCA3MC4yIDQwMEw4OCA0MDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const ChildDress: typeof Icon = x => (
+    <Icon viewBox="0 0 320 512" {...x}>
+        <path d="M224 64A64 64 0 1 0 96 64a64 64 0 1 0 128 0zM88 400l0 80c0 17.7 14.3 32 32 32s32-14.3 32-32l0-80 16 0 0 80c0 17.7 14.3 32 32 32s32-14.3 32-32l0-80 17.8 0c10.9 0 18.6-10.7 15.2-21.1l-31.1-93.4 28.6 37.8c10.7 14.1 30.8 16.8 44.8 6.2s16.8-30.7 6.2-44.8L254.6 207c-22.4-29.6-57.5-47-94.6-47s-72.2 17.4-94.6 47L6.5 284.7c-10.7 14.1-7.9 34.2 6.2 44.8s34.2 7.9 44.8-6.2l28.7-37.8L55 378.9C51.6 389.3 59.3 400 70.2 400L88 400z" />
+    </Icon>
+);
+
+export default ChildDress;

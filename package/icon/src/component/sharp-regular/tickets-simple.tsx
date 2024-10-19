@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `tickets-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/tickets-simple?s=sharp-regular tickets-simple}
+ * @preview ![tickets-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJsMCA0OCAwIDQwIDAgNDhjMjIuMSAwIDQwIDE3LjkgNDAgNDBzLTE3LjkgNDAtNDAgNDBsMCA0OCAwIDQwIDAgNDggNDggMCA0NDggMCA0OCAwIDAtNDggMC00MCAwLTQ4Yy0yMi4xIDAtNDAtMTcuOS00MC00MHMxNy45LTQwIDQwLTQwbDAtNDggMC00MCAwLTQ4LTQ4IDBMMTQ0IDMyIDk2IDMyem04OCAxNzZjMC0zMC45LTE1LjktNTguMS00MC03My44TDE0NCA4MGw0NDggMCAwIDU0LjJjLTI0LjEgMTUuNy00MCA0Mi45LTQwIDczLjhzMTUuOSA1OC4xIDQwIDczLjhsMCA1NC4yLTQ0OCAwIDAtNTQuMmMyNC4xLTE1LjcgNDAtNDIuOSA0MC03My44ek00OCAxMjBsMC0yNEwwIDk2bDAgMjRMMCA0NTZsMCAyNCAyNCAwIDQ5NiAwIDI0IDAgMC00OC0yNCAwTDQ4IDQzMmwwLTMxMnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const TicketsSimple: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M96 32l0 48 0 40 0 48c22.1 0 40 17.9 40 40s-17.9 40-40 40l0 48 0 40 0 48 48 0 448 0 48 0 0-48 0-40 0-48c-22.1 0-40-17.9-40-40s17.9-40 40-40l0-48 0-40 0-48-48 0L144 32 96 32zm88 176c0-30.9-15.9-58.1-40-73.8L144 80l448 0 0 54.2c-24.1 15.7-40 42.9-40 73.8s15.9 58.1 40 73.8l0 54.2-448 0 0-54.2c24.1-15.7 40-42.9 40-73.8zM48 120l0-24L0 96l0 24L0 456l0 24 24 0 496 0 24 0 0-48-24 0L48 432l0-312z" />
+    </Icon>
+);
+
+export default TicketsSimple;

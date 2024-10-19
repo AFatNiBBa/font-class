@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `bitbucket` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `bitbucket` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bitbucket?s=brands bitbucket}
- * @preview ![bitbucket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMi4yIDMyQTE2IDE2IDAgMCAwIDYgNDcuOGEyNi4zNSAyNi4zNSAwIDAgMCAuMiAyLjhsNjcuOSA0MTIuMWEyMS43NyAyMS43NyAwIDAgMCAyMS4zIDE4LjJoMzI1LjdhMTYgMTYgMCAwIDAgMTYtMTMuNEw1MDUgNTAuN2ExNiAxNiAwIDAgMC0xMy4yLTE4LjMgMjQuNTggMjQuNTggMCAwIDAtMi44LS4yTDIyLjIgMzJ6bTI4NS45IDI5Ny44aC0xMDRsLTI4LjEtMTQ3aDE1Ny4zbC0yNS4yIDE0N3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bitbucket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjIuMiAzMkExNiAxNiAwIDAgMCA2IDQ3LjhhMjYuMzUgMjYuMzUgMCAwIDAgLjIgMi44bDY3LjkgNDEyLjFhMjEuNzcgMjEuNzcgMCAwIDAgMjEuMyAxOC4yaDMyNS43YTE2IDE2IDAgMCAwIDE2LTEzLjRMNTA1IDUwLjdhMTYgMTYgMCAwIDAtMTMuMi0xOC4zIDI0LjU4IDI0LjU4IDAgMCAwLTIuOC0uMkwyMi4yIDMyem0yODUuOSAyOTcuOGgtMTA0bC0yOC4xLTE0N2gxNTcuM2wtMjUuMiAxNDd6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Bitbucket: typeof Icon = x => (
     <Icon {...x}>

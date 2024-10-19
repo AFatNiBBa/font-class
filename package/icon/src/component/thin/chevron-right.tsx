@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `chevron-right` icon from the `thin` section of Font Awesome 6 Pro
+ * A component that renders the `chevron-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chevron-right?s=thin chevron-right}
- * @preview ![chevron-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik02Ni4wNjYgNDc3LjM0OEM2NC42OSA0NzUuODE3IDY0LjAxOCA0NzMuOTEgNjQuMDE4IDQ3Mi4wMDRDNjQuMDE4IDQ2OS44MTYgNjQuOTA5IDQ2Ny42MjkgNjYuNjYgNDY2LjA2NkwzMDAuMTcxIDI1Nkw2Ni42NiA0NS45MzRDNjMuMzc3IDQzLjAyNyA2My4wOCAzNy45MzMgNjYuMDY2IDM0LjY1MkM2OS4wMzYgMzEuMzcxIDc0LjA4NSAzMS4wOSA3Ny4zODMgMzQuMDU4TDMxNy40OTEgMjUwLjA2MkMzMjAuODM2IDI1My4wNjIgMzIwLjgzNiAyNTguOTM4IDMxNy40OTEgMjYxLjkzOEw3Ny4zODMgNDc3Ljk0MkM3NC4wODUgNDgwLjkxIDY5LjAzNiA0ODAuNjI5IDY2LjA2NiA0NzcuMzQ4WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chevron-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAxLjcgMjUwLjNjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM2wtMjE2IDIxNmMtMy4xIDMuMS04LjIgMy4xLTExLjMgMHMtMy4xLTguMiAwLTExLjNMMjg0LjcgMjU2IDc0LjMgNDUuN2MtMy4xLTMuMS0zLjEtOC4yIDAtMTEuM3M4LjItMy4xIDExLjMgMGwyMTYgMjE2eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const ChevronRight: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M66.066 477.348C64.69 475.817 64.018 473.91 64.018 472.004C64.018 469.816 64.909 467.629 66.66 466.066L300.171 256L66.66 45.934C63.377 43.027 63.08 37.933 66.066 34.652C69.036 31.371 74.085 31.09 77.383 34.058L317.491 250.062C320.836 253.062 320.836 258.938 317.491 261.938L77.383 477.942C74.085 480.91 69.036 480.629 66.066 477.348Z" />
+        <path d="M301.7 250.3c3.1 3.1 3.1 8.2 0 11.3l-216 216c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L284.7 256 74.3 45.7c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0l216 216z" />
     </Icon>
 );
 

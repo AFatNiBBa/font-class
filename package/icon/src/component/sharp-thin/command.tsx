@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `command` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/command?s=sharp-thin command}
+ * @preview ![command](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDggMCAxNTIgMGw4IDAgMCA4IDAgMTM2IDE5MiAwTDM1MiA4bDAtOCA4IDBMNTA0IDBsOCAwIDAgOCAwIDE0NCAwIDgtOCAwLTEzNiAwIDAgMTkyIDEzNiAwIDggMCAwIDggMCAxNDQgMCA4LTggMC0xNDQgMC04IDAgMC04IDAtMTM2LTE5MiAwIDAgMTM2IDAgOC04IDBMOCA1MTJsLTggMCAwLThMMCAzNjBsMC04IDggMCAxMzYgMCAwLTE5Mkw4IDE2MGwtOCAwIDAtOEwwIDggMCAwek0xNDQgMTQ0bDAtMTI4TDE2IDE2bDAgMTI4IDEyOCAwem0xNiAyMDhsMTkyIDAgMC0xOTItMTkyIDAgMCAxOTJ6bS0xNiAxNkwxNiAzNjhsMCAxMjggMTI4IDAgMC0xMjh6bTIyNCAwbDAgMTI4IDEyOCAwIDAtMTI4LTEyOCAwem0wLTIyNGwxMjggMCAwLTEyOEwzNjggMTZsMCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Command: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M0 0L8 0 152 0l8 0 0 8 0 136 192 0L352 8l0-8 8 0L504 0l8 0 0 8 0 144 0 8-8 0-136 0 0 192 136 0 8 0 0 8 0 144 0 8-8 0-144 0-8 0 0-8 0-136-192 0 0 136 0 8-8 0L8 512l-8 0 0-8L0 360l0-8 8 0 136 0 0-192L8 160l-8 0 0-8L0 8 0 0zM144 144l0-128L16 16l0 128 128 0zm16 208l192 0 0-192-192 0 0 192zm-16 16L16 368l0 128 128 0 0-128zm224 0l0 128 128 0 0-128-128 0zm0-224l128 0 0-128L368 16l0 128z" />
+    </Icon>
+);
+
+export default Command;

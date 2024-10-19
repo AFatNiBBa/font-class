@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `artstation` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `artstation` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/artstation?s=brands artstation}
- * @preview ![artstation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yIDM3Ny40bDQzIDc0LjNBNTEuMzUgNTEuMzUgMCAwIDAgOTAuOSA0ODBoMjg1LjRsLTU5LjItMTAyLjZ6TTUwMS44IDM1MEwzMzUuNiA1OS4zQTUxLjM4IDUxLjM4IDAgMCAwIDI5MC4yIDMyaC04OC40bDI1Ny4zIDQ0Ny42IDQwLjctNzAuNWMxLjktMy4yIDIxLTI5LjcgMi01OS4xek0yNzUgMzA0LjVsLTExNS41LTIwMEw0NCAzMDQuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![artstation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMiAzNzcuNGw0MyA3NC4zQTUxLjM1IDUxLjM1IDAgMCAwIDkwLjkgNDgwaDI4NS40bC01OS4yLTEwMi42ek01MDEuOCAzNTBMMzM1LjYgNTkuM0E1MS4zOCA1MS4zOCAwIDAgMCAyOTAuMiAzMmgtODguNGwyNTcuMyA0NDcuNiA0MC43LTcwLjVjMS45LTMuMiAyMS0yOS43IDItNTkuMXpNMjc1IDMwNC41bC0xMTUuNS0yMDBMNDQgMzA0LjV6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Artstation: typeof Icon = x => (
     <Icon {...x}>

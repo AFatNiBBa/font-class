@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `file-signature` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/file-signature?s=sharp-solid file-signature}
+ * @preview ![file-signature](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBMMCAwIDAgNTEybDM4NCAwIDAtODUtMS43IDEuN0wyNjIuMiA0NDUuOWwtMTEuNyAxLjktMTEuNiAxLjktNS4zLTEwLjVMMjIyLjEgNDE2bC0xMi4yIDAtMTEuNiAyMy4yLTQuNCA4LjgtOS45IDAtOCAwLTExLjkgMC0zLjQtMTEuNEwxNDQgMzgxbC0xNi43IDU1LjZMMTIzLjkgNDQ4IDExMiA0NDhsLTMyIDAtMTYgMCAwLTMyIDE2IDAgMjAuMSAwIDIwLjYtNjguNiAzLjQtMTEuNCAxMS45IDAgMTYgMCAxMS45IDAgMy40IDExLjQgMTUuNCA1MS40IDMtNS45IDQuNC04LjggOS45IDAgMzIgMCA5LjkgMCA0LjQgOC44IDcuMiAxNC41TDI2NyAzMTMuNGwxMTctMTE3IDAtMzYuNC0xNjAgMEwyMjQgMHptMzIgMGwwIDEyOCAxMjggMEwyNTYgMHpNNTA1IDExOS44bC00MS4zIDQxLjMgNzEgNzFMNTc2IDE5MC44bC03MS03MXptLTYzLjkgNjMuOUwyOTkuOSAzMjUgMjg4IDQwNy45IDM3MC45IDM5NiA1MTIuMSAyNTQuN2wtNzEtNzF6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const FileSignature: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M224 0L0 0 0 512l384 0 0-85-1.7 1.7L262.2 445.9l-11.7 1.9-11.6 1.9-5.3-10.5L222.1 416l-12.2 0-11.6 23.2-4.4 8.8-9.9 0-8 0-11.9 0-3.4-11.4L144 381l-16.7 55.6L123.9 448 112 448l-32 0-16 0 0-32 16 0 20.1 0 20.6-68.6 3.4-11.4 11.9 0 16 0 11.9 0 3.4 11.4 15.4 51.4 3-5.9 4.4-8.8 9.9 0 32 0 9.9 0 4.4 8.8 7.2 14.5L267 313.4l117-117 0-36.4-160 0L224 0zm32 0l0 128 128 0L256 0zM505 119.8l-41.3 41.3 71 71L576 190.8l-71-71zm-63.9 63.9L299.9 325 288 407.9 370.9 396 512.1 254.7l-71-71z" />
+    </Icon>
+);
+
+export default FileSignature;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `objects-align-left` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/objects-align-left?s=light objects-align-left}
+ * @preview ![objects-align-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxNkMwIDcuMiA3LjIgMCAxNiAwczE2IDcuMiAxNiAxNmwwIDQ4MGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNkwwIDE2ek0xNjAgMTc2YzAgOC44IDcuMiAxNiAxNiAxNmwyODggMGM4LjggMCAxNi03LjIgMTYtMTZsMC02NGMwLTguOC03LjItMTYtMTYtMTZMMTc2IDk2Yy04LjggMC0xNiA3LjItMTYgMTZsMCA2NHptLTMyLTY0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDI4OCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTI4OCAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTY0em0zMiAyODhjMCA4LjggNy4yIDE2IDE2IDE2bDE2MCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNmwtMTYwIDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDY0em0tMzItNjRjMC0yNi41IDIxLjUtNDggNDgtNDhsMTYwIDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA2NGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMTYwIDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const ObjectsAlignLeft: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M0 16C0 7.2 7.2 0 16 0s16 7.2 16 16l0 480c0 8.8-7.2 16-16 16s-16-7.2-16-16L0 16zM160 176c0 8.8 7.2 16 16 16l288 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16L176 96c-8.8 0-16 7.2-16 16l0 64zm-32-64c0-26.5 21.5-48 48-48l288 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48l0-64zm32 288c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-160 0c-8.8 0-16 7.2-16 16l0 64zm-32-64c0-26.5 21.5-48 48-48l160 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-160 0c-26.5 0-48-21.5-48-48l0-64z" />
+    </Icon>
+);
+
+export default ObjectsAlignLeft;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `tv-music` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/tv-music?s=sharp-solid tv-music}
+ * @preview ![tv-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDY0bDAgMjg4TDY0IDM1MiA2NCA2NGw1MTIgMHpNNjQgMEwwIDAgMCA2NCAwIDM1MmwwIDY0IDY0IDAgNTEyIDAgNjQgMCAwLTY0IDAtMjg4IDAtNjRMNTc2IDAgNjQgMHpNOTYgNDQ4bDAgNjQgMzIgMCAzODQgMCAzMiAwIDAtNjQtMzIgMC0zODQgMC0zMiAwek00MTYgMTEybDAtMjMuMUwzOTQuNCA5N2wtMTI4IDQ4TDI1NiAxNDguOWwwIDExLjEgMCA0OCAwIDQ5LjhjLTUtMS4yLTEwLjQtMS44LTE2LTEuOGMtMjYuNSAwLTQ4IDE0LjMtNDggMzJzMjEuNSAzMiA0OCAzMnM0OC0xNC4zIDQ4LTMybDAtNjguOSA5Ni0zNiAwIDQyLjdjLTUtMS4yLTEwLjQtMS44LTE2LTEuOGMtMjYuNSAwLTQ4IDE0LjMtNDggMzJzMjEuNSAzMiA0OCAzMnM0OC0xNC4zIDQ4LTMybDAtOTYgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const TvMusic: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M576 64l0 288L64 352 64 64l512 0zM64 0L0 0 0 64 0 352l0 64 64 0 512 0 64 0 0-64 0-288 0-64L576 0 64 0zM96 448l0 64 32 0 384 0 32 0 0-64-32 0-384 0-32 0zM416 112l0-23.1L394.4 97l-128 48L256 148.9l0 11.1 0 48 0 49.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-68.9 96-36 0 42.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-96 0-48z" />
+    </Icon>
+);
+
+export default TvMusic;

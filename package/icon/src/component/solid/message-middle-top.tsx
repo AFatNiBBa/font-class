@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `message-middle-top` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `message-middle-top` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-middle-top?s=solid message-middle-top}
- * @preview ![message-middle-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01MTIgMTYwLjAyOVY0NDguMDA2QzUxMiA0ODMuMjUyIDQ4My4yNSA1MTIgNDQ4IDUxMkg2NEMyOC43NSA1MTIgMCA0ODMuMjUyIDAgNDQ4LjAwNlYxNjAuMDI5QzAgMTI0Ljc4MSAyOC43NSA5Ni4wMzMgNjQgOTYuMDMzSDE3NS45NzVMMjQzLjE5OSA2LjRDMjQ2LjM5OSAyLjEzNCAyNTEuMiAwIDI1NiAwUzI2NS42MDEgMi4xMzQgMjY4LjgwMSA2LjRMMzM2LjAyNSA5Ni4wMzNINDQ4QzQ4My4yNSA5Ni4wMzMgNTEyIDEyNC43ODEgNTEyIDE2MC4wMjlaICI+PC9wYXRoPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![message-middle-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQzLjUgOTZMNDQ4IDk2YzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjg4YzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAxNjBjMC0zNS4zIDI4LjctNjQgNjQtNjRsMTA0LjUgMEwyNDMuNyA1LjhjMy0zLjYgNy41LTUuOCAxMi4zLTUuOHM5LjMgMi4xIDEyLjMgNS44TDM0My41IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const MessageMiddleTop: typeof Icon = x => (
     <Icon {...x}>
-        <path d="M512 160.029V448.006C512 483.252 483.25 512 448 512H64C28.75 512 0 483.252 0 448.006V160.029C0 124.781 28.75 96.033 64 96.033H175.975L243.199 6.4C246.399 2.134 251.2 0 256 0S265.601 2.134 268.801 6.4L336.025 96.033H448C483.25 96.033 512 124.781 512 160.029Z " />
+        <path d="M343.5 96L448 96c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 160c0-35.3 28.7-64 64-64l104.5 0L243.7 5.8c3-3.6 7.5-5.8 12.3-5.8s9.3 2.1 12.3 5.8L343.5 96z" />
     </Icon>
 );
 

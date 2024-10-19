@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `tiktok` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `tiktok` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tiktok?s=brands tiktok}
- * @preview ![tiktok](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NDgsMjA5LjkxYTIxMC4wNiwyMTAuMDYsMCwwLDEtMTIyLjc3LTM5LjI1VjM0OS4zOEExNjIuNTUsMTYyLjU1LDAsMSwxLDE4NSwxODguMzFWMjc4LjJhNzQuNjIsNzQuNjIsMCwxLDAsNTIuMjMsNzEuMThWMGw4OCwwYTEyMS4xOCwxMjEuMTgsMCwwLDAsMS44NiwyMi4xN2gwQTEyMi4xOCwxMjIuMTgsMCwwLDAsMzgxLDEwMi4zOWExMjEuNDMsMTIxLjQzLDAsMCwwLDY3LDIwLjE0WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tiktok](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4LDIwOS45MWEyMTAuMDYsMjEwLjA2LDAsMCwxLTEyMi43Ny0zOS4yNVYzNDkuMzhBMTYyLjU1LDE2Mi41NSwwLDEsMSwxODUsMTg4LjMxVjI3OC4yYTc0LjYyLDc0LjYyLDAsMSwwLDUyLjIzLDcxLjE4VjBsODgsMGExMjEuMTgsMTIxLjE4LDAsMCwwLDEuODYsMjIuMTdoMEExMjIuMTgsMTIyLjE4LDAsMCwwLDM4MSwxMDIuMzlhMTIxLjQzLDEyMS40MywwLDAsMCw2NywyMC4xNFoiLz48L3N2Zz4=|width=32|height=32)
  */
 const Tiktok: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

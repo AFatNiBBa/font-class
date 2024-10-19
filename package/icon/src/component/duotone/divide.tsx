@@ -2,14 +2,14 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `divide` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `divide` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/divide?s=duotone divide}
- * @preview ![divide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTIyNCAxNDRDMjUwLjUzMSAxNDQgMjcyIDEyMi41MzEgMjcyIDk2UzI1MC41MzEgNDggMjI0IDQ4UzE3NiA2OS40NjkgMTc2IDk2UzE5Ny40NjkgMTQ0IDIyNCAxNDRaTTIyNCAzNjhDMTk3LjQ2OSAzNjggMTc2IDM4OS40NjkgMTc2IDQxNlMxOTcuNDY5IDQ2NCAyMjQgNDY0UzI3MiA0NDIuNTMxIDI3MiA0MTZTMjUwLjUzMSAzNjggMjI0IDM2OFoiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNMzkyIDIxNkg1NkMzMy45MDYgMjE2IDE2IDIzMy45MDYgMTYgMjU2UzMzLjkwNiAyOTYgNTYgMjk2SDM5MkM0MTQuMDk0IDI5NiA0MzIgMjc4LjA5NCA0MzIgMjU2UzQxNC4wOTQgMjE2IDM5MiAyMTZaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![divide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNiAyNTZjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzUyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMNDggMjI0Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTIyNCAxNDRhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0wIDMyMGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Divide: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M224 144C250.531 144 272 122.531 272 96S250.531 48 224 48S176 69.469 176 96S197.469 144 224 144ZM224 368C197.469 368 176 389.469 176 416S197.469 464 224 464S272 442.531 272 416S250.531 368 224 368Z" />
-            <path d="M392 216H56C33.906 216 16 233.906 16 256S33.906 296 56 296H392C414.094 296 432 278.094 432 256S414.094 216 392 216Z" />
+        <path class={generic.secondary} d="M16 256c0 17.7 14.3 32 32 32l352 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L48 224c-17.7 0-32 14.3-32 32z" />
+            <path d="M224 144a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0 320a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
     </Icon>
 );
 

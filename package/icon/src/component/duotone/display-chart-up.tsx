@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `display-chart-up` icon from the `duotone` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/display-chart-up?s=duotone display-chart-up}
+ * @preview ![display-chart-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDY0TDAgMzUyYzAgMzUuMyAyOC43IDY0IDY0IDY0bDE3NiAwIDk2IDAgMTc2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yODhjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMEMyOC43IDAgMCAyOC43IDAgNjR6bTY0IDBsNDQ4IDAgMCAyODhMNjQgMzUyIDY0IDY0eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNjQgNjRsNDQ4IDAgMCAyODhMNjQgMzUyIDY0IDY0ek0zNDYuNyA0NDhsNjkuMyAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0yNTYgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmw2OS4zIDBMMjQwIDQxNmw5NiAwIDEwLjcgMzJ6TTM0NCAxMTJjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMzguMSAwTDMwNCAyMzguMWwtNjMtNjNjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwbC04OCA4OGMtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlzMjQuNiA5LjQgMzMuOSAwbDcxLTcxIDYzIDYzYzQuNSA0LjUgMTAuNiA3IDE3IDdzMTIuNS0yLjUgMTctN2w5NS05NSAwIDM4LjFjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTk2YzAtMTMuMy0xMC43LTI0LTI0LTI0bC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const DisplayChartUp: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path class={generic.secondary} d="M0 64L0 352c0 35.3 28.7 64 64 64l176 0 96 0 176 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64zm64 0l448 0 0 288L64 352 64 64z" />
+            <path d="M64 64l448 0 0 288L64 352 64 64zM346.7 448l69.3 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-256 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l69.3 0L240 416l96 0 10.7 32zM344 112c-13.3 0-24 10.7-24 24s10.7 24 24 24l38.1 0L304 238.1l-63-63c-9.4-9.4-24.6-9.4-33.9 0l-88 88c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l71-71 63 63c4.5 4.5 10.6 7 17 7s12.5-2.5 17-7l95-95 0 38.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-96c0-13.3-10.7-24-24-24l-96 0z" />
+    </Icon>
+);
+
+export default DisplayChartUp;

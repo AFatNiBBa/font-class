@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `sandwich` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/sandwich?s=sharp-thin sandwich}
+ * @preview ![sandwich](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDgwbDAgOTZMMTYgMTc2bDAtOTYgNDgwIDB6TTE2IDY0TDAgNjQgMCA4MGwwIDk2IDAgMTYgMTYgMCA0ODAgMCAxNiAwIDAtMTYgMC05NiAwLTE2LTE2IDBMMTYgNjR6TTAgMzIwbDAgOEwwIDQ0MGwwIDggOCAwIDQ5NiAwIDggMCAwLTggMC0xMTIgMC04LTggMC0xMTIgMC0yLjQgMC0yIDEuMy02Ny42IDQ1LTY3LjYtNDUtMi0xLjMtMi40IDBMOCAzMjBsLTggMHptMTYgMTZsMjI5LjYgMCA3MCA0Ni43IDQuNCAzIDQuNC0zIDcwLTQ2LjdMNDk2IDMzNmwwIDk2TDE2IDQzMmwwLTk2ek0xMzAuOCAyMjQuNWwtMy0xLjEtMyAxLjMtMTEyIDQ4LTcuNCAzLjIgNi4zIDE0LjcgNy40LTMuMiAxMDktNDYuNyAxMjUgNDYuOSAyLjggMS4xIDIuOC0xLjEgMTI1LTQ2LjkgMTA5IDQ2LjcgNy40IDMuMiA2LjMtMTQuNy03LjQtMy4yLTExMi00OC0zLTEuMy0zIDEuMUwyNTYgMjcxLjUgMTMwLjggMjI0LjV6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Sandwich: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M496 80l0 96L16 176l0-96 480 0zM16 64L0 64 0 80l0 96 0 16 16 0 480 0 16 0 0-16 0-96 0-16-16 0L16 64zM0 320l0 8L0 440l0 8 8 0 496 0 8 0 0-8 0-112 0-8-8 0-112 0-2.4 0-2 1.3-67.6 45-67.6-45-2-1.3-2.4 0L8 320l-8 0zm16 16l229.6 0 70 46.7 4.4 3 4.4-3 70-46.7L496 336l0 96L16 432l0-96zM130.8 224.5l-3-1.1-3 1.3-112 48-7.4 3.2 6.3 14.7 7.4-3.2 109-46.7 125 46.9 2.8 1.1 2.8-1.1 125-46.9 109 46.7 7.4 3.2 6.3-14.7-7.4-3.2-112-48-3-1.3-3 1.1L256 271.5 130.8 224.5z" />
+    </Icon>
+);
+
+export default Sandwich;

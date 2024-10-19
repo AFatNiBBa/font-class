@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `signal-bars` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/signal-bars?s=sharp-thin signal-bars}
+ * @preview ![signal-bars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDE2bDAgNDgwIDY0IDAgMC00ODAtNjQgMHpNNTEyIDBsMTYgMCA2NCAwIDE2IDAgMCAxNiAwIDQ4MCAwIDE2LTE2IDAtNjQgMC0xNiAwIDAtMTYgMC00ODAgMC0xNnpNNDMyIDE0NGwtNjQgMCAwIDM1MiA2NCAwIDAtMzUyem0tNjQtMTZsNjQgMCAxNiAwIDAgMTYgMCAzNTIgMCAxNi0xNiAwLTY0IDAtMTYgMCAwLTE2IDAtMzUyIDAtMTYgMTYgMHpNMjA4IDI3MmwwIDIyNCA2NCAwIDAtMjI0LTY0IDB6bS0xNi0xNmwxNiAwIDY0IDAgMTYgMCAwIDE2IDAgMjI0IDAgMTYtMTYgMC02NCAwLTE2IDAgMC0xNiAwLTIyNCAwLTE2ek00OCA0MDBsMCA5NiA2NCAwIDAtOTYtNjQgMHpNMzIgMzg0bDE2IDAgNjQgMCAxNiAwIDAgMTYgMCA5NiAwIDE2LTE2IDAtNjQgMC0xNiAwIDAtMTYgMC05NiAwLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const SignalBars: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M528 16l0 480 64 0 0-480-64 0zM512 0l16 0 64 0 16 0 0 16 0 480 0 16-16 0-64 0-16 0 0-16 0-480 0-16zM432 144l-64 0 0 352 64 0 0-352zm-64-16l64 0 16 0 0 16 0 352 0 16-16 0-64 0-16 0 0-16 0-352 0-16 16 0zM208 272l0 224 64 0 0-224-64 0zm-16-16l16 0 64 0 16 0 0 16 0 224 0 16-16 0-64 0-16 0 0-16 0-224 0-16zM48 400l0 96 64 0 0-96-64 0zM32 384l16 0 64 0 16 0 0 16 0 96 0 16-16 0-64 0-16 0 0-16 0-96 0-16z" />
+    </Icon>
+);
+
+export default SignalBars;

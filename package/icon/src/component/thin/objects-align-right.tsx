@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `objects-align-right` icon from the `thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/objects-align-right?s=thin objects-align-right}
+ * @preview ![objects-align-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDhjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCA0OTZjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOEw1MTIgOHpNNDAwIDE3NmMwIDE3LjctMTQuMyAzMi0zMiAzMkw0OCAyMDhjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIwIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NHptMTYtNjRjMC0yNi41LTIxLjUtNDgtNDgtNDhMNDggNjRDMjEuNSA2NCAwIDg1LjUgMCAxMTJsMCA2NGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwzMjAgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTY0ek00MDAgNDAwYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xOTIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwxOTIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0em0xNi02NGMwLTI2LjUtMjEuNS00OC00OC00OGwtMTkyIDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgNjRjMCAyNi41IDIxLjUgNDggNDggNDhsMTkyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ObjectsAlignRight: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M512 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 496c0 4.4 3.6 8 8 8s8-3.6 8-8L512 8zM400 176c0 17.7-14.3 32-32 32L48 208c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32l0 64zm16-64c0-26.5-21.5-48-48-48L48 64C21.5 64 0 85.5 0 112l0 64c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-64zM400 400c0 17.7-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l192 0c17.7 0 32 14.3 32 32l0 64zm16-64c0-26.5-21.5-48-48-48l-192 0c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l192 0c26.5 0 48-21.5 48-48l0-64z" />
+    </Icon>
+);
+
+export default ObjectsAlignRight;

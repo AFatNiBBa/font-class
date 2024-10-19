@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `object-intersect` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/object-intersect?s=sharp-light object-intersect}
+ * @preview ![object-intersect](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJMMzIgMzJsMCA2NEwwIDk2IDAgMzIgMCAwIDMyIDAgOTYgMGwwIDMyem0zMiAwbDAtMzIgOTYgMCAwIDMyLTk2IDB6TTAgMTI4bDMyIDAgMCA5NkwwIDIyNGwwLTk2ek0zMjAgMzJsLTY0IDAgMC0zMiA2NCAwIDMyIDAgMCAzMiAwIDk2LTMyIDAgMC05NnptMCAxMjhsMzIgMCAwIDMyIDAgNjQgMCA2NCAwIDMyLTMyIDAtOTYgMC0zMiAwLTMyIDAgMC0zMiAwLTY0IDAtNjQgMC0zMiAzMiAwIDk2IDAgMzIgMHpNMTYwIDM4NGwzMiAwIDAgOTYgNjQgMCAwIDMyLTY0IDAtMzIgMCAwLTMyIDAtOTZ6bS0zMi0zMmwtOTYgMEwwIDM1MmwwLTMyIDAtNjQgMzIgMCAwIDY0IDk2IDAgMCAzMnpNMzg0IDE5MmwwLTMyIDk2IDAgMzIgMCAwIDMyIDAgNjQtMzIgMCAwLTY0LTk2IDB6TTI4OCA1MTJsMC0zMiA5NiAwIDAgMzItOTYgMHptMTkyIDBsLTY0IDAgMC0zMiA2NCAwIDAtNjQgMzIgMCAwIDY0IDAgMzItMzIgMHptMzItMTI4bC0zMiAwIDAtOTYgMzIgMCAwIDk2ek0zMjAgMTkybC0xMjggMCAwIDEyOCAxMjggMCAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ObjectIntersect: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M96 32L32 32l0 64L0 96 0 32 0 0 32 0 96 0l0 32zm32 0l0-32 96 0 0 32-96 0zM0 128l32 0 0 96L0 224l0-96zM320 32l-64 0 0-32 64 0 32 0 0 32 0 96-32 0 0-96zm0 128l32 0 0 32 0 64 0 64 0 32-32 0-96 0-32 0-32 0 0-32 0-64 0-64 0-32 32 0 96 0 32 0zM160 384l32 0 0 96 64 0 0 32-64 0-32 0 0-32 0-96zm-32-32l-96 0L0 352l0-32 0-64 32 0 0 64 96 0 0 32zM384 192l0-32 96 0 32 0 0 32 0 64-32 0 0-64-96 0zM288 512l0-32 96 0 0 32-96 0zm192 0l-64 0 0-32 64 0 0-64 32 0 0 64 0 32-32 0zm32-128l-32 0 0-96 32 0 0 96zM320 192l-128 0 0 128 128 0 0-128z" />
+    </Icon>
+);
+
+export default ObjectIntersect;

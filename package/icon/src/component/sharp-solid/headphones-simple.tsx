@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `headphones-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/headphones-simple?s=sharp-solid headphones-simple}
+ * @preview ![headphones-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDgwQzE0MS4xIDgwIDQ4IDE3My4xIDQ4IDI4OGwwIDEwNCAwIDI0TDAgNDE2bDAtMjRMMCAyODhDMCAxNDYuNiAxMTQuNiAzMiAyNTYgMzJzMjU2IDExNC42IDI1NiAyNTZsMCAxMDQgMCAyNC00OCAwIDAtMjQgMC0xMDRjMC0xMTQuOS05My4xLTIwOC0yMDgtMjA4ek04MCAyODhsMTEyIDAgMCAxOTJMODAgNDgwbDAtMTkyem0yNDAgMGwxMTIgMCAwIDE5Mi0xMTIgMCAwLTE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const HeadphonesSimple: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M256 80C141.1 80 48 173.1 48 288l0 104 0 24L0 416l0-24L0 288C0 146.6 114.6 32 256 32s256 114.6 256 256l0 104 0 24-48 0 0-24 0-104c0-114.9-93.1-208-208-208zM80 288l112 0 0 192L80 480l0-192zm240 0l112 0 0 192-112 0 0-192z" />
+    </Icon>
+);
+
+export default HeadphonesSimple;

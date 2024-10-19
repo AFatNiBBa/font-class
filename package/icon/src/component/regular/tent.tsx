@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `tent` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/tent?s=regular tent}
+ * @preview ![tent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc0LjQgNC4yYzguMi01LjcgMTktNS43IDI3LjMgMEw1MjEuNSAxNTUuOWMxMy41IDkuMyAyMi4yIDI0IDIzLjkgNDAuMmwyNi43IDI1NGMzLjUgMzMuMS0yMi40IDYxLjktNTUuNyA2MS45TDQ0MCA1MTJsLTE3NiAwTDU5LjUgNTEyQzI2LjMgNTEyIC40IDQ4My4yIDMuOSA0NTAuMWwyNi43LTI1NGMxLjctMTYuMyAxMC40LTMxIDIzLjktNDAuMkwyNzQuNCA0LjJ6TTUxNi41IDQ2NGM0LjcgMCA4LjUtNC4xIDgtOC44bC0yNi43LTI1NGMtLjItMi4zLTEuNS00LjQtMy40LTUuN0wzMTIgNjkuN2wwIDIwOS42TDQxMy42IDQ2NGwxMDIuOSAwek0yNjQgNjkuN0w4MS43IDE5NS40Yy0xLjkgMS4zLTMuMiAzLjQtMy40IDUuN2wtMjYuNyAyNTRjLS41IDQuNyAzLjIgOC44IDggOC44TDI2NCA0NjRsMC0xMzYgMC0xMzYgMC0xMjIuM3oiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Tent: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M274.4 4.2c8.2-5.7 19-5.7 27.3 0L521.5 155.9c13.5 9.3 22.2 24 23.9 40.2l26.7 254c3.5 33.1-22.4 61.9-55.7 61.9L440 512l-176 0L59.5 512C26.3 512 .4 483.2 3.9 450.1l26.7-254c1.7-16.3 10.4-31 23.9-40.2L274.4 4.2zM516.5 464c4.7 0 8.5-4.1 8-8.8l-26.7-254c-.2-2.3-1.5-4.4-3.4-5.7L312 69.7l0 209.6L413.6 464l102.9 0zM264 69.7L81.7 195.4c-1.9 1.3-3.2 3.4-3.4 5.7l-26.7 254c-.5 4.7 3.2 8.8 8 8.8L264 464l0-136 0-136 0-122.3z" />
+    </Icon>
+);
+
+export default Tent;

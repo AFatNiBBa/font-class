@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `car` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/car?s=sharp-light car}
+ * @preview ![car](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDMybC0xMS45IDBMOTYuNyA0My40IDUyLjEgMTkyIDMyIDE5MiAwIDE5MmwwIDMyTDAgMzg0bDAgMTYgMCAxNiAwIDY0IDMyIDAgMC02NCA0NDggMCAwIDY0IDMyIDAgMC02NCAwLTE2IDAtMTYgMC0xNjAgMC0zMi0zMiAwLTIwLjEgMEw0MTUuMyA0My40IDQxMS45IDMyIDQwMCAzMiAxMTIgMzJ6TTQyNi41IDE5MmwtMzQxIDBMMTIzLjkgNjRsMjY0LjIgMCAzOC40IDEyOHpNNDgwIDIyNGwwIDE2MEwzMiAzODRsMC0xNjAgNDQ4IDB6TTEwNCAzMjBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em0zMjgtMjRhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Car: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M112 32l-11.9 0L96.7 43.4 52.1 192 32 192 0 192l0 32L0 384l0 16 0 16 0 64 32 0 0-64 448 0 0 64 32 0 0-64 0-16 0-16 0-160 0-32-32 0-20.1 0L415.3 43.4 411.9 32 400 32 112 32zM426.5 192l-341 0L123.9 64l264.2 0 38.4 128zM480 224l0 160L32 384l0-160 448 0zM104 320a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm328-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
+    </Icon>
+);
+
+export default Car;

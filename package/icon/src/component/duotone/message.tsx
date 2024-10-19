@@ -2,13 +2,13 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `message` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `message` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message?s=duotone message}
- * @preview ![message](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTUxMiA2My45OTVWMzUyQzUxMiAzODcuMjQ3IDQ4My4yNSA0MTUuOTk1IDQ0OCA0MTUuOTk1SDMwNEwxNzkuMTI1IDUwOS43MUMxNzEuMjUgNTE1LjQ1OSAxNjAgNTA5LjcxIDE2MCA0OTkuOTZWNDE1Ljk5NUg2NEMyOC43NSA0MTUuOTk1IDAgMzg3LjI0NyAwIDM1MlY2My45OTVDMCAyOC43NDggMjguNzUgMCA2NCAwSDQ0OEM0ODMuMjUgMCA1MTIgMjguNzQ4IDUxMiA2My45OTVaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![message](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDM1MmMwIDM1LjMgMjguNyA2NCA2NCA2NGw5NiAwIDAgODBjMCA2LjEgMy40IDExLjYgOC44IDE0LjNzMTEuOSAyLjEgMTYuOC0xLjVMMzA5LjMgNDE2IDQ0OCA0MTZjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yODhjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
  */
 const Message: typeof Icon = x => (
     <Icon {...x}>
-        <path class={generic.secondary} d="M512 63.995V352C512 387.247 483.25 415.995 448 415.995H304L179.125 509.71C171.25 515.459 160 509.71 160 499.96V415.995H64C28.75 415.995 0 387.247 0 352V63.995C0 28.748 28.75 0 64 0H448C483.25 0 512 28.748 512 63.995Z" />
+        <path class={generic.secondary} d="M64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l96 0 0 80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0z" />
     </Icon>
 );
 

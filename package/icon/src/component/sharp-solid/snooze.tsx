@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `snooze` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/snooze?s=sharp-solid snooze}
+ * @preview ![snooze](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBMMTYwIDBsMCA2NCAzMiAwIDMzLjMgMC01Ny42IDY3LjItNy43IDkgMCAxMS44IDAgOCAwIDMyIDMyIDAgOTYgMCAzMiAwIDAtNjQtMzIgMC0zMy4zIDAgNTcuNi02Ny4yIDcuNy05TDMyMCA0MGwwLTggMC0zMkwyODggMCAxOTIgMHpNMzIwIDIyNGwtMzIgMCAwIDY0IDMyIDAgMzMuMyAwLTU3LjYgNjcuMi03LjcgOSAwIDExLjggMCA4IDAgMzIgMzIgMCA5NiAwIDMyIDAgMC02NC0zMiAwLTMzLjMgMCA1Ny42LTY3LjIgNy43LTkgMC0xMS44IDAtOCAwLTMyLTMyIDAtOTYgMHpNMzIgMjU2TDAgMjU2bDAgNjQgMzIgMCA5OC43IDBMOS40IDQ0MS40IDAgNDUwLjcgMCA0NjRsMCAxNiAwIDMyIDMyIDAgMTYwIDAgMzIgMCAwLTY0LTMyIDAtOTguNyAwTDIxNC42IDMyNi42bDkuNC05LjQgMC0xMy4zIDAtMTYgMC0zMi0zMiAwTDMyIDI1NnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Snooze: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M192 0L160 0l0 64 32 0 33.3 0-57.6 67.2-7.7 9 0 11.8 0 8 0 32 32 0 96 0 32 0 0-64-32 0-33.3 0 57.6-67.2 7.7-9L320 40l0-8 0-32L288 0 192 0zM320 224l-32 0 0 64 32 0 33.3 0-57.6 67.2-7.7 9 0 11.8 0 8 0 32 32 0 96 0 32 0 0-64-32 0-33.3 0 57.6-67.2 7.7-9 0-11.8 0-8 0-32-32 0-96 0zM32 256L0 256l0 64 32 0 98.7 0L9.4 441.4 0 450.7 0 464l0 16 0 32 32 0 160 0 32 0 0-64-32 0-98.7 0L214.6 326.6l9.4-9.4 0-13.3 0-16 0-32-32 0L32 256z" />
+    </Icon>
+);
+
+export default Snooze;

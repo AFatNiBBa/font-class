@@ -2,14 +2,14 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `arrow-up-left` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `arrow-up-left` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-left?s=duotone arrow-up-left}
- * @preview ![arrow-up-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTE1Mi41NjIgMTYwTDM1Ni4yODEgMzYzLjcxOUMzNzEuOTA2IDM3OS4zNDQgMzcxLjkwNiA0MDQuNjU2IDM1Ni4yODEgNDIwLjI4MVMzMTUuMzQ0IDQzNS45MDYgMjk5LjcxOSA0MjAuMjgxTDk2IDIxNi41NjJWMTYwSDE1Mi41NjJaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTk2IDE2MFYzMjhDOTYgMzUwLjA5NCA3OC4wOTQgMzY4IDU2IDM2OFMxNiAzNTAuMDk0IDE2IDMyOFYxMjBDMTYgOTcuOTA2IDMzLjkwNiA4MCA1NiA4MEgyNjRDMjg2LjA5NCA4MCAzMDQgOTcuOTA2IDMwNCAxMjBTMjg2LjA5NCAxNjAgMjY0IDE2MEg5NloiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-up-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAxNjBsNDUuMyAwTDM0Mi42IDM2MS40YzYuMiA2LjIgOS40IDE0LjQgOS40IDIyLjZzLTMuMSAxNi40LTkuNCAyMi42cy0xNC40IDkuNC0yMi42IDkuNHMtMTYuNC0zLjEtMjIuNi05LjRMOTYgMjA1LjMgOTYgMTYweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzIgMTI4YzAtMTcuNyAxNC4zLTMyIDMyLTMybDIyNCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyTDk2IDE2MGwwIDE5MmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTIyNHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const ArrowUpLeft: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M152.562 160L356.281 363.719C371.906 379.344 371.906 404.656 356.281 420.281S315.344 435.906 299.719 420.281L96 216.562V160H152.562Z" />
-            <path d="M96 160V328C96 350.094 78.094 368 56 368S16 350.094 16 328V120C16 97.906 33.906 80 56 80H264C286.094 80 304 97.906 304 120S286.094 160 264 160H96Z" />
+        <path class={generic.secondary} d="M96 160l45.3 0L342.6 361.4c6.2 6.2 9.4 14.4 9.4 22.6s-3.1 16.4-9.4 22.6s-14.4 9.4-22.6 9.4s-16.4-3.1-22.6-9.4L96 205.3 96 160z" />
+            <path d="M32 128c0-17.7 14.3-32 32-32l224 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L96 160l0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-224z" />
     </Icon>
 );
 

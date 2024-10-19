@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `openid` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `openid` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/openid?s=brands openid}
- * @preview ![openid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNzEuNSA0MzJsLTY4IDMyQzg4LjUgNDUzLjcgMCAzOTIuNSAwIDMxOC4yYzAtNzEuNSA4Mi41LTEzMSAxOTEuNy0xNDQuM3Y0M2MtNzEuNSAxMi41LTEyNCA1My0xMjQgMTAxLjMgMCA1MSA1OC41IDkzLjMgMTM1LjcgMTAzdi0zNDBsNjgtMzMuMnYzODR6TTQ0OCAyOTFsLTEzMS4zLTI4LjUgMzYuOC0yMC43Yy0xOS41LTExLjUtNDMuNS0yMC03MC0yNC44di00M2M0Ni4yIDUuNSA4Ny43IDE5LjUgMTIwLjMgMzkuM2wzNS0xOS44TDQ0OCAyOTF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![openid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcxLjUgNDMybC02OCAzMkM4OC41IDQ1My43IDAgMzkyLjUgMCAzMTguMmMwLTcxLjUgODIuNS0xMzEgMTkxLjctMTQ0LjN2NDNjLTcxLjUgMTIuNS0xMjQgNTMtMTI0IDEwMS4zIDAgNTEgNTguNSA5My4zIDEzNS43IDEwM3YtMzQwbDY4LTMzLjJ2Mzg0ek00NDggMjkxbC0xMzEuMy0yOC41IDM2LjgtMjAuN2MtMTkuNS0xMS41LTQzLjUtMjAtNzAtMjQuOHYtNDNjNDYuMiA1LjUgODcuNyAxOS41IDEyMC4zIDM5LjNsMzUtMTkuOEw0NDggMjkxeiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Openid: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

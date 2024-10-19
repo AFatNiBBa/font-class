@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `sailboat` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/sailboat?s=regular sailboat}
+ * @preview ![sailboat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg0LjYgNi4yYy00LjItNS40LTExLjQtNy41LTE3LjgtNS4zUzI1NiA5LjIgMjU2IDE2bDAgMjg4YzAgOC44IDcuMiAxNiAxNiAxNmwyMjQgMGM2LjEgMCAxMS43LTMuNSAxNC40LTlzMi0xMi0xLjctMTYuOWwtMjI0LTI4OHptLTcyIDkwLjVjLTYuNy0yLTE0IC42LTE3LjkgNi40bC0xMjggMTkyYy0zLjMgNC45LTMuNiAxMS4yLS44IDE2LjRzOC4yIDguNSAxNC4xIDguNWwxMjggMGM4LjggMCAxNi03LjIgMTYtMTZsMC0xOTJjMC03LjEtNC42LTEzLjMtMTEuNC0xNS4zek02MCA0MDBsNDU2IDAtLjQgMS42Yy04LjIgMzYuNS00MC42IDYyLjQtNzggNjIuNGwtMjk5LjIgMGMtMzcuNCAwLTY5LjgtMjUuOS03OC02Mi40TDYwIDQwMHpNMjAgMzUyYy0xMC4zIDAtMTcuOSA5LjUtMTUuNiAxOS41bDkuMSA0MC42YzEzLjEgNTguNCA2NSA5OS45IDEyNC45IDk5LjlsMjk5LjIgMGM1OS45IDAgMTExLjctNDEuNSAxMjQuOS05OS45bDkuMS00MC42YzIuMi0xMC01LjQtMTkuNS0xNS42LTE5LjVMMjAgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Sailboat: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M284.6 6.2c-4.2-5.4-11.4-7.5-17.8-5.3S256 9.2 256 16l0 288c0 8.8 7.2 16 16 16l224 0c6.1 0 11.7-3.5 14.4-9s2-12-1.7-16.9l-224-288zm-72 90.5c-6.7-2-14 .6-17.9 6.4l-128 192c-3.3 4.9-3.6 11.2-.8 16.4s8.2 8.5 14.1 8.5l128 0c8.8 0 16-7.2 16-16l0-192c0-7.1-4.6-13.3-11.4-15.3zM60 400l456 0-.4 1.6c-8.2 36.5-40.6 62.4-78 62.4l-299.2 0c-37.4 0-69.8-25.9-78-62.4L60 400zM20 352c-10.3 0-17.9 9.5-15.6 19.5l9.1 40.6c13.1 58.4 65 99.9 124.9 99.9l299.2 0c59.9 0 111.7-41.5 124.9-99.9l9.1-40.6c2.2-10-5.4-19.5-15.6-19.5L20 352z" />
+    </Icon>
+);
+
+export default Sailboat;

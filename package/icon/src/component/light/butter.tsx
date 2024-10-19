@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `butter` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/butter?s=light butter}
+ * @preview ![butter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDk2bDAgMTkyLTMyIDAgMC0xOTJMMTI4IDk2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE2MC0zMiAwIDAtMTYwYzAtMzUuMyAyOC43LTY0IDY0LTY0bDMyMCAwIDE2IDAgMTYgMCAzMiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTYwLTMyIDAgMC0xNjBjMC0xNy43LTE0LjMtMzItMzItMzJsLTMyIDB6TTAgMzM2YzAtOC44IDcuMi0xNiAxNi0xNmwxNiAwIDMyIDAgNTEyIDAgMzIgMCAxNiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xNiAwIDAgNDhjMCAyNi41LTIxLjUgNDgtNDggNDhMODAgNDQ4Yy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTQ4LTE2IDBjLTguOCAwLTE2LTcuMi0xNi0xNnptNjQgMTZsMCA0OGMwIDguOCA3LjIgMTYgMTYgMTZsNDgwIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtNDhMNjQgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Butter: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M480 96l0 192-32 0 0-192L128 96c-17.7 0-32 14.3-32 32l0 160-32 0 0-160c0-35.3 28.7-64 64-64l320 0 16 0 16 0 32 0c35.3 0 64 28.7 64 64l0 160-32 0 0-160c0-17.7-14.3-32-32-32l-32 0zM0 336c0-8.8 7.2-16 16-16l16 0 32 0 512 0 32 0 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 48c0 26.5-21.5 48-48 48L80 448c-26.5 0-48-21.5-48-48l0-48-16 0c-8.8 0-16-7.2-16-16zm64 16l0 48c0 8.8 7.2 16 16 16l480 0c8.8 0 16-7.2 16-16l0-48L64 352z" />
+    </Icon>
+);
+
+export default Butter;

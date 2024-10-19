@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `inbox-full` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/inbox-full?s=sharp-regular inbox-full}
+ * @preview ![inbox-full](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDMybDAtOTYgODEuMiAwIDI1LjQgNTAuNyA2LjYgMTMuMyAxNC44IDAgMTYwIDAgMTQuOCAwIDYuNi0xMy4zTDM4Mi44IDMzNmw4MS4yIDAgMCA5Nkw0OCA0MzJ6TTQwMi41IDgwbDUyIDIwOEwzNjggMjg4bC0xNC44IDAtNi42IDEzLjNMMzIxLjIgMzUybC0xMzAuMyAwLTI1LjQtNTAuN0wxNTguOCAyODggMTQ0IDI4OGwtODYuNSAwIDUyLTIwOCAyOTMgMHpNMCAzMjBMMCA0MzJsMCA0OCA0OCAwIDQxNiAwIDQ4IDAgMC00OCAwLTExMkw0NDAgMzIgNzIgMzIgMCAzMjB6TTE4NCAxMjhsLTI0IDAgMCA0OCAyNCAwIDE0NCAwIDI0IDAgMC00OC0yNCAwLTE0NCAwem0tMzIgODBsLTI0IDAgMCA0OCAyNCAwIDIwOCAwIDI0IDAgMC00OC0yNCAwLTIwOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const InboxFull: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M48 432l0-96 81.2 0 25.4 50.7 6.6 13.3 14.8 0 160 0 14.8 0 6.6-13.3L382.8 336l81.2 0 0 96L48 432zM402.5 80l52 208L368 288l-14.8 0-6.6 13.3L321.2 352l-130.3 0-25.4-50.7L158.8 288 144 288l-86.5 0 52-208 293 0zM0 320L0 432l0 48 48 0 416 0 48 0 0-48 0-112L440 32 72 32 0 320zM184 128l-24 0 0 48 24 0 144 0 24 0 0-48-24 0-144 0zm-32 80l-24 0 0 48 24 0 208 0 24 0 0-48-24 0-208 0z" />
+    </Icon>
+);
+
+export default InboxFull;

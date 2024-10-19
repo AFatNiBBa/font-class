@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `person-walking` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-walking?s=sharp-regular person-walking}
+ * @preview ![person-walking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDBhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2ek0xMTguOSAxODMuNEw4Mi42IDIwMS41IDYyLjEgMjQ5LjVsLTkuNSAyMi4xTDguNSAyNTIuNmw5LjUtMjIuMSAyNC01NiAzLjUtOC4xIDcuOS0zLjkgODAtNDAgOC4yLTQuMSA4LjggMi40IDg4IDI0IDEzLjIgMy42IDMuNiAxMy4yIDIyLjMgODEuOUwzMTMgMjc5IDI3OSAzMTNsLTQwLTQwLTQuNS00LjUtMS43LTYuMS02LjQtMjMuNC0yNS43IDgyLjMgNTQuNCA0NC4yIDYuMiA1IDEuOSA3LjggMjQgOTYgNS44IDIzLjMtNDYuNiAxMS42LTUuOC0yMy4zLTIyLjEtODguMkwxMTQgMzEyLjZDOTYgMjk3LjkgODguOSAyNzMuNSA5Ni4yIDI1MS40bDIyLjctNjh6bTUyLjktNi45bC0zMCA5MC4xYy0xLjEgMy4yIDAgNi42IDIuNSA4LjdsMTYuNCAxMy4zIDMyLjQtMTAzLjhjLjMtLjggLjUtMS42IC45LTIuM2wtMjIuMS02ek05OS43IDM0Mi4ybDM5IDMxLjctMjAuNCA1MS4xLTEuOCA0LjZMMTEzIDQzMyA1Mi4yIDQ5My44bC0xNyAxN0wxLjMgNDc2LjhsMTctMTcgNTcuMy01Ny4zIDI0LjEtNjAuNHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const PersonWalking: typeof Icon = x => (
+    <Icon viewBox="0 0 320 512" {...x}>
+        <path d="M208 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM118.9 183.4L82.6 201.5 62.1 249.5l-9.5 22.1L8.5 252.6l9.5-22.1 24-56 3.5-8.1 7.9-3.9 80-40 8.2-4.1 8.8 2.4 88 24 13.2 3.6 3.6 13.2 22.3 81.9L313 279 279 313l-40-40-4.5-4.5-1.7-6.1-6.4-23.4-25.7 82.3 54.4 44.2 6.2 5 1.9 7.8 24 96 5.8 23.3-46.6 11.6-5.8-23.3-22.1-88.2L114 312.6C96 297.9 88.9 273.5 96.2 251.4l22.7-68zm52.9-6.9l-30 90.1c-1.1 3.2 0 6.6 2.5 8.7l16.4 13.3 32.4-103.8c.3-.8 .5-1.6 .9-2.3l-22.1-6zM99.7 342.2l39 31.7-20.4 51.1-1.8 4.6L113 433 52.2 493.8l-17 17L1.3 476.8l17-17 57.3-57.3 24.1-60.4z" />
+    </Icon>
+);
+
+export default PersonWalking;

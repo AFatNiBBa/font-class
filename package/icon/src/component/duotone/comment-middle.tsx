@@ -2,13 +2,13 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `comment-middle` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `comment-middle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-middle?s=duotone comment-middle}
- * @preview ![comment-middle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTMyMy4xNjIgNDA4LjUyNUwyNzQuMjc1IDUwMS45MTZDMjY3LjIzOCA1MTUuMzYxIDI0NC43NjIgNTE1LjM2MSAyMzcuNzI1IDUwMS45MTZMMTg4LjgzOCA0MDguNTI1QzgwLjA3NiAzODQuNTMzIDAgMzAzLjk4OCAwIDIwOEMwIDkzLjA5NCAxMTQuNTk0IDAgMjU2IDBTNTEyIDkzLjA5NCA1MTIgMjA4QzUxMiAzMDMuOTg4IDQzMS45MjQgMzg0LjUzMyAzMjMuMTYyIDQwOC41MjVaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![comment-middle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xODguMyA0MDguN2w0NC41IDg5YzQuNCA4LjggMTMuMyAxNC4zIDIzLjIgMTQuM3MxOC44LTUuNSAyMy4yLTE0LjNsNDQuNS04OUM0MzIuMiAzODQuNSA1MTIgMzAzLjggNTEyIDIwOEM1MTIgOTMuMSAzOTcuNCAwIDI1NiAwUzAgOTMuMSAwIDIwOGMwIDk1LjggNzkuOCAxNzYuNSAxODguMyAyMDAuN3oiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
  */
 const CommentMiddle: typeof Icon = x => (
     <Icon {...x}>
-        <path class={generic.secondary} d="M323.162 408.525L274.275 501.916C267.238 515.361 244.762 515.361 237.725 501.916L188.838 408.525C80.076 384.533 0 303.988 0 208C0 93.094 114.594 0 256 0S512 93.094 512 208C512 303.988 431.924 384.533 323.162 408.525Z" />
+        <path class={generic.secondary} d="M188.3 408.7l44.5 89c4.4 8.8 13.3 14.3 23.2 14.3s18.8-5.5 23.2-14.3l44.5-89C432.2 384.5 512 303.8 512 208C512 93.1 397.4 0 256 0S0 93.1 0 208c0 95.8 79.8 176.5 188.3 200.7z" />
     </Icon>
 );
 

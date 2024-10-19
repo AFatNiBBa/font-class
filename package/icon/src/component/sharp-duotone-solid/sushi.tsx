@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `sushi` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/sushi?s=sharp-duotone-solid sushi}
+ * @preview ![sushi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAzNzQuOGwyNTAuMS04Ni43IDI2MS45IDg3IDAgOC45YzAgMzUuMy0yOC43IDY0LTY0IDY0Yy0xOS4xIDAtMzYuMy04LjQtNDgtMjEuN2MtMTEuNyAxMy4zLTI4LjkgMjEuNy00OCAyMS43cy0zNi4zLTguNC00OC0yMS43Yy0xMS43IDEzLjMtMjguOSAyMS43LTQ4IDIxLjdzLTM2LjMtOC40LTQ4LTIxLjdjLTExLjcgMTMuMy0yOC45IDIxLjctNDggMjEuN3MtMzYuMy04LjQtNDgtMjEuN0MxMzIuMyA0MzkuNiAxMTUuMSA0NDggOTYgNDQ4Yy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTkuMnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQwNS45IDI5NS41TDUwNi4zIDEyNS42YzI0LjggMjYuNyA0Mi4xIDYwLjcgNDguNSA5OC44TDU3NiAzNTIgNDA1LjkgMjk1LjV6bTc2LjItMTkxLjlMMzc0LjggMjg1LjJsLTkyLjctMzAuOEwzOTMuNSA2Ni4xYzMyLjkgNC44IDYzLjIgMTggODguNyAzNy41ek0yNDYuNiA2NGwxMTAuOSAwTDIzNS42IDI3MC40IDk2LjEgMzE4LjcgMjQ2LjYgNjR6bS0zNy4yIDBMNDkuNCAzMzQuOSAwIDM1MiAyMS4zIDIyNC40QzM2LjYgMTMyLjIgMTE2LjEgNjQuNiAyMDkuNSA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Sushi: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path class={generic.secondary} d="M32 374.8l250.1-86.7 261.9 87 0 8.9c0 35.3-28.7 64-64 64c-19.1 0-36.3-8.4-48-21.7c-11.7 13.3-28.9 21.7-48 21.7s-36.3-8.4-48-21.7c-11.7 13.3-28.9 21.7-48 21.7s-36.3-8.4-48-21.7c-11.7 13.3-28.9 21.7-48 21.7s-36.3-8.4-48-21.7C132.3 439.6 115.1 448 96 448c-35.3 0-64-28.7-64-64l0-9.2z" />
+            <path d="M405.9 295.5L506.3 125.6c24.8 26.7 42.1 60.7 48.5 98.8L576 352 405.9 295.5zm76.2-191.9L374.8 285.2l-92.7-30.8L393.5 66.1c32.9 4.8 63.2 18 88.7 37.5zM246.6 64l110.9 0L235.6 270.4 96.1 318.7 246.6 64zm-37.2 0L49.4 334.9 0 352 21.3 224.4C36.6 132.2 116.1 64.6 209.5 64z" />
+    </Icon>
+);
+
+export default Sushi;

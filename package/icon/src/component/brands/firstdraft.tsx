@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `firstdraft` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `firstdraft` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/firstdraft?s=brands firstdraft}
- * @preview ![firstdraft](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMTkyaC02NHYxMjhIMTkydjEyOEgwdi0yNS42aDE2Ni40di0xMjhoMTI4di0xMjhIMzg0VjE5MnptLTI1LjYgMzguNHYxMjhoLTEyOHYxMjhINjRWNTEyaDE5MlYzODRoMTI4VjIzMC40aC0yNS42em0yNS42IDE5MmgtODkuNlY1MTJIMzIwdi02NGg2NHYtMjUuNnpNMCAwdjM4NGgxMjhWMjU2aDEyOFYxMjhoMTI4VjBIMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![firstdraft](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDE5MmgtNjR2MTI4SDE5MnYxMjhIMHYtMjUuNmgxNjYuNHYtMTI4aDEyOHYtMTI4SDM4NFYxOTJ6bS0yNS42IDM4LjR2MTI4aC0xMjh2MTI4SDY0VjUxMmgxOTJWMzg0aDEyOFYyMzAuNGgtMjUuNnptMjUuNiAxOTJoLTg5LjZWNTEySDMyMHYtNjRoNjR2LTI1LjZ6TTAgMHYzODRoMTI4VjI1NmgxMjhWMTI4aDEyOFYwSDB6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Firstdraft: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

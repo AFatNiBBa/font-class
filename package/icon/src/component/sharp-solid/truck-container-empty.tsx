@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `truck-container-empty` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/truck-container-empty?s=sharp-solid truck-container-empty}
+ * @preview ![truck-container-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU2IDE2MGwtMjQgMCAwIDI0IDAgNzIgMCAzMiAwIDMyLTIyNCAwTDgwIDMyMGwtNDggMEwwIDMyMGwwIDMyIDAgMzIgMCAxNmMwIDQ0LjIgMzUuOCA4MCA4MCA4MGMyNi4yIDAgNDkuNC0xMi42IDY0LTMyYzE0LjYgMTkuNCAzNy44IDMyIDY0IDMyYzQ0LjIgMCA4MC0zNS44IDgwLTgwYzAtNS41LS42LTEwLjgtMS42LTE2TDQzMiAzODRsMTcuNiAwYy0xIDUuMi0xLjYgMTAuNS0xLjYgMTZjMCA0NC4yIDM1LjggODAgODAgODBzODAtMzUuOCA4MC04MGMwLTUuNS0uNi0xMC44LTEuNi0xNmwzMy42IDAgMC05NiAwLTMyIDAtOS45LTctNy03Mi03Mi03LTctOS45IDAtODggMHptMTI2LjEgOTZMNDgwIDI1NmwwLTQ4IDU0LjEgMCA0OCA0OHpNNTI4IDM2OGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6TTE3NiA0MDBhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHpNODAgMzY4YTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const TruckContainerEmpty: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M456 160l-24 0 0 24 0 72 0 32 0 32-224 0L80 320l-48 0L0 320l0 32 0 32 0 16c0 44.2 35.8 80 80 80c26.2 0 49.4-12.6 64-32c14.6 19.4 37.8 32 64 32c44.2 0 80-35.8 80-80c0-5.5-.6-10.8-1.6-16L432 384l17.6 0c-1 5.2-1.6 10.5-1.6 16c0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16l33.6 0 0-96 0-32 0-9.9-7-7-72-72-7-7-9.9 0-88 0zm126.1 96L480 256l0-48 54.1 0 48 48zM528 368a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM176 400a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM80 368a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+    </Icon>
+);
+
+export default TruckContainerEmpty;

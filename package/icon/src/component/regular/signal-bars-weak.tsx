@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `signal-bars-weak` icon from the `regular` section of Font Awesome 6 Pro
+ * A component that renders the `signal-bars-weak` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-bars-weak?s=regular signal-bars-weak}
- * @preview ![signal-bars-weak](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik05NiAzODRIMzJDMTQuMzI4IDM4NCAwIDM5OC4zMjggMCA0MTZWNDgwQzAgNDk3LjY3MiAxNC4zMjggNTEyIDMyIDUxMkg5NkMxMTMuNjc0IDUxMiAxMjggNDk3LjY3MiAxMjggNDgwVjQxNkMxMjggMzk4LjMyOCAxMTMuNjc0IDM4NCA5NiAzODRaTTgwIDQ2NEg0OFY0MzJIODBWNDY0WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![signal-bars-weak](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNDQ4YTE2IDE2IDAgMSAxIC0zMiAwIDE2IDE2IDAgMSAxIDMyIDB6TTgwIDM4NGE2NCA2NCAwIDEgMCAwIDEyOCA2NCA2NCAwIDEgMCAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const SignalBarsWeak: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 384H32C14.328 384 0 398.328 0 416V480C0 497.672 14.328 512 32 512H96C113.674 512 128 497.672 128 480V416C128 398.328 113.674 384 96 384ZM80 464H48V432H80V464Z" />
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M96 448a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM80 384a64 64 0 1 0 0 128 64 64 0 1 0 0-128z" />
     </Icon>
 );
 

@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `product-hunt` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `product-hunt` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/product-hunt?s=brands product-hunt}
- * @preview ![product-hunt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMjYuMyAyMTguOGMwIDIwLjUtMTYuNyAzNy4yLTM3LjIgMzcuMmgtNzAuM3YtNzQuNGg3MC4zYzIwLjUgMCAzNy4yIDE2LjcgMzcuMiAzNy4yek01MDQgMjU2YzAgMTM3LTExMSAyNDgtMjQ4IDI0OFM4IDM5MyA4IDI1NiAxMTkgOCAyNTYgOHMyNDggMTExIDI0OCAyNDh6bS0xMjguMS0zNy4yYzAtNDcuOS0zOC45LTg2LjgtODYuOC04Ni44SDE2OS4ydjI0OGg0OS42di03NC40aDcwLjNjNDcuOSAwIDg2LjgtMzguOSA4Ni44LTg2Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![product-hunt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI2LjMgMjE4LjhjMCAyMC41LTE2LjcgMzcuMi0zNy4yIDM3LjJoLTcwLjN2LTc0LjRoNzAuM2MyMC41IDAgMzcuMiAxNi43IDM3LjIgMzcuMnpNNTA0IDI1NmMwIDEzNy0xMTEgMjQ4LTI0OCAyNDhTOCAzOTMgOCAyNTYgMTE5IDggMjU2IDhzMjQ4IDExMSAyNDggMjQ4em0tMTI4LjEtMzcuMmMwLTQ3LjktMzguOS04Ni44LTg2LjgtODYuOEgxNjkuMnYyNDhoNDkuNnYtNzQuNGg3MC4zYzQ3LjkgMCA4Ni44LTM4LjkgODYuOC04Ni44eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const ProductHunt: typeof Icon = x => (
     <Icon {...x}>

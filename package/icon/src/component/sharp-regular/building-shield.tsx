@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `building-shield` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/building-shield?s=sharp-regular building-shield}
+ * @preview ![building-shield](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMjg4IDAgMCAxNzguOSA0OC0xOC42TDM4NCA0OGwwLTQ4TDMzNiAwIDQ4IDAgMCAwIDAgNDggMCA0NjRsMCA0OCA0OCAwIDI4OCAwIDI2LjEgMGMtMTkuMi0xMy43LTM1LjctMzAtNDkuNS00OEwyNDAgNDY0bDAtMTEyLTk2IDAgMCAxMTItOTYgMEw0OCA0OHpNMjk2IDIxNmwtODAgMCAwIDgwIDQwIDAgMC0zOC4yIDQwLTE1LjUgMC0yNi4zek04OCA4OGwwIDgwIDgwIDAgMC04MEw4OCA4OHptMjA4IDBsLTgwIDAgMCA4MCA4MCAwIDAtODB6TTg4IDIxNmwwIDgwIDgwIDAgMC04MC04MCAwem00MzkuMyA5Ni40Yy01LjIgNjEtMzguOCAxMjEuNy05NS4zIDE0OGwwLTE4NC45IDk1LjMgMzYuOXpNNDMyIDUxMmM5Ni0zMiAxNDQtMTMwLjIgMTQ0LTIxNmwwLTE2LjJMNDMyIDIyNCAyODggMjc5LjhsMCAxNi4yYzAgODUuOCA0OCAxODQgMTQ0IDIxNnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const BuildingShield: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M48 48l288 0 0 178.9 48-18.6L384 48l0-48L336 0 48 0 0 0 0 48 0 464l0 48 48 0 288 0 26.1 0c-19.2-13.7-35.7-30-49.5-48L240 464l0-112-96 0 0 112-96 0L48 48zM296 216l-80 0 0 80 40 0 0-38.2 40-15.5 0-26.3zM88 88l0 80 80 0 0-80L88 88zm208 0l-80 0 0 80 80 0 0-80zM88 216l0 80 80 0 0-80-80 0zm439.3 96.4c-5.2 61-38.8 121.7-95.3 148l0-184.9 95.3 36.9zM432 512c96-32 144-130.2 144-216l0-16.2L432 224 288 279.8l0 16.2c0 85.8 48 184 144 216z" />
+    </Icon>
+);
+
+export default BuildingShield;

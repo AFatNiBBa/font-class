@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `bridge` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/bridge?s=solid bridge}
+ * @preview ![bridge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJDMTQuMyAzMiAwIDQ2LjMgMCA2NFMxNC4zIDk2IDMyIDk2bDQwIDAgMCA2NEwwIDE2MCAwIDI4OGM1MyAwIDk2IDQzIDk2IDk2bDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzIgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0YzAtNTMgNDMtOTYgOTYtOTZzOTYgNDMgOTYgOTZsMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzMiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNjRjMC01MyA0My05NiA5Ni05NmwwLTEyOC03MiAwIDAtNjQgNDAgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMkwzMiAzMnpNNDU2IDk2bDAgNjQtODAgMCAwLTY0IDgwIDB6TTMyOCA5NmwwIDY0LTgwIDAgMC02NCA4MCAwek0yMDAgOTZsMCA2NC04MCAwIDAtNjQgODAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Bridge: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l40 0 0 64L0 160 0 288c53 0 96 43 96 96l0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64c0-53 43-96 96-96s96 43 96 96l0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64c0-53 43-96 96-96l0-128-72 0 0-64 40 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zM456 96l0 64-80 0 0-64 80 0zM328 96l0 64-80 0 0-64 80 0zM200 96l0 64-80 0 0-64 80 0z" />
+    </Icon>
+);
+
+export default Bridge;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `users-rectangle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/users-rectangle?s=sharp-solid users-rectangle}
+ * @preview ![users-rectangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEwwIDAgMCAzMiAwIDQ4MGwwIDMyIDMyIDAgNTc2IDAgMzIgMCAwLTMyIDAtNDQ4IDAtMzJMNjA4IDAgMzIgMHpNNjQgNDQ4TDY0IDY0bDUxMiAwIDAgMzg0TDY0IDQ0OHpNMjIzLjggMTc2YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTEyMCAyNTZMOTYgMzM2bDk0LjMgMCAxOS40LTU4LjEgNy4zLTIxLjlMMTIwIDI1NnptMzI5LjcgODBsOTQuMyAwLTI0LTgwLTk2LjkgMCA3LjMgMjEuOUw0NDkuNyAzMzZ6TTQzMiAzODRsLTE2LTQ4LTE2LTQ4LTE3LjYgMC0xMjQuOCAwTDI0MCAyODhsLTE2IDQ4LTE2IDQ4IDIyNCAwem04MC0yMDhhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMzIwIDI1NmE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const UsersRectangle: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M32 0L0 0 0 32 0 480l0 32 32 0 576 0 32 0 0-32 0-448 0-32L608 0 32 0zM64 448L64 64l512 0 0 384L64 448zM223.8 176a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM120 256L96 336l94.3 0 19.4-58.1 7.3-21.9L120 256zm329.7 80l94.3 0-24-80-96.9 0 7.3 21.9L449.7 336zM432 384l-16-48-16-48-17.6 0-124.8 0L240 288l-16 48-16 48 224 0zm80-208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM320 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
+    </Icon>
+);
+
+export default UsersRectangle;

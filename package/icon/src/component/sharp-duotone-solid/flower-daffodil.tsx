@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `flower-daffodil` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/flower-daffodil?s=sharp-duotone-solid flower-daffodil}
+ * @preview ![flower-daffodil](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMyMGwwIDE2YzAgOTcuMiA3OC44IDE3NiAxNzYgMTc2bDQ4IDAgMzIgMCAzMiAwIDQ4IDBjOTcuMiAwIDE3Ni03OC44IDE3Ni0xNzZsMC0xNi04MCAwYy01OS41IDAtMTEyLjEgMjkuNi0xNDQgNzQuOGwwLTExMy40Yy0xMi43LTUuNi0yMy44LTE0LjQtMzItMjUuM2MtLjUgLjctMSAxLjQtMS42IDJzLTEuMSAxLjMtMS42IDJjLTEuMSAxLjMtMi4zIDIuNi0zLjUgMy44Yy0yLjQgMi41LTQuOSA0LjgtNy42IDYuOWMtNS40IDQuMy0xMS4zIDcuOS0xNy43IDEwLjZsMCAxMTMuNEMxOTIuMSAzNDkuNiAxMzkuNSAzMjAgODAgMzIwTDAgMzIweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzIwIDI4OGMtMjYuMiAwLTQ5LjQtMTIuNi02NC0zMmMtMTQuNiAxOS40LTM3LjggMzItNjQgMzJjLTQ0LjIgMC04MC0zNS44LTgwLTgwYzAtMjYuMiAxMi42LTQ5LjQgMzItNjRjLTE5LjQtMTQuNi0zMi0zNy44LTMyLTY0YzAtNDQuMiAzNS44LTgwIDgwLTgwYzI2LjIgMCA0OS40IDEyLjYgNjQgMzJjMTQuNi0xOS40IDM3LjgtMzIgNjQtMzJjNDQuMiAwIDgwIDM1LjggODAgODBjMCAyNi4yLTEyLjYgNDkuNC0zMiA2NGMxOS40IDE0LjYgMzIgMzcuOCAzMiA2NGMwIDQ0LjItMzUuOCA4MC04MCA4MHptLTY0LTg4bDU2LTU2TDI1NiA4OGwtNTYgNTYgNTYgNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const FlowerDaffodil: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M0 320l0 16c0 97.2 78.8 176 176 176l48 0 32 0 32 0 48 0c97.2 0 176-78.8 176-176l0-16-80 0c-59.5 0-112.1 29.6-144 74.8l0-113.4c-12.7-5.6-23.8-14.4-32-25.3c-.5 .7-1 1.4-1.6 2s-1.1 1.3-1.6 2c-1.1 1.3-2.3 2.6-3.5 3.8c-2.4 2.5-4.9 4.8-7.6 6.9c-5.4 4.3-11.3 7.9-17.7 10.6l0 113.4C192.1 349.6 139.5 320 80 320L0 320z" />
+            <path d="M320 288c-26.2 0-49.4-12.6-64-32c-14.6 19.4-37.8 32-64 32c-44.2 0-80-35.8-80-80c0-26.2 12.6-49.4 32-64c-19.4-14.6-32-37.8-32-64c0-44.2 35.8-80 80-80c26.2 0 49.4 12.6 64 32c14.6-19.4 37.8-32 64-32c44.2 0 80 35.8 80 80c0 26.2-12.6 49.4-32 64c19.4 14.6 32 37.8 32 64c0 44.2-35.8 80-80 80zm-64-88l56-56L256 88l-56 56 56 56z" />
+    </Icon>
+);
+
+export default FlowerDaffodil;

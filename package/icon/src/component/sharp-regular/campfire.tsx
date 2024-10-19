@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `campfire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/campfire?s=sharp-regular campfire}
+ * @preview ![campfire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI4LjQgMEMxODkuNiAyNC4yIDExMiA5My4xIDExMiAxNzQuNUMxMTIgMjU0LjkgMTc3LjEgMzIwIDI1Ny41IDMyMHMxNDUuNS02NS4xIDE0NS41LTE0NS41YzAtMjQuMi0xNy41LTg3LjMtODcuMy0xNDUuNUwyODYuNSA1OC4yIDIyOC40IDB6bTg3LjMgMjE4LjNjMCAzMi4xLTI2IDU4LjItNTguMiA1OC4ycy01OC4yLTI2LTU4LjItNTguMmMwLTQzLjYgNTguMi04Ny4zIDU4LjItODcuM3M1OC4yIDQzLjYgNTguMiA4Ny4zek00MC4xIDI5Ny40bC0yMi42LTguMUwxLjMgMzM0LjVsMjIuNiA4LjFMMTg0LjYgNDAwIDIzLjkgNDU3LjQgMS4zIDQ2NS41bDE2LjEgNDUuMiAyMi42LTguMUwyNTYgNDI1LjVsMjE1LjkgNzcuMSAyMi42IDguMSAxNi4xLTQ1LjItMjIuNi04LjFMMzI3LjQgNDAwbDE2MC43LTU3LjQgMjIuNi04LjEtMTYuMS00NS4yLTIyLjYgOC4xTDI1NiAzNzQuNSA0MC4xIDI5Ny40eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Campfire: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M228.4 0C189.6 24.2 112 93.1 112 174.5C112 254.9 177.1 320 257.5 320s145.5-65.1 145.5-145.5c0-24.2-17.5-87.3-87.3-145.5L286.5 58.2 228.4 0zm87.3 218.3c0 32.1-26 58.2-58.2 58.2s-58.2-26-58.2-58.2c0-43.6 58.2-87.3 58.2-87.3s58.2 43.6 58.2 87.3zM40.1 297.4l-22.6-8.1L1.3 334.5l22.6 8.1L184.6 400 23.9 457.4 1.3 465.5l16.1 45.2 22.6-8.1L256 425.5l215.9 77.1 22.6 8.1 16.1-45.2-22.6-8.1L327.4 400l160.7-57.4 22.6-8.1-16.1-45.2-22.6 8.1L256 374.5 40.1 297.4z" />
+    </Icon>
+);
+
+export default Campfire;

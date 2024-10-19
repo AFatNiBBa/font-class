@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `trash-can-list` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/trash-can-list?s=sharp-regular trash-can-list}
+ * @preview ![trash-can-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMxLjIgMEwxNDQgMCAyNzIgMGwxMi44IDBMMjkyIDEwLjcgMzM4LjIgODAgMzg0IDgwbDMyIDAgMCA0OC0zMiAwIDAgMzM2IDAgNDgtNDggMEw4MCA1MTJsLTQ4IDAgMC00OCAwLTMzNkwwIDEyOCAwIDgwbDMyIDAgNDUuOCAwTDEyNCAxMC43IDEzMS4yIDB6bTQuNCA4MGwxNDUgMEwyNTkuMiA0OCAxNTYuOCA0OCAxMzUuNSA4MHpNODAgMTI4bDAgMzM2IDI1NiAwIDAtMzM2TDgwIDEyOHptOTYgNDhsMCAxNiAwIDIwOCAwIDE2LTMyIDAgMC0xNiAwLTIwOCAwLTE2IDMyIDB6bTk2IDBsMCAxNiAwIDIwOCAwIDE2LTMyIDAgMC0xNiAwLTIwOCAwLTE2IDMyIDB6bTM2OC00OGwwIDQ4LTE5MiAwIDAtNDggMTkyIDB6TTYwOCAyNTZsMCA0OC0xNjAgMCAwLTQ4IDE2MCAwek00NDggMzg0bDk2IDAgMCA0OC05NiAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const TrashCanList: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M131.2 0L144 0 272 0l12.8 0L292 10.7 338.2 80 384 80l32 0 0 48-32 0 0 336 0 48-48 0L80 512l-48 0 0-48 0-336L0 128 0 80l32 0 45.8 0L124 10.7 131.2 0zm4.4 80l145 0L259.2 48 156.8 48 135.5 80zM80 128l0 336 256 0 0-336L80 128zm96 48l0 16 0 208 0 16-32 0 0-16 0-208 0-16 32 0zm96 0l0 16 0 208 0 16-32 0 0-16 0-208 0-16 32 0zm368-48l0 48-192 0 0-48 192 0zM608 256l0 48-160 0 0-48 160 0zM448 384l96 0 0 48-96 0 0-48z" />
+    </Icon>
+);
+
+export default TrashCanList;

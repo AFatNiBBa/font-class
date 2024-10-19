@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `union` icon from the `thin` section of Font Awesome 6 Pro
+ * A component that renders the `union` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/union?s=thin union}
- * @preview ![union](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNTIgNDBWMzIwQzM1MiA0MDguMjE5IDI4MC4yMTkgNDgwIDE5MiA0ODBTMzIgNDA4LjIxOSAzMiAzMjBWNDBDMzIgMzUuNTk0IDM1LjU5NCAzMiA0MCAzMlM0OCAzNS41OTQgNDggNDBWMzIwQzQ4IDM5OS40MDYgMTEyLjU5NCA0NjQgMTkyIDQ2NFMzMzYgMzk5LjQwNiAzMzYgMzIwVjQwQzMzNiAzNS41OTQgMzM5LjU5NCAzMiAzNDQgMzJTMzUyIDM1LjU5NCAzNTIgNDBaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![union](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMzJjNC40IDAgOCAzLjYgOCA4bDAgMjY0YzAgODguNCA3MS42IDE2MCAxNjAgMTYwczE2MC03MS42IDE2MC0xNjBsMC0yNjRjMC00LjQgMy42LTggOC04czggMy42IDggOGwwIDI2NGMwIDk3LjItNzguOCAxNzYtMTc2IDE3NlMxNiA0MDEuMiAxNiAzMDRMMTYgNDBjMC00LjQgMy42LTggOC04eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Union: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 40V320C352 408.219 280.219 480 192 480S32 408.219 32 320V40C32 35.594 35.594 32 40 32S48 35.594 48 40V320C48 399.406 112.594 464 192 464S336 399.406 336 320V40C336 35.594 339.594 32 344 32S352 35.594 352 40Z" />
+        <path d="M24 32c4.4 0 8 3.6 8 8l0 264c0 88.4 71.6 160 160 160s160-71.6 160-160l0-264c0-4.4 3.6-8 8-8s8 3.6 8 8l0 264c0 97.2-78.8 176-176 176S16 401.2 16 304L16 40c0-4.4 3.6-8 8-8z" />
     </Icon>
 );
 

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `sink` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/sink?s=sharp-regular sink}
+ * @preview ![sink](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDg4YzAtMjIuMSAxNy45LTQwIDQwLTQwczQwIDE3LjkgNDAgNDBsMCAyNCAwIDI0IDQ4IDAgMC0yNCAwLTI0YzAtNDguNi0zOS40LTg4LTg4LTg4cy04OCAzOS40LTg4IDg4bDAgMjAwLTcyIDAgMC01NiAwLTI0LTI0IDAtODAgMC0yNCAwIDAgNDggMjQgMCA1NiAwIDAgMzItODggMEwwIDI4OGwwIDQ4IDI0IDAgMjA4IDAgNDggMCAyMDggMCAyNCAwIDAtNDgtMjQgMC04OCAwIDAtMzIgNjQgMCAyNCAwIDAtNDgtMjQgMC04OCAwLTI0IDAgMCAyNCAwIDU2LTcyIDAgMC0yMDB6TTMyIDM2OGwwIDI0YzAgNjYuMyA1My43IDEyMCAxMjAgMTIwbDIwOCAwYzY2LjMgMCAxMjAtNTMuNyAxMjAtMTIwbDAtMjQtNDggMCAwIDI0YzAgMzkuOC0zMi4yIDcyLTcyIDcybC0yMDggMGMtMzkuOCAwLTcyLTMyLjItNzItNzJsMC0yNC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Sink: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M280 88c0-22.1 17.9-40 40-40s40 17.9 40 40l0 24 0 24 48 0 0-24 0-24c0-48.6-39.4-88-88-88s-88 39.4-88 88l0 200-72 0 0-56 0-24-24 0-80 0-24 0 0 48 24 0 56 0 0 32-88 0L0 288l0 48 24 0 208 0 48 0 208 0 24 0 0-48-24 0-88 0 0-32 64 0 24 0 0-48-24 0-88 0-24 0 0 24 0 56-72 0 0-200zM32 368l0 24c0 66.3 53.7 120 120 120l208 0c66.3 0 120-53.7 120-120l0-24-48 0 0 24c0 39.8-32.2 72-72 72l-208 0c-39.8 0-72-32.2-72-72l0-24-48 0z" />
+    </Icon>
+);
+
+export default Sink;

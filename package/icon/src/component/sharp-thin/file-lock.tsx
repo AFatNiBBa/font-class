@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `file-lock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/file-lock?s=sharp-thin file-lock}
+ * @preview ![file-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDQ5NkwxNiA0OTYgMTYgMTZsMTkyIDAgMCAxNTIgMCA4IDggMCAxMDQgMCA0OCAwIDE2IDAgMC0xNkwyMjQgMCAxNiAwIDAgMCAwIDE2IDAgNDk2bDAgMTYgMTYgMCAzMDQgMCAwLTE2ek0yMjQgMjIuNkwzNjEuNCAxNjAgMjI0IDE2MGwwLTEzNy40ek00NjQgMjA4YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNjQtOTYgMCAwLTY0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4em0tNjQgNDhsMCA2NC0zMiAwLTE2IDAgMCAxNiAwIDE2MCAwIDE2IDE2IDAgMTkyIDAgMTYgMCAwLTE2IDAtMTYwIDAtMTYtMTYgMC0zMiAwIDAtNjRjMC0zNS4zLTI4LjctNjQtNjQtNjRzLTY0IDI4LjctNjQgNjR6TTM2OCA0OTZsMC0xNjAgMzIgMCAxNiAwIDk2IDAgMTYgMCAzMiAwIDAgMTYwLTE5MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const FileLock: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M320 496L16 496 16 16l192 0 0 152 0 8 8 0 104 0 48 0 16 0 0-16L224 0 16 0 0 0 0 16 0 496l0 16 16 0 304 0 0-16zM224 22.6L361.4 160 224 160l0-137.4zM464 208c26.5 0 48 21.5 48 48l0 64-96 0 0-64c0-26.5 21.5-48 48-48zm-64 48l0 64-32 0-16 0 0 16 0 160 0 16 16 0 192 0 16 0 0-16 0-160 0-16-16 0-32 0 0-64c0-35.3-28.7-64-64-64s-64 28.7-64 64zM368 496l0-160 32 0 16 0 96 0 16 0 32 0 0 160-192 0z" />
+    </Icon>
+);
+
+export default FileLock;

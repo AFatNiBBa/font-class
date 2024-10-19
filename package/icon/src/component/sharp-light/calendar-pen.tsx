@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `calendar-pen` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/calendar-pen?s=sharp-light calendar-pen}
+ * @preview ![calendar-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMCAxNiAwIDQ4IDE5MiAwIDAtNDggMC0xNiAzMiAwIDAgMTYgMCA0OCA2NCAwIDMyIDAgMCAzMiAwIDY0IDAgMzIgMCAyODggMCAzMi0zMiAwTDMyIDUxMiAwIDUxMmwwLTMyTDAgMTkybDAtMzJMMCA5NiAwIDY0bDMyIDAgNjQgMCAwLTQ4TDk2IDBsMzIgMHpNNDE2IDE5MkwzMiAxOTJsMCAyODggMzg0IDAgMC0yODh6bTAtOTZMMzIgOTZsMCA2NCAzODQgMCAwLTY0ek0yODAuMSAyMDkuNGwxMS4zIDExLjMgNDcuOSA0Ny45IDExLjMgMTEuMy0xMS4zIDExLjNMMjAxLjQgNDI5LjFsLTMuMyAzLjMtNC41IDEtNjIuMSAxNC4yLTI0LjkgNS43IDUuNy0yNC45IDE0LjItNjIuMSAxLTQuNSAzLjMtMy4zTDI2OC44IDIyMC43bDExLjMtMTEuM3pNMTU2LjggMzc3LjlsLTcuNSAzMi43IDMyLjctNy41IDgzLjItODMuMi0yNS4yLTI1LjItODMuMiA4My4yek0yNjIuNyAyNzIuMWwyNS4yIDI1LjIgMTcuNC0xNy40LTI1LjItMjUuMi0xNy40IDE3LjR6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const CalendarPen: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M128 0l0 16 0 48 192 0 0-48 0-16 32 0 0 16 0 48 64 0 32 0 0 32 0 64 0 32 0 288 0 32-32 0L32 512 0 512l0-32L0 192l0-32L0 96 0 64l32 0 64 0 0-48L96 0l32 0zM416 192L32 192l0 288 384 0 0-288zm0-96L32 96l0 64 384 0 0-64zM280.1 209.4l11.3 11.3 47.9 47.9 11.3 11.3-11.3 11.3L201.4 429.1l-3.3 3.3-4.5 1-62.1 14.2-24.9 5.7 5.7-24.9 14.2-62.1 1-4.5 3.3-3.3L268.8 220.7l11.3-11.3zM156.8 377.9l-7.5 32.7 32.7-7.5 83.2-83.2-25.2-25.2-83.2 83.2zM262.7 272.1l25.2 25.2 17.4-17.4-25.2-25.2-17.4 17.4z" />
+    </Icon>
+);
+
+export default CalendarPen;

@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `tombstone-blank` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `tombstone-blank` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tombstone-blank?s=solid tombstone-blank}
- * @preview ![tombstone-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00MTYgMTkyQzQxNiA4NiAzMzAgMCAyMjQgMEMxMTggMCAzMiA4NiAzMiAxOTJWNDE2SDQxNlYxOTJaTTQzMiA0NDhIMTZDNy4xMjUgNDQ4IDAgNDU1LjEyNSAwIDQ2NFY0OTZDMCA1MDQuODc1IDcuMTI1IDUxMiAxNiA1MTJINDMyQzQ0MC44NzUgNTEyIDQ0OCA1MDQuODc1IDQ0OCA0OTZWNDY0QzQ0OCA0NTUuMTI1IDQ0MC44NzUgNDQ4IDQzMiA0NDhaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![tombstone-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBDMTE4IDAgMzIgODYgMzIgMTkybDAgMjI0IDM4NCAwIDAtMjI0QzQxNiA4NiAzMzAgMCAyMjQgMHpNMzIgNDQ4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDM4NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMyTDMyIDQ0OHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const TombstoneBlank: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 192C416 86 330 0 224 0C118 0 32 86 32 192V416H416V192ZM432 448H16C7.125 448 0 455.125 0 464V496C0 504.875 7.125 512 16 512H432C440.875 512 448 504.875 448 496V464C448 455.125 440.875 448 432 448Z" />
+        <path d="M224 0C118 0 32 86 32 192l0 224 384 0 0-224C416 86 330 0 224 0zM32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 448z" />
     </Icon>
 );
 

@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `guarani-sign` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/guarani-sign?s=sharp-duotone-solid guarani-sign}
+ * @preview ![guarani-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNjAgMGw2NCAwIDAgNjYuN2MtNS4yLS45LTEwLjUtMS41LTE1LjgtMmMtMi43LS4yLTUuNC0uNC04LjEtLjVjLTEuMy0uMS0yLjctLjEtNC4xLS4xcy0yLjcgMC00LjEgMGMtMTAuOSAwLTIxLjYgLjktMzIgMi43TDE2MCAwem0wIDEzMmM1LjEtMS4zIDEwLjMtMi4zIDE1LjctM2MyLjctLjMgNS40LS42IDguMS0uOGMxLjQtLjEgMi43LS4yIDQuMS0uMnMyLjctLjEgNC4xLS4xYzExLjEgMCAyMS44IDEuNCAzMiA0bDAgOTIgMCA2NCAwIDkyYy01LjEgMS4zLTEwLjQgMi4zLTE1LjcgM2MtMi43IC4zLTUuNCAuNi04LjEgLjhjLTEuNCAuMS0yLjcgLjItNC4xIC4ycy0yLjcgLjEtNC4xIC4xYy0xMSAwLTIxLjgtMS40LTMyLTRMMTYwIDEzMnptMCAzMTMuM2M1LjIgLjkgMTAuNSAxLjUgMTUuOCAyYzIuNyAuMiA1LjQgLjQgOC4xIC41YzEuMyAuMSAyLjcgLjEgNC4xIC4xczIuNyAwIDQuMSAwYzEwLjkgMCAyMS42LS45IDMyLTIuN2wwIDY2LjctNjQgMCAwLTY2Ljd6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0xOTIgMTI4Yy03MC43IDAtMTI4IDU3LjMtMTI4IDEyOHM1Ny4zIDEyOCAxMjggMTI4YzU5LjYgMCAxMDkuOC00MC44IDEyNC05NmwtOTIgMCAwLTY0IDEyOCAwIDMyIDAgMCAzMmMwIDEwNi04NiAxOTItMTkyIDE5MlMwIDM2MiAwIDI1NlM4NiA2NCAxOTIgNjRjNTIuMyAwIDk5LjggMjEgMTM0LjQgNTQuOWwtNDQuOCA0NS43QzI1OC41IDE0MS45IDIyNi45IDEyOCAxOTIgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const GuaraniSign: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path class={generic.secondary} d="M160 0l64 0 0 66.7c-5.2-.9-10.5-1.5-15.8-2c-2.7-.2-5.4-.4-8.1-.5c-1.3-.1-2.7-.1-4.1-.1s-2.7 0-4.1 0c-10.9 0-21.6 .9-32 2.7L160 0zm0 132c5.1-1.3 10.3-2.3 15.7-3c2.7-.3 5.4-.6 8.1-.8c1.4-.1 2.7-.2 4.1-.2s2.7-.1 4.1-.1c11.1 0 21.8 1.4 32 4l0 92 0 64 0 92c-5.1 1.3-10.4 2.3-15.7 3c-2.7 .3-5.4 .6-8.1 .8c-1.4 .1-2.7 .2-4.1 .2s-2.7 .1-4.1 .1c-11 0-21.8-1.4-32-4L160 132zm0 313.3c5.2 .9 10.5 1.5 15.8 2c2.7 .2 5.4 .4 8.1 .5c1.3 .1 2.7 .1 4.1 .1s2.7 0 4.1 0c10.9 0 21.6-.9 32-2.7l0 66.7-64 0 0-66.7z" />
+            <path d="M192 128c-70.7 0-128 57.3-128 128s57.3 128 128 128c59.6 0 109.8-40.8 124-96l-92 0 0-64 128 0 32 0 0 32c0 106-86 192-192 192S0 362 0 256S86 64 192 64c52.3 0 99.8 21 134.4 54.9l-44.8 45.7C258.5 141.9 226.9 128 192 128z" />
+    </Icon>
+);
+
+export default GuaraniSign;

@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `whiskey-glass` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `whiskey-glass` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whiskey-glass?s=solid whiskey-glass}
- * @preview ![whiskey-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NzkuOTU1IDMySDMyLjA0NUMxMi41NDkgMzIgLTIuMzI0IDQ5LjI1NCAwLjMwMSA2OC41MDhMNTYuMjg5IDQyNS4xMDlDNjAuNzg5IDQ1Ni42MTcgODcuNzgzIDQ4MCAxMTkuNzc4IDQ4MEgzOTIuNzIzQzQyNC40NjcgNDgwIDQ1MS41ODYgNDU2LjYxNyA0NTYuMDg2IDQyNS4xMDlMNTExLjY5OSA2OC41MDhDNTE0LjMyNCA0OS4yNTQgNDk5LjQ1MSAzMiA0NzkuOTU1IDMyWk00MTYgMjg4SDk2TDY0IDk2SDQ0OEw0MTYgMjg4WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![whiskey-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJjLTkuMyAwLTE4LjEgNC0yNC4yIDExLjFTLTEgNTkuNCAuMyA2OC42bDUwIDM0Mi45YzUuNyAzOS4zIDM5LjQgNjguNSA3OS4yIDY4LjVsMjUzIDBjMzkuNyAwIDczLjQtMjkuMSA3OS4yLTY4LjVsNTAtMzQyLjljMS4zLTkuMi0xLjQtMTguNS03LjUtMjUuNVM0ODkuMyAzMiA0ODAgMzJMMzIgMzJ6TTg3LjcgMjI0TDY5IDk2bDM3NCAwTDQyNC4zIDIyNCA4Ny43IDIyNHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const WhiskeyGlass: typeof Icon = x => (
     <Icon {...x}>
-        <path d="M479.955 32H32.045C12.549 32 -2.324 49.254 0.301 68.508L56.289 425.109C60.789 456.617 87.783 480 119.778 480H392.723C424.467 480 451.586 456.617 456.086 425.109L511.699 68.508C514.324 49.254 499.451 32 479.955 32ZM416 288H96L64 96H448L416 288Z" />
+        <path d="M32 32c-9.3 0-18.1 4-24.2 11.1S-1 59.4 .3 68.6l50 342.9c5.7 39.3 39.4 68.5 79.2 68.5l253 0c39.7 0 73.4-29.1 79.2-68.5l50-342.9c1.3-9.2-1.4-18.5-7.5-25.5S489.3 32 480 32L32 32zM87.7 224L69 96l374 0L424.3 224 87.7 224z" />
     </Icon>
 );
 

@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `korvue` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `korvue` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/korvue?s=brands korvue}
- * @preview ![korvue](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODYuNSAzNGgtMzI3QzI2LjggMzQgMCA2MC44IDAgOTMuNXYzMjcuMUMwIDQ1My4yIDI2LjggNDgwIDU5LjUgNDgwaDMyNy4xYzMzIDAgNTkuNS0yNi44IDU5LjUtNTkuNXYtMzI3QzQ0NiA2MC44IDQxOS4yIDM0IDM4Ni41IDM0ek04Ny4xIDEyMC44aDk2djExNmw2MS44LTExNmgxMTAuOWwtODEuMiAxMzJIODcuMXYtMTMyem0xNjEuOCAyNzIuMWwtNjUuNy0xMTMuNnYxMTMuNmgtOTZWMjYyLjFoMTkxLjVsODguNiAxMzAuOEgyNDguOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![korvue](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg2LjUgMzRoLTMyN0MyNi44IDM0IDAgNjAuOCAwIDkzLjV2MzI3LjFDMCA0NTMuMiAyNi44IDQ4MCA1OS41IDQ4MGgzMjcuMWMzMyAwIDU5LjUtMjYuOCA1OS41LTU5LjV2LTMyN0M0NDYgNjAuOCA0MTkuMiAzNCAzODYuNSAzNHpNODcuMSAxMjAuOGg5NnYxMTZsNjEuOC0xMTZoMTEwLjlsLTgxLjIgMTMySDg3LjF2LTEzMnptMTYxLjggMjcyLjFsLTY1LjctMTEzLjZ2MTEzLjZoLTk2VjI2Mi4xaDE5MS41bDg4LjYgMTMwLjhIMjQ4Ljl6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Korvue: typeof Icon = x => (
     <Icon viewBox="0 0 446 512" {...x}>

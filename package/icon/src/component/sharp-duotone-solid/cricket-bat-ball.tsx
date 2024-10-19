@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `cricket-bat-ball` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/cricket-bat-ball?s=sharp-duotone-solid cricket-bat-ball}
+ * @preview ![cricket-bat-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0uMiAzNDkuOEMtLjIgMzY3LjEgLjYgMzg0IDMuOCA0MDFjNCAyMS40IDEzLjEgNTEuNCAzNS4yIDcxLjljMjAuNiAyMi4xIDUwLjYgMzEuMiA3MS45IDM1LjJjMTcgMy4yIDM0IDQgNTEuMiAzLjZDMjI2LjEgNDQ3LjggMjkwIDM4My45IDM1My45IDMyMGMtNDguNyAwLTk3LjMgMC0xNDUuOSAwYy01LjMgMC0xMC43IDAtMTYgMGMwLTUuMyAwLTEwLjcgMC0xNmMwLTQ4LjcgMC05Ny4zIDAtMTQ1LjlMLjIgMzQ5Ljh6TTIyNCAxMjYuMWMwIDU0IDAgMTA4IDAgMTYxLjljNTQgMCAxMDggMCAxNjEuOSAwYzEzLjMtMTMuMyAyNi43LTI2LjcgNDAtNDBjLTE5LjQtMTkuNC0zOC45LTM4LjktNTguMy01OC4zYy0xNS4xLTE1LjEtMzAuMi0zMC4yLTQ1LjMtNDUuM0wyNjQgODYuMWMtMTMuMyAxMy4zLTI2LjcgMjYuNy00MCA0MHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTUwOS4zIDQ4TDQ4Ni42IDcwLjZsLTExOSAxMTktNDUuMy00NS4zIDExOS0xMTlMNDY0IDIuNyA1MDkuMyA0OHpNMzg1LjkgMjg4bC0zMiAzMkwyMDggMzIwbC0xNiAwIDAtMTYgMC0xNDUuOSAzMi0zMkwyMjQgMjg4bDE2MS45IDB6TTM1MiA0MzJhODAgODAgMCAxIDEgMTYwIDAgODAgODAgMCAxIDEgLTE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const CricketBatBall: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M.2 349.8C-.2 367.1 .6 384 3.8 401c4 21.4 13.1 51.4 35.2 71.9c20.6 22.1 50.6 31.2 71.9 35.2c17 3.2 34 4 51.2 3.6C226.1 447.8 290 383.9 353.9 320c-48.7 0-97.3 0-145.9 0c-5.3 0-10.7 0-16 0c0-5.3 0-10.7 0-16c0-48.7 0-97.3 0-145.9L.2 349.8zM224 126.1c0 54 0 108 0 161.9c54 0 108 0 161.9 0c13.3-13.3 26.7-26.7 40-40c-19.4-19.4-38.9-38.9-58.3-58.3c-15.1-15.1-30.2-30.2-45.3-45.3L264 86.1c-13.3 13.3-26.7 26.7-40 40z" />
+            <path d="M509.3 48L486.6 70.6l-119 119-45.3-45.3 119-119L464 2.7 509.3 48zM385.9 288l-32 32L208 320l-16 0 0-16 0-145.9 32-32L224 288l161.9 0zM352 432a80 80 0 1 1 160 0 80 80 0 1 1 -160 0z" />
+    </Icon>
+);
+
+export default CricketBatBall;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `meter-droplet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/meter-droplet?s=sharp-solid meter-droplet}
+ * @preview ![meter-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMmM1My43IDAgMTAzLjUtMTYuNSAxNDQuNi00NC43QzM5MCA0NDcuMiAzODQgNDI0LjMgMzg0IDQwMGwwLTIuMWMwLTI4LjMgOC4yLTU2IDIzLjctNzkuN0w0OTkuNiAxNzdDNDY2LjMgNzQuMyAzNjkuOCAwIDI1NiAwQzExNC42IDAgMCAxMTQuNiAwIDI1NlMxMTQuNiA1MTIgMjU2IDUxMnpNMTkyIDE2MGwwIDMyIDAgMzItNjQgMCAwLTMyIDAtMzIgMC0zMiA2NCAwIDAgMzJ6bTk2IDBsMCAzMiAwIDMyLTY0IDAgMC0zMiAwLTMyIDAtMzIgNjQgMCAwIDMyem05NiAwbDAgMzIgMCAzMi02NCAwIDAtMzIgMC0zMiAwLTMyIDY0IDAgMCAzMnptMTQ0IDMyTDQzNC41IDMzNS42Yy0xMi4xIDE4LjUtMTguNSA0MC4yLTE4LjUgNjIuM2wwIDIuMWMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMnMxMTItNTAuMSAxMTItMTEybDAtMi4xYzAtMjIuMS02LjQtNDMuNy0xOC41LTYyLjNMNTI4IDE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const MeterDroplet: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M256 512c53.7 0 103.5-16.5 144.6-44.7C390 447.2 384 424.3 384 400l0-2.1c0-28.3 8.2-56 23.7-79.7L499.6 177C466.3 74.3 369.8 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512zM192 160l0 32 0 32-64 0 0-32 0-32 0-32 64 0 0 32zm96 0l0 32 0 32-64 0 0-32 0-32 0-32 64 0 0 32zm96 0l0 32 0 32-64 0 0-32 0-32 0-32 64 0 0 32zm144 32L434.5 335.6c-12.1 18.5-18.5 40.2-18.5 62.3l0 2.1c0 61.9 50.1 112 112 112s112-50.1 112-112l0-2.1c0-22.1-6.4-43.7-18.5-62.3L528 192z" />
+    </Icon>
+);
+
+export default MeterDroplet;

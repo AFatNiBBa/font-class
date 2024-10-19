@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `game-console-handheld-crank` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/game-console-handheld-crank?s=sharp-light game-console-handheld-crank}
+ * @preview ![game-console-handheld-crank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMzg0IDAgMC0xNjAgMC0zMiAwLTE5MkwzMiA2NHptNDE2IDBsMCAxOTIgMzIgMCAwLTQ4IDAtNjQgMC0xNiAxNiAwIDY0IDAgMTYgMCAwIDE2IDAgNjQgMCAxNi0xNiAwLTQ4IDAgMCA0OCAwIDE2LTE2IDAtNDggMCAwIDE2MCAwIDMyLTMyIDBMMzIgNDgwIDAgNDgwbDAtMzJMMCA2NCAwIDMybDMyIDAgMzg0IDAgMzIgMCAwIDMyek05NiAxMjhsMCAxMjggMjU2IDAgMC0xMjhMOTYgMTI4ek02NCA5NmwzMiAwIDI1NiAwIDMyIDAgMCAzMiAwIDEyOCAwIDMyLTMyIDBMOTYgMjg4bC0zMiAwIDAtMzIgMC0xMjggMC0zMnptNDQ4IDk2bDMyIDAgMC0zMi0zMiAwIDAgMzJ6TTEyOCAzMzZsMCAxNiAxNiAwIDE2IDAgMCAzMi0xNiAwLTE2IDAgMCAxNiAwIDE2LTMyIDAgMC0xNiAwLTE2LTE2IDAtMTYgMCAwLTMyIDE2IDAgMTYgMCAwLTE2IDAtMTYgMzIgMCAwIDE2em05NiAyNGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwem0xMDQtMjRhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const GameConsoleHandheldCrank: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M32 64l0 384 384 0 0-160 0-32 0-192L32 64zm416 0l0 192 32 0 0-48 0-64 0-16 16 0 64 0 16 0 0 16 0 64 0 16-16 0-48 0 0 48 0 16-16 0-48 0 0 160 0 32-32 0L32 480 0 480l0-32L0 64 0 32l32 0 384 0 32 0 0 32zM96 128l0 128 256 0 0-128L96 128zM64 96l32 0 256 0 32 0 0 32 0 128 0 32-32 0L96 288l-32 0 0-32 0-128 0-32zm448 96l32 0 0-32-32 0 0 32zM128 336l0 16 16 0 16 0 0 32-16 0-16 0 0 16 0 16-32 0 0-16 0-16-16 0-16 0 0-32 16 0 16 0 0-16 0-16 32 0 0 16zm96 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm104-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+    </Icon>
+);
+
+export default GameConsoleHandheldCrank;

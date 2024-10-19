@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `shirt` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/shirt?s=solid shirt}
+ * @preview ![shirt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjExLjggMGM3LjggMCAxNC4zIDUuNyAxNi43IDEzLjJDMjQwLjggNTEuOSAyNzcuMSA4MCAzMjAgODBzNzkuMi0yOC4xIDkxLjUtNjYuOEM0MTMuOSA1LjcgNDIwLjQgMCA0MjguMiAwbDEyLjYgMGMyMi41IDAgNDQuMiA3LjkgNjEuNSAyMi4zTDYyOC41IDEyNy40YzYuNiA1LjUgMTAuNyAxMy41IDExLjQgMjIuMXMtMi4xIDE3LjEtNy44IDIzLjZsLTU2IDY0Yy0xMS40IDEzLjEtMzEuMiAxNC42LTQ0LjYgMy41TDQ4MCAxOTcuNyA0ODAgNDQ4YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0xOTIgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0yNTAuMy01MS41IDQyLjljLTEzLjMgMTEuMS0zMy4xIDkuNi00NC42LTMuNWwtNTYtNjRjLTUuNy02LjUtOC41LTE1LTcuOC0yMy42czQuOC0xNi42IDExLjQtMjIuMUwxMzcuNyAyMi4zQzE1NSA3LjkgMTc2LjcgMCAxOTkuMiAwbDEyLjYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Shirt: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0l12.6 0c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7 480 448c0 35.3-28.7 64-64 64l-192 0c-35.3 0-64-28.7-64-64l0-250.3-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0l12.6 0z" />
+    </Icon>
+);
+
+export default Shirt;

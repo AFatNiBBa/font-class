@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `computer-classic` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/computer-classic?s=sharp-thin computer-classic}
+ * @preview ![computer-classic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDE2bDAgNDAwLTE2IDAtMTYgMEw0OCA0MTZsLTE2IDAtMTYgMEwxNiAxNmw0MTYgMHpNNDE2IDQzMmwxNiAwIDE2IDAgMC0xNiAwLTQwMCAwLTE2TDQzMiAwIDE2IDAgMCAwIDAgMTYgMCA0MTZsMCAxNiAxNiAwIDE2IDAgMCA2NCAwIDE2IDE2IDAgMzUyIDAgMTYgMCAwLTE2IDAtNjR6TTQ4IDQzMmwzNTIgMCAwIDY0TDQ4IDQ5NmwwLTY0ek0zNjggODBsMCAxNzZMODAgMjU2IDgwIDgwbDI4OCAwek04MCA2NEw2NCA2NGwwIDE2IDAgMTc2IDAgMTYgMTYgMCAyODggMCAxNiAwIDAtMTYgMC0xNzYgMC0xNi0xNiAwTDgwIDY0ek0yMjQgMzM2bDAgMTYgOCAwIDE0NCAwIDggMCAwLTE2LTggMC0xNDQgMC04IDB6TTgwIDM2OGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const ComputerClassic: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M432 16l0 400-16 0-16 0L48 416l-16 0-16 0L16 16l416 0zM416 432l16 0 16 0 0-16 0-400 0-16L432 0 16 0 0 0 0 16 0 416l0 16 16 0 16 0 0 64 0 16 16 0 352 0 16 0 0-16 0-64zM48 432l352 0 0 64L48 496l0-64zM368 80l0 176L80 256 80 80l288 0zM80 64L64 64l0 16 0 176 0 16 16 0 288 0 16 0 0-16 0-176 0-16-16 0L80 64zM224 336l0 16 8 0 144 0 8 0 0-16-8 0-144 0-8 0zM80 368a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
+    </Icon>
+);
+
+export default ComputerClassic;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `link-simple-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/link-simple-slash?s=sharp-regular link-simple-slash}
+ * @preview ![link-simple-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43LTg3LjUtNjhDNTc4LjIgMzYzIDYwOCAzMTMgNjA4IDI1NmMwLTg4LjQtNzEuNi0xNjAtMTYwLTE2MGwtNzIgMC0yNCAwIDAgNDggMjQgMCA3MiAwYzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEyYzAgNDYuMy0yOC4xIDg2LTY4LjEgMTAzLjFMMzkwIDI4MGwzNCAwIDI0IDAgMC00OC0yNCAwLTk1LjggMEwyMTQuOCAxNDRsNDkuMiAwIDI0IDAgMC00OC0yNCAwLTcyIDBjLTExLjggMC0yMy4yIDEuMy0zNC4zIDMuN0w0OC40IDE0Ljh6TTcwLjcgMTUxLjdDNDYuNiAxNzkuNyAzMiAyMTYuMSAzMiAyNTZjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBsNzIgMCAyNCAwIDAtNDgtMjQgMC03MiAwYy02MS45IDAtMTEyLTUwLjEtMTEyLTExMmMwLTI4LjYgMTAuNy01NC44IDI4LjQtNzQuNkw3MC43IDE1MS43eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const LinkSimpleSlash: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M48.4 14.8L29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7-87.5-68C578.2 363 608 313 608 256c0-88.4-71.6-160-160-160l-72 0-24 0 0 48 24 0 72 0c61.9 0 112 50.1 112 112c0 46.3-28.1 86-68.1 103.1L390 280l34 0 24 0 0-48-24 0-95.8 0L214.8 144l49.2 0 24 0 0-48-24 0-72 0c-11.8 0-23.2 1.3-34.3 3.7L48.4 14.8zM70.7 151.7C46.6 179.7 32 216.1 32 256c0 88.4 71.6 160 160 160l72 0 24 0 0-48-24 0-72 0c-61.9 0-112-50.1-112-112c0-28.6 10.7-54.8 28.4-74.6L70.7 151.7z" />
+    </Icon>
+);
+
+export default LinkSimpleSlash;

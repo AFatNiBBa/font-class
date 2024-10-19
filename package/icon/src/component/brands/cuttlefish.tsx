@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `cuttlefish` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `cuttlefish` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cuttlefish?s=brands cuttlefish}
- * @preview ![cuttlefish](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zNDQgMzA1LjVjLTE3LjUgMzEuNi01Ny40IDU0LjUtOTYgNTQuNS01Ni42IDAtMTA0LTQ3LjQtMTA0LTEwNHM0Ny40LTEwNCAxMDQtMTA0YzM4LjYgMCA3OC41IDIyLjkgOTYgNTQuNSAxMy43LTUwLjkgNDEuNy05My4zIDg3LTExNy44QzM4NS43IDM5LjEgMzIwLjUgOCAyNDggOCAxMTEgOCAwIDExOSAwIDI1NnMxMTEgMjQ4IDI0OCAyNDhjNzIuNSAwIDEzNy43LTMxLjEgMTgzLTgwLjctNDUuMy0yNC41LTczLjMtNjYuOS04Ny0xMTcuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cuttlefish](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDMwNS41Yy0xNy41IDMxLjYtNTcuNCA1NC41LTk2IDU0LjUtNTYuNiAwLTEwNC00Ny40LTEwNC0xMDRzNDcuNC0xMDQgMTA0LTEwNGMzOC42IDAgNzguNSAyMi45IDk2IDU0LjUgMTMuNy01MC45IDQxLjctOTMuMyA4Ny0xMTcuOEMzODUuNyAzOS4xIDMyMC41IDggMjQ4IDggMTExIDggMCAxMTkgMCAyNTZzMTExIDI0OCAyNDggMjQ4YzcyLjUgMCAxMzcuNy0zMS4xIDE4My04MC43LTQ1LjMtMjQuNS03My4zLTY2LjktODctMTE3Ljh6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Cuttlefish: typeof Icon = x => (
     <Icon viewBox="0 0 440 512" {...x}>

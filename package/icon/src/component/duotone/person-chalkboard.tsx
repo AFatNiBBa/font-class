@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `person-chalkboard` icon from the `duotone` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-chalkboard?s=duotone person-chalkboard}
+ * @preview ![person-chalkboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAyODhjMCAxMC45IDUuNSAyMS41IDE1LjUgMjcuNWMxNS4xIDkuMSAzNC44IDQuMiA0My45LTEwLjlMMTIwIDI1Ni45IDEyMCA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTEyOCAxNiAwIDAgMTI4YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0yODggNTYgMCA2NCAwIDE2IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJsLTE2IDAtNjQgMC03Ni45IDAtNjUuOSAwYy0zMy43IDAtNjQuOSAxNy43LTgyLjMgNDYuNmwtNTguMyA5N0MzMy41IDI3Ni43IDMyIDI4Mi40IDMyIDI4OHpNMTQ0IDQ4YTQ4IDQ4IDAgMSAwIDk2IDAgNDggNDggMCAxIDAgLTk2IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zODQgMTI4bDAtNjQgMTkyIDAgMCAxOTItMTkyIDAgMC02NC02NCAwIDAgODBjMCAyNi41IDIxLjUgNDggNDggNDhsMjI0IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0yMjRjMC0yNi41LTIxLjUtNDgtNDgtNDhMMzY4IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgODAgNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const PersonChalkboard: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path class={generic.secondary} d="M32 288c0 10.9 5.5 21.5 15.5 27.5c15.1 9.1 34.8 4.2 43.9-10.9L120 256.9 120 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-288 56 0 64 0 16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0-64 0-76.9 0-65.9 0c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97C33.5 276.7 32 282.4 32 288zM144 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
+            <path d="M384 128l0-64 192 0 0 192-192 0 0-64-64 0 0 80c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48L368 0c-26.5 0-48 21.5-48 48l0 80 64 0z" />
+    </Icon>
+);
+
+export default PersonChalkboard;

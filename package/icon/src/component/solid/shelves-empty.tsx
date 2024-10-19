@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `shelves-empty` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `shelves-empty` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shelves-empty?s=solid shelves-empty}
- * @preview ![shelves-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik02MDggMEg2MDhDNTkwLjQgMCA1NzYgMTQuNCA1NzYgMzJWMTYwSDY0VjMyQzY0IDE0LjQgNDkuNiAwIDMyIDBIMzJDMTQuNCAwIDAgMTQuNCAwIDMyVjUxMkg2NFY0ODBINTc2VjUxMkg2NDBWMzJDNjQwIDE0LjQgNjI1LjYgMCA2MDggMFpNNTc2IDQxNkg2NFYyMjRINTc2VjQxNloiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shelves-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDNjQgMTQuMyA0OS43IDAgMzIgMFMwIDE0LjMgMCAzMkwwIDE5MiAwIDQ0OGwwIDMyYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsNTEyIDBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTMyIDAtMjU2IDAtMTYwYzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMTI4TDY0IDE2MCA2NCAzMnptMCAxOTJsNTEyIDAgMCAxOTJMNjQgNDE2bDAtMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const ShelvesEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M608 0H608C590.4 0 576 14.4 576 32V160H64V32C64 14.4 49.6 0 32 0H32C14.4 0 0 14.4 0 32V512H64V480H576V512H640V32C640 14.4 625.6 0 608 0ZM576 416H64V224H576V416Z" />
+        <path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32L0 192 0 448l0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l512 0c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 0-256 0-160c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128L64 160 64 32zm0 192l512 0 0 192L64 416l0-192z" />
     </Icon>
 );
 

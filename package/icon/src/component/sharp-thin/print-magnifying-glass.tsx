@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `print-magnifying-glass` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/print-magnifying-glass?s=sharp-thin print-magnifying-glass}
+ * @preview ![print-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDE2bDAgMTQ0LTE2IDAgMC0xNDQgMC0xNiAxNiAwTDQ0OCAwbDY0IDY0IDAgOTYtMTYgMCAwLTg5LjRMNDQxLjQgMTYgMTQ0IDE2ek0zMzMuNyAyMDhMODAgMjA4bDAgMTkyIDQ4IDAgMC02NCAwLTE2IDE2IDAgMTQ0IDBjMCA1LjQgLjMgMTAuNyAuOCAxNkwxNDQgMzM2bDAgMTYwIDM1MiAwIDAtMjMuM2MuNy0uMiAxLjQtLjUgMi4yLS43TDUxMiA0ODUuOGwwIDEwLjIgMCAxNi0xNiAwLTM1MiAwLTE2IDAgMC0xNiAwLTgwLTQ4IDAtMTYgMCAwLTE2IDAtMTkyIDAtMTYgMTYgMCAyNzIgMGMtNi41IDQuOS0xMi42IDEwLjItMTguMiAxNnpNNDQ4IDQzMi4yYTExMiAxMTIgMCAxIDAgMC0yMjQgMTEyIDExMiAwIDEgMCAwIDIyNHptMCAxNmMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhzNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4YzAgMzIuNS0xMi4xIDYyLjEtMzIgODQuN2w4OS43IDg5LjUgNS43IDUuN0w2MjggNTExLjNsLTUuNy01LjctODkuNy04OS41Yy0yMi42IDE5LjktNTIuMiAzMi04NC43IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const PrintMagnifyingGlass: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M144 16l0 144-16 0 0-144 0-16 16 0L448 0l64 64 0 96-16 0 0-89.4L441.4 16 144 16zM333.7 208L80 208l0 192 48 0 0-64 0-16 16 0 144 0c0 5.4 .3 10.7 .8 16L144 336l0 160 352 0 0-23.3c.7-.2 1.4-.5 2.2-.7L512 485.8l0 10.2 0 16-16 0-352 0-16 0 0-16 0-80-48 0-16 0 0-16 0-192 0-16 16 0 272 0c-6.5 4.9-12.6 10.2-18.2 16zM448 432.2a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm0 16c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128c0 32.5-12.1 62.1-32 84.7l89.7 89.5 5.7 5.7L628 511.3l-5.7-5.7-89.7-89.5c-22.6 19.9-52.2 32-84.7 32z" />
+    </Icon>
+);
+
+export default PrintMagnifyingGlass;

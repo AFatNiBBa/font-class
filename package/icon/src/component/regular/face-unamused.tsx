@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `face-unamused` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/face-unamused?s=regular face-unamused}
+ * @preview ![face-unamused](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI5NC41IDM5Mi40Yy03LjQtNy45LTIwLTE2LjQtMzguNS0xNi40cy0zMS4xIDguNS0zOC41IDE2LjRjLTkgOS43LTI0LjIgMTAuMi0zMy45IDEuMnMtMTAuMi0yNC4yLTEuMi0zMy45QzE5Ni43IDM0NC4zIDIyMS40IDMyOCAyNTYgMzI4czU5LjMgMTYuMyA3My41IDMxLjZjOSA5LjcgOC41IDI0LjktMS4yIDMzLjlzLTI0LjkgOC41LTMzLjktMS4yek0xMTIgMTkybDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsLTMyIDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6bTE3NiAxNmMwLTguOCA3LjItMTYgMTYtMTZsNjQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwtMzIgMGMtOC44IDAtMTYtNy4yLTE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const FaceUnamused: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM294.5 392.4c-7.4-7.9-20-16.4-38.5-16.4s-31.1 8.5-38.5 16.4c-9 9.7-24.2 10.2-33.9 1.2s-10.2-24.2-1.2-33.9C196.7 344.3 221.4 328 256 328s59.3 16.3 73.5 31.6c9 9.7 8.5 24.9-1.2 33.9s-24.9 8.5-33.9-1.2zM112 192l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm176 16c0-8.8 7.2-16 16-16l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0c-8.8 0-16-7.2-16-16z" />
+    </Icon>
+);
+
+export default FaceUnamused;

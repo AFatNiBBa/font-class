@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `chart-radar` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/chart-radar?s=sharp-regular chart-radar}
+ * @preview ![chart-radar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU1LjkgNDMybDIwMC4zIDBMNDU2LjcgMjU2IDM1Ni4xIDgwIDE1NS45IDgwIDU1LjMgMjU2IDE1NS45IDQzMnpNMCAyNTZMMTI4IDMybDI1NiAwTDUxMiAyNTYgMzg0IDQ4MGwtMjU2IDBMMCAyNTZ6bTI5MC4yLTc1LjJsNDAuMiAxMDAuNmMxNy4xIDQuNiAyOS42IDIwLjEgMjkuNiAzOC42YzAgMjIuMS0xNy45IDQwLTQwIDQwYy0xNS45IDAtMjkuNy05LjMtMzYuMS0yMi43bC05Ny4yLTE5LjRjLTcuMSA2LjMtMTYuNCAxMC4yLTI2LjcgMTAuMmMtMjIuMSAwLTQwLTE3LjktNDAtNDBzMTcuOS00MCA0MC00MGw1Ny42LTc2LjhjLTEtMy42LTEuNi03LjMtMS42LTExLjJjMC0yMi4xIDE3LjktNDAgNDAtNDBzNDAgMTcuOSA0MCA0MGMwIDcuNi0yLjEgMTQuNy01LjggMjAuOHpNMjAyIDI3MS45bDc5LjIgMTUuOC0zMS43LTc5LjJMMjAyIDI3MS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const ChartRadar: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M155.9 432l200.3 0L456.7 256 356.1 80 155.9 80 55.3 256 155.9 432zM0 256L128 32l256 0L512 256 384 480l-256 0L0 256zm290.2-75.2l40.2 100.6c17.1 4.6 29.6 20.1 29.6 38.6c0 22.1-17.9 40-40 40c-15.9 0-29.7-9.3-36.1-22.7l-97.2-19.4c-7.1 6.3-16.4 10.2-26.7 10.2c-22.1 0-40-17.9-40-40s17.9-40 40-40l57.6-76.8c-1-3.6-1.6-7.3-1.6-11.2c0-22.1 17.9-40 40-40s40 17.9 40 40c0 7.6-2.1 14.7-5.8 20.8zM202 271.9l79.2 15.8-31.7-79.2L202 271.9z" />
+    </Icon>
+);
+
+export default ChartRadar;

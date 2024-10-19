@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `link-simple-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/link-simple-slash?s=sharp-light link-simple-slash}
+ * @preview ![link-simple-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIuNSAxMEwxOS45IC4xIC4xIDI1LjNsMTIuNiA5LjlMNjA3LjggNTAyLjJsMTIuNiA5LjkgMTkuOC0yNS4yLTEyLjYtOS45TDMyLjUgMTB6TTYwOCAyNTZjMC04OC40LTcxLjYtMTYwLTE2MC0xNjBsLTgwIDAtMTYgMCAwIDMyIDE2IDAgODAgMGM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOGMwIDM1LjUtMTQuNCA2Ny42LTM3LjcgOTAuOGwyNS4zIDE5LjlDNTkxLjEgMzM4IDYwOCAyOTkgNjA4IDI1NnpNNDU2IDI3MmwxNiAwIDAtMzItMTYgMC01MyAwIDQwLjUgMzIgMTIuNCAwek0xOTYuNCAyNDBMMTg0IDI0MGwtMTYgMCAwIDMyIDE2IDAgNTMgMC00MC41LTMyem0tOTQuNy03NC44TDc2LjUgMTQ1LjNDNDguOSAxNzQgMzIgMjEzIDMyIDI1NmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MGw4MCAwIDE2IDAgMC0zMi0xNiAwLTgwIDBjLTcwLjcgMC0xMjgtNTcuMy0xMjgtMTI4YzAtMzUuNSAxNC40LTY3LjYgMzcuNy05MC44eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const LinkSimpleSlash: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M32.5 10L19.9 .1 .1 25.3l12.6 9.9L607.8 502.2l12.6 9.9 19.8-25.2-12.6-9.9L32.5 10zM608 256c0-88.4-71.6-160-160-160l-80 0-16 0 0 32 16 0 80 0c70.7 0 128 57.3 128 128c0 35.5-14.4 67.6-37.7 90.8l25.3 19.9C591.1 338 608 299 608 256zM456 272l16 0 0-32-16 0-53 0 40.5 32 12.4 0zM196.4 240L184 240l-16 0 0 32 16 0 53 0-40.5-32zm-94.7-74.8L76.5 145.3C48.9 174 32 213 32 256c0 88.4 71.6 160 160 160l80 0 16 0 0-32-16 0-80 0c-70.7 0-128-57.3-128-128c0-35.5 14.4-67.6 37.7-90.8z" />
+    </Icon>
+);
+
+export default LinkSimpleSlash;

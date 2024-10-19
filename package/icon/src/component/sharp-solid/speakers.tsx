@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `speakers` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/speakers?s=sharp-solid speakers}
+ * @preview ![speakers](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDI1NiAwbDAgMjU3LjZjLTIwLjMtMjAuNy00OC43LTMzLjYtODAtMzMuNmMtNjEuOSAwLTExMiA1MC4xLTExMiAxMTJzNTAuMSAxMTIgMTEyIDExMmMzMS4zIDAgNTkuNy0xMi45IDgwLTMzLjZsMCA5Ny42TDAgNTEyIDAgMHpNMzUyIDUxMmwtMzIgMC0zMiAwIDAtMzIgMC0xNDQgMC0zMDQgMC0zMiAzMiAwIDMyIDBMNjQwIDBsMCA1MTItMjg4IDB6bTAtMTc2YTExMiAxMTIgMCAxIDAgMjI0IDAgMTEyIDExMiAwIDEgMCAtMjI0IDB6TTE3NiAyNzJhNjQgNjQgMCAxIDEgMCAxMjggNjQgNjQgMCAxIDEgMC0xMjh6bTAtMTEyYTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnpNNDAwIDMzNmE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6TTUxMiAxMTJhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Speakers: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M0 0L256 0l0 257.6c-20.3-20.7-48.7-33.6-80-33.6c-61.9 0-112 50.1-112 112s50.1 112 112 112c31.3 0 59.7-12.9 80-33.6l0 97.6L0 512 0 0zM352 512l-32 0-32 0 0-32 0-144 0-304 0-32 32 0 32 0L640 0l0 512-288 0zm0-176a112 112 0 1 0 224 0 112 112 0 1 0 -224 0zM176 272a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0-112a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM400 336a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM512 112a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
+    </Icon>
+);
+
+export default Speakers;

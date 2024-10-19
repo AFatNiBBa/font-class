@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `horizontal-rule` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `horizontal-rule` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/horizontal-rule?s=solid horizontal-rule}
- * @preview ![horizontal-rule](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik02NDAgMjU1Ljg0MUM2NDAgMjc3LjkyOSA2MjEuOTI5IDI5NiA1OTkuODQ0IDI5NkgzOS44NDFDMTcuOTMgMjk2IDAgMjc4LjA3IDAgMjU2LjE1NkMwIDIzNC4wNzEgMTguMDcxIDIxNiA0MC4xNTYgMjE2SDYwMC4xNTlDNjIyLjE2MyAyMTYgNjQwIDIzMy44MzcgNjQwIDI1NS44NDFaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![horizontal-rule](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZjMC0xNy43IDE0LjMtMzIgMzItMzJsNTc2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgMjg4Yy0xNy43IDAtMzItMTQuMy0zMi0zMnoiLz48L3N2Zz4=|width=32|height=32)
  */
 const HorizontalRule: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M640 255.841C640 277.929 621.929 296 599.844 296H39.841C17.93 296 0 278.07 0 256.156C0 234.071 18.071 216 40.156 216H600.159C622.163 216 640 233.837 640 255.841Z" />
+        <path d="M0 256c0-17.7 14.3-32 32-32l576 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32z" />
     </Icon>
 );
 

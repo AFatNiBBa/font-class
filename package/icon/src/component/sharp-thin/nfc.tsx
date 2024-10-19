@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `nfc` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/nfc?s=sharp-thin nfc}
+ * @preview ![nfc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDQ4bDAgNDE2TDE2IDQ2NCAxNiA0OGw0MTYgMHpNMTYgMzJMMCAzMiAwIDQ4IDAgNDY0bDAgMTYgMTYgMCA0MTYgMCAxNiAwIDAtMTYgMC00MTYgMC0xNi0xNiAwTDE2IDMyem02NCA4MGwwIDggMCAyNzIgMCA4IDggMCAyNzIgMCA4IDAgMC04IDAtMjcyIDAtOC04IDAtMTM2IDAtOCAwIDAgOCAwIDk2LjhjLTE4LjMgMy43LTMyIDE5LjgtMzIgMzkuMmMwIDIyLjEgMTcuOSA0MCA0MCA0MHM0MC0xNy45IDQwLTQwYzAtMTkuNC0xMy43LTM1LjUtMzItMzkuMmwwLTg4LjggMTIwIDAgMCAyNTZMOTYgMzg0bDAtMjU2IDU2IDAgOCAwIDAtMTYtOCAwLTY0IDAtOCAwek0yMjQgMjgwYTI0IDI0IDAgMSAxIDAtNDggMjQgMjQgMCAxIDEgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Nfc: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M432 48l0 416L16 464 16 48l416 0zM16 32L0 32 0 48 0 464l0 16 16 0 416 0 16 0 0-16 0-416 0-16-16 0L16 32zm64 80l0 8 0 272 0 8 8 0 272 0 8 0 0-8 0-272 0-8-8 0-136 0-8 0 0 8 0 96.8c-18.3 3.7-32 19.8-32 39.2c0 22.1 17.9 40 40 40s40-17.9 40-40c0-19.4-13.7-35.5-32-39.2l0-88.8 120 0 0 256L96 384l0-256 56 0 8 0 0-16-8 0-64 0-8 0zM224 280a24 24 0 1 1 0-48 24 24 0 1 1 0 48z" />
+    </Icon>
+);
+
+export default Nfc;

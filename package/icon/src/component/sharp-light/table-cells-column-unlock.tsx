@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `table-cells-column-unlock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/table-cells-column-unlock?s=sharp-light table-cells-column-unlock}
+ * @preview ![table-cells-column-unlock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDY0bDAgOTYgMTI4IDAgMC05NkwzNTIgNjR6bS0zMiAwTDE5MiA2NGwwIDk2IDEyOCAwIDAtOTZ6TTE2MCA2NEwzMiA2NGwwIDM4NCAxMjggMCAwLTM4NHptMzIgMzg0bDEyOCAwIDAtOTYtMTI4IDAgMCA5NnptMTYwIDBsMzIgMCAwIDMyTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMmwzMiAwIDQ0OCAwIDMyIDAgMCAzMiAwIDk3LjFjLTI0LjEgMy41LTQ1LjggMTQuNi02Mi40IDMwLjlMMzUyIDE5MmwwIDEyOCAzMiAwIDAgMzItMzIgMCAwIDk2ek0zMjAgMzIwbDAtMTI4LTEyOCAwIDAgMTI4IDEyOCAwem0xNjAtNDhsMCA0OCA0OCAwIDQ4IDAgMzIgMCAzMiAwIDAgMzIgMCAxMjggMCAzMi0zMiAwLTE2MCAwLTMyIDAgMC0zMiAwLTEyOCAwLTMyIDMyIDAgMC00OGMwLTQ0LjIgMzUuOC04MCA4MC04MHM4MCAzNS44IDgwIDgwbC0zMiAwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4cy00OCAyMS41LTQ4IDQ4ek00NDggNDgwbDE2MCAwIDAtMTI4LTE2MCAwIDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const TableCellsColumnUnlock: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M352 64l0 96 128 0 0-96L352 64zm-32 0L192 64l0 96 128 0 0-96zM160 64L32 64l0 384 128 0 0-384zm32 384l128 0 0-96-128 0 0 96zm160 0l32 0 0 32L32 480 0 480l0-32L0 64 0 32l32 0 448 0 32 0 0 32 0 97.1c-24.1 3.5-45.8 14.6-62.4 30.9L352 192l0 128 32 0 0 32-32 0 0 96zM320 320l0-128-128 0 0 128 128 0zm160-48l0 48 48 0 48 0 32 0 32 0 0 32 0 128 0 32-32 0-160 0-32 0 0-32 0-128 0-32 32 0 0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l-32 0c0-26.5-21.5-48-48-48s-48 21.5-48 48zM448 480l160 0 0-128-160 0 0 128z" />
+    </Icon>
+);
+
+export default TableCellsColumnUnlock;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `cup-straw` icon from the `thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/cup-straw?s=thin cup-straw}
+ * @preview ![cup-straw](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ5IDBjLTE4LjQgMC0zNC40IDEyLjUtMzguOCAzMC4zTDE4NS44IDEyOCA4IDEyOGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwxODMuOCAwYy4xIDAgLjIgMCAuMyAwTDM3NiAxNDRjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTE3My44IDAgMjMuNS05My44QzIyOC40IDIzLjUgMjM4IDE2IDI0OSAxNmwzMSAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDI0OSAwek0zNiAxNzZMNjAuMyA0NjhjMi4xIDI0LjkgMjIuOSA0NCA0Ny44IDQ0bDE2Ny43IDBjMjUgMCA0NS44LTE5LjEgNDcuOC00NEwzNDggMTc2bC0xNi4xIDBMMzA3LjcgNDY2LjdjLTEuNCAxNi42LTE1LjIgMjkuMy0zMS45IDI5LjNsLTE2Ny43IDBjLTE2LjYgMC0zMC41LTEyLjgtMzEuOS0yOS4zTDUyLjEgMTc2IDM2IDE3NnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const CupStraw: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M249 0c-18.4 0-34.4 12.5-38.8 30.3L185.8 128 8 128c-4.4 0-8 3.6-8 8s3.6 8 8 8l183.8 0c.1 0 .2 0 .3 0L376 144c4.4 0 8-3.6 8-8s-3.6-8-8-8l-173.8 0 23.5-93.8C228.4 23.5 238 16 249 16l31 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L249 0zM36 176L60.3 468c2.1 24.9 22.9 44 47.8 44l167.7 0c25 0 45.8-19.1 47.8-44L348 176l-16.1 0L307.7 466.7c-1.4 16.6-15.2 29.3-31.9 29.3l-167.7 0c-16.6 0-30.5-12.8-31.9-29.3L52.1 176 36 176z" />
+    </Icon>
+);
+
+export default CupStraw;

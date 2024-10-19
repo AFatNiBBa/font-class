@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `circles-overlap` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/circles-overlap?s=sharp-regular circles-overlap}
+ * @preview ![circles-overlap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDI4OGMwIDQwLjggMTAuOSA3OSAzMCAxMTJjLTk2LjMtMS4xLTE3NC03OS41LTE3NC0xNzZjMC05Ny4yIDc4LjgtMTc2IDE3Ni0xNzZjMzguOSAwIDc0LjggMTIuNiAxMDQgMzRDMjQ4IDExNi4yIDE5MiAxOTUuNSAxOTIgMjg4em0zMiAxNjBjMTEuMiAwIDIyLjEtLjggMzIuOC0yLjRjNDAuNiA0MSA5Ni45IDY2LjQgMTU5LjIgNjYuNGMxMjMuNyAwIDIyNC0xMDAuMyAyMjQtMjI0UzUzOS43IDY0IDQxNiA2NGMtMTEuMiAwLTIyLjEgLjgtMzIuOCAyLjRDMzQyLjYgMjUuNCAyODYuMyAwIDIyNCAwQzEwMC4zIDAgMCAxMDAuMyAwIDIyNFMxMDAuMyA0NDggMjI0IDQ0OHptMTkyIDE2Yy0zOC45IDAtNzQuOC0xMi42LTEwNC0zNEMzOTIgMzk1LjggNDQ4IDMxNi41IDQ0OCAyMjRjMC00MC44LTEwLjktNzktMzAtMTEyYzk2LjMgMS4xIDE3NCA3OS41IDE3NCAxNzZjMCA5Ny4yLTc4LjggMTc2LTE3NiAxNzZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const CirclesOverlap: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M192 288c0 40.8 10.9 79 30 112c-96.3-1.1-174-79.5-174-176c0-97.2 78.8-176 176-176c38.9 0 74.8 12.6 104 34C248 116.2 192 195.5 192 288zm32 160c11.2 0 22.1-.8 32.8-2.4c40.6 41 96.9 66.4 159.2 66.4c123.7 0 224-100.3 224-224S539.7 64 416 64c-11.2 0-22.1 .8-32.8 2.4C342.6 25.4 286.3 0 224 0C100.3 0 0 100.3 0 224S100.3 448 224 448zm192 16c-38.9 0-74.8-12.6-104-34C392 395.8 448 316.5 448 224c0-40.8-10.9-79-30-112c96.3 1.1 174 79.5 174 176c0 97.2-78.8 176-176 176z" />
+    </Icon>
+);
+
+export default CirclesOverlap;

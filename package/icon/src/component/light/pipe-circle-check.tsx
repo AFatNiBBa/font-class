@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `pipe-circle-check` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/pipe-circle-check?s=light pipe-circle-check}
+ * @preview ![pipe-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgOTZjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTYgMjI0IDAgMTkyIDAgMC0xNmMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2bDAgMzIgMCA0OC43Yy0xMSAxLTIxLjcgMy0zMiA1LjlsMC0zOC42LTE5MiAwTDMyIDE2MGwwIDE5MiAyODguNyAwYy0uNSA1LjMtLjcgMTAuNi0uNyAxNnMuMiAxMC43IC43IDE2TDMyIDM4NGwwIDE2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMzJMMCAxNDRsMC0zMmMwLTguOCA3LjItMTYgMTYtMTZ6TTQ5NiA0ODBhMTEyIDExMiAwIDEgMCAwLTIyNCAxMTIgMTEyIDAgMSAwIDAgMjI0em0wLTI1NmExNDQgMTQ0IDAgMSAxIDAgMjg4IDE0NCAxNDQgMCAxIDEgMC0yODh6bTY3LjMgMTAwLjdjNi4yIDYuMiA2LjIgMTYuNCAwIDIyLjZsLTcyIDcyYy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMGwtNDAtNDBjLTYuMi02LjItNi4yLTE2LjQgMC0yMi42czE2LjQtNi4yIDIyLjYgMEw0ODAgMzg1LjRsNjAuNy02MC43YzYuMi02LjIgMTYuNC02LjIgMjIuNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const PipeCircleCheck: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M16 96c8.8 0 16 7.2 16 16l0 16 224 0 192 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 0 48.7c-11 1-21.7 3-32 5.9l0-38.6-192 0L32 160l0 192 288.7 0c-.5 5.3-.7 10.6-.7 16s.2 10.7 .7 16L32 384l0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32L0 144l0-32c0-8.8 7.2-16 16-16zM496 480a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm0-256a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm67.3 100.7c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 385.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z" />
+    </Icon>
+);
+
+export default PipeCircleCheck;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `transporter-6` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/transporter-6?s=sharp-light transporter-6}
+ * @preview ![transporter-6](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTZsMCAxNiAxNiAwIDE2IDAgMCAzMkw4MCA2NCA2NCA2NGwwIDE2IDAgMTZMMzIgOTZsMC0xNiAwLTE2TDE2IDY0IDAgNjQgMCAzMmwxNiAwIDE2IDAgMC0xNkwzMiAwIDY0IDBsMCAxNnpNNDgwIDM2OGwwIDE2IDE2IDAgMTYgMCAwIDMyLTE2IDAtMTYgMCAwIDE2IDAgMTYtMzIgMCAwLTE2IDAtMTYtMTYgMC0xNiAwIDAtMzIgMTYgMCAxNiAwIDAtMTYgMC0xNiAzMiAwIDAgMTZ6TTIwOCAwbDE2IDAgNjQgMCAxNiAwIDAgMzItMTYgMC02NCAwLTE2IDAgMC0zMnpNOTYgMjU2bDE2IDAgMjg4IDAgMTYgMCAwIDMyLTE2IDAtMjg4IDAtMTYgMCAwLTMyem0wIDE5MmwxNiAwIDI4OCAwIDE2IDAgMCAxNiAwIDMyIDAgMTYtMzIgMCAwLTE2IDAtMTYtMjU2IDAgMCAxNiAwIDE2LTMyIDAgMC0xNiAwLTMyIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Transporter_6: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M64 16l0 16 16 0 16 0 0 32L80 64 64 64l0 16 0 16L32 96l0-16 0-16L16 64 0 64 0 32l16 0 16 0 0-16L32 0 64 0l0 16zM480 368l0 16 16 0 16 0 0 32-16 0-16 0 0 16 0 16-32 0 0-16 0-16-16 0-16 0 0-32 16 0 16 0 0-16 0-16 32 0 0 16zM208 0l16 0 64 0 16 0 0 32-16 0-64 0-16 0 0-32zM96 256l16 0 288 0 16 0 0 32-16 0-288 0-16 0 0-32zm0 192l16 0 288 0 16 0 0 16 0 32 0 16-32 0 0-16 0-16-256 0 0 16 0 16-32 0 0-16 0-32 0-16z" />
+    </Icon>
+);
+
+export default Transporter_6;

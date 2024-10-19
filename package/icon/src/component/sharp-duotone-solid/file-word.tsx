@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `file-word` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/file-word?s=sharp-duotone-solid file-word}
+ * @preview ![file-word](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDBMMjI0IDBsMCAxNjAgMTYwIDAgMCAzNTJMMCA1MTIgMCAwek01Ny43IDI0MEwxMTMgNDMwLjdsNSAxNy4zIDE4IDAgOCAwIDE4LjQgMCA0LjgtMTcuNyAyNC44LTkyIDI0LjggOTIgNC44IDE3LjcgMTguNCAwIDggMCAxOCAwIDUtMTcuM0wzMjYuMyAyNDBsLTUwIDBMMjQ0LjcgMzQ5LjMgMjIwIDI1Ny43IDIxNS4yIDI0MGwtMTguNCAwLTkuNiAwLTE4LjQgMEwxNjQgMjU3LjdsLTI0LjcgOTEuNUwxMDcuNiAyNDBsLTUwIDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zODQgMTYwTDIyNCAwbDAgMTYwIDE2MCAwek0xMDcuNiAyNDBsLTUwIDBMMTEzIDQzMC43bDUgMTcuMyAxOCAwIDggMCAxOC40IDAgNC44LTE3LjcgMjQuOC05MiAyNC44IDkyIDQuOCAxNy43IDE4LjQgMCA4IDAgMTggMCA1LTE3LjNMMzI2LjMgMjQwbC01MCAwTDI0NC43IDM0OS4zIDIyMCAyNTcuNyAyMTUuMiAyNDBsLTE4LjQgMC05LjYgMC0xOC40IDBMMTY0IDI1Ny43bC0yNC43IDkxLjVMMTA3LjYgMjQweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const FileWord: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 352L0 512 0 0zM57.7 240L113 430.7l5 17.3 18 0 8 0 18.4 0 4.8-17.7 24.8-92 24.8 92 4.8 17.7 18.4 0 8 0 18 0 5-17.3L326.3 240l-50 0L244.7 349.3 220 257.7 215.2 240l-18.4 0-9.6 0-18.4 0L164 257.7l-24.7 91.5L107.6 240l-50 0z" />
+            <path d="M384 160L224 0l0 160 160 0zM107.6 240l-50 0L113 430.7l5 17.3 18 0 8 0 18.4 0 4.8-17.7 24.8-92 24.8 92 4.8 17.7 18.4 0 8 0 18 0 5-17.3L326.3 240l-50 0L244.7 349.3 220 257.7 215.2 240l-18.4 0-9.6 0-18.4 0L164 257.7l-24.7 91.5L107.6 240z" />
+    </Icon>
+);
+
+export default FileWord;

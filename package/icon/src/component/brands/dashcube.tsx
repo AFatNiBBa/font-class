@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `dashcube` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `dashcube` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dashcube?s=brands dashcube}
- * @preview ![dashcube](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMjYuNiAxMDRIMTEwLjRjLTUxLjEgMC05MS4yIDQzLjMtOTEuMiA5My41VjQyN2MwIDUwLjUgNDAuMSA4NSA5MS4yIDg1aDIyNy4yYzUxLjEgMCA5MS4yLTM0LjUgOTEuMi04NVYwTDMyNi42IDEwNHpNMTUzLjkgNDE2LjVjLTE3LjcgMC0zMi40LTE1LjEtMzIuNC0zMi44VjI0MC44YzAtMTcuNyAxNC43LTMyLjUgMzIuNC0zMi41aDE0MC43YzE3LjcgMCAzMiAxNC44IDMyIDMyLjV2MTIzLjVsNTEuMSA1Mi4zSDE1My45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dashcube](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI2LjYgMTA0SDExMC40Yy01MS4xIDAtOTEuMiA0My4zLTkxLjIgOTMuNVY0MjdjMCA1MC41IDQwLjEgODUgOTEuMiA4NWgyMjcuMmM1MS4xIDAgOTEuMi0zNC41IDkxLjItODVWMEwzMjYuNiAxMDR6TTE1My45IDQxNi41Yy0xNy43IDAtMzIuNC0xNS4xLTMyLjQtMzIuOFYyNDAuOGMwLTE3LjcgMTQuNy0zMi41IDMyLjQtMzIuNWgxNDAuN2MxNy43IDAgMzIgMTQuOCAzMiAzMi41djEyMy41bDUxLjEgNTIuM0gxNTMuOXoiLz48L3N2Zz4=|width=32|height=32)
  */
 const Dashcube: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

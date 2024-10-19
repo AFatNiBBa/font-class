@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `square-parking-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/square-parking-slash?s=sharp-regular square-parking-slash}
+ * @preview ![square-parking-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDU0NCAzOTkuNiA1NDQgODBsMC00OC00OCAwTDE0NCAzMiA5NiAzMmwwIDE5LjgtNDcuNi0zN3pNMTQ0IDg5bDAtOSAzNTIgMCAwIDI4Mi4zLTg3LjEtNjcuNkM0MjggMjc3LjIgNDQwIDI1MiA0NDAgMjI0YzAtNTMtNDMtOTYtOTYtOTZsLTg4IDAtMjQgMCAwIDI0IDAgNS4zTDE0NCA4OXpNMzY5LjkgMjY0LjRMMjgwIDE5NC42bDAtMTguNiA2NCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4YzAgMTctOC44IDMxLjktMjIuMSA0MC40ek00MjYuNSA0MzJMMTQ0IDQzMmwwLTIyMi41TDk2IDE3MS42IDk2IDQzMmwwIDQ4IDQ4IDAgMzQzLjQgMC02MC45LTQ4ek0yODAgMzIwbDAtMy40LTQ4LTM3LjggMCA0MS4yIDAgNjQgNDggMCAwLTMyIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const SquareParkingSlash: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M48.4 14.8L29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L544 399.6 544 80l0-48-48 0L144 32 96 32l0 19.8-47.6-37zM144 89l0-9 352 0 0 282.3-87.1-67.6C428 277.2 440 252 440 224c0-53-43-96-96-96l-88 0-24 0 0 24 0 5.3L144 89zM369.9 264.4L280 194.6l0-18.6 64 0c26.5 0 48 21.5 48 48c0 17-8.8 31.9-22.1 40.4zM426.5 432L144 432l0-222.5L96 171.6 96 432l0 48 48 0 343.4 0-60.9-48zM280 320l0-3.4-48-37.8 0 41.2 0 64 48 0 0-32 0-32z" />
+    </Icon>
+);
+
+export default SquareParkingSlash;

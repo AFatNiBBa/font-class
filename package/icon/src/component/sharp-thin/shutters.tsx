@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `shutters` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/shutters?s=sharp-thin shutters}
+ * @preview ![shutters](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDQ4bDAgMzJMMTYgODBsMC0zMiA0ODAgMHpNMTYgMzJMMCAzMiAwIDQ4IDAgODAgMCA5NmwxNiAwIDQ4MCAwIDE2IDAgMC0xNiAwLTMyIDAtMTYtMTYgMEwxNiAzMnptOCA5Nkw2IDE3NiAwIDE5MmwxNy4xIDAgNDc3LjggMCAxNy4xIDAtNi0xNi0xOC00OC0xNy4xIDAgMTggNDhMMjMuMSAxNzZsMTgtNDhMMjQgMTI4ek02IDI3MkwwIDI4OGwxNy4xIDAgNDc3LjggMCAxNy4xIDAtNi0xNi0xOC00OC0xNy4xIDAgMTggNDhMMjMuMSAyNzJsMTgtNDhMMjQgMjI0IDYgMjcyem0xOCA0OEw2IDM2OCAwIDM4NGwxNy4xIDAgNDc3LjggMCAxNy4xIDAtNi0xNi0xOC00OC0xNy4xIDAgMTggNDhMMjMuMSAzNjhsMTgtNDhMMjQgMzIwek02IDQ2NEwwIDQ4MGwxNy4xIDAgNDc3LjggMCAxNy4xIDAtNi0xNi0xOC00OC0xNy4xIDAgMTggNDhMMjMuMSA0NjRsMTgtNDhMMjQgNDE2IDYgNDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Shutters: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M496 48l0 32L16 80l0-32 480 0zM16 32L0 32 0 48 0 80 0 96l16 0 480 0 16 0 0-16 0-32 0-16-16 0L16 32zm8 96L6 176 0 192l17.1 0 477.8 0 17.1 0-6-16-18-48-17.1 0 18 48L23.1 176l18-48L24 128zM6 272L0 288l17.1 0 477.8 0 17.1 0-6-16-18-48-17.1 0 18 48L23.1 272l18-48L24 224 6 272zm18 48L6 368 0 384l17.1 0 477.8 0 17.1 0-6-16-18-48-17.1 0 18 48L23.1 368l18-48L24 320zM6 464L0 480l17.1 0 477.8 0 17.1 0-6-16-18-48-17.1 0 18 48L23.1 464l18-48L24 416 6 464z" />
+    </Icon>
+);
+
+export default Shutters;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `pen-to-square` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/pen-to-square?s=sharp-thin pen-to-square}
+ * @preview ![pen-to-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQyLjMgMTQzbDQ3LTQ3TDQxNiAyMi42bC00NyA0N0w0NDIuMyAxNDN6TTQzMSAxNTQuM0wzNTcuNyA4MSAxNzQuNCAyNjQuMiAxNTAgMzYybDk3LjgtMjQuNUw0MzEgMTU0LjN6TTM1MiA2NGw1LjctNS43IDQ3LTQ3TDQxNiAwbDExLjMgMTEuMyA3My40IDczLjRMNTEyIDk2bC0xMS4zIDExLjMtNDcgNDdMNDQ4IDE2MGwtNS43IDUuN0wyNTYgMzUyIDE0NS42IDM3OS42IDEyOCAzODRsNC40LTE3LjZMMTYwIDI1NiAzNDYuMyA2OS43IDM1MiA2NHpNMCA3MmMwLTQuNCAzLjYtOCA4LThsMjA4IDAgOCAwIDAgMTYtOCAwTDE2IDgwbDAgNDE2IDQxNiAwIDAtMjAwIDAtOCAxNiAwIDAgOCAwIDIwOGMwIDQuNC0zLjYgOC04IDhMOCA1MTJjLTQuNCAwLTgtMy42LTgtOEwwIDcyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const PenToSquare: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M442.3 143l47-47L416 22.6l-47 47L442.3 143zM431 154.3L357.7 81 174.4 264.2 150 362l97.8-24.5L431 154.3zM352 64l5.7-5.7 47-47L416 0l11.3 11.3 73.4 73.4L512 96l-11.3 11.3-47 47L448 160l-5.7 5.7L256 352 145.6 379.6 128 384l4.4-17.6L160 256 346.3 69.7 352 64zM0 72c0-4.4 3.6-8 8-8l208 0 8 0 0 16-8 0L16 80l0 416 416 0 0-200 0-8 16 0 0 8 0 208c0 4.4-3.6 8-8 8L8 512c-4.4 0-8-3.6-8-8L0 72z" />
+    </Icon>
+);
+
+export default PenToSquare;

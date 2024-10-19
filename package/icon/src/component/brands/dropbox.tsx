@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `dropbox` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `dropbox` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dropbox?s=brands dropbox}
- * @preview ![dropbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MjggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNjQuNCAxMTYuM2wtMTMyIDg0LjMgMTMyIDg0LjMtMTMyIDg0LjNMMCAyODQuMWwxMzIuMy04NC4zTDAgMTE2LjMgMTMyLjMgMzJsMTMyLjEgODQuM3pNMTMxLjYgMzk1LjdsMTMyLTg0LjMgMTMyIDg0LjMtMTMyIDg0LjMtMTMyLTg0LjN6bTEzMi44LTExMS42bDEzMi04NC4zLTEzMi04My42TDM5NS43IDMyIDUyOCAxMTYuM2wtMTMyLjMgODQuM0w1MjggMjg0LjhsLTEzMi4zIDg0LjMtMTMxLjMtODV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dropbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MjggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY0LjQgMTE2LjNsLTEzMiA4NC4zIDEzMiA4NC4zLTEzMiA4NC4zTDAgMjg0LjFsMTMyLjMtODQuM0wwIDExNi4zIDEzMi4zIDMybDEzMi4xIDg0LjN6TTEzMS42IDM5NS43bDEzMi04NC4zIDEzMiA4NC4zLTEzMiA4NC4zLTEzMi04NC4zem0xMzIuOC0xMTEuNmwxMzItODQuMy0xMzItODMuNkwzOTUuNyAzMiA1MjggMTE2LjNsLTEzMi4zIDg0LjNMNTI4IDI4NC44bC0xMzIuMyA4NC4zLTEzMS4zLTg1eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Dropbox: typeof Icon = x => (
     <Icon viewBox="0 0 528 512" {...x}>

@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `person-booth` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-booth?s=sharp-duotone-solid person-booth}
+ * @preview ![person-booth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xOTIgMGwwIDMyIDAgMTYwIDY0IDAgMC0xNjAgMC0zMkwxOTIgMHptMCAzMjBsMCAxNjAgMCAzMiA2NCAwIDAtMzIgMC0xNjAtNjQgMHptODkgMTI4bDM5IDAgMzIgMCA2NCAwIDMyIDAgMzIgMCAwLTMyIDAtMzg0IDAtMzJMNDQ4IDAgMzIwIDAgMjgzLjEgMGw1LjIgMzYuNSAzMS4yIDIxOC42TDI4OC42IDQwOS43IDI4MSA0NDh6TTUxMiAwbDAgMzIgMCA0NDggMCAzMiA2NCAwIDAtMzIgMC00NDggMC0zMkw1MTIgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTY0IDMyYTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnpNMCAxOTJsMC0zMiAzMiAwIDQ4IDAgMTMuMyAwIDkuNCA5LjRMMTU3LjMgMjI0bDY2LjcgMCAzMiAwIDAgNjQtMzIgMC04MCAwLTEzLjMgMC05LjQtOS40LTkuNC05LjQgMCA3Mi4xIDQxLjYgNTUuNSA2LjQgOC41IDAgMTAuNyAwIDY0IDAgMzItNjQgMCAwLTMyIDAtNTMuM0w2NCAzODRsMCA5NiAwIDMyTDAgNTEybDAtMzJMMCAyOTguN3MwIDAgMCAwTDAgMjg4bDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const PersonBooth: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path class={generic.secondary} d="M192 0l0 32 0 160 64 0 0-160 0-32L192 0zm0 320l0 160 0 32 64 0 0-32 0-160-64 0zm89 128l39 0 32 0 64 0 32 0 32 0 0-32 0-384 0-32L448 0 320 0 283.1 0l5.2 36.5 31.2 218.6L288.6 409.7 281 448zM512 0l0 32 0 448 0 32 64 0 0-32 0-448 0-32L512 0z" />
+            <path d="M64 32a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM0 192l0-32 32 0 48 0 13.3 0 9.4 9.4L157.3 224l66.7 0 32 0 0 64-32 0-80 0-13.3 0-9.4-9.4-9.4-9.4 0 72.1 41.6 55.5 6.4 8.5 0 10.7 0 64 0 32-64 0 0-32 0-53.3L64 384l0 96 0 32L0 512l0-32L0 298.7s0 0 0 0L0 288l0-96z" />
+    </Icon>
+);
+
+export default PersonBooth;

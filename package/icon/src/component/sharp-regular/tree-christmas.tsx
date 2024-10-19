@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `tree-christmas` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/tree-christmas?s=sharp-regular tree-christmas}
+ * @preview ![tree-christmas](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDgxLjNsNTMuMy0yOEwyMjQgMGwyNi43IDUzLjNMMzA0IDgwbC01My4zIDI2LjdMMjI0IDE2MGwtMjYuNy01My4zTDE0NCA4MS4zek0zNS40IDMwNEwxNjIuOCAxMjUuN2wxMC44IDUuMiAxOC4zIDM2LjZMOTQuNCAzMDRsNzIuMiAwLTQ1LjkgNzMuNEw2Ni42IDQ2NGwzMTQuOCAwLTU0LjEtODYuNkwyODEuNCAzMDRsNzIuMiAwTDI1Ni4xIDE2Ny41bDE4LjUtMzYuOSAxMC40LTUuMkw0MTIuNiAzMDQgNDI0IDMyMGwwIDMxIDAgMS00OCAwLTggMCAzMCA0OCA0MCA2NCAxMCAxNiAwIDMyLTQ4IDBMNDggNTEyIDAgNTEybDAtMzIgMTAtMTYgNDAtNjQgMzAtNDgtOCAwLTQ4IDAgMC0xIDAtMzEgMTEuNC0xNnpNMTc2IDI4MGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwem04OCAxMzZhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const TreeChristmas: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M144 81.3l53.3-28L224 0l26.7 53.3L304 80l-53.3 26.7L224 160l-26.7-53.3L144 81.3zM35.4 304L162.8 125.7l10.8 5.2 18.3 36.6L94.4 304l72.2 0-45.9 73.4L66.6 464l314.8 0-54.1-86.6L281.4 304l72.2 0L256.1 167.5l18.5-36.9 10.4-5.2L412.6 304 424 320l0 31 0 1-48 0-8 0 30 48 40 64 10 16 0 32-48 0L48 512 0 512l0-32 10-16 40-64 30-48-8 0-48 0 0-1 0-31 11.4-16zM176 280a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm88 136a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
+    </Icon>
+);
+
+export default TreeChristmas;

@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `tally-1` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `tally-1` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tally-1?s=solid tally-1}
- * @preview ![tally-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik02NCA2NFY0NDhDNjQgNDY1LjY3MyA0OS42NzMgNDgwIDMyIDQ4MEgzMkMxNC4zMjcgNDgwIDAgNDY1LjY3MyAwIDQ0OFY2NEMwIDQ2LjMyNyAxNC4zMjcgMzIgMzIgMzJIMzJDNDkuNjczIDMyIDY0IDQ2LjMyNyA2NCA2NFoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tally-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMyYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzg0YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMyTDk2IDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Tally_1: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64V448C64 465.673 49.673 480 32 480H32C14.327 480 0 465.673 0 448V64C0 46.327 14.327 32 32 32H32C49.673 32 64 46.327 64 64Z" />
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M128 32c17.7 0 32 14.3 32 32l0 384c0 17.7-14.3 32-32 32s-32-14.3-32-32L96 64c0-17.7 14.3-32 32-32z" />
     </Icon>
 );
 

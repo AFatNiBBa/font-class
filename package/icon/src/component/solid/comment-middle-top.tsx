@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `comment-middle-top` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `comment-middle-top` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-middle-top?s=solid comment-middle-top}
- * @preview ![comment-middle-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01MTIgMzA0QzUxMiA0MTguOTA2IDM5Ny40MDYgNTEyIDI1NiA1MTJTMCA0MTguOTA2IDAgMzA0QzAgMjA4LjAxMiA4MC4wNzYgMTI3LjQ2NyAxODguODM4IDEwMy40NzVMMjM3LjcyNSAxMC4wODRDMjQxLjI0MyAzLjM2MSAyNDguNjIyIDAgMjU2IDBTMjcwLjc1NyAzLjM2MSAyNzQuMjc1IDEwLjA4NEwzMjMuMTYyIDEwMy40NzVDNDMxLjkyNCAxMjcuNDY3IDUxMiAyMDguMDEyIDUxMiAzMDRaICI+PC9wYXRoPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![comment-middle-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg4LjMgMTAzLjNsNDQuNS04OUMyMzcuMiA1LjUgMjQ2LjIgMCAyNTYgMHMxOC44IDUuNSAyMy4yIDE0LjNsNDQuNSA4OUM0MzIuMiAxMjcuNSA1MTIgMjA4LjIgNTEyIDMwNGMwIDExNC45LTExNC42IDIwOC0yNTYgMjA4UzAgNDE4LjkgMCAzMDRjMC05NS44IDc5LjgtMTc2LjUgMTg4LjMtMjAwLjd6Ii8+PC9zdmc+|width=32|height=32)
  */
 const CommentMiddleTop: typeof Icon = x => (
     <Icon {...x}>
-        <path d="M512 304C512 418.906 397.406 512 256 512S0 418.906 0 304C0 208.012 80.076 127.467 188.838 103.475L237.725 10.084C241.243 3.361 248.622 0 256 0S270.757 3.361 274.275 10.084L323.162 103.475C431.924 127.467 512 208.012 512 304Z " />
+        <path d="M188.3 103.3l44.5-89C237.2 5.5 246.2 0 256 0s18.8 5.5 23.2 14.3l44.5 89C432.2 127.5 512 208.2 512 304c0 114.9-114.6 208-256 208S0 418.9 0 304c0-95.8 79.8-176.5 188.3-200.7z" />
     </Icon>
 );
 

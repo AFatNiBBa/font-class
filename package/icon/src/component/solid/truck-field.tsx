@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `truck-field` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/truck-field?s=solid truck-field}
+ * @preview ![truck-field](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgOTZjMC0zNS4zIDI4LjctNjQgNjQtNjRsMjI0IDBjMjMuNyAwIDQ0LjQgMTIuOSA1NS40IDMybDUxLjggMGMyNS4zIDAgNDguMiAxNC45IDU4LjUgMzhsNTIuOCAxMTguOGMuNSAxLjEgLjkgMi4xIDEuMyAzLjJsNC4yIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAzMmMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtMzIgMGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwtMTI4IDBjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZsLTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMC0zMmMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC05NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwwLTMyek0zODQgMjI0bDg1LjkgMC00Mi43LTk2TDM4NCAxMjhsMCA5NnpNMTYwIDQzMmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bTM2OC00OGE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const TruckField: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M32 96c0-35.3 28.7-64 64-64l224 0c23.7 0 44.4 12.9 55.4 32l51.8 0c25.3 0 48.2 14.9 58.5 38l52.8 118.8c.5 1.1 .9 2.1 1.3 3.2l4.2 0c35.3 0 64 28.7 64 64l0 32c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c0 53-43 96-96 96s-96-43-96-96l-128 0c0 53-43 96-96 96s-96-43-96-96l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-32c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32l0-32zM384 224l85.9 0-42.7-96L384 128l0 96zM160 432a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm368-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
+    </Icon>
+);
+
+export default TruckField;

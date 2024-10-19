@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `chart-mixed-up-circle-currency` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/chart-mixed-up-circle-currency?s=sharp-duotone-solid chart-mixed-up-circle-currency}
+ * @preview ![chart-mixed-up-circle-currency](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMiAxOTlsNDAgNTBMMTkyLjYgMTM2LjVsMTA4LjIgODEuMSAxOS4zIDE0LjVjNC40LTMuNiA5LTcuMSAxMy44LTEwLjNsNi00LjhMNDgwIDEwNWwwIDM5IDAgMzIgNjQgMCAwLTMyIDAtMTEyIDAtMzJMNTEyIDAgNDAwIDAgMzY4IDBsMCA2NCAzMiAwIDI4LjggMEwzMTkuNCAxNTEuNSAyMTEuMiA3MC40IDE5MS40IDU1LjUgMTcyIDcxIDEyIDE5OXpNMzIgMzIwbDAgMTYwIDY0IDAgMC0xNjAtNjQgMHptMTI4LTk2bDAgMjU2IDY0IDAgMC0yNTYtNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQzMiA1MTJhMTQ0IDE0NCAwIDEgMCAwLTI4OCAxNDQgMTQ0IDAgMSAwIDAgMjg4em0yNS40LTE2OS40YTM1LjkgMzUuOSAwIDEgMCAtNTAuNyA1MC43IDM1LjkgMzUuOSAwIDEgMCA1MC43LTUwLjd6TTM5Ni43IDQyNmwtMjUuMyAyNS4zLTIyLjYtMjIuNkwzNzQgNDAzLjNjLTEzLjItMjEuNi0xMy4yLTQ5LjEgMC03MC43bC0yNS4zLTI1LjMgMjIuNi0yMi42TDM5Ni43IDMxMGMyMS42LTEzLjIgNDkuMS0xMy4yIDcwLjcgMGwyNS4zLTI1LjMgMjIuNiAyMi42TDQ5MCAzMzIuN2MxMy4yIDIxLjYgMTMuMiA0OS4xIDAgNzAuN2wyNS4zIDI1LjMtMjIuNiAyMi42TDQ2Ny4zIDQyNmMtMjEuNiAxMy4yLTQ5LjEgMTMuMi03MC43IDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const ChartMixedUpCircleCurrency: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path class={generic.secondary} d="M12 199l40 50L192.6 136.5l108.2 81.1 19.3 14.5c4.4-3.6 9-7.1 13.8-10.3l6-4.8L480 105l0 39 0 32 64 0 0-32 0-112 0-32L512 0 400 0 368 0l0 64 32 0 28.8 0L319.4 151.5 211.2 70.4 191.4 55.5 172 71 12 199zM32 320l0 160 64 0 0-160-64 0zm128-96l0 256 64 0 0-256-64 0z" />
+            <path d="M432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm25.4-169.4a35.9 35.9 0 1 0 -50.7 50.7 35.9 35.9 0 1 0 50.7-50.7zM396.7 426l-25.3 25.3-22.6-22.6L374 403.3c-13.2-21.6-13.2-49.1 0-70.7l-25.3-25.3 22.6-22.6L396.7 310c21.6-13.2 49.1-13.2 70.7 0l25.3-25.3 22.6 22.6L490 332.7c13.2 21.6 13.2 49.1 0 70.7l25.3 25.3-22.6 22.6L467.3 426c-21.6 13.2-49.1 13.2-70.7 0z" />
+    </Icon>
+);
+
+export default ChartMixedUpCircleCurrency;

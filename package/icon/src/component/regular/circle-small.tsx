@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `circle-small` icon from the `regular` section of Font Awesome 6 Pro
+ * A component that renders the `circle-small` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-small?s=regular circle-small}
- * @preview ![circle-small](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0xNjAgOTZDNzEuNjM1IDk2IDAgMTY3LjYzMyAwIDI1NkMwIDM0NC4zNjUgNzEuNjM1IDQxNiAxNjAgNDE2QzI0OC4zNjcgNDE2IDMyMCAzNDQuMzY1IDMyMCAyNTZDMzIwIDE2Ny42MzMgMjQ4LjM2NyA5NiAxNjAgOTZaTTE2MCAzNjhDOTguMjQ0IDM2OCA0OCAzMTcuNzU2IDQ4IDI1NkM0OCAxOTQuMjQyIDk4LjI0NCAxNDQgMTYwIDE0NEMyMjEuNzU4IDE0NCAyNzIgMTk0LjI0MiAyNzIgMjU2QzI3MiAzMTcuNzU2IDIyMS43NTggMzY4IDE2MCAzNjhaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-small](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDI1NkExMTIgMTEyIDAgMSAwIDQ4IDI1NmExMTIgMTEyIDAgMSAwIDIyNCAwek0wIDI1NmExNjAgMTYwIDAgMSAxIDMyMCAwQTE2MCAxNjAgMCAxIDEgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
  */
 const CircleSmall: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 96C71.635 96 0 167.633 0 256C0 344.365 71.635 416 160 416C248.367 416 320 344.365 320 256C320 167.633 248.367 96 160 96ZM160 368C98.244 368 48 317.756 48 256C48 194.242 98.244 144 160 144C221.758 144 272 194.242 272 256C272 317.756 221.758 368 160 368Z" />
+        <path d="M272 256A112 112 0 1 0 48 256a112 112 0 1 0 224 0zM0 256a160 160 0 1 1 320 0A160 160 0 1 1 0 256z" />
     </Icon>
 );
 

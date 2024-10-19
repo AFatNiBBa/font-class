@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `arrows-split-up-and-left` icon from the `duotone` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/arrows-split-up-and-left?s=duotone arrows-split-up-and-left}
+ * @preview ![arrows-split-up-and-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yMDEuNCAxMDUuNGMtMTIuNSAxMi41LTEyLjUgMzIuOCAwIDQ1LjNzMzIuOCAxMi41IDQ1LjMgMEwyODggMTA5LjNsMCAxNjMuOWMzOC4zIDIyLjEgNjQgNjMuNSA2NCAxMTAuOWwwLTI3NC43IDQxLjQgNDEuNGMxMi41IDEyLjUgMzIuOCAxMi41IDQ1LjMgMGM2LjItNi4yIDkuNC0xNC40IDkuNC0yMi42cy0zLjEtMTYuNC05LjQtMjIuNmwtOTYtOTZDMzM2LjQgMy4xIDMyOC4yIDAgMzIwIDBzLTE2LjQgMy4xLTIyLjYgOS40bC05NiA5NnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTkuNCAzMTAuNmMtMTIuNS0xMi41LTEyLjUtMzIuOCAwLTQ1LjNsOTYtOTZjMTIuNS0xMi41IDMyLjgtMTIuNSA0NS4zIDBzMTIuNSAzMi44IDAgNDUuM0wxMDkuMyAyNTYgMjI0IDI1NmM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOGMwIDM1LjMgMjguNyA2NCA2NCA2NGw2NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC02NCAwYy03MC43IDAtMTI4LTU3LjMtMTI4LTEyOGMwLTM1LjMtMjguNy02NC02NC02NGwtMTE0LjcgMCA0MS40IDQxLjRjMTIuNSAxMi41IDEyLjUgMzIuOCAwIDQ1LjNzLTMyLjggMTIuNS00NS4zIDBsLTk2LTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const ArrowsSplitUpAndLeft: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M201.4 105.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L288 109.3l0 163.9c38.3 22.1 64 63.5 64 110.9l0-274.7 41.4 41.4c12.5 12.5 32.8 12.5 45.3 0c6.2-6.2 9.4-14.4 9.4-22.6s-3.1-16.4-9.4-22.6l-96-96C336.4 3.1 328.2 0 320 0s-16.4 3.1-22.6 9.4l-96 96z" />
+            <path d="M9.4 310.6c-12.5-12.5-12.5-32.8 0-45.3l96-96c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L109.3 256 224 256c70.7 0 128 57.3 128 128c0 35.3 28.7 64 64 64l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-70.7 0-128-57.3-128-128c0-35.3-28.7-64-64-64l-114.7 0 41.4 41.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-96-96z" />
+    </Icon>
+);
+
+export default ArrowsSplitUpAndLeft;

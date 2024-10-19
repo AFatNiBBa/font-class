@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `boot-heeled` icon from the `duotone` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/boot-heeled?s=duotone boot-heeled}
+ * @preview ![boot-heeled](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiA0MTZsMCA3MmMwIDEzLjMgMTAuNyAyNCAyNCAyNGw4MCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0bDAtMTUuMSAxMjUgMzQuN2MxMC41IDIuOSAyMS4zIDQuNCAzMi4xIDQuNEw0NTYgNTEybDMyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTggMC0xNjAgMEwxNjAgNDE2IDMyIDQxNnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTYzLjMgMEwxMjggMGwwIDI0MGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2TDE2MCAwIDI2NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMjIwLjdjMCAyNy4zIDE1LjQgNTIuMiAzOS44IDY0LjRsMTEyLjQgNTYuMmMyNC40IDEyLjIgMzkuOCAzNy4xIDM5LjggNjQuNGwwIDM0LjMtMTYwIDBMMTYwIDQxNiAzMiA0MTZsMC0yNC4yYzAtMTIuNSAxLjYtMjQuOCA0LjMtMzYuNkM0My4yIDMyNS41IDU2IDI2NS4yIDU2IDIzMkM1NiAxNTQuMyAzNC42IDQ3LjEgMzIuNiAzNy40Yy0uNS0yLjMtLjYtNC4zLS42LTYuMkMzMiAxNCA0NiAwIDYzLjMgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const BootHeeled: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M32 416l0 72c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-15.1 125 34.7c10.5 2.9 21.3 4.4 32.1 4.4L456 512l32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0-160 0L160 416 32 416z" />
+            <path d="M63.3 0L128 0l0 240c0 8.8 7.2 16 16 16s16-7.2 16-16L160 0 264 0c13.3 0 24 10.7 24 24l0 220.7c0 27.3 15.4 52.2 39.8 64.4l112.4 56.2c24.4 12.2 39.8 37.1 39.8 64.4l0 34.3-160 0L160 416 32 416l0-24.2c0-12.5 1.6-24.8 4.3-36.6C43.2 325.5 56 265.2 56 232C56 154.3 34.6 47.1 32.6 37.4c-.5-2.3-.6-4.3-.6-6.2C32 14 46 0 63.3 0z" />
+    </Icon>
+);
+
+export default BootHeeled;

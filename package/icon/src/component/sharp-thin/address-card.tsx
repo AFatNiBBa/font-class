@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `address-card` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/address-card?s=sharp-thin address-card}
+ * @preview ![address-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNTQ0IDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA1NDQgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnpNMzYwIDE3NmwxNDQgMCA4IDAgMCAxNi04IDAtMTQ0IDAtOCAwIDAtMTYgOCAwem0wIDY0bDE0NCAwIDggMCAwIDE2LTggMC0xNDQgMC04IDAgMC0xNiA4IDB6bTAgNjRsMTQ0IDAgOCAwIDAgMTYtOCAwLTE0NCAwLTggMCAwLTE2IDggMHpNMTAyLjIgMzY4bC0xNi45IDBMMTEyIDI4OGwxNjAgMCAyNi43IDgwLTE2LjkgMC0yMS4zLTY0LTEzNi45IDAtMjEuMyA2NHpNMjQwIDE5MmE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwem0tMTEyIDBhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const AddressCard: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M16 48l0 416 544 0 0-416L16 48zM0 32l16 0 544 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM360 176l144 0 8 0 0 16-8 0-144 0-8 0 0-16 8 0zm0 64l144 0 8 0 0 16-8 0-144 0-8 0 0-16 8 0zm0 64l144 0 8 0 0 16-8 0-144 0-8 0 0-16 8 0zM102.2 368l-16.9 0L112 288l160 0 26.7 80-16.9 0-21.3-64-136.9 0-21.3 64zM240 192a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-112 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
+    </Icon>
+);
+
+export default AddressCard;

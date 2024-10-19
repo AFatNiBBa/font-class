@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `speaker` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/speaker?s=sharp-thin speaker}
+ * @preview ![speaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMCA0ODAgMzUyIDAgMC00ODBMMTYgMTZ6TTAgMEwxNiAwIDM2OCAwbDE2IDAgMCAxNiAwIDQ4MCAwIDE2LTE2IDBMMTYgNTEyIDAgNTEybDAtMTZMMCAxNiAwIDB6TTI4OCAzMzZBOTYgOTYgMCAxIDAgOTYgMzM2YTk2IDk2IDAgMSAwIDE5MiAwek04MCAzMzZhMTEyIDExMiAwIDEgMSAyMjQgMEExMTIgMTEyIDAgMSAxIDgwIDMzNnptMTEyIDMyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMC04MGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6bTMyLTE3NmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0tODAgMGE0OCA0OCAwIDEgMSA5NiAwIDQ4IDQ4IDAgMSAxIC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Speaker: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M16 16l0 480 352 0 0-480L16 16zM0 0L16 0 368 0l16 0 0 16 0 480 0 16-16 0L16 512 0 512l0-16L0 16 0 0zM288 336A96 96 0 1 0 96 336a96 96 0 1 0 192 0zM80 336a112 112 0 1 1 224 0A112 112 0 1 1 80 336zm112 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-80a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm32-176a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
+    </Icon>
+);
+
+export default Speaker;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `chart-bullet` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/chart-bullet?s=sharp-light chart-bullet}
+ * @preview ![chart-bullet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDMybDAgMTYgMCAxNiAxOTIgMCAzMiAwIDAgMzIgMCA5NiAwIDMyLTMyIDAtMTkyIDAgMCAxNiAwIDE2LTMyIDAgMC0xNiAwLTE2TDMyIDIyNCAwIDIyNGwwLTMyTDAgOTYgMCA2NGwzMiAwIDIyNCAwIDAtMTYgMC0xNiAzMiAwek0xNjAgOTZsMCA5NiA5NiAwIDAtOTYtOTYgMHptMTI4IDBsMCA5NiAxOTIgMCAwLTk2TDI4OCA5NnpNMTI4IDk2TDMyIDk2bDAgOTYgOTYgMCAwLTk2ek0zODQgMjU2bDAgMTYgMCAxNiA5NiAwIDMyIDAgMCAzMiAwIDk2IDAgMzItMzIgMC05NiAwIDAgMTYgMCAxNi0zMiAwIDAtMTYgMC0xNkwzMiA0NDggMCA0NDhsMC0zMiAwLTk2IDAtMzIgMzIgMCAzMjAgMCAwLTE2IDAtMTYgMzIgMHpNMjI0IDQxNmwxMjggMCAwLTk2LTEyOCAwIDAgOTZ6bTE2MC05NmwwIDk2IDk2IDAgMC05Ni05NiAwem0tMTkyIDBMMzIgMzIwbDAgOTYgMTYwIDAgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ChartBullet: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M288 32l0 16 0 16 192 0 32 0 0 32 0 96 0 32-32 0-192 0 0 16 0 16-32 0 0-16 0-16L32 224 0 224l0-32L0 96 0 64l32 0 224 0 0-16 0-16 32 0zM160 96l0 96 96 0 0-96-96 0zm128 0l0 96 192 0 0-96L288 96zM128 96L32 96l0 96 96 0 0-96zM384 256l0 16 0 16 96 0 32 0 0 32 0 96 0 32-32 0-96 0 0 16 0 16-32 0 0-16 0-16L32 448 0 448l0-32 0-96 0-32 32 0 320 0 0-16 0-16 32 0zM224 416l128 0 0-96-128 0 0 96zm160-96l0 96 96 0 0-96-96 0zm-192 0L32 320l0 96 160 0 0-96z" />
+    </Icon>
+);
+
+export default ChartBullet;

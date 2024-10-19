@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `block-brick` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/block-brick?s=sharp-regular block-brick}
+ * @preview ![block-brick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDgwbDAgNDggNTYgMCA0OCAwIDU2IDAgMC00OEwxNDQgODB6TTk2IDEyOGwwLTQ4TDQ4IDgwbDAgNDggNDggMHpNNDggMTc2bDAgNTYgMTUyIDAgMC01Nkw0OCAxNzZ6bTAgMTYwbDQ4IDAgMC01Ni00OCAwIDAgNTZ6bTAgNDhsMCA0OCAxNTIgMCAwLTQ4LTU2IDAtNDggMC00OCAwem05Ni00OGwxNjAgMCAwLTU2LTE2MCAwIDAgNTZ6bTIwOCAwbDQ4IDAgMC01Ni00OCAwIDAgNTZ6bTQ4IDQ4bC00OCAwLTQ4IDAtNTYgMCAwIDQ4IDE1MiAwIDAtNDh6bTAtMjA4bC0xNTIgMCAwIDU2IDE1MiAwIDAtNTZ6bTAtNDhsMC00OC00OCAwIDAgNDggNDggMHpNMCAzMmw0OCAwIDM1MiAwIDQ4IDAgMCA0OCAwIDM1MiAwIDQ4LTQ4IDBMNDggNDgwIDAgNDgwbDAtNDhMMCA4MCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const BlockBrick: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M144 80l0 48 56 0 48 0 56 0 0-48L144 80zM96 128l0-48L48 80l0 48 48 0zM48 176l0 56 152 0 0-56L48 176zm0 160l48 0 0-56-48 0 0 56zm0 48l0 48 152 0 0-48-56 0-48 0-48 0zm96-48l160 0 0-56-160 0 0 56zm208 0l48 0 0-56-48 0 0 56zm48 48l-48 0-48 0-56 0 0 48 152 0 0-48zm0-208l-152 0 0 56 152 0 0-56zm0-48l0-48-48 0 0 48 48 0zM0 32l48 0 352 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32z" />
+    </Icon>
+);
+
+export default BlockBrick;

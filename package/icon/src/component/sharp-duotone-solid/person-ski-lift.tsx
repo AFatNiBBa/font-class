@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `person-ski-lift` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-ski-lift?s=sharp-duotone-solid person-ski-lift}
+ * @preview ![person-ski-lift](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0tOCAxODguN0wyLjMgMjEwLjRsODggMTg0TDk5IDQxMi40bDE5LjMtNS4zIDg4LTI0IDIzLjItNi4zLTEyLjYtNDYuMy0yMy4yIDYuM0wxMjUgMzU1LjYgNDUuNyAxODkuNiAzNS4zIDE2OC04IDE4OC43ek0xMTMuMiA0NjQuOWwxNi42IDQ1IDIyLjUtOC4zIDM0NC0xMjcuMUM1MDUuNyAzNzEgNTEyIDM2MiA1MTIgMzUybDAtNDAgMC0yNC00OCAwIDAgMjQgMCAyMy4zYy00OCAxNy43LTk2IDM1LjUtMTQ0IDUzLjJjLTIxLjMgNy45LTQyLjcgMTUuOC02NCAyMy43TDEzNS43IDQ1Ni42bC0yMi41IDguM3pNMjI0IDBsMCAyMDYuOCAzMi04LjVMMjU2IDAgMjI0IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik02NCA4MGE0OCA0OCAwIDEgMSA5NiAwQTQ4IDQ4IDAgMSAxIDY0IDgwem0xMDMuNCA2MC43bDEzLjcgMzAuMSAzMi43IDcxLjkgNjUuOS0xNy42TDMyMCAyNTZsMCAxMzIuNS02NCAyMy43IDAtMTE0LjUtNjYuNyAxNy44Yy0yMi42IDYtNDYuMi01LjEtNTUuOS0yNi4zTDk2LjkgMjEwLjMgODMuOCAxODJsMjcuOS0xMy44IDI2LjEtMTIuOSAyOS42LTE0Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const PersonSkiLift: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M-8 188.7L2.3 210.4l88 184L99 412.4l19.3-5.3 88-24 23.2-6.3-12.6-46.3-23.2 6.3L125 355.6 45.7 189.6 35.3 168-8 188.7zM113.2 464.9l16.6 45 22.5-8.3 344-127.1C505.7 371 512 362 512 352l0-40 0-24-48 0 0 24 0 23.3c-48 17.7-96 35.5-144 53.2c-21.3 7.9-42.7 15.8-64 23.7L135.7 456.6l-22.5 8.3zM224 0l0 206.8 32-8.5L256 0 224 0z" />
+            <path d="M64 80a48 48 0 1 1 96 0A48 48 0 1 1 64 80zm103.4 60.7l13.7 30.1 32.7 71.9 65.9-17.6L320 256l0 132.5-64 23.7 0-114.5-66.7 17.8c-22.6 6-46.2-5.1-55.9-26.3L96.9 210.3 83.8 182l27.9-13.8 26.1-12.9 29.6-14.7z" />
+    </Icon>
+);
+
+export default PersonSkiLift;

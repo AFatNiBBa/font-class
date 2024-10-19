@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `brake-warning` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/brake-warning?s=sharp-thin brake-warning}
+ * @preview ![brake-warning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDQ4YTIwOCAyMDggMCAxIDEgMCA0MTYgMjA4IDIwOCAwIDEgMSAwLTQxNnptMCA0MzJhMjI0IDIyNCAwIDEgMCAwLTQ0OCAyMjQgMjI0IDAgMSAwIDAgNDQ4em04LTM0NGwwLTgtMTYgMCAwIDggMCAxNjAgMCA4IDE2IDAgMC04IDAtMTYwek0zMDQgMzM2bDAgMzIgMzIgMCAwLTMyLTMyIDB6TTYyLjcgOTYuM2w0LjMtNi43TDUzLjYgODAuOWwtNC4zIDYuN0MxOC4xIDEzNi4yIDAgMTk0IDAgMjU2czE4LjEgMTE5LjggNDkuMyAxNjguM2w0LjMgNi43IDEzLjUtOC42LTQuMy02LjdDMzMuMiAzNjkuNiAxNiAzMTQuOCAxNiAyNTZzMTcuMi0xMTMuNiA0Ni43LTE1OS43em01MjgtOC42bC00LjMtNi43LTEzLjUgOC42IDQuMyA2LjdDNjA2LjggMTQyLjQgNjI0IDE5Ny4yIDYyNCAyNTZzLTE3LjIgMTEzLjYtNDYuNyAxNTkuN2wtNC4zIDYuNyAxMy41IDguNiA0LjMtNi43QzYyMS45IDM3NS44IDY0MCAzMTggNjQwIDI1NnMtMTguMS0xMTkuOC00OS4zLTE2OC4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const BrakeWarning: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M320 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 432a224 224 0 1 0 0-448 224 224 0 1 0 0 448zm8-344l0-8-16 0 0 8 0 160 0 8 16 0 0-8 0-160zM304 336l0 32 32 0 0-32-32 0zM62.7 96.3l4.3-6.7L53.6 80.9l-4.3 6.7C18.1 136.2 0 194 0 256s18.1 119.8 49.3 168.3l4.3 6.7 13.5-8.6-4.3-6.7C33.2 369.6 16 314.8 16 256s17.2-113.6 46.7-159.7zm528-8.6l-4.3-6.7-13.5 8.6 4.3 6.7C606.8 142.4 624 197.2 624 256s-17.2 113.6-46.7 159.7l-4.3 6.7 13.5 8.6 4.3-6.7C621.9 375.8 640 318 640 256s-18.1-119.8-49.3-168.3z" />
+    </Icon>
+);
+
+export default BrakeWarning;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `battery-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/battery-exclamation?s=sharp-light battery-exclamation}
+ * @preview ![battery-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTZsMTI4IDAgMCAzMkw4MCAxMjhjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMTYwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDEyOCAwIDAgMzJMODAgNDE2Yy00NC4yIDAtODAtMzUuOC04MC04MEwwIDE3NmMwLTQ0LjIgMzUuOC04MCA4MC04MHpNNDMyIDM4NGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTE2MGMwLTI2LjUtMjEuNS00OC00OC00OGwtOTYgMCAwLTMyIDk2IDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCAxNjBjMCA0NC4yLTM1LjggODAtODAgODBsLTk2IDAgMC0zMiA5NiAwek01NjAgMTkyYzguOCAwIDE2IDcuMiAxNiAxNmwwIDk2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtOTZjMC04LjggNy4yLTE2IDE2LTE2ek0yODggOTZsMCAxNiAwIDE5MiAwIDE2LTMyIDAgMC0xNiAwLTE5MiAwLTE2IDMyIDB6TTI0OCAzNTJsNDggMCAwIDQ4LTQ4IDAgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const BatteryExclamation: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M80 96l128 0 0 32L80 128c-26.5 0-48 21.5-48 48l0 160c0 26.5 21.5 48 48 48l128 0 0 32L80 416c-44.2 0-80-35.8-80-80L0 176c0-44.2 35.8-80 80-80zM432 384c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48l-96 0 0-32 96 0c44.2 0 80 35.8 80 80l0 160c0 44.2-35.8 80-80 80l-96 0 0-32 96 0zM560 192c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16zM288 96l0 16 0 192 0 16-32 0 0-16 0-192 0-16 32 0zM248 352l48 0 0 48-48 0 0-48z" />
+    </Icon>
+);
+
+export default BatteryExclamation;

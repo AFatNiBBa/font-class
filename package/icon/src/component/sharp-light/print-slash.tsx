@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `print-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/print-slash?s=sharp-light print-slash}
+ * @preview ![print-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDQ4OS4xbC0zMi0yNS4zIDAgMTYuMS0zMjAgMCAwLTEyOCAxNzguMyAwLTQwLjUtMzJMMTYwIDMyMGwtMzIgMCAwIDMyIDAgMzItMzIgMCAwLTE2MCA4MC4yIDAtNDAuNS0zMkw5NiAxOTJsLTMyIDAgMCAzMiAwIDE2MCAwIDMyIDMyIDAgMzIgMCAwIDY0IDAgMzIgMzIgMCAzMjAgMCAzMiAwIDAtMjIuOXpNMTYwIDQ4LjFMMTYwIDMybDI3NC43IDBMNDgwIDc3LjNsMCA4Mi43IDMyIDAgMC05Nkw0NDggMCAxNjAgMCAxMjggMGwwIDIyLjkgMzIgMjUuM3pNMzQyLjIgMTkybDQwLjUgMzJMNTQ0IDIyNGwwIDY0IDAgNjMuMyAzMiAyNS4zTDU3NiAyMjRsMC0zMi0zMiAwLTIwMS44IDB6TTUxMiAyNTZsLTMyIDAgMCAzMiAzMiAwIDAtMzJ6TTMyLjUgMTBMMTkuOSAuMSAuMSAyNS4zbDEyLjYgOS45TDYwNy44IDUwMi4ybDEyLjYgOS45IDE5LjgtMjUuMi0xMi42LTkuOUwzMi41IDEweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const PrintSlash: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M512 489.1l-32-25.3 0 16.1-320 0 0-128 178.3 0-40.5-32L160 320l-32 0 0 32 0 32-32 0 0-160 80.2 0-40.5-32L96 192l-32 0 0 32 0 160 0 32 32 0 32 0 0 64 0 32 32 0 320 0 32 0 0-22.9zM160 48.1L160 32l274.7 0L480 77.3l0 82.7 32 0 0-96L448 0 160 0 128 0l0 22.9 32 25.3zM342.2 192l40.5 32L544 224l0 64 0 63.3 32 25.3L576 224l0-32-32 0-201.8 0zM512 256l-32 0 0 32 32 0 0-32zM32.5 10L19.9 .1 .1 25.3l12.6 9.9L607.8 502.2l12.6 9.9 19.8-25.2-12.6-9.9L32.5 10z" />
+    </Icon>
+);
+
+export default PrintSlash;

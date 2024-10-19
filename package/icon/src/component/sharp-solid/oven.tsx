@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `oven` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/oven?s=sharp-solid oven}
+ * @preview ![oven](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDAgMTYwbDQ0OCAwTDQ0OCAwIDAgMHpNNTYgODBhMjQgMjQgMCAxIDEgNDggMEEyNCAyNCAwIDEgMSA1NiA4MHpNMTc2IDU2YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptNzIgMjRhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHpNMzY4IDU2YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMTYgMjAwbDAgMTkyTDY0IDQ0OGwwLTE5MiAzMjAgMHpNNjQgMTkyTDAgMTkybDAgNjRMMCA0NDhsMCA2NCA2NCAwIDMyMCAwIDY0IDAgMC02NCAwLTE5MiAwLTY0LTY0IDBMNjQgMTkyem0yNzIgOTZsLTIyNCAwLTE2IDAgMCAzMiAxNiAwIDIyNCAwIDE2IDAgMC0zMi0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Oven: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M0 0L0 160l448 0L448 0 0 0zM56 80a24 24 0 1 1 48 0A24 24 0 1 1 56 80zM176 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm16 200l0 192L64 448l0-192 320 0zM64 192L0 192l0 64L0 448l0 64 64 0 320 0 64 0 0-64 0-192 0-64-64 0L64 192zm272 96l-224 0-16 0 0 32 16 0 224 0 16 0 0-32-16 0z" />
+    </Icon>
+);
+
+export default Oven;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `handshake-simple-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/handshake-simple-slash?s=sharp-thin handshake-simple-slash}
+ * @preview ![handshake-simple-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1em0zNTEgMzY5LjhsLTUwLjcgNTAuNy00My00My01LjctNS43LTUuNyA1LjctMzcgMzctNDQuMS00NC4xczAgMCAwIDBsLTM3LTM3LTIuMy0yLjMtMy4zIDBMNDggMzM2bC04IDAgMCAxNiA4IDAgODcuMiAwIDUwLjEgNTAuMSA1LjcgNS43czAgMCAwIDBsMjguNyAyOC43IDUuNyA1LjcgNS43LTUuNyAzNy0zNyA0MyA0MyA1LjcgNS43IDUuNy01LjdMMzc2IDM4OC43bDAtNi45LTguOC02Ljl6bS0yOS0zMDguNmwtNzAuNiA2Ni45IDEyLjcgMTBMMzQ2LjkgODBsNzkuNSAwIDczLjkgNjIuMSAyLjIgMS45IDIuOSAwIDk0LjUgMCA4IDAgMC0xNi04IDAtOTEuNiAwTDQzNC41IDY1LjkgNDMyLjIgNjRsLTIuOSAwLTg1LjYgMC0zLjIgMC0yLjMgMi4yem0yNC41IDE0MmwxMi41LTEyLjUgNS43LTUuNy0xMS4zLTExLjMtNS43IDUuNy0xMy45IDEzLjkgMTIuNiAxMHpNMTkzLjYgNzQuN2wxMi44IDEwLjEgNS43LTQuOCA2NSAwTDI5NCA2NGwtODQuOCAwYy0xLjkgMC0zLjcgLjctNS4xIDEuOWwtMTAuNSA4Ljh6TTc0LjggMTQ0TDU0LjYgMTI4IDQwIDEyOGwtOCAwIDAgMTYgOCAwIDM0LjggMHpNNjAwIDM1Mmw4IDAgMC0xNi04IDAtNzUuNCAwIDIwLjMgMTYgNTUuMSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const HandshakeSimpleSlash: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5zm351 369.8l-50.7 50.7-43-43-5.7-5.7-5.7 5.7-37 37-44.1-44.1s0 0 0 0l-37-37-2.3-2.3-3.3 0L48 336l-8 0 0 16 8 0 87.2 0 50.1 50.1 5.7 5.7s0 0 0 0l28.7 28.7 5.7 5.7 5.7-5.7 37-37 43 43 5.7 5.7 5.7-5.7L376 388.7l0-6.9-8.8-6.9zm-29-308.6l-70.6 66.9 12.7 10L346.9 80l79.5 0 73.9 62.1 2.2 1.9 2.9 0 94.5 0 8 0 0-16-8 0-91.6 0L434.5 65.9 432.2 64l-2.9 0-85.6 0-3.2 0-2.3 2.2zm24.5 142l12.5-12.5 5.7-5.7-11.3-11.3-5.7 5.7-13.9 13.9 12.6 10zM193.6 74.7l12.8 10.1 5.7-4.8 65 0L294 64l-84.8 0c-1.9 0-3.7 .7-5.1 1.9l-10.5 8.8zM74.8 144L54.6 128 40 128l-8 0 0 16 8 0 34.8 0zM600 352l8 0 0-16-8 0-75.4 0 20.3 16 55.1 0z" />
+    </Icon>
+);
+
+export default HandshakeSimpleSlash;

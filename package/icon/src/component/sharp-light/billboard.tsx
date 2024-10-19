@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `billboard` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/billboard?s=sharp-light billboard}
+ * @preview ![billboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDE2bDAtMTZMNDAwIDBsMCAxNiAwIDE2TDI0MCAzMmwwLTE2IDAtMTZMMjA4IDBsMCAxNiAwIDE2TDY0IDMyIDMyIDMybDAgMzIgMCAyODhMMCAzNTJsMCAzMiAzMiAwIDMyIDAgMjQwIDAgMCAxMDQgMCAxNiAzMiAwIDAtMTYgMC0xMDQgMjQwIDAgMzIgMCAzMiAwIDAtMzItMzIgMCAwLTI4OCAwLTMyLTMyIDBMNDMyIDMybDAtMTZ6TTMzNiAzNTJsLTMyIDBMNjQgMzUyIDY0IDY0bDE0NCAwIDAgNjQtMTYgMC0xNiAwIDAgMzIgMTYgMCAzMiAwIDMyIDAgMTYgMCAwLTMyLTE2IDAtMTYgMCAwLTY0IDE2MCAwIDAgNjQtMTYgMC0xNiAwIDAgMzIgMTYgMCAzMiAwIDMyIDAgMTYgMCAwLTMyLTE2IDAtMTYgMCAwLTY0IDE0NCAwIDAgMjg4LTI0MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Billboard: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M432 16l0-16L400 0l0 16 0 16L240 32l0-16 0-16L208 0l0 16 0 16L64 32 32 32l0 32 0 288L0 352l0 32 32 0 32 0 240 0 0 104 0 16 32 0 0-16 0-104 240 0 32 0 32 0 0-32-32 0 0-288 0-32-32 0L432 32l0-16zM336 352l-32 0L64 352 64 64l144 0 0 64-16 0-16 0 0 32 16 0 32 0 32 0 16 0 0-32-16 0-16 0 0-64 160 0 0 64-16 0-16 0 0 32 16 0 32 0 32 0 16 0 0-32-16 0-16 0 0-64 144 0 0 288-240 0z" />
+    </Icon>
+);
+
+export default Billboard;

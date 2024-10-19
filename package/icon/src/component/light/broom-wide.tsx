@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `broom-wide` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/broom-wide?s=light broom-wide}
+ * @preview ![broom-wide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA3LjMgMjcuM2M2LjItNi4yIDYuMi0xNi40IDAtMjIuNnMtMTYuNC02LjItMjIuNiAwbC0xNDQgMTQ0LTE4LjYtMTguNmMtMjAuMi0yMC4yLTUxLjQtMjQuNi03Ni4zLTEwLjdMMTYuNCAyNDYuOUM2LjMgMjUyLjUgMCAyNjMuMiAwIDI3NC44YzAgOC41IDMuNCAxNi42IDkuMyAyMi42TDIxNC43IDUwMi43YzYgNiAxNC4xIDkuMyAyMi42IDkuM2MxMS42IDAgMjIuMy02LjMgMjcuOS0xNi40TDM5Mi42IDI2Ni4yYzEzLjktMjUgOS41LTU2LjEtMTAuNy03Ni4zbC0xOC42LTE4LjYgMTQ0LTE0NHpNMjk5LjUgMTUyLjhsNTkuNyA1OS43YzEwLjEgMTAuMSAxMi4zIDI1LjcgNS4zIDM4LjJsLTIxLjIgMzguMUwyMjMuMiAxNjguNmwzOC4xLTIxLjJjMTIuNS02LjkgMjguMS00LjggMzguMiA1LjN6bS0xMDUuNCAzMkwzMjcuMiAzMTcuOWwtOTAgMTYyLjFMMTEzLjkgMzU2LjdsNDEuNC00MS40YzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBMOTEuMyAzMzQuMSAzMi4xIDI3NC44bDE2Mi4xLTkweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const BroomWide: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M507.3 27.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-144 144-18.6-18.6c-20.2-20.2-51.4-24.6-76.3-10.7L16.4 246.9C6.3 252.5 0 263.2 0 274.8c0 8.5 3.4 16.6 9.3 22.6L214.7 502.7c6 6 14.1 9.3 22.6 9.3c11.6 0 22.3-6.3 27.9-16.4L392.6 266.2c13.9-25 9.5-56.1-10.7-76.3l-18.6-18.6 144-144zM299.5 152.8l59.7 59.7c10.1 10.1 12.3 25.7 5.3 38.2l-21.2 38.1L223.2 168.6l38.1-21.2c12.5-6.9 28.1-4.8 38.2 5.3zm-105.4 32L327.2 317.9l-90 162.1L113.9 356.7l41.4-41.4c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L91.3 334.1 32.1 274.8l162.1-90z" />
+    </Icon>
+);
+
+export default BroomWide;

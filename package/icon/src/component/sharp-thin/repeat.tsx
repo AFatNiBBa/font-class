@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `repeat` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/repeat?s=sharp-thin repeat}
+ * @preview ![repeat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ1LjQgMTZsODAgODAtODAgODAtOS40IDAgMC03MiAwLTE2IDAtNzIgOS40IDB6TTMyMCAxNmwwIDcyTDggODggMCA4OGwwIDhMMCAyNjRsMCA4IDE2IDAgMC04IDAtMTYwIDMwNCAwIDAgNzIgMCAxNiAxNiAwIDE2IDAgODQuNy04NC43TDQ0OCA5NiA0MzYuNyA4NC43IDM1MiAwIDMzNiAwIDMyMCAwbDAgMTZ6TTE2Ni42IDQ5NmwtODAtODAgODAtODAgOS40IDAgMCA3MiAwIDE2IDAgNzItOS40IDB6bTI1LjQgMGwwLTcyIDMxMiAwIDggMCAwLTggMC0xNjggMC04LTE2IDAgMCA4IDAgMTYwLTMwNCAwIDAtNzIgMC0xNi0xNiAwLTE2IDBMNzUuMyA0MDQuNyA2NCA0MTZsMTEuMyAxMS4zTDE2MCA1MTJsMTYgMCAxNiAwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Repeat: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M345.4 16l80 80-80 80-9.4 0 0-72 0-16 0-72 9.4 0zM320 16l0 72L8 88 0 88l0 8L0 264l0 8 16 0 0-8 0-160 304 0 0 72 0 16 16 0 16 0 84.7-84.7L448 96 436.7 84.7 352 0 336 0 320 0l0 16zM166.6 496l-80-80 80-80 9.4 0 0 72 0 16 0 72-9.4 0zm25.4 0l0-72 312 0 8 0 0-8 0-168 0-8-16 0 0 8 0 160-304 0 0-72 0-16-16 0-16 0L75.3 404.7 64 416l11.3 11.3L160 512l16 0 16 0 0-16z" />
+    </Icon>
+);
+
+export default Repeat;

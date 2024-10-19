@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `light-emergency` icon from the `thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/light-emergency?s=thin light-emergency}
+ * @preview ![light-emergency](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDMyMGwwLTEyOGMwLTc5LjUtNjQuNS0xNDQtMTQ0LTE0NFM4MCAxMTIuNSA4MCAxOTJsMCAxMjgtMTYgMCAwLTEyOGMwLTg4LjQgNzEuNi0xNjAgMTYwLTE2MHMxNjAgNzEuNiAxNjAgMTYwbDAgMTI4LTE2IDB6TTQ4IDM2OGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzNTIgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTMyYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDQ4IDM2OHptMC0xNmwzNTIgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDMyYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDQ4IDQ4MGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0zMmMwLTI2LjUgMjEuNS00OCA0OC00OHptOTYuNC0xNjhjLS40IDQuNC00IDgtOC40IDhzLTgtMy42LTcuNy04YzMuOC00Ni42IDQxLTgzLjggODcuNy04Ny43YzQuNC0uNCA4IDMuMyA4IDcuN3MtMy42IDgtOCA4LjRjLTM3LjggMy43LTY3LjkgMzMuOC03MS42IDcxLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const LightEmergency: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M368 320l0-128c0-79.5-64.5-144-144-144S80 112.5 80 192l0 128-16 0 0-128c0-88.4 71.6-160 160-160s160 71.6 160 160l0 128-16 0zM48 368c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l352 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32L48 368zm0-16l352 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48L48 480c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48zm96.4-168c-.4 4.4-4 8-8.4 8s-8-3.6-7.7-8c3.8-46.6 41-83.8 87.7-87.7c4.4-.4 8 3.3 8 7.7s-3.6 8-8 8.4c-37.8 3.7-67.9 33.8-71.6 71.6z" />
+    </Icon>
+);
+
+export default LightEmergency;

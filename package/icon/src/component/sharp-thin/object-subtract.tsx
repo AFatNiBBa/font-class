@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `object-subtract` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/object-subtract?s=sharp-thin object-subtract}
+ * @preview ![object-subtract](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsODAgMEw5NiAwIDE2IDAgMCAwIDAgMTYgMCA5NmwxNiAwIDAtODB6bTIwOCAwbDAtMTZMMTI4IDBsMCAxNiA5NiAwek0xNiAxMjhMMCAxMjhsMCA5NiAxNiAwIDAtOTZ6bTAgMTI4TDAgMjU2bDAgODAgMCAxNiAxNiAwIDgwIDAgMC0xNi04MCAwIDAtODB6bTExMiA5NmwzMiAwIDE2IDAgNDggMCAwLTE2LTQ4IDAtMTYgMC0zMiAwIDAgMTZ6bTMyIDMybDAgMTEyIDAgMTYgMTYgMCAzMjAgMCAxNiAwIDAtMTYgMC0zMjAgMC0xNi0xNiAwLTExMiAwIDAgMTYgMTEyIDAgMCAzMjAtMzIwIDAgMC0xMTItMTYgMHpNMzUyIDE3NmwwLTE2IDAtMzItMTYgMCAwIDMyIDAgMTYgMCA0OCAxNiAwIDAtNDh6bTAtMTYwbDAtMTZMMzM2IDAgMjU2IDBsMCAxNiA4MCAwIDAgODAgMTYgMCAwLTgwek0yNTYgMzM2bDAgMTYgODAgMCAxNiAwIDAtMTYgMC04MC0xNiAwIDAgODAtODAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ObjectSubtract: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M16 16l80 0L96 0 16 0 0 0 0 16 0 96l16 0 0-80zm208 0l0-16L128 0l0 16 96 0zM16 128L0 128l0 96 16 0 0-96zm0 128L0 256l0 80 0 16 16 0 80 0 0-16-80 0 0-80zm112 96l32 0 16 0 48 0 0-16-48 0-16 0-32 0 0 16zm32 32l0 112 0 16 16 0 320 0 16 0 0-16 0-320 0-16-16 0-112 0 0 16 112 0 0 320-320 0 0-112-16 0zM352 176l0-16 0-32-16 0 0 32 0 16 0 48 16 0 0-48zm0-160l0-16L336 0 256 0l0 16 80 0 0 80 16 0 0-80zM256 336l0 16 80 0 16 0 0-16 0-80-16 0 0 80-80 0z" />
+    </Icon>
+);
+
+export default ObjectSubtract;

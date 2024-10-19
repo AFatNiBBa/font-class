@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `taxi` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/taxi?s=sharp-regular taxi}
+ * @preview ![taxi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBMMTYwIDBsMCA2NC00MCAwLTE3LjMgMEw5Ny4yIDgwLjQgNTQuNyAyMDggNDggMjA4IDAgMjA4bDAgNDhMMCAzODRsMCA0OCAwIDgwIDQ4IDAgMC04MCA0MTYgMCAwIDgwIDQ4IDAgMC04MCAwLTQ4IDAtMTI4IDAtNDgtNDggMC02LjcgMEw0MTQuOCA4MC40IDQwOS4zIDY0IDM5MiA2NGwtNDAgMCAwLTY0em0yMi43IDExMmwzMiA5Ni0zMDEuNCAwIDMyLTk2IDIzNy40IDB6TTQ4IDI1Nmw0MTYgMCAwIDEyOEw0OCAzODRsMC0xMjh6bTY0IDk2YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMzIwLTMyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Taxi: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M352 0L160 0l0 64-40 0-17.3 0L97.2 80.4 54.7 208 48 208 0 208l0 48L0 384l0 48 0 80 48 0 0-80 416 0 0 80 48 0 0-80 0-48 0-128 0-48-48 0-6.7 0L414.8 80.4 409.3 64 392 64l-40 0 0-64zm22.7 112l32 96-301.4 0 32-96 237.4 0zM48 256l416 0 0 128L48 384l0-128zm64 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm320-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
+    </Icon>
+);
+
+export default Taxi;

@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `p` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `p` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/p?s=solid p}
- * @preview ![p](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00OCA0ODBDMjEuNSA0ODAgMCA0NTguNSAwIDQzMlY4MEMwIDUzLjUgMjEuNSAzMiA0OCAzMkgxNjBDMjQ4LjIxOSAzMiAzMjAgMTAzLjc4MSAzMjAgMTkyUzI0OC4yMTkgMzUyIDE2MCAzNTJIOTZWNDMyQzk2IDQ1OC41IDc0LjUgNDgwIDQ4IDQ4MFpNOTYgMjU2SDE2MEMxOTUuMjgxIDI1NiAyMjQgMjI3LjI4MSAyMjQgMTkyUzE5NS4yODEgMTI4IDE2MCAxMjhIOTZWMjU2WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![p](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmw5NiAwYzg4LjQgMCAxNjAgNzEuNiAxNjAgMTYwcy03MS42IDE2MC0xNjAgMTYwbC05NiAwIDAgOTZjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJMMCAzMjAgMCA5NnpNNjQgMjg4bDk2IDBjNTMgMCA5Ni00MyA5Ni05NnMtNDMtOTYtOTYtOTZMNjQgOTZsMCAxOTJ6Ii8+PC9zdmc+|width=32|height=32)
  */
 const P: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M48 480C21.5 480 0 458.5 0 432V80C0 53.5 21.5 32 48 32H160C248.219 32 320 103.781 320 192S248.219 352 160 352H96V432C96 458.5 74.5 480 48 480ZM96 256H160C195.281 256 224 227.281 224 192S195.281 128 160 128H96V256Z" />
+        <path d="M0 96C0 60.7 28.7 32 64 32l96 0c88.4 0 160 71.6 160 160s-71.6 160-160 160l-96 0 0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32L0 320 0 96zM64 288l96 0c53 0 96-43 96-96s-43-96-96-96L64 96l0 192z" />
     </Icon>
 );
 

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `square-quote` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/square-quote?s=solid square-quote}
+ * @preview ![square-quote](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMnptNjQgMTI4bDQ4IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyNCAwIDI0IDAgMzkuM2MwIDM1LjItMjUuNCA2NS4yLTYwLjIgNzFsLTcuOSAxLjNjLTEzLjEgMi4yLTI1LjQtNi43LTI3LjYtMTkuN3M2LjctMjUuNCAxOS43LTI3LjZsNy45LTEuM2MxMS42LTEuOSAyMC4xLTExLjkgMjAuMS0yMy43bDAtNy4zLTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNDhjMC0xNy43IDE0LjMtMzIgMzItMzJ6bTIyNCA4MGwwIDM5LjNjMCAzNS4yLTI1LjQgNjUuMi02MC4yIDcxbC03LjkgMS4zYy0xMy4xIDIuMi0yNS40LTYuNy0yNy42LTE5LjdzNi43LTI1LjQgMTkuNy0yNy42bDcuOS0xLjNjMTEuNi0xLjkgMjAuMS0xMS45IDIwLjEtMjMuN2wwLTcuMy0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTQ4YzAtMTcuNyAxNC4zLTMyIDMyLTMybDQ4IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyNCAwIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const SquareQuote: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm64 128l48 0c17.7 0 32 14.3 32 32l0 24 0 24 0 39.3c0 35.2-25.4 65.2-60.2 71l-7.9 1.3c-13.1 2.2-25.4-6.7-27.6-19.7s6.7-25.4 19.7-27.6l7.9-1.3c11.6-1.9 20.1-11.9 20.1-23.7l0-7.3-32 0c-17.7 0-32-14.3-32-32l0-48c0-17.7 14.3-32 32-32zm224 80l0 39.3c0 35.2-25.4 65.2-60.2 71l-7.9 1.3c-13.1 2.2-25.4-6.7-27.6-19.7s6.7-25.4 19.7-27.6l7.9-1.3c11.6-1.9 20.1-11.9 20.1-23.7l0-7.3-32 0c-17.7 0-32-14.3-32-32l0-48c0-17.7 14.3-32 32-32l48 0c17.7 0 32 14.3 32 32l0 24 0 24z" />
+    </Icon>
+);
+
+export default SquareQuote;

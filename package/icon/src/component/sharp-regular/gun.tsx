@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `gun` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/gun?s=sharp-regular gun}
+ * @preview ![gun](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDU2bDAtMjQtNDggMCAwIDI0IDAgOEwyNCA2NCAwIDY0IDAgODggMCAyMTZsMCAyNCAyNCAwIDY4IDBMNDQgNDMyIDMyIDQ4MGw0OS41IDBMMjA4IDQ4MGwzMi0xMjggMTA0IDAgMTYuOSAwIDUuNy0xNS45TDQwMC45IDI0MGwzOS4xIDAgOS45IDAgNy03IDI1LTI1IDcwLjEgMCAyNCAwIDAtMjQgMC05NiAwLTI0LTI0IDAtMjQgMCAwLTh6TTI1MiAzMDRsMTYtNjQgODEuOSAwLTIyLjkgNjRMMjUyIDMwNHptLTMzLjUtNjRsLTQ4IDE5Mi03NyAwIDQ4LTE5MiA3NyAwek0yODAgMTkybC00OS41IDBMMTA0IDE5MmwtNTYgMCAwLTgwIDQzMiAwIDQ4IDAgMCA0OC01NiAwLTkuOSAwLTcgNy0yNSAyNUwyODAgMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Gun: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M528 56l0-24-48 0 0 24 0 8L24 64 0 64 0 88 0 216l0 24 24 0 68 0L44 432 32 480l49.5 0L208 480l32-128 104 0 16.9 0 5.7-15.9L400.9 240l39.1 0 9.9 0 7-7 25-25 70.1 0 24 0 0-24 0-96 0-24-24 0-24 0 0-8zM252 304l16-64 81.9 0-22.9 64L252 304zm-33.5-64l-48 192-77 0 48-192 77 0zM280 192l-49.5 0L104 192l-56 0 0-80 432 0 48 0 0 48-56 0-9.9 0-7 7-25 25L280 192z" />
+    </Icon>
+);
+
+export default Gun;

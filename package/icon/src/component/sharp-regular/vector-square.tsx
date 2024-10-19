@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `vector-square` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/vector-square?s=sharp-regular vector-square}
+ * @preview ![vector-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA4IDcybDAgNDgtNDggMCAwLTQ4IDQ4IDB6TTM2MCAzMmwtNDAgMCAwIDQwTDEyOCA3MmwwLTQwTDg4IDMyIDQwIDMyIDAgMzIgMCA3MmwwIDQ4IDAgNDAgNDAgMCAwIDE5MkwwIDM1MmwwIDQwIDAgNDggMCA0MCA0MCAwIDQ4IDAgNDAgMCAwLTQwIDE5MiAwIDAgNDAgNDAgMCA0OCAwIDQwIDAgMC00MCAwLTQ4IDAtNDAtNDAgMCAwLTE5MiA0MCAwIDAtNDAgMC00OCAwLTQwLTQwIDAtNDggMHpNODggMzUybDAtMTkyIDQwIDAgMC00MCAxOTIgMCAwIDQwIDQwIDAgMCAxOTItNDAgMCAwIDQwLTE5MiAwIDAtNDAtNDAgMHpNNDAgMzkybDQ4IDAgMCA0OC00OCAwIDAtNDh6bTMyMCAwbDQ4IDAgMCA0OC00OCAwIDAtNDh6TTQwIDcybDQ4IDAgMCA0OC00OCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const VectorSquare: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M408 72l0 48-48 0 0-48 48 0zM360 32l-40 0 0 40L128 72l0-40L88 32 40 32 0 32 0 72l0 48 0 40 40 0 0 192L0 352l0 40 0 48 0 40 40 0 48 0 40 0 0-40 192 0 0 40 40 0 48 0 40 0 0-40 0-48 0-40-40 0 0-192 40 0 0-40 0-48 0-40-40 0-48 0zM88 352l0-192 40 0 0-40 192 0 0 40 40 0 0 192-40 0 0 40-192 0 0-40-40 0zM40 392l48 0 0 48-48 0 0-48zm320 0l48 0 0 48-48 0 0-48zM40 72l48 0 0 48-48 0 0-48z" />
+    </Icon>
+);
+
+export default VectorSquare;

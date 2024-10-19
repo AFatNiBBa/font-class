@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `mobile-retro` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/mobile-retro?s=sharp-light mobile-retro}
+ * @preview ![mobile-retro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDMybDAgNDQ4TDMyIDQ4MCAzMiAzMmwyNTYgMHpNMzIgMEwwIDAgMCAzMiAwIDQ4MGwwIDMyIDMyIDAgMjU2IDAgMzIgMCAwLTMyIDAtNDQ4IDAtMzJMMjg4IDAgMzIgMHpNMjI0IDE2MGwwIDY0TDk2IDIyNGwwLTY0IDEyOCAwek05NiAxMjhsLTMyIDAgMCAzMiAwIDY0IDAgMzIgMzIgMCAxMjggMCAzMiAwIDAtMzIgMC02NCAwLTMyLTMyIDBMOTYgMTI4em04IDE3NmwtNDggMCAwIDQ4IDQ4IDAgMC00OHpNNTYgMzg0bDAgNDggNDggMCAwLTQ4LTQ4IDB6bTEyOC04MGwtNDggMCAwIDQ4IDQ4IDAgMC00OHptLTQ4IDgwbDAgNDggNDggMCAwLTQ4LTQ4IDB6bTEyOC04MGwtNDggMCAwIDQ4IDQ4IDAgMC00OHptLTQ4IDgwbDAgNDggNDggMCAwLTQ4LTQ4IDB6TTEyOCA2NGwtMTYgMCAwIDMyIDE2IDAgNjQgMCAxNiAwIDAtMzItMTYgMC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const MobileRetro: typeof Icon = x => (
+    <Icon viewBox="0 0 320 512" {...x}>
+        <path d="M288 32l0 448L32 480 32 32l256 0zM32 0L0 0 0 32 0 480l0 32 32 0 256 0 32 0 0-32 0-448 0-32L288 0 32 0zM224 160l0 64L96 224l0-64 128 0zM96 128l-32 0 0 32 0 64 0 32 32 0 128 0 32 0 0-32 0-64 0-32-32 0L96 128zm8 176l-48 0 0 48 48 0 0-48zM56 384l0 48 48 0 0-48-48 0zm128-80l-48 0 0 48 48 0 0-48zm-48 80l0 48 48 0 0-48-48 0zm128-80l-48 0 0 48 48 0 0-48zm-48 80l0 48 48 0 0-48-48 0zM128 64l-16 0 0 32 16 0 64 0 16 0 0-32-16 0-64 0z" />
+    </Icon>
+);
+
+export default MobileRetro;

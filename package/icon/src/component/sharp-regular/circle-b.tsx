@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `circle-b` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/circle-b?s=sharp-regular circle-b}
+ * @preview ![circle-b](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YTIwOCAyMDggMCAxIDEgMCA0MTYgMjA4IDIwOCAwIDEgMSAwLTQxNnptMCA0NjRBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xNjAgMTI4bDAgMjQgMCA4MCAwIDI0IDAgMjQgMCA4MCAwIDI0IDI0IDAgMTA4IDBjNDIgMCA3Ni0zNCA3Ni03NmMwLTI0LjYtMTEuNy00Ni40LTI5LjgtNjAuM2M4LjctMTIuNCAxMy44LTI3LjQgMTMuOC00My43YzAtNDItMzQtNzYtNzYtNzZsLTkyIDAtMjQgMHptMTQ0IDc2YzAgMTUuNS0xMi41IDI4LTI4IDI4bC02OCAwIDAtNTYgNjggMGMxNS41IDAgMjggMTIuNSAyOCAyOHpNMjA4IDMzNmwwLTU2IDY4IDAgMTYgMGMxNS41IDAgMjggMTIuNSAyOCAyOHMtMTIuNSAyOC0yOCAyOGwtODQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const CircleB: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM160 128l0 24 0 80 0 24 0 24 0 80 0 24 24 0 108 0c42 0 76-34 76-76c0-24.6-11.7-46.4-29.8-60.3c8.7-12.4 13.8-27.4 13.8-43.7c0-42-34-76-76-76l-92 0-24 0zm144 76c0 15.5-12.5 28-28 28l-68 0 0-56 68 0c15.5 0 28 12.5 28 28zM208 336l0-56 68 0 16 0c15.5 0 28 12.5 28 28s-12.5 28-28 28l-84 0z" />
+    </Icon>
+);
+
+export default CircleB;

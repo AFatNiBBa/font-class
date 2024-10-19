@@ -2,13 +2,13 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `intersection` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `intersection` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/intersection?s=duotone intersection}
- * @preview ![intersection](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTM0NCA0ODBDMzIxLjkwNiA0ODAgMzA0IDQ2Mi4wOTQgMzA0IDQ0MFYyMjRDMzA0IDE2Mi4yNSAyNTMuNzUgMTEyIDE5MiAxMTJTODAgMTYyLjI1IDgwIDIyNFY0NDBDODAgNDYyLjA5NCA2Mi4wOTQgNDgwIDQwIDQ4MFMwIDQ2Mi4wOTQgMCA0NDBWMjI0QzAgMTE4LjEyNSA4Ni4xMjUgMzIgMTkyIDMyUzM4NCAxMTguMTI1IDM4NCAyMjRWNDQwQzM4NCA0NjIuMDk0IDM2Ni4wOTQgNDgwIDM0NCA0ODBaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![intersection](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiA0ODBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0yMjRjMC03MC43IDU3LjMtMTI4IDEyOC0xMjhzMTI4IDU3LjMgMTI4IDEyOGwwIDIyNGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMjI0YzAtMTA2LTg2LTE5Mi0xOTItMTkyUzAgMTE4IDAgMjI0TDAgNDQ4YzAgMTcuNyAxNC4zIDMyIDMyIDMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSIiLz48L3N2Zz4=|width=32|height=32)
  */
 const Intersection: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M344 480C321.906 480 304 462.094 304 440V224C304 162.25 253.75 112 192 112S80 162.25 80 224V440C80 462.094 62.094 480 40 480S0 462.094 0 440V224C0 118.125 86.125 32 192 32S384 118.125 384 224V440C384 462.094 366.094 480 344 480Z" />
+        <path class={generic.secondary} d="M32 480c17.7 0 32-14.3 32-32l0-224c0-70.7 57.3-128 128-128s128 57.3 128 128l0 224c0 17.7 14.3 32 32 32s32-14.3 32-32l0-224c0-106-86-192-192-192S0 118 0 224L0 448c0 17.7 14.3 32 32 32z" />
     </Icon>
 );
 

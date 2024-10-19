@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `jira` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `jira` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jira?s=brands jira}
- * @preview ![jira](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00OTAgMjQxLjdDNDE3LjEgMTY5IDMyMC42IDcxLjggMjQ4LjUgMCA4MyAxNjQuOSA2IDI0MS43IDYgMjQxLjdjLTcuOSA3LjktNy45IDIwLjcgMCAyOC43QzEzOC44IDQwMi43IDY3LjggMzMxLjkgMjQ4LjUgNTEyYzM3OS40LTM3OCAxNS43LTE2LjcgMjQxLjUtMjQxLjcgOC03LjkgOC0yMC43IDAtMjguNnptLTI0MS41IDkwbC03Ni03NS43IDc2LTc1LjcgNzYgNzUuNy03NiA3NS43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![jira](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDkwIDI0MS43QzQxNy4xIDE2OSAzMjAuNiA3MS44IDI0OC41IDAgODMgMTY0LjkgNiAyNDEuNyA2IDI0MS43Yy03LjkgNy45LTcuOSAyMC43IDAgMjguN0MxMzguOCA0MDIuNyA2Ny44IDMzMS45IDI0OC41IDUxMmMzNzkuNC0zNzggMTUuNy0xNi43IDI0MS41LTI0MS43IDgtNy45IDgtMjAuNyAwLTI4LjZ6bS0yNDEuNSA5MGwtNzYtNzUuNyA3Ni03NS43IDc2IDc1LjctNzYgNzUuN3oiLz48L3N2Zz4=|width=32|height=32)
  */
 const Jira: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

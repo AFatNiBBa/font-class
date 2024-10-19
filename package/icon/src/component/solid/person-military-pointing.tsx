@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `person-military-pointing` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-military-pointing?s=solid person-military-pointing}
+ * @preview ![person-military-pointing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ2LjkgMTQuMUMyMzQgMTUuMiAyMjQgMjYgMjI0IDM5YzAgMTMuOCAxMS4yIDI1IDI1IDI1bDE1MSAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTMwLjZDNDE2IDggNDA4IC43IDM5OC43IDEuNEwyNDYuOSAxNC4xek0yNDAgMTEyYzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBjMC01LjUtLjYtMTAuOC0xLjYtMTZMMjQxLjYgOTZjLTEgNS4yLTEuNiAxMC41LTEuNiAxNnpNNzIgMjI0Yy0yMi4xIDAtNDAgMTcuOS00MCA0MHMxNy45IDQwIDQwIDQwbDE1MiAwIDAgODkuNEwzODYuOCAyMzAuNWMtMTMuMy00LjMtMjcuMy02LjUtNDEuNi02LjVMMjQwIDIyNCA3MiAyMjR6bTM0NS43IDIwLjlMMjQ2LjYgNDE2IDQxNiA0MTZsMC00Ni4zIDUzLjYgOTAuNmMxMS4yIDE5IDM1LjggMjUuMyA1NC44IDE0LjFzMjUuMy0zNS44IDE0LjEtNTQuOEw0NjIuMyAyOTAuOGMtMTEuMi0xOC45LTI2LjYtMzQuNS00NC42LTQ1Ljl6TTIyNCA0NDhsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxMjggMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTMyLTE5MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const PersonMilitaryPointing: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M246.9 14.1C234 15.2 224 26 224 39c0 13.8 11.2 25 25 25l151 0c8.8 0 16-7.2 16-16l0-30.6C416 8 408 .7 398.7 1.4L246.9 14.1zM240 112c0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16L241.6 96c-1 5.2-1.6 10.5-1.6 16zM72 224c-22.1 0-40 17.9-40 40s17.9 40 40 40l152 0 0 89.4L386.8 230.5c-13.3-4.3-27.3-6.5-41.6-6.5L240 224 72 224zm345.7 20.9L246.6 416 416 416l0-46.3 53.6 90.6c11.2 19 35.8 25.3 54.8 14.1s25.3-35.8 14.1-54.8L462.3 290.8c-11.2-18.9-26.6-34.5-44.6-45.9zM224 448l0 32c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-32-192 0z" />
+    </Icon>
+);
+
+export default PersonMilitaryPointing;

@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `phone-hangup` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/phone-hangup?s=sharp-duotone-solid phone-hangup}
+ * @preview ![phone-hangup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yMC4yIDI4NS41Yzc1LjUtMzQgMTM5LjYtNTEuOCAyMDMuOC01OS44YzAgMTAuOCAwIDIxLjUgMCAzMi4zYy01OS42IDcuOS0xMTkuNyAyNC44LTE5MC44IDU2LjhjLTQuMy05LjctOC43LTE5LjUtMTMtMjkuMnpNNDE2IDIyNS42YzY0LjIgOCAxMjguMyAyNS44IDIwMy44IDU5LjhjLTQuMyA5LjctOC43IDE5LjUtMTMgMjkuMmMtNzEuMi0zMi4xLTEzMS4yLTQ5LTE5MC44LTU2LjhsMC0zMi4zeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjAuMiAyODUuNUwwIDI0MEMzNy4zIDE5MiAxNTMuNiA5NiAzMjAgOTZzMjgyLjcgOTYgMzIwIDE0NGwtMjAuMiA0NS40Yy03NS41LTM0LTEzOS42LTUxLjgtMjAzLjgtNTkuOGwwLTEuNmMtNjIuMy0yMC44LTEyOS43LTIwLjgtMTkyIDBsMCAxLjZjLTY0LjIgOC0xMjguMyAyNS44LTIwMy44IDU5Ljh6bTEzIDI5LjJjNzEuMi0zMi4xIDEzMS4yLTQ5IDE5MC44LTU2LjhsMCA5NC4xTDY0IDM4NCAzMy4yIDMxNC43ek00MTYgMjU3LjljNTkuNiA3LjkgMTE5LjcgMjQuOCAxOTAuOCA1Ni44TDU3NiAzODQgNDE2IDM1MmwwLTk0LjF6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const PhoneHangup: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path class={generic.secondary} d="M20.2 285.5c75.5-34 139.6-51.8 203.8-59.8c0 10.8 0 21.5 0 32.3c-59.6 7.9-119.7 24.8-190.8 56.8c-4.3-9.7-8.7-19.5-13-29.2zM416 225.6c64.2 8 128.3 25.8 203.8 59.8c-4.3 9.7-8.7 19.5-13 29.2c-71.2-32.1-131.2-49-190.8-56.8l0-32.3z" />
+            <path d="M20.2 285.5L0 240C37.3 192 153.6 96 320 96s282.7 96 320 144l-20.2 45.4c-75.5-34-139.6-51.8-203.8-59.8l0-1.6c-62.3-20.8-129.7-20.8-192 0l0 1.6c-64.2 8-128.3 25.8-203.8 59.8zm13 29.2c71.2-32.1 131.2-49 190.8-56.8l0 94.1L64 384 33.2 314.7zM416 257.9c59.6 7.9 119.7 24.8 190.8 56.8L576 384 416 352l0-94.1z" />
+    </Icon>
+);
+
+export default PhoneHangup;

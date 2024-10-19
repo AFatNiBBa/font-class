@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `rugby-ball` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/rugby-ball?s=sharp-thin rugby-ball}
+ * @preview ![rugby-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI1LjQgMzJsMy43IDMuN0wyMzAuNSAxMTIuOGwtMS42IC42LTEuMiAxLjJMMTE0LjYgMjI3LjdsLTEuMiAxLjItLjYgMS42TDM1LjcgNDI5IDMyIDQyNS40IDMyIDMzNkMzMiAxNjguMSAxNjguMSAzMiAzMzYgMzJsODkuNCAwek03MC42IDQ2NEw0OCA0NDEuNGw3OS0yMDMuNkwyMzcuOCAxMjcuMSA0NDEuNCA0OCA0NjQgNzAuNmwtNzkgMjAzLjZMMjc0LjIgMzg0LjkgNzAuNiA0NjR6TTgzIDQ3Ni4zbDE5OC42LTc3LjEgMS42LS42IDEuMi0xLjJMMzk3LjQgMjg0LjNsMS4yLTEuMiAuNi0xLjZMNDc2LjMgODNsMy43IDMuNyAwIDg5LjRjMCAxNjcuOS0xMzYuMSAzMDQtMzA0IDMwNGwtODkuNCAwTDgzIDQ3Ni4zek00OTYgODBMNDMyIDE2bC05NiAwQzE1OS4zIDE2IDE2IDE1OS4zIDE2IDMzNmwwIDk2IDY0IDY0IDk2IDBjMTc2LjcgMCAzMjAtMTQzLjMgMzIwLTMyMGwwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const RugbyBall: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M425.4 32l3.7 3.7L230.5 112.8l-1.6 .6-1.2 1.2L114.6 227.7l-1.2 1.2-.6 1.6L35.7 429 32 425.4 32 336C32 168.1 168.1 32 336 32l89.4 0zM70.6 464L48 441.4l79-203.6L237.8 127.1 441.4 48 464 70.6l-79 203.6L274.2 384.9 70.6 464zM83 476.3l198.6-77.1 1.6-.6 1.2-1.2L397.4 284.3l1.2-1.2 .6-1.6L476.3 83l3.7 3.7 0 89.4c0 167.9-136.1 304-304 304l-89.4 0L83 476.3zM496 80L432 16l-96 0C159.3 16 16 159.3 16 336l0 96 64 64 96 0c176.7 0 320-143.3 320-320l0-96z" />
+    </Icon>
+);
+
+export default RugbyBall;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `cable-car` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/cable-car?s=sharp-regular cable-car}
+ * @preview ![cable-car](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDY0YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptLTY0LThhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHpNMTYwIDI3MmwwIDgwLTgwIDAgMC04MCA4MCAwem00OCAwbDk2IDAgMCA4MC05NiAwIDAtODB6bTE0NCAwbDgwIDAgMCA4MC04MCAwIDAtODB6bTgwIDEyOGwwIDY0TDgwIDQ2NGwwLTY0IDEwNCAwIDE0NCAwIDEwNCAwek04MCAyMjRsLTQ4IDAgMCA0OCAwIDE5MiAwIDQ4IDQ4IDAgMzUyIDAgNDggMCAwLTQ4IDAtMTkyIDAtNDgtNDggMC0xNTIgMCAwLTc2LjYgMjA1LTQzLjkgMjMuNS01TDQ5OC40IDUxLjVsLTIzLjUgNS0yMjQgNDgtMjI0IDQ4LTIzLjUgNSAxMC4xIDQ2LjkgMjMuNS01IDE5NS00MS44IDAgNjYuM0w4MCAyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const CableCar: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M288 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-64-8a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM160 272l0 80-80 0 0-80 80 0zm48 0l96 0 0 80-96 0 0-80zm144 0l80 0 0 80-80 0 0-80zm80 128l0 64L80 464l0-64 104 0 144 0 104 0zM80 224l-48 0 0 48 0 192 0 48 48 0 352 0 48 0 0-48 0-192 0-48-48 0-152 0 0-76.6 205-43.9 23.5-5L498.4 51.5l-23.5 5-224 48-224 48-23.5 5 10.1 46.9 23.5-5 195-41.8 0 66.3L80 224z" />
+    </Icon>
+);
+
+export default CableCar;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `toilets-portable` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/toilets-portable?s=sharp-light toilets-portable}
+ * @preview ![toilets-portable](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDE2IDAgMjQwIDBsMTYgMCAwIDE2IDAgMTkyIDAgMzIgMCA2NCAwIDMyIDAgMTYwIDAgMTYtMzIgMCAwLTE2IDAtMTZMMzIgNDgwbDAgMTYgMCAxNkwwIDUxMmwwLTE2TDAgMTYgMCAwek0yMjQgMzA0bDAtNjQtMzIgMCAwIDY0IDMyIDB6bTAtOTZsMC04MEwzMiAxMjhsMCAzMjAgMTkyIDAgMC0xMTItMzIgMC0zMiAwIDAtMzIgMC02NCAwLTMyIDMyIDAgMzIgMHptMC0xNzZMMzIgMzJsMCA2NCAxOTIgMCAwLTY0ek0zMjAgMGwxNiAwTDU2MCAwbDE2IDAgMCAxNiAwIDE5MiAwIDMyIDAgNjQgMCAzMiAwIDE2MCAwIDE2LTMyIDAgMC0xNiAwLTE2LTE5MiAwIDAgMTYgMCAxNi0zMiAwIDAtMTYgMC00ODAgMC0xNnpNNTQ0IDMwNGwwLTY0LTMyIDAgMCA2NCAzMiAwem0wLTk2bDAtODAtMTkyIDAgMCAzMjAgMTkyIDAgMC0xMTItMzIgMC0zMiAwIDAtMzIgMC02NCAwLTMyIDMyIDAgMzIgMHptMC0xNzZMMzUyIDMybDAgNjQgMTkyIDAgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ToiletsPortable: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M0 0L16 0 240 0l16 0 0 16 0 192 0 32 0 64 0 32 0 160 0 16-32 0 0-16 0-16L32 480l0 16 0 16L0 512l0-16L0 16 0 0zM224 304l0-64-32 0 0 64 32 0zm0-96l0-80L32 128l0 320 192 0 0-112-32 0-32 0 0-32 0-64 0-32 32 0 32 0zm0-176L32 32l0 64 192 0 0-64zM320 0l16 0L560 0l16 0 0 16 0 192 0 32 0 64 0 32 0 160 0 16-32 0 0-16 0-16-192 0 0 16 0 16-32 0 0-16 0-480 0-16zM544 304l0-64-32 0 0 64 32 0zm0-96l0-80-192 0 0 320 192 0 0-112-32 0-32 0 0-32 0-64 0-32 32 0 32 0zm0-176L352 32l0 64 192 0 0-64z" />
+    </Icon>
+);
+
+export default ToiletsPortable;

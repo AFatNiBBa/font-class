@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `uikit` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `uikit` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/uikit?s=brands uikit}
- * @preview ![uikit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NDMuOSAxMjh2MjU2TDIxOCA1MTIgMCAzODRWMTY5LjdsODcuNiA0NS4xdjExN2wxMzMuNSA3NS41IDEzNS44LTc1LjV2LTE1MWwtMTAxLjEtNTcuNiA4Ny42LTUzLjFMNDQzLjkgMTI4ek0zMDguNiA0OS4xTDIyMy44IDBsLTg4LjYgNTQuOCA4NiA0Ny4zIDg3LjQtNTN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![uikit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQzLjkgMTI4djI1NkwyMTggNTEyIDAgMzg0VjE2OS43bDg3LjYgNDUuMXYxMTdsMTMzLjUgNzUuNSAxMzUuOC03NS41di0xNTFsLTEwMS4xLTU3LjYgODcuNi01My4xTDQ0My45IDEyOHpNMzA4LjYgNDkuMUwyMjMuOCAwbC04OC42IDU0LjggODYgNDcuMyA4Ny40LTUzeiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Uikit: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

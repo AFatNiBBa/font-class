@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `ornament` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/ornament?s=sharp-regular ornament}
+ * @preview ![ornament](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0YzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMzIgNjQgMCAwLTMyek0xMjggOTZsMC0zMmMwLTM1LjMgMjguNy02NCA2NC02NHM2NCAyOC43IDY0IDY0bDAgMzIgMzIgMCAwIDU3LjdjNTcuNCAzMy4yIDk2IDk1LjIgOTYgMTY2LjNjMCAxMDYtODYgMTkyLTE5MiAxOTJTMCA0MjYgMCAzMjBjMC03MS4xIDM4LjYtMTMzLjEgOTYtMTY2LjNMOTYgOTZsMzIgMHpNODQuNyAyMjRsMjE0LjcgMEMyNzMgMTk0LjUgMjM0LjYgMTc2IDE5MiAxNzZzLTgxIDE4LjUtMTA3LjMgNDh6TTU2LjIgMjcyYy01LjMgMTUtOC4yIDMxLjItOC4yIDQ4czIuOSAzMyA4LjIgNDhsMjcxLjYgMGM1LjMtMTUgOC4yLTMxLjIgOC4yLTQ4cy0yLjktMzMtOC4yLTQ4TDU2LjIgMjcyek04NC43IDQxNmMyNi40IDI5LjUgNjQuNyA0OCAxMDcuMyA0OHM4MS0xOC41IDEwNy4zLTQ4TDg0LjcgNDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Ornament: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32 64 0 0-32zM128 96l0-32c0-35.3 28.7-64 64-64s64 28.7 64 64l0 32 32 0 0 57.7c57.4 33.2 96 95.2 96 166.3c0 106-86 192-192 192S0 426 0 320c0-71.1 38.6-133.1 96-166.3L96 96l32 0zM84.7 224l214.7 0C273 194.5 234.6 176 192 176s-81 18.5-107.3 48zM56.2 272c-5.3 15-8.2 31.2-8.2 48s2.9 33 8.2 48l271.6 0c5.3-15 8.2-31.2 8.2-48s-2.9-33-8.2-48L56.2 272zM84.7 416c26.4 29.5 64.7 48 107.3 48s81-18.5 107.3-48L84.7 416z" />
+    </Icon>
+);
+
+export default Ornament;

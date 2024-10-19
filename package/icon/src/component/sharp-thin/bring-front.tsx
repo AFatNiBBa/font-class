@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `bring-front` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/bring-front?s=sharp-thin bring-front}
+ * @preview ![bring-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMjI0IDAgMCA0OCAxNiAwIDAtNDggMC0xNkwyNDAgMCAxNiAwIDAgMCAwIDE2IDAgMjQwbDAgMTYgMTYgMCAxMTIgMCAwLTE2TDE2IDI0MCAxNiAxNnpNMzg0IDQ5NmwwIDE2IDE2IDAgMjI0IDAgMTYgMCAwLTE2IDAtMjI0IDAtMTYtMTYgMC0xMTIgMCAwIDE2IDExMiAwIDAgMjI0LTIyNCAwIDAtNDgtMTYgMCAwIDQ4em04MC0zODRsMCAyODgtMjg4IDAgMC0yODggMjg4IDB6TTE3NiA5NmwtMTYgMCAwIDE2IDAgMjg4IDAgMTYgMTYgMCAyODggMCAxNiAwIDAtMTYgMC0yODggMC0xNi0xNiAwTDE3NiA5NnptNjQgODBsMTYwIDAgMCAxNjAtMTYwIDAgMC0xNjB6bS0xNi0xNmwwIDE2IDAgMTYwIDAgMTYgMTYgMCAxNjAgMCAxNiAwIDAtMTYgMC0xNjAgMC0xNi0xNiAwLTE2MCAwLTE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const BringFront: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M16 16l224 0 0 48 16 0 0-48 0-16L240 0 16 0 0 0 0 16 0 240l0 16 16 0 112 0 0-16L16 240 16 16zM384 496l0 16 16 0 224 0 16 0 0-16 0-224 0-16-16 0-112 0 0 16 112 0 0 224-224 0 0-48-16 0 0 48zm80-384l0 288-288 0 0-288 288 0zM176 96l-16 0 0 16 0 288 0 16 16 0 288 0 16 0 0-16 0-288 0-16-16 0L176 96zm64 80l160 0 0 160-160 0 0-160zm-16-16l0 16 0 160 0 16 16 0 160 0 16 0 0-16 0-160 0-16-16 0-160 0-16 0z" />
+    </Icon>
+);
+
+export default BringFront;

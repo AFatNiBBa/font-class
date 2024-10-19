@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `box-circle-check` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/box-circle-check?s=sharp-light box-circle-check}
+ * @preview ![box-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIuMSAxNjBMODQuOCA2NCAyMDggNjRsMCA5Nkw0Mi4xIDE2MHpNMjA4IDE5MmwzMiAwIDExMiAwIDY0IDAgMTYgMCAxNiAwIDAtMTZMMzg0IDMyIDY0IDMyIDAgMTc2IDAgNDQ4bDAgMzIgMzIgMCAyNjQuMiAwYy04LjEtOS44LTE1LjItMjAuNi0yMS0zMkwzMiA0NDhsMC0yNTYgMTc2IDB6TTM2My4yIDY0bDQyLjcgOTZMMjQwIDE2MGwwLTk2IDEyMy4yIDB6TTQzMiAyNTZhMTEyIDExMiAwIDEgMSAwIDIyNCAxMTIgMTEyIDAgMSAxIDAtMjI0em0wIDI1NmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6bTc4LjYtMTc2TDQ4OCAzMTMuNGwtMTEuMyAxMS4zTDQxNiAzODUuNGwtMjguNy0yOC43TDM3NiAzNDUuNCAzNTMuNCAzNjhsMTEuMyAxMS4zIDQwIDQwTDQxNiA0MzAuNmwxMS4zLTExLjMgNzItNzJMNTEwLjYgMzM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const BoxCircleCheck: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M42.1 160L84.8 64 208 64l0 96L42.1 160zM208 192l32 0 112 0 64 0 16 0 16 0 0-16L384 32 64 32 0 176 0 448l0 32 32 0 264.2 0c-8.1-9.8-15.2-20.6-21-32L32 448l0-256 176 0zM363.2 64l42.7 96L240 160l0-96 123.2 0zM432 256a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm78.6-176L488 313.4l-11.3 11.3L416 385.4l-28.7-28.7L376 345.4 353.4 368l11.3 11.3 40 40L416 430.6l11.3-11.3 72-72L510.6 336z" />
+    </Icon>
+);
+
+export default BoxCircleCheck;

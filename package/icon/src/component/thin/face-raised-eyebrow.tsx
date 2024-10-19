@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `face-raised-eyebrow` icon from the `thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/face-raised-eyebrow?s=thin face-raised-eyebrow}
+ * @preview ![face-raised-eyebrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDEgMCA0ODAgMjQwIDI0MCAwIDEgMSAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xOTIuNCAyNDBhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptMTQ0IDE2YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnptMzYtMTE1bDQuOSA3LjRjMi41IDMuNyA3LjQgNC43IDExLjEgMi4yczQuNy03LjQgMi4yLTExLjFsLTQuOS03LjRjLTE2LjgtMjUuMi01Mi41LTI4LjctNzMuOS03LjNsLTI5LjUgMjkuNWMtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMGwyOS41LTI5LjVjMTQuMy0xNC4zIDM4LjEtMTEuOSA0OS4zIDQuOXpNMTIwIDE2MGMwIDQuNCAzLjYgOCA4IDhsNjQgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtNjQgMGMtNC40IDAtOCAzLjYtOCA4em00OCAxODRjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMTc2IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTE3NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const FaceRaisedEyebrow: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM192.4 240a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm144 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm36-115l4.9 7.4c2.5 3.7 7.4 4.7 11.1 2.2s4.7-7.4 2.2-11.1l-4.9-7.4c-16.8-25.2-52.5-28.7-73.9-7.3l-29.5 29.5c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l29.5-29.5c14.3-14.3 38.1-11.9 49.3 4.9zM120 160c0 4.4 3.6 8 8 8l64 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-64 0c-4.4 0-8 3.6-8 8zm48 184c-4.4 0-8 3.6-8 8s3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-176 0z" />
+    </Icon>
+);
+
+export default FaceRaisedEyebrow;

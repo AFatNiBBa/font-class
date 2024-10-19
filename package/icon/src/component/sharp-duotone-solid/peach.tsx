@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `peach` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/peach?s=sharp-duotone-solid peach}
+ * @preview ![peach](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI4MEMwIDQzMiAyNTYgNTEyIDI1NiA1MTJzMjU2LTgwIDI1Ni0yMzJjMC05Mi44LTc1LjItMTY4LTE2OC0xNjhjLTE5LjEgMC0zNy41IDMuMi01NC42IDkuMUMzMzcuMiAxNTcuNiAzNjggMjE1LjIgMzY4IDI4MGwtMzIgMGMwLTYwLjUtMzItMTEzLjYtODAtMTQzLjFjLS4zLS4yLS42LS40LS45LS41QzIyOS43IDEyMC45IDE5OS45IDExMiAxNjggMTEyQzc1LjIgMTEyIDAgMTg3LjIgMCAyODB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zNzMuNiA4Mi4yQzM2My45IDgwLjcgMzU0IDgwIDM0NCA4MGMtMzEuNSAwLTYxLjQgNy4zLTg4IDIwLjRDMjI5LjQgODcuMyAxOTkuNSA4MCAxNjggODBjLTEwIDAtMTkuOSAuNy0yOS42IDIuMkMxMjIuMSA2NC45IDExMiA0MS42IDExMiAxNmwwLTE2IDE2IDAgMzIgMGM1MyAwIDk2IDQzIDk2IDk2YzAtNTMgNDMtOTYgOTYtOTZsMzIgMCAxNiAwIDAgMTZjMCAyNS42LTEwLjEgNDguOS0yNi40IDY2LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Peach: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M0 280C0 432 256 512 256 512s256-80 256-232c0-92.8-75.2-168-168-168c-19.1 0-37.5 3.2-54.6 9.1C337.2 157.6 368 215.2 368 280l-32 0c0-60.5-32-113.6-80-143.1c-.3-.2-.6-.4-.9-.5C229.7 120.9 199.9 112 168 112C75.2 112 0 187.2 0 280z" />
+            <path d="M373.6 82.2C363.9 80.7 354 80 344 80c-31.5 0-61.4 7.3-88 20.4C229.4 87.3 199.5 80 168 80c-10 0-19.9 .7-29.6 2.2C122.1 64.9 112 41.6 112 16l0-16 16 0 32 0c53 0 96 43 96 96c0-53 43-96 96-96l32 0 16 0 0 16c0 25.6-10.1 48.9-26.4 66.2z" />
+    </Icon>
+);
+
+export default Peach;

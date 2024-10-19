@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `viacoin` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `viacoin` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/viacoin?s=brands viacoin}
- * @preview ![viacoin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zODQgMzJoLTY0bC04MC43IDE5MmgtOTQuNUw2NCAzMkgwbDQ4IDExMkgwdjQ4aDY4LjVsMTMuOCAzMkgwdjQ4aDEwMi44TDE5MiA0ODBsODkuMi0yMDhIMzg0di00OGgtODIuM2wxMy44LTMySDM4NHYtNDhoLTQ4bDQ4LTExMnpNMTkyIDMzNmwtMjctNjRoNTRsLTI3IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![viacoin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMyaC02NGwtODAuNyAxOTJoLTk0LjVMNjQgMzJIMGw0OCAxMTJIMHY0OGg2OC41bDEzLjggMzJIMHY0OGgxMDIuOEwxOTIgNDgwbDg5LjItMjA4SDM4NHYtNDhoLTgyLjNsMTMuOC0zMkgzODR2LTQ4aC00OGw0OC0xMTJ6TTE5MiAzMzZsLTI3LTY0aDU0bC0yNyA2NHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const Viacoin: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

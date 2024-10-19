@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `gratipay` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `gratipay` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gratipay?s=brands gratipay}
- * @preview ![gratipay](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNDggOEMxMTEuMSA4IDAgMTE5LjEgMCAyNTZzMTExLjEgMjQ4IDI0OCAyNDggMjQ4LTExMS4xIDI0OC0yNDhTMzg0LjkgOCAyNDggOHptMTE0LjYgMjI2LjRsLTExMyAxNTIuNy0xMTIuNy0xNTIuN2MtOC43LTExLjktMTkuMS01MC40IDEzLjYtNzIgMjguMS0xOC4xIDU0LjYtNC4yIDY4LjUgMTEuOSAxNS45IDE3LjkgNDYuNiAxNi45IDYxLjcgMCAxMy45LTE2LjEgNDAuNC0zMCA2OC4xLTExLjkgMzIuOSAyMS42IDIyLjYgNjAgMTMuOCA3MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gratipay](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDhDMTExLjEgOCAwIDExOS4xIDAgMjU2czExMS4xIDI0OCAyNDggMjQ4IDI0OC0xMTEuMSAyNDgtMjQ4UzM4NC45IDggMjQ4IDh6bTExNC42IDIyNi40bC0xMTMgMTUyLjctMTEyLjctMTUyLjdjLTguNy0xMS45LTE5LjEtNTAuNCAxMy42LTcyIDI4LjEtMTguMSA1NC42LTQuMiA2OC41IDExLjkgMTUuOSAxNy45IDQ2LjYgMTYuOSA2MS43IDAgMTMuOS0xNi4xIDQwLjQtMzAgNjguMS0xMS45IDMyLjkgMjEuNiAyMi42IDYwIDEzLjggNzJ6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Gratipay: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

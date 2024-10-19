@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `eye-dropper-half` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/eye-dropper-half?s=sharp-regular eye-dropper-half}
+ * @preview ![eye-dropper-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDE3Ny45bC05LTktOC04LTE3LTE3TDIwOCAxMTAuMWwxNyAxNyA4IDggMzMuOS0zMy45IDcxLjMtNzEuM2MxOS4xLTE5LjEgNDUtMjkuOCA3Mi0yOS44QzQ2Ni40IDAgNTEyIDQ1LjYgNTEyIDEwMS44YzAgMjctMTAuNyA1Mi45LTI5LjggNzJsLTcxLjMgNzEuM0wzNzcgMjc5bDggOCAxNyAxN0wzNjggMzM3LjlsLTE3LTE3LTgtOC05LTktMjUtMjVMMjMzIDIwMi45bC0yNS0yNXpNMzcyLjEgNjMuOEwyNjYuOSAxNjkgMzQzIDI0NS4xIDQ0OC4yIDEzOS45YzEwLjEtMTAuMSAxNS44LTIzLjggMTUuOC0zOC4xQzQ2NCA3Mi4xIDQzOS45IDQ4IDQxMC4yIDQ4Yy0xNC4zIDAtMjggNS43LTM4LjEgMTUuOHpNMTgwLjQgMTk1LjZsMzMuOSAzMy45TDEyMy45IDMyMGwxMzYuMiAwIDIyLjMtMjIuMyAzMy45IDMzLjlMMTY4IDQ4MGwtODggMEw0MCA1MTIgMCA0NzJsMzItNDAgMC04OEwxODAuNCAxOTUuNnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const EyeDropperHalf: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M208 177.9l-9-9-8-8-17-17L208 110.1l17 17 8 8 33.9-33.9 71.3-71.3c19.1-19.1 45-29.8 72-29.8C466.4 0 512 45.6 512 101.8c0 27-10.7 52.9-29.8 72l-71.3 71.3L377 279l8 8 17 17L368 337.9l-17-17-8-8-9-9-25-25L233 202.9l-25-25zM372.1 63.8L266.9 169 343 245.1 448.2 139.9c10.1-10.1 15.8-23.8 15.8-38.1C464 72.1 439.9 48 410.2 48c-14.3 0-28 5.7-38.1 15.8zM180.4 195.6l33.9 33.9L123.9 320l136.2 0 22.3-22.3 33.9 33.9L168 480l-88 0L40 512 0 472l32-40 0-88L180.4 195.6z" />
+    </Icon>
+);
+
+export default EyeDropperHalf;

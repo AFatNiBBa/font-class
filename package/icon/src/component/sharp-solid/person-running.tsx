@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `person-running` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-running?s=sharp-solid person-running}
+ * @preview ![person-running](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnpNMTI4IDk2bC0xMy4zIDAtOS40IDkuNC00OCA0OEwzNC43IDE3NiA4MCAyMjEuM2wyMi42LTIyLjZMMTQxLjMgMTYwbDI3LjcgMC0zMS4zIDk0Yy05LjMgMjggMS43IDU4LjggMjYuOCA3NC41bDg2LjIgNTMuOS05LjQgMzIuOC0xNiA1NkwyMTMuNiA1MTJsNjYuNiAwIDYuNi0yMy4yIDE2LTU2IDE2LTU2IDYuNi0yMy4yTDMwNSAzNDAuOSAyMzggMjk5bDI5LTc3LjQgMjQuMyA0OC42IDguOCAxNy43IDE5LjggMCA0OCAwIDMyIDAgMC02NC0zMiAwLTI4LjIgMC0zOS4yLTc4LjMtNS40LTEwLjktMTEuMy00LjUtODAtMzJMMTk4LjIgOTYgMTkyIDk2bC02NCAwek0xMDkuNSAzMTAuN0w5MS4yIDM1MiAzMiAzNTIgMCAzNTJsMCA2NCAzMiAwIDgwIDAgMjAuOCAwIDguNC0xOUwxNTcgMzYxLjZsLTkuNS02Yy0xNy41LTEwLjktMzAuNS0yNi44LTM3LjktNDQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const PersonRunning: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M272 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM128 96l-13.3 0-9.4 9.4-48 48L34.7 176 80 221.3l22.6-22.6L141.3 160l27.7 0-31.3 94c-9.3 28 1.7 58.8 26.8 74.5l86.2 53.9-9.4 32.8-16 56L213.6 512l66.6 0 6.6-23.2 16-56 16-56 6.6-23.2L305 340.9 238 299l29-77.4 24.3 48.6 8.8 17.7 19.8 0 48 0 32 0 0-64-32 0-28.2 0-39.2-78.3-5.4-10.9-11.3-4.5-80-32L198.2 96 192 96l-64 0zM109.5 310.7L91.2 352 32 352 0 352l0 64 32 0 80 0 20.8 0 8.4-19L157 361.6l-9.5-6c-17.5-10.9-30.5-26.8-37.9-44.9z" />
+    </Icon>
+);
+
+export default PersonRunning;

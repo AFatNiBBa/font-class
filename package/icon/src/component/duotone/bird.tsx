@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `bird` icon from the `duotone` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/bird?s=duotone bird}
+ * @preview ![bird](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNjIuMSA0MDcuNGMxOC43IDUuNCAzOC41IDguNCA1OC45IDguNmwzMi4yIDYwLjhjNi4yIDExLjcgMS43IDI2LjItMTAgMzIuNHMtMjYuMiAxLjctMzIuNC0xMGwtNDguNi05MS45em05OSA1LjZjMTYuNC0yLjcgMzIuMi03LjMgNDcuMi0xMy40bDQwLjkgNzcuMmM2LjIgMTEuNyAxLjcgMjYuMi0xMCAzMi40cy0yNi4yIDEuNy0zMi40LTEwbC00NS43LTg2LjN6TTQ0Ni42IDc5LjdsNTcuNiAzNC42YzQuOCAyLjkgNy44IDguMSA3LjggMTMuN3MtMi45IDEwLjgtNy44IDEzLjdMNDQ4IDE3NS41IDQ0OCA5NmMwLTUuNi0uNS0xMS0xLjQtMTYuM3oiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTAgMTg4LjRMMCAxOTJDMCAzMTUuNyAxMDAuMyA0MTYgMjI0IDQxNnMyMjQtMTAwLjMgMjI0LTIyNGwwLTk2YzAtNTMtNDMtOTYtOTYtOTZzLTk2IDQzLTk2IDk2bDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJMMjguNCAxNjBDMTIuNyAxNjAgMCAxNzIuNyAwIDE4OC40ek0zNTIgOTZhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Bird: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M162.1 407.4c18.7 5.4 38.5 8.4 58.9 8.6l32.2 60.8c6.2 11.7 1.7 26.2-10 32.4s-26.2 1.7-32.4-10l-48.6-91.9zm99 5.6c16.4-2.7 32.2-7.3 47.2-13.4l40.9 77.2c6.2 11.7 1.7 26.2-10 32.4s-26.2 1.7-32.4-10l-45.7-86.3zM446.6 79.7l57.6 34.6c4.8 2.9 7.8 8.1 7.8 13.7s-2.9 10.8-7.8 13.7L448 175.5 448 96c0-5.6-.5-11-1.4-16.3z" />
+            <path d="M0 188.4L0 192C0 315.7 100.3 416 224 416s224-100.3 224-224l0-96c0-53-43-96-96-96s-96 43-96 96l0 32c0 17.7-14.3 32-32 32L28.4 160C12.7 160 0 172.7 0 188.4zM352 96a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+    </Icon>
+);
+
+export default Bird;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `castle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/castle?s=sharp-regular castle}
+ * @preview ![castle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDI0bDAtMjRMMTI4IDBsMCAyNCAwIDIwMC04MCAwIDAtNDAgMC0yNEwwIDE2MGwwIDI0TDAgNDg4bDAgMjQgMjQgMCA1OTIgMCAyNCAwIDAtMjQgMC0zMDQgMC0yNC00OCAwIDAgMjQgMCA0MC04MCAwIDAtMjAwIDAtMjRMNDY0IDBsMCAyNCAwIDQwLTY0IDAgMC00MCAwLTI0TDM1MiAwbDAgMjQgMCA0MC02NCAwIDAtNDAgMC0yNEwyNDAgMGwwIDI0IDAgNDAtNjQgMCAwLTQwem0wIDg4bDI4OCAwIDAgMTEyLTI4OCAwIDAtMTEyek00OCAyNzJsNTQ0IDAgMCAxOTItMjA4IDAgMC04MGMwLTM1LjMtMjguNy02NC02NC02NHMtNjQgMjguNy02NCA2NGwwIDgwTDQ4IDQ2NGwwLTE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Castle: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M176 24l0-24L128 0l0 24 0 200-80 0 0-40 0-24L0 160l0 24L0 488l0 24 24 0 592 0 24 0 0-24 0-304 0-24-48 0 0 24 0 40-80 0 0-200 0-24L464 0l0 24 0 40-64 0 0-40 0-24L352 0l0 24 0 40-64 0 0-40 0-24L240 0l0 24 0 40-64 0 0-40zm0 88l288 0 0 112-288 0 0-112zM48 272l544 0 0 192-208 0 0-80c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 80L48 464l0-192z" />
+    </Icon>
+);
+
+export default Castle;

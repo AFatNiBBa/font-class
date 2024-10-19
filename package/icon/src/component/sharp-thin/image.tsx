@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `image` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/image?s=sharp-thin image}
+ * @preview ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCAzMDguN0wxMjIuMyAyNTAuM2w1LjctNS43IDUuNyA1LjdMMjI0IDM0MC43IDM3OC4zIDE4Ni4zbDUuNy01LjcgNS43IDUuN0w0OTYgMjkyLjcgNDk2IDQ4IDE2IDQ4em0wIDMzMS4zTDE2IDQ2NGw4NC43IDAgMTEyLTExMkwxMjggMjY3LjMgMTYgMzc5LjN6bTM2OC0xNzZMMTIzLjMgNDY0IDQ5NiA0NjRsMC0xNDguNy0xMTItMTEyek0wIDMybDE2IDAgNDgwIDAgMTYgMCAwIDE2IDAgNDE2IDAgMTYtMTYgMEwxNiA0ODAgMCA0ODBsMC0xNkwwIDQ4IDAgMzJ6TTE2OCAxNjBhNDAgNDAgMCAxIDAgLTgwIDAgNDAgNDAgMCAxIDAgODAgMHptLTk2IDBhNTYgNTYgMCAxIDEgMTEyIDBBNTYgNTYgMCAxIDEgNzIgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Image: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M16 48l0 308.7L122.3 250.3l5.7-5.7 5.7 5.7L224 340.7 378.3 186.3l5.7-5.7 5.7 5.7L496 292.7 496 48 16 48zm0 331.3L16 464l84.7 0 112-112L128 267.3 16 379.3zm368-176L123.3 464 496 464l0-148.7-112-112zM0 32l16 0 480 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM168 160a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm-96 0a56 56 0 1 1 112 0A56 56 0 1 1 72 160z" />
+    </Icon>
+);
+
+export default Image;

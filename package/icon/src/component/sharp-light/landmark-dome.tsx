@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `landmark-dome` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/landmark-dome?s=sharp-light landmark-dome}
+ * @preview ![landmark-dome](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDBsMCAxNiAwIDE2LjdjODcuOSA3LjIgMTU5IDczLjcgMTczLjMgMTU5LjNsMTguNyAwIDE2IDAgMCAzMi0xNiAwLTE2IDAtMzIgMEw5NiAyMjRsLTMyIDAtMTYgMC0xNiAwIDAtMzIgMTYgMCAxOC43IDBDODEgMTA2LjMgMTUyLjEgMzkuOSAyNDAgMzIuN0wyNDAgMTZsMC0xNiAzMiAwek05OS4yIDE5MmwzMTMuNiAwQzM5OCAxMTkgMzMzLjQgNjQgMjU2IDY0cy0xNDIgNTUtMTU2LjggMTI4ek02NCAzNTJsMC05NiAzMiAwIDAgOTYgODAgMCAwLTk2IDMyIDAgMCA5NiA5NiAwIDAtOTYgMzIgMCAwIDk2IDgwIDAgMC05NiAzMiAwIDAgOTYgMTYgMCAwIDMyLTE2IDBMNjQgMzg0bC0xNiAwIDAtMzIgMTYgMHpNMjQgNDQ4bDAtMzIgMTYgMCA0MzIgMCAxNiAwIDAgMzItMTYgMEw0MCA0NDhsLTE2IDB6TTAgNDgwbDE2IDAgNDgwIDAgMTYgMCAwIDMyLTE2IDBMMTYgNTEyIDAgNTEybDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const LandmarkDome: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M272 0l0 16 0 16.7c87.9 7.2 159 73.7 173.3 159.3l18.7 0 16 0 0 32-16 0-16 0-32 0L96 224l-32 0-16 0-16 0 0-32 16 0 18.7 0C81 106.3 152.1 39.9 240 32.7L240 16l0-16 32 0zM99.2 192l313.6 0C398 119 333.4 64 256 64s-142 55-156.8 128zM64 352l0-96 32 0 0 96 80 0 0-96 32 0 0 96 96 0 0-96 32 0 0 96 80 0 0-96 32 0 0 96 16 0 0 32-16 0L64 384l-16 0 0-32 16 0zM24 448l0-32 16 0 432 0 16 0 0 32-16 0L40 448l-16 0zM0 480l16 0 480 0 16 0 0 32-16 0L16 512 0 512l0-32z" />
+    </Icon>
+);
+
+export default LandmarkDome;

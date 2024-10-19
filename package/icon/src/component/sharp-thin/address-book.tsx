@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `address-book` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/address-book?s=sharp-thin address-book}
+ * @preview ![address-book](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTZsMCA0ODAgMzg0IDAgMC00ODBMNDggMTZ6TTMyIDBMNDggMCA0MzIgMGwxNiAwIDAgMTYgMCA0ODAgMCAxNi0xNiAwTDQ4IDUxMmwtMTYgMCAwLTE2TDMyIDE2IDMyIDB6TTUwNCA4MGwwIDY0IDAgOC0xNiAwIDAtOCAwLTY0IDAtOCAxNiAwIDAgOHptMCAxMjBsMCA4IDAgNjQgMCA4LTE2IDAgMC04IDAtNjQgMC04IDE2IDB6bTAgMTM2bDAgNjQgMCA4LTE2IDAgMC04IDAtNjQgMC04IDE2IDAgMCA4ek0xNTAuMiAzNjhsLTE2LjkgMEwxNjAgMjg4bDE2MCAwIDI2LjcgODAtMTYuOSAwLTIxLjMtNjQtMTM2LjkgMC0yMS4zIDY0ek0yODggMTkyYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6bS0xMTIgMGE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const AddressBook: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M48 16l0 480 384 0 0-480L48 16zM32 0L48 0 432 0l16 0 0 16 0 480 0 16-16 0L48 512l-16 0 0-16L32 16 32 0zM504 80l0 64 0 8-16 0 0-8 0-64 0-8 16 0 0 8zm0 120l0 8 0 64 0 8-16 0 0-8 0-64 0-8 16 0zm0 136l0 64 0 8-16 0 0-8 0-64 0-8 16 0 0 8zM150.2 368l-16.9 0L160 288l160 0 26.7 80-16.9 0-21.3-64-136.9 0-21.3 64zM288 192a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-112 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
+    </Icon>
+);
+
+export default AddressBook;

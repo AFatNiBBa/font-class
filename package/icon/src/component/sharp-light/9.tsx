@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `9` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/9?s=sharp-light 9}
+ * @preview ![9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE5LjIgNDgwTDI3OC44IDMwMC41YzI1LjMtMjguNCAzOS44LTY0LjcgNDEuMS0xMDIuNmMuMS0yIC4xLTMuOSAuMS01LjljMC04OC40LTcxLjYtMTYwLTE2MC0xNjBTMCAxMDMuNiAwIDE5MnM3MS42IDE2MCAxNjAgMTYwYzExLjQgMCAyMi41LTEuMiAzMy4yLTMuNUw3Ni40IDQ4MGw0Mi44IDB6TTE2MCA2NGM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOGMwIDEgMCAyIDAgMy4xQzI4Ni4zIDI2NC4zIDIyOS43IDMyMCAxNjAgMzIwQzg5LjMgMzIwIDMyIDI2Mi43IDMyIDE5MlM4OS4zIDY0IDE2MCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const $9: typeof Icon = x => (
+    <Icon viewBox="0 0 320 512" {...x}>
+        <path d="M119.2 480L278.8 300.5c25.3-28.4 39.8-64.7 41.1-102.6c.1-2 .1-3.9 .1-5.9c0-88.4-71.6-160-160-160S0 103.6 0 192s71.6 160 160 160c11.4 0 22.5-1.2 33.2-3.5L76.4 480l42.8 0zM160 64c70.7 0 128 57.3 128 128c0 1 0 2 0 3.1C286.3 264.3 229.7 320 160 320C89.3 320 32 262.7 32 192S89.3 64 160 64z" />
+    </Icon>
+);
+
+export default $9;

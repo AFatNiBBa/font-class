@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `table-picnic` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/table-picnic?s=light table-picnic}
+ * @preview ![table-picnic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkxLjYgNjRMODAgNjRjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsODguMiAwTDExNS44IDIyNCAxNiAyMjRjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsODYuNyAwIDM0LjYgMCAyMzcuNCAwIDM0LjYgMCA4Ni43IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTk5LjggMEwzNDMuOCA5NiA0MzIgOTZjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMMzIwLjQgNjRjLS4yIDAtLjUgMC0uNyAwTDE5Mi40IDY0Yy0uMiAwLS41IDAtLjcgMHpNMzA5LjMgOTZsNTIuNCAxMjgtMjExLjIgMEwyMDIuNyA5NmwxMDYuNSAwek04OS42IDI4OEwzMy4yIDQyNS45Yy0zLjMgOC4yIC42IDE3LjUgOC44IDIwLjlzMTcuNS0uNiAyMC45LTguOEwxMjQuMiAyODhsLTM0LjYgMHptMzMyLjggMGwtMzQuNiAwIDYxLjQgMTUwLjFjMy4zIDguMiAxMi43IDEyLjEgMjAuOSA4LjhzMTIuMS0xMi43IDguOC0yMC45TDQyMi40IDI4OHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const TablePicnic: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M191.6 64L80 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l88.2 0L115.8 224 16 224c-8.8 0-16 7.2-16 16s7.2 16 16 16l86.7 0 34.6 0 237.4 0 34.6 0 86.7 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-99.8 0L343.8 96 432 96c8.8 0 16-7.2 16-16s-7.2-16-16-16L320.4 64c-.2 0-.5 0-.7 0L192.4 64c-.2 0-.5 0-.7 0zM309.3 96l52.4 128-211.2 0L202.7 96l106.5 0zM89.6 288L33.2 425.9c-3.3 8.2 .6 17.5 8.8 20.9s17.5-.6 20.9-8.8L124.2 288l-34.6 0zm332.8 0l-34.6 0 61.4 150.1c3.3 8.2 12.7 12.1 20.9 8.8s12.1-12.7 8.8-20.9L422.4 288z" />
+    </Icon>
+);
+
+export default TablePicnic;

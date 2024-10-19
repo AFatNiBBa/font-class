@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `thumbtack` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/thumbtack?s=sharp-thin thumbtack}
+ * @preview ![thumbtack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk1LjQgMjAxLjFsNiA0LjNjMjMuNiAxNy4yIDQwLjQgMzkuNyA1MS4zIDYwLjVDMzYzLjkgMjg3LjIgMzY4IDMwNSAzNjggMzEybDAgMjQtMTY4IDAgMC0xMDQgMC04LTE2IDAgMCA4IDAgMTA0TDE2IDMzNmwwLTI0czAgMCAwIDBjMC05LjQgNC4zLTI4IDE1LjMtNDljMTAuOS0yMC43IDI3LjYtNDIuNCA1MS4yLTU4LjlsNi4yLTQuMyAuNi03LjVMMTAyLjggMTZsMTc4LjQgMCAxMy43IDE3Ny43IC42IDcuM3pNMjAwIDM1MmwxNjggMCAxNiAwIDAtMTYgMC0yNGMwLTIxLjMtMjEuMy04MS42LTczLjItMTE5LjVMMjk3LjIgMTYgMzM2IDE2bDggMCAwLTE2LTggMEwyOTYgMCA4OCAwIDQ4IDAgNDAgMGwwIDE2IDggMCAzOC44IDBMNzMuMyAxOTFDMjEuMyAyMjcuNSAwIDI4Ni40IDAgMzEybDAgMjQgMCAxNiAxNiAwIDE2OCAwIDAgMTUyIDAgOCAxNiAwIDAtOCAwLTE1MnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Thumbtack: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M295.4 201.1l6 4.3c23.6 17.2 40.4 39.7 51.3 60.5C363.9 287.2 368 305 368 312l0 24-168 0 0-104 0-8-16 0 0 8 0 104L16 336l0-24s0 0 0 0c0-9.4 4.3-28 15.3-49c10.9-20.7 27.6-42.4 51.2-58.9l6.2-4.3 .6-7.5L102.8 16l178.4 0 13.7 177.7 .6 7.3zM200 352l168 0 16 0 0-16 0-24c0-21.3-21.3-81.6-73.2-119.5L297.2 16 336 16l8 0 0-16-8 0L296 0 88 0 48 0 40 0l0 16 8 0 38.8 0L73.3 191C21.3 227.5 0 286.4 0 312l0 24 0 16 16 0 168 0 0 152 0 8 16 0 0-8 0-152z" />
+    </Icon>
+);
+
+export default Thumbtack;

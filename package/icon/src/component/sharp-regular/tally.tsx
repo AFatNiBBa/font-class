@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `tally` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/tally?s=sharp-regular tally}
+ * @preview ![tally](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDQwbDAgMjQgMCAyMjIuN0wyMzIgMjYwbDAtMTk2IDAtMjQgNDggMCAwIDI0IDAgMTgwIDgwLTI2LjdMMzYwIDY0bDAtMjQgNDggMCAwIDI0IDAgMTM3LjQgODAtMjYuN0w0ODggNjRsMC0yNCA0OCAwIDAgMjQgMCA5NC43IDY0LjQtMjEuNSAyMi44LTcuNiAxNS4yIDQ1LjUtMjIuOCA3LjZMNTM2IDIwOS4zIDUzNiA0NDhsMCAyNC00OCAwIDAtMjQgMC0yMjIuN0w0MDggMjUybDAgMTk2IDAgMjQtNDggMCAwLTI0IDAtMTgwLTgwIDI2LjdMMjgwIDQ0OGwwIDI0LTQ4IDAgMC0yNCAwLTEzNy40LTgwIDI2LjdMMTUyIDQ0OGwwIDI0LTQ4IDAgMC0yNCAwLTk0LjdMMzkuNiAzNzQuOGwtMjIuOCA3LjZMMS42IDMzNi44bDIyLjgtNy42TDEwNCAzMDIuNyAxMDQgNjRsMC0yNCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Tally: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M152 40l0 24 0 222.7L232 260l0-196 0-24 48 0 0 24 0 180 80-26.7L360 64l0-24 48 0 0 24 0 137.4 80-26.7L488 64l0-24 48 0 0 24 0 94.7 64.4-21.5 22.8-7.6 15.2 45.5-22.8 7.6L536 209.3 536 448l0 24-48 0 0-24 0-222.7L408 252l0 196 0 24-48 0 0-24 0-180-80 26.7L280 448l0 24-48 0 0-24 0-137.4-80 26.7L152 448l0 24-48 0 0-24 0-94.7L39.6 374.8l-22.8 7.6L1.6 336.8l22.8-7.6L104 302.7 104 64l0-24 48 0z" />
+    </Icon>
+);
+
+export default Tally;

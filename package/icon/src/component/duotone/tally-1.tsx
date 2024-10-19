@@ -1,14 +1,14 @@
 
-import { Icon, generic } from "../../index";
+import { Icon } from "../../index";
 
 /**
- * A component that renders the `tally-1` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `tally-1` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tally-1?s=duotone tally-1}
- * @preview ![tally-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTY0IDY0LjAwMVY0NDguMDAxQzY0IDQ2NS42NzQgNDkuNjczIDQ4MC4wMDEgMzIgNDgwLjAwMUgzMkMxNC4zMjcgNDgwLjAwMSAwIDQ2NS42NzQgMCA0NDguMDAxVjY0LjAwMUMwIDQ2LjMyNyAxNC4zMjcgMzIuMDAxIDMyIDMyLjAwMUgzMkM0OS42NzMgMzIuMDAxIDY0IDQ2LjMyNyA2NCA2NC4wMDFaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tally-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9IiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTI4IDMyYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzg0YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMyTDk2IDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Tally_1: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 64.001V448.001C64 465.674 49.673 480.001 32 480.001H32C14.327 480.001 0 465.674 0 448.001V64.001C0 46.327 14.327 32.001 32 32.001H32C49.673 32.001 64 46.327 64 64.001Z" />
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M128 32c17.7 0 32 14.3 32 32l0 384c0 17.7-14.3 32-32 32s-32-14.3-32-32L96 64c0-17.7 14.3-32 32-32z" />
     </Icon>
 );
 

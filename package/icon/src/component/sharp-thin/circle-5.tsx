@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `circle-5` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/circle-5?s=sharp-thin circle-5}
+ * @preview ![circle-5](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDEgMCA0ODAgMjQwIDI0MCAwIDEgMSAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0yMDAgMTI4bC02LjQgMC0xLjQgNi4yLTI0IDEwNC0yLjEgOC45IDkuMSAuOCAxMTAuNyAxMC4xYzI4LjQgMi42IDUwLjEgMjYuNCA1MC4xIDU0LjljMCAzMC40LTI0LjcgNTUuMS01NS4xIDU1LjFsLTUzLjEgMGMtMjEuMyAwLTQxLjMtMTAuNy01My4yLTI4LjVsLTEzLjMgOC45YzE0LjggMjIuMSAzOS44IDM1LjUgNjYuNSAzNS41bDUzLjEgMGMzOS4zIDAgNzEuMS0zMS44IDcxLjEtNzEuMWMwLTM2LjgtMjgtNjcuNC02NC42LTcwLjhsLTEwMS41LTkuM0wyMDYuNCAxNDQgMzI4IDE0NGw4IDAgMC0xNi04IDAtMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Circle_5: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM200 128l-6.4 0-1.4 6.2-24 104-2.1 8.9 9.1 .8 110.7 10.1c28.4 2.6 50.1 26.4 50.1 54.9c0 30.4-24.7 55.1-55.1 55.1l-53.1 0c-21.3 0-41.3-10.7-53.2-28.5l-13.3 8.9c14.8 22.1 39.8 35.5 66.5 35.5l53.1 0c39.3 0 71.1-31.8 71.1-71.1c0-36.8-28-67.4-64.6-70.8l-101.5-9.3L206.4 144 328 144l8 0 0-16-8 0-128 0z" />
+    </Icon>
+);
+
+export default Circle_5;

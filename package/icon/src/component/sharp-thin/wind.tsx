@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `wind` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/wind?s=sharp-thin wind}
+ * @preview ![wind](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBsMCAxNiA4IDAgNjQgMGMzOS44IDAgNzIgMzIuMiA3MiA3MnMtMzIuMiA3Mi03MiA3Mkw4IDE2MGwtOCAwIDAgMTYgOCAwIDM1MiAwYzQ4LjYgMCA4OC0zOS40IDg4LTg4cy0zOS40LTg4LTg4LTg4TDI5NiAwbC04IDB6bTY0IDQxNmw4IDAgNjggMGM0Ni40IDAgODQtMzcuNiA4NC04NHMtMzcuNi04NC04NC04NEw4IDI0OGwtOCAwIDAgMTYgOCAwIDQyMCAwYzM3LjYgMCA2OCAzMC40IDY4IDY4cy0zMC40IDY4LTY4IDY4bC02OCAwLTggMCAwIDE2ek0xMDQgNTEybDY0IDBjNDguNiAwIDg4LTM5LjQgODgtODhzLTM5LjQtODgtODgtODhMOCAzMzZsLTggMCAwIDE2IDggMCAxNjAgMGMzOS44IDAgNzIgMzIuMiA3MiA3MnMtMzIuMiA3Mi03MiA3MmwtNjQgMC04IDAgMCAxNiA4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Wind: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M288 0l0 16 8 0 64 0c39.8 0 72 32.2 72 72s-32.2 72-72 72L8 160l-8 0 0 16 8 0 352 0c48.6 0 88-39.4 88-88s-39.4-88-88-88L296 0l-8 0zm64 416l8 0 68 0c46.4 0 84-37.6 84-84s-37.6-84-84-84L8 248l-8 0 0 16 8 0 420 0c37.6 0 68 30.4 68 68s-30.4 68-68 68l-68 0-8 0 0 16zM104 512l64 0c48.6 0 88-39.4 88-88s-39.4-88-88-88L8 336l-8 0 0 16 8 0 160 0c39.8 0 72 32.2 72 72s-32.2 72-72 72l-64 0-8 0 0 16 8 0z" />
+    </Icon>
+);
+
+export default Wind;

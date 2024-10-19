@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `code-pull-request-draft` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/code-pull-request-draft?s=light code-pull-request-draft}
+ * @preview ![code-pull-request-draft](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgODBhNDggNDggMCAxIDEgOTYgMEE0OCA0OCAwIDEgMSAzMiA4MHptNjQgNzguNGMzNi41LTcuNCA2NC0zOS43IDY0LTc4LjRjMC00NC4yLTM1LjgtODAtODAtODBTMCAzNS44IDAgODBjMCAzOC43IDI3LjUgNzEgNjQgNzguNGwwIDE5NS4yQzI3LjUgMzYxIDAgMzkzLjMgMCA0MzJjMCA0NC4yIDM1LjggODAgODAgODBzODAtMzUuOCA4MC04MGMwLTM4LjctMjcuNS03MS02NC03OC40bDAtMTk1LjJ6TTMyIDQzMmE0OCA0OCAwIDEgMSA5NiAwIDQ4IDQ4IDAgMSAxIC05NiAwem0zMzYtNDhhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2em0wIDEyOGE4MCA4MCAwIDEgMCAwLTE2MCA4MCA4MCAwIDEgMCAwIDE2MHpNNDAwIDY0YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6TTM2OCAyNTZhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const CodePullRequestDraft: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M32 80a48 48 0 1 1 96 0A48 48 0 1 1 32 80zm64 78.4c36.5-7.4 64-39.7 64-78.4c0-44.2-35.8-80-80-80S0 35.8 0 80c0 38.7 27.5 71 64 78.4l0 195.2C27.5 361 0 393.3 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-38.7-27.5-71-64-78.4l0-195.2zM32 432a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 128a80 80 0 1 0 0-160 80 80 0 1 0 0 160zM400 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM368 256a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
+    </Icon>
+);
+
+export default CodePullRequestDraft;

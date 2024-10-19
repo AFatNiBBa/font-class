@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `face-rolling-eyes` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/face-rolling-eyes?s=sharp-regular face-rolling-eyes}
+ * @preview ![face-rolling-eyes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YTIwOCAyMDggMCAxIDEgMCA0MTYgMjA4IDIwOCAwIDEgMSAwLTQxNnptMCA0NjRBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xNjggMzUybDAgNDggMjQgMCAxMjggMCAyNCAwIDAtNDgtMjQgMC0xMjggMC0yNCAwem0tOC04MGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhjMC0xNC4zIDYuMy0yNy4yIDE2LjItMzZjLS4yIDEuMy0uMiAyLjYtLjIgNGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMyYzAtMS40LS4xLTIuNy0uMi00YzEwIDguOCAxNi4yIDIxLjcgMTYuMiAzNmMwIDI2LjUtMjEuNSA0OC00OCA0OHptMCAzMmE4MCA4MCAwIDEgMCAwLTE2MCA4MCA4MCAwIDEgMCAwIDE2MHptMTkyLTMyYy0yNi41IDAtNDgtMjEuNS00OC00OGMwLTE0LjMgNi4zLTI3LjIgMTYuMi0zNmMtLjIgMS4zLS4yIDIuNi0uMiA0YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJjMC0xLjQtLjEtMi43LS4yLTRjMTAgOC44IDE2LjIgMjEuNyAxNi4yIDM2YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4em0wIDMyYTgwIDgwIDAgMSAwIDAtMTYwIDgwIDgwIDAgMSAwIDAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const FaceRollingEyes: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM168 352l0 48 24 0 128 0 24 0 0-48-24 0-128 0-24 0zm-8-80c-26.5 0-48-21.5-48-48c0-14.3 6.3-27.2 16.2-36c-.2 1.3-.2 2.6-.2 4c0 17.7 14.3 32 32 32s32-14.3 32-32c0-1.4-.1-2.7-.2-4c10 8.8 16.2 21.7 16.2 36c0 26.5-21.5 48-48 48zm0 32a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm192-32c-26.5 0-48-21.5-48-48c0-14.3 6.3-27.2 16.2-36c-.2 1.3-.2 2.6-.2 4c0 17.7 14.3 32 32 32s32-14.3 32-32c0-1.4-.1-2.7-.2-4c10 8.8 16.2 21.7 16.2 36c0 26.5-21.5 48-48 48zm0 32a80 80 0 1 0 0-160 80 80 0 1 0 0 160z" />
+    </Icon>
+);
+
+export default FaceRollingEyes;

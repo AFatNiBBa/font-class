@@ -2,13 +2,13 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `italic` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `italic` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/italic?s=duotone italic}
- * @preview ![italic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTM4NCA3MkMzODQgOTQuMDk0IDM2Ni4wOTQgMTEyIDM0NCAxMTJIMjk0LjIyM0wxNzYuMTk5IDQwMEgyMTZDMjM4LjA5NCA0MDAgMjU2IDQxNy45MDYgMjU2IDQ0MFMyMzguMDk0IDQ4MCAyMTYgNDgwSDQwQzE3LjkwNiA0ODAgMCA0NjIuMDk0IDAgNDQwUzE3LjkwNiA0MDAgNDAgNDAwSDg5Ljc3N0wyMDcuODAxIDExMkgxNjhDMTQ1LjkwNiAxMTIgMTI4IDk0LjA5NCAxMjggNzJTMTQ1LjkwNiAzMiAxNjggMzJIMzQ0QzM2Ni4wOTQgMzIgMzg0IDQ5LjkwNiAzODQgNzJaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![italic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMjggNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMTkyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTU4LjcgMEwxNjAgNDE2bDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgNDgwYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDU4LjcgMEwyMjQgOTZsLTY0IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSIiLz48L3N2Zz4=|width=32|height=32)
  */
 const Italic: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M384 72C384 94.094 366.094 112 344 112H294.223L176.199 400H216C238.094 400 256 417.906 256 440S238.094 480 216 480H40C17.906 480 0 462.094 0 440S17.906 400 40 400H89.777L207.801 112H168C145.906 112 128 94.094 128 72S145.906 32 168 32H344C366.094 32 384 49.906 384 72Z" />
+        <path class={generic.secondary} d="M128 64c0-17.7 14.3-32 32-32l192 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-58.7 0L160 416l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32s14.3-32 32-32l58.7 0L224 96l-64 0c-17.7 0-32-14.3-32-32z" />
     </Icon>
 );
 

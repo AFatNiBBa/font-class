@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `grid-round-2` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/grid-round-2?s=light grid-round-2}
+ * @preview ![grid-round-2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDE5MmE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHptOTYtNjRBOTYgOTYgMCAxIDEgMzIgMTI4YTk2IDk2IDAgMSAxIDE5MiAwek0xMjggNDQ4YTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4em05Ni02NEE5NiA5NiAwIDEgMSAzMiAzODRhOTYgOTYgMCAxIDEgMTkyIDB6bTk2LTI1NmE2NCA2NCAwIDEgMCAxMjggMCA2NCA2NCAwIDEgMCAtMTI4IDB6bTY0IDk2YTk2IDk2IDAgMSAxIDAtMTkyIDk2IDk2IDAgMSAxIDAgMTkyem0wIDIyNGE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHptOTYtNjRhOTYgOTYgMCAxIDEgLTE5MiAwIDk2IDk2IDAgMSAxIDE5MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const GridRound_2: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M128 192a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm96-64A96 96 0 1 1 32 128a96 96 0 1 1 192 0zM128 448a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm96-64A96 96 0 1 1 32 384a96 96 0 1 1 192 0zm96-256a64 64 0 1 0 128 0 64 64 0 1 0 -128 0zm64 96a96 96 0 1 1 0-192 96 96 0 1 1 0 192zm0 224a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm96-64a96 96 0 1 1 -192 0 96 96 0 1 1 192 0z" />
+    </Icon>
+);
+
+export default GridRound_2;

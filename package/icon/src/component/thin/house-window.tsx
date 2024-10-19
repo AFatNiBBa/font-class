@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `house-window` icon from the `thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/house-window?s=thin house-window}
+ * @preview ![house-window](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkzLjMgMmMtMy0yLjctNy42LTIuNy0xMC42IDBMMi43IDI1MGMtMy4zIDIuOS0zLjYgOC0uNyAxMS4zczggMy42IDExLjMgLjdMNjQgMjE3LjEgNjQgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDMyMCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjMwLjlMNTYyLjcgMjYyYzMuMyAyLjkgOC40IDIuNiAxMS4zLS43czIuNi04LjQtLjctMTEuM0wyOTMuMyAyek04MCA0NDhsMC0yNDUuMUwyODggMTguNyA0OTYgMjAyLjkgNDk2IDQ0OGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMzIwIDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4ek0yNDAgMTg0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDk2YzAgMTMuMyAxMC43IDI0IDI0IDI0bDk2IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC05NmMwLTEzLjMtMTAuNy0yNC0yNC0yNGwtOTYgMHptLTggMjRjMC00LjQgMy42LTggOC04bDk2IDBjNC40IDAgOCAzLjYgOCA4bDAgOTZjMCA0LjQtMy42IDgtOCA4bC05NiAwYy00LjQgMC04LTMuNi04LThsMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const HouseWindow: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M293.3 2c-3-2.7-7.6-2.7-10.6 0L2.7 250c-3.3 2.9-3.6 8-.7 11.3s8 3.6 11.3 .7L64 217.1 64 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-230.9L562.7 262c3.3 2.9 8.4 2.6 11.3-.7s2.6-8.4-.7-11.3L293.3 2zM80 448l0-245.1L288 18.7 496 202.9 496 448c0 26.5-21.5 48-48 48l-320 0c-26.5 0-48-21.5-48-48zM240 184c-13.3 0-24 10.7-24 24l0 96c0 13.3 10.7 24 24 24l96 0c13.3 0 24-10.7 24-24l0-96c0-13.3-10.7-24-24-24l-96 0zm-8 24c0-4.4 3.6-8 8-8l96 0c4.4 0 8 3.6 8 8l0 96c0 4.4-3.6 8-8 8l-96 0c-4.4 0-8-3.6-8-8l0-96z" />
+    </Icon>
+);
+
+export default HouseWindow;

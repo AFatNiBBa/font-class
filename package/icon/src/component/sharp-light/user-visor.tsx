@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `user-visor` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/user-visor?s=sharp-light user-visor}
+ * @preview ![user-visor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDIyNGM0MS44IDAgNzcuNC0yNi43IDkwLjUtNjRsLTE4MS4xIDBjMTMuMiAzNy4zIDQ4LjcgNjQgOTAuNSA2NHptMCAzMmMtNTkuNiAwLTEwOS44LTQwLjgtMTI0LTk2bC0yMCAwIDAtMzIgMC0zMiAwLTMyIDMyIDAgMS4xIDBDMTM1LjMgMjUuNyAxNzYuNiAwIDIyNCAwczg4LjcgMjUuNyAxMTAuOSA2NGwxLjEgMCAzMiAwIDAgMzIgMCAzMiAwIDMyLTIwIDBjLTE0LjIgNTUuMi02NC4zIDk2LTEyNCA5NnpNMTUyLjQgNjRsMTQzLjEgMEMyNzggNDQuNCAyNTIuNCAzMiAyMjQgMzJzLTU0IDEyLjQtNzEuNiAzMnpNNDMuMyA0ODBsMzYxLjMgMEwzNjAuNCAzMzYgODcuNiAzMzYgNDMuMyA0ODB6TTY0IDMwNGwzMjAgMCA1NC4yIDE3NiA5LjggMzItMzMuNSAwLTM4MSAwTDAgNTEybDkuOC0zMkw2NCAzMDR6TTMzNiA5NkwxMTIgOTZsMCAzMiAyMjQgMCAwLTMyek0yODggNDU2bC04LTggNDAtODggNDAgODgtOCA4LTI0LTI0LTQwIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const UserVisor: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M224 224c41.8 0 77.4-26.7 90.5-64l-181.1 0c13.2 37.3 48.7 64 90.5 64zm0 32c-59.6 0-109.8-40.8-124-96l-20 0 0-32 0-32 0-32 32 0 1.1 0C135.3 25.7 176.6 0 224 0s88.7 25.7 110.9 64l1.1 0 32 0 0 32 0 32 0 32-20 0c-14.2 55.2-64.3 96-124 96zM152.4 64l143.1 0C278 44.4 252.4 32 224 32s-54 12.4-71.6 32zM43.3 480l361.3 0L360.4 336 87.6 336 43.3 480zM64 304l320 0 54.2 176 9.8 32-33.5 0-381 0L0 512l9.8-32L64 304zM336 96L112 96l0 32 224 0 0-32zM288 456l-8-8 40-88 40 88-8 8-24-24-40 24z" />
+    </Icon>
+);
+
+export default UserVisor;

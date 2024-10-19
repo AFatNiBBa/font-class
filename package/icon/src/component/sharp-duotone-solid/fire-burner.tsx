@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `fire-burner` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/fire-burner?s=sharp-duotone-solid fire-burner}
+ * @preview ![fire-burner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDM4NEwwIDUxMmw2NDAgMCAwLTEyOC0zMiAwIDAtMTA0IDAtMjQtMjQgMC00OCAwLTI0IDAgMCA0OCAyNCAwIDI0IDAgMCA4MEw4MCAzODRsMC04MCAyNCAwIDI0IDAgMC00OC0yNCAwLTQ4IDAtMjQgMCAwIDI0IDAgMTA0TDAgMzg0em0yMjQgNjRhMzIgMzIgMCAxIDEgLTY0IDAgMzIgMzIgMCAxIDEgNjQgMHptMTI4IDBhMzIgMzIgMCAxIDEgLTY0IDAgMzIgMzIgMCAxIDEgNjQgMHptMTI4IDBhMzIgMzIgMCAxIDEgLTY0IDAgMzIgMzIgMCAxIDEgNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTE2MCAxOTJjMC04OS42IDg1LjMtMTY1LjMgMTI4LTE5Mmw2NCA2NCAzMi0zMmM3Ni44IDY0IDk2IDEzMy4zIDk2IDE2MGMwIDg4LjQtNzEuNiAxNjAtMTYwIDE2MHMtMTYwLTcxLjYtMTYwLTE2MHpNMzIwIDMwNC4yYzM1LjMgMCA2NC0yOC43IDY0LTY0YzAtNDgtNjQtOTYtNjQtOTZzLTY0IDQ4LTY0IDk2YzAgMzUuMyAyOC43IDY0IDY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const FireBurner: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path class={generic.secondary} d="M0 384L0 512l640 0 0-128-32 0 0-104 0-24-24 0-48 0-24 0 0 48 24 0 24 0 0 80L80 384l0-80 24 0 24 0 0-48-24 0-48 0-24 0 0 24 0 104L0 384zm224 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm128 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm128 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
+            <path d="M160 192c0-89.6 85.3-165.3 128-192l64 64 32-32c76.8 64 96 133.3 96 160c0 88.4-71.6 160-160 160s-160-71.6-160-160zM320 304.2c35.3 0 64-28.7 64-64c0-48-64-96-64-96s-64 48-64 96c0 35.3 28.7 64 64 64z" />
+    </Icon>
+);
+
+export default FireBurner;

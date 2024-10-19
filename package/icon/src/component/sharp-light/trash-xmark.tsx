@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `trash-xmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/trash-xmark?s=sharp-light trash-xmark}
+ * @preview ![trash-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBsLTguOSAwLTQuNyA3LjVMMTExLjEgNjQgNjQuMSA2NCAzMiA2NCAwIDY0IDAgOTZsMzQuMyAwTDY0IDUxMmwzMjAgMEw0MTMuNyA5NiA0NDggOTZsMC0zMi0zMiAwLTMyLjEgMC00Ny4xIDBMMzAxLjYgNy41IDI5Ni45IDAgMjg4IDAgMTYwIDB6TTI5OS4xIDY0TDE0OC45IDY0bDIwLTMyIDExMC4zIDAgMjAgMzJ6TTkzLjggNDgwTDY2LjQgOTZsMzE1LjMgMEwzNTQuMiA0ODAgOTMuOCA0ODB6bTY1LjYtMjc5LjJsLTIyLjYgMjIuNiAxMS4zIDExLjNMMjAxLjQgMjg4bC01My4zIDUzLjMtMTEuMyAxMS4zIDIyLjYgMjIuNiAxMS4zLTExLjNMMjI0IDMxMC42bDUzLjMgNTMuMyAxMS4zIDExLjMgMjIuNi0yMi42LTExLjMtMTEuM0wyNDYuNiAyODhsNTMuMy01My4zIDExLjMtMTEuMy0yMi42LTIyLjYtMTEuMyAxMS4zTDIyNCAyNjUuNGwtNTMuMy01My4zLTExLjMtMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ */
+const TrashXmark: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M160 0l-8.9 0-4.7 7.5L111.1 64 64.1 64 32 64 0 64 0 96l34.3 0L64 512l320 0L413.7 96 448 96l0-32-32 0-32.1 0-47.1 0L301.6 7.5 296.9 0 288 0 160 0zM299.1 64L148.9 64l20-32 110.3 0 20 32zM93.8 480L66.4 96l315.3 0L354.2 480 93.8 480zm65.6-279.2l-22.6 22.6 11.3 11.3L201.4 288l-53.3 53.3-11.3 11.3 22.6 22.6 11.3-11.3L224 310.6l53.3 53.3 11.3 11.3 22.6-22.6-11.3-11.3L246.6 288l53.3-53.3 11.3-11.3-22.6-22.6-11.3 11.3L224 265.4l-53.3-53.3-11.3-11.3z" />
+    </Icon>
+);
+
+export default TrashXmark;

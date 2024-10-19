@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `eclipse` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/eclipse?s=sharp-solid eclipse}
+ * @preview ![eclipse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDczLjFMMTUwIDAgMTI2LjcgMTI2LjcgMCAxNTAgNzMuMSAyNTYgMCAzNjJsMTI2LjcgMjMuM0wxNTAgNTEybDEwNi03My4xTDM2MiA1MTJsMTIuNS02OC4yYy0zMS42LTE1LjEtNTguOC0zNy45LTc5LjItNjZjLTEyLjQgNC0yNS42IDYuMi0zOS40IDYuMmMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhzNTcuMy0xMjggMTI4LTEyOGMxMy43IDAgMjcgMi4yIDM5LjQgNi4yYzIwLjMtMjguMSA0Ny42LTUwLjkgNzkuMi02NkwzNjIgMCAyNTYgNzMuMXpNMjU2IDI1NmMwLTMzLjYgOC02NS40IDIyLjEtOTMuNGMtNy4xLTEuNy0xNC41LTIuNi0yMi4xLTIuNmMtNTMgMC05NiA0My05NiA5NnM0MyA5NiA5NiA5NmM3LjYgMCAxNS0uOSAyMi4xLTIuNkMyNjQgMzIxLjMgMjU2IDI4OS42IDI1NiAyNTZ6TTQ2NCA0MzJhMTc2IDE3NiAwIDEgMCAwLTM1MiAxNzYgMTc2IDAgMSAwIDAgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Eclipse: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M256 73.1L150 0 126.7 126.7 0 150 73.1 256 0 362l126.7 23.3L150 512l106-73.1L362 512l12.5-68.2c-31.6-15.1-58.8-37.9-79.2-66c-12.4 4-25.6 6.2-39.4 6.2c-70.7 0-128-57.3-128-128s57.3-128 128-128c13.7 0 27 2.2 39.4 6.2c20.3-28.1 47.6-50.9 79.2-66L362 0 256 73.1zM256 256c0-33.6 8-65.4 22.1-93.4c-7.1-1.7-14.5-2.6-22.1-2.6c-53 0-96 43-96 96s43 96 96 96c7.6 0 15-.9 22.1-2.6C264 321.3 256 289.6 256 256zM464 432a176 176 0 1 0 0-352 176 176 0 1 0 0 352z" />
+    </Icon>
+);
+
+export default Eclipse;

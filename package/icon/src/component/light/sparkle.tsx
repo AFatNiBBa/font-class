@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `sparkle` icon from the `light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/sparkle?s=light sparkle}
+ * @preview ![sparkle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyYzYuMiAwIDExLjkgMy42IDE0LjUgOS4zbDYzLjIgMTM2LjkgMTM2LjkgNjMuMmM1LjcgMi42IDkuMyA4LjMgOS4zIDE0LjVzLTMuNiAxMS45LTkuMyAxNC41TDMwMS44IDMzMy44IDIzOC41IDQ3MC43Yy0yLjYgNS43LTguMyA5LjMtMTQuNSA5LjNzLTExLjktMy42LTE0LjUtOS4zTDE0Ni4yIDMzMy44IDkuMyAyNzAuNUMzLjYgMjY3LjkgMCAyNjIuMiAwIDI1NnMzLjYtMTEuOSA5LjMtMTQuNWwxMzYuOS02My4yTDIwOS41IDQxLjNjMi42LTUuNyA4LjMtOS4zIDE0LjUtOS4zem0wIDU0LjJMMTcyLjggMTk3Yy0xLjYgMy41LTQuNCA2LjItNy44IDcuOEw1NC4yIDI1NiAxNjUgMzA3LjJjMy41IDEuNiA2LjIgNC40IDcuOCA3LjhMMjI0IDQyNS44IDI3NS4yIDMxNWMxLjYtMy41IDQuNC02LjIgNy44LTcuOEwzOTMuOCAyNTYgMjgzIDIwNC44Yy0zLjUtMS42LTYuMi00LjQtNy44LTcuOEwyMjQgODYuMnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Sparkle: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M224 32c6.2 0 11.9 3.6 14.5 9.3l63.2 136.9 136.9 63.2c5.7 2.6 9.3 8.3 9.3 14.5s-3.6 11.9-9.3 14.5L301.8 333.8 238.5 470.7c-2.6 5.7-8.3 9.3-14.5 9.3s-11.9-3.6-14.5-9.3L146.2 333.8 9.3 270.5C3.6 267.9 0 262.2 0 256s3.6-11.9 9.3-14.5l136.9-63.2L209.5 41.3c2.6-5.7 8.3-9.3 14.5-9.3zm0 54.2L172.8 197c-1.6 3.5-4.4 6.2-7.8 7.8L54.2 256 165 307.2c3.5 1.6 6.2 4.4 7.8 7.8L224 425.8 275.2 315c1.6-3.5 4.4-6.2 7.8-7.8L393.8 256 283 204.8c-3.5-1.6-6.2-4.4-7.8-7.8L224 86.2z" />
+    </Icon>
+);
+
+export default Sparkle;

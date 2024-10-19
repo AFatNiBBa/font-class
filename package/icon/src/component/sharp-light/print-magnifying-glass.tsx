@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `print-magnifying-glass` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/print-magnifying-glass?s=sharp-light print-magnifying-glass}
+ * @preview ![print-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMybDAgMTI4LTMyIDAgMC0xMjggMC0zMiAzMiAwTDQ0OCAwbDY0IDY0IDAgOTYtMzIgMCAwLTgyLjdMNDM0LjcgMzIgMTYwIDMyek0zMjAgMjI0TDk2IDIyNGwwIDE2MCAzMiAwIDAtMzIgMC0zMiAzMiAwIDEyOCAwYzAgMTEgMS4xIDIxLjcgMy4yIDMyTDE2MCAzNTJsMCAxMjggMjg4IDAgMzIgMCAwLTMuMmM2LjItMS4zIDEyLjItMi45IDE4LjItNC44TDUxMiA0ODUuOGwwIDI2LjItMzIgMC0zMjAgMC0zMiAwIDAtMzIgMC02NC0zMiAwLTMyIDAgMC0zMiAwLTE2MCAwLTMyIDMyIDAgMjU2IDBjLTEyLjEgOS4xLTIyLjkgMTkuOS0zMiAzMnpNNDQ4IDQxNi4yYTk2IDk2IDAgMSAwIDAtMTkyIDk2IDk2IDAgMSAwIDAgMTkyem0wIDMyYy03MC43IDAtMTI4LTU3LjMtMTI4LTEyOHM1Ny4zLTEyOCAxMjgtMTI4czEyOCA1Ny4zIDEyOCAxMjhjMCAyOS42LTEwIDU2LjgtMjYuOSA3OC41bDc4LjEgNzcuNyAxMS4zIDExLjMtMjIuNiAyMi43TDYwNC43IDQ5OWwtNzguMi03Ny44Yy0yMS43IDE2LjktNDguOSAyNi45LTc4LjUgMjYuOXoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const PrintMagnifyingGlass: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M160 32l0 128-32 0 0-128 0-32 32 0L448 0l64 64 0 96-32 0 0-82.7L434.7 32 160 32zM320 224L96 224l0 160 32 0 0-32 0-32 32 0 128 0c0 11 1.1 21.7 3.2 32L160 352l0 128 288 0 32 0 0-3.2c6.2-1.3 12.2-2.9 18.2-4.8L512 485.8l0 26.2-32 0-320 0-32 0 0-32 0-64-32 0-32 0 0-32 0-160 0-32 32 0 256 0c-12.1 9.1-22.9 19.9-32 32zM448 416.2a96 96 0 1 0 0-192 96 96 0 1 0 0 192zm0 32c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128c0 29.6-10 56.8-26.9 78.5l78.1 77.7 11.3 11.3-22.6 22.7L604.7 499l-78.2-77.8c-21.7 16.9-48.9 26.9-78.5 26.9z" />
+    </Icon>
+);
+
+export default PrintMagnifyingGlass;

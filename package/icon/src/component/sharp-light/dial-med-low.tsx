@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `dial-med-low` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/dial-med-low?s=sharp-light dial-med-low}
+ * @preview ![dial-med-low](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyIDhsMCA0OC00OCAwIDAtNDggNDggMHpNMTIwIDcybDAgNDgtNDggMCAwLTQ4IDQ4IDB6bTMzNiAwbDQ4IDAgMCA0OC00OCAwIDAtNDh6TTU2OCAyNjRsMCA0OC00OCAwIDAtNDggNDggMHpNOCAyNjRsNDggMCAwIDQ4TDggMzEybDAtNDh6TTEyMCA0NTZsMCA0OC00OCAwIDAtNDggNDggMHptMzM2IDBsNDggMCAwIDQ4LTQ4IDAgMC00OHpNMjk5LjMgMjc2LjdMMzEwLjYgMjg4IDI4OCAzMTAuNmwtMTEuMy0xMS4zLTg5LjgtODkuOGMtMzkuMSA1MC4yLTM1LjUgMTIyLjggMTAuNiAxNjljNTAgNTAgMTMxIDUwIDE4MSAwczUwLTEzMSAwLTE4MWMtNDYuMi00Ni4yLTExOC44LTQ5LjctMTY5LTEwLjZsODkuOCA4OS44ek00MDEuMSA0MDEuMUExNjAgMTYwIDAgMSAxIDE3NC45IDE3NC45IDE2MCAxNjAgMCAxIDEgNDAxLjEgNDAxLjF6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const DialMedLow: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M312 8l0 48-48 0 0-48 48 0zM120 72l0 48-48 0 0-48 48 0zm336 0l48 0 0 48-48 0 0-48zM568 264l0 48-48 0 0-48 48 0zM8 264l48 0 0 48L8 312l0-48zM120 456l0 48-48 0 0-48 48 0zm336 0l48 0 0 48-48 0 0-48zM299.3 276.7L310.6 288 288 310.6l-11.3-11.3-89.8-89.8c-39.1 50.2-35.5 122.8 10.6 169c50 50 131 50 181 0s50-131 0-181c-46.2-46.2-118.8-49.7-169-10.6l89.8 89.8zM401.1 401.1A160 160 0 1 1 174.9 174.9 160 160 0 1 1 401.1 401.1z" />
+    </Icon>
+);
+
+export default DialMedLow;

@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `train` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/train?s=sharp-thin train}
+ * @preview ![train](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMCA0MTYgNDE2IDAgMC00MTZMMTYgMTZ6TTAgMEwxNiAwIDQzMiAwbDE2IDAgMCAxNiAwIDQxNiAwIDE2LTE2IDAtNjguNyAwIDU4LjMgNTguMyA1LjcgNS43LTIyLjYgMC02NC02NC0yMzMuNCAwLTY0IDY0LTIyLjYgMCA1LjctNS43TDg0LjcgNDQ4IDE2IDQ0OCAwIDQ0OGwwLTE2TDAgMTYgMCAwek0yMjQgMjcyYTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnptMzIgNDhhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHpNMzY4IDgwTDgwIDgwbDAgMTI4IDI4OCAwIDAtMTI4ek04MCA2NGwyODggMCAxNiAwIDAgMTYgMCAxMjggMCAxNi0xNiAwTDgwIDIyNGwtMTYgMCAwLTE2TDY0IDgwbDAtMTYgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Train: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M16 16l0 416 416 0 0-416L16 16zM0 0L16 0 432 0l16 0 0 16 0 416 0 16-16 0-68.7 0 58.3 58.3 5.7 5.7-22.6 0-64-64-233.4 0-64 64-22.6 0 5.7-5.7L84.7 448 16 448 0 448l0-16L0 16 0 0zM224 272a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm32 48a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM368 80L80 80l0 128 288 0 0-128zM80 64l288 0 16 0 0 16 0 128 0 16-16 0L80 224l-16 0 0-16L64 80l0-16 16 0z" />
+    </Icon>
+);
+
+export default Train;

@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `o` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `o` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/o?s=solid o}
- * @preview ![o](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMjQgNDgwQzEwMC41IDQ4MCAwIDM3OS41IDAgMjU2UzEwMC41IDMyIDIyNCAzMlM0NDggMTMyLjUgNDQ4IDI1NlMzNDcuNSA0ODAgMjI0IDQ4MFpNMjI0IDEyOEMxNTMuNDA2IDEyOCA5NiAxODUuNDA2IDk2IDI1NlMxNTMuNDA2IDM4NCAyMjQgMzg0UzM1MiAzMjYuNTk0IDM1MiAyNTZTMjk0LjU5NCAxMjggMjI0IDEyOFoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![o](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDk2YTE2MCAxNjAgMCAxIDAgMCAzMjAgMTYwIDE2MCAwIDEgMCAwLTMyMHpNNDQ4IDI1NkEyMjQgMjI0IDAgMSAxIDAgMjU2YTIyNCAyMjQgMCAxIDEgNDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
  */
 const O: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 480C100.5 480 0 379.5 0 256S100.5 32 224 32S448 132.5 448 256S347.5 480 224 480ZM224 128C153.406 128 96 185.406 96 256S153.406 384 224 384S352 326.594 352 256S294.594 128 224 128Z" />
+        <path d="M224 96a160 160 0 1 0 0 320 160 160 0 1 0 0-320zM448 256A224 224 0 1 1 0 256a224 224 0 1 1 448 0z" />
     </Icon>
 );
 

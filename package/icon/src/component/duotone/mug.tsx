@@ -2,14 +2,14 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `mug` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `mug` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug?s=duotone mug}
- * @preview ![mug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQxNiAxMjhWNjRINDQ4QzUxOC43NSA2NCA1NzYgMTIxLjI1IDU3NiAxOTJTNTE4Ljc1IDMyMCA0NDggMzIwSDQxNlYyNTZINDQ4QzQ4My4zNzUgMjU2IDUxMiAyMjcuMzc1IDUxMiAxOTJTNDgzLjM3NSAxMjggNDQ4IDEyOEg0MTZaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTQxNiAzNTJDNDE2IDQwNSAzNzMgNDQ4IDMyMCA0NDhIMTI4Qzc1IDQ0OCAzMiA0MDUgMzIgMzUyVjg4QzMyIDcyLjk3NiA0NC40MTkgNjQgNTYgNjRINDE2VjM1MloiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zODQgNjRjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzMiAzMiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0cy0yOC43IDY0LTY0IDY0bC0zMiAwIDAgNjQgMzIgMGM3MC43IDAgMTI4LTU3LjMgMTI4LTEyOHMtNTcuMy0xMjgtMTI4LTEyOGwtNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTMyIDk2YzAtMTcuNyAxNC4zLTMyIDMyLTMySDM4NGMxNy43IDAgMzIgMTQuMyAzMiAzMlYzNTJjMCA1My00MyA5Ni05NiA5NkgxMjhjLTUzIDAtOTYtNDMtOTYtOTZWOTZ6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Mug: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M416 128V64H448C518.75 64 576 121.25 576 192S518.75 320 448 320H416V256H448C483.375 256 512 227.375 512 192S483.375 128 448 128H416Z" />
-            <path d="M416 352C416 405 373 448 320 448H128C75 448 32 405 32 352V88C32 72.976 44.419 64 56 64H416V352Z" />
+        <path class={generic.secondary} d="M384 64c17.7 0 32 14.3 32 32l0 32 32 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-32 0 0 64 32 0c70.7 0 128-57.3 128-128s-57.3-128-128-128l-64 0z" />
+            <path d="M32 96c0-17.7 14.3-32 32-32H384c17.7 0 32 14.3 32 32V352c0 53-43 96-96 96H128c-53 0-96-43-96-96V96z" />
     </Icon>
 );
 

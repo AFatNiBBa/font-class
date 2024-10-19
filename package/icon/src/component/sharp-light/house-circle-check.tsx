@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `house-circle-check` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/house-circle-check?s=sharp-light house-circle-check}
+ * @preview ![house-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDIuN0wyOTguNiAxMiA1MDIuNyAxOTIuMWMtMi4yLS4xLTQuNS0uMS02LjctLjFjLTEyLjggMC0yNS4zIDEuNC0zNy4zIDRMMjg4IDQ1LjMgOTYgMjE0LjcgOTYgNDgwbDExMiAwIDAtMTc2IDAtMTYgMTYgMCAxMTUuMiAwYy01LjIgMTAuMS05LjQgMjAuOC0xMi42IDMyTDI0MCAzMjBsMCAxNjAgMTYgMCAxMDQuMiAwYzEwIDEyLjEgMjEuNyAyMi45IDM0LjYgMzJMODAgNTEybC0xNiAwIDAtMTYgMC0yNTNMMjYuNiAyNzYgNS40IDI1MmwyNzItMjQwTDI4OCAyLjd6TTQ5NiA0ODBhMTEyIDExMiAwIDEgMCAwLTIyNCAxMTIgMTEyIDAgMSAwIDAgMjI0em0wLTI1NmExNDQgMTQ0IDAgMSAxIDAgMjg4IDE0NCAxNDQgMCAxIDEgMC0yODh6bTc4LjYgMTEybC0xMS4zIDExLjMtNzIgNzJMNDgwIDQzMC42bC0xMS4zLTExLjMtNDAtNDBMNDE3LjQgMzY4IDQ0MCAzNDUuNGwxMS4zIDExLjNMNDgwIDM4NS40bDYwLjctNjAuN0w1NTIgMzEzLjQgNTc0LjYgMzM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const HouseCircleCheck: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M288 2.7L298.6 12 502.7 192.1c-2.2-.1-4.5-.1-6.7-.1c-12.8 0-25.3 1.4-37.3 4L288 45.3 96 214.7 96 480l112 0 0-176 0-16 16 0 115.2 0c-5.2 10.1-9.4 20.8-12.6 32L240 320l0 160 16 0 104.2 0c10 12.1 21.7 22.9 34.6 32L80 512l-16 0 0-16 0-253L26.6 276 5.4 252l272-240L288 2.7zM496 480a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm0-256a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm78.6 112l-11.3 11.3-72 72L480 430.6l-11.3-11.3-40-40L417.4 368 440 345.4l11.3 11.3L480 385.4l60.7-60.7L552 313.4 574.6 336z" />
+    </Icon>
+);
+
+export default HouseCircleCheck;

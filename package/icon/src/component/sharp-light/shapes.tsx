@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `shapes` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/shapes?s=sharp-light shapes}
+ * @preview ![shapes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc4LjMgMTkyTDI2OS42IDMyLjIgMjg4IDBsMTguNCAzMi4yTDM5Ny43IDE5MiA0MTYgMjI0bC0zNi45IDAtMTgyLjMgMEwxNjAgMjI0bDE4LjMtMzJ6bTE4Mi42IDBMMjg4IDY0LjUgMjE1LjEgMTkybDE0NS43IDB6TTQ4MCAzMDRsLTE2MCAwIDAgMTYwIDE2MCAwIDAtMTYwek0zMjAgMjcybDE2MCAwIDMyIDAgMCAzMiAwIDE2MCAwIDMyLTMyIDAtMTYwIDAtMzIgMCAwLTMyIDAtMTYwIDAtMzIgMzIgMHpNMjI0IDM4NEE5NiA5NiAwIDEgMCAzMiAzODRhOTYgOTYgMCAxIDAgMTkyIDB6TTAgMzg0YTEyOCAxMjggMCAxIDEgMjU2IDBBMTI4IDEyOCAwIDEgMSAwIDM4NHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Shapes: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M178.3 192L269.6 32.2 288 0l18.4 32.2L397.7 192 416 224l-36.9 0-182.3 0L160 224l18.3-32zm182.6 0L288 64.5 215.1 192l145.7 0zM480 304l-160 0 0 160 160 0 0-160zM320 272l160 0 32 0 0 32 0 160 0 32-32 0-160 0-32 0 0-32 0-160 0-32 32 0zM224 384A96 96 0 1 0 32 384a96 96 0 1 0 192 0zM0 384a128 128 0 1 1 256 0A128 128 0 1 1 0 384z" />
+    </Icon>
+);
+
+export default Shapes;

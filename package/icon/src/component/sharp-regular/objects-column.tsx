@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `objects-column` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/objects-column?s=sharp-regular objects-column}
+ * @preview ![objects-column](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCAxNjAgOTYgMCAwLTE2MEw0OCA4MHpNMCAzMmw0OCAwIDk2IDAgNDggMCAwIDQ4IDAgMTYwIDAgNDgtNDggMC05NiAwTDAgMjg4bDAtNDhMMCA4MCAwIDMyek0zMDQgMjcybDAgMTYwIDk2IDAgMC0xNjAtOTYgMHptLTQ4LTQ4bDQ4IDAgOTYgMCA0OCAwIDAgNDggMCAxNjAgMCA0OC00OCAwLTk2IDAtNDggMCAwLTQ4IDAtMTYwIDAtNDh6TTE0NCAzNjhsLTk2IDAgMCA2NCA5NiAwIDAtNjR6TTQ4IDMyMGw5NiAwIDQ4IDAgMCA0OCAwIDY0IDAgNDgtNDggMC05NiAwTDAgNDgwbDAtNDggMC02NCAwLTQ4IDQ4IDB6TTMwNCA4MGwwIDY0IDk2IDAgMC02NC05NiAwek0yNTYgMzJsNDggMCA5NiAwIDQ4IDAgMCA0OCAwIDY0IDAgNDgtNDggMC05NiAwLTQ4IDAgMC00OCAwLTY0IDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const ObjectsColumn: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M48 80l0 160 96 0 0-160L48 80zM0 32l48 0 96 0 48 0 0 48 0 160 0 48-48 0-96 0L0 288l0-48L0 80 0 32zM304 272l0 160 96 0 0-160-96 0zm-48-48l48 0 96 0 48 0 0 48 0 160 0 48-48 0-96 0-48 0 0-48 0-160 0-48zM144 368l-96 0 0 64 96 0 0-64zM48 320l96 0 48 0 0 48 0 64 0 48-48 0-96 0L0 480l0-48 0-64 0-48 48 0zM304 80l0 64 96 0 0-64-96 0zM256 32l48 0 96 0 48 0 0 48 0 64 0 48-48 0-96 0-48 0 0-48 0-64 0-48z" />
+    </Icon>
+);
+
+export default ObjectsColumn;

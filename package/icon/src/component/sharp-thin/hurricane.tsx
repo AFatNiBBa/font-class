@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `hurricane` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/hurricane?s=sharp-thin hurricane}
+ * @preview ![hurricane](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyMDhDMCA5My4xIDkzLjEgMCAyMDggMGw4IDAgMCA4IDAgOTEuMmM5NS43IDE4LjcgMTY4IDEwMyAxNjggMjA0LjJjMCAxMTQuOS05My4xIDIwOC0yMDggMjA4bC04IDAgMC04IDAtOTEuMkM3Mi4zIDM5My41IDAgMzA5LjIgMCAyMDh6TTIwMCAxNi4yQzk3LjcgMjAuNCAxNiAxMDQuNiAxNiAyMDhjMCA5NS42IDY5LjggMTc0LjkgMTYxLjMgMTg5LjZsNi43IDEuMSAwIDYuOCAwIDg5LjhjMTAyLjMtNC4yIDE4NC04OC41IDE4NC0xOTEuOGMwLTk1LjYtNjkuOC0xNzQuOS0xNjEuMy0xODkuNmwtNi43LTEuMSAwLTYuOCAwLTg5Ljh6TTE5MiAzMzZhODAgODAgMCAxIDAgMC0xNjAgODAgODAgMCAxIDAgMCAxNjB6bTAtMTc2YTk2IDk2IDAgMSAxIDAgMTkyIDk2IDk2IDAgMSAxIDAtMTkyem0xNiA5NmExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwem0tNDggMGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Hurricane: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M0 208C0 93.1 93.1 0 208 0l8 0 0 8 0 91.2c95.7 18.7 168 103 168 204.2c0 114.9-93.1 208-208 208l-8 0 0-8 0-91.2C72.3 393.5 0 309.2 0 208zM200 16.2C97.7 20.4 16 104.6 16 208c0 95.6 69.8 174.9 161.3 189.6l6.7 1.1 0 6.8 0 89.8c102.3-4.2 184-88.5 184-191.8c0-95.6-69.8-174.9-161.3-189.6l-6.7-1.1 0-6.8 0-89.8zM192 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-176a96 96 0 1 1 0 192 96 96 0 1 1 0-192zm16 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
+    </Icon>
+);
+
+export default Hurricane;

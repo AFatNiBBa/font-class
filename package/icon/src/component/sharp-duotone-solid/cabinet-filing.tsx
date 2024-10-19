@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `cabinet-filing` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/cabinet-filing?s=sharp-duotone-solid cabinet-filing}
+ * @preview ![cabinet-filing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDBMNDQ4IDBsMCAyNDBMMCAyNDAgMCAwek0wIDI3Mmw0NDggMCAwIDI0MEwwIDUxMiAwIDI3MnpNMTI4IDk2bDAgMTYgMCAxNiAwIDE2IDAgMTYgMTYgMCAxNiAwIDAtMTYgMC0xNiAxMjggMCAwIDE2IDAgMTYgMTYgMCAxNiAwIDAtMTYgMC0xNiAwLTE2IDAtMTYtMTYgMC0xNiAwTDE2MCA5NmwtMTYgMC0xNiAwem0wIDI1NmwwIDE2IDAgMTYgMCAxNiAwIDE2IDMyIDAgMC0xNiAwLTE2IDEyOCAwIDAgMTYgMCAxNiAxNiAwIDE2IDAgMC0xNiAwLTE2IDAtMTYgMC0xNi0xNiAwLTE2IDAtMTQ0IDAtMTYgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTE0NCA5NmwtMTYgMCAwIDE2IDAgMzIgMCAxNiAzMiAwIDAtMTYgMC0xNiAxMjggMCAwIDE2IDAgMTYgMzIgMCAwLTE2IDAtMzIgMC0xNi0xNiAwTDE0NCA5NnptMCAyNTZsLTE2IDAgMCAxNiAwIDMyIDAgMTYgMzIgMCAwLTE2IDAtMTYgMTI4IDAgMCAxNiAwIDE2IDMyIDAgMC0xNiAwLTMyIDAtMTYtMTYgMC0xNjAgMHpNMCAyNzJsNDQ4IDAgMC0zMkwwIDI0MGwwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const CabinetFiling: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M0 0L448 0l0 240L0 240 0 0zM0 272l448 0 0 240L0 512 0 272zM128 96l0 16 0 16 0 16 0 16 16 0 16 0 0-16 0-16 128 0 0 16 0 16 16 0 16 0 0-16 0-16 0-16 0-16-16 0-16 0L160 96l-16 0-16 0zm0 256l0 16 0 16 0 16 0 16 32 0 0-16 0-16 128 0 0 16 0 16 16 0 16 0 0-16 0-16 0-16 0-16-16 0-16 0-144 0-16 0z" />
+            <path d="M144 96l-16 0 0 16 0 32 0 16 32 0 0-16 0-16 128 0 0 16 0 16 32 0 0-16 0-32 0-16-16 0L144 96zm0 256l-16 0 0 16 0 32 0 16 32 0 0-16 0-16 128 0 0 16 0 16 32 0 0-16 0-32 0-16-16 0-160 0zM0 272l448 0 0-32L0 240l0 32z" />
+    </Icon>
+);
+
+export default CabinetFiling;

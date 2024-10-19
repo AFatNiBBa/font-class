@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `sensor-fire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/sensor-fire?s=sharp-regular sensor-fire}
+ * @preview ![sensor-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMzUyIDAgMCA3NS4xYzExLjMtOS4yIDIxLjktMTYuNyAzMS0yMi40bDE3LTEwLjZMNDQ4IDgwbDAtNDgtNDggMEw0OCAzMiAwIDMyIDAgODAgMCA0MzJsMCA0OCA0OCAwIDI4OSAwYy0xMi44LTE0LjItMjMuNS0zMC40LTMxLjUtNDhMNDggNDMyIDQ4IDgwem05NiA3MmwwLTI0LTQ4IDAgMCAyNCAwIDExMiAwIDI0IDQ4IDAgMC0yNCAwLTExMnptOTYgMGwwLTI0LTQ4IDAgMCAyNCAwIDExMiAwIDI0IDQ4IDAgMC0yNCAwLTExMnptMjA4IDhjLTQyLjcgMjYuNy0xMjggMTAyLjQtMTI4IDE5MmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MHMxNjAtNzEuNiAxNjAtMTYwYzAtMjYuNy0xOS4yLTk2LTk2LTE2MGwtMzIgMzItNjQtNjR6bTk2IDI0MC4yYzAgMzUuMy0yOC43IDY0LTY0IDY0cy02NC0yOC43LTY0LTY0YzAtNDggNjQtOTYgNjQtOTZzNjQgNDggNjQgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const SensorFire: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M48 80l352 0 0 75.1c11.3-9.2 21.9-16.7 31-22.4l17-10.6L448 80l0-48-48 0L48 32 0 32 0 80 0 432l0 48 48 0 289 0c-12.8-14.2-23.5-30.4-31.5-48L48 432 48 80zm96 72l0-24-48 0 0 24 0 112 0 24 48 0 0-24 0-112zm96 0l0-24-48 0 0 24 0 112 0 24 48 0 0-24 0-112zm208 8c-42.7 26.7-128 102.4-128 192c0 88.4 71.6 160 160 160s160-71.6 160-160c0-26.7-19.2-96-96-160l-32 32-64-64zm96 240.2c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-48 64-96 64-96s64 48 64 96z" />
+    </Icon>
+);
+
+export default SensorFire;

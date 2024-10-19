@@ -2,14 +2,14 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `battery-three-quarters` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `battery-three-quarters` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-three-quarters?s=duotone battery-three-quarters}
- * @preview ![battery-three-quarters](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU0NCAxOTJWMTYwQzU0NCAxMjQuNjU0IDUxNS4zNDYgOTYgNDgwIDk2SDY0QzI4LjY1NCA5NiAwIDEyNC42NTQgMCAxNjBWMzUyQzAgMzg3LjM0NiAyOC42NTQgNDE2IDY0IDQxNkg0ODBDNTE1LjM0NiA0MTYgNTQ0IDM4Ny4zNDYgNTQ0IDM1MlYzMjBDNTYxLjY3NCAzMjAgNTc2IDMwNS42NzQgNTc2IDI4OFYyMjRDNTc2IDIwNi4zMjYgNTYxLjY3NCAxOTIgNTQ0IDE5MlpNNDgwIDM1Mkg2NFYxNjBINDgwVjM1MloiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNMzUyIDE5Mkg5NlYzMjBIMzUyVjE5MloiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![battery-three-quarters](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE3NmMwLTQ0LjIgMzUuOC04MCA4MC04MGwzODQgMGM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDE2YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNjRjMCAxNy43LTE0LjMgMzItMzIgMzJsMCAxNmMwIDQ0LjItMzUuOCA4MC04MCA4MEw4MCA0MTZjLTQ0LjIgMC04MC0zNS44LTgwLTgwTDAgMTc2em02NCAwbDAgMTYwYzAgOC44IDcuMiAxNiAxNiAxNmwzODQgMGM4LjggMCAxNi03LjIgMTYtMTZsMC0xNjBjMC04LjgtNy4yLTE2LTE2LTE2TDgwIDE2MGMtOC44IDAtMTYgNy4yLTE2IDE2eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNOTYgMTkyaDI1NnYxMjhIOTZWMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const BatteryThreeQuarters: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M544 192V160C544 124.654 515.346 96 480 96H64C28.654 96 0 124.654 0 160V352C0 387.346 28.654 416 64 416H480C515.346 416 544 387.346 544 352V320C561.674 320 576 305.674 576 288V224C576 206.326 561.674 192 544 192ZM480 352H64V160H480V352Z" />
-            <path d="M352 192H96V320H352V192Z" />
+        <path class={generic.secondary} d="M0 176c0-44.2 35.8-80 80-80l384 0c44.2 0 80 35.8 80 80l0 16c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l0 16c0 44.2-35.8 80-80 80L80 416c-44.2 0-80-35.8-80-80L0 176zm64 0l0 160c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-160c0-8.8-7.2-16-16-16L80 160c-8.8 0-16 7.2-16 16z" />
+            <path d="M96 192h256v128H96V192z" />
     </Icon>
 );
 

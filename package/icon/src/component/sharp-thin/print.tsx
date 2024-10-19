@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `print` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/print?s=sharp-thin print}
+ * @preview ![print](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMTYwbC0xNiAwTDY0IDE2IDY0IDAgODAgMCAzODQgMGw2NCA2NCAwIDk2LTE2IDAgMC04OS40TDM3Ny40IDE2IDgwIDE2bDAgMTQ0em00MTYgNDhMMTYgMjA4bDAgMTkyIDQ4IDAgMC02NCAwLTE2IDE2IDAgMzUyIDAgMTYgMCAwIDE2IDAgNjQgNDggMCAwLTE5MnpNNDQ4IDQxNmwwIDgwIDAgMTYtMTYgMEw4MCA1MTJsLTE2IDAgMC0xNiAwLTgwLTQ4IDBMMCA0MTZsMC0xNkwwIDIwOGwwLTE2IDE2IDAgNDgwIDAgMTYgMCAwIDE2IDAgMTkyIDAgMTYtMTYgMC00OCAwek04MCAzMzZsMCAxNjAgMzUyIDAgMC0xNjBMODAgMzM2em0zNjgtNDhsLTMyIDAgMC0zMiAzMiAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Print: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M80 160l-16 0L64 16 64 0 80 0 384 0l64 64 0 96-16 0 0-89.4L377.4 16 80 16l0 144zm416 48L16 208l0 192 48 0 0-64 0-16 16 0 352 0 16 0 0 16 0 64 48 0 0-192zM448 416l0 80 0 16-16 0L80 512l-16 0 0-16 0-80-48 0L0 416l0-16L0 208l0-16 16 0 480 0 16 0 0 16 0 192 0 16-16 0-48 0zM80 336l0 160 352 0 0-160L80 336zm368-48l-32 0 0-32 32 0 0 32z" />
+    </Icon>
+);
+
+export default Print;

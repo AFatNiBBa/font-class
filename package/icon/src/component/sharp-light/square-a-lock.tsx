@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `square-a-lock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/square-a-lock?s=sharp-light square-a-lock}
+ * @preview ![square-a-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMzg0IDAgMCAxMDYuOGM5LjktNC43IDIwLjctOCAzMi05LjZMNDQ4IDY0bDAtMzItMzIgMEwzMiAzMiAwIDMyIDAgNjQgMCA0NDhsMCAzMiAzMiAwIDI4OCAwIDAtMzJMMzIgNDQ4IDMyIDY0em0yMDYuNSA3My4ybC00LjMtOS4yLTIwLjQgMC00LjMgOS4yTDk0IDM4NGwzNS4zIDAgMzAtNjQgMTI5LjUgMCAzMCA2NCAxLjMgMCAwLTcyLjdMMjM4LjUgMTM3LjJ6TTIyNCAxODEuN0wyNzMuOCAyODhsLTk5LjUgMEwyMjQgMTgxLjd6TTQ2NCAyMjRjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA0OC05NiAwIDAtNDhjMC0yNi41IDIxLjUtNDggNDgtNDh6bS04MCA0OGwwIDQ4LTMyIDAgMCAzMiAwIDEyOCAwIDMyIDMyIDAgMTYwIDAgMzIgMCAwLTMyIDAtMTI4IDAtMzItMzIgMCAwLTQ4YzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwem0wIDgwbDE2MCAwIDAgMTI4LTE2MCAwIDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const SquareALock: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M32 64l384 0 0 106.8c9.9-4.7 20.7-8 32-9.6L448 64l0-32-32 0L32 32 0 32 0 64 0 448l0 32 32 0 288 0 0-32L32 448 32 64zm206.5 73.2l-4.3-9.2-20.4 0-4.3 9.2L94 384l35.3 0 30-64 129.5 0 30 64 1.3 0 0-72.7L238.5 137.2zM224 181.7L273.8 288l-99.5 0L224 181.7zM464 224c26.5 0 48 21.5 48 48l0 48-96 0 0-48c0-26.5 21.5-48 48-48zm-80 48l0 48-32 0 0 32 0 128 0 32 32 0 160 0 32 0 0-32 0-128 0-32-32 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80zm0 80l160 0 0 128-160 0 0-128z" />
+    </Icon>
+);
+
+export default SquareALock;

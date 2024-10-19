@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `adn` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `adn` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/adn?s=brands adn}
- * @preview ![adn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNDggMTY3LjVsNjQuOSA5OC44SDE4My4xbDY0LjktOTguOHpNNDk2IDI1NmMwIDEzNi45LTExMS4xIDI0OC0yNDggMjQ4UzAgMzkyLjkgMCAyNTYgMTExLjEgOCAyNDggOHMyNDggMTExLjEgMjQ4IDI0OHptLTk5LjggODIuN0wyNDggMTE1LjUgOTkuOCAzMzguN2gzMC40bDMzLjYtNTEuN2gxNjguNmwzMy42IDUxLjdoMzAuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![adn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDE2Ny41bDY0LjkgOTguOEgxODMuMWw2NC45LTk4Ljh6TTQ5NiAyNTZjMCAxMzYuOS0xMTEuMSAyNDgtMjQ4IDI0OFMwIDM5Mi45IDAgMjU2IDExMS4xIDggMjQ4IDhzMjQ4IDExMS4xIDI0OCAyNDh6bS05OS44IDgyLjdMMjQ4IDExNS41IDk5LjggMzM4LjdoMzAuNGwzMy42LTUxLjdoMTY4LjZsMzMuNiA1MS43aDMwLjJ6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Adn: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

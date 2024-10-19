@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `paperclip` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/paperclip?s=sharp-regular paperclip}
+ * @preview ![paperclip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc1IDczYy0yNi0yNi02OC4xLTI2LTk0LjEgMEw4OSAyNjVDNDUuMyAzMDguNiA0NS4zIDM3OS40IDg5IDQyM3MxMTQuNCA0My42IDE1OC4xIDBMMzkxIDI3OWwxNy0xN0w0NDEuOSAyOTZsLTE3IDE3TDI4MSA0NTdjLTYyLjQgNjIuNC0xNjMuNSA2Mi40LTIyNS45IDBTLTcuNCAyOTMuNCA1NSAyMzFMMjQ3IDM5QzI5MS43LTUuNyAzNjQuMy01LjcgNDA5IDM5czQ0LjcgMTE3LjIgMCAxNjEuOUwyMjUuMiAzODQuN2MtMzEuNiAzMS42LTgzLjYgMjguNy0xMTEuNS02LjJjLTIzLjgtMjkuOC0yMS41LTcyLjggNS41LTk5LjhMMjcxIDEyN2wxNy0xN0wzMjEuOSAxNDRsLTE3IDE3TDE1My4yIDMxMi43Yy05LjcgOS43LTEwLjYgMjUuMS0yIDM1LjhjMTAgMTIuNSAyOC43IDEzLjYgNDAgMi4yTDM3NSAxNjdjMjYtMjYgMjYtNjguMSAwLTk0LjF6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Paperclip: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M375 73c-26-26-68.1-26-94.1 0L89 265C45.3 308.6 45.3 379.4 89 423s114.4 43.6 158.1 0L391 279l17-17L441.9 296l-17 17L281 457c-62.4 62.4-163.5 62.4-225.9 0S-7.4 293.4 55 231L247 39C291.7-5.7 364.3-5.7 409 39s44.7 117.2 0 161.9L225.2 384.7c-31.6 31.6-83.6 28.7-111.5-6.2c-23.8-29.8-21.5-72.8 5.5-99.8L271 127l17-17L321.9 144l-17 17L153.2 312.7c-9.7 9.7-10.6 25.1-2 35.8c10 12.5 28.7 13.6 40 2.2L375 167c26-26 26-68.1 0-94.1z" />
+    </Icon>
+);
+
+export default Paperclip;

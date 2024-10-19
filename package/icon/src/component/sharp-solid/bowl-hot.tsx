@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `bowl-hot` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/bowl-hot?s=sharp-solid bowl-hot}
+ * @preview ![bowl-hot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDI0YzAgMjYuNSAxMC41IDM4LjcgMjUuOSA1Ni4xbC40IC40QzIxOC44IDk5IDI0MCAxMjIuOSAyNDAgMTY4bDAgMjQtNDggMCAwLTI0YzAtMjYuNS0xMC41LTM4LjctMjUuOS01Ni4xbC0uNC0uNEMxNDkuMiA5MyAxMjggNjkuMSAxMjggMjRsMC0yNCA0OCAwIDAgMjR6bTEyOCAwYzAgMjYuNSAxMC41IDM4LjcgMjUuOSA1Ni4xbC40IC40QzM0Ni44IDk5IDM2OCAxMjIuOSAzNjggMTY4bDAgMjQtNDggMCAwLTI0YzAtMjYuNS0xMC41LTM4LjctMjUuOS01Ni4xbC0uNC0uNEMyNzcuMiA5MyAyNTYgNjkuMSAyNTYgMjRsMC0yNCA0OCAwIDAgMjR6TTMuNiAyODUuMkwwIDIyNGw1MTIgMC0zLjYgNjEuMkM1MDMuNSAzNjguMSA0NTQgNDM4LjIgMzg0IDQ3Mi45bDAgMzkuMS0yNTYgMCAwLTM5LjFDNTggNDM4LjIgOC41IDM2OC4xIDMuNiAyODUuMnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const BowlHot: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M176 24c0 26.5 10.5 38.7 25.9 56.1l.4 .4C218.8 99 240 122.9 240 168l0 24-48 0 0-24c0-26.5-10.5-38.7-25.9-56.1l-.4-.4C149.2 93 128 69.1 128 24l0-24 48 0 0 24zm128 0c0 26.5 10.5 38.7 25.9 56.1l.4 .4C346.8 99 368 122.9 368 168l0 24-48 0 0-24c0-26.5-10.5-38.7-25.9-56.1l-.4-.4C277.2 93 256 69.1 256 24l0-24 48 0 0 24zM3.6 285.2L0 224l512 0-3.6 61.2C503.5 368.1 454 438.2 384 472.9l0 39.1-256 0 0-39.1C58 438.2 8.5 368.1 3.6 285.2z" />
+    </Icon>
+);
+
+export default BowlHot;

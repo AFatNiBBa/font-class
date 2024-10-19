@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `chart-simple` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/chart-simple?s=regular chart-simple}
+ * @preview ![chart-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDgwbDAgMzUyLTMyIDAgMC0zNTIgMzIgMHpNMjA4IDMyYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDM1MmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwzMiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzUyYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0zMiAwek04MCAyNzJsMCAxNjAtMzIgMCAwLTE2MCAzMiAwek00OCAyMjRjLTI2LjUgMC00OCAyMS41LTQ4IDQ4TDAgNDMyYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNjBjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTMyIDB6bTMyMC04MGwzMiAwIDAgMjg4LTMyIDAgMC0yODh6bS00OCAwbDAgMjg4YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0yODhjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTMyIDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const ChartSimple: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M240 80l0 352-32 0 0-352 32 0zM208 32c-26.5 0-48 21.5-48 48l0 352c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-352c0-26.5-21.5-48-48-48l-32 0zM80 272l0 160-32 0 0-160 32 0zM48 224c-26.5 0-48 21.5-48 48L0 432c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48l-32 0zm320-80l32 0 0 288-32 0 0-288zm-48 0l0 288c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-32 0c-26.5 0-48 21.5-48 48z" />
+    </Icon>
+);
+
+export default ChartSimple;

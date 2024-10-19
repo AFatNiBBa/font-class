@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `wifi-exclamation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/wifi-exclamation?s=sharp-solid wifi-exclamation}
+ * @preview ![wifi-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk2IDMyMGw0OCAwTDM2OCAzMmwtOTYgMCAyNCAyODh6bTI0LjIgMzJsLS4zIDBjLTM1LjMgLjEtNjMuOCAyOC43LTYzLjggNjRjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NGMwLTM1LjMtMjguNi02My45LTYzLjgtNjR6bTY2LTE1Mi40bC01LjQgNjQuN2MzMi44IDkuMiA2Mi41IDI1LjcgODcuNCA0Ny43bDQyLjQtNDhjLTM0LjktMzAuOC03Ny40LTUzLjMtMTI0LjQtNjQuNHpNMjU5LjMgMjY0LjNsLTUuNC02NC43Yy00Ni45IDExLTg5LjQgMzMuNS0xMjQuNCA2NC40bDQyLjQgNDhjMjQuOS0yMS45IDU0LjYtMzguNCA4Ny40LTQ3Ljd6bTMyNi42LTYxLjRsNDQuMy00Ni4yQzU2Ny44IDk2LjkgNDg4LjIgNTQuOSAzOTkuNSAzOWwtNS4zIDY0LjFjNzMuNiAxNC40IDEzOS42IDQ5LjggMTkxLjcgOTkuN3ptLTM0MC05OS43TDI0MC41IDM5QzE1MS44IDU0LjkgNzIuMiA5Ni45IDkuOCAxNTYuN2w0NC4zIDQ2LjJjNTItNDkuOSAxMTguMS04NS40IDE5MS43LTk5Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const WifiExclamation: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M296 320l48 0L368 32l-96 0 24 288zm24.2 32l-.3 0c-35.3 .1-63.8 28.7-63.8 64c0 35.3 28.7 64 64 64s64-28.7 64-64c0-35.3-28.6-63.9-63.8-64zm66-152.4l-5.4 64.7c32.8 9.2 62.5 25.7 87.4 47.7l42.4-48c-34.9-30.8-77.4-53.3-124.4-64.4zM259.3 264.3l-5.4-64.7c-46.9 11-89.4 33.5-124.4 64.4l42.4 48c24.9-21.9 54.6-38.4 87.4-47.7zm326.6-61.4l44.3-46.2C567.8 96.9 488.2 54.9 399.5 39l-5.3 64.1c73.6 14.4 139.6 49.8 191.7 99.7zm-340-99.7L240.5 39C151.8 54.9 72.2 96.9 9.8 156.7l44.3 46.2c52-49.9 118.1-85.4 191.7-99.7z" />
+    </Icon>
+);
+
+export default WifiExclamation;

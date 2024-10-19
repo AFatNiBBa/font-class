@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `people-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/people-simple?s=duotone people-simple}
+ * @preview ![people-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCA2NGE2NCA2NCAwIDEgMCAxMjggMEE2NCA2NCAwIDEgMCA2NCA2NHptMjU2IDBhNjQgNjQgMCAxIDAgMTI4IDBBNjQgNjQgMCAxIDAgMzIwIDY0eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjUuOSAyMzMuNEMyOS4zIDE5MS45IDY0IDE2MCAxMDUuNiAxNjBsNDQuOCAwYzQxLjYgMCA3Ni4zIDMxLjkgNzkuNyA3My40bDQuMSA0OS4zYzIuNSAyOS44LTE1LjcgNTYuMS00Mi4yIDY1LjZMMTkyIDQ2NGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMzIgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0xMTUuN2MtMjYuNS05LjUtNDQuNy0zNS44LTQyLjItNjUuNmw0LjEtNDkuM3ptMjgwLjktMjYuOWM3LjgtMjcuNSAzMy00Ni40IDYxLjUtNDYuNGwzMS40IDBjMjguNiAwIDUzLjcgMTguOSA2MS41IDQ2LjRsMzkuMSAxMzYuOGM1LjggMjAuNC05LjUgNDAuOC0zMC44IDQwLjhMNDQ4IDM4NGwwIDgwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0zMiAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTgwLTIxLjYgMGMtMjEuMyAwLTM2LjYtMjAuMy0zMC44LTQwLjhsMzkuMS0xMzYuOHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const PeopleSimple: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M64 64a64 64 0 1 0 128 0A64 64 0 1 0 64 64zm256 0a64 64 0 1 0 128 0A64 64 0 1 0 320 64z" />
+            <path d="M25.9 233.4C29.3 191.9 64 160 105.6 160l44.8 0c41.6 0 76.3 31.9 79.7 73.4l4.1 49.3c2.5 29.8-15.7 56.1-42.2 65.6L192 464c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-115.7c-26.5-9.5-44.7-35.8-42.2-65.6l4.1-49.3zm280.9-26.9c7.8-27.5 33-46.4 61.5-46.4l31.4 0c28.6 0 53.7 18.9 61.5 46.4l39.1 136.8c5.8 20.4-9.5 40.8-30.8 40.8L448 384l0 80c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-80-21.6 0c-21.3 0-36.6-20.3-30.8-40.8l39.1-136.8z" />
+    </Icon>
+);
+
+export default PeopleSimple;

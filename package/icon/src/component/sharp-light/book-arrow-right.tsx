@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `book-arrow-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/book-arrow-right?s=sharp-light book-arrow-right}
+ * @preview ![book-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhzMCAwIDAgMGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzNjggMCAxNiAwIDAtMzItMTYgMC0xNiAwIDAtNjQgMTYgMCAxNiAwIDAtMTYgMC0xMjgtMzIgMCAwIDExMkw2NCAzODRjLTExLjcgMC0yMi42IDMuMS0zMiA4LjZMMzIgNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMzUyIDAgMCAxMTIgMzIgMCAwLTEyOCAwLTE2TDQzMiAwIDY0IDB6TTM4NCA0MTZsMCA2NEw2NCA0ODBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMzIwIDB6TTUzMS4zIDEwMC43TDUyMCA4OS40IDQ5Ny40IDExMmwxMS4zIDExLjNMNTc3LjQgMTkyIDI3MiAxOTJsLTE2IDAgMCAzMiAxNiAwIDMwNS40IDAtNjguNyA2OC43TDQ5Ny40IDMwNCA1MjAgMzI2LjZsMTEuMy0xMS4zIDk2LTk2TDYzOC42IDIwOGwtMTEuMy0xMS4zLTk2LTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const BookArrowRight: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M64 0C28.7 0 0 28.7 0 64L0 448s0 0 0 0c0 35.3 28.7 64 64 64l368 0 16 0 0-32-16 0-16 0 0-64 16 0 16 0 0-16 0-128-32 0 0 112L64 384c-11.7 0-22.6 3.1-32 8.6L32 64c0-17.7 14.3-32 32-32l352 0 0 112 32 0 0-128 0-16L432 0 64 0zM384 416l0 64L64 480c-17.7 0-32-14.3-32-32s14.3-32 32-32l320 0zM531.3 100.7L520 89.4 497.4 112l11.3 11.3L577.4 192 272 192l-16 0 0 32 16 0 305.4 0-68.7 68.7L497.4 304 520 326.6l11.3-11.3 96-96L638.6 208l-11.3-11.3-96-96z" />
+    </Icon>
+);
+
+export default BookArrowRight;

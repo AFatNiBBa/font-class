@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `house-building` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/house-building?s=sharp-regular house-building}
+ * @preview ![house-building](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDQ4bDI1NiAwIDAgNDE2LTE3NiAwIDAgNDggMTc2IDAgNDggMCAwLTQ4IDAtNDE2IDAtNDhMNTkyIDAgMzM2IDAgMjg4IDBsMCA0OCAwIDg2LjMgNDggNDBMMzM2IDQ4em04MCAyMDhsMzIgMCAwLTY0LTY0IDAgMCAyMi4zIDIwLjUgMTcuMUw0MTYgMjQxbDAgMTV6bTAgOTZsMzIgMCAwLTY0LTMyIDAgMCA2NHptNjQtMTYwbDAgNjQgNjQgMCAwLTY0LTY0IDB6bTY0IDk2bC02NCAwIDAgNjQgNjQgMCAwLTY0ek00NDggOTZsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bTMyIDBsMCA2NCA2NCAwIDAtNjQtNjQgMHpNNDggMjc4LjVsMTQ0LTEyMCAxNDQgMTIwTDMzNiA0NjQgNDggNDY0bDAtMTg1LjV6TTAgMjU2TDAgNDY0bDAgNDggNDggMCAyODggMCA0OCAwIDAtNDggMC0yMDhMMTkyIDk2IDAgMjU2em0yNDAgMTZsLTk2IDAgMCA5NiA5NiAwIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const HouseBuilding: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M336 48l256 0 0 416-176 0 0 48 176 0 48 0 0-48 0-416 0-48L592 0 336 0 288 0l0 48 0 86.3 48 40L336 48zm80 208l32 0 0-64-64 0 0 22.3 20.5 17.1L416 241l0 15zm0 96l32 0 0-64-32 0 0 64zm64-160l0 64 64 0 0-64-64 0zm64 96l-64 0 0 64 64 0 0-64zM448 96l-64 0 0 64 64 0 0-64zm32 0l0 64 64 0 0-64-64 0zM48 278.5l144-120 144 120L336 464 48 464l0-185.5zM0 256L0 464l0 48 48 0 288 0 48 0 0-48 0-208L192 96 0 256zm240 16l-96 0 0 96 96 0 0-96z" />
+    </Icon>
+);
+
+export default HouseBuilding;

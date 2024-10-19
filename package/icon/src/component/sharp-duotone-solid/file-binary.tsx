@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `file-binary` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/file-binary?s=sharp-duotone-solid file-binary}
+ * @preview ![file-binary](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDBMMjI0IDBjMCA1My4zIDAgMTA2LjcgMCAxNjBsMTYwIDAgMCAzNTJMMCA1MTIgMCAwek02NCAyNTZsMCAxNiAwIDEyOCAwIDE2IDE2IDAgOTYgMCAxNiAwIDAtMTYgMC0xMjggMC0xNi0xNiAwLTk2IDAtMTYgMHptMzIgMzJsNjQgMCAwIDk2LTY0IDAgMC05NnptMTI4LTMybDAgMzIgMTYgMCAxNiAwIDAgOTYtMTYgMC0xNiAwIDAgMzIgMTYgMCAzMiAwIDMyIDAgMTYgMCAwLTMyLTE2IDAtMTYgMCAwLTExMiAwLTE2LTE2IDAtMzIgMC0xNiAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzg0IDE2MEwyMjQgMGwwIDE2MCAxNjAgMHpNODAgMjU2bC0xNiAwIDAgMTYgMCAxMjggMCAxNiAxNiAwIDk2IDAgMTYgMCAwLTE2IDAtMTI4IDAtMTYtMTYgMC05NiAwek05NiAzODRsMC05NiA2NCAwIDAgOTYtNjQgMHpNMjQwIDI1NmwtMTYgMCAwIDMyIDE2IDAgMTYgMCAwIDk2LTE2IDAtMTYgMCAwIDMyIDE2IDAgMzIgMCAzMiAwIDE2IDAgMC0zMi0xNiAwLTE2IDAgMC0xMTIgMC0xNi0xNiAwLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const FileBinary: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path class={generic.secondary} d="M0 0L224 0c0 53.3 0 106.7 0 160l160 0 0 352L0 512 0 0zM64 256l0 16 0 128 0 16 16 0 96 0 16 0 0-16 0-128 0-16-16 0-96 0-16 0zm32 32l64 0 0 96-64 0 0-96zm128-32l0 32 16 0 16 0 0 96-16 0-16 0 0 32 16 0 32 0 32 0 16 0 0-32-16 0-16 0 0-112 0-16-16 0-32 0-16 0z" />
+            <path d="M384 160L224 0l0 160 160 0zM80 256l-16 0 0 16 0 128 0 16 16 0 96 0 16 0 0-16 0-128 0-16-16 0-96 0zM96 384l0-96 64 0 0 96-64 0zM240 256l-16 0 0 32 16 0 16 0 0 96-16 0-16 0 0 32 16 0 32 0 32 0 16 0 0-32-16 0-16 0 0-112 0-16-16 0-32 0z" />
+    </Icon>
+);
+
+export default FileBinary;

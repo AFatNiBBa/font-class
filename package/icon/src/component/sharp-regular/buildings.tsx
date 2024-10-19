@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `buildings` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/buildings?s=sharp-regular buildings}
+ * @preview ![buildings](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDQ4bDAgNDE2LTE5MiAwIDAtNDE2IDE5MiAwek0yNzIgMEwyMjQgMGwwIDQ4IDAgNDE2IDAgNDggNDggMCAxOTIgMCA0OCAwIDAtNDggMC00MTYgMC00OEw0NjQgMCAyNzIgMHpNMTkyIDEyOEwyNCAxMjggMCAxMjhsMCAyNEwwIDQ4OGwwIDI0IDI0IDAgMTY4IDAgMC00OEw0OCA0NjRsMC0yODggMTQ0IDAgMC00OHpNMTYwIDMyMGwtNjQgMCAwIDY0IDY0IDAgMC02NHptMTc2IDMybDY0IDAgMC02NC02NCAwIDAgNjR6TTE2MCAyMjRsLTY0IDAgMCA2NCA2NCAwIDAtNjR6TTMzNiA5NmwwIDY0IDY0IDAgMC02NC02NCAwem02NCAxNjBsMC02NC02NCAwIDAgNjQgNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Buildings: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M464 48l0 416-192 0 0-416 192 0zM272 0L224 0l0 48 0 416 0 48 48 0 192 0 48 0 0-48 0-416 0-48L464 0 272 0zM192 128L24 128 0 128l0 24L0 488l0 24 24 0 168 0 0-48L48 464l0-288 144 0 0-48zM160 320l-64 0 0 64 64 0 0-64zm176 32l64 0 0-64-64 0 0 64zM160 224l-64 0 0 64 64 0 0-64zM336 96l0 64 64 0 0-64-64 0zm64 160l0-64-64 0 0 64 64 0z" />
+    </Icon>
+);
+
+export default Buildings;

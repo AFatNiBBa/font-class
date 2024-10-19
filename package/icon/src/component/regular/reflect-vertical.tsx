@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `reflect-vertical` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/reflect-vertical?s=regular reflect-vertical}
+ * @preview ![reflect-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZjMC0xMy4zIDEwLjctMjQgMjQtMjRsNDY0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRMMjQgMjgwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHpNMTY2LjYgNDY0bDE3OC43IDBMMjU2IDM3NC42IDE2Ni42IDQ2NHpNMTI4IDUxMmMtMTIuOSAwLTI0LjYtNy44LTI5LjYtMTkuOHMtMi4yLTI1LjcgNi45LTM0LjlsMTI4LTEyOGMxMi41LTEyLjUgMzIuOC0xMi41IDQ1LjMgMGwxMjggMTI4YzkuMiA5LjIgMTEuOSAyMi45IDYuOSAzNC45cy0xNi42IDE5LjgtMjkuNiAxOS44bC0yNTYgMHpNMjU2IDEzNy40TDM0NS40IDQ4IDE2Ni42IDQ4IDI1NiAxMzcuNHpNOTguNCAxOS44QzEwMy40IDcuOCAxMTUuMSAwIDEyOCAwTDM4NCAwYzEyLjkgMCAyNC42IDcuOCAyOS42IDE5LjhzMi4yIDI1LjctNi45IDM0LjlsLTEyOCAxMjhjLTEyLjUgMTIuNS0zMi44IDEyLjUtNDUuMyAwbC0xMjgtMTI4Yy05LjItOS4yLTExLjktMjIuOS02LjktMzQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ReflectVertical: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M0 256c0-13.3 10.7-24 24-24l464 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 280c-13.3 0-24-10.7-24-24zM166.6 464l178.7 0L256 374.6 166.6 464zM128 512c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8l-256 0zM256 137.4L345.4 48 166.6 48 256 137.4zM98.4 19.8C103.4 7.8 115.1 0 128 0L384 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9z" />
+    </Icon>
+);
+
+export default ReflectVertical;

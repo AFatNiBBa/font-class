@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `chart-candlestick` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/chart-candlestick?s=sharp-light chart-candlestick}
+ * @preview ![chart-candlestick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDhsMC0xNkwwIDMyIDAgNDggMCA0NjRsMCAxNiAxNiAwIDQ4MCAwIDE2IDAgMC0zMi0xNiAwTDMyIDQ0OCAzMiA0OHptMjg4IDBsMC0xNi0zMiAwIDAgMTYgMCA0OC0zMiAwIDAgMzIgMCA5NiAwIDMyIDMyIDAgMCA0OCAwIDE2IDMyIDAgMC0xNiAwLTQ4IDMyIDAgMC0zMiAwLTk2IDAtMzItMzIgMCAwLTQ4ek0xOTIgNjRsLTMyIDAgMCAxNiAwIDQ4LTMyIDAgMCAzMiAwIDEyOCAwIDMyIDMyIDAgMCA0OCAwIDE2IDMyIDAgMC0xNiAwLTQ4IDMyIDAgMC0zMiAwLTEyOCAwLTMyLTMyIDAgMC00OCAwLTE2em0xMjggNjRsMCA5Ni0zMiAwIDAtOTYgMzIgMHptMTI4IDk2bDAgNjQtMzIgMCAwLTY0IDMyIDB6bS0zMi0zMmwtMzIgMCAwIDMyIDAgNjQgMCAzMiAzMiAwIDAgNDggMCAxNiAzMiAwIDAtMTYgMC00OCAzMiAwIDAtMzIgMC02NCAwLTMyLTMyIDAgMC00OCAwLTE2LTMyIDAgMCAxNiAwIDQ4ek0xNjAgMTYwbDMyIDAgMCAxMjgtMzIgMCAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ChartCandlestick: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M32 48l0-16L0 32 0 48 0 464l0 16 16 0 480 0 16 0 0-32-16 0L32 448 32 48zm288 0l0-16-32 0 0 16 0 48-32 0 0 32 0 96 0 32 32 0 0 48 0 16 32 0 0-16 0-48 32 0 0-32 0-96 0-32-32 0 0-48zM192 64l-32 0 0 16 0 48-32 0 0 32 0 128 0 32 32 0 0 48 0 16 32 0 0-16 0-48 32 0 0-32 0-128 0-32-32 0 0-48 0-16zm128 64l0 96-32 0 0-96 32 0zm128 96l0 64-32 0 0-64 32 0zm-32-32l-32 0 0 32 0 64 0 32 32 0 0 48 0 16 32 0 0-16 0-48 32 0 0-32 0-64 0-32-32 0 0-48 0-16-32 0 0 16 0 48zM160 160l32 0 0 128-32 0 0-128z" />
+    </Icon>
+);
+
+export default ChartCandlestick;

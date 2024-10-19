@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `ski-boot-ski` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/ski-boot-ski?s=sharp-thin ski-boot-ski}
+ * @preview ![ski-boot-ski](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg1LjMgMGwtNS43IDMyTDE2MCAzMmwtNi42IDAtMS4zIDYuNS03MiAzNjhMNzguMyA0MTZsOS43IDAgMzg0IDAgOCAwIDAtOCAwLTEyMCAwLTUuMS00LjYtMi4yTDM2MSAyMjcuNCA0MDEuNiAwIDM4NS4zIDB6TTI1OS4yIDQ4bDExNy42IDAtMjAgMTEyTDI5NiAxNjBsLTggMCAwIDE2IDggMCA1Ny45IDAtOC42IDQ4TDI4MCAyMjRsLTggMCAwIDE2IDggMCA3MC4yIDBMNDY0IDI5My4xIDQ2NCA0MDAgOTcuNyA0MDAgMTI5IDI0MGw3IDAgNzYuNyAwIDYuNSAwIDEuMy02LjRMMjU4LjcgNTAuMWwuNC0yLjF6bS0xNi4zIDBMMjA2LjIgMjI0IDEzNiAyMjRsLTMuOCAwTDE2Ni42IDQ4bDc2LjIgMHpNNjQwIDQyNGwwLTgtMTYgMCAwIDggMCA3Mkw4IDQ5NmwtOCAwIDAgMTYgOCAwIDYyNCAwIDggMCAwLTggMC04MHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const SkiBootSki: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M385.3 0l-5.7 32L160 32l-6.6 0-1.3 6.5-72 368L78.3 416l9.7 0 384 0 8 0 0-8 0-120 0-5.1-4.6-2.2L361 227.4 401.6 0 385.3 0zM259.2 48l117.6 0-20 112L296 160l-8 0 0 16 8 0 57.9 0-8.6 48L280 224l-8 0 0 16 8 0 70.2 0L464 293.1 464 400 97.7 400 129 240l7 0 76.7 0 6.5 0 1.3-6.4L258.7 50.1l.4-2.1zm-16.3 0L206.2 224 136 224l-3.8 0L166.6 48l76.2 0zM640 424l0-8-16 0 0 8 0 72L8 496l-8 0 0 16 8 0 624 0 8 0 0-8 0-80z" />
+    </Icon>
+);
+
+export default SkiBootSki;

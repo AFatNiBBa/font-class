@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `equals` icon from the `regular` section of Font Awesome 6 Pro
+ * A component that renders the `equals` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/equals?s=regular equals}
- * @preview ![equals](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00MDggMzI4SDQwQzI2Ljc1IDMyOCAxNiAzMzguNzUgMTYgMzUyUzI2Ljc1IDM3NiA0MCAzNzZINDA4QzQyMS4yNSAzNzYgNDMyIDM2NS4yNSA0MzIgMzUyUzQyMS4yNSAzMjggNDA4IDMyOFpNNDAgMTg0SDQwOEM0MjEuMjUgMTg0IDQzMiAxNzMuMjUgNDMyIDE2MFM0MjEuMjUgMTM2IDQwOCAxMzZINDBDMjYuNzUgMTM2IDE2IDE0Ni43NSAxNiAxNjBTMjYuNzUgMTg0IDQwIDE4NFoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![equals](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAgMTQ0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDM2OCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDQwIDE0NHptMCAxNzZjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMzY4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMNDAgMzIweiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Equals: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M408 328H40C26.75 328 16 338.75 16 352S26.75 376 40 376H408C421.25 376 432 365.25 432 352S421.25 328 408 328ZM40 184H408C421.25 184 432 173.25 432 160S421.25 136 408 136H40C26.75 136 16 146.75 16 160S26.75 184 40 184Z" />
+        <path d="M40 144c-13.3 0-24 10.7-24 24s10.7 24 24 24l368 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L40 144zm0 176c-13.3 0-24 10.7-24 24s10.7 24 24 24l368 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L40 320z" />
     </Icon>
 );
 

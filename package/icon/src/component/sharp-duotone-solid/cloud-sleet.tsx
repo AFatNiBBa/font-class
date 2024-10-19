@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `cloud-sleet` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/cloud-sleet?s=sharp-duotone-solid cloud-sleet}
+ * @preview ![cloud-sleet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDUxMmw0OCAwIDcyLTE2MC00OCAwTDAgNTEyek0xMjggMzkybDAgNDggMjQgMCAxNiAwIDAgMTYgMCAyNCA0OCAwIDAtMjQgMC0xNiAxNiAwIDI0IDAgMC00OC0yNCAwLTE2IDAgMC0xNiAwLTI0LTQ4IDAgMCAyNCAwIDE2LTE2IDAtMjQgMHpNMjU2IDUxMmw0OCAwIDcyLTE2MC00OCAwTDI1NiA1MTJ6TTM4NCAzOTJsMCA0OCAyNCAwIDE2IDAgMCAxNiAwIDI0IDQ4IDAgMC0yNCAwLTE2IDE2IDAgMjQgMCAwLTQ4LTI0IDAtMTYgMCAwLTE2IDAtMjQtNDggMCAwIDI0IDAgMTYtMTYgMC0yNCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMCAzMjBsOTYgMCAzMjAgMCA5NiAwIDAtOTZjMC01My00My05Ni05Ni05NmwwLTE2YzAtNDQuMi0zNS44LTgwLTgwLTgwYy0yNC4zIDAtNDYuMSAxMC45LTYwLjggMjhDMjU2LjUgMjQuMyAyMTkuMSAwIDE3NiAwQzExNC4xIDAgNjQgNTAuMSA2NCAxMTJsMCAyMS41QzI2LjcgMTQ2LjYgMCAxODIuMiAwIDIyNGwwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const CloudSleet: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M0 512l48 0 72-160-48 0L0 512zM128 392l0 48 24 0 16 0 0 16 0 24 48 0 0-24 0-16 16 0 24 0 0-48-24 0-16 0 0-16 0-24-48 0 0 24 0 16-16 0-24 0zM256 512l48 0 72-160-48 0L256 512zM384 392l0 48 24 0 16 0 0 16 0 24 48 0 0-24 0-16 16 0 24 0 0-48-24 0-16 0 0-16 0-24-48 0 0 24 0 16-16 0-24 0z" />
+            <path d="M0 320l96 0 320 0 96 0 0-96c0-53-43-96-96-96l0-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C256.5 24.3 219.1 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 96z" />
+    </Icon>
+);
+
+export default CloudSleet;

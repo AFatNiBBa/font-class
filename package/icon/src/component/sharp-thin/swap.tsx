@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `swap` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/swap?s=sharp-thin swap}
+ * @preview ![swap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTEwLjZsODAtODAgODAgODAgMCAxNy40TDMyIDEyOGwwLTE3LjR6bTY4LjctOTEuM0wxNiAxMDRsMCAyNCAwIDE2IDE2IDAgNzIgMCAwIDMyOCAwIDggOCAwIDIwOCAwIDggMCAwLTggMC00MjQgMTkyIDAgMCAzMjAtNzIgMC0xNiAwIDAgMTYgMCAyNCA4NC43IDg0LjdMNTI4IDUwNGwxMS4zLTExLjNMNjI0IDQwOGwwLTI0IDAtMTYtMTYgMC03MiAwIDAtMzI4IDAtOC04IDBMMzIwIDMybC04IDAgMCA4IDAgNDI0LTE5MiAwIDAtMzIwIDcyIDAgMTYgMCAwLTE2IDAtMjRMMTIzLjMgMTkuMyAxMTIgOCAxMDAuNyAxOS4zek00NDggNDAxLjRsMC0xNy40IDE2MCAwIDAgMTcuNC04MCA4MC04MC04MHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const Swap: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M32 110.6l80-80 80 80 0 17.4L32 128l0-17.4zm68.7-91.3L16 104l0 24 0 16 16 0 72 0 0 328 0 8 8 0 208 0 8 0 0-8 0-424 192 0 0 320-72 0-16 0 0 16 0 24 84.7 84.7L528 504l11.3-11.3L624 408l0-24 0-16-16 0-72 0 0-328 0-8-8 0L320 32l-8 0 0 8 0 424-192 0 0-320 72 0 16 0 0-16 0-24L123.3 19.3 112 8 100.7 19.3zM448 401.4l0-17.4 160 0 0 17.4-80 80-80-80z" />
+    </Icon>
+);
+
+export default Swap;

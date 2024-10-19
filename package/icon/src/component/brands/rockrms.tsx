@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `rockrms` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `rockrms` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rockrms?s=brands rockrms}
- * @preview ![rockrms](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNDggOEMxMTEgOCAwIDExOSAwIDI1NnMxMTEgMjQ4IDI0OCAyNDggMjQ4LTExMSAyNDgtMjQ4UzM4NSA4IDI0OCA4em0xNTcuNCA0MTkuNWgtOTBsLTExMi0xMzEuM2MtMTcuOS0yMC40LTMuOS01Ni4xIDI2LjYtNTYuMWg3NS4zbC04NC42LTk5LjMtODQuMyA5OC45aC05MEwxOTMuNSA2Ny4yYzE0LjQtMTguNCA0MS4zLTE3LjMgNTQuNSAwbDE1Ny43IDE4NS4xYzE5IDIyLjggMiA1Ny4yLTI3LjYgNTYuMS0uNiAwLTc0LjIuMi03NC4yLjJsMTAxLjUgMTE4Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rockrms](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDhDMTExIDggMCAxMTkgMCAyNTZzMTExIDI0OCAyNDggMjQ4IDI0OC0xMTEgMjQ4LTI0OFMzODUgOCAyNDggOHptMTU3LjQgNDE5LjVoLTkwbC0xMTItMTMxLjNjLTE3LjktMjAuNC0zLjktNTYuMSAyNi42LTU2LjFoNzUuM2wtODQuNi05OS4zLTg0LjMgOTguOWgtOTBMMTkzLjUgNjcuMmMxNC40LTE4LjQgNDEuMy0xNy4zIDU0LjUgMGwxNTcuNyAxODUuMWMxOSAyMi44IDIgNTcuMi0yNy42IDU2LjEtLjYgMC03NC4yLjItNzQuMi4ybDEwMS41IDExOC45eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Rockrms: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

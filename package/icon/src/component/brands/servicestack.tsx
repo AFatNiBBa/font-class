@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `servicestack` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `servicestack` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/servicestack?s=brands servicestack}
- * @preview ![servicestack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik04OCAyMTZjODEuNyAxMC4yIDI3My43IDEwMi4zIDMwNCAyMzJIMGM5OS41LTguMSAxODQuNS0xMzcgODgtMjMyem0zMi0xNTJjMzIuMyAzNS42IDQ3LjcgODMuOSA0Ni40IDEzMy42QzI0OS4zIDIzMS4zIDM3My43IDMyMS4zIDQwMCA0NDhoOTZDNDU1LjMgMjMxLjkgMjIyLjggNzkuNSAxMjAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![servicestack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMjE2YzgxLjcgMTAuMiAyNzMuNyAxMDIuMyAzMDQgMjMySDBjOTkuNS04LjEgMTg0LjUtMTM3IDg4LTIzMnptMzItMTUyYzMyLjMgMzUuNiA0Ny43IDgzLjkgNDYuNCAxMzMuNkMyNDkuMyAyMzEuMyAzNzMuNyAzMjEuMyA0MDAgNDQ4aDk2QzQ1NS4zIDIzMS45IDIyMi44IDc5LjUgMTIwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Servicestack: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

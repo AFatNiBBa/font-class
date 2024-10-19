@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `peace` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/peace?s=sharp-regular peace}
+ * @preview ![peace](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDQ2Mi42bDAtMTU2TDExMS4zIDQwNS40YzMyIDMxIDc0IDUxLjkgMTIwLjcgNTcuMnpNODAuOSAzNjguM0wyMzIgMjQ0LjZsMC0xOTUuM0MxMjguNCA2MS4zIDQ4IDE0OS4yIDQ4IDI1NmMwIDQxLjQgMTIuMSA3OS45IDMyLjkgMTEyLjN6bTMxOS44IDM3LjFMMjgwIDMwNi42bDAgMTU2YzQ2LjctNS40IDg4LjctMjYuMiAxMjAuNy01Ny4yem0zMC40LTM3LjFDNDUxLjkgMzM1LjkgNDY0IDI5Ny40IDQ2NCAyNTZjMC0xMDYuOC04MC40LTE5NC43LTE4NC0yMDYuNmwwIDE5NS4zTDQzMS4xIDM2OC4zek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Peace: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M232 462.6l0-156L111.3 405.4c32 31 74 51.9 120.7 57.2zM80.9 368.3L232 244.6l0-195.3C128.4 61.3 48 149.2 48 256c0 41.4 12.1 79.9 32.9 112.3zm319.8 37.1L280 306.6l0 156c46.7-5.4 88.7-26.2 120.7-57.2zm30.4-37.1C451.9 335.9 464 297.4 464 256c0-106.8-80.4-194.7-184-206.6l0 195.3L431.1 368.3zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
+    </Icon>
+);
+
+export default Peace;

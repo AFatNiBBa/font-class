@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `soft-serve` icon from the `solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/soft-serve?s=solid soft-serve}
+ * @preview ![soft-serve](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDBjLTYuNSAwLTEyLjMgMy45LTE0LjggOS45cy0xLjEgMTIuOSAzLjUgMTcuNGw2LjEgNi4xYzMuNCAzLjQgNS4zIDcuOSA1LjMgMTIuN0MyMDggNTYgMjAwIDY0IDE5MC4xIDY0TDEyOCA2NGMtMzUuMyAwLTY0IDI4LjctNjQgNjRjMCAxMS44IDMuMiAyMi45IDguOCAzMi40QzQwLjggMTY0IDE2IDE5MS4xIDE2IDIyNGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyMjQgMGMzNS4zIDAgNjQtMjguNyA2NC02NHMtMjguNy02NC02NC02NGwtMi4zIDBjMTEuNS0xNC40IDE4LjMtMzIuNyAxOC4zLTUyLjZDMzIwIDQ4LjEgMjcxLjkgMCAyMTIuNiAwTDIwOCAwek00OCAzMjBsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxLjggMCAxMS4xIDk5LjVjMS44IDE2LjIgMTUuNSAyOC41IDMxLjggMjguNWwxMzQuNyAwYzE2LjMgMCAzMC0xMi4zIDMxLjgtMjguNUwzMDIuMiAzODRsMS44IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0zMkw0OCAzMjB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const SoftServe: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M208 0c-6.5 0-12.3 3.9-14.8 9.9s-1.1 12.9 3.5 17.4l6.1 6.1c3.4 3.4 5.3 7.9 5.3 12.7C208 56 200 64 190.1 64L128 64c-35.3 0-64 28.7-64 64c0 11.8 3.2 22.9 8.8 32.4C40.8 164 16 191.1 16 224c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64s-28.7-64-64-64l-2.3 0c11.5-14.4 18.3-32.7 18.3-52.6C320 48.1 271.9 0 212.6 0L208 0zM48 320l0 32c0 17.7 14.3 32 32 32l1.8 0 11.1 99.5c1.8 16.2 15.5 28.5 31.8 28.5l134.7 0c16.3 0 30-12.3 31.8-28.5L302.2 384l1.8 0c17.7 0 32-14.3 32-32l0-32L48 320z" />
+    </Icon>
+);
+
+export default SoftServe;

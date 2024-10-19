@@ -2,13 +2,13 @@
 import { Icon, generic } from "../../index";
 
 /**
- * A component that renders the `p` icon from the `duotone` section of Font Awesome 6 Pro
+ * A component that renders the `p` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/p?s=duotone p}
- * @preview ![p](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQ4IDQ4MEMyMS41IDQ4MCAwIDQ1OC41IDAgNDMyVjgwQzAgNTMuNSAyMS41IDMyIDQ4IDMySDE2MEMyNDguMjE5IDMyIDMyMCAxMDMuNzgxIDMyMCAxOTJTMjQ4LjIxOSAzNTIgMTYwIDM1Mkg5NlY0MzJDOTYgNDU4LjUgNzQuNSA0ODAgNDggNDgwWk05NiAyNTZIMTYwQzE5NS4yODEgMjU2IDIyNCAyMjcuMjgxIDIyNCAxOTJTMTk1LjI4MSAxMjggMTYwIDEyOEg5NlYyNTZaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![p](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDk2IDBjODguNCAwIDE2MCA3MS42IDE2MCAxNjBzLTcxLjYgMTYwLTE2MCAxNjBsLTk2IDAgMCA5NmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMkwwIDMyMCAwIDk2ek02NCAyODhsOTYgMGM1MyAwIDk2LTQzIDk2LTk2cy00My05Ni05Ni05Nkw2NCA5NmwwIDE5MnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
  */
 const P: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M48 480C21.5 480 0 458.5 0 432V80C0 53.5 21.5 32 48 32H160C248.219 32 320 103.781 320 192S248.219 352 160 352H96V432C96 458.5 74.5 480 48 480ZM96 256H160C195.281 256 224 227.281 224 192S195.281 128 160 128H96V256Z" />
+        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l96 0c88.4 0 160 71.6 160 160s-71.6 160-160 160l-96 0 0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32L0 320 0 96zM64 288l96 0c53 0 96-43 96-96s-43-96-96-96L64 96l0 192z" />
     </Icon>
 );
 

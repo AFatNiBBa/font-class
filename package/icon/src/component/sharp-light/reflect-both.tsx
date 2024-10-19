@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `reflect-both` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/reflect-both?s=sharp-light reflect-both}
+ * @preview ![reflect-both](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc4LjYgMTY5LjRMMjU2IDE5MmwtMjIuNi0yMi42TDk2IDMyIDk2IDBsMzIgMEwzODQgMGwzMiAwIDAgMzJMMjc4LjYgMTY5LjR6TTM3MC43IDMyTDE0MS4zIDMyIDI1NiAxNDYuNyAzNzAuNyAzMnpNMTkyIDI1NmwtMjIuNiAyMi42TDMyIDQxNiAwIDQxNmwwLTMyTDAgMTI4IDAgOTZsMzIgMEwxNjkuNCAyMzMuNCAxOTIgMjU2em0tNDUuMyAwTDMyIDE0MS4zbDAgMjI5LjVMMTQ2LjcgMjU2ek0zMjAgMjU2bDIyLjYtMjIuNkw0ODAgOTZsMzIgMCAwIDMyIDAgMjU2IDAgMzItMzIgMEwzNDIuNiAyNzguNiAzMjAgMjU2em00NS4zIDBMNDgwIDM3MC43bDAtMjI5LjVMMzY1LjMgMjU2ek0yNTYgMzIwbDIyLjYgMjIuNkw0MTYgNDgwbDAgMzItMzIgMC0yNTYgMC0zMiAwIDAtMzJMMjMzLjQgMzQyLjYgMjU2IDMyMHptMCA0NS4zTDE0MS4zIDQ4MGwyMjkuNSAwTDI1NiAzNjUuM3oiLz48L3N2Zz4=|width=32|height=32)
+ */
+const ReflectBoth: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M278.6 169.4L256 192l-22.6-22.6L96 32 96 0l32 0L384 0l32 0 0 32L278.6 169.4zM370.7 32L141.3 32 256 146.7 370.7 32zM192 256l-22.6 22.6L32 416 0 416l0-32L0 128 0 96l32 0L169.4 233.4 192 256zm-45.3 0L32 141.3l0 229.5L146.7 256zM320 256l22.6-22.6L480 96l32 0 0 32 0 256 0 32-32 0L342.6 278.6 320 256zm45.3 0L480 370.7l0-229.5L365.3 256zM256 320l22.6 22.6L416 480l0 32-32 0-256 0-32 0 0-32L233.4 342.6 256 320zm0 45.3L141.3 480l229.5 0L256 365.3z" />
+    </Icon>
+);
+
+export default ReflectBoth;

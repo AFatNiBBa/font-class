@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `person-carry-box` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-carry-box?s=sharp-regular person-carry-box}
+ * @preview ![person-carry-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTZBNDggNDggMCAxIDAgODAgMGE0OCA0OCAwIDEgMCAwIDk2ek0wIDQ4OGwwIDI0IDQ4IDAgMC0yNCAwLTEwOS45TDEuNiAzNDEuNmMtLjUtLjQtMS4xLS45LTEuNi0xLjNMMCA0ODh6TTI0IDEyOEwwIDEyOGwwIDI0TDAgMjcyLjRjMCAxNy4yIDcuOSAzMy40IDIxLjQgNDRsOTIuMiA3Mi40TDEzMS4yIDUxMmw0OC41IDBMMTU5LjggMzcyLjZsLTEuNC05LjUtNy42LTUuOUwxMjAgMzMyLjlsMC00LjkgMC04MS44TDEzOS44IDI3N2w3LjEgMTEgMTMuMSAwIDMyIDAgNDAgMCA4IDAgMTYgMCA4MCAwIDQ4IDAgMC00OCAwLTk2IDAtNDgtNDggMC05NiAwLTQ4IDAgMCA0OCAwIDk2LTE4LjkgMEwxMDguMiAxMzlsLTcuMS0xMUw4OCAxMjhsLTY0IDB6TTI0MCAyNDBsMC05NiA5NiAwIDAgOTYtODAgMC0xNiAwek03MiAxODRsMCAxMTEuMkw1MS4xIDI3OC43Yy0xLjktMS41LTMuMS0zLjgtMy4xLTYuM0w0OCAxNzZsMjQgMCAwIDh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const PersonCarryBox: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M80 96A48 48 0 1 0 80 0a48 48 0 1 0 0 96zM0 488l0 24 48 0 0-24 0-109.9L1.6 341.6c-.5-.4-1.1-.9-1.6-1.3L0 488zM24 128L0 128l0 24L0 272.4c0 17.2 7.9 33.4 21.4 44l92.2 72.4L131.2 512l48.5 0L159.8 372.6l-1.4-9.5-7.6-5.9L120 332.9l0-4.9 0-81.8L139.8 277l7.1 11 13.1 0 32 0 40 0 8 0 16 0 80 0 48 0 0-48 0-96 0-48-48 0-96 0-48 0 0 48 0 96-18.9 0L108.2 139l-7.1-11L88 128l-64 0zM240 240l0-96 96 0 0 96-80 0-16 0zM72 184l0 111.2L51.1 278.7c-1.9-1.5-3.1-3.8-3.1-6.3L48 176l24 0 0 8z" />
+    </Icon>
+);
+
+export default PersonCarryBox;

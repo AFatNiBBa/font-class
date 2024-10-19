@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `tennis-ball` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/tennis-ball?s=sharp-thin tennis-ball}
+ * @preview ![tennis-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY2LjUgNDk1LjhjLTkuOC02MS4yIDguOS0xMjYgNTYuMS0xNzMuMnMxMTItNjUuOCAxNzMuMi01Ni4xYy4yLTMuNSAuMi03IC4yLTEwLjVDNDk2IDEyMy41IDM4OC41IDE2IDI1NiAxNmMtMy41IDAtNyAuMS0xMC41IC4yYzkuOCA2MS4yLTguOSAxMjYtNTYuMSAxNzMuMnMtMTEyIDY1LjgtMTczLjIgNTYuMWMtLjIgMy41LS4yIDctLjIgMTAuNWMwIDEzMi41IDEwNy41IDI0MCAyNDAgMjQwYzMuNSAwIDctLjEgMTAuNS0uMnptMTYtMS4yYzExMS4zLTEyLjIgMTk5LjgtMTAwLjcgMjEyLTIxMmMtNTYuNy05LjUtMTE2LjkgNy42LTE2MC43IDUxLjRzLTYwLjggMTA0LTUxLjQgMTYwLjd6TTIyOS41IDE3LjVjLTExMS4zIDEyLjItMTk5LjggMTAwLjctMjEyIDIxMmM1Ni43IDkuNSAxMTYuOS03LjYgMTYwLjctNTEuNHM2MC44LTEwNCA1MS40LTE2MC43ek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const TennisBall: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M266.5 495.8c-9.8-61.2 8.9-126 56.1-173.2s112-65.8 173.2-56.1c.2-3.5 .2-7 .2-10.5C496 123.5 388.5 16 256 16c-3.5 0-7 .1-10.5 .2c9.8 61.2-8.9 126-56.1 173.2s-112 65.8-173.2 56.1c-.2 3.5-.2 7-.2 10.5c0 132.5 107.5 240 240 240c3.5 0 7-.1 10.5-.2zm16-1.2c111.3-12.2 199.8-100.7 212-212c-56.7-9.5-116.9 7.6-160.7 51.4s-60.8 104-51.4 160.7zM229.5 17.5c-111.3 12.2-199.8 100.7-212 212c56.7 9.5 116.9-7.6 160.7-51.4s60.8-104 51.4-160.7zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
+    </Icon>
+);
+
+export default TennisBall;

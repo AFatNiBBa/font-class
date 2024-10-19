@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `link-horizontal` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/link-horizontal?s=sharp-light link-horizontal}
+ * @preview ![link-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDY0QzU3LjMgNjQgMCAxMjEuMyAwIDE5MnM1Ny4zIDEyOCAxMjggMTI4bDMyIDAgMC0zMi0zMiAwYy01MyAwLTk2LTQzLTk2LTk2czQzLTk2IDk2LTk2bDE3Ni4xIDBjNTIuOSAwIDk1LjkgNDIuOSA5NS45IDk1LjljMCA1MC4zLTM4LjkgOTItODkgOTUuNmwtOC4xIC42IDIuMyAzMS45IDguMS0uNkMzODAuMiAzMTQuNiA0MzIgMjU4LjkgNDMyIDE5MS45QzQzMiAxMjEuMiAzNzQuOCA2NCAzMDQuMSA2NEwxMjggNjR6TTUxMiA0NDhjNzAuNyAwIDEyOC01Ny4zIDEyOC0xMjhzLTU3LjMtMTI4LTEyOC0xMjhsLTMyIDAgMCAzMiAzMiAwYzUzIDAgOTYgNDMgOTYgOTZzLTQzIDk2LTk2IDk2bC0xNzYuMSAwYy01Mi45IDAtOTUuOS00Mi45LTk1LjktOTUuOWMwLTUwLjMgMzguOS05MiA4OS05NS42bDguMS0uNkwzMzQuOSAxOTJsLTguMSAuNkMyNTkuOCAxOTcuNCAyMDggMjUzLjEgMjA4IDMyMC4xQzIwOCAzOTAuOCAyNjUuMiA0NDggMzM1LjkgNDQ4TDUxMiA0NDh6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const LinkHorizontal: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M128 64C57.3 64 0 121.3 0 192s57.3 128 128 128l32 0 0-32-32 0c-53 0-96-43-96-96s43-96 96-96l176.1 0c52.9 0 95.9 42.9 95.9 95.9c0 50.3-38.9 92-89 95.6l-8.1 .6 2.3 31.9 8.1-.6C380.2 314.6 432 258.9 432 191.9C432 121.2 374.8 64 304.1 64L128 64zM512 448c70.7 0 128-57.3 128-128s-57.3-128-128-128l-32 0 0 32 32 0c53 0 96 43 96 96s-43 96-96 96l-176.1 0c-52.9 0-95.9-42.9-95.9-95.9c0-50.3 38.9-92 89-95.6l8.1-.6L334.9 192l-8.1 .6C259.8 197.4 208 253.1 208 320.1C208 390.8 265.2 448 335.9 448L512 448z" />
+    </Icon>
+);
+
+export default LinkHorizontal;

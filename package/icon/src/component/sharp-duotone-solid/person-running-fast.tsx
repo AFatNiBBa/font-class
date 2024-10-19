@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `person-running-fast` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-running-fast?s=sharp-duotone-solid person-running-fast}
+ * @preview ![person-running-fast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk1LjhsMCAzMiAxNiAwIDExMiAwIDE2IDAgMC0zMi0xNiAwLTExMiAwLTE2IDB6bTAgNjRsMCAzMiAxNiAwIDY0IDAgMTYgMCAwLTMyLTE2IDAtNjQgMC0xNiAwem0wIDY0bDAgMzIgMTYgMCAxMjggMCAxNiAwIDAtMzItMTYgMC0xMjggMC0xNiAwek05NiAzNTJsMCA2NCAzMiAwIDgwIDAgMjAuOCAwIDguNC0xOSAyOC45LTY0LjljLTEuOS0xLjItMy44LTIuNC01LjctMy42Yy0yNS4xLTE1LjctMzYuMS00Ni41LTI2LjgtNzQuNWMyLjgtOC41IDUuNy0xNyA4LjUtMjUuNkwxODcuMiAzNTIgMTI4IDM1MmwtMzIgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTM2OCA5NmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6TTIyNCA5NmwtMTMuMyAwLTkuNCA5LjQtNDggNDgtOCA4IDQ1LjMgNDUuMyA4LThMMjM3LjMgMTYwbDI3LjcgMC0zMS4zIDk0Yy05LjMgMjggMS43IDU4LjggMjYuOCA3NC41bDg2LjIgNTMuOS05LjQgMzIuOC0xNiA1NkwzMDkuNiA1MTJsNjYuNiAwIDYuNi0yMy4yIDE2LTU2IDE2LTU2IDYuNi0yMy4yTDQwMSAzNDAuOSAzMzQgMjk5bDI5LTc3LjQgMjQuMyA0OC42IDguOCAxNy43IDE5LjggMCA0OCAwIDMyIDAgMC02NC0zMiAwLTI4LjIgMC0zOS4yLTc4LjMtNS40LTEwLjktMTEuMy00LjUtODAtMzJMMjk0LjIgOTYgMjg4IDk2bC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const PersonRunningFast: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M0 95.8l0 32 16 0 112 0 16 0 0-32-16 0-112 0-16 0zm0 64l0 32 16 0 64 0 16 0 0-32-16 0-64 0-16 0zm0 64l0 32 16 0 128 0 16 0 0-32-16 0-128 0-16 0zM96 352l0 64 32 0 80 0 20.8 0 8.4-19 28.9-64.9c-1.9-1.2-3.8-2.4-5.7-3.6c-25.1-15.7-36.1-46.5-26.8-74.5c2.8-8.5 5.7-17 8.5-25.6L187.2 352 128 352l-32 0z" />
+            <path d="M368 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM224 96l-13.3 0-9.4 9.4-48 48-8 8 45.3 45.3 8-8L237.3 160l27.7 0-31.3 94c-9.3 28 1.7 58.8 26.8 74.5l86.2 53.9-9.4 32.8-16 56L309.6 512l66.6 0 6.6-23.2 16-56 16-56 6.6-23.2L401 340.9 334 299l29-77.4 24.3 48.6 8.8 17.7 19.8 0 48 0 32 0 0-64-32 0-28.2 0-39.2-78.3-5.4-10.9-11.3-4.5-80-32L294.2 96 288 96l-64 0z" />
+    </Icon>
+);
+
+export default PersonRunningFast;

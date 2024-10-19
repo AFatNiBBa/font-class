@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `cup-togo` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/cup-togo?s=sharp-thin cup-togo}
+ * @preview ![cup-togo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDBMNjQgMCAzMiA2NCAxNiA2NCAwIDY0IDAgODBsMCAzMiAwIDE2IDE2IDAgMTYgMCAzODQgMCAxNiAwIDE2IDAgMC0xNiAwLTMyIDAtMTYtMTYgMC0xNiAwTDM4NCAwem0zMiA4MGwxNiAwIDAgMzItMTYgMEwzMiAxMTJsLTE2IDAgMC0zMiAxNiAwIDkuOSAwIDQuNC04LjhMNzMuOSAxNmwzMDAuMiAwIDI3LjYgNTUuMiA0LjQgOC44IDkuOSAwek00Ny40IDE2MEw4MCA1MTJsMjg4IDAgMzIuNi0zNTItMTYuMSAwLTUuOSA2NEw2OS40IDIyNGwtNS45LTY0LTE2LjEgMHptMjMuNSA4MGwzMDYuMiAwTDM2My44IDM4NCA4NC4yIDM4NCA3MC45IDI0MHpNODUuNyA0MDBsMjc2LjYgMC04LjkgOTZMOTQuNiA0OTZsLTguOS05NnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const CupTogo: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M384 0L64 0 32 64 16 64 0 64 0 80l0 32 0 16 16 0 16 0 384 0 16 0 16 0 0-16 0-32 0-16-16 0-16 0L384 0zm32 80l16 0 0 32-16 0L32 112l-16 0 0-32 16 0 9.9 0 4.4-8.8L73.9 16l300.2 0 27.6 55.2 4.4 8.8 9.9 0zM47.4 160L80 512l288 0 32.6-352-16.1 0-5.9 64L69.4 224l-5.9-64-16.1 0zm23.5 80l306.2 0L363.8 384 84.2 384 70.9 240zM85.7 400l276.6 0-8.9 96L94.6 496l-8.9-96z" />
+    </Icon>
+);
+
+export default CupTogo;

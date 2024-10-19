@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `magento` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `magento` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magento?s=brands magento}
- * @preview ![magento](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NDUuNyAxMjcuOVYzODRsLTYzLjQgMzYuNVYxNjQuN0wyMjMuOCA3My4xIDY1LjIgMTY0LjdsLjQgMjU1LjlMMi4zIDM4NFYxMjguMUwyMjQuMiAwbDIyMS41IDEyNy45ek0yNTUuNiA0MjAuNUwyMjQgNDM4LjlsLTMxLjgtMTguMnYtMjU2bC02My4zIDM2LjYuMSAyNTUuOSA5NC45IDU0LjkgOTUuMS01NC45di0yNTZsLTYzLjQtMzYuNnYyNTUuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![magento](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ1LjcgMTI3LjlWMzg0bC02My40IDM2LjVWMTY0LjdMMjIzLjggNzMuMSA2NS4yIDE2NC43bC40IDI1NS45TDIuMyAzODRWMTI4LjFMMjI0LjIgMGwyMjEuNSAxMjcuOXpNMjU1LjYgNDIwLjVMMjI0IDQzOC45bC0zMS44LTE4LjJ2LTI1NmwtNjMuMyAzNi42LjEgMjU1LjkgOTQuOSA1NC45IDk1LjEtNTQuOXYtMjU2bC02My40LTM2LjZ2MjU1Ljl6Ii8+PC9zdmc+|width=32|height=32)
  */
 const Magento: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

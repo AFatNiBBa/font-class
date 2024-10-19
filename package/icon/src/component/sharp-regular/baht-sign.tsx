@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `baht-sign` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/baht-sign?s=sharp-regular baht-sign}
+ * @preview ![baht-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBMMTEyIDBsMCA2NEw0OCA2NCAwIDY0bDAgNDhMMCAyMzJsMCA0OEwwIDQwMGwwIDQ4IDQ4IDAgNjQgMCAwIDY0IDQ4IDAgMC02NCA1MiAwYzU5LjYgMCAxMDgtNDguNCAxMDgtMTA4YzAtNDIuMS0yNC4xLTc4LjUtNTkuMi05Ni40QzI3Ny43IDIyNC42IDI4OCAxOTkuNSAyODggMTcyYzAtNTkuNi00OC40LTEwOC0xMDgtMTA4bC0yMCAwIDAtNjR6TTExMiAxMTJsMCAxMjAtNjQgMCAwLTEyMCA2NCAwem00OCAxMjBsMC0xMjAgMjAgMGMzMy4xIDAgNjAgMjYuOSA2MCA2MHMtMjYuOSA2MC02MCA2MGwtMjAgMHptLTQ4IDQ4bDAgMTIwLTY0IDAgMC0xMjAgNjQgMHptNDggMTIwbDAtMTIwIDIwIDAgMzIgMGMzMy4xIDAgNjAgMjYuOSA2MCA2MHMtMjYuOSA2MC02MCA2MGwtNTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const BahtSign: typeof Icon = x => (
+    <Icon viewBox="0 0 320 512" {...x}>
+        <path d="M160 0L112 0l0 64L48 64 0 64l0 48L0 232l0 48L0 400l0 48 48 0 64 0 0 64 48 0 0-64 52 0c59.6 0 108-48.4 108-108c0-42.1-24.1-78.5-59.2-96.4C277.7 224.6 288 199.5 288 172c0-59.6-48.4-108-108-108l-20 0 0-64zM112 112l0 120-64 0 0-120 64 0zm48 120l0-120 20 0c33.1 0 60 26.9 60 60s-26.9 60-60 60l-20 0zm-48 48l0 120-64 0 0-120 64 0zm48 120l0-120 20 0 32 0c33.1 0 60 26.9 60 60s-26.9 60-60 60l-52 0z" />
+    </Icon>
+);
+
+export default BahtSign;

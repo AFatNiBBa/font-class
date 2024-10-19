@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `elevator` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/elevator?s=sharp-duotone-solid elevator}
+ * @preview ![elevator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDEyOEwwIDUxMmw1MTIgMCAwLTM4NEwwIDEyOHpNODAgNDQ4bDI0LTk2IDExMiAwIDI0IDk2TDgwIDQ0OHpNMjA4IDI3MmE0OCA0OCAwIDEgMSAtOTYgMCA0OCA0OCAwIDEgMSA5NiAwem02NCAxNzZsMjQtOTYgMTEyIDAgMjQgOTYtMTYwIDB6TTQwMCAyNzJhNDggNDggMCAxIDEgLTk2IDAgNDggNDggMCAxIDEgOTYgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTY0IDgwTDE0NCAwbDgwIDgwIDAgMTZMNjQgOTZsMC0xNnpNMjg4IDE2bDAtMTZMNDQ4IDBsMCAxNkwzNjggOTYgMjg4IDE2ek0xNjAgMjI0YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnpNODAgNDQ4bDI0LTk2IDExMiAwIDI0IDk2TDgwIDQ0OHptMzI4LTk2bDI0IDk2LTE2MCAwIDI0LTk2IDExMiAwek0zMDQgMjcyYTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Elevator: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M0 128L0 512l512 0 0-384L0 128zM80 448l24-96 112 0 24 96L80 448zM208 272a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm64 176l24-96 112 0 24 96-160 0zM400 272a48 48 0 1 1 -96 0 48 48 0 1 1 96 0z" />
+            <path d="M64 80L144 0l80 80 0 16L64 96l0-16zM288 16l0-16L448 0l0 16L368 96 288 16zM160 224a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM80 448l24-96 112 0 24 96L80 448zm328-96l24 96-160 0 24-96 112 0zM304 272a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
+    </Icon>
+);
+
+export default Elevator;

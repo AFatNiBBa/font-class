@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `circle-arrow-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/circle-arrow-right?s=sharp-duotone-solid circle-arrow-right}
+ * @preview ![circle-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik01MTIgMjU2QTI1NiAyNTYgMCAxIDEgMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMHpNMTEyIDIzMmMwIDE2IDAgMzIgMCA0OGM4IDAgMTYgMCAyNCAwYzYwLjcgMCAxMjEuNCAwIDE4Mi4xIDBjLTIzLjcgMjMuNy00Ny4zIDQ3LjMtNzEgNzFjLTUuNyA1LjctMTEuMyAxMS4zLTE3IDE3YzExLjMgMTEuMyAyMi42IDIyLjYgMzMuOSAzMy45YzUuNy01LjcgMTEuMy0xMS4zIDE3LTE3YzM3LjMtMzcuMyA3NC43LTc0LjcgMTEyLTExMmM1LjctNS43IDExLjMtMTEuMyAxNy0xN2MtNS43LTUuNy0xMS4zLTExLjMtMTctMTdjLTM3LjMtMzcuMy03NC43LTc0LjctMTEyLTExMmMtNS43LTUuNy0xMS4zLTExLjMtMTctMTdMMjMwLjEgMTQ0YzUuNyA1LjcgMTEuMyAxMS4zIDE3IDE3YzIzLjcgMjMuNyA0Ny4zIDQ3LjMgNzEgNzFjLTYwLjcgMC0xMjEuNCAwLTE4Mi4xIDBjLTggMC0xNiAwLTI0IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik00MDkuOSAyNTZsLTE3IDE3TDI4MSAzODVsLTE3IDE3TDIzMC4xIDM2OGwxNy0xNyA3MS03MUwxMzYgMjgwbC0yNCAwIDAtNDggMjQgMCAxODIuMSAwLTcxLTcxLTE3LTE3TDI2NCAxMTAuMWwxNyAxN0wzOTMgMjM5bDE3IDE3eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const CircleArrowRight: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M512 256A256 256 0 1 1 0 256a256 256 0 1 1 512 0zM112 232c0 16 0 32 0 48c8 0 16 0 24 0c60.7 0 121.4 0 182.1 0c-23.7 23.7-47.3 47.3-71 71c-5.7 5.7-11.3 11.3-17 17c11.3 11.3 22.6 22.6 33.9 33.9c5.7-5.7 11.3-11.3 17-17c37.3-37.3 74.7-74.7 112-112c5.7-5.7 11.3-11.3 17-17c-5.7-5.7-11.3-11.3-17-17c-37.3-37.3-74.7-74.7-112-112c-5.7-5.7-11.3-11.3-17-17L230.1 144c5.7 5.7 11.3 11.3 17 17c23.7 23.7 47.3 47.3 71 71c-60.7 0-121.4 0-182.1 0c-8 0-16 0-24 0z" />
+            <path d="M409.9 256l-17 17L281 385l-17 17L230.1 368l17-17 71-71L136 280l-24 0 0-48 24 0 182.1 0-71-71-17-17L264 110.1l17 17L393 239l17 17z" />
+    </Icon>
+);
+
+export default CircleArrowRight;

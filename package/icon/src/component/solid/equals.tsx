@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `equals` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `equals` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/equals?s=solid equals}
- * @preview ![equals](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01NiAyMDBIMzkyQzQxNC4wOTQgMjAwIDQzMiAxODIuMDk0IDQzMiAxNjBTNDE0LjA5NCAxMjAgMzkyIDEyMEg1NkMzMy45MDYgMTIwIDE2IDEzNy45MDYgMTYgMTYwUzMzLjkwNiAyMDAgNTYgMjAwWk0zOTIgMzEySDU2QzMzLjkwNiAzMTIgMTYgMzI5LjkwNiAxNiAzNTJTMzMuOTA2IDM5MiA1NiAzOTJIMzkyQzQxNC4wOTQgMzkyIDQzMiAzNzQuMDk0IDQzMiAzNTJTNDE0LjA5NCAzMTIgMzkyIDMxMloiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![equals](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTI4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDM1MiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMyTDQ4IDEyOHptMCAxOTJjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsMzUyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMNDggMzIweiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Equals: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M56 200H392C414.094 200 432 182.094 432 160S414.094 120 392 120H56C33.906 120 16 137.906 16 160S33.906 200 56 200ZM392 312H56C33.906 312 16 329.906 16 352S33.906 392 56 392H392C414.094 392 432 374.094 432 352S414.094 312 392 312Z" />
+        <path d="M48 128c-17.7 0-32 14.3-32 32s14.3 32 32 32l352 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L48 128zm0 192c-17.7 0-32 14.3-32 32s14.3 32 32 32l352 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L48 320z" />
     </Icon>
 );
 

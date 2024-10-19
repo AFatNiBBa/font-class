@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `circle-chevron-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/circle-chevron-right?s=sharp-light circle-chevron-right}
+ * @preview ![circle-chevron-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAxIDMyIDI1NmEyMjQgMjI0IDAgMSAxIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAwIDUxMiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZ6bTM0Ny4zIDExLjNMMzU4LjYgMjU2bC0xMS4zLTExLjMtMTEyLTExMkwyMjQgMTIxLjQgMjAxLjQgMTQ0bDExLjMgMTEuM0wzMTMuNCAyNTYgMjEyLjcgMzU2LjcgMjAxLjQgMzY4IDIyNCAzOTAuNmwxMS4zLTExLjMgMTEyLTExMnoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const CircleChevronRight: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M480 256A224 224 0 1 1 32 256a224 224 0 1 1 448 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm347.3 11.3L358.6 256l-11.3-11.3-112-112L224 121.4 201.4 144l11.3 11.3L313.4 256 212.7 356.7 201.4 368 224 390.6l11.3-11.3 112-112z" />
+    </Icon>
+);
+
+export default CircleChevronRight;

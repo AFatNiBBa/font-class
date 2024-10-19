@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `caret-down` icon from the `regular` section of Font Awesome 6 Pro
+ * A component that renders the `caret-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caret-down?s=regular caret-down}
- * @preview ![caret-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yNzEuOTY2IDE3Nkg0OC4wOEM1LjQ1MyAxNzYgLTE2LjE3MyAyMjcuNzY2IDE0LjIwMyAyNTcuOUwxMjYuMDg0IDM2OS45MzNDMTQ0LjcxIDM4OC42ODkgMTc1LjIxMSAzODguNjg5IDE5My45NjIgMzY5LjkzM0wzMDUuOTY3IDI1Ny45QzMzNS45NjkgMjI3Ljc2NiAzMTQuNzE4IDE3NiAyNzEuOTY2IDE3NlpNMTU5Ljk2IDMzNi4wNDhMNDcuOTU1IDIyNC4wMTRIMjcxLjk2NkwxNTkuOTYgMzM2LjA0OFoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![caret-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMyOS40TDI0OS40IDI0MCA3MC42IDI0MCAxNjAgMzI5LjR6bTIyLjYgNDUuM2MtMTIuNSAxMi41LTMyLjggMTIuNS00NS4zIDBsLTEyOC0xMjhjLTkuMi05LjItMTEuOS0yMi45LTYuOS0zNC45czE2LjYtMTkuOCAyOS42LTE5LjhsMjU2IDBjMTIuOSAwIDI0LjYgNy44IDI5LjYgMTkuOHMyLjIgMjUuNy02LjkgMzQuOWwtMTI4IDEyOHoiLz48L3N2Zz4=|width=32|height=32)
  */
 const CaretDown: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M271.966 176H48.08C5.453 176 -16.173 227.766 14.203 257.9L126.084 369.933C144.71 388.689 175.211 388.689 193.962 369.933L305.967 257.9C335.969 227.766 314.718 176 271.966 176ZM159.96 336.048L47.955 224.014H271.966L159.96 336.048Z" />
+        <path d="M160 329.4L249.4 240 70.6 240 160 329.4zm22.6 45.3c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8l256 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128z" />
     </Icon>
 );
 

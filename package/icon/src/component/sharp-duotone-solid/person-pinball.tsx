@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `person-pinball` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-pinball?s=sharp-duotone-solid person-pinball}
+ * @preview ![person-pinball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xOTIgMjg4bDMyIDAgMzIgMCAwLTQ1LjggMjkyLjEtNDguN0w1MTMuNiA5MC4xIDUxMiA4NS4ybDAtNS4yIDAtNDggMC0zMiAzMiAwIDY0IDAgMzIgMCAwIDMyIDAgMTQ2LjIgMCAzNy44IDAgOCAwIDMyIDAgMjI0IDAgMzItNjQgMCAwLTMyIDAtOTYtMzIwIDAgMCA5NiAwIDMyLTY0IDAgMC0zMiAwLTE5MnptNjQgMjRhMjQgMjQgMCAxIDAgNDggMCAyNCAyNCAwIDEgMCAtNDggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTMyIDQ4YTQ4IDQ4IDAgMSAxIDk2IDBBNDggNDggMCAxIDEgMzIgNDh6TTAgMTI4bDMyIDAgNDggMCAxNy4xIDAgOS41IDE0LjNMMTYxLjEgMjI0bDYyLjkgMCAzMiAwIDAgNjQtMzIgMC04MCAwLTE3LjEgMC05LjUtMTQuM0w5NiAyNDEuN2wwIDY1LjEgNTQuNiA1NC42IDkuNCA5LjQgMCAxMy4zIDAgOTYgMCAzMi02NCAwIDAtMzIgMC04Mi43TDQxLjQgMzQyLjYgMTguNyAzMjBDNi43IDMwOCAwIDI5MS43IDAgMjc0LjdMMCAxNjBsMC0zMnpNMCA0ODBMMCAzNDYuNWw2NCA2NEw2NCA0ODBzMCAwIDAgMGwwIDMyTDAgNTEybDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const PersonPinball: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path class={generic.secondary} d="M192 288l32 0 32 0 0-45.8 292.1-48.7L513.6 90.1 512 85.2l0-5.2 0-48 0-32 32 0 64 0 32 0 0 32 0 146.2 0 37.8 0 8 0 32 0 224 0 32-64 0 0-32 0-96-320 0 0 96 0 32-64 0 0-32 0-192zm64 24a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z" />
+            <path d="M32 48a48 48 0 1 1 96 0A48 48 0 1 1 32 48zM0 128l32 0 48 0 17.1 0 9.5 14.3L161.1 224l62.9 0 32 0 0 64-32 0-80 0-17.1 0-9.5-14.3L96 241.7l0 65.1 54.6 54.6 9.4 9.4 0 13.3 0 96 0 32-64 0 0-32 0-82.7L41.4 342.6 18.7 320C6.7 308 0 291.7 0 274.7L0 160l0-32zM0 480L0 346.5l64 64L64 480s0 0 0 0l0 32L0 512l0-32z" />
+    </Icon>
+);
+
+export default PersonPinball;

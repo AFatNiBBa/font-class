@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `deezer` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `deezer` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/deezer?s=brands deezer}
- * @preview ![deezer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik00NTEuNDYsMjQ0LjcxSDU3NlYxNzJINDUxLjQ2Wm0wLTE3My44OXY3Mi42N0g1NzZWNzAuODJabTAsMjc1LjA2SDU3NlYyNzMuMkg0NTEuNDZaTTAsNDQ3LjA5SDEyNC41NFYzNzQuNDJIMFptMTUwLjQ3LDBIMjc1VjM3NC40MkgxNTAuNDdabTE1MC41MiwwSDQyNS41M1YzNzQuNDJIMzAxWm0xNTAuNDcsMEg1NzZWMzc0LjQySDQ1MS40NlpNMzAxLDM0NS44OEg0MjUuNTNWMjczLjJIMzAxWm0tMTUwLjUyLDBIMjc1VjI3My4ySDE1MC40N1ptMC0xMDEuMTdIMjc1VjE3MkgxNTAuNDdaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![deezer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUxLjQ2LDI0NC43MUg1NzZWMTcySDQ1MS40NlptMC0xNzMuODl2NzIuNjdINTc2VjcwLjgyWm0wLDI3NS4wNkg1NzZWMjczLjJINDUxLjQ2Wk0wLDQ0Ny4wOUgxMjQuNTRWMzc0LjQySDBabTE1MC40NywwSDI3NVYzNzQuNDJIMTUwLjQ3Wm0xNTAuNTIsMEg0MjUuNTNWMzc0LjQySDMwMVptMTUwLjQ3LDBINTc2VjM3NC40Mkg0NTEuNDZaTTMwMSwzNDUuODhINDI1LjUzVjI3My4ySDMwMVptLTE1MC41MiwwSDI3NVYyNzMuMkgxNTAuNDdabTAtMTAxLjE3SDI3NVYxNzJIMTUwLjQ3WiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Deezer: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

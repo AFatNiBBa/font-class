@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `bath` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/bath?s=sharp-duotone-solid bath}
+ * @preview ![bath](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAwTDY0IDBsNjQgMCAxMy4zIDAgOS40IDkuNCAyOC4xIDI4LjFDMTg3LjggMzQgMTk3LjcgMzIgMjA4IDMyYzE5LjYgMCAzNy41IDcgNTEuNCAxOC43TDI3MiAzOC4xIDMwNS45IDcyIDI4OSA4OSAxODUgMTkzbC0xNyAxN0wxMzQuMSAxNzZsMTIuNi0xMi42QzEzNSAxNDkuNSAxMjggMTMxLjYgMTI4IDExMmMwLTEwLjMgMi0yMC4yIDUuNS0yOS4yTDExNC43IDY0IDk2IDY0bDAgMTkyLTY0IDBMMzIgMzIgMzIgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTMyIDI1NkwwIDI1NmwwIDY0IDMyIDAgNDQ4IDAgMzIgMCAwLTY0LTMyIDBMMzIgMjU2em00NDggOTZMMzIgMzUybDAgMTZjMCAyOC40IDEyLjQgNTQgMzIgNzEuNkw2NCA0ODBsMCAzMiA2NCAwIDAtMzIgMC0xNiAyNTYgMCAwIDE2IDAgMzIgNjQgMCAwLTMyIDAtNDAuNGMxOS42LTE3LjYgMzItNDMuMSAzMi03MS42bDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Bath: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M32 0L64 0l64 0 13.3 0 9.4 9.4 28.1 28.1C187.8 34 197.7 32 208 32c19.6 0 37.5 7 51.4 18.7L272 38.1 305.9 72 289 89 185 193l-17 17L134.1 176l12.6-12.6C135 149.5 128 131.6 128 112c0-10.3 2-20.2 5.5-29.2L114.7 64 96 64l0 192-64 0L32 32 32 0z" />
+            <path d="M32 256L0 256l0 64 32 0 448 0 32 0 0-64-32 0L32 256zm448 96L32 352l0 16c0 28.4 12.4 54 32 71.6L64 480l0 32 64 0 0-32 0-16 256 0 0 16 0 32 64 0 0-32 0-40.4c19.6-17.6 32-43.1 32-71.6l0-16z" />
+    </Icon>
+);
+
+export default Bath;

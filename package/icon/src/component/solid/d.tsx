@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `d` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `d` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/d?s=solid d}
- * @preview ![d](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0xNjAgNDgwSDQ4QzIxLjQ4NCA0ODAgMCA0NTguNSAwIDQzMlY4MEMwIDUzLjUgMjEuNDg0IDMyIDQ4IDMySDE2MEMyODMuNTE2IDMyIDM4NCAxMzIuNSAzODQgMjU2UzI4My41MTYgNDgwIDE2MCA0ODBaTTk2IDM4NEgxNjBDMjMwLjU3OCAzODQgMjg4IDMyNi41OTQgMjg4IDI1NlMyMzAuNTc4IDEyOCAxNjAgMTI4SDk2VjM4NFoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![d](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmw5NiAwYzEyMy43IDAgMjI0IDEwMC4zIDIyNCAyMjRzLTEwMC4zIDIyNC0yMjQgMjI0bC05NiAwYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDk2em0xNjAgMEw2NCA5NmwwIDMyMCA5NiAwYzg4LjQgMCAxNjAtNzEuNiAxNjAtMTYwcy03MS42LTE2MC0xNjAtMTYweiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const D: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M160 480H48C21.484 480 0 458.5 0 432V80C0 53.5 21.484 32 48 32H160C283.516 32 384 132.5 384 256S283.516 480 160 480ZM96 384H160C230.578 384 288 326.594 288 256S230.578 128 160 128H96V384Z" />
+        <path d="M0 96C0 60.7 28.7 32 64 32l96 0c123.7 0 224 100.3 224 224s-100.3 224-224 224l-96 0c-35.3 0-64-28.7-64-64L0 96zm160 0L64 96l0 320 96 0c88.4 0 160-71.6 160-160s-71.6-160-160-160z" />
     </Icon>
 );
 

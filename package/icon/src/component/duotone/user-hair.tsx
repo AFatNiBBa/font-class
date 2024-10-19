@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `user-hair` icon from the `duotone` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/user-hair?s=duotone user-hair}
+ * @preview ![user-hair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAxMjhjMCA3MC43IDU3LjMgMTI4IDEyOCAxMjhzMTI4LTU3LjMgMTI4LTEyOGMwLTExLTEuNC0yMS44LTQtMzJsLTM2IDBjLTIyLjggMC00Mi44LTExLjktNTQuMS0yOS44QzI0MSA5My43IDIxMC42IDExMiAxNzYgMTEybC01NiAwYy03LjkgMC0xNS41LTEuNy0yMi4zLTQuNkM5Ni42IDExNC4xIDk2IDEyMSA5NiAxMjh6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0xMjAgMTEybDU2IDBjMzQuNiAwIDY1LTE4LjMgODEuOS00NS44QzI2OS4yIDg0LjEgMjg5LjIgOTYgMzEyIDk2bDM2IDBDMzMzLjggNDAuOCAyODMuNiAwIDIyNCAwQzE2MC4zIDAgMTA3LjUgNDYuNSA5Ny43IDEwNy40YzYuOCAzIDE0LjQgNC42IDIyLjMgNC42em00MS4zIDIwOEM3Mi4yIDMyMCAwIDM5Mi4yIDAgNDgxLjNjMCAxNyAxMy44IDMwLjcgMzAuNyAzMC43bDM4Ni42IDBjMTcgMCAzMC43LTEzLjggMzAuNy0zMC43QzQ0OCAzOTIuMiAzNzUuOCAzMjAgMjg2LjcgMzIwbC0xMjUuNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const UserHair: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M96 128c0 70.7 57.3 128 128 128s128-57.3 128-128c0-11-1.4-21.8-4-32l-36 0c-22.8 0-42.8-11.9-54.1-29.8C241 93.7 210.6 112 176 112l-56 0c-7.9 0-15.5-1.7-22.3-4.6C96.6 114.1 96 121 96 128z" />
+            <path d="M120 112l56 0c34.6 0 65-18.3 81.9-45.8C269.2 84.1 289.2 96 312 96l36 0C333.8 40.8 283.6 0 224 0C160.3 0 107.5 46.5 97.7 107.4c6.8 3 14.4 4.6 22.3 4.6zm41.3 208C72.2 320 0 392.2 0 481.3c0 17 13.8 30.7 30.7 30.7l386.6 0c17 0 30.7-13.8 30.7-30.7C448 392.2 375.8 320 286.7 320l-125.4 0z" />
+    </Icon>
+);
+
+export default UserHair;

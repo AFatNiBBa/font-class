@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `person-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/person-sign?s=sharp-solid person-sign}
+ * @preview ![person-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNDhhNDggNDggMCAxIDEgOTYgMEE0OCA0OCAwIDEgMSA5NiA0OHpNODQuNyAxMjhsMTkuMyAwIDg4IDAgMTQuNCAwIDkuNSAxMC43IDU4LjcgNjYuMSA0My42IDE2LjMgMTUuOS00My43TDI1NiAxNDguNCAzMDguOCAwIDM4OCAyOS41bDkuOS0yNy4xTDQ0MyAxOC44IDQzMyA0Ni4ybDc5IDI5LjRMNDU5LjIgMjI0bC04MC0yOS44LTQ1IDEyMy43LTguMiAyMi42TDI4MC44IDMyNGw4LjItMjIuNiA3LjMtMjAuMUwyNDQuOCAyNjJsLTcuNC0yLjgtNS4zLTUuOUwyMTYgMjM1LjJsMCA3Ny4zIDM2LjYgNzMuMiAzLjQgNi44IDAgNy42IDAgODAgMCAzMi02NCAwIDAtMzIgMC03Mi40TDE2NC4yIDM1MiAxNDQgMzUybDAgMTI4IDAgMzItNjQgMCAwLTMyIDAtMjA2LjNMNjAuMyAzMTEgMy43IDI4MWw3Mi0xMzYgOS0xN3oiLz48L3N2Zz4=|width=32|height=32)
+ */
+const PersonSign: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M96 48a48 48 0 1 1 96 0A48 48 0 1 1 96 48zM84.7 128l19.3 0 88 0 14.4 0 9.5 10.7 58.7 66.1 43.6 16.3 15.9-43.7L256 148.4 308.8 0 388 29.5l9.9-27.1L443 18.8 433 46.2l79 29.4L459.2 224l-80-29.8-45 123.7-8.2 22.6L280.8 324l8.2-22.6 7.3-20.1L244.8 262l-7.4-2.8-5.3-5.9L216 235.2l0 77.3 36.6 73.2 3.4 6.8 0 7.6 0 80 0 32-64 0 0-32 0-72.4L164.2 352 144 352l0 128 0 32-64 0 0-32 0-206.3L60.3 311 3.7 281l72-136 9-17z" />
+    </Icon>
+);
+
+export default PersonSign;

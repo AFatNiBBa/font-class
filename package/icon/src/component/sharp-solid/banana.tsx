@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `banana` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/banana?s=sharp-solid banana}
+ * @preview ![banana](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUzLjIgMTAuNEM0MTEuNCA2My4xIDQ0OCAxMzkuMyA0NDggMjI0YzAgMTIuMy0uOCAyNC40LTIuMyAzNi4zTDMyOS44IDI4NC43IDI3OSAyNTQuNmMxNi4xLTMzLjUgMjUtNzEgMjUtMTEwLjZjMC0zMS40LTUuNi02MS4zLTE1LjktODlsNjUuMS00NC42em0tMjkgMzA4LjJsMTE1LjEtMjQuMiAyNy43LTUuOCAxMy42LTIuOSA5LjMgMTAuNCA2NCA3Mkw1NjkuOSAzODYgNTM0IDQxNy45bC0xNS45LTE3LjktNTQuNy02MS42LTQzIDkuMUMzNzQuMSA0NDQuNyAyNzQuOSA1MTIgMTYwIDUxMkwwIDUxMiAwIDQwMGw0OCAwYzcyLjkgMCAxMzguNy0zMC41IDE4NS40LTc5LjRsLTIyLjEtMTMuMS04MC4yIDQxLjgtMjEuMyAxMS4xTDg3LjYgMzE3LjhsMjEuMy0xMS4xIDkyLTQ4IDExLjgtNi4yIDExLjUgNi44IDM5LjEgMjMuMiA2MC45IDM2LjF6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Banana: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M353.2 10.4C411.4 63.1 448 139.3 448 224c0 12.3-.8 24.4-2.3 36.3L329.8 284.7 279 254.6c16.1-33.5 25-71 25-110.6c0-31.4-5.6-61.3-15.9-89l65.1-44.6zm-29 308.2l115.1-24.2 27.7-5.8 13.6-2.9 9.3 10.4 64 72L569.9 386 534 417.9l-15.9-17.9-54.7-61.6-43 9.1C374.1 444.7 274.9 512 160 512L0 512 0 400l48 0c72.9 0 138.7-30.5 185.4-79.4l-22.1-13.1-80.2 41.8-21.3 11.1L87.6 317.8l21.3-11.1 92-48 11.8-6.2 11.5 6.8 39.1 23.2 60.9 36.1z" />
+    </Icon>
+);
+
+export default Banana;

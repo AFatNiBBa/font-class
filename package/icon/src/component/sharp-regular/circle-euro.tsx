@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `circle-euro` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/circle-euro?s=sharp-regular circle-euro}
+ * @preview ![circle-euro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTE0NCAxNmMtLjYtNS0uOS0xMC4xLS45LTE1LjJjMC01LjcgLjQtMTEuMyAxLjEtMTYuOEwxMTIgMjQwbDAtMzIgNDAuNyAwYzE5LjItNDYuOSA2NS40LTgwIDExOS4yLTgwbDQxLjEgMCAyNCAwIDAgNDgtMjQgMC00MS4xIDBjLTI2LjMgMC00OS42IDEyLjYtNjQuNCAzMmw5Ni41IDAgMCAzMi0xMTEuMSAwYy0xLjEgNS40LTEuNyAxMS0xLjcgMTYuOGMwIDUuMiAuNSAxMC4zIDEuNCAxNS4yTDMwNCAyNzJsMCAzMi05Ny42IDBjMTQuNyAyMC4zIDM4LjUgMzMuNSA2NS41IDMzLjVsNDEuMSAwIDI0IDAgMCA0OC0yNCAwLTQxLjEgMGMtNTQuNCAwLTEwMS0zMy44LTExOS44LTgxLjVMMTEyIDMwNGwwLTMyIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const CircleEuro: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm144 16c-.6-5-.9-10.1-.9-15.2c0-5.7 .4-11.3 1.1-16.8L112 240l0-32 40.7 0c19.2-46.9 65.4-80 119.2-80l41.1 0 24 0 0 48-24 0-41.1 0c-26.3 0-49.6 12.6-64.4 32l96.5 0 0 32-111.1 0c-1.1 5.4-1.7 11-1.7 16.8c0 5.2 .5 10.3 1.4 15.2L304 272l0 32-97.6 0c14.7 20.3 38.5 33.5 65.5 33.5l41.1 0 24 0 0 48-24 0-41.1 0c-54.4 0-101-33.8-119.8-81.5L112 304l0-32 32 0z" />
+    </Icon>
+);
+
+export default CircleEuro;

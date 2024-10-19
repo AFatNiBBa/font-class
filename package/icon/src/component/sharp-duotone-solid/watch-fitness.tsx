@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `watch-fitness` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/watch-fitness?s=sharp-duotone-solid watch-fitness}
+ * @preview ![watch-fitness](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDY0bDY0IDAgMjU2IDAgNjQgMCAwIDM4NC02NCAwTDY0IDQ0OCAwIDQ0OCAwIDY0ek04MCAyMTkuMmMwIDE2LjEgNi42IDMxLjUgMTguMiA0Mi43bDgyLjggNzkuNkwxOTIgMzUyLjFsMTEuMS0xMC43IDgyLjgtNzkuNmMxMS42LTExLjIgMTguMi0yNi42IDE4LjItNDIuN2MwLTMyLjctMjYuNS01OS4yLTU5LjItNTkuMmwtMi40IDBjLTE1LjkgMC0zMS4yIDYuMi00Mi43IDE3LjJsLTcuNyA3LjQtNy43LTcuNGMtMTEuNS0xMS0yNi44LTE3LjItNDIuNy0xNy4ybC0yLjQgMEMxMDYuNSAxNjAgODAgMTg2LjUgODAgMjE5LjJ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik02NCAwbDAgNjQgMjU2IDAgMC02NEw2NCAwem03NS4yIDE2MEMxMDYuNSAxNjAgODAgMTg2LjUgODAgMjE5LjJjMCAxNi4xIDYuNiAzMS41IDE4LjIgNDIuN2w4Mi44IDc5LjZMMTkyIDM1Mi4xbDExLjEtMTAuNyA4Mi44LTc5LjZjMTEuNi0xMS4yIDE4LjItMjYuNiAxOC4yLTQyLjdjMC0zMi43LTI2LjUtNTkuMi01OS4yLTU5LjJsLTIuNCAwYy0xNS45IDAtMzEuMiA2LjItNDIuNyAxNy4ybC03LjcgNy40LTcuNy03LjRjLTExLjUtMTEtMjYuOC0xNy4yLTQyLjctMTcuMmwtMi40IDB6TTMyMCA0NDhMNjQgNDQ4bDAgNjQgMjU2IDAgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const WatchFitness: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path class={generic.secondary} d="M0 64l64 0 256 0 64 0 0 384-64 0L64 448 0 448 0 64zM80 219.2c0 16.1 6.6 31.5 18.2 42.7l82.8 79.6L192 352.1l11.1-10.7 82.8-79.6c11.6-11.2 18.2-26.6 18.2-42.7c0-32.7-26.5-59.2-59.2-59.2l-2.4 0c-15.9 0-31.2 6.2-42.7 17.2l-7.7 7.4-7.7-7.4c-11.5-11-26.8-17.2-42.7-17.2l-2.4 0C106.5 160 80 186.5 80 219.2z" />
+            <path d="M64 0l0 64 256 0 0-64L64 0zm75.2 160C106.5 160 80 186.5 80 219.2c0 16.1 6.6 31.5 18.2 42.7l82.8 79.6L192 352.1l11.1-10.7 82.8-79.6c11.6-11.2 18.2-26.6 18.2-42.7c0-32.7-26.5-59.2-59.2-59.2l-2.4 0c-15.9 0-31.2 6.2-42.7 17.2l-7.7 7.4-7.7-7.4c-11.5-11-26.8-17.2-42.7-17.2l-2.4 0zM320 448L64 448l0 64 256 0 0-64z" />
+    </Icon>
+);
+
+export default WatchFitness;

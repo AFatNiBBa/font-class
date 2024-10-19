@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `paperclip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/paperclip?s=sharp-thin paperclip}
+ * @preview ![paperclip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg2LjMgNjEuN2MtMzIuMi0zMi4yLTg0LjUtMzIuMi0xMTYuNyAwbC0xOTIgMTkyYy00OS45IDQ5LjktNDkuOSAxMzAuOCAwIDE4MC43czEzMC44IDQ5LjkgMTgwLjcgMGwxNTItMTUyIDUuNy01LjdMNDI3LjMgMjg4bC01LjcgNS43LTE1MiAxNTJjLTU2LjEgNTYuMS0xNDcuMiA1Ni4xLTIwMy4zIDBzLTU2LjEtMTQ3LjIgMC0yMDMuM2wxOTItMTkyYzM4LjUtMzguNSAxMDAuOC0zOC41IDEzOS4zIDBzMzguNSAxMDAuOCAwIDEzOS4zTDIxMy45IDM3My40Yy0yNC44IDI0LjgtNjUuNyAyMi42LTg3LjctNC45Yy0xOC44LTIzLjQtMTYuOS01Ny4yIDQuMy03OC41TDI4Mi4zIDEzOC4zbDUuNy01LjdMMjk5LjMgMTQ0bC01LjcgNS43TDE0MS45IDMwMS40Yy0xNS41IDE1LjUtMTYuOCA0MC4xLTMuMiA1Ny4yYzE2IDIwIDQ1LjggMjEuNiA2My45IDMuNUwzODYuMyAxNzguM2MzMi4yLTMyLjIgMzIuMi04NC41IDAtMTE2Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const Paperclip: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M386.3 61.7c-32.2-32.2-84.5-32.2-116.7 0l-192 192c-49.9 49.9-49.9 130.8 0 180.7s130.8 49.9 180.7 0l152-152 5.7-5.7L427.3 288l-5.7 5.7-152 152c-56.1 56.1-147.2 56.1-203.3 0s-56.1-147.2 0-203.3l192-192c38.5-38.5 100.8-38.5 139.3 0s38.5 100.8 0 139.3L213.9 373.4c-24.8 24.8-65.7 22.6-87.7-4.9c-18.8-23.4-16.9-57.2 4.3-78.5L282.3 138.3l5.7-5.7L299.3 144l-5.7 5.7L141.9 301.4c-15.5 15.5-16.8 40.1-3.2 57.2c16 20 45.8 21.6 63.9 3.5L386.3 178.3c32.2-32.2 32.2-84.5 0-116.7z" />
+    </Icon>
+);
+
+export default Paperclip;

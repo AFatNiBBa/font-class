@@ -2,9 +2,9 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `discourse` icon from the `brands` section of Font Awesome 6 Pro
+ * A component that renders the `discourse` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/discourse?s=brands discourse}
- * @preview ![discourse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0yMjUuOSAzMkMxMDMuMyAzMiAwIDEzMC41IDAgMjUyLjEgMCAyNTYgLjEgNDgwIC4xIDQ4MGwyMjUuOC0uMmMxMjIuNyAwIDIyMi4xLTEwMi4zIDIyMi4xLTIyMy45QzQ0OCAxMzQuMyAzNDguNiAzMiAyMjUuOSAzMnpNMjI0IDM4NGMtMTkuNCAwLTM3LjktNC4zLTU0LjQtMTIuMUw4OC41IDM5MmwyMi45LTc1Yy05LjgtMTguMS0xNS40LTM4LjktMTUuNC02MSAwLTcwLjcgNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4LTU3LjMgMTI4LTEyOCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![discourse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI1LjkgMzJDMTAzLjMgMzIgMCAxMzAuNSAwIDI1Mi4xIDAgMjU2IC4xIDQ4MCAuMSA0ODBsMjI1LjgtLjJjMTIyLjcgMCAyMjIuMS0xMDIuMyAyMjIuMS0yMjMuOUM0NDggMTM0LjMgMzQ4LjYgMzIgMjI1LjkgMzJ6TTIyNCAzODRjLTE5LjQgMC0zNy45LTQuMy01NC40LTEyLjFMODguNSAzOTJsMjIuOS03NWMtOS44LTE4LjEtMTUuNC0zOC45LTE1LjQtNjEgMC03MC43IDU3LjMtMTI4IDEyOC0xMjhzMTI4IDU3LjMgMTI4IDEyOC01Ny4zIDEyOC0xMjggMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const Discourse: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

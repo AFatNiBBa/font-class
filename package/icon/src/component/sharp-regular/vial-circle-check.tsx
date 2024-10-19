@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `vial-circle-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/vial-circle-check?s=sharp-regular vial-circle-check}
+ * @preview ![vial-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwzMiAwIDQ4IDAgOTYgMCA0OCAwIDMyIDAgMCA0OC0zMiAwIDAgMTg2LjhjLTIwLjIgMjguNi0zMiA2My41LTMyIDEwMS4yYzAgMjUuMiA1LjMgNDkuMSAxNC44IDcwLjhDMTg5LjUgNDYzLjcgMTYwLjYgNDgwIDEyOCA0ODBjLTUzIDAtOTYtNDMtOTYtOTZMMzIgODAgMCA4MCAwIDMyek04MCA4MGwwIDExMiA5NiAwIDAtMTEyTDgwIDgwem0wIDE2MGwwIDE0NGMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4bDAtMTQ0LTk2IDB6TTIyNCAzNjhhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMjIyLjYtMzJMNDI0IDMxMy40bC0xMS4zIDExLjNMMzUyIDM4NS40bC0yOC43LTI4LjdMMzEyIDM0NS40IDI4OS40IDM2OGwxMS4zIDExLjMgNDAgNDBMMzUyIDQzMC42bDExLjMtMTEuMyA3Mi03Mkw0NDYuNiAzMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const VialCircleCheck: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M0 32l32 0 48 0 96 0 48 0 32 0 0 48-32 0 0 186.8c-20.2 28.6-32 63.5-32 101.2c0 25.2 5.3 49.1 14.8 70.8C189.5 463.7 160.6 480 128 480c-53 0-96-43-96-96L32 80 0 80 0 32zM80 80l0 112 96 0 0-112L80 80zm0 160l0 144c0 26.5 21.5 48 48 48s48-21.5 48-48l0-144-96 0zM224 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm222.6-32L424 313.4l-11.3 11.3L352 385.4l-28.7-28.7L312 345.4 289.4 368l11.3 11.3 40 40L352 430.6l11.3-11.3 72-72L446.6 336z" />
+    </Icon>
+);
+
+export default VialCircleCheck;

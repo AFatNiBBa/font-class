@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `grid-4` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/grid-4?s=sharp-duotone-solid grid-4}
+ * @preview ![grid-4](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE1MS41bDAgODkuNiA4OS42IDAgMC04OS42TDAgMTUxLjV6TTAgMzkwLjRMMCA0ODBsODkuNiAwIDAtODkuNkwwIDM5MC40ek0xMTkuNSAzMmwwIDg5LjYgODkuNiAwIDAtODkuNi04OS42IDB6bTAgMjM4LjlsMCA4OS42IDg5LjYgMCAwLTg5LjYtODkuNiAwek0yMzguOSAxNTEuNWwwIDg5LjYgODkuNiAwIDAtODkuNi04OS42IDB6bTAgMjM4LjlsMCA4OS42IDg5LjYgMCAwLTg5LjYtODkuNiAwek0zNTguNCAzMmwwIDg5LjYgODkuNiAwTDQ0OCAzMmwtODkuNiAwem0wIDIzOC45bDAgODkuNiA4OS42IDAgMC04OS42LTg5LjYgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTg5LjYgMzJMMCAzMmwwIDg5LjYgODkuNiAwIDAtODkuNnptMCAyMzguOUwwIDI3MC45bDAgODkuNiA4OS42IDAgMC04OS42em0yOS45LTExOS41bDAgODkuNiA4OS42IDAgMC04OS42LTg5LjYgMHptODkuNiAyMzguOWwtODkuNiAwIDAgODkuNiA4OS42IDAgMC04OS42ek0yMzguOSAzMmwwIDg5LjYgODkuNiAwIDAtODkuNi04OS42IDB6bTg5LjYgMjM4LjlsLTg5LjYgMCAwIDg5LjYgODkuNiAwIDAtODkuNnptMjkuOS0xMTkuNWwwIDg5LjYgODkuNiAwIDAtODkuNi04OS42IDB6TTQ0OCAzOTAuNGwtODkuNiAwIDAgODkuNiA4OS42IDAgMC04OS42eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const Grid_4: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M0 151.5l0 89.6 89.6 0 0-89.6L0 151.5zM0 390.4L0 480l89.6 0 0-89.6L0 390.4zM119.5 32l0 89.6 89.6 0 0-89.6-89.6 0zm0 238.9l0 89.6 89.6 0 0-89.6-89.6 0zM238.9 151.5l0 89.6 89.6 0 0-89.6-89.6 0zm0 238.9l0 89.6 89.6 0 0-89.6-89.6 0zM358.4 32l0 89.6 89.6 0L448 32l-89.6 0zm0 238.9l0 89.6 89.6 0 0-89.6-89.6 0z" />
+            <path d="M89.6 32L0 32l0 89.6 89.6 0 0-89.6zm0 238.9L0 270.9l0 89.6 89.6 0 0-89.6zm29.9-119.5l0 89.6 89.6 0 0-89.6-89.6 0zm89.6 238.9l-89.6 0 0 89.6 89.6 0 0-89.6zM238.9 32l0 89.6 89.6 0 0-89.6-89.6 0zm89.6 238.9l-89.6 0 0 89.6 89.6 0 0-89.6zm29.9-119.5l0 89.6 89.6 0 0-89.6-89.6 0zM448 390.4l-89.6 0 0 89.6 89.6 0 0-89.6z" />
+    </Icon>
+);
+
+export default Grid_4;

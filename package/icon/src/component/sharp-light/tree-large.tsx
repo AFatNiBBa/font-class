@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `tree-large` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/tree-large?s=sharp-light tree-large}
+ * @preview ![tree-large](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgzLjMgMjI0bDguNyAwIDAtMzJMMjQ1LjMgMjQuMyAyMjQgMCAyMDIuNyAyNC4zIDU2IDE5MmwwIDMyIDguNyAwTDg4IDIyNGwxNiAwTDgxLjEgMjU2IDI0IDMzNmwwIDMyIDE2LjcgMEw1NiAzNjhsMjQgMEw1Ny4xIDQwMCAwIDQ4MGwwIDMyIDMyIDAgMzg0IDAgMzIgMCAwLTMyLTU3LjEtODBMMzY4IDM2OGwyNCAwIDE1LjMgMCAxNi43IDAgMC0zMi01Ny4xLTgwTDM0NCAyMjRsMTYgMCAyMy4zIDB6bS0zMy44LTMybC01LjUgMC02Mi4yIDBMMzE4IDI0Mi42IDM4NC43IDMzNiAzNjggMzM2bC02Mi4yIDBMMzQyIDM4Ni42IDQwOC43IDQ4MCAzOS4zIDQ4MCAxMDYgMzg2LjYgMTQyLjIgMzM2IDgwIDMzNmwtMTYuNyAwTDEzMCAyNDIuNiAxNjYuMiAxOTIgMTA0IDE5MmwtNS41IDBMMjI0IDQ4LjYgMzQ5LjUgMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const TreeLarge: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path d="M383.3 224l8.7 0 0-32L245.3 24.3 224 0 202.7 24.3 56 192l0 32 8.7 0L88 224l16 0L81.1 256 24 336l0 32 16.7 0L56 368l24 0L57.1 400 0 480l0 32 32 0 384 0 32 0 0-32-57.1-80L368 368l24 0 15.3 0 16.7 0 0-32-57.1-80L344 224l16 0 23.3 0zm-33.8-32l-5.5 0-62.2 0L318 242.6 384.7 336 368 336l-62.2 0L342 386.6 408.7 480 39.3 480 106 386.6 142.2 336 80 336l-16.7 0L130 242.6 166.2 192 104 192l-5.5 0L224 48.6 349.5 192z" />
+    </Icon>
+);
+
+export default TreeLarge;

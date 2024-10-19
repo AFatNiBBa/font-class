@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `chess-pawn` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/chess-pawn?s=sharp-light chess-pawn}
+ * @preview ![chess-pawn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDE0NEE4MCA4MCAwIDEgMCA4MCAxNDRhODAgODAgMCAxIDAgMTYwIDB6bTE2IDExMmwtMjAuNiAwTDI1NCAzNTJsLTMyLjYgMC0xOC42LTk2TDE2MCAyNTZsLTQyLjggMEw5OC42IDM1MiA2NiAzNTJsMTguNi05Nkw2NCAyNTZsLTE2IDAgMC0zMiAxNiAwIDE3LjYgMEM2MC45IDIwMy43IDQ4IDE3NS4zIDQ4IDE0NEM0OCA4Mi4xIDk4LjEgMzIgMTYwIDMyczExMiA1MC4xIDExMiAxMTJjMCAzMS4zLTEyLjkgNTkuNy0zMy42IDgwbDE3LjYgMCAxNiAwIDAgMzItMTYgMHpNMzIgNDgwbDI1NiAwIDAtOS41TDI1NC4yIDQxNiA2NS44IDQxNiAzMiA0NzAuNWwwIDkuNXptMjQwLTk2bDQ4IDc3LjMgMCAxOC43IDAgMzItMzIgMEwzMiA1MTIgMCA1MTJsMC0zMiAwLTE4LjdMNDggMzg0bDIyNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const ChessPawn: typeof Icon = x => (
+    <Icon viewBox="0 0 320 512" {...x}>
+        <path d="M240 144A80 80 0 1 0 80 144a80 80 0 1 0 160 0zm16 112l-20.6 0L254 352l-32.6 0-18.6-96L160 256l-42.8 0L98.6 352 66 352l18.6-96L64 256l-16 0 0-32 16 0 17.6 0C60.9 203.7 48 175.3 48 144C48 82.1 98.1 32 160 32s112 50.1 112 112c0 31.3-12.9 59.7-33.6 80l17.6 0 16 0 0 32-16 0zM32 480l256 0 0-9.5L254.2 416 65.8 416 32 470.5l0 9.5zm240-96l48 77.3 0 18.7 0 32-32 0L32 512 0 512l0-32 0-18.7L48 384l224 0z" />
+    </Icon>
+);
+
+export default ChessPawn;

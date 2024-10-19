@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `boot-heeled` icon from the `sharp-light` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/boot-heeled?s=sharp-light boot-heeled}
+ * @preview ![boot-heeled](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQxIDQxOC44TDI3OC44IDQ4MCA0MzIgNDgwbDE2IDAgMC02MC4yTDI0MS43IDMxNi42IDIyNCAzMDcuOGwwLTE5LjggMC0yNTYtOTYgMCAwIDIwOCAwIDE2LTMyIDAgMC0xNkw5NiAzMiAzMiAzMmwwIDMwTDU1LjggMjUybC42IDUtLjkgNC45TDMyIDM4N2wwIDI5IDk2IDAgNi44IDAgNi4yIDIuOHpNMTI4IDBsOTYgMCAzMiAwIDAgMzIgMCAyNTZMNDgwIDQwMGwwIDgwIDE2IDAgMTYgMCAwIDMyLTE2IDAtMTYgMC0zMiAwLTE2IDAtMTYwIDBMMTYwIDQ2Mi4ybDAgMzMuOCAwIDE2LTE2IDBMMTYgNTEyIDAgNTEybDAtMTYgMC00OCAwLTE2IDAtMTYgMC0zMkwyNCAyNTYgMCA2NCAwIDMyIDAgMCAzMiAwIDk2IDBsMzIgMHptMCA0NDhsLTk2IDAgMCAzMiA5NiAwIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ */
+const BootHeeled: typeof Icon = x => (
+    <Icon {...x}>
+        <path d="M141 418.8L278.8 480 432 480l16 0 0-60.2L241.7 316.6 224 307.8l0-19.8 0-256-96 0 0 208 0 16-32 0 0-16L96 32 32 32l0 30L55.8 252l.6 5-.9 4.9L32 387l0 29 96 0 6.8 0 6.2 2.8zM128 0l96 0 32 0 0 32 0 256L480 400l0 80 16 0 16 0 0 32-16 0-16 0-32 0-16 0-160 0L160 462.2l0 33.8 0 16-16 0L16 512 0 512l0-16 0-48 0-16 0-16 0-32L24 256 0 64 0 32 0 0 32 0 96 0l32 0zm0 448l-96 0 0 32 96 0 0-32z" />
+    </Icon>
+);
+
+export default BootHeeled;

@@ -2,13 +2,13 @@
 import { Icon } from "../../index";
 
 /**
- * A component that renders the `bracket-square-right` icon from the `solid` section of Font Awesome 6 Pro
+ * A component that renders the `bracket-square-right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bracket-square-right?s=solid bracket-square-right}
- * @preview ![bracket-square-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik0zMiA2NFY2NEMzMiA4MS42NzMgNDYuMzI3IDk2IDY0IDk2SDEyOFY0MTZINjRDNDYuMzI3IDQxNiAzMiA0MzAuMzI3IDMyIDQ0OFY0NDhDMzIgNDY1LjY3MyA0Ni4zMjcgNDgwIDY0IDQ4MEgxNjBDMTc3LjYgNDgwIDE5MiA0NjUuNiAxOTIgNDQ4VjY0QzE5MiA0Ni40IDE3Ny42IDMyIDE2MCAzMkg2NEM0Ni4zMjcgMzIgMzIgNDYuMzI3IDMyIDY0WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bracket-square-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDk2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyQzQ2LjMgMzIgMzIgNDYuMyAzMiA2NHMxNC4zIDMyIDMyIDMybDY0IDAgMCAzMjAtNjQgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmw2NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIweiIvPjwvc3ZnPg==|width=32|height=32)
  */
 const BracketSquareRight: typeof Icon = x => (
     <Icon viewBox="0 0 192 512" {...x}>
-        <path d="M32 64V64C32 81.673 46.327 96 64 96H128V416H64C46.327 416 32 430.327 32 448V448C32 465.673 46.327 480 64 480H160C177.6 480 192 465.6 192 448V64C192 46.4 177.6 32 160 32H64C46.327 32 32 46.327 32 64Z" />
+        <path d="M192 96c0-35.3-28.7-64-64-64L64 32C46.3 32 32 46.3 32 64s14.3 32 32 32l64 0 0 320-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c35.3 0 64-28.7 64-64l0-320z" />
     </Icon>
 );
 

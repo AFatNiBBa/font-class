@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `tent-arrow-down-to-line` icon from the `regular` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/tent-arrow-down-to-line?s=regular tent-arrow-down-to-line}
+ * @preview ![tent-arrow-down-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQxLjggMTExLjljOC45IDkuOSA4LjEgMjUtMS44IDMzLjlsLTgwIDcyYy05LjEgOC4yLTIzIDguMi0zMi4xIDBsLTgwLTcyYy05LjktOC45LTEwLjctMjQtMS44LTMzLjlzMjQtMTAuNyAzMy45LTEuOGwzOS45IDM2TDEyMCAyNGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0bDAgMTIyLjEgMzkuOS0zNmM5LjktOC45IDI1LTguMSAzMy45IDEuOHpNMzY5LjMgMTMzYzguNi02LjcgMjAuNy02LjcgMjkuNCAwTDU2NS4yIDI2MS43YzEwLjcgOC4zIDE4IDIwLjEgMjAuNyAzMy4zbDMzLjkgMTY5LjNDNjMxLjIgNDY2LjEgNjQwIDQ3NiA2NDAgNDg4YzAgMTMuMy0xMC43IDI0LTI0IDI0bC0xNiAwLTQzMiAwTDI0IDUxMmMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGwxMjQuMyAwIDMzLjgtMTY5YzIuNi0xMy4yIDEwLTI1LjEgMjAuNy0zMy4zTDM2OS4zIDEzM3ptLTE3MiAzMzFMMzYwIDQ2NGwwLTI2My4xTDIzMi4xIDI5OS43Yy0xLjUgMS4yLTIuNiAyLjktMyA0LjhMMTk3LjMgNDY0ek00NzIgNDY0bDk4LjcgMEw1MzguOCAzMDQuNGMtLjQtMS45LTEuNC0zLjYtMy00LjhMNDA4IDIwMC45IDQwOCAzMzZsNjQgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ */
+const TentArrowDownToLine: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path d="M241.8 111.9c8.9 9.9 8.1 25-1.8 33.9l-80 72c-9.1 8.2-23 8.2-32.1 0l-80-72c-9.9-8.9-10.7-24-1.8-33.9s24-10.7 33.9-1.8l39.9 36L120 24c0-13.3 10.7-24 24-24s24 10.7 24 24l0 122.1 39.9-36c9.9-8.9 25-8.1 33.9 1.8zM369.3 133c8.6-6.7 20.7-6.7 29.4 0L565.2 261.7c10.7 8.3 18 20.1 20.7 33.3l33.9 169.3C631.2 466.1 640 476 640 488c0 13.3-10.7 24-24 24l-16 0-432 0L24 512c-13.3 0-24-10.7-24-24s10.7-24 24-24l124.3 0 33.8-169c2.6-13.2 10-25.1 20.7-33.3L369.3 133zm-172 331L360 464l0-263.1L232.1 299.7c-1.5 1.2-2.6 2.9-3 4.8L197.3 464zM472 464l98.7 0L538.8 304.4c-.4-1.9-1.4-3.6-3-4.8L408 200.9 408 336l64 128z" />
+    </Icon>
+);
+
+export default TentArrowDownToLine;

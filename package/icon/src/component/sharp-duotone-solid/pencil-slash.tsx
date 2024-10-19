@@ -1,0 +1,16 @@
+
+import { Icon, generic } from "../../index";
+
+/**
+ * A component that renders the `pencil-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/pencil-slash?s=sharp-duotone-solid pencil-slash}
+ * @preview ![pencil-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCA1MTIuNmw1MS0xMC4yIDEwOS0yMS44TDM0MC4xIDM2NC41IDI2My4yIDMwNGwtMjcuOSAyNy45TDIyNCAzNDMuMmwtMjIuNi0yMi42IDExLjMtMTEuM0wyMzcuOSAyODRsLTQxLTMyLjNMOTYgMzUyLjZsLTIxLjggMTA5TDY0IDUxMi42em02MS4yLTYxLjJsMTUtNzUuMSAyMy43LTIzLjcgMTIuMSAwIDAgNDggNDggMCAwIDEyLjEtMjMuNyAyMy43LTc1LjEgMTV6TTI2NS4zIDE4My4ybDQxLjMgMzIuMSA1MC01MEwzNjggMTUzLjlsMjIuNiAyMi42LTExLjMgMTEuMy00Ny4yIDQ3LjIgNzcuMyA2MCA3NS4yLTc1LjItMTYtMTYtOTYtOTYtMTYtMTYtOTEuMyA5MS4zem0xMTQtMTE0bDE2IDE2IDk2IDk2IDE2IDE2IDM0LjctMzQuN0w1NzYgMTI4LjYgNTQyLjEgOTQuNiA0ODEuOSAzNC41IDQ0OCAuNiA0MTQuMSAzNC41IDM3OS4zIDY5LjN6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yOS40IC4xbDE5IDE0LjdMNjIwLjkgNDU5LjNsMTkgMTQuNy0yOS40IDM3LjktMTktMTQuN0wxOSA1Mi43IDAgMzggMjkuNCAuMXoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const PencilSlash: typeof Icon = x => (
+    <Icon viewBox="0 0 640 512" {...x}>
+        <path class={generic.secondary} d="M64 512.6l51-10.2 109-21.8L340.1 364.5 263.2 304l-27.9 27.9L224 343.2l-22.6-22.6 11.3-11.3L237.9 284l-41-32.3L96 352.6l-21.8 109L64 512.6zm61.2-61.2l15-75.1 23.7-23.7 12.1 0 0 48 48 0 0 12.1-23.7 23.7-75.1 15zM265.3 183.2l41.3 32.1 50-50L368 153.9l22.6 22.6-11.3 11.3-47.2 47.2 77.3 60 75.2-75.2-16-16-96-96-16-16-91.3 91.3zm114-114l16 16 96 96 16 16 34.7-34.7L576 128.6 542.1 94.6 481.9 34.5 448 .6 414.1 34.5 379.3 69.3z" />
+            <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
+    </Icon>
+);
+
+export default PencilSlash;

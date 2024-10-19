@@ -1,0 +1,15 @@
+
+import { Icon } from "../../index";
+
+/**
+ * A component that renders the `suitcase-rolling` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
+ * @see {@link https://fontawesome.com/icons/suitcase-rolling?s=sharp-thin suitcase-rolling}
+ * @preview ![suitcase-rolling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA0IDBMOTYgMGwwIDggMCAxMjAtODAgMEwwIDEyOGwwIDE2TDAgNDY0bDAgMTYgMTYgMCA0OCAwIDAgMjQgMCA4IDggMCA0OCAwIDggMCAwLTggMC0yNCAxMjggMCAwIDI0IDAgOCA4IDAgNDggMCA4IDAgMC04IDAtMjQgNDggMCAxNiAwIDAtMTYgMC0zMjAgMC0xNi0xNiAwLTgwIDBMMjg4IDhsMC04LTggMEwxMDQgMHpNMzA0IDQ2NGwtMzIgMC0xNiAwLTEyOCAwLTE2IDAtMzIgMC0xNiAwLTQ4IDAgMC0zMjAgODAgMCAxNiAwIDE2MCAwIDE2IDAgODAgMCAwIDMyMC00OCAwLTE2IDB6bS0zMiAxNmwzMiAwIDAgMTYtMzIgMCAwLTE2em0tMTYwIDBsMCAxNi0zMiAwIDAtMTYgMzIgMHpNMjcyIDEyOGwtMTYwIDAgMC0xMTIgMTYwIDAgMCAxMTJ6TTgwIDI0MGwwIDE2IDggMCAyMDggMCA4IDAgMC0xNi04IDBMODggMjQwbC04IDB6bTAgMTEybDAgMTYgOCAwIDIwOCAwIDggMCAwLTE2LTggMEw4OCAzNTJsLTggMHoiLz48L3N2Zz4=|width=32|height=32)
+ */
+const SuitcaseRolling: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path d="M104 0L96 0l0 8 0 120-80 0L0 128l0 16L0 464l0 16 16 0 48 0 0 24 0 8 8 0 48 0 8 0 0-8 0-24 128 0 0 24 0 8 8 0 48 0 8 0 0-8 0-24 48 0 16 0 0-16 0-320 0-16-16 0-80 0L288 8l0-8-8 0L104 0zM304 464l-32 0-16 0-128 0-16 0-32 0-16 0-48 0 0-320 80 0 16 0 160 0 16 0 80 0 0 320-48 0-16 0zm-32 16l32 0 0 16-32 0 0-16zm-160 0l0 16-32 0 0-16 32 0zM272 128l-160 0 0-112 160 0 0 112zM80 240l0 16 8 0 208 0 8 0 0-16-8 0L88 240l-8 0zm0 112l0 16 8 0 208 0 8 0 0-16-8 0L88 352l-8 0z" />
+    </Icon>
+);
+
+export default SuitcaseRolling;
