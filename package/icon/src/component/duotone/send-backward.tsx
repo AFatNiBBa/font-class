@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `send-backward` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/send-backward?s=duotone send-backward}
  * @preview ![send-backward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQ0OCAxNjBIMjI0QzE4OC42NTQgMTYwIDE2MCAxODguNjU0IDE2MCAyMjRWNDQ4QzE2MCA0ODMuMzQ2IDE4OC42NTQgNTEyIDIyNCA1MTJINDQ4QzQ4My4zNDYgNTEyIDUxMiA0ODMuMzQ2IDUxMiA0NDhWMjI0QzUxMiAxODguNjUyIDQ4My4zNDYgMTYwIDQ0OCAxNjBaTTQ0OCA0NDhIMjI0VjIyNEg0NDhWNDQ4WiIgY2xhc3M9ImZhLXNlY29uZGFyeSIvPjxwYXRoIGQ9Ik0xNjAgMzUySDY0QzI4LjY1NCAzNTIgMCAzMjMuMzQ2IDAgMjg4VjY0QzAgMjguNjUyIDI4LjY1NCAwIDY0IDBIMjg4QzMyMy4zNDYgMCAzNTIgMjguNjUyIDM1MiA2NFYxNjBIMjI0QzE5NS4yNzcgMTYwIDE3MS4yNjIgMTc5LjA0OSAxNjMuMTYyIDIwNS4xMDVDMTYyLjU5NCAyMDYuNjExIDE2Mi4wNTcgMjA4LjE5NSAxNjEuNjU0IDIwOS45NjNDMTYwLjYzNyAyMTQuNDkyIDE2MCAyMTkuMTYyIDE2MCAyMjRWMzUyWiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
  */
-export default function SendBackward(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon {...props}>
-            <path class={generic.secondary} d="M448 160H224C188.654 160 160 188.654 160 224V448C160 483.346 188.654 512 224 512H448C483.346 512 512 483.346 512 448V224C512 188.652 483.346 160 448 160ZM448 448H224V224H448V448Z" />
+const SendBackward: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M448 160H224C188.654 160 160 188.654 160 224V448C160 483.346 188.654 512 224 512H448C483.346 512 512 483.346 512 448V224C512 188.652 483.346 160 448 160ZM448 448H224V224H448V448Z" />
             <path d="M160 352H64C28.654 352 0 323.346 0 288V64C0 28.652 28.654 0 64 0H288C323.346 0 352 28.652 352 64V160H224C195.277 160 171.262 179.049 163.162 205.105C162.594 206.611 162.057 208.195 161.654 209.963C160.637 214.492 160 219.162 160 224V352Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default SendBackward;

@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `arrow-turn-down` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-turn-down?s=duotone arrow-turn-down}
  * @preview ![arrow-turn-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTE5Mi4wMDIgNDE3LjI4OUwxNTIgMzc5Ljk0NVY4MEg0MEMxNy45MDYgODAgMCA2Mi4wOTQgMCA0MFMxNy45MDYgMCA0MCAwTDE5MiAwQzIxNC4wOTQgMCAyMzIgMTcuOTA2IDIzMiA0MFYzNzkuOTUzTDE5Mi4wMDIgNDE3LjI4OVoiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNMzM5LjI5OCAzODkuMjU2TDIxOS4yOTcgNTAxLjI2NUMyMDMuOTIyIDUxNS41NzggMTgwLjA3OCA1MTUuNTc4IDE2NC43MDMgNTAxLjI2NUw0NC43MDIgMzg5LjI1NkMyOC41NjEgMzc0LjE2MSAyNy42ODYgMzQ4Ljg0NiA0Mi43NDkgMzMyLjcyQzU3LjgyNyAzMTYuNTYyIDgzLjEwOCAzMTUuNjg3IDk5LjI5NiAzMzAuNzUxTDE5MiA0MTcuMjg5TDI4NC43MDQgMzMwLjc1MUMyOTIuNDIzIDMyMy41NjMgMzAyLjIyIDMyMCAzMTEuOTg1IDMyMEMzMjIuNjg5IDMyMCAzMzMuMzYxIDMyNC4yODIgMzQxLjI1MSAzMzIuNzJDMzU2LjMxNCAzNDguODQ2IDM1NS40MzkgMzc0LjE2MSAzMzkuMjk4IDM4OS4yNTZaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
  */
-export default function ArrowTurnDown(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 384 512" {...props}>
-            <path class={generic.secondary} d="M192.002 417.289L152 379.945V80H40C17.906 80 0 62.094 0 40S17.906 0 40 0L192 0C214.094 0 232 17.906 232 40V379.953L192.002 417.289Z" />
+const ArrowTurnDown: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path class={generic.secondary} d="M192.002 417.289L152 379.945V80H40C17.906 80 0 62.094 0 40S17.906 0 40 0L192 0C214.094 0 232 17.906 232 40V379.953L192.002 417.289Z" />
             <path d="M339.298 389.256L219.297 501.265C203.922 515.578 180.078 515.578 164.703 501.265L44.702 389.256C28.561 374.161 27.686 348.846 42.749 332.72C57.827 316.562 83.108 315.687 99.296 330.751L192 417.289L284.704 330.751C292.423 323.563 302.22 320 311.985 320C322.689 320 333.361 324.282 341.251 332.72C356.314 348.846 355.439 374.161 339.298 389.256Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default ArrowTurnDown;

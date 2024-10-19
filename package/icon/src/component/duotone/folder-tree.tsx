@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `folder-tree` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/folder-tree?s=duotone folder-tree}
  * @preview ![folder-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTY0IDE2QzY0IDcuMTI1IDU2Ljg3NSAwIDQ4IDBIMTZDNy4xMjUgMCAwIDcuMTI1IDAgMTZWNDE2QzAgNDMzLjYyNSAxNC4zNzUgNDQ4IDMyIDQ0OEgyNTZWMzg0SDY0VjE2MEgyNTZWOTZINjRWMTZaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTU0NCAzMkg0MzJMNDAwIDBIMzIwQzMwMi4zNzUgMCAyODggMTQuMzc1IDI4OCAzMlYxOTJDMjg4IDIwOS42MjUgMzAyLjM3NSAyMjQgMzIwIDIyNEg1NDRDNTYxLjYyNSAyMjQgNTc2IDIwOS42MjUgNTc2IDE5MlY2NEM1NzYgNDYuMzc1IDU2MS42MjUgMzIgNTQ0IDMyWk01NDQgMzIwSDQzMkw0MDAgMjg4SDMyMEMzMDIuMzc1IDI4OCAyODggMzAyLjM3NSAyODggMzIwVjQ4MEMyODggNDk3LjYyNSAzMDIuMzc1IDUxMiAzMjAgNTEySDU0NEM1NjEuNjI1IDUxMiA1NzYgNDk3LjYyNSA1NzYgNDgwVjM1MkM1NzYgMzM0LjM3NSA1NjEuNjI1IDMyMCA1NDQgMzIwWiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
  */
-export default function FolderTree(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 576 512" {...props}>
-            <path class={generic.secondary} d="M64 16C64 7.125 56.875 0 48 0H16C7.125 0 0 7.125 0 16V416C0 433.625 14.375 448 32 448H256V384H64V160H256V96H64V16Z" />
+const FolderTree: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path class={generic.secondary} d="M64 16C64 7.125 56.875 0 48 0H16C7.125 0 0 7.125 0 16V416C0 433.625 14.375 448 32 448H256V384H64V160H256V96H64V16Z" />
             <path d="M544 32H432L400 0H320C302.375 0 288 14.375 288 32V192C288 209.625 302.375 224 320 224H544C561.625 224 576 209.625 576 192V64C576 46.375 561.625 32 544 32ZM544 320H432L400 288H320C302.375 288 288 302.375 288 320V480C288 497.625 302.375 512 320 512H544C561.625 512 576 497.625 576 480V352C576 334.375 561.625 320 544 320Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default FolderTree;

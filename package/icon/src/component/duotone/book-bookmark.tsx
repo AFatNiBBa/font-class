@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `book-bookmark` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/book-bookmark?s=duotone book-bookmark}
  * @preview ![book-bookmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQxNiAzODRWNDQ4SDk2Qzc4LjMyNiA0NDggNjQgNDMzLjY3MiA2NCA0MTZDNjQgMzk4LjMyNiA3OC4zMjYgMzg0IDk2IDM4NEg0MTZaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTY0IDQxNkM2NCA0MzMuNjcyIDc4LjMyOCA0NDggOTYgNDQ4SDQyNEM0MzcuMjU0IDQ0OCA0NDggNDU4Ljc0MiA0NDggNDcyVjQ4OEM0NDggNTAxLjI1NCA0MzcuMjU0IDUxMiA0MjQgNTEySDk2QzQyLjk4IDUxMiAwIDQ2OS4wMiAwIDQxNlY5NkMwIDQyLjk4IDQyLjk4IDAgOTYgMEgxOTJWMTkxLjk3MUMxOTIgMjA1LjM4NSAyMDcuNTIgMjEyLjg0NiAyMTcuOTk2IDIwNC40NjNMMjcyIDE2MC4wMDJMMzI2LjAwNCAyMDQuNDYzQzMzNi40OCAyMTIuODQ2IDM1MiAyMDUuMzg1IDM1MiAxOTEuOTcxVjBINDE2QzQzMy42NzIgMCA0NDggMTQuMzI4IDQ0OCAzMlYzNjBDNDQ4IDM3My4yNTQgNDM3LjI1NCAzODQgNDI0IDM4NEg5NkM3OC4zMjggMzg0IDY0IDM5OC4zMjggNjQgNDE2WiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
  */
-export default function BookBookmark(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 448 512" {...props}>
-            <path class={generic.secondary} d="M416 384V448H96C78.326 448 64 433.672 64 416C64 398.326 78.326 384 96 384H416Z" />
+const BookBookmark: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M416 384V448H96C78.326 448 64 433.672 64 416C64 398.326 78.326 384 96 384H416Z" />
             <path d="M64 416C64 433.672 78.328 448 96 448H424C437.254 448 448 458.742 448 472V488C448 501.254 437.254 512 424 512H96C42.98 512 0 469.02 0 416V96C0 42.98 42.98 0 96 0H192V191.971C192 205.385 207.52 212.846 217.996 204.463L272 160.002L326.004 204.463C336.48 212.846 352 205.385 352 191.971V0H416C433.672 0 448 14.328 448 32V360C448 373.254 437.254 384 424 384H96C78.328 384 64 398.328 64 416Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default BookBookmark;

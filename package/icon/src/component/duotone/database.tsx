@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `database` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/database?s=duotone database}
  * @preview ![database](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQ0OCA3My4xMjVWMTE4Ljg3NUM0NDggMTU5LjEyNSAzNDcuNjI1IDE5MiAyMjQgMTkyUzAgMTU5LjEyNSAwIDExOC44NzVWNzMuMTI1QzAgMzIuODc1IDEwMC4zNzUgMCAyMjQgMFM0NDggMzIuODc1IDQ0OCA3My4xMjVaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTIyNCAyMjQuNjI1QzEzNi4yNSAyMjQuNjI1IDQ4LjEyNSAyMDkuMTI1IDAgMTc2VjI3OC44NzVDMCAzMTkuMTI1IDEwMC4zNzUgMzUyIDIyNCAzNTJTNDQ4IDMxOS4xMjUgNDQ4IDI3OC44NzVWMTc2QzM5OS44NzUgMjA5LjEyNSAzMTEuNzUgMjI0LjYyNSAyMjQgMjI0LjYyNVpNMCAzMzZWNDM4Ljg3NUMwIDQ3OS4xMjUgMTAwLjM3NSA1MTIgMjI0IDUxMlM0NDggNDc5LjEyNSA0NDggNDM4Ljg3NVYzMzZDMzk5Ljg3NSAzNjkuMTI1IDMxMS43NSAzODQuNjI1IDIyNCAzODQuNjI1UzQ4LjEyNSAzNjkuMTI1IDAgMzM2WiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
  */
-export default function Database(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 448 512" {...props}>
-            <path class={generic.secondary} d="M448 73.125V118.875C448 159.125 347.625 192 224 192S0 159.125 0 118.875V73.125C0 32.875 100.375 0 224 0S448 32.875 448 73.125Z" />
+const Database: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M448 73.125V118.875C448 159.125 347.625 192 224 192S0 159.125 0 118.875V73.125C0 32.875 100.375 0 224 0S448 32.875 448 73.125Z" />
             <path d="M224 224.625C136.25 224.625 48.125 209.125 0 176V278.875C0 319.125 100.375 352 224 352S448 319.125 448 278.875V176C399.875 209.125 311.75 224.625 224 224.625ZM0 336V438.875C0 479.125 100.375 512 224 512S448 479.125 448 438.875V336C399.875 369.125 311.75 384.625 224 384.625S48.125 369.125 0 336Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default Database;

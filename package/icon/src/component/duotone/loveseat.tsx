@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `loveseat` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/loveseat?s=duotone loveseat}
  * @preview ![loveseat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTY0IDIyNi45MzhWMTYwQzY0IDg5LjMwNSAxMjEuMzA5IDMyIDE5MiAzMkgzMjBDMzkwLjY5NSAzMiA0NDggODkuMzA1IDQ0OCAxNjBWMjI2LjkzOEM0MjkuMzk4IDIzMy41NDcgNDE2IDI1MS4xMzMgNDE2IDI3MlYzNTJIOTZWMjcyQzk2IDI1MS4xMzMgODIuNjAyIDIzMy41NDcgNjQgMjI2LjkzOFoiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNNDY0IDIyNEM0MzcuNDkgMjI0IDQxNiAyNDUuNDkgNDE2IDI3MlYzNTJIOTZWMjcyQzk2IDI0NS40OSA3NC41MSAyMjQgNDggMjI0UzAgMjQ1LjQ5IDAgMjcyVjQ2NEMwIDQ3Mi44MzYgNy4xNjQgNDgwIDE2IDQ4MEg4MEM4OC44MzYgNDgwIDk2IDQ3Mi44MzYgOTYgNDY0VjQ0OEg0MTZWNDY0QzQxNiA0NzIuODM2IDQyMy4xNjQgNDgwIDQzMiA0ODBINDk2QzUwNC44MzYgNDgwIDUxMiA0NzIuODM2IDUxMiA0NjRWMjcyQzUxMiAyNDUuNDkgNDkwLjUxIDIyNCA0NjQgMjI0WiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
  */
-export default function Loveseat(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon {...props}>
-            <path class={generic.secondary} d="M64 226.938V160C64 89.305 121.309 32 192 32H320C390.695 32 448 89.305 448 160V226.938C429.398 233.547 416 251.133 416 272V352H96V272C96 251.133 82.602 233.547 64 226.938Z" />
+const Loveseat: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M64 226.938V160C64 89.305 121.309 32 192 32H320C390.695 32 448 89.305 448 160V226.938C429.398 233.547 416 251.133 416 272V352H96V272C96 251.133 82.602 233.547 64 226.938Z" />
             <path d="M464 224C437.49 224 416 245.49 416 272V352H96V272C96 245.49 74.51 224 48 224S0 245.49 0 272V464C0 472.836 7.164 480 16 480H80C88.836 480 96 472.836 96 464V448H416V464C416 472.836 423.164 480 432 480H496C504.836 480 512 472.836 512 464V272C512 245.49 490.51 224 464 224Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default Loveseat;

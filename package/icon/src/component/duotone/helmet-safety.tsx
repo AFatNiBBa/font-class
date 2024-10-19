@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `helmet-safety` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/helmet-safety?s=duotone helmet-safety}
  * @preview ![helmet-safety](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU3NC42ODggMzkzLjY1NkM1NzIuMTU2IDM4Ny44MTIgNTY2LjM3NSAzODQgNTYwIDM4NEgxNkM5LjYyNSAzODQgMy44NDQgMzg3LjgxMiAxLjMxMyAzOTMuNjU2Qy0xLjIxOSAzOTkuNTMxIC0wLjAzMSA0MDYuMzQ0IDQuMzc1IDQxMUM3LjAzMSA0MTMuODEyIDcyLjAzMSA0ODAgMjg4IDQ4MFM1NjguOTY5IDQxMy44MTIgNTcxLjYyNSA0MTFDNTc2LjAzMSA0MDYuMzQ0IDU3Ny4yMTkgMzk5LjUzMSA1NzQuNjg4IDM5My42NTZaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTU0NCAyODAuODkxQzU0NCAxOTEuNzIzIDQ4Mi4xNjYgMTE1LjQ3MyA0MDQuMzg5IDgzLjUyN0wzNTIgMTc0LjIyM1Y0OS43NzdDMzUyIDM5LjkxNCAzNDQuMDg0IDMyIDMzNC4yMjMgMzJIMjQxLjc3N0MyMzEuOTE2IDMyIDIyNCAzOS45MTQgMjI0IDQ5Ljc3N1YxNzQuMjIzTDE3MS42MTEgODMuNTI3QzkzLjgzNCAxMTUuNDczIDMyIDE5MS43MjMgMzIgMjgwLjg5MVYzODRINTQ0VjI4MC44OTFaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
  */
-export default function HelmetSafety(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 576 512" {...props}>
-            <path class={generic.secondary} d="M574.688 393.656C572.156 387.812 566.375 384 560 384H16C9.625 384 3.844 387.812 1.313 393.656C-1.219 399.531 -0.031 406.344 4.375 411C7.031 413.812 72.031 480 288 480S568.969 413.812 571.625 411C576.031 406.344 577.219 399.531 574.688 393.656Z" />
+const HelmetSafety: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path class={generic.secondary} d="M574.688 393.656C572.156 387.812 566.375 384 560 384H16C9.625 384 3.844 387.812 1.313 393.656C-1.219 399.531 -0.031 406.344 4.375 411C7.031 413.812 72.031 480 288 480S568.969 413.812 571.625 411C576.031 406.344 577.219 399.531 574.688 393.656Z" />
             <path d="M544 280.891C544 191.723 482.166 115.473 404.389 83.527L352 174.223V49.777C352 39.914 344.084 32 334.223 32H241.777C231.916 32 224 39.914 224 49.777V174.223L171.611 83.527C93.834 115.473 32 191.723 32 280.891V384H544V280.891Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default HelmetSafety;

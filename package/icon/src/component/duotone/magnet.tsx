@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `magnet` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/magnet?s=duotone magnet}
  * @preview ![magnet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTk2IDMxLjk5OUgzMkMxNC4zMjggMzEuOTk5IDAgNDYuMzI3IDAgNjMuOTk5VjEyNy45OTlIMTI4VjYzLjk5OUMxMjggNDYuMzI3IDExMy42NzQgMzEuOTk5IDk2IDMxLjk5OVpNNDE2IDMxLjk5OUgzNTJDMzM0LjMyOCAzMS45OTkgMzIwIDQ2LjMyNyAzMjAgNjMuOTk5VjEyNy45OTlINDQ4VjYzLjk5OUM0NDggNDYuMzI3IDQzMy42NzQgMzEuOTk5IDQxNiAzMS45OTlaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTQ0OCAxMjcuOTk5VjI1NkM0NDggMzg5LjIxMiAzMzEuMTE3IDQ5NS42MzggMTk0LjUyIDQ3OC4xMDNDODEuNjExIDQ2My42MSAwIDM2Mi4wMzIgMCAyNDguMTk5VjEyNy45OTlIMTI4VjI1Mi4yMTFDMTI4IDI5OC42NDEgMTU5LjI5MSAzNDEuMjg5IDIwNC44NjcgMzUwLjE0MUMyNjYuMTU0IDM2Mi4wNDMgMzIwIDMxNS4xOTYgMzIwIDI1NlYxMjcuOTk5SDQ0OFoiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
  */
-export default function Magnet(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 448 512" {...props}>
-            <path class={generic.secondary} d="M96 31.999H32C14.328 31.999 0 46.327 0 63.999V127.999H128V63.999C128 46.327 113.674 31.999 96 31.999ZM416 31.999H352C334.328 31.999 320 46.327 320 63.999V127.999H448V63.999C448 46.327 433.674 31.999 416 31.999Z" />
+const Magnet: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M96 31.999H32C14.328 31.999 0 46.327 0 63.999V127.999H128V63.999C128 46.327 113.674 31.999 96 31.999ZM416 31.999H352C334.328 31.999 320 46.327 320 63.999V127.999H448V63.999C448 46.327 433.674 31.999 416 31.999Z" />
             <path d="M448 127.999V256C448 389.212 331.117 495.638 194.52 478.103C81.611 463.61 0 362.032 0 248.199V127.999H128V252.211C128 298.641 159.291 341.289 204.867 350.141C266.154 362.043 320 315.196 320 256V127.999H448Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default Magnet;

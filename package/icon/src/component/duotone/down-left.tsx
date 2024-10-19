@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `down-left` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/down-left?s=duotone down-left}
  * @preview ![down-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTMxMy44NyA4OS4zNzNMMzU5LjEyNCAxMzQuNjI5QzM3MS42MiAxNDcuMTI1IDM3MS42MiAxNjcuMzg1IDM1OS4xMjQgMTc5Ljg4M0wyMjkuNTEyIDMwOS40OTJMMTM5IDIxOC45ODRMMjY4LjYxMiA4OS4zNzNDMjgxLjExMiA3Ni44NzUgMzAxLjM3IDc2Ljg3NyAzMTMuODcgODkuMzczWiIgY2xhc3M9ImZhLXNlY29uZGFyeSIvPjxwYXRoIGQ9Ik0yOTYuODk4IDM3Ny4zNzVDMzA2LjA0NyAzODYuNTIzIDMwOC43ODUgNDAwLjI5MSAzMDMuODM2IDQxMi4yNDRDMjk4Ljg3OSA0MjQuMjExIDI4Ny4yMjMgNDMyIDI3NC4yNyA0MzJINDcuOTk2QzM5LjE2IDQzMiAzMS4xNiA0MjguNDIgMjUuMzcxIDQyMi42MzFDMTkuNTgyIDQxNi44NCAxNiA0MDguODQyIDE2IDQwMC4wMDJWMTczLjcyOUMxNiAxNjAuNzc5IDIzLjc4OSAxNDkuMTIzIDM1Ljc1NCAxNDQuMTYyQzQ3LjcwNyAxMzkuMjEzIDYxLjQ3NyAxNDEuOTUzIDcwLjYyNSAxNTEuMTAyTDI5Ni44OTggMzc3LjM3NVoiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
  */
-export default function DownLeft(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 384 512" {...props}>
-            <path class={generic.secondary} d="M313.87 89.373L359.124 134.629C371.62 147.125 371.62 167.385 359.124 179.883L229.512 309.492L139 218.984L268.612 89.373C281.112 76.875 301.37 76.877 313.87 89.373Z" />
+const DownLeft: typeof Icon = x => (
+    <Icon viewBox="0 0 384 512" {...x}>
+        <path class={generic.secondary} d="M313.87 89.373L359.124 134.629C371.62 147.125 371.62 167.385 359.124 179.883L229.512 309.492L139 218.984L268.612 89.373C281.112 76.875 301.37 76.877 313.87 89.373Z" />
             <path d="M296.898 377.375C306.047 386.523 308.785 400.291 303.836 412.244C298.879 424.211 287.223 432 274.27 432H47.996C39.16 432 31.16 428.42 25.371 422.631C19.582 416.84 16 408.842 16 400.002V173.729C16 160.779 23.789 149.123 35.754 144.162C47.707 139.213 61.477 141.953 70.625 151.102L296.898 377.375Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default DownLeft;

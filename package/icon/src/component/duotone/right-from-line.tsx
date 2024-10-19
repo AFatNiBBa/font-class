@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `right-from-line` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/right-from-line?s=duotone right-from-line}
  * @preview ![right-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTMyIDY0SDMyQzE0LjMyNyA2NCAwIDc4LjMyNyAwIDk2VjQxNkMwIDQzMy42NzMgMTQuMzI3IDQ0OCAzMiA0NDhIMzJDNDkuNjczIDQ0OCA2NCA0MzMuNjczIDY0IDQxNlY5NkM2NCA3OC4zMjcgNDkuNjczIDY0IDMyIDY0WiIgY2xhc3M9ImZhLXNlY29uZGFyeSIvPjxwYXRoIGQ9Ik00NDAuNzMyIDI3My40NTNMMjk2LjYyOSA0MDkuNDUzQzI4OS42NTQgNDE2LjAzMSAyNzkuNDMgNDE3LjgyOCAyNzAuNjI1IDQxNC4wNDdDMjYxLjgyMiA0MTAuMjUgMjU2LjExNSA0MDEuNTc4IDI1Ni4xMTUgMzkyVjMyMEgxMjguMDIzQzExMC4zMzggMzIwIDk2IDMwNS42NzQgOTYgMjg4VjIyNEM5NiAyMDYuMzI4IDExMC4zMzggMTkyIDEyOC4wMjMgMTkySDI1Ni4xMTVWMTIwQzI1Ni4xMTUgMTEwLjQyMiAyNjEuODIyIDEwMS43NSAyNzAuNjI1IDk3Ljk1M0MyNzkuNDMgOTQuMTcyIDI4OS42NTQgOTUuOTY5IDI5Ni42MjkgMTAyLjU0N0w0NDAuNzMyIDIzOC41NDdDNDUwLjMzMiAyNDcuNjA5IDQ1MC4zMzIgMjY0LjM5MSA0NDAuNzMyIDI3My40NTNaIiBjbGFzcz0iZmEtcHJpbWFyeSIvPjwvc3ZnPg==|width=32|height=32)
  */
-export default function RightFromLine(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 448 512" {...props}>
-            <path class={generic.secondary} d="M32 64H32C14.327 64 0 78.327 0 96V416C0 433.673 14.327 448 32 448H32C49.673 448 64 433.673 64 416V96C64 78.327 49.673 64 32 64Z" />
+const RightFromLine: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M32 64H32C14.327 64 0 78.327 0 96V416C0 433.673 14.327 448 32 448H32C49.673 448 64 433.673 64 416V96C64 78.327 49.673 64 32 64Z" />
             <path d="M440.732 273.453L296.629 409.453C289.654 416.031 279.43 417.828 270.625 414.047C261.822 410.25 256.115 401.578 256.115 392V320H128.023C110.338 320 96 305.674 96 288V224C96 206.328 110.338 192 128.023 192H256.115V120C256.115 110.422 261.822 101.75 270.625 97.953C279.43 94.172 289.654 95.969 296.629 102.547L440.732 238.547C450.332 247.609 450.332 264.391 440.732 273.453Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default RightFromLine;

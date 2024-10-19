@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `wallet` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/wallet?s=duotone wallet}
  * @preview ![wallet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTQ4MCA4MFYxMzYuODc3QzQ3MC41NTUgMTMxLjM3OSA0NTkuNzE3IDEyOCA0NDggMTI4SDQ4QzIxLjQ5IDEyOCAwIDEwNi41MSAwIDgwUzIxLjQ5IDMyIDQ4IDMySDQzMkM0NTguNTEgMzIgNDgwIDUzLjQ5MiA0ODAgODBaIiBjbGFzcz0iZmEtc2Vjb25kYXJ5Ii8+PHBhdGggZD0iTTQ0OCAxMjhINDhDMjEuNDkgMTI4IDAgMTA2LjUxIDAgODBWNDE2QzAgNDUxLjM0NiAyOC42NTQgNDgwIDY0IDQ4MEg0NDhDNDgzLjM0NiA0ODAgNTEyIDQ1MS4zNDYgNTEyIDQxNlYxOTJDNTEyIDE1Ni42NTIgNDgzLjM0NiAxMjggNDQ4IDEyOFpNNDE2IDMzNkMzOTguMzI2IDMzNiAzODQgMzIxLjY3MiAzODQgMzA0QzM4NCAyODYuMzI2IDM5OC4zMjYgMjcyIDQxNiAyNzJTNDQ4IDI4Ni4zMjYgNDQ4IDMwNEM0NDggMzIxLjY3MiA0MzMuNjc0IDMzNiA0MTYgMzM2WiIgY2xhc3M9ImZhLXByaW1hcnkiLz48L3N2Zz4=|width=32|height=32)
  */
-export default function Wallet(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon {...props}>
-            <path class={generic.secondary} d="M480 80V136.877C470.555 131.379 459.717 128 448 128H48C21.49 128 0 106.51 0 80S21.49 32 48 32H432C458.51 32 480 53.492 480 80Z" />
+const Wallet: typeof Icon = x => (
+    <Icon {...x}>
+        <path class={generic.secondary} d="M480 80V136.877C470.555 131.379 459.717 128 448 128H48C21.49 128 0 106.51 0 80S21.49 32 48 32H432C458.51 32 480 53.492 480 80Z" />
             <path d="M448 128H48C21.49 128 0 106.51 0 80V416C0 451.346 28.654 480 64 480H448C483.346 480 512 451.346 512 416V192C512 156.652 483.346 128 448 128ZM416 336C398.326 336 384 321.672 384 304C384 286.326 398.326 272 416 272S448 286.326 448 304C448 321.672 433.674 336 416 336Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default Wallet;

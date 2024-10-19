@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `piano-keyboard` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/piano-keyboard?s=duotone piano-keyboard}
  * @preview ![piano-keyboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTU3NiAyMjRWNDE2QzU3NiA0MzMuNjI1IDU2MS42MjUgNDQ4IDU0NCA0NDhIMzJDMTQuMzc1IDQ0OCAwIDQzMy42MjUgMCA0MTZWMjI0SDY0VjM4NEg1MTJWMjI0SDU3NloiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNNTc2IDk2VjIyNEg0NDhWMzA0QzQ0OCAzMTIuODc1IDQ0MC44NzUgMzIwIDQzMiAzMjBINDAwQzM5MS4xMjUgMzIwIDM4NCAzMTIuODc1IDM4NCAzMDRWMjI0SDMyMFYzMDRDMzIwIDMxMi44NzUgMzEyLjg3NSAzMjAgMzA0IDMyMEgyNzJDMjYzLjEyNSAzMjAgMjU2IDMxMi44NzUgMjU2IDMwNFYyMjRIMTkyVjMwNEMxOTIgMzEyLjg3NSAxODQuODc1IDMyMCAxNzYgMzIwSDE0NEMxMzUuMTI1IDMyMCAxMjggMzEyLjg3NSAxMjggMzA0VjIyNEgwVjk2QzAgNzguMzc1IDE0LjM3NSA2NCAzMiA2NEg1NDRDNTYxLjYyNSA2NCA1NzYgNzguMzc1IDU3NiA5NloiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
  */
-export default function PianoKeyboard(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 576 512" {...props}>
-            <path class={generic.secondary} d="M576 224V416C576 433.625 561.625 448 544 448H32C14.375 448 0 433.625 0 416V224H64V384H512V224H576Z" />
+const PianoKeyboard: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path class={generic.secondary} d="M576 224V416C576 433.625 561.625 448 544 448H32C14.375 448 0 433.625 0 416V224H64V384H512V224H576Z" />
             <path d="M576 96V224H448V304C448 312.875 440.875 320 432 320H400C391.125 320 384 312.875 384 304V224H320V304C320 312.875 312.875 320 304 320H272C263.125 320 256 312.875 256 304V224H192V304C192 312.875 184.875 320 176 320H144C135.125 320 128 312.875 128 304V224H0V96C0 78.375 14.375 64 32 64H544C561.625 64 576 78.375 576 96Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default PianoKeyboard;

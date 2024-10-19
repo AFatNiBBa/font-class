@@ -1,17 +1,16 @@
 
 import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
 
 /**
  * A component that renders the `arrow-left-to-line` icon from the `duotone` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-to-line?s=duotone arrow-left-to-line}
  * @preview ![arrow-left-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxkZWZzPjxzdHlsZT4uZmEtc2Vjb25kYXJ5e29wYWNpdHk6LjR9PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTMyIDY0QzE0LjMxMiA2NCAwIDc4LjMxMiAwIDk2VjQxNkMwIDQzMy42ODggMTQuMzEyIDQ0OCAzMiA0NDhTNjQgNDMzLjY4OCA2NCA0MTZWOTZDNjQgNzguMzEyIDQ5LjY4OCA2NCAzMiA2NFoiIGNsYXNzPSJmYS1zZWNvbmRhcnkiLz48cGF0aCBkPSJNMzEwLjYyNSAxNTAuNjI1TDIzNy4yNSAyMjRINDE2QzQzMy42ODggMjI0IDQ0OCAyMzguMzEyIDQ0OCAyNTZTNDMzLjY4OCAyODggNDE2IDI4OEgyMzcuMjVMMzEwLjYyNSAzNjEuMzc1QzMxNi44NzUgMzY3LjYyNSAzMjAgMzc1LjgxMiAzMjAgMzg0UzMxNi44NzUgNDAwLjM3NSAzMTAuNjI1IDQwNi42MjVDMjk4LjEyNSA0MTkuMTI1IDI3Ny44NzUgNDE5LjEyNSAyNjUuMzc1IDQwNi42MjVMMTM3LjM3NSAyNzguNjI1QzEyNC44NzUgMjY2LjEyNSAxMjQuODc1IDI0NS44NzUgMTM3LjM3NSAyMzMuMzc1TDI2NS4zNzUgMTA1LjM3NUMyNzcuODc1IDkyLjg3NSAyOTguMTI1IDkyLjg3NSAzMTAuNjI1IDEwNS4zNzVTMzIzLjEyNSAxMzguMTI1IDMxMC42MjUgMTUwLjYyNVoiIGNsYXNzPSJmYS1wcmltYXJ5Ii8+PC9zdmc+|width=32|height=32)
  */
-export default function ArrowLeftToLine(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 448 512" {...props}>
-            <path class={generic.secondary} d="M32 64C14.312 64 0 78.312 0 96V416C0 433.688 14.312 448 32 448S64 433.688 64 416V96C64 78.312 49.688 64 32 64Z" />
+const ArrowLeftToLine: typeof Icon = x => (
+    <Icon viewBox="0 0 448 512" {...x}>
+        <path class={generic.secondary} d="M32 64C14.312 64 0 78.312 0 96V416C0 433.688 14.312 448 32 448S64 433.688 64 416V96C64 78.312 49.688 64 32 64Z" />
             <path d="M310.625 150.625L237.25 224H416C433.688 224 448 238.312 448 256S433.688 288 416 288H237.25L310.625 361.375C316.875 367.625 320 375.812 320 384S316.875 400.375 310.625 406.625C298.125 419.125 277.875 419.125 265.375 406.625L137.375 278.625C124.875 266.125 124.875 245.875 137.375 233.375L265.375 105.375C277.875 92.875 298.125 92.875 310.625 105.375S323.125 138.125 310.625 150.625Z" />
-        </Icon>
-    </>
-}
+    </Icon>
+);
+
+export default ArrowLeftToLine;

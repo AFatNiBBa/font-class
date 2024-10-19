@@ -1,16 +1,15 @@
 
-import { Icon, generic } from "../../index";
-import { ComponentProps } from "solid-js";
+import { Icon } from "../../index";
 
 /**
  * A component that renders the `vk` icon from the `brands` section of Font Awesome 6 Pro
  * @see {@link https://fontawesome.com/icons/vk?s=brands vk}
  * @preview ![vk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIEZvbnQgQXdlc29tZSBQcm8gNi4wLjAtYWxwaGEyIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIC0tPjxwYXRoIGQ9Ik01NDUgMTE3LjdjMy43LTEyLjUgMC0yMS43LTE3LjgtMjEuN2gtNTguOWMtMTUgMC0yMS45IDcuOS0yNS42IDE2LjcgMCAwLTMwIDczLjEtNzIuNCAxMjAuNS0xMy43IDEzLjctMjAgMTguMS0yNy41IDE4LjEtMy43IDAtOS40LTQuNC05LjQtMTYuOVYxMTcuN2MwLTE1LTQuMi0yMS43LTE2LjYtMjEuN2gtOTIuNmMtOS40IDAtMTUgNy0xNSAxMy41IDAgMTQuMiAyMS4yIDE3LjUgMjMuNCA1Ny41djg2LjhjMCAxOS0zLjQgMjIuNS0xMC45IDIyLjUtMjAgMC02OC42LTczLjQtOTcuNC0xNTcuNC01LjgtMTYuMy0xMS41LTIyLjktMjYuNi0yMi45SDM4LjhjLTE2LjggMC0yMC4yIDcuOS0yMC4yIDE2LjcgMCAxNS42IDIwIDkzLjEgOTMuMSAxOTUuNUMxNjAuNCAzNzguMSAyMjkgNDE2IDI5MS40IDQxNmMzNy41IDAgNDIuMS04LjQgNDIuMS0yMi45IDAtNjYuOC0zLjQtNzMuMSAxNS40LTczLjEgOC43IDAgMjMuNyA0LjQgNTguNyAzOC4xIDQwIDQwIDQ2LjYgNTcuOSA2OSA1Ny45aDU4LjljMTYuOCAwIDI1LjMtOC40IDIwLjQtMjUtMTEuMi0zNC45LTg2LjktMTA2LjctOTAuMy0xMTEuNS04LjctMTEuMi02LjItMTYuMiAwLTI2LjIuMS0uMSA3Mi0xMDEuMyA3OS40LTEzNS42eiIvPjwvc3ZnPg==|width=32|height=32)
  */
-export default function Vk(props: ComponentProps<typeof Icon>) {
-    return <>
-        <Icon viewBox="0 0 576 512" {...props}>
-            <path d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" />
-        </Icon>
-    </>
-}
+const Vk: typeof Icon = x => (
+    <Icon viewBox="0 0 576 512" {...x}>
+        <path d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" />
+    </Icon>
+);
+
+export default Vk;
