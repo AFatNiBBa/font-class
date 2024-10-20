@@ -4,7 +4,7 @@
     "build": "npm run start -w package/converter",
     "start": "npm run start -w package/icon",
     "save": "npm run save -w package/icon",
-		"clean": "git clean -Xdf"
+    "clean": "git clean -Xdf"
   },
   "workspaces": [
     "package/*"
