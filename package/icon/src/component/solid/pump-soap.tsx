@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pump-soap` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pump-soap?s=solid pump-soap}
- * @preview ![pump-soap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMybDAgOTYgMTI4IDAgMC0zMiA2MC4xIDBjNC4yIDAgOC4zIDEuNyAxMS4zIDQuN2wzMy45IDMzLjljMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBzMTIuNS0zMi44IDAtNDUuM0wzNzIuNyA1NS40Yy0xNS0xNS0zNS40LTIzLjQtNTYuNi0yMy40TDI1NiAzMmMwLTE3LjctMTQuMy0zMi0zMi0zMkwxNjAgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6TTExNy40IDE2MGMtMzMuMyAwLTYxIDI1LjUtNjMuOCA1OC43TDM1IDQ0Mi43QzMxLjkgNDgwIDYxLjMgNTEyIDk4LjggNTEybDE4Ni40IDBjMzcuNCAwIDY2LjktMzIgNjMuOC02OS4zbC0xOC43LTIyNGMtMi44LTMzLjItMzAuNS01OC43LTYzLjgtNTguN2wtMTQ5LjEgMHpNMjU2IDM2MGMwIDM1LjMtMjguNyA1Ni02NCA1NnMtNjQtMjAuNy02NC01NmMwLTMyLjUgMzctODAuOSA1MC45LTk3LjljMy4yLTMuOSA4LjEtNi4xIDEzLjEtNi4xczkuOSAyLjIgMTMuMSA2LjFDMjE5IDI3OS4xIDI1NiAzMjcuNSAyNTYgMzYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pump-soap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pump-soap.svg)
  */
 const PumpSoap: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `moon` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon?s=regular moon}
- * @preview ![moon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0LjcgOTguN2MtMjEgMzQuMS0zMy4xIDc0LjMtMzMuMSAxMTcuM2MwIDk4IDYyLjggMTgxLjQgMTUwLjQgMjExLjdjLTEyLjQgMi44LTI1LjMgNC4zLTM4LjYgNC4zQzEyNi42IDQzMiA0OCAzNTMuMyA0OCAyNTZjMC02OC45IDM5LjQtMTI4LjQgOTYuOC0xNTcuM3ptNjIuMS02NkM5MS4xIDQxLjIgMCAxMzcuOSAwIDI1NkMwIDM3OS43IDEwMCA0ODAgMjIzLjUgNDgwYzQ3LjggMCA5Mi0xNSAxMjguNC00MC42YzEuOS0xLjMgMy43LTIuNyA1LjUtNGM0LjgtMy42IDkuNC03LjQgMTMuOS0xMS40YzIuNy0yLjQgNS4zLTQuOCA3LjktNy4zYzUtNC45IDYuMy0xMi41IDMuMS0xOC43cy0xMC4xLTkuNy0xNy04LjVjLTMuNyAuNi03LjQgMS4yLTExLjEgMS42Yy01IC41LTEwLjEgLjktMTUuMyAxYy0xLjIgMC0yLjUgMC0zLjcgMGwtLjMgMGMtOTYuOC0uMi0xNzUuMi03OC45LTE3NS4yLTE3NmMwLTU0LjggMjQuOS0xMDMuNyA2NC4xLTEzNmMxLS45IDIuMS0xLjcgMy4yLTIuNmM0LTMuMiA4LjItNi4yIDEyLjUtOWMzLjEtMiA2LjMtNCA5LjYtNS44YzYuMS0zLjUgOS4yLTEwLjUgNy43LTE3LjNzLTcuMy0xMS45LTE0LjMtMTIuNWMtMy42LS4zLTcuMS0uNS0xMC43LS42Yy0yLjctLjEtNS41LS4xLTguMi0uMWMtMy4zIDAtNi41IC4xLTkuOCAuMmMtMi4zIC4xLTQuNiAuMi02LjkgLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/moon.svg)
  */
 const Moon: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

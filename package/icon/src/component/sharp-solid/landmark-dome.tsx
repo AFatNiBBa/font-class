@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `landmark-dome` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark-dome?s=sharp-solid landmark-dome}
- * @preview ![landmark-dome](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBMMjI0IDBsMCAzNC43QzE0My42IDQ4LjEgODAuMSAxMTEuNiA2Ni43IDE5Mkw2NCAxOTJsLTMyIDAgMCA2NCAzMiAwIDM4NCAwIDMyIDAgMC02NC0zMiAwLTIuNyAwQzQzMS45IDExMS42IDM2OC40IDQ4LjEgMjg4IDM0LjdMMjg4IDB6TTAgNDY0bDAgNDggNTEyIDAgMC00OC02NC00OCAwLTEyOC02NCAwIDAgMTI4LTQwIDAgMC0xMjgtNjQgMCAwIDEyOC00OCAwIDAtMTI4LTY0IDAgMCAxMjgtNDAgMCAwLTEyOC02NCAwIDAgMTI4TDAgNDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![landmark-dome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/landmark-dome.svg)
  */
 const LandmarkDome: typeof Icon = x => (
     <Icon {...x}>

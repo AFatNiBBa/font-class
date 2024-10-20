@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-pied-piper` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-pied-piper?s=brands square-pied-piper}
- * @preview ![square-pied-piper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDE5TDAgNDc5LjJsLjgtMzI4Qy44IDg1LjMgNTQgMzIgMTIwIDMyaDMyNy4yYy05MyAyOC45LTE4OS45IDk0LjItMjUzLjkgMTY4LjZDMTIyLjcgMjgyIDgyLjYgMzM4IDMyIDQxOU00NDggMzJTMzA1LjIgOTguOCAyNjEuNiAxOTkuMWMtMjMuMiA1My42LTI4LjkgMTE4LjEtNzEgMTU4LjYtMjguOSAyNy44LTY5LjggMzguMi0xMDUuMyA1Ni4zLTIzLjIgMTItNjYuNCA0MC41LTg0LjkgNjZoMzI4LjRjNjYgMCAxMTkuMy01My4zIDExOS4zLTExOS4yLS4xIDAtLjEtMzI4LjgtLjEtMzI4Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-pied-piper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-pied-piper.svg)
  */
 const SquarePiedPiper: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

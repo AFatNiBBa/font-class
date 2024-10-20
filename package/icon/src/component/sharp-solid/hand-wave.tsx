@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-wave` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-wave?s=sharp-solid hand-wave}
- * @preview ![hand-wave](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDgwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC04IDAtMTYgMCAwLTMyIDE2IDAgOCAwYzQ0LjIgMCA4MCAzNS44IDgwIDgwbDAgOCAwIDE2LTMyIDAgMC0xNiAwLTh6TTE4NS40IDcwLjZMMTYyLjcgNDggMjA4IDIuN2wyMi42IDIyLjYgMTkyIDE5MmMzLjMgMy4zIDYuNCA2LjcgOS40IDEwLjJsMC05OS41IDAtMzIgMzIgMCAxNiAwIDMyIDAgMCAzMiAwIDE4NC4zYzAgNjAuMi0yNy45IDExNi45LTc1LjUgMTUzLjdDMzg1LjcgNTA1LjMgMzIxIDUxNS43IDI2MyA0OTguN2MtMjguNC03LjEtNTUuMy0yMS44LTc3LjYtNDQuMWwtNC45LTQuOUw3My40IDM0Mi42IDUwLjcgMzIwbC05LjQtOS40TDE4LjcgMjg4IDY0IDI0Mi43bDIyLjYgMjIuNiA5LjQgOS40IDIyLjYgMjIuNiA1NiA1NiAxOC43LTE4LjctMTM2LTEzNkwzNC43IDE3NiA4MCAxMzAuN2wyMi42IDIyLjYgMTM2IDEzNiAxOC43LTE4LjctMTUyLTE1Mkw4Mi43IDk2IDEyOCA1MC43bDIyLjYgMjIuNiAxNTIgMTUyIDE4LjctMTguNy0xMzYtMTM2ek0zMiAzNDRsMCAxNiAwIDhjMCAyNi41IDIxLjUgNDggNDggNDhsOCAwIDE2IDAgMCAzMi0xNiAwLTggMGMtNDQuMiAwLTgwLTM1LjgtODAtODBsMC04IDAtMTYgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-wave.svg)
  */
 const HandWave: typeof Icon = x => (
     <Icon {...x}>

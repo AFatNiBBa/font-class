@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-rotate` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-rotate?s=sharp-light camera-rotate}
- * @preview ![camera-rotate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMybDE5MiAwIDIxLjMgNjRMNTQ0IDk2bDMyIDAgMCAzMiAwIDMyMCAwIDMyLTMyIDBMOTYgNDgwbC0zMiAwIDAtMzIgMC0zMjAgMC0zMiAzMiAwIDEwNi43IDBMMjI0IDMyem0yMTMuMyA5NmwtMjMuMSAwTDQwNyAxMDYuMSAzOTIuOSA2NCAyNDcuMSA2NGwtMTQgNDIuMUwyMjUuNyAxMjhsLTIzLjEgMEw5NiAxMjhsMCAzMjAgNDQ4IDAgMC0zMjAtMTA2LjcgMHpNMjI0IDMwNGw2NCAwIDE2IDAgMCAzMi0xNiAwLTI1LjQgMCAxNC4xIDE0LjFDMjg4LjIgMzYxLjUgMzAzLjggMzY4IDMyMCAzNjhjMjcuOCAwIDUyLjMtMTQuMiA2Ni43LTM1LjhsMjYuNiAxNy43QzM5My4zIDM4MC4xIDM1OSA0MDAgMzIwIDQwMGMtMjQuNyAwLTQ4LjUtOS44LTY1LjktMjcuM0wyNDAgMzU4LjZsMCAyNS40IDAgMTYtMzIgMCAwLTE2IDAtNjQgMC0xNiAxNiAwem0yMDgtMzJsLTE2IDAtNjQgMC0xNiAwIDAtMzIgMTYgMCAyNS40IDAtMTQuMS0xNC4xQzM1MS44IDIxNC41IDMzNi4yIDIwOCAzMjAgMjA4Yy0yNy44IDAtNTIuMyAxNC4yLTY2LjcgMzUuOGwtMjYuNi0xNy43QzI0Ni43IDE5NS45IDI4MSAxNzYgMzIwIDE3NmMyNC43IDAgNDguNSA5LjggNjUuOSAyNy4zTDQwMCAyMTcuNGwwLTI1LjQgMC0xNiAzMiAwIDAgMTYgMCA2NCAwIDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![camera-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/camera-rotate.svg)
  */
 const CameraRotate: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

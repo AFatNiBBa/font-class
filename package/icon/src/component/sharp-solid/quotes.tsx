@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `quotes` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quotes?s=sharp-solid quotes}
- * @preview ![quotes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMEMzOS40IDAgMCAzOS40IDAgODhsMCA4IDAgNzIgMCA3MiAxNDQgMCAwLTE0NEw2NCA5NmwwLThjMC0xMy4zIDEwLjctMjQgMjQtMjRsOCAwIDMyIDAgMC02NEw5NiAwIDg4IDB6TTI2NCAwYy00OC42IDAtODggMzkuNC04OCA4OGwwIDggMCA3MiAwIDcyIDE0NCAwIDAtMTQ0LTgwIDAgMC04YzAtMTMuMyAxMC43LTI0IDI0LTI0bDggMCAzMiAwIDAtNjRMMjcyIDBsLTggMHpNNDg4IDUxMmM0OC42IDAgODgtMzkuNCA4OC04OGwwLTggMC03MiAwLTcyLTE0NCAwIDAgMTQ0IDgwIDAgMCA4YzAgMTMuMy0xMC43IDI0LTI0IDI0bC04IDAtMzIgMCAwIDY0IDMyIDAgOCAwem0tMTc2IDBjNDguNiAwIDg4LTM5LjQgODgtODhsMC04IDAtNzIgMC03Mi0xNDQgMCAwIDE0NCA4MCAwIDAgOGMwIDEzLjMtMTAuNyAyNC0yNCAyNGwtOCAwLTMyIDAgMCA2NCAzMiAwIDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![quotes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/quotes.svg)
  */
 const Quotes: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

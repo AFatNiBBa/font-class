@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `game-board-simple` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/game-board-simple?s=regular game-board-simple}
- * @preview ![game-board-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDgwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyMGMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDMyYy04LjggMC0xNi03LjItMTYtMTZMNDggOTZjMC04LjggNy4yLTE2IDE2LTE2bDMyMCAwek02NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDMyMCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyem0xNiA4MGwwIDE0NCAxNDQgMCAwLTE0NEw4MCAxMTJ6TTIyNCAyNTZsMCAxNDQgMTQ0IDAgMC0xNDQtMTQ0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![game-board-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/game-board-simple.svg)
  */
 const GameBoardSimple: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paypal` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paypal?s=brands paypal}
- * @preview ![paypal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTExLjQgMjk1LjljLTMuNSAxOS4yLTE3LjQgMTA4LjctMjEuNSAxMzQtLjMgMS44LTEgMi41LTMgMi41SDEyLjNjLTcuNiAwLTEzLjEtNi42LTEyLjEtMTMuOUw1OC44IDQ2LjZjMS41LTkuNiAxMC4xLTE2LjkgMjAtMTYuOSAxNTIuMyAwIDE2NS4xLTMuNyAyMDQgMTEuNCA2MC4xIDIzLjMgNjUuNiA3OS41IDQ0IDE0MC4zLTIxLjUgNjIuNi03Mi41IDg5LjUtMTQwLjEgOTAuMy00My40LjctNjkuNS03LTc1LjMgMjQuMnpNMzU3LjEgMTUyYy0xLjgtMS4zLTIuNS0xLjgtMyAxLjMtMiAxMS40LTUuMSAyMi41LTguOCAzMy42LTM5LjkgMTEzLjgtMTUwLjUgMTAzLjktMjA0LjUgMTAzLjktNi4xIDAtMTAuMSAzLjMtMTAuOSA5LjQtMjIuNiAxNDAuNC0yNy4xIDE2OS43LTI3LjEgMTY5LjctMSA3LjEgMy41IDEyLjkgMTAuNiAxMi45aDYzLjVjOC42IDAgMTUuNy02LjMgMTcuNC0xNC45LjctNS40LTEuMSA2LjEgMTQuNC05MS4zIDQuNi0yMiAxNC4zLTE5LjcgMjkuMy0xOS43IDcxIDAgMTI2LjQtMjguOCAxNDIuOS0xMTIuMyA2LjUtMzQuOCA0LjYtNzEuNC0yMy44LTkyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![paypal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/paypal.svg)
  */
 const Paypal: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-crown` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-crown?s=light user-crown}
- * @preview ![user-crown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM4LjcgNC40QzIzNC4zIDEuNSAyMjkuMiAwIDIyNCAwcy0xMC4zIDEuNS0xNC43IDQuNEwxNzYuOSAyNi4xYy01LjQgMy42LTEyLjQgMy42LTE3LjggMEwxMjQgMi43QzEyMS40IC45IDExOC4zIDAgMTE1LjIgMEwxMTIgMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMTEyIDAgMTZjMCA3MC43IDU3LjMgMTI4IDEyOCAxMjhzMTI4LTU3LjMgMTI4LTEyOGwwLTE2IDAtMTEyYzAtOC44LTcuMi0xNi0xNi0xNmwtMy4yIDBjLTMuMiAwLTYuMiAuOS04LjkgMi43TDI4OC45IDI2LjFjLTUuNCAzLjYtMTIuNCAzLjYtMTcuOCAwTDIzOC43IDQuNHpNMzIwIDExMmwtMTkyIDAgMC02OC4yIDEzLjQgOC45YzE2LjEgMTAuNyAzNy4xIDEwLjcgNTMuMyAwTDIyNCAzMy4xbDI5LjQgMTkuNmMxNi4xIDEwLjcgMzcuMSAxMC43IDUzLjMgMEwzMjAgNDMuOGwwIDY4LjJ6TTEyOCAxNDRsMTkyIDBjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZ6bTQwIDE5MmwxMTIgMGM3NS4xIDAgMTM2IDYwLjkgMTM2IDEzNmwwIDhMMzIgNDgwbDAtOGMwLTc1LjEgNjAuOS0xMzYgMTM2LTEzNnptMC0zMkM3NS4yIDMwNCAwIDM3OS4yIDAgNDcybDAgOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzODQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLThjMC05Mi44LTc1LjItMTY4LTE2OC0xNjhsLTExMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-crown.svg)
  */
 const UserCrown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

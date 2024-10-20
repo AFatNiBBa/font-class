@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toggle-off` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toggle-off?s=solid toggle-off}
- * @preview ![toggle-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDEyOGM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOHMtNTcuMyAxMjgtMTI4IDEyOGwtMTkyIDBjLTcwLjcgMC0xMjgtNTcuMy0xMjgtMTI4czU3LjMtMTI4IDEyOC0xMjhsMTkyIDB6TTU3NiAyNTZjMC0xMDYtODYtMTkyLTE5Mi0xOTJMMTkyIDY0Qzg2IDY0IDAgMTUwIDAgMjU2Uzg2IDQ0OCAxOTIgNDQ4bDE5MiAwYzEwNiAwIDE5Mi04NiAxOTItMTkyek0xOTIgMzUyYTk2IDk2IDAgMSAwIDAtMTkyIDk2IDk2IDAgMSAwIDAgMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![toggle-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toggle-off.svg)
  */
 const ToggleOff: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

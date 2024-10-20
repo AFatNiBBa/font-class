@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `whistle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whistle?s=solid whistle}
- * @preview ![whistle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQuMSAxODguOEMxOC41IDE4MC41IDAgMTU2LjQgMCAxMjhDMCA5Mi43IDI4LjcgNjQgNjQgNjRjMjMuNCAwIDQzLjggMTIuNSA1NSAzMS4yQzE0OS4yIDc1LjUgMTg1LjIgNjQgMjI0IDY0YzcuOCAwIDE1LjQgLjUgMjIuOSAxLjRjLjUgMCAxLjEgMCAxLjcgLjFjMzcuOCA0LjUgNzMuOCAxOS40IDEwMy45IDQzLjJsNjkuOCA1NS4yYzUgNCA3LjIgMTAuNiA1LjUgMTYuOGwtNi41IDI0Yy0zLjIgMTEuNyAxLjEgMjQuMiAxMC44IDMxLjVjOS42IDcuMiAyMi43IDcuOSAzMyAxLjdsMTkuMy0xMS42YzUuNy0zLjQgMTIuOS0zIDE4LjIgMS4ybDEyNyAxMDAuNGM2LjYgNS4yIDEwLjUgMTMuMiAxMC41IDIxLjZjMCA2LjktMi42IDEzLjUtNy4yIDE4LjVsLTYzLjMgNjkuNmMtNi4xIDYuNy0xNC43IDEwLjUtMjMuNyAxMC41bC0yIDBjLTUuMiAwLTEwLjItMS4yLTE0LjgtMy42TDM4MC43IDM2N2MtMzQuOCA0OS05MiA4MS0xNTYuNyA4MUMxMTggNDQ4IDMyIDM2MiAzMiAyNTZjMC0yMy42IDQuMy00Ni4zIDEyLjEtNjcuMnpNODAgMTI4YTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6TTIyNCAzMjBhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![whistle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/whistle.svg)
  */
 const Whistle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

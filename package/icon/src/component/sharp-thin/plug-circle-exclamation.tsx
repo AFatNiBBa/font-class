@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plug-circle-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-exclamation?s=sharp-thin plug-circle-exclamation}
- * @preview ![plug-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDhsMC04TDk2IDBsMCA4IDAgMTA0IDE2IDBMMTEyIDh6TTI4OCA4bDAtOEwyNzIgMGwwIDggMCAxMDQgMTYgMEwyODggOHpNOCAxNDRsLTggMCAwIDE2IDggMCAzMiAwIDAgODBjMCA4MS4zIDYzLjggMTQ3LjYgMTQ0IDE1MS44TDE4NCA1MDRsMCA4IDE2IDAgMC04IDAtMTEyLjJjMjAtMSAzOS02IDU2LjMtMTRjLS4yLTMuMi0uMy02LjUtLjMtOS44YzAtMi43IC4xLTUuNCAuMi04LjFjLTE5LjEgMTAuMy00MSAxNi4xLTY0LjIgMTYuMWMtNzUuMSAwLTEzNi02MC45LTEzNi0xMzZsMC04MCAyNzIgMCAwIDY2YzUuMS0zLjggMTAuNS03LjMgMTYtMTAuNWwwLTU1LjUgMzIgMCA4IDAgMC0xNi04IDAtMzIgMC0xNiAwTDU2IDE0NGwtMTYgMEw4IDE0NHpNMzA0IDM2OGExMjggMTI4IDAgMSAxIDI1NiAwIDEyOCAxMjggMCAxIDEgLTI1NiAwem0yNzIgMGExNDQgMTQ0IDAgMSAwIC0yODggMCAxNDQgMTQ0IDAgMSAwIDI4OCAwek00NDQgNDQ0bDAtMjQtMjQgMCAwIDI0IDI0IDB6bS00LTE2NGwtMTYgMCAwIDggMCA5NiAwIDggMTYgMCAwLTggMC05NiAwLTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![plug-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/plug-circle-exclamation.svg)
  */
 const PlugCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

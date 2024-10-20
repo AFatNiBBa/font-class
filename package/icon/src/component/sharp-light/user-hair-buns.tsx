@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-hair-buns` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-buns?s=sharp-light user-hair-buns}
- * @preview ![user-hair-buns](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDEyOGwtNi42IDAtNC43LTQuN0wyMjQgMTAyLjZsLTIwLjcgMjAuNy00LjcgNC43LTYuNiAwLTY0IDAgMCAxNmMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDAtMTYtNjQgMHptNjcuOSA5NmMtMjMuNSAyOS4zLTU5LjUgNDgtOTkuOSA0OHMtNzYuNS0xOC43LTk5LjktNDhMOTYgMjI0bC0zMiAwLTMyIDAgMC0zMiAwLTk2IDAtMzIgMzIgMCAzMiAwIDE3LjEgMEMxMzUuMyAyNS43IDE3Ni42IDAgMjI0IDBzODguNyAyNS43IDExMC45IDY0TDM1MiA2NGwzMiAwIDMyIDAgMCAzMiAwIDk2IDAgMzItMzIgMC0zMiAwLTI4LjEgMHpNMzUyIDE0NGwwIDQ4IDMyIDAgMC05Ni0zMiAwIDAgMzIgMCAxNnpNMzE0LjUgOTZDMzAxLjQgNTguNyAyNjUuOCAzMiAyMjQgMzJzLTc3LjQgMjYuNy05MC41IDY0bDUxLjkgMCAyNy4zLTI3LjNMMjI0IDU3LjRsMTEuMyAxMS4zTDI2Mi42IDk2bDUxLjkgMHpNODcuNiAzMzZMNDMuMyA0ODBsMzYxLjMgMEwzNjAuNCAzMzYgODcuNiAzMzZ6TTM4NCAzMDRsNTQuMiAxNzYgOS44IDMyLTMzLjUgMC0zODEgMEwwIDUxMmw5LjgtMzJMNjQgMzA0bDMyMCAwek05NiA5Nkw2NCA5NmwwIDk2IDMyIDAgMC00OCAwLTE2IDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-hair-buns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-hair-buns.svg)
  */
 const UserHairBuns: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

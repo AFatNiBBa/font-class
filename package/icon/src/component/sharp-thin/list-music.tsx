@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `list-music` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-music?s=sharp-thin list-music}
- * @preview ![list-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDU5LjVMNDk2IDIyLjJsMCAxMjYuM0wzODQgMTg1LjhsMC01Ny44IDAtNjguNXpNMzY4IDQ4bDAgODAgMCA2My4xIDAgMTYuOSAwIDE4Mi44Yy0xOS42LTIzLjItNTUuMy0zOC44LTk2LTM4LjhjLTYxLjkgMC0xMTIgMzUuOC0xMTIgODBzNTAuMSA4MCAxMTIgODBzMTEyLTM1LjggMTEyLTgwbDAtMjI5LjNMNTEyIDE2MGwwLTE0My4xTDUxMiAwIDQ5NiA1LjMgMzY4IDQ4em0wIDM4NGMwIDE1LjYtOC44IDMxLjItMjYuMSA0My41QzMyNC42IDQ4Ny45IDMwMCA0OTYgMjcyIDQ5NnMtNTIuNi04LjEtNjkuOS0yMC41Yy0xNy4zLTEyLjMtMjYuMS0yOC0yNi4xLTQzLjVzOC44LTMxLjIgMjYuMS00My41QzIxOS40IDM3Ni4xIDI0NCAzNjggMjcyIDM2OHM1Mi42IDguMSA2OS45IDIwLjVjMTcuMyAxMi4zIDI2LjEgMjggMjYuMSA0My41ek04IDY0TDAgNjQgMCA4MGw4IDAgMjcyIDAgOCAwIDAtMTYtOCAwTDggNjR6TTggMTkybC04IDAgMCAxNiA4IDAgMjcyIDAgOCAwIDAtMTYtOCAwTDggMTkyek04IDMyMGwtOCAwIDAgMTYgOCAwIDE0NCAwIDggMCAwLTE2LTggMEw4IDMyMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![list-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/list-music.svg)
  */
 const ListMusic: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `croissant` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/croissant?s=sharp-solid croissant}
- * @preview ![croissant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNi4zIDIyNy45bDIzMS45IDk4LjlMNjAuNyA0NjQuOEMyMi42IDQxNiAwIDM1NC43IDAgMjg4YzAtMjAuNiAyLjItNDAuNyA2LjMtNjAuMXptMzIwLjQgMTAuM0wyMjcuOSA2LjNDMjQ3LjMgMi4yIDI2Ny40IDAgMjg4IDBjNjYuNyAwIDEyOCAyMi42IDE3Ni44IDYwLjdMMzI2LjcgMjM4LjJ6TTQ2OC42IDEwOEM0ODcgMTMwIDUwMS44IDE1NS4zIDUxMiAxODIuN0w0ODAgMjI0bC05MC0xNSA3OC42LTEwMXpNMjA5IDM5MGwxNSA5MC00MS4zIDMyYy0yNy40LTEwLjItNTIuNy0yNS03NC43LTQzLjRMMjA5IDM5MHpNMCAxOTAuNEMzMC4yIDEwMC45IDEwMC45IDMwLjMgMTkwLjQgMEwzMDYuNCAyNzIgMjcyIDMwNi40IDAgMTkwLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![croissant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/croissant.svg)
  */
 const Croissant: typeof Icon = x => (
     <Icon {...x}>

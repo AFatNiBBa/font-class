@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sword-laser` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sword-laser?s=sharp-light sword-laser}
- * @preview ![sword-laser](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkzLjcgMjg5LjlMNTEyIDQ4IDQ2NCAwIDIyMi4xIDIxOC4zbDIyLjcgMjIuN0w0NjIuOSA0NC4xbDUgNUwyNzEuMSAyNjcuMmwyMi43IDIyLjd6TTE4Ny4zIDIyOC43TDE3NiAyMTcuNCAxNTMuNCAyNDBsMTEuMyAxMS4zIDQuNyA0LjdMMTEyIDMxMy40bC04LThMOTIuNyAzMTYuN2wtODggODhMMCA0MDkuNCAwIDQxNmwwIDMyIDAgNi42IDQuNyA0LjcgNDggNDggNC43IDQuNyA2LjYgMCAzMiAwIDYuNiAwIDQuNy00LjcgODgtODhMMjA2LjYgNDA4bC04LThMMjU2IDM0Mi42bDQuNyA0LjdMMjcyIDM1OC42IDI5NC42IDMzNmwtMTEuMy0xMS4zLTE2LTE2czAgMCAwIDBzMCAwIDAgMGwtNjQtNjQtMTYtMTZ6bTQuNyA0OS45TDIzMy40IDMyMCAyMTYgMzM3LjQgMTc0LjYgMjk2IDE5MiAyNzguNnpNMTM0LjYgMzM2TDE1MiAzMTguNiAxOTMuNCAzNjAgMTc2IDM3Ny40IDEzNC42IDMzNnpNMzIgNDIyLjZsNzItNzJMMTYxLjQgNDA4bC03MiA3Mi0xOC43IDBMMzIgNDQxLjRsMC0xOC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sword-laser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sword-laser.svg)
  */
 const SwordLaser: typeof Icon = x => (
     <Icon {...x}>

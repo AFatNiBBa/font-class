@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cheese-swiss` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cheese-swiss?s=sharp-thin cheese-swiss}
- * @preview ![cheese-swiss](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjcybDAgMTkyIDQ4MCAwIDAtMTkyLTgwIDBjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhMMTYgMjcyem00ODAtMTZjMC0xMTMuMS05MC4yLTIwNS4xLTIwMi42LTIwNy45bC02NCA0OS44YzIwIDUuOCAzNC42IDI0LjIgMzQuNiA0Ni4xYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4Yy0yNiAwLTQ3LjEtMjAuNi00OC00Ni40TDI2LjEgMjU2bDI5Ni43IDBjNi42LTE4LjYgMjQuNC0zMiA0NS4zLTMyczM4LjcgMTMuNCA0NS4zIDMybDgyLjcgMHpNMzY4IDI0MGEzMiAzMiAwIDEgMCAwIDY0IDMyIDMyIDAgMSAwIDAtNjR6TTE4Ni43IDEzMWMtMS44IDQtMi43IDguNC0yLjcgMTNjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmMtMS44IDAtMy42IC4yLTUuNCAuNEwxODYuNyAxMzF6bTE2LjktMzMuNEwyODggMzJjMTIzLjcgMCAyMjQgMTAwLjMgMjI0IDIyNGwwIDIwOCAwIDE2LTE2IDBMMTYgNDgwIDAgNDgwbDAtMTZMMCAyNTYgMTc0LjEgMTIwLjZsMjkuNi0yM3pNMTc2IDQwMGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6bTAtODBhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cheese-swiss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cheese-swiss.svg)
  */
 const CheeseSwiss: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clipboard` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard?s=sharp-light clipboard}
- * @preview ![clipboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMyYy0yMi4zIDAtNDEuMiAxNS4zLTQ2LjUgMzZsLTMuMSAxMkwxMzAgODAgOTYgODBsMCA0OCA5NiAwIDk2IDAgMC00OC0zNCAwLTEyLjQgMC0zLjEtMTJjLTUuMy0yMC43LTI0LjEtMzYtNDYuNS0zNnpNMTE4LjcgNDhDMTMxIDE5LjggMTU5LjIgMCAxOTIgMHM2MSAxOS44IDczLjMgNDhMMzA0IDQ4bDE2IDAgMCAxNiAwIDE2IDMyIDAgMzIgMCAwIDMyIDAgMzY4IDAgMzItMzIgMEwzMiA1MTIgMCA1MTJsMC0zMkwwIDExMiAwIDgwbDMyIDAgMzIgMCAwLTE2IDAtMTYgMTYgMCAzOC43IDB6TTMyMCAxNjBsLTE2IDAtMTEyIDBMODAgMTYwbC0xNiAwIDAtMTYgMC0zMi0zMiAwIDAgMzY4IDMyMCAwIDAtMzY4LTMyIDAgMCAzMiAwIDE2ek0xOTIgNjRhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clipboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/clipboard.svg)
  */
 const Clipboard: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

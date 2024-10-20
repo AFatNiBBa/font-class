@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bolt-lightning` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-lightning?s=solid bolt-lightning}
- * @preview ![bolt-lightning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZMMjguNSAyOGMyLTE2IDE1LjYtMjggMzEuOC0yOEgyMjguOWMxNSAwIDI3LjEgMTIuMSAyNy4xIDI3LjFjMCAzLjItLjYgNi41LTEuNyA5LjVMMjA4IDE2MEgzNDcuM2MyMC4yIDAgMzYuNyAxNi40IDM2LjcgMzYuN2MwIDcuNC0yLjIgMTQuNi02LjQgMjAuN2wtMTkyLjIgMjgxYy01LjkgOC42LTE1LjYgMTMuNy0yNS45IDEzLjdoLTIuOWMtMTUuNyAwLTI4LjUtMTIuOC0yOC41LTI4LjVjMC0yLjMgLjMtNC42IC45LTYuOUwxNzYgMjg4SDMyYy0xNy43IDAtMzItMTQuMy0zMi0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bolt-lightning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bolt-lightning.svg)
  */
 const BoltLightning: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

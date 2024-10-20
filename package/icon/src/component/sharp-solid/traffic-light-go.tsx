@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `traffic-light-go` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-light-go?s=sharp-solid traffic-light-go}
- * @preview ![traffic-light-go](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBMMCAwIDAgMzUyYzAgODguNCA3MS42IDE2MCAxNjAgMTYwczE2MC03MS42IDE2MC0xNjBMMzIwIDB6TTE2MCA0MTZhNDggNDggMCAxIDEgMC05NiA0OCA0OCAwIDEgMSAwIDk2em0wLTIwMGEyNCAyNCAwIDEgMCAwIDQ4IDI0IDI0IDAgMSAwIDAtNDh6bTAgNzJhNDggNDggMCAxIDEgMC05NiA0OCA0OCAwIDEgMSAwIDk2ek0xMzYgMTEyYTI0IDI0IDAgMSAwIDQ4IDAgMjQgMjQgMCAxIDAgLTQ4IDB6bTcyIDBhNDggNDggMCAxIDEgLTk2IDAgNDggNDggMCAxIDEgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![traffic-light-go](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/traffic-light-go.svg)
  */
 const TrafficLightGo: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

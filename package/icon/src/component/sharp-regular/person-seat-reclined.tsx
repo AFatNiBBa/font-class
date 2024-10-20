@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-seat-reclined` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-seat-reclined?s=sharp-regular person-seat-reclined}
- * @preview ![person-seat-reclined](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDEyOGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bS0xNiAzMmwtMjkuOSAwIDYuNSAyOS4yTDE2MyAzMDguMWM1LjcgMjUuNiAyOC40IDQzLjkgNTQuNyA0My45bDExNy45IDAgNDIgMTA3LjkgNy40IDE5IDIwLTQuMyA0NC44LTkuNiAyMy41LTUtMTAuMS00Ni45LTIzLjUgNS0yNC44IDUuM0wzNzQuNCAzMTkuM2wtNi0xNS4zTDM1MiAzMDRsLTY4LjcgMC0xMC43LTQ4IDU1LjQgMCAyNCAwIDAtNDgtMjQgMC02Ni4xIDAtNi41LTI5LjJMMjUxLjMgMTYwIDIzMiAxNjBsLTcyIDB6bTUyLjcgNDhsMjEuMyA5Ni0xNi40IDBjLTMuNyAwLTctMi42LTcuOC02LjNMMTg5LjkgMjA4bDIyLjggMHpNNzkuNiAxNDcuOGwtNC4yLTIzLjYtNDcuMyA4LjMgNC4yIDIzLjYgNDggMjcyTDgzLjkgNDQ4bDIwLjEgMCAxNzYgMCAyNCAwIDAtNDgtMjQgMC0xNTUuOSAwTDc5LjYgMTQ3Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-seat-reclined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-seat-reclined.svg)
  */
 const PersonSeatReclined: typeof Icon = x => (
     <Icon {...x}>

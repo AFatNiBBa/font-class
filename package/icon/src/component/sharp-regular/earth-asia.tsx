@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `earth-asia` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-asia?s=sharp-regular earth-asia}
- * @preview ![earth-asia](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY3LjYgNDMxLjZMMzUyIDQxNmwtNjQgMCAwLTY0IDY0LTY0IDY0IDAgMCAzMiAzOCAwYzYuNS0yMC4yIDEwLTQxLjcgMTAtNjRjMC05OC40LTY4LjMtMTgwLjgtMTYwLTIwMi40bDAgNTguNC0zMiAzMiAwIDgwLTQ4IDAgMCA5Ni02NCAwLTMyLTMyLTc3LjYgMEM2NS44IDM4Ny43IDE1MiA0NjQgMjU2IDQ2NGM0MS4xIDAgNzkuMy0xMS45IDExMS42LTMyLjR6TTAgMjU2YTI1NiAyNTYgMCAxIDEgNTEyIDBBMjU2IDI1NiAwIDEgMSAwIDI1NnpNMTkyIDM4NGwtNjQgMCAwLTMyIDY0IDAgMCAzMnpNMzUyIDEyOGwwIDY0LTMyIDAgMC02NCAzMiAwek0yNTYgMjU2bDMyIDAgMCA2NC0zMiAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![earth-asia](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/earth-asia.svg)
  */
 const EarthAsia: typeof Icon = x => (
     <Icon {...x}>

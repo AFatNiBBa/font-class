@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `angle` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angle?s=thin angle}
- * @preview ![angle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMxLjIgNDMuNmMyLTQgLjQtOC44LTMuNi0xMC43cy04LjgtLjQtMTAuNyAzLjZMLjggNDY4LjRjLTEuMiAyLjUtMS4xIDUuNCAuNCA3LjhzNCAzLjggNi44IDMuOGw0MzIgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEwyMC45IDQ2NCAyMzEuMiA0My42ek0yOTQgMjUwLjdjLTE5LjQtMjUuOC00Mi42LTQ4LjYtNjguNy02Ny43Yy0zLjktMi45LTkuNS0xLjQtMTEuNyAyLjljLTEuOCAzLjYtLjcgNy45IDIuNSAxMC4yYzI0LjYgMTggNDYuNCAzOS41IDY0LjggNjMuOGMyLjYgMy40IDcuMyA0LjMgMTAuOSAyYzMuOS0yLjUgNC45LTcuNyAyLjEtMTEuM3ptMTkuNiA2M2MxNC4xIDI5LjUgMjMuNyA2MS41IDI3LjkgOTUuMmMuNSA0LjEgMy45IDcuMiA4LjEgNy4yYzQuNyAwIDguNC00LjEgNy45LTguOGMtNC40LTM1LjctMTQuNi02OS43LTI5LjYtMTAwLjljLTItNC4zLTcuNC01LjctMTEuMy0zLjFjLTMuNSAyLjItNC43IDYuNy0yLjkgMTAuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![angle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/angle.svg)
  */
 const Angle: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

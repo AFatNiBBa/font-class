@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `cowbell-circle-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cowbell-circle-plus?s=duotone cowbell-circle-plus}
- * @preview ![cowbell-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDM2OGMwIDEwLjMgMy4zIDIwLjUgOS43IDI4LjlDMTguNyA0MDguOSAzMi45IDQxNiA0OCA0MTZsMjE0LjYgMGMtNC4zLTE1LjMtNi42LTMxLjQtNi42LTQ4YzAtODYuNCA2Mi4zLTE1OC4zIDE0NC40LTE3My4ybC0xOC4zLTY0QzM3Ni4zIDExMC4yIDM1Ny40IDk2IDMzNiA5NmwtMTYgMCAwLTU2YzAtMjIuMS0xNy45LTQwLTQwLTQwTDE2OCAwYy0yMi4xIDAtNDAgMTcuOS00MCA0MGwwIDU2LTE2IDBjLTIxLjQgMC00MC4zIDE0LjItNDYuMiAzNC44bC02NCAyMjRDLjYgMzU5LjIgMCAzNjMuNiAwIDM2OHptMTYwIDgwYzAgMzUuMyAyOC43IDY0IDY0IDY0YzI5LjIgMCA1My45LTE5LjYgNjEuNS00Ni40Yy0zLjgtNS43LTcuMi0xMS41LTEwLjMtMTcuNkwxNjAgNDQ4ek0xNzYgNDhsOTYgMCAwIDQ4LTk2IDAgMC00OHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTI4OCAzNjhhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMTQ0LTgwYy04LjggMC0xNiA3LjItMTYgMTZsMCA0OC00OCAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDQ4IDAgMCA0OGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtNDggNDggMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtNDggMCAwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cowbell-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cowbell-circle-plus.svg)
  */
 const CowbellCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 368c0 10.3 3.3 20.5 9.7 28.9C18.7 408.9 32.9 416 48 416l214.6 0c-4.3-15.3-6.6-31.4-6.6-48c0-86.4 62.3-158.3 144.4-173.2l-18.3-64C376.3 110.2 357.4 96 336 96l-16 0 0-56c0-22.1-17.9-40-40-40L168 0c-22.1 0-40 17.9-40 40l0 56-16 0c-21.4 0-40.3 14.2-46.2 34.8l-64 224C.6 359.2 0 363.6 0 368zm160 80c0 35.3 28.7 64 64 64c29.2 0 53.9-19.6 61.5-46.4c-3.8-5.7-7.2-11.5-10.3-17.6L160 448zM176 48l96 0 0 48-96 0 0-48z" />
-            <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16z" />
+        <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-big-small` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-big-small?s=thin arrow-up-big-small}
- * @preview ![arrow-up-big-small](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU0LjMgMzQuM2MzLjEtMy4xIDguMi0zLjEgMTEuMyAwbDEwNCAxMDRjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM3MtOC4yIDMuMS0xMS4zIDBMMTY4IDU5LjMgMTY4IDQ3MmMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTQxMi43TDYxLjcgMTQ5LjdjLTMuMSAzLjEtOC4yIDMuMS0xMS4zIDBzLTMuMS04LjIgMC0xMS4zbDEwNC0xMDR6TTMzNiA0MzJjMCAxNy43IDE0LjMgMzIgMzIgMzJsNjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0YzAtMTcuNy0xNC4zLTMyLTMyLTMybC02NCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDY0em0tMTYgMGwwLTY0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDY0IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA2NGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtNjQgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDh6TTMzNiA4MGwwIDEyOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxMjggMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTEyOGMwLTE3LjctMTQuMy0zMi0zMi0zMkwzNjggNDhjLTE3LjcgMC0zMiAxNC4zLTMyIDMyem0tMTYgMGMwLTI2LjUgMjEuNS00OCA0OC00OGwxMjggMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDEyOGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMTI4IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-up-big-small](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-big-small.svg)
  */
 const ArrowUpBigSmall: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

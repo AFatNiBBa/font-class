@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `knife-kitchen` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/knife-kitchen?s=sharp-light knife-kitchen}
- * @preview ![knife-kitchen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTUzLjQgMTE4LjZMNTc2IDk2IDU1My40IDczLjQgNTAyLjYgMjIuNiA0ODAgMCA0NTcuNCAyMi42IDI5NC42IDE4NS40IDI3MiAyMDhsMjIuNiAyMi42TDM5MiAzMjhsNzItNTYgMC02NCA4OS40LTg5LjR6TTQzMiAyMDhsMCA0OC4zLTM3LjMgMjlMMzE3LjMgMjA4IDQ4MCA0NS4zIDUzMC43IDk2bC04OS40IDg5LjQtOS40IDkuNCAwIDEzLjN6TTI0OS40IDIzMC42bC0yMjYgMjI2TDAgNDgwczExLjIgNy41IDMwIDE1LjJjMjAuMSA4LjMgNDguOSAxNi44IDgyIDE2LjhjMTE4LjggMCAyMTYuMy03NS43IDI1OC42LTExNC43bDEuMi0xLjFjMTMuOS0xMi45IDIxLjQtMjEuNSAyMS40LTIxLjVsLTkuNC05LjQtMjIuNi0yMi42IC4xLS4xTDMzOC43IDMyMGwtLjEgLjFMMzE2IDM0Mi43bDIyLjYgMjIuNiA5LjMgOS4zYy0xMi45IDExLjgtMzEgMjctNTMuMyA0Mi4zQzI0NyA0NDkuNCAxODMgNDgwIDExMiA0ODBjLTIxLjUgMC00MS4xLTQuMy01Ny4xLTkuN0wyNzIgMjUzLjNsLTIyLjYtMjIuNnpNNDQ4IDE0NGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwem0zMi0zMmExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![knife-kitchen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/knife-kitchen.svg)
  */
 const KnifeKitchen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `moon-cloud` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon-cloud?s=solid moon-cloud}
- * @preview ![moon-cloud](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc5LjUgMzJjLTExOC4yIDAtMjE0LjkgOTItMjIzIDIwOC4zQzMxMCAyNDQuNyAzNTIgMjg5LjQgMzUyIDM0NGMwIDI3LjktMTEgNTMuMy0yOSA3MmM0MC4zIDM5LjYgOTUuNSA2NCAxNTYuNCA2NGM2MC42IDAgMTE1LjUtMjQuMiAxNTUuOC02My40YzUtNC45IDYuMy0xMi41IDMuMS0xOC43cy0xMC4xLTkuNy0xNy04LjVjLTkuOCAxLjctMTkuOCAyLjYtMzAuMSAyLjZjLTk2LjkgMC0xNzUuNS03OC44LTE3NS41LTE3NmMwLTY1LjggMzYtMTIzLjEgODkuMy0xNTMuM2M2LjEtMy41IDkuMi0xMC41IDcuNy0xNy4zcy03LjMtMTEuOS0xNC4zLTEyLjVjLTYuMi0uNS0xMi42LS44LTE5LS44ek02NCA0MTZsMTg0IDBjMzkuOCAwIDcyLTMyLjIgNzItNzJzLTMyLjItNzItNzItNzJjLTEwLjEgMC0xOS43IDIuMS0yOC40IDUuOEMyMDguOCAyNDYuNSAxNzkgMjI0IDE0NCAyMjRjLTM4LjcgMC03MSAyNy41LTc4LjQgNjRjLS41IDAtMS4xIDAtMS42IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![moon-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/moon-cloud.svg)
  */
 const MoonCloud: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

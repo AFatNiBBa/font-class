@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `key-skeleton` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/key-skeleton?s=sharp-thin key-skeleton}
- * @preview ![key-skeleton](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDI3MmMtMzIuNSAwLTYyLjMtMTIuMS04NC44LTMyLjJsLTExLTExYy0yMC0yMi42LTMyLjItNTIuMy0zMi4yLTg0LjhjMC03MC43IDU3LjMtMTI4IDEyOC0xMjhzMTI4IDU3LjMgMTI4IDEyOHMtNTcuMyAxMjgtMTI4IDEyOHpNMTYwIDE0NGMwIDM2LjkgMTMuOSA3MC41IDM2LjcgOTZMNzIgMzY0LjcgNjAuNyAzNzYgMTAuMyA0MjYuMyA0LjcgNDMybDUuNyA1LjcgNjQgNjQgNS43IDUuN0w5MS4zIDQ5NmwtNS43LTUuN0wyNy4zIDQzMiA3MiAzODcuM2w1OC4zIDU4LjMgNS43IDUuN0wxNDcuMyA0NDBsLTUuNy01LjdMODMuMyAzNzYgMjA4IDI1MS4zYzI1LjUgMjIuOCA1OS4xIDM2LjcgOTYgMzYuN2M3OS41IDAgMTQ0LTY0LjUgMTQ0LTE0NFMzODMuNSAwIDMwNCAwUzE2MCA2NC41IDE2MCAxNDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![key-skeleton](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/key-skeleton.svg)
  */
 const KeySkeleton: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

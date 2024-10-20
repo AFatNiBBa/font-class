@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-shelter` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-shelter?s=solid person-shelter}
- * @preview ![person-shelter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcxLjkgNC4yYy05LjgtNS42LTIxLjktNS42LTMxLjggMGwtMjI0IDEyOEM2LjIgMTM3LjkgMCAxNDguNSAwIDE2MEwwIDQ4MGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMzAxLjRMMjU2IDY4LjkgNDQ4IDE3OC42IDQ0OCA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTMyMGMwLTExLjUtNi4yLTIyLjEtMTYuMS0yNy44bC0yMjQtMTI4ek0yNTYgMjA4YTQwIDQwIDAgMSAwIDAtODAgNDAgNDAgMCAxIDAgMCA4MHptLTggMjgwbDAtODggMTYgMCAwIDg4YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xNzQuNSAyNi45IDQ5LjljNi4zIDExLjcgMjAuOCAxNiAzMi41IDkuOHMxNi0yMC44IDkuOC0zMi41bC0zNy45LTcwLjNjLTE1LjMtMjguNS00NS4xLTQ2LjMtNzcuNS00Ni4zbC0xOS41IDBjLTMyLjQgMC02Mi4xIDE3LjgtNzcuNSA0Ni4zbC0zNy45IDcwLjNjLTYuMyAxMS43LTEuOSAyNi4yIDkuOCAzMi41czI2LjIgMS45IDMyLjUtOS44TDIwMCAzMTMuNSAyMDAgNDg4YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-shelter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-shelter.svg)
  */
 const PersonShelter: typeof Icon = x => (
     <Icon {...x}>

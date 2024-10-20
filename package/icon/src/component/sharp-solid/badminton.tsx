@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `badminton` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badminton?s=sharp-solid badminton}
- * @preview ![badminton](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwLjIgMTEyLjJDMjcyLjYgNzkuOCAzMTIuOSA2NCAzNDkgNjRjMjguMiAwIDUzLjIgOS42IDcxLjMgMjcuN1M0NDggMTM0LjkgNDQ4IDE2M2MwIDM2LTE1LjggNzYuNC00OC4yIDEwOC44Yy01OS40IDU5LjQtMTM5LjcgNjAuOS0xODAuMSAyMC41QzIwMS42IDI3NC4xIDE5MiAyNDkuMSAxOTIgMjIxYzAtMzYgMTUuOC03Ni40IDQ4LjItMTA4Ljh6TTM0OSAwYy01NC4yIDAtMTEwLjUgMjMuNC0xNTQgNjYuOXMtNjcgOTkuOC02Ni45IDE1NGMwIDMyLjQgOC40IDY0LjIgMjYuMiA5MS42bC00OC44IDQ4LjhMOTYgMzUyIDAgNDQ4bDY0IDY0IDk2LTk2LTkuNC05LjQgNDguOC00OC44YzczLjMgNDguMSAxNzcuNSAyNy40IDI0NS43LTQwLjhjNDMuNi00My42IDY3LTk5LjggNjYuOS0xNTRjMC00Mi44LTE0LjgtODQuOS00Ni41LTExNi42UzM5MS44IDAgMzQ5IDB6TTUwOS44IDM1MmMtMjYuNCAwLTQ3LjggMjEuNS00Ny44IDQ4bDAgMzIgOTUuNiAwIDAtMzJjMC0yNi41LTIxLjQtNDgtNDcuOC00OHptLTQ2LjggOTZsLTExLjIgMzktNC40IDE1LjQgMzAuOCA4LjggNC40LTE1LjQgMTMuMi00NiAwIDQ2LjIgMCAxNiAzMiAwIDAtMTYgMC00Ni4yIDEzLjIgNDYgNC40IDE1LjQgMzAuOC04LjhMNTcxLjcgNDg3bC0xMS4yLTM5LTk3LjYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![badminton](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/badminton.svg)
  */
 const Badminton: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

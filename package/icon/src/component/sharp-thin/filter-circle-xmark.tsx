@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `filter-circle-xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter-circle-xmark?s=sharp-thin filter-circle-xmark}
- * @preview ![filter-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDI4Mi4xbDAgNS45IDAgNzIuNyA1Mi4yIDQ1LjdjMi4zIDEwLjIgNS40IDIwIDkuNCAyOS40TDE5MiAzNjhsMC04MEwwIDY0IDAgMTYgMCAwIDE2IDAgNDk2IDBsMTYgMCAwIDE2IDAgNDhMMzk5LjggMTk0LjljLTkuNCAxLjctMTguNiA0LjItMjcuNCA3LjRMNDk2IDU4LjEgNDk2IDE2IDE2IDE2bDAgNDIuMUwyMDQuMSAyNzcuNmwzLjkgNC41ek01NjAgMzY4YTEyOCAxMjggMCAxIDAgLTI1NiAwIDEyOCAxMjggMCAxIDAgMjU2IDB6bS0yNzIgMGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0yMDUuNy01MC4zTDQ0My4zIDM2OGw1MC4zIDUwLjMgNS43IDUuN0w0ODggNDM1LjNsLTUuNy01LjdMNDMyIDM3OS4zbC01MC4zIDUwLjMtNS43IDUuN0wzNjQuNyA0MjRsNS43LTUuN0w0MjAuNyAzNjhsLTUwLjMtNTAuMy01LjctNS43TDM3NiAzMDAuN2w1LjcgNS43TDQzMiAzNTYuN2w1MC4zLTUwLjMgNS43LTUuN0w0OTkuMyAzMTJsLTUuNyA1Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![filter-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/filter-circle-xmark.svg)
  */
 const FilterCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

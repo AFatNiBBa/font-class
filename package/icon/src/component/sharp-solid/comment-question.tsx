@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-question` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-question?s=sharp-solid comment-question}
- * @preview ![comment-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI0MGMwIDExNC45LTExNC42IDIwOC0yNTYgMjA4Yy0zMS41IDAtNjEuNy00LjYtODkuNi0xMy4xTDE2IDQ4MCA1Ni45IDM3MC44QzIxLjMgMzM1LjEgMCAyODkuNiAwIDI0MEMwIDEyNS4xIDExNC42IDMyIDI1NiAzMnMyNTYgOTMuMSAyNTYgMjA4ek0xNjggMTY4bDAgNi41IDQ4IDAgMC02LjVjMC00LjQgMy42LTggOC04bDU2LjkgMGM4LjQgMCAxNS4xIDYuOCAxNS4xIDE1LjFjMCA1LjQtMi45IDEwLjQtNy42IDEzLjFsLTQ0LjMgMjUuNEwyMzIgMjIwLjZsMCAxMy45IDAgMjEuNSAwIDI0IDQ4IDAgMC0yNCAwLTcuNiAzMi4zLTE4LjVjMTkuNi0xMS4zIDMxLjctMzIuMiAzMS43LTU0LjhjMC0zNC45LTI4LjMtNjMuMS02My4xLTYzLjFMMjI0IDExMmMtMzAuOSAwLTU2IDI1LjEtNTYgNTZ6bTY0IDIwMGw0OCAwIDAtNDgtNDggMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![comment-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/comment-question.svg)
  */
 const CommentQuestion: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-layout` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-layout?s=sharp-solid table-layout}
- * @preview ![table-layout](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDMyTDAgMzIgMCA0ODBsNTEyIDAgMC00NDh6TTQ0OCA5NmwwIDY0TDY0IDE2MGwwLTY0IDM4NCAwek02NCAyMjRsNjQgMCAwIDE5Mi02NCAwIDAtMTkyem0zODQgMGwwIDE5Mi0yNTYgMCAwLTE5MiAyNTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![table-layout](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/table-layout.svg)
  */
 const TableLayout: typeof Icon = x => (
     <Icon {...x}>

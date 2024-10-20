@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `crow` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crow?s=duotone crow}
- * @preview ![crow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yNTkuMiAzODRsNTEuOSAwIDM5LjEgOTQuOWM1IDEyLjMtLjggMjYuMy0xMy4xIDMxLjNjLTMgMS4yLTYuMSAxLjgtOS4xIDEuOGMtOS40IDAtMTguNC01LjYtMjIuMi0xNC45TDI1OS4yIDM4NHptOTYgMGMxNi45LS4zIDMzLjQtMi44IDQ5LTcuMWw0MiAxMDJjNSAxMi4zLS44IDI2LjMtMTMuMSAzMS4zYy0zIDEuMi02LjEgMS44LTkuMSAxLjhjLTkuNCAwLTE4LjQtNS42LTIyLjItMTQuOUwzNTUuMiAzODR6TTUyMy45IDMyTDU3NCAzMmMyOS40IDAgNTUgMjAgNjIuMSA0OC41TDY0MCA5NmwtOTYgMjQgMC0zMmMwLTIxLjMtNy41LTQwLjgtMjAuMS01NnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQ1NiAwYy00OC42IDAtODggMzkuNC04OCA4OGwwIDI5LjJMMTIuNSAzOTAuNmMtMTQgMTAuOC0xNi42IDMwLjktNS45IDQ0LjlzMzAuOSAxNi42IDQ0LjkgNS45TDEyNi4xIDM4NCAzNTIgMzg0YzEwNiAwIDE5Mi04NiAxOTItMTkybDAtNjQgMC00MGMwLTQ4LjYtMzkuNC04OC04OC04OHptMCA2NGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![crow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/crow.svg)
  */
 const Crow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M259.2 384l51.9 0 39.1 94.9c5 12.3-.8 26.3-13.1 31.3c-3 1.2-6.1 1.8-9.1 1.8c-9.4 0-18.4-5.6-22.2-14.9L259.2 384zm96 0c16.9-.3 33.4-2.8 49-7.1l42 102c5 12.3-.8 26.3-13.1 31.3c-3 1.2-6.1 1.8-9.1 1.8c-9.4 0-18.4-5.6-22.2-14.9L355.2 384zM523.9 32L574 32c29.4 0 55 20 62.1 48.5L640 96l-96 24 0-32c0-21.3-7.5-40.8-20.1-56z" />
-            <path d="M456 0c-48.6 0-88 39.4-88 88l0 29.2L12.5 390.6c-14 10.8-16.6 30.9-5.9 44.9s30.9 16.6 44.9 5.9L126.1 384 352 384c106 0 192-86 192-192l0-64 0-40c0-48.6-39.4-88-88-88zm0 64a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+        <path d="M456 0c-48.6 0-88 39.4-88 88l0 29.2L12.5 390.6c-14 10.8-16.6 30.9-5.9 44.9s30.9 16.6 44.9 5.9L126.1 384 352 384c106 0 192-86 192-192l0-64 0-40c0-48.6-39.4-88-88-88zm0 64a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
     </Icon>
 );
 

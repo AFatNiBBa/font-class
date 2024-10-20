@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `escalator` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/escalator?s=sharp-regular escalator}
- * @preview ![escalator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bTIwNi45IDY0bDkgMCAyNCAwIDEwNCAwIDY0IDAgMjQgMCAwIDI0IDAgMTI4IDAgMjQtMjQgMC02NCAwLTcwLjkgMEwyNDkuOSA0OTAuMmwtMTguMSAxNS44LTYuOCA1LjktOSAwLTI0IDBMODggNTEybC02NCAwTDAgNTEybDAtMjRMMCAzNjBsMC0yNCAyNCAwIDY0IDAgNzAuOSAwTDM5MC4xIDEzMy44bDE4LjEtMTUuOCA2LjgtNS45em0xOCA0OGwtMTEuMyA5LjlMMTgzLjggMzc4LjEgMTc3IDM4NGwtOSAwLTgwIDAtNDAgMCAwIDgwIDQwIDAgMTA0IDAgMTUgMCAxMS4zLTkuOUw0NTYuMiAyNDUuOSA0NjMgMjQwbDkgMCA4MCAwIDQwIDAgMC04MC00MCAwLTEwNCAwLTE1IDB6TTMyMCAxMjhsMCAyNC41LTEyOCAxMTJMMTkyIDEyOGwxMjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![escalator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/escalator.svg)
  */
 const Escalator: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

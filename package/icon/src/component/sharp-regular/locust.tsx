@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `locust` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/locust?s=sharp-regular locust}
- * @preview ![locust](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyIDMybC0yNCAwIDAgNDggMjQgMCA0OCAwYzg0LjYgMCAxNTQuNyA2Mi42IDE2Ni4zIDE0NGwtOTEuNyAwLTQ1LjUtODMuNS0xOC0zMy4xLTIyLjQgMzAuMy0zNSA0Ny41LTI5LjQtNDYuMkwyNjUgMTA4LjhsLTIwLjYgMjkuNEwxODQuMiAyMjQgODAgMjI0bC00OCAwIDAgNDggMCA2Ny4yIDU0IDI0LjdMNC41IDQ4MGw1OC42IDAgNjcuMi05NS44IDI4LjcgMTMuMS01MS4yIDc4LjEtMyA0LjYgNTcuNCAwIDQxLjktNjQgNzEgMC0zMi4xIDU2LjEtNC41IDcuOSA1NS4zIDAgMzYuNi02NCAxMTAuNyAwIDMyIDY0IDUzLjcgMC0xLjQtMi43LTMxLjItNjIuM2M0Ni4yLTYuOSA4MS42LTQ2LjYgODEuNy05NC43bDAtLjIgMC03MmMwLTExOS4zLTk2LjctMjE2LTIxNi0yMTZsLTQ4IDB6bS03LjYgMzM2bC0xLjMtLjctLjQgLjctOTIuMiAwLTUyLTIzLjhMMjA5LjEgMjcybDEwMi44IDAgLjcgMS4xIDEuOC0xLjEgOTEuNyAwIC4zIC42IDEtLjZMNTI4IDI3MmwwIDQ4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0xNzUuNiAwek0xMTQgMzIzLjlMODAgMzA4LjQgODAgMjcybDcwLjUgMEwxMTQgMzIzLjl6TTI0Mi44IDIyNEwyNjMgMTk1LjIgMjgxLjQgMjI0bC0zOC42IDB6bTEwMiAwTDM2NSAxOTYuNmwxNSAyNy40LTM1LjIgMHpNNDk2IDMyMGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![locust](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/locust.svg)
  */
 const Locust: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

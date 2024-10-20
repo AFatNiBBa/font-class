@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `border-none` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-none?s=sharp-light border-none}
- * @preview ![border-none](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCA0MjRsMCA0OCA0OCAwIDAtNDhMOCA0MjR6TTEwNCA4OGw0OCAwIDAtNDgtNDggMCAwIDQ4em0wIDM4NGw0OCAwIDAtNDgtNDggMCAwIDQ4em0wLTI0MGwwIDQ4IDQ4IDAgMC00OC00OCAwek0yOTYgNDcybDQ4IDAgMC00OC00OCAwIDAgNDh6bTAtNDMybDAgNDggNDggMCAwLTQ4LTQ4IDB6bTAgMjQwbDQ4IDAgMC00OC00OCAwIDAgNDh6TTIwMCA0MjRsMCA0OCA0OCAwIDAtNDgtNDggMHptMC0zMzZsNDggMCAwLTQ4LTQ4IDAgMCA0OHptMCAxNDRsMCA0OCA0OCAwIDAtNDgtNDggMHpNMzkyIDQ3Mmw0OCAwIDAtNDgtNDggMCAwIDQ4em0wLTM4NGw0OCAwIDAtNDgtNDggMCAwIDQ4ek04IDQwTDggODhsNDggMCAwLTQ4TDggNDB6TTM5MiAyODBsNDggMCAwLTQ4LTQ4IDAgMCA0OHpNOCAyMzJsMCA0OCA0OCAwIDAtNDhMOCAyMzJ6TTIwMCAzNzZsNDggMCAwLTQ4LTQ4IDAgMCA0OHptMTkyLTQ4bDAgNDggNDggMCAwLTQ4LTQ4IDB6TTggMzc2bDQ4IDAgMC00OEw4IDMyOGwwIDQ4ek0zOTIgMTM2bDAgNDggNDggMCAwLTQ4LTQ4IDB6TTggMTg0bDQ4IDAgMC00OEw4IDEzNmwwIDQ4em0xOTItNDhsMCA0OCA0OCAwIDAtNDgtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![border-none](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/border-none.svg)
  */
 const BorderNone: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

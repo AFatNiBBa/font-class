@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `folder-user` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-user?s=duotone folder-user}
- * @preview ![folder-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjU2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDI4OCA5NmMtMTAuMSAwLTE5LjYtNC43LTI1LjYtMTIuOEwyNDMuMiA1Ny42QzIzMS4xIDQxLjUgMjEyLjEgMzIgMTkyIDMyTDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZ6TTE0NCA0MDUuM2MwLTI5LjUgMjMuOS01My4zIDUzLjMtNTMuM2wxMTcuMyAwYzI5LjUgMCA1My4zIDIzLjkgNTMuMyA1My4zYzAgNS45LTQuOCAxMC43LTEwLjcgMTAuN2wtMjAyLjcgMGMtNS45IDAtMTAuNy00LjgtMTAuNy0xMC43ek0zMjAgMjU2YTY0IDY0IDAgMSAxIC0xMjggMCA2NCA2NCAwIDEgMSAxMjggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTI1NiAzMjBhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6bS01OC43IDMyYy0yOS41IDAtNTMuMyAyMy45LTUzLjMgNTMuM2MwIDUuOSA0LjggMTAuNyAxMC43IDEwLjdsMjAyLjcgMGM1LjkgMCAxMC43LTQuOCAxMC43LTEwLjdjMC0yOS41LTIzLjktNTMuMy01My4zLTUzLjNsLTExNy4zIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![folder-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/folder-user.svg)
  */
 const FolderUser: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L288 96c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32L64 32C28.7 32 0 60.7 0 96zM144 405.3c0-29.5 23.9-53.3 53.3-53.3l117.3 0c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7l-202.7 0c-5.9 0-10.7-4.8-10.7-10.7zM320 256a64 64 0 1 1 -128 0 64 64 0 1 1 128 0z" />
-            <path d="M256 320a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-58.7 32c-29.5 0-53.3 23.9-53.3 53.3c0 5.9 4.8 10.7 10.7 10.7l202.7 0c5.9 0 10.7-4.8 10.7-10.7c0-29.5-23.9-53.3-53.3-53.3l-117.3 0z" />
+        <path d="M256 320a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-58.7 32c-29.5 0-53.3 23.9-53.3 53.3c0 5.9 4.8 10.7 10.7 10.7l202.7 0c5.9 0 10.7-4.8 10.7-10.7c0-29.5-23.9-53.3-53.3-53.3l-117.3 0z" />
     </Icon>
 );
 

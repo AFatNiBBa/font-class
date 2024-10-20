@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line?s=sharp-regular chart-line}
- * @preview ![chart-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNTZsMC0yNEwwIDMyIDAgNTYgMCA0NTZsMCAyNCAyNCAwIDQ2NCAwIDI0IDAgMC00OC0yNCAwTDQ4IDQzMiA0OCA1NnpNNDczIDE2OWwxNy0xN0w0NTYgMTE4LjFsLTE3IDE3LTExOSAxMTktNzktNzktMTctMTctMTcgMTctOTYgOTYtMTcgMTdMMTI4IDMyMS45bDE3LTE3IDc5LTc5IDc5IDc5IDE3IDE3IDE3LTE3TDQ3MyAxNjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chart-line.svg)
  */
 const ChartLine: typeof Icon = x => (
     <Icon {...x}>

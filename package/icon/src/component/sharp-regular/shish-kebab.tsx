@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shish-kebab` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shish-kebab?s=sharp-regular shish-kebab}
- * @preview ![shish-kebab](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDk2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4czQ4IDIxLjUgNDggNDhjMCA5LjktMyAxOS4xLTguMSAyNi43bDM5LjkgMjYuN0M1MDYgMTM0LjEgNTEyIDExNS43IDUxMiA5NmMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NmMwIDE3LjggNC45IDM0LjUgMTMuMyA0OC44TDMwMyAxNzVsLTQ1LjEtNDUuMUwyMjQgOTZsLTMzLjkgMzMuOS02MC4xIDYwLjFMMTI4IDE5MiA5NiAyMjRsLTEuOSAxLjlMMzMuOSAyODYuMSAwIDMyMGwzMy45IDMzLjlMNzkgMzk5IDIuMiA0NzUuOGwzMy45IDMzLjlMMTEzIDQzM2w0NS4xIDQ1LjFMMTkyIDUxMmwzMy45LTMzLjkgNjAuMS02MC4xTDI4OCA0MTZsMzItMzIgMS45LTEuOSA2MC4xLTYwLjFMNDE2IDI4OGwtMzMuOS0zMy45TDMzNyAyMDlsNDUuMS00NS4xIDE3LTE3LTE3LTE3QzM3My4zIDEyMS4yIDM2OCAxMDkuMyAzNjggOTZ6TTI4OCAzNDguMUwxNjMuOSAyMjQgMjI0IDE2My45IDM0OC4xIDI4OCAyODggMzQ4LjF6bS05NiA5Nkw2Ny45IDMyMCAxMjggMjU5LjkgMjUyLjEgMzg0IDE5MiA0NDQuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shish-kebab](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shish-kebab.svg)
  */
 const ShishKebab: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kiwi-bird` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kiwi-bird?s=regular kiwi-bird}
- * @preview ![kiwi-bird](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY2LjQgMzQ3LjNjMzEuMi0xOC45IDc0LjktNDMuMyAxMjUuOS00My4zbDU1LjcgMGM0NC4yIDAgODAtMzUuOCA4MC04MHMtMzUuOC04MC04MC04MGwtNTUuNyAwYy01MSAwLTk0LjctMjQuNC0xMjUuOS00My4zQzI0NC43IDg3LjYgMjE5LjMgODAgMTkyIDgwQzExMi41IDgwIDQ4IDE0NC41IDQ4IDIyNHM2NC41IDE0NCAxNDQgMTQ0YzI3LjMgMCA1Mi43LTcuNiA3NC40LTIwLjd6TTM5Mi4zIDM1MmMtMzYuNCAwLTY5LjkgMTcuNi0xMDEuMSAzNi40Yy0xMS4xIDYuNy0yMi45IDEyLjMtMzUuMiAxNi43bDAgNTAuOWMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTQwLjdjLTUuMyAuNC0xMC42IC43LTE2IC43Yy0xNi42IDAtMzIuNy0yLjEtNDgtNmwwIDQ2YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtNjUuN0MzOC42IDM1Ny4xIDAgMjk1LjEgMCAyMjRDMCAxMTggODYgMzIgMTkyIDMyYzM2LjMgMCA3MC4zIDEwLjEgOTkuMiAyNy42QzMyMi40IDc4LjQgMzU1LjkgOTYgMzkyLjMgOTZMNDQ4IDk2YzcwLjcgMCAxMjggNTcuMyAxMjggMTI4bDAgMjQwYzAgNy4zLTQuOSAxMy43LTEyIDE1LjVzLTE0LjUtMS4zLTE4LTcuN0w0NzcuNiAzNDguNmMtOS41IDIuMi0xOS40IDMuNC0yOS42IDMuNGwtNTUuNyAwek00NDggMjAwYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![kiwi-bird](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/kiwi-bird.svg)
  */
 const KiwiBird: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

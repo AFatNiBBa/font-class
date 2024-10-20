@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `bone` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bone?s=duotone bone}
- * @preview ![bone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNTMuNyAxNDQuOGM2LjkgMTYuMyAyMC42IDMxLjIgMzguMyAzMS4ybDE5MiAwYzE3LjcgMCAzMS40LTE0LjkgMzguMy0zMS4yQzQzNC40IDExNi4xIDQ2Mi45IDk2IDQ5NiA5NmM0NC4yIDAgODAgMzUuOCA4MCA4MGMwIDMwLjQtMTcgNTYuOS00MiA3MC40Yy0zLjYgMS45LTYgNS41LTYgOS42czIuNCA3LjcgNiA5LjZjMjUgMTMuNSA0MiA0MCA0MiA3MC40YzAgNDQuMi0zNS44IDgwLTgwIDgwYy0zMy4xIDAtNjEuNi0yMC4xLTczLjctNDguOEM0MTUuNCAzNTAuOSA0MDEuNyAzMzYgMzg0IDMzNmwtMTkyIDBjLTE3LjcgMC0zMS40IDE0LjktMzguMyAzMS4yQzE0MS42IDM5NS45IDExMy4xIDQxNiA4MCA0MTZjLTQ0LjIgMC04MC0zNS44LTgwLTgwYzAtMzAuNCAxNy01Ni45IDQyLTcwLjRjMy42LTEuOSA2LTUuNSA2LTkuNnMtMi40LTcuNy02LTkuNkMxNyAyMzIuOSAwIDIwNi40IDAgMTc2YzAtNDQuMiAzNS44LTgwIDgwLTgwYzMzLjEgMCA2MS42IDIwLjEgNzMuNyA0OC44eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSIiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bone.svg)
  */
 const Bone: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fish-fins` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish-fins?s=solid fish-fins}
- * @preview ![fish-fins](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc1LjIgMzguNGMtMTAuNi04LTI1LTguNS0zNi4zLTEuNVMyMjIgNTcuMyAyMjQuNiA3MC4zbDkuNyA0OC42Yy0xOS40IDktMzYuOSAxOS45LTUyLjQgMzEuNWMtMTUuMyAxMS41LTI5IDIzLjktNDAuNyAzNi4zTDQ4LjEgMTMyLjRjLTEyLjUtNy4zLTI4LjQtNS4zLTM4LjYgNC45Uy0zIDE2My4zIDQuMiAxNzUuOUw1MCAyNTYgNC4yIDMzNi4xYy03LjIgMTIuNi01IDI4LjQgNS4zIDM4LjZzMjYuMSAxMi4yIDM4LjYgNC45bDkzLjEtNTQuM2MxMS44IDEyLjMgMjUuNCAyNC44IDQwLjcgMzYuM2MxNS41IDExLjYgMzMgMjIuNSA1Mi40IDMxLjVsLTkuNyA0OC42Yy0yLjYgMTMgMy4xIDI2LjMgMTQuMyAzMy4zczI1LjYgNi41IDM2LjMtMS41bDc3LjYtNTguMmM1NC45LTQgMTAxLjUtMjcgMTM3LjItNTMuOGMzOS4yLTI5LjQgNjcuMi02NC43IDgxLjYtODkuNWM1LjgtOS45IDUuOC0yMi4yIDAtMzIuMWMtMTQuNC0yNC44LTQyLjUtNjAuMS04MS42LTg5LjVjLTM1LjgtMjYuOC04Mi4zLTQ5LjgtMTM3LjItNTMuOEwyNzUuMiAzOC40ek0zODQgMjU2YTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fish-fins](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fish-fins.svg)
  */
 const FishFins: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-pen` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-pen?s=regular calendar-pen}
- * @preview ![calendar-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA0MCAxNDQgMCAwLTQwYzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjRsMCA0MCA0MCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTYgMCA0OCAwIDI1NmMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTkybDAtNDggMC0xNkMwIDkyLjcgMjguNyA2NCA2NCA2NGw0MCAwIDAtNDBjMC0xMy4zIDEwLjctMjQgMjQtMjR6TTQwMCAxOTJMNDggMTkybDAgMjU2YzAgOC44IDcuMiAxNiAxNiAxNmwzMjAgMGM4LjggMCAxNi03LjIgMTYtMTZsMC0yNTZ6bS05MS4yIDUxYzE0LjcgMTQuNyAxNC43IDM4LjYgMCA1My4zbC0xNC45IDE0LjlMMjQwLjYgMjU4IDI1NS41IDI0M2MxNC43LTE0LjcgMzguNi0xNC43IDUzLjMgMHpNMTQ2LjEgMzUyLjVMMjE4IDI4MC42bDUzLjMgNTMuMy03MS45IDcxLjljLTQuMSA0LjEtOS4yIDctMTQuOSA4LjRsLTM2LjYgOS4yYy01LjUgMS40LTExLjItLjItMTUuMi00LjJzLTUuNi05LjctNC4yLTE1LjJsOS4yLTM2LjZjMS40LTUuNiA0LjMtMTAuOCA4LjQtMTQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![calendar-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/calendar-pen.svg)
  */
 const CalendarPen: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

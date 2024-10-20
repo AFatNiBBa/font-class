@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `window-frame-open` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-frame-open?s=regular window-frame-open}
- * @preview ![window-frame-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDI0MGwtMTUyIDAgMC0xOTIgMTM2IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTc2em0tMjAwIDBMODAgMjQwIDgwIDY0YzAtOC44IDcuMi0xNiAxNi0xNmwxMzYgMCAwIDE5MnptMjQ4IDQ4bDAtNDggMC0xNzZjMC0zNS4zLTI4LjctNjQtNjQtNjRMOTYgMEM2MC43IDAgMzIgMjguNyAzMiA2NGwwIDE3NiAwIDQ4IDQ4IDAgMzUyIDAgNDggMHpNMjQgNDY0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDMyIDAgNDAwIDAgMzIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtOCAwIDAtMTQ0LTQ4IDAgMCAxNDRMODAgNDY0bDAtMTQ0LTQ4IDAgMCAxNDQtOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![window-frame-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/window-frame-open.svg)
  */
 const WindowFrameOpen: typeof Icon = x => (
     <Icon {...x}>

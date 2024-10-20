@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `block-brick` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-brick?s=sharp-solid block-brick}
- * @preview ![block-brick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJsMCA4MCAyNTYgMCAwLTgwTDk2IDMyek02NCAxMTJsMC04MEwwIDMybDAgODAgNjQgMHpNMCAxNDRsMCA5NiAyMDggMCAwLTk2TDAgMTQ0ek0wIDM2OGw2NCAwIDAtOTZMMCAyNzJsMCA5NnptMCAzMmwwIDgwIDIwOCAwIDAtODBMMCA0MDB6bTI0MCAwbDAgODAgMjA4IDAgMC04MC0yMDggMHptMjA4LTMybDAtOTYtNjQgMCAwIDk2IDY0IDB6bS05NiAwbDAtOTZMOTYgMjcybDAgOTYgMjU2IDB6bTk2LTIyNGwtMjA4IDAgMCA5NiAyMDggMCAwLTk2em0wLTMybDAtODAtNjQgMCAwIDgwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![block-brick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/block-brick.svg)
  */
 const BlockBrick: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

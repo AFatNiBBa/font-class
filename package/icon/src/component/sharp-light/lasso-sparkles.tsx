@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lasso-sparkles` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lasso-sparkles?s=sharp-light lasso-sparkles}
- * @preview ![lasso-sparkles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBsMCAxNiAwIDQ4IDQ4IDAgMTYgMCAwIDMyLTE2IDAtNDggMCAwIDQ4IDAgMTYtMzIgMCAwLTE2IDAtNDgtNDggMC0xNiAwIDAtMzIgMTYgMCA0OCAwIDAtNDggMC0xNiAzMiAwek0wIDE3NkMwIDg1LjQgMTEyIDEwLjggMjU2IDEuMWwwIDMyQzEyOS43IDQyIDMyIDEwMi42IDMyIDE3NmMwIDQ3LjEgNDAuMiA4OC45IDEwMi40IDExNS4yYzAgMCAwIDAgMCAwYzUuNSAyLjMgMTEuMiA0LjUgMTcgNi42YzAgMCAwIDAgMCAwQzE5MC45IDMxMS45IDIzNy44IDMyMCAyODggMzIwYzE0MS40IDAgMjU2LTY0LjUgMjU2LTE0NGMwLTQ1LjUtMzcuNS04Ni05Ni0xMTIuNGwwLTMzLjlDNTI1LjIgNjEuMiA1NzYgMTE1IDU3NiAxNzZjMCA5Ny4yLTEyOC45IDE3Ni0yODggMTc2Yy0yMi45IDAtNDUuMy0xLjYtNjYuNy00LjdjMTEuOSAxNy4yIDE4LjcgMzggMTguNyA1OS43YzAgNTgtNDcgMTA1LTEwNSAxMDVsLTg3IDAtMTYgMCAwLTMyIDE2IDAgODcgMGM0MC4zIDAgNzMtMzIuNyA3My03M2MwLTI3LjYtMTUuNi01Mi45LTQwLjQtNjUuM2wtMzQuOS0xNy40QzUyLjkgMjkzIDAgMjM4LjMgMCAxNzZ6TTUxMiAzNjhsMCA0OCA0OCAwIDE2IDAgMCAzMi0xNiAwLTQ4IDAgMCA0OCAwIDE2LTMyIDAgMC0xNiAwLTQ4LTQ4IDAtMTYgMCAwLTMyIDE2IDAgNDggMCAwLTQ4IDAtMTYgMzIgMCAwIDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lasso-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lasso-sparkles.svg)
  */
 const LassoSparkles: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ice-skate` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ice-skate?s=sharp-solid ice-skate}
- * @preview ![ice-skate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI0MGwwIDE0NEwzMiAzODQgMzIgOTYgMjU2IDMybDAtMzIgNjQgMCAwIDk2LTQ4IDAtMTYgMCAwIDMyIDE2IDAgNDggMCAwIDMyLTQ4IDAtMTYgMCAwIDMyIDE2IDAgNDggMCAxOTIgNDh6bTY0IDE2OGwwIDI0IDAgNTYgMCAyNC0yNCAwLTE0NCAwLTI4OCAwLTk2IDBMMCA1MTJsMC00OCAyNCAwIDcyIDAgMC0yNCAwLTI0IDQ4IDAgMCAyNCAwIDI0IDI0MCAwIDAtMjQgMC0yNCA0OCAwIDAgMjQgMCAyNCA5NiAwIDAtMzIgMC0yNCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ice-skate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ice-skate.svg)
  */
 const IceSkate: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

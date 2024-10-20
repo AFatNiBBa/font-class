@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `caret-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caret-down?s=light caret-down}
- * @preview ![caret-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY1LjYgMzQ5LjhjLTEuNCAxLjMtMy41IDIuMi01LjYgMi4ycy00LjItLjgtNS42LTIuMkwzNC4yIDIzNi4zYy0xLjQtMS4zLTIuMi0zLjItMi4yLTUuMmMwLTMuOSAzLjItNy4xIDcuMS03LjFsMjQxLjcgMGMzLjkgMCA3LjEgMy4yIDcuMSA3LjFjMCAyLS44IDMuOC0yLjIgNS4yTDE2NS42IDM0OS44em0yMiAyMy4zTDMwNy43IDI1OS42YzcuOC03LjQgMTIuMy0xNy43IDEyLjMtMjguNGMwLTIxLjYtMTcuNS0zOS4xLTM5LjEtMzkuMUwzOS4xIDE5MkMxNy41IDE5MiAwIDIwOS41IDAgMjMxLjFjMCAxMC44IDQuNCAyMS4xIDEyLjMgMjguNUwxMzIuNCAzNzMuMWM3LjQgNyAxNy4zIDEwLjkgMjcuNiAxMC45czIwLjEtMy45IDI3LjYtMTAuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![caret-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/caret-down.svg)
  */
 const CaretDown: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tv-music` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv-music?s=sharp-thin tv-music}
- * @preview ![tv-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMCA0MTYgNjA4IDAgMC00MTZMMTYgMTZ6TTAgMEwxNiAwIDYyNCAwbDE2IDAgMCAxNiAwIDQxNiAwIDE2LTE2IDBMMTYgNDQ4IDAgNDQ4bDAtMTZMMCAxNiAwIDB6TTEwNCA0OTZsNDMyIDAgOCAwIDAgMTYtOCAwLTQzMiAwLTggMCAwLTE2IDggMHpNNTYwIDgwTDgwIDgwbDAgMjg4IDQ4MCAwIDAtMjg4ek04MCA2NGw0ODAgMCAxNiAwIDAgMTYgMCAyODggMCAxNi0xNiAwTDgwIDM4NGwtMTYgMCAwLTE2TDY0IDgwbDAtMTYgMTYgMHptMzM2IDM2LjVsMCAxMS41IDAgMTUyYzAgMjIuMS0yMS41IDQwLTQ4IDQwcy00OC0xNy45LTQ4LTQwczIxLjUtNDAgNDgtNDBjMTIuMyAwIDIzLjUgMy45IDMyIDEwLjJsMC0xMTAuNi0xMTIgNDJMMjg4IDI5NmMwIDIyLjEtMjEuNSA0MC00OCA0MHMtNDgtMTcuOS00OC00MHMyMS41LTQwIDQ4LTQwYzEyLjMgMCAyMy41IDMuOSAzMiAxMC4yTDI3MiAxNjBsMC01LjUgNS4yLTEuOSAxMjgtNDggMTAuOC00LjF6TTM2OCAyNDBjLTIwLjUgMC0zMiAxMy40LTMyIDI0czExLjUgMjQgMzIgMjRzMzItMTMuNCAzMi0yNHMtMTEuNS0yNC0zMi0yNHpNMjQwIDI3MmMtMjAuNSAwLTMyIDEzLjQtMzIgMjRzMTEuNSAyNCAzMiAyNHMzMi0xMy40IDMyLTI0cy0xMS41LTI0LTMyLTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tv-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tv-music.svg)
  */
 const TvMusic: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

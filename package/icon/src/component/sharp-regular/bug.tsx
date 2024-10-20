@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bug` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug?s=sharp-regular bug}
- * @preview ![bug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBjLTUzIDAtOTYgNDMtOTYgOTZsMCAzMiAxOTIgMCAwLTMyYzAtNTMtNDMtOTYtOTYtOTZ6TTczIDEwM2wtMTctMTdMMjIuMSAxMjBsMTcgMTcgNTcgNTdMOTYgMjA4bDAgNTYtNzIgMEwwIDI2NGwwIDQ4IDI0IDAgNzIgMCAwIDhjMCAyNy4yIDYuOCA1Mi44IDE4LjggNzUuM0w1MC4yIDQ1OS44bC0xNyAxNyAzMy45IDMzLjkgMTctMTcgNTkuNy01OS43QzE3Mi43IDQ2Mi41IDIxMi4zIDQ4MCAyNTYgNDgwczgzLjMtMTcuNSAxMTIuMi00NS45bDU5LjcgNTkuNyAxNyAxNyAzMy45LTMzLjktMTctMTctNjQuNi02NC42YzEyLTIyLjQgMTguOC00OC4xIDE4LjgtNzUuM2wwLTggNzIgMCAyNCAwIDAtNDgtMjQgMC03MiAwIDAtNTYgMC0xNC4xIDU3LTU3IDE3LTE3TDQ1NiA4Ni4xbC0xNyAxNy01NyA1N0wzNjggMTYwbC0yMjQgMC0xNC4xIDBMNzMgMTAzek0yMzIgNDI5LjRjLTUwLjMtMTEtODgtNTUuOC04OC0xMDkuNGwwLTExMiAyMjQgMCAwIDExMmMwIDUzLjYtMzcuNyA5OC40LTg4IDEwOS40TDI4MCAyODBsMC0yNC00OCAwIDAgMjQgMCAxNDkuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bug.svg)
  */
 const Bug: typeof Icon = x => (
     <Icon {...x}>

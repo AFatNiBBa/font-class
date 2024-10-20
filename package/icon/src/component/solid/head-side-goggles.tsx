@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side-goggles` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-goggles?s=solid head-side-goggles}
- * @preview ![head-side-goggles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUuOSAxMjhDNzUuMyA1My4xIDE0OC4zIDAgMjMzLjcgMEwyNTYgMGMzOS4zIDAgNzUuOCAxMS44IDEwNi4yIDMyTDMwNCAzMmMtNjEuOSAwLTExMiA1MC4xLTExMiAxMTJjMCAxNy4yIDMuOSAzMy41IDEwLjggNDhMMzIuMiAxOTJsLS4yIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMTMuOSAwek0zMDQgMjU2bDIwMy4xIDBjMy4yIDYuMiA0LjkgMTMuMSA0LjkgMjAuMmMwIDI0LjItMTkuNiA0My44LTQzLjggNDMuOEw0NDggMzIwbDAgNjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTY0IDAgMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTYwIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTA0LjJjMC0xNy03LjEtMzMtMTcuNS00Ni40QzU1IDI5OS4xIDM4LjMgMjYxLjYgMzMuNSAyMjRsMTkyLjIgMGMyMC4yIDE5LjggNDcuOSAzMiA3OC40IDMyem0wLTE5MmwxMTIgMCAwIDE2MC0xMTIgMGMtNDQuMiAwLTgwLTM1LjgtODAtODBzMzUuOC04MCA4MC04MHpNNDgwIDIyNGwtMzIgMCAwLTE2MCAzMiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgOTZjMCAxNy43LTE0LjMgMzItMzIgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![head-side-goggles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/head-side-goggles.svg)
  */
 const HeadSideGoggles: typeof Icon = x => (
     <Icon {...x}>

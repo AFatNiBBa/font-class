@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `duck` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/duck?s=sharp-solid duck}
- * @preview ![duck](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMxLjUgMTI1LjlDNDI2LjUgNzMuMiAzODIgMzIgMzI4IDMyYy01Ny40IDAtMTA0IDQ2LjYtMTA0IDEwNGMwIDM2LjggMTkuMSA2OS4yIDQ4IDg3LjdsMCA0LjlMNjQgMjg4IDMyIDI1NiAwIDI1NmwwIDMyQzAgMzk0IDg2IDQ4MCAxOTIgNDgwbDEyMCAwYzcwLjcgMCAxMjgtNTcuMyAxMjgtMTI4YzAtMzYuNi0xNS40LTY5LjYtNDAtOTNsMC0zNSAxNiAwYzUzIDAgOTYtNDMgOTYtOTZsLTY0IDAtMTYuNS0yLjF6TTMyMCAxMzZhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHpNMzA4LjYgMjk1LjFsMzEuOSAxLjljLTMuMiA1NS42LTQzLjUgMTA0LjktMTAxLjUgMTE5LjNjLTUyLjQgMTMuMS0xMDUuMy01LjgtMTM2LjQtNDQuNWwyNS0yMGMyMy4yIDI4LjkgNjMuMyA0My42IDEwMy43IDMzLjVjNDQuNy0xMS4yIDc0LjktNDguOSA3Ny4zLTkwLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![duck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/duck.svg)
  */
 const Duck: typeof Icon = x => (
     <Icon {...x}>

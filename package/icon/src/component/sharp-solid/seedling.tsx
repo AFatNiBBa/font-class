@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `seedling` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seedling?s=sharp-solid seedling}
- * @preview ![seedling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDBsMCAzMmMwIDExMy42LTg0LjYgMjA3LjUtMTk0LjIgMjIyYy03LjEtNTMuNC0zMC42LTEwMS42LTY1LjMtMTM5LjNDMjkwLjggNDYuMyAzNjQgMCA0NDggMGw2NCAwek0wIDY0bDY0IDBjMTIzLjcgMCAyMjQgMTAwLjMgMjI0IDIyNGwwIDMyIDAgMTYwIDAgMzItNjQgMCAwLTMyIDAtMTYwQzEwMC4zIDMyMCAwIDIxOS43IDAgOTZMMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![seedling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/seedling.svg)
  */
 const Seedling: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kazoo` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kazoo?s=sharp-regular kazoo}
- * @preview ![kazoo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYwIDI1NmMwIDI5LjYtOC45IDU3LjEtMjQuMiA4MGw1Ni4yIDAgMC0xNjAtNTYuMiAwYzE1LjMgMjIuOSAyNC4yIDUwLjQgMjQuMiA4MHptMzIgMTI4bC0xMTAgMGMtMTkuOCAxMC4yLTQyLjIgMTYtNjYgMTZzLTQ2LjMtNS44LTY2LTE2bC0xMjYgMEwwIDMyMCAwIDE5MmwyMjQtNjQgMTI2IDBjMTkuOC0xMC4yIDQyLjItMTYgNjYtMTZzNDYuMyA1LjggNjYgMTZsMTEwIDAgNDggMCAwIDQ4IDAgMTYwIDAgNDgtNDggMHpNMjMwLjcgMzM2bDY1LjUgMGMtMTUuMy0yMi45LTI0LjItNTAuNC0yNC4yLTgwczguOS01Ny4xIDI0LjItODBsLTY1LjUgMEw0OCAyMjguMmwwIDU1LjZMMjMwLjcgMzM2ek00MTYgMzUyYTk2IDk2IDAgMSAwIDAtMTkyIDk2IDk2IDAgMSAwIDAgMTkyek0zOTguMSAyMDkuOUw0MTYgMjI3LjdsMTcuOS0xNy45TDQ0OCAxOTUuNyA0NzYuMyAyMjRsLTE0LjEgMTQuMUw0NDQuMyAyNTZsMTcuOSAxNy45TDQ3Ni4zIDI4OCA0NDggMzE2LjNsLTE0LjEtMTQuMUw0MTYgMjg0LjNsLTE3LjkgMTcuOUwzODQgMzE2LjMgMzU1LjcgMjg4bDE0LjEtMTQuMUwzODcuNyAyNTZsLTE3LjktMTcuOUwzNTUuNyAyMjQgMzg0IDE5NS43bDE0LjEgMTQuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![kazoo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/kazoo.svg)
  */
 const Kazoo: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

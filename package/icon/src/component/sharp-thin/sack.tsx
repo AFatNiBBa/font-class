@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sack` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack?s=sharp-thin sack}
- * @preview ![sack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA1IDE2bC02Mi45IDkxLjJMMzMzIDEyMC40YzQuMSAyLjYgOC42IDUuNiAxMy4zIDguOEM0MDYuOSAxNzAuOCA1MTIgMjYyLjkgNTEyIDQxNmwwIDgwIDAgMTYtMTYgMEwxNiA1MTIgMCA1MTJsMC0xNiAwLTgwQzAgMjYyLjkgMTA1LjEgMTcwLjggMTY1LjcgMTI5LjJjNC43LTMuMyA5LjItNi4yIDEzLjMtOC44bC05LjEtMTMuMkwxMDcgMTYgOTYgMGwxOS40IDBMMzk2LjYgMCA0MTYgMCA0MDUgMTZ6bTkxIDQwMGMwLTE1Ni40LTExNS44LTI0Ni40LTE3MS42LTI4Mi4xbC05LjItNS45LTExOC4zIDAtOS4yIDUuOUMxMzEuOCAxNjkuNiAxNiAyNTkuNiAxNiA0MTZsMCA4MCA0ODAgMCAwLTgwek0zMTkuMyAxMTJsLjUtLjdMMzg1LjUgMTYgMTI2LjUgMTZsNjUuNyA5NS4zIC41IC43IDEyNi43IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sack.svg)
  */
 const Sack: typeof Icon = x => (
     <Icon {...x}>

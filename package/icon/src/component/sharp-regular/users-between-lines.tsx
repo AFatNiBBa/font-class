@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users-between-lines` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-between-lines?s=sharp-regular users-between-lines}
- * @preview ![users-between-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDI0IDAgNjE2IDBsMjQgMCAwIDQ4LTI0IDBMMjQgNDggMCA0OCAwIDB6TTAgNDY0bDI0IDAgNTkyIDAgMjQgMCAwIDQ4LTI0IDBMMjQgNTEyIDAgNTEybDAtNDh6TTgzLjIgMTYwYTY0IDY0IDAgMSAxIDEyOCAwIDY0IDY0IDAgMSAxIC0xMjggMHpNNjQgMjU2bDEzOS40IDAtNy44IDIwLjhMMTY3LjQgMzUyIDMyIDM1MmwzMi05NnptNDExLjggOTZsLTI4LjItNzUuMkw0MzkuOCAyNTYgNTc2IDI1NmwzMiA5Ni0xMzIuMiAwem0tNTguMi02NGwyNCA2NCA2IDE2IDE4IDQ4LTUxLjMgMC0xODUuNSAwLTUxLjMgMCAxOC00OCA2LTE2TDIyNCAyOTIuM2wxLjYtNC4zTDQxNiAyODhsMS42IDB6bTE3LjYtMTI4YTY0IDY0IDAgMSAxIDEyOCAwIDY0IDY0IDAgMSAxIC0xMjggMHpNMzIxLjYgOTZhODAgODAgMCAxIDEgMCAxNjAgODAgODAgMCAxIDEgMC0xNjB6TTI0Ni45IDM2OGwxNDkuNSAwLTEyLTMyLTEyNS41IDAtMTIgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![users-between-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/users-between-lines.svg)
  */
 const UsersBetweenLines: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume?s=sharp-regular volume}
- * @preview ![volume](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkxLjkgMzE2LjFMMTc4LjIgMzA0IDE2MCAzMDRsLTgwIDAgMC05NiA4MCAwIDE4LjIgMCAxMy42LTEyLjFMMzA0IDk2LjJsMCAzMTkuNkwxOTEuOSAzMTYuMXpNMzIgMzUybDQ4IDAgODAgMEwzMDQgNDgwbDQ4IDAgMC00OCAwLTM1MiAwLTQ4LTQ4IDBMMTYwIDE2MGwtODAgMC00OCAwIDAgNDggMCA5NiAwIDQ4em00MDkuNi0xOS4yQzQ2NC45IDMxNS4zIDQ4MCAyODcuNCA0ODAgMjU2cy0xNS4xLTU5LjMtMzguNC03Ni44bC0yOC44IDM4LjRjMTEuNyA4LjggMTkuMiAyMi43IDE5LjIgMzguNHMtNy41IDI5LjYtMTkuMiAzOC40bDI4LjggMzguNHptNTcuNiA3Ni44YzQ2LjYtMzUgNzYuOC05MC44IDc2LjgtMTUzLjZzLTMwLjItMTE4LjYtNzYuOC0xNTMuNmwtMjguOCAzOC40YzM1IDI2LjMgNTcuNiA2OC4xIDU3LjYgMTE1LjJzLTIyLjYgODguOS01Ny42IDExNS4ybDI4LjggMzguNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![volume](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/volume.svg)
  */
 const Volume: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `drumstick-bite` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drumstick-bite?s=solid drumstick-bite}
- * @preview ![drumstick-bite](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDI2NS4yYzAgOC41LTMuNCAxNi42LTkuNCAyMi42bC0yNi44IDI2LjhjLTEyLjMgMTIuMy0zMi41IDExLjQtNDkuNCA3LjJDNjkuOCAzMjAuNiA2NSAzMjAgNjAgMzIwYy0zMy4xIDAtNjAgMjYuOS02MCA2MHMyNi45IDYwIDYwIDYwYzYuMyAwIDEyIDUuNyAxMiAxMmMwIDMzLjEgMjYuOSA2MCA2MCA2MHM2MC0yNi45IDYwLTYwYzAtNS0uNi05LjgtMS44LTE0LjVjLTQuMi0xNi45LTUuMi0zNy4xIDcuMi00OS40bDI2LjgtMjYuOGM2LTYgMTQuMS05LjQgMjIuNi05LjRsODkuMiAwYzYuMyAwIDEyLjQtLjMgMTguNS0xYzExLjktMS4yIDE2LjQtMTUuNSAxMC44LTI2Yy04LjUtMTUuOC0xMy4zLTMzLjgtMTMuMy01M2MwLTYxLjkgNTAuMS0xMTIgMTEyLTExMmM4IDAgMTUuNyAuOCAyMy4yIDIuNGMxMS43IDIuNSAyNC4xLTUuOSAyMi0xNy42QzQ5NC41IDYyLjUgNDIyLjUgMCAzMzYgMEMyMzguOCAwIDE2MCA3OC44IDE2MCAxNzZsMCA4OS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![drumstick-bite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/drumstick-bite.svg)
  */
 const DrumstickBite: typeof Icon = x => (
     <Icon {...x}>

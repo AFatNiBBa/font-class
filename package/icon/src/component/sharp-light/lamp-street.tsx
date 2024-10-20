@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lamp-street` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp-street?s=sharp-light lamp-street}
- * @preview ![lamp-street](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTY4QzMyIDkyLjkgOTIuOSAzMiAxNjggMzJjNzIuNyAwIDEzMiA1NyAxMzUuOCAxMjguN0MyMTYgMTY4IDE0NSAyMzQuNCAxMzAuNyAzMjBjLTEuNyAxMC40LTIuNyAyMS4xLTIuNyAzMmwzMiAwIDMyMCAwIDMyIDBjMC0xMC45LS45LTIxLjYtMi43LTMyQzQ5NSAyMzQuMyA0MjMuOCAxNjcuOCAzMzUuOCAxNjAuNkMzMzIgNzEuMyAyNTguMyAwIDE2OCAwQzc1LjIgMCAwIDc1LjIgMCAxNjhMMCA0OTZsMCAxNiAzMiAwIDAtMTYgMC0zMjh6bTI4OCAyNGM3Ny40IDAgMTQyIDU1IDE1Ni44IDEyOGwtMzEzLjYgMEMxNzggMjQ3IDI0Mi42IDE5MiAzMjAgMTkyek0yNDEuNiAzODRjNy40IDM2LjUgMzkuNyA2NCA3OC40IDY0czcxLTI3LjUgNzguNC02NGwtMzMuMSAwYy02LjYgMTguNi0yNC40IDMyLTQ1LjMgMzJzLTM4LjctMTMuNC00NS4zLTMybC0zMy4xIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lamp-street](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lamp-street.svg)
  */
 const LampStreet: typeof Icon = x => (
     <Icon {...x}>

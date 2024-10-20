@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `fan` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fan?s=duotone fan}
- * @preview ![fan](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1My40YzAgMS43IC4xIDMuNCAuNSA1LjFDMTcgMzQ0IDEwMi4zIDM5Ni40IDE4OS4zIDM4MS41YzE3LTIuOSAzMi45LTguNCA0Ny40LTE1LjlMMjI0IDQ4MGwwIDIuNmMwIDE2LjIgMTMuMiAyOS40IDI5LjQgMjkuNGMxLjcgMCAzLjQtLjEgNS4xLS41QzM0NCA0OTUgMzk2LjQgNDA5LjcgMzgxLjUgMzIyLjdjLTIuOS0xNy04LjQtMzIuOS0xNS45LTQ3LjRMNDgwIDI4OGwyLjYgMGMxNi4yIDAgMjkuNC0xMy4yIDI5LjQtMjkuNGMwLTEuNy0uMS0zLjQtLjUtNS4xQzQ5NSAxNjggNDA5LjcgMTE1LjYgMzIyLjcgMTMwLjVjLTE3IDIuOS0zMi45IDguNC00Ny40IDE1LjlMMjg4IDMybDAtMi42QzI4OCAxMy4yIDI3NC44IDAgMjU4LjYgMGMtMS43IDAtMy40IC4xLTUuMSAuNUMxNjggMTcgMTE1LjYgMTAyLjMgMTMwLjUgMTg5LjNjMi45IDE3IDguNCAzMi45IDE1LjkgNDcuNEwzMiAyMjRsLTIuNiAwQzEzLjIgMjI0IDAgMjM3LjIgMCAyNTMuNHpNMjg4IDI1NmEzMiAzMiAwIDEgMSAtNjQgMCAzMiAzMiAwIDEgMSA2NCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjU2IDIyNGEzMiAzMiAwIDEgMCAwIDY0IDMyIDMyIDAgMSAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/fan.svg)
  */
 const Fan: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 253.4c0 1.7 .1 3.4 .5 5.1C17 344 102.3 396.4 189.3 381.5c17-2.9 32.9-8.4 47.4-15.9L224 480l0 2.6c0 16.2 13.2 29.4 29.4 29.4c1.7 0 3.4-.1 5.1-.5C344 495 396.4 409.7 381.5 322.7c-2.9-17-8.4-32.9-15.9-47.4L480 288l2.6 0c16.2 0 29.4-13.2 29.4-29.4c0-1.7-.1-3.4-.5-5.1C495 168 409.7 115.6 322.7 130.5c-17 2.9-32.9 8.4-47.4 15.9L288 32l0-2.6C288 13.2 274.8 0 258.6 0c-1.7 0-3.4 .1-5.1 .5C168 17 115.6 102.3 130.5 189.3c2.9 17 8.4 32.9 15.9 47.4L32 224l-2.6 0C13.2 224 0 237.2 0 253.4zM288 256a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-            <path d="M256 224a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
+        <path d="M256 224a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
     </Icon>
 );
 

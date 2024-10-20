@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `floppy-disks` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disks?s=light floppy-disks}
- * @preview ![floppy-disks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDM1MmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwyODggMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTIxMy41YzAtOC41LTMuNC0xNi42LTkuNC0yMi42TDM5Ni4xIDQxLjRjLTMuNC0zLjQtNy42LTYtMTIuMS03LjZsMCA3OC4yYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xNjAgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC04MGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAyODh6TTM1MiAzMkwxOTIgMzJsMCA4MCAxNjAgMCAwLTgwek0xOTIgMEwzNzMuNSAwYzE3IDAgMzMuMyA2LjcgNDUuMyAxOC43bDc0LjUgNzQuNWMxMiAxMiAxOC43IDI4LjMgMTguNyA0NS4zTDUxMiAzNTJjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTI4OCAwYy0zNS4zIDAtNjQtMjguNy02NC02NEw5NiA2NGMwLTM1LjMgMjguNy02NCA2NC02NGwzMiAwek0zMiAxMTJsMCAyNTZjMCA2MS45IDUwLjEgMTEyIDExMiAxMTJsMjU2IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTI1NiAwQzY0LjUgNTEyIDAgNDQ3LjUgMCAzNjhMMCAxMTJjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNnpNMjk2IDMwNGE0MCA0MCAwIDEgMCAwLTgwIDQwIDQwIDAgMSAwIDAgODB6bTAtMTEyYTcyIDcyIDAgMSAxIDAgMTQ0IDcyIDcyIDAgMSAxIDAtMTQ0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![floppy-disks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/floppy-disks.svg)
  */
 const FloppyDisks: typeof Icon = x => (
     <Icon {...x}>

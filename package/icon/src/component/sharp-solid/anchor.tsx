@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `anchor` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor?s=sharp-solid anchor}
- * @preview ![anchor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDk2YTMyIDMyIDAgMSAxIC02NCAwIDMyIDMyIDAgMSAxIDY0IDB6bTIxLjEgODBDMzY3IDE1OC44IDM4NCAxMjkuNCAzODQgOTZjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZjMCAzMy40IDE3IDYyLjggNDIuOSA4MEwyMjQgMTc2bC0zMiAwIDAgNjQgMzIgMCAzMiAwIDAgMjA4LTEyOCAwIDAtOTYgNjQgMEw5NiAyNTYgMCAzNTJsNjQgMCAwIDEyOCAwIDMyIDMyIDAgMTkyIDAgMTkyIDAgMzIgMCAwLTMyIDAtMTI4IDY0IDAtOTYtOTYtOTYgOTYgNjQgMCAwIDk2LTEyOCAwIDAtMjA4IDMyIDAgMzIgMCAwLTY0LTMyIDAtMTAuOSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![anchor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/anchor.svg)
  */
 const Anchor: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

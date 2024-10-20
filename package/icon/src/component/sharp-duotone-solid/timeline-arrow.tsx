@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `timeline-arrow` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timeline-arrow?s=sharp-duotone-solid timeline-arrow}
- * @preview ![timeline-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIyNGwwIDY0IDMyIDAgMTYwIDAgMCA0OCA4IDAgNDggMCA4IDAgMC00OCAyNTguNyAwLTMzLjQgMzMuNEw0NTguNyAzNDQgNTA0IDM4OS4zbDIyLjYtMjIuNiA4OC04OEw2MzcuMyAyNTZsLTIyLjYtMjIuNi04OC04OEw1MDQgMTIyLjcgNDU4LjcgMTY4bDIyLjYgMjIuNkw1MTQuNyAyMjQgMzg0IDIyNGwwLTQ4LTggMC00OCAwLTggMCAwIDQ4LTE2MCAwIDAtNDgtOCAwLTQ4IDAtOCAwIDAgNDgtNjQgMEwwIDIyNHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTE1MiA3MmwwIDQ4LTQ4IDAgMC00OCA0OCAwek0xMDQgMTZMNDggMTZsMCA1NiAwIDQ4IDAgNTYgNTYgMCA0OCAwIDU2IDAgMC01NiAwLTQ4IDAtNTYtNTYgMC00OCAwek0zNzYgNzJsMCA0OC00OCAwIDAtNDggNDggMHpNMzI4IDE2bC01NiAwIDAgNTYgMCA0OCAwIDU2IDU2IDAgNDggMCA1NiAwIDAtNTYgMC00OCAwLTU2LTU2IDAtNDggMHpNMjAwIDM5Mmw0OCAwIDAgNDgtNDggMCAwLTQ4em0tNTYtNTZsMCA1NiAwIDQ4IDAgNTYgNTYgMCA0OCAwIDU2IDAgMC01NiAwLTQ4IDAtNTYtNTYgMC00OCAwLTU2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![timeline-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/timeline-arrow.svg)
  */
 const TimelineArrow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 224l0 64 32 0 160 0 0 48 8 0 48 0 8 0 0-48 258.7 0-33.4 33.4L458.7 344 504 389.3l22.6-22.6 88-88L637.3 256l-22.6-22.6-88-88L504 122.7 458.7 168l22.6 22.6L514.7 224 384 224l0-48-8 0-48 0-8 0 0 48-160 0 0-48-8 0-48 0-8 0 0 48-64 0L0 224z" />
-            <path d="M152 72l0 48-48 0 0-48 48 0zM104 16L48 16l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0zM376 72l0 48-48 0 0-48 48 0zM328 16l-56 0 0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0zM200 392l48 0 0 48-48 0 0-48zm-56-56l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0-56 0z" />
+        <path d="M152 72l0 48-48 0 0-48 48 0zM104 16L48 16l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0zM376 72l0 48-48 0 0-48 48 0zM328 16l-56 0 0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0zM200 392l48 0 0 48-48 0 0-48zm-56-56l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0-56 0z" />
     </Icon>
 );
 

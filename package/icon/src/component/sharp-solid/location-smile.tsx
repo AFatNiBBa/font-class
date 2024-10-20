@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-smile` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-smile?s=sharp-solid location-smile}
- * @preview ![location-smile](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDUxMnMxOTItMjA4IDE5Mi0zMjBDMzg0IDg2IDI5OCAwIDE5MiAwUzAgODYgMCAxOTJDMCAzMDQgMTkyIDUxMiAxOTIgNTEyek0xMjggMTI4YTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptOTYgMzJhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHpNOTUuNCAyNjcuMWwzMy4zLTIyLjJjNi4yIDkuNCAyOS4xIDMxLjEgNjMuNCAzMS4xczU3LjEtMjEuNyA2My40LTMxLjFsMzMuMyAyMi4yQzI3Ny4xIDI4NC40IDI0My4xIDMxNiAxOTIgMzE2cy04NS4xLTMxLjYtOTYuNi00OC45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![location-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/location-smile.svg)
  */
 const LocationSmile: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

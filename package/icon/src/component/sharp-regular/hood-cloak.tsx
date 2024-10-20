@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hood-cloak` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hood-cloak?s=sharp-regular hood-cloak}
- * @preview ![hood-cloak](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0NjRsNjQtODAgMC05NkM2NCAxMjggMTYwIDAgMjg4IDBMNDEyLjEgMCA0ODAgMCA0NDEuNiAzOC40IDQzMiA0OCA0MDcuMiA3Mi44YzEzLjIgOSAyNS41IDE5LjQgMzYuNyAzMS4yQzQ4NS42IDE0Ny44IDUxMiAyMTAuNCA1MTIgMjg4bDAgOTYgNjQgODAgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4ek0yODggNDhjLTkwLjUgMC0xNzYgOTQtMTc2IDI0MGwwIDk2IDAgMTYuOEwxMDEuNSA0MTRsLTQwIDUwIDk4LjUgMCAwLTEyOGMwLTcwLjcgNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4bDAgMTI4IDk4LjUgMC00MC01MEw0NjQgNDAwLjhsMC0xNi44IDAtOTZjMC04My43LTM1LjUtMTQyLjYtODMuOC0xNzUuNUwzMzIuMyA3OS45IDM2NC4xIDQ4IDI4OCA0OHpNMjA4IDQ2NGwxNjAgMCAwLTEyOGMwLTQ0LjItMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MGwwIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hood-cloak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hood-cloak.svg)
  */
 const HoodCloak: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

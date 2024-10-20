@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `seal-question` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seal-question?s=sharp-solid seal-question}
- * @preview ![seal-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBsNzUgNzUgMTA2IDAgMCAxMDYgNzUgNzUtNzUgNzUgMCAxMDYtMTA2IDAtNzUgNzUtNzUtNzVMNzUgNDM3bDAtMTA2TDAgMjU2bDc1LTc1TDc1IDc1bDEwNiAwTDI1NiAwek0xNjggMTg0bDAgNi41IDQ4IDAgMC02LjVjMC00LjQgMy42LTggOC04bDU2LjkgMGM4LjQgMCAxNS4xIDYuOCAxNS4xIDE1LjFjMCA1LjQtMi45IDEwLjQtNy42IDEzLjFsLTQ0LjMgMjUuNEwyMzIgMjM2LjZsMCAxMy45IDAgMjEuNSAwIDI0IDQ4IDAgMC0yNCAwLTcuNiAzMi4zLTE4LjVjMTIuNC03LjEgMjEuNy0xOCAyNy0zMC44bDQuNyAwIDAtMjRjMC0zNC45LTI4LjMtNjMuMS02My4xLTYzLjFMMjI0IDEyOGMtMzAuOSAwLTU2IDI1LjEtNTYgNTZ6bTY0IDE1MmwwIDQ4IDQ4IDAgMC00OC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![seal-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/seal-question.svg)
  */
 const SealQuestion: typeof Icon = x => (
     <Icon {...x}>

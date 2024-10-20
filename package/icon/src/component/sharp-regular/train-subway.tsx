@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `train-subway` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-subway?s=sharp-regular train-subway}
- * @preview ![train-subway](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMCAxNjAgMTUyIDAgMC0xNjBMNDggNDh6TTI0OCAyMDhsMTUyIDAgMC0xNjBMMjQ4IDQ4bDAgMTYwek00OCAyNTZsMCAxNDQgMzUyIDAgMC0xNDRMNDggMjU2ek0wIDBMNDggMCA0MDAgMGw0OCAwIDAgNDggMCAzNTIgMCA0OC00OCAwLTE0LjEgMCA0NyA0NyAxNyAxNy02Ny45IDAtNjQtNjQtMTg4LjEgMC02NCA2NC02Ny45IDAgMTctMTcgNDctNDdMNDggNDQ4IDAgNDQ4bDAtNDhMMCA0OCAwIDB6TTk2IDMyMGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0yMjQtMzJhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![train-subway](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/train-subway.svg)
  */
 const TrainSubway: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

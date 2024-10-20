@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-down?s=solid square-down}
- * @preview ![square-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDgwYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDMyMCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MHptMTcxLjMtODQuN2wxMTItMTEyYzQuNi00LjYgNS45LTExLjUgMy41LTE3LjRzLTguMy05LjktMTQuOC05LjlsLTY0IDAgMC05NmMwLTE3LjctMTQuMy0zMi0zMi0zMmwtMzIgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA5Ni02NCAwYy02LjUgMC0xMi4zIDMuOS0xNC44IDkuOXMtMS4xIDEyLjkgMy41IDE3LjRsMTEyIDExMmM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-down.svg)
  */
 const SquareDown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

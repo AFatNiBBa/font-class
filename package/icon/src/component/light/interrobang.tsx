@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `interrobang` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/interrobang?s=light interrobang}
- * @preview ![interrobang](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTYwYzAtNTMgNDMtOTYgOTYtOTZsMzIgMGM1MyAwIDk2IDQzIDk2IDk2YzAgMjUuMi0xMS45IDQ4LjktMzIgNjRsLTYwLjggNDUuNmMtMS4xIC44LTIuMiAxLjctMy4yIDIuNUwxNzYgMTYwYzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTgwIDAgNCAwIDhjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTggMC00YzAtMTcuNiA4LjMtMzQuMiAyMi40LTQ0LjhsNjAuOC00NS42QzI4Ny40IDIyOC40IDMwNCAxOTUuMyAzMDQgMTYwYzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4bC0zMiAwQzczLjMgMzIgMTYgODkuMyAxNiAxNjBjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNnpNMTYwIDQ3MmEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![interrobang](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/interrobang.svg)
  */
 const Interrobang: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

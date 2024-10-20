@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `intercom` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/intercom?s=brands intercom}
- * @preview ![intercom](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkyIDMySDU2QzI1LjEgMzIgMCA1Ny4xIDAgODh2MzM2YzAgMzAuOSAyNS4xIDU2IDU2IDU2aDMzNmMzMC45IDAgNTYtMjUuMSA1Ni01NlY4OGMwLTMwLjktMjUuMS01Ni01Ni01NnptLTEwOC4zIDgyLjFjMC0xOS44IDI5LjktMTkuOCAyOS45IDB2MTk5LjVjMCAxOS44LTI5LjkgMTkuOC0yOS45IDBWMTE0LjF6bS03NC42LTcuNWMwLTE5LjggMjkuOS0xOS44IDI5LjkgMHYyMTYuNWMwIDE5LjgtMjkuOSAxOS44LTI5LjkgMFYxMDYuNnptLTc0LjcgNy41YzAtMTkuOCAyOS45LTE5LjggMjkuOSAwdjE5OS41YzAgMTkuOC0yOS45IDE5LjgtMjkuOSAwVjExNC4xek01OS43IDE0NGMwLTE5LjggMjkuOS0xOS44IDI5LjkgMHYxMzQuM2MwIDE5LjgtMjkuOSAxOS44LTI5LjkgMFYxNDR6bTMyMy40IDIyNy44Yy03Mi44IDYzLTI0MS43IDY1LjQtMzE4LjEgMC0xNS0xMi44IDQuNC0zNS41IDE5LjQtMjIuNyA2NS45IDU1LjMgMjE2LjEgNTMuOSAyNzkuMyAwIDE0LjktMTIuOSAzNC4zIDkuOCAxOS40IDIyLjd6bTUuMi05My41YzAgMTkuOC0yOS45IDE5LjgtMjkuOSAwVjE0NGMwLTE5LjggMjkuOS0xOS44IDI5LjkgMHYxMzQuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![intercom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/intercom.svg)
  */
 const Intercom: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

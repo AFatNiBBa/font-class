@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `angel` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angel?s=sharp-duotone-solid angel}
- * @preview ![angel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE2MEwwIDI4MGw0OCA3MkwwIDQ1NmwwIDU2IDk2IDBMMjI0IDI1NmwyNCAwLTk2LTk2TDAgMTYwek0xNjAgNjRjMCAxNCA5IDI3IDI0LjMgMzcuNWM0LjEtMTAgOS42LTE5LjMgMTYuMy0yNy43Yy0yLjctMi00LjgtNC02LjItNS42Yy0xLjQtMS43LTItMi44LTIuMy0zLjVjLS4xLS4zLS4yLS41LS4yLS42YzAtLjIgMC0uMyAwLS4zcy4xLS4zIC4yLS42Yy4zLS42IC45LTEuOCAyLjMtMy41YzIuOS0zLjUgOC40LTcuOSAxNy4zLTEyLjRDMjI5LjYgMzguNCAyNTYuNSAzMiAyODggMzJzNTguNCA2LjQgNzYuMiAxNS40YzguOSA0LjUgMTQuNCA4LjkgMTcuMyAxMi40YzEuNCAxLjcgMiAyLjggMi4zIDMuNWMuMSAuMyAuMiAuNSAuMiAuNmMwIC4yIDAgLjMgMCAuM3MtLjEgLjMtLjIgLjZjLS4zIC42LS45IDEuOC0yLjMgMy41Yy0xLjQgMS43LTMuNCAzLjYtNi4yIDUuNmM2LjcgOC4zIDEyLjIgMTcuNiAxNi4zIDI3LjdDNDA3IDkxIDQxNiA3OCA0MTYgNjRjMC0zNS4zLTU3LjMtNjQtMTI4LTY0UzE2MCAyOC43IDE2MCA2NHpNMzI4IDI1NmwyNCAwTDQ4MCA1MTJsOTYgMCAwLTU2TDUyOCAzNTJsNDgtNzIgMC0xMjAtMTUyIDAtOTYgOTZ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yODggNjRhODAgODAgMCAxIDEgMCAxNjAgODAgODAgMCAxIDEgMC0xNjB6TTk2IDUxMkwyMjQgMjU2bDEyOCAwTDQ4MCA1MTIgOTYgNTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![angel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/angel.svg)
  */
 const Angel: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 160L0 280l48 72L0 456l0 56 96 0L224 256l24 0-96-96L0 160zM160 64c0 14 9 27 24.3 37.5c4.1-10 9.6-19.3 16.3-27.7c-2.7-2-4.8-4-6.2-5.6c-1.4-1.7-2-2.8-2.3-3.5c-.1-.3-.2-.5-.2-.6c0-.2 0-.3 0-.3s.1-.3 .2-.6c.3-.6 .9-1.8 2.3-3.5c2.9-3.5 8.4-7.9 17.3-12.4C229.6 38.4 256.5 32 288 32s58.4 6.4 76.2 15.4c8.9 4.5 14.4 8.9 17.3 12.4c1.4 1.7 2 2.8 2.3 3.5c.1 .3 .2 .5 .2 .6c0 .2 0 .3 0 .3s-.1 .3-.2 .6c-.3 .6-.9 1.8-2.3 3.5c-1.4 1.7-3.4 3.6-6.2 5.6c6.7 8.3 12.2 17.6 16.3 27.7C407 91 416 78 416 64c0-35.3-57.3-64-128-64S160 28.7 160 64zM328 256l24 0L480 512l96 0 0-56L528 352l48-72 0-120-152 0-96 96z" />
-            <path d="M288 64a80 80 0 1 1 0 160 80 80 0 1 1 0-160zM96 512L224 256l128 0L480 512 96 512z" />
+        <path d="M288 64a80 80 0 1 1 0 160 80 80 0 1 1 0-160zM96 512L224 256l128 0L480 512 96 512z" />
     </Icon>
 );
 

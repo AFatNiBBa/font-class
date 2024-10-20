@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-up?s=light turn-up}
- * @preview ![turn-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDE2MGwtNTcuMyAwYy0zLjcgMC02LjctMy02LjctNi43YzAtMS45IC44LTMuNyAyLjItNUwxOTIgMzUuOCAzMTcuOCAxNDguM2MxLjQgMS4zIDIuMiAzLjEgMi4yIDVjMCAzLjctMyA2LjctNi43IDYuN0wyNTYgMTYwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE3NmMwIDYxLjktNTAuMSAxMTItMTEyIDExMmwtNjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMzJjMC04LjggNy4yLTE2IDE2LTE2bDY0IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNzZjMC0xNy43LTE0LjMtMzItMzItMzJ6TTIwNiA1LjNDMjAyLjEgMS45IDE5Ny4yIDAgMTkyIDBzLTEwLjEgMS45LTE0IDUuM0w0NC45IDEyNC41QzM2LjcgMTMxLjggMzIgMTQyLjMgMzIgMTUzLjNDMzIgMTc0LjcgNDkuMyAxOTIgNzAuNyAxOTJMOTYgMTkybDMyIDAgMCAzMiAwIDE0NGMwIDguOC03LjIgMTYtMTYgMTZsLTY0IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMzJjMCAyNi41IDIxLjUgNDggNDggNDhsNjQgMGM3OS41IDAgMTQ0LTY0LjUgMTQ0LTE0NGwwLTE0NCAwLTMyIDMyIDAgMjUuMyAwYzIxLjQgMCAzOC43LTE3LjMgMzguNy0zOC43YzAtMTEtNC43LTIxLjUtMTIuOS0yOC44TDIwNiA1LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![turn-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/turn-up.svg)
  */
 const TurnUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

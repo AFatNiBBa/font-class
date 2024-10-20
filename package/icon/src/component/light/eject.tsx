@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eject` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eject?s=light eject}
- * @preview ![eject](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDk2Yy00LjUgMC04LjggMS45LTExLjggNS4ybC0xNzYgMTkyYy00LjMgNC43LTUuNCAxMS40LTIuOSAxNy4zczguMyA5LjYgMTQuNiA5LjZsMzUyIDBjNi4zIDAgMTIuMS0zLjcgMTQuNi05LjZzMS40LTEyLjYtMi45LTE3LjNsLTE3Ni0xOTJjLTMtMy4zLTcuMy01LjItMTEuOC01LjJ6bTAtMzJjMTMuNSAwIDI2LjMgNS42IDM1LjQgMTUuNmwxNzYgMTkyYzEyLjkgMTQgMTYuMiAzNC4zIDguNiA1MS44UzQxOSAzNTIgNDAwIDM1Mkw0OCAzNTJjLTE5IDAtMzYuMy0xMS4yLTQzLjktMjguN3MtNC4zLTM3LjcgOC42LTUxLjhsMTc2LTE5MkMxOTcuNyA2OS42IDIxMC41IDY0IDIyNCA2NHpNMTYgNDE2bDQxNiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2TDE2IDQ0OGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![eject](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/eject.svg)
  */
 const Eject: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

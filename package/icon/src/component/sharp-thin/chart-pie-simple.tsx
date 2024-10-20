@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-pie-simple` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pie-simple?s=sharp-thin chart-pie-simple}
- * @preview ![chart-pie-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDIzOC45bDAgMS4xLTIyNCAwIDAtMjI0IDEuMSAwQzM5Ni4yIDE2IDQ5NiAxMTUuOCA0OTYgMjM4Ljl6TTI3My4xIDBjLTUuNyAwLTExLjQgLjItMTcuMSAuNkwyNTYgMjQwbDAgMTYgMTYgMCAyMzkuNCAwYy40LTUuNiAuNi0xMS4zIC42LTE3LjFDNTEyIDEwNyA0MDUgMCAyNzMuMSAwek0yMDggMjg4bDAgMTYgMTYgMCAyMzcuNyAwQzQ0Ni4yIDQxMi41IDM1Mi44IDQ5NiAyNDAgNDk2QzExNi4zIDQ5NiAxNiAzOTUuNyAxNiAyNzJDMTYgMTU5LjIgOTkuNSA2NS44IDIwOCA1MC4zTDIwOCAyODh6bTI3MS41IDBsLTE2IDBMMjQwIDI4OGwtMTYgMCAwLTE2IDAtMjIzLjQgMC0xNmMtNS40IC40LTEwLjcgLjktMTYgMS42QzkwLjYgNDkuOCAwIDE1MC4zIDAgMjcyQzAgNDA0LjUgMTA3LjUgNTEyIDI0MCA1MTJjMTIxLjcgMCAyMjIuMi05MC42IDIzNy45LTIwOGMuNy01LjMgMS4yLTEwLjYgMS42LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-pie-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chart-pie-simple.svg)
  */
 const ChartPieSimple: typeof Icon = x => (
     <Icon {...x}>

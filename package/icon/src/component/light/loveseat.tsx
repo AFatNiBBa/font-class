@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `loveseat` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/loveseat?s=light loveseat}
- * @preview ![loveseat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDY0YzUzIDAgOTYgNDMgOTYgOTZsMCAzNy41YzEwLTMuNSAyMC44LTUuNSAzMi01LjVsMC0zMmMwLTcwLjctNTcuMy0xMjgtMTI4LTEyOEwxOTIgMzJDMTIxLjMgMzIgNjQgODkuMyA2NCAxNjBsMCAzMmMxMS4yIDAgMjIgMS45IDMyIDUuNUw5NiAxNjBjMC01MyA0My05NiA5Ni05NmwxMjggMHpNOTYgMzIwbDAgOTYgMCAxNmMwIDguOC03LjIgMTYtMTYgMTZsLTMyIDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTE0NGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMybDAgMzJ6TTgwIDQ4MGMyMC45IDAgMzguNy0xMy40IDQ1LjMtMzJsMjYxLjUgMGM2LjYgMTguNiAyNC40IDMyIDQ1LjMgMzJsMzIgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTE0NGMwLTM1LjMtMjguNy02NC02NC02NHMtNjQgMjguNy02NCA2NGwtMjU2IDBjMC0zNS4zLTI4LjctNjQtNjQtNjRzLTY0IDI4LjctNjQgNjRMMCA0MzJjMCAyNi41IDIxLjUgNDggNDggNDhsMzIgMHptNDgtNjRsMC05NiAyNTYgMCAwIDk2LTI1NiAwem0yODggMTZsMC0xNiAwLTk2IDAtMzJjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDE0NGMwIDguOC03LjIgMTYtMTYgMTZsLTMyIDBjLTguOCAwLTE2LTcuMi0xNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![loveseat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/loveseat.svg)
  */
 const Loveseat: typeof Icon = x => (
     <Icon {...x}>

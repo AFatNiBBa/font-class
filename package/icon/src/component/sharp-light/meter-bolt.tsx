@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meter-bolt` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-bolt?s=sharp-light meter-bolt}
- * @preview ![meter-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NmMwIDEuNCAwIDIuOCAwIDQuMmwzMC43LTMwLjdDNDk3LjQgMTAwLjYgMzg4LjQgMCAyNTYgMEMxMTQuNiAwIDAgMTE0LjYgMCAyNTZTMTE0LjYgNTEyIDI1NiA1MTJjNzIuNCAwIDEzNy45LTMwLjEgMTg0LjQtNzguNWwuMi0xLjUtNDYuMSAwYy0zOC4xIDMwLjEtODYuMyA0OC0xMzguNiA0OEMxMzIuMyA0ODAgMzIgMzc5LjcgMzIgMjU2UzEzMi4zIDMyIDI1NiAzMnMyMjQgMTAwLjMgMjI0IDIyNHpNMTc2IDE0NGwwLTE2LTMyIDAgMCAxNiAwIDY0IDAgMTYgMzIgMCAwLTE2IDAtNjR6bTk2IDBsMC0xNi0zMiAwIDAgMTYgMCA2NCAwIDE2IDMyIDAgMC0xNiAwLTY0em05NiAwbDAtMTYtMzIgMCAwIDE2IDAgNjQgMCAxNiAzMiAwIDAtMTYgMC02NHptMjAwIDgwbC02LjYgMC00LjcgNC43LTEzNiAxMzYtNC43IDQuNyAwIDYuNiAwIDggMCAxNiAxNiAwIDQ1LjYgMC0xMy40IDkzLjdMNDYxLjYgNTEybDE4LjQgMCA4IDAgNi42IDAgNC43LTQuNyAxMzYtMTM2IDQuNy00LjcgMC02LjYgMC04IDAtMTYtMTYgMC00NS42IDAgMTMuNC05My43IDIuNi0xOC4zTDU3NiAyMjRsLTggMHpNNDYyLjYgMzY4bDkyLjEtOTIuMS0xMC41IDczLjhMNTQxLjYgMzY4bDE4LjQgMCAzMy40IDAtOTIuMSA5Mi4xIDEwLjUtNzMuOCAyLjYtMTguM0w0OTYgMzY4bC0zMy40IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![meter-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/meter-bolt.svg)
  */
 const MeterBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

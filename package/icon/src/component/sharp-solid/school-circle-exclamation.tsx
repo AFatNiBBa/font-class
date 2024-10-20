@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `school-circle-exclamation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school-circle-exclamation?s=sharp-solid school-circle-exclamation}
- * @preview ![school-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDk2bDAgMTcwLjhDNjA4LjEgMjIxLjYgNTU1LjUgMTkyIDQ5NiAxOTJjLTM4LjUgMC03NC4yIDEyLjQtMTAzLjEgMzMuNGM5LjYtMTQuMSAxNS4xLTMxLjEgMTUuMS00OS40YzAtNDguNi0zOS40LTg4LTg4LTg4cy04OCAzOS40LTg4IDg4czM5LjQgODggODggODhjMTUuNiAwIDMwLjItNCA0Mi45LTExLjFjLTIzLjQgMjcuMS0zOC44IDYxLjQtNDIuMiA5OS4xbC0uNyAwYy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDk2TDAgNTEyIDAgOTZsMTYwIDBMMzIwIDAgNDgwIDk2bDE2MCAwek0xNDQgMTkybC02NCAwIDAgOTYgNjQgMCAwLTk2em0wIDEyOGwtNjQgMCAwIDk2IDY0IDAgMC05NnpNMzM2IDEyOGwwIDE2IDAgMTYgMTYgMCAxNiAwIDAgMzItMTYgMC0zMiAwLTE2IDAgMC0xNiAwLTMyIDAtMTYgMzIgMHptMTYwIDk2YTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptMTYgMjI0bDAtMzItMzIgMCAwIDMyIDMyIDB6bTAtMTc2bC0zMiAwIDAgMTYgMCA4MCAwIDE2IDMyIDAgMC0xNiAwLTgwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![school-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/school-circle-exclamation.svg)
  */
 const SchoolCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

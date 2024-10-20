@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `00` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/00?s=regular 00}
- * @preview ![00](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDMyQzY0LjUgMzIgMCA5Ni41IDAgMTc2TDAgMzM2YzAgNzkuNSA2NC41IDE0NCAxNDQgMTQ0czE0NC02NC41IDE0NC0xNDRsMC0xNjBjMC03OS41LTY0LjUtMTQ0LTE0NC0xNDR6TTQ4IDE3NmMwLTUzIDQzLTk2IDk2LTk2czk2IDQzIDk2IDk2bDAgMTYwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2bDAtMTYwek00OTYgMzJjLTc5LjUgMC0xNDQgNjQuNS0xNDQgMTQ0bDAgMTYwYzAgNzkuNSA2NC41IDE0NCAxNDQgMTQ0czE0NC02NC41IDE0NC0xNDRsMC0xNjBjMC03OS41LTY0LjUtMTQ0LTE0NC0xNDR6TTQwMCAxNzZjMC01MyA0My05NiA5Ni05NnM5NiA0MyA5NiA5NmwwIDE2MGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![00](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/00.svg)
  */
 const $00: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

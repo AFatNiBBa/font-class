@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cubes-stacked` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cubes-stacked?s=sharp-thin cubes-stacked}
- * @preview ![cubes-stacked](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDQ4bC05NiAwIDAgOTYgOTYgMCAwLTk2ek0yMDggMzJsOTYgMCAxNiAwIDAgMTYgMCA5NiAwIDE2LTE2IDAtOTYgMC0xNiAwIDAtMTYgMC05NiAwLTE2IDE2IDB6TTc2LjggMjI4LjhsNDggODMuMUwyMDggMjY0bC00OC04My4xLTgzLjEgNDh6TTU1IDIyM2wxMy45LThMMTUyIDE2N2wxMy45LTggOCAxMy45IDQ4IDgzLjEgOCAxMy45LTEzLjkgOC04My4xIDQ4LTEzLjkgOEwxMTEgMzIwIDYzIDIzNi44IDU1IDIyM3ptMzEzLTE1bC05NiAwIDAgOTYgOTYgMCAwLTk2ek0yNTYgMTkybDE2IDAgOTYgMCAxNiAwIDAgMTYgMCA5NiAwIDE2LTE2IDAtOTYgMC0xNiAwIDAtMTYgMC05NiAwLTE2em04MCAyNzJsOTYgMCAwLTk2LTk2IDAgMCA5NnpNMzIwIDM1MmwxNiAwIDk2IDAgMTYgMCAwIDE2IDAgOTYgMCAxNi0xNiAwLTk2IDAtMTYgMCAwLTE2IDAtOTYgMC0xNnptLTQ4IDE2bC05NiAwIDAgOTYgOTYgMCAwLTk2em0tOTYtMTZsOTYgMCAxNiAwIDAgMTYgMCA5NiAwIDE2LTE2IDAtOTYgMC0xNiAwIDAtMTYgMC05NiAwLTE2IDE2IDB6TTE2IDM2OGwwIDk2IDk2IDAgMC05Ni05NiAwek0wIDM1MmwxNiAwIDk2IDAgMTYgMCAwIDE2IDAgOTYgMCAxNi0xNiAwLTk2IDBMMCA0ODBsMC0xNiAwLTk2IDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cubes-stacked](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cubes-stacked.svg)
  */
 const CubesStacked: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

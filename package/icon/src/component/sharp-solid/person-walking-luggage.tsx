@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-walking-luggage` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-luggage?s=sharp-solid person-walking-luggage}
- * @preview ![person-walking-luggage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDBhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2ek0zNTYuMyAxMjYuNmwxMCAyIDgwIDE2IDE1LjMgMy4xIDcgMTQgMzUuMiA3MC41IDM4LjUgMTkuMi0yOC42IDU3LjItNDgtMjQtOS41LTQuOC00LjgtOS41LTEzLjctMjcuNC0xOC40IDYyLjQgNTIuMyA1NyA1LjIgNS43IDIgNy41IDI0IDg4IDguNCAzMC45LTYxLjcgMTYuOC04LjQtMzAuOS0yMi04MC41LTcwLjktNzcuNGMtMTQuOC0xNi4xLTIwLjMtMzguNi0xNC43LTU5LjdsMTctNjMuNi0zNi43IDE2LjMtMTEuNSAzNC42LTEwLjEgMzAuNC02MC43LTIwLjIgMTAuMS0zMC40IDE2LTQ4IDQuNS0xMy40IDEyLjktNS43IDcyLTMyIDkuMy00LjF6bS0zOC42IDIwOWMyLjEgMyA0LjUgNS44IDcgOC42bDQwLjcgNDQuNC0xNS43IDM5LjMtMi40IDYuMS00LjYgNC42LTQ4IDQ4TDI3MiA1MDkuMyAyMjYuNyA0NjRsMjIuNi0yMi42TDI5Mi43IDM5OGwyNS02Mi40ek0xNDIuOSA1MTEuOUwzMiA0NDcuOWw5Ni0xNjYuMyA4NC40IDQ4LjcgMjkuOC01MC41IDI3LjYgMTYuM0wxNzEuNSA0NjIuNGwtNS42IDkuNS0yMy4xIDQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-walking-luggage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-walking-luggage.svg)
  */
 const PersonWalkingLuggage: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

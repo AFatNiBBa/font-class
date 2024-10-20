@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `tickets-airline` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets-airline?s=sharp-duotone-solid tickets-airline}
- * @preview ![tickets-airline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAzMmwwIDM1MiA1NDQgMCAwLTEyOGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhzMjEuNS00OCA0OC00OGwwLTEyOEw5NiAzMnptOTYgMTIwbDMyIDAgMTguMyAzMiA0Ny4yIDBMMjU2IDk2bDQ4IDAgNTguNyA4OCA2MS4zIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTYxLjMgMEwzMDQgMzIwbC00OCAwIDMzLjUtODgtNDcuMiAwTDIyNCAyNjRsLTMyIDAgMTYtNTYtMTYtNTZ6bTM1Mi00MGExNiAxNiAwIDEgMSAtMzIgMCAxNiAxNiAwIDEgMSAzMiAwem0wIDY0YTE2IDE2IDAgMSAxIC0zMiAwIDE2IDE2IDAgMSAxIDMyIDB6bTAgNjRhMTYgMTYgMCAxIDEgLTMyIDAgMTYgMTYgMCAxIDEgMzIgMHptMCA2NGExNiAxNiAwIDEgMSAtMzIgMCAxNiAxNiAwIDEgMSAzMiAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDggMTIwbDAtMjRMMCA5NmwwIDI0TDAgNDU2bDAgMjQgMjQgMCA0OTYgMCAyNCAwIDAtNDgtMjQgMEw0OCA0MzJsMC0zMTJ6bTI0MS41IDY0bC00Ny4yIDBMMjI0IDE1MmwtMzIgMCAxNiA1Ni0xNiA1NiAzMiAwIDE4LjMtMzIgNDcuMiAwTDI1NiAzMjBsNDggMCA1OC43LTg4IDYxLjMgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNjEuMyAwTDMwNCA5NmwtNDggMCAzMy41IDg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tickets-airline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tickets-airline.svg)
  */
 const TicketsAirline: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M96 32l0 352 544 0 0-128c-26.5 0-48-21.5-48-48s21.5-48 48-48l0-128L96 32zm96 120l32 0 18.3 32 47.2 0L256 96l48 0 58.7 88 61.3 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-61.3 0L304 320l-48 0 33.5-88-47.2 0L224 264l-32 0 16-56-16-56zm352-40a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-            <path d="M48 120l0-24L0 96l0 24L0 456l0 24 24 0 496 0 24 0 0-48-24 0L48 432l0-312zm241.5 64l-47.2 0L224 152l-32 0 16 56-16 56 32 0 18.3-32 47.2 0L256 320l48 0 58.7-88 61.3 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-61.3 0L304 96l-48 0 33.5 88z" />
+        <path d="M48 120l0-24L0 96l0 24L0 456l0 24 24 0 496 0 24 0 0-48-24 0L48 432l0-312zm241.5 64l-47.2 0L224 152l-32 0 16 56-16 56 32 0 18.3-32 47.2 0L256 320l48 0 58.7-88 61.3 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-61.3 0L304 96l-48 0 33.5 88z" />
     </Icon>
 );
 

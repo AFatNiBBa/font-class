@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spa` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spa?s=sharp-solid spa}
- * @preview ![spa](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA3LjggMjUyLjNDMTU4LjQgMjE0LjQgOTYuNSAxOTIgMzAgMTkyTDAgMTkyQzAgMzUxLjEgMTI4LjkgNDgwIDI4OCA0ODBzMjg4LTEyOC45IDI4OC0yODhsLTMwIDBjLTU2LjEgMC0xMDguOCAxNS45LTE1My42IDQzLjZjLTMzLjUgMjAuNy02Mi41IDQ4LTg1LjMgODAuMmMtNyA5LjktMTMuNCAyMC4zLTE5LjEgMzFjLTUuNy0xMC44LTEyLjEtMjEuMS0xOS4xLTMxYy0xNy4xLTI0LjItMzcuNy00NS42LTYxLTYzLjV6TTI4OCAzMnMtNjYuNCA1Ni45LTk3IDE3MC44YzM3LjcgMjEuNiA3MC43IDUwLjUgOTcgODVjMjYuMy0zNC41IDU5LjMtNjMuNCA5Ny04NUMzNTQuNCA4OC45IDI4OCAzMiAyODggMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![spa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/spa.svg)
  */
 const Spa: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

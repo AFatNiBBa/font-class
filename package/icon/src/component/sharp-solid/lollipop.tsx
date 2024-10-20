@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lollipop` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lollipop?s=sharp-solid lollipop}
- * @preview ![lollipop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEwLjggMzM0LjhDMjY1LjMgMzE0LjIgMzA0IDI2MS42IDMwNCAyMDBsMC04YzAtNjEuOS01MC4xLTExMi0xMTItMTEyUzgwIDEzMC4xIDgwIDE5MmMwIDM5LjggMzIuMiA3MiA3MiA3MnM3Mi0zMi4yIDcyLTcybDAtMTYtNDggMCAwIDE2YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0YzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRsMCA4YzAgNTMtNDMgOTYtOTYgOTZsLTggMEM5NC42IDI5NiA0OCAyNDkuNCA0OCAxOTJjMC03OS41IDY0LjUtMTQ0IDE0NC0xNDRzMTQ0IDY0LjUgMTQ0IDE0NGMwIDczLjItNTQuNiAxMzMuNi0xMjUuMiAxNDIuOHpNMCAxOTJDMCAyOTggODYgMzg0IDE5MiAzODRjNDEuNSAwIDc5LjktMTMuMSAxMTEuMi0zNS41TDQ2NS40IDUxMC42bDQ1LjMtNDUuM0wzNDguNSAzMDMuMkMzNzAuOSAyNzEuOSAzODQgMjMzLjUgMzg0IDE5MkMzODQgODYgMjk4IDAgMTkyIDBTMCA4NiAwIDE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lollipop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lollipop.svg)
  */
 const Lollipop: typeof Icon = x => (
     <Icon {...x}>

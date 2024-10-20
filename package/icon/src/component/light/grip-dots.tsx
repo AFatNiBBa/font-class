@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grip-dots` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grip-dots?s=light grip-dots}
- * @preview ![grip-dots](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDE5MmExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTAtNjRhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2ek0yMjQgMTkyYTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnptMC02NGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6TTQ4IDE3NmExNiAxNiAwIDEgMCAzMiAwIDE2IDE2IDAgMSAwIC0zMiAwem02NCAwYTQ4IDQ4IDAgMSAxIC05NiAwIDQ4IDQ4IDAgMSAxIDk2IDB6TTM4NCAzNTJhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyem0wLTY0YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnpNMjA4IDMzNmExNiAxNiAwIDEgMCAzMiAwIDE2IDE2IDAgMSAwIC0zMiAwem02NCAwYTQ4IDQ4IDAgMSAxIC05NiAwIDQ4IDQ4IDAgMSAxIDk2IDB6TTY0IDM1MmExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTAtNjRhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![grip-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/grip-dots.svg)
  */
 const GripDots: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

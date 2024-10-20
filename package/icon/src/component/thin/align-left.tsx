@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `align-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/align-left?s=thin align-left}
- * @preview ![align-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCA1NmMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwyNzIgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEw4IDU2ek04IDE4NGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGw0MzIgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEw4IDE4NHpNMCAzMjBjMCA0LjQgMy42IDggOCA4bDI3MiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDggMzEyYy00LjQgMC04IDMuNi04IDh6TTggNDQwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDQzMiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDggNDQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![align-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/align-left.svg)
  */
 const AlignLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-medical?s=sharp-light laptop-medical}
- * @preview ![laptop-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNjRsNDQ4IDAgMCAyODggMzIgMCAwLTI4OCAwLTMyLTMyIDBMOTYgMzIgNjQgMzJsMCAzMiAwIDI4OCAzMiAwTDk2IDY0ek0zMiA0MTguN2wwLTIuNyA1NzYgMCAwIDIuN0w1NzguNyA0NDggNjEuMyA0NDggMzIgNDE4Ljd6TTYwOCAzODRMMzIgMzg0IDAgMzg0bDAgMzIgMCAxNiA0OCA0OCA1NDQgMCA0OC00OCAwLTE2IDAtMzItMzIgMHpNMjg4IDExMmwtMTYgMCAwIDE2IDAgNDgtNDggMC0xNiAwIDAgMTYgMCA2NCAwIDE2IDE2IDAgNDggMCAwIDQ4IDAgMTYgMTYgMCA2NCAwIDE2IDAgMC0xNiAwLTQ4IDQ4IDAgMTYgMCAwLTE2IDAtNjQgMC0xNi0xNiAwLTQ4IDAgMC00OCAwLTE2LTE2IDAtNjQgMHptMTYgODBsMC00OCAzMiAwIDAgNDggMCAxNiAxNiAwIDQ4IDAgMCAzMi00OCAwLTE2IDAgMCAxNiAwIDQ4LTMyIDAgMC00OCAwLTE2LTE2IDAtNDggMCAwLTMyIDQ4IDAgMTYgMCAwLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![laptop-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/laptop-medical.svg)
  */
 const LaptopMedical: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

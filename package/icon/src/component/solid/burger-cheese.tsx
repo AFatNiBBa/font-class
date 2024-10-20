@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burger-cheese` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-cheese?s=solid burger-cheese}
- * @preview ![burger-cheese](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTk0LjlDMzIgMjExIDQ1IDIyNCA2MS4xIDIyNGwzODkuOCAwYzE2LjEgMCAyOS4xLTEzIDI5LjEtMjkuMWMwLTEuOS0uMi0zLjctLjYtNS42QzQ3NC4xIDE2OC4zIDQzMy4yIDMyIDI1NiAzMlMzNy45IDE2OC4zIDMyLjYgMTg5LjNjLS41IDEuOS0uNiAzLjctLjYgNS42ek0xMjggMTEyYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptMjQwIDE2YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6TTI1NiA4MGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6TTMyIDQwMGwwIDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDMyMCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMTZjMC04LjgtNy4yLTE2LTE2LTE2TDQ4IDM4NGMtOC44IDAtMTYgNy4yLTE2IDE2ek0yMzQgMjYyLjdjLTYuNS00LjQtMTQuMi02LjctMjIuMS02LjdsLTMuOSAwLS4xIDBMNjQgMjU2Yy0yNi41IDAtNDggMjEuNS00OCA0OHMyMS41IDQ4IDQ4IDQ4bDM4NCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4cy0yMS41LTQ4LTQ4LTQ4bC0xNS45IDAtLjEgMC0zLjkgMGMtNy45IDAtMTUuNiAyLjMtMjIuMSA2LjdsLTY4LjIgNDUuNWMtMTAuNyA3LjItMjQuOCA3LjItMzUuNSAwTDIzNCAyNjIuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![burger-cheese](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/burger-cheese.svg)
  */
 const BurgerCheese: typeof Icon = x => (
     <Icon {...x}>

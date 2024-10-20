@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-chart-column` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-chart-column?s=sharp-solid file-chart-column}
- * @preview ![file-chart-column](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBMMCAwIDAgNTEybDM4NCAwIDAtMzUyLTE2MCAwTDIyNCAwem0zMiAwbDAgMTI4IDEyOCAwTDI1NiAwek0yMTYgMjQ4bDAgMTc2IDAgMjQtNDggMCAwLTI0IDAtMTc2IDAtMjQgNDggMCAwIDI0em04OCA2NGwwIDExMiAwIDI0LTQ4IDAgMC0yNCAwLTExMiAwLTI0IDQ4IDAgMCAyNHpNMTI4IDM3NmwwIDQ4IDAgMjQtNDggMCAwLTI0IDAtNDggMC0yNCA0OCAwIDAgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-chart-column](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-chart-column.svg)
  */
 const FileChartColumn: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

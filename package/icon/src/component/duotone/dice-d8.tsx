@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `dice-d8` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d8?s=duotone dice-d8}
- * @preview ![dice-d8](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIzMmMwIDEuMiAuMSAyLjMgLjQgMy41YzEuMiA1LjIgNC45IDkuNSA5LjkgMTEuNWwyMDggODBjMS45IC43IDMuOCAxLjEgNS43IDEuMWMzLjIgMCA2LjQtMSA5LjEtMi44YzQuMy0zIDYuOS03LjkgNi45LTEzLjJsMC0yOTZjMC02LjUtNC0xMi40LTEwLTE0LjhzLTEzLTEtMTcuNSAzLjdsLTIwOCAyMTZjLTIuOSAzLTQuNSA3LTQuNSAxMS4xek0yNzIgMTZsMCAyOTZjMCA1LjMgMi42IDEwLjIgNi45IDEzLjJjMi43IDEuOSA1LjkgMi44IDkuMSAyLjhjMS45IDAgMy45LS40IDUuNy0xLjFsMjA4LTgwYzUtMS45IDguNy02LjIgOS45LTExLjVzLS40LTEwLjctNC4xLTE0LjZsLTIwOC0yMTZDMjk1IC4yIDI4OC4xLTEuMyAyODIgMS4yUzI3MiA5LjUgMjcyIDE2eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzQuNiAzMDcuNWMtNC4xIDYuMy0zLjMgMTQuNiAxLjkgMjBsMTc2IDE3OS43YzQuNSA0LjYgMTEuNSA2LjEgMTcuNSAzLjZzMTAtOC4zIDEwLTE0LjhsMC0xMTJjMC02LjYtNC4xLTEyLjYtMTAuMy0xNC45bC0xNzYtNjcuN2MtNy0yLjctMTUtLjEtMTkuMSA2LjF6bTQ0Mi43IDBjLTQuMS02LjMtMTIuMS04LjgtMTkuMS02LjFsLTE3NiA2Ny43Yy02LjIgMi40LTEwLjMgOC4zLTEwLjMgMTQuOWwwIDExMmMwIDYuNSAzLjkgMTIuNCAxMCAxNC44czEyLjkgMSAxNy41LTMuNmwxNzYtMTc5LjdjNS4zLTUuNCA2LjEtMTMuNyAxLjktMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dice-d8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/dice-d8.svg)
  */
 const DiceD8: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 232c0 1.2 .1 2.3 .4 3.5c1.2 5.2 4.9 9.5 9.9 11.5l208 80c1.9 .7 3.8 1.1 5.7 1.1c3.2 0 6.4-1 9.1-2.8c4.3-3 6.9-7.9 6.9-13.2l0-296c0-6.5-4-12.4-10-14.8s-13-1-17.5 3.7l-208 216c-2.9 3-4.5 7-4.5 11.1zM272 16l0 296c0 5.3 2.6 10.2 6.9 13.2c2.7 1.9 5.9 2.8 9.1 2.8c1.9 0 3.9-.4 5.7-1.1l208-80c5-1.9 8.7-6.2 9.9-11.5s-.4-10.7-4.1-14.6l-208-216C295 .2 288.1-1.3 282 1.2S272 9.5 272 16z" />
-            <path d="M34.6 307.5c-4.1 6.3-3.3 14.6 1.9 20l176 179.7c4.5 4.6 11.5 6.1 17.5 3.6s10-8.3 10-14.8l0-112c0-6.6-4.1-12.6-10.3-14.9l-176-67.7c-7-2.7-15-.1-19.1 6.1zm442.7 0c-4.1-6.3-12.1-8.8-19.1-6.1l-176 67.7c-6.2 2.4-10.3 8.3-10.3 14.9l0 112c0 6.5 3.9 12.4 10 14.8s12.9 1 17.5-3.6l176-179.7c5.3-5.4 6.1-13.7 1.9-20z" />
+        <path d="M34.6 307.5c-4.1 6.3-3.3 14.6 1.9 20l176 179.7c4.5 4.6 11.5 6.1 17.5 3.6s10-8.3 10-14.8l0-112c0-6.6-4.1-12.6-10.3-14.9l-176-67.7c-7-2.7-15-.1-19.1 6.1zm442.7 0c-4.1-6.3-12.1-8.8-19.1-6.1l-176 67.7c-6.2 2.4-10.3 8.3-10.3 14.9l0 112c0 6.5 3.9 12.4 10 14.8s12.9 1 17.5-3.6l176-179.7c5.3-5.4 6.1-13.7 1.9-20z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-rotate` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-rotate?s=sharp-solid camera-rotate}
- * @preview ![camera-rotate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyTDIwMi43IDk2IDY0IDk2bDAgMzg0IDUxMiAwIDAtMzg0TDQzNy4zIDk2IDQxNiAzMiAyMjQgMzJ6TTQ0OCAyNzJsLTg4IDAtMTYtMTYgMjctMjdjLTEzLjYtMTMuNC0zMS45LTIxLTUxLTIxYy0xOS4yIDAtMzcuNyA3LjYtNTEuMyAyMS4zTDI0OSAyNDkgMjE1IDIxNWwxOS43LTE5LjdDMjU3LjQgMTcyLjcgMjg4IDE2MCAzMjAgMTYwYzMxLjggMCA2Mi40IDEyLjYgODUgMzVsMjctMjcgMTYgMTYgMCA4OHpNMTkyIDMwNGw4OCAwIDE2IDE2LTI3IDI3YzEzLjYgMTMuNCAzMS45IDIxIDUxIDIxYzE5LjIgMCAzNy43LTcuNiA1MS4zLTIxLjNMMzkxIDMyNyA0MjUgMzYxbC0xOS43IDE5LjdDMzgyLjYgNDAzLjMgMzUyIDQxNiAzMjAgNDE2Yy0zMS44IDAtNjIuNC0xMi42LTg1LTM1bC0yNyAyNy0xNi0xNiAwLTg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![camera-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/camera-rotate.svg)
  */
 const CameraRotate: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

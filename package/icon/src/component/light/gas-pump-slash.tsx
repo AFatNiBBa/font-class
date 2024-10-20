@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gas-pump-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gas-pump-slash?s=light gas-pump-slash}
- * @preview ![gas-pump-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDM2Mi44TDM1MiA0ODBsLTIyNCAwIDAtMjk0TDk2IDE2MC43IDk2IDQ4MGwtMTYgMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxNiAwIDMyIDAgMjI0IDAgMzIgMCAxNiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xNiAwIDAtOTEuOS0zMi0yNS4zek0xNDQuNiAzNmM0LjYtMi41IDkuOC00IDE1LjQtNGwxNjAgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDEzNS43TDM4NCAyMjVsMC0xNjFjMC0zNS4zLTI4LjctNjQtNjQtNjRMMTYwIDBjLTE1LjkgMC0zMC40IDUuOC00MS42IDE1LjNMMTQ0LjYgMzZ6TTU3NiAxNTcuMWMwLTE3LjktNy41LTM1LjEtMjAuOC00Ny4yTDQ3NC44IDM2LjJjLTYuNS02LTE2LjYtNS41LTIyLjYgMXMtNS41IDE2LjYgMSAyMi42TDQ4MCA4NC40bDAgNzUuNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwwIDEyNy4zIDMyIDI1LjMgMC0yMTkuNHptLTY0LTQzLjRsMjEuNiAxOS44YzYuNiA2LjEgMTAuNCAxNC42IDEwLjQgMjMuNmwwIDM0LjljLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNDYuM3pNMjUuOSAzLjRDMTktMiA4LjktLjggMy40IDYuMVMtLjggMjMuMSA2LjEgMjguNmw2MDggNDgwYzYuOSA1LjUgMTcgNC4zIDIyLjUtMi42czQuMy0xNy0yLjYtMjIuNUwyNS45IDMuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gas-pump-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/gas-pump-slash.svg)
  */
 const GasPumpSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

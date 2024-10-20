@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-droplet` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-droplet?s=sharp-regular truck-droplet}
- * @preview ![truck-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMCAzMjAgMjguOCAwYzE2LjYtMjguNyA0Ny42LTQ4IDgzLjItNDhzNjYuNiAxOS4zIDgzLjIgNDhsNzYuOCAwIDQ4IDAgMC0zMjBMNDggNDh6TTQ4MCA1MTJjLTUzIDAtOTYtNDMtOTYtOTZsLTggMC04IDAtNDggMC02NCAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2bC0xNiAwTDAgNDE2bDAtNDhMMCA0OCAwIDAgNDggMCAzNjggMGw0OCAwIDAgNDggMCA0OCA1NiAwIDkuOSAwIDcgN0w2MDEgMjE1bDcgNyAwIDkuOSAwIDEzNiA4IDAgMjQgMCAwIDQ4LTI0IDAtNDAgMGMwIDUzLTQzIDk2LTk2IDk2em03OC4xLTI3MmwtOTYtOTZMNDE2IDE0NGwwIDk2IDE0Mi4xIDB6TTE2MCA0NjRhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0zNjgtNDhhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMjA4IDI3MmMtMzkuOCAwLTcyLTI5LjYtNzItNjZzNzItMTI2IDcyLTEyNnM3MiA4OS41IDcyIDEyNnMtMzIuMiA2Ni03MiA2NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-droplet.svg)
  */
 const TruckDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

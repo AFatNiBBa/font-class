@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `syringe` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/syringe?s=solid syringe}
- * @preview ![syringe](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQxIDdsMzIgMzIgMzIgMzJjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlzLTI0LjYgOS40LTMzLjkgMGwtMTUtMTVMNDE3LjkgMTI4bDU1IDU1YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45cy0yNC42IDkuNC0zMy45IDBsLTcyLTcyTDI5NSA3M2MtOS40LTkuNC05LjQtMjQuNiAwLTMzLjlzMjQuNi05LjQgMzMuOSAwbDU1IDU1TDQyMi4xIDU2IDQwNyA0MWMtOS40LTkuNC05LjQtMjQuNiAwLTMzLjlzMjQuNi05LjQgMzMuOSAwek0yMTAuMyAxNTUuN2w2MS4xLTYxLjFjLjMgLjMgLjYgLjcgMSAxbDE2IDE2IDU2IDU2IDU2IDU2IDE2IDE2Yy4zIC4zIC42IC42IDEgMWwtMTkxIDE5MWMtMTAuNSAxMC41LTI0LjcgMTYuNC0zOS42IDE2LjRsLTg4LjggMEw0MSA1MDVjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwcy05LjQtMjQuNiAwLTMzLjlsNTctNTcgMC04OC44YzAtMTQuOSA1LjktMjkuMSAxNi40LTM5LjZsNDMuMy00My4zIDU3IDU3YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwczYuMi0xNi40IDAtMjIuNmwtNTctNTcgNDEuNC00MS40IDU3IDU3YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwczYuMi0xNi40IDAtMjIuNmwtNTctNTd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![syringe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/syringe.svg)
  */
 const Syringe: typeof Icon = x => (
     <Icon {...x}>

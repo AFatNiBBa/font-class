@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `left-to-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-to-line?s=thin left-to-line}
- * @preview ![left-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDQwTDE2IDcyYzAtNC40LTMuNi04LTgtOHMtOCAzLjYtOCA4TDAgNDQwYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LTh6bTk5LjMtMTc2Yy0yLjEtMi4xLTMuMy01LTMuMy04czEuMi01LjkgMy4zLThMMjQ3LjQgMTE2LjJjMi43LTIuNyA2LjQtNC4yIDEwLjItNC4yYzggMCAxNC40IDYuNSAxNC40IDE0LjRsMCA3My42YzAgNC40IDMuNiA4IDggOGwxMzYgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCA2NGMwIDguOC03LjIgMTYtMTYgMTZsLTEzNiAwYy00LjQgMC04IDMuNi04IDhsMCA3My42YzAgOC02LjUgMTQuNC0xNC40IDE0LjRjLTMuOCAwLTcuNS0xLjUtMTAuMi00LjJMMTE1LjMgMjY0ek05NiAyNTZjMCA3LjIgMi45IDE0LjIgOCAxOS4zTDIzNi4xIDQwNy4xYzUuNyA1LjcgMTMuNCA4LjkgMjEuNSA4LjljMTYuOCAwIDMwLjQtMTMuNiAzMC40LTMwLjRsMC02NS42IDEyOCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNjRjMC0xNy43LTE0LjMtMzItMzItMzJsLTEyOCAwIDAtNjUuNmMwLTE2LjgtMTMuNi0zMC40LTMwLjQtMzAuNGMtOC4xIDAtMTUuOCAzLjItMjEuNSA4LjlMMTA0IDIzNi43Yy01LjEgNS4xLTggMTIuMS04IDE5LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![left-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/left-to-line.svg)
  */
 const LeftToLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

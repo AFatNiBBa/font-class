@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume-high` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-high?s=sharp-thin volume-high}
- * @preview ![volume-high](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI0LjggNDg2LjRDNTk0LjggNDMzLjkgNjQwIDM1MC4yIDY0MCAyNTZzLTQ1LjItMTc3LjktMTE1LjItMjMwLjRsLTkuNiAxMi44QzU4MS4zIDg4IDYyNCAxNjcgNjI0IDI1NnMtNDIuNyAxNjgtMTA4LjggMjE3LjZsOS42IDEyLjh6TTU0NCAyNTZjMC02Mi44LTMwLjItMTE4LjYtNzYuOC0xNTMuNmwtOS42IDEyLjhDNTAwLjQgMTQ3LjMgNTI4IDE5OC40IDUyOCAyNTZzLTI3LjYgMTA4LjctNzAuNCAxNDAuOGw5LjYgMTIuOGM0Ni42LTM1IDc2LjgtOTAuOCA3Ni44LTE1My42em0tOTYgMGMwLTMxLjQtMTUuMS01OS4zLTM4LjQtNzYuOEw0MDAgMTkyYzE5LjQgMTQuNiAzMiAzNy44IDMyIDY0cy0xMi42IDQ5LjQtMzIgNjRsOS42IDEyLjhDNDMyLjkgMzE1LjMgNDQ4IDI4Ny40IDQ0OCAyNTZ6TTEzOC42IDM0MGwtNC41LTQtNi4xIDBMMTYgMzM2bDAtMTYwIDExMiAwIDYuMSAwIDQuNS00TDI3OC4xIDQ4IDMwNCA0OGwwIDQxNi0yNS45IDBMMTM4LjYgMzQwek0wIDM1MmwxNiAwIDExMiAwTDI3MiA0ODBsMzIgMCAxNiAwIDAtMTYgMC00MTYgMC0xNi0xNiAwLTMyIDBMMTI4IDE2MCAxNiAxNjAgMCAxNjBsMCAxNkwwIDMzNmwwIDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![volume-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/volume-high.svg)
  */
 const VolumeHigh: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

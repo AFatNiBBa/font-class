@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sim-cards` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sim-cards?s=solid sim-cards}
- * @preview ![sim-cards](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBDMTI0LjcgMCA5NiAyOC43IDk2IDY0bDAgMjg4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDIyNCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjEwLjdjMC0xNy02LjctMzMuMy0xOC43LTQ1LjNMMzUyIDE4LjdDMzQwIDYuNyAzMjMuNyAwIDMwNi43IDBMMTYwIDB6bTQ4IDE0NGwwIDQ4LTQ4IDAgMC0xNmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwxNiAwem0tNDggODBsNjQgMCA5NiAwIDY0IDAgMCA0OC02NCAwLTk2IDAtNjQgMCAwLTQ4em0yMjQtMzJsLTQ4IDAgMC00OCAxNiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTZ6bS04MC00OGwwIDQ4LTY0IDAgMC00OCA2NCAwem04MCAxNjBsMCAxNmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTYgMCAwLTQ4IDQ4IDB6bS04MCA0OGwtNjQgMCAwLTQ4IDY0IDAgMCA0OHptLTk2IDBsLTE2IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTYgNDggMCAwIDQ4ek00OCAxMjBjMC0xMy4zLTEwLjctMjQtMjQtMjRTMCAxMDYuNyAwIDEyMEwwIDM3NmMwIDc1LjEgNjAuOSAxMzYgMTM2IDEzNmwyMjQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMjI0IDBjLTQ4LjYgMC04OC0zOS40LTg4LTg4bDAtMjU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sim-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sim-cards.svg)
  */
 const SimCards: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

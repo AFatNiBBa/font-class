@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `watch` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch?s=sharp-regular watch}
- * @preview ![watch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBMNjQgMGwwIDExMiAxIDBDMjUuMSAxNDcuMiAwIDE5OC43IDAgMjU2czI1LjEgMTA4LjggNjUgMTQ0bC0xIDAgMCAxMTIgMjU2IDAgMC0xMTItMSAwYzM5LjktMzUuMiA2NS04Ni43IDY1LTE0NHMtMjUuMS0xMDguOC02NS0xNDRsMSAwTDMyMCAwek00OCAyNTZhMTQ0IDE0NCAwIDEgMSAyODggMEExNDQgMTQ0IDAgMSAxIDQ4IDI1NnptMTY4LTgwbDAtMjQtNDggMCAwIDI0IDAgODAgMCAxMi44IDEwLjcgNy4xIDQ4IDMyIDIwIDEzLjMgMjYuNi0zOS45LTIwLTEzLjNMMjE2IDI0My4ybDAtNjcuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![watch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/watch.svg)
  */
 const Watch: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

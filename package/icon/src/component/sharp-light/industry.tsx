@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `industry` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/industry?s=sharp-light industry}
- * @preview ![industry](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMTYgMCAxMjggMCAxNiAwIDAgMTYgMCAxNDIuMSAxNTIuOC03Ni40TDM2OCAxMDIuMWwwIDI1LjkgMCA1OS4xIDE1My4xLTczLjUgMjIuOS0xMSAwIDI1LjQgMCAxMjggMCA2NCAwIDE0NCAwIDE2LTE2IDBMNDggNDgwbC0xNiAwIDAtMTYgMC04MCAwLTEyOEwzMiA0OGwwLTE2ek02NCA2NGwwIDE5MiAwIDEyOCAwIDY0IDQ0OCAwIDAtMTI4IDAtNjQgMC0xMDIuNkwzNTguOSAyMjYuOWwtMjIuOSAxMSAwLTI1LjQgMC01OC42TDE4My4yIDIzMC4zIDE2MCAyNDEuOWwwLTI1LjkgMC0xNTJMNjQgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![industry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/industry.svg)
  */
 const Industry: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

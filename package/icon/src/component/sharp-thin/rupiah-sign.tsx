@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rupiah-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rupiah-sign?s=sharp-thin rupiah-sign}
- * @preview ![rupiah-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw4IDAgMTEyIDBjNzUuMSAwIDEzNiA2MC45IDEzNiAxMzZjMCA2OC44LTUxIDEyNS42LTExNy4zIDEzNC43TDE5Ny44IDQ4MGwtMTYuOSAwTDEyMi4yIDMwNGMtLjcgMC0xLjUgMC0yLjIgMEwxNiAzMDRsMCAxNzZMMCA0ODAgMCAyOTYgMCA0MGwwLTh6TTE2IDI4OGwxMDQgMGM2Ni4zIDAgMTIwLTUzLjcgMTIwLTEyMHMtNTMuNy0xMjAtMTIwLTEyMEwxNiA0OGwwIDI0MHpNMjk2IDE2MGwxMDQgMGM2MS45IDAgMTEyIDUwLjEgMTEyIDExMnMtNTAuMSAxMTItMTEyIDExMmwtOTYgMCAwIDEyMCAwIDgtMTYgMCAwLTggMC0xMjAgMC0xNiAwLTIwMCAwLTggOCAwek00MDAgMzY4YzUzIDAgOTYtNDMgOTYtOTZzLTQzLTk2LTk2LTk2bC05NiAwIDAgMTkyIDk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rupiah-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/rupiah-sign.svg)
  */
 const RupiahSign: typeof Icon = x => (
     <Icon {...x}>

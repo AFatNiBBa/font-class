@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `album-collection` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-collection?s=sharp-light album-collection}
- * @preview ![album-collection](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMGwwIDMyIDE2IDAgNDE2IDAgMTYgMCAwLTMyTDQ2NCAwIDQ4IDAgMzIgMHpNMTYgNjRsMCAzMiAxNiAwIDQ0OCAwIDE2IDAgMC0zMi0xNiAwTDMyIDY0IDE2IDY0em0xOS41IDk2bDQ0MSAwTDQ0My4yIDQ4MCA2OC44IDQ4MCAzNS41IDE2MHpNNDAgNTEybDQzMiAwIDM2LjctMzUyIDMuMy0zMi0zMi4yIDBMMzIuMiAxMjggMCAxMjhsMy4zIDMyTDQwIDUxMnptMjE2LTk2Yy03Ny43IDAtMTI4LTQ5LjMtMTI4LTk2czUwLjMtOTYgMTI4LTk2czEyOCA0OS4zIDEyOCA5NnMtNTAuMyA5Ni0xMjggOTZ6bTAgMzJjODguNCAwIDE2MC01Ny4zIDE2MC0xMjhzLTcxLjYtMTI4LTE2MC0xMjhzLTE2MCA1Ny4zLTE2MCAxMjhzNzEuNiAxMjggMTYwIDEyOHptMC0xMDRjMTMuMyAwIDI0LTkgMjQtMjBzLTEwLjctMjAtMjQtMjBzLTI0IDktMjQgMjBzMTAuNyAyMCAyNCAyMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![album-collection](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/album-collection.svg)
  */
 const AlbumCollection: typeof Icon = x => (
     <Icon {...x}>

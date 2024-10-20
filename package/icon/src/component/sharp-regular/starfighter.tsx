@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `starfighter` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starfighter?s=sharp-regular starfighter}
- * @preview ![starfighter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU4LjggMEwyODAgMGw4MCAwIDIxLjIgMCAyLjYgMjEgMjcuNCAyMTkgNzYuOCAwIDI0IDAgMCAyNCAwIDg4IDU2IDAgMC0xODQtMjQgMCAwLTQ4IDI0IDAgMC0yNCAwLTI0IDQ4IDAgMCAyNCAwIDI0IDI0IDAgMCA0OC0yNCAwIDAgMjgwIDAgMjQtNDggMCAwLTI0IDAtMi43TDUxMiA0NjRsMCAxNi0yNCAwLTggMCAwIDMyLTY0IDAgMC0zMi0yNCAwLTI0IDAtOTYgMC0yNCAwLTI0IDAgMCAzMi02NCAwIDAtMzItOCAwLTI0IDAgMC0xNkw3MiA0NDUuM2wwIDIuNyAwIDI0LTQ4IDAgMC0yNCAwLTI4MEwwIDE2OGwwLTQ4IDI0IDAgMC0yNCAwLTI0IDQ4IDAgMCAyNCAwIDI0IDI0IDAgMCA0OC0yNCAwIDAgMTg0IDU2IDAgMC04OCAwLTI0IDI0IDAgNzYuOCAwTDI1Ni4yIDIxbDIuNi0yMXpNMzY4IDQzMmwwLTE1MC41TDMzOC44IDQ4bC0zNy42IDBMMjcyIDI4MS41IDI3MiA0MzJsOTYgMHptNDggMGw0OCAwIDAtMTQ0LTQ4IDAgMCAxNDR6TTIyNCAyODhsLTQ4IDAgMCAxNDQgNDggMCAwLTE0NHptOTYtNjRjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NC02NCAwIDAtNjRjMC0xNy43IDE0LjMtMzIgMzItMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![starfighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/starfighter.svg)
  */
 const Starfighter: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

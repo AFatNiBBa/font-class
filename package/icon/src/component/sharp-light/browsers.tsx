@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `browsers` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/browsers?s=sharp-light browsers}
- * @preview ![browsers](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDMybDAgNjRMMjU2IDk2bDAtNjQgMjg4IDB6TTEyOCAzMmw5NiAwIDAgNjQtOTYgMCAwLTY0em0wIDM1MmwwLTI1NiAxMTIgMCAzMDQgMCAwIDI1Ni00MTYgMHpNMTI4IDBMOTYgMGwwIDMyIDAgMzUyIDAgMzIgMzIgMCA0MTYgMCAzMiAwIDAtMzIgMC0zNTIgMC0zMkw1NDQgMCAxMjggMHpNMzIgMTEybDAtMTZMMCA5NmwwIDE2TDAgNDk2bDAgMTYgMTYgMCA0NDggMCAxNiAwIDAtMzItMTYgMEwzMiA0ODBsMC0zNjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![browsers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/browsers.svg)
  */
 const Browsers: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

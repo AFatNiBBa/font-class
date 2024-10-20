@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `handshake-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-simple?s=sharp-solid handshake-simple}
- * @preview ![handshake-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk4LjggNjRMMjI0IDY0bC05NiA2NEwwIDEyOCAwIDM1MmwxNTYuMiAwIDczLjkgNjcuNCAzNS40IDMyLjQgNDcuNy01Mi4yIDIyLjMgMjAuNSAzNS40IDMyLjQgNDQuOC00OC45IDM1LjIgMzIuMiA2NC45LTcwLjgtMzUuNC0zMi40LTEzNC4yLTEyMy05Ni40IDc1LTEzIDEwLjEtOS43LTEzLjQtNjQtODgtOC45LTEyLjMgMTEuOC05LjZMMjk4LjggNjR6bTc0LjEgMTI0LjlMNTUwLjIgMzUybDg5LjggMCAwLTIyNC00OCAwLTc2IDAtNCAwLTEuNCAwLTQuMy0zLjNMNDI2LjYgNjRsLTc2LjkgMEwxOTcuOSAxODYuOWw0NS4zIDYyLjMgMTMxLTEwMS45IDEyLjYtOS44IDE5LjYgMjUuMy0xMi42IDkuOC0yMC45IDE2LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![handshake-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/handshake-simple.svg)
  */
 const HandshakeSimple: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

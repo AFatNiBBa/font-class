@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `airplay` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/airplay?s=sharp-solid airplay}
- * @preview ![airplay](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDk2TDY0IDk2bDAgMjU2IDEwNSAwLTYyLjUgNTYuMkw5Ny45IDQxNiA2NCA0MTYgMCA0MTZsMC02NEwwIDk2IDAgMzJsNjQgMCA0NDggMCA2NCAwIDAgNjQgMCAyNTYgMCA2NC02NCAwLTMzLjkgMC04LjctNy44TDQwNyAzNTJsMTA1IDAgMC0yNTZ6TTI4OCAyODhMNDQ4IDQzMmwwIDQ4LTMyMCAwIDAtNDhMMjg4IDI4OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![airplay](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/airplay.svg)
  */
 const Airplay: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

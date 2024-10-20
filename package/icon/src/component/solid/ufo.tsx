@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ufo` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ufo?s=solid ufo}
- * @preview ![ufo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDExMmM1OS4yIDAgMTA5LjYgMzcuOSAxMjguMyA5MC43YzUgMTQuMiA3LjcgMjkuNCA3LjcgNDUuM2MwIDAtNDAgNDAtMTM2IDQwcy0xMzYtNDAtMTM2LTQwYzAtMTUuOSAyLjctMzEuMSA3LjctNDUuM2MxOC43LTUyLjggNjktOTAuNyAxMjguMy05MC43em0wLTQ4Yy05MC4xIDAtMTY1LjIgNjQuOC0xODAuOSAxNTAuNEM1NS4xIDIzNy41IDAgMjc2LjIgMCAzMjBjMCA3MC43IDE0My4zIDEyOCAzMjAgMTI4czMyMC01Ny4zIDMyMC0xMjhjMC00My44LTU1LjEtODIuNS0xMzkuMS0xMDUuNkM0ODUuMiAxMjguOCA0MTAuMiA2NCAzMjAgNjR6bTAgMjg4YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHpNMTA0IDMyOGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwem00MDgtMjRhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ufo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ufo.svg)
  */
 const Ufo: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

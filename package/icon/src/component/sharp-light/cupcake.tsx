@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cupcake` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cupcake?s=sharp-light cupcake}
- * @preview ![cupcake](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDBMMTg2LjEgMGwxNi42IDI0LjkgMTAuOCAxNi4zYzEuNiAyLjQgMi41IDUuMyAyLjUgOC4yYzAgOC4xLTYuNiAxNC43LTE0LjcgMTQuN0wxNDQgNjRjLTQwLjUgMC03NCAzMC4xLTc5LjMgNjkuMkMyNy4xIDE0Ni4yIDAgMTgxLjkgMCAyMjRsMCA0OCAwIDE2IDE2IDAgNDE2IDAgMTYgMCAwLTE2IDAtNDhjMC00Mi0yNi45LTc3LjYtNjQuNC05MC43QzM3OC4yIDU4LjggMzE1LjkgMCAyNDAgMEwyMTYgMHptMzIgNDkuM2MwLTUuOS0xLjEtMTEuOC0zLjMtMTcuMkMzMDQuNCAzNC42IDM1MiA4My43IDM1MiAxNDRjMCAuNCAwIC44IDAgMS4ybC0uMyAxMy40IDEzLjEgMi43QzM5NCAxNjcuMiA0MTYgMTkzLjEgNDE2IDIyNGwwIDMyTDMyIDI1NmwwLTMyYzAtMzAuOSAyMi01Ni44IDUxLjItNjIuN2wxMy4xLTIuN0w5NiAxNDUuMmMwLS40IDAtLjggMC0xLjJjMC0yNi41IDIxLjUtNDggNDgtNDhsNTcuMyAwQzIyNy4xIDk2IDI0OCA3NS4xIDI0OCA0OS4zek05NiA1MTJsODcuOCAwIC4zIDAgNzkuNyAwIC4zIDAgODcuOCAwIDI2LjUtMTkyLTMyLjMgMEwzMjQuMSA0ODBsLTQyLjcgMCAxMy4zLTE2MC0zMi4xIDBMMjQ5LjMgNDgwbC01MC42IDBMMTg1LjQgMzIwbC0zMi4xIDAgMTMuMyAxNjAtNDIuNyAwTDEwMS44IDMyMGwtMzIuMyAwTDk2IDUxMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cupcake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cupcake.svg)
  */
 const Cupcake: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

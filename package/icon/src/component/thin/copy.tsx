@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `copy` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/copy?s=thin copy}
- * @preview ![copy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDM2OGwtMTYwIDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjU2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDEwOC4xIDBjOC41IDAgMTYuNiAzLjQgMjIuNiA5LjRsNjcuOSA2Ny45YzYgNiA5LjQgMTQuMSA5LjQgMjIuNkw0MzIgMzIwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4ek0yMjQgMzg0bDE2MCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjA0LjFjMC0xMi43LTUuMS0yNC45LTE0LjEtMzMuOUwzNjYuMSAxNC4xYy05LTktMjEuMi0xNC4xLTMzLjktMTQuMUwyMjQgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAyNTZjMCAzNS4zIDI4LjcgNjQgNjQgNjR6TTY0IDEyOGMtMzUuMyAwLTY0IDI4LjctNjQgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMTYwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMi0xNiAwIDAgMzJjMCAyNi41LTIxLjUgNDgtNDggNDhMNjQgNDk2Yy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTI1NmMwLTI2LjUgMjEuNS00OCA0OC00OGw2NCAwIDAtMTYtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![copy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/copy.svg)
  */
 const Copy: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

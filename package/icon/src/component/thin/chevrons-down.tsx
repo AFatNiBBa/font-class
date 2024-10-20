@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chevrons-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chevrons-down?s=thin chevrons-down}
- * @preview ![chevrons-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQuMyA1My43bDIxNiAyMTZjMy4xIDMuMSA4LjIgMy4xIDExLjMgMGwyMTYtMjE2YzMuMS0zLjEgMy4xLTguMiAwLTExLjNzLTguMi0zLjEtMTEuMyAwTDI1NiAyNTIuNyA0NS43IDQyLjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBzLTMuMSA4LjIgMCAxMS4zem0wIDE5MmwyMTYgMjE2YzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBsMjE2LTIxNmMzLjEtMy4xIDMuMS04LjIgMC0xMS4zcy04LjItMy4xLTExLjMgMEwyNTYgNDQ0LjcgNDUuNyAyMzQuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMHMtMy4xIDguMiAwIDExLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chevrons-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chevrons-down.svg)
  */
 const ChevronsDown: typeof Icon = x => (
     <Icon {...x}>

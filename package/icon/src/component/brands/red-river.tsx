@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `red-river` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/red-river?s=brands red-river}
- * @preview ![red-river](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUzLjIgMzJIOTQuOEM0Mi40IDMyIDAgNzQuNCAwIDEyNi44djI1OC40QzAgNDM3LjYgNDIuNCA0ODAgOTQuOCA0ODBoMjU4LjRjNTIuNCAwIDk0LjgtNDIuNCA5NC44LTk0LjhWMTI2LjhjMC01Mi40LTQyLjQtOTQuOC05NC44LTk0Ljh6TTE0NC45IDIwMC45djU2LjNjMCAyNy0yMS45IDQ4LjktNDguOSA0OC45VjE1MS45YzAtMTMuMiAxMC43LTIzLjkgMjMuOS0yMy45aDE1NC4yYzAgMjctMjEuOSA0OC45LTQ4LjkgNDguOWgtNTYuM2MtMTIuMy0uNi0yNC42IDExLjYtMjQgMjR6bTE3Ni4zIDcyaC01Ni4zYy0xMi4zLS42LTI0LjYgMTEuNi0yNCAyNHY1Ni4zYzAgMjctMjEuOSA0OC45LTQ4LjkgNDguOVYyNDcuOWMwLTEzLjIgMTAuNy0yMy45IDIzLjktMjMuOWgxNTQuMmMwIDI3LTIxLjkgNDguOS00OC45IDQ4Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![red-river](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/red-river.svg)
  */
 const RedRiver: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

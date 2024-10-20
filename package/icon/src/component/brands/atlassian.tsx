@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `atlassian` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/atlassian?s=brands atlassian}
- * @preview ![atlassian](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyLjIgMjM2LjRjLTcuNy04LjItMTkuNy03LjctMjQuOCAyLjhMMS42IDQ5MC4yYy01IDEwIDIuNCAyMS43IDEzLjQgMjEuN2gxNzVjNS44LjEgMTEtMy4yIDEzLjQtOC40IDM3LjktNzcuOCAxNS4xLTE5Ni4zLTUxLjItMjY3LjF6TTI0NC40IDguMWMtMTIyLjMgMTkzLjQtOC41IDM0OC42IDY1IDQ5NS41IDIuNSA1LjEgNy43IDguNCAxMy40IDguNEg0OTdjMTEuMiAwIDE4LjQtMTEuOCAxMy40LTIxLjcgMCAwLTIzNC41LTQ3MC42LTI0MC40LTQ4Mi4zLTUuMy0xMC42LTE4LjgtMTAuOC0yNS42LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![atlassian](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/atlassian.svg)
  */
 const Atlassian: typeof Icon = x => (
     <Icon {...x}>

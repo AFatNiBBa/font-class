@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-ski-jumping` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-ski-jumping?s=light person-ski-jumping}
- * @preview ![person-ski-jumping](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDU2YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bS04MCAwYTU2IDU2IDAgMSAxIDExMiAwQTU2IDU2IDAgMSAxIDM1MiA1NnpNMTEyIDExMmMwLTguOCA3LjItMTYgMTYtMTZsMTYwIDAgMTkuMiAwYzI0LjggMCA0NC44IDIwLjEgNDQuOCA0NC44YzAgMTguMS0xMC44IDM0LjMtMjcuNSA0MS4zTDIwNyAyMzEuNWMtMS42IDIuNC0zIDQuOS00LjIgNy41TDE0Mi42IDM3NC41Yy0zLjYgOC4xLTEzIDExLjctMjEuMSA4LjFzLTExLjctMTMtOC4xLTIxLjFsNjAuMi0xMzUuNGMyLjYtNS45IDYtMTEuNSA5LjktMTYuNmMuNS0uNyAxLTEuMyAxLjUtMS45Yy4zLS40IC42LS43IC45LTEuMUwyNTMuMiAxMjggMTI4IDEyOGMtOC44IDAtMTYtNy4yLTE2LTE2em0xODMuNCAxNmwtNDIuNSA0OS42IDU5LjMtMjQuOWM0LjgtMiA3LjktNi43IDcuOS0xMS44YzAtNy4xLTUuNy0xMi44LTEyLjgtMTIuOGwtMTEuOCAwek00OTYgMTc2YzguOCAwIDE2IDcuMiAxNiAxNmwwIDcuM2MwIDM1LjktMjAgNjguOC01MS45IDg1LjNMMjMuMyA1MTAuMmMtNy45IDQuMS0xNy41IDEtMjEuNi02LjlzLTEtMTcuNSA2LjktMjEuNkw0NDUuNCAyNTYuMWMyMS4zLTExIDM0LjYtMzIuOSAzNC42LTU2LjlsMC03LjNjMC04LjggNy4yLTE2IDE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-ski-jumping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-ski-jumping.svg)
  */
 const PersonSkiJumping: typeof Icon = x => (
     <Icon {...x}>

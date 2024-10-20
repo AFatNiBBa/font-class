@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-exclamation?s=sharp-thin file-exclamation}
- * @preview ![file-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2TDE2IDE2bDE5MiAwIDAgMTUyIDAgOCA4IDAgMTUyIDAgMCAzMjBMMTYgNDk2ek0yMjQgMjIuNkwzNjEuNCAxNjAgMjI0IDE2MGwwLTEzNy40ek0yMjQgMEwxNiAwIDAgMCAwIDE2IDAgNDk2bDAgMTYgMTYgMCAzNTIgMCAxNiAwIDAtMTYgMC0zMzZMMjI0IDB6TTIwMCAyMDhsLTE2IDAgMCA4IDAgMTQ0IDAgOCAxNiAwIDAtOCAwLTE0NCAwLTh6TTE3NiA0MDBsMCAzMiAzMiAwIDAtMzItMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-exclamation.svg)
  */
 const FileExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `flask-round-potion` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-round-potion?s=sharp-duotone-solid flask-round-potion}
- * @preview ![flask-round-potion](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNiAzNTJjMCA2NC4zIDI5LjIgMTIxLjggNzUuMSAxNjBsMjY1LjggMGM0NS45LTM4LjIgNzUuMS05NS43IDc1LjEtMTYwYzAtODAuMi00NS40LTE0OS45LTExMi0xODQuNkwzMjAgNjRsMzIgMCAwLTY0TDMyMCAwIDI1NiAwIDE5MiAwIDEyOCAwIDk2IDBsMCA2NCAzMiAwIDAgMTAzLjRDNjEuNCAyMDIuMSAxNiAyNzEuOCAxNiAzNTJ6bTY0IDBjMC03LjIgLjUtMTQuMyAxLjUtMjEuMmM2LjgtNDYuNCAzNS44LTg1LjcgNzYtMTA2LjZMMTkyIDIwNi4ybDAtMzguOEwxOTIgNjRsNjQgMCAwIDEwMy40IDAgMzguOCAzNC40IDE3LjlDMzM2LjcgMjQ4LjMgMzY4IDI5Ni41IDM2OCAzNTJjMCAzNi45LTEzLjggNzAuNS0zNi43IDk2bC0yMTQuNyAwQzkzLjggNDIyLjUgODAgMzg4LjkgODAgMzUyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzY4IDM1MmMwIDM2LjktMTMuOCA3MC41LTM2LjcgOTZsLTIxNC43IDBDOTMuOCA0MjIuNSA4MCAzODguOSA4MCAzNTJjMC03LjIgLjUtMTQuMyAxLjUtMjEuMmMyMS05LjYgNTIuMi0xOC44IDk0LjUtMTguOGMzOS45IDAgNjAuMSA4LjIgODIuMSAxNy4yYzI0LjUgMTAgNTEuMyAyMC45IDEwOS45IDIyLjZsMCAuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![flask-round-potion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/flask-round-potion.svg)
  */
 const FlaskRoundPotion: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M16 352c0 64.3 29.2 121.8 75.1 160l265.8 0c45.9-38.2 75.1-95.7 75.1-160c0-80.2-45.4-149.9-112-184.6L320 64l32 0 0-64L320 0 256 0 192 0 128 0 96 0l0 64 32 0 0 103.4C61.4 202.1 16 271.8 16 352zm64 0c0-7.2 .5-14.3 1.5-21.2c6.8-46.4 35.8-85.7 76-106.6L192 206.2l0-38.8L192 64l64 0 0 103.4 0 38.8 34.4 17.9C336.7 248.3 368 296.5 368 352c0 36.9-13.8 70.5-36.7 96l-214.7 0C93.8 422.5 80 388.9 80 352z" />
-            <path d="M368 352c0 36.9-13.8 70.5-36.7 96l-214.7 0C93.8 422.5 80 388.9 80 352c0-7.2 .5-14.3 1.5-21.2c21-9.6 52.2-18.8 94.5-18.8c39.9 0 60.1 8.2 82.1 17.2c24.5 10 51.3 20.9 109.9 22.6l0 .2z" />
+        <path d="M368 352c0 36.9-13.8 70.5-36.7 96l-214.7 0C93.8 422.5 80 388.9 80 352c0-7.2 .5-14.3 1.5-21.2c21-9.6 52.2-18.8 94.5-18.8c39.9 0 60.1 8.2 82.1 17.2c24.5 10 51.3 20.9 109.9 22.6l0 .2z" />
     </Icon>
 );
 

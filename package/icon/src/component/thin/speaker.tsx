@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `speaker` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/speaker?s=thin speaker}
- * @preview ![speaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTZDMzcuNSAxNiAxNiAzNy41IDE2IDY0bDAgMzg0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDI1NiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzg0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDE2ek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDM4NGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6TTI4OCAzMzZBOTYgOTYgMCAxIDAgOTYgMzM2YTk2IDk2IDAgMSAwIDE5MiAwek04MCAzMzZhMTEyIDExMiAwIDEgMSAyMjQgMEExMTIgMTEyIDAgMSAxIDgwIDMzNnptMTEyIDMyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMC04MGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6bTMyLTE3NmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0tODAgMGE0OCA0OCAwIDEgMSA5NiAwIDQ4IDQ4IDAgMSAxIC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![speaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/speaker.svg)
  */
 const Speaker: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

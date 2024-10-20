@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `citrus-slice` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/citrus-slice?s=regular citrus-slice}
- * @preview ![citrus-slice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNyAzOTFjLTQuNSA0LjUtNyAxMC42LTcgMTdzMi41IDEyLjUgNyAxN2MxMTUuNiAxMTUuNiAzMDIuNiAxMTYgNDE4LjMgLjNTNTQwLjUgMTIyLjYgNDI1IDdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwTDcgMzkxem0zODQuMyAuM2MtOTEuMSA5MS4xLTIzNS4yIDk2LjItMzMyLjYgMTUuOGwyMi40LTIyLjRDMTE4LjEgNDE0LjMgMTY1IDQzMiAyMTYgNDMyYzExOS4zIDAgMjE2LTk2LjcgMjE2LTIxNmMwLTUxLTE3LjctOTcuOS00Ny4yLTEzNC44bDIyLjQtMjIuNGM4MC40IDk3LjQgNzUuMyAyNDEuNS0xNS44IDMzMi42em0tNDAuOC0yNzZjMTMuMyAxNy44IDIzLjIgMzguMyAyOC43IDYwLjZsLTg5LjMgMCA2MC42LTYwLjZ6TTI3MiAyMDhsMTExLjggMGMuMSAyLjcgLjIgNS4zIC4yIDhjMCA0MC42LTE0LjQgNzcuOS0zOC40IDEwNi45bC04Mi40LTgyLjRjNS45LTEwIDguOS0yMS4zIDguOS0zMi41em0tMzEuNSA1NS4xbDgyLjQgODIuNEMyOTMuOSAzNjkuNiAyNTYuNiAzODQgMjE2IDM4NGMtMi43IDAtNS4zLS4xLTgtLjJMMjA4IDI3MmMxMS4zIDAgMjIuNS0zIDMyLjUtOC45ek0xMTUuNCAzNTAuNkwxNzYgMjg5LjlsMCA4OS4zYy0yMi4zLTUuNC00Mi44LTE1LjMtNjAuNi0yOC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![citrus-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/citrus-slice.svg)
  */
 const CitrusSlice: typeof Icon = x => (
     <Icon {...x}>

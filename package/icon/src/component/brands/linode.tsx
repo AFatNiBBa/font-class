@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `linode` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/linode?s=brands linode}
- * @preview ![linode](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY2LjAzNiwxODYuODY3bC01OS41LDM2Ljg3MS0uODM4LDM2Ljg3MS0yOS4zMjktMTkuMjczLTM5LjM4NCwyNC4zYzIuMjM4LDU1LjIxMSwyLjQ4Myw1OS4yNzEsMi41MSw1OS41bC05Ny4yLDY1LjM1OUwxMjcuMjE0LDI4NS43NDhsMTA4LjEtNjIuMDFMMTk1LjA5LDE5Ny43NjFsLTc1LjQxNywzOC41NDdMOTguNzIzLDkzLjAxNSwyMjcuNzcxLDQzLjU3NCwxMzYuNDMyLDAsMTAuNzM3LDM5LjM4NSwzOC4zOSwxNzQuM2w0MS45LDMyLjY4MUw0OC40NDUsMjIyLjA2Miw2OS4zOTQsMzIzLjQ1Nyw5OC43MjMsMzUxLjExLDc3Ljc3NCwzNjMuNjc5bDE2Ljc2LDc4Ljc2OUwxNjAuNzMzLDUxMmMtMTAuOC03NC44NDItMTEuNjU4LTc4LjY0MS0xMS43MjUtNzguNzczbDc3LjkyNS01NS4zYzE2Ljc1OS0xMi41NywxNS4wODMtMTAuODk0LDE1LjA4My0xMC44OTRsLjgzOCwyNC4zLDMzLjUxOSwyOC40OTEtLjgzOC03Ny4wOTMsNDYuOTI3LTMzLjUxOSwyNi44MTUtMTguNDM1LTIuNTE0LDM2LjAzMywyNS4xMzksMTcuNiw2LjctNzQuNTc5LDU4LjY1Ny00My41NzVaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![linode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/linode.svg)
  */
 const Linode: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

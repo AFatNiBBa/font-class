@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-exclamation?s=sharp-light bell-exclamation}
- * @preview ![bell-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDBsMzIgMCAwIDMyLjhjODAuOSA4IDE0NCA3Ni4yIDE0NCAxNTkuMmwwIDk3LjQgNTkuMyA1OS4zIDQuNyA0LjcgMCA2LjYgMCA0MCAwIDE2LTE2IDBMMTYgNDE2IDAgNDE2bDAtMTYgMC00MCAwLTYuNiA0LjctNC43TDY0IDI4OS40IDY0IDE5MmMwLTgzIDYzLjEtMTUxLjIgMTQ0LTE1OS4yTDIwOCAwem0xNiA2NEMxNTMuMyA2NCA5NiAxMjEuMyA5NiAxOTJsMCAxMDQgMCA2LjYtNC43IDQuN0wzMiAzNjYuNiAzMiAzODRsMzg0IDAgMC0xNy40LTU5LjMtNTkuMy00LjctNC43IDAtNi42IDAtMTA0YzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4ek0xNjAgNDQ4bDMyIDBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwzMiAwYzAgMzUuMy0yOC43IDY0LTY0IDY0cy02NC0yOC43LTY0LTY0em04MC0zMzZsMCAxNiAwIDExMiAwIDE2LTMyIDAgMC0xNiAwLTExMiAwLTE2IDMyIDB6bTggMTg0bDAgNDgtNDggMCAwLTQ4IDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bell-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bell-exclamation.svg)
  */
 const BellExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

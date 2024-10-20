@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ellipsis-stroke` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ellipsis-stroke?s=sharp-light ellipsis-stroke}
- * @preview ![ellipsis-stroke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjI0bDY0IDAgMCA2NC02NCAwIDAtNjR6TTMyIDI4OGwwIDMyIDMyIDAgNjQgMCAzMiAwIDAtMzIgMC02NCAwLTMyLTMyIDAtNjQgMC0zMiAwIDAgMzIgMCA2NHptMTkyLTY0bDY0IDAgMCA2NC02NCAwIDAtNjR6bS0zMiA2NGwwIDMyIDMyIDAgNjQgMCAzMiAwIDAtMzIgMC02NCAwLTMyLTMyIDAtNjQgMC0zMiAwIDAgMzIgMCA2NHptMTkyIDBsMC02NCA2NCAwIDAgNjQtNjQgMHptLTMyIDMybDMyIDAgNjQgMCAzMiAwIDAtMzIgMC02NCAwLTMyLTMyIDAtNjQgMC0zMiAwIDAgMzIgMCA2NCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ellipsis-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ellipsis-stroke.svg)
  */
 const EllipsisStroke: typeof Icon = x => (
     <Icon {...x}>

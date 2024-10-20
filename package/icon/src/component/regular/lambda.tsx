@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lambda` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lambda?s=regular lambda}
- * @preview ![lambda](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMzJDMTAuNyAzMiAwIDQyLjcgMCA1NlMxMC43IDgwIDI0IDgwbDEwOC42IDBjMyAwIDUuNyAxLjcgNy4xIDQuM2wxMC4yIDE5LjZMMiA0NDYuNWMtNS4zIDEyLjIgLjQgMjYuMyAxMi41IDMxLjVzMjYuMy0uMyAzMS41LTEyLjVMMTc4LjQgMTU4LjlsMTUxLjMgMjkxYzkuNiAxOC41IDI4LjggMzAuMiA0OS43IDMwLjJsNDQuNiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC00NC42IDBjLTMgMC01LjctMS43LTcuMS00LjNMMTgyLjMgNjIuMkMxNzIuNiA0My42IDE1My41IDMyIDEzMi42IDMyTDI0IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lambda](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/lambda.svg)
  */
 const Lambda: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

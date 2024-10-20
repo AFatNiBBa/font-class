@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tags` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tags?s=sharp-thin tags}
- * @preview ![tags](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ1Ny40TDE2IDI0OS40IDE2IDQ4bDIwMS40IDBMNDAwIDIzMC42bDAgNTAuNy0xNzYgMTc2ek00MTYgMjI0TDIyNCAzMiAxNiAzMiAwIDMyIDAgNDggMCAyNTYgMjEyLjcgNDY4LjcgMjI0IDQ4MGwxMS4zLTExLjNMNDE2IDI4OGwwLTY0ek0zNDQgMzYuN0wzMzIuNyA0OGw1LjcgNS43TDQ5NC4yIDIwOS42bDAgOTIuOUwzMzguMyA0NTguM2wtNS43IDUuN0wzNDQgNDc1LjNsNS43LTUuN0w1MDcuOSAzMTEuNGwyLjMtMi4zIDAtMy4zIDAtOTkuNSAwLTMuMy0yLjMtMi4zTDM0OS43IDQyLjMgMzQ0IDM2Ljd6TTE1MiAxNDRhNDAgNDAgMCAxIDAgLTgwIDAgNDAgNDAgMCAxIDAgODAgMHptLTQwLTI0YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tags](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tags.svg)
  */
 const Tags: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `6` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/6?s=duotone 6}
- * @preview ![6](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yMzIuNCA4NC43YzExLjQtMTMuNSA5LjctMzMuNy0zLjgtNDUuMXMtMzMuNy05LjctNDUuMSAzLjhMMzguNiAyMTQuN0MxNC43IDI0Mi45IDEuMSAyNzguNCAuMSAzMTUuMmMwIDEuNC0uMSAyLjktLjEgNC4zbDAgLjVjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBzMTYwLTcxLjYgMTYwLTE2MGMwLTg1LjUtNjcuMS0xNTUuNC0xNTEuNS0xNTkuOGw2My45LTc1LjZ6TTI1NiAzMjBBOTYgOTYgMCAxIDEgNjQgMzIwYTk2IDk2IDAgMSAxIDE5MiAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSIiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/6.svg)
  */
 const $6: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

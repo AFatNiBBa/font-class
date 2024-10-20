@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fire-flame` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-flame?s=sharp-solid fire-flame}
- * @preview ![fire-flame](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAzLjEgOS43TDE5MiAwIDE4MC45IDkuN0MxMDQuMiA3Ni44IDQ1LjcgMTYyLjIgMTAuOSAyNThDMy43IDI3Ny44IDAgMjk5IDAgMzIwLjJDMCA0MjUuNCA4Ni44IDUxMiAxOTIgNTEyczE5Mi04Ni42IDE5Mi0xOTEuOGMwLTIxLjEtMy43LTQyLjMtMTAuOS02Mi4yYy0zNC44LTk1LjgtOTMuMy0xODEuMi0xNzAtMjQ4LjN6TTIwOCAxNDRsMCAxNS45YzAgMTIuOSA1LjIgMjUuMiAxNC4zIDM0LjJsNDcuMSA0Ni40QzI5MS41IDI2Mi4yIDMwNCAyOTIgMzA0IDMyM2MwIDYwLjItNDguOCAxMDktMTA5IDEwOWwtMyAwYy02MS45IDAtMTEyLTUwLjYtMTEyLTExMi40YzAtMjUuNSAxMi00OS42IDMyLjQtNjQuOUwxMjggMjQzbDAgNTVjMCAyNC4zIDE5LjggNDQgNDQuMSA0NGMyNC4yIDAgNDMuOS0xOS42IDQzLjktNDMuOGMwLTExLjYtNC42LTIyLjgtMTIuOC0zMWwtMTYuOC0xNi44Yy0xMS43LTExLjctMTguMy0yNy43LTE4LjMtNDQuM2MwLTE5IDguNi0zNyAyMy41LTQ4LjlMMjA4IDE0NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fire-flame](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fire-flame.svg)
  */
 const FireFlame: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

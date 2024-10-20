@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `planet-moon` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/planet-moon?s=regular planet-moon}
- * @preview ![planet-moon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDBhNjQgNjQgMCAxIDEgMCAxMjhBNjQgNjQgMCAxIDEgNTEyIDB6TTIyNCA0NjRjOTcuMiAwIDE3Ni03OC44IDE3Ni0xNzZjMC04Mi4yLTU2LjQtMTUxLjMtMTMyLjYtMTcwLjZsLTcxIDgyLjljLTExLjUgMTMuNC0xMC43IDMzLjQgMS44IDQ1LjljNi4zIDYuMyAxNC45IDkuOSAyMy45IDkuOWw2NiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTUuOWMwIDEwLjYtMi42IDIxLTcuNiAzMC4zbC00MS4zIDc2LjZjLTQuNCA4LjEtMTIuOCAxMy4yLTIyIDEzLjJjLTEzLjggMC0yNS0xMS4yLTI1LTI1bDAtNDdjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMzItNDkuOS00OS45Yy05LTktMjEuMi0xNC4xLTMzLjktMTQuMUw2MCAyMjRjLTcuNyAxOS44LTEyIDQxLjQtMTIgNjRjMCA5Ny4yIDc4LjggMTc2IDE3NiAxNzZ6TTAgMjg4YzAtNTIuMyAxNy45LTEwMC41IDQ4LTEzOC42YzEtMS4zIDIuMS0yLjYgMy4yLTMuOUM5Mi4yIDk1LjcgMTU0LjQgNjQgMjI0IDY0YzEzLjMgMCAyNi40IDEuMiAzOS4xIDMuNEMzNjguMiA4NS45IDQ0OCAxNzcuNiA0NDggMjg4YzAgMTIzLjctMTAwLjMgMjI0LTIyNCAyMjRTMCA0MTEuNyAwIDI4OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![planet-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/planet-moon.svg)
  */
 const PlanetMoon: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

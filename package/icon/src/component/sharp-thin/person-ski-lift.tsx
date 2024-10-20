@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-ski-lift` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-ski-lift?s=sharp-thin person-ski-lift}
- * @preview ![person-ski-lift](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBMMjQwIDBsMCA4IDAgMTk0LjYgMTYtNC4zTDI1NiA4bDAtOHptMCAzMTQuMkwyNTYgNDMybDAgNS43TDEwMS4yIDQ5Ni41bDUuNyAxNSA0MDAtMTUyIDUuMi0yIDAtNS41IDAtNTYgMC04LTE2IDAgMCA4IDAgNTAuNUwzMjAgNDEzLjQgMzIwIDI1NmwtNDAuMi0zMC45LTY1LjkgMTcuNi0zMi43LTcxLjktNy4xLTE1LjUtNi42LTE0LjYtMTQuMyA3LjEtMTUuMyA3LjYtMjYuMSAxMi45TDgzLjggMTgybDEzLjEgMjguMyAzNi40IDc4LjljOS44IDIxLjIgMzMuNCAzMi4zIDU1LjkgMjYuM0wyNDAgMzAxLjlsMTYtNC4zIDAgMTYuNnptNDggMTA1LjJsLTMyIDEyLjIgMC0xMzQgMC0yMC44LTIwLjEgNS40TDE4NS4xIDMwMGMtMTUgNC0zMC44LTMuNC0zNy4zLTE3LjVsLTM2LjQtNzguOS02LjUtMTQuMSAxNC02LjkgMjYuMS0xMi45IDE0LjgtNy4zIDYuOCAxNS4xIDMyLjcgNzEuOSA1LjYgMTIuMyAxMy4xLTMuNSA1OC4zLTE1LjZMMzA0IDI2My45bDAgMTU1LjZ6TTExMiA0OGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTQ4IDMyQTQ4IDQ4IDAgMSAwIDY0IDgwYTQ4IDQ4IDAgMSAwIDk2IDB6TTk2LjYgMzk1LjJsMyA3LjEgNy4yLTIuOCAxMDQtNDAgNy41LTIuOS01LjctMTQuOS03LjUgMi45LTk2LjggMzcuMi05My0yMTYuOUwuNiAxNzEuMmw5NiAyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-ski-lift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-ski-lift.svg)
  */
 const PersonSkiLift: typeof Icon = x => (
     <Icon {...x}>

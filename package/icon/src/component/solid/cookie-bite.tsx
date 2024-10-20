@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cookie-bite` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cookie-bite?s=solid cookie-bite}
- * @preview ![cookie-bite](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU3LjUgMjcuNmMtLjgtNS40LTQuOS05LjgtMTAuMy0xMC42Yy0yMi4xLTMuMS00NC42IC45LTY0LjQgMTEuNGwtNzQgMzkuNUM4OS4xIDc4LjQgNzMuMiA5NC45IDYzLjQgMTE1TDI2LjcgMTkwLjZjLTkuOCAyMC4xLTEzIDQyLjktOS4xIDY0LjlsMTQuNSA4Mi44YzMuOSAyMi4xIDE0LjYgNDIuMyAzMC43IDU3LjlsNjAuMyA1OC40YzE2LjEgMTUuNiAzNi42IDI1LjYgNTguNyAyOC43bDgzIDExLjdjMjIuMSAzLjEgNDQuNi0uOSA2NC40LTExLjRsNzQtMzkuNWMxOS43LTEwLjUgMzUuNi0yNyA0NS40LTQ3LjJsMzYuNy03NS41YzkuOC0yMC4xIDEzLTQyLjkgOS4xLTY0LjljLS45LTUuMy01LjMtOS4zLTEwLjYtMTAuMWMtNTEuNS04LjItOTIuOC00Ny4xLTEwNC41LTk3LjRjLTEuOC03LjYtOC0xMy40LTE1LjctMTQuNmMtNTQuNi04LjctOTcuNy01Mi0xMDYuMi0xMDYuOHpNMjA4IDE0NGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6TTE0NCAzMzZhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptMjI0LTY0YTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cookie-bite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cookie-bite.svg)
  */
 const CookieBite: typeof Icon = x => (
     <Icon {...x}>

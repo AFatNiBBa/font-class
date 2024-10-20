@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield?s=light shield}
- * @preview ![shield](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY4LjUgMzcuM2MtOC0zLjQtMTctMy40LTI1IDBsLTE3Ni43IDc1QzU1LjUgMTE3IDQ3LjkgMTI3LjcgNDggMTM5LjhjLjUgOTQgMzkuMyAyNTkuOCAxOTUuNCAzMzQuNWM3LjkgMy44IDE3LjIgMy44IDI1LjEgMGMxNTYuMS03NC43IDE5NS0yNDAuNCAxOTUuNS0zMzQuNWMuMS0xMi4xLTcuNS0yMi44LTE4LjgtMjcuNmwtMTc2LjctNzV6TTIzMSA3LjhjMTYtNi44IDM0LTYuOCA1MCAwbDE3Ni43IDc1YzIyIDkuMyAzOC40IDMxIDM4LjMgNTcuMmMtLjUgOTkuMi00MS4zIDI4MC43LTIxMy42IDM2My4yYy0xNi43IDgtMzYuMSA4LTUyLjggMEM1Ny4zIDQyMC43IDE2LjUgMjM5LjIgMTYgMTQwYy0uMS0yNi4yIDE2LjMtNDcuOSAzOC4zLTU3LjJMMjMxIDcuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shield.svg)
  */
 const Shield: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pencil-mechanical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil-mechanical?s=solid pencil-mechanical}
- * @preview ![pencil-mechanical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc1LjMgMTEuM0M0NjguMSA0LjEgNDU4LjIgMCA0NDggMHMtMjAuMSA0LjEtMjcuMyAxMS4zTDM5MC42IDQxLjRsODAgODAgMzAuMS0zMC4xQzUwNy45IDg0LjEgNTEyIDc0LjIgNTEyIDY0cy00LjEtMjAuMS0xMS4zLTI3LjNMNDc1LjMgMTEuM3ptLTIzMyA3Ni4zYzMuMS0zLjEgOC4yLTMuMSAxMS4zIDBMMjgzIDExNyA3Mi44IDMyNy4yQzY3IDMzMyA2Mi44IDM0MC4xIDYwLjYgMzQ4TDMyLjggNDQ1LjMgNyA0NzFjLTkuNCA5LjQtOS40IDI0LjYgMCAzMy45czI0LjYgOS40IDMzLjkgMGwyNS43LTI1LjdMMTY0IDQ1MS40YzcuOC0yLjIgMTUtNi40IDIwLjgtMTIuMkw0MzYuNyAxODcuM2M3LjItNy4yIDExLjMtMTcuMSAxMS4zLTI3LjNzLTQuMS0yMC4xLTExLjMtMjcuM0wzNzkuMyA3NS4zQzM3Mi4xIDY4LjEgMzYyLjIgNjQgMzUyIDY0cy0yMC4xIDQuMS0yNy4zIDExLjNMMzE3IDgzIDI4Ny42IDUzLjdjLTIxLjktMjEuOS01Ny4zLTIxLjktNzkuMiAwTDEwMyAxNTljLTkuNCA5LjQtOS40IDI0LjYgMCAzMy45czI0LjYgOS40IDMzLjkgMEwyNDIuMyA4Ny42ek04OS4xIDQyMi45bDE3LjMtNjAuNSA0My4yIDQzLjJMODkuMSA0MjIuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pencil-mechanical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pencil-mechanical.svg)
  */
 const PencilMechanical: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-bump` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-bump?s=sharp-regular car-bump}
- * @preview ![car-bump](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjkuNSA3OS40TDg1LjkgNzUgMzM4LjcgNy4zbDE2LTQuMyA5LjcgMTMuNCA3My4xIDEwMC44IDIuNS0uNyA0Ni40LTEyLjQgMTIuNCA0Ni40TDUyOS44IDI2NmwxMi40IDQ2LjRzMCAwIDAgMGwxOS45IDc0LjQtNDQuNiAxMi0xOS45LTc0LjQtMS43IC41TDExMi42IDQyNy40bC0xLjcgLjUgMTkuOSA3NC40LTQ0LjYgMTJMNjYuMiA0MzkuOCA2MCA0MTYuNWwtNi4yLTIzLjFMMjIuOSAyNzggMTAuNCAyMzEuNmw0Ni40LTEyLjQgMS43LS41TDY4LjIgOTYuM2wxLjMtMTYuOXpNMzM1LjIgNTcuOUwxMTQuNyAxMTdsLTcgODguNiAyODAuMS03NS4xTDMzNS4yIDU3Ljl6TTY5LjIgMjY1LjZsMzAuOSAxMTUuNUw0ODMuNCAyNzguNCA0NTIuNCAxNjIuOSA2OS4yIDI2NS42em00My41IDUwLjJhMzAuOCAzMC44IDAgMSAxIDU5LjUtMTUuOSAzMC44IDMwLjggMCAxIDEgLTU5LjUgMTUuOXpNNDAyLjIgMjA2LjRhMzAuOCAzMC44IDAgMSAxIDE1LjkgNTkuNSAzMC44IDMwLjggMCAxIDEgLTE1LjktNTkuNXpNNTEwLjkgNDE2YzU2LjQgMCAxMDMuMSA0MS43IDExMC45IDk2TDQwMCA1MTJjNy44LTU0LjMgNTQuNC05NiAxMTAuOS05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![car-bump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/car-bump.svg)
  */
 const CarBump: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

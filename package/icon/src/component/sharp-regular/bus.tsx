@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bus?s=sharp-regular bus}
- * @preview ![bus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDI3MmwzNTIgMCAwIDEyOC0zMiAwLTY3LjggMEwxNDQgNDAwbC0zMiAwIDAtMTI4em0wLTQ4bDAtODAgMTUyIDAgMCA4MC0xNTIgMHptMzUyIDBsLTE1MiAwIDAtODAgMTUyIDAgMCA4MHpNMzY4IDk2bDAtMTZMMjA4IDgwbDAgMTYtOTIuNSAwYzYuOS02LjcgMTkuMi0xNS44IDM5LTI0LjVDMTgzLjUgNTguOCAyMjcgNDggMjg4IDQ4YzExMS43IDAgMTU3LjQgMzEgMTczLjEgNDhMMzY4IDk2ek04OCA0NDhsOCAwIDAgNDAgMCAyNCA0OCAwIDAtMjQgMC00MCAyMjAuMiAwIDY3LjggMCAwIDQwIDAgMjQgNDggMCAwLTI0IDAtNDAgOCAwIDI0IDAgMC0yNCAwLTE2OCAzMiAwIDAtMTI4LTMyIDAgMC0zNS45IDAtNi4zLTMuMS01LjVDNDkwLjMgNDcgNDI5LjYgMCAyODggMEMyMjEuNCAwIDE3MS4yIDExLjkgMTM1LjMgMjcuNUMxMDAuMiA0Mi45IDc2LjkgNjIuNyA2Ny4xIDgwLjRMNjQgODUuOGwwIDYuM0w2NCAxMjhsLTMyIDAgMCAxMjggMzIgMCAwIDE2OCAwIDI0IDI0IDB6bTg4LTgwYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMjI0IDBhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bus.svg)
  */
 const Bus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

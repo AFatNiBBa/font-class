@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-field` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-field?s=sharp-light pen-field}
- * @preview ![pen-field](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk0LjMgMzE4LjNMMjg4IDM1MmwzMy43LTYuM0w0MTYgMzI4IDYxNy40IDEyNi42IDY0MCAxMDQgNjE3LjQgODEuNCA1NTguNiAyMi42IDUzNiAwIDUxMy40IDIyLjYgMzEyIDIyNGwtMTcuNyA5NC4zem0zMy43LTYuM2wxMy42LTcyLjNMNDc5LjMgMTAxLjlsNTguNyA1OC43TDQwMC40IDI5OC40bC03Mi4zIDEzLjZ6TTU5NC43IDEwNGwtMzQuMSAzNC4xTDUwMS45IDc5LjMgNTM2IDQ1LjMgNTk0LjcgMTA0ek0xNiAxMjhMMCAxMjhsMCAxNkwwIDQ5NmwwIDE2IDE2IDAgNTQ0IDAgMTYgMCAwLTE2IDAtMjI0IDAtMTYtMzIgMCAwIDE2IDAgMjA4TDMyIDQ4MGwwLTMyMCAyNzIgMCAxNiAwIDAtMzItMTYgMEwxNiAxMjh6TTE1MiAyOTZsLTQ4IDAgMCA0OCA0OCAwIDAtNDh6bTQ4IDBsMCA0OCA0OCAwIDAtNDgtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pen-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pen-field.svg)
  */
 const PenField: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

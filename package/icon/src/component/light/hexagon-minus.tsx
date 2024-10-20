@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hexagon-minus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-minus?s=light hexagon-minus}
- * @preview ![hexagon-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjg4Yy0xMS40LTE5LjgtMTEuNC00NC4yIDAtNjRMMTA4LjMgNjQuMmMxMS40LTE5LjggMzIuNi0zMiA1NS40LTMybDE4NC42IDBjMjIuOSAwIDQ0IDEyLjIgNTUuNCAzMkw0OTYgMjI0YzExLjQgMTkuOCAxMS40IDQ0LjIgMCA2NEw0MDMuNyA0NDcuOGMtMTEuNCAxOS44LTMyLjYgMzItNTUuNCAzMmwtMTg0LjYgMGMtMjIuOSAwLTQ0LTEyLjItNTUuNC0zMkwxNiAyODh6bTI3LjctNDhjLTUuNyA5LjktNS43IDIyLjEgMCAzMkwxMzYgNDMxLjhjNS43IDkuOSAxNi4zIDE2IDI3LjcgMTZsMTg0LjYgMGMxMS40IDAgMjItNi4xIDI3LjctMTZMNDY4LjMgMjcyYzUuNy05LjkgNS43LTIyLjEgMC0zMkwzNzYgODAuMmMtNS43LTkuOS0xNi4zLTE2LTI3LjctMTZsLTE4NC42IDBjLTExLjQgMC0yMiA2LjEtMjcuNyAxNkw0My43IDI0MHpNMTYwIDI0MGwxOTIgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMTkyIDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hexagon-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hexagon-minus.svg)
  */
 const HexagonMinus: typeof Icon = x => (
     <Icon {...x}>

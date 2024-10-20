@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mitten` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mitten?s=sharp-thin mitten}
- * @preview ![mitten](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMzZDMCA2MC45IDYwLjkgMCAxMzYgMGwxNi4zIDBjNjAuMyAwIDExMy4zIDM5LjcgMTMwLjQgOTcuNWwzMy4zIDExMi44IDIxLjMtMzAuOCA0LjctNi44IDYuNiA0LjkgOTIuOCA2OC44IDYuMiA0LjYtNC40IDYuNEwzNjcuNiAzNjhsLTE5LjQgMCA3Ny42LTExMy40LTgwLTU5LjMtMjYuMSAzNy44LTkuNSAxMy43LTQuNy0xNkwyNjcuNCAxMDJjLTE1LjEtNTEtNjEuOS04Ni0xMTUuMS04NkwxMzYgMTZDNjkuNyAxNiAxNiA2OS43IDE2IDEzNmwwIDguMmMwIDkuOCAxLjIgMTkuNiAzLjYgMjkuMUw2OC4yIDM2OGwtMTYuNSAwTDQuMSAxNzcuMkMxLjQgMTY2LjQgMCAxNTUuNCAwIDE0NC4yTDAgMTM2ek00OCA0MTZsMCA4MCAzMjAgMCAwLTgwTDQ4IDQxNnpNMzIgNDAwbDE2IDAgMzIwIDAgMTYgMCAwIDE2IDAgODAgMCAxNi0xNiAwTDQ4IDUxMmwtMTYgMCAwLTE2IDAtODAgMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mitten](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mitten.svg)
  */
 const Mitten: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

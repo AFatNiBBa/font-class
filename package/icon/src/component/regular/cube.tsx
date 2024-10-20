@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cube` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cube?s=regular cube}
- * @preview ![cube](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU4LjggNTAuN2MtMS44LS43LTMuOC0uNy01LjcgMEw2My42IDEyMi42IDI1NiAxOTguMmwxOTIuNC03NS42TDI1OC44IDUwLjd6TTQ4IDM3Ny45YzAgMy4zIDIuMSA2LjMgNS4yIDcuNUwyMzIgNDUzLjJsMC0yMTIuOUw0OCAxNjguMWwwIDIwOS44em0yMzIgNzUuM2wxNzguOC02Ny44YzMuMS0xLjIgNS4yLTQuMiA1LjItNy41bDAtMjA5LjhMMjgwIDI0MC40bDAgMjEyLjl6TTIzNi4xIDUuOWMxMi44LTQuOSAyNi45LTQuOSAzOS43IDBsMjAwIDc1LjlDNDk3LjYgOTAgNTEyIDExMC44IDUxMiAxMzQuMWwwIDI0My44YzAgMjMuMy0xNC40IDQ0LjEtMzYuMSA1Mi40bC0yMDAgNzUuOWMtMTIuOCA0LjktMjYuOSA0LjktMzkuNyAwbC0yMDAtNzUuOUMxNC40IDQyMiAwIDQwMS4yIDAgMzc3LjlMMCAxMzQuMUMwIDExMC44IDE0LjQgOTAgMzYuMSA4MS43bDIwMC03NS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cube](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cube.svg)
  */
 const Cube: typeof Icon = x => (
     <Icon {...x}>

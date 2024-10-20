@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `faucet` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/faucet?s=sharp-light faucet}
- * @preview ![faucet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDgwbDAtMTYtMzIgMCAwIDE2IDAgNDhMODAgMTI4bC0xNiAwIDAgMzIgMTYgMCAxMjggMCAwIDQ4LTMyIDAtNi42IDAtNC43IDQuN0wxMjEuNCAyNTYgMTYgMjU2IDAgMjU2bDAgMzIgMTYgMCAxMTIgMCA2LjYgMCA0LjctNC43TDE4Mi42IDI0MGw4Mi43IDAgNDMuMyA0My4zIDQuNyA0LjcgNi42IDAgNDggMGM2MS45IDAgMTEyIDUwLjEgMTEyIDExMmwwIDE2LTY0IDAgMC0xNmMwLTI2LjUtMjEuNS00OC00OC00OGwtNjAuOCAwLTkuMiAwLTQuNiA4Yy0xMy45IDI0LTM5LjcgNDAtNjkuMyA0MHMtNTUuNS0xNi4xLTY5LjMtNDBsLTQuNi04LTkuMiAwTDE2IDM1MiAwIDM1MmwwIDMyIDE2IDAgMTE2LjEgMGMyMC4yIDI5IDUzLjggNDggOTEuOSA0OHM3MS43LTE5IDkxLjktNDhsNTIuMSAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyIDAgMTYgMTYgMCA5NiAwIDE2IDAgMC0xNiAwLTMyYzAtNzkuNS02NC41LTE0NC0xNDQtMTQ0bC00MS40IDAtNDMuMy00My4zLTQuNy00LjctNi42IDAtMzIgMCAwLTQ4IDEyOCAwIDE2IDAgMC0zMi0xNiAwLTEyOCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![faucet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/faucet.svg)
  */
 const Faucet: typeof Icon = x => (
     <Icon {...x}>

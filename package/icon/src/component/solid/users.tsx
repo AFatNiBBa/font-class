@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users?s=solid users}
- * @preview ![users](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBhODAgODAgMCAxIDEgMCAxNjBBODAgODAgMCAxIDEgMTQ0IDB6TTUxMiAwYTgwIDgwIDAgMSAxIDAgMTYwQTgwIDgwIDAgMSAxIDUxMiAwek0wIDI5OC43QzAgMjM5LjggNDcuOCAxOTIgMTA2LjcgMTkybDQyLjcgMGMxNS45IDAgMzEgMy41IDQ0LjYgOS43Yy0xLjMgNy4yLTEuOSAxNC43LTEuOSAyMi4zYzAgMzguMiAxNi44IDcyLjUgNDMuMyA5NmMtLjIgMC0uNCAwLS43IDBMMjEuMyAzMjBDOS42IDMyMCAwIDMxMC40IDAgMjk4Ljd6TTQwNS4zIDMyMGMtLjIgMC0uNCAwLS43IDBjMjYuNi0yMy41IDQzLjMtNTcuOCA0My4zLTk2YzAtNy42LS43LTE1LTEuOS0yMi4zYzEzLjYtNi4zIDI4LjctOS43IDQ0LjYtOS43bDQyLjcgMEM1OTIuMiAxOTIgNjQwIDIzOS44IDY0MCAyOTguN2MwIDExLjgtOS42IDIxLjMtMjEuMyAyMS4zbC0yMTMuMyAwek0yMjQgMjI0YTk2IDk2IDAgMSAxIDE5MiAwIDk2IDk2IDAgMSAxIC0xOTIgMHpNMTI4IDQ4NS4zQzEyOCA0MTEuNyAxODcuNyAzNTIgMjYxLjMgMzUybDExNy4zIDBDNDUyLjMgMzUyIDUxMiA0MTEuNyA1MTIgNDg1LjNjMCAxNC43LTExLjkgMjYuNy0yNi43IDI2LjdsLTMzMC43IDBjLTE0LjcgMC0yNi43LTExLjktMjYuNy0yNi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/users.svg)
  */
 const Users: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

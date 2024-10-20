@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-pointer` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-pointer?s=sharp-thin hand-pointer}
- * @preview ![hand-pointer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDBsLTggMCAwIDggMCAzMDgtNS45LTguMkw4Mi42IDI3NS40IDc3LjkgMjY5bC02LjUgNC43LTY0LjggNDdMLjIgMzI1LjNsNC43IDYuNSAyMy41IDMyLjQgNjQuMSA4OC4zQzExOS41IDQ4OS45IDE2Mi44IDUxMiAyMDkgNTEybDQ3IDAgMTYgMCA3MiAwYzU3LjQgMCAxMDQtNDYuNiAxMDQtMTA0bDAtODggMC04MCAwLTgtOCAwLTY0IDAgMC0yNCAwLTgtOCAwLTcyIDAgMC0xNiAwLTgtOCAwLTcyIDBMMjE2IDhsMC04LTggMEwxMjAgMHptOCAzMjYuM0wxMjggMTZsNzIgMCAwIDE2OCAwIDggOCAwIDcyIDAgMCAxNiAwIDggOCAwIDcyIDAgMCAyNCAwIDggOCAwIDY0IDAgMCA3MiAwIDg4YzAgNDguNi0zOS40IDg4LTg4IDg4bC03MiAwLTE2IDAtNDcgMGMtNDEgMC03OS42LTE5LjctMTAzLjYtNTIuOUw0MS4zIDM1NC44IDIyLjUgMzI4LjlsNTEuOC0zNy42IDE4LjggMjUuOUwxMDcuNSAzMzdsNS41IDcuNiA2LjYtNi42IDYuMS02LjEgMi4zLTIuMyAwLTMuM3pNMjI0IDMxMmwwLTgtMTYgMCAwIDggMCAxMTIgMCA4IDE2IDAgMC04IDAtMTEyem02NCAwbDAtOC0xNiAwIDAgOCAwIDExMiAwIDggMTYgMCAwLTggMC0xMTJ6bTY0IDBsMC04LTE2IDAgMCA4IDAgMTEyIDAgOCAxNiAwIDAtOCAwLTExMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-pointer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-pointer.svg)
  */
 const HandPointer: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

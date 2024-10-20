@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `torii-gate` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/torii-gate?s=regular torii-gate}
- * @preview ![torii-gate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTEyYzAgOC44IDcuMiAxNiAxNiAxNmwzODQgMGM4LjggMCAxNi03LjIgMTYtMTZsMC00Ny41LTEuNiAuNkM0MzcuOSA3NSA0MTEuNiA4MCAzODUuMiA4MEwxMjYuOCA4MGMtMjYuNSAwLTUyLjctNS03Ny4yLTE0LjlMNDggNjQuNSA0OCAxMTJ6TTAgMTEyTDAgMTMuNEMwIDYgNiAwIDEzLjQgMGMxLjcgMCAzLjQgLjMgNSAxbDQ5IDE5LjZDODYuMyAyOC4xIDEwNi41IDMyIDEyNi44IDMybDI1OC40IDBjMjAuNCAwIDQwLjUtMy45IDU5LjQtMTEuNEw0OTMuNiAxYzEuNi0uNiAzLjMtMSA1LTFDNTA2IDAgNTEyIDYgNTEyIDEzLjRsMCA5OC42YzAgMzUuMy0yOC43IDY0LTY0IDY0bDAgNjQgNDAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtNDAgMCAwIDIwMGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTIwMC0xNDQgMC0xNDQgMCAwIDIwMGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTIwMC00MCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0bDQwIDAgMC02NGMtMzUuMyAwLTY0LTI4LjctNjQtNjR6TTExMiAyNDBsMTIwIDAgMC02NC0xMjAgMCAwIDY0em0xNjgtNjRsMCA2NCAxMjAgMCAwLTY0LTEyMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![torii-gate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/torii-gate.svg)
  */
 const ToriiGate: typeof Icon = x => (
     <Icon {...x}>

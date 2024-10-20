@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `5` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/5?s=thin 5}
- * @preview ![5](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguMiAzOC4xYy45LTMuNiA0LjEtNi4xIDcuOC02LjFsMjI0IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhMNjIuMiA0OGwtNDQgMTc2TDE5MiAyMjRjNzAuNyAwIDEyOCA1Ny4zIDEyOCAxMjhzLTU3LjMgMTI4LTEyOCAxMjhsLTk2LjMgMGMtMzcuMyAwLTcxLjgtMjAtOTAuMy01Mi40TDEuMSA0MjBjLTIuMi0zLjgtLjktOC43IDMtMTAuOXM4LjctLjkgMTAuOSAzbDQuNCA3LjZDMzUgNDQ3LjEgNjQuMSA0NjQgOTUuNyA0NjRsOTYuMyAwYzYxLjkgMCAxMTItNTAuMSAxMTItMTEycy01MC4xLTExMi0xMTItMTEyTDggMjQwYy0yLjUgMC00LjgtMS4xLTYuMy0zLjFTLS40IDIzMi40IC4yIDIzMC4xbDQ4LTE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![5](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/5.svg)
  */
 const $5: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

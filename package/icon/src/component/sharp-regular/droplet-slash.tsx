@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `droplet-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-slash?s=sharp-regular droplet-slash}
- * @preview ![droplet-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA1LjUgMzY5LjdsMTE1LjQgODkuNiAxOSAxNC43LTI5LjQgMzcuOS0xOS0xNC43TDE5IDUyLjcgMCAzOCAyOS40IC4xbDE5IDE0LjdMMjA5LjkgMTQwLjJjMjcuOC00MC4zIDU3LjItNzcuNCA3OC42LTEwMy4zQzMwNy4zIDE0LjEgMzIwIDAgMzIwIDBzMTIuNyAxNC4xIDMxLjUgMzYuOUM0MDUuOSAxMDIuOCA1MTIgMjQxLjIgNTEyIDMyMGMwIDE3LjItMi4zIDMzLjgtNi41IDQ5Ljd6bS0yNTcuNi0yMDBMNDYzIDMzNi43Yy42LTUuNSAxLTExLjEgMS0xNi43YzAtMTQuNS03LjQtMzkuMi0yNC43LTcyLjhjLTE2LjUtMzItMzktNjYuNi02Mi4zLTk5Yy0yMC4yLTI4LjEtNDAuNS01My45LTU3LTc0LjFjLTE2LjUgMjAuMi0zNi44IDQ2LTU3IDc0LjFjLTUuMSA3LjEtMTAuMSAxNC4yLTE1LjEgMjEuNHpNNDU2LjEgNDU1LjRDNDIxLjQgNDkwLjQgMzczLjIgNTEyIDMyMCA1MTJjLTEwNiAwLTE5Mi04Ni0xOTItMTkyYzAtMjcuNCAxMi44LTYxLjkgMzEuOC05OC4xbDM4LjQgMzAuM0MxODIuNyAyODMuMiAxNzYgMzA2LjIgMTc2IDMyMGMwIDc5LjUgNjQuNSAxNDQgMTQ0IDE0NGMzNy45IDAgNzIuNC0xNC42IDk4LjEtMzguNmwzOCAzMHpNMzI4IDM2OGwwIDQ4Yy01Ny40IDAtMTA0LTQ2LjYtMTA0LTEwNGw0OCAwYzAgMzAuOSAyNS4xIDU2IDU2IDU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![droplet-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/droplet-slash.svg)
  */
 const DropletSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

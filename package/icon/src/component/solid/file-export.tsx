@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-export` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-export?s=solid file-export}
- * @preview ![file-export](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjI0IDBsMCAxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTI4IDAgMCAxMjgtMTY4IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMTY4IDAgMCAxMTJjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDY0ek0zODQgMzM2bDAtNDggMTEwLjEgMC0zOS0zOWMtOS40LTkuNC05LjQtMjQuNiAwLTMzLjlzMjQuNi05LjQgMzMuOSAwbDgwIDgwYzkuNCA5LjQgOS40IDI0LjYgMCAzMy45bC04MCA4MGMtOS40IDkuNC0yNC42IDkuNC0zMy45IDBzLTkuNC0yNC42IDAtMzMuOWwzOS0zOUwzODQgMzM2em0wLTIwOGwtMTI4IDBMMjU2IDAgMzg0IDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-export](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-export.svg)
  */
 const FileExport: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

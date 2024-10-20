@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-can-arrow-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-arrow-up?s=solid trash-can-arrow-up}
- * @preview ![trash-can-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYzLjggMEwyODQuMiAwYzEyLjEgMCAyMy4yIDYuOCAyOC42IDE3LjdMMzIwIDMybDk2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgOTZDMTQuMyA5NiAwIDgxLjcgMCA2NFMxNC4zIDMyIDMyIDMybDk2IDAgNy4yLTE0LjNDMTQwLjYgNi44IDE1MS43IDAgMTYzLjggMHpNMzIgMTI4bDM4NCAwIDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDk2IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0zMjB6bTE5MiA2NGMtNi40IDAtMTIuNSAyLjUtMTcgN2wtODAgODBjLTkuNCA5LjQtOS40IDI0LjYgMCAzMy45czI0LjYgOS40IDMzLjkgMGwzOS0zOUwyMDAgNDA4YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xMzQuMSAzOSAzOWM5LjQgOS40IDI0LjYgOS40IDMzLjkgMHM5LjQtMjQuNiAwLTMzLjlsLTgwLTgwYy00LjUtNC41LTEwLjYtNy0xNy03eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trash-can-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-can-arrow-up.svg)
  */
 const TrashCanArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

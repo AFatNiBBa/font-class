@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `id-card` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-card?s=sharp-light id-card}
- * @preview ![id-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzMiA1MTIgMCAwLTMyTDMyIDY0ek0wIDExMkwwIDY0IDAgMzJsMzIgMCA1MTIgMCAzMiAwIDAgMzIgMCA0OCAwIDMzNiAwIDMyLTMyIDBMMzIgNDgwIDAgNDgwbDAtMzJMMCAxMTJ6bTU0NCAxNkwzMiAxMjhsMCAzMjAgNTEyIDAgMC0zMjB6TTE5MiAyNTZhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0em0wLTk2YTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4ek0xMTMuNyA0MTZMODAgNDE2bDMyLTk2IDE2MCAwIDMyIDk2LTMzLjcgMC0yMS4zLTY0LTExMy45IDAtMjEuMyA2NHpNMzM2IDE5MmwxNiAwIDEyOCAwIDE2IDAgMCAzMi0xNiAwLTEyOCAwLTE2IDAgMC0zMnptMCA2NGwxNiAwIDEyOCAwIDE2IDAgMCAzMi0xNiAwLTEyOCAwLTE2IDAgMC0zMnptMCA2NGwxNiAwIDEyOCAwIDE2IDAgMCAzMi0xNiAwLTEyOCAwLTE2IDAgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![id-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/id-card.svg)
  */
 const IdCard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

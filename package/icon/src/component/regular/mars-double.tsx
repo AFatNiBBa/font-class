@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mars-double` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-double?s=regular mars-double}
- * @preview ![mars-double](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDU2YzAtMTMuMyAxMC43LTI0IDI0LTI0bDExMiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMTEyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtNTQuMS04My43IDgzLjdDMzM4LjcgMjI3LjIgMzUyIDI2NC4xIDM1MiAzMDRjMCA5Ny4yLTc4LjggMTc2LTE3NiAxNzZTMCA0MDEuMiAwIDMwNHM3OC44LTE3NiAxNzYtMTc2YzM5LjkgMCA3Ni44IDEzLjMgMTA2LjMgMzUuN0wzNjYuMSA4MCAzMTIgODBjLTEzLjMgMC0yNC0xMC43LTI0LTI0ek0xNzYgNDMyYTEyOCAxMjggMCAxIDAgMC0yNTYgMTI4IDEyOCAwIDEgMCAwIDI1NnpNNDgwIDE1OC4xTDU1OC4xIDgwIDUwNCA4MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGwxMTIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDExMmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTU0LjEtODMuNyA4My43QzUzMC43IDIyNy4yIDU0NCAyNjQuMSA1NDQgMzA0YzAgOTcuMi03OC44IDE3Ni0xNzYgMTc2Yy0yMi42IDAtNDQuMi00LjMtNjQtMTJjMTQuMy0xMS4yIDI3LjEtMjQuMiAzOC0zOC42YzguNCAxLjcgMTcuMSAyLjYgMjYgMi42YzcwLjcgMCAxMjgtNTcuMyAxMjgtMTI4YzAtMzUuNy0xNC43LTY4LjEtMzguMy05MS4zQzQ3MS4zIDIwMi41IDQ4MCAxODYuMyA0ODAgMTY4bDAtOS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mars-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mars-double.svg)
  */
 const MarsDouble: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

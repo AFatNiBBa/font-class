@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `w` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/w?s=regular w}
- * @preview ![w](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUuOSAzMy40YzEyLjUtNC41IDI2LjIgMiAzMC43IDE0LjVMMTY1LjkgMzc5LjQgMjY1IDQ5LjFDMjY4LjEgMzkgMjc3LjQgMzIgMjg4IDMyczE5LjkgNyAyMyAxNy4xbDk5LjEgMzMwLjNMNTI5LjQgNDcuOWM0LjUtMTIuNSAxOC4yLTE4LjkgMzAuNy0xNC41czE4LjkgMTguMiAxNC41IDMwLjdsLTE0NCA0MDBjLTMuNSA5LjctMTIuOSAxNi4xLTIzLjIgMTUuOXMtMTkuNC03LjItMjIuMy0xNy4xTDI4OCAxMzkuNSAxOTEgNDYyLjljLTMgOS45LTEyIDE2LjgtMjIuMyAxNy4xcy0xOS43LTYuMS0yMy4yLTE1LjlMMS40IDY0LjFjLTQuNS0xMi41IDItMjYuMiAxNC41LTMwLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/w.svg)
  */
 const W: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

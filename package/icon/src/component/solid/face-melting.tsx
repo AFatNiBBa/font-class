@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-melting` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-melting?s=solid face-melting}
- * @preview ![face-melting](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTcxLjQgMzA0LjhjLTQuNSAyMy4yIDExLjggNDcuMiAzNS40IDQ3LjJsMS4zIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTQ4IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTYgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtMjU2IDBMMzIgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDEyLjkgMGMzNi44IDAgNTguNC01MC43IDQyLjktODQuMUM3Mi41IDMzMS4xIDY0IDI5NC41IDY0IDI1NkM2NCAxMTQuNiAxNzguNiAwIDMyMCAwUzU3NiAxMTQuNiA1NzYgMjU2YzAgMTYuNy0xLjYgMzMtNC42IDQ4Ljh6TTI0Ny4yIDIxOS45YTMyIDMyIDAgMSAwIDE2LjYtNjEuOCAzMiAzMiAwIDEgMCAtMTYuNiA2MS44ek00NDEgMjM4LjdhMzIgMzIgMCAxIDAgLTYxLjgtMTYuNkEzMiAzMiAwIDEgMCA0NDEgMjM4Ljd6TTIxMy4yIDI5OS40Yy0zLjktNy45LTEzLjQtMTEuMy0yMS40LTcuNHMtMTEuMyAxMy40LTcuNCAyMS40YzE0LjggMzAuNSA0NS4xIDY3LjUgOTguMyA4MS43czk3LjktMi42IDEyNi0yMS43YzcuMy01IDkuMi0xNC45IDQuMy0yMi4ycy0xNC45LTkuMi0yMi4yLTQuM2MtMjIuNyAxNS40LTU3LjkgMjguNS05OS44IDE3LjJzLTY1LjgtNDAuMi03Ny44LTY0Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-melting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-melting.svg)
  */
 const FaceMelting: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

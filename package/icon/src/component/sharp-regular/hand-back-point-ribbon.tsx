@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-back-point-ribbon` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-point-ribbon?s=sharp-regular hand-back-point-ribbon}
- * @preview ![hand-back-point-ribbon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwyNCAwIDgwIDAgMjQgMCAwIDI0IDAgMTM2IDQ4IDAgMjQgMCAwIDI0IDAgOCA0OCAwIDI0IDAgMCAyNCAwIDggNDAgMCAyNCAwIDAgMjQgMCA0MCAwIDk2IDAgOGMwIDY2LjMtNTMuNyAxMjAtMTIwIDEyMGwtMTI1LjQgMGMtMjYuOSAwLTUzLjMtNy4xLTc2LjYtMjAuN2wtMi42LTEuNUM2MC43IDQ2Mi41IDMyIDQxMi41IDMyIDM1OC41TDMyIDMyMGwwLTEwLjYgNy45LTcuMSA1Ni4xLTUxTDk2IDE3NmwtNjQgMCA0My42LTQ4TDMyIDgwbDY0IDAgMC01Nkw5NiAwem00OCAxNzZsMCA3MiAwIDEzLjggMCAyLjIgMCA4LjQgMCA3MS42IDAgMTYtMzIgMCAwLTE2IDAtNDIuNUw4MCAzMzAuNmwwIDI3LjljMCAzNyAxOS42IDcxLjIgNTEuNiA4OS44bDIuNiAxLjUtMTEuNyAyMCAxMS43LTIwYzE1LjkgOS4zIDM0IDE0LjIgNTIuNCAxNC4yTDMxMiA0NjRjMzkuOCAwIDcyLTMyLjIgNzItNzJsMC04IDAtOTYgMC0xNi00MCAwLTI0IDAgMC0yNCAwLTgtNDggMC0yNCAwIDAtMjQgMC04LTQ4IDAtMjQgMCAwLTI0IDAtOC0zMiAwem0zMi05NmwwLTMyLTMyIDAgMCAzMiAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-back-point-ribbon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-back-point-ribbon.svg)
  */
 const HandBackPointRibbon: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

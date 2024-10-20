@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `oil-can-drip` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-can-drip?s=sharp-regular oil-can-drip}
- * @preview ![oil-can-drip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDExMmwtNzIgMCAwIDQ4IDEwNCAwIDY0IDMyIDE1NS4zLTMxLjEgMi42LS41IDItLjQgMzIgMzJMNDMyIDQxNmwtNDggMC0yNDAgMC00OCAwIDAtNDggMC0yMS4zTDAgMzA0bDAtOTYgMC00OCA0OCAwIDQ4IDAgNDggMCA4OCAwIDAtNDgtNzIgMCAwLTQ4IDE5MiAwIDAgNDh6TTk2IDIwOGwtNDggMCAwIDY0LjggNDggMjEuM0w5NiAyMDh6bTM0NS4zIDM0LjNsLTE0LjctNy40TDM3Mi43IDIwOCAxNDQgMjA4bDAgMTA3LjUgMCA1Mi41IDI0MCAwIDI3LjEgMEw1NDcuNSAyMjFsLTkwLjEgMTgtMTYuMiAzLjJ6TTU5MiA0NDhjLTI2LjUgMC00OC0yMS41LTQ4LTQ4YzAtMzIgNDgtOTYgNDgtOTZzNDggNjQgNDggOTZzLTIxLjUgNDgtNDggNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![oil-can-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/oil-can-drip.svg)
  */
 const OilCanDrip: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

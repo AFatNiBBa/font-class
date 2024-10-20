@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shovel` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shovel?s=sharp-light shovel}
- * @preview ![shovel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYxLjQgMjIuNkwzODQgMGwyMi42IDIyLjYgODIuNyA4Mi43TDUxMiAxMjhsLTIyLjYgMjIuNi00Ni45IDQ2LjljLTE3IDE3LTQwIDI2LjUtNjQgMjYuNWMtMTkuMiAwLTM3LTYtNTEuNy0xNi4ybC05OS41IDk5LjUgNTQuMSA1NC4xTDMwNCAzODRsLTIyLjYgMjIuNkwxNzYgNTEyIDMyIDUxMiAwIDUxMmwwLTMyTDAgMzM2IDEwNS40IDIzMC42IDEyOCAyMDhsMjIuNiAyMi42IDU0LjEgNTQuMSA5OS41LTk5LjVDMjk0IDE3MC41IDI4OCAxNTIuNyAyODggMTMzLjVjMC0yNCA5LjUtNDcgMjYuNS02NGw0Ni45LTQ2Ljl6TTQ2Ni43IDEyOEwzODQgNDUuMyAzMzcuMSA5Mi4xYy0xMSAxMS0xNy4xIDI1LjktMTcuMSA0MS40YzAgMzIuMyAyNi4yIDU4LjUgNTguNSA1OC41YzE1LjUgMCAzMC40LTYuMiA0MS40LTE3LjFMNDY2LjcgMTI4ek0zMiAzNDkuM0wzMiA0ODBsMTMwLjcgMCA5Ni05NkwxMjggMjUzLjNsLTk2IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shovel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shovel.svg)
  */
 const Shovel: typeof Icon = x => (
     <Icon {...x}>

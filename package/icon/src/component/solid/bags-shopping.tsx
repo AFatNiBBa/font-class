@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bags-shopping` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bags-shopping?s=solid bags-shopping}
- * @preview ![bags-shopping](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDk2bDAgNjQgOTYgMCAwLTY0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4cy00OCAyMS41LTQ4IDQ4em0tNDggNjRsMC02NGMwLTUzIDQzLTk2IDk2LTk2czk2IDQzIDk2IDk2bDAgNjQgNjQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwtMjA4IDBjLTQ0LjIgMC04MCAzNS44LTgwIDgwbDAgMTYwYzAgNS41IC42IDEwLjggMS42IDE2TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAyMjRjMC0zNS4zIDI4LjctNjQgNjQtNjRsNjQgMHptMTI4IDk2bDI1NiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTI4YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yNTYgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0xMjhjMC0zNS4zIDI4LjctNjQgNjQtNjR6bTY0IDgwYzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTZjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwwLTE2YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTZjMCAzNS4zLTI4LjcgNjQtNjQgNjRzLTY0LTI4LjctNjQtNjRsMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bags-shopping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bags-shopping.svg)
  */
 const BagsShopping: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

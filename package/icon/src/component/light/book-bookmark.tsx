@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-bookmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-bookmark?s=light book-bookmark}
- * @preview ![book-bookmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMTc2IDAgMzM2IDBsNjQgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDMyMGMwIDIwLjktMTMuNCAzOC43LTMyIDQ1LjNsMCA2Ni43IDE2IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NGMwIDAgMCAwIDAgMEwwIDY0ek0zMjAgMzJMMTkyIDMybDAgMTc0LjcgNTQtNDMuMmM1LjgtNC43IDE0LjEtNC43IDIwIDBsNTQgNDMuMkwzMjAgMzJ6TTE2MCAzMkw2NCAzMkM0Ni4zIDMyIDMyIDQ2LjMgMzIgNjRsMCAzMjguNmM5LjQtNS40IDIwLjMtOC42IDMyLTguNmwzMzYgMGM4LjggMCAxNi03LjIgMTYtMTZsMC0zMjBjMC04LjgtNy4yLTE2LTE2LTE2bC00OCAwIDAgMjA4YzAgNi4yLTMuNSAxMS44LTkuMSAxNC40cy0xMi4xIDEuOS0xNi45LTEuOWwtNzAtNTYtNzAgNTZjLTQuOCAzLjgtMTEuNCA0LjYtMTYuOSAxLjlzLTkuMS04LjMtOS4xLTE0LjRsMC0yMDh6TTY0IDQxNmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmwzMjAgMCAwLTY0TDY0IDQxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![book-bookmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/book-bookmark.svg)
  */
 const BookBookmark: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

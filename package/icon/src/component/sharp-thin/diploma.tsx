@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diploma` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diploma?s=sharp-thin diploma}
- * @preview ![diploma](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ2LjggNjYuNkMyMzcuNiA1NC44IDIyMy41IDQ4IDIwOC42IDQ4QzE4MS44IDQ4IDE2MCA2OS44IDE2MCA5Ni42bDAgNDcuNCA4MCAwIDE2IDAgNTEuNyAwTDI0Ni44IDY2LjZ6TTE0NCAxNDRsMC00Ny40QzE0NCA2MC45IDE3Mi45IDMyIDIwOC42IDMyYzE5LjggMCAzOC42IDkuMSA1MC44IDI0LjdMMzIwIDEzMy44bDYwLjYtNzcuMWMxMi4yLTE1LjYgMzEtMjQuNyA1MC44LTI0LjdDNDY3LjEgMzIgNDk2IDYwLjkgNDk2IDk2LjZsMCA0Ny40IDEyOCAwIDE2IDAgMCAxNiAwIDEyOEw1NzYgNDE2IDQwMCAzODNsMCA3OS44IDAgMTcuMi0xNi02LjRMMzIwIDQ0OGwtNjQgMjUuNkwyNDAgNDgwbDAtMTcuMiAwLTc5LjhMNjQgNDE2IDAgMjg4IDAgMTYwbDAtMTYgMTYgMCAxMjggMHptOTYgMjIyLjdMMjQwIDE2MGwtODAgMC0xNiAwTDE2IDE2MGwwIDEyNC4yTDcyLjkgMzk4LjEgMjQwIDM2Ni43em0xNjAgMGwxNjcuMSAzMS4zTDYyNCAyODQuMiA2MjQgMTYwbC0xMjggMC0xNiAwLTgwIDAgMCAyMDYuN3pNNDAwIDE0NGw4MCAwIDAtNDcuNEM0ODAgNjkuOCA0NTguMiA0OCA0MzEuNCA0OGMtMTQuOSAwLTI5IDYuOC0zOC4yIDE4LjZMMzMyLjMgMTQ0bDUxLjcgMCAxNiAwem0tNzIgMTZsLTE2IDAtNTYgMCAwIDI5Ni40IDU4LjEtMjMuMiA1LjktMi40IDUuOSAyLjRMMzg0IDQ1Ni40IDM4NCAxNjBsLTU2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![diploma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/diploma.svg)
  */
 const Diploma: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

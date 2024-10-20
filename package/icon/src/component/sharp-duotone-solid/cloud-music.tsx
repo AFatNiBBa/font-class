@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `cloud-music` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-music?s=sharp-duotone-solid cloud-music}
- * @preview ![cloud-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMzNkwwIDQ4MGwxNDQgMCAzNjggMCAxMjggMCAwLTEyOGMwLTU5LjYtNDAuOC0xMDkuOC05Ni0xMjRsMC0zNmMwLTUzLTQzLTk2LTk2LTk2Yy0xOS43IDAtMzguMSA2LTUzLjMgMTYuMkMzNjcgNjQuMiAzMTUuMyAzMiAyNTYgMzJDMTY3LjYgMzIgOTYgMTAzLjYgOTYgMTkybDAgOC4yQzQwLjEgMjIwIDAgMjczLjMgMCAzMzZ6bTE5MiA0MGMwLTE3LjcgMjEuNS0zMiA0OC0zMmM1LjYgMCAxMSAuNiAxNiAxLjhsMC04MS44IDAtMzIgMC0xMS4xIDEwLjQtMy45IDEyOC00OCAyMS42LTguMSAwIDIzLjEgMCAzMiAwIDEyOGMwIDE3LjctMjEuNSAzMi00OCAzMnMtNDgtMTQuMy00OC0zMnMyMS41LTMyIDQ4LTMyYzUuNiAwIDExIC42IDE2IDEuOGwwLTc0LjctOTYgMzZMMjg4IDM3NmMwIDE3LjctMjEuNSAzMi00OCAzMnMtNDgtMTQuMy00OC0zMnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQxNiAxNjAuOWwwIDIzLjEgMCAzMiAwIDEyOGMwIDE3LjctMjEuNSAzMi00OCAzMnMtNDgtMTQuMy00OC0zMnMyMS41LTMyIDQ4LTMyYzUuNiAwIDExIC42IDE2IDEuOGwwLTc0LjctOTYgMzZMMjg4IDM3NmMwIDE3LjctMjEuNSAzMi00OCAzMnMtNDgtMTQuMy00OC0zMnMyMS41LTMyIDQ4LTMyYzUuNiAwIDExIC42IDE2IDEuOGwwLTgxLjggMC0zMiAwLTExLjEgMTAuNC0zLjkgMTI4LTQ4IDIxLjYtOC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloud-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-music.svg)
  */
 const CloudMusic: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zm192 40c0-17.7 21.5-32 48-32c5.6 0 11 .6 16 1.8l0-81.8 0-32 0-11.1 10.4-3.9 128-48 21.6-8.1 0 23.1 0 32 0 128c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-74.7-96 36L288 376c0 17.7-21.5 32-48 32s-48-14.3-48-32z" />
-            <path d="M416 160.9l0 23.1 0 32 0 128c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-74.7-96 36L288 376c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-81.8 0-32 0-11.1 10.4-3.9 128-48 21.6-8.1z" />
+        <path d="M416 160.9l0 23.1 0 32 0 128c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-74.7-96 36L288 376c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-81.8 0-32 0-11.1 10.4-3.9 128-48 21.6-8.1z" />
     </Icon>
 );
 

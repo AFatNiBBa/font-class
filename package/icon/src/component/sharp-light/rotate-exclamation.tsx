@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rotate-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate-exclamation?s=sharp-light rotate-exclamation}
- * @preview ![rotate-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAzLjUgMTMzLjFDMzY4LjMgOTAuOSAzMTUuMyA2NCAyNTYgNjRDMTY1LjIgNjQgODkuMSAxMjcgNjkuMSAyMTEuN0wzOCAyMDQuM0M2MS4zIDEwNS41IDE1MC4xIDMyIDI1NiAzMmM2OS4yIDAgMTMxIDMxLjQgMTcyLjEgODAuNkw0NjQgMTU0LjkgNDY0IDk2bDAtMTYgMzIgMCAwIDE2IDAgOTYgMCAxNi0xNiAwLTk2IDAtMTYgMCAwLTMyIDE2IDAgNTUuOSAwLTM2LjMtNDIuOHMwIDAgMCAwbC0uMS0uMXpNMjcyIDE0NGwwIDEyOCAwIDE2LTMyIDAgMC0xNiAwLTEyOCAwLTE2IDMyIDAgMCAxNnptOCAxNzZsMCA0OC00OCAwIDAtNDggNDggMHpNMTYgNDMybDAtMTYgMC05NiAwLTE2IDE2IDAgOTYgMCAxNiAwIDAgMzItMTYgMC01NS45IDAgMzYuMyA0Mi44czAgMCAwIDBsLjEgLjFDMTQzLjcgNDIxLjEgMTk2LjcgNDQ4IDI1NiA0NDhjOTAuOCAwIDE2Ni45LTYzIDE4Ni45LTE0Ny43bDMxLjEgNy40QzQ1MC43IDQwNi41IDM2MS45IDQ4MCAyNTYgNDgwYy02OS4yIDAtMTMxLTMxLjQtMTcyLjEtODAuNkw0OCAzNTcuMSA0OCA0MTZsMCAxNi0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rotate-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/rotate-exclamation.svg)
  */
 const RotateExclamation: typeof Icon = x => (
     <Icon {...x}>

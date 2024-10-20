@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `left-to-bracket` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-to-bracket?s=sharp-regular left-to-bracket}
- * @preview ![left-to-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDIyNGwtNDggMCAwLTQ4IDAtMjguMUwyMjcuOSAyNTYgMzM2IDM2NC4xbDAtMjguMSAwLTQ4IDQ4IDAgODAgMCAwLTY0LTgwIDB6bS0xOTAuMS0xLjlMMzIwIDk2bDE2IDAgNDggMCAwIDMyIDAgMTYgMCAzMiA0OCAwIDMyIDAgNDggMCAwIDQ4IDAgNjQgMCA0OC00OCAwLTMyIDAtNDggMCAwIDMyIDAgMTYgMCAzMi00OCAwLTE2IDBMMTkzLjkgMjg5LjkgMTYwIDI1NmwzMy45LTMzLjl6TTE2OCA0MzJsMjQgMCAwIDQ4LTI0IDBMMjQgNDgwIDAgNDgwbDAtMjRMMCA1NiAwIDMybDI0IDAgMTQ0IDAgMjQgMCAwIDQ4LTI0IDBMNDggODBsMCAzNTIgMTIwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![left-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/left-to-bracket.svg)
  */
 const LeftToBracket: typeof Icon = x => (
     <Icon {...x}>

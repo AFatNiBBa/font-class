@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `compass-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass-slash?s=light compass-slash}
- * @preview ![compass-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4LjggNDM5LjNDNDEyLjQgNDY0LjkgMzY4IDQ4MCAzMjAgNDgwQzE5Ni4zIDQ4MCA5NiAzNzkuNyA5NiAyNTZjMC0yOS4zIDUuNi01Ny4yIDE1LjgtODIuOEw4NS43IDE1Mi42QzcxLjggMTg0LjIgNjQgMjE5LjIgNjQgMjU2YzAgMTQxLjQgMTE0LjYgMjU2IDI1NiAyNTZjNTguMiAwIDExMS45LTE5LjQgMTU0LjktNTIuMmwtMjYuMS0yMC42ek0zMjAgMEMyNjEuOCAwIDIwOC4xIDE5LjQgMTY1LjEgNTIuMmwyNi4xIDIwLjZDMjI3LjYgNDcuMSAyNzIgMzIgMzIwIDMyYzEyMy43IDAgMjI0IDEwMC4zIDIyNCAyMjRjMCAyOS4zLTUuNiA1Ny4yLTE1LjggODIuOGwyNi4xIDIwLjZjMTQtMzEuNiAyMS43LTY2LjYgMjEuNy0xMDMuNEM1NzYgMTE0LjYgNDYxLjQgMCAzMjAgMHpNMTg2LjkgMzQ4LjZjLTguMyAyNSAxNS41IDQ4LjggNDAuNSA0MC41bDExMS0zNy0zMC0yMy43LTkxLjEgMzAuNCAyNy04MC45LTI2LjctMjEuMS0zMC42IDkxLjl6TTMwMS42IDE1OS45bDMwIDIzLjcgOTEuMS0zMC40LTI3IDgwLjkgMjYuNyAyMS4xIDMwLjYtOTEuOWM4LjMtMjUtMTUuNS00OC44LTQwLjUtNDAuNWwtMTExIDM3ek0yNS45IDMuNEMxOS0yIDguOS0uOCAzLjQgNi4xUy0uOCAyMy4xIDYuMSAyOC42bDYwOCA0ODBjNi45IDUuNSAxNyA0LjMgMjIuNS0yLjZzNC4zLTE3LTIuNi0yMi41TDI1LjkgMy40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![compass-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/compass-slash.svg)
  */
 const CompassSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

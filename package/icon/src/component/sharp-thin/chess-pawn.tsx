@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-pawn` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-pawn?s=sharp-thin chess-pawn}
- * @preview ![chess-pawn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE0NEE5NiA5NiAwIDEgMCA2NCAxNDRhOTYgOTYgMCAxIDAgMTkyIDB6bTE2IDBjMCA0MC43LTIxLjggNzYuNC01NC4zIDk2bDQuOSAwIDMzLjQgMCA4IDAgMCAxNi04IDAtMzAuMyAwIDI0LjggMTI4LTE2LjMgMEwyMDkuNCAyNTYgMTYwIDI1NmwtNDkuNCAwTDg1LjggMzg0bC0xNi4zIDBMOTQuMyAyNTYgNjQgMjU2bC04IDAgMC0xNiA4IDAgMzMuNCAwIDQuOSAwQzY5LjggMjIwLjQgNDggMTg0LjcgNDggMTQ0QzQ4IDgyLjEgOTguMSAzMiAxNjAgMzJzMTEyIDUwLjEgMTEyIDExMnpNMTYgNDk2bDI4OCAwIDAtMjAuNUwyNjQuOSA0MzIgNTUuMSA0MzIgMTYgNDc1LjUgMTYgNDk2ek0wIDQ5NmwwLTI2LjdMNDggNDE2bDIyNCAwIDQ4IDUzLjMgMCAyNi43IDAgMTYtMTYgMEwxNiA1MTIgMCA1MTJsMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chess-pawn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chess-pawn.svg)
  */
 const ChessPawn: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

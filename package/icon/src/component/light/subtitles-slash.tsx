@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `subtitles-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subtitles-slash?s=light subtitles-slash}
- * @preview ![subtitles-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjUuOSAzLjRDMTktMiA4LjktLjggMy40IDYuMVMtLjggMjMuMSA2LjEgMjguNmw2MDggNDgwYzYuOSA1LjUgMTcgNC4zIDIyLjUtMi42czQuMy0xNy0yLjYtMjIuNUwyNS45IDMuNHpNNDU5LjkgNDQ4TDk2IDQ0OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0yODAuNkwzMiAxMTAuMiAzMiA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsNDA0LjQgMC00MC41LTMyek01NDQgMzJMMTM5LjYgMzJsNDAuNSAzMkw1NDQgNjRjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyODAuNiAzMiAyNS4zTDYwOCA5NmMwLTM1LjMtMjguNy02NC02NC02NHpNNDIzLjMgMjU2bDQwLjUgMzIgMzIuMiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC03Mi43IDB6TTE0NCAyNTZjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTEzLjIgMC00MC41LTMyTDE0NCAyNTZ6bTE2MCA5NmMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmw3NC44IDAtNDAuNS0zMkwzMDQgMzUyem0tMTYwIDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsOTYgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![subtitles-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/subtitles-slash.svg)
  */
 const SubtitlesSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

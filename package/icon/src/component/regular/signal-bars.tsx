@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-bars` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-bars?s=regular signal-bars}
- * @preview ![signal-bars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDQ0OGwwLTM4NGMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDM4NGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2ek00OTYgNjRjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NGwwIDM4NGMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NGwwLTM4NHpNNDE2IDQ0OGwwLTI1NmMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDI1NmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2ek0zMzYgMTkyYzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRsMCAyNTZjMCAzNS4zLTI4LjcgNjQtNjQgNjRzLTY0LTI4LjctNjQtNjRsMC0yNTZ6TTI0MCA0NjRjOC44IDAgMTYtNy4yIDE2LTE2bDAtMTI4YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTI4YzAgOC44IDcuMiAxNiAxNiAxNnptMC0yMDhjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAxMjhjMCAzNS4zLTI4LjcgNjQtNjQgNjRzLTY0LTI4LjctNjQtNjRsMC0xMjhjMC0zNS4zIDI4LjctNjQgNjQtNjR6TTgwIDQ2NGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTY0LTE2QTY0IDY0IDAgMSAxIDE2IDQ0OGE2NCA2NCAwIDEgMSAxMjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![signal-bars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/signal-bars.svg)
  */
 const SignalBars: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

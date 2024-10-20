@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-shield` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-shield?s=sharp-light user-shield}
- * @preview ![user-shield](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDEyOGE5NiA5NiAwIDEgMSAxOTIgMCA5NiA5NiAwIDEgMSAtMTkyIDB6bTIyNCAwQTEyOCAxMjggMCAxIDAgOTYgMTI4YTEyOCAxMjggMCAxIDAgMjU2IDB6TTQzLjMgNDgwTDg3LjYgMzM2IDMyMyAzMzZjLTEuNi0xMC44LTIuNi0yMS41LTIuOS0zMkw2NCAzMDQgOS44IDQ4MCAwIDUxMmwzMy41IDAgMzgxIDAgMTEuNiAwYy0xMy4zLTkuNS0yNS4zLTIwLjMtMzYuMS0zMkw0My4zIDQ4MHpNNjA3LjkgMzAxLjZDNjA2LjEgMzY3LjQgNTcyLjggNDM3IDUxMiA0NzAuM2wwLTIwNS44IDk1LjkgMzcuMXptLTIyMy44IDBMNDgwIDI2NC41bDAgMjA1LjhjLTYwLjgtMzMuMy05NC4xLTEwMi44LTk1LjktMTY4LjZ6TTQ5NiA1MTJjOTYtMzIgMTQ0LTEzMC4yIDE0NC0yMTZsMC0xNi4yTDQ5NiAyMjQgMzUyIDI3OS44bDAgMTYuMmMwIDg1LjggNDggMTg0IDE0NCAyMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-shield.svg)
  */
 const UserShield: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

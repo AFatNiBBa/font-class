@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sign-posts-wrench` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sign-posts-wrench?s=sharp-light sign-posts-wrench}
- * @preview ![sign-posts-wrench](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRMMzIgNjRsMCAzMjAgMzAwIDBjNC40IDExLjMgOS45IDIyIDE2LjUgMzJMOTYgNDE2bDAgOTYtMzIgMCAwLTk2LTMyIDBMMCA0MTZsMC0zMkwwIDY0IDAgMzJsMzIgMCAzMiAwTDY0IDAgOTYgMGwwIDMyIDM4NCAwIDAtMzIgMzIgMCAwIDMyIDMyIDAgMzIgMCAwIDMyIDAgOTYtMzIgMCAwLTk2LTMyIDAtMzIgMEw5NiA2NCA2NCA2NHpNNDM0IDE5MmwxNCAwIDE2IDAgMCAxNiAwIDg3LjQgMzIgMjEuMyAzMi0yMS4zIDAtODcuNCAwLTE2IDE2IDAgMTQgMCA0LjEgMCAzLjYgMkM2MTAgMjE4LjYgNjQwIDI2NS44IDY0MCAzMjBjMCA0Mi43LTE4LjYgODEtNDggMTA3LjNsMCA2OC43IDAgMTYtMzIgMCAwLTE2IDAtNzYuMSAwLTcuNyA2LTQuOGMyNS42LTIwLjYgNDItNTIuMSA0Mi04Ny40YzAtMzgtMTktNzEuNy00OC05MS45bDAgNzUuOSAwIDguNi03LjEgNC43LTQ4IDMyLTguOSA1LjktOC45LTUuOS00OC0zMi03LjEtNC43IDAtOC42IDAtNzUuOWMtMjkgMjAuMy00OCA1My45LTQ4IDkxLjljMCAzNS40IDE2LjQgNjYuOSA0MiA4Ny40bDYgNC44IDAgNy43IDAgNzYuMSAwIDE2LTMyIDAgMC0xNiAwLTY4LjdDMzcwLjYgNDAxIDM1MiAzNjIuNyAzNTIgMzIwYzAtNTQuMiAzMC0xMDEuNCA3NC4yLTEyNmwzLjYtMiA0LjEgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sign-posts-wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sign-posts-wrench.svg)
  */
 const SignPostsWrench: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

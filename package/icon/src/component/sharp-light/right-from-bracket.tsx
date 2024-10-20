@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right-from-bracket` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-from-bracket?s=sharp-light right-from-bracket}
- * @preview ![right-from-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDMwNGwzMiAwIDAgMzIgMCA0OCAxNy43IDBMNDY4LjkgMjU2IDM1My43IDEyOCAzMzYgMTI4bDAgNDggMCAzMi0zMiAwLTExMiAwIDAgOTYgMTEyIDB6bTAgMTEybDAtMzIgMC0xNiAwLTMyLTMyIDAtODAgMC0zMiAwIDAtMzIgMC05NiAwLTMyIDMyIDAgODAgMCAzMiAwIDAtMzIgMC0xNiAwLTMyIDMyIDAgMzIgMEw1MTIgMjU2IDM2OCA0MTZsLTMyIDAtMzIgMHpNMTc2IDY0TDMyIDY0bDAgMzg0IDE0NCAwIDE2IDAgMCAzMi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMmwxNiAwIDE2MCAwIDE2IDAgMCAzMi0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![right-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/right-from-bracket.svg)
  */
 const RightFromBracket: typeof Icon = x => (
     <Icon {...x}>

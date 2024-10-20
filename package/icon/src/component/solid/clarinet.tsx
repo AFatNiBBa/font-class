@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clarinet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clarinet?s=solid clarinet}
- * @preview ![clarinet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE0NGMwLTguOCA3LjItMTYgMTYtMTZsMzIgMCA5NiAwIDk2IDAgMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMTYgMCAwIDMyIDc2LjYgMGM5LjUgMCAxOC43LTIuOCAyNi42LTguMWwzMS45LTIxLjNjNC45LTMuMyAxMS4yLTMuNiAxNi40LS44czguNSA4LjIgOC41IDE0LjFsMCAxOTJjMCA1LjktMy4yIDExLjMtOC41IDE0LjFzLTExLjUgMi41LTE2LjQtLjhsLTMxLjktMjEuM2MtNy45LTUuMy0xNy4xLTguMS0yNi42LTguMWwtNDQ4LjMgMGMtMTAuMiAwLTIwLjMtMS45LTI5LjctNS43TDEwLjEgMzE4LjlDNCAzMTYuNCAwIDMxMC41IDAgMzA0bDAtNjRjMC02LjUgNC0xMi40IDEwLjEtMTQuOWw2OC42LTI3LjRjOS40LTMuOCAxOS41LTUuNyAyOS43LTUuN0wyNTYgMTkybDAtMzItMTYgMGMtOC44IDAtMTYtNy4yLTE2LTE2em0yMjQgMTZsLTY0IDAgMCAzMiA2NCAwIDAtMzJ6bS05NiAwbC02NCAwIDAgMzIgNjQgMCAwLTMyek0yNzIgMjk2YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMTIwLTI0YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bTcyIDI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![clarinet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/clarinet.svg)
  */
 const Clarinet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

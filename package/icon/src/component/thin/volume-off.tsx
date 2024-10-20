@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume-off` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-off?s=thin volume-off}
- * @preview ![volume-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkwLjIgNDhjLTMuNCAwLTYuNiAxLjItOS4yIDMuNUwxNDMuMiAxNzRjLTEuNSAxLjMtMy40IDItNS4zIDJMNTYgMTc2Yy0yMi4xIDAtNDAgMTcuOS00MCA0MGwwIDgwYzAgMjIuMSAxNy45IDQwIDQwIDQwbDgxLjkgMGMyIDAgMy45IC43IDUuMyAyTDI4MSA0NjAuNWMyLjUgMi4yIDUuOCAzLjUgOS4yIDMuNWM3LjYgMCAxMy44LTYuMiAxMy44LTEzLjhsMC0zODguNGMwLTcuNi02LjItMTMuOC0xMy44LTEzLjh6bS0xOS44LTguNWM1LjUtNC44IDEyLjUtNy41IDE5LjgtNy41QzMwNi43IDMyIDMyMCA0NS4zIDMyMCA2MS44bDAgMzg4LjRjMCAxNi41LTEzLjMgMjkuOC0yOS44IDI5LjhjLTcuMyAwLTE0LjMtMi43LTE5LjgtNy41TDEzNC45IDM1MiA1NiAzNTJjLTMwLjkgMC01Ni0yNS4xLTU2LTU2bDAtODBjMC0zMC45IDI1LjEtNTYgNTYtNTZsNzguOSAwTDI3MC40IDM5LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![volume-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/volume-off.svg)
  */
 const VolumeOff: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

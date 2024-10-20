@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diamond-half` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond-half?s=thin diamond-half}
- * @preview ![diamond-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI3LjcgMTEuN0MyMzUuNSAzLjkgMjQ1LjggMCAyNTYgMGwwIDE2IDAgNDgwIDAgMTZjLTEwLjIgMC0yMC41LTMuOS0yOC4zLTExLjdsLTIxNi0yMTZjLTE1LjYtMTUuNi0xNS42LTQwLjkgMC01Ni42bDIxNi0yMTZ6TTI0MCA0ODkuOWwwLTQ2Ny44Yy0uMyAuMy0uNyAuNi0xIC45TDIzIDIzOWMtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlMMjM5IDQ4OWMuMyAuMyAuNiAuNiAxIC45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![diamond-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/diamond-half.svg)
  */
 const DiamondHalf: typeof Icon = x => (
     <Icon {...x}>

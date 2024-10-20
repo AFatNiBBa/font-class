@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `heart-half` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-half?s=regular heart-half}
- * @preview ![heart-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM2LjcgNDc2LjljMi4xIDIgNC45IDMuMSA3LjggMy4xYzYuMyAwIDExLjUtNS4xIDExLjUtMTEuNWwwLTEyLjMgMC0yMi40IDAtNC42TDI1NiA5NiAyNDQgODRjLTMyLjYtMzIuNi03OS00Ny41LTEyNC42LTM5LjlDNTAuNSA1NS42IDAgMTE1LjIgMCAxODUuMWwwIDUuOGMwIDQxLjUgMTcuMiA4MS4yIDQ3LjYgMTA5LjVMMjA4IDQ1MC4xbDMuMyAzLjEgMTYuNCAxNS4zIDkgOC40ek0yMDggMzg0LjVMODAuMyAyNjUuM0M1OS43IDI0Ni4xIDQ4IDIxOS4xIDQ4IDE5MC45bDAtNS44YzAtNDYuNCAzMy42LTg2IDc5LjMtOTMuNmMyOS4zLTQuOSA1OS4xIDQuMiA4MC43IDI0LjVsMCAyNjguNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![heart-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/heart-half.svg)
  */
 const HeartHalf: typeof Icon = x => (
     <Icon {...x}>

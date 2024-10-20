@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-circle-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-exclamation?s=sharp-thin file-circle-exclamation}
- * @preview ![file-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2bDI5NS4yIDBjNi4xIDUuOCAxMi43IDExLjEgMTkuNiAxNkwxNiA1MTIgMCA1MTJsMC0xNkwwIDE2IDAgMCAxNiAwIDIyNCAwIDM4NCAxNjBsMCAzOC42Yy01LjQgMS41LTEwLjggMy4zLTE2IDUuNGwwLTI4LTE1MiAwLTggMCAwLTggMC0xNTJMMTYgMTZsMCA0ODB6TTM2MS40IDE2MEwyMjQgMjIuNiAyMjQgMTYwbDEzNy40IDB6TTU2MCAzNjhhMTI4IDEyOCAwIDEgMCAtMjU2IDAgMTI4IDEyOCAwIDEgMCAyNTYgMHptLTI3MiAwYTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTE1NiA3NmwtMjQgMCAwLTI0IDI0IDAgMCAyNHptLTQtMTY0bDAgOCAwIDk2IDAgOC0xNiAwIDAtOCAwLTk2IDAtOCAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-circle-exclamation.svg)
  */
 const FileCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

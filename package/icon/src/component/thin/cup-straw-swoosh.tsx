@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cup-straw-swoosh` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cup-straw-swoosh?s=thin cup-straw-swoosh}
- * @preview ![cup-straw-swoosh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEwLjIgMzAuM0MyMTQuNiAxMi41IDIzMC42IDAgMjQ5IDBsMzEgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMzEgMGMtMTEgMC0yMC42IDcuNS0yMy4zIDE4LjJMMjAyLjIgMTI4IDM3NiAxMjhjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTE4My44IDAtLjMgMEw4IDE0NGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGwxNzcuOCAwIDI0LjQtOTcuN3pNNjAuMyA0NjhMMzYgMTc2bDE2LjEgMEw2OC43IDM3NS44YzQwLjMtMi4xIDY2LjYtMTAuMiA4NS41LTIwLjhjMTkuNy0xMSAzMi4yLTI1LjIgNDQuNi00MC4ybDIuOS0zLjVjMTEuNC0xMy45IDIzLjQtMjguNSA0MS4zLTQwLjFjMTkuMy0xMi41IDQ0LjgtMjEuMiA4Mi45LTIzLjFsNi03Mi4xIDE2LjEgMEwzMjMuNyA0NjhjLTIuMSAyNC45LTIyLjkgNDQtNDcuOCA0NGwtMTY3LjcgMGMtMjUgMC00NS44LTE5LjEtNDcuOC00NHpNMzI0LjYgMjY0LjJjLTM0LjcgMi01Ni44IDEwLTcyLjkgMjAuNGMtMTUuNyAxMC4yLTI2LjIgMjMtMzcuOSAzNy4xbC0yLjcgMy4zYy0xMi42IDE1LjMtMjYuNiAzMS40LTQ5LjEgNDRjLTIxLjUgMTItNTAuMiAyMC41LTkyIDIyLjdsNi4yIDc0LjljMS40IDE2LjYgMTUuMiAyOS4zIDMxLjkgMjkuM2wxNjcuNyAwYzE2LjYgMCAzMC41LTEyLjggMzEuOS0yOS4zbDE2LjktMjAyLjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cup-straw-swoosh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cup-straw-swoosh.svg)
  */
 const CupStrawSwoosh: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

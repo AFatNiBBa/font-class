@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `reflect-both` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-both?s=sharp-thin reflect-both}
- * @preview ![reflect-both](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY3LjMgMTgwLjdMMjU2IDE5MmwtMTEuMy0xMS4zTDk2IDMybDAtMTZMOTYgMGwxNiAwTDQwMCAwbDE2IDAgMCAxNiAwIDE2TDI2Ny4zIDE4MC43ek00MDAgMjUuNGwwLTkuNEwxMTIgMTZsMCA5LjQgMTQ0IDE0NCAxNDQtMTQ0ek0xOTIgMjU2bC0xMS4zIDExLjNMMzIgNDE2bC0xNiAwTDAgNDE2bDAtMTZMMCAxMTIgMCA5NmwxNiAwIDE2IDBMMTgwLjcgMjQ0LjcgMTkyIDI1NnpNMTYgMTEybDAgMjg4IDkuNCAwIDE0NC0xNDRMMjUuNCAxMTIgMTYgMTEyek0zMjAgMjU2bDExLjMtMTEuM0w0ODAgOTZsMTYgMCAxNiAwIDAgMTYgMCAyODggMCAxNi0xNiAwLTE2IDBMMzMxLjMgMjY3LjMgMzIwIDI1NnpNNDk2IDExMmwtOS40IDAtMTQ0IDE0NCAxNDQgMTQ0IDkuNCAwIDAtMjg4ek0yNTYgMzIwbDExLjMgMTEuM0w0MTYgNDgwbDAgMTYgMCAxNi0xNiAwLTI4OCAwLTE2IDAgMC0xNiAwLTE2TDI0NC43IDMzMS4zIDI1NiAzMjB6TTQwMCA0OTZsMC05LjQtMTQ0LTE0NC0xNDQgMTQ0IDAgOS40IDI4OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![reflect-both](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/reflect-both.svg)
  */
 const ReflectBoth: typeof Icon = x => (
     <Icon {...x}>

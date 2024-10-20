@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `island-tropical` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/island-tropical?s=sharp-solid island-tropical}
- * @preview ![island-tropical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDk2TDYyLjIgOTZjMC0zNiAzOC40LTk2IDEyOC05NmM1OC40IDAgOTUgMjUuNSAxMTMuNSA1My4yQzMyMy42IDQwLjYgMzUwLjIgMzIgMzg0IDMyYzg5LjYgMCAxMjggNjAgMTI4IDk2bC02NCAwTDQxNiA5NmwtMzIgMzItODIuNSAwYzI4IDc5LjkgMjEuMiAxNzAuMiA5LjkgMjI2LjFDMzcwLjkgMzY1LjEgNDE2IDQxNy4zIDQxNiA0ODBsMCAzMkwzMiA1MTJsMC0zMmMwLTcwLjcgNTcuMy0xMjggMTI4LTEyOGw2NCAwYzI5LjctNzkuMyAyOS40LTE1MC45IDIyLjgtMTk0bC05OC45IDk4LjljLTI1LjUtMjUuNS00MC43LTk1IDIyLjYtMTU4LjRjMS4zLTEuMyAyLjctMi43IDQuMS0zLjlMMTQ0IDY0IDExMiA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![island-tropical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/island-tropical.svg)
  */
 const IslandTropical: typeof Icon = x => (
     <Icon {...x}>

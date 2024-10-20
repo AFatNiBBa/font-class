@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tv` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv?s=regular tv}
- * @preview ![tv](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDhjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDI4OGMwIDguOCA3LjIgMTYgMTYgMTZsNTEyIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMjg4YzAtOC44LTcuMi0xNi0xNi0xNkw2NCA0OHpNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMNTc2IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyODhjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNDE2Yy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDY0ek0xMjAgNDY0bDQwMCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC00MDAgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tv.svg)
  */
 const Tv: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

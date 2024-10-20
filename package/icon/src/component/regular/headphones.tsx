@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `headphones` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/headphones?s=regular headphones}
- * @preview ![headphones](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDkuNiAyNjJDNjIuNCAxNTkuNCAxNDkuOSA4MCAyNTYgODBzMTkzLjYgNzkuNCAyMDYuNCAxODJjLTkuNC0zLjktMTkuNi02LTMwLjQtNmMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAxMjhjMCAyNi41IDIxLjUgNDggNDggNDhjNDQuMiAwIDgwLTM1LjggODAtODBsMC0zMiAwLTMyIDAtNDhDNTEyIDE0Ni42IDM5Ny40IDMyIDI1NiAzMlMwIDE0Ni42IDAgMjg4bDAgNDggMCAzMiAwIDMyYzAgNDQuMiAzNS44IDgwIDgwIDgwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMTI4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4Yy0xMC44IDAtMjEgMi4xLTMwLjQgNnpNNDggMzM2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDAgMTI4Yy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTMyIDAtMzJ6bTQxNiAwbDAgMzIgMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMmwwLTEyOGMxNy43IDAgMzIgMTQuMyAzMiAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![headphones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/headphones.svg)
  */
 const Headphones: typeof Icon = x => (
     <Icon {...x}>

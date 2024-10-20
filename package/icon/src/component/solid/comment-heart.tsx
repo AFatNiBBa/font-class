@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-heart` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-heart?s=solid comment-heart}
- * @preview ![comment-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ0OGMxNDEuNCAwIDI1Ni05My4xIDI1Ni0yMDhTMzk3LjQgMzIgMjU2IDMyUzAgMTI1LjEgMCAyNDBjMCA0NS4xIDE3LjcgODYuOCA0Ny43IDEyMC45Yy0xLjkgMjQuNS0xMS40IDQ2LjMtMjEuNCA2Mi45Yy01LjUgOS4yLTExLjEgMTYuNi0xNS4yIDIxLjZjLTIuMSAyLjUtMy43IDQuNC00LjkgNS43Yy0uNiAuNi0xIDEuMS0xLjMgMS40bC0uMyAuM2MwIDAgMCAwIDAgMGMwIDAgMCAwIDAgMHMwIDAgMCAwczAgMCAwIDBjLTQuNiA0LjYtNS45IDExLjQtMy40IDE3LjRjMi41IDYgOC4zIDkuOSAxNC44IDkuOWMyOC43IDAgNTcuNi04LjkgODEuNi0xOS4zYzIyLjktMTAgNDIuNC0yMS45IDU0LjMtMzAuNmMzMS44IDExLjUgNjcgMTcuOSAxMDQuMSAxNy45ek0yMDUuMyAxNDRjMTYuMiAwIDMxLjggNi41IDQzLjMgMTcuOWw3LjQgNy40IDcuNC03LjRjMTEuNS0xMS41IDI3LjEtMTcuOSA0My4zLTE3LjljMzMuOCAwIDYxLjMgMjcuNCA2MS4zIDYxLjNjMCAxNi4yLTYuNSAzMS44LTE3LjkgNDMuM2wtODIuNyA4Mi43Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMGwtODIuNy04Mi43Yy0xMS41LTExLjUtMTcuOS0yNy4xLTE3LjktNDMuM2MwLTMzLjggMjcuNC02MS4zIDYxLjMtNjEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![comment-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/comment-heart.svg)
  */
 const CommentHeart: typeof Icon = x => (
     <Icon {...x}>

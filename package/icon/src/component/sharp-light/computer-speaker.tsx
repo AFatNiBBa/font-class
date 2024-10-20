@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `computer-speaker` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-speaker?s=sharp-light computer-speaker}
- * @preview ![computer-speaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJMMCAzMiAwIDY0IDAgMzg0bDAgMzIgMzIgMCAyNTYgMCAwLTMyTDMyIDM4NCAzMiA2NGwyNTYgMCAwLTMyTDMyIDMyem04MCA0MTZsLTE2IDAgMCAzMiAxNiAwIDE3NiAwIDAtMzItMTc2IDB6TTYwOCA2NGwwIDM4NC0yNTYgMCAwLTM4NCAyNTYgMHpNMzUyIDMybC0zMiAwIDAgMzIgMCAzODQgMCAzMiAzMiAwIDI1NiAwIDMyIDAgMC0zMiAwLTM4NCAwLTMyLTMyIDBMMzUyIDMyek00ODAgMzg0YTY0IDY0IDAgMSAxIDAtMTI4IDY0IDY0IDAgMSAxIDAgMTI4em0tOTYtNjRhOTYgOTYgMCAxIDAgMTkyIDAgOTYgOTYgMCAxIDAgLTE5MiAwek00OTYgMTQ0YTE2IDE2IDAgMSAxIC0zMiAwIDE2IDE2IDAgMSAxIDMyIDB6TTQ4MCA5NmE0OCA0OCAwIDEgMCAwIDk2IDQ4IDQ4IDAgMSAwIDAtOTZ6bTI0IDIyNGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![computer-speaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/computer-speaker.svg)
  */
 const ComputerSpeaker: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

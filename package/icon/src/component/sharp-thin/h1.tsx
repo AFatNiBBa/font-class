@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `h1` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h1?s=sharp-thin h1}
- * @preview ![h1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNzJsMC04TDAgNjRsMCA4TDAgMjQ4IDAgNDQwbDAgOCAxNiAwIDAtOCAwLTE4NCAyODggMCAwIDE4NCAwIDggMTYgMCAwLTggMC0xOTIgMC0xNzYgMC04LTE2IDAgMCA4IDAgMTY4TDE2IDI0MCAxNiA3MnptNDY0IDkuNEw0ODAgNDMybC01NiAwLTggMCAwIDE2IDggMCA2NCAwIDY0IDAgOCAwIDAtMTYtOCAwLTU2IDAgMC0zNjAgMC04LTggMC04IDAtMi4zIDAtMS45IDEuMkw0MTYgMTAyLjZsMCAxOC45IDY0LTQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![h1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/h1.svg)
  */
 const H1: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

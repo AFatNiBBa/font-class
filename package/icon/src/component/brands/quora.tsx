@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `quora` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quora?s=brands quora}
- * @preview ![quora](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQwLjUgMzg2LjdoLTI5LjNjLTEuNSAxMy41LTEwLjUgMzAuOC0zMyAzMC44LTIwLjUgMC0zNS4zLTE0LjItNDkuNS0zNS44IDQ0LjItMzQuMiA3NC43LTg3LjUgNzQuNy0xNTNDNDAzLjUgMTExLjIgMzA2LjggMzIgMjA1IDMyIDEwNS4zIDMyIDcuMyAxMTEuNyA3LjMgMjI4LjdjMCAxMzQuMSAxMzEuMyAyMjEuNiAyNDkgMTg5QzI3NiA0NTEuMyAzMDIgNDgwIDM1MS41IDQ4MGM4MS44IDAgOTAuOC03NS4zIDg5LTkzLjN6TTI5NyAzMjkuMkMyNzcuNSAzMDAgMjUzLjMgMjc3IDIwNS41IDI3N2MtMzAuNSAwLTU0LjMgMTAtNjkgMjIuOGwxMi4yIDI0LjNjNi4yLTMgMTMtNCAxOS44LTQgMzUuNSAwIDUzLjcgMzAuOCA2OS4yIDYxLjMtMTAgMy0yMC43IDQuMi0zMi43IDQuMi03NSAwLTEwNy41LTUzLTEwNy41LTE1Ni43Qzk3LjUgMTI0LjUgMTMwIDcxIDIwNSA3MWM3Ni4yIDAgMTA4LjcgNTMuNSAxMDguNyAxNTcuNy4xIDQxLjgtNS40IDc1LjYtMTYuNyAxMDAuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![quora](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/quora.svg)
  */
 const Quora: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

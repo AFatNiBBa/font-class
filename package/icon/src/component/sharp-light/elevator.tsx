@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `elevator` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/elevator?s=sharp-light elevator}
- * @preview ![elevator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU1LjMgMTIuN2w2NCA2NEwxOTYuNyA5OS4zIDE0NCA0Ni42IDkxLjMgOTkuMyA2OC43IDc2LjdsNjQtNjRMMTQ0IDEuNGwxMS4zIDExLjN6TTI5Mi43IDI3LjNMMzE1LjMgNC43IDM2OCA1Ny40IDQyMC43IDQuN2wyMi42IDIyLjYtNjQgNjRMMzY4IDEwMi42IDM1Ni43IDkxLjNsLTY0LTY0ek0zMiAxNjBsMCAzMjAgNDQ4IDAgMC0zMjBMMzIgMTYwek0wIDEyOGwzMiAwIDQ0OCAwIDMyIDAgMCAzMiAwIDMyMCAwIDMyLTMyIDBMMzIgNTEyIDAgNTEybDAtMzJMMCAxNjBsMC0zMnpNMTg0IDI2NGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem0tODAgMGE1NiA1NiAwIDEgMSAxMTIgMCA1NiA1NiAwIDEgMSAtMTEyIDB6bTI0OCAyNGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6bTAtODBhNTYgNTYgMCAxIDEgMCAxMTIgNTYgNTYgMCAxIDEgMC0xMTJ6TTExMyA0NDhsLTMzIDAgMjQtOTYgMTEyIDAgMjQgOTYtMzMgMC0xNi02NC02MiAwLTE2IDY0em0yMDgtNjRsLTE2IDY0LTMzIDAgMjQtOTYgMTEyIDAgMjQgOTYtMzMgMC0xNi02NC02MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![elevator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/elevator.svg)
  */
 const Elevator: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `floppy-disk-pen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk-pen?s=solid floppy-disk-pen}
- * @preview ![floppy-disk-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwxOTQuNSAwIDE0LTU1LjljMi44LTExLjMgOC42LTIxLjUgMTYuOC0yOS43TDQ0OCAyMzUuNmwwLTYyLjRjMC0xNy02LjctMzMuMy0xOC43LTQ1LjNMMzUyIDUwLjdDMzQwIDM4LjcgMzIzLjcgMzIgMzA2LjcgMzJMNjQgMzJ6bTAgOTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMTkyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMkw5NiAyMjRjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNjR6TTIyNCAyODhhNjQgNjQgMCAxIDEgMCAxMjggNjQgNjQgMCAxIDEgMC0xMjh6bTMyNS44LTUyLjJjLTE1LjYtMTUuNi00MC45LTE1LjYtNTYuNiAwbC0yOS40IDI5LjQgNzEgNzEgMjkuNC0yOS40YzE1LjYtMTUuNiAxNS42LTQwLjkgMC01Ni42bC0xNC40LTE0LjR6TTMxMS45IDQxNy4xYy00LjEgNC4xLTcgOS4yLTguNCAxNC45bC0xNSA2MC4xYy0xLjQgNS41IC4yIDExLjIgNC4yIDE1LjJzOS43IDUuNiAxNS4yIDQuMmw2MC4xLTE1YzUuNi0xLjQgMTAuOC00LjMgMTQuOS04LjRMNTEyLjEgMzU4LjhsLTcxLTcxTDMxMS45IDQxNy4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![floppy-disk-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/floppy-disk-pen.svg)
  */
 const FloppyDiskPen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

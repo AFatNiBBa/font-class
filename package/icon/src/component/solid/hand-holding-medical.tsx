@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-holding-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-medical?s=solid hand-holding-medical}
- * @preview ![hand-holding-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDI0bDAgNTYtNTYgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRsMCA0OGMwIDEzLjMgMTAuNyAyNCAyNCAyNGw1NiAwIDAgNTZjMCAxMy4zIDEwLjcgMjQgMjQgMjRsNDggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTU2IDU2IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNGwtNTYgMCAwLTU2YzAtMTMuMy0xMC43LTI0LTI0LTI0TDI0OCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHpNNTU5LjcgMzkyLjJjMTcuOC0xMy4xIDIxLjYtMzguMSA4LjUtNTUuOXMtMzguMS0yMS42LTU1LjktOC41TDM5Mi42IDQxNiAyNzIgNDE2Yy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDE2IDAgNjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtNjQgMC0xNiAwLTc4LjMgMGMtMjkuMSAwLTU3LjMgOS45LTgwIDI4TDY4LjggMzg0IDMyIDM4NGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxNjAgMCAxNjAuNSAwYzI5IDAgNTcuMy05LjMgODAuNy0yNi41bDEyNi42LTkzLjN6bS0zNjctOC4ybC45IDBjMCAwIDAgMCAwIDBjLS4zIDAtLjYgMC0uOSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-holding-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-holding-medical.svg)
  */
 const HandHoldingMedical: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fill` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fill?s=light fill}
- * @preview ![fill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTkuMyA0LjdjLTYuMi02LjItMTYuNC02LjItMjIuNiAwcy02LjIgMTYuNCAwIDIyLjZsOTcuNCA5Ny40TDMwLjYgMjI4LjFjLTM3LjUgMzcuNS0zNy41IDk4LjMgMCAxMzUuOEwxNDguMSA0ODEuNGMzNy41IDM3LjUgOTguMyAzNy41IDEzNS44IDBMNDc0LjMgMjkwLjljMjguMS0yOC4xIDI4LjEtNzMuNyAwLTEwMS44TDMyMi45IDM3LjdjLTI4LjEtMjguMS03My43LTI4LjEtMTAxLjggMGwtNjQuNCA2NC40TDU5LjMgNC43em05Ny40IDE0Mi42bDg4IDg4YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwczYuMi0xNi40IDAtMjIuNmwtODgtODggNjQuNC02NC40YzE1LjYtMTUuNiA0MC45LTE1LjYgNTYuNiAwTDQ1MS43IDIxMS43YzE1LjYgMTUuNiAxNS42IDQwLjkgMCA1Ni42TDQzMiAyODggMzUgMjg4YzEuNy0xMy42IDcuOC0yNi44IDE4LjItMzcuM0wxNTYuNyAxNDcuM3pNNTMuMyAzNDEuM0M0NyAzMzUgNDIuMyAzMjcuNyAzOS4yIDMyMEw0MDAgMzIwIDI2MS4zIDQ1OC43Yy0yNSAyNS02NS41IDI1LTkwLjUgMEw1My4zIDM0MS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![fill](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/fill.svg)
  */
 const Fill: typeof Icon = x => (
     <Icon {...x}>

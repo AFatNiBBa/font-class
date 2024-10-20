@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kip-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kip-sign?s=sharp-light kip-sign}
- * @preview ![kip-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJsMCAxNiAwIDE3NC41IDIyMi0xNzkgMTIuNS0xMCAyMC4xIDI0LjlMMzM4IDY4LjUgMTI1LjMgMjQwIDM2OCAyNDBsMTYgMCAwIDMyLTE2IDAtMjQyLjcgMEwzMzggNDQzLjVsMTIuNSAxMC0yMC4xIDI0LjktMTIuNS0xMEw5NiAyODkuNSA5NiA0NjVsMCAxNi0zMiAwIDAtMTYgMC0xOTMtNDggMEwwIDI3MmwwLTMyIDE2IDAgNDggMEw2NCA0OGwwLTE2IDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![kip-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/kip-sign.svg)
  */
 const KipSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

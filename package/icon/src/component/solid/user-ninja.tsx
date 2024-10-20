@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-ninja` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-ninja?s=solid user-ninja}
- * @preview ![user-ninja](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDI1NmMtNTcuMiAwLTEwNS42LTM3LjUtMTIyLTg5LjNjLTEuMSAxLjMtMi4yIDIuNi0zLjUgMy44Yy0xNS44IDE1LjgtMzguOCAyMC43LTUzLjYgMjIuMWMtOC4xIC44LTE0LjYtNS43LTEzLjgtMTMuOGMxLjQtMTQuNyA2LjMtMzcuOCAyMi4xLTUzLjZjNS44LTUuOCAxMi42LTEwLjEgMTkuNi0xMy40Yy03LTMuMi0xMy44LTcuNi0xOS42LTEzLjRDMzcuNCA4Mi43IDMyLjYgNTkuNyAzMS4xIDQ0LjljLS44LTguMSA1LjctMTQuNiAxMy44LTEzLjhjMTQuNyAxLjQgMzcuOCA2LjMgNTMuNiAyMi4xYzQuOCA0LjggOC43IDEwLjQgMTEuNyAxNi4xQzEzMS40IDI4LjIgMTc0LjQgMCAyMjQgMGM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOHMtNTcuMyAxMjgtMTI4IDEyOHpNMCA0ODIuM0MwIDM5OS41IDU2LjQgMzMwIDEzMi44IDMwOS45YzYtMS42IDEyLjIgLjkgMTUuOSA1LjhsNjIuNSA4My4zYzYuNCA4LjUgMTkuMiA4LjUgMjUuNiAwbDYyLjUtODMuM2MzLjctNC45IDkuOS03LjQgMTUuOS01LjhDMzkxLjYgMzMwIDQ0OCAzOTkuNSA0NDggNDgyLjNjMCAxNi40LTEzLjMgMjkuNy0yOS43IDI5LjdMMjkuNyA1MTJDMTMuMyA1MTIgMCA0OTguNyAwIDQ4Mi4zek0xNjAgOTZjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTI4IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMMTYwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-ninja](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-ninja.svg)
  */
 const UserNinja: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

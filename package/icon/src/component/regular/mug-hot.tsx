@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mug-hot` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-hot?s=regular mug-hot}
- * @preview ![mug-hot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGMwIDE2LjEgNy41IDIzLjcgMjMuOCAzNy45bDEuMSAxQzE1Mi42IDc2LjYgMTc2IDk3LjEgMTc2IDEzNmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGMwLTE2LjEtNy41LTIzLjctMjMuOC0zNy45bC0xLjEtMUM4Ny40IDgzLjQgNjQgNjIuOSA2NCAyNEM2NCAxMC43IDc0LjcgMCA4OCAwek00OCA0MTZjMCAyNi41IDIxLjUgNDggNDggNDhsMTkyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNzZMNDggMjQwbDAgMTc2ek0wIDIyNGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMjAgMCA0OCAwYzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEycy01MC4xIDExMi0xMTIgMTEybC0xNiAwYzAgNTMtNDMgOTYtOTYgOTZMOTYgNTEyYy01MyAwLTk2LTQzLTk2LTk2TDAgMjI0ek0zODQgMzY4bDE2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRzLTI4LjctNjQtNjQtNjRsLTE2IDAgMCAxMjh6TTIyNCAyNGMwIDE2LjEgNy41IDIzLjcgMjMuOCAzNy45bDEuMSAxQzI2NC42IDc2LjYgMjg4IDk3LjEgMjg4IDEzNmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGMwLTE2LjEtNy41LTIzLjctMjMuOC0zNy45bC0xLjEtMUMxOTkuNCA4My40IDE3NiA2Mi45IDE3NiAyNGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mug-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mug-hot.svg)
  */
 const MugHot: typeof Icon = x => (
     <Icon {...x}>

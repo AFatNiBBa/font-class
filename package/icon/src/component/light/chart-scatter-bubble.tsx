@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-scatter-bubble` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-scatter-bubble?s=light chart-scatter-bubble}
- * @preview ![chart-scatter-bubble](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJjOC44IDAgMTYgNy4yIDE2IDE2bDAgMzUyYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDQxNiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2TDgwIDQ4MGMtNDQuMiAwLTgwLTM1LjgtODAtODBMMCA0OGMwLTguOCA3LjItMTYgMTYtMTZ6TTE3NiAzMjMuMmExOS4yIDE5LjIgMCAxIDAgMC0zOC40IDE5LjIgMTkuMiAwIDEgMCAwIDM4LjR6bTAtNjcuMmE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6bTIwOCAzMmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0tOTYgMGE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6bS00OC05Mi44YTE5LjIgMTkuMiAwIDEgMCAwLTM4LjQgMTkuMiAxOS4yIDAgMSAwIDAgMzguNHptMC02Ny4yYTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnptMTc2IDBhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptLTk2IDBhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-scatter-bubble](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chart-scatter-bubble.svg)
  */
 const ChartScatterBubble: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-walking-with-cane` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-with-cane?s=solid person-walking-with-cane}
- * @preview ![person-walking-with-cane](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptLTguNCAzMmMtMzYuNCAwLTY5LjYgMjAuNS04NS45IDUzLjFMMzUuNCAyNzMuN2MtNy45IDE1LjgtMS41IDM1IDE0LjMgNDIuOXMzNSAxLjUgNDIuOS0xNC4zTDEyOCAyMzEuNmwwIDQzLjJjMCAxNyA2LjcgMzMuMyAxOC43IDQ1LjNMMjI0IDM5Ny4zbDAgODIuN2MwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtODkuNGMwLTEyLjctNS4xLTI0LjktMTQuMS0zMy45TDIyNCAzMDYuN2wwLTkzLjQgNzAuNCA5My45YzEwLjYgMTQuMSAzMC43IDE3IDQ0LjggNi40czE3LTMwLjcgNi40LTQ0LjhMMjY4LjggMTY2LjRDMjUwLjcgMTQyLjIgMjIyLjIgMTI4IDE5MiAxMjhsLTI0LjQgMHpNMTI4LjMgMzQ2LjhMOTcgNDcyLjJjLTQuMyAxNy4xIDYuMSAzNC41IDIzLjMgMzguOHMzNC41LTYuMSAzOC44LTIzLjNsMjItODguMi01Mi44LTUyLjh6TTQ1MC44IDUwNS4xYzUgNy4zIDE1IDkuMSAyMi4zIDRzOS4xLTE1IDQtMjIuM0wzNTguOSAzMTYuMWMtMi44IDMuOC02LjEgNy4zLTEwLjEgMTAuM2MtNSAzLjgtMTAuNSA2LjQtMTYuMiA3LjlMNDUwLjggNTA1LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-walking-with-cane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-walking-with-cane.svg)
  */
 const PersonWalkingWithCane: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `expand-wide` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/expand-wide?s=sharp-thin expand-wide}
- * @preview ![expand-wide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDY0bDggMCAwIDE2LTggMEwxNiA4MGwwIDEwNCAwIDhMMCAxOTJsMC04TDAgNzJsMC04IDggMCAxMTIgMHpNMCAzMjhsMC04IDE2IDAgMCA4IDAgMTA0IDEwNCAwIDggMCAwIDE2LTggMEw4IDQ0OGwtOCAwIDAtOEwwIDMyOHpNMzkyIDY0bDExMiAwIDggMCAwIDggMCAxMTIgMCA4LTE2IDAgMC04IDAtMTA0TDM5MiA4MGwtOCAwIDAtMTYgOCAwek01MTIgMzI4bDAgMTEyIDAgOC04IDAtMTEyIDAtOCAwIDAtMTYgOCAwIDEwNCAwIDAtMTA0IDAtOCAxNiAwIDAgOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![expand-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/expand-wide.svg)
  */
 const ExpandWide: typeof Icon = x => (
     <Icon {...x}>

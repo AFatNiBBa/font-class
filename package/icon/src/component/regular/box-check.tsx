@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-check?s=regular box-check}
- * @preview ![box-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDgwbDk0LjQgMGM2LjMgMCAxMi4xIDMuNyAxNC42IDkuNUwzODguNCAxNjAgMjQ4IDE2MGwwLTgwek00OCAyMDhsMzUyIDAgMCAyMDhjMCA4LjgtNy4yIDE2LTE2IDE2TDY0IDQzMmMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjA4em0xNTItNDhMNTkuNiAxNjAgOTEgODkuNWMyLjYtNS44IDguMy05LjUgMTQuNi05LjVMMjAwIDgwbDAgODB6TTQwMC45IDcwYy0xMC4zLTIzLjEtMzMuMi0zOC01OC41LTM4TDEwNS42IDMyQzgwLjMgMzIgNTcuNCA0Ni45IDQ3LjEgNzBMNS41IDE2My42Yy0zLjYgOC4yLTUuNSAxNy01LjUgMjZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yMjYuNGMwLTktMS45LTE3LjgtNS41LTI2TDQwMC45IDcwek0zMzcgMjY1YzkuNC05LjQgOS40LTI0LjYgMC0zMy45cy0yNC42LTkuNC0zMy45IDBsLTExMSAxMTEtNDctNDdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsNjQgNjRjOS40IDkuNCAyNC42IDkuNCAzMy45IDBMMzM3IDI2NXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![box-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/box-check.svg)
  */
 const BoxCheck: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

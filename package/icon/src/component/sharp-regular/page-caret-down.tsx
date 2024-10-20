@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `page-caret-down` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/page-caret-down?s=sharp-regular page-caret-down}
- * @preview ![page-caret-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDEzMS45TDMzNiA0NjQgNDggNDY0IDQ4IDQ4bDIwNC4xIDBMMzM2IDEzMS45ek0zODQgMTEyTDI3MiAwIDQ4IDAgMCAwIDAgNDggMCA0NjRsMCA0OCA0OCAwIDI4OCAwIDQ4IDAgMC00OCAwLTM1MnpNOTYgMjI0bDAgMzIgOTYgOTYgOTYtOTYgMC0zMkw5NiAyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![page-caret-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/page-caret-down.svg)
  */
 const PageCaretDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

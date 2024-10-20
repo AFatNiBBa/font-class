@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-import` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-import?s=sharp-solid file-import}
- * @preview ![file-import](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBMMzUyIDBsMCAxNjAgMTYwIDAgMCAzNTItMzg0IDAgMC0xNzYgMTc0LjEgMC0zOSAzOS0xNyAxN0wyODAgNDI1LjlsMTctMTcgODAtODAgMTctMTctMTctMTctODAtODAtMTctMTdMMjQ2LjEgMjMybDE3IDE3IDM5IDM5TDEyOCAyODggMTI4IDB6bTAgMjg4bDAgNDhMMjQgMzM2IDAgMzM2bDAtNDggMjQgMCAxMDQgMHpNNTEyIDEyOGwtMTI4IDBMMzg0IDAgNTEyIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-import](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-import.svg)
  */
 const FileImport: typeof Icon = x => (
     <Icon {...x}>

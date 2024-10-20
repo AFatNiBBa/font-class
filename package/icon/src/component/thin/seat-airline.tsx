@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `seat-airline` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seat-airline?s=thin seat-airline}
- * @preview ![seat-airline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgOGMwLTQuNC0zLjYtOC04LThTMCAzLjYgMCA4TDAgMTQyLjhjMCAxMi41IDIuNyAyNC44IDcuOCAzNi4yTDk1LjcgMzczLjZDMTA3LjMgMzk5LjQgMTMzIDQxNiAxNjEuMyA0MTZsNzAuNyAwIDAgODAtMTI4IDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMTM2IDAgMTM2IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTEyOCAwIDAtODAgMTE2LjcgMGMyNC41IDAgNDYuMS0xNS45IDUzLjUtMzkuM2wyOS41LTk0LjNjLjgtMi40IC4zLTUuMS0xLjItNy4xcy0zLjktMy4zLTYuNC0zLjNMNzIgMjcyYy0xLjUgMC0yLjkgLjQtNC4xIDEuMUwzOC41IDIwOCAzNDQgMjA4YzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDMyIDE5MmMtLjMgMC0uNSAwLS44IDBsLTguOS0xOS42QzE4LjIgMTYzLjEgMTYgMTUzIDE2IDE0Mi44TDE2IDh6bTk0LjMgMzU5TDc0LjYgMjg4bDM1NC41IDAtMjYuMiA4My45Yy01LjIgMTYuNy0yMC43IDI4LjEtMzguMiAyOC4xbC0yMDMuNCAwYy0yMiAwLTQyLTEyLjktNTEtMzN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![seat-airline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/seat-airline.svg)
  */
 const SeatAirline: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

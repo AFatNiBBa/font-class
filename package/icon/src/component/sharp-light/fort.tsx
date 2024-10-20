@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fort` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fort?s=sharp-light fort}
- * @preview ![fort](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDk2bDY0IDAgMCAzMiAwIDY0TDY0IDE5MmwtMzIgMCAwLTY0IDAtMzIgNjQgMCAzMiAwek0wIDIyNGwzMiAwIDAgMjU2IDAgMzIgMzIgMCAxNzYgMCAzMiAwIDk2IDAgMzIgMCAxNzYgMCAzMiAwIDAtMzIgMC0yNTYgMzIgMCAwLTMyIDAtNjQgMC0zMiAwLTMyIDAtMzIgMC0zMkw2MDggMGwwIDMyIDAgMzItMzIgMC0zMiAwIDAtMzIgMC0zMkw1MTIgMGwwIDMyIDAgMzItMzIgMC0zMiAwIDAtMzIgMC0zMkw0MTYgMGwwIDMyIDAgMzIgMCAzMiAwIDMyIDAgNjQtMTkyIDAgMC02NCAwLTMyIDAtMzIgMC0zMiAwLTMyTDE5MiAwbDAgMzIgMCAzMi0zMiAwLTMyIDAgMC0zMiAwLTMyTDk2IDBsMCAzMiAwIDMyTDY0IDY0IDMyIDY0bDAtMzJMMzIgMCAwIDAgMCAzMiAwIDY0IDAgOTZsMCAzMiAwIDY0IDAgMzJ6TTQ4MCA0ODBsMC0yNTYgOTYgMCAwIDI1Ni05NiAwem0tMzIgMGwtNDggMCAwLTgwYzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwbDAgODAtNDggMCAwLTI1NiAzMiAwIDE5MiAwIDMyIDAgMCAyNTZ6TTY0IDIyNGw5NiAwIDAgMjU2LTk2IDAgMC0yNTZ6TTM2OCA0ODBsLTk2IDAgMC04MGMwLTI2LjUgMjEuNS00OCA0OC00OHM0OCAyMS41IDQ4IDQ4bDAgODB6TTYwOCAxMjhsMCA2NC0zMiAwLTEyOCAwIDAtNjQgMC0zMiA2NCAwIDMyIDAgNjQgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![fort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fort.svg)
  */
 const Fort: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

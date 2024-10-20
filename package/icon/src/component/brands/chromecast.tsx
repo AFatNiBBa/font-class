@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chromecast` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chromecast?s=brands chromecast}
- * @preview ![chromecast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ3LjgsNjRINjRjLTIzLjYsMC00Mi43LDE5LjEtNDIuNyw0Mi43djYzLjlINjR2LTYzLjloMzgzLjh2Mjk4LjZIMjk4LjZWNDQ4SDQ0OGMyMy42LDAsNDIuNy0xOS4xLDQyLjctNDIuN1YxMDYuNyBDNDkwLjcsODMuMSw0NzEuNCw2NCw0NDcuOCw2NHogTTIxLjMsMzgzLjZMMjEuMywzODMuNmwwLDYzLjloNjMuOUM4NS4yLDQxMi4yLDU2LjYsMzgzLjYsMjEuMywzODMuNkwyMS4zLDM4My42eiBNMjEuMywyOTguNlYzNDEgYzU4LjksMCwxMDYuNiw0OC4xLDEwNi42LDEwN2g0Mi43QzE3MC43LDM2NS42LDEwMy43LDI5OC43LDIxLjMsMjk4LjZ6IE0yMTMuNCw0NDhoNDIuN2MtMC41LTEyOS41LTEwNS4zLTIzNC4zLTIzNC44LTIzNC42bDAsNDIuNCBDMTI3LjMsMjU1LjYsMjEzLjMsMzQyLDIxMy40LDQ0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chromecast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/chromecast.svg)
  */
 const Chromecast: typeof Icon = x => (
     <Icon {...x}>

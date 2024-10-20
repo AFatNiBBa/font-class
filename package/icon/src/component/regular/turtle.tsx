@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turtle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turtle?s=regular turtle}
- * @preview ![turtle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDI0MGwwLTMyYzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4UzgwIDEzNy4zIDgwIDIwOGwwIDMyIDI1NiAwem00OC0zMmwwIDQxLjJjMCAyMS40LTE3LjQgMzguOC0zOC44IDM4LjhMNzAuOCAyODhDNDkuNCAyODggMzIgMjcwLjYgMzIgMjQ5LjJMMzIgMjA4YzAtOTcuMiA3OC44LTE3NiAxNzYtMTc2czE3NiA3OC44IDE3NiAxNzZ6bTk2IDgwYy04LjMgMC0xNi4zLTEuNi0yMy42LTQuNUM0NDAuMyAzMjggNDAwLjQgMzYxIDM1MiAzNjdsMCAxIDAgNzJjMCAyMi4xLTE3LjkgNDAtNDAgNDBsLTQ4IDBjLTIyLjEgMC00MC0xNy45LTQwLTQwbDAtNzItMzIgMCAwIDcyYzAgMjIuMS0xNy45IDQwLTQwIDQwbC00OCAwYy0yMi4xIDAtNDAtMTcuOS00MC00MGwwLTcyLTQwIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsNDAgMCA0OCAwIDMyIDAgNDggMCAzMiAwIDQ4IDAgMzIgMCAzMiAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwbDAtMTYgMC0zMiAwLTE2YzAtMzUuMyAyOC43LTY0IDY0LTY0YzUzIDAgOTYgNDMgOTYgOTZsMCAxNmMwIDM1LjMtMjguNyA2NC02NCA2NGwtMzIgMHpNMjcyIDM2OGwwIDY0IDMyIDAgMC02NC0zMiAwem0tMTYwIDBsMCA2NCAzMiAwIDAtNjQtMzIgMHpNNDk2IDIyNGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![turtle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/turtle.svg)
  */
 const Turtle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

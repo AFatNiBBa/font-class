@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sword-laser-alt` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sword-laser-alt?s=light sword-laser-alt}
- * @preview ![sword-laser-alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUzLjIgMjI0TDUwMy44IDU3LjFjNS4zLTUuOSA4LjItMTMuNSA4LjItMjEuNGwwLTMuN2MwLTE3LjctMTQuMy0zMi0zMi0zMmwtMy43IDBjLTcuOSAwLTE1LjYgMi45LTIxLjQgOC4yTDIxNS44IDIyNGw0Ny44IDBMNDc2LjMgMzJsMy43IDAgMCAzLjdMMzEwLjEgMjI0bDQzLjEgMHpNMTM5LjMgMjcwLjFMMTMuMiAzOTYuMkM0LjcgNDA0LjYgMCA0MTYuMSAwIDQyOHM0LjcgMjMuNCAxMy4yIDMxLjhsMzkgMzlDNjAuNiA1MDcuMyA3Mi4xIDUxMiA4NCA1MTJzMjMuNC00LjcgMzEuOC0xMy4yTDMzMS4zIDI4My4zYzQuNi00LjYgNS45LTExLjUgMy41LTE3LjRzLTguMy05LjktMTQuOC05LjlsLTE0Ni43IDBjLTEyLjcgMC0yNC45IDUuMS0zMy45IDE0LjF6TTI4MS40IDI4OEwxODQgMzg1LjRsLTI4LjctMjguN0wxMjYuNiAzMjhsMzUuMy0zNS4zYzMtMyA3LjEtNC43IDExLjMtNC43bDEwOC4xIDB6TTE0NCAzOTAuNkwxNjEuNCA0MDggOTMuMiA0NzYuMmMtMi40IDIuNC01LjcgMy44LTkuMiAzLjhzLTYuNy0xLjQtOS4yLTMuOEw2Ni42IDQ2OCAxNDQgMzkwLjZ6TTEyMS40IDM2OEw0NCA0NDUuNGwtOC4yLTguMmMtMi40LTIuNC0zLjgtNS43LTMuOC05LjJzMS40LTYuNyAzLjgtOS4yTDEwNCAzNTAuNiAxMjEuNCAzNjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sword-laser-alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sword-laser-alt.svg)
  */
 const SwordLaserAlt: typeof Icon = x => (
     <Icon {...x}>

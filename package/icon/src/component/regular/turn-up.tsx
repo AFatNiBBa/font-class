@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-up?s=regular turn-up}
- * @preview ![turn-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc1LjYgNi41YzkuMi04LjcgMjMuNy04LjcgMzIuOSAwbDEyOSAxMjEuNGM5LjMgOC44IDE0LjYgMjEgMTQuNiAzMy43YzAgMjUuNi0yMC43IDQ2LjMtNDYuMyA0Ni4zTDI2NCAyMDhsMCAxNDRjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBsLTQ4IDBjLTMwLjkgMC01Ni0yNS4xLTU2LTU2bDAtMzJjMC0zMC45IDI1LjEtNTYgNTYtNTZsNTYgMGM0LjQgMCA4LTMuNiA4LThsMC0xNTItNDEuNyAwQzUyLjcgMjA4IDMyIDE4Ny4zIDMyIDE2MS43YzAtMTIuOCA1LjMtMjUgMTQuNi0zMy43TDE3NS42IDYuNXpNODIuNSAxNjBsNjEuNSAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMTc2YzAgMzAuOS0yNS4xIDU2LTU2IDU2bC01NiAwYy00LjQgMC04IDMuNi04IDhsMCAzMmMwIDQuNCAzLjYgOCA4IDhsNDggMGM2MS45IDAgMTEyLTUwLjEgMTEyLTExMmwwLTE2OGMwLTEzLjMgMTAuNy0yNCAyNC0yNGw2MS41IDBMMTkyIDU3IDgyLjUgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![turn-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/turn-up.svg)
  */
 const TurnUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

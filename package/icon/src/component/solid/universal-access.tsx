@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `universal-access` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/universal-access?s=solid universal-access}
- * @preview ![universal-access](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMEEyNTYgMjU2IDAgMSAxIDAgMjU2em0xNjEuNS04Ni4xYy0xMi4yLTUuMi0yNi4zIC40LTMxLjUgMTIuNnMuNCAyNi4zIDEyLjYgMzEuNWwxMS45IDUuMWMxNy4zIDcuNCAzNS4yIDEyLjkgNTMuNiAxNi4zbDAgNTAuMWMwIDQuMy0uNyA4LjYtMi4xIDEyLjZsLTI4LjcgODYuMWMtNC4yIDEyLjYgMi42IDI2LjIgMTUuMiAzMC40czI2LjItMi42IDMwLjQtMTUuMmwyNC40LTczLjJjMS4zLTMuOCA0LjgtNi40IDguOC02LjRzNy42IDIuNiA4LjggNi40bDI0LjQgNzMuMmM0LjIgMTIuNiAxNy44IDE5LjQgMzAuNCAxNS4yczE5LjQtMTcuOCAxNS4yLTMwLjRsLTI4LjctODYuMWMtMS40LTQuMS0yLjEtOC4zLTIuMS0xMi42bDAtNTAuMWMxOC40LTMuNSAzNi4zLTguOSA1My42LTE2LjNsMTEuOS01LjFjMTIuMi01LjIgMTcuOC0xOS4zIDEyLjYtMzEuNXMtMTkuMy0xNy44LTMxLjUtMTIuNkwzMzguNyAxNzVjLTI2LjEgMTEuMi01NC4yIDE3LTgyLjcgMTdzLTU2LjUtNS44LTgyLjctMTdsLTExLjktNS4xek0yNTYgMTYwYTQwIDQwIDAgMSAwIDAtODAgNDAgNDAgMCAxIDAgMCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![universal-access](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/universal-access.svg)
  */
 const UniversalAccess: typeof Icon = x => (
     <Icon {...x}>

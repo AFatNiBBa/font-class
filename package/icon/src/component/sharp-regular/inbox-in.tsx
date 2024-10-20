@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `inbox-in` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox-in?s=sharp-regular inbox-in}
- * @preview ![inbox-in](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDI0bDAgMjA2LjEgNjMtNjMgMTctMTdMMzkzLjkgMTg0bC0xNyAxN0wyNzMgMzA1bC0xNyAxNy0xNy0xN0wxMzUgMjAxbC0xNy0xN0wxNTIgMTUwLjFsMTcgMTcgNjMgNjNMMjMyIDI0bDAtMjQgNDggMCAwIDI0ek0xNjAgMzIwbDMyIDY0IDEyOCAwIDMyLTY0IDExMiAwIDQ4IDAgMCA0OCAwIDk2IDAgNDgtNDggMEw0OCA1MTIgMCA1MTJsMC00OCAwLTk2IDAtNDggNDggMCAxMTIgMHptMjAyLjkgODUuNUwzNDkuNyA0MzIgMzIwIDQzMmwtMTI4IDAtMjkuNyAwLTEzLjMtMjYuNUwxMzAuMyAzNjggNDggMzY4bDAgOTYgNDE2IDAgMC05Ni04Mi4zIDAtMTguNyAzNy41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![inbox-in](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/inbox-in.svg)
  */
 const InboxIn: typeof Icon = x => (
     <Icon {...x}>

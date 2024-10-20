@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-1` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-1?s=sharp-solid square-1}
- * @preview ![square-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw0NDggMCAwIDQ0OEwwIDQ4MCAwIDMyek0xNDQgMzM2bDAgNDggMjQgMCA1NiAwIDU2IDAgMjQgMCAwLTQ4LTI0IDAtMzIgMCAwLTE4NCAwLTI0LTI0IDAtOCAwLTYuMiAwLTUuNCAzTDE0NCAxNjQuNWwwIDU0LjkgMTEuNy02LjVMMjAwIDE4OC4zIDIwMCAzMzZsLTMyIDAtMjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-1.svg)
  */
 const Square_1: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

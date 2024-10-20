@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ruler-combined` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler-combined?s=thin ruler-combined}
- * @preview ![ruler-combined](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDIwOGwtODggMGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGw4OCAwIDAgODAtODggMGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGw4OCAwIDAgODhjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTg4IDgwIDAgMCA4OGMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtODggODAgMCAwIDg4YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC04OCA0OCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgODBjMCAyNi41LTIxLjUgNDgtNDggNDhsLTMwNCAwLTgwIDBjLTIzLjIgMC00Mi42LTE2LjQtNDctMzguM2MtLjYtMy4xLTEtNi40LTEtOS43bDAtODBMMTYgNjRjMC0yNi41IDIxLjUtNDggNDgtNDhsODAgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDQ4LTg4IDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsODggMCAwIDgwem0yMDAgOTZsLTk2IDAtNzIgMC0xNiAwIDAtMTYgMC03MiAwLTk2czAgMCAwIDBzMCAwIDAgMGwwLTU2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgMzY4bDAgODBjMCA0LjQgLjQgOC43IDEuMyAxMi45QzcuMyA0OTAuMSAzMy4xIDUxMiA2NCA1MTJsODAgMCAzMDQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTgwYzAtMzUuMy0yOC43LTY0LTY0LTY0bC01NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ruler-combined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ruler-combined.svg)
  */
 const RulerCombined: typeof Icon = x => (
     <Icon {...x}>

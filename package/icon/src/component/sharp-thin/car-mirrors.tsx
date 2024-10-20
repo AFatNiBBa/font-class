@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-mirrors` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-mirrors?s=sharp-thin car-mirrors}
- * @preview ![car-mirrors](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDMybC02IDAtMS43IDUuN0wxMDQgMTQ1LjVsMC0xLjVMOCAxNDRsLTggMCAwIDggMCA0OCAwIDggOCAwIDI0IDAgMCAxNzYgMCAxNiAwIDY0IDAgMTYgMTYgMCA2NCAwIDE2IDAgMC0xNiAwLTY0IDMyMCAwIDAgNjQgMCAxNiAxNiAwIDY0IDAgMTYgMCAwLTE2IDAtNjQgMC0xNiAwLTE3NiAyNCAwIDggMCAwLTggMC00OCAwLTgtOCAwLTk2IDAgMCAxLjVMNDM5LjcgMzcuNyA0MzggMzJsLTYgMEwxNDQgMzJ6TTUyOCAzODRsLTY0IDAtMTYgMC0zMjAgMC0xNiAwLTY0IDAgMC0xNzYgNDgwIDAgMCAxNzZ6bS02NCAxNmw2NCAwIDAgNjQtNjQgMCAwLTY0ek00OCA0MDBsNjQgMCAwIDY0LTY0IDAgMC02NHpNNDc2LjQgMTYwbDgzLjYgMCAwIDMyLTE2IDAtMTYgMC00MiAwLTkuNi0zMnpNMTYgMTYwbDgzLjYgMEw5MCAxOTJsLTQyIDAtMTYgMC0xNiAwIDAtMzJ6bTQ1My4yIDMybC0zNjIuNSAwTDE1MCA0OCA0MjYgNDhsNDMuMiAxNDR6TTExMiAyODhhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptNDggMGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0yODgtMTZhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem0wIDQ4YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![car-mirrors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/car-mirrors.svg)
  */
 const CarMirrors: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

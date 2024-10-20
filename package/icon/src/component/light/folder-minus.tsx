@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-minus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-minus?s=light folder-minus}
- * @preview ![folder-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgOTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMTI0LjEgMGM4LjUgMCAxNi42IDMuNCAyMi42IDkuNGwzNS45IDM1LjljMTIgMTIgMjguMyAxOC43IDQ1LjMgMTguN0w0NDggMTI4YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMjU2YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDY0IDQ0OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJMMzIgOTZ6TTY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMMjkxLjkgOTZjLTguNSAwLTE2LjYtMy40LTIyLjYtOS40TDIzMy40IDUwLjdjLTEyLTEyLTI4LjMtMTguNy00NS4zLTE4LjdMNjQgMzJ6bTk2IDIyNGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxOTIgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMTkyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![folder-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/folder-minus.svg)
  */
 const FolderMinus: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-plus?s=thin file-plus}
- * @preview ![file-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDQ4TDE2IDY0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDE0MC4xIDBjMS4zIDAgMi42IC4xIDMuOSAuMkwyMDggMTM2YzAgMjIuMSAxNy45IDQwIDQwIDQwbDExOS44IDBjLjIgMS4zIC4yIDIuNiAuMiAzLjlMMzY4IDQ0OGMwIDI2LjUtMjEuNSA0OC00OCA0OEw2NCA0OTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4ek0zNTguNiAxNTcuM2MuOSAuOSAxLjcgMS44IDIuNCAyLjdMMjQ4IDE2MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xMTMuMWMxIC44IDEuOSAxLjYgMi43IDIuNEwzNTguNiAxNTcuM3pNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNjguMWMwLTEyLjctNS4xLTI0LjktMTQuMS0zMy45TDIzOC4xIDE0LjFjLTktOS0yMS4yLTE0LjEtMzMuOS0xNC4xTDY0IDB6TTIwMCAyNDBjLTQuNCAwLTggMy42LTggOGwwIDcyLTcyIDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsNzIgMCAwIDcyYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC03MiA3MiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC03MiAwIDAtNzJjMC00LjQtMy42LTgtOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-plus.svg)
  */
 const FilePlus: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

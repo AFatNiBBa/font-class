@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `5` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/5?s=regular 5}
- * @preview ![5](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIuNCA1MS45QzM0LjQgNDAuNCA0NC4zIDMyIDU2IDMybDIwOCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0TDc2LjIgODAgNTIuNSAyMTYgMTg4IDIxNmM3Mi45IDAgMTMyIDU5LjEgMTMyIDEzMnMtNTkuMSAxMzItMTMyIDEzMmwtOTUuNSAwYy0zNi40IDAtNjkuNi0yMC41LTg1LjktNTMuMWwtNC4xLTguMmMtNS45LTExLjktMS4xLTI2LjMgMTAuNy0zMi4yczI2LjMtMS4xIDMyLjIgMTAuN2w0LjEgOC4yQzU3LjcgNDIxLjcgNzQuMyA0MzIgOTIuNSA0MzJsOTUuNSAwYzQ2LjQgMCA4NC0zNy42IDg0LTg0cy0zNy42LTg0LTg0LTg0TDI0IDI2NGMtNy4xIDAtMTMuOC0zLjEtMTguNC04LjZTLS45IDI0Mi45IC40IDIzNS45bDMyLTE4NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![5](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/5.svg)
  */
 const $5: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

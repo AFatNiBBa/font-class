@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `card-heart` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-heart?s=sharp-regular card-heart}
- * @preview ![card-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMCA0MTYgMjg4IDAgMC00MTZMNDggNDh6TTAgMEw0OCAwIDMzNiAwbDQ4IDAgMCA0OCAwIDQxNiAwIDQ4LTQ4IDBMNDggNTEyIDAgNTEybDAtNDhMMCA0OCAwIDB6TTgwIDIxOS4yYzAtMzIuNyAyNi41LTU5LjIgNTkuMi01OS4ybDIuNCAwYzE1LjkgMCAzMS4yIDYuMiA0Mi43IDE3LjJsNy43IDcuNCA3LjctNy40YzExLjUtMTEgMjYuOC0xNy4yIDQyLjctMTcuMmwyLjQgMGMzMi43IDAgNTkuMiAyNi41IDU5LjIgNTkuMmMwIDE2LjEtNi42IDMxLjUtMTguMiA0Mi43bC04Mi44IDc5LjZMMTkyIDM1Mi4xbC0xMS4xLTEwLjdMOTguMiAyNjEuOEM4Ni42IDI1MC43IDgwIDIzNS4zIDgwIDIxOS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![card-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/card-heart.svg)
  */
 const CardHeart: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

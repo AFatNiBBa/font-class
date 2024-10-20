@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-moving` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-moving?s=sharp-light truck-moving}
- * @preview ![truck-moving](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAyNDAgMCAzMmMxMy40LTEwIDMwLTE2IDQ4LTE2YzI2LjIgMCA0OS40IDEyLjYgNjQgMzJjMTQuNi0xOS40IDM3LjgtMzIgNjQtMzJjMzIuOCAwIDYxIDE5LjcgNzMuMyA0OEw0NDggMzY4bDAtMTEyIDAtMzIgMC0xNjBMMzIgNjR6TTQ4MCAzMzZjMTMuNC0xMCAzMC0xNiA0OC0xNmMzMi44IDAgNjEgMTkuNyA3My4zIDQ4bDYuNyAwIDAtNjQgMC00OC0xMjggMCAwIDgwem0wLTExMmwxMjIuNSAwLTU3LjYtNjRMNDgwIDE2MGwwIDY0em0xNjAtNi4xbDAgNi4xIDAgMzIgMCA0OCAwIDY0IDAgMzItMzIgMGMwIDQ0LjItMzUuOCA4MC04MCA4MHMtODAtMzUuOC04MC04MGwtMTYwIDBjMCA0NC4yLTM1LjggODAtODAgODBjLTI2LjIgMC00OS40LTEyLjYtNjQtMzJjLTE0LjYgMTkuNC0zNy44IDMyLTY0IDMyYy00NC4yIDAtODAtMzUuOC04MC04MGwwLTMyIDAtNjRMMCA2NCAwIDMybDMyIDAgNDE2IDAgMzIgMCAwIDMyIDAgNjQgNzIgMCA3LjEgMCA0LjggNS4zIDcyIDgwIDQuMSA0LjZ6TTUyOCA0NDhhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2ek0yNTYgNDAwYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTgwIDQ0OGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![truck-moving](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-moving.svg)
  */
 const TruckMoving: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

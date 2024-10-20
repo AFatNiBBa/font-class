@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flower-tulip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flower-tulip?s=sharp-thin flower-tulip}
- * @preview ![flower-tulip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDI4LjhMMTc5LjUgNzAgMTkyIDgwbDEwLTEyLjUgNDMuOC01NC43TDI1NiAwbDEwLjIgMTIuOEwzMTAgNjcuNSAzMjAgODBsMTIuNS0xMEwzODQgMjguOCA0MDAgMTZsMCAyMC41IDAgOTEuNWMwIDcwLjctNTcuMyAxMjgtMTI4IDEyOGwtOCAwIDAgMTY2LjZDMjkxLjggMzYyIDM1MyAzMjAgNDI0IDMyMGw3MiAwIDE2IDAgMCAxNmMwIDk3LjItNzguOCAxNzYtMTc2IDE3NmwtNzIgMC0xNiAwLTcyIDBDNzguOCA1MTIgMCA0MzMuMiAwIDMzNmwwLTE2IDE2IDAgNzIgMGM3MSAwIDEzMi4yIDQyIDE2MCAxMDIuNkwyNDggMjU2bC04IDBjLTcwLjcgMC0xMjgtNTcuMy0xMjgtMTI4bDAtOTEuNUwxMTIgMTZsMTYgMTIuOHpNMjA0LjUgOTBsLTEwIDEyLjVMMTgyIDkyLjUgMTI4IDQ5LjNsMCA3OC43YzAgNjEuOSA1MC4xIDExMiAxMTIgMTEybDMyIDBjNjEuOSAwIDExMi01MC4xIDExMi0xMTJsMC03OC43TDMzMCA5Mi41bC0xMi41IDEwTDMwNy41IDkwIDI1NiAyNS42IDIwNC41IDkwek04OCAzMzZsLTcyIDBjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBsNzIgMGMwLTg4LjQtNzEuNi0xNjAtMTYwLTE2MHpNMjY0IDQ5Nmw3MiAwYzg4LjQgMCAxNjAtNzEuNiAxNjAtMTYwbC03MiAwYy04OC40IDAtMTYwIDcxLjYtMTYwIDE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![flower-tulip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/flower-tulip.svg)
  */
 const FlowerTulip: typeof Icon = x => (
     <Icon {...x}>

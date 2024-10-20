@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `confluence` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/confluence?s=brands confluence}
- * @preview ![confluence](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMi4zIDQxMi4yYy00LjUgNy42LTIuMSAxNy41IDUuNSAyMi4ybDEwNS45IDY1LjJjNy43IDQuNyAxNy43IDIuNCAyMi40LTUuMyAwLS4xLjEtLjIuMS0uMiA2Ny4xLTExMi4yIDgwLjUtOTUuOSAyODAuOS0uNyA4LjEgMy45IDE3LjguNCAyMS43LTcuNy4xLS4xLjEtLjMuMi0uNGw1MC40LTExNC4xYzMuNi04LjEtLjEtMTcuNi04LjEtMjEuMy0yMi4yLTEwLjQtNjYuMi0zMS4yLTEwNS45LTUwLjNDMTI3LjUgMTc5IDQ0LjYgMzQ1LjMgMi4zIDQxMi4yem01MDcuNC0zMTIuMWM0LjUtNy42IDIuMS0xNy41LTUuNS0yMi4yTDM5OC40IDEyLjhjLTcuNS01LTE3LjYtMy4xLTIyLjYgNC40LS4yLjMtLjQuNi0uNiAxLTY3LjMgMTEyLjYtODEuMSA5NS42LTI4MC42LjktOC4xLTMuOS0xNy44LS40LTIxLjcgNy43LS4xLjEtLjEuMy0uMi40TDIyLjIgMTQxLjNjLTMuNiA4LjEuMSAxNy42IDguMSAyMS4zIDIyLjIgMTAuNCA2Ni4zIDMxLjIgMTA2IDUwLjQgMjQ4IDEyMCAzMzAuOC00NS40IDM3My40LTExMi45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![confluence](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/confluence.svg)
  */
 const Confluence: typeof Icon = x => (
     <Icon {...x}>

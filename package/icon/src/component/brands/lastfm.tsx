@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lastfm` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lastfm?s=brands lastfm}
- * @preview ![lastfm](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI1LjggMzY3LjFsLTE4LjgtNTFzLTMwLjUgMzQtNzYuMiAzNGMtNDAuNSAwLTY5LjItMzUuMi02OS4yLTkxLjUgMC03Mi4xIDM2LjQtOTcuOSA3Mi4xLTk3LjkgNjYuNSAwIDc0LjggNTMuMyAxMDAuOSAxMzQuOSAxOC44IDU2LjkgNTQgMTAyLjYgMTU1LjQgMTAyLjYgNzIuNyAwIDEyMi0yMi4zIDEyMi04MC45IDAtNzIuOS02Mi43LTgwLjYtMTE1LTkyLjEtMjUuOC01LjktMzMuNC0xNi40LTMzLjQtMzQgMC0xOS45IDE1LjgtMzEuNyA0MS42LTMxLjcgMjguMiAwIDQzLjQgMTAuNiA0NS43IDM1LjhsNTguNi03Yy00LjctNTIuOC00MS4xLTc0LjUtMTAwLjktNzQuNS01Mi44IDAtMTA0LjQgMTkuOS0xMDQuNCA4My45IDAgMzkuOSAxOS40IDY1LjEgNjggNzYuOCA0NC45IDEwLjYgNzkuOCAxMy44IDc5LjggNDUuNyAwIDIxLjctMjEuMSAzMC41LTYxIDMwLjUtNTkuMiAwLTgzLjktMzEuMS05Ny45LTczLjktMzItOTYuOC00My42LTE2My0xNjEuMy0xNjNDNDUuNyAxMTMuOCAwIDE2OC4zIDAgMjYxYzAgODkuMSA0NS43IDEzNy4yIDEyNy45IDEzNy4yIDY2LjIgMCA5Ny45LTMxLjEgOTcuOS0zMS4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lastfm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/lastfm.svg)
  */
 const Lastfm: typeof Icon = x => (
     <Icon {...x}>

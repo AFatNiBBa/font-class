@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fishing-rod` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fishing-rod?s=sharp-regular fishing-rod}
- * @preview ![fishing-rod](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg0LjYgMEwyODggMGw2NCAwIDI0IDAgMCAyNCAwIDExMiAwIDI0LTQ4IDAgMC0yNCAwLTg4LTM2LjYgMEw4OCAxMDYuMSA4OCAyODhsNDAgMCAwIDQ4IDAgMTI4IDAgNDgtNDggMC0zMiAwTDAgNTEybDAtNDhMMCAzMzZsMC00OCA0MCAwTDQwIDg4bDAtMTguMSAxNy40LTUgMjI0LTY0IDMuMi0uOXpNODAgMzM2bC0zMiAwIDAgMTI4IDMyIDAgMC0xMjh6bTE3NiA4YzAtNzYuOCA2NC0xMzYgOTYtMTUyYzMyIDE2IDk2IDc1LjIgOTYgMTUyYzAgMzItMTYgODAtNjQgMTEybDMyIDQwIDAgMTYtMTI4IDAgMC0xNiAzMi00MGMtNDgtMzItNjQtODAtNjQtMTEyem0xMjgtMzJhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fishing-rod](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/fishing-rod.svg)
  */
 const FishingRod: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

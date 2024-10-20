@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-fist` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-fist?s=solid hand-fist}
- * @preview ![hand-fist](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxMTItNjQgMCAwLTExMmMwLTE3LjcgMTQuMy0zMiAzMi0zMnpNNjQgNjRjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDgwLTY0IDAgMC04MHptMTkyIDBjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDk2YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtOTZ6bTk2IDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTY0em0tOTYgODhsMC0uNmM5LjQgNS40IDIwLjMgOC42IDMyIDguNmMxMy4yIDAgMjUuNC00IDM1LjYtMTAuOGM4LjcgMjQuOSAzMi41IDQyLjggNjAuNCA0Mi44YzExLjcgMCAyMi42LTMuMSAzMi04LjZsMCA4LjZjMCA1Mi4zLTI1LjEgOTguOC02NCAxMjhsMCA5NmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTYwIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNzguNGMtMTcuMy03LjktMzMuMi0xOC44LTQ2LjktMzIuNUw2OS41IDM1Ny41QzQ1LjUgMzMzLjUgMzIgMzAwLjkgMzIgMjY3bDAtMjdjMC0zNS4zIDI4LjctNjQgNjQtNjRsODggMGMyMi4xIDAgNDAgMTcuOSA0MCA0MHMtMTcuOSA0MC00MCA0MGwtNTYgMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmw1NiAwYzM5LjggMCA3Mi0zMi4yIDcyLTcyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-fist](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-fist.svg)
  */
 const HandFist: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paint-roller` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paint-roller?s=light paint-roller}
- * @preview ![paint-roller](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDMyYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJMNjQgMTI4Yy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDI4OCAwem02NCAzMmMwLTM1LjMtMjguNy02NC02NC02NEw2NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDk2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDI4OCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzJ6TTI0MCAzNTJjOC44IDAgMTYgNy4yIDE2IDE2bDAgOTZjMCA4LjgtNy4yIDE2LTE2IDE2bC0zMiAwYy04LjggMC0xNi03LjItMTYtMTZsMC05NmMwLTguOCA3LjItMTYgMTYtMTZsMzIgMHptLTMyLTMyYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDk2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC05NmMwLTI2LjUtMjEuNS00OC00OC00OGwwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDE3NiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtNjRjMC0zNS4zLTI4LjctNjQtNjQtNjRsMCAzMmMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xNzYgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![paint-roller](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/paint-roller.svg)
  */
 const PaintRoller: typeof Icon = x => (
     <Icon {...x}>

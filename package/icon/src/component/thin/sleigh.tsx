@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sleigh` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sleigh?s=thin sleigh}
- * @preview ![sleigh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAzMmMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwyNCAwIDAgMjA4YzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4bDAgODBMNDAgNDY0Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDUzNiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjRjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCAyNGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMTQ0IDAgMC04MCAxNiAwYzcwLjcgMCAxMjgtNTcuMyAxMjgtMTI4bDAtMTQ0IDI0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTI0IDAtMTYgMC04IDAtNDggMGMtMjIuMSAwLTQwIDE3LjktNDAgNDBsMCA0Ny4zYzAgMzEuMy0yNS41IDU2LjctNTYuOCA1Ni43Yy04My4xIDAtMTU5LjgtNDUuNy0xOTkuMi0xMTguOUMxNzguNCA2Ni4yIDEyMS4xIDMyIDU4LjggMzJMNDggMzIgMzIgMzIgOCAzMnpNNDE2IDQ2NGwtMjQwIDAgMC04MCAyNDAgMCAwIDgwek01NTIgMTEybDggMCAwIDE0NGMwIDYxLjktNTAuMSAxMTItMTEyIDExMmwtMjg4IDBDOTguMSAzNjggNDggMzE3LjkgNDggMjU2TDQ4IDQ4bDEwLjggMGM1Ni41IDAgMTA4LjQgMzEgMTM1LjIgODAuN0MyMzYuMSAyMDcuMSAzMTguMiAyNTYgNDA3LjIgMjU2YzQwLjEgMCA3Mi44LTMyLjUgNzIuOC03Mi43bDAtNDcuM2MwLTEzLjMgMTAuNy0yNCAyNC0yNGw0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sleigh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sleigh.svg)
  */
 const Sleigh: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

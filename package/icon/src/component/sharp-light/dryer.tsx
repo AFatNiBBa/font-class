@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dryer` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dryer?s=sharp-light dryer}
- * @preview ![dryer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMybDAgNDQ4TDMyIDQ4MCAzMiAzMmwzODQgMHpNMzIgMEwwIDAgMCAzMiAwIDQ4MGwwIDMyIDMyIDAgMzg0IDAgMzIgMCAwLTMyIDAtNDQ4IDAtMzJMNDE2IDAgMzIgMHptOTYgOTZBMjQgMjQgMCAxIDAgODAgOTZhMjQgMjQgMCAxIDAgNDggMHptNTYgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em00MCAyOTZjLTU2LjQgMC0xMDMuMS00MS43LTExMC45LTk2bDYyLjkgMCAxNiAwIDAtMzItMTYgMC02Mi45IDBjNy44LTU0LjMgNTQuNC05NiAxMTAuOS05NmM2MS45IDAgMTEyIDUwLjEgMTEyIDExMnMtNTAuMSAxMTItMTEyIDExMnptMCAzMmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dryer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/dryer.svg)
  */
 const Dryer: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

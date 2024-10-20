@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mill-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mill-sign?s=light mill-sign}
- * @preview ![mill-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg3LjIgMjEuMWMyLjgtOC40LTEuNy0xNy40LTEwLjEtMjAuMnMtMTcuNCAxLjctMjAuMiAxMC4xTDIyMi43IDExMy4yYy0xMi4zIDguMi0yMi44IDE4LjktMzAuNyAzMS40QzE3My42IDExNS40IDE0MS4xIDk2IDEwNCA5NmMtMjcuOSAwLTUzLjMgMTEtNzIgMjlsMC0xM2MwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDgwIC4zIDBjLS4yIDIuNi0uMyA1LjMtLjMgOEwwIDQzMmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMjMyYzAtMzkuOCAzMi4yLTcyIDcyLTcyczcyIDMyLjIgNzIgNzJsMCA1My40TDk2LjggNDkwLjljLTIuOCA4LjQgMS43IDE3LjQgMTAuMSAyMC4yczE3LjQtMS43IDIwLjItMTAuMUwxNzYgMzU0LjZsMCA2MS40IDAgMTZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTE2IDAtMTU3LjQgNDEuMi0xMjMuN2M5LjMtNC40IDE5LjgtNi45IDMwLjgtNi45YzM5LjggMCA3MiAzMi4yIDcyIDcybDAgMjMyYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0yMzJjMC01Ny40LTQ2LjYtMTA0LTEwNC0xMDRjLTYuMyAwLTEyLjQgLjYtMTguMyAxLjZsMjUuNS03Ni42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mill-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mill-sign.svg)
  */
 const MillSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

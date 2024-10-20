@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-plus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-plus?s=sharp-thin user-plus}
- * @preview ![user-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE2YTExMiAxMTIgMCAxIDEgMCAyMjQgMTEyIDExMiAwIDEgMSAwLTIyNHptMCAyNDBBMTI4IDEyOCAwIDEgMCAyMjQgMGExMjggMTI4IDAgMSAwIDAgMjU2ek03NS44IDMyMGwyOTYuNCAwIDU0LjIgMTc2TDIxLjcgNDk2IDc1LjggMzIwek0zODQgMzA0TDY0IDMwNCA0LjkgNDk2IDAgNTEybDE2LjcgMCA0MTQuNSAwIDE2LjcgMC00LjktMTZMMzg0IDMwNHpNNTM2IDExMmwtMTYgMCAwIDggMCA4MC04MCAwLTggMCAwIDE2IDggMCA4MCAwIDAgODAgMCA4IDE2IDAgMC04IDAtODAgODAgMCA4IDAgMC0xNi04IDAtODAgMCAwLTgwIDAtOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-plus.svg)
  */
 const UserPlus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

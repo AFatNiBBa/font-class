@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `underline` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/underline?s=regular underline}
- * @preview ![underline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNTZjMC0xMy4zIDEwLjctMjQgMjQtMjRsOTYgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtMjQgMCAwIDE0NGMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMnMxMTItNTAuMSAxMTItMTEybDAtMTQ0LTI0IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsOTYgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtMjQgMCAwIDE0NGMwIDg4LjQtNzEuNiAxNjAtMTYwIDE2MHMtMTYwLTcxLjYtMTYwLTE2MEw2NCA4MCA0MCA4MEMyNi43IDgwIDE2IDY5LjMgMTYgNTZ6TTAgNDU2YzAtMTMuMyAxMC43LTI0IDI0LTI0bDQwMCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0TDI0IDQ4MGMtMTMuMyAwLTI0LTEwLjctMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![underline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/underline.svg)
  */
 const Underline: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

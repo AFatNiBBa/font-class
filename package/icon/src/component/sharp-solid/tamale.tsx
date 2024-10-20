@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tamale` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tamale?s=sharp-solid tamale}
- * @preview ![tamale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0OFM0OCAwIDE2MCAwUzMyMCA0OCAzMjAgNDhMMjk1LjQgMjA4bC01OS4yIDBMMjQ4IDcyLjdsLjctOC0xNS45LTEuNC0uNyA4TDIyMC4xIDIwOCAxNjggMjA4bDAtMTQ0IDAtOC0xNiAwIDAgOCAwIDE0NC01Mi4xIDBMODggNzEuM2wtLjctOEw3MS4zIDY0LjdsLjcgOEw4My44IDIwOGwtNTkuMiAwTDAgNDh6TTI1NiAzMDRsMzkuNCAwTDMyMCA0NjRzLTQ4IDQ4LTE2MCA0OFMwIDQ2NCAwIDQ2NEwyNC42IDMwNCA2NCAzMDQgNDQuOCAzMjkuNmwzNC41IDI1LjlMNzIgNDM5LjNsLS43IDggMTUuOSAxLjQgLjctOCA2LjQtNzMuOSAyNy4yIDIwLjQgMjguOC0zOC40IDEuNi0yLjFMMTUyIDQ0OGwwIDggMTYgMCAwLTggMC0xMDEuMyAxLjYgMi4xIDI4LjggMzguNCAyNy4yLTIwLjQgNi40IDczLjkgLjcgOCAxNS45LTEuNC0uNy04LTcuMy04My44IDM0LjUtMjUuOUwyNTYgMzA0ek0yNCAyNDBsMTM2IDAgMTM2IDAgMTYgMCAwIDMyLTE2IDAtMTA0IDAgMjguOCAzOC40IDkuNiAxMi44LTI1LjYgMTkuMi05LjYtMTIuOEwxNjAgMjgyLjdsLTM1LjIgNDYuOS05LjYgMTIuOEw4OS42IDMyMy4ybDkuNi0xMi44TDEyOCAyNzIgMjQgMjcyIDggMjcybDAtMzIgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tamale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tamale.svg)
  */
 const Tamale: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

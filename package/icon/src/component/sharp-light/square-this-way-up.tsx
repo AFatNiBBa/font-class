@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-this-way-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-this-way-up?s=sharp-light square-this-way-up}
- * @preview ![square-this-way-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMzg0IDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnpNMzUyIDM2OGwwIDMyTDk2IDQwMGwwLTMyIDI1NiAwek0xNDQgMTA1LjRsMTEuMyAxMS4zIDY0IDY0LTIyLjYgMjIuNkwxNjAgMTY2LjYgMTYwIDMwNGwwIDE2LTMyIDAgMC0xNiAwLTEzNy40TDkxLjMgMjAzLjMgNjguNyAxODAuN2w2NC02NEwxNDQgMTA1LjR6bTE2MCAwbDExLjMgMTEuMyA2NCA2NC0yMi42IDIyLjZMMzIwIDE2Ni42IDMyMCAzMDRsMCAxNi0zMiAwIDAtMTYgMC0xMzcuNC0zNi43IDM2LjctMjIuNi0yMi42IDY0LTY0TDMwNCAxMDUuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-this-way-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-this-way-up.svg)
  */
 const SquareThisWayUp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

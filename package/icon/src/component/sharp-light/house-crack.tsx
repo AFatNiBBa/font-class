@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-crack` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-crack?s=sharp-light house-crack}
- * @preview ![house-crack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk4LjYgMTJMMjg4IDIuNyAyNzcuNCAxMiA1LjQgMjUybDIxLjIgMjRMNjQgMjQzbDAgMjUzIDAgMTYgMTYgMCA0MTYgMCAxNiAwIDAtMTYgMC0yNTMgMzcuNCAzMyAyMS4yLTI0TDI5OC42IDEyek05NiA0ODBsMC0yNjUuM0wyODggNDUuMyA0ODAgMjE0LjcgNDgwIDQ4MGwtMTY3LjQgMC01MC40LTc1LjYgODIuNy01NS4xIDE2LjItMTAuOC0xMy44LTEzLjgtOTYtOTZMMjQwIDIxNy40IDIxNy40IDI0MGwxMS4zIDExLjMgODIuMiA4Mi4yLTc5LjggNTMuMi0xMy4zIDguOSA4LjkgMTMuM0wyNzQuMSA0ODAgOTYgNDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/house-crack.svg)
  */
 const HouseCrack: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

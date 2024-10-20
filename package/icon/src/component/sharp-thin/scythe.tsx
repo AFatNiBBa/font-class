@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scythe` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scythe?s=sharp-thin scythe}
- * @preview ![scythe](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBMNTQwLjYgMGwtMy4yIDE2TDM1MiAxNkMyMjEgMTYgMTM3IDY5LjcgODUuNSAxMjMuMWMtMjUuOSAyNi44LTQzLjYgNTMuNi01NC44IDczLjdjLTIuMyA0LTQuMiA3LjgtNiAxMS4yTDQ5OSAyMDhsLTMuMiAxNkwxNy4yIDIyNCAwIDIyNHMyLjEtNiA2LjktMTZDMzEuMyAxNTYuOCAxMjQuNSAwIDM1MiAwek02MzYuNiAxNmwtMTguMyA4NS41IDUuOC0yOS4xTDU2OS42IDMyNi43IDUyOS45IDUxMmwtNDkuMSAwLTE2LjQgMCAzLjQtMTYgMjcuNC0xMjggMy40LTE2LTE2LjQgMEw0MTYgMzUybC0xNiAwLTE2IDAgMC0xNiAwLTMyIDAtMTYgMTYgMCAxNiAwIDk2LjQgMEw1NzQuMSAwbDQ5LjEgMCAxNS4zIDAgMSAwIC40IDAtMy40IDE2ek00MTYgMzM2bDgyLjcgMCAxOS44IDAtNC4xIDE5LjRMNDg0LjIgNDk2bDMyLjcgMCAzNy0xNzIuNkw2MTkuOCAxNmwtMzIuNyAwLTU5IDI3NS40TDUyNS40IDMwNGwtMTIuOSAwTDQxNiAzMDRsLTE2IDAgMCAzMiAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![scythe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/scythe.svg)
  */
 const Scythe: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

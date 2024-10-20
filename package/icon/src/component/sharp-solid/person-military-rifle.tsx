@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-military-rifle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-military-rifle?s=sharp-solid person-military-rifle}
- * @preview ![person-military-rifle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE2bDAgNDggMTkyIDAgMC02NEwxNjAgMTZ6bTE3LjYgODBjLTEgNS4yLTEuNiAxMC41LTEuNiAxNmMwIDQ0LjIgMzUuOCA4MCA4MCA4MHM4MC0zNS44IDgwLTgwYzAtNS41LS42LTEwLjgtMS42LTE2TDE3Ny42IDk2ek0xNzYgMjI0bC02LjEgMEwzNTIgNDg0LjFsMC0xMTQuNCA1My42IDkwLjYgMjAuMyAzNC40IDY4LjktNDAuNy0yMC4zLTM0LjQtODEuNi0xMzggNTIuNC05MC44TDQxNiAxNzMuOSA0NzkuNCA2NGwtMTMuOS04TDQzNy45IDQwIDQyNCAzMiA0MDggNTkuN2wxMy45IDhMMzMxLjYgMjI0IDE3NiAyMjR6bS0zNC40IDE5LjdsLTEwNCAxNzZMMTcuMiA0NTQuMWw2OC45IDQwLjcgMjAuMy0zNC40TDE2MCAzNjkuNyAxNjAgNTEybDE3Mi41IDBMMTQzIDI0MS4zbC0xLjQgMi40ek0yOTYgMjcyYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-military-rifle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-military-rifle.svg)
  */
 const PersonMilitaryRifle: typeof Icon = x => (
     <Icon {...x}>

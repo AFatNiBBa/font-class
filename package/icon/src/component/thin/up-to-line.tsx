@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-to-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-line?s=thin up-to-line}
- * @preview ![up-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCA0OGwzNjggMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEw4IDMyYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4em0xNzYgOTkuM2MyLjEtMi4xIDUtMy4zIDgtMy4zczUuOSAxLjIgOCAzLjNMMzMxLjggMjc5LjRjMi43IDIuNyA0LjIgNi40IDQuMiAxMC4yYzAgOC02LjUgMTQuNC0xNC40IDE0LjRMMjQ4IDMwNGMtNC40IDAtOCAzLjYtOCA4bDAgMTM2YzAgOC44LTcuMiAxNi0xNiAxNmwtNjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMTM2YzAtNC40LTMuNi04LTgtOGwtNzMuNiAwYy04IDAtMTQuNC02LjUtMTQuNC0xNC40YzAtMy44IDEuNS03LjUgNC4yLTEwLjJMMTg0IDE0Ny4zem04LTE5LjNjLTcuMiAwLTE0LjIgMi45LTE5LjMgOEw0MC45IDI2OC4xYy01LjcgNS43LTguOSAxMy40LTguOSAyMS41QzMyIDMwNi40IDQ1LjYgMzIwIDYyLjQgMzIwbDY1LjYgMCAwIDEyOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmw2NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTI4IDY1LjYgMGMxNi44IDAgMzAuNC0xMy42IDMwLjQtMzAuNGMwLTguMS0zLjItMTUuOC04LjktMjEuNUwyMTEuMyAxMzZjLTUuMS01LjEtMTIuMS04LTE5LjMtOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![up-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/up-to-line.svg)
  */
 const UpToLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

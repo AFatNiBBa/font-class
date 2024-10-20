@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-line` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-line?s=sharp-solid pen-line}
- * @preview ![pen-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzUyTDAgNTEybDE2MC0zMkw0MjAuNyAyMTkuM2wtMTI4LTEyOEwzMiAzNTJ6TTUxMiAxMjhMMzg0IDAgMzE1LjMgNjguN2wxMjggMTI4TDUxMiAxMjh6TTI0OCA0NjRsLTI0IDAgMCA0OCAyNCAwIDMwNCAwIDI0IDAgMC00OC0yNCAwLTMwNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pen-line.svg)
  */
 const PenLine: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

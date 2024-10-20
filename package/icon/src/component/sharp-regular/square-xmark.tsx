@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-xmark` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-xmark?s=sharp-regular square-xmark}
- * @preview ![square-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCAzNTIgMzUyIDAgMC0zNTJMNDggODB6TTAgMzJsNDggMCAzNTIgMCA0OCAwIDAgNDggMCAzNTIgMCA0OC00OCAwTDQ4IDQ4MCAwIDQ4MGwwLTQ4TDAgODAgMCAzMnpNMzIxLjkgMTkybC0xNyAxNy00NyA0NyA0NyA0NyAxNyAxN0wyODggMzUzLjlsLTE3LTE3LTQ3LTQ3LTQ3IDQ3LTE3IDE3TDEyNi4xIDMyMGwxNy0xNyA0Ny00Ny00Ny00Ny0xNy0xN0wxNjAgMTU4LjFsMTcgMTcgNDcgNDcgNDctNDcgMTctMTdMMzIxLjkgMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-xmark.svg)
  */
 const SquareXmark: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

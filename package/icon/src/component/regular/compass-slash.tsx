@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `compass-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass-slash?s=regular compass-slash}
- * @preview ![compass-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN2wtOTUuNC03NC44QzU2MS4xIDM1NC41IDU3NiAzMDcgNTc2IDI1NkM1NzYgMTE0LjYgNDYxLjQgMCAzMjAgMEMyNDYuOCAwIDE4MC45IDMwLjcgMTM0LjIgNzkuOUwzOC44IDUuMXpNMTcyLjIgMTA5LjdDMjA5LjkgNzEuNiAyNjIuMiA0OCAzMjAgNDhjMTE0LjkgMCAyMDggOTMuMSAyMDggMjA4YzAgMzkuOC0xMS4yIDc3LTMwLjYgMTA4LjZMMzk3LjEgMjg1LjlsNDcuNS0xMjMuNWM3LjUtMTkuNC0xMS42LTM4LjUtMzEtMzFMMjcwLjMgMTg2LjVsLTk4LjEtNzYuOXpNMzIwIDQ2NGMtMTE0LjkgMC0yMDgtOTMuMS0yMDgtMjA4YzAtMjIuMyAzLjUtNDMuOCAxMC02My45TDgyLjMgMTYwLjhDNzAuNSAxOTAuMiA2NCAyMjIuNCA2NCAyNTZjMCAxNDEuNCAxMTQuNiAyNTYgMjU2IDI1NmM1NS4yIDAgMTA2LjMtMTcuNSAxNDguMS00Ny4ybC0zOS43LTMxLjNDMzk2LjggNDUyLjkgMzU5LjcgNDY0IDMyMCA0NjR6bS0zLTExOC4ybC05Mi4yLTcyLjYtMjkuNCA3Ni41Yy03LjUgMTkuNCAxMS42IDM4LjUgMzEgMzFMMzE3IDM0NS44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![compass-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/compass-slash.svg)
  */
 const CompassSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `forumbee` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forumbee?s=brands forumbee}
- * @preview ![forumbee](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNS44IDMwOS43QzIgMjkyLjcgMCAyNzUuNSAwIDI1OC4zIDAgMTM1IDk5LjggMzUgMjIzLjEgMzVjMTYuNiAwIDMzLjMgMiA0OS4zIDUuNUMxNDkgODcuNSA1MS45IDE4NiA1LjggMzA5Ljd6bTM5Mi45LTE4OS4yQzM4NSAxMDMgMzY5IDg3LjggMzUwLjkgNzUuMmMtMTQ5LjYgNDQuMy0yNjYuMyAxNjIuMS0zMDkuNyAzMTIgMTIuNSAxOC4xIDI4IDM1LjYgNDUuMiA0OSA0My4xLTE1MS4zIDE2MS4yLTI3MS43IDMxMi4zLTMxNS43em0xNS44IDI1Mi43YzE1LjItMjUuMSAyNS40LTUzLjcgMjkuNS04Mi44LTc5LjQgNDIuOS0xNDUgMTEwLjYtMTg3LjYgMTkwLjMgMzAtNC40IDU4LjktMTUuMyA4NC42LTMxLjMgMzUgMTMuMSA3MC45IDI0LjMgMTA3IDMzLjYtOS4zLTM2LjUtMjAuNC03NC41LTMzLjUtMTA5Ljh6bTI5LjctMTQ1LjVjLTIuNi0xOS41LTcuOS0zOC43LTE1LjgtNTYuOEMyOTAuNSAyMTYuNyAxODIgMzI3LjUgMTM3LjEgNDY2YzE4LjEgNy42IDM3IDEyLjUgNTYuNiAxNS4yQzI0MCAzNjcuMSAzMzAuNSAyNzQuNCA0NDQuMiAyMjcuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![forumbee](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/forumbee.svg)
  */
 const Forumbee: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

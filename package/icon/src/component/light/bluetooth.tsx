@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bluetooth` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bluetooth?s=light bluetooth}
- * @preview ![bluetooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg1LjQgMS40YzUuNy0yLjYgMTIuNS0xLjUgMTcuMiAyLjZsMTQ0IDEyOGMzLjYgMy4yIDUuNSA3LjcgNS40IDEyLjVzLTIuNCA5LjItNi4yIDEyLjFMMjE4LjEgMjU2bDEyNy44IDk5LjRjMy44IDIuOSA2IDcuNCA2LjIgMTIuMXMtMS44IDkuMy01LjQgMTIuNWwtMTQ0IDEyOGMtNC43IDQuMi0xMS40IDUuMi0xNy4yIDIuNnMtOS40LTguMy05LjQtMTQuNmwwLTIwNy4zTDU3LjggMzgwLjZjLTcgNS40LTE3IDQuMi0yMi41LTIuOHMtNC4yLTE3IDIuOC0yMi41TDE2NS45IDI1NiAzOC4yIDE1Ni42Yy03LTUuNC04LjItMTUuNS0yLjgtMjIuNXMxNS41LTguMiAyMi41LTIuOEwxNzYgMjIzLjMgMTc2IDE2YzAtNi4zIDMuNy0xMiA5LjQtMTQuNnpNMjA4IDI4OC43bDAgMTcxLjcgMTAzLTkxLjZMMjA4IDI4OC43em0wLTY1LjRsMTAzLTgwLjFMMjA4IDUxLjZsMCAxNzEuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bluetooth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bluetooth.svg)
  */
 const Bluetooth: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

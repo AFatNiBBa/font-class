@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `card-spade` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-spade?s=sharp-thin card-spade}
- * @preview ![card-spade](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMCA0ODAgMzUyIDAgMC00ODBMMTYgMTZ6TTAgMEwxNiAwIDM2OCAwbDE2IDAgMCAxNiAwIDQ4MCAwIDE2LTE2IDBMMTYgNTEyIDAgNTEybDAtMTZMMCAxNiAwIDB6TTE5MiAxMjAuOWw1LjcgNS43IDM5LjYgMzkuNkwyOTcgMjI1LjljMjUgMjUgMjUgNjUuNSAwIDkwLjVzLTY1LjUgMjUtOTAuNSAwbC02LjUtNi41IDAgNTYuMSAyNCAwIDggMCAwIDE2LTggMC0yNCAwLTE2IDAtMjQgMC04IDAgMC0xNiA4IDAgMjQgMCAwLTU2LjEtNi41IDYuNWMtMjUgMjUtNjUuNSAyNS05MC41IDBzLTI1LTY1LjUgMC05MC41bDU5LjctNTkuNyAzOS42LTM5LjYgNS43LTUuN3ptMCAyMi42bC0zMy45IDMzLjlMOTguMyAyMzcuMmMtMTguNyAxOC43LTE4LjcgNDkuMSAwIDY3LjlzNDkuMSAxOC43IDY3LjkgMGwyMC4xLTIwLjEgNS43LTUuNyA1LjcgNS43IDIwLjEgMjAuMWMxOC43IDE4LjcgNDkuMSAxOC43IDY3LjkgMHMxOC43LTQ5LjEgMC02Ny45bC01OS43LTU5LjdMMTkyIDE0My41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![card-spade](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/card-spade.svg)
  */
 const CardSpade: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

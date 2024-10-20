@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lock-hashtag` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-hashtag?s=sharp-regular lock-hashtag}
- * @preview ![lock-hashtag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDEyOGwwIDMyIDE2MCAwIDAtMzJjMC00NC4yLTM1LjgtODAtODAtODBzLTgwIDM1LjgtODAgODB6TTk2IDE2MGwwLTMyQzk2IDU3LjMgMTUzLjMgMCAyMjQgMHMxMjggNTcuMyAxMjggMTI4bDAgMzIgNDggMCA0OCAwIDAgNDggMCAyNTYgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4TDAgMjA4bDAtNDggNDggMCA0OCAwem0wIDQ4bC00OCAwIDAgMjU2IDM1MiAwIDAtMjU2LTQ4IDAtNDggMC0xNjAgMC00OCAwem0xMTIgMTZsMCAyNCAwIDI0IDMyIDAgMC0yNCAwLTI0IDQ4IDAgMCAyNCAwIDI0IDI0IDAgMjQgMCAwIDQ4LTI0IDAtMjQgMCAwIDMyIDI0IDAgMjQgMCAwIDQ4LTI0IDAtMjQgMCAwIDI0IDAgMjQtNDggMCAwLTI0IDAtMjQtMzIgMCAwIDI0IDAgMjQtNDggMCAwLTI0IDAtMjQtMjQgMC0yNCAwIDAtNDggMjQgMCAyNCAwIDAtMzItMjQgMC0yNCAwIDAtNDggMjQgMCAyNCAwIDAtMjQgMC0yNCA0OCAwem0wIDEyOGwzMiAwIDAtMzItMzIgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lock-hashtag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lock-hashtag.svg)
  */
 const LockHashtag: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

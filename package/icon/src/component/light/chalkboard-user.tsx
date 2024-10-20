@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chalkboard-user` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chalkboard-user?s=light chalkboard-user}
- * @preview ![chalkboard-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDMyTDIyNCAzMmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAzNmMtMTAuMi0yLjYtMjEtNC0zMi00bDAtMzJjMC0zNS4zIDI4LjctNjQgNjQtNjRMNTc2IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyODhjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTE2IDAtMTYwIDAtMTYgMC00Ny4yIDBjLTUuMy0xMS40LTExLjgtMjIuMi0xOS41LTMybDY2LjcgMCAwLTQ4YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDk2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA0OGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTI4OGMwLTE3LjctMTQuMy0zMi0zMi0zMnpNNTQ0IDM4NGwwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNmwtOTYgMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNDggMTI4IDB6TTIyNCAyMjRBNjQgNjQgMCAxIDAgOTYgMjI0YTY0IDY0IDAgMSAwIDEyOCAwek02NCAyMjRhOTYgOTYgMCAxIDEgMTkyIDBBOTYgOTYgMCAxIDEgNjQgMjI0ek0zMi4xIDQ4MGwyNTUuNyAwYy0yLjgtNTMuNS00Ny05Ni0xMDEuMi05NmwtNTMuMyAwYy01NC4yIDAtOTguNCA0Mi41LTEwMS4yIDk2ek0wIDQ4NS4zQzAgNDExLjcgNTkuNyAzNTIgMTMzLjMgMzUybDUzLjMgMEMyNjAuMyAzNTIgMzIwIDQxMS43IDMyMCA0ODUuM2MwIDE0LjctMTEuOSAyNi43LTI2LjcgMjYuN0wyNi43IDUxMkMxMS45IDUxMiAwIDUwMC4xIDAgNDg1LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chalkboard-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chalkboard-user.svg)
  */
 const ChalkboardUser: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

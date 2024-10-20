@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spinner` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner?s=regular spinner}
- * @preview ![spinner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDMyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTAgNDQ4YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6TTQ0OCAyNTZhMzIgMzIgMCAxIDAgNjQgMCAzMiAzMiAwIDEgMCAtNjQgMHpNMzIgMjg4YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHpNNzUgNDM3YTMyIDMyIDAgMSAwIDQ1LjMtNDUuM0EzMiAzMiAwIDEgMCA3NSA0Mzd6bTMxNi44IDBBMzIgMzIgMCAxIDAgNDM3IDM5MS44IDMyIDMyIDAgMSAwIDM5MS44IDQzN3pNNzUgNzVhMzIgMzIgMCAxIDAgNDUuMyA0NS4zQTMyIDMyIDAgMSAwIDc1IDc1eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![spinner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/spinner.svg)
  */
 const Spinner: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `droplet-degree` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-degree?s=regular droplet-degree}
- * @preview ![droplet-degree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQ2NGMtNzkuNSAwLTE0NC02NC41LTE0NC0xNDRjMC0xMyA1LjEtMzMuNSAxNy02MS4xYzExLjUtMjYuNiAyNy42LTU1LjggNDUuNS04NC43YzI5LTQ2LjggNjEtOTAuMiA4MS41LTExN2MyMC41IDI2LjcgNTIuNiA3MC4yIDgxLjUgMTE3YzE3LjkgMjguOSAzNCA1OCA0NS41IDg0LjdjMTEuOSAyNy42IDE3IDQ4LjIgMTcgNjEuMWMwIDc5LjUtNjQuNSAxNDQtMTQ0IDE0NHpNMCAzMjBDMCA0MjYgODYgNTEyIDE5MiA1MTJzMTkyLTg2IDE5Mi0xOTJjMC05MS4yLTEzMC4yLTI2Mi4zLTE2Ni42LTMwOC4zQzIxMS40IDQuMiAyMDIuNSAwIDE5Mi45IDBsLTEuOCAwYy05LjYgMC0xOC41IDQuMi0yNC41IDExLjdDMTMwLjIgNTcuNyAwIDIyOC44IDAgMzIwek00MDAgMTEyYTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6bTExMiAwYTgwIDgwIDAgMSAwIC0xNjAgMCA4MCA4MCAwIDEgMCAxNjAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![droplet-degree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/droplet-degree.svg)
  */
 const DropletDegree: typeof Icon = x => (
     <Icon {...x}>

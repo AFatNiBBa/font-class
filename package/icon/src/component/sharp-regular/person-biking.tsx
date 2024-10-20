@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-biking` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-biking?s=sharp-regular person-biking}
- * @preview ![person-biking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQ4YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTIwOCAzODRBODAgODAgMCAxIDEgNDggMzg0YTgwIDgwIDAgMSAxIDE2MCAwek0xMjggMjU2YTEyOCAxMjggMCAxIDAgMCAyNTYgMTI4IDEyOCAwIDEgMCAwLTI1NnpNNTkyIDM4NGE4MCA4MCAwIDEgMSAtMTYwIDAgODAgODAgMCAxIDEgMTYwIDB6TTUxMiAyNTZhMTI4IDEyOCAwIDEgMCAwIDI1NiAxMjggMTI4IDAgMSAwIDAtMjU2ek0zNDAuOSAxMTUuOGwtMTMuNC04LjUtMTMuMSA5LTcyLjEgNDkuNmMtNDAuMiAyNy42LTM2IDg4LjIgNy42IDExMGw1NC4xIDI3TDMwNCA0MTZsMCAyNCA0OCAwIDAtMjQgMC0xMjggMC0xNC44LTEzLjMtNi42LTY3LjQtMzMuN2MtMTAuOS01LjQtMTEuOS0yMC42LTEuOS0yNy41bDU5LTQwLjYgNzQuNiA0Ny41TDQwOSAyMTZsNyAwIDY0IDAgMjQgMCAwLTQ4LTI0IDAtNTcgMC04Mi4xLTUyLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-biking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-biking.svg)
  */
 const PersonBiking: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

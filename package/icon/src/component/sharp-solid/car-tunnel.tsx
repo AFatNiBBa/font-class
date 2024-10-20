@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-tunnel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-tunnel?s=sharp-solid car-tunnel}
- * @preview ![car-tunnel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBDMTE0LjYgMCAwIDExNC42IDAgMjU2TDAgNTEybDk2IDAgMC02NCAwLTEyOCAyOC40IDAgMzAuMi04MC40IDUuOC0xNS42IDE2LjYgMCAxNTkgMCAxNi44IDAgNS43IDE1LjhMMzg3LjcgMzIwbDI4LjMgMCAwIDEyOCAwIDY0IDk2IDAgMC0yNTZDNTEyIDExNC42IDM5Ny40IDAgMjU2IDB6bTk2IDUxMmwwLTY0LTE5MiAwIDAgNjQgMTkyIDB6TTMxOS4yIDI3MmwtMTI1LjYgMC0xOCA0OCAxNjEgMC0xNy41LTQ4ek0xNjggNDA4YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMjAwLTI0YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![car-tunnel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/car-tunnel.svg)
  */
 const CarTunnel: typeof Icon = x => (
     <Icon {...x}>

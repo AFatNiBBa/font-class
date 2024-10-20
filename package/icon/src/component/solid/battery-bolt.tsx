@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-bolt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-bolt?s=solid battery-bolt}
- * @preview ![battery-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTZDMzUuOCA5NiAwIDEzMS44IDAgMTc2TDAgMzM2YzAgNDQuMiAzNS44IDgwIDgwIDgwbDkyLjIgMGMtMTIuOS0xNC41LTE2LjEtMzUuNi03LjItNTMuNWw1LjMtMTAuNUw4MCAzNTJjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTE2MGMwLTguOCA3LjItMTYgMTYtMTZsMTM5LjIgMCA4MC02NEw4MCA5NnpNNDY0IDM1MmwtMTM5LjIgMC04MCA2NEw0NjQgNDE2YzQ0LjIgMCA4MC0zNS44IDgwLTgwbDAtMTZjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC02NGMwLTE3LjctMTQuMy0zMi0zMi0zMmwwLTE2YzAtNDQuMi0zNS44LTgwLTgwLTgwbC05Mi4yIDBjMTMgMTQuNSAxNi4xIDM1LjYgNy4yIDUzLjVMMzczLjcgMTYwbDkwLjMgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAxNjBjMCA4LjgtNy4yIDE2LTE2IDE2ek0zNDYuMSAxMTUuNmMtNS44LTQuNy0xNC4yLTQuNy0yMC4xLS4xbC0xNjAgMTI4Yy01LjMgNC4yLTcuNCAxMS40LTUuMSAxNy44czguMyAxMC43IDE1LjEgMTAuN2w3MC4xIDBMMTkzLjcgMzc2LjhjLTMuNCA2LjctMS42IDE0LjkgNC4zIDE5LjZzMTQuMiA0LjcgMjAuMSAuMWwxNjAtMTI4YzUuMy00LjIgNy40LTExLjQgNS4xLTE3LjhzLTguMy0xMC43LTE1LjEtMTAuN2wtNzAuMSAwIDUyLjQtMTA0LjhjMy40LTYuNyAxLjYtMTQuOS00LjItMTkuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![battery-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/battery-bolt.svg)
  */
 const BatteryBolt: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-fairy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-fairy?s=sharp-solid person-fairy}
- * @preview ![person-fairy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBhNjQgNjQgMCAxIDEgMCAxMjhBNjQgNjQgMCAxIDEgMzIwIDB6TTQyNCAzNTJsLTQwIDAgMCAxNjAtMTI4IDAgMC0xNjAtNDAgMCA4LTE5MiAxOTIgMCA4IDE5MnpNMzQuOSAzMmM4NC45IDAgMTYxLjEgMzcuMSAyMTMuNCA5NmwtNTQuOSAwTDE4Mi42IDM4NGw0MS40IDAgMCA2My4zQzE5MS43IDQ2OCAxNTMuMiA0ODAgMTEyIDQ4MGwtMTYgMC0zMiAwIDAtMzJjMC00NS43IDE0LjctODggMzkuNy0xMjIuM0M0MC42IDI3NS45IDAgMTk4LjcgMCAxMTJMMCA2NCAwIDMybDMyIDAgMi45IDB6bTQxMS44IDk2bC01NSAwQzQ0NCA2OS4xIDUyMC4yIDMyIDYwNS4xIDMybDIuOSAwIDMyIDAgMCAzMiAwIDQ4YzAgODYuNy00MC42IDE2My45LTEwMy43IDIxMy43QzU2MS4zIDM2MCA1NzYgNDAyLjMgNTc2IDQ0OGwwIDMyLTMyIDAtMTYgMGMtNDEuMiAwLTc5LjctMTItMTEyLTMyLjdsMC02My4zIDQxLjQgMEw0NDYuNyAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-fairy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-fairy.svg)
  */
 const PersonFairy: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

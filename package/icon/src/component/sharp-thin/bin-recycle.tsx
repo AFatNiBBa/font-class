@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bin-recycle` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-recycle?s=sharp-thin bin-recycle}
- * @preview ![bin-recycle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYwIDQ4bDAgNjQtMTYgMC0xNi4xIDBMNDguMSAxMTIgMzIgMTEybC0xNiAwIDAtNjQgNTQ0IDB6TTE2IDEyOGwxNy40IDBMNjQgNDgwbDQ0OCAwIDMwLjYtMzUyIDE3LjQgMCAxNiAwIDAtMTYgMC02NCAwLTE2LTE2IDBMMTYgMzIgMCAzMiAwIDQ4bDAgNjQgMCAxNiAxNiAwem0zMy41IDBsNDc3LjEgMEw0OTcuMyA0NjQgNzguNyA0NjQgNDkuNSAxMjh6TTI4OCAxOTJjNy41IDAgMTQuNiAzLjYgMTkuMSA5LjZsNDAuMiA1NC41IDEzLjYtOC41LTQwLjktNTUuNUMzMTIuNSAxODIgMzAwLjYgMTc2IDI4OCAxNzZzLTI0LjUgNi0zMS45IDE2LjFsLTQwLjkgNTUuNSAxMy42IDguNSA0MC4yLTU0LjVjNC41LTYuMSAxMS41LTkuNiAxOS4xLTkuNnptLTkxLjkgODEuNWwtMzYuNyA0OS44Yy00LjggNi41LTcuNCAxNC41LTcuNCAyMi42YzAgMjEgMTcuMSAzOC4xIDM4LjEgMzguMWw4MS45IDAgMC0xNi04MS45IDBjLTEyLjIgMC0yMi4xLTkuOS0yMi4xLTIyLjFjMC00LjcgMS41LTkuMyA0LjMtMTMuMUwyMDkuOCAyODJsLTEzLjYtOC41ek0zMDQgMzg0bDgxLjkgMGMyMSAwIDM4LjEtMTcuMSAzOC4xLTM4LjFjMC04LjEtMi42LTE2LjEtNy40LTIyLjZsLTM2LjctNDkuOEwzNjYuMiAyODJsMzcuNCA1MC44YzIuOCAzLjggNC4zIDguNCA0LjMgMTMuMWMwIDEyLjItOS45IDIyLjEtMjIuMSAyMi4xTDMwNCAzNjhsMCAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bin-recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bin-recycle.svg)
  */
 const BinRecycle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

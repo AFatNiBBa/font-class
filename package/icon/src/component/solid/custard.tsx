@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `custard` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/custard?s=solid custard}
- * @preview ![custard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk2LjcgNjRjMzAgMCA1NiAyMC44IDYyLjUgNTAuMWwxMy41IDYwLjhDNDUwLjkgMTY3LjQgNDIzLjUgMTYwIDQwMCAxNjBjLTI2LjQgMC00NS44IDkuNC02Mi4yIDE3LjJsLS43IC4zYy0xNi43IDgtMzAuNCAxNC40LTQ5LjEgMTQuNHMtMzIuMy02LjQtNDkuMS0xNC40bC0uNy0uM0MyMjEuOCAxNjkuNCAyMDIuNCAxNjAgMTc2IDE2MGMtMjMuNSAwLTUwLjkgNy40LTcyLjYgMTQuOWwxMy41LTYwLjhDMTIzLjQgODQuOCAxNDkuMyA2NCAxNzkuMyA2NGwyMTcuMyAwek02NC4zIDM1MC45TDk1LjEgMjEyLjFjNC4xLTEuNiA4LjUtMy4zIDEzLjItNWMyMi03LjkgNDcuOC0xNS4xIDY3LjctMTUuMWMxOC43IDAgMzIuMyA2LjQgNDkuMSAxNC40bC43IC4zYzE2LjQgNy45IDM1LjggMTcuMiA2Mi4yIDE3LjJzNDUuOC05LjQgNjIuMi0xNy4ybC43LS4zYzE2LjctOCAzMC40LTE0LjQgNDkuMS0xNC40YzE5LjggMCA0NS42IDcuMiA2Ny43IDE1LjFjNC43IDEuNyA5LjIgMy40IDEzLjIgNUw1MTIgMzUyIDY0LjMgMzUwLjl6TTMyIDM4NGw1MTIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkwzMiA0NDhjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![custard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/custard.svg)
  */
 const Custard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `alarm-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-plus?s=sharp-solid alarm-plus}
- * @preview ![alarm-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQuOSAxNDYuNEM1LjUgMTMxLjYgMCAxMTQgMCA5NS4yQzAgNDIuNiA0Mi42IDAgOTUuMiAwYzI1IDAgNDcuOCA5LjYgNjQuOCAyNS40TDE0LjkgMTQ2LjR6TTM5MC4yIDQ2Ny40QzM1Mi44IDQ5NS40IDMwNi4zIDUxMiAyNTYgNTEycy05Ni44LTE2LjYtMTM0LjEtNDQuNmwtMTkuMiAxOS4yTDgwIDUwOS4zIDM0LjcgNDY0bDIyLjYtMjIuNiAxOS4yLTE5LjJDNDguNiAzODQuOCAzMiAzMzguMyAzMiAyODhDMzIgMTY0LjMgMTMyLjMgNjQgMjU2IDY0czIyNCAxMDAuMyAyMjQgMjI0YzAgNTAuMy0xNi42IDk2LjgtNDQuNiAxMzQuMmwxOS4yIDE5LjJMNDc3LjMgNDY0IDQzMiA1MDkuM2wtMjIuNi0yMi42LTE5LjItMTkuMnpNMzUyIDI1LjRDMzY5IDkuNiAzOTEuOCAwIDQxNi44IDBDNDY5LjQgMCA1MTIgNDIuNiA1MTIgOTUuMmMwIDE4LjgtNS41IDM2LjMtMTQuOSA1MS4xTDM1MiAyNS40ek0yODAgMTc2bC00OCAwIDAgMjQgMCA2NC02NCAwLTI0IDAgMCA0OCAyNCAwIDY0IDAgMCA2NCAwIDI0IDQ4IDAgMC0yNCAwLTY0IDY0IDAgMjQgMCAwLTQ4LTI0IDAtNjQgMCAwLTY0IDAtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![alarm-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/alarm-plus.svg)
  */
 const AlarmPlus: typeof Icon = x => (
     <Icon {...x}>

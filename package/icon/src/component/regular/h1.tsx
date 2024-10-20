@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `h1` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h1?s=regular h1}
- * @preview ![h1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODhjMC0xMy4zLTEwLjctMjQtMjQtMjRTMCA3NC43IDAgODhMMCAyNDggMCA0MjRjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTE1MiAyMjQgMCAwIDE1MmMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtMTc2IDAtMTYwYzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMTM2TDQ4IDIyNCA0OCA4OHptNDU2IDBjMC04LjUtNC41LTE2LjQtMTEuOC0yMC43cy0xNi40LTQuNC0yMy44LS4zbC03MiA0MGMtMTEuNiA2LjQtMTUuOCAyMS05LjMgMzIuNnMyMSAxNS44IDMyLjYgOS4zTDQ1NiAxMjguOCA0NTYgNDAwbC00OCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDcyIDAgNzIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNDggMCAwLTMxMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![h1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/h1.svg)
  */
 const H1: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

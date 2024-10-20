@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `subscript` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subscript?s=regular subscript}
- * @preview ![subscript](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgNjRDMTAuNyA2NCAwIDc0LjcgMCA4OHMxMC43IDI0IDI0IDI0bDI3LjIgMCA5NiAxNDQtOTYgMTQ0TDI0IDQwMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw0MCAwYzggMCAxNS41LTQgMjAtMTAuN2w5Mi0xMzggOTIgMTM4QzI3Mi41IDQ0NCAyODAgNDQ4IDI4OCA0NDhsNDAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMjcuMiAwLTk2LTE0NCA5Ni0xNDQgMjcuMiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC00MCAwYy04IDAtMTUuNSA0LTIwIDEwLjdsLTkyIDEzOEw4NCA3NC43Qzc5LjUgNjggNzIgNjQgNjQgNjRMMjQgNjR6TTQ3MiAzMTJjMC04LTMuOS0xNS40LTEwLjUtMTkuOXMtMTUtNS40LTIyLjQtMi40bC00MCAxNmMtMTIuMyA0LjktMTguMyAxOC45LTEzLjQgMzEuMnMxOC45IDE4LjMgMzEuMiAxMy40bDcuMS0yLjhMNDI0IDQ2NGwtMTYgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw0MCAwIDQwIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTE2IDAgMC0xNTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![subscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/subscript.svg)
  */
 const Subscript: typeof Icon = x => (
     <Icon {...x}>

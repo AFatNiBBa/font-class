@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `acorn` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/acorn?s=solid acorn}
- * @preview ![acorn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYyLjQgNC44YzEwLjYgOCAxMi44IDIzIDQuOCAzMy42bC00LjggNi40Yy00LjQgNS45LTcuOSAxMi40LTEwLjMgMTkuMkwzNTIgNjRjNTMgMCA5NiA0MyA5NiA5NmMwIDE3LjctMTQuMyAzMi0zMiAzMkwzMiAxOTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMyYzAtNTMgNDMtOTYgOTYtOTZsMTA2LjQgMEMyMDYgNDYuNyAyMTMuMyAzMC4zIDIyNCAxNmw0LjgtNi40YzgtMTAuNiAyMy0xMi44IDMzLjYtNC44ek0yMTMuOSA0NzYuNEM3OC41IDQyNS45IDQ4IDMwMi4xIDQ4IDIyNGwxNzYgMCAxNzYgMGMwIDc4LjEtMzAuNSAyMDEuOS0xNjUuOSAyNTIuNGMtNi41IDIuNC0xMy43IDIuNC0yMC4yIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![acorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/acorn.svg)
  */
 const Acorn: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

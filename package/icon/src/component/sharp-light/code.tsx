@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `code` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code?s=sharp-light code}
- * @preview ![code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgxLjUgNGwtNC43IDE1LjMtMTQ0IDQ2NEwyMjggNDk4LjVsMzAuNiA5LjUgNC43LTE1LjMgMTQ0LTQ2NEw0MTIgMTMuNSAzODEuNSA0ek0xNjAuNyAxMDUuNGwtMTEuNyAxMUwxMyAyNDQuNCAuNyAyNTYgMTMgMjY3LjdsMTM2IDEyOCAxMS43IDExIDIxLjktMjMuMy0xMS43LTExTDQ3LjMgMjU2IDE3MSAxMzkuNmwxMS43LTExLTIxLjktMjMuM3ptMjk2LjcgMjMuOWwxMiAxMC42YzI3LjggMjQuNyA0Ny41IDQ0IDY3LjQgNjMuNWMwIDAgMCAwIDAgMGMxNi44IDE2LjQgMzMuNyAzMi45IDU1LjUgNTIuOEw0NjkgMzcyLjNsLTExLjcgMTEgMjEuOSAyMy4zIDExLjctMTEgMTM2LTEyOCAxMi43LTEyTDYyNi42IDI0NGMtMjcuOC0yNC43LTQ3LjUtNDQtNjcuNC02My41YzAgMCAwIDAgMCAwQzUzOS4yIDE2MSA1MTkgMTQxLjMgNDkwLjYgMTE2bC0xMi0xMC42LTIxLjMgMjMuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/code.svg)
  */
 const Code: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

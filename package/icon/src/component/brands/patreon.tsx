@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `patreon` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/patreon?s=brands patreon}
- * @preview ![patreon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg5LjcgMTUzLjhjLS4xLTY1LjQtNTEtMTE5LTExMC43LTEzOC4zQzMwNC44LTguNSAyMDctNSAxMzYuMSAyOC40QzUwLjMgNjguOSAyMy4zIDE1Ny43IDIyLjMgMjQ2LjJDMjEuNSAzMTkgMjguNyA1MTAuNiAxMzYuOSA1MTJjODAuMyAxIDkyLjMtMTAyLjUgMTI5LjUtMTUyLjNjMjYuNC0zNS41IDYwLjUtNDUuNSAxMDIuNC01NS45YzcyLTE3LjggMTIxLjEtNzQuNyAxMjEtMTUweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![patreon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/patreon.svg)
  */
 const Patreon: typeof Icon = x => (
     <Icon {...x}>

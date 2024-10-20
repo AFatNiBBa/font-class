@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wallet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wallet?s=regular wallet}
- * @preview ![wallet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMzJDMzkuNCAzMiAwIDcxLjQgMCAxMjBMMCAzOTJjMCA0OC42IDM5LjQgODggODggODhsMzM2IDBjNDguNiAwIDg4LTM5LjQgODgtODhsMC0xNzZjMC00OC42LTM5LjQtODgtODgtODhsLTMwNCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDMwNCAwYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgMTc2YzAgMjIuMS0xNy45IDQwLTQwIDQwTDg4IDQzMmMtMjIuMSAwLTQwLTE3LjktNDAtNDBsMC0yNzJjMC0yMi4xIDE3LjktNDAgNDAtNDBsMzY4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMODggMzJ6TTM4NCAzMzZhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wallet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/wallet.svg)
  */
 const Wallet: typeof Icon = x => (
     <Icon {...x}>

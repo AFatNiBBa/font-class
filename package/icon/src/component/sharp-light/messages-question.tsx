@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `messages-question` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/messages-question?s=sharp-light messages-question}
- * @preview ![messages-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDM2OEw5NiAzODRsMC0zMiAwLTMuOEw5NiAzMjBsLTMyIDAtMzIgMEwwIDMyMGwwLTMyTDAgMzIgMCAwIDMyIDAgMzg0IDBsMzIgMCAwIDMyIDAgMjU2IDAgMzItMzIgMC0xNjAgMC05NiA0OHptMC0zNS44bDgxLjctNDAuOCA2LjgtMy40IDcuNiAwIDE2MCAwIDAtMjU2TDMyIDMybDAgMjU2IDY0IDAgMzIgMCAwIDMyIDAgMTIuMnpNMjU2IDQxNmwwLTY0IDMyIDAgMCA2NCAxMjggMCA3LjYgMCA2LjggMy40TDUxMiA0NjAuMmwwLTEyLjIgMC0zMiAzMiAwIDY0IDAgMC0yNTYtMTYwIDAgMC0zMiAxNjAgMCAzMiAwIDAgMzIgMCAyNTYgMCAzMi0zMiAwLTMyIDAtMzIgMCAwIDI4LjIgMCAzLjggMCAzMi0zMi0xNi05Ni00OC0xMjggMC0zMiAwIDAtMzJ6TTE0Ni43IDEwOWMwLTIxLjQgMTcuMy0zOC43IDM4LjctMzguN2w0MC4zIDBjMjQuMiAwIDQzLjcgMTkuNiA0My43IDQzLjdjMCAxNS43LTguNCAzMC4xLTIyIDM3LjlMMjI0IDE2NS40bDAgNS45IDAgMTYtMzIgMCAwLTE2IDAtMTUuMiAwLTkuMyA4LTQuNiAzMS40LTE4YzMuNi0yLjEgNS45LTYgNS45LTEwLjJjMC02LjUtNS4zLTExLjctMTEuNy0xMS43bC00MC4zIDBjLTMuNyAwLTYuNyAzLTYuNyA2LjdsMCA0LjYtMzIgMCAwLTQuNnpNMTkxIDIxNi43bDM0IDAgMCAzNC0zNCAwIDAtMzR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![messages-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/messages-question.svg)
  */
 const MessagesQuestion: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

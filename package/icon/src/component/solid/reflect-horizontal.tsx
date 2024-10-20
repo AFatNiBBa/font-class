@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `reflect-horizontal` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-horizontal?s=solid reflect-horizontal}
- * @preview ![reflect-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgNDY0YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC00NjRjMC0xMy4zLTEwLjctMjQtMjQtMjR6TTQ5Mi4yIDk4LjRjLTEyLTUtMjUuNy0yLjItMzQuOSA2LjlsLTEyOCAxMjhjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zbDEyOCAxMjhjOS4yIDkuMiAyMi45IDExLjkgMzQuOSA2LjlzMTkuOC0xNi42IDE5LjgtMjkuNmwwLTI1NmMwLTEyLjktNy44LTI0LjYtMTkuOC0yOS42em0tNDcyLjUgMEM3LjggMTAzLjQgMCAxMTUuMSAwIDEyOEwwIDM4NGMwIDEyLjkgNy44IDI0LjYgMTkuOCAyOS42czI1LjcgMi4yIDM0LjktNi45bDEyOC0xMjhjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNsLTEyOC0xMjhjLTkuMi05LjItMjIuOS0xMS45LTM0LjktNi45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![reflect-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/reflect-horizontal.svg)
  */
 const ReflectHorizontal: typeof Icon = x => (
     <Icon {...x}>

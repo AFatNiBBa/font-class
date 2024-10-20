@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gun-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun-slash?s=regular gun-slash}
- * @preview ![gun-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w0MTIuMyAyOTcuOCA0MzIuOSAyNDBsMzIuNSAwYzEwLjYgMCAyMC44LTQuMiAyOC4zLTExLjdMNTEzLjkgMjA4bDU0LjEgMGMyMi4xIDAgNDAtMTcuOSA0MC00MGwwLTY0YzAtMjIuMS0xNy45LTQwLTQwLTQwbC04IDAgMC04YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgOEwxMTMuOSA2NCAzOC44IDUuMXpNMTc1LjIgMTEyTDUzNiAxMTJsMjQgMCAwIDQ4LTQ5LjQgMGMtMTAuNiAwLTIwLjggNC4yLTI4LjMgMTEuN0w0NjIuMSAxOTJsLTE2MyAwLTIxLjggMEwxNzUuMiAxMTJ6TTMzOC41IDI0MGw0My40IDAtOS41IDI2LjZMMzM4LjUgMjQwek04MCAxOTJsMC0zM0wzMiAxMjEuMiAzMiAyMDBjMCAyMi4xIDE3LjkgNDAgNDAgNDBsMiAwYzIwLjggMCAzNi4xIDE5LjYgMzEgMzkuOEw2NSA0NDAuMmMtMi40IDkuNi0uMiAxOS43IDUuOCAyNy41Uzg2LjEgNDgwIDk2IDQ4MGwxMTIgMGMxNC43IDAgMjcuNS0xMCAzMS0yNC4yTDI2NSAzNTJsNTkuOSAwLTkxLjQtNzItMzggMTUyLTc5IDAgMzUuMS0xNDAuNmM0LjUtMTguMSAyLjUtMzUuOS00LjMtNTEuNGwzNS40IDAtNjAuOS00OC0yMS4xIDBMODAgMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gun-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gun-slash.svg)
  */
 const GunSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

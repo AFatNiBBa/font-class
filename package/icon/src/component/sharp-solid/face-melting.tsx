@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-melting` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-melting?s=sharp-solid face-melting}
- * @preview ![face-melting](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTcxLjQgMzA0LjhjLTQuNSAyMy4xIDExLjggNDcuMiAzNS4zIDQ3LjJjMCAwIDAgMCAwIDBsMS4zIDAgMzIgMCAwIDMyIDAgMzItMzIgMGMwIDAgMCAwIDAgMGwtNDggMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMSAxNiAxNiAxNmMwIDAgMCAwIDAgMGwxNiAwIDMyIDAgMCAzMiAwIDMyLTMyIDAtMjU2IDBMMzIgNTEyIDAgNTEybDAtMzIgMC0zMiAzMiAwIDEyLjkgMGMwIDAgMCAwIDAgMGMzNi44IDAgNTguNC01MC43IDQyLjgtODQuMUM3Mi41IDMzMS4xIDY0IDI5NC41IDY0IDI1NkM2NCAxMTQuNiAxNzguNiAwIDMyMCAwUzU3NiAxMTQuNiA1NzYgMjU2YzAgMTYuNy0xLjYgMzMtNC42IDQ4Ljh6TTI0Ny4yIDIxOS45YTMyIDMyIDAgMSAwIDE2LjYtNjEuOCAzMiAzMiAwIDEgMCAtMTYuNiA2MS44ek00NDEgMjM4LjdhMzIgMzIgMCAxIDAgLTYxLjgtMTYuNkEzMiAzMiAwIDEgMCA0NDEgMjM4Ljd6TTIxMy4yIDI5OS40bC03LTE0LjQtMjguOCAxNCA3IDE0LjRjMTQuOCAzMC41IDQ1LjEgNjcuNSA5OC4zIDgxLjdzOTcuOS0yLjYgMTI2LTIxLjdsMTMuMy05TDQwNCAzMzhsLTEzLjMgOWMtMjIuNyAxNS40LTU3LjkgMjguNS05OS44IDE3LjJzLTY1LjgtNDAuMi03Ny44LTY0Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-melting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-melting.svg)
  */
 const FaceMelting: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

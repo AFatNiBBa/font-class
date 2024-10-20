@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-plus?s=solid user-plus}
- * @preview ![user-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMTI4YTEyOCAxMjggMCAxIDEgMjU2IDBBMTI4IDEyOCAwIDEgMSA5NiAxMjh6TTAgNDgyLjNDMCAzODMuOCA3OS44IDMwNCAxNzguMyAzMDRsOTEuNCAwQzM2OC4yIDMwNCA0NDggMzgzLjggNDQ4IDQ4Mi4zYzAgMTYuNC0xMy4zIDI5LjctMjkuNyAyOS43TDI5LjcgNTEyQzEzLjMgNTEyIDAgNDk4LjcgMCA0ODIuM3pNNTA0IDMxMmwwLTY0LTY0IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsNjQgMCAwLTY0YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjRsMCA2NCA2NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC02NCAwIDAgNjRjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-plus.svg)
  */
 const UserPlus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `m` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/m?s=sharp-duotone-solid m}
- * @preview ![m](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMyTDAgNjQgMCA0NDhsMCAzMiA2NCAwIDAtMzIgMC0yNzguM0wxOTcuNCAzNjkuOCAyMjQgNDA5LjdsMjYuNi0zOS45TDM4NCAxNjkuNyAzODQgNDQ4bDAgMzIgNjQgMCAwLTMyIDAtMzg0IDAtMzItNDkuMSAwLTkuNSAxNC4yTDIyNCAyOTQuMyA1OC42IDQ2LjIgNDkuMSAzMiAwIDMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSIiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![m](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/m.svg)
  */
 const M: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

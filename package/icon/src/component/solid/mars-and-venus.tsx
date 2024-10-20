@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mars-and-venus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-and-venus?s=solid mars-and-venus}
- * @preview ![mars-and-venus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM3LjggMTQuOEMzNDEuNSA1LjggMzUwLjMgMCAzNjAgMEw0NzIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDExMmMwIDkuNy01LjggMTguNS0xNC44IDIyLjJzLTE5LjMgMS43LTI2LjItNS4ybC0zOS0zOS0yNC43IDI0LjdDNDA3IDE2My4zIDQxNiAxOTIuNiA0MTYgMjI0YzAgODAuMi01OSAxNDYuNi0xMzYgMTU4LjJsMCAyNS44IDI0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTI0IDAgMCAzMmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTMyLTI0IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsMjQgMCAwLTI1LjhDMTU1IDM3MC42IDk2IDMwNC4yIDk2IDIyNGMwLTg4LjQgNzEuNi0xNjAgMTYwLTE2MGMzOS42IDAgNzUuOSAxNC40IDEwMy44IDM4LjJMMzgyLjEgODAgMzQzIDQxYy02LjktNi45LTguOS0xNy4yLTUuMi0yNi4yek00NDggNDhzMCAwIDAgMHMwIDAgMCAwczAgMCAwIDB6TTM1MiAyMjRhOTYgOTYgMCAxIDAgLTE5MiAwIDk2IDk2IDAgMSAwIDE5MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mars-and-venus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mars-and-venus.svg)
  */
 const MarsAndVenus: typeof Icon = x => (
     <Icon {...x}>

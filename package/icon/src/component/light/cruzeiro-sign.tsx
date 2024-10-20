@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cruzeiro-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cruzeiro-sign?s=light cruzeiro-sign}
- * @preview ![cruzeiro-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjU2QzY0IDE1MC4xIDE1MC42IDY0IDI1Ny43IDY0YzQ5LjYgMCA5NC45IDE4LjUgMTI5LjIgNDguOWM2LjYgNS45IDE2LjcgNS4zIDIyLjYtMS4zczUuMy0xNi43LTEuMy0yMi42Yy0zOS45LTM1LjQtOTIuNy01Ny0xNTAuNC01N0MxMzMuMiAzMiAzMiAxMzIuMiAzMiAyNTZzMTAxLjIgMjI0IDIyNS43IDIyNGM1Ny43IDAgMTEwLjUtMjEuNiAxNTAuNC01N2M2LjYtNS45IDcuMi0xNiAxLjMtMjIuNnMtMTYtNy4yLTIyLjYtMS4zQzM1Mi42IDQyOS41IDMwNy4zIDQ0OCAyNTcuNyA0NDhjLTExLjUgMC0yMi43LTEtMzMuNy0yLjlMMjI0IDMyMGMwLTI2LjUgMjEuNS00OCA0OC00OGMxNS4xIDAgMjkuMyA3LjEgMzguNCAxOS4ybDQuOCA2LjRjNS4zIDcuMSAxNS4zIDguNSAyMi40IDMuMnM4LjUtMTUuMyAzLjItMjIuNEwzMzYgMjcyYy0xNS4xLTIwLjEtMzguOC0zMi02NC0zMmMtMTggMC0zNC42IDYtNDggMTZsMC0xNmMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDgwIDAgMTE2LjdDMTE3LjMgNDEwIDY0IDMzOS4xIDY0IDI1NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cruzeiro-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cruzeiro-sign.svg)
  */
 const CruzeiroSign: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

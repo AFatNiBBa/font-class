@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `barcode-read` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/barcode-read?s=sharp-regular barcode-read}
- * @preview ![barcode-read](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDI0IDAgMTM2IDBsMjQgMCAwIDQ4LTI0IDBMNDggNDhsMCA4OCAwIDI0TDAgMTYwbDAtMjRMMCAyNCAwIDB6TTE0NCAxMjhsMCAyNTYtNDggMCAwLTI1NiA0OCAwem0zMiAwbDMyIDAgMCAyNTYtMzIgMCAwLTI1NnptMjcyIDBsMzIgMCAwIDI1Ni0zMiAwIDAtMjU2em0tMjA4IDBsNDggMCAwIDI1Ni00OCAwIDAtMjU2em0xNzYgMGwwIDI1Ni00OCAwIDAtMjU2IDQ4IDB6TTU1MiAwbDI0IDAgMCAyNCAwIDExMiAwIDI0LTQ4IDAgMC0yNCAwLTg4LTg4IDAtMjQgMCAwLTQ4IDI0IDBMNTUyIDB6TTAgNTEybDAtMjRMMCAzNzZsMC0yNCA0OCAwIDAgMjQgMCA4OCA4OCAwIDI0IDAgMCA0OC0yNCAwTDI0IDUxMiAwIDUxMnptNTUyIDBsLTExMiAwLTI0IDAgMC00OCAyNCAwIDg4IDAgMC04OCAwLTI0IDQ4IDAgMCAyNCAwIDExMiAwIDI0LTI0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![barcode-read](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/barcode-read.svg)
  */
 const BarcodeRead: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sensor-on` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-on?s=solid sensor-on}
- * @preview ![sensor-on](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6bTg4IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgMTQ0YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xNDRjMC0xMy4zLTEwLjctMjQtMjQtMjR6bTk2IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgMTQ0YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xNDRjMC0xMy4zLTEwLjctMjQtMjQtMjR6bTQxMy4zIDEybC00OCAzMmMtMTEgNy40LTI1LjkgNC40LTMzLjMtNi43cy00LjQtMjUuOSA2LjctMzMuM2w0OC0zMmMxMS03LjQgMjUuOS00LjQgMzMuMyA2LjdzNC40IDI1LjktNi43IDMzLjN6TTUzNiAyMzJsODAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtODAgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNHptMTMuMyAxNDBsNDggMzJjMTEgNy40IDE0IDIyLjMgNi43IDMzLjNzLTIyLjMgMTQtMzMuMyA2LjdsLTQ4LTMyYy0xMS03LjQtMTQtMjIuMy02LjctMzMuM3MyMi4zLTE0IDMzLjMtNi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sensor-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sensor-on.svg)
  */
 const SensorOn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

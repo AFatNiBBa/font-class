@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-frown-slight` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-frown-slight?s=regular face-frown-slight}
- * @preview ![face-frown-slight](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTMzNC40IDM4NS45QzMxOS4yIDM2OS41IDI5My4yIDM1MiAyNTYgMzUycy02My4yIDE3LjUtNzguNCAzMy45Yy05IDkuNy0yNC4yIDEwLjQtMzMuOSAxLjRzLTEwLjQtMjQuMi0xLjQtMzMuOWMyMi0yMy44IDYwLTQ5LjQgMTEzLjYtNDkuNHM5MS43IDI1LjUgMTEzLjYgNDkuNGM5IDkuNyA4LjQgMjQuOS0xLjQgMzMuOXMtMjQuOSA4LjQtMzMuOS0xLjR6TTE0NC40IDIwOGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0xOTItMzJhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-frown-slight](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-frown-slight.svg)
  */
 const FaceFrownSlight: typeof Icon = x => (
     <Icon {...x}>

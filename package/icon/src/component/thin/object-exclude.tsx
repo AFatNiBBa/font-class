@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `object-exclude` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-exclude?s=thin object-exclude}
- * @preview ![object-exclude](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTZsMjI0IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA2NCAxNiAwIDAtNjRjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCAyODhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsNjQgMCAwLTE2LTY0IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4TDE2IDY0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4em05NiAzNjhsMCA2NGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyMjQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTIyNGMwLTM1LjMtMjguNy02NC02NC02NGwtNjQgMCAwIDE2IDY0IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAyMjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTIyNCAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTY0LTE2IDB6bTEyOC0zMmMzNS4zIDAgNjQtMjguNyA2NC02NGwtMTYgMGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMzIgMCAwIDE2IDMyIDB6bTY0LTE3NmwwLTE2LTE2IDAtNDggMCAwIDE2IDQ4IDAgMCA4MCAxNiAwIDAtODB6TTIyNCAzNTJsMC0xNi00OCAwIDAtODAtMTYgMCAwIDgwIDAgMTYgMTYgMCA0OCAwek0xNjAgMjI0bDE2IDBjMC0yNi41IDIxLjUtNDggNDgtNDhsMzIgMCAwLTE2LTMyIDBjLTM1LjMgMC02NCAyOC43LTY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![object-exclude](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/object-exclude.svg)
  */
 const ObjectExclude: typeof Icon = x => (
     <Icon {...x}>

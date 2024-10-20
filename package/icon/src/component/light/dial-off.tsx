@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dial-off` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-off?s=light dial-off}
- * @preview ![dial-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDU2YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHpNMjcyIDI4OGwwIDEyN2MtNjMuMS03LjktMTEyLTYxLjctMTEyLTEyN2MwLTcwLjcgNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4YzAgNjUuMy00OC45IDExOS4xLTExMiAxMjdsMC0xMjdjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZ6bTE2IDE2MGExNjAgMTYwIDAgMSAwIDAtMzIwIDE2MCAxNjAgMCAxIDAgMCAzMjB6TTU2OCAyODhhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHpNMzIgMzEyYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHpNMTIwIDk2QTI0IDI0IDAgMSAwIDcyIDk2YTI0IDI0IDAgMSAwIDQ4IDB6bTM2MCAyNGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6TTEyMCA0ODBhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHptMzYwIDI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dial-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dial-off.svg)
  */
 const DialOff: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

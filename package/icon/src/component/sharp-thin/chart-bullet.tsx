@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-bullet` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-bullet?s=sharp-thin chart-bullet}
- * @preview ![chart-bullet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDMybDAgOCAwIDI0IDIwOCAwIDE2IDAgMCAxNiAwIDEyOCAwIDE2LTE2IDAtMjA4IDAgMCAyNCAwIDgtMTYgMCAwLTggMC0yNEwxNiAyMjQgMCAyMjRsMC0xNkwwIDgwIDAgNjRsMTYgMCAyNTYgMCAwLTI0IDAtOCAxNiAwek0xNjAgODBsMCAxMjggMTEyIDAgMC0xMjhMMTYwIDgwem0xMjggMGwwIDEyOCAyMDggMCAwLTEyOEwyODggODB6TTE0NCA4MEwxNiA4MGwwIDEyOCAxMjggMCAwLTEyOHpNMzg0IDI1NmwwIDggMCAyNCAxMTIgMCAxNiAwIDAgMTYgMCAxMjggMCAxNi0xNiAwLTExMiAwIDAgMjQgMCA4LTE2IDAgMC04IDAtMjRMMTYgNDQ4IDAgNDQ4bDAtMTZMMCAzMDRsMC0xNiAxNiAwIDM1MiAwIDAtMjQgMC04IDE2IDB6TTIyNCAzMDRsMCAxMjggMTQ0IDAgMC0xMjgtMTQ0IDB6bTE2MCAwbDAgMTI4IDExMiAwIDAtMTI4LTExMiAwem0tMTc2IDBMMTYgMzA0bDAgMTI4IDE5MiAwIDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-bullet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chart-bullet.svg)
  */
 const ChartBullet: typeof Icon = x => (
     <Icon {...x}>

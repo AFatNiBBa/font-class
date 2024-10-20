@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `icicles` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/icicles?s=regular icicles}
- * @preview ![icicles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNS4yIDkuMUM5LjcgMy40IDE2LjcgMCAyNCAwTDQ4OCAwYzYuOSAwIDEzLjUgMyAxOC4xIDguMnM2LjYgMTIuMiA1LjcgMTlMNDQ4LjkgNDgzYy0yLjMgMTYuNi0xNi41IDI5LTMzLjIgMjljLTE1LjggMC0yOS40LTExLTMyLjgtMjYuNEwzMzIuNiAyNTYuNWwtMTEuMiAzOC4yYy00LjQgMTUtMTguMSAyNS4yLTMzLjcgMjUuMmMtMTQuNSAwLTI3LjYtOS0zMi44LTIyLjVsLTkuNC0yNC42LTIwLjIgODQuOUMyMjEuNSAzNzMuMSAyMDcuOCAzODQgMTkyIDM4NHMtMjkuNS0xMC45LTMzLjItMjYuMmwtMjAuMi04NC45LTkuNSAyNC44QzEyMy45IDMxMS4xIDExMSAzMjAgOTYuNiAzMjBjLTE2LjIgMC0zMC4yLTExLjEtMzMuOS0yNi44TC42IDI5LjVDLTEgMjIuNCAuNiAxNC44IDUuMiA5LjF6TTU0LjMgNDhMOTkuNiAyNDAuNmwyMi01Ny4yYzMuOC05LjggMTMuNS0xNiAyNC0xNS4zczE5LjMgOC4yIDIxLjcgMTguNEwxOTIgMjkwbDI0LjctMTAzLjVjMi40LTEwLjIgMTEuMy0xNy43IDIxLjctMTguNHMyMC4yIDUuNSAyNCAxNS4zTDI4NiAyNDQuOCAzMTMgMTUzLjJjMy4xLTEwLjUgMTIuOS0xNy42IDIzLjktMTcuMnMyMC4zIDguMSAyMi42IDE4LjhsNTMgMjQxLjRMNDYwLjUgNDggNTQuMyA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![icicles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/icicles.svg)
  */
 const Icicles: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-carry-box` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-carry-box?s=solid person-carry-box}
- * @preview ![person-carry-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTZBNDggNDggMCAxIDAgODAgMGE0OCA0OCAwIDEgMCAwIDk2ek05NiAzMDYuN2wwLTY1LjEgMTYuNiAyNC45YzguOSAxMy40IDIzLjkgMjEuNCAzOS45IDIxLjRsNzEuNCAwIDEyOCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTI4YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDIyNCA5NmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA5Ni0zMC45IDAtNDIuNi02NGMtMTMuMy0yMC0zNS44LTMyLTU5LjktMzJDMjYuMiAxMjggMCAxNTQuMiAwIDE4Ni42bDAgODguMWMwIDE3IDYuNyAzMy4zIDE4LjcgNDUuM2w3OS40IDc5LjQgMTQuMyA4NS45YzIuOSAxNy40IDE5LjQgMjkuMiAzNi44IDI2LjNzMjkuMi0xOS40IDI2LjMtMzYuOGwtMTUuMi05MC45Yy0xLjYtOS45LTYuMy0xOS0xMy40LTI2LjFsLTUxLTUxek0wIDM0Ni41TDAgNDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJjMCAwIDAgMCAwIDBsMC02OS41LTY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-carry-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-carry-box.svg)
  */
 const PersonCarryBox: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bomb` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bomb?s=solid bomb}
- * @preview ![bomb](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU5LjEgNTIuNEw0NDIuNiA2LjVDNDQwLjcgMi42IDQzNi41IDAgNDMyLjEgMHMtOC41IDIuNi0xMC40IDYuNUw0MDUuMiA1Mi40bC00NiAxNi44Yy00LjMgMS42LTcuMyA1LjktNy4yIDEwLjRjMCA0LjUgMyA4LjcgNy4yIDEwLjJsNDUuNyAxNi44IDE2LjggNDUuOGMxLjUgNC40IDUuOCA3LjUgMTAuNCA3LjVzOC45LTMuMSAxMC40LTcuNWwxNi41LTQ1LjggNDUuNy0xNi44YzQuMi0xLjUgNy4yLTUuNyA3LjItMTAuMmMwLTQuNi0zLTguOS03LjItMTAuNEw0NTkuMSA1Mi40em0tMTMyLjQgNTNjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwbC0yLjkgMi45QzI1Ni41IDEwMC4zIDIzMi43IDk2IDIwOCA5NkM5My4xIDk2IDAgMTg5LjEgMCAzMDRTOTMuMSA1MTIgMjA4IDUxMnMyMDgtOTMuMSAyMDgtMjA4YzAtMjQuNy00LjMtNDguNS0xMi4yLTcwLjVsMi45LTIuOWMxMi41LTEyLjUgMTIuNS0zMi44IDAtNDUuM2wtODAtODB6TTIwMCAxOTJjLTU3LjQgMC0xMDQgNDYuNi0xMDQgMTA0bDAgOGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLThjMC03NS4xIDYwLjktMTM2IDEzNi0xMzZsOCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC04IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bomb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bomb.svg)
  */
 const Bomb: typeof Icon = x => (
     <Icon {...x}>

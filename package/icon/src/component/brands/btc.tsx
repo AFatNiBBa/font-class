@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `btc` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/btc?s=brands btc}
- * @preview ![btc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEwLjIwNCAyNDIuNjM4YzI3LjczLTE0LjE4IDQ1LjM3Ny0zOS4zOSA0MS4yOC04MS4zLTUuMzU4LTU3LjM1MS01Mi40NTgtNzYuNTczLTExNC44NS04MS45MjlWMGgtNDguNTI4djc3LjIwM2MtMTIuNjA1IDAtMjUuNTI1LjMxNS0zOC40NDQuNjNWMGgtNDguNTI4djc5LjQwOWMtMTcuODQyLjUzOS0zOC42MjIuMjc2LTk3LjM3IDB2NTEuNjc4YzM4LjMxNC0uNjc4IDU4LjQxNy0zLjE0IDYzLjAyMyAyMS40Mjd2MjE3LjQyOWMtMi45MjUgMTkuNDkyLTE4LjUyNCAxNi42ODUtNTMuMjU1IDE2LjA3MUwzLjc2NSA0NDMuNjhjODguNDgxIDAgOTcuMzcuMzE1IDk3LjM3LjMxNVY1MTJoNDguNTI4di02Ny4wNmMxMy4yMzQuMzE1IDI2LjE1NC4zMTUgMzguNDQ0LjMxNVY1MTJoNDguNTI4di02OC4wMDVjODEuMjk5LTQuNDEyIDEzNS42NDctMjQuODk0IDE0Mi44OTUtMTAxLjQ2NyA1LjY3MS02MS40NDYtMjMuMzItODguODYyLTY5LjMyNi05OS44OXpNMTUwLjYwOCAxMzQuNTUzYzI3LjQxNSAwIDExMy4xMjYtOC41MDcgMTEzLjEyNiA0OC41MjggMCA1NC41MTUtODUuNzEgNDguMjEyLTExMy4xMjYgNDguMjEydi05Ni43NHptMCAyNTEuNzc2VjI3OS44MjFjMzIuNzcyIDAgMTMzLjEyNy05LjEzOCAxMzMuMTI3IDUzLjI1NS0uMDAxIDYwLjE4Ni0xMDAuMzU1IDUzLjI1My0xMzMuMTI3IDUzLjI1M3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![btc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/btc.svg)
  */
 const Btc: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

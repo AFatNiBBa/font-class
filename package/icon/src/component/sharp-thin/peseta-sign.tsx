@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `peseta-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peseta-sign?s=sharp-thin peseta-sign}
- * @preview ![peseta-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYgMzJsLTggMCAwIDggMCAxMzZMMCAxNzZsMCAxNiA0OCAwIDAgMTIwIDAgMTYwIDAgOCAxNiAwIDAtOCAwLTE1MiAxMjggMGM3NC4xIDAgMTM1LjItNTYgMTQzLjEtMTI4bDQ4LjkgMCAwLTE2LTQ4IDBjMC03OS41LTY0LjUtMTQ0LTE0NC0xNDRMNTYgMzJ6TTMyMCAxNzZMNjQgMTc2IDY0IDQ4bDEyOCAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4ek02NCAxOTJsMjU1IDBjLTcuOSA2My4xLTYxLjcgMTEyLTEyNyAxMTJMNjQgMzA0bDAtMTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![peseta-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/peseta-sign.svg)
  */
 const PesetaSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

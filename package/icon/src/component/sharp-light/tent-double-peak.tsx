@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tent-double-peak` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-double-peak?s=sharp-light tent-double-peak}
- * @preview ![tent-double-peak](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNy45IDE0Mi43YzUyLjMtMjcuOCA5Ny41LTY3LjIgMTMyLTExNS4yYzMuNi01IDctMTAgMTAuNC0xNS4ybDgtMTIuMyA4LjUgOS41YzQuNSA1LjEgOS4zIDkuOCAxNC4zIDE0LjJDMjEwLjQgNDkuNSAyNDguNCA2NCAyODggNjRzNzcuNi0xNC41IDEwNy00MC4zYzUtNC40IDkuOC05LjEgMTQuMy0xNC4yTDQxNy44IDBsOCAxMi4zYzMuMyA1LjIgNi44IDEwLjIgMTAuNCAxNS4yYzM0LjUgNDggNzkuNiA4Ny40IDEzMiAxMTUuMmw3LjkgNC4yTDU3NiA0ODBsMCAzMi0zMiAwTDMyIDUxMiAwIDUxMmwwLTMyTDAgMTQ2LjlsNy45LTQuMnpNMzIgMTY2bDAgMjYgNTEyIDAgMC0yNmMtNTEuNC0yOC45LTk1LjktNjguMy0xMzAuOC0xMTUuN0MzNzguNCA3OS42IDMzNC4xIDk2IDI4OCA5NnMtOTAuNC0xNi40LTEyNS4yLTQ1LjdDMTI3LjkgOTcuNyA4My40IDEzNy4xIDMyIDE2NnptMCA1OGwwIDI1NiAyNDAgMCAwLTI1NkwzMiAyMjR6TTQwNi4xIDQ4MEwzMDQgMjc1LjggMzA0IDQ4MGwxMDIuMSAwem0zNS44IDBMNTQ0IDQ4MGwwLTI1Ni0yMzAuMSAwIDEyOCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tent-double-peak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tent-double-peak.svg)
  */
 const TentDoublePeak: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

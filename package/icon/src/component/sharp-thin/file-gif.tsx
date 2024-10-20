@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-gif` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-gif?s=sharp-thin file-gif}
- * @preview ![file-gif](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2bDE2MCAwIDAgMTZMMTYgNTEyIDAgNTEybDAtMTZMMCAxNiAwIDAgMTYgMCAyMjQgMCAzODQgMTYwbDAgMTQ0LTE2IDAgMC0xMjgtMTUyIDAtOCAwIDAtOCAwLTE1MkwxNiAxNmwwIDQ4MHpNMzYxLjQgMTYwTDIyNCAyMi42IDIyNCAxNjBsMTM3LjQgMHpNMjMyIDQwMGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwxNiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTYtMTYgMCAwLTE2YzAtOC44LTcuMi0xNi0xNi0xNmwtMTYgMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgODBjMCA4LjggNy4yIDE2IDE2IDE2bDE2IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMTYtOCAwLTggMCAwLTE2IDggMCAxNiAwIDggMCAwIDggMCAyNGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTYgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC04MHptMTQ0LTI0bDAgMTI4IDAgOC0xNiAwIDAtOCAwLTEyOCAwLTggMTYgMCAwIDh6bTU2LThsNDggMCA4IDAgMCAxNi04IDAtNDAgMCAwIDQ4IDQwIDAgOCAwIDAgMTYtOCAwLTQwIDAgMCA1NiAwIDgtMTYgMCAwLTggMC02NCAwLTY0IDAtOCA4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-gif](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-gif.svg)
  */
 const FileGif: typeof Icon = x => (
     <Icon {...x}>

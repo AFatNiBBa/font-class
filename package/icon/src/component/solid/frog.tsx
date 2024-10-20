@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `frog` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/frog?s=solid frog}
- * @preview ![frog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDMyYzQxLjcgMCA3NS45IDMxLjggNzkuNyA3Mi41bDg1LjYgMjYuM2MyNS40IDcuOCA0Mi44IDMxLjMgNDIuOCA1Ny45YzAgMjEuOC0xMS43IDQxLjktMzAuNyA1Mi43TDQwMC44IDMyMy41IDQ5My4zIDQxNmw1MC43IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTY0IDBjLTguNSAwLTE2LjYtMy40LTIyLjYtOS40TDM0Ni45IDM2MC4yYzExLjctMzYgMy4yLTc3LjEtMjUuNC0xMDUuN2MtNDAuNi00MC42LTEwNi4zLTQwLjYtMTQ2LjktLjFMMTAxIDMyNC40Yy02LjQgNi4xLTYuNyAxNi4yLS42IDIyLjZzMTYuMiA2LjYgMjIuNiAuNmw3My44LTcwLjIgLjEtLjEgLjEtLjFjMy41LTMuNSA3LjMtNi42IDExLjMtOS4yYzI3LjktMTguNSA2NS45LTE1LjQgOTAuNSA5LjJjMjQuNyAyNC43IDI3LjcgNjIuOSA5IDkwLjljLTIuNiAzLjgtNS42IDcuNS05IDEwLjlMMjYxLjggNDE2bDkwLjIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0QzAgMjQ5LjYgMTI3IDExMi45IDI4OS4zIDk3LjVDMjk2LjIgNjAuMiAzMjguOCAzMiAzNjggMzJ6bTAgMTA0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![frog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/frog.svg)
  */
 const Frog: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-check?s=sharp-regular user-check}
- * @preview ![user-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ4YTgwIDgwIDAgMSAxIDAgMTYwIDgwIDgwIDAgMSAxIDAtMTYwem0wIDIwOEExMjggMTI4IDAgMSAwIDIyNCAwYTEyOCAxMjggMCAxIDAgMCAyNTZ6TTk5LjUgMzUybDI0OS4xIDBMMzgzIDQ2NCA2NSA0NjQgOTkuNSAzNTJ6TTM4NCAzMDRMNjQgMzA0IDE0LjggNDY0IDAgNTEybDUwLjIgMCAzNDcuNiAwIDUwLjIgMC0xNC44LTQ4TDM4NCAzMDR6TTYxNyAxNzdsMTctMTdMNjAwIDEyNi4xbC0xNyAxNy0xMTEgMTExLTQ3LTQ3LTE3LTE3TDM3NC4xIDIyNGwxNyAxNyA2NCA2NCAxNyAxNyAxNy0xN0w2MTcgMTc3eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-check.svg)
  */
 const UserCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

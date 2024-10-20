@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-turret` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-turret?s=sharp-thin house-turret}
- * @preview ![house-turret](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAwTDAgMCAwIDggMCAyMTZsMCAzIDIgMi4zTDY0IDI5MWwwIDIwNSAwIDggMTYgMCAwLTggMC0yMDggMC0zLTItMi4zTDE2IDIxMyAxNiAxNmw4MCAwIDAgNzIgMCA4IDE2IDAgMC04IDAtNzIgMTI4IDAgMCA3MiAwIDggMTYgMCAwLTggMC03MiA4MCAwIDAgMTMxLjcgMTYtMTMuM0wzNTIgOGwwLTgtOCAwTDggMHpNMjA4IDE3NmwwIDQ4LTY0IDAgMC00OGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyem0tODAgMGwwIDQ4IDAgMTYgMTYgMCA2NCAwIDE2IDAgMC0xNiAwLTQ4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4cy00OCAyMS41LTQ4IDQ4em0xNDQgODcuNUw0NDggMTE2LjggNjI0IDI2My41IDYyNCA0OTZsLTM1MiAwIDAtMjMyLjV6TTI1NiAyNTZsMCAyNDAgMCAxNiAxNiAwIDM1MiAwIDE2IDAgMC0xNiAwLTI0MEw0NDggOTYgMjU2IDI1NnptMTUyIDI0bDgwIDAgMCA4MC04MCAwIDAtODB6bTAtMTZsLTE2IDAgMCAxNiAwIDgwIDAgMTYgMTYgMCA4MCAwIDE2IDAgMC0xNiAwLTgwIDAtMTYtMTYgMC04MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-turret](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/house-turret.svg)
  */
 const HouseTurret: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

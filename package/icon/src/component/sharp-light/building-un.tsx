@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building-un` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-un?s=sharp-light building-un}
- * @preview ![building-un](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMCA0NDggOTYgMCAwLTgwIDAtMzIgMzIgMCA2NCAwIDMyIDAgMCAzMiAwIDgwIDk2IDAgMC00NDhMMzIgMzJ6TTE2MCA0ODBsNjQgMCAwLTgwLTY0IDAgMCA4MHptLTMyIDMybC05NiAwTDAgNTEybDAtMzJMMCAzMiAwIDAgMzIgMCAzNTIgMGwzMiAwIDAgMzIgMCA0NDggMCAzMi0zMiAwLTk2IDAtMzIgMC02NCAwLTMyIDB6bTk2LTI3Mmw2NCAwIDE2IDAgMCAxNiAwIDY0IDAgMTYtMTYgMC02NCAwLTE2IDAgMC0xNiAwLTY0IDAtMTYgMTYgMHptMTYgNjRsMzIgMCAwLTMyLTMyIDAgMCAzMnpNODAgMjQwbDE2IDAgNjQgMCAxNiAwIDAgMTYgMCA2NCAwIDE2LTE2IDAtNjQgMC0xNiAwIDAtMTYgMC02NCAwLTE2em0zMiAzMmwwIDMyIDMyIDAgMC0zMi0zMiAwem0wLTE3NmwwIDY0YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC02NCAwLTE2IDMyIDAgMCAxNiAwIDY0YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4bDAtNjQgMC0xNiAzMiAwIDAgMTZ6TTIyNCA4MGw4IDAgOS45IDAgNC40IDguOEwyNzIgMTQwLjIgMjcyIDk2bDAtMTYgMzIgMCAwIDE2IDAgOTYgMCAxNi0xNiAwLTggMC05LjkgMC00LjQtOC44TDI0MCAxNDcuOGwwIDQ0LjIgMCAxNi0zMiAwIDAtMTYgMC05NiAwLTE2IDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![building-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/building-un.svg)
  */
 const BuildingUn: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chevrons-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chevrons-up?s=solid chevrons-up}
- * @preview ![chevrons-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc4LjYgNDEuNGMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBsLTE5MiAxOTJjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zczMyLjggMTIuNSA0NS4zIDBMMjU2IDEwOS4zIDQyNS40IDI3OC42YzEyLjUgMTIuNSAzMi44IDEyLjUgNDUuMyAwczEyLjUtMzIuOCAwLTQ1LjNsLTE5Mi0xOTJ6bTE5MiAzODRsLTE5Mi0xOTJjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwbC0xOTIgMTkyYy0xMi41IDEyLjUtMTIuNSAzMi44IDAgNDUuM3MzMi44IDEyLjUgNDUuMyAwTDI1NiAzMDEuMyA0MjUuNCA0NzAuNmMxMi41IDEyLjUgMzIuOCAxMi41IDQ1LjMgMHMxMi41LTMyLjggMC00NS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chevrons-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chevrons-up.svg)
  */
 const ChevronsUp: typeof Icon = x => (
     <Icon {...x}>

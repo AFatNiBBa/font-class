@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-medical-circle-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-circle-check?s=sharp-regular house-medical-circle-check}
- * @preview ![house-medical-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IC41bDE1LjUgMTMuMkw1MTQuOCAxOTNjLTYuMi0uNy0xMi41LTEtMTguOC0xYy0xNi44IDAtMzMuMSAyLjQtNDguNSA2LjhMMjg4IDYzLjUgMTEyIDIxMi44IDExMiA0NjRsMjM2LjUgMGMxMi4zIDE4LjggMjggMzUuMSA0Ni4zIDQ4TDg4IDUxMmwtMjQgMCAwLTI0IDAtMjM0LjVMMzkuNSAyNzQuMyA4LjUgMjM3LjdsMjY0LTIyNEwyODggLjV6TTMyMCAyNTZsNDAuMiAwYy0xNS4zIDE4LjUtMjYuOSA0MC4yLTMzLjYgNjRsLTYuNiAwIDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2bC0zMiAwYy04LjggMC0xNi03LjItMTYtMTZsMC00OC00OCAwYy04LjggMC0xNi03LjItMTYtMTZsMC0zMmMwLTguOCA3LjItMTYgMTYtMTZsNDggMCAwLTQ4YzAtOC44IDcuMi0xNiAxNi0xNmwzMiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDQ4em0zMiAxMTJhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMjIyLjYtMzJMNTUyIDMxMy40bC0xMS4zIDExLjNMNDgwIDM4NS40bC0yOC43LTI4LjdMNDQwIDM0NS40IDQxNy40IDM2OGwxMS4zIDExLjMgNDAgNDBMNDgwIDQzMC42bDExLjMtMTEuMyA3Mi03Mkw1NzQuNiAzMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-medical-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-medical-circle-check.svg)
  */
 const HouseMedicalCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

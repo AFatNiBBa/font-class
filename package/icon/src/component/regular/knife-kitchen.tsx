@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `knife-kitchen` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/knife-kitchen?s=regular knife-kitchen}
- * @preview ![knife-kitchen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg4IDBjLTkuNCAwLTE4LjMgMy43LTI1IDEwLjNMMjg0LjYgMTg4LjdsMTEuMyAxMS4zTDQwMC4zIDMwNC40bDMxLTE3LjJjMTUuMi04LjUgMjQuNy0yNC41IDI0LjctNDJsMC0zMS45YzAtNC4yIDEuNy04LjMgNC43LTExLjNsOTctOTdjNi42LTYuNiAxMC4zLTE1LjYgMTAuMy0yNXMtMy43LTE4LjMtMTAuMy0yNUw1MTMgMTAuM0M1MDYuMyAzLjcgNDk3LjQgMCA0ODggMHpNNDMyIDEyOGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bTQ4LTQ4YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6TTQuNyA0NjguN2MtOC40IDguNC00LjcgMjIuOSA2LjUgMjYuNkM0My40IDUwNS43IDc4LjEgNTEyIDExMiA1MTJjMTIzLjMgMCAyMDkuNC02Mi44IDI4Ny4zLTE0MC43YzYuMi02LjIgNi4yLTE2LjQgMC0yMi42bC0yMy0yMy0zMy45IDMzLjlDMjc1IDQyMi4yIDIwNS41IDQ2NCAxMTIgNDY0Yy0xMC43IDAtMjEuNi0uOC0zMi42LTIuMkwyNjIgMjc5LjNsMzMuOS0zMy45TDI2MiAyMTEuNGwtMzMuOSAzMy45TDQuNyA0NjguN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![knife-kitchen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/knife-kitchen.svg)
  */
 const KnifeKitchen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bracket-square-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bracket-square-right?s=regular bracket-square-right}
- * @preview ![bracket-square-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDg4YzAtMzAuOS0yNS4xLTU2LTU2LTU2TDcyIDMyQzU4LjcgMzIgNDggNDIuNyA0OCA1NnMxMC43IDI0IDI0IDI0bDY0IDBjNC40IDAgOCAzLjYgOCA4bDAgMzM2YzAgNC40LTMuNiA4LTggOGwtNjQgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw2NCAwYzMwLjkgMCA1Ni0yNS4xIDU2LTU2bDAtMzM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bracket-square-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bracket-square-right.svg)
  */
 const BracketSquareRight: typeof Icon = x => (
     <Icon viewBox="0 0 192 512" {...x}>

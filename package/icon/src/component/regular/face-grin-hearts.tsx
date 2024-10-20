@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grin-hearts` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-hearts?s=regular face-grin-hearts}
- * @preview ![face-grin-hearts](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTM0OS41IDUyLjRjMTguNy00LjQgMzUuOSAxMiAyNS41IDI4LjFDMzUwLjQgMzc0LjYgMzA2LjMgNDAwIDI1NS45IDQwMHMtOTQuNS0yNS40LTExOS4xLTYzLjVjLTEwLjQtMTYuMSA2LjgtMzIuNSAyNS41LTI4LjFjMjguOSA2LjggNjAuNSAxMC41IDkzLjYgMTAuNXM2NC43LTMuNyA5My42LTEwLjV6TTIxNS4zIDEzNy4xYzE3LjggNC44IDI4LjQgMjMuMSAyMy42IDQwLjhsLTE3LjQgNjVjLTIuMyA4LjUtMTEuMSAxMy42LTE5LjYgMTEuM2wtNjUuMS0xNy40Yy0xNy44LTQuOC0yOC40LTIzLjEtMjMuNi00MC44czIzLjEtMjguNCA0MC44LTIzLjZsMTYuMSA0LjMgNC4zLTE2LjFjNC44LTE3LjggMjMuMS0yOC40IDQwLjgtMjMuNnptMTIyLjMgMjMuNmw0LjMgMTYuMSAxNi4xLTQuM2MxNy44LTQuOCAzNi4xIDUuOCA0MC44IDIzLjZzLTUuOCAzNi4xLTIzLjYgNDAuOGwtNjUuMSAxNy40Yy04LjUgMi4zLTE3LjMtMi44LTE5LjYtMTEuM2wtMTcuNC02NWMtNC44LTE3LjggNS44LTM2LjEgMjMuNi00MC44czM2LjEgNS44IDQwLjkgMjMuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-grin-hearts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-grin-hearts.svg)
  */
 const FaceGrinHearts: typeof Icon = x => (
     <Icon {...x}>

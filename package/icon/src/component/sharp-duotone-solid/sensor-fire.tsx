@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `sensor-fire` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-fire?s=sharp-duotone-solid sensor-fire}
- * @preview ![sensor-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMybDQ0OCAwIDAgOTAuMS0xNyAxMC42Yy0yNC4xIDE1LTU4LjkgNDMtODguMSA3OS42Yy0yOSAzNi40LTU1IDg0LjYtNTUgMTM5LjVjMCA0OS4yIDE4LjUgOTQuMiA0OSAxMjguMkwwIDQ4MCAwIDMyek02NCA5NmwwIDI0IDAgMTQ0IDAgMjQgNDggMCAwLTI0IDAtMTQ0IDAtMjRMNjQgOTZ6bTgwIDBsMCAyNCAwIDE0NCAwIDI0IDQ4IDAgMC0yNCAwLTE0NCAwLTI0LTQ4IDB6bTgwIDBsMCAyNCAwIDE0NCAwIDI0IDQ4IDAgMC0yNCAwLTE0NCAwLTI0LTQ4IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik00NDggMTYwczMyLjYgMjYuNCA2NSA2NGMxNy4yLTE5LjUgMzEtMzIgMzEtMzJzOTYgODYuNCA5NiAxNjBjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBzLTE2MC03MS42LTE2MC0xNjBzMTI4LTE5MiAxMjgtMTkyem0zMyAyODcuOGMxOCAwIDM0LTUgNDktMTVjMzAtMjEgMzgtNjMgMjAtOTZjLTItNC00LTgtNy0xMmwtMzYgNDJzLTU4LTc0LTYyLTc5Yy0zMCAzNy00NSA1OC00NSA4MmMwIDQ5IDM2IDc4IDgxIDc4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sensor-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sensor-fire.svg)
  */
 const SensorFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 32l448 0 0 90.1-17 10.6c-24.1 15-58.9 43-88.1 79.6c-29 36.4-55 84.6-55 139.5c0 49.2 18.5 94.2 49 128.2L0 480 0 32zM64 96l0 24 0 144 0 24 48 0 0-24 0-144 0-24L64 96zm80 0l0 24 0 144 0 24 48 0 0-24 0-144 0-24-48 0zm80 0l0 24 0 144 0 24 48 0 0-24 0-144 0-24-48 0z" />
-            <path d="M448 160s32.6 26.4 65 64c17.2-19.5 31-32 31-32s96 86.4 96 160c0 88.4-71.6 160-160 160s-160-71.6-160-160s128-192 128-192zm33 287.8c18 0 34-5 49-15c30-21 38-63 20-96c-2-4-4-8-7-12l-36 42s-58-74-62-79c-30 37-45 58-45 82c0 49 36 78 81 78z" />
+        <path d="M448 160s32.6 26.4 65 64c17.2-19.5 31-32 31-32s96 86.4 96 160c0 88.4-71.6 160-160 160s-160-71.6-160-160s128-192 128-192zm33 287.8c18 0 34-5 49-15c30-21 38-63 20-96c-2-4-4-8-7-12l-36 42s-58-74-62-79c-30 37-45 58-45 82c0 49 36 78 81 78z" />
     </Icon>
 );
 

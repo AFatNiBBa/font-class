@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-minus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-minus?s=sharp-regular calendar-minus}
- * @preview ![calendar-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDBsMCAyNCAwIDQwIDE0NCAwIDAtNDAgMC0yNCA0OCAwIDAgMjQgMCA0MCAxMDQgMCAwIDgwIDAgNDggMCAyNzIgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4TDAgMTkybDAtNDhMMCA2NGwxMDQgMCAwLTQwIDAtMjQgNDggMHpNNDAwIDE5Mkw0OCAxOTJsMCAyNzIgMzUyIDAgMC0yNzJ6TTI5NiAzNTJsLTE0NCAwLTI0IDAgMC00OCAyNCAwIDE0NCAwIDI0IDAgMCA0OC0yNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![calendar-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/calendar-minus.svg)
  */
 const CalendarMinus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

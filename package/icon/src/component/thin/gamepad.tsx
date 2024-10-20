@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gamepad` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gamepad?s=thin gamepad}
- * @preview ![gamepad](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDgwQzk0LjggODAgMTYgMTU4LjggMTYgMjU2czc4LjggMTc2IDE3NiAxNzZsMjU2IDBjOTcuMiAwIDE3Ni03OC44IDE3Ni0xNzZzLTc4LjgtMTc2LTE3Ni0xNzZMMTkyIDgwek0wIDI1NkMwIDE1MCA4NiA2NCAxOTIgNjRsMjU2IDBjMTA2IDAgMTkyIDg2IDE5MiAxOTJzLTg2IDE5Mi0xOTIgMTkybC0yNTYgMEM4NiA0NDggMCAzNjIgMCAyNTZ6bTIwMC02NGwwIDU2IDU2IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTU2IDAgMCA1NmMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTU2LTU2IDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsNTYgMCAwLTU2YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDh6TTM5MiAzMDRhNDAgNDAgMCAxIDEgODAgMCA0MCA0MCAwIDEgMSAtODAgMHptNDAgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em02NC0xNjBhNDAgNDAgMCAxIDEgMCA4MCA0MCA0MCAwIDEgMSAwLTgwem0yNCA0MGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gamepad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/gamepad.svg)
  */
 const Gamepad: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

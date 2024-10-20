@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `boxes-packing` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-packing?s=sharp-light boxes-packing}
- * @preview ![boxes-packing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDMyTDI4OCAzMmwwIDk2LTMyIDAgMC05NiAwLTMyIDMyIDBMNjA4IDBsMzIgMCAwIDMyIDAgNDQ4IDAgMzItMzIgMC0yMjQgMCAwLTMyIDIyNCAwIDAtNDQ4ek00OTEuMyAyNTIuN2w2NCA2NC0yMi42IDIyLjZMNDk2IDMwMi42IDQ5NiA0MzJsMCAxNi0zMiAwIDAtMTYgMC0xMjkuNC0zNi43IDM2LjctMjIuNi0yMi42IDY0LTY0TDQ4MCAyNDEuNGwxMS4zIDExLjN6TTM1MiAxOTJMMzIgMTkybDAgNjQgMzIgMCAyNTYgMCAzMiAwIDAtNjR6TTAgMjg4bDAtMzIgMC02NCAwLTMyIDMyIDAgMzIwIDAgMzIgMCAwIDMyIDAgNjQgMCAzMi0zMiAwIDAgMTkyIDAgMzItMzIgMEw2NCA1MTJsLTMyIDAgMC0zMiAwLTE5MkwwIDI4OHpNNjQgNDgwbDI1NiAwIDAtMTkyTDY0IDI4OGwwIDE5MnpNMjU2IDMyMGwwIDMyLTEyOCAwIDAtMzIgMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![boxes-packing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/boxes-packing.svg)
  */
 const BoxesPacking: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-bolt` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-bolt?s=light square-bolt}
- * @preview ![square-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDNDYuMyA2NCAzMiA3OC4zIDMyIDk2bDAgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyMCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzIwYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDY0ek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDMyMCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnpNMTU5LjcgMjY0bDQ4LjMgMGM1LjUgMCAxMC41IDIuOCAxMy41IDcuNHMzLjMgMTAuNCAxIDE1LjNsLTE5LjQgNDEuOUwyODguMyAyNDggMjQwIDI0OGMtNS41IDAtMTAuNS0yLjgtMTMuNS03LjRzLTMuMy0xMC40LTEtMTUuM2wxOS40LTQxLjlMMTU5LjcgMjY0ek0yODEuNiAxMTJjMTQuNyAwIDI0LjQgMTUuMiAxOC4yIDI4LjVMMjY1IDIxNmw0OS40IDBjMTEuOSAwIDIxLjYgOS43IDIxLjYgMjEuNmMwIDUuOS0yLjQgMTEuNi02LjcgMTUuN0wxODAuMiAzOTQuNWMtMy43IDMuNS04LjcgNS41LTEzLjggNS41Yy0xNC43IDAtMjQuNC0xNS4yLTE4LjItMjguNUwxODMgMjk2bC00OS40IDBjLTExLjkgMC0yMS42LTkuNy0yMS42LTIxLjZjMC01LjkgMi40LTExLjYgNi43LTE1LjdMMjY3LjggMTE3LjVjMy43LTMuNSA4LjctNS41IDEzLjgtNS41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-bolt.svg)
  */
 const SquareBolt: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

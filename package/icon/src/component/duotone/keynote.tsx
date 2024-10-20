@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `keynote` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keynote?s=duotone keynote}
- * @preview ![keynote](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAxMTJsMCA0OCA0OCAwIDAtNDhjMC0yMi4xIDE3LjktNDAgNDAtNDBsMTQuNCAwYzguMyAxNC4zIDIzLjggMjQgNDEuNiAyNGw2NCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4cy0yMS41LTQ4LTQ4LTQ4TDI0MCAwYy0xNy44IDAtMzMuMyA5LjctNDEuNiAyNEwxODQgMjRjLTQ4LjYgMC04OCAzOS40LTg4IDg4em0zMiAzNjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsOTYgMCA5NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC02NCAwIDAtOTYtNjQgMCAwIDk2LTY0IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNODAgMTYwYy0xMi4xIDAtMjMuMiA2LjgtMjguNiAxNy43bC00OCA5NkMxLjIgMjc4LjEgMCAyODMgMCAyODhsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmw0NDggMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTMyYzAtNS0xLjItOS45LTMuNC0xNC4zbC00OC05NkM0NTUuMiAxNjYuOCA0NDQuMSAxNjAgNDMyIDE2MEw4MCAxNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![keynote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/keynote.svg)
  */
 const Keynote: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M96 112l0 48 48 0 0-48c0-22.1 17.9-40 40-40l14.4 0c8.3 14.3 23.8 24 41.6 24l64 0c26.5 0 48-21.5 48-48s-21.5-48-48-48L240 0c-17.8 0-33.3 9.7-41.6 24L184 24c-48.6 0-88 39.4-88 88zm32 368c0 17.7 14.3 32 32 32l96 0 96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-96-64 0 0 96-64 0c-17.7 0-32 14.3-32 32z" />
-            <path d="M80 160c-12.1 0-23.2 6.8-28.6 17.7l-48 96C1.2 278.1 0 283 0 288l0 32c0 17.7 14.3 32 32 32l448 0c17.7 0 32-14.3 32-32l0-32c0-5-1.2-9.9-3.4-14.3l-48-96C455.2 166.8 444.1 160 432 160L80 160z" />
+        <path d="M80 160c-12.1 0-23.2 6.8-28.6 17.7l-48 96C1.2 278.1 0 283 0 288l0 32c0 17.7 14.3 32 32 32l448 0c17.7 0 32-14.3 32-32l0-32c0-5-1.2-9.9-3.4-14.3l-48-96C455.2 166.8 444.1 160 432 160L80 160z" />
     </Icon>
 );
 

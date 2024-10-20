@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tickets-perforated` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets-perforated?s=solid tickets-perforated}
- * @preview ![tickets-perforated](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMyYy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDIyNGMwIDM1LjMgMjguNyA2NCA2NCA2NGw0MTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTQ4YzAtOC44LTcuNC0xNS43LTE1LjctMTguNkM2MDUuNSAyNDYuOSA1OTIgMjI5IDU5MiAyMDhzMTMuNS0zOC45IDMyLjMtNDUuNGM4LjMtMi45IDE1LjctOS44IDE1LjctMTguNmwwLTQ4YzAtMzUuMy0yOC43LTY0LTY0LTY0TDE2MCAzMnpNNTI4IDk2YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptMCA2NGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bS0xNiA4MGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAwem0xNiA0OGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6TTQ4IDEyMGMwLTEzLjMtMTAuNy0yNC0yNC0yNFMwIDEwNi43IDAgMTIwTDAgMzYwYzAgNjYuMyA1My43IDEyMCAxMjAgMTIwbDQwMCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC00MDAgMGMtMzkuOCAwLTcyLTMyLjItNzItNzJsMC0yNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tickets-perforated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tickets-perforated.svg)
  */
 const TicketsPerforated: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

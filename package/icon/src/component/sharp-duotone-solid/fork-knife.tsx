@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `fork-knife` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fork-knife?s=sharp-duotone-solid fork-knife}
- * @preview ![fork-knife](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDEwNGMwIDcwLjcgNjMuNSAxMzYuMiAxNTQuNyAyMjYuOEwyNjUuNCAyMjAuMWwtNTAuNy01MC43TDE5MiAxNDYuN0MxNDMuMSA5Ny44IDk0LjIgNDguOSA0NS4zIDBDNDUuMyAwIDAgNDAgMCAxMDR6TTMxMC42IDM1NS45TDQ0MS40IDQ4Ni42IDQ2NCA1MDkuMyA1MDkuMyA0NjRsLTIyLjYtMjIuNkwzNTUuOSAzMTAuNmwtNDUuMyA0NS4zeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDcyIDhsMTYgMTZMMzg0IDEyOGwxNiAxNkw1MTIgNDhsMTYgMTZMNDMyIDE3NmwxNiAxNkw1NTIgODhsMTYgMTZMNDk3LjUgMjI3LjRDNDgxLjcgMjU1IDQ1Mi40IDI3MiA0MjAuNyAyNzJjLTE5LjQgMC0zOC4xLTYuNC01My40LTE4TDEzNC42IDQ4Ni42IDExMiA1MDkuMyA2Ni43IDQ2NGwyMi42LTIyLjZMMzIyIDIwOC44Yy0xMS42LTE1LjMtMTgtMzQtMTgtNTMuNGMwLTMxLjggMTctNjEuMSA0NC42LTc2LjhMNDcyIDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fork-knife](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/fork-knife.svg)
  */
 const ForkKnife: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 104c0 70.7 63.5 136.2 154.7 226.8L265.4 220.1l-50.7-50.7L192 146.7C143.1 97.8 94.2 48.9 45.3 0C45.3 0 0 40 0 104zM310.6 355.9L441.4 486.6 464 509.3 509.3 464l-22.6-22.6L355.9 310.6l-45.3 45.3z" />
-            <path d="M472 8l16 16L384 128l16 16L512 48l16 16L432 176l16 16L552 88l16 16L497.5 227.4C481.7 255 452.4 272 420.7 272c-19.4 0-38.1-6.4-53.4-18L134.6 486.6 112 509.3 66.7 464l22.6-22.6L322 208.8c-11.6-15.3-18-34-18-53.4c0-31.8 17-61.1 44.6-76.8L472 8z" />
+        <path d="M472 8l16 16L384 128l16 16L512 48l16 16L432 176l16 16L552 88l16 16L497.5 227.4C481.7 255 452.4 272 420.7 272c-19.4 0-38.1-6.4-53.4-18L134.6 486.6 112 509.3 66.7 464l22.6-22.6L322 208.8c-11.6-15.3-18-34-18-53.4c0-31.8 17-61.1 44.6-76.8L472 8z" />
     </Icon>
 );
 

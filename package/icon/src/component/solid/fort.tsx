@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fort` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fort?s=solid fort}
- * @preview ![fort](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxNkMwIDcuMiA3LjIgMCAxNiAwTDQ4IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNDggMzIgMCAwLTQ4YzAtOC44IDcuMi0xNiAxNi0xNmwzMiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDQ4IDMyIDAgMC00OGMwLTguOCA3LjItMTYgMTYtMTZsMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCA4MCAwIDE2IDAgNDggMTI4IDAgMC00OCAwLTE2IDAtODBjMC04LjggNy4yLTE2IDE2LTE2bDMyIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNDggMzIgMCAwLTQ4YzAtOC44IDcuMi0xNiAxNi0xNmwzMiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDQ4IDMyIDAgMC00OGMwLTguOCA3LjItMTYgMTYtMTZsMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCA4MCAwIDE2IDAgNjRjMCAyMC45LTEzLjQgMzguNy0zMiA0NS4zTDYwOCA0NjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTE3NiAwIDAtMTI4YzAtMzUuMy0yOC43LTY0LTY0LTY0cy02NCAyOC43LTY0IDY0bDAgMTI4TDgwIDUxMmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0yNDIuN0MxMy40IDIxNC43IDAgMTk2LjkgMCAxNzZsMC02NEwwIDk2IDAgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fort.svg)
  */
 const Fort: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

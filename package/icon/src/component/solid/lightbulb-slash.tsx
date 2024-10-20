@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lightbulb-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-slash?s=solid lightbulb-slash}
- * @preview ![lightbulb-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN2wtMTk1LTE1Mi44YzQuNC02LjIgOC45LTEyLjQgMTMuNC0xOC42YzAgMCAwIDAgMCAwczAgMCAwIDBzMCAwIDAgMGM1LjItNy4xIDEwLjQtMTQuMiAxNS40LTIxLjRjMTkuOC0yOC41IDMxLjQtNjMgMzEuNC0xMDAuM0M0OTYgNzguOCA0MTcuMiAwIDMyMCAwQzI0OS43IDAgMTg5LjEgNDEuMiAxNjAuOCAxMDAuOEwzOC44IDUuMXpNMjEzLjMgMTQxLjlDMjI3LjcgOTYuNyAyNzAgNjQgMzIwIDY0YzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2Yy00MCAwLTczLjEgMjkuMy03OSA2Ny42bC0yNy43LTIxLjd6bS02MC45IDg3LjljNS40IDE2LjggMTMuMiAzMi40IDIzIDQ2LjZjNSA3LjIgMTAuMiAxNC4zIDE1LjQgMjEuNGMwIDAgMCAwIDAgMGMxOS44IDI3LjEgMzkuNyA1NC40IDQ5LjIgODYuMmwxMDguMSAwTDE1Mi40IDIyOS44ek0yNDAgNDE2bDAgMTZjMCA0NC4yIDM1LjggODAgODAgODBzODAtMzUuOCA4MC04MGwwLTcuMUwzODguNyA0MTYgMjQwIDQxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lightbulb-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/lightbulb-slash.svg)
  */
 const LightbulbSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `warehouse` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/warehouse?s=light warehouse}
- * @preview ![warehouse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI2LjIgMzZjLTQtMS43LTguNC0xLjctMTIuNCAwTDUxLjYgMTQ2LjRDMzkuNyAxNTEuNCAzMiAxNjMgMzIgMTc1LjlMMzIgNDk2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2TDAgMTc1LjljMC0yNS44IDE1LjQtNDkgMzkuMi01OUwzMDEuNCA2LjVjMTEuOS01IDI1LjMtNSAzNy4zIDBMNjAwLjggMTE2LjljMjMuNyAxMCAzOS4yIDMzLjIgMzkuMiA1OUw2NDAgNDk2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMzIwLjFjMC0xMi45LTcuNy0yNC41LTE5LjYtMjkuNUwzMjYuMiAzNnpNOTYgMjI0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDM4NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMjcyYzAgOC44LTcuMiAxNi0xNiAxNmMtLjEgMC0uMiAwLS4yIDBsLTQxNS41IDBjLS4xIDAtLjIgMC0uMiAwYy04LjggMC0xNi03LjItMTYtMTZsMC0yNzJ6bTMyIDI1NmwzODQgMCAwLTY0LTM4NCAwIDAgNjR6TTUxMiAzMjBsLTM4NCAwIDAgNjQgMzg0IDAgMC02NHpNMTI4IDI4OGwzODQgMCAwLTY0LTM4NCAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![warehouse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/warehouse.svg)
  */
 const Warehouse: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ranking-star` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ranking-star?s=sharp-thin ranking-star}
- * @preview ![ranking-star](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI3LjEgMTRsMjguNCA1NS43IDYxLjcgOS44TDQzMi43IDgyIDQyMS43IDkzLjFsLTQ0LjIgNDQuMyA5LjcgNjEuOCAyLjQgMTUuNS0xNC03LjFMMzIwIDE3OS4ybC01NS43IDI4LjQtMTQgNy4xIDIuNC0xNS41IDkuNy02MS44TDIxOC4zIDkzLjEgMjA3LjMgODJsMTUuNS0yLjUgNjEuNy05LjhMMzEyLjkgMTQgMzIwIDBsNy4xIDE0ek0yOTYuOSA4MC42TDI5NSA4NC4ybC00IC42LTUwLjMgOCAzNiAzNi4xIDIuOSAyLjktLjYgNEwyNzEgMTg2LjJsNDUuNC0yMy4xIDMuNi0xLjggMy42IDEuOEwzNjkgMTg2LjJsLTcuOS01MC40LS42LTQgMi45LTIuOSAzNi0zNi4xLTUwLjMtOC00LS42LTEuOC0zLjZMMzIwIDM1LjIgMjk2LjkgODAuNnpNMjQwIDQ5NmwxNjAgMCAwLTIyNC0xNjAgMCAwIDIyNHpNMjI0IDI1NmwxNiAwIDE2MCAwIDE2IDAgMCAxNiAwIDIyNCAwIDE2LTE2IDAtMTYwIDAtMTYgMCAwLTE2IDAtMjI0IDAtMTZ6TTE2IDMzNmwwIDE2MCAxNjAgMCAwLTE2MEwxNiAzMzZ6TTAgMzIwbDE2IDAgMTYwIDAgMTYgMCAwIDE2IDAgMTYwIDAgMTYtMTYgMEwxNiA1MTIgMCA1MTJsMC0xNkwwIDMzNmwwLTE2em02MjQgODBsLTE2MCAwIDAgOTYgMTYwIDAgMC05NnpNNDY0IDM4NGwxNjAgMCAxNiAwIDAgMTYgMCA5NiAwIDE2LTE2IDAtMTYwIDAtMTYgMCAwLTE2IDAtOTYgMC0xNiAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ranking-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/ranking-star.svg)
  */
 const RankingStar: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

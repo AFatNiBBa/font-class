@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `maximize` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/maximize?s=sharp-thin maximize}
- * @preview ![maximize](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkzLjQgNTZMNTYgMTkzLjRsLTgtOEw0OCA0OGwxMzcuNCAwIDggOHpNMTkyIDMyTDQ4IDMyIDMyIDMybDAgMTYgMCAxNDQgMTIuNyAxMi43TDU2IDIxNmwxMS4zLTExLjMgNjMtNjNMMjQ0LjcgMjU2IDEzMC4zIDM3MC4zbC02My02M0w1NiAyOTYgNDQuNyAzMDcuMyAzMiAzMjBsMCAxNDQgMCAxNiAxNiAwIDE0NCAwIDEyLjctMTIuN0wyMTYgNDU2bC0xMS4zLTExLjMtNjMtNjNMMjU2IDI2Ny4zIDM3MC4zIDM4MS43bC02MyA2M0wyOTYgNDU2bDExLjMgMTEuM0wzMjAgNDgwbDE0NCAwIDE2IDAgMC0xNiAwLTE0NC0xMi43LTEyLjdMNDU2IDI5NmwtMTEuMyAxMS4zLTYzIDYzTDI2Ny4zIDI1NiAzODEuNyAxNDEuN2w2MyA2M0w0NTYgMjE2bDExLjMtMTEuM0w0ODAgMTkybDAtMTQ0IDAtMTYtMTYgMEwzMjAgMzIgMzA3LjMgNDQuNyAyOTYgNTZsMTEuMyAxMS4zIDYzIDYzTDI1NiAyNDQuNyAxNDEuNyAxMzAuM2w2My02M0wyMTYgNTYgMjA0LjcgNDQuNyAxOTIgMzJ6bS02LjYgNDMyTDQ4IDQ2NGwwLTEzNy40IDgtOEwxOTMuNCA0NTZsLTggOHptMTQxLjMgMGwtOC04TDQ1NiAzMTguNmw4IDhMNDY0IDQ2NGwtMTM3LjQgMHptMC00MTZMNDY0IDQ4bDAgMTM3LjQtOCA4TDMxOC42IDU2bDgtOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![maximize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/maximize.svg)
  */
 const Maximize: typeof Icon = x => (
     <Icon {...x}>

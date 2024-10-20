@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kite` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kite?s=sharp-light kite}
- * @preview ![kite](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcwLjkgMzQ2LjVMNDU3LjQgMTYwIDM0MS4yIDQzLjkgMjcwLjkgMzQ2LjV6bS0xNC45IDY0LjJsLTUuMiAxLjItOTUuNCA5NS40LTQuNyA0LjctNi42IDAtNDggMC0xNiAwIDAtMTYgMC0xNzkuN0wyNC4yIDM0OS43IDAgMzY0LjMgMCAzMzZsMC05NiAwLTI4LjMgMjQuMiAxNC41TDgwIDI1OS43IDgwIDE2MGwtNjQgMEwwIDE2MGwwLTMyIDE2IDAgODAgMCAxNiAwIDAgMTYgMCAxMTUuNyA1NS44LTMzLjVMMTkyIDIxMS43bDAgMjguMyAwIDk2IDAgMjguMy0yNC4yLTE0LjVMMTEyIDMxNi4zIDExMiA0ODBsMjUuNCAwTDIyOCAzODkuM2wxLjItNS4yIDMuNi0xNS4zIDgwLTM0NEwzMTguNiAwIDM0NCAwIDYwOCAwbDMyIDAgMCAzMiAwIDI2NCAwIDI1LjQtMjQuOCA1LjgtMzQ0IDgwLTE1LjMgMy42ek00ODAgMTgyLjZMMjkzLjUgMzY5LjFsMzAyLjYtNzAuNEw0ODAgMTgyLjZ6TTUwMi42IDE2MEw2MDggMjY1LjRsMC0yMTAuN0w1MDIuNiAxNjB6TTM3NC42IDMyTDQ4MCAxMzcuNCA1ODUuNCAzMiAzNzQuNiAzMnpNMzIgMjY4LjNsMCAzOS41TDY0LjkgMjg4IDMyIDI2OC4zem0xMjggMzkuNWwwLTM5LjVMMTI3LjEgMjg4IDE2MCAzMDcuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![kite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/kite.svg)
  */
 const Kite: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

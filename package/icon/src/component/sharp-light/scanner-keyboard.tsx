@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scanner-keyboard` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-keyboard?s=sharp-light scanner-keyboard}
- * @preview ![scanner-keyboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMCA2NCAzMiAwIDAtNjRMMTI4IDB6TTMyMCAwbDAgNjQgMzIgMCAwLTY0TDMyMCAwek0yMjQgMEwxOTIgMGwwIDY0IDMyIDAgMC02NHpNNDAwIDBsMCAyODggMzIgMEw0MzIgMCA0MDAgMHpNNTEyIDBMNDgwIDBsMCAyODggMzIgMEw1MTIgMHpNMzIwIDEyOGwwIDM1MkwzMiA0ODBsMC0zNTIgMjg4IDB6TTMyIDk2TDAgOTZsMCAzMkwwIDQ4MGwwIDMyIDMyIDAgMjg4IDAgMzIgMCAwLTMyIDAtMzUyIDAtMzItMzIgMEwzMiA5NnptNjQgOTZsMTYwIDAgMCA2NEw5NiAyNTZsMC02NHpNNjQgMTYwbDAgMzIgMCA2NCAwIDMyIDMyIDAgMTYwIDAgMzIgMCAwLTMyIDAtNjQgMC0zMi0zMiAwTDk2IDE2MGwtMzIgMHptOTYgMTYwbC05NiAwIDAgMzIgOTYgMCAwLTMyek02NCAzODRsMCAzMiA5NiAwIDAtMzItOTYgMHptMjI0LTY0bC05NiAwIDAgMzIgOTYgMCAwLTMyem0tOTYgNjRsMCAzMiA5NiAwIDAtMzItOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scanner-keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/scanner-keyboard.svg)
  */
 const ScannerKeyboard: typeof Icon = x => (
     <Icon {...x}>

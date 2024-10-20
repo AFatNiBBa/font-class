@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-right` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-right?s=light down-right}
- * @preview ![down-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyIDM4NGM0LjQgMCA4LTMuNiA4LThsMC0yMDEuNGMwLTMuNy0zLTYuNi02LjYtNi42Yy0xLjggMC0zLjQgLjctNC43IDEuOWwtNjEuNCA2MS40Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMEwxMTIgMTE4LjZjLTQuMi00LjItMTAtNi42LTE2LTYuNnMtMTEuOCAyLjQtMTYgNi42TDU0LjYgMTQ0Yy00LjIgNC4yLTYuNiAxMC02LjYgMTZzMi40IDExLjggNi42IDE2TDE2Ny4zIDI4OC43YzMgMyA0LjcgNy4xIDQuNyAxMS4zcy0xLjcgOC4zLTQuNyAxMS4zbC02MS40IDYxLjRjLTEuMiAxLjItMS45IDIuOS0xLjkgNC43YzAgMy43IDMgNi42IDYuNiA2LjZMMzEyIDM4NHptNDAtOGMwIDIyLjEtMTcuOSA0MC00MCA0MGwtMjAxLjQgMEM4OS4zIDQxNiA3MiAzOTguNyA3MiAzNzcuNGMwLTEwLjIgNC4xLTIwLjEgMTEuMy0yNy4zTDEzMy40IDMwMCAzMiAxOTguNkMyMS44IDE4OC40IDE2IDE3NC41IDE2IDE2MHM1LjgtMjguNCAxNi0zOC42TDU3LjQgOTZDNjcuNiA4NS44IDgxLjUgODAgOTYgODBzMjguNCA1LjggMzguNiAxNkwyMzYgMTk3LjRsNTAuMS01MC4xYzcuMi03LjIgMTcuMS0xMS4zIDI3LjMtMTEuM2MyMS4zIDAgMzguNiAxNy4zIDM4LjYgMzguNkwzNTIgMzc2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![down-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/down-right.svg)
  */
 const DownRight: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

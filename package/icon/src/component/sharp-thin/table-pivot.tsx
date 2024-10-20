@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-pivot` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-pivot?s=sharp-thin table-pivot}
- * @preview ![table-pivot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCAxMTIgMTEyIDAgMC0xMTJMMTYgNDh6bTAgMTI4bDAgMjg4IDExMiAwIDAtMjg4TDE2IDE3NnptMTI4IDBsMCAyODggMzUyIDAgMC0yODgtMzUyIDB6bTM1Mi0xNmwwLTExMkwxNDQgNDhsMCAxMTIgMzUyIDB6TTAgMzJsMTYgMCA0ODAgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnpNNDQwIDI5MS4zbC01LjctNS43TDQwOCAyNTkuMyA0MDggMzY4bDAgOC04IDAtMTA4LjcgMCAyNi4zIDI2LjMgNS43IDUuN0wzMTIgNDE5LjNsLTUuNy01LjctNDAtNDAtNS43LTUuNyA1LjctNS43IDQwLTQwYzMuMS0zLjEgOC4yLTMuMSAxMS4zIDBzMy4xIDguMiAwIDExLjNMMjkxLjMgMzYwIDM5MiAzNjBsMC0xMDAuNy0yNi4zIDI2LjNjLTMuMSAzLjEtOC4yIDMuMS0xMS4zIDBzLTMuMS04LjIgMC0xMS4zbDQwLTQwIDUuNy01LjcgNS43IDUuNyA0MCA0MCA1LjcgNS43TDQ0MCAyOTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![table-pivot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/table-pivot.svg)
  */
 const TablePivot: typeof Icon = x => (
     <Icon {...x}>

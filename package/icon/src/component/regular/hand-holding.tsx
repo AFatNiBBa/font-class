@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-holding` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding?s=regular hand-holding}
- * @preview ![hand-holding](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY1LjIgMzU4LjdjNi42LTQuNCAxNC4zLTYuNyAyMi4yLTYuN0wzNDQgMzUyYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0yNCAwLTY0IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNjQgMCAyNCAwIDQ4IDBjNC40IDAgOC44LTEuMiAxMi42LTMuNmw5My41LTU3LjVjMy4xLTEuOSA2LjctMi45IDEwLjMtMi45bDcuNCAwYzYuOCAwIDEyLjMgNS41IDEyLjMgMTIuM2MwIDQuMi0yLjEgOC01LjYgMTAuM2wtOTUuNiA2MS45QzQxNS4xIDQ2MCA0MDEuNSA0NjQgMzg3LjcgNDY0TDI0IDQ2NGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwzNjMuNyAwYzIzLjEgMCA0NS44LTYuNyA2NS4yLTE5LjNsOTUuNi02MS45YzE3LjItMTEuMSAyNy41LTMwLjIgMjcuNS01MC42YzAtMzMuMy0yNy02MC4zLTYwLjMtNjAuM2wtNy40IDBjLTEyLjUgMC0yNC44IDMuNS0zNS41IDEwTDQwOCAzNzBjMC0uNyAwLTEuMyAwLTJjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTE1Ni42IDBjLTE3LjQgMC0zNC40IDUuMS00OC44IDE0LjhMNjQuNyAzNjggMjQgMzY4Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDQ4IDBjNC43IDAgOS40LTEuNCAxMy4zLTRsNzkuOS01My4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-holding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hand-holding.svg)
  */
 const HandHolding: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

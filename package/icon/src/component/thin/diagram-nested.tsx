@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-nested` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-nested?s=thin diagram-nested}
- * @preview ![diagram-nested](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDQ4YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgOTZjMCAxNy43LTE0LjMgMzItMzIgMzJsLTk2IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtOTZjMC0xNy43IDE0LjMtMzIgMzItMzJsOTYgMHpNNDggMzJDMjEuNSAzMiAwIDUzLjUgMCA4MGwwIDk2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDQwIDAgMCA5NmMwIDM5LjggMzIuMiA3MiA3MiA3Mmw5NiAwIDAgNDBjMCAyNi41IDIxLjUgNDggNDggNDhsOTYgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTk2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC05NiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDQwLTk2IDBjLTMwLjkgMC01Ni0yNS4xLTU2LTU2bDAtOTYgNDAgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTk2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDQ4IDMyek00MDAgMzA0YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgOTZjMCAxNy43LTE0LjMgMzItMzIgMzJsLTk2IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtOTZjMC0xNy43IDE0LjMtMzIgMzItMzJsOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![diagram-nested](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/diagram-nested.svg)
  */
 const DiagramNested: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

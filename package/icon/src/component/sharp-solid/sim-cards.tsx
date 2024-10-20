@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sim-cards` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sim-cards?s=sharp-solid sim-cards}
- * @preview ![sim-cards](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBMOTYgMGwwIDMyIDAgMzUyIDAgMzIgMzIgMCAyODggMCAzMiAwIDAtMzIgMC0yNTYgMC0xMy4zLTkuNC05LjQtOTYtOTZMMzMzLjMgMCAzMjAgMCAxMjggMHptODAgMTQ0bDAgNDgtNDggMCAwLTQ4IDQ4IDB6bS00OCA4MGw2NCAwIDk2IDAgNjQgMCAwIDQ4LTY0IDAtOTYgMC02NCAwIDAtNDh6bTIyNC0zMmwtNDggMCAwLTQ4IDQ4IDAgMCA0OHptLTgwLTQ4bDAgNDgtNjQgMCAwLTQ4IDY0IDB6bTgwIDE2MGwwIDQ4LTQ4IDAgMC00OCA0OCAwem0tODAgNDhsLTY0IDAgMC00OCA2NCAwIDAgNDh6bS05NiAwbC00OCAwIDAtNDggNDggMCAwIDQ4ek00OCAxMjBsMC0yNEwwIDk2bDAgMjRMMCA0ODhsMCAyNCAyNCAwIDMzNiAwIDI0IDAgMC00OC0yNCAwTDQ4IDQ2NGwwLTM0NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sim-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sim-cards.svg)
  */
 const SimCards: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

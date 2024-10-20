@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `people` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people?s=sharp-solid people}
- * @preview ![people](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptLTUxLjEgMzJsLTE3LjUgMEw4MiAxNDIuOCAuMiAyNzAuOGw1My45IDM0LjQgMzMuOC01M0w4OCA0ODBsMCAzMiA2NCAwIDAtMzIgMC0xMjggMTYgMCAwIDEyOCAwIDMyIDY0IDAgMC0zMiAwLTIyNy44IDMzLjggNTMgNTMuOS0zNC40TDIzOCAxNDIuOCAyMjguNiAxMjhsLTE3LjUgMC0xMDIuMiAwek00ODAgOTZhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0tNTEuMSAzMmwtMTcuNSAwLTkuNCAxNC44LTgxLjcgMTI4IDUzLjkgMzQuNCA0Mi02NS44TDM2OCAzODRsNDAgMCAwIDk2IDAgMzIgNjQgMCAwLTMyIDAtOTYgMTYgMCAwIDk2IDAgMzIgNjQgMCAwLTMyIDAtOTYgNDAgMEw1NDMuOCAyMzkuNGw0MiA2NS44IDUzLjktMzQuNEw1NTggMTQyLjggNTQ4LjYgMTI4bC0xNy41IDAtMTAyLjIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/people.svg)
  */
 const People: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `heart-crack` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-crack?s=sharp-solid heart-crack}
- * @preview ![heart-crack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDIwOGw2NCAxMTJMMTYwIDIwOGw4MC04MEwxNzUuNyAzOGMtMTIuOC00LTI2LjMtNi00MC02QzYwLjggMzIgMCA5Mi44IDAgMTY3LjhjMCAzNiAxNC4zIDcwLjUgMzkuOCA5Nkw2NCAyODggMjU2IDQ4MCA0NDggMjg4bDI0LjItMjQuMmMyNS41LTI1LjUgMzkuOC02MCAzOS44LTk2QzUxMiA5Mi44IDQ1MS4yIDMyIDM3Ni4yIDMyYy0yNy42IDAtNTQuNCA4LjQtNzYuOCAyMy44TDMyMCAxMjhsLTk2IDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![heart-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heart-crack.svg)
  */
 const HeartCrack: typeof Icon = x => (
     <Icon {...x}>

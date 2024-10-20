@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hammer-crash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-crash?s=sharp-regular hammer-crash}
- * @preview ![hammer-crash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgzLjkgMzQ0LjlsMy0yMS43IDQ3LjQgMjMuNyAxMy4xLTI2LjEgMjEuMS04IDI5LjktMTEuNCAyMiAyMy4yIDI0LjYgMjUuOSAxMC45LTM0IDkuOC0zMC40IDMxLjgtMi43IDM1LjUtMy4xLTE5LjgtMjkuN0w0OTUuNCAyMjRsMTcuNy0yNi42IDE5LjgtMjkuNy0zNS41LTMuMS0zMS44LTIuNy05LjgtMzAuNC01LjQtMTYuNyAuNS0xLjEtMS0uNS01LTE1LjctOC41IDguOUwzOTEuNSA4NGwzNi42LTM4LjZMNDY1LjggNS42bDE2LjcgNTIuMSAxOC45IDU5LjEgNjEuOCA1LjMgNTQuNiA0LjctMzAuMyA0NS42TDU1My4xIDIyNGwzNC40IDUxLjYgMzAuMyA0NS42LTU0LjYgNC43LTYxLjggNS4zLTE4LjkgNTkuMS0xNi43IDUyLjEtMzcuNy0zOS43LTQyLjctNDUtNTggMjItNTEuMiAxOS40IDcuNi01NC4yek02NC40IDEyMi41TDI5OC41IDIzOS42bDQ1LjEtOTAuMUwxNzIuNyA2NGwtNzkgMEw2NC40IDEyMi41ek00Mi45IDE2NS41TDAgMTQ0bDIxLjUtNDIuOUw2NCAxNmwxMjAgMCAxODEuMSA5MC41TDQwOCAxMjhsLTIxLjUgNDIuOS00NS4xIDkwLjFMMzIwIDMwNGwtNDIuOS0yMS41LTg5LjItNDQuNkw2NC41IDQ4NC43IDIxLjUgNDYzLjMgMTQ0LjkgMjE2LjVsLTEwMi01MXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hammer-crash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hammer-crash.svg)
  */
 const HammerCrash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

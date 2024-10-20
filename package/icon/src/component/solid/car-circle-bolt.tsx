@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-circle-bolt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-circle-bolt?s=solid car-circle-bolt}
- * @preview ![car-circle-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM1LjIgMTE3LjRMMTA5LjEgMTkybDI5My44IDAtMjYuMS03NC42QzM3Mi4zIDEwNC42IDM2MC4yIDk2IDM0Ni42IDk2TDE2NS40IDk2Yy0xMy42IDAtMjUuNyA4LjYtMzAuMiAyMS40ek0zOS42IDE5Ni44TDc0LjggOTYuM0M4OC4zIDU3LjggMTI0LjYgMzIgMTY1LjQgMzJsMTgxLjIgMGM0MC44IDAgNzcuMSAyNS44IDkwLjYgNjQuM2wzNC4xIDk3LjRDMzg1LjggMjA1LjcgMzIwIDI3OS4yIDMyMCAzNjhjMCAxMC45IDEgMjEuNiAyLjkgMzJMOTYgNDAwbDAgNDhjMCAxNy43LTE0LjMgMzItMzIgMzJsLTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNDhMMCAyNTZjMC0yNi43IDE2LjQtNDkuNiAzOS42LTU5LjJ6TTEyOCAyODhhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptMzY4LTY0YTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptNDcuOSA2M2MtNC4zLTMuNy0xMC42LTQtMTUuMS0uNmwtOTYgNzJjLTQuMSAzLjEtNS44IDguNS00LjIgMTMuNHM2LjIgOC4yIDExLjQgOC4ybDM1LjYgMC0zMC4xIDU0LjJjLTIuOCA1LTEuNyAxMS4xIDIuNiAxNC45czEwLjYgNCAxNS4xIC42bDk2LTcyYzQuMS0zLjEgNS44LTguNSA0LjItMTMuNHMtNi4yLTguMi0xMS40LTguMmwtMzUuNiAwIDMwLjEtNTQuMmMyLjgtNSAxLjctMTEuMS0yLjYtMTQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![car-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/car-circle-bolt.svg)
  */
 const CarCircleBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

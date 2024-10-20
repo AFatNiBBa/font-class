@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-nib` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-nib?s=sharp-regular pen-nib}
- * @preview ![pen-nib](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc0LjEgMTk4LjFzMCAwIDAgMGwtMy42IDEwLjdMMzE0LjIgMzc3LjYgODQuNSA0NTAuMSAxODcuMyAzNDcuM2M2LjMgMyAxMy4zIDQuNyAyMC43IDQuN2MyNi41IDAgNDgtMjEuNSA0OC00OHMtMjEuNS00OC00OC00OHMtNDggMjEuNS00OCA0OGMwIDcuNCAxLjcgMTQuNCA0LjcgMjAuN0w2MS45IDQyNy41bDcyLjUtMjI5LjcgMTY4LjgtNTYuMyAxMC43LTMuNnMwIDAgMCAwbDYwLjEgNjAuMXpNNDggNTEybDMwNC05NiA2NC0xOTIgNjIuMS02Mi4xTDUxMiAxMjggNDc4LjEgOTQuMSA0MTcuOSAzMy45IDM4NCAwIDM1MC4xIDMzLjkgMjg4IDk2IDk2IDE2MCAwIDQ2NGw0OCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pen-nib](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pen-nib.svg)
  */
 const PenNib: typeof Icon = x => (
     <Icon {...x}>

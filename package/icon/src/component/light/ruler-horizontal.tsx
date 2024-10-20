@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ruler-horizontal` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler-horizontal?s=light ruler-horizontal}
- * @preview ![ruler-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDUxMiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTI4YzAtMTcuNy0xNC4zLTMyLTMyLTMybC00OCAwIDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NC02NCAwIDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NC02NCAwIDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NC02NCAwIDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NC02NCAwIDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NC00OCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDEyOHptMzIgNjRjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTkyYzAtMzUuMyAyOC43LTY0IDY0LTY0bDUxMiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTI4YzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDM4NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ruler-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ruler-horizontal.svg)
  */
 const RulerHorizontal: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-circle-arrow-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-arrow-up?s=solid cart-circle-arrow-up}
- * @preview ![cart-circle-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNEMwIDEwLjcgMTAuNyAwIDI0IDBMNjkuNSAwYzIyIDAgNDEuNSAxMi44IDUwLjYgMzJsNDExIDBjMjYuMyAwIDQ1LjUgMjUgMzguNiA1MC40TDUzOC44IDE5Ny4yYy0xMy43LTMuNC0yOC4xLTUuMi00Mi44LTUuMmMtNjguNCAwLTEyNy43IDM5LTE1Ni44IDk2bC0xNjguNSAwIDUuNCAyOC41YzIuMiAxMS4zIDEyLjEgMTkuNSAyMy42IDE5LjVsMTIzLjIgMGMtMS45IDEwLjQtMi45IDIxLjEtMi45IDMyYzAgNS40IC4yIDEwLjcgLjcgMTZsLTEyMSAwYy0zNC42IDAtNjQuMy0yNC42LTcwLjctNTguNUw3Ny40IDU0LjVjLS43LTMuOC00LTYuNS03LjktNi41TDI0IDQ4QzEwLjcgNDggMCAzNy4zIDAgMjR6TTEyOCA0NjRhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHptMzY4IDQ4YTE0NCAxNDQgMCAxIDEgMC0yODggMTQ0IDE0NCAwIDEgMSAwIDI4OHpNNDI4LjcgMzcxLjNjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBMNDgwIDM0Mi42bDAgODkuNGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtODkuNCAyOC43IDI4LjdjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBzNi4yLTE2LjQgMC0yMi42bC01Ni01NmMtNi4yLTYuMi0xNi40LTYuMi0yMi42IDBsLTU2IDU2Yy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-circle-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-circle-arrow-up.svg)
  */
 const CartCircleArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

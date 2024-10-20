@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-crosshairs` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-crosshairs?s=thin location-crosshairs}
- * @preview ![location-crosshairs](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBjNC40IDAgOCAzLjYgOCA4bDAgNTYuMmM5OS43IDQuMSAxNzkuOCA4NC4yIDE4My44IDE4My44bDU2LjIgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtNTYuMiAwYy00LjEgOTkuNy04NC4yIDE3OS44LTE4My44IDE4My44bDAgNTYuMmMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTU2LjJDMTQ4LjMgNDQzLjggNjguMiAzNjMuNyA2NC4yIDI2NEw4IDI2NGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGw1Ni4yIDBDNjguMiAxNDguMyAxNDguMyA2OC4yIDI0OCA2NC4yTDI0OCA4YzAtNC40IDMuNi04IDgtOHpNODAgMjU2YTE3NiAxNzYgMCAxIDAgMzUyIDBBMTc2IDE3NiAwIDEgMCA4MCAyNTZ6bTI1NiAwYTgwIDgwIDAgMSAwIC0xNjAgMCA4MCA4MCAwIDEgMCAxNjAgMHptLTE3NiAwYTk2IDk2IDAgMSAxIDE5MiAwIDk2IDk2IDAgMSAxIC0xOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![location-crosshairs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/location-crosshairs.svg)
  */
 const LocationCrosshairs: typeof Icon = x => (
     <Icon {...x}>

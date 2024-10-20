@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-flag` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-flag?s=sharp-thin house-flag}
- * @preview ![house-flag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDBMNDQ4IDBsMCA4IDAgMjRzMCAwIDAgMGwwIDE2IDAgMTI4IDAgMTZzMCAwIDAgMGwwIDMyMCAxNiAwIDAtMzIwIDE2MCAwIDE2IDAgMC0xNiAwLTEyOCAwLTE2LTE2IDBMNDY0IDMybDAtMjQgMC04em0wIDE3NmwwLTEyOCAxNjAgMCAwIDEyOC0xNjAgMHptLTQ4LTM4TDI3Ni44IDMzLjYgMjcyIDMwbC00LjggMy42LTI1NiAxOTItNi40IDQuOCA5LjYgMTIuOCA2LjQtNC44TDY0IDIwNmwwIDI5OCAwIDggOCAwIDM0NCAwIDAtMTYtNjQgMCAwLTE2OCAwLTgtOCAwLTE0NCAwLTggMCAwIDggMCAxNjhMODAgNDk2bDAtMzAyTDI3MiA1MCA0MTYgMTU4bDAtMjB6TTMzNiAzMzZsMCAxNjAtMTI4IDAgMC0xNjAgMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/house-flag.svg)
  */
 const HouseFlag: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

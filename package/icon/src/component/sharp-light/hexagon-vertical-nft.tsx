@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hexagon-vertical-nft` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-vertical-nft?s=sharp-light hexagon-vertical-nft}
- * @preview ![hexagon-vertical-nft](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ3NS4xTDQxNiAzNjUuNGwwLTIxOC45TDIyNCAzNi45IDMyIDE0Ni42bDAgMjE4LjlMMjI0IDQ3NS4xek0wIDEyOEwyMjQgMCA0NDggMTI4bDAgMjU2TDIyNCA1MTIgMCAzODQgMCAxMjh6bTc5LjggMzJsOC4yIDAgMTEuOSAwIDMuNCAxMS40IDI0LjUgODEuNyAwLTc3LjEgMC0xNiAzMiAwIDAgMTYgMCAxNjAgMCAxNi0xNiAwLTcuOCAwLTExLjkgMC0zLjQtMTEuNEw5NS44IDI1Ny44bDAgNzguMiAwIDE2LTMyIDAgMC0xNiAwLTE2MCAwLTE2IDE2IDB6bTEyOCAwbDQ4IDAgMTYgMCAwIDMyLTE2IDAtMzIgMCAwIDQ4IDMyIDAgMTYgMCAwIDMyLTE2IDAtMzIgMCAwIDY0IDAgMTYtMzIgMCAwLTE2IDAtODAgMC04MCAwLTE2IDE2IDB6bTk2IDBsMzIgMCAzMiAwIDE2IDAgMCAzMi0xNiAwLTE2IDAgMCAxNDQgMCAxNi0zMiAwIDAtMTYgMC0xNDQtMTYgMC0xNiAwIDAtMzIgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hexagon-vertical-nft](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hexagon-vertical-nft.svg)
  */
 const HexagonVerticalNft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scissors` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scissors?s=sharp-thin scissors}
- * @preview ![scissors](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTEyYTk2IDk2IDAgMSAxIDE5MiAwQTk2IDk2IDAgMSAxIDE2IDExMnptMjA4IDBDMjI0IDUwLjEgMTczLjkgMCAxMTIgMFMwIDUwLjEgMCAxMTJzNTAuMSAxMTIgMTEyIDExMmMzMi40IDAgNjEuNi0xMy44IDgyLjEtMzUuOEwyNDkuNCAyMzVsMjQuOCAyMS04MC4xIDY3LjhjLTIwLjUtMjItNDkuNi0zNS44LTgyLjEtMzUuOEM1MC4xIDI4OCAwIDMzOC4xIDAgNDAwczUwLjEgMTEyIDExMiAxMTJzMTEyLTUwLjEgMTEyLTExMmMwLTIzLjctNy40LTQ1LjctMTkuOS02My44TDUwOS4yIDc4LjEgNDk4LjggNjUuOSAyODYuNSAyNDUuNWwtMjQuOC0yMS01Ny43LTQ4LjhDMjE2LjYgMTU3LjcgMjI0IDEzNS43IDIyNCAxMTJ6TTExMiAzMDRhOTYgOTYgMCAxIDEgMCAxOTIgOTYgOTYgMCAxIDEgMC0xOTJ6bTE5OS4zLTE2LjZMNDk4LjggNDQ2LjFsMTAuMy0xMi4yTDMyMy43IDI3N2wtMTIuNCAxMC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![scissors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/scissors.svg)
  */
 const Scissors: typeof Icon = x => (
     <Icon {...x}>

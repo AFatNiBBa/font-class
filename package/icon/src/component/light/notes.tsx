@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `notes` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notes?s=light notes}
- * @preview ![notes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDk2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDI1NiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTYwLTgwIDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgODAtMTYwIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMjU2ek00NDYuMiAyODhjLTEuNiA0LjUtNC4yIDguNy03LjYgMTIuMWwtNzQuNSA3NC41Yy0zLjQgMy40LTcuNiA2LTEyLjEgNy42bDAtNzguMmMwLTguOCA3LjItMTYgMTYtMTZsNzguMiAwek05NiA5NmwwIDI1NmMwIDM1LjMgMjguNyA2NCA2NCA2NGwxODEuNSAwYzE3IDAgMzMuMy02LjcgNDUuMy0xOC43bDc0LjUtNzQuNWMxMi0xMiAxOC43LTI4LjMgMTguNy00NS4zTDQ4MCA5NmMwLTM1LjMtMjguNy02NC02NC02NEwxNjAgMzJjLTM1LjMgMC02NCAyOC43LTY0IDY0ek0zMjAgNDk2YzAtOC44LTcuMi0xNi0xNi0xNmwtMTc2IDBjLTUzIDAtOTYtNDMtOTYtOTZsMC0yNDBjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZMMCAzODRjMCA3MC43IDU3LjMgMTI4IDEyOCAxMjhsMTc2IDBjOC44IDAgMTYtNy4yIDE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![notes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/notes.svg)
  */
 const Notes: typeof Icon = x => (
     <Icon {...x}>

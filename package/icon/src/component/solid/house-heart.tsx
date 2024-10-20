@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-heart` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-heart?s=solid house-heart}
- * @preview ![house-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQzLjggMjg3LjZjMTcgMCAzMi0xNCAzMi0zMi4xYzEtOS0zLTE3LTExLTI0TDMwOS41IDdjLTYtNS0xNC03LTIxLTdzLTE1IDEtMjIgOEwxMCAyMzEuNWMtNyA3LTEwIDE1LTEwIDI0YzAgMTggMTQgMzIuMSAzMiAzMi4xbDMyIDAgMCAxNjAuNGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAuNCAwYzM1LjUgMCA2NC4yLTI4LjggNjQtNjQuM2wtLjctMTYwLjIgMzIgMHpNMTc2IDI2OS4zYzAtMzMuOCAyNy40LTYxLjMgNjEuMy02MS4zYzE2LjIgMCAzMS44IDYuNSA0My4zIDE3LjlsNy40IDcuNCA3LjQtNy40YzExLjUtMTEuNSAyNy4xLTE3LjkgNDMuMy0xNy45YzMzLjggMCA2MS4zIDI3LjQgNjEuMyA2MS4zYzAgMTYuMi02LjUgMzEuOC0xNy45IDQzLjNsLTgyLjcgODIuN2MtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBsLTgyLjctODIuN2MtMTEuNS0xMS41LTE3LjktMjcuMS0xNy45LTQzLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-heart.svg)
  */
 const HouseHeart: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

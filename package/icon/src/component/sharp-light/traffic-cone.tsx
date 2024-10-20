@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `traffic-cone` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-cone?s=sharp-light traffic-cone}
- * @preview ![traffic-cone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjIxLjIgMEwyMzIgMGw0OCAwIDEwLjggMCA0IDEwLjFMNDgyLjggNDgwbDEzLjIgMCAxNiAwIDAgMzItMTYgMEwxNiA1MTIgMCA1MTJsMC0zMiAxNiAwIDEzLjIgMCAxODgtNDY5LjkgNC0xMC4xem0xNzYgMzUybC0yODIuMyAwTDYzLjYgNDgwbDM4NC43IDBMMzk3LjIgMzUyem0tMTIuOC0zMkwzMzMuMiAxOTJsLTE1NC4zIDBMMTI3LjYgMzIwbDI1Ni43IDB6TTE5MS42IDE2MGwxMjguNyAwTDI2OS4yIDMybC0yNi4zIDBMMTkxLjYgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![traffic-cone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/traffic-cone.svg)
  */
 const TrafficCone: typeof Icon = x => (
     <Icon {...x}>

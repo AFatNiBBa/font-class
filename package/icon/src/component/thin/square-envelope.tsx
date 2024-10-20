@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-envelope` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-envelope?s=thin square-envelope}
- * @preview ![square-envelope](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDQ4YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMzIwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDY0IDQ2NGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhMMTYgOTZjMC0yNi41IDIxLjUtNDggNDgtNDhsMzIwIDB6TTY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMjBjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMzJ6TTM1MiAxNjBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNi43LTQgMi42TDIzNC40IDI2OC45Yy0zLjEgMi02LjcgMy4xLTEwLjQgMy4xcy03LjMtMS4xLTEwLjQtMy4xTDg0IDE4NS4zbC00LTIuNiAwLTYuN2MwLTguOCA3LjItMTYgMTYtMTZsMjU2IDB6bTE2IDQxLjdMMzY4IDMzNmMwIDguOC03LjIgMTYtMTYgMTZMOTYgMzUyYy04LjggMC0xNi03LjItMTYtMTZsMC0xMzQuMyAxMjQuOSA4MC42YzUuNyAzLjcgMTIuMyA1LjYgMTkuMSA1LjZzMTMuNC0yIDE5LjEtNS42TDM2OCAyMDEuN3pNOTYgMTQ0Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE2MGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwyNTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTE2MGMwLTE3LjctMTQuMy0zMi0zMi0zMkw5NiAxNDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-envelope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-envelope.svg)
  */
 const SquareEnvelope: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

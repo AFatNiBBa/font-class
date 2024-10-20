@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-phone` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-phone?s=solid square-phone}
- * @preview ![square-phone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMnptOTAuNyA5Ni43YzkuNy0yLjYgMTkuOSAyLjMgMjMuNyAxMS42bDIwIDQ4YzMuNCA4LjIgMSAxNy42LTUuOCAyMy4yTDE2OCAyMzEuN2MxNi42IDM1LjIgNDUuMSA2My43IDgwLjMgODAuM2wyMC4yLTI0LjdjNS42LTYuOCAxNS05LjIgMjMuMi01LjhsNDggMjBjOS4zIDMuOSAxNC4yIDE0IDExLjYgMjMuN2wtMTIgNDRDMzM2LjkgMzc4IDMyOSAzODQgMzIwIDM4NEMxOTYuMyAzODQgOTYgMjgzLjcgOTYgMTYwYzAtOSA2LTE2LjkgMTQuNy0xOS4zbDQ0LTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-phone.svg)
  */
 const SquarePhone: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

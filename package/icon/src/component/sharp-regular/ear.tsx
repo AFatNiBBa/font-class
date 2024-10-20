@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ear` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear?s=sharp-regular ear}
- * @preview ![ear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYzLjcgMzE2LjlsLTI1LjkgMTQuOSAxLjkgMjkuOGMuMSAyLjEgLjIgNC4yIC4yIDYuNGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwwLTE3NmMwLTc5LjUgNjQuNS0xNDQgMTQ0LTE0NHMxNDQgNjQuNSAxNDQgMTQ0YzAgNTMuMy0yOSAxMDAtNzIuMyAxMjQuOXpNMjg4IDM2OGMwLTMuMi0uMS02LjQtLjMtOS41QzM0NS4zIDMyNS4zIDM4NCAyNjMuMiAzODQgMTkyQzM4NCA4NiAyOTggMCAxOTIgMFMwIDg2IDAgMTkyTDAgMzY4YzAgNzkuNSA2NC41IDE0NCAxNDQgMTQ0czE0NC02NC41IDE0NC0xNDR6TTEyOCAxOTJjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NGwwIDggMCAyNCA0OCAwIDAtMjQgMC04YzAtNjEuOS01MC4xLTExMi0xMTItMTEyUzgwIDEzMC4xIDgwIDE5MmwwIDQwIDAgMTQuOCAxMy4zIDYuNkwxMjggMjcwLjhsMCA1LjlMODguNiAzMDkuNiA3MC4yIDMyNC45bDMwLjcgMzYuOSAxOC40LTE1LjQgNDgtNDAgOC42LTcuMiAwLTExLjIgMC0zMiAwLTE0LjgtMTMuMy02LjZMMTI4IDIxNy4ybDAtMjUuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ear.svg)
  */
 const Ear: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

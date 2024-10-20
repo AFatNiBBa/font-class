@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `microscope` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microscope?s=solid microscope}
- * @preview ![microscope](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDMyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyMjRjMCAxNy43LTE0LjMgMzItMzIgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJsLTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTIyNGMwLTE3LjcgMTQuMy0zMiAzMi0zMnpNMzIgNDQ4bDI4OCAwYzcwLjcgMCAxMjgtNTcuMyAxMjgtMTI4cy01Ny4zLTEyOC0xMjgtMTI4bDAtNjRjMTA2IDAgMTkyIDg2IDE5MiAxOTJjMCA0OS4yLTE4LjUgOTQtNDguOSAxMjhsMTYuOSAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0xNjAgMEwzMiA1MTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJ6bTgwLTY0bDE5MiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xOTIgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![microscope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/microscope.svg)
  */
 const Microscope: typeof Icon = x => (
     <Icon {...x}>

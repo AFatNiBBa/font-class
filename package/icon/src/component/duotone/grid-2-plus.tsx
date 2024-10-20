@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `grid-2-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-2-plus?s=duotone grid-2-plus}
- * @preview ![grid-2-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiA4MGMwLTI2LjUgMjEuNS00OCA0OC00OGw5NiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgOTZjMCAyNi41LTIxLjUgNDgtNDggNDhsLTk2IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtOTZ6bTAgMjU2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDk2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA5NmMwIDI2LjUtMjEuNSA0OC00OCA0OGwtOTYgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC05NnpNMjg4IDgwYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDk2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA5NmMwIDI2LjUtMjEuNSA0OC00OCA0OGwtOTYgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC05NnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQwOCAyOTZjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRsMCA2NC02NCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDY0IDAgMCA2NGMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtNjQgNjQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNjQgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![grid-2-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/grid-2-plus.svg)
  */
 const Grid_2Plus: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M32 80c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zm0 256c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zM288 80c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96z" />
-            <path d="M408 296c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0 0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64z" />
+        <path d="M408 296c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0 0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grate-droplet` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grate-droplet?s=sharp-regular grate-droplet}
- * @preview ![grate-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwyNCAwIDEwNCAwIDk2IDAgOTYgMCAxMDQgMCAyNCAwIDAgMjQgMCAxMDEuOS00OCA3My43TDQwMCA4MGwtNTYgMCAwIDE1MiA1NS44IDAtNTYuMSA4Ni4xYy0xNS40IDIzLjctMjMuNyA1MS40LTIzLjcgNzkuN2wwIDIuMWMwIDI5LjYgOC45IDU3LjEgMjQuMiA4MEwzMjAgNDgwbC05NiAwLTk2IDBMMjQgNDgwIDAgNDgwbDAtMjRMMCAyNTYgMCA1NiAwIDMyek00OCA4MGwwIDE1MiA1NiAwIDAtMTUyTDQ4IDgwem0wIDM1Mmw1NiAwIDAtMTUyLTU2IDAgMCAxNTJ6bTE1MiAwbDAtMTUyLTQ4IDAgMCAxNTIgNDggMHptOTYgMGwwLTE1Mi00OCAwIDAgMTUyIDQ4IDB6TTI0OCA4MGwwIDE1MiA0OCAwIDAtMTUyLTQ4IDB6TTIwMCAyMzJsMC0xNTItNDggMCAwIDE1MiA0OCAwem0yNjQtNDBsOTMuNSAxNDMuNmMxMi4xIDE4LjUgMTguNSA0MC4yIDE4LjUgNjIuM2wwIDIuMWMwIDYxLjktNTAuMSAxMTItMTEyIDExMnMtMTEyLTUwLjEtMTEyLTExMmwwLTIuMWMwLTIyLjEgNi40LTQzLjcgMTguNS02Mi4zTDQ2NCAxOTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![grate-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/grate-droplet.svg)
  */
 const GrateDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

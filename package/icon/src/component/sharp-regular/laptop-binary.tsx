@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-binary` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-binary?s=sharp-regular laptop-binary}
- * @preview ![laptop-binary](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDgwbDQxNiAwIDAgMjQwIDQ4IDAgMC0yNDAgMC00OC00OCAwTDExMiAzMiA2NCAzMmwwIDQ4IDAgMjQwIDQ4IDAgMC0yNDB6TTUxLjkgNDAwbDUzNi4yIDAtMzIgMzJMODMuOSA0MzJsLTMyLTMyek02NDAgNDE2bDAtMTYgMC00OC00OCAwTDQ4IDM1MiAwIDM1MmwwIDQ4IDAgMTYgNjQgNjQgNTEyIDAgNjQtNjR6TTE3NiAxMjhsLTE2IDAgMCAxNiAwIDgwIDAgMTYgMTYgMCA2NCAwIDE2IDAgMC0xNiAwLTgwIDAtMTYtMTYgMC02NCAwem0xNiA4MGwwLTQ4IDMyIDAgMCA0OC0zMiAwem0xMTItODBsLTE2IDAgMCAzMiAxNiAwIDAgNjQgMCAxNiAzMiAwIDAtMTYgMC04MCAwLTE2LTE2IDAtMTYgMHptODAgMGwwIDE2IDAgODAgMCAxNiAxNiAwIDY0IDAgMTYgMCAwLTE2IDAtODAgMC0xNi0xNiAwLTY0IDAtMTYgMHptMzIgMzJsMzIgMCAwIDQ4LTMyIDAgMC00OHpNMTkyIDI3MmwtMTYgMCAwIDMyIDE2IDAgMCAxNiAzMiAwIDAtMzIgMC0xNi0xNiAwLTE2IDB6bTI1NiAwbC0xNiAwLTE2IDAtMTYgMCAwIDMyIDE2IDAgMCAxNiAzMiAwIDAtMzIgMC0xNnptLTgwIDE2bDAtMTYtMTYgMC02NCAwLTE2IDAgMCAxNiAwIDMyIDMyIDAgMC0xNiAzMiAwIDAgMTYgMzIgMCAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![laptop-binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/laptop-binary.svg)
  */
 const LaptopBinary: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

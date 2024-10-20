@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cup-straw` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cup-straw?s=sharp-regular cup-straw}
- * @preview ![cup-straw](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA1IDBsLTQuNCAxOC41TDE3NC45IDEyOGwtOTQuNyAwTDMyIDEyOGwtOCAwTDAgMTI4bDAgNDggMjQgMCAxMiAwIDQ4LjIgMCA3OS40IDAgNDkuMyAwIDg2LjkgMCA0OC4yIDAgMTIgMCAyNCAwIDAtNDgtMjQgMC04IDAtNDguMiAwLTc5LjYgMEwyNDMgNDhsMzcgMCAyNCAwIDAtNDhMMjgwIDAgMjI0IDAgMjA1IDB6TTM4LjcgMjA4TDY0IDUxMmwyNTYgMCAyNS4zLTMwNC00OC4yIDBMMjc1LjggNDY0bC0xNjcuNyAwTDg2LjggMjA4bC00OC4yIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cup-straw](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cup-straw.svg)
  */
 const CupStraw: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

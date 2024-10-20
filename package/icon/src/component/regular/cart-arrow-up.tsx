@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-arrow-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-arrow-up?s=regular cart-arrow-up}
- * @preview ![cart-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk2IDE4NGwwLTEwMi4xLTIzIDIzYy05LjQgOS40LTI0LjYgOS40LTMzLjkgMHMtOS40LTI0LjYgMC0zMy45TDMwMyA3YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwbDY0IDY0YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45cy0yNC42IDkuNC0zMy45IDBsLTIzLTIzTDM0NCAxODRjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjR6TTAgMjRDMCAxMC43IDEwLjcgMCAyNCAwTDY5LjUgMGMyNi45IDAgNTAgMTkuMSA1NSA0NS41bDM3IDE5NC41IDI5Ny42IDBjMTAuOSAwIDIwLjQtNy4zIDIzLjItMTcuOEw1MjguOCA0OS44YzMuNC0xMi44IDE2LjYtMjAuNCAyOS40LTE2LjlzMjAuNCAxNi42IDE2LjkgMjkuNEw1MjguNyAyMzQuN2MtOC41IDMxLjQtMzcgNTMuMy02OS41IDUzLjNsLTI4OC41IDAgNS40IDI4LjVjMi4yIDExLjMgMTIuMSAxOS41IDIzLjYgMTkuNUw0ODggMzM2YzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0yODguMyAwYy0zNC42IDAtNjQuMy0yNC42LTcwLjctNTguNUw3Ny40IDU0LjVjLS43LTMuOC00LTYuNS03LjktNi41TDI0IDQ4QzEwLjcgNDggMCAzNy4zIDAgMjR6TTEyOCA0NjRhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHptMzM2LTQ4YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cart-arrow-up.svg)
  */
 const CartArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sack-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack-xmark?s=solid sack-xmark}
- * @preview ![sack-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDk2bDEyOCAwIDQ3LjQtNzEuMUMzNzQuNSAxNC4yIDM2Ni45IDAgMzU0LjEgMEwxNTcuOSAwYy0xMi44IDAtMjAuNCAxNC4yLTEzLjMgMjQuOUwxOTIgOTZ6bTEyOCAzMmwtMTI4IDBjLTMuOCAyLjUtOC4xIDUuMy0xMyA4LjRjMCAwIDAgMCAwIDBzMCAwIDAgMEMxMjIuMyAxNzIuNyAwIDI1MC45IDAgNDE2YzAgNTMgNDMgOTYgOTYgOTZsMzIwIDBjNTMgMCA5Ni00MyA5Ni05NmMwLTE2NS4xLTEyMi4zLTI0My4zLTE3OS0yNzkuNmMtNC44LTMuMS05LjItNS45LTEzLTguNHpNMjg5LjkgMzM2bDQ3IDQ3YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45cy0yNC42IDkuNC0zMy45IDBsLTQ3LTQ3LTQ3IDQ3Yy05LjQgOS40LTI0LjYgOS40LTMzLjkgMHMtOS40LTI0LjYgMC0zMy45bDQ3LTQ3LTQ3LTQ3Yy05LjQtOS40LTkuNC0yNC42IDAtMzMuOXMyNC42LTkuNCAzMy45IDBsNDcgNDcgNDctNDdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBzOS40IDI0LjYgMCAzMy45bC00NyA0N3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sack-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sack-xmark.svg)
  */
 const SackXmark: typeof Icon = x => (
     <Icon {...x}>

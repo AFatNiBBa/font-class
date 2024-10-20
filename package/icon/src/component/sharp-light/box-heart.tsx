@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-heart?s=sharp-light box-heart}
- * @preview ![box-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIuMSAxNjBMMjA4IDE2MGwwLTk2TDg0LjggNjQgNDIuMSAxNjB6TTIwOCAxOTJMMzIgMTkybDAgMjU2IDM4NCAwIDAtMjU2LTE3NiAwLTMyIDB6TTM2My4yIDY0TDI0MCA2NGwwIDk2IDE2NS45IDBMMzYzLjIgNjR6TTY0IDMybDMyMCAwIDY0IDE0NCAwIDI3MiAwIDMyLTMyIDBMMzIgNDgwIDAgNDgwbDAtMzJMMCAxNzYgNjQgMzJ6bTg0IDIzMS4yYy0xNC4yIDE0LjItMTMuNCAzNy41IDEuNyA1MC43TDIyNCAzNzguOGw3NC4zLTY0LjhjMTUuMi0xMy4yIDE1LjktMzYuNSAxLjctNTAuN2MtMTMuNi0xMy42LTM1LjYtMTMuNi00OS4xIDBsLTE1LjUgMTUuNUwyMjQgMjkwLjFsLTExLjMtMTEuMy0xNS41LTE1LjVjLTEzLjYtMTMuNi0zNS42LTEzLjYtNDkuMSAwem03MS44LTIyLjZsNC4yIDQuMiA0LjItNC4yYzI2LjEtMjYuMSA2OC4zLTI2LjEgOTQuNCAwYzI3LjMgMjcuMyAyNS44IDcyLjEtMy4zIDk3LjVsLTg0LjggNzRMMjI0IDQyMS4ybC0xMC41LTkuMi04NC44LTc0Yy0yOS4xLTI1LjQtMzAuNi03MC4yLTMuMy05Ny41YzI2LjEtMjYuMSA2OC4zLTI2LjEgOTQuNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![box-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/box-heart.svg)
  */
 const BoxHeart: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

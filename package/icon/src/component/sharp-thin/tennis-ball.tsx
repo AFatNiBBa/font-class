@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tennis-ball` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tennis-ball?s=sharp-thin tennis-ball}
- * @preview ![tennis-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY2LjUgNDk1LjhjLTkuOC02MS4yIDguOS0xMjYgNTYuMS0xNzMuMnMxMTItNjUuOCAxNzMuMi01Ni4xYy4yLTMuNSAuMi03IC4yLTEwLjVDNDk2IDEyMy41IDM4OC41IDE2IDI1NiAxNmMtMy41IDAtNyAuMS0xMC41IC4yYzkuOCA2MS4yLTguOSAxMjYtNTYuMSAxNzMuMnMtMTEyIDY1LjgtMTczLjIgNTYuMWMtLjIgMy41LS4yIDctLjIgMTAuNWMwIDEzMi41IDEwNy41IDI0MCAyNDAgMjQwYzMuNSAwIDctLjEgMTAuNS0uMnptMTYtMS4yYzExMS4zLTEyLjIgMTk5LjgtMTAwLjcgMjEyLTIxMmMtNTYuNy05LjUtMTE2LjkgNy42LTE2MC43IDUxLjRzLTYwLjggMTA0LTUxLjQgMTYwLjd6TTIyOS41IDE3LjVjLTExMS4zIDEyLjItMTk5LjggMTAwLjctMjEyIDIxMmM1Ni43IDkuNSAxMTYuOS03LjYgMTYwLjctNTEuNHM2MC44LTEwNCA1MS40LTE2MC43ek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tennis-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tennis-ball.svg)
  */
 const TennisBall: typeof Icon = x => (
     <Icon {...x}>

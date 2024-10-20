@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-exclamation-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-exclamation-check?s=regular circle-exclamation-check}
- * @preview ![circle-exclamation-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjU2QzQ4IDE0MS4xIDE0MS4xIDQ4IDI1NiA0OGM4NC4xIDAgMTU2LjcgNTAgMTg5LjQgMTIxLjljNS41IDEyLjEgMTkuNyAxNy40IDMxLjggMTEuOXMxNy40LTE5LjcgMTEuOS0zMS44QzQ0OC44IDYxLjYgMzU5LjYgMCAyNTYgMEMxMTQuNiAwIDAgMTE0LjYgMCAyNTZTMTE0LjYgNTEyIDI1NiA1MTJjNzIuOSAwIDEzOC44LTMwLjUgMTg1LjQtNzkuNGM5LjEtOS42IDguOC0yNC44LS44LTMzLjlzLTI0LjgtOC44LTMzLjkgLjhDMzY4LjcgNDM5LjIgMzE1LjMgNDY0IDI1NiA0NjRDMTQxLjEgNDY0IDQ4IDM3MC45IDQ4IDI1NnpNMjgwIDE1MmMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDExMmMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtMTEyek0yNTYgMzg0YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHpNNjI1IDE3NWMtOS40LTkuNC0yNC42LTkuNC0zMy45IDBsLTExMSAxMTEtNDctNDdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsNjQgNjRjOS40IDkuNCAyNC42IDkuNCAzMy45IDBMNjI1IDIwOWM5LjQtOS40IDkuNC0yNC42IDAtMzMuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-exclamation-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-exclamation-check.svg)
  */
 const CircleExclamationCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

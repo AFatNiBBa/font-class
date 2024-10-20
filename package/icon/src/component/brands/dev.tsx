@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dev` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dev?s=brands dev}
- * @preview ![dev](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwLjEyIDIwOC4yOWMtMy44OC0yLjktNy43Ny00LjM1LTExLjY1LTQuMzVIOTEuMDN2MTA0LjQ3aDE3LjQ1YzMuODggMCA3Ljc3LTEuNDUgMTEuNjUtNC4zNSAzLjg4LTIuOSA1LjgyLTcuMjUgNS44Mi0xMy4wNnYtNjkuNjVjLS4wMS01LjgtMS45Ni0xMC4xNi01LjgzLTEzLjA2ek00MDQuMSAzMkg0My45QzE5LjcgMzIgLjA2IDUxLjU5IDAgNzUuOHYzNjAuNEMuMDYgNDYwLjQxIDE5LjcgNDgwIDQzLjkgNDgwaDM2MC4yYzI0LjIxIDAgNDMuODQtMTkuNTkgNDMuOS00My44Vjc1LjhjLS4wNi0yNC4yMS0xOS43LTQzLjgtNDMuOS00My44ek0xNTQuMiAyOTEuMTljMCAxOC44MS0xMS42MSA0Ny4zMS00OC4zNiA0Ny4yNWgtNDYuNFYxNzIuOThoNDcuMzhjMzUuNDQgMCA0Ny4zNiAyOC40NiA0Ny4zNyA0Ny4yOGwuMDEgNzAuOTN6bTEwMC42OC04OC42NkgyMDEuNnYzOC40MmgzMi41N3YyOS41N0gyMDEuNnYzOC40MWg1My4yOXYyOS41N2gtNjIuMThjLTExLjE2LjI5LTIwLjQ0LTguNTMtMjAuNzItMTkuNjlWMTkzLjdjLS4yNy0xMS4xNSA4LjU2LTIwLjQxIDE5LjcxLTIwLjY5aDYzLjE5bC0uMDEgMjkuNTJ6bTEwMy42NCAxMTUuMjljLTEzLjIgMzAuNzUtMzYuODUgMjQuNjMtNDcuNDQgMGwtMzguNTMtMTQ0LjhoMzIuNTdsMjkuNzEgMTEzLjcyIDI5LjU3LTExMy43MmgzMi41OGwtMzguNDYgMTQ0Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dev](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/dev.svg)
  */
 const Dev: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

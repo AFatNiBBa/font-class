@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toolbox` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toolbox?s=sharp-light toolbox}
- * @preview ![toolbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMybDE2IDAgMjI0IDAgMTYgMCAwIDE2IDAgODAgNDggMCA4MCA4MCAwIDI0MCAwIDMyLTMyIDBMMzIgNDgwIDAgNDgwbDAtMzJMMCAyMDhsODAtODAgNDggMCAwLTgwIDAtMTZ6TTM1MiA2NEwxNjAgNjRsMCA2NCAxOTIgMCAwLTY0ek05My4zIDE2MEwzMiAyMjEuMyAzMiAzMjBsMTI4IDAgMC0zMiAwLTE2IDMyIDAgMCAxNiAwIDMyIDEyOCAwIDAtMzIgMC0xNiAzMiAwIDAgMTYgMCAzMiAxMjggMCAwLTk4LjdMNDE4LjcgMTYwIDM4NCAxNjBsLTMyIDAtMTkyIDAtMzIgMC0zNC43IDB6TTMyIDM1MmwwIDk2IDQ0OCAwIDAtOTYtMTI4IDAgMCAzMiAwIDE2LTMyIDAgMC0xNiAwLTMyLTEyOCAwIDAgMzIgMCAxNi0zMiAwIDAtMTYgMC0zMkwzMiAzNTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![toolbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/toolbox.svg)
  */
 const Toolbox: typeof Icon = x => (
     <Icon {...x}>

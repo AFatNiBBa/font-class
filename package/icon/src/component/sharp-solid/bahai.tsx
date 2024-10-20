@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bahai` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bahai?s=sharp-solid bahai}
- * @preview ![bahai](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE2LjUgMTAxLjJsLTMuNS0xMi42TDI4OCAwIDI2My4xIDg4LjZsLTMuNSAxMi42LTEzLjcgNDguNy00MS45LTI4LjQtMTEuMi03LjZMMTE1LjcgNjEuOGwzOS4xIDg0LjQgNSAxMC45IDIxLjQgNDYuMkwxMzAuNSAyMDggMTE4IDIwOS4ybC05NCA4LjkgODUuNSA0MC4xIDEwLjkgNS4xTDE2Ni42IDI4NWwtMzYgMzYuMS04LjMgOC40TDU1LjggMzk1LjlsOTEtMjMuMiAxMi44LTMuM0wyMDguNyAzNTdsLTQuMSA1MC42LTEgMTIuNC03LjQgOTIgNTQuMS03NC44IDcuOS0xMC45TDI4OCAzODUuNGwyOS42IDQwLjkgNy45IDEwLjlMMzc5LjcgNTEybC03LjQtOTItMS0xMi40TDM2Ny4zIDM1N2w0OS4yIDEyLjUgMTIuOCAzLjMgOTEgMjMuMi02Ni4zLTY2LjQtOC4zLTguNC0zNi0zNi4xIDQ2LjItMjEuNyAxMC45LTUuMUw1NTIgMjE4LjFsLTk0LTguOUw0NDUuNSAyMDhsLTUwLjctNC44IDIxLjQtNDYuMiA1LTEwLjkgMzkuMS04NC40LTc3LjEgNTIuMi0xMS4yIDcuNi00MS45IDI4LjQtMTMuNy00OC43em0yNy43IDk3LjJsLTIxLjQgNDYuMyA0OS44IDQuNy00NS4zIDIxLjMgMzUuNiAzNS43LTQ4LjgtMTIuNCA0LjEgNTEuM0wyODggMzAzLjVsLTMwLjIgNDEuNyA0LjEtNTEuMy00OC44IDEyLjQgMzUuNi0zNS43LTQ1LjMtMjEuMyA0OS44LTQuNy0yMS40LTQ2LjNMMjc0IDIyNi45bDE0LTQ5LjcgMTQgNDkuNyA0Mi4yLTI4LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bahai](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bahai.svg)
  */
 const Bahai: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

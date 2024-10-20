@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `not-equal` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/not-equal?s=light not-equal}
- * @preview ![not-equal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc3LjEgMzQuOGM3LjMgNSA5LjEgMTUgNCAyMi4zTDMyMSAxNDRsOTUgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMTE3LjIgMEwxODguMSAzMzYgNDE2IDMzNmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMjUwLjEgMEw5My4yIDQ3My4xYy01IDcuMy0xNSA5LjEtMjIuMyA0cy05LjEtMTUtNC0yMi4zTDEyNyAzNjhsLTk1IDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsMTE3LjIgMEwyNTkuOSAxNzYgMzIgMTc2Yy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDI1MC4xIDBMMzU0LjggMzguOWM1LTcuMyAxNS05LjEgMjIuMy00eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![not-equal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/not-equal.svg)
  */
 const NotEqual: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

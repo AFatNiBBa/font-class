@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sack-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack-xmark?s=sharp-solid sack-xmark}
- * @preview ![sack-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDk2bDEyOCAwTDM4NCAwIDEyOCAwbDY0IDk2em0xMjggMzJsLTEyOCAwYy0zLjggMi41LTguMSA1LjMtMTMgOC40YzAgMCAwIDAgMCAwczAgMCAwIDBDMTIyLjMgMTcyLjcgMCAyNTAuOSAwIDQxNmwwIDk2IDk2IDAgMzIwIDAgOTYgMCAwLTk2YzAtMTY1LjEtMTIyLjMtMjQzLjMtMTc5LTI3OS42Yy00LjgtMy4xLTkuMi01LjktMTMtOC40ek0yMjIuMSAzMzZsLTU1LTU1TDIwMSAyNDdsNTUgNTUgNTUtNTVMMzQ1IDI4MWwtNTUgNTUgNTUgNTVMMzExIDQyNWwtNTUtNTUtNTUgNTVMMTY3IDM5MWw1NS01NXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sack-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sack-xmark.svg)
  */
 const SackXmark: typeof Icon = x => (
     <Icon {...x}>

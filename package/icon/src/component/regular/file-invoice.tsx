@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-invoice` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-invoice?s=regular file-invoice}
- * @preview ![file-invoice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDY0bDI1NiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTI4OC04MCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTgwTDY0IDQ4Yy04LjggMC0xNiA3LjItMTYgMTZsMCAzODRjMCA4LjggNy4yIDE2IDE2IDE2ek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwyMjkuNSAwYzE3IDAgMzMuMyA2LjcgNDUuMyAxOC43bDkwLjUgOTAuNWMxMiAxMiAxOC43IDI4LjMgMTguNyA0NS4zTDM4NCA0NDhjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDY0em04MCA0OGMwLTguOCA3LjItMTYgMTYtMTZsODAgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtODAgMGMtOC44IDAtMTYtNy4yLTE2LTE2em0wIDY0YzAtOC44IDcuMi0xNiAxNi0xNmw4MCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC04MCAwYy04LjggMC0xNi03LjItMTYtMTZ6TTE5MiA0MDBjMC04LjggNy4yLTE2IDE2LTE2bDgwIDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTgwIDBjLTguOCAwLTE2LTcuMi0xNi0xNnpNMTEyIDIyNGwxNjAgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xNjAgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-invoice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-invoice.svg)
  */
 const FileInvoice: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

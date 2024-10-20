@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mountain-sun` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain-sun?s=sharp-thin mountain-sun}
- * @preview ![mountain-sun](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDgwYTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDQ5NiA4MHptMTQ0IDBBODAgODAgMCAxIDAgNDgwIDgwYTgwIDgwIDAgMSAwIDE2MCAwek0xNiA0NDQuOUwyNTYgOTIuNCA0OTYgNDQ0LjlsMCA1MS4xLS4yIDBMMTYgNDk2bDAtNTEuMXpNMTYgNTEybDQ0MSAwIDM5IDAgMTYgMCAxMTIgMCAxNiAwIDAtMTYgMC02Mi4zTDQ4OS42IDIwNi41IDQ4MCAxOTJsLTkuNiAxNC41LTU3LjkgODcuNEwyNjUuNyA3OC4yIDI1NiA2NGwtOS43IDE0LjJMMCA0NDBsMCA1NiAwIDE2IDE2IDB6bTYwOC0xNmwtMTEyIDAgMC01Nkw0MjIuMyAzMDguMiA0ODAgMjIxIDYyNCA0MzguNWwwIDU3LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mountain-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mountain-sun.svg)
  */
 const MountainSun: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

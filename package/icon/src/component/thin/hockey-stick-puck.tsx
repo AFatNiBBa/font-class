@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hockey-stick-puck` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-stick-puck?s=thin hockey-stick-puck}
- * @preview ![hockey-stick-puck](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA3LjcgLjljMy45IDIgNS41IDYuOSAzLjQgMTAuOGwtMjQyLjkgNDcwYy05LjYgMTguNi0yOC44IDMwLjMtNDkuOCAzMC4zTDQ4IDUxMmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC04NS4zYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDI4MC4zIDBMNDk2LjkgNC4zYzItMy45IDYuOS01LjUgMTAuOC0zLjR6TTMyMCAzNDYuN2wtMjA4IDBMMTEyIDQ5NmwxMDYuNSAwYzE1IDAgMjguNy04LjMgMzUuNS0yMS42bDY2LTEyNy43em0tMjcyIDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyTDE2IDQ2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmw0OCAwIDAtMTQ5LjMtNDggMHpNNDMyIDQxNmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAxNmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxNjAgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTE2YzAtMTcuNy0xNC4zLTMyLTMyLTMybC0xNjAgMHptLTQ4IDMyYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDE2MCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMTZjMCAyNi41LTIxLjUgNDgtNDggNDhsLTE2MCAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hockey-stick-puck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hockey-stick-puck.svg)
  */
 const HockeyStickPuck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

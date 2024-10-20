@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-gitlab` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-gitlab?s=brands square-gitlab}
- * @preview ![square-gitlab](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NlY0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRIMzg0YzM1LjMgMCA2NC0yOC43IDY0LTY0Vjk2YzAtMzUuMy0yOC43LTY0LTY0LTY0SDY0QzI4LjcgMzIgMCA2MC43IDAgOTZ6bTMzNy41IDEyLjVsNDQuNiAxMTYuNCAuNCAxLjJjNS42IDE2LjggNy4yIDM1LjIgMi4zIDUyLjVjLTUgMTcuMi0xNS40IDMyLjQtMjkuOCA0My4zbC0uMiAuMS02OC40IDUxLjItNTQuMSA0MC45Yy0uNSAuMi0xLjEgLjUtMS43IC44Yy0yIDEtNC40IDItNi43IDJjLTMgMC02LjgtMS44LTguMy0yLjhsLTU0LjItNDAuOUw5My41IDMyMi4zbC0uNC0uMy0uMi0uMWMtMTQuMy0xMC44LTI0LjgtMjYtMjkuNy00My4zcy00LjItMzUuNyAyLjItNTIuNWwuNS0xLjIgNDQuNy0xMTYuNGMuOS0yLjMgMi41LTQuMyA0LjUtNS42YzEuNi0xIDMuNC0xLjYgNS4yLTEuOGMxLjMtLjcgMi4xLS40IDMuNCAuMWMuNiAuMiAxLjIgLjUgMiAuN2MxIC40IDEuNiAuOSAyLjQgMS41Yy42IC40IDEuMiAxIDIuMSAxLjVjMS4yIDEuNCAyLjIgMyAyLjcgNC44bDI5LjIgOTIuMkgyODVsMzAuMi05Mi4yYy41LTEuOCAxLjQtMy40IDIuNi00LjhzMi44LTIuNCA0LjUtMy4xYzEuNy0uNiAzLjYtLjkgNS40LS43czMuNiAuOCA1LjIgMS44YzIgMS4zIDMuNyAzLjMgNC42IDUuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-gitlab](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-gitlab.svg)
  */
 const SquareGitlab: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

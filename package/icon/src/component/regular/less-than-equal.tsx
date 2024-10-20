@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `less-than-equal` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/less-than-equal?s=regular less-than-equal}
- * @preview ![less-than-equal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAxIDc4LjJjMTIuMy01IDE4LjItMTkgMTMuMi0zMS4zcy0xOS0xOC4yLTMxLjMtMTMuMkw0NyAxNjkuOGMtOS4xIDMuNy0xNSAxMi41LTE1IDIyLjJzNS45IDE4LjYgMTUgMjIuMmwzMzYgMTM2YzEyLjMgNSAyNi4zLTEgMzEuMy0xMy4ycy0xLTI2LjMtMTMuMi0zMS4zTDEyMCAxOTIgNDAxIDc4LjJ6TTI0IDQzMmMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw0MDAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEwyNCA0MzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![less-than-equal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/less-than-equal.svg)
  */
 const LessThanEqual: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

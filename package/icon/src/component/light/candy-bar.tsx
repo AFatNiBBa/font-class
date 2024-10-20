@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `candy-bar` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy-bar?s=light candy-bar}
- * @preview ![candy-bar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU1LjUgNzQuN2MyLjMtNi40IDguMy0xMC43IDE1LjEtMTAuN0wzMjAgNjRsMTYgMCAxNiAwIDIyNCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjU2YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yMjQgMC0xNiAwLTE2IDBMNjQgNDQ4Yy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDIzNC41YzAtNi44IDQuMy0xMi44IDEwLjctMTUuMUM0MS44IDIwOC41IDY0IDE3OC44IDY0IDE0NGMwLTguOCA3LjItMTYgMTYtMTZjMzQuOCAwIDY0LjUtMjIuMiA3NS41LTUzLjN6TTE5MiA5NmwwIDk2IDEyOCAwIDAtOTZMMTkyIDk2em0tMzIgMzAuNGMtMTcgMTcuNC0zOS43IDI5LjItNjUgMzIuNmMtMS42IDExLjctNC45IDIyLjgtOS44IDMzbDc0LjggMCAwLTY1LjZ6bS05NiA5NmMtOS4yIDkuNC0yMCAxNy4xLTMyIDIyLjhMMzIgMzIwbDEyOCAwIDAtOTYtOTYgMCAwLTEuNnpNMzIgMzUybDAgMzJjMCAxNy43IDE0LjMgMzIgMzIgMzJsOTYgMCAwLTY0TDMyIDM1MnptMTYwIDY0bDEyOCAwIDAtNjQtMTI4IDAgMCA2NHptMTI4LTk2bDAtOTYtMTI4IDAgMCA5NiAxMjggMHptMzIgOTZsMjI0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0yNTZjMC0xNy43LTE0LjMtMzItMzItMzJMMzUyIDk2bDAgMzIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![candy-bar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/candy-bar.svg)
  */
 const CandyBar: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

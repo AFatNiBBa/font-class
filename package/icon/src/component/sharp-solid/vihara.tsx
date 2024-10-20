@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vihara` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vihara?s=sharp-solid vihara}
- * @preview ![vihara](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBzOTYgODAgMTc2IDgwbDE2IDAgMCA0OC0yNCAwLTggMCAwIDY0IDIxLjMgMTZjMjcuNyAyMC44IDYxLjQgMzIgOTYgMzJsMTAuNyAwIDAgNDgtNjQgMCAwIDY0IDM4LjQgMjguOEM1OTkgMzkzLjMgNjE5LjIgNDAwIDY0MCA0MDBsMCA0OC02NCAwIDAgMzIgMCAzMi02NCAwIDAtMzIgMC0zMi0xNjAgMCAwIDMyIDAgMzItNjQgMCAwLTMyIDAtMzItMTYwIDAgMCAzMiAwIDMyLTY0IDAgMC0zMiAwLTMyTDAgNDQ4bDAtNDhjMjAuOCAwIDQxLTYuNyA1Ny42LTE5LjJMOTYgMzUybDAtNjQtNjQgMCAwLTQ4IDEwLjcgMGMzNC42IDAgNjguMy0xMS4yIDk2LTMyTDE2MCAxOTJsMC02NC04IDAtMjQgMCAwLTQ4IDE2IDBDMjI0IDgwIDMyMCAwIDMyMCAwek0xNjAgMzUybDMyMCAwIDAtNjQtMzIwIDAgMCA2NHpNNDE2IDEyOGwtNzIgMC0yNCAwLTI0IDAtNzIgMCAwIDY0IDE5MiAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![vihara](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/vihara.svg)
  */
 const Vihara: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

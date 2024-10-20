@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc?s=sharp-regular nfc}
- * @preview ![nfc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDgwbDAgMzUyTDQ4IDQzMiA0OCA4MGwzNTIgMHpNNDggMzJMMCAzMiAwIDgwIDAgNDMybDAgNDggNDggMCAzNTIgMCA0OCAwIDAtNDggMC0zNTIgMC00OC00OCAwTDQ4IDMyek0yNzIgMjU2YzAtMTcuOC05LjctMzMuMy0yNC00MS42bDAtNTQuNCA3MiAwIDAgMTkyLTE5MiAwIDAtMTkyIDggMCAyNCAwIDAtNDgtMjQgMC0zMiAwLTI0IDAgMCAyNCAwIDI0MCAwIDI0IDI0IDAgMjQwIDAgMjQgMCAwLTI0IDAtMjQwIDAtMjQtMjQgMC0xMjAgMC0yNCAwIDAgMjQgMCA3OC40Yy0xNC4zIDguMy0yNCAyMy44LTI0IDQxLjZjMCAyNi41IDIxLjUgNDggNDggNDhzNDgtMjEuNSA0OC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![nfc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/nfc.svg)
  */
 const Nfc: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `border-bottom` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-bottom?s=sharp-solid border-bottom}
- * @preview ![border-bottom](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQ4MEwwIDQ4MGwwLTY0IDQ0OCAwIDAgNjR6bTAtOTZsLTY0IDAgMC02NCA2NCAwIDAgNjR6TTAgMzg0bDAtNjQgNjQgMCAwIDY0TDAgMzg0em0yNTYgMGwtNjQgMCAwLTY0IDY0IDAgMCA2NHpNMzg0IDE5MmwwLTY0IDY0IDAgMCA2NC02NCAwek02NCAxOTJMMCAxOTJsMC02NCA2NCAwIDAgNjR6bTEyOCAwbDAtNjQgNjQgMCAwIDY0LTY0IDB6bTI1NiA5NmwtNjQgMCAwLTY0IDY0IDAgMCA2NHpNMCAyODhsMC02NCA2NCAwIDAgNjRMMCAyODh6bTI1NiAwbC02NCAwIDAtNjQgNjQgMCAwIDY0ek0zODQgOTZsMC02NCA2NCAwIDAgNjQtNjQgMHpNNjQgOTZMMCA5NiAwIDMybDY0IDAgMCA2NHptMTI4IDBsMC02NCA2NCAwIDAgNjQtNjQgMHpNMzUyIDI4OGwtNjQgMCAwLTY0IDY0IDAgMCA2NHpNMjg4IDk2bDAtNjQgNjQgMCAwIDY0LTY0IDB6TTE2MCA5Nkw5NiA5NmwwLTY0IDY0IDAgMCA2NHpNOTYgMjg4bDAtNjQgNjQgMCAwIDY0LTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![border-bottom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/border-bottom.svg)
  */
 const BorderBottom: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

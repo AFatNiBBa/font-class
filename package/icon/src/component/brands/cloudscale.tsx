@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloudscale` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloudscale?s=brands cloudscale}
- * @preview ![cloudscale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE4LjEgMTU0bC05LjQgNy42Yy0yMi41LTE5LjMtNTEuNS0zMy42LTgzLjMtMzMuNkMxNTMuOCAxMjggOTYgMTg4LjggOTYgMjYwLjNjMCA2LjYuNCAxMy4xIDEuNCAxOS40LTItNTYgNDEuOC05Ny40IDkyLjYtOTcuNCAyNC4yIDAgNDYuMiA5LjQgNjIuNiAyNC43bC0yNS4yIDIwLjRjLTguMy0uOS0xNi44IDEuOC0yMy4xIDguMS0xMS4xIDExLTExLjEgMjguOSAwIDQwIDExLjEgMTEgMjguOSAxMSA0MCAwIDYuMy02LjMgOS0xNC45IDguMS0yMy4xbDc1LjItODguOGM2LjMtNi41LTMuMy0xNS45LTkuNS05LjZ6bS04My44IDExMS41Yy01LjYgNS41LTE0LjYgNS41LTIwLjIgMC01LjYtNS42LTUuNi0xNC42IDAtMjAuMnMxNC42LTUuNiAyMC4yIDAgNS42IDE0LjcgMCAyMC4yek0yMjQgMzJDMTAwLjUgMzIgMCAxMzIuNSAwIDI1NnMxMDAuNSAyMjQgMjI0IDIyNCAyMjQtMTAwLjUgMjI0LTIyNFMzNDcuNSAzMiAyMjQgMzJ6bTAgMzg0Yy04OC4yIDAtMTYwLTcxLjgtMTYwLTE2MFMxMzUuOCA5NiAyMjQgOTZzMTYwIDcxLjggMTYwIDE2MC03MS44IDE2MC0xNjAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloudscale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/cloudscale.svg)
  */
 const Cloudscale: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

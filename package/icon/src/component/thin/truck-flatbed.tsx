@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-flatbed` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-flatbed?s=thin truck-flatbed}
- * @preview ![truck-flatbed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDEyMGMwLTEzLjMgMTAuNy0yNCAyNC0yNGw1MC43IDBjMTAuNiAwIDIwLjggNC4yIDI4LjMgMTEuN0w1OTYuMyAyMDFjNy41IDcuNSAxMS43IDE3LjcgMTEuNyAyOC4zTDYwOCA0MDBsMjQgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtNTYuNCAwYy4yIDIuNiAuNCA1LjMgLjQgOGMwIDQ4LjYtMzkuNCA4OC04OCA4OHMtODgtMzkuNC04OC04OGMwLTIuNyAuMS01LjQgLjQtOGwtMTYwLjcgMGMuMiAyLjYgLjQgNS4zIC40IDhjMCA0OC42LTM5LjQgODgtODggODhzLTg4LTM5LjQtODgtODhjMC0yLjcgLjEtNS40IC40LThMOCA0MTZjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsNTkuMyAwYzEwLjQtMzYuOSA0NC40LTY0IDg0LjctNjRzNzQuMiAyNy4xIDg0LjcgNjRMNDAwIDQwMGwwLTI4MHptMTYgMjUzLjRjMTUuOS0yMi42IDQyLjItMzcuNCA3Mi0zNy40YzQwLjMgMCA3NC4yIDI3LjEgODQuNyA2NGwxOS4zIDAgMC0xNjgtMTc2IDAgMCAxNDEuNHpNNDE2IDIxNmwxNzIgMGMtLjktMS4zLTEuOS0yLjYtMy0zLjdMNDkxLjcgMTE5Yy00LjUtNC41LTEwLjYtNy0xNy03TDQyNCAxMTJjLTQuNCAwLTggMy42LTggOGwwIDk2ek0xNTIgNDk2YTcyIDcyIDAgMSAwIDAtMTQ0IDcyIDcyIDAgMSAwIDAgMTQ0em00MDgtNzJhNzIgNzIgMCAxIDAgLTE0NCAwIDcyIDcyIDAgMSAwIDE0NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-flatbed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/truck-flatbed.svg)
  */
 const TruckFlatbed: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

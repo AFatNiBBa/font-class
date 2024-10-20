@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-right-from-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-from-line?s=sharp-regular arrow-right-from-line}
- * @preview ![arrow-right-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODhsMC0yNEwwIDY0IDAgODggMCA0MjRsMCAyNCA0OCAwIDAtMjRMNDggODh6TTQyOS4yIDI3My41TDQ0Ny44IDI1NmwtMTguNi0xNy41LTEzNi0xMjhMMjc1LjggOTQuMWwtMzIuOSAzNSAxNy41IDE2LjRMMzUyLjMgMjMyIDE1MiAyMzJsLTI0IDAgMCA0OCAyNCAwIDIwMC4zIDAtOTEuOSA4Ni41TDI0Mi45IDM4M2wzMi45IDM1IDE3LjUtMTYuNSAxMzYtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-right-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-right-from-line.svg)
  */
 const ArrowRightFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

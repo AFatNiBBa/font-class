@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right-long` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-long?s=sharp-light right-long}
- * @preview ![right-long](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDIxNmwtMzIgMEwzMiAyMTZsMCA4MCAyODggMCAzMiAwIDAgMzIgMCA0Mi43TDQ2Ni43IDI1NiAzNTIgMTQxLjNsMCA0Mi43IDAgMzJ6bS0zMi04OGwwLTMyIDMyIDBMNDg5LjQgMjMzLjQgNTEyIDI1NmwtMjIuNiAyMi42TDM1MiA0MTZsLTMyIDAgMC0zMiAwLTI0IDAtMzItMzIgMEwzMiAzMjggMCAzMjhsMC0zMiAwLTgwIDAtMzIgMzIgMCAyNTYgMCAzMiAwIDAtMzIgMC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![right-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/right-long.svg)
  */
 const RightLong: typeof Icon = x => (
     <Icon {...x}>

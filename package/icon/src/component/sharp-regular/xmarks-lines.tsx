@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `xmarks-lines` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmarks-lines?s=sharp-regular xmarks-lines}
- * @preview ![xmarks-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMzJMMCAzMiAwIDgwbDI0IDAgNTkyIDAgMjQgMCAwLTQ4LTI0IDBMMjQgMzJ6bTAgNDAwTDAgNDMybDAgNDggMjQgMCA1OTIgMCAyNCAwIDAtNDgtMjQgMEwyNCA0MzJ6TTU3IDE4M2wtMTctMTdMNi4xIDIwMGwxNyAxNyAzOSAzOUwyMyAyOTVsLTE3IDE3TDQwIDM0NS45bDE3LTE3IDM5LTM5IDM5IDM5IDE3IDE3TDE4NS45IDMxMmwtMTctMTctMzktMzkgMzktMzkgMTctMTdMMTUyIDE2Ni4xbC0xNyAxNy0zOSAzOUw1NyAxODN6bTIyNCAwbC0xNy0xN0wyMzAuMSAyMDBsMTcgMTcgMzkgMzktMzkgMzktMTcgMTdMMjY0IDM0NS45bDE3LTE3IDM5LTM5IDM5IDM5IDE3IDE3TDQwOS45IDMxMmwtMTctMTctMzktMzkgMzktMzkgMTctMTdMMzc2IDE2Ni4xbC0xNyAxNy0zOSAzOS0zOS0zOXptMjI0IDBsLTE3LTE3TDQ1NC4xIDIwMGwxNyAxNyAzOSAzOS0zOSAzOS0xNyAxN0w0ODggMzQ1LjlsMTctMTcgMzktMzkgMzkgMzkgMTcgMTdMNjMzLjkgMzEybC0xNy0xNy0zOS0zOSAzOS0zOSAxNy0xN0w2MDAgMTY2LjFsLTE3IDE3LTM5IDM5LTM5LTM5eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![xmarks-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/xmarks-lines.svg)
  */
 const XmarksLines: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

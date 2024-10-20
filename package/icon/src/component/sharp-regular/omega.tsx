@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `omega` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/omega?s=sharp-regular omega}
- * @preview ![omega](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDgwQzEyNi44IDgwIDQ4IDE1OC44IDQ4IDI1NmMwIDY2LjYgMzYuOSAxMjQuNSA5MS41IDE1NC41bDEyLjUgNi44IDAgMTQuMiAwIDI0LjUgMCAyNC0yNCAwTDI0IDQ4MCAwIDQ4MGwwLTQ4IDI0IDAgNjEuNCAwQzMzLjQgMzkxIDAgMzI3LjQgMCAyNTZDMCAxMzIuMyAxMDAuMyAzMiAyMjQgMzJzMjI0IDEwMC4zIDIyNCAyMjRjMCA3MS40LTMzLjQgMTM1LTg1LjQgMTc2bDYxLjQgMCAyNCAwIDAgNDgtMjQgMC0xMDQgMC0yNCAwIDAtMjQgMC0yNC41IDAtMTQuMiAxMi41LTYuOEMzNjMuMSAzODAuNSA0MDAgMzIyLjYgNDAwIDI1NmMwLTk3LjItNzguOC0xNzYtMTc2LTE3NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![omega](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/omega.svg)
  */
 const Omega: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

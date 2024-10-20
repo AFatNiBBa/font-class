@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-pie` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pie?s=thin chart-pie}
- * @preview ![chart-pie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDIyNGwtMjA4IDAgMC0yMDhjMTE0LjkgMCAyMDggOTMuMSAyMDggMjA4ek0zMjAgMjQwbDIwOC41IDBjOC40IDAgMTUuNC02LjUgMTUuNS0xNC45bDAtMS4xQzU0NCAxMDAuMyA0NDMuNyAwIDMyMCAwbC0xLjEgMEMzMTAuNSAwIDMwNCA3LjEgMzA0IDE1LjVMMzA0IDIyNGMwIDguOCA3LjIgMTYgMTYgMTZ6bS03NS4zIDU5LjNsMTU2IDE1NkMzNjQuMyA0ODEgMzE5LjkgNDk2IDI3MiA0OTZDMTQ4LjMgNDk2IDQ4IDM5NS43IDQ4IDI3MkM0OCAxNTkuMiAxMzEuNSA2NS44IDI0MCA1MC4zTDI0MCAyODhjMCA0LjIgMS43IDguMyA0LjcgMTEuM3pNMjM5IDM0LjNDMTIyLjEgNTAuMyAzMiAxNTAuNyAzMiAyNzJjMCAxMzIuNSAxMDcuNSAyNDAgMjQwIDI0MGM1MS44IDAgOTkuOC0xNi40IDEzOS00NC4zYzcuNy01LjUgOC4yLTE2LjUgMS41LTIzLjFMMjU2IDI4OGwwLTIzOC40YzAtOS4yLTcuOC0xNi42LTE3LTE1LjR6TTM1OC42IDMwNGwxOTkuMSAwYy03LjMgNTEuMy0zMi4xIDk3LTY4LjEgMTMxbC0xMzEtMTMxem0yMTUuMSAxYzEuMy05LjItNi4xLTE3LTE1LjQtMTdsLTE5OS44IDBjLTE0LjMgMC0yMS40IDE3LjItMTEuMyAyNy4zTDQ3OC43IDQ0Ni43YzUuOCA1LjggMTUuMiA2LjMgMjEuMiAuN2MzOS4zLTM2LjcgNjYuMi04Ni41IDczLjktMTQyLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-pie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-pie.svg)
  */
 const ChartPie: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

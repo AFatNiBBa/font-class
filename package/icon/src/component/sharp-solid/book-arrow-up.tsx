@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-arrow-up` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-arrow-up?s=sharp-solid book-arrow-up}
- * @preview ![book-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDQzIDQzIDAgOTYgMEwzODQgMGwzMiAwIDMyIDAgMCAzODQtMzIgMCAwIDY0IDMyIDAgMCA2NC0zMiAwLTMyIDBMOTYgNTEyYy01MyAwLTk2LTQzLTk2LTk2TDAgOTZ6TTY0IDQxNmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwyNTYgMCAwLTY0LTg4IDAgMC0xNzQuMSAzOSAzOSAxNyAxN0wzNTMuOSAyMzJsLTE3LTE3LTgwLTgwLTE3LTE3LTE3IDE3LTgwIDgwLTE3IDE3TDE2MCAyNjUuOWwxNy0xNyAzOS0zOUwyMTYgMzg0IDk2IDM4NGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/book-arrow-up.svg)
  */
 const BookArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

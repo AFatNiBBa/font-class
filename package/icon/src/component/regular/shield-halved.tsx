@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-halved` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-halved?s=regular shield-halved}
- * @preview ![shield-halved](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDU5LjZsMCAzOTAuN0M5OS4yIDM3NS43IDY0LjQgMjI3LjMgNjQgMTM5LjdjMC01IDMuMS0xMC4yIDktMTIuOEwyMzIgNTkuNnptNDggMzkwLjhsMC0zOTAuOEw0MzkgMTI3YzUuOSAyLjUgOS4xIDcuOCA5IDEyLjhjLS40IDg3LjUtMzUuMiAyMzYtMTY4IDMxMC42ek00NTcuNyA4Mi44TDI2OS40IDIuOUMyNjUuMiAxIDI2MC43IDAgMjU2IDBzLTkuMiAxLTEzLjQgMi45TDU0LjMgODIuOGMtMjIgOS4zLTM4LjQgMzEtMzguMyA1Ny4yYy41IDk5LjIgNDEuMyAyODAuNyAyMTMuNiAzNjMuMmMxNi43IDggMzYuMSA4IDUyLjggMEM0NTQuOCA0MjAuNyA0OTUuNSAyMzkuMiA0OTYgMTQwYy4xLTI2LjItMTYuMy00Ny45LTM4LjMtNTcuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shield-halved](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/shield-halved.svg)
  */
 const ShieldHalved: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `smoking` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smoking?s=sharp-regular smoking}
- * @preview ![smoking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDBsNDggMCAwIDQzYzAgMzguMiAxNS4yIDc0LjggNDIuMiAxMDEuOGwyMSAyMWMyMSAyMSAzMi44IDQ5LjUgMzIuOCA3OS4ybDAgNDMtNDggMCAwLTQzYzAtMTctNi43LTMzLjMtMTguNy00NS4zbC0yMS0yMUM0MzYuMiAxNDIuNyA0MTYgOTMuOSA0MTYgNDNsMC00M3pNNjQwIDI4OGwtNDggMCAwLTQzYzAtMzguMi0xNS4yLTc0LjgtNDIuMi0xMDEuOGwtMjEtMjFjLTIxLTIxLTMyLjgtNDkuNS0zMi44LTc5LjJsMC00MyA0OCAwIDAgNDNjMCAxNyA2LjcgMzMuMyAxOC43IDQ1LjNsMjEgMjFjMzYgMzYgNTYuMiA4NC44IDU2LjIgMTM1LjhsMCA0M3ptLTgwIDg4bDAgMTEyIDAgMjQtNDggMCAwLTI0IDAtMTEyIDAtMjQgNDggMCAwIDI0em04MCAwbDAgMTEyIDAgMjQtNDggMCAwLTI0IDAtMTEyIDAtMjQgNDggMCAwIDI0ek0yMjQgNDY0bDIwOCAwIDAtNjQtMjA4IDAgMCA2NHpNMCAzNTJsNDggMCAzODQgMCA0OCAwIDAgNDggMCA2NCAwIDQ4LTQ4IDBMNDggNTEyIDAgNTEybDAtNDggMC02NCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/smoking.svg)
  */
 const Smoking: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

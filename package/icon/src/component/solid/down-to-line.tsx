@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-to-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-to-line?s=solid down-to-line}
- * @preview ![down-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQyLjEgMjQ5LjlMMjE5LjMgMzcyLjdjLTcuMiA3LjItMTcuMSAxMS4zLTI3LjMgMTEuM3MtMjAuMS00LjEtMjcuMy0xMS4zTDQxLjkgMjQ5LjljLTYuNC02LjQtOS45LTE1LTkuOS0yNEMzMiAyMDcuMiA0Ny4yIDE5MiA2NS45IDE5Mmw2Mi4xIDAgMC0xMjhjMC0xNy43IDE0LjMtMzIgMzItMzJsNjQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDEyOCA2Mi4xIDBjMTguNyAwIDMzLjkgMTUuMiAzMy45IDMzLjljMCA5LTMuNiAxNy42LTkuOSAyNHpNMzIgNDE2bDMyMCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyTDMyIDQ4MGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/down-to-line.svg)
  */
 const DownToLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

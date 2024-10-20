@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `angles-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angles-right?s=sharp-regular angles-right}
- * @preview ![angles-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjczIDI3M2wxNy0xNy0xNy0xN0wxMTMgNzlsLTE3LTE3TDYyLjEgOTZsMTcgMTcgMTQzIDE0M0w3OSAzOTlsLTE3IDE3TDk2IDQ0OS45bDE3LTE3TDI3MyAyNzN6bTE5MiAwbDE3LTE3LTE3LTE3TDMwNSA3OWwtMTctMTdMMjU0LjEgOTZsMTcgMTcgMTQzIDE0M0wyNzEgMzk5bC0xNyAxN0wyODggNDQ5LjlsMTctMTdMNDY1IDI3M3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![angles-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/angles-right.svg)
  */
 const AnglesRight: typeof Icon = x => (
     <Icon {...x}>

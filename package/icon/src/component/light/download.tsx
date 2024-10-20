@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `download` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/download?s=light download}
- * @preview ![download](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDE2YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMzEzLjRMMTM5LjMgMjI4LjdjLTYuMi02LjItMTYuNC02LjItMjIuNiAwcy02LjIgMTYuNCAwIDIyLjZsMTI4IDEyOGM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMGwxMjgtMTI4YzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBMMjcyIDMyOS40IDI3MiAxNnpNMTQwLjEgMzIwTDY0IDMyMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCA2NGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzODQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTY0YzAtMzUuMy0yOC43LTY0LTY0LTY0bC03Ni4xIDAtMzIgMzJMNDQ4IDM1MmMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDY0IDQ4MGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwxMDguMSAwLTMyLTMyek00MzIgNDE2YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![download](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/download.svg)
  */
 const Download: typeof Icon = x => (
     <Icon {...x}>

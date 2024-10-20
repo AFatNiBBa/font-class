@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `waveform` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waveform?s=sharp-duotone-solid waveform}
- * @preview ![waveform](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik00MjkgNjRsMzguNSAwIDQuMyAyOC40TDUwMC4yIDI4MmwyMC40LTk1IDUuOC0yNyAzMC40IDAgOS41IDIyLjhMNjAwIDI2NGw4IDAgMjQgMCAwIDQ4LTI0IDAtMjQgMC0xNiAwLTYuMi0xNC44LTEwLjUtMjUuMUw1MTkuNSA0MjFsLTUuOCAyNy0zNy4yIDAtNC4zLTI4LjRMNDQ2LjggMjQ5LjUgNDA3LjcgNDgzLjkgNDAzIDUxMmwtMzguNyAwLTQuMS0yOC42TDMyMCAyMDEuNyAyNzkuOCA0ODMuNCAyNzUuNyA1MTIgMjM3IDUxMmwtNC43LTI4LjFMMTkzLjIgMjQ5LjUgMTY3LjcgNDE5LjYgMTYzLjUgNDQ4bC0zNy4yIDAtNS44LTI3TDg4LjYgMjcyLjEgNzguMiAyOTcuMiA3MiAzMTJsLTE2IDAtMjQgMEw4IDMxMmwwLTQ4IDI0IDAgOCAwIDMzLjgtODEuMkw4My4zIDE2MGwzMC40IDAgNS44IDI3IDIwLjQgOTVMMTY4LjMgOTIuNCAxNzIuNSA2NCAyMTEgNjRsNC43IDI4LjEgMzguNSAyMzFMMjk2LjIgMjguNiAzMDAuMyAwbDM5LjMgMCA0LjEgMjguNiA0Mi4xIDI5NC41IDM4LjUtMjMxTDQyOSA2NHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/waveform.svg)
  */
 const Waveform: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

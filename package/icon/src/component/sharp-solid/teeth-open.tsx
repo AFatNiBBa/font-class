@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `teeth-open` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/teeth-open?s=sharp-solid teeth-open}
- * @preview ![teeth-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDMyTDAgMzIgMCAyNTZsNTc2IDAgMC0yMjR6TTIyNCA5NmMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDgwLTk2IDAgMC04MGMwLTI2LjUgMjEuNS00OCA0OC00OHptODAgNDhjMC0yNi41IDIxLjUtNDggNDgtNDhzNDggMjEuNSA0OCA0OGwwIDgwLTk2IDAgMC04MHpNOTYgMTI4YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNDgtOTYgMCAwLTQ4YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4em0zMzYgNDhjMC0yNi41IDIxLjUtNDggNDgtNDhzNDggMjEuNSA0OCA0OGwwIDQ4LTk2IDAgMC00OHpNNTc2IDQ4MGwwLTE5MkwwIDI4OCAwIDQ4MGw1NzYgMHpNOTYgNDE2Yy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTQ4IDk2IDAgMCA0OGMwIDI2LjUtMjEuNSA0OC00OCA0OHptODAtNDhsMC00OCA5NiAwIDAgNDhjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDh6bTE3NiA0OGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC00OCA5NiAwIDAgNDhjMCAyNi41LTIxLjUgNDgtNDggNDh6bTgwLTQ4bDAtNDggOTYgMCAwIDQ4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![teeth-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/teeth-open.svg)
  */
 const TeethOpen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

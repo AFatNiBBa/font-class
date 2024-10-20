@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `interrobang` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/interrobang?s=sharp-regular interrobang}
- * @preview ![interrobang](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTYwYzAtNDQuMiAzNS44LTgwIDgwLTgwbDMyIDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCA3LjRjMCAyMi45LTEwLjkgNDQuNS0yOS40IDU4LjFMMTg0IDI1Ni42bDAtODguNiAwLTI0LTQ4IDAgMCAyNCAwIDEyMy44IDAgMTIuMiAwIDI0IDAgMTYgMCA4IDAgMTYgNDggMCAwLTE2IDAtOCAwLTE2IDAtMTEuOCA3MS01MmMzMC44LTIyLjYgNDktNTguNSA0OS05Ni44bDAtNy40YzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4bC0zMiAwQzczLjMgMzIgMTYgODkuMyAxNiAxNjBsMCAxNiA0OCAwIDAtMTZ6bTY0IDI1NmwwIDY0IDY0IDAgMC02NC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![interrobang](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/interrobang.svg)
  */
 const Interrobang: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-hiking` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-hiking?s=sharp-regular person-hiking}
- * @preview ![person-hiking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDQ4YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTE0NCA5Nkw0OCA5NiAwIDI3Mmw5NiAxNkwxNDQgOTZ6bTI0MCA4OGwwLTI0LTQ4IDAgMCAyNCAwIDI0LTI3LjIgMEwyNjggMTQ2LjdsLTUuNC04LjEtOS41LTItNTYtMTItMjMuMS01LTUuMyAyMy4xLTI3LjcgMTIxYy00LjcgMjAuNCAyLjQgNDEuNyAxOC40IDU1LjJMMjQwIDM4Ny4xIDI0MCA0ODhsMCAyNCA0OCAwIDAtMjQgMC0xMTIgMC0xMS4xLTguNS03LjItMzMuMS0yOCAyMi40LTk1LjIgNy4yIDEwLjkgNy4xIDEwLjcgMTIuOCAwIDQwIDAgMCAyMzIgMCAyNCA0OCAwIDAtMjQgMC0zMDR6TTIwNS4zIDI5NC45bC0xNC45LTEyLjZjLTIuMy0xLjktMy4zLTUtMi42LTcuOWwyMi40LTk3LjkgMjEuOSA0LjdMMjA1LjMgMjk0Ljl6bS04MSAzMi44TDcyLjMgNTEybDQ5LjkgMCA0MS42LTE0Ny41LTI0LjgtMjFjLTUuNi00LjctMTAuNS0xMC4xLTE0LjYtMTUuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-hiking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-hiking.svg)
  */
 const PersonHiking: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

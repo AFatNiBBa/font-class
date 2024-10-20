@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hat-cowboy-side` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-cowboy-side?s=regular hat-cowboy-side}
- * @preview ![hat-cowboy-side](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ0LjggMjU2bC0xMzMuNSAwLTMxLjUtMjUuNmMtMjUtMjAuMy01NS0zMy04Ni42LTM3LjFsNC45LTYzLjRjLjMtMy42IDIuOS02LjUgNi40LTcuMkw0MTIuMyA4MS4yIDQ0NC44IDI1NnpNNTYwIDQwMGwtNDAgMGMwLTEuNC0uMS0yLjktLjQtNC40bC0yNi0xMzkuNmMxMC4yIDUuNCAyMS42IDEyIDMyLjggMTkuOEM1NjMuNiAzMDEuMiA1OTIgMzMyLjkgNTkyIDM2OGMwIDE3LjctMTQuMyAzMi0zMiAzMnpNNDk4IDIwNC42Yy01LjktMi44LTExLjEtNS4xLTE1LjMtNi45bC0yNC42LTEzMkM0NTQuNiA0Ni4yIDQzNy42IDMyIDQxNy43IDMyYy0yLjcgMC01LjQgLjMtOC4xIC44TDE5NS4xIDc1LjdjLTI0LjYgNC45LTQyLjkgMjUuNi00NC45IDUwLjZMMTQ1IDE5NEM2Mi45IDIwNi44IDAgMjc3LjkgMCAzNjMuNmwwIDE4LjhDMCA0MTguNiAyOS40IDQ0OCA2NS42IDQ0OEw0NjQgNDQ4bDE2IDAgODAgMGM0NC4yIDAgODAtMzUuOCA4MC04MGMwLTYwLjktNDcuNi0xMDUuMi04Ni40LTEzMS44Yy0yMC4zLTEzLjktNDAuNS0yNC41LTU1LjUtMzEuNnpNNDggMzYzLjZDNDggMjk1LjMgMTAzLjMgMjQwIDE3MS42IDI0MGMyOC40IDAgNTUuOSA5LjggNzcuOSAyNy43TDQxMi40IDQwMCA2NS42IDQwMGMtOS43IDAtMTcuNi03LjktMTcuNi0xNy42bDAtMTguOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hat-cowboy-side](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hat-cowboy-side.svg)
  */
 const HatCowboySide: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

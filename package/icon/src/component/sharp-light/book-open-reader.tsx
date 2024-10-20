@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-open-reader` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-open-reader?s=sharp-light book-open-reader}
- * @preview ![book-open-reader](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4em0wIDE2MEE5NiA5NiAwIDEgMCAyNTYgMGE5NiA5NiAwIDEgMCAwIDE5MnptMCA0OHMtNTYuOC00Mi42LTIyNC00Ny41Yy0xMC4yLS4zLTIwLjktLjUtMzItLjVsMCAzMkwwIDQzMmwwIDMyYzE2MCAwIDI1NiA0OCAyNTYgNDhzOTYtNDggMjU2LTQ4bDAtMzIgMC0yMDggMC0zMmMtMTEuMSAwLTIxLjggLjItMzIgLjVDMzEyLjggMTk3LjQgMjU2IDI0MCAyNTYgMjQwem0yMjQtMTUuNWwwIDIwOC4xYy02OC41IDIuNy0xMjQuMiAxMy41LTE2NC40IDI0LjVjLTE3LjUgNC44LTMyLjEgOS42LTQzLjYgMTMuN0wyNzIgMjY4bDIuOS0yLjJjLjItLjEgLjUtLjMgMS4xLS43YzEuMy0uOCAzLjctMi4yIDcuNC00YzcuMy0zLjYgMTkuNi05IDM3LjktMTQuNWMzMi4yLTkuNyA4My4zLTE5LjkgMTU4LjgtMjIuMnpNMjQwIDQ3MC45Yy0xMS41LTQuMi0yNi4xLTktNDMuNi0xMy43Yy00MC4zLTExLTk2LTIxLjgtMTY0LjQtMjQuNWwwLTIwOC4xYzc1LjUgMi4zIDEyNi42IDEyLjUgMTU4LjggMjIuMmMxOC4zIDUuNSAzMC42IDEwLjggMzcuOSAxNC41YzMuNyAxLjggNi4xIDMuMiA3LjQgNGMuNiAuMyAuOSAuNiAxLjEgLjdMMjQwIDI2OGwwIDIwMi45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-open-reader](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/book-open-reader.svg)
  */
 const BookOpenReader: typeof Icon = x => (
     <Icon {...x}>

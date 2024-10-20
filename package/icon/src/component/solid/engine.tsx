@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `engine` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/engine?s=solid engine}
- * @preview ![engine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDExMmMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEwyMDggNjRjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNzIgMCAwIDMyLTcyIDAtNDggMC0zMiAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDU2LTQ4IDAgMC03MmMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNEwwIDM1MmMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtNzIgNDggMCAwIDcyYzAgMTcuNyAxNC4zIDMyIDMyIDMybDQ0LjggMCAzMiA0MGMxMi4xIDE1LjIgMzAuNSAyNCA1MCAyNEw0NDggNDQ4YzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMTQ1LjJjMC0xOS40LTguOC0zNy44LTI0LTUwTDQ0OS41IDE1OGMtMTEuMy05LjEtMjUuNC0xNC00MC0xNEwzMjggMTQ0bDAtMzIgNzIgMHpNNTQ0IDIyNGwwIDE5MmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzMiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTkyYzAtMTcuNy0xNC4zLTMyLTMyLTMybC0zMiAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnptLTI1NiAwYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHpNMTYwIDI1NmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0yMjQtMzJhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![engine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/engine.svg)
  */
 const Engine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

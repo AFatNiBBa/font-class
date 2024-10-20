@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cubes` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cubes?s=sharp-regular cubes}
- * @preview ![cubes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDQuNGw4LjEgMi45IDEzNiA0OC41TDQ0OCA2MS41bDAgMTYuOSAwIDEyOS4xIDExMi41IDQyLjcgMTUuNSA1LjkgMCAxNi42IDAgMTU0LjEgMCAxNS43LTE0LjMgNi4zTDQzMy43IDUwNWwtOS40IDQuMS05LjUtMy45TDI4OCA0NTIuNyAxNjEuMiA1MDUuMmwtOS41IDMuOS05LjQtNC4xLTEyOC01Ni4zTDAgNDQyLjRsMC0xNS43TDAgMjcyLjZsMC0xNi42IDE1LjUtNS45TDEyOCAyMDcuNWwwLTEyOS4xIDAtMTYuOSAxNS45LTUuNyAxMzYtNDguNUwyODggNC40ek00MDAgMTE3LjlsLTg4IDMzLjcgMCA4Ni45IDg4LTMxLjQgMC04OS4zek0yNjQgMTUxLjdsLTg4LTMzLjcgMCA4OS4zIDg4IDMxLjQgMC04Ni45em00OCAyNTkuMWw4OCAzNi40IDAtOTMuMy04OC0zMy43IDAgOTAuNnptMTM2IDM1LjVsODAtMzUuMiAwLTg3LjktODAgMzAuNyAwIDkyLjR6TTI2NCAzMjAuMmwtODggMzMuNyAwIDkzLjMgODgtMzYuNCAwLTkwLjZ6TTQ4IDQxMS4xbDgwIDM1LjIgMC05Mi40TDQ4IDMyMy4ybDAgODcuOXpNMjg4IDU1LjRMMjE0LjkgODEuNWw3My4xIDI4IDczLjEtMjhMMjg4IDU1LjR6TTE1Mi4zIDI0OS43TDcwLjggMjgwLjYgMTUyIDMxMS43bDgzLjktMzIuMS04My42LTI5Ljh6bTM1Mi45IDMwLjlsLTgxLjQtMzAuOS04My42IDI5LjhMNDI0IDMxMS43bDgxLjItMzEuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cubes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cubes.svg)
  */
 const Cubes: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

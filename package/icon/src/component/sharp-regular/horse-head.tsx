@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `horse-head` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/horse-head?s=sharp-regular horse-head}
- * @preview ![horse-head](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU1LjMgMjYuMkw0NDkuMiAxLjcgNDI1LjEgOSAyNjMgNThDMTQ0LjggOTMuNyA2NCAyMDIuNiA2NCAzMjZsMCAxNjIgMCAyNCAyNCAwIDMyOCAwIDQyIDAtMjEuMy0zNi4yLTU5LTEwMC4zIDI4LjMgMzIuMyA3LjIgOC4yIDEwLjkgMCA4MCAwIDEyIDAgNy4yLTkuNiA0OC02NCA3LjUtMTAuMS00LTExLjktNTYtMTY4TDUxNSAxNDFsLTExLjQtMy44TDQ1MyAxMjAuNGw1LjgtMi45IDE3LjItOC42LTQuNy0xOC43LTE2LTY0ek0yMjAuMSAzMzAuNGMyNS40IDMwLjQgNjMgNDQuOCA5OS44IDQxLjZMMzc0IDQ2NGwtMjYyIDAgMC0xMzhjMC0xMDIuMyA2Ny0xOTIuNSAxNjQuOS0yMjIuMWwxMzgtNDEuN0w0MjAgODMuMSAzODkuMyA5OC41IDM3NiAxMDUuMmwwIDE0LjggMCA4IDAgMTcuMyAxNi40IDUuNUw0NzcgMTc5bDQ4LjIgMTQ0LjdMNDkyIDM2OGwtNTcuMSAwLTQ4LjgtNTUuOC0xNC45LTE3LTE3LjkgMTMuOS0xLjIgLjljLTI5LjMgMjIuOC03MS4zIDE4LjItOTUuMS0xMC4zbC0yMi42LTI3LjEtMTUuNC0xOC40LTM2LjkgMzAuNyAxNS40IDE4LjQgMjIuNiAyNy4xek0zNjAgMjI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![horse-head](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/horse-head.svg)
  */
 const HorseHead: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

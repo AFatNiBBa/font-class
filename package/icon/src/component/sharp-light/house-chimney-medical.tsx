@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-chimney-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-medical?s=sharp-light house-chimney-medical}
- * @preview ![house-chimney-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDIuN0wyOTguNiAxMiAzODQgODcuNCAzODQgNDhsMC0xNiAxNiAwIDk2IDAgMTYgMCAwIDE2IDAgMTUyLS4zIDAgNTguOSA1Mi0yMS4yIDI0TDUxMiAyNDNsMCAyNTMgMCAxNi0xNiAwTDgwIDUxMmwtMTYgMCAwLTE2IDAtMjUzTDI2LjYgMjc2IDUuNCAyNTJsMjcyLTI0MEwyODggMi43ek00ODAgMTcyLjFMNDgwIDY0bC02NCAwIDAgNTEuNiA2NCA1Ni41ek05NiAyMTQuN0w5NiA0ODBsMzg0IDAgMC0yNjUuM0wyODggNDUuMyA5NiAyMTQuN3pNMjQwIDE3NmwxNiAwIDY0IDAgMTYgMCAwIDE2IDAgNDggNDggMCAxNiAwIDAgMTYgMCA2NCAwIDE2LTE2IDAtNDggMCAwIDQ4IDAgMTYtMTYgMC02NCAwLTE2IDAgMC0xNiAwLTQ4LTQ4IDAtMTYgMCAwLTE2IDAtNjQgMC0xNiAxNiAwIDQ4IDAgMC00OCAwLTE2em0zMiAzMmwwIDQ4IDAgMTYtMTYgMC00OCAwIDAgMzIgNDggMCAxNiAwIDAgMTYgMCA0OCAzMiAwIDAtNDggMC0xNiAxNiAwIDQ4IDAgMC0zMi00OCAwLTE2IDAgMC0xNiAwLTQ4LTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-chimney-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/house-chimney-medical.svg)
  */
 const HouseChimneyMedical: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

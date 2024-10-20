@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fill-drip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fill-drip?s=sharp-thin fill-drip}
- * @preview ![fill-drip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNzJsMTEuMyAxMS4zTDMyIDMwNHMwIDAgMCAwczAgMCAwIDBMMjI4LjcgNTAwLjcgMjQwIDUxMmwxMS4zLTExLjNMNTAwLjcgMjUxLjMgNTEyIDI0MGwtMTEuMy0xMS4zTDI4My4zIDExLjMgMjcyIDAgMjYwLjcgMTEuM2wtMTAzIDEwMy0xMDQtMTA0TDQ4IDQuNyAzNi43IDE2bDUuNyA1LjcgMTA0IDEwNC0xMzUgMTM1TDAgMjcyek0yNDAgNDg5LjRMNTQuNiAzMDRsMzcwLjcgMEwyNDAgNDg5LjR6TTM4LjYgMjg4bC0xNi0xNiAxMzUtMTM1IDg0LjcgODQuNyA1LjcgNS43TDI1OS4zIDIxNmwtNS43LTUuN0wxNjkgMTI1LjdsMTAzLTEwM0w0ODkuNCAyNDBsLTQ4IDQ4TDM4LjYgMjg4ek00NzAuMiA0MjUuNEw1MTIgMzUyLjJsNDEuOCA3My4xYzQuMSA3LjEgNi4yIDE1LjIgNi4yIDIzLjRjMCAyNi4xLTIxLjEgNDcuMi00Ny4yIDQ3LjJsLTEuNiAwYy0yNi4xIDAtNDcuMi0yMS4xLTQ3LjItNDcuMmMwLTguMiAyLjEtMTYuMyA2LjItMjMuNHptLTEzLjktNy45Yy01LjUgOS42LTguMyAyMC40LTguMyAzMS40YzAgMzQuOSAyOC4zIDYzLjIgNjMuMiA2My4ybDEuNiAwYzM0LjkgMCA2My4yLTI4LjMgNjMuMi02My4yYzAtMTEtMi45LTIxLjgtOC4zLTMxLjRsLTQ2LjUtODEuM0w1MTIgMzIwbC05LjIgMTYuMS00Ni41IDgxLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fill-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fill-drip.svg)
  */
 const FillDrip: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

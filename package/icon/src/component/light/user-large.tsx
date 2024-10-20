@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-large` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-large?s=light user-large}
- * @preview ![user-large](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDE0NGExMTIgMTEyIDAgMSAwIC0yMjQgMCAxMTIgMTEyIDAgMSAwIDIyNCAwem0tMjU2IDBhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHpNMzIgNDgwbDQ0OCAwYy0uNy03MC44LTU4LjMtMTI4LTEyOS4zLTEyOGwtMTg5LjQgMEM5MC4zIDM1MiAzMi43IDQwOS4yIDMyIDQ4MHpNMCA0ODEuM0MwIDM5Mi4yIDcyLjIgMzIwIDE2MS4zIDMyMGwxODkuNCAwQzQzOS44IDMyMCA1MTIgMzkyLjIgNTEyIDQ4MS4zYzAgMTctMTMuOCAzMC43LTMwLjcgMzAuN0wzMC43IDUxMkMxMy44IDUxMiAwIDQ5OC4yIDAgNDgxLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-large](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-large.svg)
  */
 const UserLarge: typeof Icon = x => (
     <Icon {...x}>

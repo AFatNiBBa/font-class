@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sunset` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunset?s=solid sunset}
- * @preview ![sunset](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzU0LjUgMTA0LjNMMzIwIDEzNS43IDMyMCAzMmMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDEwMy43LTM0LjUtMzEuM2MtMTMuMS0xMS45LTMzLjMtMTAuOS00NS4yIDIuMnMtMTAuOSAzMy4zIDIuMiA0NS4ybDg4IDgwYzEyLjIgMTEuMSAzMC44IDExLjEgNDMuMSAwbDg4LTgwYzEzLjEtMTEuOSAxNC0zMi4xIDIuMi00NS4ycy0zMi4xLTE0LTQ1LjItMi4yem00OC43IDEzMi44Yy0xLTUuMy00LjYtOS44LTkuNi0xMS45cy0xMC43LTEuNS0xNS4yIDEuNkwyODggMjg5LjFsLTkwLjMtNjIuM2MtNC41LTMuMS0xMC4yLTMuNy0xNS4yLTEuNnMtOC42IDYuNi05LjYgMTEuOUwxNTMgMzQ1IDQ1LjEgMzY0LjljLTUuMyAxLTkuOCA0LjYtMTEuOSA5LjZzLTEuNSAxMC43IDEuNiAxNS4yTDY0IDQzMmwxMDUuMyAwYzE5LTQ2LjkgNjUtODAgMTE4LjctODBzOTkuNyAzMy4xIDExOC43IDgwTDUxMiA0MzJsMjkuMi00Mi4zYzMuMS00LjUgMy43LTEwLjIgMS42LTE1LjJzLTYuNi04LjYtMTEuOS05LjZMNDIzIDM0NSA0MDMuMSAyMzcuMXpNMCA0ODhjMCAxMy4zIDEwLjcgMjQgMjQgMjRsNTI4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMMjQgNDY0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sunset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sunset.svg)
  */
 const Sunset: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

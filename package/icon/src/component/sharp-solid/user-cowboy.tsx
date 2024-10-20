@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-cowboy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-cowboy?s=sharp-solid user-cowboy}
- * @preview ![user-cowboy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBMMTEwIDExMi40YzI3LjIgOC43IDY0LjcgMTUuNiAxMTQgMTUuNnM4Ni44LTYuOSAxMTQtMTUuNkwyODggMCAyMjQgMzIgMTYwIDB6TTgzLjggMTM3LjFjLTMyLjQtMTIuNy00OS40LTI3LjItNTUtMzQuN0wuOCAxMTcuMWM5LjMgMjcuOSAzNSA2Mi40IDcyLjUgODkuOWM3LjEgNS4yIDE0LjcgMTAuMSAyMi43IDE0LjhjMCAuOCAwIDEuNSAwIDIuM2MwIDcwLjcgNTcuMyAxMjggMTI4IDEyOHMxMjgtNTcuMyAxMjgtMTI4YzAtLjggMC0xLjUgMC0yLjNjOC00LjYgMTUuNi05LjYgMjIuNy0xNC44YzM3LjYtMjcuNCA2My4yLTYyIDcyLjUtODkuOWwtMjgtMTQuN2MtNS42IDcuNS0yMi43IDIyLTU1IDM0LjdDMzMyLjIgMTQ5LjYgMjg2LjIgMTYwIDIyNCAxNjBzLTEwOC4yLTEwLjQtMTQwLjItMjIuOXpNNDAwIDM4NEw0OCAzODQgMCA1MTJsNDQ4IDBMNDAwIDM4NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-cowboy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-cowboy.svg)
  */
 const UserCowboy: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `car-battery` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-battery?s=duotone car-battery}
- * @preview ![car-battery](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE2MGMwLTM1LjMgMjguNy02NCA2NC02NGwxNiAwIDEyOCAwIDk2IDAgMTI4IDAgMTYgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDIyNGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0NDhjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTYwem04MCA4MGMwIDguOCA3LjIgMTYgMTYgMTZsOTYgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtOTYgMGMtOC44IDAtMTYgNy4yLTE2IDE2em0yMjQgMGMwIDguOCA3LjIgMTYgMTYgMTZsMzIgMCAwIDMyYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0zMiAzMiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0zMiAwIDAtMzJjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCAzMi0zMiAwYy04LjggMC0xNiA3LjItMTYgMTZ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik04MCA5NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmg2NGMxNy43IDAgMzIgMTQuMyAzMiAzMkg4MHptMjI0IDBjMC0xNy43IDE0LjMtMzIgMzItMzJoNjRjMTcuNyAwIDMyIDE0LjMgMzIgMzJIMzA0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![car-battery](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/car-battery.svg)
  */
 const CarBattery: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 160c0-35.3 28.7-64 64-64l16 0 128 0 96 0 128 0 16 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 160zm80 80c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16zm224 0c0 8.8 7.2 16 16 16l32 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32-32 0c-8.8 0-16 7.2-16 16z" />
-            <path d="M80 96c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32H80zm224 0c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32H304z" />
+        <path d="M80 96c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32H80zm224 0c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32H304z" />
     </Icon>
 );
 

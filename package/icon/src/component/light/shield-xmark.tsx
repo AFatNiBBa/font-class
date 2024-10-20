@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-xmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-xmark?s=light shield-xmark}
- * @preview ![shield-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQzLjUgMzcuM2M4LTMuNCAxNy0zLjQgMjUgMGwxNzYuNyA3NWMxMS4zIDQuOCAxOC45IDE1LjUgMTguOCAyNy42Yy0uNSA5NC0zOS40IDI1OS44LTE5NS41IDMzNC41Yy03LjkgMy44LTE3LjIgMy44LTI1LjEgMEM4Ny4zIDM5OS42IDQ4LjUgMjMzLjggNDggMTM5LjhjLS4xLTEyLjEgNy41LTIyLjggMTguOC0yNy42bDE3Ni43LTc1ek0yODEgNy44Yy0xNi02LjgtMzQtNi44LTUwIDBMNTQuMyA4Mi44Yy0yMiA5LjMtMzguNCAzMS0zOC4zIDU3LjJjLjUgOTkuMiA0MS4zIDI4MC43IDIxMy42IDM2My4yYzE2LjcgOCAzNi4xIDggNTIuOCAwQzQ1NC43IDQyMC43IDQ5NS41IDIzOS4yIDQ5NiAxNDBjLjEtMjYuMi0xNi4zLTQ3LjktMzguMy01Ny4yTDI4MSA3Ljh6TTE4MC43IDE4MC43Yy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNkwyMzMuNCAyNTZsLTUyLjcgNTIuN2MtNi4yIDYuMi02LjIgMTYuNCAwIDIyLjZzMTYuNCA2LjIgMjIuNiAwTDI1NiAyNzguNmw1Mi43IDUyLjdjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBzNi4yLTE2LjQgMC0yMi42TDI3OC42IDI1Nmw1Mi43LTUyLjdjNi4yLTYuMiA2LjItMTYuNCAwLTIyLjZzLTE2LjQtNi4yLTIyLjYgMEwyNTYgMjMzLjRsLTUyLjctNTIuN2MtNi4yLTYuMi0xNi40LTYuMi0yMi42IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shield-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shield-xmark.svg)
  */
 const ShieldXmark: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pig` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pig?s=sharp-solid pig}
- * @preview ![pig](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUzLjEgNDZMNTI4IDMybDAgNDZjMCAxOS43LTkgMzcuOC0yMy42IDQ5LjdjNi40IDQuOSAxMi43IDEwLjEgMTguNiAxNS43YzE3LjYtMTUuOSAyOC41LTM4LjYgMjktNjMuM2w0MCAwIDE2IDAgMCAzMmMwIDMyLjgtMjQuNiA1OS44LTU2LjMgNjMuNWw2LjggOUM1NzAgMjAwIDU4NSAyMTIuNSA2MDIuMiAyMjEuMUw2MDggMjI0bDMyIDAgMCAxNDQtNjcuNSAwYy0yMi4yIDIxLjItNDkuNyAzNi4yLTc5LjggNDMuM0w0NzMuMSA0ODAgMzg0IDQ4MGwwLTY0LTY0IDAtNDggMCAwIDY0LTg5LjEgMEwxNTUgMzgyLjRDMTEwLjMgMzU4IDgwIDMxMC41IDgwIDI1NmwwLTE2LTMyLjYgMEMyMS4yIDI0MCAwIDIxOC44IDAgMTkyLjZjMC0yMS44IDE0LjgtNDAuNyAzNS45LTQ2bDguMi0yIDcuOCAzMS04LjIgMmMtNi45IDEuNy0xMS43IDcuOS0xMS43IDE1YzAgOC41IDYuOSAxNS40IDE1LjQgMTUuNGwzNS44IDBDOTggMTM1IDE2Mi42IDgwIDI0MCA4MGwxMjIuNCAwYzE0LjYgMCAyOSAxLjQgNDMuMSA0YzguNC0xOS4zIDI1LjktMzMuOCA0Ny43LTM3Ljl6TTQ2OCAyNTZhMjAgMjAgMCAxIDAgMC00MCAyMCAyMCAwIDEgMCAwIDQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pig](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pig.svg)
  */
 const Pig: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

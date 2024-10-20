@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `check-to-slot` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/check-to-slot?s=sharp-duotone-solid check-to-slot}
- * @preview ![check-to-slot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAzMmwwIDI1NiAwIDgwIDAgMzIgMzg0IDAgMC0zMiAwLTgwIDAtMjU2TDk2IDMyem03MC4xIDE3NmMxMS4zLTExLjMgMjIuNi0yMi42IDMzLjktMzMuOWM1LjcgNS43IDExLjMgMTEuMyAxNyAxN2MxNS43IDE1LjcgMzEuNCAzMS40IDQ3IDQ3YzM3LTM3IDc0LTc0IDExMS0xMTFjNS43LTUuNyAxMS4zLTExLjMgMTctMTdjMTEuMyAxMS4zIDIyLjYgMjIuNiAzMy45IDMzLjljLTUuNyA1LjctMTEuMyAxMS4zLTE3IDE3Yy00Mi43IDQyLjctODUuMyA4NS4zLTEyOCAxMjhjLTUuNyA1LjctMTEuMyAxMS4zLTE3IDE3Yy01LjctNS43LTExLjMtMTEuMy0xNy0xN2MtMjEuMy0yMS4zLTQyLjctNDIuNy02NC02NGMtNS43LTUuNy0xMS4zLTExLjMtMTctMTd6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik00MDkgMTYxTDI4MSAyODlsLTE3IDE3LTE3LTE3LTY0LTY0LTE3LTE3TDIwMCAxNzQuMWwxNyAxNyA0NyA0N0wzNzUgMTI3bDE3LTE3TDQyNS45IDE0NGwtMTcgMTd6TTAgMjg4bDk2IDAgMCA4MC0zMiAwIDAgMzIgNDQ4IDAgMC0zMi0zMiAwIDAtODAgOTYgMCAwIDE5MkwwIDQ4MCAwIDI4OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![check-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/check-to-slot.svg)
  */
 const CheckToSlot: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M96 32l0 256 0 80 0 32 384 0 0-32 0-80 0-256L96 32zm70.1 176c11.3-11.3 22.6-22.6 33.9-33.9c5.7 5.7 11.3 11.3 17 17c15.7 15.7 31.4 31.4 47 47c37-37 74-74 111-111c5.7-5.7 11.3-11.3 17-17c11.3 11.3 22.6 22.6 33.9 33.9c-5.7 5.7-11.3 11.3-17 17c-42.7 42.7-85.3 85.3-128 128c-5.7 5.7-11.3 11.3-17 17c-5.7-5.7-11.3-11.3-17-17c-21.3-21.3-42.7-42.7-64-64c-5.7-5.7-11.3-11.3-17-17z" />
-            <path d="M409 161L281 289l-17 17-17-17-64-64-17-17L200 174.1l17 17 47 47L375 127l17-17L425.9 144l-17 17zM0 288l96 0 0 80-32 0 0 32 448 0 0-32-32 0 0-80 96 0 0 192L0 480 0 288z" />
+        <path d="M409 161L281 289l-17 17-17-17-64-64-17-17L200 174.1l17 17 47 47L375 127l17-17L425.9 144l-17 17zM0 288l96 0 0 80-32 0 0 32 448 0 0-32-32 0 0-80 96 0 0 192L0 480 0 288z" />
     </Icon>
 );
 

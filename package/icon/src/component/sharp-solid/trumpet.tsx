@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trumpet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trumpet?s=sharp-solid trumpet}
- * @preview ![trumpet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI4NS41YzM4LjQgMjUuNCA3MS41IDYzLjQgOTYgOTguNWwzMiAwIDAtMzIwLTMyIDBjLTQxLjcgNTkuNy0xMDguNCAxMjgtMTg0IDEyOGwtMjQgMCAwLTMyIDAtMjQtNDggMCAwIDI0IDAgMzItNDAgMCAwLTMyIDAtMjQtNDggMCAwIDI0IDAgMzItNDAgMCAwLTMyIDAtMjQtNDggMCAwIDI0IDAgMzJMNDggMTkybDAtMTZMMCAxNzZsMCAyNCAwIDQ4IDAgMjQgNDggMCAwLTE2IDMzLjEgMEM3MC4yIDI3NC44IDY0IDI5Ni43IDY0IDMyMGMwIDcwLjcgNTcuMyAxMjggMTI4IDEyOGw5NiAwYzAgMCAwIDAgLjEgMGw5NS45IDBjNjkgMCAxMjUuMi01NC42IDEyNy45LTEyMi45Yy0xLS44LTEuOS0xLjYtMi45LTIuM0M0ODguOCAzMDcgNDY4LjMgMjk2IDQ0OCAyOTFsMCAyOWMwIDI5LjgtMjAuNCA1NC45LTQ4IDYybDAtMTI2IDI0IDBjOC4xIDAgMTYuMSAuOCAyNCAyLjNjMS4zIC4yIDIuNiAuNSAzLjkgLjhjMjEuMSA0LjYgNDEuMiAxNCA2MC4xIDI2LjV6TTM1MiAzODRsLTQwIDAgMC0xMjggNDAgMCAwIDEyOHpNMTc2IDI1OGwwIDEyNGMtMjcuNi03LjEtNDgtMzIuMi00OC02MnMyMC40LTU0LjkgNDgtNjJ6bTQ4LTJsNDAgMCAwIDEyOC00MCAwIDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trumpet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/trumpet.svg)
  */
 const Trumpet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

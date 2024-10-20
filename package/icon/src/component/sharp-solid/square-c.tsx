@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-c` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-c?s=sharp-solid square-c}
- * @preview ![square-c](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDMyTDAgMzIgMCA0ODBsNDQ4IDAgMC00NDh6TTE0NCAyNTZjMCA0NC4yIDM1LjggODAgODAgODBjMjguNyAwIDUzLjgtMTUuMSA2OC0zNy44bDQwLjggMjUuNEMzMTAuMiAzNTkuOCAyNjkuOSAzODQgMjI0IDM4NGMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhzNTcuMy0xMjggMTI4LTEyOGM0NS45IDAgODYuMiAyNC4yIDEwOC43IDYwLjVMMjkyIDIxMy44Yy0xNC4yLTIyLjgtMzkuMy0zNy44LTY4LTM3LjhjLTQ0LjIgMC04MCAzNS44LTgwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-c](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-c.svg)
  */
 const SquareC: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

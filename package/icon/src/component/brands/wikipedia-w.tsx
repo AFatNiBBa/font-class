@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wikipedia-w` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wikipedia-w?s=brands wikipedia-w}
- * @preview ![wikipedia-w](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDUxLjJsLS4zIDEyLjJjLTI4LjEuOC00NSAxNS44LTU1LjggNDAuMy0yNSA1Ny44LTEwMy4zIDI0MC0xNTUuMyAzNTguNkg0MTVsLTgxLjktMTkzLjFjLTMyLjUgNjMuNi02OC4zIDEzMC05OS4yIDE5My4xLS4zLjMtMTUgMC0xNS0uM0MxNzIgMzUyLjMgMTIyLjggMjQzLjQgNzUuOCAxMzMuNCA2NC40IDEwNi43IDI2LjQgNjMuNC4yIDYzLjdjMC0zLjEtLjMtMTAtLjMtMTQuMmgxNjEuOXYxMy45Yy0xOS4yIDEuMS01Mi44IDEzLjMtNDMuMyAzNC4yIDIxLjkgNDkuNyAxMDMuNiAyNDAuMyAxMjUuNiAyODguNiAxNS0yOS43IDU3LjgtMTA5LjIgNzUuMy0xNDIuOC0xMy45LTI4LjMtNTguNi0xMzMuOS03Mi44LTE2MC05LjctMTcuOC0zNi4xLTE5LjQtNTUuOC0xOS43VjQ5LjhsMTQyLjUuM3YxMy4xYy0xOS40LjYtMzguMSA3LjgtMjkuNCAyNi4xIDE4LjkgNDAgMzAuNiA2OC4xIDQ4LjEgMTA0LjcgNS42LTEwLjggMzQuNy02OS40IDQ4LjEtMTAwLjggOC45LTIwLjYtMy45LTI4LjYtMzguNi0yOS40LjMtMy42IDAtMTAuMy4zLTEzLjYgNDQuNC0uMyAxMTEuMS0uMyAxMjMuMS0uNnYxMy42Yy0yMi41LjgtNDUuOCAxMi44LTU4LjEgMzEuN2wtNTkuMiAxMjIuOGM2LjQgMTYuMSA2My4zIDE0Mi44IDY5LjIgMTU2LjdMNTU5LjIgOTEuOGMtOC42LTIzLjEtMzYuNC0yOC4xLTQ3LjItMjguM1Y0OS42bDEyNy44IDEuMS4yLjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![wikipedia-w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/wikipedia-w.svg)
  */
 const WikipediaW: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

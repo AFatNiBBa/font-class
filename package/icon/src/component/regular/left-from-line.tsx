@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `left-from-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-from-line?s=regular left-from-line}
- * @preview ![left-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE0Ni4yTDUwIDI1NiAxNjAgMzY1LjhsMC01My44YzAtMTMuMyAxMC43LTI0IDI0LTI0bDEyMCAwIDAtNjQtMTIwIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtNTMuOHpNMCAyNTZjMC0xMS41IDQuNi0yMi41IDEyLjctMzAuNkwxMjguOCAxMDkuNmM4LjctOC43IDIwLjUtMTMuNiAzMi44LTEzLjZjMjUuNiAwIDQ2LjQgMjAuOCA0Ni40IDQ2LjRsMCAzMy42IDk2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA2NGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtOTYgMCAwIDMzLjZjMCAyNS42LTIwLjggNDYuNC00Ni40IDQ2LjRjLTEyLjMgMC0yNC4xLTQuOS0zMi44LTEzLjZMMTIuNyAyODYuNkM0LjYgMjc4LjUgMCAyNjcuNSAwIDI1NnpNNDAwIDg4YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjRsMCAzMzZjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0zMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![left-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/left-from-line.svg)
  */
 const LeftFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

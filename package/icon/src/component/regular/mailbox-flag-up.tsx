@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mailbox-flag-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mailbox-flag-up?s=regular mailbox-flag-up}
- * @preview ![mailbox-flag-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc2IDIyNGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xMTIgMC0zMmMwLTEzLjMgMTAuNy0yNCAyNC0yNGw2NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMzJjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTQwIDAgMCA4OGMwIDEzLjMtMTAuNyAyNC0yNCAyNHpNMTQ0IDExMmMtNTMgMC05NiA0My05NiA5NmwwIDE3NmMwIDguOCA3LjIgMTYgMTYgMTZsMTc2IDAgMC0xOTJjMC01My00My05Ni05Ni05NnptMTA3LjMgMGMyMi44IDI1LjUgMzYuNyA1OS4xIDM2LjcgOTZsMCAxOTIgMjI0IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMTc2YzAtMzQuOS0xOC43LTY1LjUtNDYuNi04Mi4zYzkuMS05LjkgMTQuNi0yMy4yIDE0LjYtMzcuN2wwLTljNDcuNCAyMy42IDgwIDcyLjUgODAgMTI5bDAgMTc2YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yMjQgMC00OCAwTDY0IDQ0OGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAyMDhDMCAxMjguNSA2NC41IDY0IDE0NCA2NGwxNzYgMCAwIDI0IDAgMjQtNjguNyAwek0xMDQgMTkybDgwIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTgwIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mailbox-flag-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mailbox-flag-up.svg)
  */
 const MailboxFlagUp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

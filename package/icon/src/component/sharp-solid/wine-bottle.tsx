@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wine-bottle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wine-bottle?s=sharp-solid wine-bottle}
- * @preview ![wine-bottle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUzIDIzLjhMNDMwLjQgMS4xIDM4NS4xIDQ2LjRsMTEuOSAxMS45LTkuNCA5LjQtNjEuOCA2MS44Yy00Ny4zLTIzLjYtMTA2LjItMTUuNy0xNDUuNyAyMy43TDAgMzMzLjUgMTc4LjUgNTEyIDM1OC43IDMzMS44YzM5LjQtMzkuNCA0Ny4zLTk4LjQgMjMuNy0xNDUuN2w2MS44LTYxLjggOS40LTkuNCAxMS45IDExLjkgNDUuMy00NS4zTDQ4OC4yIDU5IDQ1MyAyMy44ek0xMTIgMzEyTDIzMiAxOTJsODggODhMMjAwIDQwMGwtODgtODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![wine-bottle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wine-bottle.svg)
  */
 const WineBottle: typeof Icon = x => (
     <Icon {...x}>

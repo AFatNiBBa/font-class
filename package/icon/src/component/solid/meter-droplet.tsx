@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meter-droplet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-droplet?s=solid meter-droplet}
- * @preview ![meter-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMmM1My43IDAgMTAzLjUtMTYuNSAxNDQuNi00NC43QzM5MCA0NDcuMiAzODQgNDI0LjMgMzg0IDQwMGMwLTIzLjYgNS44LTQ2LjkgMTYuOS02Ny44bDc1LjMtMTQxLjJjNC45LTkuMiAxMi4xLTE2LjcgMjAuNi0yMi4xQzQ2MS4yIDcwLjQgMzY2LjggMCAyNTYgMEMxMTQuNiAwIDAgMTE0LjYgMCAyNTZTMTE0LjYgNTEyIDI1NiA1MTJ6TTE5MiAxNjBsMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJ6bTk2IDBsMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJ6bTk2IDBsMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJ6bTEyMC41IDQ2LjFMNDI5LjIgMzQ3LjNDNDIwLjUgMzYzLjUgNDE2IDM4MS42IDQxNiA0MDBjMCA2MS45IDUwLjEgMTEyIDExMiAxMTJzMTEyLTUwLjEgMTEyLTExMmMwLTE4LjQtNC41LTM2LjUtMTMuMi01Mi43TDU1MS41IDIwNi4xYy00LjYtOC43LTEzLjctMTQuMS0yMy41LTE0LjFzLTE4LjkgNS40LTIzLjUgMTQuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![meter-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/meter-droplet.svg)
  */
 const MeterDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

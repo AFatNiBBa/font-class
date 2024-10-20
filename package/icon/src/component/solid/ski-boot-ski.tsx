@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ski-boot-ski` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ski-boot-ski?s=solid ski-boot-ski}
- * @preview ![ski-boot-ski](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkwLjMgLjZjMTcuMyAzLjUgMjguNiAyMC4zIDI1LjEgMzcuN2wtNi40IDMyTDM5Ny40IDEyOCAzMzYgMTI4Yy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDU1IDAtOS42IDQ4TDMyMCAyMDhjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNjIuMiAwIDc4LjcgMzQuN2MxMS42IDUuMSAxOS4xIDE2LjYgMTkuMSAyOS4zbDAgODBjMCAxNy43LTE0LjMgMzItMzIgMzJsLTMyOCAwYy05LjYgMC0xOC43LTQuMy0yNC43LTExLjdzLTguNS0xNy4yLTYuNi0yNi42bDI0LjctMTIzLjZjMi45LS41IDYuMS0xLjIgOS41LTIuMWMxNS42LTMuOSAzNi40LTExLjYgNTguMy0yNi45YzQyLjQtMjkuNyA4Ni40LTg2LjQgMTA0LjUtMTkzLjFsNjUuNyAwIDEuMy02LjNDMzU2LjEgOC40IDM3Mi45LTIuOCAzOTAuMyAuNnpNMTYyLjggMTk4LjljLTE1LjggMTEtMzAuOCAxNy4yLTQyLjYgMjAuN0wxNTIuNiA1Ny43YzMtMTUgMTYuMS0yNS43IDMxLjQtMjUuN2w2OS4yIDBjLTE3LjQgOTYtNTYuNyAxNDMuMy05MC40IDE2Ni45ek02NDAgNDE2YzAgNTMtNDMgOTYtOTYgOTZMMzIgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDUxMiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMyczE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ski-boot-ski](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ski-boot-ski.svg)
  */
 const SkiBootSki: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

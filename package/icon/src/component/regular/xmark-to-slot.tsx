@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `xmark-to-slot` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmark-to-slot?s=regular xmark-to-slot}
- * @preview ![xmark-to-slot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDgwbDAgMjgwIDI4OCAwIDAtMjgwTDE0NCA4MHpNOTYgMzYwTDk2IDgwYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDI4OCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMjgwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC00OCAwLTI4OCAwLTQ4IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjR6TTY0IDI4OGwwIDQ4LTE2IDAgMCA5NiA0ODAgMCAwLTk2LTE2IDAgMC00OCAxNiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgOTZjMCAyNi41LTIxLjUgNDgtNDggNDhMNDggNDgwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTk2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDE2IDB6TTIwNyAxMzVjOS40LTkuNCAyNC42LTkuNCAzMy45IDBsNDcgNDcgNDctNDdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBzOS40IDI0LjYgMCAzMy45bC00NyA0NyA0NyA0N2M5LjQgOS40IDkuNCAyNC42IDAgMzMuOXMtMjQuNiA5LjQtMzMuOSAwbC00Ny00Ny00NyA0N2MtOS40IDkuNC0yNC42IDkuNC0zMy45IDBzLTkuNC0yNC42IDAtMzMuOWw0Ny00Ny00Ny00N2MtOS40LTkuNC05LjQtMjQuNiAwLTMzLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![xmark-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/xmark-to-slot.svg)
  */
 const XmarkToSlot: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

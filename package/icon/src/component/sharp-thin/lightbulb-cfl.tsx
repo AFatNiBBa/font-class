@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lightbulb-cfl` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-cfl?s=sharp-thin lightbulb-cfl}
- * @preview ![lightbulb-cfl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDE0bDAtMTAuMkwxNjYgNi4zIDYuMiA0Ni4yIC4xIDQ3LjcgLjEgNTRsMCA3My44IDAgNi4yIDAgMTAuMiAwIDYzLjUgMCA2LjJzMCAwIDAgMGwwIDEwLjJMLjEgMjk0bDAgMTAuMiA5LjktMi41IDE0My44LTM2czAgMCAwIDBsMTUwLTM3LjUgMCA2My41TDE5OCAzMTguM2wtNi4xIDEuNSAwIDYuMiAwIDQyTDgwIDM2OGwtMTYgMCAwIDE2IDAgNjQgMCAxNiAxNiAwIDMyIDAgMCA0MCAwIDggOCAwIDgwIDAgOCAwIDAtOCAwLTQwIDMyIDAgMTYgMCAwLTE2IDAtNjQgMC0xNi0xNiAwLTMyLjEgMCAwLTM1LjcgMTA1LjktMjYuNSA2LjEtMS41IDAtNi4yIDAtNzMuOHMwIDAgMCAwbDAtNi4yIDAtNzMuOCAwLTYuMiAwLTEwLjIgMC02OS44IDAtMTAuMkwzMTAgNTAuMyAxNzYgODMuOCAxNzYgMTR6TTMwMy45IDE0OC4zbDAgNjMuNUwxNTAgMjUwLjIgMTYuMSAyODMuN2wwLTYzLjUgMjg3LjgtNzEuOXptMC0xNi41TDE2LjEgMjAzLjdsMC02My41IDE1My44LTM4LjQgNi4xLTEuNSAxMjcuOS0zMiAwIDYzLjV6TTE2MCA4Ny44bC0xNDMuOSAzNiAwLTYzLjVMMTYwIDI0LjNsMCA2My41ek0yNDAgMzg0bDAgNjQtNDAgMC04MCAwLTQwIDAgMC02NCAxNjAgMHpNMTkyIDQ5NmwtNjQgMCAwLTMyIDY0IDAgMCAzMnpNMTEyIDM2OGwxNiAwIDAtNjIuOC0xNiA0IDAgNTguOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lightbulb-cfl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lightbulb-cfl.svg)
  */
 const LightbulbCfl: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

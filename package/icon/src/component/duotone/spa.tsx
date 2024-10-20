@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `spa` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spa?s=duotone spa}
- * @preview ![spa](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xODMuMSAyMzUuM2MxOS42LTExMyA3My44LTE3OC44IDkxLjMtMTk3LjdDMjc4IDMzLjkgMjgyLjkgMzIgMjg4IDMyczEwIDEuOSAxMy41IDUuNmMxNy41IDE4LjggNzEuOCA4NC43IDkxLjMgMTk3LjdjLTIyIDEzLjUtNDIuMSAyOS45LTU5LjcgNDguN2MtOC44IDkuNC0xNy4xIDE5LjMtMjQuNiAyOS44Yy0zLjggNS4yLTcuNCAxMC42LTEwLjggMTYuMWMtMS43IDIuNy0zLjQgNS41LTUgOC4zcy0zLjIgNS42LTQuOCA4LjZjLTI0LjUtNDYtNjAuOS04NC41LTEwNC45LTExMS42eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjY3LjkgNDgwbDIwLjEgMCAyMC4xIDBDNDU2LjEgNDgwIDU3NiAzNjAuMSA1NzYgMjEyLjFjMC0xMS4xLTktMjAuMS0yMC4xLTIwLjFsLTkuOSAwYy0xMTAuOCAwLTIwOC41IDYyLTI1OCAxNTQuOUMyMzguNSAyNTQgMTQwLjggMTkyIDMwIDE5MmwtOS45IDBDOSAxOTIgMCAyMDEgMCAyMTIuMUMwIDM2MC4xIDExOS45IDQ4MCAyNjcuOSA0ODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![spa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/spa.svg)
  */
 const Spa: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M183.1 235.3c19.6-113 73.8-178.8 91.3-197.7C278 33.9 282.9 32 288 32s10 1.9 13.5 5.6c17.5 18.8 71.8 84.7 91.3 197.7c-22 13.5-42.1 29.9-59.7 48.7c-8.8 9.4-17.1 19.3-24.6 29.8c-3.8 5.2-7.4 10.6-10.8 16.1c-1.7 2.7-3.4 5.5-5 8.3s-3.2 5.6-4.8 8.6c-24.5-46-60.9-84.5-104.9-111.6z" />
-            <path d="M267.9 480l20.1 0 20.1 0C456.1 480 576 360.1 576 212.1c0-11.1-9-20.1-20.1-20.1l-9.9 0c-110.8 0-208.5 62-258 154.9C238.5 254 140.8 192 30 192l-9.9 0C9 192 0 201 0 212.1C0 360.1 119.9 480 267.9 480z" />
+        <path d="M267.9 480l20.1 0 20.1 0C456.1 480 576 360.1 576 212.1c0-11.1-9-20.1-20.1-20.1l-9.9 0c-110.8 0-208.5 62-258 154.9C238.5 254 140.8 192 30 192l-9.9 0C9 192 0 201 0 212.1C0 360.1 119.9 480 267.9 480z" />
     </Icon>
 );
 

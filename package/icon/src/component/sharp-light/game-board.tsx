@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `game-board` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/game-board?s=sharp-light game-board}
- * @preview ![game-board](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMzg0IDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnptMTQ0IDgwbDAgMzIgNjQgMCAwLTMyIDAtMTYgMzIgMCAwIDE2IDAgMzIgNjQgMCAwLTMyIDAtMTYgMzIgMCAwIDE2IDAgMzIgMzIgMCAxNiAwIDAgMzItMTYgMC0zMiAwIDAgNjQgMzIgMCAxNiAwIDAgMzItMTYgMC0zMiAwIDAgNjQgMzIgMCAxNiAwIDAgMzItMTYgMC0zMiAwIDAgMzIgMCAxNi0zMiAwIDAtMTYgMC0zMi02NCAwIDAgMzIgMCAxNi0zMiAwIDAtMTYgMC0zMi02NCAwIDAgMzIgMCAxNi0zMiAwIDAtMTYgMC0zMi0zMiAwLTE2IDAgMC0zMiAxNiAwIDMyIDAgMC02NC0zMiAwLTE2IDAgMC0zMiAxNiAwIDMyIDAgMC02NC0zMiAwLTE2IDAgMC0zMiAxNiAwIDMyIDAgMC0zMiAwLTE2IDMyIDAgMCAxNnptMCAxMjhsNjQgMCAwLTY0LTY0IDAgMCA2NHptOTYgMGw2NCAwIDAtNjQtNjQgMCAwIDY0em0wIDMybDAgNjQgNjQgMCAwLTY0LTY0IDB6bS0zMiAwbC02NCAwIDAgNjQgNjQgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![game-board](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/game-board.svg)
  */
 const GameBoard: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

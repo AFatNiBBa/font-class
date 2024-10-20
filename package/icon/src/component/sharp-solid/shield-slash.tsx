@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-slash?s=sharp-solid shield-slash}
- * @preview ![shield-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDQ5OC40IDM2NC4xYzkuMS0xNS4yIDE3LTMwLjcgMjMuOC00Ni4yYzMyLjUtNzQuMiA0MC4zLTE1MC4yIDM3LjMtMTk5LjhsLTEuMi0yMC42TDUzOSA5MC4ybC0yMDcuNS04MEwzMjAgNS43bC0xMS41IDQuNEwxMzAuNyA3OC43IDQ4LjQgMTQuOHpNMTE3LjkgMzE4YzMyLjcgNzQuOCA5MS4xIDE0OS4xIDE4OS41IDE5MS40bDEyLjYgNS40IDEyLjYtNS40YzQxLjgtMTggNzYuMy00MS43IDEwNC44LTY4LjhMODAuNiAxNTkuNUM4MyAyMDUuMyA5My41IDI2Mi4xIDExNy45IDMxOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shield-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shield-slash.svg)
  */
 const ShieldSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

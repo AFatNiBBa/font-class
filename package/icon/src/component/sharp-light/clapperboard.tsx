@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clapperboard` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clapperboard?s=sharp-light clapperboard}
- * @preview ![clapperboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTkybDQ0OCAwIDAgMjU2TDMyIDQ0OGwwLTI1NnptMzUwLjYtMzJsOTYtOTYgMS40IDAgMCA5Ni05Ny40IDB6bS00NS4zIDBsLTEwNi43IDAgOTYtOTYgMTA2LjcgMC05NiA5NnptLTU2LTk2bC05NiA5Nkw3OC42IDE2MGw5Ni05NiAxMDYuNyAwem0tMTUyIDBsLTk2IDk2TDMyIDE2MGwwLTk2IDk3LjQgMHpNNTEyIDE3NmwwLTE2IDAtOTYgMC0zMi0zMiAwTDMyIDMyIDAgMzIgMCA2NGwwIDk2IDAgMTYgMCAxNkwwIDQ0OGwwIDMyIDMyIDAgNDQ4IDAgMzIgMCAwLTMyIDAtMjU2IDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clapperboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/clapperboard.svg)
  */
 const Clapperboard: typeof Icon = x => (
     <Icon {...x}>

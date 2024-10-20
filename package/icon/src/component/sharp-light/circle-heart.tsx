@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-heart?s=sharp-light circle-heart}
- * @preview ![circle-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYTIyNCAyMjQgMCAxIDEgMCA0NDggMjI0IDIyNCAwIDEgMSAwLTQ0OHptMCA0ODBBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0yMzEgMjAzLjlsMjUgMzEuMiAyNS0zMS4yIDkuMy0xMS42YzguMy0xMC40IDIwLjgtMTYuNCAzNC4xLTE2LjRjMjQuMSAwIDQzLjYgMTkuNSA0My42IDQzLjZsMCAzLjZjMCAxMi41LTUgMjQuNS0xMy44IDMzLjRsLTI0LjggMjQuOEwyNTYgMzU0LjdsLTczLjQtNzMuNC0yNC44LTI0LjhjLTguOS04LjktMTMuOC0yMC45LTEzLjgtMzMuNGwwLTMuNmMwLTI0LjEgMTkuNS00My42IDQzLjYtNDMuNmMxMy4zIDAgMjUuOCA2IDM0LjEgMTYuNGw5LjMgMTEuNnptMTIxIDEwMGwyNC44LTI0LjhjMTQuOS0xNC45IDIzLjItMzUgMjMuMi01NmwwLTMuNmMwLTQxLjgtMzMuOS03NS42LTc1LjYtNzUuNmMtMTcgMC0zMy40IDUuNy00Ni42IDE2Yy00LjYgMy42LTguOCA3LjctMTIuNSAxMi40TDI1NiAxODMuOWwtOS4zLTExLjZjLTMuNy00LjYtNy45LTguOC0xMi41LTEyLjRjLTEzLjItMTAuMy0yOS41LTE2LTQ2LjYtMTZjLTQxLjggMC03NS42IDMzLjktNzUuNiA3NS42bDAgMy42YzAgMjEgOC4zIDQxLjEgMjMuMiA1NkwxNjAgMzAzLjlsNzMuNCA3My40TDI1NiAzOTkuOWwyMi42LTIyLjZMMzUyIDMwMy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circle-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-heart.svg)
  */
 const CircleHeart: typeof Icon = x => (
     <Icon {...x}>

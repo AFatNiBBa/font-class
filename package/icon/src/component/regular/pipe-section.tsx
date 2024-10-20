@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pipe-section` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-section?s=regular pipe-section}
- * @preview ![pipe-section](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTIwYzAtMTMuMy0xMC43LTI0LTI0LTI0UzAgMTA2LjcgMCAxMjBsMCAzMkwwIDM2MGwwIDMyYzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC04IDU0NCAwIDAgOGMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtMzIgMC0yMDggMC0zMmMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDgtMjcyIDBMNDggMTI4bDAtOHptMCA1NmwyNzIgMCAyNzIgMCAwIDE2MEw0OCAzMzZsMC0xNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pipe-section](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pipe-section.svg)
  */
 const PipeSection: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

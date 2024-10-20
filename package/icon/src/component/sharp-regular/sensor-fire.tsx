@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sensor-fire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-fire?s=sharp-regular sensor-fire}
- * @preview ![sensor-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMzUyIDAgMCA3NS4xYzExLjMtOS4yIDIxLjktMTYuNyAzMS0yMi40bDE3LTEwLjZMNDQ4IDgwbDAtNDgtNDggMEw0OCAzMiAwIDMyIDAgODAgMCA0MzJsMCA0OCA0OCAwIDI4OSAwYy0xMi44LTE0LjItMjMuNS0zMC40LTMxLjUtNDhMNDggNDMyIDQ4IDgwem05NiA3MmwwLTI0LTQ4IDAgMCAyNCAwIDExMiAwIDI0IDQ4IDAgMC0yNCAwLTExMnptOTYgMGwwLTI0LTQ4IDAgMCAyNCAwIDExMiAwIDI0IDQ4IDAgMC0yNCAwLTExMnptMjA4IDhjLTQyLjcgMjYuNy0xMjggMTAyLjQtMTI4IDE5MmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MHMxNjAtNzEuNiAxNjAtMTYwYzAtMjYuNy0xOS4yLTk2LTk2LTE2MGwtMzIgMzItNjQtNjR6bTk2IDI0MC4yYzAgMzUuMy0yOC43IDY0LTY0IDY0cy02NC0yOC43LTY0LTY0YzAtNDggNjQtOTYgNjQtOTZzNjQgNDggNjQgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sensor-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sensor-fire.svg)
  */
 const SensorFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

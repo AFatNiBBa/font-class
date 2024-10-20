@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `coffee-bean` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-bean?s=sharp-light coffee-bean}
- * @preview ![coffee-bean](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg1LjIgMTA0LjNjMjUuMSAyOC4zIDM1LjUgNjkgMjguOSAxMTUuNWMtNyA0OS4zLTMzLjIgMTAyLjktNzguMyAxNDhzLTk4LjcgNzEuMy0xNDggNzguM2MtMzcuOCA1LjQtNzEuNy0uNS05OC4zLTE2LjRsNTIuOS05Ni4zTDMzMS4yIDIwNy42bDMuNS0yLjQgMS45LTMuOCA0OC42LTk3LjF6TTM2MCA4My4yTDMwOS45IDE4My4zIDEyMS40IDMwOWwtMy4zIDIuMi0xLjkgMy40LTUyIDk0LjZjLTI2LjEtMjguMy0zNy02OS43LTMwLjMtMTE3YzctNDkuMyAzMy4yLTEwMi45IDc4LjMtMTQ4czk4LjctNzEuMyAxNDgtNzguM2MzOC41LTUuNSA3MyAuNyA5OS44IDE3LjJ6bTI2LjYtMjAuNmMtNzcuMi01Ni43LTIwNS0zMi45LTI5NyA1OS4xYy05OSA5OS0xMTkgMjM5LjQtNDQuOCAzMTMuNmMxLjEgMS4xIDIuMiAyLjIgMy4zIDMuMmM2IDUuNiAxMi40IDEwLjcgMTkuMiAxNS4yYzIuMiAxLjUgNC40IDIuOCA2LjcgNC4yYzAgMCAwIDAgMCAwYzc3LjkgNDUuNyAxOTcuMiAxOS44IDI4NC40LTY3LjRjOTktOTkgMTE5LTIzOS40IDQ0LjgtMzEzLjZjLS45LS45LTEuOS0xLjktMi45LTIuOGMtMy4yLTMtNi41LTUuOS05LjktOC41Yy0uOS0uNy0xLjctMS40LTIuNi0yYy0uNC0uMy0uOC0uNi0xLjItLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![coffee-bean](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/coffee-bean.svg)
  */
 const CoffeeBean: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `memo` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo?s=thin memo}
- * @preview ![memo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTZDMzcuNSAxNiAxNiAzNy41IDE2IDY0bDAgMzg0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDI1NiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzg0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDE2ek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDM4NGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6bTcyIDY0bDI0MCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDcyIDE0NGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOHptMCA5NmwyNDAgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOEw3MiAyNDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LTh6bTAgOTZsMTQ0IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhMNzIgMzM2Yy00LjQgMC04LTMuNi04LThzMy42LTggOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![memo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/memo.svg)
  */
 const Memo: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

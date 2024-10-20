@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gauge-max` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-max?s=sharp-light gauge-max}
- * @preview ![gauge-max](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4MGEyMjQgMjI0IDAgMSAwIDAtNDQ4IDIyNCAyMjQgMCAxIDAgMCA0NDh6TTI1NiAwYTI1NiAyNTYgMCAxIDEgMCA1MTJBMjU2IDI1NiAwIDEgMSAyNTYgMHptMjQgOTZhMjQgMjQgMCAxIDEgLTQ4IDAgMjQgMjQgMCAxIDEgNDggMHpNMjI0IDM1MmEzMiAzMiAwIDEgMCA2NCAwIDMyIDMyIDAgMSAwIC02NCAwem0tMzIgMGMwLTM1LjMgMjguNy02NCA2NC02NGMxNy41IDAgMzMuNCA3IDQ0LjkgMTguNGwxMDYuOS02NC4xIDEzLjctOC4yTDQzOCAyNjEuNWwtMTMuNyA4LjJMMzE3LjQgMzMzLjhjMS43IDUuOCAyLjYgMTEuOSAyLjYgMTguMmMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NHpNMzkyIDE0NGEyNCAyNCAwIDEgMSAtNDggMCAyNCAyNCAwIDEgMSA0OCAwek05NiAyMzJhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4em03Mi04OGEyNCAyNCAwIDEgMSAtNDggMCAyNCAyNCAwIDEgMSA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gauge-max](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gauge-max.svg)
  */
 const GaugeMax: typeof Icon = x => (
     <Icon {...x}>

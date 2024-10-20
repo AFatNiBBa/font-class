@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `joint` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/joint?s=sharp-regular joint}
- * @preview ![joint](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDBMNDE2IDBsMCA0M2MwIDUwLjkgMjAuMiA5OS44IDU2LjIgMTM1LjhsMjEgMjFjMTIgMTIgMTguNyAyOC4zIDE4LjcgNDUuM2wwIDQzIDQ4IDAgMC00M2MwLTI5LjctMTEuOC01OC4yLTMyLjgtNzkuMmwtMjEtMjFDNDc5LjIgMTE3LjggNDY0IDgxLjIgNDY0IDQzbDAtNDN6TTU5MiAyODhsNDggMCAwLTQzYzAtNTAuOS0yMC4yLTk5LjgtNTYuMi0xMzUuOGwtMjEtMjFDNTUwLjcgNzYuMiA1NDQgNjAgNTQ0IDQzbDAtNDNMNDk2IDBsMCA0M2MwIDI5LjcgMTEuOCA1OC4yIDMyLjggNzkuMmwyMSAyMWMyNyAyNyA0Mi4yIDYzLjYgNDIuMiAxMDEuOGwwIDQzek0yNjIuNiA0MDAuNkwzMTUuNCA0NjQgMjg4IDQ2NGMtNzMuOSAwLTEzNS41LTE1LjQtMTgwLjMtMzJjMzkuNi0xNC43IDkyLjItMjguNCAxNTQuOS0zMS40ek0zNzcuOSA0NjRsLTUzLjMtNjQgOTcuNSAwIDUzLjMgNjQtOTcuNSAwem0xNjAgMGwtNTMuMy02NEw1OTIgNDAwbDAgNjQtNTQuMSAwek0wIDQzMnMxNyAxMi4xIDQ4LjEgMjYuOUM5Ni45IDQ4Mi4yIDE4MC41IDUxMiAyODggNTEybDMwNCAwIDQ4IDAgMC00OCAwLTY0IDAtNDgtNDggMC0zMDQgMGMtMTA3LjUgMC0xOTEuMSAyOS44LTIzOS45IDUzLjFDMTcgNDE5LjkgMCA0MzIgMCA0MzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![joint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/joint.svg)
  */
 const Joint: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

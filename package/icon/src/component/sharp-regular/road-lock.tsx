@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-lock?s=sharp-regular road-lock}
- * @preview ![road-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTUuNiA0MzJMMTk2LjIgODAgMjk2IDgwbDAgMjQgMCAyNCA0OCAwIDAtMjQgMC0yNCA5OS44IDAgMjcuMyA5NS41YzEzLjYtOC4xIDI5LjEtMTMuMyA0NS42LTE1TDQ4MCAzMiAzNDQgMzJsLTQ4IDBMMTYwIDMyIDQ1LjcgNDMyIDMyIDQ4MGw0OS45IDBMMzg0IDQ4MGwwLTQ4LTQwIDAgMC0yNCAwLTI0LTQ4IDAgMCAyNCAwIDI0TDk1LjYgNDMyek0zNDQgMjE2bDAtMjQtNDggMCAwIDI0IDAgODAgMCAyNCA0OCAwIDAtMjQgMC04MHptMTg0IDI0YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNDgtNjQgMCAwLTQ4YzAtMTcuNyAxNC4zLTMyIDMyLTMyem0tODAgMzJsMCA0OC0zMiAwIDAgMTkyIDIyNCAwIDAtMTkyLTMyIDAgMC00OGMwLTQ0LjItMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![road-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/road-lock.svg)
  */
 const RoadLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

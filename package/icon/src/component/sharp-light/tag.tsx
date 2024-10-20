@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tag` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tag?s=sharp-light tag}
- * @preview ![tag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQzNC43TDMyIDI0Mi43IDMyIDY0bDE3OC43IDAgMTkyIDE5MkwyMjQgNDM0Ljd6TTQyNS40IDIzMy40TDIyNCAzMiAzMiAzMiAwIDMyIDAgNjQgMCAyNTYgMjAxLjQgNDU3LjQgMjI0IDQ4MGwyMi42LTIyLjZMNDI1LjQgMjc4LjYgNDQ4IDI1NmwtMjIuNi0yMi42ek0xMTIgMTY4YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tag.svg)
  */
 const Tag: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

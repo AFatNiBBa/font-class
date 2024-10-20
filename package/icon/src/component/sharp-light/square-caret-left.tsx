@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-caret-left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-caret-left?s=sharp-light square-caret-left}
- * @preview ![square-caret-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDQ4bDM4NCAwIDAtMzg0TDMyIDY0bDAgMzg0ek0wIDQ4MGwwLTMyTDAgNjQgMCAzMmwzMiAwIDM4NCAwIDMyIDAgMCAzMiAwIDM4NCAwIDMyLTMyIDBMMzIgNDgwIDAgNDgwem0yODgtOTZsLTMyIDAtOCAwTDEyOCAyNTYgMjQ4IDEyOGw4IDAgMzIgMCAwIDMyIDAgMTkyIDAgMzJ6TTE3MS45IDI1NkwyNTYgMzQ1LjhsMC0xNzkuNUwxNzEuOSAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-caret-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-caret-left.svg)
  */
 const SquareCaretLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

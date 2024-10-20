@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `code` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code?s=duotone code}
- * @preview ![code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yMjUuMiA0NzEuMmMtNC45IDE3IDUgMzQuNyAyMiAzOS42YzIuOSAuOCA1LjkgMS4yIDguOCAxLjJjMTMuOSAwIDI2LjctOS4yIDMwLjctMjMuMmwxMjgtNDQ4Yy44LTIuOSAxLjItNS45IDEuMi04LjhjMC0xMy45LTkuMi0yNi43LTIzLjItMzAuOGMtMTctNC45LTM0LjcgNS0zOS42IDIybC0xMjggNDQ4eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDczLjQgMTIxLjRjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zTDU2Mi43IDI1NmwtODkuNCA4OS40Yy0xMi41IDEyLjUtMTIuNSAzMi44IDAgNDUuM3MzMi44IDEyLjUgNDUuMyAwbDExMi0xMTJjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNsLTExMi0xMTJjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwem0tMzA2LjcgMGMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBsLTExMiAxMTJjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zbDExMiAxMTJjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBzMTIuNS0zMi44IDAtNDUuM0w3Ny4zIDI1Nmw4OS40LTg5LjRjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/code.svg)
  */
 const Code: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M225.2 471.2c-4.9 17 5 34.7 22 39.6c2.9 .8 5.9 1.2 8.8 1.2c13.9 0 26.7-9.2 30.7-23.2l128-448c.8-2.9 1.2-5.9 1.2-8.8c0-13.9-9.2-26.7-23.2-30.8c-17-4.9-34.7 5-39.6 22l-128 448z" />
-            <path d="M473.4 121.4c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" />
+        <path d="M473.4 121.4c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" />
     </Icon>
 );
 

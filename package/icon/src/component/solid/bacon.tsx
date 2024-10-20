@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bacon` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bacon?s=solid bacon}
- * @preview ![bacon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDM5LjIgMS4yYzExLjItMy4yIDIzLjItLjEgMzEuNCA4LjFMNTE4IDU2LjdsLTI2LjUgNy45Yy01OCAxNi42LTk4LjEgMzkuNi0xMjkuNiA2Ny40Yy0zMS4yIDI3LjUtNTMuMiA1OS4xLTc1LjEgOTAuOWwtMi4zIDMuM0MyNDEuNiAyODguNyAxOTUgMzU2LjYgNzIuOCA0MTcuN0wzNy45IDQzNS4yIDkuNCA0MDYuNmMtNy4zLTcuMy0xMC42LTE3LjYtOS0yNy44czguMS0xOC45IDE3LjMtMjMuNUMxMzYuMSAyOTYuMiAxODAuOSAyMzEgMjIzLjMgMTY5LjNsMi4zLTMuNGMyMS44LTMxLjggNDQuOS02NC45IDc3LjctOTMuOWMzMy40LTI5LjUgNzUuOC01My42IDEzNS45LTcwLjh6TTYxLjggNDU5bDI1LjQtMTIuN2MxMjkuNS02NC43IDE3OS45LTEzOC4xIDIyMy44LTIwMmwyLjItMy4zYzIyLjEtMzIuMSA0Mi4xLTYwLjUgNjkuOS04NS4xYzI3LjUtMjQuMyA2My40LTQ1LjIgMTE3LjMtNjAuNmMwIDAgMCAwIDAgMGwuMi0uMSA0My4xLTEyLjkgMjMgMjNjOCA4IDExLjIgMTkuNyA4LjMgMzAuN3MtMTEuMyAxOS42LTIyLjIgMjIuN2MtNTEuOSAxNC44LTg1LjYgMzQuNy0xMTEuMSA1Ny4yYy0yNi4xIDIzLTQ1LjEgNDkuOS02Ny4zIDgyLjFsLTIuMiAzLjJDMzI3LjggMzY1LjkgMjc1LjUgNDQyIDE0Mi4zIDUwOC42Yy0xMi4zIDYuMi0yNy4yIDMuNy0zNi45LTZMNjEuOCA0NTl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bacon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bacon.svg)
  */
 const Bacon: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-check?s=sharp-regular square-check}
- * @preview ![square-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCAzNTIgMzUyIDAgMC0zNTJMNDggODB6TTAgMzJsNDggMCAzNTIgMCA0OCAwIDAgNDggMCAzNTIgMCA0OC00OCAwTDQ4IDQ4MCAwIDQ4MGwwLTQ4TDAgODAgMCAzMnpNMzM3IDIwOUwyMDkgMzM3bC0xNyAxNy0xNy0xNy02NC02NC0xNy0xN0wxMjggMjIyLjFsMTcgMTcgNDcgNDdMMzAzIDE3NWwxNy0xN0wzNTMuOSAxOTJsLTE3IDE3eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-check.svg)
  */
 const SquareCheck: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

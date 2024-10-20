@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `facebook-messenger` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/facebook-messenger?s=brands facebook-messenger}
- * @preview ![facebook-messenger](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2LjU1IDhDMTE2LjUyIDggOCAxMTAuMzQgOCAyNDguNTdjMCA3Mi4zIDI5LjcxIDEzNC43OCA3OC4wNyAxNzcuOTQgOC4zNSA3LjUxIDYuNjMgMTEuODYgOC4wNSA1OC4yM0ExOS45MiAxOS45MiAwIDAgMCAxMjIgNTAyLjMxYzUyLjkxLTIzLjMgNTMuNTktMjUuMTQgNjIuNTYtMjIuN0MzMzcuODUgNTIxLjggNTA0IDQyMy43IDUwNCAyNDguNTcgNTA0IDExMC4zNCAzOTYuNTkgOCAyNTYuNTUgOHptMTQ5LjI0IDE4NS4xM2wtNzMgMTE1LjU3YTM3LjM3IDM3LjM3IDAgMCAxLTUzLjkxIDkuOTNsLTU4LjA4LTQzLjQ3YTE1IDE1IDAgMCAwLTE4IDBsLTc4LjM3IDU5LjQ0Yy0xMC40NiA3LjkzLTI0LjE2LTQuNi0xNy4xMS0xNS42N2w3My0xMTUuNTdhMzcuMzYgMzcuMzYgMCAwIDEgNTMuOTEtOS45M2w1OC4wNiA0My40NmExNSAxNSAwIDAgMCAxOCAwbDc4LjQxLTU5LjM4YzEwLjQ0LTcuOTggMjQuMTQgNC41NCAxNy4wOSAxNS42MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![facebook-messenger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/facebook-messenger.svg)
  */
 const FacebookMessenger: typeof Icon = x => (
     <Icon {...x}>

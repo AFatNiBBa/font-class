@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `thumbtack-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbtack-slash?s=sharp-light thumbtack-slash}
- * @preview ![thumbtack-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDMyMGwwLThjMC0yMS4zLTIxLjMtODEuNi03My4yLTExOS41TDQyNi41IDMyIDQ0OCAzMmwxNiAwIDAtMzJMNDQ4IDAgNDI0IDAgMjE2IDAgMTkyIDAgMTc2IDBsMCAzMiAxNiAwIDIxLjUgMC00LjIgNTUuMUwyMzkuNiAxMTFsNi4xLTc5IDE0OC43IDAgMTIuNSAxNjMgMS4xIDE0LjcgMTEuOSA4LjdjMjEuMiAxNS41IDM2LjYgMzUuOSA0Ni42IDU1YzQuOSA5LjMgOC4zIDE4IDEwLjUgMjUuMUw1MTIgMzI2bDAtNnpNMTcwLjEgMjE5LjJDMTQwLjYgMjUyLjkgMTI4IDI5Mi4zIDEyOCAzMTJsMCA4IDAgMzIgMzIgMCAxNDQgMCAwIDE0NCAwIDE2IDMyIDAgMC0xNiAwLTE0NCAyLjMgMC00MC41LTMyTDE2MCAzMjBsMC04czAgMCAwIDBjMC02IDMuMi0yMiAxMy41LTQxLjZjNS42LTEwLjYgMTIuOC0yMS40IDIxLjctMzEuNGwtMjUuMi0xOS45ek00MC40IDE4TDI3LjggOC4xIDguMSAzMy40bDEyLjYgOS44TDU5OS44IDQ5NC4zbDEyLjYgOS44IDE5LjctMjUuMkw2MTkuNSA0NjkgNDAuNCAxOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![thumbtack-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/thumbtack-slash.svg)
  */
 const ThumbtackSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

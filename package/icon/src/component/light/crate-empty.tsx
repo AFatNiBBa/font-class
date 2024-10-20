@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crate-empty` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crate-empty?s=light crate-empty}
- * @preview ![crate-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDM4NGwwIDcyYzAgMTMuMy0xMC43IDI0LTI0IDI0TDU2IDQ4MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC03MiA0NDggMHptMC0zMkwzMiAzNTJsMC03MmMwLTEzLjMgMTAuNy0yNCAyNC0yNGw0MDAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDcyem0zMiAwbDAtNzJjMC0zMC45LTI1LjEtNTYtNTYtNTZMNTYgMjI0Yy0zMC45IDAtNTYgMjUuMS01NiA1NmwwIDcyIDAgMTYgMCAxNiAwIDcyYzAgMzAuOSAyNS4xIDU2IDU2IDU2bDQwMCAwYzMwLjkgMCA1Ni0yNS4xIDU2LTU2bDAtNzIgMC0xNiAwLTE2ek05NiAzMDRhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptMzM2IDE2YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnpNOTYgNDMyYTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6bTMzNiAxNmExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![crate-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/crate-empty.svg)
  */
 const CrateEmpty: typeof Icon = x => (
     <Icon {...x}>

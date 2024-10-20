@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-field` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-field?s=regular truck-field}
- * @preview ![truck-field](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDgwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDggMCAxMjAgMCA5NiAwIDE2LTEwOC44IDBjLTE2LjYtMjguNy00Ny42LTQ4LTgzLjItNDhzLTY2LjYgMTkuMy04My4yIDQ4TDY0IDMzNmwwLTQ4IDAtMTYwIDAtMzJjMC04LjggNy4yLTE2IDE2LTE2bDI1NiAwek0xNiAyODMuN0wxNiAzMzZsMCAxLjRDNi43IDM0MC43IDAgMzQ5LjUgMCAzNjBzNi43IDE5LjMgMTYgMjIuNmwwIDEuNCA4IDAgNDAgMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDk2IDAgMzIgMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDMyIDAgOCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC04IDAgMC00OGMwLTM1LjMtMjguNy02NC02NC02NGwtNSAwLS4zLS43TDQ4Ni40IDExMi4yYy05LjItMTkuNi0yOS0zMi4yLTUwLjctMzIuMkwzOTggODBjLTcuMS0yNy42LTMyLjItNDgtNjItNDhMODAgMzJDNDQuNyAzMiAxNiA2MC43IDE2IDk2bDAgMzYuM0M2LjQgMTM3LjggMCAxNDguMiAwIDE2MGwwIDk2YzAgMTEuOCA2LjQgMjIuMiAxNiAyNy43ek0xNjAgMzM2YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnpNNDg1LjkgMjI0TDQwMCAyMjRsMC05NiAzNS43IDBjMy4xIDAgNS45IDEuOCA3LjIgNC42bDQzIDkxLjR6TTUyOCAzODRhNDggNDggMCAxIDEgLTk2IDAgNDggNDggMCAxIDEgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/truck-field.svg)
  */
 const TruckField: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

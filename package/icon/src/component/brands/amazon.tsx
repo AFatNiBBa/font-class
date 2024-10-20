@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `amazon` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/amazon?s=brands amazon}
- * @preview ![amazon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU3LjIgMTYyLjdjLTQ4LjcgMS44LTE2OS41IDE1LjUtMTY5LjUgMTE3LjUgMCAxMDkuNSAxMzguMyAxMTQgMTgzLjUgNDMuMiA2LjUgMTAuMiAzNS40IDM3LjUgNDUuMyA0Ni44bDU2LjgtNTZTMzQxIDI4OC45IDM0MSAyNjEuNFYxMTQuM0MzNDEgODkgMzE2LjUgMzIgMjI4LjcgMzIgMTQwLjcgMzIgOTQgODcgOTQgMTM2LjNsNzMuNSA2LjhjMTYuMy00OS41IDU0LjItNDkuNSA1NC4yLTQ5LjUgNDAuNy0uMSAzNS41IDI5LjggMzUuNSA2OS4xem0wIDg2LjhjMCA4MC04NC4yIDY4LTg0LjIgMTcuMiAwLTQ3LjIgNTAuNS01Ni43IDg0LjItNTcuOHY0MC42em0xMzYgMTYzLjVjLTcuNyAxMC03MCA2Ny0xNzQuNSA2N1MzNC4yIDQwOC41IDkuNyAzNzljLTYuOC03LjcgMS0xMS4zIDUuNS04LjNDODguNSA0MTUuMiAyMDMgNDg4LjUgMzg3LjcgNDAxYzcuNS0zLjcgMTMuMyAyIDUuNSAxMnptMzkuOCAyLjJjLTYuNSAxNS44LTE2IDI2LjgtMjEuMiAzMS01LjUgNC41LTkuNSAyLjctNi41LTMuOHMxOS4zLTQ2LjUgMTIuNy01NWMtNi41LTguMy0zNy00LjMtNDgtMy4yLTEwLjggMS0xMyAyLTE0LS4zLTIuMy01LjcgMjEuNy0xNS41IDM3LjUtMTcuNSAxNS43LTEuOCA0MS0uOCA0NiA1LjcgMy43IDUuMSAwIDI3LjEtNi41IDQzLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![amazon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/amazon.svg)
  */
 const Amazon: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

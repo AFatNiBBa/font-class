@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `face-viewfinder` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-viewfinder?s=sharp-duotone-solid face-viewfinder}
- * @preview ![face-viewfinder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDBMMjQgMCAxMzYgMGwyNCAwIDAgNDgtMjQgMEw0OCA0OGwwIDg4IDAgMjRMMCAxNjBsMC0yNEwwIDI0IDAgMHpNMCAzNTJsNDggMCAwIDI0IDAgODggODggMCAyNCAwIDAgNDgtMjQgMEwyNCA1MTIgMCA1MTJsMC0yNEwwIDM3NmwwLTI0ek0zNTIgMGwyNCAwTDQ4OCAwbDI0IDAgMCAyNCAwIDExMiAwIDI0LTQ4IDAgMC0yNCAwLTg4LTg4IDAtMjQgMCAwLTQ4em0wIDQ2NGwyNCAwIDg4IDAgMC04OCAwLTI0IDQ4IDAgMCAyNCAwIDExMiAwIDI0LTI0IDAtMTEyIDAtMjQgMCAwLTQ4eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjU2IDQxNmExNjAgMTYwIDAgMSAwIDAtMzIwIDE2MCAxNjAgMCAxIDAgMCAzMjB6TTIwMCAxOTJhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4em04OCAyNGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwek0yNTYgMzIwYzI1IDAgNDcuNS0xMC40IDYzLjUtMjcuMWwyMy4xIDIyLjJDMzIwLjggMzM3LjggMjkwIDM1MiAyNTYgMzUycy02NC44LTE0LjItODYuNi0zNi45bDIzLjEtMjIuMkMyMDguNSAzMDkuNiAyMzEgMzIwIDI1NiAzMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-viewfinder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-viewfinder.svg)
  */
 const FaceViewfinder: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 0L24 0 136 0l24 0 0 48-24 0L48 48l0 88 0 24L0 160l0-24L0 24 0 0zM0 352l48 0 0 24 0 88 88 0 24 0 0 48-24 0L24 512 0 512l0-24L0 376l0-24zM352 0l24 0L488 0l24 0 0 24 0 112 0 24-48 0 0-24 0-88-88 0-24 0 0-48zm0 464l24 0 88 0 0-88 0-24 48 0 0 24 0 112 0 24-24 0-112 0-24 0 0-48z" />
-            <path d="M256 416a160 160 0 1 0 0-320 160 160 0 1 0 0 320zM200 192a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm88 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM256 320c25 0 47.5-10.4 63.5-27.1l23.1 22.2C320.8 337.8 290 352 256 352s-64.8-14.2-86.6-36.9l23.1-22.2C208.5 309.6 231 320 256 320z" />
+        <path d="M256 416a160 160 0 1 0 0-320 160 160 0 1 0 0 320zM200 192a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm88 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM256 320c25 0 47.5-10.4 63.5-27.1l23.1 22.2C320.8 337.8 290 352 256 352s-64.8-14.2-86.6-36.9l23.1-22.2C208.5 309.6 231 320 256 320z" />
     </Icon>
 );
 

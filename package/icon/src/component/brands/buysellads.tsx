@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `buysellads` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/buysellads?s=brands buysellads}
- * @preview ![buysellads](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE1MC43bDQyLjkgMTYwLjdoLTg1LjhMMjI0IDE1MC43ek00NDggODB2MzUyYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4SDQ4Yy0yNi41IDAtNDgtMjEuNS00OC00OFY4MGMwLTI2LjUgMjEuNS00OCA0OC00OGgzNTJjMjYuNSAwIDQ4IDIxLjUgNDggNDh6bS02NS4zIDMyNS4zbC05NC41LTI5OC43SDE1OS44TDY1LjMgNDA1LjNIMTU2bDExMS43LTkxLjYgMjQuMiA5MS42aDkwLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![buysellads](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/buysellads.svg)
  */
 const Buysellads: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

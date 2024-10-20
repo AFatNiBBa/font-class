@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dryer-heat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dryer-heat?s=sharp-solid dryer-heat}
- * @preview ![dryer-heat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDBMMCAwIDAgNTEybDQ0OCAwTDQ0OCAwek0yMjQgMTYwYTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHpNNjQgODhhMjQgMjQgMCAxIDEgNDggMEEyNCAyNCAwIDEgMSA2NCA4OHpNMTg0IDY0YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHpNMTcxLjMgMjA0LjdsLTIyLjYgMjIuNkwxNzcuNCAyNTZjNC4yIDQuMiA2LjYgMTAgNi42IDE2cy0yLjQgMTEuOC02LjYgMTZsLTkuNCA5LjRjLTEwLjIgMTAuMi0xNiAyNC4xLTE2IDM4LjZzNS44IDI4LjQgMTYgMzguNmwyOC43IDI4LjcgMjIuNi0yMi42TDE5MC42IDM1MmMtNC4yLTQuMi02LjYtMTAtNi42LTE2czIuNC0xMS44IDYuNi0xNmw5LjQtOS40YzEwLjItMTAuMiAxNi0yNC4xIDE2LTM4LjZzLTUuOC0yOC40LTE2LTM4LjZsLTI4LjctMjguN3pNMjgwIDIzMy40bC0yOC43LTI4LjctMjIuNiAyMi42TDI1Ny40IDI1NmM0LjIgNC4yIDYuNiAxMCA2LjYgMTZzLTIuNCAxMS44LTYuNiAxNmwtOS40IDkuNGMtMTAuMiAxMC4yLTE2IDI0LjEtMTYgMzguNnM1LjggMjguNCAxNiAzOC42bDI4LjcgMjguNyAyMi42LTIyLjZMMjcwLjYgMzUyYy00LjItNC4yLTYuNi0xMC02LjYtMTZzMi40LTExLjggNi42LTE2bDkuNC05LjRjMTAuMi0xMC4yIDE2LTI0LjEgMTYtMzguNnMtNS44LTI4LjQtMTYtMzguNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dryer-heat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dryer-heat.svg)
  */
 const DryerHeat: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

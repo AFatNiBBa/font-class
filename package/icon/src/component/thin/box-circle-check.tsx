@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-circle-check` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-circle-check?s=thin box-circle-check}
- * @preview ![box-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDQ4bDExMC40IDBjMTkgMCAzNi4yIDExLjIgNDMuOSAyOC41bDQxLjYgOTMuNmMuOSAxLjkgMS42IDMuOSAyLjIgNS45bC0xOTggMCAwLTEyOHpNMTYgMTkybDMzNiAwIDgwIDAgMTYgMCAwLTIuNGMwLTktMS45LTE3LjgtNS41LTI2TDQwMC45IDcwYy0xMC4zLTIzLjEtMzMuMi0zOC01OC41LTM4TDEwNS42IDMyQzgwLjMgMzIgNTcuNCA0Ni45IDQ3LjEgNzBMNS41IDE2My42Yy0zLjYgOC4yLTUuNSAxNy01LjUgMjZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjMyLjIgMGMtNC4yLTUuMS04LjEtMTAuNC0xMS44LTE2TDY0IDQ2NGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0yMjR6bTIwMC0xNkwxOCAxNzZjLjYtMiAxLjMtNCAyLjItNS45TDYxLjcgNzYuNUM2OS40IDU5LjIgODYuNiA0OCAxMDUuNiA0OEwyMTYgNDhsMCAxMjh6bTIxNiA2NGExMjggMTI4IDAgMSAxIDAgMjU2IDEyOCAxMjggMCAxIDEgMC0yNTZ6bTAgMjcyYTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHptNjkuNy0xODkuN2MtMy4xLTMuMS04LjItMy4xLTExLjMgMEw0MTYgMzk2LjdsLTQyLjMtNDIuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMHMtMy4xIDguMiAwIDExLjNsNDggNDhjMy4xIDMuMSA4LjIgMy4xIDExLjMgMGw4MC04MGMzLjEtMy4xIDMuMS04LjIgMC0xMS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![box-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/box-circle-check.svg)
  */
 const BoxCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

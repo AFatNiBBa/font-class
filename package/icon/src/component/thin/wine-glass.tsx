@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wine-glass` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wine-glass?s=thin wine-glass}
- * @preview ![wine-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQuNSAxNDRsMjMxIDAgNyA1MS42QzI5Mi43IDI2OS45IDIzNC45IDMzNiAxNjAgMzM2UzI3LjMgMjY5LjkgMzcuNSAxOTUuNmw3LTUxLjZ6bTIuMi0xNkw2MC4xIDI5LjhDNjEuMiAyMS45IDY3LjkgMTYgNzUuOSAxNmwxNjguMSAwYzggMCAxNC44IDUuOSAxNS45IDEzLjhMMjczLjMgMTI4IDQ2LjcgMTI4ek00NC4yIDI3LjdMMjEuNiAxOTMuNUMxMC41IDI3NC43IDcxLjMgMzQ3LjMgMTUyIDM1MS44TDE1MiA0OTZsLTgwIDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsODggMCA4OCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC04MCAwIDAtMTQ0LjJjODAuNy00LjUgMTQxLjUtNzcuMSAxMzAuNC0xNTguM0wyNzUuOCAyNy43QzI3My42IDExLjggMjYwLjEgMCAyNDQuMSAwTDc1LjkgMGMtMTYgMC0yOS41IDExLjgtMzEuNyAyNy43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wine-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/wine-glass.svg)
  */
 const WineGlass: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

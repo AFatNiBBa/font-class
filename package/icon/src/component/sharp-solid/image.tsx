@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `image` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image?s=sharp-solid image}
- * @preview ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw1MTIgMCAwIDQ0OEwwIDQ4MCAwIDMyek0zMjMuNSAyMDIuMUwzMDQgMTc0LjdsLTE5LjUgMjcuM0wxOTYuMiAzMjUuNmwtMjYuMy0yOS42TDE1MiAyNzUuOWwtMTcuOSAyMC4yLTY0IDcyTDY0IDM3NC45bDAgOS4xIDAgOCAwIDI0IDI0IDAgNzIgMCAyNCAwIDMyIDAgMjQgMCAxODQgMCAyNCAwIDAtMjQgMC04IDAtNy43LTQuNS02LjMtMTIwLTE2OHpNMTEyIDE5MmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/image.svg)
  */
 const Image: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flask-round-potion` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-round-potion?s=solid flask-round-potion}
- * @preview ![flask-round-potion](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDY0bDY0IDAgMCA5My43YzAgMzAuNCAxNi45IDU2LjEgNDAuMyA2OS43YzQzIDI1IDcxLjYgNzEuNCA3MS43IDEyNC40Yy01OC42LTEuNy04NS40LTEyLjYtMTA5LjktMjIuNmMtMjItOS00Mi4yLTE3LjItODIuMS0xNy4yYy00Mi4zIDAtNzMuNCA5LjItOTQuNSAxOC44YzYuNS00NC4xIDMzLTgxLjcgNzAuMi0xMDMuNGMyMy40LTEzLjYgNDAuMy0zOS4zIDQwLjMtNjkuN0wxOTIgNjR6bTEyOCA5My43TDMyMCA2NGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMkwzMDQgMCAxNDQgMCAxMjggMEMxMTAuMyAwIDk2IDE0LjMgOTYgMzJzMTQuMyAzMiAzMiAzMmwwIDkzLjdjMCA2LTMuMyAxMS40LTguNSAxNC40QzU3LjYgMjA4LjIgMTYgMjc1LjIgMTYgMzUyYzAgNTYgMjIuMSAxMDYuOSA1OC4yIDE0NC4zQzg0LjUgNTA3IDk5LjMgNTEyIDExNC4yIDUxMmwyMTkuNiAwYzE1IDAgMjkuNy01IDQwLjEtMTUuN0M0MDkuOSA0NTguOSA0MzIgNDA4IDQzMiAzNTJjMC03Ni44LTQxLjYtMTQzLjgtMTAzLjUtMTc5LjljLTUuMi0zLTguNS04LjQtOC41LTE0LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![flask-round-potion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/flask-round-potion.svg)
  */
 const FlaskRoundPotion: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

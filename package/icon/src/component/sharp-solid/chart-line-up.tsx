@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-line-up` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line-up?s=sharp-solid chart-line-up}
- * @preview ![chart-line-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRsMC0zMkwwIDMyIDAgNjQgMCA0NDhsMCAzMiAzMiAwIDQ0OCAwIDMyIDAgMC02NC0zMiAwTDY0IDQxNiA2NCA2NHptMjg4IDY0bC0zMiAzMiA0MS40IDQxLjRMMzA0IDI1OC43bC03My40LTczLjRMMjA4IDE2Mi43bC0yMi42IDIyLjYtODAgODAgNDUuMyA0NS4zTDIwOCAyNTMuM2w3My40IDczLjRMMzA0IDM0OS4zbDIyLjYtMjIuNiA4MC04MEw0NDggMjg4bDMyLTMyIDAtMTI4LTEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-line-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chart-line-up.svg)
  */
 const ChartLineUp: typeof Icon = x => (
     <Icon {...x}>

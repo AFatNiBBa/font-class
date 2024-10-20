@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowling-ball-pin` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowling-ball-pin?s=solid bowling-ball-pin}
- * @preview ![bowling-ball-pin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDY0YzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRsMCAxLjFjMCA3LjQtMSAxNC44LTMgMjJsLTE3LjcgNjQuOGMtLjcgMi43LTEuMyA1LjQtMS44IDguMWwtODMuMSAwYy0uNS0yLjctMS4xLTUuNC0xLjgtOC4xTDQxOC45IDg3LjFjLTItNy4yLTIuOS0xNC42LTIuOS0yMmwwLTEuMXptMjIuOCAxMjhsODIuMyAwYzEgNi4zIDIuNiAxMi40IDQuOCAxOC40TDU2NiAzMTkuM2M2LjYgMTcuOSAxMCAzNi44IDEwIDU1LjhjMCAyMC41LTMuOSA0MC45LTExLjUgNTkuOWwtMjIuNyA1Ni45QzUzNi45IDUwNCA1MjUuMSA1MTIgNTEyIDUxMmwtNjQgMGMtMTMuMSAwLTI0LjktOC0yOS43LTIwLjFsLTE3LjgtNDQuNWMyOS44LTQwIDQ3LjUtODkuNiA0Ny41LTE0My40YzAtMzAuNy01LjgtNjAuMS0xNi4zLTg3LjFsMi40LTYuNWMyLjItNiAzLjgtMTIuMSA0LjgtMTguNHpNMCAzMDRhMjA4IDIwOCAwIDEgMSA0MTYgMEEyMDggMjA4IDAgMSAxIDAgMzA0ek0yMjQgMTcyYTI4IDI4IDAgMSAwIC01NiAwIDI4IDI4IDAgMSAwIDU2IDB6TTE5NiAyODhhMjggMjggMCAxIDAgMC01NiAyOCAyOCAwIDEgMCAwIDU2em0tNDQtNjhhMjggMjggMCAxIDAgLTU2IDAgMjggMjggMCAxIDAgNTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bowling-ball-pin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bowling-ball-pin.svg)
  */
 const BowlingBallPin: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

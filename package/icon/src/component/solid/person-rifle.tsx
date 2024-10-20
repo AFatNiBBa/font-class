@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-rifle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-rifle?s=solid person-rifle}
- * @preview ![person-rifle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY1LjIgMTkyYzI1LjQgMCA0OS44IDcuMSA3MC44IDE5LjlMMzM2IDUxMmwtMTkyIDAgMC0xNzQuM0w5MC40IDQyOC4zYy0xMS4yIDE5LTM1LjggMjUuMy01NC44IDE0LjFzLTI1LjMtMzUuOC0xNC4xLTU0LjhMOTcuNyAyNTguOGMyNC41LTQxLjQgNjktNjYuOCAxMTcuMS02Ni44bDUwLjQgMHpNMTYwIDgwYTgwIDgwIDAgMSAxIDE2MCAwQTgwIDgwIDAgMSAxIDE2MCA4MHpNNDQ4IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTE2LjNjOS42IDUuNSAxNiAxNS45IDE2IDI3LjdsMCAxMDkuMyAxNi01LjMgMC01NmMwLTguOCA3LjItMTYgMTYtMTZsMTYgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCA4NC41YzAgNi45LTQuNCAxMy0xMC45IDE1LjJMNDgwIDMyNS4zbDAgMjYuNyA0OCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDE2YzAgOC44LTcuMiAxNi0xNiAxNmwtNDQgMCAyMyA5Mi4xYzIuNSAxMC4xLTUuMSAxOS45LTE1LjUgMTkuOUw0MzIgNTEyYy04LjggMC0xNi03LjItMTYtMTZsMC05Ni0xNiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTE0NGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwwLTMyYzAtMTEuOCA2LjQtMjIuMiAxNi0yNy43TDQxNiAzMmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwxNiAwIDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-rifle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-rifle.svg)
  */
 const PersonRifle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

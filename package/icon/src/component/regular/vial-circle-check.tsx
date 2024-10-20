@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vial-circle-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vial-circle-check?s=regular vial-circle-check}
- * @preview ![vial-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA1NkMwIDQyLjcgMTAuNyAzMiAyNCAzMmw4IDAgNDggMCA5NiAwIDQ4IDAgOCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC04IDAgMCAxODYuOGMtMjAuMiAyOC42LTMyIDYzLjUtMzIgMTAxLjJjMCAyNS4yIDUuMyA0OS4xIDE0LjggNzAuOEMxODkuNSA0NjMuNyAxNjAuNiA0ODAgMTI4IDQ4MGMtNTMgMC05Ni00My05Ni05NkwzMiA4MGwtOCAwQzEwLjcgODAgMCA2OS4zIDAgNTZ6TTgwIDgwbDAgMTEyIDk2IDAgMC0xMTJMODAgODB6bTAgMTYwbDAgMTQ0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4czQ4LTIxLjUgNDgtNDhsMC0xNDQtOTYgMHpNMjI0IDM2OGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0yMTEuMy00My4zYy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMEwzNTIgMzg1LjRsLTI4LjctMjguN2MtNi4yLTYuMi0xNi40LTYuMi0yMi42IDBzLTYuMiAxNi40IDAgMjIuNmw0MCA0MGM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMGw3Mi03MmM2LjItNi4yIDYuMi0xNi40IDAtMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![vial-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/vial-circle-check.svg)
  */
 const VialCircleCheck: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-left-long-to-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-long-to-line?s=sharp-regular arrow-left-long-to-line}
- * @preview ![arrow-left-long-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4OEwwIDQyNGwwIDI0IDQ4IDAgMC0yNEw0OCA4OGwwLTI0TDAgNjQgMCA4OHpNMTI4IDI1NmwxNyAxN0wyODEgNDA5bDE3IDE3TDMzMS45IDM5MmwtMTctMTctOTUtOTVMNjE2IDI4MGwyNCAwIDAtNDgtMjQgMC0zOTYuMSAwIDk1LTk1IDE3LTE3TDI5Ny45IDg2LjFsLTE3IDE3TDE0NSAyMzlsLTE3IDE3eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-left-long-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-left-long-to-line.svg)
  */
 const ArrowLeftLongToLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-arrow-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-arrow-down?s=sharp-thin file-arrow-down}
- * @preview ![file-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMTkyIDAgMCAxNTIgMCA4IDggMCAxNTIgMCAwIDMyMEwxNiA0OTYgMTYgMTZ6bTIwOCA2LjZMMzYxLjQgMTYwIDIyNCAxNjBsMC0xMzcuNHpNMjI0IDBMMTYgMCAwIDAgMCAxNiAwIDQ5NmwwIDE2IDE2IDAgMzUyIDAgMTYgMCAwLTE2IDAtMzM2TDIyNCAwek0yMDAgMjMybDAtOC0xNiAwIDAgOCAwIDE4OC43LTc0LjMtNzQuMy01LjctNS43TDkyLjcgMzUybDUuNyA1LjcgODggODggNS43IDUuNyA1LjctNS43IDg4LTg4IDUuNy01LjdMMjgwIDM0MC43bC01LjcgNS43TDIwMCA0MjAuNyAyMDAgMjMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-arrow-down.svg)
  */
 const FileArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link?s=sharp-solid link}
- * @preview ![link](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTgwLjIgMjY3LjNjNTYuMi01Ni4yIDU2LjItMTQ3LjQgMC0yMDMuNlM0MzIuOCA3LjQgMzc2LjYgNjMuN0wzNjUuMyA3NWw0NS4zIDQ1LjMgMTEuMy0xMS4zYzMxLjItMzEuMiA4MS45LTMxLjIgMTEzLjEgMHMzMS4yIDgxLjkgMCAxMTMuMUw0MjEuOCAzMzUuMmMtMzEuMiAzMS4yLTgxLjkgMzEuMi0xMTMuMSAwYy0yNS42LTI1LjYtMzAuMy02NC4zLTEzLjgtOTQuNmMxLjgtMy40IDMuOS02LjcgNi4zLTkuOGwtNTEuMi0zOC40Yy00LjMgNS43LTguMSAxMS42LTExLjQgMTcuOGMtMjkuNSA1NC42LTIxLjMgMTI0LjIgMjQuOSAxNzAuM2M1Ni4yIDU2LjIgMTQ3LjQgNTYuMiAyMDMuNiAwTDU4MC4yIDI2Ny4zek01OS44IDI0NC43Yy01Ni4yIDU2LjItNTYuMiAxNDcuNCAwIDIwMy42czE0Ny40IDU2LjIgMjAzLjYgMEwyNzQuNyA0MzdsLTQ1LjMtNDUuMy0xMS4zIDExLjNjLTMxLjIgMzEuMi04MS45IDMxLjItMTEzLjEgMHMtMzEuMi04MS45IDAtMTEzLjFMMjE4LjIgMTc2LjhjMzEuMi0zMS4yIDgxLjktMzEuMiAxMTMuMSAwYzI1LjYgMjUuNiAzMC4zIDY0LjMgMTMuOCA5NC42Yy0xLjggMy40LTMuOSA2LjctNi4zIDkuOGw1MS4yIDM4LjRjNC4zLTUuNyA4LjEtMTEuNiAxMS40LTE3LjhjMjkuNS01NC42IDIxLjMtMTI0LjItMjQuOS0xNzAuM2MtNTYuMi01Ni4yLTE0Ny40LTU2LjItMjAzLjYgMEw1OS44IDI0NC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![link](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/link.svg)
  */
 const Link: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

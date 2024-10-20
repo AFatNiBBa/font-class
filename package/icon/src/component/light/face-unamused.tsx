@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-unamused` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-unamused?s=light face-unamused}
- * @preview ![face-unamused](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTMxNi4xIDM5NC43Yy0xMS43LTEzLTMxLjYtMjYuNy02MC4xLTI2LjdzLTQ4LjQgMTMuNy02MC4xIDI2LjdjLTUuOSA2LjYtMTYgNy4xLTIyLjYgMS4ycy03LjEtMTYtMS4yLTIyLjZDMTg4LjIgMzU1LjQgMjE2LjMgMzM2IDI1NiAzMzZzNjcuOCAxOS40IDgzLjkgMzcuM2M1LjkgNi42IDUuNCAxNi43LTEuMiAyMi42cy0xNi43IDUuNC0yMi42LTEuMnpNMTEyIDE5Mmw2NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybC0zMiAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2em0xNzYgMTZjMC04LjggNy4yLTE2IDE2LTE2bDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsLTMyIDBjLTguOCAwLTE2LTcuMi0xNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-unamused](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-unamused.svg)
  */
 const FaceUnamused: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `prescription` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription?s=sharp-light prescription}
- * @preview ![prescription](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMEwwIDAgMCAxNiAwIDIwOGwwIDk2IDAgMTYgMzIgMCAwLTE2IDAtODAgMTA1LjQgMCAzLjMgMy4zTDI2NS40IDM1MiAxNDAuNyA0NzYuNyAxMjkuNCA0ODggMTUyIDUxMC42bDExLjMtMTEuM0wyODggMzc0LjYgNDEyLjcgNDk5LjMgNDI0IDUxMC42IDQ0Ni42IDQ4OGwtMTEuMy0xMS4zTDMxMC42IDM1MiA0MzUuMyAyMjcuMyA0NDYuNiAyMTYgNDI0IDE5My40bC0xMS4zIDExLjNMMjg4IDMyOS40IDE4Mi40IDIyMy44QzI0MS4zIDIyMC41IDI4OCAxNzEuNyAyODggMTEyQzI4OCA1MC4xIDIzNy45IDAgMTc2IDBMMTYgMHpNMTc2IDE5MkwzMiAxOTIgMzIgMzJsMTQ0IDBjNDQuMiAwIDgwIDM1LjggODAgODBzLTM1LjggODAtODAgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![prescription](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/prescription.svg)
  */
 const Prescription: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

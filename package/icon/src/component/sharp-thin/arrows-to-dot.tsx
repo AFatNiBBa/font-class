@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-to-dot` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-dot?s=sharp-thin arrows-to-dot}
- * @preview ![arrows-to-dot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDBsMCA4IDAgMTU2LjdMMTczLjcgOTAuMyAxNjggODQuNyAxNTYuNyA5Nmw1LjcgNS43IDg4IDg4IDUuNyA1LjcgNS43LTUuNyA4OC04OCA1LjctNS43TDM0NCA4NC43bC01LjcgNS43TDI2NCAxNjQuNyAyNjQgOGwwLThMMjQ4IDB6TTQxNiAxNTYuN2wtNS43IDUuNy04OCA4OC01LjcgNS43IDUuNyA1LjcgODggODggNS43IDUuN0w0MjcuMyAzNDRsLTUuNy01LjdMMzQ3LjMgMjY0IDUwNCAyNjRsOCAwIDAtMTYtOCAwLTE1Ni43IDAgNzQuMy03NC4zIDUuNy01LjdMNDE2IDE1Ni43ek0yNTYgMjQwYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptMCA0OGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6TTEwMS43IDE2Mi4zTDk2IDE1Ni43IDg0LjcgMTY4bDUuNyA1LjdMMTY0LjcgMjQ4IDggMjQ4bC04IDAgMCAxNiA4IDAgMTU2LjcgMEw5MC4zIDMzOC4zIDg0LjcgMzQ0IDk2IDM1NS4zbDUuNy01LjcgODgtODggNS43LTUuNy01LjctNS43LTg4LTg4em02MC43IDI0OGwtNS43IDUuN0wxNjggNDI3LjNsNS43LTUuN0wyNDggMzQ3LjMgMjQ4IDUwNGwwIDggMTYgMCAwLTggMC0xNTYuNyA3NC4zIDc0LjMgNS43IDUuN0wzNTUuMyA0MTZsLTUuNy01LjctODgtODgtNS43LTUuNy01LjcgNS43LTg4IDg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-to-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrows-to-dot.svg)
  */
 const ArrowsToDot: typeof Icon = x => (
     <Icon {...x}>

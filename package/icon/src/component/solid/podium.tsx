@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `podium` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podium?s=solid podium}
- * @preview ![podium](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgyLjQgNzJjOC4zIDE0LjMgMjMuOCAyNCA0MS42IDI0bDY0IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhzLTIxLjUtNDgtNDgtNDhMMjI0IDBjLTE3LjggMC0zMy4zIDkuNy00MS42IDI0TDE2OCAyNGMtNDguNiAwLTg4IDM5LjQtODggODhsMCAzMi01NiAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDQwMCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0yOTYgMCAwLTMyYzAtMjIuMSAxNy45LTQwIDQwLTQwbDE0LjQgMHpNNDggMjI0TDczLjcgNDU1LjFjMy42IDMyLjQgMzEgNTYuOSA2My42IDU2LjlsMTczLjQgMGMzMi42IDAgNjAtMjQuNSA2My42LTU2LjlMNDAwIDIyNCA0OCAyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![podium](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/podium.svg)
  */
 const Podium: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

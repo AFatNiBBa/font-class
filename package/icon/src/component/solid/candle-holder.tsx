@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `candle-holder` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candle-holder?s=solid candle-holder}
- * @preview ![candle-holder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE5MmMtNDQuMiAwLTgwLTM1LjgtODAtODBjMC0zOS42IDQ5LjEtOTAuMSA2Ni4yLTEwNi42QzE0OS45IDEuOSAxNTQuOCAwIDE2MCAwczEwLjEgMS45IDEzLjggNS40QzE5MC45IDIxLjkgMjQwIDcyLjQgMjQwIDExMmMwIDQ0LjItMzUuOCA4MC04MCA4MHptLTMyIDMybDAgNDhjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTQ4IDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyMDggNTIuMSAwYy0yLjctNy41LTQuMS0xNS42LTQuMS0yNGMwLTM5LjggMzIuMi03MiA3Mi03MnM3MiAzMi4yIDcyIDcycy0zMi4yIDcyLTcyIDcyTDI0IDUxMmMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGw0MCAwIDAtMjA4YzAtMTcuNyAxNC4zLTMyIDMyLTMybDMyIDB6TTQwMCA0NDBhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![candle-holder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/candle-holder.svg)
  */
 const CandleHolder: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

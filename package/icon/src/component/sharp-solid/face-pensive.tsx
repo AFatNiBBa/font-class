@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-pensive` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pensive?s=sharp-solid face-pensive}
- * @preview ![face-pensive](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTIwOCAzODRsOTYgMCAxNiAwIDAgMzItMTYgMC05NiAwLTE2IDAgMC0zMiAxNiAwek03Mi44IDE5My43bDIyLjktMTEuNGMxNC41LTcuMiAyNy4yLTE3LjYgMzcuNC0zMC4ybDE0LjQtMTggMjUgMjAtMTQuNCAxOGMtMTMgMTYuMy0yOS40IDI5LjUtNDggMzguOEw4Ny4yIDIyMi4zIDcyLjggMTkzLjd6bTIzNiA3Mi43YzIxLjYgMjguOCA2NC44IDI4LjggODYuNCAwbDI1LjYgMTkuMmMtMzQuNCA0NS45LTEwMy4yIDQ1LjktMTM3LjYgMGwyNS42LTE5LjJ6bS0xMDUuNiAwbDI1LjYgMTkuMmMtMzQuNCA0NS45LTEwMy4yIDQ1LjktMTM3LjYgMGwyNS42LTE5LjJjMjEuNiAyOC44IDY0LjggMjguOCA4Ni40IDB6bTIxMy4xLTg0LjFsMjIuOSAxMS40LTE0LjMgMjguNkw0MDIgMjEwLjljLTE4LjYtOS4zLTM1LTIyLjYtNDguMS0zOC44bC0xNC40LTE4IDI1LTIwIDE0LjQgMThjMTAuMSAxMi43IDIyLjkgMjMgMzcuNCAzMC4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-pensive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-pensive.svg)
  */
 const FacePensive: typeof Icon = x => (
     <Icon {...x}>

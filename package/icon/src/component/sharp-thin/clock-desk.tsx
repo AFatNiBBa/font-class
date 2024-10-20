@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clock-desk` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-desk?s=sharp-thin clock-desk}
- * @preview ![clock-desk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjI0YTIwOCAyMDggMCAxIDEgNDE2IDBBMjA4IDIwOCAwIDEgMSAxNiAyMjR6bTQxNiA4My4zTDQzMiA0OTYgMTYgNDk2bDAtMTg4LjdDNDkuMSAzODkuOCAxMjkuNyA0NDggMjI0IDQ0OHMxNzQuOS01OC4yIDIwOC0xNDAuN3pNMCAyMjRMMCA1MDRsMCA4IDggMCA0MzIgMCA4IDAgMC04IDAtMjgwQzQ0OCAxMDAuMyAzNDcuNyAwIDIyNCAwUzAgMTAwLjMgMCAyMjR6TTIzMiA5NmwtMTYgMCAwIDggMCAxMjAgMCAzLjMgMi4zIDIuMyA1NiA1NiA1LjcgNS43TDI5MS4zIDI4MGwtNS43LTUuN0wyMzIgMjIwLjcgMjMyIDEwNGwwLTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clock-desk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/clock-desk.svg)
  */
 const ClockDesk: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

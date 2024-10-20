@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `disc-drive` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/disc-drive?s=thin disc-drive}
- * @preview ![disc-drive](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA0IDQ4bDMwNCAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgMzYwTDQ4IDQ2NGwwLTM2MGMwLTMwLjkgMjUuMS01NiA1Ni01NnpNNDgwIDQ2NGwwLTM2MGMwLTM5LjgtMzIuMi03Mi03Mi03MkwxMDQgMzJjLTM5LjggMC03MiAzMi4yLTcyIDcybDAgMzYwTDggNDY0Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDMyIDAgNDMyIDAgMzIgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtMjQgMHpNNDE2IDI1NkExNjAgMTYwIDAgMSAwIDk2IDI1NmExNjAgMTYwIDAgMSAwIDMyMCAwek0yNTYgMTEyYTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHpNMjQwIDI1NmExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAwem00OCAwYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![disc-drive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/disc-drive.svg)
  */
 const DiscDrive: typeof Icon = x => (
     <Icon {...x}>

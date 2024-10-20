@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `browsers` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/browsers?s=thin browsers}
- * @preview ![browsers](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDE2YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMzJMMjAwIDk2bDAtNDggMC0zMiAzMTIgMHpNMTYwIDE2bDI0IDAgMCAzMiAwIDQ4LTcyIDAgMC0zMmMwLTI2LjUgMjEuNS00OCA0OC00OHpNMTEyIDM1MmwwLTI0MCA4MCAwIDM2OCAwIDAgMjQwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0zNTIgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDh6TTE2MCAwQzEyNC43IDAgOTYgMjguNyA5NiA2NGwwIDI4OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzNTIgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTI4OGMwLTM1LjMtMjguNy02NC02NC02NEwxNjAgMHpNMTYgMTA0YzAtNC40LTMuNi04LTgtOHMtOCAzLjYtOCA4TDAgMzkyYzAgNjYuMyA1My43IDEyMCAxMjAgMTIwbDM1MiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0zNTIgMEM2Mi42IDQ5NiAxNiA0NDkuNCAxNiAzOTJsMC0yODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![browsers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/browsers.svg)
  */
 const Browsers: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

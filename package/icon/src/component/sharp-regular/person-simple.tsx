@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-simple?s=sharp-regular person-simple}
- * @preview ![person-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBhNjQgNjQgMCAxIDEgMCAxMjhBNjQgNjQgMCAxIDEgMTI4IDB6TTc0IDMwNGwzOCAwIDMyIDAgMzggMC00LTk2TDc4IDIwOGwtNCA5NnpNNjQgMzUybC00MCAwIDItNDggNi0xNDQgMTkyIDAgNiAxNDQgMiA0OC00MCAwIDAgMTM2IDAgMjQtNDggMCAwLTI0IDAtMTM2LTMyIDAgMCAxMzYgMCAyNC00OCAwIDAtMjQgMC0xMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-simple.svg)
  */
 const PersonSimple: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

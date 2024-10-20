@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-phone-flip` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-phone-flip?s=thin circle-phone-flip}
- * @preview ![circle-phone-flip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ5NmEyNDAgMjQwIDAgMSAwIDAtNDgwIDI0MCAyNDAgMCAxIDAgMCA0ODB6TTI1NiAwYTI1NiAyNTYgMCAxIDEgMCA1MTJBMjU2IDI1NiAwIDEgMSAyNTYgMHptNjcuMiAxMzYuNGMtNS44LTEuNi0xMS45IDEuNC0xNC4yIDdsLTIwIDQ4Yy0yIDQuOS0uNiAxMC41IDMuNSAxMy45bDI0LjcgMjAuMmMyLjggMi4zIDMuNyA2LjMgMi4yIDkuNmMtMTcuNCAzNi45LTQ3LjMgNjYuNy04NC4yIDg0LjJjLTMuMyAxLjYtNy4zIC43LTkuNi0yLjJsLTIwLjItMjQuN2MtMy40LTQuMS05LTUuNS0xMy45LTMuNWwtNDggMjBjLTUuNiAyLjMtOC41IDguNC03IDE0LjJsMTIgNDRjMS40IDUuMiA2LjIgOC44IDExLjYgOC44YzExOS4zIDAgMjE2LTk2LjcgMjE2LTIxNmMwLTUuNC0zLjYtMTAuMi04LjgtMTEuNmwtNDQtMTJ6bS0yOSAuOGM1LjQtMTMgMTkuNi0xOS45IDMzLjItMTYuMmw0NCAxMmMxMi4yIDMuMyAyMC42IDE0LjQgMjAuNiAyN2MwIDEyOC4xLTEwMy45IDIzMi0yMzIgMjMyYy0xMi42IDAtMjMuNy04LjQtMjctMjAuNmwtMTItNDRjLTMuNy0xMy42IDMuMy0yNy44IDE2LjItMzMuMmw0OC0yMGMxMS40LTQuOCAyNC42LTEuNSAzMi40IDguMUwyMzMuOCAzMDJjMjkuMS0xNS4yIDUzLTM5LjEgNjguMi02OC4ybC0xOS43LTE2LjFjLTkuNi03LjgtMTIuOS0yMS04LjEtMzIuNGwyMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-phone-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-phone-flip.svg)
  */
 const CirclePhoneFlip: typeof Icon = x => (
     <Icon {...x}>

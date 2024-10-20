@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `alarm-clock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-clock?s=regular alarm-clock}
- * @preview ![alarm-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDI1LjRDMTQzIDkuNiAxMjAuMiAwIDk1LjIgMEM0Mi42IDAgMCA0Mi42IDAgOTUuMmMwIDE4LjggNS41IDM2LjMgMTQuOSA1MS4xTDE2MCAyNS40ek0yNTYgMTEyYTE3NiAxNzYgMCAxIDEgMCAzNTIgMTc2IDE3NiAwIDEgMSAwLTM1MnptMCA0MDBjNTMuMiAwIDEwMi4xLTE4LjYgMTQwLjUtNDkuNUw0MzkgNTA1YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtNDIuNS00Mi41YzMxLTM4LjQgNDkuNS04Ny4zIDQ5LjUtMTQwLjVDNDgwIDE2NC4zIDM3OS43IDY0IDI1NiA2NFMzMiAxNjQuMyAzMiAyODhjMCA1My4yIDE4LjYgMTAyLjEgNDkuNSAxNDAuNUwzOSA0NzFjLTkuNCA5LjQtOS40IDI0LjYgMCAzMy45czI0LjYgOS40IDMzLjkgMGw0Mi41LTQyLjVjMzguNCAzMSA4Ny4zIDQ5LjUgMTQwLjUgNDkuNXpNNDk3LjEgMTQ2LjRDNTA2LjUgMTMxLjYgNTEyIDExNCA1MTIgOTUuMkM1MTIgNDIuNiA0NjkuNCAwIDQxNi44IDBDMzkxLjggMCAzNjkgOS42IDM1MiAyNS40TDQ5Ny4xIDE0Ni40ek0yODAgMTg0YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMTA0YzAgNi40IDIuNSAxMi41IDcgMTdsNDggNDhjOS40IDkuNCAyNC42IDkuNCAzMy45IDBzOS40LTI0LjYgMC0zMy45bC00MS00MSAwLTk0LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![alarm-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/alarm-clock.svg)
  */
 const AlarmClock: typeof Icon = x => (
     <Icon {...x}>

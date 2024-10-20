@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-pen` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-pen?s=sharp-regular user-pen}
- * @preview ![user-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDIwOGE4MCA4MCAwIDEgMCAwLTE2MCA4MCA4MCAwIDEgMCAwIDE2MHpNOTkuNSAzNTJMNjUgNDY0bDI1OS40IDAtNi45IDQ4TDUwLjIgNTEyIDAgNTEybDE0LjgtNDhMNjQgMzA0bDE2MCAwIDE2MCAwIDE0LjIgNDYuMi0zOC40IDM4LjRMMzQ4LjUgMzUyIDk5LjUgMzUyek05NiAxMjhhMTI4IDEyOCAwIDEgMSAyNTYgMEExMjggMTI4IDAgMSAxIDk2IDEyOHptNDczIDk1LjhsNzEgNzEtNDEuMyA0MS4zLTcxLTcxTDU2OSAyMjMuOHptLTYzLjkgNjMuOWw3MSA3MUw0MzQuOSA1MDAgMzUyIDUxMS45IDM2My45IDQyOSA1MDUuMSAyODcuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-pen.svg)
  */
 const UserPen: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

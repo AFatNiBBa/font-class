@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-audio` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-audio?s=regular file-audio}
- * @preview ![file-audio](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDY0bDI1NiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTI4OC04MCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTgwTDY0IDQ4Yy04LjggMC0xNiA3LjItMTYgMTZsMCAzODRjMCA4LjggNy4yIDE2IDE2IDE2ek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwyMjkuNSAwYzE3IDAgMzMuMyA2LjcgNDUuMyAxOC43bDkwLjUgOTAuNWMxMiAxMiAxOC43IDI4LjMgMTguNyA0NS4zTDM4NCA0NDhjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDY0ek0xOTIgMjcybDAgMTI4YzAgNi41LTMuOSAxMi4zLTkuOSAxNC44cy0xMi45IDEuMS0xNy40LTMuNUwxMjkuNCAzNzYgMTEyIDM3NmMtOC44IDAtMTYtNy4yLTE2LTE2bDAtNDhjMC04LjggNy4yLTE2IDE2LTE2bDE3LjQgMCAzNS4zLTM1LjNjNC42LTQuNiAxMS41LTUuOSAxNy40LTMuNXM5LjkgOC4zIDkuOSAxNC44em04NS44LTRjMTEuNiAyMCAxOC4yIDQzLjMgMTguMiA2OHMtNi42IDQ4LTE4LjIgNjhjLTYuNiAxMS41LTIxLjMgMTUuNC0zMi44IDguOHMtMTUuNC0yMS4zLTguOC0zMi44YzcuNS0xMi45IDExLjgtMjcuOSAxMS44LTQ0cy00LjMtMzEuMS0xMS44LTQ0Yy02LjYtMTEuNS0yLjctMjYuMiA4LjgtMzIuOHMyNi4yLTIuNyAzMi44IDguOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-audio](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-audio.svg)
  */
 const FileAudio: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

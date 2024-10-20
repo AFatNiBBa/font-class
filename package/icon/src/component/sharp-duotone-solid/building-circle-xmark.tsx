@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `building-circle-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-xmark?s=sharp-duotone-solid building-circle-xmark}
- * @preview ![building-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDBMMzg0IDBsMCAyMzIuMmMtMzkuMSAzMi4zLTY0IDgxLjEtNjQgMTM1LjhzMjQuOSAxMDMuNSA2NCAxMzUuOGwwIDguMi0xNDQgMCAwLTEyOC05NiAwIDAgMTI4TDAgNTEyIDAgMHpNNjQgOTZsMCA2NCA2NCAwIDAtNjRMNjQgOTZ6bTAgMTI4bDAgNjQgNjQgMCAwLTY0LTY0IDB6TTE2MCA5NmwwIDY0IDY0IDAgMC02NC02NCAwem0wIDEyOGwwIDY0IDY0IDAgMC02NC02NCAwek0yNTYgOTZsMCA2NCA2NCAwIDAtNjQtNjQgMHptMCAxMjhsMCA2NCA2NCAwIDAtNjQtNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTM1MiAzNjhhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMjE0LjYtNDhMNTQ0IDI5Ny40bC0xMS4zIDExLjNMNDk2IDM0NS40bC0zNi43LTM2LjdMNDQ4IDI5Ny40IDQyNS40IDMyMGwxMS4zIDExLjNMNDczLjQgMzY4bC0zNi43IDM2LjdMNDI1LjQgNDE2IDQ0OCA0MzguNmwxMS4zLTExLjNMNDk2IDM5MC42bDM2LjcgMzYuN0w1NDQgNDM4LjYgNTY2LjYgNDE2bC0xMS4zLTExLjNMNTE4LjYgMzY4bDM2LjctMzYuN0w1NjYuNiAzMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![building-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/building-circle-xmark.svg)
  */
 const BuildingCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 0L384 0l0 232.2c-39.1 32.3-64 81.1-64 135.8s24.9 103.5 64 135.8l0 8.2-144 0 0-128-96 0 0 128L0 512 0 0zM64 96l0 64 64 0 0-64L64 96zm0 128l0 64 64 0 0-64-64 0zM160 96l0 64 64 0 0-64-64 0zm0 128l0 64 64 0 0-64-64 0zM256 96l0 64 64 0 0-64-64 0zm0 128l0 64 64 0 0-64-64 0z" />
-            <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm214.6-48L544 297.4l-11.3 11.3L496 345.4l-36.7-36.7L448 297.4 425.4 320l11.3 11.3L473.4 368l-36.7 36.7L425.4 416 448 438.6l11.3-11.3L496 390.6l36.7 36.7L544 438.6 566.6 416l-11.3-11.3L518.6 368l36.7-36.7L566.6 320z" />
+        <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm214.6-48L544 297.4l-11.3 11.3L496 345.4l-36.7-36.7L448 297.4 425.4 320l11.3 11.3L473.4 368l-36.7 36.7L425.4 416 448 438.6l11.3-11.3L496 390.6l36.7 36.7L544 438.6 566.6 416l-11.3-11.3L518.6 368l36.7-36.7L566.6 320z" />
     </Icon>
 );
 

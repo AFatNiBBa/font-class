@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-circle-minus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-minus?s=light person-circle-minus}
- * @preview ![person-circle-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDgwYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMC04MGE1NiA1NiAwIDEgMSAwIDExMkE1NiA1NiAwIDEgMSAxNjAgMHpNMTI4IDE2NGwwIDE1NiA2NCAwIDAtMTU2Yy02LTIuNi0xMi41LTQtMTkuMy00bC0yNS40IDBjLTYuOCAwLTEzLjMgMS40LTE5LjMgNHptMCAxODhsMCAxNDRjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0yOTMuOUw0Ni4xIDI5NS41Yy00LjIgNy44LTEzLjkgMTAuNy0yMS43IDYuNnMtMTAuNy0xMy45LTYuNi0yMS43TDc2LjcgMTcwLjNjMTMuOS0yNiA0MS00Mi4zIDcwLjYtNDIuM2wyNS40IDBjMjkuNSAwIDU2LjcgMTYuMyA3MC42IDQyLjNsNDguNyA5MS4xYy03LjUgOS44LTE0IDIwLjUtMTkuMyAzMS44bC00OC42LTkxTDIyNCA0OTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0xNDQtNjQgMHpNNDMyIDQ4MGExMTIgMTEyIDAgMSAwIDAtMjI0IDExMiAxMTIgMCAxIDAgMCAyMjR6bTAtMjU2YTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptODAgMTQ0YzAgOC44LTcuMiAxNi0xNiAxNmwtMTI4IDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsMTI4IDBjOC44IDAgMTYgNy4yIDE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-circle-minus.svg)
  */
 const PersonCircleMinus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

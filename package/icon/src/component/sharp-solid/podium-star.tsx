@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `podium-star` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podium-star?s=sharp-solid podium-star}
- * @preview ![podium-star](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBsOTYgMGMyNi41IDAgNDggMjEuNSA0OCA0OHMtMjEuNSA0OC00OCA0OGwtOTYgMCAwLTI0LTI0IDBjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgMzIgMjk2IDAgMjQgMCAwIDQ4LTI0IDBMMjQgMTkyIDAgMTkybDAtNDggMjQgMCA1NiAwIDAtMzJjMC00OC42IDM5LjQtODggODgtODhsMjQgMCAwLTI0ek04MCA1MTJMNDggMjI0bDM1MiAwTDM2OCA1MTIgODAgNTEyek0yNTMuMyAzMzUuNkwyMjQgMjcybC0yOS4zIDYzLjYtNjkuNiA4LjIgNTEuNCA0Ny42LTEzLjcgNjguN0wyMjQgNDI1LjlsNjEuMSAzNC4yLTEzLjctNjguNyA1MS40LTQ3LjYtNjkuNi04LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![podium-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/podium-star.svg)
  */
 const PodiumStar: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-sign?s=sharp-solid person-sign}
- * @preview ![person-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNDhhNDggNDggMCAxIDEgOTYgMEE0OCA0OCAwIDEgMSA5NiA0OHpNODQuNyAxMjhsMTkuMyAwIDg4IDAgMTQuNCAwIDkuNSAxMC43IDU4LjcgNjYuMSA0My42IDE2LjMgMTUuOS00My43TDI1NiAxNDguNCAzMDguOCAwIDM4OCAyOS41bDkuOS0yNy4xTDQ0MyAxOC44IDQzMyA0Ni4ybDc5IDI5LjRMNDU5LjIgMjI0bC04MC0yOS44LTQ1IDEyMy43LTguMiAyMi42TDI4MC44IDMyNGw4LjItMjIuNiA3LjMtMjAuMUwyNDQuOCAyNjJsLTcuNC0yLjgtNS4zLTUuOUwyMTYgMjM1LjJsMCA3Ny4zIDM2LjYgNzMuMiAzLjQgNi44IDAgNy42IDAgODAgMCAzMi02NCAwIDAtMzIgMC03Mi40TDE2NC4yIDM1MiAxNDQgMzUybDAgMTI4IDAgMzItNjQgMCAwLTMyIDAtMjA2LjNMNjAuMyAzMTEgMy43IDI4MWw3Mi0xMzYgOS0xN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-sign.svg)
  */
 const PersonSign: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `handshake` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake?s=sharp-solid handshake}
- * @preview ![handshake](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk4LjggNjRMMjI0IDY0bC05NiA2NCAwIDIyNCAyOC4yIDAgNzMuOSA2Ny40IDM1LjQgMzIuNCA0Ny43LTUyLjIgMjIuMyAyMC41IDM1LjQgMzIuNCA0NC44LTQ4LjkgMzUuMiAzMi4yIDY0LjktNzAuOC0zNS40LTMyLjQtMTM0LjItMTIzLTk2LjQgNzUtMTMgMTAuMS05LjctMTMuNC02NC04OC04LjktMTIuMyAxMS44LTkuNkwyOTguOCA2NHptNzQuMSAxMjQuOUw1MTIgMzE2LjggNTEyIDEyOGwtLjcgMC0zLjktMi41TDQxMS4zIDY0bC02MS43IDBMMTk3LjkgMTg2LjlsNDUuMyA2Mi4zIDEzMS0xMDEuOSAxMi42LTkuOCAxOS42IDI1LjMtMTIuNiA5LjgtMjAuOSAxNi4yek05NiAxMjhMMCAxMjggMCAzODRsOTYgMCAwLTI1NnpNNDggMzIwYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnpNNTQ0IDEyOGwwIDI1NiA5NiAwIDAtMjU2LTk2IDB6bTMyIDIwOGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![handshake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/handshake.svg)
  */
 const Handshake: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

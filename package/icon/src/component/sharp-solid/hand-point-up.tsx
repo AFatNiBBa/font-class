@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-point-up` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-up?s=sharp-solid hand-point-up}
- * @preview ![hand-point-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEw5NiAwbDAgMjQwLTY0IDBMMzIgMHpNMjI0IDE2MGw2NCAwIDAgMTI4LTY0IDAgMC0xMjh6bS0zMi0zMmwwIDExMi02NCAwIDAtMTEyIDY0IDB6bTEyOCA2NGw2NCAwIDAgMTI4LTY0IDAgMC0xMjh6TTAgMzYzbDAtOTEgMTkyIDAgMCA0OCAwIDMyLTk2IDAtMTYgMCAwIDMyIDE2IDAgMTEyIDAgMTYgMCAwLTE2IDAtNDggNjQgMCAwIDMyIDk2IDBjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBsLTYxLjcgMGMtNDIuNCAwLTgzLjEtMTYuOS0xMTMuMS00Ni45TDM3LjUgNDUzLjVDMTMuNSA0MjkuNSAwIDM5Ni45IDAgMzYzeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-point-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-point-up.svg)
  */
 const HandPointUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

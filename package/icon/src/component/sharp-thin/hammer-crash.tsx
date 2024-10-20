@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hammer-crash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-crash?s=sharp-thin hammer-crash}
- * @preview ![hammer-crash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgxLjQgMzc4LjdsMTIuOC01MS44IDE0LjcgNy4zLTguNiAzNSA4MS42LTQxLjEgMTEuOC02IDguMSAxMC41TDQ1Ny4zIDQwNSA0NzYgMzE1LjZsMi43LTEzIDEzLjIgLjIgOTEuMyAxLjYtNTguMi03MC40TDUxNi42IDIyNGw4LjQtMTAuMiA1OC4yLTcwLjRMNDkyIDE0NS4xbC0xMy4yIC4yLTIuNy0xM0w0NTcuMyA0M2wtNDEgNTMuNC0xNC42LTcuM0w0NTMgMjIuMyA0NjUuOCA1LjZsNC4zIDIwLjYgMjEuNSAxMDIuOCAxMDUtMS45IDIxLjEtLjQtMTMuNCAxNi4yLTY3IDgwLjkgNjcgODAuOSAxMy40IDE2LjItMjEuMS0uNC0xMDUtMS45TDQ3MC4yIDQyMS43bC00LjMgMjAuNkw0NTMgNDI1LjdsLTY0LTgzLjMtOTMuOCA0Ny4zLTE4LjggOS41IDUuMS0yMC41ek0yMS41IDEzNi44TDMxMi44IDI4Mi41bDczLjctMTQ3LjRMMTgwLjIgMzIgNzMuOSAzMiAyMS41IDEzNi44em0tNy4yIDE0LjNMMCAxNDRsNy4yLTE0LjNMNjQgMTZsMTIwIDBMMzkzLjcgMTIwLjggNDA4IDEyOGwtNy4yIDE0LjNMMzI3LjIgMjg5LjcgMzIwIDMwNGwtMTQuMy03LjJMMTQuMyAxNTEuMnptOTQuOCA4My4ybDE0LjMgNy4yTDIxLjUgNDQ1LjQgNzguOCA0NzQgMTgwLjcgMjcwLjFsMTQuMyA3LjJMOTMuMSA0ODEuMWwtNy4yIDE0LjMtMTQuMy03LjJMMTQuNCA0NTkuNyAuMSA0NTIuNWw3LjItMTQuM0wxMDkuMiAyMzQuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hammer-crash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hammer-crash.svg)
  */
 const HammerCrash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

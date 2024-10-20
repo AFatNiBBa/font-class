@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `tire-pressure-warning` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tire-pressure-warning?s=sharp-duotone-solid tire-pressure-warning}
- * @preview ![tire-pressure-warning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zLjIgMzEzLjNDOC42IDM2MS45IDMxLjMgNDEyLjMgODAgNDYybDAgNTAgNjQgMCAwLTI0IDMyIDAgMCAyNCA2NCAwIDAtMjQgMzIgMCAwIDI0IDY0IDAgMC0yNCAzMiAwIDAgMjQgNjQgMCAwLTUwYzQ4LjctNDkuNyA3MS40LTEwMC4xIDc2LjgtMTQ4LjdjNS45LTUzLjYtOS45LTEwMC42LTI3LjUtMTM2LjJjLTcuOC0xNS44LTE0LjUtMzAtMTkuMy00NC40bC0yLjUtNy40QzQ1MS45IDEwMi41IDQ0OCA3OC41IDQ0OCA1NC41TDQ0OCAzMmwwLTMyTDM4NCAwbDAgMzIgMCAyMi41YzAgMzEgNSA2MS43IDE0LjggOTEuMWwyLjUgNy40YzYuMyAxOSAxNC44IDM2LjYgMjIuNiA1Mi41YzE0LjcgMjkuNyAyNS4zIDY0IDIxLjMgMTAwLjljLTMuNyAzNC0yMC40IDc0LjEtNjUuNyAxMTcuN2wtMjQ2LjggMGMtNDUuMy00My42LTYyLTgzLjctNjUuNy0xMTcuN2MtNC4xLTM2LjkgNi42LTcxLjEgMjEuMy0xMDAuOWM3LjgtMTUuOCAxNi4zLTMzLjUgMjIuNi01Mi41bDIuNS03LjRDMTIzIDExNi4yIDEyOCA4NS40IDEyOCA1NC41TDEyOCAzMmwwLTMyTDY0IDBsMCAzMiAwIDIyLjVjMCAyNC4xLTMuOSA0OC0xMS41IDcwLjhMNTAgMTMyLjdjLTQuOCAxNC40LTExLjUgMjguNi0xOS4zIDQ0LjRDMTMuMiAyMTIuNy0yLjcgMjU5LjcgMy4yIDMxMy4zeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjgwIDEyMGwwLTI0LTQ4IDAgMCAyNCAwIDExMiAwIDI0IDQ4IDAgMC0yNCAwLTExMnptMCAxNjhsLTQ4IDAgMCA0OCA0OCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tire-pressure-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tire-pressure-warning.svg)
  */
 const TirePressureWarning: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M3.2 313.3C8.6 361.9 31.3 412.3 80 462l0 50 64 0 0-24 32 0 0 24 64 0 0-24 32 0 0 24 64 0 0-24 32 0 0 24 64 0 0-50c48.7-49.7 71.4-100.1 76.8-148.7c5.9-53.6-9.9-100.6-27.5-136.2c-7.8-15.8-14.5-30-19.3-44.4l-2.5-7.4C451.9 102.5 448 78.5 448 54.5L448 32l0-32L384 0l0 32 0 22.5c0 31 5 61.7 14.8 91.1l2.5 7.4c6.3 19 14.8 36.6 22.6 52.5c14.7 29.7 25.3 64 21.3 100.9c-3.7 34-20.4 74.1-65.7 117.7l-246.8 0c-45.3-43.6-62-83.7-65.7-117.7c-4.1-36.9 6.6-71.1 21.3-100.9c7.8-15.8 16.3-33.5 22.6-52.5l2.5-7.4C123 116.2 128 85.4 128 54.5L128 32l0-32L64 0l0 32 0 22.5c0 24.1-3.9 48-11.5 70.8L50 132.7c-4.8 14.4-11.5 28.6-19.3 44.4C13.2 212.7-2.7 259.7 3.2 313.3z" />
-            <path d="M280 120l0-24-48 0 0 24 0 112 0 24 48 0 0-24 0-112zm0 168l-48 0 0 48 48 0 0-48z" />
+        <path d="M280 120l0-24-48 0 0 24 0 112 0 24 48 0 0-24 0-112zm0 168l-48 0 0 48 48 0 0-48z" />
     </Icon>
 );
 

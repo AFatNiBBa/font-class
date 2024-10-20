@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `terminal` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/terminal?s=regular terminal}
- * @preview ![terminal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNi4zIDcyLjJjLTktOS44LTguMy0yNC45IDEuNC0zMy45czI0LjktOC4zIDMzLjkgMS40bDE4NCAyMDBjOC41IDkuMiA4LjUgMjMuMyAwIDMyLjVsLTE4NCAyMDBjLTkgOS44LTI0LjIgMTAuNC0zMy45IDEuNHMtMTAuNC0yNC4yLTEuNC0zMy45TDE3NS40IDI1NiA2LjMgNzIuMnpNMjQ4IDQzMmwzMDQgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtMzA0IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/terminal.svg)
  */
 const Terminal: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

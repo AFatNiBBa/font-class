@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-viewfinder` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-viewfinder?s=sharp-regular face-viewfinder}
- * @preview ![face-viewfinder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDAgMjQgMCAxMzZsMCAyNCA0OCAwIDAtMjQgMC04OCA4OCAwIDI0IDAgMC00OEwxMzYgMCAyNCAwIDAgMHpNMzUyIDBsMCA0OCAyNCAwIDg4IDAgMCA4OCAwIDI0IDQ4IDAgMC0yNCAwLTExMiAwLTI0TDQ4OCAwIDM3NiAwIDM1MiAwek00OCAzNTJMMCAzNTJsMCAyNEwwIDQ4OGwwIDI0IDI0IDAgMTEyIDAgMjQgMCAwLTQ4LTI0IDAtODggMCAwLTg4IDAtMjR6bTQ2NCAwbC00OCAwIDAgMjQgMCA4OC04OCAwLTI0IDAgMCA0OCAyNCAwIDExMiAwIDI0IDAgMC0yNCAwLTExMiAwLTI0ek0yNDAgMjE2YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bTU2IDI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptLTQwLTk2YTExMiAxMTIgMCAxIDEgMCAyMjQgMTEyIDExMiAwIDEgMSAwLTIyNHptMCAyNzJhMTYwIDE2MCAwIDEgMCAwLTMyMCAxNjAgMTYwIDAgMSAwIDAgMzIwem0wLTExMmMtMjEuNiAwLTM5LjgtMTQuMi00NS45LTMzLjhsLTMwLjYgOS40QzE4OS42IDMxMi4yIDIyMCAzMzYgMjU2IDMzNnM2Ni40LTIzLjggNzYuNS01Ni40bC0zMC42LTkuNGMtNiAxOS42LTI0LjMgMzMuOC00NS45IDMzLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-viewfinder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-viewfinder.svg)
  */
 const FaceViewfinder: typeof Icon = x => (
     <Icon {...x}>

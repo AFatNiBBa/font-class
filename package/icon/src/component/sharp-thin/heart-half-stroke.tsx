@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `heart-half-stroke` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-half-stroke?s=sharp-thin heart-half-stroke}
- * @preview ![heart-half-stroke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDExMC42bDAgMzM4LjdMNzUuMyAyNzYuNyA1MS4xIDI1Mi41QzI4LjYgMjMwIDE2IDE5OS41IDE2IDE2Ny44QzE2IDEwMS42IDY5LjYgNDggMTM1LjggNDhjMzEuOCAwIDYyLjIgMTIuNiA4NC43IDM1LjFsMjQuMiAyNC4yIDMuMyAzLjN6bTE2IDMzOC43bDAtMzM4LjcgMy4zLTMuMyAyNC4yLTI0LjJDMzE0IDYwLjYgMzQ0LjUgNDggMzc2LjIgNDhDNDQyLjQgNDggNDk2IDEwMS42IDQ5NiAxNjcuOGMwIDMxLjgtMTIuNiA2Mi4yLTM1LjEgODQuN2wtMjQuMiAyNC4yTDI2NCA0NDkuNHpNMjU2IDQ4MGwxMS4zLTExLjNMNDQ4IDI4OGwyNC4yLTI0LjJjMjUuNS0yNS41IDM5LjgtNjAgMzkuOC05NkM1MTIgOTIuOCA0NTEuMiAzMiAzNzYuMiAzMmMtMzYgMC03MC41IDE0LjMtOTYgMzkuOEwyNjcuMyA4NC43IDI1NiA5NiAyNDQuNyA4NC43IDIzMS44IDcxLjhjLTI1LjUtMjUuNS02MC0zOS44LTk2LTM5LjhDNjAuOCAzMiAwIDkyLjggMCAxNjcuOGMwIDM2IDE0LjMgNzAuNSAzOS44IDk2TDY0IDI4OCAyNDQuNyA0NjguNyAyNTYgNDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![heart-half-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/heart-half-stroke.svg)
  */
 const HeartHalfStroke: typeof Icon = x => (
     <Icon {...x}>

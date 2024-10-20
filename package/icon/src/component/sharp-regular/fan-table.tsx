@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fan-table` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fan-table?s=sharp-regular fan-table}
- * @preview ![fan-table](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQwMGExNzYgMTc2IDAgMSAwIDAtMzUyIDE3NiAxNzYgMCAxIDAgMCAzNTJ6TTQ0OCAyMjRjMCAxMTUuNi04Ny42IDIxMC44LTIwMCAyMjIuN2wwIDE3LjMgMTEyIDAgMjQgMCAwIDQ4LTI0IDAtMTM2IDBMODggNTEybC0yNCAwIDAtNDggMjQgMCAxMTIgMCAwLTE3LjNDODcuNiA0MzQuOCAwIDMzOS42IDAgMjI0QzAgMTAwLjMgMTAwLjMgMCAyMjQgMFM0NDggMTAwLjMgNDQ4IDIyNHpNMTE4LjQgMTk3LjZjLTE2LjYtNDEgMy4yLTg3LjYgNDQuMi0xMDQuMWwyMi4zLTkgMzguMiA5NC40YzE2LjctMjMuNyA0NS44LTM3LjUgNzYuNi0zMy4yYzQzLjggNi4xIDc0LjIgNDYuNiA2OC4xIDkwLjRsLTMuMyAyMy44TDI2My41IDI0NS43YzEyLjIgMjYuNCA5LjYgNTguNC05LjYgODIuOWMtMjcuMiAzNC44LTc3LjUgNDEtMTEyLjMgMTMuOGwtMTguOS0xNC44IDYyLjctODAuM2MtMjguOS0yLjYtNTUuNC0yMS02Ny00OS43ek0yMjQgMjQwYTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fan-table](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/fan-table.svg)
  */
 const FanTable: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

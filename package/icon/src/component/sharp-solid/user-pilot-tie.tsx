@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-pilot-tie` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-pilot-tie?s=sharp-solid user-pilot-tie}
- * @preview ![user-pilot-tie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTkuMkw4MCAxMjhjMTYgMTAuNyA2Ny4yIDMyIDE0NCAzMnMxMjgtMjEuMyAxNDQtMzJsMC0yOC44TDQwMCA4MGwwLTMyTDIyNCAwIDQ4IDQ4bDAgMzJMODAgOTkuMnptODguOC00MC43bDE0LjMgNy4yTDIyNCA4Ni4xbDQwLjgtMjAuNCAxNC4zLTcuMiAxNC4zIDI4LjYtMTQuMyA3LjItNDggMjQtNy4yIDMuNi03LjItMy42LTQ4LTI0LTE0LjMtNy4yIDE0LjMtMjguNnpNOTguMSAxNjguOEM5Ni43IDE3Ni4zIDk2IDE4NC4xIDk2IDE5MmMwIDcwLjcgNTcuMyAxMjggMTI4IDEyOHMxMjgtNTcuMyAxMjgtMTI4YzAtNy45LS43LTE1LjctMi4xLTIzLjJDMzEwLjggMTgzLjggMjY4LjQgMTkyIDIyNCAxOTJzLTg2LjgtOC4yLTEyNS45LTIzLjJ6TTQ0OCA1MTJMNDAwIDM1MmwtODAgMEwyNTIuMiA0NjQuOSAyNDAgNDE2bDMyLTY0LTk2IDAgMzIgNjQtMTIuMiA0OC45TDEyOCAzNTJsLTgwIDBMMCA1MTJsMTkyIDAgNjQgMCAxOTIgMHpNMzIwIDQxNmwxNiAwIDMyIDAgMTYgMCAwIDMyLTE2IDAtMzIgMC0xNiAwIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-pilot-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-pilot-tie.svg)
  */
 const UserPilotTie: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

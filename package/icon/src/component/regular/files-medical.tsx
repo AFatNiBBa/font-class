@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `files-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/files-medical?s=regular files-medical}
- * @preview ![files-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDM2OGwtMjI0IDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTI4OGMwLTguOCA3LjItMTYgMTYtMTZsMTYwIDAgMCA0OGMwIDE3LjcgMTQuMyAzMiAzMiAzMmw0OCAwIDAgMjI0YzAgOC44LTcuMiAxNi0xNiAxNnpNMTYwIDQxNmwyMjQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTIyOS41YzAtMTctNi43LTMzLjMtMTguNy00NS4zTDM3MC43IDE4LjdDMzU4LjcgNi43IDM0Mi41IDAgMzI1LjUgMEwxNjAgMEMxMjQuNyAwIDk2IDI4LjcgOTYgNjRsMCAyODhjMCAzNS4zIDI4LjcgNjQgNjQgNjR6TTQ4IDEyMGMwLTEzLjMtMTAuNy0yNC0yNC0yNFMwIDEwNi43IDAgMTIwTDAgMzc2YzAgNzUuMSA2MC45IDEzNiAxMzYgMTM2bDE5MiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0xOTIgMGMtNDguNiAwLTg4LTM5LjQtODgtODhsMC0yNTZ6bTE5Ny4zIDcybDAgMzcuMy0zNy4zIDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDIxLjNjMCA4LjggNy4yIDE2IDE2IDE2bDM3LjMgMCAwIDM3LjNjMCA4LjggNy4yIDE2IDE2IDE2bDIxLjMgMGM4LjggMCAxNi03LjIgMTYtMTZsMC0zNy4zIDM3LjMgMGM4LjggMCAxNi03LjIgMTYtMTZsMC0yMS4zYzAtOC44LTcuMi0xNi0xNi0xNmwtMzcuMyAwIDAtMzcuM2MwLTguOC03LjItMTYtMTYtMTZsLTIxLjMgMGMtOC44IDAtMTYgNy4yLTE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![files-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/files-medical.svg)
  */
 const FilesMedical: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

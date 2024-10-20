@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `inbox-out` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox-out?s=sharp-thin inbox-out}
- * @preview ![inbox-out](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY0IDMxMmwwIDgtMTYgMCAwLTggMC0yNzYuN0wxNDEuNyAxNDEuN2wtNS43IDUuN0wxMjQuNyAxMzZsNS43LTUuNyAxMjAtMTIwTDI1NiA0LjdsNS43IDUuNyAxMjAgMTIwIDUuNyA1LjdMMzc2IDE0Ny4zbC01LjctNS43TDI2NCAzNS4zIDI2NCAzMTJ6bS0xMTIgOGwzMiA2NCAxNDQgMCAzMi02NCAxMzYgMCAxNiAwIDAgMTYgMCAxNjAgMCAxNi0xNiAwTDE2IDUxMiAwIDUxMmwwLTE2TDAgMzM2bDAtMTYgMTYgMCAxMzYgMHptMTkwLjMgNzEuMmMtMi43IDUuNC04LjIgOC44LTE0LjMgOC44bC0xNDQgMGMtNi4xIDAtMTEuNi0zLjQtMTQuMy04LjhMMTQyLjEgMzM2IDE2IDMzNmwwIDE2MCA0ODAgMCAwLTE2MC0xMjYuMSAwLTI3LjYgNTUuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![inbox-out](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/inbox-out.svg)
  */
 const InboxOut: typeof Icon = x => (
     <Icon {...x}>

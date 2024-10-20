@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `registered` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/registered?s=duotone registered}
- * @preview ![registered](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NmEyNTYgMjU2IDAgMSAwIDUxMiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZ6TTE2MCAxNTJjMC0xMy4zIDEwLjctMjQgMjQtMjRsODggMGM0NC4yIDAgODAgMzUuOCA4MCA4MGMwIDI4LTE0LjQgNTIuNy0zNi4zIDY3bDM0LjEgNzUuMWM1LjUgMTIuMSAuMSAyNi4zLTExLjkgMzEuOGMtMy4yIDEuNS02LjYgMi4yLTkuOSAyLjJjLTkuMSAwLTE3LjgtNS4yLTIxLjktMTQuMUwyNjguOSAyODggMjA4IDI4OGwwIDcyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtOTYgMC0xMTJ6bTQ4IDI0bDAgNjQgNjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTE4NCAxMjhjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgMTEyIDAgOTZjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTcyIDYwLjkgMCAzNy4yIDgxLjljNS41IDEyLjEgMTkuNyAxNy40IDMxLjggMTEuOXMxNy40LTE5LjcgMTEuOS0zMS44TDMxNS43IDI3NWMyMS44LTE0LjMgMzYuMy0zOSAzNi4zLTY3YzAtNDQuMi0zNS44LTgwLTgwLTgwbC04OCAwem04OCAxMTJsLTY0IDAgMC02NCA2NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![registered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/registered.svg)
  */
 const Registered: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM160 152c0-13.3 10.7-24 24-24l88 0c44.2 0 80 35.8 80 80c0 28-14.4 52.7-36.3 67l34.1 75.1c5.5 12.1 .1 26.3-11.9 31.8c-3.2 1.5-6.6 2.2-9.9 2.2c-9.1 0-17.8-5.2-21.9-14.1L268.9 288 208 288l0 72c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-96 0-112zm48 24l0 64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0z" />
-            <path d="M184 128c-13.3 0-24 10.7-24 24l0 112 0 96c0 13.3 10.7 24 24 24s24-10.7 24-24l0-72 60.9 0 37.2 81.9c5.5 12.1 19.7 17.4 31.8 11.9s17.4-19.7 11.9-31.8L315.7 275c21.8-14.3 36.3-39 36.3-67c0-44.2-35.8-80-80-80l-88 0zm88 112l-64 0 0-64 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
+        <path d="M184 128c-13.3 0-24 10.7-24 24l0 112 0 96c0 13.3 10.7 24 24 24s24-10.7 24-24l0-72 60.9 0 37.2 81.9c5.5 12.1 19.7 17.4 31.8 11.9s17.4-19.7 11.9-31.8L315.7 275c21.8-14.3 36.3-39 36.3-67c0-44.2-35.8-80-80-80l-88 0zm88 112l-64 0 0-64 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
     </Icon>
 );
 

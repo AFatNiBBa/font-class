@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `candle-holder` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candle-holder?s=sharp-thin candle-holder}
- * @preview ![candle-holder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE3NmMtMzUuMyAwLTY0LTI4LjctNjQtNjRjMC03LjkgMy40LTE3LjkgMTAuMy0yOS42YzYuNy0xMS41IDE2LTIzIDI1LjUtMzMuNmM5LjUtMTAuNSAxOS4xLTE5LjYgMjYuNC0yNi4xTDE2MCAyMWwxLjggMS42YzcuMiA2LjUgMTYuOCAxNS42IDI2LjQgMjYuMWM5LjYgMTAuNiAxOC44IDIyLjEgMjUuNSAzMy42QzIyMC42IDk0LjEgMjI0IDEwNC4xIDIyNCAxMTJjMCAzNS4zLTI4LjcgNjQtNjQgNjR6TTE2MCAwcy04MCA2NC04MCAxMTJjMCA0NC4yIDM1LjggODAgODAgODBzODAtMzUuOCA4MC04MEMyNDAgNjQgMTYwIDAgMTYwIDB6TTExMiAyNDBsMTYgMCAwIDQ4IDAgOCAxNiAwIDAtOCAwLTQ4IDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyMjRMODAgNDk2bDAtMjI0YzAtMTcuNyAxNC4zLTMyIDMyLTMyek0yNTYgNDk2bDAtMjI0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC05NiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDIyNEw4IDQ5NmwtOCAwIDAgMTYgOCAwIDU2IDAgMTYgMCAxNjAgMCAxNiAwIDEyOCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0cy0yOC43LTY0LTY0LTY0cy02NCAyOC43LTY0IDY0YzAgMTkuMSA4LjQgMzYuMyAyMS43IDQ4TDI1NiA0OTZ6bTgwLTQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![candle-holder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/candle-holder.svg)
  */
 const CandleHolder: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

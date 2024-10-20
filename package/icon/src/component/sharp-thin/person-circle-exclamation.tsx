@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-circle-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-exclamation?s=sharp-thin person-circle-exclamation}
- * @preview ![person-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDk2YTQwIDQwIDAgMSAwIDAtODAgNDAgNDAgMCAxIDAgMCA4MHptMC05NmE1NiA1NiAwIDEgMSAwIDExMkE1NiA1NiAwIDEgMSAxNjAgMHpNOTUuOSAxMjhsNSAwIDExOC4yIDAgNSAwIDIuMiA0LjUgNjMuNSAxMzEuN2MtMy43IDUtNy4xIDEwLjItMTAuMiAxNS42TDIxNC4xIDE0NGwtMTA4LjEgMEwyMy4yIDMxNS41bC0zLjUgNy4yLTE0LjQtNyAzLjUtNy4yIDg0LjktMTc2IDIuMi00LjV6TTEwNCAyNDhsMCAyNDggMzIgMCAwLTE1MiAwLTggOCAwIDMyIDAgOCAwIDAgOCAwIDE1MiAzMiAwIDAtMjQ4IDAtOCAxNiAwIDAgOCAwIDI1NiAwIDgtOCAwLTQ4IDAtOCAwIDAtOCAwLTE1Mi0xNiAwIDAgMTUyIDAgOC04IDAtNDggMC04IDAgMC04IDAtMjU2IDAtOCAxNiAwIDAgOHpNNTYwIDM2OGExMjggMTI4IDAgMSAwIC0yNTYgMCAxMjggMTI4IDAgMSAwIDI1NiAwem0tMjcyIDBhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMTU2IDc2bC0yNCAwIDAtMjQgMjQgMCAwIDI0em0tNC0xNjRsMCA4IDAgOTYgMCA4LTE2IDAgMC04IDAtOTYgMC04IDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-circle-exclamation.svg)
  */
 const PersonCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

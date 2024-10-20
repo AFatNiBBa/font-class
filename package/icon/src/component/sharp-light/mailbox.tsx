@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mailbox` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mailbox?s=sharp-light mailbox}
- * @preview ![mailbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjA4bDAgMjA4IDIyNCAwIDAtMjA4YzAtNjEuOS01MC4xLTExMi0xMTItMTEyUzMyIDE0Ni4xIDMyIDIwOHptMjU2IDBsMCAyMDggMjU2IDAgMC0yMDhjMC02MS45LTUwLjEtMTEyLTExMi0xMTJMMjM0LjUgOTZjMzIuNiAyNi40IDUzLjUgNjYuOCA1My41IDExMnpNMCAyMDhDMCAxMjguNSA2NC41IDY0IDE0NCA2NGwyODggMGM3OS41IDAgMTQ0IDY0LjUgMTQ0IDE0NGwwIDIwOCAwIDMyLTMyIDAtMjU2IDAtMzIgMEwzMiA0NDggMCA0NDhsMC0zMkwwIDIwOHptMTEyLTE2bDY0IDAgMTYgMCAwIDMyLTE2IDAtNjQgMC0xNiAwIDAtMzIgMTYgMHptMjI0IDBsOTYgMCA2NCAwIDE2IDAgMCAxNiAwIDk2IDAgMTYtMTYgMC02NCAwLTE2IDAgMC0xNiAwLTgwLTgwIDAtMTYgMCAwLTMyIDE2IDB6bTExMiA5NmwzMiAwIDAtNjQtMzIgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mailbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mailbox.svg)
  */
 const Mailbox: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

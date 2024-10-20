@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mars` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars?s=sharp-thin mars}
- * @preview ![mars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk2IDMybC04IDAgMCAxNiA4IDAgMTI0LjcgMC0xMjYgMTI2Yy0zMS4zLTI4LjYtNzIuOS00Ni0xMTguNy00NkM3OC44IDEyOCAwIDIwNi44IDAgMzA0czc4LjggMTc2IDE3NiAxNzZzMTc2LTc4LjggMTc2LTE3NmMwLTQ1LjctMTcuNC04Ny40LTQ2LTExOC43bDEyNi0xMjZMNDMyIDE4NGwwIDggMTYgMCAwLTggMC0xNDQgMC04LTggMEwyOTYgMzJ6TTE2IDMwNGExNjAgMTYwIDAgMSAxIDMyMCAwQTE2MCAxNjAgMCAxIDEgMTYgMzA0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mars.svg)
  */
 const Mars: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

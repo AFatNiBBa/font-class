@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-circle-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-circle-check?s=sharp-regular house-circle-check}
- * @preview ![house-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IC41bDE1LjUgMTMuMkw1MTQuOCAxOTNjLTYuMi0uNy0xMi41LTEtMTguOC0xYy0xNi44IDAtMzMuMSAyLjQtNDguNSA2LjhMMjg4IDYzLjUgMTEyIDIxMi44IDExMiA0NjRsODAgMCAwLTE2OCAwLTI0IDI0IDAgMTMyLjUgMGMtOS41IDE0LjYtMTcgMzAuOC0yMS44IDQ4TDI0MCAzMjBsMCAxNDQgOTYgMCAxMi41IDBjMTIuMyAxOC44IDI4IDM1LjEgNDYuMyA0OEw4OCA1MTJsLTI0IDAgMC0yNCAwLTIzNC41TDM5LjUgMjc0LjMgOC41IDIzNy43bDI2NC0yMjRMMjg4IC41ek0zNTIgMzY4YTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTIyMi42LTMyTDU1MiAzMTMuNGwtMTEuMyAxMS4zTDQ4MCAzODUuNGwtMjguNy0yOC43TDQ0MCAzNDUuNCA0MTcuNCAzNjhsMTEuMyAxMS4zIDQwIDQwTDQ4MCA0MzAuNmwxMS4zLTExLjMgNzItNzJMNTc0LjYgMzM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-circle-check.svg)
  */
 const HouseCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

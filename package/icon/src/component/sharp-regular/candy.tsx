@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `candy` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy?s=sharp-regular candy}
- * @preview ![candy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA5IDM5OS42TDE5OC41IDE3OC43QzE4NC4zIDIwMSAxNzYgMjI3LjUgMTc2IDI1NmMwIDc1LjggNTguNiAxMzcuOSAxMzMgMTQzLjZ6TTIzMy4zIDE0MUwzNjAgMzk0LjRjMTcuMS00LjkgMzIuOC0xMi45IDQ2LjctMjMuNEwyODAgMTE3LjZjLTE3LjEgNC45LTMyLjggMTIuOS00Ni43IDIzLjR6TTMzMSAxMTIuNEw0NDEuNSAzMzMuM0M0NTUuNyAzMTEgNDY0IDI4NC41IDQ2NCAyNTZjMC03NS44LTU4LjYtMTM3LjktMTMzLTE0My42ek01MDQuNiAzMDguOUM0ODEuNyAzODkuMiA0MDcuNyA0NDggMzIwIDQ0OHMtMTYxLjctNTguOC0xODQuNi0xMzkuMUwzNS4yIDM2NS4yIDcgMzI3bDM1LjYtMzUuNkwwIDI3OWwwLTQ2IDQyLjYtMTIuNUw3IDE4NWwyOC4yLTM4LjIgMTAwLjEgNTYuM0MxNTguMyAxMjIuOCAyMzIuMyA2NCAzMjAgNjRzMTYxLjcgNTguOCAxODQuNiAxMzkuMWwxMDAuMS01Ni4zTDYzMyAxODVsLTM1LjYgMzUuNkw2NDAgMjMzbDAgNDYtNDIuNiAxMi41TDYzMyAzMjdsLTI4LjIgMzguMkw1MDQuNiAzMDguOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![candy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/candy.svg)
  */
 const Candy: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

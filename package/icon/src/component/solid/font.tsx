@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `font` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/font?s=solid font}
- * @preview ![font](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU0IDUyLjhDMjQ5LjMgNDAuMyAyMzcuMyAzMiAyMjQgMzJzLTI1LjMgOC4zLTMwIDIwLjhMNTcuOCA0MTYgMzIgNDE2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDk2IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJsLTEuOCAwIDE4LTQ4IDE1OS42IDAgMTggNDgtMS44IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsOTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtMjUuOCAwTDI1NCA1Mi44ek0yNzkuOCAzMDRsLTExMS42IDBMMjI0IDE1NS4xIDI3OS44IDMwNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![font](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/font.svg)
  */
 const Font: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

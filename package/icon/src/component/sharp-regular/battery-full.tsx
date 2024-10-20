@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-full` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-full?s=sharp-regular battery-full}
- * @preview ![battery-full](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDE0NGwwIDIyNEw0OCAzNjhsMC0yMjQgNDQ4IDB6TTQ4IDk2TDAgOTZsMCA0OEwwIDM2OGwwIDQ4IDQ4IDAgNDQ4IDAgNDggMCAwLTQ4IDAtNDggMzIgMCAwLTEyOC0zMiAwIDAtNDggMC00OC00OCAwTDQ4IDk2em00MDAgOTZMOTYgMTkybDAgMTI4IDM1MiAwIDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![battery-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/battery-full.svg)
  */
 const BatteryFull: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

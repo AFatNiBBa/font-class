@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hacker-news` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hacker-news?s=brands hacker-news}
- * @preview ![hacker-news](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMnY0NDhoNDQ4VjMySDB6bTIxLjIgMTk3LjJIMjFjLjEtLjEuMi0uMy4zLS40IDAgLjEgMCAuMy0uMS40em0yMTggNTMuOVYzODRoLTMxLjRWMjgxLjNMMTI4IDEyOGgzNy4zYzUyLjUgOTguMyA0OS4yIDEwMS4yIDU5LjMgMTI1LjYgMTIuMy0yNyA1LjgtMjQuNCA2MC42LTEyNS42SDMyMGwtODAuOCAxNTUuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hacker-news](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/hacker-news.svg)
  */
 const HackerNews: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flask-gear` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-gear?s=sharp-regular flask-gear}
- * @preview ![flask-gear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDIyOC41bDAtMTMuNkwyNzIgNDhsLTk2IDAgMCAxNjYuOSAwIDEzLjYtNy4xIDExLjZMMTAwIDM1MmwyMjUuNSAwLTM1LjYgMjAuNUwzNjAgNDkzLjhsMCAxOC4yTDQ4IDUxMiAwIDUxMmwwLTQ4IDAtNDEuMSAxMjgtMjA4TDEyOCA0OGwtOCAwTDk2IDQ4IDk2IDBsMjQgMCA4IDAgNDggMCA5NiAwIDQ4IDAgOCAwIDI0IDAgMCA0OC0yNCAwLTggMCAwIDE2Ni45IDE5IDMwLjktMjcuMyA0Ny4zLTMyLjYtNTNMMjcyIDIyOC41em0xNjQtMjIuMWw4OC4xIDAgMCA0Mi40YzcuOSAzLjQgMTUuNCA3LjcgMjIuMyAxMi44bDM1LTIwLjIgNDUgNzcuOC0zNS4yIDIwLjNjLjQgNCAuNyA4LjEgLjcgMTIuM3MtLjIgOC4yLS43IDEyLjNsMzUuMiAyMC4zLTQ1IDc3LjgtMzUuMS0yMC4yYy02LjkgNS4xLTE0LjMgOS40LTIyLjMgMTIuOGwwIDQyLjRMNDM2IDQ5N2wwLTQyLjJjLTgtMy40LTE1LjYtNy43LTIyLjUtMTIuOWwtMzQuOSAyMC4xLTQ1LTc3LjggMzQuOS0yMC4xYy0uNC00LjEtLjctOC4yLS43LTEyLjRzLjItOC4zIC43LTEyLjRsLTM0LjktMjAuMiA0NC45LTc3LjggMzQuOSAyMC4yYzYuOS01LjEgMTQuNS05LjQgMjIuNS0xMi45bDAtNDIuMnptOTIuMSAxNDUuM2E0OC4xIDQ4LjEgMCAxIDAgLTk2LjEgMCA0OC4xIDQ4LjEgMCAxIDAgOTYuMSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![flask-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/flask-gear.svg)
  */
 const FlaskGear: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

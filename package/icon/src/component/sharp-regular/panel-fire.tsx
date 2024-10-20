@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `panel-fire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panel-fire?s=sharp-regular panel-fire}
- * @preview ![panel-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDgwTDQ4IDgwbDAgMzUyIDI1Ny41IDBjOC4xIDE3LjYgMTguOCAzMy44IDMxLjUgNDhMNDggNDgwIDAgNDgwbDAtNDhMMCA4MCAwIDMybDQ4IDAgMzUyIDAgNDggMCAwIDQ4IDAgNDIuMS0xNyAxMC42Yy05LjEgNS43LTE5LjcgMTMuMi0zMSAyMi40TDQwMCA4MHpNMjkyLjUgMzEyTDI2NCAzMTJsMC00OCA0NS44IDBjLTcuNCAxNS0xMy40IDMxLjEtMTcuMiA0OHpNMzQzIDIxMi4zYy0zIDMuOC02IDcuNy04LjkgMTEuN0w5NiAyMjRsMC05NiAyNTYgMCAwIDczLjRjLTMuMSAzLjUtNi4xIDcuMS05IDEwLjl6TTIzMiAyNjRsMCA0OC00OCAwIDAtNDggNDggMHptLTgwIDBsMCA0OC00OCAwIDAtNDggNDggMHpNNDQ4IDE2MGw2NCA2NCAzMi0zMmM3Ni44IDY0IDk2IDEzMy4zIDk2IDE2MGMwIDg4LjQtNzEuNiAxNjAtMTYwIDE2MHMtMTYwLTcxLjYtMTYwLTE2MGMwLTg5LjYgODUuMy0xNjUuMyAxMjgtMTkyem05NiAyNDAuMmMwLTQ4LTY0LTk2LTY0LTk2cy02NCA0OC02NCA5NmMwIDM1LjMgMjguNyA2NCA2NCA2NHM2NC0yOC43IDY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![panel-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/panel-fire.svg)
  */
 const PanelFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wave-pulse` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wave-pulse?s=regular wave-pulse}
- * @preview ![wave-pulse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE5LjQgMGMxMS4xLS4zIDIxIDcuMSAyMy44IDE3LjlsNzkuMyAzMDMuOSAyNy4xLTU3LjdjOS4yLTE5LjYgMjktMzIuMiA1MC43LTMyLjJMNjE2IDIzMmMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtMTE1LjcgMGMtMy4xIDAtNS45IDEuOC03LjIgNC42TDQzNy43IDQwMi4yYy00LjMgOS4xLTEzLjkgMTQuNi0yMy45IDEzLjdzLTE4LjUtOC4xLTIxLTE3LjhMMzIyLjcgMTI5LjQgMjQ3LjUgNDkyLjljLTIuMiAxMC45LTExLjYgMTguOC0yMi43IDE5LjFzLTIxLTYuOS0yMy45LTE3LjZMMTQzLjMgMjg1LjljLTEtMy41LTQuMS01LjktNy43LTUuOUwyNCAyODBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsMTExLjYgMGMyNS4yIDAgNDcuMyAxNi44IDU0IDQxLjFsMzEgMTEyLjZMMjk2LjUgMTkuMUMyOTguOCA4LjIgMzA4LjIgLjMgMzE5LjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wave-pulse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/wave-pulse.svg)
  */
 const WavePulse: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

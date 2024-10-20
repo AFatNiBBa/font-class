@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `helmet-un` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helmet-un?s=sharp-solid helmet-un}
- * @preview ![helmet-un](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc5LjUgMjI0QzQ3MS4yIDk4LjkgMzY3LjIgMCAyNDAgMEMxMDcuNSAwIDAgMTA3LjUgMCAyNDBMMCAzNTJsMCAzMiAzMiAwIDE2OCAwIDE0LjkgMEwzNDMuNSA1MDUuNGM0LjUgNC4yIDEwLjQgNi42IDE2LjUgNi42bDk2IDAgMjQgMCAwLTQ4LTI0IDAtODYuNSAwLTEuNS0xLjVMMzY4IDI4OGw0OCAwIDMyIDAgMzIgMCAzMiAwIDAtNjQtMzIgMC0uNSAwek0zMjAgNDE3LjJsLTc4LTczLjdMMjc0LjQgMjg4bDQ1LjYgMCAwIDEyOS4yek0xNjAgMTEybDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTY0IDAtMTYgMzIgMCAwIDE2IDAgNjRjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhsMC02NCAwLTE2IDMyIDAgMCAxNnpNMjcyIDk2bDggMCA5LjkgMCA0LjQgOC44TDMyMCAxNTYuMmwwLTQ0LjIgMC0xNiAzMiAwIDAgMTYgMCA5NiAwIDE2LTE2IDAtOCAwLTkuOSAwLTQuNC04LjhMMjg4IDE2My44bDAgNDQuMiAwIDE2LTMyIDAgMC0xNiAwLTk2IDAtMTYgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![helmet-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/helmet-un.svg)
  */
 const HelmetUn: typeof Icon = x => (
     <Icon {...x}>

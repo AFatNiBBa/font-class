@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clipboard-prescription` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-prescription?s=solid clipboard-prescription}
- * @preview ![clipboard-prescription](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBjLTQxLjggMC03Ny40IDI2LjctOTAuNSA2NEw2NCA2NEMyOC43IDY0IDAgOTIuNyAwIDEyOEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NGwtMzcuNSAwQzI2OS40IDI2LjcgMjMzLjggMCAxOTIgMHptMCA2NGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6TTEwNCAxOTZsNzIgMGMzMy4xIDAgNjAgMjYuOSA2MCA2MGMwIDI1LjUtMTUuOSA0Ny4yLTM4LjMgNTUuOWw0MyA0MC4zIDMzLjgtMzFjOC4xLTcuNSAyMC44LTYuOSAyOC4zIDEuMnM2LjkgMjAuOC0xLjIgMjguM0wyNzAgMzc5LjdsMzEuNyAyOS43YzguMSA3LjYgOC41IDIwLjIgLjkgMjguM3MtMjAuMiA4LjUtMjguMyAuOWwtMzMuOS0zMS44LTM0LjkgMzJjLTguMSA3LjUtMjAuOCA2LjktMjguMy0xLjJzLTYuOS0yMC44IDEuMi0yOC4zbDMyLjYtMjkuOS02NC44LTYwLjhjLS45LS44LTEuNi0xLjctMi4zLTIuNmwtMjAgMCAwIDQ0YzAgMTEtOSAyMC0yMCAyMHMtMjAtOS0yMC0yMGwwLTY0IDAtODBjMC0xMSA5LTIwIDIwLTIwem03MiA4MGMxMSAwIDIwLTkgMjAtMjBzLTktMjAtMjAtMjBsLTUyIDAgMCA0MCA1MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clipboard-prescription](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/clipboard-prescription.svg)
  */
 const ClipboardPrescription: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

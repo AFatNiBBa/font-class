@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-list` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-list?s=regular rectangle-list}
- * @preview ![rectangle-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgODBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDMyMGMwIDguOCA3LjIgMTYgMTYgMTZsNDQ4IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMzIwYzAtOC44LTcuMi0xNi0xNi0xNkw2NCA4MHpNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmw0NDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6bTk2IDY0YTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6bTEwNCAwYzAtMTMuMyAxMC43LTI0IDI0LTI0bDIyNCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0yMjQgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjR6bTAgOTZjMC0xMy4zIDEwLjctMjQgMjQtMjRsMjI0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTIyNCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHptMCA5NmMwLTEzLjMgMTAuNy0yNCAyNC0yNGwyMjQgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtMjI0IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0em0tNzItNjRhMzIgMzIgMCAxIDEgMC02NCAzMiAzMiAwIDEgMSAwIDY0ek05NiAzNTJhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rectangle-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/rectangle-list.svg)
  */
 const RectangleList: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

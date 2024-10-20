@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `line-height` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/line-height?s=sharp-regular line-height}
- * @preview ![line-height](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTUuNiAzMy43bDE3IDE2LjEgNjQgNjAuOCAxNy40IDE2LjUtMzMuMSAzNC44LTE3LjQtMTYuNUwxMjAgMTIzLjFsMCAyNjMuOEwxMzkuOCAzNjdsMTctMTdMMTkwLjcgMzg0bC0xNyAxN0wxMTMgNDYxLjhsLTE3IDE3LTE3LTE3TDE4LjIgNDAxbC0xNy0xNyAzMy45LTMzLjkgMTcgMTdMNzIgMzg2LjlsMC0yNjEuN0w1Mi4yIDE0NWwtMTcgMTdMMS4zIDEyOGwxNy0xN0w3OSA1MC4yIDk1LjYgMzMuN3pNMjQ4IDcybDMwNCAwIDI0IDAgMCA0OC0yNCAwLTMwNCAwLTI0IDAgMC00OCAyNCAwem0wIDE2MGwzMDQgMCAyNCAwIDAgNDgtMjQgMC0zMDQgMC0yNCAwIDAtNDggMjQgMHpNMjI0IDM5MmwyNCAwIDMwNCAwIDI0IDAgMCA0OC0yNCAwLTMwNCAwLTI0IDAgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![line-height](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/line-height.svg)
  */
 const LineHeight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cash-register` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cash-register?s=sharp-thin cash-register}
- * @preview ![cash-register](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTZsMCA5NiAxMjAgMCAxNiAwIDEyMCAwIDAtOTZMNDggMTZ6TTMwNCAxMjhsLTEyMCAwIDAgMzIgMjk2IDAgMzIgMjI0IDAgMTEyIDAgMTYtMTYgMEwxNiA1MTIgMCA1MTJsMC0xNkwwIDM4NCAzMiAxNjBsMTM2IDAgMC0zMkw0OCAxMjhsLTE2IDAgMC0xNiAwLTk2TDMyIDAgNDggMCAzMDQgMGwxNiAwIDAgMTYgMCA5NiAwIDE2LTE2IDB6TTE2OCAxNzZMNDUuOSAxNzYgMTYuMiAzODRsNDc5LjcgMEw0NjYuMSAxNzYgMTg0IDE3NmwtMTYgMHpNNDk2IDQ5NmwwLTk2TDE2IDQwMGwwIDk2IDQ4MCAwek0xMjggMjI0bDAgMTYgMCAxNi0xNiAwLTE2IDAgMC0xNiAwLTE2IDE2IDAgMTYgMHptOTYgMGwwIDMyLTMyIDAgMC0zMiAzMiAwem0tNDggODBsMCAzMi0zMiAwIDAtMzIgMzIgMHptNjQgMzJsMC0zMiAzMiAwIDAgMzItMzIgMHptMTI4LTMybDAgMzItMzIgMCAwLTMyIDMyIDB6bTE2LTgwbDMyIDAgMCAzMi0zMiAwIDAtMzJ6TTk2IDU2bDE2MCAwIDggMCAwIDE2LTggMEw5NiA3MmwtOCAwIDAtMTYgOCAwek0yODggMjI0bDMyIDAgMCAzMi0zMiAwIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cash-register](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cash-register.svg)
  */
 const CashRegister: typeof Icon = x => (
     <Icon {...x}>

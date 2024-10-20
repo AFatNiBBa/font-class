@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lock-a` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-a?s=regular lock-a}
- * @preview ![lock-a](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ4YzQ0LjIgMCA4MCAzNS44IDgwIDgwbDAgMzItMTYwIDAgMC0zMmMwLTQ0LjIgMzUuOC04MCA4MC04MHpNOTYgMTI4bDAgMzItMzIgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yMjRjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTMyIDAgMC0zMkMzNTIgNTcuMyAyOTQuNyAwIDIyNCAwUzk2IDU3LjMgOTYgMTI4ek02NCAyMDhsMzIgMCA0OCAwIDE2MCAwIDQ4IDAgMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAyMjRjMCA4LjgtNy4yIDE2LTE2IDE2TDY0IDQ2NGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjI0YzAtOC44IDcuMi0xNiAxNi0xNnptNTguNSAxOTcuM2MtNS45IDExLjktMS4xIDI2LjMgMTAuNyAzMi4yczI2LjMgMS4xIDMyLjItMTAuN0wxNzguOCA0MDBsOTAuMyAwIDEzLjQgMjYuN2M1LjkgMTEuOSAyMC4zIDE2LjcgMzIuMiAxMC43czE2LjctMjAuMyAxMC43LTMyLjJMMjQ1LjYgMjQ1LjVjLTEuMi0yLjQtMi43LTQuNi00LjYtNi41Yy0yLjItMi4yLTQuNy0zLjktNy40LTVjLTMuMS0xLjMtNi4zLTItOS41LTJzLTYuNCAuNi05LjUgMmMtMi43IDEuMi01LjMgMi45LTcuNCA1Yy0xLjkgMS45LTMuNCA0LjEtNC42IDYuNUwxMjIuNSA0MDUuM3pNMjAyLjggMzUyTDIyNCAzMDkuNyAyNDUuMiAzNTJsLTQyLjMgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lock-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/lock-a.svg)
  */
 const LockA: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

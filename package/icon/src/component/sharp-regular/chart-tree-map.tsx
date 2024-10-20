@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-tree-map` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-tree-map?s=sharp-regular chart-tree-map}
- * @preview ![chart-tree-map](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDgwbDAgMTEyTDQ4IDE5MiA0OCA4MGwxMjggMHpNNDggMzJMMCAzMiAwIDgwIDAgMTkybDAgNDggNDggMCAxMjggMCA0OCAwIDAtNDggMC0xMTIgMC00OC00OCAwTDQ4IDMyek0xNzYgMzIwbDAgMTEyTDQ4IDQzMmwwLTExMiAxMjggMHpNNDggMjcyTDAgMjcybDAgNDhMMCA0MzJsMCA0OCA0OCAwIDEyOCAwIDQ4IDAgMC00OCAwLTExMiAwLTQ4LTQ4IDBMNDggMjcyek0zMDQgODBsMTYwIDAgMCAzMi0xNjAgMCAwLTMyek0yNTYgMzJsMCA0OCAwIDMyIDAgNDggNDggMCAxNjAgMCA0OCAwIDAtNDggMC0zMiAwLTQ4LTQ4IDBMMzA0IDMybC00OCAwek00NjQgMjQwbDAgMzItMTYwIDAgMC0zMiAxNjAgMHpNMzA0IDE5MmwtNDggMCAwIDQ4IDAgMzIgMCA0OCA0OCAwIDE2MCAwIDQ4IDAgMC00OCAwLTMyIDAtNDgtNDggMC0xNjAgMHptMCAyMDhsMTYwIDAgMCAzMi0xNjAgMCAwLTMyem0tNDgtNDhsMCA0OCAwIDMyIDAgNDggNDggMCAxNjAgMCA0OCAwIDAtNDggMC0zMiAwLTQ4LTQ4IDAtMTYwIDAtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chart-tree-map](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chart-tree-map.svg)
  */
 const ChartTreeMap: typeof Icon = x => (
     <Icon {...x}>

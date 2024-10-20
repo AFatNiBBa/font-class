@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glass-empty` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-empty?s=thin glass-empty}
- * @preview ![glass-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIuMSAxNmMtOS4zIDAtMTYuNyA4LTE1LjkgMTcuM0w1MC45IDQ1OS4yQzUyLjYgNDgwIDY5LjkgNDk2IDkwLjcgNDk2bDIwMi42IDBjMjAuOCAwIDM4LjItMTYgMzkuOS0zNi44TDM2Ny45IDMzLjNDMzY4LjcgMjQgMzYxLjMgMTYgMzUyIDE2TDMyLjEgMTZ6TS4yIDM0LjZDLTEuMyAxNiAxMy40IDAgMzIuMSAwTDM1MiAwYzE4LjcgMCAzMy40IDE2IDMxLjkgMzQuNmwtMzQuNyA0MjZjLTIuNCAyOS4xLTI2LjcgNTEuNC01NS44IDUxLjRMOTAuNyA1MTJjLTI5LjIgMC01My40LTIyLjQtNTUuOC01MS40TC4yIDM0LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![glass-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/glass-empty.svg)
  */
 const GlassEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

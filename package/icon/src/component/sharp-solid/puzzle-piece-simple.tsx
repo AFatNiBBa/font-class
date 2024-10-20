@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `puzzle-piece-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/puzzle-piece-simple?s=sharp-solid puzzle-piece-simple}
- * @preview ![puzzle-piece-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE0NGMwLTE3LjggMTIuOS0zMy4zIDMyLTQxLjZMMjg4IDY0IDEyOCA2NGwwIDE2MC0zOC40IDBjLTguMy0xOS4xLTIzLjgtMzItNDEuNi0zMmMtMjYuNSAwLTQ4IDI4LjctNDggNjRzMjEuNSA2NCA0OCA2NGMxNy44IDAgMzMuMy0xMi45IDQxLjYtMzJsMzguNCAwIDAgMTYwIDE2MCAwIDAtMzguNGMtMTkuMS04LjMtMzItMjMuOC0zMi00MS42YzAtMjYuNSAyOC43LTQ4IDY0LTQ4czY0IDIxLjUgNjQgNDhjMCAxNy44LTEyLjkgMzMuMy0zMiA0MS42bDAgMzguNCAxNjAgMCAwLTE2MCAzOC40IDBjOC4zIDE5LjEgMjMuOCAzMiA0MS42IDMyYzI2LjUgMCA0OC0yOC43IDQ4LTY0cy0yMS41LTY0LTQ4LTY0Yy0xNy44IDAtMzMuMyAxMi45LTQxLjYgMzJMNTEyIDIyNGwwLTE2MEwzNTIgNjRsMCAzOC40YzE5LjEgOC4zIDMyIDIzLjggMzIgNDEuNmMwIDI2LjUtMjguNyA0OC02NCA0OHMtNjQtMjEuNS02NC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![puzzle-piece-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/puzzle-piece-simple.svg)
  */
 const PuzzlePieceSimple: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

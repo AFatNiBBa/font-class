@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chevrons-left` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chevrons-left?s=regular chevrons-left}
- * @preview ![chevrons-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDcgMjM5Yy05LjQgOS40LTkuNCAyNC42IDAgMzMuOUwyMzkgNDY1YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOUw5Ny45IDI1NiAyNzMgODFjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMEw0NyAyMzl6TTQzMSA0N0wyMzkgMjM5Yy05LjQgOS40LTkuNCAyNC42IDAgMzMuOUw0MzEgNDY1YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtMTc1LTE3NUw0NjUgODFjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chevrons-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chevrons-left.svg)
  */
 const ChevronsLeft: typeof Icon = x => (
     <Icon {...x}>

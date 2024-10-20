@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `filters` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filters?s=solid filters}
- * @preview ![filters](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDMyYy0xNS45IDAtMzAuMiA5LjQtMzYuNiAyMy45cy0zLjYgMzEuNSA3LjIgNDMuMkwzNTIgMjYxLjUgMzUyIDM2OGMwIDEwLjEgNC43IDE5LjYgMTIuOCAyNS42bDY0IDQ4YzkuNyA3LjMgMjIuNyA4LjQgMzMuNSAzczE3LjctMTYuNSAxNy43LTI4LjZsMC0xNTQuNUw2MjkuNCA5OS4xYzEwLjctMTEuNyAxMy42LTI4LjYgNy4yLTQzLjJTNjE1LjkgMzIgNjAwIDMyTDIzMiAzMnpNNDAgOTZjLTE1LjkgMC0zMC4yIDkuNC0zNi42IDIzLjlzLTMuNiAzMS41IDcuMiA0My4yTDE2MCAzMjUuNWwwIDc0LjVjMCAxMC4xIDQuNyAxOS42IDEyLjggMjUuNmw2NCA0OGM5LjcgNy4zIDIyLjcgOC40IDMzLjUgM3MxNy43LTE2LjUgMTcuNy0yOC42bDAtMTIyLjUgMzItMzQuOCAwLTE2LjdMMTc5IDEyMC43Yy02LjctNy4zLTExLjctMTUuNy0xNC45LTI0LjdMNDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![filters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/filters.svg)
  */
 const Filters: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

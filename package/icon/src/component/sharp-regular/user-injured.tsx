@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-injured` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-injured?s=sharp-regular user-injured}
- * @preview ![user-injured](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDIwOGMtNDQuMiAwLTgwLTM1LjgtODAtODBsMzIgMCAxMjggMGMwIDQ0LjItMzUuOCA4MC04MCA4MHpNMTUwLjcgOTZDMTYzIDY3LjcgMTkxLjIgNDggMjI0IDQ4YzEuMiAwIDIuNSAwIDMuNyAuMUwxNzAuMiA5NmwtMTkuNiAwek0yNjQuNiA1OWMxNC41IDguNSAyNiAyMS41IDMyLjggMzdsLTc3LjIgMCA0NC40LTM3ek0yMjQgMjU2QTEyOCAxMjggMCAxIDAgMjI0IDBhMTI4IDEyOCAwIDEgMCAwIDI1NnpNNjUgNDY0TDk2IDM2My4yIDk2IDQ2NGwtMzEgMHptMjM5IDBsLTQyLjcgMC0zMi00OCA3NC43IDAgMCA0OHptMzIgMGwwLTY0IDAtMTYtMTYgMC0xMTIgMC0yMS4zLTMyIDE2MS45IDBMMzgzIDQ2NGwtNDcgMHptNDgtMTYwTDY0IDMwNCAxNC44IDQ2NCAwIDUxMmw1MC4yIDAgMzQ3LjYgMCA1MC4yIDAtMTQuOC00OEwzODQgMzA0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-injured](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-injured.svg)
  */
 const UserInjured: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

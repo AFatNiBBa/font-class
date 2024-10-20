@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-vomit` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-vomit?s=sharp-solid face-vomit}
- * @preview ![face-vomit](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDI1NmMwIDcyLjUtMzAuMSAxMzcuOS03OC41IDE4NC41bC0xNi43LTUuNmMtMTEuOS00LTIxLjUtMTIuMy0yNy4yLTIyLjljMTYuNy0xMi42IDI2LjQtMjcuNyAyNi40LTQ0YzAtNDQuMi03MS42LTgwLTE2MC04MHMtMTYwIDM1LjgtMTYwIDgwYzAgMTYuMyA5LjcgMzEuNCAyNi40IDQ0Yy01LjcgMTAuNi0xNS4yIDE5LTI3LjIgMjIuOWwtMTYuNyA1LjZDNjIuMSAzOTMuOSAzMiAzMjguNSAzMiAyNTZDMzIgMTE0LjYgMTQ2LjYgMCAyODggMFM1NDQgMTE0LjYgNTQ0IDI1NnpNMjYyLjkgMTkyTDE0NCAxMjhsNDUuNyA2NEwxNDQgMjU2bDExOC45LTY0ek00MzIgMTI4TDMxMy4xIDE5MiA0MzIgMjU2bC00NS43LTY0TDQzMiAxMjh6TTMyIDQ0OGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTQ4MCAwYTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6TTE5MiAzOTYuMWwwLTU3LjRjMjMuNi0xMS4xIDU3LjMtMTguNyA5Ni0xOC43czcyLjQgNy42IDk2IDE4LjdsMCA1Ny40YzAgMzEgMTkuOCA1OC41IDQ5LjIgNjguM0w0ODAgNDgwbDAgMzJMOTYgNTEybDAtMzIgNDYuOC0xNS42YzI5LjQtOS44IDQ5LjItMzcuMyA0OS4yLTY4LjN6TTMwNCAzODRhMTYgMTYgMCAxIDAgMCAzMiAxNiAxNiAwIDEgMCAwLTMyem0tNDggNDhhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-vomit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-vomit.svg)
  */
 const FaceVomit: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `heat` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heat?s=solid heat}
- * @preview ![heat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDMyYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgODBjMCAzNC42IDExLjIgNjguMyAzMiA5NmwxOS4yIDI1LjZDMjg4LjMgMzA0LjQgMzA0IDM1MS41IDMwNCA0MDBsMCA0OGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTQ4YzAtMzQuNi0xMS4yLTY4LjMtMzItOTZsLTE5LjItMjUuNkMxNTkuNyAyMzkuNiAxNDQgMTkyLjUgMTQ0IDE0NGwwLTgwYzAtMTcuNyAxNC4zLTMyIDMyLTMyek0zMiA5NmMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyYzAgMzQuNiAxMS4yIDY4LjMgMzIgOTZsMTkuMiAyNS42QzE0NC4zIDMyMC40IDE2MCAzNjcuNSAxNjAgNDE2bDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMmMwLTM0LjYtMTEuMi02OC4zLTMyLTk2TDQ0LjggMjk0LjRDMTUuNyAyNTUuNiAwIDIwOC41IDAgMTYwbDAtMzJjMC0xNy43IDE0LjMtMzIgMzItMzJ6bTMyMCAzMmwwIDMyYzAgMzQuNiAxMS4yIDY4LjMgMzIgOTZsMTkuMiAyNS42QzQzMi4zIDMyMC40IDQ0OCAzNjcuNSA0NDggNDE2bDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMmMwLTM0LjYtMTEuMi02OC4zLTMyLTk2bC0xOS4yLTI1LjZDMzAzLjcgMjU1LjYgMjg4IDIwOC41IDI4OCAxNjBsMC0zMmMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![heat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/heat.svg)
  */
 const Heat: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

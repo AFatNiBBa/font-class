@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ear` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear?s=regular ear}
- * @preview ![ear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDE5MmMwLTc5LjUtNjQuNS0xNDQtMTQ0LTE0NFM0OCAxMTIuNSA0OCAxOTJsMCAxNzZjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmMwLTIxLjcgMTAuOS00Mi42IDI5LjgtNTQuOEMzMDkuNyAyODcuNSAzMzYgMjQyLjggMzM2IDE5MnptNDggMGMwIDY3LjgtMzUuMSAxMjcuNC04OC4yIDE2MS41Yy00LjkgMy4yLTcuOCA4LjYtNy44IDE0LjVjMCA3OS41LTY0LjUgMTQ0LTE0NCAxNDRTMCA0NDcuNSAwIDM2OEwwIDE5MkMwIDg2IDg2IDAgMTkyIDBTMzg0IDg2IDM4NCAxOTJ6bS0yNTYgMGwwIDIwLjJjMCAzIDEuNyA1LjggNC40IDcuMmwxNCA3YzE4LjEgOS4xIDI5LjUgMjcuNiAyOS41IDQ3LjhjMCAxNS45LTcgMzAuOS0xOS4yIDQxLjFsLTM3LjQgMzEuMmMtMTAuMiA4LjUtMjUuMyA3LjEtMzMuOC0zLjFzLTcuMS0yNS4zIDMuMS0zMy44TDEyNiAyNzguNGMxLjItMSAyLTIuNiAyLTQuMmMwLTIuMS0xLjItNC0zLTQuOWwtMTQtN2MtMTktOS41LTMxLTI4LjktMzEtNTAuMUw4MCAxOTJjMC02MS45IDUwLjEtMTEyIDExMi0xMTJzMTEyIDUwLjEgMTEyIDExMmwwIDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC04YzAtMzUuMy0yOC43LTY0LTY0LTY0cy02NCAyOC43LTY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ear.svg)
  */
 const Ear: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

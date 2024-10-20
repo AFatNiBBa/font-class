@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-office` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-office?s=solid phone-office}
- * @preview ![phone-office](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBDMTEwLjMgMCA5NiAxNC4zIDk2IDMybDAgMzUyYzAgMTcuNyAxNC4zIDMyIDMyIDMybDY0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0zNTJjMC0xNy43LTE0LjMtMzItMzItMzJMMTI4IDB6TTY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsNDQ4IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zNTJjMC0zNS4zLTI4LjctNjQtNjQtNjRMMjU2IDMybDAgMzUyYzAgMzUuMy0yOC43IDY0LTY0IDY0bC02NCAwYy0zNS4zIDAtNjQtMjguNy02NC02NEw2NCAzMnptMjU2IDk2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDEyOCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJsLTEyOCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTMyem0zMiAxOTJhMzIgMzIgMCAxIDEgMC02NCAzMiAzMiAwIDEgMSAwIDY0em0xNjAtMzJhMzIgMzIgMCAxIDEgLTY0IDAgMzIgMzIgMCAxIDEgNjQgMHpNNDgwIDQ0OGEzMiAzMiAwIDEgMSAwLTY0IDMyIDMyIDAgMSAxIDAgNjR6bS05Ni0zMmEzMiAzMiAwIDEgMSAtNjQgMCAzMiAzMiAwIDEgMSA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![phone-office](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-office.svg)
  */
 const PhoneOffice: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

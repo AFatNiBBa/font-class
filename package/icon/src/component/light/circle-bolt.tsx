@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-bolt` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-bolt?s=light circle-bolt}
- * @preview ![circle-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTE5MS43IDhsNDguMyAwYzUuNSAwIDEwLjUgMi44IDEzLjUgNy40czMuMyAxMC40IDEgMTUuM2wtMTkuNCA0MS45TDMyMC4zIDI0OCAyNzIgMjQ4Yy01LjUgMC0xMC41LTIuOC0xMy41LTcuNHMtMy4zLTEwLjQtMS0xNS4zbDE5LjQtNDEuOUwxOTEuNyAyNjR6TTMxMy42IDExMmMxNC43IDAgMjQuNCAxNS4yIDE4LjIgMjguNUwyOTcgMjE2bDQ5LjQgMGMxMS45IDAgMjEuNiA5LjcgMjEuNiAyMS42YzAgNS45LTIuNCAxMS42LTYuNyAxNS43TDIxMi4yIDM5NC41Yy0zLjcgMy41LTguNyA1LjUtMTMuOCA1LjVjLTE0LjcgMC0yNC40LTE1LjItMTguMi0yOC41TDIxNSAyOTZsLTQ5LjQgMGMtMTEuOSAwLTIxLjYtOS43LTIxLjYtMjEuNmMwLTUuOSAyLjQtMTEuNiA2LjctMTUuN0wyOTkuOCAxMTcuNWMzLjctMy41IDguNy01LjUgMTMuOC01LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-bolt.svg)
  */
 const CircleBolt: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-peace` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-peace?s=sharp-regular hand-peace}
- * @preview ![hand-peace](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEwLjMgMy4zTDE4Ni41IC44IDE4NCAyNC42IDE3NCAxMTkgMTQ3LjYgNDMuOGwtOC0yMi42LTIyLjYgOEw0MS41IDU1LjdsLTIyLjYgOCA4IDIyLjZMODAuOSAyNDAgNjQgMjQwbDAgMjQgMCA1NnMwIDAgMCAwbDAgMjRzMCAwIDAgMGMwIDkyLjggNzUuMiAxNjggMTY4IDE2OGw0OCAwYzkyLjggMCAxNjgtNzUuMiAxNjgtMTY4bDAtOCAwLTI0IDAtNTYgMC03MiAwLTI0LTI0IDAtNTYgMCAwLTggMC0yNC0yNCAwLTQyLjIgMCA5LjUtOTAgMi41LTIzLjktMjMuOS0yLjVMMjEwLjMgMy4zek0yODggMTgxLjdjMi4yLTEuNiA0LjEtMy41IDUuNy01LjdsMjYuMyAwIDAgOCAwIDcyLTMyIDAgMC03NC4zek0yNTMuNSAxMjhMMjQwIDEyOGwwIDI0IDAgODgtMjMuNCAwLTUuNC0xNS4zIDE4LTE3MS4yTDI2MSA1Ni45IDI1My41IDEyOHpNMTEwLjMgODIuNEwxNjUuNyAyNDBsLTMzLjkgMEw4MC4xIDkzbDMwLjItMTAuNnpNNDAwIDI1NmwwIDMyLTMyIDAgMC04IDAtNzIgMzIgMCAwIDQ4em0wIDgwbDAgOGMwIDY2LjMtNTMuNyAxMjAtMTIwIDEyMGwtNDggMGMtNjYuMyAwLTEyMC01My43LTEyMC0xMjBjMCAwIDAgMCAwIDBsMC0yNHMwIDAgMCAwbDAtMzIgMTI4IDAgMCAzMi01NiAwLTI0IDAgMCA0OCAyNCAwIDgwIDAgMjQgMCAwLTI0IDAtNDAgMzIgMCAwIDggMCAyNCAyNCAwIDU2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-peace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-peace.svg)
  */
 const HandPeace: typeof Icon = x => (
     <Icon {...x}>

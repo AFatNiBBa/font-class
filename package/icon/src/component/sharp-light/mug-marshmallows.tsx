@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mug-marshmallows` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-marshmallows?s=sharp-light mug-marshmallows}
- * @preview ![mug-marshmallows](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyTDY0IDMyIDMyIDMybDAgMzIgMCA2NCAzMiAwIDAtNjQgMTMwLjcgMCAzMi0zMkwyMjQgMzJ6bTEyMS40IDczLjRMMjk0LjYgNTQuNiAyNzIgMzIgMjQ5LjQgNTQuNmwtNTAuNyA1MC43TDE3NiAxMjhsNDUuMyAwTDI3MiA3Ny4zIDMyMi43IDEyOGw0NS4zIDAtMjIuNi0yMi42ek0zMiA0NDhsMC0yNTYgNjQgMCAwIDgwIDAgMTYgMzIgMCAwLTE2IDAtODAgMjA4IDAgMTYgMCAwIDI1NkwzMiA0NDh6bTk2LTI4OGwtMzIgMC02NCAwTDAgMTYwbDAgMzJMMCA0NDhsMCAzMiAzMiAwIDMyMCAwIDMyIDAgMC0zMiAwLTY0IDE2IDBjNjEuOSAwIDExMi01MC4xIDExMi0xMTJzLTUwLjEtMTEyLTExMi0xMTJsLTE2IDAtMzIgMC0xNiAwLTIwOCAwek0zODQgMzUybDAtMTYwIDE2IDBjNDQuMiAwIDgwIDM1LjggODAgODBzLTM1LjggODAtODAgODBsLTE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mug-marshmallows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mug-marshmallows.svg)
  */
 const MugMarshmallows: typeof Icon = x => (
     <Icon {...x}>

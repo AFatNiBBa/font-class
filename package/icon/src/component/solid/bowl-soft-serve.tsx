@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-soft-serve` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-soft-serve?s=solid bowl-soft-serve}
- * @preview ![bowl-soft-serve](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU3LjIgOS45YzIuNS02IDguMy05LjkgMTQuOC05LjlsMzYuNiAwQzM2Ny45IDAgNDE2IDQ4LjEgNDE2IDEwNy40YzAgMTkuOS02LjkgMzguMS0xOC4zIDUyLjZsMTguMyAwYzM1LjMgMCA2NCAyOC43IDY0IDY0cy0yOC43IDY0LTY0IDY0TDk2IDI4OGMtMzUuMyAwLTY0LTI4LjctNjQtNjRzMjguNy02NCA2NC02NGw4LjYgMGMtNS40LTkuNC04LjYtMjAuMy04LjYtMzJjMC0zNS4zIDI4LjctNjQgNjQtNjRsOTQuMSAwQzI2NCA2NCAyNzIgNTYgMjcyIDQ2LjFjMC00LjgtMS45LTkuMy01LjMtMTIuN2wtNi4xLTYuMWMtNC42LTQuNi01LjktMTEuNS0zLjUtMTcuNHpNNjQgMzIwbDM4NCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDhjMCA1Ny40LTQ2LjYgMTA0LTEwNCAxMDRsLTMwLjEgMCAyMC40IDQwLjhjMS4xIDIuMyAxLjcgNC43IDEuNyA3LjJjMCAyLjktLjggNS44LTIuNCA4LjRjLTIuOSA0LjctOC4xIDcuNi0xMy42IDcuNmwtMTYwIDBjLTUuNSAwLTEwLjctMi45LTEzLjYtNy42Yy0xLjYtMi42LTIuNC01LjUtMi40LTguNGMwLTIuNCAuNi00LjkgMS43LTcuMkwxODIuMSA0NDggMTUyIDQ0OEM5NC42IDQ0OCA0OCA0MDEuNCA0OCAzNDRsMC04YzAtOC44IDcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bowl-soft-serve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bowl-soft-serve.svg)
  */
 const BowlSoftServe: typeof Icon = x => (
     <Icon {...x}>

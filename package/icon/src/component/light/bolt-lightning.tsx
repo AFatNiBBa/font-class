@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bolt-lightning` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-lightning?s=light bolt-lightning}
- * @preview ![bolt-lightning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzAuOUMzMiAxMy44IDQ1LjkgMCA2Mi45IDBMMjI2LjIgMEMyNDIuNyAwIDI1NiAxMy4zIDI1NiAyOS44YzAgMy4yLS41IDYuNC0xLjUgOS40TDIxNC4yIDE2MGwxNDEuNiAwYzE1LjYgMCAyOC4yIDEyLjYgMjguMiAyOC4yYzAgNS43LTEuNyAxMS4yLTQuOSAxNS45bC0yMDMuMiAyOTdjLTQuNiA2LjgtMTIuMyAxMC44LTIwLjUgMTAuOGMtMTYuMiAwLTI4LTE1LjItMjQuMS0zMC45TDE3OS41IDI4OCAzMC45IDI4OEMxMy45IDI4OCAwIDI3NC4xIDAgMjU3LjFjMC0xLjUgLjEtMi45IC4zLTQuNEwzMiAzMC45ek02NCAzMmMwIDEuMS0uMSAyLjItLjMgMy4zTDMyLjIgMjU2IDIwMCAyNTZjNC45IDAgOS42IDIuMyAxMi42IDYuMnM0LjEgOC45IDIuOSAxMy43TDE3MS45IDQ1MC4yIDM0OC42IDE5MiAxOTIgMTkyYy01LjEgMC0xMC0yLjUtMTMtNi42cy0zLjgtOS41LTIuMi0xNC40TDIyMy4xIDMyIDY0IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bolt-lightning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bolt-lightning.svg)
  */
 const BoltLightning: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

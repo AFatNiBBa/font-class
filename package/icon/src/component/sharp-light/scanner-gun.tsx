@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scanner-gun` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-gun?s=sharp-light scanner-gun}
- * @preview ![scanner-gun](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDMyTDQxNiAzMmwwIDMyIDE2MCAwIDAtMzJ6TTEyNC4xIDQzNS45TDQyLjkgMzg4LjEgMTE1IDI1NmwxMTAuMyAwTDEyNC4xIDQzNS45ek0yNjIgMjU2bDU4IDAgMzIgMCAwLTMyIDAtMTYwIDAtMzItMzIgMEwxMTIgMzJDNTAuMSAzMiAwIDgyLjEgMCAxNDRjMCA1MS4xIDM0LjIgOTQuMiA4MC45IDEwNy42TDAgNDAwbDEwOC40IDYzLjhMMTM2IDQ4MGwxNS43LTI3LjlMMjYyIDI1NnpNNDE2IDk2bDAgMzIgMTYwIDAgMC0zMkw0MTYgOTZ6bTE2MCA5NmwtMTYwIDAgMCAzMiAxNjAgMCAwLTMyek00MTYgMjU2bDAgMzIgMTYwIDAgMC0zMi0xNjAgMHptMTYwIDY0bC0xNjAgMCAwIDMyIDE2MCAwIDAtMzJ6TTQxNiA0NDhsMCAzMiAxNjAgMCAwLTMyLTE2MCAwek0xMTIgNjRsMjA4IDAgMCAxNjAtNDAgMC0zNi43IDBMMTEyIDIyNGMtNDQuMiAwLTgwLTM1LjgtODAtODBzMzUuOC04MCA4MC04MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scanner-gun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/scanner-gun.svg)
  */
 const ScannerGun: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

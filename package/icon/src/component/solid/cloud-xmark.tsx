@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-xmark?s=solid cloud-xmark}
- * @preview ![cloud-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDQ4MEM2NC41IDQ4MCAwIDQxNS41IDAgMzM2YzAtNjIuOCA0MC4yLTExNi4yIDk2LjItMTM1LjljLS4xLTIuNy0uMi01LjQtLjItOC4xYzAtODguNCA3MS42LTE2MCAxNjAtMTYwYzU5LjMgMCAxMTEgMzIuMiAxMzguNyA4MC4yQzQwOS45IDEwMiA0MjguMyA5NiA0NDggOTZjNTMgMCA5NiA0MyA5NiA5NmMwIDEyLjItMi4zIDIzLjgtNi40IDM0LjZDNTk2IDIzOC40IDY0MCAyOTAuMSA2NDAgMzUyYzAgNzAuNy01Ny4zIDEyOC0xMjggMTI4bC0zNjggMHptOTUtMjczYy05LjQgOS40LTkuNCAyNC42IDAgMzMuOWw0NyA0Ny00NyA0N2MtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlzMjQuNiA5LjQgMzMuOSAwbDQ3LTQ3IDQ3IDQ3YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtNDctNDcgNDctNDdjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMGwtNDcgNDctNDctNDdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloud-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-xmark.svg)
  */
 const CloudXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

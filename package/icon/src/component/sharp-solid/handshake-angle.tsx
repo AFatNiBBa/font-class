@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `handshake-angle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-angle?s=sharp-solid handshake-angle}
- * @preview ![handshake-angle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDE0NEw0OTYgMCA0MzIgNjQgMjI0IDY0bDAgMzIgMCAzMiAwIDE2MCA4MCAwIDAtMTEyIDAtMTZzMCAwIDAgMGwxNiAwIDk2IDAgOTYgMCAzMiAwIDAgMzIgMCA0OCA5Ni05NnpNMTkyIDEyOGwtOTYgMCAwIDE0NEwwIDM2OCAxNDQgNTEybDY0LTY0IDIyNCAwIDAtNjQgNDggMCAwLTgwIDMyIDAgMC0xMTItOTYgMC04MCAwIDAgMTEyIDAgMTYtMTYgMC0xMTIgMC0xNiAwIDAtMTYgMC0xNzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![handshake-angle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/handshake-angle.svg)
  */
 const HandshakeAngle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

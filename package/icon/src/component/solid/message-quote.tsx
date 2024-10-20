@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-quote` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-quote?s=solid message-quote}
- * @preview ![message-quote](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMNDQ4IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyODhjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTEzOC43IDBMMTg1LjYgNTA4LjhjLTQuOCAzLjYtMTEuMyA0LjItMTYuOCAxLjVzLTguOC04LjItOC44LTE0LjNsMC04MC05NiAwYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDY0em0xNjAgNDhjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgNDhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzIgMCAwIDcuM2MwIDExLjctOC41IDIxLjctMjAuMSAyMy43bC03LjkgMS4zYy0xMy4xIDIuMi0yMS45IDE0LjUtMTkuNyAyNy42czE0LjUgMjEuOSAyNy42IDE5LjdsNy45LTEuM2MzNC43LTUuOCA2MC4yLTM1LjggNjAuMi03MWwwLTM5LjMgMC0yNCAwLTI0YzAtMTcuNy0xNC4zLTMyLTMyLTMybC00OCAwem0yMjQgODBsMC0yNCAwLTI0YzAtMTcuNy0xNC4zLTMyLTMyLTMybC00OCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDQ4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyIDAgMCA3LjNjMCAxMS43LTguNSAyMS43LTIwLjEgMjMuN2wtNy45IDEuM2MtMTMuMSAyLjItMjEuOSAxNC41LTE5LjcgMjcuNnMxNC41IDIxLjkgMjcuNiAxOS43bDcuOS0xLjNjMzQuNy01LjggNjAuMi0zNS44IDYwLjItNzFsMC0zOS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![message-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/message-quote.svg)
  */
 const MessageQuote: typeof Icon = x => (
     <Icon {...x}>

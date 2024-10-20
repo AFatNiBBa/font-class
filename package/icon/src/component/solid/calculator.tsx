@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calculator` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calculator?s=solid calculator}
- * @preview ![calculator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zODRjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMHpNOTYgNjRsMTkyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMkw5NiAxNjBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMzJjMC0xNy43IDE0LjMtMzIgMzItMzJ6bTMyIDE2MGEzMiAzMiAwIDEgMSAtNjQgMCAzMiAzMiAwIDEgMSA2NCAwek05NiAzNTJhMzIgMzIgMCAxIDEgMC02NCAzMiAzMiAwIDEgMSAwIDY0ek02NCA0MTZjMC0xNy43IDE0LjMtMzIgMzItMzJsOTYgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtOTYgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJ6TTE5MiAyNTZhMzIgMzIgMCAxIDEgMC02NCAzMiAzMiAwIDEgMSAwIDY0em0zMiA2NGEzMiAzMiAwIDEgMSAtNjQgMCAzMiAzMiAwIDEgMSA2NCAwem02NC02NGEzMiAzMiAwIDEgMSAwLTY0IDMyIDMyIDAgMSAxIDAgNjR6bTMyIDY0YTMyIDMyIDAgMSAxIC02NCAwIDMyIDMyIDAgMSAxIDY0IDB6TTI4OCA0NDhhMzIgMzIgMCAxIDEgMC02NCAzMiAzMiAwIDEgMSAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![calculator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/calculator.svg)
  */
 const Calculator: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

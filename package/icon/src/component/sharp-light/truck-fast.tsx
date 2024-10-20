@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-fast` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-fast?s=sharp-light truck-fast}
- * @preview ![truck-fast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJsMjg4IDAgMCAzNTItMTMzLjUgMGMtMTMuMi0zNy4zLTQ4LjctNjQtOTAuNS02NGMtMjQuNiAwLTQ3IDkuMi02NCAyNC40TDk2IDI4OGwtMzIgMCAwIDk2IDAgMzJjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwxMjggMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDQ4IDAgMTYgMCAwLTMyLTE2IDAtMTYgMCAwLTE2MCAwLTUuOS0zLjktNC41LTk2LTExMkw1MDMuNCA5NiA0OTYgOTZsLTgwIDAgMC02NCAwLTMyTDM4NCAwIDk2IDAgNjQgMGwwIDMyIDAgNjRMMTYgOTYgMCA5NmwwIDMyIDE2IDAgMjI0IDAgMTYgMCAwLTMyLTE2IDBMOTYgOTZsMC02NHpNNDE2IDIyNGwwLTk2IDcyLjYgMCA4Mi4zIDk2TDQxNiAyMjR6bTAgMzJsMTYwIDAgMCAxMjgtNS41IDBjLTEzLjItMzcuMy00OC43LTY0LTkwLjUtNjRjLTI0LjYgMC00NyA5LjItNjQgMjQuNGwwLTg4LjR6TTk2IDQxNmE2NCA2NCAwIDEgMSAxMjggMEE2NCA2NCAwIDEgMSA5NiA0MTZ6bTM4NC02NGE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHpNNDggMTYwbC0xNiAwIDAgMzIgMTYgMCAyMjQgMCAxNiAwIDAtMzItMTYgMEw0OCAxNjB6TTE2IDIyNEwwIDIyNGwwIDMyIDE2IDAgMjI0IDAgMTYgMCAwLTMyLTE2IDBMMTYgMjI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-fast.svg)
  */
 const TruckFast: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

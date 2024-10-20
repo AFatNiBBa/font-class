@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `option` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/option?s=sharp-solid option}
- * @preview ![option](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQ0OGwtMTUuNCAwTDQyMyA0MzYgMTc2LjYgMTI4IDMyIDEyOCAwIDEyOCAwIDY0bDMyIDAgMTYwIDAgMTUuNCAwTDIxNyA3NiA0NjMuNCAzODQgNjA4IDM4NGwzMiAwIDAgNjQtMzIgMC0xNjAgMHptMC0zMjBsLTMyIDAgMC02NCAzMiAwIDE2MCAwIDMyIDAgMCA2NC0zMiAwLTE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![option](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/option.svg)
  */
 const Option: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

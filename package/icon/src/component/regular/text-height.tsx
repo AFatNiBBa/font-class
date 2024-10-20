@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `text-height` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/text-height?s=regular text-height}
- * @preview ![text-height](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTI4bDAtNDggODggMCAwIDM1Mi00OCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDE0NCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC00OCAwIDAtMzUyIDg4IDAgMCA0OGMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtNTZjMC0yMi4xLTE3LjktNDAtNDAtNDBMNDAgMzJDMTcuOSAzMiAwIDQ5LjkgMCA3MmwwIDU2YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjR6TTQ5NyAzOWMtOS40LTkuNC0yNC42LTkuNC0zMy45IDBsLTY0IDY0Yy05LjQgOS40LTkuNCAyNC42IDAgMzMuOXMyNC42IDkuNCAzMy45IDBsMjMtMjMgMCAyODQuMS0yMy0yM2MtOS40LTkuNC0yNC42LTkuNC0zMy45IDBzLTkuNCAyNC42IDAgMzMuOWw2NCA2NGM5LjQgOS40IDI0LjYgOS40IDMzLjkgMGw2NC02NGM5LjQtOS40IDkuNC0yNC42IDAtMzMuOXMtMjQuNi05LjQtMzMuOSAwbC0yMyAyMyAwLTI4NC4xIDIzIDIzYzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOUw0OTcgMzl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![text-height](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/text-height.svg)
  */
 const TextHeight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

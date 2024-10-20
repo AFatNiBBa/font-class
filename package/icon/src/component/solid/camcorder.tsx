@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camcorder` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camcorder?s=solid camcorder}
- * @preview ![camcorder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDk2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDMyIDIyNCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTkyYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAyMjRjMC0yMy43IDEyLjktNDQuNCAzMi01NS40TDMyIDEyOGMwLTUzIDQzLTk2IDk2LTk2bDE2MCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyTDEyOCA5NnptNDMxLjEgNjcuOGMxMC40IDUuNiAxNi45IDE2LjQgMTYuOSAyOC4ybDAgMjU2YzAgMTEuOC02LjUgMjIuNi0xNi45IDI4LjJzLTIzIDUtMzIuOS0xLjZsLTk2LTY0TDQxNiA0MDEuMWwwLTE3LjEgMC0xMjggMC0xNy4xIDE0LjItOS41IDk2LTY0YzkuOC02LjUgMjIuNC03LjIgMzIuOS0xLjZ6TTgwIDIyNGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwyMjQgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkw4MCAyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![camcorder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/camcorder.svg)
  */
 const Camcorder: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

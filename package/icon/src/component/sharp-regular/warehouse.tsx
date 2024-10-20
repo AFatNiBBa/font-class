@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `warehouse` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/warehouse?s=sharp-regular warehouse}
- * @preview ![warehouse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDYuMWw5IDMuNyAyOTYgMTIwIDE1IDYuMSAwIDE2LjIgMCAzMzYgMCAyNC00OCAwIDAtMjQgMC0zMTkuOEwzMjAgNTcuOSA0OCAxNjguMiA0OCA0ODhsMCAyNEwwIDUxMmwwLTI0TDAgMTUybDAtMTYuMiAxNS02LjFMMzExIDkuOGw5LTMuN3pNOTYgMTkybDI0IDAgNDAwIDAgMjQgMCAwIDI0IDAgMjcyIDAgMjQtMjQgMHMwIDAgMCAwbC00MDAgMHMwIDAgMCAwbC0yNCAwIDAtMjQgMC0yNzIgMC0yNHptNDggMjcybDM1MiAwIDAtNDAtMzUyIDAgMCA0MHptMC04OGwzNTIgMCAwLTQ4LTM1MiAwIDAgNDh6bTAtOTZsMzUyIDAgMC00MC0zNTIgMCAwIDQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![warehouse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/warehouse.svg)
  */
 const Warehouse: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

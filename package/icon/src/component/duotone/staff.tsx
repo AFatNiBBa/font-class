@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `staff` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff?s=duotone staff}
- * @preview ![staff](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAzMDRjMC04LjggNy4yLTE2IDE2LTE2bDQ0LjEgMGMtMjAgMjAtNDAuMSA0MC4xLTYwLjEgNjAuMUw5NiAzMDR6bTI2NS4xLTE2LjdjMjcuNS03LjkgNTUuMS0xNS43IDgyLjYtMjMuNmwtMjIuMiAzOS40Yy00LjMgNy43LTE0LjEgMTAuNC0yMS44IDYuMWwtMzguNi0yMS44eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjg0LjIgNDQuMkMyOTcuOCAxNy4xIDMyNS41IDAgMzU1LjggMEw0MzIgMGM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDEwMy45YzAgMzUuNy0yMy43IDY3LjEtNTggNzYuOUwyNjkuMSAzMTMuNmMtMi42IC43LTUgMi4xLTYuOSA0LjFMODEuOSA0OTcuOWMtMTguNyAxOC43LTQ5LjEgMTguNy02Ny45IDBzLTE4LjctNDkuMSAwLTY3LjlMMjAwLjIgMjQzLjljOS42LTkuNiAyMS41LTE2LjYgMzQuNi0yMC40bDE2OS42LTQ4LjVjNi45LTIgMTEuNi04LjIgMTEuNi0xNS40bDAtNDcuN2MwLTguOC03LjItMTYtMTYtMTZsLTI4LjIgMGMtMy43IDAtNy4yIDIuMS04LjggNS41Yy0xMS45IDIzLjctNDAuNyAzMy4zLTY0LjQgMjEuNXMtMzMuMy00MC43LTIxLjUtNjQuNGw3LjItMTQuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![staff](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/staff.svg)
  */
 const Staff: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M96 304c0-8.8 7.2-16 16-16l44.1 0c-20 20-40.1 40.1-60.1 60.1L96 304zm265.1-16.7c27.5-7.9 55.1-15.7 82.6-23.6l-22.2 39.4c-4.3 7.7-14.1 10.4-21.8 6.1l-38.6-21.8z" />
-            <path d="M284.2 44.2C297.8 17.1 325.5 0 355.8 0L432 0c44.2 0 80 35.8 80 80l0 103.9c0 35.7-23.7 67.1-58 76.9L269.1 313.6c-2.6 .7-5 2.1-6.9 4.1L81.9 497.9c-18.7 18.7-49.1 18.7-67.9 0s-18.7-49.1 0-67.9L200.2 243.9c9.6-9.6 21.5-16.6 34.6-20.4l169.6-48.5c6.9-2 11.6-8.2 11.6-15.4l0-47.7c0-8.8-7.2-16-16-16l-28.2 0c-3.7 0-7.2 2.1-8.8 5.5c-11.9 23.7-40.7 33.3-64.4 21.5s-33.3-40.7-21.5-64.4l7.2-14.3z" />
+        <path d="M284.2 44.2C297.8 17.1 325.5 0 355.8 0L432 0c44.2 0 80 35.8 80 80l0 103.9c0 35.7-23.7 67.1-58 76.9L269.1 313.6c-2.6 .7-5 2.1-6.9 4.1L81.9 497.9c-18.7 18.7-49.1 18.7-67.9 0s-18.7-49.1 0-67.9L200.2 243.9c9.6-9.6 21.5-16.6 34.6-20.4l169.6-48.5c6.9-2 11.6-8.2 11.6-15.4l0-47.7c0-8.8-7.2-16-16-16l-28.2 0c-3.7 0-7.2 2.1-8.8 5.5c-11.9 23.7-40.7 33.3-64.4 21.5s-33.3-40.7-21.5-64.4l7.2-14.3z" />
     </Icon>
 );
 

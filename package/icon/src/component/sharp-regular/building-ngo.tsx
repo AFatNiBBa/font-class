@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building-ngo` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-ngo?s=sharp-regular building-ngo}
- * @preview ![building-ngo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDQ4TDQ4IDQ4IDAgNDggMCAwIDQ4IDAgMzM2IDBsNDggMCAwIDQ4LTQ4IDB6bTAgMTkybDQ4IDAgMCAyMjQgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4TDAgMjQwbDQ4IDAgMCAyMjQgOTYgMCAwLTExMiA5NiAwIDAgMTEyIDk2IDAgMC0yMjR6TTMyIDgwbDE2IDAgOCAwIDkuOSAwIDQuNCA4LjhMOTYgMTQwLjIgOTYgOTZsMC0xNiAzMiAwIDAgMTYgMCA5NiAwIDE2LTE2IDAtOCAwLTkuOSAwLTQuNC04LjhMNjQgMTQ3LjggNjQgMTkybDAgMTYtMzIgMCAwLTE2IDAtOTYgMC0xNnptMTM2IDBsNDggMCAxNiAwIDAgMzItMTYgMC0zMiAwIDAgNjQgMTYgMCAwLTE2IDAtMTYgMzIgMCAwIDE2IDAgMzIgMCAxNi0xNiAwLTQ4IDAtMTYgMCAwLTE2IDAtOTYgMC0xNiAxNiAwem0xMjAgNDhsMCAzMmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMzJjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZ6bTE2LTQ4YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMzJjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhsMC0zMmMwLTI2LjUgMjEuNS00OCA0OC00OHpNMTY4IDI0OGwwIDgwLTgwIDAgMC04MCA4MCAwem0xMjggODBsLTgwIDAgMC04MCA4MCAwIDAgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![building-ngo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/building-ngo.svg)
  */
 const BuildingNgo: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

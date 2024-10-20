@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `reel` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reel?s=sharp-regular reel}
- * @preview ![reel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEwwIDAgMCA0OGwyNCAwIDQwIDAgMCAyNCAwIDQwIDQwIDAgMjQwIDAgNDAgMCAwLTQwIDAtMjQgNDAgMCAyNCAwIDAtNDhMNDI0IDAgMzg0IDAgMzQ0IDAgMTA0IDAgNjQgMCAyNCAwem04MCA3MmwwLTI0IDI0MCAwIDAgMjRMMTA0IDcyek0yNCA0NjRMMCA0NjRsMCA0OCAyNCAwIDQwIDAgNDAgMCAyNDAgMCA0MCAwIDQwIDAgMjQgMCAwLTQ4LTI0IDAtNDAgMCAwLTI0IDAtNDAtNDAgMC0yNDAgMC00MCAwIDAgNDAgMCAyNC00MCAwem0zMjAgMGwtMjQwIDAgMC0yNCAyNDAgMCAwIDI0ek02NCAxNzZsMzIwIDAgMC0zMkw2NCAxNDRsMCAzMnptMCA2NGwzNjggMCAxNiAwIDAtMzItMTYgMEw2NCAyMDhsMCAzMnptMCA2NGwzMjAgMCAwLTMyTDY0IDI3MmwwIDMyem0wIDY0bDMyMCAwIDAtMzJMNjQgMzM2bDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![reel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/reel.svg)
  */
 const Reel: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

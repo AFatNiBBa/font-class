@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-lock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-lock?s=thin user-lock}
- * @preview ![user-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDEyOGExMTIgMTEyIDAgMSAxIDIyNCAwIDExMiAxMTIgMCAxIDEgLTIyNCAwem0yNDAgMEExMjggMTI4IDAgMSAwIDk2IDEyOGExMjggMTI4IDAgMSAwIDI1NiAwek0xNiA0ODIuM0MxNiAzOTIuNyA4OC43IDMyMCAxNzguMyAzMjBsOTEuNCAwYzQ0LjYgMCA4NSAxOCAxMTQuMyA0Ny4xbDAtMTUuMWMwLTIuMSAuMS00LjIgLjMtNi4zYy0zMS0yNi03MS00MS43LTExNC42LTQxLjdsLTkxLjQgMEM3OS44IDMwNCAwIDM4My44IDAgNDgyLjNDMCA0OTguNyAxMy4zIDUxMiAyOS43IDUxMmwzNjIuOCAwYy0yLjktNS01LjEtMTAuMy02LjUtMTZMMjkuNyA0OTZjLTcuNiAwLTEzLjctNi4xLTEzLjctMTMuN3pNNTI4IDIwOGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDY0LTk2IDAgMC02NGMwLTI2LjUgMjEuNS00OCA0OC00OHptLTY0IDQ4bDAgNjQtMTYgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTYwIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJsLTE2IDAgMC02NGMwLTM1LjMtMjguNy02NC02NC02NHMtNjQgMjguNy02NCA2NHptLTE2IDgwbDE2IDAgMTYgMCA5NiAwIDE2IDAgMTYgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAxMjhjMCA4LjgtNy4yIDE2LTE2IDE2bC0xNjAgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMTI4YzAtOC44IDcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-lock.svg)
  */
 const UserLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

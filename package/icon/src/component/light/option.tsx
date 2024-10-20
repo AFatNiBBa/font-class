@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `option` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/option?s=light option}
- * @preview ![option](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc4IDEwNy43Yy02LjEtNy40LTE1LjItMTEuNy0yNC44LTExLjdMMTYgOTZDNy4yIDk2IDAgODguOCAwIDgwczcuMi0xNiAxNi0xNmwxMzcuMyAwYzE5LjIgMCAzNy40IDguNiA0OS41IDIzLjVMNDYyIDQwNC4zYzYuMSA3LjQgMTUuMiAxMS43IDI0LjggMTEuN0w2MjQgNDE2YzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xMzcuMyAwYy0xOS4yIDAtMzcuNC04LjYtNDkuNS0yMy41TDE3OCAxMDcuN3pNNjI0IDY0YzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2TDQzMiA5NmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwxOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![option](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/option.svg)
  */
 const Option: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

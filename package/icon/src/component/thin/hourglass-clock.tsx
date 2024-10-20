@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hourglass-clock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-clock?s=thin hourglass-clock}
- * @preview ![hourglass-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAwQzMuNiAwIDAgMy42IDAgOHMzLjYgOCA4IDhsMjQgMCAwIDU1LjJjMCA0OC4zIDIzIDkzLjcgNjEuOCAxMjIuNEwxNzguNSAyNTYgOTMuOCAzMTguNEM1NSAzNDcgMzIgMzkyLjUgMzIgNDQwLjhMMzIgNDk2IDggNDk2Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDMyMi44IDBjLTYuOS00LjktMTMuNS0xMC4yLTE5LjYtMTZMNDggNDk2bDAtNTUuMmMwLTQzLjIgMjAuNS04My45IDU1LjMtMTA5LjVMMTkyIDI2NS45bDcxLjEgNTIuNGMxLjYtNS40IDMuNC0xMC43IDUuNS0xNS44TDIwNS41IDI1Nmw4NC43LTYyLjRDMzI5IDE2NSAzNTIgMTE5LjUgMzUyIDcxLjJMMzUyIDE2bDI0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMOCAwek0zMzYgMTZsMCA1NS4yYzAgNDMuMi0yMC41IDgzLjktNTUuMyAxMDkuNUwxOTIgMjQ2LjFsLTg4LjctNjUuM0M2OC41IDE1NS4xIDQ4IDExNC40IDQ4IDcxLjJMNDggMTZsMjg4IDB6bTk2IDIyNGExMjggMTI4IDAgMSAxIDAgMjU2IDEyOCAxMjggMCAxIDEgMC0yNTZ6bTAgMjcyYTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHptMC0yMjRjLTQuNCAwLTggMy42LTggOGwwIDcyYzAgNC40IDMuNiA4IDggOGw1NiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC00OCAwIDAtNjRjMC00LjQtMy42LTgtOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hourglass-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hourglass-clock.svg)
  */
 const HourglassClock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

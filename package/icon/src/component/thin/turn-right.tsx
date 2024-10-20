@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-right?s=thin turn-right}
- * @preview ![turn-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDI3MmwwIDg5LjFjMCAzLjggMy4xIDYuOSA2LjkgNi45YzEuOCAwIDMuNS0uNyA0LjctMS45TDQ5NS4yIDIyNS45Yy41LS41IC44LTEuMiAuOC0xLjlzLS4zLTEuNC0uOC0xLjlMMzQ3LjYgODEuOWMtMS4zLTEuMi0zLTEuOS00LjctMS45Yy0zLjggMC02LjkgMy4xLTYuOSA2LjlsMCA4OS4xYzAgOC44LTcuMiAxNi0xNiAxNmwtMjA4IDBjLTUzIDAtOTYgNDMtOTYgOTZsMCAxNTJjMCAxMy4zIDEwLjcgMjQgMjQgMjRsMTYgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTE1MmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwyMDggMGM4LjggMCAxNiA3LjIgMTYgMTZ6bTE3MC4yLTM0LjVMMzU4LjYgMzc3LjdjLTQuMiA0LTkuOSA2LjMtMTUuOCA2LjNjLTEyLjYgMC0yMi45LTEwLjItMjIuOS0yMi45bDAtNzMuMSAwLTE2LTE2IDAtMTkyIDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDE1MmMwIDIyLjEtMTcuOSA0MC00MCA0MGwtMTYgMGMtMjIuMSAwLTQwLTE3LjktNDAtNDBMMCAyODhjMC02MS45IDUwLjEtMTEyIDExMi0xMTJsMTkyIDAgMTYgMCAwLTE2IDAtNzMuMUMzMjAgNzQuMiAzMzAuMiA2NCAzNDIuOSA2NGM1LjkgMCAxMS41IDIuMyAxNS44IDYuM0w1MDYuMiAyMTAuNWMzLjcgMy41IDUuOCA4LjQgNS44IDEzLjVzLTIuMSAxMC01LjggMTMuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![turn-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/turn-right.svg)
  */
 const TurnRight: typeof Icon = x => (
     <Icon {...x}>

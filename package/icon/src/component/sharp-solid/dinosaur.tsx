@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dinosaur` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dinosaur?s=sharp-solid dinosaur}
- * @preview ![dinosaur](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDBMNDI0IDAgNDA4IDMyIDM2OCA0OGwwIDgwIDgwIDAgMzIgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDY0LTUzLjMgMC02Ni4xLTQ5LjZjLTQwLjItMzAuMS04OS00Ni40LTEzOS4yLTQ2LjRjLTU3LjcgMC0xMTMuNCAyMS41LTE1Ni4xIDYwLjNMMTAuNSAzMjguMyAwIDMzNy44IDAgMzUyIDAgNDgwbDAgMzIgMzIgMCAxNjAgMCAzMiAwIDE2IDAgMTYgMCAzMiAwIDAtNTAuNEwxMDkuNCA0MzEuOCA5NiA0MjkuNiA5NiA0MTZsMC00OCAwLTE2IDMyIDAgMCAxNiAwIDM0LjQgMTc4LjYgMjkuOCAxMy40IDIuMiAwIDEzLjYgMCAxNS4zYzUuMyAuNCAxMC42IC43IDE2IC43YzE2LjYgMCAzMi43LTIuMSA0OC02bDAgNTQgMTI4IDAgMC04Ny45Yzc2LjUtMzUuOSAxMjgtMTEzLjUgMTI4LTIwMS41bDAtMzAuNkM2NDAgODYgNTU0IDAgNDQ4IDB6bTAgNDhhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dinosaur](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dinosaur.svg)
  */
 const Dinosaur: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

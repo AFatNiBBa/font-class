@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vimeo-v` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vimeo-v?s=brands vimeo-v}
- * @preview ![vimeo-v](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ3LjggMTUzLjZjLTIgNDMuNi0zMi40IDEwMy4zLTkxLjQgMTc5LjEtNjAuOSA3OS4yLTExMi40IDExOC44LTE1NC42IDExOC44LTI2LjEgMC00OC4yLTI0LjEtNjYuMy03Mi4zQzEwMC4zIDI1MCA4NS4zIDE3NC4zIDU2LjIgMTc0LjNjLTMuNCAwLTE1LjEgNy4xLTM1LjIgMjEuMUwwIDE2OC4yYzUxLjYtNDUuMyAxMDAuOS05NS43IDEzMS44LTk4LjUgMzQuOS0zLjQgNTYuMyAyMC41IDY0LjQgNzEuNSAyOC43IDE4MS41IDQxLjQgMjA4LjkgOTMuNiAxMjYuNyAxOC43LTI5LjYgMjguOC01Mi4xIDMwLjItNjcuNiA0LjgtNDUuOS0zNS44LTQyLjgtNjMuMy0zMSAyMi03Mi4xIDY0LjEtMTA3LjEgMTI2LjItMTA1LjEgNDUuOCAxLjIgNjcuNSAzMS4xIDY0LjkgODkuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![vimeo-v](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/vimeo-v.svg)
  */
 const VimeoV: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `2` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/2?s=thin 2}
- * @preview ![2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ3IDQ4Yy0zMC43IDAtNjAuNiAxMS4zLTgzLjUgMzEuN0wyOS4zIDExMGMtMy4zIDIuOS04LjQgMi42LTExLjMtLjdzLTIuNi04LjQgLjctMTEuM0w1Mi44IDY3LjdDNzguNyA0NC43IDExMi40IDMyIDE0NyAzMmM3Ny40IDAgMTQxIDYyLjggMTQxIDE0MC4zYzAgNDAuMy0xNy4zIDc4LjYtNDcuNSAxMDUuMkwyOS4yIDQ2NCAzMTIgNDY0YzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDggNDgwYy0zLjMgMC02LjMtMi4xLTcuNS01LjJzLS4zLTYuNiAyLjItOC44TDIyOS45IDI2NS41QzI1Ni43IDI0MS45IDI3MiAyMDggMjcyIDE3Mi4zQzI3MiAxMDMuNyAyMTUuNyA0OCAxNDcgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/2.svg)
  */
 const $2: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

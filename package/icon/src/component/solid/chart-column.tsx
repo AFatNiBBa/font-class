@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-column` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-column?s=solid chart-column}
- * @preview ![chart-column](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzMzZjMCA4LjggNy4yIDE2IDE2IDE2bDQwMCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyTDgwIDQ4MGMtNDQuMiAwLTgwLTM1LjgtODAtODBMMCA2NEMwIDQ2LjMgMTQuMyAzMiAzMiAzMnpNMTYwIDIyNGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtNjRjMC0xNy43IDE0LjMtMzIgMzItMzJ6bTEyOC02NGwwIDE2MGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTE2MGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyem02NCAzMmMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDk2YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtOTZjMC0xNy43IDE0LjMtMzIgMzItMzJ6TTQ4MCA5NmwwIDIyNGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTIyNGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-column](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chart-column.svg)
  */
 const ChartColumn: typeof Icon = x => (
     <Icon {...x}>

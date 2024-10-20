@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-smile-relaxed` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-relaxed?s=light face-smile-relaxed}
- * @preview ![face-smile-relaxed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTE2NC4xIDY5LjVDMTgyIDM0Ni4yIDIxMi42IDM2OCAyNTYgMzY4czc0LTIxLjggOTEuOS00Mi41YzUuOC02LjcgMTUuOS03LjQgMjIuNi0xLjZzNy40IDE1LjkgMS42IDIyLjZDMzQ5LjggMzcyLjEgMzExLjEgNDAwIDI1NiA0MDBzLTkzLjgtMjcuOS0xMTYuMS01My41Yy01LjgtNi43LTUuMS0xNi44IDEuNi0yMi42czE2LjgtNS4xIDIyLjYgMS42em00Ny4xLTkxLjljLTE3LjYtMjMuNS01Mi44LTIzLjUtNzAuNCAwYy01LjMgNy4xLTE1LjMgOC41LTIyLjQgMy4ycy04LjUtMTUuMy0zLjItMjIuNGMzMC40LTQwLjUgOTEuMi00MC41IDEyMS42IDBjNS4zIDcuMSAzLjkgMTcuMS0zLjIgMjIuNHMtMTcuMSAzLjktMjIuNC0zLjJ6bTg5LjYgMGMtNS4zIDcuMS0xNS4zIDguNS0yMi40IDMuMnMtOC41LTE1LjMtMy4yLTIyLjRjMzAuNC00MC41IDkxLjItNDAuNSAxMjEuNiAwYzUuMyA3LjEgMy45IDE3LjEtMy4yIDIyLjRzLTE3LjEgMy45LTIyLjQtMy4yYy0xNy42LTIzLjUtNTIuOC0yMy41LTcwLjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-smile-relaxed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-smile-relaxed.svg)
  */
 const FaceSmileRelaxed: typeof Icon = x => (
     <Icon {...x}>

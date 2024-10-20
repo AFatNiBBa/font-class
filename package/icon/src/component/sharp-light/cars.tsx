@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cars` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cars?s=sharp-light cars}
- * @preview ![cars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzUuOSAwTDg4IDAgMjk2IDBsMTIuMSAwIDMuMyAxMS42TDM0MC4xIDExMmwxMS45IDAgMzIgMCAwIDMyLTMyIDAtOCAwLTE1LjYgMC0uNyAwLTE5LjggMEw1Ni40IDE0NGMtLjIgMC0uNSAwLS43IDBMMzIgMTQ0bDAgOTYgMCAxNiAxOTIgMCAwIDMyTDMyIDI4OGwwIDQ4TDAgMzM2bDAtNDggMC0zMiAwLTE2IDAtOTYgMC0zMiAzMiAwIDExLjkgMEw3Mi42IDExLjYgNzUuOSAwem0yMDggMzJMMTAwLjEgMzIgNzcuMiAxMTJsMjI5LjYgMEwyODMuOSAzMnpNODAgMTc2YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMjUxLjkgMGwxMi4xIDAgMjA4IDAgMTIuMSAwIDMuMyAxMS42TDU5Ni4xIDI4OGwxMS45IDAgMzIgMCAwIDMyIDAgOTYgMCAxNiAwIDMyIDAgNDgtMzIgMCAwLTQ4LTMyMCAwIDAgNDgtMzIgMCAwLTQ4IDAtMzIgMC0xNiAwLTk2IDAtMzIgMzIgMCAxMS45IDAgMjguNy0xMDAuNCAzLjMtMTEuNnpNNjA4IDMyMGwtMjMuNiAwYy0uMiAwLS41IDAtLjcgMGwtMjcxLjMgMGMtLjIgMC0uNSAwLS43IDBMMjg4IDMyMGwwIDk2IDAgMTYgMzIwIDAgMC0xNiAwLTk2ek01MzkuOSAyMDhsLTE4My45IDAtMjIuOSA4MCAyMjkuNiAwLTIyLjktODB6TTMzNiAzNTJhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4em0yMDAgMjRhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cars.svg)
  */
 const Cars: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

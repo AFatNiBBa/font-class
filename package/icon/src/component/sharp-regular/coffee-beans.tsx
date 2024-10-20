@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `coffee-beans` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-beans?s=sharp-regular coffee-beans}
- * @preview ![coffee-beans](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc2LjggMjU4YzUwLTUwIDM5LjktMTQxLjItMjIuNi0yMDMuNlMzMDAuNS0xOC4yIDI1MC41IDMxLjhzLTM5LjkgMTQxLjIgMjIuNiAyMDMuNlM0MjYuOCAzMDggNDc2LjggMjU4em0tNzcuOS03Ni4xbDMyLjMgNTAuOGMtMjguOCAxNi03OS44IDEzLjEtMTI0LjEtMzEuM2MtMzMuNS0zMy41LTQzLjQtNzAuOC0zOS4zLTk5LjVsMjkuMyA0NiAxMDEuOCAzMy45em0yMS4zLTkzLjZjMzMuNSAzMy41IDQzLjQgNzAuOCAzOS4zIDk5LjVsLTI5LjMtNDZMMzI4LjQgMTA3LjggMjk2LjEgNTdDMzI0LjkgNDEgMzc1LjggNDQgNDIwLjIgODguM3pNMTI2LjcgNDAzLjFsLTEzLjEgNTguOEM4MiA0NTIuOCA0OCA0MTQuNyA0OCAzNTJjMC00Ny40IDE5LjQtODAuNyA0Mi42LTk4LjFsLTEwIDQ0LjktMS44IDguMyAzLjggNy42IDQ0LjIgODguNHpNMjA4IDM1MmMwIDQ3LjQtMTkuNCA4MC44LTQyLjYgOTguMWwxMC00NC45IDEuOC04LjMtMy44LTcuNi00NC4yLTg4LjQgMTMuMS01OC44QzE3NCAyNTEuMiAyMDggMjg5LjMgMjA4IDM1MnpNMTI4IDUxMmM3MC43IDAgMTI4LTcxLjYgMTI4LTE2MHMtNTcuMy0xNjAtMTI4LTE2MFMwIDI2My42IDAgMzUyczU3LjMgMTYwIDEyOCAxNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![coffee-beans](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/coffee-beans.svg)
  */
 const CoffeeBeans: typeof Icon = x => (
     <Icon {...x}>

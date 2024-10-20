@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toilet-paper-under` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-under?s=sharp-solid toilet-paper-under}
- * @preview ![toilet-paper-under](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMEwzNDguMiAwQzMzNi42IDEyLjIgMzI3IDI2LjkgMzE5LjUgNDEuOUMyOTkuNSA4MiAyODggMTM1LjEgMjg4IDE5MnMxMS41IDExMCAzMS41IDE1MC4xYzcuNSAxNSAxNy4xIDI5LjcgMjguNyA0MS45TDk2IDM4NEM0MyAzODQgMCAyOTggMCAxOTJTNDMgMCA5NiAwek0zMjAgMTkyYzAtODMuNiAyNi43LTE1NC43IDY0LTE4MS4xQzM5NCAzLjggNDA0LjggMCA0MTYgMGM1MyAwIDk2IDg2IDk2IDE5MmMwIDM1LTQuNyA2Ny44LTEyLjggOTZjLTE2LjYgNTcuNC00Ny42IDk2LTgzLjIgOTZjLTExLjIgMC0yMi0zLjgtMzItMTAuOWMtMzcuMy0yNi40LTY0LTk3LjUtNjQtMTgxLjF6bTY0IDBjMCAzNS4zIDE0LjMgNjQgMzIgNjRzMzItMjguNyAzMi02NHMtMTQuMy02NC0zMi02NHMtMzIgMjguNy0zMiA2NHpNMTYwIDQxNmwyNTYgMGM0NC44IDAgNzYuOS0zNS4yIDk2LTcyLjlMNTEyIDUxMmwtMzUyIDAgMC05NnpNNjQgMjA4YTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6bTY0IDBhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptNDggMTZhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyem04MC0xNmExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![toilet-paper-under](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/toilet-paper-under.svg)
  */
 const ToiletPaperUnder: typeof Icon = x => (
     <Icon {...x}>

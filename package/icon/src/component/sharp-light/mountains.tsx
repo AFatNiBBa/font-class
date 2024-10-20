@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mountains` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountains?s=sharp-light mountains}
- * @preview ![mountains](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDQ4bDQ0OCAwIDAtMzAuMUwyNTYgODguOSAzMiA0MTcuOSAzMiA0NDh6TTAgNDQ4bDAtNDBMMjM2LjYgNjAuNCAyNTYgMzJsMTkuNCAyOC40TDQxMi41IDI2MS45IDQ2MC44IDE4OSA0ODAgMTYwbDE5LjIgMjlMNjQwIDQwMS43bDAgNDYuMyAwIDMyLTMyIDAtOTYgMC0zMiAwLTIzIDBMMzIgNDgwIDAgNDgwbDAtMzJ6bTUxMiAwbDk2IDAgMC0zNi43TDQ4MCAyMThsLTQ4IDcyLjVMNTEyIDQwOGwwIDQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mountains](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mountains.svg)
  */
 const Mountains: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

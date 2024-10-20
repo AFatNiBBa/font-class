@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `highlighter-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/highlighter-line?s=sharp-thin highlighter-line}
- * @preview ![highlighter-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDQxNmwtODguNiAwLTUyLjcgNTIuN0wxNjcuNCA0ODBsLTExLjMtMTEuM0w3NS4zIDM4Ny45IDY0IDM3Ni42bDExLjMtMTEuM0wxMjggMzEyLjZsMC04OC42TDQ2NCAwbDgwIDgwTDMyMCA0MTZ6bS05OS45LTExLjNsNC43LTQuNyA2LjYgMCA4MCAwIDMwLjktNDYuNC0xNTItMTUyTDE0NCAyMzIuNmwwIDgwLjEgMCA2LjYtNC43IDQuN0w4Ni42IDM3Ni42bDgwLjggODAuOCA1Mi43LTUyLjd6bTEzMS4zLTY0LjZsMTcyLTI1OEw0NjIgMjAuNmwtMjU4IDE3MkwzNTEuNCAzNDAuMXpNNjUuMSA0MTEuNmwxMS4zIDExLjNMMTYgNDgzLjMgMTYgNDk2bDc2LjcgMCAyOC40LTI4LjQgMTEuMyAxMS4zLTMwLjcgMzAuN0w5OS4zIDUxMiA5NiA1MTIgOCA1MTJsLTggMCAwLTggMC0yNCAwLTMuMyAyLjMtMi4zIDYyLjctNjIuN3pNMjMyIDQ5NmwzMzYgMCA4IDAgMCAxNi04IDAtMzM2IDAtOCAwIDAtMTYgOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![highlighter-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/highlighter-line.svg)
  */
 const HighlighterLine: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

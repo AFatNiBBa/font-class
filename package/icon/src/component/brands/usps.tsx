@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `usps` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/usps?s=brands usps}
- * @preview ![usps](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDYwLjMgMjQxLjdjMjUuOC00MS4zIDE1LjItNDguOC0xMS43LTQ4LjhoLTI3Yy0uMSAwLTEuNS0xLjQtMTAuOSA4LTExLjIgNS42LTM3LjkgNi4zLTM3LjkgOC43IDAgNC41IDcwLjMtMy4xIDg4LjEgMCA5LjUgMS41LTEuNSAyMC40LTQuNCAzMi0uNSA0LjUgMi40IDIuMyAzLjguMXptLTExMi4xIDIyLjZjNjQtMjEuMyA5Ny4zLTIzLjkgMTAyLTI2LjIgNC40LTIuOS00LjQtNi42LTI2LjItNS44LTUxLjcgMi4yLTEzNy42IDM3LjEtMTcyLjYgNTMuOWwtMzAuNy05My4zaDE5Ni42Yy0yLjctMjguMi0xNTIuOS0yMi42LTMzNy45LTIyLjZMMjcgNDE1LjhjMTk2LjQtOTcuMyAyNTguOS0xMzAuMyAzMjEuMi0xNTEuNXpNOTQuNyA5NmMyNTMuMyA1My43IDMzMCA2NS43IDMzMi4xIDg1LjIgMzYuNCAwIDQ1LjkgMCA1Mi40IDYuNiAyMS4xIDE5LjctMTQuNiA2Ny43LTE0LjYgNjcuNy00LjQgMi45LTQwNi40IDE2MC4yLTQwNi40IDE2MC4yaDQyMy4xTDU0OSA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![usps](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/usps.svg)
  */
 const Usps: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

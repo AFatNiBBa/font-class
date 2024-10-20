@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-open-cover` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-open-cover?s=sharp-solid book-open-cover}
- * @preview ![book-open-cover](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDMybDAgMzc2TDk2IDM2OCA5NiAwIDMwNCAzMnpNNjQgNDAwbDI1NiA1MS4yTDU3NiA0MDBsMC0zNzEuMkw2NDAgMTZsMCA0MzJMMzIwIDUxMiAwIDQ0OCAwIDE2IDY0IDI4LjggNjQgNDAwem0yNzIgOGwwLTM3Nkw1NDQgMGwwIDM2OEwzMzYgNDA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-open-cover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/book-open-cover.svg)
  */
 const BookOpenCover: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

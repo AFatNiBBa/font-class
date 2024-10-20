@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `microphone-lines` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-lines?s=sharp-solid microphone-lines}
- * @preview ![microphone-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwwIDI1NmMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bC04MCAwLTE2IDAgMC0zMiAxNiAwIDgwIDAgMC0zMi04MCAwLTE2IDAgMC0zMiAxNiAwIDgwIDAgMC0zMi04MCAwLTE2IDAgMC0zMiAxNiAwIDgwIDAgMC05Nkw5NiAwek0zMjAgMjI0bDAgMzJjMCA3MC43LTU3LjMgMTI4LTEyOCAxMjhzLTEyOC01Ny4zLTEyOC0xMjhsMC00MCAwLTI0LTQ4IDAgMCAyNCAwIDQwYzAgODkuMSA2Ni4yIDE2Mi43IDE1MiAxNzQuNGwwIDMzLjYtNDggMC0yNCAwIDAgNDggMjQgMCA3MiAwIDcyIDAgMjQgMCAwLTQ4LTI0IDAtNDggMCAwLTMzLjZjODUuOC0xMS43IDE1Mi04NS4zIDE1Mi0xNzQuNGwwLTQwIDAtMjQtNDggMCAwIDI0IDAgOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![microphone-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/microphone-lines.svg)
  */
 const MicrophoneLines: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

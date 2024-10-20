@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-kanban` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-kanban?s=regular chart-kanban}
- * @preview ![chart-kanban](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDQzMmwwLTM1MiAzMiAwIDAgMzUyLTMyIDB6bS00OCAwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0zNTJjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTMyIDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMzUyek04MCAzNjhsLTMyIDBMNDggODBsMzIgMCAwIDI4OHpNNDggNDE2bDMyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0yODhjMC0yNi41LTIxLjUtNDgtNDgtNDhMNDggMzJDMjEuNSAzMiAwIDUzLjUgMCA4MEwwIDM2OGMwIDI2LjUgMjEuNSA0OCA0OCA0OHpNMjQwIDI0MGwtMzIgMCAwLTE2MCAzMiAwIDAgMTYwem0tMzIgNDhsMzIgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTE2MGMwLTI2LjUtMjEuNS00OC00OC00OGwtMzIgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAxNjBjMCAyNi41IDIxLjUgNDggNDggNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-kanban](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chart-kanban.svg)
  */
 const ChartKanban: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

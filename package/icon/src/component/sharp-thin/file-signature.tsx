@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-signature` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-signature?s=sharp-thin file-signature}
- * @preview ![file-signature](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDQ5NkwxNiA0OTYgMTYgMTZsMTkyIDAgMCAxNTIgMCA4IDggMCAxNTIgMCAwIDM3LjUgMTYtMTYgMC0zNy41TDIyNCAwIDE2IDAgMCAwIDAgMTYgMCA0OTZsMCAxNiAxNiAwIDM1MiAwIDE2IDAgMC0xNiAwLTYyLjctMTYgMi41IDAgNjAuMnptLTYuNi0zMzZMMjI0IDE2MGwwLTEzNy40TDM2MS40IDE2MHpNMTIwIDMxMmwtNi4xIDAtMS42IDUuOUw4OS45IDQwMCA2NCA0MDBsLTggMCAwIDE2IDggMCAzMiAwIDYuMSAwIDEuNi01LjlMMTI2LjEgMzI4bDMuOCAwIDIyLjQgODIuMSAxLjYgNS45IDYuMSAwIDggMCA0LjYgMCAyLjMtNCAyOS43LTUyIDE0LjcgMCAyOS43IDUyIDIuMyA0IDQuNiAwIDI0IDAgOCAwIC4yLS4yIDE2LjQtMi42IDc0LjctMTEuNkw1NjQuNyAyMTYuMyA1NzYgMjA0LjlsLTExLjMtMTEuMy01NC41LTU0LjUtMTEuMy0xMS4zTDMwMi4yIDMyNC42bC0xMS42IDc0LjctLjEgLjctMi41IDAtOCAwLTE5LjQgMC0yOS43LTUyLTIuMy00LTQuNiAwLTI0IDAtNC42IDAtMi4zIDQtMjcuOCA0OC43LTIxLjUtNzguOC0xLjYtNS45LTYuMSAwLTE2IDB6bTE4Ny4yIDg0LjdsMTAtNjQuNUw0NTUgMTk0LjRsNTQuNSA1NC41TDM3MS43IDM4Ni42bC02NC41IDEwek01MjAuOCAyMzcuNUw0NjYuNCAxODNsMzIuNS0zMi41IDU0LjUgNTQuNS0zMi41IDMyLjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-signature](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-signature.svg)
  */
 const FileSignature: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

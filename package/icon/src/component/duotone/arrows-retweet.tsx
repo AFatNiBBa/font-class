@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `arrows-retweet` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-retweet?s=duotone arrows-retweet}
- * @preview ![arrows-retweet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMDQgMTI4YzAtMTcuNyAxNC4zLTMyIDMyLTMybDExMiAwYzUzIDAgOTYgNDMgOTYgOTZsMCAxNDYuNyA0MS40LTQxLjRjMTIuNS0xMi41IDMyLjgtMTIuNSA0NS4zIDBjNi4yIDYuMiA5LjQgMTQuNCA5LjQgMjIuNnMtMy4xIDE2LjQtOS40IDIyLjZsLTk2IDk2Yy02LjIgNi4yLTE0LjQgOS40LTIyLjYgOS40cy0xNi40LTMuMS0yMi42LTkuNGwtOTYtOTZjLTEyLjUtMTIuNS0xMi41LTMyLjggMC00NS4zczMyLjgtMTIuNSA0NS4zIDBMNDgwIDMzOC43IDQ4MCAxOTJjMC0xNy43LTE0LjMtMzItMzItMzJsLTExMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTEwNS40IDczLjRjMTIuNS0xMi41IDMyLjgtMTIuNSA0NS4zIDBsOTYgOTZjMTIuNSAxMi41IDEyLjUgMzIuOCAwIDQ1LjNzLTMyLjggMTIuNS00NS4zIDBMMTYwIDE3My4zIDE2MCAzMjBjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTEyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTExMiAwYy01MyAwLTk2LTQzLTk2LTk2bDAtMTQ2LjdMNTQuNiAyMTQuNmMtMTIuNSAxMi41LTMyLjggMTIuNS00NS4zIDBzLTEyLjUtMzIuOCAwLTQ1LjNsOTYtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrows-retweet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrows-retweet.svg)
  */
 const ArrowsRetweet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M304 128c0-17.7 14.3-32 32-32l112 0c53 0 96 43 96 96l0 146.7 41.4-41.4c12.5-12.5 32.8-12.5 45.3 0c6.2 6.2 9.4 14.4 9.4 22.6s-3.1 16.4-9.4 22.6l-96 96c-6.2 6.2-14.4 9.4-22.6 9.4s-16.4-3.1-22.6-9.4l-96-96c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L480 338.7 480 192c0-17.7-14.3-32-32-32l-112 0c-17.7 0-32-14.3-32-32z" />
-            <path d="M105.4 73.4c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L160 173.3 160 320c0 17.7 14.3 32 32 32l112 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-112 0c-53 0-96-43-96-96l0-146.7L54.6 214.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l96-96z" />
+        <path d="M105.4 73.4c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L160 173.3 160 320c0 17.7 14.3 32 32 32l112 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-112 0c-53 0-96-43-96-96l0-146.7L54.6 214.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l96-96z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-tree` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-tree?s=regular folder-tree}
- * @preview ![folder-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjRDNDggMTAuNyAzNy4zIDAgMjQgMFMwIDEwLjcgMCAyNEwwIDEzNiAwIDM5MmMwIDMwLjkgMjUuMSA1NiA1NiA1NmwyMDAgMCAwLTQ4TDU2IDQwMGMtNC40IDAtOC0zLjYtOC04bDAtMjMyIDIwOCAwIDAtNDhMNDggMTEybDAtODh6TTMzNiAxNzZsMC0xMjggNDQuMSAwIDE3IDE3YzkuNiA5LjYgMjIuNiAxNSAzNi4yIDE1TDUyOCA4MGwwIDk2LTE5MiAwek0yODggMzJsMCAxNjBjMCAxNy43IDE0LjMgMzIgMzIgMzJsMjI0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJMNDMzLjMgMzJjLS44IDAtMS43LS4zLTIuMy0uOUw0MDkuNCA5LjRjLTYtNi0xNC4xLTkuNC0yMi42LTkuNEwzMjAgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6bTQ4IDQzMmwwLTEyOCA0NC4xIDAgMTcgMTdjOS42IDkuNiAyMi42IDE1IDM2LjIgMTVsOTQuNyAwIDAgOTYtMTkyIDB6TTI4OCAzMjBsMCAxNjBjMCAxNy43IDE0LjMgMzIgMzIgMzJsMjI0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJsLTExMC43IDBjLS44IDAtMS43LS4zLTIuMy0uOWwtMjEuNy0yMS43Yy02LTYtMTQuMS05LjQtMjIuNi05LjRMMzIwIDI4OGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![folder-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/folder-tree.svg)
  */
 const FolderTree: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

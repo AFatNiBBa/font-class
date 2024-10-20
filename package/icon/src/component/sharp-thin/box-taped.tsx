@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-taped` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-taped?s=sharp-thin box-taped}
- * @preview ![box-taped](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTcuNSAxNzZMNzQuNCA0OGwxMTQuMiAwTDE2MS43IDE3NiAxNDQgMTc2IDE3LjUgMTc2ek0xNDQgMTkybDE2IDAgMCA5NiAwIDE2IDE2IDAgOTYgMCAxNiAwIDAtMTYgMC05NiAxNiAwIDEyOCAwIDAgMjcyTDE2IDQ2NGwwLTI3MiAxMjggMHptMzIgMGw5NiAwIDAgOTYtOTYgMCAwLTk2em0xMTAuMy0xNkwyNTkuNCA0OGwxMTQuMiAwIDU2LjkgMTI4TDMwNCAxNzZsLTE3LjcgMHpNMjcwIDE3NkwxNzggMTc2IDIwNSA0OGwzIDAgOCAwIDE2IDAgOCAwIDMgMEwyNzAgMTc2ek0yNTYgMzJsLTY0IDBMNjQgMzIgMCAxNzYgMCA0NjRsMCAxNiAxNiAwIDQxNiAwIDE2IDAgMC0xNiAwLTI4OEwzODQgMzIgMjU2IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![box-taped](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/box-taped.svg)
  */
 const BoxTaped: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

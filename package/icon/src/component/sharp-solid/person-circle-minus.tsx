@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-circle-minus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-minus?s=sharp-solid person-circle-minus}
- * @preview ![person-circle-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6TTkxLjQgMTI4bDE3LjUgMCAxMDIuMiAwIDE3LjUgMCA5LjQgMTQuOCA2Ni40IDEwNGMtMTUuNSAxNi4zLTI4IDM1LjctMzYuMyA1N2wtMi4zIDEuNC0zMy44LTUzTDIzMiA0ODBsMCAzMi02NCAwIDAtMzIgMC0xMjgtMTYgMCAwIDEyOCAwIDMyLTY0IDAgMC0zMiAwLTIyNy44LTMzLjggNTNMLjIgMjcwLjggODIgMTQyLjggOTEuNCAxMjh6TTI4OCAzNjhhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMjI0IDE2bDAtMzItMTYgMC0xMjggMC0xNiAwIDAgMzIgMTYgMCAxMjggMCAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-circle-minus.svg)
  */
 const PersonCircleMinus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

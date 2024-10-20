@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-sort-down` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-sort-down?s=sharp-regular circle-sort-down}
- * @preview ![circle-sort-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjU2YTIwOCAyMDggMCAxIDEgNDE2IDBBMjA4IDIwOCAwIDEgMSA0OCAyNTZ6bTQ2NCAwQTI1NiAyNTYgMCAxIDAgMCAyNTZhMjU2IDI1NiAwIDEgMCA1MTIgMHpNMTQ0IDMyMGwxMTIgOTYgMTEyLTk2IDAtMzItMjI0IDAgMCAzMnptMC05NmwzMiAwIDE2MCAwIDMyIDAgMC0zMkwyNTYgOTYgMTQ0IDE5MmwwIDMyem0xMTItODUuOUwzMTguOCAxOTJsLTEyNS43IDBMMjU2IDEzOC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circle-sort-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/circle-sort-down.svg)
  */
 const CircleSortDown: typeof Icon = x => (
     <Icon {...x}>

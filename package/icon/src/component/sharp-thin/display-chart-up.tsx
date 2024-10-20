@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `display-chart-up` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-chart-up?s=sharp-thin display-chart-up}
- * @preview ![display-chart-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMCAzODQgMjE1LjggMCAuMyAwIDExMS43IDAgLjMgMEw1NjAgNDAwbDAtMzg0TDE2IDE2ek0yMjIuNiA0MTZMMTYgNDE2IDAgNDE2bDAtMTZMMCAxNiAwIDAgMTYgMCA1NjAgMGwxNiAwIDAgMTYgMCAzODQgMCAxNi0xNiAwLTIwNi42IDAgMTMuMyA4MCA3My4yIDAgOCAwIDAgMTYtOCAwLTgwIDAtMTQ0IDAtODAgMC04IDAgMC0xNiA4IDAgNzMuMiAwIDEzLjMtODB6bTE2LjIgMGwtMTMuMyA4MCAxMjUuMSAwLTEzLjMtODAtOTguNCAwek00OTYgODBMODAgODBsMCAyNTYgNDE2IDAgMC0yNTZ6TTgwIDY0bDQxNiAwIDE2IDAgMCAxNiAwIDI1NiAwIDE2LTE2IDBMODAgMzUybC0xNiAwIDAtMTZMNjQgODBsMC0xNiAxNiAwem0yNzIgNjRsODggMCA4IDAgMCA4IDAgODggMCA4LTE2IDAgMC04IDAtNjguN0wzMjUuNyAyNjEuN2wtNS43IDUuNy01LjctNS43TDI0MCAxODcuMyAxMzMuNyAyOTMuN2wtNS43IDUuN0wxMTYuNyAyODhsNS43LTUuNyAxMTItMTEyIDUuNy01LjcgNS43IDUuN0wzMjAgMjQ0LjcgNDIwLjcgMTQ0IDM1MiAxNDRsLTggMCAwLTE2IDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![display-chart-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/display-chart-up.svg)
  */
 const DisplayChartUp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

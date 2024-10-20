@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pencil-mechanical` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil-mechanical?s=sharp-regular pencil-mechanical}
- * @preview ![pencil-mechanical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg4IDEzNmwtMTYtMTYgNDAtNDBMNDMyIDAgMzkyIDQwIDM3NiAyNCAzNDIuMSA1Ny45IDMxNyA4MyAyNjUgMzFsLTE3LTE3TDIzMSAzMSAxMDMgMTU5bC0xNyAxN0wxMjAgMjA5LjlsMTctMTcgMTExLTExMSAzNSAzNUw2NCAzMzYgMzIgNDQ4IDAgNDgwbDMyIDMyIDMyLTMyczAgMCAwIDBsMTEyLTMyTDQ1NC4xIDE2OS45IDQ4OCAxMzZ6TTE4MyAzNzMuMUwxMzguOSAzMjkgMzc2IDkxLjkgNDIwLjEgMTM2IDE4MyAzNzMuMXptLTM0LjkgMzNsLTU5IDE2LjkgMTYuOS01OSA0Mi4yIDQyLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pencil-mechanical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pencil-mechanical.svg)
  */
 const PencilMechanical: typeof Icon = x => (
     <Icon {...x}>

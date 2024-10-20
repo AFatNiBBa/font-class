@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-ballot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-ballot?s=thin box-ballot}
- * @preview ![box-ballot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE2Yy04LjggMC0xNiA3LjItMTYgMTZsMCAxOTJjMCA4LjggNy4yIDE2IDE2IDE2bDI1NiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTE5MmMwLTguOC03LjItMTYtMTYtMTZMMTYwIDE2ek0xMjggMzJjMC0xNy43IDE0LjMtMzIgMzItMzJMNDE2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxOTJjMCAxNy43LTE0LjMgMzItMzIgMzJsLTI1NiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTE5MnpNNDggMTYwbDQ4IDAgMCAxNi00OCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDExMiA1NDQgMCAwLTExMmMwLTE3LjctMTQuMy0zMi0zMi0zMmwtNDggMCAwLTE2IDQ4IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAxMTIgMCA4IDAgOCAwIDEyOGMwIDI2LjUtMjEuNSA0OC00OCA0OEw0OCA1MTJjLTI2LjUgMC00OC0yMS41LTQ4LTQ4TDAgMzM2bDAtOCAwLThMMCAyMDhjMC0yNi41IDIxLjUtNDggNDgtNDh6TTU2MCAzMzZMMTYgMzM2bDAgMTI4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDQ4MCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![box-ballot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/box-ballot.svg)
  */
 const BoxBallot: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

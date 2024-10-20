@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `credit-card` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/credit-card?s=sharp-regular credit-card}
- * @preview ![credit-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDgwbDAgNDhMNDggMTI4bDAtNDggNDgwIDB6bTAgMTQ0bDAgMjA4TDQ4IDQzMmwwLTIwOCA0ODAgMHpNNDggMzJMMCAzMiAwIDgwIDAgNDMybDAgNDggNDggMCA0ODAgMCA0OCAwIDAtNDggMC0zNTIgMC00OC00OCAwTDQ4IDMyek0xOTIgMzM2bC05NiAwIDAgNDggOTYgMCAwLTQ4em0xOTIgMGwtMTYwIDAgMCA0OCAxNjAgMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![credit-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/credit-card.svg)
  */
 const CreditCard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

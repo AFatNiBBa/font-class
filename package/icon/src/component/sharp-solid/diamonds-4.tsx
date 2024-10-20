@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diamonds-4` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamonds-4?s=sharp-solid diamonds-4}
- * @preview ![diamonds-4](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE2LjcgMTM5LjNMMCAyNTYgMTE2LjcgMzcyLjcgMjMzLjQgMjU2IDExNi43IDEzOS4zem0yMi42LTIyLjZMMjU2IDIzMy40IDM3Mi43IDExNi43IDI1NiAwIDEzOS4zIDExNi43em0yNTYgMjIuNkwyNzguNiAyNTYgMzk1LjMgMzcyLjcgNTEyIDI1NiAzOTUuMyAxMzkuM3ptLTIyLjYgMjU2TDI1NiAyNzguNiAxMzkuMyAzOTUuMyAyNTYgNTEyIDM3Mi43IDM5NS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![diamonds-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/diamonds-4.svg)
  */
 const Diamonds_4: typeof Icon = x => (
     <Icon {...x}>

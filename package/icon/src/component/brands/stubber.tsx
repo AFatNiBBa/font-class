@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stubber` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stubber?s=brands stubber}
- * @preview ![stubber](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM2LjUgMjk0LjJsNTguOCAyMi45YzkuMS0zNi44IDI1LjQtNjEuMSA1NS02MS4xYzQ5LjQgMCA3MS40IDYzLjYgMTQyLjQgNjMuNmMxNS42IDAgMzUuOS0yLjggNTUuMy0xMy4zVjM2OGMwIDYxLjgtNTAuNCAxMTItMTEyLjMgMTEySDBsNDEuOC01NkwwIDM2OGw0MS43LTU2TDAgMjU2LjFsNDEuOC01NkwwIDE0NC4xIDQxLjggODggMCAzMkgzMzUuN0MzOTcuNiAzMiA0NDggODIuMyA0NDggMTQ0LjF2NTEuM2MtOS4yIDM2LjMtMjUuOSA2MC42LTU1IDYwLjZjLTQ5LjYgMC03MS42LTYzLjUtMTQyLjQtNjMuNWMtMzUuOSAwLTk1LjIgMTQuNi0xMTQuMSAxMDEuNmgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![stubber](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/stubber.svg)
  */
 const Stubber: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

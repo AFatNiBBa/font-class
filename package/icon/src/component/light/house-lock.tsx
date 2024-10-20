@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-lock` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-lock?s=light house-lock}
- * @preview ![house-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk4LjYgNGMtNi01LjMtMTUuMS01LjMtMjEuMiAwTDUuNCAyNDRjLTYuNiA1LjgtNy4zIDE2LTEuNCAyMi42czE2IDcuMyAyMi42IDEuNEw2NCAyMzVsMCAxOTdjMCA0NC4yIDM1LjggODAgODAgODBsMjQ4LjYgMGMtNS40LTkuNC04LjYtMjAuMy04LjYtMzJsLTE2IDAgMC0xNjBjMC0xNy43LTE0LjMtMzItMzItMzJsLTk2IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMTYwLTY0IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjI1LjNMMjg4IDM3LjMgNDU2LjQgMTg1LjljOC42LTcuMSAxOC4yLTEzIDI4LjctMTcuNEwyOTguNiA0ek0zMzYgNDgwbC05NiAwIDAtMTYwIDk2IDAgMCAxNjB6TTUyOCAyMjRjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA0OC05NiAwIDAtNDhjMC0yNi41IDIxLjUtNDggNDgtNDh6bS04MCA0OGwwIDQ4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDEyOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxNjAgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTEyOGMwLTE3LjctMTQuMy0zMi0zMi0zMmwwLTQ4YzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwem0wIDgwbDE2MCAwIDAgMTI4LTE2MCAwIDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/house-lock.svg)
  */
 const HouseLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

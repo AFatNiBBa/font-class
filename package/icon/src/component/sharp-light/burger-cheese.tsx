@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burger-cheese` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-cheese?s=sharp-light burger-cheese}
- * @preview ![burger-cheese](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc3LjcgMjI0QzQ2Mi4yIDExNS40IDM2OC44IDMyIDI1NiAzMlM0OS44IDExNS40IDM0LjMgMjI0Yy0xLjUgMTAuNS0yLjMgMjEuMS0yLjMgMzJsMzIgMCAxNjAgMCAxNC41IDAgMTYyLjkgMCAxNC41IDAgMzIgMCAzMiAwYzAtMTAuOS0uOC0yMS41LTIuMy0zMnpNNDQ4IDM1MmwtMTcuNSAwLTQ4IDMyIDY1LjUgMCAwIDY0TDY0IDQ0OGwwLTY0IDE5My41IDAtNDgtMzJMNjQgMzUybC0zMiAwIDAgMzIgMCA2NCAwIDMyIDMyIDAgMzg0IDAgMzIgMCAwLTMyIDAtNjQgMC0zMi0zMiAwem0tMi43LTEyOEw2Ni43IDIyNEM4MS45IDEzMy4yIDE2MC45IDY0IDI1NiA2NHMxNzQuMSA2OS4yIDE4OS4zIDE2MHpNMTYwIDE2MGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTExMi00OGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwem04MCA0OGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6TTMyIDI4OGwtMTYgMCAwIDMyIDE2IDAgMTg3LjIgMCA5MiA2MS4zIDguOSA1LjkgOC45LTUuOSA5Mi02MS4zIDU5LjIgMCAxNiAwIDAtMzItMTYgMC02NCAwLTQuOCAwLTQgMi43TDMyMCAzNDguOGwtODcuMS01OC4xLTQtMi43LTQuOCAwTDMyIDI4OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![burger-cheese](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/burger-cheese.svg)
  */
 const BurgerCheese: typeof Icon = x => (
     <Icon {...x}>

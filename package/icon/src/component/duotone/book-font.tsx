@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `book-font` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-font?s=duotone book-font}
- * @preview ![book-font](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCA0MTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMTYwIDAgOTYgMCA2NCAwIDAgNjQtNjQgMC05NiAwTDk2IDQ0OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik05NiAwQzQzIDAgMCA0MyAwIDk2TDAgNDE2YzAgNTMgNDMgOTYgOTYgOTZsMjg4IDAgMzIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtNjQgMC05NiAwTDk2IDQ0OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmwxNjAgMCA5NiAwIDY0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0zMjBjMC0xNy43LTE0LjMtMzItMzItMzJMMzg0IDAgOTYgMHpNMjU0LjMgNzIuOGw2NCAxMjggMzIgNjRjNCA3LjkgLjcgMTcuNS03LjIgMjEuNXMtMTcuNSAuNy0yMS41LTcuMkwyOTQuMSAyMjRsLTEwOC4yIDAtMjcuNiA1NS4yYy00IDcuOS0xMy42IDExLjEtMjEuNSA3LjJzLTExLjEtMTMuNi03LjItMjEuNWwzMi02NCA2NC0xMjhjMi43LTUuNCA4LjMtOC44IDE0LjMtOC44czExLjYgMy40IDE0LjMgOC44ek0yNDAgMTE1LjhMMjAxLjkgMTkybDc2LjIgMEwyNDAgMTE1Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-font](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/book-font.svg)
  */
 const BookFont: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M64 416c0-17.7 14.3-32 32-32l160 0 96 0 64 0 0 64-64 0-96 0L96 448c-17.7 0-32-14.3-32-32z" />
-            <path d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l288 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-96 0L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l160 0 96 0 64 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L384 0 96 0zM254.3 72.8l64 128 32 64c4 7.9 .7 17.5-7.2 21.5s-17.5 .7-21.5-7.2L294.1 224l-108.2 0-27.6 55.2c-4 7.9-13.6 11.1-21.5 7.2s-11.1-13.6-7.2-21.5l32-64 64-128c2.7-5.4 8.3-8.8 14.3-8.8s11.6 3.4 14.3 8.8zM240 115.8L201.9 192l76.2 0L240 115.8z" />
+        <path d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l288 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-96 0L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l160 0 96 0 64 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L384 0 96 0zM254.3 72.8l64 128 32 64c4 7.9 .7 17.5-7.2 21.5s-17.5 .7-21.5-7.2L294.1 224l-108.2 0-27.6 55.2c-4 7.9-13.6 11.1-21.5 7.2s-11.1-13.6-7.2-21.5l32-64 64-128c2.7-5.4 8.3-8.8 14.3-8.8s11.6 3.4 14.3 8.8zM240 115.8L201.9 192l76.2 0L240 115.8z" />
     </Icon>
 );
 

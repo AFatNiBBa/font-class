@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-pen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-pen?s=solid comment-pen}
- * @preview ![comment-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ0OGMxNDEuNCAwIDI1Ni05My4xIDI1Ni0yMDhTMzk3LjQgMzIgMjU2IDMyUzAgMTI1LjEgMCAyNDBjMCA0NS4xIDE3LjcgODYuOCA0Ny43IDEyMC45Yy0xLjkgMjQuNS0xMS40IDQ2LjMtMjEuNCA2Mi45Yy01LjUgOS4yLTExLjEgMTYuNi0xNS4yIDIxLjZjLTIuMSAyLjUtMy43IDQuNC00LjkgNS43Yy0uNiAuNi0xIDEuMS0xLjMgMS40bC0uMyAuM2MwIDAgMCAwIDAgMGMwIDAgMCAwIDAgMHMwIDAgMCAwczAgMCAwIDBjLTQuNiA0LjYtNS45IDExLjQtMy40IDE3LjRjMi41IDYgOC4zIDkuOSAxNC44IDkuOWMyOC43IDAgNTcuNi04LjkgODEuNi0xOS4zYzIyLjktMTAgNDIuNC0yMS45IDU0LjMtMzAuNmMzMS44IDExLjUgNjcgMTcuOSAxMDQuMSAxNy45em04NC44LTI5M2MxNC43IDE0LjcgMTQuNyAzOC42IDAgNTMuM2wtMTQuOSAxNC45TDI3Mi42IDE3MCAyODcuNSAxNTVjMTQuNy0xNC43IDM4LjYtMTQuNyA1My4zIDB6TTE3OC4xIDI2NC41TDI1MCAxOTIuNmw1My4zIDUzLjMtNzEuOSA3MS45Yy00LjEgNC4xLTkuMiA3LTE0LjkgOC40bC0zNi42IDkuMmMtNS41IDEuNC0xMS4yLS4yLTE1LjItNC4ycy01LjYtOS43LTQuMi0xNS4ybDkuMi0zNi43YzEuNC01LjYgNC4zLTEwLjggOC40LTE0Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![comment-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/comment-pen.svg)
  */
 const CommentPen: typeof Icon = x => (
     <Icon {...x}>

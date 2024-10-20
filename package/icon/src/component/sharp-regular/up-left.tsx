@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-left` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-left?s=sharp-regular up-left}
- * @preview ![up-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM2IDI0NC4xbDMzLjkgMzMuOUwyNzIgMzgwLjEgMzE2LjEgMzM2IDIxNC4xIDIzMy45IDE4MC4xIDIwMGwzMy45LTMzLjlMMjUyLjEgMTI4IDY0IDEyOGwwIDE4OC4xIDM4LjEtMzguMUwxMzYgMjQ0LjF6TTk3LjkgMzUwLjFMNjQgMzg0IDMwLjEgMzUwLjEgMTYgMzM2bDAtMjA4IDAtNDggNDggMCAyMDggMCAxNC4xIDE0LjFMMzIwIDEyOGwtMzMuOSAzMy45LTQuMSA0LjFMMjQ4IDIwMGwzMy45IDMzLjkgNjguMSA2OC4xTDM4NCAzMzZsLTMzLjkgMzMuOS00NC4xIDQ0LjFMMjcyIDQ0OGwtMzMuOS0zMy45LTY4LjEtNjguMUwxMzYgMzEybC0zMy45IDMzLjktNC4xIDQuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/up-left.svg)
  */
 const UpLeft: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

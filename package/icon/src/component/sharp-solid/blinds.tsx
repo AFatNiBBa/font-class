@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blinds` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blinds?s=sharp-solid blinds}
- * @preview ![blinds](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEwwIDAgMCA2NGwxNiAwTDAgMTI4bDEyOCAwIDAtNjQgMzIgMCAwIDY0IDM1MiAwTDQ5NiA2NGwxNiAwIDAtNjRMNDgwIDAgMzIgMHpNMjQgMTYwTDAgMjU2bDk4LjcgMGM0LjgtMTMuNiAxNS42LTI0LjQgMjkuMy0yOS4zbDAtNjYuN0wyNCAxNjB6TTE0NCAzMjBjLTIwLjkgMC0zOC43LTEzLjQtNDUuMy0zMkwyNCAyODggMCAzODRsNTEyIDAtMjQtOTYtMjk4LjcgMGMtNi42IDE4LjYtMjQuNCAzMi00NS4zIDMyem0xNi05My4zYzEzLjYgNC44IDI0LjQgMTUuNiAyOS4zIDI5LjNMNTEyIDI1NmwtMjQtOTYtMzI4IDAgMCA2Ni43ek0wIDUxMmw1MTIgMC0yNC05NkwyNCA0MTYgMCA1MTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![blinds](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/blinds.svg)
  */
 const Blinds: typeof Icon = x => (
     <Icon {...x}>

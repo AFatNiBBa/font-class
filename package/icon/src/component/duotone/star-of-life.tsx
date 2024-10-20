@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `star-of-life` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-of-life?s=duotone star-of-life}
- * @preview ![star-of-life](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yMDggMzJjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE0MC45IDEyMi03MC40YzE1LjMtOC44IDM0LjktMy42IDQzLjcgMTEuN2wxNiAyNy43YzguOCAxNS4zIDMuNiAzNC45LTExLjcgNDMuN0wzNTIgMjU2bDEyMiA3MC40YzE1LjMgOC44IDIwLjYgMjguNCAxMS43IDQzLjdsLTE2IDI3LjdjLTguOCAxNS4zLTI4LjQgMjAuNi00My43IDExLjdMMzA0IDMzOS4xIDMwNCA0ODBjMCAxNy43LTE0LjMgMzItMzIgMzJsLTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTQwLjlMODYgNDA5LjZjLTE1LjMgOC44LTM0LjkgMy42LTQzLjctMTEuN2wtMTYtMjcuN2MtOC44LTE1LjMtMy42LTM0LjkgMTEuNy00My43TDE2MCAyNTYgMzggMTg1LjZjLTE1LjMtOC44LTIwLjUtMjguNC0xMS43LTQzLjdsMTYtMjcuN0M1MS4xIDk4LjggNzAuNyA5My42IDg2IDEwMi40bDEyMiA3MC40TDIwOCAzMnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![star-of-life](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/star-of-life.svg)
  */
 const StarOfLife: typeof Icon = x => (
     <Icon {...x}>

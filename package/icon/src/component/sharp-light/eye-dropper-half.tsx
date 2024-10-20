@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eye-dropper-half` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-dropper-half?s=sharp-light eye-dropper-half}
- * @preview ![eye-dropper-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjIwLjcgMTk1LjRsLTIyLjYtMjIuNi02LjEtNi4xLTExLjMtMTEuM0wxNjkuNCAxNDQgMTkyIDEyMS40bDYuMSA2LjEgNS4yIDUuMkwyMTQuNiAxNDRsNi4xIDYuMSAyMi42LTIyLjYgOTguMy05OC4zYzM5LTM5IDEwMi4yLTM5IDE0MS4xIDBzMzkgMTAyLjIgMCAxNDEuMWwtOTguMyA5OC4zLTIyLjYgMjIuNiA2LjEgNi4xIDExLjMgMTEuMyA1LjIgNS4yIDYuMSA2LjFMMzY4IDM0Mi42bC0xMS4zLTExLjNMMzQ1LjQgMzIwbC02LjEtNi4xLTIyLjYtMjIuNi05NS45LTk1Ljl6bTExOC41IDczLjNMNDYwLjEgMTQ3LjhjMjYuNS0yNi41IDI2LjUtNjkuNCAwLTk1LjlzLTY5LjQtMjYuNS05NS45IDBMMjQzLjQgMTcyLjdsOTUuOSA5NS45ek0xNzguMSAxOTcuOWwyMi42IDIyLjZMMTAxLjMgMzIwbDE4MS41IDAgOC43LTguNyAyMi42IDIyLjZMMTY4IDQ4MGwtODAgMEw0MCA1MTIgMCA0NzJsMzItNDggMC04MEwxNzguMSAxOTcuOXpNNjkuMyAzNTJMNjQgMzU3LjMgNjQgNDI0bDAgOS43LTUuNCA4LjFMNDEuMiA0NjcuOWwyLjkgMi45IDI2LjItMTcuNCA4LjEtNS40IDkuNyAwIDY2LjcgMCA5Ni05Nkw2OS4zIDM1MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![eye-dropper-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/eye-dropper-half.svg)
  */
 const EyeDropperHalf: typeof Icon = x => (
     <Icon {...x}>

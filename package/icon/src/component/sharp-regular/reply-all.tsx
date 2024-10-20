@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `reply-all` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reply-all?s=sharp-regular reply-all}
- * @preview ![reply-all](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA2LjQgMTg0LjRMMjI0IDc2LjYgMjI0IDMybC0zMiAwTDAgMjA4IDE5MiAzODRsMzIgMCAwLTQ0LjZMMTA2LjQgMjMxLjYgODAuNiAyMDhsMjUuNy0yMy42ek00NDggNDgwczQxLjgtMTUuNyA3Ny43LTUzYzI2LjktMjggNTAuMy02OC4xIDUwLjMtMTIzYzAtOTcuMi03OC44LTE3Ni0xNzYtMTc2bC00OCAwIDAtNDggMC0xMi4yIDAtLjlMMzUyIDMybC0zMiAwTDMwNCA0Ni43IDE2My41IDE3NS40IDEyOCAyMDhsMzUuNSAzMi42TDMwNCAzNjkuMyAzMjAgMzg0bDMyIDAgMC0zNC45IDAtLjkgMC0xMi4yIDAtNDggMTYgMGMxMS4xIDAgMjEuOSAxLjYgMzIgNC42YzQ2LjMgMTMuOCA4MCA1Ni42IDgwIDEwNy40YzAgMS40IDAgMi45LS4xIDQuM0M0NzguMSA0NDkuOSA0NDggNDgwIDQ0OCA0ODB6bTgwLTE3NmMwIDE3LTMuMSAzMi04LjIgNDUuNEM0OTguNiAyODUuOCA0MzguNyAyNDAgMzY4IDI0MGwtMTYgMC00OCAwIDAgNDggMCAxNi4yTDE5OSAyMDhsMTA1LTk2LjIgMCAxNi4yIDAgNDggNDggMCA0OCAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![reply-all](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/reply-all.svg)
  */
 const ReplyAll: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

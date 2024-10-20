@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `icicles` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/icicles?s=sharp-light icicles}
- * @preview ![icicles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk4LjIgNDMzLjVMMzUxLjcgMjI5LjEgMzM2IDE2MGwtMTcuMiA2OC44LTE1LjYgNjIuNUwyODggMzUybC0xOC02MC0xMC45LTM2LjRMMjQwIDE5MmwtMTMuOSA2NS0xNy43IDgyLjdMMTkyIDQxNmwtMTYuNC03Ni40TDE1Ny45IDI1NyAxNDQgMTkybC0xOS4xIDYzLjYtMTEuNSAzOC41TDk2IDM1MiA4MC4xIDI5My43IDguNyAzMiAwIDAgMzMuMiAwIDQ3OS40IDAgNTEyIDBsLTYgMzJMNDMwLjggNDMyLjkgNDE2IDUxMmwtMTcuOC03OC41ek0zMDUgMTUyLjJMMzE5IDk2bDM1LjMgMCAxMi45IDU2LjlMNDEzIDM1NC40IDQ3My40IDMyIDQwMCAzMmwtNjAuMyAwTDMzNSAzMiA5NiAzMiA0MS45IDMyIDk3LjUgMjM1LjhsMTUuOS01Mi45TDEyOS44IDEyOGwzMy4yIDAgMTIuMyA1Ny4zIDE2LjcgNzggMTYuNy03OEwyMjEgMTI4bDMzLjIgMCAxNi40IDU0LjggMTQuNSA0OC41IDE5LjgtNzl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![icicles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/icicles.svg)
  */
 const Icicles: typeof Icon = x => (
     <Icon {...x}>

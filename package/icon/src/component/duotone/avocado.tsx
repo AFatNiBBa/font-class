@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `avocado` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/avocado?s=duotone avocado}
- * @preview ![avocado](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMwNGMwIDUzLjIgMjAuMyAxMDYuNSA2MC45IDE0Ny4xYzgxLjIgODEuMiAyMTIuOSA4MS4yIDI5NC4yIDBjMzIuMy0zMi4zIDU2LjEtODQuOSA2Ni4zLTEzNi43YzQuNi0yMy41IDE5LjYtNDMuOSAzOC4xLTU5LjFDNDkxLjUgMjI4LjkgNTEyIDE4OC44IDUxMiAxNDRDNTEyIDY0LjUgNDQ3LjUgMCAzNjggMGMtNDQuOCAwLTg0LjkgMjAuNS0xMTEuMyA1Mi42Yy0xNS4yIDE4LjUtMzUuNiAzMy41LTU5LjEgMzguMWMtNTEuOSAxMC4yLTEwNC41IDM0LTEzNi43IDY2LjNDMjAuMyAxOTcuNSAwIDI1MC44IDAgMzA0em0xNDguNCA1OS42Yy0zMi43LTMyLjctMjUuMy05MyAxNi40LTEzNC44QzE4OSAyMDQuNiAyMTkuNCAxOTIgMjQ3LjEgMTkyYzIwLjEgMCAzOC43IDYuNyA1Mi41IDIwLjRzMjAuNCAzMi40IDIwLjQgNTIuNWMwIDI3LjctMTIuNiA1OC4xLTM2LjggODIuM2MtNDEuNyA0MS43LTEwMi4xIDQ5LjEtMTM0LjggMTYuNHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTI5OS42IDIxMi40YzMyLjcgMzIuNyAyNS4zIDkzLTE2LjQgMTM0LjhzLTEwMi4xIDQ5LjEtMTM0LjggMTYuNHMtMjUuMy05MyAxNi40LTEzNC44czEwMi4xLTQ5LjEgMTM0LjgtMTYuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![avocado](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/avocado.svg)
  */
 const Avocado: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 304c0 53.2 20.3 106.5 60.9 147.1c81.2 81.2 212.9 81.2 294.2 0c32.3-32.3 56.1-84.9 66.3-136.7c4.6-23.5 19.6-43.9 38.1-59.1C491.5 228.9 512 188.8 512 144C512 64.5 447.5 0 368 0c-44.8 0-84.9 20.5-111.3 52.6c-15.2 18.5-35.6 33.5-59.1 38.1c-51.9 10.2-104.5 34-136.7 66.3C20.3 197.5 0 250.8 0 304zm148.4 59.6c-32.7-32.7-25.3-93 16.4-134.8C189 204.6 219.4 192 247.1 192c20.1 0 38.7 6.7 52.5 20.4s20.4 32.4 20.4 52.5c0 27.7-12.6 58.1-36.8 82.3c-41.7 41.7-102.1 49.1-134.8 16.4z" />
-            <path d="M299.6 212.4c32.7 32.7 25.3 93-16.4 134.8s-102.1 49.1-134.8 16.4s-25.3-93 16.4-134.8s102.1-49.1 134.8-16.4z" />
+        <path d="M299.6 212.4c32.7 32.7 25.3 93-16.4 134.8s-102.1 49.1-134.8 16.4s-25.3-93 16.4-134.8s102.1-49.1 134.8-16.4z" />
     </Icon>
 );
 

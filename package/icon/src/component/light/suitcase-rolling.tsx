@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `suitcase-rolling` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/suitcase-rolling?s=light suitcase-rolling}
- * @preview ![suitcase-rolling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQ4bDAgODAgMTI4IDAgMC04MGMwLTguOC03LjItMTYtMTYtMTZsLTk2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnpNOTYgMTI4bDAtODBjMC0yNi41IDIxLjUtNDggNDgtNDhsOTYgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDgwIDMyIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyMjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRsMCAxNmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTE2TDk2IDQ4MGwwIDE2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMTZjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTkyYzAtMzUuMyAyOC43LTY0IDY0LTY0bDMyIDB6TTgwIDQ0OGwyMjQgMCAxNiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMjI0YzAtMTcuNy0xNC4zLTMyLTMyLTMybC00OCAwLTE2MCAwLTQ4IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMjI0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDE2IDB6TTk2IDI1NmMwLTguOCA3LjItMTYgMTYtMTZsMTYwIDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTE2MCAwYy04LjggMC0xNi03LjItMTYtMTZ6bTAgOTZjMC04LjggNy4yLTE2IDE2LTE2bDE2MCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xNjAgMGMtOC44IDAtMTYtNy4yLTE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![suitcase-rolling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/suitcase-rolling.svg)
  */
 const SuitcaseRolling: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

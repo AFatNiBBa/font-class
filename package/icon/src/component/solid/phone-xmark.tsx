@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-xmark?s=solid phone-xmark}
- * @preview ![phone-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ5LjUgMS40YzE5LjQtNS4zIDM5LjcgNC42IDQ3LjQgMjMuMmw0MCA5NmM2LjggMTYuMyAyLjEgMzUuMi0xMS42IDQ2LjNMMTc2IDIwNy4zYzMzLjMgNzAuNCA5MC4zIDEyNy40IDE2MC43IDE2MC43TDM3NyAzMTguN2MxMS4yLTEzLjcgMzAtMTguNCA0Ni4zLTExLjZsOTYgNDBjMTguNiA3LjcgMjguNSAyOCAyMy4yIDQ3LjRsLTI0IDg4QzUxMy44IDQ5OS45IDQ5OCA1MTIgNDgwIDUxMkMyMzIuNiA1MTIgMzIgMzExLjQgMzIgNjRjMC0xOCAxMi4xLTMzLjggMjkuNS0zOC42bDg4LTI0ek0zNjcgMTVjOS40LTkuNCAyNC42LTkuNCAzMy45IDBsNDcgNDcgNDctNDdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBzOS40IDI0LjYgMCAzMy45bC00NyA0NyA0NyA0N2M5LjQgOS40IDkuNCAyNC42IDAgMzMuOXMtMjQuNiA5LjQtMzMuOSAwbC00Ny00Ny00NyA0N2MtOS40IDkuNC0yNC42IDkuNC0zMy45IDBzLTkuNC0yNC42IDAtMzMuOWw0Ny00N0wzNjcgNDljLTkuNC05LjQtOS40LTI0LjYgMC0zMy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![phone-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-xmark.svg)
  */
 const PhoneXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sushi-roll` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sushi-roll?s=sharp-regular sushi-roll}
- * @preview ![sushi-roll](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDIwNy43Yy0xMy4yIDExLjItMjkgMTkuNy00NSAyNi4xQzMxOSAyNDguMiAyNzIuNyAyNTYgMjI0IDI1NnMtOTUtNy44LTEzMS0yMi4yYy0xNi02LjQtMzEuOS0xNC45LTQ1LTI2LjFsMCAxNDcuOWMuNSAuOCAxLjEgMS43IDEuNyAyLjZjNS4xIDcuNCAxMy43IDE4IDI2LjggMjguN0MxMDEuOSA0MDcuOSAxNDcuMSA0MzIgMjI0IDQzMnMxMjIuMS0yNC4xIDE0Ny41LTQ1LjFjMTMuMS0xMC44IDIxLjctMjEuMyAyNi44LTI4LjdjLjYtLjkgMS4yLTEuOCAxLjgtMi42bDAtMTQ3Ljl6TTY0IDE0NGMwIDExLjYgNy43IDIyLjUgMjEuMiAzMS45bDUwLjMtNDYuNiAzLTIuOCAzLjktMS40IDc1LjMtMjYuNS04LjQtMTguM0MxMjcuOSA4My4yIDY0IDExMC42IDY0IDE0NHptNjAuNSA1MC4xYzI3LjMgOC43IDYxLjkgMTMuOSA5OS41IDEzLjljMzkuOSAwIDc2LjMtNS44IDEwNC4zLTE1LjVsLTczLjctMjcuNi03LjctMi45LTMuNC03LjUtOC45LTE5LjQtNzQuOSAyNi40LTM1LjIgMzIuNnpNMzg0IDE0NGMwLTMxLjMtNTYuMS01Ny4zLTEzMC4yLTYyLjlsMjIuNSA0OS4zIDk3LjIgMzYuNEMzODAuMyAxNTkuNyAzODQgMTUyIDM4NCAxNDR6TTIyNCAzMmMxMjMuNyAwIDIyNCA1MC4xIDIyNCAxMTJsMCAyMjRzLTQ4IDExMi0yMjQgMTEyUzAgMzY4IDAgMzY4TDAgMTQ0QzAgODIuMSAxMDAuMyAzMiAyMjQgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sushi-roll](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sushi-roll.svg)
  */
 const SushiRoll: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

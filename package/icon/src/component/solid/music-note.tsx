@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `music-note` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-note?s=solid music-note}
- * @preview ![music-note](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMyYzAtOS45LTQuNS0xOS4yLTEyLjMtMjUuMlMzNTMuOC0xLjQgMzQ0LjIgMWwtMTI4IDMyQzIwMiAzNi41IDE5MiA0OS4zIDE5MiA2NGwwIDY0IDAgMjMxLjdjLTE0LjUtNC45LTMwLjgtNy43LTQ4LTcuN2MtNjEuOSAwLTExMiAzNS44LTExMiA4MHM1MC4xIDgwIDExMiA4MHMxMTItMzUuOCAxMTItODBsMC0yNzlMMzU5LjggMTI3QzM3NCAxMjMuNSAzODQgMTEwLjcgMzg0IDk2bDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![music-note](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/music-note.svg)
  */
 const MusicNote: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

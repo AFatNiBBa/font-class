@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-user` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-user?s=sharp-light file-user}
- * @preview ![file-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ4MGwtNDggMC0zMi05Ni0xNjAgMEw4MCA0ODBsLTQ4IDBMMzIgMzJsMTYwIDAgMCAxNDQgMCAxNiAxNiAwIDE0NCAwIDAgMjg4em0tODEuNyAwbC0xNTYuNSAwIDIxLjMtNjQgMTEzLjkgMCAyMS4zIDY0ek0yMjQgMzcuM0wzNDYuNyAxNjAgMjI0IDE2MGwwLTEyMi43ek0yMzIgMEwzMiAwIDAgMCAwIDMyIDAgNDgwbDAgMzIgMzIgMCAzMjAgMCAzMiAwIDAtMzIgMC0zMjhMMjMyIDB6TTE5MiAyNTZhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em0wIDk2YTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-user.svg)
  */
 const FileUser: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

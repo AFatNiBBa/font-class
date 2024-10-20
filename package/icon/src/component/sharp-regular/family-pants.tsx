@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `family-pants` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family-pants?s=sharp-regular family-pants}
- * @preview ![family-pants](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRhNjQgNjQgMCAxIDEgMTI4IDBBNjQgNjQgMCAxIDEgNjQgNjR6TTc4IDIwOGwtNCA5NiAzOCAwIDMyIDAgMCA0OC0zMiAwIDAgMTM2IDAgMjQtNDggMCAwLTI0IDAtMTM2LTQwIDAgMi00OCA2LTE0NCAxNDUuNiAwYy0xIDUuMi0xLjYgMTAuNS0xLjYgMTZjMCAxMS40IDIuNCAyMi4yIDYuNyAzMmwtNC43IDAtNTAgMC01MCAwem0yNTgtMzJjMC01LjUtLjYtMTAuOC0xLjYtMTZMNDgwIDE2MGw2IDE0NCAyIDQ4LTQwIDAgMCAxMzYgMCAyNC00OCAwIDAtMjQgMC0xMzYtMzIgMCAwLTQ4IDMyIDAgMzggMC00LTk2LTUwIDAtNTAgMC00LjcgMGM0LjMtOS44IDYuNy0yMC42IDYuNy0zMnpNMzIwIDY0YTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDMyMCA2NHptLTY0IDY0YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnpNMjI0IDM2OGw2NCAwIDAtNjQtNjQgMCAwIDY0em0xMTIgNDhsLTMyIDAgMCA5Ni05NiAwIDAtOTYtMzIgMCAwLTQ4IDAtNjQgMC00OCA0OCAwIDY0IDAgNDggMCAwIDQ4IDAgNjQgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![family-pants](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/family-pants.svg)
  */
 const FamilyPants: typeof Icon = x => (
     <Icon {...x}>

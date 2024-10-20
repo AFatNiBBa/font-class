@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-w` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-w?s=regular square-w}
- * @preview ![square-w](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgODBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDMyMGMwIDguOCA3LjIgMTYgMTYgMTZsMzIwIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMzIwYzAtOC44LTcuMi0xNi0xNi0xNkw2NCA4MHpNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6bTExOC45IDY0LjdMMTYwIDI4OS4zbDQxLjEtMTI4LjZjMy4yLTkuOSAxMi40LTE2LjcgMjIuOS0xNi43czE5LjcgNi43IDIyLjkgMTYuN0wyODggMjg5LjNsNDEuMS0xMjguNmM0LTEyLjYgMTcuNS0xOS42IDMwLjItMTUuNXMxOS42IDE3LjUgMTUuNSAzMC4ybC02NCAyMDBjLTMuMiA5LjktMTIuNCAxNi43LTIyLjkgMTYuN3MtMTkuNy02LjctMjIuOS0xNi43TDIyNCAyNDYuNyAxODIuOSAzNzUuM2MtMy4yIDkuOS0xMi40IDE2LjctMjIuOSAxNi43cy0xOS43LTYuNy0yMi45LTE2LjdsLTY0LTIwMGMtNC0xMi42IDIuOS0yNi4xIDE1LjUtMzAuMnMyNi4xIDIuOSAzMC4yIDE1LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-w.svg)
  */
 const SquareW: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

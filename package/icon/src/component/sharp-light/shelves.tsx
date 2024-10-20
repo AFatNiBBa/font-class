@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shelves` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shelves?s=sharp-light shelves}
- * @preview ![shelves](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMGwwIDE2IDAgMTQ0IDU3NiAwIDAtMTQ0IDAtMTYgMzIgMCAwIDE2IDAgMTQ0IDAgMTYgMCAxNiAwIDIyNCAwIDE2IDAgMTYgMCA0OCAwIDE2LTMyIDAgMC0xNiAwLTQ4TDMyIDQ0OGwwIDQ4IDAgMTZMMCA1MTJsMC0xNiAwLTQ4IDAtMTYgMC0xNkwwIDE5MmwwLTE2IDAtMTZMMCAxNiAwIDAgMzIgMHptMCA0MTZsNTc2IDAgMC0yMjRMMzIgMTkybDAgMjI0ek00NDggMzJsLTY0IDAgMCA2NCA2NCAwIDAtNjR6TTM4NCAwbDY0IDAgMzIgMCAwIDMyIDAgNjQgMCAzMi0zMiAwLTY0IDAtMzIgMCAwLTMyIDAtNjQgMC0zMiAzMiAwek0xMjggMjg4bDAgNjQgNjQgMCAwLTY0LTY0IDB6TTk2IDI1NmwzMiAwIDY0IDAgMzIgMCAwIDMyIDAgNjQgMCAzMi0zMiAwLTY0IDAtMzIgMCAwLTMyIDAtNjQgMC0zMnptMTkyIDMybDAgNjQgNjQgMCAwLTY0LTY0IDB6bS0zMi0zMmwzMiAwIDY0IDAgMzIgMCAwIDMyIDAgNjQgMCAzMi0zMiAwLTY0IDAtMzIgMCAwLTMyIDAtNjQgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shelves](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shelves.svg)
  */
 const Shelves: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

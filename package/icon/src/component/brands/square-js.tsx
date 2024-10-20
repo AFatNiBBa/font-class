@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-js` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-js?s=brands square-js}
- * @preview ![square-js](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDk2YzAtMzUuMy0yOC43LTY0LTY0LTY0SDY0QzI4LjcgMzIgMCA2MC43IDAgOTZWNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0SDM4NGMzNS4zIDAgNjQtMjguNyA2NC02NFY5NnpNMTgwLjkgNDQ0LjljLTMzLjcgMC01My4yLTE3LjQtNjMuMi0zOC41TDE1MiAzODUuN2M2LjYgMTEuNyAxMi42IDIxLjYgMjcuMSAyMS42YzEzLjggMCAyMi42LTUuNCAyMi42LTI2LjVWMjM3LjdoNDIuMVYzODEuNGMwIDQzLjYtMjUuNiA2My41LTYyLjkgNjMuNXptODUuOC00M0wzMDEgMzgyLjFjOSAxNC43IDIwLjggMjUuNiA0MS41IDI1LjZjMTcuNCAwIDI4LjYtOC43IDI4LjYtMjAuOGMwLTE0LjQtMTEuNC0xOS41LTMwLjctMjhsLTEwLjUtNC41Yy0zMC40LTEyLjktNTAuNS0yOS4yLTUwLjUtNjMuNWMwLTMxLjYgMjQuMS01NS42IDYxLjYtNTUuNmMyNi44IDAgNDYgOS4zIDU5LjggMzMuN0wzNjggMjkwYy03LjItMTIuOS0xNS0xOC0yNy4xLTE4Yy0xMi4zIDAtMjAuMSA3LjgtMjAuMSAxOGMwIDEyLjYgNy44IDE3LjcgMjUuOSAyNS42bDEwLjUgNC41YzM1LjggMTUuMyA1NS45IDMxIDU1LjkgNjYuMmMwIDM3LjgtMjkuOCA1OC42LTY5LjcgNTguNmMtMzkuMSAwLTY0LjQtMTguNi03Ni43LTQzeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-js](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-js.svg)
  */
 const SquareJs: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

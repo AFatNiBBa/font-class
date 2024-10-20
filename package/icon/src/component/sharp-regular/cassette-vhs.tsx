@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cassette-vhs` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-vhs?s=sharp-regular cassette-vhs}
- * @preview ![cassette-vhs](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDMybDAtMjcyIDQ4MCAwIDAgMjcyTDQ4IDQzMnpNNDggMzJMMCAzMiAwIDgwIDAgNDMybDAgNDggNDggMCA0ODAgMCA0OCAwIDAtNDggMC0zNTIgMC00OC00OCAwTDQ4IDMyek0zNTIgMzM2bC0xMjggMCAwLTgwIDEyOCAwIDAgODB6TTE0NCAyOTZjMC0xOS40IDEzLjctMzUuNSAzMi0zOS4ybDAgNzguNGMtMTguMy0zLjctMzItMTkuOC0zMi0zOS4yem0yODggMGMwIDE5LjQtMTMuNyAzNS41LTMyIDM5LjJsMC03OC40YzE4LjMgMy43IDMyIDE5LjggMzIgMzkuMnpNOTYgMjk2YzAgNDguNiAzOS40IDg4IDg4IDg4bDIwOCAwYzQ4LjYgMCA4OC0zOS40IDg4LTg4cy0zOS40LTg4LTg4LTg4bC0yMDggMGMtNDguNiAwLTg4IDM5LjQtODggODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cassette-vhs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cassette-vhs.svg)
  */
 const CassetteVhs: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

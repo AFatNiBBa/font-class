@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-laugh-wink` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-wink?s=light face-laugh-wink}
- * @preview ![face-laugh-wink](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI1NiA0MDBjNTIgMCA5Ny4xLTMyLjggMTE1LjctODBsLTIzMS40IDBjMTguNiA0Ny4yIDYzLjcgODAgMTE1LjcgODB6TTEyNi41IDI4OGwyNTkuMSAwYzE0LjIgMCAyNS40IDEyLjMgMjEuOCAyNmMtMTguMSA2OC03OSAxMTgtMTUxLjMgMTE4cy0xMzMuMi01MC0xNTEuMy0xMThjLTMuNi0xMy43IDcuNi0yNiAyMS44LTI2em0yNS45LTk2YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bTE0OC40IDI1LjZjLTUuMyA3LjEtMTUuMyA4LjUtMjIuNCAzLjJzLTguNS0xNS4zLTMuMi0yMi40YzMwLjQtNDAuNSA5MS4yLTQwLjUgMTIxLjYgMGM1LjMgNy4xIDMuOSAxNy4xLTMuMiAyMi40cy0xNy4xIDMuOS0yMi40LTMuMmMtMTcuNi0yMy41LTUyLjgtMjMuNS03MC40IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-laugh-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-laugh-wink.svg)
  */
 const FaceLaughWink: typeof Icon = x => (
     <Icon {...x}>

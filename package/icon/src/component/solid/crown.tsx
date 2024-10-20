@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crown` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crown?s=solid crown}
- * @preview ![crown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA5IDEwNmMxMS40LTcgMTktMTkuNyAxOS0zNGMwLTIyLjEtMTcuOS00MC00MC00MHMtNDAgMTcuOS00MCA0MGMwIDE0LjQgNy42IDI3IDE5IDM0TDIwOS43IDIyMC42Yy05LjEgMTguMi0zMi43IDIzLjQtNDguNiAxMC43TDcyIDE2MGM1LTYuNyA4LTE1IDgtMjRjMC0yMi4xLTE3LjktNDAtNDAtNDBTMCAxMTMuOSAwIDEzNnMxNy45IDQwIDQwIDQwYy4yIDAgLjUgMCAuNyAwTDg2LjQgNDI3LjRjNS41IDMwLjQgMzIgNTIuNiA2MyA1Mi42bDI3Ny4yIDBjMzAuOSAwIDU3LjQtMjIuMSA2My01Mi42TDUzNS4zIDE3NmMuMiAwIC41IDAgLjcgMGMyMi4xIDAgNDAtMTcuOSA0MC00MHMtMTcuOS00MC00MC00MHMtNDAgMTcuOS00MCA0MGMwIDkgMyAxNy4zIDggMjRsLTg5LjEgNzEuM2MtMTUuOSAxMi43LTM5LjUgNy41LTQ4LjYtMTAuN0wzMDkgMTA2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/crown.svg)
  */
 const Crown: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

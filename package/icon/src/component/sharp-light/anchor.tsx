@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `anchor` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor?s=sharp-light anchor}
- * @preview ![anchor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDgwYTQ4IDQ4IDAgMSAxIC05NiAwIDQ4IDQ4IDAgMSAxIDk2IDB6TTI4OCAwYy00NC4yIDAtODAgMzUuOC04MCA4MGMwIDM4LjcgMjcuNSA3MSA2NCA3OC40bDAgMS42IDAgMzItNjQgMC0xNiAwIDAgMzIgMTYgMCA2NCAwIDAgMjU2TDk2IDQ4MGwwLTE2OS40IDI4LjcgMjguN0wxMzYgMzUwLjYgMTU4LjYgMzI4bC0xMS4zLTExLjMtNTYtNTZMODAgMjQ5LjQgNjguNyAyNjAuN2wtNTYgNTZMMS40IDMyOCAyNCAzNTAuNmwxMS4zLTExLjNMNjQgMzEwLjYgNjQgNDk2bDAgMTYgMTYgMCAyMDggMCAyMDggMCAxNiAwIDAtMTYgMC0xODUuNCAyOC43IDI4LjdMNTUyIDM1MC42IDU3NC42IDMyOGwtMTEuMy0xMS4zLTU2LTU2TDQ5NiAyNDkuNGwtMTEuMyAxMS4zLTU2IDU2TDQxNy40IDMyOCA0NDAgMzUwLjZsMTEuMy0xMS4zTDQ4MCAzMTAuNiA0ODAgNDgwbC0xNzYgMCAwLTI1NiA2NCAwIDE2IDAgMC0zMi0xNiAwLTY0IDAgMC0zMiAwLTEuNmMzNi41LTcuNCA2NC0zOS43IDY0LTc4LjRjMC00NC4yLTM1LjgtODAtODAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![anchor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/anchor.svg)
  */
 const Anchor: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

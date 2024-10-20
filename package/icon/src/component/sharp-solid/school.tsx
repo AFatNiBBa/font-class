@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `school` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school?s=sharp-solid school}
- * @preview ![school](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDUxMmwtMjU2IDAgMC05NmMwLTM1LjMtMjguNy02NC02NC02NHMtNjQgMjguNy02NCA2NGwwIDk2TDAgNTEyIDAgOTZsMTYwIDBMMzIwIDAgNDgwIDk2bDE2MCAwIDAgNDE2ek0xNDQgMTkybC02NCAwIDAgOTYgNjQgMCAwLTk2em0zNTIgMGwwIDk2IDY0IDAgMC05Ni02NCAwek0xNDQgMzIwbC02NCAwIDAgOTYgNjQgMCAwLTk2em0zNTIgMGwwIDk2IDY0IDAgMC05Ni02NCAwek00MDggMTc2YTg4IDg4IDAgMSAwIC0xNzYgMCA4OCA4OCAwIDEgMCAxNzYgMHptLTcyLTQ4bDAgMTYgMCAxNiAxNiAwIDE2IDAgMCAzMi0xNiAwLTMyIDAtMTYgMCAwLTE2IDAtMzIgMC0xNiAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![school](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/school.svg)
  */
 const School: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

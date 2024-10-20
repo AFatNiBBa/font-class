@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-question` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-question?s=sharp-solid message-question}
- * @preview ![message-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDUxMiAwbDAgNDE2LTIwOCAwTDE2MCA1MTJsMC05NkwwIDQxNiAwIDB6TTE2OCAxMzZsMCA2LjUgNDggMCAwLTYuNWMwLTQuNCAzLjYtOCA4LThsNTYuOSAwYzguNCAwIDE1LjEgNi44IDE1LjEgMTUuMWMwIDUuNC0yLjkgMTAuNC03LjYgMTMuMWwtNDQuMyAyNS40TDIzMiAxODguNmwwIDEzLjkgMCAyMS41IDAgMjQgNDggMCAwLTI0IDAtNy42IDMyLjMtMTguNWMxOS42LTExLjMgMzEuNy0zMi4yIDMxLjctNTQuOGMwLTM0LjktMjguMy02My4xLTYzLjEtNjMuMUwyMjQgODBjLTMwLjkgMC01NiAyNS4xLTU2IDU2em02NCAxNTJsMCA0OCA0OCAwIDAtNDgtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![message-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/message-question.svg)
  */
 const MessageQuestion: typeof Icon = x => (
     <Icon {...x}>

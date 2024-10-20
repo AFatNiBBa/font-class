@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ballot-check` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ballot-check?s=sharp-thin ballot-check}
- * @preview ![ballot-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDE2bDAgNDgwTDE2IDQ5NiAxNiAxNmw0MTYgMHpNMTYgMEwwIDAgMCAxNiAwIDQ5NmwwIDE2IDE2IDAgNDE2IDAgMTYgMCAwLTE2IDAtNDgwIDAtMTZMNDMyIDAgMTYgMHpNMTkyIDEyMGwwIDE2IDggMCAxNzYgMCA4IDAgMC0xNi04IDAtMTc2IDAtOCAwem0wIDEyOGwwIDE2IDggMCAxNzYgMCA4IDAgMC0xNi04IDAtMTc2IDAtOCAwem0wIDEyOGwwIDE2IDggMCAxNzYgMCA4IDAgMC0xNi04IDAtMTc2IDAtOCAwem0tNTYtMzJsLTE2IDAtNDggMC0xNiAwIDAgMTYgMCA0OCAwIDE2IDE2IDAgNDggMCAxNiAwIDAtMTYgMC00OCAwLTE2ek03MiAzNjBsMTYgMCAxNiAwIDE2IDAgMCAxNiAwIDE2IDAgMTYtMTYgMC0xNiAwLTE2IDAgMC0xNiAwLTE2IDAtMTZ6TTU2IDg4bDAgMTYgMCA0OCAwIDE2IDE2IDAgNDggMCAxNiAwIDAtMTYgMC00OCAwLTE2LTE2IDBMNzIgODggNTYgODh6bTMyIDE2bDE2IDAgMTYgMCAwIDE2IDAgMTYgMCAxNi0xNiAwLTE2IDAtMTYgMCAwLTE2IDAtMTYgMC0xNiAxNiAwem02OS43IDEyNS43bDUuNy01LjdMMTUyIDIxMi43bC01LjcgNS43TDk2IDI2OC43IDY5LjcgMjQyLjMgNjQgMjM2LjcgNTIuNyAyNDhsNS43IDUuNyAzMiAzMiA1LjcgNS43IDUuNy01LjcgNTYtNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ballot-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/ballot-check.svg)
  */
 const BallotCheck: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

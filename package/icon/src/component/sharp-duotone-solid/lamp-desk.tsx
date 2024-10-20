@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `lamp-desk` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp-desk?s=sharp-duotone-solid lamp-desk}
- * @preview ![lamp-desk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05Mi42IDI0Ni4yTDk3IDI2My44IDE0MyA0NDhsNjYgMEwxNjMuNCAyNjUuOCAyNTYgMTczLjNjMC01LjMgMC0xMC43IDAtMTZjLTEyLjQtMTIuNC0yNC44LTI0LjgtMzcuMy0zNy4zTDEwNS40IDIzMy40IDkyLjYgMjQ2LjJ6bTI3NS44IDkuNEMzNzguNSAyNjUuNyAzOTIuNSAyNzIgNDA4IDI3MmMzMC45IDAgNTYtMjUuMSA1Ni01NmMwLTE1LjUtNi4zLTI5LjUtMTYuNC0zOS42bC03OS4yIDc5LjJ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yNTcuOSAwQzIyMS41IDAgMTkyIDI5LjUgMTkyIDY1LjljMCAxNy41IDYuOSAzNC4zIDE5LjMgNDYuNkwyNTYgMTU3LjMgMjU2IDI3Mmw0OCA0OEw1MTIgMTEyIDQ2NCA2NCAzNDkuMyA2NCAzMDQuNiAxOS4zQzI5Mi4yIDYuOSAyNzUuNCAwIDI1Ny45IDB6TTMyIDQ0OEwwIDQ0OGwwIDY0IDMyIDAgMzIwIDAgMzIgMCAwLTY0LTMyIDBMMzIgNDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lamp-desk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/lamp-desk.svg)
  */
 const LampDesk: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M92.6 246.2L97 263.8 143 448l66 0L163.4 265.8 256 173.3c0-5.3 0-10.7 0-16c-12.4-12.4-24.8-24.8-37.3-37.3L105.4 233.4 92.6 246.2zm275.8 9.4C378.5 265.7 392.5 272 408 272c30.9 0 56-25.1 56-56c0-15.5-6.3-29.5-16.4-39.6l-79.2 79.2z" />
-            <path d="M257.9 0C221.5 0 192 29.5 192 65.9c0 17.5 6.9 34.3 19.3 46.6L256 157.3 256 272l48 48L512 112 464 64 349.3 64 304.6 19.3C292.2 6.9 275.4 0 257.9 0zM32 448L0 448l0 64 32 0 320 0 32 0 0-64-32 0L32 448z" />
+        <path d="M257.9 0C221.5 0 192 29.5 192 65.9c0 17.5 6.9 34.3 19.3 46.6L256 157.3 256 272l48 48L512 112 464 64 349.3 64 304.6 19.3C292.2 6.9 275.4 0 257.9 0zM32 448L0 448l0 64 32 0 320 0 32 0 0-64-32 0L32 448z" />
     </Icon>
 );
 

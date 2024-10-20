@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `treasure-chest` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/treasure-chest?s=sharp-light treasure-chest}
- * @preview ![treasure-chest](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDY0bDAgMTkyIDY0IDAgMC02NCAwLTMyIDMyIDAgMTI4IDAgMzIgMCAwIDMyIDAgNjQgNjQgMCAwLTE5MkwxMjggNjR6TTM4NCAzODRsLTMyIDAtMTI4IDAtMzIgMCAwLTMyIDAtNjQtNjQgMCAwIDE2MCAzMjAgMCAwLTE2MC02NCAwIDAgNjQgMCAzMnpNOTYgNjkuNUM1OC43IDgyLjYgMzIgMTE4LjIgMzIgMTYwbDAgOTYgNjQgMEw5NiA2OS41ek0zMiAyODhsMCAxNjAgNjQgMCAwLTE2MC02NCAwek00ODAgNDQ4bDY0IDAgMC0xNjAtNjQgMCAwIDE2MHptNjQtMTkybDAtOTZjMC00MS44LTI2LjctNzcuNC02NC05MC41TDQ4MCAyNTZsNjQgMHpNMCAxNjBDMCA4OS4zIDU3LjMgMzIgMTI4IDMybDMyMCAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4bDAgMjg4IDAgMzItMzIgMEwzMiA0ODAgMCA0ODBsMC0zMkwwIDE2MHptMzUyIDMybC0xMjggMCAwIDE2MCAxMjggMCAwLTE2MHptLTQ4IDQ4bDAgNjQgMCAxNi0zMiAwIDAtMTYgMC02NCAwLTE2IDMyIDAgMCAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![treasure-chest](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/treasure-chest.svg)
  */
 const TreasureChest: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

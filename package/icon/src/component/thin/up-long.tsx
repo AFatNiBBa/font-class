@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-long` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-long?s=thin up-long}
- * @preview ![up-long](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA0IDE3NmwtODEuMSAwYy0zLjggMC02LjktMy4xLTYuOS02LjljMC0xLjggLjctMy41IDEuOS00LjdMMTU4LjEgMTYuOGMuNS0uNSAxLjItLjggMS45LS44czEuNCAuMyAxLjkgLjhMMzAyLjEgMTY0LjRjMS4yIDEuMyAxLjkgMyAxLjkgNC43YzAgMy44LTMuMSA2LjktNi45IDYuOUwyMTYgMTc2Yy04LjggMC0xNiA3LjItMTYgMTZsMCAyODBjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTMyIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtMjgwYzAtOC44LTcuMi0xNi0xNi0xNnpNMTQ2LjUgNS44TDYuMyAxNTMuNGMtNCA0LjMtNi4zIDkuOS02LjMgMTUuOEMwIDE4MS44IDEwLjIgMTkyIDIyLjkgMTkyTDg4IDE5MmwxNiAwIDAgMTYgMCAyNjRjMCAyMi4xIDE3LjkgNDAgNDAgNDBsMzIgMGMyMi4xIDAgNDAtMTcuOSA0MC00MGwwLTI2NCAwLTE2IDE2IDAgNjUuMSAwYzEyLjYgMCAyMi45LTEwLjIgMjIuOS0yMi45YzAtNS45LTIuMy0xMS41LTYuMy0xNS44TDE3My41IDUuOEMxNzAgMi4xIDE2NS4xIDAgMTYwIDBzLTEwIDIuMS0xMy41IDUuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![up-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/up-long.svg)
  */
 const UpLong: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

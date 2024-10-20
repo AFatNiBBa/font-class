@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rv` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rv?s=sharp-solid rv}
- * @preview ![rv](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBMMzg0IDBsMCAzMiAyMjQgMCAwIDEyOC0yMjQgMCAwIDI1Ni0xMjkuNiAwYzEgNS4yIDEuNiAxMC41IDEuNiAxNmMwIDQ0LjItMzUuOCA4MC04MCA4MHMtODAtMzUuOC04MC04MGMwLTUuNSAuNi0xMC44IDEuNi0xNkw5NiA0MTYgMCAzMjAgMCAzMmwyMjQgMCAwLTMyem0zMiAxMjhMOTYgMTI4bDAgOTYgMTYwIDAgMC05NnpNMjA4IDQzMmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0yODggMzJhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0em0tODAtNDhsMC0xNiAwLTgwIDAtMzIgMC03MiAwLTI0IDI0IDAgODggMCA4LjYgMCA2LjYgNS40IDg4IDcyIDguOCA3LjIgMCAxMS40IDAgMzIgMCA5Ni02NS42IDBjMSA1LjIgMS42IDEwLjUgMS42IDE2YzAgNDQuMi0zNS44IDgwLTgwIDgwcy04MC0zNS44LTgwLTgwbDAtMTZ6TTU3OC4xIDI4OGwtNTguNy00OEw0NjQgMjQwbDAgNDggMTE0LjEgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/rv.svg)
  */
 const Rv: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

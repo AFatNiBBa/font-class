@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shirt-long-sleeve` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt-long-sleeve?s=sharp-thin shirt-long-sleeve}
- * @preview ![shirt-long-sleeve](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE1LjYgMGwtNC43IDAtMi4zIDQuMUw5NC45IDI5IDYuOSAxODkgMSAxOTkuOGwtMSAxLjggMCAyLjFMMCAyMTYgMCA0MDhsMCA4IDggMCA5NiAwIDggMCAwLTggMC0xNzcuNiA0OC04Ny4zTDE2MCA1MDRsMCA4IDggMCAzMDQgMCA4IDAgMC04IDAtMzYwLjkgNDggODcuM0w1MjggNDA4bDAgOCA4IDAgOTYgMCA4IDAgMC04IDAtMTkyIDAtMTIuMyAwLTIuMS0xLTEuOEw2MzMuMSAxODlsLTg4LTE2MEw1MzEuNCA0LjEgNTI5LjEgMGwtNC43IDBMNDk2IDAgNDcyIDAgNDQ4IDAgNDAwIDAgMjQwIDAgMTkyIDAgMTY4IDAgMTQ0IDAgMTE1LjYgMHpNMTA5IDM2LjdMMTIwLjMgMTYgMTQ0IDE2bDI0IDAgMjQgMCAzMy4zIDBjNy42IDQ1LjQgNDcuMSA4MCA5NC43IDgwczg3LjEtMzQuNiA5NC43LTgwTDQ0OCAxNmwyNCAwIDI0IDAgMjMuNyAwTDUzMSAzNi43bDg4IDE2MCA1IDkgMCAxMC4zIDAgMTg0LTgwIDAgMC0xNzEuNyAwLTIuMS0xLTEuOEw0NzkgMTA4LjEgNDY0IDExMmwwIDM4NC0yODggMCAwLTM4NC0xNS0zLjlMOTcgMjI0LjVsLTEgMS44IDAgMi4xTDk2IDQwMGwtODAgMCAwLTE4NCAwLTEwLjMgNS05IDg4LTE2MHpNMzk4LjQgMTZDMzkxIDUyLjUgMzU4LjcgODAgMzIwIDgwcy03MS0yNy41LTc4LjQtNjRsMTU2LjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shirt-long-sleeve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shirt-long-sleeve.svg)
  */
 const ShirtLongSleeve: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

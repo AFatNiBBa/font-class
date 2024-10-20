@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cassette-tape` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-tape?s=sharp-regular cassette-tape}
- * @preview ![cassette-tape](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDgwbDAgMzUyLTU2IDAtMzMuOC04MS4yTDQzMiAzMzZsLTE2IDAtMjU2IDAtMTYgMC02LjIgMTQuOEwxMDQgNDMybC01NiAwTDQ4IDgwbDQ4MCAwek00MjAgNDMybC0yNjQgMCAyMC00OCAyMjQgMCAyMCA0OHpNNDggMzJMMCAzMiAwIDgwIDAgNDMybDAgNDggNDggMCA0ODAgMCA0OCAwIDAtNDggMC0zNTIgMC00OC00OCAwTDQ4IDMyek0xNzYgMjA4YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptNjQgMTZjMC01LjUtLjctMTAuOS0yLTE2bDEwMCAwYy0xLjMgNS4xLTIgMTAuNS0yIDE2cy43IDEwLjkgMiAxNmwtMTAwIDBjMS4zLTUuMSAyLTEwLjUgMi0xNnptMjI0IDBjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTIyNCAwYy0zNS4zIDAtNjQgMjguNy02NCA2NHMyOC43IDY0IDY0IDY0bDIyNCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0em0tODAgMGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cassette-tape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cassette-tape.svg)
  */
 const CassetteTape: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

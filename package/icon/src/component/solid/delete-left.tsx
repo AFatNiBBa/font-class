@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `delete-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/delete-left?s=solid delete-left}
- * @preview ![delete-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDEyOGMwLTM1LjMtMjguNy02NC02NC02NEwyMDUuMyA2NGMtMTcgMC0zMy4zIDYuNy00NS4zIDE4LjdMOS40IDIzMy40Yy02IDYtOS40IDE0LjEtOS40IDIyLjZzMy40IDE2LjYgOS40IDIyLjZMMTYwIDQyOS4zYzEyIDEyIDI4LjMgMTguNyA0NS4zIDE4LjdMNTEyIDQ0OGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTI1NnpNMjcxIDE3NWM5LjQtOS40IDI0LjYtOS40IDMzLjkgMGw0NyA0NyA0Ny00N2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjQgMjQuNiAwIDMzLjlsLTQ3IDQ3IDQ3IDQ3YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45cy0yNC42IDkuNC0zMy45IDBsLTQ3LTQ3LTQ3IDQ3Yy05LjQgOS40LTI0LjYgOS40LTMzLjkgMHMtOS40LTI0LjYgMC0zMy45bDQ3LTQ3LTQ3LTQ3Yy05LjQtOS40LTkuNC0yNC42IDAtMzMuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![delete-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/delete-left.svg)
  */
 const DeleteLeft: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

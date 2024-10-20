@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `washing-machine` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/washing-machine?s=sharp-light washing-machine}
- * @preview ![washing-machine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMybDAgNDQ4TDMyIDQ4MCAzMiAzMmwzODQgMHpNMzIgMEwwIDAgMCAzMiAwIDQ4MGwwIDMyIDMyIDAgMzg0IDAgMzIgMCAwLTMyIDAtNDQ4IDAtMzJMNDE2IDAgMzIgMHptOTYgOTZBMjQgMjQgMCAxIDAgODAgOTZhMjQgMjQgMCAxIDAgNDggMHptNTYgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek0zMzUuMiAzMTcuNWMtOS44IDEuNS0yMC4zIDIuNS0zMS4yIDIuNWMtMzIgMC01Ni0xNi04MC0zMnMtNDgtMzItODAtMzJjLTcuMiAwLTE0LjYgLjYtMjIgMS43QzEzOS42IDIxOSAxNzguNyAxOTIgMjI0IDE5MmM2MS45IDAgMTEyIDUwLjEgMTEyIDExMmMwIDQuNi0uMyA5LjEtLjggMTMuNXpNMzI1LjcgMzUxYy0xNy44IDM4LjQtNTYuNiA2NS0xMDEuNyA2NWMtNjEuOSAwLTExMi01MC4xLTExMi0xMTJjMC00IC4yLTggLjYtMTJjMTAuOC0yLjUgMjEuNS00IDMxLjQtNGMyMC45IDAgMzcuMiA5LjkgNjIuMiAyNi42bDIuMSAxLjRjMjIuOCAxNS4yIDUzLjkgMzYgOTUuNyAzNmM3LjUgMCAxNC43LS40IDIxLjctMXpNMjI0IDQ0OGExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![washing-machine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/washing-machine.svg)
  */
 const WashingMachine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

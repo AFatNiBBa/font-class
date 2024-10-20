@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-relieved` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-relieved?s=sharp-solid face-relieved}
- * @preview ![face-relieved](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTE2NC43IDM3OS4zbDIyLjYtMjIuNmMxMyAxMyAzNS44IDI3LjMgNjguNyAyNy4zczU1LjYtMTQuMyA2OC43LTI3LjNsMjIuNiAyMi42QzMyOS40IDM5Ny4yIDI5OC45IDQxNiAyNTYgNDE2cy03My40LTE4LjgtOTEuMy0zNi43ek0xOTcuMSA5NS4ybC02LjMgMi4xYy0yMy42IDcuOS00NCAyMy40LTU3LjggNDQuMWwtNy42IDExLjVMOTguNyAxMzUuMWw3LjYtMTEuNWMxNy44LTI2LjYgNDMuOS00Ni42IDc0LjMtNTYuN2w2LjMtMi4xIDEwLjEgMzAuNHptMTI0LjIgMi4xbC02LjMtMi4xIDEwLjEtMzAuNCA2LjMgMi4xYzMwLjQgMTAuMSA1Ni41IDMwLjEgNzQuMyA1Ni43bDcuNiAxMS41LTI2LjYgMTcuOEwzNzkgMTQxLjRjLTEzLjgtMjAuNy0zNC4xLTM2LjMtNTcuOC00NC4xem03My45IDEzNy4xbDI1LjYgMTkuMmMtMzQuNCA0NS45LTEwMy4yIDQ1LjktMTM3LjYgMGwyNS42LTE5LjJjMjEuNiAyOC44IDY0LjggMjguOCA4Ni40IDB6bS0yNzguNCAwYzIxLjYgMjguOCA2NC44IDI4LjggODYuNCAwbDI1LjYgMTkuMmMtMzQuNCA0NS45LTEwMy4yIDQ1LjktMTM3LjYgMGwyNS42LTE5LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-relieved](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-relieved.svg)
  */
 const FaceRelieved: typeof Icon = x => (
     <Icon {...x}>

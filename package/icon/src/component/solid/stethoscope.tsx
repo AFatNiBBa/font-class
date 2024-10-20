@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stethoscope` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stethoscope?s=solid stethoscope}
- * @preview ![stethoscope](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQyLjQgMjEuOWM1LjYgMTYuOC0zLjUgMzQuOS0yMC4yIDQwLjVMOTYgNzEuMSA5NiAxOTJjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwwLTEyMC45LTI2LjEtOC43Yy0xNi44LTUuNi0yNS44LTIzLjctMjAuMi00MC41czIzLjctMjUuOCA0MC41LTIwLjJsMjYuMSA4LjdDMzM0LjQgMTkuMSAzNTIgNDMuNSAzNTIgNzEuMUwzNTIgMTkyYzAgNzcuMi01NC42IDE0MS42LTEyNy4zIDE1Ni43QzIzMSA0MDQuNiAyNzguNCA0NDggMzM2IDQ0OGM2MS45IDAgMTEyLTUwLjEgMTEyLTExMmwwLTcwLjdjLTI4LjMtMTIuMy00OC00MC41LTQ4LTczLjNjMC00NC4yIDM1LjgtODAgODAtODBzODAgMzUuOCA4MCA4MGMwIDMyLjgtMTkuNyA2MS00OCA3My4zbDAgNzAuN2MwIDk3LjItNzguOCAxNzYtMTc2IDE3NmMtOTIuOSAwLTE2OC45LTcxLjktMTc1LjUtMTYzLjFDODcuMiAzMzQuMiAzMiAyNjkuNiAzMiAxOTJMMzIgNzEuMWMwLTI3LjUgMTcuNi01MiA0My44LTYwLjdsMjYuMS04LjdjMTYuOC01LjYgMzQuOSAzLjUgNDAuNSAyMC4yek00ODAgMjI0YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![stethoscope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/stethoscope.svg)
  */
 const Stethoscope: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

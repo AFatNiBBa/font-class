@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `merge` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/merge?s=regular merge}
- * @preview ![merge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4OEMwIDc0LjcgMTAuNyA2NCAyNCA2NGw3MiAwIDQ4LjIgMGMxNy41IDAgMzQgOC4yIDQ0LjUgMjIuMUwyOTcuNSAyMjguOGMxLjUgMiAzLjkgMy4yIDYuNCAzLjJsMTI2LjIgMC0zOS0zOWMtOS40LTkuNC05LjQtMjQuNiAwLTMzLjlzMjQuNi05LjQgMzMuOSAwbDgwIDgwYzkuNCA5LjQgOS40IDI0LjYgMCAzMy45bC04MCA4MGMtOS40IDkuNC0yNC42IDkuNC0zMy45IDBzLTkuNC0yNC42IDAtMzMuOWwzOS0zOS0xMjYuMiAwYy0yLjUgMC00LjkgMS4yLTYuNCAzLjJMMTg4LjcgNDI1LjljLTEwLjYgMTMuOS0yNy4xIDIyLjEtNDQuNSAyMi4xTDk2IDQ0OGwtNzIgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGw3MiAwIDQ4LjIgMGMyLjUgMCA0LjktMS4yIDYuNC0zLjJMMjU3LjggMjU2IDE1MC41IDExNS4yYy0xLjUtMi0zLjktMy4yLTYuNC0zLjJMOTYgMTEybC03MiAwQzEwLjcgMTEyIDAgMTAxLjMgMCA4OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![merge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/merge.svg)
  */
 const Merge: typeof Icon = x => (
     <Icon {...x}>

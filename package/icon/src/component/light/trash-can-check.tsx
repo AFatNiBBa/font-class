@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-can-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-check?s=light trash-can-check}
- * @preview ![trash-can-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY0LjIgMzkuNUwxNDguOSA2NGwxNTAuMyAwTDI4My44IDM5LjVjLTIuOS00LjctOC4xLTcuNS0xMy42LTcuNWwtOTIuNSAwYy01LjUgMC0xMC42IDIuOC0xMy42IDcuNXpNMzExIDIyLjZMMzM2LjkgNjQgMzg0IDY0bDMyIDAgMTYgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMTYgMCAwIDMzNmMwIDQ0LjItMzUuOCA4MC04MCA4MGwtMjI0IDBjLTQ0LjIgMC04MC0zNS44LTgwLTgwTDMyIDk2IDE2IDk2QzcuMiA5NiAwIDg4LjggMCA4MHM3LjItMTYgMTYtMTZsMTYgMCAzMiAwIDQ3LjEgMEwxMzcgMjIuNkMxNDUuOCA4LjUgMTYxLjIgMCAxNzcuNyAwbDkyLjUgMGMxNi42IDAgMzEuOSA4LjUgNDAuNyAyMi42ek02NCA5NmwwIDMzNmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwyMjQgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTMzNkw2NCA5NnpNMzMxLjMgMjM1LjNsLTEyOCAxMjhjLTYuMiA2LjItMTYuNCA2LjItMjIuNiAwbC02NC02NGMtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZzMTYuNC02LjIgMjIuNiAwTDE5MiAzMjkuNCAzMDguNyAyMTIuN2M2LjItNi4yIDE2LjQtNi4yIDIyLjYgMHM2LjIgMTYuNCAwIDIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trash-can-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/trash-can-check.svg)
  */
 const TrashCanCheck: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

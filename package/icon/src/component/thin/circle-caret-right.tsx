@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-caret-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-caret-right?s=thin circle-caret-right}
- * @preview ![circle-caret-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAxIDE2IDI1NmEyNDAgMjQwIDAgMSAxIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAwIDUxMiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZ6bTM1MiAwYzAtNy4zLTMtMTQuMy04LjQtMTkuM0wyMzQuNCAxMzQuOGMtNC43LTQuNC0xMC44LTYuOC0xNy4yLTYuOGMtMTMuOSAwLTI1LjIgMTEuMy0yNS4yIDI1LjJsMCAyMDUuNmMwIDEzLjkgMTEuMyAyNS4yIDI1LjIgMjUuMmM2LjQgMCAxMi41LTIuNCAxNy4yLTYuOEwzNDMuNiAyNzUuM2M1LjQtNSA4LjQtMTIgOC40LTE5LjN6bS0xOS4zLTcuNmMyLjEgMiAzLjMgNC43IDMuMyA3LjZzLTEuMiA1LjYtMy4zIDcuNkwyMjMuNSAzNjUuNWMtMS43IDEuNi00IDIuNS02LjMgMi41Yy01LjEgMC05LjItNC4xLTkuMi05LjJsMC0yMDUuNmMwLTUuMSA0LjEtOS4yIDkuMi05LjJjMi4zIDAgNC42IC45IDYuMyAyLjVMMzMyLjcgMjQ4LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-caret-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-caret-right.svg)
  */
 const CircleCaretRight: typeof Icon = x => (
     <Icon {...x}>

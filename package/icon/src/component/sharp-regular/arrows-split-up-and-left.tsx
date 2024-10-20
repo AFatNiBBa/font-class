@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-split-up-and-left` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-split-up-and-left?s=sharp-regular arrows-split-up-and-left}
- * @preview ![arrows-split-up-and-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQxIDE0OC4ybC0xNyAxNy0zMy45LTMzLjkgMTctMTcgODktODkgMC0xLjMgMS4zIDAgNS44LTUuOCAxNy0xNyAxNyAxNyA1LjggNS44IDEuMyAwIDAgMS4zIDg5IDg5IDE3IDE3TDQxNiAxNjUuMWwtMTctMTctNTUtNTVMMzQ0IDI2NGwwIDI0IDAgOTYgMCAyNCAwIDU2IDE0NCAwIDI0IDAgMCA0OC0yNCAwLTE2OCAwLTI0IDAgMC0yNCAwLTgwIDAtMjQgMC03Mkw5My4xIDMxMmw1NSA1NSAxNyAxNy0zMy45IDMzLjktMTctMTctODktODlMMjQgMzEybDAtMS4zTDE4LjIgMzA1bC0xNy0xNyAxNy0xNyA1LjgtNS44IDAtMS4zIDEuMyAwIDg5LTg5IDE3LTE3TDE2NS4xIDE5MmwtMTcgMTctNTUgNTVMMjk2IDI2NGwwLTE3MC45LTU1IDU1eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-split-up-and-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrows-split-up-and-left.svg)
  */
 const ArrowsSplitUpAndLeft: typeof Icon = x => (
     <Icon {...x}>

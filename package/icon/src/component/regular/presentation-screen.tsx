@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `presentation-screen` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/presentation-screen?s=regular presentation-screen}
- * @preview ![presentation-screen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEMxMC43IDAgMCAxMC43IDAgMjRTMTAuNyA0OCAyNCA0OGw1MjggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEwyNCAwem04IDgwbDAgMjE2YzAgMzAuOSAyNS4xIDU2IDU2IDU2bDE3NiAwIDAgNDYuMS03MyA3M2MtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlzMjQuNiA5LjQgMzMuOSAwbDYzLTYzIDYzIDYzYzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtNzMtNzMgMC00Ni4xIDE3NiAwYzMwLjkgMCA1Ni0yNS4xIDU2LTU2bDAtMjE2LTQ4IDAgMCAyMTZjMCA0LjQtMy42IDgtOCA4bC0yMDAgMEw4OCAzMDRjLTQuNCAwLTgtMy42LTgtOEw4MCA4MCAzMiA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![presentation-screen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/presentation-screen.svg)
  */
 const PresentationScreen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

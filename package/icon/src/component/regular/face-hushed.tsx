@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-hushed` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-hushed?s=regular face-hushed}
- * @preview ![face-hushed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTE3Ni40LTMyYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptMTI4IDMyYTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6TTE3OSAxNjAuOWMtMjEuMiAyLjgtNDAuNiAxMi40LTU2LjEgMjYuOGMtNi41IDYtMTYuNiA1LjctMjIuNi0uOHMtNS43LTE2LjYgLjgtMjIuNmMyMC4xLTE4LjcgNDUuNS0zMS41IDczLjctMzUuMmM1LjYtLjcgMTEuNC0xLjEgMTcuMi0xLjFjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZjLTQuNCAwLTguOCAuMy0xMyAuOXptMTQxLS45Yy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2YzUuOCAwIDExLjYgLjQgMTcuMiAxLjFjMjguMiAzLjcgNTMuNyAxNi40IDczLjcgMzUuMmM2LjUgNiA2LjggMTYuMiAuOCAyMi42cy0xNi4yIDYuOC0yMi42IC44Yy0xNS41LTE0LjUtMzQuOC0yNC01Ni4xLTI2LjhjLTQuMy0uNi04LjYtLjktMTMtLjl6TTI1NiAzMzZhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-hushed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-hushed.svg)
  */
 const FaceHushed: typeof Icon = x => (
     <Icon {...x}>

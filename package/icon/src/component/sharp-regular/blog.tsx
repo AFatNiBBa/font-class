@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blog` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blog?s=sharp-regular blog}
- * @preview ![blog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDMyMEM1MTIgMTQzLjMgMzY4LjcgMCAxOTIgMGwwIDQ4YzE1MC4yIDAgMjcyIDEyMS44IDI3MiAyNzJsNDggMHptLTk2IDBDNDE2IDE5Ni4zIDMxNS43IDk2IDE5MiA5NmwwIDQ4Yzk3LjIgMCAxNzYgNzguOCAxNzYgMTc2bDQ4IDB6TTQ4IDEyMGwwLTI0TDAgOTZsMCAyNEwwIDM2OGMwIDc5LjUgNjQuNSAxNDQgMTQ0IDE0NHMxNDQtNjQuNSAxNDQtMTQ0cy02NC41LTE0NC0xNDQtMTQ0bC04IDAtMjQgMCAwIDQ4IDI0IDAgOCAwYzUzIDAgOTYgNDMgOTYgOTZzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwwLTI0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![blog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/blog.svg)
  */
 const Blog: typeof Icon = x => (
     <Icon {...x}>

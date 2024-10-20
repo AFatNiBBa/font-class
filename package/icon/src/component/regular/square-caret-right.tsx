@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-caret-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-caret-right?s=regular square-caret-right}
- * @preview ![square-caret-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDk2YzAtOC44LTcuMi0xNi0xNi0xNkw2NCA4MGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMzIwYzAgOC44IDcuMiAxNiAxNiAxNmwzMjAgMGM4LjggMCAxNi03LjIgMTYtMTZsMC0zMjB6TTM4NCAzMmMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZDMCA2MC43IDI4LjcgMzIgNjQgMzJsMzIwIDB6TTMyMCAyNTZjMCA2LjctMi44IDEzLTcuNyAxNy42bC0xMTIgMTA0Yy03IDYuNS0xNy4yIDguMi0yNS45IDQuNHMtMTQuNC0xMi41LTE0LjQtMjJsMC0yMDhjMC05LjUgNS43LTE4LjIgMTQuNC0yMnMxOC45LTIuMSAyNS45IDQuNGwxMTIgMTA0YzQuOSA0LjUgNy43IDEwLjkgNy43IDE3LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-caret-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-caret-right.svg)
  */
 const SquareCaretRight: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

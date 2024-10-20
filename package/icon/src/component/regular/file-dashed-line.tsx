@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-dashed-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-dashed-line?s=regular file-dashed-line}
- * @preview ![file-dashed-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQ2NGwtMjU2IDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTgwLTQ4IDAgMCA4MGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTgwLTQ4IDAgMCA4MGMwIDguOC03LjIgMTYtMTYgMTZ6bTE2LTMwNGwwIDk2IDQ4IDAgMC0xMDEuNWMwLTE3LTYuNy0zMy4zLTE4LjctNDUuM0w0MDIuNyAxOC43QzM5MC43IDYuNyAzNzQuNSAwIDM1Ny41IDBMMTkyIDBjLTM1LjMgMC02NCAyOC43LTY0IDY0bDAgMTkyIDQ4IDAgMC0xOTJjMC04LjggNy4yLTE2IDE2LTE2bDE2MCAwIDAgODBjMCAxNy43IDE0LjMgMzIgMzIgMzJsODAgMHpNNTYgMjg4Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDExMiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDU2IDI4OHptMjI0IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsODAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtODAgMHptMTkyIDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMTEyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTExMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-dashed-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-dashed-line.svg)
  */
 const FileDashedLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

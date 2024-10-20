@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flask-vial` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-vial?s=solid flask-vial}
- * @preview ![flask-vial](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc1IDM4OS40Yy05LjggMTYtMTUgMzQuMy0xNSA1My4xYy0xMCAzLjUtMjAuOCA1LjUtMzIgNS41Yy01MyAwLTk2LTQzLTk2LTk2TDMyIDY0QzE0LjMgNjQgMCA0OS43IDAgMzJTMTQuMyAwIDMyIDBMOTYgMGw2NCAwIDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsMCAyNDUuOS00OSA3OS42ek05NiA2NGwwIDk2IDY0IDAgMC05Nkw5NiA2NHpNMzUyIDBMNDgwIDBsMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwwIDE1MC45TDYyOS43IDQwNi4yYzYuNyAxMC45IDEwLjMgMjMuNSAxMC4zIDM2LjRjMCAzOC4zLTMxLjEgNjkuNC02OS40IDY5LjRsLTMwOS4yIDBjLTM4LjMgMC02OS40LTMxLjEtNjkuNC02OS40YzAtMTIuOCAzLjYtMjUuNCAxMC4zLTM2LjRMMzIwIDIxNC45IDMyMCA2NGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmwzMiAwem0zMiA2NGwwIDE2MGMwIDUuOS0xLjYgMTEuNy00LjcgMTYuOEwzMzAuNSAzMjBsMTcxIDAtNDguOC03OS4yYy0zLjEtNS00LjctMTAuOC00LjctMTYuOGwwLTE2MC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![flask-vial](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/flask-vial.svg)
  */
 const FlaskVial: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

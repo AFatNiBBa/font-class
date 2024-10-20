@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `forward-fast` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward-fast?s=thin forward-fast}
- * @preview ![forward-fast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA0IDY0Yy00LjQgMC04IDMuNi04IDhsMCAxNjIuNEwzMDQuMiA3MWMtNS4zLTQuNS0xMi03LTE5LTdDMjY5LjEgNjQgMjU2IDc3LjEgMjU2IDkzLjJMMjU2IDI0OCA0OC4yIDcxYy01LjMtNC41LTEyLTctMTktN0MxMy4xIDY0IDAgNzcuMSAwIDkzLjJMMCA0MTguOEMwIDQzNC45IDEzLjEgNDQ4IDI5LjIgNDQ4YzYuOSAwIDEzLjctMi41IDE5LTdMMjU2IDI2NGwwIDE1NC44YzAgMTYuMSAxMy4xIDI5LjIgMjkuMiAyOS4yYzYuOSAwIDEzLjctMi41IDE5LTdMNDk2IDI3Ny42IDQ5NiA0NDBjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTE4NCAwLTE4NGMwLTQuNC0zLjYtOC04LTh6bS04IDE5MmMwIC40LS4yIC44LS41IDFMMjkzLjggNDI4LjhjLTIuNCAyLTUuNCAzLjItOC42IDMuMmMtNy4zIDAtMTMuMi01LjktMTMuMi0xMy4ybDAtMzI1LjVjMC03LjMgNS45LTEzLjIgMTMuMi0xMy4yYzMuMSAwIDYuMiAxLjEgOC42IDMuMkw0OTUuNSAyNTVjLjMgLjMgLjUgLjYgLjUgMXptLTI1NiAuNkwzNy44IDQyOC44Yy0yLjQgMi01LjQgMy4yLTguNiAzLjJjLTcuMyAwLTEzLjItNS45LTEzLjItMTMuMkwxNiA5My4yQzE2IDg1LjkgMjEuOSA4MCAyOS4yIDgwYzMuMSAwIDYuMiAxLjEgOC42IDMuMkwyNDAgMjU1LjRsMCAxLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![forward-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/forward-fast.svg)
  */
 const ForwardFast: typeof Icon = x => (
     <Icon {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `watch-calculator` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-calculator?s=sharp-duotone-solid watch-calculator}
- * @preview ![watch-calculator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDY0bDY0IDAgMjU2IDAgNjQgMCAwIDM4NC02NCAwTDY0IDQ0OCAwIDQ0OCAwIDY0em02NCA2NGwwIDY0IDI1NiAwIDAtNjRMNjQgMTI4em0wIDEyMGwwIDQ4IDQ4IDAgMC00OC00OCAwem0wIDg4bDAgNDggNDggMCAwLTQ4LTQ4IDB6bTEwNC04OGwwIDQ4IDQ4IDAgMC00OC00OCAwem0wIDg4bDAgNDggNDggMCAwLTQ4LTQ4IDB6bTEwNC04OGwwIDQ4IDQ4IDAgMC00OC00OCAwem0wIDg4bDAgNDggNDggMCAwLTQ4LTQ4IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik02NCAwTDMyMCAwbDAgNjRMNjQgNjQgNjQgMHptNDggMjQ4bDAgNDgtNDggMCAwLTQ4IDQ4IDB6bTEwNCAwbDAgNDgtNDggMCAwLTQ4IDQ4IDB6bTU2IDBsNDggMCAwIDQ4LTQ4IDAgMC00OHpNMTEyIDMzNmwwIDQ4LTQ4IDAgMC00OCA0OCAwem01NiAwbDQ4IDAgMCA0OC00OCAwIDAtNDh6bTE1MiAwbDAgNDgtNDggMCAwLTQ4IDQ4IDB6bTAgMTc2TDY0IDUxMmwwLTY0IDI1NiAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![watch-calculator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/watch-calculator.svg)
  */
 const WatchCalculator: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
         <path class={generic.secondary} d="M0 64l64 0 256 0 64 0 0 384-64 0L64 448 0 448 0 64zm64 64l0 64 256 0 0-64L64 128zm0 120l0 48 48 0 0-48-48 0zm0 88l0 48 48 0 0-48-48 0zm104-88l0 48 48 0 0-48-48 0zm0 88l0 48 48 0 0-48-48 0zm104-88l0 48 48 0 0-48-48 0zm0 88l0 48 48 0 0-48-48 0z" />
-            <path d="M64 0L320 0l0 64L64 64 64 0zm48 248l0 48-48 0 0-48 48 0zm104 0l0 48-48 0 0-48 48 0zm56 0l48 0 0 48-48 0 0-48zM112 336l0 48-48 0 0-48 48 0zm56 0l48 0 0 48-48 0 0-48zm152 0l0 48-48 0 0-48 48 0zm0 176L64 512l0-64 256 0 0 64z" />
+        <path d="M64 0L320 0l0 64L64 64 64 0zm48 248l0 48-48 0 0-48 48 0zm104 0l0 48-48 0 0-48 48 0zm56 0l48 0 0 48-48 0 0-48zM112 336l0 48-48 0 0-48 48 0zm56 0l48 0 0 48-48 0 0-48zm152 0l0 48-48 0 0-48 48 0zm0 176L64 512l0-64 256 0 0 64z" />
     </Icon>
 );
 

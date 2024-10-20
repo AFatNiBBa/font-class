@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `projector` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/projector?s=sharp-solid projector}
- * @preview ![projector](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQwIDI0bDAtMjRMMzkyIDBsMCAyNCAwIDgwIDAgMjQgNDggMCAwLTI0IDAtODB6TTI4MSAzOWwtMTctMTdMMjMwLjEgNTZsMTcgMTcgNTYgNTYgMTcgMTdMMzUzLjkgMTEyIDMzNyA5NSAyODEgMzl6TTU4NSA3M2wxNy0xN0w1NjggMjIuMSA1NTEgMzkgNDk1IDk1bC0xNyAxN0w1MTIgMTQ1LjlsMTctMTcgNTYtNTZ6bTU1IDExOWwtMTI4IDBjLTI2LjctMjAuMS02MC0zMi05Ni0zMnMtNjkuMyAxMS45LTk2IDMyTDAgMTkyIDAgNDQ4bDY0IDAgMTYgNjQgNjQgMCAxNi02NCAxNjAgMGMyNi43IDIwLjEgNjAgMzIgOTYgMzJjMjQuNCAwIDQ3LjUtNS41IDY4LjItMTUuMkw0OTYgNTEybDY0IDAgMTYtNjQgNjQgMCAwLTI1NnpNNDE2IDIyNGE5NiA5NiAwIDEgMSAwIDE5MiA5NiA5NiAwIDEgMSAwLTE5MnpNNjQgMzIwYTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6bTEyOC0zMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![projector](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/projector.svg)
  */
 const Projector: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

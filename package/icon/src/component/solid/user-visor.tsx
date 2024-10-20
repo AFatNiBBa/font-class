@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-visor` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-visor?s=solid user-visor}
- * @preview ![user-visor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQzIDE3NS4yQzMyNC4yIDIyMi41IDI3OCAyNTYgMjI0IDI1NnMtMTAwLjItMzMuNS0xMTktODAuOGMtMTQuMy0zLjItMjUtMTYtMjUtMzEuMmwwLTY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDEyLjEgMEMxNDcuNSAxOC43IDE4My42IDAgMjI0IDBzNzYuNSAxOC43IDk5LjkgNDhMMzM2IDQ4YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNjRjMCAxNS4zLTEwLjcgMjgtMjUgMzEuMnpNMCA0ODIuM0MwIDM4My44IDc5LjggMzA0IDE3OC4zIDMwNGw5MS40IDBDMzY4LjIgMzA0IDQ0OCAzODMuOCA0NDggNDgyLjNjMCAxNi40LTEzLjMgMjkuNy0yOS43IDI5LjdMMjkuNyA1MTJDMTMuMyA1MTIgMCA0OTguNyAwIDQ4Mi4zem0zNDguNy0xOS45YzIuNCAzLjIgNy4zIDEuNCA3LjMtMi41Yy0xLjEtMzUuMy0xMS4zLTY1LjYtMzAuMS05MC4yYy0xLjItMi00LjYtMS45LTYuMS0uMWMtMTkuOSAyMy0zMS45IDUzLTM1LjggODkuNWMtLjMgMy41IDMuNyA1LjUgNi41IDMuNWMxLjgtMS40IDQuMS0zLjQgNi42LTUuNmM5LjItOC4xIDIyLjMtMTkuNSAzMS43LTE5LjVjMi4zIDIgNy42IDcuOCAxOS45IDI1ek0xNDQgOTZjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTYwIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMMTQ0IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-visor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-visor.svg)
  */
 const UserVisor: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

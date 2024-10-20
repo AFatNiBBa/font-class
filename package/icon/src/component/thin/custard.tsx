@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `custard` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/custard?s=thin custard}
- * @preview ![custard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTcuOCAzODRsNjYuMy0yNzEuMmM3LTI4LjYgMzIuNy00OC44IDYyLjItNDguOGwyMDMuNSAwYzI5LjUgMCA1NS4yIDIwLjIgNjIuMiA0OC44TDUxOC4yIDM4NGwtMTYuNSAwTDQ1OS43IDIxMS45QzQzOS45IDIwNS40IDQxOCAyMDAgNDAwIDIwMGMtMjAuNyAwLTM1LjkgNy4yLTUyLjUgMTUuMmwtLjQgLjJDMzMwLjYgMjIzLjMgMzEyLjYgMjMyIDI4OCAyMzJzLTQyLjYtOC43LTU5LjEtMTYuNmwtLjQtLjJjLTE2LjctOC0zMS44LTE1LjItNTIuNS0xNS4yYy0xOCAwLTM5LjkgNS40LTU5LjcgMTEuOUw3NC4yIDM4NGwtMTYuNSAwem02My0xOTAuM2MxOC4xLTUuNCAzNy45LTkuNyA1NS4yLTkuN2MyNC42IDAgNDIuNiA4LjcgNTkuMSAxNi42bC40IC4yYzE2LjcgOCAzMS44IDE1LjIgNTIuNSAxNS4yczM1LjktNy4yIDUyLjUtMTUuMmwuNC0uMmMxNi41LTcuOSAzNC41LTE2LjYgNTkuMS0xNi42YzE3LjMgMCAzNy4xIDQuMyA1NS4yIDkuN2wtMTguOC03Ny4xQzQzMS4xIDk1LjEgNDExLjkgODAgMzg5LjggODBMMTg2LjIgODBjLTIyLjEgMC00MS40IDE1LjEtNDYuNiAzNi42bC0xOC45IDc3LjF6TTAgNDQwYzAtNC40IDMuNi04IDgtOGw1NjAgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOEw4IDQ0OGMtNC40IDAtOC0zLjYtOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![custard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/custard.svg)
  */
 const Custard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

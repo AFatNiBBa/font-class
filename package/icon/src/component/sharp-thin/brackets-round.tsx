@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brackets-round` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brackets-round?s=sharp-thin brackets-round}
- * @preview ![brackets-round](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYzLjYgMzIuOGwtNy4yIDE0LjNjMjMuMSAxMS41IDU4LjIgMzYuMSA4Ny40IDcxLjdDNDczIDE1NC41IDQ5NiAyMDAuNyA0OTYgMjU2cy0yMyAxMDEuNS01Mi4yIDEzNy4xYy0yOS4yIDM1LjctNjQuMyA2MC4yLTg3LjQgNzEuN2w3LjIgMTQuM2MyNC45LTEyLjUgNjEuOC0zOC4zIDkyLjYtNzUuOUM0ODcgMzY1LjcgNTEyIDMxNS45IDUxMiAyNTZzLTI1LTEwOS43LTU1LjgtMTQ3LjNjLTMwLjgtMzcuNS02Ny43LTYzLjQtOTIuNi03NS45em0tMjE1LjIgMGMtMjQuOSAxMi41LTYxLjggMzguMy05Mi42IDc1LjlDMjUgMTQ2LjMgMCAxOTYuMSAwIDI1NnMyNSAxMDkuNyA1NS44IDE0Ny4zYzMwLjggMzcuNSA2Ny43IDYzLjQgOTIuNiA3NS45bDcuMi0xNC4zYy0yMy4xLTExLjUtNTguMi0zNi4xLTg3LjQtNzEuN0MzOSAzNTcuNSAxNiAzMTEuMyAxNiAyNTZzMjMtMTAxLjUgNTIuMi0xMzcuMWMyOS4yLTM1LjcgNjQuMy02MC4yIDg3LjQtNzEuN2wtNy4yLTE0LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![brackets-round](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/brackets-round.svg)
  */
 const BracketsRound: typeof Icon = x => (
     <Icon {...x}>

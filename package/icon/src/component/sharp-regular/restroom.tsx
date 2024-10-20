@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `restroom` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/restroom?s=sharp-regular restroom}
- * @preview ![restroom](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgNDhhNDggNDggMCAxIDEgOTYgMEE0OCA0OCAwIDEgMSA4MCA0OHpNNTkuNiAxMjhsMTcuMyAwIDEwMi4yIDAgMTcuMyAwIDUuNCAxNi41IDQ0LjkgMTM2IDcuNSAyMi44LTQ1LjYgMTUuMS03LjUtMjIuOEwxOTIgMjY3LjcgMTkyIDQ4OGwwIDI0LTQ4IDAgMC0yNCAwLTEzNi0zMiAwIDAgMTM2IDAgMjQtNDggMCAwLTI0IDAtMjIwLjQtOS4yIDI3LjktNy41IDIyLjhMMS43IDMwMy4zbDcuNS0yMi44IDQ0LjktMTM2TDU5LjYgMTI4ek0xMTIgMzA0bDMyIDAgMC0xMjgtMzIgMCAwIDEyOHpNNDY0IDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bS0yMC40IDgwbDE3LjMgMCAxOS4xIDAgNjQgMCAxOS4xIDAgMTcuMyAwIDUuNCAxNi41IDQ0LjkgMTM2IDcuNSAyMi44LTM1LjggMTEuOEw2MDkgMzM2bDE1IDQ4LTQ4IDAgMCAxMDQgMCAyNC00OCAwIDAtMjQgMC0xMDQtMzIgMCAwIDEwNCAwIDI0LTQ4IDAgMC0yNCAwLTEwNC00OCAwIDE1LTQ4IDYuNS0yMC45LTM1LjgtMTEuOCA3LjUtMjIuOCA0NC45LTEzNiA1LjQtMTYuNXpNNTEyIDE4Ni41TDQ2NS4zIDMzNmw5My40IDBMNTEyIDE4Ni41ek0zNDQgMjRsMCA0NjQgMCAyNC00OCAwIDAtMjQgMC00NjQgMC0yNCA0OCAwIDAgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![restroom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/restroom.svg)
  */
 const Restroom: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

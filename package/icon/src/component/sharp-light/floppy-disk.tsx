@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `floppy-disk` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk?s=sharp-light floppy-disk}
- * @preview ![floppy-disk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDgwTDAgNDgwbDAtMzJMMCA2NCAwIDMybDMyIDAgMzA0IDBMNDQ4IDE0NGwwIDMwNCAwIDMyLTMyIDBMMzIgNDgwem0zODQtMzJsMC0yOTAuN0wzMjIuNyA2NCAzMjAgNjRsMCAxMTIgMCAxNi0xNiAwTDgwIDE5MmwtMTYgMCAwLTE2TDY0IDY0IDMyIDY0bDAgMzg0IDM4NCAwek05NiA2NGwwIDk2IDE5MiAwIDAtOTZMOTYgNjR6bTgwIDI1NmE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAwem00OCA4MGE4MCA4MCAwIDEgMSAwLTE2MCA4MCA4MCAwIDEgMSAwIDE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![floppy-disk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/floppy-disk.svg)
  */
 const FloppyDisk: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

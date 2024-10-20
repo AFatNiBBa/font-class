@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-from-dotted-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-from-dotted-line?s=regular down-from-dotted-line}
- * @preview ![down-from-dotted-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE0LjIgMzIwTDIyNCA0MzAgMzMzLjggMzIwIDI4MCAzMjBjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtMTIwLTY0IDAgMCAxMjBjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTUzLjggMHpNMjI0IDQ4MGMtMTEuNSAwLTIyLjUtNC42LTMwLjYtMTIuN0w3Ny42IDM1MS4yQzY4LjkgMzQyLjUgNjQgMzMwLjcgNjQgMzE4LjRjMC0yNS42IDIwLjgtNDYuNCA0Ni40LTQ2LjRsMzMuNiAwIDAtOTZjMC0yNi41IDIxLjUtNDggNDgtNDhsNjQgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDk2IDMzLjYgMGMyNS42IDAgNDYuNCAyMC44IDQ2LjQgNDYuNGMwIDEyLjMtNC45IDI0LjEtMTMuNiAzMi44TDI1NC42IDQ2Ny4zYy04LjEgOC4xLTE5LjEgMTIuNy0zMC42IDEyLjd6TTMyIDk2YTMyIDMyIDAgMSAxIDAtNjQgMzIgMzIgMCAxIDEgMCA2NHptOTYgMGEzMiAzMiAwIDEgMSAwLTY0IDMyIDMyIDAgMSAxIDAgNjR6bTY0LTMyYTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6TTMyMCA5NmEzMiAzMiAwIDEgMSAwLTY0IDMyIDMyIDAgMSAxIDAgNjR6bTY0LTMyYTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![down-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-from-dotted-line.svg)
  */
 const DownFromDottedLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

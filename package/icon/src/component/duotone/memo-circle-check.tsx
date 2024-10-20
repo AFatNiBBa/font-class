@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `memo-circle-check` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo-circle-check?s=duotone memo-circle-check}
- * @preview ![memo-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDY0TDAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDI1NiAwYzMuMyAwIDYuNi0uMyA5LjctLjdDMjg1LjEgNDc5LjMgMjU2IDQyNy4xIDI1NiAzNjhjMC04MC42IDU0LjEtMTQ4LjUgMTI4LTE2OS40TDM4NCA2NGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAwQzI4LjcgMCAwIDI4LjcgMCA2NHptNjQgODBjMC04LjggNy4yLTE2IDE2LTE2bDIyNCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2TDgwIDE2MGMtOC44IDAtMTYtNy4yLTE2LTE2em0wIDk2YzAtOC44IDcuMi0xNiAxNi0xNmwxNjAgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkw4MCAyNTZjLTguOCAwLTE2LTcuMi0xNi0xNnptMCA5NmMwLTguOCA3LjItMTYgMTYtMTZsOTYgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtOTYgMGMtOC44IDAtMTYtNy4yLTE2LTE2eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDMyIDUxMmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6bTY3LjMtMTY0LjdsLTcyIDcyYy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMGwtNDAtNDBjLTYuMi02LjItNi4yLTE2LjQgMC0yMi42czE2LjQtNi4yIDIyLjYgMEw0MTYgMzg1LjRsNjAuNy02MC43YzYuMi02LjIgMTYuNC02LjIgMjIuNiAwczYuMiAxNi40IDAgMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![memo-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/memo-circle-check.svg)
  */
 const MemoCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 64L0 448c0 35.3 28.7 64 64 64l256 0c3.3 0 6.6-.3 9.7-.7C285.1 479.3 256 427.1 256 368c0-80.6 54.1-148.5 128-169.4L384 64c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64zm64 80c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 160c-8.8 0-16-7.2-16-16zm0 96c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 256c-8.8 0-16-7.2-16-16zm0 96c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16z" />
-            <path d="M432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm67.3-164.7l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L416 385.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
+        <path d="M432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm67.3-164.7l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L416 385.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-flip` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-flip?s=thin phone-flip}
- * @preview ![phone-flip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk1IDM3OC4xYzQuNyA1LjcgMTIuNiA3LjUgMTkuMiA0LjNjNzMuOC0zNC44IDEzMy41LTk0LjUgMTY4LjMtMTY4LjNjMy4xLTYuNiAxLjMtMTQuNi00LjMtMTkuMmwtNDkuMy00MC40Yy04LjItNi43LTExLTE4LTctMjcuOGw0MC05NmM0LjYtMTEuMSAxNi44LTE3LjEgMjguNS0xMy45bDg4IDI0QzQ4OC44IDQzLjcgNDk2IDUzLjIgNDk2IDY0YzAgMjM4LjYtMTkzLjQgNDMyLTQzMiA0MzJjLTEwLjggMC0yMC4zLTcuMi0yMy4yLTE3LjdsLTI0LTg4Yy0zLjItMTEuNiAyLjgtMjMuOCAxMy45LTI4LjVsOTYtNDBjOS44LTQuMSAyMS4xLTEuMyAyNy44IDdMMTk1IDM3OC4xek0yMDcuMyAzNjhMMTY3IDMxOC43Yy0xMS4yLTEzLjctMzAtMTguNC00Ni4zLTExLjZsLTk2IDQwYy0xOC42IDcuNy0yOC41IDI4LTIzLjIgNDcuNGwyNCA4OEMzMC4yIDQ5OS45IDQ2IDUxMiA2NCA1MTJjMjQ3LjQgMCA0NDgtMjAwLjYgNDQ4LTQ0OGMwLTE4LTEyLjEtMzMuOC0yOS41LTM4LjZsLTg4LTI0Yy0xOS40LTUuMy0zOS43IDQuNi00Ny40IDIzLjJsLTQwIDk2Yy02LjggMTYuMy0yLjEgMzUuMiAxMS42IDQ2LjNMMzY4IDIwNy4zQzMzNC44IDI3Ny43IDI3Ny44IDMzNC43IDIwNy4zIDM2OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![phone-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/phone-flip.svg)
  */
 const PhoneFlip: typeof Icon = x => (
     <Icon {...x}>

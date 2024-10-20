@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-half-dress` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-half-dress?s=sharp-thin person-half-dress}
- * @preview ![person-half-dress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDU2YTQwIDQwIDAgMSAxIDgwIDAgNDAgNDAgMCAxIDEgLTgwIDB6bTk2IDBBNTYgNTYgMCAxIDAgMTA0IDU2YTU2IDU2IDAgMSAwIDExMiAwek0xNjggMzg0bDAgMTIwIDAgOHMwIDAgMCAwbDggMCA0OCAwIDggMCAwLTggMC04OCAwLTE2OCAwLTgtMTYgMCAwIDggMCAyNDgtMzIgMCAwLTgwIDAtMzIgMC0xNi0xNiAwIDAtMjI0LTggMHMwIDAgMCAwbDU0LjEgMCA4Mi43IDE3MS41IDMuNSA3LjIgMTQuNC03LTMuNS03LjItODQuOS0xNzYtMi4yLTQuNS01IDBMMTYwIDEyOHMwIDAgMCAwbC01OS4xIDAtNSAwLTIuMiA0LjVMOC44IDMwOC41bC0zLjUgNy4yIDE0LjQgNyAzLjUtNy4yTDEwNS45IDE0NGw0Ni4xIDAgMCAyMjQgOCAwIDAgMTYgOCAwem0tOC0xNmwwIDE2LTggMCAwIDEyMCAwIDgtOCAwLTQ4IDAtOCAwIDAtOCAwLTEyMC0zMiAwLTExLjEgMCAzLjUtMTAuNSA1Ni0xNjggMi41LTcuNiAxNS4yIDUuMS0yLjUgNy42TDY3LjEgMzY4IDg4IDM2OGwxNiAwIDMyIDAgMTYgMCA4IDB6TTEwNCA0OTZsMzIgMCAwLTExMi0zMiAwIDAgMTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-half-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-half-dress.svg)
  */
 const PersonHalfDress: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

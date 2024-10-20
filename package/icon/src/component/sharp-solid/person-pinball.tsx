@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-pinball` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-pinball?s=sharp-solid person-pinball}
- * @preview ![person-pinball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDhhNDggNDggMCAxIDEgOTYgMEE0OCA0OCAwIDEgMSAzMiA0OHpNMCAxMjhsMzIgMCA0OCAwIDE3LjEgMCA5LjUgMTQuM0wxNjEuMSAyMjRsNjIuOSAwIDMyIDAgMCAxOC4yIDI5Mi4xLTQ4LjdMNTEzLjYgOTAuMSA1MTIgODUuMmwwLTUuMiAwLTQ4IDAtMzIgMzIgMCA2NCAwIDMyIDAgMCAzMiAwIDE0Ni4yIDAgMzcuOCAwIDggMCAzMiAwIDIyNCAwIDMyLTY0IDAgMC0zMiAwLTk2LTMyMCAwIDAgOTYgMCAzMi02NCAwIDAtMzIgMC0xOTItNDggMC0xNy4xIDAtOS41LTE0LjNMOTYgMjQxLjdsMCA2NS4xIDU0LjYgNTQuNiA5LjQgOS40IDAgMTMuMyAwIDk2IDAgMzItNjQgMCAwLTMyIDAtODIuN0w0MS40IDM0Mi42IDE4LjcgMzIwQzYuNyAzMDggMCAyOTEuNyAwIDI3NC43TDAgMTYwbDAtMzJ6TTAgNDgwTDAgMzQ2LjVsNjQgNjRMNjQgNDgwczAgMCAwIDBsMCAzMkwwIDUxMmwwLTMyek0yODAgMzM2YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-pinball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-pinball.svg)
  */
 const PersonPinball: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

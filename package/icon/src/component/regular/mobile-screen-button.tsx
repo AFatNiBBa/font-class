@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mobile-screen-button` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-screen-button?s=regular mobile-screen-button}
- * @preview ![mobile-screen-button](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDQ4YzAgOC44IDcuMiAxNiAxNiAxNmwyMjQgMGM4LjggMCAxNi03LjIgMTYtMTZsMC04MEw2NCAzNjhsMCA4MHptMC0xMjhsMjU2IDAgMC0yNTZjMC04LjgtNy4yLTE2LTE2LTE2TDgwIDQ4Yy04LjggMC0xNiA3LjItMTYgMTZsMCAyNTZ6TTE2IDY0QzE2IDI4LjcgNDQuNyAwIDgwIDBMMzA0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAzODRjMCAzNS4zLTI4LjcgNjQtNjQgNjRMODAgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwxNiA2NHpNMTkyIDM5MmEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mobile-screen-button](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mobile-screen-button.svg)
  */
 const MobileScreenButton: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

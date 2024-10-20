@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone?s=thin phone}
- * @preview ![phone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE3LjEgMzc4LjFjLTQuNyA1LjctMTIuNiA3LjUtMTkuMiA0LjNjLTczLjgtMzQuOC0xMzMuNS05NC41LTE2OC4zLTE2OC4zYy0zLjEtNi42LTEuMy0xNC42IDQuMy0xOS4ybDQ5LjMtNDAuNGM4LjItNi43IDExLTE4IDctMjcuOGwtNDAtOTZjLTQuNi0xMS4xLTE2LjgtMTcuMS0yOC41LTEzLjlsLTg4IDI0QzIzLjIgNDMuNyAxNiA1My4yIDE2IDY0YzAgMjM4LjYgMTkzLjQgNDMyIDQzMiA0MzJjMTAuOCAwIDIwLjMtNy4yIDIzLjItMTcuN2wyNC04OGMzLjItMTEuNi0yLjgtMjMuOC0xMy45LTI4LjVsLTk2LTQwYy05LjgtNC4xLTIxLjEtMS4zLTI3LjggN2wtNDAuNCA0OS4zek0zMDQuNyAzNjhMMzQ1IDMxOC43YzExLjItMTMuNyAzMC0xOC40IDQ2LjMtMTEuNmw5NiA0MGMxOC42IDcuNyAyOC41IDI4IDIzLjIgNDcuNGwtMjQgODhDNDgxLjggNDk5LjkgNDY2IDUxMiA0NDggNTEyQzIwMC42IDUxMiAwIDMxMS40IDAgNjRDMCA0NiAxMi4xIDMwLjIgMjkuNSAyNS40bDg4LTI0YzE5LjQtNS4zIDM5LjcgNC42IDQ3LjQgMjMuMmw0MCA5NmM2LjggMTYuMyAyLjEgMzUuMi0xMS42IDQ2LjNMMTQ0IDIwNy4zYzMzLjMgNzAuNCA5MC4zIDEyNy40IDE2MC43IDE2MC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/phone.svg)
  */
 const Phone: typeof Icon = x => (
     <Icon {...x}>

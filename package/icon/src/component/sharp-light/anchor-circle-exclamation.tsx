@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `anchor-circle-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-circle-exclamation?s=sharp-light anchor-circle-exclamation}
- * @preview ![anchor-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDgwYTQ4IDQ4IDAgMSAxIC05NiAwIDQ4IDQ4IDAgMSAxIDk2IDB6TTI4OCAwYy00NC4yIDAtODAgMzUuOC04MCA4MGMwIDM4LjcgMjcuNSA3MSA2NCA3OC40bDAgMS42IDAgMzItNjQgMC0xNiAwIDAgMzIgMTYgMCA2NCAwIDAgMjU2TDk2IDQ4MGwwLTE2OS40IDI4LjcgMjguN0wxMzYgMzUwLjYgMTU4LjYgMzI4bC0xMS4zLTExLjMtNTYtNTZMODAgMjQ5LjQgNjguNyAyNjAuN2wtNTYgNTZMMS40IDMyOCAyNCAzNTAuNmwxMS4zLTExLjNMNjQgMzEwLjYgNjQgNDk2bDAgMTYgMTYgMCAyMDggMCAxMDYuOCAwYy0xMi45LTkuMS0yNC41LTE5LjktMzQuNi0zMkwzMDQgNDgwbDAtMjU2IDY0IDAgMTYgMCAwLTMyLTE2IDAtNjQgMCAwLTMyIDAtMS42YzM2LjUtNy40IDY0LTM5LjcgNjQtNzguNGMwLTQ0LjItMzUuOC04MC04MC04MHptOTYgMzY4YTExMiAxMTIgMCAxIDEgMjI0IDAgMTEyIDExMiAwIDEgMSAtMjI0IDB6bTI1NiAwYTE0NCAxNDQgMCAxIDAgLTI4OCAwIDE0NCAxNDQgMCAxIDAgMjg4IDB6TTUxMiA0NDhsMC0zMi0zMiAwIDAgMzIgMzIgMHptMC0xNjBsLTMyIDAgMCAxNiAwIDgwIDAgMTYgMzIgMCAwLTE2IDAtODAgMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![anchor-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/anchor-circle-exclamation.svg)
  */
 const AnchorCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `list` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list?s=sharp-light list}
- * @preview ![list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMzIgMCAwIDMyLTMyIDAgMC0zMnpNMTYgNDhsMCAzMiAwIDMyIDAgMzIgMzIgMCAzMiAwIDMyIDAgMC0zMiAwLTMyIDAtMzJMODAgNDggNDggNDggMTYgNDh6TTE3NiA4MGwtMTYgMCAwIDMyIDE2IDAgMzIwIDAgMTYgMCAwLTMyLTE2IDBMMTc2IDgwem0wIDE2MGwtMTYgMCAwIDMyIDE2IDAgMzIwIDAgMTYgMCAwLTMyLTE2IDAtMzIwIDB6bTAgMTYwbC0xNiAwIDAgMzIgMTYgMCAzMjAgMCAxNiAwIDAtMzItMTYgMC0zMjAgMHpNODAgMjQwbDAgMzItMzIgMCAwLTMyIDMyIDB6TTQ4IDIwOGwtMzIgMCAwIDMyIDAgMzIgMCAzMiAzMiAwIDMyIDAgMzIgMCAwLTMyIDAtMzIgMC0zMi0zMiAwLTMyIDB6bTAgMTkybDMyIDAgMCAzMi0zMiAwIDAtMzJ6TTE2IDM2OGwwIDMyIDAgMzIgMCAzMiAzMiAwIDMyIDAgMzIgMCAwLTMyIDAtMzIgMC0zMi0zMiAwLTMyIDAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/list.svg)
  */
 const List: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-steam` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-steam?s=brands square-steam}
- * @preview ![square-steam](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY1LjYgMzA5LjFjMTguNiA3LjcgMjcuMyAyOC45IDE5LjYgNDcuNHMtMjkgMjcuMi00Ny42IDE5LjRsLTI4LjUtMTEuOGM1IDEwLjYgMTMuOCAxOS40IDI1LjQgMjQuMmMyNS4yIDEwLjUgNTQuMS0xLjQgNjQuNi0yNi41YzUuMS0xMi4xIDUuMS0yNS41IC4xLTM3LjdjLTUuMS0xMi4xLTE0LjUtMjEuNi0yNi43LTI2LjdjLTEyLjEtNS0yNS00LjgtMzYuNC0uNWwyOS41IDEyLjJ6TTQ0OCA5NmMwLTM1LjMtMjguNy02NC02NC02NEg2NEMyOC43IDMyIDAgNjAuNyAwIDk2VjI0MC43bDExNi42IDQ4LjFjMTItOC4yIDI2LjItMTIuMSA0MC43LTExLjNsNTUuNC04MC4ydi0xLjFjMC00OC4yIDM5LjMtODcuNSA4Ny42LTg3LjVzODcuNiAzOS4zIDg3LjYgODcuNWMwIDQ5LjItNDAuOSA4OC43LTg5LjYgODcuNWwtNzkgNTYuM2MxLjYgMzguNS0yOS4xIDY4LjgtNjUuNyA2OC44Yy0zMS44IDAtNTguNS0yMi43LTY0LjUtNTIuN0wwIDMxOS4yVjQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NEgzODRjMzUuMyAwIDY0LTI4LjcgNjQtNjRWOTZ6TTI0MS45IDE5Ni4yYTU4LjQgNTguNCAwIDEgMCAxMTYuOCAwIDU4LjQgNTguNCAwIDEgMCAtMTE2LjggMHptMTQuNi0uMWE0My45IDQzLjkgMCAxIDEgODcuOCAwIDQzLjkgNDMuOSAwIDEgMSAtODcuOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-steam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-steam.svg)
  */
 const SquareSteam: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

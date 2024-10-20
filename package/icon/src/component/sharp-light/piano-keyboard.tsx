@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `piano-keyboard` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/piano-keyboard?s=sharp-light piano-keyboard}
- * @preview ![piano-keyboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDIyNGwwIDE5Mi05NiAwIDAtODAgMTYgMCAxNiAwIDAtMTYgMC05NiA2NCAwek00MTYgNDE2bC0xMTIgMCAwLTgwIDE2IDAgMTYgMCAwLTE2IDAtOTYgNDggMCAwIDk2IDAgMTYgMTYgMCAxNiAwIDAgODB6bS0xNDQgMGwtMTEyIDAgMC04MCAxNiAwIDE2IDAgMC0xNiAwLTk2IDQ4IDAgMCA5NiAwIDE2IDE2IDAgMTYgMCAwIDgwek0xNDQgNDQ4bDE0NCAwIDE0NCAwIDExMiAwIDMyIDAgMC0zMiAwLTE5MiAwLTE2IDAtMTYgMC05NiAwLTMyLTMyIDBMMzIgNjQgMCA2NCAwIDk2bDAgOTYgMCAxNiAwIDE2TDAgNDE2bDAgMzIgMzIgMCAxMTIgMHptLTE2LTMybC05NiAwIDAtMTkyIDY0IDAgMCA5NiAwIDE2IDE2IDAgMTYgMCAwIDgwem0xNi0xMTJsLTE2IDAgMC04MCAzMiAwIDAgODAtMTYgMHptMTQ0IDBsLTE2IDAgMC04MCAzMiAwIDAgODAtMTYgMHptMTQ0IDBsLTE2IDAgMC04MCAzMiAwIDAgODAtMTYgMHpNNTQ0IDE5MmwtODAgMC02NCAwLTgwIDAtNjQgMC04MCAwLTY0IDAtODAgMCAwLTk2IDUxMiAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![piano-keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/piano-keyboard.svg)
  */
 const PianoKeyboard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

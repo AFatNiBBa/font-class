@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `envelopes` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelopes?s=regular envelopes}
- * @preview ![envelopes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDgwTDE2MCA4MGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNy44TDMyMS40IDIzNS4yYzQuMiAzLjEgOS4zIDQuOCAxNC42IDQuOHMxMC40LTEuNyAxNC42LTQuOEw1MjggMTAzLjhsMC03LjhjMC04LjgtNy4yLTE2LTE2LTE2em0xNiA4My41TDM3OS4xIDI3My44QzM2Ni43IDI4MyAzNTEuNSAyODggMzM2IDI4OHMtMzAuNy01LTQzLjEtMTQuMkwxNDQgMTYzLjUgMTQ0IDMyMGMwIDguOCA3LjIgMTYgMTYgMTZsMzUyIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMTU2LjV6TTE2MCAzMmwzNTIgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDIyNGMwIDM1LjMtMjguNyA2NC02NCA2NGwtMzUyIDBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDk2IDk2YzAtMzUuMyAyOC43LTY0IDY0LTY0ek0yNCA5NmMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDIyNGMwIDQ4LjYgMzkuNCA4OCA4OCA4OGwzMjAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtMzIwIDBDNjAuOSA0ODAgMCA0MTkuMSAwIDM0NEwwIDEyMGMwLTEzLjMgMTAuNy0yNCAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![envelopes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/envelopes.svg)
  */
 const Envelopes: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

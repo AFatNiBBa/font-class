@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-dashed-circle-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dashed-circle-plus?s=solid square-dashed-circle-plus}
- * @preview ![square-dashed-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJDNDMgMzIgMCA3NSAwIDEyOGwwIDMyIDY0IDAgMC0zMmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMiAwIDAtNjRMOTYgMzJ6TTAgMTkyTDAgMzIwbDY0IDAgMC0xMjhMMCAxOTJ6TTY0IDM1MkwwIDM1MmwwIDMyYzAgNTMgNDMgOTYgOTYgOTZsMzIgMCAwLTY0LTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMzJ6TTM4NCAxMjhsMCA3MC42YzE1LjMtNC4zIDMxLjQtNi42IDQ4LTYuNmM1LjQgMCAxMC43IC4yIDE2IC43bDAtNjQuN2MwLTUzLTQzLTk2LTk2LTk2bC0zMiAwIDAgNjQgMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnpNMTYwIDQ4MGwxMzYuMiAwYy0xNS4zLTE4LjUtMjYuOS00MC4yLTMzLjYtNjRMMTYwIDQxNmwwIDY0em0wLTM4NGwxMjggMCAwLTY0TDE2MCAzMmwwIDY0ek00MzIgNTEyYTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHptMTYtMjA4bDAgNDggNDggMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtNDggMCAwIDQ4YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNDgtNDggMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmw0OCAwIDAtNDhjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-dashed-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-dashed-circle-plus.svg)
  */
 const SquareDashedCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

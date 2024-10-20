@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flag-swallowtail` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag-swallowtail?s=regular flag-swallowtail}
- * @preview ![flag-swallowtail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjRDNDggMTAuNyAzNy4zIDAgMjQgMFMwIDEwLjcgMCAyNGwwIDhMMCA4MCAwIDMwNGwwIDQ4TDAgNDg4YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xMzYgMzc2IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRjMC01LjItMS43LTEwLjItNC44LTE0LjRMMzUyIDE5MiA0NDMuMiA3MC40YzMuMS00LjIgNC44LTkuMiA0LjgtMTQuNGMwLTEzLjMtMTAuNy0yNC0yNC0yNEw0OCAzMmwwLTh6bTAgNTZsMzI4IDAtNjIuNCA4My4yYy0xMi44IDE3LjEtMTIuOCA0MC41IDAgNTcuNkwzNzYgMzA0IDQ4IDMwNCA0OCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![flag-swallowtail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/flag-swallowtail.svg)
  */
 const FlagSwallowtail: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

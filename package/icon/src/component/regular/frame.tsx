@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `frame` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/frame?s=regular frame}
- * @preview ![frame](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDEyMGMwLTEzLjMtMTAuNy0yNC0yNC0yNGwtNDAgMCAwLTQwYzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgNDBMMTEyIDk2bDAtNDBjMC0xMy4zLTEwLjctMjQtMjQtMjRTNjQgNDIuNyA2NCA1NmwwIDQwTDI0IDk2QzEwLjcgOTYgMCAxMDYuNyAwIDEyMHMxMC43IDI0IDI0IDI0bDQwIDAgMCAyMjQtNDAgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw0MCAwIDAgNDBjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTQwIDIyNCAwIDAgNDBjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTQwIDQwIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTQwIDAgMC0yMjQgNDAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHpNMTEyIDM2OGwwLTIyNCAyMjQgMCAwIDIyNC0yMjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![frame](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/frame.svg)
  */
 const Frame: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

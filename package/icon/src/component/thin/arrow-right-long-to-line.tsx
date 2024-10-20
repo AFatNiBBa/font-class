@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-right-long-to-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-long-to-line?s=thin arrow-right-long-to-line}
- * @preview ![arrow-right-long-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDcybDAgMzY4YzAgNC40LTMuNiA4LTggOHMtOC0zLjYtOC04bDAtMzY4YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDh6TTUwOS43IDI1MC4zYzMuMSAzLjEgMy4xIDguMiAwIDExLjNsLTE1MiAxNTJjLTMuMSAzLjEtOC4yIDMuMS0xMS4zIDBzLTMuMS04LjIgMC0xMS4zTDQ4NC43IDI2NCA4IDI2NGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGw0NzYuNyAwTDM0Ni4zIDEwOS43Yy0zLjEtMy4xLTMuMS04LjIgMC0xMS4zczguMi0zLjEgMTEuMyAwbDE1MiAxNTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-right-long-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-right-long-to-line.svg)
  */
 const ArrowRightLongToLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

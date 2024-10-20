@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `yoast` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/yoast?s=brands yoast}
- * @preview ![yoast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTEuMyA3NmgxODZsLTcgMTguOWgtMTc5Yy0zOS43IDAtNzEuOSAzMS42LTcxLjkgNzAuM3YyMDUuNGMwIDM1LjQgMjQuOSA3MC4zIDg0IDcwLjNWNDYwSDkxLjNDNDEuMiA0NjAgMCA0MTkuOCAwIDM3MC41VjE2NS4yQzAgMTE1LjkgNDAuNyA3NiA5MS4zIDc2em0yMjkuMS01Nmg2Ni41QzI0My4xIDM5OC4xIDI0MS4yIDQxOC45IDIwMi4yIDQ1OS4zYy0yMC44IDIxLjYtNDkuMyAzMS43LTc4LjMgMzIuN3YtNTEuMWM0OS4yLTcuNyA2NC42LTQ5LjkgNjQuNi03NS4zIDAtMjAuMS42LTEyLjYtODIuMS0yMjMuMmg2MS40TDIxOC4yIDI5OSAzMjAuNCAyMHpNNDQ4IDE2MS41VjQ2MEgyMzRjNi42LTkuNiAxMC43LTE2LjMgMTIuMS0xOS40aDE4Mi41VjE2MS41YzAtMzIuNS0xNy4xLTUxLjktNDguMi02Mi45bDYuNy0xNy42YzQxLjcgMTMuNiA2MC45IDQzLjEgNjAuOSA4MC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![yoast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/yoast.svg)
  */
 const Yoast: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

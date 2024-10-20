@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-zipper` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-zipper?s=sharp-regular file-zipper}
- * @preview ![file-zipper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDY0TDQ4IDQ4bDY0IDAgMCAxNiAxNiAwIDMyIDAgMTYgMCAwLTE2IDQ4IDAgMCAxMTIgMTEyIDAgMCAzMDRMNDggNDY0ek0yNTYgMEw0OCAwIDAgMCAwIDQ4IDAgNDY0bDAgNDggNDggMCAyODggMCA0OCAwIDAtNDggMC0zMzZMMjU2IDB6TTExMiA5NmwwIDMyIDE2IDAgMzIgMCAxNiAwIDAtMzItMTYgMC0zMiAwLTE2IDB6bTAgNjRsMCAzMiAxNiAwIDMyIDAgMTYgMCAwLTMyLTE2IDAtMzIgMC0xNiAwek04MCA0MTZsMTI4IDAgMC03MkwxNzYgMjI0bC02NCAwTDgwIDM0NGwwIDcyem00OC04MGwzMiAwIDE2IDAgMCAzMi0xNiAwLTMyIDAtMTYgMCAwLTMyIDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-zipper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-zipper.svg)
  */
 const FileZipper: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

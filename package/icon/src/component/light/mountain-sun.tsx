@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mountain-sun` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain-sun?s=light mountain-sun}
- * @preview ![mountain-sun](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDgwYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTQ4MCA4MGE4MCA4MCAwIDEgMSAxNjAgMEE4MCA4MCAwIDEgMSA0ODAgODB6TTQ1Ni4xIDQ4MGMxMy4yIDAgMjMuOS0xMC43IDIzLjktMjMuOWMwLTQuNS0xLjMtOC45LTMuNy0xMi43TDI1OS42IDk4Yy0uOC0xLjMtMi4yLTItMy42LTJzLTIuOSAuOC0zLjYgMkwzNS43IDQ0My40Yy0yLjQgMy44LTMuNyA4LjItMy43IDEyLjdDMzIgNDY5LjMgNDIuNyA0ODAgNTUuOSA0ODBsNDAwLjIgMHpNNTUuOSA1MTJDMjUgNTEyIDAgNDg3IDAgNDU2LjFjMC0xMC41IDMtMjAuOCA4LjYtMjkuN0wyMjUuMiA4MWM2LjYtMTAuNiAxOC4zLTE3IDMwLjgtMTdzMjQuMSA2LjQgMzAuOCAxN2wxMjYgMjAwLjcgNDguMi03OUM0NjUgMTk2LjEgNDcyLjIgMTkyIDQ4MCAxOTJzMTUgNC4xIDE5LjEgMTAuN2wxMzIgMjE2LjNjNS44IDkuNiA4LjkgMjAuNiA4LjkgMzEuOGMwIDMzLjgtMjcuNCA2MS4xLTYxLjEgNjEuMWwtMTIyLjggMEw1NS45IDUxMnptNDQ3LjUtODUuNmM1LjYgOC45IDguNiAxOS4yIDguNiAyOS43YzAgOC42LTEuOSAxNi43LTUuNCAyMy45bDcyLjIgMGMxNi4xIDAgMjkuMS0xMyAyOS4xLTI5LjFjMC01LjMtMS41LTEwLjYtNC4zLTE1LjJMNDgwIDIzMi45IDQzMS43IDMxMmw3MS43IDExNC4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mountain-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mountain-sun.svg)
  */
 const MountainSun: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-arrow-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-arrow-up?s=sharp-light message-arrow-up}
- * @preview ![message-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQxNmwtMzIgMC05NiAwTDAgNDE2bDAtMzJMMCAzMiAwIDAgMzIgMCA0ODAgMGwzMiAwIDAgMzIgMCAzNTIgMCAzMi0zMiAwLTE3NiAwTDE5MiA0OTAuNyAxNjAgNTEybDAtMzguNSAwLTI1LjUgMC0zMnptMC0zMmwzMiAwIDAgMzIgMCAzNi4yIDk0LjItNjIuOCA4LjEtNS40IDkuNyAwIDE3NiAwIDAtMzUyTDMyIDMybDAgMzUyIDEyOCAwem0xMTItODBsMCAxNi0zMiAwIDAtMTYgMC0xNTMuNC01Mi43IDUyLjdMMTc2IDIxNC42IDE1My40IDE5MmwxMS4zLTExLjMgODAtODBMMjU2IDg5LjRsMTEuMyAxMS4zIDgwIDgwTDM1OC42IDE5MiAzMzYgMjE0LjZsLTExLjMtMTEuM0wyNzIgMTUwLjYgMjcyIDMwNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![message-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-arrow-up.svg)
  */
 const MessageArrowUp: typeof Icon = x => (
     <Icon {...x}>

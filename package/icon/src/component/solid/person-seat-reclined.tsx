@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-seat-reclined` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-seat-reclined?s=solid person-seat-reclined}
- * @preview ![person-seat-reclined](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDEyOGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bTg5IDE2MGwtOC0zMiA2MyAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC03OS4yIDBjLTYuNi0xOS0yNC41LTMyLTQ0LjktMzJjLTMwLjkgMC01My42IDI5LjEtNDYuMSA1OWwyMS4xIDg0LjVDMTc4IDMzMiAyMDMuNiAzNTIgMjMzIDM1Mmw2LjMgMGMuNSAwIC45IDAgMS40IDBsNzguMSAwYzYuNyAwIDEyLjYgNC4xIDE1IDEwLjRMMzcwIDQ1OS4yYzYgMTYuMSAyMy44IDI0LjYgNDAuMSAxOS4xbDQ4LTE2YzE2LjgtNS42IDI1LjgtMjMuNyAyMC4yLTQwLjVzLTIzLjctMjUuOC00MC41LTIwLjJsLTE4LjcgNi4yLTI1LjUtNjhjLTExLjctMzEuMi00MS42LTUxLjktNzQuOS01MS45TDI2NSAyODh6TTk1LjUgMTU0LjFjLTMuMy0xNy40LTIwLTI4LjgtMzcuMy0yNS42cy0yOC44IDIwLTI1LjYgMzcuM0w2NS45IDM0My42Qzc3LjIgNDA0LjEgMTMwLjEgNDQ4IDE5MS43IDQ0OGw4MC4zIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJsLTgwLjMgMGMtMzAuOCAwLTU3LjItMjEuOS02Mi45LTUyLjJMOTUuNSAxNTQuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-seat-reclined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-seat-reclined.svg)
  */
 const PersonSeatReclined: typeof Icon = x => (
     <Icon {...x}>

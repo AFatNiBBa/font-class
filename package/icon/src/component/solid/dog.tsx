@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dog` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dog?s=solid dog}
- * @preview ![dog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA5LjYgMTU4LjVMMzMyLjcgMTkuOEMzMzQuNiA4LjQgMzQ0LjUgMCAzNTYuMSAwYzcuNSAwIDE0LjUgMy41IDE5IDkuNUwzOTIgMzJsNTIuMSAwYzEyLjcgMCAyNC45IDUuMSAzMy45IDE0LjFMNDk2IDY0bDU2IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAyNGMwIDQ0LjItMzUuOCA4MC04MCA4MGwtMzIgMC0xNiAwLTIxLjMgMC01LjEgMzAuNS0xMTItNjR6TTQxNiAyNTYuMUw0MTYgNDgwYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTExNS4yYy0yNCAxMi4zLTUxLjIgMTkuMi04MCAxOS4ycy01Ni02LjktODAtMTkuMkwxNjAgNDgwYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTIzMC4yYy0yOC44LTEwLjktNTEuNC0zNS4zLTU5LjItNjYuNUwxIDE2Ny44Yy00LjMtMTcuMSA2LjEtMzQuNSAyMy4zLTM4LjhzMzQuNSA2LjEgMzguOCAyMy4zbDMuOSAxNS41QzcwLjUgMTgyIDgzLjMgMTkyIDk4IDE5MmwzMCAwIDE2IDAgMTU5LjggMEw0MTYgMjU2LjF6TTQ2NCA4MGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dog.svg)
  */
 const Dog: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

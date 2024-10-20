@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `telescope` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/telescope?s=sharp-light telescope}
- * @preview ![telescope](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzU2LjYgODhsOTYgMTY2LjNMNTI5LjMgMjEwbC05Ni0xNjYuM0wzNTYuNiA4OHpNNTU3IDE5NGwxNiAyNy43LTI3LjcgMTYtNzYuNiA0NC4yLTI3LjcgMTYtMTYtMjcuNy0uNS0uOC00MS40IDIyLjRjLjYgNCAuOSA4LjEgLjkgMTIuMmMwIDIzLjItOS45IDQ0LjItMjUuNyA1OC44TDQxOS4xIDUxMmwtMzQuNiAwLTU0LTEzMi41Yy04LjMgMi45LTE3LjIgNC41LTI2LjUgNC41cy0xOC4yLTEuNi0yNi41LTQuNUwyMjMuNSA1MTJsLTM0LjYgMCA2MC4yLTE0Ny44LTEyNyA2OC43LTg1LjQtMTQ4TDMyNi45IDEwMC41bC0xNC0yNC4yIDI3LjctMTZMNDE3LjMgMTYgNDQ1IDBsMTYgMjcuN0w1NTcgMTk0em0tMjE0LTY1LjhMNzkuOCAyOTUuNGw1NC41IDk0LjUgOTctNTIuNGMtNC43LTEwLjItNy4zLTIxLjUtNy4zLTMzLjRjMC00NC4yIDM1LjgtODAgODAtODBjMjguNiAwIDUzLjYgMTUgNjcuOCAzNy41bDM2LjYtMTkuOEwzNDIuOSAxMjguMnpNMzA0IDM1MmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6TTM3LjkgMzQ0LjFsMzIgNTZMNzcuOCA0MTQgNTAgNDI5LjhsLTcuOS0xMy45LTMyLTU2TDIuMiAzNDYgMzAgMzMwLjJsNy45IDEzLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![telescope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/telescope.svg)
  */
 const Telescope: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

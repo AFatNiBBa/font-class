@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-tissue` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-tissue?s=sharp-solid face-tissue}
- * @preview ![face-tissue](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMmMxNDEuNCAwIDI1Ni0xMTQuNiAyNTYtMjU2UzM5Ny40IDAgMjU2IDBTMCAxMTQuNiAwIDI1NmMwIDE1LjkgMS41IDMxLjUgNC4yIDQ2LjdsMjA1LjktMzguMSA0NS44LTguNS04LjUgNDUuOC05LjQgNTEgMTggMTIgMzkuMS0yNi4xIDguOS01LjkgOC45IDUuOSA0MC4zIDI2LjggMjMuNy0xMS44IDE0LjMtNy4yIDE0LjMgMjguNi0xNC4zIDcuMi0zMiAxNi04LjMgNC4yLTcuNy01LjJMMzA0IDM3MS4ybC0zOS4xIDI2LjEtOC45IDUuOS04LjktNS45TDIzMS43IDM4NyAyMDkuMyA1MDcuOGMxNS4xIDIuOCAzMC43IDQuMiA0Ni43IDQuMnpNMjMwLjkgMTkyTDExMiAyNTZsNDUuNy02NEwxMTIgMTI4bDExOC45IDY0ek00MDAgMTI4bC00NS43IDY0TDQwMCAyNTYgMjgxLjEgMTkyIDQwMCAxMjh6TTIxNiAyOTZMMCAzMzZsNjQgNDhMMzIgNDgwbDk2LTMyIDQ4IDY0IDQwLTIxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-tissue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-tissue.svg)
  */
 const FaceTissue: typeof Icon = x => (
     <Icon {...x}>

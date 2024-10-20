@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wand-magic` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wand-magic?s=sharp-light wand-magic}
- * @preview ![wand-magic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNTEybDIyLjYtMjIuNkw0ODkuNCAxMTguNiA1MTIgOTYgNDg5LjQgNzMuNCA0MzguNiAyMi42IDQxNiAwIDM5My40IDIyLjYgMjIuNiAzOTMuNCAwIDQxNmwyMi42IDIyLjYgNTAuNyA1MC43TDk2IDUxMnpNMzU2LjcgMjA2LjFsLTUwLjctNTAuN0w0MTYgNDUuMyA0NjYuNyA5NiAzNTYuNyAyMDYuMXptLTIyLjYgMjIuNkw5NiA0NjYuNyA0NS4zIDQxNiAyODMuMyAxNzcuOWw1MC43IDUwLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![wand-magic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/wand-magic.svg)
  */
 const WandMagic: typeof Icon = x => (
     <Icon {...x}>

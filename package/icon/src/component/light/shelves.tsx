@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shelves` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shelves?s=light shelves}
- * @preview ![shelves](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAxNDQgNTc2IDAgMC0xNDRjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDE2MCAwIDI1NiAwIDY0YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNDhMMzIgNDQ4bDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NEwwIDE3NiAwIDE2QzAgNy4yIDcuMiAwIDE2IDB6TTMyIDQxNmw1NzYgMCAwLTIyNEwzMiAxOTJsMCAyMjR6TTQ0OCAzMmwtNjQgMCAwIDY0IDY0IDAgMC02NHpNMzg0IDBsNjQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMybC02NCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTY0YzAtMTcuNyAxNC4zLTMyIDMyLTMyek0xMjggMjg4bDAgNjQgNjQgMCAwLTY0LTY0IDB6bS0zMiAwYzAtMTcuNyAxNC4zLTMyIDMyLTMybDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtNjQgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NHptMTkyIDBsMCA2NCA2NCAwIDAtNjQtNjQgMHptLTMyIDBjMC0xNy43IDE0LjMtMzIgMzItMzJsNjQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMybC02NCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shelves](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shelves.svg)
  */
 const Shelves: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

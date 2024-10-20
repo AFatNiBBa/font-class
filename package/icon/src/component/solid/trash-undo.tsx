@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-undo` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-undo?s=solid trash-undo}
- * @preview ![trash-undo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM1LjIgMTcuN0wxMjggMzIgMzIgMzJDMTQuMyAzMiAwIDQ2LjMgMCA2NFMxNC4zIDk2IDMyIDk2bDM4NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC05NiAwLTcuMi0xNC4zQzMwNy40IDYuOCAyOTYuMyAwIDI4NC4yIDBMMTYzLjggMGMtMTIuMSAwLTIzLjIgNi44LTI4LjYgMTcuN3pNNDE2IDEyOEwzMiAxMjggNTMuMiA0NjdjMS42IDI1LjMgMjIuNiA0NSA0Ny45IDQ1bDI0NS44IDBjMjUuMyAwIDQ2LjMtMTkuNyA0Ny45LTQ1TDQxNiAxMjh6TTIxNy44IDE5OS45YzguOSA5LjkgOC4xIDI1LTEuOCAzMy45TDE4Mi41IDI2NGw1Ny41IDBjNDguNiAwIDg4IDM5LjQgODggODhsMCA0MGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTQwYzAtMjIuMS0xNy45LTQwLTQwLTQwbC01Ny41IDAgMzMuNSAzMC4yYzkuOSA4LjkgMTAuNyAyNCAxLjggMzMuOXMtMjQgMTAuNy0zMy45IDEuOGwtODAtNzJjLTUuMS00LjYtNy45LTExLTcuOS0xNy44czIuOS0xMy4zIDcuOS0xNy44bDgwLTcyYzkuOS04LjkgMjUtOC4xIDMzLjkgMS44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trash-undo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-undo.svg)
  */
 const TrashUndo: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

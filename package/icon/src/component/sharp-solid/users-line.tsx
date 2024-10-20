@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users-line` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-line?s=sharp-solid users-line}
- * @preview ![users-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjExLjIgOTZhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAwek02NCAxOTJMMzIgMjg4bDEzNS40IDAgMjguMi03NS4yIDcuOC0yMC44TDY0IDE5MnptNDExLjggOTZMNjA4IDI4OGwtMzItOTYtMTM2LjIgMCA3LjggMjAuOEw0NzUuOCAyODh6bS0xMC4yIDY0bC0yNC02NC0yNC02NC0xMi4zIDAtMTcwLjcgMC05LjEgMC0yNCA2NC0yNCA2NCAyODggMHpNNTYzLjIgOTZhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAwek0zMjEuNiAxOTJhODAgODAgMCAxIDAgMC0xNjAgODAgODAgMCAxIDAgMCAxNjB6TTMyIDQxNkwwIDQxNmwwIDY0IDMyIDAgNTc2IDAgMzIgMCAwLTY0LTMyIDBMMzIgNDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![users-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/users-line.svg)
  */
 const UsersLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

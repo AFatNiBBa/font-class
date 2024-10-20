@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plug` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug?s=thin plug}
- * @preview ![plug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDhjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCAxMDQgMTYgMEwxMTIgOHpNMjg4IDhjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCAxMDQgMTYgMEwyODggOHpNOCAxNDRjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMzIgMCAwIDgwYzAgODEuMyA2My44IDE0Ny42IDE0NCAxNTEuOEwxODQgNTA0YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0xMTIuMmM4MC4yLTQuMiAxNDQtNzAuNSAxNDQtMTUxLjhsMC04MCAzMiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0zMiAwLTE2IDBMNTYgMTQ0bC0xNiAwTDggMTQ0ek0xOTIgMzc2Yy03NS4xIDAtMTM2LTYwLjktMTM2LTEzNmwwLTgwIDI3MiAwIDAgODBjMCA3NS4xLTYwLjkgMTM2LTEzNiAxMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![plug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/plug.svg)
  */
 const Plug: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

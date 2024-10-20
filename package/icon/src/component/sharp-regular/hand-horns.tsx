@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-horns` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-horns?s=sharp-regular hand-horns}
- * @preview ![hand-horns](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMEw0MCAwbDgwIDAgMjQgMCAwIDI0IDAgMTIwIDU2IDAgMjQgMCAwIDI0IDAgOCAzMiAwIDAtODggMC0yNCAyNCAwIDgwIDAgMjQgMCAwIDI0IDAgMTY4IDAgMzIgMCA1NmMwIDkyLjgtNzUuMiAxNjgtMTY4IDE2OGwtNDggMEM3NS4yIDUxMiAwIDQzNi44IDAgMzQ0YzAgMCAwIDAgMCAwbDAtMjRzMCAwIDAgMGwwLTU2IDAtMjQgMTYgMEwxNiAyNCAxNiAwek00OCAzMjBzMCAwIDAgMGwwIDI0czAgMCAwIDBjMCA2Ni4zIDUzLjcgMTIwIDEyMCAxMjBsNDggMGM2Ni4zIDAgMTIwLTUzLjcgMTIwLTEyMGwwLTU2IDAtMzIgMC0xNDQtMzIgMCAwIDY0IDAgMjQgMCA1NiAwIDg4IDAgMjQtMjQgMC01NiAwLTI0IDAtMjQgMC01NiAwLTI0IDAgMC00OCAyNCAwIDU2IDAgMC0zMi01NiAwLTcyIDAgMCAzMnpNMTc2IDIwMGwwLTgtMzIgMCAwIDQ4IDMyIDAgMC00MHpNOTYgMTY4bDAtMjQgMC05Nkw2NCA0OGwwIDE5MiAzMiAwIDAtNzJ6bTE2MCA1NmwtMzIgMCAwIDQwIDAgNTYgMzIgMCAwLTY0IDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-horns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-horns.svg)
  */
 const HandHorns: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

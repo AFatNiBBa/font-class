@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eye-low-vision` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-low-vision?s=sharp-solid eye-low-vision}
- * @preview ![eye-low-vision](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDUyNCAzODQuMWM0MS45LTQ0IDcwLjItOTMuOSA4NC0xMjguMUM1NzggMTgxLjMgNDc4LjQgMzIgMzIwIDMyYy02Ni45IDAtMTIzLjIgMjYuNi0xNjguMyA2M0w0OC40IDE0Ljh6TTIyMi41IDE1MGM1MS43LTQ3LjYgMTMxLjgtNTEuNCAxODgtNS45YzU0LjcgNDQuMyA2OC41IDEyMC4zIDM2LjMgMTgwLjFsLTM4LjctMzAuMWM1LjEtMTEuNyA3LjktMjQuNiA3LjktMzguMWMwLTUzLTQzLTk2LTk2LTk2Yy02LjQgMC0xMi43IC42LTE4LjggMS44bDExLjYgNTguMkwyMjIuNSAxNTB6TTQ0NC45IDQ0Ni42TDg1LjcgMTYzLjVjLTEwLjkgMTQuMy0yMC40IDI4LjYtMjguNSA0Mi4yTDM5My4xIDQ2OWMxOC4zLTUuNyAzNS42LTEzLjMgNTEuOC0yMi40ek0zMjkuMiA0NzkuOEwzNC45IDI0OS4yYy0xIDIuMy0yIDQuNi0yLjkgNi44YzMwIDc0LjcgMTI5LjYgMjI0IDI4OCAyMjRjMy4xIDAgNi4xLS4xIDkuMi0uMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![eye-low-vision](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eye-low-vision.svg)
  */
 const EyeLowVision: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

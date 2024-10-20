@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sign-post` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sign-post?s=solid sign-post}
- * @preview ![sign-post](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJsMCAzMiAxMjkgMGM5LjUgMCAxOC41IDQuMiAyNC42IDExLjVsNjEuOSA3NC4yYzQuOSA1LjkgNC45IDE0LjYgMCAyMC41bC02MS45IDc0LjJjLTYuMSA3LjMtMTUuMSAxMS41LTI0LjYgMTEuNUw4MCAyNTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtOTZjMC0yNi41IDIxLjUtNDggNDgtNDhsMTQ0IDAgMC0zMnptNjQgNDQ4YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtMTkyIDY0IDAgMCAxOTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sign-post](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sign-post.svg)
  */
 const SignPost: typeof Icon = x => (
     <Icon {...x}>

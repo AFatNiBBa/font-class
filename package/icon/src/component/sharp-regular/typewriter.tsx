@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `typewriter` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/typewriter?s=sharp-regular typewriter}
- * @preview ![typewriter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA0IDBMODAgMGwwIDI0IDAgMTM2IDQ4IDAgMC0xMTIgMjE0LjEgMEwzODQgODkuOWwwIDcwLjEgNDggMCAwLTgwIDAtOS45LTctN0wzNjkgN2wtNy03TDM1MiAwIDEwNCAwek0wIDE5MmwwIDk2IDMyIDAgMCAxNzYgMCA0OCA0OCAwIDM1MiAwIDQ4IDAgMC00OCAwLTE3NiAzMiAwIDAtOTYtMTYwIDAtMzIgMzItMTI4IDAtMzItMzJMMCAxOTJ6bTgwIDk2bDM1MiAwIDAgMTc2TDgwIDQ2NGwwLTE3NnptNDggOTZsMCA0OCAyNTYgMCAwLTQ4LTI1NiAwem00MC02NGwtNDAgMCAwIDQwIDQwIDAgMC00MHptMzIgMGwwIDQwIDQwIDAgMC00MC00MCAwem0xMTIgMGwtNDAgMCAwIDQwIDQwIDAgMC00MHptMzIgMGwwIDQwIDQwIDAgMC00MC00MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![typewriter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/typewriter.svg)
  */
 const Typewriter: typeof Icon = x => (
     <Icon {...x}>

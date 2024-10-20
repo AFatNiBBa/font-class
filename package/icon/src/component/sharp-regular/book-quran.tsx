@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-quran` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-quran?s=sharp-regular book-quran}
- * @preview ![book-quran](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYwIDBjNDguNiAwIDg4IDM5LjQgODggODhsMCAzMzYtLjQgMGMuMyAyLjYgLjQgNS4zIC40IDhjMCA0NC4yLTM1LjggODAtODAgODBMMjQgNTEyIDAgNTEybDAtNDggMjQgMCA4IDAgMC02NC04IDBMMCA0MDBsMC0yNEwwIDI0IDAgMCAyNCAwIDM2MCAwek04MCA0MDBsMCA2NCAyODggMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMkw4MCA0MDB6bTI4OC00OGMxMS40IDAgMjIuMiAyLjQgMzIgNi43TDQwMCA4OGMwLTIyLjEtMTcuOS00MC00MC00MEw0OCA0OGwwIDMwNCAzMjAgMHpNMjg4IDE0NGwxNC44IDM1LjYgMzguNCAzLjFMMzEyIDIwNy44bDguOSAzNy41TDI4OCAyMjUuMmwtMzIuOSAyMC4xIDguOS0zNy41LTI5LjMtMjUuMSAzOC40LTMuMUwyODggMTQ0ek0xODQgMjAwYzAgNDguNCAzOS4xIDg3LjcgODcuNSA4OGMtMTYuMSAxMC4xLTM1LjEgMTYtNTUuNSAxNmMtNTcuNCAwLTEwNC00Ni42LTEwNC0xMDRzNDYuNi0xMDQgMTA0LTEwNGMyMC40IDAgMzkuNCA1LjkgNTUuNSAxNmMtNDguMyAuMy04Ny41IDM5LjYtODcuNSA4OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![book-quran](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/book-quran.svg)
  */
 const BookQuran: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

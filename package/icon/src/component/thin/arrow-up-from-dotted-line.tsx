@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-from-dotted-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-dotted-line?s=thin arrow-up-from-dotted-line}
- * @preview ![arrow-up-from-dotted-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI5LjcgMzQuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMGwtMTM2IDEzNmMtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMEwyMTYgNTkuMyAyMTYgMTg0bDAgMTYwYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0xNjAgMC0xMjQuN0wzNTQuMyAxODEuN2MzLjEgMy4xIDguMiAzLjEgMTEuMyAwczMuMS04LjIgMC0xMS4zbC0xMzYtMTM2ek00OCA0NDhhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptODAgMTZhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyem05NiAwYTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnptOTYgMGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTExMi0xNmExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-up-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-from-dotted-line.svg)
  */
 const ArrowUpFromDottedLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

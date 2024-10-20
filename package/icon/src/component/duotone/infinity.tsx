@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `infinity` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/infinity?s=duotone infinity}
- * @preview ![infinity](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI0MS4xQzAgMTYxIDY1IDk2IDE0NS4xIDk2YzM4LjUgMCA3NS40IDE1LjMgMTAyLjYgNDIuNUwzMjAgMjEwLjdsNzIuMi03Mi4yQzQxOS41IDExMS4zIDQ1Ni40IDk2IDQ5NC45IDk2QzU3NSA5NiA2NDAgMTYxIDY0MCAyNDEuMWwwIDI5LjdDNjQwIDM1MSA1NzUgNDE2IDQ5NC45IDQxNmMtMzguNSAwLTc1LjQtMTUuMy0xMDIuNi00Mi41TDMyMCAzMDEuM2wtNzIuMiA3Mi4yQzIyMC41IDQwMC43IDE4My42IDQxNiAxNDUuMSA0MTZDNjUgNDE2IDAgMzUxIDAgMjcwLjlsMC0yOS43ek0yNzQuNyAyNTZsLTcyLjItNzIuMmMtMTUuMi0xNS4yLTM1LjktMjMuOC01Ny40LTIzLjhDMTAwLjMgMTYwIDY0IDE5Ni4zIDY0IDI0MS4xbDAgMjkuN2MwIDQ0LjggMzYuMyA4MS4xIDgxLjEgODEuMWMyMS41IDAgNDIuMi04LjUgNTcuNC0yMy44TDI3NC43IDI1NnptOTAuNSAwbDcyLjIgNzIuMmMxNS4yIDE1LjIgMzUuOSAyMy44IDU3LjQgMjMuOGM0NC44IDAgODEuMS0zNi4zIDgxLjEtODEuMWwwLTI5LjdjMC00NC44LTM2LjMtODEuMS04MS4xLTgxLjFjLTIxLjUgMC00Mi4yIDguNS01Ny40IDIzLjhMMzY1LjMgMjU2eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSIiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![infinity](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/infinity.svg)
  */
 const Infinity: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

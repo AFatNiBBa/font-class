@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glasses-round` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glasses-round?s=sharp-thin glasses-round}
- * @preview ![glasses-round](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjYuMSAzMy4xbDcuMyAxLjMgODAgMTMuOCA3LjkgMS40LTIuNyAxNS44LTcuOS0xLjRMNzcuOSA1MS40IDIzLjQgMjY3LjdDNDcuOCAyMzEuNyA4OS4yIDIwOCAxMzYgMjA4YzU1LjEgMCAxMDIuNiAzMi44IDEyNCA4MGw1Ni4xIDBjMjEuMy00Ny4yIDY4LjgtODAgMTI0LTgwYzQ2LjggMCA4OC4yIDIzLjcgMTEyLjYgNTkuN0w0OTguMSA1MS40IDQyNS40IDYzLjlsLTcuOSAxLjQtMi43LTE1LjggNy45LTEuNCA4MC0xMy44IDcuMy0xLjMgMS44IDcuMiA2NCAyNTMuOCAuMiAxIDAgMSAwIDQwIDAgOGMwIDc1LjEtNjAuOSAxMzYtMTM2IDEzNnMtMTM2LTYwLjktMTM2LTEzNmMwLTEzLjkgMi4xLTI3LjQgNi00MGwtNDQgMGMzLjkgMTIuNiA2IDI2LjEgNiA0MGMwIDc1LjEtNjAuOSAxMzYtMTM2IDEzNlMwIDQxOS4xIDAgMzQ0YzAgMCAwIDAgMCAwbDAtOCAwLTQwIDAtMSAuMi0xIDY0LTI1My44IDEuOC03LjJ6TTU2MCAzNDRhMTIwIDEyMCAwIDEgMCAtMjQwIDAgMTIwIDEyMCAwIDEgMCAyNDAgMHpNMTYgMzQ0YTEyMCAxMjAgMCAxIDAgMjQwIDBBMTIwIDEyMCAwIDEgMCAxNiAzNDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![glasses-round](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/glasses-round.svg)
  */
 const GlassesRound: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

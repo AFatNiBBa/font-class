@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `rupiah-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rupiah-sign?s=duotone rupiah-sign}
- * @preview ![rupiah-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yODggMTkyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDgwIDBjNjEuOSAwIDExMiA1MC4xIDExMiAxMTJzLTUwLjEgMTEyLTExMiAxMTJsLTQ4IDAgMCA5NmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTEyOCAwLTE2MHptNjQgMzJsMCA5NiA0OCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4cy0yMS41LTQ4LTQ4LTQ4bC00OCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzIgMzJDMTQuMyAzMiAwIDQ2LjMgMCA2NEwwIDI4OCAwIDQ0OGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMTI4IDQyLjMgMCA1NiAxMzkuOWM2LjYgMTYuNCAyNS4yIDI0LjQgNDEuNiAxNy44czI0LjQtMjUuMiAxNy44LTQxLjZMMTcwLjMgMzA3LjdDMjIwLjggMjg1LjMgMjU2IDIzNC44IDI1NiAxNzZjMC03OS41LTY0LjUtMTQ0LTE0NC0xNDRMMzIgMzJ6bTgwIDIyNGwtNDggMEw2NCA5Nmw0OCAwYzQ0LjIgMCA4MCAzNS44IDgwIDgwcy0zNS44IDgwLTgwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rupiah-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rupiah-sign.svg)
  */
 const RupiahSign: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M288 192c0-17.7 14.3-32 32-32l80 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-48 0 0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128 0-160zm64 32l0 96 48 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-48 0z" />
-            <path d="M32 32C14.3 32 0 46.3 0 64L0 288 0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 42.3 0 56 139.9c6.6 16.4 25.2 24.4 41.6 17.8s24.4-25.2 17.8-41.6L170.3 307.7C220.8 285.3 256 234.8 256 176c0-79.5-64.5-144-144-144L32 32zm80 224l-48 0L64 96l48 0c44.2 0 80 35.8 80 80s-35.8 80-80 80z" />
+        <path d="M32 32C14.3 32 0 46.3 0 64L0 288 0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 42.3 0 56 139.9c6.6 16.4 25.2 24.4 41.6 17.8s24.4-25.2 17.8-41.6L170.3 307.7C220.8 285.3 256 234.8 256 176c0-79.5-64.5-144-144-144L32 32zm80 224l-48 0L64 96l48 0c44.2 0 80 35.8 80 80s-35.8 80-80 80z" />
     </Icon>
 );
 

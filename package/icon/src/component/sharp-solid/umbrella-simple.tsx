@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `umbrella-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/umbrella-simple?s=sharp-solid umbrella-simple}
- * @preview ![umbrella-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBsMCAzMiAwIDJDNDE0LjMgNDkuNyA1MTIgMTU3LjUgNTEyIDI4OEwwIDI4OEMwIDE1Ny41IDk3LjcgNDkuNyAyMjQgMzRsMC0yIDAtMzIgNjQgMHptMCA0MzAuNmMwIDQ1LTM2LjUgODEuNC04MS40IDgxLjRjLTMwLjggMC01OS0xNy40LTcyLjgtNDVsLTIuMy00LjctMTQuMy0yOC42IDU3LjItMjguNiAxNC4zIDI4LjYgMi4zIDQuN2MzIDUuOSA5IDkuNiAxNS42IDkuNmM5LjYgMCAxNy40LTcuOCAxNy40LTE3LjRMMjI0IDMyMGw2NCAwIDAgMTEwLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![umbrella-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/umbrella-simple.svg)
  */
 const UmbrellaSimple: typeof Icon = x => (
     <Icon {...x}>

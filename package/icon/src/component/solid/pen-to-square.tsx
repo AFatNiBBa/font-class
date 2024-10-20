@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-to-square` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-to-square?s=solid pen-to-square}
- * @preview ![pen-to-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDcxLjYgMjEuN2MtMjEuOS0yMS45LTU3LjMtMjEuOS03OS4yIDBMMzYyLjMgNTEuN2w5Ny45IDk3LjkgMzAuMS0zMC4xYzIxLjktMjEuOSAyMS45LTU3LjMgMC03OS4yTDQ3MS42IDIxLjd6bS0yOTkuMiAyMjBjLTYuMSA2LjEtMTAuOCAxMy42LTEzLjUgMjEuOWwtMjkuNiA4OC44Yy0yLjkgOC42LS42IDE4LjEgNS44IDI0LjZzMTUuOSA4LjcgMjQuNiA1LjhsODguOC0yOS42YzguMi0yLjcgMTUuNy03LjQgMjEuOS0xMy41TDQzNy43IDE3Mi4zIDMzOS43IDc0LjMgMTcyLjQgMjQxLjd6TTk2IDY0QzQzIDY0IDAgMTA3IDAgMTYwTDAgNDE2YzAgNTMgNDMgOTYgOTYgOTZsMjU2IDBjNTMgMCA5Ni00MyA5Ni05NmwwLTk2YzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgOTZjMCAxNy43LTE0LjMgMzItMzIgMzJMOTYgNDQ4Yy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTI1NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmw5NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMyTDk2IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-to-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pen-to-square.svg)
  */
 const PenToSquare: typeof Icon = x => (
     <Icon {...x}>

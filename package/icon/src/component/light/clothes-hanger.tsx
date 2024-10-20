@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clothes-hanger` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clothes-hanger?s=light clothes-hanger}
- * @preview ![clothes-hanger](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEyLjIgODUuOEMyMjAuNCAzNi4zIDI2My4yIDAgMzEzLjQgMEMzNzAuMSAwIDQxNiA0NS45IDQxNiAxMDIuNmwwIDguMWMwIDM2LjEtMTcuNiA3MC00Ny4yIDkwLjdsLTIwLjcgMTQuNUw2MTIuNSAzOTYuOEM2MjkuNyA0MDguNSA2NDAgNDI4IDY0MCA0NDguOWMwIDM0LjktMjguMyA2My4xLTYzLjEgNjMuMUw2My4xIDUxMkMyOC4zIDUxMiAwIDQ4My43IDAgNDQ4LjljMC0yMC44IDEwLjMtNDAuMyAyNy41LTUyLjFMMzEwLjkgMjAyLjhsMzkuNS0yNy43YzIxLTE0LjcgMzMuNi0zOC44IDMzLjYtNjQuNWwwLTguMWMwLTM5LTMxLjYtNzAuNi03MC42LTcwLjZjLTM0LjUgMC02NCAyNS02OS43IDU5bC0zLjkgMjMuNmMtMS41IDguNy05LjcgMTQuNi0xOC40IDEzLjJzLTE0LjYtOS43LTEzLjItMTguNGwzLjktMjMuNnpNMzIwIDIzNS40TDQ1LjYgNDIzLjJDMzcuMSA0MjkgMzIgNDM4LjYgMzIgNDQ4LjlDMzIgNDY2LjEgNDUuOSA0ODAgNjMuMSA0ODBsNTEzLjcgMGMxNy4yIDAgMzEuMS0xMy45IDMxLjEtMzEuMWMwLTEwLjMtNS4xLTE5LjktMTMuNi0yNS43TDMyMCAyMzUuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![clothes-hanger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/clothes-hanger.svg)
  */
 const ClothesHanger: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

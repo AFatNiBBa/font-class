@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `delete-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/delete-right?s=regular delete-right}
- * @preview ![delete-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzcwLjcgNjRjMTcgMCAzMy4zIDYuNyA0NS4zIDE4LjdMNTY2LjYgMjMzLjRjNiA2IDkuNCAxNC4xIDkuNCAyMi42cy0zLjQgMTYuNi05LjQgMjIuNkw0MTYgNDI5LjNjLTEyIDEyLTI4LjMgMTguNy00NS4zIDE4LjdMNjQgNDQ4Yy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDEyOEMwIDkyLjcgMjguNyA2NCA2NCA2NGwzMDYuNyAwek00OCAxMjhsMCAyNTZjMCA4LjggNy4yIDE2IDE2IDE2bDMwNi43IDBjNC4yIDAgOC4zLTEuNyAxMS4zLTQuN0w1MjEuNCAyNTYgMzgyLjEgMTE2LjdjLTMtMy03LjEtNC43LTExLjMtNC43TDY0IDExMmMtOC44IDAtMTYgNy4yLTE2IDE2em05NSA0N2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMGw0NyA0NyA0Ny00N2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjQgMjQuNiAwIDMzLjlsLTQ3IDQ3IDQ3IDQ3YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45cy0yNC42IDkuNC0zMy45IDBsLTQ3LTQ3LTQ3IDQ3Yy05LjQgOS40LTI0LjYgOS40LTMzLjkgMHMtOS40LTI0LjYgMC0zMy45bDQ3LTQ3LTQ3LTQ3Yy05LjQtOS40LTkuNC0yNC42IDAtMzMuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![delete-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/delete-right.svg)
  */
 const DeleteRight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

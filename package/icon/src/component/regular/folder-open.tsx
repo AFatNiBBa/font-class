@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-open` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-open?s=regular folder-open}
- * @preview ![folder-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDQ4MGw0OCAwYzExLjQgMCAyMS45LTYgMjcuNi0xNS45bDExMi0xOTJjNS44LTkuOSA1LjgtMjIuMSAuMS0zMi4xUzU1NS41IDIyNCA1NDQgMjI0bC00MDAgMGMtMTEuNCAwLTIxLjkgNi0yNy42IDE1LjlMNDggMzU3LjEgNDggOTZjMC04LjggNy4yLTE2IDE2LTE2bDExNy41IDBjNC4yIDAgOC4zIDEuNyAxMS4zIDQuN2wyNi41IDI2LjVjMjEgMjEgNDkuNSAzMi44IDc5LjIgMzIuOEw0MTYgMTQ0YzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyIDQ4IDAgMC0zMmMwLTM1LjMtMjguNy02NC02NC02NEwyOTguNSA5NmMtMTcgMC0zMy4zLTYuNy00NS4zLTE4LjdMMjI2LjcgNTAuN2MtMTItMTItMjguMy0xOC43LTQ1LjMtMTguN0w2NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDIzLjcgMEwzODQgNDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![folder-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/folder-open.svg)
  */
 const FolderOpen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

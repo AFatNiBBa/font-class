@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-holding-heart` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-heart?s=sharp-regular hand-holding-heart}
- * @preview ![hand-holding-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY3LjIgMTM1LjFjLTE0LjktMTQuOS0yMy4yLTM1LTIzLjItNTZsMC0zLjZDMTQ0IDMzLjggMTc3LjktLjEgMjE5LjYtLjFjMjMgMCA0NC43IDEwLjQgNTkuMSAyOC40TDI4OCAzOS45bDkuMy0xMS42QzMxMS42IDEwLjQgMzMzLjQtLjEgMzU2LjQtLjFDMzk4LjEtLjEgNDMyIDMzLjggNDMyIDc1LjZsMCAzLjZjMCAyMS04LjMgNDEuMS0yMy4yIDU2TDM4NCAxNTkuOWwtOTYgOTYtOTYtOTYtMjQuOC0yNC44ek0xNjAuNyAzMDRsNy4zIDAgMjE2IDAgMjQgMCAwIDI0IDAgNDYuNSA3OS45LTUwLjggMjAuNC0xMyAxMi44IDIwLjUgNDAgNjQgMTIuMiAxOS41LTE5IDEzLTExNi44IDgwLTYuMSA0LjItNy40IDBMMjQgNTEyIDAgNTEybDAtNDggMjQgMCAzOTIuNiAwIDkxLjctNjIuOC0xNS0yNC04MC40IDUxTDQwNyA0MzJsLTcgMC0zMiAwLTQ4IDAtMjQgMC00MCAwLTI0IDAgMC00OCAyNCAwIDQwIDAgMjQgMCA0MCAwIDAtMzItMTg0LjcgMC05MCA2MC02IDRMNzIgNDE2bC00OCAwTDAgNDE2bDAtNDggMjQgMCA0MC43IDAgOTAtNjAgNi00eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-holding-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-holding-heart.svg)
  */
 const HandHoldingHeart: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

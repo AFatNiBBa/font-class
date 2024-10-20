@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turntable` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turntable?s=solid turntable}
- * @preview ![turntable](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmw0NDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6TTM4NCAyNTZBMTYwIDE2MCAwIDEgMCA2NCAyNTZhMTYwIDE2MCAwIDEgMCAzMjAgMHpNNTEyIDExMmMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDE2MC40YzAgMi41LS42IDQuOS0xLjcgNy4ybC0xNi4yIDMyLjVjLTExIC43LTIxLjQgNy0yNi43IDE3LjZsLTE2IDMyYy03LjkgMTUuOC0xLjUgMzUgMTQuMyA0Mi45czM1IDEuNSA0Mi45LTE0LjNsMTYtMzJjNS4zLTEwLjYgNC4yLTIyLjctMS45LTMxLjlsMTYuMi0zMi40YzMuMy02LjcgNS4xLTE0IDUuMS0yMS41TDUxMiAxMTJ6TTIyNCAyMjRhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![turntable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/turntable.svg)
  */
 const Turntable: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

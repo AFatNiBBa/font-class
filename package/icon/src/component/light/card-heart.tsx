@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `card-heart` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-heart?s=light card-heart}
- * @preview ![card-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDNDYuMyAzMiAzMiA0Ni4zIDMyIDY0bDAgMzg0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDI1NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzg0YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDMyek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDM4NGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6TTExMiAyMjEuM2MwIDcuOCAzLjEgMTUuMiA4LjYgMjAuN0wxOTIgMzEzLjRsNzEuNC03MS40YzUuNS01LjUgOC42LTEyLjkgOC42LTIwLjdjMC0xNi4yLTEzLjEtMjkuMy0yOS4zLTI5LjNjLTcuOCAwLTE1LjIgMy4xLTIwLjcgOC42bC0xOC43IDE4LjdjLTYuMiA2LjItMTYuNCA2LjItMjIuNiAwbC0xOC43LTE4LjdjLTUuNS01LjUtMTIuOS04LjYtMjAuNy04LjZjLTE2LjIgMC0yOS4zIDEzLjEtMjkuMyAyOS4zek0xNDEuMyAxNjBjMTYuMiAwIDMxLjggNi41IDQzLjMgMTcuOWw3LjQgNy40IDcuNC03LjRjMTEuNS0xMS41IDI3LjEtMTcuOSA0My4zLTE3LjljMzMuOCAwIDYxLjMgMjcuNCA2MS4zIDYxLjNjMCAxNi4yLTYuNSAzMS44LTE3LjkgNDMuM2wtODIuNyA4Mi43Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMEw5Ny45IDI2NC42Qzg2LjUgMjUzLjEgODAgMjM3LjUgODAgMjIxLjNjMC0zMy44IDI3LjQtNjEuMyA2MS4zLTYxLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![card-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/card-heart.svg)
  */
 const CardHeart: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

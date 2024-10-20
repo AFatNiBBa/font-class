@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `neos` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/neos?s=brands neos}
- * @preview ![neos](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE1LjQ0IDUxMmgtOTUuMTFMMjEyLjEyIDM1Ny40NnY5MS4xTDEyNS42OSA1MTJIMjhWMjkuODJMNjguNDcgMGgxMDguMDVsMTIzLjc0IDE3Ni4xM1Y2My40NUwzODYuNjkgMGg5Ny42OXY0NjEuNXpNMzguNzcgMzUuMjdWNDk2bDcyLTUyLjg4VjE5NGwyMTUuNSAzMDcuNjRoODQuNzlsNTIuMzUtMzguMTdoLTc4LjI3TDY5IDEzem04Mi41NCA0NjYuNjFsODAtNTguNzh2LTEwMWwtNzkuNzYtMTE0LjR2MjIwLjk0TDQ5IDUwMS44OWg3Mi4zNHpNODAuNjMgMTAuNzdsMzEwLjYgNDQyLjU3aDgyLjM3VjEwLjc3aC03OS43NXYzMTcuNTZMMTcwLjkxIDEwLjc3ek0zMTEgMTkxLjY1bDcyIDEwMi44MVYxNS45M2wtNzIgNTN2MTIyLjcyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![neos](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/neos.svg)
  */
 const Neos: typeof Icon = x => (
     <Icon {...x}>

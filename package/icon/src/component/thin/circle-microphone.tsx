@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-microphone` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-microphone?s=thin circle-microphone}
- * @preview ![circle-microphone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDEgMCA0ODAgMjQwIDI0MCAwIDEgMSAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xOTIgMTYwbDAgOTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NGwwLTk2YzAtMzUuMy0yOC43LTY0LTY0LTY0cy02NCAyOC43LTY0IDY0em02NC00OGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDk2YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4bDAtOTZjMC0yNi41IDIxLjUtNDggNDgtNDh6TTE0NCAyMzJjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCAyNGMwIDY4IDUzIDEyMy42IDEyMCAxMjcuOGwwIDI0LjJjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTI0LjJDMzMxIDM3OS42IDM4NCAzMjQgMzg0IDI1NmwwLTI0YzAtNC40LTMuNi04LTgtOHMtOCAzLjYtOCA4bDAgMjRjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJzLTExMi01MC4xLTExMi0xMTJsMC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-microphone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-microphone.svg)
  */
 const CircleMicrophone: typeof Icon = x => (
     <Icon {...x}>

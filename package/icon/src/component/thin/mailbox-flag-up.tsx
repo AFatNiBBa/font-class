@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mailbox-flag-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mailbox-flag-up?s=thin mailbox-flag-up}
- * @preview ![mailbox-flag-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDIwMGwwLTk2IDAtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRsNjQgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDMyYzAgMTMuMy0xMC43IDI0LTI0IDI0bC03MiAwIDAgODhjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LTh6TTQ0MCA5NmM0LjQgMCA4LTMuNiA4LThsMC0zMmMwLTQuNC0zLjYtOC04LThsLTY0IDBjLTQuNCAwLTggMy42LTggOGwwIDQwIDcyIDB6TTU2MCAyMDhjMC00Ny43LTI2LTg5LjItNjQuNy0xMTEuM2MuNC0yLjggLjctNS44IC43LTguN2wwLTljNDcuNCAyMy42IDgwIDcyLjUgODAgMTI5bDAgMTc2YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yODggMEw2NCA0NDhjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMjA4QzAgMTI4LjUgNjQuNSA2NCAxNDQgNjRsMTc2IDAgMCAxNkwyMTAgODBjNDYuMyAyMy45IDc4IDcyLjMgNzggMTI4bDAgMTc2YzAgMTkuMS04LjQgMzYuMy0yMS43IDQ4TDUxMiA0MzJjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNzZ6TTIyNCA0MzJjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNzZjMC03MC43LTU3LjMtMTI4LTEyOC0xMjhTMTYgMTM3LjMgMTYgMjA4bDAgMTc2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDE2MCAwek02NCAyMDBjMC00LjQgMy42LTggOC04bDE0NCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDcyIDIwOGMtNC40IDAtOC0zLjYtOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mailbox-flag-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mailbox-flag-up.svg)
  */
 const MailboxFlagUp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

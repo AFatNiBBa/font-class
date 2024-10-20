@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-running-fast` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-running-fast?s=sharp-solid person-running-fast}
- * @preview ![person-running-fast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnpNMjI0IDk2bC0xMy4zIDAtOS40IDkuNC00OCA0OC04IDggNDUuMyA0NS4zIDgtOEwyMzcuMyAxNjBsMjcuNyAwLTMxLjMgOTRjLTkuMyAyOCAxLjcgNTguOCAyNi44IDc0LjVsODYuMiA1My45LTkuNCAzMi44LTE2IDU2TDMwOS42IDUxMmw2Ni42IDAgNi42LTIzLjIgMTYtNTYgMTYtNTYgNi42LTIzLjJMNDAxIDM0MC45IDMzNCAyOTlsMjktNzcuNCAyNC4zIDQ4LjYgOC44IDE3LjcgMTkuOCAwIDQ4IDAgMzIgMCAwLTY0LTMyIDAtMjguMiAwLTM5LjItNzguMy01LjQtMTAuOS0xMS4zLTQuNS04MC0zMkwyOTQuMiA5NiAyODggOTZsLTY0IDB6TTIwNS41IDMxMC43TDE4Ny4yIDM1MiAxMjggMzUybC0zMiAwIDAgNjQgMzIgMCA4MCAwIDIwLjggMCA4LjQtMTlMMjUzIDM2MS42bC05LjUtNmMtMTcuNS0xMC45LTMwLjUtMjYuOC0zNy45LTQ0Ljl6TTE2IDk1LjhsLTE2IDAgMCAzMiAxNiAwIDExMiAwIDE2IDAgMC0zMi0xNiAwLTExMiAwem0tMTYgNjRsMCAzMiAxNiAwIDY0IDAgMTYgMCAwLTMyLTE2IDAtNjQgMC0xNiAwem0xNiA2NGwtMTYgMCAwIDMyIDE2IDAgMTI4IDAgMTYgMCAwLTMyLTE2IDAtMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-running-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-running-fast.svg)
  */
 const PersonRunningFast: typeof Icon = x => (
     <Icon {...x}>

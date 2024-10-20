@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `droplet` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet?s=thin droplet}
- * @preview ![droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQ5NkM5NC44IDQ5NiAxNiA0MTcuMiAxNiAzMjBjMC0xOS41IDcuMS00NC45IDE5LjYtNzMuOGMxMi40LTI4LjYgMjkuMy01OS4yIDQ3LjctODguOGMzNi42LTU5LjIgNzcuOS0xMTIuOSA5NS45LTEzNS43YzIuOC0zLjUgNy01LjYgMTEuOS01LjZsMS44IDBjNC45IDAgOS4xIDIuMSAxMS45IDUuNmMxOC4xIDIyLjggNTkuMyA3Ni42IDk1LjkgMTM1LjdjMTguMyAyOS42IDM1LjMgNjAuMiA0Ny43IDg4LjhDMzYwLjkgMjc1LjEgMzY4IDMwMC41IDM2OCAzMjBjMCA5Ny4yLTc4LjggMTc2LTE3NiAxNzZ6TTAgMzIwQzAgNDI2IDg2IDUxMiAxOTIgNTEyczE5Mi04NiAxOTItMTkyYzAtOTEuMi0xMzAuMi0yNjIuMy0xNjYuNi0zMDguM0MyMTEuNCA0LjIgMjAyLjUgMCAxOTIuOSAwbC0xLjggMGMtOS42IDAtMTguNSA0LjItMjQuNSAxMS43QzEzMC4yIDU3LjcgMCAyMjguOCAwIDMyMHptMTA0IDBjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhjMCA1Ny40IDQ2LjYgMTA0IDEwNCAxMDRjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThjLTQ4LjYgMC04OC0zOS40LTg4LTg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/droplet.svg)
  */
 const Droplet: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

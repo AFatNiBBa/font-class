@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hammer` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer?s=sharp-light hammer}
- * @preview ![hammer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA0IDEzNmwtMjIuNi0yMi42TDQwNS41IDM3LjVDMzgxLjUgMTMuNSAzNDguOSAwIDMxNSAwTDI5MS41IDBjLTIzLjIgMC00NiA2LjMtNjUuOSAxOC4yTDIwOC41IDI4LjUgMTc2IDQ4bDMzLjkgMTdMMjcyIDk2bDAgNDggODkuNCA4OS40TDM4NCAyNTZsMTYtMTYgMjIuNiAyMi42IDI2LjcgMjYuNyAzLjMgMy4zLTE2IDE2IDIyLjYgMjIuNiAxMTItMTEyLTIyLjYtMjIuNi04IDgtMy4zLTMuMy0yNi43LTI2LjdMNDg4IDE1MmwxNi0xNnptLTQ1LjMgMGwtMTYgMTYgMjIuNiAyMi42TDUxNC43IDIyNCA0NzIgMjY2LjdsLTQ5LjQtNDkuNEw0MDAgMTk0LjdsLTE2IDE2LTgwLTgwTDMwNCA5NmwwLTE5LjgtMTcuNy04LjhMMjQyLjUgNDUuNGMxNC44LTguOCAzMS44LTEzLjQgNDktMTMuNEwzMTUgMzJjMjUuNSAwIDQ5LjkgMTAuMSA2Ny45IDI4LjFMNDU4LjcgMTM2ek0yNCAzOTQuN0wwIDQxNmwyMi43IDIyLjcgNTAuNyA1MC43TDk2IDUxMmwyMS4zLTI0TDMzMC43IDI0OCAzMDggMjI1LjMgOTQuNiA0NjUuNGwtNDgtNDhMMjg2LjcgMjA0IDI2NCAxODEuMyAyNCAzOTQuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hammer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hammer.svg)
  */
 const Hammer: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

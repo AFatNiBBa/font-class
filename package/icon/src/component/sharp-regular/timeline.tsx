@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `timeline` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timeline?s=sharp-regular timeline}
- * @preview ![timeline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDY0bDAgNjQtOCAwLTQ4IDAtOCAwIDAtNjQgNjQgMHptLTggMTEybDggMCA0OCAwIDAtNDggMC02NCAwLTQ4LTQ4IDBMOTYgMTYgNDggMTZsMCA0OCAwIDY0IDAgNDggNDggMCA4IDAgMCA1Ni04MCAwTDAgMjMybDAgNDggMjQgMCAyNzIgMCAwIDU2LTggMC00OCAwIDAgNDggMCA2NCAwIDQ4IDQ4IDAgNjQgMCA0OCAwIDAtNDggMC02NCAwLTQ4LTQ4IDAtOCAwIDAtNTYgMjcyIDAgMjQgMCAwLTQ4LTI0IDAtODAgMCAwLTU2IDggMCA0OCAwIDAtNDggMC02NCAwLTQ4LTQ4IDAtNjQgMC00OCAwIDAgNDggMCA2NCAwIDQ4IDQ4IDAgOCAwIDAgNTYtMzM2IDAgMC01NnpNMzQ0IDM4NGw4IDAgMCA2NC02NCAwIDAtNjQgOCAwIDQ4IDB6TTQ4MCA2NGw2NCAwIDAgNjQtNjQgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![timeline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/timeline.svg)
  */
 const Timeline: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

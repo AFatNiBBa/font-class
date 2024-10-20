@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bone` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bone?s=sharp-solid bone}
- * @preview ![bone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ5LjMgMTM2QzEyNy4yIDk3LjcgNzguMyA4NC42IDQwIDEwNi43Uy0xMS40IDE3Ny43IDEwLjcgMjE2YzguOSAxNS40IDIyLjEgMjYuNyAzNy4zIDMzLjNsMCAxMy4zYy0xNS4xIDYuNi0yOC40IDE3LjktMzcuMyAzMy4zYy0yMi4xIDM4LjMtOSA4Ny4yIDI5LjMgMTA5LjNzODcuMiA5IDEwOS4zLTI5LjNsMjMuMS00MCAyMzEuMiAwIDIzLjEgNDBjMjIuMSAzOC4zIDcxIDUxLjQgMTA5LjMgMjkuM3M1MS40LTcxIDI5LjMtMTA5LjNjLTguOS0xNS40LTIyLjEtMjYuNy0zNy4zLTMzLjNsMC0xMy4zYzE1LjEtNi42IDI4LjQtMTcuOSAzNy4zLTMzLjNjMjIuMS0zOC4zIDktODcuMi0yOS4zLTEwOS4zcy04Ny4yLTktMTA5LjMgMjkuM2wtMjMuMSA0MC0yMzEuMiAwLTIzLjEtNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bone.svg)
  */
 const Bone: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

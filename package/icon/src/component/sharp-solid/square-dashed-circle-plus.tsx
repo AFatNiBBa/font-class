@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-dashed-circle-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dashed-circle-plus?s=sharp-solid square-dashed-circle-plus}
- * @preview ![square-dashed-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJMMCAzMiAwIDY0bDAgOTYgNjQgMCAwLTY0IDY0IDAgMC02NEwzMiAzMnpNMCAxOTJMMCAzMjBsNjQgMCAwLTEyOEwwIDE5MnpNMCAzNTJsMCA5NiAwIDMyIDMyIDAgOTYgMCAwLTY0LTY0IDAgMC02NEwwIDM1MnpNNDMyIDE5MmM1LjQgMCAxMC43IC4yIDE2IC43TDQ0OCA2NGwwLTMyLTMyIDAtOTYgMCAwIDY0IDY0IDAgMCAxMDIuNmMxNS4zLTQuMyAzMS40LTYuNiA0OC02LjZ6TTI2Mi42IDQxNkwxNjAgNDE2bDAgNjQgMTM2LjIgMGMtMTUuMy0xOC41LTI2LjktNDAuMi0zMy42LTY0ek0xNjAgOTZsMTI4IDAgMC02NEwxNjAgMzJsMCA2NHpNNDMyIDUxMmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6bTE2LTIwOGwwIDQ4IDQ4IDAgMTYgMCAwIDMyLTE2IDAtNDggMCAwIDQ4IDAgMTYtMzIgMCAwLTE2IDAtNDgtNDggMC0xNiAwIDAtMzIgMTYgMCA0OCAwIDAtNDggMC0xNiAzMiAwIDAgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-dashed-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-dashed-circle-plus.svg)
  */
 const SquareDashedCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

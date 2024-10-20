@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-to-dot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-dot?s=sharp-regular arrows-to-dot}
- * @preview ![arrows-to-dot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDI0bDAtMjRMMjMyIDBsMCAyNCAwIDg2LjFMMjAxIDc5bC0xNy0xN0wxNTAuMSA5NmwxNyAxNyA3MiA3MiAxNyAxNyAxNy0xNyA3Mi03MiAxNy0xN0wzMjggNjIuMSAzMTEgNzlsLTMxIDMxTDI4MCAyNHpNNDE2IDM2MS45TDQ0OS45IDMyOGwtMTctMTctMzEtMzEgODYuMSAwIDI0IDAgMC00OC0yNCAwLTg2LjEgMCAzMS0zMSAxNy0xN0w0MTYgMTUwLjFsLTE3IDE3LTcyIDcyLTE3IDE3IDE3IDE3IDcyIDcyIDE3IDE3ek0yODggMjU2YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6TTExMyAxNjdsLTE3LTE3TDYyLjEgMTg0bDE3IDE3IDMxIDMxTDI0IDIzMiAwIDIzMmwwIDQ4IDI0IDAgODYuMSAwTDc5IDMxMWwtMTcgMTdMOTYgMzYxLjlsMTctMTcgNzItNzIgMTctMTctMTctMTctNzItNzJ6bTM3LjEgMjQ5TDE4NCA0NDkuOWwxNy0xNyAzMS0zMSAwIDg2LjEgMCAyNCA0OCAwIDAtMjQgMC04Ni4xIDMxIDMxIDE3IDE3TDM2MS45IDQxNmwtMTctMTctNzItNzItMTctMTctMTcgMTctNzIgNzItMTcgMTd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrows-to-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrows-to-dot.svg)
  */
 const ArrowsToDot: typeof Icon = x => (
     <Icon {...x}>

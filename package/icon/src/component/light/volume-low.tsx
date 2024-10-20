@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume-low` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-low?s=light volume-low}
- * @preview ![volume-low](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUxLjYgMTg4TDI4OCA2Ni43bDAgMzc4LjZMMTUxLjYgMzI0Yy0yLjktMi42LTYuNy00LTEwLjYtNGwtODUgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC04MGMwLTEzLjMgMTAuNy0yNCAyNC0yNGw4NSAwYzMuOSAwIDcuNy0xLjQgMTAuNi00ek0yOTAuMiAzMmMtNy4zIDAtMTQuMyAyLjctMTkuOCA3LjVMMTM0LjkgMTYwIDU2IDE2MGMtMzAuOSAwLTU2IDI1LjEtNTYgNTZsMCA4MGMwIDMwLjkgMjUuMSA1NiA1NiA1Nmw3OC45IDBMMjcwLjQgNDcyLjVsMTAuNi0xMi0xMC42IDEyYzUuNSA0LjggMTIuNSA3LjUgMTkuOCA3LjVjMTYuNSAwIDI5LjgtMTMuMyAyOS44LTI5LjhsMC0zODguNEMzMjAgNDUuMyAzMDYuNyAzMiAyOTAuMiAzMnpNNDA5LjYgMTc5LjJjLTcuMS01LjMtMTcuMS0zLjktMjIuNCAzLjJzLTMuOSAxNy4xIDMuMiAyMi40QzQwNiAyMTYuNSA0MTYgMjM1LjEgNDE2IDI1NnMtMTAgMzkuNS0yNS42IDUxLjJjLTcuMSA1LjMtOC41IDE1LjMtMy4yIDIyLjRzMTUuMyA4LjUgMjIuNCAzLjJDNDMyLjkgMzE1LjMgNDQ4IDI4Ny40IDQ0OCAyNTZzLTE1LjEtNTkuMy0zOC40LTc2Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![volume-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/volume-low.svg)
  */
 const VolumeLow: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

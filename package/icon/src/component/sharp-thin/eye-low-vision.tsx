@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eye-low-vision` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-low-vision?s=sharp-thin eye-low-vision}
- * @preview ![eye-low-vision](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOS45IDBsNi4zIDVMNjMzLjcgNDk0LjVsNi4zIDVMNjMwLjEgNTEybC02LjMtNUw2LjMgMTcuNSAwIDEyLjUgOS45IDB6TTU3NiAyNTZDNTQ2IDE4MS4zIDQ0Ni40IDMyIDI4OCAzMmMtMzguOCAwLTc0LjEgOS0xMDUuNyAyMy42bDE0LjIgMTEuMkMyMjQuMyA1NSAyNTQuOCA0OCAyODggNDhjNzMuOCAwIDEzNC41IDM0LjcgMTgxIDc5LjVjNDQuMSA0Mi41IDc0LjQgOTMuMSA4OS42IDEyOC41Yy04LjIgMTkuMS0yMC44IDQyLjctMzcuNyA2N2wxMi42IDkuOWMxOS42LTI4LjIgMzMuOC01NS42IDQyLjQtNzYuOXpNMCAyNTZzMCAwIDAgMHMwIDAgMCAwczAgMCAwIDB6TTI5NC42IDE0NC4yYzQ3LjcgMi44IDg3LjQgMzUuNCAxMDAuNyA3OS41bC0yOC40LTIyLjRjLTEwLjgtMTUuNi0yNi4xLTI3LjgtNDQtMzQuOGwtMjguMy0yMi4zek0xMDEgMTY5LjhsMzIwIDI1NiA2LjIgNS0xMCAxMi41LTYuMi01TDkxIDE4Mi4ybC02LjItNSAxMC0xMi41IDYuMiA1em0tMjIuMiA2N2w2LjIgNSAyNTAgMjAwIDYuMiA1LTEwIDEyLjUtNi4yLTVMNzUgMjU0LjJsLTYuMi01IDEwLTEyLjV6TTEwMSAzNDIuNmwxMjQgOTkuMiA2LjIgNS0xMCAxMi41LTYuMi01TDkxIDM1NWwtNi4yLTUgMTAtMTIuNSA2LjIgNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![eye-low-vision](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/eye-low-vision.svg)
  */
 const EyeLowVision: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

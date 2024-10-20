@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-plow` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-plow?s=solid truck-plow}
- * @preview ![truck-plow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDk2bDAgOTYgMTM1LjUgMEwyNjkuOSA5NiAxOTIgOTZ6bS02NCA5NmwwLTExMmMwLTI2LjUgMjEuNS00OCA0OC00OGw5My45IDBjMjIuNSAwIDQzLjMgMTEuOCA1NC45IDMxLjFMNDAyLjEgMTkybDQ1LjkgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0IDMyIDAgMC0xMTJjMC03LjMgMi41LTE0LjMgNy0yMGw2NC04MGMxMS0xMy44IDMxLjItMTYgNDUtNXMxNiAzMS4yIDUgNDVsLTU3IDcxLjJMNTc2IDMyMGwwIDM2LjhMNjMzIDQyOGMxMSAxMy44IDguOCAzMy45LTUgNDVzLTMzLjkgOC44LTQ1LTVsLTY0LTgwYy00LjUtNS43LTctMTIuNy03LTIwbDAtMTYtMzcuNSAwYzMuNSAxMCA1LjUgMjAuOCA1LjUgMzJjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZjMC0xMS4yIDEuOS0yMiA1LjUtMzJMMjI0IDM1MmMtMS45IDAtMy44LS4yLTUuNi0uNWMzLjcgMTAuMiA1LjYgMjEuMSA1LjYgMzIuNWMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmMwLTExLjIgMS45LTIyIDUuNS0zMkwzMiAzNTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtOTZjMC0xNy43IDE0LjMtMzIgMzItMzJsOTYgMHptMzIgMTkyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTI1NiAwYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![truck-plow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/truck-plow.svg)
  */
 const TruckPlow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

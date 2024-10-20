@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-slash?s=sharp-thin battery-slash}
- * @preview ![battery-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1em0zNzAgMzk1TDQ4IDQwMGwwLTI2N0wzMiAxMjAuNCAzMiA0MDBsMCAxNiAxNiAwIDM1OC41IDAtMjAuMy0xNnpNNTQ0IDk2TDIzMy41IDk2bDIwLjMgMTZMNTQ0IDExMmwwIDgwIDAgMTYgMCA5NiAwIDE2IDAgMjEuMSAxNiAxMi42IDAtMzMuNyAzMiAwIDE2IDAgMC0xNiAwLTk2IDAtMTYtMTYgMC0zMiAwIDAtODAgMC0xNi0xNiAwem0xNiAxMTJsMzIgMCAwIDk2LTMyIDAgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![battery-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/battery-slash.svg)
  */
 const BatterySlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

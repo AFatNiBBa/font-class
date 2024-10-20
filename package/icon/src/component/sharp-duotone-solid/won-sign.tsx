@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `won-sign` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/won-sign?s=sharp-duotone-solid won-sign}
- * @preview ![won-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIyNGwwIDY0IDMyIDAgNDIuMyAwTDU2LjYgMjI0IDMyIDIyNCAwIDIyNHptMTIzIDBjNS45IDIxLjMgMTEuOSA0Mi43IDE3LjggNjRsMjQuNyAwIDE1LjMtNjRMMTIzIDIyNHptMTA4LjIgNjRsNDkuNSAwYy01LjEtMjEuMy0xMC4yLTQyLjctMTUuMy02NGwtMTguOSAwLTE1LjMgNjR6bTEwMC02NGM1LjEgMjEuMyAxMC4yIDQyLjcgMTUuMyA2NGwyNC43IDBjNS45LTIxLjMgMTEuOS00Mi43IDE3LjgtNjRsLTU3LjggMHptMTA2LjQgNjRsNDIuMyAwIDMyIDAgMC02NC0zMiAwLTI0LjYgMC0xNy44IDY0eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMy4yIDMyTDEyMS4yIDQ1Ni42bDYuNSAyMy40IDI0LjMgMCA4IDAgMjUuMiAwIDUuOS0yNC41TDI1NiAxODQuN2w2NC45IDI3MC44IDUuOSAyNC41IDI1LjIgMCA4IDAgMjQuMyAwIDYuNS0yMy40TDUwOC44IDMybC02Ni40IDBMMzU4IDMzNS43IDI5MS4xIDU2LjUgMjg1LjIgMzIgMjYwIDMybC04IDAtMjUuMiAwLTUuOSAyNC41TDE1NCAzMzUuNyA2OS43IDMyIDMuMiAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![won-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/won-sign.svg)
  */
 const WonSign: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 224l0 64 32 0 42.3 0L56.6 224 32 224 0 224zm123 0c5.9 21.3 11.9 42.7 17.8 64l24.7 0 15.3-64L123 224zm108.2 64l49.5 0c-5.1-21.3-10.2-42.7-15.3-64l-18.9 0-15.3 64zm100-64c5.1 21.3 10.2 42.7 15.3 64l24.7 0c5.9-21.3 11.9-42.7 17.8-64l-57.8 0zm106.4 64l42.3 0 32 0 0-64-32 0-24.6 0-17.8 64z" />
-            <path d="M3.2 32L121.2 456.6l6.5 23.4 24.3 0 8 0 25.2 0 5.9-24.5L256 184.7l64.9 270.8 5.9 24.5 25.2 0 8 0 24.3 0 6.5-23.4L508.8 32l-66.4 0L358 335.7 291.1 56.5 285.2 32 260 32l-8 0-25.2 0-5.9 24.5L154 335.7 69.7 32 3.2 32z" />
+        <path d="M3.2 32L121.2 456.6l6.5 23.4 24.3 0 8 0 25.2 0 5.9-24.5L256 184.7l64.9 270.8 5.9 24.5 25.2 0 8 0 24.3 0 6.5-23.4L508.8 32l-66.4 0L358 335.7 291.1 56.5 285.2 32 260 32l-8 0-25.2 0-5.9 24.5L154 335.7 69.7 32 3.2 32z" />
     </Icon>
 );
 

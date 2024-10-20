@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-ruler` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-ruler?s=solid pen-ruler}
- * @preview ![pen-ruler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY5LjMgMTkuM2wyMy40IDIzLjRjMjUgMjUgMjUgNjUuNSAwIDkwLjVsLTU2LjQgNTYuNEwzMjIuMyA3NS43bDU2LjQtNTYuNGMyNS0yNSA2NS41LTI1IDkwLjUgMHpNNDQuOSAzNTMuMkwyOTkuNyA5OC4zIDQxMy43IDIxMi4zIDE1OC44IDQ2Ny4xYy02LjcgNi43LTE1LjEgMTEuNi0yNC4yIDE0LjJsLTEwNCAyOS43Yy04LjQgMi40LTE3LjQgLjEtMjMuNi02LjFzLTguNS0xNS4yLTYuMS0yMy42bDI5LjctMTA0YzIuNi05LjIgNy41LTE3LjUgMTQuMi0yNC4yek0yNDkuNCAxMDMuNEwxMDMuNCAyNDkuNCAxNiAxNjEuOWMtMTguNy0xOC43LTE4LjctNDkuMSAwLTY3LjlMOTQuMSAxNmMxOC43LTE4LjcgNDkuMS0xOC43IDY3LjkgMGwxOS44IDE5LjhjLS4zIC4zLS43IC42LTEgLjlsLTY0IDY0Yy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNnMxNi40IDYuMiAyMi42IDBsNjQtNjRjLjMtLjMgLjYtLjcgLjktMWw0NS4xIDQ1LjF6TTQwOC42IDI2Mi42bDQ1LjEgNDUuMWMtLjMgLjMtLjcgLjYtMSAuOWwtNjQgNjRjLTYuMiA2LjItNi4yIDE2LjQgMCAyMi42czE2LjQgNi4yIDIyLjYgMGw2NC02NGMuMy0uMyAuNi0uNyAuOS0xTDQ5NiAzNTAuMWMxOC43IDE4LjcgMTguNyA0OS4xIDAgNjcuOUw0MTcuOSA0OTZjLTE4LjcgMTguNy00OS4xIDE4LjctNjcuOSAwbC04Ny40LTg3LjRMNDA4LjYgMjYyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pen-ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pen-ruler.svg)
  */
 const PenRuler: typeof Icon = x => (
     <Icon {...x}>

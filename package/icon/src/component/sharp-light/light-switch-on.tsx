@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `light-switch-on` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-switch-on?s=sharp-light light-switch-on}
- * @preview ![light-switch-on](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDQ4bDAtMTZMMzIgMzJsMCA0NDggMTQ0IDAgMC0xNiAwLTE2IDMyIDAgMCAxNiAwIDE2IDE0NCAwIDAtNDQ4TDIwOCAzMmwwIDE2IDAgMTYtMzIgMCAwLTE2ek0wIDBMMzIgMCAzNTIgMGwzMiAwIDAgMzIgMCA0NDggMCAzMi0zMiAwTDMyIDUxMiAwIDUxMmwwLTMyTDAgMzIgMCAwek05NiAyNDBsMC0xMTIgMC0zMiAzMiAwIDEyOCAwIDMyIDAgMCAzMiAwIDExMiAwIDMyIDAgMTEyIDAgMzItMzIgMC0xMjggMC0zMiAwIDAtMzIgMC0xMTIgMC0zMnptMzIgMzJsMCAxMTIgMTI4IDAgMC0xMTItMTI4IDB6bTAtMzJsMTI4IDAgMC0xMTItMTI4IDAgMCAxMTJ6bTQ4LTcybDMyIDAgMTYgMCAwIDMyLTE2IDAtMzIgMC0xNiAwIDAtMzIgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![light-switch-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/light-switch-on.svg)
  */
 const LightSwitchOn: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

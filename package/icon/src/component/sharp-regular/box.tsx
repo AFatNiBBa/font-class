@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box?s=sharp-regular box}
- * @preview ![box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTkuNiAxNjBMOTUuMiA4MCAyMDAgODBsMCA4MEw1OS42IDE2MHpNMjQ4IDE2MGwwLTgwIDEwNC44IDAgMzUuNiA4MEwyNDggMTYwem0xNTIgNDhsMCAyMjRMNDggNDMybDAtMjI0IDM1MiAwek0zODQgMzJMNjQgMzIgMCAxNzYgMCA0MzJsMCA0OCA0OCAwIDM1MiAwIDQ4IDAgMC00OCAwLTI1NkwzODQgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/box.svg)
  */
 const Box: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

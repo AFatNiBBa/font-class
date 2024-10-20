@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pipe-collar` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-collar?s=sharp-solid pipe-collar}
- * @preview ![pipe-collar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI1NmMwIDQ2LjQtMTIuMyA4OS44LTMzLjkgMTI3LjRsMzMuMiAzMi4xTDUxMiA1MTJsLTk2LjYtLjctMzIuMS0zMy4yQzM0NS44IDQ5OS43IDMwMi40IDUxMiAyNTYgNTEyYy00Ni41IDAtOTAuMi0xMi40LTEyNy44LTM0LjFMOTUuOSA1MTEuMyAwIDUxMS4zbDAtOTUuOSAzMy42LTMyLjVDMTIuMiAzNDUuNSAwIDMwMi4yIDAgMjU2YzAtNDYuNCAxMi4zLTg5LjkgMzMuOS0xMjcuNEwwIDk1LjkgMCAwIDk1LjkgMGwzMi44IDMzLjlDMTY2LjEgMTIuMyAyMDkuNiAwIDI1NiAwYzQ2LjIgMCA4OS41IDEyLjIgMTI2LjkgMzMuNkw0MTUuNCAwbDk1LjkgMCAwIDk1LjktMzMuNCAzMi4zQzQ5OS42IDE2NS44IDUxMiAyMDkuNSA1MTIgMjU2ek02NCA4MGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6TTI1NiA0MTZhMTYwIDE2MCAwIDEgMCAwLTMyMCAxNjAgMTYwIDAgMSAwIDAgMzIwek04MCA0NDhhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHpNNDQ4IDgwYTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnptMTYgMzY4YTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pipe-collar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pipe-collar.svg)
  */
 const PipeCollar: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-middle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-middle?s=regular comment-middle}
- * @preview ![comment-middle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMxLjMgMzg3LjJMMjU2IDQzNi43bDI0LjctNDkuNWM2LjUtMTIuOSAxOC40LTIyLjMgMzIuNS0yNS40QzQwNyAzNDEgNDY0IDI3NC43IDQ2NCAyMDhjMC03OS41LTgzLjMtMTYwLTIwOC0xNjBTNDggMTI4LjUgNDggMjA4YzAgNjYuNyA1NyAxMzMgMTUwLjcgMTUzLjhjMTQuMSAzLjEgMjYuMSAxMi41IDMyLjUgMjUuNHptOTIuNCAyMS41bC00NC41IDg5Yy00LjQgOC44LTEzLjMgMTQuMy0yMy4yIDE0LjNzLTE4LjgtNS41LTIzLjItMTQuM2wtNDQuNS04OUM3OS44IDM4NC41IDAgMzAzLjggMCAyMDhDMCA5My4xIDExNC42IDAgMjU2IDBTNTEyIDkzLjEgNTEyIDIwOGMwIDk1LjgtNzkuOCAxNzYuNS0xODguMyAyMDAuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![comment-middle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/comment-middle.svg)
  */
 const CommentMiddle: typeof Icon = x => (
     <Icon {...x}>

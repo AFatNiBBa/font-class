@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `periscope` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/periscope?s=brands periscope}
- * @preview ![periscope](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzcwIDYzLjZDMzMxLjQgMjIuNiAyODAuNSAwIDIyNi42IDAgMTExLjkgMCAxOC41IDk2LjIgMTguNSAyMTQuNGMwIDc1LjEgNTcuOCAxNTkuOCA4Mi43IDE5Mi43QzEzNy44IDQ1NS41IDE5Mi42IDUxMiAyMjYuNiA1MTJjNDEuNiAwIDExMi45LTk0LjIgMTIwLjktMTA1IDI0LjYtMzMuMSA4Mi0xMTguMyA4Mi0xOTIuNiAwLTU2LjUtMjEuMS0xMTAuMS01OS41LTE1MC44ek0yMjYuNiA0OTMuOWMtNDIuNSAwLTE5MC0xNjcuMy0xOTAtMjc5LjQgMC0xMDcuNCA4My45LTE5Ni4zIDE5MC0xOTYuMyAxMDAuOCAwIDE4NC43IDg5IDE4NC43IDE5Ni4zLjEgMTEyLjEtMTQ3LjQgMjc5LjQtMTg0LjcgMjc5LjR6TTMzOCAyMDYuOGMwIDU5LjEtNTEuMSAxMDkuNy0xMTAuOCAxMDkuNy0xMDAuNiAwLTE1MC43LTEwOC4yLTkyLjktMTgxLjh2LjRjMCAyNC41IDIwLjEgNDQuNCA0NC44IDQ0LjQgMjQuNyAwIDQ0LjgtMTkuOSA0NC44LTQ0LjQgMC0xOC4yLTExLjEtMzMuOC0yNi45LTQwLjcgNzYuNi0xOS4yIDE0MSAzOS4zIDE0MSAxMTIuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![periscope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/periscope.svg)
  */
 const Periscope: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

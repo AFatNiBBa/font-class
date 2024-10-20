@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hill-rockslide` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hill-rockslide?s=regular hill-rockslide}
- * @preview ![hill-rockslide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDY0YTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6bTEyNC40IDcxLjhjLTIuNy00LjktMi43LTEwLjggMC0xNS43bDI3LTQ4YzIuOC01IDguMi04LjIgMTMuOS04LjJsNTMuMyAwYzUuOCAwIDExLjEgMy4xIDEzLjkgOC4ybDI3IDQ4YzIuNyA0LjkgMi43IDEwLjggMCAxNS43bC0yNyA0OGMtMi44IDUtOC4yIDguMi0xMy45IDguMmwtNTMuMyAwYy01LjggMC0xMS4xLTMuMS0xMy45LTguMmwtMjctNDh6TTQ4IDE0NS45TDQ4IDQ0MGMwIDEzLjMgMTAuNyAyNCAyNCAyNGwyOTQuMSAwTDQ4IDE0NS45ek0wIDEyNi42QzAgOTEgNDMuMSA3My4xIDY4LjMgOTguM0w0MTMuNyA0NDMuN2MyNS4yIDI1LjIgNy40IDY4LjMtMjguMyA2OC4zTDcyIDUxMmMtMzkuOCAwLTcyLTMyLjItNzItNzJMMCAxMjYuNnptNTA0LjIgMjc3bC00OC0yN2MtNS0yLjgtOC4yLTguMi04LjItMTMuOWwwLTUzLjNjMC01LjggMy4xLTExLjEgOC4yLTEzLjlsNDgtMjdjNC45LTIuNyAxMC44LTIuNyAxNS43IDBsNDggMjdjNSAyLjggOC4yIDguMiA4LjIgMTMuOWwwIDUzLjNjMCA1LjgtMy4xIDExLjEtOC4yIDEzLjlsLTQ4IDI3Yy00LjkgMi43LTEwLjggMi43LTE1LjcgMHpNMzUyIDI1NmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hill-rockslide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hill-rockslide.svg)
  */
 const HillRockslide: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

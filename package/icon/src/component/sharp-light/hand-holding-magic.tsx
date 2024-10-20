@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-holding-magic` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-magic?s=sharp-light hand-holding-magic}
- * @preview ![hand-holding-magic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDgwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDgwIDAgMTYgMCAwIDMyLTE2IDAtODAgMGMtNDQuMiAwLTgwLTM1LjgtODAtODBzMzUuOC04MCA4MC04MEwzMjggMGM2Ni4zIDAgMTIwIDUzLjcgMTIwIDEyMHMtNTMuNyAxMjAtMTIwIDEyMGwtNTYgMCAwIDI0IDAgMTYtMzIgMCAwLTE2IDAtNDAgMC0xNiAxNiAwIDcyIDBjNDguNiAwIDg4LTM5LjQgODgtODhzLTM5LjQtODgtODgtODhMMjA4IDMyYy0yNi41IDAtNDggMjEuNS00OCA0OHptMTEuMiAyMjRsNC44IDAgMjA4IDAgMTYgMCAwIDE2IDAgNjQgLjIgMCAxMDMuNi02MS43IDEzLjUtOCA4LjMgMTMuMyA0MCA2NEw1NzQgNDA1bC0xMy41IDguNS0xNTIgOTYtMy45IDIuNS00LjYgMEwxNiA1MTIgMCA1MTJsMC0zMiAxNiAwIDM3OS40IDBMNTMwIDM5NWwtMjMuMy0zNy4yLTk0IDU2TDQwOSA0MTZsLTQuNCAwLTQuNiAwLTE2IDAtNjQgMC0xNiAwLTQ4IDAtMTYgMCAwLTMyIDE2IDAgNDggMCAxNiAwIDQ4IDAgMC00OC0xODcuMiAwLTkyIDYxLjMtNCAyLjdMODAgNDAwbC02NCAwTDAgNDAwbDAtMzIgMTYgMCA1OS4yIDAgOTItNjEuMyA0LTIuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-holding-magic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hand-holding-magic.svg)
  */
 const HandHoldingMagic: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

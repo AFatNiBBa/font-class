@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-terminal` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-terminal?s=regular rectangle-terminal}
- * @preview ![rectangle-terminal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDgwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyMGMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDMyYy04LjggMC0xNi03LjItMTYtMTZMNDggOTZjMC04LjggNy4yLTE2IDE2LTE2bDM4NCAwek02NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyem0zOC4zIDExOS44Yy05IDkuOC04LjMgMjUgMS41IDMzLjlMMTgwLjUgMjU2bC03Ni43IDcwLjNjLTkuOCA5LTEwLjQgMjQuMS0xLjUgMzMuOXMyNC4xIDEwLjQgMzMuOSAxLjVsOTYtODhjNS00LjUgNy44LTExIDcuOC0xNy43cy0yLjgtMTMuMS03LjgtMTcuN2wtOTYtODhjLTkuOC05LTI1LTguMy0zMy45IDEuNXpNMjQ4IDMzNmMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwxNDQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMTQ0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rectangle-terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/rectangle-terminal.svg)
  */
 const RectangleTerminal: typeof Icon = x => (
     <Icon {...x}>

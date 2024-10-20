@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `list-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-check?s=sharp-solid list-check}
- * @preview ![list-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY5LjkgNTQuMkwxNTMuOCA3Mi4xbC03MiA4MEw2NC45IDE3MC45IDQ3IDE1MyA3IDExM2wtMTctMTdMMjQgNjIuMSA0MSA3OWwyMi4xIDIyLjEgNTUuMS02MS4yIDE2LjEtMTcuOCAzNS43IDMyLjF6bTAgMTYwbC0xNi4xIDE3LjgtNzIgODBMNjQuOSAzMzAuOSA0NyAzMTMgNyAyNzNsLTE3LTE3TDI0IDIyMi4xbDE3IDE3IDIyLjEgMjIuMSA1NS4xLTYxLjIgMTYuMS0xNy44IDM1LjcgMzIuMXpNMjI0IDY0bDMyIDAgMjI0IDAgMzIgMCAwIDY0LTMyIDAtMjI0IDAtMzIgMCAwLTY0em0wIDE2MGwzMiAwIDIyNCAwIDMyIDAgMCA2NC0zMiAwLTIyNCAwLTMyIDAgMC02NHpNMTYwIDM4NGwzMiAwIDI4OCAwIDMyIDAgMCA2NC0zMiAwLTI4OCAwLTMyIDAgMC02NHpNNDggMzY4YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![list-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/list-check.svg)
  */
 const ListCheck: typeof Icon = x => (
     <Icon {...x}>

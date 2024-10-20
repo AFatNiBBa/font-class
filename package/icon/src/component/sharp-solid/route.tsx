@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `route` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/route?s=sharp-solid route}
- * @preview ![route](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDI1NnM5Ni05NiA5Ni0xNjBjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZjMCAyOS40IDIwLjIgNjUuNSA0Mi4xIDk2TDI1NiAxOTJsLTMyIDAgMCAzMiAwIDEyOCAwIDMyIDMyIDAgMTkyIDAgMCA2NC0yNTkuNCAwYy02LjIgOS42LTEyLjYgMTguOC0xOSAyNy4yYy0xMC43IDE0LjItMjEuMyAyNi45LTMwIDM2LjhMNDgwIDUxMmwzMiAwIDAtMzIgMC0xMjggMC0zMi0zMiAwLTE5MiAwIDAtNjQgMTI4IDB6bTAtMTkyYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHpNMTQ5LjkgNDQ4YzIxLjktMzAuNSA0Mi4xLTY2LjYgNDIuMS05NmMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NmMwIDY0IDk2IDE2MCA5NiAxNjBzMy41LTMuNSA5LjItOS42Yy40LS40IC43LS44IDEuMS0xLjJjMy4zLTMuNSA3LjEtNy44IDExLjQtMTIuOGMuMi0uMiAuNC0uNCAuNi0uNmM5LjQtMTAuOCAyMC43LTI0LjYgMzEuNi0zOS44ek05NiAzMjBhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![route](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/route.svg)
  */
 const Route: typeof Icon = x => (
     <Icon {...x}>

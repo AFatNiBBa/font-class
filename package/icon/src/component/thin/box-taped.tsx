@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-taped` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-taped?s=thin box-taped}
- * @preview ![box-taped](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDQ4bDMgMEwyNzAgMTc2IDE3OCAxNzYgMjA1IDQ4bDMgMCA4IDAgMTYgMCA4IDB6TTE2MCAxOTJsMCA4MGMwIDE3LjcgMTQuMyAzMiAzMiAzMmw2NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtODAgMTYgMCAxMjggMCAwIDIyNGMwIDI2LjUtMjEuNSA0OC00OCA0OEw2NCA0NjRjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjI0IDEyOCAwIDE2IDB6bTExMiAwbDAgODBjMCA4LjgtNy4yIDE2LTE2IDE2bC02NCAwYy04LjggMC0xNi03LjItMTYtMTZsMC04MCA5NiAwem0zMi0xNmwtMTcuNyAwTDI1OS40IDQ4bDgzIDBjMTkgMCAzNi4yIDExLjIgNDMuOSAyOC41bDQxLjYgOTMuNmMuOSAxLjkgMS42IDMuOSAyLjIgNS45bC0xMjYgMHptLTE2MCAwTDE4IDE3NmMuNi0yIDEuMy00IDIuMi01LjlMNjEuNyA3Ni41QzY5LjQgNTkuMiA4Ni42IDQ4IDEwNS42IDQ4bDgzIDBMMTYxLjcgMTc2IDE0NCAxNzZ6TTI1NiAzMmwtNjQgMC04Ni40IDBDODAuMyAzMiA1Ny40IDQ2LjkgNDcuMSA3MEw1LjUgMTYzLjZjLTMuNiA4LjItNS41IDE3LTUuNSAyNkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTIyNi40YzAtOS0xLjktMTcuOC01LjUtMjZMNDAwLjkgNzBjLTEwLjMtMjMuMS0zMy4yLTM4LTU4LjUtMzhMMjU2IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![box-taped](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/box-taped.svg)
  */
 const BoxTaped: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

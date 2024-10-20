@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `badge-sheriff` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badge-sheriff?s=sharp-solid badge-sheriff}
- * @preview ![badge-sheriff](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDQ4YzAgMTQuOC02LjcgMjgtMTcuMiAzNi44TDI4OSAxNDMuNWw2NS45IC4zYzYuNy0xOC41IDI0LjQtMzEuNyA0NS4yLTMxLjdjMjYuNSAwIDQ4IDIxLjUgNDggNDhzLTIxLjUgNDgtNDggNDhjLTUuOSAwLTExLjYtMS4xLTE2LjktMy4xTDM1My45IDI1NmwyOS4yIDUxLjFjNS4zLTIgMTAuOS0zLjEgMTYuOS0zLjFjMjYuNSAwIDQ4IDIxLjUgNDggNDhzLTIxLjUgNDgtNDggNDhjLTIwLjggMC0zOC41LTEzLjItNDUuMi0zMS43bC02NS45IC4zLTM0LjIgNTguN2MxMC41IDguOCAxNy4yIDIyIDE3LjIgMzYuOGMwIDI2LjUtMjEuNSA0OC00OCA0OHMtNDgtMjEuNS00OC00OGMwLTE0LjggNi43LTI4IDE3LjItMzYuOEwxNTkgMzY4LjVsLTY1LjktLjNDODYuNSAzODYuOCA2OC44IDQwMCA0OCA0MDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4czIxLjUtNDggNDgtNDhjNS45IDAgMTEuNiAxLjEgMTYuOSAzLjFMOTQuMSAyNTYgNjQuOSAyMDQuOWMtNS4zIDItMTAuOSAzLjEtMTYuOSAzLjFjLTI2LjUgMC00OC0yMS41LTQ4LTQ4czIxLjUtNDggNDgtNDhjMjAuOCAwIDM4LjUgMTMuMiA0NS4yIDMxLjdsNjUuOS0uMyAzNC4yLTU4LjdDMTgyLjcgNzYgMTc2IDYyLjggMTc2IDQ4YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4czQ4IDIxLjUgNDggNDh6TTIyNCAzMzZsODAtODAtODAtODAtODAgODAgODAgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![badge-sheriff](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/badge-sheriff.svg)
  */
 const BadgeSheriff: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

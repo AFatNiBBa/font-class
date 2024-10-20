@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `text-width` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/text-width?s=sharp-light text-width}
- * @preview ![text-width](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJMMCAzMiAwIDQ4bDAgODAgMCAxNiAzMiAwIDAtMTYgMC02NCAxNzYgMCAwIDE5Mi00OCAwLTE2IDAgMCAzMiAxNiAwIDEyOCAwIDE2IDAgMC0zMi0xNiAwLTQ4IDAgMC0xOTIgMTc2IDAgMCA2NCAwIDE2IDMyIDAgMC0xNiAwLTgwIDAtMTYtMTYgMEwxNiAzMnpNMTIuNyAzNzIuN0wxLjQgMzg0bDExLjMgMTEuMyA4MCA4MCAyMi42LTIyLjZMNjIuNiA0MDBsMzIyLjcgMC01Mi43IDUyLjcgMjIuNiAyMi42IDgwLTgwTDQ0Ni42IDM4NGwtMTEuMy0xMS4zLTgwLTgwLTIyLjYgMjIuNkwzODUuNCAzNjggNjIuNiAzNjhsNTIuNy01Mi43TDkyLjcgMjkyLjdsLTgwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![text-width](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/text-width.svg)
  */
 const TextWidth: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

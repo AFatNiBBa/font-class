@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `narwhal` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/narwhal?s=sharp-light narwhal}
- * @preview ![narwhal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjM4LjYgMjIuNkw1NjIuNCAxOTAuMUM2MDkuMiAyMjEuNyA2NDAgMjc1LjMgNjQwIDMzNmMwIDk3LjItNzguOCAxNzYtMTc2IDE3NmwtMjI0IDBjLTYzLjcgMC0xMTguNy0zNy4yLTE0NC41LTkxLjFjLTcuOC0xNi4zLTEyLjktMzQuMS0xNC44LTUyLjljLS41LTUuMy0uOC0xMC42LS44LTE2bDAtODAgMC04TDAgMjI0bDAtOTIuMkwwIDk2bDMyIDE2IDY0IDMyIDY0LTMyIDMyLTE2IDAgMzUuOCAwIDkyLjItODAgNDAgMCA4IDAgNTUuNyAwIDI0LjMgMCAxNiAuOS0uN0wxNDQgMzQzLjUgMzIzLjUgMjA2LjJjMzkuMi0zMCA4Ny4yLTQ2LjIgMTM2LjYtNDYuMmwzLjkgMGMyNSAwIDQ4LjggNS4yIDcwLjMgMTQuNkw2MDkuNCA5LjRsMjkuMSAxMy4yek0yNDAgNDgwbDIyNCAwYzc5LjUgMCAxNDQtNjQuNSAxNDQtMTQ0cy02NC41LTE0NC0xNDQtMTQ0bC0zLjkgMGMtNDIuMyAwLTgzLjUgMTMuOS0xMTcuMSAzOS43TDEzMS40IDM5My40bC05LjggNy41YzE5LjIgNDYuNCA2NSA3OS4xIDExOC4zIDc5LjF6TTUwNCAyNzJhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4ek0xMTAuMyAxNzIuNkw5NiAxNzkuOGwtMTQuMy03LjJMMzIgMTQ3LjhsMCA1Ni40IDY0IDMyIDY0LTMyIDAtNTYuNC00OS43IDI0Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![narwhal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/narwhal.svg)
  */
 const Narwhal: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

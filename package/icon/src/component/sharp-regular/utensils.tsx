@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `utensils` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utensils?s=sharp-regular utensils}
- * @preview ![utensils](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOC4xIDE2NS4zTDI2LjUgMCA3NC44IDAgNTYgMTY5LjMgNTYgMTg0YzAgMjIuMSAxNy45IDQwIDQwIDQwbDggMCA0OCAwIDggMGMyMi4xIDAgNDAtMTcuOSA0MC00MGwwLTE0LjdMMTg0LjEgMjYuNyAxODEuMiAwbDQ4LjMgMCAyLjQgMjEuMyAxNiAxNDQgLjEgMS4zIDAgMS4zIDAgMTZjMCA0OC42LTM5LjQgODgtODggODhsLTggMCAwIDIxNiAwIDI0LTQ4IDAgMC0yNCAwLTIxNi04IDBjLTQ4LjYgMC04OC0zOS40LTg4LTg4bDAtMTYgMC0xLjMgLjEtMS4zek0xMDQgMjRsMC0yNCA0OCAwIDAgMjQgMCAxNDQgMCAyNC00OCAwIDAtMjQgMC0xNDR6TTMzNiAxNzZsMCAxMjggNjQgMCAwLTU2IDAtMjQgMC0xNjguOWMtNy4xIDMuNi0xNC45IDguNS0yMi42IDE1LjJDMzU3LjcgODcuNCAzMzYgMTE4LjMgMzM2IDE3NnptNjQgMTc2bC02NCAwLTQ4IDAgMC00OCAwLTEyOEMyODggNTcuMSAzNjQuNCAxNC41IDQwMCAzLjNDNDA3LjUgMSA0MTMuMiAwIDQxNiAwbDMyIDAgMCA0OCAwIDE3NiAwIDI0IDAgNTYgMCA0OCAwIDEzNiAwIDI0LTQ4IDAgMC0yNCAwLTEzNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![utensils](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/utensils.svg)
  */
 const Utensils: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-clock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-clock?s=sharp-light user-clock}
- * @preview ![user-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyYTk2IDk2IDAgMSAxIDAgMTkyIDk2IDk2IDAgMSAxIDAtMTkyek04Ny42IDMzNmwyMzUuMyAwYzItMTEuMSA1LjEtMjEuOCA5LjEtMzJMNjQgMzA0IDkuOCA0ODAgMCA1MTJsMzMuNSAwIDM2MS4zIDBjLTEyLjktOS4xLTI0LjUtMTkuOS0zNC42LTMyTDQzLjMgNDgwIDg3LjYgMzM2ek0zNTIgMTI4QTEyOCAxMjggMCAxIDAgOTYgMTI4YTEyOCAxMjggMCAxIDAgMjU2IDB6TTQ5NiAyNTZhMTEyIDExMiAwIDEgMSAwIDIyNCAxMTIgMTEyIDAgMSAxIDAtMjI0em0wIDI1NmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6bTE2LTIyNGwtMzIgMCAwIDE2IDAgNjQgMCAxNiAxNiAwIDQ4IDAgMTYgMCAwLTMyLTE2IDAtMzIgMCAwLTQ4IDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-clock.svg)
  */
 const UserClock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

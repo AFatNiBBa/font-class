@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `subscript` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subscript?s=duotone subscript}
- * @preview ![subscript](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk2QzAgNzguMyAxNC4zIDY0IDMyIDY0bDMyIDBjMTAuNCAwIDIwLjIgNS4xIDI2LjIgMTMuNkwxNzYgMjAwLjIgMjYxLjggNzcuNmM2LTguNiAxNS44LTEzLjYgMjYuMi0xMy42bDMyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTE1LjMgMEwyMTUuMSAyNTZsODkuNiAxMjggMTUuMyAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xMC40IDAtMjAuMi01LjEtMjYuMi0xMy42TDE3NiAzMTEuOCA5MC4yIDQzNC40Qzg0LjIgNDQyLjkgNzQuNCA0NDggNjQgNDQ4bC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDE1LjMgMCA4OS42LTEyOEw0Ny4zIDEyOCAzMiAxMjhDMTQuMyAxMjggMCAxMTMuNyAwIDk2eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDY0LjggMjkyLjhjOS40IDUuOCAxNS4yIDE2LjEgMTUuMiAyNy4ybDAgMTI4YzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0zMiAwLTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMC04MGMtMTEuNyAwLTIzLTYuNS0yOC42LTE3LjdjLTcuOS0xNS44LTEuNS0zNSAxNC4zLTQyLjlsMzItMTZjOS45LTUgMjEuNy00LjQgMzEuMSAxLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![subscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/subscript.svg)
  */
 const Subscript: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 96C0 78.3 14.3 64 32 64l32 0c10.4 0 20.2 5.1 26.2 13.6L176 200.2 261.8 77.6c6-8.6 15.8-13.6 26.2-13.6l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-15.3 0L215.1 256l89.6 128 15.3 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-10.4 0-20.2-5.1-26.2-13.6L176 311.8 90.2 434.4C84.2 442.9 74.4 448 64 448l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l15.3 0 89.6-128L47.3 128 32 128C14.3 128 0 113.7 0 96z" />
-            <path d="M464.8 292.8c9.4 5.8 15.2 16.1 15.2 27.2l0 128c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-80c-11.7 0-23-6.5-28.6-17.7c-7.9-15.8-1.5-35 14.3-42.9l32-16c9.9-5 21.7-4.4 31.1 1.4z" />
+        <path d="M464.8 292.8c9.4 5.8 15.2 16.1 15.2 27.2l0 128c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-80c-11.7 0-23-6.5-28.6-17.7c-7.9-15.8-1.5-35 14.3-42.9l32-16c9.9-5 21.7-4.4 31.1 1.4z" />
     </Icon>
 );
 

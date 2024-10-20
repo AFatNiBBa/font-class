@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-chart-column` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-chart-column?s=sharp-thin file-chart-column}
- * @preview ![file-chart-column](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2TDE2IDE2bDE5MiAwIDAgMTUyIDAgOCA4IDAgMTUyIDAgMCAzMjBMMTYgNDk2ek0yMjQgMjIuNkwzNjEuNCAxNjAgMjI0IDE2MGwwLTEzNy40ek0yMjQgMEwxNiAwIDAgMCAwIDE2IDAgNDk2bDAgMTYgMTYgMCAzNTIgMCAxNiAwIDAtMTYgMC0zMzZMMjI0IDB6TTE2OCAyMjRjLTQuNCAwLTggMy42LTggOGwwIDI0IDAgMTYwIDAgMjRjMCA0LjQgMy42IDggOCA4bDQ4IDBjNC40IDAgOC0zLjYgOC04bDAtMjQgMC0xNjAgMC0yNGMwLTQuNC0zLjYtOC04LThsLTQ4IDB6bTggMzJsMC0xNiAzMiAwIDAgMTYgMCAxNjAgMCAxNi0zMiAwIDAtMTYgMC0xNjB6bTg4IDMyYy00LjQgMC04IDMuNi04IDhsMCAyNCAwIDk2IDAgMjRjMCA0LjQgMy42IDggOCA4bDQ4IDBjNC40IDAgOC0zLjYgOC04bDAtMjQgMC05NiAwLTI0YzAtNC40LTMuNi04LTgtOGwtNDggMHptOCAzMmwwLTE2IDMyIDAgMCAxNiAwIDk2IDAgMTYtMzIgMCAwLTE2IDAtOTZ6TTcyIDM1MmMtNC40IDAtOCAzLjYtOCA4bDAgMjQgMCAzMiAwIDI0YzAgNC40IDMuNiA4IDggOGw0OCAwYzQuNCAwIDgtMy42IDgtOGwwLTI0IDAtMzIgMC0yNGMwLTQuNC0zLjYtOC04LThsLTQ4IDB6bTggMzJsMC0xNiAzMiAwIDAgMTYgMCAzMiAwIDE2LTMyIDAgMC0xNiAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-chart-column](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-chart-column.svg)
  */
 const FileChartColumn: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

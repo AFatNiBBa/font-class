@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-missed` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-missed?s=sharp-regular phone-missed}
- * @preview ![phone-missed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDBMMjMyIDBsMjQgMCAwIDQ4LTI0IDAtNTQuMSAwIDgwIDgwIDEwOC4xIDBMNDc1LjggMTguMmwxNy0xNyAzMy45IDMzLjktMTcgMTdMMzkzIDE2OWwtNyA3LTkuOSAwLTEyOCAwLTkuOSAwLTctNy04Ny04NyAwIDU0LjEgMCAyNC00OCAwIDAtMjRMOTYgMjQgOTYgMGwyNCAwek00MTYgNDY0bDAtODBjLTYyLjMtMjAuOC0xMjkuNy0yMC44LTE5MiAwbDAgODBMNjQgNTEyIDAgMzUyYzM3LjMtNDggMTUzLjYtMTQ0IDMyMC0xNDRzMjgyLjcgOTYgMzIwIDE0NEw1NzYgNTEyIDQxNiA0NjR6TTE3NiAzODRsMC0zNC42IDMyLjgtMTAuOWM3Mi4yLTI0LjEgMTUwLjItMjQuMSAyMjIuNCAwTDQ2NCAzNDkuNGwwIDM0LjYgMCA0NC4zIDgzLjcgMjUuMSAzNi42LTkxLjVDNTQwLjggMzE5LjEgNDQ2LjggMjU2IDMyMCAyNTZTOTkuMiAzMTkuMSA1NS42IDM2MS45bDM2LjYgOTEuNUwxNzYgNDI4LjNsMC00NC4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![phone-missed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/phone-missed.svg)
  */
 const PhoneMissed: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

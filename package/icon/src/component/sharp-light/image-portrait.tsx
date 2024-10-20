@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `image-portrait` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-portrait?s=sharp-light image-portrait}
- * @preview ![image-portrait](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMCA0NDggMzIwIDAgMC00NDhMMzIgMzJ6TTAgMEwzMiAwIDM1MiAwbDMyIDAgMCAzMiAwIDQ0OCAwIDMyLTMyIDBMMzIgNTEyIDAgNTEybDAtMzJMMCAzMiAwIDB6TTIyNCAxOTJhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHpNMTI0LjQgMzUybDEzNS4yIDAtMTAuNy0zMi0xMTMuOSAwLTEwLjcgMzJ6TTI3MiAyODhsMjEuMyA2NEwzMDQgMzg0bC0zMy43IDAtMTU2LjUgMEw4MCAzODRsMTAuNy0zMkwxMTIgMjg4bDgwIDAgODAgMHpNMTkyIDEyOGE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![image-portrait](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/image-portrait.svg)
  */
 const ImagePortrait: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

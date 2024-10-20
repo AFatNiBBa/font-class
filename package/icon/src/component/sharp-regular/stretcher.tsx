@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stretcher` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stretcher?s=sharp-regular stretcher}
- * @preview ![stretcher](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTIuOCA3OS43TDM2LjUgNjIuMSAxLjMgOTQuN2wxNi4zIDE3LjYgMTQwLjggMTUyIDcuMSA3LjcgMTAuNSAwIDQ0MCAwIDI0IDAgMC00OC0yNCAwLTQyOS41IDBMNTIuOCA3OS43ek0yNDEuMiAzMDRsODYgNjIuNS0zNy4zIDI3LjFjLTkuOC02LjEtMjEuNC05LjctMzMuOS05LjdjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NGMwLTUuMy0uNy0xMC41LTEuOS0xNS41TDM2OCAzOTYuMmw0OS45IDM2LjNjLTEuMiA1LTEuOSAxMC4yLTEuOSAxNS41YzAgMzUuMyAyOC43IDY0IDY0IDY0czY0LTI4LjcgNjQtNjRzLTI4LjctNjQtNjQtNjRjLTEyLjQgMC0yNCAzLjUtMzMuOSA5LjdsLTM3LjMtMjcuMSA4Ni02Mi41LTgxLjYgMEwzNjggMzM2LjkgMzIyLjggMzA0bC04MS42IDB6TTI0MCA0NDhhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptMjI0IDBhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![stretcher](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/stretcher.svg)
  */
 const Stretcher: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dolly-empty` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolly-empty?s=sharp-light dolly-empty}
- * @preview ![dolly-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAwTDI0IDBsODggMGM2LjkgMCAxMyA0LjQgMTUuMiAxMC45TDI0MS4zIDM1My4zYzQuOC0uOSA5LjctMS4zIDE0LjctMS4zYzM0LjEgMCA2My4yIDIxLjMgNzQuNyA1MS40TDU1NC41IDMyMWwxNS01LjUgMTEuMSAzMC0xNSA1LjVMMzM1LjkgNDM1LjZDMzM0IDQ3OC4xIDI5OSA1MTIgMjU2IDUxMmMtNDQuMiAwLTgwLTM1LjgtODAtODBjMC0yNy44IDE0LjEtNTIuMiAzNS42LTY2LjZMMTAwLjUgMzIgMjQgMzIgOCAzMiA4IDB6TTMwNCA0MzJhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dolly-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/dolly-empty.svg)
  */
 const DollyEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

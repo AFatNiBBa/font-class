@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lock` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock?s=light lock}
- * @preview ![lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDEyOGwwIDY0IDE5MiAwIDAtNjRjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZ6TTk2IDE5MmwwLTY0Qzk2IDU3LjMgMTUzLjMgMCAyMjQgMHMxMjggNTcuMyAxMjggMTI4bDAgNjQgMTYgMGM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDE2MGMwIDQ0LjItMzUuOCA4MC04MCA4MEw4MCA1MTJjLTQ0LjIgMC04MC0zNS44LTgwLTgwTDAgMjcyYzAtNDQuMiAzNS44LTgwIDgwLTgwbDE2IDB6TTMyIDI3MmwwIDE2MGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwyODggMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTE2MGMwLTI2LjUtMjEuNS00OC00OC00OEw4MCAyMjRjLTI2LjUgMC00OCAyMS41LTQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/lock.svg)
  */
 const Lock: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

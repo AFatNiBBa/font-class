@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `airplay` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/airplay?s=thin airplay}
- * @preview ![airplay](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDQ4TDk2IDQ4Yy00NC4yIDAtODAgMzUuOC04MCA4MGwwIDE5MmMwIDQ0LjIgMzUuOCA4MCA4MCA4MGwyMS41IDAtMi43IDIuN2MtNCA0LTcuNCA4LjUtMTAuMiAxMy4zTDk2IDQxNmMtNTMgMC05Ni00My05Ni05NkwwIDEyOEMwIDc1IDQzIDMyIDk2IDMybDM4NCAwYzUzIDAgOTYgNDMgOTYgOTZsMCAxOTJjMCA1My00MyA5Ni05NiA5NmwtOC42IDBjLTIuOC00LjgtNi4yLTkuMi0xMC4yLTEzLjNsLTIuNy0yLjcgMjEuNSAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwbDAtMTkyYzAtNDQuMi0zNS44LTgwLTgwLTgwek0xNDcuNSA0NDIuN2MtMi4yIDIuMy0zLjUgNS40LTMuNSA4LjdjMCA3IDUuNiAxMi42IDEyLjYgMTIuNmwyNjIuOCAwYzcgMCAxMi42LTUuNiAxMi42LTEyLjZjMC0zLjItMS4yLTYuMy0zLjUtOC43TDMwMy40IDMxMC42Yy00LTQuMi05LjYtNi42LTE1LjQtNi42cy0xMS40IDIuNC0xNS40IDYuNkwxNDcuNSA0NDIuN3ptLTExLjYtMTFMMjYxIDI5OS42YzctNy40IDE2LjgtMTEuNiAyNy0xMS42czIwIDQuMiAyNyAxMS42TDQ0MC4yIDQzMS43YzUgNS4zIDcuOCAxMi40IDcuOCAxOS43YzAgMTUuOC0xMi44IDI4LjYtMjguNiAyOC42bC0yNjIuOCAwYy0xNS44IDAtMjguNi0xMi44LTI4LjYtMjguNmMwLTcuMyAyLjgtMTQuNCA3LjgtMTkuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![airplay](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/airplay.svg)
  */
 const Airplay: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

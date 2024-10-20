@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `truck-field` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-field?s=duotone truck-field}
- * @preview ![truck-field](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiA0MDBhODAgODAgMCAxIDAgMTYwIDBBODAgODAgMCAxIDAgOTYgNDAwem0yODggMGE4MCA4MCAwIDEgMCAxNjAgMCA4MCA4MCAwIDEgMCAtMTYwIDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zMiA5NmMwLTM1LjMgMjguNy02NCA2NC02NGwyMjQgMGMyMy43IDAgNDQuNCAxMi45IDU1LjQgMzJsNTEuOCAwYzI1LjMgMCA0OC4yIDE0LjkgNTguNSAzOGw1Mi44IDExOC44Yy41IDEuMSAuOSAyLjEgMS4zIDMuMmw0LjIgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0zMy4xIDBjLTcuOC01NC4zLTU0LjQtOTYtMTEwLjktOTZzLTEwMy4xIDQxLjctMTEwLjkgOTZsLTY2LjMgMGMtNy44LTU0LjMtNTQuNC05Ni0xMTAuOS05NnMtMTAzLjEgNDEuNy0xMTAuOSA5NkwzMiAzODRjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMC0zMmMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC05NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwwLTMyek0zODQgMjI0bDg1LjkgMC00Mi43LTk2TDM4NCAxMjhsMCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/truck-field.svg)
  */
 const TruckField: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M96 400a80 80 0 1 0 160 0A80 80 0 1 0 96 400zm288 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-            <path d="M32 96c0-35.3 28.7-64 64-64l224 0c23.7 0 44.4 12.9 55.4 32l51.8 0c25.3 0 48.2 14.9 58.5 38l52.8 118.8c.5 1.1 .9 2.1 1.3 3.2l4.2 0c35.3 0 64 28.7 64 64l0 32c17.7 0 32 14.3 32 32s-14.3 32-32 32l-33.1 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96l-66.3 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96L32 384c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-32c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32l0-32zM384 224l85.9 0-42.7-96L384 128l0 96z" />
+        <path d="M32 96c0-35.3 28.7-64 64-64l224 0c23.7 0 44.4 12.9 55.4 32l51.8 0c25.3 0 48.2 14.9 58.5 38l52.8 118.8c.5 1.1 .9 2.1 1.3 3.2l4.2 0c35.3 0 64 28.7 64 64l0 32c17.7 0 32 14.3 32 32s-14.3 32-32 32l-33.1 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96l-66.3 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96L32 384c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-32c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32l0-32zM384 224l85.9 0-42.7-96L384 128l0 96z" />
     </Icon>
 );
 

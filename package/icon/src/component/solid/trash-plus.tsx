@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-plus?s=solid trash-plus}
- * @preview ![trash-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYzLjggMEwyODQuMiAwYzEyLjEgMCAyMy4yIDYuOCAyOC42IDE3LjdMMzIwIDMybDk2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgOTZDMTQuMyA5NiAwIDgxLjcgMCA2NFMxNC4zIDMyIDMyIDMybDk2IDAgNy4yLTE0LjNDMTQwLjYgNi44IDE1MS43IDAgMTYzLjggMHpNMzIgMTI4bDM4NCAwTDM5NC44IDQ2N2MtMS42IDI1LjMtMjIuNiA0NS00Ny45IDQ1bC0yNDUuOCAwYy0yNS4zIDAtNDYuMy0xOS43LTQ3LjktNDVMMzIgMTI4ek0yMDAgNDA4YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC02NCA2NCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC02NCAwIDAtNjRjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRsMCA2NC02NCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDY0IDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trash-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-plus.svg)
  */
 const TrashPlus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-bolt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-bolt?s=sharp-regular cloud-bolt}
- * @preview ![cloud-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDE3NmwwLTQ4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4Yy05LjcgMC0xOC43IDIuOC0yNi4yIDcuN2wtMzguOCAyNS4zTDIyOC40IDc1LjJDMjE2LjcgNTguNyAxOTcuNiA0OCAxNzYgNDhjLTM1LjMgMC02NCAyOC43LTY0IDY0bDAgMjEuNSAwIDMzLjlMODAgMTc4LjdjLTE4LjcgNi42LTMyIDI0LjUtMzIgNDUuM2wwIDQ4IDQ4IDAgMTExLjIgMEwxNDQgMzIwbC00OCAwLTQ4IDBMMCAzMjBsMC00OCAwLTQ4YzAtNDEuOCAyNi43LTc3LjQgNjQtOTAuNUw2NCAxMTJDNjQgNTAuMSAxMTQuMSAwIDE3NiAwYzM3LjkgMCA3MS4zIDE4LjggOTEuNiA0Ny41QzI4Mi43IDM3LjcgMzAwLjcgMzIgMzIwIDMyYzUzIDAgOTYgNDMgOTYgOTZjNTMgMCA5NiA0MyA5NiA5NmwwIDQ4IDAgNDgtNDggMC00OCAwLTE2IDBzMCAwIDAgMGwtNzYuNSAwIDE1LTQ4IDc3LjUgMCA0OCAwIDAtNDhjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTQ4IDB6TTIzMiAzODRsLTg4IDAgMC0yNEwzMjAgMjI0IDI4MCAzNTJsODggMCAwIDI0TDE5MiA1MTJsNDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloud-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-bolt.svg)
  */
 const CloudBolt: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-dolly-empty` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dolly-empty?s=sharp-light person-dolly-empty}
- * @preview ![person-dolly-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgODBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek04MCAwYTU2IDU2IDAgMSAxIDAgMTEyQTU2IDU2IDAgMSAxIDgwIDB6TTAgMzQwLjNjLjUgLjQgMS4xIC45IDEuNiAxLjNMMzIgMzY1LjUgMzIgNDk2bDAgMTZMMCA1MTJsMC0xNkwwIDM0MC4zek0wIDEyOGwxNiAwIDgwIDAgOS40IDAgNC42IDguMkwxNzcuNCAyNTZsNDMuNCAwLTIwLjMtODQuMi0zLjgtMTUuNiAzMS4xLTcuNSAzLjggMTUuNiA1My4xIDIxOS44YzEuMS0uMSAyLjItLjEgMy40LS4xYzI1LjcgMCA0Ny45IDE1LjEgNTggMzdsMTQ2LjEtMzYuNSA3LjggMzEtMTQ4IDM3Yy0yLjMgMzMuMi0zMCA1OS41LTYzLjggNTkuNWMtMzUuMyAwLTY0LTI4LjctNjQtNjRjMC0yMi45IDEyLTQyLjkgMzAtNTQuM0wyMjguNSAyODggMTY4IDI4OGwtOS40IDAtNC42LTguMkwxMTIgMjA1LjFsMCAxMzUuNyAzMi45IDIxLjkgNS41IDMuNyAxLjMgNi41TDE3OS41IDUxMmwtMzIuNiAwTDEyMS42IDM4NS42IDIxLjQgMzE4LjhDOCAzMDkuOSAwIDI5NC45IDAgMjc4LjlMMCAxNDRsMC0xNnpNODAgMzE5LjRMODAgMTYwbC00OCAwIDAgMTE4LjljMCA1LjMgMi43IDEwLjMgNy4xIDEzLjNMODAgMzE5LjR6TTI4OCA0ODBhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-dolly-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-dolly-empty.svg)
  */
 const PersonDollyEmpty: typeof Icon = x => (
     <Icon {...x}>

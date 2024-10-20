@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `audible` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/audible?s=brands audible}
- * @preview ![audible](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDE5OS45djU0bC0zMjAgMjAwTDAgMjU0di01NGwzMjAgMjAwIDMyMC0yMDAuMXptLTE5NC41IDcybDQ3LjEtMjkuNGMtMzcuMi01NS44LTEwMC43LTkyLjYtMTcyLjctOTIuNi03MiAwLTEzNS41IDM2LjctMTcyLjYgOTIuNGguM2MyLjUtMi4zIDUuMS00LjUgNy43LTYuNyA4OS43LTc0LjQgMjE5LjQtNTguMSAyOTAuMiAzNi4zem0tMjIwLjEgMTguOGMxNi45LTExLjkgMzYuNS0xOC43IDU3LjQtMTguNyAzNC40IDAgNjUuMiAxOC40IDg2LjQgNDcuNmw0NS40LTI4LjRjLTIwLjktMjkuOS01NS42LTQ5LjUtOTQuOC00OS41LTM4LjkgMC03My40IDE5LjQtOTQuNCA0OXpNMTAzLjYgMTYxLjFjMTMxLjgtMTA0LjMgMzE4LjItNzYuNCA0MTcuNSA2Mi4xbC43IDEgNDguOC0zMC40QzUxNy4xIDExMi4xIDQyNC44IDU4LjEgMzE5LjkgNTguMWMtMTAzLjUgMC0xOTYuNiA1My41LTI1MC41IDEzNS42IDkuOS0xMC41IDIyLjctMjMuNSAzNC4yLTMyLjZ6bTQ2NyAzMi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![audible](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/audible.svg)
  */
 const Audible: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

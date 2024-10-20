@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eject` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eject?s=regular eject}
- * @preview ![eject](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNC4xIDMyMy4zYy03LjctMTcuNC00LjMtMzcuNyA4LjYtNTEuOGwxNzYtMTkyQzE5Ny43IDY5LjYgMjEwLjUgNjQgMjI0IDY0czI2LjMgNS42IDM1LjQgMTUuNmwxNzYgMTkyYzEyLjkgMTQgMTYuMiAzNC4zIDguNiA1MS44UzQxOSAzNTIgNDAwIDM1Mkw0OCAzNTJjLTE5IDAtMzYuMy0xMS4yLTQzLjktMjguN3pNNDggMzA0bDM1MiAwTDIyNCAxMTIgNDggMzA0ek0yNCA0MDBsNDAwIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRMMjQgNDQ4Yy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![eject](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/eject.svg)
  */
 const Eject: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

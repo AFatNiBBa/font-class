@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-code` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-code?s=solid message-code}
- * @preview ![message-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMNDQ4IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyODhjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTEzOC43IDBMMTg1LjYgNTA4LjhjLTQuOCAzLjYtMTEuMyA0LjItMTYuOCAxLjVzLTguOC04LjItOC44LTE0LjNsMC04MC05NiAwYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDY0em0yMTcgOTdjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMGwtNjQgNjRjLTkuNCA5LjQtOS40IDI0LjYgMCAzMy45bDY0IDY0YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtNDctNDcgNDctNDd6TTMyOSAxMjdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsNDcgNDctNDcgNDdjLTkuNCA5LjQtOS40IDI0LjYgMCAzMy45czI0LjYgOS40IDMzLjkgMGw2NC02NGM5LjQtOS40IDkuNC0yNC42IDAtMzMuOWwtNjQtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![message-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/message-code.svg)
  */
 const MessageCode: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grin-tongue-squint` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-tongue-squint?s=sharp-regular face-grin-tongue-squint}
- * @preview ![face-grin-tongue-squint](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NmMwLTExNC45LTkzLjEtMjA4LTIwOC0yMDhTNDggMTQxLjEgNDggMjU2YzAgODEuNyA0Ny4xIDE1Mi40IDExNS43IDE4Ni40Yy0yLjQtOC40LTMuNy0xNy4zLTMuNy0yNi40bDAtMjMuM2MtMzEuOS0yMy4zLTU1LjItNTcuOC02NC05Ny45YzQ2LjIgMTguMyAxMDEuMiAyOSAxNjAuMiAyOXMxMTQuMS0xMC42IDE2MC4yLTI5Yy04LjggNDAuMi0zMi4zIDc1LTY0LjUgOTguM2wwIDIyLjljMCA5LjItMS4zIDE4LTMuNyAyNi40QzQxNi45IDQwOC40IDQ2NCAzMzcuNyA0NjQgMjU2ek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTIzMC45LTQ4TDExMiAyNzJsNDUuNy02NEwxMTIgMTQ0bDExOC45IDY0ek00MDAgMTQ0bC00NS43IDY0TDQwMCAyNzIgMjgxLjEgMjA4IDQwMCAxNDR6TTI1NiA0ODBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC00OC00OCAwIDAgMjQtMzIgMCAwLTI0LTQ4IDAgMCA0OGMwIDM1LjMgMjguNyA2NCA2NCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-grin-tongue-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-grin-tongue-squint.svg)
  */
 const FaceGrinTongueSquint: typeof Icon = x => (
     <Icon {...x}>

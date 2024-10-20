@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `padlet` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/padlet?s=brands padlet}
- * @preview ![padlet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk3LjkgMEwyOTggLjAwMUMzMDUuNiAuMTA3OCAzMTIuNCA0LjcyIDMxNS41IDExLjc4TDQ0Ny41IDMyMC4zTDQ0Ny44IDMyMC4yTDQ0OCAzMjAuNkw0NDUuMiAzMzAuNkw0MDIuMyA0ODguNkMzOTguNiA1MDQuOCAzODIuNiA1MTQuOSAzNjYuNSA1MTEuMkwyOTguMSA0OTUuNkwyMjkuNiA1MTEuMkMyMTMuNSA1MTQuOSAxOTcuNSA1MDQuOCAxOTMuOCA0ODguNkwxNTAuOSAzMzAuNkwxNDguMiAzMjAuNkwxNDguMyAzMjAuMkwyODAuNCAxMS43OEMyODMuNCA0Ljc5NyAyOTAuMyAuMTgzNyAyOTcuOSAuMDAwNkwyOTcuOSAwek0xNjAuMSAzMjIuMUwyOTEuMSAzNjEuMkwyOTggNDgzLjdMMzA1LjkgMzYyLjJMNDM2LjUgMzIyLjlMNDM2LjcgMzIyLjhMMzA1LjcgMzQ3LjlMMjk3LjEgMjcuNzJMMjkxLjkgMzQ3LjlMMTYwLjEgMzIyLjF6TTQyNiAyMjIuNkw1MjAuNCAxODEuNkg1OTQuMkw0MzcuMiA0MjkuMkw0NjguOCAzMjAuMkw0MjYgMjIyLjZ6TTU5Ny41IDE4MS40TDYzOC45IDI1Ny42QzY0Mi45IDI2NS4xIDYzNSAyNzMuNSA2MjcuMyAyNjkuOEw1NzkuNyAyNDcuMUw1OTcuNSAxODEuNHpNMTI3LjMgMzE4LjVMMTU4LjcgNDMwTDEuNjEgMTU0LjVDLTQuMjkyIDE0NC4xIDcuMTI4IDEzMi41IDE3LjU1IDEzOC4zTDE2OS40IDIyMi41TDEyNy4zIDMxOC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![padlet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/padlet.svg)
  */
 const Padlet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

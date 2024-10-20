@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `delicious` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/delicious?s=brands delicious}
- * @preview ![delicious](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ2LjUgNjhjLS40LTEuNS0uOS0zLTEuNC00LjUtLjktMi41LTItNC44LTMuMy03LjEtMS40LTIuNC0zLTQuOC00LjctNi45LTIuMS0yLjUtNC40LTQuOC02LjktNi44LTEuMS0uOS0yLjItMS43LTMuMy0yLjUtMS4zLS45LTIuNi0xLjctNC0yLjQtMS44LTEtMy42LTEuOC01LjUtMi41LTEuNy0uNy0zLjUtMS4zLTUuNC0xLjctMy44LTEtNy45LTEuNS0xMi0xLjVINDhDMjEuNSAzMiAwIDUzLjUgMCA4MHYzNTJjMCA0LjEuNSA4LjIgMS41IDEyIDIgNy43IDUuOCAxNC42IDExIDIwLjMgMSAxLjEgMi4xIDIuMiAzLjMgMy4zIDUuNyA1LjIgMTIuNiA5IDIwLjMgMTEgMy44IDEgNy45IDEuNSAxMiAxLjVoMzUyYzI2LjUgMCA0OC0yMS41IDQ4LTQ4VjgwYy0uMS00LjEtLjYtOC4yLTEuNi0xMnpNNDE2IDQzMmMwIDguOC03LjIgMTYtMTYgMTZIMjI0VjI1NkgzMlY4MGMwLTguOCA3LjItMTYgMTYtMTZoMTc2djE5MmgxOTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![delicious](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/delicious.svg)
  */
 const Delicious: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

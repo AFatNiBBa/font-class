@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-left-to-arc` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-to-arc?s=thin arrow-left-to-arc}
- * @preview ![arrow-left-to-arc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjU2QzE2IDEyMy41IDEyMy41IDE2IDI1NiAxNmM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEMxMTQuNiAwIDAgMTE0LjYgMCAyNTZTMTE0LjYgNTEyIDI1NiA1MTJjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThDMTIzLjUgNDk2IDE2IDM4OC41IDE2IDI1NnpNMzE0LjggMTIxLjlsLTE1MiAxMjhjLTEuOCAxLjUtMi44IDMuOC0yLjggNi4xczEgNC42IDIuOCA2LjFsMTUyIDEyOGMzLjQgMi44IDguNCAyLjQgMTEuMy0xczIuNC04LjQtMS0xMS4zTDE4OS45IDI2NCA1MDQgMjY0YzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0zMTQuMSAwTDMyNS4yIDEzNC4xYzMuNC0yLjggMy44LTcuOSAxLTExLjNzLTcuOS0zLjgtMTEuMy0xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-left-to-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-left-to-arc.svg)
  */
 const ArrowLeftToArc: typeof Icon = x => (
     <Icon {...x}>

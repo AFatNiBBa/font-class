@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bullseye-pointer` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bullseye-pointer?s=sharp-regular bullseye-pointer}
- * @preview ![bullseye-pointer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ2NGMxMTQuOSAwIDIwOC05My4xIDIwOC0yMDhzLTkzLjEtMjA4LTIwOC0yMDhTNDggMTQxLjEgNDggMjU2YzAgNS41IC4yIDEwLjkgLjYgMTYuM0wxLjggMjg2LjFDLjYgMjc2LjIgMCAyNjYuMiAwIDI1NkMwIDExNC42IDExNC42IDAgMjU2IDBTNTEyIDExNC42IDUxMiAyNTZzLTExNC42IDI1Ni0yNTYgMjU2Yy0xMC4yIDAtMjAuMi0uNi0zMC4xLTEuOGwxMy44LTQ2LjljNS40IC40IDEwLjggLjYgMTYuMyAuNnptLTIuNC00OGwxNC4zLTQ4LjZDMzI0LjIgMzYxLjQgMzY4IDMxMy44IDM2OCAyNTZjMC02MS45LTUwLjEtMTEyLTExMi0xMTJjLTU3LjggMC0xMDUuNCA0My44LTExMS40IDEwMC4xTDk2IDI1OC40YzAtLjggMC0xLjYgMC0yLjRjMC04OC40IDcxLjYtMTYwIDE2MC0xNjBzMTYwIDcxLjYgMTYwIDE2MHMtNzEuNiAxNjAtMTYwIDE2MGMtLjggMC0xLjYgMC0yLjQgMHpNMCAzMjBsMjcyLTgwTDE5MiA1MTJsLTQ4LTk2LTEuNC0xLjQtOTYgOTZMMS40IDQ2NS40bDk2LTk2TDk2IDM2OCAwIDMyMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bullseye-pointer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bullseye-pointer.svg)
  */
 const BullseyePointer: typeof Icon = x => (
     <Icon {...x}>

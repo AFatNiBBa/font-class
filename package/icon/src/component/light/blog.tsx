@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blog` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blog?s=light blog}
- * @preview ![blog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDMyYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2YzEzMi41IDAgMjQwIDEwNy41IDI0MCAyNDBjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNkM0ODAgMTUzLjggMzU4LjIgMzIgMjA4IDMyem0wIDk2Yy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2Yzc5LjUgMCAxNDQgNjQuNSAxNDQgMTQ0YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZjMC05Ny4yLTc4LjgtMTc2LTE3Ni0xNzZ6TTMyIDEyMGMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNkwwIDM2OGMwIDc5LjUgNjQuNSAxNDQgMTQ0IDE0NHMxNDQtNjQuNSAxNDQtMTQ0cy02NC41LTE0NC0xNDQtMTQ0bC04IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsOCAwYzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEycy01MC4xIDExMi0xMTIgMTEyUzMyIDQyOS45IDMyIDM2OGwwLTI0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![blog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/blog.svg)
  */
 const Blog: typeof Icon = x => (
     <Icon {...x}>

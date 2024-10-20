@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ghost` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ghost?s=solid ghost}
- * @preview ![ghost](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAuMSA0NjcuMWwtMTEuMiA5Yy0zLjIgMi41LTcuMSAzLjktMTEuMSAzLjlDOCA0ODAgMCA0NzIgMCA0NjIuMkwwIDE5MkMwIDg2IDg2IDAgMTkyIDBTMzg0IDg2IDM4NCAxOTJsMCAyNzAuMmMwIDkuOC04IDE3LjgtMTcuOCAxNy44Yy00IDAtNy45LTEuNC0xMS4xLTMuOWwtMTEuMi05Yy0xMy40LTEwLjctMzIuOC05LTQ0LjEgMy45TDI2OS4zIDUwNmMtMy4zIDMuOC04LjIgNi0xMy4zIDZzLTkuOS0yLjItMTMuMy02bC0yNi42LTMwLjVjLTEyLjctMTQuNi0zNS40LTE0LjYtNDguMiAwTDE0MS4zIDUwNmMtMy4zIDMuOC04LjIgNi0xMy4zIDZzLTkuOS0yLjItMTMuMy02TDg0LjIgNDcxYy0xMS4zLTEyLjktMzAuNy0xNC42LTQ0LjEtMy45ek0xNjAgMTkyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTk2IDMyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ghost](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ghost.svg)
  */
 const Ghost: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

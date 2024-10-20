@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gauge-high` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-high?s=sharp-solid gauge-high}
- * @preview ![gauge-high](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMEEyNTYgMjU2IDAgMSAxIDAgMjU2ek0yODggOTZhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHpNMjU2IDQxNmMzNS4zIDAgNjQtMjguNyA2NC02NGMwLTE3LjQtNi45LTMzLjEtMTguMS00NC42TDM2NiAxNjEuN2w5LjctMjItNDMuOS0xOS4zLTkuNyAyMkwyNTcuOSAyODhjLS42IDAtMS4zIDAtMS45IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjR6TTE3NiAxNDRhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHpNOTYgMjg4YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMzUyLTMyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![gauge-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gauge-high.svg)
  */
 const GaugeHigh: typeof Icon = x => (
     <Icon {...x}>

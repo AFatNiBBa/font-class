@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shredder` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shredder?s=sharp-solid shredder}
- * @preview ![shredder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEw5NiAwIDM2OCAwbDEzLjMgMCA5LjQgOS40IDQ4IDQ4IDkuNCA5LjRMNDQ4IDgwbDAgMTEyIDY0IDAgMCAxOTJMMCAzODQgMCAxOTJsNjQgMEw2NCAzMiA2NCAwek0zODQgOTMuM0wzNTQuNyA2NCAxMjggNjRsMCAxMjggMjU2IDAgMC05OC43ek00NTYgMjQ4bC00OCAwIDAgNDggNDggMCAwLTQ4ek00MCA0MTZsNDggMCAwIDcyIDAgMjQtNDggMCAwLTI0IDAtNzJ6bTk2IDBsNDggMCAwIDcyIDAgMjQtNDggMCAwLTI0IDAtNzJ6bTk2IDBsNDggMCAwIDcyIDAgMjQtNDggMCAwLTI0IDAtNzJ6bTk2IDBsNDggMCAwIDcyIDAgMjQtNDggMCAwLTI0IDAtNzJ6bTk2IDBsNDggMCAwIDcyIDAgMjQtNDggMCAwLTI0IDAtNzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shredder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shredder.svg)
  */
 const Shredder: typeof Icon = x => (
     <Icon {...x}>

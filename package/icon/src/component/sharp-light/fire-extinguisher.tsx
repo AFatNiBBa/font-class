@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fire-extinguisher` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-extinguisher?s=sharp-light fire-extinguisher}
- * @preview ![fire-extinguisher](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBsMCA2NEMxMDQuNSA2NCA1NS42IDkyLjMgMjcgMTM1LjFjLTcuMyAxMS0xMy40IDIyLjktMTcuOCAzNS42bDMwLjIgMTAuN2MzLjYtMTAuMSA4LjQtMTkuNyAxNC4zLTI4LjRDNzYuNSAxMTguNiAxMTUuNiA5NiAxNjAgOTZsMCAzMy4xYy01NC4zIDcuOC05NiA1NC40LTk2IDExMC45bDAgMjQwIDAgMzIgMzIgMCAxNjAgMCAzMiAwIDAtMzIgMC0yNDBjMC01Ni40LTQxLjctMTAzLjEtOTYtMTEwLjlMMTkyIDk2bDk2IDAgMCAzMiAxOTIgMjcuNCAzMiA0LjYgMC0zMi4zIDAtOTUuNEw1MTIgMCA0ODAgNC42IDI4OCAzMmwwIDMyLTk2IDAgMC02NEwxNjAgMHpNMzIwIDEwMC4ybDAtNDAuNUw0ODAgMzYuOWwwIDg2LjJMMzIwIDEwMC4yek0yNTYgMzg0TDk2IDM4NGwwLTE0NGMwLTQ0LjIgMzUuOC04MCA4MC04MHM4MCAzNS44IDgwIDgwbDAgMTQ0ek05NiA0MTZsMTYwIDAgMCA2NEw5NiA0ODBsMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fire-extinguisher](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fire-extinguisher.svg)
  */
 const FireExtinguisher: typeof Icon = x => (
     <Icon {...x}>

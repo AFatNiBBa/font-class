@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-book-open` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-book-open?s=regular circle-book-open}
- * @preview ![circle-book-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YTIwOCAyMDggMCAxIDEgMCA0MTYgMjA4IDIwOCAwIDEgMSAwLTQxNnptMCA0NjRBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xODQgMzM2YzIzLjEgMCA0MSAxMS4xIDQ2LjMgMTQuOGMxLjEgLjggMi40IDEuMiAzLjcgMS4yYzMuMyAwIDUuOS0yLjcgNS45LTUuOWwwLTE2MC43YzAtNS44LTMuMS0xMS4xLTguMy0xMy41QzIyMS4yIDE2Ny4xIDIwMi41IDE2MCAxODQgMTYwcy0zNy4yIDcuMS00Ny43IDExLjljLTUuMiAyLjQtOC4zIDcuNy04LjMgMTMuNWwwIDE2MC43YzAgMy4zIDIuNyA1LjkgNS45IDUuOWMxLjMgMCAyLjYtLjQgMy43LTEuMkMxNDMgMzQ3LjEgMTYwLjkgMzM2IDE4NCAzMzZ6bTE0NCAwYzIzLjEgMCA0MSAxMS4xIDQ2LjMgMTQuOGMxLjEgLjggMi40IDEuMiAzLjcgMS4yYzMuMyAwIDUuOS0yLjcgNS45LTUuOWwwLTE2MC43YzAtNS44LTMuMS0xMS4xLTguMy0xMy41QzM2NS4yIDE2Ny4xIDM0Ni41IDE2MCAzMjggMTYwcy0zNy4yIDcuMS00Ny43IDExLjljLTUuMiAyLjQtOC4zIDcuNy04LjMgMTMuNWwwIDE2MC43YzAgMy4zIDIuNyA1LjkgNS45IDUuOWMxLjMgMCAyLjYtLjQgMy43LTEuMkMyODcgMzQ3LjEgMzA0LjkgMzM2IDMyOCAzMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-book-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-book-open.svg)
  */
 const CircleBookOpen: typeof Icon = x => (
     <Icon {...x}>

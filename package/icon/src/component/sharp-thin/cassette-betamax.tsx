@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cassette-betamax` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-betamax?s=sharp-thin cassette-betamax}
- * @preview ![cassette-betamax](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTQ0bDU0NCAwIDAgMzIwTDE2IDQ2NGwwLTMyMHptMC0xNmwwLTgwIDU0NCAwIDAgODBMMTYgMTI4em01NjAgOGwwLTggMC04MCAwLTE2LTE2IDBMMTYgMzIgMCAzMiAwIDQ4bDAgODAgMCA4IDAgOEwwIDQ2NGwwIDE2IDE2IDAgNTQ0IDAgMTYgMCAwLTE2IDAtMzIwIDAtOHpNODAgMzA0YTgwIDgwIDAgMSAxIDE2MCAwQTgwIDgwIDAgMSAxIDgwIDMwNHptMTc2IDBBOTYgOTYgMCAxIDAgNjQgMzA0YTk2IDk2IDAgMSAwIDE5MiAwem0tOTYgMTZhMTYgMTYgMCAxIDEgMC0zMiAxNiAxNiAwIDEgMSAwIDMyem0tMzItMTZhMzIgMzIgMCAxIDAgNjQgMCAzMiAzMiAwIDEgMCAtNjQgMHptMjA4LTgwbDE2MCAwIDAgMTYwLTE2MCAwIDAtMTYwem0tMTYtMTZsMCAxNiAwIDE2MCAwIDE2IDE2IDAgMTYwIDAgMTYgMCAwLTE2IDAtMTYwIDAtMTYtMTYgMC0xNjAgMC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cassette-betamax](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cassette-betamax.svg)
  */
 const CassetteBetamax: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

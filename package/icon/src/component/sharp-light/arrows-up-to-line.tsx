@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-up-to-line` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-up-to-line?s=sharp-light arrows-up-to-line}
- * @preview ![arrows-up-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNjRMMCA2NCAwIDMybDE2IDAgNTQ0IDAgMTYgMCAwIDMyLTE2IDBMMTYgNjR6bTExMiA0MS40bDExLjMgMTEuMyAxMDQgMTA0TDI1NC42IDIzMiAyMzIgMjU0LjZsLTExLjMtMTEuM0wxNDQgMTY2LjYgMTQ0IDQ2NGwwIDE2LTMyIDAgMC0xNiAwLTI5Ny40TDM1LjMgMjQzLjMgMjQgMjU0LjYgMS40IDIzMmwxMS4zLTExLjMgMTA0LTEwNEwxMjggMTA1LjR6bTMyMCAwbDExLjMgMTEuMyAxMDQgMTA0TDU3NC42IDIzMiA1NTIgMjU0LjZsLTExLjMtMTEuM0w0NjQgMTY2LjYgNDY0IDQ2NGwwIDE2LTMyIDAgMC0xNiAwLTI5Ny40LTc2LjcgNzYuN0wzNDQgMjU0LjYgMzIxLjQgMjMybDExLjMtMTEuMyAxMDQtMTA0TDQ0OCAxMDUuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-up-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-up-to-line.svg)
  */
 const ArrowsUpToLine: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

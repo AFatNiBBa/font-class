@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cassette-tape` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-tape?s=regular cassette-tape}
- * @preview ![cassette-tape](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDgwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyMGMwIDguOC03LjIgMTYtMTYgMTZsLTQwIDAtMjUuNi02MS41Yy04LjctMjAuOS0yOS4xLTM0LjUtNTEuNy0zNC41bC0yMTMuMyAwYy0yMi42IDAtNDMgMTMuNi01MS43IDM0LjVMMTA0IDQzMmwtNDAgMGMtOC44IDAtMTYtNy4yLTE2LTE2TDQ4IDk2YzAtOC44IDcuMi0xNiAxNi0xNmw0NDggMHpNNDIwIDQzMmwtMjY0IDAgMTcuOS00My4xYzEuMi0zIDQuMi00LjkgNy40LTQuOWwyMTMuMyAwYzMuMiAwIDYuMSAxLjkgNy40IDQuOUw0MjAgNDMyek02NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDQ0OCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyek0xNzYgMjA4YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptNjQgMTZjMC01LjUtLjctMTAuOS0yLTE2bDEwMCAwYy0xLjMgNS4xLTIgMTAuNS0yIDE2cy43IDEwLjkgMiAxNmwtMTAwIDBjMS4zLTUuMSAyLTEwLjUgMi0xNnptMjI0IDBjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTIyNCAwYy0zNS4zIDAtNjQgMjguNy02NCA2NHMyOC43IDY0IDY0IDY0bDIyNCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0em0tODAgMGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cassette-tape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cassette-tape.svg)
  */
 const CassetteTape: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

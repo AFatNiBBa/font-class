@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `filters` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filters?s=regular filters}
- * @preview ![filters](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMzLjggMzJDMjEwLjcgMzIgMTkyIDUwLjcgMTkyIDczLjhjMCA5LjMgMy4xIDE4LjQgOC45IDI1LjhMMzM2IDI3Mi4zbDAgNjMuOWMwIDEyLjMgNS42IDIzLjkgMTUuMyAzMS41bDkyLjkgNzNjMjEgMTYuNSA1MS44IDEuNSA1MS44LTI1LjJsMC0xNDMuM0w2MzEuMSA5OS42YzUuOC03LjQgOC45LTE2LjQgOC45LTI1LjhDNjQwIDUwLjcgNjIxLjMgMzIgNTk4LjIgMzJMMjMzLjggMzJ6TTM3OC45IDI0OS4yTDI0Ni41IDgwbDMzOSAwTDQ1My4xIDI0OS4yYy0zLjMgNC4yLTUuMSA5LjQtNS4xIDE0LjhsMCAxMTguNi02NC01MC4zIDAtNjguM2MwLTUuNC0xLjgtMTAuNi01LjEtMTQuOHpNMTYzLjQgOTZMNDEuOCA5NkMxOC43IDk2IDAgMTE0LjcgMCAxMzcuOGMwIDkuMyAzLjEgMTguNCA4LjkgMjUuOEwxNDQgMzM2LjNsMCAzMS45YzAgMTIuMyA1LjYgMjMuOSAxNS4zIDMxLjVsOTIuOSA3M2MyMSAxNi41IDUxLjggMS41IDUxLjgtMjUuMmwwLTExMS4zYzAgMCAwIDAgMC0uMWwwLTUyLjktOS43LTEyLjUtMzMuMiA0Mi40Yy0zLjMgNC4yLTUuMSA5LjQtNS4xIDE0LjhsMCA4Ni42LTY0LTUwLjMgMC0zNi4zYzAtNS40LTEuOC0xMC42LTUuMS0xNC44TDU0LjUgMTQ0IDE5NSAxNDRsLTE5LjMtMjQuNmMtNS41LTctOS42LTE1LTEyLjMtMjMuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![filters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/filters.svg)
  */
 const Filters: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

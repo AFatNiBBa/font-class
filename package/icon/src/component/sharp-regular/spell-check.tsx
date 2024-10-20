@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spell-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spell-check?s=sharp-regular spell-check}
- * @preview ![spell-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTUuMiAwbDMzLjcgMCA1LjcgMTUuOEwyMjEuNCAyNTZsLTUxIDAtMTQuNS00MC04Ny44IDBMNTMuNiAyNTZsLTUxIDBMODkuNCAxNS44IDk1LjIgMHptNDMuNCAxNjhMMTEyIDk0LjYgODUuNSAxNjhsNTMuMSAwek0yODAgMGw3NiAwYzQyIDAgNzYgMzQgNzYgNzZjMCAxNi4yLTUuMSAzMS4zLTEzLjggNDMuN0M0MzYuMyAxMzMuNiA0NDggMTU1LjQgNDQ4IDE4MGMwIDQyLTM0IDc2LTc2IDc2bC05MiAwLTI0IDAgMC0yNCAwLTEwNCAwLTEwNCAwLTI0IDI0IDB6TTM4NCA3NmMwLTE1LjUtMTIuNS0yOC0yOC0yOGwtNTIgMCAwIDU2IDUyIDBjMTUuNSAwIDI4LTEyLjUgMjgtMjh6TTMwNCAyMDhsNjggMGMxNS41IDAgMjgtMTIuNSAyOC0yOHMtMTIuNS0yOC0yOC0yOGwtMTYgMC01MiAwIDAgNTZ6bTI3MC43IDgzLjVsLTE3LjEgMTYuOEwzNjguOCA0OTMuOWwtMTcgMTYuN0wzMzUgNDkzLjhsLTEwNC0xMDQtMTctMTdMMjQ4IDMzOC45bDE3IDE3TDM1Mi4xIDQ0MyA1MjQgMjc0LjFsMTcuMS0xNi44IDMzLjcgMzQuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![spell-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/spell-check.svg)
  */
 const SpellCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

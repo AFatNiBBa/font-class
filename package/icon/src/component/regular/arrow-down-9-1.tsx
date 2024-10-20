@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-9-1` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-9-1?s=regular arrow-down-9-1}
- * @preview ![arrow-down-9-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDcgMzc3bDk2IDk2YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwbDk2LTk2YzkuNC05LjQgOS40LTI0LjYgMC0zMy45cy0yNC42LTkuNC0zMy45IDBsLTU1IDU1TDE4NCA1NmMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDM0Mi4xTDgxIDM0M2MtOS40LTkuNC0yNC42LTkuNC0zMy45IDBzLTkuNCAyNC42IDAgMzMuOXptNDA5LTY1YzAtNy43LTMuNy0xNS0xMC0xOS41cy0xNC4zLTUuNy0yMS42LTMuM2wtNDggMTZjLTEyLjYgNC4yLTE5LjQgMTcuOC0xNS4yIDMwLjRzMTcuOCAxOS40IDMwLjQgMTUuMmwxNi40LTUuNSAwIDg2LjctMjQgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw0OCAwIDQ4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTI0IDAgMC0xMjB6TTQyNCAxNjBhNDAgNDAgMCAxIDEgMC04MCA0MCA0MCAwIDEgMSAwIDgwem04OC00MGMwLTQ4LjYtMzkuNC04OC04OC04OHMtODggMzkuNC04OCA4OGMwIDQyLjEgMjkuNiA3Ny4zIDY5LjEgODZsLTE1LjYgMTguN2MtOC41IDEwLjItNy4xIDI1LjMgMy4xIDMzLjhzMjUuMyA3LjEgMzMuOC0zLjFsNjQuNi03Ny42YzEzLTE1LjYgMjAuMy0zNS4xIDIwLjktNTUuM2MwLS44IDAtMS42IDAtMi41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-9-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-down-9-1.svg)
  */
 const ArrowDown_9_1: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

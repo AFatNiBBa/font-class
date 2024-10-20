@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `heart-pulse` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-pulse?s=sharp-solid heart-pulse}
- * @preview ![heart-pulse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjg4bDgwIDAgMTYgMCA2LjItMTQuOCAxOC43LTQ0LjkgNDkuMyAxMDkuNSAyMC43IDQ2LjEgMjIuNi00NS4yTDMyMCAyNTMuN2wxMC41IDIxLjEgNi42IDEzLjMgMTQuOCAwIDk2IDBzMCAwIDAgMEwyNTYgNDgwIDY0IDI4OHMwIDAgMCAwek0yMC44IDI0MEM3LjMgMjE4LjUgMCAxOTMuNSAwIDE2Ny44QzAgOTIuOCA2MC44IDMyIDEzNS44IDMyYzM2IDAgNzAuNSAxNC4zIDk2IDM5LjhMMjU2IDk2bDI0LjItMjQuMmMyNS41LTI1LjUgNjAtMzkuOCA5Ni0zOS44QzQ1MS4yIDMyIDUxMiA5Mi44IDUxMiAxNjcuOGMwIDI1LjgtNy4zIDUwLjgtMjAuOCA3Mi4ybC0xMjQuNCAwLTI1LjQtNTAuN0wzMjAgMTQ2LjNsLTIxLjUgNDIuOS00MS40IDgyLjhMMjA1LjkgMTU4LjJsLTIyLjctNTAuNS0yMS4zIDUxLjFMMTI4IDI0MCAyMC44IDI0MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![heart-pulse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heart-pulse.svg)
  */
 const HeartPulse: typeof Icon = x => (
     <Icon {...x}>

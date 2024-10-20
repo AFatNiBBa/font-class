@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `couch` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/couch?s=sharp-regular couch}
- * @preview ![couch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDgwTDExMiA4MGwwIDExMi00OCAwTDY0IDgwbDAtNDggNDggMCA0MTYgMCA0OCAwIDAgNDggMCAxMTItNDggMCAwLTExMnpNNDggMjcybDAgMTYwIDQ4IDAgMC0xNjAtNDggMHpNMCAyMjRsNDggMCA0OCAwIDQ4IDAgMCA0OCAwIDE2IDM1MiAwIDAtMTYgMC00OCA0OCAwIDQ4IDAgNDggMCAwIDQ4IDAgMTYwIDAgNDgtNDggMC00OCAwLTQ4IDAgMC0zMi0zNTIgMCAwIDMyLTQ4IDAtNDggMEwwIDQ4MGwwLTQ4TDAgMjcybDAtNDh6TTE0NCA0MDBsMzUyIDAgMC02NC0zNTIgMCAwIDY0ek01OTIgMjcybC00OCAwIDAgMTYwIDQ4IDAgMC0xNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![couch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/couch.svg)
  */
 const Couch: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

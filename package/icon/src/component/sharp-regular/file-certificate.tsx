@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-certificate` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-certificate?s=sharp-regular file-certificate}
- * @preview ![file-certificate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ2NGwyNDAgMCAwLTMwNC0xMTIgMCAwLTExMkwxNzYgNDhsMCA3MC4yLTEuOS0yLjRMMTUxLjYgMTI1IDEyOCAxMzQuNyAxMjggNDhsMC00OCA0OCAwTDM4NCAwIDUxMiAxMjhsMCAzMzYgMCA0OC00OCAwLTI0MCAwczAgMCAwIDBsMC00OHpNOTIuMyAxNTQuNmw1LjYgMi4zTDEyOCAxNjkuMyAxNTguMSAxNTdsNS42LTIuMyAzLjcgNC44IDE5LjkgMjUuNyAzMi4yIDQuNCA2IC44IC44IDYgNC40IDMyLjIgMjUuNyAxOS45IDQuOCAzLjctMi4zIDUuNkwyNDYuNyAyODggMjU5IDMxOC4xbDIuMyA1LjYtNC44IDMuNy0yNS43IDE5LjktNC40IDMyLjItLjggNi02IC44TDE5MiAzOTAuMiAxOTIgNTEybC02NC00MEw2NCA1MTJsMC0xMjEuOC0yNy42LTMuOC02LS44LS44LTYtNC40LTMyLjJMLS41IDMyNy40bC00LjgtMy43IDIuMy01LjZMOS4zIDI4OC0zIDI1Ny45bC0yLjMtNS42IDQuOC0zLjcgMjUuNy0xOS45IDQuNC0zMi4yIC44LTYgNi0uOCAzMi4yLTQuNCAxOS45LTI1LjcgMy43LTQuOHpNMTkyIDI4OEE2NCA2NCAwIDEgMCA2NCAyODhhNjQgNjQgMCAxIDAgMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-certificate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-certificate.svg)
  */
 const FileCertificate: typeof Icon = x => (
     <Icon {...x}>

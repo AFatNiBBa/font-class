@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-xmark?s=sharp-solid trash-xmark}
- * @preview ![trash-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDBsMTYgMzIgMTI4IDAgMCA2NEwwIDk2IDAgMzJsMTI4IDBMMTQ0IDAgMzA0IDB6TTMyIDEyOGwzODQgMEwzOTIgNTEyIDU2IDUxMiAzMiAxMjh6TTMyMS45IDI1NkwyODggMjIyLjFsLTE3IDE3LTQ3IDQ3LTQ3LTQ3LTE3LTE3TDEyNi4xIDI1NmwxNyAxNyA0NyA0Ny00NyA0Ny0xNyAxN0wxNjAgNDE3LjlsMTctMTcgNDctNDcgNDcgNDcgMTcgMTdMMzIxLjkgMzg0bC0xNy0xNy00Ny00NyA0Ny00NyAxNy0xN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trash-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/trash-xmark.svg)
  */
 const TrashXmark: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

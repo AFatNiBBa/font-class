@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-persevering` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-persevering?s=sharp-solid face-persevering}
- * @preview ![face-persevering](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6bTYwLjEtMTAxLjNjLTExLjctMTMtMzEuNi0yNi43LTYwLjEtMjYuN3MtNDguNCAxMy43LTYwLjEgMjYuN2wtMTAuNyAxMS45LTIzLjgtMjEuNCAxMC43LTExLjlDMTg4LjIgMzcxLjQgMjE2LjMgMzUyIDI1NiAzNTJzNjcuOCAxOS40IDgzLjkgMzcuM2wxMC43IDExLjktMjMuOCAyMS40LTEwLjctMTEuOXpNMjIyLjYgMTEybC0xMS4zIDExLjMtNy40IDcuNGMtMjMuNiAyMy42LTUzLjkgMzkuMi04Ni44IDQ0LjdsLTIuNSAuNC0xNS44IDIuNi01LjMtMzEuNiAxNS44LTIuNiAyLjUtLjRjMjYuMy00LjQgNTAuNi0xNi45IDY5LjUtMzUuN2w3LjQtNy40TDIwMCA4OS40IDIyMi42IDExMnptNzguMSAxMS4zTDI4OS40IDExMiAzMTIgODkuNGwxMS4zIDExLjMgNy40IDcuNGMxOC45IDE4LjkgNDMuMiAzMS40IDY5LjUgMzUuN2wyLjUgLjQgMTUuOCAyLjYtNS4zIDMxLjYtMTUuOC0yLjYtMi41LS40Yy0zMi45LTUuNS02My4zLTIxLjEtODYuOC00NC43bC03LjQtNy40ek0xMTIgMjA4bDExOC45IDY0TDExMiAzMzZsNDUuNy02NEwxMTIgMjA4em0xNjkuMSA2NEw0MDAgMjA4bC00NS43IDY0TDQwMCAzMzYgMjgxLjEgMjcyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-persevering](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-persevering.svg)
  */
 const FacePersevering: typeof Icon = x => (
     <Icon {...x}>

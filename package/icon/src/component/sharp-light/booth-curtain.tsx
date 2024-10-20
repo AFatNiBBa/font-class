@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `booth-curtain` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/booth-curtain?s=sharp-light booth-curtain}
- * @preview ![booth-curtain](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDAgMTYgMCA0OTZsMCAxNiAzMiAwIDAtMTZMMzIgMzJsMzIgMEw2NCAwIDE2IDAgMCAwek0yODggMzJsMCAzNTJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zNTIgNjQgMHpNMjU2IDQ0OGMxOS4xIDAgMzYuMy04LjQgNDgtMjEuN2MxMS43IDEzLjMgMjguOSAyMS43IDQ4IDIxLjdzMzYuMy04LjQgNDgtMjEuN2MxMS43IDEzLjMgMjguOSAyMS43IDQ4IDIxLjdjMTEuNyAwIDIyLjYtMy4xIDMyLTguNmwwIDU2LjYgMCAxNiAzMiAwIDAtMTYgMC0xMTIgMC0zMzYgMC0zMiAwLTE2TDQ5NiAwIDk2IDBsMCAxNiAwIDE2IDAgMzUyYzAgMzUuMyAyOC43IDY0IDY0IDY0YzE5LjEgMCAzNi4zLTguNCA0OC0yMS43YzExLjcgMTMuMyAyOC45IDIxLjcgNDggMjEuN3pNNDgwIDQ4bDAgMzM2YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtMzUyIDY0IDAgMCAxNnpNMzg0IDMybDAgMzUyYzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtMzUyIDY0IDB6TTE5MiAzODRjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zNTIgNjQgMCAwIDM1MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![booth-curtain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/booth-curtain.svg)
  */
 const BoothCurtain: typeof Icon = x => (
     <Icon {...x}>

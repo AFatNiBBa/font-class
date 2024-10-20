@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chevrons-up` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chevrons-up?s=sharp-thin chevrons-up}
- * @preview ![chevrons-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYxLjcgNTAuM0wyNTYgNDQuN2wtNS43IDUuNy0yMDggMjA4TDM2LjcgMjY0IDQ4IDI3NS4zbDUuNy01LjdMMjU2IDY3LjMgNDU4LjMgMjY5LjdsNS43IDUuN0w0NzUuMyAyNjRsLTUuNy01LjctMjA4LTIwOHptMCAxOTJsLTUuNy01LjctNS43IDUuNy0yMDggMjA4TDM2LjcgNDU2IDQ4IDQ2Ny4zbDUuNy01LjdMMjU2IDI1OS4zIDQ1OC4zIDQ2MS43bDUuNyA1LjdMNDc1LjMgNDU2bC01LjctNS43LTIwOC0yMDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chevrons-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chevrons-up.svg)
  */
 const ChevronsUp: typeof Icon = x => (
     <Icon {...x}>

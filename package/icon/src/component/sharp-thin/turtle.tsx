@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turtle` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turtle?s=sharp-thin turtle}
- * @preview ![turtle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDQ4QzExOS42IDQ4IDQ4IDExOS42IDQ4IDIwOGwwIDU2IDAgOC0xNiAwIDAtOCAwLTU2YzAtOTcuMiA3OC44LTE3NiAxNzYtMTc2czE3NiA3OC44IDE3NiAxNzZsMCA1NiAwIDgtMTYgMCAwLTggMC01NmMwLTg4LjQtNzEuNi0xNjAtMTYwLTE2MHptMjA4IDgwbDggMCA2NCAwYzQ4LjYgMCA4OCAzOS40IDg4IDg4bDAgNjQgMCA4LTggMC04MCAwIDAgODggMCA4LTggMC0xNDQgMCAwIDg4IDAgOC04IDAtODAgMC04IDAgMC04IDAtODgtNjQgMCAwIDg4IDAgOC04IDAtODAgMC04IDAgMC04IDAtODhMOCAzODRsLTggMCAwLTggMC02NCAwLTggOCAwIDQwOCAwIDAtMTY4IDAtOHpNMjQwIDM2OGwxNiAwIDAgMTYgMCAzMiAwIDQ4IDY0IDAgMC00OCAwLTMyIDAtMTYgMTYgMCAxMzYgMCAwLTg4IDAtOCA4IDAgODAgMCAwLTU2YzAtMzkuOC0zMi4yLTcyLTcyLTcybC01NiAwIDAgMTY4IDAgOC04IDAtMTA0IDAtNjQgMC05NiAwLTY0IDAtODAgMCAwIDQ4IDY0IDAgMTYgMCAwIDE2IDAgMzIgMCA0OCA2NCAwIDAtNDggMC0zMiAwLTE2IDE2IDAgNjQgMHpNNDk2IDE5MmExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![turtle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/turtle.svg)
  */
 const Turtle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-waterfall` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-waterfall?s=light chart-waterfall}
- * @preview ![chart-waterfall](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJjOC44IDAgMTYgNy4yIDE2IDE2bDAgMzUyYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDQxNiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2TDgwIDQ4MGMtNDQuMiAwLTgwLTM1LjgtODAtODBMMCA0OGMwLTguOCA3LjItMTYgMTYtMTZ6TTE0NCAyMjRjOC44IDAgMTYgNy4yIDE2IDE2bDAgOTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC05NmMwLTguOCA3LjItMTYgMTYtMTZ6bTExMi04MGwwIDk2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtOTZjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNnptODAtODBjOC44IDAgMTYgNy4yIDE2IDE2bDAgOTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC05NmMwLTguOCA3LjItMTYgMTYtMTZ6TTQ0OCA4MGwwIDI1NmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTI1NmMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-waterfall](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chart-waterfall.svg)
  */
 const ChartWaterfall: typeof Icon = x => (
     <Icon {...x}>

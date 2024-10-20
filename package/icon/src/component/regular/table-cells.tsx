@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-cells` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells?s=regular table-cells}
- * @preview ![table-cells](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYwIDgwbDAgODggMTA0IDAgMC03MmMwLTguOC03LjItMTYtMTYtMTZsLTg4IDB6bS00OCAwTDIwMCA4MGwwIDg4IDExMiAwIDAtODh6TTE1MiA4MEw2NCA4MGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNzIgMTA0IDAgMC04OHpNNDggMjE2bDAgODAgMTA0IDAgMC04MEw0OCAyMTZ6bTAgMTI4bDAgNzJjMCA4LjggNy4yIDE2IDE2IDE2bDg4IDAgMC04OEw0OCAzNDR6bTE1MiA4OGwxMTIgMCAwLTg4LTExMiAwIDAgODh6bTE2MCAwbDg4IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtNzItMTA0IDAgMCA4OHpNNDY0IDI5NmwwLTgwLTEwNCAwIDAgODAgMTA0IDB6TTAgOTZDMCA2MC43IDI4LjcgMzIgNjQgMzJsMzg0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAzMjBjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNDgwYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDk2ek0yMDAgMjk2bDExMiAwIDAtODAtMTEyIDAgMCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![table-cells](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/table-cells.svg)
  */
 const TableCells: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shower` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shower?s=sharp-thin shower}
- * @preview ![shower](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAzMkwwIDMybDAgOEwwIDQ3MmwwIDggMTYgMCAwLThMMTYgNDhsODQuNyAwIDUzLjcgNTMuNyAxIDFjLTM4LjIgNDQtMzYuNCAxMTAuNyA1LjUgMTUyLjVsMTguMyAxOC4zLTE2LjggMTYuOC01LjcgNS43TDE2OCAzMDcuM2w1LjctNS43IDE5Mi0xOTIgNS43LTUuN0wzNjAgOTIuN2wtNS43IDUuNy0xNi44IDE2LjhMMzE5LjIgOTYuOEMyNzcuNCA1NSAyMTAuNyA1My4xIDE2Ni43IDkxLjNsLTEtMS01Ni01NkwxMDcuMyAzMiAxMDQgMzIgOCAzMnptMzE4LjIgOTQuNUwxOTAuNSAyNjIuMmwtMTguMy0xOC4zYy0zNy41LTM3LjUtMzcuNS05OC4zIDAtMTM1LjhzOTguMy0zNy41IDEzNS44IDBsMTguMyAxOC4zek00MTYgMjA4YTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6bS04MCA4MGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bS00OCA0OGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwem04MCA0OGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bS02NCA2NGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6TTQzMiAzMjBhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyem04MC04MGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shower](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shower.svg)
  */
 const Shower: typeof Icon = x => (
     <Icon {...x}>

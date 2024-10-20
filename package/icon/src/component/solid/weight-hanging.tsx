@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `weight-hanging` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/weight-hanging?s=solid weight-hanging}
- * @preview ![weight-hanging](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDk2YTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6bTEyMi41IDMyYzMuNS0xMCA1LjUtMjAuOCA1LjUtMzJjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZjMCAxMS4yIDEuOSAyMiA1LjUgMzJMMTIwIDEyOGMtMjIgMC00MS4yIDE1LTQ2LjYgMzYuNGwtNzIgMjg4Yy0zLjYgMTQuMy0uNCAyOS41IDguNyA0MS4yUzMzLjIgNTEyIDQ4IDUxMmw0MTYgMGMxNC44IDAgMjguNy02LjggMzcuOC0xOC41czEyLjMtMjYuOCA4LjctNDEuMmwtNzItMjg4QzQzMy4yIDE0MyA0MTQgMTI4IDM5MiAxMjhsLTQ1LjUgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![weight-hanging](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/weight-hanging.svg)
  */
 const WeightHanging: typeof Icon = x => (
     <Icon {...x}>

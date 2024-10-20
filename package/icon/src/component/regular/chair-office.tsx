@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chair-office` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chair-office?s=regular chair-office}
- * @preview ![chair-office](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDQ4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDE2MCA0OCAwIDAtMTYwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDE2MCAwQzEyNC43IDAgOTYgMjguNyA5NiA2NGwwIDE2MCA0OCAwIDAtMTYwYzAtOC44IDcuMi0xNiAxNi0xNmwxMjggMHpNNjQgMTUyYzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgNjRjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTY0em0zNjggMGMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDY0YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC02NHpNMjQ4IDQwMGwxMjIuNSAwYzI1LjIgMCA0NS41LTIwLjQgNDUuNS00NS41YzAtNS41LTEtMTAuOS0yLjktMTZsLTE5LjItNTEuM2MtNy0xOC43LTI0LjktMzEuMS00NC45LTMxLjFMOTkuMSAyNTZjLTIwIDAtMzcuOSAxMi40LTQ0LjkgMzEuMUwzNC45IDMzOC41QzMzIDM0My42IDMyIDM0OSAzMiAzNTQuNUMzMiAzNzkuNiA1Mi40IDQwMCA3Ny41IDQwMEwyMDAgNDAwbDAgNjQtNDggMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw3MiAwIDcyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTQ4IDAgMC02NHpNOTkuMSAzMDRsMjQ5LjggMCAxOCA0OEwyMjQgMzUyIDgxLjEgMzUybDE4LTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chair-office](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chair-office.svg)
  */
 const ChairOffice: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

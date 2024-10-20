@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-plus?s=thin trash-plus}
- * @preview ![trash-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU3LjQgMjcuM0wxMzQuNCA2NGwxNzkuMSAwLTIzLTM2LjdjLTQuNC03LTEyLjEtMTEuMy0yMC40LTExLjNsLTkyLjUgMGMtOC4zIDAtMTYgNC4zLTIwLjQgMTEuM3pNMTE1LjYgNjRsMjguMi00NS4yQzE1MS4xIDcuMSAxNjMuOSAwIDE3Ny43IDBsOTIuNSAwYzEzLjggMCAyNi42IDcuMSAzMy45IDE4LjhMMzMyLjQgNjQgNDQwIDY0YzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDggODBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsMTA3LjYgMHpNMzkuMyAxMTJjNC40LS40IDguMyAyLjkgOC42IDcuM2wyOC4zIDM0MEM3OCA0ODAuMSA5NS40IDQ5NiAxMTYuMiA0OTZsMjE1LjcgMGMyMC44IDAgMzguMS0xNS45IDM5LjktMzYuN2wyOC4zLTM0MGMuNC00LjQgNC4yLTcuNyA4LjYtNy4zczcuNyA0LjIgNy4zIDguNmwtMjguMyAzNDBjLTIuNCAyOS0yNi43IDUxLjQtNTUuOCA1MS40bC0yMTUuNyAwYy0yOS4xIDAtNTMuNC0yMi4zLTU1LjgtNTEuNEwzMiAxMjAuN2MtLjQtNC40IDIuOS04LjMgNy4zLTguNnpNMjE2IDM4NGwwLTg4LTg4IDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsODggMCAwLTg4YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhsMCA4OCA4OCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC04OCAwIDAgODhjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trash-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/trash-plus.svg)
  */
 const TrashPlus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

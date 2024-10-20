@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `utensils` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utensils?s=sharp-solid utensils}
- * @preview ![utensils](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTYwTDY0IDAgMzIgMCAwIDE2MGMwIDQ3LjYgMzQuNiA4Ny4xIDgwIDk0LjdMODAgNDgwbDAgMzIgNjQgMCAwLTMyIDAtMjI1LjNjNDUuNC03LjYgODAtNDcuMSA4MC05NC43TDE5MiAwIDE2MCAwbDAgMTYwLTE2IDBMMTI4IDAgOTYgMCA4MCAxNjBsLTE2IDB6TTQ0OCAwQzQxNiAwIDI4OCAzMiAyODggMTc2bDAgMTc2IDk2IDAgMCAxMjggMCAzMiA2NCAwIDAtMzIgMC0xMjggMC0xMTIgMC0zMkw0NDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![utensils](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/utensils.svg)
  */
 const Utensils: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `utensils` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utensils?s=solid utensils}
- * @preview ![utensils](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDBDNDAwIDAgMjg4IDMyIDI4OCAxNzZsMCAxMTJjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIgMCAwIDEyOGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMTI4IDAtMTEyIDAtMjA4YzAtMTcuNy0xNC4zLTMyLTMyLTMyek02NCAxNkM2NCA3LjggNTcuOSAxIDQ5LjcgLjFTMzQuMiA0LjYgMzIuNCAxMi41TDIuMSAxNDguOEMuNyAxNTUuMSAwIDE2MS41IDAgMTY3LjljMCA0NS45IDM1LjEgODMuNiA4MCA4Ny43TDgwIDQ4MGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMjI0LjRjNDQuOS00LjEgODAtNDEuOCA4MC04Ny43YzAtNi40LS43LTEyLjgtMi4xLTE5LjFMMTkxLjYgMTIuNWMtMS44LTgtOS4zLTEzLjMtMTcuNC0xMi40UzE2MCA3LjggMTYwIDE2bDAgMTM0LjJjMCA1LjQtNC40IDkuOC05LjggOS44Yy01LjEgMC05LjMtMy45LTkuOC05TDEyNy45IDE0LjZDMTI3LjIgNi4zIDEyMC4zIDAgMTEyIDBzLTE1LjIgNi4zLTE1LjkgMTQuNkw4My43IDE1MWMtLjUgNS4xLTQuNyA5LTkuOCA5Yy01LjQgMC05LjgtNC40LTkuOC05LjhMNjQgMTZ6bTQ4LjMgMTUybC0uMyAwLS4zIDAgLjMtLjcgLjMgLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![utensils](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/utensils.svg)
  */
 const Utensils: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

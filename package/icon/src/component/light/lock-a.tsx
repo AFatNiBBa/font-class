@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lock-a` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-a?s=light lock-a}
- * @preview ![lock-a](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyYzUzIDAgOTYgNDMgOTYgOTZsMCA2NC0xOTIgMCAwLTY0YzAtNTMgNDMtOTYgOTYtOTZ6TTk2IDEyOGwwIDY0LTE2IDBjLTQ0LjIgMC04MCAzNS44LTgwIDgwTDAgNDMyYzAgNDQuMiAzNS44IDgwIDgwIDgwbDI4OCAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwbDAtMTYwYzAtNDQuMi0zNS44LTgwLTgwLTgwbC0xNiAwIDAtNjRDMzUyIDU3LjMgMjk0LjcgMCAyMjQgMFM5NiA1Ny4zIDk2IDEyOHpNODAgMjI0bDI4OCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMTYwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDgwIDQ4MGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0xNjBjMC0yNi41IDIxLjUtNDggNDgtNDh6bTQ5LjcgMjAwLjhjLTQgNy45LS43IDE3LjUgNy4yIDIxLjVzMTcuNSAuNyAyMS41LTcuMkwxNzcuOSA0MDBsOTIuMiAwIDE5LjYgMzkuMmM0IDcuOSAxMy42IDExLjEgMjEuNSA3LjJzMTEuMS0xMy42IDcuMi0yMS41TDIzOC40IDI2NWMtLjgtMS42LTEuOC0zLTMuMS00LjNjLTEuNC0xLjQtMy4xLTIuNi01LTMuNGMtMi4xLS45LTQuMi0xLjMtNi40LTEuM3MtNC4zIC40LTYuNCAxLjNjLTEuOCAuOC0zLjUgMS45LTUgMy40Yy0xLjMgMS4zLTIuMyAyLjctMyA0LjNMMTI5LjcgNDI0Ljh6TTE5My45IDM2OEwyMjQgMzA3LjggMjU0LjEgMzY4bC02MC4yIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lock-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/lock-a.svg)
  */
 const LockA: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-plus?s=solid comment-plus}
- * @preview ![comment-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ0OGMxNDEuNCAwIDI1Ni05My4xIDI1Ni0yMDhTMzk3LjQgMzIgMjU2IDMyUzAgMTI1LjEgMCAyNDBjMCA0NS4xIDE3LjcgODYuOCA0Ny43IDEyMC45Yy0xLjkgMjQuNS0xMS40IDQ2LjMtMjEuNCA2Mi45Yy01LjUgOS4yLTExLjEgMTYuNi0xNS4yIDIxLjZjLTIuMSAyLjUtMy43IDQuNC00LjkgNS43Yy0uNiAuNi0xIDEuMS0xLjMgMS40bC0uMyAuM2MwIDAgMCAwIDAgMGMwIDAgMCAwIDAgMHMwIDAgMCAwczAgMCAwIDBjLTQuNiA0LjYtNS45IDExLjQtMy40IDE3LjRjMi41IDYgOC4zIDkuOSAxNC44IDkuOWMyOC43IDAgNTcuNi04LjkgODEuNi0xOS4zYzIyLjktMTAgNDIuNC0yMS45IDU0LjMtMzAuNmMzMS44IDExLjUgNjcgMTcuOSAxMDQuMSAxNy45ek0yMzIgMzI4bDAtNjQtNjQgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGw2NCAwIDAtNjRjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNGwwIDY0IDY0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTY0IDAgMCA2NGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![comment-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/comment-plus.svg)
  */
 const CommentPlus: typeof Icon = x => (
     <Icon {...x}>

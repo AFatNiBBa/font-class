@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `network-wired` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/network-wired?s=solid network-wired}
- * @preview ![network-wired](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDY0bDEyOCAwIDAgNjQtMTI4IDAgMC02NHpNMjQwIDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgOTZjMCAyNi41IDIxLjUgNDggNDggNDhsNDggMCAwIDMyTDMyIDIyNGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmw5NiAwIDAgMzItNDggMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCA5NmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwxNjAgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTk2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC00OCAwIDAtMzIgMjU2IDAgMCAzMi00OCAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDk2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDE2MCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtOTZjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTQ4IDAgMC0zMiA5NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0yNTYgMCAwLTMyIDQ4IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC05NmMwLTI2LjUtMjEuNS00OC00OC00OEwyNDAgMHpNOTYgNDQ4bDAtNjQgMTI4IDAgMCA2NEw5NiA0NDh6bTMyMC02NGwxMjggMCAwIDY0LTEyOCAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![network-wired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/network-wired.svg)
  */
 const NetworkWired: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

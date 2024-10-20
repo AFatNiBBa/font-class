@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `print` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/print?s=light print}
- * @preview ![print](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMTYwbC0zMiAwIDAtOTZDNjQgMjguNyA5Mi43IDAgMTI4IDBMMzU3LjUgMGMxNyAwIDMzLjMgNi43IDQ1LjMgMTguN2wyNi41IDI2LjVjMTIgMTIgMTguNyAyOC4zIDE4LjcgNDUuM2wwIDY5LjUtMzIgMCAwLTY5LjVjMC04LjUtMy40LTE2LjYtOS40LTIyLjZMMzgwLjEgNDEuNGMtNi02LTE0LjEtOS40LTIyLjYtOS40TDEyOCAzMmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA5NnptMzUyIDY0TDY0IDIyNGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAxMjggMzIgMCAwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDMyMCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzIgMzIgMCAwLTEyOGMwLTE3LjctMTQuMy0zMi0zMi0zMnptMCAxOTJsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMkw5NiA1MTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNjQtMzIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJMMCAyNTZjMC0zNS4zIDI4LjctNjQgNjQtNjRsMzg0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAxMjhjMCAxNy43LTE0LjMgMzItMzIgMzJsLTMyIDB6TTk2IDM1MmwwIDEyOCAzMjAgMCAwLTEyOEw5NiAzNTJ6TTQzMiAyNDhhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![print](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/print.svg)
  */
 const Print: typeof Icon = x => (
     <Icon {...x}>

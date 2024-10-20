@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `neuter` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/neuter?s=solid neuter}
- * @preview ![neuter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMTc2YTExMiAxMTIgMCAxIDEgMjI0IDBBMTEyIDExMiAwIDEgMSA4MCAxNzZ6TTIyNCAzNDkuMWM4MS45LTE1IDE0NC04Ni44IDE0NC0xNzMuMUMzNjggNzguOCAyODkuMiAwIDE5MiAwUzE2IDc4LjggMTYgMTc2YzAgODYuMyA2Mi4xIDE1OC4xIDE0NCAxNzMuMUwxNjAgNDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0xMzAuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![neuter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/neuter.svg)
  */
 const Neuter: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

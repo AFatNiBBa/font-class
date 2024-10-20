@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `block-quote` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-quote?s=light block-quote}
- * @preview ![block-quote](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgODBDNy4yIDgwIDAgODcuMiAwIDk2czcuMiAxNiAxNiAxNmw0MTYgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkwxNiA4MHpNMTQ0IDI0MGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwyODggMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMjg4IDB6TTEyOCA0MTZjMCA4LjggNy4yIDE2IDE2IDE2bDI4OCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0yODggMGMtOC44IDAtMTYgNy4yLTE2IDE2ek0wIDQzMmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMTkyYzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2TDAgNDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![block-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/block-quote.svg)
  */
 const BlockQuote: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

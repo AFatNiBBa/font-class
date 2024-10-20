@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `note-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/note-medical?s=regular note-medical}
- * @preview ![note-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDgwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDIyNC04MCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDgwTDY0IDQzMmMtOC44IDAtMTYtNy4yLTE2LTE2TDQ4IDk2YzAtOC44IDcuMi0xNiAxNi0xNmwzMjAgMHpNNjQgNDgwbDIyNCAwIDUuNSAwYzE3IDAgMzMuMy02LjcgNDUuMy0xOC43bDkwLjUtOTAuNWMxMi0xMiAxOC43LTI4LjMgMTguNy00NS4zbDAtNS41IDAtMjI0YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjR6TTE5MiAxNDRsMCA0OC00OCAwYy04LjggMC0xNiA3LjItMTYgMTZsMCAzMmMwIDguOCA3LjIgMTYgMTYgMTZsNDggMCAwIDQ4YzAgOC44IDcuMiAxNiAxNiAxNmwzMiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTQ4IDQ4IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMzJjMC04LjgtNy4yLTE2LTE2LTE2bC00OCAwIDAtNDhjMC04LjgtNy4yLTE2LTE2LTE2bC0zMiAwYy04LjggMC0xNiA3LjItMTYgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![note-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/note-medical.svg)
  */
 const NoteMedical: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

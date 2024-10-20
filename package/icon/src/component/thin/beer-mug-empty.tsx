@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `beer-mug-empty` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/beer-mug-empty?s=thin beer-mug-empty}
- * @preview ![beer-mug-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDQwIDAgMjYzLjggMCAuNCAwIDQ3LjhjMCAyNi41LTIxLjUgNDgtNDggNDhMOTYgNDY0Yy0yNi41IDAtNDgtMjEuNS00OC00OEw0OCA2NGMwLTguOCA3LjItMTYgMTYtMTZsMjg4IDB6bTMyIDM2OGwwLTQyLjggODQuOS0zNy4xYzI2LjItMTEuNSA0My4xLTM3LjQgNDMuMS02Nkw1MTIgMTUyYzAtMzAuOS0yNS4xLTU2LTU2LTU2bC03MiAwIDAtMzJjMC0xNy43LTE0LjMtMzItMzItMzJMNjQgMzJDNDYuMyAzMiAzMiA0Ni4zIDMyIDY0bDAgMzUyYzAgMzUuMyAyOC43IDY0IDY0IDY0bDIyNCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0em03OC40LTk0LjZMMzg0IDM1NS44IDM4NCAxMTJsNzIgMGMyMi4xIDAgNDAgMTcuOSA0MCA0MGwwIDExOC4xYzAgMjIuMi0xMy4yIDQyLjQtMzMuNiA1MS4zek0xNDQgMTM2YzAtNC40LTMuNi04LTgtOHMtOCAzLjYtOCA4bDAgMjQwYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0yNDB6bTcyIDBjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCAyNDBjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTI0MHptNzIgMGMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDI0MGMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtMjQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![beer-mug-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/beer-mug-empty.svg)
  */
 const BeerMugEmpty: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tent` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent?s=regular tent}
- * @preview ![tent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc0LjQgNC4yYzguMi01LjcgMTktNS43IDI3LjMgMEw1MjEuNSAxNTUuOWMxMy41IDkuMyAyMi4yIDI0IDIzLjkgNDAuMmwyNi43IDI1NGMzLjUgMzMuMS0yMi40IDYxLjktNTUuNyA2MS45TDQ0MCA1MTJsLTE3NiAwTDU5LjUgNTEyQzI2LjMgNTEyIC40IDQ4My4yIDMuOSA0NTAuMWwyNi43LTI1NGMxLjctMTYuMyAxMC40LTMxIDIzLjktNDAuMkwyNzQuNCA0LjJ6TTUxNi41IDQ2NGM0LjcgMCA4LjUtNC4xIDgtOC44bC0yNi43LTI1NGMtLjItMi4zLTEuNS00LjQtMy40LTUuN0wzMTIgNjkuN2wwIDIwOS42TDQxMy42IDQ2NGwxMDIuOSAwek0yNjQgNjkuN0w4MS43IDE5NS40Yy0xLjkgMS4zLTMuMiAzLjQtMy40IDUuN2wtMjYuNyAyNTRjLS41IDQuNyAzLjIgOC44IDggOC44TDI2NCA0NjRsMC0xMzYgMC0xMzYgMC0xMjIuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tent.svg)
  */
 const Tent: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

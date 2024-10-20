@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bin-bottles` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-bottles?s=solid bin-bottles}
- * @preview ![bin-bottles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDBsODAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDhjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZMMTI4IDY0Yy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDAtOGMwLTEzLjMgMTAuNy0yNCAyNC0yNHpNMzIgMTkyYzAtNTMgNDMtOTYgOTYtOTZsMTI4IDBjMjQuOSAwIDQ3LjYgOS41IDY0LjYgMjVjMS4xIDEgMi4yIDIgMy4yIDMuMUMzNDEuMyAxNDEuNSAzNTIgMTY1LjUgMzUyIDE5MkwzMiAxOTJ6bTM1MiAwYzAtNDAuNy0xOS03Ni45LTQ4LjYtMTAwLjRjNS4yLTUuNiAxMS41LTEwLjMgMTguNi0xMy42bDEzLjItNi4yYzUuMy0yLjUgMTAuOC00LjQgMTYuNC01LjdsMC00Mi4xYzAtMTMuMyAxMC43LTI0IDI0LTI0bDgwIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA0Mi4xYzUuNiAxLjMgMTEuMSAzLjIgMTYuNCA1LjdMNTQxLjIgNzhjMjEgOS45IDM0LjQgMzEgMzQuNCA1NC4yYzAgMTIuMy0zLjcgMjMuOC0xMC4xIDMzLjNjNSA3LjggOC40IDE2LjkgOS42IDI2LjVMMzg0IDE5MnpNMCAyNTZjMC0xNy43IDE0LjMtMzIgMzItMzJsNTc2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMNTgzLjggNDU3Yy00LjUgMzEuNS0zMS41IDU1LTYzLjQgNTVsLTQwMSAwYy0zMS44IDAtNTguOS0yMy40LTYzLjQtNTVMMzIgMjg4Yy0xNy43IDAtMzItMTQuMy0zMi0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bin-bottles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bin-bottles.svg)
  */
 const BinBottles: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `keynote` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keynote?s=sharp-thin keynote}
- * @preview ![keynote](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyIDE2YzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0TDIwOCA2NGwwLTQ4IDEwNCAwek0yMDggMEwxOTIgMGwwIDE2IDAgMTYtOCAwYy0zOS44IDAtNzIgMzIuMi03MiA3MmwwIDQwLTQ4IDBMMCAyNzJsMCAyNCAwIDU2IDAgMTYgMTYgMCA0ODAgMCAxNiAwIDAtMTYgMC01NiAwLTI0TDQ0OCAxNDRsLTMyMCAwIDAtNDBjMC0zMC45IDI1LjEtNTYgNTYtNTZsOCAwIDAgMTYgMCAxNiAxNiAwIDEwNCAwYzIyLjEgMCA0MC0xNy45IDQwLTQwcy0xNy45LTQwLTQwLTQwTDIwOCAwek0xNiAzNTJsMC00OCA0ODAgMCAwIDQ4TDE2IDM1MnptMC02NGwwLTEyLjJMNzMuOSAxNjBsMzguMSAwIDE2IDAgMzEwLjEgMEw0OTYgMjc1LjhsMCAxMi4yTDE2IDI4OHpNMTI4IDQ5NmwwIDE2IDggMCAxMjAgMCAxMjAgMCA4IDAgMC0xNi04IDAtMTEyIDAgMC05Ni0xNiAwIDAgOTYtMTEyIDAtOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![keynote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/keynote.svg)
  */
 const Keynote: typeof Icon = x => (
     <Icon {...x}>

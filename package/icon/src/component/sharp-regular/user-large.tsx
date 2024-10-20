@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-large` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-large?s=sharp-regular user-large}
- * @preview ![user-large](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDE0NGE5NiA5NiAwIDEgMCAtMTkyIDAgOTYgOTYgMCAxIDAgMTkyIDB6bS0yNDAgMGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwek03MiA0NjRsMzY4IDAtNDAtOTYtMjg4IDBMNzIgNDY0em04LTE0NGwzNTIgMCA2MCAxNDQgMjAgNDgtNTIgMEw1MiA1MTIgMCA1MTJsMjAtNDhMODAgMzIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-large](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-large.svg)
  */
 const UserLarge: typeof Icon = x => (
     <Icon {...x}>

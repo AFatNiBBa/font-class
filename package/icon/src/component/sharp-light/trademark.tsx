@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trademark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trademark?s=sharp-light trademark}
- * @preview ![trademark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NmwxNiAwIDIyNCAwIDE2IDAgMCAzMi0xNiAwTDE2IDEyOCAwIDEyOCAwIDk2ek0xMTIgNDAwbDAtMjcyIDMyIDAgMCAyNzIgMCAxNi0zMiAwIDAtMTZ6TTI4OCAxMTJsMC0xNiAyMy41IDAgNC44IDUuOEw0NjQgMjc5IDYxMS43IDEwMS44bDQuOC01LjhMNjQwIDk2bDAgMTYgMCAyODggMCAxNi0zMiAwIDAtMTYgMC0yNDMuOEw0NzYuMyAzMTQuMiA0NjQgMzI5bC0xMi4zLTE0LjdMMzIwIDE1Ni4yIDMyMCA0MDBsMCAxNi0zMiAwIDAtMTYgMC0yODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trademark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/trademark.svg)
  */
 const Trademark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

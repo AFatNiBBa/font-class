@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-strong` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-strong?s=regular signal-strong}
- * @preview ![signal-strong](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDk2YzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMzY4YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMzY4YzAtMTMuMyAxMC43LTI0IDI0LTI0ek0zMjAgMTkyYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMjcyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMjcyYzAtMTMuMyAxMC43LTI0IDI0LTI0ek0xOTIgMjg4YzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMTc2YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMTc2YzAtMTMuMyAxMC43LTI0IDI0LTI0ek02NCAzODRjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA4MGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTgwYzAtMTMuMyAxMC43LTI0IDI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![signal-strong](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/signal-strong.svg)
  */
 const SignalStrong: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

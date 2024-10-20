@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `radio-tuner` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/radio-tuner?s=light radio-tuner}
- * @preview ![radio-tuner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTAwLjEgMzEuNWM4LjUtMi4zIDEzLjYtMTEgMTEuMy0xOS42cy0xMS0xMy42LTE5LjYtMTEuM0w1OS40IDExNS45Yy0zMS4zIDguNC01NC4xIDM0LjYtNTguNiA2NkMuMyAxODUuMiAwIDE4OC41IDAgMTkybDAgMS4yTDAgMjQwIDAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjU2YzAtMzUuMy0yOC43LTY0LTY0LTY0bC0zMDkuOSAwIDM2Mi05Ni41ek0zMiAxOTMuMmMwLTIuMiAuMS00LjMgLjQtNi40QzM0LjkgMTcxLjYgNDguMSAxNjAgNjQgMTYwbDM4NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzJMMzIgMjI0bDAtMzAuOHpNMzIgNDQ4bDAtMTkyIDQ0OCAwIDAgMTkyYzAgMTcuNy0xNC4zIDMyLTMyIDMyTDY0IDQ4MGMtMTcuNyAwLTMyLTE0LjMtMzItMzJ6TTgwIDMyMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxMjggMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkw4MCAzMjB6bTE2IDY0Yy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDk2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTk2IDB6bTI3MiAzMmE0OCA0OCAwIDEgMSAwLTk2IDQ4IDQ4IDAgMSAxIDAgOTZ6bS04MC00OGE4MCA4MCAwIDEgMCAxNjAgMCA4MCA4MCAwIDEgMCAtMTYwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![radio-tuner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/radio-tuner.svg)
  */
 const RadioTuner: typeof Icon = x => (
     <Icon {...x}>

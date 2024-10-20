@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gift-card` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gift-card?s=sharp-light gift-card}
- * @preview ![gift-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk3LjEgMzJjLTE3LjYgMC0zMy45IDktNDMuMiAyMy45bC00NSA3Mi4xIDExLjEgMCA4MCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4cy0yMS41LTQ4LTQ4LTQ4bC0yLjkgMHptLTEzMCA5NmwtNDUtNzIuMUMyMTIuOCA0MSAxOTYuNSAzMiAxNzguOSAzMkwxNzYgMzJjLTI2LjUgMC00OCAyMS41LTQ4IDQ4czIxLjUgNDggNDggNDhsODAgMCAxMS4xIDB6TTI4OCAxMDFsMzguOC02MmMxNS4xLTI0LjIgNDEuNy0zOSA3MC4zLTM5TDQwMCAwYzQ0LjIgMCA4MCAzNS44IDgwIDgwYzAgMTgtNiAzNC42LTE2IDQ4bDgwIDAgMzIgMCAwIDMyIDAgMzIwIDAgMzItMzIgMEwzMiA1MTIgMCA1MTJsMC0zMkwwIDE2MGwwLTMyIDMyIDAgODAgMGMtMTAtMTMuNC0xNi0zMC0xNi00OGMwLTQ0LjIgMzUuOC04MCA4MC04MGwyLjkgMGMyOC42IDAgNTUuMiAxNC43IDcwLjMgMzlMMjg4IDEwMXpNMTc2IDE2MEwzMiAxNjBsMCAxMjggNTEyIDAgMC0xMjgtMTQ0IDAtNzcuOCAwIDU4LjEgNjkuOEwzOTAuNSAyNDIgMzY2IDI2Mi41bC0xMC4yLTEyLjNMMjg4IDE2OWwtNjcuNyA4MS4zTDIxMCAyNjIuNSAxODUuNSAyNDJsMTAuMi0xMi4zTDI1My44IDE2MCAxNzYgMTYwek0zMiAzMjBsMCA2NCA1MTIgMCAwLTY0TDMyIDMyMHpNNTQ0IDQ4MGwwLTY0TDMyIDQxNmwwIDY0IDUxMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gift-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gift-card.svg)
  */
 const GiftCard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

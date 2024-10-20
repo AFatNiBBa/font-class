@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mars-double` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-double?s=thin mars-double}
- * @preview ![mars-double](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjM3LjcgMzQuM2MxLjUgMS41IDIuMyAzLjUgMi4zIDUuN2wwIDE0NGMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTEyNC43LTEyNiAxMjZjNjMuMSA2OS4xIDYxLjMgMTc2LjMtNS41IDI0My4xYy00OC42IDQ4LjYtMTE4LjUgNjIuOC0xNzkuNiA0Mi43YzQuOC00IDkuNS04LjIgMTQtMTIuNWM1My4zIDE0LjEgMTEyLjUgLjMgMTU0LjMtNDEuNWM2Mi41LTYyLjUgNjIuNS0xNjMuOCAwLTIyNi4zYy0zLjEtMy4xLTMuMS04LjIgMC0xMS4zTDYxMi43IDQ4IDQ4OCA0OGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGwxNDQgMGMyLjEgMCA0LjIgLjggNS43IDIuM3pNMjk2IDQ4Yy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDE0NCAwYzQuNCAwIDggMy42IDggOGwwIDE0NGMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTEyNC43LTEyNiAxMjZjMjguNiAzMS4zIDQ2IDcyLjkgNDYgMTE4LjdjMCA5Ny4yLTc4LjggMTc2LTE3NiAxNzZTMCA0MDEuMiAwIDMwNHM3OC44LTE3NiAxNzYtMTc2YzQ1LjcgMCA4Ny40IDE3LjQgMTE4LjcgNDZsMTI2LTEyNkwyOTYgNDh6TTE3NiA0NjRhMTYwIDE2MCAwIDEgMCAwLTMyMCAxNjAgMTYwIDAgMSAwIDAgMzIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mars-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mars-double.svg)
  */
 const MarsDouble: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

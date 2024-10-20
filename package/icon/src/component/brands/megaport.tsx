@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `megaport` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/megaport?s=brands megaport}
- * @preview ![megaport](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE0LjUgMjA5LjZ2NjYuMmwzMy41IDMzLjUgMzMuMy0zMy4zdi02Ni40bC0zMy40LTMzLjR6TTI0OCA4QzExMSA4IDAgMTE5IDAgMjU2czExMSAyNDggMjQ4IDI0OCAyNDgtMTExIDI0OC0yNDhTMzg1IDggMjQ4IDh6bTE0NS4xIDQxNC40TDM2NyA0NDEuNmwtMjYtMTkuMnYtNjUuNWwtMzMuNC0zMy40LTMzLjQgMzMuNHY2NS41TDI0OCA0NDEuNmwtMjYuMS0xOS4ydi02NS41bC0zMy40LTMzLjQtMzMuNSAzMy40djY1LjVsLTI2LjEgMTkuMi0yNi4xLTE5LjJ2LTg3bDU5LjUtNTkuNVYxODhsNTkuNS01OS41VjUyLjlsMjYuMS0xOS4yTDI3NCA1Mi45djc1LjZsNTkuNSA1OS41djg3LjZsNTkuNyA1OS43djg3LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![megaport](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/megaport.svg)
  */
 const Megaport: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

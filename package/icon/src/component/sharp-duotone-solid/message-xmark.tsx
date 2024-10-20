@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `message-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-xmark?s=sharp-duotone-solid message-xmark}
- * @preview ![message-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDBMNTEyIDBsMCA0MTYtMjA4IDBMMTYwIDUxMmwwLTk2TDAgNDE2IDAgMHpNMTU4LjEgMTQ0YzUuNyA1LjcgMTEuMyAxMS4zIDE3IDE3YzE1LjcgMTUuNyAzMS40IDMxLjQgNDcgNDdjLTE1LjcgMTUuNy0zMS40IDMxLjQtNDcgNDdjLTUuNyA1LjctMTEuMyAxMS4zLTE3IDE3YzExLjMgMTEuMyAyMi42IDIyLjYgMzMuOSAzMy45YzUuNy01LjcgMTEuMy0xMS4zIDE3LTE3YzE1LjctMTUuNyAzMS40LTMxLjQgNDctNDdsNDcgNDcgMTcgMTdMMzUzLjkgMjcybC0xNy0xNy00Ny00N2MxNS43LTE1LjcgMzEuNC0zMS40IDQ3LTQ3bDE3LTE3Yy0xMS4zLTExLjMtMjIuNi0yMi42LTMzLjktMzMuOWMtNS43IDUuNy0xMS4zIDExLjMtMTcgMTdjLTE1LjcgMTUuNy0zMS40IDMxLjQtNDcgNDdjLTE1LjctMTUuNy0zMS40LTMxLjQtNDctNDdjLTUuNy01LjctMTEuMy0xMS4zLTE3LTE3Yy0xMS4zIDExLjMtMjIuNiAyMi42LTMzLjkgMzMuOXoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTMzNyAxNjFsMTctMTdMMzIwIDExMC4xbC0xNyAxNy00NyA0Ny00Ny00Ny0xNy0xN0wxNTguMSAxNDRsMTcgMTcgNDcgNDctNDcgNDctMTcgMTdMMTkyIDMwNS45bDE3LTE3IDQ3LTQ3IDQ3IDQ3IDE3IDE3TDM1My45IDI3MmwtMTctMTctNDctNDcgNDctNDd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![message-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/message-xmark.svg)
  */
 const MessageXmark: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 0L512 0l0 416-208 0L160 512l0-96L0 416 0 0zM158.1 144c5.7 5.7 11.3 11.3 17 17c15.7 15.7 31.4 31.4 47 47c-15.7 15.7-31.4 31.4-47 47c-5.7 5.7-11.3 11.3-17 17c11.3 11.3 22.6 22.6 33.9 33.9c5.7-5.7 11.3-11.3 17-17c15.7-15.7 31.4-31.4 47-47l47 47 17 17L353.9 272l-17-17-47-47c15.7-15.7 31.4-31.4 47-47l17-17c-11.3-11.3-22.6-22.6-33.9-33.9c-5.7 5.7-11.3 11.3-17 17c-15.7 15.7-31.4 31.4-47 47c-15.7-15.7-31.4-31.4-47-47c-5.7-5.7-11.3-11.3-17-17c-11.3 11.3-22.6 22.6-33.9 33.9z" />
-            <path d="M337 161l17-17L320 110.1l-17 17-47 47-47-47-17-17L158.1 144l17 17 47 47-47 47-17 17L192 305.9l17-17 47-47 47 47 17 17L353.9 272l-17-17-47-47 47-47z" />
+        <path d="M337 161l17-17L320 110.1l-17 17-47 47-47-47-17-17L158.1 144l17 17 47 47-47 47-17 17L192 305.9l17-17 47-47 47 47 17 17L353.9 272l-17-17-47-47 47-47z" />
     </Icon>
 );
 

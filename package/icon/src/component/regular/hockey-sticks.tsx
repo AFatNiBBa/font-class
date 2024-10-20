@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hockey-sticks` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-sticks?s=regular hockey-sticks}
- * @preview ![hockey-sticks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTczLjMgMTNMMzAyIDI2MS43IDI4OC40IDI4OGwtMjYuOSAwTDEzMC43IDM1QzEyNC42IDIzLjMgMTI5LjIgOC44IDE0MSAyLjdzMjYuMy0xLjUgMzIuMyAxMC4zek0zNzMuMSAzNjhsMjQuOC00OEw1NzYgMzIwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgNjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTE1NC44IDBjLTI2LjkgMC01MS42LTE1LTY0LTM4LjlMMzM4IDQzNS45bDI3LTUyLjJMMzk5LjkgNDUxYzQuMSA4IDEyLjMgMTMgMjEuMyAxM2w3NC44IDAgMC05Ni0xMjIuOSAwek01NDQgMzY4bDAgOTYgMzIgMGM4LjggMCAxNi03LjIgMTYtMTZsMC02NGMwLTguOC03LjItMTYtMTYtMTZsLTMyIDB6TTQ5OSAyLjdjMTEuOCA2LjEgMTYuNCAyMC42IDEwLjMgMzIuM0wyODIuNyA0NzMuMWMtMTIuNCAyMy45LTM3IDM4LjktNjQgMzguOUw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0bDAtNjRjMC0zNS4zIDI4LjctNjQgNjQtNjRsMjQwIDBjMS4zIDAgMi41IC4xIDMuNyAuM0w0NjYuNyAxM0M0NzIuOCAxLjIgNDg3LjMtMy40IDQ5OSAyLjd6TTI4MyAzNjhsLTEzOSAwIDAgOTYgNzQuOCAwYzkgMCAxNy4yLTUgMjEuMy0xM0wyODMgMzY4ek02NCAzNjhjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDY0YzAgOC44IDcuMiAxNiAxNiAxNmwzMiAwIDAtOTYtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hockey-sticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hockey-sticks.svg)
  */
 const HockeySticks: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

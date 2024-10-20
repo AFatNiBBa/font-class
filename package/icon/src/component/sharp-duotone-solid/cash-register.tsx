@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `cash-register` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cash-register?s=sharp-duotone-solid cash-register}
- * @preview ![cash-register](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAwbDAgMTI4IDExMiAwIDAgMzIgNjQgMCAwLTMyIDExMiAwTDMyMCAwIDMyIDB6TTgwIDQ4bDE2IDAgMTYwIDAgMTYgMCAwIDMyLTE2IDBMOTYgODAgODAgODBsMC0zMnptOCAxNjhsMCA0OCA0OCAwIDAtNDgtNDggMHptNDggODBsMCA0OCA0OCAwIDAtNDgtNDggMHptNDgtODBsMCA0OCA0OCAwIDAtNDgtNDggMHptNDggODBsMCA0OCA0OCAwIDAtNDgtNDggMHptNDgtODBsMCA0OCA0OCAwIDAtNDgtNDggMHptNDggODBsMCA0OCA0OCAwIDAtNDgtNDggMHptNDgtODBsMCA0OCA0OCAwIDAtNDgtNDggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTAgNTEyTDAgMzcxLjIgMzIgMTYwbDQ0OCAwIDMyIDIxMS4yTDUxMiA1MTIgMCA1MTJ6bTY0LTk2bDAgMzIgMTYgMCAzNTIgMCAxNiAwIDAtMzItMTYgMEw4MCA0MTZsLTE2IDB6bTcyLTIwMGwtNDggMCAwIDQ4IDQ4IDAgMC00OHptNDggMGwwIDQ4IDQ4IDAgMC00OC00OCAwem0wIDgwbC00OCAwIDAgNDggNDggMCAwLTQ4em05Ni04MGwwIDQ4IDQ4IDAgMC00OC00OCAwem0wIDgwbC00OCAwIDAgNDggNDggMCAwLTQ4em05Ni04MGwwIDQ4IDQ4IDAgMC00OC00OCAwem0wIDgwbC00OCAwIDAgNDggNDggMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cash-register](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cash-register.svg)
  */
 const CashRegister: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M32 0l0 128 112 0 0 32 64 0 0-32 112 0L320 0 32 0zM80 48l16 0 160 0 16 0 0 32-16 0L96 80 80 80l0-32zm8 168l0 48 48 0 0-48-48 0zm48 80l0 48 48 0 0-48-48 0zm48-80l0 48 48 0 0-48-48 0zm48 80l0 48 48 0 0-48-48 0zm48-80l0 48 48 0 0-48-48 0zm48 80l0 48 48 0 0-48-48 0zm48-80l0 48 48 0 0-48-48 0z" />
-            <path d="M0 512L0 371.2 32 160l448 0 32 211.2L512 512 0 512zm64-96l0 32 16 0 352 0 16 0 0-32-16 0L80 416l-16 0zm72-200l-48 0 0 48 48 0 0-48zm48 0l0 48 48 0 0-48-48 0zm0 80l-48 0 0 48 48 0 0-48zm96-80l0 48 48 0 0-48-48 0zm0 80l-48 0 0 48 48 0 0-48zm96-80l0 48 48 0 0-48-48 0zm0 80l-48 0 0 48 48 0 0-48z" />
+        <path d="M0 512L0 371.2 32 160l448 0 32 211.2L512 512 0 512zm64-96l0 32 16 0 352 0 16 0 0-32-16 0L80 416l-16 0zm72-200l-48 0 0 48 48 0 0-48zm48 0l0 48 48 0 0-48-48 0zm0 80l-48 0 0 48 48 0 0-48zm96-80l0 48 48 0 0-48-48 0zm0 80l-48 0 0 48 48 0 0-48zm96-80l0 48 48 0 0-48-48 0zm0 80l-48 0 0 48 48 0 0-48z" />
     </Icon>
 );
 

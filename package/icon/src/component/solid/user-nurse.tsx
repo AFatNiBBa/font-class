@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-nurse` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-nurse?s=solid user-nurse}
- * @preview ![user-nurse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMTI4bDAtNTcuOGMwLTEzLjMgOC4zLTI1LjMgMjAuOC0zMGw5Ni0zNmM3LjItMi43IDE1LjItMi43IDIyLjUgMGw5NiAzNmMxMi41IDQuNyAyMC44IDE2LjYgMjAuOCAzMGwwIDU3LjgtLjMgMGMuMiAyLjYgLjMgNS4zIC4zIDhsMCA0MGMwIDcwLjctNTcuMyAxMjgtMTI4IDEyOHMtMTI4LTU3LjMtMTI4LTEyOGwwLTQwYzAtMi43IC4xLTUuNCAuMy04bC0uMyAwem00OCA0OGMwIDQ0LjIgMzUuOCA4MCA4MCA4MHM4MC0zNS44IDgwLTgwbDAtMTYtMTYwIDAgMCAxNnpNMTExLjkgMzI3LjdjMTAuNS0zLjQgMjEuOCAuNCAyOS40IDguNWw3MSA3NS41YzYuMyA2LjcgMTcgNi43IDIzLjMgMGw3MS03NS41YzcuNi04LjEgMTguOS0xMS45IDI5LjQtOC41QzQwMSAzNDguNiA0NDggNDA5LjQgNDQ4IDQ4MS4zYzAgMTctMTMuOCAzMC43LTMwLjcgMzAuN0wzMC43IDUxMkMxMy44IDUxMiAwIDQ5OC4yIDAgNDgxLjNjMC03MS45IDQ3LTEzMi43IDExMS45LTE1My42ek0yMDggNDhsMCAxNi0xNiAwYy00LjQgMC04IDMuNi04IDhsMCAxNmMwIDQuNCAzLjYgOCA4IDhsMTYgMCAwIDE2YzAgNC40IDMuNiA4IDggOGwxNiAwYzQuNCAwIDgtMy42IDgtOGwwLTE2IDE2IDBjNC40IDAgOC0zLjYgOC04bDAtMTZjMC00LjQtMy42LTgtOC04bC0xNiAwIDAtMTZjMC00LjQtMy42LTgtOC04bC0xNiAwYy00LjQgMC04IDMuNi04IDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-nurse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-nurse.svg)
  */
 const UserNurse: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

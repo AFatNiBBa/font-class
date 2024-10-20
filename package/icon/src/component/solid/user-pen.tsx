@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-pen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-pen?s=solid user-pen}
- * @preview ![user-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDI1NkExMjggMTI4IDAgMSAwIDIyNCAwYTEyOCAxMjggMCAxIDAgMCAyNTZ6bS00NS43IDQ4Qzc5LjggMzA0IDAgMzgzLjggMCA0ODIuM0MwIDQ5OC43IDEzLjMgNTEyIDI5LjcgNTEybDI5My4xIDBjLTMuMS04LjgtMy43LTE4LjQtMS40LTI3LjhsMTUtNjAuMWMyLjgtMTEuMyA4LjYtMjEuNSAxNi44LTI5LjdsNDAuMy00MC4zYy0zMi4xLTMxLTc1LjctNTAuMS0xMjMuOS01MC4xbC05MS40IDB6bTQzNS41LTY4LjNjLTE1LjYtMTUuNi00MC45LTE1LjYtNTYuNiAwbC0yOS40IDI5LjQgNzEgNzEgMjkuNC0yOS40YzE1LjYtMTUuNiAxNS42LTQwLjkgMC01Ni42bC0xNC40LTE0LjR6TTM3NS45IDQxN2MtNC4xIDQuMS03IDkuMi04LjQgMTQuOWwtMTUgNjAuMWMtMS40IDUuNSAuMiAxMS4yIDQuMiAxNS4yczkuNyA1LjYgMTUuMiA0LjJsNjAuMS0xNWM1LjYtMS40IDEwLjgtNC4zIDE0LjktOC40TDU3Ni4xIDM1OC43bC03MS03MUwzNzUuOSA0MTd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-pen.svg)
  */
 const UserPen: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

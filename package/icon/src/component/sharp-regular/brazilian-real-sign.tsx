@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brazilian-real-sign` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brazilian-real-sign?s=sharp-regular brazilian-real-sign}
- * @preview ![brazilian-real-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI0IDI0bDAtMjRMMzc2IDBsMCAyNCAwIDQxLjJDMzI2LjIgNzIuOSAyODggMTE2IDI4OCAxNjhjMCA0My43IDI3LjQgODIuOCA2OC40IDk3LjdsNzAuNyAyNS43YzIyLjEgOCAzNi44IDI5LjEgMzYuOCA1Mi42YzAgMzAuOS0yNS4xIDU2LTU2IDU2bC02LjYgMGMtMTcuNyAwLTM1LjItNC42LTUwLjYtMTMuNGwtMjctMTUuNC0yMy44IDQxLjcgMjcgMTUuNGMxNS4yIDguNyAzMS44IDE0LjYgNDguOSAxNy42bDAgNDIuMiAwIDI0IDQ4IDAgMC0yNCAwLTQxLjJjNDkuOC03LjcgODgtNTAuOCA4OC0xMDIuOGMwLTQzLjctMjcuNC04Mi44LTY4LjQtOTcuN2wtNzAuNy0yNS43Yy0yMi4xLTgtMzYuOC0yOS4xLTM2LjgtNTIuNmMwLTMwLjkgMjUuMS01NiA1Ni01NmwxMi4zIDBjMTUuMyAwIDMwLjQgMi45IDQ0LjYgOC42bDE0LjMgNS43IDE3LjgtNDQuNkw0NjYuNyA3NkM0NTMgNzAuNSA0MzguNiA2Ni45IDQyNCA2NS4yTDQyNCAyNHpNMCAzMkwwIDU2IDAgMjgwIDAgNDgwbDQ4IDAgMC0xNzYgNTkuOSAwIDU2LjMgMTc2IDUwLjQgMEwxNTYuNyAyOTlDMjE0IDI4MyAyNTYgMjMwLjQgMjU2IDE2OGMwLTc1LjEtNjAuOS0xMzYtMTM2LTEzNkwyNCAzMiAwIDMyek00OCAyNTZMNDggODBsNzIgMGM0OC42IDAgODggMzkuNCA4OCA4OHMtMzkuNCA4OC04OCA4OGwtNzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![brazilian-real-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/brazilian-real-sign.svg)
  */
 const BrazilianRealSign: typeof Icon = x => (
     <Icon {...x}>

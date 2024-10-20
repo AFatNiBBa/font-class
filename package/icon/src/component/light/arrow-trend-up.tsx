@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-trend-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-trend-up?s=light arrow-trend-up}
- * @preview ![arrow-trend-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDExMmMwLTguOCA3LjItMTYgMTYtMTZsMTc2IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTc2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMTM3LjRMMzMxLjMgMzYzLjNjLTYuMiA2LjItMTYuNCA2LjItMjIuNiAwTDE5MiAyNDYuNiAyNy4zIDQxMS4zYy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMHMtNi4yLTE2LjQgMC0yMi42bDE3Ni0xNzZjNi4yLTYuMiAxNi40LTYuMiAyMi42IDBMMzIwIDMyOS40IDUyMS40IDEyOCAzODQgMTI4Yy04LjggMC0xNi03LjItMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-trend-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-trend-up.svg)
  */
 const ArrowTrendUp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `notdef` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notdef?s=thin notdef}
- * @preview ![notdef](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTZjLTEuOSAwLTMuNyAuMy01LjQgLjlMMTkyIDI0Mi41IDM1Ny40IDE2LjljLTEuNy0uNi0zLjUtLjktNS40LS45TDMyIDE2ek0zNjcuOCAyOS43TDIwMS45IDI1NiAzNjcuOCA0ODIuM2MuMS0uNyAuMi0xLjUgLjItMi4zbDAtNDQ4YzAtLjgtLjEtMS41LS4yLTIuM3pNMTgyLjEgMjU2TDE2LjIgMjkuN2MtLjEgLjctLjIgMS41LS4yIDIuM2wwIDQ0OGMwIC44IC4xIDEuNSAuMiAyLjNMMTgyLjEgMjU2ek0yNi42IDQ5NS4xYzEuNyAuNiAzLjUgLjkgNS40IC45bDMyMCAwYzEuOSAwIDMuNy0uMyA1LjQtLjlMMTkyIDI2OS41IDI2LjYgNDk1LjF6TTAgMzJDMCAxNC4zIDE0LjMgMCAzMiAwTDM1MiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNDQ4YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDMyIDUxMmMtMTcuNyAwLTMyLTE0LjMtMzItMzJMMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![notdef](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/notdef.svg)
  */
 const Notdef: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

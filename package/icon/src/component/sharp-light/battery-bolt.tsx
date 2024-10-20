@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-bolt` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-bolt?s=sharp-light battery-bolt}
- * @preview ![battery-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgOTZsMjI4LjEgMC0zMiAzMkwzMiAxMjhsMCAyNTYgMTI3LjUgMC00LjYgMzJMMzIgNDE2IDAgNDE2bDAtMzJMMCAxMjggMCA5NmwzMiAwek00ODAgMzg0bDAtMjU2LTEyNy41IDAgNC42LTMyTDQ4MCA5NmwzMiAwIDAgMzIgMCAyNTYgMCAzMi0zMiAwLTIyOC4xIDAgMzItMzJMNDgwIDM4NHptNjQtMTkybDMyIDAgMCAzMiAwIDY0IDAgMzItMzIgMCAwLTMyIDAtNjQgMC0zMnpNMjk2IDExMmw4IDAgMTguNCAwLTIuNiAxOC4zTDMwNi40IDIyNGw0NS42IDAgMTYgMCAwIDE2IDAgOCAwIDYuNi00LjcgNC43LTEzNiAxMzYtNC43IDQuNy02LjYgMC04IDAtMTguNCAwIDIuNi0xOC4zTDIwNS42IDI4OCAxNjAgMjg4bC0xNiAwIDAtMTYgMC04IDAtNi42IDQuNy00LjcgMTM2LTEzNiA0LjctNC43IDYuNiAwek0xOTAuNiAyNTZsMzMuNCAwIDE4LjQgMC0yLjYgMTguMy0xMC41IDczLjhMMzIxLjQgMjU2IDI4OCAyNTZsLTE4LjQgMCAyLjYtMTguMyAxMC41LTczLjhMMTkwLjYgMjU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![battery-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/battery-bolt.svg)
  */
 const BatteryBolt: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

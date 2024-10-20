@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `send-backward` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/send-backward?s=thin send-backward}
- * @preview ![send-backward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDE2TDY0IDE2QzM3LjUgMTYgMTYgMzcuNSAxNiA2NGwwIDIyNGMwIDI2LjUgMjEuNSA0OCA0OCA0OGw2NCAwIDAgMTYtNjQgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjg4IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCA2NC0xNiAwIDAtNjRjMC0yNi41LTIxLjUtNDgtNDgtNDh6bTAgMTEybC0xNiAwIDAtMzJjMC04LjgtNy4yLTE2LTE2LTE2TDk2IDgwYy04LjggMC0xNiA3LjItMTYgMTZsMCAxNjBjMCA4LjggNy4yIDE2IDE2IDE2bDMyIDAgMCAxNi0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMkw2NCA5NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwxNjAgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyek0xNzYgMjI0bDAgMjI0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDIyNCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMjI0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0yMjQgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDh6bS0xNiAwYzAtMzUuMyAyOC43LTY0IDY0LTY0bDIyNCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjI0YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yMjQgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0yMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![send-backward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/send-backward.svg)
  */
 const SendBackward: typeof Icon = x => (
     <Icon {...x}>

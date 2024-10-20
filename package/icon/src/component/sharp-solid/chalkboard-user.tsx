@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chalkboard-user` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chalkboard-user?s=sharp-solid chalkboard-user}
- * @preview ![chalkboard-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBMMTYwIDBsMCAzMiAwIDY0YzIzLjMgMCA0NS4yIDYuMiA2NCAxNy4xTDIyNCA2NGwzNTIgMCAwIDI4OC02NCAwIDAtNjQtMTI4IDAgMCA2NC03OC42IDAgMTkuMiA2NEw2MDggNDE2bDMyIDAgMC0zMiAwLTM1MiAwLTMyTDYwOCAwIDE5MiAwek0xNjAgMzIwYTk2IDk2IDAgMSAwIDAtMTkyIDk2IDk2IDAgMSAwIDAgMTkyek0zMjAgNTEyTDI3MiAzNTIgNDggMzUyIDAgNTEybDMyMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chalkboard-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chalkboard-user.svg)
  */
 const ChalkboardUser: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

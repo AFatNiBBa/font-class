@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash?s=sharp-light trash}
- * @preview ![trash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUxLjEgMEwxNjAgMCAyODggMGw4LjkgMCA0LjcgNy41TDMzNi45IDY0bDQ3LjEgMEw0MTYgNjRsMzIgMCAwIDMyLTM0LjMgMEwzODQgNTEyIDY0IDUxMiAzNC4zIDk2IDAgOTYgMCA2NGwzMiAwIDMyLjEgMCA0Ny4xIDBMMTQ2LjQgNy41IDE1MS4xIDB6bS0yLjMgNjRsMTUwLjMgMC0yMC0zMkwxNjguOSAzMmwtMjAgMzJ6TTY2LjQgOTZMOTMuOCA0ODBsMjYwLjQgMEwzODEuNiA5NiA2Ni40IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/trash.svg)
  */
 const Trash: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

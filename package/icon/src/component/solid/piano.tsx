@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `piano` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/piano?s=solid piano}
- * @preview ![piano](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxOTJMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xMjAuNGMwLTI0LjItMTMuNy00Ni40LTM1LjQtNTcuMmwtNTguNC0yOS4yYy0yMS0xMC41LTM0LjItMzEuOS0zNC4yLTU1LjRDMzg0IDgzLjIgMzAwLjggMCAxOTguMyAwTDE5MiAwQzg2IDAgMCA4NiAwIDE5MnpNNDE2IDM1MmwzMiAwIDAgOTZMNjQgNDQ4bDAtOTYgMzIgMCAwIDQ4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC00OCAzMiAwIDAgNDhjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTQ4IDMyIDAgMCA0OGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtNDggNjQgMCAwIDQ4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC00OCAzMiAwIDAgNDhjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![piano](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/piano.svg)
  */
 const Piano: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-to-eye` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-eye?s=sharp-solid arrows-to-eye}
- * @preview ![arrows-to-eye](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAgMTEybDM4LjEgMEwwIDMzLjkgMzMuOSAwIDExMiA3OC4xIDExMiA0MGwwLTI0IDQ4IDAgMCAyNCAwIDk2IDAgMjQtMjQgMC05NiAwLTI0IDAgMC00OCAyNCAwem01MjEuOSAwbDM4LjEgMCAyNCAwIDAgNDgtMjQgMC05NiAwLTI0IDAgMC0yNCAwLTk2IDAtMjQgNDggMCAwIDI0IDAgMzguMUw2MDYuMSAwIDY0MCAzMy45IDU2MS45IDExMnpNMTI4IDI1NmMyMC00OCA4Ni40LTE0NCAxOTItMTQ0czE3MiA5NiAxOTIgMTQ0Yy0yMCA0OC04Ni40IDE0NC0xOTIgMTQ0cy0xNzItOTYtMTkyLTE0NHptMTkyIDY0YTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4ek01MjggNDMzLjlsMCAzOC4xIDAgMjQtNDggMCAwLTI0IDAtOTYgMC0yNCAyNCAwIDk2IDAgMjQgMCAwIDQ4LTI0IDAtMzguMSAwTDY0MCA0NzguMSA2MDYuMSA1MTIgNTI4IDQzMy45ek0xMTIgNDcybDAtMzguMUwzMy45IDUxMiAwIDQ3OC4xIDc4LjEgNDAwIDQwIDQwMGwtMjQgMCAwLTQ4IDI0IDAgOTYgMCAyNCAwIDAgMjQgMCA5NiAwIDI0LTQ4IDAgMC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-to-eye](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrows-to-eye.svg)
  */
 const ArrowsToEye: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

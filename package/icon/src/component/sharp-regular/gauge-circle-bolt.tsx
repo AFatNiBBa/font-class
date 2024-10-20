@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gauge-circle-bolt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-circle-bolt?s=sharp-regular gauge-circle-bolt}
- * @preview ![gauge-circle-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ2NGMyOS40IDAgNTcuMy02LjEgODIuNi0xNy4xYzcuNCAxNC43IDE2LjcgMjguMiAyNy43IDQwLjFDMzMzIDUwMyAyOTUuNSA1MTIgMjU2IDUxMkMxMTQuNiA1MTIgMCAzOTcuNCAwIDI1NlMxMTQuNiAwIDI1NiAwQzM3NS40IDAgNDc1LjYgODEuNyA1MDQgMTkyLjJjLTIuNi0uMS01LjMtLjItOC0uMmMtMTQgMC0yNy41IDEuNi00MC42IDQuN0M0MjkuOSAxMTAuNyAzNTAuMyA0OCAyNTYgNDhDMTQxLjEgNDggNDggMTQxLjEgNDggMjU2czkzLjEgMjA4IDIwOCAyMDh6bTAtNTZjLTMwLjkgMC01Ni0yNS4xLTU2LTU2YzAtMjIuMyAxMy4xLTQxLjYgMzItNTAuNkwyMzIgMTIwbDAtMjQgNDggMCAwIDI0IDAgMTgxLjRjMTguOSA5IDMyIDI4LjMgMzIgNTAuNmMwIDMwLjktMjUuMSA1Ni01NiA1NnpNMTI4IDE2MGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0tMTYgNjRhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em0yMDgtNjRhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptMTc2IDY0YTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptMjQgNjRMNDE2IDM4NGw2Ni43IDBMNDcyIDQ0OGwxMDQtOTYtNjYuNyAwTDUyMCAyODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![gauge-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/gauge-circle-bolt.svg)
  */
 const GaugeCircleBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

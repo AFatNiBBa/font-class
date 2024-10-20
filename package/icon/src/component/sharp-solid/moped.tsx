@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `moped` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moped?s=sharp-solid moped}
- * @preview ![moped](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI4IDMybDI0IDAgNjQgMCAxNy4xIDAgNS42IDE2LjEgMTUuNiA0NC44TDUxMiA2NGwzMiAwIDAgOTYtMzIgMC00MS43LTIwLjhMNTAwIDIyNC40YzQtLjMgOC0uNCAxMi0uNGM0My43IDAgODMuMyAxNy41IDExMi4xIDQ1LjhsLTMzLjYgMzQuMkM1NzAuMiAyODQuMiA1NDIuNiAyNzIgNTEyIDI3MmMtNTIuNyAwLTk3IDM2LjUtMTA4LjkgODUuNmMtMiA4LjQtMy4xIDE3LjMtMy4xIDI2LjRsLTMyIDAtMTYgMC05NiAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2TDAgMzg0bDAtNjRjMC03MC43IDU3LjMtMTI4IDEyOC0xMjhsMTI4IDAgMCAxMjggMTA5LjMgMGMxNi44LTM4LjUgNDguNC02OS4yIDg3LjYtODQuN0wzOTguOSA4MCAzNTIgODBsLTI0IDAgMC00OHpNMjU2IDk2bDAgNjRMOTYgMTYwbDAtNjQgMTYwIDB6TTE2MCA0MzJjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsLTk2IDBjMCAyNi41IDIxLjUgNDggNDggNDh6bTM1MiAwYTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptMC0xNDRhOTYgOTYgMCAxIDEgMCAxOTIgOTYgOTYgMCAxIDEgMC0xOTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![moped](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/moped.svg)
  */
 const Moped: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

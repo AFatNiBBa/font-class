@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sickle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sickle?s=sharp-light sickle}
- * @preview ![sickle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBDMjE0IDAgMTI4IDg2IDEyOCAxOTJjMCA3MSAzOC41IDEzMi45IDk1LjcgMTY2LjFsMTAuNiA2LjIgOC43LTguNyAzNi0zNiA5LTktNi44LTEwLjhDMjcwLjMgMjgyLjUgMjY0IDI2MiAyNjQgMjQwYzAtNjEuOSA1MC4xLTExMiAxMTItMTEyYzQ4LjEgMCA4OS4xIDMwLjMgMTA1IDcyLjlsMzEtNS4zYzAtMS4yIDAtMi40IDAtMy42QzUxMiA4NiA0MjYgMCAzMjAgMHpNMTYwIDE5MmMwLTg4LjQgNzEuNi0xNjAgMTYwLTE2MGM2NS43IDAgMTIyLjEgMzkuNiAxNDYuOCA5Ni4yQzQ0MiAxMDguMSA0MTAuNCA5NiAzNzYgOTZjLTc5LjUgMC0xNDQgNjQuNS0xNDQgMTQ0YzAgMjMuNiA1LjcgNDUuOSAxNS44IDY1LjZsLTE4LjMgMTguM0MxODcuNSAyOTUuMSAxNjAgMjQ2LjcgMTYwIDE5MnptLTU2IDk3LjRMODEuNCAzMTJsMTEuMyAxMS4zIDQuNyA0LjdMMTIuNyA0MTIuNyAxLjQgNDI0bDExLjMgMTEuMyA2NCA2NEw4OCA1MTAuNmwxMS4zLTExLjNMMTg0IDQxNC42bDQuNyA0LjdMMjAwIDQzMC42IDIyMi42IDQwOGwtMTEuMy0xMS4zLTQuNy00LjctMTEuMy0xMS4zLTY0LTY0TDEyMCAzMDUuNGwtNC43LTQuN0wxMDQgMjg5LjR6bTE2IDYxLjNMMTYxLjQgMzkyIDg4IDQ2NS40IDQ2LjYgNDI0IDEyMCAzNTAuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sickle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sickle.svg)
  */
 const Sickle: typeof Icon = x => (
     <Icon {...x}>

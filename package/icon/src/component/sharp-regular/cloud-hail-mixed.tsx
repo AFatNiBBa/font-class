@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-hail-mixed` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-hail-mixed?s=sharp-regular cloud-hail-mixed}
- * @preview ![cloud-hail-mixed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDEyOGwwIDQ4IDQ4IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA0OC00OCAwTDk2IDI3MmwtNDggMCAwLTQ4YzAtMjAuOCAxMy4zLTM4LjcgMzItNDUuM2wzMi0xMS4zIDAtMzMuOSAwLTIxLjVjMC0zNS4zIDI4LjctNjQgNjQtNjRjMjEuNiAwIDQwLjcgMTAuNyA1Mi40IDI3LjJsMjYuNyAzNy45IDM4LjgtMjUuM2M3LjUtNC45IDE2LjQtNy43IDI2LjItNy43YzI2LjUgMCA0OCAyMS41IDQ4IDQ4ek0wIDMyMGw0OCAwIDQ4IDAgMzIwIDAgNDggMCA0OCAwIDAtNDggMC00OGMwLTUzLTQzLTk2LTk2LTk2YzAtNTMtNDMtOTYtOTYtOTZjLTE5LjMgMC0zNy4zIDUuNy01Mi40IDE1LjVDMjQ3LjMgMTguOCAyMTMuOSAwIDE3NiAwQzExNC4xIDAgNjQgNTAuMSA2NCAxMTJsMCAyMS41QzI2LjcgMTQ2LjYgMCAxODIuMiAwIDIyNGwwIDQ4IDAgNDh6bTEwNCAzMmwtNTYgMEwxOS4yIDQxNmw1NiAwTDEwNCAzNTJ6bTEyMCAwbC01NiAwTDk2IDUxMmw1NiAwIDcyLTE2MHptNTYgMGwtMjguOCA2NCA1NiAwTDMzNiAzNTJsLTU2IDB6bTE3NiAwbC01NiAwTDMyOCA1MTJsNTYgMCA3Mi0xNjB6TTMyIDUxMmEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6bTIyNCAwYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cloud-hail-mixed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-hail-mixed.svg)
  */
 const CloudHailMixed: typeof Icon = x => (
     <Icon {...x}>

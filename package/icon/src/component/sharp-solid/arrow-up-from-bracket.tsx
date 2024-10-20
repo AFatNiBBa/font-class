@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-from-bracket` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-bracket?s=sharp-solid arrow-up-from-bracket}
- * @preview ![arrow-up-from-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ2LjYgMjUuNEwyMjQgMi43IDIwMS40IDI1LjRsLTEyOCAxMjhMNTAuNyAxNzYgOTYgMjIxLjNsMjIuNi0yMi42TDE5MiAxMjUuMyAxOTIgMzIwbDAgMzIgNjQgMCAwLTMyIDAtMTk0LjcgNzMuNCA3My40TDM1MiAyMjEuMyAzOTcuMyAxNzZsLTIyLjYtMjIuNi0xMjgtMTI4ek02NCAzNTJsMC0zMkwwIDMyMGwwIDMyTDAgNDgwbDAgMzIgMzIgMCAzODQgMCAzMiAwIDAtMzIgMC0xMjggMC0zMi02NCAwIDAgMzIgMCA5Nkw2NCA0NDhsMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-up-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-up-from-bracket.svg)
  */
 const ArrowUpFromBracket: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

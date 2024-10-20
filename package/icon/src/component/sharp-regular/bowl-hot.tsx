@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-hot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-hot?s=sharp-regular bowl-hot}
- * @preview ![bowl-hot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDI0YzAgMjYuNSAxMC41IDM4LjcgMjUuOSA1Ni4xbC40IC40QzIxOC44IDk5IDI0MCAxMjIuOSAyNDAgMTY4bDAgMjQtNDggMCAwLTI0YzAtMjYuNS0xMC41LTM4LjctMjUuOS01Ni4xbC0uNC0uNEMxNDkuMiA5MyAxMjggNjkuMSAxMjggMjRsMC0yNCA0OCAwIDAgMjR6bTEyOCAwYzAgMjYuNSAxMC41IDM4LjcgMjUuOSA1Ni4xbC40IC40QzM0Ni44IDk5IDM2OCAxMjIuOSAzNjggMTY4bDAgMjQtNDggMCAwLTI0YzAtMjYuNS0xMC41LTM4LjctMjUuOS01Ni4xbC0uNC0uNEMyNzcuMiA5MyAyNTYgNjkuMSAyNTYgMjRsMC0yNCA0OCAwIDAgMjR6TTE3NiA0NjRsMTYwIDAgMC0yMC45IDI2LjctMTMuMmM1NS4xLTI3LjMgOTMuOS04Mi40IDk3LjgtMTQ3LjVsLjYtMTAuM0w1MC45IDI3MmwuNiAxMC4zYzMuOCA2NS4xIDQyLjcgMTIwLjMgOTcuOCAxNDcuNUwxNzYgNDQzLjFsMCAyMC45ek0zLjYgMjg1LjJMMi44IDI3MiAwIDIyNGw0OC4xIDAgNDE1LjggMCA0OC4xIDAtMi44IDQ4LS44IDEzLjJDNTAzLjUgMzY4LjEgNDU0IDQzOC4yIDM4NCA0NzIuOWwwIDM5LjEtNDggMC0xNjAgMC00OCAwIDAtMzkuMUM1OCA0MzguMiA4LjUgMzY4LjEgMy42IDI4NS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bowl-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bowl-hot.svg)
  */
 const BowlHot: typeof Icon = x => (
     <Icon {...x}>

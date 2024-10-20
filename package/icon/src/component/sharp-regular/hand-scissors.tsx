@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-scissors` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-scissors?s=sharp-regular hand-scissors}
- * @preview ![hand-scissors](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNLjMgMTk1LjZsMjMuNCA1LjJMNjUuMiAyMTBsLTM4LjQgMS4zLTI0IC44IC44IDI0IDIuOCA4MCAuOCAyNCAyNC0uOEwxOTIgMzMzLjZsMCA0Mi40IDAgMjQgMjQgMCA4IDAgMCA0MCAwIDI0IDI0IDAgNDAgMCA5NiAwIDggMGM2Ni4zIDAgMTIwLTUzLjcgMTIwLTEyMGwwLTEyNS40YzAtMjYuOS03LjEtNTMuMy0yMC43LTc2LjZsLTE5LjggMTEuNUw0OTEuMyAxNDJsLTEuNS0yLjZDNDYyLjUgOTIuNyA0MTIuNSA2NCAzNTguNSA2NEwzMjAgNjRsLTEwLjYgMC03LjEgNy45LTQ1LjEgNDkuNkw1MS40IDc1LjggMjggNzAuNiAyMi44IDk0IDUuNSAxNzIuMSAuMyAxOTUuNnpNMjQwIDM1MmwwLTQzLjIgMC0yNC45LTI0LjggLjlMNTMuNiAyOTAuNGwtMS4xLTMyIDE5Ny43LTYuOSAxMy44LS41IDAtNDYuMi05LjctMi4xTDU3LjUgMTU5LjFsNi45LTMxLjIgMTk1LjkgNDMuNCAyLjQgLjUgODUuNiAxOS43IDE1LjYgMy42IDcuMi0zMS4yLTE1LjYtMy42LTU3LTEzLjIgMzItMzUuMiAyNy45IDBjMzcgMCA3MS4yIDE5LjYgODkuOCA1MS42TDQ2OSAxNTEuNWwtMjAuNyAxMi4xIDEuNSAyLjZjOS4zIDE1LjkgMTQuMiAzNCAxNC4yIDUyLjRMNDY0IDM0NGMwIDM5LjgtMzIuMiA3Mi03MiA3MmwtOCAwLTk2IDAtMTYgMCAwLTQwIDAtMjQtMjQgMC04IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-scissors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-scissors.svg)
  */
 const HandScissors: typeof Icon = x => (
     <Icon {...x}>

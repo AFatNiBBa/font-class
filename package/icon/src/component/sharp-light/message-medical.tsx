@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-medical?s=sharp-light message-medical}
- * @preview ![message-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQ0OGwwLTMyLTMyIDAtOTYgMEwwIDQxNmwwLTMyTDAgMzIgMCAwIDMyIDAgNDgwIDBsMzIgMCAwIDMyIDAgMzUyIDAgMzItMzIgMC0xNzYgMEwxOTIgNDkwLjcgMTYwIDUxMmwwLTM4LjUgMC0yNS41em0wLTY0bDMyIDAgMCAzMiAwIDM2LjIgOTQuMi02Mi44IDguMS01LjQgOS43IDAgMTc2IDAgMC0zNTJMMzIgMzJsMCAzNTIgMTI4IDB6TTIyNCA5Nmw2NCAwIDE2IDAgMCAxNiAwIDQ4IDQ4IDAgMTYgMCAwIDE2IDAgNjQgMCAxNi0xNiAwLTQ4IDAgMCA0OCAwIDE2LTE2IDAtNjQgMC0xNiAwIDAtMTYgMC00OC00OCAwLTE2IDAgMC0xNiAwLTY0IDAtMTYgMTYgMCA0OCAwIDAtNDggMC0xNiAxNiAwem0xNiA4MGwwIDE2LTE2IDAtNDggMCAwIDMyIDQ4IDAgMTYgMCAwIDE2IDAgNDggMzIgMCAwLTQ4IDAtMTYgMTYgMCA0OCAwIDAtMzItNDggMC0xNiAwIDAtMTYgMC00OC0zMiAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![message-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-medical.svg)
  */
 const MessageMedical: typeof Icon = x => (
     <Icon {...x}>

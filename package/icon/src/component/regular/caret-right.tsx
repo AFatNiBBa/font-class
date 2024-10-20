@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `caret-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caret-right?s=regular caret-right}
- * @preview ![caret-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAxLjQgMjU2TDExMiAxNjYuNmwwIDE3OC43TDIwMS40IDI1NnptNDUuMy0yMi42YzEyLjUgMTIuNSAxMi41IDMyLjggMCA0NS4zbC0xMjggMTI4Yy05LjIgOS4yLTIyLjkgMTEuOS0zNC45IDYuOXMtMTkuOC0xNi42LTE5LjgtMjkuNmwwLTI1NmMwLTEyLjkgNy44LTI0LjYgMTkuOC0yOS42czI1LjctMi4yIDM0LjkgNi45bDEyOCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![caret-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/caret-right.svg)
  */
 const CaretRight: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

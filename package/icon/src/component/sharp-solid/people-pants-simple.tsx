@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `people-pants-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-pants-simple?s=sharp-solid people-pants-simple}
- * @preview ![people-pants-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDEyOEE2NCA2NCAwIDEgMCAxMjggMGE2NCA2NCAwIDEgMCAwIDEyOHpNMjMyIDM1MmwtOC0xOTJMMzIgMTYwIDI0IDM1Mmw0MCAwIDAgMTYwIDEyOCAwIDAtMTYwIDQwIDB6TTM4NCAxMjhBNjQgNjQgMCAxIDAgMzg0IDBhNjQgNjQgMCAxIDAgMCAxMjh6TTQ4OCAzNTJsLTgtMTkyLTE5MiAwLTggMTkyIDQwIDAgMCAxNjAgMTI4IDAgMC0xNjAgNDAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![people-pants-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/people-pants-simple.svg)
  */
 const PeoplePantsSimple: typeof Icon = x => (
     <Icon {...x}>

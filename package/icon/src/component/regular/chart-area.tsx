@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-area` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-area?s=regular chart-area}
- * @preview ![chart-area](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNTZjMC0xMy4zLTEwLjctMjQtMjQtMjRTMCA0Mi43IDAgNTZMMCA0MDhjMCAzOS44IDMyLjIgNzIgNzIgNzJsNDE2IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMNzIgNDMyYy0xMy4zIDAtMjQtMTAuNy0yNC0yNEw0OCA1NnpNMjg2LjEgMjI1LjljOSA5IDIxLjIgMTQuMSAzMy45IDE0LjFzMjQuOS01LjEgMzMuOS0xNC4xbDI3LjMtMjcuM0w0MzIgMjU3LjhsMCA3OC4yLTI4OCAwIDAtOTIuMSA4MC04MCA2Mi4xIDYyLjF6TTMyMCAxOTJsLTMzLjktMzMuOS0zOS40LTM5LjRjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwbC05MS4zIDkxLjNjLTkgOS0xNC4xIDIxLjItMTQuMSAzMy45TDk2IDM1MmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzMjAgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTk0LjJjMC0xMS41LTQuMS0yMi41LTExLjYtMzEuMmwtNjItNzIuM2MtMTIuMS0xNC4yLTMzLjctMTUtNDYuOS0xLjhsLTUuNiA1LjZMMzIwIDE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chart-area](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chart-area.svg)
  */
 const ChartArea: typeof Icon = x => (
     <Icon {...x}>

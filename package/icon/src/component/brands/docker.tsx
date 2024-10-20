@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `docker` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/docker?s=brands docker}
- * @preview ![docker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ5LjkgMjM2LjNoLTY2LjF2LTU5LjRoNjYuMXY1OS40em0wLTIwNC4zaC02Ni4xdjYwLjdoNjYuMVYzMnptNzguMiAxNDQuOEgzNjJ2NTkuNGg2Ni4xdi01OS40em0tMTU2LjMtNzIuMWgtNjYuMXY2MC4xaDY2LjF2LTYwLjF6bTc4LjEgMGgtNjYuMXY2MC4xaDY2LjF2LTYwLjF6bTI3Ni44IDEwMGMtMTQuNC05LjctNDcuNi0xMy4yLTczLjEtOC40LTMuMy0yNC0xNi43LTQ0LjktNDEuMS02My43bC0xNC05LjMtOS4zIDE0Yy0xOC40IDI3LjgtMjMuNCA3My42LTMuNyAxMDMuOC04LjcgNC43LTI1LjggMTEuMS00OC40IDEwLjdIMi40Yy04LjcgNTAuOCA1LjggMTE2LjggNDQgMTYyLjEgMzcuMSA0My45IDkyLjcgNjYuMiAxNjUuNCA2Ni4yIDE1Ny40IDAgMjczLjktNzIuNSAzMjguNC0yMDQuMiAyMS40LjQgNjcuNi4xIDkxLjMtNDUuMiAxLjUtMi41IDYuNi0xMy4yIDguNS0xNy4xbC0xMy4zLTguOXptLTUxMS4xLTI3LjloLTY2djU5LjRoNjYuMXYtNTkuNHptNzguMSAwaC02Ni4xdjU5LjRoNjYuMXYtNTkuNHptNzguMSAwaC02Ni4xdjU5LjRoNjYuMXYtNTkuNHptLTc4LjEtNzIuMWgtNjYuMXY2MC4xaDY2LjF2LTYwLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![docker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/docker.svg)
  */
 const Docker: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

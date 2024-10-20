@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `router` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/router?s=solid router}
- * @preview ![router](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ4YzU4LjggMCAxMTIuNSAyMS44IDE1My40IDU3LjljOS45IDguOCAyNS4xIDcuOCAzMy45LTIuMXM3LjgtMjUuMS0yLjEtMzMuOUM0ODcuOCAyNi40IDQyMi45IDAgMzUyIDBTMjE2LjIgMjYuNCAxNjYuOSA2OS45Yy05LjkgOC44LTEwLjkgMjMuOS0yLjEgMzMuOXMyMy45IDEwLjkgMzMuOSAyLjFDMjM5LjUgNjkuOCAyOTMuMiA0OCAzNTIgNDh6bTI0IDIwMGMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDcyTDY0IDMyMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCA2NGMwIDM1LjMgMjguNyA2NCA2NCA2NGw0NDggMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTY0YzAtMzUuMy0yOC43LTY0LTY0LTY0bC0xMzYgMCAwLTcyek05NiAzODRhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em02NCAzMmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwek0yNzYuNSAxODYuN0MyOTcuMSAxNzAgMzIzLjQgMTYwIDM1MiAxNjBzNTQuOSAxMCA3NS41IDI2LjdjMTAuMyA4LjMgMjUuNCA2LjggMzMuOC0zLjVzNi44LTI1LjQtMy41LTMzLjhDNDI4LjggMTI2IDM5MiAxMTIgMzUyIDExMnMtNzYuOCAxNC0xMDUuNyAzNy40Yy0xMC4zIDguMy0xMS45IDIzLjUtMy41IDMzLjhzMjMuNSAxMS45IDMzLjggMy41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![router](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/router.svg)
  */
 const Router: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

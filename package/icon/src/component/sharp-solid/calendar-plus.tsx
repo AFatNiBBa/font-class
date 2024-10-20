@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-plus?s=sharp-solid calendar-plus}
- * @preview ![calendar-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwwIDY0TDAgNjRsMCA5NiA0NDggMCAwLTk2LTk2IDAgMC02NEwyODggMGwwIDY0TDE2MCA2NGwwLTY0TDk2IDB6TTQ0OCAxOTJMMCAxOTIgMCA1MTJsNDQ4IDAgMC0zMjB6TTI0OCAyNDhsMCAyNCAwIDU2IDU2IDAgMjQgMCAwIDQ4LTI0IDAtNTYgMCAwIDU2IDAgMjQtNDggMCAwLTI0IDAtNTYtNTYgMC0yNCAwIDAtNDggMjQgMCA1NiAwIDAtNTYgMC0yNCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![calendar-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calendar-plus.svg)
  */
 const CalendarPlus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

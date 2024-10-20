@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hat-witch` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-witch?s=solid hat-witch}
- * @preview ![hat-witch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAwLjcgMTgxLjRMMTEyIDM4NGwxMTIgMCAwLTQ4YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDMyIDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA0OCAxMTIgMEwzODYuNyAyMDYuMWMtMS44LTQtMi43LTguNC0yLjctMTIuOGwwLS44YzAtNS42IDEuNS0xMSA0LjItMTUuOWwxOC42LTMyLjVjNS43LTEwIDE2LjMtMTYuMSAyNy44LTE2LjFsMjAuNCAwYzE0LjcgMCAyNy41IDEwIDMxIDI0LjJsNi4yIDI0LjZjMi4yIDguOSAxMC4yIDE1LjEgMTkuNCAxNS4xYzkuNSAwIDE3LjctNi43IDE5LjYtMTYuMWwxMi4yLTYwLjhjLjQtMi4xIC42LTQuMiAuNi02LjNsMC02LjhjMC05LTMuOC0xNy41LTEwLjQtMjMuNkw0NTcuMiA4LjRDNDUxLjMgMyA0NDMuNiAwIDQzNS42IDBsLTIuMiAwYy02LjEgMC0xMi4xIDEuOC0xNy4zIDVMMjczLjEgOTYuNmMtMzIgMjAuNS01Ny4yIDUwLTcyLjQgODQuOHpNMzIwIDM4NGwwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNmwtMzIgMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNDggNjQgMHpNMjIuNiA0MTZDMTAuMSA0MTYgMCA0MjYuMSAwIDQzOC42YzAgNiAyLjQgMTEuNyA2LjkgMTUuNkMyNS45IDQ3MC4zIDgyLjYgNTEyIDE2MCA1MTJsMjU2IDBjNzcuNCAwIDEzNC4xLTQxLjcgMTUzLjEtNTcuOGM0LjYtMy45IDYuOS05LjYgNi45LTE1LjZjMC0xMi41LTEwLjEtMjIuNi0yMi42LTIyLjZMMjIuNiA0MTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hat-witch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hat-witch.svg)
  */
 const HatWitch: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

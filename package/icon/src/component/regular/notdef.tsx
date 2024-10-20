@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `notdef` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notdef?s=regular notdef}
- * @preview ![notdef](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDIxLjhMMTYyLjggMjU2IDQ4IDkwLjJsMCAzMzEuN3pNNzcuMiA0NjRsMjI5LjYgMEwxOTIgMjk4LjIgNzcuMiA0NjR6bTE0NC0yMDhMMzM2IDQyMS44bDAtMzMxLjdMMjIxLjIgMjU2ek0zMDYuOCA0OEw3Ny4yIDQ4IDE5MiAyMTMuOCAzMDYuOCA0OHpNMCA0OEMwIDIxLjUgMjEuNSAwIDQ4IDBMMzM2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA0MTZjMCAyNi41LTIxLjUgNDgtNDggNDhMNDggNTEyYy0yNi41IDAtNDgtMjEuNS00OC00OEwwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![notdef](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/notdef.svg)
  */
 const Notdef: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

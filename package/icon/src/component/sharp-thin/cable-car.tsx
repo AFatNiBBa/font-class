@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cable-car` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cable-car?s=sharp-thin cable-car}
- * @preview ![cable-car](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDMyYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bTQ4IDBhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHpNMTkyIDQ4YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptMCA0OGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6TTQ2NCAyNDBsMCAyNTZMNDggNDk2bDAtMjU2IDIwMCAwIDE2IDAgMjAwIDB6bTAtMTZsLTIwMCAwIDAtOTcuN0w0OTcuOCA3MS44bDcuOC0xLjhMNTAyIDU0LjRsLTcuOCAxLjgtMjQwIDU2LTI0MCA1Nkw2LjQgMTcwIDEwIDE4NS42bDcuOC0xLjhMMjQ4IDEzMC4xbDAgOTMuOUw0OCAyMjRsLTE2IDAgMCAxNiAwIDI1NiAwIDE2IDE2IDAgNDE2IDAgMTYgMCAwLTE2IDAtMjU2IDAtMTYtMTYgMHpNOTYgMzg0bDAtOTYgOTYgMCAwIDk2LTk2IDB6bTExMiAwbDAtOTYgOTYgMCAwIDk2LTk2IDB6bTExMiAwbDAtOTYgOTYgMCAwIDk2LTk2IDB6TTgwIDI3MmwwIDE2IDAgOTYgMCAxNiAxNiAwIDMyMCAwIDE2IDAgMC0xNiAwLTk2IDAtMTYtMTYgMEw5NiAyNzJsLTE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cable-car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cable-car.svg)
  */
 const CableCar: typeof Icon = x => (
     <Icon {...x}>

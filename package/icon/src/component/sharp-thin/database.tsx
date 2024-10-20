@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `database` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/database?s=sharp-thin database}
- * @preview ![database](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTkwLjFsMTA3LjkgNjQuNyAxLjkgMS4xIDIuMiAwIDE5MiAwIDIuMiAwIDEuOS0xLjFMNDMyIDE5MC4xbDAgMTA5LjNMMzE3LjggMzY4bC0xODcuNiAwTDE2IDI5OS41bDAtMTA5LjN6bTAtMTguN2wwLTgyLjZMMTMyLjYgMTZsMTgyLjggMEw0MzIgODguOWwwIDgyLjZMMzE3LjggMjQwbC0xODcuNiAwTDE2IDE3MS41em0wIDI1MS43bDAtMTA1IDEwNy45IDY0LjcgMS45IDEuMSAyLjIgMCAxOTIgMCAyLjIgMCAxLjktMS4xTDQzMiAzMTguMWwwIDEwNUwzMTUuNCA0OTZsLTE4Mi44IDBMMTYgNDIzLjF6TTEyOCAwTDAgODAgMCA0MzJsMTI4IDgwIDE5MiAwIDEyOC04MCAwLTM1MkwzMjAgMCAxMjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![database](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/database.svg)
  */
 const Database: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

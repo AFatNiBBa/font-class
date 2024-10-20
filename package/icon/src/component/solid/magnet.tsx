@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `magnet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnet?s=solid magnet}
- * @preview ![magnet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxNjBsMCA5NkMwIDM3OS43IDEwMC4zIDQ4MCAyMjQgNDgwczIyNC0xMDAuMyAyMjQtMjI0bDAtOTYtMTI4IDAgMCA5NmMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwwLTk2TDAgMTYwem0wLTMybDEyOCAwIDAtNjRjMC0xNy43LTE0LjMtMzItMzItMzJMMzIgMzJDMTQuMyAzMiAwIDQ2LjMgMCA2NGwwIDY0em0zMjAgMGwxMjggMCAwLTY0YzAtMTcuNy0xNC4zLTMyLTMyLTMybC02NCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![magnet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/magnet.svg)
  */
 const Magnet: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

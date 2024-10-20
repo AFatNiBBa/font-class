@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cup-straw` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cup-straw?s=regular cup-straw}
- * @preview ![cup-straw](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk0LjggNDMuMmwtMjAgODQuOC05NC43IDBMMzIgMTI4bC04IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMTIgMCA0OC4yIDAgODkuOSAwIDM1LjggMCA4OS45IDAgNDguMiAwIDEyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTggMC00OC4yIDAtNzkuNiAwIDE3LjQtNzMuOGMuOS0zLjYgNC4xLTYuMiA3LjgtNi4yTDI4MCA0OGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEwyNDkuMyAwYy0yNiAwLTQ4LjYgMTcuOS01NC41IDQzLjJ6TTM4LjcgMjA4TDYwLjMgNDY4YzIuMSAyNC45IDIyLjkgNDQgNDcuOCA0NGwxNjcuNyAwYzI1IDAgNDUuOC0xOS4xIDQ3LjgtNDRsMjEuNy0yNjAtNDguMiAwTDI3NS44IDQ2NGwtMTY3LjcgMEw4Ni44IDIwOGwtNDguMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cup-straw](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cup-straw.svg)
  */
 const CupStraw: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

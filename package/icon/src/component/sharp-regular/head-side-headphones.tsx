@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side-headphones` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-headphones?s=sharp-regular head-side-headphones}
- * @preview ![head-side-headphones](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDM2MS43bDAgMTkuNiAwIDY2LjggMCAxNiAwIDQ4LTE2IDAtMzIgMCAwLTMyIDAtMTYgMC04Mi44Yy00MS00MS45LTY0LTk4LjMtNjQtMTU3QzAgMTAwLjYgMTAwLjIgMCAyMjQgMGwzMiAwQzM1Ny44IDAgNDQxLjEgNzkuMiA0NDcuNiAxNzkuNGw1Ni4zIDYzLjQgOC4xIDkuMSAwIDEyLjIgMCAyNCAwIDE2IDAgMzItMTYgMC0xNiAwLTE2IDAtMTYgMCAwIDQ4IDAgMTYgMCAxNiAwIDMyLTMyIDAtMTYgMC0zMiAwLTQ4IDAgMCAxNiAwIDE2IDAgMTYgMCAxNi0zMiAwLTE2IDAgMC00OCAwLTE2IDAtNDggNDggMCA4MCAwIDAtNjQgMC00OCA0OCAwIDE2IDAgMC0xNy45LTUyLjMtNTguOC0xMS0xMi4zLTEuMS0xNi41QzM5NC44IDEwNy40IDMzMi4zIDQ4IDI1NiA0OGwtMjQgMCAwIDUwLjZjNTAuMyAxMSA4OCA1NS44IDg4IDEwOS40YzAgNjEuOS01MC4xIDExMi0xMTIgMTEycy0xMTItNTAuMS0xMTItMTEyYzAtNTMuNiAzNy43LTk4LjQgODgtMTA5LjRsMC00NkMxMDYuMSA3MC43IDQ4IDE0MC44IDQ4IDIyNC4yYzAgNDYuMSAxOC4xIDkwLjUgNTAuMyAxMjMuNGwxMy43IDE0ek0yNzIgMjA4YTY0IDY0IDAgMSAwIC0xMjggMCA2NCA2NCAwIDEgMCAxMjggMHptLTk2IDBhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![head-side-headphones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/head-side-headphones.svg)
  */
 const HeadSideHeadphones: typeof Icon = x => (
     <Icon {...x}>

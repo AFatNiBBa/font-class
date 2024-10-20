@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ufo-beam` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ufo-beam?s=sharp-solid ufo-beam}
- * @preview ![ufo-beam](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDE1MnMyNCA0MCAxMDQgNDBzMTA0LTQwIDEwNC00MGMwLTQ4LTMzLjMtMTA0LTEwNC0xMDRzLTEwNCA1Ni0xMDQgMTA0em0tNDIuNi00MC40QzE1OS4xIDQ3LjIgMjE4LjEgMCAyODggMHMxMjguOSA0Ny4yIDE0Ni42IDExMS42QzUxOS4yIDEzMS4xIDU3NiAxNjcgNTc2IDIwOGMwIDYxLjktMTI4LjkgMTEyLTI4OCAxMTJTMCAyNjkuOSAwIDIwOGMwLTQxIDU2LjgtNzYuOSAxNDEuNC05Ni40ek0yNTYgMjU2bDMyIDMyIDMyLTMyLTMyLTMyLTMyIDMyek05NiAxNzZMNjQgMjA4bDMyIDMyIDMyLTMyTDk2IDE3NnptMzUyIDMybDMyIDMyIDMyLTMyLTMyLTMyLTMyIDMyek03NC4xIDMyNi4zbDQuMi05LjVjMTQuMiA1LjYgMjkuNiAxMC42IDQ1LjkgMTVsLTYuMiAxNC02NCAxNDQtOS43IDIxLjlMLjMgNDkyLjJsOS43LTIxLjkgNjQtMTQ0em0zODQgMTkuNWwtNi4yLTE0YzE2LjMtNC40IDMxLjYtOS40IDQ1LjktMTVsNC4yIDkuNSA2NCAxNDQgOS43IDIxLjktNDMuOSAxOS41LTkuNy0yMS45LTY0LTE0NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ufo-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ufo-beam.svg)
  */
 const UfoBeam: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

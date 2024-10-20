@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dial-high` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-high?s=light dial-high}
- * @preview ![dial-high](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDU2YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMCAyNDhsMTI3IDBjLTcuOSA2My4xLTYxLjcgMTEyLTEyNyAxMTJjLTcwLjcgMC0xMjgtNTcuMy0xMjgtMTI4czU3LjMtMTI4IDEyOC0xMjhjNjUuMyAwIDExOS4xIDQ4LjkgMTI3IDExMmwtMTI3IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZ6bTE2MC0xNmExNjAgMTYwIDAgMSAwIC0zMjAgMCAxNjAgMTYwIDAgMSAwIDMyMCAwem0xMjAgMGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwek0zMiAzMTJhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek0xMjAgOTZBMjQgMjQgMCAxIDAgNzIgOTZhMjQgMjQgMCAxIDAgNDggMHptMzYwIDI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHpNMTIwIDQ4MGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem0zNjAgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dial-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dial-high.svg)
  */
 const DialHigh: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

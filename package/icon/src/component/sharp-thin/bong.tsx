@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bong` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bong?s=sharp-thin bong}
- * @preview ![bong](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE4LjcgMjI0Yy00MS4zIDE5LTc0LjEgNTMuNS05MC43IDk2bDMyOCAwYy0xNi42LTQyLjYtNDkuMy03Ny4xLTkwLjctOTZsLTkuMy00LjMgMC0xMC4zTDI1NiAxNiAxMjggMTZsMCAxOTMuNCAwIDEwLjMtOS4zIDQuM3pNMjcyIDE2bDAgMTkzLjRjMjUuNCAxMS42IDQ3LjggMjguNiA2NS43IDQ5LjZsLjYtLjZMMzk2LjcgMjAwbC0yNi4zLTI2LjMtNS43LTUuN0wzNzYgMTU2LjdsNS43IDUuNyAzMiAzMiAzMiAzMiA1LjcgNS43TDQ0MCAyNDMuM2wtNS43LTUuN0w0MDggMjExLjNsLTU4LjMgNTguMy0yIDJDMzcwLjUgMzAzLjIgMzg0IDM0MiAzODQgMzg0YzAgNDkuMi0xOC41IDk0LTQ4LjkgMTI4TDQ4LjkgNTEyQzE4LjUgNDc4IDAgNDMzLjIgMCAzODRjMC03Ny41IDQ1LjktMTQ0LjMgMTEyLTE3NC42TDExMiAxNiA4OCAxNmwtOCAwTDgwIDBsOCAwIDI0IDAgMTYgMEwyNTYgMGwxNiAwIDI0IDAgOCAwIDAgMTYtOCAwLTI0IDB6bTg4IDMyMEwyNCAzMzZjLS41IDAtLjkgMC0xLjMtLjFDMTguMyAzNTEuMiAxNiAzNjcuMyAxNiAzODRjMCA0Mi42IDE1LjEgODEuNiA0MC4yIDExMmwyNzEuNSAwYzI1LjEtMzAuNCA0MC4yLTY5LjQgNDAuMi0xMTJjMC0xNi43LTIuMy0zMi44LTYuNy00OC4xYy0uNCAuMS0uOSAuMS0xLjMgLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bong](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bong.svg)
  */
 const Bong: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

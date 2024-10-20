@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `input-text` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-text?s=sharp-solid input-text}
- * @preview ![input-text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTI4bDAgMjU2IDUxMiAwIDAtMjU2TDY0IDEyOHpNMCA2NGw2NCAwIDUxMiAwIDY0IDAgMCA2NCAwIDI1NiAwIDY0LTY0IDBMNjQgNDQ4IDAgNDQ4bDAtNjRMMCAxMjggMCA2NHptMzEyIDk2bDUyIDBjMzMuMSAwIDYwIDI2LjkgNjAgNjBjMCA5LjItMi4xIDE3LjktNS44IDI1LjdjMTMuMyAxMSAyMS44IDI3LjYgMjEuOCA0Ni4zYzAgMzMuMS0yNi45IDYwLTYwIDYwbC02OCAwLTI0IDAgMC0yNCAwLTggMC02NCAwLTY0IDAtOCAwLTI0IDI0IDB6bTI0IDcybDI4IDBjNi42IDAgMTItNS40IDEyLTEycy01LjQtMTItMTItMTJsLTI4IDAgMCAyNHptNDQgNzJjNi42IDAgMTItNS40IDEyLTEycy01LjQtMTItMTItMTJsLTE2IDAtMjggMCAwIDI0IDQ0IDB6TTE5OC4zIDE2Ny4xbDcyIDE4MCAyIDQuOS01MS43IDBMMjExIDMyOCAxNDEgMzI4bC05LjYgMjQtNTEuNyAwIDItNC45IDcyLTE4MCAyLjgtNy4xIDM4LjkgMCAyLjggNy4xek0xOTEuOCAyODBMMTc2IDI0MC42IDE2MC4yIDI4MGwzMS41IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![input-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/input-text.svg)
  */
 const InputText: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `radio` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/radio?s=sharp-regular radio}
- * @preview ![radio](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg1LjcgNTUuM0w1MDkgNDkuNiA0OTcuNiAzIDQ3NC4zIDguN2wtNDU2IDExMkwwIDEyNS4yIDAgMTI4bDAgMTYgMCAzMkwwIDMwNGwwIDI0TDAgNDY0bDAgNDggNDggMCA0MTYgMCA0OCAwIDAtNDggMC0yODggMC00OC00OCAwLTI3NC4yIDAgMjk2LTcyLjd6TTQ4IDE3Nmw0MTYgMCAwIDI4OEw0OCA0NjRsMC0xMzYgMC0yNCAwLTEyOHpNMzUyIDI4OGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTAgMTEyYTgwIDgwIDAgMSAwIDAtMTYwIDgwIDgwIDAgMSAwIDAgMTYwek0xMTIgMjQwbC0xNiAwIDAgMzIgMTYgMCA5NiAwIDE2IDAgMC0zMi0xNiAwLTk2IDB6TTk2IDMwNGwtMTYgMCAwIDMyIDE2IDAgMTI4IDAgMTYgMCAwLTMyLTE2IDBMOTYgMzA0em0xNiA2NGwtMTYgMCAwIDMyIDE2IDAgOTYgMCAxNiAwIDAtMzItMTYgMC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![radio](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/radio.svg)
  */
 const Radio: typeof Icon = x => (
     <Icon {...x}>

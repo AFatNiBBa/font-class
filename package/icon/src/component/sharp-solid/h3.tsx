@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `h3` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h3?s=sharp-solid h3}
- * @preview ![h3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgOTZsMC0zMkwwIDY0IDAgOTYgMCAyNTYgMCA0MTZsMCAzMiA2NCAwIDAtMzIgMC0xMjggMTkyIDAgMCAxMjggMCAzMiA2NCAwIDAtMzIgMC0xNjAgMC0xNjAgMC0zMi02NCAwIDAgMzIgMCAxMjhMNjQgMjI0IDY0IDk2em01NjAgMTMuM0w2MjQgNjRsLTMyIDBMNDAwIDY0bC0zMiAwIDAgNjQgMzIgMCAxMTQuNyAwTDQzMiAyMTAuN2wwIDYxLjMgMTYgMCA3MiAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2bC02MC4zIDBjLTExIDAtMjAuNi03LjUtMjMuMy0xOC4yTDQzMSAzNDQuMiAzNjkgMzU5LjhsNS40IDIxLjZjOS44IDM5LjIgNDUgNjYuNyA4NS40IDY2LjdsNjAuMyAwYzU1LjIgMCAxMDEuNy0zNy4zIDExNS43LTg4bDQuMyAwIDAtMzJjMC02NC42LTUxLTExNy4yLTExNC45LTExOS45bDg5LjUtODkuNSA5LjQtOS40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![h3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/h3.svg)
  */
 const H3: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

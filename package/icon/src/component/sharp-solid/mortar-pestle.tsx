@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mortar-pestle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mortar-pestle?s=sharp-solid mortar-pestle}
- * @preview ![mortar-pestle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY5LjUgMEwyNTIuMyAxNjBsMTQ0LjkgMEw1MTAuMSA0Ny4yIDQ2OS41IDB6TTMyIDE5MkwwIDE5MmwwIDY0IDMyIDBjMCA4Mi41IDQzLjQgMTQ3LjcgMTIzLjkgMTc2LjJDMTM4LjQgNDU0LjEgMTI4IDQ4MS44IDEyOCA1MTJsMjU2IDBjMC0zMC4yLTEwLjQtNTcuOS0yNy45LTc5LjhDNDM2LjYgNDAzLjcgNDgwIDMzOC41IDQ4MCAyNTZsMzIgMCAwLTY0LTMyIDBMMzIgMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mortar-pestle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/mortar-pestle.svg)
  */
 const MortarPestle: typeof Icon = x => (
     <Icon {...x}>

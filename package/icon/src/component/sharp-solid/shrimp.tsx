@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shrimp` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shrimp?s=sharp-solid shrimp}
- * @preview ![shrimp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJMMCAzMiAwIDQ4bDAgOTYgMCAxNiAxNiAwIDQ5IDBjMy43IDg4LjkgNzcgMTYwIDE2NyAxNjBsNTYgMCAwLTE5Mi0yNCAwTDg4LjggMTI4IDMyIDEyOGwwLTY0IDQzMiAwIDE2IDAgMC0zMi0xNiAwTDE2IDMyek0zMjAgMzIwbDE4LjMgMGM5LjkgMCAxOS4xIDMuMiAyNi42IDguNWwxMzMuNS05Mi40QzQ3MS44IDE3Mi42IDQwOS4xIDEyOCAzMzYgMTI4bC0xNiAwIDAgMTkyem02Mi44IDM1LjFjLjggMy40IDEuMiA3IDEuMiAxMC42YzAgNC42LS43IDktMS45IDEzLjFMNDcyLjYgNDE1YzI0LjYtMzAuMyAzOS40LTY4LjkgMzkuNC0xMTFjMC0xMi4zLTEuMy0yNC4zLTMuNy0zNS45TDM4Mi44IDM1NS4xem0tMjEuMiA1MGMtMyAxLjgtNi4yIDMuMi05LjYgNC4zbDAgNjkuOWMzNi40LTMuMyA2OS41LTE3LjYgOTYuMS0zOS42bC04Ni41LTM0LjZ6TTMyMCA0MDcuOGwtNjQuMS0yMi40TDIyNCAzNzQuMmwwIDMzLjggMCA0OCAwIDI0IDI0IDAgNzIgMCAwLTcyLjJ6TTE2OCAxOTJhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shrimp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shrimp.svg)
  */
 const Shrimp: typeof Icon = x => (
     <Icon {...x}>

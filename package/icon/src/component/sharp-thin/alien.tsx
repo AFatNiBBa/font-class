@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `alien` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alien?s=sharp-thin alien}
- * @preview ![alien](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE2QzEwOS4xIDE2IDE2IDEwOS4xIDE2IDIyNGMwIDgxLjEgNTEuOCAxNDkuMSAxMDYuNyAxOTguMWMyNy4yIDI0LjMgNTQuNCA0My4yIDc0LjkgNTYuMmMxMC4yIDYuNSAxOC43IDExLjQgMjQuNiAxNC42bDEuOCAxIDEuOC0xYzUuOS0zLjMgMTQuNC04LjIgMjQuNi0xNC42YzIwLjUtMTIuOSA0Ny43LTMxLjkgNzQuOS01Ni4yQzM4MC4yIDM3My4xIDQzMiAzMDUuMSA0MzIgMjI0YzAtMTE0LjktOTMuMS0yMDgtMjA4LTIwOHpNMCAyMjRDMCAxMDAuMyAxMDAuMyAwIDIyNCAwUzQ0OCAxMDAuMyA0NDggMjI0YzAgMTc2LTIyNCAyODgtMjI0IDI4OFMwIDQwMCAwIDIyNHptMzY4IDBsLTMyIDBjLTQ0LjIgMC04MCAzNS44LTgwIDgwbDMyIDBjNDQuMiAwIDgwLTM1LjggODAtODB6bS0zMi0xNmwzMiAwIDE2IDAgMCAxNmMwIDUzLTQzIDk2LTk2IDk2bC0zMiAwLTE2IDAgMC0xNmMwLTUzIDQzLTk2IDk2LTk2ek0xMTIgMjI0bC0zMiAwYzAgNDQuMiAzNS44IDgwIDgwIDgwbDMyIDBjMC00NC4yLTM1LjgtODAtODAtODB6bTk2IDgwbDAgMTYtMTYgMC0zMiAwYy01MyAwLTk2LTQzLTk2LTk2bDAtMTYgMTYgMCAzMiAwYzUzIDAgOTYgNDMgOTYgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![alien](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/alien.svg)
  */
 const Alien: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

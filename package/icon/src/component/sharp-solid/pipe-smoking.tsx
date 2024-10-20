@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pipe-smoking` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-smoking?s=sharp-solid pipe-smoking}
- * @preview ![pipe-smoking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg5LjUgMGwxNy4xIDBMNjA4IDBsMzIgMCAwIDY0LTMyIDAtODQuMiAwTDQzNSAxOTcuMWwtMTUuNS0xMC40LTI0LTE2LTEzLjctOS4xTDQ4MCAxNC4yIDQ4OS41IDB6TTM1MS4xIDE3OS42bDI2LjYgMTcuOCAyNCAxNiAyNi42IDE3LjgtMTcuOCAyNi42TDI4Ny44IDQ0Mi4xQzI1OC42IDQ4NS44IDIwOS42IDUxMiAxNTcuMSA1MTJDNzAuMyA1MTIgMCA0NDEuNyAwIDM1NC45TDAgMjU2bDAtMzIgMzIgMCAxOTIgMCAzMiAwIDAgMzIgMCA2Ni4zIDc3LjQtMTE2LjEgMTcuOC0yNi42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pipe-smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pipe-smoking.svg)
  */
 const PipeSmoking: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

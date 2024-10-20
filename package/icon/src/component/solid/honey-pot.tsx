@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `honey-pot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/honey-pot?s=solid honey-pot}
- * @preview ![honey-pot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMyTDY0IDMyQzQ2LjMgMzIgMzIgNDYuMyAzMiA2NHMxNC4zIDMyIDMyIDMyQzI1LjEgMTI1LjIgMCAxNzEuNyAwIDIyNEMwIDM2Mi44IDc5LjYgNDQxLjkgMTEzLjMgNDY5LjFjOS4zIDcuNSAyMS4xIDEwLjkgMzMuMSAxMC45bDE1NS4zIDBjMTIgMCAyMy43LTMuMyAzMy4xLTEwLjlDMzY4LjQgNDQxLjkgNDQ4IDM2Mi44IDQ0OCAyMjRjMC01Mi4zLTI1LjEtOTguOC02NC0xMjhjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMMTc2IDMybDAgMTA0YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMTA0ek02NCAyMjRsMzIwIDBjMCA1My43LTE0LjcgOTYuMS0zMi45IDEyOEw5Ni45IDM1MkM3OC43IDMyMC4xIDY0IDI3Ny43IDY0IDIyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![honey-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/honey-pot.svg)
  */
 const HoneyPot: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

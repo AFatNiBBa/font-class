@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ban-parking` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-parking?s=sharp-solid ban-parking}
- * @preview ![ban-parking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDEyLjUgMzY3LjJMMzQyLjMgMjk3YzIwLjYtMTcuNiAzMy43LTQzLjggMzMuNy03M2MwLTUzLTQzLTk2LTk2LTk2bC04MCAwLTI2LjcgMEwxNDQuOCA5OS41QzE3Ni4xIDc3LjEgMjE0LjUgNjQgMjU2IDY0YzEwNiAwIDE5MiA4NiAxOTIgMTkyYzAgNDEuNS0xMy4xIDc5LjktMzUuNSAxMTEuMnptLTQ1LjMgNDUuM0MzMzUuOSA0MzQuOSAyOTcuNSA0NDggMjU2IDQ0OEMxNTAgNDQ4IDY0IDM2MiA2NCAyNTZjMC00MS41IDEzLjEtNzkuOSAzNS41LTExMS4yTDM2Ny4yIDQxMi41ek0yOTYuNiAyNTEuNEwyMzcuMyAxOTJsNDIuNyAwYzE3LjcgMCAzMiAxNC4zIDMyIDMyYzAgMTEuNi02LjIgMjEuNy0xNS40IDI3LjR6TTI1NiA1MTJBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xNjggMjYxLjNsMCAyNi43IDAgNjQgMCAzMiA2NCAwIDAtMzIgMC0yNi43LTY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ban-parking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ban-parking.svg)
  */
 const BanParking: typeof Icon = x => (
     <Icon {...x}>

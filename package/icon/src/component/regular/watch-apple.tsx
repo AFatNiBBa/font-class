@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `watch-apple` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-apple?s=regular watch-apple}
- * @preview ![watch-apple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyLjMgMEM4NS42IDAgNjQgMjEuNiA2NCA0OC4zbDAgMTcuM0MyNy41IDczIDAgMTA1LjMgMCAxNDRMMCAzNjhjMCAzOC43IDI3LjUgNzEgNjQgNzguNEw2NCA0NjRjMCAyNi41IDIxLjUgNDggNDggNDhsMTYwIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNy42YzM2LjUtNy40IDY0LTM5LjcgNjQtNzguNGwwLTIyNGMwLTM4LjctMjcuNS03MS02NC03OC40bDAtMTcuM0MzMjAgMjEuNiAyOTguNCAwIDI3MS43IDBMMTEyLjMgMHpNMzA0IDExMmMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDIyNGMwIDE3LjctMTQuMyAzMi0zMiAzMkw4MCA0MDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMjI0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDIyNCAwek0xOTIgMjg4YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptNjQgNDBhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHpNMTUyIDM1MmEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6TTI1NiAxODRhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHpNMTUyIDIwOGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6bS04IDQ4YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bTEyMCAyNGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![watch-apple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/watch-apple.svg)
  */
 const WatchApple: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

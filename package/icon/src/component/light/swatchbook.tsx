@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `swatchbook` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swatchbook?s=light swatchbook}
- * @preview ![swatchbook](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0MTZjMCA1MyA0MyA5NiA5NiA5NmwzNjAgMGMzMC45IDAgNTYtMjUuMSA1Ni01NmwwLTgwYzAtMzAuOS0yNS4xLTU2LTU2LTU2bC0xMjQuMyAwTDQxOSAyMzIuN2MyMS45LTIxLjkgMjEuOS01Ny4zIDAtNzkuMkwzNjIuNCA5N2MtMjEuOS0yMS45LTU3LjMtMjEuOS03OS4yIDBMMTkyIDE4OC4yIDE5MiA1NmMwLTMwLjktMjUuMS01Ni01Ni01Nkw1NiAwQzI1LjEgMCAwIDI1LjEgMCA1NkwwIDQxNnptNDU2IDY0bC0yODQuMyAwIDEyOC0xMjhMNDU2IDM1MmMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDgwYzAgMTMuMy0xMC43IDI0LTI0IDI0ek0zOTYuNCAyMTAuMUwxOTIgNDE0LjVsMC0xODFMMzA1LjkgMTE5LjZjOS40LTkuNCAyNC42LTkuNCAzMy45IDBsNTYuNiA1Ni42YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45ek05NiA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0bDAtMTI4IDEyOCAwIDAgMTI4YzAgMzUuMy0yOC43IDY0LTY0IDY0ek0zMiAyNTZsMC05NiAxMjggMCAwIDk2TDMyIDI1NnptMC0xMjhsMC03MmMwLTEzLjMgMTAuNy0yNCAyNC0yNGw4MCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgNzJMMzIgMTI4ek05NiA0NDBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![swatchbook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/swatchbook.svg)
  */
 const Swatchbook: typeof Icon = x => (
     <Icon {...x}>

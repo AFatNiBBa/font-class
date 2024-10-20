@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `earth-europe` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-europe?s=sharp-solid earth-europe}
- * @preview ![earth-europe](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU0IDMyMGwtMjIgMC00OC00OCAwLTgwIDMyIDAgMC0zMi02NCAwIDAgNDgtODAgMC0xNiAwIDAgMzItNjQgMCAwLTMyIDgwLTgwIDAtMTYtNDggMCAwLTMyIDMyLTMyYzExNC45IDAgMjA4IDkzLjEgMjA4IDIwOGMwIDIyLjMtMy41IDQzLjgtMTAgNjR6bS0xMy40IDMyQzQwOC4yIDQxNC4xIDM0NS40IDQ1Ny44IDI3MiA0NjMuNGwwLTMxLjQtNjQgMC00OC00OCAwLTExMiAxNDQgMCA0OCA0OCAzMiAwIDMyIDMyIDI0LjYgMHpNMjU2IDUxMmM4LjggMCAxNy42LS40IDI2LjItMS4zTDI1NiA1MTJ6bTI2LjItMS4zQzQxMS4zIDQ5Ny42IDUxMiAzODguNiA1MTIgMjU2QzUxMiAxMTQuNiAzOTcuNCAwIDI1NiAwYzAgMCAwIDAgMCAwQzExNC42IDAgMCAxMTQuNiAwIDI1NkMwIDM4My41IDkzLjIgNDg5LjMgMjE1LjMgNTA4LjhjMTMuMyAyLjEgMjYuOSAzLjIgNDAuNyAzLjJ6TTE4Ny4zIDEyMy4zbC0zMiAzMkwxNDQgMTY2LjYgMTIxLjQgMTQ0bDExLjMtMTEuMyAzMi0zMkwxNzYgODkuNCAxOTguNiAxMTJsLTExLjMgMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![earth-europe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/earth-europe.svg)
  */
 const EarthEurope: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `oven` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oven?s=regular oven}
- * @preview ![oven](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ4YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNjRMNDggMTYwbDAtNjRjMC0yNi41IDIxLjUtNDggNDgtNDhsMjU2IDB6bTQ4IDE2MGwwIDI0MGMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDY0Yy04LjggMC0xNi03LjItMTYtMTZsMC0yNDAgMzUyIDB6TTk2IDBDNDMgMCAwIDQzIDAgOTZMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zNTJjMC01My00My05Ni05Ni05Nkw5NiAwem0zMiAxMDRhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHptNTYgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em0xMDQtMjRhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHptNTYgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek0xMTIgMjQwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDEyOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwyMjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTEyOGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtMjI0IDB6bTMyIDQ4bDE2MCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xNjAgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![oven](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/oven.svg)
  */
 const Oven: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

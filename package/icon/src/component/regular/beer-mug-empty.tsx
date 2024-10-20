@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `beer-mug-empty` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/beer-mug-empty?s=regular beer-mug-empty}
- * @preview ![beer-mug-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgODBsMCAzMzZjMCA4LjggNy4yIDE2IDE2IDE2bDIyNCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTQ3LjRjMC0uNCAwLS43IDAtMS4xTDMzNiA4MCA4MCA4MHpNMzg0IDM4My43bDAgMzIuM2MwIDM1LjMtMjguNyA2NC02NCA2NEw5NiA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDMyIDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDI4OCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzIgNTkuMiAwYzM4IDAgNjguOCAzMC44IDY4LjggNjguOGwwIDExNy45YzAgMjcuMy0xNi4yIDUyLjEtNDEuMiA2M2wtODYuOCAzOHpNMzg0IDE0NGwwIDE4Ny4zIDY3LjUtMjkuNWM3LjYtMy4zIDEyLjUtMTAuOCAxMi41LTE5LjFsMC0xMTcuOWMwLTExLjUtOS4zLTIwLjgtMjAuOC0yMC44TDM4NCAxNDR6TTE0NCAxMjhjOC44IDAgMTYgNy4yIDE2IDE2bDAgMjI0YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMjI0YzAtOC44IDcuMi0xNiAxNi0xNnptNjQgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAyMjRjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0yMjRjMC04LjggNy4yLTE2IDE2LTE2em02NCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDIyNGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTIyNGMwLTguOCA3LjItMTYgMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![beer-mug-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/beer-mug-empty.svg)
  */
 const BeerMugEmpty: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `page-caret-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/page-caret-up?s=light page-caret-up}
- * @preview ![page-caret-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ0OGMwIDE3LjctMTQuMyAzMi0zMiAzMkw2NCA0ODBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyTDMyIDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDE4MS41IDBjOC41IDAgMTYuNiAzLjQgMjIuNiA5LjRsNzQuNSA3NC41YzYgNiA5LjQgMTQuMSA5LjQgMjIuNkwzNTIgNDQ4ek02NCA1MTJsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMDkuNWMwLTE3LTYuNy0zMy4zLTE4LjctNDUuM0wyOTAuNyAxOC43QzI3OC43IDYuNyAyNjIuNSAwIDI0NS41IDBMNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjR6TTIwMy44IDE5Ny4yYy0zLTMuMy03LjMtNS4yLTExLjgtNS4ycy04LjggMS45LTExLjggNS4ybC03NS43IDgyLjZjLTE0LjEgMTUuNC0zLjIgNDAuMiAxNy43IDQwLjJsMTM5LjYgMGMyMC45IDAgMzEuOC0yNC44IDE3LjctNDAuMmwtNzUuNy04Mi42ek0xOTIgMjMxLjdMMjQzLjYgMjg4bC0xMDMuMyAwTDE5MiAyMzEuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![page-caret-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/page-caret-up.svg)
  */
 const PageCaretUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

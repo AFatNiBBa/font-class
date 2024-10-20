@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-ramp-box` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-ramp-box?s=regular truck-ramp-box}
- * @preview ![truck-ramp-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDg4YzAtNDguNiAzOS40LTg4IDg4LTg4TDYxNiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0TDQ0MCA0OGMtMjIuMSAwLTQwIDE3LjktNDAgNDBsMCAyNzIuNyAyNS43LTcgLjQtLjFjMTcuNi0zOC43IDU2LjctNjUuNiAxMDItNjUuNmM2MS45IDAgMTEyIDUwLjEgMTEyIDExMnMtNTAuMSAxMTItMTEyIDExMmMtNTkuOCAwLTEwOC43LTQ2LjktMTExLjgtMTA2TDMwLjMgNTExLjJjLTEyLjggMy41LTI2LTQuMS0yOS41LTE2LjhzNC4xLTI2IDE2LjgtMjkuNUwzNTIgMzczLjggMzUyIDg4ek01OTIgNDAwYTY0IDY0IDAgMSAwIC0xMjggMCA2NCA2NCAwIDEgMCAxMjggMHpNMjMuMSAyMDcuN2MtNC42LTE3LjEgNS42LTM0LjYgMjIuNi0zOS4ybDQ2LjQtMTIuNCAyMC43IDc3LjNjMi4zIDguNSAxMS4xIDEzLjYgMTkuNiAxMS4zbDMwLjktOC4zYzguNS0yLjMgMTMuNi0xMS4xIDExLjMtMTkuNmwtMjAuNy03Ny4zIDQ2LjQtMTIuNGMxNy4xLTQuNiAzNC42IDUuNiAzOS4yIDIyLjZsNDEuNCAxNTQuNWM0LjYgMTcuMS01LjYgMzQuNi0yMi42IDM5LjJMMTAzLjcgMzg0LjljLTE3LjEgNC42LTM0LjYtNS42LTM5LjItMjIuNkwyMy4xIDIwNy43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-ramp-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/truck-ramp-box.svg)
  */
 const TruckRampBox: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

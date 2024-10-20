@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `circle-trash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-trash?s=duotone circle-trash}
- * @preview ![circle-trash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NmEyNTYgMjU2IDAgMSAwIDUxMiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZ6TTE0NCAxNDRjMC04LjggNy4yLTE2IDE2LTE2bDQxLjQgMCAxMS4zLTExLjNjMy0zIDcuMS00LjcgMTEuMy00LjdsNjQgMGM0LjIgMCA4LjMgMS43IDExLjMgNC43TDMxMC42IDEyOGw0MS40IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTE5MiAwYy04LjggMC0xNi03LjItMTYtMTZ6bTE2IDQ4bDE5MiAwTDMzOC40IDM1NC43Yy0xLjQgMTYuNi0xNS4yIDI5LjMtMzEuOSAyOS4zbC0xMDEuMSAwYy0xNi42IDAtMzAuNS0xMi44LTMxLjktMjkuM0wxNjAgMTkyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjEyLjcgMTE2LjdMMjAxLjQgMTI4IDE2MCAxMjhjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTkyIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTQxLjQgMC0xMS4zLTExLjNjLTMtMy03LjEtNC43LTExLjMtNC43bC02NCAwYy00LjIgMC04LjMgMS43LTExLjMgNC43ek0xNjAgMTkybDEzLjYgMTYyLjdjMS40IDE2LjYgMTUuMiAyOS4zIDMxLjkgMjkuM2wxMDEuMSAwYzE2LjYgMCAzMC41LTEyLjggMzEuOS0yOS4zTDM1MiAxOTJsLTE5MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circle-trash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-trash.svg)
  */
 const CircleTrash: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM144 144c0-8.8 7.2-16 16-16l41.4 0 11.3-11.3c3-3 7.1-4.7 11.3-4.7l64 0c4.2 0 8.3 1.7 11.3 4.7L310.6 128l41.4 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16zm16 48l192 0L338.4 354.7c-1.4 16.6-15.2 29.3-31.9 29.3l-101.1 0c-16.6 0-30.5-12.8-31.9-29.3L160 192z" />
-            <path d="M212.7 116.7L201.4 128 160 128c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-41.4 0-11.3-11.3c-3-3-7.1-4.7-11.3-4.7l-64 0c-4.2 0-8.3 1.7-11.3 4.7zM160 192l13.6 162.7c1.4 16.6 15.2 29.3 31.9 29.3l101.1 0c16.6 0 30.5-12.8 31.9-29.3L352 192l-192 0z" />
+        <path d="M212.7 116.7L201.4 128 160 128c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-41.4 0-11.3-11.3c-3-3-7.1-4.7-11.3-4.7l-64 0c-4.2 0-8.3 1.7-11.3 4.7zM160 192l13.6 162.7c1.4 16.6 15.2 29.3 31.9 29.3l101.1 0c16.6 0 30.5-12.8 31.9-29.3L352 192l-192 0z" />
     </Icon>
 );
 

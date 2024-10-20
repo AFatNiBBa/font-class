@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `helmet-battle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helmet-battle?s=sharp-solid helmet-battle}
- * @preview ![helmet-battle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjU2TDY0IDAgMCAyMjRsMCAzMiA2NCAwem0zMi0zMmMwIDgwLTMyIDE5Mi0zMiAxOTJsMTkyIDk2IDAtMjU2LTk2LTMyIDAtMzIgMjU2IDAgMCAzMi05NiAzMiAwIDI1NiAxOTItOTZzLTMyLTExMi0zMi0xOTJDNDgwIDgwIDI4OCAwIDI4OCAwUzk2IDgwIDk2IDIyNHpNNTEyIDBsMCAyNTYgNjQgMCAwLTMyTDUxMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![helmet-battle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/helmet-battle.svg)
  */
 const HelmetBattle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

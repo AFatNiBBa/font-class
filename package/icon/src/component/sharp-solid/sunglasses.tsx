@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sunglasses` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunglasses?s=sharp-solid sunglasses}
- * @preview ![sunglasses](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjEgMzEuOWwyMS44IDMuMiA4OC43IDEzLjIgMjMuNyAzLjUtNyA0Ny41LTIzLjctMy41TDk3LjYgODUuOGMtOC40IDM0LjMtMTUuNCA1OS42LTIyLjQgODQuNmMwIDAgMCAwIDAgMGwtLjMgMWMtOC4xIDI5LTE2LjEgNTcuOC0yNi4yIDEwMC42TDIyNCAyNzJsMzIgMCAwIDMyIDY0IDAgMC0zMiAzMiAwIDE3NS4zIDBjLTEwLjEtNDIuOC0xOC4xLTcxLjctMjYuMi0xMDAuNmwtLjMtMXMwIDAgMCAwczAgMCAwIDBzMCAwIDAgMGMtNy0yNS0xNC01MC4zLTIyLjQtODQuNmwtNjYuOSA5LjktMjMuNyAzLjUtNy00Ny41IDIzLjctMy41IDg4LjctMTMuMkw1MTUgMzEuOWw1IDIxLjVjMTAuNSA0NC44IDE4LjggNzQuMyAyNy4xIDEwNC4ybC4yIC45YzguNSAzMC4zIDE3LjEgNjEuMiAyOCAxMDguMWwuNiAyLjcgMCAyLjhzMCAwIDAgMGwwIDMyIDAgNDggMCAyNCAwIDcyIDAgMzItMzIgMC0xOTIgMC0zMiAwIDAtMzIgMC04MC02NCAwIDAgODAgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyIDAtNzIgMC0yNCAwLTQ4IDAtMzJzMCAwIDAgMGwwLTIuOCAuNi0yLjdjMTAuOS00Ni45IDE5LjUtNzcuNyAyOC0xMDguMWwuMy0uOUMzNy4yIDEyNy43IDQ1LjUgOTguMSA1NiA1My40bDUtMjEuNXpNNjQgMzM2bDAgNjAgMTIwLTYwTDY0IDMzNnptMzIwIDUybDEwNC01Mi0xMDQgMCAwIDUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sunglasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sunglasses.svg)
  */
 const Sunglasses: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cc-diners-club` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cc-diners-club?s=brands cc-diners-club}
- * @preview ![cc-diners-club](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM5LjcgNzkuOWMtOTYuOSAwLTE3NS44IDc4LjYtMTc1LjggMTc1LjggMCA5Ni45IDc4LjkgMTc1LjggMTc1LjggMTc1LjggOTcuMiAwIDE3NS44LTc4LjkgMTc1LjgtMTc1LjggMC05Ny4yLTc4LjYtMTc1LjgtMTc1LjgtMTc1Ljh6bS0zOS45IDI3OS42Yy00MS43LTE1LjktNzEuNC01Ni40LTcxLjQtMTAzLjhzMjkuNy04Ny45IDcxLjQtMTA0LjF2MjA3Ljl6bTc5LjguM1YxNTEuNmM0MS43IDE2LjIgNzEuNCA1Ni43IDcxLjQgMTA0LjFzLTI5LjcgODcuOS03MS40IDEwNC4xek01MjggMzJINDhDMjEuNSAzMiAwIDUzLjUgMCA4MHYzNTJjMCAyNi41IDIxLjUgNDggNDggNDhoNDgwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4VjgwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4ek0zMjkuNyA0NDhoLTkwLjNjLTEwNi4yIDAtMTkzLjgtODUuNS0xOTMuOC0xOTAuMkM0NS42IDE0My4yIDEzMy4yIDY0IDIzOS40IDY0aDkwLjNjMTA1IDAgMjAwLjcgNzkuMiAyMDAuNyAxOTMuOCAwIDEwNC43LTk1LjcgMTkwLjItMjAwLjcgMTkwLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cc-diners-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/cc-diners-club.svg)
  */
 const CcDinersClub: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-lizard` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-lizard?s=thin hand-lizard}
- * @preview ![hand-lizard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMTJDMCA4NS41IDIxLjUgNjQgNDggNjRsMjQ1LjYgMGMzNC4yIDAgNjYuMiAxNi44IDg1LjYgNDVMNDkzLjYgMjc0LjhjMTIgMTcuNCAxOC40IDM4IDE4LjQgNTlMNTEyIDQ0MGMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTEwNi4xYzAtMTcuOC01LjQtMzUuMy0xNS42LTUwTDM2NiAxMThjLTE2LjQtMjMuOC00My41LTM4LTcyLjQtMzhMNDggODBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsMTkyIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRzLTI4LjcgNjQtNjQgNjRsLTEyOCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDE1NC44IDBjNS4xIDAgMTAgMS42IDE0LjEgNC42bDc3LjIgNTYuMmM2LjIgNC41IDkuOSAxMS43IDkuOSAxOS40bDAgMjMuOWMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTIzLjljMC0yLjYtMS4yLTUtMy4zLTYuNWwtNzcuMi01Ni4xYy0xLjQtMS0zLTEuNS00LjctMS41TDExMiAzNTJjLTI2LjUgMC00OC0yMS41LTQ4LTQ4czIxLjUtNDggNDgtNDhsMTI4IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhzLTIxLjUtNDgtNDgtNDhMNDggMTYwYy0yNi41IDAtNDgtMjEuNS00OC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-lizard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hand-lizard.svg)
  */
 const HandLizard: typeof Icon = x => (
     <Icon {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `clouds` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clouds?s=duotone clouds}
- * @preview ![clouds](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE5MmMwIDUzIDQzIDk2IDk2IDk2bDY0LjkgMGM4LTcyIDY5LTEyOCAxNDMuMS0xMjhjNDEuNyAwIDc5LjMgMTcuNyAxMDUuNiA0Ni4xYzkuOS01LjUgMjAuNy05LjYgMzIuMS0xMS45YzQuMS0xMC42IDYuMy0yMi4yIDYuMy0zNC4yYzAtNTMtNDMtOTYtOTYtOTZjLTE0IDAtMjcuMiAzLTM5LjIgOC40QzI5Ni44IDMwLjEgMjU1LjkgMCAyMDggMEMxNTEuNiAwIDEwNC45IDQxLjcgOTcuMSA5Nkw5NiA5NkM0MyA5NiAwIDEzOSAwIDE5MnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTEyOCA0MTZjMCA1MyA0MyA5NiA5NiA5NmwzMjAgMGM1MyAwIDk2LTQzIDk2LTk2cy00My05Ni05Ni05NmMtLjUgMC0xLjEgMC0xLjYgMGMxLjEtNS4yIDEuNi0xMC41IDEuNi0xNmMwLTQ0LjItMzUuOC04MC04MC04MGMtMjQuMyAwLTQ2LjEgMTAuOS02MC44IDI4Yy0xOC43LTM1LjctNTYuMS02MC05OS4yLTYwYy02MS45IDAtMTEyIDUwLjEtMTEyIDExMmMwIDcuMSAuNyAxNC4xIDEuOSAyMC44QzE1NS42IDMzNy40IDEyOCAzNzMuNSAxMjggNDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clouds](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clouds.svg)
  */
 const Clouds: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 192c0 53 43 96 96 96l64.9 0c8-72 69-128 143.1-128c41.7 0 79.3 17.7 105.6 46.1c9.9-5.5 20.7-9.6 32.1-11.9c4.1-10.6 6.3-22.2 6.3-34.2c0-53-43-96-96-96c-14 0-27.2 3-39.2 8.4C296.8 30.1 255.9 0 208 0C151.6 0 104.9 41.7 97.1 96L96 96C43 96 0 139 0 192z" />
-            <path d="M128 416c0 53 43 96 96 96l320 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0c1.1-5.2 1.6-10.5 1.6-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28c-18.7-35.7-56.1-60-99.2-60c-61.9 0-112 50.1-112 112c0 7.1 .7 14.1 1.9 20.8C155.6 337.4 128 373.5 128 416z" />
+        <path d="M128 416c0 53 43 96 96 96l320 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0c1.1-5.2 1.6-10.5 1.6-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28c-18.7-35.7-56.1-60-99.2-60c-61.9 0-112 50.1-112 112c0 7.1 .7 14.1 1.9 20.8C155.6 337.4 128 373.5 128 416z" />
     </Icon>
 );
 

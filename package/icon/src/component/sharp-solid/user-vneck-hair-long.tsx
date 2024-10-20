@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-vneck-hair-long` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-vneck-hair-long?s=sharp-solid user-vneck-hair-long}
- * @preview ![user-vneck-hair-long](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDE0NGMwIDQ0LjItMzUuOCA4MC04MCA4MHMtODAtMzUuOC04MC04MGwwLTE2YzAtNS41IC42LTEwLjggMS42LTE2bDYyLjQgMCAzMi0zMiAxNiAxNiA0MS4zIDBjNC4zIDkuOCA2LjcgMjAuNiA2LjcgMzJsMCAxNnpNMjI0IDBDMTUzLjMgMCA5NiA1Ny4zIDk2IDEyOGwwIDE2IDAgNDhMNDggMjQwbDAgMzIgMTc2IDAgMTc2IDAgMC0zMi00OC00OCAwLTQ4IDAtMTZDMzUyIDU3LjMgMjk0LjcgMCAyMjQgMHptMCA0MTZsLTcyLTk2LTg4IDBMMCA1MTJsNDQ4IDBMMzg0IDMyMGwtODggMC03MiA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-vneck-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-vneck-hair-long.svg)
  */
 const UserVneckHairLong: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-rotate-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-rotate-left?s=thin arrow-rotate-left}
- * @preview ![arrow-rotate-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI3LjkgNDE5LjljOTAuNSA3MC43IDIyMS4yIDU0LjcgMjkyLTM1LjhzNTQuNy0yMjEuMi0zNS44LTI5MkMyOTMuNiAyMS40IDE2Mi45IDM3LjQgOTIuMSAxMjcuOUw1NiAxNzZsMTI4IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhMNDAgMTkyYy00LjQgMC04LTMuNi04LThMMzIgNDBjMC00LjQgMy42LTggOC04czggMy42IDggOGwwIDEyMCAzMS40LTQxLjhzMCAwIDAgMGwuMS0uMUMxNTUuNiAyMC42IDI5Ni40IDMuMyAzOTMuOSA3OS41czExNC44IDIxNi45IDM4LjYgMzE0LjRzLTIxNi45IDExNC44LTMxNC40IDM4LjZDOTMuNCA0MTMuMiA3My45IDM4OS44IDU5LjcgMzY0Yy0yLjEtMy45LS43LTguNyAzLjItMTAuOXM4LjctLjcgMTAuOSAzLjJjMTMuMiAyNCAzMS4zIDQ1LjcgNTQuMiA2My43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-rotate-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-rotate-left.svg)
  */
 const ArrowRotateLeft: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-simple` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-simple?s=light person-simple}
- * @preview ![person-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDY0QTMyIDMyIDAgMSAwIDk2IDY0YTMyIDMyIDAgMSAwIDY0IDB6TTY0IDY0YTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDY0IDY0ek01Ny44IDIzNmwtNC4xIDQ5LjNDNTIuMSAzMDQgNjYuOCAzMjAgODUuNiAzMjBsODQuOSAwYzE4LjcgMCAzMy40LTE2IDMxLjktMzQuN0wxOTguMiAyMzZjLTIuMS0yNC45LTIyLjktNDQtNDcuOC00NGwtNDQuOCAwYy0yNSAwLTQ1LjggMTkuMS00Ny44IDQ0em0tMzEuOS0yLjdDMjkuMyAxOTEuOSA2NCAxNjAgMTA1LjYgMTYwbDQ0LjggMGM0MS42IDAgNzYuMyAzMS45IDc5LjcgNzMuNGw0LjEgNDkuM2MyLjUgMjkuOC0xNS43IDU2LjEtNDIuMiA2NS42TDE5MiA0OTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0xNDQtNjQgMCAwIDE0NGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTE0Ny43Yy0yNi41LTkuNS00NC43LTM1LjgtNDIuMi02NS42bDQuMS00OS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-simple.svg)
  */
 const PersonSimple: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

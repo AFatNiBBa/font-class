@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-dress` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dress?s=light person-dress}
- * @preview ![person-dress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDgwYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMC04MGE1NiA1NiAwIDEgMSAwIDExMkE1NiA1NiAwIDEgMSAxNjAgMHpNMTE5LjIgMjQxLjdjNy45IDQgMTEuMSAxMy42IDcuMiAyMS41TDczLjkgMzY4bDM4LjEgMCA5NiAwIDM4LjEgMEwxOTMuNyAyNjMuMmMtNC03LjktLjctMTcuNSA3LjItMjEuNXMxNy41LS43IDIxLjUgNy4ybDY0IDEyOGMyLjUgNSAyLjIgMTAuOS0uNyAxNS42cy04LjEgNy42LTEzLjYgNy42bC00OCAwIDAgOTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC05Ni02NCAwIDAgOTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC05Ni00OCAwYy01LjUgMC0xMC43LTIuOS0xMy42LTcuNnMtMy4yLTEwLjYtLjctMTUuNmw2NC0xMjhjNC03LjkgMTMuNi0xMS4xIDIxLjUtNy4yek05OSAxOTYuNkw0Ni4xIDI5NS41Yy00LjIgNy44LTEzLjkgMTAuNy0yMS43IDYuNnMtMTAuNy0xMy45LTYuNi0yMS43bDUyLjktOTguOUM4OC4zIDE0OC42IDEyMi43IDEyOCAxNjAgMTI4czcxLjcgMjAuNiA4OS4zIDUzLjVsNTIuOSA5OC45YzQuMiA3LjggMS4yIDE3LjUtNi42IDIxLjdzLTE3LjUgMS4yLTIxLjctNi42TDIyMSAxOTYuNmMtMTItMjIuNS0zNS41LTM2LjYtNjEtMzYuNnMtNDkgMTQuMS02MSAzNi42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-dress.svg)
  */
 const PersonDress: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

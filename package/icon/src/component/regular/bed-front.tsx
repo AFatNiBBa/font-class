@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bed-front` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-front?s=regular bed-front}
- * @preview ![bed-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgODBsMCAxMjUuOGMxNC41LTcuNyAzMC44LTEyLjQgNDgtMTMuNmwwLS4zIDAtMzJjMC0xNy43IDE0LjMtMzIgMzItMzJsOTYgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyIDMyIDAgMC0zMmMwLTE3LjcgMTQuMy0zMiAzMi0zMmw5NiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzIgMCAuM2MxNy4yIDEuMSAzMy41IDUuOSA0OCAxMy42TDQ4MCA4MGMwLTI2LjUtMjEuNS00OC00OC00OEw4MCAzMkM1My41IDMyIDMyIDUzLjUgMzIgODB6TTg4IDIyNGMtNDguNiAwLTg4IDM5LjQtODggODhsMCA4MCAwIDY0YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC00MCA0MTYgMCAwIDQwYzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC02NCAwLTgwYzAtNDguNi0zOS40LTg4LTg4LTg4TDg4IDIyNHpNNDY0IDM2OEw0OCAzNjhsMC01NmMwLTIyLjEgMTcuOS00MCA0MC00MGwzMzYgMGMyMi4xIDAgNDAgMTcuOSA0MCA0MGwwIDU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bed-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bed-front.svg)
  */
 const BedFront: typeof Icon = x => (
     <Icon {...x}>

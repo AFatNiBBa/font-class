@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-code` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-code?s=sharp-light file-code}
- * @preview ![file-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDgwTDMyIDMybDE2MCAwIDAgMTQ0IDAgMTYgMTYgMCAxNDQgMCAwIDI4OEwzMiA0ODB6TTIyNCAzNy4zTDM0Ni43IDE2MCAyMjQgMTYwbDAtMTIyLjd6TTIzMiAwTDMyIDAgMCAwIDAgMzIgMCA0ODBsMCAzMiAzMiAwIDMyMCAwIDMyIDAgMC0zMiAwLTMyOEwyMzIgMHpNMTU1LjMgMjk5LjNMMTY2LjYgMjg4IDE0NCAyNjUuNGwtMTEuMyAxMS4zLTQ4IDQ4TDczLjQgMzM2bDExLjMgMTEuMyA0OCA0OEwxNDQgNDA2LjYgMTY2LjYgMzg0bC0xMS4zLTExLjNMMTE4LjYgMzM2bDM2LjctMzYuN3ptOTYtMjIuNkwyNDAgMjY1LjQgMjE3LjQgMjg4bDExLjMgMTEuM0wyNjUuNCAzMzZsLTM2LjcgMzYuN0wyMTcuNCAzODQgMjQwIDQwNi42bDExLjMtMTEuMyA0OC00OEwzMTAuNiAzMzZsLTExLjMtMTEuMy00OC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-code.svg)
  */
 const FileCode: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

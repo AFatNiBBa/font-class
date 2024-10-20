@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `explosion` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/explosion?s=sharp-solid explosion}
- * @preview ![explosion](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDM2OEwwIDMyMGw4Mi4zIDk2IDExNS4yIDBjMTMuMi0zNy4zIDQ4LjctNjQgOTAuNS02NHM3Ny40IDI2LjcgOTAuNSA2NGwxMTUuMiAwTDU3NiAzMjAgNDMyIDM2OCA1NDQgMCAzMzYgMjk2IDMxMiAxMjhsLTQ4IDBMMjQwIDMwNCA5NiAxOTJsNDggMTc2ek0zMTIgMEwyNjQgMGwwIDI0IDAgNDggMCAyNCA0OCAwIDAtMjQgMC00OCAwLTI0ek0zMiA0NDhMMCA0NDhsMCA2NCAzMiAwIDUxMiAwIDMyIDAgMC02NC0zMiAwTDMyIDQ0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![explosion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/explosion.svg)
  */
 const Explosion: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

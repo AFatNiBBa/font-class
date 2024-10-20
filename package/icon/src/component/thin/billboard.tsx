@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `billboard` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/billboard?s=thin billboard}
- * @preview ![billboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI0IDhjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCAyNEwyMzIgMzJsMC0yNGMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDI0TDgwIDMyQzUzLjUgMzIgMzIgNTMuNSAzMiA4MGwwIDI4OEw4IDM2OGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwyNCAwIDE2IDAgMjY0IDAgMCAxMjBjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTEyMCAyNjQgMCAxNiAwIDI0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTI0IDAgMC0yODhjMC0yNi41LTIxLjUtNDgtNDgtNDhMNDI0IDMybDAtMjR6TTMyMCAzNjhMNDggMzY4IDQ4IDgwYzAtMTcuNyAxNC4zLTMyIDMyLTMybDEzNiAwIDAgODAtMjQgMGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwzMiAwIDMyIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTI0IDAgMC04MCAxNzYgMCAwIDgwLTI0IDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMzIgMCAzMiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0yNCAwIDAtODAgMTM2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyODgtMjcyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![billboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/billboard.svg)
  */
 const Billboard: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

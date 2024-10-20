@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-fog` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-fog?s=sharp-solid cloud-fog}
- * @preview ![cloud-fog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMyMGwtOTYgMCAwLTk2YzAtNDEuOCAyNi43LTc3LjQgNjQtOTAuNWwwLTIxLjVDMTI4IDUwLjEgMTc4LjEgMCAyNDAgMGM0My4xIDAgODAuNSAyNC4zIDk5LjIgNjBjMTQuNy0xNy4xIDM2LjUtMjggNjAuOC0yOGM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDE2YzUzIDAgOTYgNDMgOTYgOTZsMCA5Ni05NiAwLTMyMCAwek0wIDM2OGwyNCAwIDUyOCAwIDI0IDAgMCA0OC0yNCAwTDI0IDQxNiAwIDQxNmwwLTQ4em02NCA5NmwyNCAwIDExMiAwIDI0IDAgMCA0OC0yNCAwTDg4IDUxMmwtMjQgMCAwLTQ4em0yMDggMGwyNCAwIDMyMCAwIDI0IDAgMCA0OC0yNCAwLTMyMCAwLTI0IDAgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cloud-fog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-fog.svg)
  */
 const CloudFog: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

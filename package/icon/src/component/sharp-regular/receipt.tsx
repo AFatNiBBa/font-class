@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `receipt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/receipt?s=sharp-regular receipt}
- * @preview ![receipt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTMuNSA0MzcuMUw3My4yIDQyNi45bC0yMC43IDkuMi00LjUgMkw0OCA3My45bDQuNSAyIDIwLjcgOS4yTDkzLjUgNzQuOWw0MS0yMC41IDMzLjcgMTkuM0wxOTIgODcuM2wyMy44LTEzLjYgMzMuNy0xOS4zIDQxIDIwLjUgMjAuMyAxMC4xIDIwLjctOS4yIDQuNS0yIDAgMzY0LjMtNC41LTItMjAuNy05LjItMjAuMyAxMC4xLTQxIDIwLjUtMzMuNy0xOS4zTDE5MiA0MjQuN2wtMjMuOCAxMy42LTMzLjcgMTkuMy00MS0yMC41ek0wIDUxMmw0OC0yMS4zTDcyIDQ4MGw2NCAzMiA1Ni0zMiA1NiAzMiA2NC0zMiAyNCAxMC43TDM4NCA1MTJsMC01Mi41IDAtNDA2LjlMMzg0IDAgMzM2IDIxLjMgMzEyIDMyIDI0OCAwIDE5MiAzMiAxMzYgMCA3MiAzMiA0OCAyMS4zIDAgMCAwIDUyLjUgMCA0NTkuNSAwIDUxMnpNMTIwIDE0NGwtMjQgMCAwIDQ4IDI0IDAgMTQ0IDAgMjQgMCAwLTQ4LTI0IDAtMTQ0IDB6TTk2IDMyMGwwIDQ4IDI0IDAgMTQ0IDAgMjQgMCAwLTQ4LTI0IDAtMTQ0IDAtMjQgMHptMjQtODhsLTI0IDAgMCA0OCAyNCAwIDE0NCAwIDI0IDAgMC00OC0yNCAwLTE0NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![receipt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/receipt.svg)
  */
 const Receipt: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

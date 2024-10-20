@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sack` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack?s=solid sack}
- * @preview ![sack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDk2bDEyOCAwIDQ3LjQtNzEuMUMzNzQuNSAxNC4yIDM2Ni45IDAgMzU0LjEgMEwxNTcuOSAwYy0xMi44IDAtMjAuNCAxNC4yLTEzLjMgMjQuOUwxOTIgOTZ6bTEyOCAzMmwtMTI4IDBjLTMuOCAyLjUtOC4xIDUuMy0xMyA4LjRjMCAwIDAgMCAwIDBDMTIyLjMgMTcyLjcgMCAyNTAuOSAwIDQxNmMwIDUzIDQzIDk2IDk2IDk2bDMyMCAwYzUzIDAgOTYtNDMgOTYtOTZjMC0xNjUuMS0xMjIuMy0yNDMuMy0xNzktMjc5LjZjLTQuOC0zLjEtOS4yLTUuOS0xMy04LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sack.svg)
  */
 const Sack: typeof Icon = x => (
     <Icon {...x}>

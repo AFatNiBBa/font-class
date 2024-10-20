@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `balloon` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/balloon?s=sharp-thin balloon}
- * @preview ![balloon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE0LjQgNDI3LjJzMCAwIDAgMHMwIDAgMCAwYzAgMCAwIDAgLjEgMGwuMy0uMiAxLjItLjljMS4xLS45IDIuNy0yLjEgNC44LTMuOGM0LjItMy40IDEwLjMtOC40IDE3LjYtMTQuOWMxNC42LTEyLjkgMzQuMS0zMS40IDUzLjUtNTMuOEMzMzEuNCAzMDguMSAzNjggMjQ5LjkgMzY4IDE5MmMwLTk3LjItNzguOC0xNzYtMTc2LTE3NlMxNiA5NC44IDE2IDE5MmMwIDU3LjkgMzYuNiAxMTYuMSA3Ni4xIDE2MS41YzE5LjQgMjIuMyAzOC45IDQwLjggNTMuNSA1My44YzcuMyA2LjUgMTMuNCAxMS41IDE3LjYgMTQuOWMyLjEgMS43IDMuNyAzIDQuOCAzLjhsMS4yIC45IC4zIC4yYzAgMCAwIDAgLjEgMGMwIDAgMCAwIDAgMHMwIDAgMCAwczAgMCAwIDBMMTc2IDQzMmwzMiAwIDYuNC00LjhzMCAwIDAgMHpNMjEwIDQ0OEwxNzQgNDQ4bC0yMS4zIDQ4IDc4LjggMEwyMTAgNDQ4em0zOC44IDQ4bDcuMSAxNi0xNy41IDAtOTMgMEwxMjggNTEybDcuMS0xNkwxNjAgNDQwUzAgMzIwIDAgMTkyQzAgODYgODYgMCAxOTIgMFMzODQgODYgMzg0IDE5MmMwIDEyOC0xNjAgMjQ4LTE2MCAyNDhsMjQuOSA1NnpNMTY4IDk2Yy0zOS44IDAtNzIgMzIuMi03MiA3MmwwIDgtMTYgMCAwLThjMC00OC42IDM5LjQtODggODgtODhsOCAwIDAgMTYtOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![balloon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/balloon.svg)
  */
 const Balloon: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

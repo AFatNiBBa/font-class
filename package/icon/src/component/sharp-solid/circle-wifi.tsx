@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-wifi` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-wifi?s=sharp-solid circle-wifi}
- * @preview ![circle-wifi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTM5OS41IDI1Ni41QzM2NC40IDIxNi45IDMxMy4xIDE5MiAyNTYgMTkycy0xMDguNCAyNC45LTE0My41IDY0LjVsLTM0LTM0QzEyMi40IDE3NC4zIDE4NS43IDE0NCAyNTYgMTQ0czEzMy42IDMwLjMgMTc3LjUgNzguNWwtMzQgMzR6bS0zNi4xIDM2LjFsLTM0LjQgMzQuNEMzMTMuMyAzMDMuNSAyODYuNCAyODggMjU2IDI4OHMtNTcuMyAxNS41LTczLjEgMzguOWwtMzQuNC0zNC40YzI0LjktMzIgNjMuNy01Mi42IDEwNy40LTUyLjZzODIuNSAyMC42IDEwNy40IDUyLjZ6TTIyNCAzNjhhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-wifi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/circle-wifi.svg)
  */
 const CircleWifi: typeof Icon = x => (
     <Icon {...x}>

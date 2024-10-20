@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `video-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-slash?s=sharp-regular video-slash}
- * @preview ![video-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkuNCAuMWwxOSAxNC43TDExMS44IDY0IDM2OCA2NGw0OCAwIDAgNDggMCA0OCAwIDEyOCAwIDEyLjJMNTYwIDQxMmwwLTQxLjcgMC0xOC4zIDAtNjQgMC0xNDYuMy0xMTIgNTYgMC01My43TDU2MCA4OGw0OC0yNCAwIDUzLjdMNjA4IDM1MmwwIDQyLjMgMCA1My43IDAgMS4zIDEyLjkgMTAgMTkgMTQuNy0yOS40IDM3LjktMTktMTQuN0wxOSA1Mi43IDAgMzggMjkuNCAuMXpNMzY4IDI2Mi45TDM2OCAxMTJsLTE5NC40IDBMMzY4IDI2Mi45ek00MTYgNDQwbDAgOC00OCAwTDgwIDQ0OGwtNDggMCAwLTQ4IDAtMjc4LjhMODAgMTU5bDAgMjQxIDI4OCAwIDAtMTQuMSA0OCAzNy44IDAgMTYuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![video-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/video-slash.svg)
  */
 const VideoSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

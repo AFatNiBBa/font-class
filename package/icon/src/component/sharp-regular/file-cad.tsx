@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-cad` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-cad?s=sharp-regular file-cad}
- * @preview ![file-cad](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDQ2NGwtNjQgMEw0OCA0OGwxNzYgMCAwIDExMiAxMTIgMCAwIDE0NCA0OCAwIDAtMTc2TDI1NiAwIDQ4IDAgMCAwIDAgNDggMCA0NjRsMCA0OCA0OCAwIDY0IDAgMC00OHptODgtMTEyYy0yMi4xIDAtNDAgMTcuOS00MCA0MGwwIDgwYzAgMjIuMSAxNy45IDQwIDQwIDQwbDE2IDBjMjIuMSAwIDQwLTE3LjkgNDAtNDBsMC04IDAtMTYtMzIgMCAwIDE2IDAgOGMwIDQuNC0zLjYgOC04IDhsLTE2IDBjLTQuNCAwLTgtMy42LTgtOGwwLTgwYzAtNC40IDMuNi04IDgtOGwxNiAwYzQuNCAwIDggMy42IDggOGwwIDggMCAxNiAzMiAwIDAtMTYgMC04YzAtMjIuMS0xNy45LTQwLTQwLTQwbC0xNiAwem0yMzIgMGwtMTYgMCAwIDE2IDAgMTI4IDAgMTYgMTYgMCAzMiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtNjRjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTMyIDB6bTE2IDMybDE2IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2bC0xNiAwIDAtOTZ6bS0xNjAgOGwwIDU2IDAgNDggMCAxNiAzMiAwIDAtMTYgMC0zMiAzMiAwIDAgMzIgMCAxNiAzMiAwIDAtMTYgMC00OCAwLTU2YzAtMjIuMS0xNy45LTQwLTQwLTQwbC0xNiAwYy0yMi4xIDAtNDAgMTcuOS00MCA0MHptMzIgMGMwLTQuNCAzLjYtOCA4LThsMTYgMGM0LjQgMCA4IDMuNiA4IDhsMCA0MC0zMiAwIDAtNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-cad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-cad.svg)
  */
 const FileCad: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scribd` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scribd?s=brands scribd}
- * @preview ![scribd](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIuMyAyNTIuN2MtMTYuMS0xOS0yNC43LTQ1LjktMjQuOC03OS45IDAtMTAwLjQgNzUuMi0xNTMuMSAxNjcuMi0xNTMuMSA5OC42LTEuNiAxNTYuOCA0OSAxODQuMyA3MC42bC01MC41IDcyLjEtMzcuMy0yNC42IDI2LjktMzguNmMtMzYuNS0yNC03OS40LTM2LjUtMTIzLTM1LjgtNTAuNy0uOC0xMTEuNyAyNy4yLTExMS43IDc2LjIgMCAxOC43IDExLjIgMjAuNyAyOC42IDE1LjYgMjMuMy01LjMgNDEuOS42IDU1LjggMTQgMjYuNCAyNC4zIDIzLjIgNjcuNi0uNyA5MS45LTI5LjIgMjkuNS04NS4yIDI3LjMtMTE0LjgtOC40em0zMTcuNyA1LjljLTE1LjUtMTguOC0zOC45LTI5LjQtNjMuMi0yOC42LTM4LjEtMi03MS4xIDI4LTcwLjUgNjcuMi0uNyAxNi44IDYgMzMgMTguNCA0NC4zIDE0LjEgMTMuOSAzMyAxOS43IDU2LjMgMTQuNCAxNy40LTUuMSAyOC42LTMuMSAyOC42IDE1LjYgMCA0LjMtLjUgOC41LTEuNCAxMi43LTE2LjcgNDAuOS01OS41IDY0LjQtMTIxLjQgNjQuNC01MS45LjItMTAyLjQtMTYuNC0xNDQuMS00Ny4zbDMzLjctMzkuNC0zNS42LTI3LjRMMCA0MDYuM2wxNS40IDEzLjhjNTIuNSA0Ni44IDEyMC40IDcyLjUgMTkwLjcgNzIuMiA1MS40IDAgOTQuNC0xMC41IDEzMy42LTQ0LjEgNTcuMS01MS40IDU0LjItMTQ5LjIgMjAuMy0xODkuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scribd](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/scribd.svg)
  */
 const Scribd: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

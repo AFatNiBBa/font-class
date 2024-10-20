@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `forward` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward?s=thin forward}
- * @preview ![forward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU0IDgwYzMgMCA1LjggLjkgOC4yIDIuN0w0OTIuNyAyNDkuNWMyLjEgMS41IDMuMyAzLjkgMy4zIDYuNXMtMS4yIDUtMy4zIDYuNUwyNjIuMyA0MjkuM2MtMi40IDEuNy01LjMgMi43LTguMiAyLjdjLTcuOCAwLTE0LTYuMy0xNC0xNEwyNDAgOTRjMC03LjggNi4zLTE0IDE0LTE0em0wLTE2Yy0xNi42IDAtMzAgMTMuNS0zMCAzMGwwIDEwMy40TDQ3LjcgNjkuN0M0Mi41IDY2IDM2LjQgNjQgMzAgNjRDMTMuNSA2NCAwIDc3LjUgMCA5NEwwIDQxOGMwIDE2LjYgMTMuNSAzMCAzMCAzMGM2LjMgMCAxMi41LTIgMTcuNi01LjdMMjI0IDMxNC42IDIyNCA0MThjMCAxNi42IDEzLjUgMzAgMzAgMzBjNi4zIDAgMTIuNS0yIDE3LjYtNS43TDUwMi4xIDI3NS40YzYuMi00LjUgOS45LTExLjcgOS45LTE5LjRzLTMuNy0xNC45LTkuOS0xOS40TDI3MS43IDY5LjdDMjY2LjUgNjYgMjYwLjQgNjQgMjU0IDY0ek0yMjQgMjk0LjhMMzguMyA0MjkuM0MzNS45IDQzMS4xIDMzIDQzMiAzMCA0MzJjLTcuOCAwLTE0LTYuMy0xNC0xNEwxNiA5NGMwLTcuOCA2LjMtMTQgMTQtMTRjMyAwIDUuOCAuOSA4LjIgMi43TDIyNCAyMTcuMmwwIDc3Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![forward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/forward.svg)
  */
 const Forward: typeof Icon = x => (
     <Icon {...x}>

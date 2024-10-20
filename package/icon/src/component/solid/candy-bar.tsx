@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `candy-bar` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy-bar?s=solid candy-bar}
- * @preview ![candy-bar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMjBsMTI4IDAgMC05NkwwIDIyNGwwIDk2em0wIDY0YzAgMzUuMyAyOC43IDY0IDY0IDY0bDY0IDAgMC05NkwwIDM1MmwwIDMyem0yODggNjRsMC05Ni0xMjggMCAwIDk2IDEyOCAwem0wLTIyNGwtMTI4IDAgMCA5NiAxMjggMCAwLTk2em0wLTE2MEwxNjAgNjRsMCAxMjggMTI4IDAgMC0xMjh6bTI4OCAwTDMyMCA2NGwwIDM4NCAyNTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTI1NmMwLTM1LjMtMjguNy02NC02NC02NHpNNDQuMiAxOTJsNzUuOCAwczAgMCAwIDBsOCAwIDAtMzJzMCAwIDAgMGwwLTUxLjhjMC03LjEtOS0xMS4xLTE1LTcuNEMxMDEgMTA3LjkgODcgMTEyIDcyIDExMmMtNCAwLTcuOS0uMy0xMS43LS45Yy03LTEtMTQuMiA2LjItMTMuMSAxMy4xYy42IDMuOCAuOSA3LjcgLjkgMTEuN2MwIDE1LTQuMSAyOS0xMS4zIDQxYy0zLjYgNi4xIC40IDE1IDcuNCAxNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![candy-bar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/candy-bar.svg)
  */
 const CandyBar: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

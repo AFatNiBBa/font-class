@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `skyatlas` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skyatlas?s=brands skyatlas}
- * @preview ![skyatlas](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDMyOS4zYzAgNjUuOS01Mi41IDExNC40LTExNy41IDExNC40LTE2NS45IDAtMTk2LjYtMjQ5LjctMzU5LjctMjQ5LjctMTQ2LjkgMC0xNDcuMSAyMTIuMiA1LjYgMjEyLjIgNDIuNSAwIDkwLjktMTcuOCAxMjUuMy00Mi41IDUuNi00LjEgMTYuOS0xNi4zIDIyLjgtMTYuM3MxMC45IDUgMTAuOSAxMC45YzAgNy44LTEzLjEgMTkuMS0xOC43IDI0LjEtNDAuOSAzNS42LTEwMC4zIDYxLjItMTU0LjcgNjEuMi04My40LjEtMTU0LTU5LTE1NC0xNDQuOXM2Ny41LTE0OS4xIDE1Mi44LTE0OS4xYzE4NS4zIDAgMjIyLjUgMjQ1LjkgMzYxLjkgMjQ1LjkgOTkuOSAwIDk0LjgtMTM5LjcgMy40LTEzOS43LTE3LjUgMC0zNSAxMS42LTQ2LjkgMTEuNi04LjQgMC0xNS45LTcuMi0xNS45LTE1LjYgMC0xMS42IDUuMy0yMy43IDUuMy0zNi4zIDAtNjYuNi01MC45LTExNC43LTExNi45LTExNC43LTUzLjEgMC04MCAzNi45LTg4LjggMzYuOS02LjIgMC0xMS4yLTUtMTEuMi0xMS4yIDAtNS42IDQuMS0xMC4zIDcuOC0xNC40IDI1LjMtMjguOCA2NC43LTQzLjcgMTAyLjgtNDMuNyA3OS40IDAgMTM5LjEgNTguNCAxMzkuMSAxMzcuOCAwIDYuOS0uMyAxMy43LTEuMiAyMC42IDExLjktMy4xIDI0LjEtNC43IDM1LjktNC43IDYwLjcgMCAxMTEuOSA0NS4zIDExMS45IDEwNy4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![skyatlas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/skyatlas.svg)
  */
 const Skyatlas: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

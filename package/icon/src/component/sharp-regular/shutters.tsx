@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shutters` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shutters?s=sharp-regular shutters}
- * @preview ![shutters](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMzJMMCAzMiAwIDgwbDI0IDAgNDY0IDAgMjQgMCAwLTQ4LTI0IDBMMjQgMzJ6bS04IDk2TDggMTc2IDAgMjI0bDQ4LjcgMCA0MTQuNyAwIDQ4LjcgMC04LTQ4LTgtNDgtNDguNyAwIDggNDhMNTYuNyAxNzZsOC00OEwxNiAxMjh6TTggMzA0TDAgMzUybDQ4LjcgMCA0MTQuNyAwIDQ4LjcgMC04LTQ4LTgtNDgtNDguNyAwIDggNDhMNTYuNyAzMDRsOC00OEwxNiAyNTYgOCAzMDR6TTggNDMyTDAgNDgwbDQ4LjcgMCA0MTQuNyAwIDQ4LjcgMC04LTQ4LTgtNDgtNDguNyAwIDggNDhMNTYuNyA0MzJsOC00OEwxNiAzODQgOCA0MzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shutters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shutters.svg)
  */
 const Shutters: typeof Icon = x => (
     <Icon {...x}>

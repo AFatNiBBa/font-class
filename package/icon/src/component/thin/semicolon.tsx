@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `semicolon` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/semicolon?s=thin semicolon}
- * @preview ![semicolon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTI4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bTExMiAwQTY0IDY0IDAgMSAwIDMyIDEyOGE2NCA2NCAwIDEgMCAxMjggMHpNMTQ0IDM1MC40YzAgOC41LTIuNCAxNi45LTYuOCAyNC4yTDY5IDQ4Ni4yYy0zLjcgNi4xLTEwLjMgOS44LTE3LjUgOS44Yy0xMi43IDAtMjIuNC0xMS41LTIwLjEtMjQuMUw1NC44IDM0MS4xQzU4LjYgMzE5LjYgNzcuMyAzMDQgOTkgMzA0YzI0LjggMCA0NSAyMC4xIDQ1IDQ1bDAgMS41em0xNiAwbDAtMS41YzAtMzMuNy0yNy4zLTYxLTYxLTYxYy0yOS41IDAtNTQuOCAyMS4yLTYwIDUwLjJMMTUuNyA0NjkuMWMtNCAyMi4zIDEzLjIgNDIuOSAzNS45IDQyLjljMTIuNyAwIDI0LjUtNi42IDMxLjEtMTcuNEwxNTAuOCAzODNjNi05LjggOS4yLTIxLjEgOS4yLTMyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![semicolon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/semicolon.svg)
  */
 const Semicolon: typeof Icon = x => (
     <Icon viewBox="0 0 192 512" {...x}>

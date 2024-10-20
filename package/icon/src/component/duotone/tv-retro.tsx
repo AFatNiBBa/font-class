@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `tv-retro` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv-retro?s=duotone tv-retro}
- * @preview ![tv-retro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE3NkwwIDQzMmMwIDQ0LjIgMzUuOCA4MCA4MCA4MGwzNTIgMGM0NC4yIDAgODAtMzUuOCA4MC04MGwwLTI1NmMwLTQ0LjItMzUuOC04MC04MC04MEwzMjEuOSA5Nmw1NS01NWM5LjQtOS40IDkuNC0yNC42IDAtMzMuOWMtNC43LTQuNy0xMC44LTctMTctN3MtMTIuMyAyLjMtMTcgN2wtODcgODdMMTY5IDdjLTQuNy00LjctMTAuOC03LTE3LTdzLTEyLjMgMi4zLTE3IDdjLTkuNCA5LjQtOS40IDI0LjYgMCAzMy45bDU1IDU1TDgwIDk2QzM1LjggOTYgMCAxMzEuOCAwIDE3NnptNjQgNDhjMC0zNS4zIDI4LjctNjQgNjQtNjRsMTkyIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAxNjBjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTE5MiAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTE2MHptNDA4IDhhMjQgMjQgMCAxIDEgLTQ4IDAgMjQgMjQgMCAxIDEgNDggMHptMCA4MGEyNCAyNCAwIDEgMSAtNDggMCAyNCAyNCAwIDEgMSA0OCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNjQgMjI0YzAtMzUuMyAyOC43LTY0IDY0LTY0SDMyMGMzNS4zIDAgNjQgMjguNyA2NCA2NFYzODRjMCAzNS4zLTI4LjcgNjQtNjQgNjRIMTI4Yy0zNS4zIDAtNjQtMjguNy02NC02NFYyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tv-retro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tv-retro.svg)
  */
 const TvRetro: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 176L0 432c0 44.2 35.8 80 80 80l352 0c44.2 0 80-35.8 80-80l0-256c0-44.2-35.8-80-80-80L321.9 96l55-55c9.4-9.4 9.4-24.6 0-33.9c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7l-87 87L169 7c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7c-9.4 9.4-9.4 24.6 0 33.9l55 55L80 96C35.8 96 0 131.8 0 176zm64 48c0-35.3 28.7-64 64-64l192 0c35.3 0 64 28.7 64 64l0 160c0 35.3-28.7 64-64 64l-192 0c-35.3 0-64-28.7-64-64l0-160zm408 8a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm0 80a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-            <path d="M64 224c0-35.3 28.7-64 64-64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H128c-35.3 0-64-28.7-64-64V224z" />
+        <path d="M64 224c0-35.3 28.7-64 64-64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H128c-35.3 0-64-28.7-64-64V224z" />
     </Icon>
 );
 

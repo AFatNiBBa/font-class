@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `head-side-cough` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-cough?s=sharp-duotone-solid head-side-cough}
- * @preview ![head-side-cough](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIyNC4zQzAgMTAwLjQgMTAwLjQgMCAyMjQuMyAwTDI1NiAwQzM1OC4xIDAgNDQxLjYgNzkuNyA0NDcuNyAxODAuM0w1MDUgMjUybDcgOC44IDAgMTEuMiAwIDE2IDAgMzItMzIgMC0zMiAwIDAgMzJMMzIwIDM2OGwwIDQwIDEyOCA4IDAgNjQtMTI4IDAgMCAzMi0zMiAwLTMyIDBMOTYgNTEybC0zMiAwIDAtMzIgMC05OC44QzIzIDMzOS4zIDAgMjgzIDAgMjI0LjN6TTMyMCAxOTJhMzIgMzIgMCAxIDAgNjQgMCAzMiAzMiAwIDEgMCAtNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTU5MiAyODhhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHptLTQwIDI0YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptLTY0IDQ4YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMTI4IDBhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4ek01OTIgNDgwYTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bS00MC03MmEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![head-side-cough](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/head-side-cough.svg)
  */
 const HeadSideCough: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 224.3C0 100.4 100.4 0 224.3 0L256 0C358.1 0 441.6 79.7 447.7 180.3L505 252l7 8.8 0 11.2 0 16 0 32-32 0-32 0 0 32L320 368l0 40 128 8 0 64-128 0 0 32-32 0-32 0L96 512l-32 0 0-32 0-98.8C23 339.3 0 283 0 224.3zM320 192a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-            <path d="M592 288a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-40 24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm-64 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm128 0a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM592 480a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-40-72a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+        <path d="M592 288a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-40 24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm-64 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm128 0a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM592 480a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-40-72a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-arrow-down` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-arrow-down?s=sharp-regular file-arrow-down}
- * @preview ![file-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMTc2IDAgMCAxMTIgMTEyIDAgMCAzMDRMNDggNDY0IDQ4IDQ4ek0yNTYgMEw0OCAwIDAgMCAwIDQ4IDAgNDY0bDAgNDggNDggMCAyODggMCA0OCAwIDAtNDggMC0zMzZMMjU2IDB6TTIxNiAyMzJsMC0yNC00OCAwIDAgMjQgMCAxMDIuMS0zMS0zMS0xNy0xN0w4Ni4xIDMyMGwxNyAxNyA3MiA3MiAxNyAxNyAxNy0xNyA3Mi03MiAxNy0xN0wyNjQgMjg2LjFsLTE3IDE3LTMxIDMxTDIxNiAyMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-arrow-down.svg)
  */
 const FileArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

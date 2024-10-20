@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-dizzy` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-dizzy?s=sharp-light face-dizzy}
- * @preview ![face-dizzy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTIwOCA5NmE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAwem00OCA4MGE4MCA4MCAwIDEgMSAwLTE2MCA4MCA4MCAwIDEgMSAwIDE2MHpNMTM3LjQgMTkybC0zNi43LTM2LjcgMjIuNi0yMi42TDE2MCAxNjkuNGwzNi43LTM2LjcgMjIuNiAyMi42TDE4Mi42IDE5MmwzNi43IDM2LjctMjIuNiAyMi42TDE2MCAyMTQuNmwtMzYuNyAzNi43LTIyLjYtMjIuNkwxMzcuNCAxOTJ6bTE5MiAwbC0zNi43LTM2LjcgMjIuNi0yMi42TDM1MiAxNjkuNGwzNi43LTM2LjcgMjIuNiAyMi42TDM3NC42IDE5MmwzNi43IDM2LjctMjIuNiAyMi42TDM1MiAyMTQuNmwtMzYuNyAzNi43LTIyLjYtMjIuNkwzMjkuNCAxOTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-dizzy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-dizzy.svg)
  */
 const FaceDizzy: typeof Icon = x => (
     <Icon {...x}>

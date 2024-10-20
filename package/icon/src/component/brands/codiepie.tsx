@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `codiepie` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/codiepie?s=brands codiepie}
- * @preview ![codiepie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NzIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIyLjUgMjAyLjljMzAuNyAwIDMzLjUgNTMuMS0uMyA1My4xaC0xMC44djQ0LjNoLTI2LjZ2LTk3LjRoMzcuN3pNNDcyIDM1Mi42QzQyOS45IDQ0NC41IDM1MC40IDUwNCAyNDggNTA0IDExMSA1MDQgMCAzOTMgMCAyNTZTMTExIDggMjQ4IDhjOTcuNCAwIDE3Mi44IDUzLjcgMjE4LjIgMTM4LjRsLTE4NiAxMDguOEw0NzIgMzUyLjZ6bS0zOC41IDEyLjVsLTYwLjMtMzAuN2MtMjcuMSA0NC4zLTcwLjQgNzEuNC0xMjIuNCA3MS40LTgyLjUgMC0xNDkuMi02Ni43LTE0OS4yLTE0OC45IDAtODIuNSA2Ni43LTE0OS4yIDE0OS4yLTE0OS4yIDQ4LjQgMCA4OC45IDIzLjUgMTE2LjkgNjMuNGw1OS41LTM0LjZjLTQwLjctNjIuNi0xMDQuNy0xMDAtMTc5LjItMTAwLTEyMS4yIDAtMjE5LjUgOTguMy0yMTkuNSAyMTkuNVMxMjYuOCA0NzUuNSAyNDggNDc1LjVjNzguNiAwIDE0Ni41LTQyLjEgMTg1LjUtMTEwLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![codiepie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/codiepie.svg)
  */
 const Codiepie: typeof Icon = x => (
     <Icon viewBox="0 0 472 512" {...x}>

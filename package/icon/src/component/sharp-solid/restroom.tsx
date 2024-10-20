@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `restroom` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/restroom?s=sharp-solid restroom}
- * @preview ![restroom](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgNDhhNDggNDggMCAxIDEgOTYgMEE0OCA0OCAwIDEgMSA4MCA0OHpNNTMuNCAxMjhsMjMuNSAwIDEwMi4yIDAgMjMuNSAwIDcgMjIuNSA0NC45IDE0NC01NC41IDE3TDIwMCA0ODBsMCAzMi02NCAwIDAtMzIgMC0xMjgtMTYgMCAwIDEyOCAwIDMyLTY0IDAgMC0zMiAwLTE2OC41LTU0LjUtMTcgNDQuOS0xNDQgNy0yMi41ek0zNDQgMGwwIDI0IDAgNDY0IDAgMjQtNDggMCAwLTI0IDAtNDY0IDAtMjQgNDggMHpNNDY0IDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bS0yNi42IDgwbDIzLjUgMCAxMDIuMiAwIDIzLjUgMCA3IDIyLjUgNDQuOSAxNDRMNTk4LjMgMzA3IDYyNCAzODRsLTQwIDAgMCA5NiAwIDMyLTY0IDAgMC0zMiAwLTk2LTE2IDAgMCA5NiAwIDMyLTY0IDAgMC0zMiAwLTk2LTQwIDAgMjUuNy03Ny00MC4yLTEyLjUgNDQuOS0xNDQgNy0yMi41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![restroom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/restroom.svg)
  */
 const Restroom: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

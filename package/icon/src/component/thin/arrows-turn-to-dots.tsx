@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-turn-to-dots` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-turn-to-dots?s=thin arrows-turn-to-dots}
- * @preview ![arrows-turn-to-dots](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc0LjMgMzQuM2MzLjEtMy4xIDguMi0zLjEgMTEuMyAwczMuMSA4LjIgMCAxMS4zTDIxMS4zIDEyMCA0NDAgMTIwYzM5LjggMCA3MiAzMi4yIDcyIDcybDAgNTZjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC01NmMwLTMwLjktMjUuMS01Ni01Ni01NmwtMjI4LjcgMCA3NC4zIDc0LjNjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM3MtOC4yIDMuMS0xMS4zIDBsLTg4LTg4Yy0zLjEtMy4xLTMuMS04LjIgMC0xMS4zbDg4LTg4em0tMzYuNyAyNTZsODggODhjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM2wtODggODhjLTMuMSAzLjEtOC4yIDMuMS0xMS4zIDBzLTMuMS04LjIgMC0xMS4zTDMwMC43IDM5MiA3MiAzOTJjLTMwLjkgMC01NiAyNS4xLTU2IDU2bDAgNTZjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC01NmMwLTM5LjggMzIuMi03MiA3Mi03MmwyMjguNyAwLTc0LjMtNzQuM2MtMy4xLTMuMS0zLjEtOC4yIDAtMTEuM3M4LjItMy4xIDExLjMgMHpNNDQ4IDQzMmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bTAtMTEyYTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4ek0xNiAxMjhhNDggNDggMCAxIDAgOTYgMCA0OCA0OCAwIDEgMCAtOTYgMHptMTEyIDBBNjQgNjQgMCAxIDEgMCAxMjhhNjQgNjQgMCAxIDEgMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrows-turn-to-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrows-turn-to-dots.svg)
  */
 const ArrowsTurnToDots: typeof Icon = x => (
     <Icon {...x}>

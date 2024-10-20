@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sitrox` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sitrox?s=brands sitrox}
- * @preview ![sitrox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEyLjQzOSAwLjAwODQ2MTI4VjBINDQ4VjEyOEg2NEM2NCA1Ny42MDA4IDE0MS43NTUgMC40NzUzMzggMjEyLjQzOSAwLjAwODQ2MTI4Wk0yMzcuMjU2IDE5MlYxOTIuMDA3QzMwNy4xMzUgMTkyLjQ3NSAzODQgMjQ5LjYgMzg0IDMyMEgyMTAuODA5VjMxOS45OTVDMTQwLjkxNSAzMTkuNTYzIDY0IDI2Mi40MjQgNjQgMTkySDIzNy4yNTZaTTIzNS41NjUgNTExLjk5M0MzMDYuMjUxIDUxMS41MjEgMzg0IDQ1NC4zOTkgMzg0IDM4NEgwVjUxMkgyMzUuNTY1VjUxMS45OTNaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![sitrox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/sitrox.svg)
  */
 const Sitrox: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

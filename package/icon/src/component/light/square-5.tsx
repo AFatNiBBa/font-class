@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-5` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-5?s=light square-5}
- * @preview ![square-5](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDNDYuMyA2NCAzMiA3OC4zIDMyIDk2bDAgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyMCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzIwYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDY0ek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDMyMCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnptMTc2IDMybDExMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC05OS41IDBMMTcyIDIyNS45bDgwLjQgOC4xYzM4LjQgMy45IDY3LjYgMzYuMiA2Ny42IDc0LjhjMCA0MS41LTMzLjcgNzUuMi03NS4yIDc1LjJsLTQ0IDBjLTI3LjQgMC01My0xMy43LTY4LjMtMzYuNGwtMS44LTIuN2MtNC45LTcuMy0zLTE3LjMgNC40LTIyLjJzMTcuMy0zIDIyLjIgNC40bDEuOCAyLjdjOS4zIDEzLjkgMjUgMjIuMyA0MS44IDIyLjNsNDQgMGMyMy44IDAgNDMuMi0xOS4zIDQzLjItNDMuMmMwLTIyLjItMTYuOC00MC43LTM4LjgtNDIuOWwtOTguOC0xMGMtNC42LS41LTguOC0yLjktMTEuNS02LjdzLTMuNi04LjYtMi40LTEzLjFsMjQtOTZjMS44LTcuMSA4LjItMTIuMSAxNS41LTEyLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-5](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-5.svg)
  */
 const Square_5: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

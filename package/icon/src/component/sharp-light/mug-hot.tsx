@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mug-hot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-hot?s=sharp-light mug-hot}
- * @preview ![mug-hot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwwIDE2YzAgMTYuMiA2LjUgMzEuOCAxNy45IDQzLjNsMTguNyAxOC43QzE1MC4yIDk1LjUgMTYwIDExOS4zIDE2MCAxNDRsMCAxNi0zMiAwIDAtMTZjMC0xNi4yLTYuNS0zMS44LTE3LjktNDMuM0w5MS4zIDgxLjlDNzMuOCA2NC41IDY0IDQwLjcgNjQgMTZMNjQgMCA5NiAwek0zMiAyMjRsMCAyNTYgMzIwIDAgMC0yNTYtMTYgMEwzMiAyMjR6bTM1MiAwbDAgMTYwIDE2IDBjNDQuMiAwIDgwLTM1LjggODAtODBzLTM1LjgtODAtODAtODBsLTE2IDB6bTAgMTkybDAgNjQgMCAzMi0zMiAwTDMyIDUxMiAwIDUxMmwwLTMyTDAgMjI0bDAtMzIgMzIgMCAzMDQgMCAxNiAwIDMyIDAgMTYgMGM2MS45IDAgMTEyIDUwLjEgMTEyIDExMnMtNTAuMSAxMTItMTEyIDExMmwtMTYgMHpNMjI0IDE2YzAgMTYuMiA2LjUgMzEuOCAxNy45IDQzLjNsMTguNyAxOC43QzI3OC4yIDk1LjUgMjg4IDExOS4zIDI4OCAxNDRsMCAxNi0zMiAwIDAtMTZjMC0xNi4yLTYuNS0zMS44LTE3LjktNDMuM0wyMTkuMyA4MS45QzIwMS44IDY0LjUgMTkyIDQwLjcgMTkyIDE2bDAtMTYgMzIgMCAwIDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mug-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mug-hot.svg)
  */
 const MugHot: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clone` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clone?s=light clone}
- * @preview ![clone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDgwbDIyNCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNjQgMzIgMCAwIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAyMjRjMC0zNS4zIDI4LjctNjQgNjQtNjRsNjQgMCAwIDMyLTY0IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMjI0YzAgMTcuNyAxNC4zIDMyIDMyIDMyek0yMjQgMzIwbDIyNCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMjI0YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDIyNCAzMmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAyMjRjMCAxNy43IDE0LjMgMzIgMzIgMzJ6bS02NC0zMmwwLTIyNGMwLTM1LjMgMjguNy02NCA2NC02NEw0NDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDIyNGMwIDM1LjMtMjguNyA2NC02NCA2NGwtMjI0IDBjLTM1LjMgMC02NC0yOC43LTY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/clone.svg)
  */
 const Clone: typeof Icon = x => (
     <Icon {...x}>

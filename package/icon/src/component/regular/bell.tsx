@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell?s=regular bell}
- * @preview ![bell](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMTkuMkMxMTkgNjYgNjQgMTMwLjYgNjQgMjA4bDAgMjUuNGMwIDQ1LjQtMTUuNSA4OS41LTQzLjggMTI0LjlMNS4zIDM3N2MtNS44IDcuMi02LjkgMTcuMS0yLjkgMjUuNFMxNC44IDQxNiAyNCA0MTZsNDAwIDBjOS4yIDAgMTcuNi01LjMgMjEuNi0xMy42czIuOS0xOC4yLTIuOS0yNS40bC0xNC45LTE4LjZDMzk5LjUgMzIyLjkgMzg0IDI3OC44IDM4NCAyMzMuNGwwLTI1LjRjMC03Ny40LTU1LTE0Mi0xMjgtMTU2LjhMMjU2IDMyYzAtMTcuNy0xNC4zLTMyLTMyLTMyem0wIDk2YzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEybDAgMjUuNGMwIDQ3LjkgMTMuOSA5NC42IDM5LjcgMTM0LjZMNzIuMyAzNjhDOTguMSAzMjggMTEyIDI4MS4zIDExMiAyMzMuNGwwLTI1LjRjMC02MS45IDUwLjEtMTEyIDExMi0xMTJ6bTY0IDM1MmwtNjQgMC02NCAwYzAgMTcgNi43IDMzLjMgMTguNyA0NS4zczI4LjMgMTguNyA0NS4zIDE4LjdzMzMuMy02LjcgNDUuMy0xOC43czE4LjctMjguMyAxOC43LTQ1LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bell.svg)
  */
 const Bell: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

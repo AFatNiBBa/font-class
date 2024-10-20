@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tornado` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tornado?s=sharp-regular tornado}
- * @preview ![tornado](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0NS42YzAgLjggMCAxLjYgMCAyLjRjLjggODkuOCA0OC43IDE3Mi43IDEyNi4yIDIxOC4ybDExNi40IDY4LjVjMTkuMiAxMS4zIDM0LjcgMjcuOSA0NC42IDQ3LjhjOS4yIDE4LjQgMTMuMyAzOC44IDExLjkgNTkuMWMtLjMgMy44LS43IDcuNi0xLjMgMTEuNEwyODggNTEybDU2LjEtNDQuOSA1Mi4yLTQxLjhDNDI5IDM5OS4yIDQ0OCAzNTkuNyA0NDggMzE3LjljMC0yOS44LTkuNy01OC43LTI3LjUtODIuNmwtNTUuNi03NC4yQzM1Ni41IDE1MCAzNTIgMTM2LjUgMzUyIDEyMi42YzAtMTcgNi44LTMzLjQgMTguOC00NS40TDQwMCA0OGwxNi0xNiAwLTMyTDM4NCAwbC0zLjkgMEwzNjggMCA0OCAwIDAgMCAwIDQ1LjZ6TTMzMC4yIDM2MWMtMTEuMi0yMi41LTI3LjUtNDItNDcuMy01N2wxMTYuMSAwYy43IDQuNiAxLjEgOS4yIDEuMSAxMy45YzAgMjcuMi0xMi40IDUzLTMzLjYgNzBsLTIxLjYgMTcuMmMtMi43LTE1LjItNy42LTMwLjEtMTQuNi00NHpNMjAzLjUgMjU2bC01Mi45LTMxLjFjLTIyLTEyLjktNDEuMS0yOS42LTU2LjYtNDguOWwyMjMuNiAwYzIuNiA0LjggNS42IDkuNSA4LjkgMTMuOUwzNzYgMjU2bC0xNzIuNSAwek02NSAxMjhDNTQuMyAxMDMuMSA0OC4zIDc2IDQ4IDQ4bDI4NC40IDBDMzE0LjIgNjguNSAzMDQgOTUgMzA0IDEyMi42YzAgMS44IDAgMy42IC4xIDUuNEw2NSAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tornado](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tornado.svg)
  */
 const Tornado: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

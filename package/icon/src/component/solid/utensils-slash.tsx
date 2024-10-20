@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `utensils-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utensils-slash?s=solid utensils-slash}
- * @preview ![utensils-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN2wtODYuOC02OCAwLTQ5LjEgMC0xMTIgMC0yMDhjMC0xNy43LTE0LjMtMzItMzItMzJDNDk2IDAgMzg0IDMyIDM4NCAxNzZsMCA5OS43LTc3LjYtNjAuOGM4LjYtMTMuNiAxMy42LTI5LjcgMTMuNi00N2MwLTYuNC0uNy0xMi44LTIuMS0xOS4xTDI4Ny42IDEyLjVjLTEuOC04LTkuMy0xMy4zLTE3LjQtMTIuNFMyNTYgNy44IDI1NiAxNmwwIDEzNC4yYzAgNS40LTQuNCA5LjgtOS44IDkuOGMtNS4xIDAtOS4zLTMuOS05LjgtOUwyMjMuOSAxNC42QzIyMy4yIDYuMyAyMTYuMyAwIDIwOCAwcy0xNS4yIDYuMy0xNS45IDE0LjZsLTkuNCAxMDMuM0wxNjAgMTAwLjEgMTYwIDE2YzAtOC4yLTYuMS0xNS0xNC4zLTE1LjlzLTE1LjYgNC41LTE3LjQgMTIuNEwxMTYuNSA2NiAzOC44IDUuMXpNMTc2IDI1NS42TDE3NiA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTE5NC45TDk2LjEgMTcxLjdjMS45IDQ0LjIgMzYuMyA4MCA3OS45IDgzLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![utensils-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/utensils-slash.svg)
  */
 const UtensilsSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

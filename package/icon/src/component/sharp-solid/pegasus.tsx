@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pegasus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pegasus?s=sharp-solid pegasus}
- * @preview ![pegasus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDIzOC4xbDAtNzguMSAxNiAwIDMyIDY0IDgwLTMyIDAtMTI4TDU0NCAzMmwxNiAwIDE2IDAgMC0zMkw1NjAgMCA0ODAgMCA0NDggMEMzNzcuMyAwIDMyMCA1Ny4zIDMyMCAxMjhMMTYwIDMycy0yMC4yIDE0MS43IDY4LjEgMTk5LjdjLTguNy0yLjctMTYuNy02LjEtMjQuMi0xMC4xYy0yMi41LTEyLjEtMzguNi0yOS40LTQ5LjktNDkuOGMtNy4zLTEzLjItMTIuNy0yNy44LTE2LjUtNDNjLTI1LjkgMy41LTQ4LjEgMTguNi02MS4xIDQwQzMzLjIgMTc0LjUgMCAyMTEuNCAwIDI1NmwwIDU2IDAgMjQgNDggMCAwLTI0IDAtNTZjMC0xMy40IDYuNi0yNS4yIDE2LjctMzIuNWMxLjYgMTMgNi4zIDI1LjQgMTMuNiAzNi40bDQyLjQgNjMuNkw5NC4xIDM1MC4xbC0yMSAyMSA5LjQgMjguMUwxMjAuMSA1MTJsMTAxLjIgMEwxODIuOSAzOTdsMjctMjdMMjI0IDM1NS45bDAtMTkuOSAwLTE2IDgzLjcgMjMuOWM0LjEgMS4yIDguMiAyLjEgMTIuMyAyLjhMMzIwIDUxMmw5NiAwIDAtMTk2LjNjMTkuMi0xOS4yIDMxLjUtNDUuNyAzMi03NS43YzAgMCAwIDAgMCAwbDAtMS45ek00OTYgNjRhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pegasus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pegasus.svg)
  */
 const Pegasus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

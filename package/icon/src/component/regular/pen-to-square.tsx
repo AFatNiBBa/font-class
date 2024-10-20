@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-to-square` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-to-square?s=regular pen-to-square}
- * @preview ![pen-to-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQxIDU4LjlMNDUzLjEgNzFjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlMNDI0IDEzNC4xIDM3Ny45IDg4IDQwNyA1OC45YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwek0yMDkuOCAyNTYuMkwzNDQgMTIxLjkgMzkwLjEgMTY4IDI1NS44IDMwMi4yYy0yLjkgMi45LTYuNSA1LTEwLjQgNi4xbC01OC41IDE2LjcgMTYuNy01OC41YzEuMS0zLjkgMy4yLTcuNSA2LjEtMTAuNHpNMzczLjEgMjVMMTc1LjggMjIyLjJjLTguNyA4LjctMTUgMTkuNC0xOC4zIDMxLjFsLTI4LjYgMTAwYy0yLjQgOC40LS4xIDE3LjQgNi4xIDIzLjZzMTUuMiA4LjUgMjMuNiA2LjFsMTAwLTI4LjZjMTEuOC0zLjQgMjIuNS05LjcgMzEuMS0xOC4zTDQ4NyAxMzguOWMyOC4xLTI4LjEgMjguMS03My43IDAtMTAxLjhMNDc0LjkgMjVDNDQ2LjgtMy4xIDQwMS4yLTMuMSAzNzMuMSAyNXpNODggNjRDMzkuNCA2NCAwIDEwMy40IDAgMTUyTDAgNDI0YzAgNDguNiAzOS40IDg4IDg4IDg4bDI3MiAwYzQ4LjYgMCA4OC0zOS40IDg4LTg4bDAtMTEyYzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMTEyYzAgMjIuMS0xNy45IDQwLTQwIDQwTDg4IDQ2NGMtMjIuMSAwLTQwLTE3LjktNDAtNDBsMC0yNzJjMC0yMi4xIDE3LjktNDAgNDAtNDBsMTEyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMODggNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pen-to-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pen-to-square.svg)
  */
 const PenToSquare: typeof Icon = x => (
     <Icon {...x}>

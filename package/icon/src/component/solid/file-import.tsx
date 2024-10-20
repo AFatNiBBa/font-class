@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-import` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-import?s=solid file-import}
- * @preview ![file-import](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDY0YzAtMzUuMyAyOC43LTY0IDY0LTY0TDM1MiAwbDAgMTI4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDEyOCAwIDAgMjg4YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yNTYgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0xMTIgMTc0LjEgMC0zOSAzOWMtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlzMjQuNiA5LjQgMzMuOSAwbDgwLTgwYzkuNC05LjQgOS40LTI0LjYgMC0zMy45bC04MC04MGMtOS40LTkuNC0yNC42LTkuNC0zMy45IDBzLTkuNCAyNC42IDAgMzMuOWwzOSAzOUwxMjggMjg4bDAtMjI0em0wIDIyNGwwIDQ4TDI0IDMzNmMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGwxMDQgMHpNNTEyIDEyOGwtMTI4IDBMMzg0IDAgNTEyIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-import](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-import.svg)
  */
 const FileImport: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-bolt` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-bolt?s=sharp-thin square-bolt}
- * @preview ![square-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNDE2IDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA0MTYgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnpNMTY2LjMgMzc0LjlMMTg4IDI4OGw0LTE2LTE2LjUgMEwxMjggMjcybC0xNiAwIDAtMTYgMC04TDI2Ny42IDEyNy44IDI4OCAxMTJsLTYuMyAyNS4xTDI2MCAyMjRsLTQgMTYgMTYuNSAwIDQ3LjUgMCAxNiAwIDAgMTYgMCA4TDE4MC40IDM4NC4yIDE2MCA0MDBsNi4zLTI1LjF6TTE5MiAyNTZsMjAuNSAwLTUgMTkuOS0yMC44IDgzLjNMMzIwIDI1Ni4xbDAtLjEtNjQgMC0yMC41IDAgNS0xOS45IDIwLjgtODMuM0wxMjggMjU1LjlsMCAuMSA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-bolt.svg)
  */
 const SquareBolt: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

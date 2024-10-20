@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-raised-eyebrow` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-raised-eyebrow?s=thin face-raised-eyebrow}
- * @preview ![face-raised-eyebrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDEgMCA0ODAgMjQwIDI0MCAwIDEgMSAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xOTIuNCAyNDBhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptMTQ0IDE2YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnptMzYtMTE1bDQuOSA3LjRjMi41IDMuNyA3LjQgNC43IDExLjEgMi4yczQuNy03LjQgMi4yLTExLjFsLTQuOS03LjRjLTE2LjgtMjUuMi01Mi41LTI4LjctNzMuOS03LjNsLTI5LjUgMjkuNWMtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMGwyOS41LTI5LjVjMTQuMy0xNC4zIDM4LjEtMTEuOSA0OS4zIDQuOXpNMTIwIDE2MGMwIDQuNCAzLjYgOCA4IDhsNjQgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtNjQgMGMtNC40IDAtOCAzLjYtOCA4em00OCAxODRjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMTc2IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTE3NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-raised-eyebrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-raised-eyebrow.svg)
  */
 const FaceRaisedEyebrow: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand?s=sharp-thin hand}
- * @preview ![hand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBsLTggMCAwIDggMCAyNC03MiAwLTggMCAwIDggMCAyNzYuMS0zMS43LTMxLjdMNzYuMSAyNTYuMmwtNS43LTUuNy01LjcgNS43TDguMiAzMTIuN2wtNS43IDUuNyA1LjcgNS43IDI4LjMgMjguMyA4OS40IDg5LjRjNDUgNDUgMTA2LjEgNzAuMyAxNjkuNyA3MC4zbDguNSAwYzkyLjggMCAxNjgtNzUuMiAxNjgtMTY4bDAtMjQwIDAtOC04IDAtNzIgMCAwLTU2IDAtOC04IDAtNzIgMCAwLTI0IDAtOC04IDBMMjI0IDB6bTg4IDQ4bDY0IDAgMCA0OCAwIDggMCAxNDQgMCA4IDE2IDAgMC04IDAtMTM2IDY0IDAgMCAyMzJjMCA4My45LTY4LjEgMTUyLTE1MiAxNTJsLTguNSAwYy01OS40IDAtMTE2LjQtMjMuNi0xNTguNC02NS42TDQ3LjggMzQxIDI1LjEgMzE4LjRsNDUuMy00NS4zTDkzIDI5NS44bDQ1LjMgNDUuMyAxMy43LTUuN0wxNTIgNDhsNjQgMCAwIDIwMCAwIDggMTYgMCAwLTggMC0yMDAgMC04IDAtOCAwLTE2IDY0IDAgMCAxNiAwIDggMCAyMDggMCA4IDE2IDAgMC04IDAtNjQgMC0xMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand.svg)
  */
 const Hand: typeof Icon = x => (
     <Icon {...x}>

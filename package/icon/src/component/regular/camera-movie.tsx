@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-movie` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-movie?s=regular camera-movie}
- * @preview ![camera-movie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDEyMEE3MiA3MiAwIDEgMCA4MCAxMjBhNzIgNzIgMCAxIDAgMTQ0IDB6TTM0NCAyNDBsLTE5MiAwQzg1LjcgMjQwIDMyIDE4Ni4zIDMyIDEyMFM4NS43IDAgMTUyIDBjMzkuMyAwIDc0LjEgMTguOCA5NiA0OGMyMS45LTI5LjEgNTYuNy00OCA5Ni00OGM2Ni4zIDAgMTIwIDUzLjcgMTIwIDEyMHMtNTMuNyAxMjAtMTIwIDEyMHpNMjcyIDEyMGE3MiA3MiAwIDEgMCAxNDQgMCA3MiA3MiAwIDEgMCAtMTQ0IDB6TTExMiAzMzZsMCAxMTJjMCA4LjggNy4yIDE2IDE2IDE2bDIyNCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTExMmMwLTguOC03LjItMTYtMTYtMTZsLTIwOCAwLTE2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnptMzItNjRsMjA4IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAxMTJjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTIyNCAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTExMmMwLTUuNSAuNy0xMC45IDItMTZsLTQyIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsMTA0IDAgMTYgMHptMzg0IDM2LjZsLTgwIDM2IDAtNTIuNiA3NS42LTM0YzIuOS0xLjMgNi0yLjIgOS4xLTIuOGMyMi42LTMuOCA0My4zIDEzLjcgNDMuMyAzNi42bDAgMTgwLjZjMCAyMS44LTE3LjcgMzkuNS0zOS41IDM5LjVjLTUuNiAwLTExLjEtMS4yLTE2LjItMy41TDQ0OCA0NzZsMC01Mi42IDgwIDM2IDAtMTUwLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![camera-movie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/camera-movie.svg)
  */
 const CameraMovie: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `hockey-sticks` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-sticks?s=duotone hockey-sticks}
- * @preview ![hockey-sticks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDM4NGwwIDk2YzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyIDAgMC0xNjAtMzIgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6bTk2LTMybDAgMTI4IDAgMzIgMzIgMCAzMiAwIDQ0LjIgMGMyNC4yIDAgNDYuNC0xMy43IDU3LjItMzUuNEw0NzYuNiA0Ni4zYzcuOS0xNS44IDEuNS0zNS0xNC4zLTQyLjlDNDU3LjcgMS4xIDQ1Mi44IDAgNDQ4IDBjLTExLjcgMC0yMyA2LjUtMjguNiAxNy43TDI1Mi4yIDM1MiA5NiAzNTJ6bTQ0OCAwbDAgMTI4YzAgMTAuNyAwIDIxLjMgMCAzMmwzMiAwYzAtNTMuMyAwLTEwNi43IDAtMTYwbC0zMiAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjIwLjYgMTcuN2w4MS41IDE2My0zNS44IDcxLjZMMTYzLjQgNDYuM2MtNy45LTE1LjgtMS41LTM1IDE0LjMtNDIuOXMzNS0xLjUgNDIuOSAxNC4zek0zMzcuOSAzOTUuM2wzNS44LTcxLjZMMzg3LjggMzUyIDU0NCAzNTJsMCAxMjggMCAzMi0zMiAwLTMyIDAtNDQuMiAwYy0yNC4yIDAtNDYuNC0xMy43LTU3LjItMzUuNGwtNDAuNi04MS4zek02MDggMzUyYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgOTZjMCAxNy43LTE0LjMgMzItMzIgMzJsLTMyIDAgMC0xNjAgMzIgMHpNOTYgMzUybDAgMTYwLTMyIDAgMC0xNjAgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hockey-sticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hockey-sticks.svg)
  */
 const HockeySticks: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 384l0 96c0 17.7 14.3 32 32 32l32 0 0-160-32 0c-17.7 0-32 14.3-32 32zm96-32l0 128 0 32 32 0 32 0 44.2 0c24.2 0 46.4-13.7 57.2-35.4L476.6 46.3c7.9-15.8 1.5-35-14.3-42.9C457.7 1.1 452.8 0 448 0c-11.7 0-23 6.5-28.6 17.7L252.2 352 96 352zm448 0l0 128c0 10.7 0 21.3 0 32l32 0c0-53.3 0-106.7 0-160l-32 0z" />
-            <path d="M220.6 17.7l81.5 163-35.8 71.6L163.4 46.3c-7.9-15.8-1.5-35 14.3-42.9s35-1.5 42.9 14.3zM337.9 395.3l35.8-71.6L387.8 352 544 352l0 128 0 32-32 0-32 0-44.2 0c-24.2 0-46.4-13.7-57.2-35.4l-40.6-81.3zM608 352c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-32 0 0-160 32 0zM96 352l0 160-32 0 0-160 32 0z" />
+        <path d="M220.6 17.7l81.5 163-35.8 71.6L163.4 46.3c-7.9-15.8-1.5-35 14.3-42.9s35-1.5 42.9 14.3zM337.9 395.3l35.8-71.6L387.8 352 544 352l0 128 0 32-32 0-32 0-44.2 0c-24.2 0-46.4-13.7-57.2-35.4l-40.6-81.3zM608 352c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-32 0 0-160 32 0zM96 352l0 160-32 0 0-160 32 0z" />
     </Icon>
 );
 

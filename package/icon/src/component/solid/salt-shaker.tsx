@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `salt-shaker` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/salt-shaker?s=solid salt-shaker}
- * @preview ![salt-shaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE5LjQgNDQ4TDY0LjYgNDQ4bDM2LjYtMjU2IDE4MS42IDAgMzYuNiAyNTZ6TTU5LjggNTEybDI2NC41IDBjMzMgMCA1OS44LTI2LjggNTkuOC01OS44YzAtMi44LS4yLTUuNy0uNi04LjVMMzM4LjEgMTI2LjdDMzI3LjcgNTQgMjY1LjQgMCAxOTIgMFM1Ni4zIDU0IDQ1LjkgMTI2LjdMLjYgNDQzLjhjLS40IDIuOC0uNiA1LjYtLjYgOC41YzAgMzMgMjYuOCA1OS44IDU5LjggNTkuOHpNMTkyIDQ4YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnpNMTI4IDk2YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6TTI0MCA4MGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![salt-shaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/salt-shaker.svg)
  */
 const SaltShaker: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

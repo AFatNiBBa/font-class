@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-to-square` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-to-square?s=thin pen-to-square}
- * @preview ![pen-to-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDYwLjMgMzkuNmwxMi4xIDEyLjFjMTUuNiAxNS42IDE1LjYgNDAuOSAwIDU2LjZMNDQwIDE0MC43IDM3MS4zIDcybDMyLjQtMzIuNGMxNS42LTE1LjYgNDAuOS0xNS42IDU2LjYgMHpNMTc1LjQgMjY3LjlMMzYwIDgzLjMgNDI4LjcgMTUyIDI0NC4xIDMzNi42Yy01LjMgNS4zLTEyIDktMTkuMyAxMC43bC03OC4xIDE4IDE4LTc4LjFjMS43LTcuMyA1LjQtMTQgMTAuNy0xOS4zem0yMTctMjM5LjZMMTY0LjEgMjU2LjZjLTcuNCA3LjQtMTIuNiAxNi44LTE1IDI3bC0yMC45IDkwLjZjLS42IDIuNyAuMiA1LjUgMi4xIDcuNXM0LjggMi44IDcuNSAyLjFsOTAuNi0yMC45YzEwLjItMi40IDE5LjYtNy41IDI3LTE1TDQ4My43IDExOS42YzIxLjktMjEuOSAyMS45LTU3LjMgMC03OS4yTDQ3MS42IDI4LjNjLTIxLjktMjEuOS01Ny4zLTIxLjktNzkuMiAwek03MiA2NEMzMi4yIDY0IDAgOTYuMiAwIDEzNkwwIDQ0MGMwIDM5LjggMzIuMiA3MiA3MiA3MmwzMDQgMGMzOS44IDAgNzItMzIuMiA3Mi03MmwwLTE0NGMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDE0NGMwIDMwLjktMjUuMSA1Ni01NiA1Nkw3MiA0OTZjLTMwLjkgMC01Ni0yNS4xLTU2LTU2bDAtMzA0YzAtMzAuOSAyNS4xLTU2IDU2LTU2bDE0NCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDcyIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-to-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pen-to-square.svg)
  */
 const PenToSquare: typeof Icon = x => (
     <Icon {...x}>

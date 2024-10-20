@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tent` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent?s=sharp-thin tent}
- * @preview ![tent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMSA1MTJMMCA1MTJsMS41LTE2TDMyIDE2MCAyODggMCA1NDQgMTc2bDMwLjUgMzIwIDEuNSAxNi0xNi4xIDBMMTYuMSA1MTJ6TTI4MCA0OTZsMC00NzIuMUw0Ny4yIDE2OS40IDE3LjUgNDk2IDI4MCA0OTZ6bTE2IDBsMTMwLjYgMEwyOTYgMjU1LjUgMjk2IDQ5NnptMTQ4LjggMGwxMTMuNiAwTDUyOC44IDE4NSAyOTYgMjQuOSAyOTYgMjIyIDQ0NC44IDQ5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tent.svg)
  */
 const Tent: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

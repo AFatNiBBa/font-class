@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-pen` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-pen?s=sharp-thin file-pen}
- * @preview ![file-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2bDI0Mi4xIDAtMi41IDE2TDE2IDUxMiAwIDUxMmwwLTE2TDAgMTYgMCAwIDE2IDAgMjI0IDAgMzg0IDE2MGwwIDEzMy41LTE2IDE2TDM2OCAxNzZsLTE1MiAwLTggMCAwLTggMC0xNTJMMTYgMTZsMCA0ODB6TTM2MS40IDE2MEwyMjQgMjIuNiAyMjQgMTYwbDEzNy40IDB6bTEzNy41IDYzLjlsMTEuMyAxMS4zIDU0LjUgNTQuNUw1NzYgMzAwLjlsLTExLjMgMTEuM0wzNzkuMyA0OTcuNmwtNzQuNyAxMS42TDI4OCA1MTEuOWwyLjYtMTYuNiAxMS42LTc0LjdMNDk4LjkgMjIzLjl6TTMxNy4yIDQyOC4ybC0xMCA2NC41IDY0LjUtMTBMNTA5LjUgMzQ0LjggNDU1IDI5MC40IDMxNy4yIDQyOC4yek01NTMuNCAzMDAuOWwtNTQuNS01NC41TDQ2Ni40IDI3OWw1NC41IDU0LjUgMzIuNS0zMi41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-pen.svg)
  */
 const FilePen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sickle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sickle?s=solid sickle}
- * @preview ![sickle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEyLjcgMzQwLjdMMTgxIDMwOWMtMzMuOS0zMy45LTUzLTgwLTUzLTEyOEMxMjggODEgMjA5IDAgMzA5IDBsMTEgMGM5MC4xIDAgMTY1LjggNjIuMSAxODYuNCAxNDUuOGMxLjggNy4zLTQgMTQuMi0xMS41IDE0LjJjLTMuOSAwLTcuNS0xLjktOS45LTQuOUM0NTguOSAxMjIuOSA0MTkuNSAxMDQgMzc3LjggMTA0QzMwMS43IDEwNCAyNDAgMTY1LjcgMjQwIDI0MS44bDAgOS44YzAgMjAuNyA1LjIgMzkuNyAxMi4yIDU4LjZjMi4yIDYgLjkgMTIuOC0zLjcgMTcuM2wtMTMuMiAxMy4yYy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMHpNMTIxIDMxMWwyNCAyNCAzMiAzMiAyNCAyNGM5LjQgOS40IDkuNCAyNC42IDAgMzMuOWwtMTYgMTZjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwbC03LTdMNzMgNTA1Yy05LjQgOS40LTI0LjYgOS40LTMzLjkgMEw3IDQ3M2MtOS40LTkuNC05LjQtMjQuNiAwLTMzLjlsNzEtNzEtNy03Yy05LjQtOS40LTkuNC0yNC42IDAtMzMuOWwxNi0xNmM5LjQtOS40IDI0LjYtOS40IDMzLjkgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sickle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sickle.svg)
  */
 const Sickle: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cactus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cactus?s=sharp-thin cactus}
- * @preview ![cactus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDQ5NmwwLTQ4IDAtMTYgMC02NCAwLTE2IDAtMjU2YzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwbDAgMTI4IDAgMTYgMCA2NCAwIDE2IDAgMTc2IDE2MCAwem0xNi0xMjhsMCA2NCAxMTIgMCAzMiAwIDAtMzIgMC0xMjggMC0zMi02NCAwIDAgMzIgMCA4MCAwIDE2LTE2IDAtNjQgMHptMCA4MGwwIDQ4IDAgMTYtMTYgMC0xNjAgMC0xNiAwIDAtMTYgMC0xNzZMNDggMzIwbC0zMiAwTDAgMzIwbDAtMTYgMC0zMkwwIDE0NGwwLTMyTDAgOTZsMTYgMCA2NCAwIDE2IDAgMCAxNiAwIDMyIDAgNjQgMCAxNiAxNiAwIDQ4IDAgMC0xMjhjMC01MyA0My05NiA5Ni05NnM5NiA0MyA5NiA5NmwwIDI1NiA0OCAwIDE2IDAgMC0xNiAwLTY0IDAtMzIgMC0xNiAxNiAwIDY0IDAgMTYgMCAwIDE2IDAgMzIgMCAxMjggMCAzMiAwIDE2LTE2IDAtMzIgMC0xMTIgMHpNMTYwIDI0MGwtNjQgMC0xNiAwIDAtMTYgMC04MCAwLTMyLTY0IDAgMCAzMiAwIDEyOCAwIDMyIDMyIDAgMTEyIDAgMC02NHptNjQtOTZhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptNDggMjA4YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cactus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cactus.svg)
  */
 const Cactus: typeof Icon = x => (
     <Icon {...x}>

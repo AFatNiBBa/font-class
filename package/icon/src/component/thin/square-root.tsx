@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-root` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-root?s=thin square-root}
- * @preview ![square-root](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg2LjYgNDhjLTE3LjIgMC0zMi41IDExLTM3LjkgMjcuNEwyMTUuNiA0NzQuNWMtMSAzLjEtMy44IDUuMi03IDUuNHMtNi4zLTEuNS03LjctNC40TDg5LjcgMjUzLjNDODUuNiAyNDUuMSA3Ny4zIDI0MCA2OC4yIDI0MEw4IDI0MGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGw2MC4yIDBjMTUuMiAwIDI5IDguNiAzNS44IDIyLjFsMTAyLjUgMjA1IDEyNy0zODAuOWM3LjYtMjIuOSAyOS0zOC4zIDUzLjEtMzguM0w1NjggMzJjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhMMzg2LjYgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-root](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-root.svg)
  */
 const SquareRoot: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

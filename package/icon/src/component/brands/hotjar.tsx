@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hotjar` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotjar?s=brands hotjar}
- * @preview ![hotjar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYxLjUgMGMwIDEzMS42LTgwLjcgMTc2LjgtMTQwLjIgMjA5LjRjLS42IC4zLTEuMSAuNi0xLjYgLjljLTUzLjggMzAuMi04OC43IDQ5LjgtODkuNiAxMjJIMzJDMzIgMjAwLjggMTEyLjcgMTU1LjYgMTcyLjIgMTIzQzIyNyA5My4yIDI2Mi41IDczIDI2Mi41IDBoOTguOXpNMzAxIDMwMi42YzU0LjgtMjkuOCA5MC4zLTUwIDkwLjMtMTIzaDk4YzAgMTMxLjYtODAuNyAxNzYuNy0xNDAuMiAyMDkuNGMtNTQuOCAyOS44LTkwLjMgNTAtOTAuMyAxMjNoLTk4YzAtMTMxLjYgODAuNy0xNzYuOCAxNDAuMi0yMDkuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hotjar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/hotjar.svg)
  */
 const Hotjar: typeof Icon = x => (
     <Icon {...x}>

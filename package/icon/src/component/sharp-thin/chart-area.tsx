@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-area` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-area?s=sharp-thin chart-area}
- * @preview ![chart-area](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDBsMC04TDAgMzJsMCA4TDAgNDcybDAgOCA4IDAgNDk2IDAgOCAwIDAtMTYtOCAwTDE2IDQ2NCAxNiA0MHptMjE5LjMgNjcuM0wyMjQgOTZsLTExLjMgMTEuM0w5NiAyMjRsMCAxNDQgMCAxNiAxNiAwIDM1MiAwIDE2IDAgMC0xNiAwLTEyOC04NS42LTk5LjhMMzg0IDEyOGwtMTEuMyAxMS4zLTQxLjMgNDEuM0wzMjAgMTkybC0xMS4zLTExLjMtNzMuNC03My40em05NiA5Nmw1MS44LTUxLjhMNDY0IDI0NS45IDQ2NCAzNjhsLTM1MiAwIDAtMTM3LjQgMTEyLTExMiA4NC43IDg0LjdMMzIwIDIxNC42bDExLjMtMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chart-area](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chart-area.svg)
  */
 const ChartArea: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blinds-open` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blinds-open?s=regular blinds-open}
- * @preview ![blinds-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEMxMC43IDAgMCAxMC43IDAgMjRTMTAuNyA0OCAyNCA0OGwxMjAgMCAwIDExMiAwIDQ4IDAgMzYuMUMxMTYgMjU0IDk2IDI4MC43IDk2IDMxMmMwIDM5LjggMzIuMiA3MiA3MiA3MnM3Mi0zMi4yIDcyLTcyYzAtMzEuMy0yMC01OC00OC02Ny45bDAtMzYuMSAwLTQ4IDAtMTEyIDI5NiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDI0IDB6TTE0NCAzMTJhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHpNMCA0ODhjMCAxMy4zIDEwLjcgMjQgMjQgMjRsNDY0IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMMjQgNDY0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHpNNjQuMyAzMjBMMjQgMzIwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDU2LjMgMGMtOS0xNC4xLTE0LjctMzAuNC0xNi00OHptMTkxLjMgNDhMNDg4IDM2OGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMjE2LjMgMGMtMS4zIDE3LjYtNyAzMy45LTE2IDQ4ek0yNCAxNjBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsODggMCAwLTQ4LTg4IDB6bTIwMCA0OGwyNjQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMjY0IDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![blinds-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/blinds-open.svg)
  */
 const BlindsOpen: typeof Icon = x => (
     <Icon {...x}>

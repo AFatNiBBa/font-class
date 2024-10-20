@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cannon` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cannon?s=sharp-solid cannon}
- * @preview ![cannon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2LjQgNDY0LjhjLTU2LjEgMjgtMTIxLjcgMTYuMS0xNjQuNC0yNS4xTDQyLjkgNDY0LjIgMCAzNzguM2w0OS4xLTI0LjVjLTcuMy01OC45IDIyLjUtMTE4LjUgNzguNS0xNDYuNkMxOTIgMTc2IDU1OSA1MS4zIDU1OSA1MS4zbDgxIDE2MS45cy01MS41IDM1LjItMTE3LjIgNzkuNUM0OTcuNCAyNTEuNSA0NTEuOSAyMjQgNDAwIDIyNGMtNzkuNSAwLTE0NCA2NC41LTE0NCAxNDRjMCAzMC42IDkuNSA1OC45IDI1LjggODIuM2MtMTAuNSA2LjQtMTkuMiAxMS4zLTI1LjQgMTQuNXpNMjg4IDM2OGExMTIgMTEyIDAgMSAxIDIyNCAwIDExMiAxMTIgMCAxIDEgLTIyNCAwem0xNDQgMGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cannon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cannon.svg)
  */
 const Cannon: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

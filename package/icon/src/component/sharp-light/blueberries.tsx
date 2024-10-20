@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blueberries` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blueberries?s=sharp-light blueberries}
- * @preview ![blueberries](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgyLjcgMzEyLjNDNDM5LjMgMjkyLjkgNDgwIDIzOS4yIDQ4MCAxNzZjMC03OS41LTY0LjUtMTQ0LTE0NC0xNDRjLTYzLjIgMC0xMTYuOSA0MC43LTEzNi4zIDk3LjNjLTcuOC0uOS0xNS43LTEuMy0yMy43LTEuM2MtMy4yIDAtNi4zIC4xLTkuNCAuMkMxODcuNCA1NC4yIDI1NS40IDAgMzM2IDBjOTcuMiAwIDE3NiA3OC44IDE3NiAxNzZjMCA4MC42LTU0LjIgMTQ4LjYtMTI4LjIgMTY5LjRjLjEtMy4xIC4yLTYuMyAuMi05LjRjMC04LS41LTE1LjktMS4zLTIzLjd6TTMyMCAzMzZBMTQ0IDE0NCAwIDEgMCAzMiAzMzZhMTQ0IDE0NCAwIDEgMCAyODggMHpNMCAzMzZhMTc2IDE3NiAwIDEgMSAzNTIgMEExNzYgMTc2IDAgMSAxIDAgMzM2em0xNzYtOTZsMCAzMiAzMiAwIDE2IDAgMCAzMi0xNiAwLTMyIDAgMCAzMiAwIDE2LTMyIDAgMC0xNiAwLTMyLTMyIDAtMTYgMCAwLTMyIDE2IDAgMzIgMCAwLTMyIDAtMTYgMzIgMCAwIDE2ek0zNjggODBsMCAzMiAzMiAwIDE2IDAgMCAzMi0xNiAwLTMyIDAgMCAzMiAwIDE2LTMyIDAgMC0xNiAwLTMyLTMyIDAtMTYgMCAwLTMyIDE2IDAgMzIgMCAwLTMyIDAtMTYgMzIgMCAwIDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![blueberries](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/blueberries.svg)
  */
 const Blueberries: typeof Icon = x => (
     <Icon {...x}>

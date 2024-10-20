@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-smile-relaxed` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-relaxed?s=thin face-smile-relaxed}
- * @preview ![face-smile-relaxed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAwIDE2IDI1NmEyNDAgMjQwIDAgMSAwIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTE1MC42IDY3LjRDMTcxLjQgMzUzLjIgMjA2LjYgMzg0IDI1NiAzODRzODQuNi0zMC44IDEwNS40LTYwLjZjMi41LTMuNiA3LjUtNC41IDExLjEtMnM0LjUgNy41IDIgMTEuMUMzNTIuMSAzNjQuNiAzMTIuNyA0MDAgMjU2IDQwMHMtOTYuMS0zNS40LTExOC42LTY3LjRjLTIuNS0zLjYtMS43LTguNiAyLTExLjFzOC42LTEuNyAxMS4xIDJ6TTE3NS42IDIwMGMtMTQuNiAwLTMwLjIgOC42LTQxIDI3LjljLTIuMiAzLjktNyA1LjItMTAuOSAzLjFzLTUuMi03LTMuMS0xMC45YzEzLjEtMjMuNCAzMy42LTM2LjEgNTUtMzYuMXM0MS44IDEyLjcgNTUgMzYuMWMyLjIgMy45IC44IDguNy0zLjEgMTAuOXMtOC43IC44LTEwLjktMy4xYy0xMC45LTE5LjMtMjYuNC0yNy45LTQxLTI3Ljl6bTExOSAyNy45Yy0yLjIgMy45LTcgNS4yLTEwLjkgMy4xcy01LjItNy0zLjEtMTAuOWMxMy4xLTIzLjQgMzMuNi0zNi4xIDU1LTM2LjFzNDEuOCAxMi43IDU1IDM2LjFjMi4yIDMuOSAuOCA4LjctMy4xIDEwLjlzLTguNyAuOC0xMC45LTMuMWMtMTAuOS0xOS4zLTI2LjQtMjcuOS00MS0yNy45cy0zMC4yIDguNi00MSAyNy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-smile-relaxed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-smile-relaxed.svg)
  */
 const FaceSmileRelaxed: typeof Icon = x => (
     <Icon {...x}>

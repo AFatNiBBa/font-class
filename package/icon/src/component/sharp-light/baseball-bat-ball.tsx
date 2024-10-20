@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `baseball-bat-ball` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baseball-bat-ball?s=sharp-light baseball-bat-ball}
- * @preview ![baseball-bat-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAzLjMgMTIuN0wzOTIgMS40IDM4MC43IDEyLjcgMjI2LjEgMTY3LjJjLTkuNyA5LjctMTguNCAyMC4zLTI2IDMxLjdMMTI1LjIgMzExLjNjLTYuNCA5LjYtMTMuOCAxOC42LTIyIDI2LjhMMzIgNDA5LjRsLTcuOS03LjlMMS41IDQyNC4xIDkuNCA0MzJsMTEuMyAxMS4zIDQ4IDQ4TDgwIDUwMi42czAgMCAwIDBsNy45IDcuOSAyMi42LTIyLjYtNy45LTcuOSA3MS4yLTcxLjJjOC4yLTguMiAxNy4yLTE1LjYgMjYuOC0yMmwxMTIuNC03NC45YzExLjQtNy42IDIyLTE2LjMgMzEuNy0yNkw0OTkuMyAxMzEuMyA1MTAuNiAxMjBsLTExLjMtMTEuMy05Ni05NnpNNTQuNiA0MzJsNzEuMi03MS4yYy43LS43IDEuNC0xLjQgMi4xLTIuMUwxNTMuNCAzODRjLS43IC43LTEuNCAxLjQtMi4xIDIuMUw4MCA0NTcuNCA1NC42IDQzMnptOTMuOS05OC4xYzEuMS0xLjYgMi4yLTMuMiAzLjMtNC44bDc0LjktMTEyLjRjNi40LTkuNiAxMy44LTE4LjYgMjItMjYuOEwzOTIgNDYuNiA0NjUuNCAxMjAgMzIyLjEgMjYzLjJjLTguMiA4LjItMTcuMiAxNS42LTI2LjggMjJMMTgyLjkgMzYwLjFjLTEuNiAxLjEtMy4yIDIuMi00LjggMy4zbC0yOS42LTI5LjZ6TTM4NCA0MzJhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHptMTI4IDBhODAgODAgMCAxIDAgLTE2MCAwIDgwIDgwIDAgMSAwIDE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![baseball-bat-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/baseball-bat-ball.svg)
  */
 const BaseballBatBall: typeof Icon = x => (
     <Icon {...x}>

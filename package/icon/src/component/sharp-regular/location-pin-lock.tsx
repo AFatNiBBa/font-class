@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-pin-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-pin-lock?s=sharp-regular location-pin-lock}
- * @preview ![location-pin-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ5LjIgMzY1LjhjMi4zLTMuMSA0LjYtNi4zIDYuOC05LjVsMCA3OS45Yy0xMS43IDE0LjktMjIuNyAyOC4yLTMyLjIgMzkuNEMyMDQuOCA0OTguMSAxOTIgNTEyIDE5MiA1MTJzLTEyLjgtMTMuOS0zMS44LTM2LjRDMTA1LjYgNDExIDAgMjc1LjEgMCAxOTJDMCA4NiA4NiAwIDE5MiAwYzk1LjcgMCAxNzUgNzAgMTg5LjYgMTYxLjVjLTE2LjkgMi44LTMyLjYgOS40LTQ2LjEgMTguOUMzMjkuNiAxMDYuMyAyNjcuNiA0OCAxOTIgNDhDMTEyLjUgNDggNDggMTEyLjUgNDggMTkyYzAgMTYuMyA3LjcgNDIgMjQuNyA3NS40YzE2LjQgMzIuMiAzOC44IDY2LjQgNjIuMSA5OC4zYzIwLjMgMjcuOSA0MC43IDUzLjMgNTcuMiA3My4xYzE2LjUtMTkuOCAzNi45LTQ1LjIgNTcuMi03My4xek0yMjQgMTkyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bS0xMTIgMGE4MCA4MCAwIDEgMSAxNjAgMCA4MCA4MCAwIDEgMSAtMTYwIDB6bTI4OCA0OGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA0OCA2NCAwIDAtNDhjMC0xNy43LTE0LjMtMzItMzItMzJ6bS04MCAzMmMwLTQ0LjIgMzUuOC04MCA4MC04MHM4MCAzNS44IDgwIDgwbDAgNDggMzIgMCAwIDE5Mi0yMjQgMCAwLTE5MiAzMiAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![location-pin-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/location-pin-lock.svg)
  */
 const LocationPinLock: typeof Icon = x => (
     <Icon {...x}>

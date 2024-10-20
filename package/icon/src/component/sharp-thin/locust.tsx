@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `locust` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/locust?s=sharp-thin locust}
- * @preview ![locust](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyIDMybC04IDAgMCAxNiA4IDAgNjQgMGM5OC45IDAgMTc5LjYgNzguMSAxODMuOCAxNzZsLTExNS4yIDAtNTMuNy05Mi02LjUtMTEuMi03LjEgMTAuOS01Mi43IDgwLjgtNTMuOS04MC45LTYuMy05LjUtNi44IDkuMkwxODkuNiAyMjQgNDggMjI0bC0xNiAwIDAgMTYgMCA5OS4yIDU0LjkgMjUuMUwyLjEgNDgwbDE5LjggMCA3OS44LTEwOC45IDczLjggMzMuOEwxMjAuMiA0ODBsMTkuOSAwIDUwLjQtNjguNEwyMDAgNDE2bDg5LjYgMC00MCA2NCAxOC45IDAgNDAtNjRMNDgwIDQxNmM2LjIgMCAxMi4zLS42IDE4LjItMS43TDUzMS4xIDQ4MGwxNy45IDAtMzUuMS03MC4xQzU1MC4yIDM5Ni4yIDU3NiAzNjEuMSA1NzYgMzIwbDAtODAgMC0xNi0uMiAwQzU3MS42IDExNy4zIDQ4My44IDMyIDM3NiAzMmwtNjQgMHpNMTExLjQgMzU3LjlMMTk3LjcgMjQwbDIzNy43IDAgMS43IDIuOSA1LTIuOUw1NjAgMjQwbDAgODBjMCA0NC4yLTM1LjggODAtODAgODBsLTI3Ni41IDAtOTIuMS00Mi4xek0xNzcuOSAyNDBMOTYuNSAzNTEuMSA0OCAzMjguOSA0OCAyNDBsMTI5LjkgMHptMzEuNi0xNmw1NC4yLTc0IDQ5LjQgNzQtMTAzLjYgMHptMTI2LjcgMGw0Ny41LTcyLjhMNDI2LjEgMjI0bC04OS45IDB6TTQ5NiAzMjBhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![locust](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/locust.svg)
  */
 const Locust: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

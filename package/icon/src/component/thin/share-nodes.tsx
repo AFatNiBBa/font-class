@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `share-nodes` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/share-nodes?s=thin share-nodes}
- * @preview ![share-nodes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDExMmMwIDQ0LjItMzUuOCA4MC04MCA4MGMtMjUuOSAwLTQ4LjktMTIuMy02My41LTMxLjNMMTU3LjEgMjM0LjRjMS45IDYuOSAyLjkgMTQuMSAyLjkgMjEuNnMtMSAxNC43LTIuOSAyMS42bDE0Ny41IDczLjdjMTQuNi0xOSAzNy42LTMxLjMgNjMuNS0zMS4zYzQ0LjIgMCA4MCAzNS44IDgwIDgwcy0zNS44IDgwLTgwIDgwcy04MC0zNS44LTgwLTgwYzAtMTIuNiAyLjktMjQuNSA4LjEtMzVMMTUxLjIgMjkyLjVDMTM3LjkgMzE4LjMgMTExIDMzNiA4MCAzMzZjLTQ0LjIgMC04MC0zNS44LTgwLTgwczM1LjgtODAgODAtODBjMzEgMCA1Ny45IDE3LjcgNzEuMiA0My41TDI5Ni4xIDE0N2MtNS4yLTEwLjYtOC4xLTIyLjUtOC4xLTM1YzAtNDQuMiAzNS44LTgwIDgwLTgwczgwIDM1LjggODAgODB6TTgwIDMyMGE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHpNNDMyIDExMmE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6TTM2OCA0NjRhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![share-nodes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/share-nodes.svg)
  */
 const ShareNodes: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

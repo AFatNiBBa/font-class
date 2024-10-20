@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `angles-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angles-down?s=solid angles-down}
- * @preview ![angles-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ2LjYgNDcwLjZjLTEyLjUgMTIuNS0zMi44IDEyLjUtNDUuMyAwbC0xNjAtMTYwYy0xMi41LTEyLjUtMTIuNS0zMi44IDAtNDUuM3MzMi44LTEyLjUgNDUuMyAwTDIyNCA0MDIuNyAzNjEuNCAyNjUuNGMxMi41LTEyLjUgMzIuOC0xMi41IDQ1LjMgMHMxMi41IDMyLjggMCA0NS4zbC0xNjAgMTYwem0xNjAtMzUybC0xNjAgMTYwYy0xMi41IDEyLjUtMzIuOCAxMi41LTQ1LjMgMGwtMTYwLTE2MGMtMTIuNS0xMi41LTEyLjUtMzIuOCAwLTQ1LjNzMzIuOC0xMi41IDQ1LjMgMEwyMjQgMjEwLjcgMzYxLjQgNzMuNGMxMi41LTEyLjUgMzIuOC0xMi41IDQ1LjMgMHMxMi41IDMyLjggMCA0NS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![angles-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/angles-down.svg)
  */
 const AnglesDown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

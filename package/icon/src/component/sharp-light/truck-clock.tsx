@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-clock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-clock?s=sharp-light truck-clock}
- * @preview ![truck-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMCAzNTIgMzcuNSAwYzEzLjItMzcuMyA0OC43LTY0IDkwLjUtNjRzNzcuNCAyNi43IDkwLjUgNjRMMzg0IDM4NGwwLTM1MkwzMiAzMnpNNjQgNDE2bC0zMiAwTDAgNDE2bDAtMzJMMCAzMiAwIDAgMzIgMCAzODQgMGwzMiAwIDAgMzIgMCA2NCA4MCAwIDcuNCAwIDQuOCA1LjYgOTYgMTEyIDMuOSA0LjUgMCA1LjkgMCAxNjAgMTYgMCAxNiAwIDAgMzItMTYgMC0xNiAwLTMyIDBjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZsLTEyOCAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2ek00MTYgMTI4bDAgOTYgMTU0LjkgMC04Mi4zLTk2TDQxNiAxMjh6bTAgMTI4bDAgODguNGMxNy0xNS4yIDM5LjQtMjQuNCA2NC0yNC40YzQxLjggMCA3Ny40IDI2LjcgOTAuNSA2NGw1LjUgMCAwLTEyOC0xNjAgMHpNMjI0IDQxNkE2NCA2NCAwIDEgMCA5NiA0MTZhNjQgNjQgMCAxIDAgMTI4IDB6bTI1NiA2NGE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHpNMjA4IDI1NmE4MCA4MCAwIDEgMCAwLTE2MCA4MCA4MCAwIDEgMCAwIDE2MHptMC0xOTJhMTEyIDExMiAwIDEgMSAwIDIyNCAxMTIgMTEyIDAgMSAxIDAtMjI0em0xNiA2NGwwIDMyIDE2IDAgMTYgMCAwIDMyLTE2IDAtMzIgMC0xNiAwIDAtMTYgMC00OCAwLTE2IDMyIDAgMCAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-clock.svg)
  */
 const TruckClock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

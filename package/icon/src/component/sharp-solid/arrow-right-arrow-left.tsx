@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-right-arrow-left` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-arrow-left?s=sharp-solid arrow-right-arrow-left}
- * @preview ![arrow-right-arrow-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjUuNCA0MDYuNmw4MCA4MEwxMjggNTA5LjMgMTczLjMgNDY0bC0yMi42LTIyLjZMMTI1LjMgNDE2IDQxNiA0MTZsMzIgMCAwLTY0LTMyIDAtMjkwLjcgMCAyNS40LTI1LjRMMTczLjMgMzA0IDEyOCAyNTguN2wtMjIuNiAyMi42LTgwIDgwTDIuNyAzODRsMjIuNiAyMi42em0zOTcuMy0yNTZMNDQ1LjMgMTI4bC0yMi42LTIyLjYtODAtODBMMzIwIDIuNyAyNzQuNyA0OGwyMi42IDIyLjZMMzIyLjcgOTYgMzIgOTYgMCA5NmwwIDY0IDMyIDAgMjkwLjcgMC0yNS40IDI1LjRMMjc0LjcgMjA4IDMyMCAyNTMuM2wyMi42LTIyLjYgODAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-right-arrow-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-right-arrow-left.svg)
  */
 const ArrowRightArrowLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

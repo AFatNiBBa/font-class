@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-a-z` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-a-z?s=sharp-solid arrow-up-a-z}
- * @preview ![arrow-up-a-z](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk1LjUgMzJsLTguNiAxOC43LTg4IDE5MkwyOTIuOCAyNTZsNzAuNCAwIDE0LjctMzIgNzYuMyAwIDE0LjcgMzIgNzAuNCAwLTYuMS0xMy4zLTg4LTE5Mkw0MzYuNSAzMmwtNDEuMSAwem00LjQgMTQ0TDQxNiAxNDAuOCA0MzIuMSAxNzZsLTMyLjMgMHpNMTgzLjYgNTguNEwxNjAgMzIuNiAxMzYuNCA1OC40bC04OCA5NkwyNi44IDE3OCA3NCAyMjEuMmwyMS42LTIzLjZMMTI4IDE2Mi4zIDEyOCA0NDhsMCAzMiA2NCAwIDAtMzIgMC0yODUuNyAzMi40IDM1LjRMMjQ2IDIyMS4yIDI5My4yIDE3OGwtMjEuNi0yMy42LTg4LTk2ek0zNTIgMjg4bC0zMiAwIDAgNjQgMzIgMCA1MiAwLTczIDYzLjlMMzIwIDQyNS41bDAgMTQuNSAwIDggMCAzMiAzMiAwIDEyOCAwIDMyIDAgMC02NC0zMiAwLTUyIDAgNzMtNjMuOSAxMC45LTkuNiAwLTE0LjUgMC04IDAtMzItMzIgMC0xMjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-up-a-z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-up-a-z.svg)
  */
 const ArrowUpAZ: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

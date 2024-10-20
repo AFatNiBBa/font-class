@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `memory` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memory?s=sharp-solid memory}
- * @preview ![memory](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDY0TDAgNjRsMCA4Mi43YzE4LjYgNi42IDMyIDI0LjQgMzIgNDUuM3MtMTMuNCAzOC43LTMyIDQ1LjNMMCAzMjBsNTc2IDAgMC04Mi43Yy0xOC42LTYuNi0zMi0yNC40LTMyLTQ1LjNzMTMuNC0zOC43IDMyLTQ1LjNMNTc2IDY0em0wIDI4OEwwIDM1MmwwIDk2IDgwIDAgMC0zMiAwLTE2IDMyIDAgMCAxNiAwIDMyIDk2IDAgMC0zMiAwLTE2IDMyIDAgMCAxNiAwIDMyIDk2IDAgMC0zMiAwLTE2IDMyIDAgMCAxNiAwIDMyIDk2IDAgMC0zMiAwLTE2IDMyIDAgMCAxNiAwIDMyIDgwIDAgMC05NnpNMTkyIDEyOGwwIDMyIDAgNjQgMCAzMi02NCAwIDAtMzIgMC02NCAwLTMyIDY0IDB6bTEyOCAzMmwwIDY0IDAgMzItNjQgMCAwLTMyIDAtNjQgMC0zMiA2NCAwIDAgMzJ6bTEyOC0zMmwwIDMyIDAgNjQgMCAzMi02NCAwIDAtMzIgMC02NCAwLTMyIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![memory](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/memory.svg)
  */
 const Memory: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

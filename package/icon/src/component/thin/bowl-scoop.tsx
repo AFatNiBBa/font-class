@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-scoop` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-scoop?s=thin bowl-scoop}
- * @preview ![bowl-scoop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDIyNGMwLTEwNi04Ni0xOTItMTkyLTE5MlMzMiAxMTggMzIgMjI0bDE2IDBjMC05Ny4yIDc4LjgtMTc2IDE3Ni0xNzZzMTc2IDc4LjggMTc2IDE3NmwxNiAwek0xNy45IDI4MC43Yy0uNS00LjYgMy4xLTguNyA3LjctOC43bDM5Ni43IDBjNC42IDAgOC4zIDQgNy43IDguN2MtNy41IDY3LjktNjUgMTE5LjMtMTMzLjMgMTE5LjNMMjY0IDQwMGMtMy4yIDAtNi4yIDEuOS03LjQgNC45cy0uNiA2LjQgMS43IDguN0wzMzUgNDkwLjNjLjYgLjYgMSAxLjUgMSAyLjNjMCAxLjgtMS41IDMuMy0zLjMgMy4zbC0yMTcuNCAwYy0xLjggMC0zLjMtMS41LTMuMy0zLjNjMC0uOSAuMy0xLjcgMS0yLjNsNzYuNy03Ni43YzIuMy0yLjMgMy01LjcgMS43LTguN3MtNC4yLTQuOS03LjQtNC45bC0zMi44IDBDODIuOSA0MDAgMjUuNCAzNDguNiAxNy45IDI4MC43ek0yNS42IDI1NkMxMS41IDI1NiAuNCAyNjguMyAyIDI4Mi40QzEwLjQgMzU4LjUgNzQuNyA0MTYgMTUxLjIgNDE2bDEzLjQgMC02MyA2M2MtMy42IDMuNi01LjcgOC41LTUuNyAxMy43YzAgMTAuNyA4LjYgMTkuMyAxOS4zIDE5LjNsMjE3LjQgMGMxMC43IDAgMTkuMy04LjYgMTkuMy0xOS4zYzAtNS4xLTItMTAtNS43LTEzLjdsLTYzLTYzIDEzLjQgMGM3Ni41IDAgMTQwLjgtNTcuNSAxNDkuMi0xMzMuNmMxLjYtMTQuMS05LjUtMjYuNC0yMy43LTI2LjRMMjUuNiAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bowl-scoop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bowl-scoop.svg)
  */
 const BowlScoop: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

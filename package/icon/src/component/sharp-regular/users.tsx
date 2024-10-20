@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users?s=sharp-regular users}
- * @preview ![users](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDE2MEE4MCA4MCAwIDEgMCAxNDQgMGE4MCA4MCAwIDEgMCAwIDE2MHptMzY4IDBBODAgODAgMCAxIDAgNTEyIDBhODAgODAgMCAxIDAgMCAxNjB6TTQ4IDE5MkwwIDMyMGwyMzUuMyAwYy0yNi42LTIzLjUtNDMuMy01Ny44LTQzLjMtOTZjMC0xMSAxLjQtMjEuOCA0LTMyTDQ4IDE5MnpNNjQwIDMyMEw1OTIgMTkybC0xNDggMGMyLjYgMTAuMiA0IDIxIDQgMzJjMCAzOC4yLTE2LjggNzIuNS00My4zIDk2TDY0MCAzMjB6TTMyMCAxNzZhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2em0wIDE0NGE5NiA5NiAwIDEgMCAwLTE5MiA5NiA5NiAwIDEgMCAwIDE5MnpNMjExLjcgNDAwbDIxNi42IDAgMTkuMiA2NC0yNTUgMCAxOS4yLTY0ek00NjQgMzUybC0yODggMEwxNDIuNCA0NjQgMTI4IDUxMmw1MC4xIDAgMjgzLjggMCA1MC4xIDAtMTQuNC00OEw0NjQgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/users.svg)
  */
 const Users: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

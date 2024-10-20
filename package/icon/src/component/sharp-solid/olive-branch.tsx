@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `olive-branch` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/olive-branch?s=sharp-solid olive-branch}
- * @preview ![olive-branch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBDNDggMCAwIDY0IDAgNjRzMzEuMiAzNi40IDg1LjIgNTAuNUMzNC41IDE0MS40IDAgMTk0LjYgMCAyNTZsMCAxNiAwIDE2IDE2IDAgMTYgMGM4Ni42IDAgMTU3LjEtNjguNyAxNTkuOS0xNTQuNkwzNzMuNCA0OCA2MTYgNDhsMjQgMCAwLTQ4TDYxNiAwIDM2OCAwYy0zLjUgMC03IC44LTEwLjIgMi4zTDI0Ny40IDU0LjJDMjMwLjMgMzYuMyAxODguMiAwIDEyOCAwek0zMzYgNTEyYzc5LjUgMCAxNDQtODYgMTQ0LTE5MnMtNjQuNS0xOTItMTQ0LTE5MnMtMTQ0IDg2LTE0NCAxOTJzNjQuNSAxOTIgMTQ0IDE5MnptMTI5LjctNDAuMmM1Mi45IDE2LjUgMTA1LjUgOC40IDEzOS42LTI3YzU2LjItNTguMyA0MS0xNjguNi0zMy45LTI0Ni40Yy00Mi45LTQ0LjUtOTYuMS02OC43LTE0NC4yLTcwLjNjMTMuNiAxMC40IDI1LjcgMjIuOSAzNi4yIDM2LjlDNDk0IDIwNS44IDUxMiAyNjAuNyA1MTIgMzIwYzAgNTcuOC0xNy4xIDExMS40LTQ2LjMgMTUxLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![olive-branch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/olive-branch.svg)
  */
 const OliveBranch: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

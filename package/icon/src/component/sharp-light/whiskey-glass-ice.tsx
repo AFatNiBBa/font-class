@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `whiskey-glass-ice` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whiskey-glass-ice?s=sharp-light whiskey-glass-ice}
- * @preview ![whiskey-glass-ice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTEuOCA0NDhsMzI4LjUgMEw0NzUuMSA2NCAzNi45IDY0IDkxLjggNDQ4ek00NDggNDgwTDY0IDQ4MCA0LjYgNjQgMCAzMmwzMi4zIDAgNDQ3LjMgMEw1MTIgMzJsLTQuNiAzMkw0NDggNDgwek0yNTYgMTkybDIuNyAwLTMyIDMyTDEyOCAyMjRsMCAxMjggNTcuOCAwIDMyIDMyTDEyOCAzODRsLTMyIDAgMC0zMiAwLTEyOCAwLTMyIDMyIDAgMTI4IDB6bTU2IDM3LjNsLTc5LjIgNzkuMkwzMTIgMzg3LjZsNzkuMi03OS4yTDMxMiAyMjkuM3ptMC00NS4zbDIyLjYgMjIuNiA3OS4yIDc5LjIgMjIuNiAyMi42LTIyLjYgMjIuNi03OS4yIDc5LjJMMzEyIDQzMi45bC0yMi42LTIyLjYtNzkuMi03OS4yLTIyLjYtMjIuNiAyMi42LTIyLjYgNzkuMi03OS4yTDMxMiAxODR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![whiskey-glass-ice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/whiskey-glass-ice.svg)
  */
 const WhiskeyGlassIce: typeof Icon = x => (
     <Icon {...x}>

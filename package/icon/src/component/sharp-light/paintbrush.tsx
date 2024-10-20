@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paintbrush` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paintbrush?s=sharp-light paintbrush}
- * @preview ![paintbrush](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4LjQgMjE0LjJsMjU5LjUtMTczIDI2LjkgMjYuOS0xNzMgMjU5LjUtNzYgNDAuOS03OC4zLTc4LjNzMCAwIDAgMHMwIDAgMCAwbDQwLjktNzZ6TTI1NCAzODJzMCAwIDAgMHMwIDAgMCAwYzEuMyA1LjggMiAxMS44IDIgMThjMCA0NC4yLTM1LjggODAtODAgODBjMCAwIDAgMCAwIDBsLTgwIDAgMC04MGMwLTQ0LjIgMzUuOC04MCA4MC04MGM2LjIgMCAxMi4yIC43IDE4IDJjMCAwIDAgMCAwIDBMMjU0IDM4MnpNNTEyIDBMMjI0IDE5MmwtNTEuNyA5Ni4xQzExMi4xIDI5MCA2NCAzMzkuNCA2NCA0MDBsMCA0OCAwIDMyLTMyIDBzMCAwIDAgMGwtMTYgMEwwIDQ4MGwwIDMyIDE2IDAgMTYgMCAzMiAwIDMyIDAgODAgMHMwIDAgMCAwYzYwLjYgMCAxMTAtNDguMSAxMTEuOS0xMDguM0wzODQgMzUyIDU3NiA2NCA1MTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![paintbrush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/paintbrush.svg)
  */
 const Paintbrush: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

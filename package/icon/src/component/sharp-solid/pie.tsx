@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pie` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pie?s=sharp-solid pie}
- * @preview ![pie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDI0MGwtMTIuNyAwQzQ5Ny43IDEzNy44IDQwMS40IDY0IDI4OCA2NFM3OC4zIDEzNy44IDQ0LjcgMjQwTDMyIDI0MCAwIDI0MGwwIDY0IDMyIDAgOS4yIDAgNjMuOS0zMC40IDYtMi45IDYuMyAyLjNMMjAwIDMwM2w4Mi41LTMwIDUuNS0yIDUuNSAyTDM3NiAzMDNsODIuNS0zMCA2LjMtMi4zIDYuMSAyLjlMNTM0LjggMzA0bDkuMiAwIDMyIDAgMC02NC0zMiAwek05NiA0NDhsMzg0IDAgMzguNy0xMTYuMi01NS42LTI2LjVMMzgxLjUgMzM1bC01LjUgMi01LjUtMkwyODggMzA1bC04Mi41IDMwLTUuNSAyLTUuNS0yLTgxLjctMjkuN0w1Ny4zIDMzMS44IDk2IDQ0OHpNMjA2LjMgMTUxLjJsLTE2IDMyLTcuMiAxNC4zLTI4LjYtMTQuMyA3LjItMTQuMyAxNi0zMiA3LjItMTQuMyAyOC42IDE0LjMtNy4yIDE0LjN6bTE5Mi0xNC4zbDE2IDMyIDcuMiAxNC4zLTI4LjYgMTQuMy03LjItMTQuMy0xNi0zMi03LjItMTQuMyAyOC42LTE0LjMgNy4yIDE0LjN6TTMwNCAxNDRsMCAzMiAwIDE2LTMyIDAgMC0xNiAwLTMyIDAtMTYgMzIgMCAwIDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pie.svg)
  */
 const Pie: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

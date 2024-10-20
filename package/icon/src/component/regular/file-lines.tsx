@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-lines` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-lines?s=regular file-lines}
- * @preview ![file-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDY0Yy04LjggMC0xNi03LjItMTYtMTZMNDggNjRjMC04LjggNy4yLTE2IDE2LTE2bDE2MCAwIDAgODBjMCAxNy43IDE0LjMgMzIgMzIgMzJsODAgMCAwIDI4OGMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDY0ek02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTI5My41YzAtMTctNi43LTMzLjMtMTguNy00NS4zTDI3NC43IDE4LjdDMjYyLjcgNi43IDI0Ni41IDAgMjI5LjUgMEw2NCAwem01NiAyNTZjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMTQ0IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTE0NCAwem0wIDk2Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDE0NCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0xNDQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-lines.svg)
  */
 const FileLines: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

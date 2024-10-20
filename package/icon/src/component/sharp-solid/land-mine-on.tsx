@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `land-mine-on` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/land-mine-on?s=sharp-solid land-mine-on}
- * @preview ![land-mine-on](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDI0bDAgMTQ0IDAgMjQtNDggMCAwLTI0IDAtMTQ0IDAtMjQgNDggMCAwIDI0ek02OS43IDEzMi4zbDEwNCA3MiAxOS43IDEzLjctMjcuMyAzOS41LTE5LjctMTMuNy0xMDQtNzJMMjIuNiAxNTguMWwyNy4zLTM5LjUgMTkuNyAxMy43em01MjggMzkuNWwtMTA0IDcyLTE5LjcgMTMuNy0yNy4zLTM5LjUgMTkuNy0xMy43IDEwNC03MiAxOS43LTEzLjcgMjcuMyAzOS41LTE5LjcgMTMuN3pNMTkyIDI4OGwyNTYgMCAwIDY0LTI1NiAwIDAtNjR6bS02NCA5NmwzODQgMCA2NCAxMjhMNjQgNTEybDY0LTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![land-mine-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/land-mine-on.svg)
  */
 const LandMineOn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

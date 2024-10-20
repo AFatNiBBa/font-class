@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ethernet` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ethernet?s=light ethernet}
- * @preview ![ethernet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDk2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDE5MiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzIgMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyIDMyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxOTJjMCAxNy43LTE0LjMgMzItMzIgMzJsLTgwIDAtOTYgMC05NiAwLTk2IDAtODAgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJMMCAyMjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIgMCAwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDMyIDAgMC0zMnptMjI0IDBMMTYwIDk2bDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2bC00OCAwIDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2bC00OCAwIDAgMTkyIDY0IDAgMC04MGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2bDAgODAgNjQgMCAwLTgwYzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZsMCA4MCA2NCAwIDAtODBjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDgwIDY0IDAgMC04MGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2bDAgODAgNjQgMCAwLTE5Mi00OCAwYy04LjggMC0xNi03LjItMTYtMTZsMC00OC00OCAwYy04LjggMC0xNi03LjItMTYtMTZsMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ethernet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ethernet.svg)
  */
 const Ethernet: typeof Icon = x => (
     <Icon {...x}>

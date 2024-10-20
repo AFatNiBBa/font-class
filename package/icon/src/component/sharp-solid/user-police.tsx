@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-police` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-police?s=sharp-solid user-police}
- * @preview ![user-police](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTkuMkw0OCA4MGwwLTMyTDIyNCAwIDQwMCA0OGwwIDMyTDM2OCA5OS4ybDAgMjguOGMtMTYgMTAuNy02Ny4yIDMyLTE0NCAzMnMtMTI4LTIxLjMtMTQ0LTMybDAtMjguOHpNMjI3IDQ4LjZsLTMtMS4yLTMgMS4yTDE4OSA2MS40bC01IDIgMCA1LjRjMCAxNy4yIDcgNDYuMSAzNi45IDU4LjZsMy4xIDEuMyAzLjEtMS4zQzI1NyAxMTQuOSAyNjQgODYgMjY0IDY4LjhsMC01LjQtNS0yTDIyNyA0OC42ek05OC4xIDE2OC44YzM5LjEgMTUgODEuNSAyMy4yIDEyNS45IDIzLjJzODYuOC04LjIgMTI1LjktMjMuMmMxLjQgNy41IDIuMSAxNS4zIDIuMSAyMy4yYzAgNzAuNy01Ny4zIDEyOC0xMjggMTI4cy0xMjgtNTcuMy0xMjgtMTI4YzAtNy45IC43LTE1LjcgMi4xLTIzLjJ6TTEzOC43IDM1MkwyMjQgNDE2bDg1LjMtNjQgOTAuNyAwIDQ4IDE2MEwwIDUxMiA0OCAzNTJsOTAuNyAwek0zNTIgNDAwLjRsLTQuNiAxNC4yLTYuMSAxOC44LTE5LjggMC0xNC45IDAgMTIuMSA4LjcgMTYgMTEuNi02LjIgMTguOEwzMjQgNDg2LjVsMTItOC44IDE2LTExLjcgMTYgMTEuNyAxMiA4LjgtNC42LTE0LjEtNi4yLTE4LjggMTYtMTEuNiAxMi4xLTguNy0xNC45IDAtMTkuOCAwLTYuMS0xOC44TDM1MiA0MDAuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-police](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-police.svg)
  */
 const UserPolice: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

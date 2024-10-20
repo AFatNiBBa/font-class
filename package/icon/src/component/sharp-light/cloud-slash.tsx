@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-slash?s=sharp-light cloud-slash}
- * @preview ![cloud-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIuNSAxMEwxOS45IC4xIC4xIDI1LjNsMTIuNiA5LjlMNjA3LjggNTAyLjJsMTIuNiA5LjkgMTkuOC0yNS4yLTEyLjYtOS45TDMyLjUgMTB6TTQ1OS45IDQ0OEwxNDQgNDQ4IDMyIDQ0OGwwLTExMmMwLTQ4LjcgMzEuMS05MC4yIDc0LjctMTA1LjZsMjEuMy03LjUgMC0yMi42IDAtOC4yYzAtMiAwLTQgLjEtNS45TDk4LjcgMTYyLjhDOTYuOSAxNzIuMyA5NiAxODIgOTYgMTkybDAgOC4yQzQwLjEgMjIwIDAgMjczLjMgMCAzMzZMMCA0NDhsMCAzMiAzMiAwIDExMiAwIDM1Ni40IDAtNDAuNS0zMnpNMjU2IDMyYy0zMS40IDAtNjAuNiA5LTg1LjMgMjQuNkwxOTcuOCA3OEMyMTUuMiA2OSAyMzUgNjQgMjU2IDY0YzQ1LjEgMCA4NC44IDIzLjMgMTA3LjYgNTguN2wxNC4yIDIyIDI0LjMtOS41YzExLjctNC42IDI0LjQtNy4xIDM3LjktNy4xYzU3LjQgMCAxMDQgNDYuNiAxMDQgMTA0bDAgOS4xIDAgMTguNSAxNiA5LjJjMjguOCAxNi42IDQ4IDQ3LjcgNDggODMuMmwwIDQ5LjggMzIgMjUuMyAwLTc1LjFjMC00Ny40LTI1LjctODguNy02NC0xMTAuOWwwLTkuMWMwLTc1LjEtNjAuOS0xMzYtMTM2LTEzNmMtMTcuNSAwLTM0LjIgMy4zLTQ5LjUgOS4zQzM2MiA2MS4yIDMxMi40IDMyIDI1NiAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cloud-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cloud-slash.svg)
  */
 const CloudSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

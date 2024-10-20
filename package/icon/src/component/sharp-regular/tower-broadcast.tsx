@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tower-broadcast` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-broadcast?s=sharp-regular tower-broadcast}
- * @preview ![tower-broadcast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDEyOGMwLTM4LjItOC45LTc0LjMtMjQuOC0xMDYuM2w0My0yMS4zQzU2NS4zIDM4LjkgNTc2IDgyLjIgNTc2IDEyOHMtMTAuNyA4OS4xLTI5LjcgMTI3LjVsLTQzLTIxLjNjMTUuOS0zMiAyNC44LTY4LjEgMjQuOC0xMDYuM3pNNDggMTI4YzAgMzguMiA4LjkgNzQuMyAyNC44IDEwNi4zbC00MyAyMS4zQzEwLjcgMjE3LjEgMCAxNzMuOCAwIDEyOFMxMC43IDM4LjkgMjkuNyAuNWw0MyAyMS4zQzU2LjkgNTMuNyA0OCA4OS44IDQ4IDEyOHptNjQgMGMwLTI4IDYuNS01NC41IDE4LjItNzcuOWw0MyAyMS4zQzE2NC44IDg4LjQgMTYwIDEwNy42IDE2MCAxMjhzNC44IDM5LjYgMTMuMiA1Ni43bC00MyAyMS4zQzExOC41IDE4Mi41IDExMiAxNTYgMTEyIDEyOHptMzUyIDBjMCAyOC02LjUgNTQuNS0xOC4yIDc3LjlsLTQzLTIxLjNjOC41LTE3LjEgMTMuMi0zNi4zIDEzLjItNTYuN3MtNC44LTM5LjYtMTMuMi01Ni43bDQzLTIxLjNDNDU3LjUgNzMuNSA0NjQgMTAwIDQ2NCAxMjh6bS0xMTIgMGMwIDI2LjktMTYuNSA0OS45LTQwIDU5LjNMMzEyIDQ4OGwwIDI0LTQ4IDAgMC0yNCAwLTMwMC43Yy0yMy41LTkuNS00MC0zMi41LTQwLTU5LjNjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tower-broadcast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tower-broadcast.svg)
  */
 const TowerBroadcast: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

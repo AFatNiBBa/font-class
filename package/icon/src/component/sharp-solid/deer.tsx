@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `deer` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/deer?s=sharp-solid deer}
- * @preview ![deer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBsMCAxNiAwIDI0YzAgMTMuMyAxMC43IDI0IDI0IDI0bDE2IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC0yNCAwLTE2IDMyIDAgMCAxNiAwIDI0YzAgOC42LTEuOSAxNi43LTUuNCAyNGwzMC42IDBMNDE2IDY0YzEzLjMgMCAyNC0xMC43IDI0LTI0bDAtMjQgMC0xNiAzMiAwIDAgMTYgMCAyNGMwIDIxLjctMTIuMyA0MC40LTMwLjMgNDkuOGMuNiAuNSAxLjEgMS4xIDEuNyAxLjZMNTEyIDE2MGwwIDY0LTk2IDAtNS4zIDBMMzg0IDMwNGwwIDY0IDAgMTQ0LTk2IDAgMC0xNDQtNDggMC02NC0yNy40IDAgMy40IDAgMTkuOS0xNC4xIDE0LjEtMjYuNiAyNi42TDE3My4zIDUxMiA3MS41IDUxMiAzNC43IDQwOCAyNC43IDM3OS40bDIxLjQtMjEuNEw3Mi4xIDMzMiA1NiAzMTUuOWMtMy0zLTUuNy02LjEtOC4xLTkuNWwtMS44IDIzLjMtNDcuOS0zLjdMLjEgMzAyLjIgMi40IDI3MmM0LjItNTQuMiA0OS4zLTk2IDEwMy43LTk2bDcuOSAwIDE0LjEgMCA5NiAwIDc4LjQgMCA5LjYtMzItNTYgMCAwLTMyIDY0LTE2LTI0IDAtMTYgMGMtMzAuOSAwLTU2LTI1LjEtNTYtNTZsMC0yNCAwLTE2IDMyIDB6TTQwMCAxNjBhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![deer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/deer.svg)
  */
 const Deer: typeof Icon = x => (
     <Icon {...x}>

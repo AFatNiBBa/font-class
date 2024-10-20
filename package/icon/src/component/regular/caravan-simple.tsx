@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `caravan-simple` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caravan-simple?s=regular caravan-simple}
- * @preview ![caravan-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgODBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMjI0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDI4LjggMGMxNi42LTI4LjcgNDcuNi00OCA4My4yLTQ4czY2LjYgMTkuMyA4My4yIDQ4TDUyOCAzNjhsMC0xNzZjMC02MS45LTUwLjEtMTEyLTExMi0xMTJMODAgODB6TTk2IDQxNmwtMTYgMGMtNDQuMiAwLTgwLTM1LjgtODAtODBMMCAxMTJDMCA2Ny44IDM1LjggMzIgODAgMzJsMzM2IDBjODguNCAwIDE2MCA3MS42IDE2MCAxNjBsMCAxNzYgNDAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtNDAgMC00OCAwLTI0MCAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2em0wLTI1NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwxMjggMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xMjggMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NHptMjU2LTMybDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtNjQgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMnpNMjQwIDQxNmE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![caravan-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/caravan-simple.svg)
  */
 const CaravanSimple: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

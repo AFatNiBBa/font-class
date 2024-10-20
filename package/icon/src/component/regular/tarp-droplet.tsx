@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tarp-droplet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tarp-droplet?s=regular tarp-droplet}
- * @preview ![tarp-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDE2MGMtMzUuMyAwLTY0LTI2LjktNjQtNjBjMC0yNCAzMy43LTcwLjEgNTIuMi05My41YzYuMS03LjcgMTcuNS03LjcgMjMuNiAwQzMxOC4zIDI5LjkgMzUyIDc2IDM1MiAxMDBjMCAzMy4xLTI4LjcgNjAtNjQgNjB6TTY0IDEyOGwxMzMuNSAwYzcgMTkuOCAyMC4zIDM2LjYgMzcuNSA0OEw2NCAxNzZjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDI1NmMwIDguOCA3LjIgMTYgMTYgMTZsMzUyIDAgMC04MGMwLTE3LjcgMTQuMy0zMiAzMi0zMmw4MCAwIDAtMTYwYzAtOC44LTcuMi0xNi0xNi0xNmwtMTcwLjkgMGMxNy4yLTExLjQgMzAuNS0yOC4yIDM3LjUtNDhMNTEyIDEyOGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDE3Mi4xYzAgMTIuNy01LjEgMjQuOS0xNC4xIDMzLjlsLTk5LjkgOTkuOWMtOSA5LTIxLjIgMTQuMS0zMy45IDE0LjFMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDE5MmMwLTM1LjMgMjguNy02NCA2NC02NHptNDggODBhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tarp-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tarp-droplet.svg)
  */
 const TarpDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

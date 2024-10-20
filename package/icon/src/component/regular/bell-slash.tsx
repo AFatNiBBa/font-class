@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-slash?s=regular bell-slash}
- * @preview ![bell-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w1NDIuNiA0MDBjMi43LTcuOCAxLjMtMTYuNS0zLjktMjNsLTE0LjktMTguNkM0OTUuNSAzMjIuOSA0ODAgMjc4LjggNDgwIDIzMy40bDAtMzMuNGMwLTc1LjgtNTUuNS0xMzguNi0xMjgtMTUwLjFMMzUyIDMyYzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMTcuOWMtNDMuOSA3LTgxLjUgMzIuNy0xMDQuNCA2OC43TDM4LjggNS4xek0yMjEuNyAxNDguNEMyMzkuNiAxMTcuMSAyNzMuMyA5NiAzMTIgOTZsOCAwIDggMGM1Ny40IDAgMTA0IDQ2LjYgMTA0IDEwNGwwIDMzLjRjMCAzMi43IDYuNCA2NC44IDE4LjcgOTQuNUwyMjEuNyAxNDguNHpNNDA2LjIgNDE2bC02MC45LTQ4LTE3Ni45IDBjMjEuMi0zMi44IDM0LjQtNzAuMyAzOC40LTEwOS4xTDE2MCAyMjIuMWwwIDExLjRjMCA0NS40LTE1LjUgODkuNS00My44IDEyNC45TDEwMS4zIDM3N2MtNS44IDcuMi02LjkgMTcuMS0yLjkgMjUuNHMxMi40IDEzLjYgMjEuNiAxMy42bDI4Ni4yIDB6TTM4NCA0NDhsLTY0IDAtNjQgMGMwIDE3IDYuNyAzMy4zIDE4LjcgNDUuM3MyOC4zIDE4LjcgNDUuMyAxOC43czMzLjMtNi43IDQ1LjMtMTguN3MxOC43LTI4LjMgMTguNy00NS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bell-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bell-slash.svg)
  */
 const BellSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

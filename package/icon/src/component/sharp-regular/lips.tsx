@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lips` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lips?s=sharp-regular lips}
- * @preview ![lips](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDY0bDk2IDQ4IDk2LTQ4TDU3NiAyMjRzLTgwIDIyNC0yNDAgMjI0bC05NiAwQzgwIDQ0OCAwIDIyNCAwIDIyNEwxOTIgNjR6bTExNy41IDkwLjljLTEzLjUgNi44LTI5LjQgNi44LTQyLjkgMGwtNjcuOS0zNEw1OC4yIDIzOGwuMiAuNGM5LjIgMTkuMyAyMi44IDQ0LjcgNDAuNyA2OS43QzEzNi40IDM2MC40IDE4My45IDQwMCAyNDAgNDAwbDk2IDBjNTYuMSAwIDEwMy42LTM5LjYgMTQwLjktOTEuOWMxNy45LTI1LjEgMzEuNS01MC41IDQwLjctNjkuN2wuMi0uNEwzNzcuNCAxMjFsLTY3LjkgMzR6TTk2IDIzNmwxMjMuNC0yOHM0MS4zIDE0IDY4LjYgMTRzNjguNi0xNCA2OC42LTE0TDQ4MCAyMzZzLTY4LjYgODQtMTkyIDg0cy0xOTItODQtMTkyLTg0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lips](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lips.svg)
  */
 const Lips: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

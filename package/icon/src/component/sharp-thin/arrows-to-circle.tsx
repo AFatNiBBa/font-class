@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-to-circle` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-circle?s=sharp-thin arrows-to-circle}
- * @preview ![arrows-to-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMuNyAyLjNDMTAuNS0uOCA1LjUtLjggMi4zIDIuM3MtMy4xIDguMiAwIDExLjNMMTY0LjcgMTc2IDcyIDE3NmwtOCAwIDAgMTYgOCAwIDExMiAwIDggMCAwLTggMC0xMTIgMC04LTE2IDAgMCA4IDAgOTIuN0wxMy43IDIuM3ptNjEyLjcgMEw0NjQgMTY0LjcgNDY0IDcybDAtOC0xNiAwIDAgOCAwIDExMiAwIDggOCAwIDExMiAwIDggMCAwLTE2LTggMC05Mi43IDBMNjM3LjcgMTMuN2MzLjEtMy4xIDMuMS04LjIgMC0xMS4zcy04LjItMy4xLTExLjMgMHpNMzIwIDE3NmE4MCA4MCAwIDEgMSAwIDE2MCA4MCA4MCAwIDEgMSAwLTE2MHptMCAxNzZhOTYgOTYgMCAxIDAgMC0xOTIgOTYgOTYgMCAxIDAgMCAxOTJ6bTEyOCA5NmwxNiAwIDAtOCAwLTkyLjdMNjI2LjMgNTA5LjdjMy4xIDMuMSA4LjIgMy4xIDExLjMgMHMzLjEtOC4yIDAtMTEuM0w0NzUuMyAzMzZsOTIuNyAwIDggMCAwLTE2LTggMC0xMTIgMC04IDAgMCA4IDAgMTEyIDAgOHptLTI1NiAwbDAtOCAwLTExMiAwLTgtOCAwTDcyIDMyMGwtOCAwIDAgMTYgOCAwIDkyLjcgMEwyLjMgNDk4LjNjLTMuMSAzLjEtMy4xIDguMiAwIDExLjNzOC4yIDMuMSAxMS4zIDBMMTc2IDM0Ny4zbDAgOTIuNyAwIDggMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-to-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrows-to-circle.svg)
  */
 const ArrowsToCircle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

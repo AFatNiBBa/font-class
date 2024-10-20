@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `magnifying-glass-arrows-rotate` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-arrows-rotate?s=sharp-solid magnifying-glass-arrows-rotate}
- * @preview ![magnifying-glass-arrows-rotate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDEzLjYgMjQwYy01LjIgMzMuNi0xOC40IDY0LjUtMzcuNiA5MC43TDQ4Ni42IDQ0MS40IDUwOS4zIDQ2NCA0NjQgNTA5LjNsLTIyLjYtMjIuNkwzMzAuNyAzNzZjLTM0LjQgMjUuMi03Ni44IDQwLTEyMi43IDQwYy01My40IDAtMTAyLTIwLjEtMTM4LjktNTMuMUwyNCA0MDggMCAzODQgMCAyNDBsMTQ0IDAgMjQgMjQtNTMuNSA1My41QzEzOS42IDMzOSAxNzIuMyAzNTIgMjA4IDM1MmM2OC41IDAgMTI1LjktNDcuOSAxNDAuNC0xMTJsNjUuMSAwek0zNDYuOSA1My4xTDM5MiA4bDI0IDI0IDAgMTQ0LTE0NCAwLTI0LTI0IDUzLjUtNTMuNUMyNzYuNCA3NyAyNDMuNyA2NCAyMDggNjRDMTM5LjUgNjQgODIuMSAxMTEuOSA2Ny42IDE3NkwyLjQgMTc2QzE3LjggNzYuMyAxMDQgMCAyMDggMGM1My40IDAgMTAyIDIwLjEgMTM4LjkgNTMuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![magnifying-glass-arrows-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/magnifying-glass-arrows-rotate.svg)
  */
 const MagnifyingGlassArrowsRotate: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-circle-minus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-minus?s=light file-circle-minus}
- * @preview ![file-circle-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDgwbDIzMi4yIDBjOS44IDExLjggMjEgMjIuMyAzMy41IDMxLjNjLTMuMiAuNS02LjQgLjctOS43IC43TDY0IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjIwLjEgMGMxMi43IDAgMjQuOSA1LjEgMzMuOSAxNC4xTDM2OS45IDEyOS45YzkgOSAxNC4xIDIxLjIgMTQuMSAzMy45bDAgMzQuN2MtMTEuMiAzLjItMjEuOSA3LjQtMzIgMTIuNmwwLTE5LjItMTEyIDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTEyTDY0IDMyQzQ2LjMgMzIgMzIgNDYuMyAzMiA2NGwwIDM4NGMwIDE3LjcgMTQuMyAzMiAzMiAzMnpNMzUxLjUgMTYwYy0uNy0yLjgtMi4xLTUuNC00LjItNy40TDIzMS40IDM2LjdjLTIuMS0yLjEtNC42LTMuNS03LjQtNC4yTDIyNCAxNDRjMCA4LjggNy4yIDE2IDE2IDE2bDExMS41IDB6TTQzMiA0ODBhMTEyIDExMiAwIDEgMCAwLTIyNCAxMTIgMTEyIDAgMSAwIDAgMjI0em0wLTI1NmExNDQgMTQ0IDAgMSAxIDAgMjg4IDE0NCAxNDQgMCAxIDEgMC0yODh6bTgwIDE0NGMwIDguOC03LjIgMTYtMTYgMTZsLTEyOCAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDEyOCAwYzguOCAwIDE2IDcuMiAxNiAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-circle-minus.svg)
  */
 const FileCircleMinus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

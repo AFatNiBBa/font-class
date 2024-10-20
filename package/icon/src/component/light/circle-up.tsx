@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-up?s=light circle-up}
- * @preview ![circle-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYTIyNCAyMjQgMCAxIDEgMCA0NDggMjI0IDIyNCAwIDEgMSAwLTQ0OHptMCA0ODBBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem0wLTQwMGMtOS4yIDAtMTggMy41LTI0LjcgOS43bC05MSA4NGMtNy44IDcuMi0xMi4zIDE3LjQtMTIuMyAyOC4xYzAgMjEuMSAxNy4xIDM4LjMgMzguMyAzOC4zbDI1LjcgMCAwIDgwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC04MCAyNS43IDBjMjEuMSAwIDM4LjMtMTcuMSAzOC4zLTM4LjNjMC0xMC43LTQuNS0yMC45LTEyLjMtMjguMWwtOTEtODRjLTYuNy02LjItMTUuNi05LjctMjQuNy05Ljd6bS0zIDMzLjJjLjgtLjggMS45LTEuMiAzLTEuMnMyLjIgLjQgMyAxLjJsOTEgODRjMS4zIDEuMiAyIDIuOSAyIDQuNmMwIDMuNS0yLjggNi4zLTYuMyA2LjNMMzA0IDI0MGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgOTZjMCA4LjgtNy4yIDE2LTE2IDE2bC0zMiAwYy04LjggMC0xNi03LjItMTYtMTZsMC05NmMwLTguOC03LjItMTYtMTYtMTZsLTQxLjcgMGMtMy41IDAtNi4zLTIuOC02LjMtNi4zYzAtMS43IC43LTMuNCAyLTQuNmw5MS04NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-up.svg)
  */
 const CircleUp: typeof Icon = x => (
     <Icon {...x}>

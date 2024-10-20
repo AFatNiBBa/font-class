@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `italic` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/italic?s=thin italic}
- * @preview ![italic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQwYzAtNC40IDMuNi04IDgtOGwyNDAgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtOTAuNiAwTDExNS45IDQ2NCAyNDggNDY0YzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDggNDgwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDkwLjYgMEwyNjguMSA0OCAxMzYgNDhjLTQuNCAwLTgtMy42LTgtOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![italic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/italic.svg)
  */
 const Italic: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

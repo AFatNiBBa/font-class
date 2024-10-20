@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clock-rotate-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-rotate-left?s=solid clock-rotate-left}
- * @preview ![clock-rotate-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzUgNzVMNDEgNDFDMjUuOSAyNS45IDAgMzYuNiAwIDU3LjlMMCAxNjhjMCAxMy4zIDEwLjcgMjQgMjQgMjRsMTEwLjEgMGMyMS40IDAgMzIuMS0yNS45IDE3LTQxbC0zMC44LTMwLjhDMTU1IDg1LjUgMjAzIDY0IDI1NiA2NGMxMDYgMCAxOTIgODYgMTkyIDE5MnMtODYgMTkyLTE5MiAxOTJjLTQwLjggMC03OC42LTEyLjctMTA5LjctMzQuNGMtMTQuNS0xMC4xLTM0LjQtNi42LTQ0LjYgNy45cy02LjYgMzQuNCA3LjkgNDQuNkMxNTEuMiA0OTUgMjAxLjcgNTEyIDI1NiA1MTJjMTQxLjQgMCAyNTYtMTE0LjYgMjU2LTI1NlMzOTcuNCAwIDI1NiAwQzE4NS4zIDAgMTIxLjMgMjguNyA3NSA3NXptMTgxIDUzYy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDEwNGMwIDYuNCAyLjUgMTIuNSA3IDE3bDcyIDcyYzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtNjUtNjUgMC05NC4xYzAtMTMuMy0xMC43LTI0LTI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clock-rotate-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/clock-rotate-left.svg)
  */
 const ClockRotateLeft: typeof Icon = x => (
     <Icon {...x}>

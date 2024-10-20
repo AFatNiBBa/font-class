@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-mixed` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-mixed?s=sharp-thin chart-mixed}
- * @preview ![chart-mixed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDkxLjIgNjUuMmwtNi4yIDUtMTYwIDEyOC01LjQgNC4zLTUuMS00LjdMMTkxLjYgODIuNiAyMS4xIDIyMi4ybC02LjIgNS4xTDQuNyAyMTQuOWw2LjItNS4xIDE3Ni0xNDQgNS40LTQuNCA1LjEgNC44TDMyMC40IDE4MS40IDQ3NSA1Ny44bDYuMi01IDEwIDEyLjV6TTgwIDMzNmwtMzIgMCAwIDEyOCAzMiAwIDAtMTI4ek00OCAzMjBsMzIgMCAxNiAwIDAgMTYgMCAxMjggMCAxNi0xNiAwLTMyIDAtMTYgMCAwLTE2IDAtMTI4IDAtMTYgMTYgMHptMTI4LTgwbDAgMjI0IDMyIDAgMC0yMjQtMzIgMHptLTE2LTE2bDE2IDAgMzIgMCAxNiAwIDAgMTYgMCAyMjQgMCAxNi0xNiAwLTMyIDAtMTYgMCAwLTE2IDAtMjI0IDAtMTZ6bTE3NiA4MGwtMzIgMCAwIDE2MCAzMiAwIDAtMTYwem0tMzItMTZsMzIgMCAxNiAwIDAgMTYgMCAxNjAgMCAxNi0xNiAwLTMyIDAtMTYgMCAwLTE2IDAtMTYwIDAtMTYgMTYgMHptMTI4LTQ4bDAgMjI0IDMyIDAgMC0yMjQtMzIgMHptLTE2LTE2bDE2IDAgMzIgMCAxNiAwIDAgMTYgMCAyMjQgMCAxNi0xNiAwLTMyIDAtMTYgMCAwLTE2IDAtMjI0IDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-mixed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chart-mixed.svg)
  */
 const ChartMixed: typeof Icon = x => (
     <Icon {...x}>

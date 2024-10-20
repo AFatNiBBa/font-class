@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `circle-v` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-v?s=duotone circle-v}
- * @preview ![circle-v](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NmEyNTYgMjU2IDAgMSAwIDUxMiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZ6bTEzMC41LTc3LjNjLTUuOS0xMS45LTEuMS0yNi4zIDEwLjctMzIuMnMyNi4zLTEuMSAzMi4yIDEwLjdjMjcuNSA1NSA1NSAxMTAgODIuNSAxNjUuMWMyNy41LTU1IDU1LTExMCA4Mi41LTE2NS4xYzUuOS0xMS45IDIwLjMtMTYuNyAzMi4yLTEwLjdjOC40IDQuMiAxMy4zIDEyLjcgMTMuMyAyMS41YzAgMy42LS44IDcuMy0yLjUgMTAuN2MtMzQuNyA2OS4zLTY5LjMgMTM4LjctMTA0IDIwOGMtNC4xIDguMS0xMi40IDEzLjMtMjEuNSAxMy4zcy0xNy40LTUuMS0yMS41LTEzLjNjLTM0LjctNjkuMy02OS4zLTEzOC43LTEwNC0yMDh6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0xNDEuMyAxNDYuNWMxMS45LTUuOSAyNi4zLTEuMSAzMi4yIDEwLjdMMjU2IDMyMi4zbDgyLjUtMTY1LjFjNS45LTExLjkgMjAuMy0xNi43IDMyLjItMTAuN3MxNi43IDIwLjMgMTAuNyAzMi4ybC0xMDQgMjA4Yy00LjEgOC4xLTEyLjQgMTMuMy0yMS41IDEzLjNzLTE3LjQtNS4xLTIxLjUtMTMuM2wtMTA0LTIwOGMtNS45LTExLjktMS4xLTI2LjMgMTAuNy0zMi4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circle-v](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-v.svg)
  */
 const CircleV: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm130.5-77.3c-5.9-11.9-1.1-26.3 10.7-32.2s26.3-1.1 32.2 10.7c27.5 55 55 110 82.5 165.1c27.5-55 55-110 82.5-165.1c5.9-11.9 20.3-16.7 32.2-10.7c8.4 4.2 13.3 12.7 13.3 21.5c0 3.6-.8 7.3-2.5 10.7c-34.7 69.3-69.3 138.7-104 208c-4.1 8.1-12.4 13.3-21.5 13.3s-17.4-5.1-21.5-13.3c-34.7-69.3-69.3-138.7-104-208z" />
-            <path d="M141.3 146.5c11.9-5.9 26.3-1.1 32.2 10.7L256 322.3l82.5-165.1c5.9-11.9 20.3-16.7 32.2-10.7s16.7 20.3 10.7 32.2l-104 208c-4.1 8.1-12.4 13.3-21.5 13.3s-17.4-5.1-21.5-13.3l-104-208c-5.9-11.9-1.1-26.3 10.7-32.2z" />
+        <path d="M141.3 146.5c11.9-5.9 26.3-1.1 32.2 10.7L256 322.3l82.5-165.1c5.9-11.9 20.3-16.7 32.2-10.7s16.7 20.3 10.7 32.2l-104 208c-4.1 8.1-12.4 13.3-21.5 13.3s-17.4-5.1-21.5-13.3l-104-208c-5.9-11.9-1.1-26.3 10.7-32.2z" />
     </Icon>
 );
 

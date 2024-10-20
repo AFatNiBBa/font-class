@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-turn-to-dots` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-turn-to-dots?s=regular arrows-turn-to-dots}
- * @preview ![arrows-turn-to-dots](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU1IDMxYzkuNC05LjQgMjQuNi05LjQgMzMuOSAwczkuNCAyNC42IDAgMzMuOWwtMzkgMzlMNDI0IDEwNGM0OC42IDAgODggMzkuNCA4OCA4OGwwIDQwYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtNDBjMC0yMi4xLTE3LjktNDAtNDAtNDBsLTE3NC4xIDAgMzkgMzljOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlzLTI0LjYgOS40LTMzLjkgMGwtODAtODBjLTkuNC05LjQtOS40LTI0LjYgMC0zMy45bDgwLTgwek0yNTcgMjg3bDgwIDgwYzkuNCA5LjQgOS40IDI0LjYgMCAzMy45bC04MCA4MGMtOS40IDkuNC0yNC42IDkuNC0zMy45IDBzLTkuNC0yNC42IDAtMzMuOWwzOS0zOUw4OCA0MDhjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgNDBjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC00MGMwLTQ4LjYgMzkuNC04OCA4OC04OGwxNzQuMSAwLTM5LTM5Yy05LjQtOS40LTkuNC0yNC42IDAtMzMuOXMyNC42LTkuNCAzMy45IDB6bTEyNyA5N2E2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6TTY0IDE5MkE2NCA2NCAwIDEgMSA2NCA2NGE2NCA2NCAwIDEgMSAwIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-turn-to-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrows-turn-to-dots.svg)
  */
 const ArrowsTurnToDots: typeof Icon = x => (
     <Icon {...x}>

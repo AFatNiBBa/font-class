@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mailbox` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mailbox?s=light mailbox}
- * @preview ![mailbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjA4bDAgMTc2YzAgMTcuNyAxNC4zIDMyIDMyIDMybDE2MCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTc2YzAtNjEuOS01MC4xLTExMi0xMTItMTEyUzMyIDE0Ni4xIDMyIDIwOHptMjU2IDBsMCAxNzZjMCAxMS43LTMuMSAyMi42LTguNiAzMkw1MTIgNDE2YzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTc2YzAtNjEuOS01MC4xLTExMi0xMTItMTEyTDIzNC41IDk2YzMyLjYgMjYuNCA1My41IDY2LjggNTMuNSAxMTJ6TTY0IDQ0OGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAyMDhDMCAxMjguNSA2NC41IDY0IDE0NCA2NGwyODggMGM3OS41IDAgMTQ0IDY0LjUgMTQ0IDE0NGwwIDE3NmMwIDM1LjMtMjguNyA2NC02NCA2NGwtMjg4IDBMNjQgNDQ4em00OC0yNTZsNjQgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtNjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnptMjI0IDBsOTYgMCA1NiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgODBjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTQ4IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtNzItODAgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnptMTEyIDk2bDMyIDAgMC02NC0zMiAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mailbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mailbox.svg)
  */
 const Mailbox: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

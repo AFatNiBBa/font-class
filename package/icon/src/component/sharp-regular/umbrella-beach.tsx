@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `umbrella-beach` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/umbrella-beach?s=sharp-regular umbrella-beach}
- * @preview ![umbrella-beach](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTcyLjEgMjY4LjhjLS41IDE2LjItMi42IDMyLjUtNi4zIDQ4LjhsLTQ1LjUtMTYuNi03Ny42LTI4LjNzMCAwIDAgMEwyMTQuOSAxODkuOXMwIDAgMCAwTDEzNCAxNjAuNCA4OC40IDE0My45Qzk2IDEyOSAxMDQuOSAxMTUuMiAxMTUgMTAyLjRjNjYuNS04NC42IDE4Mi4yLTEyMSAyODguOC04Mi4yczE3MS44IDE0MSAxNjguNCAyNDguNnpNNDczIDEyNC4yYy40IDM1LTQuNSA2OS44LTE0LjUgMTAzLjNMNTI0IDI1MS4zYy0yLjItNDctMjAuMy05MS45LTUxLTEyNy4yek0zOTYuMyA2OC45Yy0zLTEuMi01LjktMi40LTktMy41Yy0xLS40LTEuOS0uNy0yLjktMWMtMTguMi01LjktMzguMy0uOS01MS41IDEzLjFjLTIzLjMgMjQuNi00Mi4yIDUzLjEtNTUuOSA4NEw0MTMuMyAyMTFjOS40LTMyLjUgMTMuMi02Ni40IDExLjItMTAwLjJjLTEuMS0xOC4yLTEyLTM0LjItMjguMi00MS45ek0yODguOCA1NC42Yy00OCA2LjQtOTIuNyAyOS41LTEyNS44IDY1LjRsNjguOCAyNWMxNC4yLTMyLjkgMzMuNC02My40IDU3LTkwLjR6TTU1MiA0NjRsMjQgMCAwIDQ4LTI0IDBMMjQgNTEyIDAgNTEybDAtNDggMjQgMCAxOTIuNyAwIDc2LjktMjExLjRMMzM4LjcgMjY5bC03MSAxOTVMNTUyIDQ2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![umbrella-beach](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/umbrella-beach.svg)
  */
 const UmbrellaBeach: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

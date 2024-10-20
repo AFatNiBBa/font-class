@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dryer` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dryer?s=regular dryer}
- * @preview ![dryer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDQ4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDM4NGMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDY0Yy04LjggMC0xNi03LjItMTYtMTZMNDggNjRjMC04LjggNy4yLTE2IDE2LTE2bDMyMCAwek02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTM4NGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAwem02NCAxMDRhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHptNTYgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em00MCAyNTZjLTQ0LjcgMC04Mi4zLTMwLjYtOTMtNzJsNTMgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNTMgMGMxMC43LTQxLjQgNDguMi03MiA5My03MmM1MyAwIDk2IDQzIDk2IDk2cy00MyA5Ni05NiA5NnptMCA0OGExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dryer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dryer.svg)
  */
 const Dryer: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

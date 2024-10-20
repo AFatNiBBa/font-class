@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-plus?s=solid phone-plus}
- * @preview ![phone-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI0IDIwMGwwLTY0LTY0IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsNjQgMCAwLTY0YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjRsMCA2NCA2NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC02NCAwIDAgNjRjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjR6TTE0OS41IDEuNGMxOS40LTUuMyAzOS43IDQuNiA0Ny40IDIzLjJsNDAgOTZjNi44IDE2LjMgMi4xIDM1LjItMTEuNiA0Ni4zTDE3NiAyMDcuM2MzMy4zIDcwLjQgOTAuMyAxMjcuNCAxNjAuNyAxNjAuN0wzNzcgMzE4LjdjMTEuMi0xMy43IDMwLTE4LjQgNDYuMy0xMS42bDk2IDQwYzE4LjYgNy43IDI4LjUgMjggMjMuMiA0Ny40bC0yNCA4OEM1MTMuOCA0OTkuOSA0OTggNTEyIDQ4MCA1MTJDMjMyLjYgNTEyIDMyIDMxMS40IDMyIDY0YzAtMTggMTIuMS0zMy44IDI5LjUtMzguNmw4OC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![phone-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-plus.svg)
  */
 const PhonePlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

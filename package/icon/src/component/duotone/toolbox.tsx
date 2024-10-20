@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `toolbox` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toolbox?s=duotone toolbox}
- * @preview ![toolbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMyMGwxMjggMCAwIDMyYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0zMiAxMjggMCAwIDMyYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0zMiAxMjggMCAwIDk2YzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC05NnpNMTI4IDg4YzAtMzAuOSAyNS4xLTU2IDU2LTU2bDE0NCAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgNDAtNDggMCAwLTQwYzAtNC40LTMuNi04LTgtOEwxODQgODBjLTQuNCAwLTggMy42LTggOGwwIDQwLTQ4IDAgMC00MHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTAgMzIwbDAtODUuNWMwLTE3IDYuNy0zMy4zIDE4LjctNDUuM2w0Mi41LTQyLjVjMTItMTIgMjguMy0xOC43IDQ1LjMtMTguN2wyOTkgMGMxNyAwIDMzLjMgNi43IDQ1LjMgMTguN2w0Mi41IDQyLjVjMTIgMTIgMTguNyAyOC4zIDE4LjcgNDUuM2wwIDg1LjUtMTI4IDAgMC0zMmMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDMyLTEyOCAwIDAtMzJjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJsMCAzMkwwIDMyMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![toolbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/toolbox.svg)
  */
 const Toolbox: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 320l128 0 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 128 0 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 128 0 0 96c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64l0-96zM128 88c0-30.9 25.1-56 56-56l144 0c30.9 0 56 25.1 56 56l0 40-48 0 0-40c0-4.4-3.6-8-8-8L184 80c-4.4 0-8 3.6-8 8l0 40-48 0 0-40z" />
-            <path d="M0 320l0-85.5c0-17 6.7-33.3 18.7-45.3l42.5-42.5c12-12 28.3-18.7 45.3-18.7l299 0c17 0 33.3 6.7 45.3 18.7l42.5 42.5c12 12 18.7 28.3 18.7 45.3l0 85.5-128 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32-128 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L0 320z" />
+        <path d="M0 320l0-85.5c0-17 6.7-33.3 18.7-45.3l42.5-42.5c12-12 28.3-18.7 45.3-18.7l299 0c17 0 33.3 6.7 45.3 18.7l42.5 42.5c12 12 18.7 28.3 18.7 45.3l0 85.5-128 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32-128 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L0 320z" />
     </Icon>
 );
 

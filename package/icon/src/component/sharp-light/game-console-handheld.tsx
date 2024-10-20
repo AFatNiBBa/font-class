@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `game-console-handheld` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/game-console-handheld?s=sharp-light game-console-handheld}
- * @preview ![game-console-handheld](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMCA0NDggMzIwIDAgMC00NDhMMzIgMzJ6TTAgMEwzMiAwIDM1MiAwbDMyIDAgMCAzMiAwIDQ0OCAwIDMyLTMyIDBMMzIgNTEyIDAgNTEybDAtMzJMMCAzMiAwIDB6TTk2IDk2bDAgMTI4IDE5MiAwIDAtMTI4TDk2IDk2ek02NCA2NGwzMiAwIDE5MiAwIDMyIDAgMCAzMiAwIDEyOCAwIDMyLTMyIDBMOTYgMjU2bC0zMiAwIDAtMzJMNjQgOTZsMC0zMnpNMjA4IDM2MGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwem04OC03MmEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6TTk2IDI4OGwzMiAwIDAgMzIgMzIgMCAwIDMyLTMyIDAgMCAzMi0zMiAwIDAtMzItMzIgMCAwLTMyIDMyIDAgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![game-console-handheld](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/game-console-handheld.svg)
  */
 const GameConsoleHandheld: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

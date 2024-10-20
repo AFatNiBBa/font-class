@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `envelopes-bulk` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelopes-bulk?s=solid envelopes-bulk}
- * @preview ![envelopes-bulk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBDMTEwLjMgMCA5NiAxNC4zIDk2IDMybDAgMTkyIDk2IDAgMC0zMmMwLTM1LjMgMjguNy02NCA2NC02NGwyMjQgMCAwLTk2YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDEyOCAwek0yNTYgMTYwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDMyIDk2IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAxMjggMTkyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xOTJjMC0xNy43LTE0LjMtMzItMzItMzJsLTMyMCAwem0yNDAgNjRsMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAzMmMwIDguOC03LjIgMTYtMTYgMTZsLTMyIDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTMyYzAtOC44IDcuMi0xNiAxNi0xNnpNNjQgMjU2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDEzTDE4Ny4xIDQxNS45YzEuNCAxIDMuMSAxLjYgNC45IDEuNnMzLjUtLjYgNC45LTEuNkwzNTIgMzAxbDAtMTNjMC0xNy43LTE0LjMtMzItMzItMzJMNjQgMjU2em0yODggODQuOEwyMTYgNDQxLjZjLTYuOSA1LjEtMTUuMyA3LjktMjQgNy45cy0xNy0yLjgtMjQtNy45TDMyIDM0MC44IDMyIDQ4MGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwyNTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTEzOS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![envelopes-bulk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/envelopes-bulk.svg)
  */
 const EnvelopesBulk: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

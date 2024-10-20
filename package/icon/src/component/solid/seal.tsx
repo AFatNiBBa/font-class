@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `seal` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seal?s=solid seal}
- * @preview ![seal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg5LjkgMTguNGMtMTguNy0xOC43LTQ5LjEtMTguNy02Ny45IDBMMTc2LjUgNjQgMTEyIDY0Yy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDY0LjVMMTguNCAyMjIuMWMtMTguNyAxOC43LTE4LjcgNDkuMSAwIDY3LjlMNjQgMzM1LjUgNjQgNDAwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDY0LjUgMCA0NS42IDQ1LjZjMTguNyAxOC43IDQ5LjEgMTguNyA2Ny45IDBMMzM1LjUgNDQ4bDY0LjUgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTY0LjUgNDUuNi00NS42YzE4LjctMTguNyAxOC43LTQ5LjEgMC02Ny45TDQ0OCAxNzYuNWwwLTY0LjVjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTY0LjUgMEwyODkuOSAxOC40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![seal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/seal.svg)
  */
 const Seal: typeof Icon = x => (
     <Icon {...x}>

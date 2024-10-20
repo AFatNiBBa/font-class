@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-glasses` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-glasses?s=sharp-solid face-glasses}
- * @preview ![face-glasses](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI1NmMwIDE0MS40LTExNC42IDI1Ni0yNTYgMjU2UzAgMzk3LjQgMCAyNTZjMC0yMi4xIDIuOC00My41IDguMS02NEw0OCAxOTJsMCA5NiAwIDE2IDE2IDAgMTYwIDAgMTYgMCAwLTE2IDAtOTYgMzIgMCAwIDk2IDAgMTYgMTYgMCAxNjAgMCAxNiAwIDAtMTYgMC05NiAzOS45IDBjNS4zIDIwLjUgOC4xIDQxLjkgOC4xIDY0ek0yNTYgMEMzNjMuNCAwIDQ1NS40IDY2LjIgNDkzLjQgMTYwTDQ2NCAxNjBsMC0xNiAwLTE2LTE2IDAtMTYwIDAtMTYgMCAwIDE2IDAgMTYtMzIgMCAwLTE2IDAtMTYtMTYgMEw2NCAxMjhsLTE2IDAgMCAxNiAwIDE2LTI5LjQgMEM1Ni42IDY2LjIgMTQ4LjYgMCAyNTYgMHpNODAgMjcybDAtODAgMC0zMiAxMjggMCAwIDExMkw4MCAyNzJ6TTI1NiA0MTZjNzEuNiAwIDExMy43LTQ3LjcgMTI2LjMtNzIuOGwtMjguNi0xNC4zQzM0NC45IDM0Ni4zIDMxMi40IDM4NCAyNTYgMzg0cy04OC45LTM3LjctOTcuNy01NS4ybC0yOC42IDE0LjNDMTQyLjMgMzY4LjMgMTg0LjQgNDE2IDI1NiA0MTZ6bTQ4LTE0NGwwLTExMiAxMjggMCAwIDMyIDAgODAtMTI4IDB6TTE4NC40IDIyNGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem0xNjggMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-glasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-glasses.svg)
  */
 const FaceGlasses: typeof Icon = x => (
     <Icon {...x}>

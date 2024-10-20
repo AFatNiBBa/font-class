@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-bolt` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-bolt?s=sharp-light truck-bolt}
- * @preview ![truck-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMybDAgMzUyLTEzMy41IDBjLTEzLjItMzcuMy00OC43LTY0LTkwLjUtNjRzLTc3LjQgMjYuNy05MC41IDY0TDMyIDM4NCAzMiAzMmwzNTIgMHpNMzIgNDE2bDMyIDBjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwxMjggMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDMyIDAgMTYgMCAxNiAwIDAtMzItMTYgMC0xNiAwIDAtMTYwIDAtNS45LTMuOS00LjUtOTYtMTEyTDUwMy40IDk2IDQ5NiA5NmwtODAgMCAwLTY0IDAtMzJMMzg0IDAgMzIgMCAwIDAgMCAzMiAwIDM4NGwwIDMyIDMyIDB6TTQxNiAxMjhsNzIuNiAwIDgyLjMgOTZMNDE2IDIyNGwwLTk2em0wIDIxNi40bDAtODguNCAxNjAgMCAwIDEyOC01LjUgMGMtMTMuMi0zNy4zLTQ4LjctNjQtOTAuNS02NGMtMjQuNiAwLTQ3IDkuMi02NCAyNC40ek0xNjAgMzUyYTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4em0yNTYgNjRhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAwek0yNTEuMyAxMDcuM0wyNjIuNiA5NiAyNDAgNzMuNCAyMjguNyA4NC43bC04MCA4MEwxMjEuNCAxOTJsMzguNiAwIDY4IDAtNTIuNyA1Mi43TDE2NCAyNTZsMjIuNiAyMi42TDE5OCAyNjcuM2w4MC04MEwzMDUuMyAxNjBsLTM4LjYgMC02OCAwIDUyLjctNTIuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-bolt.svg)
  */
 const TruckBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

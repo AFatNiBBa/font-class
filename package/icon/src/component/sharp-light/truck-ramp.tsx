@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-ramp` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-ramp?s=sharp-light truck-ramp}
- * @preview ![truck-ramp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDBMMzUyIDBsMCAxNiAwIDM2OCAwIDIuOUwyMCA0NzIuNWwtMTUuNSA0IDggMzEgMTUuNS00TDQxNi4xIDQwMy40QzQxNy44IDQ2My43IDQ2Ny4zIDUxMiA1MjggNTEyYzYxLjkgMCAxMTItNTAuMSAxMTItMTEycy01MC4xLTExMi0xMTItMTEyYy01MS4yIDAtOTQuNCAzNC40LTEwNy43IDgxLjNsLS4zIC4xLTM2IDkuM0wzODQgMzJsMjQwIDAgMTYgMCAwLTMyTDYyNCAwIDM2OCAwek01MjggMzIwYTgwIDgwIDAgMSAxIDAgMTYwIDgwIDgwIDAgMSAxIDAtMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-ramp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-ramp.svg)
  */
 const TruckRamp: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

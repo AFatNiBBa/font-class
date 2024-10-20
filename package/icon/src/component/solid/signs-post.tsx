@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signs-post` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signs-post?s=solid signs-post}
- * @preview ![signs-post](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyTDY0IDMyQzQ2LjMgMzIgMzIgNDYuMyAzMiA2NGwwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDM3Ny40IDBjNC4yIDAgOC4zLTEuNyAxMS4zLTQuN2w0OC00OGM2LjItNi4yIDYuMi0xNi40IDAtMjIuNmwtNDgtNDhjLTMtMy03LjEtNC43LTExLjMtNC43TDI4OCAzMmMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMnpNNDgwIDI1NmMwLTE3LjctMTQuMy0zMi0zMi0zMmwtMTYwIDAgMC0zMi02NCAwIDAgMzJMNzAuNiAyMjRjLTQuMiAwLTguMyAxLjctMTEuMyA0LjdsLTQ4IDQ4Yy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNmw0OCA0OGMzIDMgNy4xIDQuNyAxMS4zIDQuN0w0NDggMzUyYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNjR6TTI4OCA0ODBsMC05Ni02NCAwIDAgOTZjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![signs-post](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/signs-post.svg)
  */
 const SignsPost: typeof Icon = x => (
     <Icon {...x}>

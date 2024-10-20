@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `badger-honey` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badger-honey?s=sharp-solid badger-honey}
- * @preview ![badger-honey](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQwMGwyMC42LTQ4IDExOC4xIDBMMzIwIDQ4MGw5NiAwTDM5MyAzNDIuMWMyNy45LTI5IDgwLjYtNzAuOCAxNDQuMS05MC44TDU2MCAyODhsMjkuNS00Ny4yYzYuMS0uNSAxMi4zLS44IDE4LjUtLjhsMzItMzIgMC02NEw0OTYgNjRsLTY0IDBMMzY4IDk2IDE5MiA5NmwtMzIgMC0zMiAwQzU3LjMgOTYgMCAxNTMuMyAwIDIyNGwwIDMyIDAgMzIgNDkuMSAwYzkgMTUuNSAyMS4xIDI5IDM1LjYgMzkuNUw2NCA0MDBsMjQgODAgOTYgMC0yNC04MHpNMzY4IDE0NGwxMS4zIDAgMTAuMS01LjFMNDQzLjMgMTEybDQwLjIgMEw1NzAgMTYwbC01MS4zIDBjLjkgMi41IDEuNCA1LjIgMS40IDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRjMC0yLjggLjUtNS41IDEuNC04TDQzMiAxNjAgMjcyIDI1NmwtODAgMGMtNTIuMyAwLTk2LjItMzUuOC0xMDguNS04NC4zYzE0LjctMTcgMzYuNC0yNy43IDYwLjUtMjcuN2wyMjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![badger-honey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/badger-honey.svg)
  */
 const BadgerHoney: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `conveyor-belt-arm` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt-arm?s=sharp-duotone-solid conveyor-belt-arm}
- * @preview ![conveyor-belt-arm](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDQxNmMwIDUzIDQzIDk2IDk2IDk2bDQ0OCAwYzUzIDAgOTYtNDMgOTYtOTZzLTQzLTk2LTk2LTk2bC0zMiAwLTk2IDAtNjQgMC05NiAwLTY0IDAtOTYgMGMtNTMgMC05NiA0My05NiA5NnptMTYwIDBhMzIgMzIgMCAxIDEgLTY0IDAgMzIgMzIgMCAxIDEgNjQgMHptMTkyIDBhMzIgMzIgMCAxIDEgLTY0IDAgMzIgMzIgMCAxIDEgNjQgMHptMTkyIDBhMzIgMzIgMCAxIDEgLTY0IDAgMzIgMzIgMCAxIDEgNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTEyOCAwbDMyIDBMMzIwIDBsMzIgMCAwIDY0LTMyIDAtNTIuOSAwLTUuNyAzNGMuOCAxIDEuNSAyIDIuMyAzbDIwNC41IDI3LjMgMTEuOCAxLjYgMCA2NC42IDAgMTMuNiAwIDE2czAgMCAwIDBsLTMyIDAgMC0xNiAwLTE3LjlMMjU1LjIgMTY0LjRjLTguNCA3LjItMTkuMyAxMS42LTMxLjIgMTEuNmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhjMC0xNy4xIDguOS0zMiAyMi4zLTQwLjZMMjAyLjIgNjQgMTYwIDY0bC0zMiAwIDAtNjR6bTk2IDE0NGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6TTk2IDI1Nmw5NiAwIDAgNjQtOTYgMCAwLTY0em0yNTYgMGwwIDY0LTk2IDAgMC02NCA5NiAwem0xNjAgMGwwIDY0LTk2IDAgMC02NCA5NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![conveyor-belt-arm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/conveyor-belt-arm.svg)
  */
 const ConveyorBeltArm: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 416c0 53 43 96 96 96l448 0c53 0 96-43 96-96s-43-96-96-96l-32 0-96 0-64 0-96 0-64 0-96 0c-53 0-96 43-96 96zm160 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm192 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm192 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-            <path d="M128 0l32 0L320 0l32 0 0 64-32 0-52.9 0-5.7 34c.8 1 1.5 2 2.3 3l204.5 27.3 11.8 1.6 0 64.6 0 13.6 0 16s0 0 0 0l-32 0 0-16 0-17.9L255.2 164.4c-8.4 7.2-19.3 11.6-31.2 11.6c-26.5 0-48-21.5-48-48c0-17.1 8.9-32 22.3-40.6L202.2 64 160 64l-32 0 0-64zm96 144a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM96 256l96 0 0 64-96 0 0-64zm256 0l0 64-96 0 0-64 96 0zm160 0l0 64-96 0 0-64 96 0z" />
+        <path d="M128 0l32 0L320 0l32 0 0 64-32 0-52.9 0-5.7 34c.8 1 1.5 2 2.3 3l204.5 27.3 11.8 1.6 0 64.6 0 13.6 0 16s0 0 0 0l-32 0 0-16 0-17.9L255.2 164.4c-8.4 7.2-19.3 11.6-31.2 11.6c-26.5 0-48-21.5-48-48c0-17.1 8.9-32 22.3-40.6L202.2 64 160 64l-32 0 0-64zm96 144a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM96 256l96 0 0 64-96 0 0-64zm256 0l0 64-96 0 0-64 96 0zm160 0l0 64-96 0 0-64 96 0z" />
     </Icon>
 );
 

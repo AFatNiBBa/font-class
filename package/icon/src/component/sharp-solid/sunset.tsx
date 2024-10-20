@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sunset` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunset?s=sharp-solid sunset}
- * @preview ![sunset](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDIyNGwwLTEuOC03Ny41LTcwLjUtMjMuNy0yMS41IDQzLjEtNDcuNCAyMy43IDIxLjVMMjU2IDEzNS43IDI1NiAzMmwwLTMyIDY0IDAgMCAzMiAwIDEwMy43IDM0LjUtMzEuMyAyMy43LTIxLjUgNDMgNDcuNC0yMy43IDIxLjVMMzIwIDIyMi4ybDAgMS44LTIgMC04LjQgNy43TDI4OCAyNTEuMmwtMjEuNS0xOS42TDI1OCAyMjRsLTIgMHptLTc0IDBsMTA2IDczLjFMMzk0IDIyNGwyMy4zIDEyNi43TDU0NCAzNzRsLTQwIDU4LTk3LjMgMGMtMTktNDYuOS02NS04MC0xMTguNy04MHMtOTkuNyAzMy4xLTExOC43IDgwTDcyIDQzMiAzMiAzNzRsMTI2LjctMjMuM0wxODIgMjI0ek0wIDQ2NGwyNCAwIDUyOCAwIDI0IDAgMCA0OC0yNCAwTDI0IDUxMiAwIDUxMmwwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sunset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sunset.svg)
  */
 const Sunset: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

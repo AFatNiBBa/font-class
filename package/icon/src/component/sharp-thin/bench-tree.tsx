@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bench-tree` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bench-tree?s=sharp-thin bench-tree}
- * @preview ![bench-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTkxIDEwOC42Yy42LTQuMSAxLTguMyAxLTEyLjZjMC00NC4yLTM1LjgtODAtODAtODBzLTgwIDM1LjgtODAgODBjMCA0LjMgLjMgOC41IDEgMTIuNmwxLjUgOS43LTggNS44QzQxMC40IDEzNS43IDQwMCAxNTQuNyA0MDAgMTc2bDAgNjQgMjI0IDAgMC02NGMwLTIxLjMtMTAuNC00MC4zLTI2LjYtNTEuOWwtOC01LjggMS41LTkuN3pNMzg0IDE3NmMwLTI2LjcgMTMuMS01MC4zIDMzLjItNjQuOWMtLjgtNC45LTEuMi0xMC0xLjItMTUuMWMwLTUzIDQzLTk2IDk2LTk2czk2IDQzIDk2IDk2YzAgNS4xLS40IDEwLjItMS4yIDE1LjFDNjI2LjkgMTI1LjcgNjQwIDE0OS4zIDY0MCAxNzZsMCA2NCAwIDE2LTE2IDAtMTA0IDAgMCAyNDggMCA4LTE2IDAgMC04IDAtMjQ4LTEwNCAwLTE2IDAgMC0xNiAwLTY0ek00OCAyMDhsMCA5NiAyNCAwIDE2IDAgMjA4IDAgMTYgMCAyNCAwIDAtOTZMNDggMjA4ek03MiAzMjBsLTI0IDAtMTYgMCAwLTE2IDAtOTYgMC0xNiAxNiAwIDI4OCAwIDE2IDAgMCAxNiAwIDk2IDAgMTYtMTYgMC0yNCAwIDAgNjQgMjQgMCA0MCAwIDggMCAwIDE2LTggMC0zMiAwIDAgMTA0IDAgOC0xNiAwIDAtOCAwLTEwNC0yNCAwTDgwIDQwMGwtMjQgMCAwIDEwNCAwIDgtMTYgMCAwLTggMC0xMDRMOCA0MDBsLTggMCAwLTE2IDggMCA0MCAwIDI0IDAgMC02NHptMTYgMGwwIDY0IDIwOCAwIDAtNjRMODggMzIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bench-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bench-tree.svg)
  */
 const BenchTree: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-arrow-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-arrow-right?s=sharp-thin square-arrow-right}
- * @preview ![square-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDQ4TDE2IDQ4bDAgNDE2IDQxNiAwIDAtNDE2em0xNi0xNmwwIDE2IDAgNDE2IDAgMTYtMTYgMEwxNiA0ODAgMCA0ODBsMC0xNkwwIDQ4IDAgMzJsMTYgMCA0MTYgMCAxNiAwek0zNDkuNyAyNjEuN2wtMTA0IDEwNC01LjcgNS43TDIyOC43IDM2MGw1LjctNS43TDMyNC43IDI2NCAxMDQgMjY0bC04IDAgMC0xNiA4IDAgMjIwLjcgMC05MC4zLTkwLjMtNS43LTUuN0wyNDAgMTQwLjdsNS43IDUuNyAxMDQgMTA0IDUuNyA1LjctNS43IDUuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-arrow-right.svg)
  */
 const SquareArrowRight: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

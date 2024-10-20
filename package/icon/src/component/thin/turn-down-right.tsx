@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-down-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-down-right?s=thin turn-down-right}
- * @preview ![turn-down-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDI0MGwwLTg5LjFjMC0zLjggMy4xLTYuOSA2LjktNi45YzEuOCAwIDMuNSAuNyA0LjcgMS45TDQ5NS4yIDI4Ni4xYy41IC41IC44IDEuMiAuOCAxLjlzLS4zIDEuNC0uOCAxLjlMMzQ3LjYgNDMwLjFjLTEuMyAxLjItMyAxLjktNC43IDEuOWMtMy44IDAtNi45LTMuMS02LjktNi45bDAtODkuMWMwLTguOC03LjItMTYtMTYtMTZsLTIwOCAwYy01MyAwLTk2LTQzLTk2LTk2TDE2IDcyYzAtMTMuMyAxMC43LTI0IDI0LTI0bDE2IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAxNTJjMCAxNy43IDE0LjMgMzIgMzIgMzJsMjA4IDBjOC44IDAgMTYtNy4yIDE2LTE2em0xNzAuMiAzNC41TDM1OC42IDEzNC4zYy00LjItNC05LjktNi4zLTE1LjgtNi4zYy0xMi42IDAtMjIuOSAxMC4yLTIyLjkgMjIuOWwwIDczLjEgMCAxNi0xNiAwLTE5MiAwYy04LjggMC0xNi03LjItMTYtMTZMOTYgNzJjMC0yMi4xLTE3LjktNDAtNDAtNDBMNDAgMzJDMTcuOSAzMiAwIDQ5LjkgMCA3MkwwIDIyNGMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMmwxOTIgMCAxNiAwIDAgMTYgMCA3My4xYzAgMTIuNiAxMC4yIDIyLjkgMjIuOSAyMi45YzUuOSAwIDExLjUtMi4zIDE1LjgtNi4zTDUwNi4yIDMwMS41YzMuNy0zLjUgNS44LTguNCA1LjgtMTMuNXMtMi4xLTEwLTUuOC0xMy41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![turn-down-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/turn-down-right.svg)
  */
 const TurnDownRight: typeof Icon = x => (
     <Icon {...x}>

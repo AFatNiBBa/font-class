@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-crown` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-crown?s=thin user-crown}
- * @preview ![user-crown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2LjkgNDUuM2w0MS4zLTI3LjZjMS43LTEuMSAzLjctMS44IDUuOC0xLjhzNC4xIC42IDUuOCAxLjhsNDEuMyAyNy42YzUgMy40IDExLjYgMy42IDE2LjggLjZMMzM2IDE4LjRsMCA5My42LTIyNCAwIDAtOTMuNiA0OC4xIDI3LjVjNS4zIDMgMTEuOCAyLjggMTYuOC0uNnpNMzM2IDEyOGwwIDE2YzAgNjEuOS01MC4xIDExMi0xMTIgMTEycy0xMTItNTAuMS0xMTItMTEybDAtMTYgMjI0IDB6TTI4MCAzMkwyMzguNyA0LjRDMjM0LjMgMS41IDIyOS4yIDAgMjI0IDBzLTEwLjMgMS41LTE0LjcgNC40TDE2OCAzMiAxMTQuOSAxLjdDMTEzIC42IDExMC44IDAgMTA4LjYgMEMxMDEuNyAwIDk2IDUuNyA5NiAxMi42TDk2IDE0NGMwIDcwLjcgNTcuMyAxMjggMTI4IDEyOHMxMjgtNTcuMyAxMjgtMTI4bDAtMTMxLjRjMC03LTUuNy0xMi42LTEyLjYtMTIuNmMtMi4yIDAtNC40IC42LTYuMyAxLjdMMjgwIDMyek0xNjggMzIwbDExMiAwYzgzLjkgMCAxNTIgNjguMSAxNTIgMTUybDAgOGMwIDguOC03LjIgMTYtMTYgMTZMMzIgNDk2Yy04LjggMC0xNi03LjItMTYtMTZsMC04YzAtODMuOSA2OC4xLTE1MiAxNTItMTUyem0wLTE2Qzc1LjIgMzA0IDAgMzc5LjIgMCA0NzJsMCA4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDM4NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtOGMwLTkyLjgtNzUuMi0xNjgtMTY4LTE2OGwtMTEyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-crown.svg)
  */
 const UserCrown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

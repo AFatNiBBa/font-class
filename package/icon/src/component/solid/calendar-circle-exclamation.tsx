@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-circle-exclamation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-circle-exclamation?s=solid calendar-circle-exclamation}
- * @preview ![calendar-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBDMTEwLjMgMCA5NiAxNC4zIDk2IDMybDAgMzJMNDggNjRDMjEuNSA2NCAwIDg1LjUgMCAxMTJsMCA0OCA0NDggMCAwLTQ4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC00OCAwIDAtMzJjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJsMCAzMkwxNjAgNjRsMC0zMmMwLTE3LjctMTQuMy0zMi0zMi0zMnpNMjU2IDM2OGMwLTkxLjggNzAuMy0xNjcuMiAxNjAtMTc1LjNsMC0uN0wwIDE5MiAwIDQ2NGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwyODIuOCAwQzI4NS42IDQ4MC4xIDI1NiA0MjcuNSAyNTYgMzY4ek00MzIgNTEyYTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHptMC05NmEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6bTAtMTQ0YzguOCAwIDE2IDcuMiAxNiAxNmwwIDgwYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtODBjMC04LjggNy4yLTE2IDE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![calendar-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/calendar-circle-exclamation.svg)
  */
 const CalendarCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

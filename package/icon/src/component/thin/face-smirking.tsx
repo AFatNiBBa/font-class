@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-smirking` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smirking?s=thin face-smirking}
- * @preview ![face-smirking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAwIDE2IDI1NmEyNDAgMjQwIDAgMSAwIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTM4My45IDg5LjNsLS4yIDEuMmMtNS4xIDMwLjktMzEuOCA1My41LTYzLjEgNTMuNUwyMDAgNDAwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDEyMC42IDBjMjMuNSAwIDQzLjUtMTcgNDcuMy00MC4xbC4yLTEuMmMuNy00LjQgNC44LTcuMyA5LjItNi42czcuMyA0LjggNi42IDkuMnpNMTA0IDE5Mmw3MiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMyYzAtNS44IDEuNi0xMS4zIDQuMy0xNkwxMDQgMjA4Yy00LjQgMC04LTMuNi04LThzMy42LTggOC04em03MiAxNmExNiAxNiAwIDEgMCAwIDMyIDE2IDE2IDAgMSAwIDAtMzJ6bTExMi04YzAtNC40IDMuNi04IDgtOGw3MiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMyYzAtNS44IDEuNi0xMS4zIDQuMy0xNkwyOTYgMjA4Yy00LjQgMC04LTMuNi04LTh6bTY0IDI0YTE2IDE2IDAgMSAwIDMyIDAgMTYgMTYgMCAxIDAgLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-smirking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-smirking.svg)
  */
 const FaceSmirking: typeof Icon = x => (
     <Icon {...x}>

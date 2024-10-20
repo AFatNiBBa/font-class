@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bandage` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bandage?s=light bandage}
- * @preview ![bandage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDEyOGwwIDI1NiA4MCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMTYwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC04MCAwem0tMzIgMGwtMjU2IDAgMCAyNTYgMjU2IDAgMC0yNTZ6TTE2MCAzODRsMC0yNTYtODAgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAxNjBjMCAyNi41IDIxLjUgNDggNDggNDhsODAgMHptMC0yODhsMzIgMCAyNTYgMCAzMiAwIDgwIDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCAxNjBjMCA0NC4yLTM1LjggODAtODAgODBsLTgwIDAtMzIgMC0yNTYgMC0zMiAwLTgwIDBjLTQ0LjIgMC04MC0zNS44LTgwLTgwTDAgMTc2YzAtNDQuMiAzNS44LTgwIDgwLTgwbDgwIDB6bTExMiA4OGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6bTcyIDI0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bS03MiA3MmEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6bTcyIDI0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bandage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bandage.svg)
  */
 const Bandage: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

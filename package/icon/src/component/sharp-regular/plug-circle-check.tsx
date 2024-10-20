@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plug-circle-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-check?s=sharp-regular plug-circle-check}
- * @preview ![plug-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDI0bDAtMjRMNzIgMGwwIDI0IDAgODggNDggMCAwLTg4em0xOTIgMGwwLTI0TDI2NCAwbDAgMjQgMCA4OCA0OCAwIDAtODh6TTI0IDE0NEwwIDE0NGwwIDQ4IDI0IDAgOCAwIDAgNjRjMCA4MC4yIDU5IDE0Ni42IDEzNiAxNTguMmwwIDk3LjggNDggMCAwLTk3LjhjMTUuMi0yLjMgMjkuNy02LjcgNDMuMS0xMi45Yy0yLjEtMTAuOC0zLjEtMjEuOS0zLjEtMzMuM2MwLTcuMSAuNC0xNC4xIDEuMi0yMC45QzIzOC45IDM2MC4yIDIxNi4zIDM2OCAxOTIgMzY4Yy02MS45IDAtMTEyLTUwLjEtMTEyLTExMmwwLTY0IDIyNCAwIDAgNTUuMmMxMy44LTE0LjYgMzAtMjYuOCA0OC0zNmwwLTE5LjIgOCAwIDI0IDAgMC00OC0yNCAwLTggMC00OCAwTDgwIDE0NGwtNDggMC04IDB6TTU3NiAzNjhhMTQ0IDE0NCAwIDEgMCAtMjg4IDAgMTQ0IDE0NCAwIDEgMCAyODggMHptLTY1LjQtMzJsLTExLjMgMTEuMy03MiA3Mkw0MTYgNDMwLjZsLTExLjMtMTEuMy00MC00MEwzNTMuNCAzNjggMzc2IDM0NS40bDExLjMgMTEuM0w0MTYgMzg1LjRsNjAuNy02MC43TDQ4OCAzMTMuNCA1MTAuNiAzMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![plug-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/plug-circle-check.svg)
  */
 const PlugCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

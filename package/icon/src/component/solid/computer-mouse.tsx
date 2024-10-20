@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `computer-mouse` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-mouse?s=solid computer-mouse}
- * @preview ![computer-mouse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxOTJsMTc2IDBMMTc2IDAgMTYwIDBDNzEuNiAwIDAgNzEuNiAwIDE2MGwwIDMyem0wIDMyTDAgMzUyYzAgODguNCA3MS42IDE2MCAxNjAgMTYwbDY0IDBjODguNCAwIDE2MC03MS42IDE2MC0xNjBsMC0xMjgtMTkyIDBMMCAyMjR6bTM4NC0zMmwwLTMyQzM4NCA3MS42IDMxMi40IDAgMjI0IDBMMjA4IDBsMCAxOTIgMTc2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![computer-mouse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/computer-mouse.svg)
  */
 const ComputerMouse: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

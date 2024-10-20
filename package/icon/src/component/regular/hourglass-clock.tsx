@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hourglass-clock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-clock?s=regular hourglass-clock}
- * @preview ![hourglass-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEMxMC43IDAgMCAxMC43IDAgMjRTMTAuNyA0OCAyNCA0OGw4IDAgMCAxOWMwIDQwLjMgMTYgNzkgNDQuNSAxMDcuNUwxNTguMSAyNTYgNzYuNSAzMzcuNUM0OCAzNjYgMzIgNDA0LjcgMzIgNDQ1bDAgMTktOCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDMwNi44IDBjLTE4LjMtMTIuOS0zNC4xLTI5LjItNDYuMy00OEw4MCA0NjRsMC0xOWMwLTI3LjYgMTEtNTQgMzAuNS03My41TDE5MiAyODkuOWw2NC41IDY0LjVjMS41LTE5LjMgNi0zNy43IDEzLjItNTQuN0wyMjUuOSAyNTZsODEuNS04MS41QzMzNiAxNDYgMzUyIDEwNy4zIDM1MiA2N2wwLTE5IDggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEwyNCAwek0xOTIgMjIyLjFsLTgxLjUtODEuNUM5MSAxMjEgODAgOTQuNiA4MCA2N2wwLTE5IDIyNCAwIDAgMTljMCAyNy42LTExIDU0LTMwLjUgNzMuNUwxOTIgMjIyLjF6TTU3NiAzNjhhMTQ0IDE0NCAwIDEgMCAtMjg4IDAgMTQ0IDE0NCAwIDEgMCAyODggMHpNNDMyIDI4OGM4LjggMCAxNiA3LjIgMTYgMTZsMCA0OCAzMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC00OCAwYy04LjggMC0xNi03LjItMTYtMTZsMC02NGMwLTguOCA3LjItMTYgMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hourglass-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hourglass-clock.svg)
  */
 const HourglassClock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `waveform` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waveform?s=sharp-light waveform}
- * @preview ![waveform](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDM0LjMgNjRMNDYyIDY0bDEuOSAxMy44IDM0LjYgMjU0IDI5LjgtMTU4LjggMi40LTEzLjEgMjUuNCAwIDMuMyAxMS42TDU4OC4xIDI3MmwzNS45IDAgMTYgMCAwIDMyLTE2IDAtNDggMC0xMi4xIDAtMy4zLTExLjYtMTMuNC00Ni44TDUxMS43IDQzNC45IDUwOS4zIDQ0OCA0ODIgNDQ4bC0xLjktMTMuOEw0NDcgMTkxLjRsLTQ3LjIgMzA3TDM5Ny43IDUxMiAzNzAgNTEybC0xLjgtMTMuOUwzMjAgMTM3LjEgMjcxLjkgNDk4LjEgMjcwIDUxMmwtMjcuNyAwLTIuMS0xMy42TDE5MyAxOTEuNCAxNTkuOSA0MzQuMiAxNTggNDQ4bC0yNy4yIDAtMi40LTEzLjFMOTIuOCAyNDUuNiA3OS40IDI5Mi40IDc2LjEgMzA0IDY0IDMwNGwtNDggMEwwIDMwNGwwLTMyIDE2IDAgMzUuOSAwTDgwLjYgMTcxLjYgODMuOSAxNjBsMjUuMyAwIDIuNCAxMy4xIDI5LjggMTU4LjggMzQuNi0yNTRMMTc4IDY0bDI3LjcgMCAyLjEgMTMuNiA0Ny4xIDMwNS45TDMwNC4xIDEzLjkgMzA2IDBsMjggMCAxLjggMTMuOSA0OS4zIDM2OS41TDQzMi4yIDc3LjYgNDM0LjMgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/waveform.svg)
  */
 const Waveform: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

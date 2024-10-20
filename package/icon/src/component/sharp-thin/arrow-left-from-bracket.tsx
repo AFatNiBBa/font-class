@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-left-from-bracket` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-from-bracket?s=sharp-thin arrow-left-from-bracket}
- * @preview ![arrow-left-from-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNS43IDI1MC4zTDAgMjU2bDUuNyA1LjcgMTM2IDEzNiA1LjcgNS43TDE1OC42IDM5MmwtNS43LTUuN0wzMC42IDI2NGwzMDguNyAwIDggMCAwLTE2LTggMEwzMC42IDI0OCAxNTMgMTI1LjdsNS43LTUuNy0xMS4zLTExLjMtNS43IDUuNy0xMzYgMTM2ek0zMjggNDY0bC04IDAgMCAxNiA4IDAgMTc2IDAgOCAwIDAtOCAwLTQzMiAwLTgtOCAwTDMyOCAzMmwtOCAwIDAgMTYgOCAwIDE2OCAwIDAgNDE2LTE2OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-left-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-left-from-bracket.svg)
  */
 const ArrowLeftFromBracket: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-dots` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-dots?s=sharp-regular comment-dots}
- * @preview ![comment-dots](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTAxLjkgMzg3LjdsMTAuOC0yOC45TDkwLjkgMzM2LjlDNjMgMzA4LjkgNDggMjc1LjEgNDggMjQwYzAtNzkuNSA4My4zLTE2MCAyMDgtMTYwczIwOCA4MC41IDIwOCAxNjBzLTgzLjMgMTYwLTIwOCAxNjBjLTI2LjggMC01Mi4zLTMuOS03NS43LTExbC0xMy45LTQuMi0xMy45IDQuMkw5NC45IDQwNi4ybDctMTguNXpNMTYgNDgwbDU3LjgtMTcuMyA5Mi42LTI3LjhjMjcuOSA4LjUgNTguMSAxMy4xIDg5LjYgMTMuMWMxNDEuNCAwIDI1Ni05My4xIDI1Ni0yMDhTMzk3LjQgMzIgMjU2IDMyUzAgMTI1LjEgMCAyNDBjMCA0OS42IDIxLjMgOTUuMSA1Ni45IDEzMC44TDM3LjIgNDIzLjUgMTYgNDgwek0xNDQgMjcyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMTQ0LTMyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTgwIDMyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![comment-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-dots.svg)
  */
 const CommentDots: typeof Icon = x => (
     <Icon {...x}>

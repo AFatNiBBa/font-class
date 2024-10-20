@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `toilet-paper-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-check?s=sharp-duotone-solid toilet-paper-check}
- * @preview ![toilet-paper-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik04IDUxMmwzNTcuMyAwIDguMi0xOS43YzE0LjEtMzQuMSAyMy42LTcwLjcgMjkuOS0xMDguM0M0MTQuMyAzMjAuMSA0MTYgMjUzLjQgNDE2IDE5MmMwLTc5LjIgMjQtMTQ3LjIgNTguMi0xNzYuNUM0ODUuOCA1LjUgNDk4LjYgMCA1MTIgMEwxNjAgMEMxMDcgMCA2NCA4NiA2NCAxOTJjMCA4OS45LTMuOSAxOTAuNi0zNy42IDI3NS44TDggNTEyek0xNTAuMSAyMDhMMTg0IDE3NC4xbDE3IDE3IDIzIDIzIDU1LTU1IDE3LTE3TDMyOS45IDE3NmwtMTcgMTctNzIgNzItMTcgMTctMTctMTctNDAtNDAtMTctMTd6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik00MTYgMTkyYzAgNjEuNC0xLjcgMTI4LjEtMTIuNSAxOTJMNTEyIDM4NGM1MyAwIDk2LTg2IDk2LTE5MlM1NjUgMCA1MTIgMGMtMTMuNCAwLTI2LjIgNS41LTM3LjggMTUuNUM0NDAgNDQuOCA0MTYgMTEyLjggNDE2IDE5MmMwIDAgMCAwIDAgMHptMTI4IDBjMCAzNS4zLTE0LjMgNjQtMzIgNjRzLTMyLTI4LjctMzItNjRzMTQuMy02NCAzMi02NHMzMiAyOC43IDMyIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![toilet-paper-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/toilet-paper-check.svg)
  */
 const ToiletPaperCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M8 512l357.3 0 8.2-19.7c14.1-34.1 23.6-70.7 29.9-108.3C414.3 320.1 416 253.4 416 192c0-79.2 24-147.2 58.2-176.5C485.8 5.5 498.6 0 512 0L160 0C107 0 64 86 64 192c0 89.9-3.9 190.6-37.6 275.8L8 512zM150.1 208L184 174.1l17 17 23 23 55-55 17-17L329.9 176l-17 17-72 72-17 17-17-17-40-40-17-17z" />
-            <path d="M416 192c0 61.4-1.7 128.1-12.5 192L512 384c53 0 96-86 96-192S565 0 512 0c-13.4 0-26.2 5.5-37.8 15.5C440 44.8 416 112.8 416 192c0 0 0 0 0 0zm128 0c0 35.3-14.3 64-32 64s-32-28.7-32-64s14.3-64 32-64s32 28.7 32 64z" />
+        <path d="M416 192c0 61.4-1.7 128.1-12.5 192L512 384c53 0 96-86 96-192S565 0 512 0c-13.4 0-26.2 5.5-37.8 15.5C440 44.8 416 112.8 416 192c0 0 0 0 0 0zm128 0c0 35.3-14.3 64-32 64s-32-28.7-32-64s14.3-64 32-64s32 28.7 32 64z" />
     </Icon>
 );
 

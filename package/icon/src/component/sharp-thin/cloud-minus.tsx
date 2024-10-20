@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-minus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-minus?s=sharp-thin cloud-minus}
- * @preview ![cloud-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDIyOGwwLTM2YzAtNDQuMi0zNS44LTgwLTgwLTgwYy0xNi41IDAtMzEuNyA1LTQ0LjQgMTMuNUwzODkuNCAxMzVsLTguNS0xNC44QzM1NS45IDc3IDMwOS4zIDQ4IDI1NiA0OGMtNzkuNSAwLTE0NCA2NC41LTE0NCAxNDRsMCA4LjIgMCAxMS4zLTEwLjcgMy44QzUxLjYgMjMyLjkgMTYgMjgwLjMgMTYgMzM2bDAgMTI4IDEyOCAwIDM2OCAwIDExMiAwIDAtMTEyYzAtNTIuMi0zNS43LTk2LTg0LTEwOC41bC0xMi0zLjEgMC0xMi40ek0wIDMzNmMwLTYyLjcgNDAuMS0xMTYgOTYtMTM1LjhsMC04LjJjMC04OC40IDcxLjYtMTYwIDE2MC0xNjBjNTMuNiAwIDEwMSAyNi4zIDEzMCA2Ni43YzMuMSA0LjMgNiA4LjggOC43IDEzLjRjMy41LTIuNCA3LjItNC41IDExLTYuNEM0MTguNSA5OS41IDQzMi44IDk2IDQ0OCA5NmM1MyAwIDk2IDQzIDk2IDk2bDAgMzZjNTUuMiAxNC4yIDk2IDY0LjMgOTYgMTI0bDAgMTEyIDAgMTYtMTYgMC0xMTIgMC0zNjggMEwxNiA0ODAgMCA0ODBsMC0xNkwwIDMzNnptMjE2LTQwbDAtMTYgMjA4IDAgMCAxNi0yMDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cloud-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cloud-minus.svg)
  */
 const CloudMinus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

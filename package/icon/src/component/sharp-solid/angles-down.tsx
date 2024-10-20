@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `angles-down` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angles-down?s=sharp-solid angles-down}
- * @preview ![angles-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ2LjYgNDcwLjZMMjI0IDQ5My4zbC0yMi42LTIyLjYtMTYwLTE2MEwxOC43IDI4OCA2NCAyNDIuN2wyMi42IDIyLjZMMjI0IDQwMi43IDM2MS40IDI2NS40IDM4NCAyNDIuNyA0MjkuMyAyODhsLTIyLjYgMjIuNi0xNjAgMTYwem0wLTE5MkwyMjQgMzAxLjNsLTIyLjYtMjIuNi0xNjAtMTYwTDE4LjcgOTYgNjQgNTAuNyA4Ni42IDczLjQgMjI0IDIxMC43IDM2MS40IDczLjQgMzg0IDUwLjcgNDI5LjMgOTZsLTIyLjYgMjIuNi0xNjAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![angles-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/angles-down.svg)
  */
 const AnglesDown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

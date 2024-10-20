@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `triangle-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle-exclamation?s=regular triangle-exclamation}
- * @preview ![triangle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4LjQgODQuM2MxLjYtMi43IDQuNS00LjMgNy42LTQuM3M2IDEuNiA3LjYgNC4zTDQ2MS45IDQxMGMxLjQgMi4zIDIuMSA0LjkgMi4xIDcuNWMwIDgtNi41IDE0LjUtMTQuNSAxNC41bC0zODcgMGMtOCAwLTE0LjUtNi41LTE0LjUtMTQuNWMwLTIuNyAuNy01LjMgMi4xLTcuNUwyNDguNCA4NC4zem0tNDEtMjVMOS4xIDM4NWMtNiA5LjgtOS4xIDIxLTkuMSAzMi41QzAgNDUyIDI4IDQ4MCA2Mi41IDQ4MGwzODcgMGMzNC41IDAgNjIuNS0yOCA2Mi41LTYyLjVjMC0xMS41LTMuMi0yMi43LTkuMS0zMi41TDMwNC42IDU5LjNDMjk0LjMgNDIuNCAyNzUuOSAzMiAyNTYgMzJzLTM4LjMgMTAuNC00OC42IDI3LjN6TTI4OCAzNjhhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptLTgtMTg0YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgOTZjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![triangle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/triangle-exclamation.svg)
  */
 const TriangleExclamation: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `candle-holder` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candle-holder?s=light candle-holder}
- * @preview ![candle-holder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDExMmMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4YzAtOC44LTYuNS0yNC0yMC41LTQzLjFDMTc4LjQgNTYuNCAxNjggNDUuMSAxNjAgMzYuOGMtOCA4LjMtMTguNCAxOS42LTI3LjUgMzIuMUMxMTguNSA4OCAxMTIgMTAzLjIgMTEyIDExMnptNDggODBjLTQ0LjIgMC04MC0zNS44LTgwLTgwYzAtMzkuNiA0OS4xLTkwLjEgNjYuMi0xMDYuNkMxNDkuOSAxLjkgMTU0LjggMCAxNjAgMHMxMC4xIDEuOSAxMy44IDUuNEMxOTAuOSAyMS45IDI0MCA3Mi40IDI0MCAxMTJjMCA0NC4yLTM1LjggODAtODAgODB6TTAgNDk2YzAtOC44IDcuMi0xNiAxNi0xNmw0OCAwIDAtMjA4YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDMyIDAgNjQgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDIwOCA3Mi42IDBjLTUuNC05LjQtOC42LTIwLjMtOC42LTMyYzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRzLTI4LjcgNjQtNjQgNjRsLTEyOCAwLTMyIDBMOTYgNTEybC0zMiAwLTQ4IDBjLTguOCAwLTE2LTcuMi0xNi0xNnpNMTI4IDI1NmwtMTYgMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMjA4IDEyOCAwIDAtMjA4YzAtOC44LTcuMi0xNi0xNi0xNmwtNDggMCAwIDQ4YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNDh6TTM4NCA0ODBhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![candle-holder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/candle-holder.svg)
  */
 const CandleHolder: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

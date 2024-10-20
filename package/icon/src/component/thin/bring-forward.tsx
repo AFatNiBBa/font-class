@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bring-forward` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bring-forward?s=thin bring-forward}
- * @preview ![bring-forward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ5NmwyMjQgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTIyNGMwLTI2LjUtMjEuNS00OC00OC00OGwtNjQgMCAwLTE2IDY0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyMjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTIyNCAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTY0IDE2IDAgMCA2NGMwIDI2LjUgMjEuNSA0OCA0OCA0OHptNjQtMTYwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMjI0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDE2QzM3LjUgMTYgMTYgMzcuNSAxNiA2NGwwIDIyNGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwyMjQgMHptMCAxNkw2NCAzNTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjRDMCAyOC43IDI4LjcgMCA2NCAwTDI4OCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjI0YzAgMzUuMy0yOC43IDY0LTY0IDY0em0tMTYtOTZsMC0xNjBjMC04LjgtNy4yLTE2LTE2LTE2TDk2IDgwYy04LjggMC0xNiA3LjItMTYgMTZsMCAxNjBjMCA4LjggNy4yIDE2IDE2IDE2bDE2MCAwYzguOCAwIDE2LTcuMiAxNi0xNnptMTYgMGMwIDE3LjctMTQuMyAzMi0zMiAzMkw5NiAyODhjLTE3LjcgMC0zMi0xNC4zLTMyLTMyTDY0IDk2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDE2MCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bring-forward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bring-forward.svg)
  */
 const BringForward: typeof Icon = x => (
     <Icon {...x}>

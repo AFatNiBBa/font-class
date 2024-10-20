@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lacrosse-stick` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lacrosse-stick?s=sharp-solid lacrosse-stick}
- * @preview ![lacrosse-stick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDY0czAgMCAwIDBsLjMgMGMxOS45IDAgNDguMSAxMy42IDczLjEgMzguNnMzOC42IDUzLjIgMzguNiA3My4xbDAgLjNzMCAwIDAgMGMwIDMzLjEtMjEuOSA2Mi4xLTUzLjcgNzEuMmwtMzUuMSAxMEwzNTMgMjU5bC01IDQtNTQgNDMuMmMtMTEuMSA4LjktMjUgMTMuOC0zOS4yIDEzLjhjLTM0LjcgMC02Mi44LTI4LjEtNjIuOC02Mi44YzAtMTQuMyA0LjktMjguMSAxMy44LTM5LjJMMjQ5IDE2NGw0LTUgMS44LTYuMiAxMC0zNS4xQzI3My45IDg1LjkgMzAyLjkgNjQgMzM2IDY0em0wLTY0czAgMCAwIDBDMjc0LjQgMCAyMjAuMiA0MC45IDIwMy4zIDEwMC4xTDE5NSAxMjlsLTM5LjIgNDljLTE4IDIyLjUtMjcuOCA1MC40LTI3LjggNzkuMmMwIDIzLjQgNi4zIDQ1LjMgMTcuNCA2NC4xbC0xMjAgMTIwTDIuOCA0NjQgNDggNTA5LjNsMjIuNi0yMi42IDEyMC0xMjBjMTguOCAxMS4xIDQwLjcgMTcuNCA2NC4xIDE3LjRjMjguOCAwIDU2LjctOS44IDc5LjItMjcuOEwzODMgMzE3bDI4LjktOC4zQzQ3MS4xIDI5MS44IDUxMiAyMzcuNiA1MTIgMTc2YzAgMCAwIDAgMCAwYzAtLjEgMC0uMiAwLS4zYzAtNDMuOC0yNi40LTg3LjQtNTcuMy0xMTguNFMzODAuMSAwIDMzNi4zIDBMMzM2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lacrosse-stick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lacrosse-stick.svg)
  */
 const LacrosseStick: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `layer-minus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-minus?s=sharp-light layer-minus}
- * @preview ![layer-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA4IDY0bC0xNiAwIDAgMzIgMTYgMCAxMTIgMCAxNiAwIDAtMzItMTYgMEw0MDggNjR6TTI4OCAzNDlMNzguOCAyNTYgMjg4IDE2M2wyMDkuMiA5M0wyODggMzQ5ek01MzYuNiAyMzguNUwyODggMTI4IDM5LjQgMjM4LjUgMCAyNTZsMzkuNCAxNy41TDI4OCAzODQgNTM2LjYgMjczLjUgNTc2IDI1NmwtMzkuNC0xNy41ek0xNDQgMzU1bC0zOS40LTE3LjUtNjUuMiAyOUwwIDM4NGwzOS40IDE3LjVMMjg4IDUxMiA1MzYuNiA0MDEuNSA1NzYgMzg0bC0zOS40LTE3LjUtNjUuMi0yOUw0MzIgMzU1bDY1LjIgMjlMMjg4IDQ3NyA3OC44IDM4NCAxNDQgMzU1eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![layer-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/layer-minus.svg)
  */
 const LayerMinus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

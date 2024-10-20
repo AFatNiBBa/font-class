@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sun-bright` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-bright?s=sharp-light sun-bright}
- * @preview ![sun-bright](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDBsMCAxNiAwIDgwIDAgMTYtMzIgMCAwLTE2IDAtODAgMC0xNiAzMiAwek0wIDI0MGwxNiAwIDgwIDAgMTYgMCAwIDMyLTE2IDAtODAgMEwwIDI3MmwwLTMyem00MDAgMGwxNiAwIDgwIDAgMTYgMCAwIDMyLTE2IDAtODAgMC0xNiAwIDAtMzJ6TTI3MiA0MDBsMCAxNiAwIDgwIDAgMTYtMzIgMCAwLTE2IDAtODAgMC0xNiAzMiAwek04Ni4zIDYzLjdMOTcuNiA3NWw1Ni42IDU2LjYgMTEuMyAxMS4zLTIyLjYgMjIuNi0xMS4zLTExLjNMNzUgOTcuNiA2My43IDg2LjMgODYuMyA2My43em0tMjIuNiAzNjJMNzUgNDE0LjRsNTYuNi01Ni42IDExLjMtMTEuMyAyMi42IDIyLjYtMTEuMyAxMS4zTDk3LjYgNDM3IDg2LjMgNDQ4LjMgNjMuNyA0MjUuN3pNMzQ2LjUgMTQyLjlsMTEuMy0xMS4zTDQxNC40IDc1bDExLjMtMTEuMyAyMi42IDIyLjZMNDM3IDk3LjZsLTU2LjYgNTYuNi0xMS4zIDExLjMtMjIuNi0yMi42em0yMi42IDIwMy42bDExLjMgMTEuM0w0MzcgNDE0LjRsMTEuMyAxMS4zLTIyLjYgMjIuNkw0MTQuNCA0MzdsLTU2LjYtNTYuNi0xMS4zLTExLjMgMjIuNi0yMi42ek0zMzYgMjU2YTgwIDgwIDAgMSAwIC0xNjAgMCA4MCA4MCAwIDEgMCAxNjAgMHptLTE5MiAwYTExMiAxMTIgMCAxIDEgMjI0IDAgMTEyIDExMiAwIDEgMSAtMjI0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sun-bright](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sun-bright.svg)
  */
 const SunBright: typeof Icon = x => (
     <Icon {...x}>

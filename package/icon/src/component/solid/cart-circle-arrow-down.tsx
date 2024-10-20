@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-circle-arrow-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-arrow-down?s=solid cart-circle-arrow-down}
- * @preview ![cart-circle-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNEMwIDEwLjcgMTAuNyAwIDI0IDBMNjkuNSAwYzIyIDAgNDEuNSAxMi44IDUwLjYgMzJsNDExIDBjMjYuMyAwIDQ1LjUgMjUgMzguNiA1MC40TDUzOC44IDE5Ny4yYy0xMy43LTMuNC0yOC4xLTUuMi00Mi44LTUuMmMtNjguNCAwLTEyNy43IDM5LTE1Ni44IDk2bC0xNjguNSAwIDUuNCAyOC41YzIuMiAxMS4zIDEyLjEgMTkuNSAyMy42IDE5LjVsMTIzLjIgMGMtMS45IDEwLjQtMi45IDIxLjEtMi45IDMyYzAgNS40IC4yIDEwLjcgLjcgMTZsLTEyMSAwYy0zNC42IDAtNjQuMy0yNC42LTcwLjctNTguNUw3Ny40IDU0LjVjLS43LTMuOC00LTYuNS03LjktNi41TDI0IDQ4QzEwLjcgNDggMCAzNy4zIDAgMjR6TTEyOCA0NjRhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHpNNDk2IDIyNGExNDQgMTQ0IDAgMSAxIDAgMjg4IDE0NCAxNDQgMCAxIDEgMC0yODh6bTY3LjMgMTQwLjdjLTYuMi02LjItMTYuNC02LjItMjIuNiAwTDUxMiAzOTMuNGwwLTg5LjRjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCA4OS40LTI4LjctMjguN2MtNi4yLTYuMi0xNi40LTYuMi0yMi42IDBzLTYuMiAxNi40IDAgMjIuNmw1NiA1NmM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMGw1Ni01NmM2LjItNi4yIDYuMi0xNi40IDAtMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-circle-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-circle-arrow-down.svg)
  */
 const CartCircleArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

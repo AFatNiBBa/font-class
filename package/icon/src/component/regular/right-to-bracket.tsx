@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right-to-bracket` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-to-bracket?s=regular right-to-bracket}
- * @preview ![right-to-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDM2NS44TDMwMiAyNTYgMTkyIDE0Ni4ybDAgNTMuOGMwIDEzLjMtMTAuNyAyNC0yNCAyNEw0OCAyMjRsMCA2NCAxMjAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDUzLjh6TTM1MiAyNTZjMCAxMS41LTQuNiAyMi41LTEyLjcgMzAuNkwyMjMuMiA0MDIuNGMtOC43IDguNy0yMC41IDEzLjYtMzIuOCAxMy42Yy0yNS42IDAtNDYuNC0yMC44LTQ2LjQtNDYuNGwwLTMzLjYtOTYgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC02NGMwLTI2LjUgMjEuNS00OCA0OC00OGw5NiAwIDAtMzMuNmMwLTI1LjYgMjAuOC00Ni40IDQ2LjQtNDYuNGMxMi4zIDAgMjQuMSA0LjkgMzIuOCAxMy42TDMzOS4zIDIyNS40YzguMSA4LjEgMTIuNyAxOS4xIDEyLjcgMzAuNnptLTggMTc2bDgwIDBjMjIuMSAwIDQwLTE3LjkgNDAtNDBsMC0yNzJjMC0yMi4xLTE3LjktNDAtNDAtNDBsLTgwIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsODAgMGM0OC42IDAgODggMzkuNCA4OCA4OGwwIDI3MmMwIDQ4LjYtMzkuNCA4OC04OCA4OGwtODAgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![right-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/right-to-bracket.svg)
  */
 const RightToBracket: typeof Icon = x => (
     <Icon {...x}>

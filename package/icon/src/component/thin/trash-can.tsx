@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-can` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can?s=thin trash-can}
- * @preview ![trash-can](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU3LjQgMjcuM0wxMzQuNCA2NGwxNzkuMSAwLTIzLTM2LjdjLTQuNC03LTEyLjEtMTEuMy0yMC40LTExLjNsLTkyLjUgMGMtOC4zIDAtMTYgNC4zLTIwLjQgMTEuM3pNMTE1LjYgNjRsMjguMi00NS4yQzE1MS4xIDcuMSAxNjMuOSAwIDE3Ny43IDBsOTIuNSAwYzEzLjggMCAyNi42IDcuMSAzMy45IDE4LjhMMzMyLjQgNjQgNDQwIDY0YzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDggODBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsMTA3LjYgMHpNNDAgMTEyYzQuNCAwIDggMy42IDggOGwwIDMyMGMwIDMwLjkgMjUuMSA1NiA1NiA1NmwyNDAgMGMzMC45IDAgNTYtMjUuMSA1Ni01NmwwLTMyMGMwLTQuNCAzLjYtOCA4LThzOCAzLjYgOCA4bDAgMzIwYzAgMzkuOC0zMi4yIDcyLTcyIDcybC0yNDAgMGMtMzkuOCAwLTcyLTMyLjItNzItNzJsMC0zMjBjMC00LjQgMy42LTggOC04em05NiA0OGwwIDI1NmMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTI1NmMwLTQuNCAzLjYtOCA4LThzOCAzLjYgOCA4em05NiAwbDAgMjU2YzAgNC40LTMuNiA4LTggOHMtOC0zLjYtOC04bDAtMjU2YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDh6bTk2IDBsMCAyNTZjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC0yNTZjMC00LjQgMy42LTggOC04czggMy42IDggOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trash-can](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/trash-can.svg)
  */
 const TrashCan: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

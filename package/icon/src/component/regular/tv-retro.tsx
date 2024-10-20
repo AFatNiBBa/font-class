@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tv-retro` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv-retro?s=regular tv-retro}
- * @preview ![tv-retro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM1IDdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBsODcgODdMMzQzIDdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBzOS40IDI0LjYgMCAzMy45bC01NSA1NUw0MzIgOTZjNDQuMiAwIDgwIDM1LjggODAgODBsMCAyNTZjMCA0NC4yLTM1LjggODAtODAgODBMODAgNTEyYy00NC4yIDAtODAtMzUuOC04MC04MEwwIDE3NmMwLTQ0LjIgMzUuOC04MCA4MC04MGwxMTAuMSAwTDEzNSA0MWMtOS40LTkuNC05LjQtMjQuNiAwLTMzLjl6TTgwIDE0NGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAyNTZjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzUyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0yNTZjMC0xNy43LTE0LjMtMzItMzItMzJMODAgMTQ0em0zMzYgNTZhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4ek0zOTIgMzA0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6TTE0NCAxOTJsMTYwIDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAxMjhjMCAyNi41LTIxLjUgNDgtNDggNDhsLTE2MCAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTEyOGMwLTI2LjUgMjEuNS00OCA0OC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tv-retro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tv-retro.svg)
  */
 const TvRetro: typeof Icon = x => (
     <Icon {...x}>

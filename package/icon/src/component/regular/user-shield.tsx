@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-shield` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-shield?s=regular user-shield}
- * @preview ![user-shield](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDIwOGE4MCA4MCAwIDEgMCAwLTE2MCA4MCA4MCAwIDEgMCAwIDE2MHpNMjI0IDBhMTI4IDEyOCAwIDEgMSAwIDI1NkExMjggMTI4IDAgMSAxIDIyNCAwek00OS4zIDQ2NGwzMjUuNCAwYzEzLjIgMTcuMiAyOS4zIDMzLjQgNDguOSA0Ny41Yy0xLjcgLjMtMy41IC41LTUuMyAuNUwyOS43IDUxMkMxMy4zIDUxMiAwIDQ5OC43IDAgNDgyLjNDMCAzODMuOCA3OS44IDMwNCAxNzguMyAzMDRsNDUuNyAwIDQ1LjcgMGMxNy42IDAgMzQuNiAyLjYgNTAuNyA3LjNjLjkgMTYuNiAzLjQgMzUuMyA4LjMgNTQuOGMtMTcuNy05LTM3LjgtMTQuMS01OS0xNC4xbC05MS40IDBjLTY1LjcgMC0xMjAuMSA0OC43LTEyOSAxMTJ6TTQ4Ny4xIDIyNS43YzUuNy0yLjMgMTIuMS0yLjMgMTcuOCAwbDEyMCA0OEM2MzQgMjc3LjQgNjQwIDI4Ni4yIDY0MCAyOTZjMCA2My4zLTI1LjkgMTY4LjgtMTM0LjggMjE0LjJjLTUuOSAyLjUtMTIuNiAyLjUtMTguNSAwQzM3Ny45IDQ2NC44IDM1MiAzNTkuMyAzNTIgMjk2YzAtOS44IDYtMTguNiAxNS4xLTIyLjNsMTIwLTQ4ek01OTEuNCAzMTJMNDk2IDI3My44bDAgMTg3LjhjNjguMi0zMyA5MS41LTk5IDk1LjQtMTQ5Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-shield.svg)
  */
 const UserShield: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

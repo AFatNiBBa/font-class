@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-to-dotted-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-dotted-line?s=sharp-thin arrows-to-dotted-line}
- * @preview ![arrows-to-dotted-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI5LjcgMTg5LjdsLTUuNyA1LjctNS43LTUuNy04OC04OEwxMjQuNyA5NiAxMzYgODQuN2w1LjcgNS43TDIxNiAxNjQuNyAyMTYgOGwwLTggMTYgMCAwIDggMCAxNTYuNyA3NC4zLTc0LjMgNS43LTUuN0wzMjMuMyA5NmwtNS43IDUuNy04OCA4OHpNNDggMjQwbDAgMzItMzIgMCAwLTMyIDMyIDB6bTY0IDBsMzIgMCAwIDMyLTMyIDAgMC0zMnptOTYgMzJsMC0zMiAzMiAwIDAgMzItMzIgMHptOTYtMzJsMzIgMCAwIDMyLTMyIDAgMC0zMnptMTI4IDBsMCAzMi0zMiAwIDAtMzIgMzIgMHpNMjI0IDMxNi43bDUuNyA1LjcgODggODggNS43IDUuN0wzMTIgNDI3LjNsLTUuNy01LjdMMjMyIDM0Ny4zIDIzMiA1MDRsMCA4LTE2IDAgMC04IDAtMTU2LjctNzQuMyA3NC4zLTUuNyA1LjdMMTI0LjcgNDE2bDUuNy01LjcgODgtODggNS43LTUuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-to-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrows-to-dotted-line.svg)
  */
 const ArrowsToDottedLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

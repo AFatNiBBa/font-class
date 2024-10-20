@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brush` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brush?s=sharp-solid brush}
- * @preview ![brush](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDY0TDE2MCAwIDEyOCAwIDk2IDY0IDY0IDAgMCAwIDAgMjU2bDM4NCAwTDM4NCAwIDIyNCAwIDE5MiA2NHpNMCAyODhsMCA5NiAxMjggMCAwIDEyOCAxMjggMCAwLTEyOCAxMjggMCAwLTk2TDAgMjg4ek0xOTIgNDMyYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![brush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/brush.svg)
  */
 const Brush: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

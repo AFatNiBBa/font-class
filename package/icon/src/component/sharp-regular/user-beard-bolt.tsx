@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-beard-bolt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-beard-bolt?s=sharp-regular user-beard-bolt}
- * @preview ![user-beard-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBMMjAwIDBDMTQyLjYgMCA5NiA0Ni42IDk2IDEwNGwwIDhMNjQgMjAwbDAgNDAgMzIgMzIgMCAzMiA0OCA0OCAzMiAwIDMyIDMyIDMyIDAgMzItMzIgMzIgMCA0OC00OCAwLTMyIDMyLTMyIDAtNDAtMzItODggMC04QzM1MiA0Ni42IDMwNS40IDAgMjQ4IDBMMjI0IDB6bTczLjMgOTZjNC4zIDkuOCA2LjcgMjAuNiA2LjcgMzJsMCAxNmMwIDEyLjctMyAyNC44LTguMyAzNS41bC0yNS42LTI1LjYtNS45LTUuOS04LjMgMC02NCAwLTguMyAwLTUuOSA1LjktMjUuNiAyNS42QzE0NyAxNjguOCAxNDQgMTU2LjcgMTQ0IDE0NGwwLTE2YzAtMTEuNCAyLjQtMjIuMiA2LjctMzJMMTkyIDk2bDMyLTMyIDMyIDMyIDQxLjMgMHpNMjY5LjUgMjA5LjhjLTEuOCAxLjItMy42IDIuNC01LjUgMy41Yy0xMS44IDYuOC0yNS40IDEwLjctNDAgMTAuN3MtMjguMi0zLjktNDAtMTAuN2MtMS45LTEuMS0zLjgtMi4zLTUuNS0zLjVMMjAwLjMgMTg4bDQ3LjQgMCAyMS44IDIxLjh6TTY0IDMyMEwxNiA0NjQgMCA1MTJsNTAuNiAwIDMxNS45IDAgMTUtNDhjMCAwIDAgMC0uMSAwTDMyMCA0NjQgNjYuNiA0NjRsMzItOTYgNC0xMi4xTDczLjQgMzI2LjYgNjYuNyAzMjAgNjQgMzIwem0zNzYgNjRMNDAwIDUxMiA1NzYgMzc2bDAtMjQtODggMCA0MC0xMjhMMzUyIDM2MGwwIDI0IDg4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-beard-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-beard-bolt.svg)
  */
 const UserBeardBolt: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

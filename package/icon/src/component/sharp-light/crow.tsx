@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crow` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crow?s=sharp-light crow}
- * @preview ![crow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjMuMiAzODRsLTEyLjEgOS4yTDI1LjcgNDEyLjcgNi4zIDM4Ny4zbDI1LjQtMTkuNSAxMi4xLTkuMiA4LjYtNi42TDMyMCAxNDdsMC01MWMwLTUzIDQzLTk2IDk2LTk2YzI4LjQgMCA1NCAxMi40IDcxLjYgMzJMNTkyIDMybDQ4IDQ4IDAgMzJMNTEyIDE0NGwwIDQ4YzAgNzguOC00Ny41IDE0Ni41LTExNS40IDE3Ni4xTDQ1NS45IDUxMmwtMzQuNiAwLTU1LTEzMy42QzM1MS40IDM4Mi4xIDMzNiAzODQgMzIwIDM4NGwtMTIuOCAwIDUyLjcgMTI4LTM0LjYgMEwyNzIuNiAzODQgNjMuMiAzODR6TTUxMiA5NmwwIDE1IDkxLTIyLjhMNTc4LjcgNjRsLTcyLjIgMGMzLjUgMTAgNS41IDIwLjggNS41IDMyek0zNTIgMTYyLjhsMCAxMS42YzAgODMuMS01OC4yIDE1NC45LTEzOS41IDE3Mi4yTDE4Ni44IDM1MiAzMjAgMzUyYzg4LjQgMCAxNjAtNzEuNiAxNjAtMTYwbDAtNjQgMC0zMmMwLTM1LjMtMjguNy02NC02NC02NHMtNjQgMjguNy02NCA2NGwwIDUxIDAgNSAwIDEwLjh6bS0yMTkuMyAxNjhsNzMuMi0xNS41QzI2OCAzMDIuMSAzMTMuNiAyNTAgMzE5LjQgMTg3LjhsLTE4Ni43IDE0M3pNMzkyIDk2YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![crow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/crow.svg)
  */
 const Crow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

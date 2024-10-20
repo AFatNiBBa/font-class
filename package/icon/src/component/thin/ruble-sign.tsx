@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ruble-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruble-sign?s=thin ruble-sign}
- * @preview ![ruble-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYuNyAzMkM3OC42IDMyIDY0IDQ2LjYgNjQgNjQuN0w2NCAyODggOCAyODhjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsNTYgMCAwIDY0TDggMzY4Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDU2IDAgMCA4MGMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtODAgMjMyIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMODAgMzY4bDAtNjQgMTUyIDBjNzUuMSAwIDEzNi02MC45IDEzNi0xMzZzLTYwLjktMTM2LTEzNi0xMzZMOTYuNyAzMnpNMjMyIDI4OEw4MCAyODggODAgNjQuN0M4MCA1NS41IDg3LjUgNDggOTYuNyA0OEwyMzIgNDhjNjYuMyAwIDEyMCA1My43IDEyMCAxMjBzLTUzLjcgMTIwLTEyMCAxMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ruble-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ruble-sign.svg)
  */
 const RubleSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

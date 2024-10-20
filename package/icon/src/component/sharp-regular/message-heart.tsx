@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-heart` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-heart?s=sharp-regular message-heart}
- * @preview ![message-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDUxMmw0OC0zMiA5Ni02NCAxNjAgMCA0OCAwIDAtNDggMC0zMjAgMC00OEw0NjQgMCA0OCAwIDAgMCAwIDQ4IDAgMzY4bDAgNDggNDggMCA2NCAwIDQ4IDAgMCAzOC4zIDAgOS43IDAgNDh6TTI3Ny40IDM3Ni4xTDIwOCA0MjIuM2wwLTYuMyAwLTQ4LTQ4IDBMNDggMzY4IDQ4IDQ4bDQxNiAwIDAgMzIwLTE2MCAwLTE0LjUgMC0xMi4xIDguMXpNMzY4IDE3MS4yYzAtMzIuNy0yNi41LTU5LjItNTkuMi01OS4ybC0yLjQgMGMtMTUuOSAwLTMxLjIgNi4yLTQyLjcgMTcuMmwtNy43IDcuNC03LjctNy40Yy0xMS41LTExLTI2LjgtMTcuMi00Mi43LTE3LjJsLTIuNCAwYy0zMi43IDAtNTkuMiAyNi41LTU5LjIgNTkuMmMwIDE2LjEgNi42IDMxLjUgMTguMiA0Mi43bDgyLjggNzkuNkwyNTYgMzA0LjFsMTEuMS0xMC43IDgyLjgtNzkuNmMxMS42LTExLjIgMTguMi0yNi42IDE4LjItNDIuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![message-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/message-heart.svg)
  */
 const MessageHeart: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-sledding` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-sledding?s=light person-sledding}
- * @preview ![person-sledding](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkyIDExMmEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6bTAtODBhNTYgNTYgMCAxIDEgMCAxMTIgNTYgNTYgMCAxIDEgMC0xMTJ6TTEuNyAyNDguOGM0LTcuOSAxMy42LTExLjEgMjEuNS03LjFMNDE5IDQ0MC42YzE0IDcgMzAuMyA3LjkgNDQuOSAyLjRsMjYuNS0xMGM4LjMtMy4xIDE3LjUgMS4xIDIwLjYgOS4zcy0xLjEgMTcuNS05LjMgMjAuNmwtMjYuNSAxMGMtMjMgOC43LTQ4LjYgNy4zLTcwLjYtMy43TDguOCAyNzAuM2MtNy45LTQtMTEuMS0xMy42LTcuMS0yMS41ek0xNjAgMTQ0bDE2MCAwYzYuNSAwIDEyLjMgMy45IDE0LjggOS45czEuMSAxMi45LTMuNSAxNy40TDIzMC42IDI3MiAzNDQgMjcyYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgNzJjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NC0xMDUuNCAwYy0yOC41IDAtNDIuOC0zNC41LTIyLjYtNTQuNkwyODEuNCAxNzYgMTYwIDE3NmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-sledding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-sledding.svg)
  */
 const PersonSledding: typeof Icon = x => (
     <Icon {...x}>

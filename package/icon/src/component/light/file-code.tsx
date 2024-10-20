@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-code` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-code?s=light file-code}
- * @preview ![file-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDQ4MEw2NCA0ODBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyTDMyIDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDEyOCAwIDAgMTEyYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDExMiAwIDAgMjU2YzAgMTcuNy0xNC4zIDMyLTMyIDMyek0yNDAgMTYwYy04LjggMC0xNi03LjItMTYtMTZsMC0xMTEuNWMyLjggLjcgNS40IDIuMSA3LjQgNC4yTDM0Ny4zIDE1Mi42YzIuMSAyLjEgMy41IDQuNiA0LjIgNy40TDI0MCAxNjB6TTY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDI1NiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjg0LjFjMC0xMi43LTUuMS0yNC45LTE0LjEtMzMuOUwyNTQuMSAxNC4xYy05LTktMjEuMi0xNC4xLTMzLjktMTQuMUw2NCAwem05MS4zIDI5OS4zYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBsLTQ4IDQ4Yy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNmw0OCA0OGM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMHM2LjItMTYuNCAwLTIyLjZMMTE4LjYgMzM2bDM2LjctMzYuN3ptMTQ0IDI1LjRsLTQ4LTQ4Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMHMtNi4yIDE2LjQgMCAyMi42TDI2NS40IDMzNmwtMzYuNyAzNi43Yy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNnMxNi40IDYuMiAyMi42IDBsNDgtNDhjNi4yLTYuMiA2LjItMTYuNCAwLTIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-code.svg)
  */
 const FileCode: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

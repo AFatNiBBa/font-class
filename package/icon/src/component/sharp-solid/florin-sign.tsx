@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `florin-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/florin-sign?s=sharp-solid florin-sign}
- * @preview ![florin-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE0LjcgMzJjLTM4LjggMC03My43IDIzLjMtODguNiA1OS4xTDE3MC43IDIyNCAzMiAyMjRsMCA2NCAxMTIgMEw5OC45IDM5Ni4zYy01IDExLjktMTYuNiAxOS43LTI5LjUgMTkuN0wwIDQxNmwwIDY0IDY5LjMgMGMzOC44IDAgNzMuNy0yMy4zIDg4LjYtNTkuMUwyMTMuMyAyODggMzUyIDI4OGwwLTY0LTExMiAwIDQ1LjEtMTA4LjNjNS0xMS45IDE2LjYtMTkuNyAyOS41LTE5LjdMMzg0IDk2bDAtNjQtNjkuMyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![florin-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/florin-sign.svg)
  */
 const FlorinSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

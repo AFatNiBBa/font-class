@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tower-broadcast` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-broadcast?s=sharp-thin tower-broadcast}
- * @preview ![tower-broadcast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYwIDEyOGMwLTQzLjMtMTAuMS04NC4yLTI4LjEtMTIwLjVMNTQ2LjMgLjVDNTY1LjMgMzguOSA1NzYgODIuMiA1NzYgMTI4cy0xMC43IDg5LjEtMjkuNyAxMjcuNWwtMTQuMy03LjFjMTgtMzYuMyAyOC4xLTc3LjIgMjguMS0xMjAuNXpNMTYgMTI4YzAgNDMuMyAxMC4xIDg0LjIgMjguMSAxMjAuNWwtMTQuMyA3LjFDMTAuNyAyMTcuMSAwIDE3My44IDAgMTI4UzEwLjcgMzguOSAyOS43IC41TDQ0LjEgNy41QzI2LjEgNDMuOCAxNiA4NC43IDE2IDEyOHptODAgMGMwLTMwLjUgNy4xLTU5LjQgMTkuOC04NWwxNC4zIDcuMUMxMTguNSA3My41IDExMiAxMDAgMTEyIDEyOHM2LjUgNTQuNSAxOC4yIDc3LjlMMTE1LjggMjEzQzEwMy4xIDE4Ny40IDk2IDE1OC41IDk2IDEyOHptMzg0IDBjMCAzMC41LTcuMSA1OS40LTE5LjggODVsLTE0LjMtNy4xQzQ1Ny41IDE4Mi41IDQ2NCAxNTYgNDY0IDEyOHMtNi41LTU0LjUtMTguMi03Ny45TDQ2MC4yIDQzQzQ3Mi45IDY4LjYgNDgwIDk3LjUgNDgwIDEyOHpNMjg4IDE3NmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bTY0LTQ4YzAgMzIuNi0yNC40IDU5LjYtNTYgNjMuNUwyOTYgNTA0bDAgOC0xNiAwIDAtOCAwLTMxMi41Yy0zMS42LTMuOS01Ni0zMC45LTU2LTYzLjVjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tower-broadcast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tower-broadcast.svg)
  */
 const TowerBroadcast: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

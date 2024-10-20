@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-dolly` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dolly?s=sharp-solid person-dolly}
- * @preview ![person-dolly](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDhhNDggNDggMCAxIDEgOTYgMEE0OCA0OCAwIDEgMSAzMiA0OHpNMCAzNDYuNWw2NCA2NEw2NCA0ODBzMCAwIDAgMGwwIDMyTDAgNTEybDAtMzJMMCAzNDYuNXpNMCAxMjhsMzIgMCA0OCAwIDE3LjEgMCA5LjUgMTQuM0wxNjEuMSAyMjRsNDYuMSAwLTYuNS0yNi4yLTUuOC0yMy4zIDQ2LjYtMTEuNiA1LjggMjMuMyA0OS42IDE5OC40YzE3LjYgMi40IDMyLjkgMTIgNDIuOCAyNS43bDEzNC40LTMzLjYgMjMuMy01LjggMTEuNiA0Ni42LTIzLjMgNS44TDM1MS40IDQ1Ni45QzM0Ny4xIDQ4OCAzMjAuMyA1MTIgMjg4IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRjMC0yMS4zIDEwLjQtNDAuMSAyNi4zLTUxLjdMMjIzLjMgMjg4IDE0NCAyODhsLTE3LjEgMC05LjUtMTQuM0w5NiAyNDEuN2wwIDY1LjEgNTQuNiA1NC42IDcuMyA3LjMgMS43IDEwLjEgOCA0OCA0IDI0IDQgMjRzMCAwIDAgMGw0IDI0IDIuMiAxMy4zLTY0LjkgMC0uNS0yLjctNC0yNHMwIDAgMCAwbC00LTI0LTQtMjQtNi4zLTM3LjlMNDEuNCAzNDIuNiAxOC43IDMyMEM2LjcgMzA4IDAgMjkxLjcgMCAyNzQuN0wwIDE2MGwwLTMyek0yODggNDY0YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnptMzguNC04MEwyODggMjMwLjQgNDQxLjYgMTkyIDQ4MCAzNDUuNiAzMjYuNCAzODR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-dolly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-dolly.svg)
  */
 const PersonDolly: typeof Icon = x => (
     <Icon {...x}>

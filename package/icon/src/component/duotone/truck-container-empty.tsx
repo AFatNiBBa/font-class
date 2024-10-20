@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `truck-container-empty` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-container-empty?s=duotone truck-container-empty}
- * @preview ![truck-container-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiA0MTZhNjQgNjQgMCAxIDAgMTI4IDBBNjQgNjQgMCAxIDAgMzIgNDE2em0xNjAgMGE2NCA2NCAwIDEgMCAxMjggMCA2NCA2NCAwIDEgMCAtMTI4IDB6bTI4OCAwYTY0IDY0IDAgMSAwIDEyOCAwIDY0IDY0IDAgMSAwIC0xMjggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQ1NiAxNDRjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgODggMCAzMiAwIDE2TDMyIDMwNGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAxNmMwIDguOCAzLjYgMTYuOCA5LjQgMjIuNkMyNC44IDM0Mi4zIDU3LjggMzIwIDk2IDMyMGMzMy40IDAgNjIuOCAxNyA4MCA0Mi45QzE5My4yIDMzNyAyMjIuNiAzMjAgMjU2IDMyMGM0MS44IDAgNzcuNCAyNi43IDkwLjUgNjRsODUuNSAwIDIxLjUgMGMxMy4yLTM3LjMgNDguNy02NCA5MC41LTY0YzM4LjIgMCA3MS4yIDIyLjMgODYuNiA1NC42YzUuOC01LjggOS40LTEzLjggOS40LTIyLjZsMC02NCAwLTE2IDAtMTAuM2MwLTkuMi0zLjItMTguMi05LTI1LjNsLTU4LjgtNzEuOGMtMTAuNi0xMy0yNi41LTIwLjUtNDMuMy0yMC41TDQ1NiAxNDR6TTU4NSAyNTZsLTEwNSAwIDAtNjQgNDguOCAwYzIuNCAwIDQuNyAxLjEgNi4yIDIuOUw1ODUgMjU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-container-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/truck-container-empty.svg)
  */
 const TruckContainerEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M32 416a64 64 0 1 0 128 0A64 64 0 1 0 32 416zm160 0a64 64 0 1 0 128 0 64 64 0 1 0 -128 0zm288 0a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-            <path d="M456 144c-13.3 0-24 10.7-24 24l0 88 0 32 0 16L32 304c-17.7 0-32 14.3-32 32l0 16c0 8.8 3.6 16.8 9.4 22.6C24.8 342.3 57.8 320 96 320c33.4 0 62.8 17 80 42.9C193.2 337 222.6 320 256 320c41.8 0 77.4 26.7 90.5 64l85.5 0 21.5 0c13.2-37.3 48.7-64 90.5-64c38.2 0 71.2 22.3 86.6 54.6c5.8-5.8 9.4-13.8 9.4-22.6l0-64 0-16 0-10.3c0-9.2-3.2-18.2-9-25.3l-58.8-71.8c-10.6-13-26.5-20.5-43.3-20.5L456 144zM585 256l-105 0 0-64 48.8 0c2.4 0 4.7 1.1 6.2 2.9L585 256z" />
+        <path d="M456 144c-13.3 0-24 10.7-24 24l0 88 0 32 0 16L32 304c-17.7 0-32 14.3-32 32l0 16c0 8.8 3.6 16.8 9.4 22.6C24.8 342.3 57.8 320 96 320c33.4 0 62.8 17 80 42.9C193.2 337 222.6 320 256 320c41.8 0 77.4 26.7 90.5 64l85.5 0 21.5 0c13.2-37.3 48.7-64 90.5-64c38.2 0 71.2 22.3 86.6 54.6c5.8-5.8 9.4-13.8 9.4-22.6l0-64 0-16 0-10.3c0-9.2-3.2-18.2-9-25.3l-58.8-71.8c-10.6-13-26.5-20.5-43.3-20.5L456 144zM585 256l-105 0 0-64 48.8 0c2.4 0 4.7 1.1 6.2 2.9L585 256z" />
     </Icon>
 );
 

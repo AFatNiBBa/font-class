@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lightbulb-message` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-message?s=solid lightbulb-message}
- * @preview ![lightbulb-message](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDI4OGwwIDk2LTE0NCAwYy05LjYtMzEuOS0yOS41LTU5LjEtNDkuMi04Ni4yYzAgMCAwIDAgMCAwYy01LjItNy4xLTEwLjQtMTQuMi0xNS40LTIxLjRDMjcuNiAyNDcuOSAxNiAyMTMuMyAxNiAxNzZDMTYgNzguOCA5NC44IDAgMTkyIDBzMTc2IDc4LjggMTc2IDE3NmMwIDE2LjYtMi4zIDMyLjctNi42IDQ4TDMyMCAyMjRjLTM1LjMgMC02NCAyOC43LTY0IDY0ek0xMTIgNDE2bDE0NCAwYzAgMTQuNCA0LjggMjcuNyAxMi44IDM4LjRDMjU5LjEgNDg3LjcgMjI4LjQgNTEyIDE5MiA1MTJjLTQ0LjIgMC04MC0zNS44LTgwLTgwbDAtMTZ6bTAtMjQwYzAtNDQuMiAzNS44LTgwIDgwLTgwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2QzEzMC4xIDY0IDgwIDExNC4xIDgwIDE3NmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2em00MzIgODBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxMjhjMCAxNy43LTE0LjMgMzItMzIgMzJsLTY0IDAgMCA0OGMwIDYuNS0zLjkgMTIuMy05LjkgMTQuOHMtMTIuOSAxLjEtMTcuNC0zLjVMMzkzLjQgNDQ4IDMyMCA0NDhjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTI4YzAtMTcuNyAxNC4zLTMyIDMyLTMybDIyNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lightbulb-message](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/lightbulb-message.svg)
  */
 const LightbulbMessage: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

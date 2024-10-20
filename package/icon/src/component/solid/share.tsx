@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `share` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/share?s=solid share}
- * @preview ![share](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA3IDM0LjhjLTExLjUgNS4xLTE5IDE2LjYtMTkgMjkuMmwwIDY0LTExMiAwQzc4LjggMTI4IDAgMjA2LjggMCAzMDRDMCA0MTcuMyA4MS41IDQ2Ny45IDEwMC4yIDQ3OC4xYzIuNSAxLjQgNS4zIDEuOSA4LjEgMS45YzEwLjkgMCAxOS43LTguOSAxOS43LTE5LjdjMC03LjUtNC4zLTE0LjQtOS44LTE5LjVDMTA4LjggNDMxLjkgOTYgNDE0LjQgOTYgMzg0YzAtNTMgNDMtOTYgOTYtOTZsOTYgMCAwIDY0YzAgMTIuNiA3LjQgMjQuMSAxOSAyOS4yczI1IDMgMzQuNC01LjRsMTYwLTE0NGM2LjctNi4xIDEwLjYtMTQuNyAxMC42LTIzLjhzLTMuOC0xNy43LTEwLjYtMjMuOGwtMTYwLTE0NGMtOS40LTguNS0yMi45LTEwLjYtMzQuNC01LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![share](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/share.svg)
  */
 const Share: typeof Icon = x => (
     <Icon {...x}>

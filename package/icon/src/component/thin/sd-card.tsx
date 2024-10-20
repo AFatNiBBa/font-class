@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sd-card` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sd-card?s=thin sd-card}
- * @preview ![sd-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDY0bDAgMzg0YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDY0IDQ5NmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0yOTMuNWMwLTEyLjcgNS4xLTI0LjkgMTQuMS0zMy45bDkwLjUtOTAuNWM5LTkgMjEuMi0xNC4xIDMzLjktMTQuMUwzMjAgMTZjMjYuNSAwIDQ4IDIxLjUgNDggNDh6bTE2IDM4NGwwLTM4NGMwLTM1LjMtMjguNy02NC02NC02NEwxNTQuNSAwYy0xNyAwLTMzLjMgNi43LTQ1LjMgMTguN0wxOC43IDEwOS4zQzYuNyAxMjEuMyAwIDEzNy41IDAgMTU0LjVMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjR6TTE3NiA3MmMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDgwYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC04MHptNjQgMGMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDgwYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC04MHptNjQgMGMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDgwYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC04MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sd-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sd-card.svg)
  */
 const SdCard: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

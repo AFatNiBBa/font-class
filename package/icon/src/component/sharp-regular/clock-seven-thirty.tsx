@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clock-seven-thirty` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-seven-thirty?s=sharp-regular clock-seven-thirty}
- * @preview ![clock-seven-thirty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjU2YTIwOCAyMDggMCAxIDAgNDE2IDBBMjA4IDIwOCAwIDEgMCA0OCAyNTZ6bTQ2NCAwQTI1NiAyNTYgMCAxIDEgMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMHpNMjMyIDM5MmwwLTU2LjctMjAgMzAtMTMuMyAyMC0zOS45LTI2LjYgMTMuMy0yMCA2NC05NkwyODAgMjU2bDAgMTM2IDAgMjQtNDggMCAwLTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clock-seven-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/clock-seven-thirty.svg)
  */
 const ClockSevenThirty: typeof Icon = x => (
     <Icon {...x}>

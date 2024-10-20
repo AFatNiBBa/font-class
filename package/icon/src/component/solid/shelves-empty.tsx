@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shelves-empty` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shelves-empty?s=solid shelves-empty}
- * @preview ![shelves-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDNjQgMTQuMyA0OS43IDAgMzIgMFMwIDE0LjMgMCAzMkwwIDE5MiAwIDQ0OGwwIDMyYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsNTEyIDBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTMyIDAtMjU2IDAtMTYwYzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMTI4TDY0IDE2MCA2NCAzMnptMCAxOTJsNTEyIDAgMCAxOTJMNjQgNDE2bDAtMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shelves-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shelves-empty.svg)
  */
 const ShelvesEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tag` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tag?s=light tag}
- * @preview ![tag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjI5LjVMMzIgODBjMC04LjggNy4yLTE2IDE2LTE2bDE0OS41IDBjOC41IDAgMTYuNiAzLjQgMjIuNiA5LjRsMTc2IDE3NmMxMi41IDEyLjUgMTIuNSAzMi44IDAgNDUuM0wyNjIuNiA0MjguMWMtMTIuNSAxMi41LTMyLjggMTIuNS00NS4zIDBsLTE3Ni0xNzZMMTguNyAyNzQuN2wyMi42LTIyLjZjLTYtNi05LjQtMTQuMS05LjQtMjIuNnptLTMyIDBjMCAxNyA2LjcgMzMuMyAxOC43IDQ1LjNsMTc2IDE3NmMyNSAyNSA2NS41IDI1IDkwLjUgMEw0MTguNyAzMTcuM2MyNS0yNSAyNS02NS41IDAtOTAuNWwtMTc2LTE3NmMtMTItMTItMjguMy0xOC43LTQ1LjMtMTguN0w0OCAzMkMyMS41IDMyIDAgNTMuNSAwIDgwTDAgMjI5LjV6TTExMiAxNjhhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tag.svg)
  */
 const Tag: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

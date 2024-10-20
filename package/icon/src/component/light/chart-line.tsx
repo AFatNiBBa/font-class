@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-line` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line?s=light chart-line}
- * @preview ![chart-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDhjMC04LjgtNy4yLTE2LTE2LTE2UzAgMzkuMiAwIDQ4TDAgNDAwYzAgNDQuMiAzNS44IDgwIDgwIDgwbDQxNiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2TDgwIDQ0OGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhMMzIgNDh6TTQ3NS4zIDE1NS4zYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBMMzIwIDI2NS40bC04NC43LTg0LjdjLTYuMi02LjItMTYuNC02LjItMjIuNiAwbC0xMTIgMTEyYy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNnMxNi40IDYuMiAyMi42IDBMMjI0IDIxNC42bDg0LjcgODQuN2M2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMGwxNDQtMTQ0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chart-line.svg)
  */
 const ChartLine: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `indent` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/indent?s=solid indent}
- * @preview ![indent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDQ2LjMgMTQuMyAzMiAzMiAzMmwzODQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkwzMiA5NkMxNC4zIDk2IDAgODEuNyAwIDY0ek0xOTIgMTkyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDE5MiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0xOTIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJ6bTMyIDk2bDE5MiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0xOTIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMnpNMCA0NDhjMC0xNy43IDE0LjMtMzIgMzItMzJsMzg0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgNDgwYy0xNy43IDAtMzItMTQuMy0zMi0zMnpNMTI3LjggMjY4LjZMMjUuOCAzNDcuOUMxNS4zIDM1Ni4xIDAgMzQ4LjYgMCAzMzUuM0wwIDE3Ni43YzAtMTMuMyAxNS4zLTIwLjggMjUuOC0xMi42bDEwMS45IDc5LjNjOC4yIDYuNCA4LjIgMTguOSAwIDI1LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![indent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/indent.svg)
  */
 const Indent: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mailbox-flag-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mailbox-flag-up?s=sharp-regular mailbox-flag-up}
- * @preview ![mailbox-flag-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDIyNGwwLTI0IDAtMTEyIDAtMzIgMC0yNCAyNCAwIDY0IDAgMjQgMCAwIDI0IDAgMzIgMCAyNC0yNCAwLTQwIDAgMCA4OCAwIDI0LTQ4IDB6TTE0NCAxMTJjLTUzIDAtOTYgNDMtOTYgOTZsMCAxOTIgMTkyIDAgMC0xOTJjMC01My00My05Ni05Ni05NnptMTA3LjMgMGMyMi44IDI1LjUgMzYuNyA1OS4xIDM2LjcgOTZsMCAxOTIgMjQwIDAgMC0xOTJjMC0yOC40LTEyLjQtNTQtMzItNzEuNkw0OTYgODhsMC05YzQ3LjQgMjMuNiA4MCA3Mi41IDgwIDEyOWwwIDE5MiAwIDQ4LTQ4IDAtMjQwIDAtNDggMEw0OCA0NDggMCA0NDhsMC00OEwwIDIwOEMwIDEyOC41IDY0LjUgNjQgMTQ0IDY0bDE3NiAwIDAgMjQgMCAyNC02OC43IDB6TTEwNCAxOTJsODAgMCAyNCAwIDAgNDgtMjQgMC04MCAwLTI0IDAgMC00OCAyNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mailbox-flag-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mailbox-flag-up.svg)
  */
 const MailboxFlagUp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

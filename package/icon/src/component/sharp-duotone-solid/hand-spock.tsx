@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `hand-spock` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-spock?s=sharp-duotone-solid hand-spock}
- * @preview ![hand-spock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMS40IDMyOC41bDI5IDI3LjZMMTU2LjggNDQ4YzQzLjEgNDEuMSAxMDAuNCA2NCAxNjAgNjRsMi4zIDAgMTYuOSAwYzU3IDAgMTA2LjktMzcuMyAxMjMtOTEuN2w4My43LTI4My4yIDkuMS0zMC43TDQ5MC40IDg4LjJsLTkuMSAzMC43TDQ0MC44IDI1NmwtMjQuNyAwTDQ1NS4zIDcwLjZsNi42LTMxLjNMMzk5LjMgMjYuMWwtNi42IDMxLjNMMzUwLjcgMjU2bC00MS41IDBMMjUxLjIgMzkuNyAyNDIuOSA4LjggMTgxLjEgMjUuNGw4LjMgMzAuOUwyNDIuOSAyNTZsLTI5LjYgMEwxNjYuNiAxMDIuN2wtOS4zLTMwLjZMOTYuMSA5MC43bDkuMyAzMC42IDcxLjcgMjM1LjUtNjEuNi01OC42LTI5LTI3LjZMMzEuNCAzMjguNXpNMjI0IDMyMGM1LjMgMCAxMC43IDAgMTYgMGMyLjcgMCA1LjMgMCA4IDBjNTAuNyAwIDEwMS4zIDAgMTUyIDBjNS4zIDAgMTAuNyAwIDE2IDBsMCAzMmMtNS4zIDAtMTAuNyAwLTE2IDBjLTI1LjYgMC01MS4zIDAtNzcgMGMxNy45IDE4LjcgMjkgNDQuMSAyOSA3MmwwIDggMCAxNmMtMTAuNyAwLTIxLjMgMC0zMiAwbDAtMTYgMC04YzAtMzkuOC0zMi4yLTcyLTcyLTcyYy0yLjcgMC01LjMgMC04IDBjLTUuMyAwLTEwLjcgMC0xNiAwbDAtMzJ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yNDAgMzIwbC0xNiAwIDAgMzIgMTYgMCA4IDBjMzkuOCAwIDcyIDMyLjIgNzIgNzJsMCA4IDAgMTYgMzIgMCAwLTE2IDAtOGMwLTI3LjktMTEtNTMuMy0yOS03Mmw3NyAwIDE2IDAgMC0zMi0xNiAwLTE1MiAwLTggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-spock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand-spock.svg)
  */
 const HandSpock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M31.4 328.5l29 27.6L156.8 448c43.1 41.1 100.4 64 160 64l2.3 0 16.9 0c57 0 106.9-37.3 123-91.7l83.7-283.2 9.1-30.7L490.4 88.2l-9.1 30.7L440.8 256l-24.7 0L455.3 70.6l6.6-31.3L399.3 26.1l-6.6 31.3L350.7 256l-41.5 0L251.2 39.7 242.9 8.8 181.1 25.4l8.3 30.9L242.9 256l-29.6 0L166.6 102.7l-9.3-30.6L96.1 90.7l9.3 30.6 71.7 235.5-61.6-58.6-29-27.6L31.4 328.5zM224 320c5.3 0 10.7 0 16 0c2.7 0 5.3 0 8 0c50.7 0 101.3 0 152 0c5.3 0 10.7 0 16 0l0 32c-5.3 0-10.7 0-16 0c-25.6 0-51.3 0-77 0c17.9 18.7 29 44.1 29 72l0 8 0 16c-10.7 0-21.3 0-32 0l0-16 0-8c0-39.8-32.2-72-72-72c-2.7 0-5.3 0-8 0c-5.3 0-10.7 0-16 0l0-32z" />
-            <path d="M240 320l-16 0 0 32 16 0 8 0c39.8 0 72 32.2 72 72l0 8 0 16 32 0 0-16 0-8c0-27.9-11-53.3-29-72l77 0 16 0 0-32-16 0-152 0-8 0z" />
+        <path d="M240 320l-16 0 0 32 16 0 8 0c39.8 0 72 32.2 72 72l0 8 0 16 32 0 0-16 0-8c0-27.9-11-53.3-29-72l77 0 16 0 0-32-16 0-152 0-8 0z" />
     </Icon>
 );
 

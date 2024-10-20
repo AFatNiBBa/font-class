@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `taxi` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taxi?s=regular taxi}
- * @preview ![taxi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMzIgMCAuMmMtMzUuMiAyLjItNjUuOSAyNS4yLTc3LjcgNTguOEw0OC4xIDIyMC44QzE5LjMgMjM3LjQgMCAyNjguNCAwIDMwNGwwIDgwIDAgNDggMCA1NmMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtNTYgNDE2IDAgMCA1NmMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtNTYgMC00OCAwLTgwYzAtMzUuNi0xOS40LTY2LjYtNDguMS04My4ybC0zNC4zLTk3LjlDNDE3LjkgODkuMyAzODcuMiA2Ni4zIDM1MiA2NC4ybDAtLjIgMC0zMmMwLTE3LjctMTQuMy0zMi0zMi0zMkwxOTIgMHpNMTY1LjQgMTEybDE4MS4yIDBjMTcgMCAzMi4xIDEwLjcgMzcuOCAyNi44TDQwOC42IDIwOGwtMzA1LjEgMCAyNC4yLTY5LjJjNS42LTE2IDIwLjgtMjYuOCAzNy44LTI2Ljh6TTk2IDI1NmwzMjAgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDgwTDQ4IDM4NGwwLTgwYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4em00OCA2NGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0yNTYgMzJhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![taxi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/taxi.svg)
  */
 const Taxi: typeof Icon = x => (
     <Icon {...x}>

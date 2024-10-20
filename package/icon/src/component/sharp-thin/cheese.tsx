@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cheese` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cheese?s=sharp-thin cheese}
- * @preview ![cheese](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjcybDAgMTkyIDQ4MCAwIDAtMTkyTDE2IDI3MnptMTAuMS0xNkw0OTYgMjU2YzAtMTEzLjEtOTAuMi0yMDUuMS0yMDIuNi0yMDcuOUwyNi4xIDI1NnpNMCAyNTZMMjg4IDMyYzEyMy43IDAgMjI0IDEwMC4zIDIyNCAyMjRsMCAyMDggMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgMjU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cheese](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cheese.svg)
  */
 const Cheese: typeof Icon = x => (
     <Icon {...x}>

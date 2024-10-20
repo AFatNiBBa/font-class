@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `message-arrow-down` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-arrow-down?s=duotone message-arrow-down}
- * @preview ![message-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEw0NDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDI4OGMwIDM1LjMtMjguNyA2NC02NCA2NGwtMTM4LjcgMEwxODUuNiA1MDguOGMtNC44IDMuNi0xMS4zIDQuMi0xNi44IDEuNXMtOC44LTguMi04LjgtMTQuM2wwLTgwLTk2IDBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6TTE2MCAyMjRjMCA2LjEgMi4zIDEyLjMgNyAxN2w3MiA3MmM0LjcgNC43IDEwLjggNyAxNyA3czEyLjMtMi4zIDE3LTdsNzItNzJjNC43LTQuNyA3LTEwLjggNy0xN3MtMi4zLTEyLjMtNy0xN2MtOS40LTkuNC0yNC42LTkuNC0zMy45IDBsLTMxIDMxTDI4MCAxMjBjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRsMCAxMTguMS0zMS0zMWMtOS40LTkuNC0yNC42LTkuNC0zMy45IDBjLTQuNyA0LjctNyAxMC44LTcgMTd6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yNTYgOTZjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAxMTguMSAzMS0zMWM5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjQgMjQuNiAwIDMzLjlsLTcyIDcyYy05LjQgOS40LTI0LjYgOS40LTMzLjkgMGwtNzItNzJjLTkuNC05LjQtOS40LTI0LjYgMC0zMy45czI0LjYtOS40IDMzLjkgMGwzMSAzMUwyMzIgMTIwYzAtMTMuMyAxMC43LTI0IDI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![message-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/message-arrow-down.svg)
  */
 const MessageArrowDown: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-138.7 0L185.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-80-96 0c-35.3 0-64-28.7-64-64L0 64zM160 224c0 6.1 2.3 12.3 7 17l72 72c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7l72-72c4.7-4.7 7-10.8 7-17s-2.3-12.3-7-17c-9.4-9.4-24.6-9.4-33.9 0l-31 31L280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 118.1-31-31c-9.4-9.4-24.6-9.4-33.9 0c-4.7 4.7-7 10.8-7 17z" />
-            <path d="M256 96c13.3 0 24 10.7 24 24l0 118.1 31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31L232 120c0-13.3 10.7-24 24-24z" />
+        <path d="M256 96c13.3 0 24 10.7 24 24l0 118.1 31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31L232 120c0-13.3 10.7-24 24-24z" />
     </Icon>
 );
 

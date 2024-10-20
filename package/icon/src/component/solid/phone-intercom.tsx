@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-intercom` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-intercom?s=solid phone-intercom}
- * @preview ![phone-intercom](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzJsMzIgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDM1MmMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMzIgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhMMCA4MEMwIDUzLjUgMjEuNSAzMiA0OCAzMnpNMTYwIDk2YzAtMzUuMyAyOC43LTY0IDY0LTY0bDIyNCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yMjQgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0zMjB6TTMyMCAzNjhhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHptNDgtNDhjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNjQgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtNjQgMHptMCA2NGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmw2NCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC02NCAwek0yMjQgMTI4bDAgOTZjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTYwIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC05NmMwLTE3LjctMTQuMy0zMi0zMi0zMkwyNTYgOTZjLTE3LjcgMC0zMiAxNC4zLTMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![phone-intercom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-intercom.svg)
  */
 const PhoneIntercom: typeof Icon = x => (
     <Icon {...x}>

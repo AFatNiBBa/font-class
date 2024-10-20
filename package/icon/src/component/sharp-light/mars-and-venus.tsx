@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mars-and-venus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-and-venus?s=sharp-light mars-and-venus}
- * @preview ![mars-and-venus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDBMMzUyIDBsMCAzMiAxNiAwIDczLjQgMC03NS42IDc1LjZDMzM3LjEgODAuNiAyOTguNSA2NCAyNTYgNjRDMTY3LjYgNjQgOTYgMTM1LjYgOTYgMjI0YzAgODMgNjMuMSAxNTEuMiAxNDQgMTU5LjJsMCAzMi44LTMyIDAtMTYgMCAwIDMyIDE2IDAgMzIgMCAwIDQ4IDAgMTYgMzIgMCAwLTE2IDAtNDggMzIgMCAxNiAwIDAtMzItMTYgMC0zMiAwIDAtMzIuOGM4MC45LTggMTQ0LTc2LjIgMTQ0LTE1OS4yYzAtMzQuMy0xMC44LTY2LjEtMjkuMi05Mi4yTDQ2NCA1NC42bDAgNzMuNCAwIDE2IDMyIDAgMC0xNiAwLTExMiAwLTE2TDQ4MCAwIDM2OCAwek0yNTYgOTZhMTI4IDEyOCAwIDEgMSAwIDI1NiAxMjggMTI4IDAgMSAxIDAtMjU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mars-and-venus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mars-and-venus.svg)
  */
 const MarsAndVenus: typeof Icon = x => (
     <Icon {...x}>

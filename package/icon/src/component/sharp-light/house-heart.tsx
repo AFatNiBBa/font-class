@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-heart?s=sharp-light house-heart}
- * @preview ![house-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk4LjYgMTJMMjg4IDIuNyAyNzcuNCAxMiA1LjQgMjUybDIxLjIgMjRMNjQgMjQzbDAgMjUzIDAgMTYgMTYgMCA0MTYgMCAxNiAwIDAtMTYgMC0yNTMgMzcuNCAzMyAyMS4yLTI0TDI5OC42IDEyek05NiA0ODBsMC0yNjUuM0wyODggNDUuMyA0ODAgMjE0LjcgNDgwIDQ4MCA5NiA0ODB6TTI4MC4zIDI0MS4yYy0xMS41LTExLTI2LjgtMTcuMi00Mi43LTE3LjJsLTIuNCAwYy0zMi43IDAtNTkuMiAyNi41LTU5LjIgNTkuMmMwIDE2LjEgNi42IDMxLjUgMTguMiA0Mi43bDgyLjggNzkuNkwyODggNDE2LjFsMTEuMS0xMC43IDgyLjgtNzkuNmMxMS42LTExLjIgMTguMi0yNi42IDE4LjItNDIuN2MwLTMyLjctMjYuNS01OS4yLTU5LjItNTkuMmwtMi40IDBjLTE1LjkgMC0zMS4yIDYuMi00Mi43IDE3LjJsLTcuNyA3LjQtNy43LTcuNHptNzkuMyA2MS42TDI4OCAzNzEuN2wtNzEuNy02OC45Yy01LjMtNS4xLTguMy0xMi4yLTguMy0xOS42YzAtMTUgMTIuMi0yNy4yIDI3LjItMjcuMmwyLjQgMGM3LjcgMCAxNSAzIDIwLjUgOC4zbDcuNyA3LjRMMjg4IDI5M2wyMi4yLTIxLjMgNy43LTcuNGM1LjUtNS4zIDEyLjktOC4zIDIwLjUtOC4zbDIuNCAwYzE1IDAgMjcuMiAxMi4yIDI3LjIgMjcuMmMwIDcuNC0zIDE0LjUtOC4zIDE5LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/house-heart.svg)
  */
 const HouseHeart: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

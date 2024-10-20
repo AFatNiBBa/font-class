@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chopsticks` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chopsticks?s=light chopsticks}
- * @preview ![chopsticks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMuNiA0NjQuNUwzMzMuNyA0Mi43QzMzOSAzNi4xIDM0Ni45IDMyIDM1NS43IDMyQzM3MS4xIDMyIDM4NCA0NC43IDM4NCA2MWMwIDYuNy0yLjIgMTIuOC01LjkgMTcuN0w0My42IDQ2NC41ek0zNTUuNyAwYy0xOS40IDAtMzYuNSA5LjItNDcuNSAyMy40bC0uMyAuNC0uMyAuNEw2LjIgNDYyLjRjLTEwIDEzLjQtNy43IDMyLjQgNS41IDQyLjljMTMuMyAxMC42IDMyLjUgOC4zIDQzLTQuOEw0MDIuNiA5OS4zbC4zLS4zIC4zLS40QzQxMS4yIDg4LjIgNDE2IDc1LjEgNDE2IDYxYzAtMzMuNS0yNi44LTYxLTYwLjMtNjF6TTE3NC42IDQ2Ny45TDU2MC40IDEwMi43YzUtNC4yIDExLjUtNi43IDE4LjYtNi43YzE2LjIgMCAyOSAxMi45IDI5IDI4LjZjMCA4LjUtMy43IDE2LjEtOS44IDIxLjRMMTc0LjYgNDY3Ljl6TTU3OSA2NGMtMTUuMSAwLTI5IDUuNS0zOS42IDE0LjVsLS4zIC4zLS4zIC4zTDEzOC41IDQ1OGMtMTIuNyAxMS4xLTE0LjEgMzAuNC0zIDQzLjNjMTEgMTIuOCAzMC4zIDE0LjMgNDMuMiAzLjdMNjE4IDE3MS4ybC4zLS4zIC4zLS4zYzEzLTExLjEgMjEuNC0yNy42IDIxLjQtNDZDNjQwIDkxIDYxMi41IDY0IDU3OSA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chopsticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chopsticks.svg)
  */
 const Chopsticks: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

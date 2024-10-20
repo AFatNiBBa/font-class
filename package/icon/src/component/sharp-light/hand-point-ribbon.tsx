@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-point-ribbon` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-ribbon?s=sharp-light hand-point-ribbon}
- * @preview ![hand-point-ribbon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMEw2NCAwbDAgMTYgMCA0OEw1MS4yIDY0IDE3LjkgNjQgMzguNyA5MGwyNCAzMC0yNCAzMEwxNy45IDE3NmwzMy4zIDBMNjQgMTc2bDAgNjQtMTYgMC0xNiAwIDAgMTYgMCA5NmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MGw2NCAwYzg4LjQgMCAxNjAtNzEuNiAxNjAtMTYwYzAgMCAwIDAgMCAwbDAtMTYgMC02NCAwLTE2IDAtNDggMC0xNi0xNiAwLTY0IDAgMC0xNi0xNiAwLTY0IDAgMC0xNiAwLTE2LTE2IDAtNjQgMCAwLTQ4IDAtMzIgMC00OCAwLTE2TDE2MCAwIDgwIDB6bTY0IDY0TDk2IDY0bDAtMzIgNDggMCAwIDMyem0wIDMybDAgNDgtNTkuNSAwIDExLjItMTQgOC0xMC04LTEwTDg0LjUgOTYgMTQ0IDk2em0wIDgwbDAgNjQtNDggMCAwLTY0IDQ4IDB6bTMyIDBsNDggMCAwIDE2IDAgNDgtNDggMCAwLTY0em00OCA5NnMwIDAgMCAwbDAgNDgtODAgMC0xNiAwIDAgMzIgMTYgMCA4MCAwIDE2IDAgMTYgMCA0OCAwIDE2IDAgMTYgMCA0OCAwYzAgNzAuNy01Ny4zIDEyOC0xMjggMTI4bC02NCAwYy03MC43IDAtMTI4LTU3LjMtMTI4LTEyOGwwLTgwIDgwIDBzMCAwIDAgMGwzMiAwczAgMCAwIDBsNDggMHptMzIgMGwwLTE2IDAtMTYgMC0zMiA0OCAwIDAgMTEyLTQ4IDAgMC00OHptMTI4IDBsMCA0OC00OCAwIDAtOTYgNDggMCAwIDMyIDAgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-point-ribbon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hand-point-ribbon.svg)
  */
 const HandPointRibbon: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `circle-p` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-p?s=duotone circle-p}
- * @preview ![circle-p](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NmEyNTYgMjU2IDAgMSAwIDUxMiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZ6TTE2MCAxNTJjMC0xMy4zIDEwLjctMjQgMjQtMjRsOTIgMGM1MC44IDAgOTIgNDEuMiA5MiA5MnMtNDEuMiA5Mi05MiA5MmwtNjggMCAwIDQ4YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtNzIgMC0xMzZ6bTQ4IDI0bDAgODggNjggMGMyNC4zIDAgNDQtMTkuNyA0NC00NHMtMTkuNy00NC00NC00NGwtNjggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTE2MCAxNTJjMC0xMy4zIDEwLjctMjQgMjQtMjRsOTIgMGM1MC44IDAgOTIgNDEuMiA5MiA5MnMtNDEuMiA5Mi05MiA5MmwtNjggMCAwIDQ4YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtNzIgMC0xMzZ6bTQ4IDExMmw2OCAwYzI0LjMgMCA0NC0xOS43IDQ0LTQ0cy0xOS43LTQ0LTQ0LTQ0bC02OCAwIDAgODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-p](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-p.svg)
  */
 const CircleP: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM160 152c0-13.3 10.7-24 24-24l92 0c50.8 0 92 41.2 92 92s-41.2 92-92 92l-68 0 0 48c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-72 0-136zm48 24l0 88 68 0c24.3 0 44-19.7 44-44s-19.7-44-44-44l-68 0z" />
-            <path d="M160 152c0-13.3 10.7-24 24-24l92 0c50.8 0 92 41.2 92 92s-41.2 92-92 92l-68 0 0 48c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-72 0-136zm48 112l68 0c24.3 0 44-19.7 44-44s-19.7-44-44-44l-68 0 0 88z" />
+        <path d="M160 152c0-13.3 10.7-24 24-24l92 0c50.8 0 92 41.2 92 92s-41.2 92-92 92l-68 0 0 48c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-72 0-136zm48 112l68 0c24.3 0 44-19.7 44-44s-19.7-44-44-44l-68 0 0 88z" />
     </Icon>
 );
 

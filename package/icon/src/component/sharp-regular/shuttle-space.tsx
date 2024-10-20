@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shuttle-space` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuttle-space?s=sharp-regular shuttle-space}
- * @preview ![shuttle-space](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzg0bC04IDBMMCAzODRsMC0yNCAwLTMyTDAgMTg0bDAtMzIgMC0yNCAyNCAwIDggMCAwLTQ4IDAtNDggNDggMCAxMTIgMEw0MDUuMyAxNjBsNTAuNyAwYzcwLjQgMCAxMjcuNiAyMy41IDE3MS4yIDgxLjZMNjM4IDI1NmwtMTAuOCAxNC40QzU4My42IDMyOC41IDUyNi40IDM1MiA0NTYgMzUybC01MC43IDBMMTkyIDQ4MCA4MCA0ODBsLTQ4IDAgMC00OCAwLTQ4em0yODAtMzJsLTE1MS4xIDBMMTI4IDM3MS40bDAgNjAuNiA1MC43IDBMMzEyIDM1MnptMC0xOTJMMTc4LjcgODAgMTI4IDgwbDAgNjAuNkwxNjAuOSAxNjAgMzEyIDE2MHpNNDggMTg0bDAgMTQ0IDAgOCA0NS41IDAgNDguOC0yOC43IDUuNi0zLjMgNi41IDBMNDU2IDMwNGMzNC40IDAgNjMuMy02LjUgODgtMjEuMWwwLTUzLjdjLTI0LjctMTQuNy01My42LTIxLjEtODgtMjEuMWwtMzAxLjYgMC02LjUgMC01LjYtMy4zTDkzLjUgMTc2IDQ4IDE3NmwwIDh6bTQzMiA0MGwwIDY0LTMyIDAgMC02NCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shuttle-space](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shuttle-space.svg)
  */
 const ShuttleSpace: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

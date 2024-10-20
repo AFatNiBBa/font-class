@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chalkboard-user` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chalkboard-user?s=regular chalkboard-user}
- * @preview ![chalkboard-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDQ4TDIyNCA0OGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNDEuM2MtMTQuOC02LTMxLTkuMy00OC05LjNsMC0zMmMwLTM1LjMgMjguNy02NCA2NC02NEw1NzYgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDI4OGMwIDM1LjMtMjguNyA2NC02NCA2NGwtMzIgMC0yNCAwLTEyOCAwLTI0IDAtMzEuMiAwYy04LjMtMTgtMTkuOC0zNC4yLTMzLjctNDhsNjQuOSAwIDAtNDBjMC0zMC45IDI1LjEtNTYgNTYtNTZsNjQgMGMzMC45IDAgNTYgMjUuMSA1NiA1NmwwIDQwIDMyIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMjg4YzAtOC44LTcuMi0xNi0xNi0xNnpNNDk2IDM2OGwwLTQwYzAtNC40LTMuNi04LTgtOGwtNjQgMGMtNC40IDAtOCAzLjYtOCA4bDAgNDAgODAgMHpNMjA4IDIyNGE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwek02NCAyMjRhOTYgOTYgMCAxIDEgMTkyIDBBOTYgOTYgMCAxIDEgNjQgMjI0ek01MC43IDQ2NGwyMTguNiAwYy05LjUtMzYuOC00Mi45LTY0LTgyLjYtNjRsLTUzLjMgMGMtMzkuOCAwLTczLjIgMjcuMi04Mi42IDY0ek0wIDQ4NS4zQzAgNDExLjcgNTkuNyAzNTIgMTMzLjMgMzUybDUzLjMgMEMyNjAuMyAzNTIgMzIwIDQxMS43IDMyMCA0ODUuM2MwIDE0LjctMTEuOSAyNi43LTI2LjcgMjYuN0wyNi43IDUxMkMxMS45IDUxMiAwIDUwMC4xIDAgNDg1LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chalkboard-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chalkboard-user.svg)
  */
 const ChalkboardUser: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ramp-loading` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ramp-loading?s=thin ramp-loading}
- * @preview ![ramp-loading](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMTZsMjU2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAzMjMuOCAxNiAyOS4zIDAtMS4xIDAtMzUyYzAtMzUuMy0yOC43LTY0LTY0LTY0TDk2IDBDNjAuNyAwIDMyIDI4LjcgMzIgNjRsMCAzNTIgMCAxLjEgMTYtMjkuM0w0OCA2NGMwLTI2LjUgMjEuNS00OCA0OC00OHptNjcuMSAyNzJjLTE0LjcgMC0yOC4yIDguMS0zNS4yIDIxTDM3LjcgNDc2LjZjLTguNiAxNiAzIDM1LjQgMjEuMSAzNS40bDMzMC40IDBjMTguMiAwIDI5LjctMTkuNCAyMS4xLTM1LjRMMzIwLjEgMzA5Yy03LTEzLTIwLjUtMjEtMzUuMi0yMWwtMTIxLjggMHpNMTQyIDMxNi42YzQuMi03LjggMTIuMy0xMi42IDIxLjEtMTIuNmwxMjEuOCAwYzguOCAwIDE2LjkgNC44IDIxLjEgMTIuNmw5MC4yIDE2Ny42YzIuOSA1LjMtMSAxMS44LTcgMTEuOEw1OC44IDQ5NmMtNi4xIDAtOS45LTYuNS03LTExLjhMMTQyIDMxNi42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ramp-loading](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ramp-loading.svg)
  */
 const RampLoading: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

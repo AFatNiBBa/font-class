@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-to-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-to-line?s=sharp-thin arrow-up-to-line}
- * @preview ![arrow-up-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAzMkwwIDMyIDAgNDhsOCAwIDM2OCAwIDggMCAwLTE2LTggMEw4IDMyem0xODkuNyA5OC4zbC01LjctNS43LTUuNyA1LjctMTM2IDEzNkw0NC43IDI3MiA1NiAyODMuM2w1LjctNS43TDE4NCAxNTUuMyAxODQgNDcybDAgOCAxNiAwIDAtOCAwLTMxNi43TDMyMi4zIDI3Ny43bDUuNyA1LjdMMzM5LjMgMjcybC01LjctNS43LTEzNi0xMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-up-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-up-to-line.svg)
  */
 const ArrowUpToLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `smog` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smog?s=sharp-solid smog}
- * @preview ![smog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDI4Ny4xYy01LjMgLjYtMTAuNiAuOS0xNiAuOUwzMiAyODhsMC0xNDRDMzIgNjQuNSA5Ni41IDAgMTc2IDBjMzQuNSAwIDY2LjEgMTIuMSA5MC45IDMyLjNDMjg5LjYgMTIuMiAzMTkuNCAwIDM1MiAwYzQ5LjEgMCA5MS44IDI3LjcgMTEzLjIgNjguM0M0NzUgNjUuNSA0ODUuMyA2NCA0OTYgNjRjNjEuOSAwIDExMiA1MC4xIDExMiAxMTJsMCAxMTItMTEyIDAtMjcuMyAwYy0yMi42IDE5LjktNTIuMiAzMi04NC43IDMycy02Mi4xLTEyLjEtODQuNy0zMkwxOTIgMjg4bDAtLjl6TTYxNiAzNjhsMjQgMCAwIDQ4LTI0IDAtMzM2IDAtMjQgMCAwLTQ4IDI0IDAgMzM2IDB6bS02NCA5NmwyNCAwIDAgNDgtMjQgMC0xMTIgMC0yNCAwIDAtNDggMjQgMCAxMTIgMHptLTE5MiAwbDI0IDAgMCA0OC0yNCAwTDI0IDUxMiAwIDUxMmwwLTQ4IDI0IDAgMzM2IDB6TTIyNCAzNjhsMCA0OC0yNCAwTDk2IDQxNmwtMjQgMCAwLTQ4IDI0IDAgMTA0IDAgMjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![smog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/smog.svg)
  */
 const Smog: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

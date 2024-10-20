@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ballot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ballot?s=sharp-light ballot}
- * @preview ![ballot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMybDAgNDQ4TDMyIDQ4MCAzMiAzMmwzODQgMHpNMzIgMEwwIDAgMCAzMiAwIDQ4MGwwIDMyIDMyIDAgMzg0IDAgMzIgMCAwLTMyIDAtNDQ4IDAtMzJMNDE2IDAgMzIgMHpNMTYwIDExMmwwIDMyIDE2IDAgMTc2IDAgMTYgMCAwLTMyLTE2IDAtMTc2IDAtMTYgMHptMCAxMjhsMCAzMiAxNiAwIDE3NiAwIDE2IDAgMC0zMi0xNiAwLTE3NiAwLTE2IDB6bTAgMTI4bDAgMzIgMTYgMCAxNzYgMCAxNiAwIDAtMzItMTYgMC0xNzYgMC0xNiAwek0xMjAgMTA0bC00OCAwIDAgNDggNDggMCAwLTQ4ek03MiAyMzJsMCA0OCA0OCAwIDAtNDgtNDggMHptNDggMTI4bC00OCAwIDAgNDggNDggMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ballot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ballot.svg)
  */
 const Ballot: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

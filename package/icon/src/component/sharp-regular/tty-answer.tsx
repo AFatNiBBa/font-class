@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tty-answer` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tty-answer?s=sharp-regular tty-answer}
- * @preview ![tty-answer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyLjQgMzY5LjJsMzEuOSAxOC40IDI2LTI2IDMzLjItMzMuMkw0NTcuNyAzNjZsLTE3LjggOTcuOUMyMjUuNCA0NTkuNyA1Mi4zIDI4Ni42IDQ4LjEgNzJMMTQ2IDU0LjJsMzcuNyA5NC4yLTMzLjIgMzMuMi0yNiAyNiAxOC40IDMxLjljMzEgNTMuOCA3NS44IDk4LjYgMTI5LjYgMTI5LjZ6TTUxMiAzMzZMMzUyIDI3MmwtNTUuNiA1NS42Yy00Ni41LTI2LjgtODUuMi02NS41LTExMi0xMTJMMjQwIDE2MCAxNzYgMCAwIDMyIDAgNjRDMCAzMTEuNCAyMDAuNiA1MTIgNDQ4IDUxMmwzMiAwIDMyLTE3NnpNMzUyIDY0bC02NCAwIDAgNjQgNjQgMCAwLTY0em0tNjQgOTZsMCA2NCA2NCAwIDAtNjQtNjQgMHpNNDQ4IDY0bC02NCAwIDAgNjQgNjQgMCAwLTY0em0zMiAwbDAgNjQgNjQgMCAwLTY0LTY0IDB6bTE2MCAwbC02NCAwIDAgNjQgNjQgMCAwLTY0em0tNjQgOTZsMCA2NCA2NCAwIDAtNjQtNjQgMHptLTMyIDBsLTE2MCAwIDAgNjQgMTYwIDAgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tty-answer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tty-answer.svg)
  */
 const TtyAnswer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

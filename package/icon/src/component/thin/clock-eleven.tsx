@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clock-eleven` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-eleven?s=thin clock-eleven}
- * @preview ![clock-eleven](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAxIDE2IDI1NmEyNDAgMjQwIDAgMSAxIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAwIDUxMiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZ6TTI0OCAxMDRsMCAxMjUuNi00OS4zLTc0Yy0yLjUtMy43LTcuNC00LjctMTEuMS0yLjJzLTQuNyA3LjQtMi4yIDExLjFsNjQgOTZjMiAyLjkgNS42IDQuMiA5IDMuMnM1LjctNC4xIDUuNy03LjdsMC0xNTJjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clock-eleven](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/clock-eleven.svg)
  */
 const ClockEleven: typeof Icon = x => (
     <Icon {...x}>

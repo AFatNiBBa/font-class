@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tarp-droplet` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tarp-droplet?s=sharp-thin tarp-droplet}
- * @preview ![tarp-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDExMy41YzAtNS4yLTIuOS0xNC41LTkuNS0yNy40Yy02LjMtMTIuMi0xNC44LTI1LjYtMjMuNi0zOC4yYy04LjItMTEuNy0xNi40LTIyLjUtMjIuOS0zMC42Yy02LjQgOC4xLTE0LjcgMTguOS0yMi45IDMwLjZjLTguOCAxMi42LTE3LjMgMjUuOS0yMy42IDM4LjJjLTYuNiAxMi45LTkuNSAyMi4yLTkuNSAyNy40YzAgMjcuNSAyNC4xIDUxLjUgNTYgNTEuNXM1Ni0yNCA1Ni01MS41em0tMTI4IDBjMC0yOC40IDQxLjgtODQgNjEuNy0xMDguOUMyODMuOS0zLjIgMjg4LTggMjg4LThzNC4xIDQuOCAxMC4zIDEyLjZDMzE4LjIgMjkuNSAzNjAgODUuMSAzNjAgMTEzLjVjMCAzNy4zLTMyLjIgNjcuNS03MiA2Ny41cy03Mi0zMC4yLTcyLTY3LjV6TTE2IDEyOGwxNzcuMyAwYy45IDUuNSAyLjMgMTAuOSA0LjEgMTZMMTYgMTQ0bDAgMzUyIDM4NCAwIDAtMTUyIDAtOCA4IDAgMTUyIDAgMC0xOTItMTgxLjUgMGMxLjgtNS4xIDMuMi0xMC41IDQuMS0xNkw1NjAgMTI4bDE2IDAgMCAxNiAwIDIwOEw0MTYgNTEyIDE2IDUxMiAwIDUxMmwwLTE2TDAgMTQ0bDAtMTYgMTYgMHpNNTUzLjQgMzUyTDQxNiAzNTJsMCAxMzcuNEw1NTMuNCAzNTJ6TTcyIDIxNmExNiAxNiAwIDEgMCAzMiAwIDE2IDE2IDAgMSAwIC0zMiAwem0xNiAzMmEzMiAzMiAwIDEgMSAwLTY0IDMyIDMyIDAgMSAxIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tarp-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tarp-droplet.svg)
  */
 const TarpDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

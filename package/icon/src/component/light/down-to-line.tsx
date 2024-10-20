@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-to-line` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-to-line?s=light down-to-line}
- * @preview ![down-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDQ4bDM1MiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2TDE2IDQ4MGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnptMTc0LjItOTYuOGMuNSAuNSAxLjEgLjggMS44IC44czEuNC0uMyAxLjgtLjhMMzE4LjIgMjE5LjNjMS4yLTEuMiAxLjgtMi45IDEuOC00LjZjMC0zLjctMy02LjctNi43LTYuN0wyNTYgMjA4Yy04LjggMC0xNi03LjItMTYtMTZsMC0xMjBjMC00LjQtMy42LTgtOC04bC04MCAwYy00LjQgMC04IDMuNi04IDhsMCAxMjBjMCA4LjgtNy4yIDE2LTE2IDE2bC01Ny4zIDBjLTMuNyAwLTYuNyAzLTYuNyA2LjdjMCAxLjcgLjcgMy4zIDEuOCA0LjZMMTkwLjIgMzUxLjJ6TTE5MiAzODRjLTkuNSAwLTE4LjYtMy45LTI1LjEtMTAuOEw0Mi41IDI0MS4yQzM1LjggMjM0IDMyIDIyNC41IDMyIDIxNC43QzMyIDE5My4zIDQ5LjMgMTc2IDcwLjcgMTc2bDQxLjMgMCAwLTEwNGMwLTIyLjEgMTcuOS00MCA0MC00MGw4MCAwYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgMTA0IDQxLjMgMGMyMS40IDAgMzguNyAxNy4zIDM4LjcgMzguN2MwIDkuOS0zLjggMTkuMy0xMC41IDI2LjVMMjE3LjEgMzczLjJjLTYuNSA2LjktMTUuNiAxMC44LTI1LjEgMTAuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/down-to-line.svg)
  */
 const DownToLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

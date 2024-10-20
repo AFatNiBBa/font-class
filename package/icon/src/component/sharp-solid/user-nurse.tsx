@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-nurse` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-nurse?s=sharp-solid user-nurse}
- * @preview ![user-nurse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMTI4bDAtODBMMjI0IDAgMzUyIDQ4bDAgODAtLjMgMGMuMiAyLjYgLjMgNS4zIC4zIDhsMCA0MGMwIDcwLjctNTcuMyAxMjgtMTI4IDEyOHMtMTI4LTU3LjMtMTI4LTEyOGwwLTQwYzAtMi43IC4xLTUuNCAuMy04bC0uMyAwem00OCA0OGMwIDQ0LjIgMzUuOCA4MCA4MCA4MHM4MC0zNS44IDgwLTgwbDAtMTYtMTYwIDAgMCAxNnpNMTI2LjEgMzIwTDIyNCA0MjRsOTcuOS0xMDQgNjIuMSAwIDY0IDE5MkwwIDUxMiA2NCAzMjBsNjIuMSAwek0yMDggNjRsLTI0IDAgMCAzMiAyNCAwIDAgMjQgMzIgMCAwLTI0IDI0IDAgMC0zMi0yNCAwIDAtMjQtMzIgMCAwIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-nurse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-nurse.svg)
  */
 const UserNurse: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

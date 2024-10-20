@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rev` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rev?s=brands rev}
- * @preview ![rev](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg5LjY3IDI3NC44OWE2NS41NyA2NS41NyAwIDEgMS02NS41Ni02NS41NiA2NS42NCA2NS42NCAwIDAgMSA2NS41NiA2NS41NnptMTM5LjU1LTUuMDVoLS4xM2EyMDQuNjkgMjA0LjY5IDAgMCAwLTc0LjMyLTE1M2wtNDUuMzggMjYuMmExNTcuMDcgMTU3LjA3IDAgMCAxIDcxLjgxIDEzMS44NEMzODEuMiAzNjEuNSAzMTAuNzMgNDMyIDIyNC4xMSA0MzJTNjcgMzYxLjUgNjcgMjc0Ljg4YzAtODEuODggNjMtMTQ5LjI3IDE0My0xNTYuNDN2MzkuMTJsMTA4Ljc3LTYyLjc5TDIxMCAzMnYzOC4zMmMtMTA2LjcgNy4yNS0xOTEgOTYtMTkxIDIwNC41NyAwIDExMS41OSA4OS4xMiAyMDIuMjkgMjAwLjA2IDIwNXYuMTFoMjEwLjE2VjI2OS44NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rev](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/rev.svg)
  */
 const Rev: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `backward` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backward?s=regular backward}
- * @preview ![backward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDk0YzAtMTYuNi0xMy41LTMwLTMwLTMwYy02LjMgMC0xMi41IDItMTcuNiA1LjdMOS45IDIzNi42QzMuNyAyNDEuMSAwIDI0OC4zIDAgMjU2czMuNyAxNC45IDkuOSAxOS40TDI0MC4zIDQ0Mi4zYzUuMSAzLjcgMTEuMyA1LjcgMTcuNiA1LjdjMTYuNiAwIDMwLTEzLjQgMzAtMzBsMC05OS4xTDQ2NC43IDQ0Mi42YzUuMSAzLjUgMTEuMSA1LjQgMTcuMyA1LjRjMTYuNiAwIDMwLjEtMTMuNSAzMC4xLTMwLjFsMC0zMjMuOEM1MTIgNzcuNSA0OTguNSA2NCA0ODEuOSA2NGMtNi4yIDAtMTIuMiAxLjktMTcuMyA1LjRMMjg4IDE5My4xIDI4OCA5NHptMCAxNTcuN0w0NjQgMTI4LjVsMCAyNTVMMjg4IDI2MC4zbDAtOC42ek02NC45IDI1NkwyNDAgMTI5LjJsMCAyNTMuNkw2NC45IDI1NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![backward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/backward.svg)
  */
 const Backward: typeof Icon = x => (
     <Icon {...x}>

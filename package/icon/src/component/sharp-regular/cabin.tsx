@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cabin` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabin?s=sharp-regular cabin}
- * @preview ![cabin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDU4LjJMNDI3LjMgMTc2IDg0LjcgMTc2IDI1NiA1OC4yek00MzIgMTIxTDI1NiAwIDAgMTc2bDAgNDggNDggMCA0MTYgMCA0OCAwIDAtNDgtMzItMjIgMC0xMjItNDggMCAwIDg5ek0zMiAyNzJsMCA0OCAxNjAgMCAwLTQ4TDMyIDI3MnptMCAxOTJsMCA0OCAxNjAgMCAwLTQ4TDMyIDQ2NHptMTYwLTk2TDMyIDM2OGwwIDQ4IDE2MCAwIDAtNDh6bTEyOC05NmwwIDQ4IDE2MCAwIDAtNDgtMTYwIDB6TTQ4MCA0NjRsLTE2MCAwIDAgNDggMTYwIDAgMC00OHpNMzIwIDM2OGwwIDQ4IDE2MCAwIDAtNDgtMTYwIDB6TTI1NiAxNjBhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cabin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cabin.svg)
  */
 const Cabin: typeof Icon = x => (
     <Icon {...x}>

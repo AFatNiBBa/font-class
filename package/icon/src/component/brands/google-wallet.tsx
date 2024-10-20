@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `google-wallet` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/google-wallet?s=brands google-wallet}
- * @preview ![google-wallet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU2LjggMTI2LjhjMzcuNiA2MC42IDY0LjIgMTEzLjEgODQuMyAxNjIuNS04LjMgMzMuOC0xOC44IDY2LjUtMzEuMyA5OC4zLTEzLjItNTIuMy0yNi41LTEwMS4zLTU2LTE0OC41IDYuNS0zNi40IDIuMy03My42IDMtMTEyLjN6TTEwOS4zIDIwMEgxNi4xYy02LjUgMC0xMC41IDcuNS02LjUgMTIuN0M1MS44IDI2NyA4MS4zIDMzMC41IDEwMS4zIDQwMGgxMDMuNWMtMTYuMi02OS43LTM4LjctMTMzLjctODIuNS0xOTMuNS0zLTQtOC02LjUtMTMtNi41em00Ny44LTg4YzY4LjUgMTA4IDEzMCAyMzQuNSAxMzguMiAzNjhINDA5Yy0xMi0xMzgtNjguNC0yNjUtMTQzLjItMzY4SDE1Ny4xem0yNTEuOC02OC41Yy0xLjgtNi44LTguMi0xMS41LTE1LjItMTEuNWgtODguM2MtNS4zIDAtOSA1LTcuOCAxMC4zIDEzLjIgNDYuNSAyMi4zIDk1LjUgMjYuNSAxNDYgNDguMiA4Ni4yIDc5LjcgMTc4LjMgOTAuNiAyNzAuOCAxNS44LTYwLjUgMjUuMy0xMzMuNSAyNS4zLTIwMyAwLTczLjYtMTIuMS0xNDUuMS0zMS4xLTIxMi42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![google-wallet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/google-wallet.svg)
  */
 const GoogleWallet: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `uniform-martial-arts` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/uniform-martial-arts?s=sharp-solid uniform-martial-arts}
- * @preview ![uniform-martial-arts](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgwIDBsNTcuNyAwIDY5LjkgMTQ0LjdMMjUzIDI4OGwtMTA5IDAgMC0xNTQuOUw5NiAyMjAuMyA5NiAzNjhsMCA0OEwwIDQxNmwwLTQ4TDAgMjA4bDAtMTIuMyA1LjktMTAuOCA4OC0xNjBMMTA3LjYgMCAxMzYgMGw4IDAgMzYgMHpNMTQ0IDM1MmwwLTMyIDEyMCAwIDU2IDAgMTc2IDAgMCAzMi0xMDcuNiAwLTM4LjUgMEwzOTIgNDE1LjJsOC45IDEzLjMtMjYuNiAxNy44TDM2NS40IDQzMyAzMjAgMzY0LjggMjc0LjYgNDMzbC04LjkgMTMuMy0yNi42LTE3LjggOC45LTEzLjNMMjkwLjEgMzUybC0zOC41IDBMMTQ0IDM1MnptNzcuMyA0NS41bC0yNi42IDM5LjkgNzkuOSA1My4zIDI2LjYtMzkuOUwzMjAgNDIyLjVsMTguOCAyOC4yIDI2LjYgMzkuOSA3OS45LTUzLjMtMjYuNi0zOS45LTktMTMuNSA4Ni4zIDAgMCAxMjgtMzUyIDAgMC0xMjggODYuMyAwLTkgMTMuNXpNNDk2IDEzMy4xTDQ5NiAyODhsLTIwOC44IDAgNTIuNy0xMzguM0wzOTYuOSAwIDQ2MCAwbDM2IDAgOCAwIDI4LjQgMCAxMy43IDI0LjkgODggMTYwIDUuOSAxMC44IDAgMTIuMyAwIDE2MCAwIDQ4LTk2IDAgMC00OCAwLTE0Ny43LTQ4LTg3LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![uniform-martial-arts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/uniform-martial-arts.svg)
  */
 const UniformMartialArts: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

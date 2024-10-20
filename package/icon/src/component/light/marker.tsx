@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `marker` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/marker?s=light marker}
- * @preview ![marker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzMwLjMgOTdMMzUzIDc0LjNsMjAuNy0yMC43YzIzLjQtMjMuNCA2MS4zLTIzLjQgODQuNyAwczIzLjQgNjEuMyAwIDg0LjdMMjkzLjcgMzAzIDIwOSAyMTguMyAzMzAuMyA5N3ptLTE0NCAxNDRMMjcxIDMyNS43bC02NC4yIDY0LjJjLTQzLjYgNDMuNi05OSA3My4yLTE1OS40IDg1LjNsLTEzLjIgMi42IDIuNi0xMy4yYzEyLjEtNjAuNCA0MS44LTExNS45IDg1LjMtMTU5LjRMMTg2LjMgMjQxek0zMDcuNyA3NC4zTDI4NS4xIDk3IDk5LjUgMjgyLjVjLTQ4IDQ4LTgwLjggMTA5LjItOTQuMSAxNzUuOGwtNSAyNWMtMS42IDcuOSAuOSAxNiA2LjYgMjEuN3MxMy44IDguMSAyMS43IDYuNmwyNS01YzY2LjYtMTMuMyAxMjcuOC00Ni4xIDE3NS44LTk0LjFMNDgxIDE2MWMzNS45LTM1LjkgMzUuOS05NC4xIDAtMTI5LjlTMzg2LjktNC44IDM1MSAzMUwzMzAuMyA1MS43IDMxNy4zIDM4LjZjLTI1LTI1LTY1LjUtMjUtOTAuNSAwbC05NCA5NHMwIDAgMCAwYy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNnMxNi40IDYuMiAyMi42IDBsOTQuMS05NC4xYzkuMS05LjEgMjIuMy0xMS42IDMzLjYtNy40YzQuMiAxLjUgOC4yIDQgMTEuNiA3LjRsMTMuMSAxMy4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![marker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/marker.svg)
  */
 const Marker: typeof Icon = x => (
     <Icon {...x}>

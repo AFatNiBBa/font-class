@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sd-cards` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sd-cards?s=regular sd-cards}
- * @preview ![sd-cards](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDM1MmwwLTI4OGMwLTguOC03LjItMTYtMTYtMTZMMjM0LjUgNDhjLTQuMiAwLTguMyAxLjctMTEuMyA0LjdsLTc0LjUgNzQuNWMtMyAzLTQuNyA3LjEtNC43IDExLjNMMTQ0IDM1MmMwIDguOCA3LjIgMTYgMTYgMTZsMjI0IDBjOC44IDAgMTYtNy4yIDE2LTE2ek0xMTQuNyA5My4zbDc0LjUtNzQuNUMyMDEuMyA2LjcgMjE3LjUgMCAyMzQuNSAwTDM4NCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjg4YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yMjQgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0yMTMuNWMwLTE3IDYuNy0zMy4zIDE4LjctNDUuM3pNMjQgOTZjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAyNTZjMCA0OC42IDM5LjQgODggODggODhsMjI0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTIyNCAwQzYwLjkgNTEyIDAgNDUxLjEgMCAzNzZMMCAxMjBjMC0xMy4zIDEwLjctMjQgMjQtMjR6bTI4MCAwbDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2em02NCAwbDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC02NGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sd-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sd-cards.svg)
  */
 const SdCards: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

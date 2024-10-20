@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `envelope-open` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-open?s=duotone envelope-open}
- * @preview ![envelope-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCAyMDguMWwwIDQ3LjRMMjIyLjUgMzczYzkuNyA3LjIgMjEuNCAxMSAzMy41IDExczIzLjgtMy45IDMzLjUtMTFjNTIuOC0zOS4xIDEwNS43LTc4LjMgMTU4LjUtMTE3LjRsMC00Ny40Yy02NC00Ny40LTEyOC05NC44LTE5Mi0xNDIuMmMtNjQgNDcuNC0xMjggOTQuOC0xOTIgMTQyLjJ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik02NCAyMDguMUwyNTYgNjUuOSA0NDggMjA4LjFsMCA0Ny40TDI4OS41IDM3M2MtOS43IDcuMi0yMS40IDExLTMzLjUgMTFzLTIzLjgtMy45LTMzLjUtMTFMNjQgMjU1LjVsMC00Ny40ek0yNTYgMGMtMTIuMSAwLTIzLjggMy45LTMzLjUgMTFMMjUuOSAxNTYuN0M5LjYgMTY4LjggMCAxODcuOCAwIDIwOC4xTDAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjM5LjljMC0yMC4zLTkuNi0zOS40LTI1LjktNTEuNEwyODkuNSAxMUMyNzkuOCAzLjkgMjY4LjEgMCAyNTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![envelope-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/envelope-open.svg)
  */
 const EnvelopeOpen: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M64 208.1l0 47.4L222.5 373c9.7 7.2 21.4 11 33.5 11s23.8-3.9 33.5-11c52.8-39.1 105.7-78.3 158.5-117.4l0-47.4c-64-47.4-128-94.8-192-142.2c-64 47.4-128 94.8-192 142.2z" />
-            <path d="M64 208.1L256 65.9 448 208.1l0 47.4L289.5 373c-9.7 7.2-21.4 11-33.5 11s-23.8-3.9-33.5-11L64 255.5l0-47.4zM256 0c-12.1 0-23.8 3.9-33.5 11L25.9 156.7C9.6 168.8 0 187.8 0 208.1L0 448c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-239.9c0-20.3-9.6-39.4-25.9-51.4L289.5 11C279.8 3.9 268.1 0 256 0z" />
+        <path d="M64 208.1L256 65.9 448 208.1l0 47.4L289.5 373c-9.7 7.2-21.4 11-33.5 11s-23.8-3.9-33.5-11L64 255.5l0-47.4zM256 0c-12.1 0-23.8 3.9-33.5 11L25.9 156.7C9.6 168.8 0 187.8 0 208.1L0 448c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-239.9c0-20.3-9.6-39.4-25.9-51.4L289.5 11C279.8 3.9 268.1 0 256 0z" />
     </Icon>
 );
 

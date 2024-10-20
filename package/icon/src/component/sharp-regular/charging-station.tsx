@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `charging-station` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/charging-station?s=sharp-regular charging-station}
- * @preview ![charging-station](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgNDhsMCA0MTYgMTkyIDAgMC00MTZMODAgNDh6TTMyIDQ2NEwzMiA0OCAzMiAwIDgwIDAgMjcyIDBsNDggMCAwIDQ4IDAgMjA4IDggMGM0OC42IDAgODggMzkuNCA4OCA4OGwwIDI4YzAgMTUuNSAxMi41IDI4IDI4IDI4czI4LTEyLjUgMjgtMjhsMC0xMDMuN2MtMzIuNS0xMC4yLTU2LTQwLjUtNTYtNzYuM2wwLTQwIDAtMjQgMjQgMCA4IDAgMC00OCAwLTE2IDMyIDAgMCAxNiAwIDQ4IDMyIDAgMC00OCAwLTE2IDMyIDAgMCAxNiAwIDQ4IDggMCAyNCAwIDAgMjQgMCA0MGMwIDM1LjgtMjMuNSA2Ni4xLTU2IDc2LjNMNTIwIDM3MmMwIDQyLTM0IDc2LTc2IDc2cy03Ni0zNC03Ni03NmwwLTI4YzAtMjIuMS0xNy45LTQwLTQwLTQwbC04IDAgMCAxNjAgMzIgMCAwIDQ4LTMyIDAtNDggMEw4MCA1MTJsLTQ4IDBMMCA1MTJsMC00OCAzMiAwek00NjQgMTkyYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0xNi02NCAwIDAgMTZ6TTk2IDIyNEwyMjQgMTEybC0yMi45IDgwIDU0LjkgMEwxMjggMzA0bDIyLjktODBMOTYgMjI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![charging-station](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/charging-station.svg)
  */
 const ChargingStation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-flag` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-flag?s=light house-flag}
- * @preview ![house-flag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDE2IDAgMzIgMCA5NiAwIDMyIDAgMzIwIDMyIDAgMC0zMjAgMTQ0IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMTI4YzAtOC44LTcuMi0xNi0xNi0xNkw0ODAgMzJsMC0xNmMwLTguOC03LjItMTYtMTYtMTZ6bTE2IDE2MGwwLTk2IDEyOCAwIDAgOTYtMTI4IDB6bS02NC0yNEwyODEuNiAzNS4yYy01LjctNC4zLTEzLjUtNC4zLTE5LjIgMGwtMjU2IDE5MmMtNy4xIDUuMy04LjUgMTUuMy0zLjIgMjIuNHMxNS4zIDguNSAyMi40IDMuMkw2NCAyMjRsMCAyMTZjMCAzOS44IDMyLjIgNzIgNzIgNzJsMjcyIDBjMi43IDAgNS40LS4yIDgtLjRsMC0zMi40Yy0yLjYgLjUtNS4zIC44LTggLjhsLTY0IDAgMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJsLTgwIDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMTI4LTY0IDBjLTIyLjEgMC00MC0xNy45LTQwLTQwbDAtMjQwTDI3MiA2OCA0MTYgMTc2bDAtNDB6TTMxMiAzNTJsMCAxMjgtODAgMCAwLTEyOCA4MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/house-flag.svg)
  */
 const HouseFlag: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

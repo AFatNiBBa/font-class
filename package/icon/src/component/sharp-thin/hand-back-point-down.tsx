@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-back-point-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-point-down?s=sharp-thin hand-back-point-down}
- * @preview ![hand-back-point-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNTEybC04IDAgMC04IDAtMjI0IDAtOCAwLTcuNEwxOC44IDIwNi4xIDE2IDIwMy43bDAtMy43IDAtNTMuN0MxNiA5Ny41IDQyLjIgNTIuNCA4NC41IDI4LjJsMTgtMTAuM0MxMjMuMSA2LjIgMTQ2LjMgMCAxNzAgMEwzMTIgMGM1Ny40IDAgMTA0IDQ2LjYgMTA0IDEwNGwwIDE2IDAgODggMCA0OCAwIDgtOCAwLTU2IDAgMCAyNCAwIDgtOCAwLTY0IDAgMCAyNCAwIDgtOCAwLTgwIDAgMCAxNzYgMCA4LTggMC04OCAwek04OCAyNDMuN0w4OCAxNjhsMC04IDE2IDAgMCA4IDAgODkuMiAwIDMuNyAwIDExLjEgMCA4IDAgMjE2IDcyIDAgMC0xNzYgMC04IDggMCA4MCAwIDAtMjQgMC04IDggMCA2NCAwIDAtMjQgMC04IDggMCA1NiAwIDAtNDAgMC04OCAwLTE2YzAtNDguNi0zOS40LTg4LTg4LTg4TDE3MCAxNmMtMjAuOSAwLTQxLjQgNS40LTU5LjUgMTUuOGwtMTggMTAuM0M1NS4xIDYzLjUgMzIgMTAzLjIgMzIgMTQ2LjNsMCA1MCA1NiA0Ny40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-back-point-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-back-point-down.svg)
  */
 const HandBackPointDown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

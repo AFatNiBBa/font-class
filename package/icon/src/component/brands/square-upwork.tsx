@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-upwork` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-upwork?s=brands square-upwork}
- * @preview ![square-upwork](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYgMzJsMzM2IDBjMzAuOSAwIDU2IDI1LjEgNTYgNTZsMCAzMzZjMCAzMC45LTI1LjEgNTYtNTYgNTZMNTYgNDgwYy0zMC45IDAtNTYtMjUuMS01Ni01NkwwIDg4QzAgNTcuMSAyNS4xIDMyIDU2IDMyek0yNzAuOSAyNzQuMmM2LjYtNTIuOSAyNS45LTY5LjUgNTEuNC02OS41YzI1LjMgMCA0NC45IDIwLjIgNDQuOSA0OS43cy0xOS43IDQ5LjctNDQuOSA0OS43Yy0yNy45IDAtNDYuMy0yMS41LTUxLjQtMjkuOXptLTI2LjctNDEuOGMtOC4yLTE1LjUtMTQuMy0zNi4zLTE5LjItNTUuNmwtMjkuNyAwLTMzLjIgMCAwIDc4LjFjMCAyOC40LTEyLjkgNDkuNC0zOC4yIDQ5LjRzLTM5LjgtMjAuOS0zOS44LTQ5LjNsLjMtNzguMS0zNi4yIDAgMCA3OC4xYzAgMjIuOCA3LjQgNDMuNSAyMC45IDU4LjJjMTMuOSAxNS4yIDMyLjggMjMuMiA1NC44IDIzLjJjNDMuNyAwIDc0LjItMzMuNSA3NC4yLTgxLjVsMC01Mi41YzQuNiAxNy4zIDE1LjQgNTAuNSAzNi4yIDc5LjdMMjE1IDM5Mi42bDM2LjggMCAxMi44LTc4LjRjNC4yIDMuNSA4LjcgNi42IDEzLjQgOS40YzEyLjMgNy44IDI2LjQgMTIuMiA0MC45IDEyLjZsLjEgMGMuNSAwIDEuMSAwIDEuNiAwYy42IDAgMS4xIDAgMS43IDBjNDUuMSAwIDgwLjktMzQuOSA4MC45LTgxLjlzLTM1LjktODIuMi04MC45LTgyLjJjLTQ1LjQgMC03MC45IDI5LjctNzguMSA2MC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-upwork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-upwork.svg)
  */
 const SquareUpwork: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

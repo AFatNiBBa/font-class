@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `euro-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/euro-sign?s=sharp-light euro-sign}
- * @preview ![euro-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQuMyAyMjRjLTEuNSAxMC41LTIuMyAyMS4xLTIuMyAzMnMuOCAyMS41IDIuMyAzMkwwIDI4OGwwIDMyIDQxLjMgMEM2OC44IDQxMi41IDE1NC41IDQ4MCAyNTYgNDgwbDQ5IDAgMTYgMCAwLTMyLTE2IDAtNDkgMGMtODMuNiAwLTE1NC43LTUzLjQtMTgxLjEtMTI4TDI4OCAzMjBsMC0zMkw2Ni43IDI4OGMtMS43LTEwLjQtMi43LTIxLjEtMi43LTMycy45LTIxLjYgMi43LTMyTDI4OCAyMjRsMC0zMkw3NC45IDE5MkMxMDEuMyAxMTcuNCAxNzIuNCA2NCAyNTYgNjRsNDkgMCAxNiAwIDAtMzItMTYgMC00OSAwQzE1NC41IDMyIDY4LjggOTkuNSA0MS4zIDE5MkwwIDE5MmwwIDMyIDM0LjMgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![euro-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/euro-sign.svg)
  */
 const EuroSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

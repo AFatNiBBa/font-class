@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `piggy-bank` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/piggy-bank?s=sharp-solid piggy-bank}
- * @preview ![piggy-bank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDk2bDAgLjdjLTUuMy0uNC0xMC42LS43LTE2LS43TDI1NiA5NmMtMTYuNSAwLTMyLjUgMi4xLTQ3LjggNmMtLjEtMi0uMi00LS4yLTZjMC01MyA0My05NiA5Ni05NnM5NiA0MyA5NiA5NnptLTE2IDMyYzMuNSAwIDcgLjEgMTAuNCAuM2M0LjIgLjMgOC40IC43IDEyLjYgMS4zQzQyNC42IDEwOS4xIDQ1MC44IDk2IDQ4MCA5NmwzMiAwLTE4LjggNzUuMWMxNS44IDE0LjggMjguNyAzMi44IDM3LjUgNTIuOWw0NS4zIDAgMCAxNjAtNjQgMGMtOS4xIDEyLjEtMTkuOSAyMi45LTMyIDMybDAgOTYtOTYgMCAwLTY0LTEyOCAwIDAgNjQtOTYgMCAwLTk2Yy0zNC45LTI2LjItNTguNy02Ni4zLTYzLjItMTEyTDY4IDMwNGMtMzcuNiAwLTY4LTMwLjQtNjgtNjhzMzAuNC02OCA2OC02OGwxMiAwIDAgNDgtMTIgMGMtMTEgMC0yMCA5LTIwIDIwczkgMjAgMjAgMjBsMzEuMiAwYzEyLjEtNTkuOCA1Ny43LTEwNy41IDExNi4zLTEyMi44YzEyLjktMy40IDI2LjUtNS4yIDQwLjUtNS4ybDEyOCAwem02NCAxMzZhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![piggy-bank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/piggy-bank.svg)
  */
 const PiggyBank: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

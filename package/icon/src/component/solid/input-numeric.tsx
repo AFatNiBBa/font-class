@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `input-numeric` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-numeric?s=solid input-numeric}
- * @preview ![input-numeric](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDEyOGwwIDI1Nkw2NCAzODRsMC0yNTYgNTEyIDB6TTY0IDY0QzI4LjcgNjQgMCA5Mi43IDAgMTI4TDAgMzg0YzAgMzUuMyAyOC43IDY0IDY0IDY0bDUxMiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjU2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDY0em00MCAxMjBjMCAxMy4zIDEwLjcgMjQgMjQgMjRsOCAwIDAgOTYtMTYgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw4MCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0xNiAwIDAtMTIwYzAtMTMuMy0xMC43LTI0LTI0LTI0bC0zMiAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHptMTkwLjYgMzAuNGM1LjctOCAxNy41LTguNiAyNC0xLjJjNS4yIDUuOSA1IDE0LjctLjMgMjAuNWwtNzIgNzhjLTYuNSA3LTguMiAxNy4yLTQuMyAyNS45czEyLjUgMTQuNCAyMiAxNC40bDg4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTMzLjIgMCAzNC44LTM3LjdjMjItMjMuOCAyMi40LTYwLjMgMS4xLTg0LjdjLTI2LjktMzAuNy03NS40LTI4LjQtOTkuMiA0LjlsLTExLjEgMTUuNmMtNy43IDEwLjgtNS4yIDI1LjggNS42IDMzLjVzMjUuOCA1LjIgMzMuNS01LjZsMTEuMS0xNS42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![input-numeric](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/input-numeric.svg)
  */
 const InputNumeric: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

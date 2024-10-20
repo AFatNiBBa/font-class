@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bring-front` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bring-front?s=regular bring-front}
- * @preview ![bring-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDhsMTI4IDBjOC44IDAgMTYgNy4yIDE2IDE2bDQ4IDBjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCAxOTJjMCAzNS4zIDI4LjcgNjQgNjQgNjRsNjQgMCAwLTQ4LTY0IDBjLTguOCAwLTE2LTcuMi0xNi0xNkw0OCA2NGMwLTguOCA3LjItMTYgMTYtMTZ6TTQ0OCA1MTJsMTI4IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xMjhjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTY0IDAgMCA0OCA2NCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDEyOGMwIDguOC03LjIgMTYtMTYgMTZsLTEyOCAwYy04LjggMC0xNi03LjItMTYtMTZsLTQ4IDBjMCAzNS4zIDI4LjcgNjQgNjQgNjR6TTIyNCA5NmMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAxOTJjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMTkyIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xOTJjMC0zNS4zLTI4LjctNjQtNjQtNjRMMjI0IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bring-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bring-front.svg)
  */
 const BringFront: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

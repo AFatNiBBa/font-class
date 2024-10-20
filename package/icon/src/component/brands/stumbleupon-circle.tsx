@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stumbleupon-circle` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stumbleupon-circle?s=brands stumbleupon-circle}
- * @preview ![stumbleupon-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDhDMTE5IDggOCAxMTkgOCAyNTZzMTExIDI0OCAyNDggMjQ4IDI0OC0xMTEgMjQ4LTI0OFMzOTMgOCAyNTYgOHptMCAxNzcuNWMtOS44IDAtMTcuOCA4LTE3LjggMTcuOHYxMDYuOWMwIDQwLjktMzMuOSA3My45LTc0LjkgNzMuOS00MS40IDAtNzQuOS0zMy41LTc0LjktNzQuOXYtNDYuNWg1Ny4zdjQ1LjhjMCAxMCA4IDE3LjggMTcuOCAxNy44czE3LjgtNy45IDE3LjgtMTcuOFYyMDAuMWMwLTQwIDM0LjItNzIuMSA3NC43LTcyLjEgNDAuNyAwIDc0LjcgMzIuMyA3NC43IDcyLjZ2MjMuN2wtMzQuMSAxMC4xLTIyLjktMTAuN3YtMjAuNmMuMS05LjYtNy45LTE3LjYtMTcuNy0xNy42em0xNjcuNiAxMjMuNmMwIDQxLjQtMzMuNSA3NC45LTc0LjkgNzQuOS00MS4yIDAtNzQuOS0zMy4yLTc0LjktNzQuMlYyNjNsMjIuOSAxMC43IDM0LjEtMTAuMXY0Ny4xYzAgOS44IDggMTcuNiAxNy44IDE3LjZzMTcuOC03LjkgMTcuOC0xNy42di00OGg1Ny4zYy0uMSA0NS45LS4xIDQ2LjQtLjEgNDYuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![stumbleupon-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/stumbleupon-circle.svg)
  */
 const StumbleuponCircle: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

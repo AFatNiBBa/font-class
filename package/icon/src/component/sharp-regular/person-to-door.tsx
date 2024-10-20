@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-to-door` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-to-door?s=sharp-regular person-to-door}
- * @preview ![person-to-door](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDQ4YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTEzNiAxMTJsLTggMC02LjQgNC44LTY0IDQ4TDM4LjQgMTc5LjJsMjguOCAzOC40IDE5LjItMTQuNEwxNDQgMTYwbDMzLjQgMC0zMS44IDk1LjRjLTguNSAyNS41IDIuMyA1My40IDI1LjcgNjYuNWw4OCA0OS41TDIxNS40IDUxMmw1MC4zIDAgNDUuMy0xNDQuOCA1LjgtMTguNS0xNi45LTkuNS00My40LTI0LjQgMjguMS04NC40IDEyLjUgNDAuOCA1LjIgMTYuOSAxNy43IDAgNzIgMCAyNCAwIDAtNDgtMjQgMC01NC4zIDAtMjYuOC04Ny4xLTMuOS0xMi42LTEyLjctMy41LTg4LTI0LTMuMS0uOC0zLjIgMC02NCAwem01NS4xIDE1OC41bDM0LjItMTAyLjcgMjcgNy40TDIxMy44IDI5MC43bC0xOS0xMC43Yy0zLjMtMS45LTQuOS01LjktMy43LTkuNXpNMTAzLjQgMzY4TDI0IDM2OCAwIDM2OGwwIDQ4IDI0IDAgOTYgMCAxNi42IDAgNS45LTE1LjUgMTgtNDcuOS00LjktMi44Yy0xNC4xLTgtMjUuNC0xOS4zLTMzLTMyLjZMMTAzLjQgMzY4ek01MjggNDhsMCA0MTYtOTYgMCAwLTE0NC00OCAwIDAgMTQ0IDAgNDggNDggMCA5NiAwIDQ4IDAgMC00OCAwLTQxNiAwLTQ4TDUyOCAwIDQzMiAwIDM4NCAwbDAgNDggMCAxNjAgNDggMCAwLTE2MCA5NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-to-door](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-to-door.svg)
  */
 const PersonToDoor: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

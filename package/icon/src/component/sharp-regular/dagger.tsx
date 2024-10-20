@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dagger` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dagger?s=sharp-regular dagger}
- * @preview ![dagger](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDBsMCAyNCAwIDEwNCA4IDAgNDggMCA0MCAwIDI0IDAgNDggMCAwIDQ4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4bC0xNiAwLTQ4IDAtMzIgMC0zMiAwLTQ4IDAtMTYgMGMwIDI2LjUtMjEuNSA0OC00OCA0OHMtNDgtMjEuNS00OC00OGwwLTQ4IDQ4IDAgMjQgMCA0MCAwIDQ4IDAgOCAwIDAtMTA0IDAtMjQgNDggMHpNMTYwIDM5OC42TDE5MiA0MzdsMzItMzguNEwyMjQgMjA4bDQ4IDAgMCAyMDgtNDguOCA1OC41TDE5MiA1MTJsLTMxLjItMzcuNUwxMTIgNDE2bDAtMjA4IDQ4IDAgMCAxOTAuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dagger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/dagger.svg)
  */
 const Dagger: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

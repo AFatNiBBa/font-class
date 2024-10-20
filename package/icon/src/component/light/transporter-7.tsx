@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `transporter-7` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-7?s=light transporter-7}
- * @preview ![transporter-7](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDQ4YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTYtMTYgMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxNiAwIDAgMTZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTE2IDE2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTE2IDAgMC0xNnpNNjQgMjcyYzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTYtMTYgMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxNiAwIDAgMTZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTE2IDE2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTE2IDAgMC0xNnptNjQgMjI0YzAtOC44IDcuMi0xNiAxNi0xNmwyMjQgMGM4LjggMCAxNiA3LjIgMTYgMTZzNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmMwLTI2LjUtMjEuNS00OC00OC00OGwtMjI0IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![transporter-7](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/transporter-7.svg)
  */
 const Transporter_7: typeof Icon = x => (
     <Icon {...x}>

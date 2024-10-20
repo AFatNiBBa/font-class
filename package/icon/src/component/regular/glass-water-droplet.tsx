@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glass-water-droplet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-water-droplet?s=regular glass-water-droplet}
- * @preview ![glass-water-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEMxNy4zIDAgMTAuOSAyLjggNi4zIDcuOFMtLjUgMTkuNCAuMSAyNi4xTDM2LjMgNDQ2LjJDMzkuNSA0ODMuNCA3MC43IDUxMiAxMDggNTEyTDI3NiA1MTJjMzcuNCAwIDY4LjUtMjguNiA3MS43LTY1LjhMMzgzLjkgMjYuMWMuNi02LjctMS43LTEzLjMtNi4yLTE4LjNzLTExLTcuOC0xNy43LTcuOEwyNCAwek03My41IDMxOS4yTDUwLjIgNDhsMjgzLjcgMEwzMTAuNSAzMTkuMmwtOS4zIDUuMmMtMTYuMiA5LTM2LjIgNy4zLTUwLjctNC4zYy0zNC4yLTI3LjQtODIuOC0yNy40LTExNyAwQzExOSAzMzEuNiA5OSAzMzMuMyA4Mi44IDMyNC4zbC05LjMtNS4yem00LjcgNTVjMjkgOC42IDYwLjkgMi44IDg1LjItMTYuNmMxNi43LTEzLjMgNDAuNC0xMy4zIDU3IDBjMjQuMyAxOS40IDU2LjIgMjUuMyA4NS4yIDE2LjZsLTUuOSA2Ny45QzI5OC44IDQ1NC41IDI4OC40IDQ2NCAyNzYgNDY0TDEwOCA0NjRjLTEyLjUgMC0yMi44LTkuNS0yMy45LTIxLjlsLTUuOS02Ny45ek0yNTYgMTk2YzAtMjQtMzMuNy03MC4xLTUyLjItOTMuNWMtNi4xLTcuNy0xNy41LTcuNy0yMy42IDBDMTYxLjcgMTI1LjkgMTI4IDE3MiAxMjggMTk2YzAgMzMuMSAyOC43IDYwIDY0IDYwczY0LTI2LjkgNjQtNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![glass-water-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/glass-water-droplet.svg)
  */
 const GlassWaterDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

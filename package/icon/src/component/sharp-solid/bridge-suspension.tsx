@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bridge-suspension` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-suspension?s=sharp-solid bridge-suspension}
- * @preview ![bridge-suspension](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDhMMTA1LjIgOCA5OC41IDIxLjNjLTIxLjEgNDIuMi01Ni44IDcxLjQtOTYgOTcuOWwyNi45IDM5LjhDNTEuNyAxNDMuOSA3NSAxMjYuNyA5NiAxMDUuNEw5NiAyNTZsLTgwIDBMMCAyNTZsMCAxNiAwIDY0IDAgMTYgMTYgMCA4MCAwIDAgMTQ0IDAgMTYgMTYgMCA2NCAwIDE2IDAgMC0xNiAwLTE0NCAyNTYgMCAwIDE0NCAwIDE2IDE2IDAgNjQgMCAxNiAwIDAtMTYgMC0xNDQgODAgMCAxNiAwIDAtMTYgMC02NCAwLTE2LTE2IDAtODAgMCAwLTE1MC42YzIxIDIxLjMgNDQuMyAzOC41IDY2LjYgNTMuNmwyNi45LTM5LjhjLTM5LjItMjYuNS03NC45LTU1LjctOTYtOTcuOUw1MzQuOCA4IDUyMCA4IDUwNCA4IDQ5MC4xIDhsLTYuOSAxMi4xQzQ0Ny42IDgyLjQgMzg5LjQgMTIwIDMyMCAxMjBzLTEyNy42LTM3LjYtMTYzLjItOTkuOUwxNDkuOSA4IDEzNiA4IDEyMCA4em0zNjAgOTQuNEw0ODAgMjU2bC00MCAwIDAtMTIyLjFjMTQuNC05IDI3LjctMTkuNiA0MC0zMS42ek0yMDAgMjU2bC00MCAwIDAtMTUzLjZjMTIuMyAxMiAyNS42IDIyLjYgNDAgMzEuNkwyMDAgMjU2em05NiAwbC00OCAwIDAtOTkuNWMxNS4zIDUuMSAzMS4zIDguNSA0OCAxMC4zbDAgODkuMnptOTYgMGwtNDggMCAwLTg5LjJjMTYuNy0xLjcgMzIuNy01LjIgNDgtMTAuMmwwIDk5LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bridge-suspension](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bridge-suspension.svg)
  */
 const BridgeSuspension: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

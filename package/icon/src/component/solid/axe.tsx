@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `axe` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/axe?s=solid axe}
- * @preview ![axe](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc0LjYgOS40Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMGwtOTYgOTZjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zTDM4NCAzMDEuM2wwIDgyLjdjMCAxNy43IDE0LjMgMzIgMzIgMzJjMTIzLjcgMCAyMjQtMTAwLjMgMjI0LTIyNGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtODIuNyAwLTU2LTU2IDMzLjQtMzMuNGMxMi41LTEyLjUgMTIuNS0zMi44IDAtNDUuM2wtMTYtMTZjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwTDQwOCA0Mi43IDM3NC42IDkuNHpNNDQ4IDMxNmM0NS0xMS42IDgwLjQtNDcgOTItOTJsMzIuOCAwQzU2MC4xIDI4Ni43IDUxMC43IDMzNi4xIDQ0OCAzNDguOGwwLTMyLjh6TTI0NC4xIDIwNi42TDkuNCA0NDEuNGMtMTIuNSAxMi41LTEyLjUgMzIuOCAwIDQ1LjNsMTYgMTZjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBMMzA1LjQgMjY3LjlsLTYxLjMtNjEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![axe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/axe.svg)
  */
 const Axe: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mill-sign` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mill-sign?s=sharp-regular mill-sign}
- * @preview ![mill-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY4IDI1MS41TDczLjYgNDk1LjNsNDQuOCAxNy4zTDE2OCAzODQuNWwwIDM5LjUgMCAyNCA0OCAwIDAtMjQgMC0xNjMuNSA0NC4zLTExNC40YzUtMS40IDEwLjMtMi4xIDE1LjctMi4xYzMzLjEgMCA2MCAyNi45IDYwIDYwbDAgMjIwIDAgMjQgNDggMCAwLTI0IDAtMjIwYzAtNTguNC00Ni40LTEwNi0xMDQuNC0xMDcuOWwzMC43LTc5LjRMMjY1LjYtLjcgMjIyLjggMTEwYy0xMS44IDYuNy0yMi4zIDE1LjYtMzAuOCAyNi4xQzE3Mi4yIDExMS42IDE0MS45IDk2IDEwOCA5NmMtMjIuMiAwLTQyLjggNi43LTYwIDE4LjJMNDggOTYgMCA5NiAwIDIwNGwwIDRMMCA0MjRsMCAyNCA0OCAwIDAtMjQgMC0yMTYgMC00YzAtMzMuMSAyNi45LTYwIDYwLTYwczYwIDI2LjkgNjAgNjBsMCA0Ny41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mill-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mill-sign.svg)
  */
 const MillSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

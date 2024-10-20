@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-sad-cry` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-cry?s=sharp-regular face-sad-cry}
- * @preview ![face-sad-cry](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDQwNi4xTDQwMCAyODhsMC0yNC00OCAwIDAgMjQgMCAxNTIuNmMtMjguNyAxNS02MS40IDIzLjQtOTYgMjMuNHMtNjcuMy04LjUtOTYtMjMuNEwxNjAgMjg4bDAtMjQtNDggMCAwIDI0IDAgMTE4LjFDNzIuNiAzNjguMiA0OCAzMTUgNDggMjU2QzQ4IDE0MS4xIDE0MS4xIDQ4IDI1NiA0OHMyMDggOTMuMSAyMDggMjA4YzAgNTktMjQuNiAxMTIuMi02NCAxNTAuMXptMCA2MS42QzQ2Ny42IDQyMS42IDUxMiAzNDQgNTEyIDI1NkM1MTIgMTE0LjYgMzk3LjQgMCAyNTYgMFMwIDExNC42IDAgMjU2YzAgODggNDQuNCAxNjUuNiAxMTIgMjExLjdsMCA0LjMgNi41IDBjMzkuNyAyNS4zIDg2LjkgNDAgMTM3LjUgNDBzOTcuOC0xNC43IDEzNy41LTQwbDYuNSAwIDAtNC4zek0xOTkuNSAyMzQuM2wzMi4yLTIzLjhjLTM2LTQ4LjctMTA4LjItNDguNy0xNDQuMiAwbDMyLjIgMjMuOGMyMC0yNy4xIDU5LjgtMjcuMSA3OS44IDB6bTExMi4yIDBjMjAtMjcuMSA1OS44LTI3LjEgNzkuOCAwbDMyLjItMjMuOGMtMzYtNDguNy0xMDguMi00OC43LTE0NC4yIDBsMzIuMiAyMy44ek0yMDggMzIwbDAgMzJjMCAyNi41IDIxLjUgNDggNDggNDhzNDgtMjEuNSA0OC00OGwwLTMyYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4cy00OCAyMS41LTQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-sad-cry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-sad-cry.svg)
  */
 const FaceSadCry: typeof Icon = x => (
     <Icon {...x}>

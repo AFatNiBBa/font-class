@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `starship` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starship?s=sharp-light starship}
- * @preview ![starship](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NGwxNiAwIDIyNCAwIDE2IDAgMCAxNiAwIDY0IDAgMTYtMTYgMC03OC44IDAgNDcuNiAzNC42IDYwLjEtOC4yQzI5Ni44IDExNC44IDM2Ni41IDY0IDQ0OCA2NGMxMDYgMCAxOTIgODYgMTkyIDE5MnMtODYgMTkyLTE5MiAxOTJjLTgxLjUgMC0xNTEuMi01MC44LTE3OS0xMjIuNGwtNjAuMS04LjJMMTYxLjIgMzUybDc4LjggMCAxNiAwIDAgMTYgMCA2NCAwIDE2LTE2IDBMMTYgNDQ4IDAgNDQ4bDAtMTYgMC02NCAwLTE2IDE2IDAgOTAuOCAwTDE2MyAzMTEuMWwtNTMuMi03LjNMOTYgMzAybDAtMTQgMC02NCAwLTE0IDEzLjgtMS45IDUzLjItNy4zTDEwNi44IDE2MCAxNiAxNjAgMCAxNjBsMC0xNkwwIDgwIDAgNjR6TTMyIDk2bDAgMzIgMTkyIDAgMC0zMkwzMiA5NnptOTYgMTQybDAgMzYuMSAxMzEuNCAxNy45Yy0yLjItMTEuNi0zLjQtMjMuNy0zLjQtMzUuOXMxLjItMjQuMyAzLjQtMzUuOUwxMjggMjM4ek0zMiA0MTZsMTkyIDAgMC0zMkwzMiAzODRsMCAzMnptNDE2IDBhMTYwIDE2MCAwIDEgMCAwLTMyMCAxNjAgMTYwIDAgMSAwIDAgMzIwem0zMi0xNjBhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptLTk2IDBhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![starship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/starship.svg)
  */
 const Starship: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

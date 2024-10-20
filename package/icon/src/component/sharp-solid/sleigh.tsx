@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sleigh` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sleigh?s=sharp-solid sleigh}
- * @preview ![sleigh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJMMCAzMiAwIDk2bDMyIDAgMCAxNjBjMCA1MyA0MyA5NiA5NiA5NmwwIDMyIDY0IDAgMC0zMiAxOTIgMCAwIDMyIDY0IDAgMC0zMmM1MyAwIDk2LTQzIDk2LTk2bDAtOTYgMzIgMCAwLTY0LTMyIDAtMzIgMC0zMiAwLTMyIDAgMCAxMjgtNDYuNiAwYy04MC41IDAtMTU1LjMtNDEuNS0xOTgtMTA5LjdDMTczIDY1LjcgMTIwLjkgMzUuMiA2NCAzMi4ybDAtLjItOSAwTDMyIDMyek02NDAgMzg0bDAtMzItNjQgMCAwIDMyIDAgMzJMNjQgNDE2bC0zMiAwIDAgNjQgMzIgMCA1NDQgMCAzMiAwIDAtMzIgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sleigh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sleigh.svg)
  */
 const Sleigh: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

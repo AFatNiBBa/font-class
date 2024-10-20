@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burger` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger?s=solid burger}
- * @preview ![burger](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjEuMSAyMjRDNDUgMjI0IDMyIDIxMSAzMiAxOTQuOWMwLTEuOSAuMi0zLjcgLjYtNS42QzM3LjkgMTY4LjMgNzguOCAzMiAyNTYgMzJzMjE4LjEgMTM2LjMgMjIzLjQgMTU3LjNjLjUgMS45IC42IDMuNyAuNiA1LjZjMCAxNi4xLTEzIDI5LjEtMjkuMSAyOS4xTDYxLjEgMjI0ek0xNDQgMTI4YTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6bTI0MCAxNmExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6TTI3MiA5NmExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwek0xNiAzMDRjMC0yNi41IDIxLjUtNDggNDgtNDhsMzg0IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhzLTIxLjUgNDgtNDggNDhMNjQgMzUyYy0yNi41IDAtNDgtMjEuNS00OC00OHptMTYgOTZjMC04LjggNy4yLTE2IDE2LTE2bDQxNiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDE2YzAgMzUuMy0yOC43IDY0LTY0IDY0TDk2IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![burger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/burger.svg)
  */
 const Burger: typeof Icon = x => (
     <Icon {...x}>

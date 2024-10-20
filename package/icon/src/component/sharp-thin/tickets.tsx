@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tickets` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets?s=sharp-thin tickets}
- * @preview ![tickets](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNDhsMC0xNiAxNiAwIDUxMiAwIDE2IDAgMCAxNiAwIDk2IDAgMTZjLTI2LjUgMC00OCAyMS41LTQ4IDQ4czIxLjUgNDggNDggNDhsMCAxNiAwIDk2IDAgMTYtMTYgMC01MTIgMC0xNiAwIDAtMTYgMC05NiAwLTE2YzI2LjUgMCA0OC0yMS41IDQ4LTQ4cy0yMS41LTQ4LTQ4LTQ4bDAtMTYgMC05NnptMTYgOThjMjcuNiA3LjEgNDggMzIuMiA0OCA2MnMtMjAuNCA1NC45LTQ4IDYybDAgOTggNTEyIDAgMC05OGMtMjcuNi03LjEtNDgtMzIuMi00OC02MnMyMC40LTU0LjkgNDgtNjJsMC05OEwxMTIgNDhsMCA5OHpNMTYgODhsMCA4IDAgMzY4IDUzNiAwIDggMCAwIDE2LTggMEw4IDQ4MGwtOCAwIDAtOEwwIDk2bDAtOCAxNiAwem0yMDggNDBsMCAxNjAgMjg4IDAgMC0xNjAtMjg4IDB6bS0xNi0xNmwxNiAwIDI4OCAwIDE2IDAgMCAxNiAwIDE2MCAwIDE2LTE2IDAtMjg4IDAtMTYgMCAwLTE2IDAtMTYwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tickets](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tickets.svg)
  */
 const Tickets: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

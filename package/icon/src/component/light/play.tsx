@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `play` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/play?s=light play}
- * @preview ![play](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYuMyA2Ni4zYy00LjktMy0xMS4xLTMuMS0xNi4yLS4zcy04LjIgOC4yLTguMiAxNGwwIDM1MmMwIDUuOCAzLjEgMTEuMSA4LjIgMTRzMTEuMiAyLjcgMTYuMi0uM2wyODgtMTc2YzQuOC0yLjkgNy43LTguMSA3LjctMTMuN3MtMi45LTEwLjctNy43LTEzLjdsLTI4OC0xNzZ6TTI0LjUgMzguMUMzOS43IDI5LjYgNTguMiAzMCA3MyAzOUwzNjEgMjE1YzE0LjMgOC43IDIzIDI0LjIgMjMgNDFzLTguNyAzMi4yLTIzIDQxTDczIDQ3M2MtMTQuOCA5LjEtMzMuNCA5LjQtNDguNSAuOVMwIDQ0OS40IDAgNDMyTDAgODBDMCA2Mi42IDkuNCA0Ni42IDI0LjUgMzguMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![play](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/play.svg)
  */
 const Play: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

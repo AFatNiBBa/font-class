@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-heart` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-heart?s=sharp-solid shield-heart}
- * @preview ![shield-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUuN2wxMS41IDQuNEw0NzUgOTAuMmwxOS4yIDcuNCAxLjIgMjAuNmMyLjkgNDkuNy00LjkgMTI1LjYtMzcuMyAxOTkuOEM0MjUuNCAzOTIuOCAzNjcgNDY3LjEgMjY4LjYgNTA5LjRMMjU2IDUxNC44bC0xMi42LTUuNEMxNDUgNDY3LjEgODYuNiAzOTIuOCA1My45IDMxOEMyMS40IDI0My43IDEzLjYgMTY3LjggMTYuNiAxMTguMWwxLjItMjAuNkwzNyA5MC4ybDIwNy41LTgwTDI1NiA1Ljd6TTE0NCAyMjEuM2MwIDE2LjIgNi41IDMxLjggMTcuOSA0My4zbDgyLjcgODIuN0wyNTYgMzU4LjZsMTEuMy0xMS4zIDgyLjctODIuN2MxMS41LTExLjUgMTcuOS0yNy4xIDE3LjktNDMuM2MwLTMzLjgtMjcuNC02MS4zLTYxLjMtNjEuM2MtMTYuMiAwLTMxLjggNi41LTQzLjMgMTcuOWwtNy40IDcuNC03LjQtNy40Yy0xMS41LTExLjUtMjcuMS0xNy45LTQzLjMtMTcuOWMtMzMuOCAwLTYxLjMgMjcuNC02MS4zIDYxLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shield-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shield-heart.svg)
  */
 const ShieldHeart: typeof Icon = x => (
     <Icon {...x}>

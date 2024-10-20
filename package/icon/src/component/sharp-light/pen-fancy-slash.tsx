@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-fancy-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-fancy-slash?s=sharp-light pen-fancy-slash}
- * @preview ![pen-fancy-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTUyLjYgMTI1LjhMNTc2IDEwNCA1NTMuNCA4MS40IDQ5NC42IDIyLjYgNDcyIDAgNDUwLjIgMjMuNCAzMTQgMTY5LjdsMjUuMiAxOS45TDQ3Mi44IDQ2LjFsNTcuMSA1Ny4xTDM5Mi4yIDIzMS40bDI1LjQgMjAuMSAxMzUtMTI1Ljd6TTI5NS44IDMxOC41TDMwNy40IDMzMGwtMjguOSA5Mi40TDEzMC44IDQ2Ny44IDE5OC43IDQwMGMuNCAwIC45IDAgMS4zIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRjMCAuNCAwIC45IDAgMS4zbC02Ny44IDY3LjggNDUuNC0xNDcuNyA4Mi45LTI1LjktMzAuNC0yNEwxMjggMjcyIDY0IDQ4MGwzMiAzMiAyMDgtNjQgMzAuOS05OC43LTM5LTMwLjh6TTQwLjQgMThMMjcuOCA4LjEgOC4xIDMzLjRsMTIuNiA5LjhMNTk5LjggNDk0LjNsMTIuNiA5LjggMTkuNy0yNS4yTDYxOS41IDQ2OSA0MC40IDE4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-fancy-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pen-fancy-slash.svg)
  */
 const PenFancySlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

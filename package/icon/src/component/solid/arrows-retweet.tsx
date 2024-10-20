@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-retweet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-retweet?s=solid arrows-retweet}
- * @preview ![arrows-retweet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUwLjYgNzMuNGMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBsLTk2IDk2Yy0xMi41IDEyLjUtMTIuNSAzMi44IDAgNDUuM3MzMi44IDEyLjUgNDUuMyAwTDk2IDE3My4zIDk2IDMyMGMwIDUzIDQzIDk2IDk2IDk2bDExMiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0xMTIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xNDYuNyA0MS40IDQxLjRjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBzMTIuNS0zMi44IDAtNDUuM2wtOTYtOTZ6TTMzNiA5NmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmwxMTIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE0Ni43LTQxLjQtNDEuNGMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBzLTEyLjUgMzIuOCAwIDQ1LjNsOTYgOTZjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBsOTYtOTZjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNzLTMyLjgtMTIuNS00NS4zIDBMNTQ0IDMzOC43IDU0NCAxOTJjMC01My00My05Ni05Ni05NkwzMzYgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrows-retweet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrows-retweet.svg)
  */
 const ArrowsRetweet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

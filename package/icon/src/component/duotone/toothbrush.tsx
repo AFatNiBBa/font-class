@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `toothbrush` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toothbrush?s=duotone toothbrush}
- * @preview ![toothbrush](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAyODBsMCAxMzYgNDggMCAwLTEzNmMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNHptODAgMGwwIDEzNiA0OCAwIDAtMTM2YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0em04MCAwbDAgMTM2IDQ4IDAgMC0xMzZjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjR6bTgwIDBsMCAxMzYgNDggMCAwLTEzNmMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNHptODAgMGwwIDEzNiA0OCAwIDAtMTM2YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNjQgMjI0Yy0zNS4zIDAtNjQtMjguNy02NC02NHMyOC43LTY0IDY0LTY0bDIyNCAwYzMxLjIgMCAzOC4yLTIyLjcgMzkuNi00OGMuNS04LjggNy42LTE2LjEgMTYuNC0xNS4yYzUyLjQgNS4zIDEwNCAzNi43IDEwNCA5NS4yYzAgNTMtNDMgOTYtOTYgOTZMNjQgMjI0ek0zMiA0MTZsNTEyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgNDgwYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![toothbrush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/toothbrush.svg)
  */
 const Toothbrush: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M32 280l0 136 48 0 0-136c0-13.3-10.7-24-24-24s-24 10.7-24 24zm80 0l0 136 48 0 0-136c0-13.3-10.7-24-24-24s-24 10.7-24 24zm80 0l0 136 48 0 0-136c0-13.3-10.7-24-24-24s-24 10.7-24 24zm80 0l0 136 48 0 0-136c0-13.3-10.7-24-24-24s-24 10.7-24 24zm80 0l0 136 48 0 0-136c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-            <path d="M64 224c-35.3 0-64-28.7-64-64s28.7-64 64-64l224 0c31.2 0 38.2-22.7 39.6-48c.5-8.8 7.6-16.1 16.4-15.2c52.4 5.3 104 36.7 104 95.2c0 53-43 96-96 96L64 224zM32 416l512 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
+        <path d="M64 224c-35.3 0-64-28.7-64-64s28.7-64 64-64l224 0c31.2 0 38.2-22.7 39.6-48c.5-8.8 7.6-16.1 16.4-15.2c52.4 5.3 104 36.7 104 95.2c0 53-43 96-96 96L64 224zM32 416l512 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
     </Icon>
 );
 

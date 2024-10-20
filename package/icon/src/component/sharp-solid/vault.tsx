@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vault` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vault?s=sharp-solid vault}
- * @preview ![vault](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDBMMCAwIDAgNDgwbDgwIDAgMTYgMzIgNjQgMCAxNi0zMiAyMjQgMCAxNiAzMiA2NCAwIDE2LTMyIDgwIDBMNTc2IDB6TTIyNCAzMjBhODAgODAgMCAxIDAgMC0xNjAgODAgODAgMCAxIDAgMCAxNjB6bTAtMjQwYTE2MCAxNjAgMCAxIDEgMCAzMjAgMTYwIDE2MCAwIDEgMSAwLTMyMHpNNDgwIDIyMS4zTDQ4MCAzNTJsLTMyIDAgMC0xMzAuN2MtMTguNi02LjYtMzItMjQuNC0zMi00NS4zYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4czQ4IDIxLjUgNDggNDhjMCAyMC45LTEzLjQgMzguNy0zMiA0NS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vault](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/vault.svg)
  */
 const Vault: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

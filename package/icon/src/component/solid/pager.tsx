@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pager` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pager?s=solid pager}
- * @preview ![pager](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMjhDMCA5Mi43IDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyNTZjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNDQ4Yy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDEyOHptNjQgMzJsMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzMjAgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDk2IDEyOGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6TTgwIDMyMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw1NiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC01NiAwem0xMzYgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw0OCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pager](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pager.svg)
  */
 const Pager: typeof Icon = x => (
     <Icon {...x}>

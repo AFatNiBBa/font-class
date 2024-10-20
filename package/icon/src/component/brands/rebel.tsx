@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rebel` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rebel?s=brands rebel}
- * @preview ![rebel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2LjUgNTA0QzExNy4yIDUwNCA5IDM4Ny44IDEzLjIgMjQ5LjkgMTYgMTcwLjcgNTYuNCA5Ny43IDEyOS43IDQ5LjVjLjMgMCAxLjktLjYgMS4xLjgtNS44IDUuNS0xMTEuMyAxMjkuOC0xNC4xIDIyNi40IDQ5LjggNDkuNSA5MCAyLjUgOTAgMi41IDM4LjUtNTAuMS0uNi0xMjUuOS0uNi0xMjUuOS0xMC0yNC45LTQ1LjctNDAuMS00NS43LTQwLjFsMjguOC0zMS44YzI0LjQgMTAuNSA0My4yIDM4LjcgNDMuMiAzOC43LjgtMjkuNi0yMS45LTYxLjQtMjEuOS02MS40TDI1NS4xIDhsNDQuMyA1MC4xYy0yMC41IDI4LjgtMjEuOSA2Mi42LTIxLjkgNjIuNiAxMy44LTIzIDQzLjUtMzkuMyA0My41LTM5LjNsMjguNSAzMS44Yy0yNy40IDguOS00NS40IDM5LjktNDUuNCAzOS45LTE1LjggMjguNS0yNy4xIDg5LjQuNiAxMjcuMyAzMi40IDQ0LjYgODcuNy0yLjggODcuNy0yLjggMTAyLjctOTEuOS0xMC41LTIyNS0xMC41LTIyNS02LjEtNS41LjgtMi44LjgtMi44IDUwLjEgMzYuNSAxMTQuNiA4NC40IDExNi4yIDIwNC44QzUwMC45IDQwMC4yIDM5OSA1MDQgMjU2LjUgNTA0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rebel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/rebel.svg)
  */
 const Rebel: typeof Icon = x => (
     <Icon {...x}>

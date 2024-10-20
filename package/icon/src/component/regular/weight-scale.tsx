@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `weight-scale` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/weight-scale?s=regular weight-scale}
- * @preview ![weight-scale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDE3NmExMjggMTI4IDAgMSAxIDI1NiAwIDEyOCAxMjggMCAxIDEgLTI1NiAwem0zMDQgMGMwLTIyLjYtNC4zLTQ0LjItMTItNjRsMjggMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAzMjBjMCA4LjgtNy4yIDE2LTE2IDE2TDY0IDQ2NGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMzIwYzAtOC44IDcuMi0xNiAxNi0xNmwyOCAwYy03LjcgMTkuOC0xMiA0MS40LTEyIDY0YzAgOTcuMiA3OC44IDE3NiAxNzYgMTc2czE3Ni03OC44IDE3Ni0xNzZ6TTM5MS44IDY0QzM1OS41IDI0LjkgMzEwLjcgMCAyNTYgMFMxNTIuNSAyNC45IDEyMC4yIDY0TDY0IDY0QzI4LjcgNjQgMCA5Mi43IDAgMTI4TDAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0bC01Ni4yIDB6TTI5NiAyMjRjMC0xMC42LTQuMS0yMC4yLTEwLjktMjcuNGwzMy42LTc4LjNjMy41LTguMS0uMy0xNy41LTguNC0yMXMtMTcuNSAuMy0yMSA4LjRMMjU1LjcgMTg0Yy0yMiAuMS0zOS43IDE4LTM5LjcgNDBjMCAyMi4xIDE3LjkgNDAgNDAgNDBzNDAtMTcuOSA0MC00MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![weight-scale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/weight-scale.svg)
  */
 const WeightScale: typeof Icon = x => (
     <Icon {...x}>

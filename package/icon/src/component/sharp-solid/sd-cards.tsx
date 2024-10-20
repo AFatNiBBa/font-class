@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sd-cards` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sd-cards?s=sharp-solid sd-cards}
- * @preview ![sd-cards](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDBMMjI0IDAgMjEwLjcgMGwtOS40IDkuNC05NiA5Nkw5NiAxMTQuNyA5NiAxMjhsMCAyNTYgMCAzMiAzMiAwIDI4OCAwIDMyIDAgMC0zMiAwLTM1MiAwLTMyTDQxNiAwek0zMDQgNjRsMCAyNCAwIDQ4IDAgMjQtNDggMCAwLTI0IDAtNDggMC0yNCA0OCAwem04MCAwbDAgMjQgMCA0OCAwIDI0LTQ4IDAgMC0yNCAwLTQ4IDAtMjQgNDggMHpNNDggMTIwbDAtMjRMMCA5NmwwIDI0TDAgNDg4bDAgMjQgMjQgMCAzMzYgMCAyNCAwIDAtNDgtMjQgMEw0OCA0NjRsMC0zNDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sd-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sd-cards.svg)
  */
 const SdCards: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

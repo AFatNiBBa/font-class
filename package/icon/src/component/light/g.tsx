@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `g` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/g?s=light g}
- * @preview ![g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0QzExOCA2NCAzMiAxNTAgMzIgMjU2czg2IDE5MiAxOTIgMTkyYzk4LjUgMCAxNzkuOC03NC4zIDE5MC43LTE2OS45Yy4yLTEuNS0uMy0yLjgtMS40LTRjLTEuMi0xLjItMy4xLTIuMi01LjMtMi4ybC0xNjUuNyAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2TDQwOCAyNDBjMjEuNSAwIDQxLjMgMTcuOSAzOC41IDQxLjhDNDMzLjcgMzkzLjQgMzM5IDQ4MCAyMjQgNDgwQzEwMC4zIDQ4MCAwIDM3OS43IDAgMjU2UzEwMC4zIDMyIDIyNCAzMmM1Ny40IDAgMTA5LjcgMjEuNiAxNDkuMyA1N2M2LjYgNS45IDcuMSAxNiAxLjMgMjIuNnMtMTYgNy4xLTIyLjYgMS4zQzMxOCA4Mi41IDI3My4yIDY0IDIyNCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![g](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/g.svg)
  */
 const G: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

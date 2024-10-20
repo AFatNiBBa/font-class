@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-3` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-3?s=sharp-light square-3}
- * @preview ![square-3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMzg0IDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnpNMzA0IDE1MS40bC01LjYgNC44LTc4LjkgNjcuNiAxOS45LS4xYzQ0LjQtLjIgODAuNiAzNS43IDgwLjYgODAuMmMwIDQ0LjMtMzUuOSA4MC4yLTgwLjIgODAuMmwtMzYgMGMtMjcuNiAwLTUzLjUtMTMtNzAuMS0zNWwtMi41LTMuNC05LjYtMTIuOCAyNS42LTE5LjIgOS42IDEyLjggMi41IDMuNGMxMC41IDE0IDI3IDIyLjIgNDQuNSAyMi4ybDM2IDBjMjYuNiAwIDQ4LjItMjEuNiA0OC4yLTQ4LjJjMC0yNi43LTIxLjctNDguMy00OC40LTQ4LjJsLTYzLjUgLjMtMTYuMSAuMSAwLTIzLjQgNS42LTQuOEwyNDQuNyAxNjAgMTQ0IDE2MGwtMTYgMCAwLTMyIDE2IDAgMTQ0IDAgMTYgMCAwIDIzLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-3.svg)
  */
 const Square_3: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

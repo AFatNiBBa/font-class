@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tent-arrow-down-to-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrow-down-to-line?s=solid tent-arrow-down-to-line}
- * @preview ![tent-arrow-down-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQxLjggMTExLjljOC45IDkuOSA4LjEgMjUtMS44IDMzLjlsLTgwIDcyYy05LjEgOC4yLTIzIDguMi0zMi4xIDBsLTgwLTcyYy05LjktOC45LTEwLjctMjQtMS44LTMzLjlzMjQtMTAuNyAzMy45LTEuOGwzOS45IDM2TDEyMCAyNGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0bDAgMTIyLjEgMzkuOS0zNmM5LjktOC45IDI1LTguMSAzMy45IDEuOHptMTIyLjggMjIuNmMxMS41LTguNyAyNy4zLTguNyAzOC44IDBsMTY4IDEyOGM2LjYgNSAxMSAxMi41IDEyLjMgMjAuN2wyNCAxNjAgLjcgNC43YzE3LjUgLjIgMzEuNiAxNC40IDMxLjYgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJMMzIgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDEyNy42IDAgLjctNC43IDI0LTE2MGMxLjItOC4yIDUuNi0xNS43IDEyLjMtMjAuN2wxNjgtMTI4ek0zODQgNDQ4bDgwIDBMNDAyLjcgMzI1LjVjLTEuNy0zLjQtNS4xLTUuNS04LjgtNS41Yy01LjUgMC05LjkgNC40LTkuOSA5LjlMMzg0IDQ0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tent-arrow-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tent-arrow-down-to-line.svg)
  */
 const TentArrowDownToLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

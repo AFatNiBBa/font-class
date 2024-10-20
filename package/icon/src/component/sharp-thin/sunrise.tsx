@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sunrise` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunrise?s=sharp-thin sunrise}
- * @preview ![sunrise](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDQuN2wtNS43IDUuNy04OCA4OC01LjcgNS43TDIwMCAxMTUuM2w1LjctNS43TDI4MCAzNS4zIDI4MCAyMTZsMCA4IDE2IDAgMC04IDAtMTgwLjcgNzQuMyA3NC4zIDUuNyA1LjdMMzg3LjMgMTA0bC01LjctNS43LTg4LTg4TDI4OCA0Ljd6bTAgMjc2LjRsLTkxLjctNDkuNEwxODIgMjI0bC00LjcgMTUuNi0yOS45IDk5LjdMNDcuNiAzNjkuMyAzMiAzNzRsNy43IDE0LjRMODAuNSA0NjRsMTguMiAwTDU1LjQgMzgzLjZsOTYuNi0yOSA4LjMtMi41IDIuNS04LjMgMjktOTYuNiA4OC44IDQ3LjggNy42IDQuMSA3LjYtNC4xIDg4LjgtNDcuOCAyOSA5Ni42IDIuNSA4LjMgOC4zIDIuNSA5Ni42IDI5TDQ3Ny4zIDQ2NGwxOC4yIDAgNDAuOC03NS43TDU0NCAzNzRsLTE1LjYtNC43LTk5LjctMjkuOS0yOS45LTk5LjdMMzk0IDIyNGwtMTQuNCA3LjdMMjg4IDI4MS4xek0zOTguOSA0NjRjLTcuOC01NC4zLTU0LjQtOTYtMTEwLjktOTZzLTEwMy4xIDQxLjctMTEwLjkgOTZsMTYuMiAwYzcuNi00NS40IDQ3LjEtODAgOTQuNy04MHM4Ny4xIDM0LjYgOTQuNyA4MGwxNi4yIDB6TTggNDk2bC04IDAgMCAxNiA4IDAgNTYwIDAgOCAwIDAtMTYtOCAwTDggNDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sunrise](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sunrise.svg)
  */
 const Sunrise: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

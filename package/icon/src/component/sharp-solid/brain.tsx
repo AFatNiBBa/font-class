@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brain` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brain?s=sharp-solid brain}
- * @preview ![brain](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDBsMCA1NiAwIDQwMCAwIDU2LTU2IDBjLTI4LjkgMC01Mi43LTIxLjktNTUuNy01MC4xYy01LjIgMS40LTEwLjcgMi4xLTE2LjMgMi4xYy0zNS4zIDAtNjQtMjguNy02NC02NGMwLTcuNCAxLjMtMTQuNiAzLjYtMjEuMkMyMS40IDM2Ny40IDAgMzM4LjIgMCAzMDRjMC0zMS45IDE4LjctNTkuNSA0NS44LTcyLjNDMzcuMSAyMjAuOCAzMiAyMDcgMzIgMTkyYzAtMzAuNyAyMS42LTU2LjMgNTAuNC02Mi42QzgwLjggMTIzLjkgODAgMTE4IDgwIDExMmMwLTI5LjkgMjAuNi01NS4xIDQ4LjMtNjIuMUMxMzEuMyAyMS45IDE1NS4xIDAgMTg0IDBsNTYgMHptMzIgMGw1NiAwYzI4LjkgMCA1Mi42IDIxLjkgNTUuNyA0OS45YzI3LjggNyA0OC4zIDMyLjEgNDguMyA2Mi4xYzAgNi0uOCAxMS45LTIuNCAxNy40YzI4LjggNi4yIDUwLjQgMzEuOSA1MC40IDYyLjZjMCAxNS01LjEgMjguOC0xMy44IDM5LjdDNDkzLjMgMjQ0LjUgNTEyIDI3Mi4xIDUxMiAzMDRjMCAzNC4yLTIxLjQgNjMuNC01MS42IDc0LjhjMi4zIDYuNiAzLjYgMTMuOCAzLjYgMjEuMmMwIDM1LjMtMjguNyA2NC02NCA2NGMtNS42IDAtMTEuMS0uNy0xNi4zLTIuMWMtMyAyOC4yLTI2LjggNTAuMS01NS43IDUwLjFsLTU2IDAgMC01NiAwLTQwMCAwLTU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![brain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/brain.svg)
  */
 const Brain: typeof Icon = x => (
     <Icon {...x}>

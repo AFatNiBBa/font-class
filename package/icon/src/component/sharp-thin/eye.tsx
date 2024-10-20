@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eye` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye?s=sharp-thin eye}
- * @preview ![eye](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA2LjkgMzg0LjVDNjIuOSAzNDIgMzIuNiAyOTEuNCAxNy4zIDI1NmMxNS4yLTM1LjQgNDUuNS04NiA4OS42LTEyOC41QzE1My41IDgyLjcgMjE0LjIgNDggMjg4IDQ4czEzNC41IDM0LjcgMTgxIDc5LjVjNDQuMSA0Mi41IDc0LjQgOTMuMSA4OS42IDEyOC41Yy0xNS4yIDM1LjQtNDUuNSA4Ni04OS42IDEyOC41QzQyMi41IDQyOS4zIDM2MS44IDQ2NCAyODggNDY0cy0xMzQuNS0zNC43LTE4MS4xLTc5LjV6TTI4OCA0ODBjMTU4LjQgMCAyNTgtMTQ5LjMgMjg4LTIyNEM1NDYgMTgxLjMgNDQ2LjQgMzIgMjg4IDMyUzMwIDE4MS4zIDAgMjU2YzMwIDc0LjcgMTI5LjYgMjI0IDI4OCAyMjR6TTE5MiAyNTZhOTYgOTYgMCAxIDEgMTkyIDAgOTYgOTYgMCAxIDEgLTE5MiAwem0yMDggMGExMTIgMTEyIDAgMSAwIC0yMjQgMCAxMTIgMTEyIDAgMSAwIDIyNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![eye](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/eye.svg)
  */
 const Eye: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

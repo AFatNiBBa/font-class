@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crutch` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crutch?s=sharp-regular crutch}
- * @preview ![crutch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQwLjIgMTguMkw0OTMuOCAxNzEuOGwxNyAxNy0zMy45IDMzLjktMTctMTdMMzA2LjIgNTIuMmwtMTctMTdMMzIzLjIgMS4zbDE3IDE3ek0xNTEgMjE1TDI4Ny40IDc4LjZsMzMuOSAzMy45TDI0OS45IDE4NCAzMjggMjYyLjFsNzEuNC03MS40IDMzLjkgMzMuOUwyOTcgMzYxbC00LjkgNC45LTYuOCAxLjVMMTQ4IDM5Ny45IDUyLjIgNDkzLjhsLTE3IDE3TDEuMyA0NzYuOGwxNy0xN0wxMTQuMSAzNjRsMzAuNS0xMzcuMiAxLjUtNi44TDE1MSAyMTV6bTE0MyA4MUwyMTYgMjE3LjkgMTg5LjkgMjQ0IDE2Ny42IDM0NC40IDI2OCAzMjIuMSAyOTQuMSAyOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![crutch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/crutch.svg)
  */
 const Crutch: typeof Icon = x => (
     <Icon {...x}>

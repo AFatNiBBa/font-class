@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `film-canister` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film-canister?s=sharp-light film-canister}
- * @preview ![film-canister](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDBMOTYgMGwwIDMyIDE2IDAgMTI4IDAgMTYgMCAwLTMyTDI0MCAwIDExMiAwek0xNiA2NEwwIDY0IDAgOTZsMTYgMCAxNiAwIDAgMzg0LTE2IDBMMCA0ODBsMCAzMiAxNiAwIDMyIDAgMjU2IDAgMzIgMCAxNiAwIDAtMzItMTYgMC0xNiAwIDAtMzg0IDE2IDAgMTYgMCAwLTMyLTE2IDAtMzIgMEw0OCA2NCAxNiA2NHpNNjQgNDgwTDY0IDk2bDIyNCAwIDAgMzg0TDY0IDQ4MHpNMzg0IDE5MmwwIDMyIDMyIDAgMC0zMi0zMiAwem0zMiAxNjBsLTMyIDAgMCAzMiAzMiAwIDAtMzJ6bTY0LTE2MGwwIDMyIDMyIDAgMC0zMi0zMiAwek0zNTIgMTYwbDE5MiAwIDAgMTYwLTQ4IDAtMTYgMCAwIDE2IDAgODAtMTI4IDAgMCAzMiAxNDQgMCAxNiAwIDAtMTYgMC04MCA0OCAwIDE2IDAgMC0xNiAwLTE5MiAwLTE2LTE2IDAtMjA4IDAgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![film-canister](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/film-canister.svg)
  */
 const FilmCanister: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

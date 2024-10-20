@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `receipt` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/receipt?s=sharp-solid receipt}
- * @preview ![receipt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDAgNTEybDY0LTQ4IDY0IDQ4IDY0LTQ4IDY0IDQ4IDY0LTQ4IDY0IDQ4TDM4NCAwIDMyMCA0OCAyNTYgMCAxOTIgNDggMTI4IDAgNjQgNDggMCAwek05NiAxNDRsMTkyIDAgMTYgMCAwIDMyLTE2IDBMOTYgMTc2bC0xNiAwIDAtMzIgMTYgMHpNODAgMzM2bDE2IDAgMTkyIDAgMTYgMCAwIDMyLTE2IDBMOTYgMzY4bC0xNiAwIDAtMzJ6bTE2LTk2bDE5MiAwIDE2IDAgMCAzMi0xNiAwTDk2IDI3MmwtMTYgMCAwLTMyIDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![receipt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/receipt.svg)
  */
 const Receipt: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `creative-commons-nc-jp` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/creative-commons-nc-jp?s=brands creative-commons-nc-jp}
- * @preview ![creative-commons-nc-jp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ3LjcgOEMxMDMuNiA4IDAgMTI0LjggMCAyNTZjMCAxMzYuNCAxMTEuOCAyNDggMjQ3LjcgMjQ4QzM3Ny45IDUwNCA0OTYgNDAzLjIgNDk2IDI1NiA0OTYgMTE3LjIgMzg4LjUgOCAyNDcuNyA4em0uNiA0NTAuN2MtMTEyIDAtMjAzLjYtOTIuNS0yMDMuNi0yMDIuNyAwLTIxLjEgMy00MS4yIDktNjAuM2wxMjcgNTYuNWgtMjcuOXYzOC42aDU4LjFsNS43IDExLjh2MTguN2gtNjMuOFYzNjBoNjMuOHY1Nmg2MS43di01Nmg2NC4ydi0zNS43bDgxIDM2LjFjLTEuNSAyLjItNTcuMSA5OC4zLTE3NS4yIDk4LjN6bTg3LjYtMTM3LjNoLTU3LjZ2LTE4LjdsMi45LTUuNiA1NC43IDI0LjN6bTYuNS01MS40di0xNy44aC0zOC42bDYzLTExNkgzMDFsLTQzLjQgOTYtMjMtMTAuMi0zOS42LTg1LjdoLTY1LjhsMjcuMyA1MS04MS45LTM2LjVjMjcuOC00NC4xIDgyLjYtOTguMSAxNzMuNy05OC4xIDExMi44IDAgMjAzIDkwIDIwMyAyMDMuNCAwIDIxLTIuNyA0MC42LTcuOSA1OWwtMTAxLTQ1LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![creative-commons-nc-jp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/creative-commons-nc-jp.svg)
  */
 const CreativeCommonsNcJp: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

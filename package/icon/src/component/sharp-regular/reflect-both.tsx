@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `reflect-both` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-both?s=sharp-regular reflect-both}
- * @preview ![reflect-both](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg5LjkgMTU4LjFMMjU2IDE5MmwtMzMuOS0zMy45TDExMiA0OCA5NiAzMiA5NiAwbDMyIDAgMy45IDBMMTQ0IDAgMzY4IDBsMTIuMSAwTDM4NCAwbDMyIDAgMCAzMkw0MDAgNDggMjg5LjkgMTU4LjF6TTMzMi4xIDQ4TDE3OS45IDQ4IDI1NiAxMjQuMSAzMzIuMSA0OHpNMTkyIDI1NmwtMzMuOSAzMy45TDQ4IDQwMCAzMiA0MTYgMCA0MTZsMC0zMiAwLTMuOUwwIDM2OCAwIDE0NGwwLTEyLjFMMCAxMjggMCA5NmwzMiAwIDE2IDE2TDE1OC4xIDIyMi4xIDE5MiAyNTZ6bS02Ny45IDBMNDggMTc5LjlsMCAxNTIuMkwxMjQuMSAyNTZ6TTMyMCAyNTZsMzMuOS0zMy45TDQ2NCAxMTJsMTYtMTYgMzIgMCAwIDMyIDAgMy45IDAgMTIuMSAwIDIyNCAwIDEyLjEgMCAzLjkgMCAzMi0zMiAwLTE2LTE2TDM1My45IDI4OS45IDMyMCAyNTZ6bTY3LjkgMEw0NjQgMzMyLjFsMC0xNTIuMkwzODcuOSAyNTZ6TTI1NiAzMjBsMzMuOSAzMy45TDQwMCA0NjRsMTYgMTYgMCAzMi0zMiAwLTMuOSAwTDM2OCA1MTJsLTIyNCAwLTEyLjEgMC0zLjkgMC0zMiAwIDAtMzIgMTYtMTZMMjIyLjEgMzUzLjkgMjU2IDMyMHptMCA2Ny45TDE3OS45IDQ2NGwxNTIuMiAwTDI1NiAzODcuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![reflect-both](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/reflect-both.svg)
  */
 const ReflectBoth: typeof Icon = x => (
     <Icon {...x}>

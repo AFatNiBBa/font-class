@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `transporter-4` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-4?s=sharp-duotone-solid transporter-4}
- * @preview ![transporter-4](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDQwMGwzMi0xNiAxNi0zMiAxNiAzMiAzMiAxNkw2NCA0MTYgNDggNDQ4IDMyIDQxNiAwIDQwMHpNOTYgMjU2bDE2IDAgMjg4IDAgMTYgMCAwIDMyLTE2IDAtMjg4IDAtMTYgMCAwLTMyem0zMi02NGwxNiAwIDIyNCAwIDE2IDAgMCAzMi0xNiAwLTIyNCAwLTE2IDAgMC0zMnptMzItNjRsMTYgMCAxNjAgMCAxNiAwIDAgMzItMTYgMC0xNjAgMC0xNiAwIDAtMzJ6bTAgMTkybDE2IDAgMTYwIDAgMTYgMCAwIDMyLTE2IDAtMTYwIDAtMTYgMCAwLTMyem0wIDY0bDE2IDAgMTYwIDAgMTYgMCAwIDMyLTE2IDAtMTYwIDAtMTYgMCAwLTMyek0yMDggMGwxNiAwIDY0IDAgMTYgMCAwIDMyLTE2IDAtNjQgMC0xNiAwIDAtMzJ6bTAgNjRsMTYgMCA2NCAwIDE2IDAgMCAzMi0xNiAwLTY0IDAtMTYgMCAwLTMyek00MTYgMTc2bDMyLTE2IDE2LTMyIDE2IDMyIDMyIDE2LTMyIDE2LTE2IDMyLTE2LTMyLTMyLTE2eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjk2IDUxMmwxMjAgMCAwLTY0TDk2IDQ0OGwwIDY0IDEyMCAwIDgwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![transporter-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/transporter-4.svg)
  */
 const Transporter_4: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 400l32-16 16-32 16 32 32 16L64 416 48 448 32 416 0 400zM96 256l16 0 288 0 16 0 0 32-16 0-288 0-16 0 0-32zm32-64l16 0 224 0 16 0 0 32-16 0-224 0-16 0 0-32zm32-64l16 0 160 0 16 0 0 32-16 0-160 0-16 0 0-32zm0 192l16 0 160 0 16 0 0 32-16 0-160 0-16 0 0-32zm0 64l16 0 160 0 16 0 0 32-16 0-160 0-16 0 0-32zM208 0l16 0 64 0 16 0 0 32-16 0-64 0-16 0 0-32zm0 64l16 0 64 0 16 0 0 32-16 0-64 0-16 0 0-32zM416 176l32-16 16-32 16 32 32 16-32 16-16 32-16-32-32-16z" />
-            <path d="M296 512l120 0 0-64L96 448l0 64 120 0 80 0z" />
+        <path d="M296 512l120 0 0-64L96 448l0 64 120 0 80 0z" />
     </Icon>
 );
 

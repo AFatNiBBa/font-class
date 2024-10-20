@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `window-frame` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-frame?s=solid window-frame}
- * @preview ![window-frame](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjU2TDMyIDY0QzMyIDI4LjcgNjAuNyAwIDk2IDBMNDE2IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAxOTIgMCAxOTJjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTY0IDBMOTYgNTEybC02NCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDAtMTkyem0zODQgMzJsLTEzNiAwIDAgMTYwIDEzNiAwIDAtMTYwem0tMTg0IDBMOTYgMjg4bDAgMTYwIDEzNiAwIDAtMTYwem00OC02NGwxMzYgMCAwLTE2MEwyODAgNjRsMCAxNjB6TTIzMiA2NEw5NiA2NGwwIDE2MCAxMzYgMCAwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![window-frame](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/window-frame.svg)
  */
 const WindowFrame: typeof Icon = x => (
     <Icon {...x}>

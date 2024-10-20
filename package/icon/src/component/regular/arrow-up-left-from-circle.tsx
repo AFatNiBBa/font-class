@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-left-from-circle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-left-from-circle?s=regular arrow-up-left-from-circle}
- * @preview ![arrow-up-left-from-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDBMMjQgMEMxMC43IDAgMCAxMC43IDAgMjRMMCAxODRjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNEw0OCA4MS45IDI5NSAzMjljOS40IDkuNCAyNC42IDkuNCAzMy45IDBzOS40LTI0LjYgMC0zMy45TDgxLjkgNDggMTg0IDQ4YzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0ek0yODggNjRjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRjOTcuMiAwIDE3NiA3OC44IDE3NiAxNzZzLTc4LjggMTc2LTE3NiAxNzZzLTE3Ni03OC44LTE3Ni0xNzZjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRjMCAxMjMuNyAxMDAuMyAyMjQgMjI0IDIyNHMyMjQtMTAwLjMgMjI0LTIyNFM0MTEuNyA2NCAyODggNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-up-left-from-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-up-left-from-circle.svg)
  */
 const ArrowUpLeftFromCircle: typeof Icon = x => (
     <Icon {...x}>

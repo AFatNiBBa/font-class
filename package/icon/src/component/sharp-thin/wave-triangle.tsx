@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wave-triangle` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wave-triangle?s=sharp-thin wave-triangle}
- * @preview ![wave-triangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2LjEgMzQuMWw2LjUgOS40TDQ2NC4xIDQ1MC4xIDYyMi4zIDIyNy40bDQuNi02LjUgMTMgOS4zLTQuNiA2LjUtMTY0LjggMjMyLTYuNiA5LjMtNi41LTkuNEwxNzUuOSA2MS45IDE3LjcgMjg0LjZsLTQuNiA2LjVMMCAyODEuOWw0LjYtNi41IDE2NC44LTIzMiA2LjYtOS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wave-triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/wave-triangle.svg)
  */
 const WaveTriangle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

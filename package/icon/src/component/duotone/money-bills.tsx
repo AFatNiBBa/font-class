@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `money-bills` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bills?s=duotone money-bills}
- * @preview ![money-bills](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDEyMEwwIDM2MGMwIDY2LjMgNTMuNyAxMjAgMTIwIDEyMGw0MDAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNDAwIDBjLTM5LjggMC03Mi0zMi4yLTcyLTcybDAtMjQwYzAtMTMuMy0xMC43LTI0LTI0LTI0UzAgMTA2LjcgMCAxMjB6bTE2MCA0MGwwIDk2YzM1LjMgMCA2NCAyOC43IDY0IDY0bDI4OCAwYzAtMzUuMyAyOC43LTY0IDY0LTY0bDAtOTZjLTM1LjMgMC02NC0yOC43LTY0LTY0TDIyNCA5NmMwIDM1LjMtMjguNyA2NC02NCA2NHptMjg4IDQ4YTgwIDgwIDAgMSAxIC0xNjAgMCA4MCA4MCAwIDEgMSAxNjAgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTE2MCAzMmMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAyMjRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsNDE2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yMjRjMC0zNS4zLTI4LjctNjQtNjQtNjRMMTYwIDMyek01MTIgOTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMCA5NmMtMzUuMyAwLTY0IDI4LjctNjQgNjRsLTI4OCAwYzAtMzUuMy0yOC43LTY0LTY0LTY0bDAtOTZjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMjg4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![money-bills](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/money-bills.svg)
  */
 const MoneyBills: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 120L0 360c0 66.3 53.7 120 120 120l400 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-400 0c-39.8 0-72-32.2-72-72l0-240c0-13.3-10.7-24-24-24S0 106.7 0 120zm160 40l0 96c35.3 0 64 28.7 64 64l288 0c0-35.3 28.7-64 64-64l0-96c-35.3 0-64-28.7-64-64L224 96c0 35.3-28.7 64-64 64zm288 48a80 80 0 1 1 -160 0 80 80 0 1 1 160 0z" />
-            <path d="M160 32c-35.3 0-64 28.7-64 64l0 224c0 35.3 28.7 64 64 64l416 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L160 32zM512 96c0 35.3 28.7 64 64 64l0 96c-35.3 0-64 28.7-64 64l-288 0c0-35.3-28.7-64-64-64l0-96c35.3 0 64-28.7 64-64l288 0z" />
+        <path d="M160 32c-35.3 0-64 28.7-64 64l0 224c0 35.3 28.7 64 64 64l416 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L160 32zM512 96c0 35.3 28.7 64 64 64l0 96c-35.3 0-64 28.7-64 64l-288 0c0-35.3-28.7-64-64-64l0-96c35.3 0 64-28.7 64-64l288 0z" />
     </Icon>
 );
 

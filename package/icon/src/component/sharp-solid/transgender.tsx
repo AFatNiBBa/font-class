@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `transgender` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transgender?s=sharp-solid transgender}
- * @preview ![transgender](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMTJMMCAwIDExMiAwbDE2IDE2TDg5IDU1bDIzIDIzIDctNyAxNy0xN0wxNjkuOSA4OGwtMTcgMTctNyA3IDE1LjIgMTUuMkMxODcuNyAxMDcuNiAyMjAuNSA5NiAyNTYgOTZzNjguMyAxMS42IDk0LjkgMzEuMkw0MjMgNTUgMzg0IDE2IDQwMCAwIDUxMiAwbDAgMTEyLTE2IDE2TDQ1NyA4OWwtNzIuMSA3Mi4xQzQwNC40IDE4Ny43IDQxNiAyMjAuNSA0MTYgMjU2YzAgODAuMi01OSAxNDYuNi0xMzYgMTU4LjJsMCAxNy44IDE2IDAgMjQgMCAwIDQ4LTI0IDAtMTYgMCAwIDggMCAyNC00OCAwIDAtMjQgMC04LTE2IDAtMjQgMCAwLTQ4IDI0IDAgMTYgMCAwLTE3LjhDMTU1IDQwMi42IDk2IDMzNi4yIDk2IDI1NmMwLTM1LjUgMTEuNi02OC4zIDMxLjItOTQuOUwxMTIgMTQ1LjlsLTcgNy0xNyAxN0w1NC4xIDEzNmwxNy0xNyA3LTdMNTUgODkgMTYgMTI4IDAgMTEyek0zNTIgMjU2YTk2IDk2IDAgMSAwIC0xOTIgMCA5NiA5NiAwIDEgMCAxOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![transgender](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/transgender.svg)
  */
 const Transgender: typeof Icon = x => (
     <Icon {...x}>

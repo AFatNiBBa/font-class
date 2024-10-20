@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `train` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train?s=solid train}
- * @preview ![train](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMEM0MyAwIDAgNDMgMCA5NkwwIDM1MmMwIDQ4IDM1LjIgODcuNyA4MS4xIDk0LjlsLTQ2IDQ2QzI4LjEgNDk5LjkgMzMuMSA1MTIgNDMgNTEybDM5LjcgMGM4LjUgMCAxNi42LTMuNCAyMi42LTkuNEwxNjAgNDQ4bDEyOCAwIDU0LjYgNTQuNmM2IDYgMTQuMSA5LjQgMjIuNiA5LjRsMzkuNyAwYzEwIDAgMTUtMTIuMSA3LjktMTkuMWwtNDYtNDZjNDYtNy4xIDgxLjEtNDYuOSA4MS4xLTk0LjlsMC0yNTZjMC01My00My05Ni05Ni05Nkw5NiAwek02NCA5NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwyNTYgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDk2YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDk2IDIyNGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC05NnpNMjI0IDI4OGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![train](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/train.svg)
  */
 const Train: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

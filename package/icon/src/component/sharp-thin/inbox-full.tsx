@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `inbox-full` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox-full?s=sharp-thin inbox-full}
- * @preview ![inbox-full](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzIybC41LTIgMTA2LjYgMCAyOS44IDU5LjYgMi4yIDQuNCA0LjkgMCAxOTIgMCA0LjkgMCAyLjItNC40TDM4OC45IDMyMGwxMDYuNiAwIC41IDIgMCAxNDJMMTYgNDY0bDAtMTQyek04NC41IDQ4bDM0MyAwIDY0IDI1NkwzODQgMzA0bC00LjkgMC0yLjIgNC40TDM0Ny4xIDM2OGwtMTgyLjEgMC0yOS44LTU5LjYtMi4yLTQuNC00LjkgMEwyMC41IDMwNGw2NC0yNTZ6TTAgMzIwTDAgNDY0bDAgMTYgMTYgMCA0ODAgMCAxNiAwIDAtMTYgMC0xNDRMNDQwIDMyIDcyIDMyIDAgMzIwek0xNTIgMTEybC04IDAgMCAxNiA4IDAgMjE2IDAgOCAwIDAtMTYtOCAwLTIxNiAwem0tMjQgNjRsLTggMCAwIDE2IDggMCAyNTYgMCA4IDAgMC0xNi04IDAtMjU2IDB6bS0xNiA2NGwtOCAwIDAgMTYgOCAwIDI4MCAwIDggMCAwLTE2LTggMC0yODAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![inbox-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/inbox-full.svg)
  */
 const InboxFull: typeof Icon = x => (
     <Icon {...x}>

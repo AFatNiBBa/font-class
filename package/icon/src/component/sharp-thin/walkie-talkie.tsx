@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `walkie-talkie` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/walkie-talkie?s=sharp-thin walkie-talkie}
- * @preview ![walkie-talkie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgOGwwLThMODAgMGwwIDggMCA4OEw4IDk2Yy00LjQgMC04IDMuNi04IDhMMCAzMTJjMCAyLjEgLjggNC4yIDIuMyA1LjdMMzIgMzQ3LjMgMzIgNTA0YzAgNC40IDMuNiA4IDggOGwzMDQgMGM0LjQgMCA4LTMuNiA4LThsMC0xNTYuNyAyOS43LTI5LjdjMS41LTEuNSAyLjMtMy41IDIuMy01LjdsMC0yMDhjMC00LjQtMy42LTgtOC04bC01NiAwIDAtMzIgMC04LTggMC00OCAwLTggMCAwIDggMCAzMi0zMiAwIDAtMzIgMC04LTggMC00OCAwLTggMCAwIDggMCAzMkw5NiA5NiA5NiA4ek0yNzIgOTZsMC0yNCAzMiAwIDAgMjQtMzIgMHpNMjA4IDcybDAgMjQtMzIgMCAwLTI0IDMyIDB6TTgwIDExMmwxNiAwIDI3MiAwIDAgMTk2LjctMjkuNyAyOS43Yy0xLjUgMS41LTIuMyAzLjUtMi4zIDUuN2wwIDE1Mkw0OCA0OTZsMC0xNTJjMC0yLjEtLjgtNC4yLTIuMy01LjdMMTYgMzA4LjcgMTYgMTEybDY0IDB6bTE2IDY0bDAgMTYgOCAwIDE3NiAwIDggMCAwLTE2LTggMC0xNzYgMC04IDB6bTAgNjRsMCAxNiA4IDAgMTc2IDAgOCAwIDAtMTYtOCAwLTE3NiAwLTggMHptMCA2NGwwIDE2IDggMCAxNzYgMCA4IDAgMC0xNi04IDAtMTc2IDAtOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![walkie-talkie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/walkie-talkie.svg)
  */
 const WalkieTalkie: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

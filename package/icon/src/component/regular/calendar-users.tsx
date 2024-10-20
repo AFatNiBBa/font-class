@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-users` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-users?s=regular calendar-users}
- * @preview ![calendar-users](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDI0YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgNDAtNDAgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAxNiAwIDQ4IDE2IDAgMzIgMCAxNiAwIDMyMCAwIDE2IDAgMzIgMCAxNiAwIDAtNDggMC0xNmMwLTM1LjMtMjguNy02NC02NC02NGwtNDAgMCAwLTQwYzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgNDBMMjQ4IDY0bDAtNDB6bTYuNyA0NDBjLjkgNS4yIDEuMyAxMC41IDEuMyAxNmMwIDExLjctMy4xIDIyLjYtOC42IDMybDE0NS4xIDBjLTUuNC05LjQtOC42LTIwLjMtOC42LTMyYzAtNS41IC41LTEwLjggMS4zLTE2bC0xMzAuNyAwek01MjggMzg0YTgwIDgwIDAgMSAwIDAtMTYwIDgwIDgwIDAgMSAwIDAgMTYwem0tNDggMzJjLTM1LjMgMC02NCAyOC43LTY0IDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDE2MCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMyYzAtMzUuMy0yOC43LTY0LTY0LTY0bC05NiAwek0xOTIgMzA0QTgwIDgwIDAgMSAwIDMyIDMwNGE4MCA4MCAwIDEgMCAxNjAgMHpNMCA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTYwIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTk2IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![calendar-users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/calendar-users.svg)
  */
 const CalendarUsers: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

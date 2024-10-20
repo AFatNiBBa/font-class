@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-cane` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-cane?s=light person-cane}
- * @preview ![person-cane](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDU2YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bS04MCAwYTU2IDU2IDAgMSAxIDExMiAwQTU2IDU2IDAgMSAxIDE2OCA1NnpNMTQ0IDE2NGwwIDE1NiA2NCAwIDAtMTU4LjhjLTMuNC0uOC02LjktMS4yLTEwLjUtMS4ybC0zNC4yIDBjLTYuOCAwLTEzLjMgMS40LTE5LjMgNHptLTMyIDM4LjFMNjIuMSAyOTUuNWMtNC4yIDcuOC0xMy45IDEwLjctMjEuNyA2LjZzLTEwLjctMTMuOS02LjYtMjEuN0w5Mi43IDE3MC4zYzEzLjktMjYgNDEtNDIuMyA3MC42LTQyLjNsMzQuMiAwYzIzLjUgMCA0NS43IDEwLjMgNjAuOSAyOC4ybDg5LjggMTA1LjVjNS43IDYuNyA0LjkgMTYuOC0xLjggMjIuNnMtMTYuOCA0LjktMjIuNi0xLjhMMjQwIDE4My45IDI0MCA0OTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0xNDQtNjQgMCAwIDE0NGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTI5My44ek0zNjggMzUyYy04LjggMC0xNiA3LjItMTYgMTZsMCA4YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtOGMwLTI2LjUgMjEuNS00OCA0OC00OHM0OCAyMS41IDQ4IDQ4bDAgMTI4YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMTI4YzAtOC44LTcuMi0xNi0xNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-cane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-cane.svg)
  */
 const PersonCane: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

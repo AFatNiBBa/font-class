@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `light-switch` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-switch?s=sharp-thin light-switch}
- * @preview ![light-switch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDE2bDAgNDgwTDE2IDQ5NiAxNiAxNmwzNTIgMHpNMTYgMEwwIDAgMCAxNiAwIDQ5NmwwIDE2IDE2IDAgMzUyIDAgMTYgMCAwLTE2IDAtNDgwIDAtMTZMMzY4IDAgMTYgMHpNMjcyIDQwMGwtMTYwIDAgMC0xMzYgMTYwIDAgMCAxMzZ6TTExMiAxMTJsMTYwIDAgMCAxMzYtMTYwIDAgMC0xMzZ6bTAtMTZMOTYgOTZsMCAxNiAwIDI4OCAwIDE2IDE2IDAgMTYwIDAgMTYgMCAwLTE2IDAtMjg4IDAtMTYtMTYgMEwxMTIgOTZ6bTk2LTQwYTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6bTAgNDAwYTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![light-switch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/light-switch.svg)
  */
 const LightSwitch: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

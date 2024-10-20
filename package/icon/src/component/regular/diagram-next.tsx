@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-next` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-next?s=regular diagram-next}
- * @preview ![diagram-next](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDIyNGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTY0YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZsMCA2NGMwIDM1LjMgMjguNyA2NCA2NCA2NGwxNjggMCAwIDg2LjEtMjMtMjNjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsNjQgNjRjOS40IDkuNCAyNC42IDkuNCAzMy45IDBsNjQtNjRjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMGwtMjMgMjMgMC04Ni4xIDE2OCAwek02NCAyODhjLTM1LjMgMC02NCAyOC43LTY0IDY0bDAgNjRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC02NGMwLTM1LjMtMjguNy02NC02NC02NGwtNzQuMyAwYzQuOCAxNiAyLjIgMzMuOC03LjcgNDhsODIgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCA2NGMwIDguOC03LjIgMTYtMTYgMTZsLTgwIDAtMjI0IDAtODAgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtNjRjMC04LjggNy4yLTE2IDE2LTE2bDgyIDBjLTkuOS0xNC4yLTEyLjUtMzItNy43LTQ4TDY0IDI4OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![diagram-next](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/diagram-next.svg)
  */
 const DiagramNext: typeof Icon = x => (
     <Icon {...x}>

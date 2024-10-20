@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `people-pants` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-pants?s=sharp-light people-pants}
- * @preview ![people-pants](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM2IDU2YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bTgwIDBBNTYgNTYgMCAxIDAgMTA0IDU2YTU2IDU2IDAgMSAwIDExMiAwek0xMDguOSAxMjhsLTkuNiAwLTQuNSA4LjUtNzYuOSAxNDQtNy41IDE0LjEgMjguMiAxNS4xIDcuNS0xNC4xTDk2IDIwMi4xIDk2IDQ5NmwwIDE2IDMyIDAgMC0xNiAwLTE0NCA2NCAwIDAgMTQ0IDAgMTYgMzIgMCAwLTE2IDAtMjkzLjggNDkuOSA5My40IDcuNSAxNC4xIDI4LjItMTUuMS03LjUtMTQuMS03Ni45LTE0NC00LjUtOC41LTkuNiAwLTEwMi4yIDB6TTE5MiAzMjBsLTY0IDAgMC0xNjAgNjQgMCAwIDE2MHpNNDU2IDU2YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bTgwIDBBNTYgNTYgMCAxIDAgNDI0IDU2YTU2IDU2IDAgMSAwIDExMiAwek00MjguOSAxMjhsLTkuNiAwLTQuNSA4LjUtNzYuOSAxNDQtNy41IDE0LjEgMjguMiAxNS4xIDcuNS0xNC4xTDQxNiAyMDIuMSA0MTYgNDk2bDAgMTYgMzIgMCAwLTE2IDAtMTQ0IDY0IDAgMCAxNDQgMCAxNiAzMiAwIDAtMTYgMC0yOTMuOCA0OS45IDkzLjQgNy41IDE0LjEgMjguMi0xNS4xLTcuNS0xNC4xLTc2LjktMTQ0LTQuNS04LjUtOS42IDAtMTAyLjIgMHpNNTEyIDMyMGwtNjQgMCAwLTE2MCA2NCAwIDAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![people-pants](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/people-pants.svg)
  */
 const PeoplePants: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

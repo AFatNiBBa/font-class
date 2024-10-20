@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-jpg` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-jpg?s=sharp-light file-jpg}
- * @preview ![file-jpg](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDE5MmwwIDExMiAzMiAwIDAtMTUyTDIzMiAwIDMyIDAgMCAwIDAgMzIgMCA0ODBsMCAzMiAzMiAwIDgwIDAgMC0zMi04MCAwTDMyIDMybDE2MCAwIDAgMTQ0IDAgMTYgMTYgMCAxNDQgMHptLTUuMy0zMkwyMjQgMTYwbDAtMTIyLjdMMzQ2LjcgMTYwek0yMDggNTEyYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtOTYgMC0xNi0zMiAwIDAgMTYgMCA5NmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTE2IDAtMTYtMzIgMCAwIDE2IDAgMTZjMCAyNi41IDIxLjUgNDggNDggNDh6TTQ1NiAzNTJjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgODBjMCAyMi4xIDE3LjkgNDAgNDAgNDBsMTYgMGMyMi4xIDAgNDAtMTcuOSA0MC00MGwwLTI0IDAtMTYtMTYgMC0xNiAwLTE2IDAgMCAzMiAxNiAwIDAgOGMwIDQuNC0zLjYgOC04IDhsLTE2IDBjLTQuNCAwLTgtMy42LTgtOGwwLTgwYzAtNC40IDMuNi04IDgtOGwxNiAwYzQuNCAwIDggMy42IDggOGwwIDE2IDMyIDAgMC0xNmMwLTIyLjEtMTcuOS00MC00MC00MGwtMTYgMHptLTE2OCAwbDAgMTYgMCA4MCAwIDQ4IDAgMTYgMzIgMCAwLTE2IDAtMzIgMTYgMGMzMC45IDAgNTYtMjUuMSA1Ni01NnMtMjUuMS01Ni01Ni01NmwtMzIgMC0xNiAwem0zMiA4MGwwLTQ4IDE2IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-jpg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-jpg.svg)
  */
 const FileJpg: typeof Icon = x => (
     <Icon {...x}>

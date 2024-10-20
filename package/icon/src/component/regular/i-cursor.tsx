@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `i-cursor` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/i-cursor?s=regular i-cursor}
- * @preview ![i-cursor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNLjEgMjIuMmMtMSAxMy4yIDguOSAyNC44IDIyLjEgMjUuOGwxNS40IDEuMkM3NSA1MiAxMDQgODMuMyAxMDQgMTIwLjlMMTA0IDIzMmwtNDAgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw0MCAwIDAgMTExLjFjMCAzNy42LTI5IDY4LjktNjYuNSA3MS44bC0xNS40IDEuMkM4LjkgNDY1LjEtLjkgNDc2LjYgLjEgNDg5LjhzMTIuNiAyMy4xIDI1LjggMjIuMWwxNS40LTEuMmMzNS43LTIuNyA2Ni43LTIwLjkgODYuOC00Ny42YzIwLjEgMjYuNyA1MS4xIDQ0LjkgODYuOCA0Ny42bDE1LjQgMS4yYzEzLjIgMSAyNC44LTguOSAyNS44LTIyLjFzLTguOS0yNC44LTIyLjEtMjUuOGwtMTUuNC0xLjJDMTgxIDQ2MCAxNTIgNDI4LjcgMTUyIDM5MS4xTDE1MiAyODBsNDAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNDAgMCAwLTExMS4xYzAtMzcuNiAyOS02OC45IDY2LjUtNzEuOGwxNS40LTEuMmMxMy4yLTEgMjMuMS0xMi42IDIyLjEtMjUuOFMyNDMuNC0uOSAyMzAuMiAuMUwyMTQuOCAxLjNDMTc5LjEgNCAxNDguMSAyMi4yIDEyOCA0OC45QzEwNy45IDIyLjIgNzYuOSA0IDQxLjIgMS4zTDI1LjggLjFDMTIuNi0uOSAxLjEgOC45IC4xIDIyLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![i-cursor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/i-cursor.svg)
  */
 const ICursor: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-code` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-code?s=light laptop-code}
- * @preview ![laptop-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDY0bDM4NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMjU2IDMyIDAgMC0yNTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMMTI4IDMyQzkyLjcgMzIgNjQgNjAuNyA2NCA5NmwwIDI1NiAzMiAwTDk2IDk2YzAtMTcuNyAxNC4zLTMyIDMyLTMyek0zMy45IDQxNmw1NzIuMyAwYy01LjUgMTguNS0yMi42IDMyLTQyLjkgMzJMNzYuOCA0NDhjLTIwLjMgMC0zNy40LTEzLjUtNDIuOS0zMnpNMTkuMiAzODRDOC42IDM4NCAwIDM5Mi42IDAgNDAzLjJDMCA0NDUuNiAzNC40IDQ4MCA3Ni44IDQ4MGw0ODYuNCAwYzQyLjQgMCA3Ni44LTM0LjQgNzYuOC03Ni44YzAtMTAuNi04LjYtMTkuMi0xOS4yLTE5LjJMMTkuMiAzODR6TTI4My4zIDE3MS4zYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBsLTY0IDY0Yy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNmw2NCA2NGM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMHM2LjItMTYuNCAwLTIyLjZMMjMwLjYgMjI0bDUyLjctNTIuN3ptOTYtMjIuNmMtNi4yLTYuMi0xNi40LTYuMi0yMi42IDBzLTYuMiAxNi40IDAgMjIuNkw0MDkuNCAyMjRsLTUyLjcgNTIuN2MtNi4yIDYuMi02LjIgMTYuNCAwIDIyLjZzMTYuNCA2LjIgMjIuNiAwbDY0LTY0YzYuMi02LjIgNi4yLTE2LjQgMC0yMi42bC02NC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![laptop-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/laptop-code.svg)
  */
 const LaptopCode: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-magnifying-glass` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-magnifying-glass?s=light file-magnifying-glass}
- * @preview ![file-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDMyMGE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6bS04LjQgNzguM0MyMTUuOSA0MDkuNCAxOTYuNyA0MTYgMTc2IDQxNmMtNTMgMC05Ni00My05Ni05NnM0My05NiA5Ni05NnM5NiA0MyA5NiA5NmMwIDIwLjctNi42IDM5LjktMTcuNyA1NS42bDQ1LjEgNDUuMWM2LjIgNi4yIDYuMiAxNi40IDAgMjIuNnMtMTYuNCA2LjItMjIuNiAwbC00NS4xLTQ1LjF6TTM1MiA0NDhsMC0yNTYtMTEyIDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTEyTDY0IDMyQzQ2LjMgMzIgMzIgNDYuMyAzMiA2NGwwIDM4NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwyNTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMnptLS41LTI4OGMtLjctMi44LTIuMS01LjQtNC4yLTcuNEwyMzEuNCAzNi43Yy0yLjEtMi4xLTQuNi0zLjUtNy40LTQuMkwyMjQgMTQ0YzAgOC44IDcuMiAxNiAxNiAxNmwxMTEuNSAwek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwyMjAuMSAwYzEyLjcgMCAyNC45IDUuMSAzMy45IDE0LjFMMzY5LjkgMTI5LjljOSA5IDE0LjEgMjEuMiAxNC4xIDMzLjlMMzg0IDQ0OGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-magnifying-glass.svg)
  */
 const FileMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

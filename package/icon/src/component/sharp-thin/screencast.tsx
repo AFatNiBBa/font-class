@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `screencast` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screencast?s=sharp-thin screencast}
- * @preview ![screencast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYwIDQ4TDE2IDQ4bDAgMTQ0LjRjLTUuMy0uMy0xMC42LS40LTE2LS40TDAgNDggMCAzMmwxNiAwIDU0NCAwIDE2IDAgMCAxNiAwIDQxNiAwIDE2LTE2IDAtMjcyIDBjMC01LjQtLjEtMTAuNy0uNC0xNkw1NjAgNDY0bDAtNDE2ek0wIDI0MGwwLTE2YzE0MS40IDAgMjU2IDExNC42IDI1NiAyNTZsLTE2IDBDMjQwIDM0Ny41IDEzMi41IDI0MCAwIDI0MHpNNDggNDQ4YTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6TTAgNDQ4YTMyIDMyIDAgMSAxIDY0IDBBMzIgMzIgMCAxIDEgMCA0NDh6bTE0NCAzMmMwLTc5LjUtNjQuNS0xNDQtMTQ0LTE0NGwwLTE2Yzg4LjQgMCAxNjAgNzEuNiAxNjAgMTYwbC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![screencast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/screencast.svg)
  */
 const Screencast: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

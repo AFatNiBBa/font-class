@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `banjo` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/banjo?s=sharp-solid banjo}
- * @preview ![banjo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY3LjEgOTkuN0wzNzYgNjQgNDQ4IDBsNjQgNjQtNjQgNzItMzUuNyA4LjlMMzMxLjMgMjI2YzEzLjkgMjAuNiAyMy40IDQ0LjMgMjcgNzBsMS43IDAgMjQgMCAwIDQ4LTI0IDAtMS43IDBjLTQuMSAyOC41LTE1LjMgNTQuNi0zMS43IDc2LjZsMS4yIDEuMiAxNyAxNy0zMy45IDMzLjktMTctMTctMS4yLTEuMmMtMjIgMTYuNS00OC4yIDI3LjctNzYuNiAzMS43bDAgMS43IDAgMjQtNDggMCAwLTI0IDAtMS43Yy0yOC41LTQuMS01NC42LTE1LjMtNzYuNi0zMS43bC0xLjIgMS4yLTE3IDE3TDM5LjMgNDM4LjhsMTctMTcgMS4yLTEuMkM0MSAzOTguNiAyOS44IDM3Mi41IDI1LjcgMzQ0TDI0IDM0NCAwIDM0NGwwLTQ4IDI0IDAgMS43IDBjNC4xLTI4LjUgMTUuMy01NC42IDMxLjctNzYuNmwtMS4yLTEuMi0xNy0xNyAzMy45LTMzLjkgMTcgMTcgMS4yIDEuMmMyMi0xNi41IDQ4LjItMjcuNyA3Ni42LTMxLjdsMC0xLjcgMC0yNCA0OCAwIDAgMjQgMCAxLjdjMjUuNyAzLjcgNDkuNSAxMy4xIDcwIDI3bDgxLjEtODEuMXpNMTkyIDQzMmExMTIgMTEyIDAgMSAwIDAtMjI0IDExMiAxMTIgMCAxIDAgMCAyMjR6TTE1NS4zIDMwOC43bDQ4IDQ4TDIxNC42IDM2OCAxOTIgMzkwLjZsLTExLjMtMTEuMy00OC00OEwxMjEuNCAzMjAgMTQ0IDI5Ny40bDExLjMgMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![banjo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/banjo.svg)
  */
 const Banjo: typeof Icon = x => (
     <Icon {...x}>

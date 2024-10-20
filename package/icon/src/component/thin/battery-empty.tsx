@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-empty` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-empty?s=thin battery-empty}
- * @preview ![battery-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMTEyYy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDE2MGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzNjggMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTE2IDAtMTYgMC05NiAwLTE2IDAtMTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMODAgMTEyek01MjggMzIwbDAgMTZjMCA0NC4yLTM1LjggODAtODAgODBMODAgNDE2Yy00NC4yIDAtODAtMzUuOC04MC04MEwwIDE3NmMwLTQ0LjIgMzUuOC04MCA4MC04MGwzNjggMGM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDE2IDE2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTYgMHptMC0xMTJsMCA5NiAxNiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNmwtMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![battery-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/battery-empty.svg)
  */
 const BatteryEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

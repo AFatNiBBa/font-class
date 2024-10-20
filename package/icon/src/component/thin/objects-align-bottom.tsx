@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `objects-align-bottom` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-bottom?s=thin objects-align-bottom}
- * @preview ![objects-align-bottom](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCA1MTJjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsNDk2IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhMOCA1MTJ6TTE3NiA0MDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0zMjBjMC0xNy43LTE0LjMtMzItMzItMzJsLTY0IDBDOTQuMyAxNiA4MCAzMC4zIDgwIDQ4bDAgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDY0IDB6bS02NCAxNmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhMNjQgNDhDNjQgMjEuNSA4NS41IDAgMTEyIDBsNjQgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDMyMGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtNjQgMHptMjg4LTE2YzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTkyYzAtMTcuNy0xNC4zLTMyLTMyLTMybC02NCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE5MmMwIDE3LjcgMTQuMyAzMiAzMiAzMmw2NCAwem0tNjQgMTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTkyYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDY0IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAxOTJjMCAyNi41LTIxLjUgNDgtNDggNDhsLTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![objects-align-bottom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/objects-align-bottom.svg)
  */
 const ObjectsAlignBottom: typeof Icon = x => (
     <Icon {...x}>

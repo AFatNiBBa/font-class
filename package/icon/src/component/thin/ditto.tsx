@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ditto` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ditto?s=thin ditto}
- * @preview ![ditto](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTAzLjljMCA0LjIgLjUgOC4zIDEuNCAxMi40TDUwLjMgMjYxLjFDNTEuNyAyNjcuNSA1Ny40IDI3MiA2NCAyNzJzMTIuMy00LjUgMTMuNy0xMC45bDMyLjktMTQ0LjdjLjktNC4xIDEuNC04LjIgMS40LTEyLjRsMC03LjljMC0yNi41LTIxLjUtNDgtNDgtNDhTMTYgNjkuNSAxNiA5NmwwIDcuOXptLTE2IDBMMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMnM2NCAyOC43IDY0IDY0bDAgNy45YzAgNS40LS42IDEwLjctMS44IDE1LjlMOTMuMyAyNjQuNkM5MC4yIDI3OC4zIDc4IDI4OCA2NCAyODhzLTI2LjItOS43LTI5LjMtMjMuNEwxLjggMTE5LjlDLjYgMTE0LjYgMCAxMDkuMyAwIDEwMy45em0yMDggMGMwIDQuMiAuNSA4LjMgMS40IDEyLjRsMzIuOSAxNDQuN2MxLjUgNi40IDcuMSAxMC45IDEzLjcgMTAuOXMxMi4zLTQuNSAxMy43LTEwLjlsMzIuOS0xNDQuN2MuOS00LjEgMS40LTguMiAxLjQtMTIuNGwwLTcuOWMwLTI2LjUtMjEuNS00OC00OC00OHMtNDggMjEuNS00OCA0OGwwIDcuOXptLTE2IDBsMC03LjljMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NGwwIDcuOWMwIDUuNC0uNiAxMC43LTEuOCAxNS45TDI4NS4zIDI2NC42QzI4Mi4yIDI3OC4zIDI3MCAyODggMjU2IDI4OHMtMjYuMi05LjctMjkuMy0yMy40TDE5My44IDExOS45Yy0xLjItNS4yLTEuOC0xMC42LTEuOC0xNS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ditto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ditto.svg)
  */
 const Ditto: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

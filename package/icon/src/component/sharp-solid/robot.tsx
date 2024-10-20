@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `robot` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/robot?s=sharp-solid robot}
- * @preview ![robot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBsMCAzMiAwIDY0IDE5MiAwIDAgNDE2TDk2IDUxMiA5NiA5NmwxOTIgMCAwLTY0IDAtMzIgNjQgMHpNMjA4IDM4NGwtMTYgMCAwIDMyIDE2IDAgMzIgMCAxNiAwIDAtMzItMTYgMC0zMiAwem05NiAwbC0xNiAwIDAgMzIgMTYgMCAzMiAwIDE2IDAgMC0zMi0xNiAwLTMyIDB6bTk2IDBsLTE2IDAgMCAzMiAxNiAwIDMyIDAgMTYgMCAwLTMyLTE2IDAtMzIgMHpNMjY0IDI1NmE0MCA0MCAwIDEgMCAtODAgMCA0MCA0MCAwIDEgMCA4MCAwem0xNTIgNDBhNDAgNDAgMCAxIDAgMC04MCA0MCA0MCAwIDEgMCAwIDgwek02NCAyMjRsMCAxOTJMMCA0MTYgMCAyMjRsNjQgMHptNTc2IDBsMCAxOTItNjQgMCAwLTE5MiA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/robot.svg)
  */
 const Robot: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-right-from-square` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-right-from-square?s=sharp-regular up-right-from-square}
- * @preview ![up-right-from-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIxLjkgODEuOUwyODggNDhsMzMuOS0zMy45TDMzNiAwIDQ2NCAwbDQ4IDAgMCA0OCAwIDEyOC0xNC4xIDE0LjFMNDY0IDIyNGwtMzMuOS0zMy45TDM5MyAxNTMgMjQxIDMwNWwtMTcgMTdMMTkwLjEgMjg4bDE3LTE3TDM1OSAxMTkgMzIxLjkgODEuOXpNNDY0IDE1Ni4xTDQ2NCA0OCAzNTUuOSA0OCA0NjQgMTU2LjF6TTAgMzJsMjQgMCAxNzYgMCAyNCAwIDAgNDgtMjQgMEw0OCA4MGwwIDM4NCAzODQgMCAwLTE1MiAwLTI0IDQ4IDAgMCAyNCAwIDE3NiAwIDI0LTI0IDBMMjQgNTEyIDAgNTEybDAtMjRMMCA1NiAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![up-right-from-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/up-right-from-square.svg)
  */
 const UpRightFromSquare: typeof Icon = x => (
     <Icon {...x}>

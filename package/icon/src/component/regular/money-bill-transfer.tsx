@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-bill-transfer` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-transfer?s=regular money-bill-transfer}
- * @preview ![money-bill-transfer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTU4LjEgNjRMNTM1IDQxYy05LjQtOS40LTkuNC0yNC42IDAtMzMuOXMyNC42LTkuNCAzMy45IDBsNjQgNjRjNC41IDQuNSA3IDEwLjYgNyAxN3MtMi41IDEyLjUtNyAxN2wtNjQgNjRjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwcy05LjQtMjQuNiAwLTMzLjlsMjMtMjMtNjQuNiAwczAgMCAwIDBMMTYwIDExMmwwIDE2YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0xNiAwIDAgOTMuNUw1MC43IDMxNC43IDMyIDMzMy41IDMyIDEyOGMwLTM1LjMgMjguNy02NCA2NC02NGwyODcuNiAwIC40IDAgMTc0LjEgMHpNNTYwIDMyMGwwLTkzLjUgMjkuMy0yOS4zTDYwOCAxNzguNSA2MDggMzg0YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0zOTcuNSAwczAgMCAwIDBsLTY0LjYgMCAyMyAyM2M5LjQgOS40IDkuNCAyNC42IDAgMzMuOXMtMjQuNiA5LjQtMzMuOSAwTDcgNDQxYy00LjUtNC41LTctMTAuNi03LTE3czIuNS0xMi41IDctMTdsNjQtNjRjOS40LTkuNCAyNC42LTkuNCAzMy45IDBzOS40IDI0LjYgMCAzMy45bC0yMyAyM0wyNTYgNDAwYy4xIDAgLjMgMCAuNCAwTDQ4MCA0MDBsMC0xNmMwLTM1LjMgMjguNy02NCA2NC02NGwxNiAwek0zMjAgMTYwYTk2IDk2IDAgMSAxIDAgMTkyIDk2IDk2IDAgMSAxIDAtMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![money-bill-transfer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/money-bill-transfer.svg)
  */
 const MoneyBillTransfer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

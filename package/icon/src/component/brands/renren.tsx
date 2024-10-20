@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `renren` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/renren?s=brands renren}
- * @preview ![renren](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE0IDE2OS4xYzAgMTEwLjQtNjEgMjA1LjQtMTQ3LjYgMjQ3LjRDMzAgMzczLjIgOCAzMTcuNyA4IDI1Ni42IDggMTMzLjkgOTcuMSAzMi4yIDIxNCAxMi41djE1Ni42ek0yNTUgNTA0Yy00Mi45IDAtODMuMy0xMS0xMTguNS0zMC40QzE5My43IDQzNy41IDIzOS45IDM4Mi45IDI1NSAzMTljMTUuNSA2My45IDYxLjcgMTE4LjUgMTE4LjggMTU0LjdDMzM4LjcgNDkzIDI5OC4zIDUwNCAyNTUgNTA0em0xOTAuNi04Ny41QzM1OSAzNzQuNSAyOTggMjc5LjYgMjk4IDE2OS4xVjEyLjVjMTE2LjkgMTkuNyAyMDYgMTIxLjQgMjA2IDI0NC4xIDAgNjEuMS0yMiAxMTYuNi01OC40IDE1OS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![renren](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/renren.svg)
  */
 const Renren: typeof Icon = x => (
     <Icon {...x}>

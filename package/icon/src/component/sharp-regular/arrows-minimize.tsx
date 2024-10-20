@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-minimize` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-minimize?s=sharp-regular arrows-minimize}
- * @preview ![arrows-minimize](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTQuMUw2NSAzMWwxMTEgMTExTDE3NiA1NmwwLTI0IDQ4IDAgMCAyNCAwIDE0NCAwIDI0LTI0IDBMNTYgMjI0bC0yNCAwIDAtNDggMjQgMCA4Ni4xIDBMMzEgNjVsLTE3LTE3TDQ4IDE0LjF6TTQ5Ny45IDQ4TDQ4MSA2NWwtMTExIDExMSA4Ni4xIDAgMjQgMCAwIDQ4LTI0IDAtMTQ0IDAtMjQgMCAwLTI0IDAtMTQ0IDAtMjQgNDggMCAwIDI0IDAgODYuMUw0NDcgMzFsMTctMTdMNDk3LjkgNDh6TTMyIDI4OGwyNCAwIDE0NCAwIDI0IDAgMCAyNCAwIDE0NCAwIDI0LTQ4IDAgMC0yNCAwLTg2LjFMNjUgNDgxbC0xNyAxN0wxNC4xIDQ2NGwxNy0xNyAxMTEtMTExTDU2IDMzNmwtMjQgMCAwLTQ4em0yNTYgMGwyNCAwIDE0NCAwIDI0IDAgMCA0OC0yNCAwLTg2LjEgMEw0ODEgNDQ3bDE3IDE3TDQ2NCA0OTcuOWwtMTctMTctMTExLTExMSAwIDg2LjEgMCAyNC00OCAwIDAtMjQgMC0xNDQgMC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-minimize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrows-minimize.svg)
  */
 const ArrowsMinimize: typeof Icon = x => (
     <Icon {...x}>

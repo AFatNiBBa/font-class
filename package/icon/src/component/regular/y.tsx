@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `y` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/y?s=regular y}
- * @preview ![y](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMuNCA0MS45QzM1LjcgMzEuMiAyMC43IDI4LjggOS45IDM2LjZTLTMuMiA1OS4zIDQuNiA3MC4xTDE2OCAyOTUuOCAxNjggNDU2YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xNjAuMkwzNzkuNCA3MC4xYzcuOC0xMC43IDUuNC0yNS43LTUuNC0zMy41cy0yNS43LTUuNC0zMy41IDUuNEwxOTIgMjQ3LjEgNDMuNCA0MS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![y](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/y.svg)
  */
 const Y: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `resolving` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/resolving?s=brands resolving}
- * @preview ![resolving](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgxLjIgMjc4LjJjNDYtMTMuMyA0OS42LTIzLjUgNDQtNDMuNEwzMTQgMTk1LjVjLTYuMS0yMC45LTE4LjQtMjguMS03MS4xLTEyLjhMNTQuNyAyMzYuOGwyOC42IDk4LjYgMTk3LjktNTcuMnpNMjQ4LjUgOEMxMzEuNCA4IDMzLjIgODguNyA3LjIgMTk3LjVsMjIxLjktNjMuOWMzNC44LTEwLjIgNTQuMi0xMS43IDc5LjMtOC4yIDM2LjMgNi4xIDUyLjcgMjUgNjEuNCA1NS4ybDEwLjcgMzcuOGM4LjIgMjguMSAxIDUwLjYtMjMuNSA3My42LTE5LjQgMTcuNC0zMS4yIDI0LjUtNjEuNCAzMy4yTDIwMyAzNTEuOGwyMjAuNCAyNy4xIDkuNyAzNC4yLTQ4LjEgMTMuMy0yODYuOC0zNy4zIDIzIDgwLjJjMzYuOCAyMiA4MC4zIDM0LjcgMTI2LjMgMzQuNyAxMzcgMCAyNDguNS0xMTEuNCAyNDguNS0yNDguM0M0OTcgMTE5LjQgMzg1LjUgOCAyNDguNSA4ek0zOC4zIDM4OC42TDAgMjU2LjhjMCA0OC41IDE0LjMgOTMuNCAzOC4zIDEzMS44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![resolving](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/resolving.svg)
  */
 const Resolving: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

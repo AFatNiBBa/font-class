@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `edge-legacy` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/edge-legacy?s=brands edge-legacy}
- * @preview ![edge-legacy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjUuNzEsMjI4LjE2bC4zNS0uNDhjMCwuMTYsMCwuMzItLjA3LjQ4Wm00NjAuNTgsMTUuNTFjMC00NC03Ljc2LTg0LjQ2LTI4LjgxLTEyMi40QzQxNi41LDQ3Ljg4LDM0My45MSw4LDI1OC44OSw4LDExOSw3LjcyLDQwLjYyLDExMy4yMSwyNi4wNiwyMjcuNjhjNDIuNDItNjEuMzEsMTE3LjA3LTEyMS4zOCwyMjAuMzctMTI1LDAsMCwxMDkuNjcsMCw5OS40MiwxMDVIMTcwYzYuMzctMzcuMzksMTguNTUtNTksMzQuMzQtNzguOTMtNzUuMDUsMzQuOS0xMjEuODUsOTYuMS0xMjAuNzUsMTg4LjMyLjgzLDcxLjQ1LDUwLjEzLDE0NC44NCwxMjAuNzUsMTcyLDgzLjM1LDMxLjg0LDE5Mi43Nyw3LjIsMjQwLjEzLTIxLjMzVjM2My4zMUMzNjMuNiw0MTkuOCwxNzMuNiw0MjQuMjMsMTcyLjIxLDI5NS43NEg0ODYuMjlWMjQzLjY3WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![edge-legacy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/edge-legacy.svg)
  */
 const EdgeLegacy: typeof Icon = x => (
     <Icon {...x}>

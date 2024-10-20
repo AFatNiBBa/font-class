@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diploma` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diploma?s=sharp-regular diploma}
- * @preview ![diploma](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDE0NGwwLTMxIDAtLjVjLjMtMTggMTQuOS0zMi41IDMzLTMyLjVjOS41IDAgMTguNiA0LjEgMjQuOCAxMS4zTDMxMiAxNDRsLTcyIDAtMzIgMHptMTIwIDBsNDYuMS01Mi43QzM4MC40IDg0LjEgMzg5LjUgODAgMzk5IDgwbDEgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIC41IDAgLjUgMCAzMS0zMiAwLTcyIDB6bTE1MiA0OGwxMTIgMCAwIDg0LjctNDIuNyA4NS41TDM4NCAzMzEuMiAzODQgMTkybDQ4IDAgNDggMHpNMzg0IDM4MGwxOTIgMzYgNjQtMTI4IDAtOTYgMC00OC00OCAwLTExMiAwIDAtMzFjMC00NC43LTM2LjMtODEtODEtODFjLTIzLjQgMC00NS42IDEwLjEtNjEgMjcuN0wzMjAgODAuMyAzMDIgNTkuN0MyODYuNiA0Mi4xIDI2NC40IDMyIDI0MSAzMmMtNDQuNyAwLTgxIDM2LjMtODEgODFsMCAzMUw0OCAxNDQgMCAxNDRsMCA0OCAwIDk2TDY0IDQxNmwxOTItMzYgMCAxMDAgNjQtNDAgNjQgNDAgMC0xMDB6TTI1NiAzMzEuMmwtMTY1LjMgMzFMNDggMjc2LjcgNDggMTkybDExMiAwIDQ4IDAgNDggMCAwIDEzOS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![diploma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/diploma.svg)
  */
 const Diploma: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `keyboard-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard-down?s=sharp-light keyboard-down}
- * @preview ![keyboard-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMCAyMjQgNTEyIDAgMC0yMjRMMzIgMzJ6TTAgMEwzMiAwIDU0NCAwbDMyIDAgMCAzMiAwIDIyNCAwIDMyLTMyIDBMMzIgMjg4IDAgMjg4bDAtMzJMMCAzMiAwIDB6TTIxNiA3MmwwIDQ4LTQ4IDAgMC00OCA0OCAwek03MiAxNjhsNDggMCAwIDQ4LTQ4IDAgMC00OHptNDgtOTZsMCA0OC00OCAwIDAtNDggNDggMHptMTQ0IDBsNDggMCAwIDQ4LTQ4IDAgMC00OHptMTQ0IDBsMCA0OC00OCAwIDAtNDggNDggMHptNDggMGw0OCAwIDAgNDgtNDggMCAwLTQ4em00OCA5NmwwIDQ4LTQ4IDAgMC00OCA0OCAwem0tMzI4IDhsMjI0IDAgMTYgMCAwIDMyLTE2IDAtMjI0IDAtMTYgMCAwLTMyIDE2IDB6bS00LjcgMTcyLjdMMjg4IDQ2NS40IDQwNC43IDM0OC43IDQxNiAzMzcuNCA0MzguNiAzNjBsLTExLjMgMTEuMy0xMjggMTI4TDI4OCA1MTAuNmwtMTEuMy0xMS4zLTEyOC0xMjhMMTM3LjQgMzYwIDE2MCAzMzcuNGwxMS4zIDExLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![keyboard-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/keyboard-down.svg)
  */
 const KeyboardDown: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pepper-hot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pepper-hot?s=sharp-regular pepper-hot}
- * @preview ![pepper-hot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIzLjkgNDQuNEw0MTkgMzUuN2w0Mi0yMy4zIDQuOCA4LjdjMTkuMyAzNC43IDE5LjggNzUuNyAzLjQgMTEwQzQ5NS44IDE1OS42IDUxMiAxOTcuOSA1MTIgMjQwYzAgMzMuMS0xMC4xIDYzLjktMjcuMyA4OS40TDQ0OCAyNTZsLTExMiAwTDMyMCAxNDRsLTg4LTkuOEMyNjEuMyAxMDEgMzA0LjIgODAgMzUyIDgwYzI4LjMgMCA1NC44IDcuMyA3Ny44IDIwLjJjNS41LTE4LjIgMy43LTM4LjQtNi01NS44em0tMjUxLjYgMjYwbDg0LjItMTQxLjggMzUgNy44IDMuMSAyMkwyMTMuNSAzMjguOWMtMjQuOCA0MS44LTY1LjcgNzEuNC0xMTMuMiA4Mkw0OCA0MjIuNSA0OCA0NjRsNTUuMiAwYzEzMy43IDAgMjU0LjEtNjguNyAzMjMuNi0xNzZsMS40IDAgMjMuOSA0Ny44QzM3Mi4zIDQ0My45IDI0NC4zIDUxMiAxMDMuMiA1MTJMNDggNTEyIDAgNTEybDAtNDggMC04MCA5MC0yMGMzNC41LTcuNyA2NC4zLTI5LjIgODIuMy01OS42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pepper-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pepper-hot.svg)
  */
 const PepperHot: typeof Icon = x => (
     <Icon {...x}>

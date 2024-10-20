@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `map` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map?s=sharp-light map}
- * @preview ![map](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDM4Ny44TDMyIDQzNC4zbDAtMzE1LjlMMTYwIDcxLjlsMCAzMTUuOXptMjI0IDU0LjRMMTkyIDM4Ny4zbDAtMzE3LjQgMTkyIDU0LjkgMCAzMTcuNHptMzItMmwwLTMxNS45TDU0NCA3Ny43bDAgMzE1LjlMNDE2IDQ0MC4xek0wIDQ4MGwzMi0xMS42TDE3NiA0MTZsMjI0IDY0IDE3Ni02NCAwLTM1MCAwLTM0TDU0NCA0My42IDQwMCA5NiAxNzYgMzIgMCA5NiAwIDQ0NS45IDAgNDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![map](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/map.svg)
  */
 const Map: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

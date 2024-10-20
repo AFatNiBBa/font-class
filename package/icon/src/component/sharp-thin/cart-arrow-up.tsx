@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-arrow-up` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-arrow-up?s=sharp-thin cart-arrow-up}
- * @preview ![cart-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDggMCA2NCAwbDYuMiAwIDEuNiA2IDY5LjQgMjY2IDM0MSAwTDU1Ny42IDMybDE2LjggMEw0OTUuNiAyODIuNGwtMS44IDUuNi01LjkgMC0zNDIuNyAwIDIwLjkgODBMNDk2IDM2OGw4IDAgMCAxNi04IDAtMzM2IDAtNi4yIDAtMS42LTZMNTcuOCAxNiA4IDE2IDAgMTYgMCAwek0yMDggNDY0YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bS04MCAwYTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bTMzNiAzMmEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6bTAtODBhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2ek0zMTIgMjMybDAtMTcyLjctNjYuMyA2Ni4zLTUuNyA1LjdMMjI4LjcgMTIwbDUuNy01LjcgODAtODAgNS43LTUuNyA1LjcgNS43IDgwIDgwIDUuNyA1LjdMNDAwIDEzMS4zbC01LjctNS43TDMyOCA1OS4zIDMyOCAyMzJsMCA4LTE2IDAgMC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cart-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cart-arrow-up.svg)
  */
 const CartArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

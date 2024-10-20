@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `narwhal` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/narwhal?s=solid narwhal}
- * @preview ![narwhal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjM5LjMgMjAuN2MyLjQtNy44LTEuNC0xNi4xLTguOS0xOS40cy0xNi4yLS40LTIwLjIgNi42TDUxNi43IDE2OC4zYy0xNi45LTUuNC0zNC45LTguMy01My42LTguM2MtNTAuOSAwLTEwMC43IDE3LjUtMTQwLjIgNDkuNkwxNTQuMSAzNDYuOGMtMTAuNSA4LjUtMjYuMSAxLjEtMjYuMS0xMi40bDAtODEuMyAyOS45LTIwLjljMjEuNC0xNSAzNC4xLTM5LjQgMzQuMS02NS41bDAtNTQuN2MwLTYtMy4zLTExLjQtOC42LTE0LjJzLTExLjctMi4zLTE2LjYgMS4xTDk2IDE0OC41IDI1LjIgOTguOWMtNC45LTMuNC0xMS4zLTMuOC0xNi42LTEuMVMwIDEwNiAwIDExMmwwIDU0LjdjMCAyNi4xIDEyLjcgNTAuNiAzNC4xIDY1LjVMNjQgMjUzLjEgNjQgMzUyYzAgODguNCA3MS42IDE2MCAxNjAgMTYwbDI0MCAwYzk3LjIgMCAxNzYtNzguOCAxNzYtMTc2YzAtNTEuNC0yMi4zLTk3LjctNTcuOC0xMjkuOWw1Ny0xODUuNHpNNDk2IDI4MGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![narwhal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/narwhal.svg)
  */
 const Narwhal: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

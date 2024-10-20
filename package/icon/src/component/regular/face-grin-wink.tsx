@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grin-wink` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-wink?s=regular face-grin-wink}
- * @preview ![face-grin-wink](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTM0OS41IDUyLjRjMTguNy00LjQgMzUuOSAxMiAyNS41IDI4LjFDMzUwLjQgMzc0LjYgMzA2LjMgNDAwIDI1NS45IDQwMHMtOTQuNS0yNS40LTExOS4xLTYzLjVjLTEwLjQtMTYuMSA2LjgtMzIuNSAyNS41LTI4LjFjMjguOSA2LjggNjAuNSAxMC41IDkzLjYgMTAuNXM2NC43LTMuNyA5My42LTEwLjV6TTE0NC40IDIwOGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0xNjUuOCAyMS43Yy03LjYgOC4xLTIwLjIgOC41LTI4LjMgLjlzLTguNS0yMC4yLS45LTI4LjNjMTQuNS0xNS41IDM1LjItMjIuMyA1NC42LTIyLjNzNDAuMSA2LjggNTQuNiAyMi4zYzcuNiA4LjEgNy4xIDIwLjctLjkgMjguM3MtMjAuNyA3LjEtMjguMy0uOWMtNS41LTUuOC0xNC44LTkuNy0yNS40LTkuN3MtMTkuOSAzLjgtMjUuNCA5Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-grin-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-grin-wink.svg)
  */
 const FaceGrinWink: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bus-school` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bus-school?s=sharp-solid bus-school}
- * @preview ![bus-school](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBDMzcxLjkgMCA0NjQgNDggNDY0IDQ4bDAgNDggMCAxNiA0OCAwIDAgMTI4LTQ4IDAgMCAxNiAxNiAwIDAgMTkyLTMyIDAgMCA2NC05NiAwIDAtNjQtMTkyIDAgMCA2NC05NiAwIDAtNjQtMzIgMCAwLTE5MiAxNiAwTDQ4IDk2czAgMCAwIDBsMC00OHM5Mi4xLTQ4IDIwOC00OHpNNDggMjQwTDAgMjQwIDAgMTEybDQ4IDAgMCAxMjh6TTI3MiAxMjhsMCAxMjggMTI4IDAgMC0xMjgtMTI4IDB6bS0zMiAwbC0xMjggMCAwIDEyOCAxMjggMCAwLTEyOHpNMTEyIDM4NGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6bTI4OCAwYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHpNMzUyIDk2bDAtMzItMTYgMEwxNzYgNjRsLTE2IDAgMCAzMiAxNiAwIDE2MCAwIDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bus-school](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bus-school.svg)
  */
 const BusSchool: typeof Icon = x => (
     <Icon {...x}>

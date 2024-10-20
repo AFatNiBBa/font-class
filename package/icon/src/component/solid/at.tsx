@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `at` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/at?s=solid at}
- * @preview ![at](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDY0QzE1MCA2NCA2NCAxNTAgNjQgMjU2czg2IDE5MiAxOTIgMTkyYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyQzExNC42IDUxMiAwIDM5Ny40IDAgMjU2UzExNC42IDAgMjU2IDBTNTEyIDExNC42IDUxMiAyNTZsMCAzMmMwIDUzLTQzIDk2LTk2IDk2Yy0yOS4zIDAtNTUuNi0xMy4yLTczLjItMzMuOUMzMjAgMzcxLjEgMjg5LjUgMzg0IDI1NiAzODRjLTcwLjcgMC0xMjgtNTcuMy0xMjgtMTI4czU3LjMtMTI4IDEyOC0xMjhjMjcuOSAwIDUzLjcgOC45IDc0LjcgMjQuMWM1LjctNSAxMy4xLTguMSAyMS4zLTguMWMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDgwIDAgMzJjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTMyYzAtMTA2LTg2LTE5Mi0xOTItMTkyem02NCAxOTJhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![at](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/at.svg)
  */
 const At: typeof Icon = x => (
     <Icon {...x}>

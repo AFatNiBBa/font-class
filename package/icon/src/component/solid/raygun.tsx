@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `raygun` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/raygun?s=solid raygun}
- * @preview ![raygun](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDY0bDk2IDAgMC04YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjRsMCAyNDBjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0uNEwxODguNiA0OTQuM2MtNy45IDE1LjgtMjcuMSAyMi4yLTQyLjkgMTQuM2wtODAtNDBjLTE1LjgtNy45LTIyLjItMjcuMS0xNC4zLTQyLjlMMTIwLjIgMjg4bC04LjIgMEM1MC4xIDI4OCAwIDIzNy45IDAgMTc2QzAgMTMxLjMgMjYuMiA5Mi44IDY0IDc0LjhsMC01MC4yQzY0IDExIDc1IDAgODguNiAwYzQuOCAwIDkuNiAxLjQgMTMuNiA0LjFMMTkyIDY0em0yMDAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDU2IDYwLjkgMCA3Ny4xLTMwLjljNC45LTIgMTAuNS0xLjQgMTQuOSAxLjZzNyA3LjkgNyAxMy4ybDAgOTZjMCA1LjMtMi42IDEwLjMtNyAxMy4ycy0xMCAzLjYtMTQuOSAxLjZMNDc2LjkgMjA4IDQxNiAyMDhsMCA1NmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTE3NmMwLTEzLjMgMTAuNy0yNCAyNC0yNHpNMTM2IDE3NmEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem03MiAyNGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![raygun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/raygun.svg)
  */
 const Raygun: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-star` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-star?s=sharp-thin calendar-star}
- * @preview ![calendar-star](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDhsMC04TDExMiAwbDAgOCAwIDU2TDE2IDY0IDAgNjQgMCA4MGwwIDk2IDAgMTZMMCA0OTZsMCAxNiAxNiAwIDQxNiAwIDE2IDAgMC0xNiAwLTMwNCAwLTE2IDAtOTYgMC0xNi0xNiAwLTk2IDAgMC01NiAwLThMMzIwIDBsMCA4IDAgNTZMMTI4IDY0bDAtNTZ6TTE2IDE5Mmw0MTYgMCAwIDMwNEwxNiA0OTZsMC0zMDR6TTExMiA4MGwwIDQwIDAgOCAxNiAwIDAtOCAwLTQwIDE5MiAwIDAgNDAgMCA4IDE2IDAgMC04IDAtNDAgOTYgMCAwIDk2TDE2IDE3NmwwLTk2IDk2IDB6TTIzMS4yIDIzNi41TDIyNCAyMjEuOWwtNy4yIDE0LjUtMzEuMSA2Mi45LTY5LjQgMTAuMS0xNiAyLjMgMTEuNiAxMS4zIDUwLjIgNDktMTEuOSA2OS4yLTIuNyAxNiAxNC4zLTcuNUwyMjQgNDE3bDYyLjEgMzIuNyAxNC4zIDcuNS0yLjctMTYtMTEuOS02OS4yIDUwLjItNDkgMTEuNi0xMS4zLTE2LTIuMy02OS40LTEwLjEtMzEuMS02Mi45em0tMzIuOSA3My44TDIyNCAyNTguMWwyNS43IDUyLjIgMS45IDMuOCA0LjIgLjYgNTcuNiA4LjQtNDEuNyA0MC42LTMgMi45IC43IDQuMSA5LjggNTcuMy01MS41LTI3LjEtMy43LTItMy43IDJMMTY4LjggNDI4bDkuOC01Ny4zIC43LTQuMS0zLTIuOUwxMzQuNyAzMjNsNTcuNi04LjQgNC4yLS42IDEuOS0zLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![calendar-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/calendar-star.svg)
  */
 const CalendarStar: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

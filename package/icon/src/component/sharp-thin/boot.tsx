@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `boot` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boot?s=sharp-thin boot}
- * @preview ![boot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMzUyIDAgMCA5NkwxNiAxMTJsMC05NnpNMCAwTDAgMTZsMCA5NiAwIDE2IDE2IDAgMzUyIDAgMTYgMCAwLTE2IDAtOTYgMC0xNkwzNjggMCAxNiAwIDAgMHpNMjQwIDE2MGwtOCAwIDAgMTYgOCAwIDk2IDAgMCA0OC05NiAwLTggMCAwIDE2IDggMCAxMDQgMCA0LjYgMEw0OTYgMzA2LjNsMCA5My43TDE2IDQwMGwwLTI0MEwwIDE2MCAwIDQwMGwwIDE2IDAgNjQgMzIgMzIgNjQgMCAyMC43LTIwLjdMMTI4IDQ4MGwxMS4zIDExLjNMMTYwIDUxMmw2NCAwIDIwLjctMjAuN0wyNTYgNDgwbDExLjMgMTEuM0wyODggNTEybDY0IDAgMjAuNy0yMC43TDM4NCA0ODBsMTEuMyAxMS4zTDQxNiA1MTJsNjQgMCAzMi0zMiAwLTY0IDAtMTYgMC0xMDRMMzUyIDIyNGwwLTQ4IDAtOCAwLTgtOCAwLTEwNCAwek0xNiA0MTZsNDgwIDAgMCA1Ny40TDQ3My40IDQ5NmwtNTAuNyAwLTI3LjMtMjcuM0wzODQgNDU3LjRsLTExLjMgMTEuM0wzNDUuNCA0OTZsLTUwLjcgMC0yNy4zLTI3LjNMMjU2IDQ1Ny40bC0xMS4zIDExLjNMMjE3LjQgNDk2bC01MC43IDAtMjcuMy0yNy4zTDEyOCA0NTcuNGwtMTEuMyAxMS4zTDg5LjQgNDk2bC01MC43IDBMMTYgNDczLjQgMTYgNDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![boot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/boot.svg)
  */
 const Boot: typeof Icon = x => (
     <Icon {...x}>

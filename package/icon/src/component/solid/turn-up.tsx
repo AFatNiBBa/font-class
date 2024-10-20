@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-up?s=solid turn-up}
- * @preview ![turn-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUwIDE3Ny41YzMuOC04LjggMi0xOS00LjYtMjZsLTEzNi0xNDRDMjA0LjkgMi43IDE5OC42IDAgMTkyIDBzLTEyLjkgMi43LTE3LjQgNy41bC0xMzYgMTQ0Yy02LjYgNy04LjQgMTcuMi00LjYgMjZzMTIuNSAxNC41IDIyIDE0LjVsODggMCAwIDE5MmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtODAgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmw4MCAwYzcwLjcgMCAxMjgtNTcuMyAxMjgtMTI4bDAtMTkyIDg4IDBjOS42IDAgMTguMi01LjcgMjItMTQuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![turn-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/turn-up.svg)
  */
 const TurnUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

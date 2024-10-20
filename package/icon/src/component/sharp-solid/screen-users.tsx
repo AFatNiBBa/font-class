@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `screen-users` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screen-users?s=sharp-solid screen-users}
- * @preview ![screen-users](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEw2NCAwIDU3NiAwbDMyIDAgMCAzMiAwIDIxNi40Yy0xNy0xNS4yLTM5LjQtMjQuNC02NC0yNC40bDAtMTYwTDk2IDY0bDAgMTYwYy0yNC42IDAtNDcgOS4yLTY0IDI0LjRMMzIgMzIgMzIgMHptMCAzMjBhNjQgNjQgMCAxIDEgMTI4IDBBNjQgNjQgMCAxIDEgMzIgMzIwem0yMjQgMGE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6bTI4OC02NGE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHpNNDE2IDUxMmwtMTkyIDAgMzItOTYgMTI4IDAgMzIgOTZ6TTMyIDQxNmwxMjggMCAzMiA5NkwwIDUxMmwzMi05NnptNjA4IDk2bC0xOTIgMCAzMi05NiAxMjggMCAzMiA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![screen-users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/screen-users.svg)
  */
 const ScreenUsers: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

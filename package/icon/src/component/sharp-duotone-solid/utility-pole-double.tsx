@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `utility-pole-double` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utility-pole-double?s=sharp-duotone-solid utility-pole-double}
- * @preview ![utility-pole-double](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMybDQ4IDAgMCAyNCAwIDhMMCA2NGwwLThMMCAzMnpNMCAyMjRsNDggMCAwIDI0IDAgOEwwIDI1NmwwLTggMC0yNHpNODAgMzJsNDggMCAwIDI0IDAgOEw4MCA2NGwwLTggMC0yNHptMCAxOTJsNDggMCAwIDI0IDAgOC00OCAwIDAtOCAwLTI0em0zLjItOTZsNTcuNyAwTDIyNCAxODMuNGwwIDM4LjVMODMuMiAxMjh6bTAgMTkybDU3LjcgMEwyMjQgMzc1LjRsMCAzOC41TDgzLjIgMzIwek0yODggMTgzLjRMMzcxLjIgMTI4bDU3LjcgMEwyODggMjIxLjlsMC0zOC41em0wIDE5MkwzNzEuMiAzMjBsNTcuNyAwTDI4OCA0MTMuOWwwLTM4LjV6TTM4NCAzMmw0OCAwIDAgMjQgMCA4LTQ4IDAgMC04IDAtMjR6bTAgMTkybDQ4IDAgMCAyNCAwIDgtNDggMCAwLTggMC0yNHpNNDY0IDMybDQ4IDAgMCAyNCAwIDgtNDggMCAwLTggMC0yNHptMCAxOTJsNDggMCAwIDI0IDAgOC00OCAwIDAtOCAwLTI0eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjg4IDBWNjRINTEydjY0SDI4OFYyNTZINTEydjY0SDI4OFY1MTJIMjI0VjMyMEgwVjI1NkgyMjRWMTI4SDBWNjRIMjI0VjBoNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![utility-pole-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/utility-pole-double.svg)
  */
 const UtilityPoleDouble: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 32l48 0 0 24 0 8L0 64l0-8L0 32zM0 224l48 0 0 24 0 8L0 256l0-8 0-24zM80 32l48 0 0 24 0 8L80 64l0-8 0-24zm0 192l48 0 0 24 0 8-48 0 0-8 0-24zm3.2-96l57.7 0L224 183.4l0 38.5L83.2 128zm0 192l57.7 0L224 375.4l0 38.5L83.2 320zM288 183.4L371.2 128l57.7 0L288 221.9l0-38.5zm0 192L371.2 320l57.7 0L288 413.9l0-38.5zM384 32l48 0 0 24 0 8-48 0 0-8 0-24zm0 192l48 0 0 24 0 8-48 0 0-8 0-24zM464 32l48 0 0 24 0 8-48 0 0-8 0-24zm0 192l48 0 0 24 0 8-48 0 0-8 0-24z" />
-            <path d="M288 0V64H512v64H288V256H512v64H288V512H224V320H0V256H224V128H0V64H224V0h64z" />
+        <path d="M288 0V64H512v64H288V256H512v64H288V512H224V320H0V256H224V128H0V64H224V0h64z" />
     </Icon>
 );
 

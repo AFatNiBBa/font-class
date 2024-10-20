@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spinner-third` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-third?s=thin spinner-third}
- * @preview ![spinner-third](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDcwLjggMzgwYzMuOCAyLjIgOC43IC45IDEwLjgtM0M1MDEgMzQxIDUxMiAyOTkuOCA1MTIgMjU2QzUxMiAxMTcuMyA0MDEuNyA0LjQgMjY0IC4xYy00LjQtLjEtOCAzLjUtOCA3LjlzMy42IDggOCA4LjFjMTI4LjggNC4yIDIzMiAxMTAgMjMyIDIzOS45YzAgNDAuOS0xMC4yIDc5LjMtMjguMiAxMTNjLTIuMSAzLjktLjggOC44IDMgMTF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![spinner-third](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/spinner-third.svg)
  */
 const SpinnerThird: typeof Icon = x => (
     <Icon {...x}>

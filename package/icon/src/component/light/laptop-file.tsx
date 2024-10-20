@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-file` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-file?s=light laptop-file}
- * @preview ![laptop-file](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDMyTDEyOCAzMmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAyMjQgMjI0IDAgMCAzMkw5NiAzMjBsLTMyIDAtMzAuMSAwYzUuNSAxOC41IDIyLjcgMzIgNDIuOSAzMkwzMjAgMzUybDAgMzJMNzYuOCAzODRDMzQuNCAzODQgMCAzNDkuNiAwIDMwNy4yQzAgMjk2LjYgOC42IDI4OCAxOS4yIDI4OEw2NCAyODggNjQgNjRDNjQgMjguNyA5Mi43IDAgMTI4IDBMNDQ4IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAzMi0zMiAwIDAtMzJjMC0xNy43LTE0LjMtMzItMzItMzJ6TTM4NCA0NjRjMCA4LjggNy4yIDE2IDE2IDE2bDE5MiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTE3Ni04MCAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTgwLTgwIDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDI4OHpNNTEyIDE2MC41bDAgNzkuNWMwIDguOCA3LjIgMTYgMTYgMTZsNzkuNSAwYy0uNy0yLjgtMi4xLTUuNC00LjItNy40bC04My45LTgzLjljLTIuMS0yLjEtNC42LTMuNS03LjQtNC4yem0zMC4xLTE4LjRsODMuOSA4My45YzkgOSAxNC4xIDIxLjIgMTQuMSAzMy45TDY0MCA0NjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTE5MiAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTI4OGMwLTI2LjUgMjEuNS00OCA0OC00OGwxMDguMSAwYzEyLjcgMCAyNC45IDUuMSAzMy45IDE0LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![laptop-file](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/laptop-file.svg)
  */
 const LaptopFile: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

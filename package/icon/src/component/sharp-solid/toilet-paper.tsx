@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toilet-paper` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper?s=sharp-solid toilet-paper}
- * @preview ![toilet-paper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDE5MmMwLTY1LjUgMTMuMi0xNDIuNCA2MC4yLTE5MkwxNjAgMEMxMDcgMCA2NCA4NiA2NCAxOTJjMCA4OS45LTMuOSAxOTAuNi0zNy42IDI3NS44TDggNTEybDMyNS4zIDBDMzc2IDQwOS43IDM4NCAzMDEuOSAzODQgMTkyek01MTIgMzg0YzUzIDAgOTYtODYgOTYtMTkyUzU2NSAwIDUxMiAwcy05NiA4Ni05NiAxOTJzNDMgMTkyIDk2IDE5MnptMC0xMjhjLTE3LjcgMC0zMi0yOC43LTMyLTY0czE0LjMtNjQgMzItNjRzMzIgMjguNyAzMiA2NHMtMTQuMyA2NC0zMiA2NHpNMTEyIDIwOGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAwem02NCAwYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bTgwLTE2YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptNDggMTZhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![toilet-paper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/toilet-paper.svg)
  */
 const ToiletPaper: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

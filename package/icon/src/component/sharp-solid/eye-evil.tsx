@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eye-evil` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-evil?s=sharp-solid eye-evil}
- * @preview ![eye-evil](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU4LjEgMTExLjRMMzIwIDBsNjEuOSAxMTEuNGMxMSAyLjcgMjEuNyA2LjIgMzEuOCAxMC4zTDU1MCA4Mi43bC01OSA5NC41YzcuMSA4LjkgMTMgMTguNCAxNy43IDI4LjNMNjQwIDI1NiA1MDguNyAzMDYuNWMtNC42IDEwLTEwLjYgMTkuNC0xNy43IDI4LjNsNTkgOTQuNS0xMzYuMy0zOWMtMTAuMSA0LjEtMjAuNyA3LjUtMzEuOCAxMC4zTDMyMCA1MTIgMjU4LjEgNDAwLjZjLTExLTIuNy0yMS43LTYuMi0zMS44LTEwLjJMOTAgNDI5LjNsNTktOTQuNWMtNy4xLTguOS0xMy0xOC40LTE3LjctMjguM0wwIDI1NmwxMzEuMy01MC41YzQuNi0xMCAxMC42LTE5LjQgMTcuNy0yOC4zTDkwIDgyLjdsMTM2LjMgMzljMTAuMS00LjEgMjAuNy03LjUgMzEuOC0xMC4zek0zMjAgMzUyYzUzIDAgOTYtNDMgOTYtOTZjMC0xOS43LTYtMzguMS0xNi4yLTUzLjNjLTE2LjkgOS43LTM1LjcgMTYuNS01NS44IDE5LjVjNC42IDkuMyA3LjkgMjAuNyA3LjkgMzMuOGMwIDQwLjQtMzIgNjQtMzIgNjRzLTMyLTIzLjYtMzItNjRjMC0xMy4xIDMuNC0yNC41IDcuOS0zMy44Yy0yMC4xLTMtMzguOS05LjgtNTUuOC0xOS41QzIzMCAyMTcuOSAyMjQgMjM2LjMgMjI0IDI1NmMwIDUzIDQzIDk2IDk2IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![eye-evil](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eye-evil.svg)
  */
 const EyeEvil: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

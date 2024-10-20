@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `odnoklassniki` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/odnoklassniki?s=brands odnoklassniki}
- * @preview ![odnoklassniki](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc1LjEgMzM0Yy0yNy40IDE3LjQtNjUuMSAyNC4zLTkwIDI2LjlsMjAuOSAyMC42IDc2LjMgNzYuM2MyNy45IDI4LjYtMTcuNSA3My4zLTQ1LjcgNDUuNy0xOS4xLTE5LjQtNDcuMS00Ny40LTc2LjMtNzYuNkw4NCA1MDMuNGMtMjguMiAyNy41LTczLjYtMTcuNi00NS40LTQ1LjcgMTkuNC0xOS40IDQ3LjEtNDcuNCA3Ni4zLTc2LjNsMjAuNi0yMC42Yy0yNC42LTIuNi02Mi45LTkuMS05MC42LTI2LjktMzIuNi0yMS00Ni45LTMzLjMtMzQuMy01OSA3LjQtMTQuNiAyNy43LTI2LjkgNTQuNi01LjcgMCAwIDM2LjMgMjguOSA5NC45IDI4LjlzOTQuOS0yOC45IDk0LjktMjguOWMyNi45LTIxLjEgNDcuMS04LjkgNTQuNiA1LjcgMTIuNCAyNS43LTEuOSAzOC0zNC41IDU5LjF6TTMwLjMgMTI5LjdDMzAuMyA1OCA4OC42IDAgMTYwIDBzMTI5LjcgNTggMTI5LjcgMTI5LjdjMCA3MS40LTU4LjMgMTI5LjQtMTI5LjcgMTI5LjRzLTEyOS43LTU4LTEyOS43LTEyOS40em02NiAwYzAgMzUuMSAyOC42IDYzLjcgNjMuNyA2My43czYzLjctMjguNiA2My43LTYzLjdjMC0zNS40LTI4LjYtNjQtNjMuNy02NHMtNjMuNyAyOC42LTYzLjcgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![odnoklassniki](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/odnoklassniki.svg)
  */
 const Odnoklassniki: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hands-praying` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-praying?s=sharp-regular hands-praying}
- * @preview ![hands-praying](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQxLjcgNy44bDE5IDExLjkgNTkuMyAzNyA1OS4zLTM3IDE5LTExLjkgMTMuMiAxOC4xIDEyOCAxNzYgNC42IDYuMyAwIDcuOCAwIDg1LjcgNzAuMyAxOS4yIDIzLjIgNi4zLTEyLjYgNDYuMy0yMy4yLTYuMy04OC0yNEw0OTYgMzM4LjNsMC0xOC4zIDAtOTYuMkwzODUuNyA3Mi4yIDM2MS4xIDg3LjZsNjcuMyAxMDcuNiAzLjYgNS44IDAgNi45IDAgODggMCAyNC00OCAwIDAtMjQgMC04MC00MCAwIDAgMTczLjMgMjY5LjggNjcuNSAyMy4zIDUuOC0xMS42IDQ2LjYtMjMuMy01LjhMMzIwIDQzMi43IDM3LjggNTAzLjNsLTIzLjMgNS44TDIuOSA0NjIuNWwyMy4zLTUuOEwyOTYgMzg5LjMgMjk2IDIxNmwtNDAgMCAwIDgwIDAgMjQtNDggMCAwLTI0IDAtODggMC02LjkgMy42LTUuOEwyNzguOSA4Ny42IDI1NC4zIDcyLjIgMTQ0IDIyMy44bDAgOTYuMiAwIDE4LjMtMTcuNyA0LjgtODggMjQtMjMuMiA2LjNMMi41IDMyNy4ybDIzLjItNi4zTDk2IDMwMS43IDk2IDIxNmwwLTcuOCA0LjYtNi4zIDEyOC0xNzZMMjQxLjcgNy44ek0yOTYgMTY4bDI0IDBzMCAwIDAgMGwyNCAwIDEwLjcgMEwzMjAgMTEyLjUgMjg1LjMgMTY4bDEwLjcgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hands-praying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hands-praying.svg)
  */
 const HandsPraying: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

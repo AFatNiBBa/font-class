@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-hot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-hot?s=sharp-light bowl-hot}
- * @preview ![bowl-hot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBMMTI4IDBsMCAxNiAwIDE2YzAgMzAuMiAxNC4yIDU4LjcgMzguNCA3Ni44QzE4Mi41IDEyMC45IDE5MiAxMzkuOSAxOTIgMTYwbDAgMTYgMCAxNiAzMiAwIDAtMTYgMC0xNmMwLTI0LjgtOS42LTQ4LjQtMjYuNC02Ni4xbC44LTEuMS0xMi44LTkuNkMxNjkuNSA3MS4xIDE2MCA1Mi4xIDE2MCAzMmwwLTE2IDAtMTZ6bTAgNDUzbC0xNy44LTguOEM4Mi4xIDQxNC41IDM5LjcgMzU0LjMgMzUuNSAyODMuM0wzMy45IDI1Nmw0NDQuMSAwLTEuNiAyNy4zYy00LjIgNzEtNDYuNiAxMzEuMi0xMDYuNiAxNjAuOUwzNTIgNDUzbDAgMTkuOSAwIDcuMS0xOTIgMCAwLTcuMSAwLTE5Ljl6TTEuOSAyNTZsMS43IDI5LjJDOC41IDM2OC4xIDU4IDQzOC4yIDEyOCA0NzIuOWwwIDcuMSAwIDMyIDMyIDAgMTkyIDAgMzIgMCAwLTMyIDAtNy4xYzcwLTM0LjYgMTE5LjUtMTA0LjggMTI0LjQtMTg3LjdsMS43LTI5LjIgMS45LTMyLTMyLjEgMEwzMi4xIDIyNCAwIDIyNGwxLjkgMzJ6TTI4OCAxNmwwLTE2TDI1NiAwbDAgMTYgMCAxNmMwIDMwLjIgMTQuMiA1OC43IDM4LjQgNzYuOEMzMTAuNSAxMjAuOSAzMjAgMTM5LjkgMzIwIDE2MGwwIDE2IDAgMTYgMzIgMCAwLTE2IDAtMTZjMC0yNC44LTkuNi00OC40LTI2LjQtNjYuMWwuOC0xLjEtMTIuOC05LjZDMjk3LjUgNzEuMSAyODggNTIuMSAyODggMzJsMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bowl-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bowl-hot.svg)
  */
 const BowlHot: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mobile-signal-out` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-signal-out?s=light mobile-signal-out}
- * @preview ![mobile-signal-out](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJsMTI4IDAgMC0zMkw5NiAwQzYwLjcgMCAzMiAyOC43IDMyIDY0bDAgMzg0YzAgMzUuMyAyOC43IDY0IDY0IDY0bDE5MiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMTYwLTMyIDAgMCAxNjBjMCAxNy43LTE0LjMgMzItMzIgMzJMOTYgNDgwYy0xNy43IDAtMzItMTQuMy0zMi0zMkw2NCA2NGMwLTE3LjcgMTQuMy0zMiAzMi0zMnptNjQgMzY4Yy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDY0IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTY0IDB6TTI3MiAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2YzExNC45IDAgMjA4IDkzLjEgMjA4IDIwOGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2QzUxMiAxMDcuNSA0MDQuNSAwIDI3MiAwem0xNiAyNTZhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0ek0yNTYgMTEyYzAgOC44IDcuMiAxNiAxNiAxNmM2MS45IDAgMTEyIDUwLjEgMTEyIDExMmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2YzAtNzkuNS02NC41LTE0NC0xNDQtMTQ0Yy04LjggMC0xNiA3LjItMTYgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mobile-signal-out](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mobile-signal-out.svg)
  */
 const MobileSignalOut: typeof Icon = x => (
     <Icon {...x}>

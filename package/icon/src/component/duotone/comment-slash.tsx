@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `comment-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-slash?s=duotone comment-slash}
- * @preview ![comment-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCAyNDBjMC0yNy44IDYuNy01NC40IDE4LjktNzguN0w0MjQuMSA0MzAuMUMzOTIuMyA0NDEuNiAzNTcgNDQ4IDMyMCA0NDhjLTM3LjEgMC03Mi4zLTYuNC0xMDQuMS0xNy45Yy0xMS45IDguNy0zMS4zIDIwLjYtNTQuMyAzMC42QzEzNy42IDQ3MS4xIDEwOC43IDQ4MCA4MCA0ODBjLTYuNSAwLTEyLjMtMy45LTE0LjgtOS45Yy0uOC0yLTEuMi00LjEtMS4yLTYuMWMwLTQuMiAxLjYtOC4yIDQuNy0xMS4zbC4zLS4zYy4zLS4zIC43LS43IDEuMy0xLjRjMS4xLTEuMiAyLjgtMy4xIDQuOS01LjdjNC4xLTUgOS42LTEyLjQgMTUuMi0yMS42YzEwLTE2LjYgMTkuNS0zOC40IDIxLjQtNjIuOUM4MS43IDMyNi44IDY0IDI4NS4xIDY0IDI0MHpNMTQ0LjkgODguM0MxOTAuNyA1My40IDI1Mi4zIDMyIDMyMCAzMmMxNDEuNCAwIDI1NiA5My4xIDI1NiAyMDhjMCA1Mi4zLTIzLjggMTAwLjItNjMuMSAxMzYuN2MtMTIyLjctOTYuMS0yNDUuMy0xOTIuMy0zNjgtMjg4LjV6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik01LjEgOS4yQzEzLjMtMS4yIDI4LjQtMy4xIDM4LjggNS4xbDU5MiA0NjRjMTAuNCA4LjIgMTIuMyAyMy4zIDQuMSAzMy43cy0yMy4zIDEyLjMtMzMuNyA0LjFMOS4yIDQyLjlDLTEuMiAzNC43LTMuMSAxOS42IDUuMSA5LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![comment-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/comment-slash.svg)
  */
 const CommentSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M64 240c0-27.8 6.7-54.4 18.9-78.7L424.1 430.1C392.3 441.6 357 448 320 448c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6C137.6 471.1 108.7 480 80 480c-6.5 0-12.3-3.9-14.8-9.9c-.8-2-1.2-4.1-1.2-6.1c0-4.2 1.6-8.2 4.7-11.3l.3-.3c.3-.3 .7-.7 1.3-1.4c1.1-1.2 2.8-3.1 4.9-5.7c4.1-5 9.6-12.4 15.2-21.6c10-16.6 19.5-38.4 21.4-62.9C81.7 326.8 64 285.1 64 240zM144.9 88.3C190.7 53.4 252.3 32 320 32c141.4 0 256 93.1 256 208c0 52.3-23.8 100.2-63.1 136.7c-122.7-96.1-245.3-192.3-368-288.5z" />
-            <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
+        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
     </Icon>
 );
 

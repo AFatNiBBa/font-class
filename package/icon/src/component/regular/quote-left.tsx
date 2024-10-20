@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `quote-left` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quote-left?s=regular quote-left}
- * @preview ![quote-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyMTZDMCAxNDkuNyA1My43IDk2IDEyMCA5NmwxNiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0xNiAwYy0zOS44IDAtNzIgMzIuMi03MiA3MmwwIDEwYzUuMS0xLjMgMTAuNS0yIDE2LTJsNjQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0bC02NCAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTMyIDAtMzIgMC03MnptNDggNzJsMCAzMiAwIDMyYzAgOC44IDcuMiAxNiAxNiAxNmw2NCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNmwtNjQgMGMtOC44IDAtMTYgNy4yLTE2IDE2em0zMzYtMTZsLTY0IDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDMyIDAgMzJjMCA4LjggNy4yIDE2IDE2IDE2bDY0IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtNjRjMC04LjgtNy4yLTE2LTE2LTE2ek0yNTYgMzIwbDAtMzIgMC03MmMwLTY2LjMgNTMuNy0xMjAgMTIwLTEyMGwxNiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0xNiAwYy0zOS44IDAtNzIgMzIuMi03MiA3MmwwIDEwYzUuMS0xLjMgMTAuNS0yIDE2LTJsNjQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0bC02NCAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![quote-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/quote-left.svg)
  */
 const QuoteLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

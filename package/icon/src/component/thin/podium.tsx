@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `podium` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podium?s=thin podium}
- * @preview ![podium](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDE2bC02NCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDY0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJ6TTE3Ni43IDU2TDE2OCA1NmMtMzAuOSAwLTU2IDI1LjEtNTYgNTZsMCA0OCAzMjggMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOEw4IDE3NmMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGw4OCAwIDAtNDhjMC0zOS44IDMyLjItNzIgNzItNzJsOC43IDBDMTgwLjUgMTcuMyAyMDAuMiAwIDIyNCAwbDY0IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhzLTIxLjUgNDgtNDggNDhsLTY0IDBjLTIzLjggMC00My41LTE3LjMtNDcuMy00MHpNNzMuNiA0NTUuMkw0NS41IDIwOGwxNi4xIDBMODkuNCA0NTMuNGMyLjggMjQuMyAyMy4zIDQyLjYgNDcuNyA0Mi42bDE3My43IDBjMjQuNCAwIDQ0LjktMTguMyA0Ny43LTQyLjZMMzg2LjQgMjA4bDE2LjEgMEwzNzQuNSA0NTUuMmMtMy43IDMyLjMtMzEgNTYuOC02My42IDU2LjhsLTE3My43IDBjLTMyLjYgMC01OS45LTI0LjQtNjMuNi01Ni44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![podium](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/podium.svg)
  */
 const Podium: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

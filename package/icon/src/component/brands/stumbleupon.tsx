@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stumbleupon` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stumbleupon?s=brands stumbleupon}
- * @preview ![stumbleupon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTAyLjkgMjY2djY5LjdjMCA2Mi4xLTUwLjMgMTEyLjQtMTEyLjQgMTEyLjQtNjEuOCAwLTExMi40LTQ5LjgtMTEyLjQtMTExLjN2LTcwLjJsMzQuMyAxNiA1MS4xLTE1LjJWMzM4YzAgMTQuNyAxMiAyNi41IDI2LjcgMjYuNVM0MTcgMzUyLjcgNDE3IDMzOHYtNzJoODUuOXptLTIyNC43LTU4LjJsMzQuMyAxNiA1MS4xLTE1LjJWMTczYzAtNjAuNS01MS4xLTEwOS0xMTIuMS0xMDktNjAuOCAwLTExMi4xIDQ4LjItMTEyLjEgMTA4LjJ2MTYyLjRjMCAxNC45LTEyIDI2LjctMjYuNyAyNi43Uzg2IDM0OS41IDg2IDMzNC42VjI2NkgwdjY5LjdDMCAzOTcuNyA1MC4zIDQ0OCAxMTIuNCA0NDhjNjEuNiAwIDExMi40LTQ5LjUgMTEyLjQtMTEwLjhWMTc2LjljMC0xNC43IDEyLTI2LjcgMjYuNy0yNi43czI2LjcgMTIgMjYuNyAyNi43djMwLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![stumbleupon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/stumbleupon.svg)
  */
 const Stumbleupon: typeof Icon = x => (
     <Icon {...x}>

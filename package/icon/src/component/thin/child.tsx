@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `child` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child?s=thin child}
- * @preview ![child](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDExMmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6TTE2MCAwYTY0IDY0IDAgMSAxIDAgMTI4QTY0IDY0IDAgMSAxIDE2MCAwem0tMS41IDE3NmMtMzIuNSAwLTYyLjMgMTcuOS03Ny42IDQ2LjVMMzEuMSAzMTUuOGMtMi4xIDMuOS02LjkgNS40LTEwLjggMy4zcy01LjQtNi45LTMuMy0xMC44TDY2LjcgMjE1YzE4LjEtMzMuOSA1My4zLTU1IDkxLjctNTVsMyAwYzM4LjQgMCA3My42IDIxLjEgOTEuNyA1NWw0OS44IDkzLjJjMi4xIDMuOSAuNiA4LjctMy4zIDEwLjhzLTguNyAuNi0xMC44LTMuM2wtNDkuOC05My4yQzIyMy44IDE5My45IDE5NCAxNzYgMTYxLjUgMTc2bC0zIDB6TTk2IDI4OGwwIDE5MmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtODBjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDgwYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xOTJjMC00LjQgMy42LTggOC04czggMy42IDggOGwwIDE5MmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTgwYzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgODBjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0xOTJjMC00LjQgMy42LTggOC04czggMy42IDggOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![child](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/child.svg)
  */
 const Child: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

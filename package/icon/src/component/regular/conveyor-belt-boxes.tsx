@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `conveyor-belt-boxes` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt-boxes?s=regular conveyor-belt-boxes}
- * @preview ![conveyor-belt-boxes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDQ4bDAgMTYwLTE2MCAwIDAtMTYwIDE2MCAwek0xNDQgMEMxMTcuNSAwIDk2IDIxLjUgOTYgNDhsMCAxNjBjMCAyNi41IDIxLjUgNDggNDggNDhsMTYwIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNjBjMC0yNi41LTIxLjUtNDgtNDgtNDhMMTQ0IDB6TTUyOCAxMTJsMCA5Ni05NiAwIDAtOTYgOTYgMHpNNDMyIDY0Yy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDk2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDk2IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC05NmMwLTI2LjUtMjEuNS00OC00OC00OGwtOTYgMHptOTYgMjcyYzM1LjMgMCA2NCAyOC43IDY0IDY0cy0yOC43IDY0LTY0IDY0bC00MTYgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRzMjguNy02NCA2NC02NGw0MTYgMHpNMTEyIDI4OEM1MC4xIDI4OCAwIDMzOC4xIDAgNDAwczUwLjEgMTEyIDExMiAxMTJsNDE2IDBjNjEuOSAwIDExMi01MC4xIDExMi0xMTJzLTUwLjEtMTEyLTExMi0xMTJsLTQxNiAwem00OCAxMTJhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptMTYwIDMyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMjI0LTMyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![conveyor-belt-boxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/conveyor-belt-boxes.svg)
  */
 const ConveyorBeltBoxes: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

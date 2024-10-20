@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-smile-tear` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-tear?s=solid face-smile-tear}
- * @preview ![face-smile-tear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMEEyNTYgMjU2IDAgMSAxIDAgMjU2em0xNDEuNSA2Ny45Yy02LjcgNS44LTcuNCAxNS45LTEuNiAyMi42YzIyLjIgMjUuNyA2MSA1My41IDExNi4xIDUzLjVjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZjLTQzLjQgMC03NC0yMS44LTkxLjktNDIuNWMtNS44LTYuNy0xNS45LTcuNC0yMi42LTEuNnpNMzUyIDQxNmMyNi41IDAgNDgtMjEgNDgtNDdjMC0yMC0yOC42LTYwLjQtNDEuNi03Ny43Yy0zLjItNC40LTkuNi00LjQtMTIuOCAwQzMzMi40IDMwOC42IDMwNCAzNDkgMzA0IDM2OWMwIDI2IDIxLjUgNDcgNDggNDd6TTIwOC40IDIwOGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0xMjggMzJhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-smile-tear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-smile-tear.svg)
  */
 const FaceSmileTear: typeof Icon = x => (
     <Icon {...x}>

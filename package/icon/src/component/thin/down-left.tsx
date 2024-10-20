@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-left?s=thin down-left}
- * @preview ![down-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDE2Yy04LjggMC0xNi03LjItMTYtMTZsMC0yMzUuN2MwLTExLjIgOS4xLTIwLjMgMjAuMy0yMC4zYzUuNCAwIDEwLjUgMi4xIDE0LjMgNS45bDc1LjcgNzUuN2MzLjEgMy4xIDguMiAzLjEgMTEuMyAwTDI5MC4zIDg5YzUuNy01LjcgMTMuNS05IDIxLjctOXMxNS45IDMuMiAyMS43IDlMMzU5IDExNC40YzUuNyA1LjcgOSAxMy41IDkgMjEuN3MtMy4yIDE1LjktOSAyMS43TDIyMi4zIDI5NC4zYy0xLjUgMS41LTIuMyAzLjUtMi4zIDUuN3MuOCA0LjIgMi4zIDUuN2w3NS43IDc1LjdjMy44IDMuOCA1LjkgOSA1LjkgMTQuM2MwIDExLjItOS4xIDIwLjMtMjAuMyAyMC4zTDQ4IDQxNnpNMTYgNDAwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDIzNS43IDBjMjAgMCAzNi4zLTE2LjIgMzYuMy0zNi4zYzAtOS42LTMuOC0xOC45LTEwLjYtMjUuN0wyMzkuMyAzMDBsMTMxLTEzMWM4LjctOC43IDEzLjctMjAuNiAxMy43LTMzcy00LjktMjQuMi0xMy43LTMzTDM0NSA3Ny43QzMzNi4yIDY4LjkgMzI0LjQgNjQgMzEyIDY0cy0yNC4yIDQuOS0zMyAxMy43bC0xMzEgMTMxTDc3LjkgMTM4LjZjLTYuOC02LjgtMTYtMTAuNi0yNS43LTEwLjZjLTIwIDAtMzYuMyAxNi4yLTM2LjMgMzYuM0wxNiA0MDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/down-left.svg)
  */
 const DownLeft: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

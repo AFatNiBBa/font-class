@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-maximize` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-maximize?s=regular arrows-maximize}
- * @preview ![arrows-maximize](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI4IDMyYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDcwLjEgMEwyNTYgMjIyLjEgMTEzLjkgODAgMTg0IDgwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDU2IDMyQzQyLjcgMzIgMzIgNDIuNyAzMiA1NmwwIDEyOGMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtNzAuMUwyMjIuMSAyNTYgODAgMzk4LjEgODAgMzI4YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMTI4YzAgMTMuMyAxMC43IDI0IDI0IDI0bDEyOCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC03MC4xIDBMMjU2IDI4OS45IDM5OC4xIDQzMiAzMjggNDMyYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDEyOCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0bDAtMTI4YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgNzAuMUwyODkuOSAyNTYgNDMyIDExMy45bDAgNzAuMWMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtMTI4YzAtMTMuMy0xMC43LTI0LTI0LTI0TDMyOCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-maximize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrows-maximize.svg)
  */
 const ArrowsMaximize: typeof Icon = x => (
     <Icon {...x}>

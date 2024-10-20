@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `potato` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/potato?s=sharp-thin potato}
- * @preview ![potato](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA3LjMgMjE5LjNsMS40LTEuNCAxLTEuNyA0NS45LTc2LjYgNzYuNi00NS45IDEuNy0xIDEuNC0xLjQgMzYuOS0zNi45QzI5Ni44IDI5LjggMzMwLjIgMTYgMzY0LjkgMTZDNDM3LjMgMTYgNDk2IDc0LjcgNDk2IDE0Ny4xYzAgMzQuOC0xMy44IDY4LjEtMzguNCA5Mi43bC00LjkgNC45LTEuNiAxLjYtMS4xIDJMMzcyLjcgMzg3LjRsLTEwNyA0NS44LTIuOCAxLjItMi4yIDIuMi0yMC45IDIwLjljLTI0LjYgMjQuNi01Ny45IDM4LjQtOTIuNyAzOC40Qzc0LjcgNDk2IDE2IDQzNy4zIDE2IDM2NC45YzAtMzQuOCAxMy44LTY4LjEgMzguNC05Mi43bDUyLjktNTIuOXpNMjI0IDgwbC04MCA0OEw5NiAyMDggNDMuMSAyNjAuOUMxNS41IDI4OC41IDAgMzI1LjkgMCAzNjQuOUMwIDQ0Ni4yIDY1LjggNTEyIDE0Ny4xIDUxMmMzOSAwIDc2LjQtMTUuNSAxMDQtNDMuMUwyNzIgNDQ4bDExMi00OCA4MC0xNDQgNC45LTQuOWMyNy42LTI3LjYgNDMuMS02NSA0My4xLTEwNEM1MTIgNjUuOCA0NDYuMiAwIDM2NC45IDBjLTM5IDAtNzYuNCAxNS41LTEwNCA0My4xTDIyNCA4MHptMTI4IDgwbDAgMjQgMjQgMCAwLTI0LTI0IDB6TTE4NCAyMjRsLTI0IDAgMCAyNCAyNCAwIDAtMjR6TTE1MiAzODRsLTI0IDAgMCAyNCAyNCAwIDAtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![potato](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/potato.svg)
  */
 const Potato: typeof Icon = x => (
     <Icon {...x}>

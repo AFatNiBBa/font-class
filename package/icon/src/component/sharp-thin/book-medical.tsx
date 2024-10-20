@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-medical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-medical?s=sharp-thin book-medical}
- * @preview ![book-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA1NkMwIDI1LjEgMjUuMSAwIDU2IDBMNDQwIDBsOCAwIDAgOCAwIDQwMCAwIDgtOCAwLTI0IDAgMCA4MCAyNCAwIDggMCAwIDE2LTggMEw1NiA1MTJjLTMwLjkgMC01Ni0yNS4xLTU2LTU2TDAgNTZ6TTU2IDQxNmMtMjIuMSAwLTQwIDE3LjktNDAgNDBzMTcuOSA0MCA0MCA0MGwzNDQgMCAwLTgwTDU2IDQxNnptLTQwIC44QzI2LjIgNDA2LjQgNDAuMyA0MDAgNTYgNDAwbDM3NiAwIDAtMzg0TDU2IDE2QzMzLjkgMTYgMTYgMzMuOSAxNiA1NmwwIDM2MC44ek0yMDAgOTZsNjQgMCA4IDAgMCA4IDAgNjQgNjQgMCA4IDAgMCA4IDAgNjQgMCA4LTggMC02NCAwIDAgNjQgMCA4LTggMC02NCAwLTggMCAwLTggMC02NC02NCAwLTggMCAwLTggMC02NCAwLTggOCAwIDY0IDAgMC02NCAwLTggOCAwem04IDgwbDAgOC04IDAtNjQgMCAwIDQ4IDY0IDAgOCAwIDAgOCAwIDY0IDQ4IDAgMC02NCAwLTggOCAwIDY0IDAgMC00OC02NCAwLTggMCAwLTggMC02NC00OCAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-medical.svg)
  */
 const BookMedical: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

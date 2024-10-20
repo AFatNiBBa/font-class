@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-tilt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-tilt?s=solid car-tilt}
- * @preview ![car-tilt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ1LjEgMTIwLjZMMjkyLjQgODEuMmMxMi43LTMuNCAyNi4zIDEuMyAzNC4xIDEybDM3LjggNTEuNkwxMTQuNiAyMTEuNmw3LTYzLjZjMS40LTEzLjEgMTAuOC0yNCAyMy41LTI3LjR6TTU4IDE0MS4xTDQ3LjggMjM0LjJDMjcuNCAyNDkuNCAxNy4yIDI3NiAyNC4yIDMwMi4xTDU3LjMgNDI1LjhsNiAyMi4yTDQ4IDQ0OGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAxNiA2NDAgMCAwLTE2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC00MjkuNCAwYy0uMS0uMi0uMS0uNS0uMi0uN0wxNTAgNDAwLjlsMjc4LjItNzQuNSAxMi40IDQ2LjRjNC42IDE3LjEgMjIuMSAyNy4yIDM5LjIgMjIuNmwzMC45LTguM2MxNy4xLTQuNiAyNy4yLTIyLjEgMjIuNi0zOS4yTDUyMSAzMDEuNSA0ODcuOCAxNzcuOWMtNy0yNi4xLTI5LjEtNDQuMS01NC40LTQ3TDM3OC4xIDU1LjNjLTIzLjQtMzEuOS02NC00Ni4yLTEwMi4zLTM2TDEyOC41IDU4LjhDOTAuMyA2OS4xIDYyLjMgMTAxLjcgNTggMTQxLjF6bTU4LjkgMTM2LjJhMzIgMzIgMCAxIDEgMTYuNiA2MS44IDMyIDMyIDAgMSAxIC0xNi42LTYxLjh6bTI1NS42LTM1LjNhMzIgMzIgMCAxIDEgNjEuOC0xNi42IDMyIDMyIDAgMSAxIC02MS44IDE2LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![car-tilt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/car-tilt.svg)
  */
 const CarTilt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

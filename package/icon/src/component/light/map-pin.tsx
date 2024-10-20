@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `map-pin` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map-pin?s=light map-pin}
- * @preview ![map-pin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDI1NmExMTIgMTEyIDAgMSAwIDAtMjI0IDExMiAxMTIgMCAxIDAgMCAyMjR6TTMwNCAxNDRjMCA3NC4xLTU2IDEzNS4yLTEyOCAxNDMuMUwxNzYgNDk2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMjA4LjljLTcyLTgtMTI4LTY5LTEyOC0xNDMuMUMxNiA2NC41IDgwLjUgMCAxNjAgMHMxNDQgNjQuNSAxNDQgMTQ0em0tMTkyIDBjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZjMC00NC4yIDM1LjgtODAgODAtODBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZjLTI2LjUgMC00OCAyMS41LTQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![map-pin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/map-pin.svg)
  */
 const MapPin: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

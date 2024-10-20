@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plate-wheat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plate-wheat?s=sharp-solid plate-wheat}
- * @preview ![plate-wheat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDMyYzQ0LjIgMCA4MCAzNS44IDgwIDgwbDAgMzItMTYgMGMtNDQuMiAwLTgwLTM1LjgtODAtODBsMC0zMiAxNiAwek01NiA2NGw0OCAwIDI0IDAgMCA0OC0yNCAwLTQ4IDAtMjQgMCAwLTQ4IDI0IDB6TTI0IDEzNmwxMTIgMCAyNCAwIDAgNDgtMjQgMEwyNCAxODQgMCAxODRsMC00OCAyNCAwem04IDcybDI0IDAgNDggMCAyNCAwIDAgNDgtMjQgMC00OCAwLTI0IDAgMC00OHpNMjcyIDMybDE2IDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCAzMi0xNiAwYy00NC4yIDAtODAtMzUuOC04MC04MGwwLTMyem0tOTYgMGM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDMyLTE2IDBjLTQ0LjIgMC04MC0zNS44LTgwLTgwbDAtMzIgMTYgMHpNNDgwIDE3NmwwIDMyYzAgNDQuMi0zNS44IDgwLTgwIDgwbC0xNiAwIDAtMzJjMC00NC4yIDM1LjgtODAgODAtODBsMTYgMHptLTEyOCAwbDE2IDAgMCAzMmMwIDQ0LjItMzUuOCA4MC04MCA4MGwtMTYgMCAwLTMyYzAtNDQuMiAzNS44LTgwIDgwLTgwem0tOTYgMGwwIDMyYzAgNDQuMi0zNS44IDgwLTgwIDgwbC0xNiAwIDAtMzJjMC00NC4yIDM1LjgtODAgODAtODBsMTYgMHpNOTYgNDQ0QzQwLjggNDI5LjggMCAzNzkuNiAwIDMyMGw1MTIgMGMwIDU5LjYtNDAuOCAxMDkuOC05NiAxMjRsMCAzNkw5NiA0ODBsMC0zNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![plate-wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plate-wheat.svg)
  */
 const PlateWheat: typeof Icon = x => (
     <Icon {...x}>

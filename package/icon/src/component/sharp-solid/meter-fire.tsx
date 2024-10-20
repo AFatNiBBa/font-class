@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meter-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-fire?s=sharp-solid meter-fire}
- * @preview ![meter-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMmMzMy41IDAgNjUuNS02LjQgOTQuOC0xOC4xYy0zOC42LTM1LjEtNjIuOC04NS43LTYyLjgtMTQyYzAtNDkuMiAyMC45LTkzLjEgNDYuMS0xMjcuOEwzMjAgMjI0bDAtMzIgMC0zMiAwLTMyIDY0IDAgMCAzMiAwIDguOGMxNy4xLTE1LjUgMzMuNy0yNy44IDQ3LTM2LjFsMjEuNi0xMy41TDQ5My40IDE2MEM0NTUuNCA2Ni4yIDM2My40IDAgMjU2IDBDMTE0LjYgMCAwIDExNC42IDAgMjU2UzExNC42IDUxMiAyNTYgNTEyek0xOTIgMTYwbDAgMzIgMCAzMi02NCAwIDAtMzIgMC0zMiAwLTMyIDY0IDAgMCAzMnptOTYgMGwwIDMyIDAgMzItNjQgMCAwLTMyIDAtMzIgMC0zMiA2NCAwIDAgMzJ6bTE2MCAwYy00Mi43IDI2LjctMTI4IDEwMi40LTEyOCAxOTJjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBzMTYwLTcxLjYgMTYwLTE2MGMwLTI2LjctMTkuMi05Ni05Ni0xNjBsLTMyIDMyLTY0LTY0em05NiAyNDAuMmMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NGMwLTQ4IDY0LTk2IDY0LTk2czY0IDQ4IDY0IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![meter-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/meter-fire.svg)
  */
 const MeterFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

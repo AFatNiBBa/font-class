@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-arrow-down` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-arrow-down?s=sharp-solid calendar-arrow-down}
- * @preview ![calendar-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBsMCA2NCAxMjggMCAwLTY0IDY0IDAgMCA2NCA5NiAwIDAgOTZMMCAxNjAgMCA2NGw5NiAwTDk2IDBsNjQgMHpNMCAxOTJsNDQ4IDAgMCAzMjBMMCA1MTIgMCAxOTJ6bTI0OCA3MmwwLTI0LTQ4IDAgMCAyNCAwIDEwMi4xLTM5LTM5LTE3LTE3TDExMC4xIDM0NGwxNyAxNyA4MCA4MCAxNyAxNyAxNy0xNyA4MC04MCAxNy0xN0wzMDQgMzEwLjFsLTE3IDE3LTM5IDM5TDI0OCAyNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![calendar-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calendar-arrow-down.svg)
  */
 const CalendarArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

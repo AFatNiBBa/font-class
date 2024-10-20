@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `skull-crossbones` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull-crossbones?s=sharp-thin skull-crossbones}
- * @preview ![skull-crossbones](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk1LjggMjIwLjdDMzMwLjMgMjAwLjIgMzUyIDE2NS45IDM1MiAxMjhjMC02MC4xLTU1LjUtMTEyLTEyOC0xMTJTOTYgNjcuOSA5NiAxMjhjMCAzNy45IDIxLjcgNzIuMiA1Ni4yIDkyLjdsNy44IDQuNyAwIDkuMSAwIDM3LjYgMTI4IDAgMC0zNy42IDAtOS4xIDcuOC00Ljd6TTM2OCAxMjhjMCA0NC40LTI1LjQgODMuNS02NCAxMDYuNGwwIDM3LjYgMCAxNi0xNiAwLTEyOCAwLTE2IDAgMC0xNiAwLTM3LjZjLTM4LjYtMjMtNjQtNjIuMS02NC0xMDYuNEM4MCA1Ny4zIDE0NC41IDAgMjI0IDBzMTQ0IDU3LjMgMTQ0IDEyOHpNMTc2IDExMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTk2IDBhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em0tODAgMzJhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptODAgMTZhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyek00MzYuMSA1MTFMMjI0IDM5My4yIDExLjkgNTExIDQuMSA0OTcgMjA3LjUgMzg0IDQuMSAyNzFsNy44LTE0TDIyNCAzNzQuOCA0MzYuMSAyNTdsNy44IDE0TDI0MC41IDM4NCA0NDMuOSA0OTdsLTcuOCAxNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![skull-crossbones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/skull-crossbones.svg)
  */
 const SkullCrossbones: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

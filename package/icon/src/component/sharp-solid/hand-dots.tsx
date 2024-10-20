@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-dots` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-dots?s=sharp-solid hand-dots}
- * @preview ![hand-dots](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDMybDAtMzJMMjI0IDBsMCAzMiAwIDIyNC0zMiAwIDAtMTkyIDAtMzItNjQgMCAwIDMyIDAgMjcyYzAgMS41IDAgMy4xIC4xIDQuNkw4NC41IDI5OS4xbC0yOS0yNy42TC4zIDMyOS40bDI5IDI3LjYgOTUuNSA5MWM0My4xIDQxLjEgMTAwLjQgNjQgMTYwIDY0bDE5LjIgMGM5Ny4yIDAgMTc2LTc4LjggMTc2LTE3NmwwLTIwOCAwLTMyLTY0IDAgMCAzMiAwIDEyOC0zMiAwIDAtMTkyIDAtMzItNjQgMCAwIDMyIDAgMTkyLTMyIDAgMC0yMjR6TTI0MCAzMzZhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptODAgMTZhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem00OC0xNmExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAwem0tMTYgODBhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyek0yNDAgNDMyYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bS00OC00OGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-dots.svg)
  */
 const HandDots: typeof Icon = x => (
     <Icon {...x}>

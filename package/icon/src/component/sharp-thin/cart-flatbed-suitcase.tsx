@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-flatbed-suitcase` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-flatbed-suitcase?s=sharp-thin cart-flatbed-suitcase}
- * @preview ![cart-flatbed-suitcase](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDggMCAxMjAgMGw4IDAgMCA4IDAgNDA4IDk2IDAgMjg4IDAgMTIwIDAgOCAwIDAgMTYtOCAwLTg0LjIgMGM3LjYgOC41IDEyLjIgMTkuNyAxMi4yIDMyYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4YzAtMTIuMyA0LjYtMjMuNSAxMi4yLTMybC0yMTYuNCAwYzcuNiA4LjUgMTIuMiAxOS43IDEyLjIgMzJjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhjMC0xMi4zIDQuNi0yMy41IDEyLjItMzJMMTIwIDQzMmwtOCAwIDAtOCAwLTQwOEw4IDE2IDAgMTYgMCAwek01MTIgNDMyYTMyIDMyIDAgMSAwIDAgNjQgMzIgMzIgMCAxIDAgMC02NHpNMTkyIDQ2NGEzMiAzMiAwIDEgMCA2NCAwIDMyIDMyIDAgMSAwIC02NCAwek0zMDQgMGw4IDBMNDU2IDBsOCAwIDAgOCAwIDcyIDk2IDAgMTYgMCAwIDE2IDAgMjQwIDAgMTYtMTYgMC0zNTIgMC0xNiAwIDAtMTYgMC0yNDAgMC0xNiAxNiAwIDk2IDAgMC03MiAwLTh6bTE2IDk2bC0xNiAwLTE2IDAgMCAyNDAgMTkyIDAgMC0yNDAtMTYgMC0xNiAwTDMyMCA5NnpNNDQ4IDgwbDAtNjRMMzIwIDE2bDAgNjQgMTI4IDB6TTI3MiA5NmwtNjQgMCAwIDI0MCA2NCAwIDAtMjQwek00OTYgMzM2bDY0IDAgMC0yNDAtNjQgMCAwIDI0MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-flatbed-suitcase](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cart-flatbed-suitcase.svg)
  */
 const CartFlatbedSuitcase: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

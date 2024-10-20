@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gem` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gem?s=thin gem}
- * @preview ![gem](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMyYy0yLjUgMC00LjkgMS4yLTYuNCAzLjJsLTEyMCAxNjBjLTIuMyAzLjEtMi4xIDcuNCAuNSAxMC4ybDI0OCAyNzJjMS41IDEuNyAzLjcgMi42IDUuOSAyLjZzNC40LS45IDUuOS0yLjZsMjQ4LTI3MmMyLjYtMi44IDIuOC03LjEgLjUtMTAuMmwtMTIwLTE2MGMtMS41LTItMy45LTMuMi02LjQtMy4yTDEyOCAzMnptLjIgMjEuMUwyMzkuNCAxOTIgMjQgMTkyIDEyOC4yIDUzLjF6TTI2LjEgMjA4TDI1NiAyMDhsMjI5LjkgMEwyNTYgNDYwLjEgMjYuMSAyMDh6TTQ4OCAxOTJsLTIxNS40IDBMMzgzLjggNTMuMSA0ODggMTkyek0zNjcuNCA0OEwyNTYgMTg3LjIgMTQ0LjYgNDhsMjIyLjcgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gem](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/gem.svg)
  */
 const Gem: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-left-from-bracket` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-from-bracket?s=thin arrow-left-from-bracket}
- * @preview ![arrow-left-from-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMi4zIDI2MS43Yy0zLjEtMy4xLTMuMS04LjIgMC0xMS4zbDEzNi0xMzZjMy4xLTMuMSA4LjItMy4xIDExLjMgMHMzLjEgOC4yIDAgMTEuM0wyNy4zIDI0OCAzNDQgMjQ4YzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDI3LjMgMjY0IDE0OS43IDM4Ni4zYzMuMSAzLjEgMy4xIDguMiAwIDExLjNzLTguMiAzLjEtMTEuMyAwbC0xMzYtMTM2ek0zMjggNDhjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsOTYgMGM0OC42IDAgODggMzkuNCA4OCA4OGwwIDI3MmMwIDQ4LjYtMzkuNCA4OC04OCA4OGwtOTYgMGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGw5NiAwYzM5LjggMCA3Mi0zMi4yIDcyLTcybDAtMjcyYzAtMzkuOC0zMi4yLTcyLTcyLTcybC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-left-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-left-from-bracket.svg)
  */
 const ArrowLeftFromBracket: typeof Icon = x => (
     <Icon {...x}>

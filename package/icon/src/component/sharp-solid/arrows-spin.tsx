@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-spin` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-spin?s=sharp-solid arrows-spin}
- * @preview ![arrows-spin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDk2Yy0xMSAwLTIxLjcgMS4xLTMyIDMuMmwwLTY0LjljMTAuNS0xLjUgMjEuMS0yLjMgMzItMi4zYzU3LjggMCAxMTAuNSAyMS45IDE1MC4yIDU3LjhMNDQ4IDQ4bDE2IDE2IDAgMTI4LTEyOCAwLTE2LTE2IDQwLjktNDAuOUMzMzIuOCAxMTAuOCAyOTYuMSA5NiAyNTYgOTZ6TTEzNS4xIDE1MS4xQzExMC44IDE3OS4yIDk2IDIxNS45IDk2IDI1NmMwIDExIDEuMSAyMS43IDMuMiAzMmwtNjQuOSAwYy0xLjUtMTAuNS0yLjMtMjEuMS0yLjMtMzJjMC01Ny44IDIxLjktMTEwLjUgNTcuOC0xNTAuMkw0OCA2NCA2NCA0OGwxMjggMCAwIDEyOC0xNiAxNi00MC45LTQwLjl6TTQ3Ny43IDIyNGMxLjUgMTAuNSAyLjMgMjEuMSAyLjMgMzJjMCA1Ny44LTIxLjkgMTEwLjUtNTcuOCAxNTAuMkw0NjQgNDQ4bC0xNiAxNi0xMjggMCAwLTEyOCAxNi0xNiA0MC45IDQwLjlDNDAxLjIgMzMyLjggNDE2IDI5Ni4xIDQxNiAyNTZjMC0xMS0xLjEtMjEuNy0zLjItMzJsNjQuOSAwek0yNTYgNDE2YzExIDAgMjEuNy0xLjEgMzItMy4ybDAgNjQuOWMtMTAuNSAxLjUtMjEuMSAyLjMtMzIgMi4zYy01Ny44IDAtMTEwLjUtMjEuOS0xNTAuMi01Ny44TDY0IDQ2NCA0OCA0NDhsMC0xMjggMTI4IDAgMTYgMTYtNDAuOSA0MC45QzE3OS4yIDQwMS4yIDIxNS45IDQxNiAyNTYgNDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-spin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrows-spin.svg)
  */
 const ArrowsSpin: typeof Icon = x => (
     <Icon {...x}>

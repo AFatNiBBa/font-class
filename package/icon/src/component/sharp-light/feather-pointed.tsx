@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `feather-pointed` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/feather-pointed?s=sharp-light feather-pointed}
- * @preview ![feather-pointed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE1NC4zQzE5OS43IDExNC42IDI2NiA4NS4yIDMzNi4zIDY1YzUwLjQtMTQuNSAxMDAuNS0yMy43IDEzOS42LTI4LjhjLTUuMiAzOS0xNC4zIDg5LjEtMjguOCAxMzkuNWMtNC43IDE2LjQtOS45IDMyLjYtMTUuNyA0OC4zbC0xMjAuNyAwIDM3LjYtMzcuNiAxMS4zLTExLjMtMjIuNi0yMi42LTExLjMgMTEuM0wxMTYuNCAzNzNDOTYuMSAzNDUuNSA5MSAzMTAuMiA5OCAyNzIuMmM4LjEtNDQuMyAzMi40LTg4LjMgNjItMTE4ek0xMTYuMiA0MTguNGM3Ny44IDYxLjggMTk5LjUgMjAuOSAyNjQuMi00My44YzgwLjktODAuOSAxMTYuNS0yNDcuMyAxMjguMi0zNDIuMmMxLjUtMTIuMSAyLjYtMjMgMy40LTMyLjRjLTkuNCAuOC0yMC4zIDEuOS0zMi40IDMuNGMtOTUgMTEuOC0yNjEuMyA0Ny40LTM0Mi4yIDEyOC4yQzcyLjcgMTk2LjMgMzEuNyAzMTggOTMuNiAzOTUuOEwxNC4zIDQ3NS4xIDMgNDg2LjQgMjUuNiA1MDlsMTEuMy0xMS4zIDc5LjMtNzkuM3pNMTM5IDM5NS42TDE4Mi42IDM1MmwxNzUuMSAwYy0yOS42IDI5LjYtNzMuNyA1My45LTExOCA2MmMtMzggNy03My4yIDEuOC0xMDAuNy0xOC40ek0zODQgMzIwbC0xNjkuMyAwIDY0LTY0IDE0MCAwYy0xMC4yIDIzLjUtMjEuNyA0NS4yLTM0LjYgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![feather-pointed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/feather-pointed.svg)
  */
 const FeatherPointed: typeof Icon = x => (
     <Icon {...x}>

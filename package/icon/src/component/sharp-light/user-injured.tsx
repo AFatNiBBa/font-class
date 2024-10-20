@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-injured` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-injured?s=sharp-light user-injured}
- * @preview ![user-injured](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDEyOGMwLTUuNS0uNS0xMC44LTEuMy0xNkwxOTIgMTEybC02Mi43IDBjLS45IDUuMi0xLjMgMTAuNS0xLjMgMTZjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NnpNMTg2LjQgODBsNTcuNC00NmMtNi40LTEuMy0xMy0yLTE5LjgtMmMtMzUuNSAwLTY2LjYgMTkuMy04My4yIDQ4bDQ1LjUgMHptNTEuMiAwbDY5LjUgMGMtNy40LTEyLjctMTcuNi0yMy42LTI5LjgtMzEuOEwyMzcuNiA4MHpNOTYgMTI4YTEyOCAxMjggMCAxIDEgMjU2IDBBMTI4IDEyOCAwIDEgMSA5NiAxMjh6TTgwIDM2MC44TDQzLjMgNDgwIDgwIDQ4MGwwLTExOS4yek0xMTIgNDgwbDExNC45IDBMMTM1LjIgMzM2IDExMiAzMzZsMCAxNDR6bTkxLjctOTZMMzM2IDM4NGwxNiAwIDAgMTYgMCA4MCA1Mi43IDBMMzYwLjQgMzM2bC0xODcuMiAwIDMwLjUgNDh6bTIwLjQgMzJsNDAuNyA2NCA1NS4yIDAgMC02NC05NS45IDB6TTE2MCA1MTJsLTY0IDAtNjIuNSAwTDAgNTEybDkuOC0zMkw2NCAzMDRsMzIwIDAgNTQuMiAxNzYgOS44IDMyLTMzLjUgMEwzNTIgNTEybC0xNiAwLTE2MCAwLTE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-injured](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-injured.svg)
  */
 const UserInjured: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

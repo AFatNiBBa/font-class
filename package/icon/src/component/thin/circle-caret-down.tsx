@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-caret-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-caret-down?s=thin circle-caret-down}
- * @preview ![circle-caret-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDAgMCA0ODAgMjQwIDI0MCAwIDEgMCAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMSAyNTYgMGEyNTYgMjU2IDAgMSAxIDAgNTEyem0wLTE2MGMtNy4zIDAtMTQuMy0zLTE5LjMtOC40TDEzNC44IDIzNC40Yy00LjQtNC43LTYuOC0xMC44LTYuOC0xNy4yYzAtMTMuOSAxMS4zLTI1LjIgMjUuMi0yNS4ybDIwNS42IDBjMTMuOSAwIDI1LjIgMTEuMyAyNS4yIDI1LjJjMCA2LjQtMi40IDEyLjUtNi44IDE3LjJMMjc1LjMgMzQzLjZjLTUgNS40LTEyIDguNC0xOS4zIDguNHptLTcuNi0xOS4zYzIgMi4xIDQuNyAzLjMgNy42IDMuM3M1LjYtMS4yIDcuNi0zLjNMMzY1LjUgMjIzLjVjMS42LTEuNyAyLjUtNCAyLjUtNi4zYzAtNS4xLTQuMS05LjItOS4yLTkuMmwtMjA1LjYgMGMtNS4xIDAtOS4yIDQuMS05LjIgOS4yYzAgMi4zIC45IDQuNiAyLjUgNi4zTDI0OC40IDMzMi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circle-caret-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-caret-down.svg)
  */
 const CircleCaretDown: typeof Icon = x => (
     <Icon {...x}>

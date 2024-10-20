@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-right?s=solid turn-right}
- * @preview ![turn-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM0LjUgNjZjOC44LTMuOCAxOS0yIDI2IDQuNmwxNDQgMTM2YzQuOCA0LjUgNy41IDEwLjggNy41IDE3LjRzLTIuNyAxMi45LTcuNSAxNy40bC0xNDQgMTM2Yy03IDYuNi0xNy4yIDguNC0yNiA0LjZzLTE0LjUtMTIuNS0xNC41LTIybDAtODgtMTkyIDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMTQ0YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMkwwIDMwNGMwLTcwLjcgNTcuMy0xMjggMTI4LTEyOGwxOTIgMCAwLTg4YzAtOS42IDUuNy0xOC4yIDE0LjUtMjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![turn-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/turn-right.svg)
  */
 const TurnRight: typeof Icon = x => (
     <Icon {...x}>

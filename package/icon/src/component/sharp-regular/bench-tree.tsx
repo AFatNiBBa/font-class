@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bench-tree` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bench-tree?s=sharp-regular bench-tree}
- * @preview ![bench-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTU0LjggMTMyLjdMNTc4LjcgMTUwYzguMiA1LjkgMTMuMyAxNS4zIDEzLjMgMjZsMCAzMi0xNjAgMCAwLTMyYzAtMTAuNiA1LjEtMjAuMSAxMy4zLTI2bDIzLjktMTcuMy00LjYtMjkuMWMtLjQtMi41LS42LTUtLjYtNy42YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4czQ4IDIxLjUgNDggNDhjMCAyLjYtLjIgNS4yLS42IDcuNmwtNC42IDI5LjF6TTQxNy4yIDExMS4xQzM5Ny4xIDEyNS43IDM4NCAxNDkuMyAzODQgMTc2bDAgMzIgMCA0OCA0OCAwIDU2IDAgMCAyMzIgMCAyNCA0OCAwIDAtMjQgMC0yMzIgNTYgMCA0OCAwIDAtNDggMC0zMmMwLTI2LjctMTMuMS01MC4zLTMzLjItNjQuOWMuOC00LjkgMS4yLTEwIDEuMi0xNS4xYzAtNTMtNDMtOTYtOTYtOTZzLTk2IDQzLTk2IDk2YzAgNS4xIC40IDEwLjIgMS4yIDE1LjF6TTgwIDI0MGwyMjQgMCAwIDMyTDgwIDI3MmwwLTMyek0zMiAxOTJsMCA0OCAwIDMyIDAgNDggMjQgMCAwIDMyLTI0IDAtOCAwTDAgMzUybDAgNDggMjQgMCA4IDAgMCA4OCAwIDI0IDQ4IDAgMC0yNCAwLTg4IDIyNCAwIDAgODggMCAyNCA0OCAwIDAtMjQgMC04OCA4IDAgMjQgMCAwLTQ4LTI0IDAtOCAwLTI0IDAgMC0zMiAyNCAwIDAtNDggMC0zMiAwLTQ4LTQ4IDBMODAgMTkybC00OCAwem03MiAxMjhsMTc2IDAgMCAzMi0xNzYgMCAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bench-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bench-tree.svg)
  */
 const BenchTree: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

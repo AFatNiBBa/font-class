@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `claw-marks` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/claw-marks?s=sharp-light claw-marks}
- * @preview ![claw-marks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE1MC42TDM2LjcgMjcuMyA1OS4zIDQuN2wxMjggMTI4IDQuNyA0LjcgMCA2LjYgMCA0OCA0OCAwIDYuNiAwIDQuNyA0LjcgMTI4IDEyOCA0LjcgNC43IDAgNi42IDAgNDggNDggMCA2LjYgMCA0LjcgNC43IDk2IDk2LTIyLjYgMjIuNkw0MjUuNCA0MTYgMzY4IDQxNmwtMTYgMCAwLTE2IDAtNTcuNEwyMzMuNCAyMjQgMTc2IDIyNGwtMTYgMCAwLTE2IDAtNTcuNHptLTMyIDE5MkwzNi43IDI1MS4zbDIyLjYtMjIuNiA5NiA5NiA0LjcgNC43IDAgNi42IDAgNDggNDggMCA2LjYgMCA0LjcgNC43IDk2IDk2LTIyLjYgMjIuNkwyMDEuNCA0MTYgMTQ0IDQxNmwtMTYgMCAwLTE2IDAtNTcuNHpNMjYwLjcgMjcuM0wyODMuMyA0LjdsMzIgMzIgNC43IDQuNyAwIDYuNiAwIDQ4IDQ4IDAgNi42IDAgNC43IDQuNyA2NCA2NCA0LjcgNC43IDAgNi42IDAgNDggNDggMCA2LjYgMCA0LjcgNC43IDMyIDMyLTIyLjYgMjIuNkw0ODkuNCAyNTYgNDMyIDI1NmwtMTYgMCAwLTE2IDAtNTcuNEwzNjEuNCAxMjggMzA0IDEyOGwtMTYgMCAwLTE2IDAtNTcuNEwyNjAuNyAyNy4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![claw-marks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/claw-marks.svg)
  */
 const ClawMarks: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sparkles` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sparkles?s=sharp-regular sparkles}
- * @preview ![sparkles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDY0TDMyMCA5Nmw2NCAzMiAzMiA2NCAzMi02NCA2NC0zMkw0NDggNjQgNDE2IDAgMzg0IDY0ek0yNTYgMzIwbDc0LjMtMzcuMkwzODQgMjU2bC01My43LTI2LjhMMjU2IDE5MmwtMzcuMi03NC4zTDE5MiA2NGwtMjYuOCA1My43TDEyOCAxOTIgNTMuNyAyMjkuMiAwIDI1Nmw1My43IDI2LjhMMTI4IDMyMGwzNy4yIDc0LjNMMTkyIDQ0OGwyNi44LTUzLjdMMjU2IDMyMHptLTY0IDIwLjdsLTIxLjEtNDIuMS03LjItMTQuMy0xNC4zLTcuMkwxMDcuMyAyNTZsNDIuMS0yMS4xIDE0LjMtNy4yIDcuMi0xNC4zTDE5MiAxNzEuM2wyMS4xIDQyLjEgNy4yIDE0LjMgMTQuMyA3LjJMMjc2LjcgMjU2bC00Mi4xIDIxLjEtMTQuMyA3LjItNy4yIDE0LjNMMTkyIDM0MC43ek00MTYgMzIwbC0zMiA2NC02NCAzMiA2NCAzMiAzMiA2NCAzMi02NCA2NC0zMi02NC0zMi0zMi02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sparkles.svg)
  */
 const Sparkles: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `handshake-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-simple?s=sharp-regular handshake-simple}
- * @preview ![handshake-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyLjggNjRMMjAwIDY0bC05LjUgMC02LjkgNi41TDEyMi4zIDEyOCA1NiAxMjhsLTI0IDAgMCA0OCAyNCAwIDc1LjggMCA5LjUgMCA2LjktNi41TDIwOS41IDExMmwxNS4zIDAgNDgtNDh6TTMyOCA2NGwtOS41IDAtNi45IDYuNS0xMzYgMTI4LTE3IDE2IDE1LjUgMTcuNCA2NCA3MiAxNi4yIDE4LjMgMTgtMTYuNkwzNDAuMSAyNDMgNDMyIDMzNC45bDAgMS44LTQ5IDQ5LTkuNy05LjctMTctMTctMTcgMTdMMzA5LjQgNDA2bC0yMS0yMS0xNy0xNy0xNyAxNy0yMy4zIDIzLjMtMjEuMy0yMS4zLTE3LTE3LTctNy01Mi01Mi03LTctOS45IDBMNTYgMzA0bC0yNCAwIDAgNDggMjQgMCA1MSAwIDQ1IDQ1IDcgNyAxNyAxNyAzOC4yIDM4LjIgMTcgMTcgMTctMTcgMjMuMy0yMy4zIDIxIDIxIDE3IDE3IDE3LTE3TDM1Ni4zIDQyN2w5LjcgOS43IDE3IDE3IDE3LTE3TDQ2OC41IDM2OCA1ODQgMzY4bDI0IDAgMC00OC0yNCAwLTk5IDAtMS4yLTEuMkwzNzUuNCAyMTAuNGwuOC0uOCAxNy42LTE2LjMtMzIuNi0zNS4zLTE3LjYgMTYuMy04NiA3OS40LTMyLjMtMzYuM0wzMzcuNSAxMTJsNzcuNCAwIDY1LjIgNTcuOSA2LjggNi4xIDkuMSAwIDg4IDAgMjQgMCAwLTQ4LTI0IDAtNzguOSAwTDQzOS45IDcwLjEgNDMzLjEgNjQgNDI0IDY0bC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![handshake-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/handshake-simple.svg)
  */
 const HandshakeSimple: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

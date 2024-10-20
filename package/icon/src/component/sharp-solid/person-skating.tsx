@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-skating` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-skating?s=sharp-solid person-skating}
- * @preview ![person-skating](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6TTEyOCA5NmwzMiAwIDE2MCAwIDEzLjMgMCA5LjQgOS40IDE5LjMgMTkuMyAyMy40IDIzLjQtMjQuMiAyMi42LTgzLjQgNzcuOCA2NC45IDY0LjkgOS40IDkuNCAwIDEzLjMgMCA4MCAwIDMyLTY0IDAgMC0zMiAwLTY2LjctNzcuOS03Ny44Yy0yNi42LTI2LjYtMjQuNi03MC4zIDQuMy05NC40bDIwLjQtMTdMMTYwIDE2MGwtMzIgMCAwLTY0ek04MS40IDM1My40bDg2LjktODYuOWM0LjYgMTAgMTEgMTkuMyAxOS4zIDI3LjVsMjEuOCAyMS44LTgyLjcgODIuN0wxMDQgNDIxLjMgNTguNyAzNzZsMjIuNi0yMi42em0zMDcgOTEuMmwzMSA3LjgtMy45IDE1LjUtOCAzMi0zIDEyLjFMMzkyIDUxMmwtMTA0IDAtMTYgMCAwLTMyIDE2IDAgOTEuNSAwIDUtMTkuOSAzLjktMTUuNXpNMTM1LjIgNDc4LjNsLTMyIDE2LTEwLjMgNS4yLTguMi04LjItNzItNzJMMS40IDQwOCAyNCAzODUuNGwxMS4zIDExLjMgNjMuOCA2My44IDIxLjctMTAuOCAxNC4zLTcuMiAxNC4zIDI4LjYtMTQuMyA3LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-skating](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-skating.svg)
  */
 const PersonSkating: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

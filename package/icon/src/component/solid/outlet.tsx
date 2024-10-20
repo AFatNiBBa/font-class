@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `outlet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/outlet?s=solid outlet}
- * @preview ![outlet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMnptMCAyMjRjMC02MS4xIDMwLjgtOTkuMSA0OS43LTExNi42YzguOC04LjIgMjAuNy0xMS40IDMyLjYtMTEuNGwxNTUuMyAwYzEyIDAgMjMuOSAzLjMgMzIuNiAxMS40QzM1My4yIDE1Ni45IDM4NCAxOTQuOSAzODQgMjU2cy0zMC44IDk5LTQ5LjcgMTE2LjZjLTguOCA4LjItMjAuNyAxMS40LTMyLjYgMTEuNGwtMTU1LjMgMGMtMTIgMC0yMy45LTMuMy0zMi42LTExLjRDOTQuOCAzNTUgNjQgMzE3LjEgNjQgMjU2em05Ni02NGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNDhjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNnptMTI4IDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDQ4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC00OGMwLTguOC03LjItMTYtMTYtMTZ6bS02NCA5NmMtMTMuMyAwLTI0IDEwLjctMjQgMjRsMCAxNmMwIDQuNCAzLjYgOCA4IDhsMzIgMGM0LjQgMCA4LTMuNiA4LThsMC0xNmMwLTEzLjMtMTAuNy0yNC0yNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![outlet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/outlet.svg)
  */
 const Outlet: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

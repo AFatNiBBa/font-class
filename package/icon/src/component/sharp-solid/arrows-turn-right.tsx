@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-turn-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-turn-right?s=sharp-solid arrows-turn-right}
- * @preview ![arrows-turn-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQyLjYgMjUuNEwzMjAgMi43IDI3NC43IDQ4bDIyLjYgMjIuNkwzMjIuNyA5NiAzMiA5NiAwIDk2bDAgMzJMMCAyNTZsMCAzMiA2NCAwIDAtMzIgMC05NiAyNTguNyAwLTI1LjQgMjUuNEwyNzQuNyAyMDggMzIwIDI1My4zbDIyLjYtMjIuNiA4MC04MEw0NDUuMyAxMjhsLTIyLjYtMjIuNi04MC04MHptLTgwIDI1NkwyNDAgMjU4LjcgMTk0LjcgMzA0bDIyLjYgMjIuNkwyNDIuNyAzNTIgMzIgMzUyIDAgMzUybDAgMzIgMCA5NiAwIDMyIDY0IDAgMC0zMiAwLTY0IDE3OC43IDAtMjUuNCAyNS40TDE5NC43IDQ2NCAyNDAgNTA5LjNsMjIuNi0yMi42IDgwLTgwTDM2NS4zIDM4NGwtMjIuNi0yMi42LTgwLTgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-turn-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrows-turn-right.svg)
  */
 const ArrowsTurnRight: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

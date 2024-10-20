@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gauge-simple-max` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-simple-max?s=sharp-thin gauge-simple-max}
- * @preview ![gauge-simple-max](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ5NmEyNDAgMjQwIDAgMSAwIDAtNDgwIDI0MCAyNDAgMCAxIDAgMCA0ODB6TTI1NiAwYTI1NiAyNTYgMCAxIDEgMCA1MTJBMjU2IDI1NiAwIDEgMSAyNTYgMHptMCA0MDBhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0wIDE2Yy0zNS4zIDAtNjQtMjguNy02NC02NHMyOC43LTY0IDY0LTY0YzE4LjggMCAzNS43IDguMSA0Ny40IDIxbDEwOC03NS42IDYuNi00LjYgOS4yIDEzLjEtNi42IDQuNi0xMDggNzUuNmM0LjcgOC45IDcuNCAxOS4xIDcuNCAyOS45YzAgMzUuMy0yOC43IDY0LTY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gauge-simple-max](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/gauge-simple-max.svg)
  */
 const GaugeSimpleMax: typeof Icon = x => (
     <Icon {...x}>

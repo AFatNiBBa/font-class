@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `id-card-clip` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-card-clip?s=duotone id-card-clip}
- * @preview ![id-card-clip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDEyOEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGw0NDggMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEwzNTIgNjRsMCA2NCAxNiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xNjAgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwxNiAwIDAtNjRMNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjh6TTE3NiA0MzcuM2MwLTI5LjUgMjMuOS01My4zIDUzLjMtNTMuM2wxMTcuMyAwYzI5LjUgMCA1My4zIDIzLjkgNTMuMyA1My4zYzAgNS45LTQuOCAxMC43LTEwLjcgMTAuN2wtMjAyLjcgMGMtNS45IDAtMTAuNy00LjgtMTAuNy0xMC43ek0zNTIgMjg4YTY0IDY0IDAgMSAxIC0xMjggMCA2NCA2NCAwIDEgMSAxMjggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTI1NiAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDk2IDEyOCAwIDAtOTZjMC0xNy43LTE0LjMtMzItMzItMzJMMjU2IDB6bTk2IDI4OGE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6TTE3NiA0MzcuM2MwIDUuOSA0LjggMTAuNyAxMC43IDEwLjdsMjAyLjcgMGM1LjkgMCAxMC43LTQuOCAxMC43LTEwLjdjMC0yOS41LTIzLjktNTMuMy01My4zLTUzLjNsLTExNy4zIDBjLTI5LjUgMC01My4zIDIzLjktNTMuMyA1My4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![id-card-clip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/id-card-clip.svg)
  */
 const IdCardClip: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 128L0 448c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L352 64l0 64 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 0-64L64 64C28.7 64 0 92.7 0 128zM176 437.3c0-29.5 23.9-53.3 53.3-53.3l117.3 0c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7l-202.7 0c-5.9 0-10.7-4.8-10.7-10.7zM352 288a64 64 0 1 1 -128 0 64 64 0 1 1 128 0z" />
-            <path d="M256 0c-17.7 0-32 14.3-32 32l0 96 128 0 0-96c0-17.7-14.3-32-32-32L256 0zm96 288a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM176 437.3c0 5.9 4.8 10.7 10.7 10.7l202.7 0c5.9 0 10.7-4.8 10.7-10.7c0-29.5-23.9-53.3-53.3-53.3l-117.3 0c-29.5 0-53.3 23.9-53.3 53.3z" />
+        <path d="M256 0c-17.7 0-32 14.3-32 32l0 96 128 0 0-96c0-17.7-14.3-32-32-32L256 0zm96 288a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM176 437.3c0 5.9 4.8 10.7 10.7 10.7l202.7 0c5.9 0 10.7-4.8 10.7-10.7c0-29.5-23.9-53.3-53.3-53.3l-117.3 0c-29.5 0-53.3 23.9-53.3 53.3z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shekel-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shekel-sign?s=sharp-light shekel-sign}
- * @preview ![shekel-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzJMMzIgMzJsMCAxNiAwIDQxNiAwIDE2IDMyIDAgMC0xNkw2NCA2NGwxMjggMGM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDE5MiAwIDE2IDMyIDAgMC0xNiAwLTE5MmMwLTYxLjktNTAuMS0xMTItMTEyLTExMkw0OCAzMnpNMzA0IDQ4MGM2MS45IDAgMTEyLTUwLjEgMTEyLTExMmwwLTMyMCAwLTE2LTMyIDAgMCAxNiAwIDMyMGMwIDQ0LjItMzUuOCA4MC04MCA4MGwtMTI4IDAgMC0yNzIgMC0xNi0zMiAwIDAgMTYgMCAyODggMCAxNiAxNiAwIDE0NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shekel-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shekel-sign.svg)
  */
 const ShekelSign: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

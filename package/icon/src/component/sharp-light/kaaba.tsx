@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kaaba` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kaaba?s=sharp-light kaaba}
- * @preview ![kaaba](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDE5My44TDI4OCAyNzkuMSAzMiAxOTMuOGwwLTM5LjFMMjg4IDI0MGwyNTYtODUuMyAwIDM5LjF6bTAgMzMuN2wwIDM4LjMtMzIgMTAuNyAwIDMzLjcgMzItMTAuNyAwIDkzLjRMMjg4IDQ3OC4zIDMyIDM5Mi45bDAtOTMuNCAzMiAxMC43IDAtMzMuN0wzMiAyNjUuOGwwLTM4LjMgMjUwLjkgODMuNiA1LjEgMS43IDUuMS0xLjdMNTQ0IDIyNy41em0wLTEwOC41bDAgMS45TDI4OCAyMDYuMyAzMiAxMjAuOWwwLTEuOUwyODggMzMuN2wyNTYgODUuM3pNNTc2IDQxNmwwLTI3MiAwLTE2IDAtMzJMMjg4IDAgMCA5NmwwIDMyIDAgMTZMMCA0MTZsMjg4IDk2IDI4OC05NnpNOTYgMjg3LjFsMCAzMy43IDk2IDMyIDAtMzMuNy05Ni0zMnptMTg2LjkgOTZsNS4xIDEuNyA1LjEtMS43TDM1MiAzNjMuNWwwLTMzLjctNjQgMjEuMy02NC0yMS4zIDAgMzMuNyA1OC45IDE5LjZ6TTM4NCAzNTIuOWw5Ni0zMiAwLTMzLjctOTYgMzIgMCAzMy43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![kaaba](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/kaaba.svg)
  */
 const Kaaba: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

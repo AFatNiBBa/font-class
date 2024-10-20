@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `campfire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/campfire?s=sharp-regular campfire}
- * @preview ![campfire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI4LjQgMEMxODkuNiAyNC4yIDExMiA5My4xIDExMiAxNzQuNUMxMTIgMjU0LjkgMTc3LjEgMzIwIDI1Ny41IDMyMHMxNDUuNS02NS4xIDE0NS41LTE0NS41YzAtMjQuMi0xNy41LTg3LjMtODcuMy0xNDUuNUwyODYuNSA1OC4yIDIyOC40IDB6bTg3LjMgMjE4LjNjMCAzMi4xLTI2IDU4LjItNTguMiA1OC4ycy01OC4yLTI2LTU4LjItNTguMmMwLTQzLjYgNTguMi04Ny4zIDU4LjItODcuM3M1OC4yIDQzLjYgNTguMiA4Ny4zek00MC4xIDI5Ny40bC0yMi42LTguMUwxLjMgMzM0LjVsMjIuNiA4LjFMMTg0LjYgNDAwIDIzLjkgNDU3LjQgMS4zIDQ2NS41bDE2LjEgNDUuMiAyMi42LTguMUwyNTYgNDI1LjVsMjE1LjkgNzcuMSAyMi42IDguMSAxNi4xLTQ1LjItMjIuNi04LjFMMzI3LjQgNDAwbDE2MC43LTU3LjQgMjIuNi04LjEtMTYuMS00NS4yLTIyLjYgOC4xTDI1NiAzNzQuNSA0MC4xIDI5Ny40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![campfire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/campfire.svg)
  */
 const Campfire: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `helmet-battle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helmet-battle?s=sharp-regular helmet-battle}
- * @preview ![helmet-battle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjU2TDAgMjU2bDAtMzJMNjQgMGwwIDI1NnptMzItMzJDOTYgODAgMjg4IDAgMjg4IDBzMTkyIDgwIDE5MiAyMjRjMCA4MCAzMiAxOTIgMzIgMTkyTDMyMCA1MTJsLTY0IDBMNjQgNDE2czMyLTExMiAzMi0xOTJ6TTQ0OSAzNTkuOWMtOC4yLTM4LjgtMTctOTAuOC0xNy0xMzUuOWMwLTQ5LjYtMzMuNS05My4zLTc3LjgtMTI4LjRDMzMzIDc4LjggMzExLjUgNjUuOCAyOTUuMSA1N2MtMi41LTEuNC00LjktMi42LTcuMS0zLjhjLTIuMiAxLjItNC42IDIuNC03LjEgMy44Yy0xNi4zIDguOC0zNy44IDIxLjktNTkuMSAzOC43QzE3Ny41IDEzMC43IDE0NCAxNzQuNCAxNDQgMjI0YzAgNDUuMS04LjkgOTcuMS0xNyAxMzUuOWMtMi4zIDExLjEtNC43IDIxLjQtNi44IDMwLjVMMjY0IDQ2Mi4zIDI2NCAyODhsLTg4LTMyIDAtMzIgMjI0IDAgMCAzMi04OCAzMiAwIDE3NC4zIDE0My45LTcxLjljLTIuMi05LjEtNC41LTE5LjQtNi44LTMwLjV6TTUxMiAwbDY0IDIyNCAwIDMyLTY0IDBMNTEyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![helmet-battle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/helmet-battle.svg)
  */
 const HelmetBattle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

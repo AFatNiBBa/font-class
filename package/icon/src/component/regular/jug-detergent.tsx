@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jug-detergent` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jug-detergent?s=regular jug-detergent}
- * @preview ![jug-detergent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDBDMTA2LjcgMCA5NiAxMC43IDk2IDI0bDAgMjQtOCAwQzc0LjcgNDggNjQgNTguNyA2NCA3MnMxMC43IDI0IDI0IDI0bDE0NCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC04IDAgMC0yNGMwLTEzLjMtMTAuNy0yNC0yNC0yNEwxMjAgMHpNMjU2IDE3NmM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDE5MmMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDY0Yy04LjggMC0xNi03LjItMTYtMTZsMC0xOTJjMC00NC4yIDM1LjgtODAgODAtODBsMTI4IDB6TTEyOCAxMjhDNTcuMyAxMjggMCAxODUuMyAwIDI1NkwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTE5MmMwLTcwLjctNTcuMy0xMjgtMTI4LTEyOGwtMTI4IDB6bTEyOCA5NmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA5NmMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtOTZjMC0xNy43LTE0LjMtMzItMzItMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![jug-detergent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/jug-detergent.svg)
  */
 const JugDetergent: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

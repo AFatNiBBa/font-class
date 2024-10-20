@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `chart-network` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-network?s=sharp-duotone-solid chart-network}
- * @preview ![chart-network](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMjggMjcybDAgNjQgNjcuNiAwYzE0LjYgNjQuMSA3MS45IDExMiAxNDAuNCAxMTJjNDMuNSAwIDgyLjQtMTkuMyAxMDguOC00OS43TDUxMiA0MzQuMWwwLTUwLjEgNDIgMC03OS00Mi4xYzMuMy0xMi4xIDUtMjQuOCA1LTM3LjljMC0yMC4zLTQuMi0zOS43LTExLjgtNTcuMkw1NDIuOCAxOTJjLTEwLjMgMC0yMC42IDAtMzAuOCAwbDAtNTYuNy04MS43IDU5LjlDNDA1IDE3My4zIDM3Mi4xIDE2MCAzMzYgMTYwYy0xMC40IDAtMjAuNiAxLjEtMzAuNCAzLjJMMjg4IDEyNS41bDAgMi41Yy0yMy4xIDAtNDYuMyAwLTY5LjQgMGwyOS4xIDYyLjNDMjIxLjggMjEwLjQgMjAzIDIzOSAxOTUuNiAyNzJMMTI4IDI3MnptMjU2IDMyYTQ4IDQ4IDAgMSAxIC05NiAwIDQ4IDQ4IDAgMSAxIDk2IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yODggMEwxNjAgMGwwIDEyOCAxMjggMEwyODggMHpNMTI4IDI0MEwwIDI0MCAwIDM2OGwxMjggMCAwLTEyOHpNNTEyIDY0bDAgMTI4IDEyOCAwIDAtMTI4TDUxMiA2NHpNNjQwIDM4NGwtMTI4IDAgMCAxMjggMTI4IDAgMC0xMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-network](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/chart-network.svg)
  */
 const ChartNetwork: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M128 272l0 64 67.6 0c14.6 64.1 71.9 112 140.4 112c43.5 0 82.4-19.3 108.8-49.7L512 434.1l0-50.1 42 0-79-42.1c3.3-12.1 5-24.8 5-37.9c0-20.3-4.2-39.7-11.8-57.2L542.8 192c-10.3 0-20.6 0-30.8 0l0-56.7-81.7 59.9C405 173.3 372.1 160 336 160c-10.4 0-20.6 1.1-30.4 3.2L288 125.5l0 2.5c-23.1 0-46.3 0-69.4 0l29.1 62.3C221.8 210.4 203 239 195.6 272L128 272zm256 32a48 48 0 1 1 -96 0 48 48 0 1 1 96 0z" />
-            <path d="M288 0L160 0l0 128 128 0L288 0zM128 240L0 240 0 368l128 0 0-128zM512 64l0 128 128 0 0-128L512 64zM640 384l-128 0 0 128 128 0 0-128z" />
+        <path d="M288 0L160 0l0 128 128 0L288 0zM128 240L0 240 0 368l128 0 0-128zM512 64l0 128 128 0 0-128L512 64zM640 384l-128 0 0 128 128 0 0-128z" />
     </Icon>
 );
 

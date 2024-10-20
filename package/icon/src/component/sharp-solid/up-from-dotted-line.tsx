@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-from-dotted-line` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-from-dotted-line?s=sharp-solid up-from-dotted-line}
- * @preview ![up-from-dotted-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTkyTDIyNCAzMiAzODQgMTkybDAgMzItOTYgMCAwIDE2MC0xMjggMCAwLTE2MC05NiAwIDAtMzJ6bTAgMjI0bDAgNjRMMCA0ODBsMC02NCA2NCAwem05NiAwbDAgNjQtNjQgMCAwLTY0IDY0IDB6bTMyIDY0bDAtNjQgNjQgMCAwIDY0LTY0IDB6bTE2MC02NGwwIDY0LTY0IDAgMC02NCA2NCAwem0zMiAwbDY0IDAgMCA2NC02NCAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![up-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/up-from-dotted-line.svg)
  */
 const UpFromDottedLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

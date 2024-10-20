@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chimney` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chimney?s=regular chimney}
- * @preview ![chimney](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTc2bDM1MiAwIDAtOTZMNDggODBsMCA5NnpNMCA2NEMwIDQ2LjMgMTQuMyAzMiAzMiAzMmwzODQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDEyOGMwIDE3LjctMTQuMyAzMi0zMiAzMmwwIDEzNiAwIDEwNGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTgwLTgwIDAgMCA4MGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTgwLTU2IDBMODAgMzg0bDAgODBjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0xMDQgMC0xMzZjLTE3LjcgMC0zMi0xNC4zLTMyLTMyTDAgNjR6TTgwIDIyNGwwIDExMiA4MCAwIDAtMTEyLTgwIDB6bTEyOCAwbDAgMTEyIDU2IDAgMTA0IDAgMC0xMTItMTYwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chimney](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chimney.svg)
  */
 const Chimney: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

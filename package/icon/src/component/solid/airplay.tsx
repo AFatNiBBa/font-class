@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `airplay` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/airplay?s=solid airplay}
- * @preview ![airplay](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDk2TDk2IDk2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE5MmMwIDE3LjcgMTQuMyAzMiAzMiAzMmw2OS41IDAtNTAuNyA1MC43Yy00IDQtNy40IDguNS0xMC4yIDEzLjNMOTYgNDE2Yy01MyAwLTk2LTQzLTk2LTk2TDAgMTI4QzAgNzUgNDMgMzIgOTYgMzJsMzg0IDBjNTMgMCA5NiA0MyA5NiA5NmwwIDE5MmMwIDUzLTQzIDk2LTk2IDk2bC04LjYgMGMtMi44LTQuOC02LjItOS4yLTEwLjItMTMuM0w0MTAuNSAzNTJsNjkuNSAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTkyYzAtMTcuNy0xNC4zLTMyLTMyLTMyek0yNjUuNCAyOTcuNGMxMi41LTEyLjUgMzIuOC0xMi41IDQ1LjMgMGwxMjggMTI4YzkuMiA5LjIgMTEuOSAyMi45IDYuOSAzNC45cy0xNi42IDE5LjgtMjkuNiAxOS44bC0yNTYgMGMtMTIuOSAwLTI0LjYtNy44LTI5LjYtMTkuOHMtMi4yLTI1LjcgNi45LTM0LjlsMTI4LTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![airplay](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/airplay.svg)
  */
 const Airplay: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

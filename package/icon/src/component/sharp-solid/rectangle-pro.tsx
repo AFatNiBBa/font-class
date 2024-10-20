@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-pro` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-pro?s=sharp-solid rectangle-pro}
- * @preview ![rectangle-pro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDMyTDAgMzIgMCA0ODBsNjQwIDAgMC00NDh6TTgwIDE2MGwyNCAwIDU2IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyNC00LjcgMGMtOS41IDIzLjUtMzIuNSA0MC01OS4zIDQwbC0zMiAwIDAgNDAgMCAyNC00OCAwIDAtMjQgMC02NCAwLTgwIDAtMjR6bTQ4IDgwbDMyIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTMyIDAgMCAzMnptMjcyIDhjMC00OC42IDM5LjQtODggODgtODhzODggMzkuNCA4OCA4OGwwIDE2YzAgNDguNi0zOS40IDg4LTg4IDg4cy04OC0zOS40LTg4LTg4bDAtMTZ6bTg4LTQwYy0yMi4xIDAtNDAgMTcuOS00MCA0MGwwIDE2YzAgMjIuMSAxNy45IDQwIDQwIDQwczQwLTE3LjkgNDAtNDBsMC0xNmMwLTIyLjEtMTcuOS00MC00MC00MHpNMjY0IDE2MGw1NiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjQtNC43IDBjLTQuNyAxMS43LTEyLjggMjEuNy0yMy4xIDI4LjdsMjQuMSAzOC41IDIzIDM2LjctNTYuNiAwLTctMTEuMy0zMy01Mi43TDI4OCAyODhsMCA0MCAwIDI0LTQ4IDAgMC0yNCAwLTY0IDAtODAgMC0yNCAyNCAwem01NiA4MGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMzIgMCAwIDMyIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rectangle-pro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/rectangle-pro.svg)
  */
 const RectanglePro: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

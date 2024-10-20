@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `microphone-stand` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-stand?s=sharp-regular microphone-stand}
- * @preview ![microphone-stand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc3LjggMjAzLjlsLTEgMS0xNiAxNi0xNiAxNi0xIDFjLTIyIDIxLjUtNTAuMiAzMi45LTc4LjcgMzQuMWwtMTggMTUuMUwyODAgMzQzLjZsMCA4LjQgMCAxMzYgMCAyNC00OCAwIDAtMjQgMC0xMDRMODAgNTEyIDAgNDMyIDIyNSAxNjQuOWwxNS4xLTE4YzEuMi0yOC42IDEyLjYtNTYuOCAzNC4xLTc4LjdsLjktMXMwIDAgMCAwbDE2LTE2IDE2LTE2czAgMCAwIDBsMS0uOWM0Ni45LTQ1LjkgMTIyLjItNDUuNiAxNjguNyAxczQ2LjkgMTIxLjggMSAxNjguN3ptLTY3LjkgMEwzMDguMSAxMDIuMWMtMTUuNSAxNi4xLTIyLjEgMzcuNy0xOS42IDU4LjRsMS42IDEuNiA1OS45IDU5LjkgMS42IDEuNmMyMC43IDIuNCA0Mi4zLTQuMSA1OC40LTE5LjZ6bTMzLTEzNC44Yy0yNy44LTI3LjgtNzIuNy0yOC4xLTEwMC44LTFMNDQzLjkgMTY5LjljMjcuMi0yOC4yIDI2LjgtNzMuMS0xLTEwMC44ek0zMTMuMSAyNTNMMjU5IDE5OC45IDY1LjEgNDI5LjJsMTcuNyAxNy43TDMxMy4xIDI1M3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![microphone-stand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/microphone-stand.svg)
  */
 const MicrophoneStand: typeof Icon = x => (
     <Icon {...x}>

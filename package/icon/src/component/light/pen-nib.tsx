@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-nib` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-nib?s=light pen-nib}
- * @preview ![pen-nib](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc3LjQgNDUuM0wzMTAuNiAxMTIgNDAwIDIwMS40bDY2LjctNjYuN2MxMi41LTEyLjUgMTIuNS0zMi44IDAtNDUuM0w0MjIuNiA0NS4zYy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMHpNMjc5LjcgOTcuN2w3NS4xLTc1LjFjMjUtMjUgNjUuNS0yNSA5MC41IDBsNDQuMSA0NC4xYzI1IDI1IDI1IDY1LjUgMCA5MC41bC03NS4xIDc1LjFMMzc2LjggMzcwYy03LjMgMjYuNi0yNy43IDQ3LjYtNTQuMiA1NS42TDQ3LjQgNTA4LjFjLTEyLjMgMy43LTI1LjcgLjMtMzQuNy04LjhzLTEyLjUtMjIuNC04LjgtMzQuN0w4Ni41IDE4OS40YzcuOS0yNi40IDI4LjktNDYuOSA1NS42LTU0LjJMMjc5LjcgOTcuN3ptMy42IDMyLjJMMTUwLjUgMTY2LjFjLTE2IDQuNC0yOC42IDE2LjYtMzMuMyAzMi41TDQyLjcgNDQ2LjcgMTUyLjkgMzM2LjVjLTUuNi05LjUtOC45LTIwLjYtOC45LTMyLjVjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NHMtMjguNyA2NC02NCA2NGMtMTEuOSAwLTIzLTMuMi0zMi41LTguOUw2NS4zIDQ2OS4zbDI0OC4xLTc0LjRjMTUuOS00LjggMjguMi0xNy40IDMyLjUtMzMuM2wzNi4yLTEzMi44LTk4LjktOTguOXpNMjA4IDI3MmEzMiAzMiAwIDEgMCAwIDY0IDMyIDMyIDAgMSAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pen-nib](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pen-nib.svg)
  */
 const PenNib: typeof Icon = x => (
     <Icon {...x}>

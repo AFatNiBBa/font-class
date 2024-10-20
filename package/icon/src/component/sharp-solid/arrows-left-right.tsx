@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-left-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-left-right?s=sharp-solid arrows-left-right}
- * @preview ![arrows-left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg2LjYgMjc4LjZMNTA5LjMgMjU2bC0yMi42LTIyLjYtOTYtOTZMMzY4IDExNC43IDMyMi43IDE2MGwyMi42IDIyLjZMMzg2LjcgMjI0bC0yNjEuNSAwIDQxLjQtNDEuNEwxODkuMyAxNjAgMTQ0IDExNC43bC0yMi42IDIyLjYtOTYgOTZMMi43IDI1NmwyMi42IDIyLjYgOTYgOTZMMTQ0IDM5Ny4zIDE4OS4zIDM1MmwtMjIuNi0yMi42TDEyNS4zIDI4OGwyNjEuNSAwLTQxLjQgNDEuNEwzMjIuNyAzNTIgMzY4IDM5Ny4zbDIyLjYtMjIuNiA5Ni05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrows-left-right.svg)
  */
 const ArrowsLeftRight: typeof Icon = x => (
     <Icon {...x}>

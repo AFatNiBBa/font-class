@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message?s=light message}
- * @preview ![message](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDM4NGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDQ4IDk4LjEtNzMuNmM1LjUtNC4yIDEyLjMtNi40IDE5LjItNi40TDQ0OCAzODRjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0yODhjMC0xNy43LTE0LjMtMzItMzItMzJMNjQgMzJDNDYuMyAzMiAzMiA0Ni4zIDMyIDY0bDAgMjg4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDk2IDB6TTAgNjRDMCAyOC43IDI4LjcgMCA2NCAwTDQ0OCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjg4YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0xMzguNyAwTDE4NS42IDUwOC44Yy00LjggMy42LTExLjMgNC4yLTE2LjggMS41cy04LjgtOC4yLTguOC0xNC4zbDAtNDggMC0zMi0zMiAwLTY0IDBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![message](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/message.svg)
  */
 const Message: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-chimney-crack` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-crack?s=solid house-chimney-crack}
- * @preview ![house-chimney-crack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc1LjggMjU1LjVjMCAxOC0xNSAzMi4xLTMyIDMyLjFsLTMyIDAgLjcgMTYwLjJjLjIgMzUuNS0yOC41IDY0LjMtNjQgNjQuM2wtMTIyLjEgMEwyODggNDQ4bDgwLjgtNjcuM2M3LjgtNi41IDcuNi0xOC42LS40LTI0LjlMMjUwLjYgMjYzLjJjLTE0LjYtMTEuNS0zMy44IDctMjIuOCAyMkwyODggMzY4bC04NS41IDcxLjJjLTYuMSA1LTcuNSAxMy44LTMuNSAyMC41TDIzMC40IDUxMmwtMTAyLjMgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0xNjAuNC0zMiAwYy0xOCAwLTMyLTE0LTMyLTMyLjFjMC05IDMtMTcgMTAtMjRMMjY2LjQgOGM3LTcgMTUtOCAyMi04czE1IDIgMjEgN0w0MTYgMTAwLjcgNDE2IDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDMyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxMjEgNTIuOCA0Ni40YzggNyAxMiAxNSAxMSAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![house-chimney-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-chimney-crack.svg)
  */
 const HouseChimneyCrack: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `left-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-right?s=sharp-thin left-right}
- * @preview ![left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMyMGwwLTE2IDE2IDAgMTYwIDAgMTYgMCAwIDE2IDAgNDggMCAxNiAxNiAwIDE2IDBMNTAwLjcgMjY3LjMgNTEyIDI1NmwtMTEuMy0xMS4zTDM4NCAxMjhsLTE2IDAtMTYgMCAwIDE2IDAgNDggMCAxNi0xNiAwLTE2MCAwLTE2IDAgMC0xNiAwLTQ4IDAtMTYtMTYgMC0xNiAwTDExLjMgMjQ0LjcgMCAyNTZsMTEuMyAxMS4zTDEyOCAzODRsMTYgMCAxNiAwIDAtMTYgMC00OHptLTE2IDQ4bC05LjQgMEwyMi42IDI1NmwxMTItMTEyIDkuNCAwIDAgNjQgMCAxNiAxNiAwIDE5MiAwIDE2IDAgMC0xNiAwLTY0IDkuNCAwIDExMiAxMTItMTEyIDExMi05LjQgMCAwLTY0IDAtMTYtMTYgMC0xOTIgMC0xNiAwIDAgMTYgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/left-right.svg)
  */
 const LeftRight: typeof Icon = x => (
     <Icon {...x}>

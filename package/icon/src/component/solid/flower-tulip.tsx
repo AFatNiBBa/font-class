@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flower-tulip` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flower-tulip?s=solid flower-tulip}
- * @preview ![flower-tulip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNDRsMCA4NGMwIDcwLjcgNTcuMyAxMjggMTI4IDEyOGwwIDEzOC44QzE5Mi4xIDM0OS41IDEzOS41IDMyMCA4MCAzMjBsLTUwLjUgMEMxMy4yIDMyMCAwIDMzMy4yIDAgMzQ5LjVDMCA0MzkuMyA3Mi43IDUxMiAxNjIuNSA1MTJsNjEuNSAwIDMyIDAgMzIgMCA2MS41IDBDNDM5LjMgNTEyIDUxMiA0MzkuMyA1MTIgMzQ5LjVjMC0xNi4zLTEzLjItMjkuNS0yOS41LTI5LjVMNDMyIDMyMGMtNTkuNSAwLTExMi4xIDI5LjUtMTQ0IDc0LjhMMjg4IDI1NmM3MC43IDAgMTI4LTU3LjMgMTI4LTEyOGwwLTg0YzAtNi42LTUuNC0xMi0xMi0xMmMtMi42IDAtNS4xIC44LTcuMiAyLjRMMzM2IDgwIDI2OC44IDUuM2MtMy0zLjQtNy40LTUuMy0xMS45LTUuM2wtMS43IDBjLTQuNSAwLTguOSAxLjktMTEuOSA1LjNMMTc2IDgwIDExNS4yIDM0LjRjLTIuMS0xLjYtNC42LTIuNC03LjItMi40Yy02LjYgMC0xMiA1LjQtMTIgMTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![flower-tulip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/flower-tulip.svg)
  */
 const FlowerTulip: typeof Icon = x => (
     <Icon {...x}>

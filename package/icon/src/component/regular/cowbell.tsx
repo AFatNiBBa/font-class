@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cowbell` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cowbell?s=regular cowbell}
- * @preview ![cowbell](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDQ4bDk2IDAgMCA0OC05NiAwIDAtNDh6bS00OC04bDAgNTYtMTYgMGMtMjEuNCAwLTQwLjMgMTQuMi00Ni4yIDM0LjhsLTY0IDIyNGMtNC4xIDE0LjUtMS4yIDMwLjEgNy44IDQyLjFTMzIuOSA0MTYgNDggNDE2bDM1MiAwYzE1LjEgMCAyOS4zLTcuMSAzOC4zLTE5LjFzMTItMjcuNiA3LjgtNDIuMWwtNjQtMjI0QzM3Ni4zIDExMC4yIDM1Ny40IDk2IDMzNiA5NmwtMTYgMCAwLTU2YzAtMjIuMS0xNy45LTQwLTQwLTQwTDE2OCAwYy0yMi4xIDAtNDAgMTcuOS00MCA0MHpNMTEyIDE0NGwyMjQgMCA2NCAyMjRMNDggMzY4bDY0LTIyNHpNMjg4IDQ0OGwtMTI4IDBjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cowbell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cowbell.svg)
  */
 const Cowbell: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

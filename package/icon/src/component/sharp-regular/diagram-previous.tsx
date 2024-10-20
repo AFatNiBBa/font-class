@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-previous` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-previous?s=sharp-regular diagram-previous}
- * @preview ![diagram-previous](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDMzNkw0OCAzMzZsMCA5NiA0MTYgMCAwLTk2em00OC00OGwwIDQ4IDAgOTYgMCA0OC00OCAwTDQ4IDQ4MCAwIDQ4MGwwLTQ4IDAtOTYgMC00OCA0OCAwIDE4NCAwIDAtODYuMS0yMyAyMy0xNyAxN0wxNTguMSAyMDhsMTctMTcgNjQtNjQgMTctMTcgMTcgMTcgNjQgNjQgMTcgMTdMMzIwIDI0MS45bC0xNy0xNy0yMy0yMyAwIDg2LjEgMTg0IDAgNDggMHpNOTYuOCAyMjRMMCAyMjQgMCAzMmw1MTIgMCAwIDE5Mi05Ni44IDAtMzkuNi0zOS42LTgwLTgwTDI1NiA2NC44bC0zOS42IDM5LjYtODAgODBMOTYuOCAyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![diagram-previous](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/diagram-previous.svg)
  */
 const DiagramPrevious: typeof Icon = x => (
     <Icon {...x}>

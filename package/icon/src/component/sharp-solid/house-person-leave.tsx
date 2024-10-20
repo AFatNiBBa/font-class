@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-person-leave` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-person-leave?s=sharp-solid house-person-leave}
- * @preview ![house-person-leave](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc1LjcgMTE3LjZMMjQwIDAgMCAyMDhsMCA0OCA2NCAwIDAgMTYwIDI1My41IDAgNDQtNDRMMzg0IDMxNS43bDMuOS05LjctOS43LTMuMi02MC43LTIwLjJMMjg3IDI3Mi41bDEwLjEtMzAuNCAzMC42LTkxLjcgNC41LTEzLjQgMTIuOS01LjcgMzAuNi0xMy42ek0xMjggMTkybDk2IDAgMCA5Ni05NiAwIDAtOTZ6TTUyOCA5NmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bS03NS43IDMwLjZsLTkuMyA0LjEtNzIgMzItMTIuOSA1LjctNC41IDEzLjQtMTYgNDgtMTAuMSAzMC40IDYwLjcgMjAuMiAxMC4xLTMwLjQgMTEuNS0zNC42IDM2LjctMTYuMy0xNyA2My42Yy01LjYgMjEuMS0uMSA0My42IDE0LjcgNTkuN2w3MC45IDc3LjQgMjIgODAuNSA4LjQgMzAuOSA2MS43LTE2LjgtOC40LTMwLjktMjQtODgtMi03LjUtNS4yLTUuNy01Mi4zLTU3IDE4LjQtNjIuNCAxMy43IDI3LjQgNC44IDkuNSA5LjUgNC44IDQ4IDI0IDI4LjYtNTcuMi0zOC41LTE5LjItMzUuMi03MC41LTctMTQtMTUuMy0zLjEtODAtMTYtMTAtMnptLTM4LjYgMjA5bC0yNSA2Mi40LTQzLjQgNDMuNEwzMjIuNyA0NjQgMzY4IDUwOS4zbDIyLjYtMjIuNiA0OC00OCA0LjYtNC42IDIuNC02LjEgMTUuNy0zOS4zLTQwLjctNDQuNGMtMi41LTIuNy00LjgtNS42LTctOC42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-person-leave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house-person-leave.svg)
  */
 const HousePersonLeave: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

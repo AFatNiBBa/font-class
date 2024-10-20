@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `handshake-angle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-angle?s=solid handshake-angle}
- * @preview ![handshake-angle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDI0OGwwIDMuMyA2OS43LTY5LjdjMjEuOS0yMS45IDIxLjktNTcuMyAwLTc5LjJMNTM1LjYgMjQuNGMtMjEuOS0yMS45LTU3LjMtMjEuOS03OS4yIDBMNDE2LjMgNjQuNWMtMi43LS4zLTUuNS0uNS04LjMtLjVMMjk2IDY0Yy0zNy4xIDAtNjcuNiAyOC03MS42IDY0bC0uNCAwIDAgMTIwYzAgMjIuMSAxNy45IDQwIDQwIDQwczQwLTE3LjkgNDAtNDBsMC03MmMwIDAgMC0uMSAwLS4xbDAtMTUuOSAxNiAwIDEzNiAwYzAgMCAwIDAgLjEgMGw3LjkgMGM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDh6TTMzNiAxOTJsMCA1NmMwIDM5LjgtMzIuMiA3Mi03MiA3MnMtNzItMzIuMi03Mi03MmwwLTExOC42Yy0zNS45IDYuMi02NS44IDMyLjMtNzYgNjguMkw5OS41IDI1NS4yIDI2LjMgMzI4LjRjLTIxLjkgMjEuOS0yMS45IDU3LjMgMCA3OS4ybDc4LjEgNzguMWMyMS45IDIxLjkgNTcuMyAyMS45IDc5LjIgMGwzNy43LTM3LjdjLjkgMCAxLjggLjEgMi43IC4xbDE2MCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4YzAtNS42LTEtMTEtMi43LTE2bDIuNyAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4YzAtMTIuOC01LTI0LjQtMTMuMi0zM2MyNS43LTUgNDUuMS0yNy42IDQ1LjItNTQuOGwwLS40Yy0uMS0zMC44LTI1LjEtNTUuOC01Ni01NS44YzAgMCAwIDAgMCAwbC0xMjAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![handshake-angle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/handshake-angle.svg)
  */
 const HandshakeAngle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

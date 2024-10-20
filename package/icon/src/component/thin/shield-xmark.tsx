@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-xmark?s=thin shield-xmark}
- * @preview ![shield-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM3LjMgMjIuNmMxMi01LjEgMjUuNS01LjEgMzcuNSAwbDE3Ni43IDc1YzE2LjYgNy4xIDI4LjYgMjMuMiAyOC41IDQyLjRjLS41IDk2LjYtNDAuMyAyNzAuMi0yMDQuNSAzNDguOGMtMTIuMyA1LjktMjYuNyA1LjktMzkgMEM3Mi4zIDQxMC4xIDMyLjUgMjM2LjUgMzIgMTM5LjljLS4xLTE5LjEgMTEuOS0zNS4zIDI4LjUtNDIuNGwxNzYuNy03NXpNMjgxIDcuOGMtMTYtNi44LTM0LTYuOC01MCAwTDU0LjMgODIuOGMtMjIgOS4zLTM4LjQgMzEtMzguMyA1Ny4yYy41IDk5LjIgNDEuMyAyODAuNyAyMTMuNiAzNjMuMmMxNi43IDggMzYuMSA4IDUyLjggMEM0NTQuOCA0MjAuNyA0OTUuNSAyMzkuMiA0OTYgMTQwYy4xLTI2LjItMTYuMy00Ny45LTM4LjMtNTcuMkwyODEgNy44ek0xNzguMyAxNzguM2MtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM0wyNDQuNyAyNTZsLTY2LjMgNjYuM2MtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMEwyNTYgMjY3LjNsNjYuMyA2Ni4zYzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBzMy4xLTguMiAwLTExLjNMMjY3LjMgMjU2bDY2LjMtNjYuM2MzLjEtMy4xIDMuMS04LjIgMC0xMS4zcy04LjItMy4xLTExLjMgMEwyNTYgMjQ0LjdsLTY2LjMtNjYuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shield-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shield-xmark.svg)
  */
 const ShieldXmark: typeof Icon = x => (
     <Icon {...x}>

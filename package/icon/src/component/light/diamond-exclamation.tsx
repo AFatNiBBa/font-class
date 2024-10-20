@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diamond-exclamation` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond-exclamation?s=light diamond-exclamation}
- * @preview ![diamond-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYxLjcgMzQuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMGwtMjE2IDIxNmMtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM2wyMTYgMjE2YzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBsMjE2LTIxNmMzLjEtMy4xIDMuMS04LjIgMC0xMS4zbC0yMTYtMjE2ek0yMjcuNyAxMS43YzE1LjYtMTUuNiA0MC45LTE1LjYgNTYuNiAwbDIxNiAyMTZjMTUuNiAxNS42IDE1LjYgNDAuOSAwIDU2LjZsLTIxNiAyMTZjLTE1LjYgMTUuNi00MC45IDE1LjYtNTYuNiAwbC0yMTYtMjE2Yy0xNS42LTE1LjYtMTUuNi00MC45IDAtNTYuNmwyMTYtMjE2ek0yNTYgMTI4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDEyOGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTEyOGMwLTguOCA3LjItMTYgMTYtMTZ6TTIzMiAzNTJhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![diamond-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/diamond-exclamation.svg)
  */
 const DiamondExclamation: typeof Icon = x => (
     <Icon {...x}>

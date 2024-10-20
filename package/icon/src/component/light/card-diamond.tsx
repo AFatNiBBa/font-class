@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `card-diamond` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-diamond?s=light card-diamond}
- * @preview ![card-diamond](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDNDYuMyAzMiAzMiA0Ni4zIDMyIDY0bDAgMzg0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDI1NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzg0YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDMyek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDM4NGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6bTIwMy4zIDg0LjdsOTYgOTZjNi4yIDYuMiA2LjIgMTYuNCAwIDIyLjZsLTk2IDk2Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMGwtOTYtOTZjLTYuMi02LjItNi4yLTE2LjQgMC0yMi42bDk2LTk2YzYuMi02LjIgMTYuNC02LjIgMjIuNiAwek0xOTIgMzI5LjRMMjY1LjQgMjU2IDE5MiAxODIuNiAxMTguNiAyNTYgMTkyIDMyOS40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![card-diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/card-diamond.svg)
  */
 const CardDiamond: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

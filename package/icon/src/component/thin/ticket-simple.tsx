@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ticket-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ticket-simple?s=thin ticket-simple}
- * @preview ![ticket-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMjhDMCA5Mi43IDI4LjcgNjQgNjQgNjRsNDQ4IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCA3Mi42YzAgNC0yLjkgNy40LTYuOSA3LjlDNTQ1LjkgMjExLjggNTI4IDIzMS44IDUyOCAyNTZzMTcuOSA0NC4yIDQxLjEgNDcuNWMzLjkgLjYgNi45IDMuOSA2LjkgNy45bDAgNzIuNmMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0NDhjLTM1LjMgMC02NC0yOC43LTY0LTY0bDAtNzIuNmMwLTQgMi45LTcuNCA2LjktNy45QzMwLjEgMzAwLjIgNDggMjgwLjIgNDggMjU2cy0xNy45LTQ0LjItNDEuMS00Ny41Yy0zLjktLjYtNi45LTMuOS02LjktNy45TDAgMTI4ek02NCA4MGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCA2NmMyNy42IDcuMSA0OCAzMi4yIDQ4IDYycy0yMC40IDU0LjktNDggNjJsMCA2NmMwIDI2LjUgMjEuNSA0OCA0OCA0OGw0NDggMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTY2Yy0yNy42LTcuMS00OC0zMi4yLTQ4LTYyczIwLjQtNTQuOSA0OC02MmwwLTY2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ticket-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ticket-simple.svg)
  */
 const TicketSimple: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jar` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jar?s=thin jar}
- * @preview ![jar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMTZjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDMyIDE5MiAwIDAtMzJjMC04LjgtNy4yLTE2LTE2LTE2TDgwIDE2ek00OCA2NmwwLTIgMC0zMkM0OCAxNC4zIDYyLjMgMCA4MCAwTDI0MCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzIgMCAyYzI3LjYgNy4xIDQ4IDMyLjIgNDggNjJsMCAzMjBjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDEyOEMwIDk4LjIgMjAuNCA3My4xIDQ4IDY2ek0yNTYgODBMNjQgODBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgNjQgMjg4IDAgMC02NGMwLTI2LjUtMjEuNS00OC00OC00OHpNMTYgMzY4bDI4OCAwIDAtMTYwTDE2IDIwOGwwIDE2MHptMCAxNmwwIDY0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDE5MiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtNjRMMTYgMzg0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![jar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/jar.svg)
  */
 const Jar: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

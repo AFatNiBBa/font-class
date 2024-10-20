@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `memory` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memory?s=sharp-regular memory}
- * @preview ![memory](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMTJMMCA2NGw0OCAwIDQ4MCAwIDQ4IDAgMCA0OCAwIDUwLjdjLTE4LjYgNi42LTMyIDI0LjQtMzIgNDUuM3MxMy40IDM4LjcgMzIgNDUuM0w1NzYgNDAwbDAgNDgtNDggMEw0OCA0NDggMCA0NDhsMC00OEwwIDI1My4zYzE4LjYtNi42IDMyLTI0LjQgMzItNDUuM3MtMTMuNC0zOC43LTMyLTQ1LjNMMCAxMTJ6bTQ4IDI0LjVDNjcuNiAxNTQgODAgMTc5LjUgODAgMjA4cy0xMi40IDU0LTMyIDcxLjVMNDggMzA0bDQ4MCAwIDAtMjQuNWMtMTkuNi0xNy42LTMyLTQzLjEtMzItNzEuNXMxMi40LTU0IDMyLTcxLjVsMC0yNC41TDQ4IDExMmwwIDI0LjV6TTUyOCAzNTJMNDggMzUybDAgNDggNTYgMCAwLTI0IDQ4IDAgMCAyNCAzMiAwIDAtMjQgNDggMCAwIDI0IDMyIDAgMC0yNCA0OCAwIDAgMjQgMzIgMCAwLTI0IDQ4IDAgMCAyNCAzMiAwIDAtMjQgNDggMCAwIDI0IDU2IDAgMC00OHpNMTkyIDE0NGwwIDI0IDAgODAgMCAyNC00OCAwIDAtMjQgMC04MCAwLTI0IDQ4IDB6bTEyMCAwbDAgMjQgMCA4MCAwIDI0LTQ4IDAgMC0yNCAwLTgwIDAtMjQgNDggMHptMTIwIDBsMCAyNCAwIDgwIDAgMjQtNDggMCAwLTI0IDAtODAgMC0yNCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![memory](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/memory.svg)
  */
 const Memory: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

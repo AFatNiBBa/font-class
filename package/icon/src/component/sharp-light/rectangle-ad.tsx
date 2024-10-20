@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-ad` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-ad?s=sharp-light rectangle-ad}
- * @preview ![rectangle-ad](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgNTEyIDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCA1MTIgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnpNMzM2IDI4MGE0MCA0MCAwIDEgMCA4MCAwIDQwIDQwIDAgMSAwIC04MCAwem00MC03MmMxNC44IDAgMjguNiA0LjUgNDAgMTIuMWwwLTQ0LjEgMC0xNiAzMiAwIDAgMTYgMCAxMDQgMCA1NiAwIDE2LTMyIDAgMC0xMi4xYy0xMS40IDcuNy0yNS4yIDEyLjEtNDAgMTIuMWMtMzkuOCAwLTcyLTMyLjItNzItNzJzMzIuMi03MiA3Mi03MnpNMTg2LjYgMTYwbDEwLjUgMCA1LjkgMCAxMC41IDAgNC4yIDkuN0wyOTYuMyAzNTJsLTM0LjkgMC0xMy44LTMyLTk0LjUgLjUtMSAwTDEzOC41IDM1MmwtMzQuOSAwIDc4LjctMTgyLjMgNC4yLTkuN3pNMTY2IDI4OC40bDY3LjktLjNMMjAwIDIwOS42bC0zNCA3OC44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rectangle-ad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/rectangle-ad.svg)
  */
 const RectangleAd: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

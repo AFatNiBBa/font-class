@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `objects-align-top` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-top?s=light objects-align-top}
- * @preview ![objects-align-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMEM3LjIgMCAwIDcuMiAwIDE2czcuMiAxNiAxNiAxNmw0ODAgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkwxNiAwek0xNzYgMTYwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDI4OGMwIDguOC03LjIgMTYtMTYgMTZsLTY0IDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTI4OGMwLTguOCA3LjItMTYgMTYtMTZsNjQgMHptLTY0LTMyYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDI4OGMwIDI2LjUgMjEuNSA0OCA0OCA0OGw2NCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMjg4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC02NCAwem0yODggMzJjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTYwYzAgOC44LTcuMiAxNi0xNiAxNmwtNjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMTYwYzAtOC44IDcuMi0xNiAxNi0xNmw2NCAwem0tNjQtMzJjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMTYwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDY0IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNjBjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![objects-align-top](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/objects-align-top.svg)
  */
 const ObjectsAlignTop: typeof Icon = x => (
     <Icon {...x}>

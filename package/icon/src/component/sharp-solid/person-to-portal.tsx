@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-to-portal` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-to-portal?s=sharp-solid person-to-portal}
- * @preview ![person-to-portal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6TTExNC43IDk2TDEyOCA5Nmw2NCAwIDYuMiAwIDUuNyAyLjMgODAgMzIgMTEuMyA0LjUgNS40IDEwLjlMMzM5LjggMjI0bDEyLjggMEMzNTcuNSA5Ny43IDM5MS4yIDAgNDMyIDBjNDQuMiAwIDgwIDExNC42IDgwIDI1NnMtMzUuOCAyNTYtODAgMjU2Yy00MC44IDAtNzQuNS05Ny43LTc5LjQtMjI0TDMyMCAyODhsLTE5LjggMC04LjgtMTcuNy0yNC4zLTQ4LjZMMjM4IDI5OSAzMDUgMzQwLjlsMjAuNCAxMi44LTYuNiAyMy4yLTE2IDU2LTE2IDU2TDI4MC4xIDUxMmwtNjYuNiAwIDExLjctNDAuOCAxNi01NiA5LjQtMzIuOC04Ni4yLTUzLjljLTI1LjEtMTUuNy0zNi4xLTQ2LjUtMjYuOC03NC41bDMxLjMtOTQtMjcuNyAwLTM4LjYgMzguNkw4MCAyMjEuMyAzNC43IDE3NmwyMi42LTIyLjYgNDgtNDggOS40LTkuNHpNOTEuMiAzNTJsMTguMy00MS4zYzcuNCAxOC4xIDIwLjQgMzMuOSAzNy45IDQ0LjlsOS41IDZMMTQxLjIgMzk3bC04LjQgMTlMMTEyIDQxNmwtODAgMEwwIDQxNmwwLTY0IDMyIDAgNTkuMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-to-portal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-to-portal.svg)
  */
 const PersonToPortal: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-scatter-3d` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-scatter-3d?s=sharp-light chart-scatter-3d}
- * @preview ![chart-scatter-3d](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDI4MC42TDI3MiA0OGwwLTE2LTMyIDAgMCAxNiAwIDIzMi42TDM3LjcgNDUxLjggMjUuNSA0NjIuMWwyMC43IDI0LjQgMTIuMi0xMC4zTDI1NiAzMDkgNDUzLjcgNDc2LjJsMTIuMiAxMC4zIDIwLjctMjQuNC0xMi4yLTEwLjNMMjcyIDI4MC42ek01NiA0MEw4IDQwIDggODhsNDggMCAwLTQ4ek04IDIzMmwwIDQ4IDQ4IDAgMC00OEw4IDIzMnptMTQ0LTk2bC00OCAwIDAgNDggNDggMCAwLTQ4em0zMDQgMGwwIDQ4IDQ4IDAgMC00OC00OCAwek00MDggNDBsLTQ4IDAgMCA0OCA0OCAwIDAtNDh6TTM2MCAyMzJsMCA0OCA0OCAwIDAtNDgtNDggMHpNMjgwIDQ3MmwwLTQ4LTQ4IDAgMCA0OCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-scatter-3d](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chart-scatter-3d.svg)
  */
 const ChartScatter_3d: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spinner-scale` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-scale?s=sharp-solid spinner-scale}
- * @preview ![spinner-scale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA4IDEybDAgNTJjMCAyOC43LTIzLjMgNTItNTIgNTJzLTUyLTIzLjMtNTItNTJsMC01MiAxMDQgMHpNMjU2IDQxNmMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyLTY0IDAgMC0zMmMwLTE3LjcgMTQuMy0zMiAzMi0zMnpNNDgwIDI4OGwtMzIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmwzMiAwIDAgNjR6TTk2IDI1NmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMzIgMCAwLTY0IDMyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJ6TTM5MS44IDQxTDQ3MSAxMjAuMmwtMzkuNiAzOS42Yy0yMS45IDIxLjktNTcuMyAyMS45LTc5LjIgMHMtMjEuOS01Ny4zIDAtNzkuMkwzOTEuOCA0MXpNMTQyLjkgMzY5LjFjMTIuNSAxMi41IDEyLjUgMzIuOCAwIDQ1LjNMMTIwLjIgNDM3IDc1IDM5MS44bDIyLjYtMjIuNmMxMi41LTEyLjUgMzIuOC0xMi41IDQ1LjMgMHpNMzkxLjggNDM3bC0yMi42LTIyLjZjLTEyLjUtMTIuNS0xMi41LTMyLjggMC00NS4zczMyLjgtMTIuNSA0NS4zIDBMNDM3IDM5MS44IDM5MS44IDQzN3pNMTU0LjIgMTU0LjJjLTE4LjcgMTguNy00OS4xIDE4LjctNjcuOSAwTDUyLjQgMTIwLjJsNjcuOS02Ny45IDMzLjkgMzMuOWMxOC43IDE4LjcgMTguNyA0OS4xIDAgNjcuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![spinner-scale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/spinner-scale.svg)
  */
 const SpinnerScale: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `children` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/children?s=sharp-light children}
- * @preview ![children](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg4LjYgNjRhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptLTk2IDBhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAwem0tMjQgMzM2bC0yMC45IDAgNS40LTIwLjIgNDEuNS0xNTRMMjUuMSAzMTMuOSAwIDI5NC4xbDEwMC45LTEyOCA0LjgtNi4xIDYuNiAwIDEuMiAwIDExLjEgMCA2NCAwIDExLjEgMCAxLjIgMCA2LjYgMCA0LjggNi4xIDEwMC45IDEyOEwyODggMzEzLjlsLTY5LjUtODguMSA0MS41IDE1NCA1LjQgMjAuMi0yMC45IDAtMjQgMCAwIDk2IDAgMTYtMzIgMCAwLTE2IDAtOTYtNjQgMCAwIDk2IDAgMTYtMzIgMCAwLTE2IDAtOTYtMjQgMHptNjguMy0yMDhMODkuNCAzNjhsMTM0LjIgMEwxNzYuMyAxOTJsLTM5LjUgMHpNNDc2LjYgOTZhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0em0wLTk2YTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4ek00MDIuMSAxNjBsOSAwIDEzMSAwIDkgMCA0LjcgNy42IDc4LjUgMTI4LTI3LjMgMTYuNy01MC40LTgyLjEgMCAyNjUuOCAwIDE2LTMyIDAgMC0xNiAwLTExMi05NiAwIDAgMTEyIDAgMTYtMzIgMCAwLTE2IDAtMjY1LjgtNTAuNCA4Mi4xLTI3LjMtMTYuNyA3OC41LTEyOCA0LjctNy42em0xMjIuNSA0MGwwLTgtOTYgMCAwIDggMCAxNTIgOTYgMCAwLTE1MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![children](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/children.svg)
  */
 const Children: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

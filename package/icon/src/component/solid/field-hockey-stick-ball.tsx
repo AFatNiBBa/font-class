@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `field-hockey-stick-ball` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/field-hockey-stick-ball?s=solid field-hockey-stick-ball}
- * @preview ![field-hockey-stick-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDkxLjIgOC41YzIxLjggMTUuMSAyNy4zIDQ1IDEyLjIgNjYuOGwtNTIuMiA3NS41TDM3MS4zIDk3LjVsNTMuMS03Ni44YzE1LjEtMjEuOCA0NS0yNy4zIDY2LjgtMTIuMnpNMzUzLjEgMTIzLjlMNDMzIDE3Ny4yIDI0MSA0NTQuOWMtMjQuNiAzNS41LTY0LjkgNTYuOC0xMDguMSA1Ni45QzU5LjUgNTEyIC4xIDQ1Mi4zIC42IDM3OC45bDAtMi4yYy4yLTI1LjcgNy44LTUwLjggMjEuOC03Mi40bDE3LjMtMjYuNWMxNC41LTIyLjIgNDQuMi0yOC40IDY2LjQtMTMuOXMyOC40IDQ0LjIgMTMuOSA2Ni40bC0xNy4zIDI2LjVjLTQgNi4xLTYuMiAxMy4zLTYuMiAyMC42bDAgMi4yYy0uMSAyMCAxNiAzNi4yIDM2IDM2LjFjMTEuNyAwIDIyLjctNS44IDI5LjQtMTUuNUwzNTMuMSAxMjMuOXpNNDMyIDM1MmE4MCA4MCAwIDEgMSAwIDE2MCA4MCA4MCAwIDEgMSAwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![field-hockey-stick-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/field-hockey-stick-ball.svg)
  */
 const FieldHockeyStickBall: typeof Icon = x => (
     <Icon {...x}>

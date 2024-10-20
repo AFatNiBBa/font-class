@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cassette-betamax` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-betamax?s=light cassette-betamax}
- * @preview ![cassette-betamax](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTYwbDAgMjU2YzAgMTcuNyAxNC4zIDMyIDMyIDMybDQ0OCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMjU2TDMyIDE2MHptMC0zMmw1MTIgMCAwLTMyYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDY0QzQ2LjMgNjQgMzIgNzguMyAzMiA5NmwwIDMyek01NzYgOTZsMCAzMiAwIDE2IDAgMTYgMCAyNTZjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNDgwYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDE2MGwwLTE2IDAtMTZMMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmw0NDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NHpNMjQwIDMwNGE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6TTgwIDMwNGE5NiA5NiAwIDEgMSAxOTIgMEE5NiA5NiAwIDEgMSA4MCAzMDR6bTcyIDBhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHptMjAwLTQ4bDAgOTYgOTYgMCAwLTk2LTk2IDB6bS0zMiAwYzAtMTcuNyAxNC4zLTMyIDMyLTMybDk2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA5NmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtOTYgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cassette-betamax](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cassette-betamax.svg)
  */
 const CassetteBetamax: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

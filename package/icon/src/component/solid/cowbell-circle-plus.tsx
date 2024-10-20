@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cowbell-circle-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cowbell-circle-plus?s=solid cowbell-circle-plus}
- * @preview ![cowbell-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDk2bDE2IDAgMC01NmMwLTIyLjEgMTcuOS00MCA0MC00MEwyODAgMGMyMi4xIDAgNDAgMTcuOSA0MCA0MGwwIDU2IDE2IDBjMjEuNCAwIDQwLjMgMTQuMiA0Ni4yIDM0LjhsMTguMyA2NEMzMTguMyAyMDkuNyAyNTYgMjgxLjYgMjU2IDM2OGMwIDE2LjYgMi4zIDMyLjcgNi42IDQ4TDQ4IDQxNmMtMTUuMSAwLTI5LjMtNy4xLTM4LjMtMTkuMXMtMTItMjcuNi03LjgtNDIuMWw2NC0yMjRDNzEuNyAxMTAuMiA5MC42IDk2IDExMiA5NnpNMjg1LjUgNDY1LjZDMjc3LjkgNDkyLjQgMjUzLjIgNTEyIDIyNCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0bDExNS4yIDBjMy4xIDYuMSA2LjYgMTIgMTAuMyAxNy42ek0yNzIgOTZsMC00OC05NiAwIDAgNDggOTYgMHpNNDMyIDIyNGExNDQgMTQ0IDAgMSAxIDAgMjg4IDE0NCAxNDQgMCAxIDEgMC0yODh6bTE2IDgwYzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgNDgtNDggMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmw0OCAwIDAgNDhjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTQ4IDQ4IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTQ4IDAgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cowbell-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cowbell-circle-plus.svg)
  */
 const CowbellCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bread-slice` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-slice?s=regular bread-slice}
- * @preview ![bread-slice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjA4Yy04LjggMC0xNi03LjItMTYtMTZjMC0zNC41IDI0LjYtNjIuMyA3NC45LTgzLjlDMTcxLjggODcuMiAyMjkuMiA4MCAyNTYgODBzODQuMiA3LjIgMTMzLjEgMjguMUM0MzkuNCAxMjkuNyA0NjQgMTU3LjUgNDY0IDE5MmMwIDguOC03LjIgMTYtMTYgMTZjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMTc2LTI4OCAwIDAtMTc2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4em0zODQgOTZsMC00OGMzNS4zIDAgNjQtMjguNyA2NC02NEM1MTIgNjQgMzIwIDMyIDI1NiAzMlMwIDY0IDAgMTkyYzAgMzUuMyAyOC43IDY0IDY0IDY0bDAgNDggMCAxMjhjMCAyNi41IDIxLjUgNDggNDggNDhsMjg4IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bread-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bread-slice.svg)
  */
 const BreadSlice: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lighthouse` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lighthouse?s=sharp-regular lighthouse}
- * @preview ![lighthouse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDE2MGwtNDggMC05NiAwLTQ4IDAtOCAwLTI0IDAgMCA0OCAyMy4zIDBMMTY4LjcgNDY0IDE1MiA0NjRsLTI0IDAgMCA0OCAyNCAwIDEzNiAwIDY0IDAgMTM2IDAgMjQgMCAwLTQ4LTI0IDAtMTYuNyAwTDQyNC43IDIwOGwyMy4zIDAgMC00OC0yNCAwLTggMHptMC0zMmwwLTI2LjMgMC01LjcgMTYgMCAxNiAwIDAtMzJMNDE2IDQ4IDMyMCAwIDIyNCA0OCAxOTIgNjRsMCAzMiAxNiAwIDE2IDAgMCA1LjcgMCAyNi4zIDQ4IDAgMC0zMiAwLTE4LjMgNDgtMjQgNDggMjRMMzY4IDk2bDAgMzIgNDggMHptLTQ4IDgwbDcuOSAwIDQ2LjUgMjU2TDM1MiA0NjRsMC00OGMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDQ4LTcwLjUgMCA0Ni41LTI1NiA3LjkgMCA5NiAwek0zMy41IDEuOUwxNC42IDQ2LjFsMTEyIDQ4IDIyLjEgOS41IDE4LjktNDQuMS0yMi4xLTkuNS0xMTItNDh6TTE2Ny41IDE5Ni42bC0xOC45LTQ0LjEtMjIuMSA5LjUtMTEyIDQ4IDE4LjkgNDQuMSAxMTItNDggMjIuMS05LjV6bTMyNy0xNDYuN2wtMjIuMSA5LjUgMTguOSA0NC4xIDIyLjEtOS41IDExMi00OEw2MDYuNiAxLjlsLTExMiA0OHptMCAxNTYuMWwxMTIgNDggMTguOS00NC4xLTExMi00OC0yMi4xLTkuNS0xOC45IDQ0LjEgMjIuMSA5LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lighthouse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lighthouse.svg)
  */
 const Lighthouse: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nose` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nose?s=sharp-regular nose}
- * @preview ![nose](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY0LjggMzguNEw0MDAgMzUybDAgMTEyLTg2LjEgMC0xNy0xNy01Ni01Ni03LTctOS45IDAtMzIgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRzMjguNyA2NCA2NCA2NGwyMzIgMCAyNCAwIDAtMjQgMC0xNDQgMC04LTQuOC02LjQtMjQwLTMyMEwxNjQuOCAzOC40ek0yMTQuMSA0MzJsMzIgMzJMMTkyIDQ2NGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwyMi4xIDB6TTE0MSAzMDMuNWwyMy41LTUtMTAuMS00Ni45LTIzLjUgNS0yMi44IDQuOUM0NS4xIDI3NC45IDAgMzMwLjcgMCAzOTUuMmMwIDQwLjYgMTggNzkuMSA0OS4yIDEwNS4xbDcuNCA2LjIgMzAuNy0zNi45LTcuNC02LjJDNTkuNyA0NDYuNSA0OCA0MjEuNSA0OCAzOTUuMmMwLTQxLjkgMjkuMi03OCA3MC4yLTg2LjhsMjIuOC00Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![nose](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/nose.svg)
  */
 const Nose: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

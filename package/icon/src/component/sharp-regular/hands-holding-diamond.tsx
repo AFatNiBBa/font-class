@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hands-holding-diamond` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-diamond?s=sharp-regular hands-holding-diamond}
- * @preview ![hands-holding-diamond](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDI1Nkw0NDggMTI4IDMyMCAwIDE5MiAxMjggMzIwIDI1NnpNMTQ0IDY0bC0yNCAwTDI0IDY0IDAgNjQgMCA4OCAwIDM5MmwwIDkuOSA3IDcgODQuOCA4NC44IDE3IDE3IDMzLjktMzMuOS0xNy0xN0w0OCAzODIuMSA0OCAxMTJsNDggMCAwIDIwMCAwIDkuOSA3IDcgNyA3IDE3IDE3IDQwIDQwIDE2IDE2IDEgMSAxNiAxNkwyMzMuOSAzOTJsLTE2LTE2LTEtMS0xNi0xNi0yMy0yM0wyMDggMzA1LjlsODggODggMCA5NC4xIDAgMjQgMjQgMCAyNCAwIDAtMjQgMC05NC4xIDg4LTg4TDQ2Mi4xIDMzNmwtMjMgMjNjMCAwIDAgMCAwIDBsLTE2IDE2LTE3IDE3TDQ0MCA0MjUuOWwxNy0xNyAxNi0xNmMwIDAgMCAwIDAgMGw0MC00MCAxNy0xNyA3LTcgNy03IDAtOS45IDAtMjAwIDQ4IDAgMCAyNzAuMS03Ny44IDc3LjgtMTcgMTcgMzMuOSAzMy45IDE3LTE3TDYzMyA0MDlsNy03IDAtOS45IDAtMzA0IDAtMjQtMjQgMC05NiAwLTI0IDAgMCAyNCAwIDIxNC4xLTQ3LTQ3LTE3LTE3LTE3IDE3LTk1IDk1LTk1LTk1LTE3LTE3LTE3IDE3LTQ3IDQ3TDE0NCA4OGwwLTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hands-holding-diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hands-holding-diamond.svg)
  */
 const HandsHoldingDiamond: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

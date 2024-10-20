@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bread-loaf` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-loaf?s=solid bread-loaf}
- * @preview ![bread-loaf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxOTJDMCA2NCAxNzYgMzIgMjQwIDMyczI0MCAzMiAyNDAgMTYwYzAgMzUuMy0yOC43IDY0LTY0IDY0bDAgMTc2YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0yNTYgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0xNzZjLTM1LjMgMC02NC0yOC43LTY0LTY0ek0zOTcuNCAzNC45Yy0yLS45LTQuMS0xLjktNi4yLTIuOGMzLjEtLjEgNi0uMiA4LjgtLjJjNjQgMCAyNDAgMzIgMjQwIDE2MGMwIDM1LjMtMjguNyA2NC02NCA2NGwwIDE3NmMwIDI2LjUtMjEuNSA0OC00OCA0OGwtOTYgMGMxMC0xMy40IDE2LTMwIDE2LTQ4bDAtMTQ5LjVjMzcuMy0xMy4yIDY0LTQ4LjcgNjQtOTAuNWMwLTgyLjItNTcuNi0xMzAuNy0xMTQuNi0xNTcuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bread-loaf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bread-loaf.svg)
  */
 const BreadLoaf: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

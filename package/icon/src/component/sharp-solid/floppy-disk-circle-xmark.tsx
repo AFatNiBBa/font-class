@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `floppy-disk-circle-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk-circle-xmark?s=sharp-solid floppy-disk-circle-xmark}
- * @preview ![floppy-disk-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJMMCAzMiAwIDY0IDAgNDQ4bDAgMzIgMzIgMCAyNjQuMiAwYy0xNy42LTIxLjQtMzAuMy00Ni45LTM2LjMtNzVjLTEwLjIgNi45LTIyLjYgMTEtMzUuOSAxMWMtMzUuMyAwLTY0LTI4LjctNjQtNjRzMjguNy02NCA2NC02NGMxNi44IDAgMzIuMSA2LjUgNDMuNiAxNy4xQzI5Mi45IDIzOSAzNTcgMTkyIDQzMiAxOTJjNS40IDAgMTAuNyAuMiAxNiAuN2wwLTMyLjcgMC0xMy4zLTkuNC05LjQtOTYtOTZMMzMzLjMgMzIgMzIwIDMyIDMyIDMyek02NCA5NmwyNTYgMCAwIDEyOEw2NCAyMjQgNjQgOTZ6TTQzMiA1MTJhMTQ0IDE0NCAwIDEgMCAwLTI4OCAxNDQgMTQ0IDAgMSAwIDAgMjg4em01OS4zLTE4MC43TDQ1NC42IDM2OGwzNi43IDM2LjdMNTAyLjYgNDE2IDQ4MCA0MzguNmwtMTEuMy0xMS4zTDQzMiAzOTAuNmwtMzYuNyAzNi43TDM4NCA0MzguNiAzNjEuNCA0MTZsMTEuMy0xMS4zTDQwOS40IDM2OGwtMzYuNy0zNi43TDM2MS40IDMyMCAzODQgMjk3LjRsMTEuMyAxMS4zTDQzMiAzNDUuNGwzNi43LTM2LjdMNDgwIDI5Ny40IDUwMi42IDMyMGwtMTEuMyAxMS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![floppy-disk-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/floppy-disk-circle-xmark.svg)
  */
 const FloppyDiskCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

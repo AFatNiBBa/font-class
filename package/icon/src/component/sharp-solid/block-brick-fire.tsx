@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `block-brick-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-brick-fire?s=sharp-solid block-brick-fire}
- * @preview ![block-brick-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMybDAgODAgMjU2IDAgMC04MEwxMjggMzJ6TTk2IDExMmwwLTgwTDMyIDMybDAgODAgNjQgMHpNMzIgMTQ0bDAgOTYgMjA4IDAgMC05NkwzMiAxNDR6bTAgMjI0bDY0IDAgMC05Ni02NCAwIDAgOTZ6bTAgMzJsMCA4MCAyMDggMCAwLTgwTDMyIDQwMHptMjQwIDBsMCA4MCA2NSAwYy0yMC4yLTIyLjUtMzUuMS00OS44LTQyLjktODBMMjcyIDQwMHpNNDgwIDE0NGwtMi42IDAgMi42IDIuNiAwLTIuNnptLTIwOCAwbDAgOTYgNTEuMiAwYzYuMi05LjggMTIuOS0xOS4xIDE5LjctMjcuN2MyMy0yOC44IDQ5LjUtNTIuMyA3MS40LTY4LjNMMjcyIDE0NHpNMTI4IDI3MmwwIDk2IDE2MC43IDBjLS40LTUuMy0uNy0xMC43LS43LTE2LjJjMC0yOC43IDcuMS01NS41IDE4LTc5LjhsLTE3OCAwek00ODAgMTEybDAtODAtNjQgMCAwIDgwIDY0IDB6bS0zMiA0OGMtNDIuNyAyNi43LTEyOCAxMDIuNC0xMjggMTkyYzAgODguNCA3MS42IDE2MCAxNjAgMTYwczE2MC03MS42IDE2MC0xNjBjMC0yNi43LTE5LjItOTYtOTYtMTYwbC0zMiAzMi02NC02NHptOTYgMjQwLjJjMCAzNS4zLTI4LjcgNjQtNjQgNjRzLTY0LTI4LjctNjQtNjRjMC00OCA2NC05NiA2NC05NnM2NCA0OCA2NCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![block-brick-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/block-brick-fire.svg)
  */
 const BlockBrickFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

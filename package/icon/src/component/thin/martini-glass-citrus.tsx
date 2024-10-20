@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `martini-glass-citrus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/martini-glass-citrus?s=thin martini-glass-citrus}
- * @preview ![martini-glass-citrus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDI3MmMtMjcuNiAwLTUzLjItOC44LTc0LjEtMjMuNmwtMTEuNSAxMS41QzM3MC4zIDI3Ny41IDM5OS45IDI4OCA0MzIgMjg4Yzc5LjUgMCAxNDQtNjQuNSAxNDQtMTQ0UzUxMS41IDAgNDMyIDBDMzY3LjggMCAzMTMuNCA0MiAyOTQuOCAxMDBsMTYuOSAwYzE3LjktNDkgNjUtODQgMTIwLjItODRjNzAuNyAwIDEyOCA1Ny4zIDEyOCAxMjhzLTU3LjMgMTI4LTEyOCAxMjh6TTggMTI4Yy0zLjIgMC02LjIgMS45LTcuNCA0LjlzLS42IDYuNCAxLjcgOC43TDIwMCAzMzkuMyAyMDAgNDk2bC05NiAwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDEwNCAwIDEwNCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC05NiAwIDAtMTU2LjdMNDEzLjcgMTQxLjdjMi4zLTIuMyAzLTUuNyAxLjctOC43cy00LjItNC45LTcuNC00LjlMOCAxMjh6bTM4MC43IDE2TDIwOCAzMjQuNyAyNy4zIDE0NGwzNjEuNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![martini-glass-citrus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/martini-glass-citrus.svg)
  */
 const MartiniGlassCitrus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

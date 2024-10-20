@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `greater-than-equal` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/greater-than-equal?s=regular greater-than-equal}
- * @preview ![greater-than-equal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDcgNzguMmMtMTIuMy01LTE4LjItMTktMTMuMi0zMS4zczE5LTE4LjIgMzEuMy0xMy4ybDMzNiAxMzZjOS4xIDMuNyAxNSAxMi41IDE1IDIyLjJzLTUuOSAxOC42LTE1IDIyLjJMNjUgMzUwLjJjLTEyLjMgNS0yNi4zLTEtMzEuMy0xMy4yczEtMjYuMyAxMy4yLTMxLjNMMzI4IDE5MiA0NyA3OC4yek00MjQgNDMyYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0TDI0IDQ4MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGw0MDAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![greater-than-equal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/greater-than-equal.svg)
  */
 const GreaterThanEqual: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

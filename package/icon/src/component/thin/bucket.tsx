@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bucket` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bucket?s=thin bucket}
- * @preview ![bucket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMTM2bDAgMjRjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC0yNEM2NCA2MC45IDEyNC45IDAgMjAwIDBsNDggMGM3NS4xIDAgMTM2IDYwLjkgMTM2IDEzNmwwIDE2YzAgNC40LTMuNiA4LTggOHMtOC0zLjYtOC04bDAtMTZjMC02Ni4zLTUzLjctMTIwLTEyMC0xMjBsLTQ4IDBDMTMzLjcgMTYgODAgNjkuNyA4MCAxMzZ6TTAgMjAwYzAtNC40IDMuNi04IDgtOGwxNiAwIDE2LjEgMCAzNjcuOCAwIDE2LjEgMCAxNiAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC0xOCAwTDM4OS4zIDQ3MGMtMyAyNC0yMy40IDQyLTQ3LjYgNDJsLTIzNS4zIDBjLTI0LjIgMC00NC42LTE4LTQ3LjYtNDJMMjYgMjA4IDggMjA4Yy00LjQgMC04LTMuNi04LTh6bTQyLjEgOEw3NC42IDQ2OGMyIDE2IDE1LjYgMjggMzEuOCAyOGwyMzUuMyAwYzE2LjEgMCAyOS44LTEyIDMxLjgtMjhsMzIuNS0yNjBMNDIuMSAyMDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bucket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bucket.svg)
  */
 const Bucket: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rocket` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rocket?s=sharp-solid rocket}
- * @preview ![rocket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTExLjkgMzQwLjJsNTguMiA1OC4yczIyLjQtNi44IDUzLjktMTcuN0wyMjQgNTEybDE2MC04MCAwLTEyMGM0LTIuNCA3LjgtNC44IDExLjMtNy4yQzUyNy4xIDIxNS40IDUxOS45IDc4LjMgNTAyLjcgOS4zYy02OC45LTE3LjItMjA2LTI0LjUtMjk1LjQgMTA3LjRjLTIuNCAzLjUtNC44IDcuMy03LjIgMTEuM0w4MCAxMjggMCAyODcuNmwxMjkuOCAuM2MtMTEgMzAuNy0xNy45IDUyLjMtMTcuOSA1Mi4zek0zODQgODhhNDAgNDAgMCAxIDEgMCA4MCA0MCA0MCAwIDEgMSAwLTgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rocket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/rocket.svg)
  */
 const Rocket: typeof Icon = x => (
     <Icon {...x}>

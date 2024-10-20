@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vacuum` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vacuum?s=solid vacuum}
- * @preview ![vacuum](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAxLjYgNjRMNTEyIDY0YzM1LjMgMCA2NCAyOC43IDY0IDY0YzAgMjEuOS0xMSA0MS4yLTI3LjggNTIuOEM1MTMuOCAxNDguMSA0NjcuMiAxMjggNDE2IDEyOGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAxMDBjMTAuMi0yLjYgMjEtNCAzMi00YzcwLjcgMCAxMjggNTcuMyAxMjggMTI4YzAgMzguMi0xNi44IDcyLjUtNDMuMyA5Nmw3NS4zIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xMjhjMC0zMS43LTcuNy02MS43LTIxLjMtODhDNjE5IDIwOC43IDY0MCAxNzAuOCA2NDAgMTI4QzY0MCA1Ny4zIDU4Mi43IDAgNTEyIDBMMzAxLjYgMEMyNDEuMyAwIDE4OS4xIDQyLjIgMTc2LjQgMTAxLjJMMTUwLjEgMjI0bDY1LjUgMEwyMzkgMTE0LjZDMjQ1LjQgODUuMSAyNzEuNCA2NCAzMDEuNiA2NHpNMjA4LjcgMjU2bC02NS41IDBMMTA5IDQxNmwtMjUuMiAwYy0zMy44IDAtNjQuNyAxOC45LTgwIDQ5QzEuNCA0NjkuNSAwIDQ3NC42IDAgNDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDk1LjQgMGMuNCAwIC45IDAgMS4zIDBsNDcuMyAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4cy0yMS41LTQ4LTQ4LTQ4bC0xLjYgMCAzNC4zLTE2MHpNNDgwIDQxNmE5NiA5NiAwIDEgMCAtMTkyIDAgOTYgOTYgMCAxIDAgMTkyIDB6bS0xMjggMGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vacuum](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/vacuum.svg)
  */
 const Vacuum: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

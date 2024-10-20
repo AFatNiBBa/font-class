@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tooth` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tooth?s=sharp-light tooth}
- * @preview ![tooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMyIDY0YzE0LjcgMCAyOSA0LjggNDAuOCAxMy42bDQxLjYgMzEuMiAyMS4zIDE2IDEyLjggOS42IDE5LjItMjUuNi0xMi44LTkuNi01LjQtNCAxNi4zLTEzLjljMTMtMTEuMSAyOS41LTE3LjIgNDYuNi0xNy4yYzM5LjUgMCA3MS42IDMyLjEgNzEuNiA3MS42bDAgM2MwIDExLjYtMi43IDIzLTcuOSAzMy40bC0zMC40IDYwLjktMSAyLjEtLjQgMi4zTDMwNy40IDQ0My42IDI3MS41IDMwMC4xbC0zLTEyLjFMMjU2IDI4OGwtNjQgMC0xMi41IDAtMyAxMi4xTDE0MC42IDQ0My42IDEwMy44IDIzNy4ybC0uNC0yLjMtMS0yLjFMNzEuOSAxNzJjLTUuMi0xMC40LTcuOS0yMS44LTcuOS0zMy40bDAtNi42YzAtMzcuNiAzMC40LTY4IDY4LTY4em05MS4zIDExLjVMMTkyIDUyYy0xNy4zLTEzLTM4LjQtMjAtNjAtMjBDNzYuOCAzMiAzMiA3Ni44IDMyIDEzMmwwIDYuNmMwIDE2LjYgMy45IDMyLjkgMTEuMyA0Ny43bDI5LjQgNTguOCAzOS42IDIyMS43IDIuNCAxMy4yIDEzLjQgMCAyNCAwIDEyLjUgMCAzLTEyLjEgMzctMTQ3LjkgMzkgMCAzNyAxNDcuOSAzIDEyLjEgMTIuNSAwIDI0IDAgMTMuNCAwIDIuNC0xMy4yIDM5LjYtMjIxLjcgMjkuNC01OC44YzcuNC0xNC44IDExLjMtMzEuMSAxMS4zLTQ3LjdsMC0zQzQxNiA3OC40IDM2OS42IDMyIDMxMi40IDMyYy0yNC43IDAtNDguNiA4LjgtNjcuNCAyNC45TDIyMy4zIDc1LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tooth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tooth.svg)
  */
 const Tooth: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

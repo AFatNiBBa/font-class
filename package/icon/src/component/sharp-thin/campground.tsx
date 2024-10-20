@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `campground` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/campground?s=sharp-thin campground}
- * @preview ![campground](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDI3LjNMNDggNDk2bDkyLjEgMEwyODEuNyAzMTUuMWw2LjMtOCA2LjMgOEw0MzUuOSA0OTZsOTIuMSAwIDAtNjguN0wyODggMTQzLjQgNDggNDI3LjN6TTE2MC40IDQ5NkwyODggNDk2bDEyNy42IDBMMjg4IDMzMyAxNjAuNCA0OTZ6TTMzLjkgNDE5LjJMMjc3LjUgMTMxIDE3Ny45IDEzLjIgMTkwLjEgMi44IDI4OCAxMTguNiAzODUuOSAyLjhsMTIuMiAxMC4zTDI5OC41IDEzMSA1NDIuMSA0MTkuMmwxLjkgMi4yIDAgMi45IDAgNzkuNiAwIDgtOCAwLTI0OCAwTDQwIDUxMmwtOCAwIDAtOCAwLTc5LjYgMC0yLjkgMS45LTIuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![campground](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/campground.svg)
  */
 const Campground: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

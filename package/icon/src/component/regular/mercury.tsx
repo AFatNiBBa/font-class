@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mercury` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mercury?s=regular mercury}
- * @preview ![mercury](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzMgNS4zQzgzLjMtMyA5OC40LTEuNCAxMDYuNyA5YzE4LjUgMjMuMSA1MS40IDM4LjkgODQuOSAzOWwuMyAwIC4zIDBjMzMuNS0uMSA2Ni40LTE1LjkgODQuOS0zOUMyODUuNi0xLjQgMzAwLjctMyAzMTEgNS4zczEyIDIzLjQgMy43IDMzLjdjLTkuOSAxMi40LTIyLjIgMjMuMS0zNiAzMS44QzMzMiAxMDEuMSAzNjggMTU4LjMgMzY4IDIyNGMwIDg5LjEtNjYuMiAxNjIuNy0xNTIgMTc0LjRsMCAyNS42IDMyIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTMyIDAgMCAxNmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTE2LTMyIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsMzIgMCAwLTI1LjZDODIuMiAzODYuNyAxNiAzMTMuMSAxNiAyMjRjMC02NS43IDM2LTEyMi45IDg5LjMtMTUzLjJDOTEuNSA2Mi4xIDc5LjIgNTEuNCA2OS4zIDM5QzYxIDI4LjcgNjIuNiAxMy42IDczIDUuM3pNMTkyIDk2bC0uMyAwQzEyMS4xIDk2LjIgNjQgMTUzLjQgNjQgMjI0YzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4czEyOC01Ny4zIDEyOC0xMjhjMC03MC42LTU3LjEtMTI3LjgtMTI3LjctMTI4bC0uMyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mercury](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mercury.svg)
  */
 const Mercury: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

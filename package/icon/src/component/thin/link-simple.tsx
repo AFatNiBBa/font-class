@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-simple?s=thin link-simple}
- * @preview ![link-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZDMCAxNjcuNiA3MS42IDk2IDE2MCA5Nmw4OCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC04OCAwQzgwLjUgMTEyIDE2IDE3Ni41IDE2IDI1NnM2NC41IDE0NCAxNDQgMTQ0bDg4IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTg4IDBDNzEuNiA0MTYgMCAzNDQuNCAwIDI1NnptNTc2IDBjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBsLTg4IDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsODggMGM3OS41IDAgMTQ0LTY0LjUgMTQ0LTE0NHMtNjQuNS0xNDQtMTQ0LTE0NGwtODggMGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGw4OCAwYzg4LjQgMCAxNjAgNzEuNiAxNjAgMTYwem0tNDQwLThsMzA0IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTMwNCAwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![link-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/link-simple.svg)
  */
 const LinkSimple: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

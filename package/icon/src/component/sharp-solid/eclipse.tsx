@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eclipse` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eclipse?s=sharp-solid eclipse}
- * @preview ![eclipse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDczLjFMMTUwIDAgMTI2LjcgMTI2LjcgMCAxNTAgNzMuMSAyNTYgMCAzNjJsMTI2LjcgMjMuM0wxNTAgNTEybDEwNi03My4xTDM2MiA1MTJsMTIuNS02OC4yYy0zMS42LTE1LjEtNTguOC0zNy45LTc5LjItNjZjLTEyLjQgNC0yNS42IDYuMi0zOS40IDYuMmMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhzNTcuMy0xMjggMTI4LTEyOGMxMy43IDAgMjcgMi4yIDM5LjQgNi4yYzIwLjMtMjguMSA0Ny42LTUwLjkgNzkuMi02NkwzNjIgMCAyNTYgNzMuMXpNMjU2IDI1NmMwLTMzLjYgOC02NS40IDIyLjEtOTMuNGMtNy4xLTEuNy0xNC41LTIuNi0yMi4xLTIuNmMtNTMgMC05NiA0My05NiA5NnM0MyA5NiA5NiA5NmM3LjYgMCAxNS0uOSAyMi4xLTIuNkMyNjQgMzIxLjMgMjU2IDI4OS42IDI1NiAyNTZ6TTQ2NCA0MzJhMTc2IDE3NiAwIDEgMCAwLTM1MiAxNzYgMTc2IDAgMSAwIDAgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![eclipse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eclipse.svg)
  */
 const Eclipse: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

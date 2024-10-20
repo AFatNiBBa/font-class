@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-a` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-a?s=sharp-regular square-a}
- * @preview ![square-a](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCAzNTIgMzUyIDAgMC0zNTJMNDggODB6TTAgMzJsNDggMCAzNTIgMCA0OCAwIDAgNDggMCAzNTIgMCA0OC00OCAwTDQ4IDQ4MCAwIDQ4MGwwLTQ4TDAgODAgMCAzMnptMjA4LjggOTZsMzAuNSAwIDYuNSAxMy44TDM1OS40IDM4NGwtNTMgMC0yMi41LTQ4LTExOS43IDAtMjIuNSA0OC01MyAwTDIwMi4zIDE0MS44bDYuNS0xMy44ek0yMjQgMjA4LjVMMTg2LjcgMjg4bDc0LjYgMEwyMjQgMjA4LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-a.svg)
  */
 const SquareA: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

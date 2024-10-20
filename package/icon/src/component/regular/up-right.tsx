@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-right?s=regular up-right}
- * @preview ![up-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDEyOGwwIDE5My40YzAgMS43LS44IDMuMi0yLjEgNC4yYy0yLjEgMS42LTUgMS40LTYuOS0uNUwyNTcgMjcxYy05LjQtOS40LTI0LjYtOS40LTMzLjkgMEw5OC4zIDM5NS43Yy0yLjcgMi43LTYuNSA0LjMtMTAuMyA0LjNzLTcuNi0xLjUtMTAuMy00LjNMNTIuMyAzNzAuM2MtMi43LTIuNy00LjMtNi41LTQuMy0xMC4zczEuNS03LjYgNC4zLTEwLjNMMTc3IDIyNWM5LjQtOS40IDkuNC0yNC42IDAtMzMuOUwxMjIuOSAxMzdjLTEuOC0xLjgtMi4xLTQuOC0uNS02LjljMS0xLjMgMi41LTIuMSA0LjItMi4xTDMyMCAxMjh6bTQ4LThjMC0yMi4xLTE3LjktNDAtNDAtNDBMMTI2LjYgODBjLTE2LjggMC0zMi41IDcuOS00Mi42IDIxLjNjLTE1LjkgMjEuMi0xMy44IDUwLjkgNC45IDY5LjZMMTI2LjEgMjA4IDE4LjMgMzE1LjdDNi42IDMyNy41IDAgMzQzLjQgMCAzNjBzNi42IDMyLjUgMTguMyA0NC4zbDI1LjQgMjUuNEM1NS41IDQ0MS40IDcxLjQgNDQ4IDg4IDQ0OHMzMi41LTYuNiA0NC4zLTE4LjNMMjQwIDMyMS45IDI3Ny4xIDM1OWMxOC43IDE4LjcgNDguNCAyMC44IDY5LjYgNWMxMy40LTEwLjEgMjEuMy0yNS44IDIxLjMtNDIuNkwzNjggMTIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/up-right.svg)
  */
 const UpRight: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `coffee-bean` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-bean?s=sharp-thin coffee-bean}
- * @preview ![coffee-bean](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkxLjkgODguMWMzMi44IDMyLjggNDUuNiA4MC45IDM4IDEzMy45cy0zNS41IDEwOS43LTgyLjggMTU3cy0xMDQgNzUuMi0xNTcgODIuOGMtNDMuNiA2LjItODMuOS0xLjQtMTE1LjEtMjIuNWw2MS40LTExMS42TDMyNi43IDIwMC45bDEuOC0xLjIgMS0xLjlMMzg2LjcgODMuM2MxLjggMS42IDMuNSAzLjIgNS4xIDQuOXptLTE4LTE1TDMxNi4xIDE4OC44IDEyNS44IDMxNS42bC0xLjYgMS4xLS45IDEuN0w2Mi4yIDQyOS41Yy0yLjEtMS44LTQuMS0zLjctNi01LjdjLTMyLjgtMzIuOC00NS42LTgwLjktMzgtMTMzLjlzMzUuNS0xMDkuNyA4Mi44LTE1N3MxMDQtNzUuMiAxNTctODIuOGM0NC02LjMgODQuNyAxLjUgMTE2IDIzLjF6bTcuOC0xNC4xYy03Ny42LTUyLjItMjAyLTI3LjUtMjkyLjEgNjIuNWMtOTkgOTktMTE5IDIzOS40LTQ0LjggMzEzLjZjMy4xIDMgNi4yIDUuOSA5LjUgOC43YzMuOSAzLjIgNy45IDYuMyAxMi4xIDkuMWMuMyAuMiAuNiAuNCAuOSAuNmM3Ny42IDUxLjUgMjAxLjQgMjYuNiAyOTEuMi02My4xYzk5LTk5IDExOS0yMzkuNCA0NC44LTMxMy42Yy0yLjktMi45LTUuOS01LjctOS4xLTguM2MtNC0zLjQtOC4yLTYuNS0xMi41LTkuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![coffee-bean](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/coffee-bean.svg)
  */
 const CoffeeBean: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

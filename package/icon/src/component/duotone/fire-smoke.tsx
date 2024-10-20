@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `fire-smoke` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-smoke?s=duotone fire-smoke}
- * @preview ![fire-smoke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNjAgMTkyYzAgMzYgMTEuOSA2OS4zIDMyIDk2YzE2LjUtMjIgMzguNi0zOS42IDY0LjEtNTAuN2MxLjktMzUuNSAzNy40LTcwLjYgNTQuNy04NS41YzUuNC00LjcgMTMuMS00LjcgMTguNSAwYzE3LjMgMTUgNTIuOCA1MCA1NC43IDg1LjVDNDA5LjQgMjQ4LjQgNDMxLjUgMjY2IDQ0OCAyODhjMjAuMS0yNi43IDMyLTYwIDMyLTk2YzAtMzEuOC0xNS41LTg0LTc0LjQtMTQyLjRjLTExLjgtMTEuNy0zMC42LTEwLjctNDIuMyAxTDM1MiA2MS45bC00Ni00NmMtNi4xLTYuMS0xNC4xLTkuMy0yMi05LjJjLTUuOSAuMS0xMS44IDEuOS0xNi44IDUuOEMyMjIuNSA0Ny4zIDE2MCAxMTUuMyAxNjAgMTkyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTEyIDUxMkM1MC4xIDUxMiAwIDQ2MS45IDAgNDAwczUwLjEtMTEyIDExMi0xMTJjMzcgMCA2OS45IDE4IDkwLjMgNDUuN0MyMjEuOCAyODggMjY3LjIgMjU2IDMyMCAyNTZzOTguMiAzMiAxMTcuNyA3Ny43QzQ1OC4xIDMwNiA0OTEgMjg4IDUyOCAyODhjNjEuOSAwIDExMiA1MC4xIDExMiAxMTJzLTUwLjEgMTEyLTExMiAxMTJsLTIwOCAwLTIwOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![fire-smoke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/fire-smoke.svg)
  */
 const FireSmoke: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M160 192c0 36 11.9 69.3 32 96c16.5-22 38.6-39.6 64.1-50.7c1.9-35.5 37.4-70.6 54.7-85.5c5.4-4.7 13.1-4.7 18.5 0c17.3 15 52.8 50 54.7 85.5C409.4 248.4 431.5 266 448 288c20.1-26.7 32-60 32-96c0-31.8-15.5-84-74.4-142.4c-11.8-11.7-30.6-10.7-42.3 1L352 61.9l-46-46c-6.1-6.1-14.1-9.3-22-9.2c-5.9 .1-11.8 1.9-16.8 5.8C222.5 47.3 160 115.3 160 192z" />
-            <path d="M112 512C50.1 512 0 461.9 0 400s50.1-112 112-112c37 0 69.9 18 90.3 45.7C221.8 288 267.2 256 320 256s98.2 32 117.7 77.7C458.1 306 491 288 528 288c61.9 0 112 50.1 112 112s-50.1 112-112 112l-208 0-208 0z" />
+        <path d="M112 512C50.1 512 0 461.9 0 400s50.1-112 112-112c37 0 69.9 18 90.3 45.7C221.8 288 267.2 256 320 256s98.2 32 117.7 77.7C458.1 306 491 288 528 288c61.9 0 112 50.1 112 112s-50.1 112-112 112l-208 0-208 0z" />
     </Icon>
 );
 

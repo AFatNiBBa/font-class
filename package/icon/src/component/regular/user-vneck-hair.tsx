@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-vneck-hair` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-vneck-hair?s=regular user-vneck-hair}
- * @preview ![user-vneck-hair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDEyOGMwLTExLjQtMi40LTIyLjItNi43LTMyTDI5NiA5NmMtMjAuNSAwLTM4LjctOS42LTUwLjQtMjQuNUMyMzEuOSA5NS43IDIwNS44IDExMiAxNzYgMTEybC0zMC40IDBjLTEgNS4yLTEuNiAxMC41LTEuNiAxNmwwIDE2YzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBsMC0xNnpNOTYgMTI4Qzk2IDU3LjMgMTUzLjMgMCAyMjQgMHMxMjggNTcuMyAxMjggMTI4bDAgMTZjMCA3MC43LTU3LjMgMTI4LTEyOCAxMjhzLTEyOC01Ny4zLTEyOC0xMjhsMC0xNnpNNDguMyA0NjRsMzUxLjUgMGMtMy4xLTQ2LjctMzIuOS04Ni4yLTc0LjQtMTAzLjFsLTUwLjIgNjYuOWMtMjUuNiAzNC4xLTc2LjggMzQuMS0xMDIuNCAwbC01MC4yLTY2LjlDODEuMiAzNzcuOCA1MS4zIDQxNy4zIDQ4LjMgNDY0em04My44LTE1Ni4yYzUuOC0xLjMgMTEuNyAxLjIgMTUuMyA1LjlsNjMuOSA4NS4yYzYuNCA4LjUgMTkuMiA4LjUgMjUuNiAwbDYzLjktODUuMmMzLjYtNC43IDkuNS03LjIgMTUuMy01LjlDMzkxLjQgMzI0LjMgNDQ4IDM5MS41IDQ0OCA0NzJsMCA4YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDMyIDUxMmMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC04YzAtODAuNSA1Ni42LTE0Ny43IDEzMi4xLTE2NC4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-vneck-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-vneck-hair.svg)
  */
 const UserVneckHair: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

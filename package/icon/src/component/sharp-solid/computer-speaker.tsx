@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `computer-speaker` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-speaker?s=sharp-solid computer-speaker}
- * @preview ![computer-speaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDQ4MGwwLTY0LTE2MCAwLTMyIDAgMCA2NCAzMiAwIDE2MCAwek02NCAzMkwwIDMyIDAgOTYgMCAzMjBsMCA2NCA2NCAwIDIyNCAwIDAtNjRMNjQgMzIwIDY0IDk2bDIyNCAwIDAtNjRMNjQgMzJ6bTU3NiAwTDMyMCAzMmwwIDQ0OCAzMjAgMCAwLTQ0OHpNNTQ0IDMyMGE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6bS0xNjAgMGE5NiA5NiAwIDEgMSAxOTIgMCA5NiA5NiAwIDEgMSAtMTkyIDB6bTY0LTE5MmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![computer-speaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/computer-speaker.svg)
  */
 const ComputerSpeaker: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

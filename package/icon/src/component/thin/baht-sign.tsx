@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `baht-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baht-sign?s=thin baht-sign}
- * @preview ![baht-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM2IDBjLTQuNCAwLTggMy42LTggOGwwIDU2TDQ5LjQgNjRDMzAuOSA2NCAxNiA3OC45IDE2IDk3LjRMMTYgMjQ4bDAgMTYgMCAxNDYuNEMxNiA0MzEuMiAzMi44IDQ0OCA1My42IDQ0OGw3NC40IDAgMCA1NmMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtNTYgNjAgMGM1NS4yIDAgMTAwLTQ0LjggMTAwLTEwMGMwLTQ4LjYtMzQuNy04OS4xLTgwLjctOTguMUMyNTIuNSAyMzIuNCAyNzIgMjAwLjUgMjcyIDE2NGMwLTU1LjItNDQuOC0xMDAtMTAwLTEwMGwtMjggMCAwLTU2YzAtNC40LTMuNi04LTgtOHptLTggODBsMCAxNjgtOTYgMEwzMiA5Ny40QzMyIDg3LjggMzkuOCA4MCA0OS40IDgwTDEyOCA4MHptMTYgMTY4bDAtMTY4IDI4IDBjNDYuNCAwIDg0IDM3LjYgODQgODRzLTM3LjYgODQtODQgODRsLTI4IDB6bS0xNiAxNmwwIDE2OC03NC40IDBDNDEuNyA0MzIgMzIgNDIyLjMgMzIgNDEwLjRMMzIgMjY0bDk2IDB6bTE2IDE2OGwwLTE2OCAyOCAwIDMyIDBjNDYuNCAwIDg0IDM3LjYgODQgODRzLTM3LjYgODQtODQgODRsLTYwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![baht-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/baht-sign.svg)
  */
 const BahtSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hockey-stick-puck` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-stick-puck?s=sharp-regular hockey-stick-puck}
- * @preview ![hockey-stick-puck](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA3LjkgMzIwTDQ2Ni43IDEzIDUwOS4zIDM1bC0yNDAgNDY0LTYuNyAxM0wyNDggNTEyIDI0IDUxMiAwIDUxMmwwLTI0TDAgMzQ0bDAtMjQgMjQgMCAyODAgMCAzLjkgMHpNMjgzIDM2OGwtMTM5IDAgMCA5NiA4OS40IDBMMjgzIDM2OHpNNDggMzY4bDAgOTYgNDggMCAwLTk2LTQ4IDB6bTM4NCA2NGwwIDMyIDE2MCAwIDAtMzItMTYwIDB6bS00OC00OGw0OCAwIDE2MCAwIDQ4IDAgMCA0OCAwIDMyIDAgNDgtNDggMC0xNjAgMC00OCAwIDAtNDggMC0zMiAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hockey-stick-puck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hockey-stick-puck.svg)
  */
 const HockeyStickPuck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

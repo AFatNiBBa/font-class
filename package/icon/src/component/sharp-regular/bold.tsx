@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bold` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bold?s=sharp-regular bold}
- * @preview ![bold](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwyNCAwIDI0IDAgMjQgMCAxNiAwIDI0IDAgMTAwIDBjNjguNSAwIDEyNCA1NS41IDEyNCAxMjRjMCAzNC43LTE0LjMgNjYuMi0zNy4zIDg4LjdDMzM5LjcgMjY0LjkgMzY4IDMwNy4xIDM2OCAzNTZjMCA2OC41LTU1LjUgMTI0LTEyNCAxMjRsLTEzMiAwLTI0IDAtMTYgMC0yNCAwLTI0IDBMMCA0ODBsMC00OCAyNCAwIDI0IDAgMC0xNzZMNDggODAgMjQgODAgMCA4MCAwIDMyek05NiA0MzJsMTYgMCAxMzIgMGM0MiAwIDc2LTM0IDc2LTc2cy0zNC03Ni03Ni03NmwtMzIgMEw5NiAyODBsMCAxNTJ6bTAtMjAwbDExNiAwYzQyIDAgNzYtMzQgNzYtNzZzLTM0LTc2LTc2LTc2TDExMiA4MCA5NiA4MGwwIDE1MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bold](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bold.svg)
  */
 const Bold: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

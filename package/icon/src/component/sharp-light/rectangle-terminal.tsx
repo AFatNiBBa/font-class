@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-terminal` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-terminal?s=sharp-light rectangle-terminal}
- * @preview ![rectangle-terminal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDY0bDAgMzg0TDMyIDQ0OCAzMiA2NGw0NDggMHpNMzIgMzJMMCAzMiAwIDY0IDAgNDQ4bDAgMzIgMzIgMCA0NDggMCAzMiAwIDAtMzIgMC0zODQgMC0zMi0zMiAwTDMyIDMyek04OS40IDE2MGwxMS4zIDExLjNMMTg1LjQgMjU2bC04NC43IDg0LjdMODkuNCAzNTIgMTEyIDM3NC42bDExLjMtMTEuMyA5Ni05NkwyMzAuNiAyNTZsLTExLjMtMTEuMy05Ni05NkwxMTIgMTM3LjQgODkuNCAxNjB6TTIyNCAzNTJsLTE2IDAgMCAzMiAxNiAwIDE3NiAwIDE2IDAgMC0zMi0xNiAwLTE3NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rectangle-terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/rectangle-terminal.svg)
  */
 const RectangleTerminal: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `messages` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/messages?s=sharp-regular messages}
- * @preview ![messages](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzg0bDQ4LTI0IDgwLTQwIDE0NCAwIDQ4IDAgMC00OCAwLTIyNCAwLTQ4TDM2OCAwIDQ4IDAgMCAwIDAgNDggMCAyNzJsMCA0OCA0OCAwIDQ4IDAgMCAxMC4zTDk2IDM2OGwwIDE2ek0yMDIuNSAyNzcuMUwxNDQgMzA2LjNsMC0zNC4zLTQ4IDAtNDggMEw0OCA0OGwzMjAgMCAwIDIyNC0xNDQgMC0xMS4zIDAtMTAuMSA1LjF6TTI1NiA0MDBsMCA0OCA0OCAwIDExMiAwIDgwIDQwIDQ4IDI0IDAtMTYgMC0zNy43IDAtMTAuMyA0OCAwIDQ4IDAgMC00OCAwLTIyNCAwLTQ4LTQ4IDAtMTQ0IDAgMCA0OCAxNDQgMCAwIDIyNC00OCAwLTQ4IDAgMCAzNC4zLTU4LjUtMjkuM0w0MjcuMyA0MDAgNDE2IDQwMGwtMTEyIDAgMC00OC00OCAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![messages](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/messages.svg)
  */
 const Messages: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

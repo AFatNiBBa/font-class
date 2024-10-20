@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-camera` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-camera?s=thin circle-camera}
- * @preview ![circle-camera](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDEgMCA0ODAgMjQwIDI0MCAwIDEgMSAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0yMDYuNiAxMzYuOEwxOTUuMSAxNjAgMTY4IDE2MGMtMjIuMSAwLTQwIDE3LjktNDAgNDBsMCAxMTJjMCAyMi4xIDE3LjkgNDAgNDAgNDBsMTc2IDBjMjIuMSAwIDQwLTE3LjkgNDAtNDBsMC0xMTJjMC0yMi4xLTE3LjktNDAtNDAtNDBsLTI3LjEgMC0xMS42LTIzLjJjLTIuNy01LjQtOC4zLTguOC0xNC4zLTguOGwtNzAuMSAwYy02LjEgMC0xMS42IDMuNC0xNC4zIDguOHptMTQuMyA3LjJsNzAuMSAwIDEzLjggMjcuNmMxLjQgMi43IDQuMSA0LjQgNy4yIDQuNGwzMiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMTEyYzAgMTMuMy0xMC43IDI0LTI0IDI0bC0xNzYgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xMTJjMC0xMy4zIDEwLjctMjQgMjQtMjRsMzIgMGMzIDAgNS44LTEuNyA3LjItNC40TDIyMC45IDE0NHpNMjU2IDMwNGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bS0zMi00OGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circle-camera](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-camera.svg)
  */
 const CircleCamera: typeof Icon = x => (
     <Icon {...x}>

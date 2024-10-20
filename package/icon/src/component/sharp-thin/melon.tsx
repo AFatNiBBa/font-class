@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `melon` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/melon?s=sharp-thin melon}
- * @preview ![melon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NmMwLTU4LjUtMjAuOS0xMTIuMS01NS43LTE1My44YzMuNiA0OC4zLTEuMyAxNTMtOTMuMiAyNDQuOXMtMTk2LjYgOTYuOC0yNDQuOSA5My4yQzE0My45IDQ3NS4xIDE5Ny41IDQ5NiAyNTYgNDk2YzEzMi41IDAgMjQwLTEwNy41IDI0MC0yNDB6TTc1LjMgNDE0YzEuNS01MC4zIDEzLjQtMTczIDg5LjUtMjQ5LjFDMjUwLjEgNzkuNiAzNjIuOCA3Mi4yIDQxMiA3My42QzM3MCAzNy43IDMxNS41IDE2IDI1NiAxNkMxMjMuNSAxNiAxNiAxMjMuNSAxNiAyNTZjMCA2MC41IDIyLjQgMTE1LjggNTkuMyAxNTh6TTAgMjU2YTI1NiAyNTYgMCAxIDEgNTEyIDBBMjU2IDI1NiAwIDEgMSAwIDI1NnpNMTAxLjggNDIyLjZjMTQuOCAxLjIgMzUuOCAxLjYgNjAuNi0xLjZjNDkuNC02LjUgMTEzLjUtMjcuNSAxNzIuMy04Ni4zczc5LjgtMTIyLjkgODYuMy0xNzIuM2MzLjMtMjQuOCAyLjgtNDUuOCAxLjYtNjAuNmMtLjMtMy44LS43LTcuMi0xLjEtMTAuMmMtMy40LS4yLTcuNC0uNC0xMS45LS41Yy0xNS45LS4zLTM4LjMgLjMtNjQuMSA0LjNjLTUxLjYgOC0xMTUuNiAyOS4zLTE2OC4yIDgxLjljLTQ1LjIgNDUuMi02Ni42IDEwOS03Ni42IDE2My4zYy00LjkgMjYuOS02LjkgNTAuOS03LjYgNjguMWMtLjIgNC45LS4zIDkuMy0uNCAxM2MyLjcgLjMgNS43IC42IDkgLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![melon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/melon.svg)
  */
 const Melon: typeof Icon = x => (
     <Icon {...x}>

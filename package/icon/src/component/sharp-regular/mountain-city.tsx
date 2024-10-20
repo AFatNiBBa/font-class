@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mountain-city` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain-city?s=sharp-regular mountain-city}
- * @preview ![mountain-city](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyIDBMMjg4IDBsMCAyNCAwIDEyMC40IDQ4IDc2LjhMMzM2IDQ4bDEyOCAwIDAgMTY4IDAgMjQgMjQgMCA1NiAwIDQ4IDAgMCAyNDAgMCAyNCA0OCAwIDAtMjQgMC0yNjQgMC0yNC0yNCAwLTI0IDAgMC03MiAwLTI0LTQ4IDAgMCAyNCAwIDcyLTMyIDAgMC0xNjggMC0yNEw0ODggMCAzMTIgMHpNNDMyIDMzNmwwLTY0LTY0IDAgMCAuNEw0MDcuNyAzMzZsMjQuMyAwek0zNjggODBsMCA2NCA2NCAwIDAtNjQtNjQgMHptNjQgOTZsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bTEyOCA5NmwtNjQgMCAwIDY0IDY0IDAgMC02NHptLTY0IDk2bDAgNjQgNjQgMCAwLTY0LTY0IDB6TTQ4MCA1MTJsLTMwLTQ4TDI2OC4zIDE3My4zIDI0MCAxMjhsLTI4LjMgNDUuM0wzMCA0NjQgMCA1MTJsNTYuNiAwIDM2Ni44IDAgNTYuNiAwem0tODYuNi00OEw4Ni42IDQ2NGw2MC44LTk3LjNMMTczLjMgMzk5bDE4LjMgMjIuOSAxOC44LTIyLjRMMjUwLjIgMzUybDczLjIgMCA3MCAxMTJ6TTI0MCAyMTguNkwyOTMuNCAzMDQgMjM5IDMwNGwtMTEuMiAwLTcuMiA4LjYtMjguMiAzMy42LTE4LjEtMjIuNiA2NS42LTEwNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mountain-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mountain-city.svg)
  */
 const MountainCity: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

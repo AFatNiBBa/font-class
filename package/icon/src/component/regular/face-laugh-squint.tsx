@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-laugh-squint` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-squint?s=regular face-laugh-squint}
- * @preview ![face-laugh-squint](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTEzMC43IDU3LjljLTQuMi0xMy42IDcuMS0yNS45IDIxLjMtMjUuOWwyMTIuNSAwYzE0LjIgMCAyNS41IDEyLjQgMjEuMyAyNS45QzM2OSAzNjguNCAzMTguMiA0MDggMjU4LjIgNDA4cy0xMTAuOC0zOS42LTEyNy41LTk0LjF6bTIuOC0xODMuM2w4OS45IDQ3LjljMTAuNyA1LjcgMTAuNyAyMS4xIDAgMjYuOGwtODkuOSA0Ny45Yy03LjkgNC4yLTE3LjUtMS41LTE3LjUtMTAuNWMwLTIuOCAxLTUuNSAyLjgtNy42bDM2LTQzLjItMzYtNDMuMmMtMS44LTIuMS0yLjgtNC44LTIuOC03LjZjMC05IDkuNi0xNC43IDE3LjUtMTAuNXpNMzk2IDE0MS4xYzAgMi44LTEgNS41LTIuOCA3LjZsLTM2IDQzLjIgMzYgNDMuMmMxLjggMi4xIDIuOCA0LjggMi44IDcuNmMwIDktOS42IDE0LjctMTcuNSAxMC41bC04OS45LTQ3LjljLTEwLjctNS43LTEwLjctMjEuMSAwLTI2LjhsODkuOS00Ny45YzcuOS00LjIgMTcuNSAxLjUgMTcuNSAxMC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-laugh-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-laugh-squint.svg)
  */
 const FaceLaughSquint: typeof Icon = x => (
     <Icon {...x}>

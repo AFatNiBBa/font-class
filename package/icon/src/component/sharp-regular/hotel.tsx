@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hotel` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotel?s=sharp-regular hotel}
- * @preview ![hotel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDBMMCAwIDAgNDhsMzIgMCAwIDQxNkwwIDQ2NGwwIDQ4IDUxMiAwIDAtNDgtMzIgMCAwLTQxNiAzMiAwIDAtNDh6TTQzMiA0NjRsLTEyOCAwIDAtODAgNDggMGMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5Nmw0OCAwIDAgODBMODAgNDY0IDgwIDQ4bDM1MiAwIDAgNDE2ek0xOTIgOTZsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bTMyIDBsMCA2NCA2NCAwIDAtNjQtNjQgMHptMTYwIDBsLTY0IDAgMCA2NCA2NCAwIDAtNjR6TTEyOCAxOTJsMCA2NCA2NCAwIDAtNjQtNjQgMHptMTYwIDBsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bTMyIDBsMCA2NCA2NCAwIDAtNjQtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hotel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hotel.svg)
  */
 const Hotel: typeof Icon = x => (
     <Icon {...x}>

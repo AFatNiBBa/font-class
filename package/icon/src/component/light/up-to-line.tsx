@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-to-line` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-line?s=light up-to-line}
- * @preview ![up-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNjRsMzUyIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMMTYgMzJDNy4yIDMyIDAgMzkuMiAwIDQ4czcuMiAxNiAxNiAxNnptMTc0LjIgOTYuOGMuNS0uNSAxLjEtLjggMS44LS44czEuNCAuMyAxLjggLjhMMzE4LjIgMjkyLjdjMS4yIDEuMiAxLjggMi45IDEuOCA0LjZjMCAzLjctMyA2LjctNi43IDYuN0wyNTYgMzA0Yy04LjggMC0xNiA3LjItMTYgMTZsMCAxMjBjMCA0LjQtMy42IDgtOCA4bC04MCAwYy00LjQgMC04LTMuNi04LThsMC0xMjBjMC04LjgtNy4yLTE2LTE2LTE2bC01Ny4zIDBjLTMuNyAwLTYuNy0zLTYuNy02LjdjMC0xLjcgLjctMy4zIDEuOC00LjZMMTkwLjIgMTYwLjh6TTE5MiAxMjhjLTkuNSAwLTE4LjYgMy45LTI1LjEgMTAuOEw0Mi41IDI3MC44QzM1LjggMjc4IDMyIDI4Ny41IDMyIDI5Ny4zQzMyIDMxOC43IDQ5LjMgMzM2IDcwLjcgMzM2bDQxLjMgMCAwIDEwNGMwIDIyLjEgMTcuOSA0MCA0MCA0MGw4MCAwYzIyLjEgMCA0MC0xNy45IDQwLTQwbDAtMTA0IDQxLjMgMGMyMS40IDAgMzguNy0xNy4zIDM4LjctMzguN2MwLTkuOS0zLjgtMTkuMy0xMC41LTI2LjVMMjE3LjEgMTM4LjhjLTYuNS02LjktMTUuNi0xMC44LTI1LjEtMTAuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![up-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/up-to-line.svg)
  */
 const UpToLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

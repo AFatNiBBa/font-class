@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-love` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-love?s=solid hand-love}
- * @preview ![hand-love](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxNTkuOSAwIC4xIDAgOTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRjMTkuMSAwIDM2LjMtOC40IDQ4LTIxLjdjMTEuNyAxMy4zIDI4LjkgMjEuNyA0OCAyMS43YzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtNjMuOWMwIDAgMCAwIDAtLjFsMC0xMjhjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDI0MGMwIDk3LjItNzguOCAxNzYtMTc2IDE3NmwtMTkuMiAwYy01OS42IDAtMTE2LjktMjIuOS0xNjAtNjRMMTIuNCAzNDFjLTE2LTE1LjItMTYuNi00MC42LTEuNC01Ni42czQwLjYtMTYuNiA1Ni42LTEuNGw2MC41IDU3LjZjMC0xLjUtLjEtMy4xLS4xLTQuNmwwLTMwNGMwLTE3LjcgMTQuMy0zMiAzMi0zMnptNjQgMTkyYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJsMCA5NmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTk2em0xMjggMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtNjRjMC0xNy43IDE0LjMtMzIgMzItMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-love](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-love.svg)
  */
 const HandLove: typeof Icon = x => (
     <Icon {...x}>

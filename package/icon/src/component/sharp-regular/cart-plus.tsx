@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-plus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-plus?s=sharp-regular cart-plus}
- * @preview ![cart-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEwwIDAgMCA0OGwyNCAwIDUyLjEgMCA2MC4zIDMxNi41IDMuNyAxOS41IDE5LjkgMCAzMjggMCAyNCAwIDAtNDgtMjQgMC0zMDguMSAwLTkuMS00OEw0ODAgMjg4bDE3LjggMCA1LjItMTdMNTc1LjQgMzJsLTUwLjIgMC02MyAyMDgtMzAwLjYgMC00Mi0yMjAuNUwxMTUuOSAwIDk2IDAgMjQgMHpNMTc2IDUxMmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bTMzNi00OGE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwek0yMzIgODhsMCA0OCAyNCAwIDQwIDAgMCA0MCAwIDI0IDQ4IDAgMC0yNCAwLTQwIDQwIDAgMjQgMCAwLTQ4LTI0IDAtNDAgMCAwLTQwIDAtMjQtNDggMCAwIDI0IDAgNDAtNDAgMC0yNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cart-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cart-plus.svg)
  */
 const CartPlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-sharp-half` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-sharp-half?s=solid star-sharp-half}
- * @preview ![star-sharp-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU0LjQgNTAuNEwyMTQuNSAxNzYgOTAuMyAxNzYgODggMTc2bC0xMy4zIDBMNTYgMTc2Yy0xMC4zIDAtMTkuNCA2LjUtMjIuNyAxNi4ycy0uMSAyMC40IDggMjYuN0w1NiAyMzAuNGwxMC41IDguMiAxLjggMS40IDEwMy43IDgwLjdMMTMyIDQ0Ni43bC0xLjEgMy41TDEyNi4xIDQ2NWwtNSAxNS43Yy0zLjIgMTAgLjUgMjEgOS4xIDI3czIwLjIgNS43IDI4LjUtLjdsMTMtMTAuMSAxMi4zLTkuNSAyLjktMi4zTDI4OCA0MDYuNGwwLTgxLjEgMC0xNjkuNEwyODggMGMtMTAuNSAwLTE5LjcgNi44LTIyLjkgMTYuN0wyNjAgMzIuOXMwIDAgMCAwbC00LjYgMTQuMy0xIDMuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![star-sharp-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/star-sharp-half.svg)
  */
 const StarSharpHalf: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

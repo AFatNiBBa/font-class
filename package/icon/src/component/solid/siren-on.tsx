@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `siren-on` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/siren-on?s=solid siren-on}
- * @preview ![siren-on](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjkuMyAzNmw0OCAzMmMxMSA3LjQgMTQgMjIuMyA2LjcgMzMuM3MtMjIuMyAxNC0zMy4zIDYuN2wtNDgtMzJjLTExLTcuNC0xNC0yMi4zLTYuNy0zMy4zczIyLjMtMTQgMzMuMy02Ljd6TTU5Ny4zIDc2bC00OCAzMmMtMTEgNy40LTI1LjkgNC40LTMzLjMtNi43cy00LjQtMjUuOSA2LjctMzMuM2w0OC0zMmMxMS03LjQgMjUuOS00LjQgMzMuMyA2LjdzNC40IDI1LjktNi43IDMzLjN6TTI0IDE5Mmw2NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC02NCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0em01MjggMGw2NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC02NCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0ek0xNDQgMzUybDI1LTE5OS45YzQtMzIgMzEuMi01Ni4xIDYzLjUtNTYuMWwxNzUgMGMzMi4zIDAgNTkuNSAyNCA2My41IDU2LjFMNDk2IDM1MmwtMjYxLjkgMCAyMS44LTE3NGMxLjEtOC44LTUuMS0xNi44LTEzLjktMTcuOXMtMTYuOCA1LjEtMTcuOSAxMy45TDIwMS45IDM1MiAxNDQgMzUyek05NiA0MTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMzg0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMzg0IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![siren-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/siren-on.svg)
  */
 const SirenOn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

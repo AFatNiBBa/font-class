@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sidebar-flip` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sidebar-flip?s=regular sidebar-flip}
- * @preview ![sidebar-flip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDgwbDAgMzUyTDY0IDQzMmMtOC44IDAtMTYtNy4yLTE2LTE2TDQ4IDk2YzAtOC44IDcuMi0xNiAxNi0xNmwyMjQgMHpNNTEyIDk2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMjB6bS02NCAyNGMwIDEzLjMtMTAuNyAyNC0yNCAyNGwtNDggMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGw0OCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0em0tMjQgNzJjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTQ4IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsNDggMHptMjQgMTIwYzAgMTMuMy0xMC43IDI0LTI0IDI0bC00OCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0bDQ4IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sidebar-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sidebar-flip.svg)
  */
 const SidebarFlip: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-quote` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-quote?s=regular square-quote}
- * @preview ![square-quote](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDgwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyMGMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDMyYy04LjggMC0xNi03LjItMTYtMTZMNDggOTZjMC04LjggNy4yLTE2IDE2LTE2bDMyMCAwek02NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDMyMCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyek0yMDggMjQwbDAtMjQgMC0yNGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtNDggMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA0OGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzMiAwIDAgNy4zYzAgMTEuNy04LjUgMjEuNy0yMC4xIDIzLjdsLTcuOSAxLjNjLTEzLjEgMi4yLTIxLjkgMTQuNS0xOS43IDI3LjZzMTQuNSAyMS45IDI3LjYgMTkuN2w3LjktMS4zYzM0LjctNS44IDYwLjItMzUuOCA2MC4yLTcxbDAtMzkuM3ptMTQ0IDM5LjNsMC0zOS4zIDAtMjQgMC0yNGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtNDggMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA0OGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzMiAwIDAgNy4zYzAgMTEuNy04LjUgMjEuNy0yMC4xIDIzLjdsLTcuOSAxLjNjLTEzLjEgMi4yLTIxLjkgMTQuNS0xOS43IDI3LjZzMTQuNSAyMS45IDI3LjYgMTkuN2w3LjktMS4zYzM0LjctNS44IDYwLjItMzUuOCA2MC4yLTcxeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-quote.svg)
  */
 const SquareQuote: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

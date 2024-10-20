@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flute` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flute?s=sharp-light flute}
- * @preview ![flute](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMyMGwwLTEyOCA0NDggMCAwIDEyOC00NDggMHptLTMyIDBsLTk2IDAgMC0xMjggOTYgMCAwIDEyOHptMTYtMTYwbC0xNiAwLTk2IDBMMCAxNjBsMCAzMkwwIDMyMGwwIDMyIDMyIDAgOTYgMCAxNiAwIDE2IDAgNDQ4IDAgMzIgMCAwLTMyIDAtMTI4IDAtMzItMzIgMC00NDggMC0xNiAwek0zMjAgMjgwYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMTIwLTI0YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bTcyIDI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![flute](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/flute.svg)
  */
 const Flute: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

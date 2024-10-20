@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-alien` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-alien?s=sharp-solid user-alien}
- * @preview ![user-alien](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTY3QzY0IDc0LjggMTM1LjYgMCAyMjQgMHMxNjAgNzQuOCAxNjAgMTY3YzAgMTE5LjMtMTYwIDIxNy0xNjAgMjE3cy0xNjAtOTcuNy0xNjAtMjE3em04MCA5bC0xNiAwLTE2IDAgMCAxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwxNiAwIDE2IDAgMC0xNmMwLTM1LjMtMjguNy02NC02NC02NHptOTYgNjRsMCAxNiAxNiAwIDE2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xNi0xNiAwLTE2IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0ek00MDAgMzUybDQ4IDE2MEwwIDUxMiA0OCAzNTJsODAgMCA5NiA3MiA5Ni03MiA4MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-alien](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-alien.svg)
  */
 const UserAlien: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

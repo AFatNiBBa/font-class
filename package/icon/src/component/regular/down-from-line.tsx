@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-from-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-from-line?s=regular down-from-line}
- * @preview ![down-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODIuMiAzMjBMMTkyIDQzMCAzMDEuOCAzMjAgMjQ4IDMyMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xMjAtNjQgMCAwIDEyMGMwIDEzLjMtMTAuNyAyNC0yNCAyNGwtNTMuOCAwek0xOTIgNDgwYy0xMS41IDAtMjIuNS00LjYtMzAuNi0xMi43TDQ1LjYgMzUxLjJDMzYuOSAzNDIuNSAzMiAzMzAuNyAzMiAzMTguNEMzMiAyOTIuOCA1Mi44IDI3MiA3OC40IDI3MmwzMy42IDAgMC05NmMwLTI2LjUgMjEuNS00OCA0OC00OGw2NCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgOTYgMzMuNiAwYzI1LjYgMCA0Ni40IDIwLjggNDYuNCA0Ni40YzAgMTIuMy00LjkgMjQuMS0xMy42IDMyLjhMMjIyLjYgNDY3LjNjLTguMSA4LjEtMTkuMSAxMi43LTMwLjYgMTIuN3pNMjQgODBDMTAuNyA4MCAwIDY5LjMgMCA1NlMxMC43IDMyIDI0IDMybDMzNiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0TDI0IDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![down-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-from-line.svg)
  */
 const DownFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

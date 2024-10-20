@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `caravan-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caravan-simple?s=sharp-solid caravan-simple}
- * @preview ![caravan-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMyTDAgMzIgMCA0MTZsOTYgMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDI4OCAwIDMyIDAgMzIgMCAwLTY0LTMyIDAtMzIgMCAwLTE2MGMwLTg4LjQtNzEuNi0xNjAtMTYwLTE2MHpNNjQgMTI4bDE5MiAwIDAgMTI4TDY0IDI1NmwwLTEyOHptMzg0IDBsMCAxMjgtMTI4IDAgMC0xMjggMTI4IDB6TTE0NCA0MTZhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![caravan-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/caravan-simple.svg)
  */
 const CaravanSimple: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

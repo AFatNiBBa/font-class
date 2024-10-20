@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `page-caret-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/page-caret-down?s=thin page-caret-down}
- * @preview ![page-caret-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDQ5Nkw2NCA0OTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4TDE2IDY0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDE4MS41IDBjMTIuNyAwIDI0LjkgNS4xIDMzLjkgMTQuMWw3NC41IDc0LjVjOSA5IDE0LjEgMjEuMiAxNC4xIDMzLjlMMzY4IDQ0OGMwIDI2LjUtMjEuNSA0OC00OCA0OHpNNjQgNTEybDI1NiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzA5LjVjMC0xNy02LjctMzMuMy0xOC43LTQ1LjNMMjkwLjcgMTguN0MyNzguNyA2LjcgMjYyLjUgMCAyNDUuNSAwTDY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0ek0yNjcuNyAyNTMuNEwxOTIgMzM2bC03NS43LTgyLjZjLTQuNy01LjEtMS4xLTEzLjQgNS45LTEzLjRsMTM5LjYgMGM3IDAgMTAuNiA4LjMgNS45IDEzLjR6bS04Ny41IDkzLjRjMyAzLjMgNy4zIDUuMiAxMS44IDUuMnM4LjgtMS45IDExLjgtNS4ybDc1LjctODIuNmMxNC4xLTE1LjQgMy4yLTQwLjItMTcuNy00MC4ybC0xMzkuNiAwYy0yMC45IDAtMzEuOCAyNC44LTE3LjcgNDAuMmw3NS43IDgyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![page-caret-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/page-caret-down.svg)
  */
 const PageCaretDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

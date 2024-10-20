@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `timeline-arrow` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timeline-arrow?s=sharp-solid timeline-arrow}
- * @preview ![timeline-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDcybDAgNDgtNDggMCAwLTQ4IDQ4IDB6TTEwNCAxNkw0OCAxNmwwIDU2IDAgNDggMCA1NiA0OCAwIDAgNDgtNjQgMEwwIDIyNGwwIDY0IDMyIDAgMTYwIDAgMCA0OC00OCAwIDAgNTYgMCA0OCAwIDU2IDU2IDAgNDggMCA1NiAwIDAtNTYgMC00OCAwLTU2LTQ4IDAgMC00OCAyNTguNyAwLTMzLjQgMzMuNEw0NTguNyAzNDQgNTA0IDM4OS4zbDIyLjYtMjIuNiA4OC04OEw2MzcuMyAyNTZsLTIyLjYtMjIuNi04OC04OEw1MDQgMTIyLjcgNDU4LjcgMTY4bDIyLjYgMjIuNkw1MTQuNyAyMjQgMzg0IDIyNGwwLTQ4IDQ4IDAgMC01NiAwLTQ4IDAtNTYtNTYgMC00OCAwLTU2IDAgMCA1NiAwIDQ4IDAgNTYgNDggMCAwIDQ4LTE2MCAwIDAtNDggNDggMCAwLTU2IDAtNDggMC01Ni01NiAwLTQ4IDB6TTMyOCA3Mmw0OCAwIDAgNDgtNDggMCAwLTQ4ek0yNDggMzkybDAgNDgtNDggMCAwLTQ4IDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![timeline-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/timeline-arrow.svg)
  */
 const TimelineArrow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `cloud-fog` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-fog?s=duotone cloud-fog}
- * @preview ![cloud-fog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDM5MmMwIDEzLjMgMTAuNyAyNCAyNCAyNGw1MjggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEwyNCAzNjhjLTEzLjMgMC0yNCAxMC43LTI0IDI0em02NCA5NmMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxMTIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEw4OCA0NjRjLTEzLjMgMC0yNCAxMC43LTI0IDI0em0yMDggMGMwIDEzLjMgMTAuNyAyNCAyNCAyNGwzMjAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMzIwIDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNjQgMjI0YzAgNTMgNDMgOTYgOTYgOTZsMzIwIDBjNTMgMCA5Ni00MyA5Ni05NnMtNDMtOTYtOTYtOTZjLS41IDAtMS4xIDAtMS42IDBjMS4xLTUuMiAxLjYtMTAuNSAxLjYtMTZjMC00NC4yLTM1LjgtODAtODAtODBjLTI0LjMgMC00Ni4xIDEwLjktNjAuOCAyOEMzMjAuNSAyNC4zIDI4My4xIDAgMjQwIDBDMTc4LjEgMCAxMjggNTAuMSAxMjggMTEyYzAgNy4xIC43IDE0LjEgMS45IDIwLjhDOTEuNiAxNDUuNCA2NCAxODEuNSA2NCAyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cloud-fog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-fog.svg)
  */
 const CloudFog: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 392c0 13.3 10.7 24 24 24l528 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 368c-13.3 0-24 10.7-24 24zm64 96c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L88 464c-13.3 0-24 10.7-24 24zm208 0c0 13.3 10.7 24 24 24l320 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-320 0c-13.3 0-24 10.7-24 24z" />
-            <path d="M64 224c0 53 43 96 96 96l320 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0c1.1-5.2 1.6-10.5 1.6-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C320.5 24.3 283.1 0 240 0C178.1 0 128 50.1 128 112c0 7.1 .7 14.1 1.9 20.8C91.6 145.4 64 181.5 64 224z" />
+        <path d="M64 224c0 53 43 96 96 96l320 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0c1.1-5.2 1.6-10.5 1.6-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C320.5 24.3 283.1 0 240 0C178.1 0 128 50.1 128 112c0 7.1 .7 14.1 1.9 20.8C91.6 145.4 64 181.5 64 224z" />
     </Icon>
 );
 

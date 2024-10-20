@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side-cough-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-cough-slash?s=sharp-solid head-side-cough-slash}
- * @preview ![head-side-cough-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDMyNWw0NiAzNS43YzYuNSAxLjcgMTEuOSA2IDE1IDExLjdsNDYuMSAzNS44YzguNyAxLjEgMTYgNyAxOS4yIDE0LjlMNjE2LjcgNDU2YzEwLjcgLjMgMTkuNiA3LjYgMjIuNCAxNy40bC44IC42LTI5LjQgMzcuOS0xOS0xNC43TDE4LjkgNTIuNyAwIDM4IDI5LjQgLjFsMTkgMTQuNyA0MCAzMS4xQzEyNi4xIDE3LjEgMTczLjIgMCAyMjQuMyAwTDI1NiAwQzM1OC4xIDAgNDQxLjYgNzkuNyA0NDcuNiAxODAuM0w1MDUgMjUybDcgOC44IDAgMTEuMiAwIDE2IDAgMzItMzIgMC0zMiAwIDAgNXpNMCAyMjQuM2MwLTM4LjcgOS44LTc1LjIgMjcuMS0xMDdMMzQxLjggMzY1LjMgMzIwIDM2OGwwIDQwIDgyLjUgNS4yTDQ0OCA0NDlsMCAzMS0xMjggMCAwIDMyLTMyIDAtMzIgMEw5NiA1MTJsLTMyIDAgMC0zMiAwLTk4LjhDMjMgMzM5LjMgMCAyODMgMCAyMjQuM3pNNjE2IDM2MGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6bS02NC00OGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6bTQwLTI0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![head-side-cough-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/head-side-cough-slash.svg)
  */
 const HeadSideCoughSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

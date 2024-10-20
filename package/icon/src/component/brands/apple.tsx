@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `apple` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apple?s=brands apple}
- * @preview ![apple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE4LjcgMjY4LjdjLS4yLTM2LjcgMTYuNC02NC40IDUwLTg0LjgtMTguOC0yNi45LTQ3LjItNDEuNy04NC43LTQ0LjYtMzUuNS0yLjgtNzQuMyAyMC43LTg4LjUgMjAuNy0xNSAwLTQ5LjQtMTkuNy03Ni40LTE5LjdDNjMuMyAxNDEuMiA0IDE4NC44IDQgMjczLjVxMCAzOS4zIDE0LjQgODEuMmMxMi44IDM2LjcgNTkgMTI2LjcgMTA3LjIgMTI1LjIgMjUuMi0uNiA0My0xNy45IDc1LjgtMTcuOSAzMS44IDAgNDguMyAxNy45IDc2LjQgMTcuOSA0OC42LS43IDkwLjQtODIuNSAxMDIuNi0xMTkuMy02NS4yLTMwLjctNjEuNy05MC02MS43LTkxLjl6bS01Ni42LTE2NC4yYzI3LjMtMzIuNCAyNC44LTYxLjkgMjQtNzIuNS0yNC4xIDEuNC01MiAxNi40LTY3LjkgMzQuOS0xNy41IDE5LjgtMjcuOCA0NC4zLTI1LjYgNzEuOSAyNi4xIDIgNDkuOS0xMS40IDY5LjUtMzQuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![apple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/apple.svg)
  */
 const Apple: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

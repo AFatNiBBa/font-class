@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `accent-grave` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/accent-grave?s=light accent-grave}
- * @preview ![accent-grave](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjUuM0M2NCA0Ni45IDc4LjkgMzIgOTcuMyAzMmMxNi4xIDAgMzAgMTEuNiAzMi44IDI3LjVsMjIuNSAxMjYuMmMuNiAzLjMtMS45IDYuMy01LjMgNi4zYy0xLjcgMC0zLjQtLjgtNC40LTIuM0w3MC40IDg2LjlDNjYuMiA4MSA2NCA3NCA2NCA2Ni44bDAtMS41em0tMzIgMGwwIDEuNWMwIDEzLjggNC4zIDI3LjMgMTIuMiAzOC41bDcyLjYgMTAyLjljNyA5LjkgMTguNCAxNS44IDMwLjUgMTUuOGMyMy4zIDAgNDAuOS0yMSAzNi44LTQzLjlMMTYxLjYgNTMuOEMxNTYuMSAyMi43IDEyOSAwIDk3LjMgMEM2MS4yIDAgMzIgMjkuMiAzMiA2NS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![accent-grave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/accent-grave.svg)
  */
 const AccentGrave: typeof Icon = x => (
     <Icon viewBox="0 0 192 512" {...x}>

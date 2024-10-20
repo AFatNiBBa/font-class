@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-cells` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells?s=sharp-regular table-cells}
- * @preview ![table-cells](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYwIDgwbDAgODggMTA0IDAgMC04OEwzNjAgODB6bS00OCAwTDIwMCA4MGwwIDg4IDExMiAwIDAtODh6TTE1MiA4MEw0OCA4MGwwIDg4IDEwNCAwIDAtODh6TTQ4IDIxNmwwIDgwIDEwNCAwIDAtODBMNDggMjE2em0wIDEyOGwwIDg4IDEwNCAwIDAtODhMNDggMzQ0em0xNTIgODhsMTEyIDAgMC04OC0xMTIgMCAwIDg4em0xNjAgMGwxMDQgMCAwLTg4LTEwNCAwIDAgODh6TTQ2NCAyOTZsMC04MC0xMDQgMCAwIDgwIDEwNCAwek0wIDMybDQ4IDAgNDE2IDAgNDggMCAwIDQ4IDAgMzUyIDAgNDgtNDggMEw0OCA0ODAgMCA0ODBsMC00OEwwIDgwIDAgMzJ6TTIwMCAyOTZsMTEyIDAgMC04MC0xMTIgMCAwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![table-cells](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/table-cells.svg)
  */
 const TableCells: typeof Icon = x => (
     <Icon {...x}>

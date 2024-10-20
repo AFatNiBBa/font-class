@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `prescription-bottle-pill` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription-bottle-pill?s=sharp-solid prescription-bottle-pill}
- * @preview ![prescription-bottle-pill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDM4NCAwbDAgOTZMMCA5NiAwIDB6TTMyIDEyOGwzMjAgMCAwIDgzLjJjLTU3IDI5LjEtOTYgODguNC05NiAxNTYuOGMwIDU5LjUgMjkuNiAxMTIuMSA3NC44IDE0NEwzMiA1MTJsMC05NiAxMTIgMCAxNiAwIDAtMzItMTYgMEwzMiAzODRsMC02NCAxMTIgMCAxNiAwIDAtMzItMTYgMEwzMiAyODhsMC02NCAxMTIgMCAxNiAwIDAtMzItMTYgMEwzMiAxOTJsMC02NHpNMjg4IDM2OGMwLTM0IDExLjgtNjUuMiAzMS41LTg5LjlMNTIxLjkgNDgwLjVDNDk3LjIgNTAwLjIgNDY2IDUxMiA0MzIgNTEyYy03OS41IDAtMTQ0LTY0LjUtMTQ0LTE0NHptMjg4IDBjMCAzNC0xMS44IDY1LjItMzEuNSA4OS45TDM0Mi4xIDI1NS41QzM2Ni44IDIzNS44IDM5OCAyMjQgNDMyIDIyNGM3OS41IDAgMTQ0IDY0LjUgMTQ0IDE0NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![prescription-bottle-pill](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/prescription-bottle-pill.svg)
  */
 const PrescriptionBottlePill: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

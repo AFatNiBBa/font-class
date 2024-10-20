@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ice-cream` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ice-cream?s=regular ice-cream}
- * @preview ![ice-cream](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBDMTQwLjkgMCA3Mi42IDYzLjMgNjQuOCAxNDQuNEMyOC40IDE0OCAwIDE3OC43IDAgMjE2YzAgMzkuOCAzMi4yIDcyIDcyIDcybDY0LjQgMCAxNzUuMyAwIDY0LjQgMGMzOS44IDAgNzItMzIuMiA3Mi03MmMwLTM3LjMtMjguNC02OC02NC44LTcxLjZDMzc1LjQgNjMuMyAzMDcuMSAwIDIyNCAwek0xMTIgMTYwYzAtNjEuOSA1MC4xLTExMiAxMTItMTEyczExMiA1MC4xIDExMiAxMTJjMCAyLjItLjEgNC40LS4yIDYuNmMtLjQgNi42IDIgMTMuMSA2LjUgMTcuOXMxMC44IDcuNSAxNy41IDcuNWwxNi4yIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTY0LjQgMC0xNzUuMyAwTDcyIDI0MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGwxNi4yIDBjNi42IDAgMTIuOS0yLjcgMTcuNS03LjVzNi45LTExLjMgNi41LTE3LjljLS4xLTIuMi0uMi00LjQtLjItNi42em04OC4xIDMzOC4xYzQuOSA4LjYgMTQgMTMuOSAyMy45IDEzLjlzMTktNS4zIDIzLjktMTMuOUwzNDkuNyAzMjAgOTguMyAzMjAgMjAwLjEgNDk4LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ice-cream](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ice-cream.svg)
  */
 const IceCream: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

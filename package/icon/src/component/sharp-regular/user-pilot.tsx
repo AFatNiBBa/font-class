@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-pilot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-pilot?s=sharp-regular user-pilot}
- * @preview ![user-pilot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBMODAgOTkuMiA4MCAxMjhjMTYgMTAuNyA2Ny4yIDMyIDE0NCAzMnMxMjgtMjEuMyAxNDQtMzJsMC0yOC44TDQwMCA4MGwwLTMyTDIyNCAwIDQ4IDQ4bDAgMzJ6TTE4My4yIDY1LjdMMjI0IDg2LjFsNDAuOC0yMC40IDE0LjMtNy4yIDE0LjMgMjguNi0xNC4zIDcuMi00OCAyNC03LjIgMy42LTcuMi0zLjYtNDgtMjQtMTQuMy03LjIgMTQuMy0yOC42IDE0LjMgNy4yek05OC4xIDE2OC44Qzk2LjcgMTc2LjMgOTYgMTg0LjEgOTYgMTkyYzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4czEyOC01Ny4zIDEyOC0xMjhjMC03LjktLjctMTUuNy0yLjEtMjMuMmMtMTQgNS40LTI4LjUgOS45LTQzLjMgMTMuNGMuNCAzLjIgLjYgNi41IC42IDkuOGMwIDQ2LTM3LjIgODMuMi04My4yIDgzLjJzLTgzLjItMzcuMi04My4yLTgzLjJjMC0zLjMgLjItNi42IC42LTkuOGMtMTQuOC0zLjYtMjkuMy04LjEtNDMuMy0xMy40em05Ny4xIDI4NS42TDIwOCA0NjQgNjQuNSA0NjRsMTkuMi02NCAzOSAwIDcyLjUgNTQuNHpNMzgzLjUgNDY0TDI0MCA0NjRsMTIuOC05LjZMMzI1LjMgNDAwbDM5IDAgMTkuMiA2NHpNNDAwIDM1MmwtOTAuNyAwTDIyNCA0MTZsLTg1LjMtNjRMNDggMzUyIDE0LjQgNDY0IDAgNTEybDUwLjEgMCAzNDcuOCAwIDUwLjEgMC0xNC40LTQ4TDQwMCAzNTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-pilot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-pilot.svg)
  */
 const UserPilot: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

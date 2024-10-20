@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toolbox` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toolbox?s=solid toolbox}
- * @preview ![toolbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDg4bDAgNDAgMTYwIDAgMC00MGMwLTQuNC0zLjYtOC04LThMMTg0IDgwYy00LjQgMC04IDMuNi04IDh6bS00OCA0MGwwLTQwYzAtMzAuOSAyNS4xLTU2IDU2LTU2bDE0NCAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgNDAgMjguMSAwYzEyLjcgMCAyNC45IDUuMSAzMy45IDE0LjFsNTEuOSA1MS45YzkgOSAxNC4xIDIxLjIgMTQuMSAzMy45bDAgOTIuMS0xMjggMCAwLTMyYzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMzItMTI4IDAgMC0zMmMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDMyTDAgMzIwbDAtOTIuMWMwLTEyLjcgNS4xLTI0LjkgMTQuMS0zMy45bDUxLjktNTEuOWM5LTkgMjEuMi0xNC4xIDMzLjktMTQuMWwyOC4xIDB6TTAgNDE2bDAtNjQgMTI4IDBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwxMjggMGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDEyOCAwIDAgNjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNDgwYy0zNS4zIDAtNjQtMjguNy02NC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![toolbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toolbox.svg)
  */
 const Toolbox: typeof Icon = x => (
     <Icon {...x}>

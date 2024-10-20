@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toilets-portable` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilets-portable?s=solid toilets-portable}
- * @preview ![toilets-portable](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEwyMjQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyTDAgNjQgMCAzMkMwIDE0LjMgMTQuMyAwIDMyIDB6TTAgOTZsMjQgMCAyMDggMCAyNCAwIDAgMjQgMCAzNjhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC04TDQ4IDQ4MGwwIDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRMMCAxMjAgMCA5NnpNMTkyIDIyNGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNnpNMzUyIDBMNTQ0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzMkwzMjAgNjRsMC0zMmMwLTE3LjcgMTQuMy0zMiAzMi0zMnpNMzIwIDk2bDI0IDAgMjA4IDAgMjQgMCAwIDI0IDAgMzY4YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtOC0xNjAgMCAwIDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0zNjggMC0yNHpNNTEyIDIyNGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![toilets-portable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toilets-portable.svg)
  */
 const ToiletsPortable: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

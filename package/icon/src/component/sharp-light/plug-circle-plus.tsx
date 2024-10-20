@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plug-circle-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-plus?s=sharp-light plug-circle-plus}
- * @preview ![plug-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMCAxNiAwIDk2LTMyIDAgMC05Nkw5NiAwbDMyIDB6TTI4OCAwbDAgMTYgMCA5Ni0zMiAwIDAtOTYgMC0xNiAzMiAwek0wIDE0NGwxNiAwIDE2IDAgMzIgMCAyNTYgMCAzMiAwIDE2IDAgMTYgMCAwIDMyLTE2IDAtMTYgMCAwIDM1LjJjLTExLjQgNS45LTIyLjIgMTIuOS0zMiAyMWwwLTU2LjJMNjQgMTc2bDAgNjRjMCA3MC43IDU3LjMgMTI4IDEyOCAxMjhjMjMuNyAwIDQ1LjgtNi40IDY0LjktMTcuNmMtLjYgNS44LS45IDExLjctLjkgMTcuNmMwIDYuMiAuMyAxMi4zIC45IDE4LjNjLTE1LjIgNi44LTMxLjcgMTEuMi00OC45IDEyLjlsMCA5Ni44IDAgMTYtMzIgMCAwLTE2IDAtOTYuOEM5NS4xIDM5MS4yIDMyIDMyMyAzMiAyNDBsMC02NC0xNiAwTDAgMTc2bDAtMzJ6TTQzMiAyNTZhMTEyIDExMiAwIDEgMSAwIDIyNCAxMTIgMTEyIDAgMSAxIDAtMjI0em0wIDI1NmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6bTE2LTIyNGwtMzIgMCAwIDE2IDAgNDgtNDggMC0xNiAwIDAgMzIgMTYgMCA0OCAwIDAgNDggMCAxNiAzMiAwIDAtMTYgMC00OCA0OCAwIDE2IDAgMC0zMi0xNiAwLTQ4IDAgMC00OCAwLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![plug-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/plug-circle-plus.svg)
  */
 const PlugCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

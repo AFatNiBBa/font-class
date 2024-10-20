@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `upload` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/upload?s=light upload}
- * @preview ![upload](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDU0LjZMMjcyIDM2OGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTMxMy40TDEzOS4zIDE1NS4zYy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMHMtNi4yLTE2LjQgMC0yMi42bDEyOC0xMjhjNi4yLTYuMiAxNi40LTYuMiAyMi42IDBsMTI4IDEyOGM2LjIgNi4yIDYuMiAxNi40IDAgMjIuNnMtMTYuNCA2LjItMjIuNiAwTDI3MiA1NC42ek0yMDggMzUyTDY0IDM1MmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzODQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0YzAtMTcuNy0xNC4zLTMyLTMyLTMybC0xNDQgMCAwLTMyIDE0NCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgNjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTY0YzAtMzUuMyAyOC43LTY0IDY0LTY0bDE0NCAwIDAgMzJ6bTE3NiA2NGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![upload](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/upload.svg)
  */
 const Upload: typeof Icon = x => (
     <Icon {...x}>

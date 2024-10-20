@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `octagon-divide` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-divide?s=solid octagon-divide}
- * @preview ![octagon-divide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQwLjYgMjEuMkMxNTQuMSA3LjcgMTcyLjQgLjEgMTkxLjUgLjFsMTI5IDBjMTkuMSAwIDM3LjQgNy42IDUwLjkgMjEuMUw0OTAuOCAxNDAuNmMxMy41IDEzLjUgMjEuMSAzMS44IDIxLjEgNTAuOWwwIDEyOWMwIDE5LjEtNy42IDM3LjQtMjEuMSA1MC45TDM3MS40IDQ5MC44Yy0xMy41IDEzLjUtMzEuOCAyMS4xLTUwLjkgMjEuMWwtMTI5IDBjLTE5LjEgMC0zNy40LTcuNi01MC45LTIxLjFMMjEuMiAzNzEuNEM3LjcgMzU3LjkgLjEgMzM5LjYgLjEgMzIwLjVsMC0xMjljMC0xOS4xIDcuNi0zNy40IDIxLjEtNTAuOUwxNDAuNiAyMS4yek0yNTYgMTkyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptLTg4IDQwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDE3NiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0xNzYgMHpNMjg4IDM1MmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![octagon-divide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/octagon-divide.svg)
  */
 const OctagonDivide: typeof Icon = x => (
     <Icon {...x}>

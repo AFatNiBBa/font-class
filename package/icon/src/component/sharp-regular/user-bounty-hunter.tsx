@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-bounty-hunter` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-bounty-hunter?s=sharp-regular user-bounty-hunter}
- * @preview ![user-bounty-hunter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIzIDEyMEMzMDkuNCA3OCAyNzAgNDggMjI0IDQ4cy04NS40IDMwLTk5IDcyTDMyMyAxMjB6bTUuNSAzNi40TDI0OCAxNzEuNWwwIDk1LjkgOS45LTEuN2M4LjQtNDguMyA0My03OS40IDcxLjUtOTUuNGwtLjktMTMuOHptLTIwOSAwbC0uOSAxMy44YzI4LjUgMTYgNjMuMSA0Ny4xIDcxLjUgOTUuNGw5LjkgMS43IDAtOTUuOS04MC41LTE1LjF6TTk2IDcwQzEyMy4xIDI3LjcgMTcwLjUgMCAyMjQgMGM4MC4xIDAgMTQ2LjUgNjIuMiAxNTEuNyAxNDIuMmw4LjMgMTI4LjIgMS40IDIxLjQtMjEuMiAzLjctMTM2IDI0Yy0yLjggLjUtNS42IC41LTguMyAwbC0xMzYtMjQtMjEuMi0zLjdMNjQgMjcxLjIgNjQgMjU2IDY0IDE2IDY0IDAgODAgMCA5NiAwbDE2IDAgMCAzMkw5NiAzMmwwIDM4ek02NC41IDQ2NGw5NS41IDAgNjQtNDggNjQgNDggOTUuNSAwLTE5LjItNjRMODMuNyA0MDAgNjQuNSA0NjR6TTQ4IDM1MmwzNTIgMCAzMy42IDExMkw0NDggNTEybC01MC4xIDBMNTAuMSA1MTIgMCA1MTJsMTQuNC00OEw0OCAzNTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-bounty-hunter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-bounty-hunter.svg)
  */
 const UserBountyHunter: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

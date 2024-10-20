@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-vneck-hair-long` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-vneck-hair-long?s=solid user-vneck-hair-long}
- * @preview ![user-vneck-hair-long](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDEyOGMwLTExLjQtMi40LTIyLjItNi43LTMyTDI5NiA5NmMtMjAuNSAwLTM4LjctOS42LTUwLjQtMjQuNUMyMzEuOSA5NS43IDIwNS44IDExMiAxNzYgMTEybC0zMC40IDBjLTEgNS4yLTEuNiAxMC41LTEuNiAxNmwwIDE2YzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBsMC0xNnpNOTYgMTI4Qzk2IDU3LjMgMTUzLjMgMCAyMjQgMHMxMjggNTcuMyAxMjggMTI4bDAgMTFjMCAzMy45IDEzLjUgNjYuNSAzNy41IDkwLjVsMy45IDMuOWM0LjIgNC4yIDYuNiAxMCA2LjYgMTZjMCAxMi41LTEwLjEgMjIuNi0yMi42IDIyLjZMMjI0IDI3MiA3MC42IDI3MkM1OC4xIDI3MiA0OCAyNjEuOSA0OCAyNDkuNGMwLTYgMi40LTExLjggNi42LTE2bDMuOS0zLjljMjQtMjQgMzcuNS01Ni42IDM3LjUtOTAuNWwwLTExem00OS45IDE4Ni45TDIxMC43IDQxMmM2LjMgOS41IDIwLjMgOS41IDI2LjYgMGw2NC44LTk3LjFjMy41LTUuMiA5LjgtOCAxNS45LTYuNmM3NC41IDE3LjIgMTMwIDg0IDEzMCAxNjMuN2wwIDhjMCAxNy43LTE0LjMgMzItMzIgMzJMMzIgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLThjMC03OS43IDU1LjUtMTQ2LjUgMTMwLTE2My43YzYuMS0xLjQgMTIuNCAxLjQgMTUuOSA2LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-vneck-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-vneck-hair-long.svg)
  */
 const UserVneckHairLong: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

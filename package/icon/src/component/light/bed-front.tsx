@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bed-front` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-front?s=light bed-front}
- * @preview ![bed-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgOTZsMCA0MC42YzkuNC01LjQgMjAuMy04LjYgMzItOC42bDExMiAwYzE5LjEgMCAzNi4zIDguNCA0OCAyMS43YzExLjctMTMuMyAyOC45LTIxLjcgNDgtMjEuN2wxMTIgMGMxMS43IDAgMjIuNiAzLjEgMzIgOC42TDQ0OCA5NmMwLTE3LjctMTQuMy0zMi0zMi0zMkw5NiA2NEM3OC4zIDY0IDY0IDc4LjMgNjQgOTZ6bTQxNiA5NmwwIDQ4YzE5LjQgMTQuNiAzMiAzNy44IDMyIDY0bDAgOTYgMCA2NGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTQ4TDMyIDQxNmwwIDQ4YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNjQgMC05NmMwLTI2LjIgMTIuNi00OS40IDMyLTY0bDAtNDggMC05NmMwLTM1LjMgMjguNy02NCA2NC02NGwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDk2em0tMzIgMzMuNmwwLTMzLjZjMC0xNy43LTE0LjMtMzItMzItMzJsLTExMiAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDMyIDE2MCAwYzUuNSAwIDEwLjggLjYgMTYgMS42ek0yNDAgMjI0bDAtMzJjMC0xNy43LTE0LjMtMzItMzItMzJMOTYgMTYwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDMzLjZjNS4yLTEgMTAuNS0xLjYgMTYtMS42bDE2MCAwem0yNDAgODBjMC0yNi41LTIxLjUtNDgtNDgtNDhMODAgMjU2Yy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDgwIDQ0OCAwIDAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bed-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bed-front.svg)
  */
 const BedFront: typeof Icon = x => (
     <Icon {...x}>

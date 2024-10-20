@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `share-all` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/share-all?s=sharp-thin share-all}
- * @preview ![share-all](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQ4MHMtMTMuMS00LjktMzAuOC0xNS43QzU5LjMgNDQxLjIgMCAzOTEuMSAwIDMwNGMwLTk3LjIgNzguOC0xNzYgMTc2LTE3Nmw2NCAwIDE2IDAgMC0xNiAwLTY0IDAtMTYgMTYgMCAxNiAwTDQ2OC4yIDE5Ny4xIDQ4MCAyMDhsLTExLjggMTAuOUwyODggMzg0bC0xNiAwLTE2IDAgMC0xNiAwLTY0IDAtMTYtMTYgMC0zMiAwYy02MS45IDAtMTEyIDUwLjEtMTEyIDExMmMwIDIxLjIgNi4yIDM5LjIgMTMuMiA1Mi44QzExOCA0NzAgMTI4IDQ4MCAxMjggNDgwek03NC41IDQyOGMzLjcgMy4yIDcuNCA2LjIgMTEgOWMtMy4zLTExLTUuNi0yMy40LTUuNi0zN2MwLTcwLjcgNTcuMy0xMjggMTI4LTEyOGw0OCAwIDE2IDAgMCAxNiAwIDgwIDkuOCAwTDQ1Ni4zIDIwOCAyODEuOCA0OCAyNzIgNDhsMCA4MCAwIDE2LTE2IDAtODAgMEM4Ny42IDE0NCAxNiAyMTUuNiAxNiAzMDRjMCA1OCAyOC44IDk3LjkgNTguNSAxMjR6TTM3OC42IDU5LjlsLTUuOS01LjQgMTAuOC0xMS44IDUuOSA1LjQgMTY4IDE1NCA2LjQgNS45LTYuNCA1LjktMTY4IDE1NC01LjkgNS40LTEwLjgtMTEuOCA1LjktNS40TDU0MC4yIDIwOCAzNzguNiA1OS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![share-all](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/share-all.svg)
  */
 const ShareAll: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

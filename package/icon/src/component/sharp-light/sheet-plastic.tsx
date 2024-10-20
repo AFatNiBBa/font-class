@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sheet-plastic` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sheet-plastic?s=sharp-light sheet-plastic}
- * @preview ![sheet-plastic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMCA0NDggMTYwIDAgMC0xNDQgMC0xNiAxNiAwIDE0NCAwIDAtMjg4TDMyIDMyek0zNTIgMzU0LjdsMC0yLjctMTI4IDAgMCAxMjggMi43IDBMMzUyIDM1NC43ek0yNDAgNTEyTDMyIDUxMiAwIDUxMmwwLTMyTDAgMzIgMCAwIDMyIDAgMzUyIDBsMzIgMCAwIDMyIDAgMzM2TDI0MCA1MTJ6TTE4Ny4zIDkxLjNsLTk2IDk2TDgwIDE5OC42IDU3LjQgMTc2bDExLjMtMTEuMyA5Ni05NkwxNzYgNTcuNCAxOTguNiA4MCAxODcuMyA5MS4zem05NiAzMmwtMTYwIDE2MEwxMTIgMjk0LjYgODkuNCAyNzJsMTEuMy0xMS4zIDE2MC0xNjBMMjcyIDg5LjQgMjk0LjYgMTEybC0xMS4zIDExLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sheet-plastic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sheet-plastic.svg)
  */
 const SheetPlastic: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

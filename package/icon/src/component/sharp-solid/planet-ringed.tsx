@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `planet-ringed` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/planet-ringed?s=sharp-solid planet-ringed}
- * @preview ![planet-ringed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE5LjcgMzE5LjdDNTEyIDEyNy40IDUwMy45IDguMSA1MDMuOSA4LjFzLTU4LjQtNC0xNTkuNCA1OS42QzMxNy42IDU1LjEgMjg3LjYgNDggMjU2IDQ4QzE0MS4xIDQ4IDQ4IDE0MS4xIDQ4IDI1NmMwIDMxLjYgNy4xIDYxLjYgMTkuNyA4OC41QzQuMSA0NDUuNSA4LjEgNTAzLjkgOC4xIDUwMy45czExOS4zIDguMSAzMTEuNi0xODQuMnpNMjU2IDQ2NGMxMTQuOSAwIDIwOC05My4xIDIwOC0yMDhjMC0xNy41LTIuMi0zNC40LTYuMi01MC42Yy0yNy43IDQwLjYtNjUgODYuNS0xMTUuNSAxMzdzLTk2LjMgODcuOC0xMzcgMTE1LjVjMTYuMiA0LjEgMzMuMiA2LjIgNTAuNiA2LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![planet-ringed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/planet-ringed.svg)
  */
 const PlanetRinged: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `page` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/page?s=thin page}
- * @preview ![page](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDk2bDI1NiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzA5LjVjMC0xMi43LTUuMS0yNC45LTE0LjEtMzMuOUwyNzkuNCAzMC4xYy05LTktMjEuMi0xNC4xLTMzLjktMTQuMUw2NCAxNkMzNy41IDE2IDE2IDM3LjUgMTYgNjRsMCAzODRjMCAyNi41IDIxLjUgNDggNDggNDh6bTI1NiAxNkw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjRDMCAyOC43IDI4LjcgMCA2NCAwTDI0NS41IDBjMTcgMCAzMy4zIDYuNyA0NS4zIDE4LjdsNzQuNSA3NC41YzEyIDEyIDE4LjcgMjguMyAxOC43IDQ1LjNMMzg0IDQ0OGMwIDM1LjMtMjguNyA2NC02NCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![page](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/page.svg)
  */
 const Page: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

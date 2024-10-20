@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `draw-circle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-circle?s=sharp-solid draw-circle}
- * @preview ![draw-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA0IDIwNmMxNC43IDExLjcgMjQgMjkuOCAyNCA1MHMtOS40IDM4LjMtMjQgNTBjMTUuOCA0OC4yIDUzLjkgODYuMiAxMDIgMTAyYzExLjctMTQuNyAyOS44LTI0IDUwLTI0czM4LjMgOS40IDUwIDI0YzQ4LjItMTUuOCA4Ni4yLTUzLjkgMTAyLTEwMmMtMTQuNy0xMS43LTI0LTI5LjgtMjQtNTBzOS40LTM4LjMgMjQtNTBjLTE1LjgtNDguMi01My45LTg2LjItMTAyLTEwMmMtMTEuNyAxNC43LTI5LjggMjQtNTAgMjRzLTM4LjMtOS40LTUwLTI0Yy00OC4yIDE1LjgtODYuMiA1My45LTEwMiAxMDJ6bTkyLjcgMjY2LjFjLTc2LTIwLjgtMTM1LjktODAuNy0xNTYuNy0xNTYuN0MxNi41IDMwNS44IDAgMjgyLjggMCAyNTZzMTYuNS00OS44IDM5LjktNTkuM2MyMC44LTc2IDgwLjctMTM1LjkgMTU2LjctMTU2LjdDMjA2LjIgMTYuNSAyMjkuMiAwIDI1NiAwczQ5LjggMTYuNSA1OS4zIDM5LjljNzYgMjAuOCAxMzUuOSA4MC43IDE1Ni43IDE1Ni43YzIzLjQgOS41IDM5LjkgMzIuNSAzOS45IDU5LjNzLTE2LjUgNDkuOC0zOS45IDU5LjNjLTIwLjggNzYtODAuNyAxMzUuOS0xNTYuNyAxNTYuN0MzMDUuOCA0OTUuNSAyODIuOCA1MTIgMjU2IDUxMnMtNDkuOC0xNi41LTU5LjMtMzkuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![draw-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/draw-circle.svg)
  */
 const DrawCircle: typeof Icon = x => (
     <Icon {...x}>

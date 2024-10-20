@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gauge-circle-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-circle-plus?s=solid gauge-circle-plus}
- * @preview ![gauge-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDE5MmMyLjcgMCA1LjMgLjEgOCAuMkM0NzUuNiA4MS43IDM3NS40IDAgMjU2IDBDMTE0LjYgMCAwIDExNC42IDAgMjU2UzExNC42IDUxMiAyNTYgNTEyYzM5LjUgMCA3Ny05IDExMC40LTI1QzMzNy42IDQ1NS43IDMyMCA0MTMuOSAzMjAgMzY4YzAtOTcuMiA3OC44LTE3NiAxNzYtMTc2ek0zMjAgMzUyYzAgMzUuMy0yOC43IDY0LTY0IDY0cy02NC0yOC43LTY0LTY0YzAtMjYuOSAxNi41LTQ5LjkgNDAtNTkuM0wyMzIgODhjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNGwwIDIwNC43YzIzLjUgOS41IDQwIDMyLjUgNDAgNTkuM3pNMTQ0IDExMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6TTY0IDI1NmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwek0zMzYgMTQ0YTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6TTQ5NiA1MTJhMTQ0IDE0NCAwIDEgMCAwLTI4OCAxNDQgMTQ0IDAgMSAwIDAgMjg4em0xNi0yMDhsMCA0OCA0OCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC00OCAwIDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC00OC00OCAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDQ4IDAgMC00OGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gauge-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/gauge-circle-plus.svg)
  */
 const GaugeCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

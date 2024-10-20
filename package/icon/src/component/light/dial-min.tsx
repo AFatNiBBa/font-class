@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dial-min` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-min?s=light dial-min}
- * @preview ![dial-min](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDU2YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHpNMjc2LjcgMjc2LjdsLTg5LjggODkuOGMtMzkuMS01MC4yLTM1LjUtMTIyLjkgMTAuNi0xNjljNTAtNTAgMTMxLTUwIDE4MSAwczUwIDEzMSAwIDE4MWMtNDYuMiA0Ni4yLTExOC44IDQ5LjctMTY5IDEwLjZsODkuOC04OS44YzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDB6TTE3NC45IDQwMS4xQTE2MCAxNjAgMCAxIDAgNDAxLjEgMTc0LjkgMTYwIDE2MCAwIDEgMCAxNzQuOSA0MDEuMXpNNTY4IDI4OGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwek0zMiAzMTJhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek0xMjAgOTZBMjQgMjQgMCAxIDAgNzIgOTZhMjQgMjQgMCAxIDAgNDggMHptMzYwIDI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHpNMTIwIDQ4MGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem0zNjAgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dial-min](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dial-min.svg)
  */
 const DialMin: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

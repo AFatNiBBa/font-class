@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eye-dropper` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-dropper?s=sharp-solid eye-dropper}
- * @preview ![eye-dropper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQxLjYgMjkuMkwyNDAuMSAxMzAuOGwtOS40LTkuNEwyMDggOTguNyAxNjIuNyAxNDRsMjIuNiAyMi42IDE2MCAxNjBMMzY4IDM0OS4zIDQxMy4zIDMwNGwtMjIuNi0yMi42LTkuNC05LjRMNDgyLjggMTcwLjRjMzktMzkgMzktMTAyLjIgMC0xNDEuMXMtMTAyLjItMzktMTQxLjEgMHpNMzIgMzQ0bDAgODgtOS45IDEyLjNMNCA0NjdsLTQgNSA0MCA0MCA1LTQgMjIuNy0xOC4xTDgwIDQ4MGw4OCAwTDMxMC43IDMzNy4zIDI2NS41IDI5MmwtMTI0IDEyNEw5NiA0MTZsMC00NS41IDEyNC0xMjQtNDUuMy00NS4zTDMyIDM0NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![eye-dropper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eye-dropper.svg)
  */
 const EyeDropper: typeof Icon = x => (
     <Icon {...x}>

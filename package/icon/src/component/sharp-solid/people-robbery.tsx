@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `people-robbery` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-robbery?s=sharp-solid people-robbery}
- * @preview ![people-robbery](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTZBNDggNDggMCAxIDAgODAgMGE0OCA0OCAwIDEgMCAwIDk2ek00MCAxMjhMOCAxMjhsMCAzMkw4IDI4OGwwIDMyczAgMCAwIDBMOCA0ODBsMCAzMiA2NCAwIDAtMzIgMC0xMjggMTYgMCAwIDEyOCAwIDMyIDY0IDAgMC0zMiAwLTIyNy4zIDEzIDIwLjUgOS40IDE0LjkgMTcuNiAwIDQ4IDAgMzIgMCAwLTY0LTMyIDAtMzAuNCAwLTUxLjUtODEuMUwxNDguNyAxMjhsLTE3LjYgMEw0MCAxMjh6TTQwMCA5NmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6TTI3My4xIDE2OC4ybDYuMyAyMy44IDI0LjYgMCAyNCAwIDAgMjg4IDAgMzIgNjQgMCAwLTMyIDAtMTI4IDE2IDAgMCAxMjggMCAzMiA2NCAwIDAtMzIgMC0yODggMjQgMCAyNC42IDAgNi4zLTIzLjggMzItMTIwIDguMi0zMC45TDUwNS4zIC44bC04LjIgMzAuOUw0NzEuNCAxMjggNDA4IDEyOHMwIDAgMCAwbC0xNiAwczAgMCAwIDBsLTYzLjQgMEwzMDIuOSAzMS44IDI5NC43IC44IDIzMi44IDE3LjNsOC4yIDMwLjkgMzIgMTIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![people-robbery](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/people-robbery.svg)
  */
 const PeopleRobbery: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cabinet-filing` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabinet-filing?s=sharp-regular cabinet-filing}
- * @preview ![cabinet-filing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDIzMmwwLTE4NEw0OCA0OGwwIDE4NCAzNTIgMHpNMCA0NjRMMCAyODBsMC0yNCAwLTI0TDAgNDggMCAwIDQ4IDAgNDAwIDBsNDggMCAwIDQ4IDAgMTg0IDAgMjQgMCAyNCAwIDE4NCAwIDQ4LTQ4IDBMNDggNTEyIDAgNTEybDAtNDh6TTQ4IDI4MGwwIDE4NCAzNTIgMCAwLTE4NEw0OCAyODB6TTEzNiA5NmwxNzYgMCAyNCAwIDAgMjQgMCAzMiAwIDI0LTQ4IDAgMC0yNCAwLTgtMTI4IDAgMCA4IDAgMjQtNDggMCAwLTI0IDAtMzIgMC0yNCAyNCAwem0wIDI0MGwxNzYgMCAyNCAwIDAgMjQgMCAzMiAwIDI0LTQ4IDAgMC0yNCAwLTgtMTI4IDAgMCA4IDAgMjQtNDggMCAwLTI0IDAtMzIgMC0yNCAyNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cabinet-filing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cabinet-filing.svg)
  */
 const CabinetFiling: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

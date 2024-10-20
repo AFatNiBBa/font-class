@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `seal-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seal-exclamation?s=sharp-regular seal-exclamation}
- * @preview ![seal-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg5LjkgMzMuOWw0MSA0MSA1OCAwIDQ4IDAgMCA0OCAwIDU4IDQxIDQxTDUxMiAyNTZsLTMzLjkgMzMuOS00MSA0MSAwIDU4IDAgNDgtNDggMC01OCAwLTQxIDQxTDI1NiA1MTJsLTMzLjktMzMuOS00MS00MS01OCAwLTQ4IDAgMC00OCAwLTU4LTQxLTQxTDAgMjU2bDMzLjktMzMuOSA0MS00MSAwLTU4IDAtNDggNDggMCA1OCAwIDQxLTQxTDI1NiAwbDMzLjkgMzMuOXptNDEgODlsLTE5LjkgMEwyOTcgMTA4LjlsLTQxLTQxLTQxIDQxTDIwMC45IDEyMyAxODEgMTIzbC01OCAwIDAgNTggMCAxOS45TDEwOC45IDIxNWwtNDEgNDEgNDEgNDFMMTIzIDMxMS4xbDAgMTkuOSAwIDU4IDU4IDAgMTkuOSAwTDIxNSA0MDMuMWw0MSA0MSA0MS00MUwzMTEuMSAzODlsMTkuOSAwIDU4IDAgMC01OCAwLTE5LjlMNDAzLjEgMjk3bDQxLTQxLTQxLTQxTDM4OSAyMDAuOWwwLTE5LjkgMC01OC01OCAwem0tNTEgNWwwIDI0IDAgMTEyIDAgMjQtNDggMCAwLTI0IDAtMTEyIDAtMjQgNDggMHpNMjMyIDMyMGw0OCAwIDAgNDgtNDggMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![seal-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/seal-exclamation.svg)
  */
 const SealExclamation: typeof Icon = x => (
     <Icon {...x}>

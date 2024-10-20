@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-alien` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-alien?s=solid user-alien}
- * @preview ![user-alien](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTY3QzY0IDc0LjggMTM1LjYgMCAyMjQgMHMxNjAgNzQuOCAxNjAgMTY3YzAgMTAxLTEwNi42IDE4NS0xMzkuMiAyMDguM2MtNi4xIDQuMy0xMy40IDYuNS0yMC44IDYuNXMtMTQuNy0yLjEtMjAuOC02LjVDMTcwLjYgMzUyIDY0IDI2OC4xIDY0IDE2N3ptMjQ0LjYgOWMtMzcuOSAwLTY4LjYgMzAuNy02OC42IDY4LjZjMCA2LjMgNS4xIDExLjQgMTEuNCAxMS40bDE2IDBjMzcuOSAwIDY4LjYtMzAuNyA2OC42LTY4LjZjMC02LjMtNS4xLTExLjQtMTEuNC0xMS40bC0xNiAwek0yMDggMjQ0LjZjMC0zNy45LTMwLjctNjguNi02OC42LTY4LjZsLTE2IDBjLTYuMyAwLTExLjQgNS4xLTExLjQgMTEuNGMwIDM3LjkgMzAuNyA2OC42IDY4LjYgNjguNmwxNiAwYzYuMyAwIDExLjQtNS4xIDExLjQtMTEuNHpNMCA0ODYuNEMwIDQxNSA1NS43IDM1Ni42IDEyNi4xIDM1Mi4zYzIzLjggMjMuMiA0Ni4xIDQwLjIgNTguNSA0OS4xYzEyIDguNiAyNS45IDEyLjQgMzkuNCAxMi40czI3LjQtMy44IDM5LjQtMTIuNGMxMi40LTguOCAzNC43LTI1LjggNTguNS00OS4xQzM5Mi4zIDM1Ni42IDQ0OCA0MTUgNDQ4IDQ4Ni40YzAgMTQuMS0xMS41IDI1LjYtMjUuNiAyNS42TDI1LjYgNTEyQzExLjUgNTEyIDAgNTAwLjUgMCA0ODYuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-alien](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-alien.svg)
  */
 const UserAlien: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

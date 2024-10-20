@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-parking-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-parking-slash?s=sharp-solid square-parking-slash}
- * @preview ![square-parking-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDU0NCAzOTkuNiA1NDQgMzIgOTYgMzJsMCAxOS44LTQ3LjYtMzd6TTIyNCAxNTEuMWwwLTIzLjEgMzIgMCA4MCAwYzUzIDAgOTYgNDMgOTYgOTZjMCAyNi4yLTEwLjUgNDkuOS0yNy41IDY3LjNsLTUxLjYtNDAuMUMzNjIgMjQ1LjUgMzY4IDIzNS41IDM2OCAyMjRjMC0xNy43LTE0LjMtMzItMzItMzJsLTQ4IDAgMCA4LjgtNjQtNDkuN3pNNDg3LjQgNDgwTDI4OCAzMjIuOWwwIDI5LjEgMCAzMi02NCAwIDAtMzIgMC02NCAwLTE1LjVMOTYgMTcxLjYgOTYgNDgwbDM5MS40IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-parking-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-parking-slash.svg)
  */
 const SquareParkingSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

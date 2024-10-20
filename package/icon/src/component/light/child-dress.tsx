@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `child-dress` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child-dress?s=light child-dress}
- * @preview ![child-dress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDk2YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMC05NmE2NCA2NCAwIDEgMSAwIDEyOEE2NCA2NCAwIDEgMSAxNjAgMHpNOTYgNDAwbC0yNCAwYy01IDAtOS43LTIuMy0xMi43LTYuM3MtNC05LjEtMi44LTEzLjlMOTggMjI1LjggMjguNiAzMTMuOWMtNS41IDYuOS0xNS41IDguMS0yMi41IDIuN1MtMiAzMDEgMy40IDI5NC4xbDc0LjMtOTQuMmMxOC44LTIzLjkgNDcuMS0zOC4zIDc3LjMtMzkuOGMxLjItLjEgMi41LS4xIDMuNy0uMWwxLjMgMCAxLjMgMGMxLjIgMCAyLjUgMCAzLjcgLjFjMzAuMiAxLjUgNTguNCAxNS45IDc3LjMgMzkuOGw3NC4zIDk0LjJjNS41IDYuOSA0LjMgMTctMi43IDIyLjVzLTE3IDQuMy0yMi41LTIuN0wyMjIgMjI1LjhsNDEuNSAxNTRjMS4zIDQuOCAuMyA5LjktMi44IDEzLjlzLTcuNyA2LjMtMTIuNyA2LjNsLTI0IDAgMCA5NmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTk2LTY0IDAgMCA5NmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTk2em02MC44LTIwNy45Yy0xMC4xIC44LTE4LjcgNy44LTIxLjQgMTcuN0w5Mi45IDM2OGwxMzQuMiAwTDE4NC41IDIwOS44Yy0yLjctOS45LTExLjMtMTYuOS0yMS40LTE3LjdjLTEuMSAwLTIuMS0uMS0zLjItLjFzLTIuMSAwLTMuMiAuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![child-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/child-dress.svg)
  */
 const ChildDress: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

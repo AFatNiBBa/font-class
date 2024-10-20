@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `litecoin-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/litecoin-sign?s=solid litecoin-sign}
- * @preview ![litecoin-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDY0YzAtMTcuNy0xNC4zLTMyLTMyLTMyUzY0IDQ2LjMgNjQgNjRsMCAxNDkuNkwyMy4yIDIyNS4yYy0xNyA0LjktMjYuOCAyMi42LTIyIDM5LjZzMjIuNiAyNi44IDM5LjYgMjJMNjQgMjgwLjEgNjQgNDQ4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDI1NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0yMjQgMCAwLTE1NC4xIDEzNi44LTM5LjFjMTctNC45IDI2LjgtMjIuNiAyMi0zOS42cy0yMi42LTI2LjgtMzkuNi0yMkwxMjggMTk1LjMgMTI4IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![litecoin-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/litecoin-sign.svg)
  */
 const LitecoinSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

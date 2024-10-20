@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-question` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-question?s=sharp-thin comment-question}
- * @preview ![comment-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzEuOSAzNzYuNGwzLjYtOS42LTcuMy03LjNDMzUuMiAzMjYuMyAxNiAyODQuNyAxNiAyNDBDMTYgMTM2LjkgMTIwLjIgNDggMjU2IDQ4czI0MCA4OC45IDI0MCAxOTJzLTEwNC4yIDE5Mi0yNDAgMTkyYy0zMCAwLTU4LjYtNC40LTg1LTEyLjRsLTQuNi0xLjQtNC42IDEuNEw0Mi4zIDQ1NS40bDI5LjYtNzl6TTE2IDQ4MGwxOS4zLTUuOCAxMzEuMS0zOS4zYzI3LjkgOC41IDU4LjEgMTMuMSA4OS42IDEzLjFjMTQxLjQgMCAyNTYtOTMuMSAyNTYtMjA4UzM5Ny40IDMyIDI1NiAzMlMwIDEyNS4xIDAgMjQwYzAgNDkuNiAyMS4zIDk1LjEgNTYuOSAxMzAuOEwyMy4xIDQ2MS4yIDE2IDQ4MHpNMTY4IDE2OGwwIDYuNSAxNiAwIDAtNi41YzAtMjIuMSAxNy45LTQwIDQwLTQwbDU2LjIgMGMyNi40IDAgNDcuOCAyMS40IDQ3LjggNDcuOGMwIDE2LjEtOC4xIDMxLjEtMjEuNSAzOS45bC01NC45IDM2LjItMy42IDIuNCAwIDQuMyAwIDI5LjUgMCA4IDE2IDAgMC04IDAtMjUuMUwzMTUuMyAyMjljMTcuOS0xMS44IDI4LjctMzEuOCAyOC43LTUzLjNjMC0zNS4yLTI4LjYtNjMuOC02My44LTYzLjhMMjI0IDExMmMtMzAuOSAwLTU2IDI1LjEtNTYgNTZ6bTcyIDE4NGwzMiAwIDAtMzItMzIgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![comment-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-question.svg)
  */
 const CommentQuestion: typeof Icon = x => (
     <Icon {...x}>

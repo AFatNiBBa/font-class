@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spell-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spell-check?s=regular spell-check}
- * @preview ![spell-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM0LjEgMTQuNkMxMzAuMyA1LjggMTIxLjYgMCAxMTIgMHMtMTguMyA1LjgtMjIuMSAxNC42bC04OCAyMDhjLTUuMiAxMi4yIC41IDI2LjMgMTIuOCAzMS41czI2LjMtLjUgMzEuNS0xMi44TDU2LjggMjE2bDExMC4zIDAgMTAuNyAyNS40YzUuMiAxMi4yIDE5LjIgMTcuOSAzMS41IDEyLjhzMTcuOS0xOS4yIDEyLjgtMzEuNWwtODgtMjA4ek0xNDYuOSAxNjhsLTY5LjcgMEwxMTIgODUuNiAxNDYuOSAxNjh6TTI1NiAyNGwwIDEwNCAwIDEwNGMwIDEzLjMgMTAuNyAyNCAyNCAyNGw5MiAwYzQyIDAgNzYtMzQgNzYtNzZjMC0yNC42LTExLjctNDYuNC0yOS44LTYwLjNDNDI2LjkgMTA3LjMgNDMyIDkyLjIgNDMyIDc2YzAtNDItMzQtNzYtNzYtNzZMMjgwIDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0em0xMDAgODBsLTUyIDAgMC01NiA1MiAwYzE1LjUgMCAyOCAxMi41IDI4IDI4cy0xMi41IDI4LTI4IDI4em0tNTIgNDhsNTIgMCAxNiAwYzE1LjUgMCAyOCAxMi41IDI4IDI4cy0xMi41IDI4LTI4IDI4bC02OCAwIDAtNTZ6TTU2OC42IDMxMy4zYzkuNi05LjIgOS45LTI0LjQgLjctMzMuOXMtMjQuNC05LjktMzMuOS0uN2wtMTgzIDE3NS43TDI2NSAzNjdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlMMzM1IDUwNWM5LjIgOS4yIDI0LjIgOS40IDMzLjYgLjNsMjAwLTE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![spell-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/spell-check.svg)
  */
 const SpellCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

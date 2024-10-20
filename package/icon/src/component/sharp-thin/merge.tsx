@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `merge` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/merge?s=sharp-thin merge}
- * @preview ![merge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NGw4IDAgODggMCA2NCAwIDQuMiAwIDIuNCAzLjRMMjkyLjIgMjQ4bDE4NC41IDAtNjYuMy02Ni4zLTUuNy01LjdMNDE2IDE2NC43bDUuNyA1LjcgODAgODAgNS43IDUuNy01LjcgNS43LTgwIDgwLTUuNyA1LjdMNDA0LjcgMzM2bDUuNy01LjdMNDc2LjcgMjY0bC0xODQuNSAwTDE2Ni42IDQ0NC42bC0yLjQgMy40LTQuMiAwLTY0IDBMOCA0NDhsLTggMCAwLTE2IDggMCA4OCAwIDU5LjggMEwyNzguMyAyNTYgMTU1LjggODAgOTYgODAgOCA4MCAwIDgwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![merge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/merge.svg)
  */
 const Merge: typeof Icon = x => (
     <Icon {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `list-timeline` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-timeline?s=duotone list-timeline}
- * @preview ![list-timeline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNDYuNyA5NmMwIDQuOCAyLjEgOS42IDYuNCAxMi44bDM4LjQgMjguOGM1LjUgNC4yIDEyLjMgNi40IDE5LjIgNi40TDQyNCAxNDRjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNEwyMTAuNyA0OGMtNi45IDAtMTMuNyAyLjItMTkuMiA2LjRMMTUzLjEgODMuMmMtNC4zIDMuMi02LjQgOC02LjQgMTIuOHptMCAxNjBjMCA0LjggMi4xIDkuNiA2LjQgMTIuOGwzOC40IDI4LjhjNS41IDQuMiAxMi4zIDYuNCAxOS4yIDYuNEw0ODggMzA0YzEzLjMgMCAyNC0xMC43IDI0LTI0bDAtNDhjMC0xMy4zLTEwLjctMjQtMjQtMjRsLTI3Ny4zIDBjLTYuOSAwLTEzLjcgMi4yLTE5LjIgNi40bC0zOC40IDI4LjhjLTQuMyAzLjItNi40IDgtNi40IDEyLjh6bTAgMTYwYzAgNC44IDIuMSA5LjYgNi40IDEyLjhsMzguNCAyOC44YzUuNSA0LjIgMTIuMyA2LjQgMTkuMiA2LjRMNDI0IDQ2NGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTQ4YzAtMTMuMy0xMC43LTI0LTI0LTI0bC0yMTMuMyAwYy02LjkgMC0xMy43IDIuMi0xOS4yIDYuNGwtMzguNCAyOC44Yy00LjMgMy4yLTYuNCA4LTYuNCAxMi44eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNjQgMTQ0YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptNDggMTEyYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6bTAgMTYwYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![list-timeline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/list-timeline.svg)
  */
 const ListTimeline: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M146.7 96c0 4.8 2.1 9.6 6.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4L424 144c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L210.7 48c-6.9 0-13.7 2.2-19.2 6.4L153.1 83.2c-4.3 3.2-6.4 8-6.4 12.8zm0 160c0 4.8 2.1 9.6 6.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4L488 304c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-277.3 0c-6.9 0-13.7 2.2-19.2 6.4l-38.4 28.8c-4.3 3.2-6.4 8-6.4 12.8zm0 160c0 4.8 2.1 9.6 6.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4L424 464c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-213.3 0c-6.9 0-13.7 2.2-19.2 6.4l-38.4 28.8c-4.3 3.2-6.4 8-6.4 12.8z" />
-            <path d="M64 144a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48 112a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 160a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
+        <path d="M64 144a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48 112a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 160a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ornament` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ornament?s=thin ornament}
- * @preview ![ornament](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDE2YTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptMzUuOCA2NGM3LjYtOC41IDEyLjItMTkuNyAxMi4yLTMyYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4cy00OCAyMS41LTQ4IDQ4YzAgMTIuMyA0LjYgMjMuNSAxMi4yIDMyTDEyOCA4MGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAzMiAwIDkuN0MzOC42IDE4Ni45IDAgMjQ4LjkgMCAzMjBDMCA0MjYgODYgNTEyIDE5MiA1MTJzMTkyLTg2IDE5Mi0xOTJjMC03MS4xLTM4LjYtMTMzLjEtOTYtMTY2LjNsMC05LjcgMC0zMmMwLTE3LjctMTQuMy0zMi0zMi0zMmwtMjguMiAwem0zNy42IDgwYzM4LjcgMTcuOCA2OS44IDQ5LjEgODcuMiA4OEwzMS40IDI0OGMxNy40LTM4LjkgNDguNi03MC4yIDg3LjItODhsMTQ2LjggMHpNMTkyIDk2bDY0IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMzItMTYwIDAgMC0zMmMwLTguOCA3LjItMTYgMTYtMTZsNjQgMHpNMTYgMzIwYzAtMTkuNiAzLjItMzguNCA5LjEtNTZsMzMzLjggMGM1LjkgMTcuNiA5LjEgMzYuNCA5LjEgNTZzLTMuMiAzOC40LTkuMSA1NkwyNS4xIDM3NmMtNS45LTE3LjYtOS4xLTM2LjQtOS4xLTU2ek0xOTIgNDk2Yy03MS42IDAtMTMzLjEtNDIuNy0xNjAuNi0xMDRsMzIxLjMgMEMzMjUuMSA0NTMuMyAyNjMuNiA0OTYgMTkyIDQ5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ornament](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ornament.svg)
  */
 const Ornament: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

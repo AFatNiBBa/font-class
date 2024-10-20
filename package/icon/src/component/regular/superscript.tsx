@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `superscript` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/superscript?s=regular superscript}
- * @preview ![superscript](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDcyIDI0YzAtOC0zLjktMTUuNC0xMC41LTE5LjlzLTE1LTUuNC0yMi40LTIuNGwtNDAgMTZjLTEyLjMgNC45LTE4LjMgMTguOS0xMy40IDMxLjJzMTguOSAxOC4zIDMxLjIgMTMuNGw3LjEtMi44TDQyNCAxNzZsLTE2IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNDAgMCA0MCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0xNiAwIDAtMTUyek0yNCA2NEMxMC43IDY0IDAgNzQuNyAwIDg4czEwLjcgMjQgMjQgMjRsMjcuMiAwIDk2IDE0NC05NiAxNDRMMjQgNDAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDQwIDBjOCAwIDE1LjUtNCAyMC0xMC43bDkyLTEzOCA5MiAxMzhDMjcyLjUgNDQ0IDI4MCA0NDggMjg4IDQ0OGw0MCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0yNy4yIDAtOTYtMTQ0IDk2LTE0NCAyNy4yIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTQwIDBjLTggMC0xNS41IDQtMjAgMTAuN2wtOTIgMTM4TDg0IDc0LjdDNzkuNSA2OCA3MiA2NCA2NCA2NEwyNCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![superscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/superscript.svg)
  */
 const Superscript: typeof Icon = x => (
     <Icon {...x}>

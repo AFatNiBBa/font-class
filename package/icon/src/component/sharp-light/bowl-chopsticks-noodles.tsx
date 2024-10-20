@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-chopsticks-noodles` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-chopsticks-noodles?s=sharp-light bowl-chopsticks-noodles}
- * @preview ![bowl-chopsticks-noodles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDkzLjFsMC0zMi42TDE5MiAzMmwwLTE2IDMyIDAgMCAxNiAwIDIyLjEgMCAzMi42IDAgNTkuNCAwIDMyLjEgMCA0NS44IDI1NS45IDAgMzIuMSAwLTEuOSAzMi0xLjcgMjkuMkM1MDMuNSAzNjguMSA0NTQgNDM4LjIgMzg0IDQ3Mi45bDAgNy4xIDAgMzItMzIgMC0xOTIgMC0zMiAwIDAtMzIgMC03LjFDNTggNDM4LjIgOC41IDM2OC4xIDMuNiAyODUuMkwxLjkgMjU2IDAgMjI0bDMyLjEgMCA5NS45IDAgMC0zOS40TDE3LjEgMTkyIDE0LjkgMTYwIDEyOCAxNTIuNWwwLTQ2LjZMMTkuMSAxMjcuNyAxMi45IDk2LjMgMTI4IDczLjMgMTI4IDQ4bDAtMTYgMzIgMCAwIDE2IDAgMTguOSAwIDMyLjYgMCA1MC44IDAgMzIuMSAwIDQxLjYgMzIgMCAwLTQzLjcgMC0zMi4xIDAtNTUuMXpNMjU2IDE0NEw0OTQuOSAxMjhsMi4xIDMxLjlMMjU2IDE3NmwwLTMyLjF6bTAtOTYuM0w0OTIuOSAuM2w2LjMgMzEuNEwyNTYgODAuM2wwLTMyLjZ6TTE2MCA0NzIuOWwwIDcuMSAxOTIgMCAwLTcuMSAwLTE5LjkgMTcuOC04LjhjNjAuMS0yOS43IDEwMi41LTg5LjkgMTA2LjYtMTYwLjlsMS42LTI3LjNMMzMuOSAyNTZsMS42IDI3LjNjNC4yIDcxIDQ2LjYgMTMxLjIgMTA2LjYgMTYwLjlMMTYwIDQ1M2wwIDE5Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bowl-chopsticks-noodles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bowl-chopsticks-noodles.svg)
  */
 const BowlChopsticksNoodles: typeof Icon = x => (
     <Icon {...x}>

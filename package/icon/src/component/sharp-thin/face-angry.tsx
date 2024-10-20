@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-angry` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-angry?s=sharp-thin face-angry}
- * @preview ![face-angry](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDEgMCA0ODAgMjQwIDI0MCAwIDEgMSAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem03MS40LTEwOC43bDExLjktMTAuNy01LjQtNS45QzMxOC45IDM3MCAyOTIuOSAzNTIgMjU2IDM1MnMtNjIuOSAxOC03Ny45IDM0LjZsLTUuNCA1LjkgMTEuOSAxMC43IDUuNC01LjlDMjAyLjcgMzgzLjEgMjI0LjcgMzY4IDI1NiAzNjhzNTMuMyAxNS4xIDY2LjEgMjkuNGw1LjQgNS45ek0xNzYuNCAyNTZhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyem0xNzYtMTZhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHpNMTMwLjUgMTY4LjRsLTcuNi0yLjUtNS4xIDE1LjIgNy42IDIuNSA5NiAzMiA3LjYgMi41IDUuMS0xNS4yLTcuNi0yLjUtOTYtMzJ6bTI1NiAxNS4ybDcuNi0yLjUtNS4xLTE1LjItNy42IDIuNS05NiAzMi03LjYgMi41IDUuMSAxNS4yIDcuNi0yLjUgOTYtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-angry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-angry.svg)
  */
 const FaceAngry: typeof Icon = x => (
     <Icon {...x}>

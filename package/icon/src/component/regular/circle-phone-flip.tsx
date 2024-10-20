@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-phone-flip` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-phone-flip?s=regular circle-phone-flip}
- * @preview ![circle-phone-flip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ2NGEyMDggMjA4IDAgMSAwIDAtNDE2IDIwOCAyMDggMCAxIDAgMCA0MTZ6TTI1NiAwYTI1NiAyNTYgMCAxIDEgMCA1MTJBMjU2IDI1NiAwIDEgMSAyNTYgMHptNjkuMyAxMjguN2w0NCAxMkMzNzggMTQzLjEgMzg0IDE1MSAzODQgMTYwYzAgMTIzLjctMTAwLjMgMjI0LTIyNCAyMjRjLTkgMC0xNi45LTYtMTkuMy0xNC43bC0xMi00NGMtMi42LTkuNyAyLjMtMTkuOSAxMS42LTIzLjdsNDgtMjBjOC4yLTMuNCAxNy42LTEgMjMuMiA1LjhMMjMxLjcgMzEyYzM1LjItMTYuNiA2My43LTQ1LjEgODAuMy04MC4zbC0yNC43LTIwLjJjLTYuOC01LjYtOS4yLTE1LTUuOC0yMy4ybDIwLTQ4YzMuOS05LjMgMTQtMTQuMiAyMy43LTExLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-phone-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-phone-flip.svg)
  */
 const CirclePhoneFlip: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `french-fries` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/french-fries?s=sharp-thin french-fries}
- * @preview ![french-fries](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDQuMmwxMSA0LjQgODAgMzIgNSAyIDAgNS40IDAgMjI0LTE2IDAgMC0yMTguNkwxNjAgMjcuOCAxNjAgMjcybC0xNiAwIDAtMjU2IDAtMTEuOHpNMzAxLjggMjA1LjZsLTE5LjcgMjguMUwzMTcuNyA2Ni4yIDI3MiA3NS40IDI3MiA1OWw1NC40LTEwLjkgMTEuOS0yLjQtMi41IDExLjlMMzA1LjYgMjAwLjJsLTMuOCA1LjR6TTM0OC42IDE5MmwxOS41LTk3LjYgMS42LTcuOCAxNS43IDMuMS0xLjYgNy44TDM2NSAxOTJsLTE2LjMgMHpNMTkgMTkyTC4yIDk3LjZsLTEuNi03LjggMTUuNy0zLjEgMS42IDcuOEwzNS40IDE5MiAxOSAxOTJ6bTYzLjIgMTMuNmwtMS0xLjRMNTYuMSA0OS4zbC0uOS01LjggNS4zLTIuNkwxMTIgMTUuMWwwIDE3LjlMNzIuOCA1Mi41bDI5LjUgMTgxLjlMODIuMiAyMDUuNnpNNjQgMjI0bDQ4IDgwIDE2MCAwIDQ4LTgwIDQ3LjYgMCAxNi40IDAtMy42IDE2TDMyMCA1MTIgNjQgNTEyIDMuNiAyNDAgMCAyMjRsMTYuNCAwTDY0IDIyNHptMjIxLjcgODguMmwtNC43IDcuOC05LjEgMC0xNjAgMC05LjEgMC00LjctNy44TDU0LjkgMjQwbC0zNSAwTDc2LjggNDk2bDIzMC4zIDAgNTYuOS0yNTYtMzUgMC00My4zIDcyLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![french-fries](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/french-fries.svg)
  */
 const FrenchFries: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right-from-bracket` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-from-bracket?s=solid right-from-bracket}
- * @preview ![right-from-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc3LjkgMTA1LjlMNTAwLjcgMjI4LjdjNy4yIDcuMiAxMS4zIDE3LjEgMTEuMyAyNy4zcy00LjEgMjAuMS0xMS4zIDI3LjNMMzc3LjkgNDA2LjFjLTYuNCA2LjQtMTUgOS45LTI0IDkuOWMtMTguNyAwLTMzLjktMTUuMi0zMy45LTMzLjlsMC02Mi4xLTEyOCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDEyOCAwIDAtNjIuMWMwLTE4LjcgMTUuMi0zMy45IDMzLjktMzMuOWM5IDAgMTcuNiAzLjYgMjQgOS45ek0xNjAgOTZMOTYgOTZjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMjU2YzAgMTcuNyAxNC4zIDMyIDMyIDMybDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTY0IDBjLTUzIDAtOTYtNDMtOTYtOTZMMCAxMjhDMCA3NSA0MyAzMiA5NiAzMmw2NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![right-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/right-from-bracket.svg)
  */
 const RightFromBracket: typeof Icon = x => (
     <Icon {...x}>

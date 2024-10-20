@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `map-location` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map-location?s=duotone map-location}
- * @preview ![map-location](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIwOS42TDAgNDgwLjRjMCAxNyAxNy4xIDI4LjYgMzIuOSAyMi4zTDE2MCA0NTEuOGwwLTI1MS40Yy0zLjUtNi45LTYuNy0xMy44LTkuNi0yMC42Yy01LjYtMTMuMi0xMC40LTI3LjQtMTIuOC00MS41bC0xMjIuNiA0OUM2IDE5MSAwIDE5OS44IDAgMjA5LjZ6TTE5MiAyNTVsMCAxOTQuNCAxOTIgNTQuOUwzODQgMjU1Yy0yMC41IDMxLjMtNDIuMyA1OS42LTU2LjIgNzdjLTIwLjUgMjUuNi01OS4xIDI1LjYtNzkuNiAwYy0xMy45LTE3LjQtMzUuNy00NS43LTU2LjItNzd6bTIyNC01NC42TDQxNiA1MDNsMTQ0LjktNThjOS4xLTMuNiAxNS4xLTEyLjUgMTUuMS0yMi4zTDU3NiAxNTJjMC0xNy0xNy4xLTI4LjYtMzIuOS0yMi4zbC0xMTYgNDYuNGMtLjUgMS4yLTEgMi41LTEuNSAzLjdjLTIuOSA2LjgtNi4xIDEzLjctOS42IDIwLjZ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik00MDggMTIwYzAgNTQuNi03My4xIDE1MS45LTEwNS4yIDE5MmMtNy43IDkuNi0yMiA5LjYtMjkuNiAwQzI0MS4xIDI3MS45IDE2OCAxNzQuNiAxNjggMTIwQzE2OCA1My43IDIyMS43IDAgMjg4IDBzMTIwIDUzLjcgMTIwIDEyMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![map-location](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/map-location.svg)
  */
 const MapLocation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 209.6L0 480.4c0 17 17.1 28.6 32.9 22.3L160 451.8l0-251.4c-3.5-6.9-6.7-13.8-9.6-20.6c-5.6-13.2-10.4-27.4-12.8-41.5l-122.6 49C6 191 0 199.8 0 209.6zM192 255l0 194.4 192 54.9L384 255c-20.5 31.3-42.3 59.6-56.2 77c-20.5 25.6-59.1 25.6-79.6 0c-13.9-17.4-35.7-45.7-56.2-77zm224-54.6L416 503l144.9-58c9.1-3.6 15.1-12.5 15.1-22.3L576 152c0-17-17.1-28.6-32.9-22.3l-116 46.4c-.5 1.2-1 2.5-1.5 3.7c-2.9 6.8-6.1 13.7-9.6 20.6z" />
-            <path d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120z" />
+        <path d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120z" />
     </Icon>
 );
 

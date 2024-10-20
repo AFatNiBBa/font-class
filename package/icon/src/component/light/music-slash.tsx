@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `music-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-slash?s=light music-slash}
- * @preview ![music-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc1LjUgMzc2LjJjLjMtMi43IC41LTUuNCAuNS04LjJsMC0yMzEuNmMwLS4xIDAtLjMgMC0uNGMwLS4xIDAtLjIgMC0uM0w1NzYgMjNjMC0xMi43LTEwLjMtMjMtMjMtMjNjLTIuMyAwLTQuNiAuMy02LjggMWwtMzExIDk1LjdjLTMgLjktNS42IDIuNy03LjUgNUwyNTYgMTIzLjlsMC0uMUw1NDQgMzUuMmwwIDg5TDMzNyAxODcuOSAzNjcuNSAyMTIgNTQ0IDE1Ny43bDAgMTUwLjdjLTE3LTEyLjctMzkuNC0yMC40LTY0LTIwLjRjLTUuMSAwLTEwLjEgLjMtMTUgMWw0OCAzNy45YzkuNiA0LjUgMTcuMiAxMC43IDIyLjQgMTcuN2w0MC4xIDMxLjd6TTI1NiAyODdsLTMyLTI1LjMgMCAxMTAuNmMtMTctMTIuNy0zOS40LTIwLjQtNjQtMjAuNGMtNTMgMC05NiAzNS44LTk2IDgwczQzIDgwIDk2IDgwczk2LTM1LjggOTYtODBsMC0xNDV6bS05NiA5N2M0MS4xIDAgNjQgMjYuNyA2NCA0OHMtMjIuOSA0OC02NCA0OHMtNjQtMjYuNy02NC00OHMyMi45LTQ4IDY0LTQ4ek0yNS45IDMuNEMxOS0yIDguOS0uOCAzLjQgNi4xUy0uOCAyMy4xIDYuMSAyOC42bDYwOCA0ODBjNi45IDUuNSAxNyA0LjMgMjIuNS0yLjZzNC4zLTE3LTIuNi0yMi41TDI1LjkgMy40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![music-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/music-slash.svg)
  */
 const MusicSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-cross` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-cross?s=regular shield-cross}
- * @preview ![shield-cross](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzMgMTI3TDI1NiA0OS40IDQzOSAxMjdjNS45IDIuNSA5LjEgNy44IDkgMTIuOGMtLjQgOTEuNC0zOC40IDI0OS4zLTE4Ni4zIDMyMC4xYy0zLjYgMS43LTcuOCAxLjctMTEuMyAwQzEwMi40IDM4OSA2NC41IDIzMS4yIDY0IDEzOS43YzAtNSAzLjEtMTAuMiA5LTEyLjh6TTQ1Ny43IDgyLjhMMjY5LjQgMi45QzI2NS4yIDEgMjYwLjcgMCAyNTYgMHMtOS4yIDEtMTMuNCAyLjlMNTQuMyA4Mi44Yy0yMiA5LjMtMzguNCAzMS0zOC4zIDU3LjJjLjUgOTkuMiA0MS4zIDI4MC43IDIxMy42IDM2My4yYzE2LjcgOCAzNi4xIDggNTIuOCAwQzQ1NC44IDQyMC43IDQ5NS41IDIzOS4yIDQ5NiAxNDBjLjEtMjYuMi0xNi4zLTQ3LjktMzguMy01Ny4yek0yODAgMTIwYzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgNDgtOTYgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw5NiAwIDAgMTc2YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xNzYgOTYgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtOTYgMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shield-cross](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/shield-cross.svg)
  */
 const ShieldCross: typeof Icon = x => (
     <Icon {...x}>

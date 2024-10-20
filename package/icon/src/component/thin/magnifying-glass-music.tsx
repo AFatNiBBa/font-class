@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `magnifying-glass-music` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-music?s=thin magnifying-glass-music}
- * @preview ![magnifying-glass-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDIwOEExOTIgMTkyIDAgMSAwIDE2IDIwOGExOTIgMTkyIDAgMSAwIDM4NCAwek0zNDkuMyAzNjAuNkMzMTIuMiAzOTUgMjYyLjYgNDE2IDIwOCA0MTZDOTMuMSA0MTYgMCAzMjIuOSAwIDIwOFM5My4xIDAgMjA4IDBTNDE2IDkzLjEgNDE2IDIwOGMwIDU0LjYtMjEgMTA0LjItNTUuNCAxNDEuM2wxNDkgMTQ5YzMuMSAzLjEgMy4xIDguMiAwIDExLjNzLTguMiAzLjEtMTEuMyAwbC0xNDktMTQ5ek0yODggMTA0YzAtMi41LTEuMS00LjgtMy4xLTYuM3MtNC41LTIuMS02LjktMS41bC02NCAxNmMtMy42IC45LTYuMSA0LjEtNi4xIDcuOGwwIDY0IDAgNTQuNGMtMTAuMi04LjktMjQuMy0xNC40LTQwLTE0LjRjLTMwLjkgMC01NiAyMS41LTU2IDQ4czI1LjEgNDggNTYgNDhzNTYtMjEuNSA1Ni00OGwwLTgxLjggNTcuOS0xNC41YzMuNi0uOSA2LjEtNC4xIDYuMS03LjhsMC02NHpNMjA4IDI3MmMwIDE1LjQtMTUuNSAzMi00MCAzMnMtNDAtMTYuNi00MC0zMnMxNS41LTMyIDQwLTMyczQwIDE2LjYgNDAgMzJ6bTY0LTExMC4ybC00OCAxMiAwLTQ3LjUgNDgtMTIgMCA0Ny41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![magnifying-glass-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/magnifying-glass-music.svg)
  */
 const MagnifyingGlassMusic: typeof Icon = x => (
     <Icon {...x}>

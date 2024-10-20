@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burger-fries` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-fries?s=sharp-solid burger-fries}
- * @preview ![burger-fries](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJMOTcuNCAyMjEuNCAxMTcuNyAyNzJsMTAuMyAwIDAtMTgxLjNMMTEyIDAgNjQgMzJ6TTE4LjcgMTkybDQxLjEgMEw0MS44IDkwLjUgMCA4MCAxOC43IDE5MnpNMzg0IDgwTDM0Mi43IDkwLjMgMzI1LjggMTkybDcuMyAwYzEwLjQtNi4xIDIyLTExLjcgMzUtMTYuNUwzODQgODB6TTI1NiA1MTJsMC0yMDhMOTYgMzA0IDY0IDIyNCAwIDIyNCA2NCA1MTJsMTkyIDB6bTAtMjQwbDQgMGMyLjItNS4yIDQuNy0xMC4zIDcuNi0xNS4zYzMuMS01LjMgNy0xMS4zIDExLjktMTcuN2wxMC4yLTI1LjVMMzIwIDMyIDI1NiA0OGwwIDIyNHptLTk2IDBsNjQgMCAwLTMyIDAtMjA4TDE2MCAwbDAgMjcyem00ODAgMTUuOHMtMzItOTYtMTc2LTk2cy0xNzYgOTYtMTc2IDk2bDAgMzIgMzUyIDAgMC0zMnptLTI1Ni00OGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bTY0IDBhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptOTYgMGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bS0yNTYgMTEybDAgNjQgMzUyIDAgMC02NC0zNTIgMHptMCA5NmwwIDY0IDM1MiAwIDAtNjQtMzUyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![burger-fries](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/burger-fries.svg)
  */
 const BurgerFries: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

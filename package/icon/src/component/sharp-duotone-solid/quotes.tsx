@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `quotes` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quotes?s=sharp-duotone-solid quotes}
- * @preview ![quotes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yNTYgMjcybDAgMTQ0IDgwIDAgMCA4YzAgMTMuMy0xMC43IDI0LTI0IDI0bC04IDAtMzIgMCAwIDY0IDMyIDAgOCAwYzQ4LjYgMCA4OC0zOS40IDg4LTg4bDAtOCAwLTcyIDAtNzItMTQ0IDB6bTE3NiAwbDAgMTQ0IDgwIDAgMCA4YzAgMTMuMy0xMC43IDI0LTI0IDI0bC04IDAtMzIgMCAwIDY0IDMyIDAgOCAwYzQ4LjYgMCA4OC0zOS40IDg4LTg4bDAtOCAwLTcyIDAtNzItMTQ0IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDg4QzAgMzkuNCAzOS40IDAgODggMGw4IDAgMzIgMCAwIDY0TDk2IDY0bC04IDBDNzQuNyA2NCA2NCA3NC43IDY0IDg4bDAgOCA4MCAwIDAgMTQ0TDAgMjQwbDAtNzJMMCA5NmwwLTh6bTE3NiAwYzAtNDguNiAzOS40LTg4IDg4LTg4bDggMCAzMiAwIDAgNjQtMzIgMC04IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgOCA4MCAwIDAgMTQ0LTE0NCAwIDAtNzIgMC03MiAwLTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![quotes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/quotes.svg)
  */
 const Quotes: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M256 272l0 144 80 0 0 8c0 13.3-10.7 24-24 24l-8 0-32 0 0 64 32 0 8 0c48.6 0 88-39.4 88-88l0-8 0-72 0-72-144 0zm176 0l0 144 80 0 0 8c0 13.3-10.7 24-24 24l-8 0-32 0 0 64 32 0 8 0c48.6 0 88-39.4 88-88l0-8 0-72 0-72-144 0z" />
-            <path d="M0 88C0 39.4 39.4 0 88 0l8 0 32 0 0 64L96 64l-8 0C74.7 64 64 74.7 64 88l0 8 80 0 0 144L0 240l0-72L0 96l0-8zm176 0c0-48.6 39.4-88 88-88l8 0 32 0 0 64-32 0-8 0c-13.3 0-24 10.7-24 24l0 8 80 0 0 144-144 0 0-72 0-72 0-8z" />
+        <path d="M0 88C0 39.4 39.4 0 88 0l8 0 32 0 0 64L96 64l-8 0C74.7 64 64 74.7 64 88l0 8 80 0 0 144L0 240l0-72L0 96l0-8zm176 0c0-48.6 39.4-88 88-88l8 0 32 0 0 64-32 0-8 0c-13.3 0-24 10.7-24 24l0 8 80 0 0 144-144 0 0-72 0-72 0-8z" />
     </Icon>
 );
 

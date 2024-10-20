@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `space-awesome` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/space-awesome?s=brands space-awesome}
- * @preview ![space-awesome](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMjU2SDEyOFY1MTJIMFYzNTJIMzJWMzIwSDY0VjI4OEg5NlYyNTZ6TTUxMiAzNTJWNTEySDM4NFYyNTZINDE2VjI4OEg0NDhWMzIwSDQ4MFYzNTJINTEyek0zMjAgNjRIMzUyVjQ0OEgzMjBWNDE2SDE5MlY0NDhIMTYwVjY0SDE5MlYzMkgyMjRWMEgyODhWMzJIMzIwVjY0ek0yODggMTI4SDIyNFYxOTJIMjg4VjEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![space-awesome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/space-awesome.svg)
  */
 const SpaceAwesome: typeof Icon = x => (
     <Icon {...x}>

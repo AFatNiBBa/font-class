@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `utensils` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utensils?s=sharp-light utensils}
- * @preview ![utensils](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk3LjYgMEwxNjUuMSAwbDI2LjIgMTU3LjRjLjQgMi42IC43IDUuMiAuNyA3LjlsMCAxMC43YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC02NCAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTEwLjdjMC0yLjYgLjItNS4zIC43LTcuOUw1OC45IDAgMjYuNCAwIDEuMSAxNTIuMUMuNCAxNTYuNSAwIDE2MC45IDAgMTY1LjNMMCAxNzZjMCA0NC4yIDM1LjggODAgODAgODBsMTYgMCAwIDI0MCAwIDE2IDMyIDAgMC0xNiAwLTI0MCAxNiAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwbDAtMTAuN2MwLTQuNC0uNC04LjgtMS4xLTEzLjJMMTk3LjYgMHpNMTUxLjIgMGwtMzIgMCAuOCAxNi44IDguNSAxNzAgLjMgNS4yIDMyIDAtLjMtNi44TDE1MiAxNS4yIDE1MS4yIDB6TTEwNC44IDBsLTMyIDBMNzIgMTUuMmwtOC41IDE3MC0uMyA2LjggMzIgMCAuMy01LjIgOC41LTE3MEwxMDQuOCAwek0zMjAgMTc2YzAtNjIuNSAyMy44LTk3LjcgNDctMTE3LjhjMTItMTAuNCAyNC40LTE3LjIgMzQuNS0yMS4zYzcuNi0zLjEgMTIuNi00LjIgMTQuMy00LjZsLjItLjFMNDE2IDMyMGwtOTYgMCAwLTE0NHpNNDQ4IDMyMGwwLTI4OCAwLTMyTDQxNiAwQzQwMCAwIDI4OCAzMiAyODggMTc2bDAgMTQ0IDAgMzIgMzIgMCA5NiAwIDAgMTQ0IDAgMTYgMzIgMCAwLTE2IDAtMTQ0IDAtMTYgMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![utensils](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/utensils.svg)
  */
 const Utensils: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

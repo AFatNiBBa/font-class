@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tree-palm` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-palm?s=regular tree-palm}
- * @preview ![tree-palm](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTAyLjkgOTEuNGwzMC4zIDUwLjVjLTQgMy41LTggNy4yLTEyIDExLjJjLTcxIDcxLTYwLjIgMTUxLTMyLjcgMTkxLjNjNSA3LjMgMTUuMiA3LjMgMjEuNCAxTDIzNiAyMTkuM2MyLjMgOS4zIDQuMyAyMC4zIDUuNiAzMi45YzQuOSA0Ni42IC41IDExNS4xLTI2LjQgMjA4LjNjLTcuMyAyNS4zIDExLjMgNTEuNSAzOC41IDUxLjVsODQuMSAwYzIwIDAgMzcuNi0xNSAzOS42LTM1LjdjOS4yLTk1LjUtNS45LTIwMi0zNC4zLTI4NC4zbDEwMy41IDBjMi44IDAgNS40LTEuNSA2LjktMy45bDE5LjYtMzIuN2MzLjEtNS4yIDEwLjYtNS4yIDEzLjcgMGwxOS42IDMyLjdjMS40IDIuNCA0LjEgMy45IDYuOSAzLjlsNDYuNyAwYzguOCAwIDE2LjEtNy4yIDE0LjQtMTUuOUM1NjUuMyAxMjguMiA1MTYuNCA2NCA0MTYgNjRjLTQzLjcgMC03Ny42IDEyLjItMTAyLjggMjkuOEMyOTYuNSA0OS40IDI0OCAwIDE2MCAwQzU5LjYgMCAxMC43IDY0LjIgMS42IDExMi4xQy0uMSAxMjAuOCA3LjIgMTI4IDE2IDEyOGw0Ni43IDBjMi44IDAgNS40LTEuNSA2LjktMy45TDg5LjEgOTEuNGMzLjEtNS4yIDEwLjYtNS4yIDEzLjcgMHpNMjkyIDE5MmMyOC42IDc0LjEgNDYgMTc3LjkgMzguMyAyNzJsLTY2LjIgMGMyNS44LTkyLjkgMzAuNy0xNjQuNSAyNS4yLTIxNi44Yy0yLjItMjEuNS02LjItMzkuOS0xMS40LTU1LjJsMTQuMSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tree-palm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tree-palm.svg)
  */
 const TreePalm: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

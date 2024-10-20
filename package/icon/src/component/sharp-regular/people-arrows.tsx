@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `people-arrows` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-arrows?s=sharp-regular people-arrows}
- * @preview ![people-arrows](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRhNjQgNjQgMCAxIDEgMTI4IDBBNjQgNjQgMCAxIDEgNjQgNjR6TTc4IDIwOGwtNCA5NiAzMC44IDAgMzkuNiAzOS42TDE5MiAzOTEuMmwwIDk2LjggMCAyNC00OCAwIDAtMjQgMC0xMzYtMzIgMCAwIDEzNiAwIDI0LTQ4IDAgMC0yNCAwLTEzNi00MCAwIDItNDggNi0xNDQgMTkyIDAgMSAyMy44LTE2LjYgMTYuNi0yOS41IDI5LjVMMTc4IDIwOCA3OCAyMDh6TTQ0OCA0ODhsMC05Ni44IDQ3LjYtNDcuNkw1MzUuMiAzMDRsMzAuOCAwLTQtOTZMNDYyIDIwOGwtLjkgMjEuOS0yOS41LTI5LjVMNDE1IDE4My44bDEtMjMuOCAxOTIgMCA2IDE0NCAyIDQ4LTQwIDAgMCAxMzYgMCAyNC00OCAwIDAtMjQgMC0xMzYtMzIgMCAwIDEzNiAwIDI0LTQ4IDAgMC0yNHptMC00MjRhNjQgNjQgMCAxIDEgMTI4IDBBNjQgNjQgMCAxIDEgNDQ4IDY0ek0yNjUgMjU3bC0yMyAyMyAxNTYuMSAwLTIzLTIzLTE3LTE3TDM5MiAyMDYuMWwxNyAxNyA2NCA2NCAxNyAxNy0xNyAxNy02NCA2NC0xNyAxN0wzNTguMSAzNjhsMTctMTcgMjMtMjMtMTU2LjEgMCAyMyAyMyAxNyAxN0wyNDggNDAxLjlsLTE3LTE3LTY0LTY0LTE3LTE3IDE3LTE3IDY0LTY0IDE3LTE3TDI4MS45IDI0MGwtMTcgMTd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![people-arrows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/people-arrows.svg)
  */
 const PeopleArrows: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-hangup` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-hangup?s=solid phone-hangup}
- * @preview ![phone-hangup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEuNyAyNjYuM2w0MS45IDk0LjNjNi4xIDEzLjcgMjAuOCAyMS4zIDM1LjUgMTguNGwxMDkuMi0yMS44YzE1LTMgMjUuNy0xNi4xIDI1LjctMzEuNFYyNDBjNjIuMy0yMC44IDEyOS43LTIwLjggMTkyIDB2ODUuOGMwIDE1LjMgMTAuOCAyOC40IDI1LjcgMzEuNEw1NTAuOSAzNzljMTQuNyAyLjkgMjkuNC00LjcgMzUuNS0xOC40bDQxLjktOTQuM2M3LjItMTYuMiA1LjEtMzUuMS03LjQtNDcuN0M1NzAuOCAxNjguMSA0NjQuMiA5NiAzMjAgOTZTNjkuMiAxNjguMSAxOS4xIDIxOC42Yy0xMi41IDEyLjYtMTQuNiAzMS41LTcuNCA0Ny43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![phone-hangup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-hangup.svg)
  */
 const PhoneHangup: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

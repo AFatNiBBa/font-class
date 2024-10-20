@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-history-circle-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-history-circle-plus?s=solid rectangle-history-circle-plus}
- * @preview ![rectangle-history-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDM2OGMwIDU5LjUgMjkuNSAxMTIuMSA3NC44IDE0NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMjI0YzAtMzUuMyAyOC43LTY0IDY0LTY0bDM4NCAwYzIzLjggMCA0NC41IDEyLjkgNTUuNSAzMi4yYy0yLjUtLjEtNS0uMi03LjUtLjJjLTk3LjIgMC0xNzYgNzguOC0xNzYgMTc2ek00NDAgODBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRMNzIgMTI4Yy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0bDM2OCAwek0zOTIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNEwxMjAgNDhjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRMMzkyIDB6TTQ5NiAyMjRhMTQ0IDE0NCAwIDEgMSAwIDI4OCAxNDQgMTQ0IDAgMSAxIDAtMjg4em0xNiA4MGMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDQ4LTQ4IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNDggMCAwIDQ4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC00OCA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC00OCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rectangle-history-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/rectangle-history-circle-plus.svg)
  */
 const RectangleHistoryCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

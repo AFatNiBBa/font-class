@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `router` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/router?s=sharp-light router}
- * @preview ![router](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBjNzEuNCAwIDEzNi43IDI2IDE4NyA2OUw1MTYuMyA5MS43QzQ3MS45IDU0LjQgNDE0LjUgMzIgMzUyIDMycy0xMTkuOSAyMi40LTE2NC4zIDU5LjdMMTY1IDY5QzIxNS4zIDI2IDI4MC42IDAgMzUyIDB6bTAgOTZjNDQuOSAwIDg2LjEgMTUuNCAxMTguOCA0MS4yTDQ0OCAxNjBjLTI2LjctMjAuMS02MC0zMi05Ni0zMnMtNjkuMyAxMS45LTk2IDMybC0yMi44LTIyLjhDMjY1LjkgMTExLjQgMzA3LjEgOTYgMzUyIDk2em0xNiAxMjhsMCAxNiAwIDgwIDE3NiAwIDMyIDAgMCAzMiAwIDEyOCAwIDMyLTMyIDBMMzIgNTEyIDAgNTEybDAtMzJMMCAzNTJsMC0zMiAzMiAwIDMwNCAwIDAtODAgMC0xNiAzMiAwek01NDQgMzUyTDMyIDM1MmwwIDEyOCA1MTIgMCAwLTEyOHpNMTYwIDM5Mmw0OCAwIDAgNDgtNDggMCAwLTQ4em0tMzIgMGwwIDQ4LTQ4IDAgMC00OCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![router](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/router.svg)
  */
 const Router: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

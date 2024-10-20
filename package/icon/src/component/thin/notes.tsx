@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `notes` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notes?s=thin notes}
- * @preview ![notes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDk2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDI1NiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMTgxLjVjMCAzLjYtLjQgNy4xLTEuMiAxMC41TDM5MiAyODhjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgNzAuOGMtMy40IC44LTYuOSAxLjItMTAuNSAxLjJMMTYwIDQwMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0yNTZ6TTQ1NiAzMDRjLTEuOCAyLjctMy44IDUuMS02LjEgNy40bC03NC41IDc0LjVjLTIuMyAyLjMtNC44IDQuMy03LjQgNi4xbDAtNjRjMC0xMy4zIDEwLjctMjQgMjQtMjRsNjQgMHpNOTYgOTZsMCAyNTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMTgxLjUgMGMxNyAwIDMzLjMtNi43IDQ1LjMtMTguN2w3NC41LTc0LjVjMTItMTIgMTguNy0yOC4zIDE4LjctNDUuM0w0ODAgOTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMMTYwIDMyYy0zNS4zIDAtNjQgMjguNy02NCA2NHpNNjQgMTI4Yy0zNS4zIDAtNjQgMjguNy02NCA2NEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwtMTYgMGMwIDI2LjUtMjEuNSA0OC00OCA0OEw2NCA0OTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjU2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![notes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/notes.svg)
  */
 const Notes: typeof Icon = x => (
     <Icon {...x}>

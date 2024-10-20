@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plug-circle-bolt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-bolt?s=solid plug-circle-bolt}
- * @preview ![plug-circle-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMEM3OC4zIDAgNjQgMTQuMyA2NCAzMmwwIDk2IDY0IDAgMC05NmMwLTE3LjctMTQuMy0zMi0zMi0zMnpNMjg4IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgOTYgNjQgMCAwLTk2YzAtMTcuNy0xNC4zLTMyLTMyLTMyek0zMiAxNjBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsMCAzMmMwIDc3LjQgNTUgMTQyIDEyOCAxNTYuOGwwIDY3LjJjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTY3LjJjMTIuMy0yLjUgMjQuMS02LjQgMzUuMS0xMS41Yy0yLjEtMTAuOC0zLjEtMjEuOS0zLjEtMzMuM2MwLTgwLjMgNTMuOC0xNDggMTI3LjMtMTY5LjJjLjUtMi4yIC43LTQuNSAuNy02LjhjMC0xNy43LTE0LjMtMzItMzItMzJMMzIgMTYwek00MzIgNTEyYTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHptNDcuOS0yMjVjNC4zIDMuNyA1LjQgOS45IDIuNiAxNC45TDQ1Mi40IDM1NmwzNS42IDBjNS4yIDAgOS44IDMuMyAxMS40IDguMnMtLjEgMTAuMy00LjIgMTMuNGwtOTYgNzJjLTQuNSAzLjQtMTAuOCAzLjItMTUuMS0uNnMtNS40LTkuOS0yLjYtMTQuOUw0MTEuNiAzODAgMzc2IDM4MGMtNS4yIDAtOS44LTMuMy0xMS40LTguMnMuMS0xMC4zIDQuMi0xMy40bDk2LTcyYzQuNS0zLjQgMTAuOC0zLjIgMTUuMSAuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![plug-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plug-circle-bolt.svg)
  */
 const PlugCircleBolt: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

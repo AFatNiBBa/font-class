@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-clock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-clock?s=thin calendar-clock}
- * @preview ![calendar-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDBjNC40IDAgOCAzLjYgOCA4bDAgNTYgMTkyIDAgMC01NmMwLTQuNCAzLjYtOCA4LThzOCAzLjYgOCA4bDAgNTYgNDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDQ4IDAgMTYgMCAuN2MtNS4zLS41LTEwLjYtLjctMTYtLjdMMTYgMTkybDAgMjU2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDI0Ny4yIDBjNi4xIDUuOCAxMi43IDExLjEgMTkuNiAxNkw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTkybDAtMTYgMC00OEMwIDkyLjcgMjguNyA2NCA2NCA2NGw0OCAwIDAtNTZjMC00LjQgMy42LTggOC04em0tOCAxMjBsMC00MEw2NCA4MGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCA0OCA0MTYgMCAwLTQ4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC00OCAwIDAgNDBjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC00MEwxMjggODBsMCA0MGMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOHpNNDMyIDQ5NmExMjggMTI4IDAgMSAwIDAtMjU2IDEyOCAxMjggMCAxIDAgMCAyNTZ6bTAtMjcyYTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptMCA2NGM0LjQgMCA4IDMuNiA4IDhsMCA2NCA0OCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC01NiAwYy00LjQgMC04LTMuNi04LThsMC03MmMwLTQuNCAzLjYtOCA4LTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![calendar-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/calendar-clock.svg)
  */
 const CalendarClock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

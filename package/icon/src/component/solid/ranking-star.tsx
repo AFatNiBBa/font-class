@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ranking-star` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ranking-star?s=solid ranking-star}
- * @preview ![ranking-star](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUzLjggNTQuMUwzMzAuMiA2LjNjLTMuOS04LjMtMTYuMS04LjYtMjAuNCAwTDI4Ni4yIDU0LjFsLTUyLjMgNy41Yy05LjMgMS40LTEzLjMgMTIuOS02LjQgMTkuOGwzOCAzNy05IDUyLjFjLTEuNCA5LjMgOC4yIDE2LjUgMTYuOCAxMi4ybDQ2LjktMjQuOCA0Ni42IDI0LjRjOC42IDQuMyAxOC4zLTIuOSAxNi44LTEyLjJsLTktNTIuMSAzOC0zNi42YzYuOC02LjggMi45LTE4LjMtNi40LTE5LjhsLTUyLjMtNy41ek0yNTYgMjU2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE5MmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxMjggMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTE5MmMwLTE3LjctMTQuMy0zMi0zMi0zMmwtMTI4IDB6TTMyIDMyMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJMMCA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTI4IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJMMzIgMzIwem00MTYgOTZsMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxMjggMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0YzAtMTcuNy0xNC4zLTMyLTMyLTMybC0xMjggMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ranking-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ranking-star.svg)
  */
 const RankingStar: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

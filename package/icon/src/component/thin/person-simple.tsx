@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-simple?s=thin person-simple}
- * @preview ![person-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDY0QTQ4IDQ4IDAgMSAwIDgwIDY0YTQ4IDQ4IDAgMSAwIDk2IDB6TTY0IDY0YTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDY0IDY0ek00MS44IDIzNC43TDM3LjcgMjg0Yy0yLjMgMjggMTkuOCA1MiA0Ny44IDUybDI2LjQgMCAzMiAwIDI2LjQgMGMyOC4xIDAgNTAuMi0yNCA0Ny44LTUybC00LjEtNDkuM2MtMi44LTMzLjItMzAuNS01OC43LTYzLjgtNTguN2wtNDQuOCAwYy0zMy4zIDAtNjEgMjUuNS02My44IDU4Ljd6TTEzNiAzNTJsLTE2IDAgMCAxMjhjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0xMzUuMmMtMjIuMS0xMS41LTM2LjQtMzUuNC0zNC4yLTYyLjFsNC4xLTQ5LjNDMjkuMyAxOTEuOSA2NCAxNjAgMTA1LjYgMTYwbDQ0LjggMGM0MS42IDAgNzYuMyAzMS45IDc5LjcgNzMuNGw0LjEgNDkuM2MyLjIgMjYuNy0xMi4yIDUwLjYtMzQuMiA2Mi4xTDIwMCA0ODBjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0xMjh6bTQ4LTEuNGMtNC40IC45LTguOSAxLjQtMTMuNiAxLjRMMTUyIDM1MmwwIDEyOGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMTI5LjR6TTg1LjYgMzUyYy00LjcgMC05LjItLjUtMTMuNi0xLjRMNzIgNDgwYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xMjgtMTguNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-simple.svg)
  */
 const PersonSimple: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

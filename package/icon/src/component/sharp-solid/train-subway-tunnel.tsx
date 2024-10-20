@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `train-subway-tunnel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-subway-tunnel?s=sharp-solid train-subway-tunnel}
- * @preview ![train-subway-tunnel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZDMCAxMTQuNiAxMTQuNiAwIDI1NiAwUzUxMiAxMTQuNiA1MTIgMjU2bDAgMjU2LTEwNS40IDAtNjQtNjQgNTcuNCAwIDAtMzIwLTI4OCAwIDAgMzIwIDU3LjQgMC02NCA2NEwwIDUxMiAwIDI1NnpNMjk3LjQgNDQ4bDY0IDY0LTIxMC43IDAgNjQtNjQgODIuNyAwek0yNDAgMTkybDAgMTI4LTgwIDAgMC0xMjggODAgMHptMzIgMTI4bDAtMTI4IDgwIDAgMCAxMjgtODAgMHptLTg4IDMyYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMTIwIDI0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![train-subway-tunnel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/train-subway-tunnel.svg)
  */
 const TrainSubwayTunnel: typeof Icon = x => (
     <Icon {...x}>

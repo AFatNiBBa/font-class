@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-circle-arrow-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-circle-arrow-right?s=regular book-circle-arrow-right}
- * @preview ![book-circle-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMEMzOS40IDAgMCAzOS40IDAgODhMMCA0MjRsLjQgMGMtLjMgMi42LS40IDUuMy0uNCA4YzAgNDQuMiAzNS44IDgwIDgwIDgwbDMxNC44IDBjLTE4LjMtMTIuOS0zNC4xLTI5LjItNDYuMy00OEw4MCA0NjRjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMjQyLjkgMGMtMS45LTEwLjQtMi45LTIxLjEtMi45LTMyYzAtNS40IC4yLTEwLjcgLjctMTZMODAgMzUyYy0xMS40IDAtMjIuMiAyLjQtMzIgNi43TDQ4IDg4YzAtMjIuMSAxNy45LTQwIDQwLTQwbDMwNCAwYzQuNCAwIDggMy42IDggOGwwIDE2NC41YzE0LjYtOS41IDMwLjgtMTcgNDgtMjEuOEw0NDggNTZjMC0zMC45LTI1LjEtNTYtNTYtNTZMODggMHpNNjQwIDM2OGExNDQgMTQ0IDAgMSAwIC0yODggMCAxNDQgMTQ0IDAgMSAwIDI4OCAwek00OTIuNyAzMDAuN2M2LjItNi4yIDE2LjQtNi4yIDIyLjYgMGw1NiA1NmM2LjIgNi4yIDYuMiAxNi40IDAgMjIuNmwtNTYgNTZjLTYuMiA2LjItMTYuNCA2LjItMjIuNiAwcy02LjItMTYuNCAwLTIyLjZMNTIxLjQgMzg0IDQzMiAzODRjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsODkuNCAwLTI4LjctMjguN2MtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-circle-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/book-circle-arrow-right.svg)
  */
 const BookCircleArrowRight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

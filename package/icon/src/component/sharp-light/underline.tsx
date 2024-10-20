@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `underline` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/underline?s=sharp-light underline}
- * @preview ![underline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwxNiAwIDEyOCAwIDE2IDAgMCAzMi0xNiAwTDk2IDY0bDAgMTYwYzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4czEyOC01Ny4zIDEyOC0xMjhsMC0xNjAtNDggMC0xNiAwIDAtMzIgMTYgMCAxMjggMCAxNiAwIDAgMzItMTYgMC00OCAwIDAgMTYwYzAgODguNC03MS42IDE2MC0xNjAgMTYwcy0xNjAtNzEuNi0xNjAtMTYwTDY0IDY0IDE2IDY0IDAgNjQgMCAzMnpNMCA0NDhsMTYgMCA0MTYgMCAxNiAwIDAgMzItMTYgMEwxNiA0ODAgMCA0ODBsMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![underline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/underline.svg)
  */
 const Underline: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

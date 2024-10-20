@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `inboxes` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inboxes?s=sharp-solid inboxes}
- * @preview ![inboxes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzQuMyAwTDk2IDAgNDE2IDBsMjEuNyAwIDggMjAuMSA2NCAxNjAgMi4zIDUuNyAwIDYuMiAwIDk2IDAgMzItMzIgMEwzMiAzMjAgMCAzMjBsMC0zMiAwLTk2IDAtNi4yIDIuMy01LjcgNjQtMTYwTDc0LjMgMHptNDMuMyA2NEw3OS4zIDE2MGw2NC43IDAgMzIgNjQgMTYwIDAgMzItNjQgNjQuNyAwTDM5NC4zIDY0IDExNy43IDY0ek0wIDM1MmwxNDQgMCAzMiA2NCAxNjAgMCAzMi02NCAxNDQgMCAwIDE2MEwwIDUxMiAwIDM1MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![inboxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/inboxes.svg)
  */
 const Inboxes: typeof Icon = x => (
     <Icon {...x}>

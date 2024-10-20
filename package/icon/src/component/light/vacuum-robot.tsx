@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vacuum-robot` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vacuum-robot?s=light vacuum-robot}
- * @preview ![vacuum-robot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTM1Ni43IDE1NS4zYy01NS42LTU1LjYtMTQ1LjgtNTUuNi0yMDEuNCAwYy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMHMtNi4yLTE2LjQgMC0yMi42YzY4LjEtNjguMSAxNzguNS02OC4xIDI0Ni42IDBzNjguMSAxNzguNSAwIDI0Ni42Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMHMtNi4yLTE2LjQgMC0yMi42YzU1LjYtNTUuNiA1NS42LTE0NS44IDAtMjAxLjR6bS0xNDQgNTcuNGM2LjItNi4yIDE2LjQtNi4yIDIyLjYgMGw2NCA2NGM2LjIgNi4yIDYuMiAxNi40IDAgMjIuNnMtMTYuNCA2LjItMjIuNiAwbC02NC02NGMtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZ6bS04MCAxNmM2LjItNi4yIDE2LjQtNi4yIDIyLjYgMGwxMjggMTI4YzYuMiA2LjIgNi4yIDE2LjQgMCAyMi42cy0xNi40IDYuMi0yMi42IDBsLTEyOC0xMjhjLTYuMi02LjItNi4yLTE2LjQgMC0yMi42em0tMTYgMTAyLjZjLTYuMi02LjItNi4yLTE2LjQgMC0yMi42czE2LjQtNi4yIDIyLjYgMGw2NCA2NGM2LjIgNi4yIDYuMiAxNi40IDAgMjIuNnMtMTYuNCA2LjItMjIuNiAwbC02NC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![vacuum-robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/vacuum-robot.svg)
  */
 const VacuumRobot: typeof Icon = x => (
     <Icon {...x}>

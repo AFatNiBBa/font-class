@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-digging` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-digging?s=sharp-light person-digging}
- * @preview ![person-digging](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0YTMyIDMyIDAgMSAwIDY0IDAgMzIgMzIgMCAxIDAgLTY0IDB6bTMyIDY0QTY0IDY0IDAgMSAxIDI1NiAwYTY0IDY0IDAgMSAxIDAgMTI4ek0xMzguOSAxMDcuNmwxMi4yIDYuMSA5NiA0OCA1LjggMi45IDIuMSA2LjEgNTQgMTU0LjJMMzg4IDM2OGwzOS45LTUzLjJMNDQ4IDI4OGwxOS43IDI3LjFMNTc2IDQ2NGwwIDE2IDAgMzItMzIgMC0yNTQuMyAwTDI1NiA1MTJsMTAuNy0zMkwyODggNDE2bDY0IDAgMTYuNi0yMi4yTDI0LjMgMjA2bC0xNC03LjcgMTUuMy0yOC4xIDE0IDcuNyAzNS4zIDE5LjJMMTMxIDExOC43bDcuOS0xMS4xek0yMjcgMTg3LjRsLTc4LTM5LTQ1LjkgNjQuMkwyNjcuMiAzMDIgMjI3IDE4Ny40ek00NDcuNiAzNDEuOWwtNzAgOTMuM0wzNjggNDQ4bC0xNiAwLTQwLjkgMC0xMC43IDMyTDU0NCA0ODBsMC01LjZMNDQ3LjYgMzQxLjl6TTUzIDI3OS42TDcxLjggMjkwbDE0NCA4MCA4LjIgNC42IDAgOS40IDAgMTEyIDAgMTYtMzIgMCAwLTE2IDAtMTAyLjYtMTE3LTY1TDM0LjIgNTEyIDEuNCA1MTJsNDctMjExLjVMNTMgMjc5LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-digging](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-digging.svg)
  */
 const PersonDigging: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tag` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tag?s=sharp-thin tag}
- * @preview ![tag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ1Ny40TDE2IDI0OS40IDE2IDQ4bDIwMS40IDAgMjA4IDIwOEwyMjQgNDU3LjR6TTQzNi43IDI0NC43TDIyNCAzMiAxNiAzMiAwIDMyIDAgNDggMCAyNTYgMjEyLjcgNDY4LjcgMjI0IDQ4MGwxMS4zLTExLjNMNDM2LjcgMjY3LjMgNDQ4IDI1NmwtMTEuMy0xMS4zek0xMTIgMTg0YTQwIDQwIDAgMSAwIDAtODAgNDAgNDAgMCAxIDAgMCA4MHpNODggMTQ0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tag.svg)
  */
 const Tag: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-hair` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair?s=sharp-solid user-hair}
- * @preview ![user-hair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDE0NGMwIDQ0LjItMzUuOCA4MC04MCA4MHMtODAtMzUuOC04MC04MGwwLTE2YzAtNS41IC42LTEwLjggMS42LTE2bDYyLjQgMCAzMi0zMiAxNiAxNiA0MS4zIDBjNC4zIDkuOCA2LjcgMjAuNiA2LjcgMzJsMCAxNnpNMjI0IDBDMTUzLjMgMCA5NiA1Ny4zIDk2IDEyOGwwIDE2YzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4czEyOC01Ny4zIDEyOC0xMjhsMC0xNkMzNTIgNTcuMyAyOTQuNyAwIDIyNCAwek00NDggNTEyTDM4NCAzMjAgNjQgMzIwIDAgNTEybDQ0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-hair.svg)
  */
 const UserHair: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `spinner-third` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-third?s=duotone spinner-third}
- * @preview ![spinner-third](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NkMwIDExNC45IDExNC4xIC41IDI1NS4xIDBDMjM3LjkgLjUgMjI0IDE0LjYgMjI0IDMyYzAgMTcuNyAxNC4zIDMyIDMyIDMyQzE1MCA2NCA2NCAxNTAgNjQgMjU2czg2IDE5MiAxOTIgMTkyYzY5LjcgMCAxMzAuNy0zNy4xIDE2NC41LTkyLjZjLTMgNi42LTMuMyAxNC44LTEgMjIuMmMxLjIgMy43IDMgNy4yIDUuNCAxMC4zYzEuMiAxLjUgMi42IDMgNC4xIDQuM2MuOCAuNyAxLjYgMS4zIDIuNCAxLjljLjQgLjMgLjggLjYgMS4zIC45cy45IC42IDEuMyAuOGM1IDIuOSAxMC42IDQuMyAxNiA0LjNjMTEgMCAyMS44LTUuNyAyNy43LTE2Yy00NC4zIDc2LjUtMTI3IDEyOC0yMjEuNyAxMjhDMTE0LjYgNTEyIDAgMzk3LjQgMCAyNTZ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yMjQgMzJjMC0xNy43IDE0LjMtMzIgMzItMzJDMzk3LjQgMCA1MTIgMTE0LjYgNTEyIDI1NmMwIDQ2LjYtMTIuNSA5MC40LTM0LjMgMTI4Yy04LjggMTUuMy0yOC40IDIwLjUtNDMuNyAxMS43cy0yMC41LTI4LjQtMTEuNy00My43YzE2LjMtMjguMiAyNS43LTYxIDI1LjctOTZjMC0xMDYtODYtMTkyLTE5Mi0xOTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![spinner-third](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/spinner-third.svg)
  */
 const SpinnerThird: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256C0 114.9 114.1 .5 255.1 0C237.9 .5 224 14.6 224 32c0 17.7 14.3 32 32 32C150 64 64 150 64 256s86 192 192 192c69.7 0 130.7-37.1 164.5-92.6c-3 6.6-3.3 14.8-1 22.2c1.2 3.7 3 7.2 5.4 10.3c1.2 1.5 2.6 3 4.1 4.3c.8 .7 1.6 1.3 2.4 1.9c.4 .3 .8 .6 1.3 .9s.9 .6 1.3 .8c5 2.9 10.6 4.3 16 4.3c11 0 21.8-5.7 27.7-16c-44.3 76.5-127 128-221.7 128C114.6 512 0 397.4 0 256z" />
-            <path d="M224 32c0-17.7 14.3-32 32-32C397.4 0 512 114.6 512 256c0 46.6-12.5 90.4-34.3 128c-8.8 15.3-28.4 20.5-43.7 11.7s-20.5-28.4-11.7-43.7c16.3-28.2 25.7-61 25.7-96c0-106-86-192-192-192c-17.7 0-32-14.3-32-32z" />
+        <path d="M224 32c0-17.7 14.3-32 32-32C397.4 0 512 114.6 512 256c0 46.6-12.5 90.4-34.3 128c-8.8 15.3-28.4 20.5-43.7 11.7s-20.5-28.4-11.7-43.7c16.3-28.2 25.7-61 25.7-96c0-106-86-192-192-192c-17.7 0-32-14.3-32-32z" />
     </Icon>
 );
 

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `chopsticks` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chopsticks?s=duotone chopsticks}
- * @preview ![chopsticks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDQ5NmMwIDQuNyAyLjEgOS40IDYuMSAxMi42QzkgNTEwLjkgMTIuNSA1MTIgMTYgNTEyYzQuNyAwIDkuNC0yLjEgMTIuNi02LjFjODkuMy0xMDEuNCAxNzguNS0yMDIuNyAyNjcuOC0zMDRjLTIwLjItMTYuMS00MC4zLTMyLjMtNjAuNS00OC40QzE1OC40IDI2NC40IDgwLjkgMzc1LjIgMy40IDQ4Ni4xQzEuMSA0ODkgMCA0OTIuNSAwIDQ5NnptMTMxLjkgMTAuNGM1LjggNi43IDE1LjkgNy41IDIyLjYgMS43YzEwNi04MS4zIDIxMS45LTE2Mi42IDMxNy45LTI0My45Yy0xNy44LTE3LjgtMzUuNS0zNS41LTUzLjItNTMuMkwxMzMuNiA0ODMuOWMtNi43IDUuOC03LjUgMTUuOC0xLjcgMjIuNnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTI5Ni4zIDIwMS45bC02MC41LTQ4LjRMMzMwLjMgMTguM0MzMzkgNy4yIDM1Mi43IDAgMzY4IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhjMCAxMS4yLTMuOCAyMS41LTEwLjMgMjkuN0wyOTYuMyAyMDEuOXptMTc1LjkgNjIuNEw0MTkgMjExIDU2MC44IDc1LjZDNTY5LjIgNjguNCA1ODAuMSA2NCA1OTIgNjRjMjYuNSAwIDQ4IDIxLjUgNDggNDhjMCAxNC42LTYuNSAyNy42LTE2LjggMzYuNGwtMTUxIDExNS44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chopsticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chopsticks.svg)
  */
 const Chopsticks: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 496c0 4.7 2.1 9.4 6.1 12.6C9 510.9 12.5 512 16 512c4.7 0 9.4-2.1 12.6-6.1c89.3-101.4 178.5-202.7 267.8-304c-20.2-16.1-40.3-32.3-60.5-48.4C158.4 264.4 80.9 375.2 3.4 486.1C1.1 489 0 492.5 0 496zm131.9 10.4c5.8 6.7 15.9 7.5 22.6 1.7c106-81.3 211.9-162.6 317.9-243.9c-17.8-17.8-35.5-35.5-53.2-53.2L133.6 483.9c-6.7 5.8-7.5 15.8-1.7 22.6z" />
-            <path d="M296.3 201.9l-60.5-48.4L330.3 18.3C339 7.2 352.7 0 368 0c26.5 0 48 21.5 48 48c0 11.2-3.8 21.5-10.3 29.7L296.3 201.9zm175.9 62.4L419 211 560.8 75.6C569.2 68.4 580.1 64 592 64c26.5 0 48 21.5 48 48c0 14.6-6.5 27.6-16.8 36.4l-151 115.8z" />
+        <path d="M296.3 201.9l-60.5-48.4L330.3 18.3C339 7.2 352.7 0 368 0c26.5 0 48 21.5 48 48c0 11.2-3.8 21.5-10.3 29.7L296.3 201.9zm175.9 62.4L419 211 560.8 75.6C569.2 68.4 580.1 64 592 64c26.5 0 48 21.5 48 48c0 14.6-6.5 27.6-16.8 36.4l-151 115.8z" />
     </Icon>
 );
 

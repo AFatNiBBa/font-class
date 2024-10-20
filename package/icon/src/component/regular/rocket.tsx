@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rocket` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rocket?s=regular rocket}
- * @preview ![rocket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4LjMgMjY1Yy00NC41IDMwLjEtMTI5LjMgNjguMi0xNzUuNyA4OGwtMzUtMzVjMjAuNC00Ni4xIDU5LjItMTMwIDg5LjMtMTc0LjRDMzA5LjEgNTIgMzk4LjQgNDEuOCA0NjEuNyA1MC4zYzguNSA2My4zLTEuNyAxNTIuNi05My4zIDIxNC43ek0xMTguNSAyODhjLTMuNiA4LTYuOCAxNS4yLTkuNCAyMS4yYy01LjIgMTEuOS0yLjUgMjUuNyA2LjcgMzQuOWw1MC43IDUwLjdjOS4xIDkuMSAyMi43IDExLjkgMzQuNSA2LjljNi41LTIuNyAxNC4zLTYgMjMtOS44bDAgOTYuMmMwIDguNiA0LjYgMTYuNiAxMi4xIDIwLjlzMTYuNyA0LjIgMjQuMS0uMmw4OC41LTUyLjVjMjEuOS0xMyAzNS4zLTM2LjUgMzUuMy02MS45bDAtODIuMWM0LTIuNSA3LjctNC45IDExLjMtNy4zQzUxNi4xIDIyMi45IDUyMC4xIDEwMC45IDUwNi43IDI4LjFjLTIuMS0xMS42LTExLjItMjAuNi0yMi44LTIyLjhDNDExLjEtOC4xIDI4OS4xLTQuMSAyMDcuMiAxMTYuN2MtMi40IDMuNi00LjkgNy4zLTcuMyAxMS4zbC04Mi4xIDBjLTI1LjQgMC00OSAxMy40LTYxLjkgMzUuM0wzLjQgMjUxLjhjLTQuNCA3LjQtNC41IDE2LjYtLjIgMjQuMVMxNS40IDI4OCAyNCAyODhsOTQuNSAwek00MDggMTQ0YTQwIDQwIDAgMSAwIC04MCAwIDQwIDQwIDAgMSAwIDgwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rocket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/rocket.svg)
  */
 const Rocket: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-middle-top` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-middle-top?s=sharp-light message-middle-top}
- * @preview ![message-middle-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTczLjcgOTZMMzIgOTYgMCA5NmwwIDMyTDAgNDgwbDAgMzIgMzIgMCA0NDggMCAzMiAwIDAtMzIgMC0zNTIgMC0zMi0zMiAwTDMzOC4zIDk2IDI3Ny4xIDI0LjYgMjU2IDAgMjM0LjkgMjQuNiAxNzMuNyA5NnpNMjU2IDQ5LjJsNTggNjcuNyA5LjYgMTEuMiAxNC43IDBMNDgwIDEyOGwwIDM1MkwzMiA0ODBsMC0zNTIgMTQxLjcgMCAxNC43IDAgOS42LTExLjIgNTgtNjcuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![message-middle-top](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-middle-top.svg)
  */
 const MessageMiddleTop: typeof Icon = x => (
     <Icon {...x}>

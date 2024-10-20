@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-half` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-half?s=sharp-regular star-half}
- * @preview ![star-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ4LjEgMzI4LjVMMTI5LjcgNDU2LjNsLTggNTUuNyA1MS43LTIyLjIgMTM4LjctNTkuNiAwLTM0NC4zIDAtODUuOS00OCA3MS4yTDIwMS42IDE2NCA3Ni4yIDE4NS43bC01Ny4zIDkuOSA0MC41IDQxLjcgODguNyA5MS4yek0xMTYuNyAyMjcuNGw5My0xNi4xIDIwLjItMy41IDExLjQtMTcgMjIuNy0zMy43IDAgMjQxLjUtODIuNyAzNS41IDE0LjItOTguOEwxOTkgMzEybC0xNi40LTE2LjktNjUuOC02Ny43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![star-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/star-half.svg)
  */
 const StarHalf: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

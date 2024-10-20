@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clipboard-list-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-list-check?s=solid clipboard-list-check}
- * @preview ![clipboard-list-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBjLTQxLjggMC03Ny40IDI2LjctOTAuNSA2NEw2NCA2NEMyOC43IDY0IDAgOTIuNyAwIDEyOEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NGwtMzcuNSAwQzI2OS40IDI2LjcgMjMzLjggMCAxOTIgMHptMCA2NGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bS00LjcgMTMyLjdjNi4yIDYuMiA2LjIgMTYuNCAwIDIyLjZsLTY0IDY0Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMGwtMzItMzJjLTYuMi02LjItNi4yLTE2LjQgMC0yMi42czE2LjQtNi4yIDIyLjYgMEwxMTIgMjQ5LjRsNTIuNy01Mi43YzYuMi02LjIgMTYuNC02LjIgMjIuNiAwek0xOTIgMjcyYzAtOC44IDcuMi0xNiAxNi0xNmw5NiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC05NiAwYy04LjggMC0xNi03LjItMTYtMTZ6bS0xNiA4MGwxMjggMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMTI4IDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6TTcyIDM2OGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clipboard-list-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/clipboard-list-check.svg)
  */
 const ClipboardListCheck: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cow` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cow?s=sharp-solid cow}
- * @preview ![cow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDY0TDI3MiA2NGwtMTYgMEwxNDQgNjRDNzcuNyA2NCAyNCAxMTcuNyAyNCAxODRsMCA1NEM5LjQgMjQ5LjggMCAyNjcuOCAwIDI4OGwwIDMyIDggMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyIDAtNDBjMC0yMS4zIDkuMy00MC41IDI0LTUzLjdMOTYgMTkybDAgNjQgMCAxOTIgOTYgMCAwLTEyMC4yYzkuOSA2LjYgMjAuNiAxMiAzMiAxNi4xbDAgMjQuMiAwIDE2IDMyIDAgMC0xNiAwLTE2LjljNS4zIC42IDEwLjYgLjkgMTYgLjlzMTAuNy0uMyAxNi0uOWwwIDE2LjkgMCAxNiAzMiAwIDAtMTYgMC0yNC4yYzExLjQtNCAyMi4xLTkuNCAzMi0xNi4xTDM1MiA0NDhsOTYgMCAwLTE5MiAzMiAzMiAwIDY0IDY0IDk2IDY0IDAgMzItMTYwLTE2LTIyLjQgMC04MS42IDAtMjQtNDggMCAwIDI0IDAgMTQuNEw0ODAgNjR6bTgwIDI3MmExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAwek0xNjAgMTI4bDIyNCAwIDAgMzItMzAuMSAzMC4xQzMzMi4yIDIxMS44IDMwMi43IDIyNCAyNzIgMjI0cy02MC4yLTEyLjItODEuOS0zMy45TDE2MCAxNjBsMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cow.svg)
  */
 const Cow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

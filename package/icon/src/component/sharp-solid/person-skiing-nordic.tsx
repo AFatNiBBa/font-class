@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-skiing-nordic` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-skiing-nordic?s=sharp-solid person-skiing-nordic}
- * @preview ![person-skiing-nordic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDBhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2ek0xNzguNyA5NkwxOTIgOTZsNDggMCA0LjggMCA0LjYgMS40IDEwNCAzMiAxNC40IDQuNCA1LjggMTMuOUw0MDUuMyAyMjRsNDIuNyAwIDMyIDAgMCA2NC0xOC4zIDBMNDM0LjYgNDY0bDkzLjQgMCAwLTMyIDAtMjQgNDggMCAwIDI0IDAgNTYgMCAyNC0yNCAwLTIzMS4zIDBjLS41IDAtMSAwLTEuNCAwbC0xNTguNiAwYy0uNCAwLS45IDAtMS40IDBMMjQgNTEyIDAgNTEybDAtNDggMjQgMCA0MyAwIDU1LjYtMjY0LjFMOTguNyAxNzZsMjIuNi0yMi42IDQ4LTQ4IDkuNC05LjR6TTQwMi4zIDQ2NGwyNy4xLTE3NkwzODQgMjg4bC0yMS4zIDAtOC4yLTE5LjctMjEuNS01MS43TDMwMiAyOTkgMzY5IDM0MC45bDIwLjQgMTIuOC02LjYgMjMuMkwzNTcuOCA0NjRsNDQuNCAwem0tMjcwLjEgMGw1OC43LTEyNS43YzUuOSA2LjYgMTIuOCAxMi41IDIwLjYgMTcuM2wzMi40IDIwLjNMMjAyLjggNDY0bDg4LjUgMCAyMy4zLTgxLjYtODYuMi01My45Yy0yNS4xLTE1LjctMzYuMS00Ni41LTI2LjgtNzQuNWwzMS4zLTk0LTI3LjcgMC0zOC42IDM4LjYtMTQgMTRMOTkuNyA0NjRsMzIuNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-skiing-nordic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-skiing-nordic.svg)
  */
 const PersonSkiingNordic: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hamsa` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hamsa?s=sharp-regular hamsa}
- * @preview ![hamsa](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDBMMTg0IDBsMCAyNCAwIDgtNzIgMEw4OCAzMmwwIDI0IDAgMjAwLTY0IDBMMCAyNTZsMCAyNCAwIDU2IDAgOS45IDcgNyA5NS40IDk1LjRjNDAuNyA0MC43IDk2IDYzLjYgMTUzLjUgNjMuNnMxMTIuOC0yMi45IDE1My41LTYzLjZMNTA1IDM1M2w3LTcgMC05LjkgMC01NiAwLTI0LTI0IDAtNjQgMCAwLTIwMCAwLTI0LTI0IDAtNzIgMCAwLTggMC0yNEwzMDQgMCAyMDggMHpNMzI4IDgwbDQ4IDAgMCAyMDAgMCAyNCAyNCAwIDY0IDAgMCAyMi4xLTg4LjQgODguNEMzNDMuOSA0NDYuMiAzMDAuOSA0NjQgMjU2IDQ2NHMtODcuOS0xNy44LTExOS42LTQ5LjVMNDggMzI2LjEgNDggMzA0bDY0IDAgMjQgMCAwLTI0IDAtMjAwIDQ4IDAgMCAxMjAgMCAyNCAyNCAwIDI0IDAgMC0yNCAwLTE0NCAwLTggNDggMCAwIDggMCAxNDQgMCAyNCAyNCAwIDI0IDAgMC0yNCAwLTEyMHpNMTYwIDM1MnM0OCA2NCA5NiA2NHM5Ni02NCA5Ni02NHMtNDgtNjQtOTYtNjRzLTk2IDY0LTk2IDY0em05Ni0zMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hamsa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hamsa.svg)
  */
 const Hamsa: typeof Icon = x => (
     <Icon {...x}>

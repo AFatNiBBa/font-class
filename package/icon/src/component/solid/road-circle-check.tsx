@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road-circle-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-circle-check?s=solid road-circle-check}
- * @preview ![road-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEzLjIgMzJMMjg4IDMybDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTY0IDc0LjggMGMyNy4xIDAgNTEuMyAxNy4xIDYwLjMgNDIuNmw0Mi43IDEyMC42Yy0xMC45LTIuMS0yMi4yLTMuMi0zMy44LTMuMmMtNTkuNSAwLTExMi4xIDI5LjYtMTQ0IDc0LjhsMC00Mi44YzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJjMi4zIDAgNC42LS4zIDYuOC0uN2MtNC41IDE1LjUtNi44IDMxLjgtNi44IDQ4LjdjMCA1LjQgLjIgMTAuNyAuNyAxNmwtLjcgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA2NEw4Ni42IDQ4MEM1Ni41IDQ4MCAzMiA0NTUuNSAzMiA0MjUuNGMwLTYuMiAxLjEtMTIuNCAzLjEtMTguMkwxNTIuOSA3NC42QzE2MiA0OS4xIDE4Ni4xIDMyIDIxMy4yIDMyek0zNTIgMzY4YTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTIxMS4zLTQzLjNjLTYuMi02LjItMTYuNC02LjItMjIuNiAwTDQ4MCAzODUuNGwtMjguNy0yOC43Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMHMtNi4yIDE2LjQgMCAyMi42bDQwIDQwYzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwbDcyLTcyYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![road-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/road-circle-check.svg)
  */
 const RoadCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

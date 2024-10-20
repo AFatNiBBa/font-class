@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eye-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-slash?s=sharp-solid eye-slash}
- * @preview ![eye-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDUyNCAzODQuMWM0MS45LTQ0IDcwLjItOTMuOSA4NC0xMjguMUM1NzggMTgxLjMgNDc4LjQgMzIgMzIwIDMyYy02Ni45IDAtMTIzLjIgMjYuNi0xNjguMyA2M0w0OC40IDE0Ljh6TTIyMi41IDE1MGMyNS42LTIzLjYgNTkuOS0zOCA5Ny41LTM4Yzc5LjUgMCAxNDQgNjQuNSAxNDQgMTQ0YzAgMjQuNy02LjIgNDcuOS0xNy4xIDY4LjJsLTM4LjctMzAuMWM1LjEtMTEuNyA3LjktMjQuNiA3LjktMzguMWMwLTUzLTQzLTk2LTk2LTk2Yy02LjQgMC0xMi43IC42LTE4LjggMS44bDExLjYgNTguMkwyMjIuNSAxNTB6TTQ0NC45IDQ0Ni42TDM3MyAzODkuOWMtMTYuNCA2LjUtMzQuMyAxMC4xLTUzIDEwLjFjLTc5LjUgMC0xNDQtNjQuNS0xNDQtMTQ0YzAtNi45IC41LTEzLjYgMS40LTIwLjJMODUuNyAxNjMuNUM2MC4yIDE5Ny4xIDQyLjEgMjMwLjggMzIgMjU2YzMwIDc0LjcgMTI5LjYgMjI0IDI4OCAyMjRjNDYuOSAwIDg4LjYtMTMuMSAxMjQuOS0zMy40ek0zMjQuOCAzNTEuOWwtOTkuMS03OC4xQzIzNCAzMTguMyAyNzMuMSAzNTIgMzIwIDM1MmMxLjYgMCAzLjIgMCA0LjgtLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![eye-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eye-slash.svg)
  */
 const EyeSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

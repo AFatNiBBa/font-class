@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-group-crown` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-group-crown?s=sharp-solid user-group-crown}
- * @preview ![user-group-crown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwwIDUzLjdMOTYgMTQ0YzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4czEyOC01Ny4zIDEyOC0xMjhsMC05MC4zTDM1MiAwIDMwNCAyNGwtMTYgOEwyMjQgMCAxNjAgMzJsLTE2LThMOTYgMHptNDggMTQ0bDAtMTYgMTYwIDAgMCAxNmMwIDQ0LjItMzUuOCA4MC04MCA4MHMtODAtMzUuOC04MC04MHpNNDQ4IDUxMkwzODQgMzA0IDY0IDMwNCAwIDUxMmw0NDggMHptMTkyIDBMNTc2IDMyMGwtMTUzLjYgMCA1Ni4yIDE4Mi42IDIuOSA5LjRMNjQwIDUxMnpNNDMyIDI1NmM2MS45IDAgMTEyLTUwLjEgMTEyLTExMnMtNTAuMS0xMTItMTEyLTExMmMtMTcuMiAwLTMzLjUgMy45LTQ4IDEwLjhsMCAxMC45IDAgOTAuM2MwIDMxLjQtOSA2MC42LTI0LjYgODUuM0MzNzkgMjQ1LjkgNDA0LjMgMjU2IDQzMiAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-group-crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-group-crown.svg)
  */
 const UserGroupCrown: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `paperclip-vertical` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paperclip-vertical?s=sharp-duotone-solid paperclip-vertical}
- * @preview ![paperclip-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAxMjhDMzIgNTcuMyA4OS4zIDAgMTYwIDBzMTI4IDU3LjMgMTI4IDEyOGwwIDE5MmMwIDQ0LjItMzUuOCA4MC04MCA4MHMtODAtMzUuOC04MC04MGwwLTE2MCAwLTMyIDY0IDAgMCAzMiAwIDE2MGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMTkyYzAtMzUuMy0yOC43LTY0LTY0LTY0cy02NCAyOC43LTY0IDY0bDAgMjA4YzAgNjEuOSA1MC4xIDExMiAxMTIgMTEyczExMi01MC4xIDExMi0xMTJsMC0xNzYgMC0zMiA2NCAwIDAgMzIgMCAxNzZjMCA5Ny4yLTc4LjggMTc2LTE3NiAxNzZzLTE3Ni03OC44LTE3Ni0xNzZsMC0yMDh6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9IiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![paperclip-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/paperclip-vertical.svg)
  */
 const PaperclipVertical: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

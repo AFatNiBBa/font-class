@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dice-d20` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d20?s=light dice-d20}
- * @preview ![dice-d20](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE3LjUgNTYuNEw3Ny45IDE0MC4ybDYxLjQgNDQuN0wyMTcuNSA1Ni40ek02NCAxNjkuNmwwIDE1MC43IDU5LjItMTA3LjZMNjQgMTY5LjZ6TTEwNC44IDM4OEwyNDAgNDY5LjFsMC03MC4zTDEwNC44IDM4OHpNMjcyIDQ2OS4xTDQwNy4yIDM4OCAyNzIgMzk4LjhsMCA3MC4zek00NDggMzIwLjNsMC0xNTAuNy01OS4yIDQzTDQ0OCAzMjAuM3pNNDM0LjEgMTQwLjJMMjk0LjUgNTYuNGw3OC4yIDEyOC40IDYxLjQtNDQuN3pNMjQzLjcgMy40YzcuNi00LjYgMTcuMS00LjYgMjQuNyAwbDIwMCAxMjBjNy4yIDQuMyAxMS43IDEyLjEgMTEuNyAyMC42bDAgMjI0YzAgOC40LTQuNCAxNi4yLTExLjcgMjAuNmwtMjAwIDEyMGMtNy42IDQuNi0xNy4xIDQuNi0yNC43IDBsLTIwMC0xMjBDMzYuNCAzODQuMiAzMiAzNzYuNCAzMiAzNjhsMC0yMjRjMC04LjQgNC40LTE2LjIgMTEuNy0yMC42bDIwMC0xMjB6TTIyNS4zIDM2NS41TDE0NSAyMzkuNCA4MS45IDM1NGwxNDMuMyAxMS41ek0zMzguOSAyMjRsLTE2NS43IDBMMjU2IDM1NC4yIDMzOC45IDIyNHpNMjU2IDU0LjhMMTcyLjUgMTkybDE2Ny4xIDBMMjU2IDU0Ljh6bTMwLjcgMzEwLjdMNDMwLjEgMzU0IDM2NyAyMzkuNCAyODYuNyAzNjUuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dice-d20](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dice-d20.svg)
  */
 const DiceD20: typeof Icon = x => (
     <Icon {...x}>

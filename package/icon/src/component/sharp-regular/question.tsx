@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `question` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/question?s=sharp-regular question}
- * @preview ![question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDgwYy00NC4yIDAtODAgMzUuOC04MCA4MGwwIDE2LTQ4IDAgMC0xNkMxNiA4OS4zIDczLjMgMzIgMTQ0IDMybDMyIDBjNzAuNyAwIDEyOCA1Ny4zIDEyOCAxMjhsMCA3LjRjMCAzOC4yLTE4LjIgNzQuMi00OSA5Ni44bC03MSA1MiAwIDExLjggMCAyNC00OCAwIDAtMjQgMC0yNCAwLTEyLjIgOS44LTcuMiA4MC44LTU5LjJjMTguNS0xMy42IDI5LjQtMzUuMSAyOS40LTU4LjFsMC03LjRjMC00NC4yLTM1LjgtODAtODAtODBsLTMyIDB6bTQ4IDMzNmwwIDY0LTY0IDAgMC02NCA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/question.svg)
  */
 const Question: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

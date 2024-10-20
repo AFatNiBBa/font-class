@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-music` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-music?s=sharp-light message-music}
- * @preview ![message-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQxNmwtMzIgMC05NiAwTDAgNDE2bDAtMzJMMCAzMiAwIDAgMzIgMCA0ODAgMGwzMiAwIDAgMzIgMCAzNTIgMCAzMi0zMiAwLTE3NiAwTDE5MiA0OTAuNyAxNjAgNTEybDAtMzguNSAwLTI1LjUgMC0zMnptMC0zMmwzMiAwIDAgMzIgMCAzNi4yIDk0LjItNjIuOCA4LjEtNS40IDkuNyAwIDE3NiAwIDAtMzUyTDMyIDMybDAgMzUyIDEyOCAwek0zNTIgOTZsMCAxNDRjMCAuNSAwIDEtLjEgMS41YzAgLjggLjEgMS42IC4xIDIuNWMwIDI0LjMtMjEuNSA0NC00OCA0NHMtNDgtMTkuNy00OC00NHMyMS41LTQ0IDQ4LTQ0YzUuNiAwIDExIC45IDE2IDIuNWwwLTgzLjQtOTYgMzZMMjI0IDI3MmMwIC41IDAgMS0uMSAxLjVjMCAuOCAuMSAxLjYgLjEgMi41YzAgMjQuMy0yMS41IDQ0LTQ4IDQ0cy00OC0xOS43LTQ4LTQ0czIxLjUtNDQgNDgtNDRjNS42IDAgMTEgLjkgMTYgMi41bDAtOTAuNSAwLTExLjEgMTAuNC0zLjkgMTI4LTQ4TDM1MiA3Mi45IDM1MiA5NnpNMTkyIDI3NmMwLTQuMS00LjUtMTItMTYtMTJzLTE2IDcuOS0xNiAxMnM0LjUgMTIgMTYgMTJzMTYtNy45IDE2LTEyem0xMTItMjBjMTEuNSAwIDE2LTcuOSAxNi0xMnMtNC41LTEyLTE2LTEycy0xNiA3LjktMTYgMTJzNC41IDEyIDE2IDEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![message-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-music.svg)
  */
 const MessageMusic: typeof Icon = x => (
     <Icon {...x}>

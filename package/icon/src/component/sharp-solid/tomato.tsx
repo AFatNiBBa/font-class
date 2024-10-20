@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tomato` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tomato?s=sharp-solid tomato}
- * @preview ![tomato](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM1LjQgMS40TDE5OC4yIDMxLjhsMTUuMSAxOC41IC4xIC4yYy4xIC4yIC40IC41IC43IC45Yy43IC45IDEuNyAyLjMgMyA0LjJjMi42IDMuNyA2IDkuMiA5LjUgMTUuOWMxLjYgMyAzLjEgNi4yIDQuNSA5LjZDMTQ3LjggODguMSA4Ny41IDEyOCA4Ny41IDEyOEwxNDQgMTQ0bC0xNiA0OCAxMjgtNDhzMCAwIDAgMGwxMjggNDgtMTYtNDggNTYuNS0xNnMtNTkuNi0zOS41LTE0Mi40LTQ2LjhjLTMuNi0xMi4yLTguMy0yMi45LTEyLjgtMzEuN2MtNC41LTguOC05LjEtMTYtMTIuNS0yMWMtMS43LTIuNS0zLjItNC41LTQuMy02Yy0uNS0uNy0xLTEuMy0xLjMtMS43bC0uNC0uNS0uMS0uMmMwIDAgMCAwLS4xLS4xYzAgMCAwIDAgMCAwczAgMCAwIDBMMjMyIDM1LjIgMjUwLjYgMjAgMjM1LjQgMS40ek03OC44IDE1OC44bC0xMC4xLTIuOUMyNi4xIDE5MS40IDAgMjQxLjYgMCAzMDRDMCA0MzQuOSAxMTQuNiA1MTIgMjU2IDUxMnMyNTYtNzcuMSAyNTYtMjA4YzAtNjIuNC0yNi4xLTExMi42LTY4LjctMTQ4LjFsLTEwLjEgMi44TDQwOSAxNjUuN2w1LjQgMTYuMiAyMS4yIDYzLjZMMzcyLjggMjIyIDI1NiAxNzguMiAxMzkuMiAyMjIgNzYuNCAyNDUuNWwyMS4yLTYzLjYgNS40LTE2LjItMjQuMy02Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tomato](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tomato.svg)
  */
 const Tomato: typeof Icon = x => (
     <Icon {...x}>

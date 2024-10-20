@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `train-track` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-track?s=sharp-regular train-track}
- * @preview ![train-track](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkyLjkgMzJsLTUxIDAgMjMgNjRMMjExLjEgOTZsMjMtNjQtNTEgMC0yMyA2NEwxMTIgOTYgODggOTZsMCA0OCAyNCAwIDMwLjggMEwxMTQgMjI0bC00MiAwLTI0IDAgMCA0OCAyNCAwIDI0LjcgMEw2Ny45IDM1MiAzMiAzNTIgOCAzNTJsMCA0OCAyNCAwIDE4LjcgMEwyMS45IDQ4MGw1MSAwIDI4LjgtODAgMzcyLjcgMCAyOC44IDgwIDUxIDAtMjguOC04MCAxOC43IDAgMjQgMCAwLTQ4LTI0IDAtMzUuOSAwLTI4LjgtODAgMjQuNyAwIDI0IDAgMC00OC0yNCAwLTQyIDAtMjguOC04MCAzMC44IDAgMjQgMCAwLTQ4LTI0IDAtNDguMSAwLTIzLTY0ek0zODIuMiAxNDRMNDExIDIyNCAxNjUgMjI0bDI4LjgtODAgMTg4LjMgMHptNDYuMSAxMjhsMjguOCA4MC0zMzguMSAwIDI4LjgtODAgMjgwLjUgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![train-track](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/train-track.svg)
  */
 const TrainTrack: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brake-warning` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brake-warning?s=sharp-solid brake-warning}
- * @preview ![brake-warning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMjU2YTIyNCAyMjQgMCAxIDEgNDQ4IDBBMjI0IDIyNCAwIDEgMSA5NiAyNTZ6TTM0NCAxNTJsMC0yNC00OCAwIDAgMjQgMCAxMTIgMCAyNCA0OCAwIDAtMjQgMC0xMTJ6TTI5NiAzMjBsMCA0OCA0OCAwIDAtNDgtNDggMHpNOTEuMSAxMDlDNjMuOCAxNTEuNCA0OCAyMDEuOCA0OCAyNTZzMTUuOCAxMDQuNiA0My4xIDE0N2wxMyAyMC4yLTQwLjQgMjZMNTAuNyA0MjlDMTguNiAzNzkuMSAwIDMxOS43IDAgMjU2UzE4LjYgMTMyLjkgNTAuNyA4M2wxMy0yMC4yIDQwLjQgMjZMOTEuMSAxMDl6TTU4OS4zIDgzQzYyMS40IDEzMi45IDY0MCAxOTIuMyA2NDAgMjU2cy0xOC42IDEyMy4xLTUwLjcgMTczbC0xMyAyMC4yLTQwLjQtMjYgMTMtMjAuMmMyNy4zLTQyLjQgNDMuMS05Mi44IDQzLjEtMTQ3cy0xNS44LTEwNC42LTQzLjEtMTQ3bC0xMy0yMC4yIDQwLjQtMjYgMTMgMjAuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![brake-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/brake-warning.svg)
  */
 const BrakeWarning: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

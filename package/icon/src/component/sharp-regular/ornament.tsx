@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ornament` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ornament?s=sharp-regular ornament}
- * @preview ![ornament](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0YzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMzIgNjQgMCAwLTMyek0xMjggOTZsMC0zMmMwLTM1LjMgMjguNy02NCA2NC02NHM2NCAyOC43IDY0IDY0bDAgMzIgMzIgMCAwIDU3LjdjNTcuNCAzMy4yIDk2IDk1LjIgOTYgMTY2LjNjMCAxMDYtODYgMTkyLTE5MiAxOTJTMCA0MjYgMCAzMjBjMC03MS4xIDM4LjYtMTMzLjEgOTYtMTY2LjNMOTYgOTZsMzIgMHpNODQuNyAyMjRsMjE0LjcgMEMyNzMgMTk0LjUgMjM0LjYgMTc2IDE5MiAxNzZzLTgxIDE4LjUtMTA3LjMgNDh6TTU2LjIgMjcyYy01LjMgMTUtOC4yIDMxLjItOC4yIDQ4czIuOSAzMyA4LjIgNDhsMjcxLjYgMGM1LjMtMTUgOC4yLTMxLjIgOC4yLTQ4cy0yLjktMzMtOC4yLTQ4TDU2LjIgMjcyek04NC43IDQxNmMyNi40IDI5LjUgNjQuNyA0OCAxMDcuMyA0OHM4MS0xOC41IDEwNy4zLTQ4TDg0LjcgNDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ornament](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ornament.svg)
  */
 const Ornament: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

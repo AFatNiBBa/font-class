@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `tugrik-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tugrik-sign?s=duotone tugrik-sign}
- * @preview ![tugrik-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMyAyNjMuOGM0LjMgMTcuMSAyMS43IDI3LjYgMzguOCAyMy4zTDE2MCAyNjVsMC02Nkw1Ni4yIDIyNWMtMTcuMSA0LjMtMjcuNiAyMS43LTIzLjMgMzguOHptMCA5NkMzNi42IDM3NC4zIDQ5LjYgMzg0IDY0IDM4NGMyLjYgMCA1LjItLjMgNy44LTFMMTYwIDM2MWwwLTY2TDU2LjIgMzIxYy0xNy4xIDQuMy0yNy42IDIxLjctMjMuMyAzOC44ek0yMjQgMTgzYzAgMjIgMCA0NCAwIDY2TDMyNy44IDIyM2MxNC41LTMuNiAyNC4yLTE2LjcgMjQuMi0zMWMwLTIuNi0uMy01LjItMS03LjhjLTQuMy0xNy4xLTIxLjctMjcuNi0zOC44LTIzLjNMMjI0IDE4M3ptMCA5NmMwIDIyIDAgNDQgMCA2NkwzMjcuOCAzMTljMTQuNS0zLjYgMjQuMi0xNi43IDI0LjItMzFjMC0yLjYtLjMtNS4yLTEtNy44Yy00LjMtMTcuMS0yMS43LTI3LjYtMzguOC0yMy4zTDIyNCAyNzl6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDY0QzAgNDYuMyAxNC4zIDMyIDMyIDMybDE2MCAwIDE2MCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyTDIyNCA5NmwwIDM1MmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTM1MkwzMiA5NkMxNC4zIDk2IDAgODEuNyAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tugrik-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tugrik-sign.svg)
  */
 const TugrikSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
         <path class={generic.secondary} d="M33 263.8c4.3 17.1 21.7 27.6 38.8 23.3L160 265l0-66L56.2 225c-17.1 4.3-27.6 21.7-23.3 38.8zm0 96C36.6 374.3 49.6 384 64 384c2.6 0 5.2-.3 7.8-1L160 361l0-66L56.2 321c-17.1 4.3-27.6 21.7-23.3 38.8zM224 183c0 22 0 44 0 66L327.8 223c14.5-3.6 24.2-16.7 24.2-31c0-2.6-.3-5.2-1-7.8c-4.3-17.1-21.7-27.6-38.8-23.3L224 183zm0 96c0 22 0 44 0 66L327.8 319c14.5-3.6 24.2-16.7 24.2-31c0-2.6-.3-5.2-1-7.8c-4.3-17.1-21.7-27.6-38.8-23.3L224 279z" />
-            <path d="M0 64C0 46.3 14.3 32 32 32l160 0 160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L224 96l0 352c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-352L32 96C14.3 96 0 81.7 0 64z" />
+        <path d="M0 64C0 46.3 14.3 32 32 32l160 0 160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L224 96l0 352c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-352L32 96C14.3 96 0 81.7 0 64z" />
     </Icon>
 );
 

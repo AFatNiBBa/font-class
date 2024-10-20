@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-signal` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-signal?s=solid house-signal}
- * @preview ![house-signal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzU3LjcgOC41Yy0xMi4zLTExLjMtMzEuMi0xMS4zLTQzLjQgMGwtMjA4IDE5MmMtOS40IDguNi0xMi43IDIyLTguNSAzNGM4Ny4xIDI1LjMgMTU1LjYgOTQuMiAxODAuMyAxODEuNkw0NjQgNDE2YzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMTEyIDMyIDBjMTMuMiAwIDI1LTguMSAyOS44LTIwLjNzMS42LTI2LjItOC4xLTM1LjJsLTIwOC0xOTJ6TTI4OCAyMDhjMC04LjggNy4yLTE2IDE2LTE2bDY0IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2bC02NCAwYy04LjggMC0xNi03LjItMTYtMTZsMC02NHpNMjQgMjU2Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0YzEwMS42IDAgMTg0IDgyLjQgMTg0IDE4NGMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0YzAtMTI4LjEtMTAzLjktMjMyLTIzMi0yMzJ6bTggMjU2YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHpNMCAzNzZjMCAxMy4zIDEwLjcgMjQgMjQgMjRjNDguNiAwIDg4IDM5LjQgODggODhjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGMwLTc1LjEtNjAuOS0xMzYtMTM2LTEzNmMtMTMuMyAwLTI0IDEwLjctMjQgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-signal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-signal.svg)
  */
 const HouseSignal: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

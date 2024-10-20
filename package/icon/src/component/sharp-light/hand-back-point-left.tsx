@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-back-point-left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-point-left?s=sharp-light hand-back-point-left}
- * @preview ![hand-back-point-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMjhsMC0xNiAxNiAwIDIzMiAwIDguNiAwYzItMy4yIDQuMi02LjQgNi41LTkuNWwzNi4xLTQ4LjFMMzA0IDQ4bDggMCA1MS41IDBjNTMgMCAxMDEuNyAyOS4xIDEyNi44IDc1LjdsNC41IDguM2MxMS4zIDIxIDE3LjIgNDQuNCAxNy4yIDY4LjNMNTEyIDMzNmMwIDYxLjktNTAuMSAxMTItMTEyIDExMmwtOTYgMC00OCAwLTE2IDAgMC0xNiAwLTQ4LTE2IDAtMTYgMCAwLTE2IDAtNTYtMTYgMC0xNiAwIDAtMTYgMC03MkwxNiAyMjQgMCAyMjRsMC0xNiAwLTgwem0yOTYtMTZsNDggMCAxNiAwIDAgMzItMTYgMC02OC43IDAtOS41IDAtMS43IDAtMTYgMEwzMiAxNDRsMCA0OCAxNjAgMCAxNiAwIDAgMTYgMCA3MiAxNiAwIDE2IDAgMCAxNiAwIDU2IDE2IDAgMTYgMCAwIDE2IDAgNDggMzIgMCA5NiAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwbDAtMTM1LjdjMC0xOC41LTQuNi0zNi44LTEzLjQtNTMuMWwxNC4xLTcuNi0xNC4xIDcuNi00LjUtOC4zQzQ0Mi42IDEwMi42IDQwNC43IDgwIDM2My41IDgwTDMyMCA4MGwtMjQgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-back-point-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hand-back-point-left.svg)
  */
 const HandBackPointLeft: typeof Icon = x => (
     <Icon {...x}>

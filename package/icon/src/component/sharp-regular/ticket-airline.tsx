@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ticket-airline` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ticket-airline?s=sharp-regular ticket-airline}
- * @preview ![ticket-airline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMTJMMCA2NGw0OCAwIDU0NCAwIDQ4IDAgMCA0OCAwIDQ4IDAgNDgtMjQgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhzMjEuNSA0OCA0OCA0OGwyNCAwIDAgNDggMCA0OCAwIDQ4LTQ4IDBMNDggNDQ4IDAgNDQ4bDAtNDhMMCAxMTJ6TTQ4IDQwMGw1NDQgMCAwLTUxYy00MS40LTEwLjctNzItNDguMi03Mi05M3MzMC42LTgyLjMgNzItOTNsMC01MUw0OCAxMTJsMCAyODh6TTQzMiAxNDRhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem0wIDY0YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptLTE2IDgwYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bTE2IDQ4YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnpNMTg2LjcgMjI0TDE2MCAxNDRsNTYgMCA0Ni43IDgwIDQwLjMgMGMxNi4xIDAgMzEuNSA2LjQgNDIuOCAxNy43YzcuOSA3LjkgNy45IDIwLjcgMCAyOC41QzMzNC40IDI4MS42IDMxOSAyODggMzAyLjkgMjg4bC00MC4zIDBMMjE2IDM2OGwtNTYgMCAyNi43LTgwTDE0NCAyODhsLTI0IDMyLTMyIDAgMTYtNjRMODggMTkybDMyIDAgMjQgMzIgNDIuNyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ticket-airline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ticket-airline.svg)
  */
 const TicketAirline: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

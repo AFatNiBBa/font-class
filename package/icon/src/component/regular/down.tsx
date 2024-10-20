@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down?s=regular down}
- * @preview ![down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQyOS42TDQ5LjMgMjc5LjdjLS44LS44LTEuMy0yLTEuMy0zLjJjMC0yLjUgMi00LjYgNC42LTQuNmw4My40IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC0xNjggNjQgMCAwIDE2OGMwIDEzLjMgMTAuNyAyNCAyNCAyNGw4My40IDBjMi41IDAgNC42IDIgNC42IDQuNmMwIDEuMi0uNSAyLjMtMS4zIDMuMkwxOTIgNDI5LjZ6TTAgMjc2LjZjMCAxMy41IDUuMiAyNi41IDE0LjUgMzYuM0wxNjEuMSA0NjYuOGM4LjEgOC41IDE5LjIgMTMuMiAzMC45IDEzLjJzMjIuOC00LjggMzAuOS0xMy4yTDM2OS41IDMxMi44YzkuMy05LjggMTQuNS0yMi44IDE0LjUtMzYuM2MwLTI5LTIzLjUtNTIuNi01Mi42LTUyLjZMMjcyIDIyNGwwLTE0NGMwLTI2LjUtMjEuNS00OC00OC00OGwtNjQgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAxNDQtNTkuNCAwQzIzLjUgMjI0IDAgMjQ3LjUgMCAyNzYuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down.svg)
  */
 const Down: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

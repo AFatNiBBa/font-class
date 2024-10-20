@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `js` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/js?s=brands js}
- * @preview ![js](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMnY0NDhoNDQ4VjMySDB6bTI0My44IDM0OS40YzAgNDMuNi0yNS42IDYzLjUtNjIuOSA2My41LTMzLjcgMC01My4yLTE3LjQtNjMuMi0zOC41bDM0LjMtMjAuN2M2LjYgMTEuNyAxMi42IDIxLjYgMjcuMSAyMS42IDEzLjggMCAyMi42LTUuNCAyMi42LTI2LjVWMjM3LjdoNDIuMXYxNDMuN3ptOTkuNiA2My41Yy0zOS4xIDAtNjQuNC0xOC42LTc2LjctNDNsMzQuMy0xOS44YzkgMTQuNyAyMC44IDI1LjYgNDEuNSAyNS42IDE3LjQgMCAyOC42LTguNyAyOC42LTIwLjggMC0xNC40LTExLjQtMTkuNS0zMC43LTI4bC0xMC41LTQuNWMtMzAuNC0xMi45LTUwLjUtMjkuMi01MC41LTYzLjUgMC0zMS42IDI0LjEtNTUuNiA2MS42LTU1LjYgMjYuOCAwIDQ2IDkuMyA1OS44IDMzLjdMMzY4IDI5MGMtNy4yLTEyLjktMTUtMTgtMjcuMS0xOC0xMi4zIDAtMjAuMSA3LjgtMjAuMSAxOCAwIDEyLjYgNy44IDE3LjcgMjUuOSAyNS42bDEwLjUgNC41YzM1LjggMTUuMyA1NS45IDMxIDU1LjkgNjYuMiAwIDM3LjgtMjkuOCA1OC42LTY5LjcgNTguNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![js](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/js.svg)
  */
 const Js: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

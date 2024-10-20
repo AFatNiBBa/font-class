@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `suitcase-rolling` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/suitcase-rolling?s=regular suitcase-rolling}
- * @preview ![suitcase-rolling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDU2bDAgNzIgOTYgMCAwLTcyYzAtNC40LTMuNi04LTgtOGwtODAgMGMtNC40IDAtOCAzLjYtOCA4ek05NiAxMjhsMC03MmMwLTMwLjkgMjUuMS01NiA1Ni01Nmw4MCAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgNzIgMzIgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDIyNGMwIDM1LjMtMjguNyA2NC02NCA2NGwwIDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC04LTE2MCAwIDAgOGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLThjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTkyYzAtMzUuMyAyOC43LTY0IDY0LTY0bDMyIDB6TTY0IDE3NmMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMjI0YzAgOC44IDcuMiAxNiAxNiAxNmwyNTYgMGM4LjggMCAxNi03LjIgMTYtMTZsMC0yMjRjMC04LjgtNy4yLTE2LTE2LTE2TDY0IDE3NnptMzIgNzJjMC0xMy4zIDEwLjctMjQgMjQtMjRsMTQ0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTE0NCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHptMCAxMTJjMC0xMy4zIDEwLjctMjQgMjQtMjRsMTQ0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTE0NCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![suitcase-rolling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/suitcase-rolling.svg)
  */
 const SuitcaseRolling: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

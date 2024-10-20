@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `swap` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swap?s=sharp-thin swap}
- * @preview ![swap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTEwLjZsODAtODAgODAgODAgMCAxNy40TDMyIDEyOGwwLTE3LjR6bTY4LjctOTEuM0wxNiAxMDRsMCAyNCAwIDE2IDE2IDAgNzIgMCAwIDMyOCAwIDggOCAwIDIwOCAwIDggMCAwLTggMC00MjQgMTkyIDAgMCAzMjAtNzIgMC0xNiAwIDAgMTYgMCAyNCA4NC43IDg0LjdMNTI4IDUwNGwxMS4zLTExLjNMNjI0IDQwOGwwLTI0IDAtMTYtMTYgMC03MiAwIDAtMzI4IDAtOC04IDBMMzIwIDMybC04IDAgMCA4IDAgNDI0LTE5MiAwIDAtMzIwIDcyIDAgMTYgMCAwLTE2IDAtMjRMMTIzLjMgMTkuMyAxMTIgOCAxMDAuNyAxOS4zek00NDggNDAxLjRsMC0xNy40IDE2MCAwIDAgMTcuNC04MCA4MC04MC04MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![swap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/swap.svg)
  */
 const Swap: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

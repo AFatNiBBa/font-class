@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `registered` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/registered?s=regular registered}
- * @preview ![registered](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YTIwOCAyMDggMCAxIDEgMCA0MTYgMjA4IDIwOCAwIDEgMSAwLTQxNnptMCA0NjRBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xNjAgMTUybDAgMTEyIDAgOTZjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTcyIDYwLjkgMCAzNy4yIDgxLjljNS41IDEyLjEgMTkuNyAxNy40IDMxLjggMTEuOXMxNy40LTE5LjcgMTEuOS0zMS44TDMxNS43IDI3NWMyMS44LTE0LjMgMzYuMy0zOSAzNi4zLTY3YzAtNDQuMi0zNS44LTgwLTgwLTgwbC04OCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHptNDggODhsMC02NCA2NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![registered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/registered.svg)
  */
 const Registered: typeof Icon = x => (
     <Icon {...x}>

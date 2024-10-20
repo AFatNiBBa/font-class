@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bong` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bong?s=regular bong}
- * @preview ![bong](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDIwOC41YzAgMjMuMy0xMi40IDQzLjItMjkuOSA1NC40QzkyLjMgMjc2LjkgNzQuNSAyOTYuNyA2MyAzMjBMMzIxIDMyMGMtMTEuNi0yMy4zLTI5LjMtNDMuMS01MS4yLTU3LjJjLTE3LjQtMTEuMi0yOS45LTMxLjEtMjkuOS01NC40TDI0MCA0OGwtOTYgMCAwIDE2MC41ek0yODggNDhsMCAxNjAuNWMwIDUuNyAzLjEgMTAuOSA3LjkgMTRjMTEuMiA3LjIgMjEuNSAxNS41IDMwLjkgMjQuOEwzNjYuMSAyMDhsLTctN2MtOS40LTkuNC05LjQtMjQuNiAwLTMzLjlzMjQuNi05LjQgMzMuOSAwbDI0IDI0IDI0IDI0YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45cy0yNC42IDkuNC0zMy45IDBsLTctNy00My4zIDQzLjNDMzc0IDMxNC4xIDM4NCAzNDcuOSAzODQgMzg0YzAgMzkuNC0xMS45IDc2LjEtMzIuMiAxMDYuNWMtOS42IDE0LjQtMjYuNSAyMS41LTQzLjggMjEuNUw3Ni4xIDUxMmMtMTcuMyAwLTM0LjItNy4xLTQzLjgtMjEuNUMxMS45IDQ2MC4xIDAgNDIzLjQgMCAzODRjMC02Ny44IDM1LjEtMTI3LjMgODguMS0xNjEuNWM0LjgtMy4xIDcuOS04LjMgNy45LTE0TDk2IDQ4bC04IDBDNzQuNyA0OCA2NCAzNy4zIDY0IDI0Uzc0LjcgMCA4OCAwbDI0IDBMMjcyIDBsMjQgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bong](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bong.svg)
  */
 const Bong: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

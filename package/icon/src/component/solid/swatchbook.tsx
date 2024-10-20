@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `swatchbook` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swatchbook?s=solid swatchbook}
- * @preview ![swatchbook](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMkMwIDE0LjMgMTQuMyAwIDMyIDBMMTYwIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzODRjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZMMCAzMnpNMjIzLjYgNDI1LjljLjMtMy4zIC40LTYuNiAuNC05LjlsMC0yNjIgNzUuNC03NS40YzEyLjUtMTIuNSAzMi44LTEyLjUgNDUuMyAwbDkwLjUgOTAuNWMxMi41IDEyLjUgMTIuNSAzMi44IDAgNDUuM0wyMjMuNiA0MjUuOXpNMTgyLjggNTEybDE5Mi0xOTJMNDgwIDMyMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDEyOGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMjk3LjIgMHpNMTI4IDY0TDY0IDY0bDAgNjQgNjQgMCAwLTY0ek02NCAxOTJsMCA2NCA2NCAwIDAtNjQtNjQgMHpNOTYgNDQwYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![swatchbook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/swatchbook.svg)
  */
 const Swatchbook: typeof Icon = x => (
     <Icon {...x}>

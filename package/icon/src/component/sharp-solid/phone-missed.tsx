@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-missed` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-missed?s=sharp-solid phone-missed}
- * @preview ![phone-missed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwwIDEyOCAzMiAzMiA0Ny00NyA4OCA4OCA3IDcgOS45IDAgODAgMCA5LjkgMCA3LTdMNTIxIDU3bDE3LTE3TDUwNCA2LjEgNDg3IDIzbC0xMzcgMTM3LTYwLjEgMEwyMDkgNzlsNDctNDdMMjI0IDAgOTYgMHpNMCA0MDBMNjQgNTEybDE2MC00OCAwLTgwYzYyLjMtMjAuOCAxMjkuNy0yMC44IDE5MiAwbDAgODAgMTYwIDQ4IDY0LTExMmMtMzcuMy00OC0xNTMuNi0xNDQtMzIwLTE0NFMzNy4zIDM1MiAwIDQwMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![phone-missed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/phone-missed.svg)
  */
 const PhoneMissed: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

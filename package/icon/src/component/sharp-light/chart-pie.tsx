@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-pie` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pie?s=sharp-light chart-pie}
- * @preview ![chart-pie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQzLjQgMjA4Yy40IDUuMyAuNiAxMC42IC42IDE2cy0uMiAxMC43LS42IDE2TDMzNiAyNDBsLTMyIDAgMC0zMkwzMDQgLjZjNS4zLS40IDEwLjYtLjYgMTYtLjZzMTAuNyAuMiAxNiAuNkM0NDcgOC40IDUzNS42IDk3IDU0My40IDIwOHpNMzM2IDIwOGwxNzUuMyAwQzUwMy42IDExNC43IDQyOS4zIDQwLjQgMzM2IDMyLjdMMzM2IDIwOHpNMjI0IDMwMS4zbDAtMTMuMyAwLTIxOC40QzEzMi4zIDkxLjIgNjQgMTczLjYgNjQgMjcyYzAgMTE0LjkgOTMuMSAyMDggMjA4IDIwOGMzNy42IDAgNzIuOS0xMCAxMDMuMy0yNy40TDIzMy40IDMxMC42bC05LjQtOS40em0xNzguMiAxMzNMNDI1IDQ1N2MtOC4zIDYuOS0xNy4xIDEzLjItMjYuMyAxOUMzNjEuOSA0OTguOCAzMTguNSA1MTIgMjcyIDUxMkMxMzkuNSA1MTIgMzIgNDA0LjYgMzIgMjcyQzMyIDE1NS45IDExNC41IDU5IDIyNCAzNi44YzEwLjQtMi4xIDIxLjEtMy42IDMyLTQuM2wwIDMyLjFMMjU2IDI4OCA0MDIuMiA0MzQuMnpNMzIwIDI4OGw0NS4zIDAgMTc4LjEgMCAzMi4xIDBjLS43IDEwLjktMi4yIDIxLjYtNC4zIDMyYy0xMS4xIDU0LjctNDAuOCAxMDIuNy04Mi4yIDEzN0wzNTIgMzIwbC0zMi0zMnptNzcuMyAzMmw5Mi4zIDkyLjNjMjMuNS0yNS43IDQwLjYtNTcuMyA0OC45LTkyLjNsLTE0MS4yIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-pie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chart-pie.svg)
  */
 const ChartPie: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

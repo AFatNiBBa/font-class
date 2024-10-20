@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `border-inner` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-inner?s=thin border-inner}
- * @preview ![border-inner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDQ3MmMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtMjA4IDIwOCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0yMDggMCAwLTIwOGMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDIwOEw4IDI0OGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwyMDggMCAwIDIwOHpNMzIgNDY0YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnptMzg0IDBhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyek0zMiAzNjhhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyem0zODQgMGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTE2LTIwOGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwek0zMiAxNzZhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyek00MzIgNjRhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHpNNDggNjRBMTYgMTYgMCAxIDAgMTYgNjRhMTYgMTYgMCAxIDAgMzIgMHptMjg4IDBhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHpNMzIwIDQ2NGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6TTE0NCA2NGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwek0xMjggNDY0YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![border-inner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/border-inner.svg)
  */
 const BorderInner: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

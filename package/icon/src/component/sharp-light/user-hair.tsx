@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-hair` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair?s=sharp-light user-hair}
- * @preview ![user-hair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDE0NGwwLTE2YzAtNS41LS41LTEwLjgtMS4zLTE2TDI3MiAxMTJsLTMuOCAwLTMuNC0xLjctMjAuMS0xMC0xNiAyMS4zTDIyNCAxMjhsLTggMC04OCAwIDAgMTZjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NnpNMjI0IDMyYy00MS44IDAtNzcuNCAyNi43LTkwLjUgNjRMMjA4IDk2bDE5LjItMjUuNiA4LTEwLjcgMTEuOSA2TDI3NS44IDgwbDMxLjQgMEMyOTAuNiA1MS4zIDI1OS41IDMyIDIyNCAzMnptMC0zMmM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOGwwIDE2YzAgNzAuNy01Ny4zIDEyOC0xMjggMTI4cy0xMjgtNTcuMy0xMjgtMTI4bDAtMTZDOTYgNTcuMyAxNTMuMyAwIDIyNCAwek00NC40IDQ4MGwzNTkuMiAwTDM2MC45IDM1MiA4Ny4xIDM1MiA0NC40IDQ4MHpNNjQgMzIwbDMyMCAwIDUzLjMgMTYwTDQ0OCA1MTJsLTMzLjcgMEwzMy43IDUxMiAwIDUxMmwxMC43LTMyTDY0IDMyMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-hair.svg)
  */
 const UserHair: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

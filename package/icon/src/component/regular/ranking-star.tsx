@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ranking-star` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ranking-star?s=regular ranking-star}
- * @preview ![ranking-star](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUzLjggNTQuMWw1Mi4zIDcuNWM5LjMgMS40IDEzLjIgMTIuOSA2LjQgMTkuOGwtMzggMzYuNiA5IDUyLjFjMS40IDkuMy04LjIgMTYuNS0xNi44IDEyLjJsLTQ2LjYtMjQuNC00Ni45IDI0LjhjLTguNiA0LjMtMTguMy0yLjktMTYuOC0xMi4ybDktNTIuMS0zOC0zN2MtNi44LTYuOC0yLjktMTguMyA2LjQtMTkuOGw1Mi4zLTcuNUwzMDkuOCA2LjNjNC4zLTguNiAxNi41LTguMyAyMC40IDBsMjMuNiA0Ny44ek0yNzIgMzA0bDAgMTYwIDk2IDAgMC0xNjAtOTYgMHptLTQ4IDBjMC0yNi41IDIxLjUtNDggNDgtNDhsOTYgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDE2MGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtOTYgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0xNjB6TTQ4IDM2OGwwIDk2IDk2IDAgMC05Ni05NiAwek0wIDM2OGMwLTI2LjUgMjEuNS00OCA0OC00OGw5NiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgOTZjMCAyNi41LTIxLjUgNDgtNDggNDhsLTk2IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtOTZ6bTU5MiAzMmwtOTYgMCAwIDY0IDk2IDAgMC02NHptLTk2LTQ4bDk2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA2NGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtOTYgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC02NGMwLTI2LjUgMjEuNS00OCA0OC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ranking-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ranking-star.svg)
  */
 const RankingStar: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

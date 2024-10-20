@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `whiskey-glass` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whiskey-glass?s=solid whiskey-glass}
- * @preview ![whiskey-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJjLTkuMyAwLTE4LjEgNC0yNC4yIDExLjFTLTEgNTkuNCAuMyA2OC42bDUwIDM0Mi45YzUuNyAzOS4zIDM5LjQgNjguNSA3OS4yIDY4LjVsMjUzIDBjMzkuNyAwIDczLjQtMjkuMSA3OS4yLTY4LjVsNTAtMzQyLjljMS4zLTkuMi0xLjQtMTguNS03LjUtMjUuNVM0ODkuMyAzMiA0ODAgMzJMMzIgMzJ6TTg3LjcgMjI0TDY5IDk2bDM3NCAwTDQyNC4zIDIyNCA4Ny43IDIyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![whiskey-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/whiskey-glass.svg)
  */
 const WhiskeyGlass: typeof Icon = x => (
     <Icon {...x}>

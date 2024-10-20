@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `drumstick` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drumstick?s=sharp-thin drumstick}
- * @preview ![drumstick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMwLjYgMzM2TDMzNiAzMzZjODguNCAwIDE2MC03MS42IDE2MC0xNjBzLTcxLjYtMTYwLTE2MC0xNjBzLTE2MCA3MS42LTE2MCAxNjBsMCAxMDUuNEwyMzAuNiAzMzZ6bS0zLjMgMTZsLTUyLjQgNTIuNEMxODUuNSA0MTUuOCAxOTIgNDMxLjIgMTkyIDQ0OGMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NGMtMzUuMyAwLTY0LTI4LjctNjQtNjRzMjguNy02NCA2NC02NGMxNi44IDAgMzIuMSA2LjUgNDMuNiAxNy4xTDE2MCAyODQuNyAxNjAgMTc2QzE2MCA3OC44IDIzOC44IDAgMzM2IDBzMTc2IDc4LjggMTc2IDE3NnMtNzguOCAxNzYtMTc2IDE3NmwtMTA4LjcgMHpNMTY4IDI5NnMwIDAgMCAwbDEuNyAxLjctNTYuNiA1Ni42LTYuMyA2LjMtNS42LTYuOUM5Mi40IDM0Mi45IDc5IDMzNiA2NCAzMzZjLTI2LjUgMC00OCAyMS41LTQ4IDQ4czIxLjUgNDggNDggNDhjMi41IDAgNS0uMiA3LjQtLjZsMTAuOC0xLjctMS43IDEwLjhjLS40IDIuNC0uNiA0LjktLjYgNy40YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4czQ4LTIxLjUgNDgtNDhjMC0xNS02LjktMjguNC0xNy43LTM3LjJsLTYuOS01LjYgNi4zLTYuMyA1Ni42LTU2LjZMMjE2IDM0NHMwIDAgMCAwbC00OC00OHptMTEyLTY0czAgMCAwIDBzMCAwIDAgMHMwIDAgMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![drumstick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/drumstick.svg)
  */
 const Drumstick: typeof Icon = x => (
     <Icon {...x}>

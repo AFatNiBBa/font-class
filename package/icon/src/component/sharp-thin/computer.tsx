@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `computer` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer?s=sharp-thin computer}
- * @preview ![computer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCAzMjAgMTYyLjIgMCA1LjggMCA4MCAwIDUuOCAwTDQzMiAzNjhsMC0zMjBMMTYgNDh6TTE3Mi45IDM4NEwxNiAzODQgMCAzODRsMC0xNkwwIDQ4IDAgMzJsMTYgMCA0MTYgMCAxNiAwIDAgMTYgMCAzMjAgMCAxNi0xNiAwLTE1Ni45IDAgMjYuNyA4MCA4Mi4yIDAgMCAxNi03Ni45IDBMMjk2IDQ4MGwtMTQ0IDAtMTEuMSAwTDY0IDQ4MGwwLTE2IDgyLjIgMCAyNi43LTgwem0xNi45IDBsLTI2LjcgODAgMTIxLjggMC0yNi43LTgwLTY4LjUgMHpNNjI0IDQ4TDQ5NiA0OGwwIDQxNiAxMjggMCAwLTQxNnpNNDk2IDMybDEyOCAwIDE2IDAgMCAxNiAwIDQxNiAwIDE2LTE2IDAtMTI4IDAtMTYgMCAwLTE2IDAtNDE2IDAtMTYgMTYgMHptMjQgOTZsOCAwIDY0IDAgOCAwIDAgMTYtOCAwLTY0IDAtOCAwIDAtMTZ6bTggNjRsNjQgMCA4IDAgMCAxNi04IDAtNjQgMC04IDAgMC0xNiA4IDB6bTE2IDE0NGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAwek02NCA5NmwwIDIyNCAzMjAgMCAwLTIyNEw2NCA5NnpNNDggODBsMTYgMCAzMjAgMCAxNiAwIDAgMTYgMCAyMjQgMCAxNi0xNiAwTDY0IDMzNmwtMTYgMCAwLTE2TDQ4IDk2bDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![computer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/computer.svg)
  */
 const Computer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

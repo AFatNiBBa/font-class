@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-keyhole` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-keyhole?s=solid shield-keyhole}
- * @preview ![shield-keyhole](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY5LjQgMi45QzI2NS4yIDEgMjYwLjcgMCAyNTYgMHMtOS4yIDEtMTMuNCAyLjlMNTQuMyA4Mi44Yy0yMiA5LjMtMzguNCAzMS0zOC4zIDU3LjJjLjUgOTkuMiA0MS4zIDI4MC43IDIxMy42IDM2My4yYzE2LjcgOCAzNi4xIDggNTIuOCAwQzQ1NC43IDQyMC43IDQ5NS41IDIzOS4yIDQ5NiAxNDBjLjEtMjYuMi0xNi4zLTQ3LjktMzguMy01Ny4yTDI2OS40IDIuOXpNMzEyIDIwOGMwIDIyLjMtMTMuMSA0MS42LTMyIDUwLjZsMCA2OS40YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtNjkuNGMtMTguOS05LTMyLTI4LjMtMzItNTAuNmMwLTMwLjkgMjUuMS01NiA1Ni01NnM1NiAyNS4xIDU2IDU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shield-keyhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shield-keyhole.svg)
  */
 const ShieldKeyhole: typeof Icon = x => (
     <Icon {...x}>

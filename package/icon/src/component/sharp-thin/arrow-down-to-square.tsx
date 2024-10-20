@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-to-square` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-square?s=sharp-thin arrow-down-to-square}
- * @preview ![arrow-down-to-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYxLjcgMzMzLjdsMTEyLTExMiA1LjctNS43TDM2OCAyMDQuN2wtNS43IDUuN0wyNjQgMzA4LjcgMjY0IDhsMC04TDI0OCAwbDAgOCAwIDMwMC43LTk4LjMtOTguMy01LjctNS43TDEzMi43IDIxNmw1LjcgNS43IDExMiAxMTIgNS43IDUuNyA1LjctNS43ek04IDMyTDAgMzJsMCA4TDAgNTA0bDAgOCA4IDAgNDk2IDAgOCAwIDAtOCAwLTQ2NCAwLTgtOCAwLTk2IDAtOCAwIDAgMTYgOCAwIDg4IDAgMCA0NDhMMTYgNDk2IDE2IDQ4bDg4IDAgOCAwIDAtMTYtOCAwTDggMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-down-to-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-down-to-square.svg)
  */
 const ArrowDownToSquare: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-plus?s=sharp-solid bell-plus}
- * @preview ![bell-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBMMTkyIDBsMCA1MS4yQzExOSA2NiA2NCAxMzAuNiA2NCAyMDhsMCA4OEwwIDM2OGwwIDQ4IDQ0OCAwIDAtNDgtNjQtNzIgMC04OGMwLTc3LjQtNTUtMTQyLTEyOC0xNTYuOEwyNTYgMHptMzIgNDQ4bC02NCAwLTY0IDBjMCAxNyA2LjcgMzMuMyAxOC43IDQ1LjNzMjguMyAxOC43IDQ1LjMgMTguN3MzMy4zLTYuNyA0NS4zLTE4LjdzMTguNy0yOC4zIDE4LjctNDUuM3pNMjQ4IDE1MmwwIDI0IDAgNDAgNDAgMCAyNCAwIDAgNDgtMjQgMC00MCAwIDAgNDAgMCAyNC00OCAwIDAtMjQgMC00MC00MCAwLTI0IDAgMC00OCAyNCAwIDQwIDAgMC00MCAwLTI0IDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bell-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bell-plus.svg)
  */
 const BellPlus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

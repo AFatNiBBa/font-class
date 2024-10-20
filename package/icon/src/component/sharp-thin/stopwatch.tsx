@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stopwatch` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stopwatch?s=sharp-thin stopwatch}
- * @preview ![stopwatch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBMMzA0IDBsMCAxNi03MiAwIDAgODAuMmM1NS40IDIuMSAxMDUuMyAyNS45IDE0MS40IDYzLjFsMzYuOS0zNi45IDUuNy01LjdMNDI3LjMgMTI4bC01LjcgNS43LTM3LjYgMzcuNkM0MTQgMjA3LjIgNDMyIDI1My41IDQzMiAzMDRjMCAxMTQuOS05My4xIDIwOC0yMDggMjA4UzE2IDQxOC45IDE2IDMwNGMwLTExMi4yIDg4LjgtMjAzLjYgMjAwLTIwNy44TDIxNiAxNmwtNzIgMCAwLTE2em04MCA0OTZhMTkyIDE5MiAwIDEgMCAwLTM4NCAxOTIgMTkyIDAgMSAwIDAgMzg0em04LTMxMmwwIDEzNiAwIDgtMTYgMCAwLTggMC0xMzYgMC04IDE2IDAgMCA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![stopwatch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/stopwatch.svg)
  */
 const Stopwatch: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

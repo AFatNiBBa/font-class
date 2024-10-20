@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-snowmobiling` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-snowmobiling?s=sharp-solid person-snowmobiling}
- * @preview ![person-snowmobiling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnpNMzczLjUgODUuM0wzNjIuNyA2My44IDMxOS44IDg1LjNsMTAuNyAyMS41IDM3LjQgNzQuN0wzNjAgMTkybC01NiAwLTgwLTcyLTY0IDBMMTA2LjcgMjIwLjZjLTExLjQgMjEuNi05LjQgNDcuOCA1LjMgNjcuNGwtMzIgMEwzMS4xIDM4NS44YzUuNC0xLjIgMTEuMS0xLjggMTYuOS0xLjhsMjI0IDBjMjYuMiAwIDQ5LjQgMTIuNiA2NCAzMmwxMTQgMCAzNiA0OC00NiAwLTI0IDAgMCA0OCAyNCAwIDEyOCAwIDkuOSAwIDctNyAzMi0zMiAxNy0xN0w2MDAgNDIyLjFsLTE3IDE3LTI1IDI1TDU0NiA0NjRsLTQ2LTYxLjNMNTc2IDM1MmwwLTk2TDQxOS44IDE3Ny45IDM3My41IDg1LjN6TTI3MiAyNTZsNDAgMC0yNCAzMi0yNCAwLTcyLTMyIDMyLTQ4IDQ4IDQ4ek00OCA0MTZjLTI2LjUgMC00OCAyMS41LTQ4IDQ4czIxLjUgNDggNDggNDhsMjI0IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhzLTIxLjUtNDgtNDgtNDhMNDggNDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-snowmobiling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-snowmobiling.svg)
  */
 const PersonSnowmobiling: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

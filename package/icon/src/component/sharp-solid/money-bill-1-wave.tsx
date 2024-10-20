@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-bill-1-wave` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-1-wave?s=sharp-solid money-bill-1-wave}
- * @preview ![money-bill-1-wave](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2MC4zTDAgNDUxLjdjOTYgNDguOSAxOTIgMjQuNSAyODggMHMxOTItNDguOSAyODggMGwwLTM5MS41Yy05Ni00OC45LTE5Mi0yNC41LTI4OCAwcy0xOTIgNDguOS0yODggMHpNMTI4IDQxNmwtNjQgMCAwLTY0YzM1LjMgMCA2NCAyOC43IDY0IDY0ek02NCAyMjRsMC02NCA2NCAwYzAgMzUuMy0yOC43IDY0LTY0IDY0ek00NDggMzUyYzAtMzUuMyAyOC43LTY0IDY0LTY0bDAgNjQtNjQgMHptNjQtMTkyYy0zNS4zIDAtNjQtMjguNy02NC02NGw2NCAwIDAgNjR6TTM4NCAyNTZjMCA2MS45LTQzIDExMi05NiAxMTJzLTk2LTUwLjEtOTYtMTEyczQzLTExMiA5Ni0xMTJzOTYgNTAuMSA5NiAxMTJ6TTI1MiAxODhsMCA0MCAxNiAwIDAgNDgtNCAwLTIwIDAgMCA0MCAyMCAwIDI0IDAgMjQgMCAyMCAwIDAtNDAtMjAgMC00IDAgMC02OCAwLTIwLTIwIDAtMTYgMC0yMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![money-bill-1-wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/money-bill-1-wave.svg)
  */
 const MoneyBill_1Wave: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

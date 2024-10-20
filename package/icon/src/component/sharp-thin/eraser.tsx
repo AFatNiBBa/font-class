@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eraser` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eraser?s=sharp-thin eraser}
- * @preview ![eraser](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY2LjYgNDY0TDI4OCA0NjRsMjUuNCAwTDM4MyAzOTQuMyAxODEuNyAxOTMgMzguNiAzMzZsMTI4IDEyOHpNMjg4IDQ4MGwtMTI4IDBMMjcuMyAzNDcuMyAxNiAzMzZsMTEuMy0xMS4zTDMyNC43IDI3LjMgMzM2IDE2bDExLjMgMTEuM0w1NDguNyAyMjguNyA1NjAgMjQwbC0xMS4zIDExLjNMMzM2IDQ2NGwyMDAgMCA4IDAgMCAxNi04IDAtMjE2IDAtMzIgMHptMTA2LjMtOTdsMTQzLTE0M0wzMzYgMzguNmwtMTQzIDE0M0wzOTQuMyAzODN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![eraser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/eraser.svg)
  */
 const Eraser: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

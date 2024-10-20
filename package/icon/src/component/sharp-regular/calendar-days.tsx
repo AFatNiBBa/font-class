@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-days` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-days?s=sharp-regular calendar-days}
- * @preview ![calendar-days](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDI0bDAtMjRMMTA0IDBsMCAyNCAwIDQwTDAgNjRsMCA4MCAwIDQ4TDAgNDY0bDAgNDggNDggMCAzNTIgMCA0OCAwIDAtNDggMC0yNzIgMC00OCAwLTgwTDM0NCA2NGwwLTQwIDAtMjRMMjk2IDBsMCAyNCAwIDQwTDE1MiA2NGwwLTQwek00OCAxOTJsODAgMCAwIDU2LTgwIDAgMC01NnptMCAxMDRsODAgMCAwIDY0LTgwIDAgMC02NHptMTI4IDBsOTYgMCAwIDY0LTk2IDAgMC02NHptMTQ0IDBsODAgMCAwIDY0LTgwIDAgMC02NHptODAtNDhsLTgwIDAgMC01NiA4MCAwIDAgNTZ6bTAgMTYwbDAgNTYtODAgMCAwLTU2IDgwIDB6bS0xMjggMGwwIDU2LTk2IDAgMC01NiA5NiAwem0tMTQ0IDBsMCA1Ni04MCAwIDAtNTYgODAgMHpNMjcyIDI0OGwtOTYgMCAwLTU2IDk2IDAgMCA1NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![calendar-days](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/calendar-days.svg)
  */
 const CalendarDays: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

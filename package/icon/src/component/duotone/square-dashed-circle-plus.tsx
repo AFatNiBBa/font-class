@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `square-dashed-circle-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dashed-circle-plus?s=duotone square-dashed-circle-plus}
- * @preview ![square-dashed-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDEyOGwwIDMyIDY0IDAgMC0zMmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMiAwIDAtNjRMOTYgMzJDNDMgMzIgMCA3NSAwIDEyOHptMCA2NEwwIDMyMGw2NCAwIDAtMTI4TDAgMTkyek0wIDM1MmwwIDMyYzAgNTMgNDMgOTYgOTYgOTZsMzIgMCAwLTY0LTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMzJMMCAzNTJ6TTE2MCAzMmwwIDY0IDEyOCAwIDAtNjRMMTYwIDMyem0wIDM4NGwwIDY0IDEyOCAwIDAtMTAuOGMtMTEuMy0xNi0xOS45LTMzLjktMjUuNC01My4yTDE2MCA0MTZ6TTMyMCAzMmwwIDY0IDMyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA3MC42YzE1LjMtNC4zIDMxLjQtNi42IDQ4LTYuNmM1LjQgMCAxMC43IC4yIDE2IC43bDAtNjQuN2MwLTUzLTQzLTk2LTk2LTk2bC0zMiAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjg4IDM2OGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0xNDQtODBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDQ4LTQ4IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNDggMCAwIDQ4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC00OCA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC00OCAwIDAtNDhjMC04LjgtNy4yLTE2LTE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-dashed-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-dashed-circle-plus.svg)
  */
 const SquareDashedCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 128l0 32 64 0 0-32c0-17.7 14.3-32 32-32l32 0 0-64L96 32C43 32 0 75 0 128zm0 64L0 320l64 0 0-128L0 192zM0 352l0 32c0 53 43 96 96 96l32 0 0-64-32 0c-17.7 0-32-14.3-32-32l0-32L0 352zM160 32l0 64 128 0 0-64L160 32zm0 384l0 64 128 0 0-10.8c-11.3-16-19.9-33.9-25.4-53.2L160 416zM320 32l0 64 32 0c17.7 0 32 14.3 32 32l0 70.6c15.3-4.3 31.4-6.6 48-6.6c5.4 0 10.7 .2 16 .7l0-64.7c0-53-43-96-96-96l-32 0z" />
-            <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16z" />
+        <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sign-posts-wrench` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sign-posts-wrench?s=sharp-solid sign-posts-wrench}
- * @preview ![sign-posts-wrench](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMGwwIDMyTDAgMzIgMCA0MTZsMzg0IDBjLTIwLjEtMjYuNy0zMi02MC0zMi05NmMwLTQ3LjggMjEtOTAuNyA1NC4yLTEyMGw5LjEtOCAxMi4xIDAgMjAuNyAwIDMyIDAgMCAzMiAwIDY0IDMyIDI0IDMyLTI0IDAtNjQgMC0zMiAzMiAwczAgMCAwIDBsMC0xNjAtNjQgMCAwLTMyTDQ0OCAwbDAgMzJMMTI4IDMybDAtMzJMNjQgMHptMCA0NDhsMCA2NCA2NCAwIDAtNjQtNjQgMHpNNDI3LjMgMjI0Yy0yNi42IDIzLjUtNDMuMyA1Ny44LTQzLjMgOTZjMCA0MC40IDE4LjcgNzYuNSA0OCA5OS45bDAgOTIuMSAxNjAgMCAwLTkyLjFjMjkuMy0yMy41IDQ4LTU5LjUgNDgtOTkuOWMwLTM4LjItMTYuOC03Mi41LTQzLjMtOTZMNTc2IDIyNGwwIDgwLTY0IDQ4LTY0LTQ4IDAtODAtMjAuNyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sign-posts-wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sign-posts-wrench.svg)
  */
 const SignPostsWrench: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

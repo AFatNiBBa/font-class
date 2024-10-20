@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `microphone-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-slash?s=duotone microphone-slash}
- * @preview ![microphone-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNDQgMjE2bDAgNDBjMCA4OS4xIDY2LjIgMTYyLjcgMTUyIDE3NC40bDAgMzMuNi00OCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDcyIDAgNzIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNDggMCAwLTMzLjZjMjAuNC0yLjggMzkuNy05LjEgNTcuMy0xOC4ybC00My4xLTMzLjlDMzQ2LjEgMzgyIDMzMy4zIDM4NCAzMjAgMzg0Yy03MC43IDAtMTI4LTU3LjMtMTI4LTEyOGwwLTguN0wxNDQuNyAyMTBjLS41IDEuOS0uNyAzLjktLjcgNnpNMjI0IDk2bDAgNTQuM2M2MS4zIDQ4LjEgMTIyLjcgOTYuMSAxODQgMTQ0LjJjNS4yLTExLjggOC0yNC44IDgtMzguNWwwLTE2MGMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NnpNNDMzLjggMzE0LjdjMTIuOCAxMCAyNS41IDIwIDM4LjMgMzBjMTUuMi0yNiAyMy45LTU2LjMgMjMuOS04OC43bDAtNDBjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRsMCA0MGMwIDIxLjItNS4xIDQxLjEtMTQuMiA1OC43eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNS4xIDkuMkMxMy4zLTEuMiAyOC40LTMuMSAzOC44IDUuMWw1OTIgNDY0YzEwLjQgOC4yIDEyLjMgMjMuMyA0LjEgMzMuN3MtMjMuMyAxMi4zLTMzLjcgNC4xTDkuMiA0Mi45Qy0xLjIgMzQuNy0zLjEgMTkuNiA1LjEgOS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![microphone-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/microphone-slash.svg)
  */
 const MicrophoneSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M144 216l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6c20.4-2.8 39.7-9.1 57.3-18.2l-43.1-33.9C346.1 382 333.3 384 320 384c-70.7 0-128-57.3-128-128l0-8.7L144.7 210c-.5 1.9-.7 3.9-.7 6zM224 96l0 54.3c61.3 48.1 122.7 96.1 184 144.2c5.2-11.8 8-24.8 8-38.5l0-160c0-53-43-96-96-96s-96 43-96 96zM433.8 314.7c12.8 10 25.5 20 38.3 30c15.2-26 23.9-56.3 23.9-88.7l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 21.2-5.1 41.1-14.2 58.7z" />
-            <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
+        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
     </Icon>
 );
 

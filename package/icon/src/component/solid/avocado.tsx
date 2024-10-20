@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `avocado` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/avocado?s=solid avocado}
- * @preview ![avocado](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU5LjQgMjU1LjNjLTE4LjUgMTUuMi0zMy41IDM1LjYtMzguMSA1OS4xYy0xMC4yIDUxLjktMzQgMTA0LjUtNjYuMyAxMzYuN2MtODEuMiA4MS4yLTIxMi45IDgxLjItMjk0LjIgMHMtODEuMi0yMTIuOSAwLTI5NC4yYzMyLjMtMzIuMyA4NC45LTU2LjEgMTM2LjctNjYuM2MyMy41LTQuNiA0My45LTE5LjYgNTkuMS0zOC4xQzI4My4xIDIwLjUgMzIzLjIgMCAzNjggMGM3OS41IDAgMTQ0IDY0LjUgMTQ0IDE0NGMwIDQ0LjgtMjAuNSA4NC45LTUyLjYgMTExLjN6TTI4My4yIDM0Ny4yYzQxLjctNDEuNyA0OS4xLTEwMi4xIDE2LjQtMTM0LjhzLTkzLTI1LjMtMTM0LjggMTYuNHMtNDkuMSAxMDIuMS0xNi40IDEzNC44czkzIDI1LjMgMTM0LjgtMTYuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![avocado](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/avocado.svg)
  */
 const Avocado: typeof Icon = x => (
     <Icon {...x}>

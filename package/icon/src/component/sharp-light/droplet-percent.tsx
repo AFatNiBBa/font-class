@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `droplet-percent` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-percent?s=sharp-light droplet-percent}
- * @preview ![droplet-percent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDMyMGMwLTE4LjUtOC45LTQ2LTI2LjUtODAuMWMtMTctMzMtNDAtNjguMy02My41LTEwMWMtMjMuNC0zMi42LTQ3LTYyLjEtNjQuNy04My40Yy0xLjktMi4yLTMuNi00LjQtNS40LTYuNGMtMS43IDIuMS0zLjUgNC4yLTUuNCA2LjRjLTE3LjcgMjEuMy00MS4yIDUwLjgtNjQuNyA4My40Yy0yMy41IDMyLjctNDYuNSA2OC02My41IDEwMUM0MC45IDI3NCAzMiAzMDEuNSAzMiAzMjBjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBzMTYwLTcxLjYgMTYwLTE2MHpNMCAzMjBDMCAyMzUuOCAxMjEgODMuNiAxNzAuOSAyNC40QzE4My44IDkuMSAxOTIgMCAxOTIgMHM4LjIgOS4xIDIxLjEgMjQuNEMyNjMgODMuNiAzODQgMjM1LjggMzg0IDMyMGMwIDEwNi04NiAxOTItMTkyIDE5MlMwIDQyNiAwIDMyMHptMjY3LjMtNTIuN2wtMTI4IDEyOEwxMjggNDA2LjYgMTA1LjQgMzg0bDExLjMtMTEuMyAxMjgtMTI4TDI1NiAyMzMuNCAyNzguNiAyNTZsLTExLjMgMTEuM3pNMTEyIDI2NGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwem0xMzYgODhhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![droplet-percent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/droplet-percent.svg)
  */
 const DropletPercent: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

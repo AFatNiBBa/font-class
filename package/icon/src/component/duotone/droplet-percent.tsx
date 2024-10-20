@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `droplet-percent` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-percent?s=duotone droplet-percent}
- * @preview ![droplet-percent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMyMEMwIDQyNiA4NiA1MTIgMTkyIDUxMnMxOTItODYgMTkyLTE5MmMwLTkxLjItMTMwLjItMjYyLjMtMTY2LjYtMzA4LjNDMjExLjQgNC4yIDIwMi41IDAgMTkyLjkgMGwtMS44IDBjLTkuNiAwLTE4LjUgNC4yLTI0LjUgMTEuN0MxMzAuMiA1Ny43IDAgMjI4LjggMCAzMjB6bTE2MC01NmEyNCAyNCAwIDEgMSAtNDggMCAyNCAyNCAwIDEgMSA0OCAwek0xMTIgMzg0YzAtNC4xIDEuNi04LjIgNC43LTExLjNsMTI4LTEyOGMzLjEtMy4xIDcuMi00LjcgMTEuMy00LjdzOC4yIDEuNiAxMS4zIDQuN3M0LjcgNy4yIDQuNyAxMS4zcy0xLjYgOC4yLTQuNyAxMS4zbC0xMjggMTI4Yy0zLjEgMy4xLTcuMiA0LjctMTEuMyA0LjdzLTguMi0xLjYtMTEuMy00LjdzLTQuNy03LjItNC43LTExLjN6bTE2MC04YTI0IDI0IDAgMSAxIC00OCAwIDI0IDI0IDAgMSAxIDQ4IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yNjcuMyAyNjcuM2M2LjItNi4yIDYuMi0xNi40IDAtMjIuNnMtMTYuNC02LjItMjIuNiAwbC0xMjggMTI4Yy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNnMxNi40IDYuMiAyMi42IDBsMTI4LTEyOHpNMTYwIDI2NGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwek0yNzIgMzc2YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![droplet-percent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/droplet-percent.svg)
  */
 const DropletPercent: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
         <path class={generic.secondary} d="M0 320C0 426 86 512 192 512s192-86 192-192c0-91.2-130.2-262.3-166.6-308.3C211.4 4.2 202.5 0 192.9 0l-1.8 0c-9.6 0-18.5 4.2-24.5 11.7C130.2 57.7 0 228.8 0 320zm160-56a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM112 384c0-4.1 1.6-8.2 4.7-11.3l128-128c3.1-3.1 7.2-4.7 11.3-4.7s8.2 1.6 11.3 4.7s4.7 7.2 4.7 11.3s-1.6 8.2-4.7 11.3l-128 128c-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7s-4.7-7.2-4.7-11.3zm160-8a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-            <path d="M267.3 267.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-128 128c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l128-128zM160 264a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM272 376a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
+        <path d="M267.3 267.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-128 128c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l128-128zM160 264a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM272 376a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
     </Icon>
 );
 

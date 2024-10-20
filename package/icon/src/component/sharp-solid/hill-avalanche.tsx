@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hill-avalanche` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hill-avalanche?s=sharp-solid hill-avalanche}
- * @preview ![hill-avalanche](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA1MTJsNDgwIDBMMCAzMiAwIDUxMnpNNTUxLjEgMzkxLjFjMzQuNC0zNC40IDM0LjQtOTAuMSAwLTEyNC40cy05MC4xLTM0LjQtMTI0LjUgMGwzMy45IDMzLjljMTUuNi0xNS42IDQwLjktMTUuNiA1Ni42IDBzMTUuNiA0MC45IDAgNTYuNnMtNDAuOSAxNS42LTU2LjYgMGwtODEuNy04MS43QzQwMS4yIDI2MS4zIDQxNiAyMzYuNCA0MTYgMjA4YzAtMzMuOS0yMS4xLTYyLjktNTAuOS03NC41YzEuOS02LjggMi45LTE0IDIuOS0yMS41YzAtNDQuMi0zNS44LTgwLTgwLTgwYy0yNy4zIDAtNTEuNSAxMy43LTY1LjkgMzQuNkMyMTYuMyA0Ni42IDE5Ny45IDMyIDE3NiAzMmMtMjYuNSAwLTQ4IDIxLjUtNDggNDhjMCA0IC41IDcuOSAxLjQgMTEuNkw0MzkuNyA0MDEuOWMzNC4yIDIzLjEgODEuMSAxOS41IDExMS40LTEwLjh6TTQ0OCA5NmEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6bTY0IDY0YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hill-avalanche](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hill-avalanche.svg)
  */
 const HillAvalanche: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

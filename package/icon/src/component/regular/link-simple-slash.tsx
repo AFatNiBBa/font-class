@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link-simple-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-simple-slash?s=regular link-simple-slash}
- * @preview ![link-simple-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w1MzIuNCAzOTJjNDUuNC0yOC4yIDc1LjYtNzguNiA3NS42LTEzNmMwLTg4LjQtNzEuNi0xNjAtMTYwLTE2MGwtNzIgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw3MiAwYzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEyYzAgNDYuNi0yOC41IDg2LjYtNjkuMSAxMDMuNUwzODkuNSAyODBsMzQuNSAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC05NS43IDBMMjE2IDE0NGw0OCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC03MiAwYy0xMS4zIDAtMjIuMyAxLjItMzIuOSAzLjRMMzguOCA1LjF6bTY5LjYgMTc2LjNMNzAuNyAxNTEuN0M0Ni42IDE3OS43IDMyIDIxNi4xIDMyIDI1NmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MGw3MiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC03MiAwYy02MS45IDAtMTEyLTUwLjEtMTEyLTExMmMwLTI4LjYgMTAuNy01NC44IDI4LjQtNzQuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![link-simple-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/link-simple-slash.svg)
  */
 const LinkSimpleSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

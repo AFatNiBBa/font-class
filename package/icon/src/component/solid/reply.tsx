@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `reply` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reply?s=solid reply}
- * @preview ![reply](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA1IDM0LjhjMTEuNSA1LjEgMTkgMTYuNiAxOSAyOS4ybDAgNjQgMTEyIDBjOTcuMiAwIDE3NiA3OC44IDE3NiAxNzZjMCAxMTMuMy04MS41IDE2My45LTEwMC4yIDE3NC4xYy0yLjUgMS40LTUuMyAxLjktOC4xIDEuOWMtMTAuOSAwLTE5LjctOC45LTE5LjctMTkuN2MwLTcuNSA0LjMtMTQuNCA5LjgtMTkuNWM5LjQtOC44IDIyLjItMjYuNCAyMi4yLTU2LjdjMC01My00My05Ni05Ni05NmwtOTYgMCAwIDY0YzAgMTIuNi03LjQgMjQuMS0xOSAyOS4ycy0yNSAzLTM0LjQtNS40bC0xNjAtMTQ0QzMuOSAyMjUuNyAwIDIxNy4xIDAgMjA4czMuOS0xNy43IDEwLjYtMjMuOGwxNjAtMTQ0YzkuNC04LjUgMjIuOS0xMC42IDM0LjQtNS40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![reply](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/reply.svg)
  */
 const Reply: typeof Icon = x => (
     <Icon {...x}>

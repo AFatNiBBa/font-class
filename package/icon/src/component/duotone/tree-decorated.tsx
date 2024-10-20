@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `tree-decorated` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-decorated?s=duotone tree-decorated}
- * @preview ![tree-decorated](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDQ4Ny4xQzAgNTAwLjkgMTEuMSA1MTIgMjQuOSA1MTJsMzk4LjMgMGMxMy43IDAgMjQuOS0xMS4xIDI0LjktMjQuOWMwLTQuNy0xLjMtOS4yLTMuOC0xMy4yTDM2OCAzNTJsMzEuOCAwYzEzLjQgMCAyNC4yLTEwLjkgMjQuMi0yNC4yYzAtNS0xLjYtMTAtNC41LTE0LjFMMzQ0IDIwOGwyNC45IDBjMTIuNyAwIDIzLjEtMTAuMyAyMy4xLTIzLjFjMC01LjctMi4xLTExLjMtNi0xNS41TDIzNy40IDUuOUMyMzQgMi4xIDIyOS4xIDAgMjI0IDBzLTEwIDIuMS0xMy40IDUuOUw2MiAxNjkuNGMtMy45IDQuMi02IDkuOC02IDE1LjVDNTYgMTk3LjcgNjYuMyAyMDggNzkuMSAyMDhsMjQuOSAwTDI4LjUgMzEzLjdjLTIuOSA0LjEtNC41IDktNC41IDE0LjFDMjQgMzQxLjEgMzQuOCAzNTIgNDguMiAzNTJMODAgMzUyIDMuOCA0NzRjLTIuNSA0LTMuOCA4LjUtMy44IDEzLjJ6TTE4NCAyODhhMjQgMjQgMCAxIDEgLTQ4IDAgMjQgMjQgMCAxIDEgNDggMHptOTYtMTI4YTI0IDI0IDAgMSAxIC00OCAwIDI0IDI0IDAgMSAxIDQ4IDB6bTMyIDI1NmEyNCAyNCAwIDEgMSAtNDggMCAyNCAyNCAwIDEgMSA0OCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjU2IDE4NGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6bTMyIDI1NmEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tree-decorated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tree-decorated.svg)
  */
 const TreeDecorated: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M0 487.1C0 500.9 11.1 512 24.9 512l398.3 0c13.7 0 24.9-11.1 24.9-24.9c0-4.7-1.3-9.2-3.8-13.2L368 352l31.8 0c13.4 0 24.2-10.9 24.2-24.2c0-5-1.6-10-4.5-14.1L344 208l24.9 0c12.7 0 23.1-10.3 23.1-23.1c0-5.7-2.1-11.3-6-15.5L237.4 5.9C234 2.1 229.1 0 224 0s-10 2.1-13.4 5.9L62 169.4c-3.9 4.2-6 9.8-6 15.5C56 197.7 66.3 208 79.1 208l24.9 0L28.5 313.7c-2.9 4.1-4.5 9-4.5 14.1C24 341.1 34.8 352 48.2 352L80 352 3.8 474c-2.5 4-3.8 8.5-3.8 13.2zM184 288a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm96-128a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm32 256a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-            <path d="M256 184a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm32 256a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
+        <path d="M256 184a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm32 256a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
     </Icon>
 );
 

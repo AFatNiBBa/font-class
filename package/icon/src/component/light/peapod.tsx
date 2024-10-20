@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `peapod` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peapod?s=light peapod}
- * @preview ![peapod](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMyQzIwMy45IDMyIDMyIDIwMy45IDMyIDQxNmwwIDQ4YzAgOC44IDcuMiAxNiAxNiAxNmw0OCAwYzIxMi4xIDAgMzg0LTE3MS45IDM4NC0zODRsMC00OGMwLTguOC03LjItMTYtMTYtMTZsLTQ4IDB6bTAtMzJsNDggMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDQ4YzAgMjI5LjgtMTg2LjIgNDE2LTQxNiA0MTZsLTQ4IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtNDhDMCAxODYuMiAxODYuMiAwIDQxNiAwek0zNjggMTEyYTMyIDMyIDAgMSAwIDAgNjQgMzIgMzIgMCAxIDAgMC02NHptNjQgMzJhNjQgNjQgMCAxIDEgLTEyOCAwIDY0IDY0IDAgMSAxIDEyOCAwek0yMjQgMjU2YTMyIDMyIDAgMSAwIDY0IDAgMzIgMzIgMCAxIDAgLTY0IDB6bTMyIDY0YTY0IDY0IDAgMSAxIDAtMTI4IDY0IDY0IDAgMSAxIDAgMTI4ek0xMTIgMzY4YTMyIDMyIDAgMSAwIDY0IDAgMzIgMzIgMCAxIDAgLTY0IDB6bTMyIDY0YTY0IDY0IDAgMSAxIDAtMTI4IDY0IDY0IDAgMSAxIDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![peapod](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/peapod.svg)
  */
 const Peapod: typeof Icon = x => (
     <Icon {...x}>

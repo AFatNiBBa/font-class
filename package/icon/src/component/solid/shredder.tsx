@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shredder` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shredder?s=solid shredder}
- * @preview ![shredder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDNjQgMjguNyA5Mi43IDAgMTI4IDBMMzU0LjcgMGMxNyAwIDMzLjMgNi43IDQ1LjMgMTguN0w0MjkuMyA0OGMxMiAxMiAxOC43IDI4LjMgMTguNyA0NS4zbDAgOTguN2MzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDk2YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDMyIDM4NGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC05NmMwLTM1LjMgMjguNy02NCA2NC02NEw2NCA2NHpNMzg0IDkzLjNMMzU0LjcgNjQgMTI4IDY0bDAgMTI4IDI1NiAwIDAtOTguN3pNNDMyIDI5NmEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6TTQwIDQxNmw0OCAwIDAgNzJjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC03MnptOTYgMGw0OCAwIDAgNzJjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC03MnptOTYgMGw0OCAwIDAgNzJjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC03MnptOTYgMGw0OCAwIDAgNzJjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC03MnptOTYgMGw0OCAwIDAgNzJjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC03MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shredder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shredder.svg)
  */
 const Shredder: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `temperature-high` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-high?s=sharp-light temperature-high}
- * @preview ![temperature-high](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMyYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptMCA5NkE2NCA2NCAwIDEgMCA0MTYgMGE2NCA2NCAwIDEgMCAwIDEyOHpNMTAxLjMgMjg0LjVMMTEyIDI3NWwwLTE0LjNMMTEyIDMybDEyOCAwIDAgMjI4LjcgMCAxNC4zIDEwLjcgOS41YzIzIDIwLjYgMzcuMyA1MC4zIDM3LjMgODMuNWMwIDYxLjktNTAuMSAxMTItMTEyIDExMnMtMTEyLTUwLjEtMTEyLTExMmMwLTMzLjIgMTQuNC02Mi45IDM3LjMtODMuNXpNMjcyIDBMMjQwIDAgMTEyIDAgODAgMGwwIDMyIDAgMjI4LjdDNTAuNSAyODcuMSAzMiAzMjUuNCAzMiAzNjhjMCA3OS41IDY0LjUgMTQ0IDE0NCAxNDRzMTQ0LTY0LjUgMTQ0LTE0NGMwLTQyLjYtMTguNS04MS00OC0xMDcuM0wyNzIgMzJsMC0zMnpNMTQ0IDM2OGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem05NiAwYzAtMjkuOC0yMC40LTU0LjktNDgtNjJsMC0yMTAgMC0xNi0zMiAwIDAgMTYgMCAyMTBjLTI3LjYgNy4xLTQ4IDMyLjItNDggNjJjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![temperature-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/temperature-high.svg)
  */
 const TemperatureHigh: typeof Icon = x => (
     <Icon {...x}>

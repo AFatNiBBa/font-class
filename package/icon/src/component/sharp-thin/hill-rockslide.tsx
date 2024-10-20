@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hill-rockslide` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hill-rockslide?s=sharp-thin hill-rockslide}
- * @preview ![hill-rockslide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQwYTI0IDI0IDAgMSAwIDAgNDggMjQgMjQgMCAxIDAgMC00OHptNDAgMjRhNDAgNDAgMCAxIDEgLTgwIDAgNDAgNDAgMCAxIDEgODAgMHptMzguOCA0OGwyLjItMy45IDM2LTY0IDIuMy00LjEgNC43IDAgNzIgMCA0LjcgMCAyLjMgNC4xIDM2IDY0IDIuMiAzLjktMi4yIDMuOS0zNiA2NC0yLjMgNC4xLTQuNyAwLTcyIDAtNC43IDAtMi4zLTQuMS0zNi02NC0yLjItMy45em00OS45IDU2bDYyLjYgMCAzMS41LTU2TDM1MS4zIDU2bC02Mi42IDAtMzEuNSA1NiAzMS41IDU2ek0wIDQ0LjdMMTMuNyA1OC4zbDQ0MCA0NDBMNDY3LjMgNTEyIDQ0OCA1MTIgOCA1MTJsLTggMCAwLThMMCA2NCAwIDQ0Ljd6TTE2IDgzLjNMMTYgNDk2bDQxMi43IDBMMTYgODMuM3pNNDkyLjEgNDMxbC02NC0zNi00LjEtMi4zIDAtNC43IDAtNzIgMC00LjcgNC4xLTIuMyA2NC0zNiAzLjktMi4yIDMuOSAyLjIgNjQgMzYgNC4xIDIuMyAwIDQuNyAwIDcyIDAgNC43LTQuMSAyLjMtNjQgMzYtMy45IDIuMi0zLjktMi4yek01NTIgMzIwLjdsLTU2LTMxLjUtNTYgMzEuNSAwIDYyLjYgNTYgMzEuNSA1Ni0zMS41IDAtNjIuNnpNMzI4IDI4OGEyNCAyNCAwIDEgMCA0OCAwIDI0IDI0IDAgMSAwIC00OCAwem0yNCA0MGE0MCA0MCAwIDEgMSAwLTgwIDQwIDQwIDAgMSAxIDAgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hill-rockslide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hill-rockslide.svg)
  */
 const HillRockslide: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

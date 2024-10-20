@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tugrik-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tugrik-sign?s=sharp-solid tugrik-sign}
- * @preview ![tugrik-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJMMCAzMiAwIDk2bDMyIDAgMTI4IDAgMCAxMDNMNTYuMiAyMjVsLTMxIDcuOCAxNS41IDYyLjEgMzEtNy44TDE2MCAyNjVsMCAzMEw1Ni4yIDMyMWwtMzEgNy44IDE1LjUgNjIuMSAzMS03LjhMMTYwIDM2MWwwIDg3IDAgMzIgNjQgMCAwLTMyIDAtMTAzTDMyNy44IDMxOWwzMS03LjgtMTUuNS02Mi4xLTMxIDcuOEwyMjQgMjc5bDAtMzBMMzI3LjggMjIzbDMxLTcuOC0xNS41LTYyLjEtMzEgNy44TDIyNCAxODNsMC04NyAxMjggMCAzMiAwIDAtNjQtMzIgMEwxOTIgMzIgMzIgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tugrik-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tugrik-sign.svg)
  */
 const TugrikSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

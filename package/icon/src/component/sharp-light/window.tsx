@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `window` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window?s=sharp-light window}
- * @preview ![window](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgNDQ4IDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCA0NDggMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnptMTIwIDcybDAgNDgtNDggMCAwLTQ4IDQ4IDB6bTQ4IDBsNDggMCAwIDQ4LTQ4IDAgMC00OHptMTQ0IDBsMCA0OC00OCAwIDAtNDggNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![window](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/window.svg)
  */
 const Window: typeof Icon = x => (
     <Icon {...x}>

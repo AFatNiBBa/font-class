@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spray-can` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spray-can?s=sharp-thin spray-can}
- * @preview ![spray-can](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwwIDggMCAxMTIgMCA4IDE2IDAgMC04IDAtMTA0IDk2IDAgMCAxMDQgMCA4IDE2IDAgMC04TDIyNCA4bDAtOC04IDBMMTA0IDAgOTYgMHpNMjI0IDE3NmM0NC4yIDAgODAgMzUuOCA4MCA4MGwwIDI0MEwxNiA0OTZsMC0yNDBjMC00NC4yIDM1LjgtODAgODAtODBsMTI4IDB6TTk2IDE2MGMtNTMgMC05NiA0My05NiA5NkwwIDQ5NmwwIDE2IDE2IDAgMjg4IDAgMTYgMCAwLTE2IDAtMjQwYzAtNTMtNDMtOTYtOTYtOTZMOTYgMTYwek0yMzIgMzM2QTcyIDcyIDAgMSAxIDg4IDMzNmE3MiA3MiAwIDEgMSAxNDQgMHptLTcyLTg4YTg4IDg4IDAgMSAwIDAgMTc2IDg4IDg4IDAgMSAwIDAtMTc2ek0zMjAgNDhhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptODAgMTZhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyek01MTIgNDhhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHpNNDk2IDE2MGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTE2IDgwYTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6TTQwMCAxNjBhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![spray-can](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/spray-can.svg)
  */
 const SprayCan: typeof Icon = x => (
     <Icon {...x}>

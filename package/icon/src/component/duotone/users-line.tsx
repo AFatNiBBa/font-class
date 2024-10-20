@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `users-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-line?s=duotone users-line}
- * @preview ![users-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAyNTZjMCAxNy43IDE0LjMgMzIgMzIgMzJsODUuNiAwYzEwLjEtMzkuNCAzOC42LTcxLjUgNzUuOC04Ni42Yy05LjctNi0yMS4yLTkuNC0zMy40LTkuNGwtOTYgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjR6TTgzLjIgOTZhNjQgNjQgMCAxIDAgMTI4IDAgNjQgNjQgMCAxIDAgLTEyOCAwem05NC40IDIyNGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwyMjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmMwLTExLjItMS45LTIyLTUuNS0zMmMtMTAuOC0zMC43LTM2LjgtNTQuMi02OC45LTYxLjZjLTYuOS0xLjYtMTQuMi0yLjQtMjEuNi0yLjRsLTk2IDBjLTguNSAwLTE2LjcgMS4xLTI0LjUgMy4xYy0zMC44IDguMS01NS42IDMxLjEtNjYuMSA2MC45Yy0zLjUgMTAtNS41IDIwLjgtNS41IDMyem02NC0yMDhhODAgODAgMCAxIDAgMTYwIDAgODAgODAgMCAxIDAgLTE2MCAwem0xNzQuMyA4OC42YzM4LjEgMTQuOCA2Ny40IDQ3LjMgNzcuNyA4Ny40bDgyLjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmMwLTM1LjMtMjguNy02NC02NC02NGwtOTYgMGMtMTEuNyAwLTIyLjcgMy4xLTMyLjEgOC42ek00MzUuMiA5NmE2NCA2NCAwIDEgMCAxMjggMCA2NCA2NCAwIDEgMCAtMTI4IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDQ0OGMwLTE3LjcgMTQuMy0zMiAzMi0zMmw1NzYgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkwzMiA0ODBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![users-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/users-line.svg)
  */
 const UsersLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M32 256c0 17.7 14.3 32 32 32l85.6 0c10.1-39.4 38.6-71.5 75.8-86.6c-9.7-6-21.2-9.4-33.4-9.4l-96 0c-35.3 0-64 28.7-64 64zM83.2 96a64 64 0 1 0 128 0 64 64 0 1 0 -128 0zm94.4 224c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32c0-11.2-1.9-22-5.5-32c-10.8-30.7-36.8-54.2-68.9-61.6c-6.9-1.6-14.2-2.4-21.6-2.4l-96 0c-8.5 0-16.7 1.1-24.5 3.1c-30.8 8.1-55.6 31.1-66.1 60.9c-3.5 10-5.5 20.8-5.5 32zm64-208a80 80 0 1 0 160 0 80 80 0 1 0 -160 0zm174.3 88.6c38.1 14.8 67.4 47.3 77.7 87.4l82.4 0c17.7 0 32-14.3 32-32c0-35.3-28.7-64-64-64l-96 0c-11.7 0-22.7 3.1-32.1 8.6zM435.2 96a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-            <path d="M0 448c0-17.7 14.3-32 32-32l576 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32z" />
+        <path d="M0 448c0-17.7 14.3-32 32-32l576 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `light-ceiling` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-ceiling?s=sharp-light light-ceiling}
- * @preview ![light-ceiling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDBsMCAxNiAwIDE0NC41QzM5NS4zIDE2OC4xIDQ5NC45IDI2Mi45IDUxMCAzODRjMS4zIDEwLjUgMiAyMS4yIDIgMzJsLTMyIDBMMzIgNDE2IDAgNDE2YzAtMTAuOCAuNy0yMS41IDItMzJDMTcuMSAyNjIuOSAxMTYuNyAxNjguMSAyNDAgMTYwLjVMMjQwIDE2bDAtMTYgMzIgMHpNMzQuMyAzODRsNDQzLjUgMEM0NjIuMiAyNzUuNCAzNjguOCAxOTIgMjU2IDE5MlM0OS44IDI3NS40IDM0LjMgMzg0ek0yNTYgNTEyYy0zOC43IDAtNzEtMjcuNS03OC40LTY0bDMzLjEgMGM2LjYgMTguNiAyNC40IDMyIDQ1LjMgMzJzMzguNy0xMy40IDQ1LjMtMzJsMzMuMSAwYy03LjQgMzYuNS0zOS43IDY0LTc4LjQgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![light-ceiling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/light-ceiling.svg)
  */
 const LightCeiling: typeof Icon = x => (
     <Icon {...x}>

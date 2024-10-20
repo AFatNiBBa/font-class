@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-code` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-code?s=regular laptop-code}
- * @preview ![laptop-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDgwbDM4NCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDIyNCA0OCAwIDAtMjI0YzAtMzUuMy0yOC43LTY0LTY0LTY0TDEyOCAzMkM5Mi43IDMyIDY0IDYwLjcgNjQgOTZsMCAyMjQgNDggMCAwLTIyNGMwLTguOCA3LjItMTYgMTYtMTZ6TTUwLjcgNDAwbDUzOC41IDBjLTYuNiAxOC42LTI0LjQgMzItNDUuMyAzMkw5NiA0MzJjLTIwLjkgMC0zOC43LTEzLjQtNDUuMy0zMnpNMzIgMzUyYy0xNy43IDAtMzIgMTQuMy0zMiAzMmMwIDUzIDQzIDk2IDk2IDk2bDQ0OCAwYzUzIDAgOTYtNDMgOTYtOTZjMC0xNy43LTE0LjMtMzItMzItMzJMMzIgMzUyek0yODEgMTc3YzkuNC05LjQgOS40LTI0LjYgMC0zMy45cy0yNC42LTkuNC0zMy45IDBsLTQ4IDQ4Yy05LjQgOS40LTkuNCAyNC42IDAgMzMuOWw0OCA0OGM5LjQgOS40IDI0LjYgOS40IDMzLjkgMHM5LjQtMjQuNiAwLTMzLjlsLTMxLTMxIDMxLTMxek0zOTMgMTQzYy05LjQtOS40LTI0LjYtOS40LTMzLjkgMHMtOS40IDI0LjYgMCAzMy45bDMxIDMxLTMxIDMxYy05LjQgOS40LTkuNCAyNC42IDAgMzMuOXMyNC42IDkuNCAzMy45IDBsNDgtNDhjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlsLTQ4LTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![laptop-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/laptop-code.svg)
  */
 const LaptopCode: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

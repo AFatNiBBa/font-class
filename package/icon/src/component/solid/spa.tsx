@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spa` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spa?s=solid spa}
- * @preview ![spa](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgzLjEgMjM1LjNjMzMuNyAyMC43IDYyLjkgNDguMSA4NS44IDgwLjVjNyA5LjkgMTMuNCAyMC4zIDE5LjEgMzFjNS43LTEwLjggMTIuMS0yMS4xIDE5LjEtMzFjMjIuOS0zMi40IDUyLjEtNTkuOCA4NS44LTgwLjVDNDM3LjYgMjA3LjggNDkwLjEgMTkyIDU0NiAxOTJsOS45IDBjMTEuMSAwIDIwLjEgOSAyMC4xIDIwLjFDNTc2IDM2MC4xIDQ1Ni4xIDQ4MCAzMDguMSA0ODBMMjg4IDQ4MGwtMjAuMSAwQzExOS45IDQ4MCAwIDM2MC4xIDAgMjEyLjFDMCAyMDEgOSAxOTIgMjAuMSAxOTJsOS45IDBjNTUuOSAwIDEwOC40IDE1LjggMTUzLjEgNDMuM3pNMzAxLjUgMzcuNmMxNS43IDE2LjkgNjEuMSA3MS44IDg0LjQgMTY0LjZjLTM4IDIxLjYtNzEuNCA1MC44LTk3LjkgODUuNmMtMjYuNS0zNC44LTU5LjktNjMuOS05Ny45LTg1LjZjMjMuMi05Mi44IDY4LjYtMTQ3LjcgODQuNC0xNjQuNkMyNzggMzMuOSAyODIuOSAzMiAyODggMzJzMTAgMS45IDEzLjUgNS42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![spa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/spa.svg)
  */
 const Spa: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

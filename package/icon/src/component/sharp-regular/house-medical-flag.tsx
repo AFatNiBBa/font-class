@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-medical-flag` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-flag?s=sharp-regular house-medical-flag}
- * @preview ![house-medical-flag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI0bDAtMjRMNDQ4IDBsMCAyNCAwIDggMCAxNjAgMCAzMjAgNDggMCAwLTMyMCAxNDQgMCAwLTE2MEw0OTYgMzJsMC04ek00MTYgMTMzTDI4Ni4zIDM2LjcgMjcyIDI2LjEgMjU3LjcgMzYuNyAxOS40IDIxMy41IC4yIDIyNy44bDI4LjYgMzguNUw0OCAyNTIuMWwxNi0xMS45TDY0IDQ4OGwwIDI0IDI0IDAgMzI4IDAgMC00OC0zMDQgMCAwLTI0NS42IDAtMTMuOEwyNzIgODUuOSA0MTYgMTkyLjdsMC01OS44ek0yNDAgMTkybDAgNjQtNjQgMCAwIDY0IDY0IDAgMCA2NCA2NCAwIDAtNjQgNjQgMCAwLTY0LTY0IDAgMC02NC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-medical-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-medical-flag.svg)
  */
 const HouseMedicalFlag: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

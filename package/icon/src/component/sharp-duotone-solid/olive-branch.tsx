@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `olive-branch` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/olive-branch?s=sharp-duotone-solid olive-branch}
- * @preview ![olive-branch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xOTIgMzIwYzAgMTA2IDY0LjUgMTkyIDE0NCAxOTJzMTQ0LTg2IDE0NC0xOTJzLTY0LjUtMTkyLTE0NC0xOTJzLTE0NCA4Ni0xNDQgMTkyek00MjcuMiAxMjguMWMxMy42IDEwLjQgMjUuNyAyMi45IDM2LjIgMzYuOUM0OTQgMjA1LjggNTEyIDI2MC43IDUxMiAzMjBjMCA1Ny44LTE3LjEgMTExLjQtNDYuMyAxNTEuOGM1Mi45IDE2LjUgMTA1LjUgOC40IDEzOS42LTI3YzU2LjItNTguMyA0MS0xNjguNi0zMy45LTI0Ni40Yy00Mi45LTQ0LjUtOTYuMS02OC43LTE0NC4yLTcwLjN6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0xMjggMEM0OCAwIDAgNjQgMCA2NHMzMS4yIDM2LjQgODUuMiA1MC41QzM0LjUgMTQxLjQgMCAxOTQuNiAwIDI1NmwwIDE2IDAgMTYgMTYgMCAxNiAwYzg2LjYgMCAxNTcuMS02OC43IDE1OS45LTE1NC42TDM3My40IDQ4IDYxNiA0OGwyNCAwIDAtNDhMNjE2IDAgMzY4IDBjLTMuNSAwLTcgLjgtMTAuMiAyLjNMMjQ3LjQgNTQuMkMyMzAuMyAzNi4zIDE4OC4yIDAgMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![olive-branch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/olive-branch.svg)
  */
 const OliveBranch: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M192 320c0 106 64.5 192 144 192s144-86 144-192s-64.5-192-144-192s-144 86-144 192zM427.2 128.1c13.6 10.4 25.7 22.9 36.2 36.9C494 205.8 512 260.7 512 320c0 57.8-17.1 111.4-46.3 151.8c52.9 16.5 105.5 8.4 139.6-27c56.2-58.3 41-168.6-33.9-246.4c-42.9-44.5-96.1-68.7-144.2-70.3z" />
-            <path d="M128 0C48 0 0 64 0 64s31.2 36.4 85.2 50.5C34.5 141.4 0 194.6 0 256l0 16 0 16 16 0 16 0c86.6 0 157.1-68.7 159.9-154.6L373.4 48 616 48l24 0 0-48L616 0 368 0c-3.5 0-7 .8-10.2 2.3L247.4 54.2C230.3 36.3 188.2 0 128 0z" />
+        <path d="M128 0C48 0 0 64 0 64s31.2 36.4 85.2 50.5C34.5 141.4 0 194.6 0 256l0 16 0 16 16 0 16 0c86.6 0 157.1-68.7 159.9-154.6L373.4 48 616 48l24 0 0-48L616 0 368 0c-3.5 0-7 .8-10.2 2.3L247.4 54.2C230.3 36.3 188.2 0 128 0z" />
     </Icon>
 );
 

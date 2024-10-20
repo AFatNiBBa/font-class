@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-check?s=sharp-solid cloud-check}
- * @preview ![cloud-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDQ4MEwwIDQ4MCAwIDMzNmMwLTYyLjcgNDAuMS0xMTYgOTYtMTM1LjhsMC04LjJjMC04OC40IDcxLjYtMTYwIDE2MC0xNjBjNTkuMyAwIDExMSAzMi4yIDEzOC43IDgwLjJDNDA5LjkgMTAyIDQyOC4zIDk2IDQ0OCA5NmM1MyAwIDk2IDQzIDk2IDk2bDAgMzZjNTUuMiAxNC4yIDk2IDY0LjMgOTYgMTI0bDAgMTI4LTEyOCAwLTM2OCAwek00MzMgMjQxbDE3LTE3TDQxNiAxOTAuMWwtMTcgMTctMTExIDExMS00Ny00Ny0xNy0xN0wxOTAuMSAyODhsMTcgMTcgNjQgNjQgMTcgMTcgMTctMTdMNDMzIDI0MXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cloud-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-check.svg)
  */
 const CloudCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

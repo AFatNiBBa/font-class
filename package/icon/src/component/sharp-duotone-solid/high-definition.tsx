@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `high-definition` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/high-definition?s=sharp-duotone-solid high-definition}
- * @preview ![high-definition](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMyTDAgNDgwbDU3NiAwIDAtNDQ4TDAgMzJ6TTExMiAxNjBsNDggMCAwIDI0IDAgNDggNjQgMCAwLTQ4IDAtMjQgNDggMCAwIDI0IDAgNzIgMCA3MiAwIDI0LTQ4IDAgMC0yNCAwLTQ4LTY0IDAgMCA0OCAwIDI0LTQ4IDAgMC0yNCAwLTcyIDAtNzIgMC0yNHptMTkyIDBsMjQgMCA1NiAwYzUzIDAgOTYgNDMgOTYgOTZzLTQzIDk2LTk2IDk2bC01NiAwLTI0IDAgMC0yNCAwLTE0NCAwLTI0em00OCA0OGwwIDk2IDMyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhzLTIxLjUtNDgtNDgtNDhsLTMyIDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0xNjAgMTg0bDAtMjQtNDggMCAwIDI0IDAgNzIgMCA3MiAwIDI0IDQ4IDAgMC0yNCAwLTQ4IDY0IDAgMCA0OCAwIDI0IDQ4IDAgMC0yNCAwLTcyIDAtNzIgMC0yNC00OCAwIDAgMjQgMCA0OC02NCAwIDAtNDh6bTE2OC0yNGwtMjQgMCAwIDI0IDAgMTQ0IDAgMjQgMjQgMCA1NiAwYzUzIDAgOTYtNDMgOTYtOTZzLTQzLTk2LTk2LTk2bC01NiAwem01NiAxNDRsLTMyIDAgMC05NiAzMiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4cy0yMS41IDQ4LTQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![high-definition](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/high-definition.svg)
  */
 const HighDefinition: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 32L0 480l576 0 0-448L0 32zM112 160l48 0 0 24 0 48 64 0 0-48 0-24 48 0 0 24 0 72 0 72 0 24-48 0 0-24 0-48-64 0 0 48 0 24-48 0 0-24 0-72 0-72 0-24zm192 0l24 0 56 0c53 0 96 43 96 96s-43 96-96 96l-56 0-24 0 0-24 0-144 0-24zm48 48l0 96 32 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-32 0z" />
-            <path d="M160 184l0-24-48 0 0 24 0 72 0 72 0 24 48 0 0-24 0-48 64 0 0 48 0 24 48 0 0-24 0-72 0-72 0-24-48 0 0 24 0 48-64 0 0-48zm168-24l-24 0 0 24 0 144 0 24 24 0 56 0c53 0 96-43 96-96s-43-96-96-96l-56 0zm56 144l-32 0 0-96 32 0c26.5 0 48 21.5 48 48s-21.5 48-48 48z" />
+        <path d="M160 184l0-24-48 0 0 24 0 72 0 72 0 24 48 0 0-24 0-48 64 0 0 48 0 24 48 0 0-24 0-72 0-72 0-24-48 0 0 24 0 48-64 0 0-48zm168-24l-24 0 0 24 0 144 0 24 24 0 56 0c53 0 96-43 96-96s-43-96-96-96l-56 0zm56 144l-32 0 0-96 32 0c26.5 0 48 21.5 48 48s-21.5 48-48 48z" />
     </Icon>
 );
 

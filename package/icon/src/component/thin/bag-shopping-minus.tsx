@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bag-shopping-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bag-shopping-minus?s=thin bag-shopping-minus}
- * @preview ![bag-shopping-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE2YzQ0LjIgMCA4MCAzNS44IDgwIDgwbDAgMzItMTYwIDAgMC0zMmMwLTQ0LjIgMzUuOC04MCA4MC04MHpNMTI4IDk2bDAgMzItODAgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhMMCA0MTZjMCA1MyA0MyA5NiA5NiA5NmwyNTYgMGM1MyAwIDk2LTQzIDk2LTk2bDAtMjQwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC04MCAwIDAtMzJjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZ6TTQ4IDE0NGw4OCAwIDE3NiAwIDg4IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyNDBjMCA0NC4yLTM1LjggODAtODAgODBMOTYgNDk2Yy00NC4yIDAtODAtMzUuOC04MC04MGwwLTI0MGMwLTE3LjcgMTQuMy0zMiAzMi0zMnptOTYgMTY4Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDE2MCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0xNjAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bag-shopping-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bag-shopping-minus.svg)
  */
 const BagShoppingMinus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

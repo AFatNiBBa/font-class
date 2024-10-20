@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bring-forward` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bring-forward?s=sharp-thin bring-forward}
- * @preview ![bring-forward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDQ5NmwzMjAgMCAwLTMyMC0xMTIgMCAwLTE2IDExMiAwIDE2IDAgMCAxNiAwIDMyMCAwIDE2LTE2IDAtMzIwIDAtMTYgMCAwLTE2IDAtMTEyIDE2IDAgMCAxMTJ6TTMzNiAzNTJMMTYgMzUyIDAgMzUybDAtMTZMMCAxNiAwIDAgMTYgMCAzMzYgMGwxNiAwIDAgMTYgMCAzMjAgMCAxNi0xNiAwem0tNDgtNjRsLTE2IDBMODAgMjg4bC0xNiAwIDAtMTZMNjQgODBsMC0xNiAxNiAwIDE5MiAwIDE2IDAgMCAxNiAwIDE5MiAwIDE2ek0xNiAzMzZsMzIwIDAgMC0zMjBMMTYgMTZsMCAzMjB6bTI1Ni02NGwwLTE5Mkw4MCA4MGwwIDE5MiAxOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bring-forward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bring-forward.svg)
  */
 const BringForward: typeof Icon = x => (
     <Icon {...x}>

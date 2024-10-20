@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cookie` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cookie?s=solid cookie}
- * @preview ![cookie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ3LjIgMTdjLTIyLjEtMy4xLTQ0LjYgLjktNjQuNCAxMS40bC03NCAzOS41Qzg5LjEgNzguNCA3My4yIDk0LjkgNjMuNCAxMTVMMjYuNyAxOTAuNmMtOS44IDIwLjEtMTMgNDIuOS05LjEgNjQuOWwxNC41IDgyLjhjMy45IDIyLjEgMTQuNiA0Mi4zIDMwLjcgNTcuOWw2MC4zIDU4LjRjMTYuMSAxNS42IDM2LjYgMjUuNiA1OC43IDI4LjdsODMgMTEuN2MyMi4xIDMuMSA0NC42LS45IDY0LjQtMTEuNGw3NC0zOS41YzE5LjctMTAuNSAzNS42LTI3IDQ1LjQtNDcuMmwzNi43LTc1LjVjOS44LTIwLjEgMTMtNDIuOSA5LjEtNjQuOWwtMTQuNi04Mi44Yy0zLjktMjIuMS0xNC42LTQyLjMtMzAuNy01Ny45TDM4OC45IDU3LjVjLTE2LjEtMTUuNi0zNi42LTI1LjYtNTguNy0yOC43TDI0Ny4yIDE3ek0yMDggMTQ0YTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHpNMTQ0IDMzNmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0yMjQtNjRhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cookie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cookie.svg)
  */
 const Cookie: typeof Icon = x => (
     <Icon {...x}>

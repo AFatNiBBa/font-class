@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `loveseat` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/loveseat?s=sharp-regular loveseat}
- * @preview ![loveseat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgODBsMzIwIDAgMCAxMTIgNDggMCAwLTExMiAwLTQ4LTQ4IDBMOTYgMzIgNDggMzJsMCA0OCAwIDExMiA0OCAwTDk2IDgwem0wIDE5MmwwIDE2MC00OCAwIDAtMTYwIDQ4IDB6TTQ4IDIyNEwwIDIyNGwwIDQ4TDAgNDMybDAgNDggNDggMCA0OCAwIDQ4IDAgMC0zMiAyMjQgMCAwIDMyIDQ4IDAgNDggMCA0OCAwIDAtNDggMC0xNjAgMC00OC00OCAwLTQ4IDAtNDggMCAwIDQ4IDAgMTYtMjI0IDAgMC0xNiAwLTQ4LTQ4IDAtNDggMHptOTYgMTEybDIyNCAwIDAgNjQtMjI0IDAgMC02NHptMjcyLTY0bDQ4IDAgMCAxNjAtNDggMCAwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![loveseat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/loveseat.svg)
  */
 const Loveseat: typeof Icon = x => (
     <Icon {...x}>

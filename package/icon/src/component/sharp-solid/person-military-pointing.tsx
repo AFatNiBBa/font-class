@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-military-pointing` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-military-pointing?s=sharp-solid person-military-pointing}
- * @preview ![person-military-pointing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDEuNGwtMTkyIDE2IDAgNDggMTkyIDAgMC02NHptLTE3NiAxMTJjMCA0NC4yIDM1LjggODAgODAgODBzODAtMzUuOCA4MC04MGMwLTUuNS0uNi0xMC44LTEuNi0xNmwtMTU2LjggMGMtMSA1LjItMS42IDEwLjUtMS42IDE2ek03MiAyMjUuNGwtNDAgMCAwIDgwIDQwIDAgMTUyIDAgMCA4OS40TDM5My40IDIyNS40bC0xNTMuNCAwLTE2OCAwem0zNTYuNyA5LjlMMjQ2LjYgNDE3LjRsMTY5LjQgMCAwLTQ2LjMgNTMuNiA5MC42IDIwLjMgMzQuNCA2OC45LTQwLjdMNTM4LjQgNDIxbC0xMDQtMTc2LTUuNy05Ljd6TTIyNCA0NDkuNGwwIDY0IDE5MiAwIDAtNjQtMTkyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-military-pointing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-military-pointing.svg)
  */
 const PersonMilitaryPointing: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

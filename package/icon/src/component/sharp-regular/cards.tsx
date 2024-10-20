@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cards` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cards?s=sharp-regular cards}
- * @preview ![cards](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI4LjUgNDQ2LjRsMTcwLjktOTguNkwyMzYuNCA2NS42IDY1LjYgMTY0LjIgMjI4LjUgNDQ2LjR6bTI0IDQxLjZsLTQxLjYgMjQtMjQtNDEuNkwwIDE0Ni43IDIxMi40IDI0IDI1NCAwbDI0IDQxLjZMNDQwLjkgMzIzLjhsMjQgNDEuNi00MS42IDI0TDI1Mi41IDQ4OHptNjcuNS0ybDE2MC45LTkyLjkgMjcuNy0xNi0xNi0yNy43TDMyNy45IDY0IDY0MCA2NGwwIDQ0OC0zMjAgMCAwLTI2ek00NzMuOSAxODcuNkw1MjggMjQzLjRsNTQtNTUuOGMxNC0xNC41IDEzLjItMzguNS0yLjItNTEuOWMtMTQtMTEuNy0zNC41LTkuNS00Ni45IDMuMmwtNC43IDUuMi01LTUuMmMtMTIuNS0xMi43LTMzLjItMTUtNDYuNy0zLjJjLTE1LjcgMTMuNS0xNi41IDM3LjUtMi41IDUxLjl6TTE1OS41IDI3OS43bDI3LjItMTAxLjYgMTAxLjYgMjcuMmMyMS40IDUuNyAzNC4yIDI3LjggMjguNCA0OS4yUzI4OSAyODguOCAyNjcuNSAyODNsLTguMi0yLjJMMjc0IDMwNi4ybDE5LjktMTEuNSAxMS41IDE5LjktNTkuNyAzNC41LTExLjUtMTkuOSAxOS45LTExLjUtMTQuNy0yNS40LTIuMiA4LjJDMjMxLjUgMzIyIDIwOS40IDMzNC43IDE4OCAzMjlzLTM0LjItMjcuOC0yOC40LTQ5LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cards.svg)
  */
 const Cards: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

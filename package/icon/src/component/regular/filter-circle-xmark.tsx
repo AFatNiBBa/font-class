@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `filter-circle-xmark` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter-circle-xmark?s=regular filter-circle-xmark}
- * @preview ![filter-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0MS43QzAgMTguNyAxOC43IDAgNDEuNyAwTDQ2OS45IDBDNDkzLjIgMCA1MTIgMTguOCA1MTIgNDIuMWMwIDguOS0yLjggMTcuNi04LjEgMjQuOEw0MTEuNiAxOTMuMmMtMzAuOSAzLjYtNTkuMyAxNS4xLTgzLjIgMzIuNUw0NTguMyA0OCA1NSA0OCAyMTguNiAyNDguOGMzLjUgNC4zIDUuNCA5LjYgNS40IDE1LjJsMCA2OC40TDI1Ni4zIDM1OGMtLjIgMy4zLS4zIDYuNi0uMyAxMGMwIDIwLjggMy42IDQwLjcgMTAuMiA1OS4ybC03NS4xLTU5LjZjLTkuNi03LjYtMTUuMS0xOS4xLTE1LjEtMzEuM2wwLTYzLjdMOS40IDY4QzMuMyA2MC42IDAgNTEuMyAwIDQxLjd6TTQzMiAyMjRhMTQ0IDE0NCAwIDEgMSAwIDI4OCAxNDQgMTQ0IDAgMSAxIDAtMjg4em01OS4zIDEwNy4zYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBMNDMyIDM0NS40bC0zNi43LTM2LjdjLTYuMi02LjItMTYuNC02LjItMjIuNiAwcy02LjIgMTYuNCAwIDIyLjZMNDA5LjQgMzY4bC0zNi43IDM2LjdjLTYuMiA2LjItNi4yIDE2LjQgMCAyMi42czE2LjQgNi4yIDIyLjYgMEw0MzIgMzkwLjZsMzYuNyAzNi43YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwczYuMi0xNi40IDAtMjIuNkw0NTQuNiAzNjhsMzYuNy0zNi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![filter-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/filter-circle-xmark.svg)
  */
 const FilterCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

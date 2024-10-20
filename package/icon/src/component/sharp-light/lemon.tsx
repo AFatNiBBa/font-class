@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lemon` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lemon?s=sharp-light lemon}
- * @preview ![lemon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDgwbC0yNC4xIDcyLjNjMzkuOCA4My43IDkuOSAxODEuNC01Ni4xIDI0Ny40cy0xNjMuNyA5Ni0yNDcuNCA1Ni4xTDQ4IDQ4MCAwIDQzMmwyNC4xLTcyLjNDLTE1LjcgMjc2IDE0LjIgMTc4LjIgODAuMiAxMTIuMnMxNjMuNy05NiAyNDcuNC01Ni4xTDQwMCAzMmw0OCA0OHpNMTEwLjIgNDI1LjVsMTIuMi00LjEgMTEuNiA1LjVjNjguMiAzMi41IDE1MS43IDkuNCAyMTEtNDkuOXM4Mi4zLTE0Mi45IDQ5LjktMjExbC01LjUtMTEuNiA0LjEtMTIuMiAxNy45LTUzLjYtMjAtMjBMMzM3LjggODYuNWwtMTIuMiA0LjFMMzEzLjkgODVjLTY4LjItMzIuNS0xNTEuNy05LjQtMjExIDQ5LjlTMjAuNiAyNzcuOCA1MyAzNDUuOWw1LjUgMTEuNi00LjEgMTIuMkwzNi42IDQyMy40bDIwIDIwIDUzLjYtMTcuOXpNMjI4LjMgMTQzYy01MS44IDIzLjktOTMuNCA2NS41LTExNy4zIDExNy4zbC04LjUgMTguNEw3My41IDI2NS4zbDguNS0xOC40YzI3LjEtNTguNyA3NC4zLTEwNS45IDEzMy0xMzNsMTguNC04LjUgMTMuNCAyOS4xTDIyOC4zIDE0M3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lemon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lemon.svg)
  */
 const Lemon: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

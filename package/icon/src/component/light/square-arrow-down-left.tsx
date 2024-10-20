@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-arrow-down-left` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-arrow-down-left?s=light square-arrow-down-left}
- * @preview ![square-arrow-down-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDQ4Yy0xNy43IDAtMzItMTQuMy0zMi0zMkwzMiA5NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMjAgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyMGMwIDE3LjctMTQuMyAzMi0zMiAzMkw2NCA0NDh6TTAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDMyMCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0MTZ6bTI4MC02NGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtOTcuNCAwTDMxNS4zIDE4Ny4zYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBMMTYwIDI5Ny40IDE2MCAxOTJjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCAxNDRjMCA4LjggNy4yIDE2IDE2IDE2bDEzNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-arrow-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-arrow-down-left.svg)
  */
 const SquareArrowDownLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

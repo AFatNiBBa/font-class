@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `boxing-glove` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxing-glove?s=sharp-light boxing-glove}
- * @preview ![boxing-glove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMEwwIDAgMCAxNiAwIDMxMmwwIDYuNiA0LjcgNC43TDMyIDM1MC42IDMyIDQ5NmwwIDE2IDE2IDAgMjg4IDAgMTYgMCAwLTE2IDAtMTEzLjQgMjcuMy0yNy4zIDY0LTY0IDQuNy00LjcgMC02LjYgMC0xMzYgMC0xNi0xNiAwLTQ4IDAgMC0xMTIgMC0xNkwzNjggMCAxNiAwek0zODQgMTYwbDMyIDAgMCAxMTMuNC01OS4zIDU5LjMtMzIgMzItNC43IDQuNyAwIDYuNiAwIDEwNEw2NCA0ODBsMC0xMzYgMC02LjYtNC43LTQuN0wzMiAzMDUuNCAzMiAzMmwzMjAgMCAwIDk2LTgwIDAtMTYgMCAwIDE2IDAgNDgtMTIyLjcgMC0yNy43LTIwLjgtMTIuOC05LjZMNzMuNiAxODcuMmwxMi44IDkuNiAzMiAyNCA0LjMgMy4yIDUuMyAwIDEyOCAwIDAgNDggMCAxNiAxNiAwIDY0IDAgMTYgMCAwLTMyLTE2IDAtNDggMCAwLTMyIDAtMzIgMC0zMiA2NCAwIDE2IDAgMTYgMHpNMTUyLjkgMzM4LjdsLTEzLjMtOC45LTE3LjggMjYuNiAxMy4zIDguOSAyOCAxOC43LTI4IDE4LjctMTMuMyA4LjkgMTcuOCAyNi42IDEzLjMtOC45TDE5MiA0MDMuMmwzOS4xIDI2LjEgMTMuMyA4LjkgMTcuOC0yNi42LTEzLjMtOC45LTI4LTE4LjcgMjgtMTguNyAxMy4zLTguOS0xNy44LTI2LjYtMTMuMyA4LjlMMTkyIDM2NC44bC0zOS4xLTI2LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![boxing-glove](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/boxing-glove.svg)
  */
 const BoxingGlove: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

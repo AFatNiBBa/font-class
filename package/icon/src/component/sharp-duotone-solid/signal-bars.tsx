@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-bars` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-bars?s=sharp-duotone-solid signal-bars}
- * @preview ![signal-bars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9IiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNjA4IDBMNTEyIDBsMCA1MTIgOTYgMEw2MDggMHpNMzUyIDEyOGwwIDM4NCA5NiAwIDAtMzg0LTk2IDB6TTI4OCAyNTZsLTk2IDAgMCAyNTYgOTYgMCAwLTI1NnpNMTI4IDM4NGwtOTYgMCAwIDEyOCA5NiAwIDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![signal-bars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/signal-bars.svg)
  */
 const SignalBars: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

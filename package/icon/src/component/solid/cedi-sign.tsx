@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cedi-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cedi-sign?s=solid cedi-sign}
- * @preview ![cedi-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMzQuN0MxMDEuMiA4MS45IDMyIDE2MC45IDMyIDI1NnM2OS4yIDE3NC4xIDE2MCAxODkuM2wwIDM0LjdjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTM0LjdjMzAuOS01LjIgNTkuMi0xNy43IDgzLjItMzUuOGMxNC4xLTEwLjYgMTctMzAuNyA2LjQtNDQuOHMtMzAuNy0xNy00NC44LTYuNGMtMTMuMiA5LjktMjguMyAxNy4zLTQ0LjggMjEuNkwyNTYgMTMyYzE2LjQgNC4yIDMxLjYgMTEuNiA0NC44IDIxLjZjMTQuMSAxMC42IDM0LjIgNy44IDQ0LjgtNi40czcuOC0zNC4yLTYuNC00NC44Yy0yNC0xOC01Mi40LTMwLjYtODMuMi0zNS44TDI1NiAzMnpNMTkyIDEzMkwxOTIgMzgwYy01NS4yLTE0LjItOTYtNjQuMy05Ni0xMjRzNDAuOC0xMDkuOCA5Ni0xMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cedi-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cedi-sign.svg)
  */
 const CediSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

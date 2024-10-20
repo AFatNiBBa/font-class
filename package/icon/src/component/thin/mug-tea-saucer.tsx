@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mug-tea-saucer` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-tea-saucer?s=thin mug-tea-saucer}
- * @preview ![mug-tea-saucer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDQ4bDAgMzcgNDYuMSA1Mi43YzYuNCA3LjMgOS45IDE2LjcgOS45IDI2LjNsMCA1MmMwIDIyLjEtMTcuOSA0MC00MCA0MGwtNDggMGMtMjIuMSAwLTQwLTE3LjktNDAtNDBsMC01MmMwLTkuNyAzLjUtMTkgOS45LTI2LjNMMjE2IDg1bDAtMzctODggMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMjI0YzAgNDQuMiAzNS44IDgwIDgwIDgwbDE5MiAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwbDAtMjQwLTI0IDBMMjMyIDQ4em0yNDggMGwwIDE3NiAyNCAwYzQ4LjYgMCA4OC0zOS40IDg4LTg4cy0zOS40LTg4LTg4LTg4bC0yNCAwem0wIDE5MmwwIDQ4YzAgNTMtNDMgOTYtOTYgOTZsLTE5MiAwYy01MyAwLTk2LTQzLTk2LTk2TDk2IDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDMxMiAwIDI0IDAgMTYgMCAyNCAwYzU3LjQgMCAxMDQgNDYuNiAxMDQgMTA0cy00Ni42IDEwNC0xMDQgMTA0bC0yNCAwek0wIDQ3MmMwLTQuNCAzLjYtOCA4LThsNTYwIDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhMOCA0ODBjLTQuNCAwLTgtMy42LTgtOHpNMTgxLjkgMTQ4LjJjLTMuOCA0LjQtNS45IDEwLTUuOSAxNS44bDAgNTJjMCAxMy4zIDEwLjcgMjQgMjQgMjRsNDggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTUyYzAtNS44LTIuMS0xMS40LTUuOS0xNS44TDIyNCAxMDAuMWwtNDIuMSA0OC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mug-tea-saucer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mug-tea-saucer.svg)
  */
 const MugTeaSaucer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

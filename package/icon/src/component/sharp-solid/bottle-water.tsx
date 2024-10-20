@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bottle-water` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bottle-water?s=sharp-solid bottle-water}
- * @preview ![bottle-water](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwwIDY0IDEyOCAwIDAtNjRMOTYgMHpNNTguNiAxMTkuNkM0MiAxMjkuOSAzMiAxNDggMzIgMTY3LjVjMCAxNyA3LjUgMzIuMyAxOS40IDQyLjZDMzkuNCAyMjEuNyAzMiAyMzggMzIgMjU2YzAgMTkuMSA4LjQgMzYuMyAyMS43IDQ4QzQwLjQgMzE1LjcgMzIgMzMyLjkgMzIgMzUyczguNCAzNi4zIDIxLjcgNDhDNDAuNCA0MTEuNyAzMiA0MjguOSAzMiA0NDhsMCA2NCA2NCAwIDEyOCAwIDY0IDAgMC02NGMwLTE5LjEtOC40LTM2LjMtMjEuNy00OGMxMy4zLTExLjcgMjEuNy0yOC45IDIxLjctNDhzLTguNC0zNi4zLTIxLjctNDhjMTMuMy0xMS43IDIxLjctMjguOSAyMS43LTQ4YzAtMTgtNy40LTM0LjMtMTkuNC00NS45YzExLjktMTAuNCAxOS40LTI1LjYgMTkuNC00Mi42YzAtMTkuNS0xMC0zNy42LTI2LjYtNDcuOUwyMjMuNyA5NiA5Ni4zIDk2IDU4LjYgMTE5LjZ6TTk2IDIyNGwxMjggMCAwIDMyTDk2IDI1NmwwLTMyek0yMjQgMzUybDAgMzJMOTYgMzg0bDAtMzIgMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bottle-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bottle-water.svg)
  */
 const BottleWater: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

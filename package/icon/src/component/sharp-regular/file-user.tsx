@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-user` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-user?s=sharp-regular file-user}
- * @preview ![file-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk4LjcgNDY0TDI3MiAzODRsLTE2MCAwTDg1LjMgNDY0IDQ4IDQ2NCA0OCA0OGwxNzYgMCAwIDExMiAxMTIgMCAwIDMwNC0zNy4zIDB6TTI1NiAwTDQ4IDAgMCAwIDAgNDggMCA0NjRsMCA0OCA0OCAwIDI4OCAwIDQ4IDAgMC00OCAwLTMzNkwyNTYgMHptMCAyODhhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-user.svg)
  */
 const FileUser: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

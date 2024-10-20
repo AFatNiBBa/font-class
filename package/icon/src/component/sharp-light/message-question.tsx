@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-question` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-question?s=sharp-light message-question}
- * @preview ![message-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQxNmwtMzIgMC05NiAwTDAgNDE2bDAtMzJMMCAzMiAwIDAgMzIgMCA0ODAgMGwzMiAwIDAgMzIgMCAzNTIgMCAzMi0zMiAwLTE3NiAwTDE5MiA0OTAuNyAxNjAgNTEybDAtMzguNSAwLTI1LjUgMC0zMnptMC0zMmwzMiAwIDAgMzIgMCAzNi4yIDk0LjItNjIuOCA4LjEtNS40IDkuNyAwIDE3NiAwIDAtMzUyTDMyIDMybDAgMzUyIDEyOCAwem04LTI0OGMwLTMwLjkgMjUuMS01NiA1Ni01Nmw1NiAwYzM1LjUgMCA2NCAyOSA2NCA2NC4zYzAgMjQtMTMuNCA0Ni4yLTM0LjkgNTcuMkwyNzIgMjIwLjNsMCAzLjcgMCAxNi0zMiAwIDAtMTYgMC0xMy41IDAtOS44IDguNy00LjUgNDUuOC0yMy40YzEwLjctNS40IDE3LjUtMTYuNiAxNy41LTI4LjdjMC0xNy44LTE0LjQtMzIuMy0zMi0zMi4zbC01NiAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDgtMzIgMCAwLTh6bTY0IDEzNmw0OCAwIDAgNDgtNDggMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![message-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-question.svg)
  */
 const MessageQuestion: typeof Icon = x => (
     <Icon {...x}>

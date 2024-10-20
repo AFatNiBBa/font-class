@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-rook` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-rook?s=sharp-regular chess-rook}
- * @preview ![chess-rook](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMjQgMCAzMzYgMCAyNCAwIDAgMjQgMCAxNTIgMCAxMi05LjYgNy4yLTUzIDM5LjggOS40IDg1LTQ4LjMgMC0xMC40LTkzLjNMMzAyLjYgMjQ1bDExLTguMkwzNjggMTk2bDAtMTE2LTY0IDAgMCAyNCAwIDI0LTQ4IDAgMC0yNCAwLTI0LTY0IDAgMCAyNCAwIDI0LTQ4IDAgMC0yNCAwLTI0TDgwIDgwbDAgMTE2IDU0LjQgNDAuOCAxMSA4LjItMS41IDEzLjZMMTMzLjUgMzUybC00OC4zIDAgOS40LTg1LTUzLTM5LjhMMzIgMjIwbDAtMTJMMzIgNTZsMC0yNHptNjkuMiA0MDBMODQuNyA0NjRsMjc4LjcgMC0xNi42LTMyLTI0NS42IDB6TTQxNiA0NjRsMCA0OC00OCAwTDgwIDUxMmwtNDggMCAwLTQ4IDAtMi43TDcyIDM4NGwzMDQgMCA0MCA3Ny4zIDAgMi43ek0xOTIgMjg4bDAtNjRjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDY0LTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chess-rook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chess-rook.svg)
  */
 const ChessRook: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

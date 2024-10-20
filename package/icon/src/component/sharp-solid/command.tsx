@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `command` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/command?s=sharp-solid command}
- * @preview ![command](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDMyIDAgMTYwIDBsMzIgMCAwIDMyIDAgOTYgMTI4IDAgMC05NiAwLTMyIDMyIDBMNDgwIDBsMzIgMCAwIDMyIDAgMTI4IDAgMzItMzIgMC05NiAwIDAgMTI4IDk2IDAgMzIgMCAwIDMyIDAgMTI4IDAgMzItMzIgMC0xMjggMC0zMiAwIDAtMzIgMC05Ni0xMjggMCAwIDk2IDAgMzItMzIgMEwzMiA1MTIgMCA1MTJsMC0zMkwwIDM1MmwwLTMyIDMyIDAgOTYgMCAwLTEyOC05NiAwTDAgMTkybDAtMzJMMCAzMiAwIDB6TTEyOCAxMjhsMC02NEw2NCA2NGwwIDY0IDY0IDB6bTY0IDE5MmwxMjggMCAwLTEyOC0xMjggMCAwIDEyOHptLTY0IDY0bC02NCAwIDAgNjQgNjQgMCAwLTY0em0yNTYgMGwwIDY0IDY0IDAgMC02NC02NCAwem0wLTI1Nmw2NCAwIDAtNjQtNjQgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![command](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/command.svg)
  */
 const Command: typeof Icon = x => (
     <Icon {...x}>

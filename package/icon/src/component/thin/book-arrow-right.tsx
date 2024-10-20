@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-arrow-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-arrow-right?s=thin book-arrow-right}
- * @preview ![book-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYgMEMyNS4xIDAgMCAyNS4xIDAgNTZMMCA0NTZjMCAzMC45IDI1LjEgNTYgNTYgNTZsMzg0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTI0IDAgMC04MC44YzE4LjMtMy43IDMyLTE5LjggMzItMzkuMmwwLTEyMC0xNiAwIDAgMTIwYzAgMTMuMy0xMC43IDI0LTI0IDI0TDU2IDQwMGMtMTUuNyAwLTI5LjggNi40LTQwIDE2LjhMMTYgNTZjMC0yMi4xIDE3LjktNDAgNDAtNDBsMzUyIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAxMjAgMTYgMCAwLTEyMGMwLTIyLjEtMTcuOS00MC00MC00MEw1NiAwek00MDAgNDE2bDAgODBMNTYgNDk2Yy0yMi4xIDAtNDAtMTcuOS00MC00MHMxNy45LTQwIDQwLTQwbDM0NCAwek01MzMuNyA5OC4zYy0zLjEtMy4xLTguMi0zLjEtMTEuMyAwcy0zLjEgOC4yIDAgMTEuM0w2MTIuNyAyMDAgMjY0IDIwMGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwzNDguNyAwLTkwLjMgOTAuM2MtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMGwxMDQtMTA0YzMuMS0zLjEgMy4xLTguMiAwLTExLjNsLTEwNC0xMDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/book-arrow-right.svg)
  */
 const BookArrowRight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

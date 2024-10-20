@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `compass` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass?s=light compass}
- * @preview ![compass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYTIyNCAyMjQgMCAxIDEgMCA0NDggMjI0IDIyNCAwIDEgMSAwLTQ0OHptMCA0ODBBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem05Mi42LTM4OS4xTDIwMi4xIDE3MS44Yy0xNC4zIDQuOC0yNS42IDE2LTMwLjQgMzAuNEwxMjIuOSAzNDguNmMtOC4zIDI1IDE1LjUgNDguOCA0MC41IDQwLjVsMTQ2LjUtNDguOGMxNC4zLTQuOCAyNS42LTE2IDMwLjQtMzAuNGw0OC44LTE0Ni41YzguMy0yNS0xNS41LTQ4LjgtNDAuNS00MC41em0xMC4xIDMwLjRMMzA5LjkgMjk5LjhjLTEuNiA0LjgtNS4zIDguNS0xMC4xIDEwLjFMMTUzLjMgMzU4LjdsNDguOC0xNDYuNWMxLjYtNC44IDUuMy04LjUgMTAuMS0xMC4xbDE0Ni41LTQ4Ljh6TTI1NiAyODBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![compass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/compass.svg)
  */
 const Compass: typeof Icon = x => (
     <Icon {...x}>

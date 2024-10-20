@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spoon` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spoon?s=thin spoon}
- * @preview ![spoon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYzLjQgMjE2LjZsMzIgMzJjMTUuNiAxNS42IDM2IDIzLjQgNTYuNCAyMy40YzMzLjggMCA2OS43LTIwLjUgOTcuOC01NC4yYzI4LTMzLjUgNDYuMy03OCA0Ni4zLTEyMS44YzAtNDQuMi0zNS44LTgwLTgwLTgwYy00My43IDAtODguMiAxOC4zLTEyMS44IDQ2LjNDMjYwLjUgOTAuNSAyNDAgMTI2LjQgMjQwIDE2MC4yYzAgMjAuNCA3LjggNDAuOCAyMy40IDU2LjR6bS0xMS4zIDExLjNjLTE4LjctMTguNy0yOC4xLTQzLjItMjguMS02Ny43QzIyNCA4MCAzMjAgMCA0MTYgMGM1MyAwIDk2IDQzIDk2IDk2YzAgOTYtODAgMTkyLTE2MC4yIDE5MmMtMjQuNSAwLTQ5LTkuNC02Ny43LTI4LjFsLTEwLjMtMTAuM0wxMy43IDUwOS43Yy0zLjEgMy4xLTguMiAzLjEtMTEuMyAwcy0zLjEtOC4yIDAtMTEuM0wyNjIuNSAyMzguMmwtMTAuMy0xMC4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![spoon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/spoon.svg)
  */
 const Spoon: typeof Icon = x => (
     <Icon {...x}>

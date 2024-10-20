@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mdb` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mdb?s=brands mdb}
- * @preview ![mdb](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTcuMzcgMTYwLjQxTDcgMzUyaDQzLjkxbDUuNTktNzkuODNMODQuNDMgMzUyaDQ0LjcxbDI1LjU0LTc3LjQzIDQuNzkgNzcuNDNIMjA1bC0xMi43OS0xOTEuNTlIMTQ2LjdMMTA2IDI3Ny43NCA2My42NyAxNjAuNDF6bTI4MSAwaC00Ny45VjM1Mmg0Ny45czk1IC44IDk0LjItOTUuNzljLS43OC05NC4yMS05NC4xOC05NS43OC05NC4xOC05NS43OHptLTEuMiAxNDYuNDZWMjA0Ljc4czQ2IDQuMjcgNDYuOCA1MC41Ny00Ni43OCA1MS41NC00Ni43OCA1MS41NHptMjM4LjI5LTc0LjI0YTU2LjE2IDU2LjE2IDAgMCAwIDgtMzguMzFjLTUuMzQtMzUuNzYtNTUuMDgtMzQuMzItNTUuMDgtMzQuMzJoLTUxLjl2MTkxLjU4SDQ4MnM4NyA0Ljc5IDg3LTYzLjg1YzAtNDMuMTQtMzMuNTItNTUuMDgtMzMuNTItNTUuMDh6bS01MS45LTMxLjk0czEzLjU3LTEuNTkgMTYgOS41OWMxLjQzIDYuNjYtNCAxMi00IDEyaC0xMnYtMjEuNTd6bS0uMSAxMDkuNDZsLjEtMjQuOTJWMjY3aC4wOHM0MS41OC00LjczIDQxLjE5IDIyLjQzYy0uMzMgMjUuNjUtNDEuMzUgMjAuNzQtNDEuMzUgMjAuNzR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mdb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/mdb.svg)
  */
 const Mdb: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

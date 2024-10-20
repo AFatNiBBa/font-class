@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-falling` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-falling?s=solid person-falling}
- * @preview ![person-falling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA5LjhjMCA1NC42LTI3LjkgMTA0LjYtNzIuNSAxMzMuNmwuMiAuM0wzMDQuNSAyNTZsODcuNSAwYzE1LjEgMCAyOS4zIDcuMSAzOC40IDE5LjJsNDMuMiA1Ny42YzEwLjYgMTQuMSA3LjcgMzQuMi02LjQgNDQuOHMtMzQuMiA3LjctNDQuOC02LjRMMzg0IDMyMGwtOTYgMC0xLjQgMCA5Mi4zIDE0Mi42YzkuNiAxNC44IDUuNCAzNC42LTkuNSA0NC4zcy0zNC42IDUuNC00NC4zLTkuNUwxNjQuNSAyNDkuMmMtMi45IDkuMi00LjUgMTktNC41IDI5bDAgNzMuOGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTczLjhjMC02NS4xIDM5LjYtMTIzLjcgMTAwLjEtMTQ3LjlDMjMyLjMgMTE1LjggMjU2IDgwLjggMjU2IDQxLjhsMC05LjhjMC0xNy43IDE0LjMtMzIgMzItMzJ6TTExMiAzMmE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-falling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-falling.svg)
  */
 const PersonFalling: typeof Icon = x => (
     <Icon {...x}>

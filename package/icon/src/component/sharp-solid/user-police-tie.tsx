@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-police-tie` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-police-tie?s=sharp-solid user-police-tie}
- * @preview ![user-police-tie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTkuMkw4MCAxMjhjMTYgMTAuNyA2Ny4yIDMyIDE0NCAzMnMxMjgtMjEuMyAxNDQtMzJsMC0yOC44TDQwMCA4MGwwLTMyTDIyNCAwIDQ4IDQ4bDAgMzJMODAgOTkuMnpNMjI3IDQ4LjZsMzIgMTIuOCA1IDIgMCA1LjRjMCAxNy4yLTcgNDYuMS0zNi45IDU4LjZsLTMuMSAxLjMtMy4xLTEuM0MxOTEgMTE0LjkgMTg0IDg2IDE4NCA2OC44bDAtNS40IDUtMiAzMi0xMi44IDMtMS4yIDMgMS4yek05OC4xIDE2OC44Qzk2LjcgMTc2LjMgOTYgMTg0LjEgOTYgMTkyYzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4czEyOC01Ny4zIDEyOC0xMjhjMC03LjktLjctMTUuNy0yLjEtMjMuMkMzMTAuOCAxODMuOCAyNjguNCAxOTIgMjI0IDE5MnMtODYuOC04LjItMTI1LjktMjMuMnptOTcuNyAyOTYuMUwxMjggMzUybC04MCAwTDAgNTEybDE5MiAwIDY0IDAgMTkyIDBMNDAwIDM1MmwtODAgMEwyNTIuMiA0NjQuOSAyNDAgNDE2bDMyLTY0LTk2IDAgMzIgNjQtMTIuMiA0OC45em0xNjAuOC01MC40bDYuMSAxOC44IDE5LjggMCAxNC45IDBMMzg1LjIgNDQybC0xNiAxMS42IDYuMiAxOC44IDQuNiAxNC4xLTEyLTguOC0xNi0xMS43LTE2IDExLjctMTIgOC44IDQuNi0xNC4xIDYuMi0xOC44LTE2LTExLjYtMTIuMS04LjcgMTQuOSAwIDE5LjggMCA2LjEtMTguOCA0LjYtMTQuMiA0LjYgMTQuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-police-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-police-tie.svg)
  */
 const UserPoliceTie: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

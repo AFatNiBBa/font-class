@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hourglass-half` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-half?s=thin hourglass-half}
- * @preview ![hourglass-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAwQzMuNiAwIDAgMy42IDAgOHMzLjYgOCA4IDhsMjQgMCAwIDU1LjJjMCA0OC4zIDIzIDkzLjcgNjEuOCAxMjIuNEwxNzguNSAyNTYgOTMuOCAzMTguNEM1NSAzNDcgMzIgMzkyLjUgMzIgNDQwLjhMMzIgNDk2IDggNDk2Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDM2OCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0yNCAwIDAtNTUuMmMwLTQ4LjMtMjMtOTMuNy02MS44LTEyMi40TDIwNS41IDI1Nmw4NC43LTYyLjRDMzI5IDE2NSAzNTIgMTE5LjUgMzUyIDcxLjJMMzUyIDE2bDI0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMOCAwek0zMzYgMTZsMCA1NS4yYzAgMTkuOS00LjMgMzkuMi0xMi40IDU2LjhMNjAuNCAxMjhDNTIuMyAxMTAuNCA0OCA5MS4xIDQ4IDcxLjJMNDggMTZsMjg4IDB6TTMxNC45IDE0NGMtOC45IDE0LjEtMjAuNSAyNi42LTM0LjIgMzYuN0wxOTIgMjQ2LjFsLTg4LjctNjUuM0M4OS42IDE3MC42IDc4IDE1OC4xIDY5LjEgMTQ0bDI0NS44IDB6TTE5MiAyNjUuOWw4OC43IDY1LjNjMjggMjAuNyA0Ni44IDUxLjEgNTMuMSA4NC43TDUwLjMgNDE2YzYuMi0zMy43IDI1LTY0LjEgNTMuMS04NC43TDE5MiAyNjUuOXpNNDggNDQwLjhjMC0yLjkgLjEtNS45IC4zLTguOGwyODcuNCAwYy4yIDIuOSAuMyA1LjggLjMgOC44bDAgNTUuMkw0OCA0OTZsMC01NS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hourglass-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hourglass-half.svg)
  */
 const HourglassHalf: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

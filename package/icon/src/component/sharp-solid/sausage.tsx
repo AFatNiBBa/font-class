@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sausage` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sausage?s=sharp-solid sausage}
- * @preview ![sausage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDE2MGMwLTQyLjEgMjcuMS03Ny44IDY0LjctOTAuOEwzNjAgMCA0NzIgMCA0NDcuMyA2OS4yYzM3LjcgMTMgNjQuNyA0OC43IDY0LjcgOTAuOGMwIDE5NC40LTE1Ny42IDM1Mi0zNTIgMzUyYy00Mi4xIDAtNzcuOC0yNy4xLTkwLjgtNjQuN0wwIDQ3MiAwIDM2MGw2OS4yIDI0LjdjMTMtMzcuNyA0OC43LTY0LjcgOTAuOC02NC43Yzg4LjQgMCAxNjAtNzEuNiAxNjAtMTYwek0xNjAgNDAwYzEzMi41IDAgMjQwLTEwNy41IDI0MC0yNDBsLTMyIDBjMCAxMTQuOS05My4xIDIwOC0yMDggMjA4bDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sausage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sausage.svg)
  */
 const Sausage: typeof Icon = x => (
     <Icon {...x}>

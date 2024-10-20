@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dailymotion` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dailymotion?s=brands dailymotion}
- * @preview ![dailymotion](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk4LjkzLDI2N2E0OC40LDQ4LjQsMCwwLDAtMjQuMzYtNi4yMXEtMTkuODMsMC0zMy40NCwxMy4yN3QtMTMuNjEsMzMuNDJxMCwyMS4xNiwxMy4yOCwzNC42dDMzLjQzLDEzLjQ0cTIwLjUsMCwzNC4xMS0xMy43OFQzMjIsMzA3LjQ3QTQ3LjEzLDQ3LjEzLDAsMCwwLDMxNS45LDI4NCw0NC4xMyw0NC4xMywwLDAsMCwyOTguOTMsMjY3Wk0wLDMyVjQ4MEg0NDhWMzJaTTM3NC43MSw0MDUuMjZoLTUzLjFWMzgxLjM3aC0uNjdxLTE1Ljc5LDI2LjItNTUuNzgsMjYuMi0yNy41NiwwLTQ4Ljg5LTEzLjFhODguMjksODguMjksMCwwLDEtMzIuOTQtMzUuNzdxLTExLjYtMjIuNjgtMTEuNTktNTAuODksMC0yNy41NiwxMS43Ni01MC4yMmE4OS45LDg5LjksMCwwLDEsMzIuOTMtMzUuNzhxMjEuMTgtMTMuMDksNDcuNzItMTMuMWE4MC44Nyw4MC44NywwLDAsMSwyOS43NCw1LjIxcTEzLjI4LDUuMjEsMjUsMTdWMTUzbDU1Ljc5LTEyLjA5WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dailymotion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/dailymotion.svg)
  */
 const Dailymotion: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

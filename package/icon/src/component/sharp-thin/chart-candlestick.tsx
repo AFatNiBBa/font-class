@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-candlestick` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-candlestick?s=sharp-thin chart-candlestick}
- * @preview ![chart-candlestick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJsMCA4IDAgNDI0IDQ4OCAwIDggMCAwIDE2LTggMEw4IDQ4MGwtOCAwIDAtOEwwIDQwbDAtOCAxNiAwem0zMjAgODBsLTI0IDAtMTYgMC0yNCAwIDAgMTI4IDI0IDAgMTYgMCAyNCAwIDAtMTI4em0wLTE2bDE2IDAgMCAxNiAwIDEyOCAwIDE2LTE2IDAtMjQgMCAwIDU2IDAgOC0xNiAwIDAtOCAwLTU2LTI0IDAtMTYgMCAwLTE2IDAtMTI4IDAtMTYgMTYgMCAyNCAwIDAtNTYgMC04IDE2IDAgMCA4IDAgNTYgMjQgMHpNNDQwIDIwOGwtMTYgMC0yNCAwIDAgOTYgMjQgMCAxNiAwIDI0IDAgMC05Ni0yNCAwem0wLTE2bDI0IDAgMTYgMCAwIDE2IDAgOTYgMCAxNi0xNiAwLTI0IDAgMCA1NiAwIDgtMTYgMCAwLTggMC01Ni0yNCAwLTE2IDAgMC0xNiAwLTk2IDAtMTYgMTYgMCAyNCAwIDAtNTYgMC04IDE2IDAgMCA4IDAgNTZ6TTE2OCAxNDRsLTI0IDAgMCAxNjAgMjQgMCAxNiAwIDI0IDAgMC0xNjAtMjQgMC0xNiAwem0wLTE2bDAtNTYgMC04IDE2IDAgMCA4IDAgNTYgMjQgMCAxNiAwIDAgMTYgMCAxNjAgMCAxNi0xNiAwLTI0IDAgMCA1NiAwIDgtMTYgMCAwLTggMC01Ni0yNCAwLTE2IDAgMC0xNiAwLTE2MCAwLTE2IDE2IDAgMjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chart-candlestick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chart-candlestick.svg)
  */
 const ChartCandlestick: typeof Icon = x => (
     <Icon {...x}>

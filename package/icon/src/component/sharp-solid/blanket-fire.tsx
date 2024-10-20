@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blanket-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blanket-fire?s=sharp-solid blanket-fire}
- * @preview ![blanket-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwzMiAwIDM4NCAwIDMyIDAgMCAzMiAwIDU4LjEtMTcgMTAuNmMtMjQuMSAxNS01OC45IDQzLTg4LjEgNzkuNmMtMTcuMSAyMS41LTMzLjIgNDctNDMuNCA3NS43TDY0IDI4OGwwIDY0IDAgNjQgMjM1IDBjOC41IDIzLjkgMjEuNSA0NS41IDM4IDY0TDMyIDQ4MCAwIDQ4MGwwLTMyIDAtOTYgMC05NiAwLTMyTDAgNjQgMCAzMnpNMjg4IDM1MS44YzAgMTEgLjkgMjEuNyAyLjcgMzIuMkwxMjggMzg0bC0zMiAwIDAtNjQgMzIgMCAxNjIuOSAwYy0xLjkgMTAuMy0yLjkgMjEtMi45IDMxLjh6TTQ0OCAxNjBsNjQgNjQgMzItMzJjNzYuOCA2NCA5NiAxMzMuMyA5NiAxNjBjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBzLTE2MC03MS42LTE2MC0xNjBjMC04OS42IDg1LjMtMTY1LjMgMTI4LTE5MnptOTYgMjQwLjJjMC00OC02NC05Ni02NC05NnMtNjQgNDgtNjQgOTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![blanket-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/blanket-fire.svg)
  */
 const BlanketFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

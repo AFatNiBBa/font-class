@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `web-awesome` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/web-awesome?s=sharp-light web-awesome}
- * @preview ![web-awesome](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAwLjIgNTJhMjAgMjAgMCAxIDEgNDAgMCAyMCAyMCAwIDEgMSAtNDAgMHpNMzQyIDk5LjJDMzU5LjggOTEgMzcyLjIgNzIuOSAzNzIuMiA1MmMwLTI4LjctMjMuMy01Mi01Mi01MnMtNTIgMjMuMy01MiA1MmMwIDIwLjggMTIuMyAzOC44IDMwIDQ3LjFMMTkyIDE5MiA4Ny42IDE3MS4xYzUuMy03LjcgOC40LTE3LjEgOC40LTI3LjFjMC0yNi41LTIxLjUtNDgtNDgtNDhTMCAxMTcuNSAwIDE0NGMwIDI2IDIwLjYgNDcuMSA0Ni40IDQ4bDEuNyAzLjlMMTc2IDQ4MGwyODggMEw1OTEuOSAxOTUuOWwxLjgtMy45YzI1LjgtLjkgNDYuNC0yMiA0Ni40LTQ4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4cy00OCAyMS41LTQ4IDQ4YzAgMTAuMSAzLjEgMTkuNCA4LjQgMjcuMUw0NDggMTkyIDM0MiA5OS4yek00Ny45IDE5MmwuMSAwIC4yIDAtLjIgMC0uMSAwem0zOTAuOSAzNC41bDE1LjUtMy4xIDk5LTE5LjhMNDQzLjMgNDQ4bC0yNDYuNiAwTDg2LjcgMjAzLjZsOTkgMTkuOCAxNS41IDMuMSAxMS45LTEwLjRMMzIwIDEyMi41bDEwNi45IDkzLjYgMTEuOSAxMC40ek01OTIgMTI4YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnpNMzIwLjIgMTA0czAgMCAwIDBsLjIgMC0uMiAwek0zMiAxNDRhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![web-awesome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/web-awesome.svg)
  */
 const WebAwesome: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

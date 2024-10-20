@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sushi-roll` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sushi-roll?s=solid sushi-roll}
- * @preview ![sushi-roll](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDM2OGwwLTIyNEM0NDggODIuMSAzNDcuNyAzMiAyMjQgMzJTMCA4Mi4xIDAgMTQ0TDAgMzY4YzAgNjEuOSAxMDAuMyAxMTIgMjI0IDExMnMyMjQtNTAuMSAyMjQtMTEyek0zMDguMiAxOTguNGMtMjQuNSA2LjEtNTMuMyA5LjYtODQuMiA5LjZjLTQwLjcgMC03Ny44LTYuMS0xMDYtMTYuMWMxNC44LTE0LjggMzIuOC0yNi43IDUxLjQtMzYuMWMyMC41LTEwLjMgNDAuOS0xNyA1Ni45LTIwLjhjMTguMiAyNy4zIDQ2LjYgNDkuOSA4MiA2My40ek0yMDUuMSA4MC40Yy44IDYgMi4xIDExLjkgMy44IDE3LjdjLTE3LjMgNC43LTM3LjQgMTEuOC01Ny41IDIxLjljLTI0LjUgMTIuMy00OS45IDI5LjQtNzAuMyA1Mi43QzcwLjIgMTY0LjEgNjQgMTU0LjQgNjQgMTQ0YzAtMzIuOCA2MS43LTU5LjggMTQxLjEtNjMuNnptNDAuNyAuMmM3OCA0LjMgMTM4LjIgMzEgMTM4LjIgNjMuNGMwIDkuOC01LjUgMTkuMS0xNS40IDI3LjRjLTY5LjUtNS41LTExMy41LTQ4LjQtMTIyLjgtOTAuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sushi-roll](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sushi-roll.svg)
  */
 const SushiRoll: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

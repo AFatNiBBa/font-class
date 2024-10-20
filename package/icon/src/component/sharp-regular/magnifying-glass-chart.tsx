@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `magnifying-glass-chart` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-chart?s=sharp-regular magnifying-glass-chart}
- * @preview ![magnifying-glass-chart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDQ4YTE2MCAxNjAgMCAxIDEgMCAzMjAgMTYwIDE2MCAwIDEgMSAwLTMyMHptMCAzNjhjNDguOCAwIDkzLjctMTYuOCAxMjkuMS00NC45bDEyNCAxMjQgMTcgMTdMNTEyIDQ3OC4xbC0xNy0xNy0xMjQtMTI0QzM5OS4yIDMwMS43IDQxNiAyNTYuOCA0MTYgMjA4QzQxNiA5My4xIDMyMi45IDAgMjA4IDBTMCA5My4xIDAgMjA4UzkzLjEgNDE2IDIwOCA0MTZ6TTEwNCAyMTZsMCA0OCAwIDI0IDQ4IDAgMC0yNCAwLTQ4IDAtMjQtNDggMCAwIDI0em04MC05NmwwIDE0NCAwIDI0IDQ4IDAgMC0yNCAwLTE0NCAwLTI0LTQ4IDAgMCAyNHptODAgNjRsMCA4MCAwIDI0IDQ4IDAgMC0yNCAwLTgwIDAtMjQtNDggMCAwIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![magnifying-glass-chart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/magnifying-glass-chart.svg)
  */
 const MagnifyingGlassChart: typeof Icon = x => (
     <Icon {...x}>

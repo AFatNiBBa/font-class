@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dolly` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolly?s=light dolly}
- * @preview ![dolly](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEMxNS4yIDAgOCA3LjIgOCAxNnM3LjIgMTYgMTYgMTZsNjQuOSAwYzYuOSAwIDEzIDQuNCAxNS4yIDEwLjlMMjExLjYgMzY1LjRDMTkwLjEgMzc5LjggMTc2IDQwNC4yIDE3NiA0MzJjMCA0NC4yIDM1LjggODAgODAgODBjNDMgMCA3OC0zMy45IDc5LjktNzYuNEw1NjUuNSAzNTFjOC4zLTMuMSAxMi41LTEyLjMgOS41LTIwLjVzLTEyLjMtMTIuNS0yMC41LTkuNUwzMzAuNyA0MDMuNEMzMTkuMiAzNzMuMyAyOTAuMSAzNTIgMjU2IDM1MmMtNSAwLTkuOSAuNS0xNC43IDEuM0wxMzQuNSAzMi44QzEyNy45IDEzLjIgMTA5LjYgMCA4OC45IDBMMjQgMHpNMjU2IDM4NGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6bTk2LjgtMjAxLjFjMyA4LjMgMTIuMiAxMi42IDIwLjUgOS42czEyLjYtMTIuMiA5LjYtMjAuNWwtMTkuMi01Mi42IDYwLjEtMjEuOSA1NC43IDE1MC40TDMyOC4yIDMwMi41IDI3My41IDE1Mi4ybDYwLjEtMjEuOSAxOS4yIDUyLjZ6TTI0My40IDE2My4xbDU0LjcgMTUwLjRjNiAxNi42IDI0LjQgMjUuMiA0MSAxOS4xbDE1MC40LTU0LjdjMTYuNi02IDI1LjItMjQuNCAxOS4xLTQxTDQ1My45IDg2LjVjLTYtMTYuNi0yNC40LTI1LjItNDEtMTkuMUwyNjIuNSAxMjIuMWMtMTYuNiA2LTI1LjIgMjQuNC0xOS4xIDQxeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dolly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dolly.svg)
  */
 const Dolly: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

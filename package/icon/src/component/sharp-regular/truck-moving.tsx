@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-moving` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-moving?s=sharp-regular truck-moving}
- * @preview ![truck-moving](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCAyNDYuN2M5LjgtNC4zIDIwLjYtNi43IDMyLTYuN2MyNi4yIDAgNDkuNCAxMi42IDY0IDMyYzE0LjYtMTkuNCAzNy44LTMyIDY0LTMyczQ5LjQgMTIuNiA2NCAzMmwxNjAgMCAwLTI3Mkw0OCA4MHpNMjA4IDQ4MGMtMjYuMiAwLTQ5LjQtMTIuNi02NC0zMmMtMTQuNiAxOS40LTM3LjggMzItNjQgMzJjLTQ0LjIgMC04MC0zNS44LTgwLTgwbDAtNDggMC00OEwwIDgwIDAgMzJsNDggMCAzODQgMCA0OCAwIDAgNDggMCA2NCA2NCAwIDExLjQgMCA3LjIgOC44IDcyIDg4IDUuNCA2LjYgMCA4LjYgMCAzMiAwIDExMi0zMiAwYzAgNDQuMi0zNS44IDgwLTgwIDgwcy04MC0zNS44LTgwLTgwbC04IDAtOCAwLTE0NCAwYzAgNDQuMi0zNS44IDgwLTgwIDgwek01MzIuNiAxOTJMNDgwIDE5MmwwIDY0IDEwNSAwLTUyLjQtNjR6TTUyOCA0MzJhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0ek0yNDAgNDAwYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6TTgwIDQzMmEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![truck-moving](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-moving.svg)
  */
 const TruckMoving: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

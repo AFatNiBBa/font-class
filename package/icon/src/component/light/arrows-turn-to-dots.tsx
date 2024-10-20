@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-turn-to-dots` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-turn-to-dots?s=light arrows-turn-to-dots}
- * @preview ![arrows-turn-to-dots](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYwLjcgMzYuN2M2LjItNi4yIDE2LjQtNi4yIDIyLjYgMHM2LjIgMTYuNCAwIDIyLjZMMjMwLjYgMTEyIDQzMiAxMTJjNDQuMiAwIDgwIDM1LjggODAgODBsMCA0OGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTQ4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0yMDEuNCAwIDUyLjcgNTIuN2M2LjIgNi4yIDYuMiAxNi40IDAgMjIuNnMtMTYuNCA2LjItMjIuNiAwbC04MC04MGMtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZsODAtODB6bS05LjQgMjU2bDgwIDgwYzYuMiA2LjIgNi4yIDE2LjQgMCAyMi42bC04MCA4MGMtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBzLTYuMi0xNi40IDAtMjIuNkwyODEuNCA0MDAgODAgNDAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDQ4YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNDhjMC00NC4yIDM1LjgtODAgODAtODBsMjAxLjQgMC01Mi43LTUyLjdjLTYuMi02LjItNi4yLTE2LjQgMC0yMi42czE2LjQtNi4yIDIyLjYgMHpNNDQ4IDQxNmEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6bTAtOTZhNjQgNjQgMCAxIDEgMCAxMjggNjQgNjQgMCAxIDEgMC0xMjh6TTMyIDEyOGEzMiAzMiAwIDEgMCA2NCAwIDMyIDMyIDAgMSAwIC02NCAwem05NiAwQTY0IDY0IDAgMSAxIDAgMTI4YTY0IDY0IDAgMSAxIDEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-turn-to-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrows-turn-to-dots.svg)
  */
 const ArrowsTurnToDots: typeof Icon = x => (
     <Icon {...x}>

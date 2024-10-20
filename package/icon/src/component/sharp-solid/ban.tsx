@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ban` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban?s=sharp-solid ban}
- * @preview ![ban](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY3LjIgNDEyLjVMOTkuNSAxNDQuOEM3Ny4xIDE3Ni4xIDY0IDIxNC41IDY0IDI1NmMwIDEwNiA4NiAxOTIgMTkyIDE5MmM0MS41IDAgNzkuOS0xMy4xIDExMS4yLTM1LjV6bTQ1LjMtNDUuM0M0MzQuOSAzMzUuOSA0NDggMjk3LjUgNDQ4IDI1NmMwLTEwNi04Ni0xOTItMTkyLTE5MmMtNDEuNSAwLTc5LjkgMTMuMS0xMTEuMiAzNS41TDQxMi41IDM2Ny4yek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ban](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ban.svg)
  */
 const Ban: typeof Icon = x => (
     <Icon {...x}>

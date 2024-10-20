@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `champagne-glasses` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/champagne-glasses?s=sharp-thin champagne-glasses}
- * @preview ![champagne-glasses](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzIuNCAxNzQuOEwxNjQuNCAwIDMzMy4xIDYxLjQgMjkxLjMgMjU0LjVjLTE0LjUgNjctODIuNyAxMDYuOC0xNDcuNSA4OGwtNDYgMTI2LjNMMTc1LjIgNDk3bC01LjUgMTVMMCA0NTAuMmw1LjUtMTUgNzcuMyAyOC4xIDQ2LTEyNi4zQzY3LjEgMzA5LjggNDAuNSAyMzUuNSA3Mi40IDE3NC44em0xNC4yIDcuNUM1Ny45IDIzNi43IDgzLjggMzAzLjkgMTQxLjcgMzI1czEyMC45LTEzLjggMTM0LTczLjlsMTMuNC02MS45LTE3My02My0yOS41IDU2em0yMDUuOS04LjhMMzE0LjUgNzEuNyAxNzIuMSAxOS44IDEyMy42IDExMmwxNjguOSA2MS41em01Ni4yIDgxbC0xMi4zLTU3IDguMi0zNy44IDMgMTMuN0w1MTYuNCAxMTIgNDY3LjkgMTkuOGwtMTAxIDM2LjggMy40LTE1LjctMy42LTEuM0w0NzUuNiAwbDkyIDE3NC44YzMxLjkgNjAuNiA1LjMgMTM1LTU2LjQgMTYyLjJsNDYgMTI2LjMgNzcuMy0yOC4xIDUuNSAxNUw0NzAuMyA1MTJsLTUuNS0xNSA3Ny4zLTI4LjEtNDYtMTI2LjNjLTY0LjggMTguOC0xMzIuOS0yMS0xNDcuNS04OHptMjA0LjctNzIuMmwtMjkuNS01Ni0xNzMgNjMgMTMuNCA2MS45YzEzIDYwLjEgNzYuMSA5NC45IDEzNCA3My45czgzLjgtODguMyA1NS4xLTE0Mi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![champagne-glasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/champagne-glasses.svg)
  */
 const ChampagneGlasses: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

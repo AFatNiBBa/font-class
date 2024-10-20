@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vuejs` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vuejs?s=brands vuejs}
- * @preview ![vuejs](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzU2LjkgNjQuM0gyODBsLTU2IDg4LjYtNDgtODguNkgwTDIyNCA0NDggNDQ4IDY0LjNoLTkxLjF6bS0zMDEuMiAzMmg1My44TDIyNCAyOTQuNSAzMzguNCA5Ni4zaDUzLjhMMjI0IDM4NC41IDU1LjcgOTYuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![vuejs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/vuejs.svg)
  */
 const Vuejs: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

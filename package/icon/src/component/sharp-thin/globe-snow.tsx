@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `globe-snow` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-snow?s=sharp-thin globe-snow}
- * @preview ![globe-snow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDIyNGMwIDU1LjktMjIgMTA2LjYtNTcuOSAxNDRsMjEuNSAwYzMyLjctMzguOSA1Mi40LTg5LjIgNTIuNC0xNDRDNDQ4IDEwMC4zIDM0Ny43IDAgMjI0IDBTMCAxMDAuMyAwIDIyNGMwIDU0LjggMTkuNyAxMDUuMSA1Mi40IDE0NGwyMS41IDBDMzggMzMwLjYgMTYgMjc5LjkgMTYgMjI0QzE2IDEwOS4xIDEwOS4xIDE2IDIyNCAxNnMyMDggOTMuMSAyMDggMjA4ek0yNTYgODBhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptLTI2LjMgODIuM2wtNS43LTUuNy01LjcgNS43LTcyIDcyLTUuNyA1LjdMMTUyIDI1MS4zbDUuNy01LjdMMjE2IDE4Ny4zbDAgNDEuNC03Ny43IDc3LjctNS43IDUuN0wxNDQgMzIzLjNsNS43LTUuN0wyMTYgMjUxLjMgMjE2IDM2OGwxNiAwIDAtMTE2LjcgNjYuMyA2Ni4zIDUuNyA1LjdMMzE1LjMgMzEybC01LjctNS43TDIzMiAyMjguN2wwLTQxLjQgNTguMyA1OC4zIDUuNyA1LjdMMzA3LjMgMjQwbC01LjctNS43LTcyLTcyek0xOC40IDUxMmw0MTEuMSAwIDE4LjQgMC05LjEtMTZMMzg0IDQwMCA2NCA0MDAgOS4xIDQ5NiAwIDUxMmwxOC40IDB6bTM1Ni4zLTk2bDQ1LjcgODBMMjcuNiA0OTZsNDUuNy04MCAzMDEuNCAwek0zMzYgMTkyYTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnpNOTYgMjQwYTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![globe-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/globe-snow.svg)
  */
 const GlobeSnow: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gavel` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gavel?s=sharp-regular gavel}
- * @preview ![gavel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcxLjIgODIuN0wyMTcuOSAxMzYgMzc2IDI5NC4xbDUzLjMtNTMuM0wyNzEuMiA4Mi43ek0xODQgMTY5LjlsLTE2IDE2TDEzNC4xIDE1MmwxNy0xNyAxNi0xNiA4Ny4yLTg3LjMgMTMuNi0xMy42IDE3LTE3IDMzLjkgMzMuOUwzMDUuMiA0OC43IDQ2My4zIDIwNi44bDEzLjUtMTMuNiAzMy45IDMzLjktMTcgMTctMTMuNSAxMy42TDM5MyAzNDVsLTE2IDE2LTE3IDE3TDMyNi4xIDM0NGwxNi0xNkwxODQgMTY5Ljl6TTEyOS45IDQ3OC4xTDk2IDUxMiA2Mi4xIDQ3OC4xIDMzLjkgNDQ5LjkgMCA0MTZsMzMuOS0zMy45IDc2LjEtNzYuMUwxNDQgMjcybDMxIDMxIDQ4LjQtNDguNCAzMy45IDMzLjlMMjA5IDMzN2wzMSAzMS0zMy45IDMzLjktNzYuMSA3Ni4xek0xNzIuMSAzNjhMMTQ0IDMzOS45IDY3LjkgNDE2IDk2IDQ0NC4xIDE3Mi4xIDM2OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gavel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/gavel.svg)
  */
 const Gavel: typeof Icon = x => (
     <Icon {...x}>

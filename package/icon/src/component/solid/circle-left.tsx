@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-left?s=solid circle-left}
- * @preview ![circle-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI1NkEyNTYgMjU2IDAgMSAwIDAgMjU2YTI1NiAyNTYgMCAxIDAgNTEyIDB6TTExNi43IDI0NC43bDExMi0xMTJjNC42LTQuNiAxMS41LTUuOSAxNy40LTMuNXM5LjkgOC4zIDkuOSAxNC44bDAgNjQgOTYgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyYzAgMTcuNy0xNC4zIDMyLTMyIDMybC05NiAwIDAgNjRjMCA2LjUtMy45IDEyLjMtOS45IDE0LjhzLTEyLjkgMS4xLTE3LjQtMy41bC0xMTItMTEyYy02LjItNi4yLTYuMi0xNi40IDAtMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/circle-left.svg)
  */
 const CircleLeft: typeof Icon = x => (
     <Icon {...x}>

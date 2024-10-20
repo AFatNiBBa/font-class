@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-cells-row-lock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-row-lock?s=sharp-thin table-cells-row-lock}
- * @preview ![table-cells-row-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsNDgwIDAgMCAxMTcuNWM1LjEtMS44IDEwLjUtMy4yIDE2LTQuMUw1MTIgNDhsMC0xNi0xNiAwTDE2IDMyIDAgMzIgMCA0OCAwIDQ2NGwwIDE2IDE2IDAgMzY4IDAgMC0xNi0zMiAwIDAtMTI4IDMyIDAgMC0xNi0zMiAwIDAtMTI4IDEwNC40IDBjNS40LTYuMSAxMS43LTExLjUgMTguNS0xNkwxNiAxNzYgMTYgNDh6bTAgMTQ0bDE0NCAwIDAgMTI4TDE2IDMyMGwwLTEyOHptMCAxNDRsMTQ0IDAgMCAxMjhMMTYgNDY0bDAtMTI4ek0xNzYgNDY0bDAtMTI4IDE2MCAwIDAgMTI4LTE2MCAwem0wLTE0NGwwLTEyOCAxNjAgMCAwIDEyOC0xNjAgMHpNNTI4IDIwOGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDY0LTk2IDAgMC02NGMwLTI2LjUgMjEuNS00OCA0OC00OHptLTY0IDQ4bDAgNjQtMzIgMC0xNiAwIDAgMTYgMCAxNjAgMCAxNiAxNiAwIDE5MiAwIDE2IDAgMC0xNiAwLTE2MCAwLTE2LTE2IDAtMzIgMCAwLTY0YzAtMzUuMy0yOC43LTY0LTY0LTY0cy02NCAyOC43LTY0IDY0em0tMzIgODBsMzIgMCAxNiAwIDk2IDAgMTYgMCAzMiAwIDAgMTYwLTE5MiAwIDAtMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![table-cells-row-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/table-cells-row-lock.svg)
  */
 const TableCellsRowLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

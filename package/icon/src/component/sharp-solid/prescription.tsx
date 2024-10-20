@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `prescription` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription?s=sharp-solid prescription}
- * @preview ![prescription](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEwwIDAgMCAzMiAwIDE5MmwwIDk2IDAgMzIgNjQgMCAwLTMyIDAtNjQgNTAuNyAwIDEyOCAxMjgtODkuNCA4OS40TDEzMC43IDQ2NCAxNzYgNTA5LjNsMjIuNi0yMi42TDI4OCAzOTcuM2w4OS40IDg5LjRMNDAwIDUwOS4zIDQ0NS4zIDQ2NGwtMjIuNi0yMi42TDMzMy4zIDM1Mmw4OS40LTg5LjRMNDQ1LjMgMjQwIDQwMCAxOTQuN2wtMjIuNiAyMi42TDI4OCAzMDYuN2wtODUuOC04NS44QzI1MS40IDIwOS4xIDI4OCAxNjQuOCAyODggMTEyQzI4OCA1MC4xIDIzNy45IDAgMTc2IDBMMzIgMHpNMTc2IDE2MEw2NCAxNjBsMC05NiAxMTIgMGMyNi41IDAgNDggMjEuNSA0OCA0OHMtMjEuNSA0OC00OCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![prescription](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/prescription.svg)
  */
 const Prescription: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

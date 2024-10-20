@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-notch` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-notch?s=sharp-thin circle-notch}
- * @preview ![circle-notch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk0LjEgMjQuMUM5MS41IDUxLjQgMTYgMTQ0LjkgMTYgMjU2YzAgMTMyLjUgMTA3LjUgMjQwIDI0MCAyNDBzMjQwLTEwNy41IDI0MC0yNDBjMC0xMTEuMS03NS41LTIwNC42LTE3OC4xLTIzMS45bDQuMS0xNS41QzQzMS40IDM3LjcgNTEyIDEzNy40IDUxMiAyNTZjMCAxNDEuNC0xMTQuNiAyNTYtMjU2IDI1NlMwIDM5Ny40IDAgMjU2QzAgMTM3LjQgODAuNiAzNy43IDE4OS45IDguNmw0LjEgMTUuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-notch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-notch.svg)
  */
 const CircleNotch: typeof Icon = x => (
     <Icon {...x}>

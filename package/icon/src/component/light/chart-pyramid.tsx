@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-pyramid` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pyramid?s=light chart-pyramid}
- * @preview ![chart-pyramid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY5LjggODcuN2MtNi4yLTEwLjYtMjEuNS0xMC42LTI3LjYgMEwxODEuMyAxOTJsMTQ5LjMgMEwyNjkuOCA4Ny43ek0xMDYuNyAzMjBsMjk4LjcgMC01Ni05Ni0xODYuNyAwLTU2IDk2ek04OCAzNTJMNDYgNDIzLjlDMzkuOCA0MzQuNiA0Ny41IDQ0OCA1OS45IDQ0OGwzOTIuMyAwYzEyLjMgMCAyMC0xMy40IDEzLjgtMjQuMUw0MjQgMzUyIDg4IDM1MnpNMjE0LjUgNzEuNmMxOC41LTMxLjggNjQuNC0zMS44IDgyLjkgMEw0OTMuNiA0MDcuOGMxOC43IDMyLTQuNCA3Mi4yLTQxLjUgNzIuMkw1OS45IDQ4MGMtMzcgMC02MC4xLTQwLjItNDEuNS03Mi4yTDIxNC41IDcxLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-pyramid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chart-pyramid.svg)
  */
 const ChartPyramid: typeof Icon = x => (
     <Icon {...x}>

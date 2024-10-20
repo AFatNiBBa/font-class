@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mendeley` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mendeley?s=brands mendeley}
- * @preview ![mendeley](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjI0LjYgMzI1LjJjLTEyLjMtMTIuNC0yOS43LTE5LjItNDguNC0xNy4yLTQzLjMtMS00OS43LTM0LjktMzcuNS05OC44IDIyLjgtNTcuNS0xNC45LTEzMS41LTg3LjQtMTMwLjgtNzcuNC43LTgxLjcgODItMTMwLjkgODItNDguMSAwLTU0LTgxLjMtMTMwLjktODItNzIuOS0uOC0xMTAuMSA3My4zLTg3LjQgMTMwLjggMTIuMiA2My45IDUuOCA5Ny44LTM3LjUgOTguOC0yMS4yLTIuMy0zNyA2LjUtNTMgMjIuNS0xOS45IDE5LjctMTkuMyA5NC44IDQyLjYgMTAyLjYgNDcuMSA1LjkgODEuNi00Mi45IDYxLjItODcuOC00Ny4zLTEwMy43IDE4NS45LTEwNi4xIDE0Ni41LTguMi0uMS4xLS4yLjItLjMuNC0yNi44IDQyLjggNi44IDk3LjQgNTguOCA5NS4yIDUyLjEgMi4xIDg1LjQtNTIuNiA1OC44LTk1LjItLjEtLjItLjItLjMtLjMtLjQtMzkuNC05Ny45IDE5My44LTk1LjUgMTQ2LjUgOC4yLTQuNiAxMC02LjcgMjEuMy01LjcgMzMgNC45IDUzLjQgNjguNyA3NC4xIDEwNC45IDM1LjIgMTcuOC0xNC44IDIzLjEtNjUuNiAwLTg4LjN6bS0zMDMuOS0xOS4xaC0uNmMtNDMuNCAwLTYyLjgtMzcuNS02Mi44LTYyLjggMC0zNC43IDI4LjItNjIuOCA2Mi44LTYyLjhoLjZjMzQuNyAwIDYyLjggMjguMSA2Mi44IDYyLjggMCAyNS0xOS4yIDYyLjgtNjIuOCA2Mi44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mendeley](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/mendeley.svg)
  */
 const Mendeley: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

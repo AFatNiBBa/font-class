@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bagel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bagel?s=sharp-solid bagel}
- * @preview ![bagel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDIwOGMwIDExNC45LTkzLjEgMjA4LTIwOCAyMDhjLTMuOSAwLTcuNy0uMS0xMS41LS4zYzUuNy0xMC44IDEwLjYtMjIuMSAxNC42LTMzLjhMNDc4LjggMzUybDU2LjctMS42IDE5LTUzLjQgNDQuOS0zNC42LTE2LTU0LjQgMTYtNTQuNEw1NTQuNSAxMTlsLTE5LTUzLjRMNDc4LjggNjQgNDMyIDMyIDM4NS4yIDY0bC01Ni43IDEuNi05LjIgMjUuN2MtMTQuNC03LjYtMjkuNy0xMy43LTQ1LjctMTguM0MzMTEuOCAyOC40IDM2OC42IDAgNDMyIDBDNTQ2LjkgMCA2NDAgOTMuMSA2NDAgMjA4ek0zOTYuMSAxNTVjMTAuMi02LjkgMjIuNi0xMSAzNS45LTExYzM1LjMgMCA2NCAyOC43IDY0IDY0YzAgMzAuNi0yMS41IDU2LjMtNTAuMyA2Mi41Yy02LTQzLjMtMjMuNi04Mi45LTQ5LjUtMTE1LjZ6TTAgMzA0YTIwOCAyMDggMCAxIDEgNDE2IDBBMjA4IDIwOCAwIDEgMSAwIDMwNHptMjU2IDBhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMTIwIDIwOGwyNCAyNCAyNC0yNC0yNC0yNC0yNCAyNHpNODAgMjk2bDI0LTI0TDgwIDI0OCA1NiAyNzJsMjQgMjR6bTMyIDEyOGwyNC0yNC0yNC0yNEw4OCA0MDBsMjQgMjR6TTMwNCAyNjRsMjQtMjQtMjQtMjQtMjQgMjQgMjQgMjR6TTIxNiA0MzJsMjQgMjQgMjQtMjQtMjQtMjQtMjQgMjR6bTg4LThsMjQtMjQtMjQtMjQtMjQgMjQgMjQgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bagel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bagel.svg)
  */
 const Bagel: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

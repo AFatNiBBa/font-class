@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link-horizontal` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-horizontal?s=sharp-regular link-horizontal}
- * @preview ![link-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQzLjkgNjRDNjQuNCA2NCAwIDEyOC40IDAgMjA3LjljMCA3NS43IDU4LjcgMTM4LjUgMTM0LjMgMTQzLjVsOC4xIC41IDMuMi00Ny45LTguMS0uNUM4Ny4xIDMwMC4yIDQ4IDI1OC4zIDQ4IDIwNy45YzAtNTIuOSA0Mi45LTk1LjkgOTUuOS05NS45bDE2MC4zIDBjNTIuOSAwIDk1LjkgNDIuOSA5NS45IDk1LjljMCA1MC41LTM5LjEgOTIuMy04OS41IDk1LjZsLTguMSAuNSAzLjIgNDcuOSA4LjEtLjVjNzUuNi01IDEzNC4zLTY3LjggMTM0LjMtMTQzLjVDNDQ4IDEyOC40IDM4My42IDY0IDMwNC4xIDY0TDE0My45IDY0ek00OTYuMSA0NDhDNTc1LjYgNDQ4IDY0MCAzODMuNiA2NDAgMzA0LjFjMC03NS43LTU4LjctMTM4LjUtMTM0LjMtMTQzLjVsLTguMS0uNS0zLjIgNDcuOSA4LjEgLjVjNTAuNCAzLjQgODkuNSA0NS4yIDg5LjUgOTUuNmMwIDUyLjktNDIuOSA5NS45LTk1LjkgOTUuOWwtMTYwLjIgMGMtNTMgMC05NS45LTQyLjktOTUuOS05NS45YzAtNTAuNSAzOS4xLTkyLjMgODkuNS05NS43bDcuMS0uNS0zLjItNDcuOS03LjEgLjVDMjUwLjcgMTY1LjYgMTkyIDIyOC40IDE5MiAzMDQuMUMxOTIgMzgzLjYgMjU2LjQgNDQ4IDMzNS45IDQ0OGwxNjAuMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![link-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/link-horizontal.svg)
  */
 const LinkHorizontal: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

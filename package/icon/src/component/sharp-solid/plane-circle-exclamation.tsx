@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-circle-exclamation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-circle-exclamation?s=sharp-solid plane-circle-exclamation}
- * @preview ![plane-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDkzLjdDMTkyIDU5LjUgMjIxIDAgMjU2IDBjMzYgMCA2NCA1OS41IDY0IDkzLjdsMCA2Ni4zIDg1LjUgNTdDMzU0LjMgMjQ3LjggMzIwIDMwMy45IDMyMCAzNjhjMCA1NC43IDI0LjkgMTAzLjUgNjQgMTM1LjhsMCA4LjJMMjU2IDQ4MCAxMjggNTEybDAtNjQgNjQtNDggMC04MEwwIDM4NGwwLTk2TDE5MiAxNjBsMC02Ni4zek00OTYgMjI0YTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptMTYgMjI0bDAtMzItMzIgMCAwIDMyIDMyIDB6bTAtMTc2bC0zMiAwIDAgMTYgMCA4MCAwIDE2IDMyIDAgMC0xNiAwLTgwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![plane-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plane-circle-exclamation.svg)
  */
 const PlaneCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

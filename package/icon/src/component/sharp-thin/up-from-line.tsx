@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-from-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-from-line?s=sharp-thin up-from-line}
- * @preview ![up-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDIyNGwtMTYgMC02NCAwLTE2IDAgMC0xNiAwLTE2TDE4MC43IDQzLjMgMTkyIDMybDExLjMgMTEuM0wzNTIgMTkybDAgMTYgMCAxNi0xNiAwLTY0IDAtMTYgMCAwIDE2IDAgMTI4IDAgMTYtMTYgMC05NiAwLTE2IDAgMC0xNiAwLTEyOCAwLTE2em0wLTE2bDE2IDAgMCAxNiAwIDE0NCA5NiAwIDAtMTQ0IDAtMTYgMTYgMCA4MCAwIDAtOS40TDE5MiA1NC42IDQ4IDE5OC42bDAgOS40IDgwIDB6TTggNDgwbC04IDAgMC0xNiA4IDAgMzY4IDAgOCAwIDAgMTYtOCAwTDggNDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![up-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/up-from-line.svg)
  */
 const UpFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

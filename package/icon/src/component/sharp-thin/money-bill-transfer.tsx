@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-bill-transfer` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-transfer?s=sharp-thin money-bill-transfer}
- * @preview ![money-bill-transfer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjM1LjMgNzJsLTUuNyA1LjctNjQgNjQtMTEuMy0xMS4zTDYwNC43IDgwIDQwOCA4MGwtLjEgMEw0OCA4MGwwIDI1Mi4xLTkuOSA5LjlMMzIgMzQ4LjEgMzIgODBsMC0xNiAxNiAwIDUwOC4xIDBzMCAwIDAgMGw0OC42IDBMNTU0LjMgMTMuNyA1NjUuNyAyLjRsNjQgNjQgNS43IDUuN3pNMzUuMyA0NDhsNTAuMyA1MC4zTDc0LjMgNTA5LjdsLTY0LTY0TDQuNyA0NDBsNS43LTUuNyA2NC02NCAxMS4zIDExLjNMMzUuMyA0MzJsNDguNiAwczAgMCAwIDBsMTIuNyAwTDI0MCA0MzJsLjIgMEw1OTIgNDMybDAtMjUyLjEgOS45LTkuOSA2LjEtNi4xTDYwOCA0MzJsMCAxNi0xNiAwTDk2LjYgNDQ4bC0xMi43IDAtNDguNiAwek00ODAgNDA4bDAtMTZjMC0zOS44IDMyLjItNzIgNzItNzJsMTYgMCA4IDAgMCAxNi04IDAtMTYgMGMtMzAuOSAwLTU2IDI1LjEtNTYgNTZsMCAxNiAwIDgtMTYgMCAwLTh6TTE2MCA5NmwwIDggMCAxNmMwIDM5LjgtMzIuMiA3Mi03MiA3MmwtMTYgMC04IDAgMC0xNiA4IDAgMTYgMGMzMC45IDAgNTYtMjUuMSA1Ni01NmwwLTE2IDAtOCAxNiAwek00MDAgMjU2YTgwIDgwIDAgMSAwIC0xNjAgMCA4MCA4MCAwIDEgMCAxNjAgMHptLTE3NiAwYTk2IDk2IDAgMSAxIDE5MiAwIDk2IDk2IDAgMSAxIC0xOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![money-bill-transfer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/money-bill-transfer.svg)
  */
 const MoneyBillTransfer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

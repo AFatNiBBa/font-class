@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `escalator` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/escalator?s=light escalator}
- * @preview ![escalator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY0IDU2YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bS04MCAwYTU2IDU2IDAgMSAxIDExMiAwQTU2IDU2IDAgMSAxIDE4NCA1NnptMjExLjMgOTEuOEM0MDkuOSAxMzUgNDI4LjYgMTI4IDQ0OCAxMjhsMTEyIDBjNDQuMiAwIDgwIDM1LjggODAgODBzLTM1LjggODAtODAgODBsLTgxLjkgMEwyNDQuNyA0OTIuMkMyMzAuMSA1MDUgMjExLjQgNTEyIDE5MiA1MTJMODAgNTEyYy00NC4yIDAtODAtMzUuOC04MC04MHMzNS44LTgwIDgwLTgwbDgxLjkgMEwzOTUuMyAxNDcuOHpNNDQ4IDE2MGMtMTEuNiAwLTIyLjkgNC4yLTMxLjYgMTEuOUwxNzguNSAzODBjLTIuOSAyLjYtNi43IDQtMTAuNSA0bC04OCAwYy0yNi41IDAtNDggMjEuNS00OCA0OHMyMS41IDQ4IDQ4IDQ4bDExMiAwYzExLjYgMCAyMi45LTQuMiAzMS42LTExLjlMNDYxLjUgMjYwYzIuOS0yLjYgNi43LTQgMTAuNS00bDg4IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhzLTIxLjUtNDgtNDgtNDhsLTExMiAwek0zMDcuOSAxODEuN2wtMjQuNiAyMS41QzI3NS42IDE4Ny4xIDI1OS4xIDE3NiAyNDAgMTc2Yy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDU5LjItMzIgMjggMC04Ny4yYzAtNDQuMiAzNS44LTgwIDgwLTgwYzI4LjcgMCA1My44IDE1LjEgNjcuOSAzNy43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![escalator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/escalator.svg)
  */
 const Escalator: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

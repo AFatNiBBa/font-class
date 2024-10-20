@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-fancy` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-fancy?s=light pen-fancy}
- * @preview ![pen-fancy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkyLjEgNDguN0M0MDEuNyAzOC4xIDQxNS4zIDMyIDQyOS42IDMyQzQ1Ny40IDMyIDQ4MCA1NC42IDQ4MCA4Mi40YzAgMTQuMy02LjEgMjcuOS0xNi43IDM3LjVMMjU2LjYgMzA2IDIwNiAyNTUuNCAzOTIuMSA0OC43ek00MjkuNiAwYy0yMy40IDAtNDUuNiA5LjktNjEuMyAyNy4zTDE3NS4xIDI0MiA5OC45IDI2NS40Yy0xOS44IDYuMS0zNS40IDIxLjMtNDEuOSA0MC45TDIuOSA0NjguNmMtOC4zIDI1IDE1LjUgNDguOCA0MC41IDQwLjVMMjA1LjYgNDU1YzE5LjYtNi41IDM0LjktMjIuMSA0MC45LTQxLjlMMjcwIDMzNi45IDQ4NC43IDE0My43YzE3LjQtMTUuNiAyNy4zLTM3LjkgMjcuMy02MS4zQzUxMiAzNi45IDQ3NS4xIDAgNDI5LjYgMHpNMjM3LjkgMzMyLjVMMjE2IDQwMy43Yy0zIDkuOS0xMC43IDE3LjctMjAuNSAyMC45TDY3LjIgNDY3LjQgMTM0LjcgNDAwYy40IDAgLjkgMCAxLjMgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGMwIC40IDAgLjkgMCAxLjNMNDQuNiA0NDQuOCA4Ny40IDMxNi41YzMuMy05LjggMTEuMS0xNy40IDIwLjktMjAuNWw3MS4yLTIxLjkgNTguNCA1OC40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-fancy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pen-fancy.svg)
  */
 const PenFancy: typeof Icon = x => (
     <Icon {...x}>

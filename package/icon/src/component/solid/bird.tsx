@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bird` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bird?s=solid bird}
- * @preview ![bird](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxOTJsMC0zLjZDMCAxNzIuNyAxMi43IDE2MCAyOC40IDE2MEwyMjQgMTYwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzJjMC01MyA0My05NiA5Ni05NmM0Ny41IDAgODYuOSAzNC41IDk0LjYgNzkuN2w1Ny42IDM0LjZjNC44IDIuOSA3LjggOC4xIDcuOCAxMy43cy0yLjkgMTAuOC03LjggMTMuN0w0NDggMTc1LjVsMCAxNi41YzAgOTMuOS01Ny43IDE3NC4zLTEzOS43IDIwNy42bDQwLjkgNzcuMmM2LjIgMTEuNyAxLjcgMjYuMi0xMCAzMi40cy0yNi4yIDEuNy0zMi40LTEwbC00NS43LTg2LjNDMjQ5IDQxNSAyMzYuNiA0MTYgMjI0IDQxNmMtMSAwLTIgMC0zIDBsMzIuMiA2MC44YzYuMiAxMS43IDEuNyAyNi4yLTEwIDMyLjRzLTI2LjIgMS43LTMyLjQtMTBsLTQ4LjYtOTEuOUM2OC41IDM4MC41IDAgMjk0LjMgMCAxOTJ6bTM3Ni03MmEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bird](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bird.svg)
  */
 const Bird: typeof Icon = x => (
     <Icon {...x}>

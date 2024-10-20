@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `4` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/4?s=thin 4}
- * @preview ![4](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU5LjIgNDMuNGMxLjktNCAuMi04LjgtMy44LTEwLjdzLTguOC0uMi0xMC43IDMuOEwuOCAzNDAuNmMtMS4yIDIuNS0xIDUuNCAuNSA3LjdzNCAzLjcgNi44IDMuN2wyOTYgMCAwIDEyMGMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtMTIwIDU2IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTU2IDAgMC0yMDBjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCAyMDBMMjAuNiAzMzYgMTU5LjIgNDMuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/4.svg)
  */
 const $4: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-nested` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-nested?s=sharp-light diagram-nested}
- * @preview ![diagram-nested](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDY0bDAgMTI4LTQ4IDAtMzIgMC00OCAwTDMyIDY0bDEyOCAwek0xMTIgMjI0bDQ4IDAgMzIgMCAwLTMyIDAtMTI4IDAtMzItMzIgMEwzMiAzMiAwIDMyIDAgNjQgMCAxOTJsMCAzMiAzMiAwIDQ4IDAgMCAxNjAgMCAxNiAxNiAwIDE2MCAwIDAgNDggMCAzMiAzMiAwIDEyOCAwIDMyIDAgMC0zMiAwLTEyOCAwLTMyLTMyIDAtMTI4IDAtMzIgMCAwIDMyIDAgNDgtMTQ0IDAgMC0xNDR6TTI4OCAzNjhsMC00OCAxMjggMCAwIDEyOC0xMjggMCAwLTQ4IDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![diagram-nested](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/diagram-nested.svg)
  */
 const DiagramNested: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

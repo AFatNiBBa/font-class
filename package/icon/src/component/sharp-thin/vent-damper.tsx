@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vent-damper` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vent-damper?s=sharp-thin vent-damper}
- * @preview ![vent-damper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgODBsMCA1NiAwIDI0MCAwIDU2IDQ4MCAwIDAtNTYgMC0yNDAgMC01Nkw4MCA4MHptNDk2IDBsMCA0OCA1NiAwIDggMCAwIDggMCAyNDAgMCA4LTggMC01NiAwIDAgNDggMCAxNi0xNiAwTDgwIDQ0OGwtMTYgMCAwLTE2IDAtNDhMOCAzODRsLTggMCAwLThMMCAxMzZsMC04IDggMCA1NiAwIDAtNDggMC0xNiAxNiAwIDQ4MCAwIDE2IDAgMCAxNnptMCAyODhsNDggMCAwLTIyNC00OCAwIDAgMjI0ek02NCAxNDRsLTQ4IDAgMCAyMjQgNDggMCAwLTIyNHptNjQtMTZsMCAyNTYgMzg0IDAgMC0yNTYtMzg0IDB6bS0xNi0xNmwxNiAwIDM4NCAwIDE2IDAgMCAxNiAwIDI1NiAwIDE2LTE2IDAtMzg0IDAtMTYgMCAwLTE2IDAtMjU2IDAtMTZ6bTcyIDY0bDI3MiAwIDggMCAwIDE2LTggMC0yNzIgMC04IDAgMC0xNiA4IDB6bTAgNzJsMjcyIDAgOCAwIDAgMTYtOCAwLTI3MiAwLTggMCAwLTE2IDggMHptMCA3MmwyNzIgMCA4IDAgMCAxNi04IDAtMjcyIDAtOCAwIDAtMTYgOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vent-damper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/vent-damper.svg)
  */
 const VentDamper: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-right-to-bracket` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-to-bracket?s=solid arrow-right-to-bracket}
- * @preview ![arrow-right-to-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDk2bDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyNTZjMCAxNy43LTE0LjMgMzItMzIgMzJsLTY0IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsNjQgMGM1MyAwIDk2LTQzIDk2LTk2bDAtMjU2YzAtNTMtNDMtOTYtOTYtOTZsLTY0IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJ6bS05LjQgMTgyLjZjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNsLTEyOC0xMjhjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwcy0xMi41IDMyLjggMCA0NS4zTDI0Mi43IDIyNCAzMiAyMjRjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsMjEwLjcgMC03My40IDczLjRjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zczMyLjggMTIuNSA0NS4zIDBsMTI4LTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-right-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-right-to-bracket.svg)
  */
 const ArrowRightToBracket: typeof Icon = x => (
     <Icon {...x}>

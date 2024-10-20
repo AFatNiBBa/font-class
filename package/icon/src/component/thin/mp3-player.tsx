@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mp3-player` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mp3-player?s=thin mp3-player}
- * @preview ![mp3-player](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTZDMzcuNSAxNiAxNiAzNy41IDE2IDY0bDAgMzg0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDI1NiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzg0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDE2ek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDM4NGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6TTk2IDgwYy04LjggMC0xNiA3LjItMTYgMTZsMCA2NGMwIDguOCA3LjIgMTYgMTYgMTZsMTkyIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtNjRjMC04LjgtNy4yLTE2LTE2LTE2TDk2IDgwek02NCA5NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwxOTIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDk2IDE5MmMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NHpNMTkyIDQzMmE5NiA5NiAwIDEgMCAwLTE5MiA5NiA5NiAwIDEgMCAwIDE5MnptMC0yMDhhMTEyIDExMiAwIDEgMSAwIDIyNCAxMTIgMTEyIDAgMSAxIDAtMjI0em0xNiAxMTJhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptLTQ4IDBhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mp3-player](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mp3-player.svg)
  */
 const Mp3Player: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

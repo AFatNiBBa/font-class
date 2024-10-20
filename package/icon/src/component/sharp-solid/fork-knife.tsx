@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fork-knife` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fork-knife?s=sharp-solid fork-knife}
- * @preview ![fork-knife](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE0LjYgMTY5LjRMMTkyIDE0Ni43czAgMCAwIDBMNDUuMyAwUzAgNDAgMCAxMDRjMCA3MC43IDYzLjUgMTM2LjIgMTU0LjcgMjI2LjhMMjY1LjQgMjIwLjFsLTUwLjctNTAuN3pNNDQxLjQgNDg2LjZMNDY0IDUwOS4zIDUwOS4zIDQ2NGwtMjIuNi0yMi42TDM1NS45IDMxMC42bC00NS4zIDQ1LjNMNDQxLjQgNDg2LjZ6TTQ4OCAyNEw0NzIgOCAzNDguNiA3OC41QzMyMSA5NC4zIDMwNCAxMjMuNiAzMDQgMTU1LjNjMCAxOS40IDYuNCAzOC4xIDE4IDUzLjRMODkuNCA0NDEuNCA2Ni43IDQ2NCAxMTIgNTA5LjNsMjIuNi0yMi42TDM2Ny4yIDI1NGMxNS4zIDExLjYgMzQgMTggNTMuNCAxOGMzMS44IDAgNjEuMS0xNyA3Ni44LTQ0LjZMNTY4IDEwNCA1NTIgODggNDQ4IDE5MmwtMTYtMTZMNTI4IDY0IDUxMiA0OCA0MDAgMTQ0bC0xNi0xNkw0ODggMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fork-knife](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fork-knife.svg)
  */
 const ForkKnife: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

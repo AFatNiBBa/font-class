@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-slash?s=light pen-slash}
- * @preview ![pen-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjUuOSAzLjRDMTktMiA4LjktLjggMy40IDYuMVMtLjggMjMuMSA2LjEgMjguNmw2MDggNDgwYzYuOSA1LjUgMTcgNC4zIDIyLjUtMi42czQuMy0xNy0yLjYtMjIuNUwyNS45IDMuNHpNNTU5IDEzOC44YzIxLjktMjEuOSAyMS45LTU3LjMgMC03OS4yTDUxNi40IDE3Yy0yMS45LTIxLjktNTcuMy0yMS45LTc5LjIgMEwyOTcuNSAxNTYuN2wyNS4zIDIwTDM4Mi40IDExNyA0NTkgMTkzLjZsLTUwLjYgNTAuNiAyNS4zIDIwTDU1OSAxMzguOHpNMzE3LjIgMzM1LjRsLTkzLjYgOTMuNmMtNy42IDcuNi0xNi45IDEzLjEtMjcuMiAxNi4xbC05Mi44IDI3LjMgMjcuMy05Mi44YzMtMTAuMyA4LjYtMTkuNiAxNi4xLTI3LjJsODQuNi04NC42LTI1LjMtMjAtODEuOSA4MS45Yy0xMS40IDExLjQtMTkuNyAyNS40LTI0LjIgNDAuOGwtMzUuNiAxMjFjLTEuNyA1LjYtLjEgMTEuNyA0IDE1LjhzMTAuMiA1LjcgMTUuOCA0bDEyMS0zNS42YzE1LjQtNC41IDI5LjQtMTIuOSA0MC44LTI0LjJsOTYuMi05Ni4yLTI1LjMtMjB6TTQ1OS44IDM5LjZjOS40LTkuNCAyNC42LTkuNCAzMy45IDBsNDIuNiA0Mi42YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45TDQ4MS42IDE3MSA0MDUgOTQuNGw1NC44LTU0Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pen-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pen-slash.svg)
  */
 const PenSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

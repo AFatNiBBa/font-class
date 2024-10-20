@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `studiovinari` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/studiovinari?s=brands studiovinari}
- * @preview ![studiovinari](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwLjMgMTg3LjdsNC4yIDI4djI4bC0yNS4xIDQ0LjEtMzkuOCA3OC40LTU2LjEgNjcuNS03OS4xIDM3LjgtMTcuNyAyNC41LTcuNyAxMi05LjYgNHMxNy4zLTYzLjYgMTkuNC02My42YzIuMSAwIDIwLjMuNyAyMC4zLjdsNjYuNy0zOC42LTkyLjUgMjYuMS01NS45IDM2LjgtMjIuOCAyOC02LjYgMS40IDIwLjgtNzMuNiA2LjktNS41IDIwLjcgMTIuOSA4OC4zLTQ1LjIgNTYuOC01MS41IDE0LjgtNjguNC0xMjUuNCAyMy4zIDE1LjItMTguMi0xNzMuNC01My4zIDgxLjktMTAuNS0xNjYtMTIyLjlMMTMzLjUgMTA4IDMyLjIgMGwyNTIuOSAxMjYuNi0zMS41LTM4TDM3OCAxNjMgMjM0LjcgNjRsMTguNyAzOC40LTQ5LjYtMTguMUwxNTguMyAwbDE5NC42IDEyMkwzMTAgNjYuMmwxMDggOTYuNCAxMi04LjktMjEtMTYuNCA0LjItMzcuOEw0NTEgODkuMWwyOS4yIDI0LjcgMTEuNSA0LjItNyA2LjIgOC41IDEyLTEzLjEgNy40LTEwLjMgMjAuMiAxMC41IDIzLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![studiovinari](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/studiovinari.svg)
  */
 const Studiovinari: typeof Icon = x => (
     <Icon {...x}>

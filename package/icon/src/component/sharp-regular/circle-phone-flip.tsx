@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-phone-flip` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-phone-flip?s=sharp-regular circle-phone-flip}
- * @preview ![circle-phone-flip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ2NGEyMDggMjA4IDAgMSAwIDAtNDE2IDIwOCAyMDggMCAxIDAgMCA0MTZ6TTI1NiAwYTI1NiAyNTYgMCAxIDEgMCA1MTJBMjU2IDI1NiAwIDEgMSAyNTYgMHptNTYgMTI4bDcyIDE2IDAgMTZjMCAxMjMuNy0xMDAuMyAyMjQtMjI0IDIyNGwtMTYgMC0xNi03MiA3Mi00MCAzMy41IDQxLjljMzQuMi0xOC4xIDYyLjMtNDYuMiA4MC40LTgwLjRMMjcyIDIwMGw0MC03MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-phone-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/circle-phone-flip.svg)
  */
 const CirclePhoneFlip: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-of-david` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-of-david?s=solid star-of-david}
- * @preview ![star-of-david](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA0LjIgMzA5LjVMMzgzLjEgMzQ0bDQyLjMgMC0yMS4xLTM0LjV6TTM3MS40IDI1NmwtNTQtODgtMTIyLjggMC01NCA4OCA1NCA4OCAxMjIuOCAwIDU0LTg4em02NS43IDBsNTMuNCA4N2MzLjYgNS45IDUuNSAxMi43IDUuNSAxOS42YzAgMjAuNy0xNi44IDM3LjQtMzcuNCAzNy40bC0xMDkuOCAwLTU2LjIgOTEuNUMyODQuOCA1MDQuMyAyNzAuOSA1MTIgMjU2IDUxMnMtMjguOC03LjctMzYuNi0yMC41TDE2My4zIDQwMCA1My40IDQwMEMzMi44IDQwMCAxNiAzODMuMiAxNiAzNjIuNmMwLTYuOSAxLjktMTMuNyA1LjUtMTkuNmw1My40LTg3TDIxLjUgMTY5Yy0zLjYtNS45LTUuNS0xMi43LTUuNS0xOS42QzE2IDEyOC44IDMyLjggMTEyIDUzLjQgMTEybDEwOS44IDAgNTYuMi05MS41QzIyNy4yIDcuNyAyNDEuMSAwIDI1NiAwczI4LjggNy43IDM2LjYgMjAuNUwzNDguNyAxMTJsMTA5LjggMGMyMC43IDAgMzcuNCAxNi44IDM3LjQgMzcuNGMwIDYuOS0xLjkgMTMuNy01LjUgMTkuNmwtNTMuNCA4N3ptLTU0LTg4bDIxLjEgMzQuNUw0MjUuNCAxNjhsLTQyLjMgMHpNMjgzIDExMkwyNTYgNjhsLTI3IDQ0IDU0IDB6TTEyOC45IDE2OGwtNDIuMyAwIDIxLjEgMzQuNUwxMjguOSAxNjh6TTEwNy44IDMwOS41TDg2LjYgMzQ0bDQyLjMgMC0yMS4xLTM0LjV6TTIyOSA0MDBsMjcgNDQgMjctNDQtNTQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![star-of-david](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/star-of-david.svg)
  */
 const StarOfDavid: typeof Icon = x => (
     <Icon {...x}>

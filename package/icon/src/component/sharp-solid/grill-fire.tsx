@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grill-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grill-fire?s=sharp-solid grill-fire}
- * @preview ![grill-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw0NDggMCAwIDY0YzAgMjQuMS0zLjggNDcuNC0xMC45IDY5LjFjLTE2LjktMTYuMy0zNC44LTMxLjMtNTMuMS00Ni4xYy0zMS42IDI1LjYtNjEuNSA1Mi4zLTg4LjIgODMuMWMtMjguOSAzMy4zLTU4IDczLjctNjguMSAxMTcuOWMtMS4yIDAtMi41IDAtMy43IDBjLTE2LjkgMC0zMy40LTEuOS00OS4zLTUuNEwxNTEuOCAzNjhsNzIuOCAwYzEuNCAxNi43IDQuOSAzMi44IDEwLjIgNDhMMTYwIDQxNmMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NHMyOC43LTY0IDY0LTY0YzMuNCAwIDYuOCAuMyAxMC4xIC44TDEyOS4yIDI5OUM1Mi45IDI2My4zIDAgMTg1LjggMCA5NkwwIDMyek05NiA0NDBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek00NDkgMjI0LjFjMTcuMi0xOS41IDMxLTMyIDMxLTMyczk2IDg2LjQgOTYgMTYwYzAgODguNC03MS42IDE2MC0xNjAgMTYwcy0xNjAtNzEuNi0xNjAtMTYwczEyOC0xOTIgMTI4LTE5MnMzMi42IDI2LjQgNjUgNjR6TTQ2NiA0MzNjMzAtMjEgMzgtNjMgMjAtOTZjLTItNC00LTgtNy0xMmwtMzYgNDJzLTU4LTc0LTYyLTc5Yy0zMCAzNy00NSA1OC00NSA4MmMwIDQ5IDM2IDc4IDgxIDc4YzE4IDAgMzQtNSA0OS0xNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![grill-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/grill-fire.svg)
  */
 const GrillFire: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

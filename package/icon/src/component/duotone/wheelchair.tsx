@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `wheelchair` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheelchair?s=duotone wheelchair}
- * @preview ![wheelchair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDM1MmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MHMxNjAtNzEuNiAxNjAtMTYwbC00OCAwYzAgNjEuOS01MC4xIDExMi0xMTIgMTEyUzQ4IDQxMy45IDQ4IDM1MnM1MC4xLTExMiAxMTItMTEyYzUuMyAwIDEwLjUgLjQgMTUuNiAxLjFjLTMuMy0xNi4zLTYuNS0zMi42LTkuOC00OWMtMS45LS4xLTMuOC0uMS01LjgtLjFDNzEuNiAxOTIgMCAyNjMuNiAwIDM1MnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTI0MCA0OGE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwem0xOS44IDEyOGwtMS45LTkuN2MtNC41LTIyLjMtMjQtMzguMy00Ni44LTM4LjNjLTMwLjEgMC01Mi43IDI3LjUtNDYuOCA1N2wyMy4xIDExNS41YzYgMjkuOSAzMi4yIDUxLjQgNjIuOCA1MS40bDUuMSAwYy40IDAgLjggMCAxLjMgMGw5NC4xIDBjNi43IDAgMTIuNiA0LjEgMTUgMTAuNEw0MDIgNDU5LjJjNiAxNi4xIDIzLjggMjQuNiA0MC4xIDE5LjFsNDgtMTZjMTYuOC01LjYgMjUuOC0yMy43IDIwLjItNDAuNXMtMjMuNy0yNS44LTQwLjUtMjAuMmwtMTguNyA2LjItMjUuNS02OGMtMTEuNy0zMS4yLTQxLjYtNTEuOS03NC45LTUxLjlsLTY4LjUgMC05LjYtNDggNjMuNCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC03Ni4yIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![wheelchair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wheelchair.svg)
  */
 const Wheelchair: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 352c0 88.4 71.6 160 160 160s160-71.6 160-160l-48 0c0 61.9-50.1 112-112 112S48 413.9 48 352s50.1-112 112-112c5.3 0 10.5 .4 15.6 1.1c-3.3-16.3-6.5-32.6-9.8-49c-1.9-.1-3.8-.1-5.8-.1C71.6 192 0 263.6 0 352z" />
-            <path d="M240 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm19.8 128l-1.9-9.7c-4.5-22.3-24-38.3-46.8-38.3c-30.1 0-52.7 27.5-46.8 57l23.1 115.5c6 29.9 32.2 51.4 62.8 51.4l5.1 0c.4 0 .8 0 1.3 0l94.1 0c6.7 0 12.6 4.1 15 10.4L402 459.2c6 16.1 23.8 24.6 40.1 19.1l48-16c16.8-5.6 25.8-23.7 20.2-40.5s-23.7-25.8-40.5-20.2l-18.7 6.2-25.5-68c-11.7-31.2-41.6-51.9-74.9-51.9l-68.5 0-9.6-48 63.4 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-76.2 0z" />
+        <path d="M240 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm19.8 128l-1.9-9.7c-4.5-22.3-24-38.3-46.8-38.3c-30.1 0-52.7 27.5-46.8 57l23.1 115.5c6 29.9 32.2 51.4 62.8 51.4l5.1 0c.4 0 .8 0 1.3 0l94.1 0c6.7 0 12.6 4.1 15 10.4L402 459.2c6 16.1 23.8 24.6 40.1 19.1l48-16c16.8-5.6 25.8-23.7 20.2-40.5s-23.7-25.8-40.5-20.2l-18.7 6.2-25.5-68c-11.7-31.2-41.6-51.9-74.9-51.9l-68.5 0-9.6-48 63.4 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-76.2 0z" />
     </Icon>
 );
 

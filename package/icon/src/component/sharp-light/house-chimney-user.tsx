@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-chimney-user` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-user?s=sharp-light house-chimney-user}
- * @preview ![house-chimney-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk4LjYgMTJMMjg4IDIuNyAyNzcuNCAxMiA1LjQgMjUybDIxLjIgMjRMNjQgMjQzbDAgMjUzIDAgMTYgMTYgMCA0MTYgMCAxNiAwIDAtMTYgMC0yNTMgMzcuNCAzMyAyMS4yLTI0LTU4LjktNTIgLjMgMCAwLTE1MiAwLTE2LTE2IDAtOTYgMC0xNiAwIDAgMTYgMCAzOS40TDI5OC42IDEyek00ODAgNjRsMCAxMDguMS02NC01Ni41TDQxNiA2NGw2NCAwek05NiA0ODBsMC0yNjUuM0wyODggNDUuMyA0ODAgMjE0LjcgNDgwIDQ4MCA5NiA0ODB6TTI1NiAyMjRhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptOTYgMGE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6TTIzMS4xIDM1MmwxMTMuOSAwIDIxLjMgNjQgMzMuNyAwLTMyLTk2LTE2MCAwLTMyIDk2IDMzLjcgMCAyMS4zLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-chimney-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/house-chimney-user.svg)
  */
 const HouseChimneyUser: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flag-pennant` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag-pennant?s=regular flag-pennant}
- * @preview ![flag-pennant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjRDNDggMTAuNyAzNy4zIDAgMjQgMFMwIDEwLjcgMCAyNGwwIDhMMCA4MCAwIDMwNGwwIDQ4TDAgNDg4YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xMzcuMUw0MzIuOSAyMTMuNGM5LTMuMiAxNS4xLTExLjggMTUuMS0yMS40cy02LTE4LjItMTUuMS0yMS40TDQ4IDMzLjEgNDggMjR6bTAgNjAuMUwzNTAuMSAxOTIgNDggMjk5LjkgNDggODQuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![flag-pennant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/flag-pennant.svg)
  */
 const FlagPennant: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

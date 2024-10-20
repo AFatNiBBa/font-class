@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pear` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pear?s=sharp-thin pear}
- * @preview ![pear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEwLjUgMTIuOGwtNS43IDUuN0w0NDggNzUuM2M0NC40IDUwLjMgNDIuNiAxMjcuMS01LjUgMTc1LjJsLTU4LjggNTguOGMuMiAzLjUgLjMgNy4xIC4zIDEwLjdjMCAxMDYtODYgMTkyLTE5MiAxOTJTMCA0MjYgMCAzMjBTODYgMTI4IDE5MiAxMjhjMy42IDAgNy4yIC4xIDEwLjcgLjNsNTguOC01OC44QzMwOS42IDIxLjQgMzg2LjQgMTkuNiA0MzYuNyA2NEw0OTMuNSA3LjFsNS43LTUuNyAxMS4zIDExLjN6TTQwMi4zIDk4LjNsMjMtMjNjLTQ0LTM4LjItMTEwLjctMzYuNC0xNTIuNSA1LjVMMjE0IDEzOS42bC01LjEgNS4xLTcuMS0uNGMtMy4yLS4yLTYuNS0uMy05LjgtLjNDOTQuOCAxNDQgMTYgMjIyLjggMTYgMzIwczc4LjggMTc2IDE3NiAxNzZzMTc2LTc4LjggMTc2LTE3NmMwLTMuMy0uMS02LjYtLjMtOS44bC0uNC03LjEgNS4xLTUuMSA1OC44LTU4LjhjNDEuOC00MS44IDQzLjctMTA4LjUgNS41LTE1Mi41bC0yMyAyMy01LjcgNS43TDM5Ni43IDEwNGw1LjctNS43ek0zMDQgMzI4YzAgNTcuNC00Ni42IDEwNC0xMDQgMTA0bC04IDAgMC0xNiA4IDBjNDguNiAwIDg4LTM5LjQgODgtODhsMC04IDE2IDAgMCA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pear.svg)
  */
 const Pear: typeof Icon = x => (
     <Icon {...x}>

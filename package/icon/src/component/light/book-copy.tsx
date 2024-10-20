@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-copy` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-copy?s=light book-copy}
- * @preview ![book-copy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDI3MiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDIyNGMwIDguOC03LjIgMTYtMTYgMTZsLTI3MiAwYy0xMS43IDAtMjIuNiAzLjEtMzIgOC42TDIyNCA2NHptLTMyIDBsMCAyODhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjcyIDAgMzIgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMTYgMCAwLTY2LjdjMTguNi02LjYgMzItMjQuNCAzMi00NS4zbDAtMjI0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDI1NiAwYy0zNS4zIDAtNjQgMjguNy02NCA2NHptNjQgMzIwYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDI1NiAwIDAgNjQtMjU2IDB6bTk2IDk2bDAtMzItMzIgMCAwIDMyTDY0IDQ4MGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmwxMjAuNCAwYy04LjMtOS4yLTE0LjgtMjAuMS0xOS0zMkw2NCAzODRjLTExLjcgMC0yMi42IDMuMS0zMiA4LjZMMzIgMTYwYzAtMTcuNyAxNC4zLTMyIDMyLTMybDk2IDAgMC0zMkw2NCA5NkMyOC43IDk2IDAgMTI0LjcgMCAxNjBMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjcyIDAgMzIgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![book-copy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/book-copy.svg)
  */
 const BookCopy: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

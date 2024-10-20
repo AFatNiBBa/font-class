@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vault` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vault?s=sharp-thin vault}
- * @preview ![vault](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMCA0NDggNDggMCAxNiAwIDQxNiAwIDE2IDAgNDggMCAwLTQ0OEwxNiAxNnpNNjQgNDgwbC00OCAwTDAgNDgwbDAtMTZMMCAxNiAwIDAgMTYgMCA1NjAgMGwxNiAwIDAgMTYgMCA0NDggMCAxNi0xNiAwLTQ4IDAgMCAyNCAwIDgtMTYgMCAwLTggMC0yNEw4MCA0ODBsMCAyNCAwIDgtMTYgMCAwLTggMC0yNHpNMzY4IDI0MEExNDQgMTQ0IDAgMSAwIDgwIDI0MGExNDQgMTQ0IDAgMSAwIDI4OCAwek02NCAyNDBhMTYwIDE2MCAwIDEgMSAzMjAgMEExNjAgMTYwIDAgMSAxIDY0IDI0MHptMTYwIDQ4YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptMC0xMTJhNjQgNjQgMCAxIDEgMCAxMjggNjQgNjQgMCAxIDEgMC0xMjh6bTI3MiAwYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTE2IDBjMCAyMy44LTE3LjMgNDMuNS00MCA0Ny4zTDQ3MiAzNDRsMCA4LTE2IDAgMC04IDAtMTIwLjdjLTIyLjctMy44LTQwLTIzLjYtNDAtNDcuM2MwLTI2LjUgMjEuNS00OCA0OC00OHM0OCAyMS41IDQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vault](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/vault.svg)
  */
 const Vault: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

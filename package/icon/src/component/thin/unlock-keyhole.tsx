@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `unlock-keyhole` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/unlock-keyhole?s=thin unlock-keyhole}
- * @preview ![unlock-keyhole](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE2Yy02MS45IDAtMTEyIDUwLjEtMTEyIDExMmwwIDY0IDI3MiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTkyYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAyNTZjMC0zNS4zIDI4LjctNjQgNjQtNjRsMzIgMCAwLTY0Qzk2IDU3LjMgMTUzLjMgMCAyMjQgMGM1OC45IDAgMTA4LjUgMzkuOCAxMjMuNCA5My45YzEuMiA0LjMtMS4zIDguNy01LjYgOS44cy04LjctMS4zLTkuOC01LjZDMzE4LjkgNTAuOCAyNzUuNSAxNiAyMjQgMTZ6TTY0IDIwOGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAxOTJjMCAyNi41IDIxLjUgNDggNDggNDhsMzIwIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xOTJjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTI3MiAwLTE2IDAtMzIgMHpNMjcyIDM1MmMwLTguOC03LjItMTYtMTYtMTZsLTY0IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNjQgMGM4LjggMCAxNi03LjIgMTYtMTZ6bS0xNi0zMmMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtNjQgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmw2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![unlock-keyhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/unlock-keyhole.svg)
  */
 const UnlockKeyhole: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

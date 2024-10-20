@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pagelines` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pagelines?s=brands pagelines}
- * @preview ![pagelines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMxMi43Yy01NS4xIDEzNi43LTE4Ny4xIDU0LTE4Ny4xIDU0LTQwLjUgODEuOC0xMDcuNCAxMzQuNC0xODQuNiAxMzQuNy0xNi4xIDAtMTYuNi0yNC40IDAtMjQuNCA2NC40LS4zIDEyMC41LTQyLjcgMTU3LjItMTEwLjEtNDEuMSAxNS45LTExOC42IDI3LjktMTYxLjYtODIuMiAxMDktNDQuOSAxNTkuMSAxMS4yIDE3OC4zIDQ1LjUgOS45LTI0LjQgMTctNTAuOSAyMS42LTc5LjcgMCAwLTEzOS43IDIxLjktMTQ5LjUtOTguMSAxMTkuMS00Ny45IDE1Mi42IDc2LjcgMTUyLjYgNzYuNyAxLjYtMTYuNyAzLjMtNTIuNiAzLjMtNTMuNCAwIDAtMTA2LjMtNzMuNy0zOC4xLTE2NS4yIDEyNC42IDQzIDYxLjQgMTYyLjQgNjEuNCAxNjIuNC41IDEuNi41IDIzLjggMCAzMy40IDAgMCA0NS4yLTg5IDEzNi40LTU3LjUtNC4yIDEzNC0xNDEuOSAxMDYuNC0xNDEuOSAxMDYuNC00LjQgMjcuNC0xMS4yIDUzLjQtMjAgNzcuNSAwIDAgODMtOTEuOCAxNzItMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pagelines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pagelines.svg)
  */
 const Pagelines: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-caret-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-caret-up?s=solid square-caret-up}
- * @preview ![square-caret-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMnpNMjI0IDE2MGM2LjcgMCAxMyAyLjggMTcuNiA3LjdsMTA0IDExMmM2LjUgNyA4LjIgMTcuMiA0LjQgMjUuOXMtMTIuNSAxNC40LTIyIDE0LjRsLTIwOCAwYy05LjUgMC0xOC4yLTUuNy0yMi0xNC40cy0yLjEtMTguOSA0LjQtMjUuOWwxMDQtMTEyYzQuNS00LjkgMTAuOS03LjcgMTcuNi03Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-caret-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-caret-up.svg)
  */
 const SquareCaretUp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

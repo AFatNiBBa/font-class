@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vacuum` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vacuum?s=sharp-light vacuum}
- * @preview ![vacuum](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM3IDMybDI5MSAwYzQ0LjIgMCA4MCAzNS44IDgwIDgwYzAgMzQuOC0yMi4yIDY0LjQtNTMuMiA3NS40QzUxOS45IDE1MC44IDQ3MC42IDEyOCA0MTYgMTI4bC0zMiAwLTMyIDAgMCAzMiAwIDEzMmMxMC4yLTIuNiAyMS00IDMyLTRsMC0xMjggMzIgMGM4OC40IDAgMTYwIDcxLjYgMTYwIDE2MGwwIDE2MC04MS4xIDBjLTcgMTItMTUuOCAyMi44LTI2LjIgMzJMNTc2IDUxMmwzMiAwIDAtMzIgMC0xNjBjMC0zOS41LTExLjktNzYuMS0zMi4zLTEwNi42YzM4LTE3LjkgNjQuMy01Ni42IDY0LjMtMTAxLjRDNjQwIDUwLjEgNTg5LjkgMCA1MjggMEwyMjQgMCAyMTEgMGwtMi43IDEyLjdMMTY0LjMgMjI0bDMyLjcgMEwyMzcgMzJ6TTE5MC4zIDI1NmwtMzIuNyAwTDEzMSAzODRsLTY3IDBMMCA0NDhsMCAzMiAwIDMyIDMyIDAgMTYwIDAgMzIgMCAwLTMyIDAtNjQgMC0zMi0zMiAwLTI4LjMgMCAyNi43LTEyOHpNNzcuMyA0MTZsNjYuNCAwYy4yIDAgLjQgMCAuNiAwbDQ3LjcgMCAwIDY0TDMyIDQ4MGwwLTE4LjdMNzcuMyA0MTZ6TTM4NCAzNTJhNjQgNjQgMCAxIDEgMCAxMjggNjQgNjQgMCAxIDEgMC0xMjh6bTAgMTYwYTk2IDk2IDAgMSAwIDAtMTkyIDk2IDk2IDAgMSAwIDAgMTkyem0yNC05NmEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vacuum](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/vacuum.svg)
  */
 const Vacuum: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

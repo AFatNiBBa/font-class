@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fence` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fence?s=sharp-thin fence}
- * @preview ![fence](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTAyTDcyIDU2LjMgMTEyIDEwMmwwIDM2Mi04MCAwIDAtMTc2IDAtMTg2ek02MS40IDQ0LjFMMTYgOTZsMCAxOTIgMCAxNzYgMCAxNiAxNiAwIDgwIDAgMTYgMCAwLTE2IDAtOTYgNzIgMCAwIDk2IDAgMTYgMTYgMCA4MCAwIDE2IDAgMC0xNiAwLTk2IDcyIDAgMCA5NiAwIDE2IDE2IDAgODAgMCAxNiAwIDAtMTYgMC0zNjhMNDUwLjYgNDQuMSA0NDAgMzIgNDI5LjQgNDQuMSAzODQgOTZsMCA2NC03MiAwIDAtNjRMMjY2LjYgNDQuMSAyNTYgMzIgMjQ1LjQgNDQuMSAyMDAgOTZsMCA2NC03MiAwIDAtNjRMODIuNiA0NC4xIDcyIDMyIDYxLjQgNDQuMXpNMzg0IDM1MmwtNzIgMCAwLTE3NiA3MiAwIDAgMTEyIDAgNjR6bS0xODQgMGwtNzIgMCAwLTE3NiA3MiAwIDAgMTEyIDAgNjR6bTE2LTI1MGw0MC00NS43TDI5NiAxMDJsMCAzNjItODAgMCAwLTE3NiAwLTE4NnpNNDAwIDI4OGwwLTE4NiA0MC00NS43TDQ4MCAxMDJsMCAzNjItODAgMCAwLTE3NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fence](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fence.svg)
  */
 const Fence: typeof Icon = x => (
     <Icon {...x}>

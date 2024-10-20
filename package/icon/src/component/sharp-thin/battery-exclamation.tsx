@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-exclamation?s=sharp-thin battery-exclamation}
- * @preview ![battery-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDExMmwwIDgwIDAgMTYgMCA5NiAwIDE2IDAgODBMMTYgNDAwbDAtMjg4IDQ5NiAwem0xNiAyODhsMC04MCAzMiAwIDE2IDAgMC0xNiAwLTk2IDAtMTYtMTYgMC0zMiAwIDAtODAgMC0xNi0xNiAwTDE2IDk2IDAgOTZsMCAxNkwwIDQwMGwwIDE2IDE2IDAgNDk2IDAgMTYgMCAwLTE2em0wLTk2bDAtOTYgMzIgMCAwIDk2LTMyIDB6TTI4MCAxNDRsLTE2IDAgMCA4IDAgMTQ0IDAgOCAxNiAwIDAtOCAwLTE0NCAwLTh6TTI1NiAzMzZsMCAzMiAzMiAwIDAtMzItMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![battery-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/battery-exclamation.svg)
  */
 const BatteryExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

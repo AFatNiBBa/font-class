@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scale-balanced` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scale-balanced?s=sharp-solid scale-balanced}
- * @preview ![scale-balanced](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMybDEyOCAwIDMyIDAgMCA2NC0zMiAwTDM5OC40IDk2Yy01LjIgMjUuOC0yMi45IDQ3LjEtNDYuNCA1Ny4zTDM1MiA0NDhsMTYwIDAgMzIgMCAwIDY0LTMyIDAtMTkyIDAtMTkyIDAtMzIgMCAwLTY0IDMyIDAgMTYwIDAgMC0yOTQuN2MtMjMuNS0xMC4zLTQxLjItMzEuNi00Ni40LTU3LjNMMTI4IDk2IDk2IDk2bDAtNjQgMzIgMCAxMjggMGMxNC42LTE5LjQgMzcuOC0zMiA2NC0zMnM0OS40IDEyLjYgNjQgMzJ6TTExMiAxMjhsMzIgMCAxNC41IDAgNi43IDEyLjkgODggMTY4IDIuNyA1LjIgMCA1LjkgMCAzMiAwIDkuOS03IDctNDAgNDAtNyA3LTkuOSAwTDY0IDQxNmwtOS45IDAtNy03TDcgMzY5bC03LTdMMCAzNTJsMC0zMiAwLTUuOSAyLjctNS4yIDg4LTE2OEw5Ny41IDEyOGwxNC41IDB6TTUxLjEgMzIwbDE1My44IDBMMTI5LjUgMTc2bC0zIDBMNTEuMSAzMjB6TTQ4MS41IDEyOGwxNC41IDAgMzIgMCAxNC41IDAgNi43IDEyLjkgODggMTY4IDIuNyA1LjIgMCA1LjkgMCAzMiAwIDkuOS03IDctNDAgNDAtNyA3LTkuOSAwLTEyOCAwLTkuOSAwLTctNy00MC00MC03LTcgMC05LjkgMC0zMiAwLTUuOSAyLjctNS4yIDg4LTE2OCA2LjctMTIuOXptMjkgNDhMNDM1LjEgMzIwbDE1My44IDBMNTEzLjUgMTc2bC0zIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![scale-balanced](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/scale-balanced.svg)
  */
 const ScaleBalanced: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-sad-tear` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-tear?s=sharp-light face-sad-tear}
- * @preview ![face-sad-tear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4MGEyMjQgMjI0IDAgMSAwIDAtNDQ4IDIyNCAyMjQgMCAxIDAgMCA0NDh6TTI1NiAwYTI1NiAyNTYgMCAxIDEgMCA1MTJBMjU2IDI1NiAwIDEgMSAyNTYgMHptOTIuMyAzOTQuOWMtMjUtMjcuMS01Ny40LTQyLjktOTIuMy00Mi45bDAtMzJjNDUgMCA4NS42IDIwLjUgMTE1LjcgNTMuMWwxMC45IDExLjctMjMuNSAyMS43LTEwLjktMTEuOHpNMzM1LjYgMTg0YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptLTEzNiAyNGEyNCAyNCAwIDEgMSAtNDggMCAyNCAyNCAwIDEgMSA0OCAwek0xMzYgMzMxLjFjLTUuMiA1LjgtOCAxMy4zLTggMjEuMWMwIDE3LjQgMTQuMyAzMS44IDMyIDMxLjhzMzItMTQuNCAzMi0zMS44YzAtNy44LTIuOS0xNS4zLTgtMjEuMWwtMjQtMjctMjQgMjd6bS0yMy45LTIxLjNsMjYuNS0yOS44TDE2MCAyNTZsMjEuNCAyNC4xIDI2LjUgMjkuOGMxMC40IDExLjcgMTYuMSAyNi43IDE2LjEgNDIuNGMwIDM1LjItMjguOCA2My44LTY0IDYzLjhzLTY0LTI4LjUtNjQtNjMuOGMwLTE1LjYgNS43LTMwLjcgMTYuMS00Mi40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-sad-tear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-sad-tear.svg)
  */
 const FaceSadTear: typeof Icon = x => (
     <Icon {...x}>

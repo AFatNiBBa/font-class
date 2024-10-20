@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `lighthouse` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lighthouse?s=sharp-duotone-solid lighthouse}
- * @preview ![lighthouse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNC41IDQ2LjFMMzMuNSAxLjlsMTEyIDQ4IDIyLjEgOS41LTE4LjkgNDQuMS0yMi4xLTkuNS0xMTItNDh6bTAgMTYzLjlsMTEyLTQ4IDIyLjEtOS41IDE4LjkgNDQuMS0yMi4xIDkuNS0xMTIgNDhMMTQuNSAyMDkuOXpNMTkyIDY0bDMyLTE2TDMyMCAwbDk2IDQ4IDMyIDE2IDAgNDgtMjQgMC04IDAgMCA3LjZjMCAxMy41IDAgMjcgMCA0MC40bC02NCAwIDAtNDggMC0yNC40LTMyLTE2LTMyIDE2IDAgMjQuNCAwIDQ4LTY0IDAgMC00MC40IDAtNy42LTggMC0yNCAwIDAtNDh6bTI4MC41LTQuNmwyMi4xLTkuNSAxMTItNDggMTguOSA0NC4xLTExMiA0OC0yMi4xIDkuNUw0NzIuNSA1OS40em0wIDEzNy4ybDE4LjktNDQuMSAyMi4xIDkuNSAxMTIgNDgtMTguOSA0NC4xLTExMi00OC0yMi4xLTkuNXoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTIxMi40IDIyNEwxNzEuNiA0NDggMTYwIDQ0OGwtMzIgMCAwIDY0IDMyIDAgMTI4IDAgMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMybDAgNjQgMTI4IDBzMCAwIDAgMGwzMiAwIDAtNjQtMzIgMC0xMS42IDBMNDI3LjYgMjI0bDIwLjQgMCAwLTY0LTMyIDAtMTkyIDBzMCAwIDAgMGwtMzIgMCAwIDY0IDIwLjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lighthouse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/lighthouse.svg)
  */
 const Lighthouse: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M14.5 46.1L33.5 1.9l112 48 22.1 9.5-18.9 44.1-22.1-9.5-112-48zm0 163.9l112-48 22.1-9.5 18.9 44.1-22.1 9.5-112 48L14.5 209.9zM192 64l32-16L320 0l96 48 32 16 0 48-24 0-8 0 0 7.6c0 13.5 0 27 0 40.4l-64 0 0-48 0-24.4-32-16-32 16 0 24.4 0 48-64 0 0-40.4 0-7.6-8 0-24 0 0-48zm280.5-4.6l22.1-9.5 112-48 18.9 44.1-112 48-22.1 9.5L472.5 59.4zm0 137.2l18.9-44.1 22.1 9.5 112 48-18.9 44.1-112-48-22.1-9.5z" />
-            <path d="M212.4 224L171.6 448 160 448l-32 0 0 64 32 0 128 0 0-64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64 128 0s0 0 0 0l32 0 0-64-32 0-11.6 0L427.6 224l20.4 0 0-64-32 0-192 0s0 0 0 0l-32 0 0 64 20.4 0z" />
+        <path d="M212.4 224L171.6 448 160 448l-32 0 0 64 32 0 128 0 0-64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64 128 0s0 0 0 0l32 0 0-64-32 0-11.6 0L427.6 224l20.4 0 0-64-32 0-192 0s0 0 0 0l-32 0 0 64 20.4 0z" />
     </Icon>
 );
 

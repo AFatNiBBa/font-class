@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-circle-question` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-question?s=sharp-thin file-circle-question}
- * @preview ![file-circle-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2bDI5NS4yIDBjNi4xIDUuOCAxMi43IDExLjEgMTkuNiAxNkwxNiA1MTIgMCA1MTJsMC0xNkwwIDE2IDAgMCAxNiAwIDIyNCAwIDM4NCAxNjBsMCAzOC42Yy01LjQgMS41LTEwLjggMy4zLTE2IDUuNGwwLTI4LTE1MiAwLTggMCAwLTggMC0xNTJMMTYgMTZsMCA0ODB6TTM2MS40IDE2MEwyMjQgMjIuNiAyMjQgMTYwbDEzNy40IDB6TTU2MCAzNjhhMTI4IDEyOCAwIDEgMCAtMjU2IDAgMTI4IDEyOCAwIDEgMCAyNTYgMHptLTI3MiAwYTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTExNy45LTgwbDQ4LjEgMGMyMy4yIDAgNDIgMTguOCA0MiA0MmMwIDE2LjUtOS43IDMxLjUtMjQuNyAzOC4zTDQ0MCAzODIuNGwwIDkuNiAwIDgtMTYgMCAwLTggMC0xNC44IDAtNS4yIDQuNy0yLjEgMzYtMTYuMkM0NzQgMzQ5LjUgNDgwIDM0MC4zIDQ4MCAzMzBjMC0xNC40LTExLjYtMjYtMjYtMjZsLTQ4LjEgMGMtMTIuMSAwLTIxLjkgOS44LTIxLjkgMjEuOWwwIDIuMSAwIDgtMTYgMCAwLTggMC0yLjFjMC0yMC45IDE3LTM3LjkgMzcuOS0zNy45ek00NDQgNDIwbDAgMjQtMjQgMCAwLTI0IDI0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-circle-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-circle-question.svg)
  */
 const FileCircleQuestion: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

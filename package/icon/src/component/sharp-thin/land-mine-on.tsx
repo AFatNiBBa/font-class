@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `land-mine-on` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/land-mine-on?s=sharp-thin land-mine-on}
- * @preview ![land-mine-on](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI4IDBMMzEyIDBsMCA4IDAgMTc2IDAgOCAxNiAwIDAtOEwzMjggOGwwLTh6TTM4LjUgMTI0LjhsLTkuNyAxMi43IDYuNCA0LjkgMTM2IDEwNCA2LjQgNC45IDkuNy0xMi43LTYuNC00LjktMTM2LTEwNC02LjQtNC45em01NzIuNyAxMi43bC05LjctMTIuNy02LjQgNC45LTEzNiAxMDQtNi40IDQuOSA5LjcgMTIuNyA2LjQtNC45IDEzNi0xMDQgNi40LTQuOXpNMTkyIDM1MmwwIDE2LTE2IDAtNDggMEw3MS4xIDQ5NiA2NCA1MTJsMTcuNSAwIDQ3NyAwIDE3LjUgMC03LjEtMTZMNTEyIDM2OGwtNDggMC0xNiAwczAgMCAwIDBsMC0xNiAwLTQ4IDAtMTYtMTYgMC0yMjQgMC0xNiAwIDAgMTYgMCA0OHptMjQwIDE2bC0yMjQgMCAwLTY0IDIyNCAwIDAgNjR6TTIwOCAzODRsMjI0IDAgMTYgMHMwIDAgMCAwbDUzLjYgMCA0OS44IDExMkw4OC42IDQ5Nmw0OS44LTExMiA1My42IDBzMCAwIDAgMGwxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![land-mine-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/land-mine-on.svg)
  */
 const LandMineOn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

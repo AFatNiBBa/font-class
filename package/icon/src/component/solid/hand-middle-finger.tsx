@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-middle-finger` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-middle-finger?s=solid hand-middle-finger}
- * @preview ![hand-middle-finger](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDBjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgMTY0LjJjLTguNS03LjYtMTkuNy0xMi4yLTMyLTEyLjJjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgNyAwIDczYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNTUuN2MtMiAxLjQtMy45IDMtNS44IDQuNUw1NSAyODQuOEM0MC40IDI5NyAzMiAzMTUgMzIgMzM0TDMyIDM3MmMwIDM4IDE2LjkgNzQgNDYuMSA5OC4zbDUuNCA0LjVjMjguOCAyNCA2NSAzNy4xIDEwMi40IDM3LjFMMzA0IDUxMmM3MC43IDAgMTI4LTU3LjMgMTI4LTEyOGwwLTY0IDAtMzJjMC0yNi41LTIxLjUtNDgtNDgtNDhjLTEyLjQgMC0yMy42IDQuNy0zMi4xIDEyLjNDMzUwIDIyNy41IDMyOS4zIDIwOCAzMDQgMjA4Yy0xMi4zIDAtMjMuNSA0LjYtMzIgMTIuMkwyNzIgNDBjMC0yMi4xLTE3LjktNDAtNDAtNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-middle-finger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-middle-finger.svg)
  */
 const HandMiddleFinger: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

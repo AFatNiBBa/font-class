@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `print-magnifying-glass` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/print-magnifying-glass?s=solid print-magnifying-glass}
- * @preview ![print-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBMNDE4LjcgMGMxNyAwIDMzLjMgNi43IDQ1LjMgMTguN0w0OTMuMyA0OGMxMiAxMiAxOC43IDI4LjMgMTguNyA0NS4zbDAgNjYuNy02NCAwIDAtNjYuN0w0MTguNyA2NCAxOTIgNjRsMCA5Ni02NCAwIDAtOTZjMC0zNS4zIDI4LjctNjQgNjQtNjR6TTEyOCAxOTJsMjI0IDBjLTM4LjkgMjkuMi02NCA3NS43LTY0IDEyOGMwIDExIDEuMSAyMS43IDMuMiAzMkwxOTIgMzUybDAgMTYgMCAxNiAwIDY0IDE2MCAwYzI2LjcgMjAuMSA2MCAzMiA5NiAzMmMxNy41IDAgMzQuNC0yLjggNTAuMi04bDYuMyA2LjNjLTEwLjggMjAuMS0zMiAzMy44LTU2LjQgMzMuOGwtMjU2IDBjLTM1LjMgMC02NC0yOC43LTY0LTY0bDAtNjQtMzIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC05NmMwLTM1LjMgMjguNy02NCA2NC02NHpNNDQ4IDQwMC4yYTgwIDgwIDAgMSAwIDAtMTYwIDgwIDgwIDAgMSAwIDAgMTYwem0wIDQ4Yy03MC43IDAtMTI4LTU3LjMtMTI4LTEyOHM1Ny4zLTEyOCAxMjgtMTI4czEyOCA1Ny4zIDEyOCAxMjhjMCAyNi43LTguMiA1MS40LTIyLjEgNzEuOUw2MzMgNDcxLjJjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlzLTI0LjYgOS40LTMzLjkgMEw1MTkuOSA0MjZjLTIwLjUgMTQtNDUuMyAyMi4xLTcxLjkgMjIuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![print-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/print-magnifying-glass.svg)
  */
 const PrintMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

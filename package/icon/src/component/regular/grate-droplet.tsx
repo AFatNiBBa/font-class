@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grate-droplet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grate-droplet?s=regular grate-droplet}
- * @preview ![grate-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4OEMwIDU3LjEgMjUuMSAzMiA1NiAzMmw3MiAwIDk2IDAgOTYgMCA3MiAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgNzQuMmMtMTUuMSA0LjMtMjguMiAxNC42LTM1LjggMjguOEw0MDAgMjE0bDAtMTI2YzAtNC40LTMuNi04LTgtOGwtNDggMCAwIDE1MiA0Ni40IDBMMzM2LjkgMzMyLjJDMzI1LjggMzUzLjEgMzIwIDM3Ni40IDMyMCA0MDBjMCAyOS42IDguOSA1Ny4xIDI0LjIgODBMMzIwIDQ4MGwtOTYgMC05NiAwLTcyIDBjLTMwLjkgMC01Ni0yNS4xLTU2LTU2TDAgMjU2IDAgODh6bTU2LThjLTQuNCAwLTggMy42LTggOGwwIDE0NCA1NiAwIDAtMTUyTDU2IDgwek00OCA0MjRjMCA0LjQgMy42IDggOCA4bDQ4IDAgMC0xNTItNTYgMCAwIDE0NHptMTUyIDhsMC0xNTItNDggMCAwIDE1MiA0OCAwem05NiAwbDAtMTUyLTQ4IDAgMCAxNTIgNDggMHpNMjQ4IDgwbDAgMTUyIDQ4IDAgMC0xNTItNDggMHpNMjAwIDIzMmwwLTE1Mi00OCAwIDAgMTUyIDQ4IDB6bTI0MC41LTI1LjljNC42LTguNyAxMy43LTE0LjEgMjMuNS0xNC4xczE4LjkgNS40IDIzLjUgMTQuMWw3NS4zIDE0MS4yYzguNyAxNi4yIDEzLjIgMzQuMyAxMy4yIDUyLjdjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJzLTExMi01MC4xLTExMi0xMTJjMC0xOC40IDQuNS0zNi41IDEzLjItNTIuN2w3NS4zLTE0MS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![grate-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/grate-droplet.svg)
  */
 const GrateDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

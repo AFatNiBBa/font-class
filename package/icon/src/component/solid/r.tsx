@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `r` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/r?s=solid r}
- * @preview ![r](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDI4OCAwIDQ0OGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMTI4IDk1LjMgMEwyNjEuOCA0NjYuNGMxMC4xIDE0LjUgMzAuMSAxOCA0NC42IDcuOXMxOC0zMC4xIDcuOS00NC42TDIzMC4xIDMwOS41QzI4Mi44IDI4OC4xIDMyMCAyMzYuNCAzMjAgMTc2YzAtNzkuNS02NC41LTE0NC0xNDQtMTQ0TDY0IDMyek0xNzYgMjU2TDY0IDI1NiA2NCA5NmwxMTIgMGM0NC4yIDAgODAgMzUuOCA4MCA4MHMtMzUuOCA4MC04MCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![r](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/r.svg)
  */
 const R: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

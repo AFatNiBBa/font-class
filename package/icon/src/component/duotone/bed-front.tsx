@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `bed-front` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-front?s=duotone bed-front}
- * @preview ![bed-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI4OGMwLTIzLjcgMTIuOS00NC40IDMyLTU1LjRjOS40LTUuNCAyMC4zLTguNiAzMi04LjZsMTYgMCAxNjAgMCAzMiAwIDE2MCAwIDE2IDBjMTEuNyAwIDIyLjYgMy4xIDMyIDguNmMxOS4xIDExLjEgMzIgMzEuNyAzMiA1NS40bDAgMzIgMCAzMi0zMiAwTDMyIDM1MiAwIDM1MmwwLTMyIDAtMzJ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zMiA4MGMwLTI2LjUgMjEuNS00OCA0OC00OGwzNTIgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDE1Mi42Yy05LjQtNS40LTIwLjMtOC42LTMyLTguNmwtMTYgMCAwLTY0YzAtMTcuNy0xNC4zLTMyLTMyLTMybC05NiAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDY0LTMyIDAgMC02NGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtOTYgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA2NC0xNiAwYy0xMS43IDAtMjIuNiAzLjEtMzIgOC42TDMyIDgwem0wIDI3Mmw0NDggMCAzMiAwIDAgMzIgMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTMyTDY0IDQxNmwwIDMyYzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtNjQgMC0zMiAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bed-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bed-front.svg)
  */
 const BedFront: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 288c0-23.7 12.9-44.4 32-55.4c9.4-5.4 20.3-8.6 32-8.6l16 0 160 0 32 0 160 0 16 0c11.7 0 22.6 3.1 32 8.6c19.1 11.1 32 31.7 32 55.4l0 32 0 32-32 0L32 352 0 352l0-32 0-32z" />
-            <path d="M32 80c0-26.5 21.5-48 48-48l352 0c26.5 0 48 21.5 48 48l0 152.6c-9.4-5.4-20.3-8.6-32-8.6l-16 0 0-64c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32 14.3-32 32l0 64-32 0 0-64c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32 14.3-32 32l0 64-16 0c-11.7 0-22.6 3.1-32 8.6L32 80zm0 272l448 0 32 0 0 32 0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32L64 416l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64 0-32 32 0z" />
+        <path d="M32 80c0-26.5 21.5-48 48-48l352 0c26.5 0 48 21.5 48 48l0 152.6c-9.4-5.4-20.3-8.6-32-8.6l-16 0 0-64c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32 14.3-32 32l0 64-32 0 0-64c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32 14.3-32 32l0 64-16 0c-11.7 0-22.6 3.1-32 8.6L32 80zm0 272l448 0 32 0 0 32 0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32L64 416l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64 0-32 32 0z" />
     </Icon>
 );
 

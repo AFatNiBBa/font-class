@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-pen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-pen?s=solid square-pen}
- * @preview ![square-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMnpNMzI1LjggMTM5LjdsMTQuNCAxNC40YzE1LjYgMTUuNiAxNS42IDQwLjkgMCA1Ni42bC0yMS40IDIxLjQtNzEtNzEgMjEuNC0yMS40YzE1LjYtMTUuNiA0MC45LTE1LjYgNTYuNiAwek0xMTkuOSAyODlMMjI1LjEgMTgzLjhsNzEgNzFMMTkwLjkgMzU5LjljLTQuMSA0LjEtOS4yIDctMTQuOSA4LjRsLTYwLjEgMTVjLTUuNSAxLjQtMTEuMi0uMi0xNS4yLTQuMnMtNS42LTkuNy00LjItMTUuMmwxNS02MC4xYzEuNC01LjYgNC4zLTEwLjggOC40LTE0Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-pen.svg)
  */
 const SquarePen: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

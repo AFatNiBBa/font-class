@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-font-awesome-stroke` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-font-awesome-stroke?s=brands square-font-awesome-stroke}
- * @preview ![square-font-awesome-stroke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDNDYuMyA2NCAzMiA3OC4zIDMyIDk2bDAgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyMCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzIwYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDY0ek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDMyMCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnptMTU0IDU4YzAgOS4zLTQuOCAxNy40LTEyLjEgMjJsMTg4LjkgMGM3LjMgMCAxMy4yIDUuOSAxMy4yIDEzLjJjMCAxLjgtLjQgMy43LTEuMSA1LjRMMzEyIDI2NGwzMC45IDY5LjRjLjggMS43IDEuMSAzLjUgMS4xIDUuNGMwIDcuMy01LjkgMTMuMi0xMy4yIDEzLjJMMTQ0IDM1MmwwIDMyLTMyIDAgMC0zMiAwLTE3NiAwLTEuNWMtNi4xLTQuOC0xMC0xMi4yLTEwLTIwLjVjMC0xNC40IDExLjYtMjYgMjYtMjZzMjYgMTEuNiAyNiAyNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-font-awesome-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-font-awesome-stroke.svg)
  */
 const SquareFontAwesomeStroke: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `repeat-1` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/repeat-1?s=sharp-light repeat-1}
- * @preview ![repeat-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBsMCAzMiAwIDQ4TDE2IDgwIDAgODAgMCA5NiAwIDI1NmwwIDE2IDMyIDAgMC0xNiAwLTE0NCAyODggMCAwIDQ4IDAgMzIgMzIgMCA3My40LTczLjRMNDQ4IDk2IDQyNS40IDczLjQgMzUyIDAgMzIwIDB6bTMyIDExMmwwLTMyIDAtMzQuN0w0MDIuNyA5NiAzNTIgMTQ2LjdsMC0zNC43ek01MTIgMjQwbC0zMiAwIDAgMTYgMCAxNDQtMjg4IDAgMC00OCAwLTMyLTMyIDBMODYuNiAzOTMuNCA2NCA0MTZsMjIuNiAyMi42TDE2MCA1MTJsMzIgMCAwLTMyIDAtNDggMzA0IDAgMTYgMCAwLTE2IDAtMTYwIDAtMTZ6TTE2MCA0NjYuN0wxMDkuMyA0MTYgMTYwIDM2NS4zbDAgMTAxLjV6TTI0MCAxOTJsLTE2IDAgMCAzMiAxNiAwIDE2IDAgMCA4MCAwIDE2IDMyIDAgMC0xNiAwLTk2IDAtMTYtMTYgMC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![repeat-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/repeat-1.svg)
  */
 const Repeat_1: typeof Icon = x => (
     <Icon {...x}>

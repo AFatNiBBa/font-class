@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `naira-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/naira-sign?s=light naira-sign}
- * @preview ![naira-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTMuMiAzOC45Yy00LTUuOC0xMS4yLTguMy0xNy45LTYuMlM2NCA0MSA2NCA0OGwwIDIwOC00OCAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDQ4IDAgMCAxNzZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTE3NiAxMzAuNyAwTDM1NC44IDQ3My4xYzQgNS44IDExLjIgOC4zIDE3LjkgNi4yczExLjItOC4zIDExLjItMTUuM2wwLTE3NiA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC00OCAwIDAtMjA4YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMjA4LTEwOC41IDBMOTMuMiAzOC45ek0yNjUuNiAyODhsODYuNCAwIDAgMTI0LjhMMjY1LjYgMjg4em0tNjEuMS0zMkw5NiAyNTYgOTYgOTkuMiAyMDQuNSAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![naira-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/naira-sign.svg)
  */
 const NairaSign: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `card-club` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-club?s=sharp-regular card-club}
- * @preview ![card-club](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMCA0MTYgMjg4IDAgMC00MTZMNDggNDh6TTAgMEw0OCAwIDMzNiAwbDQ4IDAgMCA0OCAwIDQxNiAwIDQ4LTQ4IDBMNDggNTEyIDAgNTEybDAtNDhMMCA0OCAwIDB6TTI1NiAxOTJjMCA1LjYtLjcgMTEuMS0yLjEgMTYuM2MyOC4yIDIuOSA1MC4xIDI2LjggNTAuMSA1NS43YzAgMzAuOS0yNS4xIDU2LTU2IDU2Yy0xNS43IDAtMjkuOC02LjQtNDAtMTYuOGwwIDMyLjggMTYgMCAxNiAwIDAgMzItMTYgMC0xNiAwLTMyIDAtMTYgMC0xNiAwIDAtMzIgMTYgMCAxNiAwIDAtMzIuOGMtMTAuMiAxMC40LTI0LjMgMTYuOC00MCAxNi44Yy0zMC45IDAtNTYtMjUuMS01Ni01NmMwLTI4LjkgMjEuOS01Mi43IDUwLjEtNTUuN2MtMS40LTUuMi0yLjEtMTAuNy0yLjEtMTYuM2MwLTM1LjMgMjguNy02NCA2NC02NHM2NCAyOC43IDY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![card-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/card-club.svg)
  */
 const CardClub: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

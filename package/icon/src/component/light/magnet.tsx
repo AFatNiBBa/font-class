@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `magnet` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnet?s=light magnet}
- * @preview ![magnet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNjRjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDQ4IDgwIDAgMC00OGMwLTguOC03LjItMTYtMTYtMTZMNDggNjR6TTMyIDI1NmMwIDEwNiA4NiAxOTIgMTkyIDE5MnMxOTItODYgMTkyLTE5MmwwLTk2LTgwIDAgMCA5NmMwIDYxLjktNTAuMSAxMTItMTEyIDExMnMtMTEyLTUwLjEtMTEyLTExMmwwLTk2LTgwIDAgMCA5NnpNNDE2IDEyOGwwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNmwtNDggMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNDggODAgMHpNMCA4MEMwIDUzLjUgMjEuNSAzMiA0OCAzMmw0OCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMTc2YzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBsMC0xNzZjMC0yNi41IDIxLjUtNDggNDgtNDhsNDggMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDE3NmMwIDEyMy43LTEwMC4zIDIyNC0yMjQgMjI0UzAgMzc5LjcgMCAyNTZMMCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![magnet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/magnet.svg)
  */
 const Magnet: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

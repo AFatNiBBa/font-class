@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bags-shopping` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bags-shopping?s=light bags-shopping}
- * @preview ![bags-shopping](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDk2YzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRsMCA2NC0xMjggMCAwLTY0em0tMzIgNjRsLTY0IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDk2IDAgMC0zMi05NiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTE5MmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMjAgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwzMiAwYzAtMzUuMy0yOC43LTY0LTY0LTY0bC02NCAwIDAtNjRjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZsMCA2NHpNNTEyIDI4OGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDEyOGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMjU2IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTI4YzAtMTcuNyAxNC4zLTMyIDMyLTMybDI1NiAwek0xOTIgMzIwbDAgMTI4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDI1NiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMTI4YzAtMzUuMy0yOC43LTY0LTY0LTY0bC0yNTYgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjR6bTEyOCAxNmMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDE2YzAgNTMgNDMgOTYgOTYgOTZzOTYtNDMgOTYtOTZsMC0xNmMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDE2YzAgMzUuMy0yOC43IDY0LTY0IDY0cy02NC0yOC43LTY0LTY0bDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bags-shopping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bags-shopping.svg)
  */
 const BagsShopping: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

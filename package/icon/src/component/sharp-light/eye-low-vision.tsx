@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eye-low-vision` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-low-vision?s=sharp-light eye-low-vision}
- * @preview ![eye-low-vision](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkuOSAuMUwzMi41IDEwIDYyNy41IDQ3Ny4xbDEyLjYgOS45LTE5LjggMjUuMi0xMi42LTkuOUwxMi43IDM1LjIgLjEgMjUuMyAxOS45IC4xek01NzYgMjU2Yy05LjIgMjIuOS0yNSA1Mi45LTQ3IDgzLjRsLTI1LjEtMTkuOWMxNi4zLTIyLjcgMjguOC00NSAzNy4zLTYzLjZjLTE1LjMtMzMuMy00My40LTc4LjYtODMuMi0xMTdDNDEzLjQgOTYuMSAzNTYuNCA2NCAyODggNjRjLTMwLjkgMC01OS40IDYuNS04NS41IDE3LjdMMTc0LjMgNTkuNUMyMDcuOSA0Mi42IDI0NS45IDMyIDI4OCAzMmMxNTguNCAwIDI1OCAxNDkuMyAyODggMjI0ek0wIDI1NnMwIDAgMCAwczAgMCAwIDBzMCAwIDAgMHpNMjg4IDEyOGM2OC43IDAgMTI0LjggNTQuMiAxMjcuOSAxMjIuMWwtMzkuMi0zMC45Yy0xMi42LTMwLjMtNDAuMi01Mi43LTczLjUtNThsLTM5LjItMzFjNy44LTEuNSAxNS44LTIuMiAyNC0yLjJ6TTEwNiAxNjMuNWwzMjAgMjU2IDEyLjUgMTAtMjAgMjUtMTIuNS0xMEw4NiAxODguNWwtMTIuNS0xMCAyMC0yNSAxMi41IDEwem0tMjguNSA2MmwxMi41IDEwIDI1MCAyMDAgMTIuNSAxMC0yMCAyNS0xMi41LTEwTDcwIDI2MC41bC0xMi41LTEwIDIwLTI1ek0xMDYgMzM2LjNsMTI0IDk5LjIgMTIuNSAxMC0yMCAyNS0xMi41LTEwTDg2IDM2MS4zbC0xMi41LTEwIDIwLTI1IDEyLjUgMTB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![eye-low-vision](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/eye-low-vision.svg)
  */
 const EyeLowVision: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

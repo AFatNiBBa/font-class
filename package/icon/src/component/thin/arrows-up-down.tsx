@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-up-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-up-down?s=thin arrows-up-down}
- * @preview ![arrows-up-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY1LjcgMi4zYy0zLTMtNy45LTMuMS0xMS4xLS4ybC0xMTIgMTA0Yy0zLjIgMy0zLjQgOC4xLS40IDExLjNzOC4xIDMuNCAxMS4zIC40TDE1MiAyNi4zbDAgNDU4LjNMNjEuNyAzOTQuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMHMtMy4xIDguMiAwIDExLjNsMTA0IDEwNGMzLjEgMy4xIDguMiAzLjEgMTEuMyAwbDEwNC0xMDRjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3MtOC4yLTMuMS0xMS4zIDBMMTY4IDQ4NC43bDAtNDU3LjQgOTAuMyA5MC4zYzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBzMy4xLTguMiAwLTExLjNsLTEwNC0xMDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrows-up-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrows-up-down.svg)
  */
 const ArrowsUpDown: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

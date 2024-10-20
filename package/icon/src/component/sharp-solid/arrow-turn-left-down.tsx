@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-turn-left-down` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-turn-left-down?s=sharp-solid arrow-turn-left-down}
- * @preview ![arrow-turn-left-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQyLjYgMzYxLjRsMjIuNi0yMi42TDMyMCAyOTMuNWwtMjIuNiAyMi42TDIyNCAzODkuNSAyMjQgNjRsMTI4IDAgMzIgMCAwLTY0TDM1MiAwIDE5MiAwIDE2MCAwbDAgMzIgMCAzNTcuNUw4Ni42IDMxNi4xIDY0IDI5My41IDE4LjggMzM4LjdsMjIuNiAyMi42IDEyOCAxMjhMMTkyIDUxMmwyMi42LTIyLjYgMTI4LTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-turn-left-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-turn-left-down.svg)
  */
 const ArrowTurnLeftDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

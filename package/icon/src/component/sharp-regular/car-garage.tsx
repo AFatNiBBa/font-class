@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-garage` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-garage?s=sharp-regular car-garage}
- * @preview ![car-garage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzMxIDEwLjdsMjgwIDE0NCAyMS4zIDExLTIyIDQyLjctMjEuMy0xMUwzMjAgNTkgNTEgMTk3LjNsLTIxLjMgMTEtMjItNDIuNyAyMS4zLTExIDI4MC0xNDRMMzIwIDVsMTEgNS42ek0xOTkuMSAxNjBsMTYuOSAwIDIwOCAwIDE2LjkgMCA1LjcgMTUuOUw0ODAuOSAyNzJsNDcuMSAwIDAgNDggMCA4MCAwIDE2IDAgMzIgMCA2NC00OCAwIDAtNjQtMzIwIDAgMCA2NC00OCAwIDAtNjQgMC0zMiAwLTE2IDAtODAgMC00OCA0Ny4xIDAgMzQuMy05Ni4xIDUuNy0xNS45em0yMDggNDhsLTE3NC4yIDAtMjIuOSA2NCAyMTkuOSAwLTIyLjktNjR6TTQ4MCAzMjBsLTMyMCAwIDAgODAgMzIwIDAgMC04MHpNMjA4IDMzNmEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6bTIwMCAyNGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![car-garage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/car-garage.svg)
  */
 const CarGarage: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shoe-prints` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shoe-prints?s=sharp-thin shoe-prints}
- * @preview ![shoe-prints](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI3LjIgMTQ1LjdsLTMuNC0xLjctMy44IDAtNDggMCAwLTk4LjRMNDQ2LjcgMTYuNCA2MjQgNzUuNWwwIDg4TDQ0OS45IDIwNyAzMjcuMiAxNDUuN3pNMjU2IDE2MGwxNiAwIDQ4IDAgMTI4IDY0IDE5Mi00OCAwLTExMkw0NDggMCAyNTYgMzJsMCAxMTIgMCAxNnpNMTk5LjIgMzY2LjNMMzIxLjkgMzA1IDQ5NiAzNDguNWwwIDg4TDMxOC43IDQ5NS42IDE0NCA0NjYuNGwwLTk4LjQgNDggMCAzLjggMCAzLjQtMS43ek0xMjggMzUybDAgMTYgMCAxMTIgMTkyIDMyIDE5Mi02NCAwLTExMkwzMjAgMjg4IDE5MiAzNTJsLTQ4IDAtMTYgMHpNMCAzNTJsMCA4TDAgNDcybDAgOCA4IDAgODggMCAwLTE2LTgwIDAgMC05NiA4MCAwIDAtMTZMOCAzNTJsLTggMHpNMTM2IDE2MGw4OCAwIDAtMTYtODAgMCAwLTk2IDgwIDAgMC0xNi04OCAwLTggMCAwIDggMCAxMTIgMCA4IDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shoe-prints](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shoe-prints.svg)
  */
 const ShoePrints: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

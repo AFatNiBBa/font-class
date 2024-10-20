@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-trash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-trash?s=sharp-light nfc-trash}
- * @preview ![nfc-trash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMzg0IDAgMCAxMzYuMkw0MjkuNCAxNjBsMTguNiAwIDAtOTYgMC0zMi0zMiAwTDMyIDMyIDAgMzIgMCA2NCAwIDQ0OGwwIDMyIDMyIDAgMzQ5LjYgMC0yLjMtMzJMMzIgNDQ4IDMyIDY0em0zNTIgNDhsMC0xNi0xNiAwTDIyNCA5NmwtMTYgMCAwIDE2IDAgOTguN2MtMTguNiA2LjYtMzIgMjQuNC0zMiA0NS4zYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4czQ4LTIxLjUgNDgtNDhjMC0yMC45LTEzLjQtMzguNy0zMi00NS4zbDAtODIuNyAxMTIgMCAwIDgwIDMyIDAgMC05NnptLTYuOSAzMDRsLTgtMTEyTDM1MiAzMDRsMCA4MEw5NiAzODRsMC0yNTYgNDggMCAxNiAwIDAtMzItMTYgMEw4MCA5NiA2NCA5NmwwIDE2IDAgMjg4IDAgMTYgMTYgMCAyODggMCA5LjEgMHpNMjQwIDI1NmExNiAxNiAwIDEgMSAtMzIgMCAxNiAxNiAwIDEgMSAzMiAwem0yMTIuNS02NGwtMy42IDEwLjlMNDM2LjUgMjQwIDQwMCAyNDBsLTE2IDAgMCAzMiAxNiAwIDQ4IDAgMTI4IDAgNDggMCAxNiAwIDAtMzItMTYgMC0zNi41IDAtMTIuNC0zNy4xTDU3MS41IDE5MiA1NjAgMTkybC05NiAwLTExLjUgMHptMTcuNyA0OGw1LjMtMTYgNzIuOSAwIDUuMyAxNi04My42IDB6bS02OSA2NC4xTDQxNiA1MTJsMTkyIDAgMTQuOS0yMDcuOS0zMi4xIDBMNTc4LjIgNDgwbC0xMzIuNCAwTDQzMy4yIDMwNC4xbC0zMi4xIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![nfc-trash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/nfc-trash.svg)
  */
 const NfcTrash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

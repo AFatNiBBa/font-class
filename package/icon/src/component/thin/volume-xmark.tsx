@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-xmark?s=thin volume-xmark}
- * @preview ![volume-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgxIDUxLjVjMi41LTIuMiA1LjgtMy41IDkuMi0zLjVjNy42IDAgMTMuOCA2LjIgMTMuOCAxMy44bDAgMzg4LjRjMCA3LjYtNi4yIDEzLjgtMTMuOCAxMy44Yy0zLjQgMC02LjYtMS4yLTkuMi0zLjVMMTQzLjIgMzM4Yy0xLjUtMS4zLTMuNC0yLTUuMy0yTDU2IDMzNmMtMjIuMSAwLTQwLTE3LjktNDAtNDBsMC04MGMwLTIyLjEgMTcuOS00MCA0MC00MGw4MS45IDBjMiAwIDMuOS0uNyA1LjMtMkwyODEgNTEuNXpNMjkwLjIgMzJjLTcuMyAwLTE0LjMgMi43LTE5LjggNy41TDEzNC45IDE2MCA1NiAxNjBjLTMwLjkgMC01NiAyNS4xLTU2IDU2bDAgODBjMCAzMC45IDI1LjEgNTYgNTYgNTZsNzguOSAwTDI3MC40IDQ3Mi41YzUuNSA0LjggMTIuNSA3LjUgMTkuOCA3LjVjMTYuNSAwIDI5LjgtMTMuMyAyOS44LTI5LjhsMC0zODguNEMzMjAgNDUuMyAzMDYuNyAzMiAyOTAuMiAzMnpNNDEzLjcgMTc4LjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBzLTMuMSA4LjIgMCAxMS4zTDQ2OC43IDI1NmwtNjYuMyA2Ni4zYy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zczguMiAzLjEgMTEuMyAwTDQ4MCAyNjcuM2w2Ni4zIDY2LjNjMy4xIDMuMSA4LjIgMy4xIDExLjMgMHMzLjEtOC4yIDAtMTEuM0w0OTEuMyAyNTZsNjYuMy02Ni4zYzMuMS0zLjEgMy4xLTguMiAwLTExLjNzLTguMi0zLjEtMTEuMyAwTDQ4MCAyNDQuN2wtNjYuMy02Ni4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![volume-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/volume-xmark.svg)
  */
 const VolumeXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

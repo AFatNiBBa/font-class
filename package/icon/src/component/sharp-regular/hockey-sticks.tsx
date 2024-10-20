@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hockey-sticks` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-sticks?s=sharp-regular hockey-sticks}
- * @preview ![hockey-sticks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA3LjkgMzIwTDQ2Ni43IDEzIDUwOS4zIDM1bC0yNDAgNDY0LTYuNyAxM0wyNDggNTEyIDI0IDUxMiAwIDUxMmwwLTI0TDAgMzQ0bDAtMjQgMjQgMCAyODAgMCAzLjkgMHpNMjgzIDM2OGwtMTM5IDAgMCA5NiA4OS40IDBMMjgzIDM2OHpNNDggMzY4bDAgOTYgNDggMCAwLTk2LTQ4IDB6TTE3My4zIDEzTDMwMiAyNjEuNyAyODguNCAyODhsLTI2LjkgMEwxMzAuNyAzNSAxNzMuMyAxM3pNNDk2IDM2OGwtMTIyLjkgMCAyNC44LTQ4TDYxNiAzMjBsMjQgMCAwIDI0IDAgMTQ0IDAgMjQtMjQgMC0yMjQgMC0xNC42IDAtNi43LTEzTDMzOCA0MzUuOWwyNy01Mi4yTDQwNi42IDQ2NGw4OS40IDAgMC05NnptNDggMGwwIDk2IDQ4IDAgMC05Ni00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hockey-sticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hockey-sticks.svg)
  */
 const HockeySticks: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

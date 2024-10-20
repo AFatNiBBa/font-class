@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tablet-screen` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tablet-screen?s=thin tablet-screen}
- * @preview ![tablet-screen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDE2YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMzIwTDE2IDM4NCAxNiA2NGMwLTI2LjUgMjEuNS00OCA0OC00OGwzMjAgMHptNDggMzg0bDAgNDhjMCAyNi41LTIxLjUgNDgtNDggNDhMNjQgNDk2Yy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTQ4IDQxNiAwek02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTM4NGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAwek0xNjggNDQ4YzAgNC40IDMuNiA4IDggOGw5NiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC05NiAwYy00LjQgMC04IDMuNi04IDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tablet-screen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tablet-screen.svg)
  */
 const TabletScreen: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

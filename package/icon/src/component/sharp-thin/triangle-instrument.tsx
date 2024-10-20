@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `triangle-instrument` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle-instrument?s=sharp-thin triangle-instrument}
- * @preview ![triangle-instrument](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk2IDhsMC04TDI4MCAwbDAgOCAwIDM3LjMtMS4zIDIuMkw5LjYgNDk2IDAgNTEybDE4LjcgMCA1MzguNyAwIDE4LjcgMC05LjYtMTZMNDE3LjIgMjQ3LjQgNDA1LjYgMjU5IDU0Ny43IDQ5NiAyOC4zIDQ5NiAyODggNjMuMWw5Mi4xIDE1My41LTUyLjkgNTIuOUMzMTYuNCAyNjEgMzAyLjggMjU2IDI4OCAyNTZjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NGMwLTE0LjgtNS0yOC40LTEzLjQtMzkuMmw1MC01MCAxMS43LTExLjdMNTQxLjcgNzcuN2w1LjctNS43TDUzNiA2MC43bC01LjcgNS43TDM5MS44IDIwNC45IDI5Ny4zIDQ3LjUgMjk2IDQ1LjMgMjk2IDh6bTQwIDMxMmE0OCA0OCAwIDEgMSAtOTYgMCA0OCA0OCAwIDEgMSA5NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![triangle-instrument](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/triangle-instrument.svg)
  */
 const TriangleInstrument: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

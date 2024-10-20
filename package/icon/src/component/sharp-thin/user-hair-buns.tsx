@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-hair-buns` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-buns?s=sharp-thin user-hair-buns}
- * @preview ![user-hair-buns](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzMzLjQgMTA0bC03NC4xIDBMMjI5LjcgNzQuMyAyMjQgNjguN2wtNS43IDUuN0wxODguNyAxMDRsLTc0LjEgMGMxMS01MC4zIDU1LjgtODggMTA5LjQtODhzOTguNCAzNy43IDEwOS40IDg4em0yLjMgMTZjLjIgMi42IC4zIDUuMyAuMyA4bDAgMTZjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJzLTExMi01MC4xLTExMi0xMTJsMC0xNmMwLTIuNyAuMS01LjQgLjMtOGw3OS43IDAgMy4zIDAgMi4zLTIuM0wyMjQgOTEuM2wyNi4zIDI2LjMgMi4zIDIuMyAzLjMgMCA3OS43IDB6TTIyNCAyNzJjNDguMiAwIDkwLjItMjYuNiAxMTItNjZsMCAyIDAgMTYgMTYgMCA0OCAwIDE2IDAgMC0xNiAwLTEyOCAwLTE2LTE2IDAtNDggMC0xNiAwIDAgMkMzMTQuMiAyNi42IDI3Mi4yIDAgMjI0IDBzLTkwLjIgMjYuNi0xMTIgNjZsMC0yTDk2IDY0IDQ4IDY0IDMyIDY0bDAgMTYgMCAxMjggMCAxNiAxNiAwIDQ4IDAgMTYgMCAwLTE2IDAtMmMyMS44IDM5LjQgNjMuOCA2NiAxMTIgNjZ6bTEyOC02NGwwLTY0IDAtMTYgMC00OCA0OCAwIDAgMTI4LTQ4IDB6TTc1LjggMzIwbDI5Ni40IDAgNTQuMiAxNzZMMjEuNyA0OTYgNzUuOCAzMjB6TTM4NCAzMDRMNjQgMzA0IDQuOSA0OTYgMCA1MTJsMTYuNyAwIDQxNC41IDAgMTYuNyAwLTQuOS0xNkwzODQgMzA0ek00OCA4MGw0OCAwIDAgNDggMCAxNiAwIDY0LTQ4IDBMNDggODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-hair-buns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-hair-buns.svg)
  */
 const UserHairBuns: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

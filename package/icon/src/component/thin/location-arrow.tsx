@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-arrow` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-arrow?s=thin location-arrow}
- * @preview ![location-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDI0MEw0OCAyNDBjLTcuNiAwLTE0LjItNS40LTE1LjctMTIuOXMyLjYtMTUgOS42LTE3LjlsMzUyLTE0NGM2LTIuNCAxMi44LTEuMSAxNy40IDMuNXM1LjkgMTEuNCAzLjUgMTcuNGwtMTQ0IDM1MmMtMi45IDcuMS0xMC40IDExLjEtMTcuOSA5LjZzLTEyLjktOC4xLTEyLjktMTUuN2wwLTE3NmMwLTguOC03LjItMTYtMTYtMTZ6bS0xNiAxNmwxNiAwIDAgMTYgMCAxNjBjMCAxNS4zIDEwLjggMjguNCAyNS44IDMxLjRzMzAtNS4xIDM1LjgtMTkuM2wxNDQtMzUyYzQuOS0xMS45IDIuMS0yNS42LTctMzQuN3MtMjIuOC0xMS45LTM0LjctN2wtMzUyIDE0NGMtMTQuMiA1LjgtMjIuMiAyMC44LTE5LjMgMzUuOHMxNi4xIDI1LjggMzEuNCAyNS44bDE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![location-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/location-arrow.svg)
  */
 const LocationArrow: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

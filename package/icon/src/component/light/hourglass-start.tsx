@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hourglass-start` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-start?s=light hourglass-start}
- * @preview ![hourglass-start](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0OTZjMCA4LjggNy4yIDE2IDE2IDE2bDMyIDAgMjg4IDAgMzIgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMTYgMCAwLTQxLjZjMC00OS40LTIyLjgtOTYtNjEuOC0xMjYuM0wyMTguMSAyNTZsNzIuMi01Ni4xYzM5LTMwLjMgNjEuOC03Ni45IDYxLjgtMTI2LjNMMzUyIDMybDE2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMMzM2IDAgNDggMCAxNiAwQzcuMiAwIDAgNy4yIDAgMTZzNy4yIDE2IDE2IDE2bDE2IDAgMCA0MS42YzAgNDkuNCAyMi44IDk2IDYxLjggMTI2LjNMMTY1LjkgMjU2IDkzLjggMzEyLjFDNTQuOCAzNDIuNCAzMiAzODkuMSAzMiA0MzguNEwzMiA0ODBsLTE2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnptNjQtMTZsMC00MS42YzAtMzkuNSAxOC4yLTc2LjggNDkuNC0xMDFMMTkyIDI3Ni4zbDc4LjYgNjEuMWMzMS4yIDI0LjIgNDkuNCA2MS41IDQ5LjQgMTAxbDAgNDEuNkw2NCA0ODB6bTQ5LjQtMzA1LjRDOTcuMyAxNjIuMSA4NC42IDE0NiA3Ni4xIDEyOGwyMzEuNyAwYy04LjUgMTgtMjEuMSAzNC4xLTM3LjMgNDYuNkwxOTIgMjM1LjdsLTc4LjYtNjEuMXpNNjYgOTZjLTEuMy03LjMtMi0xNC44LTItMjIuNEw2NCAzMmwyNTYgMCAwIDQxLjZjMCA3LjYtLjcgMTUuMS0yIDIyLjRMNjYgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hourglass-start](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hourglass-start.svg)
  */
 const HourglassStart: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

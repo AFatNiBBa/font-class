@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `skeleton` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skeleton?s=sharp-regular skeleton}
- * @preview ![skeleton](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDBsMCAyNCAwIDQwIDE0NCAwIDI0IDAgMCA0OC0yNCAwLTE0NCAwIDAgNDggMjA4IDAgMjQgMCAwIDQ4LTI0IDAtMjA4IDAgMCA0OCAxMTIgMCAyNCAwIDAgNDgtMjQgMC0xMTIgMCAwIDg1LjdMMzY4IDM1Mmw4MCAwIDAgOTYtNjQgNjQtMjU2IDBMNjQgNDQ4bDAtOTYgODAgMCA4OCAzNy43IDAtODUuNy0xMTIgMC0yNCAwIDAtNDggMjQgMCAxMTIgMCAwLTQ4TDI0IDIwOCAwIDIwOGwwLTQ4IDI0IDAgMjA4IDAgMC00OEw4OCAxMTJsLTI0IDAgMC00OCAyNCAwIDE0NCAwIDAtNDAgMC0yNCA0OCAwek0xODQgNDQwYTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bTE5MiAwYTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![skeleton](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/skeleton.svg)
  */
 const Skeleton: typeof Icon = x => (
     <Icon {...x}>

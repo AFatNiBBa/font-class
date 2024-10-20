@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `object-subtract` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-subtract?s=regular object-subtract}
- * @preview ![object-subtract](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDhsMzIgMEw5NiAwIDY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgOTZsNDggMCAwLTMyYzAtOC44IDcuMi0xNiAxNi0xNnptMTYwIDBsMC00OEwxMjggMGwwIDQ4IDk2IDB6TTQ4IDEyOEwwIDEyOGwwIDk2IDQ4IDAgMC05NnptMCAxMjhMMCAyNTZsMCAzMmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMiAwIDAtNDgtMzIgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMzJ6bTgwIDk2bDMyIDAgNDggMCAxNiAwIDAtNDgtOTYgMCAwIDQ4em0zMiAzMmwwIDY0YzAgMzUuMyAyOC43IDY0IDY0IDY0bDIyNCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjI0YzAtMzUuMy0yOC43LTY0LTY0LTY0bC02NCAwIDAgNDggNjQgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAyMjRjMCA4LjgtNy4yIDE2LTE2IDE2bC0yMjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtNjQtNDggMHpNMzUyIDIwOGwwLTQ4IDAtMzItNDggMCAwIDk2IDQ4IDAgMC0xNnptMC0xNDRjMC0zNS4zLTI4LjctNjQtNjQtNjRMMjU2IDBsMCA0OCAzMiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyIDQ4IDAgMC0zMnpNMjU2IDMwNGwwIDQ4IDMyIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMi00OCAwIDAgMzJjMCA4LjgtNy4yIDE2LTE2IDE2bC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![object-subtract](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/object-subtract.svg)
  */
 const ObjectSubtract: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scroll-torah` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scroll-torah?s=sharp-solid scroll-torah}
- * @preview ![scroll-torah](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMEwwIDAgMCA1MTJsOTYgMEw5NiAwek01MTIgMzJMMTI4IDMybDAgNDQ4IDM4NCAwIDAtNDQ4ek01NDQgMGwwIDUxMiA5NiAwTDY0MCAwIDU0NCAwek0xODcuMSAzMzJsMTAuNS0xOCAzMy44LTU4LTMzLjgtNTgtMTAuNS0xOCAyMC45IDAgNjcuOCAwIDMzLjktNThMMzIwIDEwNC4ybDEwLjQgMTcuOCAzMy45IDU4IDY3LjggMCAyMC45IDAtMTAuNSAxOC0zMy44IDU4IDMzLjggNTggMTAuNSAxOEw0MzIgMzMybC02Ny44IDAtMzMuOSA1OEwzMjAgNDA3LjggMzA5LjYgMzkwbC0zMy45LTU4TDIwOCAzMzJsLTIwLjkgMHpNMzIwIDM2MC4yTDMzNi40IDMzMmwtMzIuOSAwTDMyMCAzNjAuMnpNMjg5LjYgMzA4bDYwLjkgMCAzMC4zLTUyLTMwLjMtNTItNjAuOSAwLTMwLjMgNTIgMzAuMyA1MnptMTA1LjEtMjguMkwzNzguMiAzMDhsMzIuOSAwLTE2LjQtMjguMnpNNDExLjEgMjA0bC0zMi45IDAgMTYuNCAyOC4yTDQxMS4xIDIwNHpNMzIwIDE1MS44TDMwMy42IDE4MGwzMi45IDBMMzIwIDE1MS44em0tNzQuNyA4MC40TDI2MS44IDIwNGwtMzIuOSAwIDE2LjQgMjguMnpNMjYxLjggMzA4bC0xNi40LTI4LjJMMjI4LjkgMzA4bDMyLjkgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scroll-torah](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/scroll-torah.svg)
  */
 const ScrollTorah: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `binary-lock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary-lock?s=sharp-solid binary-lock}
- * @preview ![binary-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBsMCA2NCAzMiAwIDE2IDAgMCA5Ni0xNiAwLTMyIDAgMCA2NCAzMiAwIDQ4IDAgNDggMCAzMiAwIDAtNjQtMzIgMC0xNiAwIDAtMTI4IDAtMzJMMzA0IDAgMjU2IDAgMjI0IDB6TTAgMjg4bDAgNjQgMzIgMCAxNiAwIDAgOTYtMTYgMEwwIDQ0OGwwIDY0IDMyIDAgNDggMCA0OCAwIDMyIDAgMC02NC0zMiAwLTE2IDAgMC0xMjggMC0zMi0zMiAwLTQ4IDBMMCAyODh6TTMyIDBMMCAwIDAgMzIgMCAxOTJsMCAzMiAzMiAwIDEyOCAwIDMyIDAgMC0zMiAwLTE2MCAwLTMyTDE2MCAwIDMyIDB6TTY0IDE2MGwwLTk2IDY0IDAgMCA5Ni02NCAwek0xOTIgMjg4bDAgMzIgMCAxNjAgMCAzMiAzMiAwIDEyOCAwIDMyIDAgMC0zMiAwLTE2MCAwLTMyLTMyIDAtMTI4IDAtMzIgMHptNjQgNjRsNjQgMCAwIDk2LTY0IDAgMC05NnpNNTI4IDI0MGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDQ4LTY0IDAgMC00OGMwLTE3LjcgMTQuMy0zMiAzMi0zMnptLTgwIDMybDAgNDgtMzIgMCAwIDE5MiAyMjQgMCAwLTE5Mi0zMiAwIDAtNDhjMC00NC4yLTM1LjgtODAtODAtODBzLTgwIDM1LjgtODAgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![binary-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/binary-lock.svg)
  */
 const BinaryLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

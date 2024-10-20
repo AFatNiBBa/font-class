@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `bread-slice-butter` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-slice-butter?s=duotone bread-slice-butter}
- * @preview ![bread-slice-butter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNzMuMyAyODhjMCA4LjIgMy4xIDE2LjQgOS40IDIyLjZsNTAuNyA1MC43YzYuMiA2LjIgMTQuNCA5LjQgMjIuNiA5LjRzMTYuNC0zLjEgMjIuNi05LjRjMTYuOS0xNi45IDMzLjgtMzMuOCA1MC43LTUwLjdjNi4yLTYuMiA5LjQtMTQuNCA5LjQtMjIuNnMtMy4xLTE2LjQtOS40LTIyLjZjLTE2LjktMTYuOS0zMy44LTMzLjgtNTAuNy01MC43Yy02LjItNi4yLTE0LjQtOS40LTIyLjYtOS40cy0xNi40IDMuMS0yMi42IDkuNGMtMTYuOSAxNi45LTMzLjggMzMuOC01MC43IDUwLjdjLTYuMiA2LjItOS40IDE0LjQtOS40IDIyLjZ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDE5MkMwIDY0IDE5MiAzMiAyNTYgMzJzMjU2IDMyIDI1NiAxNjBjMCAzNS4zLTI4LjcgNjQtNjQgNjRsMCAxNzZjMCAyNi41LTIxLjUgNDgtNDggNDhsLTI4OCAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTE3NmMtMzUuMyAwLTY0LTI4LjctNjQtNjR6bTE4Mi42IDczLjRjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zbDUwLjcgNTAuN2MxMi41IDEyLjUgMzIuOCAxMi41IDQ1LjMgMGw1MC43LTUwLjdjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNsLTUwLjctNTAuN2MtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBsLTUwLjcgNTAuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bread-slice-butter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bread-slice-butter.svg)
  */
 const BreadSliceButter: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M173.3 288c0 8.2 3.1 16.4 9.4 22.6l50.7 50.7c6.2 6.2 14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4c16.9-16.9 33.8-33.8 50.7-50.7c6.2-6.2 9.4-14.4 9.4-22.6s-3.1-16.4-9.4-22.6c-16.9-16.9-33.8-33.8-50.7-50.7c-6.2-6.2-14.4-9.4-22.6-9.4s-16.4 3.1-22.6 9.4c-16.9 16.9-33.8 33.8-50.7 50.7c-6.2 6.2-9.4 14.4-9.4 22.6z" />
-            <path d="M0 192C0 64 192 32 256 32s256 32 256 160c0 35.3-28.7 64-64 64l0 176c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48l0-176c-35.3 0-64-28.7-64-64zm182.6 73.4c-12.5 12.5-12.5 32.8 0 45.3l50.7 50.7c12.5 12.5 32.8 12.5 45.3 0l50.7-50.7c12.5-12.5 12.5-32.8 0-45.3l-50.7-50.7c-12.5-12.5-32.8-12.5-45.3 0l-50.7 50.7z" />
+        <path d="M0 192C0 64 192 32 256 32s256 32 256 160c0 35.3-28.7 64-64 64l0 176c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48l0-176c-35.3 0-64-28.7-64-64zm182.6 73.4c-12.5 12.5-12.5 32.8 0 45.3l50.7 50.7c12.5 12.5 32.8 12.5 45.3 0l50.7-50.7c12.5-12.5 12.5-32.8 0-45.3l-50.7-50.7c-12.5-12.5-32.8-12.5-45.3 0l-50.7 50.7z" />
     </Icon>
 );
 

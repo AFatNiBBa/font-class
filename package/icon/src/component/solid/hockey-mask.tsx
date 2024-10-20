@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hockey-mask` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-mask?s=solid hockey-mask}
- * @preview ![hockey-mask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNDBDMCAxMTEgNjQgMCAyMjQgMFM0NDggMTExIDQ0OCAyNDBjMCAxOTItNDggMjcyLTIyNCAyNzJTMCA0MzIgMCAyNDB6TTE2MCAxMDRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em04OCAyNGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwek0xNzYgMzQ0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMCA2NGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6bTI0IDQwYTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bTcyLTEwNGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6TTMxMiA4MGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwek0yNzIgNDA4YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMjQgNDBhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHpNMTI4IDI3MmMzNS4zIDAgNjQtMjguNyA2NC02NGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtNjQgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJjMCAzNS4zIDI4LjcgNjQgNjQgNjR6bTI1Ni02NGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtNjQgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hockey-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hockey-mask.svg)
  */
 const HockeyMask: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

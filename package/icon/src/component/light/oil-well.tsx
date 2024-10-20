@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `oil-well` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-well?s=light oil-well}
- * @preview ![oil-well](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk3LjQgNjkuNmMtNi45LTI1LjYtMzMuMi00MC44LTU4LjgtMzMuOWwtMTUuNSA0LjFMNDg5LjQgMjg3bDE1LjUtNC4xYzI1LjYtNi45IDQwLjgtMzMuMiAzMy45LTU4LjhMNDk3LjQgNjkuNnpNNDMwLjQgNC43YzQyLjctMTEuNCA4Ni41IDEzLjkgOTggNTYuNmw0MS40IDE1NC41YzExLjQgNDIuNy0xMy45IDg2LjUtNTYuNiA5OGwtMTUuNSA0LjFjLTE3LjEgNC42LTM0LjYtNS42LTM5LjItMjIuNkw0MjkuMiAxODUuOCA5NiAyNzIuMiA5NiA0ODBsMzYuNSAwTDIwMCAyNzcuM2wzNi45LTkuNkwyMDguOSAzNTJsMTI2LjMgMEwzMDEuNSAyNTFsMzEtOCA3OSAyMzcuMUw1NjAgNDgwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2TDE2IDUxMmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmw0OCAwIDAtMzA0YzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZsMCA2My4yTDIyMy44IDIwNmwzMy05OS4xQzI1OSAxMDAuNCAyNjUuMSA5NiAyNzIgOTZzMTMgNC40IDE1LjIgMTAuOUwzMTIuNSAxODNsMTA4LjQtMjguMUwzOTIuMyA0OGMtNC42LTE3LjEgNS42LTM0LjYgMjIuNi0zOS4ybDE1LjUtNC4xek0yODEuNSAxOTEuMUwyNzIgMTYyLjZsLTExLjMgMzMuOSAyMC44LTUuNHpNMzc3LjggNDgwbC0zMi05Ni0xNDcuNiAwLTMyIDk2IDIxMS42IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![oil-well](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/oil-well.svg)
  */
 const OilWell: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

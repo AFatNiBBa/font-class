@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tombstone` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tombstone?s=light tombstone}
- * @preview ![tombstone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDQ0OGwwLTI1NmMwLTg4LjQtNzEuNi0xNjAtMTYwLTE2MFM2NCAxMDMuNiA2NCAxOTJsMCAyNTYtMzIgMCAwLTI1NkMzMiA4NiAxMTggMCAyMjQgMFM0MTYgODYgNDE2IDE5MmwwIDI1Ni0zMiAwek0wIDQ5NmMwLTguOCA3LjItMTYgMTYtMTZsNDE2IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZMMTYgNTEyYy04LjggMC0xNi03LjItMTYtMTZ6TTI0MCAxNDRsMCA2NCA2NCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC02NCAwIDAgMTI4YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMTI4LTY0IDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsNjQgMCAwLTY0YzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tombstone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tombstone.svg)
  */
 const Tombstone: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

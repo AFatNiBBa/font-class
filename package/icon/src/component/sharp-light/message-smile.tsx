@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-smile` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-smile?s=sharp-light message-smile}
- * @preview ![message-smile](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQxNmwtMzIgMC05NiAwTDAgNDE2bDAtMzJMMCAzMiAwIDAgMzIgMCA0ODAgMGwzMiAwIDAgMzIgMCAzNTIgMCAzMi0zMiAwLTE3NiAwTDE5MiA0OTAuNyAxNjAgNTEybDAtMzguNSAwLTI1LjUgMC0zMnptMC0zMmwzMiAwIDAgMzIgMCAzNi4yIDk0LjItNjIuOCA4LjEtNS40IDkuNyAwIDE3NiAwIDAtMzUyTDMyIDMybDAgMzUyIDEyOCAwem0zMi0yNDhhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4em0xMjggMGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6TTE2Ny44IDI0MS40bDEwLjcgMTEuOUMxOTcuNSAyNzQuNiAyMjUuMiAyODggMjU2IDI4OHM1OC41LTEzLjQgNzcuNS0zNC43bDEwLjctMTEuOUwzNjggMjYyLjdsLTEwLjcgMTEuOUMzMzIuNSAzMDIuNSAyOTYuMyAzMjAgMjU2IDMyMHMtNzYuNS0xNy41LTEwMS40LTQ1LjNMMTQ0IDI2Mi43bDIzLjgtMjEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![message-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-smile.svg)
  */
 const MessageSmile: typeof Icon = x => (
     <Icon {...x}>

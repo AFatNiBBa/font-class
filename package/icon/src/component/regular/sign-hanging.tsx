@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sign-hanging` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sign-hanging?s=regular sign-hanging}
- * @preview ![sign-hanging](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDQwIDM3NiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0zNzYgMCAwIDM3NmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTM3Ni00MCAwQzEwLjcgMTEyIDAgMTAxLjMgMCA4OFMxMC43IDY0IDI0IDY0bDQwIDAgMC00MEM2NCAxMC43IDc0LjcgMCA4OCAwek0xOTIgMzM2bDI0MCAwIDAtMTQ0LTI0MCAwIDAgMTQ0ek0xNDQgMTc2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDI3MiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTc2YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0yNzIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xNzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sign-hanging](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sign-hanging.svg)
  */
 const SignHanging: typeof Icon = x => (
     <Icon {...x}>

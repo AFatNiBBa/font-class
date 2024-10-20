@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-up-down-left-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-up-down-left-right?s=sharp-solid arrows-up-down-left-right}
- * @preview ![arrows-up-down-left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc4LjYgMjUuNEwyNTYgMi43IDIzMy40IDI1LjRsLTU2IDU2TDE1NC43IDEwNCAyMDAgMTQ5LjNsMjIuNi0yMi42IDEuNC0xLjQgMCA5OC43LTk4LjcgMCAxLjQtMS40TDE0OS4zIDIwMCAxMDQgMTU0LjcgODEuNCAxNzcuNGwtNTYgNTZMMi43IDI1NmwyMi42IDIyLjYgNTYgNTZMMTA0IDM1Ny4zIDE0OS4zIDMxMmwtMjIuNi0yMi42LTEuNC0xLjQgOTguNyAwIDAgOTguNy0xLjQtMS40TDIwMCAzNjIuNyAxNTQuNyA0MDhsMjIuNiAyMi42IDU2IDU2TDI1NiA1MDkuM2wyMi42LTIyLjYgNTYtNTZMMzU3LjMgNDA4IDMxMiAzNjIuN2wtMjIuNiAyMi42LTEuNCAxLjQgMC05OC43IDk4LjcgMC0xLjQgMS40TDM2Mi43IDMxMiA0MDggMzU3LjNsMjIuNi0yMi42IDU2LTU2TDUwOS4zIDI1NmwtMjIuNi0yMi42LTU2LTU2TDQwOCAxNTQuNyAzNjIuNyAyMDBsMjIuNiAyMi42IDEuNCAxLjRMMjg4IDIyNGwwLTk4LjcgMS40IDEuNEwzMTIgMTQ5LjMgMzU3LjMgMTA0IDMzNC42IDgxLjRsLTU2LTU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-up-down-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrows-up-down-left-right.svg)
  */
 const ArrowsUpDownLeftRight: typeof Icon = x => (
     <Icon {...x}>

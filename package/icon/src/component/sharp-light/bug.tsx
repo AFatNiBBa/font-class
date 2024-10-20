@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bug` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug?s=sharp-light bug}
- * @preview ![bug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYy0zNS4zIDAtNjQgMjguNy02NCA2NGwxMjggMGMwLTM1LjMtMjguNy02NC02NC02NHpNMTYwIDk2YzAtNTMgNDMtOTYgOTYtOTZzOTYgNDMgOTYgOTZsMCAzMi0zMiAwLTEyOCAwLTMyIDAgMC0zMnpNNDggODkuNGwxMS4zIDExLjNMMTE4LjYgMTYwbDkuNCAwIDI1NiAwIDkuNCAwIDU5LjMtNTkuM0w0NjQgODkuNCA0ODYuNiAxMTJsLTExLjMgMTEuM0w0MTYgMTgyLjZsMCA5LjQgMCA4MCA4MCAwIDE2IDAgMCAzMi0xNiAwLTgwIDAgMCAxNmMwIDMwLjItOC40IDU4LjQtMjIuOSA4Mi41bDc0LjIgNzQuMkw0NzguNiA0ODggNDU2IDUxMC42bC0xMS4zLTExLjMtNzEtNzFDMzQ0LjUgNDYwLjEgMzAyLjYgNDgwIDI1NiA0ODBzLTg4LjUtMTkuOS0xMTcuNy01MS42bC03MSA3MUw1NiA1MTAuNiAzMy40IDQ4OGwxMS4zLTExLjMgNzQuMi03NC4yQzEwNC40IDM3OC40IDk2IDM1MC4yIDk2IDMyMGwwLTE2LTgwIDBMMCAzMDRsMC0zMiAxNiAwIDgwIDAgMC04MCAwLTkuNEwzNi43IDEyMy4zIDI1LjQgMTEyIDQ4IDg5LjR6TTEyOCAzMDRsMCAxNmMwIDY1LjMgNDguOSAxMTkuMSAxMTIgMTI3bDAtMTkxIDAtMTYgMzIgMCAwIDE2IDAgMTkxYzYzLjEtNy45IDExMi02MS43IDExMi0xMjdsMC0xNiAwLTMyIDAtODAtMjU2IDAgMCA4MCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bug.svg)
  */
 const Bug: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gif` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gif?s=sharp-thin gif}
- * @preview ![gif](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYwIDQ4bDAgNDE2TDE2IDQ2NCAxNiA0OGw1NDQgMHpNMTYgMzJMMCAzMiAwIDQ4IDAgNDY0bDAgMTYgMTYgMCA1NDQgMCAxNiAwIDAtMTYgMC00MTYgMC0xNi0xNiAwTDE2IDMyek0zMDQgMTYwbC0xNiAwIDAgOCAwIDE3NiAwIDggMTYgMCAwLTggMC0xNzYgMC04em02NCAwbDAgOCAwIDk2IDAgODAgMCA4IDE2IDAgMC04IDAtNzIgODAgMCA4IDAgMC0xNi04IDAtODAgMCAwLTgwIDk2IDAgOCAwIDAtMTYtOCAwLTEwNCAwLTggMHpNOTYgMjU2YzAtNDQuMiAzNS44LTgwIDgwLTgwYzE5LjMgMCAzNy4xIDYuOSA1MC45IDE4LjNsNi4yIDUuMUwyNDMuMyAxODdsLTYuMi01LjFDMjIwLjUgMTY4LjIgMTk5LjIgMTYwIDE3NiAxNjBjLTUzIDAtOTYgNDMtOTYgOTZzNDMgOTYgOTYgOTZjMjMuMiAwIDQ0LjUtOC4yIDYxLjEtMjEuOWwyLjktMi40IDAtMy44IDAtNjcuOSAwLTgtOCAwLTcyIDAtOCAwIDAgMTYgOCAwIDY0IDAgMCA1NmMtMTMuNCAxMC0zMCAxNi00OCAxNmMtNDQuMiAwLTgwLTM1LjgtODAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![gif](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/gif.svg)
  */
 const Gif: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

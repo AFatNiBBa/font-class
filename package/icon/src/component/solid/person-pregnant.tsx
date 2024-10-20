@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-pregnant` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-pregnant?s=solid person-pregnant}
- * @preview ![person-pregnant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2ek0xMjAgMzgzYy0xMy44LTMuNi0yNC0xNi4xLTI0LTMxbDAtNTUuMS00LjYgNy42Yy05LjEgMTUuMS0yOC44IDIwLTQzLjkgMTAuOXMtMjAtMjguOC0xMC45LTQzLjlsNTguMy05N2MxNS0yNC45IDQwLjMtNDEuNSA2OC43LTQ1LjZjNC4xLS42IDguMi0xIDEyLjUtMWwxLjEgMCAxMi41IDAgMi40IDBjMS40IDAgMi44IC4xIDQuMSAuM2MzNS43IDIuOSA2NS40IDI5LjMgNzIuMSA2NWw2LjEgMzIuNWM0NC4zIDguNiA3Ny43IDQ3LjUgNzcuNyA5NC4zbDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJsLTE2IDAtNDAgMCAwIDk2YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtOTYtOCAwLTggMCAwIDk2YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtOTd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-pregnant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-pregnant.svg)
  */
 const PersonPregnant: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

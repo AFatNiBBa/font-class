@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `won-sign` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/won-sign?s=regular won-sign}
- * @preview ![won-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzEuMSA0OS41QzY3LjUgMzYuOCA1NC4zIDI5LjMgNDEuNSAzMi45UzIxLjMgNDkuNyAyNC45IDYyLjVMNzkuMSAyNTYgMjQgMjU2Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDY4LjUgMCA0NC40IDE1OC41YzIuOSAxMC41IDEyLjYgMTcuNyAyMy42IDE3LjVzMjAuMy03LjggMjIuOS0xOC40TDIyMS4yIDMwNGw2OS43IDAgMzcuOCAxNTcuNmMyLjYgMTAuNiAxMiAxOC4yIDIyLjkgMTguNHMyMC42LTcgMjMuNi0xNy41TDQxOS41IDMwNGw2OC41IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTU1LjEgMEw0ODcuMSA2Mi41YzMuNi0xMi44LTMuOS0yNi0xNi42LTI5LjZzLTI2IDMuOS0yOS42IDE2LjZMMzgzLjEgMjU2bC01NC40IDBMMjc5LjMgNTAuNEMyNzYuNyAzOS42IDI2Ny4xIDMyIDI1NiAzMnMtMjAuNyA3LjYtMjMuMyAxOC40TDE4My4zIDI1NmwtNTQuNCAwTDcxLjEgNDkuNXpNMTQyLjQgMzA0bDI5LjQgMC0xMy42IDU2LjZMMTQyLjQgMzA0em05MC4zLTQ4TDI1NiAxNTguOCAyNzkuMyAyNTZsLTQ2LjYgMHptMTA3LjUgNDhsMjkuNCAwLTE1LjkgNTYuNkwzNDAuMiAzMDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![won-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/won-sign.svg)
  */
 const WonSign: typeof Icon = x => (
     <Icon {...x}>

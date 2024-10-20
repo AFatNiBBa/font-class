@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tower-observation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-observation?s=sharp-solid tower-observation}
- * @preview ![tower-observation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgOTZMMjU2IDAgNDQ4IDk2bDAgMzItMzIgMCAwIDEyOC0zNi45IDAgMzIgMTkyIDY4LjkgMCAzMiAwIDAgNjQtMzIgMC05NS41IDBjLS40IDAtLjggMC0xLjEgMGwtMjU0LjggMGMtLjQgMC0uOCAwLTEuMSAwTDMyIDUxMiAwIDUxMmwwLTY0IDMyIDAgNjguOSAwIDMyLTE5Mkw5NiAyNTZsMC0xMjgtMzIgMCAwLTMyek0zMTQuNSA0NDhMMjU2IDM5OS4yIDE5Ny41IDQ0OGwxMTcgMHpNMTkzLjEgMjg0LjNMMjU2IDMzNi44bDYyLjktNTIuNUwzMTQuMiAyNTZsLTExNi41IDAtNC43IDI4LjN6bS05LjEgNTQuOWwtMTEuMiA2N0wyMTguNSAzNjhsLTM0LjYtMjguOHpNMjkzLjUgMzY4bDQ1LjggMzguMS0xMS4yLTY3TDI5My41IDM2OHpNMzUyIDEyOGwtMTkyIDAgMCAzMiAxOTIgMCAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tower-observation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tower-observation.svg)
  */
 const TowerObservation: typeof Icon = x => (
     <Icon {...x}>

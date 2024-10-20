@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-laptop` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-laptop?s=regular house-laptop}
- * @preview ![house-laptop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0LjggNS40YzguOC03LjIgMjEuNS03LjIgMzAuMyAwbDIxNiAxNzZjMTAuMyA4LjQgMTEuOCAyMy41IDMuNCAzMy44cy0yMy41IDExLjgtMzMuOCAzLjRMNDE2IDE5OC40bDAgNDEuNi00OCAwIDAtODAuN0wyNDAgNTUgMTEyIDE1OS4zIDExMiAzNjBjMCA0LjQgMy42IDggOCA4bDE1MiAwIDAgNDgtMTUyIDBjLTMwLjkgMC01Ni0yNS4xLTU2LTU2bDAtMTYxLjZMMzkuMiAyMTguNmMtMTAuMyA4LjQtMjUuNCA2LjgtMzMuOC0zLjRzLTYuOC0yNS40IDMuNC0zMy44bDIxNi0xNzZ6TTI4OCAyMTZsMCA0NS43Yy02IDYuOC0xMC42IDE0LjktMTMuMyAyMy44Yy0zLjIgMS42LTYuOSAyLjUtMTAuNyAyLjVsLTQ4IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRsNDggMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHptNjQgMTA0bDAgMTQ0IDE5MiAwIDAtMTQ0LTE5MiAwem0tNDgtMTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMjI0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxNjAgMzYgMGM2LjYgMCAxMiA1LjQgMTIgMTJjMCAxOS45LTE2LjEgMzYtMzYgMzZsLTEyIDAtNDggMC0xOTIgMC00OCAwLTEyIDBjLTE5LjkgMC0zNi0xNi4xLTM2LTM2YzAtNi42IDUuNC0xMiAxMi0xMmwzNiAwIDAtMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-laptop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-laptop.svg)
  */
 const HouseLaptop: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

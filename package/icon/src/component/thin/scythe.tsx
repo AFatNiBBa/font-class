@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scythe` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scythe?s=thin scythe}
- * @preview ![scythe](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTIyLjMgMzU1LjRsLTI2IDEyMS4zYy0xLjkgOC42IDMuNyAxNy4xIDEyLjMgMTlzMTcuMS0zLjcgMTktMTIuM2wzNC4zLTE2MCA2MS43LTI4OGMxLjktOC42LTMuNy0xNy4xLTEyLjMtMTlzLTE3LjEgMy43LTE5IDEyLjNMNTM2LjEgMjkxLjRjLTEuNiA3LjQtOC4xIDEyLjYtMTUuNiAxMi42TDQxNiAzMDRjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsOTAuNyAwYzQuOCAwIDkuNCAyLjIgMTIuNCA1LjlzNC4yIDguNyAzLjIgMTMuNHpNNDE2IDI4OGwxMDQuNCAwTDU3Ni43IDI1LjNDNTgwLjQgOCA1OTcuNC0zIDYxNC43IC43czI4LjMgMjAuNyAyNC42IDM4bC02MS43IDI4OC0zNC4zIDE2MGMtMy43IDE3LjMtMjAuNyAyOC4zLTM4IDI0LjZzLTI4LjMtMjAuNy0yNC42LTM4TDUwMy4zIDM2OGwzLjQtMTYtMTYuNCAwTDQxNiAzNTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJ6TTM1MiAwTDU1Mi42IDBjLTIuOCA0LjktNSAxMC4zLTYuNSAxNkwzNTIgMTZDMTEwLjIgMTYgMjcgMTc5LjMgMTYgMjAzLjJjMCAwIDAgMCAwIDBjMCAuMSAwIC4yIDAgLjZjMCAyLjMgMS44IDQuMSA0LjEgNC4xbDQ4NC43IDAtMy40IDE2TDIwLjEgMjI0QzkgMjI0IDAgMjE1IDAgMjAzLjljMC0yLjYgLjQtNSAxLjUtNy4zQzEzLjYgMTcwLjIgMTAxLjEgMCAzNTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scythe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/scythe.svg)
  */
 const Scythe: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

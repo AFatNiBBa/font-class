@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `window-restore` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-restore?s=solid window-restore}
- * @preview ![window-restore](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDY0TDIwOCA2NGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMTYtNjQgMCAwLTE2YzAtNDQuMiAzNS44LTgwIDgwLTgwTDQzMiAwYzQ0LjIgMCA4MCAzNS44IDgwIDgwbDAgMjI0YzAgNDQuMi0zNS44IDgwLTgwIDgwbC0xNiAwIDAtNjQgMTYgMGM4LjggMCAxNi03LjIgMTYtMTZsMC0yMjRjMC04LjgtNy4yLTE2LTE2LTE2ek0wIDE5MmMwLTM1LjMgMjguNy02NCA2NC02NGwyNTYgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDI1NmMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTkyem02NCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxOTIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMkw5NiAxOTJjLTE3LjcgMC0zMiAxNC4zLTMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![window-restore](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/window-restore.svg)
  */
 const WindowRestore: typeof Icon = x => (
     <Icon {...x}>

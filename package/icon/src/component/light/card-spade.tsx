@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `card-spade` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-spade?s=light card-spade}
- * @preview ![card-spade](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDNDYuMyAzMiAzMiA0Ni4zIDMyIDY0bDAgMzg0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDI1NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzg0YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDMyek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDM4NGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6bTE4MC43IDY4LjJjNi4yLTYuMiAxNi40LTYuMiAyMi42IDBsMzMuOSAzMy45TDI5NyAyMjUuOWMyNSAyNSAyNSA2NS41IDAgOTAuNWMtMjQuNSAyNC41LTYzLjkgMjUtODkgMS41bDAgMzQuMiAxNiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC02NCAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDE2IDAgMC0zNC4yYy0yNS4xIDIzLjUtNjQuNSAyMy04OS0xLjVjLTI1LTI1LTI1LTY1LjUgMC05MC41bDU5LjctNTkuNyAzMy45LTMzLjl6TTE5MiAxNjYuMWwtMjIuNiAyMi42LTU5LjcgNTkuN2MtMTIuNSAxMi41LTEyLjUgMzIuOCAwIDQ1LjNzMzIuOCAxMi41IDQ1LjMgMGwyNS44LTI1LjhjMy0zIDcuMS00LjcgMTEuMy00LjdzOC4zIDEuNyAxMS4zIDQuN2wyNS44IDI1LjhjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBzMTIuNS0zMi44IDAtNDUuM2wtNTkuNy01OS43TDE5MiAxNjYuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![card-spade](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/card-spade.svg)
  */
 const CardSpade: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-slash?s=solid user-slash}
- * @preview ![user-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0wzNTMuMyAyNTEuNkM0MDcuOSAyMzcgNDQ4IDE4Ny4yIDQ0OCAxMjhDNDQ4IDU3LjMgMzkwLjcgMCAzMjAgMEMyNTAuMiAwIDE5My41IDU1LjggMTkyIDEyNS4yTDM4LjggNS4xek0yNjQuMyAzMDQuM0MxNzAuNSAzMDkuNCA5NiAzODcuMiA5NiA0ODIuM2MwIDE2LjQgMTMuMyAyOS43IDI5LjcgMjkuN2wzODguNiAwYzMuOSAwIDcuNi0uNyAxMS0yLjFsLTI2MS0yMDUuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-slash.svg)
  */
 const UserSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

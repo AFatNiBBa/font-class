@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendars` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendars?s=sharp-solid calendars}
- * @preview ![calendars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBMMTkyIDBsMCA2NEw5NiA2NGwwIDk2IDQxNiAwIDAtOTYtOTYgMCAwLTY0TDM1MiAwbDAgNjQtOTYgMCAwLTY0ek05NiAxOTJsMCAyMjQgNDE2IDAgMC0yMjRMOTYgMTkyek0wIDE2MEwwIDQ4OGwwIDI0IDI0IDAgMzkyIDAgMC00OEw0OCA0NjRsMC0zMDRMMCAxNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![calendars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calendars.svg)
  */
 const Calendars: typeof Icon = x => (
     <Icon {...x}>

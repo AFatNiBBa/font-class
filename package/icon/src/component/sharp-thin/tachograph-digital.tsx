@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tachograph-digital` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tachograph-digital?s=sharp-thin tachograph-digital}
- * @preview ![tachograph-digital](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgODBsMCAzNTIgNjA4IDAgMC0zNTJMMTYgODB6TTAgNjRsMTYgMCA2MDggMCAxNiAwIDAgMTYgMCAzNTIgMCAxNi0xNiAwTDE2IDQ0OCAwIDQ0OGwwLTE2TDAgODAgMCA2NHptODAgODBsMCA5NiAyNTYgMCAwLTk2TDgwIDE0NHpNNjQgMTI4bDE2IDAgMjU2IDAgMTYgMCAwIDE2IDAgOTYgMCAxNi0xNiAwTDgwIDI1NmwtMTYgMCAwLTE2IDAtOTYgMC0xNnptMCAyNDBsOCAwIDI3MiAwIDggMCAwIDE2LTggMEw3MiAzODRsLTggMCAwLTE2em0zMjAgMGw4IDAgMTc2IDAgOCAwIDAgMTYtOCAwLTE3NiAwLTggMCAwLTE2ek05NiAyODhsMCAzMi0zMiAwIDAtMzIgMzIgMHptMzIgMGwzMiAwIDAgMzItMzIgMCAwLTMyem05NiAwbDAgMzItMzIgMCAwLTMyIDMyIDB6bTMyIDBsMzIgMCAwIDMyLTMyIDAgMC0zMnptOTYgMzJsLTMyIDAgMC0zMiAzMiAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tachograph-digital](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tachograph-digital.svg)
  */
 const TachographDigital: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

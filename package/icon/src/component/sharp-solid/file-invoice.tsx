@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-invoice` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-invoice?s=sharp-solid file-invoice}
- * @preview ![file-invoice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBMMCAwIDAgNTEybDM4NCAwIDAtMzUyLTE2MCAwTDIyNCAwem0zMiAwbDAgMTI4IDEyOCAwTDI1NiAwek04MCA2NGw2NCAwIDE2IDAgMCAzMi0xNiAwTDgwIDk2IDY0IDk2bDAtMzIgMTYgMHptMCA2NGw2NCAwIDE2IDAgMCAzMi0xNiAwLTY0IDAtMTYgMCAwLTMyIDE2IDB6bTAgOTZsMjI0IDAgMTYgMCAwIDE2IDAgOTYgMCAxNi0xNiAwTDgwIDM1MmwtMTYgMCAwLTE2IDAtOTYgMC0xNiAxNiAwem0xNiA5NmwxOTIgMCAwLTY0TDk2IDI1NmwwIDY0em0xNDQgOTZsNjQgMCAxNiAwIDAgMzItMTYgMC02NCAwLTE2IDAgMC0zMiAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-invoice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-invoice.svg)
  */
 const FileInvoice: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

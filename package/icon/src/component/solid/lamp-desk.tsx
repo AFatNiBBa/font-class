@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lamp-desk` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp-desk?s=solid lamp-desk}
- * @preview ![lamp-desk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDY1LjlDMTkyIDI5LjUgMjIxLjUgMCAyNTcuOSAwYzE3LjUgMCAzNC4zIDYuOSA0Ni42IDE5LjNMMzQ5LjMgNjQgNDgwIDY0YzEyLjkgMCAyNC42IDcuOCAyOS42IDE5LjhzMi4yIDI1LjctNi45IDM0LjlsLTczLjUgNzMuNS00NS4xIDQ1LjEtNzMuNSA3My41Yy05LjIgOS4yLTIyLjkgMTEuOS0zNC45IDYuOXMtMTkuOC0xNi42LTE5LjgtMjkuNmwwLTExNC43LTkyLjYgOTIuNkwyMDkgNDQ4bDE0MyAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0xNjcuMyAwYy0uNSAwLS45IDAtMS40IDBMMzIgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDExMSAwTDk3IDI2My44Yy0yLjctMTAuOSAuNS0yMi40IDguNC0zMC40TDIxOC43IDEyMGwtNy40LTcuNEMxOTguOSAxMDAuMiAxOTIgODMuNCAxOTIgNjUuOXpNNDMyIDI4OGMtMTQuNyAwLTI3LjgtNi42LTM2LjYtMTYuOWw2Ny43LTY3LjdjMTAuMyA4LjggMTYuOSAyMS45IDE2LjkgMzYuNmMwIDI2LjUtMjEuNSA0OC00OCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lamp-desk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/lamp-desk.svg)
  */
 const LampDesk: typeof Icon = x => (
     <Icon {...x}>

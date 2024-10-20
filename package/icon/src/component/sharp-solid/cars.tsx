@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cars` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cars?s=sharp-solid cars}
- * @preview ![cars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzIuOSAwTDk2IDAgMzIwIDBsMjMuMSAwIDcuMyAyMS45TDM4NS43IDEyOCAzMjAgMTI4bC0xLjcgMEwyOTYuOSA2NCAxMTkuMSA2NCA5Ny43IDEyOGwxNzYuMSAwLTcuMyAyMS45LTcuMyAyMS45TDIzMS4yIDI1NmwtNy4yIDAtMzIgMCAwIDMyTDgwIDI4OGwwIDY0TDAgMzUybDAtNjRzMCAwIDAgMEwwIDEyOGwzMC4zIDBMNjUuNiAyMS45IDcyLjkgMHpNMzMyLjQgMjU2bC0xMC43IDMyIDIyMC41IDAtMjEuMy02NEw0MTYgMjI0bC03Mi45IDAtMTAuNyAzMnptLTc4LjEgMzJsMzUuNC0xMDYuMSA3LjMtMjEuOSAyMy4xIDAgOTYgMCAxMjggMCAyMy4xIDAgNy4zIDIxLjlMNjA5LjcgMjg4bDMwLjMgMCAwIDE2MCAwIDY0LTgwIDAgMC02NC0yNTYgMCAwIDY0LTgwIDAgMC02NHMwIDAgMCAwbDAtMTYwIDMwLjMgMHpNODAgMjMyYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHpNMzA0IDM5MmEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6bTI4MC0yNGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cars.svg)
  */
 const Cars: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

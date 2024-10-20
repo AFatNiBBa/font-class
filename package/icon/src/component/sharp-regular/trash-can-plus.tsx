@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-can-plus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-plus?s=sharp-regular trash-can-plus}
- * @preview ![trash-can-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBMMTQ3LjIgMCAxNDAgMTAuNyA5My44IDgwIDgwIDgwIDMyIDgwIDAgODBsMCA0OCAzMiAwIDAgMzM2IDAgNDggNDggMCAyODggMCA0OCAwIDAtNDggMC0zMzYgMzIgMCAwLTQ4LTMyIDAtNDggMC0xMy44IDBMMzA4IDEwLjcgMzAwLjggMCAyODggMCAxNjAgMHpNMjk2LjUgODBsLTE0NSAwIDIxLjMtMzIgMTAyLjMgMCAyMS4zIDMyek04MCA0NjRsMC0zMzYgMjg4IDAgMCAzMzZMODAgNDY0em0xMjAtNjRsNDggMCAwLTI0IDAtNjQgNjQgMCAyNCAwIDAtNDgtMjQgMC02NCAwIDAtNjQgMC0yNC00OCAwIDAgMjQgMCA2NC02NCAwLTI0IDAgMCA0OCAyNCAwIDY0IDAgMCA2NCAwIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trash-can-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/trash-can-plus.svg)
  */
 const TrashCanPlus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

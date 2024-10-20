@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nimblr` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nimblr?s=brands nimblr}
- * @preview ![nimblr](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ2LjYgMjk5LjI5YzE1LjU3IDAgMjcuMTUgMTEuNDYgMjcuMTUgMjdzLTExLjYyIDI3LTI3LjE1IDI3Yy0xNS43IDAtMjcuMTUtMTEuNTctMjcuMTUtMjdzMTEuNTUtMjcgMjcuMTUtMjd6TTExMyAzMjYuMjVjMC0xNS42MSAxMS42OC0yNyAyNy4xNS0yN3MyNy4xNSAxMS40NiAyNy4xNSAyNy0xMS40NyAyNy0yNy4xNSAyN2MtMTUuNDQgMC0yNy4xNS0xMS4zMS0yNy4xNS0yN00xOTEuNzYgMTU5QzE1NyAxNTkgODkuNDUgMTc4Ljc3IDU5LjI1IDIyN0wxNCAwdjMzNS40OEMxNCA0MzMuMTMgOTMuNjEgNTEyIDE5MS43NiA1MTJzMTc3Ljc2LTc4Ljk1IDE3Ny43Ni0xNzYuNTJTMjkwLjEzIDE1OSAxOTEuNzYgMTU5em0wIDMwOC4xMmMtNzMuMjcgMC0xMzIuNTEtNTguOS0xMzIuNTEtMTMxLjU5czU5LjI0LTEzMS41OSAxMzIuNTEtMTMxLjU5IDEzMi41MSA1OC44NiAxMzIuNTEgMTMxLjU0UzI2NSA0NjcuMDcgMTkxLjc2IDQ2Ny4wN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![nimblr](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/nimblr.svg)
  */
 const Nimblr: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

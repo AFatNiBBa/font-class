@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-weary` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-weary?s=sharp-regular face-weary}
- * @preview ![face-weary](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI1NiAzNjhjLTQxLjggMC04MC41IDEyLjItMTEyIDMzbDAtMWMwLTYxLjkgNTAuMS0xMTIgMTEyLTExMnMxMTIgNTAuMSAxMTIgMTEybDAgMWMtMzEuNS0yMC44LTcwLjItMzMtMTEyLTMzek0yMjIuNiAxNzZsLTExLjMgMTEuMy03LjQgNy40Yy0yMy42IDIzLjYtNTMuOSAzOS4yLTg2LjggNDQuN2wtMi41IC40LTE1LjggMi42LTUuMy0zMS42IDE1LjgtMi42IDIuNS0uNGMyNi4zLTQuNCA1MC42LTE2LjkgNjkuNS0zNS43bDcuNC03LjRMMjAwIDE1My40IDIyMi42IDE3NnptNzguMSAxMS4zTDI4OS40IDE3NiAzMTIgMTUzLjRsMTEuMyAxMS4zIDcuNCA3LjRjMTguOSAxOC45IDQzLjIgMzEuNCA2OS41IDM1LjdsMi41IC40IDE1LjggMi42LTUuMyAzMS42LTE1LjgtMi42LTIuNS0uNGMtMzIuOS01LjUtNjMuMy0yMS4xLTg2LjgtNDQuN2wtNy40LTcuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-weary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-weary.svg)
  */
 const FaceWeary: typeof Icon = x => (
     <Icon {...x}>

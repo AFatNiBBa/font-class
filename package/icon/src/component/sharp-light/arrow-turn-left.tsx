@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-turn-left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-turn-left?s=sharp-light arrow-turn-left}
- * @preview ![arrow-turn-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDQ2NGwwIDE2IDMyIDAgMC0xNiAwLTI0MCAwLTE2LTE2IDBMNTQuNiAyMDggMTU1LjMgMTA3LjMgMTY2LjYgOTYgMTQ0IDczLjQgMTMyLjcgODQuN2wtMTI4IDEyOEwtNi42IDIyNCA0LjcgMjM1LjNsMTI4IDEyOEwxNDQgMzc0LjYgMTY2LjYgMzUybC0xMS4zLTExLjNMNTQuNiAyNDAgNDgwIDI0MGwwIDIyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-turn-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-turn-left.svg)
  */
 const ArrowTurnLeft: typeof Icon = x => (
     <Icon {...x}>

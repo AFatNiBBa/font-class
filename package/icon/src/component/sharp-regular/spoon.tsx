@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spoon` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spoon?s=sharp-regular spoon}
- * @preview ![spoon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDE2MC4yYzAtMjEuMSAxMy41LTQ4LjkgNDIuNy03My4zQzM0My40IDYzIDM4MC44IDQ4IDQxNiA0OGMyNi41IDAgNDggMjEuNSA0OCA0OGMwIDM1LjItMTUgNzIuNi0zOC45IDEwMS4zQzQwMC43IDIyNi41IDM3MyAyNDAgMzUxLjggMjQwbC0xOS43IDAtMTQuMS0xNC4xLTMyLTMyTDI3MiAxNzkuOWwwLTE5Ljd6bTEzLjEgMTAwLjdMMzEyLjIgMjg4bDM5LjYgMEM0MzIgMjg4IDUxMiAxOTIgNTEyIDk2YzAtNTMtNDMtOTYtOTYtOTZDMzIwIDAgMjI0IDgwIDIyNCAxNjAuMmwwIDM5LjYgMjcuMSAyNy4xTDE4LjIgNDU5LjhsLTE3IDE3IDMzLjkgMzMuOSAxNy0xN0wyODUuMSAyNjAuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![spoon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/spoon.svg)
  */
 const Spoon: typeof Icon = x => (
     <Icon {...x}>

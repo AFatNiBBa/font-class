@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-doctor` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-doctor?s=light user-doctor}
- * @preview ![user-doctor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyYTk2IDk2IDAgMSAxIDAgMTkyIDk2IDk2IDAgMSAxIDAtMTkyek05NiAxMjhhMTI4IDEyOCAwIDEgMCAyNTYgMEExMjggMTI4IDAgMSAwIDk2IDEyOHptNDggMjg4YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bTMyLTQ1LjNsMC0zNC43IDEuMiAwIDkzLjYgMGM1LjggMCAxMS41IC4zIDE3LjIgMWwwIDMzLjNjLTIzLjEgNi45LTQwIDI4LjMtNDAgNTMuN2wwIDI0YzAgOC44IDcuMiAxNiAxNiAxNmwxNiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bDAtOGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0bDAgOGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxNiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTI0YzAtMjUuNC0xNi45LTQ2LjgtNDAtNTMuN2wwLTI1LjhjNTUuNiAyMCA5NS41IDczIDk2IDEzNS41TDMyIDQ4MGMuNS02OC4yIDQ4LjItMTI1LjMgMTEyLTE0MC4ybDAgMzAuOWMtMTguNiA2LjYtMzIgMjQuNC0zMiA0NS4zYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4czQ4LTIxLjUgNDgtNDhjMC0yMC45LTEzLjQtMzguNy0zMi00NS4zem0xLjItNjYuN0M3OS4zIDMwNCAwIDM4My4zIDAgNDgxLjJjMCAxNyAxMy44IDMwLjggMzAuOCAzMC44bDM4Ni40IDBjMTcgMCAzMC44LTEzLjggMzAuOC0zMC44QzQ0OCAzODMuMyAzNjguNyAzMDQgMjcwLjggMzA0bC05My42IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-doctor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-doctor.svg)
  */
 const UserDoctor: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clapperboard` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clapperboard?s=light clapperboard}
- * @preview ![clapperboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTkybDAgMjI0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDM4NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMjI0TDMyIDE5MnptMzUwLjYtMzJsOTcuNCAwIDAtNjRjMC05LjItMy45LTE3LjUtMTAuMS0yMy4zTDM4Mi42IDE2MHptLTQ1LjMgMGw5Ni05NkwzMjYuNiA2NGwtOTYgOTYgMTA2LjcgMHptLTU2LTk2TDE3NC42IDY0bC05NiA5NiAxMDYuNyAwIDk2LTk2em0tMTUyIDBMNjQgNjRDNDYuMyA2NCAzMiA3OC4zIDMyIDk2bDAgNjQgMS40IDAgOTYtOTZ6TTUxMiA5NmwwIDY0IDAgMTYgMCAxNiAwIDIyNGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTkybDAtMTYgMC0xNkwwIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDM4NCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clapperboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/clapperboard.svg)
  */
 const Clapperboard: typeof Icon = x => (
     <Icon {...x}>

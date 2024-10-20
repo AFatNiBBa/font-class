@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `align-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/align-slash?s=solid align-slash}
- * @preview ![align-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w0ODEuNCAzNTJsMzAuNiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0xMTIuMyAwLTgxLjctNjRMNTEyIDIyNGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtMjc1LjYgMEwxNTQuOCA5NiA1MTIgOTZjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMMTI4IDMyYy0xMy40IDAtMjQuOCA4LjItMjkuNiAxOS44TDM4LjggNS4xek0zMjQuOSAzNTJsLTgxLjItNjRMMTI4IDI4OGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmwxOTYuOSAwek0xNjIuNSAyMjRsLTYxLjgtNDguN2MtMyA0LjktNC43IDEwLjYtNC43IDE2LjdjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzQuNSAwek00ODcuNCA0ODBsLTgxLjItNjRMMTI4IDQxNmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmwzNTkuNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![align-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/align-slash.svg)
  */
 const AlignSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

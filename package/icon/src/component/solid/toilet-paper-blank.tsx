@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toilet-paper-blank` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-blank?s=solid toilet-paper-blank}
- * @preview ![toilet-paper-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDE5MmMwLTY1LjUgMTMuMi0xNDIuNCA2MC4yLTE5MkwxNjAgMEMxMDcgMCA2NCA4NiA2NCAxOTJjMCAxMDEuNS0xMS43IDE3MC44LTIzIDIxMy45Yy01LjEgMTkuNC0xMC43IDM5LjktMjAuNSA1Ny43Yy01LjkgOS45LTYuMSAyMi4xLS40IDMyLjJTMzYuNSA1MTIgNDggNTEybDIzNy45IDBjMjIuMyAwIDQ1LjQtMTIuMSA1NS40LTM2LjFDMzU2LjcgNDM5IDM4NCAzNTAuOCAzODQgMTkyem0yMjQgMEM2MDggODYgNTY1IDAgNTEyIDBzLTk2IDg2LTk2IDE5MnM0MyAxOTIgOTYgMTkyczk2LTg2IDk2LTE5MnptLTY0IDBjMCAzNS4zLTE0LjMgNjQtMzIgNjRzLTMyLTI4LjctMzItNjRzMTQuMy02NCAzMi02NHMzMiAyOC43IDMyIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![toilet-paper-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toilet-paper-blank.svg)
  */
 const ToiletPaperBlank: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

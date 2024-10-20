@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `face-sad-tear` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-tear?s=sharp-duotone-solid face-sad-tear}
- * @preview ![face-sad-tear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik01MTIgMjU2QTI1NiAyNTYgMCAxIDEgMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMHpNMTEyIDM2OGMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4YzAtMTAuNC0zLjQtMjAuNS05LjYtMjguOEwxNjAgMjg4bC0zOC40IDUxLjJjLTYuMiA4LjMtOS42IDE4LjQtOS42IDI4Ljh6bTMxLjYtMTYwYTMyIDMyIDAgMSAwIDY0IDAgMzIgMzIgMCAxIDAgLTY0IDB6TTI0MCAzMjBsMCAzMiAxNiAwYzM0LjkgMCA2Ny4yIDE1LjggOTIuMyA0Mi45bDEwLjkgMTEuOCAyMy41LTIxLjctMTAuOS0xMS43QzM0MS42IDM0MC41IDMwMSAzMjAgMjU2IDMyMGwtMTYgMHptNjMuNi0xMTJhMzIgMzIgMCAxIDAgNjQgMCAzMiAzMiAwIDEgMCAtNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTM2Ny42IDIwOGEzMiAzMiAwIDEgMSAtNjQgMCAzMiAzMiAwIDEgMSA2NCAwem0tMjQ2IDEzMS4yTDE2MCAyODhsMzguNCA1MS4yYzYuMiA4LjMgOS42IDE4LjQgOS42IDI4LjhjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhjMC0xMC40IDMuNC0yMC41IDkuNi0yOC44em01NC0xNjMuMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-sad-tear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-sad-tear.svg)
  */
 const FaceSadTear: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M512 256A256 256 0 1 1 0 256a256 256 0 1 1 512 0zM112 368c0 26.5 21.5 48 48 48s48-21.5 48-48c0-10.4-3.4-20.5-9.6-28.8L160 288l-38.4 51.2c-6.2 8.3-9.6 18.4-9.6 28.8zm31.6-160a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM240 320l0 32 16 0c34.9 0 67.2 15.8 92.3 42.9l10.9 11.8 23.5-21.7-10.9-11.7C341.6 340.5 301 320 256 320l-16 0zm63.6-112a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-            <path d="M367.6 208a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm-246 131.2L160 288l38.4 51.2c6.2 8.3 9.6 18.4 9.6 28.8c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-10.4 3.4-20.5 9.6-28.8zm54-163.2a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+        <path d="M367.6 208a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm-246 131.2L160 288l38.4 51.2c6.2 8.3 9.6 18.4 9.6 28.8c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-10.4 3.4-20.5 9.6-28.8zm54-163.2a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
     </Icon>
 );
 

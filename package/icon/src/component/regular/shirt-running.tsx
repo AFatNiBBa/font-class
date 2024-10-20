@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shirt-running` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt-running?s=regular shirt-running}
- * @preview ![shirt-running](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDQ4YzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBsMC00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0YzAgMTI3LjkgMjYuOCAxODEgNDEuNSAyMDAuNWM5LjYgMTIuOCAyMi41IDMyLjggMjIuNSA1Ni4zTDM4NCA0NDhjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDI4MC43YzAtMjMuNSAxMi45LTQzLjUgMjIuNS01Ni4zQzM3LjIgMjA1IDY0IDE1MS45IDY0IDI0QzY0IDEwLjcgNzQuNyAwIDg4IDB6TTYwLjggMjUzLjRDNTIuMiAyNjQuOCA0OCAyNzMuOSA0OCAyODAuN2wwIDExMC4xTDI5OS4zIDIwOS4zYy01LjQtMTMuNi0xMC40LTI5LjgtMTQuNi00OS4xQzI2MS40IDE4NC43IDIyOC41IDIwMCAxOTIgMjAwcy02OS40LTE1LjMtOTIuNy0zOS44Qzg5IDIwNi45IDc0LjEgMjM1LjcgNjAuOCAyNTMuNHpNNDguMSA0NTBjMSA3LjkgNy43IDE0IDE1LjkgMTRsMjU2IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMTY3LjNjMC02LjgtNC4yLTE1LjktMTIuOC0yNy4zYy0uMy0uNC0uNy0uOS0xLTEuNEw0OC4xIDQ1MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shirt-running](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/shirt-running.svg)
  */
 const ShirtRunning: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

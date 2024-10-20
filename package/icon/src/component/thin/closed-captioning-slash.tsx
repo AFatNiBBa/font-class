@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `closed-captioning-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/closed-captioning-slash?s=thin closed-captioning-slash}
- * @preview ![closed-captioning-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMgMS43QzkuNS0xIDQuNS0uNCAxLjcgM1MtLjQgMTEuNSAzIDE0LjNsNjI0IDQ5NmMzLjUgMi43IDguNSAyLjIgMTEuMi0xLjNzMi4yLTguNS0xLjMtMTEuMkwxMyAxLjd6TTYwOCAzOTEuNkw2MDggOTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMMTUyLjUgMzJsMjAuMyAxNkw1NDQgNDhjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAyODMgMTYgMTIuNnpNMzcwLjkgMjA0LjRDMzg1LjUgMTg3IDQwNy41IDE3NiA0MzIgMTc2YzI0LjggMCA0NyAxMS4zIDYxLjYgMjljMi44IDMuNCA3LjkgMy45IDExLjMgMS4xczMuOS03LjkgMS4xLTExLjNjLTE3LjYtMjEuMi00NC4yLTM0LjgtNzQtMzQuOGMtMjkuNiAwLTU2LjEgMTMuNC03My43IDM0LjVsMTIuNiA5Ljl6TTQ4IDEzM0wzMiAxMjAuNCAzMiA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzkxLjUgMC0yMC4zLTE2TDk2IDQ2NGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0yODN6TTI3OC4zIDMxNC44QzI2NCAzMjggMjQ0LjkgMzM2IDIyNCAzMzZjLTQ0LjIgMC04MC0zNS44LTgwLTgwYzAtMTQuMiAzLjctMjcuNiAxMC4yLTM5LjFsLTEyLjctMTBDMTMyLjkgMjIxLjIgMTI4IDIzOCAxMjggMjU2YzAgNTMgNDMgOTYgOTYgOTZjMjYgMCA0OS43LTEwLjQgNjctMjcuMmwtMTIuNy0xMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![closed-captioning-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/closed-captioning-slash.svg)
  */
 const ClosedCaptioningSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

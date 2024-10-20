@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `perbyte` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/perbyte?s=brands perbyte}
- * @preview ![perbyte](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA1LjMxNCwyODQuNTc4SDI0Ni42VjM4My4zaDU4LjcxMXEyNC40MjMsMCwzOC4xOTMtMTMuNzd0MTMuNzctMzYuMTFxMC0yMS44MjYtMTQuMDMyLTM1LjMzNVQzMDUuMzE0LDI4NC41NzhaTTE0OS40MzUsMTI4LjdIOTAuNzI0djk4LjcyM2g1OC43MTFxMjQuNDIsMCwzOC4xOS0xMy43NzN0MTMuNzctMzYuMTA3cTAtMjEuODI2LTE0LjAyOS0zNS4zMzhUMTQ5LjQzNSwxMjguN1pNMzY2LjY0NywzMkg4MS4zNTNBODEuNDQ1LDgxLjQ0NSwwLDAsMCwwLDExMy4zNTJWMzk4LjY0N0E4MS40NDUsODEuNDQ1LDAsMCwwLDgxLjM1Myw0ODBIMzY2LjY0N0E4MS40NDUsODEuNDQ1LDAsMCwwLDQ0OCwzOTguNjQ3VjExMy4zNTJBODEuNDQ1LDgxLjQ0NSwwLDAsMCwzNjYuNjQ3LDMyWm02My42MzUsMzY2LjY0N2E2My43MDYsNjMuNzA2LDAsMCwxLTYzLjYzNSw2My42MzVIODEuMzUzYTYzLjcwNiw2My43MDYsMCwwLDEtNjMuNjM1LTYzLjYzNVYxMTMuMzUyQTYzLjcwNiw2My43MDYsMCwwLDEsODEuMzUzLDQ5LjcxOEgzNjYuNjQ3YTYzLjcwNiw2My43MDYsMCwwLDEsNjMuNjM1LDYzLjYzNFpNMzA1LjMxNCwxMjguN0gyNDYuNnY5OC43MjNoNTguNzExcTI0LjQyMywwLDM4LjE5My0xMy43NzN0MTMuNzctMzYuMTA3cTAtMjEuODI2LTE0LjAzMi0zNS4zMzhUMzA1LjMxNCwxMjguN1oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![perbyte](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/perbyte.svg)
  */
 const Perbyte: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

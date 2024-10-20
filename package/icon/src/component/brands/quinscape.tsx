@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `quinscape` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quinscape?s=brands quinscape}
- * @preview ![quinscape](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEzLjYgNDc0LjZoLTFhMTU4LjEgMTU4LjEgMCAwIDEgMC0zMTYuMmM5NC45IDAgMTY4LjIgODMuMSAxNTcgMTc2LjYgNCA1LjEgOC4yIDkuNiAxMS4yIDE1LjMgMTMuNC0zMC4zIDIwLjMtNjIuNCAyMC4zLTk3LjdDNTAxLjEgMTE3LjUgMzkxLjYgOCAyNTYuNSA4UzEyIDExNy41IDEyIDI1Mi42czEwOS41IDI0NC42IDI0NC41IDI0NC42YTIzNy4zNiAyMzcuMzYgMCAwIDAgNzAuNC0xMC4xYy01LjItMy41LTguOS04LjEtMTMuMy0xMi41em0tLjEtLjFsLjQuMXptNzguNC0xNjguOWE5OS4yIDk5LjIgMCAxIDAgOTkuMiA5OS4yIDk5LjE4IDk5LjE4IDAgMCAwLTk5LjItOTkuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![quinscape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/quinscape.svg)
  */
 const Quinscape: typeof Icon = x => (
     <Icon {...x}>

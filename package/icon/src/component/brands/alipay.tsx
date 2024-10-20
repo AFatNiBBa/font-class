@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `alipay` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alipay?s=brands alipay}
- * @preview ![alipay](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc3Ljc0IDMySDcwLjI2QzMxLjQxIDMyIDAgNjMuNDEgMCAxMDIuMjZ2MzA3LjQ4QzAgNDQ4LjU5IDMxLjQxIDQ4MCA3MC4yNiA0ODBoMzA3LjQ4YzM4LjUyIDAgNjkuNzYtMzEuMDggNzAuMjYtNjkuNi00NS45Ni0yNS42Mi0xMTAuNTktNjAuMzQtMTcxLjYtODguNDQtMzIuMDcgNDMuOTctODQuMTQgODEtMTQ4LjYyIDgxLTcwLjU5IDAtOTMuNzMtNDUuMy05Ny4wNC03Ni4zNy0zLjk3LTM5LjAxIDE0Ljg4LTgxLjUgOTkuNTItODEuNSAzNS4zOCAwIDc5LjM1IDEwLjI1IDEyNy4xMyAyNC45NiAxNi41My0zMC4wOSAyNi40NS02MC4zNCAyNi40NS02MC4zNGgtMTc4LjJ2LTE2LjdoOTIuMDh2LTMxLjI0SDg4LjI4di0xOS4wMWgxMDkuNDRWOTIuMzRoNTAuOTJ2NTAuNDJoMTA5LjQ0djE5LjAxSDI0OC42M3YzMS4yNGg4OC43N3MtMTUuMjEgNDYuNjItMzguMzUgOTAuOTJjNDguOTMgMTYuNyAxMDAuMDEgMzYuMDQgMTQ4LjYyIDUyLjc0VjEwMi4yNkM0NDcuODMgNjMuNTcgNDE2LjQzIDMyIDM3Ny43NCAzMnpNNDcuMjggMzIyLjk1Yy45OSAyMC4xNyAxMC4yNSA1My43MyA2OS45MyA1My43MyA1Mi4wNyAwIDkyLjU4LTM5LjY4IDExNy44Ny03Mi45LTQ0LjYzLTE4LjY4LTg0LjQ4LTMxLjQxLTEwOS40NC0zMS40MS02Ny40NSAwLTc5LjM1IDMzLjA2LTc4LjM2IDUwLjU4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![alipay](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/alipay.svg)
  */
 const Alipay: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

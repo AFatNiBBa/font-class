@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-dog` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-dog?s=sharp-solid shield-dog}
- * @preview ![shield-dog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUuN2wxMS41IDQuNEw0NzUgOTAuMmwxOS4yIDcuNCAxLjIgMjAuNmMyLjkgNDkuNy00LjkgMTI1LjYtMzcuMyAxOTkuOEM0MjUuNCAzOTIuOCAzNjcgNDY3LjEgMjY4LjYgNTA5LjRMMjU2IDUxNC44bC0xMi42LTUuNEMxNDUgNDY3LjEgODYuNiAzOTIuOCA1My45IDMxOEMyMS40IDI0My43IDEzLjYgMTY3LjggMTYuNiAxMTguMWwxLjItMjAuNkwzNyA5MC4ybDIwNy41LTgwTDI1NiA1Ljd6TTE2MC45IDI4Ni4yTDE0NCAzMjBsMTI4IDY0IDAtNjQgNDggMGM0NC4yIDAgODAtMzUuOCA4MC04MGwwLTQ4LTgwIDAtMTYtMzItNjQgMCAwIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0Yy01LjIgMC0xMC4zLS42LTE1LjEtMS44ek0xNDQgMTYwbDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTMyIDAtMzItOCAwLTU2IDB6bTExMiA0OGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shield-dog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shield-dog.svg)
  */
 const ShieldDog: typeof Icon = x => (
     <Icon {...x}>

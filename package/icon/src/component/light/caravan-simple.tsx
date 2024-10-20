@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `caravan-simple` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caravan-simple?s=light caravan-simple}
- * @preview ![caravan-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgNjRjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMjI0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDIxLjUgMGMxMy4yLTM3LjMgNDguNy02NCA5MC41LTY0czc3LjQgMjYuNyA5MC41IDY0TDU0NCAzODRsMC0xOTJjMC03MC43LTU3LjMtMTI4LTEyOC0xMjhMODAgNjR6TTk2IDQxNmwtMTYgMGMtNDQuMiAwLTgwLTM1LjgtODAtODBMMCAxMTJDMCA2Ny44IDM1LjggMzIgODAgMzJsMzM2IDBjODguNCAwIDE2MCA3MS42IDE2MCAxNjBsMCAxOTIgNDggMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtNDggMC0zMiAwLTI1NiAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2ek0yNTYgMTYwbC0xMjggMCAwIDY0IDEyOCAwIDAtNjR6TTEyOCAxMjhsMTI4IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTI4IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNjRjMC0xNy43IDE0LjMtMzIgMzItMzJ6bTIyNCAzMmwwIDY0IDY0IDAgMC02NC02NCAwem0tMzIgMGMwLTE3LjcgMTQuMy0zMiAzMi0zMmw2NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNjRjMCAxNy43LTE0LjMgMzItMzIgMzJsLTY0IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNjR6TTI1NiA0MTZhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![caravan-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/caravan-simple.svg)
  */
 const CaravanSimple: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

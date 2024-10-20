@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-word` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-word?s=solid cloud-word}
- * @preview ![cloud-word](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMzZjMCA3OS41IDY0LjUgMTQ0IDE0NCAxNDRsMzY4IDBjNzAuNyAwIDEyOC01Ny4zIDEyOC0xMjhjMC02MS45LTQ0LTExMy42LTEwMi40LTEyNS40YzQuMS0xMC43IDYuNC0yMi40IDYuNC0zNC42YzAtNTMtNDMtOTYtOTYtOTZjLTE5LjcgMC0zOC4xIDYtNTMuMyAxNi4yQzM2NyA2NC4yIDMxNS4zIDMyIDI1NiAzMkMxNjcuNiAzMiA5NiAxMDMuNiA5NiAxOTJjMCAyLjcgLjEgNS40IC4yIDguMUM0MC4yIDIxOS44IDAgMjczLjIgMCAzMzZ6bTUxMiAzMmMwIDguOC03LjIgMTYtMTYgMTZsLTE5MiAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDE5MiAwYzguOCAwIDE2IDcuMiAxNiAxNnpNMjQwIDM1MmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtOTYgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmw5NiAwek0xMjggMzA0YzAtOC44IDcuMi0xNiAxNi0xNmwxOTIgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMTkyIDBjLTguOCAwLTE2LTcuMi0xNi0xNnptMjcyLTE2bDk2IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTk2IDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cloud-word](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-word.svg)
  */
 const CloudWord: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `split` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/split?s=regular split}
- * @preview ![split](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkxIDMxYzkuNC05LjQgMjQuNi05LjQgMzMuOSAwbDgwIDgwYzkuNCA5LjQgOS40IDI0LjYgMCAzMy45bC04MCA4MGMtOS40IDkuNC0yNC42IDkuNC0zMy45IDBzLTkuNC0yNC42IDAtMzMuOWwzOS0zOS04My41IDBjLTEwLjYgMC0yMC44IDQuMi0yOC4zIDExLjdMMjI1LjkgMjU2bDkyLjMgOTIuM2M3LjUgNy41IDE3LjcgMTEuNyAyOC4zIDExLjdsODMuNSAwLTM5LTM5Yy05LjQtOS40LTkuNC0yNC42IDAtMzMuOXMyNC42LTkuNCAzMy45IDBsODAgODBjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlsLTgwIDgwYy05LjQgOS40LTI0LjYgOS40LTMzLjkgMHMtOS40LTI0LjYgMC0zMy45bDM5LTM5LTgzLjUgMGMtMjMuMyAwLTQ1LjctOS4zLTYyLjItMjUuOEwxODIuMSAyODAgMjQgMjgwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0bDE1OC4xIDBMMjg0LjMgMTI5LjhjMTYuNS0xNi41IDM4LjktMjUuOCA2Mi4yLTI1LjhsODMuNSAwTDM5MSA2NWMtOS40LTkuNC05LjQtMjQuNiAwLTMzLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![split](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/split.svg)
  */
 const Split: typeof Icon = x => (
     <Icon {...x}>

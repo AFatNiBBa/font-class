@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `oil-well` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-well?s=sharp-light oil-well}
- * @preview ![oil-well](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk3LjQgNjkuNmMtNi45LTI1LjYtMzMuMi00MC44LTU4LjgtMzMuOWwtMTUuNSA0LjFMNDg5LjQgMjg3bDE1LjUtNC4xYzI1LjYtNi45IDQwLjgtMzMuMiAzMy45LTU4LjhMNDk3LjQgNjkuNnpNNDMwLjQgNC43YzQyLjctMTEuNCA4Ni41IDEzLjkgOTggNTYuNmw0MS40IDE1NC41YzExLjQgNDIuNy0xMy45IDg2LjUtNTYuNiA5OGwtMTUuNSA0LjEtMzAuOSA4LjMtOC4zLTMwLjlMNDI5LjIgMTg1LjggOTYgMjcyLjIgOTYgNDgwbDM2LjMgMCA2NC41LTIwMS45IDM2LjYtOS41TDIwNi44IDM1MmwxMzAuNCAwTDMwNC43IDI1MC4xbDMxLTggNzYgMjM3LjlMNTYwIDQ4MGwxNiAwIDAgMzItMTYgMEwxNiA1MTIgMCA1MTJsMC0zMiAxNiAwIDQ4IDAgMC0zMDQgMC0xNiAzMiAwIDAgMTYgMCA2My4yIDEyMy41LTMyIDMyLTEwMEwyNTUgOTZsMTEuNyAwIDEwLjcgMEwyODkgOTZsMy42IDExLjFMMzE2LjUgMTgybDEwNC40LTI3LjFMMzkyLjMgNDggMzg0IDE3LjFsMzAuOS04LjMgMTUuNS00LjF6TTI4NS41IDE5MC4xTDI3MiAxNDcuOWwtMTUuOSA0OS44IDI5LjQtNy42ek0zNzguMSA0ODBsLTMwLjctOTYtMTUwLjggMC0zMC43IDk2IDIxMi4yIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![oil-well](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/oil-well.svg)
  */
 const OilWell: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

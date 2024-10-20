@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sleigh` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sleigh?s=light sleigh}
- * @preview ![sleigh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJDNy4yIDMyIDAgMzkuMiAwIDQ4czcuMiAxNiAxNiAxNmwxNiAwIDAgMTkyYzAgNTkuNiA0MC44IDEwOS44IDk2IDEyNGwwIDY4LTgwIDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNTIwIDBjMzkuOCAwIDcyLTMyLjIgNzItNzJsMC0yNGMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDI0YzAgMjIuMS0xNy45IDQwLTQwIDQwbC0xMjAgMCAwLTY0YzcwLjcgMCAxMjgtNTcuMyAxMjgtMTI4bDAtMTI4IDE2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTE2IDAtMzIgMC01NiAwYy0yMi4xIDAtNDAgMTcuOS00MCA0MGwwIDM1LjhjMCAyOC44LTIzLjQgNTIuMi01Mi4yIDUyLjJjLTcyIDAtMTM5LTM3LjEtMTc3LjEtOTguMmwtNy4yLTExLjVDMTc5LjYgNjMuNCAxMjQgMzIuNCA2NCAzMmwtMSAwLTcgMEwzMiAzMiAxNiAzMnpNNDE2IDQ0OGwtMjU2IDAgMC02NCAyNTYgMCAwIDY0em03Mi0zMjBsNTYgMCAwIDEyOGMwIDUzLTQzIDk2LTk2IDk2bC0yODggMGMtNTMgMC05Ni00My05Ni05Nkw2NCA2NGM0OC45IC40IDk0LjMgMjUuNyAxMjAuMyA2Ny4ybDcuMiAxMS41QzIzNS41IDIxMy4yIDMxMi43IDI1NiAzOTUuOCAyNTZjNDYuNSAwIDg0LjItMzcuNyA4NC4yLTg0LjJsMC0zNS44YzAtNC40IDMuNi04IDgtOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sleigh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sleigh.svg)
  */
 const Sleigh: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

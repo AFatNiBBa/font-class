@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `pizza-slice` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pizza-slice?s=duotone pizza-slice}
- * @preview ![pizza-slice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0uNSA0OTEuOWMtMS41IDUuNSAuMSAxMS40IDQuMSAxNS40czkuOSA1LjYgMTUuNCA0LjFMNDMyIDQwMS42bDAtMS42QzQzMiAyMjMuMyAyODguNyA4MCAxMTIgODBsLTEuNiAwTC41IDQ5MS45ek0xNjAgMzg0YTMyIDMyIDAgMSAxIC02NCAwIDMyIDMyIDAgMSAxIDY0IDB6bTQ4LTE0NGEzMiAzMiAwIDEgMSAtNjQgMCAzMiAzMiAwIDEgMSA2NCAwem05NiA5NmEzMiAzMiAwIDEgMSAtNjQgMCAzMiAzMiAwIDEgMSA2NCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTY5LjcgLjljLTIyLjgtMS42LTQxLjkgMTQtNDcuNSAzNC43TDExMC40IDgwbDEuNiAwYzE3Ni43IDAgMzIwIDE0My4zIDMyMCAzMjBsMCAxLjYgNDQuNC0xMS44YzIwLjgtNS41IDM2LjMtMjQuNyAzNC43LTQ3LjVDNDk4LjUgMTU5LjUgMzUyLjUgMTMuNSAxNjkuNyAuOXpNMjA4IDI0MGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem02NCAxMjhhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0ek0xMjggNDE2YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pizza-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pizza-slice.svg)
  */
 const PizzaSlice: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M.5 491.9c-1.5 5.5 .1 11.4 4.1 15.4s9.9 5.6 15.4 4.1L432 401.6l0-1.6C432 223.3 288.7 80 112 80l-1.6 0L.5 491.9zM160 384a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm48-144a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm96 96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-            <path d="M169.7 .9c-22.8-1.6-41.9 14-47.5 34.7L110.4 80l1.6 0c176.7 0 320 143.3 320 320l0 1.6 44.4-11.8c20.8-5.5 36.3-24.7 34.7-47.5C498.5 159.5 352.5 13.5 169.7 .9zM208 240a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM128 416a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
+        <path d="M169.7 .9c-22.8-1.6-41.9 14-47.5 34.7L110.4 80l1.6 0c176.7 0 320 143.3 320 320l0 1.6 44.4-11.8c20.8-5.5 36.3-24.7 34.7-47.5C498.5 159.5 352.5 13.5 169.7 .9zM208 240a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM128 416a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
     </Icon>
 );
 

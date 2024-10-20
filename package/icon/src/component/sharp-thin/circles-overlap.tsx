@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circles-overlap` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circles-overlap?s=sharp-thin circles-overlap}
- * @preview ![circles-overlap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQzLjYgNDMxLjFDMjExLjQgMzkyLjMgMTkyIDM0Mi40IDE5MiAyODhjMC0xMDUuOCA3My4zLTE5NC40IDE3MS45LTIxNy45QzMyNyAzNi41IDI3Ny45IDE2IDIyNCAxNkMxMDkuMSAxNiAxNiAxMDkuMSAxNiAyMjRzOTMuMSAyMDggMjA4IDIwOGM2LjYgMCAxMy4yLS4zIDE5LjYtLjl6bTE4LjktMi43QzM1OSA0MTAuNCA0MzIgMzI1LjcgNDMyIDIyNGMwLTU0LjEtMjAuNy0xMDMuNC01NC42LTE0MC40QzI4MSAxMDEuNiAyMDggMTg2LjMgMjA4IDI4OGMwIDU0LjEgMjAuNyAxMDMuNCA1NC42IDE0MC40em0tNS43IDE3LjJjLTEwLjcgMS42LTIxLjcgMi40LTMyLjggMi40QzEwMC4zIDQ0OCAwIDM0Ny43IDAgMjI0UzEwMC4zIDAgMjI0IDBjNjIuMyAwIDExOC42IDI1LjQgMTU5LjIgNjYuNEMzOTMuOSA2NC44IDQwNC44IDY0IDQxNiA2NGMxMjMuNyAwIDIyNCAxMDAuMyAyMjQgMjI0cy0xMDAuMyAyMjQtMjI0IDIyNGMtNjIuMyAwLTExOC42LTI1LjQtMTU5LjItNjYuNHpNMzk2LjQgODAuOUM0MjguNiAxMTkuNyA0NDggMTY5LjYgNDQ4IDIyNGMwIDEwNS44LTczLjMgMTk0LjQtMTcxLjkgMjE3LjlDMzEzIDQ3NS41IDM2Mi4xIDQ5NiA0MTYgNDk2YzExNC45IDAgMjA4LTkzLjEgMjA4LTIwOHMtOTMuMS0yMDgtMjA4LTIwOGMtNi42IDAtMTMuMiAuMy0xOS42IC45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circles-overlap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circles-overlap.svg)
  */
 const CirclesOverlap: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

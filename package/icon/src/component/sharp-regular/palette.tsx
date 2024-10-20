@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `palette` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/palette?s=sharp-regular palette}
- * @preview ![palette](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NmwwIDE2LTEwOC4xIDBjLTY0IDAtMTE1LjkgNTEuOS0xMTUuOSAxMTUuOWMwIDIwLjIgNS4zIDM5LjkgMTUuMSA1Ny4yTDIzNyA0NjMuMUMxMzEgNDUzLjUgNDggMzY0LjUgNDggMjU2QzQ4IDE0MS4xIDE0MS4xIDQ4IDI1NiA0OHMyMDggOTMuMSAyMDggMjA4ek0zMjAgNDQ4bC0xMi4xLTEyLjFjLTEyLjctMTIuNy0xOS45LTMwLTE5LjktNDhjMC0zNy41IDMwLjQtNjcuOSA2Ny45LTY3LjlMNDY0IDMyMGw0OCAwIDAtNDggMC0xNkM1MTIgMTE0LjYgMzk3LjQgMCAyNTYgMFMwIDExNC42IDAgMjU2UzExNC42IDUxMiAyNTYgNTEybDMwLjEtMzAuMUwzMjAgNDQ4ek0yNTYgMTYwYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptLTY0IDBhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptLTMyIDk2YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTIyNC05NmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![palette](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/palette.svg)
  */
 const Palette: typeof Icon = x => (
     <Icon {...x}>

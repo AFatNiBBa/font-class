@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-lock?s=sharp-regular building-lock}
- * @preview ![building-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMjg4IDAgMCAyNDAgMTYgMCAwLTE2YzAtMzAuNSAxMi4yLTU4LjIgMzItNzguNEwzODQgNDhsMC00OEwzMzYgMCA0OCAwIDAgMCAwIDQ4IDAgNDY0bDAgNDggNDggMCAyNzIgMCAwLTQ4LTgwIDAgMC0xMTItOTYgMCAwIDExMi05NiAwTDQ4IDQ4ek04OCA4OGwwIDgwIDgwIDAgMC04MEw4OCA4OHptMjA4IDBsLTgwIDAgMCA4MCA4MCAwIDAtODB6TTg4IDIxNmwwIDgwIDgwIDAgMC04MC04MCAwem0yMDggMGwtODAgMCAwIDgwIDgwIDAgMC04MHptMTY4IDI0YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNDgtNjQgMCAwLTQ4YzAtMTcuNyAxNC4zLTMyIDMyLTMyem0tODAgMzJsMCA0OC0zMiAwIDAgMTkyIDIyNCAwIDAtMTkyLTMyIDAgMC00OGMwLTQ0LjItMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![building-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/building-lock.svg)
  */
 const BuildingLock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

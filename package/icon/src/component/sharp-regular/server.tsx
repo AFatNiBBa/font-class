@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `server` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/server?s=sharp-regular server}
- * @preview ![server](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCA5NiA0MTYgMCAwLTk2TDQ4IDgwek0wIDMybDQ4IDAgNDE2IDAgNDggMCAwIDQ4IDAgOTYgMCA0OC00OCAwTDQ4IDIyNCAwIDIyNGwwLTQ4TDAgODAgMCAzMnpNNDggMzM2bDAgOTYgNDE2IDAgMC05Nkw0OCAzMzZ6TTAgMjg4bDQ4IDAgNDE2IDAgNDggMCAwIDQ4IDAgOTYgMCA0OC00OCAwTDQ4IDQ4MCAwIDQ4MGwwLTQ4IDAtOTYgMC00OHptMzkyIDk2YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bTI0LTI4MGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6TTMyOCAzODRhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHptMjQtMjgwYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![server](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/server.svg)
  */
 const Server: typeof Icon = x => (
     <Icon {...x}>

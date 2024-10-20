@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-food` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-food?s=regular bowl-food}
- * @preview ![bowl-food](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxOTJjMCAxMS43IDMuMSAyMi42IDguNiAzMmw0OTQuOSAwYzUuNC05LjQgOC42LTIwLjMgOC42LTMyYzAtMzUuMy0yOC43LTY0LTY0LTY0Yy0uNSAwLTEuMSAwLTEuNiAwQzQzOSA5MS41IDQwNi43IDY0IDM2OCA2NGMtMTUgMC0yOSA0LjEtNDAuOSAxMS4yQzMxMy44IDQ5LjYgMjg2LjkgMzIgMjU2IDMycy01Ny44IDE3LjYtNzEuMSA0My4yQzE3MyA2OC4xIDE1OSA2NCAxNDQgNjRjLTM4LjcgMC03MSAyNy41LTc4LjQgNjRjLS41IDAtMS4xIDAtMS42IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0ek0xNDQuNyA0MjAuNmMtNC0xMy41LTEzLjgtMjQuNi0yNi44LTMwLjNDODIuNyAzNzQuOSA1Ni43IDM0Mi43IDQ5LjggMzA0bDQxMi40IDBjLTYuOSAzOC43LTMyLjkgNzAuOS02OC4xIDg2LjNjLTEyLjkgNS43LTIyLjcgMTYuNy0yNi44IDMwLjNjLTIgNi42LTguMiAxMS40LTE1LjMgMTEuNGwtMTkyIDBjLTcuMiAwLTEzLjQtNC44LTE1LjMtMTEuNHpNMjcuNCAyNTZDMTIuMyAyNTYgMCAyNjguMyAwIDI4My40YzAgNjcuNCA0MC42IDEyNS40IDk4LjYgMTUwLjhDMTA2LjUgNDYwLjcgMTMxIDQ4MCAxNjAgNDgwbDE5MiAwYzI5IDAgNTMuNS0xOS4zIDYxLjQtNDUuN2M1OC4xLTI1LjQgOTguNi04My40IDk4LjYtMTUwLjhjMC0xNS4xLTEyLjMtMjcuNC0yNy40LTI3LjRMMjcuNCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bowl-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bowl-food.svg)
  */
 const BowlFood: typeof Icon = x => (
     <Icon {...x}>

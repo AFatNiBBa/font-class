@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `audio-description` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/audio-description?s=sharp-light audio-description}
- * @preview ![audio-description](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDY0bDAgMzg0TDMyIDQ0OCAzMiA2NGw1MTIgMHpNMzIgMzJMMCAzMiAwIDY0IDAgNDQ4bDAgMzIgMzIgMCA1MTIgMCAzMiAwIDAtMzIgMC0zODQgMC0zMi0zMiAwTDMyIDMyek0zMDQgMTYwbDAgMTYgMCAxNjAgMCAxNiAxNiAwIDY0IDBjNTMgMCA5Ni00MyA5Ni05NnMtNDMtOTYtOTYtOTZsLTY0IDAtMTYgMHptMzIgMzJsNDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NHMtMjguNyA2NC02NCA2NGwtNDggMCAwLTEyOHpNMjAyLjMgMTYwbC0yMC41IDAtNC4zIDkuM0w5My40IDM1MmwzNS4yIDAgMjIuMS00OCAxLjMgMCA4MCAwIDEuMyAwIDIyLjEgNDggMzUuMiAwLTg0LTE4Mi43LTQuMy05LjN6TTE2NS41IDI3MkwxOTIgMjE0LjMgMjE4LjUgMjcybC01My4xIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![audio-description](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/audio-description.svg)
  */
 const AudioDescription: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

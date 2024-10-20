@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `garage-open` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garage-open?s=regular garage-open}
- * @preview ![garage-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIzIDUxLjFjLTEuOS0uOC00LjEtLjgtNiAwTDYzIDE1NC4xYy05LjEgMy43LTE1IDEyLjUtMTUgMjIuMkw0OCA0ODhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRMMCAxNzYuM2MwLTI5LjMgMTcuOC01NS43IDQ0LjktNjYuN0wyOTkgNi42YzEzLjUtNS41IDI4LjYtNS41IDQyLjEgMGwyNTQgMTAzYzI3LjIgMTEgNDUgMzcuNCA0NSA2Ni43TDY0MCA0ODhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0zMTEuN2MwLTkuOC01LjktMTguNi0xNS0yMi4yTDMyMyA1MS4xek0xNDQgMzIwbDAgMTY4YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMjU2YzAtMjIuMSAxNy45LTQwIDQwLTQwbDM2OCAwYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgMjU2YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMTY4LTM1MiAwem0wLTQ4bDM1MiAwIDAtMzItMzUyIDAgMCAzMnptODggMTQ0bDAgMTYgMTc2IDAgMC0xNmMwLTguOC03LjItMTYtMTYtMTZsLTE0NCAwYy04LjggMC0xNiA3LjItMTYgMTZ6bTAgNjRsMCA4YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtNzJjMC0zNS4zIDI4LjctNjQgNjQtNjRsMTQ0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCA3MmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTgtMTc2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![garage-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/garage-open.svg)
  */
 const GarageOpen: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

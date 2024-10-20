@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-quarter` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-quarter?s=thin battery-quarter}
- * @preview ![battery-quarter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDExMmMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDE2IDAgMTYgMCA5NiAwIDE2IDAgMTZjMCAzNS4zLTI4LjcgNjQtNjQgNjRMODAgNDAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTE2MGMwLTM1LjMgMjguNy02NCA2NC02NGwzNjggMHptODAgMjI0bDAtMTYgMTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0YzAtMTcuNy0xNC4zLTMyLTMyLTMybC0xNiAwIDAtMTZjMC00NC4yLTM1LjgtODAtODAtODBMODAgOTZDMzUuOCA5NiAwIDEzMS44IDAgMTc2TDAgMzM2YzAgNDQuMiAzNS44IDgwIDgwIDgwbDM2OCAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwem0wLTMybDAtOTYgMTYgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCA2NGMwIDguOC03LjIgMTYtMTYgMTZsLTE2IDB6TTExMiAxNzZsMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDk2YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTk2YzAtMTcuNyAxNC4zLTMyIDMyLTMyek02NCAyMDhsMCA5NmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwzMiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtOTZjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTMyIDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![battery-quarter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/battery-quarter.svg)
  */
 const BatteryQuarter: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

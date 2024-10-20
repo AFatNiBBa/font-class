@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-facebook` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-facebook?s=brands square-facebook}
- * @preview ![square-facebook](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NlY0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRoOTguMlYzMzQuMkgxMDkuNFYyNTZoNTIuOFYyMjIuM2MwLTg3LjEgMzkuNC0xMjcuNSAxMjUtMTI3LjVjMTYuMiAwIDQ0LjIgMy4yIDU1LjcgNi40VjE3MmMtNi0uNi0xNi41LTEtMjkuNi0xYy00MiAwLTU4LjIgMTUuOS01OC4yIDU3LjJWMjU2aDgzLjZsLTE0LjQgNzguMkgyNTVWNDgwSDM4NGMzNS4zIDAgNjQtMjguNyA2NC02NFY5NmMwLTM1LjMtMjguNy02NC02NC02NEg2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-facebook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-facebook.svg)
  */
 const SquareFacebook: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `music-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-slash?s=regular music-slash}
- * @preview ![music-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ1IDBjMTcuMSAwIDMxIDEzLjkgMzEgMzFsMCAxMTIuNWMwIC40IDAgLjcgMCAxLjFMNTc2IDM2OGMwIDE2LjctNi4yIDMyLjItMTYuNyA0NS4xbDcxLjUgNTZjMTAuNCA4LjIgMTIuMyAyMy4zIDQuMSAzMy43cy0yMy4zIDEyLjMtMzMuNyA0LjFMOS4yIDQyLjlDLTEuMiAzNC43LTMuMSAxOS42IDUuMSA5LjJTMjguNC0zLjEgMzguOCA1LjFMMjA4IDEzNy43bDAtMTcuN2MwLTEwLjUgNi45LTE5LjggMTYuOS0yMi45bDMxMS05NS43YzMtLjkgNi0xLjQgOS4xLTEuNHpNMjU2IDE3NS4zbDMxLjcgMjQuOUw1MjggMTI2LjMgNTI4IDU0IDI1NiAxMzcuN2wwIDM3LjZ6bTc3LjcgNjAuOWw4Ny40IDY4LjVDNDM3LjQgMjk0LjMgNDU3LjggMjg4IDQ4MCAyODhjMTcuNSAwIDMzLjkgMy45IDQ4IDEwLjdsMC0xMjIuMkwzMzMuNyAyMzYuM3pNNDYzLjQgMzM3LjlsNTggNDUuNGM0LjYtNS42IDYuNi0xMS40IDYuNi0xNS4zYzAtOS44LTEyLjktMzItNDgtMzJjLTYuMiAwLTExLjcgLjctMTYuNiAxLjl6TTIwOCAyNTkuOWw0OCAzNy44TDI1NiA0MzJjMCA0NC4yLTQzIDgwLTk2IDgwcy05Ni0zNS44LTk2LTgwczQzLTgwIDk2LTgwYzE3LjUgMCAzMy45IDMuOSA0OCAxMC43bDAtMTAyLjh6TTE2MCA0MDBjLTM1LjEgMC00OCAyMi4yLTQ4IDMyczEyLjkgMzIgNDggMzJzNDgtMjIuMiA0OC0zMnMtMTIuOS0zMi00OC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![music-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/music-slash.svg)
  */
 const MusicSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

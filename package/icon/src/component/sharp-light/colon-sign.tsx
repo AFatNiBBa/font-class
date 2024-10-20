@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `colon-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/colon-sign?s=sharp-light colon-sign}
- * @preview ![colon-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4LjcgNDIyLjdsLTE2LjMgNjkuNyAzMS4yIDcuMyAxNC43LTYzLjJjMTQuMiA1LjIgMjkuMiA4LjcgNDQuNyAxMC40bC0xMC42IDQ1LjUgMzEuMiA3LjMgMTIuMS01MmM1OC0zLjUgMTA5LjEtMzIuNyAxNDEuOS03Ni40TDM1MiAzNTJjLTI1LjYgMzQtNjQuMyA1Ny41LTEwOC42IDYyLjhsNjguMy0yOTIuN2MxNS41IDEwLjIgMjkuMiAyMyA0MC4zIDM3LjlsMjUuNi0xOS4yYy0xNS43LTIwLjktMzUuNS0zOC40LTU4LjMtNTEuNWwxNi4zLTY5LjctMzEuMi03LjNMMjg5LjcgNzUuNWMtMTQuMi01LjItMjkuMi04LjctNDQuNy0xMC40bDEwLjYtNDUuNS0zMS4yLTcuMy0xMi4xIDUyQzExMS43IDcwLjQgMzIgMTUzLjkgMzIgMjU2YzAgNzEuMyAzOC45IDEzMy42IDk2LjcgMTY2Ljd6bTM3LTE3LjdsNzItMzA4LjVjMTUuNyAxLjMgMzAuNyA0LjkgNDQuNyAxMC40bC03MiAzMDguNWMtMTUuNy0xLjMtMzAuNy00LjktNDQuNy0xMC40em0zOS0zMDcuOUwxMzYuMyAzODkuOUM5Mi44IDM2MS4zIDY0IDMxMiA2NCAyNTZjMC04MS44IDYxLjQtMTQ5LjMgMTQwLjYtMTU4Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![colon-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/colon-sign.svg)
  */
 const ColonSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

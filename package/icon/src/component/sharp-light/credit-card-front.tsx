@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `credit-card-front` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/credit-card-front?s=sharp-light credit-card-front}
- * @preview ![credit-card-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDY0bDAgMzg0TDMyIDQ0OCAzMiA2NGw1MTIgMHpNMzIgMzJMMCAzMiAwIDY0IDAgNDQ4bDAgMzIgMzIgMCA1MTIgMCAzMiAwIDAtMzIgMC0zODQgMC0zMi0zMiAwTDMyIDMyek05NiAyODhsMCAzMiAzODQgMCAwLTMyTDk2IDI4OHptMCA2NGwwIDMyIDk2IDAgMC0zMi05NiAwem0yODggMGwtMTYwIDAgMCAzMiAxNjAgMCAwLTMyem04LTIwOGw4MCAwIDAgNjQtODAgMCAwLTY0em0tMzItMzJsMCAzMiAwIDY0IDAgMzIgMzIgMCA4MCAwIDMyIDAgMC0zMiAwLTY0IDAtMzItMzIgMC04MCAwLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![credit-card-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/credit-card-front.svg)
  */
 const CreditCardFront: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

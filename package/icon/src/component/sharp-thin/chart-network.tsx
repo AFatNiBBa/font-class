@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-network` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-network?s=sharp-thin chart-network}
- * @preview ![chart-network](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDE2bDAgOTYgOTYgMCAwLTk2LTk2IDB6TTE2MCAwbDE2IDAgOTYgMCAxNiAwIDAgMTYgMCA5NiAwIDYuOCAyMy4xIDc2YzgtMS44IDE2LjMtMi44IDI0LjktMi44YzM2LjQgMCA2OC44IDE3LjQgODkuMiA0NC4zTDUxMiAxNzkuN2wwLTMuNyAwLTk2IDAtMTYgMTYgMCA5NiAwIDE2IDAgMCAxNiAwIDk2IDAgMTYtMTYgMC05NiAwLTUuNiAwTDQzNCAyNDkuN2M4LjkgMTYuMSAxNCAzNC42IDE0IDU0LjNjMCAxNC41LTIuNyAyOC4zLTcuNyA0MWw4MS42IDM5IDYuMiAwIDk2IDAgMTYgMCAwIDE2IDAgOTYgMCAxNi0xNiAwLTk2IDAtMTYgMCAwLTE2IDAtOTYgMC0zLTc4LjctMzcuNkM0MTQuMSAzOTMuMiAzNzcuNyA0MTYgMzM2IDQxNmMtNTkuMiAwLTEwNy42LTQ1LjktMTExLjctMTA0TDEyOCAzMTJsMCA0MCAwIDE2LTE2IDAtOTYgMEwwIDM2OGwwLTE2IDAtOTYgMC0xNiAxNiAwIDk2IDAgMTYgMCAwIDE2IDAgNDAgOTYuMyAwYzMuMS00NC4yIDMxLjktODEuMyA3MS41LTk2LjZMMjc0LjEgMTI4bC0yLjEgMC05NiAwLTE2IDAgMC0xNiAwLTk2IDAtMTZ6TTExMiAyNTZsLTk2IDAgMCA5NiA5NiAwIDAtOTZ6TTYyNCA4MGwtOTYgMCAwIDk2IDk2IDAgMC05NnpNNTI4IDQwMGwwIDk2IDk2IDAgMC05Ni05NiAwem0tMTkyIDBhOTYgOTYgMCAxIDAgMC0xOTIgOTYgOTYgMCAxIDAgMCAxOTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-network](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chart-network.svg)
  */
 const ChartNetwork: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

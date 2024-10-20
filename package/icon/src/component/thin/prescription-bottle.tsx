@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `prescription-bottle` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription-bottle?s=thin prescription-bottle}
- * @preview ![prescription-bottle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDE2YzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgNDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRMNDAgMTEyYy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0bDMwNCAwek00MCAwQzE3LjkgMCAwIDE3LjkgMCA0MEwwIDg4YzAgMjIuMSAxNy45IDQwIDQwIDQwbDMwNCAwYzIyLjEgMCA0MC0xNy45IDQwLTQwbDAtNDhjMC0yMi4xLTE3LjktNDAtNDAtNDBMNDAgMHpNMzIgNDA4bDAgNDBjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMTkyIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yODgtMTYgMCAwIDI4OGMwIDI2LjUtMjEuNSA0OC00OCA0OEw5NiA0OTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMzIgMTA0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMNDggNDAwbDAtODAgMTA0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMNDggMzA0bDAtODAgMTA0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMNDggMjA4bDAtNDgtMTYgMCAwIDU2IDAgOTYgMCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![prescription-bottle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/prescription-bottle.svg)
  */
 const PrescriptionBottle: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

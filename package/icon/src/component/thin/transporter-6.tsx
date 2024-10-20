@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `transporter-6` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-6?s=thin transporter-6}
- * @preview ![transporter-6](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYgOGMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDMyTDggNDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMzIgMCAwIDMyYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0zMiAzMiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDU2IDQwIDU2IDh6TTQ3MiAzNjBjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCAzMi0zMiAwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDMyIDAgMCAzMmMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtMzIgMzIgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtMzIgMCAwLTMyek0xMTIgNDk2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDIyNCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgOGMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtOGMwLTI2LjUtMjEuNS00OC00OC00OGwtMjI0IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgOGMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtOHpNOTYgMjY0YzAgNC40IDMuNiA4IDggOGwzMDQgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtMzA0IDBjLTQuNCAwLTggMy42LTggOHpNMjMyIDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsNDggMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEwyMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![transporter-6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/transporter-6.svg)
  */
 const Transporter_6: typeof Icon = x => (
     <Icon {...x}>

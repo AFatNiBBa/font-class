@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wpforms` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wpforms?s=brands wpforms}
- * @preview ![wpforms](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDc1LjJ2MzYxLjdjMCAyNC4zLTE5IDQzLjItNDMuMiA0My4ySDQzLjJDMTkuMyA0ODAgMCA0NjEuNCAwIDQzNi44Vjc1LjJDMCA1MS4xIDE4LjggMzIgNDMuMiAzMmgzNjEuN2MyNCAwIDQzLjEgMTguOCA0My4xIDQzLjJ6bS0zNy4zIDM2MS42Vjc1LjJjMC0zLTIuNi01LjgtNS44LTUuOGgtOS4zTDI4NS4zIDE0NCAyMjQgOTQuMSAxNjIuOCAxNDQgNTIuNSA2OS4zaC05LjNjLTMuMiAwLTUuOCAyLjgtNS44IDUuOHYzNjEuN2MwIDMgMi42IDUuOCA1LjggNS44aDM2MS43YzMuMi4xIDUuOC0yLjcgNS44LTUuOHpNMTUwLjIgMTg2djM3SDc2Ljd2LTM3aDczLjV6bTAgNzQuNHYzNy4zSDc2Ljd2LTM3LjNoNzMuNXptMTEuMS0xNDcuM2w1NC00My43SDk2LjhsNjQuNSA0My43em0yMTAgNzIuOXYzN2gtMTk2di0zN2gxOTZ6bTAgNzQuNHYzNy4zaC0xOTZ2LTM3LjNoMTk2em0tODQuNi0xNDcuM2w2NC41LTQzLjdIMjMyLjhsNTMuOSA0My43ek0zNzEuMyAzMzV2MzcuM2gtOTkuNFYzMzVoOTkuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wpforms](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/wpforms.svg)
  */
 const Wpforms: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

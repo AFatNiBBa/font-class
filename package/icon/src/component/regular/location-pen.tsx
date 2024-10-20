@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-pen` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-pen?s=regular location-pen}
- * @preview ![location-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDE5MmMwLTc5LjUtNjQuNS0xNDQtMTQ0LTE0NFM0OCAxMTIuNSA0OCAxOTJjMCAxMi40IDQuNSAzMS42IDE1LjMgNTcuMmMxMC41IDI0LjggMjUuNCA1Mi4yIDQyLjUgNzkuOWMyOC41IDQ2LjIgNjEuNSA5MC44IDg2LjIgMTIyLjZjMjQuOC0zMS44IDU3LjgtNzYuNCA4Ni4yLTEyMi42YzE3LjEtMjcuNyAzMi01NS4xIDQyLjUtNzkuOUMzMzEuNSAyMjMuNiAzMzYgMjA0LjQgMzM2IDE5MnptNDggMGMwIDg3LjQtMTE3IDI0My0xNjguMyAzMDcuMmMtMTIuMyAxNS4zLTM1LjEgMTUuMy00Ny40IDBDMTE3IDQzNSAwIDI3OS40IDAgMTkyQzAgODYgODYgMCAxOTIgMFMzODQgODYgMzg0IDE5MnpNMjc2LjggMTA3YzE0LjcgMTQuNyAxNC43IDM4LjYgMCA1My4zbC0xNC45IDE0LjlMMjA4LjYgMTIyIDIyMy41IDEwN2MxNC43LTE0LjcgMzguNi0xNC43IDUzLjMgMHpNMTE0LjEgMjE2LjVMMTg2IDE0NC42bDUzLjMgNTMuMy03MS45IDcxLjljLTQuMSA0LjEtOS4yIDctMTQuOSA4LjRsLTM2LjYgOS4yYy01LjUgMS40LTExLjItLjItMTUuMi00LjJzLTUuNi05LjctNC4yLTE1LjJsOS4yLTM2LjdjMS40LTUuNiA0LjMtMTAuOCA4LjQtMTQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![location-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/location-pen.svg)
  */
 const LocationPen: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

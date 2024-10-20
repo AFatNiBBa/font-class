@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dreidel` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dreidel?s=solid dreidel}
- * @preview ![dreidel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDM4LjYgODYuNmMxMi41LTEyLjUgMTIuNS0zMi44IDAtNDUuM3MtMzIuOC0xMi41LTQ1LjMgMEwyODggMTQ2LjcgMjI1LjkgODQuN2MtMTguNy0xOC43LTQ5LjEtMTguNy02Ny45IDBsLTU3LjQgNTcuNEwzMzcuOSAzNzkuM2w1Ny40LTU3LjRjMTguNy0xOC43IDE4LjctNDkuMSAwLTY3LjlMMzMzLjMgMTkyIDQzOC42IDg2LjZ6TTMxNS4zIDQwMS45TDc4LjEgMTY0LjcgMTguNyAyMjRDNi43IDIzNiAwIDI1Mi4zIDAgMjY5LjNMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMTQ2LjcgMGMxNyAwIDMzLjMtNi43IDQ1LjMtMTguN2w1OS4zLTU5LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dreidel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dreidel.svg)
  */
 const Dreidel: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

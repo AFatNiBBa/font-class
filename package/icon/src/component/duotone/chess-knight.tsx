@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `chess-knight` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-knight?s=duotone chess-knight}
- * @preview ![chess-knight](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNiA0ODkuNEMxNiA1MDEuOSAyNi4xIDUxMiAzOC42IDUxMmwzNzAuNyAwYzEyLjUgMCAyMi42LTEwLjEgMjIuNi0yMi42YzAtNi0yLjQtMTEuOC02LjYtMTZMMzg0IDQzMiA2NCA0MzIgMjIuNiA0NzMuNGMtNC4yIDQuMi02LjYgMTAtNi42IDE2eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNODIuNyA2MS4zTDk2IDQ4IDc0LjkgMzcuNUM2OC4yIDM0LjEgNjQgMjcuMyA2NCAxOS44QzY0IDguOSA3Mi45IDAgODMuOCAwTDIyNCAwQzMzMCAwIDQxNiA4NiA0MTYgMTkybDAgMTcuM2MwIDkuOC0uNyAxOS41LTIuMiAyOS4yTDM4NCA0MzIgNjQgNDMybDAtMTMuM2MwLTMxLjcgMTUuNy02MS40IDQxLjktNzkuM2wxMTIuNi03Ni44YzEwLjUtNy4yIDEwLjktMjIuNiAuNy0zMC4zYy02LjYtNS0xNS43LTUtMjIuMyAwbC00OS40IDM3Yy0yLjMgMS43LTQuOCAzLjItNy4zIDQuNWwtMy4yIDEuNmMtMTUuNCA3LjctMzMuOCA2LjYtNDguMS0zbC0xMC42LTdDNjkuMyAyNTkuNiA2NCAyNDkuNiA2NCAyMzguOWwwLTEzMi40YzAtMTcgNi43LTMzLjMgMTguNy00NS4zek0xNDAgMTM2YTIwIDIwIDAgMSAwIDAtNDAgMjAgMjAgMCAxIDAgMCA0MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chess-knight](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chess-knight.svg)
  */
 const ChessKnight: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M16 489.4C16 501.9 26.1 512 38.6 512l370.7 0c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L384 432 64 432 22.6 473.4c-4.2 4.2-6.6 10-6.6 16z" />
-            <path d="M82.7 61.3L96 48 74.9 37.5C68.2 34.1 64 27.3 64 19.8C64 8.9 72.9 0 83.8 0L224 0C330 0 416 86 416 192l0 17.3c0 9.8-.7 19.5-2.2 29.2L384 432 64 432l0-13.3c0-31.7 15.7-61.4 41.9-79.3l112.6-76.8c10.5-7.2 10.9-22.6 .7-30.3c-6.6-5-15.7-5-22.3 0l-49.4 37c-2.3 1.7-4.8 3.2-7.3 4.5l-3.2 1.6c-15.4 7.7-33.8 6.6-48.1-3l-10.6-7C69.3 259.6 64 249.6 64 238.9l0-132.4c0-17 6.7-33.3 18.7-45.3zM140 136a20 20 0 1 0 0-40 20 20 0 1 0 0 40z" />
+        <path d="M82.7 61.3L96 48 74.9 37.5C68.2 34.1 64 27.3 64 19.8C64 8.9 72.9 0 83.8 0L224 0C330 0 416 86 416 192l0 17.3c0 9.8-.7 19.5-2.2 29.2L384 432 64 432l0-13.3c0-31.7 15.7-61.4 41.9-79.3l112.6-76.8c10.5-7.2 10.9-22.6 .7-30.3c-6.6-5-15.7-5-22.3 0l-49.4 37c-2.3 1.7-4.8 3.2-7.3 4.5l-3.2 1.6c-15.4 7.7-33.8 6.6-48.1-3l-10.6-7C69.3 259.6 64 249.6 64 238.9l0-132.4c0-17 6.7-33.3 18.7-45.3zM140 136a20 20 0 1 0 0-40 20 20 0 1 0 0 40z" />
     </Icon>
 );
 

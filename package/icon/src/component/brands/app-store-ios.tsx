@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `app-store-ios` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/app-store-ios?s=brands app-store-ios}
- * @preview ![app-store-ios](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDMySDQ4QzIxLjUgMzIgMCA1My41IDAgODB2MzUyYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4aDM1MmMyNi41IDAgNDgtMjEuNSA0OC00OFY4MGMwLTI2LjUtMjEuNS00OC00OC00OHpNMTI3IDM4NC41Yy01LjUgOS42LTE3LjggMTIuOC0yNy4zIDcuMy05LjYtNS41LTEyLjgtMTcuOC03LjMtMjcuM2wxNC4zLTI0LjdjMTYuMS00LjkgMjkuMy0xLjEgMzkuNiAxMS40TDEyNyAzODQuNXptMTM4LjktNTMuOUg4NGMtMTEgMC0yMC05LTIwLTIwczktMjAgMjAtMjBoNTFsNjUuNC0xMTMuMi0yMC41LTM1LjRjLTUuNS05LjYtMi4yLTIxLjggNy4zLTI3LjMgOS42LTUuNSAyMS44LTIuMiAyNy4zIDcuM2w4LjkgMTUuNCA4LjktMTUuNGM1LjUtOS42IDE3LjgtMTIuOCAyNy4zLTcuMyA5LjYgNS41IDEyLjggMTcuOCA3LjMgMjcuM2wtODUuOCAxNDguNmg2Mi4xYzIwLjIgMCAzMS41IDIzLjcgMjIuNyA0MHptOTguMSAwaC0yOWwxOS42IDMzLjljNS41IDkuNiAyLjIgMjEuOC03LjMgMjcuMy05LjYgNS41LTIxLjggMi4yLTI3LjMtNy4zLTMyLjktNTYuOS01Ny41LTk5LjctNzQtMTI4LjEtMTYuNy0yOS00LjgtNTggNy4xLTY3LjggMTMuMSAyMi43IDMyLjcgNTYuNyA1OC45IDEwMmg1MmMxMSAwIDIwIDkgMjAgMjAgMCAxMS4xLTkgMjAtMjAgMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![app-store-ios](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/app-store-ios.svg)
  */
 const AppStoreIos: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

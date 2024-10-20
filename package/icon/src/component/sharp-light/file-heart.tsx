@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-heart?s=sharp-light file-heart}
- * @preview ![file-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ4MEwzMiA0ODAgMzIgMzJsMTYwIDAgMCAxNDQgMCAxNiAxNiAwIDE0NCAwIDAgMjg4ek0yMjQgMzcuM0wzNDYuNyAxNjAgMjI0IDE2MGwwLTEyMi43ek0yMzIgMEwzMiAwIDAgMCAwIDMyIDAgNDgwbDAgMzIgMzIgMCAzMjAgMCAzMiAwIDAtMzIgMC0zMjhMMjMyIDB6TTE3MC4xIDI5Ni41TDE5MiAzMTYuOWwyMS45LTIwLjQgNS4yLTQuOGM0LjMtNCAxMC02LjMgMTUuOS02LjNsMy41IDBjMTAuOSAwIDE5LjggOC45IDE5LjggMTkuOGMwIDUuNS0yLjMgMTAuNy02LjMgMTQuNGwtNjAgNTYuMS02MC01Ni4xYy00LTMuNy02LjMtOS02LjMtMTQuNGMwLTEwLjkgOC45LTE5LjggMTkuOC0xOS44bDMuNSAwYzUuOSAwIDExLjYgMi4yIDE1LjkgNi4zbDUuMiA0Ljh6bS03Ni40IDguN2MwIDE0LjMgNS45IDI4IDE2LjQgMzcuOGw3MC45IDY2LjRMMTkyIDQxOS41bDEwLjktMTAuMiA3MC45LTY2LjRjMTAuNS05LjggMTYuNC0yMy41IDE2LjQtMzcuOGMwLTI4LjYtMjMuMi01MS44LTUxLjgtNTEuOGwtMy41IDBjLTE0IDAtMjcuNSA1LjMtMzcuOCAxNC45bC01LjIgNC44LTUuMi00LjhjLTEwLjMtOS42LTIzLjgtMTQuOS0zNy44LTE0LjlsLTMuNSAwYy0yOC42IDAtNTEuOCAyMy4yLTUxLjggNTEuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-heart.svg)
  */
 const FileHeart: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

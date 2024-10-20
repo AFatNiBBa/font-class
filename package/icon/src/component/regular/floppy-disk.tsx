@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `floppy-disk` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk?s=regular floppy-disk}
- * @preview ![floppy-disk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggOTZsMCAzMjBjMCA4LjggNy4yIDE2IDE2IDE2bDMyMCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTI0NS41YzAtNC4yLTEuNy04LjMtNC43LTExLjNsMzMuOS0zMy45YzEyIDEyIDE4LjcgMjguMyAxOC43IDQ1LjNMNDQ4IDQxNmMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZDMCA2MC43IDI4LjcgMzIgNjQgMzJsMjQ1LjUgMGMxNyAwIDMzLjMgNi43IDQ1LjMgMTguN2w3NC41IDc0LjUtMzMuOSAzMy45TDMyMC44IDg0LjdjLS4zLS4zLS41LS41LS44LS44TDMyMCAxODRjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTE5MiAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNEw4MCA4MCA2NCA4MGMtOC44IDAtMTYgNy4yLTE2IDE2em04MC0xNmwwIDgwIDE0NCAwIDAtODBMMTI4IDgwem0zMiAyNDBhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![floppy-disk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/floppy-disk.svg)
  */
 const FloppyDisk: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

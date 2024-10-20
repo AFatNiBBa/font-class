@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `peseta-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peseta-sign?s=light peseta-sign}
- * @preview ![peseta-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzIuNyAzMkM1MC4yIDMyIDMyIDUwLjIgMzIgNzIuN0wzMiAxNjBsLTE2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTYgMCAwIDExMiAwIDE2MGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMTQ0IDE0NCAwYzc0LjEgMCAxMzUuMi01NiAxNDMuMS0xMjhsMTYuOSAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xNi45IDBjLTgtNzItNjktMTI4LTE0My4xLTEyOEw3Mi43IDMyek0zMTguOSAxNjBMNjQgMTYwbDAtODcuM2MwLTQuOCAzLjktOC43IDguNy04LjdMMjA4IDY0YzU2LjQgMCAxMDMuMSA0MS43IDExMC45IDk2ek02NCAxOTJsMjU0LjkgMGMtNy44IDU0LjMtNTQuNCA5Ni0xMTAuOSA5Nkw2NCAyODhsMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![peseta-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/peseta-sign.svg)
  */
 const PesetaSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

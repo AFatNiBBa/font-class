@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `heat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heat?s=sharp-solid heat}
- * @preview ![heat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDMybDAgMzIgMCA4MGMwIDM0LjYgMTEuMiA2OC4zIDMyIDk2bDE5LjIgMjUuNkMyODguMyAzMDQuNCAzMDQgMzUxLjUgMzA0IDQwMGwwIDQ4IDAgMzItNjQgMCAwLTMyIDAtNDhjMC0zNC42LTExLjItNjguMy0zMi05NmwtMTkuMi0yNS42QzE1OS43IDIzOS42IDE0NCAxOTIuNSAxNDQgMTQ0bDAtODAgMC0zMiA2NCAwek02NCA5NmwwIDMyIDAgMzJjMCAzNC42IDExLjIgNjguMyAzMiA5NmwxOS4yIDI1LjZDMTQ0LjMgMzIwLjQgMTYwIDM2Ny41IDE2MCA0MTZsMCAzMiAwIDMyLTY0IDAgMC0zMiAwLTMyYzAtMzQuNi0xMS4yLTY4LjMtMzItOTZMNDQuOCAyOTQuNEMxNS43IDI1NS42IDAgMjA4LjUgMCAxNjBsMC0zMkwwIDk2bDY0IDB6bTI4OCAzMmwwIDMyYzAgMzQuNiAxMS4yIDY4LjMgMzIgOTZsMTkuMiAyNS42QzQzMi4zIDMyMC40IDQ0OCAzNjcuNSA0NDggNDE2bDAgMzIgMCAzMi02NCAwIDAtMzIgMC0zMmMwLTM0LjYtMTEuMi02OC4zLTMyLTk2bC0xOS4yLTI1LjZDMzAzLjcgMjU1LjYgMjg4IDIwOC41IDI4OCAxNjBsMC0zMiAwLTMyIDY0IDAgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![heat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heat.svg)
  */
 const Heat: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pipe-circle-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-circle-check?s=regular pipe-circle-check}
- * @preview ![pipe-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgOTZjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA4IDI3MiAwIDE0NCAwIDAtOGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0bDAgMzIgMCA0MC43Yy01LjMtLjUtMTAuNi0uNy0xNi0uN2MtMTAuOSAwLTIxLjYgMS0zMiAyLjlsMC0xOC45LTE0NCAwTDQ4IDE3NmwwIDE2MCAyNzQuOSAwYy0xLjkgMTAuNC0yLjkgMjEuMS0yLjkgMzJjMCA1LjQgLjIgMTAuNyAuNyAxNkw0OCAzODRsMCA4YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMzJMMCAxNTJsMC0zMmMwLTEzLjMgMTAuNy0yNCAyNC0yNHpNMzUyIDM2OGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0xODguNy00My4zTDQ4MCAzODUuNGwtMjguNy0yOC43Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMHMtNi4yIDE2LjQgMCAyMi42bDQwIDQwYzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwbDcyLTcyYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pipe-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pipe-circle-check.svg)
  */
 const PipeCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

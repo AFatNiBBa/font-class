@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flask` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask?s=thin flask}
- * @preview ![flask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEzLjUgMjMwLjRjLTYuMi0xMC4xLTkuNS0yMS43LTkuNS0zMy41TDMwNCAxNmwyNCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDMwNCAwIDI4OCAwIDE2MCAwIDE0NCAwIDEyMCAwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDI0IDAgMCAxODAuOGMwIDExLjgtMy4zIDIzLjUtOS41IDMzLjVMMTAuMyA0MDYuMkMzLjYgNDE3LjIgMCA0MjkuNyAwIDQ0Mi42QzAgNDgwLjkgMzEuMSA1MTIgNjkuNCA1MTJsMzA5LjIgMGMzOC4zIDAgNjkuNC0zMS4xIDY5LjQtNjkuNGMwLTEyLjgtMy42LTI1LjQtMTAuMy0zNi40TDMxMy41IDIzMC40ek0xNjAgMTZsMTI4IDAgMCAxODAuOGMwIDE0LjggNC4xIDI5LjMgMTEuOSA0MS45Yy4yIC4zIC40IC42IC42IC44TDM1Ny4yIDMyMCA5MC44IDMyMGw1Ni44LTgwLjRjLjItLjMgLjQtLjYgLjYtLjhjNy44LTEyLjYgMTEuOS0yNy4xIDExLjktNDEuOUwxNjAgMTZ6TTQyNC4zIDQxNWM1IDguMyA3LjcgMTcuOSA3LjcgMjcuNmMwIDI5LjUtMjMuOSA1My40LTUzLjQgNTMuNEw2OS40IDQ5NkMzOS45IDQ5NiAxNiA0NzIuMSAxNiA0NDIuNmMwLTkuNyAyLjctMTkuMyA3LjctMjcuNmw1NS44LTc5IC41IDAgMjg4IDAgLjUgMCA1NS44IDc5eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![flask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/flask.svg)
  */
 const Flask: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

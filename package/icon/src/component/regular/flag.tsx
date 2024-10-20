@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flag` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag?s=regular flag}
- * @preview ![flag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjRDNDggMTAuNyAzNy4zIDAgMjQgMFMwIDEwLjcgMCAyNEwwIDY0IDAgMzUwLjUgMCA0MDBsMCA4OGMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtMTAwIDgwLjMtMjAuMWM0MS4xLTEwLjMgODQuNi01LjUgMTIyLjUgMTMuNGM0NC4yIDIyLjEgOTUuNSAyNC44IDE0MS43IDcuNGwzNC43LTEzYzEyLjUtNC43IDIwLjgtMTYuNiAyMC44LTMwbDAtMjc5LjdjMC0yMy0yNC4yLTM4LTQ0LjgtMjcuN2wtOS42IDQuOGMtNDYuMyAyMy4yLTEwMC44IDIzLjItMTQ3LjEgMGMtMzUuMS0xNy42LTc1LjQtMjItMTEzLjUtMTIuNUw0OCA1MmwwLTI4em0wIDc3LjVsOTYuNi0yNC4yYzI3LTYuNyA1NS41LTMuNiA4MC40IDguOGM1NC45IDI3LjQgMTE4LjcgMjkuNyAxNzUgNi44bDAgMjQxLjgtMjQuNCA5LjFjLTMzLjcgMTIuNi03MS4yIDEwLjctMTAzLjQtNS40Yy00OC4yLTI0LjEtMTAzLjMtMzAuMS0xNTUuNi0xNy4xTDQ4IDMzOC41bDAtMjM3eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/flag.svg)
  */
 const Flag: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

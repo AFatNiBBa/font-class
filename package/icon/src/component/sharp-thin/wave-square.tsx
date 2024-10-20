@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wave-square` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wave-square?s=sharp-thin wave-square}
- * @preview ![wave-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDQwYzAtNC40IDMuNi04IDgtOGwxNjggMGM0LjQgMCA4IDMuNiA4IDhsMCA0MjQgMTUyIDAgMC0yMDhjMC00LjQgMy42LTggOC04bDE0NCAwIDggMCAwIDE2LTggMC0xMzYgMCAwIDIwOGMwIDQuNC0zLjYgOC04IDhsLTE2OCAwYy00LjQgMC04LTMuNi04LThsMC00MjRMMTYwIDQ4bDAgMjA4YzAgNC40LTMuNiA4LTggOEw4IDI2NGwtOCAwIDAtMTYgOCAwIDEzNiAwIDAtMjA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wave-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/wave-square.svg)
  */
 const WaveSquare: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

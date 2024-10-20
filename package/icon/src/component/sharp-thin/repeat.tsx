@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `repeat` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/repeat?s=sharp-thin repeat}
- * @preview ![repeat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ1LjQgMTZsODAgODAtODAgODAtOS40IDAgMC03MiAwLTE2IDAtNzIgOS40IDB6TTMyMCAxNmwwIDcyTDggODggMCA4OGwwIDhMMCAyNjRsMCA4IDE2IDAgMC04IDAtMTYwIDMwNCAwIDAgNzIgMCAxNiAxNiAwIDE2IDAgODQuNy04NC43TDQ0OCA5NiA0MzYuNyA4NC43IDM1MiAwIDMzNiAwIDMyMCAwbDAgMTZ6TTE2Ni42IDQ5NmwtODAtODAgODAtODAgOS40IDAgMCA3MiAwIDE2IDAgNzItOS40IDB6bTI1LjQgMGwwLTcyIDMxMiAwIDggMCAwLTggMC0xNjggMC04LTE2IDAgMCA4IDAgMTYwLTMwNCAwIDAtNzIgMC0xNi0xNiAwLTE2IDBMNzUuMyA0MDQuNyA2NCA0MTZsMTEuMyAxMS4zTDE2MCA1MTJsMTYgMCAxNiAwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![repeat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/repeat.svg)
  */
 const Repeat: typeof Icon = x => (
     <Icon {...x}>

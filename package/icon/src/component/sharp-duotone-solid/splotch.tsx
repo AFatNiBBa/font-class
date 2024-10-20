@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `splotch` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/splotch?s=sharp-duotone-solid splotch}
- * @preview ![splotch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yNTYgMGg4MGwzMC45IDEwM2MxMC44IDM1LjkgMzcuNyA2NC43IDcyLjggNzcuOUw1MTIgMjA4djY0bC03My4yIDU0LjljLTM0IDI1LjUtNTIgNjctNDcuMyAxMDkuM0w0MDAgNTEySDMwNGwtNzMuMy01OC42Yy00LjUtMy42LTkuMy02LjctMTQuNS05LjJjLTE1LjgtNy45LTMzLjctMTAuNC01MS03LjNMMTYgNDY0VjM3NmwyNC4zLTI5LjFjMTQuNi0xNy40IDIyLjYtMzkuNCAyMi42LTYyLjFjMC0xOC44LTUuNS0zNy4yLTE1LjgtNTNMMCAxNjBWODBMMTAxLjEgOTcuMmM0NCA3LjUgODguNS0xMC4xIDExNS41LTQ1LjVMMjU2IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9IiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![splotch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/splotch.svg)
  */
 const Splotch: typeof Icon = x => (
     <Icon {...x}>

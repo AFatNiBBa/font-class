@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-rss` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-rss?s=sharp-thin square-rss}
- * @preview ![square-rss](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDQ4bDAgNDE2TDE2IDQ2NCAxNiA0OGw0MTYgMHpNMTYgMzJMMCAzMiAwIDQ4IDAgNDY0bDAgMTYgMTYgMCA0MTYgMCAxNiAwIDAtMTYgMC00MTYgMC0xNi0xNiAwTDE2IDMyem05NiAzMDRhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em0wIDgwYTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnpNNjQgMTEyYzE2Ny45IDAgMzA0IDEzNi4xIDMwNCAzMDRsMTYgMEMzODQgMjM5LjMgMjQwLjcgOTYgNjQgOTZsMCAxNnpNMjg4IDQxNmMwLTEyMy43LTEwMC4zLTIyNC0yMjQtMjI0bDAgMTZjMTE0LjkgMCAyMDggOTMuMSAyMDggMjA4bDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-rss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-rss.svg)
  */
 const SquareRss: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

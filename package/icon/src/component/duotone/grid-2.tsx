@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `grid-2` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-2?s=duotone grid-2}
- * @preview ![grid-2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAzMjhsMCAxMTJjMCAyMi4xIDE3LjkgNDAgNDAgNDBsMTEyIDBjMjIuMSAwIDQwLTE3LjkgNDAtNDBsMC0xMTJjMC0yMi4xLTE3LjktNDAtNDAtNDBMNzIgMjg4Yy0yMi4xIDAtNDAgMTcuOS00MCA0MHpNMjg4IDcybDAgMTEyYzAgMjIuMSAxNy45IDQwIDQwIDQwbDExMiAwYzIyLjEgMCA0MC0xNy45IDQwLTQwbDAtMTEyYzAtMjIuMS0xNy45LTQwLTQwLTQwTDMyOCAzMmMtMjIuMSAwLTQwIDE3LjktNDAgNDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yMjQgODBjMC0yNi41LTIxLjUtNDgtNDgtNDhMODAgMzJDNTMuNSAzMiAzMiA1My41IDMyIDgwbDAgOTZjMCAyNi41IDIxLjUgNDggNDggNDhsOTYgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTk2ek00ODAgMzM2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC05NiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDk2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDk2IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![grid-2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/grid-2.svg)
  */
 const Grid_2: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M32 328l0 112c0 22.1 17.9 40 40 40l112 0c22.1 0 40-17.9 40-40l0-112c0-22.1-17.9-40-40-40L72 288c-22.1 0-40 17.9-40 40zM288 72l0 112c0 22.1 17.9 40 40 40l112 0c22.1 0 40-17.9 40-40l0-112c0-22.1-17.9-40-40-40L328 32c-22.1 0-40 17.9-40 40z" />
-            <path d="M224 80c0-26.5-21.5-48-48-48L80 32C53.5 32 32 53.5 32 80l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96zM480 336c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96z" />
+        <path d="M224 80c0-26.5-21.5-48-48-48L80 32C53.5 32 32 53.5 32 80l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96zM480 336c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96z" />
     </Icon>
 );
 

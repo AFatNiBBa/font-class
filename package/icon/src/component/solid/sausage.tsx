@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sausage` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sausage?s=solid sausage}
- * @preview ![sausage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDE2MGMwLTQyIDI2LjktNzcuNyA2NC41LTkwLjdMMzY5LjIgMjcuNGMtLjgtMi4yLTEuMi00LjYtMS4yLTdDMzY4IDkuMSAzNzcuMSAwIDM4OC40IDBsNTUuMiAwQzQ1NC45IDAgNDY0IDkuMSA0NjQgMjAuNGMwIDIuNC0uNCA0LjctMS4yIDdMNDQ3LjUgNjkuM0M0ODUuMSA4Mi4zIDUxMiAxMTggNTEyIDE2MGMwIDE5NC40LTE1Ny42IDM1Mi0zNTIgMzUyYy00MiAwLTc3LjctMjYuOS05MC43LTY0LjVMMjcuNCA0NjIuOGMtMi4yIC44LTQuNiAxLjItNyAxLjJDOS4xIDQ2NCAwIDQ1NC45IDAgNDQzLjZsMC01NS4yQzAgMzc3LjEgOS4xIDM2OCAyMC40IDM2OGMyLjQgMCA0LjcgLjQgNyAxLjJsNDEuOSAxNS4yQzgyLjMgMzQ2LjkgMTE4IDMyMCAxNjAgMzIwYzg4LjQgMCAxNjAtNzEuNiAxNjAtMTYwem04MCAwYzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2YzAgMTE0LjktOTMuMSAyMDgtMjA4IDIwOGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmMxMzIuNSAwIDI0MC0xMDcuNSAyNDAtMjQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sausage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sausage.svg)
  */
 const Sausage: typeof Icon = x => (
     <Icon {...x}>

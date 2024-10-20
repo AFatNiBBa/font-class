@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `kite` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kite?s=sharp-duotone-solid kite}
- * @preview ![kite](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDEyOGwwIDQ4IDI0IDAgNDggMCAwIDExMCAyNCAxMCAyNC0xMCAwLTEzNCAwLTI0LTI0IDAtNzIgMEwwIDEyOHpNNzIgMzIybDAgMTY2IDAgMjQgMjQgMCA1NiAwIDkuOSAwIDctNyA5Ni05NiAuNC0uNEw2NDAgMzIxLjRsMC0xLjRjLTUzLjMtNTMuMy0xMDYuNy0xMDYuNy0xNjAtMTYwYy04Ni4zIDg2LjMtMTcyLjUgMTcyLjUtMjU4LjggMjU4LjhjMy40LTE0LjcgNi45LTI5LjUgMTAuMy00NC4ybC0uNCAuNC04OSA4OUwxMjAgNDY0bDAtMTQyTDk2IDMxMiA3MiAzMjJ6TTMyMCAwYzUzLjMgNTMuMyAxMDYuNyAxMDYuNyAxNjAgMTYwQzUzMy4zIDEwNi43IDU4Ni43IDUzLjMgNjQwIDBDNTMzLjMgMCA0MjYuNyAwIDMyMCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDgwIDE2MEwyMjEuMiA0MTguOHMwIDAgMCAwTDMxOC42IDAgMzIwIDAgNDgwIDE2MHpNNjQwIDBsMCAzMjBMNDgwIDE2MCA2NDAgMHptMCAwczAgMCAwIDBzMCAwIDAgMHMwIDAgMCAwek0wIDI1Nmw5NiA0MCA5Ni00MCAwIDk2TDk2IDMxMiAwIDM1MmwwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![kite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/kite.svg)
  */
 const Kite: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 128l0 48 24 0 48 0 0 110 24 10 24-10 0-134 0-24-24 0-72 0L0 128zM72 322l0 166 0 24 24 0 56 0 9.9 0 7-7 96-96 .4-.4L640 321.4l0-1.4c-53.3-53.3-106.7-106.7-160-160c-86.3 86.3-172.5 172.5-258.8 258.8c3.4-14.7 6.9-29.5 10.3-44.2l-.4 .4-89 89L120 464l0-142L96 312 72 322zM320 0c53.3 53.3 106.7 106.7 160 160C533.3 106.7 586.7 53.3 640 0C533.3 0 426.7 0 320 0z" />
-            <path d="M480 160L221.2 418.8s0 0 0 0L318.6 0 320 0 480 160zM640 0l0 320L480 160 640 0zm0 0s0 0 0 0s0 0 0 0s0 0 0 0zM0 256l96 40 96-40 0 96L96 312 0 352l0-96z" />
+        <path d="M480 160L221.2 418.8s0 0 0 0L318.6 0 320 0 480 160zM640 0l0 320L480 160 640 0zm0 0s0 0 0 0s0 0 0 0s0 0 0 0zM0 256l96 40 96-40 0 96L96 312 0 352l0-96z" />
     </Icon>
 );
 

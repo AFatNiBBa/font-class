@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-pawn` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-pawn?s=sharp-solid chess-pawn}
- * @preview ![chess-pawn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE1LjUgMjI0YzI5LjItMTguNCA0OC41LTUwLjkgNDguNS04OGMwLTU3LjQtNDYuNi0xMDQtMTA0LTEwNFM1NiA3OC42IDU2IDEzNmMwIDM3LjEgMTkuNCA2OS42IDQ4LjUgODhMOTYgMjI0bC0zMiAwIDAgNjQgMjguNCAwTDgwIDQwMGwxNjAgMEwyMjcuNiAyODhsMjguNCAwIDAtNjQtMzIgMC04LjUgMHpNMTYgNTEybDI4OCAwIDAtMzItNDgtNDhMNjQgNDMyIDE2IDQ4MGwwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chess-pawn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chess-pawn.svg)
  */
 const ChessPawn: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

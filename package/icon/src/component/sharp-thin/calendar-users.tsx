@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-users` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-users?s=sharp-thin calendar-users}
- * @preview ![calendar-users](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDhsMC04TDIwOCAwbDAgOCAwIDU2LTk2IDBMOTYgNjRsMCAxNiAwIDk2IDAgMTYgMTYgMCA0OCAwIDMyMCAwIDQ4IDAgMTYgMCAwLTE2IDAtOTYgMC0xNi0xNiAwLTk2IDAgMC01NiAwLThMNDE2IDBsMCA4IDAgNTZMMjI0IDY0bDAtNTZ6TTM3OS4yIDUxMmw1LjYtMTYtMTI5LjYgMCA1LjYgMTYgMTE4LjQgMHpNMjA4IDgwbDAgNDAgMCA4IDE2IDAgMC04IDAtNDAgMTkyIDAgMCA0MCAwIDggMTYgMCAwLTggMC00MCA5NiAwIDAgOTYtNDE2IDAgMC05NiA5NiAwek0xMTIgMjQwYTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4ek00My41IDQzMmwxMzYuOSAwIDIxLjMgNjRMMjIuMiA0OTZsMjEuMy02NHptMTc1LjEgNjRMMTkyIDQxNiAzMiA0MTYgNS4zIDQ5NiAwIDUxMmwxNi45IDAgMTkwLjMgMCAxNi45IDAtNS4zLTE2ek0xOTIgMzA0QTgwIDgwIDAgMSAwIDMyIDMwNGE4MCA4MCAwIDEgMCAxNjAgMHptMjcyIDBhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAwek00MzguMiA0OTZsMjEuMy02NCAxMzYuOSAwIDIxLjMgNjQtMTc5LjYgMHpNNjA4IDQxNmwtMTYwIDAtMjYuNyA4MEw0MTYgNTEybDE2LjkgMCAxOTAuMyAwIDE2LjkgMC01LjMtMTZMNjA4IDQxNnptLTgwLTMyYTgwIDgwIDAgMSAwIDAtMTYwIDgwIDgwIDAgMSAwIDAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![calendar-users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/calendar-users.svg)
  */
 const CalendarUsers: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rocket-launch` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rocket-launch?s=sharp-solid rocket-launch}
- * @preview ![rocket-launch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMwNWwwIDEyN0wyMjQgNTEybDAtMTQyYzAtMjEuOC04LjYtNDIuNi0yNC01OGMtMTUuMy0xNS4zLTM2LjEtMjQtNTcuOS0yNEwwIDI4Ny42IDgwIDEyOGwxMjcgMEMyOTQuMS0xNS41IDQzMS44LTguNCA1MDIuNyA5LjNDNTIwLjQgODAuMiA1MjcuNSAyMTcuOSAzODQgMzA1em00MC0xNzdhNDAgNDAgMCAxIDAgLTgwIDAgNDAgNDAgMCAxIDAgODAgMHpNMTY2LjUgNDcwQzExNyA1MTkuNSAuNSA1MTEuNSAuNSA1MTEuNXMtOC0xMTYuNSA0MS41LTE2NmMzNC40LTM0LjQgOTAuMS0zNC40IDEyNC41IDBzMzQuNCA5MC4xIDAgMTI0LjV6bS00Ni43LTM2LjRjMTEuNC0xMS40IDExLjQtMzAgMC00MS40cy0zMC0xMS40LTQxLjQgMGMtMTYuNSAxNi41LTEzLjggNTUuMi0xMy44IDU1LjJzMzguNyAyLjcgNTUuMi0xMy44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rocket-launch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/rocket-launch.svg)
  */
 const RocketLaunch: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-clip` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-clip?s=solid pen-clip}
- * @preview ![pen-clip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUzLjMgMTkuM2wzOS40IDM5LjRjMjUgMjUgMjUgNjUuNSAwIDkwLjVsLTUyLjEgNTIuMXMwIDAgMCAwbC0xLTFzMCAwIDAgMGwtMTYtMTYtOTYtOTYtMTctMTcgNTIuMS01Mi4xYzI1LTI1IDY1LjUtMjUgOTAuNSAwek0yNDEgMTE0LjljLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwTDEwNSAyMTdjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwcy05LjQtMjQuNiAwLTMzLjlMMTczLjEgODFjMjguMS0yOC4xIDczLjctMjguMSAxMDEuOCAwTDI4OCA5NC4xbDE3IDE3IDk2IDk2IDE2IDE2IDEgMS0xNyAxN0wyMjkuNSA0MTIuNWMtNDggNDgtMTA5LjIgODAuOC0xNzUuOCA5NC4xbC0yNSA1Yy03LjkgMS42LTE2LS45LTIxLjctNi42cy04LjEtMTMuOC02LjYtMjEuN2w1LTI1YzEzLjMtNjYuNiA0Ni4xLTEyNy44IDk0LjEtMTc1LjhMMjU0LjEgMTI4IDI0MSAxMTQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pen-clip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pen-clip.svg)
  */
 const PenClip: typeof Icon = x => (
     <Icon {...x}>

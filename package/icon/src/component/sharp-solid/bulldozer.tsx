@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bulldozer` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bulldozer?s=sharp-solid bulldozer}
- * @preview ![bulldozer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMzIgMCAxMjggMCAxOS44IDAgOC44IDE3LjdMMjkxLjggMTkybDI4LjIgMCAwLTY0IDAtMzIgNjQgMCAwIDMyIDAgNjQgNjQgMCAwIDk2IDY0IDAgMC02NCAwLTExLjIgNy04LjggNjQtODAgNTAgNDAtNTcgNzEuMiAwIDUyLjggMCA2NCAwIDUwLjcgNTQuNiA1NC42LTQ1LjMgNDUuMy02NC02NC05LjQtOS40IDAtMTMuMyAwLTY0LTQyLjggMGM2LjkgMTQuNSAxMC44IDMwLjggMTAuOCA0OGMwIDYxLjktNTAuMSAxMTItMTEyIDExMmwtMjU2IDBDNTAuMSA1MTIgMCA0NjEuOSAwIDQwMGMwLTMwLjUgMTIuMi01OC4yIDMyLTc4LjRMMzIgMjU2bDAtNjRMMzIgNjRsMC0zMnptODAgMzIwYy0yNi41IDAtNDggMjEuNS00OCA0OHMyMS41IDQ4IDQ4IDQ4bDI1NiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4cy0yMS41LTQ4LTQ4LTQ4bC0yNTYgMHpNMTcyLjIgOTZMOTYgOTZsMCA5NiAxMjQuMiAwLTQ4LTk2ek0xMjAgMzc2YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMjE2IDI0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bS01Ni0yNGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6TTE3NiA0MDBhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bulldozer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bulldozer.svg)
  */
 const Bulldozer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

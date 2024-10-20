@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `usb` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/usb?s=brands usb}
- * @preview ![usb](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQxLjUgMjU2YzAgMy4xLTEuNyA2LjEtNC41IDcuNUw1NDcuOSAzMTdjLTEuNC44LTIuOCAxLjQtNC41IDEuNC0xLjQgMC0zLjEtLjMtNC41LTEuMS0yLjgtMS43LTQuNS00LjUtNC41LTcuOHYtMzUuNkgyOTUuN2MyNS4zIDM5LjYgNDAuNSAxMDYuOSA2OS42IDEwNi45SDM5MlYzNTRjMC01IDMuOS04LjkgOC45LTguOUg0OTBjNSAwIDguOSAzLjkgOC45IDguOXY4OS4xYzAgNS0zLjkgOC45LTguOSA4LjloLTg5LjFjLTUgMC04LjktMy45LTguOS04Ljl2LTI2LjdoLTI2LjdjLTc1LjQgMC04MS4xLTE0Mi41LTEyNC43LTE0Mi41SDE0MC4zYy04LjEgMzAuNi0zNS45IDUzLjUtNjkgNTMuNUMzMiAzMjcuMyAwIDI5NS4zIDAgMjU2czMyLTcxLjMgNzEuMy03MS4zYzMzLjEgMCA2MSAyMi44IDY5IDUzLjUgMzkuMSAwIDQzLjkgOS41IDc0LjYtNjAuNEMyNTUgODguNyAyNzMgOTUuNyAzMjMuOCA5NS43YzcuNS0yMC45IDI3LTM1LjYgNTAuNC0zNS42IDI5LjUgMCA1My41IDIzLjkgNTMuNSA1My41cy0yMy45IDUzLjUtNTMuNSA1My41Yy0yMy40IDAtNDIuOS0xNC44LTUwLjQtMzUuNkgyOTRjLTI5LjEgMC00NC4zIDY3LjQtNjkuNiAxMDYuOWgzMTAuMXYtMzUuNmMwLTMuMyAxLjctNi4xIDQuNS03LjggMi44LTEuNyA2LjQtMS40IDguOS4zbDg5LjEgNTMuNWMyLjggMS4xIDQuNSA0LjEgNC41IDcuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![usb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/usb.svg)
  */
 const Usb: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

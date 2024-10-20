@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side-heart` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-heart?s=solid head-side-heart}
- * @preview ![head-side-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyMjQuMkMwIDEwMC42IDEwMC4yIDAgMjI0IDBsMjQgMGM5NS4yIDAgMTgxLjIgNjkuMyAxOTcuMyAxNjAuMmMyLjMgMTMgNi44IDI1LjcgMTUuMSAzNmw0MiA1Mi42YzYuMiA3LjggOS42IDE3LjQgOS42IDI3LjRjMCAyNC4yLTE5LjYgNDMuOC00My44IDQzLjhMNDQ4IDMyMGwwIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0bC02NCAwIDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJMOTYgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTcyLjdjMC0xNi43LTYuOS0zMi41LTE3LjEtNDUuOEMxNi42IDMyMi40IDAgMjc0LjEgMCAyMjQuMnptMTEyLTM1YzAgMTYuMiA2LjUgMzEuOCAxNy45IDQzLjNsODIuNyA4Mi43YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwbDgyLjctODIuN2MxMS41LTExLjUgMTcuOS0yNy4xIDE3LjktNDMuM2MwLTMzLjgtMjcuNC02MS4zLTYxLjMtNjEuM2MtMTYuMiAwLTMxLjggNi41LTQzLjMgMTcuOWwtNy40IDcuNC03LjQtNy40Yy0xMS41LTExLjUtMjcuMS0xNy45LTQzLjMtMTcuOWMtMzMuOCAwLTYxLjMgMjcuNC02MS4zIDYxLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![head-side-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/head-side-heart.svg)
  */
 const HeadSideHeart: typeof Icon = x => (
     <Icon {...x}>

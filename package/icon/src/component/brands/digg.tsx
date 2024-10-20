@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `digg` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/digg?s=brands digg}
- * @preview ![digg](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODEuNyAxNzIuM0gwdjE3NC40aDEzMi43Vjk2aC01MXY3Ni4zem0wIDEzMy40SDUwLjl2LTkyLjNoMzAuOHY5Mi4zem0yOTcuMi0xMzMuNHYxNzQuNGg4MS44djI4LjVoLTgxLjhWNDE2SDUxMlYxNzIuM0gzNzguOXptODEuOCAxMzMuNGgtMzAuOHYtOTIuM2gzMC44djkyLjN6bS0yMzUuNiA0MWg4Mi4xdjI4LjVoLTgyLjFWNDE2aDEzMy4zVjE3Mi4zSDIyNS4xdjE3NC40em01MS4yLTEzMy4zaDMwLjh2OTIuM2gtMzAuOHYtOTIuM3pNMTUzLjMgOTZoNTEuM3Y1MWgtNTEuM1Y5NnptMCA3Ni4zaDUxLjN2MTc0LjRoLTUxLjNWMTcyLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![digg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/digg.svg)
  */
 const Digg: typeof Icon = x => (
     <Icon {...x}>

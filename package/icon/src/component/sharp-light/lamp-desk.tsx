@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lamp-desk` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp-desk?s=sharp-light lamp-desk}
- * @preview ![lamp-desk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDk2bC05LjQtOS40TDMyMC42IDQ4LjZDMzEwIDM4IDI5NS42IDMyIDI4MC42IDMyQzI0OS4zIDMyIDIyNCA1Ny4zIDIyNCA4OC42YzAgMTUgNiAyOS40IDE2LjYgNDBsMzguMSAzOC4xTDI4OCAxNzZsMCAxMy4zIDAgNjkuNSAxNiAxNkw0NjYuNyAxMTJsLTE2LTE2LTY5LjUgMEwzNjggOTZ6bTk2LTMybDI1LjQgMjUuNEw1MTIgMTEybC0yMi42IDIyLjZMMzI2LjYgMjk3LjQgMzA0IDMyMGwtMjIuNi0yMi42TDI1NiAyNzJsMC04Mi43LTE5LjMtMTkuMy05MC44IDkwLjhMMjA0LjMgNDgwIDM2OCA0ODBsMTYgMCAwIDMyLTE2IDAtMTc2IDBMMTYgNTEyIDAgNTEybDAtMzIgMTYgMCAxNTUuMiAwTDExMi41IDI2MC4xbC0yLjQtOC45IDYuNS02LjUgOTcuNS05Ny41Yy0xNC4zLTE2LjEtMjIuMi0zNy0yMi4yLTU4LjZDMTkyIDM5LjcgMjMxLjcgMCAyODAuNiAwYzIzLjUgMCA0NiA5LjMgNjIuNiAyNS45TDM4MS4zIDY0IDQ2NCA2NHpNMzc4LjYgMjg3LjlMNDAxLjUgMjY1YzYuNCA0LjQgMTQuMiA3IDIyLjUgN2MyMi4xIDAgNDAtMTcuOSA0MC00MGMwLTguNC0yLjYtMTYuMS03LTIyLjVsMjIuOC0yMi44QzQ5MCAxOTkgNDk2IDIxNC44IDQ5NiAyMzJjMCAzOS44LTMyLjIgNzItNzIgNzJjLTE3LjIgMC0zMy02LTQ1LjQtMTYuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lamp-desk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lamp-desk.svg)
  */
 const LampDesk: typeof Icon = x => (
     <Icon {...x}>

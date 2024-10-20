@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kitchen-set` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kitchen-set?s=sharp-regular kitchen-set}
- * @preview ![kitchen-set](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDE0NEE5NiA5NiAwIDEgMCA0OCAxNDRhOTYgOTYgMCAxIDAgMTkyIDB6bTQ2IDI0Yy0xMS40IDY4LjEtNzAuNyAxMjAtMTQyIDEyMEM2NC41IDI4OCAwIDIyMy41IDAgMTQ0UzY0LjUgMCAxNDQgMGM3MS40IDAgMTMwLjYgNTEuOSAxNDIgMTIwbDY2IDAgMC00MCA0OCAwIDk2IDAgNDggMCAwIDQ4IDAgMzIgMCA0OC00OCAwLTk2IDAtNDggMCAwLTQwLTY2IDB6TTgwIDE0NGE2NCA2NCAwIDEgMSAxMjggMEE2NCA2NCAwIDEgMSA4MCAxNDR6TTM3NiAyNzJsMC0zMiA0OCAwIDAgMzIgNDAgMCA0OCAwIDMyIDAgMCA0OC0zMiAwIDAgMTQ0IDAgNDgtNDggMC0xMjggMC00OCAwIDAtNDggMC0xNDQtMzIgMCAwLTQ4IDMyIDAgNDggMCA0MCAwem04OCAxOTJsMC0xNDQtMTI4IDAgMCAxNDQgMTI4IDB6TTE2MCAzMjBsMTYgMGMyNi41IDAgNDggMjEuNSA0OCA0OHMtMjEuNSA0OC00OCA0OGwtMTYgMCAwIDMyTDMyIDQ0OGwwLTEyOCA5NiAwIDMyIDB6bTAgNjRsMTYgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMTYgMCAwIDMyek0wIDQ2NGwyMjQgMCAwIDQ4TDAgNTEybDAtNDh6TTQwMCAxMjhsMCAzMiA5NiAwIDAtMzItOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![kitchen-set](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/kitchen-set.svg)
  */
 const KitchenSet: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-medical?s=sharp-light head-side-medical}
- * @preview ![head-side-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjI0QzMyIDExOCAxMTggMzIgMjI0IDMybDI0IDBjODguNCAwIDE2MCA3MS42IDE2MCAxNjBsMCA3LjIgNS40IDQuOEw0ODAgMjYzLjJsMCA0MC44LTQ4IDAtMTYgMCAwIDE2IDAgOTYtMTEyIDAtMTYgMCAwIDE2IDAgNjQgMCAxNiAzMiAwIDAtMTYgMC00OCAxMTIgMCAxNiAwIDAtMTYgMC05NiA0OCAwIDE2IDAgMC0xNiAwLTY0IDAtNy4yLTUuNC00LjgtNjYuOC01OS4zQzQzNiA4MiAzNTEuNiAwIDI0OCAwTDIyNCAwQzEwMC4zIDAgMCAxMDAuMyAwIDIyNGMwIDYxIDI0LjQgMTE2LjQgNjQgMTU2LjhMNjQgNDk2bDAgMTYgMzIgMCAwLTE2IDAtMTIxLjkgMC02LjgtNC45LTQuN0M1NC42IDMyNy42IDMyIDI3OC40IDMyIDIyNHpNMjA4IDk2bC0xNiAwIDAgMTYgMCA0OC00OCAwLTE2IDAgMCAxNiAwIDY0IDAgMTYgMTYgMCA0OCAwIDAgNDggMCAxNiAxNiAwIDY0IDAgMTYgMCAwLTE2IDAtNDggNDggMCAxNiAwIDAtMTYgMC02NCAwLTE2LTE2IDAtNDggMCAwLTQ4IDAtMTYtMTYgMC02NCAwem0xNiA4MGwwLTQ4IDMyIDAgMCA0OCAwIDE2IDE2IDAgNDggMCAwIDMyLTQ4IDAtMTYgMCAwIDE2IDAgNDgtMzIgMCAwLTQ4IDAtMTYtMTYgMC00OCAwIDAtMzIgNDggMCAxNiAwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![head-side-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/head-side-medical.svg)
  */
 const HeadSideMedical: typeof Icon = x => (
     <Icon {...x}>

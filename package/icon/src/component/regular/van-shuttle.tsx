@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `van-shuttle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/van-shuttle?s=regular van-shuttle}
- * @preview ![van-shuttle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggOTZsMCA5NiAxMjggMCAwLTExMkw2NCA4MGMtOC44IDAtMTYgNy4yLTE2IDE2em0wIDE0NGwwIDgwYzAgOC44IDcuMiAxNiAxNiAxNmwxMi44IDBjMTYuNi0yOC43IDQ3LjYtNDggODMuMi00OHM2Ni42IDE5LjMgODMuMiA0OGwxNTMuNyAwYzE2LjYtMjguNyA0Ny42LTQ4IDgzLjItNDhzNjYuNiAxOS4zIDgzLjIgNDhsMTIuOCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTgwLTIzMiAwLTE2MCAwTDQ4IDI0MHptMTc2LTQ4bDExMiAwIDAtMTEyTDIyNCA4MGwwIDExMnptMTYwIDBsMTgwLjEgMEw0NzEuMyA4Mi44Yy0xLjUtMS44LTMuNy0yLjgtNi4xLTIuOEwzODQgODBsMCAxMTJ6TTY0MCAzMjBjMCAzNS4zLTI4LjcgNjQtNjQgNjRjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZsLTEyOCAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2Yy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDEzNiAwIDE2MCAwIDEwNS4yIDBjMTYuNCAwIDMyIDcuMiA0Mi43IDE5LjdMNjI2LjcgMTkxLjVjOC42IDEwLjEgMTMuMyAyMyAxMy4zIDM2LjNsMCA5Mi4yek01MjggMzg0YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTE2MCA0MzJhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![van-shuttle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/van-shuttle.svg)
  */
 const VanShuttle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

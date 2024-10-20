@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left?s=thin turn-left}
- * @preview ![turn-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDI3MmwwIDg5LjFjMCAzLjgtMy4xIDYuOS02LjkgNi45Yy0xLjggMC0zLjUtLjctNC43LTEuOUwxNi44IDIyNS45Yy0uNS0uNS0uOC0xLjItLjgtMS45cy4zLTEuNCAuOC0xLjlMMTY0LjQgODEuOWMxLjMtMS4yIDMtMS45IDQuNy0xLjljMy44IDAgNi45IDMuMSA2LjkgNi45bDAgODkuMWMwIDguOCA3LjIgMTYgMTYgMTZsMjA4IDBjNTMgMCA5NiA0MyA5NiA5NmwwIDE1MmMwIDEzLjMtMTAuNyAyNC0yNCAyNGwtMTYgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xNTJjMC0xNy43LTE0LjMtMzItMzItMzJsLTIwOCAwYy04LjggMC0xNiA3LjItMTYgMTZ6TTUuOCAyMzcuNUwxNTMuNCAzNzcuN2M0LjMgNCA5LjkgNi4zIDE1LjggNi4zYzEyLjYgMCAyMi45LTEwLjIgMjIuOS0yMi45bDAtNzMuMSAwLTE2IDE2IDAgMTkyIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTUyYzAgMjIuMSAxNy45IDQwIDQwIDQwbDE2IDBjMjIuMSAwIDQwLTE3LjkgNDAtNDBsMC0xNTJjMC02MS45LTUwLjEtMTEyLTExMi0xMTJsLTE5MiAwLTE2IDAgMC0xNiAwLTczLjFDMTkyIDc0LjIgMTgxLjggNjQgMTY5LjEgNjRjLTUuOSAwLTExLjUgMi4zLTE1LjggNi4zTDUuOCAyMTAuNUMyLjEgMjE0IDAgMjE4LjkgMCAyMjRzMi4xIDEwIDUuOCAxMy41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![turn-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/turn-left.svg)
  */
 const TurnLeft: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hands-bound` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-bound?s=sharp-solid hands-bound}
- * @preview ![hands-bound](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJMOTYgMCAzMiAwbDAgMzIgMCAzMiAwIDMyIDAgODAgMCAxNiAwIDMyIDAgMTEuOCA3LjcgOUwxMzEuNiAzNTJsLTMuNiAwLTI0IDAgMCA0OCAyNCAwIDMyIDAgMTI4IDAgNjQgMCAxMjggMCAzMiAwIDI0IDAgMC00OC0yNCAwLTMuNiAwIDkxLjktMTA3LjIgNy43LTkgMC0xMS44IDAtMzIgMC0xNiAwLTgwIDAtMzIgMC0zMiAwLTMyTDU0NCAwbDAgMzIgMCAzMiAwIDMyIDAgNjcuOS03Ni4yIDg2LjRMNDMyLjEgMjI2bDM5LjgtNDQuOCAyMS4zLTIzLjktNDcuOC00Mi41LTIxLjMgMjMuOS02NCA3Mi04LjEgOS4xIDAgMTIuMiAwIDg4IDAgMzItNjQgMCAwLTMyIDAtODggMC0xMi4yLTguMS05LjEtNjQtNzItMjEuMy0yMy45LTQ3LjggNDIuNSAyMS4zIDIzLjlMMjA3LjkgMjI2bC0zNS43IDI0LjJMOTYgMTYzLjkgOTYgOTZsMC0zMiAwLTMyem0zMiA0MDBsLTI0IDAgMCA0OCAyNCAwIDMyIDAgMCAzMiAxMjggMCAwLTMyIDY0IDAgMCAzMiAxMjggMCAwLTMyIDMyIDAgMjQgMCAwLTQ4LTI0IDAtMzIgMC0xMjggMC02NCAwLTEyOCAwLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hands-bound](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hands-bound.svg)
  */
 const HandsBound: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-hair-buns` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-buns?s=sharp-solid user-hair-buns}
- * @preview ![user-hair-buns](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDEyOGwwIDE2YzAgNDQuMi0zNS44IDgwLTgwIDgwcy04MC0zNS44LTgwLTgwbDAtMTZjMC01LjUgLjYtMTAuOCAxLjYtMTZsNDYuNCAwIDMyLTMyIDMyIDMyIDQ2LjQgMGMxIDUuMiAxLjYgMTAuNSAxLjYgMTZ6TTQwIDE5Mmw2NS4zIDBjMTkgNDYuOSA2NSA4MCAxMTguNyA4MHM5OS43LTMzLjEgMTE4LjctODBsNjUuMyAwIDAtMTI4LTczLjEgMEMzMTIuNyAyNS43IDI3MS40IDAgMjI0IDBzLTg4LjcgMjUuNy0xMTAuOSA2NEw0MCA2NGwwIDEyOHpNNDQ4IDUxMkwzODQgMzIwIDY0IDMyMCAwIDUxMmw0NDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-hair-buns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-hair-buns.svg)
  */
 const UserHairBuns: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

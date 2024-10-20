@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building-columns` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-columns?s=sharp-regular building-columns}
- * @preview ![building-columns](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTkyTDAgMTkybDAtNDhMMjU2IDAgNTEyIDE0NGwwIDQ4LTQ4IDBMNDggMTkyem0zNjYuMS00OEwyNTYgNTUuMSA5Ny45IDE0NGwxMzAuNCAwYy0yLjctNC43LTQuMy0xMC4yLTQuMy0xNmMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyYzAgNS44LTEuNiAxMS4zLTQuMyAxNmwxMzAuNCAwek02NCAyMjRsNDggMCAwIDE2MCA2NCAwIDAtMTYwIDQ4IDAgMCAxNjAgNjQgMCAwLTE2MCA0OCAwIDAgMTYwIDY0IDAgMC0xNjAgNDggMCAwIDE2MCA4IDAgMjQgMCAwIDQ4LTI0IDBMNTYgNDMybC0yNCAwIDAtNDggMjQgMCA4IDAgMC0xNjB6TTI0IDQ2NGw0NjQgMCAyNCAwIDAgNDgtMjQgMEwyNCA1MTIgMCA1MTJsMC00OCAyNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![building-columns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/building-columns.svg)
  */
 const BuildingColumns: typeof Icon = x => (
     <Icon {...x}>

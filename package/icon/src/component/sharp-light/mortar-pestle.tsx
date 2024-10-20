@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mortar-pestle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mortar-pestle?s=sharp-light mortar-pestle}
- * @preview ![mortar-pestle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjUyLjMgMTYwbDUzLjkgMEw0NjQuNiA0My40bDEuOSAyLjJMMzUyIDE2MGw0NS4zIDBMNTEwLjEgNDcuMiA0NjkuNSAwIDI1Mi4zIDE2MHpNNDgwIDE5MmwtMzIgMEw2NCAxOTJsLTMyIDAtMTYgMEwwIDE5MmwwIDMyIDE2IDAgMTYgMCAwIDMyYzAgNzEuNiAzMi43IDEzMC4xIDkzLjggMTYzYzkuNCA1IDE5LjQgOS41IDMwLjEgMTMuM2MtNi44IDguNS0xMi41IDE3LjgtMTYuOSAyNy45Yy0yLjggNi40LTUuMiAxMy02LjkgMTkuOWMtMi42IDEwLjItNCAyMS00IDMybDMyIDAgMTkyIDAgMzIgMGMwLTExLTEuNC0yMS44LTQtMzJjLTEuOC02LjktNC4xLTEzLjUtNi45LTE5LjljLTQuNS0xMC0xMC4yLTE5LjQtMTYuOS0yNy45YzEwLjctMy44IDIwLjctOC4yIDMwLjEtMTMuM2M2MS4xLTMyLjkgOTMuOC05MS40IDkzLjgtMTYzbDAtMzIgMTYgMCAxNiAwIDAtMzItMTYgMC0xNiAwek0zNDYuNSA0ODBsLTE4MS4xIDBjMy42LTEwLjIgOC44LTE5LjUgMTUuNC0yNy44bDI4LTM1LjEtNDIuMy0xNUM5OS4zIDM3OC4yIDY0IDMyNS40IDY0IDI1NmwwLTMyIDM4NCAwIDAgMzJjMCA2OS40LTM1LjMgMTIyLjItMTAyLjYgMTQ2LjFsLTQyLjMgMTUgMjggMzUuMWM2LjYgOC4zIDExLjkgMTcuNiAxNS40IDI3Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mortar-pestle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mortar-pestle.svg)
  */
 const MortarPestle: typeof Icon = x => (
     <Icon {...x}>

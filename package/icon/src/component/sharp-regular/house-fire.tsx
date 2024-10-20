@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-fire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-fire?s=sharp-regular house-fire}
- * @preview ![house-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAzLjUgMTMuN0wyODggLjUgMjcyLjUgMTMuN2wtMjY0IDIyNCAzMS4xIDM2LjZMNjQgMjUzLjUgNjQgNDg4bDAgMjQgMjQgMCAyODUuNiAwYy0xOS4zLTEyLjktMzYuMi0yOS4yLTQ5LjctNDhMMjQwIDQ2NGwwLTE0NCA1MS43IDBjMy44LTE2LjYgMTAuMy0zMi43IDE4LjQtNDhMMjE2IDI3MmwtMjQgMCAwIDI0IDAgMTY4LTgwIDAgMC0yNTEuMkwyODggNjMuNWwxMTMuMSA5NmMxMS44LTExIDI0LTIxLjYgMzYuNS0zMkwzMDMuNSAxMy43ek01MTMgMjI0LjFjLTMyLjMtMzcuNS02NS02NC02NS02NHMtMTI4IDEwMy42LTEyOCAxOTJzNzEuNiAxNjAgMTYwIDE2MHMxNjAtNzEuNiAxNjAtMTYwYzAtNzMuNi05Ni0xNjAtOTYtMTYwcy0xMy45IDEyLjUtMzEgMzJ6TTUzMCA0MzNjLTE1IDEwLTMxIDE1LTQ5IDE1Yy00NSAwLTgxLTI5LTgxLTc4YzAtMjQgMTUtNDUgNDUtODJjNCA1IDYyIDc5IDYyIDc5bDM2LTQyYzMgNCA1IDggNyAxMmMxOCAzMyAxMCA3NS0yMCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![house-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-fire.svg)
  */
 const HouseFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

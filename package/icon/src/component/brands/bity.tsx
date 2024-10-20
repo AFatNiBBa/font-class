@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bity` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bity?s=brands bity}
- * @preview ![bity](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzguNCA2Ny4yQzE3My44LTIyIDMyNC41LTI0IDQyMS41IDcxYzE0LjMgMTQuMS02LjQgMzcuMS0yMi40IDIxLjUtODQuOC04Mi40LTIxNS44LTgwLjMtMjk4LjktMy4yLTE2LjMgMTUuMS0zNi41LTguMy0yMS44LTIyLjF6bTk4LjkgNDE4LjZjMTkuMyA1LjcgMjkuMy0yMy42IDcuOS0zMEM3MyA0MjEuOSA5LjQgMzA2LjEgMzcuNyAxOTQuOGM1LTE5LjYtMjQuOS0yOC4xLTMwLjItNy4xLTMyLjEgMTI3LjQgNDEuMSAyNTkuOCAxNjkuOCAyOTguMXptMTQ4LjEtMmMxMjEuOS00MC4yIDE5Mi45LTE2Ni45IDE2NC40LTI5MS00LjUtMTkuNy0zNC45LTEzLjgtMzAgNy45IDI0LjIgMTA3LjctMzcuMSAyMTcuOS0xNDMuMiAyNTMuNC0yMS4yIDctMTAuNCAzNiA4LjggMjkuN3ptLTYyLjktNzlsLjItNzEuOGMwLTguMi02LjYtMTQuOC0xNC44LTE0LjgtOC4yIDAtMTQuOCA2LjctMTQuOCAxNC44bC0uMiA3MS44YzAgOC4yIDYuNiAxNC44IDE0LjggMTQuOHMxNC44LTYuNiAxNC44LTE0Ljh6bTcxLTI2OWMyLjEgOTAuOSA0LjcgMTMxLjktODUuNSAxMzIuNS05Mi41LS43LTg2LjktNDQuMy04NS41LTEzMi41IDAtMjEuOC0zMi41LTE5LjYtMzIuNSAwdjcxLjZjMCA2OS4zIDYwLjcgOTAuOSAxMTggOTAuMSA1Ny4zLjggMTE4LTIwLjggMTE4LTkwLjF2LTcxLjZjMC0xOS42LTMyLjUtMjEuOC0zMi41IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bity](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/bity.svg)
  */
 const Bity: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

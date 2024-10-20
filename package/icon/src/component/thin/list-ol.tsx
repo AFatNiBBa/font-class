@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `list-ol` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-ol?s=thin list-ol}
- * @preview ![list-ol](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAgNDhjMC00LjQgMy42LTggOC04bDMyIDBjNC40IDAgOCAzLjYgOCA4bDAgMTYwIDQwIDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTk2IDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsNDAgMEw3MiA1NiA0OCA1NmMtNC40IDAtOC0zLjYtOC04em03MS4yIDI3MC43Yy0xMy4zLTE1LjItMzYuNC0xNi45LTUxLjctMy43TDM3LjIgMzM0LjFjLTMuNCAyLjktOC40IDIuNS0xMS4zLS45cy0yLjUtOC40IC45LTExLjNsMjIuMy0xOS4xYzIyLTE4LjkgNTUuMS0xNi41IDc0LjIgNS4zYzE3LjkgMjAuNSAxNy40IDUxLjEtMS4yIDcxTDQyLjUgNDY0bDkzLjUgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOEwyNCA0ODBjLTMuMiAwLTYuMS0xLjktNy4zLTQuOHMtLjctNi4zIDEuNS04LjdsOTIuMi05OC40YzEzLTEzLjggMTMuMy0zNS4yIC44LTQ5LjV6TTIwOCA4OGwyODggMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMjg4IDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LTh6bTAgMTYwbDI4OCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC0yODggMGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOHptMCAxNjBsMjg4IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTI4OCAwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![list-ol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/list-ol.svg)
  */
 const ListOl: typeof Icon = x => (
     <Icon {...x}>

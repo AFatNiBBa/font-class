@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flying-disc` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flying-disc?s=sharp-solid flying-disc}
- * @preview ![flying-disc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMuNyA0NTYuM0MtMS41IDQzMS4xLTUuOSAzODkuNiA3LjEgMzQxLjRjMy4yIDkuNSA4LjQgMTguNSAxNi4yIDI2LjNjMTUuNiAxNS42IDM2IDIwLjcgNTUgMjAuNWMxOC44LS4xIDM4LjgtNS4zIDU4LjItMTMuM2MzOS0xNi4xIDgyLTQ2IDEyMS4yLTg1LjFzNjktODIuMiA4NS4xLTEyMS4yYzgtMTkuNCAxMy4yLTM5LjQgMTMuMy01OC4yYy4xLTE5LTUtMzkuNS0yMC41LTU1Yy03LjgtNy44LTE2LjgtMTMtMjYuMy0xNi4yYzQ4LjItMTMgODkuOC04LjYgMTE0LjkgMTYuNmM1NS4zIDU1LjMgMTAuNSAxODkuOC0xMDAuMiAzMDAuNVM3OSA1MTEuNiAyMy43IDQ1Ni4zek0yMzUuMSAyNjcuMUMxNjEuNCAzNDAuOSA3Ni43IDM3NS44IDQ2IDM0NXM0LjEtMTE1LjQgNzcuOS0xODkuMlMyODIuMyA0Ny4yIDMxMyA3Ny45cy00LjEgMTE1LjQtNzcuOSAxODkuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![flying-disc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/flying-disc.svg)
  */
 const FlyingDisc: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

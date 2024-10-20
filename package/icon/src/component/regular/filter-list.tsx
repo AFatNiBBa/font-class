@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `filter-list` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter-list?s=regular filter-list}
- * @preview ![filter-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDEuMiA2NEMxOC41IDY0IDAgODIuNSAwIDEwNS4yYzAgMTAuNCAzLjkgMjAuNCAxMSAyOC4xbDkzIDEwMC4xIDAgMTI2YzAgMTMuNCA2LjcgMjYgMTggMzMuNGw3NS41IDQ5LjhjNS4zIDMuNSAxMS42IDUuNCAxOCA1LjRjMTggMCAzMi42LTE0LjYgMzIuNi0zMi42bDAtMTgyIDkzLTEwMC4xYzcuMS03LjYgMTEtMTcuNiAxMS0yOC4xQzM1MiA4Mi41IDMzMy41IDY0IDMxMC44IDY0TDQxLjIgNjR6TTE0NS42IDIwNy43TDU2LjggMTEybDIzOC41IDAtODguOCA5NS43Yy00LjEgNC40LTYuNCAxMC4zLTYuNCAxNi4zbDAgMTYyLjgtNDgtMzEuN0wxNTIgMjI0YzAtNi4xLTIuMy0xMS45LTYuNC0xNi4zek0zNDQgMzkyYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDE0NCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0xNDQgMHpNMzIwIDI1NmMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxNDQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMTQ0IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0ek00MDggNzJjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsODAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtODAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![filter-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/filter-list.svg)
  */
 const FilterList: typeof Icon = x => (
     <Icon {...x}>

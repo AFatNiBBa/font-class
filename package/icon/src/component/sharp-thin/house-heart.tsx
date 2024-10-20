@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-heart` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-heart?s=sharp-thin house-heart}
- * @preview ![house-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkzLjIgOS45TDI4OCA1LjVsLTUuMiA0LjUtMjgwIDI0MCAxMC40IDEyLjFMNjQgMjE4LjUgNjQgNTA0bDAgOCA4IDAgNDMyIDAgOCAwIDAtOCAwLTI4NS41IDUwLjggNDMuNSAxMC40LTEyLjEtMjgwLTI0MHpNODAgNDk2bDAtMjkxLjJMMjg4IDI2LjUgNDk2IDIwNC44IDQ5NiA0OTYgODAgNDk2ek0yODAuMyAyNDEuMmMtMTEuNS0xMS0yNi44LTE3LjItNDIuNy0xNy4ybC0yLjQgMGMtMzIuNyAwLTU5LjIgMjYuNS01OS4yIDU5LjJjMCAxNi4xIDYuNiAzMS41IDE4LjIgNDIuN2w4Mi44IDc5LjZMMjg4IDQxNi4xbDExLjEtMTAuNyA4Mi44LTc5LjZjMTEuNi0xMS4yIDE4LjItMjYuNiAxOC4yLTQyLjdjMC0zMi43LTI2LjUtNTkuMi01OS4yLTU5LjJsLTIuNCAwYy0xNS45IDAtMzEuMiA2LjItNDIuNyAxNy4ybC03LjcgNy40LTcuNy03LjR6bS0zLjQgMTguOUwyODggMjcwLjhsMTEuMS0xMC43IDcuNy03LjRjOC41LTguMiAxOS44LTEyLjcgMzEuNi0xMi43bDIuNCAwYzIzLjkgMCA0My4yIDE5LjMgNDMuMiA0My4yYzAgMTEuNy00LjggMjMtMTMuMiAzMS4xTDI4OCAzOTMuOWwtODIuOC03OS42Yy04LjUtOC4xLTEzLjItMTkuNC0xMy4yLTMxLjFjMC0yMy45IDE5LjMtNDMuMiA0My4yLTQzLjJsMi40IDBjMTEuOCAwIDIzLjEgNC42IDMxLjYgMTIuN2w3LjcgNy40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/house-heart.svg)
  */
 const HouseHeart: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

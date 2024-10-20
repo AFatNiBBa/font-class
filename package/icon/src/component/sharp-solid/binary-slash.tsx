@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `binary-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary-slash?s=sharp-solid binary-slash}
- * @preview ![binary-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDM3NC43bDAtNTQuNyAwLTMyLTMyIDAtNzkuNyAwLTgyLjQtNjQgMi4xIDAgMC0zMiAwLTE2MCAwLTMyTDI4OCAwIDE2MCAwIDEyOCAwbDAgMzIgMCA0NC42TDQ4LjQgMTQuOCAyOS40IC4xIDAgMzggMTkgNTIuNyA1OTEuNSA0OTcuMmwxOSAxNC43TDYzOS45IDQ3NGwtMTktMTQuN0w1MTIgMzc0Ljd6TTE5MiAxMjYuM0wxOTIgNjRsNjQgMCAwIDk2LTIwLjYgMEwxOTIgMTI2LjN6TTQ0Ni44IDQ0OEwzODQgNDQ4bDAtNDkuNS02NC01MC40TDMyMCA0ODBsMCAzMiAzMiAwIDEyOCAwIDMyIDAgMC0xMi42TDQ0Ni44IDQ0OHpNMzUyIDBsMCA2NCAzMiAwIDE2IDAgMCA5Ni0xNiAwLTMyIDAgMCA2NCAzMiAwIDQ4IDAgNDggMCAzMiAwIDAtNjQtMzIgMC0xNiAwIDAtMTI4IDAtMzJMNDMyIDAgMzg0IDAgMzUyIDB6TTEyOCAyODhsMCA2NCAzMiAwIDE2IDAgMCA5Ni0xNiAwLTMyIDAgMCA2NCAzMiAwIDQ4IDAgNDggMCAzMiAwIDAtNjQtMzIgMC0xNiAwIDAtMTI4IDAtMzItMzIgMC00OCAwLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![binary-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/binary-slash.svg)
  */
 const BinarySlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

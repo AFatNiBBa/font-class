@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `user-hoodie` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hoodie?s=sharp-duotone-solid user-hoodie}
- * @preview ![user-hoodie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMjggMTU3LjNDMTI4IDIzMiAyMjQgMjg4IDIyNCAyODhzOTYtNTYgOTYtMTMwLjdjMC01MS41LTQzLTkzLjMtOTYtOTMuM3MtOTYgNDEuOC05NiA5My4zeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzI3LjMgMjgyLjJDMzYyIDI1Mi45IDM4NCAyMDkgMzg0IDE2MEMzODQgNzEuNiAzMTIuNCAwIDIyNCAwUzY0IDcxLjYgNjQgMTYwYzAgNDkgMjIgOTIuOSA1Ni43IDEyMi4yTDExOCAzMDRsLTU0IDBMMCA1MTJsNDQ4IDBMMzg0IDMwNGwtNTQgMC0yLjctMjEuOHpNMTYwIDM4NGwwIDE2IDAgNjQgMCAxNi0zMiAwIDAtMTYgMC02NCAwLTE2IDMyIDB6bTE2MCAwbDAgMTYgMCA2NCAwIDE2LTMyIDAgMC0xNiAwLTY0IDAtMTYgMzIgMHpNMTI4IDE1Ny4zYzAtNTEuNSA0My05My4zIDk2LTkzLjNzOTYgNDEuOCA5NiA5My4zQzMyMCAyMzIgMjI0IDI4OCAyMjQgMjg4cy05Ni01Ni05Ni0xMzAuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-hoodie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-hoodie.svg)
  */
 const UserHoodie: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M128 157.3C128 232 224 288 224 288s96-56 96-130.7c0-51.5-43-93.3-96-93.3s-96 41.8-96 93.3z" />
-            <path d="M327.3 282.2C362 252.9 384 209 384 160C384 71.6 312.4 0 224 0S64 71.6 64 160c0 49 22 92.9 56.7 122.2L118 304l-54 0L0 512l448 0L384 304l-54 0-2.7-21.8zM160 384l0 16 0 64 0 16-32 0 0-16 0-64 0-16 32 0zm160 0l0 16 0 64 0 16-32 0 0-16 0-64 0-16 32 0zM128 157.3c0-51.5 43-93.3 96-93.3s96 41.8 96 93.3C320 232 224 288 224 288s-96-56-96-130.7z" />
+        <path d="M327.3 282.2C362 252.9 384 209 384 160C384 71.6 312.4 0 224 0S64 71.6 64 160c0 49 22 92.9 56.7 122.2L118 304l-54 0L0 512l448 0L384 304l-54 0-2.7-21.8zM160 384l0 16 0 64 0 16-32 0 0-16 0-64 0-16 32 0zm160 0l0 16 0 64 0 16-32 0 0-16 0-64 0-16 32 0zM128 157.3c0-51.5 43-93.3 96-93.3s96 41.8 96 93.3C320 232 224 288 224 288s-96-56-96-130.7z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crosshairs-simple` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crosshairs-simple?s=sharp-thin crosshairs-simple}
- * @preview ![crosshairs-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk1LjkgMjQ4TDM5MiAyNDhsLTggMCAwIDE2IDggMCAxMDMuOSAwQzQ5MS43IDM5MC4yIDM5MC4yIDQ5MS43IDI2NCA0OTUuOUwyNjQgMzkybDAtOC0xNiAwIDAgOCAwIDEwMy45QzEyMS44IDQ5MS43IDIwLjMgMzkwLjIgMTYuMSAyNjRMMTIwIDI2NGw4IDAgMC0xNi04IDBMMTYuMSAyNDhDMjAuMyAxMjEuOCAxMjEuOCAyMC4zIDI0OCAxNi4xTDI0OCAxMjBsMCA4IDE2IDAgMC04IDAtMTAzLjlDMzkwLjIgMjAuMyA0OTEuNyAxMjEuOCA0OTUuOSAyNDh6TTI1NiA1MTJBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![crosshairs-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/crosshairs-simple.svg)
  */
 const CrosshairsSimple: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road-bridge` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-bridge?s=sharp-solid road-bridge}
- * @preview ![road-bridge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBMNjQwIDBsMCA1MTItMzIwIDBMMzIwIDB6TTUwNCAyMDBsLTQ4IDAgMCAyNCAwIDY0IDAgMjQgNDggMCAwLTI0IDAtNjQgMC0yNHptMCAxODRsMC0yNC00OCAwIDAgMjQgMCA2NCAwIDI0IDQ4IDAgMC0yNCAwLTY0em0wLTM0NGwtNDggMCAwIDI0IDAgNjQgMCAyNCA0OCAwIDAtMjQgMC02NCAwLTI0ek0zMiA5NmwyNTYgMCAwIDY0LTQwIDAgMCA2NCA0MCAwIDAgOTZjLTUzIDAtOTYgNDMtOTYgOTZsMCA5Ni05NiAwIDAtOTZjMC01My00My05Ni05Ni05NmwwLTk2IDcyIDAgMC02NC00MCAwTDAgMTYwIDAgOTZsMzIgMHptMTY4IDY0bC04MCAwIDAgNjQgODAgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![road-bridge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/road-bridge.svg)
  */
 const RoadBridge: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

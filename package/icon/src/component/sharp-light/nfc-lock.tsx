@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-lock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-lock?s=sharp-light nfc-lock}
- * @preview ![nfc-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDY0TDMyIDY0bDAgMzg0IDI4OCAwIDAgMzJMMzIgNDgwIDAgNDgwbDAtMzJMMCA2NCAwIDMybDMyIDAgMzg0IDAgMzIgMCAwIDMyIDAgOTcuMWMtMTEuMyAxLjYtMjIuMSA0LjktMzIgOS42TDQxNiA2NHptLTMyIDQ4bDAgODEuNmMtMTkuOCAyMC4yLTMyIDQ3LjktMzIgNzguNGwwLTE0NC0xMTIgMCAwIDgyLjdjMTguNiA2LjYgMzIgMjQuNCAzMiA0NS4zYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4YzAtMjAuOSAxMy40LTM4LjcgMzItNDUuM2wwLTk4LjcgMC0xNiAxNiAwIDE0NCAwIDE2IDAgMCAxNnpNOTYgMzg0bDIyNCAwIDAgMzJMODAgNDE2bC0xNiAwIDAtMTYgMC0yODggMC0xNiAxNiAwIDY0IDAgMTYgMCAwIDMyLTE2IDAtNDggMCAwIDI1NnpNMjI0IDI0MGExNiAxNiAwIDEgMCAwIDMyIDE2IDE2IDAgMSAwIDAtMzJ6bTI0MC0xNmMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCA0OCA5NiAwIDAtNDhjMC0yNi41LTIxLjUtNDgtNDgtNDh6bS04MCA0OGMwLTQ0LjIgMzUuOC04MCA4MC04MHM4MCAzNS44IDgwIDgwbDAgNDggMzIgMCAwIDMyIDAgMTI4IDAgMzItMzIgMC0xNjAgMC0zMiAwIDAtMzIgMC0xMjggMC0zMiAzMiAwIDAtNDh6bTE2MCA4MGwtMTYwIDAgMCAxMjggMTYwIDAgMC0xMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![nfc-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/nfc-lock.svg)
  */
 const NfcLock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

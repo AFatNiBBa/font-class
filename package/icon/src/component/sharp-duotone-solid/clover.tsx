@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `clover` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clover?s=sharp-duotone-solid clover}
- * @preview ![clover](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMjAuOSAxMjYuOUwxNjAgMTkyIDk0LjkgMTUyLjlDODUuMSAxNDcuMSA3NCAxNDQgNjIuNiAxNDRDMjggMTQ0IDAgMTcyIDAgMjA2LjZWMjI0bDMyIDMyTDAgMjg4djE3LjRDMCAzNDAgMjggMzY4IDYyLjYgMzY4YzExLjQgMCAyMi41LTMuMSAzMi4yLTguOUwxNjAgMzIwbC0zOS4xIDY1LjFjLTUuOCA5LjctOC45IDIwLjktOC45IDMyLjJjMCAzNC42IDI4IDYyLjYgNjIuNiA2Mi42SDE5MmwzMi0zMiAzMiAzMmgxNy40YzM0LjYgMCA2Mi42LTI4IDYyLjYtNjIuNmMwLTExLjQtMy4xLTIyLjUtOC45LTMyLjJMMjg4IDMyMGw2NS4xIDM5LjFjOS43IDUuOCAyMC45IDguOSAzMi4yIDguOWMzNC42IDAgNjIuNi0yOCA2Mi42LTYyLjZWMjg4bC0zMi0zMiAzMi0zMlYyMDYuNmMwLTM0LjYtMjgtNjIuNi02Mi42LTYyLjZjLTExLjQgMC0yMi41IDMuMS0zMi4yIDguOUwyODggMTkybDM5LjEtNjUuMWM1LjgtOS43IDguOS0yMC45IDguOS0zMi4yQzMzNiA2MCAzMDggMzIgMjczLjQgMzJIMjU2TDIyNCA2NCAxOTIgMzJIMTc0LjZDMTQwIDMyIDExMiA2MCAxMTIgOTQuNmMwIDExLjQgMy4xIDIyLjUgOC45IDMyLjJ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9IiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/clover.svg)
  */
 const Clover: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

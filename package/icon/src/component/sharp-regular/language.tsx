@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `language` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/language?s=sharp-regular language}
- * @preview ![language](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDY0TDAgNjQgMCA0NDhsMjcyIDAgMzIgMCAxNiAwIDI3MiAwIDQ4IDAgMC00OCAwLTI4OCAwLTQ4LTQ4IDBMMzIwIDY0bC0xNiAwLTMyIDB6bTMyMCA0OGwwIDI4OC0yNzIgMCAwLTI4OCAyNzIgMHpNMTQ0LjkgMTYwbDMwLjMgMCAzLjQgOC42IDQ3LjggMTE5LjZjLjEgLjMgLjIgLjYgLjMgLjlsMjMuOCA1OS42IDEuNCAzLjQtNDMuMSAwLTE0LjQtMzYtNjguOSAwLTE0LjQgMzYtNDMuMSAwIDEuNC0zLjRMOTMuMyAyODljLjEtLjMgLjItLjYgLjQtLjlsNDcuOC0xMTkuNiAzLjQtOC42ek0xNjAgMjI5LjlMMTQxLjUgMjc2bDM2LjkgMEwxNjAgMjI5Ljl6TTQ3NiAxNjRsLTQwIDAgMCAyMCAwIDQtNTIgMC0yMCAwIDAgNDAgMjAgMCA3MiAwIDM0IDAtMjEuNiA1MS43Yy0yLjYtMi4zLTUuMi00LjgtNy43LTcuM2wtMTQuNi0xNC42TDQzMiAyNDMuNyA0MDMuNyAyNzJsMTQuMSAxNC4xIDE0LjQgMTQuNEw0MDkgMzA5LjNsLTE4LjcgNyAxNCAzNy41IDE4LjctNyA0NS4zLTE3YzIuMSAxLjQgNC4zIDIuOCA2LjUgNC4xbDE4LjkgMTEuMyAxNy4yIDEwLjMgMjAuNi0zNC4zLTE3LjEtMTAuMy0xMi40LTcuNEw1MzMuMyAyMjhsMi43IDAgMjAgMCAwLTQwLTIwIDAtMTYgMC00NCAwIDAtNCAwLTIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![language](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/language.svg)
  */
 const Language: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

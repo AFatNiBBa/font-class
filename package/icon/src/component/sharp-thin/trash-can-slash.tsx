@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-can-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-slash?s=sharp-thin trash-can-slash}
- * @preview ![trash-can-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDMxNS44TDUxMiAxMTJsLTE2IDAgMCAxOTEuMiAxNiAxMi42em0tODgtNjkuNWwwLTg2LjQgMC04LTE2IDAgMCA4IDAgNzMuNyAxNiAxMi42em0tMTEyIDk1bDAgNzQuNiAwIDggMTYgMCAwLTggMC02Mi0xNi0xMi42em0tOTYtNzUuOEwyMTYgNDE2bDAgOCAxNiAwIDAtOCAwLTEzNy43LTE2LTEyLjZ6bS03Mi01Ni44bC0xNi0xMi42TDEyOCA1MDRsMCA4IDggMCAzNjggMCA4IDAgMC04IDAtNC43LTQuMi0zLjNMNDk2IDQ5NmwtNDggMC0zMDQgMCAwLTI4Ny4yek0xOTMgNjRsMjAuMyAxNkw1NDQgODBsMC0xNkw0MjguNCA2NCAzOTAuOCAzLjggMzg4LjQgMCAzODQgMCAyNTYgMGwtNC40IDAtMi40IDMuOEwyMTEuNiA2NCAxOTMgNjR6TTM3OS42IDE2bDMwIDQ4TDIzMC40IDY0bDMwLTQ4IDExOS4xIDB6TTE2LjIgNUw5LjkgMCAwIDEyLjVsNi4zIDVMNjIzLjggNTA3bDYuMyA1IDkuOS0xMi41LTYuMy01TDE2LjIgNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trash-can-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/trash-can-slash.svg)
  */
 const TrashCanSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

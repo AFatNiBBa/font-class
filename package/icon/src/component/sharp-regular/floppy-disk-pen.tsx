@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `floppy-disk-pen` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk-pen?s=sharp-regular floppy-disk-pen}
- * @preview ![floppy-disk-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0ODBsNDggMCAyMTAgMCA2LjktNDhMNDggNDMyIDQ4IDgwbDMyIDAgMCAxMDQgMCAyNCAyNCAwIDE5MiAwIDI0IDAgMC0yNCAwLTEwMC4xIDgwIDgwIDAgMTIwLjUgNDgtNDggMC05Mi40TDMzNiAzMiA0OCAzMiAwIDMyIDAgODAgMCA0MzJsMCA0OHpNMTI4IDE2MGwwLTgwIDE0NCAwIDAgODAtMTQ0IDB6bTk2IDIyNGE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHpNNTA1IDIyNGwtNDEuMyA0MS4zIDcxIDcxTDU3NiAyOTQuOWwtNzEtNzF6bS02My45IDYzLjlMMjk5LjkgNDI5LjEgMjg4IDUxMmw4Mi45LTExLjlMNTEyLjEgMzU4LjlsLTcxLTcxeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![floppy-disk-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/floppy-disk-pen.svg)
  */
 const FloppyDiskPen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

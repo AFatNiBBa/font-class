@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mizuni` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mizuni?s=brands mizuni}
- * @preview ![mizuni](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDhDMTExIDggMCAxMTkuMSAwIDI1NmMwIDEzNyAxMTEgMjQ4IDI0OCAyNDhzMjQ4LTExMSAyNDgtMjQ4QzQ5NiAxMTkuMSAzODUgOCAyNDggOHptLTgwIDM1MS45Yy0zMS40IDEwLjYtNTguOCAyNy4zLTgwIDQ4LjJWMTM2YzAtMjIuMSAxNy45LTQwIDQwLTQwczQwIDE3LjkgNDAgNDB2MjIzLjl6bTEyMC05LjljLTEyLjktMi0yNi4yLTMuMS0zOS44LTMuMS0xMy44IDAtMjcuMiAxLjEtNDAuMiAzLjFWMTM2YzAtMjIuMSAxNy45LTQwIDQwLTQwczQwIDE3LjkgNDAgNDB2MjE0em0xMjAgNTcuN2MtMjEuMi0yMC44LTQ4LjYtMzcuNC04MC00OFYxMzZjMC0yMi4xIDE3LjktNDAgNDAtNDBzNDAgMTcuOSA0MCA0MHYyNzEuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mizuni](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/mizuni.svg)
  */
 const Mizuni: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

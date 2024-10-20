@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-smile` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-smile?s=sharp-thin location-smile}
- * @preview ![location-smile](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDE5MmMwLTk3LjItNzguOC0xNzYtMTc2LTE3NlMxNiA5NC44IDE2IDE5MmMwIDI0LjEgMTAuNiA1NS4zIDI4LjIgOTBjMTcuNSAzNC4yIDQwLjkgNzAgNjQuNyAxMDIuNmMyMy43IDMyLjYgNDcuNCA2MS44IDY1LjMgODIuOGM3IDguMiAxMyAxNS4yIDE3LjggMjAuNmM0LjgtNS40IDEwLjgtMTIuNCAxNy44LTIwLjZjMTcuOC0yMSA0MS42LTUwLjIgNjUuMy04Mi44YzIzLjctMzIuNiA0Ny4yLTY4LjQgNjQuNy0xMDIuNmMxNy43LTM0LjcgMjguMi02NS45IDI4LjItOTB6bTE2IDBjMCA5NS45LTE0MC44IDI2Mi4yLTE4MS4zIDMwOGMtNi44IDcuNy0xMC43IDEyLTEwLjcgMTJzLTQtNC4zLTEwLjctMTJDMTQwLjggNDU0LjIgMCAyODcuOSAwIDE5MkMwIDg2IDg2IDAgMTkyIDBTMzg0IDg2IDM4NCAxOTJ6TTEyOCAxNDRhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem0xMTIgMTZhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHpNODkuMyAyNjguNGwxMy4zLTguOUMxMTIuMyAyNzQgMTQ0LjIgMzA0IDE5MiAzMDRzNzkuNy0zMCA4OS4zLTQ0LjRsMTMuMyA4LjlDMjgyLjkgMjg2IDI0Ni42IDMyMCAxOTIgMzIwcy05MC45LTM0LTEwMi43LTUxLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![location-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/location-smile.svg)
  */
 const LocationSmile: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

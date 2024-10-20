@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mug` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug?s=light mug}
- * @preview ![mug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgOTZsMCAyNTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMTkyIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNTYtMTYgMEw2NCA5NnptMzUyIDBsMCAxNjAgNDggMGM0NC4yIDAgODAtMzUuOCA4MC04MHMtMzUuOC04MC04MC04MGwtNDggMHptMCAxOTJsMCA2NGMwIDUzLTQzIDk2LTk2IDk2bC0xOTIgMGMtNTMgMC05Ni00My05Ni05NkwzMiA5NmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMDQgMCAxNiAwIDgwIDBjNjEuOSAwIDExMiA1MC4xIDExMiAxMTJzLTUwLjEgMTEyLTExMiAxMTJsLTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mug.svg)
  */
 const Mug: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

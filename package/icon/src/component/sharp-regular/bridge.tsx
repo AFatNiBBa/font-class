@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bridge` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge?s=sharp-regular bridge}
- * @preview ![bridge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMzJMMCAzMiAwIDgwbDI0IDAgNDggMCAwIDY0LTQ4IDBMMCAxNDRsMCA0OCAyNCAwIDQ4IDAgNDggMCA4MCAwIDQ4IDAgMzA0IDAgMjQgMCAwLTQ4LTI0IDAtNDggMCAwLTY0IDQwIDAgMjQgMCAwLTQ4LTI0IDBMMjQgMzJ6TTQ1NiA4MGwwIDY0LTgwIDAgMC02NCA4MCAwek0zMjggODBsMCA2NC04MCAwIDAtNjQgODAgMHpNMjAwIDgwbDAgNjQtODAgMCAwLTY0IDgwIDB6TTI0IDI0MEwwIDI0MGwwIDQ4IDI0IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAxMjAgMCAyNCAyNCAwIDk2IDAgMjQgMCAwLTI0IDAtOTZjMC0zOS44IDMyLjItNzIgNzItNzJzNzIgMzIuMiA3MiA3MmwwIDk2IDAgMjQgMjQgMCA5NiAwIDI0IDAgMC0yNCAwLTEyMGMwLTI2LjUgMjEuNS00OCA0OC00OGwyNCAwIDAtNDgtMjQgMGMtNTMgMC05NiA0My05NiA5NmwwIDk2LTQ4IDAgMC03MmMwLTY2LjMtNTMuNy0xMjAtMTIwLTEyMHMtMTIwIDUzLjctMTIwIDEyMGwwIDcyLTQ4IDAgMC05NmMwLTUzLTQzLTk2LTk2LTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bridge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bridge.svg)
  */
 const Bridge: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `archway` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/archway?s=thin archway}
- * @preview ![archway](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0MGMwLTQuNCAzLjYtOCA4LThsMzIgMCA0MzIgMCAzMiAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC0yNCAwIDAgNDE2IDI0IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTMyIDAtNDAgMC03MiAwYy00LjQgMC04LTMuNi04LThsMC0xMjBjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZsMCAxMjBjMCA0LjQtMy42IDgtOCA4bC03MiAwLTQwIDBMOCA0ODBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsMjQgMEwzMiA0OCA4IDQ4Yy00LjQgMC04LTMuNi04LTh6bTQ4IDhsMCA0MTYgMzIgMCA2NCAwIDAtMTEyYzAtNjEuOSA1MC4xLTExMiAxMTItMTEyczExMiA1MC4xIDExMiAxMTJsMCAxMTIgNjQgMCAzMiAwIDAtNDE2TDQ4IDQ4em01NiA5NmwzMDQgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMzA0IDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![archway](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/archway.svg)
  */
 const Archway: typeof Icon = x => (
     <Icon {...x}>

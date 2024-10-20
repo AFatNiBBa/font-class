@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-pie-simple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pie-simple?s=solid chart-pie-simple}
- * @preview ![chart-pie-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk1LjQgMjQwTDI3MiAyNDBsMC0yMjMuNGMwLTkgNy0xNi42IDE2LTE2LjZDNDExLjcgMCA1MTIgMTAwLjMgNTEyIDIyNGMwIDktNy42IDE2LTE2LjYgMTZ6TTE5MC4yIDM3LjJjMTguMS0zLjggMzMuOCAxMSAzMy44IDI5LjVMMjI0IDI4OGwyMjEuMyAwYzE4LjUgMCAzMy4zIDE1LjcgMjkuNSAzMy44QzQ1MS45IDQzMC41IDM1NS41IDUxMiAyNDAgNTEyQzEwNy41IDUxMiAwIDQwNC42IDAgMjcyQzAgMTU2LjUgODEuNSA2MC4xIDE5MC4yIDM3LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-pie-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chart-pie-simple.svg)
  */
 const ChartPieSimple: typeof Icon = x => (
     <Icon {...x}>

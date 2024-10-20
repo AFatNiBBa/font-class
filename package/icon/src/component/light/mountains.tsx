@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mountains` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountains?s=light mountains}
- * @preview ![mountains](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDQyNC4xYzAgMTMuMi0xMC43IDIzLjktMjMuOSAyMy45TDU1LjkgNDQ4QzQyLjcgNDQ4IDMyIDQzNy4zIDMyIDQyNC4xYzAtNC41IDEuMy04LjkgMy43LTEyLjdMMjUyLjQgNjZjLjgtMS4zIDIuMi0yIDMuNi0yczIuOSAuOCAzLjYgMkw0NzYuMyA0MTEuNGMyLjQgMy44IDMuNyA4LjIgMy43IDEyLjd6bS00ODAgMEMwIDQ1NSAyNSA0ODAgNTUuOSA0ODBsNDAwLjIgMCAxMjIuOCAwYzMzLjggMCA2MS4xLTI3LjQgNjEuMS02MS4xYzAtMTEuMi0zLjEtMjIuMi04LjktMzEuOGwtMTMyLTIxNi4zQzQ5NSAxNjQuMSA0ODcuOCAxNjAgNDgwIDE2MHMtMTUgNC4xLTE5LjEgMTAuN2wtNDguMiA3OUwyODYuOCA0OWMtNi42LTEwLjYtMTguMy0xNy0zMC44LTE3cy0yNC4xIDYuNC0zMC44IDE3TDguNiAzOTQuNEMzIDQwMy4zIDAgNDEzLjYgMCA0MjQuMXpNNDMxLjcgMjgwTDQ4MCAyMDAuOSA2MDMuNyA0MDMuN2MyLjggNC42IDQuMyA5LjggNC4zIDE1LjJjMCAxNi4xLTEzIDI5LjEtMjkuMSAyOS4xbC03Mi4yIDBjMy40LTcuMyA1LjQtMTUuNCA1LjQtMjMuOWMwLTEwLjUtMy0yMC44LTguNi0yOS43TDQzMS43IDI4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mountains](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mountains.svg)
  */
 const Mountains: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

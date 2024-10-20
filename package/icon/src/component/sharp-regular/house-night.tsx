@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-night` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-night?s=sharp-regular house-night}
- * @preview ![house-night](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ2IDUuM0MxMzUuMyAxLjggMTIzLjggMCAxMTIgMEM1MC4xIDAgMCA1MC4xIDAgMTEyczUwLjEgMTEyIDExMiAxMTJjNDAuNiAwIDc2LjEtMjEuNiA5NS44LTUzLjljLTkuOSAzLjgtMjAuNiA1LjktMzEuOCA1LjljLTQ4LjYgMC04OC0zOS40LTg4LTg4YzAtMzguMSAyNC4yLTcwLjUgNTgtODIuN3pNMjU2IDBMMjM0LjcgNDIuNyAxOTIgNjRsNDIuNyAyMS4zTDI1NiAxMjhsMjEuMy00Mi43TDMyMCA2NCAyNzcuMyA0Mi43IDI1NiAwek05NiAzMjBMNzQuNyAzNjIuNyAzMiAzODRsNDIuNyAyMS4zTDk2IDQ0OGwyMS4zLTQyLjdMMTYwIDM4NGwtNDIuNy0yMS4zTDk2IDMyMHpNNDE1IDEwOS4zbC0xNS0xMi0xNSAxMi0yMDAgMTYwLTE4LjcgMTUgMzAgMzcuNSAxOC43LTE1IDktNy4yTDIyNCA0ODhsMCAyNCAyNCAwIDMwNCAwIDI0IDAgMC0yNCAwLTE4OC41IDkgNy4yIDE4LjcgMTUgMzAtMzcuNS0xOC43LTE1LTIwMC0xNjB6TTUyOCAyNjEuMUw1MjggNDY0bC0yNTYgMCAwLTIwMi45TDQwMCAxNTguNyA1MjggMjYxLjF6TTM1MiAyODhsMCA5NiA5NiAwIDAtOTYtOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![house-night](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-night.svg)
  */
 const HouseNight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

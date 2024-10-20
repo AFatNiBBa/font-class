@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lightbulb-cfl` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-cfl?s=sharp-light lightbulb-cfl}
- * @preview ![lightbulb-cfl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDI4bDAtMjAuNS0xOS45IDUtMTI4IDMyTDAgNDcuNSAwIDYwbDAgNjcuNUwwIDE0MHMwIDAgMCAwbDAgMjAuNSAwIDQ3TDAgMjIwbDAgMjAuNUwwIDMwMGwwIDIwLjUgMTkuOS01IDExMS45LTI4IC4xIDAgNjQtMTYgOTIuMS0yMyAwIDQ3LTk5LjkgMjUtMTIuMSAzIDAgMTIuNSAwIDQ4LTMyIDAgMC01MC41LTMyIDggMCA0Mi41LTE2IDAtMzIgMCAwIDMyIDAgMzIgMCAzMiAzMiAwIDQ4IDAgMCAxNiAwIDE2IDMyIDAgMC0xNiAwLTE2IDQ4IDAgMzIgMCAwLTMyIDAtMzIgMC0zMi0zMiAwLTE2IDAgMC0zNS41IDk5LjktMjUgMTIuMS0zIDAtMTIuNSAwLTgwIDAtMjAuNXMwIDAgMCAwbDAtNDcgMC0xMi41IDAtMjAuNUwzMjAgNjhsMC0yMC41LTE5LjkgNUwxNjAgODcuNSAxNjAgMjh6TTI4OCAyMTUuNWwtMTYzLjkgNDFMMzIgMjc5LjVsMC00NyAyNTYtNjQgMCA0N3ptLTEyOC05NWwxMjgtMzIgMCA0Ny0yNTYgNjQgMC00NyAxMTUuOS0yOSAxMi4xLTN6bS0zMi0yNWwtOTYgMjQgMC00NyA5Ni0yNCAwIDQ3ek0yMjQgNDQ4bC00OCAwLTMyIDAtNDggMCAwLTMyIDEyOCAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lightbulb-cfl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lightbulb-cfl.svg)
  */
 const LightbulbCfl: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-repeat` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-repeat?s=light arrows-repeat}
- * @preview ![arrows-repeat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUuMiAyNzJDNi40IDI3MS41LS40IDI2NCAwIDI1NS4ybC40LThDNS4xIDE1My41IDgyLjQgODAgMTc2LjIgODBsMjE0LjQgMEwzMzMuMiAyNy44Yy02LjUtNS45LTctMTYuMS0xLjEtMjIuNnMxNi4xLTcgMjIuNi0xLjFsODggODBjMy4zIDMgNS4yIDcuMyA1LjIgMTEuOHMtMS45IDguOC01LjIgMTEuOGwtODggODBjLTYuNSA1LjktMTYuNyA1LjUtMjIuNi0xLjFzLTUuNS0xNi43IDEuMS0yMi42TDM5MC42IDExMmwtMjE0LjQgMGMtNzYuNyAwLTE0MCA2MC4yLTE0My44IDEzNi44bC0uNCA4Yy0uNCA4LjgtOCAxNS42LTE2LjggMTUuMnptNDgxLjYtMzJjOC44IC40IDE1LjYgOCAxNS4yIDE2LjhsLS40IDhjLTQuNyA5My43LTgyIDE2Ny4yLTE3NS44IDE2Ny4ybC0yMTQuNCAwIDU3LjQgNTIuMmM2LjUgNS45IDcgMTYuMSAxLjEgMjIuNnMtMTYuMSA3LTIyLjYgMS4xbC04OC04MGMtMy4zLTMtNS4yLTcuMy01LjItMTEuOHMxLjktOC44IDUuMi0xMS44bDg4LTgwYzYuNS01LjkgMTYuNy01LjUgMjIuNiAxLjFzNS41IDE2LjctMS4xIDIyLjZMMTIxLjQgNDAwbDIxNC40IDBjNzYuNyAwIDE0MC02MC4yIDE0My44LTEzNi44bC40LThjLjQtOC44IDgtMTUuNiAxNi44LTE1LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrows-repeat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrows-repeat.svg)
  */
 const ArrowsRepeat: typeof Icon = x => (
     <Icon {...x}>

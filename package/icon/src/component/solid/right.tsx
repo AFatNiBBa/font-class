@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right?s=solid right}
- * @preview ![right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDM4LjYgMjMzLjRjMTIuNSAxMi41IDEyLjUgMzIuOCAwIDQ1LjNsLTE2MCAxNjBjLTkuMiA5LjItMjIuOSAxMS45LTM0LjkgNi45cy0xOS44LTE2LjYtMTkuOC0yOS42bDAtOTZMNDAgMzIwYy0yMi4xIDAtNDAtMTcuOS00MC00MGwwLTQ4YzAtMjIuMSAxNy45LTQwIDQwLTQwbDE4NCAwIDAtOTZjMC0xMi45IDcuOC0yNC42IDE5LjgtMjkuNnMyNS43LTIuMiAzNC45IDYuOWwxNjAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/right.svg)
  */
 const Right: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-youtube` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-youtube?s=brands square-youtube}
- * @preview ![square-youtube](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgyIDI1Ni4ybC05NS4yLTU0LjFWMzEwLjNMMjgyIDI1Ni4yek0zODQgMzJINjRDMjguNyAzMiAwIDYwLjcgMCA5NlY0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRIMzg0YzM1LjMgMCA2NC0yOC43IDY0LTY0Vjk2YzAtMzUuMy0yOC43LTY0LTY0LTY0em0xNC40IDEzNi4xYzcuNiAyOC42IDcuNiA4OC4yIDcuNiA4OC4yczAgNTkuNi03LjYgODguMWMtNC4yIDE1LjgtMTYuNSAyNy43LTMyLjIgMzEuOUMzMzcuOSAzODQgMjI0IDM4NCAyMjQgMzg0cy0xMTMuOSAwLTE0Mi4yLTcuNmMtMTUuNy00LjItMjgtMTYuMS0zMi4yLTMxLjlDNDIgMzE1LjkgNDIgMjU2LjMgNDIgMjU2LjNzMC01OS43IDcuNi04OC4yYzQuMi0xNS44IDE2LjUtMjguMiAzMi4yLTMyLjRDMTEwLjEgMTI4IDIyNCAxMjggMjI0IDEyOHMxMTMuOSAwIDE0Mi4yIDcuN2MxNS43IDQuMiAyOCAxNi42IDMyLjIgMzIuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-youtube](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-youtube.svg)
  */
 const SquareYoutube: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

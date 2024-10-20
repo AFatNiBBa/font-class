@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grin-stars` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-stars?s=sharp-solid face-grin-stars}
- * @preview ![face-grin-stars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMEEyNTYgMjU2IDAgMSAxIDAgMjU2em00MTYuNSA0Ni44Yy00Ni4yIDE4LjMtMTAxLjIgMjktMTYwLjIgMjlzLTExNC4xLTEwLjYtMTYwLjItMjlDMTEyLjMgMzc2LjcgMTc3LjkgNDMyIDI1Ni4zIDQzMnMxNDQtNTUuMyAxNjAuMi0xMjkuMnpNMTYwIDEwOS40bC03LjIgMTUuMS0xNi42IDM0LjctMzguMSA1LTE2LjYgMi4yTDkzLjYgMTc4bDI3LjkgMjYuNS03IDM3LjgtMy4xIDE2LjUgMTQuNy04TDE2MCAyMzIuNWwzMy44IDE4LjMgMTQuNyA4LTMuMS0xNi41LTctMzcuOEwyMjYuNCAxNzhsMTIuMi0xMS41LTE2LjYtMi4yLTM4LjEtNS0xNi42LTM0LjdMMTYwIDEwOS40em0xOTIgMGwtNy4yIDE1LjEtMTYuNiAzNC43LTM4LjEgNS0xNi42IDIuMkwyODUuNiAxNzhsMjcuOSAyNi41LTcgMzcuOC0zLjEgMTYuNSAxNC43LThMMzUyIDIzMi41bDMzLjggMTguMyAxNC43IDgtMy4xLTE2LjUtNy0zNy44TDQxOC40IDE3OGwxMi4yLTExLjUtMTYuNi0yLjItMzguMS01LTE2LjYtMzQuN0wzNTIgMTA5LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-grin-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-grin-stars.svg)
  */
 const FaceGrinStars: typeof Icon = x => (
     <Icon {...x}>

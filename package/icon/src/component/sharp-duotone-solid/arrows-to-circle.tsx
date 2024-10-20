@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `arrows-to-circle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-circle?s=sharp-duotone-solid arrows-to-circle}
- * @preview ![arrows-to-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yNTYgMjU2YTY0IDY0IDAgMSAwIDEyOCAwIDY0IDY0IDAgMSAwIC0xMjggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQ4IDIuN0w3MC42IDI1LjQgMTYwIDExNC43IDE2MCA5NmwwLTMyIDY0IDAgMCAzMiAwIDk2IDAgMzItMzIgMC05NiAwLTMyIDAgMC02NCAzMiAwIDE4LjcgMEwyNS40IDcwLjYgMi43IDQ4IDQ4IDIuN3pNMjI0IDQxNmwwIDMyLTY0IDAgMC0zMiAwLTE4LjdMNzAuNiA0ODYuNiA0OCA1MDkuMyAyLjcgNDY0bDIyLjYtMjIuNkwxMTQuNyAzNTIgOTYgMzUybC0zMiAwIDAtNjQgMzIgMCA5NiAwIDMyIDAgMCAzMiAwIDk2ek00MTYgNjRsNjQgMCAwIDMyIDAgMTguNyA4OS40LTg5LjRMNTkyIDIuNyA2MzcuMyA0OCA2MTQuNiA3MC42IDUyNS4zIDE2MGwxOC43IDAgMzIgMCAwIDY0LTMyIDAtOTYgMC0zMiAwIDAtMzIgMC05NiAwLTMyem0wIDM1MmwwLTk2IDAtMzIgMzIgMCA5NiAwIDMyIDAgMCA2NC0zMiAwLTE4LjcgMCA4OS40IDg5LjRMNjM3LjMgNDY0IDU5MiA1MDkuM2wtMjIuNi0yMi42TDQ4MCAzOTcuM2wwIDE4LjcgMCAzMi02NCAwIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrows-to-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrows-to-circle.svg)
  */
 const ArrowsToCircle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M256 256a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-            <path d="M48 2.7L70.6 25.4 160 114.7 160 96l0-32 64 0 0 32 0 96 0 32-32 0-96 0-32 0 0-64 32 0 18.7 0L25.4 70.6 2.7 48 48 2.7zM224 416l0 32-64 0 0-32 0-18.7L70.6 486.6 48 509.3 2.7 464l22.6-22.6L114.7 352 96 352l-32 0 0-64 32 0 96 0 32 0 0 32 0 96zM416 64l64 0 0 32 0 18.7 89.4-89.4L592 2.7 637.3 48 614.6 70.6 525.3 160l18.7 0 32 0 0 64-32 0-96 0-32 0 0-32 0-96 0-32zm0 352l0-96 0-32 32 0 96 0 32 0 0 64-32 0-18.7 0 89.4 89.4L637.3 464 592 509.3l-22.6-22.6L480 397.3l0 18.7 0 32-64 0 0-32z" />
+        <path d="M48 2.7L70.6 25.4 160 114.7 160 96l0-32 64 0 0 32 0 96 0 32-32 0-96 0-32 0 0-64 32 0 18.7 0L25.4 70.6 2.7 48 48 2.7zM224 416l0 32-64 0 0-32 0-18.7L70.6 486.6 48 509.3 2.7 464l22.6-22.6L114.7 352 96 352l-32 0 0-64 32 0 96 0 32 0 0 32 0 96zM416 64l64 0 0 32 0 18.7 89.4-89.4L592 2.7 637.3 48 614.6 70.6 525.3 160l18.7 0 32 0 0 64-32 0-96 0-32 0 0-32 0-96 0-32zm0 352l0-96 0-32 32 0 96 0 32 0 0 64-32 0-18.7 0 89.4 89.4L637.3 464 592 509.3l-22.6-22.6L480 397.3l0 18.7 0 32-64 0 0-32z" />
     </Icon>
 );
 

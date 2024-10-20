@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck?s=light truck}
- * @preview ![truck](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDNDYuMyAzMiAzMiA0Ni4zIDMyIDY0bDAgMjg4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDUuNSAwYzEzLjItMzcuMyA0OC43LTY0IDkwLjUtNjRzNzcuNCAyNi43IDkwLjUgNjRMMzg0IDM4NGwwLTMyMGMwLTE3LjctMTQuMy0zMi0zMi0zMkw2NCAzMnptMCAzODRjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjRDMCAyOC43IDI4LjcgMCA2NCAwTDM1MiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIgNjUuMyAwYzE0IDAgMjcuMyA2LjEgMzYuNCAxNi44bDc4LjcgOTEuOGM3LjUgOC43IDExLjYgMTkuOCAxMS42IDMxLjJMNjA4IDM4NGwxNiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC00OCAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2bC0xMjggMGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NnpNNDE2IDIyNGwxNTQuOSAwLTc3LjUtOTAuNGMtMy0zLjUtNy41LTUuNi0xMi4xLTUuNkw0MTYgMTI4bDAgOTZ6bTAgMzJsMCA4OC40YzE3LTE1LjIgMzkuNC0yNC40IDY0LTI0LjRjNDEuOCAwIDc3LjQgMjYuNyA5MC41IDY0bDUuNSAwIDAtMTI4LTE2MCAwek0yMjQgNDE2QTY0IDY0IDAgMSAwIDk2IDQxNmE2NCA2NCAwIDEgMCAxMjggMHptMjU2IDY0YTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/truck.svg)
  */
 const Truck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

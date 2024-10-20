@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scanner-touchscreen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-touchscreen?s=solid scanner-touchscreen}
- * @preview ![scanner-touchscreen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDBsMTYgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDQwLTY0IDAgMC00MGMwLTEzLjMgMTAuNy0yNCAyNC0yNHpNMCAxNjBjMC0zNS4zIDI4LjctNjQgNjQtNjRsMjI0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyODhjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDE2MHptNjQgMTZsMCAyNTZjMCA4LjggNy4yIDE2IDE2IDE2bDE5MiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTI1NmMwLTguOC03LjItMTYtMTYtMTZMODAgMTYwYy04LjggMC0xNiA3LjItMTYgMTZ6TTI4OCAyNGMwLTEzLjMgMTAuNy0yNCAyNC0yNGwxNiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgNDAtNjQgMCAwLTQwek0yNDAgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCA0OC0zMiAwIDAtNDhjMC04LjggNy4yLTE2IDE2LTE2ek0zODQgMTZjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDI1NmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTI1NnpNNDcyIDBsMTYgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDI0MGMwIDEzLjMtMTAuNyAyNC0yNCAyNGwtMTYgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0yNDBjMC0xMy4zIDEwLjctMjQgMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![scanner-touchscreen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/scanner-touchscreen.svg)
  */
 const ScannerTouchscreen: typeof Icon = x => (
     <Icon {...x}>

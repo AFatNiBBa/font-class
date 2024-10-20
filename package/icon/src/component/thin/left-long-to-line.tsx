@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `left-long-to-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-long-to-line?s=thin left-long-to-line}
- * @preview ![left-long-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA3MmMwLTQuNCAzLjYtOCA4LThzOCAzLjYgOCA4bDAgMzY4YzAgNC40LTMuNiA4LTggOHMtOC0zLjYtOC04TDAgNzJ6TTMyMCAyOTZsMjgwIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC0zMmMwLTEzLjMtMTAuNy0yNC0yNC0yNGwtMjgwIDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTgxLjFjMC0zLjgtMy4xLTYuOS02LjktNi45Yy0xLjggMC0zLjUgLjctNC43IDEuOUwxNDQuOCAyNTQuMWMtLjUgLjUtLjggMS4yLS44IDEuOXMuMyAxLjQgLjggMS45TDI5Mi40IDM5OC4xYzEuMyAxLjIgMyAxLjkgNC43IDEuOWMzLjggMCA2LjktMy4xIDYuOS02LjlsMC04MS4xYzAtOC44IDcuMi0xNiAxNi0xNnpNMjgxLjQgNDA5LjdMMTMzLjggMjY5LjVjLTMuNy0zLjUtNS44LTguNC01LjgtMTMuNXMyLjEtMTAgNS44LTEzLjVMMjgxLjQgMTAyLjNjNC4zLTQgOS45LTYuMyAxNS44LTYuM2MxMi42IDAgMjIuOSAxMC4yIDIyLjkgMjIuOWwwIDY1LjEgMCAxNiAxNiAwIDI2NCAwYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgMzJjMCAyMi4xLTE3LjkgNDAtNDAgNDBsLTI2NCAwLTE2IDAgMCAxNiAwIDY1LjFjMCAxMi42LTEwLjIgMjIuOS0yMi45IDIyLjljLTUuOSAwLTExLjUtMi4zLTE1LjgtNi4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![left-long-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/left-long-to-line.svg)
  */
 const LeftLongToLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

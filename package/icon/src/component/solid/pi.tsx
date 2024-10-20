@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pi` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pi?s=solid pi}
- * @preview ![pi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRDMTQuMyA2NCAwIDc4LjMgMCA5NnMxNC4zIDMyIDMyIDMybDY0IDAgMCAxNTZjMCAzOS43LTkuMyA3OC45LTI3IDExNC41bC0xLjYgMy4yYy03LjkgMTUuOC0xLjUgMzUgMTQuMyA0Mi45czM1IDEuNSA0Mi45LTE0LjNsMS42LTMuMkMxNDguNCAzODIuNyAxNjAgMzMzLjcgMTYwIDI4NGwwLTE1NiAxMjggMCAwIDIzOC42YzAgNDUgMzYuNSA4MS40IDgxLjQgODEuNGMzMC44IDAgNTktMTcuNCA3Mi44LTQ1bDIuMy00LjdjNy45LTE1LjggMS41LTM1LTE0LjMtNDIuOXMtMzUtMS41LTQyLjkgMTQuM2wtMi4zIDQuN2MtMyA1LjktOSA5LjYtMTUuNiA5LjZjLTkuNiAwLTE3LjQtNy44LTE3LjQtMTcuNEwzNTIgMTI4bDY0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMMzIgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pi.svg)
  */
 const Pi: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

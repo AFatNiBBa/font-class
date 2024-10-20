@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lamp-desk` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp-desk?s=sharp-thin lamp-desk}
- * @preview ![lamp-desk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc0LjYgODBsLTQuNy00LjdMMzMxLjkgMzcuM0MzMTguMyAyMy42IDI5OS44IDE2IDI4MC42IDE2QzI0MC41IDE2IDIwOCA0OC41IDIwOCA4OC42YzAgMTkuMiA3LjYgMzcuNyAyMS4zIDUxLjNsMzguMSAzOC4xIDQuNyA0LjcgMCA2LjYgMCA3Ni4xIDMyIDMyTDQ4OS40IDExMmwtMzItMzItNzYuMSAwLTYuNiAwek00NjQgNjRsMzYuNyAzNi43TDUxMiAxMTJsLTExLjMgMTEuM0wzMTUuMyAzMDguNyAzMDQgMzIwbC0xMS4zLTExLjNMMjU2IDI3MmwwLTgyLjctMjUtMjUtOTQuMSA5NC4xTDE5OC4yIDQ5NiAzNzYgNDk2bDggMCAwIDE2LTggMC0xODQgMEw4IDUxMmwtOCAwIDAtMTYgOCAwIDE3My43IDBMMTIwLjMgMjU4bC0xLjEtNC40IDMuMi0zLjJMMjE5LjcgMTUzbC0xLjgtMS44QzIwMS4zIDEzNC42IDE5MiAxMTIuMSAxOTIgODguNkMxOTIgMzkuNyAyMzEuNyAwIDI4MC42IDBjMjMuNSAwIDQ2IDkuMyA2Mi42IDI1LjlMMzgxLjMgNjQgNDY0IDY0ek0zODYgMjgwLjVsMTItMTJjNS42IDIuMyAxMS42IDMuNSAxOCAzLjVjMjYuNSAwIDQ4LTIxLjUgNDgtNDhjMC02LjQtMS4yLTEyLjQtMy41LTE4bDEyLTEyYzQuOCA5IDcuNSAxOS4yIDcuNSAzMGMwIDM1LjMtMjguNyA2NC02NCA2NGMtMTAuOSAwLTIxLjEtMi43LTMwLTcuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lamp-desk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lamp-desk.svg)
  */
 const LampDesk: typeof Icon = x => (
     <Icon {...x}>

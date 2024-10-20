@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `closed-captioning-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/closed-captioning-slash?s=sharp-thin closed-captioning-slash}
- * @preview ![closed-captioning-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1ek02MDggMzkxLjZMNjA4IDQ4bDAtMTYtMTYgMEwxNTIuNSAzMmwyMC4zIDE2TDU5MiA0OGwwIDMzMSAxNiAxMi42ek0zNzAuOSAyMDQuNEMzODUuNSAxODcgNDA3LjUgMTc2IDQzMiAxNzZjMjcuMyAwIDUxLjQgMTMuNyA2NS45IDM0LjZsMTMuMi05LjFDNDkzLjggMTc2LjUgNDY0LjggMTYwIDQzMiAxNjBjLTI5LjYgMC01Ni4xIDEzLjQtNzMuNyAzNC41bDEyLjYgOS45ek00OCAxMzNMMzIgMTIwLjQgMzIgNDY0bDAgMTYgMTYgMCA0MzkuNSAwLTIwLjMtMTZMNDggNDY0bDAtMzMxek0yNzguMyAzMTQuOEMyNjQgMzI4IDI0NC45IDMzNiAyMjQgMzM2Yy00NC4yIDAtODAtMzUuOC04MC04MGMwLTE0LjIgMy43LTI3LjYgMTAuMi0zOS4xbC0xMi43LTEwQzEzMi45IDIyMS4yIDEyOCAyMzggMTI4IDI1NmMwIDUzIDQzIDk2IDk2IDk2YzI2IDAgNDkuNy0xMC40IDY3LTI3LjJsLTEyLjctMTB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![closed-captioning-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/closed-captioning-slash.svg)
  */
 const ClosedCaptioningSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

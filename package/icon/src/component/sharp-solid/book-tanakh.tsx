@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-tanakh` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-tanakh?s=sharp-solid book-tanakh}
- * @preview ![book-tanakh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBjNTMgMCA5NiA0MyA5NiA5NmwwIDMyMGMwIDUzLTQzIDk2LTk2IDk2TDY0IDUxMmwtMzIgMEwwIDUxMmwwLTY0IDMyIDAgMC02NEwwIDM4NCAwIDAgMzIgMCA2NCAwIDM1MiAwem0wIDM4NEw5NiAzODRsMCA2NCAyNTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMnpNMjA4IDQwTDE5NC4xIDY0bC0yNy43IDQ4TDExMSAxMTJsLTI3LjcgMCAxMy45IDI0IDI3LjcgNDhMOTcuMSAyMzIgODMuMyAyNTZsMjcuNyAwIDU1LjQgMCAyNy43IDQ4TDIwOCAzMjhsMTMuOS0yNCAyNy43LTQ4IDU1LjQgMCAyNy43IDAtMTMuOS0yNC0yNy43LTQ4IDI3LjctNDggMTMuOS0yNEwzMDUgMTEybC01NS40IDBMMjIxLjkgNjQgMjA4IDQwem0xMy45IDcybC0yNy43IDBMMjA4IDg4bDEzLjkgMjR6bS00MS42IDI0bDU1LjQgMCAyNy43IDQ4LTI3LjcgNDgtNTUuNCAwLTI3LjctNDggMjcuNy00OHptLTI3LjcgMGwtMTMuOSAyNC0xMy45LTI0IDI3LjcgMHptLTEzLjkgNzJsMTMuOSAyNC0yNy43IDAgMTMuOS0yNHptNTUuNCA0OGwyNy43IDBMMjA4IDI4MGwtMTMuOS0yNHptNjkuMy0yNGwxMy45LTI0IDEzLjkgMjQtMjcuNyAwem0xMy45LTcybC0xMy45LTI0IDI3LjcgMC0xMy45IDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-tanakh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/book-tanakh.svg)
  */
 const BookTanakh: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

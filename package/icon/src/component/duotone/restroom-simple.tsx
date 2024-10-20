@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `restroom-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/restroom-simple?s=duotone restroom-simple}
- * @preview ![restroom-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yMS44IDI4Mi43Yy0uMiAxLjgtLjIgMy42LS4yIDUuNGMwIDI3LjUgMTcuNiA1MS4zIDQyLjQgNjAuMkw2NCA0NjRjMCAyNi41IDIxLjUgNDggNDggNDhsMzIgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTExNS43YzI2LjUtOS41IDQ0LjctMzUuOCA0Mi4yLTY1LjZsLTQuMS00OS4zQzIyNi43IDE5MS45IDE5MiAxNjAgMTUwLjQgMTYwbC00NC44IDBjLTQxLjYgMC03Ni4zIDMxLjktNzkuNyA3My40bC00LjEgNDkuM3pNNjQgNjRhNjQgNjQgMCAxIDAgMTI4IDBBNjQgNjQgMCAxIDAgNjQgNjR6TTM5NS43IDM0My4yYy01LjggMjAuNCA5LjUgNDAuOCAzMC44IDQwLjhsMjEuNiAwIDAgODBjMCAyNi41IDIxLjUgNDggNDggNDhsMzIgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTgwIDIxLjYgMGMyMS4zIDAgMzYuNi0yMC4zIDMwLjgtNDAuOEw1ODkuMyAyMDYuNGMtNy44LTI3LjUtMzMtNDYuNC02MS41LTQ2LjRsLTMxLjQgMGMtMjguNiAwLTUzLjcgMTguOS02MS41IDQ2LjRMMzk1LjcgMzQzLjJ6TTQ0OCA2NGE2NCA2NCAwIDEgMCAxMjggMEE2NCA2NCAwIDEgMCA0NDggNjR6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zMjAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDQ2NGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTQ2NGMwLTEzLjMgMTAuNy0yNCAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![restroom-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/restroom-simple.svg)
  */
 const RestroomSimple: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M21.8 282.7c-.2 1.8-.2 3.6-.2 5.4c0 27.5 17.6 51.3 42.4 60.2L64 464c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-115.7c26.5-9.5 44.7-35.8 42.2-65.6l-4.1-49.3C226.7 191.9 192 160 150.4 160l-44.8 0c-41.6 0-76.3 31.9-79.7 73.4l-4.1 49.3zM64 64a64 64 0 1 0 128 0A64 64 0 1 0 64 64zM395.7 343.2c-5.8 20.4 9.5 40.8 30.8 40.8l21.6 0 0 80c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-80 21.6 0c21.3 0 36.6-20.3 30.8-40.8L589.3 206.4c-7.8-27.5-33-46.4-61.5-46.4l-31.4 0c-28.6 0-53.7 18.9-61.5 46.4L395.7 343.2zM448 64a64 64 0 1 0 128 0A64 64 0 1 0 448 64z" />
-            <path d="M320 0c13.3 0 24 10.7 24 24l0 464c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-464c0-13.3 10.7-24 24-24z" />
+        <path d="M320 0c13.3 0 24 10.7 24 24l0 464c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-464c0-13.3 10.7-24 24-24z" />
     </Icon>
 );
 

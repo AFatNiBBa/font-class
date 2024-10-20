@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pan-frying` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pan-frying?s=sharp-solid pan-frying}
- * @preview ![pan-frying](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDIyNGMwIDMzLjQtNy4zIDY1LjEtMjAuNCA5My42bDE0MC4zIDkwLjdMNDg3LjIgNTEyIDM2NC44IDM5OC4zQzMyNi4zIDQyOS40IDI3Ny4zIDQ0OCAyMjQgNDQ4QzEwMC4zIDQ0OCAwIDM0Ny43IDAgMjI0UzEwMC4zIDAgMjI0IDBTNDQ4IDEwMC4zIDQ0OCAyMjR6TTMxOS45IDE1NGMtMjEuMi01LjQtNTAuNi0yMi42LTY1LjgtMzguNGMtMjQuNS0yNS41LTY1LTI2LjMtOTAuNS0xLjhjLTExLjYgMTEuMi0xOC4xIDI1LjYtMTkuNCA0MC41Yy0yLjIgMjQuNy05LjIgNTYuMi0yMS41IDc3LjZjLTIyLjEgMzguMy05IDg3LjIgMjkuMyAxMDkuM3M4Ny4yIDkgMTA5LjMtMjkuM2M5LjQtMTYuMyAzMy0zMCA1MS42LTMyLjZjMTAuMi0xLjQgMjAuMy01LjQgMjkuMi0xMmMyOC40LTIxLjEgMzQuMy02MS4xIDEzLjMtODkuNWMtOS4xLTEyLjMtMjEuOC0yMC40LTM1LjUtMjMuOXpNNTA0IDQyNGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwek0yMjQgMTc2YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pan-frying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pan-frying.svg)
  */
 const PanFrying: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

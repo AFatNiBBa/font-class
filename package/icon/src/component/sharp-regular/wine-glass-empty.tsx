@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wine-glass-empty` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wine-glass-empty?s=sharp-regular wine-glass-empty}
- * @preview ![wine-glass-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjIuMyAxOTdjLTUuMiA1Ny41IDQwIDEwNyA5Ny43IDEwN3MxMDIuOS00OS41IDk3LjctMTA3TDI0NC4yIDQ4IDc1LjggNDggNjIuMyAxOTd6bS00Ny44LTQuM0wzMiAwIDI4OCAwbDE3LjUgMTkyLjdjNyA3Ny40LTQ3LjQgMTQ1LjItMTIxLjUgMTU3LjRsMCAxMTQgODggMCAwIDQ4LTExMiAwTDQ4IDUxMmwwLTQ4IDg4IDAgMC0xMTRDNjEuOSAzMzcuOCA3LjQgMjcwLjEgMTQuNSAxOTIuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wine-glass-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/wine-glass-empty.svg)
  */
 const WineGlassEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

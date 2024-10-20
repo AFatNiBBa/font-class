@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bacon` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bacon?s=sharp-solid bacon}
- * @preview ![bacon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEwLjggMTkwYy0yNy41IDQ3LjItNTMgOTEtMjEwLjggMTYybDU4LjggNzMuNGM2OC42LTMyLjIgMTEwLjQtNjAuNCAxMzguOS04Ni41YzMwLTI3LjUgNDYtNTMuMiA2My41LTgxLjVsMS4yLTEuOWMxOC4yLTI5LjMgMzguMS02MC44IDc2LjItOTYuMWMzMy44LTMxLjMgODEuNC02NSAxNTQuMi0xMDMuNEw0NDggMEMyNjkuNiA4OS4yIDIzOS4xIDE0MS40IDIxMC44IDE5MHpNNzkuMyA0NTEuMUwxMjggNTEyYzE1Ny44LTcxIDE4My4zLTExNC44IDIxMC44LTE2MmMyOC4zLTQ4LjYgNTguNy0xMDAuOCAyMzcuMi0xOTBMNTEzLjIgODEuNUM0MzkgMTIwLjIgMzkyLjQgMTUzLjQgMzYwLjQgMTgzYy0zNC45IDMyLjItNTIuOSA2MC43LTcwLjggODkuNEwyODggMjc1Yy0xNy41IDI4LjItMzUuNCA1Ny4xLTY4LjcgODcuNmMtMzAuNSAyOC03My40IDU2LjgtMTQwIDg4LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bacon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bacon.svg)
  */
 const Bacon: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

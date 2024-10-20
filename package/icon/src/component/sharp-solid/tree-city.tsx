@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tree-city` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-city?s=sharp-solid tree-city}
- * @preview ![tree-city](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBMNDgwIDBsMCAxOTIgNDAgMCAwLTcyIDAtMjQgNDggMCAwIDI0IDAgNzIgNzIgMCAwIDMyMC0xNjAgMC05NiAwLTk2IDBMMjg4IDB6bTY0IDY0bDAgNjQgNjQgMCAwLTY0LTY0IDB6bTY0IDk2bC02NCAwIDAgNjQgNjQgMCAwLTY0em0tNjQgOTZsMCA2NCA2NCAwIDAtNjQtNjQgMHptMjI0IDBsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bS02NCA5NmwwIDY0IDY0IDAgMC02NC02NCAwek0yMjQgMTYwYzAgNi0xIDExLTIgMTZjMjAgMTQgMzQgMzggMzQgNjRsMCA4MC04MCAwLTE2IDAgMCAxNjAgMCAzMi0zMiAwLTMyIDAgMC0zMiAwLTE2MC0xNiAwTDAgMzIwbDAtODBjMC0yNiAxMy01MCAzMy02NGMtMS01LTEtMTAtMS0xNmMwLTUzIDQyLTk2IDk2LTk2YzUzIDAgOTYgNDMgOTYgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tree-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tree-city.svg)
  */
 const TreeCity: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

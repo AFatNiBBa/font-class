@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-blank` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-blank?s=regular book-blank}
- * @preview ![book-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMEMzOS40IDAgMCAzOS40IDAgODhMMCA0MjRsLjQgMGMtLjMgMi42LS40IDUuMy0uNCA4YzAgNDQuMiAzNS44IDgwIDgwIDgwbDM0NCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC04IDAgMC02OS40YzE4LjktOSAzMi0yOC4zIDMyLTUwLjZsMC0yODhjMC0zMC45LTI1LjEtNTYtNTYtNTZMODggMHpNMzY4IDQwMGwwIDY0TDgwIDQ2NGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmwyODggMHpNODAgMzUyYy0xMS40IDAtMjIuMiAyLjQtMzIgNi43TDQ4IDg4YzAtMjIuMSAxNy45LTQwIDQwLTQwbDMwNCAwYzQuNCAwIDggMy42IDggOGwwIDI4OGMwIDQuNC0zLjYgOC04IDhMODAgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/book-blank.svg)
  */
 const BookBlank: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

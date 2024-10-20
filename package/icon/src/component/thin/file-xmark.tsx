@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-xmark?s=thin file-xmark}
- * @preview ![file-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDk2Yy0yNi41IDAtNDgtMjEuNS00OC00OEwxNiA2NGMwLTI2LjUgMjEuNS00OCA0OC00OGwxNDAuMSAwYzEuMyAwIDIuNiAuMSAzLjkgLjJMMjA4IDEzNmMwIDIyLjEgMTcuOSA0MCA0MCA0MGwxMTkuOCAwYy4yIDEuMyAuMiAyLjYgLjIgMy45TDM2OCA0NDhjMCAyNi41LTIxLjUgNDgtNDggNDhMNjQgNDk2ek0zNTguNiAxNTcuM2MuOSAuOSAxLjcgMS44IDIuNCAyLjdMMjQ4IDE2MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xMTMuMWMxIC44IDEuOSAxLjYgMi43IDIuNEwzNTguNiAxNTcuM3pNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNjguMWMwLTEyLjctNS4xLTI0LjktMTQuMS0zMy45TDIzOC4xIDE0LjFjLTktOS0yMS4yLTE0LjEtMzMuOS0xNC4xTDY0IDB6bTUwLjMgMjQyLjNjLTMuMSAzLjEtMy4xIDguMiAwIDExLjNMMTgwLjcgMzIwbC02Ni4zIDY2LjNjLTMuMSAzLjEtMy4xIDguMiAwIDExLjNzOC4yIDMuMSAxMS4zIDBMMTkyIDMzMS4zbDY2LjMgNjYuM2MzLjEgMy4xIDguMiAzLjEgMTEuMyAwczMuMS04LjIgMC0xMS4zTDIwMy4zIDMyMGw2Ni4zLTY2LjNjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3MtOC4yLTMuMS0xMS4zIDBMMTkyIDMwOC43bC02Ni4zLTY2LjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-xmark.svg)
  */
 const FileXmark: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

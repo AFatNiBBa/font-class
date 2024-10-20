@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pencil` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil?s=sharp-light pencil}
- * @preview ![pencil](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA1MTJsNi44LTM0TDMyIDM1MiAzNjEuNCAyMi42IDM4NCAwbDIyLjYgMjIuNiA4Mi43IDgyLjdMNTEyIDEyOGwtMjIuNiAyMi42TDE2MCA0ODAgMzQgNTA1LjIgMCA1MTJ6TTE3NiA0MDBsMCAxOC43TDM5OC4xIDE5Ni43bC04Mi43LTgyLjdMOTMuMyAzMzZsMTguNyAwIDE2IDAgMCAxNiAwIDMyIDMyIDAgMTYgMCAwIDE2em0tMzIgNDhsMC0zMi0zMiAwLTE2IDAgMC0xNiAwLTMyLTMyIDBjLS45IDAtMS43LS4xLTIuNS0uMkw0MC44IDQ3MS4ybDEwMy40LTIwLjdjLS4xLS44LS4yLTEuNy0uMi0yLjV6TTQyMC43IDE3NC4xTDQ2Ni43IDEyOCAzODQgNDUuMyAzMzcuOSA5MS4zbDgyLjcgODIuN3ptLTg5LjQgMjguN2wtMTI4IDEyOEwxOTIgMzQyLjFsLTIyLjYtMjIuNiAxMS4zLTExLjMgMTI4LTEyOEwzMjAgMTY4LjhsMjIuNiAyMi42LTExLjMgMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pencil](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pencil.svg)
  */
 const Pencil: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-laugh` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh?s=sharp-thin face-laugh}
- * @preview ![face-laugh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAwIDE2IDI1NmEyNDAgMjQwIDAgMSAwIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI1NiA0MTZjNjYuOCAwIDEyMy00Ny43IDEzNy4zLTExMmwtMjc0LjYgMEMxMzMgMzY4LjMgMTg5LjIgNDE2IDI1NiA0MTZ6TTEwMCAyODhsMTYuMSAwIDI3OS44IDAgMTYuMSAwYy0uNSA1LjQtMS4zIDEwLjgtMi40IDE2QzM5NS4xIDM3NyAzMzEuOCA0MzIgMjU2IDQzMnMtMTM5LjEtNTUtMTUzLjYtMTI4Yy0xLTUuMi0xLjgtMTAuNi0yLjQtMTZ6bTYwLjQtOTZhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptMTc2LTE2YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-laugh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-laugh.svg)
  */
 const FaceLaugh: typeof Icon = x => (
     <Icon {...x}>

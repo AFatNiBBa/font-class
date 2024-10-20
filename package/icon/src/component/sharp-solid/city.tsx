@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `city` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/city?s=sharp-solid city}
- * @preview ![city](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDBMMjg4IDBsMCA5Ni02NCAwIDAtNzIgMC0yNEwxNzYgMGwwIDI0IDAgNzItNjQgMCAwLTcyIDAtMjRMNjQgMGwwIDI0IDAgNzJMMCA5NmwwIDk2TDAgNTEybDI4OCAwIDY0IDAgMTI4IDAgMTYwIDAgMC0zMjAtMTYwIDBMNDgwIDB6bTk2IDM1MmwwIDY0LTY0IDAgMC02NCA2NCAwem0tMzg0IDBsNjQgMCAwIDY0LTY0IDAgMC02NHptLTY0IDY0bC02NCAwIDAtNjQgNjQgMCAwIDY0ek01MTIgMjU2bDY0IDAgMCA2NC02NCAwIDAtNjR6TTY0IDE2MGw2NCAwIDAgNjQtNjQgMCAwLTY0em0xOTIgOTZsMCA2NC02NCAwIDAtNjQgNjQgMHptMC05NmwwIDY0LTY0IDAgMC02NCA2NCAwek02NCAzMjBsMC02NCA2NCAwIDAgNjQtNjQgMHptMzUyLTY0bDAgNjQtNjQgMCAwLTY0IDY0IDB6TTM1MiA2NGw2NCAwIDAgNjQtNjQgMCAwLTY0em02NCA5NmwwIDY0LTY0IDAgMC02NCA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/city.svg)
  */
 const City: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

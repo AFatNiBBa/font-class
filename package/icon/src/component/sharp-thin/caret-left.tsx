@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `caret-left` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caret-left?s=sharp-thin caret-left}
- * @preview ![caret-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUxLjEgNDAwTDIxLjUgMjU2IDE1MS4xIDExMmwyNC45IDAgMCAyODgtMjQuOSAwek0wIDI1NkwxNDQgNDE2bDMyIDAgMTYgMCAwLTE2IDAtMjg4IDAtMTYtMTYgMC0zMiAwTDAgMjU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![caret-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/caret-left.svg)
  */
 const CaretLeft: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

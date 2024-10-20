@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-list` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-list?s=light rectangle-list}
- * @preview ![rectangle-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDNDYuMyA2NCAzMiA3OC4zIDMyIDk2bDAgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDQ0OCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzIwYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDY0ek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDQ0OCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnptMTA0IDY0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bTg4IDBjMC04LjggNy4yLTE2IDE2LTE2bDI1NiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0yNTYgMGMtOC44IDAtMTYtNy4yLTE2LTE2em0wIDk2YzAtOC44IDcuMi0xNiAxNi0xNmwyNTYgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMjU2IDBjLTguOCAwLTE2LTcuMi0xNi0xNnptMCA5NmMwLTguOCA3LjItMTYgMTYtMTZsMjU2IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTI1NiAwYy04LjggMC0xNi03LjItMTYtMTZ6bS02NC03MmEyNCAyNCAwIDEgMSAwLTQ4IDI0IDI0IDAgMSAxIDAgNDh6bS0yNCA3MmEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rectangle-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rectangle-list.svg)
  */
 const RectangleList: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

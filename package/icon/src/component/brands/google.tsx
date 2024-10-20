@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `google` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/google?s=brands google}
- * @preview ![google](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg4IDI2MS44QzQ4OCA0MDMuMyAzOTEuMSA1MDQgMjQ4IDUwNCAxMTAuOCA1MDQgMCAzOTMuMiAwIDI1NlMxMTAuOCA4IDI0OCA4YzY2LjggMCAxMjMgMjQuNSAxNjYuMyA2NC45bC02Ny41IDY0LjlDMjU4LjUgNTIuNiA5NC4zIDExNi42IDk0LjMgMjU2YzAgODYuNSA2OS4xIDE1Ni42IDE1My43IDE1Ni42IDk4LjIgMCAxMzUtNzAuNCAxNDAuOC0xMDYuOUgyNDh2LTg1LjNoMjM2LjFjMi4zIDEyLjcgMy45IDI0LjkgMy45IDQxLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![google](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/google.svg)
  */
 const Google: typeof Icon = x => (
     <Icon viewBox="0 0 488 512" {...x}>

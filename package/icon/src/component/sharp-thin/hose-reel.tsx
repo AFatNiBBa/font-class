@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hose-reel` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hose-reel?s=sharp-thin hose-reel}
- * @preview ![hose-reel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMjU2QzgwIDEyMy41IDE4Ny41IDE2IDMyMCAxNnMyNDAgMTA3LjUgMjQwIDI0MGwwIDk2LTIzLjkgMC0uMiAwTDUyMCAzNTJsLTggMCAwIDE2IDggMCA4LjggMCAxNC4yIDEyOC03LjEgMCAwIDE2IDggMCA3LjkgMCAuMiAwIDMxLjggMCAuMiAwIDcuOSAwIDggMCAwLTE2LTcuMSAwIDE0LjItMTI4IDguOCAwIDggMCAwLTE2LTggMC0xNS45IDAtLjIgMEw1NzYgMzUybDAtOTZDNTc2IDExNC42IDQ2MS40IDAgMzIwIDBTNjQgMTE0LjYgNjQgMjU2czExNC42IDI1NiAyNTYgMjU2YzU5LjIgMCAxMTMuNy0yMC4xIDE1Ny4xLTUzLjhsLTkuOC0xMi42QzQyNi42IDQ3Ny4yIDM3NS41IDQ5NiAzMjAgNDk2QzE4Ny41IDQ5NiA4MCAzODguNSA4MCAyNTZ6TTU5MS4xIDM2OEw1NzYuOCA0OTZsLTE3LjcgMEw1NDQuOSAzNjhsNDYuMSAwek0zMjAgNDA4YTE1MiAxNTIgMCAxIDEgMC0zMDQgMTUyIDE1MiAwIDEgMSAwIDMwNHpNMTUyIDI1NmExNjggMTY4IDAgMSAwIDMzNiAwIDE2OCAxNjggMCAxIDAgLTMzNiAwem0yMzIgMGE2NCA2NCAwIDEgMSAtMTI4IDAgNjQgNjQgMCAxIDEgMTI4IDB6bS02NC04MGE4MCA4MCAwIDEgMCAwIDE2MCA4MCA4MCAwIDEgMCAwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hose-reel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hose-reel.svg)
  */
 const HoseReel: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

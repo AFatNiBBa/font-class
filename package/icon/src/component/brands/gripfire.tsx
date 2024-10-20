@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gripfire` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gripfire?s=brands gripfire}
- * @preview ![gripfire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyLjUgMzAxLjRjMC03My44IDEwNS4xLTEyMi41IDEwNS4xLTIwMyAwLTQ3LjEtMzQtODgtMzkuMS05MC40LjQgMy4zLjYgNi43LjYgMTBDMTc5LjEgMTEwLjEgMzIgMTcxLjkgMzIgMjg2LjZjMCA0OS44IDMyLjIgNzkuMiA2Ni41IDEwOC4zIDY1LjEgNDYuNyA3OC4xIDcxLjQgNzguMSA4Ni42IDAgMTAuMS00LjggMTctNC44IDIyLjMgMTMuMS0xNi43IDE3LjQtMzEuOSAxNy41LTQ2LjQgMC0yOS42LTIxLjctNTYuMy00NC4yLTg2LjUtMTYtMjIuMy0zMi42LTQyLjYtMzIuNi02OS41em0yMDUuMy0zOWMtMTIuMS02Ni44LTc4LTEyNC40LTk0LjctMTMwLjlsNCA3LjJjMi40IDUuMSAzLjQgMTAuOSAzLjQgMTcuMSAwIDQ0LjctNTQuMiAxMTEuMi01Ni42IDExNi43LTIuMiA1LjEtMy4yIDEwLjUtMy4yIDE1LjggMCAyMC4xIDE1LjIgNDIuMSAxNy45IDQyLjEgMi40IDAgNTYuNi01NS40IDU4LjEtODcuNyA2LjQgMTEuNyA5LjEgMjIuNiA5LjEgMzMuNCAwIDQxLjItNDEuOCA5Ni45LTQxLjggOTYuOSAwIDExLjYgMzEuOSA1My4yIDM1LjUgNTMuMiAxIDAgMi4yLTEuNCAzLjItMi40IDM3LjktMzkuMyA2Ny4zLTg1IDY3LjMtMTM2LjggMC04LS43LTE2LjItMi4yLTI0LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![gripfire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/gripfire.svg)
  */
 const Gripfire: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

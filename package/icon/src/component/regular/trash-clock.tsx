@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-clock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-clock?s=regular trash-clock}
- * @preview ![trash-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc3LjEgNDhsOTMuNyAwYzIuNyAwIDUuMiAxLjMgNi43IDMuNmwxOSAyOC40LTE0NSAwIDE5LTI4LjRjMS41LTIuMiA0LTMuNiA2LjctMy42ek0zNTQuMiA4MEwzMTcuNSAyNC45QzMwNy4xIDkuNCAyODkuNiAwIDI3MC45IDBMMTc3LjEgMGMtMTguNyAwLTM2LjIgOS40LTQ2LjYgMjQuOUw5My44IDgwIDgwLjEgODAgMzIgODBsLTggMEMxMC43IDgwIDAgOTAuNyAwIDEwNHMxMC43IDI0IDI0IDI0bDExLjYgMEw1OS42IDQ1Mi43YzIuNSAzMy40IDMwLjMgNTkuMyA2My44IDU5LjNsMjAxLjEgMGMyIDAgMy45LS4xIDUuOC0uM2MtMTguMi0xMi45LTMzLjgtMjkuMS00NS45LTQ3LjdsLTE2MSAwYy04LjQgMC0xNS4zLTYuNS0xNi0xNC44TDgzLjcgMTI4bDI4MC42IDAtNS45IDgwLjFjMTUuMy03LjEgMzEuOS0xMiA0OS4yLTE0LjRsNC45LTY1LjcgMTEuNiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC04IDAtNDguMSAwLTEzLjcgMHpNNTc2IDM2OGExNDQgMTQ0IDAgMSAwIC0yODggMCAxNDQgMTQ0IDAgMSAwIDI4OCAwek00MzIgMjg4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDQ4IDMyIDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTQ4IDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTY0YzAtOC44IDcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trash-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/trash-clock.svg)
  */
 const TrashClock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

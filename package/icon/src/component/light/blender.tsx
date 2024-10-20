@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blender` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender?s=light blender}
- * @preview ![blender](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA3MkMwIDMyLjIgMzIuMiAwIDcyIDBsNTYgMCAyNCAwIDguMSAwTDQ3MSAwYzIwLjggMCAzNi4xIDE5LjYgMzEgMzkuOEw0MjMuMSAzNTUuNEM0NTYgMzY1LjMgNDgwIDM5NS45IDQ4MCA0MzJsMCAzMmMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMjg4IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMzJjMC0zNy44IDI2LjItNjkuNSA2MS41LTc3LjlMMTQ4IDI0MGwtNzYgMGMtMzkuOCAwLTcyLTMyLjItNzItNzJMMCA3MnpNMTI4IDQzMmwwIDMyYzAgOC44IDcuMiAxNiAxNiAxNmwyODggMGM4LjggMCAxNi03LjIgMTYtMTZsMC0zMmMwLTI2LjUtMjEuNS00OC00OC00OGwtMjI0IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4ek00MjMgMjI0bC0xMTkgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwxMjcgMCAxNi02NC0xNDMgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwxNTEgMCAxNi02NEwxNjIuOCAzMmwyNi43IDMyMEwzOTEgMzUybDMyLTEyOHpNNzIgMzJDNDkuOSAzMiAzMiA0OS45IDMyIDcybDAgOTZjMCAyMi4xIDE3LjkgNDAgNDAgNDBsNzMuMyAwTDEzMC43IDMyIDcyIDMyek0yODggNDA4YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![blender](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/blender.svg)
  */
 const Blender: typeof Icon = x => (
     <Icon {...x}>

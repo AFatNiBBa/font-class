@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-fast` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-fast?s=sharp-regular truck-fast}
- * @preview ![truck-fast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDQ4TDExMiA0OGwwIDQ4IDEyOCAwIDE2IDAgMCAzMi0xNiAwTDE2IDEyOCAwIDEyOCAwIDk2bDE2IDAgNDggMCAwLTQ4TDY0IDBsNDggMEwzNjggMGw0OCAwIDAgNDggMCA0OCA1NiAwIDkuOSAwIDcgN0w2MDEgMjE1bDcgNyAwIDkuOSAwIDEzNiA4IDAgMjQgMCAwIDQ4LTI0IDAtNDAgMGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwtOCAwLTggMC00OCAwLTY0IDBjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZsMC00OCAwLTgwIDQ4IDAgMCA0NC44YzE0LjEtOC4yIDMwLjUtMTIuOCA0OC0xMi44YzM1LjUgMCA2Ni42IDE5LjMgODMuMiA0OGw3Ni44IDAgNDggMCAwLTMyMHptNDggOTZsMCA5NiAxNDIuMSAwLTk2LTk2TDQxNiAxNDR6TTIwOCA0MTZhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHptMjcyIDQ4YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnpNNDggMTYwbDIyNCAwIDE2IDAgMCAzMi0xNiAwTDQ4IDE5MmwtMTYgMCAwLTMyIDE2IDB6TTE2IDIyNGwyMjQgMCAxNiAwIDAgMzItMTYgMEwxNiAyNTYgMCAyNTZsMC0zMiAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-fast.svg)
  */
 const TruckFast: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

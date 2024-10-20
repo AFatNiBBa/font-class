@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `command` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/command?s=light command}
- * @preview ![command](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4OEMwIDM5LjQgMzkuNCAwIDg4IDBzODggMzkuNCA4OCA4OGwwIDU2IDE2MCAwIDAtNTZjMC00OC42IDM5LjQtODggODgtODhzODggMzkuNCA4OCA4OHMtMzkuNCA4OC04OCA4OGwtNTYgMCAwIDE2MCA1NiAwYzQ4LjYgMCA4OCAzOS40IDg4IDg4cy0zOS40IDg4LTg4IDg4cy04OC0zOS40LTg4LTg4bDAtNTYtMTYwIDAgMCA1NmMwIDQ4LjYtMzkuNCA4OC04OCA4OHMtODgtMzkuNC04OC04OHMzOS40LTg4IDg4LTg4bDU2IDAgMC0xNjAtNTYgMEMzOS40IDE3NiAwIDEzNi42IDAgODh6bTE0NCA1NmwwLTU2YzAtMzAuOS0yNS4xLTU2LTU2LTU2UzMyIDU3LjEgMzIgODhzMjUuMSA1NiA1NiA1Nmw1NiAwem0zMiAxOTJsMTYwIDAgMC0xNjAtMTYwIDAgMCAxNjB6bS0zMiAzMmwtNTYgMGMtMzAuOSAwLTU2IDI1LjEtNTYgNTZzMjUuMSA1NiA1NiA1NnM1Ni0yNS4xIDU2LTU2bDAtNTZ6bTIyNCAwbDAgNTZjMCAzMC45IDI1LjEgNTYgNTYgNTZzNTYtMjUuMSA1Ni01NnMtMjUuMS01Ni01Ni01NmwtNTYgMHptMC0yMjRsNTYgMGMzMC45IDAgNTYtMjUuMSA1Ni01NnMtMjUuMS01Ni01Ni01NnMtNTYgMjUuMS01NiA1NmwwIDU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![command](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/command.svg)
  */
 const Command: typeof Icon = x => (
     <Icon {...x}>

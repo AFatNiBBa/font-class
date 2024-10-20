@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `watch-smart` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-smart?s=solid watch-smart}
- * @preview ![watch-smart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDhsMjU2IDBjMC0yNi41LTIxLjUtNDgtNDgtNDhMMTEyIDBDODUuNSAwIDY0IDIxLjUgNjQgNDh6TTgwIDgwQzM1LjggODAgMCAxMTUuOCAwIDE2MEwwIDM1MmMwIDQ0LjIgMzUuOCA4MCA4MCA4MGwyMjQgMGM0NC4yIDAgODAtMzUuOCA4MC04MGwwLTE5MmMwLTQ0LjItMzUuOC04MC04MC04MEw4MCA4MHptMTM2IDgwbDAgODYuMSA0MSA0MWM5LjQgOS40IDkuNCAyNC42IDAgMzMuOXMtMjQuNiA5LjQtMzMuOSAwbC00OC00OGMtNC41LTQuNS03LTEwLjYtNy0xN2wwLTk2YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjR6TTExMiA1MTJsMTYwIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhMNjQgNDY0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![watch-smart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/watch-smart.svg)
  */
 const WatchSmart: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

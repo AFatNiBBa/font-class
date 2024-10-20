@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `photo-film-music` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/photo-film-music?s=sharp-solid photo-film-music}
- * @preview ![photo-film-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDBMMTkyIDBsMCAzMjAgMTc2IDAgMC02NC0xNiAwLTY0IDAgMC0zMiA3Mi04MCAyOCAzMiA2MC04MCA1MSA2OCAxNDEtNDdMNjQwIDB6TTE2MCAzOTJsMC0yOTZMMCA5NiAwIDQ0OGwyODkuOSAwYzQuNC0xOC4zIDE1LjktMzMuMiAyOS43LTQzLjVjNi43LTUgMTQuMi05LjIgMjIuMy0xMi41TDE2MCAzOTJ6TTI4OCA2NGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6TTU2IDE1Mmw0OCAwIDAgNDgtNDggMCAwLTQ4em00OCA5NmwwIDQ4LTQ4IDAgMC00OCA0OCAwek01NiAzNDRsNDggMCAwIDQ4LTQ4IDAgMC00OHpNNjQwIDE1MmwtMzEuNiAxMC41LTE5MiA2NEw0MDAgMjMybDAgMTcuMyAwIDQ4IDAgMTIxLjVjLTUuMS0xLTEwLjUtMS41LTE2LTEuNWMtMzUuMyAwLTY0IDIxLjUtNjQgNDhzMjguNyA0OCA2NCA0OHM2NC0yMS41IDY0LTQ4bDAtMTUwLjcgMTQ0LTQ4IDAgODguMmMtNS4xLTEtMTAuNS0xLjUtMTYtMS41Yy0zNS4zIDAtNjQgMjEuNS02NCA0OHMyOC43IDQ4IDY0IDQ4czY0LTIxLjUgNjQtNDhjMC0xLjUtLjEtMy0uMy00LjRjLjItMS4yIC4zLTIuNCAuMy0zLjZsMC0xNjAgMC00OCAwLTMzLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![photo-film-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/photo-film-music.svg)
  */
 const PhotoFilmMusic: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

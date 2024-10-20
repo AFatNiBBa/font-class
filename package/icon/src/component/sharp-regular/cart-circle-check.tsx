@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-circle-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-check?s=sharp-regular cart-circle-check}
- * @preview ![cart-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEwwIDAgMCA0OGwyNCAwIDUyLjEgMCA2MC4zIDMxNi41IDMuNyAxOS41IDE5LjkgMCAxNjAuNyAwYy0uNS01LjMtLjctMTAuNi0uNy0xNmMwLTEwLjkgMS0yMS42IDIuOS0zMmwtMTQzIDAtOS4xLTQ4IDE2OC41IDBjOS4yLTE4IDIxLjQtMzQuMiAzNi00OGwtMjEzLjYgMEwxMzEuMSA4MGwzNzkuNiAwTDQ3NS4zIDE5My4yYzYuOC0uOCAxMy43LTEuMiAyMC43LTEuMmMxMCAwIDE5LjcgLjggMjkuMiAyLjRMNTYxIDgwbDE1LTQ4LTUwLjMgMEwxMjIgMzJsLTIuNC0xMi41TDExNS45IDAgOTYgMCAyNCAwek0xNzYgNTEyYTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnpNNjQwIDM2OGExNDQgMTQ0IDAgMSAwIC0yODggMCAxNDQgMTQ0IDAgMSAwIDI4OCAwem0tNjUuNC0zMmwtMTEuMyAxMS4zLTcyIDcyTDQ4MCA0MzAuNmwtMTEuMy0xMS4zLTQwLTQwTDQxNy40IDM2OCA0NDAgMzQ1LjRsMTEuMyAxMS4zTDQ4MCAzODUuNGw2MC43LTYwLjdMNTUyIDMxMy40IDU3NC42IDMzNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cart-circle-check.svg)
  */
 const CartCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

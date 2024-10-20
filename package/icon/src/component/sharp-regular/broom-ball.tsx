@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `broom-ball` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/broom-ball?s=sharp-regular broom-ball}
- * @preview ![broom-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDBMMzM2IDIwOGwtMzQuMS0zNC4xLTEuMS0xLjFMMjg4IDE2MGwtMzIgMC0yMS42IDc1LjUtLjYtLjFjLTQ2LjQtNy4xLTkzLjUgOC4zLTEyNi43IDQxLjVjLTE2LjcgMTYuNy0yOSAzNy4xLTM2LjEgNTkuMmMtMS45IDYtMy41IDEyLjItNC42IDE4LjRjLTEuNiA4LjctMi40IDE3LjYtMi40IDI2LjZsMCAyLjkgMzIgMEw2NCA0MTYgNDggNDMyIDE2IDQ2NCAwIDQ4MGwwIDMyIDMyIDAgMy45IDBMNDggNTEybDE0Ni45IDBjMzkuMSAwIDc2LjYtMTUuNSAxMDQuMi00My4yYzMzLjItMzMuMiA0OC42LTgwLjIgNDEuNS0xMjYuN2wtLjEtLjZMNDE2IDMyMGwwLTMyLTEyLjgtMTIuOC0xLjEtMS4xTDM2OCAyNDAgNTc2IDMyIDU0NCAwek0yNzguOCAyNTQuOGw4LTI4LjEgNjIuNCA2Mi40LTI4LjEgOC00Mi4zLTQyLjN6bS00Mi41IDI5LjVsNTUuNCA1NS40IDEuNSA5LjhjNC44IDMxLjMtNS42IDYzLTI4IDg1LjRjLTE4LjYgMTguNi00My45IDI5LjEtNzAuMyAyOS4xTDgzLjkgNDY0bDQ2LjEtNDYuMUwyMTEuOSAzMzZsLTg5LjEgMGM0LjctOS4yIDEwLjktMTcuOCAxOC4zLTI1LjJjMjIuNC0yMi40IDU0LjEtMzIuOCA4NS40LTI4bDkuOCAxLjV6TTQ2NCA0MzJhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptMTEyIDBhODAgODAgMCAxIDAgLTE2MCAwIDgwIDgwIDAgMSAwIDE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![broom-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/broom-ball.svg)
  */
 const BroomBall: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

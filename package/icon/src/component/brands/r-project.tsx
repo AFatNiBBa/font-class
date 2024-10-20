@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `r-project` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/r-project?s=brands r-project}
- * @preview ![r-project](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1ODEgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTgxIDIyNi42QzU4MSAxMTkuMSA0NTAuOSAzMiAyOTAuNSAzMlMwIDExOS4xIDAgMjI2LjZDMCAzMjIuNCAxMDMuMyA0MDIgMjM5LjQgNDE4LjFWNDgwaDk5LjF2LTYxLjVjMjQuMy0yLjcgNDcuNi03LjQgNjkuNC0xMy45TDQ0OCA0ODBoMTEybC02Ny40LTExMy43YzU0LjUtMzUuNCA4OC40LTg0LjkgODguNC0xMzkuN3ptLTQ2Ni44IDE0LjVjMC03My41IDk4LjktMTMzIDIyMC44LTEzM3MyMTEuOSA0MC43IDIxMS45IDEzM2MwIDUwLjEtMjYuNSA4NS03MC4zIDEwNi40LTIuNC0xLjYtNC43LTIuOS02LjQtMy43LTEwLjItNS4yLTI3LjgtMTAuNS0yNy44LTEwLjVzODYuNi02LjQgODYuNi05Mi43LTkwLjYtODcuOS05MC42LTg3LjloLTE5OVYzNjFjLTc0LjEtMjEuNS0xMjUuMi02Ny4xLTEyNS4yLTExOS45em0yMjUuMSAzOC4zdi01NS42YzU3LjggMCA4Ny44LTYuOCA4Ny44IDI3LjMgMCAzNi41LTM4LjIgMjguMy04Ny44IDI4LjN6bS0uOSA3Mi41SDM2NWMxMC44IDAgMTguOSAxMS43IDI0IDE5LjItMTYuMSAxLjktMzMgMi44LTUwLjYgMi45di0yMi4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![r-project](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/r-project.svg)
  */
 const RProject: typeof Icon = x => (
     <Icon viewBox="0 0 581 512" {...x}>

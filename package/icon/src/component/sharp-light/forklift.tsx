@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `forklift` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forklift?s=sharp-light forklift}
- * @preview ![forklift](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBMMTI4IDBsMCAxNiAwIDE0NC05NiAwTDAgMTYwbDAgMzJMMCAzODRsMCAzMmMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDY0IDBjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmMwLTI4LjQtMTIuNC01NC0zMi03MS42bDAtNTYuNCAwLTMyIDAtMy41LTEuNS0zLjItMTEyLTI0MEwyOTguMiAwIDI4OCAwIDE0NCAwek0xMjggMTkybDE5LjUgMCA5NC44IDg3LjUgOS4yIDguNSAxMi41IDAgMTIwIDAgMCAzNy41Yy0xMC0zLjUtMjAuOC01LjUtMzItNS41Yy00MS44IDAtNzcuNCAyNi43LTkwLjUgNjRsLTc0LjkgMGMtMTMuMi0zNy4zLTQ4LjctNjQtOTAuNS02NGMtMjQuNiAwLTQ3IDkuMi02NCAyNC40TDMyIDE5Mmw5NiAwem0xMzYgNjRMMTYwIDE2MGwwLTEyOCAxMTcuOCAwTDM4Mi4zIDI1NiAyNjQgMjU2em04OCAyMjRhNjQgNjQgMCAxIDEgMC0xMjggNjQgNjQgMCAxIDEgMCAxMjh6TTk2IDQ4MGE2NCA2NCAwIDEgMSAwLTEyOCA2NCA2NCAwIDEgMSAwIDEyOHpNNTEyIDE2bDAtMTZMNDgwIDBsMCAxNiAwIDQxNiAwIDE2IDE2IDAgMTI4IDAgMTYgMCAwLTMyLTE2IDAtMTEyIDAgMC00MDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![forklift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/forklift.svg)
  */
 const Forklift: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

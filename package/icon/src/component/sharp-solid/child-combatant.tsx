@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `child-combatant` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child-combatant?s=sharp-solid child-combatant}
- * @preview ![child-combatant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDEyOEE2NCA2NCAwIDEgMCAxNzYgMGE2NCA2NCAwIDEgMCAwIDEyOHptLTQzLjEgMzJsLTE2IDAtOS42IDEyLjgtNzIuMSA5NkwxNiAyOTQuNGw1MS4yIDM4LjQgMTkuMi0yNS42TDk2IDI5NC40IDk2IDQ4MGwwIDMyIDY0IDAgMC0zMiAwLTk2IDMyIDAgMCA5NiAwIDMyIDY0IDAgMC0zMiAwLTE4NS42IDkuNiAxMi44IDE5LjIgMjUuNkwzMzYgMjk0LjRsLTE5LjItMjUuNi03Mi4xLTk2TDIzNS4xIDE2MGwtMTYgMC04Ni4yIDB6TTQ2NCAwTDQ0OCAwIDQxNiAwIDQwMCAwbDAgMzIgMTYgMCAwIDk2LTE2IDAgMCA2NC0zMiAwIDAgMjA4IDQ4IDAgMCAxMTIgOTYgMEw0ODQgNDAwbDYwIDAgMC00OC02NCAwIDAtMjYuN0w1NDQgMzA0bDAtMTEyLTQ4IDAgMCA3Mi0xNiA1LjNMNDgwIDEyOGwtMTYgMEw0NjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![child-combatant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/child-combatant.svg)
  */
 const ChildCombatant: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

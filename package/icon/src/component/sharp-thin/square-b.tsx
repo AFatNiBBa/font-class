@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-b` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-b?s=sharp-thin square-b}
- * @preview ![square-b](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNDE2IDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA0MTYgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnptMTI4IDk2bDggMCAxMDAgMGMzNy42IDAgNjggMzAuNCA2OCA2OGMwIDIyLjEtMTAuNiA0MS44LTI2LjkgNTQuMmMyOS4zIDcuNiA1MC45IDM0LjIgNTAuOSA2NS44YzAgMzcuNi0zMC40IDY4LTY4IDY4bC0xMjQgMC04IDAgMC04IDAtMTEyIDAtOCAwLTggMC0xMTIgMC04em0xNjAgNjhjMC0yOC43LTIzLjMtNTItNTItNTJsLTkyIDAgMCAxMDQgOTIgMGMyOC43IDAgNTItMjMuMyA1Mi01MnpNMTQ0IDM2OGwxMTYgMGMyOC43IDAgNTItMjMuMyA1Mi01MnMtMjMuMy01Mi01Mi01MmwtMjQgMC05MiAwIDAgMTA0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-b](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-b.svg)
  */
 const SquareB: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

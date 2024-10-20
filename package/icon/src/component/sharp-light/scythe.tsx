@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scythe` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scythe?s=sharp-light scythe}
- * @preview ![scythe](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBDMTQ0LjcgMCA0OC45IDEzMC4xIDE1LjEgMTkyQzQuNSAyMTEuMyAwIDIyNCAwIDIyNGwzNC43IDAgNDkzLjEgMCA2LjQtMzJMNTIuMSAxOTJjMTAuNi0xNy4xIDI1LjMtMzcuNSA0NC45LTU3LjhDMTQ2IDgzLjUgMjI2IDMyIDM1MiAzMmwyMTQuMiAwIDYuNC0zMkwzNTIgMHpNNjM3LjkgMEw2MDUuMyAwIDU0NC41IDMwNGwtLjUgMC0xNDQgMC0xNiAwIDAgMzIgMTYgMCAxMzguMSAwTDUwMi45IDUxMmwzMi42IDBMNjM3LjkgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scythe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/scythe.svg)
  */
 const Scythe: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

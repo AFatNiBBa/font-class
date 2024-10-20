@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bed-front` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-front?s=sharp-light bed-front}
- * @preview ![bed-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzJMMzIgMzJsMCAxNiAwIDgwIDAgMTYgMCA4MC0xNiAwTDAgMjI0bDAgMTZMMCA0MDBsMCA2NGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtNDggNDQ4IDAgMCA0OCAwIDE2IDMyIDAgMC0xNiAwLTY0IDAtMTYwIDAtMTYtMTYgMC0xNiAwIDAtODAgMC0xNiAwLTgwIDAtMTYtMTYgMEw0OCAzMnptNDAwIDk2bC0xNzYgMC0xNiAwLTE2IDBMNjQgMTI4bDAtNjQgMzg0IDAgMCA2NHpNMjcyIDE2MGwxNzYgMCAwIDY0LTE3NiAwIDAtNjR6bS0zMiA2NEw2NCAyMjRsMC02NCAxNzYgMCAwIDY0em0yNDAgMzJsMCAxMjhMMzIgMzg0bDAtMTI4IDIwOCAwIDMyIDAgMTc2IDAgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bed-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bed-front.svg)
  */
 const BedFront: typeof Icon = x => (
     <Icon {...x}>

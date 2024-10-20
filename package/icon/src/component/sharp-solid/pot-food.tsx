@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pot-food` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pot-food?s=sharp-solid pot-food}
- * @preview ![pot-food](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDI0bDAtMjRMNjQgMGwwIDI0YzAgNDUuMSAyMS4yIDY5IDM3LjcgODcuNWwuNCAuNEMxMTcuNSAxMjkuMyAxMjggMTQxLjUgMTI4IDE2OGwwIDI0IDQ4IDAgMC0yNGMwLTQ1LjEtMjEuMi02OS0zNy43LTg3LjVsLS40LS40QzEyMi41IDYyLjcgMTEyIDUwLjUgMTEyIDI0em0xMTIgMGwwLTI0TDE3NiAwbDAgMjRjMCA0NS4xIDIxLjIgNjkgMzcuNyA4Ny41bC40IC40QzIyOS41IDEyOS4zIDI0MCAxNDEuNSAyNDAgMTY4bDAgMjQgNDggMCAwLTI0YzAtNDUuMS0yMS4yLTY5LTM3LjctODcuNWwtLjQtLjRDMjM0LjUgNjIuNyAyMjQgNTAuNSAyMjQgMjR6bTIwOCA4OGMtNTAuNyAwLTkzLjYgMzMuNy0xMDcuNCA4MGwyMTQuNyAwYy0xMy44LTQ2LjMtNTYuNi04MC0xMDcuNC04MHpNNTc2IDIyNEw2NCAyMjRsMS45IDMyTDQ4IDI1NmwtMzIgMCAwIDY0IDMyIDAgMjQuNCAwQzg3LjEgMzg3LjUgMTMyLjEgNDQzLjIgMTkyIDQ3Mi45bDAgMzkuMSAyNTYgMCAwLTM5LjFjNTkuOS0yOS43IDEwNC45LTg1LjQgMTE5LjYtMTUyLjlsMjQuNCAwIDMyIDAgMC02NC0zMiAwLTE3LjkgMCAxLjktMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pot-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pot-food.svg)
  */
 const PotFood: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

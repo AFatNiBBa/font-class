@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `meter-bolt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-bolt?s=duotone meter-bolt}
- * @preview ![meter-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NkMwIDM5Ny40IDExNC42IDUxMiAyNTYgNTEyYzczLjcgMCAxNDAuMS0zMS4xIDE4Ni44LTgxbDcuNS0xNUw0MzIgNDE2Yy0yMC40IDAtMzguNS0xMi45LTQ1LjMtMzIuMXMtLjYtNDAuNiAxNS4zLTUzLjRsMTA5LjYtODcuN0M1MDQuOCAxMDcuNSAzOTMgMCAyNTYgMEMxMTQuNiAwIDAgMTE0LjYgMCAyNTZ6bTEyOC05NmMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMybDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMnptOTYgMGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMybDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMnptOTYgMGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMybDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTYwNi4zIDI0Ny4yYzMuNC02LjcgMS42LTE0LjktNC4yLTE5LjZzLTE0LjItNC43LTIwLjEtLjFsLTE2MCAxMjhjLTUuMyA0LjItNy40IDExLjQtNS4xIDE3LjhzOC4zIDEwLjcgMTUuMSAxMC43bDcwLjEgMEw0NDkuNyA0ODguOGMtMy40IDYuNy0xLjYgMTQuOSA0LjMgMTkuNnMxNC4yIDQuNyAyMC4xIC4xbDE2MC0xMjhjNS4zLTQuMiA3LjQtMTEuNCA1LjEtMTcuOHMtOC4zLTEwLjctMTUuMS0xMC43bC03MC4xIDAgNTIuNC0xMDQuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![meter-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/meter-bolt.svg)
  */
 const MeterBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512c73.7 0 140.1-31.1 186.8-81l7.5-15L432 416c-20.4 0-38.5-12.9-45.3-32.1s-.6-40.6 15.3-53.4l109.6-87.7C504.8 107.5 393 0 256 0C114.6 0 0 114.6 0 256zm128-96c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32zm96 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32zm96 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32z" />
-            <path d="M606.3 247.2c3.4-6.7 1.6-14.9-4.2-19.6s-14.2-4.7-20.1-.1l-160 128c-5.3 4.2-7.4 11.4-5.1 17.8s8.3 10.7 15.1 10.7l70.1 0L449.7 488.8c-3.4 6.7-1.6 14.9 4.3 19.6s14.2 4.7 20.1 .1l160-128c5.3-4.2 7.4-11.4 5.1-17.8s-8.3-10.7-15.1-10.7l-70.1 0 52.4-104.8z" />
+        <path d="M606.3 247.2c3.4-6.7 1.6-14.9-4.2-19.6s-14.2-4.7-20.1-.1l-160 128c-5.3 4.2-7.4 11.4-5.1 17.8s8.3 10.7 15.1 10.7l70.1 0L449.7 488.8c-3.4 6.7-1.6 14.9 4.3 19.6s14.2 4.7 20.1 .1l160-128c5.3-4.2 7.4-11.4 5.1-17.8s-8.3-10.7-15.1-10.7l-70.1 0 52.4-104.8z" />
     </Icon>
 );
 

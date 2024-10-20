@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `key` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/key?s=sharp-regular key}
- * @preview ![key](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE1LjcgMzAyLjRsLTI0LjItMy44LTE3LjMgMTcuM0wyNTQuMSAzMzYgMjI0IDMzNmwtNDggMCAwIDQ4IDAgMTYtMTYgMC00OCAwIDAgNDggMCAxNi02NCAwIDAtNzguMUwxOTYuMSAyMzcuOGwxNy4zLTE3LjMtMy44LTI0LjJjLTEtNi42LTEuNi0xMy40LTEuNi0yMC4zYzAtNzAuNyA1Ny4zLTEyOCAxMjgtMTI4czEyOCA1Ny4zIDEyOCAxMjhzLTU3LjMgMTI4LTEyOCAxMjhjLTYuOSAwLTEzLjctLjUtMjAuMy0xLjZ6TTI3MiAzODRsMS45IDAgNy03IDI3LjItMjcuMmM5LjEgMS40IDE4LjQgMi4yIDI3LjkgMi4yYzk3LjIgMCAxNzYtNzguOCAxNzYtMTc2UzQzMy4yIDAgMzM2IDBTMTYwIDc4LjggMTYwIDE3NmMwIDkuNSAuNyAxOC44IDIuMiAyNy45TDcgMzU5bC03IDdMMCAzNzZsMCA4OCAwIDI0IDAgMjQgMjQgMCAyNCAwIDY0IDAgMjQgMCAyNCAwIDAtMTYgMC04IDAtMjQgMC0xNiAxNiAwIDI0IDAgOCAwIDE2IDAgMC0xNiAwLTggMC0yNCAwLTE2IDQwIDAgOCAwem05Ni0yMDhhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![key](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/key.svg)
  */
 const Key: typeof Icon = x => (
     <Icon {...x}>

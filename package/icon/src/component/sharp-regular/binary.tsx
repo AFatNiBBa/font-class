@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `binary` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary?s=sharp-regular binary}
- * @preview ![binary](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDBsNTYgMCAyNCAwIDAgMjQgMCAxNTIgMzIgMCAyNCAwIDAgNDgtMjQgMC01NiAwLTU2IDAtMjQgMCAwLTQ4IDI0IDAgMzIgMCAwLTEyOC0zMiAwLTI0IDAgMC00OCAyNCAwek0yNCAyODhsNTYgMCAyNCAwIDAgMjQgMCAxNTIgMzIgMCAyNCAwIDAgNDgtMjQgMC01NiAwLTU2IDBMMCA1MTJsMC00OCAyNCAwIDMyIDAgMC0xMjgtMzIgMEwwIDMzNmwwLTQ4IDI0IDB6TTAgMEwyNCAwIDE2OCAwbDI0IDAgMCAyNCAwIDE3NiAwIDI0LTI0IDBMMjQgMjI0IDAgMjI0bDAtMjRMMCAyNCAwIDB6TTQ4IDQ4bDAgMTI4IDk2IDAgMC0xMjhMNDggNDh6TTIxNiAyODhsMTQ0IDAgMjQgMCAwIDI0IDAgMTc2IDAgMjQtMjQgMC0xNDQgMC0yNCAwIDAtMjQgMC0xNzYgMC0yNCAyNCAwem0yNCAxNzZsOTYgMCAwLTEyOC05NiAwIDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/binary.svg)
  */
 const Binary: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

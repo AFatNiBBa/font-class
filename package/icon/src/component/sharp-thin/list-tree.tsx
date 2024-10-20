@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `list-tree` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-tree?s=sharp-thin list-tree}
- * @preview ![list-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNjRsMCA2NCAyNCAwIDE2IDAgMjQgMCAwLTY0TDE2IDY0em0yNCA4MGwtMjQgMEwwIDE0NGwwLTE2TDAgNjQgMCA0OGwxNiAwIDY0IDAgMTYgMCAwIDE2IDAgNjQgMCAxNi0xNiAwLTI0IDAgMCAxMTIgNzIgMCAwLTMyIDAtMTYgMTYgMCA2NCAwIDE2IDAgMCAxNiAwIDY0IDAgMTYtMTYgMC02NCAwLTE2IDAgMC0xNiAwLTE2LTcyIDAgMCAxNDQgNzIgMCAwLTMyIDAtMTYgMTYgMCA2NCAwIDE2IDAgMCAxNiAwIDY0IDAgMTYtMTYgMC02NCAwLTE2IDAgMC0xNiAwLTE2LTgwIDAtOCAwIDAtOCAwLTE2MCAwLTEyMHpNMTQ0IDQxNmwwIDE2IDAgMTYgNjQgMCAwLTY0LTY0IDAgMCAzMnptMC0xMjhsNjQgMCAwLTY0LTY0IDAgMCAzMiAwIDE2IDAgMTZ6TTE2OCA4OGw4IDAgMzIwIDAgOCAwIDAgMTYtOCAwLTMyMCAwLTggMCAwLTE2ek0yOTYgMjQ4bDggMCAxOTIgMCA4IDAgMCAxNi04IDAtMTkyIDAtOCAwIDAtMTZ6bTAgMTYwbDggMCAxOTIgMCA4IDAgMCAxNi04IDAtMTkyIDAtOCAwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![list-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/list-tree.svg)
  */
 const ListTree: typeof Icon = x => (
     <Icon {...x}>

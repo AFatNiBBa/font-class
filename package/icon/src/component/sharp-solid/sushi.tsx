@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sushi` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sushi?s=sharp-solid sushi}
- * @preview ![sushi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc5LjcgMzIwbC03My44LTI0LjVMNTA2LjMgMTI1LjZjMjQuOCAyNi43IDQyLjEgNjAuNyA0OC41IDk4LjhMNTc2IDM1MmwtNTcuNC0xOS4xTDQ3OS43IDMyMHMwIDAgMCAwek0zOTMuNSA2Ni4xYzMyLjkgNC44IDYzLjIgMTggODguNyAzNy41TDM3NC44IDI4NS4ybC05Mi43LTMwLjhMMzkzLjUgNjYuMXptLTM2LTIuMUwyMzUuNiAyNzAuNCA5Ni4xIDMxOC43IDI0Ni42IDY0bDExMC45IDB6TTIxLjMgMjI0LjRDMzYuNiAxMzIuMiAxMTYuMSA2NC42IDIwOS41IDY0TDQ5LjQgMzM0LjkgMCAzNTIgMjEuMyAyMjQuNHpNMzIgMzg0bDAtOS4yIDI1MC4xLTg2LjcgMjYxLjkgODcgMCA4LjljMCAzNS4zLTI4LjcgNjQtNjQgNjRjLTE5LjEgMC0zNi4zLTguNC00OC0yMS43Yy0xMS43IDEzLjMtMjguOSAyMS43LTQ4IDIxLjdzLTM2LjMtOC40LTQ4LTIxLjdjLTExLjcgMTMuMy0yOC45IDIxLjctNDggMjEuN3MtMzYuMy04LjQtNDgtMjEuN2MtMTEuNyAxMy4zLTI4LjkgMjEuNy00OCAyMS43cy0zNi4zLTguNC00OC0yMS43QzEzMi4zIDQzOS42IDExNS4xIDQ0OCA5NiA0NDhjLTM1LjMgMC02NC0yOC43LTY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sushi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sushi.svg)
  */
 const Sushi: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

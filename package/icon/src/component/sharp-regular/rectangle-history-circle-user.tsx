@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-history-circle-user` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-history-circle-user?s=sharp-regular rectangle-history-circle-user}
- * @preview ![rectangle-history-circle-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDY0bDMwMC41IDBjMTIuMyAxOC44IDI4IDM1LjEgNDYuMyA0OEw0OCA1MTIgMCA1MTJsMC00OEwwIDIwOGwwLTQ4IDQ4IDAgNDE2IDAgNDggMCAwIDMyLjdjLTUuMy0uNS0xMC42LS43LTE2LS43Yy0yNi4yIDAtNTEuMSA1LjctNzMuNCAxNkw0OCAyMDhsMCAyNTZ6TTQ2NCA4MGwwIDQ4TDQ4IDEyOGwwLTQ4IDQxNiAwek00MTYgMGwwIDQ4TDk2IDQ4IDk2IDAgNDE2IDB6TTM1MiAzNjhhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMjI0LjcgNzcuN0w1NTIgNDE2bC0xMTIgMC0yNC43IDI5LjdjMjAuNCAyMS4yIDQ5IDM0LjMgODAuNyAzNC4zczYwLjMtMTMuMiA4MC43LTM0LjN6TTU0NCAzMzZhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rectangle-history-circle-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rectangle-history-circle-user.svg)
  */
 const RectangleHistoryCircleUser: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

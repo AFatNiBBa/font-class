@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kit-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kit-medical?s=sharp-light kit-medical}
- * @preview ![kit-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQ0OGwwLTM4NCAzMjAgMCAwIDM4NC0zMjAgMHptLTMyIDBsLTY0IDBMMzIgNjRsNjQgMCAwIDM4NHpNMTEyIDMyTDk2IDMyIDMyIDMyIDAgMzIgMCA2NCAwIDQ0OGwwIDMyIDMyIDAgNjQgMCAxNiAwIDE2IDAgMzIwIDAgMTYgMCAxNiAwIDY0IDAgMzIgMCAwLTMyIDAtMzg0IDAtMzItMzIgMC02NCAwLTE2IDAtMTYgMEwxMjggMzJsLTE2IDB6TTU0NCA0NDhsLTY0IDAgMC0zODQgNjQgMCAwIDM4NHpNMjU2IDE0NGwtMTYgMCAwIDE2IDAgNDgtNDggMC0xNiAwIDAgMTYgMCA2NCAwIDE2IDE2IDAgNDggMCAwIDQ4IDAgMTYgMTYgMCA2NCAwIDE2IDAgMC0xNiAwLTQ4IDQ4IDAgMTYgMCAwLTE2IDAtNjQgMC0xNi0xNiAwLTQ4IDAgMC00OCAwLTE2LTE2IDAtNjQgMHptMTYgODBsMC00OCAzMiAwIDAgNDggMCAxNiAxNiAwIDQ4IDAgMCAzMi00OCAwLTE2IDAgMCAxNiAwIDQ4LTMyIDAgMC00OCAwLTE2LTE2IDAtNDggMCAwLTMyIDQ4IDAgMTYgMCAwLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![kit-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/kit-medical.svg)
  */
 const KitMedical: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

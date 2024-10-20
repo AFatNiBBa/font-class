@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kerning` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kerning?s=sharp-thin kerning}
- * @preview ![kerning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI0LjcgNC43bC0yMjQgNDk2IDE0LjYgNi42IDIyNC00OTZMNDI0LjcgNC43ek0xLjcgOTZMMTUyLjggNDExLjQgMTU1IDQxNmwxMC4xIDAgMi4yLTQuNUwzMTguMyA5NmwtMTcuNyAwTDE2MCAzODkuNSAxOS40IDk2IDEuNyA5NnpNNDc1IDk2bC0yLjIgNC41TDMyMS43IDQxNmwxNy43IDAgMzguMy04MCAyMDQuNSAwIDM4LjMgODAgMTcuNyAwTDQ4Ny4yIDEwMC41IDQ4NSA5NiA0NzUgOTZ6bTk5LjYgMjI0bC0xODkuMiAwTDQ4MCAxMjIuNSA1NzQuNiAzMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![kerning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/kerning.svg)
  */
 const Kerning: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

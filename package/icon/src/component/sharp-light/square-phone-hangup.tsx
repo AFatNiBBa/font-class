@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-phone-hangup` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-phone-hangup?s=sharp-light square-phone-hangup}
- * @preview ![square-phone-hangup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDY0bDAgMzg0TDMyIDQ0OCAzMiA2NGwzODQgMHptMzItMzJsLTMyIDBMMzIgMzIgMCAzMiAwIDY0IDAgNDQ4bDAgMzIgMzIgMCAzODQgMCAzMiAwIDAtMzIgMC0zODQgMC0zMnpNMjI0IDE2MGMtNTggMC0xMTYuMSAyMS42LTE2MC41IDY0LjlMNTIuOCAyMzUuM2wtOS40IDkuMiA3LjIgMTEgMzcuMyA1Ny4yIDYuNCA5LjggMTEuMy0zLjEgNzQuNy0yMC44IDEzLjktMy45LTIuNC0xNC4yTDE4OC42IDI2MmMyMy4zLTQuOSA0Ny40LTQuOSA3MC43IDBsLTMuMSAxOC42LTIuNCAxNC4yIDEzLjkgMy45IDc0LjcgMjAuOCAxMS4zIDMuMSA2LjQtOS44IDM3LjMtNTcuMiA3LjItMTEtOS40LTkuMi0xMC43LTEwLjRzMCAwIDAgMEMzNDAuMSAxODEuNiAyODIgMTYwIDIyNCAxNjB6TTg1LjggMjQ3LjhDMTIzLjkgMjEwLjYgMTczLjkgMTkyIDIyNCAxOTJzMTAwLjEgMTguNiAxMzguMiA1NS44YzAgMCAwIDAgMCAwbDEuMyAxLjItMjMuNyAzNi40LTQ5LjUtMTMuOCAzLjItMTguOCAyLjQtMTMuOS0xMy41LTQuMWMtMzcuOS0xMS40LTc4LjUtMTEuNC0xMTYuNCAwbC0xMy41IDQuMSAyLjQgMTMuOSAzLjIgMTguOC00OS41IDEzLjhMODQuNiAyNDlsMS4zLTEuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-phone-hangup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-phone-hangup.svg)
  */
 const SquarePhoneHangup: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

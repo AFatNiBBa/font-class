@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `watch` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch?s=thin watch}
- * @preview ![watch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDE2bDE0NCAwYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgNDRjLTMxLjUtMjIuNy03MC4yLTM2LTExMi0zNnMtODAuNSAxMy40LTExMiAzNmwwLTQ0YzAtMjIuMSAxNy45LTQwIDQwLTQwek02NCAxMTJsMSAwQzI1LjEgMTQ3LjIgMCAxOTguNyAwIDI1NmMwIDU2LjkgMjQuNyAxMDggNjQgMTQzLjFMNjQgNDU2YzAgMzAuOSAyNS4xIDU2IDU2IDU2bDE0NCAwYzMwLjkgMCA1Ni0yNS4xIDU2LTU2bDAtNTYuOWMzOS4zLTM1LjIgNjQtODYuMiA2NC0xNDMuMWMwLTU3LjMtMjUuMS0xMDguOC02NS0xNDRsMSAwIDAtNTZjMC0zMC45LTI1LjEtNTYtNTYtNTZMMTIwIDBDODkuMSAwIDY0IDI1LjEgNjQgNTZsMCA1NnpNMzA0IDQxMmwwIDQ0YzAgMjIuMS0xNy45IDQwLTQwIDQwbC0xNDQgMGMtMjIuMSAwLTQwLTE3LjktNDAtNDBsMC00NGMzMS41IDIyLjcgNzAuMiAzNiAxMTIgMzZzODAuNS0xMy40IDExMi0zNnpNMTYgMjU2YTE3NiAxNzYgMCAxIDEgMzUyIDBBMTc2IDE3NiAwIDEgMSAxNiAyNTZ6bTE4NC05NmMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDk2YzAgMi41IDEuMiA0LjkgMy4yIDYuNGw2NCA0OGMzLjUgMi43IDguNSAxLjkgMTEuMi0xLjZzMS45LTguNS0xLjYtMTEuMkwyMDAgMjUybDAtOTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![watch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/watch.svg)
  */
 const Watch: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

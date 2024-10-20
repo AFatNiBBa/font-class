@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-point-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-left?s=solid hand-point-left}
- * @preview ![hand-point-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgOTZDMTQuMyA5NiAwIDExMC4zIDAgMTI4czE0LjMgMzIgMzIgMzJsMjA4IDAgMC02NEwzMiA5NnpNMTkyIDI4OGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmw2NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC02NCAwem0tNjQtNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJsNDggMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtNDggMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6bTk2IDE2MGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmw2NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC02NCAwem04OC05NmwtLjYgMGM1LjQgOS40IDguNiAyMC4zIDguNiAzMmMwIDEzLjItNCAyNS40LTEwLjggMzUuNmMyNC45IDguNyA0Mi44IDMyLjUgNDIuOCA2MC40YzAgMTEuNy0zLjEgMjIuNi04LjYgMzJsOC42IDBjODguNCAwIDE2MC03MS42IDE2MC0xNjBsMC02MS43YzAtNDIuNC0xNi45LTgzLjEtNDYuOS0xMTMuMWwtMTEuNi0xMS42QzQyOS41IDc3LjUgMzk2LjkgNjQgMzYzIDY0bC0yNyAwYy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDg4YzAgMjIuMSAxNy45IDQwIDQwIDQwczQwLTE3LjkgNDAtNDBsMC01NmMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2bDAgNTZjMCAzOS44LTMyLjIgNzItNzIgNzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-point-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-point-left.svg)
  */
 const HandPointLeft: typeof Icon = x => (
     <Icon {...x}>

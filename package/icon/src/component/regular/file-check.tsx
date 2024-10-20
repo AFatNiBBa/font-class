@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-check?s=regular file-check}
- * @preview ![file-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDY0Yy04LjggMC0xNi03LjItMTYtMTZMNDggNjRjMC04LjggNy4yLTE2IDE2LTE2bDE2MCAwIDAgODBjMCAxNy43IDE0LjMgMzIgMzIgMzJsODAgMCAwIDI4OGMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDY0ek02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTI5My41YzAtMTctNi43LTMzLjMtMTguNy00NS4zTDI3NC43IDE4LjdDMjYyLjcgNi43IDI0Ni41IDAgMjI5LjUgMEw2NCAwek0yODkgMjY3LjZjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMGwtODkuNyA4OS43TDEyOSAyODdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsNTMuMyA1My4zYzQuNSA0LjUgMTAuNiA3IDE3IDdzMTIuNS0yLjUgMTctN0wyODkgMjY3LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-check.svg)
  */
 const FileCheck: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `text-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/text-slash?s=sharp-light text-slash}
- * @preview ![text-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIuNCAxMEwxOS45IC4xIC4xIDI1LjNsMTIuNiA5LjlMNjA3LjggNTAyLjJsMTIuNiA5LjkgMTkuOC0yNS4yLTEyLjYtOS45TDMyLjQgMTB6TTM1Mi4zIDIwMEwzOTAuNCA2NGwxNDkuMSAwLTE2IDY0IDMzIDAgMTktNzYuMSA1LTE5LjlMNTYwIDMyIDE0NCAzMmwtNC40IDAgNDAuNSAzMiAxNzcuMSAwTDMyNS4xIDE3OC41IDM1Mi4zIDIwMHpNMzE0LjkgMzMzLjVMMjg3LjcgMzEyIDI0OS42IDQ0OCAxNzYgNDQ4bC0xNiAwIDAgMzIgMTYgMCAxNjAgMCAxNiAwIDAtMzItMTYgMC01My4xIDAgMzIuMS0xMTQuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![text-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/text-slash.svg)
  */
 const TextSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

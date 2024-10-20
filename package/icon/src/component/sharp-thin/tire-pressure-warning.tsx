@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tire-pressure-warning` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tire-pressure-warning?s=sharp-thin tire-pressure-warning}
- * @preview ![tire-pressure-warning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDBsMCA4IDAgMjcuNmMwIDQxIDkuNSA4MS40IDI3LjkgMTE4LjFsNSA5LjljLjEgLjIgLjIgLjMgLjIgLjVjMTguMyAzMS40IDM3LjYgNzUuMSAzNi45IDEyNC43Yy0uNiA0OC42LTIwLjQgMTAzLjctODEuMSAxNTkuM2wtMjk3LjggMEM0Ni40IDM5Mi40IDI2LjYgMzM3LjIgMjYgMjg4LjdjLS42LTQ5LjUgMTguNi05My4yIDM2LjktMTI0LjdjLjEtLjEgLjItLjMgLjItLjVsNS05LjlDODYuNSAxMTcgOTYgNzYuNiA5NiAzNS42TDk2IDhsMC04TDgwIDBsMCA4IDAgMjcuNmMwIDM4LjUtOSA3Ni41LTI2LjIgMTEwLjlMNDkgMTU2LjJDMzAgMTg4LjggOS4zIDIzNS4zIDEwIDI4OC45Yy43IDUzLjMgMjIuNiAxMTIuNSA4NiAxNzAuNkw5NiA1MTJsMTYgMCAwLTQ4IDg4IDAgMCA0OCAxNiAwIDAtNDggODAgMCAwIDQ4IDE2IDAgMC00OCA4OCAwIDAgNDggMTYgMCAwLTUyLjVjNjMuNC01OC4yIDg1LjMtMTE3LjMgODYtMTcwLjZjLjctNTMuNi0yMC0xMDAuMi0zOS0xMzIuN2wtNC45LTkuN0M0NDEgMTEyIDQzMiA3NC4xIDQzMiAzNS42TDQzMiA4bDAtOEw0MTYgMHpNMjY0IDk2bC0xNiAwIDAgOCAwIDE2MCAwIDggMTYgMCAwLTggMC0xNjAgMC04ek0yNDAgMzA0bDAgMzIgMzIgMCAwLTMyLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tire-pressure-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tire-pressure-warning.svg)
  */
 const TirePressureWarning: typeof Icon = x => (
     <Icon {...x}>

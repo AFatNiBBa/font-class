@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plug-circle-xmark` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-xmark?s=sharp-regular plug-circle-xmark}
- * @preview ![plug-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDM2OGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0yMTQuNi00OEw0ODAgMjk3LjRsLTExLjMgMTEuM0w0MzIgMzQ1LjRsLTM2LjctMzYuN0wzODQgMjk3LjQgMzYxLjQgMzIwbDExLjMgMTEuM0w0MDkuNCAzNjhsLTM2LjcgMzYuN0wzNjEuNCA0MTYgMzg0IDQzOC42bDExLjMtMTEuM0w0MzIgMzkwLjZsMzYuNyAzNi43TDQ4MCA0MzguNiA1MDIuNiA0MTZsLTExLjMtMTEuM0w0NTQuNiAzNjhsMzYuNy0zNi43TDUwMi42IDMyMHpNMTIwIDBsMCAyNCAwIDg4LTQ4IDAgMC04OEw3MiAwbDQ4IDB6TTMxMiAwbDAgMjQgMCA4OC00OCAwIDAtODggMC0yNCA0OCAwek0wIDE0NGwyNCAwIDggMCA0OCAwIDIyNCAwIDQ4IDAgOCAwIDI0IDAgMCA0OC0yNCAwLTggMCAwIDE5LjJjLTE4IDkuMi0zNC4yIDIxLjQtNDggMzZsMC01NS4yTDgwIDE5MmwwIDY0YzAgNjEuOSA1MC4xIDExMiAxMTIgMTEyYzI0LjMgMCA0Ni45LTcuOCA2NS4yLTIwLjljLS44IDYuOS0xLjIgMTMuOS0xLjIgMjAuOWMwIDExLjQgMS4xIDIyLjUgMy4xIDMzLjNjLTEzLjUgNi4yLTI4IDEwLjctNDMuMSAxMi45bDAgOTcuOC00OCAwIDAtOTcuOEM5MSA0MDIuNiAzMiAzMzYuMiAzMiAyNTZsMC02NC04IDBMMCAxOTJsMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![plug-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/plug-circle-xmark.svg)
  */
 const PlugCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

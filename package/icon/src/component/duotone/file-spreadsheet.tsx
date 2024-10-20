@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `file-spreadsheet` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-spreadsheet?s=duotone file-spreadsheet}
- * @preview ![file-spreadsheet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwyMjQgMGwwIDEyOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxMjggMCAwIDI4OGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6TTU2IDI1NmwwIDE2IDAgODAgMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmw2NCAwIDgwIDAgNjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0IDAtODAgMC0xNmMwLTE3LjctMTQuMy0zMi0zMi0zMkw4OCAyMjRjLTE3LjcgMC0zMiAxNC4zLTMyIDMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzg0IDE2MEwyMjQgMGwwIDEyOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxMjggMHpNODggMjI0Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE2IDAgODAgMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmw2NCAwIDgwIDAgNjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0IDAtODAgMC0xNmMwLTE3LjctMTQuMy0zMi0zMi0zMkw4OCAyMjR6bTAgMTEybDAtNDggNDggMCAwIDQ4LTQ4IDB6bTgwIDBsMC00OCA0OCAwIDAgNDgtNDggMHptODAgMGwwLTQ4IDQ4IDAgMCA0OC00OCAwem0wIDMybDQ4IDAgMCA0OC00OCAwIDAtNDh6bS0zMiAwbDAgNDgtNDggMCAwLTQ4IDQ4IDB6bS04MCAwbDAgNDgtNDggMCAwLTQ4IDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-spreadsheet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-spreadsheet.svg)
  */
 const FileSpreadsheet: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
         <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM56 256l0 16 0 80 0 64c0 17.7 14.3 32 32 32l64 0 80 0 64 0c17.7 0 32-14.3 32-32l0-64 0-80 0-16c0-17.7-14.3-32-32-32L88 224c-17.7 0-32 14.3-32 32z" />
-            <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zM88 224c-17.7 0-32 14.3-32 32l0 16 0 80 0 64c0 17.7 14.3 32 32 32l64 0 80 0 64 0c17.7 0 32-14.3 32-32l0-64 0-80 0-16c0-17.7-14.3-32-32-32L88 224zm0 112l0-48 48 0 0 48-48 0zm80 0l0-48 48 0 0 48-48 0zm80 0l0-48 48 0 0 48-48 0zm0 32l48 0 0 48-48 0 0-48zm-32 0l0 48-48 0 0-48 48 0zm-80 0l0 48-48 0 0-48 48 0z" />
+        <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zM88 224c-17.7 0-32 14.3-32 32l0 16 0 80 0 64c0 17.7 14.3 32 32 32l64 0 80 0 64 0c17.7 0 32-14.3 32-32l0-64 0-80 0-16c0-17.7-14.3-32-32-32L88 224zm0 112l0-48 48 0 0 48-48 0zm80 0l0-48 48 0 0 48-48 0zm80 0l0-48 48 0 0 48-48 0zm0 32l48 0 0 48-48 0 0-48zm-32 0l0 48-48 0 0-48 48 0zm-80 0l0 48-48 0 0-48 48 0z" />
     </Icon>
 );
 

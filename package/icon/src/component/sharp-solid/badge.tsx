@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `badge` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badge?s=sharp-solid badge}
- * @preview ![badge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQwLjkgNTEuMUMzMjQuOCAyMC43IDI5Mi44IDAgMjU2IDBzLTY4LjggMjAuNy04NC45IDUxLjFDMTM4LjIgNDEgMTAxIDQ5IDc1IDc1cy0zNCA2My4zLTIzLjkgOTYuMUMyMC43IDE4Ny4yIDAgMjE5LjIgMCAyNTZzMjAuNyA2OC44IDUxLjEgODQuOUM0MSAzNzMuOCA0OSA0MTEgNzUgNDM3czYzLjMgMzQgOTYuMSAyMy45QzE4Ny4yIDQ5MS4zIDIxOS4yIDUxMiAyNTYgNTEyczY4LjgtMjAuNyA4NC45LTUxLjFDMzczLjggNDcxIDQxMSA0NjMgNDM3IDQzN3MzNC02My4zIDIzLjktOTYuMUM0OTEuMyAzMjQuOCA1MTIgMjkyLjggNTEyIDI1NnMtMjAuNy02OC44LTUxLjEtODQuOUM0NzEgMTM4LjIgNDYzIDEwMSA0MzcgNzVzLTYzLjMtMzQtOTYuMS0yMy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![badge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/badge.svg)
  */
 const Badge: typeof Icon = x => (
     <Icon {...x}>

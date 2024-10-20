@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `pen-circle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-circle?s=duotone pen-circle}
- * @preview ![pen-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NmEyNTYgMjU2IDAgMSAwIDUxMiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZ6TTEyOC41IDM2NGwxNS02MC4xYzEuNC01LjYgNC4zLTEwLjggOC40LTE0LjlMMjU3LjEgMTgzLjhsNzEgNzFMMjIyLjkgMzU5LjljLTQuMSA0LjEtOS4yIDctMTQuOSA4LjRsLTYwLjEgMTVjLTUuNSAxLjQtMTEuMi0uMi0xNS4yLTQuMnMtNS42LTkuNy00LjItMTUuMnpNMjc5LjggMTYxLjFsMjEuNC0yMS40YzE1LjYtMTUuNiA0MC45LTE1LjYgNTYuNiAwbDE0LjQgMTQuNGM3LjggNy44IDExLjcgMTggMTEuNyAyOC4zcy0zLjkgMjAuNS0xMS43IDI4LjNsLTIxLjQgMjEuNC03MS03MXoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTMwMS4yIDEzOS43bC0yMS40IDIxLjQgNzEgNzEgMjEuNC0yMS40YzE1LjYtMTUuNiAxNS42LTQwLjkgMC01Ni42bC0xNC40LTE0LjRjLTE1LjYtMTUuNi00MC45LTE1LjYtNTYuNiAwem0tNDQgNDRMMTUxLjkgMjg5Yy00LjEgNC4xLTcgOS4yLTguNCAxNC45bC0xNSA2MC4xYy0xLjQgNS41IC4yIDExLjIgNC4yIDE1LjJzOS43IDUuNiAxNS4yIDQuMmw2MC4xLTE1YzUuNi0xLjQgMTAuOC00LjMgMTQuOS04LjRMMzI4LjEgMjU0LjdsLTcxLTcxeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pen-circle.svg)
  */
 const PenCircle: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM128.5 364l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9L257.1 183.8l71 71L222.9 359.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2zM279.8 161.1l21.4-21.4c15.6-15.6 40.9-15.6 56.6 0l14.4 14.4c7.8 7.8 11.7 18 11.7 28.3s-3.9 20.5-11.7 28.3l-21.4 21.4-71-71z" />
-            <path d="M301.2 139.7l-21.4 21.4 71 71 21.4-21.4c15.6-15.6 15.6-40.9 0-56.6l-14.4-14.4c-15.6-15.6-40.9-15.6-56.6 0zm-44 44L151.9 289c-4.1 4.1-7 9.2-8.4 14.9l-15 60.1c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l60.1-15c5.6-1.4 10.8-4.3 14.9-8.4L328.1 254.7l-71-71z" />
+        <path d="M301.2 139.7l-21.4 21.4 71 71 21.4-21.4c15.6-15.6 15.6-40.9 0-56.6l-14.4-14.4c-15.6-15.6-40.9-15.6-56.6 0zm-44 44L151.9 289c-4.1 4.1-7 9.2-8.4 14.9l-15 60.1c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l60.1-15c5.6-1.4 10.8-4.3 14.9-8.4L328.1 254.7l-71-71z" />
     </Icon>
 );
 

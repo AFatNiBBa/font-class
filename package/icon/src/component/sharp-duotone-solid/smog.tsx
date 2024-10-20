@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `smog` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smog?s=sharp-duotone-solid smog}
- * @preview ![smog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDQ2NGwwIDQ4IDI0IDAgMzM2IDAgMjQgMCAwLTQ4LTI0IDBMMjQgNDY0IDAgNDY0em03Mi05NmwwIDQ4IDI0IDAgMTA0IDAgMjQgMCAwLTQ4LTI0IDBMOTYgMzY4bC0yNCAwem0xODQgMGwwIDQ4IDI0IDAgMzM2IDAgMjQgMCAwLTQ4LTI0IDAtMzM2IDAtMjQgMHptMTYwIDk2bDAgNDggMjQgMCAxMTIgMCAyNCAwIDAtNDgtMjQgMC0xMTIgMC0yNCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTc2IDI4OGM1LjQgMCAxMC43LS4zIDE2LS45bDAgLjkgMTA3LjMgMGMyMi42IDE5LjkgNTIuMiAzMiA4NC43IDMyczYyLjEtMTIuMSA4NC43LTMybDI3LjMgMCAxMTIgMCAwLTExMmMwLTYxLjktNTAuMS0xMTItMTEyLTExMmMtMTAuNyAwLTIxIDEuNS0zMC44IDQuM0M0NDMuOCAyNy43IDQwMS4xIDAgMzUyIDBjLTMyLjYgMC02Mi40IDEyLjItODUuMSAzMi4zQzI0Mi4xIDEyLjEgMjEwLjUgMCAxNzYgMEM5Ni41IDAgMzIgNjQuNSAzMiAxNDRsMCAxNDQgMTQ0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![smog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/smog.svg)
  */
 const Smog: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 464l0 48 24 0 336 0 24 0 0-48-24 0L24 464 0 464zm72-96l0 48 24 0 104 0 24 0 0-48-24 0L96 368l-24 0zm184 0l0 48 24 0 336 0 24 0 0-48-24 0-336 0-24 0zm160 96l0 48 24 0 112 0 24 0 0-48-24 0-112 0-24 0z" />
-            <path d="M176 288c5.4 0 10.7-.3 16-.9l0 .9 107.3 0c22.6 19.9 52.2 32 84.7 32s62.1-12.1 84.7-32l27.3 0 112 0 0-112c0-61.9-50.1-112-112-112c-10.7 0-21 1.5-30.8 4.3C443.8 27.7 401.1 0 352 0c-32.6 0-62.4 12.2-85.1 32.3C242.1 12.1 210.5 0 176 0C96.5 0 32 64.5 32 144l0 144 144 0z" />
+        <path d="M176 288c5.4 0 10.7-.3 16-.9l0 .9 107.3 0c22.6 19.9 52.2 32 84.7 32s62.1-12.1 84.7-32l27.3 0 112 0 0-112c0-61.9-50.1-112-112-112c-10.7 0-21 1.5-30.8 4.3C443.8 27.7 401.1 0 352 0c-32.6 0-62.4 12.2-85.1 32.3C242.1 12.1 210.5 0 176 0C96.5 0 32 64.5 32 144l0 144 144 0z" />
     </Icon>
 );
 

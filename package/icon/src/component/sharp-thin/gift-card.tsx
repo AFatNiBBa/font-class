@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gift-card` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gift-card?s=sharp-thin gift-card}
- * @preview ![gift-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA1LjEgMTZjLTIwLjMgMC0zOS4yIDEwLjUtNTAgMjcuN0wzMDIuNCAxMjhsMjUuNiAwIDgwIDBjMzAuOSAwIDU2LTI1LjEgNTYtNTZzLTI1LjEtNTYtNTYtNTZsLTIuOSAwek0yNzMuNiAxMjhMMjIwLjkgNDMuN0MyMTAuMSAyNi41IDE5MS4yIDE2IDE3MC45IDE2TDE2OCAxNmMtMzAuOSAwLTU2IDI1LjEtNTYgNTZzMjUuMSA1NiA1NiA1Nmw4MCAwIDI1LjYgMHptMTQuNC03LjFsNTMuNi04NS43QzM1NS4zIDEzLjMgMzc5LjMgMCA0MDUuMSAwTDQwOCAwYzM5LjggMCA3MiAzMi4yIDcyIDcyYzAgMjIuNi0xMC40IDQyLjgtMjYuNyA1Nkw1NjAgMTI4bDE2IDAgMCAxNiAwIDM1MiAwIDE2LTE2IDBMMTYgNTEyIDAgNTEybDAtMTZMMCAxNDRsMC0xNiAxNiAwIDEwNi43IDBDMTA2LjQgMTE0LjggOTYgOTQuNiA5NiA3MmMwLTM5LjggMzIuMi03MiA3Mi03MmwyLjkgMGMyNS44IDAgNDkuOCAxMy4zIDYzLjUgMzUuMkwyODggMTIwLjl6TTE2OCAxNDRMMTYgMTQ0bDAgMTQ0IDU0NCAwIDAtMTQ0LTE1MiAwLTgwIDAtMjIuOSAwIDY5LjEgODIuOSA1LjEgNi4xTDM2NyAyNDMuM2wtNS4xLTYuMUwyODggMTQ4LjVsLTczLjkgODguNi01LjEgNi4xTDE5Ni43IDIzM2w1LjEtNi4xTDI3MC45IDE0NCAyNDggMTQ0bC04MCAwek0xNiAzMDRsMCA5NiA1NDQgMCAwLTk2TDE2IDMwNHpNNTYwIDQ5NmwwLTgwTDE2IDQxNmwwIDgwIDU0NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gift-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/gift-card.svg)
  */
 const GiftCard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

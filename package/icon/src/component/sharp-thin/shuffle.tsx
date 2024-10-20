@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shuffle` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuffle?s=sharp-thin shuffle}
- * @preview ![shuffle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDEwLjMgNDU4LjNsLTUuNyA1LjdMNDE2IDQ3NS4zbDUuNy01LjcgODAtODAgNS43LTUuNy01LjctNS43LTgwLTgwLTUuNy01LjdMNDA0LjcgMzA0bDUuNyA1LjdMNDc2LjcgMzc2IDMyNCAzNzYgMTM0LjQgMTIzLjIgMTMyIDEyMGwtNCAwTDggMTIwbC04IDAgMCAxNiA4IDAgMTE2IDBMMzEzLjYgMzg4LjggMzE2IDM5Mmw0IDAgMTU2LjcgMC02Ni4zIDY2LjN6TTEzNC40IDM4OC44TDIwNCAyOTZsLTEwLTEzLjNMMTI0IDM3NiA4IDM3NmwtOCAwIDAgMTYgOCAwIDEyMCAwIDQgMCAyLjQtMy4yek0yNTQgMjI5LjNMMzI0IDEzNmwxNTIuNyAwLTY2LjMgNjYuMy01LjcgNS43TDQxNiAyMTkuM2w1LjctNS43IDgwLTgwIDUuNy01LjctNS43LTUuNy04MC04MEw0MTYgMzYuNyA0MDQuNyA0OGw1LjcgNS43TDQ3Ni43IDEyMCAzMjAgMTIwbC00IDAtMi40IDMuMkwyNDQgMjE2bDEwIDEzLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shuffle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shuffle.svg)
  */
 const Shuffle: typeof Icon = x => (
     <Icon {...x}>

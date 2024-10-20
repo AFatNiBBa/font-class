@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-root-variable` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-root-variable?s=sharp-light square-root-variable}
- * @preview ![square-root-variable](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE2IDMybDEyIDAgMjMyIDAgMTYgMCAwIDMyLTE2IDBMMzQwIDY0IDIyMy40IDQ2OC40IDIyMCA0ODBsLTIxLjYgMC00LjUtOC40TDc4LjQgMjU2IDE2IDI1NiAwIDI1NmwwLTMyIDE2IDAgNzIgMCA5LjYgMCA0LjUgOC40TDIwMy41IDQyMS44IDMxMi42IDQzLjYgMzE2IDMyek01MzIuNyAzOTUuM0w0ODAgMzQyLjZsLTUyLjcgNTIuNy0yMi42LTIyLjZMNDU3LjQgMzIwbC01Mi43LTUyLjcgMjIuNi0yMi42TDQ4MCAyOTcuNGw1Mi43LTUyLjcgMjIuNiAyMi42TDUwMi42IDMyMGw1Mi43IDUyLjctMjIuNiAyMi42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-root-variable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-root-variable.svg)
  */
 const SquareRootVariable: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

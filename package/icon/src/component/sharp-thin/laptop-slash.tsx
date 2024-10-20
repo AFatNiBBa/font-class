@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-slash?s=sharp-thin laptop-slash}
- * @preview ![laptop-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1ek00ODcuMyA0ODBsLTIwLjMtMTZMNTQuNiA0NjQgMTYgNDI1LjQgMTYgNDAwbDM3MCAwLTIwLjMtMTZMMTYgMzg0IDAgMzg0bDAgMTYgMCAzMiA0OCA0OCA0MzkuMyAwek01NjAgMzUybDE2IDAgMC0zMDQgMC0xNi0xNiAwTDE1Mi4zIDMybDIwLjMgMTZMNTYwIDQ4bDAgMzA0ek02NCAxNDUuOEw2NCAzNTJsMTYgMCAwLTE5My42TDY0IDE0NS44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![laptop-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/laptop-slash.svg)
  */
 const LaptopSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

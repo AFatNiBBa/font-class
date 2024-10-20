@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sterling-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sterling-sign?s=thin sterling-sign}
- * @preview ![sterling-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMTQzLjJDODAgOTAuNiAxMjIuNiA0OCAxNzUuMiA0OGMxMC4yIDAgMjAuNCAxLjcgMzAuMSA0LjlsODAuMSAyNi43YzQuMiAxLjQgOC43LS45IDEwLjEtNS4xcy0uOS04LjctNS4xLTEwLjFMMjEwLjQgMzcuN2MtMTEuMy0zLjgtMjMuMi01LjctMzUuMi01LjdDMTEzLjggMzIgNjQgODEuOCA2NCAxNDMuMkw2NCAyNTYgOCAyNTZjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsNTUuOCAwQzYxLjcgMzQxLjYgNDAuMSA0MDkuNCAxLjQgNDY3LjVDLjUgNDY4LjggMCA0NzAuMyAwIDQ3MmMwIDQuNCAzLjYgOCA4IDhsMzA0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMMjIuNiA0NjRjMzUuNS01Ny45IDU1LjItMTI0LjEgNTcuMi0xOTJMMjQ4IDI3MmM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEw4MCAyNTZsMC0xMTIuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sterling-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sterling-sign.svg)
  */
 const SterlingSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

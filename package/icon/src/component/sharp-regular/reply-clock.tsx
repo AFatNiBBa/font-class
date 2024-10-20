@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `reply-clock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reply-clock?s=sharp-regular reply-clock}
- * @preview ![reply-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDE0NGExNDQgMTQ0IDAgMSAwIC0yODggMCAxNDQgMTQ0IDAgMSAwIDI4OCAwek01MTIgNjRsMCAxNiAwIDQ4IDMyIDAgMTYgMCAwIDMyLTE2IDAtNDggMC0xNiAwIDAtMTYgMC02NCAwLTE2IDMyIDB6bTAgMjcyYzAtNS42LS4zLTExLjItLjgtMTYuNmMtNSAuNC0xMC4xIC42LTE1LjIgLjZjLTExLjQgMC0yMi42LTEuMS0zMy40LTMuMmMuOSA2LjMgMS40IDEyLjcgMS40IDE5LjJjMCAxNy0zLjEgMzItOC4yIDQ1LjRDNDM0LjYgMzE3LjggMzc0LjcgMjcyIDMwNCAyNzJsLTgwIDAtNDggMCAwIDQ4IDAgMTYuMkw3MSAyNDBsMTA1LTk2LjIgMCAxNi4yIDAgNDggNDggMCAxMDggMGMtNS45LTE1LjEtOS44LTMxLjItMTEuMy00OEwyNzIgMTYwbC00OCAwIDAtNDggMC0xMi4yIDAtLjlMMjI0IDY0bC0zMiAwTDE3NiA3OC43IDM1LjUgMjA3LjQgMCAyNDBsMzUuNSAzMi42TDE3NiA0MDEuMyAxOTIgNDE2bDMyIDAgMC0zNC45IDAtLjkgMC0xMi4yIDAtNDggNDggMCAzMiAwYzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEyYzAgMS40IDAgMi45LS4xIDQuM0M0MTQuMSA0ODEuOSAzODQgNTEyIDM4NCA1MTJzNDEuOC0xNS43IDc3LjctNTNjMjYuOS0yOCA1MC4zLTY4LjEgNTAuMy0xMjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![reply-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/reply-clock.svg)
  */
 const ReplyClock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

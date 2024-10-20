@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-jpg` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-jpg?s=sharp-solid file-jpg}
- * @preview ![file-jpg](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDIyNCAwbDAgMTYwIDE2MCAwIDAgMTQ0LTI3MiAwIDAgMjA4TDAgNTEyIDAgMHpNMzg0IDEyOGwtMTI4IDBMMjU2IDAgMzg0IDEyOHpNMjA4IDUxMmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0xNiAwLTE2IDMyIDAgMCAxNiAwIDE2YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC05NiAwLTE2IDMyIDAgMCAxNiAwIDk2YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4ek00NTYgMzUybDE2IDBjMjIuMSAwIDQwIDE3LjkgNDAgNDBsMCAxNi0zMiAwIDAtMTZjMC00LjQtMy42LTgtOC04bC0xNiAwYy00LjQgMC04IDMuNi04IDhsMCA4MGMwIDQuNCAzLjYgOCA4IDhsMTYgMGM0LjQgMCA4LTMuNiA4LThsMC04LTE2IDAgMC0zMiAxNiAwIDE2IDAgMTYgMCAwIDE2IDAgMjRjMCAyMi4xLTE3LjkgNDAtNDAgNDBsLTE2IDBjLTIyLjEgMC00MC0xNy45LTQwLTQwbDAtODBjMC0yMi4xIDE3LjktNDAgNDAtNDB6bS0xNjggMGwxNiAwIDMyIDBjMzAuOSAwIDU2IDI1LjEgNTYgNTZzLTI1LjEgNTYtNTYgNTZsLTE2IDAgMCAzMiAwIDE2LTMyIDAgMC0xNiAwLTQ4IDAtODAgMC0xNnptMzIgODBsMTYgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMTYgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-jpg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-jpg.svg)
  */
 const FileJpg: typeof Icon = x => (
     <Icon {...x}>

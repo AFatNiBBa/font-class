@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-heart` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-heart?s=regular book-heart}
- * @preview ![book-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4OEMwIDM5LjQgMzkuNCAwIDg4IDBMMzkyIDBjMzAuOSAwIDU2IDI1LjEgNTYgNTZsMCAyODhjMCAyMi4zLTEzLjEgNDEuNi0zMiA1MC42bDAgNjkuNCA4IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRMODAgNTEyYy00NC4yIDAtODAtMzUuOC04MC04MGMwLTIuNyAuMS01LjQgLjQtOEwwIDQyNCAwIDg4ek04MCA0MDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsMjg4IDAgMC02NEw4MCA0MDB6TTQ4IDM1OC43YzkuOC00LjMgMjAuNi02LjcgMzItNi43bDMxMiAwYzQuNCAwIDgtMy42IDgtOGwwLTI4OGMwLTQuNC0zLjYtOC04LThMODggNDhDNjUuOSA0OCA0OCA2NS45IDQ4IDg4bDAgMjcwLjd6bTgwLTE4NS40YzAtMzMuOCAyNy40LTYxLjMgNjEuMy02MS4zYzE2LjIgMCAzMS44IDYuNSA0My4zIDE3LjlsNy40IDcuNCA3LjQtNy40YzExLjUtMTEuNSAyNy4xLTE3LjkgNDMuMy0xNy45YzMzLjggMCA2MS4zIDI3LjQgNjEuMyA2MS4zYzAgMTYuMi02LjUgMzEuOC0xNy45IDQzLjNsLTgyLjcgODIuN2MtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBsLTgyLjctODIuN2MtMTEuNS0xMS41LTE3LjktMjcuMS0xNy45LTQzLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/book-heart.svg)
  */
 const BookHeart: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

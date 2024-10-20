@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `microchip` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microchip?s=sharp-duotone-solid microchip}
- * @preview ![microchip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDEyOGwwIDQ4IDI0IDAgNDAgMCAwLTQ4LTQwIDBMMCAxMjh6TTAgMjMybDAgNDggMjQgMCA0MCAwIDAtNDgtNDAgMEwwIDIzMnpNMCAzMzZsMCA0OCAyNCAwIDQwIDAgMC00OC00MCAwTDAgMzM2ek0xMjggMGwwIDI0IDAgNDAgNDggMCAwLTQwIDAtMjRMMTI4IDB6bTAgNDQ4bDAgNDAgMCAyNCA0OCAwIDAtMjQgMC00MC00OCAwem0zMi0yODhsMCAxOTIgMTkyIDAgMC0xOTItMTkyIDB6TTIzMiAwbDAgMjQgMCA0MCA0OCAwIDAtNDAgMC0yNEwyMzIgMHptMCA0NDhsMCA0MCAwIDI0IDQ4IDAgMC0yNCAwLTQwLTQ4IDB6TTMzNiAwbDAgMjQgMCA0MCA0OCAwIDAtNDAgMC0yNEwzMzYgMHptMCA0NDhsMCA0MCAwIDI0IDQ4IDAgMC0yNCAwLTQwLTQ4IDB6TTQ0OCAxMjhsMCA0OCA0MCAwIDI0IDAgMC00OC0yNCAwLTQwIDB6bTAgMTA0bDAgNDggNDAgMCAyNCAwIDAtNDgtMjQgMC00MCAwem0wIDEwNGwwIDQ4IDQwIDAgMjQgMCAwLTQ4LTI0IDAtNDAgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQ0OCA2NEw2NCA2NGwwIDM4NCAzODQgMCAwLTM4NHptLTY0IDY0bDAgMjU2LTI1NiAwIDAtMjU2IDI1NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![microchip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/microchip.svg)
  */
 const Microchip: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 128l0 48 24 0 40 0 0-48-40 0L0 128zM0 232l0 48 24 0 40 0 0-48-40 0L0 232zM0 336l0 48 24 0 40 0 0-48-40 0L0 336zM128 0l0 24 0 40 48 0 0-40 0-24L128 0zm0 448l0 40 0 24 48 0 0-24 0-40-48 0zm32-288l0 192 192 0 0-192-192 0zM232 0l0 24 0 40 48 0 0-40 0-24L232 0zm0 448l0 40 0 24 48 0 0-24 0-40-48 0zM336 0l0 24 0 40 48 0 0-40 0-24L336 0zm0 448l0 40 0 24 48 0 0-24 0-40-48 0zM448 128l0 48 40 0 24 0 0-48-24 0-40 0zm0 104l0 48 40 0 24 0 0-48-24 0-40 0zm0 104l0 48 40 0 24 0 0-48-24 0-40 0z" />
-            <path d="M448 64L64 64l0 384 384 0 0-384zm-64 64l0 256-256 0 0-256 256 0z" />
+        <path d="M448 64L64 64l0 384 384 0 0-384zm-64 64l0 256-256 0 0-256 256 0z" />
     </Icon>
 );
 

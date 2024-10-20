@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `umbrella-beach` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/umbrella-beach?s=solid umbrella-beach}
- * @preview ![umbrella-beach](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ2LjMgMjcxLjhsLTYwLjEtMjEuOUwyMTQgNDQ4IDMyIDQ0OGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmw1MTIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtMjYxLjkgMCA2NC4xLTE3Ni4yem0xMjEuMS0uMmwtMy4zIDkuMSA2Ny43IDI0LjZjMTguMSA2LjYgMzgtNC4yIDM5LjYtMjMuNGM2LjUtNzguNS0yMy45LTE1NS41LTgwLjgtMjA4LjVjMiA4IDMuMiAxNi4zIDMuNCAyNC44bC4yIDZjMS44IDU3LTcuMyAxMTMuOC0yNi44IDE2Ny40ek00NjIgOTkuMWMtMS4xLTM0LjQtMjIuNS02NC44LTU0LjQtNzcuNGMtLjktLjQtMS45LS43LTIuOC0xLjFjLTMzLTExLjctNjkuOC0yLjQtOTMuMSAyMy44bC00IDQuNUMyNzIuNCA4OC4zIDI0NSAxMzQuMiAyMjYuOCAxODRsLTMuMyA5LjFMNDM0IDI2OS43bDMuMy05LjFjMTguMS00OS44IDI2LjYtMTAyLjUgMjQuOS0xNTUuNWwtLjItNnpNMTA3LjIgMTEyLjljLTExLjEgMTUuNy0yLjggMzYuOCAxNS4zIDQzLjRsNzEgMjUuOCAzLjMtOS4xYzE5LjUtNTMuNiA0OS4xLTEwMyA4Ny4xLTE0NS41bDQtNC41YzYuMi02LjkgMTMuMS0xMyAyMC41LTE4LjJjLTc5LjYgMi41LTE1NC43IDQyLjItMjAxLjIgMTA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![umbrella-beach](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/umbrella-beach.svg)
  */
 const UmbrellaBeach: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-chevron-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-chevron-left?s=thin square-chevron-left}
- * @preview ![square-chevron-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDE2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyMCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzIwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDQ4QzM3LjUgNDggMTYgNjkuNSAxNiA5NmwwIDMyMHptNDggNjRjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZDMCA2MC43IDI4LjcgMzIgNjQgMzJsMzIwIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAzMjBjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNDgwem03NC4zLTIyOS43bDEyMC0xMjBjMy4xLTMuMSA4LjItMy4xIDExLjMgMHMzLjEgOC4yIDAgMTEuM0wxNTUuMyAyNTYgMjY5LjcgMzcwLjNjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM3MtOC4yIDMuMS0xMS4zIDBsLTEyMC0xMjBjLTMuMS0zLjEtMy4xLTguMiAwLTExLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-chevron-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-chevron-left.svg)
  */
 const SquareChevronLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

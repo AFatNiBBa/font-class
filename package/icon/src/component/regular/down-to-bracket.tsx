@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-to-bracket` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-to-bracket?s=regular down-to-bracket}
- * @preview ![down-to-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE0LjIgMTkyTDIyNCAzMDIgMzMzLjggMTkyIDI4MCAxOTJjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtMTIwLTY0IDAgMCAxMjBjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTUzLjggMHpNMjI0IDM1MmMtMTEuNSAwLTIyLjUtNC42LTMwLjYtMTIuN0w3Ny42IDIyMy4yQzY4LjkgMjE0LjUgNjQgMjAyLjcgNjQgMTkwLjRjMC0yNS42IDIwLjgtNDYuNCA0Ni40LTQ2LjRsMzMuNiAwIDAtOTZjMC0yNi41IDIxLjUtNDggNDgtNDhsNjQgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDk2IDMzLjYgMGMyNS42IDAgNDYuNCAyMC44IDQ2LjQgNDYuNGMwIDEyLjMtNC45IDI0LjEtMTMuNiAzMi44TDI1NC42IDMzOS4zYy04LjEgOC4xLTE5LjEgMTIuNy0zMC42IDEyLjd6TTQ4IDM0NGwwIDgwYzAgMjIuMSAxNy45IDQwIDQwIDQwbDI3MiAwYzIyLjEgMCA0MC0xNy45IDQwLTQwbDAtODBjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNGwwIDgwYzAgNDguNi0zOS40IDg4LTg4IDg4TDg4IDUxMmMtNDguNiAwLTg4LTM5LjQtODgtODhsMC04MGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![down-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-to-bracket.svg)
  */
 const DownToBracket: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

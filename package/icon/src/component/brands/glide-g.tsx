@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glide-g` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glide-g?s=brands glide-g}
- * @preview ![glide-g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA3LjEgMjExLjJjLTMuNS0xLjQtMTEuNi0zLjgtMTUuNC0zLjgtMzcuMSAwLTYyLjIgMTYuOC05My41IDM0LjVsLS45LS45YzctNDcuMyAyMy41LTkxLjkgMjMuNS0xNDAuNEMzMjAuOCAyOS4xIDI4Mi42IDAgMjEyLjQgMCA5Ny4zIDAgMzkgMTEzLjcgMzkgMTk4LjQgMzkgMjg2LjMgOTAuMyAzMzUgMTc3LjYgMzM1YzEyIDAgMTEtMSAxMSAzLjgtMTYuOSAxMjguOS05MC44IDEzMy4xLTkwLjggOTQuNiAwLTM5LjIgNDUtNTguNiA0NS41LTYxLS4zLTEyLjItNDctMjcuNi01OC45LTI3LjYtMzMuOS4xLTUyLjQgNTEuMi01Mi40IDc5LjNDMzIgNDc2IDY0LjggNTEyIDExNy41IDUxMmM3Ny40IDAgMTM0LTc3LjggMTUxLjQtMTQ1LjQgMTUuMS02MC41IDExLjItNjMuMyAxOS43LTY3LjYgMzIuMi0xNi4yIDU3LjUtMjcgOTMuOC0yNyAxNy44IDAgMzAuNSAzLjcgNTguOSA4LjQgMi45IDAgNi43LTIuOSA2LjctNS44IDAtOC0zMy40LTYwLjUtNDAuOS02My40em0tMTc1LjMtODQuNGMtOS4zIDQ0LjctMTguNiA4OS42LTI3LjggMTM0LjMtMi4zIDEwLjItMTMuMyA3LjgtMjIgNy44LTM4LjMgMC00OS00MS44LTQ5LTczLjEgMC00NyAxOC0xMDkuMyA2MS44LTEzMy40IDctNC4xIDE0LjgtNi43IDIyLjYtNi43IDE4LjYgMCAyMCAxMy4zIDIwIDI4LjctLjEgMTQuMy0yLjcgMjguNS01LjYgNDIuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![glide-g](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/glide-g.svg)
  */
 const GlideG: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

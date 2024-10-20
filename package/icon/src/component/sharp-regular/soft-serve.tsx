@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `soft-serve` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/soft-serve?s=sharp-regular soft-serve}
- * @preview ![soft-serve](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBMMTQ3LjIgMCAxNzIgMzcuM2wxMC44IDE2LjNjLjcgMS4xIDEuMSAyLjQgMS4xIDMuN2MwIDMuNy0zIDYuNy02LjcgNi43TDE0MCA2NGMtNDIgMC03NiAzNC03NiA3NmwwIDIwQzI2LjQgMTc1LjcgMCAyMTIuNyAwIDI1NmwwIDU2IDAgMjQgMjQgMCAyNCAwIDAgNDggMzMuOCAwTDk2IDUxMmwxOTIgMCAxNC4yLTEyOCAzMy44IDAgMC00OCAyNCAwIDI0IDAgMC0yNCAwLTU2YzAtNDQuNS0yOC04Mi41LTY3LjMtOTcuM2MyLjEtNy4yIDMuMy0xNC44IDMuMy0yMi43bDAtOEMzMjAgNTcuMyAyNjIuNyAwIDE5MiAwek0zMzYgMjg4TDQ4IDI4OGwwLTMyYzAtMjcuMyAxOS41LTUwIDQ1LjMtNTVsNS4zLTEgMTMuNCAwIDI0IDAgMC00OC0yNCAwIDAtMTJjMC0xNS41IDEyLjUtMjggMjgtMjhsMzcuMyAwYzI5LjcgMCA1My45LTIzLjcgNTQuNy01My4zYzIzLjkgMTMuOCA0MCAzOS43IDQwIDY5LjNsMCA4YzAgNS44LTEuNSAxMS4zLTQuMyAxNkwyMTYgMTUybC0yNCAwIDAgNDggMjQgMCA0LjQgMCA1OC44IDAgLjggMGMzMC45IDAgNTYgMjUuMSA1NiA1NmwwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![soft-serve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/soft-serve.svg)
  */
 const SoftServe: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

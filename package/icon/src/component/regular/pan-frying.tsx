@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pan-frying` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pan-frying?s=regular pan-frying}
- * @preview ![pan-frying](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDIyNEExNzYgMTc2IDAgMSAwIDQ4IDIyNGExNzYgMTc2IDAgMSAwIDM1MiAwek0zNjQuOCAzOTguM0MzMjYuMyA0MjkuNCAyNzcuMyA0NDggMjI0IDQ0OEMxMDAuMyA0NDggMCAzNDcuNyAwIDIyNFMxMDAuMyAwIDIyNCAwUzQ0OCAxMDAuMyA0NDggMjI0YzAgMzMuNC03LjMgNjUuMS0yMC40IDkzLjZsMTIzLjcgNzkuOUM1NjYuNyA0MDkuMiA1NzYgNDI3LjEgNTc2IDQ0OGMwIDM1LjMtMjguNyA2NC02NCA2NGMtMTUuMiAwLTI4LjMtNC42LTM5LjMtMTMuNUwzNjQuOCAzOTguM3pNNTI4IDQ0OGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwek0yNTQuMSAxMTUuNmMxNS4yIDE1LjggNDQuNSAzMi45IDY1LjggMzguNGMxMy43IDMuNSAyNi40IDExLjYgMzUuNSAyMy45YzIxIDI4LjQgMTUuMSA2OC41LTEzLjMgODkuNWMtOC45IDYuNi0xOC45IDEwLjUtMjkuMiAxMmMtMTguNiAyLjYtNDIuMiAxNi4zLTUxLjYgMzIuNmMtMjIuMSAzOC4zLTcxIDUxLjQtMTA5LjMgMjkuM3MtNTEuNC03MS0yOS4zLTEwOS4zYzEyLjQtMjEuNCAxOS40LTUzIDIxLjUtNzcuNmMxLjMtMTQuOSA3LjgtMjkuNCAxOS40LTQwLjVjMjUuNS0yNC41IDY2LTIzLjcgOTAuNSAxLjh6TTI3MiAyMjRhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pan-frying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pan-frying.svg)
  */
 const PanFrying: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

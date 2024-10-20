@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `game-console-handheld` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/game-console-handheld?s=regular game-console-handheld}
- * @preview ![game-console-handheld](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDhjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDM1MmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwxOTIgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTM1MmMwLTguOC03LjItMTYtMTYtMTZMNjQgNDh6TTAgNjRDMCAyOC43IDI4LjcgMCA2NCAwTDMyMCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzUyYzAgNTMtNDMgOTYtOTYgOTZMOTYgNTEyYy01MyAwLTk2LTQzLTk2LTk2TDAgNjR6TTIzMiAzMzZhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4em0yNC0yNGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwek0xMjggMjg4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDE2IDE2IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTE2IDAgMCAxNmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTE2LTE2IDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsMTYgMCAwLTE2YzAtOC44IDcuMi0xNiAxNi0xNnpNMTEyIDk2bDE2MCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDExMmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTI4IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTEyYzAtOC44IDcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![game-console-handheld](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/game-console-handheld.svg)
  */
 const GameConsoleHandheld: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

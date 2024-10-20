@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `venus-mars` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/venus-mars?s=sharp-light venus-mars}
- * @preview ![venus-mars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDMyMGExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6TTM1MiAxNzZjMCA5MS44LTcwLjMgMTY3LjItMTYwIDE3NS4zbDAgNjQuNyA2NCAwIDE2IDAgMCAzMi0xNiAwLTY0IDAgMCA0OCAwIDE2LTMyIDAgMC0xNiAwLTQ4LTY0IDAtMTYgMCAwLTMyIDE2IDAgNjQgMCAwLTY0LjdDNzAuMyAzNDMuMiAwIDI2Ny44IDAgMTc2QzAgNzguOCA3OC44IDAgMTc2IDBzMTc2IDc4LjggMTc2IDE3NnpNMjcxLjkgMzYwLjZjOS43LTUuMSAxOS0xMC45IDI3LjgtMTcuNEMzMjUuNiAzNjguNSAzNjEgMzg0IDQwMCAzODRjNzkuNSAwIDE0NC02NC41IDE0NC0xNDRzLTY0LjUtMTQ0LTE0NC0xNDRjLTEwLjUgMC0yMC43IDEuMS0zMC42IDMuM2MtNC4xLTEwLjItOC45LTIwLjEtMTQuNS0yOS40QzM2OS4zIDY2IDM4NC40IDY0IDQwMCA2NGM0Mi44IDAgODIuMSAxNS4zIDExMi42IDQwLjdMNTg1LjQgMzIgNDk2IDMybC0xNiAwIDAtMzIgMTYgMEw2MjQgMGwxNiAwIDAgMTYgMCAxMjggMCAxNi0zMiAwIDAtMTYgMC04OS40LTcyLjcgNzIuN0M1NjAuNyAxNTcuOSA1NzYgMTk3LjIgNTc2IDI0MGMwIDk3LjItNzguOCAxNzYtMTc2IDE3NmMtNTAuNSAwLTk2LTIxLjMtMTI4LjEtNTUuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![venus-mars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/venus-mars.svg)
  */
 const VenusMars: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `envira` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envira?s=brands envira}
- * @preview ![envira](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmM0NzcuNiAwIDM2Ni42IDMxNy4zIDM2Ny4xIDM2Ni4zTDQ0OCA0ODBoLTI2bC03MC40LTcxLjJjLTM5IDQuMi0xMjQuNCAzNC41LTIxNC40LTM3QzQ3IDMwMC4zIDUyIDIxNC43IDAgMzJ6bTc5LjcgNDZjLTQ5LjctMjMuNS01LjIgOS4yLTUuMiA5LjIgNDUuMiAzMS4yIDY2IDczLjcgOTAuMiAxMTkuOSAzMS41IDYwLjIgNzkgMTM5LjcgMTQ0LjIgMTY3LjcgNjUgMjggMzQuMiAxMi41IDYtOC41LTI4LjItMjEuMi02OC4yLTg3LTkxLTEzMC4yLTMxLjctNjAtNjEtMTE4LjYtMTQ0LjItMTU4LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![envira](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/envira.svg)
  */
 const Envira: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

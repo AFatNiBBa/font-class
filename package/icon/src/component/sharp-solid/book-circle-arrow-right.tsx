@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-circle-arrow-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-circle-arrow-right?s=sharp-solid book-circle-arrow-right}
- * @preview ![book-circle-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMEM0MyAwIDAgNDMgMCA5NkwwIDQxNmMwIDUzIDQzIDk2IDk2IDk2bDI4OCAwIDEwLjggMGMtMjMuMy0xNi40LTQyLjUtMzguNC01NS42LTY0TDk2IDQ0OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmwyMjQuNyAwYy0uNS01LjMtLjctMTAuNi0uNy0xNmMwLTgwLjYgNTQuMS0xNDguNSAxMjgtMTY5LjRMNDQ4IDAgNDE2IDAgMzg0IDAgOTYgMHpNNjQwIDM2OGExNDQgMTQ0IDAgMSAwIC0yODggMCAxNDQgMTQ0IDAgMSAwIDI4OCAwek01MDQgMjg5LjRsMTEuMyAxMS4zIDU2IDU2TDU4Mi42IDM2OGwtMTEuMyAxMS4zLTU2IDU2TDUwNCA0NDYuNiA0ODEuNCA0MjRsMTEuMy0xMS4zTDUyMS40IDM4NCA0MzIgMzg0bC0xNiAwIDAtMzIgMTYgMCA4OS40IDAtMjguNy0yOC43TDQ4MS40IDMxMiA1MDQgMjg5LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-circle-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/book-circle-arrow-right.svg)
  */
 const BookCircleArrowRight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

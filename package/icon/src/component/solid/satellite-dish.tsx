@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `satellite-dish` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/satellite-dish?s=solid satellite-dish}
- * @preview ![satellite-dish](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyQzM4My4xIDAgNTEyIDEyOC45IDUxMiAyODhjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJDNDQ4IDE2NC4zIDM0Ny43IDY0IDIyNCA2NGMtMTcuNyAwLTMyLTE0LjMtMzItMzJ6TTYwLjYgMjIwLjZMMTY0LjcgMzI0LjdsMjguNC0yOC40Yy0uNy0yLjYtMS4xLTUuNC0xLjEtOC4zYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJjLTIuOSAwLTUuNi0uNC04LjMtMS4xbC0yOC40IDI4LjRMMjkxLjQgNDUxLjRjMTQuNSAxNC41IDExLjggMzguOC03LjMgNDYuM0MyNjAuNSA1MDYuOSAyMzQuOSA1MTIgMjA4IDUxMkM5My4xIDUxMiAwIDQxOC45IDAgMzA0YzAtMjYuOSA1LjEtNTIuNSAxNC40LTc2LjFjNy41LTE5IDMxLjgtMjEuOCA0Ni4zLTcuM3pNMjI0IDk2YzEwNiAwIDE5MiA4NiAxOTIgMTkyYzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMyYzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4Yy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![satellite-dish](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/satellite-dish.svg)
  */
 const SatelliteDish: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users-between-lines` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-between-lines?s=sharp-thin users-between-lines}
- * @preview ![users-between-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDggMCA2MzIgMGw4IDAgMCAxNi04IDBMOCAxNiAwIDE2IDAgMHpNMCA0OTZsOCAwIDYyNCAwIDggMCAwIDE2LTggMEw4IDUxMmwtOCAwIDAtMTZ6bTQ0MC45LTk2bC0zNi05Ni0xNjkuOCAwLTM2IDk2IDI0MS44IDB6TTIyNCAyODhsMTkyIDAgNDIgMTEyIDYgMTYtMTcuMSAwLTI1My44IDBMMTc2IDQxNmw2LTE2IDQyLTExMnptOTcuNi00OGE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHptMC0xNDRhODAgODAgMCAxIDEgMCAxNjAgODAgODAgMCAxIDEgMC0xNjB6TTE5NS4yIDE2MGE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwem0tMTEyIDBhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAwek00OTYgMjA4YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptMC0xMTJhNjQgNjQgMCAxIDEgMCAxMjggNjQgNjQgMCAxIDEgMC0xMjh6TTc1LjUgMjcyTDU0LjIgMzM2bDExNy42IDAtNiAxNi0xMTcgMEwzMiAzNTJsNS4zLTE2TDY0IDI1NmwxMzcuOCAwLTYgMTZMNzUuNSAyNzJ6bTM5Mi42IDY0bDExNy42IDAtMjEuMy02NC0xMjAuMyAwLTYtMTZMNTc2IDI1NmwyNi43IDgwIDUuMyAxNi0xNi45IDAtMTE3IDAtNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![users-between-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/users-between-lines.svg)
  */
 const UsersBetweenLines: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

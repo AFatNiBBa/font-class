@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-signal` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-signal?s=sharp-regular house-signal}
- * @preview ![house-signal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDEuM2wxNSAxMiAyMDAgMTYwIDE4LjcgMTUtMzAgMzcuNS0xOC43LTE1LTktNy4yTDUxMiAzOTJsMCAyNC0yNCAwLTIxNi40IDBjLTUuOS0xNi44LTEzLjQtMzIuOC0yMi4xLTQ4TDQ2NCAzNjhsMC0yMDIuOUwzMzYgNjIuNyAyMDggMTY1LjFsMCAxNDcuN2MtMTQuNS0xNS4xLTMwLjYtMjguNi00OC00MC4zbDAtNjktOSA3LjItMTguNyAxNS0zMC0zNy41IDE4LjctMTUgMjAwLTE2MCAxNS0xMnpNMzg0IDE5MmwwIDk2LTk2IDAgMC05NiA5NiAwek0wIDMwNGwwLTQ4YzE0MS40IDAgMjU2IDExNC42IDI1NiAyNTZsLTQ4IDBjMC0xMTQuOS05My4xLTIwOC0yMDgtMjA4ek0zMiA0NDhhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em04MCA2NGMwLTYxLjktNTAuMS0xMTItMTEyLTExMmwwLTQ4Yzg4LjQgMCAxNjAgNzEuNiAxNjAgMTYwbC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-signal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-signal.svg)
  */
 const HouseSignal: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

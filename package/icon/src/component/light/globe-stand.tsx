@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `globe-stand` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-stand?s=light globe-stand}
- * @preview ![globe-stand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjguNyAzNDguN2MtNi4yIDYuMi02LjIgMTYuNCAwIDIyLjZzMTYuNCA2LjIgMjIuNiAwbDEwLTEwQzk5IDM5NC4xIDE0NS4xIDQxMi4xIDE5MiA0MTUuNGwwIDY0LjZMODAgNDgwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDI1NiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xMTIgMCAwLTY0LjZjNTEuOS0zLjcgMTAyLjctMjUuNCAxNDIuNC02NWM4My43LTgzLjcgODcuMy0yMTcuMSAxMC45LTMwNS4xbDEwLTEwYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBMMzQzLjggMzMuNmMtNi4yIDYuMi02LjIgMTYuNCAwIDIyLjZjNzUgNzUgNzUgMTk2LjUgMCAyNzEuNXMtMTk2LjUgNzUtMjcxLjUgMGMtNi4yLTYuMi0xNi40LTYuMi0yMi42IDBMMjguNyAzNDguN3pNODAgMTkyYTEyOCAxMjggMCAxIDEgMjU2IDBBMTI4IDEyOCAwIDEgMSA4MCAxOTJ6bTI4OCAwQTE2MCAxNjAgMCAxIDAgNDggMTkyYTE2MCAxNjAgMCAxIDAgMzIwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![globe-stand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/globe-stand.svg)
  */
 const GlobeStand: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

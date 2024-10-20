@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-can-xmark` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-xmark?s=regular trash-can-xmark}
- * @preview ![trash-can-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTcwLjUgNTEuNkwxNTEuNSA4MGwxNDUgMC0xOS0yOC40Yy0xLjUtMi4yLTQtMy42LTYuNy0zLjZsLTkzLjcgMGMtMi43IDAtNS4yIDEuMy02LjcgMy42em0xNDctMjYuNkwzNTQuMiA4MCAzNjggODBsNDggMCA4IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTggMCAwIDMwNGMwIDQ0LjItMzUuOCA4MC04MCA4MGwtMjI0IDBjLTQ0LjIgMC04MC0zNS44LTgwLTgwbDAtMzA0LTggMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRTMTAuNyA4MCAyNCA4MGw4IDAgNDggMCAxMy44IDAgMzYuNy01NS4xQzE0MC45IDkuNCAxNTguNCAwIDE3Ny4xIDBsOTMuNyAwYzE4LjcgMCAzNi4yIDkuNCA0Ni42IDI0Ljl6TTgwIDEyOGwwIDMwNGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwyMjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTMwNEw4MCAxMjh6bTYzIDc5YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwbDQ3IDQ3IDQ3LTQ3YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwczkuNCAyNC42IDAgMzMuOWwtNDcgNDcgNDcgNDdjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlzLTI0LjYgOS40LTMzLjkgMGwtNDctNDctNDcgNDdjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwcy05LjQtMjQuNiAwLTMzLjlsNDctNDctNDctNDdjLTkuNC05LjQtOS40LTI0LjYgMC0zMy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trash-can-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/trash-can-xmark.svg)
  */
 const TrashCanXmark: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

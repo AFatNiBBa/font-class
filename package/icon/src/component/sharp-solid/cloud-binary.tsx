@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-binary` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-binary?s=sharp-solid cloud-binary}
- * @preview ![cloud-binary](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0ODBsMTQ0IDAgMzY4IDAgMTI4IDAgMC0xMjhjMC01OS42LTQwLjgtMTA5LjgtOTYtMTI0bDAtMzZjMC01My00My05Ni05Ni05NmMtMTkuNyAwLTM4LjEgNi01My4zIDE2LjJDMzY3IDY0LjIgMzE1LjMgMzIgMjU2IDMyQzE2Ny42IDMyIDk2IDEwMy42IDk2IDE5MmwwIDguMkM0MC4xIDIyMCAwIDI3My4zIDAgMzM2TDAgNDgwek0yODggMTYwbDE2IDAgMTYgMCAxNiAwIDAgMTYgMCA4MCAwIDE2LTMyIDAgMC0xNiAwLTY0LTE2IDAgMC0zMnptLTExMiAwbDY0IDAgMTYgMCAwIDE2IDAgODAgMCAxNi0xNiAwLTY0IDAtMTYgMCAwLTE2IDAtODAgMC0xNiAxNiAwem0xNiA4MGwzMiAwIDAtNDgtMzIgMCAwIDQ4em0xOTItODBsMTYgMCA2NCAwIDE2IDAgMCAxNiAwIDgwIDAgMTYtMTYgMC02NCAwLTE2IDAgMC0xNiAwLTgwIDAtMTZ6bTMyIDMybDAgNDggMzIgMCAwLTQ4LTMyIDB6TTE5MiAzMDRsMTYgMCAxNiAwIDAgMTYgMCA4MCAwIDE2LTMyIDAgMC0xNiAwLTY0LTE2IDAgMC0zMiAxNiAwem04MCAwbDE2IDAgNjQgMCAxNiAwIDAgMTYgMCA4MCAwIDE2LTE2IDAtNjQgMC0xNiAwIDAtMTYgMC04MCAwLTE2em0zMiAzMmwwIDQ4IDMyIDAgMC00OC0zMiAwem0xMTItMzJsMTYgMCAxNiAwIDAgMTYgMCA4MCAwIDE2LTMyIDAgMC0xNiAwLTY0LTE2IDAgMC0zMiAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloud-binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-binary.svg)
  */
 const CloudBinary: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

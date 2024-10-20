@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-circle-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-circle-xmark?s=sharp-solid house-circle-xmark}
- * @preview ![house-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTIwLjUgMTkzLjdMMjg4LjQgMCAwIDI0MGwwIDQ3LjYgNjQuMSAwIDAgMjI0LjRMMjI0IDUxMmwwLTE2MCA5Ni43IDBjOC4xLTg5LjcgODMuNS0xNjAgMTc1LjMtMTYwYzguMyAwIDE2LjUgLjYgMjQuNSAxLjd6TTQ5NiA1MTJhMTQ0IDE0NCAwIDEgMCAwLTI4OCAxNDQgMTQ0IDAgMSAwIDAgMjg4em01OS4zLTE4MC43TDUxOC42IDM2OGwzNi43IDM2LjdMNTY2LjYgNDE2IDU0NCA0MzguNmwtMTEuMy0xMS4zTDQ5NiAzOTAuNmwtMzYuNyAzNi43TDQ0OCA0MzguNiA0MjUuNCA0MTZsMTEuMy0xMS4zTDQ3My40IDM2OGwtMzYuNy0zNi43TDQyNS40IDMyMCA0NDggMjk3LjRsMTEuMyAxMS4zTDQ5NiAzNDUuNGwzNi43LTM2LjdMNTQ0IDI5Ny40IDU2Ni42IDMyMGwtMTEuMyAxMS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house-circle-xmark.svg)
  */
 const HouseCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

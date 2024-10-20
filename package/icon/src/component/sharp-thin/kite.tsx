@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kite` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kite?s=sharp-thin kite}
- * @preview ![kite](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI4LjQgMjguNGwtODAgMzQ0TDI0NiAzODIuNyA0NjguNyAxNjAgMzMwLjMgMjEuN2wtLjMtLjMtMS42IDd6TTIzOC42IDQxNC44bC0yLjYgLjYtOTQuMyA5NC4zLTIuMyAyLjMtMy4zIDAtNDggMC04IDAgMC04IDAtMTg1LjlMMTIuMSAzNTguOSAwIDM2Ni4xIDAgMzUybDAtOTYgMC0xNC4xIDEyLjEgNy4zTDgwIDI4OS45IDgwIDE2MCA4IDE2MGwtOCAwIDAtMTYgOCAwIDgwIDAgOCAwIDAgOCAwIDEzNy45IDY3LjktNDAuNyAxMi4xLTcuMyAwIDE0LjEgMCA5NiAwIDE0LjEtMTIuMS03LjNMOTYgMzE4LjEgOTYgNDk2bDM2LjcgMCA5MS45LTkxLjkgLjYtMi42IDcuNi0zMi43IDgwLTM0NEwzMTguNiAwIDM0NCAwIDYwOCAwbDE2IDAgMTYgMCAwIDE2IDAgMTYgMCAyNjQgMCAyNS40LTI0LjggNS44LTM0NCA4MC0zMi43IDcuNnpNNDgwIDE3MS4zTDI1Ny4zIDM5NGwxMC4zLTIuNCAzNDQtODAgNy0xLjYtLjMtLjNMNDgwIDE3MS4zek02MjQgMzJsMC00LjdMNDkxLjMgMTYwIDYyNCAyOTIuNyA2MjQgMzJ6TTYwOCAxNkwzNDcuMyAxNiA0ODAgMTQ4LjcgNjEyLjcgMTYgNjA4IDE2ek0xNiAyNzAuMWwwIDY3LjdMNzIuNSAzMDQgMTYgMjcwLjF6bTE0NCA2Ny43bDAtNjcuN0wxMDMuNSAzMDQgMTYwIDMzNy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![kite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/kite.svg)
  */
 const Kite: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

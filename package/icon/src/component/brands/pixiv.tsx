@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pixiv` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pixiv?s=brands pixiv}
- * @preview ![pixiv](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NlY0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRIMzg0YzM1LjMgMCA2NC0yOC43IDY0LTY0Vjk2YzAtMzUuMy0yOC43LTY0LTY0LTY0SDY0em0xNzEuNSA4NGM0MSAwIDc2LjMgMTIuOSAxMDEuNCAzNS4ybDAgMGMyNS4yIDIyLjIgMzkuOCA1NC4xIDM5LjggODguOGMuMSAzNS4zLTE2LjYgNjYuMy00Mi40IDg3Yy0yNS45IDIwLjgtNjAuNiAzMi40LTk4LjggMzIuNGMtNDMuNSAwLTgzLjgtMTYuMS04My44LTE2LjF2NTEuOGM3LjQgMi4yIDE5LjcgNyAxMS45IDE0LjhIMTA0LjhjLTcuNy03LjggMy42LTEyLjQgMTIuMS0xNC44VjE3NS41Qzk3LjEgMTkwLjkgODcgMjA0LjMgODEuOCAyMTQuMmM2IDE5LjQtNS4zIDE4LjUtNS4zIDE4LjVMNTYgMTk5LjdzNzIuNy04My43IDE3OS41LTgzLjd6bS0zLjYgMjIyLjljMzAgMCA1Ni0xMS4zIDczLjktMjkuMmMxNy45LTE4LjEgMjcuOS00MS42IDI4LTcwLjJjLS4xLTI5LjMtOS41LTU0LjYtMjYuNy03My42Yy0xNy4yLTE4LjktNDIuNy0zMS4zLTc1LjItMzEuNGMtMjYuNy0uMS01OS44IDktODAuMiAyMy43VjMyMy4xYzE4LjYgOS4zIDQ2LjggMTUuOSA4MC4yIDE1Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pixiv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pixiv.svg)
  */
 const Pixiv: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

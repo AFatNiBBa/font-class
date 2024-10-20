@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sensor-cloud` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-cloud?s=sharp-thin sensor-cloud}
- * @preview ![sensor-cloud](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsNDE2IDAgMCAxNzguNGM1LjUgMS4xIDEwLjggMi42IDE2IDQuNEw0NDggNDhsMC0xNi0xNiAwTDE2IDMyIDAgMzIgMCA0OCAwIDQ2NGwwIDE2IDE2IDAgMjA4IDAgMC0xNkwxNiA0NjQgMTYgNDh6bTgwIDU2bDAtOEw4MCA5NmwwIDggMCAxNzYgMCA4IDE2IDAgMC04IDAtMTc2em02NCAwbDAtOC0xNiAwIDAgOCAwIDE3NiAwIDggMTYgMCAwLTggMC0xNzZ6TTMzNiAzNDRjMC0zOS44IDMyLjItNzIgNzItNzJjMjguMyAwIDUyLjggMTYuMyA2NC41IDQwbDQuNyA5LjUgNy44LTcuMWM3LjEtNi41IDE2LjUtMTAuNCAyNi45LTEwLjRjMjIuMSAwIDQwIDE3LjkgNDAgNDBsMCAuNCAwIDcuMyA3LjIgLjdDNTk1LjYgMzU2IDYyNCAzODYuNyA2MjQgNDI0bDAgNzItNzIgMC04IDAtMjAwIDAtNzIgMCAwLTcyYzAtMzQuOCAyNC43LTYzLjkgNTcuNi03MC42bDYuNS0xLjMtLjEtNi43YzAtLjUgMC0xIDAtMS40em03Mi04OGMtNDcgMC04NS40IDM2LjktODcuOSA4My4zYy0zNyAxMC40LTY0LjEgNDQuNC02NC4xIDg0LjdsMCA4MCAwIDggOCAwIDgwIDAgMjAwIDAgOCAwIDgwIDAgOCAwIDAtOCAwLTgwYzAtNDMuMy0zMS4yLTc5LjItNzIuNC04Ni42QzU2NC4zIDMwOS42IDU0MC43IDI4OCA1MTIgMjg4Yy0xMSAwLTIxLjIgMy4yLTI5LjggOC42Yy0xNS42LTI0LjQtNDMtNDAuNi03NC4yLTQwLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sensor-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sensor-cloud.svg)
  */
 const SensorCloud: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

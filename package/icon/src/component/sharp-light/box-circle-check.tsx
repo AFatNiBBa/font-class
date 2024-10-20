@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-circle-check` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-circle-check?s=sharp-light box-circle-check}
- * @preview ![box-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIuMSAxNjBMODQuOCA2NCAyMDggNjRsMCA5Nkw0Mi4xIDE2MHpNMjA4IDE5MmwzMiAwIDExMiAwIDY0IDAgMTYgMCAxNiAwIDAtMTZMMzg0IDMyIDY0IDMyIDAgMTc2IDAgNDQ4bDAgMzIgMzIgMCAyNjQuMiAwYy04LjEtOS44LTE1LjItMjAuNi0yMS0zMkwzMiA0NDhsMC0yNTYgMTc2IDB6TTM2My4yIDY0bDQyLjcgOTZMMjQwIDE2MGwwLTk2IDEyMy4yIDB6TTQzMiAyNTZhMTEyIDExMiAwIDEgMSAwIDIyNCAxMTIgMTEyIDAgMSAxIDAtMjI0em0wIDI1NmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6bTc4LjYtMTc2TDQ4OCAzMTMuNGwtMTEuMyAxMS4zTDQxNiAzODUuNGwtMjguNy0yOC43TDM3NiAzNDUuNCAzNTMuNCAzNjhsMTEuMyAxMS4zIDQwIDQwTDQxNiA0MzAuNmwxMS4zLTExLjMgNzItNzJMNTEwLjYgMzM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![box-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/box-circle-check.svg)
  */
 const BoxCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

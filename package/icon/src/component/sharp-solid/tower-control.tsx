@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tower-control` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-control?s=sharp-solid tower-control}
- * @preview ![tower-control](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDBMMTYwIDBsMCA0OCAyNCAwIDE2IDAgMCA0OC01NiAwLTE2IDAgMCAxNiAwIDE2LTg4IDAtNDEgMEw5IDE2Ny44IDQ3IDMyMGwtMzEgMCAwIDY0IDMyIDAgMzIgMCAwIDEyOCAyODggMCAwLTEyOCAzMiAwIDMyIDAgMC02NC0zMSAwTDQzOSAxNjcuOCA0NDkgMTI4bC00MSAwLTg4IDAgMC0xNiAwLTE2LTE2IDAtNTYgMCAwLTQ4IDE2IDAgMjQgMCAwLTQ4TDI2NCAwIDIyNCAwIDE4NCAwek0xMjggMzIwbC0xNSAwLTEuOS03LjhMODEgMTkybDQ3IDAgMCAxMjh6bTQ4IDBsMC0xMjggOTYgMCAwIDEyOC05NiAwem0xNTkgMGwtMTUgMCAwLTEyOCA0NyAwTDMzNyAzMTIuMiAzMzUgMzIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tower-control](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tower-control.svg)
  */
 const TowerControl: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

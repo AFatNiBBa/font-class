@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stocking` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stocking?s=thin stocking}
- * @preview ![stocking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMTZsMjU2IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2TDk2IDk2Yy04LjggMC0xNi03LjItMTYtMTZsMC00OGMwLTguOCA3LjItMTYgMTYtMTZ6TTY0IDMybDAgNDhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMjU2IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC00OGMwLTE3LjctMTQuMy0zMi0zMi0zMkw5NiAwQzc4LjMgMCA2NCAxNC4zIDY0IDMyem00OCAyMDYuOWwwLTk0LjktMTYgMCAwIDk0LjljMCAxMC43LTUuMyAyMC43LTE0LjIgMjYuNkw1NS43IDI4Mi45QzIwLjkgMzA2LjEgMCAzNDUuMSAwIDM4Ni45bDAgMi4yQzAgNDU3IDU1IDUxMiAxMjIuOCA1MTJjMjQuMiAwIDQ4LTcuMiA2OC4xLTIwLjZMMjk1IDQyMmMzNS42LTIzLjcgNTctNjMuNyA1Ny0xMDYuNUwzNTIgMTQ0bC0xNiAwIDAgMTcxLjVjMCAzNy40LTE4LjcgNzIuNC00OS45IDkzLjJMMTgyLjEgNDc4LjFjLTE3LjUgMTEuNy0zOC4yIDE3LjktNTkuMyAxNy45QzYzLjggNDk2IDE2IDQ0OC4yIDE2IDM4OS4ybDAtMi4yYzAtMzYuNSAxOC4yLTcwLjUgNDguNi05MC43bDI2LjEtMTcuNGMxMy40LTguOSAyMS40LTIzLjkgMjEuNC0zOS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![stocking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/stocking.svg)
  */
 const Stocking: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

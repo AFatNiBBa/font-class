@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mug-tea` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-tea?s=light mug-tea}
- * @preview ![mug-tea](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDk2TDY0IDk2bDAgMjU2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDE5MiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtODAgMC0xNzYtMzIgMEwxNzYgOTZsMCA0MC41IDM2LjUgMzAuNEMyMTkuOCAxNzMgMjI0IDE4MiAyMjQgMTkxLjVsMCA2NC41YzAgMTcuNy0xNC4zIDMyLTMyIDMybC02NCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTY0LjVjMC05LjUgNC4yLTE4LjUgMTEuNS0yNC42TDE0NCAxMzYuNSAxNDQgOTZ6bTE2LTMybDE5MiAwIDMyIDAgODAgMGM2MS45IDAgMTEyIDUwLjEgMTEyIDExMnMtNTAuMSAxMTItMTEyIDExMmwtNDggMCAwIDY0YzAgNTMtNDMgOTYtOTYgOTZsLTE5MiAwYy01MyAwLTk2LTQzLTk2LTk2TDMyIDk2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDk2IDB6TTQ2NCA5NmwtNDggMCAwIDE2MCA0OCAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwcy0zNS44LTgwLTgwLTgwek0xMjggMjU2bDY0IDAgMC02NC41LTMyLTI2LjctMzIgMjYuNyAwIDY0LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mug-tea](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mug-tea.svg)
  */
 const MugTea: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

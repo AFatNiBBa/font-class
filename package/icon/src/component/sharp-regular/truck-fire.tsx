@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-fire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-fire?s=sharp-regular truck-fire}
- * @preview ![truck-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDBMMCAwIDAgNDhsMzIgMCAwIDQ4TDAgOTZsMCA0OEwwIDM2OGwwIDQ4IDQ4IDAgMTYgMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDEyOCAwYzAgNTMgNDMgOTYgOTYgOTZzOTYtNDMgOTYtOTZsMTYgMCA0OCAwIDAtNDggMC0yMjQgMC00OC00OCAwLTQ4IDBjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJsLTk2IDAgMC00OCAyNTYgMCAwLTQ4ek0zMzYgNDhsMCA0OC01NiAwIDAtNDggNTYgMHptMCA5Nmw0OCAwIDAgODBMNDggMjI0bDAtODAgMjg4IDB6TTQ4IDM2OGwwLTk2IDM2MCAwIDI0IDAgMC0yNCAwLTEwNCAxNjAgMCAwIDIyNC0yOC44IDBjLTE2LjYtMjguNy00Ny42LTQ4LTgzLjItNDhzLTY2LjYgMTkuMy04My4yIDQ4bC0xNTMuNyAwYy0xNi42LTI4LjctNDcuNi00OC04My4yLTQ4cy02Ni42IDE5LjMtODMuMiA0OEw0OCAzNjh6TTIzMiA0OGwwIDQ4LTQ4IDAgMC00OCA0OCAwem0tOTYgMGwwIDQ4TDgwIDk2bDAtNDggNTYgMHpNMTEyIDQxNmE0OCA0OCAwIDEgMSA5NiAwIDQ4IDQ4IDAgMSAxIC05NiAwem0zNjgtNDhhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2em04MC0xOTJsLTk2IDAgMCA5NiA5NiAwIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![truck-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-fire.svg)
  */
 const TruckFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

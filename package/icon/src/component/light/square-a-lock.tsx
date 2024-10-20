@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-a-lock` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-a-lock?s=light square-a-lock}
- * @preview ![square-a-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRsMzIwIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA3NC44YzkuOS00LjcgMjAuNy04IDMyLTkuNkw0NDggOTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMzJDMjguNyAzMiAwIDYwLjYgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMCAwLTMyTDY0IDQ0OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJMMzIgOTZjMC0xNy43IDE0LjMtMzIgMzItMzJ6bTE3NC4zIDcyLjhjLTIuNy01LjQtOC4zLTguOC0xNC4zLTguOHMtMTEuNiAzLjQtMTQuMyA4LjhsLTExMiAyMjRjLTQgNy45LS43IDE3LjUgNy4yIDIxLjVzMTcuNSAuNyAyMS41LTcuMkwxNDUuOSAzMzZsMTU2LjIgMEwzMjAgMzcxLjhsMC0xOS44YzAtMTIuMiAzLjQtMjMuNSA5LjMtMzMuMmwtOTEtMTgxLjl6TTIyNCAxNzkuOEwyODYuMSAzMDRsLTEyNC4yIDBMMjI0IDE3OS44ek00NjQgMjI0YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNDgtOTYgMCAwLTQ4YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4em0tODAgNDhsMCA0OGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTYwIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJsMC00OGMwLTQ0LjItMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MHptMCA4MGwxNjAgMCAwIDEyOC0xNjAgMCAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-a-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-a-lock.svg)
  */
 const SquareALock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

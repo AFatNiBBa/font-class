@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kazoo` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kazoo?s=sharp-light kazoo}
- * @preview ![kazoo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDE0NGExMTIgMTEyIDAgMSAxIDAgMjI0IDExMiAxMTIgMCAxIDEgMC0yMjR6bTAgMjU2YzIzLjggMCA0Ni4zLTUuOCA2Ni0xNmwxMjYgMCAzMiAwIDAtMzIgMC0xOTIgMC0zMi0zMiAwLTEyNiAwYy0xOS44LTEwLjItNDIuMi0xNi02Ni0xNnMtNDYuMyA1LjgtNjYgMTZsLTEyNiAwTDAgMTkyIDAgMzIwbDIyNCA2NCAxMjYgMGMxOS44IDEwLjIgNDIuMiAxNiA2NiAxNnptMTA2LjYtNDcuMmMuMi0uMyAuNS0uNSAuNy0uOGwtLjcgLjh6bS43LS44YzIyLjgtMjUuNSAzNi43LTU5LjEgMzYuNy05NnMtMTMuOS03MC41LTM2LjctOTZjMCAwIDAgMCAwIDBsODQuNyAwIDAgMTkyLTg0LjcgMHpNMjI4LjUgMTYwbDgwLjIgMGMtMjIuOCAyNS41LTM2LjcgNTkuMS0zNi43IDk2czEzLjkgNzAuNSAzNi43IDk2bC04MC4yIDBMMzIgMjk1LjlsMC03OS43TDIyOC41IDE2MHptMTU4LjggNDQuN0wzNzYgMTkzLjQgMzUzLjQgMjE2bDExLjMgMTEuM0wzOTMuNCAyNTZsLTI4LjcgMjguN0wzNTMuNCAyOTYgMzc2IDMxOC42bDExLjMtMTEuM0w0MTYgMjc4LjZsMjguNyAyOC43TDQ1NiAzMTguNiA0NzguNiAyOTZsLTExLjMtMTEuM0w0MzguNiAyNTZsMjguNy0yOC43TDQ3OC42IDIxNiA0NTYgMTkzLjRsLTExLjMgMTEuM0w0MTYgMjMzLjRsLTI4LjctMjguN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![kazoo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/kazoo.svg)
  */
 const Kazoo: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

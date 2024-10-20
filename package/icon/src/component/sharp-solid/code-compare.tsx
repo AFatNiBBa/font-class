@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `code-compare` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-compare?s=sharp-solid code-compare}
- * @preview ![code-compare](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDMyMGwtOTYgOTYgOTYgOTYgMzIgMCAwLTY0IDE2IDBjNzAuNyAwIDEyOC01Ny4zIDEyOC0xMjhsMC0xNjAgNDggMCAwLTU2IDAtNDggMC01Nkw0NTYgMCA0MDggMCAzNTIgMGwwIDU2IDAgNDggMCA1NiA0OCAwIDAgMTYwYzAgMzUuMy0yOC43IDY0LTY0IDY0bC0xNiAwIDAtNjQtMzIgMHpNNDA4IDU2bDQ4IDAgMCA0OC00OCAwIDAtNDh6TTIyNCAwTDE5MiAwbDAgNjQtMTYgMEMxMDUuMyA2NCA0OCAxMjEuMyA0OCAxOTJsMCAxNjBMMCAzNTJsMCA1NiAwIDQ4IDAgNTYgNTYgMCA0OCAwIDU2IDAgMC01NiAwLTQ4IDAtNTYtNDggMCAwLTE2MGMwLTM1LjMgMjguNy02NCA2NC02NGwxNiAwIDAgNjQgMzIgMCA5Ni05NkwyMjQgMHpNNTYgNDA4bDQ4IDAgMCA0OC00OCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![code-compare](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/code-compare.svg)
  */
 const CodeCompare: typeof Icon = x => (
     <Icon {...x}>

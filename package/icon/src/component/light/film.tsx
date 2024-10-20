@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `film` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film?s=light film}
- * @preview ![film](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQ0OGwwLTk2IDAtODAgMjU2IDAgMCA4MCAwIDk2LTI1NiAwek0zODQgMjQwbC0yNTYgMCAwLTgwIDAtOTYgMjU2IDAgMCA5NiAwIDgwek05NiA0NDhsLTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNDggNjQgMCAwIDgwek0zMiAyNzJsNjQgMCAwIDY0LTY0IDAgMC02NHptNjQtOTZsMCA2NC02NCAwIDAtNjQgNjQgMHpNOTYgNjRsMCA4MC02NCAwIDAtNDhjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIgMHpNNDE2IDMzNmwwLTY0IDY0IDAgMCA2NC02NCAwem0wIDExMmwwLTgwIDY0IDAgMCA0OGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMzIgMHptMC0yNzJsNjQgMCAwIDY0LTY0IDAgMC02NHptNjQtODBsMCA0OC02NCAwIDAtODAgMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnpNNDQ4IDMyTDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMjBjMC0zNS4zLTI4LjctNjQtNjQtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![film](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/film.svg)
  */
 const Film: typeof Icon = x => (
     <Icon {...x}>

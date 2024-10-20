@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flute` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flute?s=regular flute}
- * @preview ![flute](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDMwNGw0MzIgMGM4LjggMCAxNi03LjIgMTYtMTZsMC02NGMwLTguOC03LjItMTYtMTYtMTZsLTQzMiAwIDAgOTZ6bS00OCAwbDAtOTYtMzIgMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2bDMyIDB6TTY0IDE2MGwzMiAwIDI0IDAgMjQgMCA0MzIgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0bC00MzIgMC0yNCAwLTI0IDAtMzIgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC02NGMwLTM1LjMgMjguNy02NCA2NC02NHptMjU2IDcyYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptNzIgMjRhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHptMTIwLTI0YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![flute](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/flute.svg)
  */
 const Flute: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

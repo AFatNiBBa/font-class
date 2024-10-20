@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `xmark-large` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmark-large?s=thin xmark-large}
- * @preview ![xmark-large](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMuNyAzNC4zYy0zLjEtMy4xLTguMi0zLjEtMTEuMyAwcy0zLjEgOC4yIDAgMTEuM0wyMTIuNyAyNTYgMi4zIDQ2Ni4zYy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zczguMiAzLjEgMTEuMyAwTDIyNCAyNjcuMyA0MzQuMyA0NzcuN2MzLjEgMy4xIDguMiAzLjEgMTEuMyAwczMuMS04LjIgMC0xMS4zTDIzNS4zIDI1NiA0NDUuNyA0NS43YzMuMS0zLjEgMy4xLTguMiAwLTExLjNzLTguMi0zLjEtMTEuMyAwTDIyNCAyNDQuNyAxMy43IDM0LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![xmark-large](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/xmark-large.svg)
  */
 const XmarkLarge: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

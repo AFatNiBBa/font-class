@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-ring` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-ring?s=sharp-solid bell-ring}
- * @preview ![bell-ring](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBMMjI0IDBsMCA1MS4yQzE1MSA2NiA5NiAxMzAuNiA5NiAyMDhsMCA4OEwzMiAzNjhsMCA0OCA0NDggMCAwLTQ4LTY0LTcyIDAtODhjMC03Ny40LTU1LTE0Mi0xMjgtMTU2LjhMMjg4IDB6bTMyIDQ0OGwtNjQgMC02NCAwYzAgMTcgNi43IDMzLjMgMTguNyA0NS4zczI4LjMgMTguNyA0NS4zIDE4LjdzMzMuMy02LjcgNDUuMy0xOC43czE4LjctMjguMyAxOC43LTQ1LjN6TTExMi42IDQ5LjRMNzkuNCAxNC42QzMwLjUgNjEuMiAwIDEyNy4xIDAgMjAwbDQ4IDBjMC01OS4zIDI0LjgtMTEyLjcgNjQuNi0xNTAuNnpNNDY0IDIwMGw0OCAwYzAtNzIuOS0zMC41LTEzOC44LTc5LjQtMTg1LjRMMzk5LjQgNDkuNEM0MzkuMiA4Ny4zIDQ2NCAxNDAuNyA0NjQgMjAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bell-ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bell-ring.svg)
  */
 const BellRing: typeof Icon = x => (
     <Icon {...x}>

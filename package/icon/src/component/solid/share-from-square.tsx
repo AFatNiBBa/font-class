@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `share-from-square` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/share-from-square?s=solid share-from-square}
- * @preview ![share-from-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDIyNGwtNDYuNSAwYy00NSAwLTgxLjUgMzYuNS04MS41IDgxLjVjMCAyMi4zIDEwLjMgMzQuMyAxOS4yIDQwLjVjNi44IDQuNyAxMi44IDEyIDEyLjggMjAuM2MwIDkuOC04IDE3LjgtMTcuOCAxNy44bC0yLjUgMGMtMi40IDAtNC44LS40LTcuMS0xLjRDMjEwLjggMzc0LjggMTI4IDMzMy40IDEyOCAyNDBjMC03OS41IDY0LjUtMTQ0IDE0NC0xNDRsODAgMCAwLTYxLjNDMzUyIDE1LjUgMzY3LjUgMCAzODYuNyAwYzguNiAwIDE2LjggMy4yIDIzLjIgOC45TDU0OC4xIDEzMy4zYzcuNiA2LjggMTEuOSAxNi41IDExLjkgMjYuN3MtNC4zIDE5LjktMTEuOSAyNi43bC0xMzkgMTI1LjFjLTUuOSA1LjMtMTMuNSA4LjItMjEuNCA4LjJsLTMuNyAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTY0ek04MCA5NmMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMzIwYzAgOC44IDcuMiAxNiAxNiAxNmwzMjAgMGM4LjggMCAxNi03LjIgMTYtMTZsMC00OGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMybDAgNDhjMCA0NC4yLTM1LjggODAtODAgODBMODAgNTEyYy00NC4yIDAtODAtMzUuOC04MC04MEwwIDExMkMwIDY3LjggMzUuOCAzMiA4MCAzMmw0OCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyTDgwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![share-from-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/share-from-square.svg)
  */
 const ShareFromSquare: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bone-break` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bone-break?s=sharp-solid bone-break}
- * @preview ![bone-break](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDMybDAtMjRMMjk2IDhsMCAyNCAwIDcyIDAgMjQgNDggMCAwLTI0IDAtNzJ6TTIwMSA3MWwtMTctMTdMMTUwLjEgODhsMTcgMTcgNDggNDggMTcgMTdMMjY1LjkgMTM2bC0xNy0xN0wyMDEgNzF6TTQ3MyAxMDVsMTctMTdMNDU2IDU0LjEgNDM5IDcxbC00OCA0OC0xNyAxN0w0MDggMTY5LjlsMTctMTcgNDgtNDh6TTE1NyAyNTAuMmMtOS41LTMzLjYtNDAuNC01OC4yLTc3LTU4LjJjLTQ0LjIgMC04MCAzNS44LTgwIDgwYzAgMzguNiAyNy4zIDcwLjggNjMuNyA3OC4zTDY2LjggMzY2QzQ1LjggMzgwLjQgMzIgNDA0LjYgMzIgNDMyYzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBjMC03LjYtMS0xNC45LTMtMjEuOEwzMjAgMzg0bDEzMSAyNi4yYy0yIDYuOS0zIDE0LjItMyAyMS44YzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBjMC0yNy40LTEzLjgtNTEuNi0zNC44LTY2bDMuMS0xNS43YzM2LjMtNy41IDYzLjctMzkuNyA2My43LTc4LjNjMC00NC4yLTM1LjgtODAtODAtODBjLTM2LjYgMC02Ny41IDI0LjYtNzcgNTguMkwzNTIgMjI0IDMyMCAzODQgMjg4IDIyNCAxNTcgMjUwLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bone-break](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bone-break.svg)
  */
 const BoneBreak: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

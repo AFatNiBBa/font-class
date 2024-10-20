@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-network` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-network?s=sharp-light chart-network}
- * @preview ![chart-network](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMybDAgNjQgNjQgMCAwLTY0LTY0IDB6TTE2MCAwbDMyIDAgNjQgMCAzMiAwIDAgMzIgMCA2NCAwIDIxLjNMMzE0LjcgMTk0YzYuOS0xLjMgMTQtMiAyMS4zLTJjMzEuNyAwIDYwLjIgMTMuMSA4MC42IDM0LjJMNTEyIDE1Ny42IDUxMiA5NmwwLTMyIDMyIDAgNjQgMCAzMiAwIDAgMzIgMCA2NCAwIDMyLTMyIDAtNjQgMC0yNS4xIDAtODMuNiA2MC4yYzguMSAxNS41IDEyLjcgMzMuMSAxMi43IDUxLjhjMCAxMi4zLTIgMjQuMi01LjcgMzUuM0w1MzEuOCAzODRsMTIuMiAwIDY0IDAgMzIgMCAwIDMyIDAgNjQgMCAzMi0zMiAwLTY0IDAtMzIgMCAwLTMyIDAtNjQgMC02LjEtODQtNDJDNDA3LjggMzk3IDM3NC4xIDQxNiAzMzYgNDE2Yy01Ni40IDAtMTAzLjEtNDEuNy0xMTAuOS05NkwxMjggMzIwbDAgMTYgMCAzMi0zMiAwLTY0IDBMMCAzNjhsMC0zMiAwLTY0IDAtMzIgMzIgMCA2NCAwIDMyIDAgMCAzMiAwIDE2IDk3LjEgMGM1LjItMzYuNCAyNy45LTY3LjIgNTkuMy04My41TDI1Ny44IDEyOGwtMS44IDAtNjQgMC0zMiAwIDAtMzIgMC02NCAwLTMyek0zMzYgMzg0YTgwIDgwIDAgMSAwIDAtMTYwIDgwIDgwIDAgMSAwIDAgMTYwek05NiAyNzJsLTY0IDAgMCA2NCA2NCAwIDAtNjR6TTYwOCA5NmwtNjQgMCAwIDY0IDY0IDAgMC02NHpNNTQ0IDQxNmwwIDY0IDY0IDAgMC02NC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-network](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chart-network.svg)
  */
 const ChartNetwork: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

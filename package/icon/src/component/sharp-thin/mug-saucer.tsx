@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mug-saucer` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-saucer?s=sharp-thin mug-saucer}
- * @preview ![mug-saucer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQwIDQ4bDI0IDAgMCAzMjAtMzUyIDAgMC0zMjAgMzI4IDB6bTQwIDE3NmwwLTE3NiAyNCAwYzQ4LjYgMCA4OCAzOS40IDg4IDg4cy0zOS40IDg4LTg4IDg4bC0yNCAwem0wIDE0NGwwLTEyOCAyNCAwYzU3LjQgMCAxMDQtNDYuNiAxMDQtMTA0cy00Ni42LTEwNC0xMDQtMTA0bC0yNCAwLTE2IDAtMjQgMEwxMTIgMzIgOTYgMzJsMCAxNiAwIDMyMCAwIDE2IDE2IDAgMzUyIDAgMTYgMCAwLTE2ek04IDQ2NGwtOCAwIDAgMTYgOCAwIDU2MCAwIDggMCAwLTE2LTggMEw4IDQ2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mug-saucer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mug-saucer.svg)
  */
 const MugSaucer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

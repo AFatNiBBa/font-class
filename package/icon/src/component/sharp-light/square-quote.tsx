@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-quote` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-quote?s=sharp-light square-quote}
- * @preview ![square-quote](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDY0bDAgMzg0TDMyIDQ0OCAzMiA2NGwzODQgMHpNMzIgMzJMMCAzMiAwIDY0IDAgNDQ4bDAgMzIgMzIgMCAzODQgMCAzMiAwIDAtMzIgMC0zODQgMC0zMi0zMiAwTDMyIDMyek0yMDggMjg4bDAtMTYgMC0zMiAwLTI0IDAtMjQgMC0zMi0zMiAwLTQ4IDAtMzIgMCAwIDMyIDAgNDggMCAzMiAzMiAwIDQ4IDAgMCAxNmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTYgMC0xNiAwIDAgMzIgMTYgMCAxNiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0em0tMzItNDhsLTQ4IDAgMC00OCA0OCAwIDAgMjQgMCAyNHptMTc2IDMybDAtMzIgMC0yNCAwLTI0IDAtMzItMzIgMC00OCAwLTMyIDAgMCAzMiAwIDQ4IDAgMzIgMzIgMCA0OCAwIDAgMTZjMCAxNy43LTE0LjMgMzItMzIgMzJsLTE2IDAtMTYgMCAwIDMyIDE2IDAgMTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTE2em0tMzItNTZsMCAyNC00OCAwIDAtNDggNDggMCAwIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-quote.svg)
  */
 const SquareQuote: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

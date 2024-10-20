@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `train-track` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-track?s=thin train-track}
- * @preview ![train-track](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkxLjYgNDIuNWMxLjQtNC4yLS45LTguNy01LjEtMTAuMXMtOC43IC45LTEwLjEgNS4xTDE1Ni45IDk2IDExMiA5NmMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwzOS42IDBMMTE0LjIgMjI0IDcyIDIyNGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwzNi45IDBMNzEuNiAzNTIgMzIgMzUyYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDM0LjIgMEwzMi40IDQ2OS41Yy0xLjQgNC4yIC45IDguNyA1LjEgMTAuMXM4LjctLjkgMTAuMS01LjFMODMuMSAzNjhsNDA5LjggMCAzNS41IDEwNi41YzEuNCA0LjIgNS45IDYuNSAxMC4xIDUuMXM2LjUtNS45IDUuMS0xMC4xTDUwOS44IDM2OGwzNC4yIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTM5LjYgMEw0NjcuMSAyNDBsMzYuOSAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC00Mi4yIDBMNDI0LjQgMTEybDM5LjYgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtNDQuOSAwTDM5OS42IDM3LjVjLTEuNC00LjItNS45LTYuNS0xMC4xLTUuMXMtNi41IDUuOS01LjEgMTAuMUw0MDIuMiA5NiAxNzMuOCA5NmwxNy44LTUzLjV6TTE2OC40IDExMmwyMzkuMSAwIDM3LjMgMTEyLTMxMy44IDAgMzcuMy0xMTJ6TTQ4Ny42IDM1Mkw4OC40IDM1MmwzNy4zLTExMiAzMjQuNSAwIDM3LjMgMTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![train-track](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/train-track.svg)
  */
 const TrainTrack: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

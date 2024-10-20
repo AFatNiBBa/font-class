@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mouse-field` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mouse-field?s=sharp-solid mouse-field}
- * @preview ![mouse-field](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk2LjIgMTEzLjZjMi41LTguMSAzLjgtMTYuNyAzLjgtMjUuNmMwLTQ4LjYtMzkuNC04OC04OC04OHMtODggMzkuNC04OCA4OGMwIDI5LjggMTQuOCA1Ni4xIDM3LjQgNzJsLTUuNCAwYy04OC40IDAtMTYwIDcxLjYtMTYwIDE2MGwwIDQ4LTI0IDBjLTM5LjggMC03MiAzMi4yLTcyIDcyczMyLjIgNzIgNzIgNzJsMzg0IDAgMjQgMCAwLTQ4LTI0IDBMNzIgNDY0Yy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0bDI0IDAgMTM2IDAgOCAwIDE5IDAgMTMzIDAgMjQgMCAwLTI0IDAtMTYgMC0xNi44LTE1LjgtNS43LTQ5LjktMTguMiAyMy44LTYzLjVjMiAuMSA0IC4yIDYgLjJMNTEyIDI3MmwwLTIzLjFjMC00My0xOS44LTgxLjQtNTAuOC0xMDYuNUM0NzMgMTI3LjQgNDgwIDEwOC41IDQ4MCA4OGMwLTQ2LjQtMzUuOS04NC40LTgxLjQtODcuOEM0MTkuMiAyMC42IDQzMiA0OC44IDQzMiA4MGMwIDE0LjUtMi44IDI4LjQtNy44IDQxLjFjLTguOS0zLjQtMTguMy02LTI4LTcuNXpNNDAwIDE5NmEyMCAyMCAwIDEgMSA0MCAwIDIwIDIwIDAgMSAxIC00MCAwek0zMTIgNDhjMjIuMSAwIDQwIDE3LjkgNDAgNDBsMCA0MC00MCAwYy0yMi4xIDAtNDAtMTcuOS00MC00MHMxNy45LTQwIDQwLTQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mouse-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/mouse-field.svg)
  */
 const MouseField: typeof Icon = x => (
     <Icon {...x}>

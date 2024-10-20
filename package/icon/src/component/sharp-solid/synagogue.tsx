@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `synagogue` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/synagogue?s=sharp-solid synagogue}
- * @preview ![synagogue](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBMMTYwIDEyOGwwIDMyIDAgMTEyIDAgMjQwIDEyOCAwIDAtOTZjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDk2IDEyOCAwIDAtMjQwIDAtMTEyIDAtMzJMMzIwIDB6TTUxMiAyNDBsMCAyNzIgMTI4IDAgMC0yNDAtODAtODAtNDggNDh6TTgwIDE5MkwwIDI3MiAwIDUxMmwxMjggMCAwLTI3Mkw4MCAxOTJ6bTI0MC03My45bDIxLjMgMzYuOSA0Mi42IDBMMzYyLjcgMTkyIDM4NCAyMjguOWwtNDIuNiAwTDMyMCAyNjUuOWwtMjEuMy0zNi45LTQyLjcgMEwyNzcuNCAxOTIgMjU2IDE1NS4xbDQyLjcgMEwzMjAgMTE4LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![synagogue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/synagogue.svg)
  */
 const Synagogue: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

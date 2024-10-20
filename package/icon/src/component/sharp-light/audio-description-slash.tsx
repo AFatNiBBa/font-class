@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `audio-description-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/audio-description-slash?s=sharp-light audio-description-slash}
- * @preview ![audio-description-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIuNCAxMEwxOS45IC4xIC4xIDI1LjNsMTIuNiA5LjlMNjA3LjggNTAyLjJsMTIuNiA5LjkgMTkuOC0yNS4yLTEyLjYtOS45TDMyLjQgMTB6TTYwOCA2NGwwLTMyLTMyIDBMMTM5LjYgMzJsNDAuNSAzMkw1NzYgNjRsMCAzMTIuNiAzMiAyNS4zTDYwOCA2NHpNMTI1LjQgMzUybDM1LjIgMCAyMi4xLTQ4IDEuMyAwIDgwIDAgMS4zIDAgMjIuMSA0OCAzNS4yIDAtOS0xOS41TDIzNyAyNzJsLTM5LjUgMEwyMDggMjQ5LjFsLTI1LjgtMjAuNEwxMjUuNCAzNTJ6TTMyIDExMC4yTDMyIDQ0OGwwIDMyIDMyIDAgNDM2LjQgMC00MC41LTMyTDY0IDQ0OGwwLTMxMi42TDMyIDExMC4yek0zMzYgMzUybDIuMyAwLTIuMy0xLjggMCAxLjh6bTE3Ni05NmMwLTUzLTQzLTk2LTk2LTk2bC02NCAwLTE2IDAgMCAxNiAwIDExLjEgMzIgMjUuMyAwLTIwLjQgNDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NGMwIDEzLjQtNC4xIDI1LjgtMTEuMSAzNmwyNS4yIDE5LjljMTEuMy0xNS43IDE3LjktMzUgMTcuOS01NS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![audio-description-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/audio-description-slash.svg)
  */
 const AudioDescriptionSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

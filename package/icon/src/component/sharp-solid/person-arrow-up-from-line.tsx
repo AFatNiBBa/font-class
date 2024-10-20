@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-arrow-up-from-line` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-arrow-up-from-line?s=sharp-solid person-arrow-up-from-line}
- * @preview ![person-arrow-up-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptLTUxLjEgMzJsLTE3LjUgMEwxMTQgMTQyLjhsLTgxLjcgMTI4IDUzLjkgMzQuNCAzMy44LTUzTDEyMCA0NDhsLTg4IDBMMCA0NDhsMCA2NCAzMiAwIDU3NiAwIDMyIDAgMC02NC0zMiAwLTM0NCAwIDAtMTk1LjggMzMuOCA1MyA1My45LTM0LjRMMjcwIDE0Mi44IDI2MC42IDEyOGwtMTcuNSAwLTEwMi4yIDB6TTIwMCA0NDhsLTE2IDAgMC05NiAxNiAwIDAgOTZ6TTU5OC42IDEyMS40bC04MC04MEw0OTYgMTguNyA0NzMuNCA0MS40bC04MCA4MEwzNzAuNyAxNDQgNDE2IDE4OS4zbDIyLjYtMjIuNkw0NjQgMTQxLjMgNDY0IDM4NGwwIDMyIDY0IDAgMC0zMiAwLTI0Mi43IDI1LjQgMjUuNEw1NzYgMTg5LjMgNjIxLjMgMTQ0bC0yMi42LTIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-arrow-up-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-arrow-up-from-line.svg)
  */
 const PersonArrowUpFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

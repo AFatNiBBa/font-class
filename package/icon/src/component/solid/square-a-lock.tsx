@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-a-lock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-a-lock?s=solid square-a-lock}
- * @preview ![square-a-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMCAwLTk2Yy05LjEgMC0xNy43LTUuMi0yMS44LTEzLjlsLTEyLTI2LjEtMTI0LjQgMC0xMiAyNi4xYy01LjYgMTItMTkuOCAxNy4zLTMxLjggMTEuN3MtMTcuMy0xOS44LTExLjctMzEuOGw5Ni0yMDhjMy45LTguNSAxMi40LTEzLjkgMjEuOC0xMy45czE3LjkgNS40IDIxLjggMTMuOWw4Mi40IDE3OC42YzUuNi0xMCAxMy45LTE4LjMgMjMuOC0yNGwwLTI0LjZjMC01Ni40IDQxLjctMTAzLjEgOTYtMTEwLjlMNDQ4IDk2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyek0yMjQgMjA5LjNMMTg0IDI5Nmw4MCAwLTQwLTg2Ljd6TTQ2NCAyNDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA0OC02NCAwIDAtNDhjMC0xNy43IDE0LjMtMzIgMzItMzJ6bS04MCAzMmwwIDQ4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDEyOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxNjAgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTEyOGMwLTE3LjctMTQuMy0zMi0zMi0zMmwwLTQ4YzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-a-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-a-lock.svg)
  */
 const SquareALock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

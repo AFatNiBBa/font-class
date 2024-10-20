@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-line?s=thin pen-line}
- * @preview ![pen-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQwLjIgMjUuOWMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBMMzI4LjEgOTIuOGw5MS4xIDkxLjFMNDg2LjEgMTE3YzEyLjUtMTIuNSAxMi41LTMyLjggMC00NS4zTDQ0MC4yIDI1Ljl6TTczLjYgMzQ3LjNjLTEwLjQgMTAuNC0xOCAyMy4zLTIyLjIgMzcuNEwxOS44IDQ5Mi4ybDEwNy41LTMxLjZjMTQuMS00LjIgMjctMTEuOCAzNy40LTIyLjJMNDA3LjkgMTk1LjJsLTkxLjEtOTEuMUw3My42IDM0Ny4zem0zMTAtMzMyLjdjMTguNy0xOC43IDQ5LjEtMTguNyA2Ny45IDBsNDUuOCA0NS44YzE4LjcgMTguNyAxOC43IDQ5LjEgMCA2Ny45TDE3NiA0NDkuN2MtMTIuMyAxMi4zLTI3LjUgMjEuMy00NC4yIDI2LjJMMTAuMyA1MTEuN2MtMi44IC44LTUuOCAuMS03LjktMnMtMi44LTUuMS0yLTcuOUwzNi4xIDM4MC4yQzQxIDM2My41IDUwIDM0OC4zIDYyLjMgMzM2TDM4My43IDE0LjZ6TTIzMiA0OTZsMzM2IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTMzNiAwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pen-line.svg)
  */
 const PenLine: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ruler` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler?s=sharp-regular ruler}
- * @preview ![ruler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDE2MGwtMzMuOS0zMy45TDM4NS45IDMzLjkgMzUyIDAgMzE4LjEgMzMuOSAzMy45IDMxOC4xIDAgMzUybDMzLjkgMzMuOSA5Mi4xIDkyLjFMMTYwIDUxMmwzMy45LTMzLjlMNDc4LjEgMTkzLjkgNTEyIDE2MHptLTY3LjkgMEwxNjAgNDQ0LjEgNjcuOSAzNTJsMzQuNy0zNC43IDMwLjEgMzAuMUwxNDQgMzU4LjYgMTY2LjYgMzM2bC0xMS4zLTExLjMtMzAuMS0zMC4xIDQxLjQtNDEuNCAzMC4xIDMwLjFMMjA4IDI5NC42IDIzMC42IDI3MmwtMTEuMy0xMS4zLTMwLjEtMzAuMSA0MS40LTQxLjQgMzAuMSAzMC4xTDI3MiAyMzAuNiAyOTQuNiAyMDhsLTExLjMtMTEuMy0zMC4xLTMwLjEgNDEuNC00MS40IDMwLjEgMzAuMUwzMzYgMTY2LjYgMzU4LjYgMTQ0bC0xMS4zLTExLjMtMzAuMS0zMC4xTDM1MiA2Ny45IDQ0NC4xIDE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ruler.svg)
  */
 const Ruler: typeof Icon = x => (
     <Icon {...x}>

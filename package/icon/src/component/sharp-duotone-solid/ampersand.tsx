@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `ampersand` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ampersand?s=sharp-duotone-solid ampersand}
- * @preview ![ampersand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMTIgMzJMODAgMzJsMCAzMiAwIDY1YzAgMjggMTAuNSA1NC45IDI5LjMgNzUuNWwzMS4yIDM0LjFMNzYuOCAyODYuNEM0OC42IDMwNy42IDMyIDM0MC43IDMyIDM3NmwwIDcyIDAgMzIgMzIgMCAxOTIgMCAxNy4xIDAgOS41LTE0LjIgMjcuNi00MS40TDM2MSA0ODBsODYuNyAwLTE2LjEtMTcuNi04NC45LTkyLjkgNjMuOS05NS44IDE3LjgtMjYuNi01My4zLTM1LjUtMTcuOCAyNi42LTU1LjEgODIuNi02Ny03My4zIDM5LjktMjkuOUMzMDMuNCAxOTYuNCAzMjAgMTYzLjMgMzIwIDEyOGwwLTY0IDAtMzItMzIgMEwxMTIgMzJ6TTIzNi44IDE2Ni40bC00NC45IDMzLjctMzUuNC0zOC43Yy04LjEtOC44LTEyLjYtMjAuNC0xMi42LTMyLjRsMC0zMyAxMTIgMCAwIDMyYzAgMTUuMS03LjEgMjkuMy0xOS4yIDM4LjR6TTExNS4yIDMzNy42bDY4LjctNTEuNSA4MS45IDg5LjZMMjM4LjkgNDE2IDk2IDQxNmwwLTQwYzAtMTUuMSA3LjEtMjkuMyAxOS4yLTM4LjR6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9IiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ampersand.svg)
  */
 const Ampersand: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

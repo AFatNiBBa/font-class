@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-down-left` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-down-left?s=sharp-thin square-down-left}
- * @preview ![square-down-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDY0TDE2IDQ4bDQxNiAwIDAgNDE2TDE2IDQ2NHpNMCA0ODBsMTYgMCA0MTYgMCAxNiAwIDAtMTYgMC00MTYgMC0xNi0xNiAwTDE2IDMyIDAgMzIgMCA0OCAwIDQ2NGwwIDE2ek0yODQuNyAzMzIuN2wtMjUuNC0yNS40TDI0OCAyOTZsMTEuMy0xMS4zIDczLjQtNzMuNEwzNDQgMjAwbC0xMS4zLTExLjMtNDEuNC00MS40TDI4MCAxMzZsLTExLjMgMTEuMy03My40IDczLjRMMTg0IDIzMmwtMTEuMy0xMS4zLTI1LjQtMjUuNEwxMzYgMTg0bC0xMS4zIDExLjNMMTEyIDIwOGwwIDE0NCAwIDE2IDE2IDAgMTQ0IDAgMTIuNy0xMi43TDI5NiAzNDRsLTExLjMtMTEuM3ptLTQ4LTQ4TDIyNS40IDI5NmwxMS4zIDExLjNMMjczLjQgMzQ0bC04IDhMMTI4IDM1MmwwLTEzNy40IDgtOCAzNi43IDM2LjdMMTg0IDI1NC42bDExLjMtMTEuM0wyODAgMTU4LjYgMzIxLjQgMjAwbC04NC43IDg0Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-down-left.svg)
  */
 const SquareDownLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `transporter-6` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-6?s=sharp-solid transporter-6}
- * @preview ![transporter-6](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJMOTYgNDggNjQgNjQgNDggOTYgMzIgNjQgMCA0OCAzMiAzMiA0OCAwIDY0IDMyek0yMjQgMGw2NCAwIDE2IDAgMCAzMi0xNiAwLTY0IDAtMTYgMCAwLTMyIDE2IDB6TTExMiAyNTZsMjg4IDAgMTYgMCAwIDMyLTE2IDAtMjg4IDAtMTYgMCAwLTMyIDE2IDB6TTQxNiA1MTJsLTEyMCAwLTgwIDBMOTYgNTEybDAtNjQgMzIwIDAgMCA2NHptNDgtMTYwbDE2IDMyIDMyIDE2LTMyIDE2LTE2IDMyLTE2LTMyLTMyLTE2IDMyLTE2IDE2LTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![transporter-6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/transporter-6.svg)
  */
 const Transporter_6: typeof Icon = x => (
     <Icon {...x}>

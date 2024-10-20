@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-line-up-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line-up-down?s=sharp-thin chart-line-up-down}
- * @preview ![chart-line-up-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJsMCA4IDAgNDI0IDQ4OCAwIDggMCAwIDE2LTggMEw4IDQ4MGwtOCAwIDAtOEwwIDQwbDAtOCAxNiAwek0zNTIgNjRsOCAwIDExMiAwIDggMCAwIDggMCAxMTIgMCA4LTE2IDAgMC04IDAtOTIuN0wyOTMuNyAyNjEuN2wtNS43IDUuNy01LjctNS43TDIwOCAxODcuM2wtOTguMyA5OC4zLTUuNyA1LjdMOTIuNyAyODBsNS43LTUuNyAxMDQtMTA0IDUuNy01LjcgNS43IDUuN0wyODggMjQ0LjcgNDUyLjcgODAgMzYwIDgwbC04IDAgMC0xNnptOCAzMjBsLTggMCAwLTE2IDggMCA5Mi43IDAtOTAuMy05MC4zLTUuNy01LjdMMzY4IDI2MC43bDUuNyA1LjdMNDY0IDM1Ni43bDAtOTIuNyAwLTggMTYgMCAwIDggMCAxMTIgMCA4LTggMC0xMTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chart-line-up-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chart-line-up-down.svg)
  */
 const ChartLineUpDown: typeof Icon = x => (
     <Icon {...x}>

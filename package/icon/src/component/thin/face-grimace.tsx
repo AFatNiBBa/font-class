@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grimace` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grimace?s=thin face-grimace}
- * @preview ![face-grimace](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDAgMCA0ODAgMjQwIDI0MCAwIDEgMCAwLTQ4MHpNNTEyIDI1NkEyNTYgMjU2IDAgMSAxIDAgMjU2YTI1NiAyNTYgMCAxIDEgNTEyIDB6TTE2OCAzMDRjLTIyLjEgMC00MCAxNy45LTQwIDQwczE3LjkgNDAgNDAgNDBsOCAwIDAtODAtOCAwem0yNCA4MGw1NiAwIDAtODAtNTYgMCAwIDgwem0xMjggMGwwLTgwLTU2IDAgMCA4MCA1NiAwem0xNiAwbDggMGMyMi4xIDAgNDAtMTcuOSA0MC00MHMtMTcuOS00MC00MC00MGwtOCAwIDAgODB6TTE2OCAyODhsMTc2IDBjMzAuOSAwIDU2IDI1LjEgNTYgNTZzLTI1LjEgNTYtNTYgNTZsLTE3NiAwYy0zMC45IDAtNTYtMjUuMS01Ni01NnMyNS4xLTU2IDU2LTU2em0tNy42LTgwYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bTE3Ni0xNmExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-grimace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-grimace.svg)
  */
 const FaceGrimace: typeof Icon = x => (
     <Icon {...x}>

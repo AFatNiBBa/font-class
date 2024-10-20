@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chalkboard` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chalkboard?s=sharp-light chalkboard}
- * @preview ![chalkboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzJMMzIgMzJsMCAxNiAwIDM2OCAzMiAwTDY0IDY0bDQ0OCAwIDAgMzUyIDMyIDAgMC0zNjggMC0xNi0xNiAwTDQ4IDMyek0yMjQgMzUybDAgMTYgMCA4MEwxNiA0NDggMCA0NDhsMCAzMiAxNiAwIDU0NCAwIDE2IDAgMC0zMi0xNiAwLTE0NCAwIDAtODAgMC0xNi0xNiAwLTE2MCAwLTE2IDB6bTMyIDMybDEyOCAwIDAgNTYtMTI4IDAgMC01NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chalkboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chalkboard.svg)
  */
 const Chalkboard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

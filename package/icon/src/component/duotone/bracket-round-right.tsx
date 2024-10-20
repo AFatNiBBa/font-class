@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `bracket-round-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bracket-round-right?s=duotone bracket-round-right}
- * @preview ![bracket-round-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zNy40IDQ2LjJDMjcuNiA2MSAzMS41IDgwLjggNDYuMyA5MC42QzcxLjkgMTA3LjcgMTI4IDE2NyAxMjggMjU2cy01Ni4xIDE0OC4zLTgxLjggMTY1LjRjLTE0LjcgOS44LTE4LjcgMjkuNy04LjkgNDQuNHMyOS43IDE4LjcgNDQuNCA4LjlDMTIwLjEgNDQ5IDE5MiAzNzEuOCAxOTIgMjU2UzEyMC4xIDYyLjkgODEuOCAzNy40QzY3IDI3LjYgNDcuMiAzMS41IDM3LjQgNDYuMnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![bracket-round-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bracket-round-right.svg)
  */
 const BracketRoundRight: typeof Icon = x => (
     <Icon viewBox="0 0 192 512" {...x}>

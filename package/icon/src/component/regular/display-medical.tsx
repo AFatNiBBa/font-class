@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `display-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-medical?s=regular display-medical}
- * @preview ![display-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDQ4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDI4OGMwIDguOC03LjIgMTYtMTYgMTZsLTE3NS41IDBjLS4zIDAtLjYgMC0uOCAwbC05NS4yIDBjLS4zIDAtLjYgMC0uOCAwTDY0IDM2OGMtOC44IDAtMTYtNy4yLTE2LTE2TDQ4IDY0YzAtOC44IDcuMi0xNiAxNi0xNmw0NDggMHpNNjQgNDE2bDE0Ny43IDAtOCA0OEwxNTIgNDY0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDcyIDAgMTI4IDAgNzIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNTEuNyAwLTgtNDhMNTEyIDQxNmMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTI4OGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDM1MmMwIDM1LjMgMjguNyA2NCA2NCA2NHptMTg4LjMgNDhsOC00OCA1NS4zIDAgOCA0OC03MS4zIDB6TTI1NiAxMjhsMCA0OC00OCAwYy04LjggMC0xNiA3LjItMTYgMTZsMCAzMmMwIDguOCA3LjIgMTYgMTYgMTZsNDggMCAwIDQ4YzAgOC44IDcuMiAxNiAxNiAxNmwzMiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTQ4IDQ4IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMzJjMC04LjgtNy4yLTE2LTE2LTE2bC00OCAwIDAtNDhjMC04LjgtNy4yLTE2LTE2LTE2bC0zMiAwYy04LjggMC0xNiA3LjItMTYgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![display-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/display-medical.svg)
  */
 const DisplayMedical: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `split` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/split?s=sharp-thin split}
- * @preview ![split](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDEwLjMgNTMuN0w0MDQuNyA0OCA0MTYgMzYuN2w1LjcgNS43IDgwIDgwIDUuNyA1LjctNS43IDUuNy04MCA4MC01LjcgNS43TDQwNC43IDIwOGw1LjctNS43TDQ3Ni43IDEzNmwtMTUzLjQgMC0xMjAgMTIwIDEyMCAxMjAgMTUzLjQgMC02Ni4zLTY2LjMtNS43LTUuN0w0MTYgMjkyLjdsNS43IDUuNyA4MCA4MCA1LjcgNS43LTUuNyA1LjctODAgODAtNS43IDUuN0w0MDQuNyA0NjRsNS43LTUuN0w0NzYuNyAzOTIgMzIwIDM5MmwtMy4zIDAtMi4zLTIuM0wxODguNyAyNjQgOCAyNjRsLTggMCAwLTE2IDggMCAxODAuNyAwTDMxNC4zIDEyMi4zbDIuMy0yLjMgMy4zIDAgMTU2LjcgMEw0MTAuMyA1My43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![split](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/split.svg)
  */
 const Split: typeof Icon = x => (
     <Icon {...x}>

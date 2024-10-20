@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-heart?s=sharp-light folder-heart}
- * @preview ![folder-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMTkyIDAgNDggNjQgMjA4IDAgMzIgMCAwIDMyIDAgMzIwIDAgMzItMzIgMEwzMiA0ODAgMCA0ODBsMC0zMkwwIDY0IDAgMzJsMzIgMHptMjQwIDk2bC0xNiAwLTkuNi0xMi44TDIwOCA2NCAzMiA2NGwwIDM4NCA0NDggMCAwLTMyMC0yMDggMHptLTIzLjcgODEuMmw3LjcgNy40IDcuNy03LjRjMTEuNS0xMSAyNi44LTE3LjIgNDIuNy0xNy4ybDIuNCAwYzMyLjcgMCA1OS4yIDI2LjUgNTkuMiA1OS4yYzAgMTYuMS02LjYgMzEuNS0xOC4yIDQyLjdsLTgyLjggNzkuNkwyNTYgMzg0LjFsLTExLjEtMTAuNy04Mi44LTc5LjZjLTExLjYtMTEuMi0xOC4yLTI2LjYtMTguMi00Mi43YzAtMzIuNyAyNi41LTU5LjIgNTkuMi01OS4ybDIuNCAwYzE1LjkgMCAzMS4yIDYuMiA0Mi43IDE3LjJ6bTc5LjMgNjEuNmM1LjMtNS4xIDguMy0xMi4yIDguMy0xOS42YzAtMTUtMTIuMi0yNy4yLTI3LjItMjcuMmwtMi40IDBjLTcuNyAwLTE1IDMtMjAuNSA4LjNsLTcuNyA3LjRMMjU2IDI2MWwtMjIuMi0yMS4zLTcuNy03LjRjLTUuNS01LjMtMTIuOS04LjMtMjAuNS04LjNsLTIuNCAwYy0xNSAwLTI3LjIgMTIuMi0yNy4yIDI3LjJjMCA3LjQgMyAxNC41IDguMyAxOS42TDI1NiAzMzkuN2w3MS43LTY4Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![folder-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/folder-heart.svg)
  */
 const FolderHeart: typeof Icon = x => (
     <Icon {...x}>

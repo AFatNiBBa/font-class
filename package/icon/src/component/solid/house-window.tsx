@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-window` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-window?s=solid house-window}
- * @preview ![house-window](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQzLjggMjg3LjZjMTcgMCAzMi0xNCAzMi0zMi4xYzEtOS0zLTE3LTExLTI0TDMwOS41IDdjLTYtNS0xNC03LTIxLTdzLTE1IDEtMjIgOEwxMCAyMzEuNWMtNyA3LTEwIDE1LTEwIDI0YzAgMTggMTQgMzIuMSAzMiAzMi4xbDMyIDAgMCAxNjAuNGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAuNCAwYzM1LjUgMCA2NC4yLTI4LjggNjQtNjQuM2wtLjctMTYwLjIgMzIgMHpNMjQ4IDE5Mmw4MCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgODBjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTgwIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtODBjMC0xMy4zIDEwLjctMjQgMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-window](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-window.svg)
  */
 const HouseWindow: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

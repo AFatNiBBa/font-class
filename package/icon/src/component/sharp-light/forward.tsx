@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `forward` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward?s=sharp-light forward}
- * @preview ![forward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgzLjIgMjc1LjJMNTEyIDI1NmwtMjguOC0xOS4yTDI1NiA4NS4zIDIyNCA2NGwwIDM4LjUgMCA5NS45TDMyIDgzLjIgMCA2NGwwIDM3LjNMMCA0MTAuNyAwIDQ0OGwzMi0xOS4yTDIyNCAzMTMuNmwwIDk1LjkgMCAzOC41IDMyLTIxLjNMNDgzLjIgMjc1LjJ6TTIyNCAyNzYuM0wzMiAzOTEuNWwwLTI3MUwyMjQgMjM1LjdsMCA0MC42em0zMiAxMTEuOWwwLTI2NC40TDQ1NC4zIDI1NiAyNTYgMzg4LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![forward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/forward.svg)
  */
 const Forward: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `compress-wide` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compress-wide?s=light compress-wide}
- * @preview ![compress-wide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDgwYzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZsMCAxMjhjMCA4LjgtNy4yIDE2LTE2IDE2TDE2IDIyNGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwxMTIgMCAwLTExMnptMTYgMjA4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDEyOGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTExMkwxNiAzMjBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsMTI4IDB6TTM1MiA4MGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2bDAgMTEyIDExMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xMjggMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMTI4ek00OTYgMjg4YzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xMTIgMCAwIDExMmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTEyOGMwLTguOCA3LjItMTYgMTYtMTZsMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![compress-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/compress-wide.svg)
  */
 const CompressWide: typeof Icon = x => (
     <Icon {...x}>

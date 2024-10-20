@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spell-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spell-check?s=light spell-check}
- * @preview ![spell-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI2LjcgOS43QzEyNC4yIDMuOCAxMTguNCAwIDExMiAwcy0xMi4yIDMuOC0xNC43IDkuN2wtOTYgMjI0Yy0zLjUgOC4xIC4zIDE3LjUgOC40IDIxczE3LjUtLjMgMjEtOC40TDU0IDE5MmwxMTYgMCAyMy4zIDU0LjNjMy41IDguMSAxMi45IDExLjkgMjEgOC40czExLjktMTIuOSA4LjQtMjFsLTk2LTIyNHpNMTU2LjMgMTYwbC04OC42IDBMMTEyIDU2LjYgMTU2LjMgMTYwek0yNTYgMTZsMCAxMTIgMCAxMTJjMCA4LjggNy4yIDE2IDE2IDE2bDEwNCAwYzM5LjggMCA3Mi0zMi4yIDcyLTcyYzAtMzEuMS0xOS43LTU3LjYtNDcuMy02Ny42QzQxMC4zIDEwNC4xIDQxNiA4OC43IDQxNiA3MmMwLTM5LjgtMzIuMi03Mi03Mi03MkwyNzIgMGMtOC44IDAtMTYgNy4yLTE2IDE2em04OCA5NmwtNTYgMCAwLTgwIDU2IDBjMjIuMSAwIDQwIDE3LjkgNDAgNDBzLTE3LjkgNDAtNDAgNDB6bS01NiAzMmw1NiAwIDMyIDBjMjIuMSAwIDQwIDE3LjkgNDAgNDBzLTE3LjkgNDAtNDAgNDBsLTg4IDAgMC04MHpNNTcxLjMgMjk5LjNjNi4yLTYuMiA2LjItMTYuNCAwLTIyLjZzLTE2LjQtNi4yLTIyLjYgMEwzNTIgNDczLjQgMjUxLjMgMzcyLjdjLTYuMi02LjItMTYuNC02LjItMjIuNiAwcy02LjIgMTYuNCAwIDIyLjZsMTEyIDExMmM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMGwyMDgtMjA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![spell-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/spell-check.svg)
  */
 const SpellCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `store` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/store?s=sharp-solid store}
- * @preview ![store](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ3LjYgMTAzLjhMNDgwIDAgOTYgMCAyOC4zIDEwMy44Yy0yOS42IDQ2LjgtMy40IDExMS45IDUxLjkgMTE5LjRjNCAuNSA4LjEgLjggMTIuMSAuOGMyNi4xIDAgNDkuMy0xMS40IDY1LjItMjljMTUuOSAxNy42IDM5LjEgMjkgNjUuMiAyOWMyNi4xIDAgNDkuMy0xMS40IDY1LjItMjljMTUuOSAxNy42IDM5LjEgMjkgNjUuMiAyOWMyNi4yIDAgNDkuMy0xMS40IDY1LjItMjljMTYgMTcuNiAzOS4xIDI5IDY1LjIgMjljNC4xIDAgOC4xLS4zIDEyLjEtLjhjNTUuNS03LjQgODEuOC03Mi41IDUyLjEtMTE5LjR6TTQ5OS43IDI1NC45YzAgMCAwIDAtLjEgMGMtNS4zIC43LTEwLjcgMS4xLTE2LjIgMS4xYy0xMi40IDAtMjQuMy0xLjktMzUuNC01LjNMNDQ4IDM4NGwtMzIwIDAgMC0xMzMuNGMtMTEuMiAzLjUtMjMuMiA1LjQtMzUuNiA1LjRjLTUuNSAwLTExLS40LTE2LjMtMS4xbC0uMSAwYy00LjEtLjYtOC4xLTEuMy0xMi0yLjNMNjQgMzg0bDAgMTI4IDQ0OCAwIDAtMTI4IDAtMTMxLjRjLTQgMS04IDEuOC0xMi4zIDIuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![store](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/store.svg)
  */
 const Store: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

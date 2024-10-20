@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rocket-launch` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rocket-launch?s=solid rocket-launch}
- * @preview ![rocket-launch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE3LjggMTI4bDg5LjMgMEMyODYuOS0zLjcgNDA5LjUtOC41IDQ4My45IDUuM2MxMS42IDIuMiAyMC43IDExLjIgMjIuOCAyMi44YzEzLjggNzQuNCA5IDE5Ny0xMjIuNyAyNzYuOWwwIDg5LjNjMCAyNS40LTEzLjQgNDktMzUuMyA2MS45bC04OC41IDUyLjVjLTcuNCA0LjQtMTYuNiA0LjUtMjQuMSAuMnMtMTIuMS0xMi4yLTEyLjEtMjAuOWwwLTExNC43YzAtMjIuNi05LTQ0LjMtMjUtNjAuM3MtMzcuNy0yNS02MC4zLTI1TDI0IDI4OGMtOC42IDAtMTYuNi00LjYtMjAuOS0xMi4xcy00LjItMTYuNyAuMi0yNC4xbDUyLjUtODguNWMxMy0yMS45IDM2LjUtMzUuMyA2MS45LTM1LjN6TTQyNCAxMjhhNDAgNDAgMCAxIDAgLTgwIDAgNDAgNDAgMCAxIDAgODAgMHpNMTY2LjUgNDcwQzEzMi4zIDUwNC4zIDY2IDUxMSAyOC4zIDUxMS45Yy0xNiAuNC0yOC42LTEyLjItMjguMi0yOC4yQzEgNDQ2IDcuNyAzNzkuNyA0MiAzNDUuNWMzNC40LTM0LjQgOTAuMS0zNC40IDEyNC41IDBzMzQuNCA5MC4xIDAgMTI0LjV6bS00Ni43LTM2LjRjMTEuNC0xMS40IDExLjQtMzAgMC00MS40cy0zMC0xMS40LTQxLjQgMGMtMTAuMSAxMC4xLTEzIDI4LjUtMTMuNyA0MS4zYy0uNSA4IDUuOSAxNC4zIDEzLjkgMTMuOWMxMi44LS43IDMxLjItMy43IDQxLjMtMTMuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rocket-launch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/rocket-launch.svg)
  */
 const RocketLaunch: typeof Icon = x => (
     <Icon {...x}>

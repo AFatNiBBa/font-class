@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hexagon-image` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-image?s=sharp-regular hexagon-image}
- * @preview ![hexagon-image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTAzLjMgMzQwbC00OC04NEwxNTUuOSA4MGwyMDAuMyAwTDQ1Ni43IDI1NiA0MTcgMzI1LjZsLTc2LjItOTEuOC0xOC41LTIyLjItMTguNSAyMi4yTDIzMi4yIDMyMGwtMzguOS00MC42LTE3LjgtMTguNi0xNy4zIDE5LTU1IDYwLjJ6TTEyOCAzMkwwIDI1NiAxMjggNDgwbDI1NiAwTDUxMiAyNTYgMzg0IDMyIDEyOCAzMnpNMjMyIDE2MGE0MCA0MCAwIDEgMCAtODAgMCA0MCA0MCAwIDEgMCA4MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hexagon-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hexagon-image.svg)
  */
 const HexagonImage: typeof Icon = x => (
     <Icon {...x}>

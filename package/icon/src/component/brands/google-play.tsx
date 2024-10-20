@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `google-play` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/google-play?s=brands google-play}
- * @preview ![google-play](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI1LjMgMjM0LjNMMTA0LjYgMTNsMjgwLjggMTYxLjItNjAuMSA2MC4xek00NyAwQzM0IDYuOCAyNS4zIDE5LjIgMjUuMyAzNS4zdjQ0MS4zYzAgMTYuMSA4LjcgMjguNSAyMS43IDM1LjNsMjU2LjYtMjU2TDQ3IDB6bTQyNS4yIDIyNS42bC01OC45LTM0LjEtNjUuNyA2NC41IDY1LjcgNjQuNSA2MC4xLTM0LjFjMTgtMTQuMyAxOC00Ni41LTEuMi02MC44ek0xMDQuNiA0OTlsMjgwLjgtMTYxLjItNjAuMS02MC4xTDEwNC42IDQ5OXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![google-play](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/google-play.svg)
  */
 const GooglePlay: typeof Icon = x => (
     <Icon {...x}>

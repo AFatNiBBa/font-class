@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `closed-captioning` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/closed-captioning?s=sharp-solid closed-captioning}
- * @preview ![closed-captioning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw1NzYgMCAwIDQ0OEwwIDQ4MCAwIDMyek0yMDAgMjA4YzE3IDAgMzIgOC45IDQwLjYgMjIuM2w0MC41LTI1LjdjLTE3LTI2LjgtNDYuOS00NC42LTgxLjEtNDQuNmMtNTMgMC05NiA0My05NiA5NnM0MyA5NiA5NiA5NmMzNC4yIDAgNjQuMS0xNy44IDgxLjEtNDQuNmwtNDAuNS0yNS43QzIzMiAyOTUuMSAyMTcgMzA0IDIwMCAzMDRjLTI2LjUgMC00OC0yMS41LTQ4LTQ4czIxLjUtNDggNDgtNDh6bTE0NCA0OGMwLTI2LjUgMjEuNS00OCA0OC00OGMxNyAwIDMyIDguOSA0MC42IDIyLjNsNDAuNS0yNS43Yy0xNy0yNi44LTQ3LTQ0LjYtODEuMS00NC42Yy01MyAwLTk2IDQzLTk2IDk2czQzIDk2IDk2IDk2YzM0LjIgMCA2NC4xLTE3LjggODEuMS00NC42bC00MC41LTI1LjdDNDI0IDI5NS4xIDQwOSAzMDQgMzkyIDMwNGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![closed-captioning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/closed-captioning.svg)
  */
 const ClosedCaptioning: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

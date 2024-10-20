@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sprinkler-ceiling` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sprinkler-ceiling?s=sharp-light sprinkler-ceiling}
- * @preview ![sprinkler-ceiling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDMyIDBsMCA4My44TDEyOCAxMTBsMCAzMy4yTDExLjggMTExLjQgMCAxMDguMiAwIDk2IDAgMHpNMjU2IDExMGw5Ni0yNi4yTDM1MiAwbDMyIDAgMCA5NiAwIDEyLjItMTEuOCAzLjJMMjU2IDE0My4xbDAtMzMuMnpNMjA4IDMybDAgMTYgMCAxNzYgOTYgMCAxNiAwIDAgMzItMTYgMC0xMTIgMEw4MCAyNTZsLTE2IDAgMC0zMiAxNiAwIDk2IDAgMC0xNzYgMC0xNiAzMiAwek0xNDQgMzIwYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnpNODAgMzg0YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptMTQ0LTQ4YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bS0zMiA0OGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bS02NCA4MGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAwem0xMTItMTZhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem0xMTIgMTZhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptLTQ4LTgwYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnpNMCA0NjRhMTYgMTYgMCAxIDEgMzIgMEExNiAxNiAwIDEgMSAwIDQ2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sprinkler-ceiling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sprinkler-ceiling.svg)
  */
 const SprinklerCeiling: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

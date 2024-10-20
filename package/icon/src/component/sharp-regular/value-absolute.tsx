@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `value-absolute` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/value-absolute?s=sharp-regular value-absolute}
- * @preview ![value-absolute](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzJsMCAyNCAwIDQwMCAwIDI0TDAgNDgwbDAtMjRMMCA1NiAwIDMybDQ4IDB6TTMzNSAxNDNsMTctMTdMMzg1LjkgMTYwbC0xNyAxNy03OSA3OSA3OSA3OSAxNyAxN0wzNTIgMzg1LjlsLTE3LTE3LTc5LTc5LTc5IDc5LTE3IDE3TDEyNi4xIDM1MmwxNy0xNyA3OS03OS03OS03OS0xNy0xN0wxNjAgMTI2LjFsMTcgMTcgNzkgNzkgNzktNzl6TTUxMiA1NmwwIDQwMCAwIDI0LTQ4IDAgMC0yNCAwLTQwMCAwLTI0IDQ4IDAgMCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![value-absolute](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/value-absolute.svg)
  */
 const ValueAbsolute: typeof Icon = x => (
     <Icon {...x}>

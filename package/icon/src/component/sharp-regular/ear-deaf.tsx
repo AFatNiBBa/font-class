@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ear-deaf` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear-deaf?s=sharp-regular ear-deaf}
- * @preview ![ear-deaf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg5IDU3bC00OCA0OC0xNyAxN0wzOTAuMSA4OGwxNy0xNyA0OC00OCAxNy0xN0w1MDUuOSA0MCA0ODkgNTd6TTE4NSAzNjFMNTcgNDg5bC0xNyAxN0w2LjEgNDcybDE3LTE3TDE1MSAzMjdsMTctMTdMMjAxLjkgMzQ0bC0xNyAxN3ptNTUtMjQ5Yy03MC43IDAtMTI4IDU3LjMtMTI4IDEyOGwwIDI0LTQ4IDAgMC0yNGMwLTk3LjIgNzguOC0xNzYgMTc2LTE3NnMxNzYgNzguOCAxNzYgMTc2YzAgNTAuOC0yMS42IDk2LjYtNTYgMTI4LjdsMCA3LjNjMCA3NS4xLTYwLjkgMTM2LTEzNiAxMzZsLTI0IDAgMC00OCAyNCAwYzQ4LjYgMCA4OC0zOS40IDg4LTg4bDAtMTguMSAwLTExLjQgOC44LTcuMkMzNDkuNyAzMTUuNyAzNjggMjgwIDM2OCAyNDBjMC03MC43LTU3LjMtMTI4LTEyOC0xMjh6bTAgODhjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgMjQtNDggMCAwLTI0YzAtNDguNiAzOS40LTg4IDg4LTg4czg4IDM5LjQgODggODhsMCAyNC00OCAwIDAtMjRjMC0yMi4xLTE3LjktNDAtNDAtNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ear-deaf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ear-deaf.svg)
  */
 const EarDeaf: typeof Icon = x => (
     <Icon {...x}>

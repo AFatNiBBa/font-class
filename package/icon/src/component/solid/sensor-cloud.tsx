@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sensor-cloud` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-cloud?s=solid sensor-cloud}
- * @preview ![sensor-cloud](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwxNzAuOCAwYy02LjktMTQuNS0xMC44LTMwLjgtMTAuOC00OGMwLTQ0LjcgMjYuMi04My4zIDY0LjEtMTAxLjNDMjkwLjkgMjcxLjMgMzM5LjkgMjI0IDQwMCAyMjRjMTcuMiAwIDMzLjUgMy45IDQ4IDEwLjhMNDQ4IDk2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyem00OCA4OGwwIDE0NGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTE0NGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0em05NiAwbDAgMTQ0YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMTQ0YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjR6TTMzNiA1MTJsMjI0IDBjNDQuMiAwIDgwLTM1LjggODAtODBjMC0zOS0yNy45LTcxLjUtNjQuOC03OC42Yy41LTMuMSAuOC02LjIgLjgtOS40YzAtMzAuOS0yNS4xLTU2LTU2LTU2Yy0xOC4xIDAtMzQuMSA4LjYtNDQuNCAyMS44QzQ2NC44IDI3OC41IDQzNSAyNTYgNDAwIDI1NmMtNDQuMiAwLTgwIDM1LjgtODAgODBjMCA1LjkgLjYgMTEuNyAxLjkgMTcuMkMyODQuNCAzNTkuOSAyNTYgMzkyLjYgMjU2IDQzMmMwIDQ0LjIgMzUuOCA4MCA4MCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sensor-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sensor-cloud.svg)
  */
 const SensorCloud: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

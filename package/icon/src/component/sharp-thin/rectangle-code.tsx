@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-code` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-code?s=sharp-thin rectangle-code}
- * @preview ![rectangle-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDQ4bDAgNDE2TDE2IDQ2NCAxNiA0OGw0ODAgMHpNMTYgMzJMMCAzMiAwIDQ4IDAgNDY0bDAgMTYgMTYgMCA0ODAgMCAxNiAwIDAtMTYgMC00MTYgMC0xNi0xNiAwTDE2IDMyek0yOTIuNyAxNzZsNS43IDUuN0wzNzIuNyAyNTZsLTc0LjMgNzQuMy01LjcgNS43TDMwNCAzNDcuM2w1LjctNS43IDgwLTgwIDUuNy01LjctNS43LTUuNy04MC04MC01LjctNS43TDI5Mi43IDE3NnptLTc5IDUuN2w1LjctNS43TDIwOCAxNjQuN2wtNS43IDUuNy04MCA4MC01LjcgNS43IDUuNyA1LjcgODAgODAgNS43IDUuN0wyMTkuMyAzMzZsLTUuNy01LjdMMTM5LjMgMjU2bDc0LjMtNzQuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rectangle-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/rectangle-code.svg)
  */
 const RectangleCode: typeof Icon = x => (
     <Icon {...x}>

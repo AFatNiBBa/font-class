@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `thumbs-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbs-down?s=sharp-thin thumbs-down}
- * @preview ![thumbs-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4MGw4IDAgODAgMCA4IDAgMC04IDAtNTEuMWMwLTI5LjctNi40LTU4LjYtMTguMS04NC45TDQ0OCAzMzZsNDggMCA4IDAgMC04IDAtOTYgMC04LTggMC04IDAgMC01NiAwLTgtOCAwLTggMCAwLTU2IDAtOC04IDAtMjQgMCAwLTU2IDAtOC04IDAtNDggMEwyNzIgMzJsLTE0LjkgMC0yLjUgMC0yLjEgMS40LTEyLjMgOC41TDE2MCA5Ny4ybDAgMTkuNCA4OS4zLTYxLjZMMjU5LjUgNDggMjcyIDQ4bDExMiAwIDQwIDAgMCA1NiAwIDggOCAwIDI0IDAgMCA1NiAwIDggOCAwIDggMCAwIDU2IDAgOCA4IDAgOCAwIDAgODAtNDAgMC0xMjYuOSAwLTEzLjIgMCA2LjEgMTEuN2MxNC4yIDI3IDIxLjkgNTcuNSAyMS45IDg5LjFsMCA0My4xLTY0IDAgMC00My4xYzAtNDUuOS0yNC42LTg4LjMtNjQuNS0xMTEuMWwtMzAtMTcuMi0uNi0uMy0uNi0uMkwxNjAgMjg2LjFsMCAxNyAxMC4xIDMuNyAyOS41IDE2LjhjMzQuOSAxOS45IDU2LjQgNTcgNTYuNCA5Ny4ybDAgNTEuMSAwIDh6TTE2IDM2OGwwLTI1NiA5NiAwIDAgMjU2LTk2IDB6TTAgMzg0bDE2IDAgOTYgMCAxNiAwIDAtMTYgMC0yNTYgMC0xNi0xNiAwTDE2IDk2IDAgOTZsMCAxNkwwIDM2OGwwIDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![thumbs-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/thumbs-down.svg)
  */
 const ThumbsDown: typeof Icon = x => (
     <Icon {...x}>

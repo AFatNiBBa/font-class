@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jug-detergent` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jug-detergent?s=thin jug-detergent}
- * @preview ![jug-detergent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDE2bDgwIDBjNC40IDAgOCAzLjYgOCA4bDAgNTYtOTYgMCAwLTU2YzAtNC40IDMuNi04IDgtOHpNOTYgODBMNzIgODBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMjQgMCAxNiAwIDk2IDAgMTYgMCAyNCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0yNCAwIDAtNTZjMC0xMy4zLTEwLjctMjQtMjQtMjRMMTIwIDBDMTA2LjcgMCA5NiAxMC43IDk2IDI0bDAgNTZ6bTE2MCA2NGM2MS45IDAgMTEyIDUwLjEgMTEyIDExMmwwIDE5MmMwIDI2LjUtMjEuNSA0OC00OCA0OEw2NCA0OTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTkyYzAtNjEuOSA1MC4xLTExMiAxMTItMTEybDEyOCAwek0xMjggMTI4QzU3LjMgMTI4IDAgMTg1LjMgMCAyNTZMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xOTJjMC03MC43LTU3LjMtMTI4LTEyOC0xMjhsLTEyOCAwem0xNTIgODBjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgODBjMCAyMi4xIDE3LjkgNDAgNDAgNDBzNDAtMTcuOSA0MC00MGwwLTgwYzAtMjIuMS0xNy45LTQwLTQwLTQwem0tMjQgNDBjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNGwwIDgwYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![jug-detergent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/jug-detergent.svg)
  */
 const JugDetergent: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `seedling` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seedling?s=sharp-light seedling}
- * @preview ![seedling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDMyYzAgOTUuMy02OS40IDE3NC40LTE2MC41IDE4OS40YzIuNyAxMC4yIDQuNyAyMC43IDYuMSAzMS40QzQzMS40IDIzNC45IDUxMiAxNDIuOSA1MTIgMzJsMC0zMkw0ODAgMCA0NDggMEMzNjcgMCAyOTYgNDMgMjU2LjYgMTA3LjVjNy44IDguMyAxNS4xIDE3LjIgMjEuOCAyNi40QzMxMC43IDczLjMgMzc0LjUgMzIgNDQ4IDMybDMyIDB6TTY0IDk2YzEwNiAwIDE5MiA4NiAxOTIgMTkybC0zMiAwQzExOCAyODggMzIgMjAyIDMyIDk2bDMyIDB6TTIyNCAzMjBsMzIgMCAwIDE3NiAwIDE2IDMyIDAgMC0xNiAwLTE3NiAwLTE2IDAtMTZDMjg4IDE2NC4zIDE4Ny43IDY0IDY0IDY0TDMyIDY0IDAgNjQgMCA5NkMwIDIxOS43IDEwMC4zIDMyMCAyMjQgMzIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![seedling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/seedling.svg)
  */
 const Seedling: typeof Icon = x => (
     <Icon {...x}>

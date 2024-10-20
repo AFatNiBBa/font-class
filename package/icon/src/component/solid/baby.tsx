@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `baby` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baby?s=solid baby}
- * @preview ![baby](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDg4YTcyIDcyIDAgMSAxIDE0NCAwQTcyIDcyIDAgMSAxIDE1MiA4OHpNMzkuNyAxNDQuNWMxMy0xNy45IDM4LTIxLjggNTUuOS04LjhMMTMxLjggMTYyYzI2LjggMTkuNSA1OS4xIDMwIDkyLjIgMzBzNjUuNC0xMC41IDkyLjItMzBsMzYuMi0yNi40YzE3LjktMTMgNDIuOS05IDU1LjkgOC44czkgNDIuOS04LjggNTUuOWwtMzYuMiAyNi40Yy0xMy42IDkuOS0yOC4xIDE4LjItNDMuMyAyNWwwIDM2LjMtMTkyIDAgMC0zNi4zYy0xNS4yLTYuNy0yOS43LTE1LjEtNDMuMy0yNUw0OC41IDIwMC4zYy0xNy45LTEzLTIxLjgtMzgtOC44LTU1Ljl6bTg5LjggMTg0LjhsNjAuNiA1My0yNiAzNy4yIDI0LjMgMjQuM2MxNS42IDE1LjYgMTUuNiA0MC45IDAgNTYuNnMtNDAuOSAxNS42LTU2LjYgMGwtNDgtNDhDNzAgNDM4LjYgNjguMSA0MTcgNzkuMiA0MDEuMWw1MC4yLTcxLjh6bTEyOC41IDUzbDYwLjYtNTMgNTAuMiA3MS44YzExLjEgMTUuOSA5LjIgMzcuNS00LjUgNTEuMmwtNDggNDhjLTE1LjYgMTUuNi00MC45IDE1LjYtNTYuNiAwcy0xNS42LTQwLjkgMC01Ni42TDI4NCA0MTkuNGwtMjYtMzcuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![baby](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/baby.svg)
  */
 const Baby: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

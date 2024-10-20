@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spell-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spell-check?s=solid spell-check}
- * @preview ![spell-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDBDOTkuMSAwIDg3LjQgNy44IDgyLjUgMTkuN2wtNjYuNyAxNjAtMTMuMyAzMmMtNi44IDE2LjMgLjkgMzUgMTcuMiA0MS44czM1LS45IDQxLjgtMTcuMkw2Ni43IDIyNGw5MC43IDAgNS4xIDEyLjNjNi44IDE2LjMgMjUuNSAyNCA0MS44IDE3LjJzMjQtMjUuNSAxNy4yLTQxLjhsLTEzLjMtMzItNjYuNy0xNjBDMTM2LjYgNy44IDEyNC45IDAgMTEyIDB6bTE4LjcgMTYwbC0zNy4zIDBMMTEyIDExNS4yIDEzMC43IDE2MHpNMjU2IDMybDAgOTYgMCA5NmMwIDE3LjcgMTQuMyAzMiAzMiAzMmw4MCAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwYzAtMjMuMS05LjgtNDMuOC0yNS40LTU4LjRjNi0xMS4yIDkuNC0yNCA5LjQtMzcuNmMwLTQ0LjItMzUuOC04MC04MC04MEwyODggMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6bTk2IDY0bC0zMiAwIDAtMzIgMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNnptLTMyIDY0bDMyIDAgMTYgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtNDggMCAwLTMyek01NjYuNiAzMTAuNmMxMi41LTEyLjUgMTIuNS0zMi44IDAtNDUuM3MtMzIuOC0xMi41LTQ1LjMgMEwzNTIgNDM0LjdsLTczLjQtNzMuNGMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBzLTEyLjUgMzIuOCAwIDQ1LjNsOTYgOTZjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBsMTkyLTE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![spell-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/spell-check.svg)
  */
 const SpellCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

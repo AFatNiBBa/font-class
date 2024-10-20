@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `graduation-cap` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/graduation-cap?s=sharp-regular graduation-cap}
- * @preview ![graduation-cap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDE3NmwtMTIuOCA0LjUtMTQuMiA1TDMyMCAyODggMTI2LjMgMjIwLjIgODAgMjYzbDAgODMuOGMxNS40IDI1LjEgMjcuOCA2OC40IDAgMTMzLjJMMCA0NjRzMzIuNS00Ni41IDQ4LTk2LjlMNDggMjU2bDAtNyA1LjEtNC44IDM4LjktMzZMMjYuOSAxODUuNGwtMTQuMi01TDAgMTc2bDAtMzIgMTIuOC00LjUgMTQuMi01TDMyMCAzMiA2MTMuMSAxMzQuNmwxNC4yIDVMNjQwIDE0NGwwIDMyek0zMjAgMjM3LjFMNTQwLjQgMTYwIDMyMCA4Mi45IDk5LjYgMTYwbDQxLjkgMTQuNyAxNzIuOS02NC44IDExLjIgMzAtMTM3IDUxLjQgMTMxLjQgNDZ6bS0xNzYuNCAyM2w0Ni42IDE2LjMtMTMgMTIzLjVjNC44IDMuNSAxMi44IDggMjQuNiAxMi42QzIzMCA0MjMuNiAyNzIgNDMyIDMyMCA0MzJzOTAtOC40IDExOC4zLTE5LjRjMTEuOC00LjYgMTkuOC05LjIgMjQuNi0xMi42bC0xMy0xMjMuNSA0Ni42LTE2LjNMNTEyIDQwOGMwIDM1LjMtODYgNzItMTkyIDcycy0xOTItMzYuNy0xOTItNzJsMTUuNi0xNDcuOHpNNDY3LjQgMzk2YzAgMC0uMSAuMS0uMyAuNGMuMi0uMyAuMy0uNCAuMy0uNHptLTI5NC44IDBjMCAwIC4xIC4xIC4zIC40Yy0uMi0uMy0uMy0uNC0uMy0uNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![graduation-cap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/graduation-cap.svg)
  */
 const GraduationCap: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

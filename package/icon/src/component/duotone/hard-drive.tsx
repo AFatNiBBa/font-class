@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `hard-drive` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hard-drive?s=duotone hard-drive}
- * @preview ![hard-drive](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDM4NCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjI0YzAgNS41LS43IDEwLjgtMiAxNmMtMy42LTEzLjgtMTEuNi0yNS44LTIyLjUtMzQuNGMtNS40LTQuMy0xMS42LTcuNy0xOC4yLTEwYy0zLjMtMS4yLTYuOC0yLjEtMTAuMy0yLjdjLTEuOC0uMy0zLjYtLjUtNS40LS43Yy0uOS0uMS0xLjgtLjEtMi44LS4ycy0xLjgtLjEtMi44LS4xTDY0IDI4OGMtMjkuOCAwLTU0LjkgMjAuNC02MiA0OGMtMS4zLTUuMS0yLTEwLjUtMi0xNkwwIDk2ek0zNTIgMzg0YTMyIDMyIDAgMSAxIC02NCAwIDMyIDMyIDAgMSAxIDY0IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDM1MmMwLTM1LjMgMjguNy02NCA2NC02NGwzODQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC02NHptMzUyIDMyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTY0IDMyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hard-drive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hard-drive.svg)
  */
 const HardDrive: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 224c0 5.5-.7 10.8-2 16c-3.6-13.8-11.6-25.8-22.5-34.4c-5.4-4.3-11.6-7.7-18.2-10c-3.3-1.2-6.8-2.1-10.3-2.7c-1.8-.3-3.6-.5-5.4-.7c-.9-.1-1.8-.1-2.8-.2s-1.8-.1-2.8-.1L64 288c-29.8 0-54.9 20.4-62 48c-1.3-5.1-2-10.5-2-16L0 96zM352 384a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-            <path d="M0 352c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64l0-64zm352 32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
+        <path d="M0 352c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64l0-64zm352 32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
     </Icon>
 );
 

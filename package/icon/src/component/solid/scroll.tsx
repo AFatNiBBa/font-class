@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scroll` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scroll?s=solid scroll}
- * @preview ![scroll](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4MGwwIDQ4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDE2IDAgNDggMCAwLTgwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4UzAgNTMuNSAwIDgwek0xMTIgMzJjMTAgMTMuNCAxNiAzMCAxNiA0OGwwIDMwNGMwIDM1LjMgMjguNyA2NCA2NCA2NHM2NC0yOC43IDY0LTY0bDAtNS4zYzAtMzIuNCAyNi4zLTU4LjcgNTguNy01OC43TDQ4MCAzMjBsMC0xOTJjMC01My00My05Ni05Ni05NkwxMTIgMzJ6TTQ2NCA0ODBjNjEuOSAwIDExMi01MC4xIDExMi0xMTJjMC04LjgtNy4yLTE2LTE2LTE2bC0yNDUuMyAwYy0xNC43IDAtMjYuNyAxMS45LTI2LjcgMjYuN2wwIDUuM2MwIDUzLTQzIDk2LTk2IDk2bDE3NiAwIDk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![scroll](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/scroll.svg)
  */
 const Scroll: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

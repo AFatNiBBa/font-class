@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `manat-sign` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/manat-sign?s=sharp-regular manat-sign}
- * @preview ![manat-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDMybC00OCAwIDAgNjUuNUM3My4zIDEwOS4zIDAgMTkwLjEgMCAyODhMMCA0NTZsMCAyNCA0OCAwIDAtMjQgMC0xNjhjMC03MS40IDUxLjktMTMwLjYgMTIwLTE0MmwwIDMzNCA0OCAwIDAtMzM0YzY4LjEgMTEuNCAxMjAgNzAuNyAxMjAgMTQybDAgMTY4IDAgMjQgNDggMCAwLTI0IDAtMTY4YzAtOTcuOS03My4zLTE3OC43LTE2OC0xOTAuNUwyMTYgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![manat-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/manat-sign.svg)
  */
 const ManatSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

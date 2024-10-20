@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `video-arrow-up-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-arrow-up-right?s=regular video-arrow-up-right}
- * @preview ![video-arrow-up-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDExMmM4LjggMCAxNiA3LjIgMTYgMTZsMCAyNTZjMCA4LjgtNy4yIDE2LTE2IDE2TDY0IDQwMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjU2YzAtOC44IDcuMi0xNiAxNi0xNmwyNTYgMHpNNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhMMCAzODRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMyAwLTE5MCAwLTMzYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDY0em00NjQgODQuNmwwIDIxNC43TDQxNiAzMTNsMCA1Mi42IDEwNC4zIDQ2LjljNS4xIDIuMyAxMC42IDMuNSAxNi4yIDMuNWMyMS44IDAgMzkuNS0xNy43IDM5LjUtMzkuNWwwLTI0MWMwLTIxLjgtMTcuNy0zOS41LTM5LjUtMzkuNWMtNS42IDAtMTEuMSAxLjItMTYuMiAzLjVMNDE2IDE0Ni40bDAgNTIuNiAxMTItNTAuNHpNMTUyIDE2MGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw1NC4xIDBMMTAzIDMxMWMtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlzMjQuNiA5LjQgMzMuOSAwbDEwMy0xMDMgMCA1NC4xYzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xMTJjMC0xMy4zLTEwLjctMjQtMjQtMjRsLTExMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![video-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/video-arrow-up-right.svg)
  */
 const VideoArrowUpRight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

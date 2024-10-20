@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bridge-circle-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-circle-exclamation?s=sharp-thin bridge-circle-exclamation}
- * @preview ![bridge-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAgMzJsNTYwIDAgOCAwIDAgMTYtOCAwLTgwIDAgMCA5NiA4MCAwIDggMCAwIDE2LTggMEw0MCAxNjBsLTggMCAwLTE2IDggMCA4MCAwIDAtOTZMNDAgNDhsLTggMCAwLTE2IDggMHpNNTA0IDQ4TDM5MiA0OGwwIDk2IDExMiAwIDAtOTZ6TTM3NiA0OEwyNjQgNDhsMCA5NiAxMTIgMCAwLTk2ek0yNDggNDhMMTM2IDQ4bDAgOTYgMTEyIDAgMC05NnpNNDAgMjU2bDI0IDBjNDguNiAwIDg4IDM5LjQgODggODhsMCAxMjAgODAgMCAwLTEyMGMwLTQ4LjYgMzkuNC04OCA4OC04OGMxMi4zIDAgMjQgMi41IDM0LjcgNy4xYy0zLjIgNC40LTYuMyA4LjktOS4xIDEzLjZjLTcuOS0zLTE2LjUtNC43LTI1LjUtNC43Yy0zOS44IDAtNzIgMzIuMi03MiA3MmwwIDEyOCAwIDgtOCAwLTk2IDAtOCAwIDAtOCAwLTEyOGMwLTM5LjgtMzIuMi03Mi03Mi03MmwtMjQgMC04IDAgMC0xNiA4IDB6TTYyNCAzNjhhMTI4IDEyOCAwIDEgMCAtMjU2IDAgMTI4IDEyOCAwIDEgMCAyNTYgMHptLTI3MiAwYTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTE1NiA3NmwtMjQgMCAwLTI0IDI0IDAgMCAyNHptLTQtMTY0bDAgOCAwIDk2IDAgOC0xNiAwIDAtOCAwLTk2IDAtOCAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bridge-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bridge-circle-exclamation.svg)
  */
 const BridgeCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spinner-scale` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-scale?s=light spinner-scale}
- * @preview ![spinner-scale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ0YTIwIDIwIDAgMSAxIDAgNDAgMjAgMjAgMCAxIDEgMC00MHpNMjA0IDY0YTUyIDUyIDAgMSAwIDEwNCAwQTUyIDUyIDAgMSAwIDIwNCA2NHptMjggMzg0YTI0IDI0IDAgMSAwIDQ4IDAgMjQgMjQgMCAxIDAgLTQ4IDB6TTQ3MiAyNTZhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHpNNzYgMjU2YTEyIDEyIDAgMSAxIC0yNCAwIDEyIDEyIDAgMSAxIDI0IDB6TTY0IDIxMmE0NCA0NCAwIDEgMCAwIDg4IDQ0IDQ0IDAgMSAwIDAtODh6bTM0NC43LTc0LjhhMjQgMjQgMCAxIDEgLTMzLjktMzMuOSAyNCAyNCAwIDEgMSAzMy45IDMzLjl6bTIyLjYtNTYuNmE1NiA1NiAwIDEgMCAtNzkuMiA3OS4yIDU2IDU2IDAgMSAwIDc5LjItNzkuMnpNOTIuMiAzOTEuOGEyOCAyOCAwIDEgMCA1NiAwIDI4IDI4IDAgMSAwIC01NiAwek0zODQgNDA4YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHpNMTMxLjUgMTMxLjVhMTYgMTYgMCAxIDEgLTIyLjYtMjIuNiAxNiAxNiAwIDEgMSAyMi42IDIyLjZ6bTIyLjYtNDUuM0E0OCA0OCAwIDEgMCA4Ni4zIDE1NC4yYTQ4IDQ4IDAgMSAwIDY3LjktNjcuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![spinner-scale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/spinner-scale.svg)
  */
 const SpinnerScale: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-arrow-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-arrow-down?s=light calendar-arrow-down}
- * @preview ![calendar-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDE2YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgNDhMNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhsMCAzMiAwIDMyTDAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDMyMCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjU2IDAtMzIgMC0zMmMwLTM1LjMtMjguNy02NC02NC02NGwtMzIgMCAwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgNDhMMTI4IDY0bDAtNDh6TTMyIDE5MmwzODQgMCAwIDI1NmMwIDE3LjctMTQuMyAzMi0zMiAzMkw2NCA0ODBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMjU2ek02NCA5NmwzMjAgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyTDMyIDE2MGwwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyek0yNDAgMjU2YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTIxLjQtNTIuNy01Mi43Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMHMtNi4yIDE2LjQgMCAyMi42bDgwIDgwYzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwbDgwLTgwYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBMMjQwIDM3Ny40IDI0MCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![calendar-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/calendar-arrow-down.svg)
  */
 const CalendarArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

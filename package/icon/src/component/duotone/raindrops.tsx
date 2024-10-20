@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `raindrops` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/raindrops?s=duotone raindrops}
- * @preview ![raindrops](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDM1My4yQzAgMzg3LjkgMjguMSA0MTYgNjIuOCA0MTZsMi40IDBjMzQuNyAwIDYyLjgtMjguMSA2Mi44LTYyLjhjMC05LjYtMi4yLTE5LTYuNC0yNy42TDc1LjUgMjMxLjJjLTIuMS00LjQtNi42LTcuMi0xMS41LTcuMnMtOS40IDIuOC0xMS41IDcuMkw2LjQgMzI1LjZjLTQuMiA4LjYtNi40IDE4LTYuNCAyNy42em05Ni0xOTJjMCAzNC43IDI4LjEgNjIuOCA2Mi44IDYyLjhsMi40IDBjMzQuNyAwIDYyLjgtMjguMSA2Mi44LTYyLjhjMC05LjYtMi4yLTE5LTYuNC0yNy42TDE3MS41IDM5LjJjLTIuMS00LjQtNi42LTcuMi0xMS41LTcuMnMtOS40IDIuOC0xMS41IDcuMmwtNDYuMSA5NC40Yy00LjIgOC42LTYuNCAxOC02LjQgMjcuNnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTIxMCAyOTQuMmw5Ny44LTE1OS40YzIuNi00LjIgNy4yLTYuOCAxMi4yLTYuOHM5LjYgMi42IDEyLjIgNi44TDQzMCAyOTQuMmMxMS44IDE5LjIgMTggNDEuMyAxOCA2My44YzAgNjcuNC01NC42IDEyMi0xMjIgMTIySDMxNGMtNjcuNCAwLTEyMi01NC42LTEyMi0xMjJjMC0yMi41IDYuMi00NC42IDE4LTYzLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![raindrops](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/raindrops.svg)
  */
 const Raindrops: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M0 353.2C0 387.9 28.1 416 62.8 416l2.4 0c34.7 0 62.8-28.1 62.8-62.8c0-9.6-2.2-19-6.4-27.6L75.5 231.2c-2.1-4.4-6.6-7.2-11.5-7.2s-9.4 2.8-11.5 7.2L6.4 325.6c-4.2 8.6-6.4 18-6.4 27.6zm96-192c0 34.7 28.1 62.8 62.8 62.8l2.4 0c34.7 0 62.8-28.1 62.8-62.8c0-9.6-2.2-19-6.4-27.6L171.5 39.2c-2.1-4.4-6.6-7.2-11.5-7.2s-9.4 2.8-11.5 7.2l-46.1 94.4c-4.2 8.6-6.4 18-6.4 27.6z" />
-            <path d="M210 294.2l97.8-159.4c2.6-4.2 7.2-6.8 12.2-6.8s9.6 2.6 12.2 6.8L430 294.2c11.8 19.2 18 41.3 18 63.8c0 67.4-54.6 122-122 122H314c-67.4 0-122-54.6-122-122c0-22.5 6.2-44.6 18-63.8z" />
+        <path d="M210 294.2l97.8-159.4c2.6-4.2 7.2-6.8 12.2-6.8s9.6 2.6 12.2 6.8L430 294.2c11.8 19.2 18 41.3 18 63.8c0 67.4-54.6 122-122 122H314c-67.4 0-122-54.6-122-122c0-22.5 6.2-44.6 18-63.8z" />
     </Icon>
 );
 

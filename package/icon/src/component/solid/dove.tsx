@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dove` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dove?s=solid dove}
- * @preview ![dove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwLjggOTYuNWMxNCAxNyAzMSAzMC45IDQ5LjUgNDIuMmMyNS45IDE1LjggNTMuNyAyNS45IDc3LjcgMzEuNmwwLTMxLjVDMjY1LjggMTA4LjUgMjUwIDcxLjUgMjQ4LjYgMjhjLS40LTExLjMtNy41LTIxLjUtMTguNC0yNC40Yy03LjYtMi0xNS44LS4yLTIxIDUuOGMtMTMuMyAxNS40LTMyLjcgNDQuNi00OC40IDg3LjJ6TTMyMCAxNDRsMCAzMC42czAgMCAwIDBsMCAxLjNzMCAwIDAgMGwwIDMyLjFjLTYwLjgtNS4xLTE4NS00My44LTIxOS4zLTE1Ny4yQzk3LjQgNDAgODcuOSAzMiA3Ni42IDMyYy03LjkgMC0xNS4zIDMuOS0xOC44IDExQzQ2LjggNjUuOSAzMiAxMTIuMSAzMiAxNzZjMCAxMTYuOSA4MC4xIDE4MC41IDExOC40IDIwMi44TDExLjggNDE2LjZDNi43IDQxOCAyLjYgNDIxLjggLjkgNDI2LjhzLS44IDEwLjYgMi4zIDE0LjhDMjEuNyA0NjYuMiA3Ny4zIDUxMiAxNjAgNTEyYzMuNiAwIDcuMi0xLjIgMTAtMy41TDI0NS42IDQ0OGw3NC40IDBjODguNCAwIDE2MC03MS42IDE2MC0xNjBsMC0xNjAgMjkuOS00NC45YzEuMy0yIDIuMS00LjQgMi4xLTYuOGMwLTYuOC01LjUtMTIuMy0xMi4zLTEyLjNMNDAwIDY0Yy00NC4yIDAtODAgMzUuOC04MCA4MHptODAtMTZhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dove](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dove.svg)
  */
 const Dove: typeof Icon = x => (
     <Icon {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `dumpster-fire` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumpster-fire?s=sharp-duotone-solid dumpster-fire}
- * @preview ![dumpster-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE2MGwxMTQuOSAwTDE0MC41IDMyIDMyIDMyIDAgMTYwem0wIDY0bDAgNjQgNDQgMEw2NCA0NDhsMCAzMiA2NCAwIDAtMzIgMjA5IDBjLTMwLjUtMzQtNDktNzguOS00OS0xMjguMmMwLTQ5LjIgMjAuOS05My4xIDQ2LjEtMTI3LjhMMzIgMTkybDQgMzJMMCAyMjR6bTE0Ny41LTY0TDI3MiAxNjBsMC0xMjgtOTguOSAwTDE0Ny41IDE2MHpNMzA0IDMybDAgMTI4IDU2LjUgMGMxOS43LTIxLjIgNDAuNC0zOC41IDU3LjgtNTAuOEw0MDIuOSAzMiAzMDQgMzJ6bTEzMS41IDBsMTEuNyA1OC42IDUuNC0zLjRMNTEyIDE0Ni42bDMwLTMwIDIyLjUgMTguN2MyLjMgMS45IDQuNiAzLjggNi44IDUuOEw1NDQgMzIgNDM1LjUgMzJ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zMjAgMzIwYzAtODkuNiA4NS4zLTE2NS4zIDEyOC0xOTJsNjQgNjQgMzItMzJjNzYuOCA2NCA5NiAxMzMuMyA5NiAxNjBjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBzLTE2MC03MS42LTE2MC0xNjB6TTQ4MCA0MzIuMmMzNS4zIDAgNjQtMjguNyA2NC02NGMwLTQ4LTY0LTk2LTY0LTk2cy02NCA0OC02NCA5NmMwIDM1LjMgMjguNyA2NCA2NCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dumpster-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dumpster-fire.svg)
  */
 const DumpsterFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 160l114.9 0L140.5 32 32 32 0 160zm0 64l0 64 44 0L64 448l0 32 64 0 0-32 209 0c-30.5-34-49-78.9-49-128.2c0-49.2 20.9-93.1 46.1-127.8L32 192l4 32L0 224zm147.5-64L272 160l0-128-98.9 0L147.5 160zM304 32l0 128 56.5 0c19.7-21.2 40.4-38.5 57.8-50.8L402.9 32 304 32zm131.5 0l11.7 58.6 5.4-3.4L512 146.6l30-30 22.5 18.7c2.3 1.9 4.6 3.8 6.8 5.8L544 32 435.5 32z" />
-            <path d="M320 320c0-89.6 85.3-165.3 128-192l64 64 32-32c76.8 64 96 133.3 96 160c0 88.4-71.6 160-160 160s-160-71.6-160-160zM480 432.2c35.3 0 64-28.7 64-64c0-48-64-96-64-96s-64 48-64 96c0 35.3 28.7 64 64 64z" />
+        <path d="M320 320c0-89.6 85.3-165.3 128-192l64 64 32-32c76.8 64 96 133.3 96 160c0 88.4-71.6 160-160 160s-160-71.6-160-160zM480 432.2c35.3 0 64-28.7 64-64c0-48-64-96-64-96s-64 48-64 96c0 35.3 28.7 64 64 64z" />
     </Icon>
 );
 

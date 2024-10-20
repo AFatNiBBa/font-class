@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `angles-right` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angles-right?s=light angles-right}
- * @preview ![angles-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQzLjkgMjY2LjdjNS41LTYuMSA1LjUtMTUuMyAwLTIxLjRsLTE0NC0xNjBjLTUuOS02LjYtMTYtNy4xLTIyLjYtMS4ycy03LjEgMTYtMS4yIDIyLjZMNDEwLjUgMjU2IDI3Ni4xIDQwNS4zYy01LjkgNi42LTUuNCAxNi43IDEuMiAyMi42czE2LjcgNS40IDIyLjYtMS4ybDE0NC0xNjB6bS0zMzYgMTYwbDE0NC0xNjBjNS41LTYuMSA1LjUtMTUuMyAwLTIxLjRsLTE0NC0xNjBjLTUuOS02LjYtMTYtNy4xLTIyLjYtMS4ycy03LjEgMTYtMS4yIDIyLjZMMjE4LjUgMjU2IDg0LjEgNDA1LjNjLTUuOSA2LjYtNS40IDE2LjcgMS4yIDIyLjZzMTYuNyA1LjQgMjIuNi0xLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![angles-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/angles-right.svg)
  */
 const AnglesRight: typeof Icon = x => (
     <Icon {...x}>

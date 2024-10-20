@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-kanban` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-kanban?s=light chart-kanban}
- * @preview ![chart-kanban](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDQ0OGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMzUyYzAtOC44IDcuMi0xNiAxNi0xNmwzMiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDM1MmMwIDguOC03LjIgMTYtMTYgMTZsLTMyIDB6bS00OC0xNmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwzMiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzUyYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0zMiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDM1MnpNODAgMzg0bC0zMiAwYy04LjggMC0xNi03LjItMTYtMTZMMzIgODBjMC04LjggNy4yLTE2IDE2LTE2bDMyIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMjg4YzAgOC44LTcuMiAxNi0xNiAxNnpNNDggNDE2bDMyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0yODhjMC0yNi41LTIxLjUtNDgtNDgtNDhMNDggMzJDMjEuNSAzMiAwIDUzLjUgMCA4MEwwIDM2OGMwIDI2LjUgMjEuNSA0OCA0OCA0OHpNMjQwIDI1NmwtMzIgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMTYwYzAtOC44IDcuMi0xNiAxNi0xNmwzMiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDE2MGMwIDguOC03LjIgMTYtMTYgMTZ6bS0zMiAzMmwzMiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMTYwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0zMiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDE2MGMwIDI2LjUgMjEuNSA0OCA0OCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chart-kanban](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chart-kanban.svg)
  */
 const ChartKanban: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `temperature-three-quarters` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-three-quarters?s=solid temperature-three-quarters}
- * @preview ![temperature-three-quarters](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDY0Yy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDE2NC41YzAgMTcuMy03LjEgMzEuOS0xNS4zIDQyLjVDODYuMiAzMzIuNiA4MCAzNDkuNSA4MCAzNjhjMCA0NC4yIDM1LjggODAgODAgODBzODAtMzUuOCA4MC04MGMwLTE4LjUtNi4yLTM1LjQtMTYuNy00OC45Yy04LjItMTAuNi0xNS4zLTI1LjItMTUuMy00Mi41TDIwOCAxMTJjMC0yNi41LTIxLjUtNDgtNDgtNDh6TTQ4IDExMkM0OCA1MC4yIDk4LjEgMCAxNjAgMHMxMTIgNTAuMSAxMTIgMTEybDAgMTY0LjRjMCAuMSAuMSAuMyAuMiAuNmMuMiAuNiAuOCAxLjYgMS43IDIuOGMxOC45IDI0LjQgMzAuMSA1NSAzMC4xIDg4LjFjMCA3OS41LTY0LjUgMTQ0LTE0NCAxNDRTMTYgNDQ3LjUgMTYgMzY4YzAtMzMuMiAxMS4yLTYzLjggMzAuMS04OC4xYy45LTEuMiAxLjUtMi4yIDEuNy0yLjhjLjEtLjMgLjItLjUgLjItLjZMNDggMTEyek0yMDggMzY4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4YzAtMjAuOSAxMy40LTM4LjcgMzItNDUuM0wxNDQgMTQ0YzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZsMCAxNzguN2MxOC42IDYuNiAzMiAyNC40IDMyIDQ1LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![temperature-three-quarters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/temperature-three-quarters.svg)
  */
 const TemperatureThreeQuarters: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

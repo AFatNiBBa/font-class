@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-rifle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-rifle?s=sharp-regular person-rifle}
- * @preview ![person-rifle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDBjLTQ0LjIgMC04MCAzNS44LTgwIDgwczM1LjggODAgODAgODBjNDMuOSAwIDc5LjUtMzUuMyA4MC03OWwwLTJjLS41LTQzLjctMzYuMS03OS04MC03OXpNMTYwIDE5MmwtMTUuOSAwLTYuMiAxNC42LTg4IDIwOC05LjQgMjIuMSA0NC4yIDE4LjcgOS40LTIyLjFMMTUyIDI5Ni41IDE1MiA1MTJsNDggMCAwLTI3MiA3MiAwIDAgMjcyIDQ4IDAgMC0yMzQuNCAwLTg1LjYtMTYwIDB6TTIwOCA4MGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwek00MTYgMEw0MDAgMGwwIDMyIDE2IDAgMCA5Ni0xNiAwIDAgMTYgMCAzMiAwIDE2LTQ4IDAgMCA0OCAwIDk2IDAgNDggMTYgMCAzMiAwIDE2IDAgMCA0OCAwIDMyIDAgNDggNDYuNSAwIDEuNSAwIDQ4IDAtMTItNDgtMTYtNjQgNjAgMCAwLTQ4LTY0IDAgMC0yNi43TDU0NCAzMDRsMC0xMTItNDggMCAwIDcyLTE2IDUuMyAwLTkzLjMgMC00OC0xNiAwTDQ2NCAwIDQ0OCAwIDQxNiAwem0xNiAzMzZsLTE2IDAtMTYgMCAwLTk2IDMyIDAgMCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-rifle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-rifle.svg)
  */
 const PersonRifle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

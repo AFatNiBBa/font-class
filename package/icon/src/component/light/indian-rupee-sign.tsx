@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `indian-rupee-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/indian-rupee-sign?s=light indian-rupee-sign}
- * @preview ![indian-rupee-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0OGMwLTguOCA3LjItMTYgMTYtMTZsOTYgMCAxOTIgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkwyMDIuNSA2NGMyOC43IDIzLjIgNDguMyA1Ny4zIDUyLjYgOTZsNDguOSAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC00OC45IDBjLTggNzItNjkgMTI4LTE0My4xIDEyOGwtNDYuMSAwTDI0OS4zIDQ1MWM3LjIgNS4xIDguOSAxNS4xIDMuNyAyMi4zcy0xNS4xIDguOS0yMi4zIDMuN0w2LjcgMzE3QzEgMzEzLTEuNCAzMDUuNyAuOCAyOTkuMVM5IDI4OCAxNiAyODhsOTYgMGM1Ni40IDAgMTAzLjEtNDEuNyAxMTAuOS05NkwxNiAxOTJjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsMjA2LjkgMGMtNy44LTU0LjMtNTQuNC05Ni0xMTAuOS05NkwxNiA2NEM3LjIgNjQgMCA1Ni44IDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![indian-rupee-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/indian-rupee-sign.svg)
  */
 const IndianRupeeSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

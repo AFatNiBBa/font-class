@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendars` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendars?s=sharp-thin calendars}
- * @preview ![calendars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBsMCA4IDAgNTYgMTYwIDAgMC01NiAwLTggMTYgMCAwIDggMCA1NiA5NiAwIDE2IDAgMCAxNiAwIDk2IDAgMTYgMCAyMDggMCAxNi0xNiAwLTM4NCAwLTE2IDAgMC0xNiAwLTIwOCAwLTE2IDAtOTYgMC0xNiAxNiAwIDk2IDAgMC01NiAwLTggMTYgMHpNMjA4IDEyMGwwLTQwLTk2IDAgMCA5NiAzODQgMCAwLTk2LTk2IDAgMCA0MCAwIDgtMTYgMCAwLTggMC00MEwyMjQgODBsMCA0MCAwIDgtMTYgMCAwLTh6bTI4OCA3MmwtMzg0IDAgMCAyMDggMzg0IDAgMC0yMDh6TTE2IDE2MGwzMiAwIDAgMTYtMzIgMCAwIDMyMCAzODQgMCAwLTMyIDE2IDAgMCAzMiAwIDE2LTE2IDBMMTYgNTEyIDAgNTEybDAtMTZMMCAxNzZsMC0xNiAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![calendars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/calendars.svg)
  */
 const Calendars: typeof Icon = x => (
     <Icon {...x}>

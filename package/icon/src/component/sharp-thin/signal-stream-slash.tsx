@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-stream-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-stream-slash?s=sharp-thin signal-stream-slash}
- * @preview ![signal-stream-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1ek01NzYgMjU2YzAtNzIuMi0yNi42LTEzOC4zLTcwLjUtMTg4LjhMNDkzLjQgNzcuN0M1MzQuOSAxMjUuNCA1NjAgMTg3LjggNTYwIDI1NmMwIDMwLjMtNSA1OS40LTE0LjEgODYuNmwxMy4zIDEwLjVjMTAuOS0zMC4zIDE2LjgtNjMgMTYuOC05Ny4xem0tOTYgMGMwLTQ4LjItMTcuNy05Mi4yLTQ3LTEyNS45bC0xMi4xIDEwLjVDNDQ3LjcgMTcxLjUgNDY0IDIxMS44IDQ2NCAyNTZjMCA3LjEtLjQgMTQuMS0xLjIgMjFsMTQuNSAxMS41YzEuOC0xMC41IDIuNy0yMS40IDIuNy0zMi40ek0xMjMuNyAxOTIuOGwtMTMuMS0xMC4zQzEwMS4yIDIwNS4xIDk2IDIyOS45IDk2IDI1NmMwIDQ4LjIgMTcuNyA5Mi4yIDQ3IDEyNS45bDEyLjEtMTAuNUMxMjguMyAzNDAuNSAxMTIgMzAwLjIgMTEyIDI1NmMwLTIyLjMgNC4xLTQzLjYgMTEuNy02My4yek00Ni4xIDEzMS41TDMzLjMgMTIxLjRDMTIgMTYxLjYgMCAyMDcuNCAwIDI1NmMwIDcyLjIgMjYuNiAxMzguMyA3MC41IDE4OC44bDEyLjEtMTAuNUM0MS4xIDM4Ni42IDE2IDMyNC4yIDE2IDI1NmMwLTQ0LjkgMTAuOS04Ny4yIDMwLjEtMTI0LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![signal-stream-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/signal-stream-slash.svg)
  */
 const SignalStreamSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

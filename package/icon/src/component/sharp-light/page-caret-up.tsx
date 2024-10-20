@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `page-caret-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/page-caret-up?s=sharp-light page-caret-up}
- * @preview ![page-caret-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDEyNS4zTDM1MiA0ODAgMzIgNDgwIDMyIDMybDIyNi43IDBMMzUyIDEyNS4zek0zODQgMTEyTDI3MiAwIDMyIDAgMCAwIDAgMzIgMCA0ODBsMCAzMiAzMiAwIDMyMCAwIDMyIDAgMC0zMiAwLTM2OHpNMTkyIDIzNy4zTDI0Mi43IDI4OGwtMTAxLjUgMEwxOTIgMjM3LjN6bTAtNDUuM2wtMjIuNiAyMi42TDk2IDI4OGwwIDMyIDMyIDAgMTI4IDAgMzIgMCAwLTMyLTczLjQtNzMuNEwxOTIgMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![page-caret-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/page-caret-up.svg)
  */
 const PageCaretUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

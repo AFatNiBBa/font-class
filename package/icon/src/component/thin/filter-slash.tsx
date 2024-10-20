@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `filter-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter-slash?s=thin filter-slash}
- * @preview ![filter-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMgMS43QzkuNS0xIDQuNS0uNCAxLjcgM1MtLjQgMTEuNSAzIDE0LjNsNjI0IDQ5NmMzLjUgMi43IDguNSAyLjIgMTEuMi0xLjNzMi4yLTguNS0xLjMtMTEuMkwxMyAxLjd6TTU2Ny44IDkzLjFjNS4zLTYuNyA4LjItMTUgOC4yLTIzLjVDNTc2IDQ4LjggNTU5LjIgMzIgNTM4LjQgMzJMMTUyLjUgMzJsMjAuMyAxNiAzNjUuNyAwYzExLjkgMCAyMS42IDkuNyAyMS42IDIxLjZjMCA0LjktMS43IDkuNy00LjcgMTMuNUw0MjQuNCAyNDYuN2wxMi42IDkuOUw1NjcuOCA5My4xek0zNjggMzg1LjZsMCA2OC4zYzAgNS42LTQuNSAxMC4xLTEwLjEgMTAuMWMtMi4xIDAtNC4yLS43LTUuOS0xLjlsLTcwLjEtNTFjLTYuMi00LjUtOS45LTExLjctOS45LTE5LjRsMC04MS45LTE2LTEyLjYgMCA5NC41YzAgMTIuOCA2LjEgMjQuOCAxNi41IDMyLjNsNzAuMSA1MWM0LjUgMy4yIDkuOCA1IDE1LjQgNWMxNC40IDAgMjYuMS0xMS43IDI2LjEtMjYuMWwwLTU1LjYtMTYtMTIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![filter-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/filter-slash.svg)
  */
 const FilterSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

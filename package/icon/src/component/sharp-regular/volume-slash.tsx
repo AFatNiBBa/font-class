@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-slash?s=sharp-regular volume-slash}
- * @preview ![volume-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOGwxOSAxNC43TDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43LTk1LjEtNzMuOEM1NTcgMzUxLjMgNTc2IDMwNS45IDU3NiAyNTZjMC02Mi44LTMwLjItMTE4LjYtNzYuOC0xNTMuNmwtMjguOCAzOC40YzM1IDI2LjMgNTcuNiA2OC4xIDU3LjYgMTE1LjJjMCAzOC44LTE1LjMgNzQtNDAuMyA5OS45bC0zOC4yLTI5LjdDNDY4LjMgMzA4LjcgNDgwIDI4My43IDQ4MCAyNTZjMC0zMS40LTE1LjEtNTkuMy0zOC40LTc2LjhsLTI4LjggMzguNGMxMS43IDguOCAxOS4yIDIyLjcgMTkuMiAzOC40cy03LjUgMjkuNi0xOS4yIDM4LjRsNS45IDcuOUwzNTIgMjUwLjUgMzUyIDgwbDAtNDgtNDggMEwxOTUuMiAxMjguNyA0OC40IDE0Ljh6TTIzMy43IDE1OC43TDMwNCA5Ni4ybDAgMTE3LTcwLjMtNTQuNnpNODAgMTYwbC00OCAwIDAgNDggMCA5NiAwIDQ4IDQ4IDAgODAgMEwzMDQgNDgwbDQ4IDAgMC00OCAwLTU4LjctNDgtMzcuOCAwIDgwLjNMMTkxLjkgMzE2LjEgMTc4LjIgMzA0IDE2MCAzMDRsLTgwIDAgMC05NiA2Mi4xIDBMODEuMiAxNjAgODAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![volume-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/volume-slash.svg)
  */
 const VolumeSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

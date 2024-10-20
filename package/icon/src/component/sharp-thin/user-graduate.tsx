@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-graduate` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-graduate?s=sharp-thin user-graduate}
- * @preview ![user-graduate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAuMiA3MkwyMjQgMTYuNiA0MTcuOCA3MiAyMjQgMTI3LjQgMzAuMiA3MnpNMjI0IDE0NEw0NDggODBsMC0xNkwyMjQgMCAwIDY0IDAgODBsMzIgOS4xIDAgNzcuN0wzLjUgMjYxLjcgLjQgMjcybDEwLjggMCA1Ny42IDAgMTAuOCAwLTMuMS0xMC4zTDQ4IDE2Ni44bDAtNzMuMUwyMjQgMTQ0em04IDM1MmwwLTU3LjIgMy43LTMuOSA5My4xLTk5IDQzLjcgMCA1My4zIDE2MEwyMzIgNDk2ek0yMi4yIDQ5Nkw3NS41IDMzNmw0My43IDAgOTMuMSA5OSAzLjcgMy45IDAgNTcuMkwyMi4yIDQ5NnpNMzIxLjkgMzIwTDIzNSA0MTIuMyAyMjQgNDI0bC0xMS0xMS43TDEyNi4xIDMyMCA2NCAzMjAgNS4zIDQ5NiAwIDUxMmwxNi45IDAgNDE0LjMgMCAxNi45IDAtNS4zLTE2TDM4NCAzMjBsLTYyLjEgMHpNOTYgMTc2YzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4czEyOC01Ny4zIDEyOC0xMjhsMC0zNS4zLTE2IDQuNiAwIDMwLjdjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJzLTExMi01MC4xLTExMi0xMTJsMC0zMC43LTE2LTQuNkw5NiAxNzZ6TTIyIDI1NmwxOC02MC4yTDU4IDI1NiAyMiAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-graduate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-graduate.svg)
  */
 const UserGraduate: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

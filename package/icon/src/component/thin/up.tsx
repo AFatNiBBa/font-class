@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up?s=thin up}
- * @preview ![up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQ4YzguMSAwIDE1LjkgMy4yIDIxLjcgOUwzNjIuMSAyMDUuNGMzLjggMy44IDUuOSA5IDUuOSAxNC4zYzAgMTEuMi05LjEgMjAuMy0yMC4zIDIwLjNMMjQ4IDI0MGMtNC40IDAtOCAzLjYtOCA4bDAgMTkyYzAgMTMuMy0xMC43IDI0LTI0IDI0bC00OCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTE5MmMwLTQuNC0zLjYtOC04LThsLTk5LjcgMEMyNS4xIDI0MCAxNiAyMzAuOSAxNiAyMTkuN2MwLTUuNCAyLjEtMTAuNSA1LjktMTQuM0wxNzAuMyA1N2M1LjctNS43IDEzLjUtOSAyMS43LTl6TTM4NCAyMTkuN2MwLTkuNi0zLjgtMTguOS0xMC42LTI1LjdMMjI1IDQ1LjZDMjE2LjIgMzYuOSAyMDQuNCAzMiAxOTIgMzJzLTI0LjIgNC45LTMzIDEzLjdMMTAuNiAxOTQuMUMzLjggMjAwLjkgMCAyMTAuMSAwIDIxOS43YzAgMjAgMTYuMiAzNi4zIDM2LjMgMzYuM2w5MS43IDAgMCAxODRjMCAyMi4xIDE3LjkgNDAgNDAgNDBsNDggMGMyMi4xIDAgNDAtMTcuOSA0MC00MGwwLTE4NCA5MS43IDBjMjAgMCAzNi4zLTE2LjIgMzYuMy0zNi4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/up.svg)
  */
 const Up: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

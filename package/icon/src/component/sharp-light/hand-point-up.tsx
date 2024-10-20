@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-point-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-up?s=sharp-light hand-point-up}
- * @preview ![hand-point-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMEwzMiAwbDAgMTYgMCAyMjQtMTYgMEwwIDI0MGwwIDE2IDAgOTZjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBsNjQgMGM4OC40IDAgMTYwLTcxLjYgMTYwLTE2MGMwIDAgMCAwIDAgMGwwLTE2IDAtNjQgMC0xNiAwLTQ4IDAtMTYtMTYgMC02NCAwIDAtMTYtMTYgMC02NCAwIDAtMTYgMC0xNi0xNiAwLTY0IDAgMC0xMjggMC0xNkwxMjggMCA0OCAwem05NiAxNzZsNDggMCAwIDE2IDAgNDgtNDggMCAwLTY0em00OCA5NnMwIDAgMCAwbDAgNDgtODAgMC0xNiAwIDAgMzIgMTYgMCA4MCAwIDE2IDAgMTYgMCA0OCAwIDE2IDAgMTYgMCA0OCAwYzAgNzAuNy01Ny4zIDEyOC0xMjggMTI4bC02NCAwQzg5LjMgNDgwIDMyIDQyMi43IDMyIDM1MmwwLTgwIDgwIDBzMCAwIDAgMGwzMiAwczAgMCAwIDBsNDggMHptMzIgMGwwLTE2IDAtMTYgMC0zMiA0OCAwIDAgMTEyLTQ4IDAgMC00OHpNMTEyIDI0MGwtNDggMEw2NCAzMmw0OCAwIDAgMTEyIDAgMTYgMCA4MHptMjQwIDMybDAgNDgtNDggMCAwLTk2IDQ4IDAgMCAzMiAwIDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-point-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hand-point-up.svg)
  */
 const HandPointUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `forklift` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forklift?s=duotone forklift}
- * @preview ![forklift](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDQzMmE4MCA4MCAwIDEgMCAxNjAgMEE4MCA4MCAwIDEgMCAwIDQzMnptMjU2IDBhODAgODAgMCAxIDAgMTYwIDAgODAgODAgMCAxIDAgLTE2MCAwek00ODAgMzJsMCAzODRjMCAxNy43IDE0LjMgMzIgMzIgMzJsOTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtNjQgMCAwLTM1MmMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTE2MCAxNjBsOTYgOTYgOTQgMEwyODEuNCA2NCAxNjAgNjRsMCA5NnptLTY0IDBMOTYgNDhjMC0yNi41IDIxLjUtNDggNDgtNDhMMjkyLjcgMGMyMC4zIDAgMzguNCAxMi44IDQ1LjIgMzEuOWw3NS4zIDIxMC44YzEuOCA1LjIgMi44IDEwLjYgMi44IDE2LjFsMCA5NC44Yy0yMC4zLTIwLjctNDguNy0zMy42LTgwLTMzLjZjLTU2LjQgMC0xMDMuMSA0MS43LTExMC45IDk2bC0zNC4zIDBjLTcuOC01NC4zLTU0LjQtOTYtMTEwLjktOTZjLTMxLjMgMC01OS43IDEyLjktODAgMzMuNkwwIDIwOGMwLTI2LjUgMjEuNS00OCA0OC00OGw0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![forklift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/forklift.svg)
  */
 const Forklift: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 432a80 80 0 1 0 160 0A80 80 0 1 0 0 432zm256 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0zM480 32l0 384c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-352c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-            <path d="M160 160l96 96 94 0L281.4 64 160 64l0 96zm-64 0L96 48c0-26.5 21.5-48 48-48L292.7 0c20.3 0 38.4 12.8 45.2 31.9l75.3 210.8c1.8 5.2 2.8 10.6 2.8 16.1l0 94.8c-20.3-20.7-48.7-33.6-80-33.6c-56.4 0-103.1 41.7-110.9 96l-34.3 0c-7.8-54.3-54.4-96-110.9-96c-31.3 0-59.7 12.9-80 33.6L0 208c0-26.5 21.5-48 48-48l48 0z" />
+        <path d="M160 160l96 96 94 0L281.4 64 160 64l0 96zm-64 0L96 48c0-26.5 21.5-48 48-48L292.7 0c20.3 0 38.4 12.8 45.2 31.9l75.3 210.8c1.8 5.2 2.8 10.6 2.8 16.1l0 94.8c-20.3-20.7-48.7-33.6-80-33.6c-56.4 0-103.1 41.7-110.9 96l-34.3 0c-7.8-54.3-54.4-96-110.9-96c-31.3 0-59.7 12.9-80 33.6L0 208c0-26.5 21.5-48 48-48l48 0z" />
     </Icon>
 );
 

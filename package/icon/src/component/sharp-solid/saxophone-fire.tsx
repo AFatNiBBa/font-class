@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `saxophone-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/saxophone-fire?s=sharp-solid saxophone-fire}
- * @preview ![saxophone-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxNTMuNmMwIDcuNiAuNyAxNS4xIDIgMjIuNGw3Ny42IDBjMTAuNi0zMi4zIDQ4LjQtNjAuNyA0OC40LTYwLjdzMzcuOCAyOC4zIDQ4LjQgNjAuN2w3Ny42IDBjMS4zLTcuMyAyLTE0LjggMi0yMi40YzAtMjEuMy0xNS40LTc2LjgtNzYuOC0xMjhMMTUzLjYgNTEuMiAxMDIuNCAwQzY4LjMgMjEuMyAwIDgxLjkgMCAxNTMuNnpNMTY4IDM0NGw1MC45LTg4IDEzLjEgMCAyNCAwIDAtNDgtMjQgMEwyNCAyMDggMCAyMDhsMCA0OCAxNi45IDBMNC40IDMwOS40QzEuNSAzMjEuOCAwIDMzNC40IDAgMzQ3LjFsMCAzLjFDMCA0MzkuNiA3Mi40IDUxMiAxNjEuOCA1MTJjNDkuNCAwIDk2LjEtMjIuNiAxMjYuOC02MS40TDU0NCAxMjhsOTYgMCAwLTMyTDU5MiA2NGwtODAgMC02MyA2My04LTgtMTctMTdMMzkwLjEgMTM2bDE3IDE3IDggOEw0MDEgMTc1bC04LTgtMTctMTdMMzQyLjEgMTg0bDE3IDE3IDggOEwzNTMgMjIzbC04LTgtMTctMTdMMjk0LjEgMjMybDE3IDE3IDggOEwyMDAgMzc2bC0zMi0zMnptLTI0LTY0YTI0IDI0IDAgMSAxIC00OCAwIDI0IDI0IDAgMSAxIDQ4IDB6TTg4IDM0NGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![saxophone-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/saxophone-fire.svg)
  */
 const SaxophoneFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

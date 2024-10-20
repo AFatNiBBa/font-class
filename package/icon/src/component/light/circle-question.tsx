@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-question` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-question?s=light circle-question}
- * @preview ![circle-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTE2OC43LTg2LjJjNi41LTI0LjYgMjguNy00MS44IDU0LjItNDEuOGw1Ny4xIDBjMzUuNSAwIDY0IDI5IDY0IDY0LjNjMCAyNC0xMy40IDQ2LjItMzQuOSA1Ny4yTDI3MiAyNjguM2wwIDE5LjdjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0yOS41YzAtNiAzLjQtMTEuNSA4LjctMTQuM2w0NS44LTIzLjRjMTAuNy01LjQgMTcuNS0xNi42IDE3LjUtMjguN2MwLTE3LjgtMTQuNC0zMi4zLTMyLTMyLjNsLTU3LjEgMGMtMTAuOSAwLTIwLjUgNy40LTIzLjIgMTcuOWwtLjIgLjdjLTIuMiA4LjUtMTEgMTMuNy0xOS41IDExLjRzLTEzLjctMTEtMTEuNC0xOS41bC4yLS43ek0yMzIgMzUyYTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-question.svg)
  */
 const CircleQuestion: typeof Icon = x => (
     <Icon {...x}>

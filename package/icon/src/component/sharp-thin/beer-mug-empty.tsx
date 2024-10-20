@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `beer-mug-empty` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/beer-mug-empty?s=sharp-thin beer-mug-empty}
- * @preview ![beer-mug-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDQ4bDAgNDggMCAxNiAwIDM1Mkw0OCA0NjQgNDggNDhsMzIwIDB6bTE2IDMwNy44TDM4NCAxMTJsMTEyIDAgMCAxOTQuOC0xMTIgNDl6TTM4NCA0NjRsMC05MC44IDEyMy4yLTUzLjkgNC44LTIuMSAwLTUuMiAwLTIwOCAwLTgtOCAwTDM4NCA5NmwwLTQ4IDAtMTYtMTYgMEw0OCAzMiAzMiAzMmwwIDE2IDAgNDE2IDAgMTYgMTYgMCAzMjAgMCAxNiAwIDAtMTZ6TTE0NCAxMzZsMC04LTE2IDAgMCA4IDAgMjQwIDAgOCAxNiAwIDAtOCAwLTI0MHptNzIgMGwwLTgtMTYgMCAwIDggMCAyNDAgMCA4IDE2IDAgMC04IDAtMjQwem03MiAwbDAtOC0xNiAwIDAgOCAwIDI0MCAwIDggMTYgMCAwLTggMC0yNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![beer-mug-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/beer-mug-empty.svg)
  */
 const BeerMugEmpty: typeof Icon = x => (
     <Icon {...x}>

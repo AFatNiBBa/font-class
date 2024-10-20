@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hose-reel` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hose-reel?s=light hose-reel}
- * @preview ![hose-reel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMjU2Qzk2IDEzMi4zIDE5Ni4zIDMyIDMyMCAzMnMyMjQgMTAwLjMgMjI0IDIyNGwwIDk2LTMyIDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMS45IDAgMTIgOTYuMWMtNy44IDEtMTMuOSA3LjctMTMuOSAxNS45YzAgOC44IDcuMiAxNiAxNiAxNmwxLjkgMCAxNC4xIDAgMzIgMCAxNC4xIDAgMS45IDBjOC44IDAgMTYtNy4yIDE2LTE2YzAtOC4xLTYuMS0xNC44LTEzLjktMTUuOWwxMi05Ni4xIDEuOSAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0zMiAwIDAtOTZDNTc2IDExNC42IDQ2MS40IDAgMzIwIDBTNjQgMTE0LjYgNjQgMjU2czExNC42IDI1NiAyNTYgMjU2YzU3LjYgMCAxMTAuOC0xOSAxNTMuNi01MS4yYzcuMS01LjMgOC41LTE1LjMgMy4yLTIyLjRzLTE1LjMtOC41LTIyLjQtMy4yQzQxNyA0NjMuMyAzNzAuNCA0ODAgMzIwIDQ4MEMxOTYuMyA0ODAgOTYgMzc5LjcgOTYgMjU2ek01NzMuOSAzODRsLTEyIDk2LTMuOCAwLTEyLTk2IDEzLjkgMCAxMy45IDB6TTQ2NCAyNTZhMTQ0IDE0NCAwIDEgMSAtMjg4IDAgMTQ0IDE0NCAwIDEgMSAyODggMHpNMzIwIDgwYTE3NiAxNzYgMCAxIDAgMCAzNTIgMTc2IDE3NiAwIDEgMCAwLTM1MnptMCAyNDBhNjQgNjQgMCAxIDEgMC0xMjggNjQgNjQgMCAxIDEgMCAxMjh6bS05Ni02NGE5NiA5NiAwIDEgMCAxOTIgMCA5NiA5NiAwIDEgMCAtMTkyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hose-reel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hose-reel.svg)
  */
 const HoseReel: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hose` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hose?s=sharp-regular hose}
- * @preview ![hose](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDEyOGw0OCAwIDAtMjQgMC0yLjMgODAtMTEuNCAwIDEzLjcgMzIgMCAwLTE2IDAtNDggMC0xNi0zMiAwIDAgMTMuN0wzMzYgMjYuM2wwLTIuMyAwLTI0TDI4OCAwbDAgMjQgMCA4MCAwIDI0ek04IDQ2NGwwIDQ4IDI0IDAgMzg0IDAgMjQgMCAwLTQ4LTI0IDBMMzIgNDY0IDggNDY0em0yNC04MEw4IDM4NGwwIDQ4IDI0IDAgMzg0IDAgMjQgMCAwLTQ4LTI0IDBMMzIgMzg0ek04IDMwNGwwIDQ4IDI0IDAgMzg0IDAgMjQgMCAwLTQ4LTI0IDBMMzIgMzA0IDggMzA0ek01NiAxNTZjMC0zNy42IDMwLjQtNjggNjgtNjhsMTMyIDAgMC00OEwxMjQgNDBDNTkuOSA0MCA4IDkxLjkgOCAxNTZzNTEuOSAxMTYgMTE2IDExNmwyOTIgMCAyNCAwIDAtNDgtMjQgMC0yOTIgMGMtMzcuNiAwLTY4LTMwLjQtNjgtNjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hose](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hose.svg)
  */
 const Hose: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ring` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ring?s=sharp-light ring}
- * @preview ![ring](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTcwLjlMMzIgMTk1YzEuOCAyLjUgNC43IDYuMSA4LjYgMTAuNmM3LjYgOC41IDE5LjMgMTkuOCAzNS43IDMxLjRjNDAuNS0yNCA5OS4xLTQ1IDE3OS42LTQ1czEzOS4xIDIxIDE3OS42IDQ1YzE2LjQtMTEuNiAyOC4xLTIyLjkgMzUuNy0zMS40YzQtNC40IDYuOC04LjEgOC42LTEwLjZsMC0yNC4xQzQ1Ny42IDE0NS44IDM4Ny45IDk2IDI1NiA5NlM1NC40IDE0NS44IDMyIDE3MC45ek00MDMuOCAyNTZjLTM1LTE3LjYtODMuMy0zMi0xNDcuOC0zMnMtMTEyLjcgMTQuNC0xNDcuOCAzMmMzNSAxNy42IDgzLjQgMzIgMTQ3LjggMzJzMTEyLjctMTQuNCAxNDcuOC0zMnpNNjAuOSAyNjUuMmMtMTEuNC03LjgtMjEtMTUuNy0yOC45LTIyLjlsMCA5OC44QzU0LjQgMzY2LjIgMTI0LjEgNDE2IDI1NiA0MTZzMjAxLjYtNDkuOCAyMjQtNzQuOWwwLTk4LjhjLTcuOSA3LjMtMTcuNSAxNS4xLTI4LjkgMjIuOUM0MTAuNiAyOTIuOSAzNDcuNCAzMjAgMjU2IDMyMHMtMTU0LjYtMjcuMS0xOTUuMS01NC44ek01MTIgMTYwbDAgMTkyYy0yMS4zIDMyLTEwMi40IDk2LTI1NiA5NlMyMS4zIDM4NCAwIDM1MkwwIDE2MGMyMS4zLTMyIDEwMi40LTk2IDI1Ni05NnMyMzQuNyA2NCAyNTYgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ring.svg)
  */
 const Ring: typeof Icon = x => (
     <Icon {...x}>

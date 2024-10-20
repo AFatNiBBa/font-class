@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shopware` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shopware?s=brands shopware}
- * @preview ![shopware](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAzLjUgNDU1LjQxQTI0Ni4xNyAyNDYuMTcgMCAwIDEgMjU2IDUwNEMxMTguODEgNTA0IDggMzkzIDggMjU2IDggMTE4LjgxIDExOSA4IDI1NiA4YTI0Ny4zOSAyNDcuMzkgMCAwIDEgMTY1LjcgNjMuNSAzLjU3IDMuNTcgMCAwIDEtMi44NiA2LjE4QTQxOC42MiA0MTguNjIgMCAwIDAgMzYyLjEzIDc0Yy0xMjkuMzYgMC0yMjIuNCA1My40Ny0yMjIuNCAxNTUuMzUgMCAxMDkgOTIuMTMgMTQ1Ljg4IDE3Ni44MyAxNzguNzMgMzMuNjQgMTMgNjUuNCAyNS4zNiA4NyA0MS41OWEzLjU4IDMuNTggMCAwIDEgMCA1Ljcyek01MDMgMjMzLjA5YTMuNjQgMy42NCAwIDAgMC0xLjI3LTIuNDRjLTUxLjc2LTQzLTkzLjYyLTYwLjQ4LTE0NC40OC02MC40OC04NC4xMyAwLTgwLjI1IDUyLjE3LTgwLjI1IDUzLjYzIDAgNDIuNiA1Mi4wNiA2MiAxMTIuMzQgODQuNDkgMzEuMDcgMTEuNTkgNjMuMTkgMjMuNTcgOTIuNjggMzkuOTNhMy41NyAzLjU3IDAgMCAwIDUtMS44MkEyNDkgMjQ5IDAgMCAwIDUwMyAyMzMuMDl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shopware](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/shopware.svg)
  */
 const Shopware: typeof Icon = x => (
     <Icon {...x}>

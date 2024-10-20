@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-down-left-right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-down-left-right?s=solid up-down-left-right}
- * @preview ![up-down-left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc4LjYgOS40Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMGwtNjQgNjRjLTkuMiA5LjItMTEuOSAyMi45LTYuOSAzNC45czE2LjYgMTkuOCAyOS42IDE5LjhsMzIgMCAwIDk2LTk2IDAgMC0zMmMwLTEyLjktNy44LTI0LjYtMTkuOC0yOS42cy0yNS43LTIuMi0zNC45IDYuOWwtNjQgNjRjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zbDY0IDY0YzkuMiA5LjIgMjIuOSAxMS45IDM0LjkgNi45czE5LjgtMTYuNiAxOS44LTI5LjZsMC0zMiA5NiAwIDAgOTYtMzIgMGMtMTIuOSAwLTI0LjYgNy44LTI5LjYgMTkuOHMtMi4yIDI1LjcgNi45IDM0LjlsNjQgNjRjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBsNjQtNjRjOS4yLTkuMiAxMS45LTIyLjkgNi45LTM0LjlzLTE2LjYtMTkuOC0yOS42LTE5LjhsLTMyIDAgMC05NiA5NiAwIDAgMzJjMCAxMi45IDcuOCAyNC42IDE5LjggMjkuNnMyNS43IDIuMiAzNC45LTYuOWw2NC02NGMxMi41LTEyLjUgMTIuNS0zMi44IDAtNDUuM2wtNjQtNjRjLTkuMi05LjItMjIuOS0xMS45LTM0LjktNi45cy0xOS44IDE2LjYtMTkuOCAyOS42bDAgMzItOTYgMCAwLTk2IDMyIDBjMTIuOSAwIDI0LjYtNy44IDI5LjYtMTkuOHMyLjItMjUuNy02LjktMzQuOWwtNjQtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![up-down-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/up-down-left-right.svg)
  */
 const UpDownLeftRight: typeof Icon = x => (
     <Icon {...x}>

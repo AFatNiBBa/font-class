@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-root-variable` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-root-variable?s=sharp-solid square-root-variable}
- * @preview ![square-root-variable](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk2IDMybDI0IDAgMjI0IDAgMzIgMCAwIDY0LTMyIDBMMzQ0IDk2IDIzOC43IDQ1NyAyMzIgNDgwbC00Mi40IDAtOS4zLTE1LjlMNzcuNiAyODggMzIgMjg4IDAgMjg4bDAtNjQgMzIgMCA2NCAwIDE4LjQgMCA5LjMgMTUuOSA3NC41IDEyNy43TDI4OS4zIDU1IDI5NiAzMnpNNTI4IDIyNi43TDU3My4zIDI3MmwtMjIuNiAyMi42TDUyNS4zIDMyMGwyNS40IDI1LjRMNTczLjMgMzY4IDUyOCA0MTMuM2wtMjIuNi0yMi42TDQ4MCAzNjUuM2wtMjUuNCAyNS40TDQzMiA0MTMuMyAzODYuNyAzNjhsMjIuNi0yMi42TDQzNC43IDMyMGwtMjUuNC0yNS40TDM4Ni43IDI3MiA0MzIgMjI2LjdsMjIuNiAyMi42TDQ4MCAyNzQuN2wyNS40LTI1LjRMNTI4IDIyNi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-root-variable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-root-variable.svg)
  */
 const SquareRootVariable: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

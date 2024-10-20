@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sd-cards` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sd-cards?s=solid sd-cards}
- * @preview ![sd-cards](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDBMMjM3LjMgMEMyMjAuMyAwIDIwNCA2LjcgMTkyIDE4LjdMMTE0LjcgOTZjLTEyIDEyLTE4LjcgMjguMy0xOC43IDQ1LjNMOTYgMzUyYzAgMzUuMyAyOC43IDY0IDY0IDY0bDIyNCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjg4YzAtMzUuMy0yOC43LTY0LTY0LTY0ek0yODAgNjRjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA0OGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0em04MCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgNDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC00OGMwLTEzLjMgMTAuNy0yNCAyNC0yNHpNNDggMTIwYzAtMTMuMy0xMC43LTI0LTI0LTI0UzAgMTA2LjcgMCAxMjBMMCAzNzZjMCA3NS4xIDYwLjkgMTM2IDEzNiAxMzZsMjI0IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTIyNCAwYy00OC42IDAtODgtMzkuNC04OC04OGwwLTI1NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sd-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sd-cards.svg)
  */
 const SdCards: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

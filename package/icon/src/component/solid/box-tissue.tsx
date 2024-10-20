@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-tissue` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-tissue?s=solid box-tissue}
- * @preview ![box-tissue](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTIuNSAwTDIwOCAwYzQwIDAgNTIgMjQgNjQgNDhzMjQgNDggNjQgNDhsODUuMiAwQzQzNiA5NiA0NDggMTA4IDQ0OCAxMjIuOGMwIDMuNC0uNyA2LjgtMS45IDEwTDQwOS42IDIyNCAzODQgMjg4bC0yNTYgMC0xNi02NEw2NC45IDM1LjRjLS42LTIuMy0uOS00LjYtLjktNi45QzY0IDEyLjggNzYuOCAwIDkyLjUgMHpNNzkgMjI0bDE2IDY0LTE1IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNDggMCAyNTYgMCA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xMy41IDAgMjUuNi02NCAxOS45IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAxMTJMMCAzODQgMCAyNzJjMC0yNi41IDIxLjUtNDggNDgtNDhsMzEgMHpNMCA0MTZsNTEyIDAgMCA0OGMwIDI2LjUtMjEuNSA0OC00OCA0OEw0OCA1MTJjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![box-tissue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/box-tissue.svg)
  */
 const BoxTissue: typeof Icon = x => (
     <Icon {...x}>

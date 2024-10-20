@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side-gear` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-gear?s=sharp-solid head-side-gear}
- * @preview ![head-side-gear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyMjQuM0MwIDEwMC40IDEwMC40IDAgMjI0LjMgMEwyNTYgMEMzNTguMSAwIDQ0MS42IDc5LjcgNDQ3LjcgMTgwLjNMNTA1IDI1Mmw3IDguOCAwIDExLjIgMCAxNiAwIDMyLTMyIDAtMzIgMCAwIDk2IDAgMzItMzIgMC05NiAwIDAgMzIgMCAzMi0zMiAwTDk2IDUxMmwtMzIgMCAwLTMyIDAtOTguOEMyMyAzMzkuMyAwIDI4MyAwIDIyNC4zek0yNTYgOTZsLTY0IDAgMCAzNy41Yy0xMS4yIDQtMjEuNSAxMC0zMC40IDE3LjZsLTMyLjUtMTguNy0zMiA1NS40IDMyLjUgMTguN2MtMS4xIDUuNy0xLjYgMTEuNi0xLjYgMTcuNnMuNSAxMS45IDEuNiAxNy41TDk3LjEgMjYwLjNsMzIgNTUuNEwxNjEuNiAyOTdjOC45IDcuNiAxOS4yIDEzLjYgMzAuNCAxNy42bDAgMzcuNSA2NCAwIDAtMzcuNWMxMS4yLTQgMjEuNS0xMCAzMC40LTE3LjZsMzIuNSAxOC43IDMyLTU1LjQtMzIuNS0xOC43YzEuMS01LjcgMS42LTExLjYgMS42LTE3LjVzLS41LTExLjktMS42LTE3LjZsMzIuNS0xOC43LTMyLTU1LjRMMjg2LjQgMTUxYy04LjktNy42LTE5LjEtMTMuNi0zMC40LTE3LjZMMjU2IDk2ek0xODQgMjI0YTQwIDQwIDAgMSAxIDgwIDAgNDAgNDAgMCAxIDEgLTgwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![head-side-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/head-side-gear.svg)
  */
 const HeadSideGear: typeof Icon = x => (
     <Icon {...x}>

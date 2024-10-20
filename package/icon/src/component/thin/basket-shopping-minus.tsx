@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `basket-shopping-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basket-shopping-minus?s=thin basket-shopping-minus}
- * @preview ![basket-shopping-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQwLjIgMWMtMy45IDIuMS01LjMgNy0zLjIgMTAuOEw0MzQuNiAxOTJsLTI5My4xIDBMMjM5IDExLjhjMi4xLTMuOSAuNy04LjctMy4yLTEwLjhzLTguNy0uNy0xMC44IDMuMkwxMjMuMiAxOTJsLTc0LjcgMEwzMiAxOTIgOCAxOTJjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMjggMEw5OS45IDQ2My41QzEwNyA0OTIgMTMyLjYgNTEyIDE2MiA1MTJMNDE0IDUxMmMyOS40IDAgNTUtMjAgNjIuMS00OC41TDU0MCAyMDhsMjggMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtMjQgMC0xNi41IDAtNzQuNyAwTDM1MSA0LjJjLTIuMS0zLjktNy01LjMtMTAuOC0zLjJ6TTUyLjUgMjA4bDQ3MSAwTDQ2MC42IDQ1OS42QzQ1NS4zIDQ4MSA0MzYuMSA0OTYgNDE0IDQ5NkwxNjIgNDk2Yy0yMiAwLTQxLjItMTUtNDYuNi0zNi40TDUyLjUgMjA4ek0yMDggMzQ0Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDE2MCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0xNjAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![basket-shopping-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/basket-shopping-minus.svg)
  */
 const BasketShoppingMinus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

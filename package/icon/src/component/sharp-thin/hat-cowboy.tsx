@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hat-cowboy` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-cowboy?s=sharp-thin hat-cowboy}
- * @preview ![hat-cowboy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMwLjcgMzguOEwyMTYgMzJsLTQuNCAxNS42LTU5LjkgMjEzYzQuOSAxLjcgOS45IDMuNSAxNS4yIDUuMUwyMjYuMyA1NC40bDg3IDQwLjEgNi43IDMuMSA2LjctMy4xIDg3LTQwLjEgNTkuNCAyMTEuM2M1LjItMS43IDEwLjMtMy40IDE1LjItNS4xbC01OS45LTIxM0w0MjQgMzJsLTE0LjcgNi44TDMyMCA4MCAyMzAuNyAzOC44ek02MTYgMjI0cy00IDQuMS0xMi4xIDEwLjVDNTcyLjYgMjU5LjQgNDgwIDMyMCAzMjAgMzIwcy0yNTIuNi02MC42LTI4My45LTg1LjVDMjggMjI4LjEgMjQgMjI0IDI0IDIyNGwtOS43IDEyLjlMMCAyNTZzOTYgMTkyIDMyMCAxOTJzMzIwLTE5MiAzMjAtMTkybC0xNC4zLTE5LjFMNjE2IDIyNHptLTguMyAyNy44YzIuMS0xLjYgNC0zLjEgNS44LTQuNWw3LjUgMTBjLTIuOSA0LjktNy4xIDExLjYtMTIuNiAxOS42Yy0xMiAxNy4zLTMwLjIgNDAuMy01NS4yIDYzLjRDNTAzLjMgMzg2LjMgNDI3IDQzMiAzMjAgNDMycy0xODMuMy00NS43LTIzMy4xLTkxLjhjLTI1LTIzLTQzLjItNDYuMS01NS4yLTYzLjRjLTUuNi04LTkuNy0xNC43LTEyLjYtMTkuNmw3LjUtMTBjMS44IDEuNCAzLjcgMi45IDUuOCA0LjVDNDUgMjYxLjMgNjQgMjczLjkgODkuNCAyODYuNEMxNDAuMiAzMTEuNCAyMTYuNiAzMzYgMzIwIDMzNnMxNzkuOC0yNC42IDIzMC42LTQ5LjZjMjUuNC0xMi41IDQ0LjMtMjUgNTcuMS0zNC42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hat-cowboy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hat-cowboy.svg)
  */
 const HatCowboy: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

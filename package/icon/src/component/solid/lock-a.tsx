@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lock-a` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-a?s=solid lock-a}
- * @preview ![lock-a](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0YzQ0LjIgMCA4MCAzNS44IDgwIDgwbDAgNDgtMTYwIDAgMC00OGMwLTQ0LjIgMzUuOC04MCA4MC04MHpNODAgMTQ0bDAgNDgtMTYgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xOTJjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTE2IDAgMC00OEMzNjggNjQuNSAzMDMuNSAwIDIyNCAwUzgwIDY0LjUgODAgMTQ0em00OS43IDI4MC44TDIwOS42IDI2NWMuOC0xLjYgMS44LTMgMy00LjNjMS40LTEuNSAzLjEtMi42IDUtMy40YzIuMS0uOSA0LjItMS4zIDYuNC0xLjNzNC4zIC40IDYuNCAxLjNjMS44IC44IDMuNSAxLjkgNSAzLjRjMS4zIDEuMyAyLjMgMi43IDMuMSA0LjNsNzkuOSAxNTkuOWM0IDcuOSAuNyAxNy41LTcuMiAyMS41cy0xNy41IC43LTIxLjUtNy4yTDI3MC4xIDQwMGwtOTIuMiAwLTE5LjYgMzkuMmMtNCA3LjktMTMuNiAxMS4xLTIxLjUgNy4ycy0xMS4xLTEzLjYtNy4yLTIxLjV6TTE5My45IDM2OGw2MC4yIDBMMjI0IDMwNy44IDE5My45IDM2OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![lock-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/lock-a.svg)
  */
 const LockA: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

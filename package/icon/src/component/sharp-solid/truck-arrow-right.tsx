@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-arrow-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-arrow-right?s=sharp-solid truck-arrow-right}
- * @preview ![truck-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDBMMCAwIDAgNDE2bDY0IDBjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwxMjggMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDMyIDAgMzIgMCAwLTY0LTMyIDAgMC02NCAwLTMyIDAtMzIgMC0xMy4zLTkuNC05LjQtOTYtOTZMNDkzLjMgOTYgNDgwIDk2bC02NCAwIDAtOTZ6TTU0NCAyNDBsMCAxNi0xMjggMCAwLTk2IDQ4IDAgMi43IDBMNTQ0IDIzNy4zbDAgMi43ek0xNjAgMzY4YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnptMjcyIDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6TTI1NyA5NWw4MCA4MCAxNyAxNy0xNyAxNy04MCA4MC0xNyAxN0wyMDYuMSAyNzJsMTctMTcgMzktMzlMOTYgMjE2bC0yNCAwIDAtNDggMjQgMCAxNjYuMSAwLTM5LTM5LTE3LTE3TDI0MCA3OC4xbDE3IDE3eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-arrow-right.svg)
  */
 const TruckArrowRight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

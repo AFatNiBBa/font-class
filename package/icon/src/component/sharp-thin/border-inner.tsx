@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `border-inner` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-inner?s=sharp-thin border-inner}
- * @preview ![border-inner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDQ3MmwwIDggMTYgMCAwLTggMC0yMDggMjA4IDAgOCAwIDAtMTYtOCAwLTIwOCAwIDAtMjA4IDAtOC0xNiAwIDAgOCAwIDIwOEw4IDI0OGwtOCAwIDAgMTYgOCAwIDIwOCAwIDAgMjA4ek0xNiA0NjRsMzIgMCAwLTMyLTMyIDAgMCAzMnptMzg0IDBsMzIgMCAwLTMyLTMyIDAgMCAzMnpNMTYgMzY4bDMyIDAgMC0zMi0zMiAwIDAgMzJ6bTM4NCAwbDMyIDAgMC0zMi0zMiAwIDAgMzJ6bTMyLTE5MmwwLTMyLTMyIDAgMCAzMiAzMiAwek0xNiAxNzZsMzIgMCAwLTMyLTMyIDAgMCAzMnpNNDMyIDgwbDAtMzItMzIgMCAwIDMyIDMyIDB6TTQ4IDgwbDAtMzJMMTYgNDhsMCAzMiAzMiAwem0yODggMGwwLTMyLTMyIDAgMCAzMiAzMiAwek0zMDQgNDY0bDMyIDAgMC0zMi0zMiAwIDAgMzJ6TTE0NCA4MGwwLTMyLTMyIDAgMCAzMiAzMiAwek0xMTIgNDY0bDMyIDAgMC0zMi0zMiAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![border-inner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/border-inner.svg)
  */
 const BorderInner: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

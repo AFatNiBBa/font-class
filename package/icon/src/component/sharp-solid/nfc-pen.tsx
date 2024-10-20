@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-pen` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-pen?s=sharp-solid nfc-pen}
- * @preview ![nfc-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw0NDggMCAwIDIwNC40LTY0IDY0TDM4NCAxMTJsMC0xNi0xNiAwTDIyNCA5NmwtMTYgMCAwIDE2IDAgOTguN2MtMTguNiA2LjYtMzIgMjQuNC0zMiA0NS4zYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4czQ4LTIxLjUgNDgtNDhjMC0yMC45LTEzLjQtMzguNy0zMi00NS4zbDAtODIuNyAxMTIgMCAwIDIwNC40TDMwMC40IDM4NCA5NiAzODRsMC0yNTYgNDggMCAxNiAwIDAtMzItMTYgMEw4MCA5NiA2NCA5NmwwIDE2IDAgMjg4IDAgMTYgMTYgMCAxODguNCAwLTEuNCAxLjRMMjU4IDQ4MCAwIDQ4MCAwIDMyek01MDUgMjIzLjhsNzEgNzEtNDEuMyA0MS4zLTcxLTcxTDUwNSAyMjMuOHptLTYzLjkgNjMuOWw3MSA3MUwzNzAuOSA1MDAgMjg4IDUxMS45IDI5OS45IDQyOSA0NDEuMSAyODcuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![nfc-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/nfc-pen.svg)
  */
 const NfcPen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

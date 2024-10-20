@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-sankey` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-sankey?s=thin diagram-sankey}
- * @preview ![diagram-sankey](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzU1IDQ4Yy04LjggMC0xNi45IDQuOC0yMS4xIDEyLjVMMjU2LjEgMjAzLjJDMjQ5LjEgMjE2IDIzNS42IDIyNCAyMjEgMjI0TDggMjI0Yy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDIxMyAwYzguOCAwIDE2LjktNC44IDIxLjEtMTIuNUwzMTkuOSA1Mi44QzMyNi45IDQwIDM0MC40IDMyIDM1NSAzMmwyMTMgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOEwzNTUgNDh6TTE3NC42IDMwNGw5NC43IDE0OC45YzQuNCA2LjkgMTIgMTEuMSAyMC4yIDExLjFMNTY4IDQ2NGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMjc4LjQgMGMtMTMuNyAwLTI2LjQtNy0zMy43LTE4LjVMMTU1LjYgMzA0IDggMzA0Yy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDU2MCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC0zOTMuNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![diagram-sankey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/diagram-sankey.svg)
  */
 const DiagramSankey: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

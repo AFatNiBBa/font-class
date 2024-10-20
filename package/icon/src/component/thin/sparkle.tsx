@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sparkle` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sparkle?s=thin sparkle}
- * @preview ![sparkle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ4Yy0xLjYgMC0zIDEtMy42IDIuNEwxNjMuMiAxOTAuOGMtLjggMi0yLjQgMy42LTQuNCA0LjRMMTguNCAyNTIuNGMtMS41IC42LTIuNCAyLTIuNCAzLjZzMSAzIDIuNCAzLjZsMTQwLjQgNTcuMmMyIC44IDMuNiAyLjQgNC40IDQuNGw1Ny4yIDE0MC40Yy42IDEuNSAyIDIuNCAzLjYgMi40czMtMSAzLjYtMi40bDU3LjItMTQwLjRjLjgtMiAyLjQtMy42IDQuNC00LjRsMTQwLjQtNTcuMmMxLjUtLjYgMi40LTIgMi40LTMuNnMtMS0zLTIuNC0zLjZMMjg5LjIgMTk1LjJjLTItLjgtMy42LTIuNC00LjQtNC40TDIyNy42IDUwLjRjLS42LTEuNS0yLTIuNC0zLjYtMi40em0tMTguNC0zLjZDMjA4LjYgMzYuOSAyMTUuOSAzMiAyMjQgMzJzMTUuNCA0LjkgMTguNCAxMi40bDU1LjkgMTM3LjIgMTM3LjIgNTUuOWM3LjUgMy4xIDEyLjQgMTAuMyAxMi40IDE4LjRzLTQuOSAxNS40LTEyLjQgMTguNEwyOTguNCAzMzAuNCAyNDIuNCA0NjcuNmMtMy4xIDcuNS0xMC4zIDEyLjQtMTguNCAxMi40cy0xNS40LTQuOS0xOC40LTEyLjRMMTQ5LjYgMzMwLjQgMTIuNCAyNzQuNEM0LjkgMjcxLjQgMCAyNjQuMSAwIDI1NnM0LjktMTUuNCAxMi40LTE4LjRsMTM3LjItNTUuOUwyMDUuNiA0NC40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sparkle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sparkle.svg)
  */
 const Sparkle: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

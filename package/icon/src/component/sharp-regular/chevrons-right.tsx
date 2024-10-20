@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chevrons-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chevrons-right?s=sharp-regular chevrons-right}
- * @preview ![chevrons-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjczIDIzOWwxNyAxNy0xNyAxN0w4MSA0NjVsLTE3IDE3TDMwLjEgNDQ4bDE3LTE3IDE3NS0xNzVMNDcgODFsLTE3LTE3TDY0IDMwLjEgODEgNDcgMjczIDIzOXptMTkyIDBsMTcgMTctMTcgMTdMMjczIDQ2NWwtMTcgMTdMMjIyLjEgNDQ4bDE3LTE3IDE3NS0xNzVMMjM5IDgxbC0xNy0xN0wyNTYgMzAuMWwxNyAxN0w0NjUgMjM5eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chevrons-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chevrons-right.svg)
  */
 const ChevronsRight: typeof Icon = x => (
     <Icon {...x}>

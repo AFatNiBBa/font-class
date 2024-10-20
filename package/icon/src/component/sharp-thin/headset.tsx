@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `headset` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/headset?s=sharp-thin headset}
- * @preview ![headset](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjU2QzE2IDEyMy41IDEyMy41IDE2IDI1NiAxNnMyNDAgMTA3LjUgMjQwIDI0MGwwIDIwMC4xTDMyMCA0NTZsMC0yNCAwLTE2LTE2IDAtNjQgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhzMjEuNSA0OCA0OCA0OGw2NCAwIDE2IDAgMC0xNiAwLTI0IDE4NCAuMSA4IDAgMC04TDUxMiAyNTZDNTEyIDExNC42IDM5Ny40IDAgMjU2IDBTMCAxMTQuNiAwIDI1NmwwIDU2IDAgOCAxNiAwIDAtOCAwLTU2ek0zMDQgNDY0bDAgOHMwIDAgMCAwbDAgMjQtNjQgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmw2NCAwIDAgMzJ6TTgwIDIwOGw4MCAwIDAgMTYwLTgwIDAgMC0xNjB6TTY0IDE5MmwwIDE2IDAgMTYwIDAgMTYgMTYgMCA4MCAwIDE2IDAgMC0xNiAwLTE2MCAwLTE2LTE2IDAtODAgMC0xNiAwem0zNjggMTZsMCAxNjAtODAgMCAwLTE2MCA4MCAwem0xNi0xNmwtMTYgMC04MCAwLTE2IDAgMCAxNiAwIDE2MCAwIDE2IDE2IDAgODAgMCAxNiAwIDAtMTYgMC0xNjAgMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![headset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/headset.svg)
  */
 const Headset: typeof Icon = x => (
     <Icon {...x}>

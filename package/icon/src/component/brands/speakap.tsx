@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `speakap` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/speakap?s=brands speakap}
- * @preview ![speakap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzkxLjc4Qy0xNS40MSAzMDMuNTktOCAxNjcuNDIgODAuNjQgODcuNjRzMjI0LjgtNzMgMzA0LjIxIDE1LjI0IDcyIDIyNC4zNi0xNi42NCAzMDQuMTRjLTE4Ljc0IDE2Ljg3IDY0IDQzLjA5IDQyIDUyLjI2LTgyLjA2IDM0LjIxLTI1My45MSAzNS0zNDYuMjMtNjcuNXptMjEzLjMxLTIxMS42bDM4LjUtNDAuODZjLTkuNjEtOC44OS0zMi0yNi44My03Ni4xNy0yNy42LTUyLjMzLS45MS05NS44NiAyOC4zLTk2Ljc3IDgwLS4yIDExLjMzLjI5IDM2LjcyIDI5LjQyIDU0LjgzIDM0LjQ2IDIxLjQyIDg2LjUyIDIxLjUxIDg2IDUyLjI2LS4zNyAyMS4yOC0yNi40MiAyNS44MS0zOC41OSAyNS42LTMtLjA1LTMwLjIzLS40Ni00Ny42MS0yNC42MmwtNDAgNDIuNjFjMjguMTYgMjcgNTkgMzIuNjIgODMuNDkgMzMuMDUgMTAuMjMuMTggOTYuNDIuMzMgOTcuODQtODEgLjI4LTE1LjgxLTIuMDctMzkuNzItMjguODYtNTYuNTktMzQuMzYtMjEuNjQtODUtMTkuNDUtODQuNDMtNDkuNzUuNDEtMjMuMjUgMzEtMjUuMzcgMzcuNTMtMjUuMjYuNDMgMCAyNi42Mi4yNiAzOS42MiAxNy4zN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![speakap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/speakap.svg)
  */
 const Speakap: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rss` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rss?s=sharp-thin rss}
- * @preview ![rss](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQ4MEM0NDggMjMyLjYgMjQ3LjQgMzIgMCAzMkwwIDQ4YzIzOC42IDAgNDMyIDE5My40IDQzMiA0MzJsMTYgMHpNMCAxOTJjMTU5LjEgMCAyODggMTI4LjkgMjg4IDI4OGwxNiAwQzMwNCAzMTIuMSAxNjcuOSAxNzYgMCAxNzZsMCAxNnpNMTYgNDE2YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bTExMiAwQTY0IDY0IDAgMSAwIDAgNDE2YTY0IDY0IDAgMSAwIDEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/rss.svg)
  */
 const Rss: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `ban-parking` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-parking?s=duotone ban-parking}
- * @preview ![ban-parking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNjggMjYxLjNsMCAyNi43IDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTI2LjctNjQtNjR6bTE0LjUtMTI0TDIzNy4zIDE5Mmw0Mi43IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJjMCAxMS42LTYuMiAyMS43LTE1LjQgMjcuNEwzNDIuMyAyOTdjMjAuNi0xNy42IDMzLjctNDMuOCAzMy43LTczYzAtNTMtNDMtOTYtOTYtOTZsLTcyIDBjLTkuNyAwLTE4LjYgMy41LTI1LjUgOS4yeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzY3LjIgNDEyLjVMOTkuNSAxNDQuOEM3Ny4xIDE3Ni4xIDY0IDIxNC41IDY0IDI1NmMwIDEwNiA4NiAxOTIgMTkyIDE5MmM0MS41IDAgNzkuOS0xMy4xIDExMS4yLTM1LjV6bTQ1LjMtNDUuM0M0MzQuOSAzMzUuOSA0NDggMjk3LjUgNDQ4IDI1NmMwLTEwNi04Ni0xOTItMTkyLTE5MmMtNDEuNSAwLTc5LjkgMTMuMS0xMTEuMiAzNS41TDQxMi41IDM2Ny4yek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ban-parking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ban-parking.svg)
  */
 const BanParking: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M168 261.3l0 26.7 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-26.7-64-64zm14.5-124L237.3 192l42.7 0c17.7 0 32 14.3 32 32c0 11.6-6.2 21.7-15.4 27.4L342.3 297c20.6-17.6 33.7-43.8 33.7-73c0-53-43-96-96-96l-72 0c-9.7 0-18.6 3.5-25.5 9.2z" />
-            <path d="M367.2 412.5L99.5 144.8C77.1 176.1 64 214.5 64 256c0 106 86 192 192 192c41.5 0 79.9-13.1 111.2-35.5zm45.3-45.3C434.9 335.9 448 297.5 448 256c0-106-86-192-192-192c-41.5 0-79.9 13.1-111.2 35.5L412.5 367.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
+        <path d="M367.2 412.5L99.5 144.8C77.1 176.1 64 214.5 64 256c0 106 86 192 192 192c41.5 0 79.9-13.1 111.2-35.5zm45.3-45.3C434.9 335.9 448 297.5 448 256c0-106-86-192-192-192c-41.5 0-79.9 13.1-111.2 35.5L412.5 367.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
     </Icon>
 );
 

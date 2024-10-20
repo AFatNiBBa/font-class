@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-check-pen` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-check-pen?s=sharp-light money-check-pen}
- * @preview ![money-check-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDk2TDMyIDk2bDAgMzIwIDMwMC43IDAtNSAzMkwzMiA0NDggMCA0NDhsMC0zMkwwIDk2IDAgNjRsMzIgMCA1MTIgMCAzMiAwIDAgMzIgMCA2MC45TDU0OC45IDE4NGwtNC45IDQuOUw1NDQgOTZ6TTM4NCAyODhsMCAzMkw5NiAzMjBsMC0zMiAyODggMHpNOTYgMTkybDM4NCAwIDAgMzJMOTYgMjI0bDAtMzJ6bTQ1Ny4zIDc3LjNMNTMwLjUgMjkyIDU3MiAzMzMuNWwyMi44LTIyLjgtNDEuNS00MS41ek0zOTggNDI0LjVsLTcuNyA0OS4xIDQ5LjEtNy43TDU0OS40IDM1Ni4xbC00MS41LTQxLjVMMzk4IDQyNC41ek02MTcuNCAyODguMUw2NDAgMzEwLjdsLTIyLjYgMjIuNkw0NTQuNyA0OTZsLTY5LjUgMTAuOEwzNTIgNTEybDUuMi0zMy4yTDM2OCA0MDkuMyA1NTMuMyAyMjRsNjQuMSA2NC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![money-check-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/money-check-pen.svg)
  */
 const MoneyCheckPen: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

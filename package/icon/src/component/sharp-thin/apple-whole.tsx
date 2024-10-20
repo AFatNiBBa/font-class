@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `apple-whole` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apple-whole?s=sharp-thin apple-whole}
- * @preview ![apple-whole](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDk2YzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMTYtMTYgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAxNiAxNiAwem0tMzIgMTZsMC0xNiAwLTE2YzAtNDQuMiAzNS44LTgwIDgwLTgwbDE2IDAgMTYgMCAwIDE2IDAgMTZjMCA0NC4yLTM1LjggODAtODAgODBsLTE2IDAtMTYgMHptLTk2IDE2bDExMiAzMiAxMTItMzJjNzYuMyAwIDExMiA4My43IDExMiAxNjBjMCAxMjgtODAgMjI0LTE2MCAyMjRsLTY0LTE2LTY0IDE2QzgwIDUxMiAwIDQxNiAwIDI4OGMwLTc2LjMgMzUuNy0xNjAgMTEyLTE2MHptMTE2LjQgNDcuNGwtNC40IDEuMy00LjQtMS4zTDEwOS45IDE0NGMtMzAuMSAuOC01Mi44IDE3LjMtNjguOCA0My43QzI0LjUgMjE1LjEgMTYgMjUyIDE2IDI4OGMwIDYwLjcgMTkgMTEzLjMgNDYuOCAxNTAuNGMyNy41IDM2LjYgNjIuNCA1Ni44IDk1LjMgNTcuNmw2Mi0xNS41IDMuOS0xIDMuOSAxIDYyIDE1LjVjMzIuOS0uNyA2Ny44LTIwLjkgOTUuMy01Ny42QzQxMyA0MDEuMyA0MzIgMzQ4LjcgNDMyIDI4OGMwLTM2LTguNS03Mi45LTI1LjEtMTAwLjNjLTE2LTI2LjMtMzguNi00Mi45LTY4LjgtNDMuN0wyMjguNCAxNzUuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![apple-whole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/apple-whole.svg)
  */
 const AppleWhole: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

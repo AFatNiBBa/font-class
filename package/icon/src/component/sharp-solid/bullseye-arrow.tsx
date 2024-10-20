@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bullseye-arrow` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bullseye-arrow?s=sharp-solid bullseye-arrow}
- * @preview ![bullseye-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY2LjQgMjEzLjVsMjguNiA0LjhjMy4zIDEyIDUgMjQuNyA1IDM3LjdjMCA3OS41LTY0LjUgMTQ0LTE0NCAxNDRzLTE0NC02NC41LTE0NC0xNDRzNjQuNS0xNDQgMTQ0LTE0NGMxMy4xIDAgMjUuNyAxLjcgMzcuNyA1bDQuOCAyOC42LTMxLjIgMzEuMmMtMy43LS41LTcuNS0uOC0xMS4zLS44Yy00NC4yIDAtODAgMzUuOC04MCA4MHMzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBjMC0zLjgtLjMtNy42LS44LTExLjNsMzEuMi0zMS4yek00NDggMjU2YzAtMTAuOS0uOS0yMS42LTIuNy0zMi4xbDkuMy05LjMgNDMuMS00My4xQzUwNyAxOTggNTEyIDIyNi40IDUxMiAyNTZjMCAxNDEuNC0xMTQuNiAyNTYtMjU2IDI1NlMwIDM5Ny40IDAgMjU2UzExNC42IDAgMjU2IDBjMjkuNiAwIDU4IDUgODQuNSAxNC4zTDI5Ny40IDU3LjRsLTkuMyA5LjNDMjc3LjYgNjQuOSAyNjYuOSA2NCAyNTYgNjRDMTUwIDY0IDY0IDE1MCA2NCAyNTZzODYgMTkyIDE5MiAxOTJzMTkyLTg2IDE5Mi0xOTJ6bS0xMi4zLTY3LjdMNDMyIDE5MmwtNjYuOS0xMS4yTDI2NSAyODEgMjMxIDI0NyAzMzEuMiAxNDYuOSAzMjAgODBsMy43LTMuNyA0OC41LTQ4LjVMNDAwIDBsMjUuNyA2NC40TDQzMiA4MGwxNS42IDYuM0w1MTIgMTEybC0yNy44IDI3LjgtNDguNSA0OC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bullseye-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bullseye-arrow.svg)
  */
 const BullseyeArrow: typeof Icon = x => (
     <Icon {...x}>

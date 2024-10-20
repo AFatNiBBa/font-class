@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `backward` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backward?s=sharp-light backward}
- * @preview ![backward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjguOCAyNzUuMkwwIDI1NmwyOC44LTE5LjJMMjU2IDg1LjMgMjg4IDY0bDAgMzguNSAwIDk1LjlMNDgwIDgzLjIgNTEyIDY0bDAgMzcuMyAwIDMwOS40IDAgMzcuMy0zMi0xOS4yTDI4OCAzMTMuNmwwIDk1LjkgMCAzOC41LTMyLTIxLjNMMjguOCAyNzUuMnpNMjg4IDI3Ni4zTDQ4MCAzOTEuNWwwLTI3MUwyODggMjM1LjdsMCA0MC42ek0yNTYgMzg4LjJsMC0yNjQuNEw1Ny43IDI1NiAyNTYgMzg4LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![backward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/backward.svg)
  */
 const Backward: typeof Icon = x => (
     <Icon {...x}>

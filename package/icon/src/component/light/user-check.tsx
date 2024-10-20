@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-check?s=light user-check}
- * @preview ![user-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyYTk2IDk2IDAgMSAxIDAgMTkyIDk2IDk2IDAgMSAxIDAtMTkyem0wIDIyNEExMjggMTI4IDAgMSAwIDIyNCAwYTEyOCAxMjggMCAxIDAgMCAyNTZ6bS00NS43IDgwbDkxLjQgMGM4MCAwIDE0NSA2NC4zIDE0Ni4zIDE0NEwzMiA0ODBjMS4yLTc5LjcgNjYuMi0xNDQgMTQ2LjMtMTQ0em0wLTMyQzc5LjggMzA0IDAgMzgzLjggMCA0ODIuM0MwIDQ5OC43IDEzLjMgNTEyIDI5LjcgNTEybDM4OC42IDBjMTYuNCAwIDI5LjctMTMuMyAyOS43LTI5LjdDNDQ4IDM4My44IDM2OC4yIDMwNCAyNjkuNyAzMDRsLTkxLjQgMHptNDU3LTExNi43YzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBMNDk2IDI4MS40bC01Mi43LTUyLjdjLTYuMi02LjItMTYuNC02LjItMjIuNiAwcy02LjIgMTYuNCAwIDIyLjZsNjQgNjRjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBsMTI4LTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-check.svg)
  */
 const UserCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

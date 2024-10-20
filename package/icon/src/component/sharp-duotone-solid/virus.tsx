@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `virus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/virus?s=sharp-duotone-solid virus}
- * @preview ![virus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIyNGwwIDMyIDAgMzIgMzIgMCAxMS41IDBjNDkuOSAwIDc0LjkgNjAuMyAzOS42IDk1LjZMNzUgMzkxLjggNTIuNCA0MTQuNCA3NSA0MzdjNy41IDcuNSAxNS4xIDE1LjEgMjIuNiAyMi42TDEyMC4yIDQzN2w4LjItOC4yYzM1LjMtMzUuMyA5NS42LTEwLjMgOTUuNiAzOS42bDAgMTEuNSAwIDMyIDMyIDAgMzIgMCAwLTMyIDAtMTEuNWMwLTQ5LjkgNjAuMy03NC45IDk1LjYtMzkuNmw4LjIgOC4yIDIyLjYgMjIuNkw0MzcgNDM3bDIyLjYtMjIuNkw0MzcgMzkxLjhsLTguMi04LjJjLTM1LjMtMzUuMy0xMC4zLTk1LjYgMzkuNi05NS42bDExLjUgMCAzMiAwIDAtMzIgMC0zMi0zMiAwLTExLjUgMGMtNDkuOSAwLTc0LjktNjAuMy0zOS42LTk1LjZsOC4yLTguMiAyMi42LTIyLjZMNDM3IDc1IDQxNC40IDUyLjQgMzkxLjggNzVsLTguMiA4LjJDMzQ4LjMgMTE4LjQgMjg4IDkzLjQgMjg4IDQzLjVMMjg4IDMybDAtMzJMMjU2IDAgMjI0IDBsMCAzMiAwIDExLjVjMCA0OS45LTYwLjMgNzQuOS05NS42IDM5LjZMMTIwLjIgNzUgOTcuNiA1Mi40IDc1IDc1IDUyLjQgOTcuNiA3NSAxMjAuMmw4LjIgOC4yQzExOC40IDE2My43IDkzLjQgMjI0IDQzLjUgMjI0TDMyIDIyNCAwIDIyNHptMjcyIDBhNDggNDggMCAxIDEgLTk2IDAgNDggNDggMCAxIDEgOTYgMHptNTYgODBhMjQgMjQgMCAxIDEgLTQ4IDAgMjQgMjQgMCAxIDEgNDggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTIyNCAxNzZhNDggNDggMCAxIDAgMCA5NiA0OCA0OCAwIDEgMCAwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/virus.svg)
  */
 const Virus: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 224l0 32 0 32 32 0 11.5 0c49.9 0 74.9 60.3 39.6 95.6L75 391.8 52.4 414.4 75 437c7.5 7.5 15.1 15.1 22.6 22.6L120.2 437l8.2-8.2c35.3-35.3 95.6-10.3 95.6 39.6l0 11.5 0 32 32 0 32 0 0-32 0-11.5c0-49.9 60.3-74.9 95.6-39.6l8.2 8.2 22.6 22.6L437 437l22.6-22.6L437 391.8l-8.2-8.2c-35.3-35.3-10.3-95.6 39.6-95.6l11.5 0 32 0 0-32 0-32-32 0-11.5 0c-49.9 0-74.9-60.3-39.6-95.6l8.2-8.2 22.6-22.6L437 75 414.4 52.4 391.8 75l-8.2 8.2C348.3 118.4 288 93.4 288 43.5L288 32l0-32L256 0 224 0l0 32 0 11.5c0 49.9-60.3 74.9-95.6 39.6L120.2 75 97.6 52.4 75 75 52.4 97.6 75 120.2l8.2 8.2C118.4 163.7 93.4 224 43.5 224L32 224 0 224zm272 0a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm56 80a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-            <path d="M224 176a48 48 0 1 0 0 96 48 48 0 1 0 0-96z" />
+        <path d="M224 176a48 48 0 1 0 0 96 48 48 0 1 0 0-96z" />
     </Icon>
 );
 

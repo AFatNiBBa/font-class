@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-lock?s=sharp-regular user-lock}
- * @preview ![user-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDIwOGE4MCA4MCAwIDEgMCAwLTE2MCA4MCA4MCAwIDEgMCAwIDE2MHpNMjI0IDBhMTI4IDEyOCAwIDEgMSAwIDI1NkExMjggMTI4IDAgMSAxIDIyNCAwek05OS41IDM1Mkw2NSA0NjRsMjU1IDAgNjMgMCAxIDAgMCA0OEw1MC4yIDUxMiAwIDUxMmwxNC44LTQ4TDY0IDMwNGwzMjAgMHMwIDAgMCAwbDAgNDgtMzUuNSAwTDMyMCAzNTIgOTkuNSAzNTJ6TTUyOCAyNDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgNDggNjQgMCAwLTQ4YzAtMTcuNy0xNC4zLTMyLTMyLTMyem0tODAgMzJjMC00NC4yIDM1LjgtODAgODAtODBzODAgMzUuOCA4MCA4MGwwIDQ4IDMyIDAgMCAxOTItMjI0IDAgMC0xOTIgMzIgMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-lock.svg)
  */
 const UserLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

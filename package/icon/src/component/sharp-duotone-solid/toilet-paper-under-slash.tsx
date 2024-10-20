@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `toilet-paper-under-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-under-slash?s=sharp-duotone-solid toilet-paper-under-slash}
- * @preview ![toilet-paper-under-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCAxOTJjMC0xNSAuOS0yOS42IDIuNS00My42TDM2NS41IDM4NCAxNjAgMzg0Yy01MyAwLTk2LTg2LTk2LTE5MnpNOTQuOSA1MC45QzExMiAxOS4zIDEzNC45IDAgMTYwIDBMNDEyLjIgMEM0MDAuNiAxMi4yIDM5MSAyNi45IDM4My41IDQxLjlDMzYzLjUgODIgMzUyIDEzNS4xIDM1MiAxOTJjMCAyMS40IDEuNiA0Mi4zIDQuNyA2Mi4yQzI2OS41IDE4Ni40IDE4Mi4yIDExOC43IDk0LjkgNTAuOXpNMjI0IDQxNmwxODIuMiAwTDUyOCA1MTJsNDggMC0zNTIgMCAwLTk2ek0zODQgMTkyYzAtODMuNiAyNi43LTE1NC43IDY0LTE4MS4xQzQ1OCAzLjggNDY4LjggMCA0ODAgMGM1MyAwIDk2IDg2IDk2IDE5MmMwIDM1LTQuNyA2Ny44LTEyLjggOTZjLTExLjYgMzkuOS0zMC4xIDcwLjgtNTIuMyA4NS45bC0xMTUtODkuM2MtNy42LTI3LjUtMTEuOS01OS0xMS45LTkyLjZ6bTY0IDBjMCAzNS4zIDE0LjMgNjQgMzIgNjRzMzItMjguNyAzMi02NHMtMTQuMy02NC0zMi02NHMtMzIgMjguNy0zMiA2NHptODkgMjAyLjJjMTYuMy0xMy42IDI5LjMtMzIgMzktNTEuMWwwIDgxLjNjLTEzLTEwLjEtMjYtMjAuMi0zOS0zMC4yeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjkuNCAuMWwxOSAxNC43TDYyMC45IDQ1OS4zbDE5IDE0LjctMjkuNCAzNy45LTE5LTE0LjdMMTkgNTIuNyAwIDM4IDI5LjQgLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![toilet-paper-under-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/toilet-paper-under-slash.svg)
  */
 const ToiletPaperUnderSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M64 192c0-15 .9-29.6 2.5-43.6L365.5 384 160 384c-53 0-96-86-96-192zM94.9 50.9C112 19.3 134.9 0 160 0L412.2 0C400.6 12.2 391 26.9 383.5 41.9C363.5 82 352 135.1 352 192c0 21.4 1.6 42.3 4.7 62.2C269.5 186.4 182.2 118.7 94.9 50.9zM224 416l182.2 0L528 512l48 0-352 0 0-96zM384 192c0-83.6 26.7-154.7 64-181.1C458 3.8 468.8 0 480 0c53 0 96 86 96 192c0 35-4.7 67.8-12.8 96c-11.6 39.9-30.1 70.8-52.3 85.9l-115-89.3c-7.6-27.5-11.9-59-11.9-92.6zm64 0c0 35.3 14.3 64 32 64s32-28.7 32-64s-14.3-64-32-64s-32 28.7-32 64zm89 202.2c16.3-13.6 29.3-32 39-51.1l0 81.3c-13-10.1-26-20.2-39-30.2z" />
-            <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
+        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
     </Icon>
 );
 

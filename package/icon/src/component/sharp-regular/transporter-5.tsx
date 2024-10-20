@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `transporter-5` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-5?s=sharp-regular transporter-5}
- * @preview ![transporter-5](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDBsMTYgMzIgMzIgMTZMNDgwIDY0IDQ2NCA5NiA0NDggNjQgNDE2IDQ4bDMyLTE2TDQ2NCAwek00OCAxMjhsMTYgMzIgMzIgMTZMNjQgMTkyIDQ4IDIyNCAzMiAxOTIgMCAxNzZsMzItMTYgMTYtMzJ6TTk2IDQ2NGwyNCAwIDI3MiAwIDI0IDAgMCA0OC0yNCAwLTI3MiAwLTI0IDAgMC00OHpNMjI0IDBsNjQgMCAxNiAwIDAgMzItMTYgMC02NCAwLTE2IDAgMC0zMiAxNiAwek0xNzYgMTI4bDE2MCAwIDE2IDAgMCAzMi0xNiAwLTE2MCAwLTE2IDAgMC0zMiAxNiAwek0xMTIgMjU2bDI4OCAwIDE2IDAgMCAzMi0xNiAwLTI4OCAwLTE2IDAgMC0zMiAxNiAwem02NCAxMjhsMTYwIDAgMTYgMCAwIDMyLTE2IDAtMTYwIDAtMTYgMCAwLTMyIDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![transporter-5](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/transporter-5.svg)
  */
 const Transporter_5: typeof Icon = x => (
     <Icon {...x}>

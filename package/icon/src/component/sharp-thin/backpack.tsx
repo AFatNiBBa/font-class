@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `backpack` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backpack?s=sharp-thin backpack}
- * @preview ![backpack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBsOCAwTDI5NiAwbDggMCAwIDggMCA3MiAxNiAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4bDAgMjg4IDAgMTYtMTYgMC02NCAwLTE2IDBMOTYgNTEybC0xNiAwLTY0IDBMMCA1MTJsMC0xNkwwIDIwOEMwIDEzNy4zIDU3LjMgODAgMTI4IDgwbDE2IDAgMC03MiAwLTh6TTk2IDQ5NmwyNTYgMCAwLTEwNEw5NiAzOTJsMCAxMDR6bTI3MiAwbDY0IDAgMC0yODhjMC02MS45LTUwLjEtMTEyLTExMi0xMTJMMTI4IDk2QzY2LjEgOTYgMTYgMTQ2LjEgMTYgMjA4bDAgMjg4IDY0IDAgMC0xMTIgMC04OCAwLTggOCAwIDI3MiAwIDggMCAwIDggMCA4OCAwIDExMnpNMjg4IDE2TDE2MCAxNmwwIDY0IDEyOCAwIDAtNjR6TTEzNiAxOTJsMTc2IDAgOCAwIDAgMTYtOCAwLTE3NiAwLTggMCAwLTE2IDggMHpNMzUyIDM3NmwwLTcyTDk2IDMwNGwwIDcyIDI1NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![backpack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/backpack.svg)
  */
 const Backpack: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

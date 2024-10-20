@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-ampersand` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-ampersand?s=sharp-regular circle-ampersand}
- * @preview ![circle-ampersand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YTIwOCAyMDggMCAxIDEgMCA0MTYgMjA4IDIwOCAwIDEgMSAwLTQxNnptMCA0NjRBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xNjggMTI4bDAgMjQgMCAzNi43YzAgMTguNiA3LjIgMzYuNCAyMCA0OS44bDcuMyA3LjctMjEuOSAxNi4xYy0xOC41IDEzLjYtMjkuNCAzNS4xLTI5LjQgNTguMWwwIDM5LjcgMCAyNCAyNCAwIDg4IDAgMTYgMCAxMi42IDAgNy4yLTEwLjMgMTAuOC0xNS42TDMyNy40IDM4NGw2Ni4xIDBjLS43LS45LTEuNC0xLjgtMi4yLTIuNmwtNjAuOS02My42IDMzLjMtNDguMSAxMy43LTE5LjctMzkuNS0yNy4zLTEzLjcgMTkuNy0yNy43IDQwLjEtMjguNi0yOS45IDE4LTEzLjJjMTYuNC0xMi4xIDI2LjItMzEuMiAyNi4yLTUxLjZsMC0zNS43IDAtMjQtMjQgMC05NiAwLTI0IDB6bTY2LjQgODkuNmwtMTEuNy0xMi4yYy00LjMtNC41LTYuNy0xMC40LTYuNy0xNi42bDAtMTIuNyA0OCAwIDAgMTEuN2MwIDUuMS0yLjQgOS45LTYuNSAxMi45bC0yMy4xIDE2Ljl6bS01LjYgNjMuNmwzOS44IDQxLjVMMjU5LjQgMzM2IDE5MiAzMzZsMC0xNS43YzAtNy42IDMuNi0xNC44IDkuOC0xOS40bDI3LTE5Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/circle-ampersand.svg)
  */
 const CircleAmpersand: typeof Icon = x => (
     <Icon {...x}>

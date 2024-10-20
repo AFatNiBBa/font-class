@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-garage` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-garage?s=solid car-garage}
- * @preview ![car-garage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQzLjggOC44Yy0xNC44LTguNC0zMi45LTguNC00Ny42IDBMMjQuMSAxNjQuMkM4LjggMTczIDMuNSAxOTIuNSAxMi4yIDIwNy45czI4LjMgMjAuNyA0My43IDExLjlMMzIwIDY4LjkgNTg0LjEgMjE5LjhjMTUuMyA4LjggMzQuOSAzLjQgNDMuNy0xMS45czMuNC0zNC45LTExLjktNDMuN0wzNDMuOCA4Ljh6TTI0OS44IDIyNGwxNDAuMyAwYzYuOCAwIDEyLjggNC4zIDE1LjEgMTAuNkw0MjQuMyAyODhsLTIwOC42IDAgMTkuMS01My40YzIuMy02LjQgOC4zLTEwLjYgMTUuMS0xMC42em0tNzUuMy0xMC45bC0yOC4zIDc5LjNDMTI2LjEgMzAwLjkgMTEyIDMyMC44IDExMiAzNDRsMCA0MCAwIDY0IDAgMzJjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTMyIDI1NiAwIDAgMzJjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTMyIDAtNjQgMC00MGMwLTIzLjItMTQuMS00My4xLTM0LjItNTEuNmwtMjguMy03OS4zQzQ1NC4xIDE4MS4zIDQyNCAxNjAgMzkwLjIgMTYwbC0xNDAuMyAwYy0zMy44IDAtNjQgMjEuMy03NS4zIDUzLjF6TTE5MiAzNDRhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4em0yMzIgMjRhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![car-garage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/car-garage.svg)
  */
 const CarGarage: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-caret-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-caret-left?s=solid square-caret-left}
- * @preview ![square-caret-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMjBjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNnpNMTI4IDI1NmMwLTYuNyAyLjgtMTMgNy43LTE3LjZsMTEyLTEwNGM3LTYuNSAxNy4yLTguMiAyNS45LTQuNHMxNC40IDEyLjUgMTQuNCAyMmwwIDIwOGMwIDkuNS01LjcgMTguMi0xNC40IDIycy0xOC45IDIuMS0yNS45LTQuNGwtMTEyLTEwNGMtNC45LTQuNS03LjctMTAuOS03LjctMTcuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-caret-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-caret-left.svg)
  */
 const SquareCaretLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

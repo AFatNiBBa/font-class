@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-code` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-code?s=sharp-solid message-code}
- * @preview ![message-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDUxMiAwbDAgNDE2LTIwOCAwTDE2MCA1MTJsMC05NkwwIDQxNiAwIDB6TTIxNyAxNjFsMTctMTdMMjAwIDExMC4xbC0xNyAxNy02NCA2NC0xNyAxNyAxNyAxNyA2NCA2NCAxNyAxN0wyMzMuOSAyNzJsLTE3LTE3LTQ3LTQ3IDQ3LTQ3ek0zMjkgMTI3bC0xNy0xN0wyNzguMSAxNDRsMTcgMTcgNDcgNDctNDcgNDctMTcgMTdMMzEyIDMwNS45bDE3LTE3IDY0LTY0IDE3LTE3LTE3LTE3LTY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![message-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/message-code.svg)
  */
 const MessageCode: typeof Icon = x => (
     <Icon {...x}>

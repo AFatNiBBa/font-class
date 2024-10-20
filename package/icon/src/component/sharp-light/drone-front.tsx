@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `drone-front` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drone-front?s=sharp-light drone-front}
- * @preview ![drone-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDk2bDAgMTYgMCAxNiAxMTIgMCAxNiAwIDAgMzItMTYgMEwxNiAxNjAgMCAxNjBsMC0zMiAxNiAwIDExMiAwIDAtMTYgMC0xNiAzMiAwem0zNTIgMGwwIDE2IDAgMTYgMTEyIDAgMTYgMCAwIDMyLTE2IDAtMjU2IDAtMTYgMCAwLTMyIDE2IDAgMTEyIDAgMC0xNiAwLTE2IDMyIDB6TTEyOCAyNTZsMC02NCAzMiAwIDAgNTUuMSAxMi42IDcuOSA1MC42LTMzLjdDMjUxLjkgMjAyLjIgMjg1LjUgMTkyIDMyMCAxOTJzNjguMSAxMC4yIDk2LjggMjkuM0w0NjcuNCAyNTVsMTIuNi03LjkgMC01NS4xIDMyIDAgMCA2NCAwIDguOS03LjUgNC43LTMzLjcgMjEtMi40IDMuNi0xLjYtMS4xLTIwLjQgMTIuOCAyOS45IDM1LjkgMy43IDQuNSAwIDUuOCAwIDQ4IDAgMTYtMzIgMCAwLTE2IDAtNDIuMkw0MTkgMzIzbC00Mi41IDI2LjYtMy45IDIuNC00LjYgMC05NiAwLTQuNiAwLTMuOS0yLjRMMjIxIDMyM2wtMjkgMzQuOCAwIDQyLjIgMCAxNi0zMiAwIDAtMTYgMC00OCAwLTUuOCAzLjctNC41IDI5LjktMzUuOS0yMC40LTEyLjgtMS42IDEuMS0yLjQtMy42LTMzLjYtMjEtNy41LTQuNyAwLTguOXptNzQuNCAxNy42TDI3Ni42IDMyMGw4Ni44IDAgNzQuMi00Ni40LTM4LjUtMjUuN0MzNzUuNyAyMzIuMyAzNDguMSAyMjQgMzIwIDIyNHMtNTUuNiA4LjMtNzkuMSAyMy45bC0zOC41IDI1Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![drone-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/drone-front.svg)
  */
 const DroneFront: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

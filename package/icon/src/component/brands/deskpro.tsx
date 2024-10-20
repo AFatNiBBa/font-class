@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `deskpro` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/deskpro?s=brands deskpro}
- * @preview ![deskpro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA1LjkgNTEybDMxLjEtMzguNGMxMi4zLS4yIDI1LjYtMS40IDM2LjUtNi42IDM4LjktMTguNiAzOC40LTYxLjkgMzguMy02My44LS4xLTUtLjgtNC40LTI4LjktMzcuNEgzNjJjLS4yIDUwLjEtNy4zIDY4LjUtMTAuMiA3NS43LTkuNCAyMy43LTQzLjkgNjIuOC05NS4yIDY5LjQtOC43IDEuMS0zMi44IDEuMi01MC43IDEuMXptMjAwLjQtMTY3LjdjMzguNiAwIDU4LjUtMTMuNiA3My43LTMwLjlsLTE3NS41LS4zLTE3LjQgMzEuMyAxMTkuMi0uMXptLTQzLjYtMjIzLjl2MTY4LjNoLTczLjVsLTMyLjcgNTUuNUgyNTBjLTUyLjMgMC01OC4xLTU2LjUtNTguMy01OC45LTEuMi0xMy4yLTIxLjMtMTEuNi0yMC4xIDEuOCAxLjQgMTUuOCA4LjggNDAgMjYuNCA1Ny4xaC05MWMtMjUuNSAwLTExMC44LTI2LjgtMTA3LTExNFYxNi45QzAgLjkgOS43LjMgMTUgLjFoODJjLjIgMCAuMy4xLjUuMSA0LjMtLjQgNTAuMS0yLjEgNTAuMSA0My43IDAgMTMuMyAyMC4yIDEzLjQgMjAuMiAwIDAtMTguMi01LjUtMzIuOC0xNS44LTQzLjdoODQuMmMxMDguNy0uNCAxMjYuNSA3OS40IDEyNi41IDEyMC4yem0tMTMyLjUgNTZsNjQgMjkuM2MxMy4zLTQ1LjUtNDIuMi03MS43LTY0LTI5LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![deskpro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/deskpro.svg)
  */
 const Deskpro: typeof Icon = x => (
     <Icon viewBox="0 0 480 512" {...x}>

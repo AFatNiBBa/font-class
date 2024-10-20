@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-arrow-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-arrow-right?s=sharp-light truck-arrow-right}
- * @preview ![truck-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMybDAgMzUyLTEzMy41IDBjLTEzLjItMzcuMy00OC43LTY0LTkwLjUtNjRzLTc3LjQgMjYuNy05MC41IDY0TDMyIDM4NCAzMiAzMmwzNTIgMHpNMzIgNDE2bDMyIDBjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwxMjggMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDMyIDAgMTYgMCAxNiAwIDAtMzItMTYgMC0xNiAwIDAtMTYwIDAtNS45LTMuOS00LjUtOTYtMTEyTDUwMy40IDk2IDQ5NiA5NmwtODAgMCAwLTY0IDAtMzJMMzg0IDAgMzIgMCAwIDAgMCAzMiAwIDM4NGwwIDMyIDMyIDB6TTQ4OC42IDEyOGw4Mi4zIDk2TDQxNiAyMjRsMC05NiA3Mi42IDB6TTQxNiAzNDQuNGwwLTg4LjQgMTYwIDAgMCAxMjgtNS41IDBjLTEzLjItMzcuMy00OC43LTY0LTkwLjUtNjRjLTI0LjYgMC00NyA5LjItNjQgMjQuNHpNMTYwIDM1MmE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHptMjU2IDY0YTY0IDY0IDAgMSAxIDEyOCAwIDY0IDY0IDAgMSAxIC0xMjggMHpNMjM1LjMgODQuN0wyMjQgNzMuNCAyMDEuNCA5NmwxMS4zIDExLjNMMjY1LjQgMTYwIDExMiAxNjBsLTE2IDAgMCAzMiAxNiAwIDE1My40IDAtNTIuNyA1Mi43TDIwMS40IDI1NiAyMjQgMjc4LjZsMTEuMy0xMS4zIDgwLTgwTDMyNi42IDE3NmwtMTEuMy0xMS4zLTgwLTgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-arrow-right.svg)
  */
 const TruckArrowRight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

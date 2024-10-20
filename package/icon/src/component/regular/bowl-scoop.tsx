@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-scoop` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-scoop?s=regular bowl-scoop}
- * @preview ![bowl-scoop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjI0bDM4NCAwYzAtMTA2LTg2LTE5Mi0xOTItMTkyUzMyIDExOCAzMiAyMjR6TTE3My44IDM2OGwtMi4yIDBMMTQ1IDM2OGMtNDEuNCAwLTc3LjItMjYuMy05MC41LTY0bDMzOS4xIDBjLTEzLjMgMzcuNy00OS4xIDY0LTkwLjUgNjRsLTI2LjcgMC0yLjIgMC0xMDAuMyAwem0zNi45IDc4LjdMMjI0IDQzMC44bDEzLjMgMTUuOUwyNTEuNyA0NjRsLTU1LjQgMCAxNC40LTE3LjN6bTkyLjMgMy45TDI3NC4yIDQxNmwyOC44IDBjMTAuNiAwIDIwLjktMS4xIDMwLjktMy4zYzU4LjUtMTIuOCAxMDQuMy02MS4yIDExMi0xMjIuOGwyLTE1LjljLjYtNC42LS44LTkuMS0zLjktMTIuNnMtNy40LTUuNC0xMi01LjRMMTYgMjU2Yy00LjYgMC05IDItMTIgNS40cy00LjUgOC0zLjkgMTIuNmwyIDE1LjljNy43IDYxLjYgNTMuNSAxMTAgMTEyIDEyMi44YzEwIDIuMiAyMC4zIDMuMyAzMC45IDMuM2wyOC44IDBMMTQ1IDQ1MC42bC0xMC45IDEzLjEtLjMgLjMtLjQgLjVMMTI4IDQ3MWwtMTIuMyAxNC43Yy00IDQuOC00LjggMTEuNC0yLjIgMTdzOC4zIDkuMiAxNC41IDkuMmwxOS4yIDAgOC41IDAgLjYgMCAxMzUuNCAwIC42IDAgOC41IDAgMTkuMiAwYzYuMiAwIDExLjktMy42IDE0LjUtOS4yczEuOC0xMi4zLTIuMi0xN0wzMjAgNDcxbC01LjUtNi41LS40LS41LS4zLS4zTDMwMyA0NTAuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bowl-scoop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bowl-scoop.svg)
  */
 const BowlScoop: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

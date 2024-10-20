@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `draw-square` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-square?s=sharp-thin draw-square}
- * @preview ![draw-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTEyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptOCAxNS4zbDAgMjU3LjNDNzYuMSAzODggOTIgNDAzLjkgOTUuMyA0MjRsMjU3LjMgMGMzLjQtMjAuMSAxOS4yLTM2IDM5LjMtMzkuM2wwLTI1Ny4zYy0yMC4xLTMuNC0zNi0xOS4yLTM5LjMtMzkuM0w5NS4zIDg4QzkyIDEwOC4xIDc2LjEgMTI0IDU2IDEyNy4zek05NS4zIDQ0MGMtMy44IDIyLjctMjMuNiA0MC00Ny4zIDQwYy0yNi41IDAtNDgtMjEuNS00OC00OGMwLTIzLjggMTcuMy00My41IDQwLTQ3LjNsMC0yNTcuM0MxNy4zIDEyMy41IDAgMTAzLjggMCA4MEMwIDUzLjUgMjEuNSAzMiA0OCAzMmMyMy44IDAgNDMuNSAxNy4zIDQ3LjMgNDBsMjU3LjMgMGMzLjgtMjIuNyAyMy42LTQwIDQ3LjMtNDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhjMCAyMy44LTE3LjMgNDMuNS00MCA0Ny4zbDAgMjU3LjNjMjIuNyAzLjggNDAgMjMuNiA0MCA0Ny4zYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4Yy0yMy44IDAtNDMuNS0xNy4zLTQ3LjMtNDBMOTUuMyA0NDB6TTgwIDQzMmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0zNTIgMGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0wLTM1MmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![draw-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/draw-square.svg)
  */
 const DrawSquare: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

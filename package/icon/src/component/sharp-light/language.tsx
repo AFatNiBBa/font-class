@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `language` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/language?s=sharp-light language}
- * @preview ![language](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgOTZsMCAzMjAgMjcyIDAgMC0zMjBMMzIgOTZ6TTMzNiA0MTZsMjcyIDAgMC0zMjBMMzM2IDk2bDAgMzIwek02MDggNjRsMzIgMCAwIDMyIDAgMzIwIDAgMzItMzIgMEwzMiA0NDggMCA0NDhsMC0zMkwwIDk2IDAgNjRsMzIgMCA1NzYgMHpNNDk2IDE2MGwwIDE2IDAgMTYgNDggMCAxNiAwIDE2IDAgMCAzMi0xNiAwLTYuMSAwLTQxLjggODMuN2MxLjcgMS4xIDMuNSAyLjIgNS4zIDMuM2wxOC45IDExLjMgMTMuNyA4LjJMNTMzLjUgMzU4bC0xMy43LTguMi0xOC45LTExLjNjLTUuNi0zLjQtMTEtNy0xNi4zLTEwLjhsLTQ1LjQgMjIuNy0xNC4zIDcuMi0xNC4zLTI4LjYgMTQuMy03LjJMNDU4LjMgMzA1bC0yMS42LTIxLjZMNDI1LjQgMjcyIDQ0OCAyNDkuNGwxMS4zIDExLjMgMjIuNiAyMi42YzEuNSAxLjUgMi45IDIuOSA0LjQgNC4zTDUxOC4xIDIyNCA0ODAgMjI0bC04MCAwLTE2IDAgMC0zMiAxNiAwIDY0IDAgMC0xNiAwLTE2IDMyIDB6bS0zNDYuNyAwbDIxLjUgMCA0LjEgOS45IDcyIDE3NiAyLjUgNi4xLTM0LjYgMC0xMy4xLTMyLjFjLS41IC4xLTEuMSAuMS0xLjYgLjFsLTgwIDBjLS41IDAtMS4xIDAtMS42LS4xTDEwNS4zIDM1MmwtMzQuNiAwIDIuNS02LjEgNzItMTc2IDQuMS05Ljl6TTE2MCAyMTguM0wxMzEuNSAyODhsNTcuMSAwTDE2MCAyMTguM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![language](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/language.svg)
  */
 const Language: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

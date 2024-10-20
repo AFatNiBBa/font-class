@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-nib-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-nib-slash?s=regular pen-nib-slash}
- * @preview ![pen-nib-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w0NDguNiAzMjYuMyA0NzYuMiAyMjVsMTAuNC0xMC40IDcxLTcxYzIxLjktMjEuOSAyMS45LTU3LjMgMC03OS4yTDUxMS42IDE4LjNjLTIxLjktMjEuOS01Ny4zLTIxLjktNzkuMiAwbC03MSA3MUwzNTEgOTkuOCAyMDkgMTM4LjUgMzguOCA1LjF6TTI1Ni4xIDE3NS40bDEwNC44LTI4LjYgNjguMyA2OC4zLTIxLjYgNzkuMUwyNTYuMSAxNzUuNHpNMjcyIDM1MmMxMy41IDAgMjUuNy01LjYgMzQuNC0xNC42bC03NS01OS4xYy00LjcgNy40LTcuNCAxNi4yLTcuNCAyNS43YzAgNy40IDEuNyAxNC40IDQuNyAyMC43TDEyNi41IDQyNi45bDYzLjYtMTgxLjEtMzkuOC0zMS40TDcxIDQ0MGMtNi41IDE4LjUtMS44IDM5LjEgMTIgNTIuOXMzNC40IDE4LjUgNTIuOSAxMmwyNjQuMS05Mi44IC44LS4zLTQ0LjctMzUuMkwxNDkuMSA0NDkuNSAyNTEuMyAzNDcuM2M2LjMgMyAxMy4zIDQuNyAyMC43IDQuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pen-nib-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pen-nib-slash.svg)
  */
 const PenNibSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

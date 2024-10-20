@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sleigh` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sleigh?s=sharp-light sleigh}
- * @preview ![sleigh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJMMCAzMiAwIDY0bDE2IDAgMTYgMCAwIDE5MmMwIDU5LjYgNDAuOCAxMDkuOCA5NiAxMjRsMCA2OC04MCAwLTE2IDAgMCAzMiAxNiAwIDU3NiAwIDE2IDAgMC0xNiAwLTgwIDAtMTYtMzIgMCAwIDE2IDAgNjQtMTYwIDAgMC02NGM3MC43IDAgMTI4LTU3LjMgMTI4LTEyOGwwLTEyOCAxNiAwIDE2IDAgMC0zMi0xNiAwLTE2IDAtMzIgMC0xNiAwLTQ4IDAtMzIgMCAwIDMyIDAgNjQgMCAzMi0zMiAwLTYuNiAwYy04MC41IDAtMTU1LjMtNDEuNS0xOTgtMTA5LjdDMTc5LjYgNjMuNCAxMjQgMzIuNCA2NCAzMmwtMSAwLTcgMEwzMiAzMiAxNiAzMnpNNDE2IDQ0OGwtMjU2IDAgMC02NCAyNTYgMCAwIDY0ek01MjggMTI4bDE2IDAgMCAxMjhjMCA1My00MyA5Ni05NiA5NmwtMjg4IDBjLTUzIDAtOTYtNDMtOTYtOTZMNjQgNjRjNDguOSAuNCA5NC4zIDI1LjcgMTIwLjMgNjcuMkMyMzIuOCAyMDguOSAzMTcuOSAyNTYgNDA5LjQgMjU2bDM4LjYgMCAzMiAwIDAtMzIgMC05NiA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sleigh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sleigh.svg)
  */
 const Sleigh: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

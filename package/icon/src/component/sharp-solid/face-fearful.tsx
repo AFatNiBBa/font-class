@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-fearful` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-fearful?s=sharp-solid face-fearful}
- * @preview ![face-fearful](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6bTAtMTkyYzQ0LjIgMCA4MCAzNS44IDgwIDgwbDAgMTYtMTYwIDAgMC0xNmMwLTQ0LjIgMzUuOC04MCA4MC04MHpNOTYgMjI0YTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDk2IDIyNHptMjU2LTY0YTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4ek0xNzYgMTEyYy00LjQgMC04LjggLjMtMTMgLjljLTIxLjIgMi44LTQwLjYgMTIuNC01Ni4xIDI2LjhMOTUuMiAxNTAuNiA3My40IDEyNy4ybDExLjctMTAuOWMyMC4xLTE4LjcgNDUuNS0zMS41IDczLjctMzUuMmM1LjYtLjcgMTEuNC0xLjEgMTcuMi0xLjFsMTYgMCAwIDMyLTE2IDB6bTE3MyAuOWMtNC4zLS42LTguNi0uOS0xMy0uOWwtMTYgMCAwLTMyIDE2IDBjNS44IDAgMTEuNiAuNCAxNy4yIDEuMWMyOC4yIDMuNyA1My43IDE2LjQgNzMuNyAzNS4ybDExLjcgMTAuOS0yMS44IDIzLjQtMTEuNy0xMC45Yy0xNS41LTE0LjUtMzQuOC0yNC01Ni4xLTI2Ljh6TTE5Mi40IDIyNGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0xNjAgMzJhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-fearful](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-fearful.svg)
  */
 const FaceFearful: typeof Icon = x => (
     <Icon {...x}>

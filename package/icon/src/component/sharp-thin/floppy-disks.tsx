@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `floppy-disks` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disks?s=sharp-thin floppy-disks}
- * @preview ![floppy-disks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNDE2bDE2IDAgMzg0IDAgMTYgMCAwLTE2IDAtMjg4TDQwMCAwIDE3NiAwIDE2MCAwIDExMiAwIDk2IDBsMCAxNiAwIDM4NCAwIDE2ek0xMTIgMTZsNDggMCAwIDEyMCAwIDggOCAwIDIwOCAwIDggMCAwLTggMC0xMjAgOS40IDBMNDk2IDExOC42IDQ5NiA0MDBsLTM4NCAwIDAtMzg0ek0zNjggMTI4bC0xOTIgMCAwLTExMiAxOTIgMCAwIDExMnpNMjQwIDI3MmE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6bTE0NCAwYTgwIDgwIDAgMSAwIC0xNjAgMCA4MCA4MCAwIDEgMCAxNjAgMHpNMTYgOTZMMCA5NmwwIDE2TDAgNDk2bDAgMTYgMTYgMCAzODQgMCAxNiAwIDAtMTYgMC00OC0xNiAwIDAgNDhMMTYgNDk2bDAtMzg0IDQ4IDAgMC0xNkwxNiA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![floppy-disks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/floppy-disks.svg)
  */
 const FloppyDisks: typeof Icon = x => (
     <Icon {...x}>

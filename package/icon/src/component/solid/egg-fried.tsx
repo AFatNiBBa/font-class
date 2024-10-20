@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `egg-fried` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/egg-fried?s=solid egg-fried}
- * @preview ![egg-fried](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg0LjMgMzkuM2MzMC40IDMxLjYgODkuMSA2NS45IDEzMS41IDc2LjdjMjcuNSA3IDUyLjggMjMuMiA3MSA0Ny44YzQyLjEgNTYuOCAzMC4yIDEzNy0yNi42IDE3OS4xYy0xNy44IDEzLjItMzcuOSAyMS4xLTU4LjQgMjRjLTM3LjIgNS4yLTg0LjUgMzIuNy0xMDMuMyA2NS4yYy00NC4yIDc2LjUtMTQyIDEwMi43LTIxOC42IDU4LjZTLTIyLjcgMzQ4LjUgMjEuNCAyNzJjMjQuOC00Mi45IDM4LjctMTA1LjkgNDMuMS0xNTUuMkM2Ny4xIDg3IDgwLjEgNTggMTAzLjMgMzUuN2M1MS00OSAxMzItNDcuNCAxODEgMy42ek0zMzYgMjQwYTExMiAxMTIgMCAxIDAgLTIyNCAwIDExMiAxMTIgMCAxIDAgMjI0IDB6bS0xNjAtOGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmMwLTM5LjggMzIuMi03MiA3Mi03MmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmMtMjIuMSAwLTQwIDE3LjktNDAgNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![egg-fried](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/egg-fried.svg)
  */
 const EggFried: typeof Icon = x => (
     <Icon {...x}>

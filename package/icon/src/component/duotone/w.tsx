@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `w` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/w?s=duotone w}
- * @preview ![w](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yMC44IDM0YzE2LjUtNi4yIDM1IDIuMiA0MS4yIDE4LjdsMTEwLjIgMjk0TDI1Ny4zIDU1YzQtMTMuNyAxNi41LTIzIDMwLjctMjNzMjYuNyA5LjQgMzAuNyAyM2w4NS4xIDI5MS43TDUxNCA1Mi44YzYuMi0xNi41IDI0LjYtMjQuOSA0MS4yLTE4LjdzMjQuOSAyNC43IDE4LjcgNDEuMmwtMTQ0IDM4NGMtNC44IDEyLjktMTcuNCAyMS4zLTMxLjIgMjAuN3MtMjUuNy05LjgtMjkuNS0yM0wyODggMTc4LjMgMjA2LjcgNDU3Yy0zLjkgMTMuMi0xNS44IDIyLjUtMjkuNSAyM3MtMjYuMy03LjgtMzEuMi0yMC43TDIgNzUuMkMtNC4yIDU4LjcgNC4yIDQwLjIgMjAuOCAzNHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/w.svg)
  */
 const W: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

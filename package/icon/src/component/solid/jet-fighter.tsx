@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jet-fighter` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jet-fighter?s=solid jet-fighter}
- * @preview ![jet-fighter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDI0YzAtMTMuMyAxMC43LTI0IDI0LTI0TDI5NiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0xNiAwTDM4NCAxOTJsMTE2LjQgMGM3LjcgMCAxNS4zIDEuNCAyMi41IDQuMUw2MjUgMjM0LjRjOSAzLjQgMTUgMTIgMTUgMjEuNnMtNiAxOC4yLTE1IDIxLjZMNTIyLjkgMzE1LjljLTcuMiAyLjctMTQuOCA0LjEtMjIuNSA0LjFMMzg0IDMyMCAyODAgNDY0bDE2IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTExMiAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0bDggMCAwLTE0NC0zMiAwLTU0LjYgNTQuNmMtNiA2LTE0LjEgOS40LTIyLjYgOS40TDY0IDM4NGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmwwLTY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDE4LjcgMGM4LjUgMCAxNi42IDMuNCAyMi42IDkuNEwxNjAgMTkybDMyIDAgMC0xNDQtOCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHpNODAgMjQwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDY0IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![jet-fighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/jet-fighter.svg)
  */
 const JetFighter: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

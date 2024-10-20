@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blinds-open` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blinds-open?s=sharp-thin blinds-open}
- * @preview ![blinds-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDE2bDAgNjRMMTUyIDgwbC0xNiAwTDE2IDgwbDAtNjQgNDgwIDB6TTE2IDk2bDEyMCAwIDAgODAgMCAxNiAwIDY0LjdjLTIyLjcgMy44LTQwIDIzLjYtNDAgNDcuM2MwIDEyLjMgNC42IDIzLjUgMTIuMiAzMmMuNiAuNyAxLjIgMS4zIDEuOCAxLjljOC43IDguNyAyMC43IDE0LjEgMzMuOSAxNC4xYzE0LjIgMCAyNy02LjIgMzUuOC0xNmM3LjYtOC41IDEyLjItMTkuNyAxMi4yLTMyYzAtMjMuOC0xNy4zLTQzLjUtNDAtNDcuM2wwLTY0LjcgMC0xNiAwLTgwIDM0NCAwIDE2IDAgMC0xNiAwLTY0IDAtMTZMNDk2IDAgMTYgMCAwIDAgMCAxNiAwIDgwIDAgOTZsMTYgMHpNMTQ0IDI3MmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6TTggMTc2bC04IDAgMCAxNiA4IDAgOTYgMCAwLTE2TDggMTc2ek04IDMzNmwtOCAwIDAgMTYgOCAwIDcyIDBjLTMuNy00LjktNi44LTEwLjMtOS4zLTE2TDggMzM2em00OTYgMTZsOCAwIDAtMTYtOCAwLTI4Ni43IDBjLTIuNSA1LjctNS42IDExLjEtOS4zIDE2bDI5NiAwem0wLTE2MGw4IDAgMC0xNi04IDAtMzIwIDAgMCAxNiAzMjAgMHpNMCA0OTZsMCAxNiA4IDAgNDk2IDAgOCAwIDAtMTYtOCAwTDggNDk2bC04IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![blinds-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/blinds-open.svg)
  */
 const BlindsOpen: typeof Icon = x => (
     <Icon {...x}>

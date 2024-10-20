@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-list` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-list?s=sharp-light rectangle-list}
- * @preview ![rectangle-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgNTEyIDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCA1MTIgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnpNMTA0IDE2MGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwem04OC0xNmwxNiAwIDI1NiAwIDE2IDAgMCAzMi0xNiAwLTI1NiAwLTE2IDAgMC0zMnptMCA5NmwxNiAwIDI1NiAwIDE2IDAgMCAzMi0xNiAwLTI1NiAwLTE2IDAgMC0zMnptMCA5NmwxNiAwIDI1NiAwIDE2IDAgMCAzMi0xNiAwLTI1NiAwLTE2IDAgMC0zMnptLTY0LTU2YTI0IDI0IDAgMSAxIDAtNDggMjQgMjQgMCAxIDEgMCA0OHptLTI0IDcyYTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rectangle-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/rectangle-list.svg)
  */
 const RectangleList: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

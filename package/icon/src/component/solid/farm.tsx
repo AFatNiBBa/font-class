@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `farm` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/farm?s=solid farm}
- * @preview ![farm](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDQzIDQzIDAgOTYgMHM5NiA0MyA5NiA5NkwwIDk2em0xODEuNCAzMkwxMzIuOCAyNDZjLTMuMiA3LjctNC44IDE2LTQuOCAyNC40TDEyOCA0ODBjMCAxMS43IDMuMSAyMi42IDguNiAzMkw0OCA1MTJjLTI2LjUgMC00OC0yMS41LTQ4LTQ4TDAgMTI4bDE4MS40IDB6TTE2MCA0ODBsMC0yMDkuN2MwLTQuMiAuOC04LjMgMi40LTEyLjJsNDguOS0xMTguN2MzLTcuNCA4LjctMTMuMyAxNS45LTE2LjdMMzU0LjMgNjIuNWM4LjctNC4xIDE4LjctNC4xIDI3LjQgMGwxMjcuMSA2MC4yYzcuMiAzLjQgMTIuOSA5LjQgMTUuOSAxNi43bDQ4LjkgMTE4LjdjMS42IDMuOSAyLjQgOCAyLjQgMTIuMkw1NzYgNDgwYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xMTIgMCAwLTY0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0zMiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDY0LTExMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMnpNMzIwIDI0OGwwIDQ4YzAgMTMuMyAxMC43IDI0IDI0IDI0bDQ4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNGwtNDggMGMtMTMuMyAwLTI0IDEwLjctMjQgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![farm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/farm.svg)
  */
 const Farm: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

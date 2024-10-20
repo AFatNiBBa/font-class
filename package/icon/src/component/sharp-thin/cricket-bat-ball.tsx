@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cricket-bat-ball` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cricket-bat-ball?s=sharp-thin cricket-bat-ball}
- * @preview ![cricket-bat-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUwLjYgMTcyLjdsMTU5LTE1OUw0OTguMyAyLjNsLTE1OSAxNTktNjQtNjRMMjY0IDg2LjEgMjUyLjcgOTcuNCAuMiAzNDkuOEMtLjIgMzY3LjEgLjYgMzg0IDMuOCA0MDFjNCAyMS40IDEzLjEgNTEuNCAzNS4yIDcxLjljMjAuNiAyMi4xIDUwLjYgMzEuMiA3MS45IDM1LjJjMTcgMy4yIDM0IDQgNTEuMiAzLjZMNDE0LjYgMjU5LjMgNDI1LjkgMjQ4bC0xMS4zLTExLjMtNjQtNjR6TTUwLjcgNDYyLjFsLS40LS40LS40LS40Yy0xOC4zLTE3LTI2LjUtNDIuOC0zMC40LTYzLjJjLTIuNi0xMy42LTMuNS0yNy4zLTMuNC00MS41TDIwMCAxNzIuNyAyMDAgMzA0bDAgOCA4IDAgMTMxLjMgMEwxNTUuNSA0OTUuOWMtMTQuMiAuMS0yOC0uOC00MS41LTMuNGMtMjAuNC0zLjgtNDYuMi0xMi4xLTYzLjItMzAuNHpNMzU1LjMgMjk2TDIxNiAyOTZsMC0xMzkuMyA0OC00OEw0MDMuMyAyNDhsLTQ4IDQ4ek00MzIgMzY4YTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4em0wIDE0NGE4MCA4MCAwIDEgMCAwLTE2MCA4MCA4MCAwIDEgMCAwIDE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cricket-bat-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cricket-bat-ball.svg)
  */
 const CricketBatBall: typeof Icon = x => (
     <Icon {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `balloon` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/balloon?s=duotone balloon}
- * @preview ![balloon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCAxNzZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmMwLTQ0LjIgMzUuOC04MCA4MC04MGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkMxMTQuMSA2NCA2NCAxMTQuMSA2NCAxNzZ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDE5MkMwIDg2IDg2IDAgMTkyIDBTMzg0IDg2IDM4NCAxOTJjMCAxMDIuNi0xMDIuOCAxOTQuOS0xNDMuNiAyMjcuNWMtOS4zIDcuNC0xMi41IDIwLjQtNy4xIDMxbDIxLjQgNDIuN2MuOSAxLjggMS40IDMuOCAxLjQgNS44YzAgNy4xLTUuOCAxMi45LTEyLjkgMTIuOWwtMTAyLjEgMGMtNy4xIDAtMTIuOS01LjgtMTIuOS0xMi45YzAtMiAuNS00IDEuNC01LjhsMjEuNC00Mi43YzUuMy0xMC42IDIuMS0yMy42LTcuMS0zMUMxMDIuOCAzODYuOSAwIDI5NC42IDAgMTkyem05Ni0xNmMwLTQ0LjIgMzUuOC04MCA4MC04MGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkMxMTQuMSA2NCA2NCAxMTQuMSA2NCAxNzZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![balloon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/balloon.svg)
  */
 const Balloon: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
         <path class={generic.secondary} d="M64 176c0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.2 35.8-80 80-80c8.8 0 16-7.2 16-16s-7.2-16-16-16C114.1 64 64 114.1 64 176z" />
-            <path d="M0 192C0 86 86 0 192 0S384 86 384 192c0 102.6-102.8 194.9-143.6 227.5c-9.3 7.4-12.5 20.4-7.1 31l21.4 42.7c.9 1.8 1.4 3.8 1.4 5.8c0 7.1-5.8 12.9-12.9 12.9l-102.1 0c-7.1 0-12.9-5.8-12.9-12.9c0-2 .5-4 1.4-5.8l21.4-42.7c5.3-10.6 2.1-23.6-7.1-31C102.8 386.9 0 294.6 0 192zm96-16c0-44.2 35.8-80 80-80c8.8 0 16-7.2 16-16s-7.2-16-16-16C114.1 64 64 114.1 64 176c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
+        <path d="M0 192C0 86 86 0 192 0S384 86 384 192c0 102.6-102.8 194.9-143.6 227.5c-9.3 7.4-12.5 20.4-7.1 31l21.4 42.7c.9 1.8 1.4 3.8 1.4 5.8c0 7.1-5.8 12.9-12.9 12.9l-102.1 0c-7.1 0-12.9-5.8-12.9-12.9c0-2 .5-4 1.4-5.8l21.4-42.7c5.3-10.6 2.1-23.6-7.1-31C102.8 386.9 0 294.6 0 192zm96-16c0-44.2 35.8-80 80-80c8.8 0 16-7.2 16-16s-7.2-16-16-16C114.1 64 64 114.1 64 176c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
     </Icon>
 );
 

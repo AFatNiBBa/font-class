@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chair` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chair?s=light chair}
- * @preview ![chair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMybDAgMTkyLTMyIDAgMC0xODYuNUMxMjIuNyA1MC42IDk2IDg2LjIgOTYgMTI4bDAgOTYtMzIgMCAwLTk2QzY0IDU3LjMgMTIxLjMgMCAxOTIgMGw2NCAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4bDAgOTYtMzIgMCAwLTk2YzAtNDEuOC0yNi43LTc3LjQtNjQtOTAuNUwyODggMjI0bC0zMiAwIDAtMTkyLTY0IDB6TTY0IDI4OEwzMiAzNTJsMzg0IDAtMzItNjRMNjQgMjg4ek0zNS40IDI3My43QzQwLjggMjYyLjggNTEuOSAyNTYgNjQgMjU2bDMyMCAwYzEyLjEgMCAyMy4yIDYuOCAyOC42IDE3LjdsMzIgNjRjNSA5LjkgNC40IDIxLjctMS40IDMxLjFzLTE2LjEgMTUuMi0yNy4yIDE1LjJsMCAxMTJjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0xMTJMNjQgMzg0bDAgMTEyYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMTEyYy0xMS4xIDAtMjEuNC01LjctMjcuMi0xNS4ycy02LjQtMjEuMi0xLjQtMzEuMWwzMi02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chair.svg)
  */
 const Chair: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

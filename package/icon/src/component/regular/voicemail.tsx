@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `voicemail` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/voicemail?s=regular voicemail}
- * @preview ![voicemail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDE0NGE5NiA5NiAwIDEgMSAwIDE5MiA5NiA5NiAwIDEgMSAwLTE5MnpNMjUxLjMgMzM2YzIyLjgtMjUuNSAzNi43LTU5LjEgMzYuNy05NmMwLTc5LjUtNjQuNS0xNDQtMTQ0LTE0NFMwIDE2MC41IDAgMjQwczY0LjUgMTQ0IDE0NCAxNDRsMzUyIDBjNzkuNSAwIDE0NC02NC41IDE0NC0xNDRzLTY0LjUtMTQ0LTE0NC0xNDRzLTE0NCA2NC41LTE0NCAxNDRjMCAzNi45IDEzLjkgNzAuNSAzNi43IDk2bC0xMzcuMyAwek00OTYgMTQ0YTk2IDk2IDAgMSAxIDAgMTkyIDk2IDk2IDAgMSAxIDAtMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![voicemail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/voicemail.svg)
  */
 const Voicemail: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

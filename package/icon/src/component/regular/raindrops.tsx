@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `raindrops` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/raindrops?s=regular raindrops}
- * @preview ![raindrops](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA1LjkgMTA2LjZsNDEuOS02Ny44QzE1MC40IDM0LjYgMTU1IDMyIDE2MCAzMnM5LjYgMi42IDEyLjIgNi44bDQxLjkgNjcuOGM2LjUgMTAuNSA5LjkgMjIuNiA5LjkgMzQuOWwwIDIuNWMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NGwwLTIuNWMwLTEyLjMgMy40LTI0LjQgOS45LTM0Ljl6bS05NiAxOTJsNDEuOS02Ny44QzU0LjQgMjI2LjYgNTkgMjI0IDY0IDIyNHM5LjYgMi42IDEyLjIgNi44bDQxLjkgNjcuOGM2LjUgMTAuNSA5LjkgMjIuNiA5LjkgMzQuOWwwIDIuNWMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NGwwLTIuNWMwLTEyLjMgMy40LTI0LjQgOS45LTM0Ljl6bTI0Mi42IDExLjVjLTguMiAxMi43LTEyLjUgMjcuNi0xMi41IDQyLjdjMCA0My40IDM1LjkgNzkuMiA4MCA3OS4yczgwLTM1LjggODAtNzkuMmMwLTE1LjEtNC4zLTMwLTEyLjUtNDIuN0wzMjAgMjA0LjYgMjUyLjUgMzEwLjF6bS00MC40LTI1LjlsOTUuNi0xNDkuNWMyLjctNC4yIDcuMy02LjcgMTIuMy02LjdzOS42IDIuNSAxMi4zIDYuN2w5NS42IDE0OS41QzQ0MSAzMDQuNyA0NDggMzI4LjUgNDQ4IDM1Mi44QzQ0OCA0MjMgMzkwLjMgNDgwIDMyMCA0ODBzLTEyOC01Ny0xMjgtMTI3LjJjMC0yNC4zIDctNDguMSAyMC4xLTY4LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![raindrops](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/raindrops.svg)
  */
 const Raindrops: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

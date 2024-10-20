@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-exclamation` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-exclamation?s=light battery-exclamation}
- * @preview ![battery-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDk2TDgwIDk2QzM1LjggOTYgMCAxMzEuOCAwIDE3NkwwIDMzNmMwIDQ0LjIgMzUuOCA4MCA4MCA4MGwxMzYuNiAwYy01LjQtOS40LTguNi0yMC4zLTguNi0zMkw4MCAzODRjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTYwYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDEyOCAwIDAtMzJ6TTQzMiA0MTZjNDQuMiAwIDgwLTM1LjggODAtODBsMC0xNjBjMC00NC4yLTM1LjgtODAtODAtODBsLTk2IDAgMCAzMiA5NiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMTYwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC05NiAwYzAgMTEuNy0zLjEgMjIuNi04LjYgMzJMNDMyIDQxNnpNNTc2IDIwOGMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDk2YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC05NnpNMjcyIDk2Yy04LjggMC0xNiA3LjItMTYgMTZsMCAxODRjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTE4NGMwLTguOC03LjItMTYtMTYtMTZ6bTI0IDI4MGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![battery-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/battery-exclamation.svg)
  */
 const BatteryExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volcano` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volcano?s=sharp-solid volcano}
- * @preview ![volcano](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE0NGMtMzUuMyAwLTY0LTI4LjctNjQtNjRzMjguNy02NCA2NC02NGMxNS43IDAgMzAgNS42IDQxLjIgMTVDMjEyLjQgMTIuNCAyMzIuNyAwIDI1NiAwczQzLjYgMTIuNCA1NC44IDMxQzMyMiAyMS42IDMzNi4zIDE2IDM1MiAxNmMzNS4zIDAgNjQgMjguNyA2NCA2NHMtMjguNyA2NC02NCA2NGwtNDggMC0zMiA0OC0zMiAwLTMyLTQ4LTQ4IDB6TTI5OC40IDI3MmwtODQuOSAwLTY2LjIgNzQuNUwyNDAgMzIwbDgwIDY0IDU0LTI3LTc1LjYtODV6TTE5MiAyMjRsMTI4IDBMNTEyIDQ0MGwwIDI0IDAgNDgtNDggMEw0OCA1MTIgMCA1MTJsMC00OCAwLTI0TDE5MiAyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![volcano](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/volcano.svg)
  */
 const Volcano: typeof Icon = x => (
     <Icon {...x}>

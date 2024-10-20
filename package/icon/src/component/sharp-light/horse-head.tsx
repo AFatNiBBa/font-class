@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `horse-head` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/horse-head?s=sharp-light horse-head}
- * @preview ![horse-head](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDM4LjcgMTcuN0w0MzIuOSA0LjMgNDE5IDguOCAyNTEuOCA2My4yQzEzOS44IDk5LjcgNjQgMjA0LjEgNjQgMzIxLjlMNjQgNDk2bDAgMTYgMTYgMCAzMjAgMCAyNy4xIDBMNDE0IDQ4OC4zIDM0MyAzNTkuOWM3LjUtMi41IDE0LjgtNS45IDIxLjctMTAuMWw0Ni43IDYwIDQuOCA2LjIgNy44IDAgODggMCA4LjYgMCA0LjctNy4xIDQ4LTcyIDQuNS02LjgtMi44LTcuNi04MC0yMTZMNDkxLjEgOTYgNDgwIDk2bC0yOC4yIDAgMy40LTEuNyAxMy41LTYuNy01LjktMTMuOS0yNC01NnpNMjI0LjQgMzI5LjZjMjIuNiAyNC43IDU0IDM3IDg1LjMgMzYuM2wxLjcgM0wzNzIuOSA0ODAgOTYgNDgwbDAtMTU4LjFjMC0xMDMuOSA2Ni45LTE5NiAxNjUuNy0yMjguMkw0MTUuMSA0My43bDEyLjMgMjguN0wzOTIuOCA4OS43IDM3MyA5OS42bDE1LjcgMTUuNyA4IDggNC43IDQuNyA2LjYgMCA2MC45IDAgNzMuMyAxOTcuOUw1MDMuNCAzODRsLTcxLjYgMC01MS4yLTY1LjgtOS44LTEyLjYtMTIuNiA5LjgtMi4xIDEuNmMtMzIuOSAyNS42LTc5LjkgMjEuNi0xMDguMS05LjFsLTI4LjItMzAuN0wyMDkgMjY1LjQgMTg1LjQgMjg3bDEwLjggMTEuOCAyOC4yIDMwLjd6TTQwMCAyMzJhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![horse-head](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/horse-head.svg)
  */
 const HorseHead: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

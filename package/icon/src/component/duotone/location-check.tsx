@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `location-check` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-check?s=duotone location-check}
- * @preview ![location-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE5MmMwIDg3LjQgMTE3IDI0MyAxNjguMyAzMDcuMmM2LjEgNy43IDE0LjkgMTEuNSAyMy43IDExLjVzMTcuNi0zLjggMjMuNy0xMS41QzI2NyA0MzUgMzg0IDI3OS40IDM4NCAxOTJDMzg0IDg2IDI5OCAwIDE5MiAwUzAgODYgMCAxOTJ6bTg4IDBjMC02LjEgMi4zLTEyLjMgNy0xN2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMGMxMi4xIDEyLjEgMjQuMiAyNC4yIDM2LjQgMzYuNGMyOS45LTI5LjkgNTkuOC01OS44IDg5LjctODkuN2M0LjctNC43IDEwLjgtNyAxNy03czEyLjMgMi4zIDE3IDdzNyAxMC44IDcgMTdzLTIuMyAxMi4zLTcgMTdjLTM1LjYgMzUuNi03MS4xIDcxLjEtMTA2LjcgMTA2LjdjLTQuNyA0LjctMTAuOCA3LTE3IDdzLTEyLjMtMi4zLTE3LTdMOTUgMjA5Yy00LjctNC43LTctMTAuOC03LTE3eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjg5IDEyMS43YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45TDE4Mi4zIDI2Mi4zYy05LjQgOS40LTI0LjYgOS40LTMzLjkgMEw5NSAyMDljLTkuNC05LjQtOS40LTI0LjYgMC0zMy45czI0LjYtOS40IDMzLjkgMGwzNi40IDM2LjRMMjU1IDEyMS43YzkuNC05LjQgMjQuNi05LjQgMzMuOSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![location-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/location-check.svg)
  */
 const LocationCheck: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
         <path class={generic.secondary} d="M0 192c0 87.4 117 243 168.3 307.2c6.1 7.7 14.9 11.5 23.7 11.5s17.6-3.8 23.7-11.5C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192zm88 0c0-6.1 2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0c12.1 12.1 24.2 24.2 36.4 36.4c29.9-29.9 59.8-59.8 89.7-89.7c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7s7 10.8 7 17s-2.3 12.3-7 17c-35.6 35.6-71.1 71.1-106.7 106.7c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7L95 209c-4.7-4.7-7-10.8-7-17z" />
-            <path d="M289 121.7c9.4 9.4 9.4 24.6 0 33.9L182.3 262.3c-9.4 9.4-24.6 9.4-33.9 0L95 209c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l36.4 36.4L255 121.7c9.4-9.4 24.6-9.4 33.9 0z" />
+        <path d="M289 121.7c9.4 9.4 9.4 24.6 0 33.9L182.3 262.3c-9.4 9.4-24.6 9.4-33.9 0L95 209c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l36.4 36.4L255 121.7c9.4-9.4 24.6-9.4 33.9 0z" />
     </Icon>
 );
 

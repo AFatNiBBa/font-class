@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `boot-heeled` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boot-heeled?s=solid boot-heeled}
- * @preview ![boot-heeled](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBMNjMuMyAwQzQ2IDAgMzIgMTQgMzIgMzEuM2MwIDEuOCAuMSAzLjkgLjYgNi4yQzM0LjYgNDcuMSA1NiAxNTQuMyA1NiAyMzJjMCAzMy4yLTEyLjggOTMuNS0xOS43IDEyMy4yQzMzLjYgMzY3IDMyIDM3OS4zIDMyIDM5MS44TDMyIDQ4OGMwIDEzLjMgMTAuNyAyNCAyNCAyNGw4MCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0bDAtMTUuMSAxMjUgMzQuN2MxMC41IDIuOSAyMS4zIDQuNCAzMi4xIDQuNEw0NTYgNTEybDMyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTggMCAwLTM0LjNjMC0yNy4zLTE1LjQtNTIuMi0zOS44LTY0LjRMMzI3LjggMzA5LjFjLTI0LjQtMTIuMi0zOS44LTM3LjEtMzkuOC02NC40TDI4OCAyNGMwLTEzLjMtMTAuNy0yNC0yNC0yNEwxNjAgMGwwIDI0MGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNkwxMjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![boot-heeled](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/boot-heeled.svg)
  */
 const BootHeeled: typeof Icon = x => (
     <Icon {...x}>

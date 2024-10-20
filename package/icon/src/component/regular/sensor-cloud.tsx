@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sensor-cloud` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-cloud?s=regular sensor-cloud}
- * @preview ![sensor-cloud](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgODBsMzIwIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTI4YzE3LjIgMCAzMy41IDMuOSA0OCAxMC44TDQ0OCA5NmMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDE3MC44IDBjLTYuOS0xNC41LTEwLjgtMzAuOC0xMC44LTQ4TDY0IDQzMmMtOC44IDAtMTYtNy4yLTE2LTE2TDQ4IDk2YzAtOC44IDcuMi0xNiAxNi0xNnptODAgNzJjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRsMCAxMTJjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTExMnptOTYgMGMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDExMmMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtMTEyem05NiAzNjBsMjI0IDBjNDQuMiAwIDgwLTM1LjggODAtODBjMC0zOS0yNy45LTcxLjUtNjQuOC03OC42Yy41LTMuMSAuOC02LjIgLjgtOS40YzAtMzAuOS0yNS4xLTU2LTU2LTU2Yy0xOC4xIDAtMzQuMSA4LjYtNDQuNCAyMS44QzQ2NC44IDI3OC41IDQzNSAyNTYgNDAwIDI1NmMtNDQuMiAwLTgwIDM1LjgtODAgODBjMCA1LjkgLjYgMTEuNyAxLjkgMTcuMkMyODQuNCAzNTkuOSAyNTYgMzkyLjYgMjU2IDQzMmMwIDQ0LjIgMzUuOCA4MCA4MCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sensor-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sensor-cloud.svg)
  */
 const SensorCloud: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

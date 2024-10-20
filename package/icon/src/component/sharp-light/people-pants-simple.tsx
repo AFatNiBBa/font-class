@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `people-pants-simple` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-pants-simple?s=sharp-light people-pants-simple}
- * @preview ![people-pants-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDY0QTMyIDMyIDAgMSAwIDk2IDY0YTMyIDMyIDAgMSAwIDY0IDB6TTY0IDY0YTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDY0IDY0ek01Ny40IDMyMGw2LjYgMCAzMiAwIDY0IDAgMzIgMCA2LjYgMC01LjMtMTI4TDYyLjcgMTkyIDU3LjQgMzIwek0yMDAgMzUybC04IDAgMCAxNDQgMCAxNi0zMiAwIDAtMTYgMC0xNDQtNjQgMCAwIDE0NCAwIDE2LTMyIDAgMC0xNiAwLTE0NC04IDAtMzIgMCAxLjMtMzJMMzIgMTYwbDE5MiAwIDYuNyAxNjAgMS4zIDMyLTMyIDB6TTQxNiA2NGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0tOTYgMGE2NCA2NCAwIDEgMSAxMjggMEE2NCA2NCAwIDEgMSAzMjAgNjR6bS02LjYgMjU2bDYuNiAwIDMyIDAgNjQgMCAzMiAwIDYuNiAwLTUuMy0xMjgtMTMwLjYgMC01LjMgMTI4ek00NTYgMzUybC04IDAgMCAxNDQgMCAxNi0zMiAwIDAtMTYgMC0xNDQtNjQgMCAwIDE0NCAwIDE2LTMyIDAgMC0xNiAwLTE0NC04IDAtMzIgMCAxLjMtMzJMMjg4IDE2MGwxOTIgMCA2LjcgMTYwIDEuMyAzMi0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![people-pants-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/people-pants-simple.svg)
  */
 const PeoplePantsSimple: typeof Icon = x => (
     <Icon {...x}>

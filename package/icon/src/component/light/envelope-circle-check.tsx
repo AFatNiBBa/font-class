@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `envelope-circle-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-circle-check?s=light envelope-circle-check}
- * @preview ![envelope-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgOTZsMzg0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzMi43YzUuMy0uNSAxMC42LS43IDE2LS43czEwLjcgLjIgMTYgLjdsMC0zMi43YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDY0QzI4LjcgNjQgMCA5Mi43IDAgMTI4TDAgMzg0YzAgMzUuMyAyOC43IDY0IDY0IDY0bDI5Ni4yIDBjLTguMS05LjgtMTUuMi0yMC42LTIxLTMyTDY0IDQxNmMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xNzYuNEwyMDguNyAzMzcuMWMyOC4yIDIwLjYgNjYuNSAyMC42IDk0LjYgMGwxNy4xLTEyLjVjMS0xNi4yIDQuMy0zMS44IDkuNC00Ni42bC00NS40IDMzLjNjLTE2LjkgMTIuNC0zOS45IDEyLjQtNTYuOCAwTDMyIDE2Ny45IDMyIDEyOGMwLTE3LjcgMTQuMy0zMiAzMi0zMnpNNDk2IDIyNGExMTIgMTEyIDAgMSAxIDAgMjI0IDExMiAxMTIgMCAxIDEgMC0yMjR6bTAgMjU2YTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHptNjcuMy0xODcuM2MtNi4yLTYuMi0xNi40LTYuMi0yMi42IDBMNDgwIDM1My40bC0yOC43LTI4LjdjLTYuMi02LjItMTYuNC02LjItMjIuNiAwcy02LjIgMTYuNCAwIDIyLjZsNDAgNDBjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBsNzItNzJjNi4yLTYuMiA2LjItMTYuNCAwLTIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![envelope-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/envelope-circle-check.svg)
  */
 const EnvelopeCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

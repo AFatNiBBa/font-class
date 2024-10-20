@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tape` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tape?s=solid tape}
- * @preview ![tape](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgwLjggNDE2YzQxLjUtNDAuNyA2Ny4yLTk3LjMgNjcuMi0xNjBDNDQ4IDEzMi4zIDM0Ny43IDMyIDIyNCAzMlMwIDEzMi4zIDAgMjU2UzEwMC4zIDQ4MCAyMjQgNDgwbDMyMCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0xNjMuMiAwek0yMjQgMTYwYTk2IDk2IDAgMSAxIDAgMTkyIDk2IDk2IDAgMSAxIDAtMTkyem02NCA5NmE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tape.svg)
  */
 const Tape: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

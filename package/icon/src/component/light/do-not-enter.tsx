@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `do-not-enter` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/do-not-enter?s=light do-not-enter}
- * @preview ![do-not-enter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTExMi0xNmwwIDMyYzAgNC40IDMuNiA4IDggOGwyNzIgMGM0LjQgMCA4LTMuNiA4LThsMC0zMmMwLTQuNC0zLjYtOC04LThsLTI3MiAwYy00LjQgMC04IDMuNi04IDh6bS0zMiAwYzAtMjIuMSAxNy45LTQwIDQwLTQwbDI3MiAwYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgMzJjMCAyMi4xLTE3LjkgNDAtNDAgNDBsLTI3MiAwYy0yMi4xIDAtNDAtMTcuOS00MC00MGwwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![do-not-enter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/do-not-enter.svg)
  */
 const DoNotEnter: typeof Icon = x => (
     <Icon {...x}>

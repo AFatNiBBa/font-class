@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-three-quarters-stroke` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-three-quarters-stroke?s=thin circle-three-quarters-stroke}
- * @preview ![circle-three-quarters-stroke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk1LjUgMjcyTDI4MCAyNzJjLTIyLjEgMC00MC0xNy45LTQwLTQwbDAtMjE1LjVDMTE0LjkgMjQuOCAxNiAxMjguOCAxNiAyNTZjMCAxMzIuNSAxMDcuNSAyNDAgMjQwIDI0MGMxMjcuMiAwIDIzMS4yLTk4LjkgMjM5LjUtMjI0em0uNS0xNkM0OTYgMTIzLjUgMzg4LjUgMTYgMjU2IDE2bDAgMjE2YzAgMTMuMyAxMC43IDI0IDI0IDI0bDIxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-three-quarters-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-three-quarters-stroke.svg)
  */
 const CircleThreeQuartersStroke: typeof Icon = x => (
     <Icon {...x}>

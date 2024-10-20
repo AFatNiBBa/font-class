@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `windsock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/windsock?s=duotone windsock}
- * @preview ![windsock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCA5NmwwIDQ4IDY0IDAgMCAxMjgtNjQgMCAwIDQ4IDY0IDAgMCA4LjZjMCAxOCAxNC43IDMyIDMxLjkgMzJjMi4yIDAgNC40LS4yIDYuNi0uN2w0MS41LTguNiAwLTI4Ni43Yy0xMy44LTIuOS0yNy43LTUuOC00MS41LTguNmMtMTkuOS00LjEtMzguNSAxMS0zOC41IDMxLjNsMCA4LjZMNjQgOTZ6TTI3MiA3OGwwIDI2MGMzMi02LjcgNjQtMTMuMyA5Ni0yMGwwLTIyMGMtMzItNi43LTY0LTEzLjMtOTYtMjB6bTE2MCAzMy4zbDAgMTkzLjNjMTguMi0zLjggMzYuNC03LjYgNTQuNS0xMS40YzE0LjgtMy4xIDI1LjUtMTYuMiAyNS41LTMxLjNsMC0xMDhjMC0xNS4yLTEwLjYtMjguMi0yNS41LTMxLjNjLTE4LjItMy44LTM2LjQtNy42LTU0LjUtMTEuNHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTY0IDMyQzY0IDE0LjMgNDkuNyAwIDMyIDBTMCAxNC4zIDAgMzJMMCA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMkw2NCAzMnpNMjA4IDY0LjdsMCAyODYuN0wyNzIgMzM4bDAtMjYwTDIwOCA2NC43ek0zNjggMzE4bDY0LTEzLjMgMC0xOTMuM0wzNjggOThsMCAyMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![windsock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/windsock.svg)
  */
 const Windsock: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M64 96l0 48 64 0 0 128-64 0 0 48 64 0 0 8.6c0 18 14.7 32 31.9 32c2.2 0 4.4-.2 6.6-.7l41.5-8.6 0-286.7c-13.8-2.9-27.7-5.8-41.5-8.6c-19.9-4.1-38.5 11-38.5 31.3l0 8.6L64 96zM272 78l0 260c32-6.7 64-13.3 96-20l0-220c-32-6.7-64-13.3-96-20zm160 33.3l0 193.3c18.2-3.8 36.4-7.6 54.5-11.4c14.8-3.1 25.5-16.2 25.5-31.3l0-108c0-15.2-10.6-28.2-25.5-31.3c-18.2-3.8-36.4-7.6-54.5-11.4z" />
-            <path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32L0 480c0 17.7 14.3 32 32 32s32-14.3 32-32L64 32zM208 64.7l0 286.7L272 338l0-260L208 64.7zM368 318l64-13.3 0-193.3L368 98l0 220z" />
+        <path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32L0 480c0 17.7 14.3 32 32 32s32-14.3 32-32L64 32zM208 64.7l0 286.7L272 338l0-260L208 64.7zM368 318l64-13.3 0-193.3L368 98l0 220z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dial-med-low` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-med-low?s=sharp-regular dial-med-low}
- * @preview ![dial-med-low](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBMMjU2IDBsMCA2NCA2NCAwIDAtNjR6TTEyOCA2NEw2NCA2NGwwIDY0IDY0IDAgMC02NHptMzg0IDBsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bTAgMTkybDAgNjQgNjQgMCAwLTY0LTY0IDB6bTAgMTkybC02NCAwIDAgNjQgNjQgMCAwLTY0ek02NCA0NDhsMCA2NCA2NCAwIDAtNjQtNjQgMHpNMCAyNTZsMCA2NCA2NCAwIDAtNjRMMCAyNTZ6TTIwOC44IDM2Ny4yYy0zNy45LTM3LjktNDMtOTYuMi0xNS4xLTEzOS42TDI3MSAzMDVsMTcgMTdMMzIxLjkgMjg4bC0xNy0xNy03Ny40LTc3LjRjNDMuNC0yNy44IDEwMS43LTIyLjggMTM5LjYgMTUuMWM0My43IDQzLjcgNDMuNyAxMTQuNyAwIDE1OC40cy0xMTQuNyA0My43LTE1OC40IDB6TTE3NC45IDE3NC45QTE2MCAxNjAgMCAxIDAgNDAxLjEgNDAxLjEgMTYwIDE2MCAwIDEgMCAxNzQuOSAxNzQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dial-med-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/dial-med-low.svg)
  */
 const DialMedLow: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

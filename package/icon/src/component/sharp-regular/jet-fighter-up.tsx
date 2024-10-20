@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jet-fighter-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jet-fighter-up?s=sharp-regular jet-fighter-up}
- * @preview ![jet-fighter-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDBMMjMyLjggMGwtNi41IDEzLjgtNjQgMTM2LTIuMyA0LjkgMCA1LjQgMCA0Mi42TDQ4IDI3MmwwLTI0IDAtMjRMMCAyMjRsMCAyNCAwIDU0LjFjLTUgNC41LTggMTEtOCAxNy45bDAgNDBjMCA3LjEgMy4xIDEzLjUgOCAxNy45TDAgMzkybDAgMjQgNDggMCAwLTI0IDAtOCAxMDYuNiAwLTM4LjIgNTQuMi00LjQgNi4yIDAgNy42IDAgMzYgMCAyNCAyNCAwIDI0MCAwIDI0IDAgMC0yNCAwLTM2IDAtNy42LTQuNC02LjJMMzU3LjQgMzg0IDQ2NCAzODRsMCA4IDAgMjQgNDggMCAwLTI0IDAtMTQuMWM0LjktNC40IDgtMTAuOCA4LTE3LjlsMC00MGMwLTYuOS0zLTEzLjQtOC0xNy45bDAtNTQuMSAwLTI0LTQ4IDAgMCAyNCAwIDI0TDM1MiAyMDIuNmwwLTQyLjYgMC01LjQtMi4zLTQuOS02NC0xMzZMMjc5LjIgMCAyNjQgMCAyNDggMHpNNDggMzI4LjRsMTEyLTY5LjMgMCA3Ni45TDQ4IDMzNmwwLTcuNnptMzA0LTY5LjNsMTEyIDY5LjMgMCA3LjYtMTEyIDAgMC03Ni45ek0yMDggMTY1LjRsNDgtMTAyIDQ4IDEwMkwzMDQgMzg0bDAgNy42IDQuNCA2LjJMMzUyIDQ1OS42bDAgNC40LTcyIDAgMC00MCAwLTI0LTQ4IDAgMCAyNCAwIDQwLTcyIDAgMC00LjQgNDMuNi02MS44IDQuNC02LjIgMC03LjYgMC0yMTguNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![jet-fighter-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/jet-fighter-up.svg)
  */
 const JetFighterUp: typeof Icon = x => (
     <Icon {...x}>

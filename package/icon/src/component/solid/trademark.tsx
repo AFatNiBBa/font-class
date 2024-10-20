@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trademark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trademark?s=solid trademark}
- * @preview ![trademark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ1LjYgMTA4LjhjLTguMy0xMS0yMi43LTE1LjUtMzUuNy0xMS4yUzI4OCAxMTQuMiAyODggMTI4bDAgMjU2YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0xNjAgODYuNCAxMTUuMmM2IDguMSAxNS41IDEyLjggMjUuNiAxMi44czE5LjYtNC43IDI1LjYtMTIuOEw1NzYgMjI0bDAgMTYwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0yNTZjMC0xMy44LTguOC0yNi0yMS45LTMwLjRzLTI3LjUgLjEtMzUuNyAxMS4yTDQ2NCAyNjYuNyAzNDUuNiAxMDguOHpNMCAxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsNjQgMCAwIDIyNGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMjI0IDY0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMMzIgOTZDMTQuMyA5NiAwIDExMC4zIDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trademark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trademark.svg)
  */
 const Trademark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

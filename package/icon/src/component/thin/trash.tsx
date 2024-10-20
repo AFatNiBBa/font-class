@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash?s=thin trash}
- * @preview ![trash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc3LjcgMTZsOTIuNSAwYzguMyAwIDE2IDQuMyAyMC40IDExLjNsMjMgMzYuN0wxMzQuNCA2NGwyMy0zNi43YzQuNC03IDEyLjEtMTEuMyAyMC40LTExLjN6bS0zMy45IDIuOEwxMTUuNiA2NCA4IDY0Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDQzMiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDMzMi40IDY0IDMwNC4yIDE4LjhDMjk2LjkgNy4xIDI4NC4xIDAgMjcwLjMgMEwxNzcuNyAwYy0xMy44IDAtMjYuNiA3LjEtMzMuOSAxOC44ek00OCAxMTkuM2MtLjQtNC40LTQuMi03LjctOC42LTcuM3MtNy43IDQuMi03LjMgOC42bDI4LjMgMzQwYzIuNCAyOSAyNi43IDUxLjQgNTUuOCA1MS40bDIxNS43IDBjMjkuMSAwIDUzLjQtMjIuMyA1NS44LTUxLjRsMjguMy0zNDBjLjQtNC40LTIuOS04LjMtNy4zLTguNnMtOC4zIDIuOS04LjYgNy4zbC0yOC4zIDM0MEMzNzAgNDgwLjEgMzUyLjYgNDk2IDMzMS44IDQ5NmwtMjE1LjcgMGMtMjAuOCAwLTM4LjEtMTUuOS0zOS45LTM2LjdMNDggMTE5LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/trash.svg)
  */
 const Trash: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

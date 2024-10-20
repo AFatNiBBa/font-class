@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `staff-snake` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff-snake?s=sharp-solid staff-snake}
- * @preview ![staff-snake](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDUxMWwwIDEtMzIgMCAwLTEtMS41LTQ3TDEzNiA0NjRsLTQwIDAgMC04MCA0MCAwIDM2IDAtMS0zMi0xOSAwYy01MyAwLTk2LTQzLTk2LTk2YzAtNDcuNiAzNC42LTg3LjEgODAtOTQuN2wwIDk0LjdjMCA4LjggNy4yIDE2IDE2IDE2bDE2LjUgMEwxNjQgMTI4bC0yOCAwLTkuMiAwYy00LjUgMTguNC0yMS4xIDMyLTQwLjggMzJMMCAxNjAgMCA5NkMwIDY5LjUgMjEuNSA0OCA0OCA0OGwxMCAwYzEuMSAwIDIuMyAwIDMuNCAuMWMuOS0uMSAxLjctLjEgMi42LS4xbDk3LjUgMEwxNjAgMGw2NCAwLTEuNSA0OEwyODggNDhjNTMgMCA5NiA0MyA5NiA5NnMtNDMgOTYtOTYgOTZsLTQwIDAgMC04MCA0MCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC00MCAwLTI4IDAtNC41IDE0NCA0MC41IDBjNTMgMCA5NiA0MyA5NiA5NnMtNDMgOTYtOTYgOTZsLTE2IDAgMC04MCAxNiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC00MyAwLTUgMTU5ek02NCAxMTJhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![staff-snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/staff-snake.svg)
  */
 const StaffSnake: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

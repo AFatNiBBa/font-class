@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-shield` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-shield?s=sharp-light file-shield}
- * @preview ![file-shield](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDE5MmwwIDI4LjcgMzItMTIuNCAwLTU2LjNMMjMyIDAgMzIgMCAwIDAgMCAzMiAwIDQ4MGwwIDMyIDMyIDAgMzIwIDAgMTAuMSAwYy0xMy4zLTkuNS0yNS4zLTIwLjMtMzYuMS0zMkwzMiA0ODAgMzIgMzJsMTYwIDAgMCAxNDQgMCAxNiAxNiAwIDE0NCAwem0tNS4zLTMyTDIyNCAxNjBsMC0xMjIuN0wzNDYuNyAxNjB6TTU0My45IDMwMS42QzU0Mi4xIDM2Ny40IDUwOC44IDQzNyA0NDggNDcwLjNsMC0yMDUuOCA5NS45IDM3LjF6bS0yMjMuOCAwTDQxNiAyNjQuNWwwIDIwNS44Yy02MC44LTMzLjMtOTQuMS0xMDIuOC05NS45LTE2OC42ek00MzIgNTEyYzk2LTMyIDE0NC0xMzAuMiAxNDQtMjE2bDAtMTYuMkw0MzIgMjI0IDI4OCAyNzkuOGwwIDE2LjJjMCA4NS44IDQ4IDE4NCAxNDQgMjE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-shield.svg)
  */
 const FileShield: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

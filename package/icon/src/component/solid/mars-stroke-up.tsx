@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mars-stroke-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-stroke-up?s=solid mars-stroke-up}
- * @preview ![mars-stroke-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ4LjcgNC43YzYuMi02LjIgMTYuNC02LjIgMjIuNiAwbDY0IDY0YzQuNiA0LjYgNS45IDExLjUgMy41IDE3LjRzLTguMyA5LjktMTQuOCA5LjlsLTQwIDAgMCAyNCAzMiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0zMiAwIDAgMjRjMCAuNiAwIDEuMi0uMSAxLjhjNzcgMTEuNiAxMzYuMSA3OCAxMzYuMSAxNTguMmMwIDg4LjQtNzEuNiAxNjAtMTYwIDE2MFMwIDQ0MC40IDAgMzUyYzAtODAuMiA1OS4xLTE0Ni43IDEzNi4xLTE1OC4yYzAtLjYtLjEtMS4yLS4xLTEuOGwwLTI0LTMyIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsMzIgMCAwLTI0TDk2IDk2Yy02LjUgMC0xMi4zLTMuOS0xNC44LTkuOXMtMS4xLTEyLjkgMy41LTE3LjRsNjQtNjR6TTI1NiAzNTJBOTYgOTYgMCAxIDAgNjQgMzUyYTk2IDk2IDAgMSAwIDE5MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mars-stroke-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mars-stroke-up.svg)
  */
 const MarsStrokeUp: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

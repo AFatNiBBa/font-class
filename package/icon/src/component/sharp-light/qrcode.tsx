@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `qrcode` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/qrcode?s=sharp-light qrcode}
- * @preview ![qrcode](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDY0bDAgMTI4TDMyIDE5MiAzMiA2NGwxMjggMHpNMzIgMzJMMCAzMiAwIDY0IDAgMTkybDAgMzIgMzIgMCAxMjggMCAzMiAwIDAtMzIgMC0xMjggMC0zMi0zMiAwTDMyIDMyek0xNjAgMzIwbDAgMTI4TDMyIDQ0OGwwLTEyOCAxMjggMHpNMzIgMjg4TDAgMjg4bDAgMzJMMCA0NDhsMCAzMiAzMiAwIDEyOCAwIDMyIDAgMC0zMiAwLTEyOCAwLTMyLTMyIDBMMzIgMjg4ek0yODggNjRsMTI4IDAgMCAxMjgtMTI4IDAgMC0xMjh6TTI1NiAzMmwwIDMyIDAgMTI4IDAgMzIgMzIgMCAxMjggMCAzMiAwIDAtMzIgMC0xMjggMC0zMi0zMiAwTDI4OCAzMmwtMzIgMHptMCAyNTZsMCAxNiAwIDE2MCAwIDE2IDMyIDAgMC0xNiAwLTE0NCAzMiAwIDAgNjggMCAxNiAxNiAwIDk2IDAgMTYgMCAwLTE2IDAtODQgMC0xNi0zMiAwIDAgMTYgMCA2OC02NCAwIDAtNjggMC0xNi0xNiAwLTY0IDAtMTYgMHpNMTIwIDEwNGwtNDggMCAwIDQ4IDQ4IDAgMC00OHpNNzIgMzYwbDAgNDggNDggMCAwLTQ4LTQ4IDB6TTM3NiAxMDRsLTQ4IDAgMCA0OCA0OCAwIDAtNDh6TTMyMCA0MzJsMCA0OCA0OCAwIDAtNDgtNDggMHptMTI4IDBsLTQ4IDAgMCA0OCA0OCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![qrcode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/qrcode.svg)
  */
 const Qrcode: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

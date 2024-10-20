@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-laugh-squint` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-squint?s=sharp-regular face-laugh-squint}
- * @preview ![face-laugh-squint](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI1OC4yIDQwOGMtNjkuMiAwLTEyNi4xLTUyLjYtMTMyLjgtMTIwTDM5MSAyODhjLTYuNyA2Ny40LTYzLjYgMTIwLTEzMi44IDEyMHpNMTEyIDEyOGwxMTguOSA2NEwxMTIgMjU2bDQ1LjctNjRMMTEyIDEyOHptMTY5LjEgNjRMNDAwIDEyOGwtNDUuNyA2NEw0MDAgMjU2IDI4MS4xIDE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-laugh-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-laugh-squint.svg)
  */
 const FaceLaughSquint: typeof Icon = x => (
     <Icon {...x}>

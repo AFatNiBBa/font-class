@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-a-lock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-a-lock?s=regular square-a-lock}
- * @preview ![square-a-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgODBsMzIwIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgODQuMWMxNC05LjggMzAuMy0xNi40IDQ4LTE4LjlMNDQ4IDk2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDAgMC00OEw2NCA0MzJjLTguOCAwLTE2LTcuMi0xNi0xNkw0OCA5NmMwLTguOCA3LjItMTYgMTYtMTZ6bTE4MS44IDYxLjljLTMuOS04LjUtMTIuNC0xMy45LTIxLjgtMTMuOXMtMTcuOSA1LjQtMjEuOCAxMy45bC05NiAyMDhjLTUuNiAxMi0uMyAyNi4zIDExLjcgMzEuOHMyNi4zIC4zIDMxLjgtMTEuN2wxMi0yNi4xIDEyNC40IDAgMTIgMjYuMWM0IDguOCAxMi43IDEzLjkgMjEuOCAxMy45bDAtMzJjMC0xMS40IDMtMjIuMSA4LjItMzEuNEwyNDUuOCAxNDEuOXpNMjI0IDIwOS4zTDI2NCAyOTZsLTgwIDAgNDAtODYuN3pNNDY0IDI0MGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDQ4LTY0IDAgMC00OGMwLTE3LjcgMTQuMy0zMiAzMi0zMnptLTgwIDMybDAgNDhjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMTI4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDE2MCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTI4YzAtMTcuNy0xNC4zLTMyLTMyLTMybDAtNDhjMC00NC4yLTM1LjgtODAtODAtODBzLTgwIDM1LjgtODAgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-a-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-a-lock.svg)
  */
 const SquareALock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `whistle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whistle?s=sharp-solid whistle}
- * @preview ![whistle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQuMSAxODguOEMxOC41IDE4MC41IDAgMTU2LjQgMCAxMjhDMCA5Mi43IDI4LjcgNjQgNjQgNjRjMjMuNCAwIDQzLjggMTIuNSA1NSAzMS4yQzE0OS4yIDc1LjUgMTg1LjIgNjQgMjI0IDY0YzQ2LjYgMCA5MS45IDE1LjcgMTI4LjUgNDQuN2w3OC4xIDYxLjhMNDE2IDIyNGwzMiAyNCA0NS45LTI3LjVMNjQwIDMzNiA1MzYgNDQ4IDM4MC43IDM2N2MtMzQuOCA0OS05MiA4MS0xNTYuNyA4MUMxMTggNDQ4IDMyIDM2MiAzMiAyNTZjMC0yMy42IDQuMy00Ni4zIDEyLjEtNjcuMnpNODAgMTI4YTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6TTIyNCAzMjBhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![whistle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/whistle.svg)
  */
 const Whistle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

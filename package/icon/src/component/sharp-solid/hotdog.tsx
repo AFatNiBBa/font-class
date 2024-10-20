@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hotdog` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotdog?s=sharp-solid hotdog}
- * @preview ![hotdog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA3LjIgNDYzLjJsMjU2LTI1Nkw1MTIgMjU2IDI1NiA1MTJsLTQ4LjgtNDguOHpNMCAyNTZMMjU2IDBsNDguOCA0OC44LTI1NiAyNTZMMCAyNTZ6TTQ4OC42IDIzLjRjMzEuMiAzMS4yIDMxLjIgODEuOSAwIDExMy4xbC0zNTIgMzUyYy0zMS4yIDMxLjItODEuOSAzMS4yLTExMy4xIDBzLTMxLjItODEuOSAwLTExMy4xbDM1Mi0zNTJjMzEuMi0zMS4yIDgxLjktMzEuMiAxMTMuMSAwem0tMzUuNCA4OC41TDQzOS45IDgyLjhsLTE0LjYgNi42LTg4IDQwLTUuNSAyLjUtMi41IDUuNS0zNy41IDgyLjUtODIuNSAzNy41LTUuNSAyLjUtMi41IDUuNS0zNy41IDgyLjVMODEuNCAzODUuNGwtMTQuNiA2LjYgMTMuMiAyOS4xIDE0LjYtNi42IDg4LTQwIDUuNS0yLjUgMi41LTUuNSAzNy41LTgyLjUgODIuNS0zNy41IDUuNS0yLjUgMi41LTUuNSAzNy41LTgyLjUgODIuNS0zNy41IDE0LjYtNi42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hotdog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hotdog.svg)
  */
 const Hotdog: typeof Icon = x => (
     <Icon {...x}>

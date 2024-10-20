@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `utensils-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utensils-slash?s=sharp-light utensils-slash}
- * @preview ![utensils-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDMzNmwwLTE2IDAtMjg4IDAtMzJMNTEyIDBDNDk2IDAgMzg0IDMyIDM4NCAxNzZsMCA0OSAzMiAyNS4zIDAtNzQuMmMwLTYyLjUgMjMuOC05Ny43IDQ3LTExNy44YzEyLTEwLjQgMjQuNC0xNy4yIDM0LjUtMjEuM2M3LjYtMy4xIDEyLjYtNC4yIDE0LjMtNC42bC4yLS4xTDUxMiAzMjBsLTcuNiAwTDU0NCAzNTEuM2wwLTE1LjN6TTIyNCAyNjEuOEwxNzYuMiAyMjRsLS4yIDBjLTIyLjcgMC00MS44LTE1LjgtNDYuNy0zN0w5Ni4xIDE2MC44Yy0uMSAxLjUtLjEgMy0uMSA0LjVMOTYgMTc2YzAgNDQuMiAzNS44IDgwIDgwIDgwbDE2IDAgMCAyNDAgMCAxNiAzMiAwIDAtMTYgMC0yMzQuMnpNMTY4IDE1LjJMMTY2LjEgNTMgMTk3IDc3LjNsMy02MC41TDIwMC44IDBsLTMyIDBMMTY4IDE1LjJ6bS00OC4zIDEuMUwxNDguNCAzOWw2LjUtMzlMMTIyLjQgMGwtMi43IDE2LjN6TTMyMCAxNjUuM2MwLTQuNC0uNC04LjgtMS4xLTEzLjJMMjkzLjYgMCAyNjEuMSAwbDI0LjYgMTQ3LjRMMzIwIDE3NC41bDAtOS4yek0yNDggMTUuMkwyNDcuMiAwbC0zMiAwIC44IDE2LjhMMjIwIDk1LjVsMzMuNCAyNi4zTDI0OCAxNS4yek0zMi40IDEwTDE5LjkgLjEgLjEgMjUuM2wxMi42IDkuOUw2MDcuOCA1MDIuMmwxMi42IDkuOSAxOS44LTI1LjItMTIuNi05LjlMMzIuNCAxMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![utensils-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/utensils-slash.svg)
  */
 const UtensilsSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

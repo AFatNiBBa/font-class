@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hourglass-start` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-start?s=solid hourglass-start}
- * @preview ![hourglass-start](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEMxNC4zIDAgMCAxNC4zIDAgMzJTMTQuMyA2NCAzMiA2NGwwIDExYzAgNDIuNCAxNi45IDgzLjEgNDYuOSAxMTMuMUwxNDYuNyAyNTYgNzguOSAzMjMuOUM0OC45IDM1My45IDMyIDM5NC42IDMyIDQzN2wwIDExYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDMyIDAgMjU2IDAgMzIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwwLTExYzAtNDIuNC0xNi45LTgzLjEtNDYuOS0xMTMuMUwyMzcuMyAyNTZsNjcuOS02Ny45YzMwLTMwIDQ2LjktNzAuNyA0Ni45LTExMy4xbDAtMTFjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMMzIwIDAgNjQgMCAzMiAwek0yODggNDM3bDAgMTFMOTYgNDQ4bDAtMTFjMC0yNS41IDEwLjEtNDkuOSAyOC4xLTY3LjlMMTkyIDMwMS4zbDY3LjkgNjcuOWMxOCAxOCAyOC4xIDQyLjQgMjguMSA2Ny45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hourglass-start](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hourglass-start.svg)
  */
 const HourglassStart: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

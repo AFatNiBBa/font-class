@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wand` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wand?s=regular wand}
- * @preview ![wand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU5LjEgNDhjLTEuMiAwLTIuNCAuNC0zLjMgMS4zTDUyLjQgNDE0LjdjLTIuOCAyLjUtNC40IDYuMS00LjQgOS45YzAgMy41IDEuNCA2LjkgMy45IDkuNEw3OCA0NjAuMWMyLjUgMi41IDUuOSAzLjkgOS40IDMuOWMzLjggMCA3LjMtMS42IDkuOS00LjRMNDYyLjcgNTYuMWMuOC0uOSAxLjMtMi4xIDEuMy0zLjNjMC0yLjctMi4yLTQuOS00LjktNC45ek00MjMuNiAxMy43QzQzMy40IDQuOSA0NDYgMCA0NTkuMSAwQzQ4OC4zIDAgNTEyIDIzLjcgNTEyIDUyLjljMCAxMy4xLTQuOSAyNS44LTEzLjcgMzUuNWwtNDYuMiA1MWMtMi43IDIuOS00LjEgNi44LTQuMSAxMC43bDAgMjUuOWMwIDguOC03LjIgMTYtMTYgMTZsLTIwLjQgMGMtNC41IDAtOC44IDEuOS0xMS45IDUuM0wxMzIuOSA0OTEuOEMxMjEuMyA1MDQuNyAxMDQuOCA1MTIgODcuNSA1MTJjLTE2LjMgMC0zMS45LTYuNS00My40LTE4TDE4IDQ2Ny45QzYuNSA0NTYuNCAwIDQ0MC44IDAgNDI0LjVjMC0xNy4zIDcuMy0zMy44IDIwLjItNDUuNGw3MC42LTYzLjljMy4zLTMgNS4zLTcuMyA1LjMtMTEuOUw5NiAyNzJjMC04LjggNy4yLTE2IDE2LTE2bDM3LjkgMGM0IDAgNy44LTEuNSAxMC43LTQuMWwyNjMtMjM4LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![wand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/wand.svg)
  */
 const Wand: typeof Icon = x => (
     <Icon {...x}>

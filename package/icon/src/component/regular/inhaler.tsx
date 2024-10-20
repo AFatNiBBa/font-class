@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `inhaler` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inhaler?s=regular inhaler}
- * @preview ![inhaler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI5LjggMzIuN2wxMjggMzJjNi4zIDEuNiAxMS42IDUuNiAxNC45IDExLjJzNC4xIDEyLjIgMi40IDE4LjRMNTMzLjIgMjQ4IDM4Ni45IDEwMS42bDE0LTUxLjhjMy40LTEyLjYgMTYuMy0yMC4yIDI5LTE3ek0zODkgMjE2LjlsLTIuMSA3LjhDMzc5LjQgMjUyLjYgMzU0IDI3MiAzMjUuMSAyNzJMMjQwIDI3MmwwIDE2MCAyMDkuOSAwIDMzLTEyMS4yLTk0LTk0ek01MzAgMjkwYzQuMSA0LjEgNS42IDEwIDQuMSAxNS41bC0zOS41IDE0NUM0ODkuOCA0NjcuOSA0NzQgNDgwIDQ1NiA0ODBsLTIyNCAwYy0yMi4xIDAtNDAtMTcuOS00MC00MGwwLTE3NmMwLTIyLjEgMTcuOS00MCA0MC00MGw5My4xIDBjNy4yIDAgMTMuNi00LjkgMTUuNC0xMS44TDM1NyAxNTAuOWMzLjItMTEuOSAxOC4xLTE1LjkgMjYuOC03LjJMNTMwIDI5MHpNMCAyNTZhMzIgMzIgMCAxIDEgNjQgMEEzMiAzMiAwIDEgMSAwIDI1NnptMCA5NmEzMiAzMiAwIDEgMSA2NCAwQTMyIDMyIDAgMSAxIDAgMzUyem0xMjgtODBhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0ek0wIDQ0OGEzMiAzMiAwIDEgMSA2NCAwQTMyIDMyIDAgMSAxIDAgNDQ4em0xMjgtODBhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![inhaler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/inhaler.svg)
  */
 const Inhaler: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

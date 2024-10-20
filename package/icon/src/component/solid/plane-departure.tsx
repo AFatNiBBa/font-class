@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-departure` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-departure?s=solid plane-departure}
- * @preview ![plane-departure](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgxIDExNC45TDE4Ni4xIDQxLjhjLTE2LjctNi4yLTM1LjItNS4zLTUxLjEgMi43TDg5LjEgNjcuNEM3OCA3MyA3Ny4yIDg4LjUgODcuNiA5NS4ybDE0Ni45IDk0LjVMMTM2IDI0MCA3Ny44IDIxNC4xYy04LjctMy45LTE4LjgtMy43LTI3LjMgLjZMMTguMyAyMzAuOGMtOS4zIDQuNy0xMS44IDE2LjgtNSAyNC43bDczLjEgODUuM2M2LjEgNy4xIDE1IDExLjIgMjQuMyAxMS4ybDEzNy43IDBjNSAwIDkuOS0xLjIgMTQuMy0zLjRMNTM1LjYgMjEyLjJjNDYuNS0yMy4zIDgyLjUtNjMuMyAxMDAuOC0xMTJDNjQ1LjkgNzUgNjI3LjIgNDggNjAwLjIgNDhsLTU3LjQgMGMtMjAuMiAwLTQwLjIgNC44LTU4LjIgMTRMMzgxIDExNC45ek0wIDQ4MGMwIDE3LjcgMTQuMyAzMiAzMiAzMmw1NzYgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMkwzMiA0NDhjLTE3LjcgMC0zMiAxNC4zLTMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![plane-departure](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plane-departure.svg)
  */
 const PlaneDeparture: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

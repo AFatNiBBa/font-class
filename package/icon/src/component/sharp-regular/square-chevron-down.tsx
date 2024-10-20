@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-chevron-down` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-chevron-down?s=sharp-regular square-chevron-down}
- * @preview ![square-chevron-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDgwTDQ4IDgwbDAgMzUyIDM1MiAwIDAtMzUyem00OC00OGwwIDQ4IDAgMzUyIDAgNDgtNDggMEw0OCA0ODAgMCA0ODBsMC00OEwwIDgwIDAgMzJsNDggMCAzNTIgMCA0OCAwek0yMDcgMzQ1TDEwMyAyNDFsLTE3LTE3TDEyMCAxOTAuMWwxNyAxNyA4NyA4NyA4Ny04NyAxNy0xN0wzNjEuOSAyMjRsLTE3IDE3TDI0MSAzNDVsLTE3IDE3LTE3LTE3eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-chevron-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-chevron-down.svg)
  */
 const SquareChevronDown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

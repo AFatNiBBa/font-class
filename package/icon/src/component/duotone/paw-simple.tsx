@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `paw-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paw-simple?s=duotone paw-simple}
- * @preview ![paw-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE5MmE0OCA0OCAwIDEgMCA5NiAwQTQ4IDQ4IDAgMSAwIDAgMTkyek05NiA4MGE0OCA0OCAwIDEgMCA5NiAwQTQ4IDQ4IDAgMSAwIDk2IDgwem0xNjAgMGE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAwem05NiAxMTJhNDggNDggMCAxIDAgOTYgMCA0OCA0OCAwIDEgMCAtOTYgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTk3LjcgMjg2YzYuMi0yLjMgMTEuOC02LjMgMTUtMTIuMmw0MC03MS45YzE0LjQtMjUuOSA0MS43LTQyIDcxLjMtNDJzNTYuOSAxNi4xIDcxLjMgNDJsNDAgNzEuOWMzLjIgNS44IDguOCA5LjkgMTUgMTIuMmMzOC4zIDE0IDY1LjcgNTAuOCA2NS43IDk0YzAgNTUuMi00NC44IDEwMC0xMDAgMTAwYy0yMS4yIDAtNDAuOC02LjYtNTYuOS0xNy44Yy0xNy40LTEyLTUyLjgtMTItNzAuMSAwQzE3Mi44IDQ3My40IDE1My4yIDQ4MCAxMzIgNDgwQzc2LjggNDgwIDMyIDQzNS4yIDMyIDM4MGMwLTQzLjIgMjcuNC04MCA2NS43LTk0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![paw-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/paw-simple.svg)
  */
 const PawSimple: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M0 192a48 48 0 1 0 96 0A48 48 0 1 0 0 192zM96 80a48 48 0 1 0 96 0A48 48 0 1 0 96 80zm160 0a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm96 112a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-            <path d="M97.7 286c6.2-2.3 11.8-6.3 15-12.2l40-71.9c14.4-25.9 41.7-42 71.3-42s56.9 16.1 71.3 42l40 71.9c3.2 5.8 8.8 9.9 15 12.2c38.3 14 65.7 50.8 65.7 94c0 55.2-44.8 100-100 100c-21.2 0-40.8-6.6-56.9-17.8c-17.4-12-52.8-12-70.1 0C172.8 473.4 153.2 480 132 480C76.8 480 32 435.2 32 380c0-43.2 27.4-80 65.7-94z" />
+        <path d="M97.7 286c6.2-2.3 11.8-6.3 15-12.2l40-71.9c14.4-25.9 41.7-42 71.3-42s56.9 16.1 71.3 42l40 71.9c3.2 5.8 8.8 9.9 15 12.2c38.3 14 65.7 50.8 65.7 94c0 55.2-44.8 100-100 100c-21.2 0-40.8-6.6-56.9-17.8c-17.4-12-52.8-12-70.1 0C172.8 473.4 153.2 480 132 480C76.8 480 32 435.2 32 380c0-43.2 27.4-80 65.7-94z" />
     </Icon>
 );
 

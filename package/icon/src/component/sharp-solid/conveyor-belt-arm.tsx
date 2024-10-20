@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `conveyor-belt-arm` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt-arm?s=sharp-solid conveyor-belt-arm}
- * @preview ![conveyor-belt-arm](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMzIgMEwzMjAgMGwzMiAwIDAgNjQtMzIgMC01Mi45IDAtNS43IDM0Yy44IDEgMS41IDIgMi4zIDNsMjA0LjUgMjcuMyAxMS44IDEuNiAwIDY0LjYgMCAxMy42IDAgMTZzMCAwIDAgMGwtMzIgMCAwLTE2IDAtMTcuOUwyNTUuMiAxNjQuNGMtOC40IDcuMi0xOS4zIDExLjYtMzEuMiAxMS42Yy0yNi41IDAtNDgtMjEuNS00OC00OGMwLTE3LjEgOC45LTMyIDIyLjMtNDAuNkwyMDIuMiA2NCAxNjAgNjRsLTMyIDAgMC02NHptOTYgMTQ0YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnpNNDE2IDI1Nmw5NiAwIDAgNjQgMzIgMGM1MyAwIDk2IDQzIDk2IDk2cy00MyA5Ni05NiA5Nkw5NiA1MTJjLTUzIDAtOTYtNDMtOTYtOTZzNDMtOTYgOTYtOTZsMC02NCA5NiAwIDAgNjQgNjQgMCAwLTY0IDk2IDAgMCA2NCA2NCAwIDAtNjR6TTEyOCA0NDhhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0em0yMjQtMzJhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptMTYwIDMyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![conveyor-belt-arm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/conveyor-belt-arm.svg)
  */
 const ConveyorBeltArm: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

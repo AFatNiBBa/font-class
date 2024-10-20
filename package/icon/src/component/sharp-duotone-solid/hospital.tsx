@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `hospital` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hospital?s=sharp-duotone-solid hospital}
- * @preview ![hospital](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk2bDAgOTYgODAgMCAxNiAwIDAgMzItMTYgMEwwIDIyNGwwIDY0IDgwIDAgMTYgMCAwIDMyLTE2IDBMMCAzMjAgMCA1MTJsMTYwIDAgMC00MTZMMCA5NnptNDgwIDBsMCA0MTYgMTYwIDAgMC0xOTItODAgMC0xNiAwIDAtMzIgMTYgMCA4MCAwIDAtNjQtODAgMC0xNiAwIDAtMzIgMTYgMCA4MCAwIDAtOTZMNDgwIDk2eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDgwIDBMMTYwIDBsMCA1MTIgMTEyIDAgMC0xMjggOTYgMCAwIDEyOCAxMTIgMEw0ODAgMHpNMzQ0IDY0bDAgNDAgNDAgMCAwIDQ4LTQwIDAgMCA0MC00OCAwIDAtNDAtNDAgMCAwLTQ4IDQwIDAgMC00MCA0OCAwek01NjAgMjI0bDgwIDAgMC0zMi04MCAwLTE2IDAgMCAzMiAxNiAwem0wIDk2bDgwIDAgMC0zMi04MCAwLTE2IDAgMCAzMiAxNiAwek0wIDIyNGw4MCAwIDE2IDAgMC0zMi0xNiAwTDAgMTkybDAgMzJ6bTAgOTZsODAgMCAxNiAwIDAtMzItMTYgMEwwIDI4OGwwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hospital](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hospital.svg)
  */
 const Hospital: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 96l0 96 80 0 16 0 0 32-16 0L0 224l0 64 80 0 16 0 0 32-16 0L0 320 0 512l160 0 0-416L0 96zm480 0l0 416 160 0 0-192-80 0-16 0 0-32 16 0 80 0 0-64-80 0-16 0 0-32 16 0 80 0 0-96L480 96z" />
-            <path d="M480 0L160 0l0 512 112 0 0-128 96 0 0 128 112 0L480 0zM344 64l0 40 40 0 0 48-40 0 0 40-48 0 0-40-40 0 0-48 40 0 0-40 48 0zM560 224l80 0 0-32-80 0-16 0 0 32 16 0zm0 96l80 0 0-32-80 0-16 0 0 32 16 0zM0 224l80 0 16 0 0-32-16 0L0 192l0 32zm0 96l80 0 16 0 0-32-16 0L0 288l0 32z" />
+        <path d="M480 0L160 0l0 512 112 0 0-128 96 0 0 128 112 0L480 0zM344 64l0 40 40 0 0 48-40 0 0 40-48 0 0-40-40 0 0-48 40 0 0-40 48 0zM560 224l80 0 0-32-80 0-16 0 0 32 16 0zm0 96l80 0 0-32-80 0-16 0 0 32 16 0zM0 224l80 0 16 0 0-32-16 0L0 192l0 32zm0 96l80 0 16 0 0-32-16 0L0 288l0 32z" />
     </Icon>
 );
 

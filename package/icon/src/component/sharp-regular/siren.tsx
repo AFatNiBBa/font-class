@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `siren` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/siren?s=sharp-regular siren}
- * @preview ![siren](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ1LjYgMzA0bDQ4LjQgMEwzNjggOTYgODAgOTYgNTQgMzA0bDQ4LjQgMCAyMC0xNjAgMjAzLjMgMCAyMCAxNjB6bS0xNjUuNSAwbDExLjgtOTQgMi4yLTE4LTMyLjIgMC0xLjggMTQtMTIuMiA5OCAzMi4yIDB6TTQ4IDM4NGwzNTIgMCAwIDQ4TDQ4IDQzMmwwLTQ4ek0wIDMzNmwwIDQ4IDAgNDggMCA0OCA0OCAwIDM1MiAwIDQ4IDAgMC00OCAwLTQ4IDAtNDgtNDggMEw0OCAzMzYgMCAzMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![siren](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/siren.svg)
  */
 const Siren: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

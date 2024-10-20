@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glass-citrus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-citrus?s=thin glass-citrus}
- * @preview ![glass-citrus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzcxLjUgMjcyQzQ0MC42IDI3MC4xIDQ5NiAyMTMuNSA0OTYgMTQ0YzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4Yy01My43IDAtOTkuNyAzMy4xLTExOC43IDgwbC0xNy4xIDBDMjUyIDQwLjEgMzA1LjMgMCAzNjggMGM3OS41IDAgMTQ0IDY0LjUgMTQ0IDE0NGMwIDc5LTYzLjYgMTQzLjEtMTQyLjMgMTQ0bDEuOC0xNnpNMzIuOCAxNDRjLTkuNSAwLTE2LjkgOC4zLTE1LjkgMTcuN0wyNy4yIDI1NmwyOTcuNSAwTDMzNSAxNjEuN2MxLTkuNS02LjQtMTcuNy0xNS45LTE3LjdMMzIuOCAxNDR6TTQ5LjcgNDYwLjRDNTEuOSA0ODAuNiA2OSA0OTYgODkuNCA0OTZsMTczIDBjMjAuNCAwIDM3LjUtMTUuNCAzOS44LTM1LjZMMzIyLjkgMjcyIDI5IDI3MiA0OS43IDQ2MC40ek0xIDE2My41Qy0xLjEgMTQ0LjYgMTMuNyAxMjggMzIuOCAxMjhsMjg2LjQgMGMxOS4xIDAgMzMuOSAxNi42IDMxLjggMzUuNUwzMTguMSA0NjIuMUMzMTUgNDkwLjUgMjkxIDUxMiAyNjIuNSA1MTJsLTE3MyAwYy0yOC42IDAtNTIuNS0yMS41LTU1LjctNDkuOUwxIDE2My41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![glass-citrus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/glass-citrus.svg)
  */
 const GlassCitrus: typeof Icon = x => (
     <Icon {...x}>

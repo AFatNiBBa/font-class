@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-zipper` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-zipper?s=sharp-light file-zipper}
- * @preview ![file-zipper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDE5MmwtMTYgMCAwLTE2IDAtMTQ0TDMyIDMybDAgNDQ4IDMyMCAwIDAtMjg4LTE0NCAwem0xMzguNy0zMkwyMjQgMzcuMyAyMjQgMTYwbDEyMi43IDB6TTMyIDBMMjMyIDAgMzg0IDE1MmwwIDMyOCAwIDMyLTMyIDBMMzIgNTEyIDAgNTEybDAtMzJMMCAzMiAwIDAgMzIgMHpNNjQgNjRsMTYgMCA2NCAwIDE2IDAgMCAzMi0xNiAwTDgwIDk2IDY0IDk2bDAtMzJ6bTAgNjRsMTYgMCA2NCAwIDE2IDAgMCAzMi0xNiAwLTY0IDAtMTYgMCAwLTMyem0wIDY0bDE2IDAgNjQgMCAxNiAwIDAgMzItMTYgMC02NCAwLTE2IDAgMC0zMnptMzIgNjRsMzIgMCAxMi4xIDAgMy4zIDExLjZMMTU4IDMxOC45YzEuMyA0LjYgMiA5LjMgMiAxNGwwIDMuMWMwIDI2LjUtMjEuNSA0OC00OCA0OHMtNDgtMjEuNS00OC00OGwwLTMuMWMwLTQuNyAuNy05LjUgMi0xNGwxNC43LTUxLjNMODMuOSAyNTYgOTYgMjU2em0uNyA3MS43Yy0uNSAxLjctLjcgMy41LS43IDUuMmwwIDMuMWMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMy4xYzAtMS44LS4yLTMuNS0uNy01LjJMMTE1LjkgMjg4bC03LjkgMEw5Ni43IDMyNy43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-zipper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-zipper.svg)
  */
 const FileZipper: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

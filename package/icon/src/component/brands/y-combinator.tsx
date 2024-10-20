@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `y-combinator` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/y-combinator?s=brands y-combinator}
- * @preview ![y-combinator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDMydjQ0OEgwVjMyaDQ0OHpNMjM2IDI4Ny41TDMxMy41IDE0MmgtMzIuN0wyMzUgMjMzYy00LjcgOS4zLTkgMTguMy0xMi44IDI2LjhMMjEwIDIzM2wtNDUuMi05MWgtMzVsNzYuNyAxNDMuOHY5NC41SDIzNnYtOTIuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![y-combinator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/y-combinator.svg)
  */
 const YCombinator: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

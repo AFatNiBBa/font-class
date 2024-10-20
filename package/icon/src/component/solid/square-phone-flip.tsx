@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-phone-flip` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-phone-flip?s=solid square-phone-flip}
- * @preview ![square-phone-flip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMyYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwzMjAgMHptLTkwLjcgOTYuN2MtOS43LTIuNi0xOS45IDIuMy0yMy43IDExLjZsLTIwIDQ4Yy0zLjQgOC4yLTEgMTcuNiA1LjggMjMuMkwyODAgMjMxLjdjLTE2LjYgMzUuMi00NS4xIDYzLjctODAuMyA4MC4zbC0yMC4yLTI0LjdjLTUuNi02LjgtMTUtOS4yLTIzLjItNS44bC00OCAyMGMtOS4zIDMuOS0xNC4yIDE0LTExLjYgMjMuN2wxMiA0NEMxMTEuMSAzNzggMTE5IDM4NCAxMjggMzg0YzEyMy43IDAgMjI0LTEwMC4zIDIyNC0yMjRjMC05LTYtMTYuOS0xNC43LTE5LjNsLTQ0LTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-phone-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-phone-flip.svg)
  */
 const SquarePhoneFlip: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

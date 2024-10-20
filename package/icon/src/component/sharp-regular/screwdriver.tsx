@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `screwdriver` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screwdriver?s=sharp-regular screwdriver}
- * @preview ![screwdriver](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDEyMGwwIDI0IDI0IDAgNTYuNi03NS41LTUuMS01LjFMMzY4IDEyMHpNNTEyIDY0TDQxNiAxOTJsLTQ4IDAtMTQuMSAwLTgyLjMgODIuMy0zMy45LTMzLjlMMzIwIDE1OC4xbDAtMTQuMSAwLTQ4TDQ0OCAwbDY0IDY0ek0xMjkuOSA0NzguMUw5NiA1MTIgNjIuMSA0NzguMSAzMy45IDQ0OS45IDAgNDE2bDMzLjktMzMuOUwxNTAuMSAyNjUuOSAxODQgMjMybDMzLjkgMzMuOSAyOC4xIDI4LjFMMjgwIDMyOGwtMzMuOSAzMy45TDEyOS45IDQ3OC4xek0yMTIuMSAzMjhMMTg0IDI5OS45IDY3LjkgNDE2IDk2IDQ0NC4xIDIxMi4xIDMyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![screwdriver](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/screwdriver.svg)
  */
 const Screwdriver: typeof Icon = x => (
     <Icon {...x}>

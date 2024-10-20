@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mobile-notch` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-notch?s=regular mobile-notch}
- * @preview ![mobile-notch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4bDAgMTZjMCA4LjgtNy4yIDE2LTE2IDE2bC05NiAwYy04LjggMC0xNi03LjItMTYtMTZsMC0xNkw5NiA0OEM3OC4zIDQ4IDY0IDYyLjMgNjQgODBsMCAzNTJjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTkyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0zNTJjMC0xNy43LTE0LjMtMzItMzItMzJsLTMyIDB6TTE2IDgwQzE2IDM1LjggNTEuOCAwIDk2IDBMMjg4IDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCAzNTJjMCA0NC4yLTM1LjggODAtODAgODBMOTYgNTEyYy00NC4yIDAtODAtMzUuOC04MC04MEwxNiA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mobile-notch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mobile-notch.svg)
  */
 const MobileNotch: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

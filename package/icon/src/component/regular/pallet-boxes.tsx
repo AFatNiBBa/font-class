@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pallet-boxes` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pallet-boxes?s=regular pallet-boxes}
- * @preview ![pallet-boxes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDQ4TDExMiA0OGwwIDE2MCAxNjAgMCAwLTE2MHpNMTEyIDBMMjcyIDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAxNjBjMCAyNi41LTIxLjUgNDgtNDggNDhsLTE2MCAwYy0yNi41IDAtNDgtMjEuNS00OC00OEw2NCA0OEM2NCAyMS41IDg1LjUgMCAxMTIgMHpNNTI4IDExMmwtOTYgMCAwIDk2IDk2IDAgMC05NnpNNDMyIDY0bDk2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA5NmMwIDI2LjUtMjEuNSA0OC00OCA0OGwtOTYgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC05NmMwLTI2LjUgMjEuNS00OCA0OC00OHpNMCAzNDRjMC0xMy4zIDEwLjctMjQgMjQtMjRsNjQgMCAyMzIgMCAyMzIgMCA2NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC00MCAwIDAgOTYgNDAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtNjQgMC0yMzIgMEw4OCA1MTJsLTY0IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsNDAgMCAwLTk2LTQwIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0ek0xMTIgNDY0bDE4NCAwIDAtOTYtMTg0IDAgMCA5NnptMjMyIDBsMTg0IDAgMC05Ni0xODQgMCAwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pallet-boxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pallet-boxes.svg)
  */
 const PalletBoxes: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

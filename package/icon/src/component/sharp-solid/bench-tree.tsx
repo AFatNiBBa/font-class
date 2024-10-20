@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bench-tree` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bench-tree?s=sharp-solid bench-tree}
- * @preview ![bench-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDk2YzAgNS4xLS40IDEwLjItMS4yIDE1LjFDNjI2LjkgMTI1LjcgNjQwIDE0OS4zIDY0MCAxNzZsMCA4MC05NiAwIDAgMjI0IDAgMzItNjQgMCAwLTMyIDAtMjI0LTk2IDAgMC04MGMwLTI2LjcgMTMuMS01MC4zIDMzLjItNjQuOWMtLjgtNC45LTEuMi0xMC0xLjItMTUuMWMwLTUzIDQzLTk2IDk2LTk2czk2IDQzIDk2IDk2ek0zMiAxOTJsMzIwIDAgMCAxMjhMMzIgMzIwbDAtMTI4em0wIDE2MGw2NCAwIDE5MiAwIDY0IDAgMzIgMCAwIDY0LTMyIDAgMCA2NCAwIDMyLTY0IDAgMC0zMiAwLTY0TDk2IDQxNmwwIDY0IDAgMzItNjQgMCAwLTMyIDAtNjRMMCA0MTZsMC02NCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bench-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bench-tree.svg)
  */
 const BenchTree: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

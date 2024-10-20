@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `backpack` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backpack?s=thin backpack}
- * @preview ![backpack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDE2bDgwIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA0MEwxNjAgODBsMC00MGMwLTEzLjMgMTAuNy0yNCAyNC0yNHpNMTQ0IDQwbDAgNDAtMTYgMEM1Ny4zIDgwIDAgMTM3LjMgMCAyMDhMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjQgMCAyNzIgMCAyNCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjQwYzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4bC0xNiAwIDAtNDBjMC0yMi4xLTE3LjktNDAtNDAtNDBMMTg0IDBjLTIyLjEgMC00MCAxNy45LTQwIDQwek0zNjggNDk2bDAtMTEyIDAtNDBjMC0zMC45LTI1LjEtNTYtNTYtNTZsLTE3NiAwYy0zMC45IDAtNTYgMjUuMS01NiA1NmwwIDQwIDAgMTEyLTE2IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjQwQzE2IDE0Ni4xIDY2LjEgOTYgMTI4IDk2bDE5MiAwYzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEybDAgMjQwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0xNiAwek05NiA0OTZsMC0xMDQgMjU2IDAgMCAxMDRMOTYgNDk2em00MC0zMDRjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMTc2IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTE3NiAwek0zNTIgMzc2TDk2IDM3NmwwLTMyYzAtMjIuMSAxNy45LTQwIDQwLTQwbDE3NiAwYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![backpack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/backpack.svg)
  */
 const Backpack: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

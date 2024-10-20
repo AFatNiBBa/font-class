@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `reel` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reel?s=solid reel}
- * @preview ![reel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMkMwIDE0LjMgMTQuMyAwIDMyIDBMNDE2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTMyIDAgMCAyNGMwIDEzLjMtMTAuNyAyNC0yNCAyNEw4OCAxMTJjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtMjRMMzIgNjRDMTQuMyA2NCAwIDQ5LjcgMCAzMnpNMCA0ODBjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIgMCAwLTI0YzAtMTMuMyAxMC43LTI0IDI0LTI0bDI3MiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMjQgMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkwzMiA1MTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMyek04MCAxNDRsMjg4IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZMODAgMTc2Yy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2em0wIDY0bDM1MiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2TDgwIDI0MGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnptMCA2NGwyODggMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkw4MCAzMDRjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6bTAgNjRsMjg4IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZMODAgMzY4Yy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![reel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/reel.svg)
  */
 const Reel: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

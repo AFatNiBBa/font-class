@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-disappointed` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-disappointed?s=sharp-light face-disappointed}
- * @preview ![face-disappointed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTMxNi4xIDQxMC43Yy0xMS43LTEzLTMxLjYtMjYuNy02MC4xLTI2LjdzLTQ4LjQgMTMuNy02MC4xIDI2LjdsLTEwLjcgMTEuOS0yMy44LTIxLjQgMTAuNy0xMS45QzE4OC4yIDM3MS40IDIxNi4zIDM1MiAyNTYgMzUyczY3LjggMTkuNCA4My45IDM3LjNsMTAuNyAxMS45LTIzLjggMjEuNC0xMC43LTExLjl6TTIyMi42IDI1NmwtMTEuMyAxMS4zLTcuNCA3LjRjLTIzLjYgMjMuNi01My45IDM5LjItODYuOCA0NC43bC0yLjUgLjQtMTUuOCAyLjYtNS4zLTMxLjYgMTUuOC0yLjYgMi41LS40YzI2LjMtNC40IDUwLjYtMTYuOSA2OS41LTM1LjdsNy40LTcuNEwyMDAgMjMzLjQgMjIyLjYgMjU2em03OC4xIDExLjNMMjg5LjQgMjU2IDMxMiAyMzMuNGwxMS4zIDExLjMgNy40IDcuNGMxOC45IDE4LjkgNDMuMiAzMS40IDY5LjUgMzUuN2wyLjUgLjQgMTUuOCAyLjYtNS4zIDMxLjYtMTUuOC0yLjYtMi41LS40Yy0zMi45LTUuNS02My4zLTIxLjEtODYuOC00NC43bC03LjQtNy40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-disappointed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-disappointed.svg)
  */
 const FaceDisappointed: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-line?s=solid users-line}
- * @preview ![users-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjExLjIgOTZhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAwek0zMiAyNTZjMCAxNy43IDE0LjMgMzIgMzIgMzJsODUuNiAwYzEwLjEtMzkuNCAzOC42LTcxLjUgNzUuOC04Ni42Yy05LjctNi0yMS4yLTkuNC0zMy40LTkuNGwtOTYgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjR6bTQ2MS42IDMybDgyLjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmMwLTM1LjMtMjguNy02NC02NC02NGwtOTYgMGMtMTEuNyAwLTIyLjcgMy4xLTMyLjEgOC42YzM4LjEgMTQuOCA2Ny40IDQ3LjMgNzcuNyA4Ny40ek0zOTEuMiAyMjYuNGMtNi45LTEuNi0xNC4yLTIuNC0yMS42LTIuNGwtOTYgMGMtOC41IDAtMTYuNyAxLjEtMjQuNSAzLjFjLTMwLjggOC4xLTU1LjYgMzEuMS02Ni4xIDYwLjljLTMuNSAxMC01LjUgMjAuOC01LjUgMzJjMCAxNy43IDE0LjMgMzIgMzIgMzJsMjI0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJjMC0xMS4yLTEuOS0yMi01LjUtMzJjLTEwLjgtMzAuNy0zNi44LTU0LjItNjguOS02MS42ek01NjMuMiA5NmE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6TTMyMS42IDE5MmE4MCA4MCAwIDEgMCAwLTE2MCA4MCA4MCAwIDEgMCAwIDE2MHpNMzIgNDE2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDU3NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMyTDMyIDQxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![users-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/users-line.svg)
  */
 const UsersLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

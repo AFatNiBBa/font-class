@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ups` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ups?s=brands ups}
- * @preview ![ups](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTAzLjIgMzAzYy01LjIgMy42LTMyLjYgMTMuMS0zMi42LTE5VjE4MEgzNy45djEwMi42YzAgNzQuOSA4MC4yIDUxLjEgOTcuOSAzOVYxODBoLTMyLjZ6TTQgNzQuODJ2MjIwLjljMCAxMDMuNyA3NC45IDEzNS4yIDE4Ny43IDE4NC4xIDExMi40LTQ4LjkgMTg3LjctODAuMiAxODcuNy0xODQuMVY3NC44MmMtMTE2LjMtNjEuNi0yODEuOC00OS42LTM3NS40IDB6bTM1OC4xIDIyMC45YzAgODYuNi01My4yIDExMy42LTE3MC40IDE2NS4zLTExNy41LTUxLjgtMTcwLjUtNzguNy0xNzAuNS0xNjUuM3YtMTI2LjRjMTAyLjMtOTMuOCAyMzEuNi0xMDAgMzQwLjktODkuOHptLTIwOS42LTEwNy40djIxMi44aDMyLjd2LTY4LjdjMjQuNCA3LjMgNzEuNy0yLjYgNzEuNy03OC41IDAtOTcuNC04MC43LTgwLjkyLTEwNC40LTY1LjZ6bTMyLjcgMTE3LjN2LTEwMC4zYzguNC00LjIgMzguNC0xMi43IDM4LjQgNDkuMyAwIDY3LjktMzYuNCA1MS44LTM4LjQgNTF6bTc5LjEtODYuNGMuMSA0Ny4zIDUxLjYgNDIuNSA1Mi4yIDcwLjQuNiAyMy41LTMwLjQgMjMtNTAuOCA0Ljl2MzAuMWMzNi4yIDIxLjUgODEuOSA4LjEgODMuMi0zMy41IDEuNy01MS41LTU0LjEtNDYuNi01My40LTczLjIuNi0yMC4zIDMwLjYtMjAuNSA0OC41LTIuMnYtMjguNGMtMjguNS0yMi03OS45LTkuMi03OS43IDMxLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ups](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/ups.svg)
  */
 const Ups: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

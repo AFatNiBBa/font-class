@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `snowplow` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowplow?s=sharp-solid snowplow}
- * @preview ![snowplow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMCAxNjAtNjQgMCAwIDEzOC44QzI2LjIgMzE2LjggMCAzNTUuMyAwIDQwMGMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMmwyNTYgMGM2MS45IDAgMTEyLTUwLjEgMTEyLTExMmMwLTE3LjItMy45LTMzLjUtMTAuOC00OGw0Mi44IDAgMCA2NCAwIDEzLjMgOS40IDkuNCA2NCA2NCA0NS4zLTQ1LjNMNTc2IDQwMi43bDAtNTAuNyAwLTY0IDAtNTIuOEw2MzMgMTY0bC01MC00MC02NCA4MC03IDguOCAwIDExLjIgMCA2NC02NCAwIDAtNjRMMzM5LjggMCAxMjggMHpNNjQgNDAwYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDI1NiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4cy0yMS41IDQ4LTQ4IDQ4bC0yNTYgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDh6TTM4MC4yIDIyNEwyNTYgMjI0bC02NC02NCAwLTk2IDEwOC4yIDAgODAgMTYwek0xMjAgNDI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMjY0LTI0YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6TTI4MCA0MjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em0tNTYtMjRhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![snowplow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/snowplow.svg)
  */
 const Snowplow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

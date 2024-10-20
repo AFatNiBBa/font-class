@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-ski-lift` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-ski-lift?s=solid person-ski-lift}
- * @preview ![person-ski-lift](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTgyLjMtMzIgOC41TDIyNCAxNmMwLTguOCA3LjItMTYgMTYtMTZ6TTY0IDgwYTQ4IDQ4IDAgMSAxIDk2IDBBNDggNDggMCAxIDEgNjQgODB6bTM2LjQgMTM4Yy0xNC4yLTMwLjggOC4zLTY2IDQyLjItNjZjMTguMiAwIDM0LjggMTAuNyA0Mi4zIDI3LjNsMjguOCA2My40IDU1LjktMTQuOWMyNS40LTYuOCA1MC4zIDEyLjQgNTAuMyAzOC42bDAgMTIyLjFMNDQzLjEgMzQzYzEyLjYtNC42IDIwLjktMTYuNiAyMC45LTMwbDAtMWMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0bDAgMWMwIDMzLjUtMjAuOSA2My40LTUyLjMgNzVMMTI4LjMgNTEwLjVjLTEyLjQgNC42LTI2LjItMS44LTMwLjgtMTQuMnMxLjgtMjYuMiAxNC4yLTMwLjhMMjU2IDQxMi4ybDAtMTE0LjUtNjYuNyAxNy44Yy0yMi42IDYtNDYuMi01LjEtNTUuOS0yNi4zTDEwMC40IDIxOHpNNDUuNyAxODkuNmw2NSAxMzUuOGM4LjMgMTcuNCAyOCAyNi40IDQ2LjYgMjEuM2wzNi41LTkuOWMxMi44LTMuNSAyNiA0LjEgMjkuNSAxNi44cy00LjEgMjYtMTYuOCAyOS41bC0zNi41IDkuOWMtNDEgMTEuMi04NC4yLTguNi0xMDIuNS00Ni45TDIuMyAyMTAuNGMtNS43LTEyLS43LTI2LjMgMTEuMy0zMnMyNi4zLS43IDMyIDExLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-ski-lift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-ski-lift.svg)
  */
 const PersonSkiLift: typeof Icon = x => (
     <Icon {...x}>

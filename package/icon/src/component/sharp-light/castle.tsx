@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `castle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/castle?s=sharp-light castle}
- * @preview ![castle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMTYgMCA3MiAwIDE2IDAgMCAxNiAwIDQ4IDMyIDAgMC00OCAwLTE2IDE2IDAgODAgMCAxNiAwIDAgMTYgMCA0OCAzMiAwIDAtNDggMC0xNiAxNiAwIDcyIDAgMTYgMCAwIDE2IDAgMjA4IDMyIDAgMC00OCAwLTE2IDE2IDAgNjQgMCAxNiAwIDAgMTYgMCAzMjAgMCAxNi0xNiAwTDE2IDUxMiAwIDUxMmwwLTE2TDAgMTc2bDAtMTYgMTYgMCA2NCAwIDE2IDAgMCAxNiAwIDQ4IDMyIDAgMC0yMDggMC0xNnptMzIgMjU2bC0xNiAwLTY0IDAtMTYgMCAwLTE2IDAtNDgtMzIgMCAwIDI4OCAxOTIgMCAwLTgwYzAtNTMgNDMtOTYgOTYtOTZzOTYgNDMgOTYgOTZsMCA4MCAxOTIgMCAwLTI4OC0zMiAwIDAgNDggMCAxNi0xNiAwLTY0IDAtMTYgMC0zMjAgMHptMzIwLTMybDAtMTkyLTQwIDAgMCA0OCAwIDE2LTE2IDAtNjQgMC0xNiAwIDAtMTYgMC00OC00OCAwIDAgNDggMCAxNi0xNiAwLTY0IDAtMTYgMCAwLTE2IDAtNDgtNDAgMCAwIDE5MiAzMjAgMHpNMzg0IDQwMGMwLTM1LjMtMjguNy02NC02NC02NHMtNjQgMjguNy02NCA2NGwwIDgwIDEyOCAwIDAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![castle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/castle.svg)
  */
 const Castle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

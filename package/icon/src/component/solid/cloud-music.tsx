@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-music` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-music?s=solid cloud-music}
- * @preview ![cloud-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDQ4MEM2NC41IDQ4MCAwIDQxNS41IDAgMzM2YzAtNjIuOCA0MC4yLTExNi4yIDk2LjItMTM1LjljLS4xLTIuNy0uMi01LjQtLjItOC4xYzAtODguNCA3MS42LTE2MCAxNjAtMTYwYzU5LjMgMCAxMTEgMzIuMiAxMzguNyA4MC4yQzQwOS45IDEwMiA0MjguMyA5NiA0NDggOTZjNTMgMCA5NiA0MyA5NiA5NmMwIDEyLjItMi4zIDIzLjgtNi40IDM0LjZDNTk2IDIzOC40IDY0MCAyOTAuMSA2NDAgMzUyYzAgNzAuNy01Ny4zIDEyOC0xMjggMTI4bC0zNjggMHpNNDE2IDE4NGMwLTUuMi0yLjYtMTAuMi02LjktMTMuMnMtOS44LTMuNy0xNC43LTEuOGwtMTI4IDQ4Yy02LjIgMi4zLTEwLjQgOC4zLTEwLjQgMTVsMCAzMiAwIDgxLjhjLTUtMS4yLTEwLjQtMS44LTE2LTEuOGMtMjYuNSAwLTQ4IDE0LjMtNDggMzJzMjEuNSAzMiA0OCAzMnM0OC0xNC4zIDQ4LTMybDAtMTAwLjkgOTYtMzYgMCA3NC43Yy01LTEuMi0xMC40LTEuOC0xNi0xLjhjLTI2LjUgMC00OCAxNC4zLTQ4IDMyczIxLjUgMzIgNDggMzJzNDgtMTQuMyA0OC0zMmwwLTEyOCAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloud-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-music.svg)
  */
 const CloudMusic: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

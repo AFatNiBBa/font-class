@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-left-from-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-from-line?s=thin arrow-left-from-line}
- * @preview ![arrow-left-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMi4zIDI1MC4zYy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zbDEzNiAxMzZjMy4xIDMuMSA4LjIgMy4xIDExLjMgMHMzLjEtOC4yIDAtMTEuM0wyNy4zIDI2NCAzNDQgMjY0YzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDI3LjMgMjQ4IDE0OS43IDEyNS43YzMuMS0zLjEgMy4xLTguMiAwLTExLjNzLTguMi0zLjEtMTEuMyAwbC0xMzYgMTM2ek00MzIgNDQwYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0zNjhjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCAzNjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-left-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-left-from-line.svg)
  */
 const ArrowLeftFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

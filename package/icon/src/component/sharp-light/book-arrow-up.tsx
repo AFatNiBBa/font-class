@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-arrow-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-arrow-up?s=sharp-light book-arrow-up}
- * @preview ![book-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhzMCAwIDAgMGMwIDM1LjMgMjguNyA2NCA2NCA2NGwxMTIgMCAwLTMyTDY0IDQ4MGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmwxMTIgMCAwLTMyTDY0IDM4NGMtMTEuNyAwLTIyLjYgMy4xLTMyIDguNkwzMiA2NGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzNTIgMCAwIDM1Mi0xMTIgMCAwIDMyIDgwIDAgMCA2NC04MCAwIDAgMzIgMTI4IDAgMTYgMCAwLTMyLTE2IDAtMTYgMCAwLTY0IDE2IDAgMTYgMCAwLTE2IDAtMzg0IDAtMTZMNDMyIDAgNjQgMHptNjguNyAyMjguN0wxMjEuNCAyNDAgMTQ0IDI2Mi42bDExLjMtMTEuM0wyMjQgMTgyLjYgMjI0IDQ5NmwwIDE2IDMyIDAgMC0xNiAwLTMxMy40IDY4LjcgNjguN0wzMzYgMjYyLjYgMzU4LjYgMjQwbC0xMS4zLTExLjMtOTYtOTZMMjQwIDEyMS40bC0xMS4zIDExLjMtOTYgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/book-arrow-up.svg)
  */
 const BookArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

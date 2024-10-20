@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-zipper` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-zipper?s=sharp-solid face-zipper}
- * @preview ![face-zipper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI1NmMwIDQwLTkuMiA3Ny44LTI1LjUgMTExLjVsLTg4LjItNDQuMS0yMC42LTEwLjMtMTYuMyAxNi4zTDMzNiAzNTQuN2wwLTE4LjcgMC0xNi0zMiAwIDAgMTYgMCAzMiAwIDE2IDEyLjIgMCA3LjIgMTQuMyA0NC4xIDg4LjJDMzMzLjggNTAyLjggMjk2IDUxMiAyNTYgNTEyQzExNC42IDUxMiAwIDM5Ny40IDAgMjU2UzExNC42IDAgMjU2IDBTNTEyIDExNC42IDUxMiAyNTZ6TTE3Ni40IDI0MGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6bTE5Mi0zMmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwek0xNDQgMzM2bDAtMTYtMzIgMCAwIDE2IDAgMzIgMCAxNiAzMiAwIDAtMTYgMC0zMnptNjQgMGwwLTE2LTMyIDAgMCAxNiAwIDMyIDAgMTYgMzIgMCAwLTE2IDAtMzJ6bTY0IDBsMC0xNi0zMiAwIDAgMTYgMCAzMiAwIDE2IDMyIDAgMC0xNiAwLTMyem0yNDAgODBsMCAzMi02NCA2NC0zMiAwTDM1MiAzODRsMzItMzIgMTI4IDY0em0tNjMuNSAxNi41TDQ1NyA0MjRsLTE3LTE3LTguNSA4LjUtMTYgMTZMNDA3IDQ0MGwxNyAxNyA4LjUtOC41IDE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-zipper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-zipper.svg)
  */
 const FaceZipper: typeof Icon = x => (
     <Icon {...x}>

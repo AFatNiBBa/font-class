@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `airplay` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/airplay?s=light airplay}
- * @preview ![airplay](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDY0TDk2IDY0Yy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDE5MmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzNy41IDAtMTguNyAxOC43Yy00IDQtNy40IDguNS0xMC4yIDEzLjNMOTYgNDE2Yy01MyAwLTk2LTQzLTk2LTk2TDAgMTI4QzAgNzUgNDMgMzIgOTYgMzJsMzg0IDBjNTMgMCA5NiA0MyA5NiA5NmwwIDE5MmMwIDUzLTQzIDk2LTk2IDk2bC04LjYgMGMtMi44LTQuOC02LjItOS4yLTEwLjItMTMuM0w0NDIuNSAzODRsMzcuNSAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMTkyYzAtMzUuMy0yOC43LTY0LTY0LTY0ek0xNjIuMiA0MzUuN2MtMS40IDEuMy0yLjIgMy4yLTIuMiA1LjJjMCAzLjkgMy4yIDcuMSA3LjEgNy4xbDI0MS43IDBjMy45IDAgNy4xLTMuMiA3LjEtNy4xYzAtMi0uOC0zLjgtMi4yLTUuMkwyOTMuNiAzMjIuMmMtMS40LTEuMy0zLjUtMi4yLTUuNi0yLjJzLTQuMiAuOC01LjYgMi4yTDE2Mi4yIDQzNS43em0tMjItMjMuM0wyNjAuNCAyOTguOWM3LjQtNyAxNy40LTEwLjkgMjcuNi0xMC45czIwLjEgMy45IDI3LjYgMTAuOUw0MzUuNyA0MTIuNGM3LjggNy40IDEyLjMgMTcuNyAxMi4zIDI4LjVjMCAyMS42LTE3LjUgMzkuMS0zOS4xIDM5LjFsLTI0MS43IDBjLTIxLjYgMC0zOS4xLTE3LjUtMzkuMS0zOS4xYzAtMTAuOCA0LjQtMjEuMSAxMi4zLTI4LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![airplay](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/airplay.svg)
  */
 const Airplay: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

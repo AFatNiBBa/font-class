@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `apartment` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apartment?s=sharp-solid apartment}
- * @preview ![apartment](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDBMMTI4IDBsMCA5NkwwIDk2IDAgNTEybDEyOCAwIDMyIDAgOTYgMCAwLTEyOCA2NCAwIDAgMTI4IDk2IDAgMzIgMCAxMjggMCAwLTMyMC0xMjggMEw0NDggMHpNMzIwIDMyMGwwLTY0IDY0IDAgMCA2NC02NCAwem0xOTIgOTZsLTY0IDAgMC02NCA2NCAwIDAgNjR6TTY0IDMyMGwwLTY0IDY0IDAgMCA2NC02NCAwem02NCA5NmwtNjQgMCAwLTY0IDY0IDAgMCA2NHptNjQtOTZsMC02NCA2NCAwIDAgNjQtNjQgMHpNMzg0IDY0bDAgNjQtNjQgMCAwLTY0IDY0IDB6TTE5MiA2NGw2NCAwIDAgNjQtNjQgMCAwLTY0ek0zODQgMjI0bC02NCAwIDAtNjQgNjQgMCAwIDY0em02NCA5NmwwLTY0IDY0IDAgMCA2NC02NCAwek0xMjggMjI0bC02NCAwIDAtNjQgNjQgMCAwIDY0em02NCAwbDAtNjQgNjQgMCAwIDY0LTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![apartment](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/apartment.svg)
  */
 const Apartment: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

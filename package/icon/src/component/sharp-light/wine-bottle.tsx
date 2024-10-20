@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wine-bottle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wine-bottle?s=sharp-light wine-bottle}
- * @preview ![wine-bottle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIyLjYgMEw1MTIgODkuNGwwIDIyLjYtMTEuMyAxMS4zLTEwLjctMTAuNy05OC4yIDk4LjJjMTAuOCA0MS45LS4yIDg4LjItMzIuOSAxMjAuOUwyMDEuMSA0ODkuNCAxNzguNSA1MTJsLTIyLjYtMjIuNkwyMi42IDM1Ni4xIDAgMzMzLjVsMjIuNi0yMi42TDE4MC4yIDE1My4zYzMyLjgtMzIuOCA3OS4xLTQzLjggMTIwLjktMzIuOWw5OC4yLTk4LjJMMzg4LjcgMTEuMyA0MDAgMGwyMi42IDB6bTQ0LjcgODkuOUw0MjIuMSA0NC43IDM3Mi43IDk0LjFsNDUuMyA0NS4zIDQ5LjQtNDkuNHptLTcyIDcybC00NS4zLTQ1LjMtMjYuMiAyNi4yLTEyLjkgMTIuOS0xNy43LTQuNmMtMzEuMy04LjEtNjUuOSAuMi05MC4zIDI0LjZsLTIuMiAyLjJMMzMzLjkgMzExLjNsMi4yLTIuMmMyNC40LTI0LjQgMzIuNy01OSAyNC42LTkwLjNsLTQuNi0xNy43IDEyLjktMTIuOSAyNi4yLTI2LjJ6bS04NCAxNzJMMTc4LjEgMjAwLjdsLTczLjQgNzMuNEwyMzcuOSA0MDcuM2w3My40LTczLjR6bS05NiA5Nkw4Mi4xIDI5Ni43IDQ1LjMgMzMzLjUgMTc4LjUgNDY2LjdsMzYuOC0zNi44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wine-bottle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/wine-bottle.svg)
  */
 const WineBottle: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bug-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug-slash?s=sharp-thin bug-slash}
- * @preview ![bug-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTY4IDI5Nmw4IDAgMC0xNi04IDAtODggMCAwLTEwNCAwLTQuNyA2MS43LTYxLjcgNS43LTUuN0w1MzYgOTIuN2wtNS43IDUuN0w0NjguNyAxNjBsLTQuNyAwLTE0OS40IDAgMjAuMyAxNkw0NjQgMTc2bDAgMTAyIDIyLjkgMTggODEuMSAwek0zMjggNDYzLjhMMzI4IDM1NGwtMTYtMTIuNiAwIDEyMi40Yy03NS44LTQuMi0xMzYtNjYuOS0xMzYtMTQzLjhsMC0yNCAwLTE2IDAtNDYtMTYtMTIuNiAwIDU4LjYtODggMC04IDAgMCAxNiA4IDAgODggMCAwIDI0YzAgMzMuMSAxMC4xIDYzLjkgMjcuMyA4OS40bC0uOSAuOS04MCA4MC01LjcgNS43TDExMiA1MDcuM2w1LjctNS43TDE5NyA0MjIuM2MyNy44IDMzLjMgNjguOCA1NS4yIDExNSA1Ny41bDAgLjIgOCAwIDggMCAwLS4yYzM5LjktMiA3Ni0xOC41IDEwMi45LTQ0LjVsLTEyLjctMTBjLTIzLjkgMjIuMy01NS40IDM2LjYtOTAuMiAzOC41ek00MDAgMTI4bDE2IDAgMC0xNiAwLTE2YzAtNTMtNDMtOTYtOTYtOTZjLTUwLjYgMC05MiAzOS4xLTk1LjcgODguN0wyNDAgMTAxLjFsMC01LjFjMC00NC4yIDM1LjgtODAgODAtODBzODAgMzUuOCA4MCA4MGwwIDE2LTE0Ni4yIDAgMjAuMyAxNkw0MDAgMTI4ek0xNi4yIDVMOS45IDAgMCAxMi41bDYuMyA1TDYyMy44IDUwN2w2LjMgNSA5LjktMTIuNS02LjMtNUwxNi4yIDV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bug-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bug-slash.svg)
  */
 const BugSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bracket-round-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bracket-round-right?s=sharp-regular bracket-round-right}
- * @preview ![bracket-round-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMuMSA2NC4zTDQzLjcgNzYuNkM3Ni43IDk2LjMgMTQ0IDE2MC43IDE0NCAyNTZzLTY3LjMgMTU5LjctMTAwLjMgMTc5LjRMMjMuMSA0NDcuN2wyNC42IDQxLjIgMjAuNi0xMi4zQzExMCA0NTEuOCAxOTIgMzc0LjEgMTkyIDI1NlMxMTAgNjAuMiA2OC4zIDM1LjRMNDcuNyAyMy4xIDIzLjEgNjQuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bracket-round-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bracket-round-right.svg)
  */
 const BracketRoundRight: typeof Icon = x => (
     <Icon viewBox="0 0 192 512" {...x}>

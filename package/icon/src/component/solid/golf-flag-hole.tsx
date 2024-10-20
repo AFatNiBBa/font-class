@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `golf-flag-hole` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-flag-hole?s=solid golf-flag-hole}
- * @preview ![golf-flag-hole](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYyLjcgMi41Yy03LjQtMy43LTE2LjMtMy4zLTIzLjQgMS4xUzEyOCAxNS43IDEyOCAyNGwwIDIwOGMwIDEuMyAuMSAyLjcgLjMgNGMtLjIgMS4zLS4zIDIuNi0uMyA0bDAgOTIuOEM1MS41IDM0OS40IDAgMzgwLjUgMCA0MTZjMCA1MyAxMTQuNiA5NiAyNTYgOTZzMjU2LTQzIDI1Ni05NnMtMTE0LjYtOTYtMjU2LTk2Yy0yNy45IDAtNTQuOCAxLjctODAgNC44bDAtNzcuOSAxOTQuNy05Ny40YzguMS00LjEgMTMuMy0xMi40IDEzLjMtMjEuNXMtNS4xLTE3LjQtMTMuMy0yMS41bC0yMDgtMTA0ek0yODggNDE2YzAgMTcuNy0yOC43IDMyLTY0IDMycy02NC0xNC4zLTY0LTMyczI4LjctMzIgNjQtMzJzNjQgMTQuMyA2NCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![golf-flag-hole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/golf-flag-hole.svg)
  */
 const GolfFlagHole: typeof Icon = x => (
     <Icon {...x}>

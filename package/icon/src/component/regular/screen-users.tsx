@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `screen-users` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screen-users?s=regular screen-users}
- * @preview ![screen-users](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzg0YTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4ek02NCA0MTZjLTM1LjMgMC02NCAyOC43LTY0IDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDEyOCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMyYzAtMzUuMy0yOC43LTY0LTY0LTY0bC02NCAwem0yNTYtMzJhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6bS0zMiAzMmMtMzUuMyAwLTY0IDI4LjctNjQgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTI4IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTY0IDB6bTMyMC05NmE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6TTQ0OCA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTI4IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTY0IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0ek01NDQgNDhMOTYgNDhjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDE2MS4zYy0xOC4zIDMuMS0zNC44IDExLjMtNDggMjMuMUwzMiA2NEMzMiAyOC43IDYwLjcgMCA5NiAwTDU0NCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTg0LjRjLTEzLjItMTEuOC0yOS43LTIwLjEtNDgtMjMuMUw1NjAgNjRjMC04LjgtNy4yLTE2LTE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![screen-users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/screen-users.svg)
  */
 const ScreenUsers: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

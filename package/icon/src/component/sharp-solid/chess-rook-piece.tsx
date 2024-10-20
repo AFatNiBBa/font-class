@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-rook-piece` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-rook-piece?s=sharp-solid chess-rook-piece}
- * @preview ![chess-rook-piece](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjcuNCAzODRMODAgMjY0IDQwIDIyNCA0MCA5Nmw1NiAwIDAgNDggMzIgMCAwLTQ4IDY0IDAgMCA0OCAzMiAwIDAtNDggNTYgMCAwIDEyOC00MCA0MCAxMi42IDEyMEw2Ny40IDM4NHpNMTM2IDI0OGwwIDQwIDQ4IDAgMC00MGMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNHpNMTYgNTEybDAtMzIgNDgtNjQgMTkyIDAgNDggNjQgMCAzMkwxNiA1MTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chess-rook-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chess-rook-piece.svg)
  */
 const ChessRookPiece: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

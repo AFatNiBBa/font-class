@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grin-wide` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-wide?s=sharp-light face-grin-wide}
- * @preview ![face-grin-wide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYTIyNCAyMjQgMCAxIDEgMCA0NDggMjI0IDIyNCAwIDEgMSAwLTQ0OHptMCA0ODBBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem04OS45LTE2Ni4yYy0yMi41IDIzLjYtNTQuNSAzOC4zLTg5LjkgMzguM3MtNjcuNC0xNC43LTg5LjktMzguM2MyOC41IDUuNCA1OC43IDguMyA4OS45IDguM3M2MS40LTIuOSA4OS45LTguM3ptMjUtMzguNmMtMzUuMSA5LjYtNzQgMTQuOS0xMTQuOSAxNC45cy03OS45LTUuMy0xMTQuOS0xNC45Yy0xMy0zLjUtMjUuNC03LjctMzcuMi0xMi4zYzMuMSAxMy44IDggMjYuOSAxNC41IDM5YzI2LjIgNDguOSA3OCA4Mi4yIDEzNy43IDgyLjJzMTExLjUtMzMuMyAxMzcuNy04Mi4yYzYuNS0xMi4xIDExLjQtMjUuMiAxNC41LTM5Yy0xMS44IDQuNi0yNC4zIDguOC0zNy4yIDEyLjN6TTE5MiAxNDRsMC0xNi0zMiAwIDAgMTYgMCA5NiAwIDE2IDMyIDAgMC0xNiAwLTk2em0xNjAgMGwwLTE2LTMyIDAgMCAxNiAwIDk2IDAgMTYgMzIgMCAwLTE2IDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-grin-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-grin-wide.svg)
  */
 const FaceGrinWide: typeof Icon = x => (
     <Icon {...x}>

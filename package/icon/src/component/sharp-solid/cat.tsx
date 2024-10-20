@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cat?s=sharp-solid cat}
- * @preview ![cat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM3LjEgMTkyTDMyMCAxOTJjLTY2LjggMC0xMjUuNiAzNC4xLTE2MCA4NS44bDAtODUuOGMwLTUzLTQzLTk2LTk2LTk2TDMyIDk2bDAgNjQgMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDI4OCAwIDMyIDMyIDAgMjA4IDAgMzIgMCAwLTY0LTMyIDAtNTYgMEw0MTYgMzM5LjIgNDE2IDQ4MGwwIDMyIDY0IDAgMC0zMiAwLTE5MiAwLTMyIDAtNGMtMTAuMiAyLjYtMjEgNC0zMiA0Yy00Ny40IDAtODguNy0yNS43LTExMC45LTY0em0xOTQuMy0xNi40YzgtMTQgMTIuNi0zMC4zIDEyLjYtNDcuNmwwLTgyLjdMNTQ0IDAgNTEyIDMyIDQ4MCA2NHMwIDAgMCAwbC02NCAwczAgMCAwIDBMMzg0IDMyIDM1MiAwbDAgNDUuMyAwIDgyLjdzMCAwIDAgMGMwIDE4LjYgNS4zIDM2IDE0LjUgNTAuOGMyLjkgNC43IDYuMyA5LjEgOS45IDEzLjJjMCAwIDAgMCAwIDBjMTcuNiAxOS42IDQzLjEgMzIgNzEuNiAzMmMxMS4yIDAgMjItMS45IDMyLTUuNWMwIDAgMCAwIDAgMGMyMS44LTcuNyA0MC0yMy4xIDUxLjQtNDIuOXpNNDAwIDEyOGExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAwem04MC0xNmExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cat.svg)
  */
 const Cat: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

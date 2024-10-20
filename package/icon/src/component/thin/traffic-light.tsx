@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `traffic-light` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-light?s=thin traffic-light}
- * @preview ![traffic-light](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTZDMzcuNSAxNiAxNiAzNy41IDE2IDY0bDAgMjg4YzAgNzkuNSA2NC41IDE0NCAxNDQgMTQ0czE0NC02NC41IDE0NC0xNDRsMC0yODhjMC0yNi41LTIxLjUtNDgtNDgtNDhMNjQgMTZ6TTAgNjRDMCAyOC43IDI4LjcgMCA2NCAwTDI1NiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjg4YzAgODguNC03MS42IDE2MC0xNjAgMTYwUzAgNDQwLjQgMCAzNTJMMCA2NHpNMTIwIDM5MmE0MCA0MCAwIDEgMCA4MCAwIDQwIDQwIDAgMSAwIC04MCAwem05NiAwYTU2IDU2IDAgMSAxIC0xMTIgMCA1NiA1NiAwIDEgMSAxMTIgMHpNMTYwIDIxNmE0MCA0MCAwIDEgMCAwIDgwIDQwIDQwIDAgMSAwIDAtODB6bTAgOTZhNTYgNTYgMCAxIDEgMC0xMTIgNTYgNTYgMCAxIDEgMCAxMTJ6TTEyMCAxMjBhNDAgNDAgMCAxIDAgODAgMCA0MCA0MCAwIDEgMCAtODAgMHptOTYgMGE1NiA1NiAwIDEgMSAtMTEyIDAgNTYgNTYgMCAxIDEgMTEyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![traffic-light](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/traffic-light.svg)
  */
 const TrafficLight: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

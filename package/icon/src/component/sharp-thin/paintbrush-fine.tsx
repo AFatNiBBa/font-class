@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paintbrush-fine` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paintbrush-fine?s=sharp-thin paintbrush-fine}
- * @preview ![paintbrush-fine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDkyLjcgMTEuM0w1MDQgMGwxMS4zIDExLjMgNDkuNCA0OS40TDU3NiA3MiA1NjQuNyA4My4zbC0yOTUgMjk1TDI2OCAzODBsLjMgLjNjMi40IDguOCAzLjcgMTguMSAzLjcgMjcuN2MwIDU0LjctNDIuMyA5OS42LTk2IDEwMy43bDAgLjMtOCAwLTggMC05NiAwLTMyIDAtMTYgMEwwIDUxMmwwLTE2IDAtMzIgMC0xNiAxNiAwIDE2IDAgMTYgMCAxNiAwIDAtMTYgMC0yNGMwLTU3LjQgNDYuNi0xMDQgMTA0LTEwNGM5LjYgMCAxOC45IDEuMyAyNy43IDMuN2wuMyAuMyAxLjctMS43IDI5NS0yOTV6TTI1OC4zIDM2N0wzMzkgMjg2LjMgMjg5LjcgMjM3IDIwOSAzMTcuNyAyNTguMyAzNjd6TTE5MiAzMjMuM2MtNy42LTIuMi0xNS43LTMuMy0yNC0zLjNjLTQ4LjYgMC04OCAzOS40LTg4IDg4bDAgNDAgMCAxNi0xNiAwLTMyIDAtMTYgMCAwIDMyIDE2IDAgMzIgMCAxMDQgMCAzLjQgMCAzLjQtLjNjNDUuNC0zLjUgODEuMi00MS40IDgxLjItODcuN2MwLTguMy0xLjItMTYuNC0zLjMtMjRMMTkyIDMyMy4zek01NTMuNCA3Mkw1MDQgMjIuNmwtMjAzIDIwM0wzNTAuMyAyNzVsMjAzLTIwM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![paintbrush-fine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/paintbrush-fine.svg)
  */
 const PaintbrushFine: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

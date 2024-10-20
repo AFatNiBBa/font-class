@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `briefcase-arrow-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/briefcase-arrow-right?s=regular briefcase-arrow-right}
- * @preview ![briefcase-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDQ4bDE0NCAwYzQuNCAwIDggMy42IDggOGwwIDQwTDE3NiA5NmwwLTQwYzAtNC40IDMuNi04IDgtOHptLTU2IDhsMCA0MEw2NCA5NkMyOC43IDk2IDAgMTI0LjcgMCAxNjBMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNTZjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTY0IDAgMC00MGMwLTMwLjktMjUuMS01Ni01Ni01NkwxODQgMGMtMzAuOSAwLTU2IDI1LjEtNTYgNTZ6bTI0IDg4bDIwOCAwIDg4IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMjU2YzAgOC44LTcuMiAxNi0xNiAxNkw2NCA0MzJjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTI1NmMwLTguOCA3LjItMTYgMTYtMTZsODggMHptMTQ1IDQ3Yy05LjQtOS40LTI0LjYtOS40LTMzLjkgMHMtOS40IDI0LjYgMCAzMy45bDM5IDM5TDE1MiAyNjRjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMTUwLjEgMC0zOSAzOWMtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlzMjQuNiA5LjQgMzMuOSAwbDgwLTgwYzkuNC05LjQgOS40LTI0LjYgMC0zMy45bC04MC04MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![briefcase-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/briefcase-arrow-right.svg)
  */
 const BriefcaseArrowRight: typeof Icon = x => (
     <Icon {...x}>

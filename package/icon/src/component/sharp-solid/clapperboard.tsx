@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clapperboard` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clapperboard?s=sharp-solid clapperboard}
- * @preview ![clapperboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYxLjkgMzJsLTEgMS0xMjcgMTI3IDkyLjEgMCAxLTEgMTI3LTEyNy05Mi4xIDB6TTUxMiAxNjBsMC0xMTguMUwzOTMuOSAxNjAgNTEyIDE2MHpNMjk0LjEgMzJsLTkyLjEgMC0xIDFMNzMuOSAxNjBsOTIuMSAwIDEtMSAxMjctMTI3ek0wIDMyTDAgMTYwbDYuMSAwIDEtMSAxMjctMTI3TDAgMzJ6TTUxMiAxOTJMMCAxOTIgMCA0ODBsNTEyIDAgMC0yODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clapperboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/clapperboard.svg)
  */
 const Clapperboard: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-bolt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-bolt?s=sharp-regular battery-bolt}
- * @preview ![battery-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzY4bDEzNi41IDAtMTUgNDhMNDggNDE2IDAgNDE2bDAtNDhMMCAxNDQgMCA5Nmw0OCAwIDI1OS41IDAtNjMuMiA0OEw0OCAxNDRsMCAyMjR6bTE4OC41IDQ4bDYzLjItNDhMNDk2IDM2OGwwLTIyNC0xMzYuNSAwIDE1LTQ4TDQ5NiA5Nmw0OCAwIDAgNDggMCA0OCAzMiAwIDAgMTI4LTMyIDAgMCA0OCAwIDQ4LTQ4IDAtMjU5LjUgMHpNMjA4IDQwMGw0MC0xMjgtODggMCAwLTI0TDMzNiAxMTIgMjk2IDI0MGw4OCAwIDAgMjRMMjA4IDQwMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![battery-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/battery-bolt.svg)
  */
 const BatteryBolt: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

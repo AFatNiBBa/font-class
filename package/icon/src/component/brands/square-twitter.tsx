@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-twitter` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-twitter?s=brands square-twitter}
- * @preview ![square-twitter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NlY0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRIMzg0YzM1LjMgMCA2NC0yOC43IDY0LTY0Vjk2YzAtMzUuMy0yOC43LTY0LTY0LTY0SDY0ek0zNTEuMyAxOTkuM3YwYzAgODYuNy02NiAxODYuNi0xODYuNiAxODYuNmMtMzcuMiAwLTcxLjctMTAuOC0xMDAuNy0yOS40YzUuMyAuNiAxMC40IC44IDE1LjggLjhjMzAuNyAwIDU4LjktMTAuNCA4MS40LTI4Yy0yOC44LS42LTUzLTE5LjUtNjEuMy00NS41YzEwLjEgMS41IDE5LjIgMS41IDI5LjYtMS4yYy0zMC02LjEtNTIuNS0zMi41LTUyLjUtNjQuNHYtLjhjOC43IDQuOSAxOC45IDcuOSAyOS42IDguM2MtOS02LTE2LjQtMTQuMS0yMS41LTIzLjZzLTcuOC0yMC4yLTcuNy0zMWMwLTEyLjIgMy4yLTIzLjQgOC45LTMzLjFjMzIuMyAzOS44IDgwLjggNjUuOCAxMzUuMiA2OC42Yy05LjMtNDQuNSAyNC04MC42IDY0LTgwLjZjMTguOSAwIDM1LjkgNy45IDQ3LjkgMjAuN2MxNC44LTIuOCAyOS04LjMgNDEuNi0xNS44Yy00LjkgMTUuMi0xNS4yIDI4LTI4LjggMzYuMWMxMy4yLTEuNCAyNi01LjEgMzcuOC0xMC4yYy04LjkgMTMuMS0yMC4xIDI0LjctMzIuOSAzNGMuMiAyLjggLjIgNS43IC4yIDguNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-twitter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-twitter.svg)
  */
 const SquareTwitter: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

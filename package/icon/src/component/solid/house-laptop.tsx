@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-laptop` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-laptop?s=solid house-laptop}
- * @preview ![house-laptop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE4LjMgOC41YzEyLjMtMTEuMyAzMS4yLTExLjMgNDMuNCAwbDIwOCAxOTJjNi43IDYuMiAxMC4zIDE0LjggMTAuMyAyMy41bC0xNDQgMGMtMTkuMSAwLTM2LjMgOC40LTQ4IDIxLjdsMC0zNy43YzAtOC44LTcuMi0xNi0xNi0xNmwtNjQgMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2bDY0IDAgMCAxMjgtMTYwIDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTEyLTMyIDBjLTEzLjIgMC0yNS04LjEtMjkuOC0yMC4zcy0xLjYtMjYuMiA4LjEtMzUuMmwyMDgtMTkyek0zNTIgMzA0bDAgMTQ0IDE5MiAwIDAtMTQ0LTE5MiAwem0tNDgtMTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMjI0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxNjAgMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZjMCAyNi41LTIxLjUgNDgtNDggNDhsLTQ4IDAtMTkyIDAtNDggMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhjMC04LjggNy4yLTE2IDE2LTE2bDMyIDAgMC0xNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-laptop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-laptop.svg)
  */
 const HouseLaptop: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

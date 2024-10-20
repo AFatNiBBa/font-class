@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spray-can-sparkles` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spray-can-sparkles?s=sharp-regular spray-can-sparkles}
- * @preview ![spray-can-sparkles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMEwyMjQgMGwwIDEyOEw5NiAxMjggOTYgMHptMCAyMDhjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMjA4IDIyNCAwIDAtMjA4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDk2IDIwOHpNMCAyNTZjMC01MyA0My05NiA5Ni05NmwxMjggMGM1MyAwIDk2IDQzIDk2IDk2bDAgMjA4IDAgNDgtNDggMEw0OCA1MTIgMCA1MTJsMC00OEwwIDI1NnptMTYwIDE2YTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4ek0zMjAgMzJMMzM2IDBsMTYgMzIgMzIgMTZMMzUyIDY0IDMzNiA5NiAzMjAgNjQgMjg4IDQ4bDMyLTE2em02NCA5NmwxNi0zMiAxNiAzMiAzMiAxNi0zMiAxNi0xNiAzMi0xNi0zMi0zMi0xNiAzMi0xNnpNNDY0IDBsMTYgMzIgMzIgMTZMNDgwIDY0IDQ2NCA5NiA0NDggNjQgNDE2IDQ4bDMyLTE2TDQ2NCAwek00MTYgMjQwbDMyLTE2IDE2LTMyIDE2IDMyIDMyIDE2LTMyIDE2LTE2IDMyLTE2LTMyLTMyLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![spray-can-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/spray-can-sparkles.svg)
  */
 const SprayCanSparkles: typeof Icon = x => (
     <Icon {...x}>

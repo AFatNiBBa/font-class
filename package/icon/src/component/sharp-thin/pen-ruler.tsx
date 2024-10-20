@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-ruler` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-ruler?s=sharp-thin pen-ruler}
- * @preview ![pen-ruler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM5LjMgMTEuM0wxMjggMCAxMTYuNyAxMS4zIDExLjMgMTE2LjcgMCAxMjhsMTEuMyAxMS4zIDk4LjEgOTguMSAxMS4zLTExLjNMMjIuNiAxMjggMTI4IDIyLjZsNDcgNDctNDQuNyA0NC43LTUuNyA1LjdMMTM2IDEzMS4zbDUuNy01LjdMMTg2LjMgODFsMzkuNyAzOS43IDExLjMtMTEuM0wxMzkuMyAxMS4zek0zNzIuNyA1MDAuN0wzODQgNTEybDExLjMtMTEuM0w1MDAuNyAzOTUuMyA1MTIgMzg0bC0xMS4zLTExLjMtOTguMS05OC4xLTExLjMgMTEuM0w0MzEgMzI1LjdsLTQ0LjcgNDQuNy01LjcgNS43TDM5MiAzODcuM2w1LjctNS43TDQ0Mi4zIDMzN2w0NyA0N0wzODQgNDg5LjRsLTk4LjEtOTguMS0xMS4zIDExLjMgOTguMSA5OC4xek00LjQgNDk0LjRMMCA1MTJsMTcuNi00LjRMMTYwIDQ3MiA1MDAuNyAxMzEuMyA1MTIgMTIwbC0xMS4zLTExLjNMNDAzLjMgMTEuMyAzOTIgMCAzODAuNyAxMS4zIDQwIDM1MiA0LjQgNDk0LjR6TTIyIDQ5MEw1NC40IDM2MC4yIDMxMy43IDEwMSA0MTEgMTk4LjMgMTUxLjggNDU3LjYgMjIgNDkwek00ODkuNCAxMjBsLTY3IDY3TDMyNSA4OS43bDY3LTY3TDQ4OS40IDEyMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pen-ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pen-ruler.svg)
  */
 const PenRuler: typeof Icon = x => (
     <Icon {...x}>

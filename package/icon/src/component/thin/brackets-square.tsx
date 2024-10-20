@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brackets-square` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brackets-square?s=thin brackets-square}
- * @preview ![brackets-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA4IDMyYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgMzY4YzAgMjIuMS0xNy45IDQwLTQwIDQwbC0xMTIgMGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGwxMTIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTM2OGMwLTEzLjMtMTAuNy0yNC0yNC0yNEwyOTYgNDhjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsMTEyIDB6TTQwIDMybDExMiAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDQwIDQ4QzI2LjcgNDggMTYgNTguNyAxNiA3MmwwIDM2OGMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxMTIgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOEw0MCA0ODBjLTIyLjEgMC00MC0xNy45LTQwLTQwTDAgNzJDMCA0OS45IDE3LjkgMzIgNDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![brackets-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/brackets-square.svg)
  */
 const BracketsSquare: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

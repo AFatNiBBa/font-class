@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-dashed-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-dashed-line?s=sharp-regular file-dashed-line}
- * @preview ![file-dashed-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDQ2NGwtMjg4IDAgMC05Ni00OCAwIDAgOTYgMCA0OCA0OCAwIDI4OCAwIDQ4IDAgMC00OCAwLTk2LTQ4IDAgMCA5NnptMC0zMDRsMCA5NiA0OCAwIDAtMTI4TDM4NCAwIDE3NiAwIDEyOCAwbDAgNDggMCAyMDggNDggMCAwLTIwOCAxNzYgMCAwIDExMiAxMTIgMHpNNTYgMjg4bC0yNCAwIDAgNDggMjQgMCAxMTIgMCAyNCAwIDAtNDgtMjQgMEw1NiAyODh6bTIyNCAwbC0yNCAwIDAgNDggMjQgMCA4MCAwIDI0IDAgMC00OC0yNCAwLTgwIDB6bTE5MiAwbC0yNCAwIDAgNDggMjQgMCAxMTIgMCAyNCAwIDAtNDgtMjQgMC0xMTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-dashed-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-dashed-line.svg)
  */
 const FileDashedLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

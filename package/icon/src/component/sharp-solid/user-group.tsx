@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-group` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-group?s=sharp-solid user-group}
- * @preview ![user-group](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMTI4YTEyOCAxMjggMCAxIDEgMjU2IDBBMTI4IDEyOCAwIDEgMSA5NiAxMjh6TTM4NCAzMDRsNjQgMjA4TDAgNTEyIDY0IDMwNGwzMjAgMHpNNjQwIDUxMmwtMTU4LjUgMC0yLjktOS40TDQyMi40IDMyMCA1NzYgMzIwbDY0IDE5MnpNNDMyIDI1NmMtMzEgMC01OS0xMi42LTc5LjMtMzIuOUMzNzIuNCAxOTYuNSAzODQgMTYzLjYgMzg0IDEyOGMwLTI2LjgtNi42LTUyLjEtMTguMy03NC4zQzM4NC4zIDQwLjEgNDA3LjIgMzIgNDMyIDMyYzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEycy01MC4xIDExMi0xMTIgMTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-group.svg)
  */
 const UserGroup: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

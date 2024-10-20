@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-terminal` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-terminal?s=sharp-thin square-terminal}
- * @preview ![square-terminal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDQ4bDAgNDE2TDE2IDQ2NCAxNiA0OGw0MTYgMHpNMTYgMzJMMCAzMiAwIDQ4IDAgNDY0bDAgMTYgMTYgMCA0MTYgMCAxNiAwIDAtMTYgMC00MTYgMC0xNi0xNiAwTDE2IDMyek05Mi43IDE2MC41bDUuOSA1LjRMMTk2LjIgMjU2IDk4LjYgMzQ2LjFsLTUuOSA1LjQgMTAuOSAxMS44IDUuOS01LjQgMTA0LTk2IDYuNC01LjktNi40LTUuOS0xMDQtOTYtNS45LTUuNEw5Mi43IDE2MC41ek0yMDAgMzY4bC04IDAgMCAxNiA4IDAgMTc2IDAgOCAwIDAtMTYtOCAwLTE3NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-terminal.svg)
  */
 const SquareTerminal: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

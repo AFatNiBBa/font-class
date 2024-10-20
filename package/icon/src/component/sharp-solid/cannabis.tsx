@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cannabis` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cannabis?s=sharp-solid cannabis}
- * @preview ![cannabis](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI5LjkgMTk5LjNjMTEuMi04LjUgMjMtMTYuMSAzNC44LTIyLjhjNDEtMjMuMyA4NC40LTM2LjkgMTEyLjItNDIuNWwyMy41LTQuNy00LjcgMjMuNWMtNS42IDI3LjctMTkuMyA3MC45LTQyLjcgMTExLjdjLTkuMyAxNi4yLTIwLjMgMzIuNC0zMy4yIDQ3LjFjMjQuOCA2LjcgNDYuMiAxNi45IDYwIDI0LjZsMjUuMiAxNC0yNS4yIDE0Yy0xNC44IDguMi0zOC40IDE5LjQtNjUuNSAyNmMtMTguOSA0LjYtNDAuMSA3LjMtNjEuNCA0LjdsOC4zIDMzLjEgOC41IDMzLjctMzEuMS0xNS41TDI4MCA0MTcuMmwwIDcwLjggMCAyNC00OCAwIDAtMjQgMC03MC44LTU4LjUgMjkuMS0zMS4xIDE1LjUgOC41LTMzLjcgOC4zLTMzLjFjLTIxLjQgMi41LTQyLjYtLjEtNjEuNC00LjdjLTI3LjEtNi43LTUwLjctMTcuOC02NS41LTI2TDcgMzUwLjNsMjUuMi0xNGMxMy44LTcuNyAzNS4yLTE3LjggNjAtMjQuNkM3OS4zIDI5NyA2OC4zIDI4MC44IDU5IDI2NC42Yy0yMy40LTQwLjgtMzcuMS04NC00Mi43LTExMS43bC00LjctMjMuNUwzNS4xIDEzNGMyNy45IDUuNSA3MS4yIDE5LjIgMTEyLjIgNDIuNWMxMS44IDYuNyAyMy42IDE0LjMgMzQuOCAyMi44QzE3OS4xIDgzLjkgMjU2IDAgMjU2IDBzNzYuOSA4My45IDczLjkgMTk5LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cannabis](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cannabis.svg)
  */
 const Cannabis: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shuttle-space` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuttle-space?s=sharp-light shuttle-space}
- * @preview ![shuttle-space](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQ4MEw0MDUuMyAzNTJsNTguNyAwYzY5LjggMCAxMjMuOC0zMS44IDE2NC44LTg2LjRMNjM2IDI1NmwtNy4yLTkuNmMtNDEtNTQuNi05NS04Ni40LTE2NC44LTg2LjRsLTU4LjcgMEwxOTIgMzIgNjQgMzIgMzIgMzJsMCAzMiAwIDY0LTE2IDBMMCAxMjhsMCAxNkwwIDM2OGwwIDE2IDE2IDAgMTYgMCAwIDY0IDAgMzIgMzIgMCAxMjggMHpNNjQgMzg0bDMyIDAgMy4xIDAgMi45LTEuMUwxMjggMzcyLjRsMCA3NS42LTY0IDAgMC02NHptMTE5LjEgNjRMMTYwIDQ0OGwwLTg4LjQgMTkuMS03LjYgMTY0LjEgMC0xNjAgOTZ6TTY0IDM1MmwtMzIgMCAwLTgwIDE0NCAwIDE2IDAgMC0zMi0xNiAwTDMyIDI0MGwwLTgwIDMyIDAgMjguOSAwIDc3LjEgMzAuOSAyLjkgMS4xIDMuMSAwIDI4OCAwYzU0LjIgMCA5Ny4xIDIyLjQgMTMxLjYgNjRjLTM0LjYgNDEuNi03Ny40IDY0LTEzMS42IDY0bC0yODggMC0zLjEgMC0yLjkgMS4xTDkyLjkgMzUyIDY0IDM1MnptMC0yMjRsMC02NCA2NCAwIDAgNzUuNi0yNi4xLTEwLjRMOTkuMSAxMjggOTYgMTI4bC0zMiAwem0xMTUuMSAzMkwxNjAgMTUyLjQgMTYwIDY0bDIzLjEgMCAxNjAgOTYtMTY0LjEgMHpNNDgwIDI4OGwwLTY0LTMyIDAgMCA2NCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shuttle-space](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shuttle-space.svg)
  */
 const ShuttleSpace: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

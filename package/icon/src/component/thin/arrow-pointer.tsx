@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-pointer` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-pointer?s=thin arrow-pointer}
- * @preview ![arrow-pointer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDMwNGwxNTMuOSAwYzMuNCAwIDYuMS0yLjcgNi4xLTYuMWMwLTEuNy0uNy0zLjQtMi00LjVMMjggNDkuOGMtMS4zLTEuMi0zLTEuOC00LjgtMS44Yy00IDAtNy4yIDMuMi03LjIgNy4yTDE2IDQyNmMwIDMuMyAyLjcgNiA2IDZjMS43IDAgMy40LS43IDQuNS0yLjFMMTMyIDMwOS41YzMtMy41IDcuNC01LjUgMTItNS41ek0wIDQyNkwwIDU1LjJDMCA0Mi40IDEwLjQgMzIgMjMuMiAzMmM1LjcgMCAxMS4yIDIuMSAxNS40IDUuOWwyNzQgMjQzLjZjNC43IDQuMiA3LjQgMTAuMiA3LjQgMTYuNWMwIDEyLjItOS45IDIyLjEtMjIuMSAyMi4xbC0xNDUuMSAwIDcwLjQgMTQ4LjZjMS45IDQgLjIgOC44LTMuOCAxMC43cy04LjggLjItMTAuNy0zLjhMMTM4LjMgMzI2LjYgMzguNiA0NDAuNUMzNC40IDQ0NS4zIDI4LjQgNDQ4IDIyIDQ0OGMtMTIuMiAwLTIyLTkuOS0yMi0yMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-pointer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-pointer.svg)
  */
 const ArrowPointer: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

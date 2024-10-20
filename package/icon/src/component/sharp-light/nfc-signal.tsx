@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-signal` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-signal?s=sharp-light nfc-signal}
- * @preview ![nfc-signal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDY0TDMyIDY0bDAgMzg0IDE5OS4xIDBjLTIuNCAxMC41LTQuMiAyMS4xLTUuNCAzMkwzMiA0ODAgMCA0ODBsMC0zMkwwIDY0IDAgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAxNjcuMWMtMTAuOSAyLjUtMjEuNiA1LjYtMzIgOS4zTDQxNiA2NHptLTMyIDQ4bDAgMTQxLjljLTExLjEgNS41LTIxLjggMTEuNy0zMiAxOC42TDM1MiAxMjhsLTExMiAwIDAgODIuN2MxOC42IDYuNiAzMiAyNC40IDMyIDQ1LjNjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhjMC0yMC45IDEzLjQtMzguNyAzMi00NS4zbDAtOTguNyAwLTE2IDE2IDAgMTQ0IDAgMTYgMCAwIDE2ek0yNDAuNCA0MTZMODAgNDE2bC0xNiAwIDAtMTYgMC0yODggMC0xNiAxNiAwIDY0IDAgMTYgMCAwIDMyLTE2IDAtNDggMCAwIDI1NiAxNTcuOSAwYy01LjEgMTAuMy05LjcgMjEtMTMuNSAzMnpNMjI0IDI0MGExNiAxNiAwIDEgMCAwIDMyIDE2IDE2IDAgMSAwIDAtMzJ6bTI4OCA0OGMtMTIzLjcgMC0yMjQgMTAwLjMtMjI0IDIyNGwtMzIgMGMwLTE0MS40IDExNC42LTI1NiAyNTYtMjU2bDAgMzJ6TTQ4MCA0NDhhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em0tOTYgNjRsLTMyIDBjMC04OC40IDcxLjYtMTYwIDE2MC0xNjBsMCAzMmMtNzAuNyAwLTEyOCA1Ny4zLTEyOCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![nfc-signal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/nfc-signal.svg)
  */
 const NfcSignal: typeof Icon = x => (
     <Icon {...x}>

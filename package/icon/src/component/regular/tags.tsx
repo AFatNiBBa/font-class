@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tags` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tags?s=regular tags}
- * @preview ![tags](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ1IDM5LjFjLTkuMy05LjQtMjQuNS05LjUtMzMuOS0uMnMtOS41IDI0LjUtLjIgMzMuOUw0MzguNiAyMDIuMWMzMy45IDM0LjMgMzMuOSA4OS40IDAgMTIzLjdMMzI2LjcgNDM5LjFjLTkuMyA5LjQtOS4yIDI0LjYgLjIgMzMuOXMyNC42IDkuMiAzMy45LS4yTDQ3Mi44IDM1OS42YzUyLjQtNTMgNTIuNC0xMzguMiAwLTE5MS4yTDM0NSAzOS4xek0yNDIuNyA1MC43Yy0xMi0xMi0yOC4zLTE4LjctNDUuMy0xOC43TDQ4IDMyQzIxLjUgMzIgMCA1My41IDAgODBMMCAyMjkuNWMwIDE3IDYuNyAzMy4zIDE4LjcgNDUuM2wxNjggMTY4YzI1IDI1IDY1LjUgMjUgOTAuNSAwTDQxMC43IDMwOS4zYzI1LTI1IDI1LTY1LjUgMC05MC41bC0xNjgtMTY4ek00OCA4MGwxNDkuNSAwYzQuMiAwIDguMyAxLjcgMTEuMyA0LjdsMTY4IDE2OGM2LjIgNi4yIDYuMiAxNi40IDAgMjIuNkwyNDMuMyA0MDguOGMtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBsLTE2OC0xNjhjLTMtMy00LjctNy4xLTQuNy0xMS4zTDQ4IDgwem05NiA2NGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tags](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tags.svg)
  */
 const Tags: typeof Icon = x => (
     <Icon {...x}>

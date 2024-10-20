@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dong-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dong-sign?s=light dong-sign}
- * @preview ![dong-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDMyYy04LjggMC0xNiA3LjItMTYgMTZsMCAxNi04MCAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDgwIDAgMCAxMDcuM2MtMjMuNS0yNi42LTU3LjgtNDMuMy05Ni00My4zYy03MC43IDAtMTI4IDU3LjMtMTI4IDEyOHM1Ny4zIDEyOCAxMjggMTI4YzM4LjIgMCA3Mi41LTE2LjggOTYtNDMuM2wwIDI3LjNjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTExMiAwLTE5MiAxNiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xNiAwIDAtMTZjMC04LjgtNy4yLTE2LTE2LTE2ek05NiAyODhhOTYgOTYgMCAxIDEgMTkyIDBBOTYgOTYgMCAxIDEgOTYgMjg4ek0xNiA0NDhjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMzUyIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMMTYgNDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dong-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dong-sign.svg)
  */
 const DongSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

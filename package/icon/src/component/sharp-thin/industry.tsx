@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `industry` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/industry?s=sharp-thin industry}
- * @preview ![industry](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsOCAwIDE0NCAwIDggMCAwIDggMCAxNjAuNyAxNjQtOTUuNiAxMi03IDAgMTMuOSAwIDg0LjlMNTMyLjEgMTA1IDU0NCA5OC40bDAgMTMuNiAwIDE0NCAwIDY0IDAgMTUyIDAgOC04IDBMNDAgNDgwbC04IDAgMC04IDAtODggMC0xMjhMMzIgNDBsMC04ek00OCA0OGwwIDIwOCAwIDEyOCAwIDgwIDQ4MCAwIDAtMTQ0IDAtNjQgMC0xMzAuNEwzNjMuOSAyMTcuNSAzNTIgMjI0LjJsMC0xMy42IDAtODQuNkwxODggMjIxLjZsLTEyIDcgMC0xMy45TDE3NiA0OCA0OCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![industry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/industry.svg)
  */
 const Industry: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

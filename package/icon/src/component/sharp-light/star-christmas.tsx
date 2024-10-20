@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-christmas` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-christmas?s=sharp-light star-christmas}
- * @preview ![star-christmas](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE3LjMgMjk0LjdsLTE1LjItNS4xTDEwMS4yIDI1NmwxMDAuOS0zMy42IDE1LjItNS4xIDUuMS0xNS4yTDI1NiAxMDEuMmwzMy42IDEwMC45IDUuMSAxNS4yIDE1LjIgNS4xTDQxMC44IDI1NiAzMDkuOSAyODkuNmwtMTUuMiA1LjEtNS4xIDE1LjJMMjU2IDQxMC44IDIyMi40IDMwOS45bC01LjEtMTUuMnpNNTAuNiAyNzIuOUwxOTIgMzIwbDQ3LjEgMTQxLjRMMjU2IDUxMmwxNi45LTUwLjZMMzIwIDMyMGwxNDEuNC00Ny4xTDUxMiAyNTZsLTUwLjYtMTYuOUwzMjAgMTkyIDI3Mi45IDUwLjYgMjU2IDAgMjM5LjEgNTAuNiAxOTIgMTkyIDUwLjYgMjM5LjEgMCAyNTZsNTAuNiAxNi45ek00NTQuNiA4MEw0MzIgNTcuNCA0MjAuNyA2OC43bC02NCA2NEwzNDUuNCAxNDQgMzY4IDE2Ni42bDExLjMtMTEuMyA2NC02NEw0NTQuNiA4MHpNOTEuMyA2OC43TDgwIDU3LjQgNTcuNCA4MCA2OC43IDkxLjNsNjQgNjRMMTQ0IDE2Ni42IDE2Ni42IDE0NGwtMTEuMy0xMS4zLTY0LTY0ek0xNjYuNiAzNjhMMTQ0IDM0NS40bC0xMS4zIDExLjMtNjQgNjRMNTcuNCA0MzIgODAgNDU0LjZsMTEuMy0xMS4zIDY0LTY0TDE2Ni42IDM2OHptMjEyLjctMTEuM0wzNjggMzQ1LjQgMzQ1LjQgMzY4bDExLjMgMTEuMyA2NCA2NEw0MzIgNDU0LjYgNDU0LjYgNDMybC0xMS4zLTExLjMtNjQtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![star-christmas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/star-christmas.svg)
  */
 const StarChristmas: typeof Icon = x => (
     <Icon {...x}>

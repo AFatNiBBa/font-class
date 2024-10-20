@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road-lock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-lock?s=solid road-lock}
- * @preview ![road-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDMybC03NC44IDBjLTI3LjEgMC01MS4zIDE3LjEtNjAuMyA0Mi42TDM1LjEgNDA3LjJjLTIuMSA1LjktMy4xIDEyLTMuMSAxOC4yQzMyIDQ1NS41IDU2LjUgNDgwIDg2LjYgNDgwTDI4OCA0ODBsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMybDAgNjQgMzIgMCAwLTEyOGMwLTIzLjcgMTIuOS00NC40IDMyLTU1LjRsMC0yNC42YzAtNTguMyA0NC42LTEwNi4yIDEwMS41LTExMS41TDQ4Ny4xIDc0LjZDNDc4IDQ5LjEgNDUzLjkgMzIgNDI2LjggMzJMMzUyIDMybDAgNjRjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC02NHptNjQgMTkybDAgNjRjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyem0xNzYgMTZjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA0OC02NCAwIDAtNDhjMC0xNy43IDE0LjMtMzIgMzItMzJ6bS04MCAzMmwwIDQ4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDEyOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxNjAgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTEyOGMwLTE3LjctMTQuMy0zMi0zMi0zMmwwLTQ4YzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![road-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/road-lock.svg)
  */
 const RoadLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

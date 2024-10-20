@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wind-turbine` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wind-turbine?s=regular wind-turbine}
- * @preview ![wind-turbine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE1LjcgNDE0LjhjOS4xIDE0LjggMzIgNi41IDI5LjUtMTAuN0wzMTYuOSAyMTJjLS41LTMuNCAuMS02LjkgMS44LTkuOUw0MTEgMzEuMmM4LjMtMTUuMy0xMC40LTMxLTI0LTIwLjFMMjM0LjcgMTMxLjdjLTIuNyAyLjEtNiAzLjQtOS41IDMuNUwzMS4xIDE0MC42QzEzLjcgMTQxIDkuNSAxNjUgMjUuNyAxNzEuNGwxODAuNiA3MS41YzMuMiAxLjMgNS45IDMuNSA3LjcgNi41TDMxNS43IDQxNC44ek0yMzIgMzM5LjhMMjMyIDQ2NGwtODAgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwxMDQgMCAxMDQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtODAgMCAwLTQ2LjItNDgtNzh6TTI1NiAxNjhhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wind-turbine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/wind-turbine.svg)
  */
 const WindTurbine: typeof Icon = x => (
     <Icon {...x}>

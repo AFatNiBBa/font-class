@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-ladder` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-ladder?s=sharp-regular truck-ladder}
- * @preview ![truck-ladder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDAgNDhsMzIgMCAwIDk2TDAgMTQ0bDAgNDggMzUyIDAgMC00OC0zMiAwIDAtOTYgMzIgMCAwLTQ4TDAgMHpNMjcyIDE0NGwtMzIgMCAwLTk2IDMyIDAgMCA5NnpNMTYwIDQ4bDMyIDAgMCA5Ni0zMiAwIDAtOTZ6bS00OCA5NmwtMzIgMCAwLTk2IDMyIDAgMCA5NnpNNDA4IDk2bC0yNCAwIDAgMjQgMCAxMDRMMjQgMjI0IDAgMjI0bDAgMjRMMCAzOTJsMCAyNCAyNCAwIDQwIDBjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwxMjggMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDQwIDAgMjQgMCAwLTI0IDAtMTUyIDAtOC40LTUuMy02LjYtOTYtMTIwLTcuMi05TDUyMCA5NiA0MDggOTZ6TTc2LjggMzY4TDQ4IDM2OGwwLTk2IDMzNiAwIDQ4IDAgMTYwIDAgMCA5Ni0yOC44IDBjLTE2LjYtMjguNy00Ny42LTQ4LTgzLjItNDhzLTY2LjYgMTkuMy04My4yIDQ4bC0xNTMuNyAwYy0xNi42LTI4LjctNDcuNi00OC04My4yLTQ4cy02Ni42IDE5LjMtODMuMiA0OHpNNDMyIDIyNGwwLTgwIDc2LjUgMCA2NCA4MEw0MzIgMjI0ek0xMTIgNDE2YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bTM2OC00OGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![truck-ladder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-ladder.svg)
  */
 const TruckLadder: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

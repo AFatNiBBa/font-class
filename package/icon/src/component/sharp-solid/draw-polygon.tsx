@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `draw-polygon` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-polygon?s=sharp-solid draw-polygon}
- * @preview ![draw-polygon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NmMwIDIzLjcgMTIuOSA0NC40IDMyIDU1LjRsMCAyMDkuMUMxMi45IDM3MS42IDAgMzkyLjMgMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRjMjMuNyAwIDQ0LjQtMTIuOSA1NS40LTMybDIwOS4xIDBjMTEuMSAxOS4xIDMxLjcgMzIgNTUuNCAzMmMzNS4zIDAgNjQtMjguNyA2NC02NGMwLTM1LjMtMjguNS02My44LTYzLjctNjRsLTQuNS03LjktMzItNTYtMi4zLTRjNC4yLTguNSA2LjUtMTggNi41LTI4LjFzLTIuMy0xOS42LTYuNS0yOC4xbDIuMy00IDMyLTU2IDQuNS03LjljMzUuMi0uMiA2My43LTI4LjcgNjMuNy02NGMwLTM1LjMtMjguNy02NC02NC02NGMtMjMuNyAwLTQ0LjQgMTIuOS01NS40IDMyTDExOS40IDY0QzEwOC40IDQ0LjkgODcuNyAzMiA2NCAzMnpNMjkyLjIgMTkyLjFjLTEuNC0uMS0yLjgtLjEtNC4yLS4xYy0zNS4zIDAtNjQgMjguNy02NCA2NHMyOC43IDY0IDY0IDY0YzEuNCAwIDIuOCAwIDQuMi0uMWMwIDAgMCAwIDAgMGwzMiA1NiA0LjUgNy45LS4xIC4zLTIwOS4xIDBjLTUuNi05LjctMTMuNy0xNy44LTIzLjQtMjMuNGwwLTIwOS4xYzkuNy01LjYgMTcuOC0xMy43IDIzLjQtMjMuNGwyMDkuMSAwIC4xIC4zLTQuNSA3LjktMzIgNTZzMCAwIDAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![draw-polygon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/draw-polygon.svg)
  */
 const DrawPolygon: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

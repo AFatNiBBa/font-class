@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `staff-snake` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff-snake?s=solid staff-snake}
- * @preview ![staff-snake](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjIyLjYgNDMuMmwtLjEgNC44TDI4OCA0OGM1MyAwIDk2IDQzIDk2IDk2cy00MyA5Ni05NiA5NmwtNDAgMCAwLTgwIDQwIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTQwIDAtMjggMC00LjUgMTQ0IDQwLjUgMGM1MyAwIDk2IDQzIDk2IDk2cy00MyA5Ni05NiA5NmwtMTYgMCAwLTgwIDE2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTQzIDAtMy4xIDk5LjVMMjA4LjUgNDk1bDAgMWMtLjMgOC45LTcuNiAxNi0xNi41IDE2cy0xNi4yLTcuMS0xNi41LTE2bDAtMS0xLTMxTDEzNiA0NjRjLTIyLjEgMC00MC0xNy45LTQwLTQwczE3LjktNDAgNDAtNDBsMzYgMC0xLTMyLTE5IDBjLTUzIDAtOTYtNDMtOTYtOTZjMC00Ny42IDM0LjYtODcuMSA4MC05NC43bDAgOTQuN2MwIDguOCA3LjIgMTYgMTYgMTZsMTYuNSAwTDE2NCAxMjhsLTI4IDAtMTMuNCAwYy05IDE4LjktMjguMyAzMi01MC42IDMybC0xNiAwYy0zMC45IDAtNTYtMjUuMS01Ni01NlMyNS4xIDQ4IDU2IDQ4bDggMCA4IDAgODkuNSAwLS4xLTQuOEwxNjEgMzJjMC0uNyAwLTEuMyAwLTEuOWMuNS0xNi42IDE0LjEtMzAgMzEtMzBzMzAuNSAxMy40IDMxIDMwYzAgLjYgMCAxLjMgMCAxLjlsLS40IDExLjJ6TTY0IDExMmExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![staff-snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/staff-snake.svg)
  */
 const StaffSnake: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

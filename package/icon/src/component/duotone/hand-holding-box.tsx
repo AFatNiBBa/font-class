@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `hand-holding-box` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-box?s=duotone hand-holding-box}
- * @preview ![hand-holding-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDQxNmwwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDE2MCAwIDE2MC41IDBjMjkgMCA1Ny4zLTkuMyA4MC43LTI2LjVsMTI2LjYtOTMuM2MxMC42LTcuOCAxNi4zLTIwIDE2LjMtMzIuMmMwLTguMi0yLjUtMTYuNi03LjgtMjMuN2MtMTMuMS0xNy44LTM4LjEtMjEuNi01NS45LTguNUwzOTIuNiA0MTYgMjcyIDQxNmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwxNiAwIDY0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJsLTY0IDAtMTYgMC03OC4zIDBjLTI5LjEgMC01Ny4zIDkuOS04MCAyOEw2OC44IDM4NCAzMiAzODRjLTE3LjcgMC0zMiAxNC4zLTMyIDMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjI0IDBsMCAxMjEuN2MwIDMuNSAyLjggNi4zIDYuMyA2LjNjMS4xIDAgMi4yLS4zIDMuMS0uOGw0Ni42LTI2LjZjNC45LTIuOCAxMS0yLjggMTUuOSAwbDQ2LjYgMjYuNmMxIC41IDIgLjggMy4xIC44YzMuNSAwIDYuMy0yLjggNi4zLTYuM0wzNTIgMGw4MCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMTYwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0yODggMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhMOTYgNDhjMC0yNi41IDIxLjUtNDggNDgtNDhsODAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-holding-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hand-holding-box.svg)
  */
 const HandHoldingBox: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 416l0 64c0 17.7 14.3 32 32 32l160 0 160.5 0c29 0 57.3-9.3 80.7-26.5l126.6-93.3c10.6-7.8 16.3-20 16.3-32.2c0-8.2-2.5-16.6-7.8-23.7c-13.1-17.8-38.1-21.6-55.9-8.5L392.6 416 272 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-16 0-78.3 0c-29.1 0-57.3 9.9-80 28L68.8 384 32 384c-17.7 0-32 14.3-32 32z" />
-            <path d="M224 0l0 121.7c0 3.5 2.8 6.3 6.3 6.3c1.1 0 2.2-.3 3.1-.8l46.6-26.6c4.9-2.8 11-2.8 15.9 0l46.6 26.6c1 .5 2 .8 3.1 .8c3.5 0 6.3-2.8 6.3-6.3L352 0l80 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48L96 48c0-26.5 21.5-48 48-48l80 0z" />
+        <path d="M224 0l0 121.7c0 3.5 2.8 6.3 6.3 6.3c1.1 0 2.2-.3 3.1-.8l46.6-26.6c4.9-2.8 11-2.8 15.9 0l46.6 26.6c1 .5 2 .8 3.1 .8c3.5 0 6.3-2.8 6.3-6.3L352 0l80 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48L96 48c0-26.5 21.5-48 48-48l80 0z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-magnifying-glass` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-magnifying-glass?s=thin user-magnifying-glass}
- * @preview ![user-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDEyOGExMTIgMTEyIDAgMSAxIDIyNCAwIDExMiAxMTIgMCAxIDEgLTIyNCAwem0yNDAgMEExMjggMTI4IDAgMSAwIDk2IDEyOGExMjggMTI4IDAgMSAwIDI1NiAwek0xNiA0ODIuM0MxNiAzOTIuNyA4OC43IDMyMCAxNzguMyAzMjBsOTEuNCAwYzYuMiAwIDEyLjMgLjMgMTguMyAxbDAtMWMwLTUuMSAuMi0xMC4xIC43LTE1Yy02LjItLjctMTIuNi0xLTE5LTFsLTkxLjQgMEM3OS44IDMwNCAwIDM4My44IDAgNDgyLjNDMCA0OTguNyAxMy4zIDUxMiAyOS43IDUxMmwzODguNiAwYzE2LjQgMCAyOS43LTEzLjMgMjkuNy0yOS43YzAtLjggMC0xLjUgMC0yLjNjLTUuNCAwLTEwLjctLjMtMTYtLjhjMCAxIDAgMi4xIDAgMy4xYzAgNy42LTYuMSAxMy43LTEzLjcgMTMuN0wyOS43IDQ5NmMtNy42IDAtMTMuNy02LjEtMTMuNy0xMy43ek00NDggMjA4LjFhMTEyIDExMiAwIDEgMSAwIDIyNCAxMTIgMTEyIDAgMSAxIDAtMjI0em0wIDI0MGMzMi41IDAgNjIuMS0xMi4xIDg0LjctMzJsOTMuNyA5My43YzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBzMy4xLTguMiAwLTExLjNMNTQ0IDQwNC44YzE5LjktMjIuNiAzMi01Mi4yIDMyLTg0LjdjMC03MC43LTU3LjMtMTI4LTEyOC0xMjhzLTEyOCA1Ny4zLTEyOCAxMjhzNTcuMyAxMjggMTI4IDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-magnifying-glass.svg)
  */
 const UserMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

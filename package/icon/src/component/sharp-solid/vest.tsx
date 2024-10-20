@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vest` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vest?s=sharp-solid vest}
- * @preview ![vest](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA3LjEgMjM3LjRMMTUxLjIgNjkuN0MxNjguNyA3OS44IDE5Mi43IDg4IDIyNCA4OHM1NS4zLTguMiA3Mi44LTE4LjNMMjI0IDI4OGwwIDIyNCAyMjQgMCAwLTI1Ni02NC05NiAwLTMyIDAtMTA0IDAtMjRMMzYwIDAgMzIwIDBsLTcgMEwyOTkuNiAwbC02LjkgMTEuMS0uMyAuNGMtLjQgLjYtMS4yIDEuNS0yLjMgMi44Yy0yLjMgMi42LTYuMSA2LjMtMTEuNSAxMC4xQzI2OC4xIDMxLjggMjUwLjYgNDAgMjI0IDQwcy00NC4xLTguMi01NC43LTE1LjZjLTUuNC0zLjgtOS4yLTcuNS0xMS41LTEwLjFjLTEuMS0xLjMtMS45LTIuMy0yLjMtMi44bC0uMy0uNEwxNDguNCAwIDEzNSAwbC03IDBMODggMCA2NCAwbDAgMjQgMCAxMDQgMCAzMkwwIDI1NiAwIDUxMmwxOTIgMCAwLTIyNCAwLTUuMiAxLjYtNC45IDEzLjUtNDAuNXpNMzM2IDM0NS40bDExLjMgMTEuMyA0OCA0OEw0MDYuNiA0MTYgMzg0IDQzOC42bC0xMS4zLTExLjMtNDgtNDhMMzEzLjQgMzY4IDMzNiAzNDUuNHpNMTAwLjcgMzU2LjdMMTEyIDM0NS40IDEzNC42IDM2OGwtMTEuMyAxMS4zLTQ4IDQ4TDY0IDQzOC42IDQxLjQgNDE2bDExLjMtMTEuMyA0OC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![vest](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/vest.svg)
  */
 const Vest: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

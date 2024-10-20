@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sketch` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sketch?s=brands sketch}
- * @preview ![sketch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcuNSAxNjIuMkw5IDE4Ny4xaDkwLjVsNi45LTEzMC43LTc4LjkgMTA1Ljh6TTM5Ni4zIDQ1LjdMMjY3LjcgMzJsMTM1LjcgMTQ3LjItNy4xLTEzMy41ek0xMTIuMiAyMTguM2wtMTEuMi0yMkg5LjlMMjM0LjggNDU4em0yLTMxLjJoMjg0bC04MS41LTg4LjVMMjU2LjMgMzN6bTI5Ny4zIDkuMUwyNzcuNiA0NThsMjI0LjgtMjYxLjdoLTkwLjl6TTQxNS40IDY5TDQwNiA1Ni40bC45IDE3LjMgNi4xIDExMy40aDkwLjN6TTExMy41IDkzLjVsLTQuNiA4NS42TDI0NC43IDMyIDExNi4xIDQ1Ljd6bTI4Ny43IDEwMi43aC0yOTBsNDIuNCA4Mi45TDI1Ni4zIDQ4MGwxNDQuOS0yODMuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sketch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/sketch.svg)
  */
 const Sketch: typeof Icon = x => (
     <Icon {...x}>

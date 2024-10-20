@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grin-tongue` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-tongue?s=solid face-grin-tongue}
- * @preview ![face-grin-tongue](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZDMCAzNjguOSA3My4xIDQ2NC43IDE3NC41IDQ5OC44QzE2NS4zIDQ4NCAxNjAgNDY2LjYgMTYwIDQ0OGwwLTQ3LjNjLTI0LTE3LjUtNDMuMS00MS40LTU0LjgtNjkuMmMtNS0xMS44IDctMjIuNSAxOS4zLTE4LjdjMzkuNyAxMi4yIDg0LjUgMTkgMTMxLjggMTlzOTIuMS02LjggMTMxLjgtMTljMTIuMy0zLjggMjQuMyA2LjkgMTkuMyAxOC43Yy0xMS44IDI4LTMxLjEgNTItNTUuNCA2OS42bDAgNDYuOWMwIDE4LjYtNS4zIDM2LTE0LjUgNTAuOEM0MzguOSA0NjQuNyA1MTIgMzY4LjkgNTEyIDI1NkM1MTIgMTE0LjYgMzk3LjQgMCAyNTYgMFMwIDExNC42IDAgMjU2em0xNzYuNC04MGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTEyOCAzMmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwek0zMjAgNDQ4bDAtNDUuNGMwLTE0LjctMTEuOS0yNi42LTI2LjYtMjYuNmwtMiAwYy0xMS4zIDAtMjEuMSA3LjktMjMuNiAxOC45Yy0yLjggMTIuNi0yMC44IDEyLjYtMjMuNiAwYy0yLjUtMTEuMS0xMi4zLTE4LjktMjMuNi0xOC45bC0yIDBjLTE0LjcgMC0yNi42IDExLjktMjYuNiAyNi42bDAgNDUuNGMwIDM1LjMgMjguNyA2NCA2NCA2NHM2NC0yOC43IDY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-grin-tongue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-grin-tongue.svg)
  */
 const FaceGrinTongue: typeof Icon = x => (
     <Icon {...x}>

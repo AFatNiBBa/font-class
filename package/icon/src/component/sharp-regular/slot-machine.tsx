@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `slot-machine` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/slot-machine?s=sharp-regular slot-machine}
- * @preview ![slot-machine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDQxNmwwIDQ4LTE2IDAtMjQgMC0yNDggMCAwLTQ4IDI4OCAwek0xMTIgNTEybDI0OCAwIDI0IDAgMTYgMCA0OCAwIDE0NCAwIDI0IDAgMC0yNCAwLTI3MC40YzE0LjMtOC4zIDI0LTIzLjggMjQtNDEuNmMwLTI2LjUtMjEuNS00OC00OC00OHMtNDggMjEuNS00OCA0OGMwIDE3LjggOS43IDMzLjMgMjQgNDEuNkw1NjggNDY0bC0xMjAgMCAwLTQ4IDE2IDAgNDggMCAwLTQ4IDAtMjI0IDAtNDgtNDggMC0xNiAwIDAtNDggMC00OEw0MDAgMCAxMTIgMCA2NCAwbDAgNDggMCA0OEw0OCA5NiAwIDk2bDAgNDhMMCAzNjhsMCA0OCA0OCAwIDE2IDAgMCA0OCAwIDQ4IDQ4IDB6bTAtNDE2bDAtNDggMjg4IDAgMCA0OEwxMTIgOTZ6bTM1MiA0OGwwIDIyNEw0OCAzNjhsMC0yMjQgNDE2IDB6TTE5MiAyMDQuMmwwLTI4LjItMjQgMC01NiAwLTI0IDAgMCA0OCAyNCAwIDIxLjkgMEw5NS40IDMzMS45IDkzLjkgMzM2bDUxIDAgNDUuNy0xMjcuOSAxLjQtMy45ek0zMTIgMTc2bC0yNCAwLTU2IDAtMjQgMCAwIDQ4IDI0IDAgMjEuOSAwTDIxNS40IDMzMS45bC0xLjUgNC4xIDUxIDAgNDUuNy0xMjcuOSAxLjQtMy45IDAtMjguMnptMTIwIDI4LjJsMC0yOC4yLTI0IDAtNTYgMC0yNCAwIDAgNDggMjQgMCAyMS45IDBMMzM1LjQgMzMxLjlsLTEuNSA0LjEgNTEgMCA0NS43LTEyNy45IDEuNC0zLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![slot-machine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/slot-machine.svg)
  */
 const SlotMachine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

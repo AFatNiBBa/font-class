@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sheet-plastic` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sheet-plastic?s=light sheet-plastic}
- * @preview ![sheet-plastic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDY0bDAgMjU2LTExMiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDExMkw2NCA0ODBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyTDMyIDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDI1NiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMyem0tLjUgMjg4Yy0uNyAyLjgtMi4xIDUuNC00LjIgNy40TDIzMS40IDQ3NS4zYy0yLjEgMi4xLTQuNiAzLjUtNy40IDQuMkwyMjQgMzY4YzAtOC44IDcuMi0xNiAxNi0xNmwxMTEuNSAwek0wIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwxNTYuMSAwYzEyLjcgMCAyNC45LTUuMSAzMy45LTE0LjFMMzY5LjkgMzgyLjFjOS05IDE0LjEtMjEuMiAxNC4xLTMzLjlMMzg0IDY0YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgNDQ4ek0xODcuMyA2OC43Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMGwtOTYgOTZjLTYuMiA2LjItNi4yIDE2LjQgMCAyMi42czE2LjQgNi4yIDIyLjYgMGw5Ni05NmM2LjItNi4yIDYuMi0xNi40IDAtMjIuNnptOTYgNTQuNmM2LjItNi4yIDYuMi0xNi40IDAtMjIuNnMtMTYuNC02LjItMjIuNiAwbC0xNjAgMTYwYy02LjIgNi4yLTYuMiAxNi40IDAgMjIuNnMxNi40IDYuMiAyMi42IDBsMTYwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sheet-plastic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sheet-plastic.svg)
  */
 const SheetPlastic: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

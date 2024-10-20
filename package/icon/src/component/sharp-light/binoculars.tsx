@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `binoculars` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binoculars?s=sharp-light binoculars}
- * @preview ![binoculars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDMyTDk2IDMybDAgMzIgMTYgMCA2NCAwIDE2IDAgMC0zMi0xNiAwLTY0IDB6bTIyNCAwbC0xNiAwIDAgMzIgMTYgMCA2NCAwIDE2IDAgMC0zMi0xNiAwLTY0IDB6TTc1LjQgMjQwLjVsMy41LTUuOCAuOC02LjdMOTIuMiAxMjhsOTkuOCAwIDAgMTYgMCAxMjggMCAxNzZMMzIgNDQ4bDAtMTM1LjEgNDMuNC03Mi40ek0yMjQgMjU2bDAtOTYgNjQgMCAwIDk2LTY0IDB6TTI4OCA5NmwwIDMyLTY0IDAgMC0zMi0zMiAwTDY0IDk2IDQ4IDIyNCAwIDMwNCAwIDQ0OGwwIDMyIDMyIDAgMTYwIDAgMzIgMCAwLTMyIDAtMTYwIDY0IDAgMCAxNjAgMCAzMiAzMiAwIDE2MCAwIDMyIDAgMC0zMiAwLTE0NC00OC04MEw0NDggOTYgMzIwIDk2bC0zMiAwem0zMiAzNTJsMC0xNzYgMC0xMjggMC0xNiA5OS44IDAgMTIuNSAxMDAgLjggNi43IDMuNSA1LjhMNDgwIDMxMi45IDQ4MCA0NDhsLTE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![binoculars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/binoculars.svg)
  */
 const Binoculars: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `asterisk` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/asterisk?s=sharp-solid asterisk}
- * @preview ![asterisk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMybDAgMzIgMCAxMzUuNSA5NS41LTU3LjNMMzQ3IDEyNS43bDMyLjkgNTQuOUwzNTIuNSAxOTdsLTk4LjMgNTkgOTguMyA1OSAyNy40IDE2LjVMMzQ3IDM4Ni4zbC0yNy40LTE2LjVMMjI0IDMxMi41IDIyNCA0NDhsMCAzMi02NCAwIDAtMzIgMC0xMzUuNUw2NC41IDM2OS44IDM3IDM4Ni4zIDQuMSAzMzEuNCAzMS41IDMxNWw5OC4zLTU5TDMxLjUgMTk3IDQuMSAxODAuNiAzNyAxMjUuN2wyNy40IDE2LjVMMTYwIDE5OS41IDE2MCA2NGwwLTMyIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![asterisk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/asterisk.svg)
  */
 const Asterisk: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

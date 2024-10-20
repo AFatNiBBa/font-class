@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `thought-bubble` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thought-bubble?s=sharp-light thought-bubble}
- * @preview ![thought-bubble](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ1LjEgOTZsMTguNSAwIDkuMi0xNmMxNi42LTI4LjggNDcuNy00OCA4My4yLTQ4czY2LjUgMTkuMiA4My4yIDQ4bDkuMiAxNiAxOC41IDAgMS4xIDBjNjEuOSAwIDExMiA1MC4xIDExMiAxMTJzLTUwLjEgMTEyLTExMiAxMTJsLTMzLjYgMC0xMy4xIDAtOS4zIDkuMWMtMTQuNSAxNC4yLTM0LjIgMjIuOS01NiAyMi45cy00MS41LTguNy01Ni0yMi45bC05LjMtOS4xLTEzLjEgMEwxNDQgMzIwQzgyLjEgMzIwIDMyIDI2OS45IDMyIDIwOFM4Mi4xIDk2IDE0NCA5NmwxLjEgMHpNMjU2IDBjLTQ3LjQgMC04OC43IDI1LjctMTEwLjkgNjRMMTQ0IDY0QzY0LjUgNjQgMCAxMjguNSAwIDIwOHM2NC41IDE0NCAxNDQgMTQ0bDMzLjYgMGMyMC4yIDE5LjggNDcuOSAzMiA3OC40IDMyczU4LjItMTIuMiA3OC40LTMybDMzLjYgMGM3OS41IDAgMTQ0LTY0LjUgMTQ0LTE0NHMtNjQuNS0xNDQtMTQ0LTE0NGwtMS4xIDBDMzQ0LjcgMjUuNyAzMDMuNCAwIDI1NiAwek0xNjAgNDQ4bC0zMiAwIDAtMzIgMzIgMCAwIDMyem0tMzItNjRsLTMyIDAgMCAzMiAwIDMyIDAgMzIgMzIgMCAzMiAwIDMyIDAgMC0zMiAwLTMyIDAtMzItMzIgMC0zMiAwek0wIDUxMmw2NCAwIDAtNjRMMCA0NDhsMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![thought-bubble](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/thought-bubble.svg)
  */
 const ThoughtBubble: typeof Icon = x => (
     <Icon {...x}>

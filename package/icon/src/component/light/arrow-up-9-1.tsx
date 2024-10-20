@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-9-1` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-9-1?s=light arrow-up-9-1}
- * @preview ![arrow-up-9-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI4IDE2OGE1MiA1MiAwIDEgMSAwLTEwNCA1MiA1MiAwIDEgMSAwIDEwNHptLTg0LTUyYzAgNDYuNCAzNy42IDg0IDg0IDg0Yy40IDAgLjkgMCAxLjMgMGwtMjUuNCAyOS42Yy01LjggNi43LTUgMTYuOCAxLjcgMjIuNnMxNi44IDUgMjIuNi0xLjdsNjIuNC03Mi41QzUwNC40IDE2MS44IDUxMiAxNDEuMiA1MTIgMTIwYzAgMC0uMSAwLS4xIDBjLjEtMS4zIC4xLTIuNyAuMS00YzAtNDYuNC0zNy42LTg0LTg0LTg0cy04NCAzNy42LTg0IDg0ek0xNzEuMyAzNi43Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMGwtOTYgOTZjLTYuMiA2LjItNi4yIDE2LjQgMCAyMi42czE2LjQgNi4yIDIyLjYgMEwxNDQgODYuNiAxNDQgNDY0YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0zNzcuNCA2OC43IDY4LjdjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBzNi4yLTE2LjQgMC0yMi42bC05Ni05NnpNNDQ4IDMwNGMwLTUuMS0yLjUtMTAtNi42LTEzcy05LjUtMy44LTE0LjQtMi4ybC00OCAxNmMtOC40IDIuOC0xMi45IDExLjktMTAuMSAyMC4yczExLjkgMTIuOSAyMC4yIDEwLjFsMjYuOS05TDQxNiA0NDhsLTMyIDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNDggMCA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0zMiAwIDAtMTQ0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-up-9-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-up-9-1.svg)
  */
 const ArrowUp_9_1: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `computer-speaker` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-speaker?s=regular computer-speaker}
- * @preview ![computer-speaker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyLjQgNDgwYy0xMS44LTEzLjItMjAuMS0yOS43LTIzLjEtNDhMMTIwIDQzMmMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwxOTIuNCAwek02NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgMzIwYzAgMzUuMyAyOC43IDY0IDY0IDY0bDIyNCAwIDAtNDhMNjQgMzM2Yy04LjggMC0xNi03LjItMTYtMTZMNDggOTZjMC04LjggNy4yLTE2IDE2LTE2bDIyNS4zIDBjMy4xLTE4LjMgMTEuMy0zNC44IDIzLjEtNDhMNjQgMzJ6TTU3NiA4MGM4LjggMCAxNiA3LjIgMTYgMTZsMCAzMjBjMCA4LjgtNy4yIDE2LTE2IDE2bC0xOTIgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMzIwYzAtOC44IDcuMi0xNiAxNi0xNmwxOTIgMHpNMzg0IDMyYy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDMyMGMwIDM1LjMgMjguNyA2NCA2NCA2NGwxOTIgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEwzODQgMzJ6bTk2IDE0NGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6TTQ0OCAzMjBhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptMTEyIDBhODAgODAgMCAxIDAgLTE2MCAwIDgwIDgwIDAgMSAwIDE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![computer-speaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/computer-speaker.svg)
  */
 const ComputerSpeaker: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

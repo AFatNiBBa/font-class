@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `watermelon-slice` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watermelon-slice?s=sharp-solid watermelon-slice}
- * @preview ![watermelon-slice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkxLjQgMzkxLjRDMjk0LjYgNDg4LjIgMTM3LjkgNDg3LjkgNDEgMzkxTDcgNDI1YzExNS42IDExNS42IDMwMi42IDExNiA0MTguMyAuM1M1NDAuNSAxMjIuNiA0MjUgN0wzOTEgNDFjOTYuOSA5Ni45IDk3LjEgMjUzLjYgLjMgMzUwLjR6TTYzLjMgMzY4LjdjODQuNCA4NC40IDIyMS4xIDg0LjQgMzA1LjUgMGM4NC4yLTg0LjIgODQuNC0yMjAuNyAuMy0zMDUuMUwzNTMuNSA0OCA0OCAzNTMuNWwxNS4zIDE1LjN6TTMyMCAxMzcuNGwxMS4zIDExLjMgMTYgMTZMMzU4LjYgMTc2IDMzNiAxOTguNmwtMTEuMy0xMS4zLTE2LTE2TDI5Ny40IDE2MCAzMjAgMTM3LjR6bS04MCA4MGwxMS4zIDExLjMgMTYgMTZMMjc4LjYgMjU2IDI1NiAyNzguNmwtMTEuMy0xMS4zLTE2LTE2TDIxNy40IDI0MCAyNDAgMjE3LjR6bTg4IDhsMTEuMyAxMS4zIDE2IDE2TDM2Ni42IDI2NCAzNDQgMjg2LjZsLTExLjMtMTEuMy0xNi0xNkwzMDUuNCAyNDggMzI4IDIyNS40em0tMTY4IDcybDExLjMgMTEuMyAxNiAxNkwxOTguNiAzMzYgMTc2IDM1OC42bC0xMS4zLTExLjMtMTYtMTZMMTM3LjQgMzIwIDE2MCAyOTcuNHptODggOGwxMS4zIDExLjMgMTYgMTZMMjg2LjYgMzQ0IDI2NCAzNjYuNmwtMTEuMy0xMS4zLTE2LTE2TDIyNS40IDMyOCAyNDggMzA1LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![watermelon-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/watermelon-slice.svg)
  */
 const WatermelonSlice: typeof Icon = x => (
     <Icon {...x}>

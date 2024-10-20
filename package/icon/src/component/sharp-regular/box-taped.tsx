@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-taped` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-taped?s=sharp-regular box-taped}
- * @preview ![box-taped](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE2MGwyNi43LTgwTDk1LjIgODAgNTkuNiAxNjAgMTYwIDE2MHptMCA0OEw0OCAyMDhsMCAyMjQgMzUyIDAgMC0yMjQtMTEyIDAgMCA4MC0xMjggMCAwLTgwem0xMjgtNDhsMTAwLjQgMEwzNTIuOCA4MGwtOTEuNSAwTDI4OCAxNjB6TTY0IDMybDMyMCAwIDY0IDE0NCAwIDI1NiAwIDQ4LTQ4IDBMNDggNDgwIDAgNDgwbDAtNDhMMCAxNzYgNjQgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![box-taped](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/box-taped.svg)
  */
 const BoxTaped: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

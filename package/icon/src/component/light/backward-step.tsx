@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `backward-step` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backward-step?s=light backward-step}
- * @preview ![backward-step](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgODBjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCAxNjEuOSAwIDI4LjJMMzIgNDMyYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xMzUuOEwyNDIuNiA0NDEuOGM1IDQgMTEuMiA2LjIgMTcuNiA2LjJjMTUuNCAwIDI3LjgtMTIuNCAyNy44LTI3LjhsMC0zMjguNEMyODggNzYuNCAyNzUuNiA2NCAyNjAuMiA2NGMtNi40IDAtMTIuNiAyLjItMTcuNiA2LjJMNjQgMjE1LjggNjQgODB6bTE5MiAyMC42bDAgMzEwLjdMNjUuMyAyNTYgMjU2IDEwMC42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![backward-step](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/backward-step.svg)
  */
 const BackwardStep: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

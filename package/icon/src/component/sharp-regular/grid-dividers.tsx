@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grid-dividers` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-dividers?s=sharp-regular grid-dividers}
- * @preview ![grid-dividers](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDUxMiAwbDAgNDhMMCA0OCAwIDB6TTgwIDE0NGwwIDMyIDMyIDAgMC0zMi0zMiAwek0zMiA5Nmw0OCAwIDMyIDAgNDggMCAwIDQ4IDAgMzIgMCA0OC00OCAwLTMyIDAtNDggMCAwLTQ4IDAtMzIgMC00OHpNODAgNDMybDAgMzIgMzIgMCAwLTMyLTMyIDB6TTMyIDM4NGw0OCAwIDMyIDAgNDggMCAwIDQ4IDAgMzIgMCA0OC00OCAwLTMyIDAtNDggMCAwLTQ4IDAtMzIgMC00OHpNMjcyIDE0NGwtMzIgMCAwIDMyIDMyIDAgMC0zMnpNMjQwIDk2bDMyIDAgNDggMCAwIDQ4IDAgMzIgMCA0OC00OCAwLTMyIDAtNDggMCAwLTQ4IDAtMzIgMC00OCA0OCAwem0wIDMzNmwwIDMyIDMyIDAgMC0zMi0zMiAwem0tNDgtNDhsNDggMCAzMiAwIDQ4IDAgMCA0OCAwIDMyIDAgNDgtNDggMC0zMiAwLTQ4IDAgMC00OCAwLTMyIDAtNDh6TTQzMiAxNDRsLTMyIDAgMCAzMiAzMiAwIDAtMzJ6TTQwMCA5NmwzMiAwIDQ4IDAgMCA0OCAwIDMyIDAgNDgtNDggMC0zMiAwLTQ4IDAgMC00OCAwLTMyIDAtNDggNDggMHptMCAzMzZsMCAzMiAzMiAwIDAtMzItMzIgMHptLTQ4LTQ4bDQ4IDAgMzIgMCA0OCAwIDAgNDggMCAzMiAwIDQ4LTQ4IDAtMzIgMC00OCAwIDAtNDggMC0zMiAwLTQ4em0xNjAtOTZsMCA0OEwwIDMzNmwwLTQ4IDUxMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![grid-dividers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/grid-dividers.svg)
  */
 const GridDividers: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-plus?s=sharp-solid folder-plus}
- * @preview ![folder-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDQ4MEwwIDQ4MCAwIDMybDIyNCAwIDQ4IDY0IDI0MCAwIDAgMzg0ek0yMzIgNDAwbDQ4IDAgMC0yNCAwLTY0IDY0IDAgMjQgMCAwLTQ4LTI0IDAtNjQgMCAwLTY0IDAtMjQtNDggMCAwIDI0IDAgNjQtNjQgMC0yNCAwIDAgNDggMjQgMCA2NCAwIDAgNjQgMCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![folder-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/folder-plus.svg)
  */
 const FolderPlus: typeof Icon = x => (
     <Icon {...x}>

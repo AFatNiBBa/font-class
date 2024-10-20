@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dial` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial?s=light dial}
- * @preview ![dial](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDU2YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMTEuMyAyNDMuM2w4OS44LTg5LjhjMzkuMSA1MC4yIDM1LjUgMTIyLjktMTAuNiAxNjljLTUwIDUwLTEzMSA1MC0xODEgMHMtNTAtMTMxIDAtMTgxYzQ2LjItNDYuMiAxMTguOC00OS43IDE2OS0xMC42bC04OS44IDg5LjhjLTYuMiA2LjItNi4yIDE2LjQgMCAyMi42czE2LjQgNi4yIDIyLjYgMHpNNDAxLjEgMTc0LjlBMTYwIDE2MCAwIDEgMCAxNzQuOSA0MDEuMSAxNjAgMTYwIDAgMSAwIDQwMS4xIDE3NC45ek01NjggMjg4YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6TTMyIDMxMmEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6TTEyMCA5NkEyNCAyNCAwIDEgMCA3MiA5NmEyNCAyNCAwIDEgMCA0OCAwem0zNjAgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek0xMjAgNDgwYTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bTM2MCAyNGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dial](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dial.svg)
  */
 const Dial: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

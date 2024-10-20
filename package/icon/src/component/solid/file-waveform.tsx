@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-waveform` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-waveform?s=solid file-waveform}
- * @preview ![file-waveform](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMEM2MC43IDAgMzIgMjguNyAzMiA2NGwwIDIyNCAxMTIgMGM2LjEgMCAxMS42IDMuNCAxNC4zIDguOEwxNzYgMzMyLjJsNDkuNy05OS40YzIuNy01LjQgOC4zLTguOCAxNC4zLTguOHMxMS42IDMuNCAxNC4zIDguOEwyODEuOSAyODhsNzAuMSAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC04MCAwYy02LjEgMC0xMS42LTMuNC0xNC4zLTguOEwyNDAgMjc1LjhsLTQ5LjcgOTkuNGMtMi43IDUuNC04LjMgOC44LTE0LjMgOC44cy0xMS42LTMuNC0xNC4zLTguOEwxMzQuMSAzMjAgMzIgMzIwbDAgMTI4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDI1NiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjg4LTEyOCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMkwyNTYgMCA5NiAwek0yODggMGwwIDEyOCAxMjggMEwyODggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-waveform.svg)
  */
 const FileWaveform: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-group` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-group?s=sharp-thin user-group}
- * @preview ![user-group](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDEyOGExMTIgMTEyIDAgMSAwIC0yMjQgMCAxMTIgMTEyIDAgMSAwIDIyNCAwek0yMS43IDQ5Nmw0MDQuNyAwTDM3Mi4yIDMyMCA3NS44IDMyMCAyMS43IDQ5NnpNMzg0IDMwNGw1OS4xIDE5MiA0LjkgMTYtMTYuNyAwTDE2LjcgNTEyIDAgNTEybDQuOS0xNkw2NCAzMDRsMzIwIDB6TTIyNCAwYTEyOCAxMjggMCAxIDEgMCAyNTZBMTI4IDEyOCAwIDEgMSAyMjQgMHpNNjIzLjEgNTEybC0xNDEuNyAwLTIuOS05LjQtMi02LjYgMTQxLjIgMEw1NjQuNSAzMzZsLTEzNy4xIDAtNC45LTE2TDU3NiAzMjBsNTguNyAxNzYgNS4zIDE2LTE2LjkgMHpNNDMyIDI1NmMtMzEgMC01OS0xMi42LTc5LjMtMzIuOWMzLjItNC40IDYuMy04LjkgOS4xLTEzLjdDMzc5LjMgMjI4LjIgNDA0LjMgMjQwIDQzMiAyNDBjNTMgMCA5Ni00MyA5Ni05NnMtNDMtOTYtOTYtOTZjLTIyLjQgMC00My4xIDcuNy01OS40IDIwLjZjLTItNS4xLTQuMy0xMC4xLTYuOS0xNC45QzM4NC4zIDQwLjEgNDA3LjIgMzIgNDMyIDMyYzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEycy01MC4xIDExMi0xMTIgMTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-group.svg)
  */
 const UserGroup: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `monitor-waveform` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monitor-waveform?s=regular monitor-waveform}
- * @preview ![monitor-waveform](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgODBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDE0NCAxMjggMGM4LjQgMCAxNi4yIDQuNCAyMC42IDExLjdsMjUuNSA0Mi41IDYwLjQtMTIwLjljMy45LTcuOCAxMS44LTEyLjkgMjAuNS0xMy4yczE3IDQuMSAyMS41IDExLjZsNDEgNjguMyA1OC40IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTcyIDBjLTguNCAwLTE2LjItNC40LTIwLjYtMTEuN2wtMjUuNS00Mi41TDI0NS41IDM1NC43Yy0zLjkgNy44LTExLjggMTIuOS0yMC41IDEzLjJzLTE3LTQuMS0yMS41LTExLjZsLTQxLTY4LjNMNDggMjg4bDAgMTI4YzAgOC44IDcuMiAxNiAxNiAxNmw0NDggMGM4LjggMCAxNi03LjIgMTYtMTZsMC0zMjBjMC04LjgtNy4yLTE2LTE2LTE2TDY0IDgwek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDQ0OCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![monitor-waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/monitor-waveform.svg)
  */
 const MonitorWaveform: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

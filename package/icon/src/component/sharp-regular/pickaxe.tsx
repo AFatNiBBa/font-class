@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pickaxe` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pickaxe?s=sharp-regular pickaxe}
- * @preview ![pickaxe](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzMyLjcgMTc5LjNjNTAgNTAgODguMSAxMDcuMyAxMTcuNiAxNjkuOWMxLjUgMy4yIDMgNi40IDQuNCA5LjZjNy45IDE3LjUgMTUuMiAzNS4zIDIxLjkgNTMuNUw0OTIuMiAzNzRjMy43LTkuMSA2LjktMTguNCA5LjUtMjcuOGMyMi42LTgwLjggNi4xLTE2OS41LTQzLjgtMjM2LjlMNDgwIDg4IDQyNCAzMiA0MDIuNyA1NC4xczAgMCAwIDBDMzM1LjMgNC4yIDI0Ni42LTEyLjMgMTY1LjggMTAuM2MtOS40IDIuNi0xOC43IDUuOC0yNy44IDkuNUw5OS42IDM1LjNjMTguMiA2LjcgMzYuMSAxNCA1My41IDIxLjljMy4yIDEuNSA2LjQgMi45IDkuNiA0LjRjNjIuNiAyOS41IDExOS45IDY3LjYgMTY5LjkgMTE3LjZ6bTMzLjktMzMuOWMtMzguNi0zOC42LTgxLTcwLjUtMTI2LjMtOTdjNTguMyAuNCAxMTYuMiAyMy4zIDE1OC4zIDY1LjVjNDEuOSA0Mi4xIDY0LjYgOTkuNyA2NSAxNTcuN2MtMjYuNS00NS4yLTU4LjQtODcuNi05Ny0xMjYuM3ptLTMyLjEgODIuOGMtNy43LTguOC0xNS44LTE3LjYtMjQuNS0yNi4ycy0xNy40LTE2LjgtMjYuMi0yNC41TDAgNDcybDQwIDQwTDMzNC42IDIyOC4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pickaxe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pickaxe.svg)
  */
 const Pickaxe: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meter-bolt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-bolt?s=sharp-regular meter-bolt}
- * @preview ![meter-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NmMwIDkuOS0uNyAxOS42LTIgMjkuMWw0OS45LTM3LjlDNTA3LjIgMTA5LjkgMzk0LjQgMCAyNTYgMEMxMTQuNiAwIDAgMTE0LjYgMCAyNTZTMTE0LjYgNTEyIDI1NiA1MTJjODAuOCAwIDE1Mi45LTM3LjUgMTk5LjktOTZsLTY2LjkgMGMtMzYgMzAtODIuNCA0OC0xMzIuOSA0OEMxNDEuMSA0NjQgNDggMzcwLjkgNDggMjU2UzE0MS4xIDQ4IDI1NiA0OHMyMDggOTMuMSAyMDggMjA4ek0xOTIgMTUybDAtMjQtNDggMCAwIDI0IDAgNDggMCAyNCA0OCAwIDAtMjQgMC00OHptODggMGwwLTI0LTQ4IDAgMCAyNCAwIDQ4IDAgMjQgNDggMCAwLTI0IDAtNDh6bTg4IDBsMC0yNC00OCAwIDAgMjQgMCA0OCAwIDI0IDQ4IDAgMC0yNCAwLTQ4ek01MDQgMzg0TDQ2NCA1MTIgNjQwIDM3NmwwLTI0LTg4IDAgNDAtMTI4TDQxNiAzNjBsMCAyNCA4OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![meter-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/meter-bolt.svg)
  */
 const MeterBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `tally` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tally?s=sharp-duotone-solid tally}
- * @preview ![tally](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAzMmw2NCAwIDAgMzIgMCAyMTQuNWMtMjEuMyA3LjUtNDIuNyAxNS4xLTY0IDIyLjZMOTYgNjRsMC0zMnptMCAzMzdsNjQtMjIuNkwxNjAgNDQ4bDAgMzItNjQgMCAwLTMyIDAtNzl6TTIyNCAzMmw2NCAwIDAgMzIgMCAxNjkuNC02NCAyMi42TDIyNCA2NGwwLTMyem0wIDI5MS44YzIxLjMtNy41IDQyLjctMTUuMSA2NC0yMi42TDI4OCA0NDhsMCAzMi02NCAwIDAtMzIgMC0xMjQuMnpNMzUyIDMybDY0IDAgMCAzMiAwIDEyNC4yYy0yMS4zIDcuNS00Mi43IDE1LjEtNjQgMjIuNkwzNTIgNjRsMC0zMnptMCAyNDYuNmMyMS4zLTcuNSA0Mi43LTE1LjEgNjQtMjIuNkw0MTYgNDQ4bDAgMzItNjQgMCAwLTMyIDAtMTY5LjR6TTQ4MCAzMmw2NCAwIDAgMzIgMCA3OWMtMjEuMyA3LjUtNDIuNyAxNS4xLTY0IDIyLjZMNDgwIDY0bDAtMzJ6bTAgMjAxLjVjMjEuMy03LjUgNDIuNy0xNS4xIDY0LTIyLjZMNTQ0IDQ0OGwwIDMyLTY0IDAgMC0zMiAwLTIxNC41eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNjMyLjggMTc5LjVsLTMwLjIgMTAuNy01NDQgMTkyTDI4LjUgMzkyLjggNy4yIDMzMi41bDMwLjItMTAuNiA1NDQtMTkyIDMwLjItMTAuNyAyMS4zIDYwLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tally](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tally.svg)
  */
 const Tally: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M96 32l64 0 0 32 0 214.5c-21.3 7.5-42.7 15.1-64 22.6L96 64l0-32zm0 337l64-22.6L160 448l0 32-64 0 0-32 0-79zM224 32l64 0 0 32 0 169.4-64 22.6L224 64l0-32zm0 291.8c21.3-7.5 42.7-15.1 64-22.6L288 448l0 32-64 0 0-32 0-124.2zM352 32l64 0 0 32 0 124.2c-21.3 7.5-42.7 15.1-64 22.6L352 64l0-32zm0 246.6c21.3-7.5 42.7-15.1 64-22.6L416 448l0 32-64 0 0-32 0-169.4zM480 32l64 0 0 32 0 79c-21.3 7.5-42.7 15.1-64 22.6L480 64l0-32zm0 201.5c21.3-7.5 42.7-15.1 64-22.6L544 448l0 32-64 0 0-32 0-214.5z" />
-            <path d="M632.8 179.5l-30.2 10.7-544 192L28.5 392.8 7.2 332.5l30.2-10.6 544-192 30.2-10.7 21.3 60.4z" />
+        <path d="M632.8 179.5l-30.2 10.7-544 192L28.5 392.8 7.2 332.5l30.2-10.6 544-192 30.2-10.7 21.3 60.4z" />
     </Icon>
 );
 

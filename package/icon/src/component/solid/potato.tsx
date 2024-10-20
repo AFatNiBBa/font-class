@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `potato` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/potato?s=solid potato}
- * @preview ![potato](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY2LjMgMjQ5LjJDNDk0LjQgMjIyLjkgNTEyIDE4NS41IDUxMiAxNDRDNTEyIDY0LjUgNDQ3LjUgMCAzNjggMGMtMzkuOCAwLTc1LjkgMTYuMi0xMDIgNDIuM0MyMzguNiA2OS44IDIwNSA5NSAxNzAuOSAxMTMuNmMtMjQuMSAxMy4yLTQ0IDMzLjEtNTcuMyA1Ny4zQzk1IDIwNSA2OS44IDIzOC42IDQyLjMgMjY2QzE2LjIgMjkyLjEgMCAzMjguMiAwIDM2OGMwIDc5LjUgNjQuNSAxNDQgMTQ0IDE0NGMzMC4zIDAgNTguNC05LjMgODEuNS0yNS4zYzI4LjEtMTkuMyA2MC4yLTM1LjMgOTIuNS00Ni4yYzQ0LjEtMTQuOSA4MC4xLTUwLjkgOTMuMS05OS4yYzkuMi0zNC4yIDI5LjQtNjcuOSA1NS4yLTkyLjF6TTM4NCAxNjhhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4ek0xOTIgMjAwYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHpNMTM2IDQxNmEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![potato](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/potato.svg)
  */
 const Potato: typeof Icon = x => (
     <Icon {...x}>

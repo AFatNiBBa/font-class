@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `light-switch-off` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-switch-off?s=light light-switch-off}
- * @preview ![light-switch-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDQ2NGwwIDE2TDY0IDQ4MGMtMTcuNyAwLTMyLTE0LjMtMzItMzJMMzIgNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMTEyIDAgMCAxNmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMTYgMTEyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzODRjMCAxNy43LTE0LjMgMzItMzIgMzJsLTExMiAwIDAtMTZjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZ6TTAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDI1NiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzg0YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgNDQ4ek0xNzYgMzQ0bDMyIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTMyIDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZ6bS00OCAyNGwwLTk2IDEyOCAwIDAgOTZjMCA4LjgtNy4yIDE2LTE2IDE2bC05NiAwYy04LjggMC0xNi03LjItMTYtMTZ6bTAtMjI0YzAtOC44IDcuMi0xNiAxNi0xNmw5NiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDk2LTEyOCAwIDAtOTZ6TTk2IDM2OGMwIDI2LjUgMjEuNSA0OCA0OCA0OGw5NiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMjI0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC05NiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDIyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![light-switch-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/light-switch-off.svg)
  */
 const LightSwitchOff: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

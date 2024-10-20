@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `list-radio` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-radio?s=sharp-thin list-radio}
- * @preview ![list-radio](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNTZhNDAgNDAgMCAxIDAgMCA4MCA0MCA0MCAwIDEgMCAwLTgwem0wIDk2QTU2IDU2IDAgMSAxIDY0IDQwYTU2IDU2IDAgMSAxIDAgMTEyek0xNjggODhsOCAwIDMyMCAwIDggMCAwIDE2LTggMC0zMjAgMC04IDAgMC0xNnptMCAxNjBsOCAwIDMyMCAwIDggMCAwIDE2LTggMC0zMjAgMC04IDAgMC0xNnptMCAxNjBsOCAwIDMyMCAwIDggMCAwIDE2LTggMC0zMjAgMC04IDAgMC0xNnpNNjQgMjE2YTQwIDQwIDAgMSAwIDAgODAgNDAgNDAgMCAxIDAgMC04MHptMCA5NmE1NiA1NiAwIDEgMSAwLTExMiA1NiA1NiAwIDEgMSAwIDExMnptNDAgMTA0YTQwIDQwIDAgMSAwIC04MCAwIDQwIDQwIDAgMSAwIDgwIDB6TTggNDE2YTU2IDU2IDAgMSAxIDExMiAwQTU2IDU2IDAgMSAxIDggNDE2ek02NCAxMTJhMTYgMTYgMCAxIDEgMC0zMiAxNiAxNiAwIDEgMSAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![list-radio](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/list-radio.svg)
  */
 const ListRadio: typeof Icon = x => (
     <Icon {...x}>

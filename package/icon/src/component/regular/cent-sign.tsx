@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cent-sign` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cent-sign?s=regular cent-sign}
- * @preview ![cent-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA0OC41QzI3Ny45IDc1IDMxMyA4OCAzNDEuOSAxMDguNGMxMC44IDcuNyAxMy40IDIyLjYgNS43IDMzLjVzLTIyLjYgMTMuNC0zMy41IDUuN0MyODkuNyAxMzAuMyAyNTkuMiAxMjAgMjI2IDEyMGMtODIgMC0xNDYgNjIuMi0xNDYgMTM2czY0IDEzNiAxNDYgMTM2YzMzLjMgMCA2My43LTEwLjMgODguMi0yNy42YzEwLjgtNy43IDI1LjgtNS4xIDMzLjUgNS43czUuMSAyNS44LTUuNyAzMy41QzMxMyA0MjQgMjc3LjkgNDM3IDI0MCA0MzkuNWwwIDQ4LjVjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC01MC44QzEwMiA0MjIgMzIgMzQ3LjcgMzIgMjU2czcwLTE2NiAxNjAtMTgxLjJMMTkyIDI0YzAtMTMuMyAxMC43LTI0IDI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cent-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cent-sign.svg)
  */
 const CentSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

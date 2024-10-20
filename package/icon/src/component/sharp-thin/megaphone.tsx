@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `megaphone` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/megaphone?s=sharp-thin megaphone}
- * @preview ![megaphone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDQ4bDMyIDAgMCA0MTYtMzIgMCAwLTQxNnpNNTEyIDMybDAgMTYgMCA0MTYgMCAxNiAxNiAwIDMyIDAgMTYgMCAwLTE2IDAtNDE2IDAtMTYtMTYgMC0zMiAwLTE2IDB6TTQ4MCA2NS44TDE2IDE4MS44IDE2IDE2OGwwLThMMCAxNjBsMCA4IDAgMTcuOEwwIDE5MiAwIDMyMGwwIDYuMkwwIDM0NGwwIDggMTYgMCAwLTggMC0xMy44IDE0NS42IDM2LjRjLTEgNS42LTEuNiAxMS40LTEuNiAxNy40YzAgNTMgNDMgOTYgOTYgOTZjNDIuOSAwIDc5LjEtMjguMSA5MS41LTY2LjhsLTEuNy0uNUw0ODAgNDQ2LjJsMC0xNi41TDE2IDMxMy44bDAtMTE1LjUgNDY0LTExNiAwLTE2LjV6TTE3NiAzODRjMC00LjYgLjQtOS4xIDEuMS0xMy41bDE1NC44IDM4LjdDMzIxLjQgNDQxIDI5MS40IDQ2NCAyNTYgNDY0Yy00NC4yIDAtODAtMzUuOC04MC04MHptODAtOTZsLS40IDAgLjcgMC0uNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![megaphone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/megaphone.svg)
  */
 const Megaphone: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

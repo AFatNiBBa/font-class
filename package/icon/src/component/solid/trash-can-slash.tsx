@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-can-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-slash?s=solid trash-can-slash}
- * @preview ![trash-can-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w1MTIgMzc2bDAtMjQ4LTMxNi40IDBMMTU0LjggOTYgNTEyIDk2YzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC05NiAwLTcuMi0xNC4zQzQwMy40IDYuOCAzOTIuMyAwIDM4MC4yIDBMMjU5LjggMGMtMTIuMSAwLTIzLjIgNi44LTI4LjYgMTcuN0wyMjQgMzJsLTk2IDBjLTEzLjQgMC0yNC44IDguMi0yOS42IDE5LjhMMzguOCA1LjF6TTMwNCAyMTNsMC01YzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZsMCAzMEwzMDQgMjEzem05NiA3NS4ybDAtODAuMmMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2bDAgMTA1LjMtMzItMjUuMXptOTcuOCAyMDBMNDMxLjUgNDM2Yy0xLjggNi45LTggMTItMTUuNSAxMmMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjAuOC02NC01MC40IDAgNzEuM2MwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTk2LjUtNjQtNTAuNEwyNDAgNDMyYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMTcyLjEtODAtNjNMMTI4IDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMGMyMC4xIDAgMzguMS05LjMgNDkuOC0yMy44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trash-can-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-can-slash.svg)
  */
 const TrashCanSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fly` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fly?s=brands fly}
- * @preview ![fly](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk3LjggNDI3LjhjMTIuOSAxMS43IDMzLjcgMzMuMyAzMy4yIDUwLjcgMCAuOC0uMSAxLjYtLjEgMi41LTEuOCAxOS44LTE4LjggMzEuMS0zOS4xIDMxLTI1LS4xLTM5LjktMTYuOC0zOC43LTM1LjggMS0xNi4yIDIwLjUtMzYuNyAzMi40LTQ3LjYgMi4zLTIuMSAyLjctMi43IDUuNi0zLjYgMy40IDAgMy45LjMgNi43IDIuOHpNMzMxLjkgNjcuM2MtMTYuMy0yNS43LTM4LjYtNDAuNi02My4zLTUyLjFDMjQzLjEgNC41IDIxNC0uMiAxOTIgMGMtNDQuMSAwLTcxLjIgMTMuMi04MS4xIDE3LjNDNTcuMyA0NS4yIDI2LjUgODcuMiAyOCAxNTguNmM3LjEgODIuMiA5NyAxNzYgMTU1LjggMjMzLjggMS43IDEuNiA0LjUgNC41IDYuMiA1LjFsMy4zLjFjMi4xLS43IDEuOC0uNSAzLjUtMi4xIDUyLjMtNDkuMiAxNDAuNy0xNDUuOCAxNTUuOS0yMTUuNyA3LTM5LjIgMy4xLTcyLjUtMjAuOC0xMTIuNXpNMTg2LjggMzUxLjljLTI4LTUxLjEtNjUuMi0xMzAuNy02OS4zLTE4OS0zLjQtNDcuNSAxMS40LTEzMS4yIDY5LjMtMTM2Ljd2MzI1Ljd6TTMyOC43IDE4MGMtMTYuNCA1Ni44LTc3LjMgMTI4LTExOC45IDE3MC4zQzIzNy42IDI5OC40IDI3NSAyMTcgMjc3IDE1OC40YzEuNi00NS45LTkuOC0xMDUuOC00OC0xMzEuNCA4OC44IDE4LjMgMTE1LjUgOTguMSA5OS43IDE1M3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/fly.svg)
  */
 const Fly: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

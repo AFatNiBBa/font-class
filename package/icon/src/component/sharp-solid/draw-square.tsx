@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `draw-square` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-square?s=sharp-solid draw-square}
- * @preview ![draw-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmMyMy43IDAgNDQuNCAxMi45IDU1LjQgMzJsMjA5LjEgMGMxMS4xLTE5LjEgMzEuNy0zMiA1NS40LTMyYzM1LjMgMCA2NCAyOC43IDY0IDY0YzAgMjMuNy0xMi45IDQ0LjQtMzIgNTUuNGwwIDIwOS4xYzE5LjEgMTEuMSAzMiAzMS43IDMyIDU1LjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRjLTIzLjcgMC00NC40LTEyLjktNTUuNC0zMmwtMjA5LjEgMGMtMTEuMSAxOS4xLTMxLjcgMzItNTUuNCAzMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRjMC0yMy43IDEyLjktNDQuNCAzMi01NS40bDAtMjA5LjFDMTIuOSAxNDAuNCAwIDExOS43IDAgOTZ6bTk2IDU1LjRsMCAyMDkuMWM5LjcgNS42IDE3LjggMTMuNyAyMy40IDIzLjRsMjA5LjEgMGM1LjYtOS43IDEzLjctMTcuOCAyMy40LTIzLjRsMC0yMDkuMWMtOS43LTUuNi0xNy44LTEzLjctMjMuNC0yMy40bC0yMDkuMSAwYy01LjYgOS43LTEzLjcgMTcuOC0yMy40IDIzLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![draw-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/draw-square.svg)
  */
 const DrawSquare: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

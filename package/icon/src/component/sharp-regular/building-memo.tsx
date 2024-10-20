@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building-memo` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-memo?s=sharp-regular building-memo}
- * @preview ![building-memo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMjg4IDAgMCAxNiA0OCAwIDAtMTYgMC00OEwzMzYgMCA0OCAwIDAgMCAwIDQ4IDAgNDY0bDAgNDggNDggMCAyNDAgMCAwLTQ4LTQ4IDAgMC0xMTItOTYgMCAwIDExMi05NiAwTDQ4IDQ4ek0yMTYgODhsMCA4MCA3MiAwIDAtODAtNzIgMHptMCAxMjhsMCA4MCA3MiAwIDAtODAtNzIgMHpNODggODhsMCA4MCA4MCAwIDAtODBMODggODh6bTAgMTI4bDAgODAgODAgMCAwLTgwLTgwIDB6TTY0MCA5NkwzMjAgOTZsMCA0MTYgMzIwIDAgMC00MTZ6TTQwMCAxODRhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4ek0zNzYgMzA0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bTI0IDcyYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptNjQtMTg0bDE2IDAgOTYgMCAxNiAwIDAgMzItMTYgMC05NiAwLTE2IDAgMC0zMnptMTYgOTZsOTYgMCAxNiAwIDAgMzItMTYgMC05NiAwLTE2IDAgMC0zMiAxNiAwem0tMTYgOTZsMTYgMCA5NiAwIDE2IDAgMCAzMi0xNiAwLTk2IDAtMTYgMCAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![building-memo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/building-memo.svg)
  */
 const BuildingMemo: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

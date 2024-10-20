@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `input-numeric` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-numeric?s=thin input-numeric}
- * @preview ![input-numeric](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDgwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMjU2YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDY0IDQzMmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0yNTZjMC0yNi41IDIxLjUtNDggNDgtNDhsNTEyIDB6TTY0IDY0QzI4LjcgNjQgMCA5Mi43IDAgMTI4TDAgMzg0YzAgMzUuMyAyOC43IDY0IDY0IDY0bDUxMiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjU2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDY0em00MCAxMTJjMCA0LjQgMy42IDggOCA4bDI0IDAgMCAxNDQtMjQgMGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGw2NCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0yNCAwIDAtMTUyYzAtNC40LTMuNi04LTgtOGwtMzIgMGMtNC40IDAtOCAzLjYtOCA4em0xNTQuNSAyMi4zYzEyLjMtMTQuNyAzNC4yLTE2LjQgNDguNy0zLjhjMTQuMSAxMi40IDE1LjYgMzMuOCAzLjMgNDhMMjM0IDMzMC44Yy0yLjEgMi40LTIuNSA1LjctMS4yIDguNnM0LjEgNC43IDcuMyA0LjdsOTYgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtNzguNSAwIDY1LjEtNzUuMWMxOC4xLTIwLjggMTUuOS01Mi40LTQuOS03MC41Yy0yMS4yLTE4LjUtNTMuNS0xNi03MS41IDUuNmwtMTIuNCAxNC45Yy0yLjggMy40LTIuNCA4LjQgMSAxMS4zczguNCAyLjQgMTEuMy0xbDEyLjQtMTQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![input-numeric](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/input-numeric.svg)
  */
 const InputNumeric: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

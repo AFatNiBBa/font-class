@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scale-unbalanced` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scale-unbalanced?s=sharp-solid scale-unbalanced}
- * @preview ![scale-unbalanced](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg4LjkgMzkuM2wxMTMtMzcuNyAyMC4yIDYwLjctMTI1LjkgNDJjLTcgMjItMjMuMyAzOS45LTQ0LjIgNDlMMzUyIDQ0OGwxNjAgMCAzMiAwIDAgNjQtMzIgMC0xOTIgMC0zMiAwIDAtMzIgMC0zMjYuN2MtNS4xLTIuMi05LjktNS0xNC40LTguMkwxMzguMSAxOTAuNGwtMzAuNCAxMC4xTDg3LjUgMTM5LjhsMzAuNC0xMC4xTDI0MC41IDg4LjhjLS4zLTIuOS0uNS01LjgtLjUtOC44YzAtNDQuMiAzNS44LTgwIDgwLTgwYzI5LjMgMCA1NSAxNS44IDY4LjkgMzkuM3pNMTEyIDIyNGwzMiAwIDE0LjUgMCA2LjcgMTIuOSA4OCAxNjggMi43IDUuMiAwIDUuOSAwIDMyIDAgOS45LTcgNy00MCA0MC03IDctOS45IDBMNjQgNTEybC05LjkgMC03LTdMNyA0NjVsLTctN0wwIDQ0OGwwLTMyIDAtNS45IDIuNy01LjIgODgtMTY4TDk3LjUgMjI0bDE0LjUgMHpNNTEuMSA0MTZsMTUzLjggMEwxMjkuNSAyNzJsLTMgMEw1MS4xIDQxNnpNNDgxLjUgOTZMNDk2IDk2bDMyIDAgMTQuNSAwIDYuNyAxMi45IDg4IDE2OCAyLjcgNS4yIDAgNS45IDAgMzIgMCA5LjktNyA3LTQwIDQwLTcgNy05LjkgMC0xMjggMC05LjkgMC03LTctNDAtNDAtNy03IDAtOS45IDAtMzIgMC01LjkgMi43LTUuMiA4OC0xNjhMNDgxLjUgOTZ6bTI5IDQ4TDQzNS4xIDI4OGwxNTMuOCAwTDUxMy41IDE0NGwtMyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![scale-unbalanced](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/scale-unbalanced.svg)
  */
 const ScaleUnbalanced: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

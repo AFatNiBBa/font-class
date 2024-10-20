@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `transformer-bolt` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transformer-bolt?s=sharp-solid transformer-bolt}
- * @preview ![transformer-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM2IDI0bDAgOCAyNCAwIDE2IDAgMCAzMi0xNiAwLTI0IDBMODggNjQgNjQgNjQgNDggNjRsMC0zMiAxNiAwIDI0IDAgMC04TDg4IDBsNDggMCAwIDI0em0xNjAgMGwwIDggMjQgMCAxNiAwIDAgMzItMTYgMC0yNCAwLTQ4IDAtMjQgMC0xNiAwIDAtMzIgMTYgMCAyNCAwIDAtOCAwLTI0IDQ4IDAgMCAyNHpNNDggOTZsMTYgMCA5NiAwIDE2IDAgMCAzMi0xNiAwLTk2IDAtMTYgMCAwLTMyem0xNjAgMGwxNiAwIDk2IDAgMTYgMCAwIDMyLTE2IDAtOTYgMC0xNiAwIDAtMzJ6TTAgMTYwbDMyIDAgMzIwIDAgMzIgMCAwIDY0LTMyIDAgMCAyMjQgMzIgMCAwIDY0LTMyIDBMMzIgNTEyIDAgNTEybDAtNjQgMzIgMCAwLTIyNEwwIDIyNGwwLTY0em0yNDAgNDhMOTYgMzUybDcwLjUgNUwxNDQgNDY0IDI4OCAzMjBsLTcwLjUtNUwyNDAgMjA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![transformer-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/transformer-bolt.svg)
  */
 const TransformerBolt: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-lean-canvas` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-lean-canvas?s=light diagram-lean-canvas}
- * @preview ![diagram-lean-canvas](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDY0bDAgMjU2IDk2IDAgMC0yMjRjMC0xNy43LTE0LjMtMzItMzItMzJsLTY0IDB6bS0zMiAwbC05NiAwIDAgMTI4IDk2IDAgMC0xMjh6TTM1MiA2NGwtNjQgMCAwIDI1NiA2NCAwIDAtMjU2em0tOTYgMGwtOTYgMCAwIDEyOCA5NiAwIDAtMTI4ek0xMjggNjRMNjQgNjRDNDYuMyA2NCAzMiA3OC4zIDMyIDk2bDAgMjI0IDk2IDAgMC0yNTZ6TTMyIDM1MmwwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDI0MCAwIDAtOTZMMzIgMzUyem0zMDQgOTZsMjQwIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC02NC0yNzIgMCAwIDk2ek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDUxMiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnpNMjU2IDMyMGwwLTk2LTk2IDAgMCA5NiA5NiAwem0yMjQtOTZsLTk2IDAgMCA5NiA5NiAwIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![diagram-lean-canvas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/diagram-lean-canvas.svg)
  */
 const DiagramLeanCanvas: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

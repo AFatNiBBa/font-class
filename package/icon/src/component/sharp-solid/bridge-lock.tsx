@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bridge-lock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-lock?s=sharp-solid bridge-lock}
- * @preview ![bridge-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMzIgMCA1MTIgMCAzMiAwIDAgNjQtMzIgMC00MCAwIDAgNjQtOCAwYy02MS45IDAtMTEyIDUwLjEtMTEyIDExMmwwIDE2LTMyIDAgMCAyNC40Yy0xNy0xNS4yLTM5LjQtMjQuNC02NC0yNC40Yy01MyAwLTk2IDQzLTk2IDk2bDAgOTYtOTYgMCAwLTk2YzAtNTMtNDMtOTYtOTYtOTZsMC0xMjggNzIgMCAwLTY0TDY0IDk2IDMyIDk2bDAtNjR6TTQwOCA5NmwwIDY0IDgwIDAgMC02NC04MCAwem0tNDggNjRsMC02NC04MCAwIDAgNjQgODAgMHpNMTUyIDk2bDAgNjQgODAgMCAwLTY0LTgwIDB6TTUyOCAyNDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgNDggNjQgMCAwLTQ4YzAtMTcuNy0xNC4zLTMyLTMyLTMyem0tODAgMzJjMC00NC4yIDM1LjgtODAgODAtODBzODAgMzUuOCA4MCA4MGwwIDQ4IDMyIDAgMCAxOTItMjI0IDAgMC0xOTIgMzIgMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bridge-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bridge-lock.svg)
  */
 const BridgeLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

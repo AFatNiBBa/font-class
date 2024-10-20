@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hashtag` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hashtag?s=solid hashtag}
- * @preview ![hashtag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgxLjMgMzIuNGMxNy40IDIuOSAyOS4yIDE5LjQgMjYuMyAzNi44TDE5Ny44IDEyOGw5NS4xIDAgMTEuNS02OS4zYzIuOS0xNy40IDE5LjQtMjkuMiAzNi44LTI2LjNzMjkuMiAxOS40IDI2LjMgMzYuOEwzNTcuOCAxMjhsNTguMiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC02OC45IDBMMzI1LjggMzIwbDU4LjIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtNjguOSAwLTExLjUgNjkuM2MtMi45IDE3LjQtMTkuNCAyOS4yLTM2LjggMjYuM3MtMjkuMi0xOS40LTI2LjMtMzYuOGw5LjgtNTguNy05NS4xIDAtMTEuNSA2OS4zYy0yLjkgMTcuNC0xOS40IDI5LjItMzYuOCAyNi4zcy0yOS4yLTE5LjQtMjYuMy0zNi44TDkwLjIgMzg0IDMyIDM4NGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmw2OC45IDAgMjEuMy0xMjhMNjQgMTkyYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDY4LjkgMCAxMS41LTY5LjNjMi45LTE3LjQgMTkuNC0yOS4yIDM2LjgtMjYuM3pNMTg3LjEgMTkyTDE2NS44IDMyMGw5NS4xIDAgMjEuMy0xMjgtOTUuMSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hashtag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hashtag.svg)
  */
 const Hashtag: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

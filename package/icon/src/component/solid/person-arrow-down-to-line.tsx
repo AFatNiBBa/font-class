@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-arrow-down-to-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-arrow-down-to-line?s=solid person-arrow-down-to-line}
- * @preview ![person-arrow-down-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptLTggMzUybDAtOTYgMTYgMCAwIDk2LTE2IDB6bS02NCAwbC04OCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDEyMCAwIDgwIDAgMzc2IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJsLTM0NCAwIDAtMTkxLjEgMjguNiA0Ny41YzkuMSAxNS4xIDI4LjggMjAgNDMuOSAxMC45czIwLTI4LjggMTAuOS00My45bC01OC4zLTk3Yy0xNy40LTI4LjktNDguNi00Ni42LTgyLjMtNDYuNmwtMjkuNyAwYy0zMy43IDAtNjQuOSAxNy43LTgyLjMgNDYuNmwtNTguMyA5N2MtOS4xIDE1LjEtNC4yIDM0LjggMTAuOSA0My45czM0LjggNC4yIDQzLjktMTAuOUwxMjAgMjU2LjkgMTIwIDQ0OHpNNDY0IDY0bDAgMjQyLjctMjUuNC0yNS40Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMHMtMTIuNSAzMi44IDAgNDUuM2w4MCA4MGMxMi41IDEyLjUgMzIuOCAxMi41IDQ1LjMgMGw4MC04MGMxMi41LTEyLjUgMTIuNS0zMi44IDAtNDUuM3MtMzIuOC0xMi41LTQ1LjMgMEw1MjggMzA2LjcgNTI4IDY0YzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-arrow-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-arrow-down-to-line.svg)
  */
 const PersonArrowDownToLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

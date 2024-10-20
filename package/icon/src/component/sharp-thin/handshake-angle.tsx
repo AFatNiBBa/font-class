@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `handshake-angle` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-angle?s=sharp-thin handshake-angle}
- * @preview ![handshake-angle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgyLjMgMi4zTDQyMC43IDY0IDIxNiA2NGwtOCAwIDAgOCAwIDIyNCAwIDggOCAwIDk2IDAgOCAwIDAtOCAwLTcyIDE3NiAwIDAgNzItMjQgMC04IDAgMCA4IDAgNzItNDAgMC04IDAgMCA4IDAgNDgtNDggMC0xMzYgMC0zLjMgMC0yLjMgMi4zLTY0IDY0IDExLjMgMTEuM0wyMzUuMyA0NDggMzc2IDQ0OGw0OCAwIDggMCAwLTggMC00OCA0MCAwIDggMCAwLTggMC03MiAyNCAwIDggMCAwLTggMC04OCAwLTgtOCAwLTE4NCAwIDAtNDggMC04LTE2IDAgMCA4IDAgMTI4LTgwIDAgMC0yMDggMjAwIDAgMy4zIDAgMi4zLTIuMyA2NC02NEw0ODIuMyAyLjN6TTE3NiAxNDRsLTcyIDAtOCAwIDAgOCAwIDEyNC43TDIuMyAzNzAuM2wxMS4zIDExLjMgOTYtOTYgMi4zLTIuMyAwLTMuMyAwLTEyMCA2NCAwIDAtMTZ6bTM2OCA2OC43bDAgMjIuNiA5My43LTkzLjctMTEuMy0xMS4zTDU0NCAyMTIuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![handshake-angle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/handshake-angle.svg)
  */
 const HandshakeAngle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-rear` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-rear?s=sharp-thin car-rear}
- * @preview ![car-rear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE0IDMybDYgMCAyNzIgMCA2IDAgMS43IDUuN0w0NDYgMTkybDUwIDAgMTYgMCAwIDE2IDAgMTc2IDAgMTYtMTYgMC0xNiAwIDAgNjQgMCAxNi0xNiAwLTY0IDAtMTYgMCAwLTE2IDAtNjQtMjU2IDAgMCA2NCAwIDE2LTE2IDAtNjQgMC0xNiAwIDAtMTYgMC02NC0xNiAwTDAgNDAwbDAtMTZMMCAyMDhsMC0xNiAxNiAwIDUwIDBMMTEyLjMgMzcuNyAxMTQgMzJ6TTM4NCAzODRsMTYgMCA2NCAwIDE2IDAgMTYgMCAwLTQ4LTcyIDAtOCAwIDAtOCAwLTY0IDAtOCA4IDAgNzIgMCAwLTQ4TDE2IDIwOGwwIDQ4IDcyIDAgOCAwIDAgOCAwIDY0IDAgOC04IDAtNzIgMCAwIDQ4IDE2IDAgMTYgMCA2NCAwIDE2IDAgMjU2IDB6bTE2IDE2bDAgNjQgNjQgMCAwLTY0LTY0IDB6TTQ4IDQ2NGw2NCAwIDAtNjQtNjQgMCAwIDY0ek0zODYgNDhMMTI2IDQ4IDgyLjggMTkybDM0Ni41IDBMMzg2IDQ4ek00OTYgMjcybC02NCAwIDAgNDggNjQgMCAwLTQ4ek0xNiAzMjBsNjQgMCAwLTQ4LTY0IDAgMCA0OHptMTkyLTE2bDAgMzIgOTYgMCAwLTMyLTk2IDB6bS0xNi0xNmwxNiAwIDk2IDAgMTYgMCAwIDE2IDAgMzIgMCAxNi0xNiAwLTk2IDAtMTYgMCAwLTE2IDAtMzIgMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![car-rear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/car-rear.svg)
  */
 const CarRear: typeof Icon = x => (
     <Icon {...x}>

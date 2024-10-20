@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-shield` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-shield?s=sharp-solid user-shield}
- * @preview ![user-shield](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBhMTI4IDEyOCAwIDEgMSAwIDI1NkExMjggMTI4IDAgMSAxIDIyNCAwem05Ni4xIDMwNGMyLjMgNzQuNyAzNi43IDE1OC41IDEwNiAyMDhMMCA1MTIgNjQgMzA0bDI1Ni4xIDB6bTI3MS4yIDguNEw0OTYgMjc1LjVsMCAxODQuOWM1Ni41LTI2LjMgOTAuMi04NyA5NS4zLTE0OHpNNDk2IDUxMmMtOTYtMzItMTQ0LTEzMC4yLTE0NC0yMTZsMC0xNi4yTDQ5NiAyMjRsMTQ0IDU1LjggMCAxNi4yYzAgODUuOC00OCAxODQtMTQ0IDIxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-shield.svg)
  */
 const UserShield: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

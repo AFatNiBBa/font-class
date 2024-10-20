@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crop-simple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crop-simple?s=solid crop-simple}
- * @preview ![crop-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMyYzAtMTcuNy0xNC4zLTMyLTMyLTMyUzY0IDE0LjMgNjQgMzJsMCAzMkwzMiA2NEMxNC4zIDY0IDAgNzguMyAwIDk2czE0LjMgMzIgMzIgMzJsMzIgMCAwIDI1NmMwIDM1LjMgMjguNyA2NCA2NCA2NGwyMjQgMCAwLTY0LTIyNCAwIDAtMzUyek0zODQgNDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0zMiAzMiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0zMiAwIDAtMjU2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDE2MCA2NGwwIDY0IDIyNCAwIDAgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![crop-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/crop-simple.svg)
  */
 const CropSimple: typeof Icon = x => (
     <Icon {...x}>

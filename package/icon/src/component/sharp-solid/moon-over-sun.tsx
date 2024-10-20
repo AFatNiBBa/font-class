@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `moon-over-sun` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon-over-sun?s=sharp-solid moon-over-sun}
- * @preview ![moon-over-sun](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDczLjFMMTUwIDAgMTI2LjcgMTI2LjcgMCAxNTAgNzMuMSAyNTYgMCAzNjJsMTI2LjcgMjMuM0wxNTAgNTEybDEwNi03My4xTDM2MiA1MTJsMjMuMy0xMjYuN0w1MTIgMzYyIDQzOC45IDI1NiA1MTIgMTUwIDM4NS4zIDEyNi43IDM2MiAwIDI1NiA3My4xek0xMTIgMjU2YTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTIxMyA2NS43Yy01MC41IDAtOTEuNC00MC41LTkxLjQtOTAuNWMwLTM2LjkgMjIuMy02OC42IDU0LjItODIuN2MtMTAuMS0zLTIwLjgtNC42LTMxLjgtNC42Yy02MS45IDAtMTEyIDUwLjEtMTEyIDExMnM1MC4xIDExMiAxMTIgMTEyYzM4LjcgMCA3Mi44LTE5LjYgOTIuOS00OS40Yy03LjYgMi0xNS42IDMuMS0yMy45IDMuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![moon-over-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/moon-over-sun.svg)
  */
 const MoonOverSun: typeof Icon = x => (
     <Icon {...x}>

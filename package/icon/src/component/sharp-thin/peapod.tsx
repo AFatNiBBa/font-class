@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `peapod` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peapod?s=sharp-thin peapod}
- * @preview ![peapod](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDE2QzE5NS4xIDE2IDE2IDE5NS4xIDE2IDQxNmwwIDgwIDgwIDBjMjIwLjkgMCA0MDAtMTc5LjEgNDAwLTQwMGwwLTgwLTgwIDB6bTAtMTZsODAgMCAxNiAwIDAgMTYgMCA4MGMwIDIyOS44LTE4Ni4yIDQxNi00MTYgNDE2bC04MCAwTDAgNTEybDAtMTYgMC04MEMwIDE4Ni4yIDE4Ni4yIDAgNDE2IDB6TTMwNCAxNDRhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAwem02NCA0OGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bS0xMTIgMGE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHptNDggNjRhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMTQ0IDMwNGE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHptNDggNjRhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![peapod](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/peapod.svg)
  */
 const Peapod: typeof Icon = x => (
     <Icon {...x}>

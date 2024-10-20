@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tent-double-peak` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-double-peak?s=regular tent-double-peak}
- * @preview ![tent-double-peak](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMxLjMgOTMuNGwzMC0zNy41IDYuMSA2LjFDMTk5LjQgOTQgMjQyLjggMTEyIDI4OCAxMTJzODguNi0xOCAxMjAuNi00OS45bDYuMS02LjEgMzAgMzcuNWMxNiAyMCAzNC41IDM3LjkgNTUgNTMuM0w1MjggMTY4bDAgMjQtMjE2IDAtNDggMEw0OCAxOTJsMC0yNCAyOC40LTIxLjNjMjAuNS0xNS40IDM5LTMzLjMgNTUtNTMuM3pNMjY0IDI0MGwwIDIyNEw0OCA0NjRsMC0yMjQgMjE2IDB6bTQ4IDBsMjE2IDAgMCAyMjQtMTEyIDBMMzEyIDI0MHpNMzkzLjQgOS40TDM3NC42IDI4LjFDMzUxLjcgNTEuMSAzMjAuNSA2NCAyODggNjRzLTYzLjctMTIuOS04Ni42LTM1LjlMMTgyLjYgOS40QzE3Ni4yIDIuOSAxNjcuMy0uNSAxNTguMiAwcy0xNy41IDQuOS0yMy4yIDEyTDkzLjkgNjMuNWMtMTMuNSAxNi45LTI5IDMxLjktNDYuMyA0NC45TDEyLjggMTM0LjRDNC43IDE0MC40IDAgMTQ5LjkgMCAxNjBMMCA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJsNTEyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0zMjBjMC0xMC4xLTQuNy0xOS42LTEyLjgtMjUuNmwtMzQuNy0yNi4xYy0xNy4zLTEyLjktMzIuOC0yOC00Ni4zLTQ0LjlMNDQxIDEyQzQzNS4zIDQuOSA0MjYuOSAuNiA0MTcuOCAwcy0xOCAyLjktMjQuNCA5LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tent-double-peak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tent-double-peak.svg)
  */
 const TentDoublePeak: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

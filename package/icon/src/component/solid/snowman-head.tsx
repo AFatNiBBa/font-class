@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `snowman-head` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowman-head?s=solid snowman-head}
- * @preview ![snowman-head](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDNjQgMjguNyA5Mi43IDAgMTI4IDBMMzIwIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCA5Ni0xNjAgMEw2NCAxNjBsMC05NnpNMzMwLjIgMTkybDg1LjggMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtMjUuNyAwYzE2LjMgMjguMiAyNS43IDYxIDI1LjcgOTZjMCA1OS44LTI3LjQgMTEzLjMtNzAuMyAxNDguNWMtOS43IDgtMjIuMyAxMS41LTM0LjkgMTEuNWwtMTczLjcgMGMtMTIuNiAwLTI1LjEtMy41LTM0LjktMTEuNUM1OS40IDQ2NS4zIDMyIDQxMS44IDMyIDM1MmMwLTM1IDkuMy02Ny44IDI1LjctOTZMMzIgMjU2Yy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDg1LjggMCAyMTIuMyAwek0xNTIgMzM2YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMTY4LTI0YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6TTIxOS4zIDQ0NS4yYy45IDEuNyAyLjcgMi44IDQuNyAyLjhzMy44LTEuMSA0LjctMi44bDIzLjgtNDYuM2MyLjMtNC41IDMuNS05LjYgMy41LTE0LjdjMC0xNy43LTE0LjMtMzIuMi0zMi0zMi4ycy0zMiAxNC41LTMyIDMyLjJjMCA1LjEgMS4yIDEwLjIgMy41IDE0LjdsMjMuOCA0Ni4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![snowman-head](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/snowman-head.svg)
  */
 const SnowmanHead: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

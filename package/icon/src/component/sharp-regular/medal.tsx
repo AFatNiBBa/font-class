@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `medal` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/medal?s=sharp-regular medal}
- * @preview ![medal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI3LjIgMTAwLjdMMTYwIDAgNTcuNyAwIDAgMCAzMiA0OGw4Ny40IDEzMS4xYzEyLjEtMTAuNSAyNS4zLTE5LjYgMzkuNi0yNy4yTDg5LjcgNDhsNDQuNiAwIDU5LjYgODkuNGMxNi40LTUuMSAzMy43LTguMyA1MS42LTkuMmwtMTguNC0yNy41ek00ODAgNDhMNTEyIDAgNDU0LjMgMCAzNTIgMCAyODQuOCAxMDAuN2wtMTguNCAyNy41YzE3LjkgLjkgMzUuMiA0IDUxLjYgOS4yTDM3Ny43IDQ4bDQ0LjYgMEwzNTMgMTUyYzE0LjMgNy41IDI3LjUgMTYuNyAzOS42IDI3LjJMNDgwIDQ4ek0yNTYgMjA4YTEyOCAxMjggMCAxIDEgMCAyNTYgMTI4IDEyOCAwIDEgMSAwLTI1NnptMCAzMDRhMTc2IDE3NiAwIDEgMCAwLTM1MiAxNzYgMTc2IDAgMSAwIDAgMzUyem0wLTI3MmwtMjguMiA1Ny4yLTYzLjEgOS4yIDQ1LjcgNDQuNS0xMC44IDYyLjhMMjU2IDM4NGw1Ni40IDI5LjctMTAuOC02Mi44IDQ1LjctNDQuNS02My4xLTkuMkwyNTYgMjQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![medal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/medal.svg)
  */
 const Medal: typeof Icon = x => (
     <Icon {...x}>

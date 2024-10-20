@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building-columns` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-columns?s=sharp-solid building-columns}
- * @preview ![building-columns](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxNDRMMjU2IDAgNTEyIDE0NGwwIDQ4TDAgMTkybDAtNDh6TTAgNTEybDAtNDggNjQtNDggMC0xOTIgNjQgMCAwIDE5MiA0MCAwIDAtMTkyIDY0IDAgMCAxOTIgNDggMCAwLTE5MiA2NCAwIDAgMTkyIDQwIDAgMC0xOTIgNjQgMCAwIDE5MiA2NCA0OCAwIDQ4TDAgNTEyek0yNTYgMTQ0YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![building-columns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/building-columns.svg)
  */
 const BuildingColumns: typeof Icon = x => (
     <Icon {...x}>

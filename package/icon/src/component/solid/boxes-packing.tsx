@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `boxes-packing` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-packing?s=solid boxes-packing}
- * @preview ![boxes-packing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4TDU5MiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNDE2YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0yMTAuNyAwYzEuOC01IDIuNy0xMC40IDIuNy0xNmwwLTI0Mi43YzE4LjYtNi42IDMyLTI0LjQgMzItNDUuM2wwLTMyYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0xMTIgMCAwLTgwek01NzEuMyAzNDcuM2M2LjItNi4yIDYuMi0xNi40IDAtMjIuNmwtNjQtNjRjLTYuMi02LjItMTYuNC02LjItMjIuNiAwbC02NCA2NGMtNi4yIDYuMi02LjIgMTYuNCAwIDIyLjZzMTYuNCA2LjIgMjIuNiAwTDQ4MCAzMTAuNiA0ODAgNDMyYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xMjEuNCAzNi43IDM2LjdjNi4yIDYuMiAxNi40IDYuMiAyMi42IDB6TTAgMTc2YzAtOC44IDcuMi0xNiAxNi0xNmwzNTIgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAzMmMwIDguOC03LjIgMTYtMTYgMTZMMTYgMjI0Yy04LjggMC0xNi03LjItMTYtMTZsMC0zMnptMzUyIDgwbDAgMjI0YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDY0IDUxMmMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0yMjQgMzIwIDB6TTE0NCAzMjBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsOTYgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![boxes-packing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/boxes-packing.svg)
  */
 const BoxesPacking: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

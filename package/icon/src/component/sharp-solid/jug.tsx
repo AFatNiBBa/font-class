@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jug` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jug?s=sharp-solid jug}
- * @preview ![jug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBMMjg4IDBsMzIgMCAwIDY0LTMyIDBMMTYwIDY0bC0zMiAwIDAtNjQgMzIgMHpNMzU5IDE1MWwtMy43IDMuN0wzODcgMTkwLjkgMzkzIDE4NWM5LjQtOS40IDkuNC0yNC42IDAtMzMuOXMtMjQuNi05LjQtMzMuOSAwem02Ny45IDY3LjlMNDE2IDIyOS44IDQxNiA1MTIgMzIgNTEybDAtMjg4TDE0NCA5NmwxNjAgMCAxOS43IDIyLjUgMS40LTEuNGMyOC4xLTI4LjEgNzMuNy0yOC4xIDEwMS44IDBzMjguMSA3My43IDAgMTAxLjh6TTM1MiAyODhMOTYgMjg4bDAgMTI4IDI1NiAwIDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![jug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/jug.svg)
  */
 const Jug: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-xmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-xmark?s=sharp-light user-xmark}
- * @preview ![user-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDEyOGE5NiA5NiAwIDEgMCAtMTkyIDAgOTYgOTYgMCAxIDAgMTkyIDB6TTQzLjMgNDgwbDM2MS4zIDBMMzYwLjQgMzM2IDg3LjYgMzM2IDQzLjMgNDgwek0zODQgMzA0bDU0LjIgMTc2IDkuOCAzMi0zMy41IDAtMzgxIDBMMCA1MTJsOS44LTMyTDY0IDMwNGwzMjAgMHpNMjI0IDBhMTI4IDEyOCAwIDEgMSAwIDI1NkExMjggMTI4IDAgMSAxIDIyNCAwek00NzkuNCAxMzYuOGwxMS4zIDExLjNMNTQ0IDIwMS40bDUzLjMtNTMuMyAxMS4zLTExLjMgMjIuNiAyMi42LTExLjMgMTEuM0w1NjYuNiAyMjRsNTMuMyA1My4zIDExLjMgMTEuMy0yMi42IDIyLjYtMTEuMy0xMS4zTDU0NCAyNDYuNmwtNTMuMyA1My4zLTExLjMgMTEuMy0yMi42LTIyLjYgMTEuMy0xMS4zTDUyMS40IDIyNGwtNTMuMy01My4zLTExLjMtMTEuMyAyMi42LTIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-xmark.svg)
  */
 const UserXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lamp-street` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp-street?s=sharp-solid lamp-street}
- * @preview ![lamp-street](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTc2YzAtNjEuOSA1MC4xLTExMiAxMTItMTEyYzU3LjQgMCAxMDQuNyA0My4yIDExMS4yIDk4LjhDMTk2LjggMTc4LjMgMTI4IDI1Ny4xIDEyOCAzNTJsMzg0IDBjMC05NS4zLTY5LjQtMTc0LjQtMTYwLjUtMTg5LjRDMzQ0LjYgNzEuNiAyNjguNyAwIDE3NiAwQzc4LjggMCAwIDc4LjggMCAxNzZMMCA1MTJsNjQgMCAwLTMzNnpNMzIwIDQ0OGMzNS4zIDAgNjQtMjguNyA2NC02NGwtMTI4IDBjMCAzNS4zIDI4LjcgNjQgNjQgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lamp-street](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lamp-street.svg)
  */
 const LampStreet: typeof Icon = x => (
     <Icon {...x}>

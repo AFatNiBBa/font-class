@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `quote-left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quote-left?s=sharp-light quote-left}
- * @preview ![quote-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyMDhDMCAxNDYuMSA1MC4xIDk2IDExMiA5NmwzMiAwIDE2IDAgMCAzMi0xNiAwLTMyIDBjLTQ0LjIgMC04MCAzNS44LTgwIDgwbDAgMTYgMTI4IDAgMzIgMCAwIDMyIDAgMTI4IDAgMzItMzIgMEwzMiA0MTYgMCA0MTZsMC0zMiAwLTY0IDAtNjQgMC0zMiAwLTE2em0zMiA0OGwwIDY0IDAgNjQgMTI4IDAgMC0xMjhMMzIgMjU2em0zODQgMGwtMTI4IDAgMCA2NCAwIDY0IDEyOCAwIDAtMTI4ek0yNTYgMzIwbDAtNjQgMC0zMiAwLTE2YzAtNjEuOSA1MC4xLTExMiAxMTItMTEybDMyIDAgMTYgMCAwIDMyLTE2IDAtMzIgMGMtNDQuMiAwLTgwIDM1LjgtODAgODBsMCAxNiAxMjggMCAzMiAwIDAgMzIgMCAxMjggMCAzMi0zMiAwLTEyOCAwLTMyIDAgMC0zMiAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![quote-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/quote-left.svg)
  */
 const QuoteLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

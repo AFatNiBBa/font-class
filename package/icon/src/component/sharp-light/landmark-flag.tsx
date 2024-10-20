@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `landmark-flag` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark-flag?s=sharp-light landmark-flag}
- * @preview ![landmark-flag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDMybDAgMzIgNjQgMCAwLTMyLTY0IDB6bTY0IDY0bC02NCAwIDAgMzIgMTkyIDAgMTYgMCAwIDMyLTE2IDBMNDggMTYwbC0xNiAwIDAtMzIgMTYgMCAxOTIgMCAwLTMyIDAtMzIgMC0zMiAwLTE2IDAtMTYgMTYgMCAxNiAwIDY0IDAgMzIgMCAwIDMyIDAgMzIgMCAzMi0zMiAwek00OCAzNTJsMTYgMCAwLTE2MCAzMiAwIDAgMTYwIDgwIDAgMC0xNjAgMzIgMCAwIDE2MCA5NiAwIDAtMTYwIDMyIDAgMCAxNjAgODAgMCAwLTE2MCAzMiAwIDAgMTYwIDE2IDAgMCAzMi0xNiAwTDY0IDM4NGwtMTYgMCAwLTMyem00NDAgNjRsMCAzMi0xNiAwTDQwIDQ0OGwtMTYgMCAwLTMyIDE2IDAgNDMyIDAgMTYgMHpNMCA0ODBsMTYgMCA0ODAgMCAxNiAwIDAgMzItMTYgMEwxNiA1MTIgMCA1MTJsMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![landmark-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/landmark-flag.svg)
  */
 const LandmarkFlag: typeof Icon = x => (
     <Icon {...x}>

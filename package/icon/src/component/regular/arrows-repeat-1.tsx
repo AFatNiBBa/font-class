@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-repeat-1` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-repeat-1?s=regular arrows-repeat-1}
- * @preview ![arrows-repeat-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjIuNSAyODBDOS4zIDI3OS4xLS44IDI2Ny43IDAgMjU0LjVsLjUtOEM1LjYgMTY2LjQgNzIgMTA0IDE1Mi4yIDEwNGwyMTMuOCAwTDMxMSA0OWMtOS40LTkuNC05LjQtMjQuNiAwLTMzLjlzMjQuNi05LjQgMzMuOSAwbDk2IDk2YzYuOSA2LjkgOC45IDE3LjIgNS4yIDI2LjJzLTEyLjUgMTQuOC0yMi4yIDE0LjhsLTI3MS44IDBjLTU0LjkgMC0xMDAuNCA0Mi43LTEwMy44IDk3LjVsLS41IDhjLS44IDEzLjItMTIuMiAyMy4zLTI1LjUgMjIuNXptNDY3LTQ3LjljMTMuMiAuOCAyMy4zIDEyLjIgMjIuNSAyNS41bC0uNSA4QzUwNi40IDM0NS42IDQ0MCA0MDggMzU5LjggNDA4bC0yMTMuOCAwIDU1IDU1YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45cy0yNC42IDkuNC0zMy45IDBMNzEgNDAxYy02LjktNi45LTguOS0xNy4yLTUuMi0yNi4yczEyLjUtMTQuOCAyMi4yLTE0LjhsMjcxLjggMGM1NC45IDAgMTAwLjQtNDIuNyAxMDMuOC05Ny41bC41LThjLjgtMTMuMiAxMi4yLTIzLjMgMjUuNC0yMi41ek0yODggMjE2bDAgODBjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC00OGMtMTAgMC0xOS40LTYuNC0yMi44LTE2LjRjLTQuMi0xMi42IDIuNi0yNi4yIDE1LjItMzAuNGwyNC04YzcuMy0yLjQgMTUuNC0xLjIgMjEuNiAzLjNzMTAgMTEuOCAxMCAxOS41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-repeat-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrows-repeat-1.svg)
  */
 const ArrowsRepeat_1: typeof Icon = x => (
     <Icon {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `mosque` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mosque?s=sharp-duotone-solid mosque}
- * @preview ![mosque](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDEyOEMwIDMyIDgwIDAgODAgMHM4MCAzMiA4MCAxMjhsMCAzMiAwIDk2LTMyIDAgMCAyNTZMMCA1MTIgMCAxNjBsMC0zMnptMTkyIDk2YzAtNzQgNTMuNS0xMDUuMiAxMDcuOS0xMzdDMzM5LjYgNjMuOSAzNzkuOCA0MC41IDQwMCAwYzIwLjIgNDAuNSA2MC40IDYzLjkgMTAwLjEgODdDNTU0LjUgMTE4LjggNjA4IDE1MCA2MDggMjI0YzAgMjctMTEuNCA0OC40LTI0LjYgNjRsLTM2Ni43IDBjLTEzLjItMTUuNi0yNC42LTM3LTI0LjYtNjR6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDE2MGwxNjAgMCAwIDk2LTMyIDAgMCAyNTZMMCA1MTIgMCAxNjB6TTM1MiA1MTJsLTY0IDAgMC03MmMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDcyLTgwIDAgMC0yMjQgNDgwIDAgMCAyMjQtODAgMCAwLTcyYzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgNzItNjQgMCAwLTU4YzAtMTktOC40LTM3LTIzLTQ5LjJMNDAwIDM4NGwtMjUgMjAuOEMzNjAuNCA0MTcgMzUyIDQzNSAzNTIgNDU0bDAgNTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mosque](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/mosque.svg)
  */
 const Mosque: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 128C0 32 80 0 80 0s80 32 80 128l0 32 0 96-32 0 0 256L0 512 0 160l0-32zm192 96c0-74 53.5-105.2 107.9-137C339.6 63.9 379.8 40.5 400 0c20.2 40.5 60.4 63.9 100.1 87C554.5 118.8 608 150 608 224c0 27-11.4 48.4-24.6 64l-366.7 0c-13.2-15.6-24.6-37-24.6-64z" />
-            <path d="M0 160l160 0 0 96-32 0 0 256L0 512 0 160zM352 512l-64 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-80 0 0-224 480 0 0 224-80 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-64 0 0-58c0-19-8.4-37-23-49.2L400 384l-25 20.8C360.4 417 352 435 352 454l0 58z" />
+        <path d="M0 160l160 0 0 96-32 0 0 256L0 512 0 160zM352 512l-64 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-80 0 0-224 480 0 0 224-80 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-64 0 0-58c0-19-8.4-37-23-49.2L400 384l-25 20.8C360.4 417 352 435 352 454l0 58z" />
     </Icon>
 );
 

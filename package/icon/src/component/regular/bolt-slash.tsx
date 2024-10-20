@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bolt-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-slash?s=regular bolt-slash}
- * @preview ![bolt-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w0NTAuMiAzMjcuNmw0OS41LTQyYzcuOC02LjYgMTIuMy0xNi40IDEyLjMtMjYuNmMwLTE5LjMtMTUuNi0zNC45LTM0LjktMzQuOWwtODUuMiAwTDQ0NS40IDM2LjZDNDUwLjYgMTguMyA0MzYuOCAwIDQxNy43IDBjLTYuOCAwLTEzLjUgMi40LTE4LjcgNi45TDIyNy45IDE1My4zIDM4LjggNS4xek0yNjYuNCAxODMuNUwzODEuNiA4NSAzMzcuNSAyMzkuM2wtNzEuMS01NS43ek0zNzkuMyAyNzJsNjIuMiAwLTI5LjggMjUuM0wzNzkuMyAyNzJ6bS00LjQgMTE5LjRsLTM4LjUtMzAuMy03OC4yIDY2LjRMMjg4LjEgMzIzbC00MC43LTMyLjFMMTk0LjYgNDc1LjRjLTUuMiAxOC40IDguNSAzNi42IDI3LjYgMzYuNmM2LjggMCAxMy40LTIuNCAxOC42LTYuOEwzNzQuOSAzOTEuNHpNMTUzLjUgMjE2LjlsLTEzLjcgMTEuN2MtNy41IDYuNC0xMS44IDE1LjgtMTEuOCAyNS42YzAgMTguNiAxNS4xIDMzLjcgMzMuNyAzMy43bDgyIDAtOTAuMi03MS4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bolt-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bolt-slash.svg)
  */
 const BoltSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

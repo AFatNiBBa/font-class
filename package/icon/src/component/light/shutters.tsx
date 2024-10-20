@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shutters` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shutters?s=light shutters}
- * @preview ![shutters](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJDMTQuMyAzMiAwIDQ2LjMgMCA2NEwwIDk2YzAgMTcuNyAxNC4zIDMyIDMyIDMybDQ0OCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzJjMC0xNy43LTE0LjMtMzItMzItMzJMMzIgMzJ6bTAgMzJsNDQ4IDAgMCAzMkwzMiA5NmwwLTMyek0uOSA0NTNjLS42IDItLjkgNC4xLS45IDYuMUMwIDQ3MC43IDkuMyA0ODAgMjAuOSA0ODBsNDcwLjMgMGMxMS41IDAgMjAuOS05LjMgMjAuOS0yMC45YzAtMi4xLS4zLTQuMS0uOS02LjFsLTIxLjItNjktMzMuNSAwIDE5LjcgNjRMMzUuOSA0NDhsMTkuNy02NC0zMy41IDBMLjkgNDUzek0yMi4yIDI1NkwuOSAzMjVjLS42IDItLjkgNC4xLS45IDYuMUMwIDM0Mi43IDkuMyAzNTIgMjAuOSAzNTJsNDcwLjMgMGMxMS41IDAgMjAuOS05LjMgMjAuOS0yMC45YzAtMi4xLS4zLTQuMS0uOS02LjFsLTIxLjItNjktMzMuNSAwIDE5LjcgNjRMMzUuOSAzMjBsMTkuNy02NC0zMy41IDB6bTQ1My45LTY0TDM1LjkgMTkybDkuOC0zMi0zMy41IDBMLjkgMTk3Yy0uNiAyLS45IDQuMS0uOSA2LjFDMCAyMTQuNyA5LjMgMjI0IDIwLjkgMjI0bDQ3MC4zIDBjMTEuNSAwIDIwLjktOS4zIDIwLjktMjAuOWMwLTIuMS0uMy00LjEtLjktNi4xbC0xMS40LTM3LTMzLjUgMCA5LjggMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shutters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shutters.svg)
  */
 const Shutters: typeof Icon = x => (
     <Icon {...x}>

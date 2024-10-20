@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-person-confined` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-person-confined?s=light square-person-confined}
- * @preview ![square-person-confined](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDNDYuMyA2NCAzMiA3OC4zIDMyIDk2bDAgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyMCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzIwYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDY0ek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDMyMCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnptMjk2IDk2YzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgMTEyYzAgMzAuOS0yNS4xIDU2LTU2IDU2Yy0yNS4xIDAtNDguOC0xMS41LTY0LjQtMzEuM2wtNTMuNS02OC4yLTUyLjIgOTEuNGMtNC40IDcuNy0xNC4yIDEwLjMtMjEuOCA2cy0xMC4zLTE0LjItNi0yMS44bDY0LTExMmMyLjYtNC42IDcuNC03LjYgMTIuNy04czEwLjUgMS45IDEzLjggNi4xTDI0MCAzNDMuNmwwLTk1LjZjMC0zMC45IDI1LjEtNTYgNTYtNTZ6bTI0IDE2OGwwLTExMmMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDExMmMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0ek0yMzIgMTUyYTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bS04MCAwYTU2IDU2IDAgMSAxIDExMiAwIDU2IDU2IDAgMSAxIC0xMTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-person-confined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-person-confined.svg)
  */
 const SquarePersonConfined: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

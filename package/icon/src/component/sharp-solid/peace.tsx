@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `peace` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peace?s=sharp-solid peace}
- * @preview ![peace](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ0NS4zbDAtMTIxLjgtOTQuMyA3Ny4xYzI2LjEgMjIuOCA1OC41IDM4LjcgOTQuMyA0NC43ek04OS4yIDM1MS4xTDIyNCAyNDAuOGwwLTE3NC4yQzEzMy4yIDgxLjkgNjQgMTYwLjkgNjQgMjU2YzAgMzQuNiA5LjIgNjcuMSAyNS4yIDk1LjF6bTI5My4xIDQ5LjVMMjg4IDMyMy41bDAgMTIxLjhjMzUuNy02IDY4LjEtMjEuOSA5NC4zLTQ0Ljd6bTQwLjYtNDkuNWMxNi0yOCAyNS4yLTYwLjUgMjUuMi05NS4xYzAtOTUuMS02OS4yLTE3NC4xLTE2MC0xODkuM2wwIDE3NC4yTDQyMi44IDM1MS4xek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![peace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/peace.svg)
  */
 const Peace: typeof Icon = x => (
     <Icon {...x}>

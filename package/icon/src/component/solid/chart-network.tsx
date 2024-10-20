@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-network` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-network?s=solid chart-network}
- * @preview ![chart-network](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDY0YzAgMTMuNy00LjMgMjYuMy0xMS42IDM2LjdsMjkuMiA2Mi41YzkuOC0yLjEgMjAtMy4yIDMwLjQtMy4yYzM2LjEgMCA2OSAxMy4zIDk0LjMgMzUuMkw1MTIuNCAxMzVjLS4yLTIuMy0uNC00LjYtLjQtN2MwLTM1LjMgMjguNy02NCA2NC02NHM2NCAyOC43IDY0IDY0cy0yOC43IDY0LTY0IDY0Yy05LjIgMC0xNy45LTEuOS0yNS44LTUuNGwtODIgNjAuMmM3LjYgMTcuNSAxMS44IDM2LjkgMTEuOCA1Ny4yYzAgMTUuNi0yLjUgMzAuNy03LjEgNDQuOGw3MiA0My4yYzkuMi01LjEgMTkuOC04IDMxLjEtOGMzNS4zIDAgNjQgMjguNyA2NCA2NHMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NGwwLTEuMS03Mi4xLTQzLjNDNDEzLjcgNDMxIDM3Ni44IDQ0OCAzMzYgNDQ4Yy02OC41IDAtMTI1LjktNDcuOS0xNDAuNC0xMTJsLTc2LjEgMGMtMTEuMSAxOS4xLTMxLjcgMzItNTUuNCAzMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRzMjguNy02NCA2NC02NGMyMy43IDAgNDQuNCAxMi45IDU1LjQgMzJsNzYuMSAwYzcuNS0zMyAyNi4zLTYxLjYgNTIuMS04MS43bC0yOS4yLTYyLjVDMTg1LjcgMTI0LjkgMTYwIDk3LjUgMTYwIDY0YzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjR6bTQ4IDI4OGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-network](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chart-network.svg)
  */
 const ChartNetwork: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

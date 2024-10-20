@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pompebled` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pompebled?s=sharp-regular pompebled}
- * @preview ![pompebled](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU0LjMgMjIuOWM0NS4yIDMxLjMgNTUuMyA5MS41IDM3LjggMTQ3LjVjNDUuMS0zNS44IDEwMy43LTQ3LjUgMTQ4LjYtMTUuM2M2NC41IDQ1LjggNzEuNiAxNDAgMjUuNyAyMDcuOWMwIDAgMCAwIDAgMEMzODYuNiA0ODAuNyAyMTkuMiA1NDEuOCA5OC42IDQ1NS4zTDExMi41IDQzNiA5OC42IDQ1NS40YzAgMCAwIDAgMCAwQy0yMS42IDM2OS41LTI1LjcgMTkwIDU0IDcyLjNjMCAwIDAgMCAwIDBMNzMuOCA4NS42IDU0IDcyLjJjMCAwIDAgMCAwIDBDMTAwIDMuNyAxODkuMi0yMyAyNTQuMyAyMi45em0tMjcuNCAzOWMtMzguMS0yNy05OC40LTE1LTEzMy4zIDM3bC0uMSAuMUMyMy42IDIwMi4yIDMzLjMgMzUwLjEgMTI2LjMgNDE2LjZjMCAwIDAgMCAwIDBjOTEuOCA2NS44IDIzMC41IDIzIDMwMC40LTgwLjJDNDYxLjggMjg0LjYgNDUxLjYgMjIxLjMgNDEzIDE5NGwtLjEtLjFjLTI1LjktMTguNi03NC4xLTExLjYtMTEyLjIgMzQuNWwtMTQuMiAxNy4yLTE4LjEtMTMuMS0yNi4yLTE4LjlMMjI1IDIwMS4zbDEwLjItMTguNWMyOS4yLTUzIDE4LjQtMTAyLjQtOC4xLTEyMC43bC0uMi0uMnMwIDAgMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pompebled](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pompebled.svg)
  */
 const Pompebled: typeof Icon = x => (
     <Icon {...x}>

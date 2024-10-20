@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lines-leaning` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lines-leaning?s=light lines-leaning}
- * @preview ![lines-leaning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkwLjkgNTMuN2MzLjItOC4yLS45LTE3LjUtOS4yLTIwLjdzLTE3LjUgLjktMjAuNyA5LjJsLTE2MCA0MTZjLTMuMiA4LjIgLjkgMTcuNSA5LjIgMjAuN3MxNy41LS45IDIwLjctOS4ybDE2MC00MTZ6bTg0LjctMjEuM2MtOC42LTItMTcuMiAzLjQtMTkuMiAxMmwtOTYgNDE2Yy0yIDguNiAzLjQgMTcuMiAxMiAxOS4yczE3LjItMy40IDE5LjItMTJsOTYtNDE2YzItOC42LTMuNC0xNy4yLTEyLTE5LjJ6TTM2OCAzMmMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNDE2YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC00MTZjMC04LjgtNy4yLTE2LTE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lines-leaning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/lines-leaning.svg)
  */
 const LinesLeaning: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

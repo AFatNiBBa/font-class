@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical?s=regular house-medical}
- * @preview ![house-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyLjUgNS43YzktNy42IDIyLjEtNy42IDMxLjEgMGwyNjQgMjI0YzEwLjEgOC42IDExLjQgMjMuNyAyLjggMzMuOHMtMjMuNyAxMS4zLTMzLjggMi44TDUxMiAyNDUuNSA1MTIgNDMyYzAgNDQuMi0zNS44IDgwLTgwIDgwbC0yODggMGMtNDQuMiAwLTgwLTM1LjgtODAtODBsMC0xODYuNUwzOS41IDI2Ni4zYy0xMC4xIDguNi0yNS4zIDcuMy0zMy44LTIuOHMtNy4zLTI1LjMgMi44LTMzLjhsMjY0LTIyNHpNMjg4IDU1LjVMMTEyIDIwNC44IDExMiA0MzJjMCAxNy43IDE0LjMgMzIgMzIgMzJsMjg4IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0yMjcuMkwyODggNTUuNXpNMjU2IDIwOGMwLTguOCA3LjItMTYgMTYtMTZsMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCA0OCA0OCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyYzAgOC44LTcuMiAxNi0xNiAxNmwtNDggMCAwIDQ4YzAgOC44LTcuMiAxNi0xNiAxNmwtMzIgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtNDgtNDggMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMzJjMC04LjggNy4yLTE2IDE2LTE2bDQ4IDAgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![house-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-medical.svg)
  */
 const HouseMedical: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stapler` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stapler?s=sharp-regular stapler}
- * @preview ![stapler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDM4NGwwIDQ4TDMyIDQzMmwwIDQ4IDQxNiAwIDQ4IDAgNDggMCA0OCAwIDQ4IDAgMC00OCAwLTk2IDAtNDggMC00OEwyNTUuNiA0Ny44QzIzNC44IDM3LjQgMjExLjkgMzIgMTg4LjYgMzJDMTMxLjkgMzIgODAgNjQuMSA1NC42IDExNC44TDIyIDE4MCAwIDIyNGw0Ny43IDExLjlMNjQgMjQwbDAgMTIwIDAgMjQgMjQgMCAzNjAgMHptMC00OGwtMzM2IDAgMC04NCAzMzYgODR6bTk2IDk2bC00OCAwIDAtOTYgMC0zNy41LTM2LjQtOS4xTDY5LjcgMTkxLjlsMjcuOC01NS42QzExNC44IDEwMS44IDE1MCA4MCAxODguNiA4MGMxNS44IDAgMzEuNCAzLjcgNDUuNiAxMC44TDU5MiAyNjkuN2wwIDE4LjMgMCA0OCAwIDk2LTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![stapler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/stapler.svg)
  */
 const Stapler: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

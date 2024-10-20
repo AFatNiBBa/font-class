@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `raindrops` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/raindrops?s=sharp-solid raindrops}
- * @preview ![raindrops](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA1LjUgMTIyLjhjLTYuMiAxMC40LTkuNSAyMi4zLTkuNSAzNC40bDAgMi44YzAgMzUuMyAyOC43IDY0IDY0IDY0czY0LTI4LjcgNjQtNjRsMC0yLjhjMC0xMi4xLTMuMy0yNC05LjUtMzQuNEwxNjAgMzJsLTU0LjUgOTAuOHptLTk2IDE5MkMzLjMgMzI1LjIgMCAzMzcuMSAwIDM0OS4yTDAgMzUyYzAgMzUuMyAyOC43IDY0IDY0IDY0czY0LTI4LjcgNjQtNjRsMC0yLjhjMC0xMi4xLTMuMy0yNC05LjUtMzQuNEw2NCAyMjQgOS41IDMxNC44ek0zMjAgMTI4TDIxMS43IDI5My41Yy0xMi44IDE5LjYtMTkuNyA0Mi42LTE5LjcgNjZDMTkyIDQyNiAyNDYgNDgwIDMxMi41IDQ4MGwxNSAwQzM5NCA0ODAgNDQ4IDQyNiA0NDggMzU5LjVjMC0yMy40LTYuOC00Ni40LTE5LjctNjZMMzIwIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![raindrops](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/raindrops.svg)
  */
 const Raindrops: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `signal-stream` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-stream?s=sharp-duotone-solid signal-stream}
- * @preview ![signal-stream](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NmMwIDY3LjQgMjMuMiAxMjkuNCA2MS45IDE3OC41bDUwLjItMzkuN0M4MiAzNTYuNiA2NCAzMDguNSA2NCAyNTZzMTgtMTAwLjYgNDguMi0xMzguOEw2MS45IDc3LjVDMjMuMiAxMjYuNiAwIDE4OC42IDAgMjU2em0xMTIgMGMwIDQxLjIgMTQuMiA3OS4xIDM3LjkgMTA5LjFsNTAuMi0zOS43QzE4NSAzMDYuMyAxNzYgMjgyLjIgMTc2IDI1NnM5LTUwLjMgMjQuMS02OS40bC01MC4yLTM5LjdDMTI2LjIgMTc2LjkgMTEyIDIxNC44IDExMiAyNTZ6bTI2My45LTY5LjRDMzkxIDIwNS43IDQwMCAyMjkuOCA0MDAgMjU2cy05IDUwLjMtMjQuMSA2OS40bDUwLjIgMzkuN2MyMy43LTMwIDM3LjktNjcuOSAzNy45LTEwOS4xcy0xNC4yLTc5LjEtMzcuOS0xMDkuMWwtNTAuMiAzOS43em04Ny45LTY5LjRDNDk0IDE1NS40IDUxMiAyMDMuNSA1MTIgMjU2cy0xOCAxMDAuNi00OC4yIDEzOC44bDUwLjIgMzkuN0M1NTIuOCAzODUuNCA1NzYgMzIzLjQgNTc2IDI1NnMtMjMuMi0xMjkuNC02MS45LTE3OC41bC01MC4yIDM5Ljd6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yMzIgMjU2YTU2IDU2IDAgMSAxIDExMiAwIDU2IDU2IDAgMSAxIC0xMTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![signal-stream](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/signal-stream.svg)
  */
 const SignalStream: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 256c0 67.4 23.2 129.4 61.9 178.5l50.2-39.7C82 356.6 64 308.5 64 256s18-100.6 48.2-138.8L61.9 77.5C23.2 126.6 0 188.6 0 256zm112 0c0 41.2 14.2 79.1 37.9 109.1l50.2-39.7C185 306.3 176 282.2 176 256s9-50.3 24.1-69.4l-50.2-39.7C126.2 176.9 112 214.8 112 256zm263.9-69.4C391 205.7 400 229.8 400 256s-9 50.3-24.1 69.4l50.2 39.7c23.7-30 37.9-67.9 37.9-109.1s-14.2-79.1-37.9-109.1l-50.2 39.7zm87.9-69.4C494 155.4 512 203.5 512 256s-18 100.6-48.2 138.8l50.2 39.7C552.8 385.4 576 323.4 576 256s-23.2-129.4-61.9-178.5l-50.2 39.7z" />
-            <path d="M232 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0z" />
+        <path d="M232 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0z" />
     </Icon>
 );
 

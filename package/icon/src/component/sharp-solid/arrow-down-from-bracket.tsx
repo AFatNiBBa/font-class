@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-from-bracket` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-from-bracket?s=sharp-solid arrow-down-from-bracket}
- * @preview ![arrow-down-from-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ2LjYgNDg2LjZMMjI0IDUwOS4zbC0yMi42LTIyLjYtMTI4LTEyOEw1MC43IDMzNiA5NiAyOTAuN2wyMi42IDIyLjZMMTkyIDM4Ni43IDE5MiAxOTJsMC0zMiA2NCAwIDAgMzIgMCAxOTQuNyA3My40LTczLjRMMzUyIDI5MC43IDM5Ny4zIDMzNmwtMjIuNiAyMi42LTEyOCAxMjh6TTY0IDE2MGwwIDMyTDAgMTkybDAtMzJMMCAzMiAwIDAgMzIgMCA0MTYgMGwzMiAwIDAgMzIgMCAxMjggMCAzMi02NCAwIDAtMzIgMC05Nkw2NCA2NGwwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-down-from-bracket.svg)
  */
 const ArrowDownFromBracket: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

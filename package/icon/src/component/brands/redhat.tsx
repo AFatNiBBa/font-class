@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `redhat` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/redhat?s=brands redhat}
- * @preview ![redhat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQxLjUyIDI4NS41NmMzMy42NSAwIDgyLjM0LTYuOTQgODIuMzQtNDcgLjIyLTYuNzQuODYtMS44Mi0yMC44OC05Ni4yNC00LjYyLTE5LjE1LTguNjgtMjcuODQtNDIuMzEtNDQuNjUtMjYuMDktMTMuMzQtODIuOTItMzUuMzctOTkuNzMtMzUuMzctMTUuNjYgMC0yMC4yIDIwLjE3LTM4Ljg3IDIwLjE3LTE4IDAtMzEuMzEtMTUuMDYtNDguMTItMTUuMDYtMTYuMTQgMC0yNi42NiAxMS0zNC43OCAzMy42Mi0yNy41IDc3LjU1LTI2LjI4IDc0LjI3LTI2LjEyIDc4LjI3IDAgMjQuOCA5Ny42NCAxMDYuMTEgMjI4LjQ3IDEwNi4xMU00MjkgMjU0Ljg0YzQuNjUgMjIgNC42NSAyNC4zNSA0LjY1IDI3LjI1IDAgMzcuNjYtNDIuMzMgNTguNTYtOTggNTguNTYtMTI1Ljc0LjA4LTIzNS45MS03My42NS0yMzUuOTEtMTIyLjMzYTQ5LjU1IDQ5LjU1IDAgMCAxIDQuMDYtMTkuNzJDNTguNTYgMjAwLjg2IDAgMjA4LjkzIDAgMjYwLjYzYzAgODQuNjcgMjAwLjYzIDE4OSAzNTkuNDkgMTg5IDEyMS43OSAwIDE1Mi41MS01NS4wOCAxNTIuNTEtOTguNTggMC0zNC4yMS0yOS41OS03My4wNS04Mi45My05Ni4yNCIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![redhat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/redhat.svg)
  */
 const Redhat: typeof Icon = x => (
     <Icon {...x}>

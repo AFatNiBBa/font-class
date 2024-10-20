@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-xmark?s=sharp-thin file-xmark}
- * @preview ![file-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2TDE2IDE2bDE5MiAwIDAgMTUyIDAgOCA4IDAgMTUyIDAgMCAzMjBMMTYgNDk2ek0yMjQgMjIuNkwzNjEuNCAxNjAgMjI0IDE2MGwwLTEzNy40ek0yMjQgMEwxNiAwIDAgMCAwIDE2IDAgNDk2bDAgMTYgMTYgMCAzNTIgMCAxNiAwIDAtMTYgMC0zMzZMMjI0IDB6TTEyMS44IDIzOC41bC0xMS4zIDExLjMgNS43IDUuN0wxODAuNyAzMjBsLTY0LjYgNjQuNi01LjcgNS43IDExLjMgMTEuMyA1LjctNS43TDE5MiAzMzEuM2w2NC42IDY0LjYgNS43IDUuNyAxMS4zLTExLjMtNS43LTUuN0wyMDMuMyAzMjBsNjQuNi02NC42IDUuNy01LjctMTEuMy0xMS4zLTUuNyA1LjdMMTkyIDMwOC43bC02NC42LTY0LjYtNS43LTUuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-xmark.svg)
  */
 const FileXmark: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

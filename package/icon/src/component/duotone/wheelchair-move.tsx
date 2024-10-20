@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `wheelchair-move` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheelchair-move?s=duotone wheelchair-move}
- * @preview ![wheelchair-move](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDM1MmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MHMxNjAtNzEuNiAxNjAtMTYwYzAtMjIuOC00LjgtNDQuNC0xMy4zLTY0Yy0yMC41LTQ2LjktNjIuOS04Mi4xLTExNC4zLTkyLjdDMTgyIDE5My4xIDE3MS4xIDE5MiAxNjAgMTkyQzcxLjYgMTkyIDAgMjYzLjYgMCAzNTJ6bTI1NiAwQTk2IDk2IDAgMSAxIDY0IDM1MmE5NiA5NiAwIDEgMSAxOTIgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTMyMCA0OGE0OCA0OCAwIDEgMSA5NiAwIDQ4IDQ4IDAgMSAxIC05NiAwek0xNzIuOCA1NC40YzkuNS03LjEgMjIuMS04LjQgMzIuOC0zLjRsMTE2LjUgNTQuOGMyOS4xIDEzLjcgMzYuOCA1MS42IDE1LjIgNzUuNUwyOTkuMSAyMjRsOTcuNCAwYzMwLjMgMCA1MyAyNy43IDQ3LjEgNTcuNEw0MTUuNCA0MjIuM2MtMy41IDE3LjMtMjAuMyAyOC42LTM3LjcgMjUuMXMtMjguNi0yMC4zLTI1LjEtMzcuN0wzNzcgMjg4bC03MC4zIDBjLTIwLjUtNDYuOS02Mi45LTgyLjEtMTE0LjMtOTIuN2w1NC4yLTU0LjItNTAuOC0yMy45LTQ4LjYgMzYuNGMtMTQuMSAxMC42LTM0LjIgNy43LTQ0LjgtNi40cy03LjctMzQuMiA2LjQtNDQuOGw2NC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wheelchair-move](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wheelchair-move.svg)
  */
 const WheelchairMove: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M0 352c0 88.4 71.6 160 160 160s160-71.6 160-160c0-22.8-4.8-44.4-13.3-64c-20.5-46.9-62.9-82.1-114.3-92.7C182 193.1 171.1 192 160 192C71.6 192 0 263.6 0 352zm256 0A96 96 0 1 1 64 352a96 96 0 1 1 192 0z" />
-            <path d="M320 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM172.8 54.4c9.5-7.1 22.1-8.4 32.8-3.4l116.5 54.8c29.1 13.7 36.8 51.6 15.2 75.5L299.1 224l97.4 0c30.3 0 53 27.7 47.1 57.4L415.4 422.3c-3.5 17.3-20.3 28.6-37.7 25.1s-28.6-20.3-25.1-37.7L377 288l-70.3 0c-20.5-46.9-62.9-82.1-114.3-92.7l54.2-54.2-50.8-23.9-48.6 36.4c-14.1 10.6-34.2 7.7-44.8-6.4s-7.7-34.2 6.4-44.8l64-48z" />
+        <path d="M320 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM172.8 54.4c9.5-7.1 22.1-8.4 32.8-3.4l116.5 54.8c29.1 13.7 36.8 51.6 15.2 75.5L299.1 224l97.4 0c30.3 0 53 27.7 47.1 57.4L415.4 422.3c-3.5 17.3-20.3 28.6-37.7 25.1s-28.6-20.3-25.1-37.7L377 288l-70.3 0c-20.5-46.9-62.9-82.1-114.3-92.7l54.2-54.2-50.8-23.9-48.6 36.4c-14.1 10.6-34.2 7.7-44.8-6.4s-7.7-34.2 6.4-44.8l64-48z" />
     </Icon>
 );
 

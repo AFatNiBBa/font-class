@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen?s=solid pen}
- * @preview ![pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYyLjcgMTkuM0wzMTQuMyA2Ny43IDQ0NC4zIDE5Ny43bDQ4LjQtNDguNGMyNS0yNSAyNS02NS41IDAtOTAuNUw0NTMuMyAxOS4zYy0yNS0yNS02NS41LTI1LTkwLjUgMHptLTcxIDcxTDU4LjYgMzIzLjVjLTEwLjQgMTAuNC0xOCAyMy4zLTIyLjIgMzcuNEwxIDQ4MS4yQy0xLjUgNDg5LjcgLjggNDk4LjggNyA1MDVzMTUuMyA4LjUgMjMuNyA2LjFsMTIwLjMtMzUuNGMxNC4xLTQuMiAyNy0xMS44IDM3LjQtMjIuMkw0MjEuNyAyMjAuMyAyOTEuNyA5MC4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pen.svg)
  */
 const Pen: typeof Icon = x => (
     <Icon {...x}>

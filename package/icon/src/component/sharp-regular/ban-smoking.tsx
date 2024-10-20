@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ban-smoking` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-smoking?s=sharp-regular ban-smoking}
- * @preview ![ban-smoking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTIuOSAxMjYuOUwzODUuMSA0MTkuMUMzNDkuNyA0NDcuMiAzMDQuOCA0NjQgMjU2IDQ2NEMxNDEuMSA0NjQgNDggMzcwLjkgNDggMjU2YzAtNDguOCAxNi44LTkzLjcgNDQuOS0xMjkuMXptMTY1IDk3LjFMMTI2LjkgOTIuOUMxNjIuMyA2NC44IDIwNy4yIDQ4IDI1NiA0OGMxMTQuOSAwIDIwOCA5My4xIDIwOCAyMDhjMCA0OC44LTE2LjggOTMuNy00NC45IDEyOS4xTDM1My45IDMyMGw0Ni4xIDAgMTYgMCAwLTE2IDAtNjQgMC0xNi0xNiAwLTE0Mi4xIDB6bTMyIDMybDk0LjEgMCAwIDMyLTYyLjEgMC0zMi0zMnpNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTI4OCA5NmwtMzIgMCAwIDE2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTYgMzIgMCAwLTE2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0zMiAwYy04LjggMC0xNi03LjItMTYtMTZsMC0xNnpNMTEyIDIyNGwtMTYgMCAwIDE2IDAgNjQgMCAxNiAxNiAwIDEyOC44IDAtOTYtOTZMMTEyIDIyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ban-smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ban-smoking.svg)
  */
 const BanSmoking: typeof Icon = x => (
     <Icon {...x}>

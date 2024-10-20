@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `triangle-instrument` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle-instrument?s=regular triangle-instrument}
- * @preview ![triangle-instrument](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyIDI0YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgNDMuM2MtMjEuMyA1LjktNDAgMTkuNS01Mi4xIDM4LjdMNDYuNSAzNjcuN0MzNyAzODIuOCAzMiA0MDAuMiAzMiA0MThjMCA1MS45IDQyLjEgOTQgOTQgOTRMNDUwIDUxMmM1MS45IDAgOTQtNDIuMSA5NC05NGMwLTE3LjgtNS0zNS4yLTE0LjUtNTAuMkw0NDguMiAyMzlsLTM0LjggMzQuOCA3NS41IDExOS41YzQuNiA3LjQgNy4xIDE1LjkgNy4xIDI0LjZjMCAyNS40LTIwLjYgNDYtNDYgNDZMMTI2IDQ2NGMtMjUuNCAwLTQ2LTIwLjYtNDYtNDZjMC04LjcgMi41LTE3LjIgNy4xLTI0LjZMMjUyLjQgMTMxLjZjNy43LTEyLjIgMjEuMS0xOS42IDM1LjYtMTkuNnMyNy45IDcuNCAzNS42IDE5LjZsNDYgNzIuOS02Mi44IDYyLjhjLTUuOS0yLjEtMTIuMi0zLjItMTguOC0zLjJjLTMwLjkgMC01NiAyNS4xLTU2IDU2czI1LjEgNTYgNTYgNTZzNTYtMjUuMSA1Ni01NmMwLTYuNi0xLjEtMTIuOS0zLjItMTguOGw1NS4xLTU1LjEgMzQuOC0zNC44TDUzNyAxMDVjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMGwtOTguNiA5OC42TDM2NC4xIDEwNkMzNTIgODYuOCAzMzMuMyA3My4yIDMxMiA2Ny4zTDMxMiAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![triangle-instrument](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/triangle-instrument.svg)
  */
 const TriangleInstrument: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

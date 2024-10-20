@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kickstarter` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kickstarter?s=brands kickstarter}
- * @preview ![kickstarter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMnpNMzIwLjggMjMzbC0yMy4zIDIzLjFMMzIwLjggMjc5YzI0LjEgMjMuOSAyNC4xIDYzIDAgODYuOXMtNjMuNCAyMy45LTg3LjYgMGwtOC41LTguNGMtMTEuMyAxNi0yOS43IDI2LjUtNTAuOSAyNi41Yy0zNC4xIDAtNjEuOS0yNy41LTYxLjktNjEuNGwwLTEzMy4yYzAtMzMuOCAyNy43LTYxLjQgNjEuOS02MS40YzIxLjEgMCAzOS42IDEwLjUgNTAuOSAyNi41bDguNS04LjRjMjQuMS0yMy45IDYzLjQtMjMuOSA4Ny42IDBzMjQuMSA2MyAwIDg2Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![kickstarter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/kickstarter.svg)
  */
 const Kickstarter: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

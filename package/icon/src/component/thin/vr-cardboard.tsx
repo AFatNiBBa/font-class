@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vr-cardboard` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vr-cardboard?s=thin vr-cardboard}
- * @preview ![vr-cardboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDgwTDY0IDgwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDI1NmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwxMzYuNCAwYzE4LjIgMCAzNC44LTEwLjMgNDIuOS0yNi41bDM5LjItNzguM0MyODkuNiAzMTMgMzA0LjEgMzA0IDMyMCAzMDRzMzAuNCA5IDM3LjUgMjMuMmwzOS4yIDc4LjNjOC4xIDE2LjMgMjQuOCAyNi41IDQyLjkgMjYuNUw1NzYgNDMyYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMjU2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4ek02NCA2NGw1MTIgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDI1NmMwIDM1LjMtMjguNyA2NC02NCA2NGwtMTM2LjQgMGMtMjQuMiAwLTQ2LjQtMTMuNy01Ny4yLTM1LjRsLTM5LjItNzguM2MtNC40LTguOC0xMy40LTE0LjMtMjMuMi0xNC4zcy0xOC44IDUuNS0yMy4yIDE0LjNsLTM5LjIgNzguM2MtMTAuOCAyMS43LTMzIDM1LjQtNTcuMiAzNS40TDY0IDQ0OGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAxMjhDMCA5Mi43IDI4LjcgNjQgNjQgNjR6TTE3NiAzMDRhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6bTAtMTQ0YTgwIDgwIDAgMSAxIDAgMTYwIDgwIDgwIDAgMSAxIDAtMTYwem0zNTIgODBhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAwem0tMTQ0IDBhODAgODAgMCAxIDEgMTYwIDAgODAgODAgMCAxIDEgLTE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vr-cardboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/vr-cardboard.svg)
  */
 const VrCardboard: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-open` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-open?s=solid box-open}
- * @preview ![box-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTguOSA0Mi4xYzMtNi4xIDkuNi05LjYgMTYuMy04LjdMMzIwIDY0IDU2NC44IDMzLjRjNi43LS44IDEzLjMgMi43IDE2LjMgOC43bDQxLjcgODMuNGM5IDE3LjktLjYgMzkuNi0xOS44IDQ1LjFMNDM5LjYgMjE3LjNjLTEzLjkgNC0yOC44LTEuOS0zNi4yLTE0LjNMMzIwIDY0IDIzNi42IDIwM2MtNy40IDEyLjQtMjIuMyAxOC4zLTM2LjIgMTQuM0wzNy4xIDE3MC42Yy0xOS4zLTUuNS0yOC44LTI3LjItMTkuOC00NS4xTDU4LjkgNDIuMXpNMzIxLjEgMTI4bDU0LjkgOTEuNGMxNC45IDI0LjggNDQuNiAzNi42IDcyLjUgMjguNkw1NzYgMjExLjZsMCAxNjdjMCAyMi0xNSA0MS4yLTM2LjQgNDYuNmwtMjA0LjEgNTFjLTEwLjIgMi42LTIwLjkgMi42LTMxIDBsLTIwNC4xLTUxQzc5IDQxOS43IDY0IDQwMC41IDY0IDM3OC41bDAtMTY3TDE5MS42IDI0OGMyNy44IDggNTcuNi0zLjggNzIuNS0yOC42TDMxOC45IDEyOGwyLjIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![box-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/box-open.svg)
  */
 const BoxOpen: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

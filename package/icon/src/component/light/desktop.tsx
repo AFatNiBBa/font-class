@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `desktop` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/desktop?s=light desktop}
- * @preview ![desktop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDMyTDY0IDMyQzQ2LjMgMzIgMzIgNDYuMyAzMiA2NGwwIDE5MiA1MTIgMCAwLTE5MmMwLTE3LjctMTQuMy0zMi0zMi0zMnptNjQgMjI0bDAgMzIgMCA2NGMwIDM1LjMtMjguNyA2NC02NCA2NGwtMTQ5LjEgMCAxMC43IDY0IDU4LjQgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtNzIgMC0xNDQgMC03MiAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDU4LjQgMCAxMC43LTY0TDY0IDQxNmMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC02NCAwLTMyTDAgNjRDMCAyOC43IDI4LjcgMCA2NCAwTDUxMiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTkyek0zMiAyODhsMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxNjcuNyAwYy4yIDAgLjQgMCAuNiAwbDExMS41IDBjLjIgMCAuNCAwIC42IDBMNTEyIDM4NGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0TDMyIDI4OHpNMjM0LjkgNDgwbDEwNi4yIDAtMTAuNy02NC04NC45IDAtMTAuNyA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![desktop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/desktop.svg)
  */
 const Desktop: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

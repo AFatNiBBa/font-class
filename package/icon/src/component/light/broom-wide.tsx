@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `broom-wide` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/broom-wide?s=light broom-wide}
- * @preview ![broom-wide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA3LjMgMjcuM2M2LjItNi4yIDYuMi0xNi40IDAtMjIuNnMtMTYuNC02LjItMjIuNiAwbC0xNDQgMTQ0LTE4LjYtMTguNmMtMjAuMi0yMC4yLTUxLjQtMjQuNi03Ni4zLTEwLjdMMTYuNCAyNDYuOUM2LjMgMjUyLjUgMCAyNjMuMiAwIDI3NC44YzAgOC41IDMuNCAxNi42IDkuMyAyMi42TDIxNC43IDUwMi43YzYgNiAxNC4xIDkuMyAyMi42IDkuM2MxMS42IDAgMjIuMy02LjMgMjcuOS0xNi40TDM5Mi42IDI2Ni4yYzEzLjktMjUgOS41LTU2LjEtMTAuNy03Ni4zbC0xOC42LTE4LjYgMTQ0LTE0NHpNMjk5LjUgMTUyLjhsNTkuNyA1OS43YzEwLjEgMTAuMSAxMi4zIDI1LjcgNS4zIDM4LjJsLTIxLjIgMzguMUwyMjMuMiAxNjguNmwzOC4xLTIxLjJjMTIuNS02LjkgMjguMS00LjggMzguMiA1LjN6bS0xMDUuNCAzMkwzMjcuMiAzMTcuOWwtOTAgMTYyLjFMMTEzLjkgMzU2LjdsNDEuNC00MS40YzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDBMOTEuMyAzMzQuMSAzMi4xIDI3NC44bDE2Mi4xLTkweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![broom-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/broom-wide.svg)
  */
 const BroomWide: typeof Icon = x => (
     <Icon {...x}>

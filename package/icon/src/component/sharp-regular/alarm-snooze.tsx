@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `alarm-snooze` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-snooze?s=sharp-regular alarm-snooze}
- * @preview ![alarm-snooze](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDI1LjRDMTQzIDkuNiAxMjAuMiAwIDk1LjIgMEM0Mi42IDAgMCA0Mi42IDAgOTUuMmMwIDE4LjggNS41IDM2LjMgMTQuOSA1MS4xTDE2MCAyNS40ek0yNTYgMTEyYTE3NiAxNzYgMCAxIDEgMCAzNTIgMTc2IDE3NiAwIDEgMSAwLTM1MnptMCA0MDBjNTMuMiAwIDEwMi4xLTE4LjYgMTQwLjUtNDkuNUw0MjMgNDg5bDE3IDE3TDQ3My45IDQ3MmwtMTctMTctMjYuNS0yNi41YzMxLTM4LjQgNDkuNS04Ny4zIDQ5LjUtMTQwLjVDNDgwIDE2NC4zIDM3OS43IDY0IDI1NiA2NFMzMiAxNjQuMyAzMiAyODhjMCA1My4yIDE4LjYgMTAyLjEgNDkuNSAxNDAuNUw1NSA0NTVsLTE3IDE3TDcyIDUwNS45bDE3LTE3IDI2LjUtMjYuNWMzOC40IDMxIDg3LjMgNDkuNSAxNDAuNSA0OS41ek00OTcuMSAxNDYuNEM1MDYuNSAxMzEuNiA1MTIgMTE0IDUxMiA5NS4yQzUxMiA0Mi42IDQ2OS40IDAgNDE2LjggMEMzOTEuOCAwIDM2OSA5LjYgMzUyIDI1LjRMNDk3LjEgMTQ2LjR6TTIwMCAxOTJsLTI0IDAgMCA0OCAyNCAwIDU1LjIgMEwxOTUgMzQ4LjMgMTc1LjIgMzg0bDQwLjggMCA5NiAwIDI0IDAgMC00OC0yNCAwLTU1LjIgMEwzMTcgMjI3LjcgMzM2LjggMTkyIDI5NiAxOTJsLTk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![alarm-snooze](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/alarm-snooze.svg)
  */
 const AlarmSnooze: typeof Icon = x => (
     <Icon {...x}>

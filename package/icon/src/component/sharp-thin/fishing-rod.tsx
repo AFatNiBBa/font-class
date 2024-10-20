@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fishing-rod` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fishing-rod?s=sharp-thin fishing-rod}
- * @preview ![fishing-rod](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBsLTEuMyAwLTEuMiAuNC0yMjQgNzJMNTYgNzQuMiA1NiA4MGwwIDIwOC00MCAwTDAgMjg4bDAgMTZMMCA0OTZsMCAxNiAxNiAwIDk2IDAgMTYgMCAwLTE2IDAtMTkyIDAtMTYtMTYgMC00MCAwTDcyIDg1LjggMjg5LjMgMTYgMzQ0IDE2bDAgMTM2IDAgOCAxNiAwIDAtOEwzNjAgOGwwLTgtOCAwTDI4OCAwek0xNiAzMDRsOTYgMCAwIDE5Mi05NiAwIDAtMTkyem0zMzYtOTcuMWwtMy44IDIuMUMzMTguMSAyMjUuNCAyNTYgMjcwLjcgMjU2IDM1MmMwIDMzIDE0LjUgNzMuMyA1Ni4xIDEwNmwtMjUuNiA0MS44TDI3OS4xIDUxMmwxNC4zIDAgMTE3LjMgMCAxNC4zIDAtNy40LTEyLjJMMzkxLjkgNDU4YzQxLjUtMzIuOCA1Ni4xLTczIDU2LjEtMTA2YzAtODEuMy02Mi4xLTEyNi42LTkyLjItMTQzbC0zLjgtMi4xem0wIDE4LjNjMjkuNCAxNyA4MCA1Ny43IDgwIDEyNi44YzAgMjkuNC0xMy40IDY3LTU1LjQgOTcuNWwtNiA0LjMgMy44IDYuM0wzOTYuNCA0OTZsLTg4LjggMCAyMS45LTM1LjggMy44LTYuMy02LTQuM0MyODUuNCA0MTkgMjcyIDM4MS40IDI3MiAzNTJjMC02OS4xIDUwLjYtMTA5LjggODAtMTI2Ljh6TTM2OCAzMjBhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![fishing-rod](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fishing-rod.svg)
  */
 const FishingRod: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-magnifying-glass` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-magnifying-glass?s=sharp-regular nfc-magnifying-glass}
- * @preview ![nfc-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDgwTDQ4IDgwbDAgMzUyIDI4NS43IDBjMjkgMjkuNiA2OS41IDQ4IDExNC4zIDQ4bC00OCAwTDQ4IDQ4MCAwIDQ4MGwwLTQ4TDAgODAgMCAzMmw0OCAwIDM1MiAwIDQ4IDAgMCA0OCAwIDgwYy0xNi43IDAtMzIuOCAyLjYtNDggNy4zTDQwMCA4MHptLTMyIDU2bDAgNDUuNGMtMTguNyAxMC44LTM1LjEgMjUuNC00OCA0Mi42bDAtNjQtNzIgMCAwIDU0LjRjMTQuMyA4LjMgMjQgMjMuOCAyNCA0MS42YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4YzAtMTcuOCA5LjctMzMuMyAyNC00MS42bDAtNzguNCAwLTI0IDI0IDAgMTIwIDAgMjQgMCAwIDI0ek0zMDkuNCA0MDBMMTA0IDQwMGwtMjQgMCAwLTI0IDAtMjQwIDAtMjQgMjQgMCAzMiAwIDI0IDAgMCA0OC0yNCAwLTggMCAwIDE5MiAxNjMuMiAwYzMuNSAxNy4yIDkuNyAzMy4zIDE4LjIgNDh6bTEzOC42IC4yYTgwIDgwIDAgMSAwIDAtMTYwIDgwIDgwIDAgMSAwIDAgMTYwem0wIDQ4Yy03MC43IDAtMTI4LTU3LjMtMTI4LTEyOHM1Ny4zLTEyOCAxMjgtMTI4czEyOCA1Ny4zIDEyOCAxMjhjMCAyNi43LTguMiA1MS40LTIyLjEgNzEuOWw2MyA2Mi42IDE3IDE2LjktMzMuOCAzNC0xNy0xNi45TDUyMCA0MjZjLTIwLjUgMTQtNDUuMyAyMi4xLTcyIDIyLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![nfc-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/nfc-magnifying-glass.svg)
  */
 const NfcMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

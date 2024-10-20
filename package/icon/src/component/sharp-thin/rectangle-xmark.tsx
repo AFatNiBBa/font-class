@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-xmark?s=sharp-thin rectangle-xmark}
- * @preview ![rectangle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNDgwIDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA0ODAgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnpNMTg1LjggMTc0LjVsNS43IDUuN0wyNTYgMjQ0LjdsNjQuNi02NC42IDUuNy01LjcgMTEuMyAxMS4zLTUuNyA1LjdMMjY3LjMgMjU2bDY0LjYgNjQuNiA1LjcgNS43LTExLjMgMTEuMy01LjctNS43TDI1NiAyNjcuM2wtNjQuNiA2NC42LTUuNyA1LjctMTEuMy0xMS4zIDUuNy01LjdMMjQ0LjcgMjU2bC02NC42LTY0LjYtNS43LTUuNyAxMS4zLTExLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rectangle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/rectangle-xmark.svg)
  */
 const RectangleXmark: typeof Icon = x => (
     <Icon {...x}>

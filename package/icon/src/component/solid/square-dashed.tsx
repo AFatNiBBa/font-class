@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-dashed` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dashed?s=solid square-dashed}
- * @preview ![square-dashed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJsMzIgMCAwIDY0TDk2IDk2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDMyTDAgMTYwbDAtMzJDMCA3NSA0MyAzMiA5NiAzMnpNMCAxOTJsNjQgMCAwIDEyOEwwIDMyMCAwIDE5MnptMzg0IDBsNjQgMCAwIDEyOC02NCAwIDAtMTI4em02NC0zMmwtNjQgMCAwLTMyYzAtMTcuNy0xNC4zLTMyLTMyLTMybC0zMiAwIDAtNjQgMzIgMGM1MyAwIDk2IDQzIDk2IDk2bDAgMzJ6bTAgMTkybDAgMzJjMCA1My00MyA5Ni05NiA5NmwtMzIgMCAwLTY0IDMyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0zMiA2NCAwek02NCAzNTJsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzMiAwIDAgNjQtMzIgMGMtNTMgMC05Ni00My05Ni05NmwwLTMyIDY0IDB6bTk2IDEyOGwwLTY0IDEyOCAwIDAgNjQtMTI4IDB6bTAtMzg0bDAtNjQgMTI4IDAgMCA2NEwxNjAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-dashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-dashed.svg)
  */
 const SquareDashed: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

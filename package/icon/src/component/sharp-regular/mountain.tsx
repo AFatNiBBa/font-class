@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mountain` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain?s=sharp-regular mountain}
- * @preview ![mountain](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDMybDAtOS4yTDE1NC41IDI2Ni4zbDM0LjUgNDQuNCAxOS4zIDI0LjggMTguOS0yNS4xTDI2OCAyNTZsODIuNCAwTDQ2NCA0MjIuOGwwIDkuMkw0OCA0MzJ6TTMxNy44IDIwOEwyNTYgMjA4bC0xMiAwLTcuMiA5LjYtMjkuMSAzOC45LTI0LjctMzEuOEwyNTYgMTE3LjMgMzE3LjggMjA4ek0yNTYgMzJMMjI3IDc0LjYgMCA0MDhsMCAyNCAwIDQ4IDQ4IDAgNDE2IDAgNDggMCAwLTQ4IDAtMjRMMjg1IDc0LjYgMjU2IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mountain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mountain.svg)
  */
 const Mountain: typeof Icon = x => (
     <Icon {...x}>

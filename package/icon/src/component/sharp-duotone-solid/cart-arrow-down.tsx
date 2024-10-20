@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `cart-arrow-down` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-arrow-down?s=sharp-duotone-solid cart-arrow-down}
- * @preview ![cart-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMjIgMzJsNDguOCAyNTZMNDk2IDI4OCA1NzYgMzIgMzYwIDMyYzAgMzYuNyAwIDczLjQgMCAxMTAuMWM3LjctNy43IDE1LjQtMTUuNCAyMy0yM2M1LjctNS43IDExLjMtMTEuMyAxNy0xN2MxMS4zIDExLjMgMjIuNiAyMi42IDMzLjkgMzMuOWwtMTcgMTctNjQgNjRjLTUuNyA1LjctMTEuMyAxMS4zLTE3IDE3Yy01LjctNS43LTExLjMtMTEuMy0xNy0xN2wtNjQtNjRjLTUuNy01LjctMTEuMy0xMS4zLTE3LTE3TDI3MiAxMDIuMWwxNyAxN2M3LjcgNy43IDE1LjQgMTUuNCAyMyAyM2MwLTM2LjcgMC03My40IDAtMTEwLjFMMTIyIDMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjQgMEwwIDAgMCA0OGwyNCAwIDUyLjEgMCA2MC4zIDMxNi41IDMuNyAxOS41IDE5LjkgMCAzMjggMCAyNCAwIDAtNDgtMjQgMC0zMDguMSAwTDExOS42IDE5LjUgMTE1LjkgMCA5NiAwIDI0IDB6TTE3NiA1MTJhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0zMzYtNDhhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMzYwIDE0Mi4xTDM2MCAzMmwtNDggMCAwIDExMC4xLTIzLTIzLTE3LTE3TDIzOC4xIDEzNmwxNyAxNyA2NCA2NCAxNyAxNyAxNy0xNyA2NC02NCAxNy0xN0w0MDAgMTAyLjFsLTE3IDE3LTIzIDIzeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cart-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cart-arrow-down.svg)
  */
 const CartArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M122 32l48.8 256L496 288 576 32 360 32c0 36.7 0 73.4 0 110.1c7.7-7.7 15.4-15.4 23-23c5.7-5.7 11.3-11.3 17-17c11.3 11.3 22.6 22.6 33.9 33.9l-17 17-64 64c-5.7 5.7-11.3 11.3-17 17c-5.7-5.7-11.3-11.3-17-17l-64-64c-5.7-5.7-11.3-11.3-17-17L272 102.1l17 17c7.7 7.7 15.4 15.4 23 23c0-36.7 0-73.4 0-110.1L122 32z" />
-            <path d="M24 0L0 0 0 48l24 0 52.1 0 60.3 316.5 3.7 19.5 19.9 0 328 0 24 0 0-48-24 0-308.1 0L119.6 19.5 115.9 0 96 0 24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM360 142.1L360 32l-48 0 0 110.1-23-23-17-17L238.1 136l17 17 64 64 17 17 17-17 64-64 17-17L400 102.1l-17 17-23 23z" />
+        <path d="M24 0L0 0 0 48l24 0 52.1 0 60.3 316.5 3.7 19.5 19.9 0 328 0 24 0 0-48-24 0-308.1 0L119.6 19.5 115.9 0 96 0 24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM360 142.1L360 32l-48 0 0 110.1-23-23-17-17L238.1 136l17 17 64 64 17 17 17-17 64-64 17-17L400 102.1l-17 17-23 23z" />
     </Icon>
 );
 

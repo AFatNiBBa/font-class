@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gun-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun-slash?s=solid gun-slash}
- * @preview ![gun-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w0MTIuMyAyOTcuOCA0MzIuOSAyNDBsMzEuMSAwYzguNSAwIDE2LjYtMy40IDIyLjYtOS40TDUwOS4zIDIwOGw2Ni43IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC04MGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtMTYgMCAwLThjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRsMCA4TDExMy45IDY0IDM4LjggNS4xek0xOTUuNiAxMjhMNDk2IDEyOGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMjU5LjYgMC00MC44LTMyek0zMzguNSAyNDBsNDMuNCAwLTkuNSAyNi42TDMzOC41IDI0MHpNMzI0LjkgMzUyTDI2NCAzMDRsLTMgMCAuNS0yTDMyIDEyMS4yIDMyIDIwOGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxMCAwYzIwLjggMCAzNi4xIDE5LjYgMzEgMzkuOEw2NSA0NDAuMmMtMi40IDkuNi0uMiAxOS43IDUuOCAyNy41Uzg2LjEgNDgwIDk2IDQ4MGw5NiAwYzE0LjcgMCAyNy41LTEwIDMxLTI0LjJMMjQ5IDM1Mmw3NS45IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![gun-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/gun-slash.svg)
  */
 const GunSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

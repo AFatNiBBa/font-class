@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-pawn-piece` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-pawn-piece?s=light chess-pawn-piece}
- * @preview ![chess-pawn-piece](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDE3NmE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwem0xNiA4MGwtNi4xIDAgMTAuNyA5Ni0zMi4yIDAtMTAuNy05NkwxMjggMjU2bC0yNS43IDBMOTEuNiAzNTJsLTMyLjIgMCAxMC43LTk2TDY0IDI1NmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmMtMTAtMTMuNC0xNi0zMC0xNi00OGMwLTQ0LjIgMzUuOC04MCA4MC04MHM4MCAzNS44IDgwIDgwYzAgMTgtNiAzNC42LTE2IDQ4YzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2em0tMS44IDEyOGMxMS4xIDAgMjEuNCA1LjcgMjcuMiAxNS4xbDMyLjcgNTIuN2MzLjkgNi4yIDUuOSAxMy40IDUuOSAyMC44YzAgMjEuOC0xNy43IDM5LjQtMzkuNCAzOS40TDM5LjQgNTEyQzE3LjcgNTEyIDAgNDk0LjMgMCA0NzIuNmMwLTcuMyAyLjEtMTQuNSA1LjktMjAuOGwzMi43LTUyLjdjNS44LTkuNCAxNi4xLTE1LjEgMjcuMi0xNS4xbDEyNC40IDB6TTMzLjEgNDY4LjdjLS43IDEuMi0xLjEgMi41LTEuMSAzLjljMCA0LjEgMy4zIDcuNCA3LjQgNy40bDE3Ny4xIDBjNC4xIDAgNy40LTMuMyA3LjQtNy40YzAtMS40LS40LTIuNy0xLjEtMy45TDE5MC4yIDQxNiA2NS44IDQxNiAzMy4xIDQ2OC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chess-pawn-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chess-pawn-piece.svg)
  */
 const ChessPawnPiece: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

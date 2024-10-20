@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-to-arc` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-to-arc?s=sharp-thin arrow-up-to-arc}
- * @preview ![arrow-up-to-arc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YzEzMi41IDAgMjQwIDEwNy41IDI0MCAyNDBsMCA4IDE2IDAgMC04QzUxMiAxMTQuNiAzOTcuNCAwIDI1NiAwUzAgMTE0LjYgMCAyNTZsMCA4IDE2IDAgMC04QzE2IDEyMy41IDEyMy41IDE2IDI1NiAxNnpNMzkwLjEgMzE0LjhsLTEyOC0xNTItNi4xLTcuMy02LjEgNy4zLTEyOCAxNTItNS4yIDYuMUwxMjkgMzMxLjNsNS4yLTYuMUwyNDggMTg5LjkgMjQ4IDUwNGwwIDggMTYgMCAwLTggMC0zMTQuMUwzNzcuOSAzMjUuMmw1LjIgNi4xTDM5NS4zIDMyMWwtNS4yLTYuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-up-to-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-up-to-arc.svg)
  */
 const ArrowUpToArc: typeof Icon = x => (
     <Icon {...x}>

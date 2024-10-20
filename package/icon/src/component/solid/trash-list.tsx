@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-list` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-list?s=solid trash-list}
- * @preview ![trash-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ3LjggMEwyNjguMiAwYzEyLjEgMCAyMy4yIDYuOCAyOC42IDE3LjdMMzA0IDMybDgwIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgOTZDMTQuMyA5NiAwIDgxLjcgMCA2NFMxNC4zIDMyIDMyIDMybDgwIDAgNy4yLTE0LjNDMTI0LjYgNi44IDEzNS43IDAgMTQ3LjggMHpNMzIgMTI4bDM1MiAwTDM2Mi44IDQ2N2MtMS42IDI1LjMtMjIuNiA0NS00Ny45IDQ1bC0yMTMuOCAwYy0yNS4zIDAtNDYuMy0xOS43LTQ3LjktNDVMMzIgMTI4em00NDggMGwxMjggMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtMTI4IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJ6bTAgMTI4bDk2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTk2IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJ6TTQ0OCA0MTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtMzIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trash-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-list.svg)
  */
 const TrashList: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

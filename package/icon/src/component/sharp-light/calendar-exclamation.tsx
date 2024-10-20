@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-exclamation?s=sharp-light calendar-exclamation}
- * @preview ![calendar-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMCAxNiAwIDQ4IDE5MiAwIDAtNDggMC0xNiAzMiAwIDAgMTYgMCA0OCA2NCAwIDMyIDAgMCAzMiAwIDY0IDAgMzIgMCAyODggMCAzMi0zMiAwTDMyIDUxMiAwIDUxMmwwLTMyTDAgMTkybDAtMzJMMCA5NiAwIDY0bDMyIDAgNjQgMCAwLTQ4TDk2IDBsMzIgMHpNNDE2IDE5MkwzMiAxOTJsMCAyODggMzg0IDAgMC0yODh6bTAtOTZMMzIgOTZsMCA2NCAzODQgMCAwLTY0ek0yNDAgMjQwbDAgMTYgMCA5NiAwIDE2LTMyIDAgMC0xNiAwLTk2IDAtMTYgMzIgMHptMCAxNjBsMCAzMi0zMiAwIDAtMzIgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![calendar-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/calendar-exclamation.svg)
  */
 const CalendarExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

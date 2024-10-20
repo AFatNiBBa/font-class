@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-group-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-group-simple?s=sharp-solid user-group-simple}
- * @preview ![user-group-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMyYTEwNCAxMDQgMCAxIDEgMCAyMDggMTA0IDEwNCAwIDEgMSAwLTIwOHptMzIwIDBhMTA0IDEwNCAwIDEgMSAwIDIwOCAxMDQgMTA0IDAgMSAxIDAtMjA4ek0yNTYgMjg4bDY0IDE5MkwwIDQ4MCA2NCAyODhsMTkyIDB6bTM4NCAwTDU3NiA0ODBsLTE5MiAwTDMyMCAyODhsMzIwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-group-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-group-simple.svg)
  */
 const UserGroupSimple: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

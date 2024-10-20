@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `desktop-arrow-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/desktop-arrow-down?s=sharp-light desktop-arrow-down}
- * @preview ![desktop-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEwyNDAgMGwwIDMyTDMyIDMybDAgMjI0IDUxMiAwIDAtMjI0TDMzNiAzMmwwLTMyTDU0NCAwbDMyIDAgMCAzMiAwIDIyNCAwIDMyIDAgOTYgMCAzMi0zMiAwLTE4MS4xIDAgMTAuNyA2NCA1OC40IDAgMTYgMCAwIDMyLTE2IDAtNzIgMC0xNDQgMC03MiAwLTE2IDAgMC0zMiAxNiAwIDU4LjQgMCAxMC43LTY0TDMyIDQxNiAwIDQxNmwwLTMyIDAtOTYgMC0zMkwwIDMyIDAgMCAzMiAwem0wIDI4OGwwIDk2IDE5OS43IDBjLjIgMCAuNCAwIC42IDBsMTExLjUgMGMuMiAwIC40IDAgLjYgMEw1NDQgMzg0bDAtOTZMMzIgMjg4ek0yMzQuOSA0ODBsMTA2LjIgMC0xMC43LTY0LTg0LjkgMC0xMC43IDY0ek0zMDQgMTZsMCAxNTMuNCA1Mi43LTUyLjdMMzY4IDEwNS40IDM5MC42IDEyOGwtMTEuMyAxMS4zLTgwIDgwTDI4OCAyMzAuNmwtMTEuMy0xMS4zLTgwLTgwTDE4NS40IDEyOCAyMDggMTA1LjRsMTEuMyAxMS4zTDI3MiAxNjkuNCAyNzIgMTZsMC0xNiAzMiAwIDAgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![desktop-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/desktop-arrow-down.svg)
  */
 const DesktopArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

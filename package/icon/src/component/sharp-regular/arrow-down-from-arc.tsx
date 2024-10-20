@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-from-arc` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-from-arc?s=sharp-regular arrow-down-from-arc}
- * @preview ![arrow-down-from-arc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM0LjQgMzgxLjFsLTE2LjMtMTcuNiAzNS4yLTMyLjcgMTYuMyAxNy42TDIzMiA0MTUuNmwwLTIzMS43IDAtMjQgNDggMCAwIDI0IDAgMjMxLjcgNjIuNC02Ny4yIDE2LjMtMTcuNiAzNS4yIDMyLjctMTYuMyAxNy42LTEwNCAxMTJMMjU2IDUxMmwtMTcuNi0xOC45LTEwNC0xMTJ6TTI1NiA0Ny45Yy0xMTQuOSAwLTIwOCA5My4xLTIwOCAyMDhsLTQ4IDBDMCAxMTQuNSAxMTQuNi0uMSAyNTYtLjFzMjU2IDExNC42IDI1NiAyNTZsMCAyNC00OCAwIDAtMjRjMC0xMTQuOS05My4xLTIwOC0yMDgtMjA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-from-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-down-from-arc.svg)
  */
 const ArrowDownFromArc: typeof Icon = x => (
     <Icon {...x}>

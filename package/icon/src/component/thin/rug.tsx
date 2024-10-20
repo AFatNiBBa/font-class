@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rug` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rug?s=thin rug}
- * @preview ![rug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA3MmMwLTQuNCAzLjYtOCA4LThsMjQgMCA4IDAgOCAwIDU0NCAwIDggMCA4IDAgMjQgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMjQgMCAwIDgwIDI0IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTI0IDAgMCA3MiAyNCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC0yNCAwIDAgNzIgMjQgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMjQgMCAwIDgwIDI0IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTI0IDAtOCAwLTggMEw0OCA0NDhsLTggMC04IDBMOCA0NDhjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsMjQgMCAwLTgwTDggMzUyYy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDI0IDAgMC03Mkw4IDI2NGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGwyNCAwIDAtNzJMOCAxNzZjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsMjQgMCAwLTgwTDggODBjLTQuNCAwLTgtMy42LTgtOHptNDggOTZsMCA4OCAwIDg4IDAgODggODAgMCAwLTM1Mkw0OCA4MGwwIDg4em05NiAyNjRsMzUyIDAgMC0zNTJMMTQ0IDgwbDAgMzUyek01MTIgODBsMCAzNTIgODAgMCAwLTg4IDAtODggMC04OCAwLTg4LTgwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/rug.svg)
  */
 const Rug: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

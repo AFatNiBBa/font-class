@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `watch-fitness` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-fitness?s=regular watch-fitness}
- * @preview ![watch-fitness](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyLjMgMEM4NS42IDAgNjQgMjEuNiA2NCA0OC4zbDAgMTcuM0MyNy41IDczIDAgMTA1LjMgMCAxNDRMMCAzNjhjMCAzOC43IDI3LjUgNzEgNjQgNzguNEw2NCA0NjRjMCAyNi41IDIxLjUgNDggNDggNDhsMTYwIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNy42YzM2LjUtNy40IDY0LTM5LjcgNjQtNzguNGwwLTIyNGMwLTM4LjctMjcuNS03MS02NC03OC40bDAtMTcuM0MzMjAgMjEuNiAyOTguNCAwIDI3MS43IDBMMTEyLjMgMHpNMzA0IDExMmMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDIyNGMwIDE3LjctMTQuMyAzMi0zMiAzMkw4MCA0MDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMjI0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDIyNCAwek05My43IDIyNi44YzAgMTQuNCA1LjggMjguMyAxNi4yIDM4LjRsNzAuOSA2OWM2LjIgNiAxNi4xIDYgMjIuMyAwbDcwLjktNjljMTAuNC0xMC4xIDE2LjItMjMuOSAxNi4yLTM4LjRjMC0yOS41LTIzLjktNTMuNS01My41LTUzLjVsLTEuNSAwYy0xNC4zIDAtMjguMSA1LjYtMzguNCAxNS42bC00LjkgNC44LTQuOS00LjhjLTEwLjMtMTAtMjQtMTUuNi0zOC40LTE1LjZsLTEuNSAwYy0yOS41IDAtNTMuNSAyMy45LTUzLjUgNTMuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![watch-fitness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/watch-fitness.svg)
  */
 const WatchFitness: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

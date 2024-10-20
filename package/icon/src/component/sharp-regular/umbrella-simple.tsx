@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `umbrella-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/umbrella-simple?s=sharp-regular umbrella-simple}
- * @preview ![umbrella-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDBsMCAyNCAwIDkuMUMzOTQuMSA0My43IDQ4Ni41IDEyOS4yIDUwNy41IDI0MGMzIDE1LjUgNC41IDMxLjYgNC41IDQ4bC00OCAwTDQ4IDI4OCAwIDI4OGMwLTE2LjQgMS41LTMyLjUgNC41LTQ4QzI1LjUgMTI5LjIgMTE3LjkgNDMuNyAyMzIgMzMuMWwwLTkuMSAwLTI0IDQ4IDB6TTI1NiA4MEMxNTcuNiA4MCA3NS4yIDE0OC4zIDUzLjYgMjQwbDQwNC45IDBDNDM2LjggMTQ4LjMgMzU0LjQgODAgMjU2IDgwem0yNCAzNTguNmMwIDQwLjYtMzIuOSA3My40LTczLjQgNzMuNGMtMjcuOCAwLTUzLjItMTUuNy02NS43LTQwLjZsLTIuMy00LjctMTAuNy0yMS41IDQyLjktMjEuNSAxMC43IDIxLjUgMi4zIDQuN2M0LjMgOC42IDEzLjEgMTQuMSAyMi44IDE0LjFjMTQuMSAwIDI1LjQtMTEuNCAyNS40LTI1LjRMMjMyIDMyMGw0OCAwIDAgMTE4LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![umbrella-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/umbrella-simple.svg)
  */
 const UmbrellaSimple: typeof Icon = x => (
     <Icon {...x}>

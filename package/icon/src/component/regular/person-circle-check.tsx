@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-circle-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-check?s=regular person-circle-check}
- * @preview ![person-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bTMyIDEyOC4xTDE0NCAzMDRsMzIgMCAwLTEyNy45Yy0uNyAwLTEuNS0uMS0yLjMtLjFsLTI3LjUgMGMtLjggMC0xLjUgMC0yLjMgLjF6TTE0NCAzNTJsMCAxMzZjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0yNjQuNEw1Mi45IDI5OS44Yy02LjUgMTEuNS0yMS4yIDE1LjYtMzIuNyA5LjFzLTE1LjYtMjEuMi05LjEtMzIuN0w2OS43IDE3Mi43YzE1LjYtMjcuNiA0NC45LTQ0LjcgNzYuNi00NC43bDI3LjUgMGMzMS43IDAgNjEgMTcuMSA3Ni42IDQ0LjdMMjk3IDI1NS4xYy0xMS43IDE0LTIxLjMgMjkuOS0yOC4zIDQ3LjFjLS42LS44LTEuMS0xLjYtMS42LTIuNEwyMjQgMjIzLjYgMjI0IDQ4OGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTEzNi0zMiAwem0xNDQgMTZhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMjExLjMtNDMuM2MtNi4yLTYuMi0xNi40LTYuMi0yMi42IDBMNDE2IDM4NS40bC0yOC43LTI4LjdjLTYuMi02LjItMTYuNC02LjItMjIuNiAwcy02LjIgMTYuNCAwIDIyLjZsNDAgNDBjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBsNzItNzJjNi4yLTYuMiA2LjItMTYuNCAwLTIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-circle-check.svg)
  */
 const PersonCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

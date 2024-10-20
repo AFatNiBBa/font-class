@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `anchor-circle-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-circle-check?s=sharp-regular anchor-circle-check}
- * @preview ![anchor-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDgwYTMyIDMyIDAgMSAxIC02NCAwIDMyIDMyIDAgMSAxIDY0IDB6TTI4OCAwYy00NC4yIDAtODAgMzUuOC04MCA4MGMwIDM1LjkgMjMuNyA2Ni4zIDU2LjMgNzYuNGMtLjIgMS4yLS4zIDIuNC0uMyAzLjZsMCAzMi00OCAwLTI0IDAgMCA0OCAyNCAwIDQ4IDAgMCAyMjQtMTQ0IDAgMC0xMTIgNzIgMEw5NiAyNTYgMCAzNTJsNzIgMCAwIDEzNiAwIDI0IDI0IDAgMTkyIDAgMTA2LjggMGMtMTguMy0xMi45LTM0LjEtMjkuMi00Ni4zLTQ4TDMxMiA0NjRsMC0yMjQgNDggMCAxNS4yIDBjMi44LTIuNyA1LjgtNS4zIDguOC03LjhsMC00MC4yLTI0IDAtNDggMCAwLTMyYzAtMS4yLS4xLTIuNC0uMy0zLjZDMzQ0LjMgMTQ2LjMgMzY4IDExNS45IDM2OCA4MGMwLTQ0LjItMzUuOC04MC04MC04MHpNNjQwIDM2OGExNDQgMTQ0IDAgMSAwIC0yODggMCAxNDQgMTQ0IDAgMSAwIDI4OCAwem0tNjUuNC0zMmwtMTEuMyAxMS4zLTcyIDcyTDQ4MCA0MzAuNmwtMTEuMy0xMS4zLTQwLTQwTDQxNy40IDM2OCA0NDAgMzQ1LjRsMTEuMyAxMS4zTDQ4MCAzODUuNGw2MC43LTYwLjdMNTUyIDMxMy40IDU3NC42IDMzNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![anchor-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/anchor-circle-check.svg)
  */
 const AnchorCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

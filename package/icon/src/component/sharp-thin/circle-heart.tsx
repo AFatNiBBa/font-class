@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-heart` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-heart?s=sharp-thin circle-heart}
- * @preview ![circle-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDEgMCA0ODAgMjQwIDI0MCAwIDEgMSAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0yNDMuNSAxOTMuOUwyNTYgMjA5LjVsMTIuNS0xNS42IDkuMy0xMS42YzExLjMtMTQuMSAyOC41LTIyLjQgNDYuNi0yMi40YzMyLjkgMCA1OS42IDI2LjcgNTkuNiA1OS42bDAgMy42YzAgMTYuOC02LjcgMzIuOC0xOC41IDQ0LjdsLTI0LjggMjQuOEwyNTYgMzc3LjNsLTg0LjctODQuNy0yNC44LTI0LjhjLTExLjktMTEuOS0xOC41LTI3LjktMTguNS00NC43bDAtMy42YzAtMzIuOSAyNi43LTU5LjYgNTkuNi01OS42YzE4LjEgMCAzNS4zIDguMiA0Ni42IDIyLjRsOS4zIDExLjZ6bTEyLjUgMjA2bDExLjMtMTEuM0wzNTIgMzAzLjlsMjQuOC0yNC44YzE0LjktMTQuOSAyMy4yLTM1IDIzLjItNTZsMC0zLjZjMC00MS44LTMzLjktNzUuNi03NS42LTc1LjZjLTIyLjUgMC00My43IDEwLTU4LjEgMjcuMmMtLjMgLjQtLjYgLjgtMSAxLjJMMjU2IDE4My45bC05LjMtMTEuNmMtLjMtLjQtLjYtLjgtMS0xLjJjLTE0LjQtMTcuMi0zNS42LTI3LjItNTguMS0yNy4yYy00MS44IDAtNzUuNiAzMy45LTc1LjYgNzUuNmwwIDMuNmMwIDIxIDguMyA0MS4xIDIzLjIgNTZMMTYwIDMwMy45bDg0LjcgODQuN0wyNTYgMzk5Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-heart.svg)
  */
 const CircleHeart: typeof Icon = x => (
     <Icon {...x}>

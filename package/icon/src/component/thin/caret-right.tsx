@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `caret-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caret-right?s=thin caret-right}
- * @preview ![caret-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMzLjQgMjQwLjZjNC4yIDQgNi42IDkuNiA2LjYgMTUuNHMtMi40IDExLjQtNi42IDE1LjRMMTAxLjMgMzk2LjVjLTIuMyAyLjItNS40IDMuNS04LjcgMy41Yy03IDAtMTIuNi01LjYtMTIuNi0xMi42bDAtMjYyLjhjMC03IDUuNi0xMi42IDEyLjYtMTIuNmMzLjIgMCA2LjMgMS4yIDguNyAzLjVMMjMzLjQgMjQwLjZ6bTExLTExLjZMMTEyLjMgMTAzLjhDMTA3IDk4LjggOTkuOSA5NiA5Mi42IDk2Qzc2LjggOTYgNjQgMTA4LjggNjQgMTI0LjZsMCAyNjIuOEM2NCA0MDMuMiA3Ni44IDQxNiA5Mi42IDQxNmM3LjMgMCAxNC40LTIuOCAxOS43LTcuOEwyNDQuNCAyODNjNy40LTcgMTEuNi0xNi44IDExLjYtMjdzLTQuMi0yMC0xMS42LTI3eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![caret-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/caret-right.svg)
  */
 const CaretRight: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

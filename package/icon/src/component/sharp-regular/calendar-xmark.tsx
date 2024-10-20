@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-xmark` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-xmark?s=sharp-regular calendar-xmark}
- * @preview ![calendar-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDBsMCAyNCAwIDQwIDE0NCAwIDAtNDAgMC0yNCA0OCAwIDAgMjQgMCA0MCAxMDQgMCAwIDgwIDAgNDggMCAyNzIgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4TDAgMTkybDAtNDhMMCA2NGwxMDQgMCAwLTQwIDAtMjQgNDggMHpNNDAwIDE5Mkw0OCAxOTJsMCAyNzIgMzUyIDAgMC0yNzJ6bS05NSA4OWwtNDcgNDcgNDcgNDcgMTcgMTdMMjg4IDQyNS45bC0xNy0xNy00Ny00Ny00NyA0Ny0xNyAxN0wxMjYuMSAzOTJsMTctMTcgNDctNDctNDctNDctMTctMTdMMTYwIDIzMC4xbDE3IDE3IDQ3IDQ3IDQ3LTQ3IDE3LTE3TDMyMS45IDI2NGwtMTcgMTd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![calendar-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/calendar-xmark.svg)
  */
 const CalendarXmark: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-rain` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-rain?s=sharp-solid cloud-rain}
- * @preview ![cloud-rain](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzIwTDAgMzIwbDAtOTZjMC00MS44IDI2LjctNzcuNCA2NC05MC41TDY0IDExMkM2NCA1MC4xIDExNC4xIDAgMTc2IDBjNDMuMSAwIDgwLjUgMjQuMyA5OS4yIDYwYzE0LjctMTcuMSAzNi41LTI4IDYwLjgtMjhjNDQuMiAwIDgwIDM1LjggODAgODBsMCAxNmM1MyAwIDk2IDQzIDk2IDk2bDAgOTYtOTYgMEw5NiAzMjB6bTAgNDhsNDAuOSA2OC4xYzQuNyA3LjggNy4xIDE2LjcgNy4xIDI1LjhsMCAyLjFjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhsMC0yLjFjMC05LjEgMi41LTE4IDcuMS0yNS44TDk2IDM2OHptMTYwIDBsNDAuOSA2OC4xYzQuNyA3LjggNy4xIDE2LjcgNy4xIDI1LjhsMCAyLjFjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhsMC0yLjFjMC05LjEgMi41LTE4IDcuMS0yNS44TDI1NiAzNjh6bTExOS4xIDY4LjFMNDE2IDM2OGw0MC45IDY4LjFjNC43IDcuOCA3LjEgMTYuNyA3LjEgMjUuOGwwIDIuMWMwIDI2LjUtMjEuNSA0OC00OCA0OHMtNDgtMjEuNS00OC00OGwwLTIuMWMwLTkuMSAyLjUtMTggNy4xLTI1Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cloud-rain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-rain.svg)
  */
 const CloudRain: typeof Icon = x => (
     <Icon {...x}>

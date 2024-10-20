@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tent-arrow-left-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrow-left-right?s=sharp-thin tent-arrow-left-right}
- * @preview ![tent-arrow-left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTY1LjQgOTAuMWw2LjQgNS45LTYuNCA1LjktOTYgODgtMTAuOC0xMS44TDUzOS40IDEwNCAzNi42IDEwNGw4MC44IDc0LjEtMTAuOCAxMS44LTk2LTg4TDQuMiA5Nmw2LjQtNS45IDk2LTg4IDEwLjggMTEuOEwzNi42IDg4bDUwMi45IDBMNDU4LjYgMTMuOSA0NjkuNCAyLjFsOTYgODh6TTgwLjIgNTEyTDY0IDUxMmwyLjMtMTZMOTYgMjg4IDI4OCAxNjAgNDgwIDI4OGwyOS43IDIwOCAyLjMgMTYtMTYuMiAwTDgwLjIgNTEyem0zMDUuNi0xNkwyOTYgMzQ4LjUgMjk2IDQ5Nmw4OS44IDB6TTI4MCAxODQuNkwxMTAuOCAyOTcuMyA4Mi41IDQ5NiAyODAgNDk2bDAtMzExLjR6TTQ2NS4yIDI5Ny4zTDI5NiAxODQuNmwwIDEzMy4yTDQwNC41IDQ5Nmw4OS4xIDBMNDY1LjIgMjk3LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tent-arrow-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tent-arrow-left-right.svg)
  */
 const TentArrowLeftRight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

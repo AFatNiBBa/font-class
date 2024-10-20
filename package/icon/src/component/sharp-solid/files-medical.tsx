@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `files-medical` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/files-medical?s=sharp-solid files-medical}
- * @preview ![files-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDEyOGwwLTMyIDAtOTZMOTYgMGwwIDQxNiAzNTIgMCAwLTI4OC05NiAwLTMyIDB6bTk2LTY0TDM4NCAzMiAzNTIgMGwwIDQ1LjNMMzUyIDY0bDAgMzIgMzIgMCAxOC43IDBMNDQ4IDk2IDQxNiA2NHpNNDggOTZMMCA5NmwwIDI0TDAgNDg4bDAgMjQgMjQgMCAzMDQgMCAyNCAwIDAtNDgtMjQgMEw0OCA0NjRsMC0zNDQgMC0yNHptMTkyIDY0bDY0IDAgMCA2NCA2NCAwIDAgNjQtNjQgMCAwIDY0LTY0IDAgMC02NC02NCAwIDAtNjQgNjQgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![files-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/files-medical.svg)
  */
 const FilesMedical: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

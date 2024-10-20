@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hourglass-start` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-start?s=sharp-thin hourglass-start}
- * @preview ![hourglass-start](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDggMCAzNzYgMGw4IDAgMCAxNi04IDAtMjQgMCAwIDEyOCAwIDQtMy4zIDIuNEwyMDUuNSAyNTYgMzQ4LjcgMzYxLjYgMzUyIDM2NGwwIDQgMCAxMjggMjQgMCA4IDAgMCAxNi04IDBMOCA1MTJsLTggMCAwLTE2IDggMCAyNCAwIDAtMTI4IDAtNCAzLjMtMi40TDE3OC41IDI1NiAzNS4zIDE1MC40IDMyIDE0OGwwLTRMMzIgMTYgOCAxNiAwIDE2IDAgMHpNNDggMTZsMCA0OCAyODggMCAwLTQ4TDQ4IDE2em0wIDY0bDAgNjBMMTkyIDI0Ni4xIDMzNiAxNDBsMC02MEw0OCA4MHptMCAyOTJsMCAxMjQgMjg4IDAgMC0xMjRMMTkyIDI2NS45IDQ4IDM3MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hourglass-start](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hourglass-start.svg)
  */
 const HourglassStart: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

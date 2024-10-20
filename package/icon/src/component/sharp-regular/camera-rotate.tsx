@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-rotate` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-rotate?s=sharp-regular camera-rotate}
- * @preview ![camera-rotate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDM3LjMgOTZMNDE2IDMyIDIyNCAzMiAyMDIuNyA5NiAxMTIgOTYgNjQgOTZsMCA0OCAwIDI4OCAwIDQ4IDQ4IDAgNDE2IDAgNDggMCAwLTQ4IDAtMjg4IDAtNDgtNDggMC05MC43IDB6TTUyOCAxNDRsMCAyODgtNDE2IDAgMC0yODggOTAuNyAwIDM0LjYgMCAxMC45LTMyLjhMMjU4LjYgODBsMTIyLjggMCAxMC40IDMxLjJMNDAyLjcgMTQ0bDM0LjYgMCA5MC43IDB6TTIwOCAzODRsMTYgMTYgMjMuOS0yMy45YzIwLjcgMTUuNCA0NiAyMy45IDcyLjEgMjMuOWMzMiAwIDYyLjYtMTIuNyA4NS4zLTM1LjNMNDI1IDM0NSAzOTEgMzExbC0xOS43IDE5LjdDMzU3LjcgMzQ0LjQgMzM5LjIgMzUyIDMyMCAzNTJjLTEzLjMgMC0yNi4zLTMuNy0zNy41LTEwLjVMMzA0IDMyMGwtMTYtMTYtODAgMCAwIDgwek00MzIgMjcybDAtODAtMTYtMTYtMjMuOSAyMy45Yy0yMC43LTE1LjQtNDYtMjMuOS03Mi4xLTIzLjljLTMyIDAtNjIuNiAxMi43LTg1LjMgMzUuM0wyMTUgMjMxIDI0OSAyNjVsMTkuNy0xOS43QzI4Mi4zIDIzMS42IDMwMC44IDIyNCAzMjAgMjI0YzEzLjMgMCAyNi4zIDMuNyAzNy41IDEwLjVMMzM2IDI1NmwxNiAxNiA4MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![camera-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/camera-rotate.svg)
  */
 const CameraRotate: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

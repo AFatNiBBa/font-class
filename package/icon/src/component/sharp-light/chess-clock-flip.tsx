@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-clock-flip` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-clock-flip?s=sharp-light chess-clock-flip}
- * @preview ![chess-clock-flip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDMybC0xNiAwIDAgMzIgMTYgMCA0OCAwIDAgNjRMMzIgMTI4IDAgMTI4bDAgMzJMMCA0NDhsMCAzMiAzMiAwIDU3NiAwIDMyIDAgMC0zMiAwLTI4OCAwLTMyLTMyIDAtMTI4IDAgMC02NCA0OCAwIDE2IDAgMC0zMi0xNiAwLTY0IDAtNjQgMHpNOTYgNjRsMCAzMiAxNiAwIDEyOCAwIDE2IDAgMC0zMi0xNiAwTDExMiA2NCA5NiA2NHptNTEyIDk2bDAgMjg4TDMyIDQ0OGwwLTI4OCA1NzYgMHpNNDY0IDIyNGE4MCA4MCAwIDEgMSAwIDE2MCA4MCA4MCAwIDEgMSAwLTE2MHptMCAxOTJhMTEyIDExMiAwIDEgMCAwLTIyNCAxMTIgMTEyIDAgMSAwIDAgMjI0ek0xMTkuNCAyNDcuNEE4MCA4MCAwIDEgMSAyMzIuNiAzNjAuNiA4MCA4MCAwIDEgMSAxMTkuNCAyNDcuNHpNMjU1LjIgMzgzLjJBMTEyIDExMiAwIDEgMCA5Ni44IDIyNC44IDExMiAxMTIgMCAxIDAgMjU1LjIgMzgzLjJ6TTQ4MCAyNDBsLTMyIDAgMCAxNiAwIDQ4IDAgMTYgMzIgMCAwLTE2IDAtNDggMC0xNnpNMjIxLjMgMjgxLjRsMTEuMy0xMS4zLTIyLjYtMjIuNi0xMS4zIDExLjMtMzMuOSAzMy45TDE1My40IDMwNCAxNzYgMzI2LjZsMTEuMy0xMS4zIDMzLjktMzMuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chess-clock-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chess-clock-flip.svg)
  */
 const ChessClockFlip: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

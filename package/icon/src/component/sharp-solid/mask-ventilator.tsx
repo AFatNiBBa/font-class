@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mask-ventilator` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask-ventilator?s=sharp-solid mask-ventilator}
- * @preview ![mask-ventilator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDM5My4ybDAgNzYuNmMzOC0xMi42IDcwLjYtMzYgOTMuNS02Ni40bDE0NC40LTM2LjEgMTguMi00LjUgMC0xOC43IDAtMTkyIDAtMjQtMjQgMC0xNjEuNSAwYy0yLjMtMy41LTQuNi03LTYuOS0xMC40TDM4NCAzMiAyNTYgMzJsLTY0IDg1LjZjLTIuNCAzLjQtNC43IDYuOS02LjkgMTAuNEwyNCAxMjggMCAxMjhsMCAyNEwwIDM0NGwwIDE4LjcgMTguMiA0LjUgMTQ0LjEgMzZjMjIuNyAzMC41IDU1LjQgNTQuMSA5My44IDY2LjZsMC03Ni42Yy0xOS43LTE2LjQtMzItNDAuMy0zMi02Ni45YzAtMjYuNSAxMi40LTYzLjIgMzItOTEuNkwyODggMTkybDMyIDAgMzIgMCAzMS44IDQyLjhjMTkuNyAyOC40IDMyLjIgNjUuMSAzMi4yIDkxLjZjMCAyNi43LTEyLjQgNTAuNC0zMiA2Ni44ek0xMzQuMyAzNDYuOEw0OCAzMjUuMyA0OCAxNzZsMTExLjEgMEMxMzkuNCAyMTkuMiAxMjggMjY0LjcgMTI4IDMwMC44YzAgMTUuOSAyLjIgMzEuNCA2LjMgNDZ6TTQ4MC43IDE3Nkw1OTIgMTc2bDAgMTQ5LjMtODYuNCAyMS42YzQuMi0xNC43IDYuNC0zMC4xIDYuNC00Ni4xYzAtMzYuMS0xMS42LTgxLjYtMzEuMy0xMjQuOHpNMjg4IDI4OGwwIDIyNCA2NCAwIDAtMjI0LTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mask-ventilator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/mask-ventilator.svg)
  */
 const MaskVentilator: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

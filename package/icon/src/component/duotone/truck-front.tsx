@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `truck-front` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-front?s=duotone truck-front}
- * @preview ![truck-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiA0MzJjNi43IDUgMTQuMiA5IDIyLjMgMTEuOGM0IDEuNCA4LjIgMi40IDEyLjUgMy4xYzIuMSAuNCA0LjMgLjYgNi41IC44YzEuMSAuMSAyLjIgLjIgMy4zIC4yczIuMiAuMSAzLjQgLjFsNDggMCAwIDMyYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTQ4em04MC0yMDhsMTcuOS03MS44YzMuNi0xNC4yIDE2LjQtMjQuMiAzMS0yNC4ybDE5MCAwYzE0LjcgMCAyNy41IDEwIDMxIDI0LjJMNDAwIDIyNGwtMjg4IDB6TTM4NCA0NDhsNDggMGMxOCAwIDM0LjYtNiA0OC0xNmwwIDQ4YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNODAgMEMzNS44IDAgMCAzNS44IDAgODBMMCAzNjhjMCA0NC4yIDM1LjggODAgODAgODBsMzUyIDBjNDQuMiAwIDgwLTM1LjggODAtODBsMC0yODhjMC00NC4yLTM1LjgtODAtODAtODBMODAgMHptMzIgMjI0bDE3LjktNzEuOGMzLjYtMTQuMiAxNi40LTI0LjIgMzEtMjQuMmwxOTAgMGMxNC43IDAgMjcuNSAxMCAzMSAyNC4yTDQwMCAyMjRsLTI4OCAwek02NCAzMjBhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptMzUyLTMyYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/truck-front.svg)
  */
 const TruckFront: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M32 432c6.7 5 14.2 9 22.3 11.8c4 1.4 8.2 2.4 12.5 3.1c2.1 .4 4.3 .6 6.5 .8c1.1 .1 2.2 .2 3.3 .2s2.2 .1 3.4 .1l48 0 0 32c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-48zm80-208l17.9-71.8c3.6-14.2 16.4-24.2 31-24.2l190 0c14.7 0 27.5 10 31 24.2L400 224l-288 0zM384 448l48 0c18 0 34.6-6 48-16l0 48c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-32z" />
-            <path d="M80 0C35.8 0 0 35.8 0 80L0 368c0 44.2 35.8 80 80 80l352 0c44.2 0 80-35.8 80-80l0-288c0-44.2-35.8-80-80-80L80 0zm32 224l17.9-71.8c3.6-14.2 16.4-24.2 31-24.2l190 0c14.7 0 27.5 10 31 24.2L400 224l-288 0zM64 320a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm352-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+        <path d="M80 0C35.8 0 0 35.8 0 80L0 368c0 44.2 35.8 80 80 80l352 0c44.2 0 80-35.8 80-80l0-288c0-44.2-35.8-80-80-80L80 0zm32 224l17.9-71.8c3.6-14.2 16.4-24.2 31-24.2l190 0c14.7 0 27.5 10 31 24.2L400 224l-288 0zM64 320a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm352-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
     </Icon>
 );
 

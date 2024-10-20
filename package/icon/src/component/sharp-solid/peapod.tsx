@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `peapod` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peapod?s=sharp-solid peapod}
- * @preview ![peapod](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDBMNDE2IDBDMTg2LjIgMCAwIDE4Ni4yIDAgNDE2bDAgOTYgOTYgMGMyMjkuOCAwIDQxNi0xODYuMiA0MTYtNDE2bDAtOTZ6TTI1NiAyMDBhNTYgNTYgMCAxIDEgMCAxMTIgNTYgNTYgMCAxIDEgMC0xMTJ6TTg4IDM2OGE1NiA1NiAwIDEgMSAxMTIgMEE1NiA1NiAwIDEgMSA4OCAzNjh6TTM2OCA4OGE1NiA1NiAwIDEgMSAwIDExMiA1NiA1NiAwIDEgMSAwLTExMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![peapod](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/peapod.svg)
  */
 const Peapod: typeof Icon = x => (
     <Icon {...x}>

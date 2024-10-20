@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-sankey` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-sankey?s=sharp-light diagram-sankey}
- * @preview ![diagram-sankey](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI2LjkgMzJsLTQuNyA3LjhMMjMwLjkgMTkyIDE2IDE5MiAwIDE5MmwwIDMyIDE2IDAgMjI0IDAgOS4xIDAgNC43LTcuOEwzNDUuMSA2NCA1NjAgNjRsMTYgMCAwLTMyLTE2IDBMMzM2IDMybC05LjEgMHpNMTgxLjkgMjg4bC0uMy0uNC0uNyAuNEwxNiAyODggMCAyODhsMCAzMiAxNiAwIDE0OCAwIDk0LjQgMTUyLjQgNC43IDcuNiA4LjkgMCAyODggMCAxNiAwIDAtMzItMTYgMC0yNzkuMSAwTDIwMS43IDMyMCA1NjAgMzIwbDE2IDAgMC0zMi0xNiAwLTM3OC4xIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![diagram-sankey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/diagram-sankey.svg)
  */
 const DiagramSankey: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

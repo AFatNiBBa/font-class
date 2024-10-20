@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `anchor-circle-check` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-circle-check?s=sharp-light anchor-circle-check}
- * @preview ![anchor-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDgwYTQ4IDQ4IDAgMSAxIC05NiAwIDQ4IDQ4IDAgMSAxIDk2IDB6TTI4OCAwYy00NC4yIDAtODAgMzUuOC04MCA4MGMwIDM4LjcgMjcuNSA3MSA2NCA3OC40bDAgMS42IDAgMzItNjQgMC0xNiAwIDAgMzIgMTYgMCA2NCAwIDAgMjU2TDk2IDQ4MGwwLTE2OS40IDI4LjcgMjguN0wxMzYgMzUwLjYgMTU4LjYgMzI4bC0xMS4zLTExLjMtNTYtNTZMODAgMjQ5LjQgNjguNyAyNjAuN2wtNTYgNTZMMS40IDMyOCAyNCAzNTAuNmwxMS4zLTExLjNMNjQgMzEwLjYgNjQgNDk2bDAgMTYgMTYgMCAyMDggMCAxMDYuOCAwYy0xMi45LTkuMS0yNC41LTE5LjktMzQuNi0zMkwzMDQgNDgwbDAtMjU2IDY0IDAgMTYgMCAwLTMyLTE2IDAtNjQgMCAwLTMyIDAtMS42YzM2LjUtNy40IDY0LTM5LjcgNjQtNzguNGMwLTQ0LjItMzUuOC04MC04MC04MHpNNDk2IDI1NmExMTIgMTEyIDAgMSAxIDAgMjI0IDExMiAxMTIgMCAxIDEgMC0yMjR6bTAgMjU2YTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHptNzguNi0xNzZMNTUyIDMxMy40bC0xMS4zIDExLjNMNDgwIDM4NS40bC0yOC43LTI4LjdMNDQwIDM0NS40IDQxNy40IDM2OGwxMS4zIDExLjMgNDAgNDBMNDgwIDQzMC42bDExLjMtMTEuMyA3Mi03Mkw1NzQuNiAzMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![anchor-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/anchor-circle-check.svg)
  */
 const AnchorCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

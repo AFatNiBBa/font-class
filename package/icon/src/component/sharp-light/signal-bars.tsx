@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-bars` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-bars?s=sharp-light signal-bars}
- * @preview ![signal-bars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDMybDAgNDQ4IDMyIDAgMC00NDgtMzIgMHpNNTEyIDBsMzIgMCAzMiAwIDMyIDAgMCAzMiAwIDQ0OCAwIDMyLTMyIDAtMzIgMC0zMiAwIDAtMzIgMC00NDggMC0zMnpNMzg0IDE2MGwwIDMyMCAzMiAwIDAtMzIwLTMyIDB6bS0zMi0zMmwzMiAwIDMyIDAgMzIgMCAwIDMyIDAgMzIwIDAgMzItMzIgMC0zMiAwLTMyIDAgMC0zMiAwLTMyMCAwLTMyek0yNTYgMjg4bC0zMiAwIDAgMTkyIDMyIDAgMC0xOTJ6bS0zMi0zMmwzMiAwIDMyIDAgMCAzMiAwIDE5MiAwIDMyLTMyIDAtMzIgMC0zMiAwIDAtMzIgMC0xOTIgMC0zMiAzMiAwek02NCA0MTZsMCA2NCAzMiAwIDAtNjQtMzIgMHpNMzIgMzg0bDMyIDAgMzIgMCAzMiAwIDAgMzIgMCA2NCAwIDMyLTMyIDAtMzIgMC0zMiAwIDAtMzIgMC02NCAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![signal-bars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/signal-bars.svg)
  */
 const SignalBars: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

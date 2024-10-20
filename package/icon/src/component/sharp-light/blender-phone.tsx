@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blender-phone` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender-phone?s=sharp-light blender-phone}
- * @preview ![blender-phone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ4LjcgMTQ3LjJMMTkyIDU3LjYgOTguMiAwIDgzLjcgMTIuOGMtMTExLjYgOTktMTExLjYgMjU5LjQgMCAzNTguNEw5OC4yIDM4NCAxOTIgMzI2LjRsLTQzLjMtODkuNi01MC4xIDBjLTguOS0yOS4zLTguOS02MC4zIDAtODkuNmw1MC4xIDB6TTc0LjggMjY4LjhsNTMuOCAwIDIyIDQ1LjUtNDguOSAzMEM1NS4yIDMwMS42IDMyIDI0Ni44IDMyIDE5MnMyMy4yLTEwOS42IDY5LjctMTUyLjNsNDguOSAzMC0yMiA0NS41LTUzLjggMC02LjkgMjIuN2MtMTAuNyAzNS40LTEwLjcgNzIuOCAwIDEwOC4ybDYuOSAyMi43ek01MzUgMzJMNTE5IDk2IDM2OCA5NmwtMTYgMCAwIDMyIDE2IDAgMTQzIDAtMTYgNjQtMTI3IDAtMTYgMCAwIDMyIDE2IDAgMTE5IDBMNDU1IDM1MmwtMTk5IDAgMC0zMjAgMjc5IDB6TTQ4OCAzNTJsNTYtMjI0IDI0LTk2IDgtMzJMNTQzIDAgMjU2IDAgMjI0IDBsMCAzMiAwIDMyMC0zMiAwIDAgMzIgMCA5NiAwIDMyIDMyIDAgMjg4IDAgMzIgMCAwLTMyIDAtOTYgMC0zMi0zMiAwLTI0IDB6TTIyNCAzODRsMzIgMCAyMjQgMCAzMiAwIDAgOTYtMjg4IDAgMC05NnptMTY4IDQ4YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![blender-phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/blender-phone.svg)
  */
 const BlenderPhone: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

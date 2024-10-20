@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `salad` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/salad?s=solid salad}
- * @preview ![salad](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDk2YzIuNiAwIDUuMiAuMSA3LjggLjJDNDA2LjIgNzYuNSAzODAuNSA2NCAzNTIgNjRjLTguNyAwLTE3LjIgMS4yLTI1LjMgMy40QzMwOS41IDI3LjcgMjcwIDAgMjI0IDBzLTg1LjUgMjcuNy0xMDIuNyA2Ny40Yy04LTIuMi0xNi41LTMuNC0yNS4zLTMuNEM0MyA2NCAwIDEwNyAwIDE2MHM0MyA5NiA5NiA5Nmw3My40IDBMODQuNyAxNzEuM2MtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZzMTYuNC02LjIgMjIuNiAwTDIwOCAyNDkuNCAyMDggMTEyYzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZsMCAxNDQgNTIgMGMtMi42LTEwLjItNC0yMS00LTMyYzAtNzAuNyA1Ny4zLTEyOCAxMjgtMTI4ek0yNy40IDI4OEMxMi4zIDI4OCAwIDMwMC4zIDAgMzE1LjRjMCA3MC41IDQ0LjQgMTMwLjcgMTA2LjcgMTU0LjFsMS44IDE0LjRjMiAxNiAxNS42IDI4IDMxLjggMjhsMjMxLjUgMGMxNi4xIDAgMjkuOC0xMiAzMS44LTI4bDEuOC0xNC40QzQ2Ny42IDQ0Ni4xIDUxMiAzODUuOSA1MTIgMzE1LjRjMC0xNS4xLTEyLjMtMjcuNC0yNy40LTI3LjRMMjcuNCAyODh6TTUxMiAyMjRjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZjMCAxMS4yIDEuOSAyMiA1LjUgMzJsMTgxLjEgMGMzLjUtMTAgNS41LTIwLjggNS41LTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![salad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/salad.svg)
  */
 const Salad: typeof Icon = x => (
     <Icon {...x}>

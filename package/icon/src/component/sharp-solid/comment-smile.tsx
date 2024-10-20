@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-smile` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-smile?s=sharp-solid comment-smile}
- * @preview ![comment-smile](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI0MGMwIDExNC45LTExNC42IDIwOC0yNTYgMjA4Yy0zMS41IDAtNjEuNy00LjYtODkuNi0xMy4xTDE2IDQ4MCA1Ni45IDM3MC44QzIxLjMgMzM1LjEgMCAyODkuNiAwIDI0MEMwIDEyNS4xIDExNC42IDMyIDI1NiAzMnMyNTYgOTMuMSAyNTYgMjA4ek0xOTIgMjA4YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMTI4IDBhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0ek0xNjguNCAyNTQuMWwtMzUuOCAzMiAxNiAxNy45YzI2LjMgMjkuNCA2NC43IDQ4IDEwNy4zIDQ4czgxLTE4LjYgMTA3LjMtNDhsMTYtMTcuOS0zNS44LTMyLTE2IDE3LjljLTE3LjYgMTkuNy00My4xIDMyLTcxLjYgMzJzLTUzLjktMTIuMy03MS42LTMybC0xNi0xNy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![comment-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/comment-smile.svg)
  */
 const CommentSmile: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sign-posts-wrench` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sign-posts-wrench?s=sharp-thin sign-posts-wrench}
- * @preview ![sign-posts-wrench](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMGwwIDMyTDE2IDMyIDAgMzIgMCA0OCAwIDQwMGwwIDE2IDE2IDAgNjQgMCAwIDk2IDE2IDAgMC05NiAyNTIuNSAwYy0zLjQtNS4yLTYuNS0xMC41LTkuMy0xNkwxNiA0MDAgMTYgNDhsNTQ0IDAgMCAxMTIgMTYgMCAwLTExMiAwLTE2LTE2IDAtNjQgMCAwLTMyTDQ4MCAwbDAgMzJMOTYgMzIgOTYgMCA4MCAwek00MzEuOSAxOTJsLTIgMC0xLjggLjlDMzgyLjkgMjE3LjIgMzUyIDI2NSAzNTIgMzIwYzAgNDYuNCAyMS45IDg3LjcgNTYgMTE0bDAgNzAgMCA4IDE2IDAgMC04IDAtNzQgMC00LjEtMy4zLTIuNGMtMzItMjMuMy01Mi43LTYxLTUyLjctMTAzLjVjMC00OC4yIDI2LjYtOTAuMiA2Ni0xMTJsNiAwIDAgODAgMCAzLjMgMi4zIDIuMyA0OCA0OCA1LjcgNS43IDUuNy01LjcgNDgtNDggMi4zLTIuMyAwLTMuMyAwLTgwIDYgMGMzOS40IDIxLjggNjYgNjMuOCA2NiAxMTJjMCA0Mi41LTIwLjcgODAuMi01Mi43IDEwMy41bC0zLjMgMi40IDAgNC4xIDAgNzQgMCA4IDE2IDAgMC04IDAtNzBjMzQuMS0yNi4zIDU2LTY3LjYgNTYtMTE0YzAtNTUtMzAuOS0xMDIuOC03Ni4yLTEyNy4xbC0xLjgtLjktMiAwTDU0NCAxOTJsLTggMCAwIDggMCA4NC43LTQwIDQwLTQwLTQwIDAtODQuNyAwLTgtOCAwLTE2LjEgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sign-posts-wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sign-posts-wrench.svg)
  */
 const SignPostsWrench: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

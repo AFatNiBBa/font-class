@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-heart` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-heart?s=sharp-regular square-heart}
- * @preview ![square-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCAzNTIgMzUyIDAgMC0zNTJMNDggODB6TTAgMzJsNDggMCAzNTIgMCA0OCAwIDAgNDggMCAzNTIgMCA0OC00OCAwTDQ4IDQ4MCAwIDQ4MGwwLTQ4TDAgODAgMCAzMnpNMTE1LjMgMjcxLjJjLTEzLjQtMTMuNC0yMC45LTMxLjUtMjAuOS01MC40bDAtMy4yYzAtMzcuNiAzMC41LTY4LjEgNjguMS02OC4xYzIwLjcgMCA0MC4yIDkuNCA1My4yIDI1LjZsOC40IDEwLjQgOC40LTEwLjRjMTIuOS0xNi4xIDMyLjUtMjUuNiA1My4yLTI1LjZjMzcuNiAwIDY4LjEgMzAuNSA2OC4xIDY4LjFsMCAzLjJjMCAxOC45LTcuNSAzNy0yMC45IDUwLjRsLTIyLjMgMjIuM3MwIDAgMCAwTDIyNCAzNzkuOXMwIDAgMCAwczAgMCAwIDBsLTg2LjQtODYuNHMwIDAgMCAwbC0yMi4zLTIyLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-heart.svg)
  */
 const SquareHeart: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `joint` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/joint?s=sharp-solid joint}
- * @preview ![joint](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDBsNjQgMCAwIDQzYzAgMzguMiAxNS4yIDc0LjggNDIuMiAxMDEuOGwyMSAyMWMyMSAyMSAzMi44IDQ5LjUgMzIuOCA3OS4ybDAgNDMtNjQgMCAwLTQzYzAtMTIuNy01LjEtMjQuOS0xNC4xLTMzLjlsLTIxLTIxQzQwNS45IDE1MS4xIDM4NCA5OC4xIDM4NCA0M2wwLTQzek02NDAgMjg4bC02NCAwIDAtNDNjMC0zOC4yLTE1LjItNzQuOC00Mi4yLTEwMS44bC0yMS0yMWMtMjEtMjEtMzIuOC00OS41LTMyLjgtNzkuMmwwLTQzIDY0IDAgMCA0M2MwIDEyLjcgNS4xIDI0LjkgMTQuMSAzMy45bDIxIDIxYzM5IDM5IDYwLjkgOTEuOSA2MC45IDE0Ny4xbDAgNDN6TTAgNDMyczg5LjYtNjQgMjM0LjYtNzcuNUwzNjUuOCA1MTIgMjg4IDUxMkMxMTIgNTEyIDAgNDMyIDAgNDMyem00NjQgODBsLTU2LjUgMEwyNzQuMyAzNTIuMmM0LjUtLjEgOS4xLS4yIDEzLjctLjJsNDggMCA1Ni41IDBMNTI1LjggNTEyIDQ2NCA1MTJ6bTEwMy41IDBMNDM0LjIgMzUyIDY0MCAzNTJsMCAxNjAtMTYgMC01Ni41IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![joint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/joint.svg)
  */
 const Joint: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

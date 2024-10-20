@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building?s=sharp-light building}
- * @preview ![building](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMCA0NDggOTYgMCAwLTgwIDAtMzIgMzIgMCA2NCAwIDMyIDAgMCAzMiAwIDgwIDk2IDAgMC00NDhMMzIgMzJ6TTE2MCA0ODBsNjQgMCAwLTgwLTY0IDAgMCA4MHptLTMyIDMybC05NiAwTDAgNTEybDAtMzJMMCAzMiAwIDAgMzIgMCAzNTIgMGwzMiAwIDAgMzIgMCA0NDggMCAzMi0zMiAwLTk2IDAtMzIgMC02NCAwLTMyIDB6TTY0IDk2bDE2IDAgNjQgMCAxNiAwIDAgMTYgMCA2NCAwIDE2LTE2IDAtNjQgMC0xNiAwIDAtMTYgMC02NCAwLTE2em0zMiAzMmwwIDMyIDMyIDAgMC0zMi0zMiAwek0yNDAgOTZsNjQgMCAxNiAwIDAgMTYgMCA2NCAwIDE2LTE2IDAtNjQgMC0xNiAwIDAtMTYgMC02NCAwLTE2IDE2IDB6bTE2IDY0bDMyIDAgMC0zMi0zMiAwIDAgMzJ6TTY0IDIyNGwxNiAwIDY0IDAgMTYgMCAwIDE2IDAgNjQgMCAxNi0xNiAwLTY0IDAtMTYgMCAwLTE2IDAtNjQgMC0xNnptMzIgMzJsMCAzMiAzMiAwIDAtMzItMzIgMHptMTQ0LTMybDY0IDAgMTYgMCAwIDE2IDAgNjQgMCAxNi0xNiAwLTY0IDAtMTYgMCAwLTE2IDAtNjQgMC0xNiAxNiAwem0xNiA2NGwzMiAwIDAtMzItMzIgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![building](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/building.svg)
  */
 const Building: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

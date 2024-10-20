@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-queen` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-queen?s=sharp-regular chess-queen}
- * @preview ![chess-queen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnpNMTUwLjYgODhsLTIwIDBMMTI3IDEwNy43Yy01LjQgMjkuOC0zMS42IDUyLjQtNjMgNTIuNGMtNSAwLTkuOC0uNi0xNC40LTEuNkwzOCAxNTUuOGwtOS4xIDcuNkwxNi42IDE3My42bC0xNS42IDEzIDEwLjIgMTcuNUw5Ny4yIDM1Mmw1NS41IDBMNjkgMjA4YzQxLTEuOCA3Ni4yLTI1LjYgOTQuMi01OS45YzIyIDI2LjggNTUuNCA0My45IDkyLjggNDMuOXM3MC44LTE3LjEgOTIuOC00My45YzE4IDM0LjMgNTMuMiA1OC4xIDk0LjIgNTkuOUwzNTkuMyAzNTJsNTUuNSAwIDg1LjktMTQ3LjkgMTAuMi0xNy41LTE1LjYtMTMtMTIuMi0xMC4yLTkuMS03LjYtMTEuNiAyLjdjLTQuNiAxLjEtOS40IDEuNi0xNC40IDEuNmMtMzEuNCAwLTU3LjUtMjIuNi02My01Mi40TDM4MS40IDg4bC0yMCAwLTE4LjEgMC0xNS40IDAtNi40IDE0Yy0xMS40IDI0LjgtMzYuNSA0Mi02NS41IDQycy01NC4xLTE3LjItNjUuNS00MmwtNi40LTE0LTE1LjQgMC0xOC4xIDB6TTExNi43IDQ2NGwxNi42LTMyIDI0NS42IDAgMTYuNiAzMi0yNzguNyAwek00NDggNDYxLjNMNDA4IDM4NGwtMzA0IDBMNjQgNDYxLjNsMCAyLjcgMCA0OCA0OCAwIDI4OCAwIDQ4IDAgMC00OCAwLTIuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chess-queen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chess-queen.svg)
  */
 const ChessQueen: typeof Icon = x => (
     <Icon {...x}>

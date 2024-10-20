@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `code-branch` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-branch?s=sharp-thin code-branch}
- * @preview ![code-branch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDE2bDAgOTYtOTYgMCAwLTk2IDk2IDB6TTMyIDBMMTYgMGwwIDE2IDAgOTYgMCAxNiAxNiAwIDQwIDAgMCAyMjQgMCAxNiAwIDE2LTQwIDAtMTYgMCAwIDE2IDAgOTYgMCAxNiAxNiAwIDk2IDAgMTYgMCAwLTE2IDAtOTYgMC0xNi0xNiAwLTQwIDAgMC0xNiAwLTE2YzAtNDguNiAzOS40LTg4IDg4LTg4bDk2IDBjNTcuNCAwIDEwNC00Ni42IDEwNC0xMDRsMC0zMiA0MCAwIDE2IDAgMC0xNiAwLTk2IDAtMTZMNDE2IDAgMzIwIDAgMzA0IDBsMCAxNiAwIDk2IDAgMTYgMTYgMCA0MCAwIDAgMzJjMCA0OC42LTM5LjQgODgtODggODhsLTk2IDBjLTM3LjEgMC02OS42IDE5LjQtODggNDguNUw4OCAxMjhsNDAgMCAxNiAwIDAtMTYgMC05NiAwLTE2TDEyOCAwIDMyIDB6TTMyMCAxNmw5NiAwIDAgOTYtOTYgMCAwLTk2ek0zMiA0MDBsOTYgMCAwIDk2LTk2IDAgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![code-branch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/code-branch.svg)
  */
 const CodeBranch: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

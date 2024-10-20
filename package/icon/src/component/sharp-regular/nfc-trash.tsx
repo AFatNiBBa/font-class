@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-trash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-trash?s=sharp-regular nfc-trash}
- * @preview ![nfc-trash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDgwTDQ4IDgwbDAgMzUyIDMzMC4yIDAgMy40IDQ4TDQ4IDQ4MCAwIDQ4MGwwLTQ4TDAgODAgMCAzMmw0OCAwIDM1MiAwIDQ4IDAgMCA0OCAwIDgwLTEzLjcgMC0xNiAzMkw0MDAgMTkybDAtMTEyek0zNTIgMTkybDAgOTYgMTUuOSAwIC4xIDEuMSAwIDg2LjkgMCAyNC0yNCAwLTI0MCAwLTI0IDAgMC0yNCAwLTI0MCAwLTI0IDI0IDAgMzIgMCAyNCAwIDAgNDgtMjQgMC04IDAgMCAxOTIgMTkyIDAgMC0xOTItNzIgMCAwIDU0LjRjMTQuMyA4LjMgMjQgMjMuOCAyNCA0MS42YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4YzAtMTcuOCA5LjctMzMuMyAyNC00MS42bDAtNzguNCAwLTI0IDI0IDAgMTIwIDAgMjQgMCAwIDI0IDAgNTYtMTYgMHptMTAyLjEgMGw5LjkgMCA5NiAwIDkuOSAwIDQuNCA4LjhMNTg1LjkgMjI0bDM4LjEgMCAxNiAwIDAgMzItMTYgMC00OCAwLTEyOCAwLTQ4IDAtMTYgMCAwLTMyIDE2IDAgMzguMSAwIDExLjYtMjMuMiA0LjQtOC44ek02MDggNTEybC0xOTIgMEw0MDAgMjg4bDIyNCAwTDYwOCA1MTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![nfc-trash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/nfc-trash.svg)
  */
 const NfcTrash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

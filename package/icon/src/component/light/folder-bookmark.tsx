@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-bookmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-bookmark?s=light folder-bookmark}
- * @preview ![folder-bookmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgOTZsMCAzMjBjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzg0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0yNTZjMC0xNy43LTE0LjMtMzItMzItMzJsLTMyIDAgMCAxNzZjMCA1LjUtMi45IDEwLjctNy42IDEzLjZzLTEwLjYgMy4yLTE1LjYgLjdMMzM2IDI4OS45bC01Ni44IDI4LjRjLTUgMi41LTEwLjkgMi4yLTE1LjYtLjdzLTcuNi04LjEtNy42LTEzLjZsMC0xODdjLTMuMy0yLjMtNi41LTQuOC05LjQtNy43TDIxMC43IDczLjRjLTYtNi0xNC4xLTkuNC0yMi42LTkuNEw2NCA2NEM0Ni4zIDY0IDMyIDc4LjMgMzIgOTZ6bTM1MiAzMmwtOTIuMSAwYy0xLjMgMC0yLjYgMC0zLjktLjFsMCAxNTAuMiA0MC44LTIwLjRjNC41LTIuMyA5LjgtMi4zIDE0LjMgMEwzODQgMjc4LjEgMzg0IDEyOHptMTYtMzJsNDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDI1NmMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZDMCA2MC43IDI4LjcgMzIgNjQgMzJsMTI0LjEgMGMxNyAwIDMzLjMgNi43IDQ1LjMgMTguN2wzNS45IDM1LjljNiA2IDE0LjEgOS40IDIyLjYgOS40TDQwMCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![folder-bookmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/folder-bookmark.svg)
  */
 const FolderBookmark: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-ski-jumping` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-ski-jumping?s=sharp-light person-ski-jumping}
- * @preview ![person-ski-jumping](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDU2YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6bS04MCAwYTU2IDU2IDAgMSAxIDExMiAwQTU2IDU2IDAgMSAxIDM1MiA1NnpNMTEyIDk2bDE2IDAgMTYwIDAgMTYgMCA2LjYgMCA0LjcgNC43IDMyIDMyIDQuNyA0LjcgMCA2LjYgMCAxNiAwIDEwLjYtOS44IDQuMUwyMDcgMjMxLjVjLTEuNiAyLjQtMyA0LjktNC4yIDcuNUwxNDIuNiAzNzQuNWwtNi41IDE0LjYtMjkuMi0xMyA2LjUtMTQuNiA2MC4yLTEzNS40YzMuMi03LjEgNy4zLTEzLjcgMTIuNC0xOS42TDI1My4yIDEyOCAxMjggMTI4bC0xNiAwIDAtMzJ6bTE4My40IDMybC00Mi41IDQ5LjYgNjYuMi0yNy44TDI5Ny40IDEyOGwtMiAwek01MTIgMTc2bDAgMTYgMCA1NiAwIDkuNy04LjcgNC41LTQ4MCAyNDhMOC43IDQ4MS44IDQ4MCAyMzguM2wwLTQ2LjMgMC0xNiAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-ski-jumping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-ski-jumping.svg)
  */
 const PersonSkiJumping: typeof Icon = x => (
     <Icon {...x}>

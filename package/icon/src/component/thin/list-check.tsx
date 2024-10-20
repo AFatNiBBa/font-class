@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `list-check` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-check?s=thin list-check}
- * @preview ![list-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU3LjcgNTMuN2MzLjEtMy4xIDMuMS04LjIgMC0xMS4zcy04LjItMy4xLTExLjMgMEw2My41IDEyNS4yIDIxLjEgODkuOWMtMy40LTIuOC04LjQtMi40LTExLjMgMXMtMi40IDguNCAxIDExLjNsNDggNDBjMy4yIDIuNiA3LjkgMi40IDEwLjgtLjVsODgtODh6bTAgMTYwYzMuMS0zLjEgMy4xLTguMiAwLTExLjNzLTguMi0zLjEtMTEuMyAwTDYzLjUgMjg1LjIgMjEuMSAyNDkuOWMtMy40LTIuOC04LjQtMi40LTExLjMgMXMtMi40IDguNCAxIDExLjNsNDggNDBjMy4yIDIuNiA3LjkgMi40IDEwLjgtLjVsODgtODh6TTIwMCA5NmMwIDQuNCAzLjYgOCA4IDhsMjg4IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMMjA4IDg4Yy00LjQgMC04IDMuNi04IDh6bTAgMTYwYzAgNC40IDMuNiA4IDggOGwyODggMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtMjg4IDBjLTQuNCAwLTggMy42LTggOHpNMTY4IDQxNmMwIDQuNCAzLjYgOCA4IDhsMzIwIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTMyMCAwYy00LjQgMC04IDMuNi04IDh6bS04OCAwYTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![list-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/list-check.svg)
  */
 const ListCheck: typeof Icon = x => (
     <Icon {...x}>

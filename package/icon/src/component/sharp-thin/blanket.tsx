@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blanket` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blanket?s=sharp-thin blanket}
- * @preview ![blanket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAzMkwwIDMybDAgOEwwIDMwNGwwIDggMCA4TDAgNDcybDAgOCA4IDAgNDMyIDAgOCAwIDAtMTYtOCAwTDE2IDQ2NGwwLTE0NCA0MTYgMCAwIDY0TDg4IDM4NGwtOCAwIDAgMTYgOCAwIDM1MiAwIDggMCAwLTggMC03MiAwLTggMC04IDAtMjY0IDAtOC04IDBMOCAzMnpNNDMyIDMwNEwxNiAzMDQgMTYgNDhsNDE2IDAgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![blanket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/blanket.svg)
  */
 const Blanket: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

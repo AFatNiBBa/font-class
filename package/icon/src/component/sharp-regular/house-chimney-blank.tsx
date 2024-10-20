@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-chimney-blank` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-blank?s=sharp-regular house-chimney-blank}
- * @preview ![house-chimney-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAzLjUgMTMuN0wyODggLjUgMjcyLjUgMTMuN2wtMjY0IDIyNCAzMS4xIDM2LjZMNjQgMjUzLjUgNjQgNDg4bDAgMjQgMjQgMCA0MDAgMCAyNCAwIDAtMjQgMC0yMzQuNSAyNC41IDIwLjggMzEuMS0zNi42TDUxMiAxOTAuNmwwLTYuNiAwLTk2IDAtMjQtNDggMCAwIDI0IDAgNjEuOUwzMDMuNSAxMy43ek0xMTIgNDY0bDAtMjUxLjJMMjg4IDYzLjUgNDY0IDIxMi44IDQ2NCA0NjRsLTM1MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-chimney-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-chimney-blank.svg)
  */
 const HouseChimneyBlank: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

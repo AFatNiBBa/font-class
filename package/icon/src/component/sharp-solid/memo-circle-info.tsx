@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `memo-circle-info` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo-circle-info?s=sharp-solid memo-circle-info}
- * @preview ![memo-circle-info](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDBMMCAwIDAgNTEybDMzMC44IDBDMjg1LjYgNDgwLjEgMjU2IDQyNy41IDI1NiAzNjhjMC04MC42IDU0LjEtMTQ4LjUgMTI4LTE2OS40TDM4NCAwek04MCAxMjhsMjI0IDAgMTYgMCAwIDMyLTE2IDBMODAgMTYwbC0xNiAwIDAtMzIgMTYgMHptMCA5NmwxNjAgMCAxNiAwIDAgMzItMTYgMEw4MCAyNTZsLTE2IDAgMC0zMiAxNiAwem0wIDk2bDk2IDAgMTYgMCAwIDMyLTE2IDAtOTYgMC0xNiAwIDAtMzIgMTYgMHpNNDMyIDUxMmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6bTE1LjMtMjI0bDAgMzItMzIgMCAwLTMyIDMyIDB6bTEuMiA2NGwwIDE2IDAgNjQgMTUuNSAwIDAgMzItMTUuNSAwLS41IDAtMzIgMC0xNiAwIDAtMzIgMTYgMCAuNSAwIDAtNDgtLjUgMC0xNiAwIDAtMzIgMTYgMCAxNi41IDAgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![memo-circle-info](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/memo-circle-info.svg)
  */
 const MemoCircleInfo: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

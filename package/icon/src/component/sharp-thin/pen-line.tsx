@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-line?s=sharp-thin pen-line}
- * @preview ![pen-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNC40IDQ5NC40TDAgNTEybDE3LjYtNC40TDE2MCA0NzIgNTAwLjcgMTMxLjMgNTEyIDEyMGwtMTEuMy0xMS4zTDQwMy4zIDExLjMgMzkyIDAgMzgwLjcgMTEuMyA0MCAzNTIgNC40IDQ5NC40ek0yMiA0OTBMNTQuNCAzNjAuMiAzMTMuNyAxMDEgNDExIDE5OC4zIDE1MS44IDQ1Ny42IDIyIDQ5MHpNNDg5LjQgMTIwbC02NyA2N0wzMjUgODkuN2w2Ny02N0w0ODkuNCAxMjB6TTIzMiA0OTZsLTggMCAwIDE2IDggMCAzMzYgMCA4IDAgMC0xNi04IDAtMzM2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pen-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pen-line.svg)
  */
 const PenLine: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

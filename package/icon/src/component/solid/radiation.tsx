@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `radiation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/radiation?s=solid radiation}
- * @preview ![radiation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDE4Ni43Yy0yMy45IDEzLjgtNDAgMzkuNy00MCA2OS4zTDMyIDI1NkMxNC4zIDI1Ni0uMiAyNDEuNiAyIDIyNC4xQzEwLjcgMTU0IDQ3LjggOTIuNyAxMDEuMyA1MmMxNC4xLTEwLjcgMzMuOC01LjMgNDIuNyAxMGw3MiAxMjQuN3pNMjU2IDMzNmMxNC42IDAgMjguMi0zLjkgNDAtMTAuN2w3MiAxMjQuOGM4LjggMTUuMyAzLjcgMzUuMS0xMi42IDQxLjljLTMwLjYgMTIuOS02NC4yIDIwLTk5LjQgMjBzLTY4LjktNy4xLTk5LjQtMjBjLTE2LjMtNi45LTIxLjQtMjYuNi0xMi42LTQxLjlsNzItMTI0LjhjMTEuOCA2LjggMjUuNCAxMC43IDQwIDEwLjd6bTIyNC04MGwtMTQ0IDBjMC0yOS42LTE2LjEtNTUuNS00MC02OS4zTDM2OCA2MmM4LjgtMTUuMyAyOC42LTIwLjcgNDIuNy0xMGM1My42IDQwLjcgOTAuNiAxMDIgOTkuNCAxNzIuMWMyLjIgMTcuNS0xMi40IDMxLjktMzAgMzEuOXpNMjU2IDIwOGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![radiation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/radiation.svg)
  */
 const Radiation: typeof Icon = x => (
     <Icon {...x}>

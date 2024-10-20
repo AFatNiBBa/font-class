@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-xmark?s=thin location-xmark}
- * @preview ![location-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDE5MmMwLTk3LjItNzguOC0xNzYtMTc2LTE3NlMxNiA5NC44IDE2IDE5MmMwIDE4LjcgNi40IDQyLjUgMTcuOCA2OS42YzExLjMgMjYuOSAyNy4xIDU1LjggNDQuNyA4NC4zYzM1LjIgNTcgNzYuOCAxMTEuNCAxMDIuMyAxNDMuMmM1LjkgNy4zIDE2LjYgNy4zIDIyLjQgMGMyNS41LTMxLjggNjcuMS04Ni4yIDEwMi4zLTE0My4yYzE3LjYtMjguNSAzMy40LTU3LjQgNDQuNy04NC4zQzM2MS42IDIzNC41IDM2OCAyMTAuNyAzNjggMTkyem0xNiAwYzAgODcuNC0xMTcgMjQzLTE2OC4zIDMwNy4yYy0xMi4zIDE1LjMtMzUuMSAxNS4zLTQ3LjQgMEMxMTcgNDM1IDAgMjc5LjQgMCAxOTJDMCA4NiA4NiAwIDE5MiAwUzM4NCA4NiAzODQgMTkyek0xMTQuMyAxMTQuM2MzLjEtMy4xIDguMi0zLjEgMTEuMyAwTDE5MiAxODAuN2w2Ni4zLTY2LjNjMy4xLTMuMSA4LjItMy4xIDExLjMgMHMzLjEgOC4yIDAgMTEuM0wyMDMuMyAxOTJsNjYuMyA2Ni4zYzMuMSAzLjEgMy4xIDguMiAwIDExLjNzLTguMiAzLjEtMTEuMyAwTDE5MiAyMDMuM2wtNjYuMyA2Ni4zYy0zLjEgMy4xLTguMiAzLjEtMTEuMyAwcy0zLjEtOC4yIDAtMTEuM0wxODAuNyAxOTJsLTY2LjMtNjYuM2MtMy4xLTMuMS0zLjEtOC4yIDAtMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![location-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/location-xmark.svg)
  */
 const LocationXmark: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

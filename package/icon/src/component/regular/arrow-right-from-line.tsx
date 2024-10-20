@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-right-from-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-from-line?s=regular arrow-right-from-line}
- * @preview ![arrow-right-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODhjMC0xMy4zLTEwLjctMjQtMjQtMjRTMCA3NC43IDAgODhMMCA0MjRjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNEw0OCA4OHpNNDQwLjQgMjczLjVjNC44LTQuNSA3LjYtMTAuOSA3LjYtMTcuNXMtMi43LTEyLjktNy42LTE3LjVsLTEzNi0xMjhjLTkuNy05LjEtMjQuOC04LjYtMzMuOSAxcy04LjYgMjQuOCAxIDMzLjlMMzYzLjUgMjMyIDI4MCAyMzJsLTEyOCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDEyOCAwIDgzLjUgMC05MS45IDg2LjVjLTkuNyA5LjEtMTAuMSAyNC4zLTEgMzMuOXMyNC4zIDEwLjEgMzMuOSAxbDEzNi0xMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-right-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-right-from-line.svg)
  */
 const ArrowRightFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

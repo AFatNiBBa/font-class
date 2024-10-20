@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-cross` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-cross?s=thin arrows-cross}
- * @preview ![arrows-cross](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDMyYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDE0MC43IDBMMi4zIDQ2Ni4zYy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zczguMiAzLjEgMTEuMyAwTDQzMiA1OS4zIDQzMiAyMDBjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTE2MGMwLTQuNC0zLjYtOC04LThMMjgwIDMyek0xMy43IDM0LjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBzLTMuMSA4LjIgMCAxMS4zTDE5MC4xIDIzMy40bDExLjMtMTEuM0wxMy43IDM0LjN6TTQyMC43IDQ2NEwyODAgNDY0Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDE2MCAwYzQuNCAwIDgtMy42IDgtOGwwLTE2MGMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDE0MC43TDI1Ny45IDI3OC42bC0xMS4zIDExLjNMNDIwLjcgNDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-cross](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrows-cross.svg)
  */
 const ArrowsCross: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

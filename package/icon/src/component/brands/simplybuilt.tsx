@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `simplybuilt` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/simplybuilt?s=brands simplybuilt}
- * @preview ![simplybuilt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgxLjIgNjRoLTEwNmMtMTQuNSAwLTI2LjYgMTEuOC0yNi42IDI2LjN2MzkuNkgxNjMuM1Y5MC4zYzAtMTQuNS0xMi0yNi4zLTI2LjYtMjYuM2gtMTA2QzE2LjEgNjQgNC4zIDc1LjggNC4zIDkwLjN2MzMxLjRjMCAxNC41IDExLjggMjYuMyAyNi42IDI2LjNoNDUwLjRjMTQuOCAwIDI2LjYtMTEuOCAyNi42LTI2LjNWOTAuM2MtLjItMTQuNS0xMi0yNi4zLTI2LjctMjYuM3pNMTQ5LjggMzU1LjhjLTM2LjYgMC02Ni40LTI5LjctNjYuNC02Ni40IDAtMzYuOSAyOS43LTY2LjYgNjYuNC02Ni42IDM2LjkgMCA2Ni42IDI5LjcgNjYuNiA2Ni42IDAgMzYuNy0yOS43IDY2LjQtNjYuNiA2Ni40em0yMTIuNCAwYy0zNi45IDAtNjYuNi0yOS43LTY2LjYtNjYuNiAwLTM2LjYgMjkuNy02Ni40IDY2LjYtNjYuNCAzNi42IDAgNjYuNCAyOS43IDY2LjQgNjYuNCAwIDM2LjktMjkuOCA2Ni42LTY2LjQgNjYuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![simplybuilt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/simplybuilt.svg)
  */
 const Simplybuilt: typeof Icon = x => (
     <Icon {...x}>

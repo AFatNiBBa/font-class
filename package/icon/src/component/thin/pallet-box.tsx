@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pallet-box` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pallet-box?s=thin pallet-box}
- * @preview ![pallet-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDE2YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTkyYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0yODggMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xOTJjMC0xNy43IDE0LjMtMzIgMzItMzJsODAgMCAwIDEyMGMwIDMuMSAxLjggNiA0LjcgNy4zczYuMiAuOCA4LjUtMS4yTDMyMCA5OC41bDUwLjggNDMuNWMyLjQgMiA1LjcgMi41IDguNiAxLjJzNC43LTQuMSA0LjctNy4zbDAtMTIwIDgwIDB6TTI3MiAxNmw5NiAwIDAgMTAyLjZMMzI1LjIgODEuOWMtMy0yLjYtNy40LTIuNi0xMC40IDBMMjcyIDExOC42IDI3MiAxNnpNMTc2IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMTkyYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDI4OCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMTkyYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDE3NiAwek0wIDM2MGMwIDQuNCAzLjYgOCA4IDhsNzIgMCAwIDEyOEw4IDQ5NmMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGw4MCAwIDIzMiAwIDIzMiAwIDgwIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTcyIDAgMC0xMjggNzIgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtODAgMC0yMzIgMEw4OCAzNTIgOCAzNTJjLTQuNCAwLTggMy42LTggOHpNOTYgNDk2bDAtMTI4IDIxNiAwIDAgMTI4TDk2IDQ5NnptMjMyIDBsMC0xMjggMjE2IDAgMCAxMjgtMjE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pallet-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pallet-box.svg)
  */
 const PalletBox: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

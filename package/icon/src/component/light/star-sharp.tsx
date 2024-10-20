@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-sharp` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-sharp?s=light star-sharp}
- * @preview ![star-sharp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDQzLjZMMjM5LjIgMTk2LjlDMjM3LjEgMjAzLjUgMjMxIDIwOCAyMjQgMjA4TDc1LjMgMjA4bDEyNiA5MWM1LjUgNCA3LjkgMTEuMSA1LjkgMTcuNkwxNjMuNSA0NjAuNmwxMTQuNy04OS4yYzUuOC00LjUgMTMuOS00LjUgMTkuNiAwbDExNC43IDg5LjJMMzY4LjcgMzE2LjdjLTItNi41IC40LTEzLjYgNS45LTE3LjZsMTI2LTkxTDM1MiAyMDhjLTcgMC0xMy4xLTQuNS0xNS4yLTExLjFMMjg4IDQzLjZ6TTI2Mi4zIDE4LjhDMjY1LjkgNy42IDI3Ni4zIDAgMjg4IDBzMjIuMSA3LjYgMjUuNyAxOC44bDUwIDE1Ny4yIDE1My43IDBjMTQuNyAwIDI2LjYgMTEuOSAyNi42IDI2LjZjMCA4LjUtNC4xIDE2LjYtMTEgMjEuNkw0MDIuNiAzMTguM2w1MC44IDE2N2M0LjEgMTMuMy01LjkgMjYuOC0xOS44IDI2LjhjLTQuNiAwLTkuMS0xLjUtMTIuNy00LjRMMjg4IDQwNC4zIDE1NS4xIDUwNy42Yy0zLjYgMi44LTguMSA0LjQtMTIuNyA0LjRjLTEzLjkgMC0yMy45LTEzLjQtMTkuOC0yNi44bDUwLjgtMTY3TDQzIDIyNC4xYy02LjktNS0xMS0xMy0xMS0yMS42QzMyIDE4Ny45IDQzLjkgMTc2IDU4LjYgMTc2bDE1My43IDAgNTAtMTU3LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![star-sharp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/star-sharp.svg)
  */
 const StarSharp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

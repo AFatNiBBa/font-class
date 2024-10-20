@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-smile-tongue` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-tongue?s=sharp-solid face-smile-tongue}
- * @preview ![face-smile-tongue](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE4LjEgNDU0LjFjLTIuOC0xLjItNS41LTIuNy04LjItNC4ybC02OC4xLTQwLjRDMzE2LjMgNDIzLjggMjg3LjEgNDMyIDI1NiA0MzJjLTg0LjEgMC0xNTQtNTkuNy0xNzUuNS0xMzkuOWwzMC45LTguM0MxMjkuNSAzNTEuNSAxODcuOSA0MDAgMjU2IDQwMHMxMjYuNS00OC41IDE0NC41LTExNi4xbDUuNC0yMC4yTDQyNCAyNzQuMWw2NS43IDM3LjljNSAyLjkgOS42IDYuMiAxMy43IDEwYzUuNi0yMS4xIDguNi00My4yIDguNi02NkM1MTIgMTE0LjYgMzk3LjQgMCAyNTYgMFMwIDExNC42IDAgMjU2UzExNC42IDUxMiAyNTYgNTEyYzYxLjUgMCAxMTgtMjEuNyAxNjIuMS01Ny45em04LjEtMzEuOGMyMi42IDEzLjQgNTEuOCA1LjggNjUtMTdjMTMuMy0yMyA1LjQtNTIuMy0xNy42LTY1LjZsLTQ4LjYtMjguMWMtMTEuNyAzMC40LTMwLjUgNTcuMS01NC41IDc3LjZsNTUuNyAzMy4xek0xNzYgMTUyYzI4IDAgNTYgNDAgNTYgODBjMCAwLTI4LTMyLTU2LTMycy01NiAzMi01NiAzMmMwLTQwIDI4LTgwIDU2LTgwem0xMDQgODBjMC00MCAyOC04MCA1Ni04MHM1NiA0MCA1NiA4MGMwIDAtMjgtMzItNTYtMzJzLTU2IDMyLTU2IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-smile-tongue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-smile-tongue.svg)
  */
 const FaceSmileTongue: typeof Icon = x => (
     <Icon {...x}>

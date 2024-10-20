@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-chart-pie` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-chart-pie?s=regular file-chart-pie}
- * @preview ![file-chart-pie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDQ2NGM4LjggMCAxNi03LjIgMTYtMTZsMC0yODgtODAgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC04MEw2NCA0OGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMzg0YzAgOC44IDcuMiAxNiAxNiAxNmwyNTYgMHpNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjI5LjUgMGMxNyAwIDMzLjMgNi43IDQ1LjMgMTguN2w5MC41IDkwLjVjMTIgMTIgMTguNyAyOC4zIDE4LjcgNDUuM0wzODQgNDQ4YzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA2NHpNMTYwIDI0MC4xYzguNy0xLjUgMTYgNS44IDE2IDE0LjdsMCA2NS4zYzAgOC44IDcuMiAxNiAxNiAxNmw2NCAwYzguOSAwIDE2LjMgNy40IDE0LjYgMTYuMWMtLjUgMi41LTEgNS0xLjcgNy40Yy0xMy43IDUxLjItNjYuNCA4MS42LTExNy42IDY3LjlzLTgxLjYtNjYuNC02Ny45LTExNy42YzEwLTM3LjQgNDAuOC02My43IDc2LjUtNjkuOHptNjMuOS0zMC44YzQwLjMgNi43IDcyIDM4LjUgNzguOCA3OC44YzEuNSA4LjctNS44IDE1LjktMTQuNyAxNS45bC02NCAwYy04LjggMC0xNi03LjItMTYtMTZsMC02NGMwLTguOCA3LjItMTYuMSAxNS45LTE0Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-chart-pie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-chart-pie.svg)
  */
 const FileChartPie: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

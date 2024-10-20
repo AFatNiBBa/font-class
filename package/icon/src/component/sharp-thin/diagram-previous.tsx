@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-previous` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-previous?s=sharp-thin diagram-previous}
- * @preview ![diagram-previous](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDMwNEwxNiAzMDRsMCAxNjAgNDgwIDAgMC0xNjB6bTE2LTE2bDAgMTYgMCAxNjAgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgMzA0bDAtMTYgMTYgMCAyMzIgMCAwLTEyNC43LTUwLjMgNTAuMy01LjcgNS43TDE4MC43IDIwOGw1LjctNS43IDY0LTY0IDUuNy01LjcgNS43IDUuNyA2NCA2NCA1LjcgNS43TDMyMCAyMTkuM2wtNS43LTUuN0wyNjQgMTYzLjMgMjY0IDI4OGwyMzIgMCAxNiAwem0wLTI0OGwwIDE3NiAwIDgtOCAwLTEwNCAwLTggMCAwLTE2IDggMCA5NiAwIDAtMTYwTDE2IDQ4bDAgMTYwIDk2IDAgOCAwIDAgMTYtOCAwTDggMjI0bC04IDAgMC04TDAgNDBsMC04IDggMCA0OTYgMCA4IDAgMCA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![diagram-previous](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/diagram-previous.svg)
  */
 const DiagramPrevious: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-circle-arrow-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-circle-arrow-up?s=thin book-circle-arrow-up}
- * @preview ![book-circle-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYgMEMyNS4xIDAgMCAyNS4xIDAgNTZMMCA0NTZjMCAzMC45IDI1LjEgNTYgNTYgNTZsMzM4LjggMGMtNi45LTQuOS0xMy41LTEwLjItMTkuNi0xNkw1NiA0OTZjLTIyLjEgMC00MC0xNy45LTQwLTQwczE3LjktNDAgNDAtNDBsMjcwLjYgMGMtMS41LTUuMi0yLjctMTAuNi0zLjctMTZMNTYgNDAwYy0xNS43IDAtMjkuOCA2LjQtNDAgMTYuOEwxNiA1NmMwLTIyLjEgMTcuOS00MCA0MC00MGwzNTIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDE2NGM1LjItMiAxMC42LTMuOCAxNi01LjRMNDQ4IDQwYzAtMjIuMS0xNy45LTQwLTQwLTQwTDU2IDB6TTM2OCAzNjhhMTI4IDEyOCAwIDEgMSAyNTYgMCAxMjggMTI4IDAgMSAxIC0yNTYgMHptMjcyIDBhMTQ0IDE0NCAwIDEgMCAtMjg4IDAgMTQ0IDE0NCAwIDEgMCAyODggMHptLTIxMy43LTIuM2MzLjEgMy4xIDguMiAzLjEgMTEuMyAwTDQ4OCAzMTUuMyA0ODggNDQwYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0xMjQuNyA1MC4zIDUwLjNjMy4xIDMuMSA4LjIgMy4xIDExLjMgMHMzLjEtOC4yIDAtMTEuM2wtNjQtNjRjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBsLTY0IDY0Yy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-circle-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/book-circle-arrow-up.svg)
  */
 const BookCircleArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

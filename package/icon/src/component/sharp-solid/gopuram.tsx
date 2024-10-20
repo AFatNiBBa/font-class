@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gopuram` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gopuram?s=sharp-solid gopuram}
- * @preview ![gopuram](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBsMCAyNCAwIDggNDAgMCAwLTggMC0yNCA0OCAwIDAgMjQgMCA4IDQ4IDAgMC04IDAtMjQgNDggMCAwIDI0IDAgOCA0MCAwIDAtOCAwLTI0IDQ4IDAgMCAyNCAwIDggMCAzMiAwIDI0IDAgNDAgMzIgMCAwIDk2IDMyIDAgMCAxMjggMzIgMCAwIDE2MC05NiAwIDAtMTYwLTMyIDAgMC0xMjgtMzIgMCAwLTk2LTMyIDAgMCA5NiAzMiAwIDAgMTI4IDMyIDAgMCAxNjAtODAgMCAwLTQ4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4cy00OCAyMS41LTQ4IDQ4bDAgNDgtODAgMCAwLTE2MCAzMiAwIDAtMTI4IDMyIDAgMC05Ni0zMiAwIDAgOTYtMzIgMCAwIDEyOC0zMiAwIDAgMTYwTDAgNTEyIDAgMzUybDMyIDAgMC0xMjggMzIgMCAwLTk2IDMyIDAgMC00MCAwLTI0IDAtMzIgMC04TDk2IDBsNDggMHpNMjU2IDI3MmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA0OCA2NCAwIDAtNDhjMC0xNy43LTE0LjMtMzItMzItMzJ6bS0zMi04MGwwIDMyIDY0IDAgMC0zMmMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gopuram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gopuram.svg)
  */
 const Gopuram: typeof Icon = x => (
     <Icon {...x}>

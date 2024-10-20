@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sigma` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sigma?s=thin sigma}
- * @preview ![sigma](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNLjcgMzYuN0MyIDMzLjggNC44IDMyIDggMzJsMzQ0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NGMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNkwyNS44IDQ4IDIwNiAyNTAuN2MyLjcgMyAyLjcgNy42IDAgMTAuNkwyNS44IDQ2NCAzNTIgNDY0YzguOCAwIDE2LTcuMiAxNi0xNmwwLTY0YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMkw4IDQ4MGMtMy4yIDAtNi0xLjgtNy4zLTQuN3MtLjgtNi4yIDEuMy04LjZMMTg5LjMgMjU2IDIgNDUuM0MtLjEgNDMtLjYgMzkuNiAuNyAzNi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sigma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sigma.svg)
  */
 const Sigma: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

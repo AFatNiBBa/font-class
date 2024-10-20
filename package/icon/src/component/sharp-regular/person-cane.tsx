@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-cane` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-cane?s=sharp-regular person-cane}
- * @preview ![person-cane](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptLTkxLjEgMzJsLTE0IDBMMTEyIDE0MC4ybC03Ni45IDEzNiA0MS44IDIzLjZMMTI4IDIwOS41IDEyOCA0ODhsMCAyNCA0OCAwIDAtMjQgMC0xMzYgMzIgMCAwIDEzNiAwIDI0IDQ4IDAgMC0yNCAwLTI3My44IDYxLjYgNzMuMyAxNS40IDE4LjQgMzYuNy0zMC45LTE1LjQtMTguNC0xMDAuOS0xMjAtNy4yLTguNi0xMS4yIDAtMTAyLjIgMHpNMjA4IDE3NmwwIDEyOC0zMiAwIDAtMTI4IDMyIDB6TTM2MCAzNjhjNC40IDAgOCAzLjYgOCA4bDAgMTEyIDAgMjQgNDggMCAwLTI0IDAtMTEyYzAtMzAuOS0yNS4xLTU2LTU2LTU2cy01NiAyNS4xLTU2IDU2bDAgOCAwIDI0IDQ4IDAgMC0yNCAwLThjMC00LjQgMy42LTggOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-cane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-cane.svg)
  */
 const PersonCane: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

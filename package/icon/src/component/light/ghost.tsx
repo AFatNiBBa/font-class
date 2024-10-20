@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ghost` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ghost?s=light ghost}
- * @preview ![ghost](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQyLjcgNTA2YzMuMyAzLjggOC4yIDYgMTMuMyA2czkuOS0yLjIgMTMuMy02bDI5LjMtMzMuNGMxMS42LTEzLjMgMzIuMS0xNCA0NC41LTEuNWwyLjMgMi4zYzQuMiA0LjIgMTAgNi42IDE2IDYuNmMxMi41IDAgMjIuNi0xMC4xIDIyLjYtMjIuNkwzODQgMTkyQzM4NCA4NiAyOTggMCAxOTIgMFMwIDg2IDAgMTkyTDAgNDU3LjRDMCA0NjkuOSAxMC4xIDQ4MCAyMi42IDQ4MGM2IDAgMTEuOC0yLjQgMTYtNi42bDIuMy0yLjNjMTIuNS0xMi41IDMyLjktMTEuOCA0NC41IDEuNUwxMTQuNyA1MDZjMy4zIDMuOCA4LjIgNiAxMy4zIDZzOS45LTIuMiAxMy4zLTZsMjYuNi0zMC41YzEyLjctMTQuNiAzNS40LTE0LjYgNDguMiAwTDI0Mi43IDUwNnpNMzIgNDM4LjFMMzIgMTkyYzAtODguNCA3MS42LTE2MCAxNjAtMTYwczE2MCA3MS42IDE2MCAxNjBsMCAyNDYuMWMtMjUuMS0xNC01Ny42LTkuMy03Ny42IDEzLjRMMjU2IDQ3Mi41bC0xNS44LTE4LjFjLTI1LjUtMjkuMS03MC44LTI5LjEtOTYuMyAwTDEyOCA0NzIuNWwtMTguNC0yMS4xQzg5LjYgNDI4LjcgNTcuMSA0MjQgMzIgNDM4LjF6TTE1MiAxOTJhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHptMTA0IDI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ghost](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ghost.svg)
  */
 const Ghost: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

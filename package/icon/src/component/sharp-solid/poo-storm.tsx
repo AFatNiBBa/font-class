@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `poo-storm` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poo-storm?s=sharp-solid poo-storm}
- * @preview ![poo-storm](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDBjNjQgMCAxMTIgNDMgMTEyIDk2YzAgMTEuMi0xLjkgMjItNS41IDMybDUuNSAwYzM1LjMgMCA2NCAyOC43IDY0IDY0YzAgMTIuNy0zLjcgMjQuNi0xMC4xIDM0LjVjNDIuNSA5LjkgNzQuMSA0OCA3NC4xIDkzLjVsMCA2NC05NiAwIDAtNjQtNzYuNSAwIDQwLTEyOC01MSAwTDY0IDM0NC4zIDY0IDM4NCAwIDM4NGwwLTY0YzAtNDUuNSAzMS42LTgzLjYgNzQuMS05My41QzY3LjcgMjE2LjYgNjQgMjA0LjcgNjQgMTkyYzAtMzUuMyAyOC43LTY0IDY0LTY0bDMyIDBDMjcyIDk2IDIwOCAwIDIwOCAwek0xODQgMzg0bC04OCAwIDAtMjRMMjcyIDIyNCAyMzIgMzUybDg4IDAgMCAyNEwxNDQgNTEybDQwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![poo-storm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/poo-storm.svg)
  */
 const PooStorm: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-meatball` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-meatball?s=sharp-solid cloud-meatball}
- * @preview ![cloud-meatball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMjBsOTYgMCAzNi40IDAgMTAuNS0xMC41IDIyLjYtMjIuNiAxMi4xLTEyLjEgMTYuOCAzLjQgMTIuMSAyLjQgNi45LTEwLjMgOS41LTE0LjIgMTcuMSAwIDMyIDAgMTcuMSAwIDkuNSAxNC4yIDYuOSAxMC4zIDEyLjEtMi40IDE2LjgtMy40IDEyLjEgMTIuMSAyMi42IDIyLjZMMzc5LjYgMzIwbDM2LjQgMCA5NiAwIDAtOTZjMC01My00My05Ni05Ni05NmwwLTE2YzAtNDQuMi0zNS44LTgwLTgwLTgwYy0yNC4zIDAtNDYuMSAxMC45LTYwLjggMjhDMjU2LjUgMjQuMyAyMTkuMSAwIDE3NiAwQzExNC4xIDAgNjQgNTAuMSA2NCAxMTJsMCAyMS41QzI2LjcgMTQ2LjYgMCAxODIuMiAwIDIyNGwwIDk2ek0xNzIuMSA0MzQuN2wtNi42IDMzLjEgMjIuNiAyMi42IDMzLjEtNi42TDI0MCA1MTJsMzIgMCAxOC43LTI4LjEgMzMuMSA2LjYgMjIuNi0yMi42LTYuNi0zMy4xTDM2OCA0MTZsMC0zMi0yOC4xLTE4LjcgNi42LTMzLjEtMjIuNi0yMi42LTMzLjEgNi42TDI3MiAyODhsLTMyIDAtMTguNyAyOC4xLTMzLjEtNi42LTIyLjYgMjIuNiA2LjYgMzMuMUwxNDQgMzg0bDAgMzIgMjguMSAxOC43ek00OCA0NDhhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em00MTYgMGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cloud-meatball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-meatball.svg)
  */
 const CloudMeatball: typeof Icon = x => (
     <Icon {...x}>

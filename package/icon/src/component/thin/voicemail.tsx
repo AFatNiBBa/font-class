@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `voicemail` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/voicemail?s=thin voicemail}
- * @preview ![voicemail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDM2OGExMjggMTI4IDAgMSAwIDAtMjU2IDEyOCAxMjggMCAxIDAgMCAyNTZ6TTI4OCAyNDBjMCA1NS43LTMxLjcgMTA0LjEtNzggMTI4TDQzMCAzNjhjLTQ2LjMtMjMuOS03OC03Mi4zLTc4LTEyOGMwLTc5LjUgNjQuNS0xNDQgMTQ0LTE0NHMxNDQgNjQuNSAxNDQgMTQ0cy02NC41IDE0NC0xNDQgMTQ0bC0zNTIgMEM2NC41IDM4NCAwIDMxOS41IDAgMjQwUzY0LjUgOTYgMTQ0IDk2czE0NCA2NC41IDE0NCAxNDR6TTQ5NiAzNjhhMTI4IDEyOCAwIDEgMCAwLTI1NiAxMjggMTI4IDAgMSAwIDAgMjU2ek0xNDQgMzA0YTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4em0wLTE0NGE4MCA4MCAwIDEgMSAwIDE2MCA4MCA4MCAwIDEgMSAwLTE2MHptNDE2IDgwYTY0IDY0IDAgMSAwIC0xMjggMCA2NCA2NCAwIDEgMCAxMjggMHptLTE0NCAwYTgwIDgwIDAgMSAxIDE2MCAwIDgwIDgwIDAgMSAxIC0xNjAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![voicemail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/voicemail.svg)
  */
 const Voicemail: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `question` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/question?s=regular question}
- * @preview ![question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTYwYzAtNDQuMiAzNS44LTgwIDgwLTgwbDMyIDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCA0LjZjMCAyNC4xLTEyIDQ2LjYtMzIuMSA1OS45bC01Mi4zIDM0LjlDMTQ5LjQgMjc0LjIgMTM2IDI5OS4yIDEzNiAzMjZsMCAyYzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0yYzAtMTAuNyA1LjMtMjAuNyAxNC4yLTI2LjZsNTIuMy0zNC45YzMzLjQtMjIuMyA1My40LTU5LjcgNTMuNC05OS44bDAtNC42YzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4bC0zMiAwQzczLjMgMzIgMTYgODkuMyAxNiAxNjBjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNHptOTYgMzIwYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/question.svg)
  */
 const Question: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

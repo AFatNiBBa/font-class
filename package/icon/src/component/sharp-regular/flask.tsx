@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flask` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask?s=sharp-regular flask}
- * @preview ![flask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDIxNC45TDI3MiA0OGwtOTYgMCAwIDE2Ni45IDAgMTMuNi03LjEgMTEuNkwxMTkuNyAzMjBsMjA4LjYgMC00OS4yLTc5LjlMMjcyIDIyOC41bDAtMTMuNnpNMzIwIDQ4bDAgMTY2LjkgMTI4IDIwOCAwIDQxLjEgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4IDAtNDEuMSAxMjgtMjA4TDEyOCA0OGwtOCAwTDk2IDQ4IDk2IDBsMjQgMCA4IDAgNDggMCA5NiAwIDQ4IDAgOCAwIDI0IDAgMCA0OC0yNCAwLTggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![flask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/flask.svg)
  */
 const Flask: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-polaroid` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-polaroid?s=sharp-solid camera-polaroid}
- * @preview ![camera-polaroid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAxODIuMyA1OC42IDg3LjkgNS40IDguMSAwIDkuNyAwIDk2IDAgMzItMzIgMEwzMiA0ODAgMCA0ODBsMC0zMiAwLTk2IDAtOS43IDUuNC04LjFMNjQgMjQ2LjMgNjQgNjRsMC0zMnpNMjg4IDI1NmE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHpNMzg0IDk2bDAgNjQgNjQgMCAwLTY0LTY0IDB6TTExMiAzODRsLTE2IDAgMCAzMiAxNiAwIDM1MiAwIDE2IDAgMC0zMi0xNiAwLTM1MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![camera-polaroid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/camera-polaroid.svg)
  */
 const CameraPolaroid: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

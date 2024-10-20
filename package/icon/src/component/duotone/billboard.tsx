@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `billboard` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/billboard?s=duotone billboard}
- * @preview ![billboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xNjAgMTYwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyIDAgMzIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwwLTMyIDAtNjRjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJsMCA2NCAwIDMyYy0xNy43IDAtMzIgMTQuMy0zMiAzMnpNMjg4IDQxNmwwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC02NC02NCAwem02NC0yNTZjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzIgMCAzMiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybDAtMzIgMC02NGMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDY0IDAgMzJjLTE3LjcgMC0zMiAxNC4zLTMyIDMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTkyIDMyTDgwIDMyQzUzLjUgMzIgMzIgNTMuNSAzMiA4MGwwIDI3MmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmw0OCAwIDQ4MCAwIDQ4IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJsMC0yNzJjMC0yNi41LTIxLjUtNDgtNDgtNDhMNDQ4IDMybDAgNjQgOTYgMCAwIDI1Nkw5NiAzNTIgOTYgOTZsOTYgMCAwLTY0em02NCA2NGwxMjggMCAwLTY0TDI1NiAzMmwwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![billboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/billboard.svg)
  */
 const Billboard: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M160 160c0 17.7 14.3 32 32 32l32 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-32 0-64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64 0 32c-17.7 0-32 14.3-32 32zM288 416l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64-64 0zm64-256c0 17.7 14.3 32 32 32l32 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-32 0-64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64 0 32c-17.7 0-32 14.3-32 32z" />
-            <path d="M192 32L80 32C53.5 32 32 53.5 32 80l0 272c-17.7 0-32 14.3-32 32s14.3 32 32 32l48 0 480 0 48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-272c0-26.5-21.5-48-48-48L448 32l0 64 96 0 0 256L96 352 96 96l96 0 0-64zm64 64l128 0 0-64L256 32l0 64z" />
+        <path d="M192 32L80 32C53.5 32 32 53.5 32 80l0 272c-17.7 0-32 14.3-32 32s14.3 32 32 32l48 0 480 0 48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-272c0-26.5-21.5-48-48-48L448 32l0 64 96 0 0 256L96 352 96 96l96 0 0-64zm64 64l128 0 0-64L256 32l0 64z" />
     </Icon>
 );
 

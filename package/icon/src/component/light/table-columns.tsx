@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-columns` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-columns?s=light table-columns}
- * @preview ![table-columns](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDY0YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNjRMMzIgMTYwbDAtNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMzg0IDB6TTMyIDQxNmwwLTIyNCAyMDggMCAwIDI1Nkw2NCA0NDhjLTE3LjcgMC0zMi0xNC4zLTMyLTMyem0yNDAgMzJsMC0yNTYgMjA4IDAgMCAyMjRjMCAxNy43LTE0LjMgMzItMzIgMzJsLTE3NiAwek02NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![table-columns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/table-columns.svg)
  */
 const TableColumns: typeof Icon = x => (
     <Icon {...x}>

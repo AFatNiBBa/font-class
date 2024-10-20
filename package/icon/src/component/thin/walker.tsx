@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `walker` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/walker?s=thin walker}
- * @preview ![walker](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg1LjYgMTZMMzI4IDE2YzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgMTIwTDk2LjggMTkyIDEzMS40IDU4YzYuNC0yNC43IDI4LjctNDIgNTQuMi00MnpNMzg0IDIwOGwwIDIxMC43Yy0xOC42IDYuNi0zMiAyNC40LTMyIDQ1LjNjMCAyNi41IDIxLjUgNDggNDggNDhzNDgtMjEuNSA0OC00OHMtMjEuNS00OC00OC00OGwwLTM0NGMwLTM5LjgtMzIuMi03Mi03Mi03MkwxODUuNiAwYy0zMi44IDAtNjEuNSAyMi4yLTY5LjcgNTRMLjMgNTAyYy0xLjEgNC4zIDEuNSA4LjYgNS43IDkuN3M4LjYtMS41IDkuNy01LjdMOTIuNyAyMDggMzg0IDIwOHptMTYgMjI0YTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![walker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/walker.svg)
  */
 const Walker: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

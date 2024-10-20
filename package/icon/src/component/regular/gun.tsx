@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gun` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun?s=regular gun}
- * @preview ![gun](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDU2YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgOEw0MCA2NEMxNy45IDY0IDAgODEuOSAwIDEwNGwwIDk2YzAgMjIuMSAxNy45IDQwIDQwIDQwbDIgMGMyMC44IDAgMzYuMSAxOS42IDMxIDM5LjhMMzMgNDQwLjJjLTIuNCA5LjYtLjIgMTkuNyA1LjggMjcuNVM1NC4xIDQ4MCA2NCA0ODBsMTEyIDBjMTQuNyAwIDI3LjUtMTAgMzEtMjQuMkwyMzMgMzUybDg4LjUgMGMyMy43IDAgNDQuOC0xNC45IDUyLjctMzcuMkw0MDAuOSAyNDBsMzIuNSAwYzEwLjYgMCAyMC44LTQuMiAyOC4zLTExLjdMNDgxLjkgMjA4bDU0LjEgMGMyMi4xIDAgNDAtMTcuOSA0MC00MGwwLTY0YzAtMjIuMS0xNy45LTQwLTQwLTQwbC04IDAgMC04ek0yNDUgMzA0bDE2LTY0IDg5IDAtMjEgNTguN2MtMS4xIDMuMi00LjIgNS4zLTcuNSA1LjNMMjQ1IDMwNHptLTMzLjUtNjRsLTQ4IDE5Mi03OSAwIDM1LjEtMTQwLjZjNC41LTE4LjEgMi41LTM1LjktNC4zLTUxLjRsOTYuMSAwek0yNjcgMTkybC00OCAwTDY4LjggMTkyIDQ4IDE5MmwwLTgwIDQ1NiAwIDI0IDAgMCA0OC00OS40IDBjLTEwLjYgMC0yMC44IDQuMi0yOC4zIDExLjdMNDMwLjEgMTkybC0xNjMgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gun.svg)
  */
 const Gun: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

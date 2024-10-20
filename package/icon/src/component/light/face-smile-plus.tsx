@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-smile-plus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-plus?s=light face-smile-plus}
- * @preview ![face-smile-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYwIDE2bDAgNjQgNjQgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtNjQgMCAwIDY0YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNjQtNjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmw2NCAwIDAtNjRjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNnpNNDE2IDI4OEExOTIgMTkyIDAgMSAwIDMyIDI4OGExOTIgMTkyIDAgMSAwIDM4NCAwek0wIDI4OGEyMjQgMjI0IDAgMSAxIDQ0OCAwQTIyNCAyMjQgMCAxIDEgMCAyODh6bTE0NC40LTcyYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMTM2IDI0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6TTEyNi45IDMzMC4xYzQuNSAxMS4yIDE1LjEgMjkuMSAzMS44IDQ0QzE3NS4xIDM4OC43IDE5Ni44IDQwMCAyMjQgNDAwczQ4LjktMTEuMyA2NS4zLTI1LjljMTYuNy0xNC45IDI3LjMtMzIuOCAzMS44LTQ0YzMuMy04LjIgMTIuNi0xMi4yIDIwLjgtOC45czEyLjIgMTIuNiA4LjkgMjAuOGMtNi4yIDE1LjQtMTkuNSAzNy41LTQwLjIgNTZDMjg5LjggNDE2LjYgMjYwLjggNDMyIDIyNCA0MzJzLTY1LjgtMTUuNC04Ni43LTM0LjFjLTIwLjctMTguNS0zNC00MC42LTQwLjItNTZjLTMuMy04LjIgLjctMTcuNSA4LjktMjAuOHMxNy41IC43IDIwLjggOC45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-smile-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-smile-plus.svg)
  */
 const FaceSmilePlus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

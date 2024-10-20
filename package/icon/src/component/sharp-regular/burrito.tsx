@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burrito` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burrito?s=sharp-regular burrito}
- * @preview ![burrito](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQyIDYyYzguMi0zNS41IDQwLTYyIDc4LTYyYzExLjQgMCAyMi4yIDIuNCAzMiA2LjdDMzYxLjggMi40IDM3Mi42IDAgMzg0IDBjMzQuNiAwIDY0LjEgMjIgNzUuMiA1Mi44QzQ5MCA2My45IDUxMiA5My40IDUxMiAxMjhjMCAxMS40LTIuNCAyMi4yLTYuNyAzMmMyLjcgNi4xIDQuNiAxMi43IDUuNyAxOS42YzYuNiA0MS43LTIwLjQgODEtNjEgOTAuNEwyMDggNTEybC05NiAwTDAgNDAwbDAtOTZMMjQyIDYyek01NC4xIDMxNy44YzE4IDYuNiAzNy41IDEwLjIgNTcuOSAxMC4yYzc1LjYgMCAxMzkuNS00OS45IDE2MC42LTExOC42YzQuOC0xNS42IDcuNC0zMi4yIDcuNC00OS40YzAtMjAuMy0zLjYtMzkuOC0xMC4yLTU3LjlMNTQuMSAzMTcuOHpNNDggMzgwLjFMMTMxLjkgNDY0bDU2LjIgMEw0MDkuOSAyNDIuMmMtMTgtNi42LTM3LjUtMTAuMi01Ny45LTEwLjJjLTEzIDAtMjUuNyAxLjUtMzcuOSA0LjNDMjgzLjMgMzE3LjkgMjA0LjUgMzc2IDExMiAzNzZjLTIyLjMgMC00My44LTMuNC02NC05LjZsMCAxMy44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![burrito](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/burrito.svg)
  */
 const Burrito: typeof Icon = x => (
     <Icon {...x}>

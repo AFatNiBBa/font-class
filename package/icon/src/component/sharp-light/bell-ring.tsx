@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-ring` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-ring?s=sharp-light bell-ring}
- * @preview ![bell-ring](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDBsMzIgMCAwIDMyLjhjODAuOSA4IDE0NCA3Ni4yIDE0NCAxNTkuMmwwIDk3LjQgNTkuMyA1OS4zIDQuNyA0LjcgMCA2LjYgMCA0MCAwIDE2LTE2IDBMNDggNDE2bC0xNiAwIDAtMTYgMC00MCAwLTYuNiA0LjctNC43TDk2IDI4OS40IDk2IDE5MmMwLTgzIDYzLjEtMTUxLjIgMTQ0LTE1OS4yTDI0MCAwem0xNiA2NGMtNzAuNyAwLTEyOCA1Ny4zLTEyOCAxMjhsMCAxMDQgMCA2LjYtNC43IDQuN0w2NCAzNjYuNiA2NCAzODRsMzg0IDAgMC0xNy40LTU5LjMtNTkuMy00LjctNC43IDAtNi42IDAtMTA0YzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4ek0xOTIgNDQ4bDMyIDBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwzMiAwYzAgMzUuMy0yOC43IDY0LTY0IDY0cy02NC0yOC43LTY0LTY0ek0xMTcuMyA0NC4zQzc0LjkgNzkuNSA0OCAxMzIuNiA0OCAxOTJsLTMyIDBDMTYgMTIyLjcgNDcuNSA2MC44IDk2LjkgMTkuN2wyMC41IDI0LjZ6TTQ2Ny4xIDE5MmMwLTU5LjQtMjYuOS0xMTIuNS02OS4zLTE0Ny43bDIwLjUtMjQuNmM0OS40IDQxLjEgODAuOSAxMDMgODAuOSAxNzIuM2wtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bell-ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bell-ring.svg)
  */
 const BellRing: typeof Icon = x => (
     <Icon {...x}>

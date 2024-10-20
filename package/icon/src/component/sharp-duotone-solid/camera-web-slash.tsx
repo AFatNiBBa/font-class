@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `camera-web-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-web-slash?s=sharp-duotone-solid camera-web-slash}
- * @preview ![camera-web-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAyMjRjMCA4MSA0MyAxNTIgMTA3LjUgMTkxLjRMMTI4IDQ3MmwwIDQwIDM4NCAwIDAtMTIuNkwzNTkuNCAzNzkuMWMtMTIuNiAzLjItMjUuOCA0LjktMzkuNCA0LjljLTg4LjQgMC0xNjAtNzEuNi0xNjAtMTYwYzAtLjYgMC0xLjMgMC0xLjlsLTU4LjgtNDYuM0M5Ny44IDE5MS4zIDk2IDIwNy40IDk2IDIyNHpNMTQyLjMgODcuN2w1MC42IDM5LjNDMjIyIDg4LjcgMjY4LjEgNjQgMzIwIDY0Yzg4LjQgMCAxNjAgNzEuNiAxNjAgMTYwYzAgMzcuNS0xMi45IDcxLjktMzQuNCA5OS4ybDUwLjYgMzkuM2MzMC0zOC4xIDQ3LjktODYuMiA0Ny45LTEzOC40QzU0NCAxMDAuMyA0NDMuNyAwIDMyMCAwQzI0Ny42IDAgMTgzLjIgMzQuNCAxNDIuMyA4Ny43em01Mi4yIDE2MS42QzIwNi4yIDMwNy44IDI1Ny45IDM1MiAzMjAgMzUyYzEuNiAwIDMuMiAwIDQuOC0uMUwxOTQuNSAyNDkuMnptMjMuNi0xMDIuN0wyNTYgMTc2YzE0LjYtMTkuNCAzNy44LTMyIDY0LTMybDAgMzJjLTE1LjkgMC0zMCA3LjctMzguNyAxOS42bDEzOSAxMDcuOUM0MzcuNiAyODEuNyA0NDggMjU0LjEgNDQ4IDIyNGMwLTcwLjctNTcuMy0xMjgtMTI4LTEyOGMtNDEuNiAwLTc4LjUgMTkuOC0xMDEuOSA1MC41eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjkuNCAuMWwxOSAxNC43TDYyMC45IDQ1OS4zbDE5IDE0LjctMjkuNCAzNy45LTE5LTE0LjdMMTkgNTIuNyAwIDM4IDI5LjQgLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![camera-web-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/camera-web-slash.svg)
  */
 const CameraWebSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M96 224c0 81 43 152 107.5 191.4L128 472l0 40 384 0 0-12.6L359.4 379.1c-12.6 3.2-25.8 4.9-39.4 4.9c-88.4 0-160-71.6-160-160c0-.6 0-1.3 0-1.9l-58.8-46.3C97.8 191.3 96 207.4 96 224zM142.3 87.7l50.6 39.3C222 88.7 268.1 64 320 64c88.4 0 160 71.6 160 160c0 37.5-12.9 71.9-34.4 99.2l50.6 39.3c30-38.1 47.9-86.2 47.9-138.4C544 100.3 443.7 0 320 0C247.6 0 183.2 34.4 142.3 87.7zm52.2 161.6C206.2 307.8 257.9 352 320 352c1.6 0 3.2 0 4.8-.1L194.5 249.2zm23.6-102.7L256 176c14.6-19.4 37.8-32 64-32l0 32c-15.9 0-30 7.7-38.7 19.6l139 107.9C437.6 281.7 448 254.1 448 224c0-70.7-57.3-128-128-128c-41.6 0-78.5 19.8-101.9 50.5z" />
-            <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
+        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
     </Icon>
 );
 

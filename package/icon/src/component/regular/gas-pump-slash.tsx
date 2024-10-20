@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gas-pump-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gas-pump-slash?s=regular gas-pump-slash}
- * @preview ![gas-pump-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN2wtNjcuMi01Mi43QzU3MS40IDQwNC45IDU3NiAzOTEgNTc2IDM3NmwwLTIyMC4xYzAtMTkuMS03LjYtMzcuNC0yMS4xLTUwLjlMNDgxIDMxYy05LjQtOS40LTI0LjYtOS40LTMzLjkgMHMtOS40IDI0LjYgMCAzMy45bDMzIDMzIDAgNjIuMWMwIDI5LjggMjAuNCA1NC45IDQ4IDYybDAgMTU0YzAgMy44LS45IDcuNC0yLjUgMTAuNkwzODQgMjc1LjcgMzg0IDY0YzAtMzUuMy0yOC43LTY0LTY0LTY0TDE2MCAwYy0zMC45IDAtNTYuNyAyMS45LTYyLjcgNTFMMzguOCA1LjF6TTE0NCA4Ny42TDE0NCA2NGMwLTguOCA3LjItMTYgMTYtMTZsMTYwIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTc0TDE0NCA4Ny42ek0xNDQgNDY0bDAtMjU0LjVMOTYgMTcxLjYgOTYgNDY0bC04IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsOCAwIDQ4IDAgMTkyIDAgNDggMCA4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTggMCAwLTY1LjUtNDgtMzcuOEwzMzYgNDY0bC0xOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gas-pump-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gas-pump-slash.svg)
  */
 const GasPumpSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

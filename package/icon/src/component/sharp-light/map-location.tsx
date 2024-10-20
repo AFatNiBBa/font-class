@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `map-location` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map-location?s=sharp-light map-location}
- * @preview ![map-location](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc2IDEyMGMwIDkuNy00LjYgMjUuNC0xNS4yIDQ2LjJjLTEwLjIgMjAtMjQuMSA0MS4zLTM4LjYgNjEuMmMtMTIgMTYuNS0yNC4xIDMxLjctMzQuMSA0My43Yy0xMC0xMi0yMi4xLTI3LjItMzQuMS00My43Yy0xNC41LTE5LjktMjguNC00MS4yLTM4LjYtNjEuMkMyMDQuNiAxNDUuNCAyMDAgMTI5LjcgMjAwIDEyMGMwLTQ4LjYgMzkuNC04OCA4OC04OHM4OCAzOS40IDg4IDg4em0zMiAwQzQwOCA1My43IDM1NC4zIDAgMjg4IDBTMTY4IDUzLjcgMTY4IDEyMGMwIDUxLjMgNjQuNCAxMzQuNyA5OC44IDE3NS43QzI3OS40IDMxMC43IDI4OCAzMjAgMjg4IDMyMHM4LjYtOS4zIDIxLjItMjQuM0MzNDMuNiAyNTQuNyA0MDggMTcxLjMgNDA4IDEyMHptLTcuNCAxMDUuNWwuNSAuMiA5LjgtMy41TDU0NCAxNzMuN2wwIDI1MS45TDQxNiA0NzIuMSA0MTYgMjg4bC0zMiAwIDAgMTg2LjFMMTkyIDQxOS4zIDE5MiAyODhsLTMyIDAgMCAxMzEuOEwzMiA0NjYuM2wwLTI1MS45IDExNS43LTQyLjFjLTQtMTAtNy4zLTIwLjMtOS40LTMwLjZMMCAxOTIgMCA0NzcuOSAwIDUxMmwzMi0xMS42TDE3NiA0NDhsMjI0IDY0IDE3Ni02NCAwLTI4NiAwLTM0LTMyIDExLjZMNDIzLjUgMTgzLjRjLTEuOSA0LTMuOCA4LTUuOCAxMS45Yy01LjEgMTAuMS0xMSAyMC4yLTE3LjEgMzAuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![map-location](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/map-location.svg)
  */
 const MapLocation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toggle-large-off` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toggle-large-off?s=sharp-thin toggle-large-off}
- * @preview ![toggle-large-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTEybDI4OCAwIDAgMjg4TDE2IDQwMGwwLTI4OHpNMzA0IDQxNmwxNiAwIDI0MCAwIDE2IDAgMC0xNiAwLTI4OCAwLTE2LTE2IDBMMzIwIDk2bC0xNiAwTDE2IDk2IDAgOTZsMCAxNkwwIDQwMGwwIDE2IDE2IDAgMjg4IDB6bTE2LTE2bDAtMjg4IDI0MCAwIDAgMjg4LTI0MCAwek04MCAxNzZsMTYwIDAgMCAxNjBMODAgMzM2bDAtMTYwek02NCAxNjBsMCAxNiAwIDE2MCAwIDE2IDE2IDAgMTYwIDAgMTYgMCAwLTE2IDAtMTYwIDAtMTYtMTYgMEw4MCAxNjBsLTE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![toggle-large-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/toggle-large-off.svg)
  */
 const ToggleLargeOff: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

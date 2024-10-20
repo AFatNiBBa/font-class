@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kiwi-bird` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kiwi-bird?s=solid kiwi-bird}
- * @preview ![kiwi-bird](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkxLjIgMzg4LjRjMzEuMi0xOC44IDY0LjctMzYuNCAxMDEuMS0zNi40bDU1LjcgMGM0LjYgMCA5LjEtLjIgMTMuNi0uN2w4NS4zIDEyMS45YzQgNS43IDExLjMgOC4yIDE3LjkgNi4xczExLjItOC4zIDExLjItMTUuM2wwLTI0MGMwLTcwLjctNTcuMy0xMjgtMTI4LTEyOGwtNTUuNyAwYy0zNi40IDAtNjkuOS0xNy42LTEwMS4xLTM2LjRDMjYyLjMgNDIuMSAyMjguMyAzMiAxOTIgMzJDODYgMzIgMCAxMTggMCAyMjRjMCA3MS4xIDM4LjYgMTMzLjEgOTYgMTY2LjNMOTYgNDU2YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC00NmMxNS4zIDMuOSAzMS40IDYgNDggNmM1LjQgMCAxMC43LS4yIDE2LS43bDAgNDAuN2MwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtNTAuOWMxMi40LTQuNCAyNC4yLTEwIDM1LjItMTYuN3pNNDQ4IDIwMGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![kiwi-bird](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/kiwi-bird.svg)
  */
 const KiwiBird: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

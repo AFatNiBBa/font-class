@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-caret-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-caret-down?s=sharp-light square-caret-down}
- * @preview ![square-caret-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDQ4TDMyIDY0bDM4NCAwIDAgMzg0TDMyIDQ0OHpNMCA0ODBsMzIgMCAzODQgMCAzMiAwIDAtMzIgMC0zODQgMC0zMi0zMiAwTDMyIDMyIDAgMzIgMCA2NCAwIDQ0OGwwIDMyek05NiAxOTJsMCAzMiAwIDhMMjI0IDM1MiAzNTIgMjMybDAtOCAwLTMyLTMyIDAtMTkyIDAtMzIgMHpNMjI0IDMwOC4xTDEzNC4zIDIyNGwxNzkuNSAwTDIyNCAzMDguMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-caret-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-caret-down.svg)
  */
 const SquareCaretDown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

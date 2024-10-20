@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-up-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-up-lock?s=sharp-regular arrow-down-up-lock}
- * @preview ![arrow-down-up-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDUwNS45bDE3LTE3IDg4LTg4IDE3LTE3TDIxNiAzNTAuMWwtMTcgMTctNDcgNDdMMTUyIDI4MGwyNjQgMCAwLThjMC0xNC4xIDIuNi0yNy42IDcuNC00MEwzNDQgMjMybDAtMTM0LjEgNDcgNDcgMTcgMTdMNDQxLjkgMTI4bC0xNy0xN0wzMzcgMjNsLTE3LTE3TDMwMyAyM2wtODggODgtMTcgMTdMMjMyIDE2MS45bDE3LTE3IDQ3LTQ3TDI5NiAyMzJsLTE0NCAwLTQ4IDAtODAgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw4MCAwIDAgMTM0LjFMNTcgMzY3bC0xNy0xN0w2LjEgMzg0bDE3IDE3IDg4IDg4IDE3IDE3ek0xMDQgMTkybDQ4IDAgMC0xMzYgMC0yNC00OCAwIDAgMjQgMCAxMzZ6TTI5NiAzMjBsMCAxMzYgMCAyNCA0OCAwIDAtMjQgMC0xMzYtNDggMHptMjMyLTgwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNDgtNjQgMCAwLTQ4YzAtMTcuNyAxNC4zLTMyIDMyLTMyem0tODAgMzJsMCA0OC0zMiAwIDAgMTkyIDIyNCAwIDAtMTkyLTMyIDAgMC00OGMwLTQ0LjItMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-down-up-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-down-up-lock.svg)
  */
 const ArrowDownUpLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

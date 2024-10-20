@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `head-side-mask` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-mask?s=sharp-duotone-solid head-side-mask}
- * @preview ![head-side-mask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAyMjQuM2MwLTIwLjMgMi43LTM5LjkgNy43LTU4LjZjNzcuNCA1Ny41IDE1NC44IDExNSAyMzIuMyAxNzIuNWMwIDU3LjkgMCAxMTUuOCAwIDE3My44bC0xNDQgMC0zMiAwIDAtMzIgMC05OC44QzU1IDMzOS4zIDMyIDI4MyAzMiAyMjQuM3pNNTggMTE5LjVDOTUuNiA0OC40IDE3MC4zIDAgMjU2LjMgMEwyODggMEMzOTAuMSAwIDQ3My42IDc5LjcgNDc5LjcgMTgwLjNMNTM3IDI1Mmw3IDguOCAwIDExLjIgMCAxNi0yNTkuMSAwQzIwOS4yIDIzMS44IDEzMy42IDE3NS42IDU4IDExOS41ek0zNTIgMTkyYTMyIDMyIDAgMSAwIDY0IDAgMzIgMzIgMCAxIDAgLTY0IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zNSAxMDIuNGwxOS4zIDE0LjNMMjg0LjkgMjg4IDU0NCAyODhsMCAzMi0xNiA0OC0xNjAgMC0xNiAwIDAgMzIgMTYgMCAxNDkuMyAwLTEwLjcgMzJMMzY4IDQzMmwtMTYgMCAwIDMyIDE2IDAgMTI4IDAtMTYgNDgtMjA4IDAgMC0xNzMuOEwyNS43IDE1NS4zIDYuNCAxNDEgMzUgMTAyLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![head-side-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/head-side-mask.svg)
  */
 const HeadSideMask: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M32 224.3c0-20.3 2.7-39.9 7.7-58.6c77.4 57.5 154.8 115 232.3 172.5c0 57.9 0 115.8 0 173.8l-144 0-32 0 0-32 0-98.8C55 339.3 32 283 32 224.3zM58 119.5C95.6 48.4 170.3 0 256.3 0L288 0C390.1 0 473.6 79.7 479.7 180.3L537 252l7 8.8 0 11.2 0 16-259.1 0C209.2 231.8 133.6 175.6 58 119.5zM352 192a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-            <path d="M35 102.4l19.3 14.3L284.9 288 544 288l0 32-16 48-160 0-16 0 0 32 16 0 149.3 0-10.7 32L368 432l-16 0 0 32 16 0 128 0-16 48-208 0 0-173.8L25.7 155.3 6.4 141 35 102.4z" />
+        <path d="M35 102.4l19.3 14.3L284.9 288 544 288l0 32-16 48-160 0-16 0 0 32 16 0 149.3 0-10.7 32L368 432l-16 0 0 32 16 0 128 0-16 48-208 0 0-173.8L25.7 155.3 6.4 141 35 102.4z" />
     </Icon>
 );
 

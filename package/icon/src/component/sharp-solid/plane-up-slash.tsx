@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-up-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-up-slash?s=sharp-solid plane-up-slash}
- * @preview ![plane-up-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDkzLjdDMjU2IDU5LjUgMjg1IDAgMzIwIDBjMzYgMCA2NCA1OS41IDY0IDkzLjdsMCA2Ni4zTDU3NiAyODhsMCA5Ni05MS4yLTMwLjRMNjIwLjkgNDU5LjNsMTkgMTQuNy0yOS40IDM3LjktMTktMTQuN0wxOSA1Mi43IDAgMzggMjkuNCAuMWwxOSAxNC43TDI0NC45IDE2Ny40IDI1NiAxNjBsMC02Ni4zek00NDggNDQ5bDAgNjNMMzIwIDQ4MCAxOTIgNTEybDAtNjQgNjQtNDggMC04MEw2NCAzODRsMC05NiA5Ny4zLTY0LjlMMzg0IDM5OC41bDAgMS41IDM4LjQgMjguOEw0NDggNDQ5eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![plane-up-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plane-up-slash.svg)
  */
 const PlaneUpSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

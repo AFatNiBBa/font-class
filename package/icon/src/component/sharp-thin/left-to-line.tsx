@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `left-to-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-to-line?s=sharp-thin left-to-line}
- * @preview ![left-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDQwbDAgOEwwIDQ0OGwwLThMMCA3MmwwLTggMTYgMCAwIDggMCAzNjh6TTI4OCAzMjBsMCAxNiAwIDY0IDAgMTYtMTYgMC0xNiAwTDEwNy4zIDI2Ny4zIDk2IDI1NmwxMS4zLTExLjNMMjU2IDk2bDE2IDAgMTYgMCAwIDE2IDAgNjQgMCAxNiAxNiAwIDEyOCAwIDE2IDAgMCAxNiAwIDk2IDAgMTYtMTYgMC0xMjggMC0xNiAwem0tMTYgMGwwLTE2IDE2IDAgMTQ0IDAgMC05Ni0xNDQgMC0xNiAwIDAtMTYgMC04MC05LjQgMC0xNDQgMTQ0IDE0NCAxNDQgOS40IDAgMC04MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![left-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/left-to-line.svg)
  */
 const LeftToLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

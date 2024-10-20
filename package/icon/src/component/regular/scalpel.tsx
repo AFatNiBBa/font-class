@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scalpel` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scalpel?s=regular scalpel}
- * @preview ![scalpel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIxLjQgNTkuMmM1LjEtNi4xIDEzLTkuMiAyMC45LTguNUM0NTQuNiA1MiA0NjQgNjIuNCA0NjQgNzQuN2MwIDUuOS0yLjIgMTEuNi02LjEgMTZMMzI1LjEgMjQwbC01Ni4zIDBMNDIxLjQgNTkuMnpNMjI3LjcgMjg4bC43IDAgOTYuOCAwYzEzLjcgMCAyNi44LTUuOSAzNS45LTE2LjFMNDkzLjggMTIyLjZDNTA1LjUgMTA5LjQgNTEyIDkyLjMgNTEyIDc0LjdjMC0zNy0yOC4xLTY4LTY0LjktNzEuN2MtMjMuNy0yLjQtNDcgNy4xLTYyLjQgMjUuM0wyMDYuMSAyNDBsLS40IC41LTUuNiA2LjctMTIuMiAxNC41Yy00IDQuOC00LjkgMTEuNC0yLjMgMTcuMXM4LjMgOS4zIDE0LjUgOS4zbDE5IDAgOC44IDB6bS02MyAzNi43bC0xNjAgMTYwYy00LjYgNC42LTUuOSAxMS41LTMuNSAxNy40czguMyA5LjkgMTQuOCA5LjljMTguMSAwIDg0LjEtOC40IDE0NS45LTMzLjFDMjIyLjUgNDU0LjYgMjg4IDQxMC45IDI4OCAzMzZsMC0xNi0xNiAwLTk2IDAtNi42IDAtNC43IDQuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scalpel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/scalpel.svg)
  */
 const Scalpel: typeof Icon = x => (
     <Icon {...x}>

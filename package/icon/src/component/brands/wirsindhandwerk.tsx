@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wirsindhandwerk` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wirsindhandwerk?s=brands wirsindhandwerk}
- * @preview ![wirsindhandwerk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTAuNzcxNjEsNDc5LjgxMjEzaDgzLjM2MDcxVjM2Ny44NDc0MWwtODMuMzYwNzEsNDcuMDA5Wm0zMjkuMDQ2NzUsMGg4Mi4zNTAyMlY0MTQuODU2NDVsLTgyLjM1MDIyLTQ3LjAwOVptLjAwNTY4LTQ0OFYyNTEuNTY4TDI1Ni4xNzU5LDE3OS4xODYxLDEzNC41MDM3OCwyNTEuNTY4VjMxLjgxMjEzSDUwLjc3MTYxVjM5Mi42MDU2NUwyNTYuMTc1OSwyNzAuMzE5MDksNDYyLjE2ODU4LDM5Mi42MDU2NVYzMS44MTIxM1oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wirsindhandwerk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/wirsindhandwerk.svg)
  */
 const Wirsindhandwerk: typeof Icon = x => (
     <Icon {...x}>

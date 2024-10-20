@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fish-bones` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish-bones?s=sharp-thin fish-bones}
- * @preview ![fish-bones](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjIuMSAyNDhsODEuOSAwIDAtODggMC04IDE2IDAgMCA4IDAgODggODAgMCAwLTg4IDAtOCAxNiAwIDAgOCAwIDg4IDgwIDAgMC04OCAwLTggMTYgMCAwIDggMCA4OCA2NCAwIDAtMTIwIDAtMTYgMTYgMCAxNiAwTDU3NiAyNTYgNDQ4IDQwMGwtMTYgMC0xNiAwIDAtMTYgMC0xMjAtNjQgMCAwIDg4IDAgOC0xNiAwIDAtOCAwLTg4LTgwIDAgMCA4OCAwIDgtMTYgMCAwLTggMC04OC04MCAwIDAgODggMCA4LTE2IDAgMC04IDAtODgtODEuOSAwTDE4LjYgMzgwIDM0IDM5NS40bDYyLTQxLjMgMCAxOS4yTDMyIDQxNiAwIDM4NCA0OCAyNTYgMCAxMjggMzIgOTZsNjQgNDIuNyAwIDE5LjJMMzQgMTE2LjYgMTguNiAxMzIgNjIuMSAyNDh6TTQzMiAyNjRsMCAxMjAgOC44IDBMNTU0LjYgMjU2IDQ0MC44IDEyOGwtOC44IDAgMCAxMjAgMCAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fish-bones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fish-bones.svg)
  */
 const FishBones: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

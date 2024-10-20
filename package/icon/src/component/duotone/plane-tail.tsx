@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `plane-tail` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-tail?s=duotone plane-tail}
- * @preview ![plane-tail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0uOCAzOUw2MS41IDMwOC44YzU5LjktMTYuNSAxMTkuOC0zMy4xIDE3OS44LTQ5LjZjNy42LTIuMSAxNS41LTMuMiAyMy40LTMuMkwzODQgMjU2IDE1NC45IDE5LjVDMTQyLjggNyAxMjYuMiAwIDEwOC45IDBMMzIgMEMxMS41IDAtMy43IDE5IC44IDM5eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNTEyIDQ2NGwwLTE2MCAwLTI0IDAtMjQtMjQgMC0yMjMuMyAwYy03LjkgMC0xNS44IDEuMS0yMy40IDMuMkw0NS45IDMxMy4xQzE4LjggMzIwLjUgMCAzNDUuMiAwIDM3My40YzAgMjYgMTYuMSA0OS4zIDQwLjQgNTguNWwxOTYuMSA3NC40YzEwIDMuOCAyMC41IDUuNyAzMS4yIDUuN0w0ODggNTEybDI0IDAgMC0yNCAwLTI0ek0yMTYgMzUybDE0NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0xNDQgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![plane-tail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/plane-tail.svg)
  */
 const PlaneTail: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M.8 39L61.5 308.8c59.9-16.5 119.8-33.1 179.8-49.6c7.6-2.1 15.5-3.2 23.4-3.2L384 256 154.9 19.5C142.8 7 126.2 0 108.9 0L32 0C11.5 0-3.7 19 .8 39z" />
-            <path d="M512 464l0-160 0-24 0-24-24 0-223.3 0c-7.9 0-15.8 1.1-23.4 3.2L45.9 313.1C18.8 320.5 0 345.2 0 373.4c0 26 16.1 49.3 40.4 58.5l196.1 74.4c10 3.8 20.5 5.7 31.2 5.7L488 512l24 0 0-24 0-24zM216 352l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
+        <path d="M512 464l0-160 0-24 0-24-24 0-223.3 0c-7.9 0-15.8 1.1-23.4 3.2L45.9 313.1C18.8 320.5 0 345.2 0 373.4c0 26 16.1 49.3 40.4 58.5l196.1 74.4c10 3.8 20.5 5.7 31.2 5.7L488 512l24 0 0-24 0-24zM216 352l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `text-height` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/text-height?s=sharp-light text-height}
- * @preview ![text-height](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJMMCAzMiAwIDQ4bDAgODAgMCAxNiAzMiAwIDAtMTYgMC02NCAxMTIgMCAwIDM4NC02NCAwLTE2IDAgMCAzMiAxNiAwIDE2MCAwIDE2IDAgMC0zMi0xNiAwLTY0IDAgMC0zODQgMTEyIDAgMCA2NCAwIDE2IDMyIDAgMC0xNiAwLTgwIDAtMTYtMTYgMEwxNiAzMnpNNDkxLjMgNDQuN0w0ODAgMzMuNCA0NjguNyA0NC43bC04MCA4MCAyMi42IDIyLjZMNDY0IDk0LjZsMCAzMjIuNy01Mi43LTUyLjctMjIuNiAyMi42IDgwIDgwTDQ4MCA0NzguNmwxMS4zLTExLjMgODAtODAtMjIuNi0yMi42TDQ5NiA0MTcuNGwwLTMyMi43IDUyLjcgNTIuNyAyMi42LTIyLjYtODAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![text-height](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/text-height.svg)
  */
 const TextHeight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

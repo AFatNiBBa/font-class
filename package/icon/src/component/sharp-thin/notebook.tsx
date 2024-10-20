@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `notebook` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notebook?s=sharp-thin notebook}
- * @preview ![notebook](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDE2bDI1NiAwIDAgNDgwLTI1NiAwIDAtNDgwem0tMTYgMGwwIDQ4MEw4MCA0OTZsMC0xMDQgNDAgMCA4IDAgMC0xNi04IDAtNDAgMCAwLTExMiA0MCAwIDggMCAwLTE2LTggMC00MCAwIDAtMTEyIDQwIDAgOCAwIDAtMTYtOCAwLTQwIDBMODAgMTZsMTEyIDB6TTY0IDM5MmwwIDEwNCAwIDE2IDE2IDAgMzg0IDAgMTYgMCAwLTE2IDAtNDgwIDAtMTZMNDY0IDAgODAgMCA2NCAwbDAgMTYgMCAxMDRMOCAxMjBsLTggMCAwIDE2IDggMCA1NiAwIDAgMTEyTDggMjQ4bC04IDAgMCAxNiA4IDAgNTYgMCAwIDExMkw4IDM3NmwtOCAwIDAgMTYgOCAwIDU2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![notebook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/notebook.svg)
  */
 const Notebook: typeof Icon = x => (
     <Icon {...x}>

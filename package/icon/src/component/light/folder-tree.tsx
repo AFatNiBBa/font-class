@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-tree` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-tree?s=light folder-tree}
- * @preview ![folder-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTZDMzIgNy4yIDI0LjggMCAxNiAwUzAgNy4yIDAgMTZsMCA5NkwwIDM2OGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwyMDggMCAwLTMyTDQ4IDM4NGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjQwIDIyNCAwIDAtMzJMMzIgOTZsMC04MHpNMzk0LjcgMzJsMjEuNyAyMS43QzQyMyA2MC4zIDQzMiA2NCA0NDEuMyA2NEw1NDQgNjRsMCAxMjgtMjI0IDAgMC0xNjAgNzQuNyAwek0yODggMzJsMCAxNjBjMCAxNy43IDE0LjMgMzIgMzIgMzJsMjI0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJMNDQxLjMgMzJjLS44IDAtMS43LS4zLTIuMy0uOUw0MTcuNCA5LjRjLTYtNi0xNC4xLTkuNC0yMi42LTkuNEwzMjAgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ6bTMyIDI4OGw3NC43IDAgMjEuNyAyMS43QzQyMyAzNDguMyA0MzIgMzUyIDQ0MS4zIDM1Mkw1NDQgMzUybDAgMTI4LTIyNCAwIDAtMTYwem0tMzIgMGwwIDE2MGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwyMjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTEyOGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtMTAyLjcgMGMtLjggMC0xLjctLjMtMi4zLS45bC0yMS43LTIxLjdjLTYtNi0xNC4xLTkuNC0yMi42LTkuNEwzMjAgMjg4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![folder-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/folder-tree.svg)
  */
 const FolderTree: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

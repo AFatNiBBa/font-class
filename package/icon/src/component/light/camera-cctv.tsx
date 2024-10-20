@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-cctv` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-cctv?s=light camera-cctv}
- * @preview ![camera-cctv](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMyTDMyIDIwMCAzMjAgMzIwIDUxMiAxOTIgMTI4IDMyek0xMDAuMiAxNi4xYzgtMTQgMjUuMi0xOS45IDQwLjEtMTMuN2wzODQgMTYwYzEwLjkgNC41IDE4LjQgMTQuNyAxOS41IDI2LjVzLTQuMyAyMy4yLTE0LjEgMjkuN2wtMTkyIDEyOGMtOC45IDUuOS0yMC4yIDctMzAuMSAyLjlsLTg1LjYtMzUuN0wxNzUgNDM3LjdjLTIuNCA2LjItOC4zIDEwLjMtMTUgMTAuM0wzMiA0NDhsMCA0OGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTY0IDAtNjRjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDQ4IDExNyAwIDQzLjYtMTE0LjQtMTcyLjktNzJjLTguNS0zLjUtMTUtMTAuNS0xOC0xOS4ycy0yLTE4LjIgMi41LTI2LjJsOTYtMTY4ek0zOTYuOSAzNDUuNmwzMS40LTIwLjkgODMuMyAzNy45IDI3LjYtNjYuMy00MS0xOC4yIDMxLjUtMjEgMzYuNyAxNi4zYzcuOSAzLjUgMTEuNiAxMi44IDguMyAyMC44bC00MCA5NmMtMy4zIDgtMTMuNSAxMi0yMS40IDguNEwzOTYuOSAzNDUuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![camera-cctv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/camera-cctv.svg)
  */
 const CameraCctv: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck?s=sharp-solid truck}
- * @preview ![truck](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDQxNiAwbDAgOTYgNjQgMCAxMy4zIDAgOS40IDkuNCA5NiA5NiA5LjQgOS40IDAgMTMuMyAwIDMyIDAgMzIgMCA2NCAzMiAwIDAgNjQtMzIgMC0zMiAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2bC0xMjggMGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NkwwIDQxNiAwIDB6TTU0NCAyMzcuM0w0NjYuNyAxNjBsLTIuNyAwLTQ4IDAgMCA5NiAxMjggMCAwLTE2IDAtMi43ek0yMDggNDE2YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6bTI3MiA0OGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![truck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck.svg)
  */
 const Truck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

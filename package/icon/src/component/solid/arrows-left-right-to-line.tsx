@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-left-right-to-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-left-right-to-line?s=solid arrows-left-right-to-line}
- * @preview ![arrows-left-right-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzMjBjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJMMCA5NkMwIDc4LjMgMTQuMyA2NCAzMiA2NHptMjE0LjYgNzMuNGMxMi41IDEyLjUgMTIuNSAzMi44IDAgNDUuM0wyMDUuMyAyMjRsMjI5LjUgMC00MS40LTQxLjRjLTEyLjUtMTIuNS0xMi41LTMyLjggMC00NS4zczMyLjgtMTIuNSA0NS4zIDBsOTYgOTZjMTIuNSAxMi41IDEyLjUgMzIuOCAwIDQ1LjNsLTk2IDk2Yy0xMi41IDEyLjUtMzIuOCAxMi41LTQ1LjMgMHMtMTIuNS0zMi44IDAtNDUuM0w0MzQuNyAyODhsLTIyOS41IDAgNDEuNCA0MS40YzEyLjUgMTIuNSAxMi41IDMyLjggMCA0NS4zcy0zMi44IDEyLjUtNDUuMyAwbC05Ni05NmMtMTIuNS0xMi41LTEyLjUtMzIuOCAwLTQ1LjNsOTYtOTZjMTIuNS0xMi41IDMyLjgtMTIuNSA0NS4zIDB6TTY0MCA5NmwwIDMyMGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTMyMGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-left-right-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrows-left-right-to-line.svg)
  */
 const ArrowsLeftRightToLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `skull` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull?s=regular skull}
- * @preview ![skull](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDQwMGMtLjQtMTYgNy4zLTMxLjIgMjAuNC00MC40QzQzNi4xIDMyNi4yIDQ2NCAyNzYuOSA0NjQgMjI0YzAtOTEuNC04Ni45LTE3Ni0yMDgtMTc2UzQ4IDEzMi42IDQ4IDIyNGMwIDUyLjkgMjcuOSAxMDIuMiA3NS42IDEzNS42YzEzLjEgOS4yIDIwLjggMjQuNCAyMC40IDQwLjRjMCAwIDAgMCAwIDBsMCA2NCA0OCAwIDAtMjRjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNGwwIDI0IDMyIDAgMC0yNGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0bDAgMjQgNDggMCAwLTY0czAgMCAwIDB6bTQ4LTEuMWMwIC40IDAgLjcgMCAxLjFsMCA2NGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMjI0IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtNjRjMC0uNCAwLS43IDAtMS4xQzM3LjUgMzU3LjggMCAyOTQuNyAwIDIyNEMwIDEwMC4zIDExNC42IDAgMjU2IDBTNTEyIDEwMC4zIDUxMiAyMjRjMCA3MC43LTM3LjUgMTMzLjgtOTYgMTc0Ljl6TTExMiAyNTZhNTYgNTYgMCAxIDEgMTEyIDAgNTYgNTYgMCAxIDEgLTExMiAwem0yMzItNTZhNTYgNTYgMCAxIDEgMCAxMTIgNTYgNTYgMCAxIDEgMC0xMTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/skull.svg)
  */
 const Skull: typeof Icon = x => (
     <Icon {...x}>

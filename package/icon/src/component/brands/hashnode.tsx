@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hashnode` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hashnode?s=brands hashnode}
- * @preview ![hashnode](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUuMTkgMTcxLjFDLTExLjcyIDIxNy4xLTExLjcyIDI5NCAzNS4xOSAzNDAuOUwxNzEuMSA0NzYuOEMyMTcuMSA1MjMuNyAyOTQgNTIzLjcgMzQwLjkgNDc2LjhMNDc2LjggMzQwLjlDNTIzLjcgMjk0IDUyMy43IDIxNy4xIDQ3Ni44IDE3MS4xTDM0MC45IDM1LjE5QzI5NC0xMS43MiAyMTcuMS0xMS43MiAxNzEuMSAzNS4xOUwzNS4xOSAxNzEuMXpNMzE1LjUgMzE1LjVDMjgyLjYgMzQ4LjMgMjI5LjQgMzQ4LjMgMTk2LjYgMzE1LjVDMTYzLjcgMjgyLjYgMTYzLjcgMjI5LjQgMTk2LjYgMTk2LjZDMjI5LjQgMTYzLjcgMjgyLjYgMTYzLjcgMzE1LjUgMTk2LjZDMzQ4LjMgMjI5LjQgMzQ4LjMgMjgyLjYgMzE1LjUgMzE1LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hashnode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/hashnode.svg)
  */
 const Hashnode: typeof Icon = x => (
     <Icon {...x}>

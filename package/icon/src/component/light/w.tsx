@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `w` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/w?s=light w}
- * @preview ![w](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTAuNSAzM2M4LjMtMyAxNy41IDEuMiAyMC41IDkuNWwxMzUuMiAzNzBMMjcyLjYgNDMuNmMyLTYuOCA4LjItMTEuNiAxNS40LTExLjZzMTMuNCA0LjcgMTUuNCAxMS42TDQwOS44IDQxMi41IDU0NSA0Mi41YzMtOC4zIDEyLjItMTIuNiAyMC41LTkuNXMxMi42IDEyLjIgOS41IDIwLjVsLTE1MiA0MTZjLTIuNCA2LjUtOC43IDEwLjctMTUuNiAxMC41cy0xMi45LTQuOS0xNC44LTExLjZMMjg4IDEwNS43IDE4My40IDQ2OC40Yy0xLjkgNi42LTcuOSAxMS4zLTE0LjggMTEuNnMtMTMuMi00LTE1LjYtMTAuNUwxIDUzLjVDLTIuMSA0NS4yIDIuMiAzNiAxMC41IDMzeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/w.svg)
  */
 const W: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

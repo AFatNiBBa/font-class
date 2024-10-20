@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `behance` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/behance?s=brands behance}
- * @preview ![behance](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDIzNy4yYzMxLjgtMTUuMiA0OC40LTM4LjIgNDguNC03NCAwLTcwLjYtNTIuNi04Ny44LTExMy4zLTg3LjhIMHYzNTQuNGgxNzEuOGM2NC40IDAgMTI0LjktMzAuOSAxMjQuOS0xMDIuOSAwLTQ0LjUtMjEuMS03Ny40LTY0LjctODkuN3pNNzcuOSAxMzUuOUgxNTFjMjguMSAwIDUzLjQgNy45IDUzLjQgNDAuNSAwIDMwLjEtMTkuNyA0Mi4yLTQ3LjUgNDIuMmgtNzl2LTgyLjd6bTgzLjMgMjMzLjdINzcuOVYyNzJoODQuOWMzNC4zIDAgNTYgMTQuMyA1NiA1MC42IDAgMzUuOC0yNS45IDQ3LTU3LjYgNDd6bTM1OC41LTI0MC43SDM3NlY5NGgxNDMuN3YzNC45ek01NzYgMzA1LjJjMC03NS45LTQ0LjQtMTM5LjItMTI0LjktMTM5LjItNzguMiAwLTEzMS4zIDU4LjgtMTMxLjMgMTM1LjggMCA3OS45IDUwLjMgMTM0LjcgMTMxLjMgMTM0LjcgNjEuMyAwIDEwMS0yNy42IDEyMC4xLTg2LjNINTA5Yy02LjcgMjEuOS0zNC4zIDMzLjUtNTUuNyAzMy41LTQxLjMgMC02My0yNC4yLTYzLTY1LjNoMTg1LjFjLjMtNC4yLjYtOC43LjYtMTMuMnpNMzkwLjQgMjc0YzIuMy0zMy43IDI0LjctNTQuOCA1OC41LTU0LjggMzUuNCAwIDUzLjIgMjAuOCA1Ni4yIDU0LjhIMzkwLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![behance](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/behance.svg)
  */
 const Behance: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

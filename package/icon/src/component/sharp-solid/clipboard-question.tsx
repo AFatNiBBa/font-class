@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clipboard-question` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-question?s=sharp-solid clipboard-question}
- * @preview ![clipboard-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBjLTQxLjggMC03Ny40IDI2LjctOTAuNSA2NEwwIDY0IDAgNTEybDM4NCAwIDAtNDQ4TDI4Mi41IDY0QzI2OS40IDI2LjcgMjMzLjggMCAxOTIgMHptMCA2NGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6TTEwNCAyNDhjMC0zMC45IDI1LjEtNTYgNTYtNTZsNTYuOSAwYzM0LjkgMCA2My4xIDI4LjMgNjMuMSA2My4xYzAgMjIuNi0xMi4xIDQzLjUtMzEuNyA1NC44TDIxNiAzMjguNGwwIDcuNiAwIDI0LTQ4IDAgMC0yNCAwLTIxLjUgMC0xMy45IDEyLjEtNi45IDQ0LjMtMjUuNGM0LjctMi43IDcuNi03LjcgNy42LTEzLjFjMC04LjQtNi44LTE1LjEtMTUuMS0xNS4xTDE2MCAyNDBjLTQuNCAwLTggMy42LTggOGwwIDYuNS00OCAwIDAtNi41em02NCAxNTJsNDggMCAwIDQ4LTQ4IDAgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![clipboard-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/clipboard-question.svg)
  */
 const ClipboardQuestion: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

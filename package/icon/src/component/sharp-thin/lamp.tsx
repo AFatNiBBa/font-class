@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lamp` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp?s=sharp-thin lamp}
- * @preview ![lamp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTcuMSAyNTZMMCAyNTZsNi0xNkw5NiAwIDM1MiAwbDkwIDI0MCA2IDE2LTE3LjEgMEwxNy4xIDI1NnptNi0xNmw0MDEuOCAwLTg0LTIyNEwxMDcuMSAxNmwtODQgMjI0ek0xNjAgMzIwbDAtMzIgMTYgMCAwIDMyIDAgNy44LTYuMSA0LjhzMCAwIDAgMHMwIDAgMCAwczAgMCAwIDBjMCAwIDAgMC0uMSAuMWwtLjQgLjNjLS40IC4zLTEgLjgtMS44IDEuNWMtMS42IDEuMy0zLjkgMy40LTYuNyA2Yy01LjYgNS4zLTEzIDEzLTIwLjQgMjIuNEMxMjUuNCAzODIuMSAxMTIgNDA2LjYgMTEyIDQzMmMwIDIwLjQgNi44IDM3LjcgMTMuOSA1MC4xYzMuNCA2IDYuOCAxMC43IDkuNCAxMy45bDE3Ny40IDBjMi42LTMuMiA2LTcuOSA5LjQtMTMuOWM3LjEtMTIuNCAxMy45LTI5LjYgMTMuOS01MC4xYzAtMjUuNC0xMy40LTQ5LjktMjguNi02OS4yYy03LjQtOS40LTE0LjktMTcuMS0yMC40LTIyLjRjLTIuOC0yLjYtNS4xLTQuNy02LjctNmMtLjgtLjctMS40LTEuMi0xLjgtMS41bC0uNC0uM2MwIDAgMCAwLS4xLS4xYzAgMCAwIDAgMCAwczAgMCAwIDBzMCAwIDAgMHMwIDAgMCAwbC02LjEtNC44IDAtNy44IDAtMzIgMTYgMCAwIDMyczY0IDUwLjUgNjQgMTEyYzAgNDgtMzIgODAtMzIgODBsLTE5MiAwcy0zMi0zMi0zMi04MGMwLTYxLjUgNjQtMTEyIDY0LTExMnpNMTM5LjQgNTAwLjdzMCAwIDAgMHMwIDAgMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lamp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lamp.svg)
  */
 const Lamp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

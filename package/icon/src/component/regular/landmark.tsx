@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `landmark` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark?s=regular landmark}
- * @preview ![landmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY3LjYgM2MtNy4yLTQtMTYtNC0yMy4yIDBMMTcuNiAxMjguMUM2LjcgMTM0LjEgMCAxNDUuNSAwIDE1Ny45QzAgMTc2LjggMTUuMiAxOTIgMzQuMSAxOTJsNDQzLjkgMGMxOC44IDAgMzQuMS0xNS4yIDM0LjEtMzQuMWMwLTEyLjQtNi43LTIzLjgtMTcuNi0yOS44TDI2Ny42IDN6TTI1NiA1MS40TDQyMy44IDE0NCA4OC4yIDE0NCAyNTYgNTEuNHpNMTEyIDIyNGwtNDggMCAwIDE2MC04IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNDAwIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTggMCAwLTE2MC00OCAwIDAgMTYwLTY0IDAgMC0xNjAtNDggMCAwIDE2MC02NCAwIDAtMTYwLTQ4IDAgMCAxNjAtNjQgMCAwLTE2MHpNMCA0ODhjMCAxMy4zIDEwLjcgMjQgMjQgMjRsNDY0IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMMjQgNDY0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![landmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/landmark.svg)
  */
 const Landmark: typeof Icon = x => (
     <Icon {...x}>

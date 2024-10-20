@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link?s=thin link}
- * @preview ![link](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTgwLjIgMjQ0LjdjNTAtNTAgNTAtMTMxIDAtMTgxcy0xMzEtNTAtMTgxIDBsLTE3IDE3Yy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zczguMiAzLjEgMTEuMyAwbDE3LTE3YzQzLjctNDMuNyAxMTQuNy00My43IDE1OC40IDBzNDMuNyAxMTQuNyAwIDE1OC40TDQzMy4xIDM2OS4xYy00My43IDQzLjctMTE0LjcgNDMuNy0xNTguNCAwcy00My43LTExNC43IDAtMTU4LjRsMzkuNi0zOS42YzMuMS0zLjEgMy4xLTguMiAwLTExLjNzLTguMi0zLjEtMTEuMyAwbC0zOS42IDM5LjZjLTUwIDUwLTUwIDEzMSAwIDE4MXMxMzEgNTAgMTgxIDBMNTgwLjIgMjQ0Ljd6TTU5LjggMjY3LjNjLTUwIDUwLTUwIDEzMSAwIDE4MXMxMzEgNTAgMTgxIDBsMTctMTdjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3MtOC4yLTMuMS0xMS4zIDBsLTE3IDE3Yy00My43IDQzLjctMTE0LjcgNDMuNy0xNTguNCAwcy00My43LTExNC43IDAtMTU4LjRMMjA2LjkgMTQyLjljNDMuNy00My43IDExNC43LTQzLjcgMTU4LjQgMHM0My43IDExNC43IDAgMTU4LjRsLTM5LjYgMzkuNmMtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMGwzOS42LTM5LjZjNTAtNTAgNTAtMTMxIDAtMTgxcy0xMzEtNTAtMTgxIDBMNTkuOCAyNjcuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![link](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/link.svg)
  */
 const Link: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

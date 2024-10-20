@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `alt` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alt?s=thin alt}
- * @preview ![alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDYzLjggOTQuNWM3LjYtOS4yIDE4LjktMTQuNSAzMC44LTE0LjVMNjMyIDgwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDQ5NC42IDY0Yy0xNi43IDAtMzIuNSA3LjUtNDMuMiAyMC4zTDE3Ni4yIDQxNy41Yy03LjYgOS4yLTE4LjkgMTQuNS0zMC44IDE0LjVMOCA0MzJjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMTM3LjQgMGMxNi43IDAgMzIuNS03LjUgNDMuMi0yMC4zTDQ2My44IDk0LjV6TTQyNCA0MzJjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMjA4IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTIwOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/alt.svg)
  */
 const Alt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trophy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trophy?s=sharp-solid trophy}
- * @preview ![trophy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI5LjYgNjRjLTEtMjAuMS0xLjYtNDEuNC0xLjYtNjRMNDQ4IDBjMCAyMi42LS42IDQzLjktMS42IDY0TDU1MiA2NGwyNCAwIDAgMjRjMCAxMzQuNS03MC40IDIwNy43LTE0MC41IDI0Ni4xYy0zNC41IDE4LjktNjguOCAyOS4zLTk0LjMgMzVjLTUuOSAxLjMtMTEuMyAyLjQtMTYuMiAzLjNjLTEuNyAuOS0zLjQgMS44LTUuMSAyLjZsMCA3My4xIDcyIDAgMjQgMCAwIDI0IDAgMTYgMCAyNC0yNCAwLTIwOCAwLTI0IDAgMC0yNCAwLTE2IDAtMjQgMjQgMCA3MiAwIDAtNzMuMWMtMS43LS44LTMuMy0xLjctNS4xLTIuNmMtNC45LS45LTEwLjMtMS45LTE2LjItMy4zYy0yNS41LTUuNy01OS44LTE2LjEtOTQuMy0zNUM3MC40IDI5NS43IDAgMjIyLjUgMCA4OEwwIDY0bDI0IDAgMTA1LjYgMHptMy42IDQ4bC04NC40IDBjNy41IDk3LjkgNjAuOSAxNTAuNiAxMTQuNiAxNzkuOWM3LjIgNCAxNC41IDcuNSAyMS43IDEwLjdjLTIyLjctNDAuMy00Mi44LTEwMC41LTUxLjktMTkwLjZ6TTM5MC44IDMwMi42YzcuMi0zLjIgMTQuNC02LjcgMjEuNy0xMC43YzUzLjctMjkuNCAxMDcuMS04MiAxMTQuNi0xNzkuOWwtODQuNCAwYy05LjEgOTAuMS0yOS4yIDE1MC4zLTUxLjkgMTkwLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trophy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/trophy.svg)
  */
 const Trophy: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

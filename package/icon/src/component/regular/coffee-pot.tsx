@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `coffee-pot` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-pot?s=regular coffee-pot}
- * @preview ![coffee-pot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggODBjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgODBjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC04MEMwIDcxLjQgMzkuNCAzMiA4OCAzMmwzNC40IDBMMTkyIDMybDI2MS42IDBDNDY4LjIgMzIgNDgwIDQzLjggNDgwIDU4LjRjMCAzLjctLjggNy4zLTIuMyAxMC43bC00OC40IDEwOWM1MCAzNC43IDgyLjcgOTIuNSA4Mi43IDE1Ny45bDAgOGMwIDU1LjUtMzQuNiA5OS40LTU1LjkgMTIxLjJDNDQ2LjIgNDc1LjMgNDMyLjMgNDgwIDQxOCA0ODBMMTU4IDQ4MGMtMTQuMiAwLTI4LjEtNC43LTM4LjEtMTQuOEM5OC42IDQ0My40IDY0IDM5OS41IDY0IDM0NGwwLThjMC02NS40IDMyLjctMTIzLjIgODIuNy0xNTcuOUwxMDMuMSA4MCA4OCA4MHptMjk2LjggODBsMzUuNi04MEwxOTIgODBsLTM2LjQgMCAzNS42IDgwIDE5My42IDB6bTEuMiA0OEwxOTAgMjA4Yy00MS44IDIxLjYtNzEuNyA2My4xLTc3LjEgMTEybDM1MC4yIDBjLTUuNC00OC45LTM1LjMtOTAuNC03Ny4xLTExMnptMzIuMiAyMjRsLTI2MC41IDAgLjIgMEw0MTggNDMybC4yIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![coffee-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/coffee-pot.svg)
  */
 const CoffeePot: typeof Icon = x => (
     <Icon {...x}>

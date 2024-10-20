@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-sort` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-sort?s=thin circle-sort}
- * @preview ![circle-sort](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAwIDE2IDI1NmEyNDAgMjQwIDAgMSAwIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI2Ny4zIDQxMS4zYy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMGwtOTYtOTZjLTQuNi00LjYtNS45LTExLjUtMy41LTE3LjRzOC4zLTkuOSAxNC44LTkuOWwxOTIgMGM2LjUgMCAxMi4zIDMuOSAxNC44IDkuOXMxLjEgMTIuOS0zLjUgMTcuNGwtOTYgOTZ6TTM1MiAzMDRsLTE5MiAwIDk2IDk2IDk2LTk2ek0yNjcuMyAxMDAuN2w5NiA5NmM0LjYgNC42IDUuOSAxMS41IDMuNSAxNy40cy04LjMgOS45LTE0LjggOS45bC0xOTIgMGMtNi41IDAtMTIuMy0zLjktMTQuOC05LjlzLTEuMS0xMi45IDMuNS0xNy40bDk2LTk2YzYuMi02LjIgMTYuNC02LjIgMjIuNiAwek0yNTYgMTEybC05NiA5NiAxOTIgMC05Ni05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-sort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-sort.svg)
  */
 const CircleSort: typeof Icon = x => (
     <Icon {...x}>

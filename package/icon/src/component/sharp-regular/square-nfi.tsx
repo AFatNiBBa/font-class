@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-nfi` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-nfi?s=sharp-regular square-nfi}
- * @preview ![square-nfi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMzUyIDAgMCA0OCA0OCAwIDAtNDggMC00OC00OCAwTDQ4IDMyIDAgMzIgMCA4MGwwIDQ4IDQ4IDAgMC00OHptMCAzMDRMMCAzODRsMCA0OCAwIDQ4IDQ4IDAgMzUyIDAgNDggMCAwLTQ4IDAtNDgtNDggMCAwIDQ4TDQ4IDQzMmwwLTQ4ek0zMiAxNjBsMCAyNCAwIDE0NCAwIDI0IDQ4IDAgMC0yNCAwLTY1LjEgNDguNCA3Ny44IDcgMTEuMyAxMy4zIDAgMy4yIDAgMjQgMCAwLTI0IDAtMTQ0IDAtMjQtNDggMCAwIDI0IDAgNjUuMUw3OS42IDE3MS4zbC03LTExLjMtMTMuMyAwTDU2IDE2MGwtMjQgMHptMTg0IDBsMCAyNCAwIDgwIDAgNjQgMCAyNCA0OCAwIDAtMjQgMC00MCA0MCAwIDI0IDAgMC00OC0yNCAwLTQwIDAgMC0zMiA0MCAwIDI0IDAgMC00OC0yNCAwLTY0IDAtMjQgMHptMjAwIDI0bDAtMjQtNDggMCAwIDI0IDAgMTQ0IDAgMjQgNDggMCAwLTI0IDAtMTQ0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-nfi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-nfi.svg)
  */
 const SquareNfi: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

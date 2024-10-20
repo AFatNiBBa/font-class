@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sidebar-flip` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sidebar-flip?s=sharp-light sidebar-flip}
- * @preview ![sidebar-flip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMjU2IDAgMC0zODRMMzIgNjR6bTQ0OCAwTDMyMCA2NGwwIDM4NCAxNjAgMCAwLTM4NHptMC0zMmwzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMmwzMiAwIDQ0OCAwek0zNTIgOTZsOTYgMCAwIDMyLTk2IDAgMC0zMnptOTYgNjRsMCAzMi05NiAwIDAtMzIgOTYgMHptLTk2IDY0bDk2IDAgMCAzMi05NiAwIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sidebar-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sidebar-flip.svg)
  */
 const SidebarFlip: typeof Icon = x => (
     <Icon {...x}>

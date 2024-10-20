@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmark?s=sharp-solid xmark}
- * @preview ![xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI2LjYgMTY2LjZMMzQ5LjMgMTQ0IDMwNCA5OC43bC0yMi42IDIyLjZMMTkyIDIxMC43bC04OS40LTg5LjRMODAgOTguNyAzNC43IDE0NGwyMi42IDIyLjZMMTQ2LjcgMjU2IDU3LjQgMzQ1LjQgMzQuNyAzNjggODAgNDEzLjNsMjIuNi0yMi42TDE5MiAzMDEuM2w4OS40IDg5LjRMMzA0IDQxMy4zIDM0OS4zIDM2OGwtMjIuNi0yMi42TDIzNy4zIDI1Nmw4OS40LTg5LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/xmark.svg)
  */
 const Xmark: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

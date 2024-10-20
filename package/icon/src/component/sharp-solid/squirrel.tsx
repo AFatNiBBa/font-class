@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `squirrel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/squirrel?s=sharp-solid squirrel}
- * @preview ![squirrel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDI5OS4zYy0xOS45IDIyLjYtMzIgNTIuMi0zMiA4NC43bDAgMTI4IDEyOCAwIDY0IDAgMzIgMCA5NiAwIDMyIDAgMC02NC0zMiAwLTE2IDBjMTAtMTMuNCAxNi0zMCAxNi00OGMwLTI2LjItMTIuNi00OS40LTMyLTY0Yy0xMy40LTEwLTMwLTE2LTQ4LTE2Yy05LjQgMC0xOC4zIDEuNi0yNi43IDQuNWwtMTAuNy0zMC4yYzExLjctNC4xIDI0LjMtNi40IDM3LjMtNi40YzE3LjIgMCAzMy41IDMuOSA0OCAxMC44bDAtNTguOCA2NCAwIDMyLTQ4IDAtMzItODcuOS01OC42Yy0yLjUtMS43LTUuMy0zLTguMS0zLjlsMC0xLjUgMC0zMmMtMjAuNCAwLTM4LjIgMTAuOS00OCAyNy4xQzM1OC4yIDc0LjkgMzQwLjQgNjQgMzIwIDY0bDAgMzIgMCAzMiAwIDU0LjIgMCA0MS44LTI1LjMgMzhjLTIuMi0uNy00LjQtMS4zLTYuNy0xLjlsMC0xMTZDMjg4IDY0LjUgMjIzLjUgMCAxNDQgMFMwIDY0LjUgMCAxNDRzNjQuNSAxNDQgMTQ0IDE0NGM1LjQgMCAxMC43LS4zIDE2LS45bDAgMTIuMnpNNDE2IDE0NGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![squirrel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/squirrel.svg)
  */
 const Squirrel: typeof Icon = x => (
     <Icon {...x}>

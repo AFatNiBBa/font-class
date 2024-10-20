@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paperclip` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paperclip?s=light paperclip}
- * @preview ![paperclip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgwLjcgNjcuM2MtMjkuMS0yOS4xLTc2LjMtMjkuMS0xMDUuNCAwbC0xOTIgMTkyYy00Ni44IDQ2LjgtNDYuOCAxMjIuNiAwIDE2OS40czEyMi42IDQ2LjggMTY5LjQgMGwxNTItMTUyYzYuMi02LjIgMTYuNC02LjIgMjIuNiAwczYuMiAxNi40IDAgMjIuNmwtMTUyIDE1MmMtNTkuMyA1OS4zLTE1NS40IDU5LjMtMjE0LjYgMFMxLjQgMjk2IDYwLjcgMjM2LjdsMTkyLTE5MmM0MS42LTQxLjYgMTA5LTQxLjYgMTUwLjYgMHM0MS42IDEwOSAwIDE1MC42TDIxOS41IDM3OS4xYy0yOC4yIDI4LjItNzQuNiAyNS42LTk5LjYtNS41Yy0yMS4zLTI2LjYtMTkuMi02NSA0LjktODkuMUwyNzYuNyAxMzIuN2M2LjItNi4yIDE2LjQtNi4yIDIyLjYgMHM2LjIgMTYuNCAwIDIyLjZMMTQ3LjUgMzA3LjFjLTEyLjYgMTIuNi0xMy43IDMyLjYtMi42IDQ2LjVjMTMgMTYuMiAzNy4yIDE3LjYgNTEuOSAyLjlMMzgwLjcgMTcyLjdjMjkuMS0yOS4xIDI5LjEtNzYuMyAwLTEwNS40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![paperclip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/paperclip.svg)
  */
 const Paperclip: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `helmet-un` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helmet-un?s=solid helmet-un}
- * @preview ![helmet-un](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc5LjUgMjI0QzQ3MS4yIDk4LjkgMzY3LjIgMCAyNDAgMEMxMDcuNSAwIDAgMTA3LjUgMCAyNDBsMCA1Ni4zQzAgMzQ0LjggMzkuMiAzODQgODcuNyAzODRMMjAwIDM4NGwxNC45IDBMMzQzLjUgNTA1LjRjNC41IDQuMiAxMC40IDYuNiAxNi41IDYuNmw5NiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC04Ni41IDAtMS41LTEuNUwzNjggMjg4bDgwIDAgMzIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtLjUgMHpNMzIwIDQxNy4ybC03OC03My43TDI3NC40IDI4OGw0NS42IDAgMCAxMjkuMnpNMjg1LjMgMTAzLjFsMzQuNyA1MiAwLTQzLjJjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDk2YzAgNy4xLTQuNiAxMy4zLTExLjQgMTUuM3MtMTQtLjYtMTcuOS02LjRsLTM0LjctNTIgMCA0My4yYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtOTZjMC03LjEgNC42LTEzLjMgMTEuNC0xNS4zczE0IC42IDE3LjkgNi40ek0xNjAgMTEybDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTY0YzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZsMCA2NGMwIDI2LjUtMjEuNSA0OC00OCA0OHMtNDgtMjEuNS00OC00OGwwLTY0YzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![helmet-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/helmet-un.svg)
  */
 const HelmetUn: typeof Icon = x => (
     <Icon {...x}>

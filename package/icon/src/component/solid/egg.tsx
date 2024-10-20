@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `egg` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/egg?s=solid egg}
- * @preview ![egg](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQ5NkM4NiA0OTYgMCAzOTQgMCAyODhDMCAxNzYgNjQgMTYgMTkyIDE2czE5MiAxNjAgMTkyIDI3MmMwIDEwNi04NiAyMDgtMTkyIDIwOHpNMTU0LjggMTM0YzYuNS02IDctMTYuMSAxLTIyLjZzLTE2LjEtNy0yMi42LTFjLTIzLjkgMjEuOC00MS4xIDUyLjctNTIuMyA4NC4yQzY5LjcgMjI2LjEgNjQgMjU5LjcgNjQgMjg4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZjMC0yNC41IDUtNTQuNCAxNS4xLTgyLjhjMTAuMS0yOC41IDI1LTU0LjEgNDMuNy03MS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![egg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/egg.svg)
  */
 const Egg: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

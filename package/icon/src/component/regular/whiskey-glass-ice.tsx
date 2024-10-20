@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `whiskey-glass-ice` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whiskey-glass-ice?s=regular whiskey-glass-ice}
- * @preview ![whiskey-glass-ice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTAuNSA4MGw0MTEgMEw0MTQuMiA0MDQuNmMtMi4zIDE1LjctMTUuOCAyNy40LTMxLjcgMjcuNGwtMjUzIDBjLTE1LjkgMC0yOS40LTExLjctMzEuNy0yNy40TDUwLjUgODB6TTMyIDMyYy05LjMgMC0xOC4xIDQtMjQuMiAxMS4xUy0xIDU5LjQgLjMgNjguNmw1MCAzNDIuOWM1LjcgMzkuMyAzOS40IDY4LjUgNzkuMiA2OC41bDI1MyAwYzM5LjcgMCA3My40LTI5LjEgNzkuMi02OC41bDUwLTM0Mi45YzEuMy05LjItMS40LTE4LjUtNy41LTI1LjVTNDg5LjMgMzIgNDgwIDMyTDMyIDMyek0yNTUuNCAxNzkuM2wuNi0uNmMtNS0xLjgtMTAuNC0yLjctMTYtMi43bC05NiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDk2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDczLjggMC0xOS0xOWMtOC41LTguNS0xNC43LTE4LjQtMTguNi0yOUwxNDQgMzIwbDAtOTYgNjYuNyAwIDQ0LjctNDQuN3pNMzEyIDIzNS45bDU2LjYgNTYuNkwzMTIgMzQ5bC01Ni42LTU2LjZMMzEyIDIzNS45em0tMzMuOS0zMy45bC01Ni42IDU2LjZjLTE4LjcgMTguNy0xOC43IDQ5LjEgMCA2Ny45TDI3OC4xIDM4M2MxOC43IDE4LjcgNDkuMSAxOC43IDY3LjkgMGw1Ni42LTU2LjZjMTguNy0xOC43IDE4LjctNDkuMSAwLTY3LjlsLTU2LjYtNTYuNmMtMTguNy0xOC43LTQ5LjEtMTguNy02Ny45IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![whiskey-glass-ice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/whiskey-glass-ice.svg)
  */
 const WhiskeyGlassIce: typeof Icon = x => (
     <Icon {...x}>

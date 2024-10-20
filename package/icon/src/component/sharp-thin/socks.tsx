@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `socks` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/socks?s=sharp-thin socks}
- * @preview ![socks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDEwNGwwLThMMTQ0IDk2bDAtODAgMTQ0IDAgMC0xNkwxNDQgMCAxMjggMGwwIDE2IDAgODAgMCA4IDAgOCAwIDE2MEwzOC40IDMzOS4yIDQ4IDM1Mmw4OS42LTY3LjJMMTQ0IDI4MGwwLTggMC0xNjAgMTQ0IDAgMC04ek0zOC40IDMzOS4yQzE0LjIgMzU3LjMgMCAzODUuOCAwIDQxNmMwIDUzIDQzIDk2IDk2IDk2YzIwLjggMCA0MS02LjcgNTcuNi0xOS4ybDIxLjYtMTYuMmMtMi42LTQuOC00LjktOS44LTYuOC0xNC45TDE0NCA0ODBjLTEzLjggMTAuNC0zMC43IDE2LTQ4IDE2Yy00NC4yIDAtODAtMzUuOC04MC04MGMwLTI1LjIgMTEuOS00OC45IDMyLTY0bC05LjYtMTIuOHpNMzM2IDExMmwxNjAgMCAwIDI0OEwzMzYgNDgwYy0xMy44IDEwLjQtMzAuNyAxNi00OCAxNmMtNDQuMiAwLTgwLTM1LjgtODAtODBjMC0yNS4yIDExLjktNDguOSAzMi02NGw4OS42LTY3LjJMMzM2IDI4MGwwLTggMC0xNjB6TTMyMCAyNzJsLTg5LjYgNjcuMkMyMDYuMiAzNTcuMyAxOTIgMzg1LjggMTkyIDQxNmMwIDUzIDQzIDk2IDk2IDk2YzIwLjggMCA0MS02LjcgNTcuNi0xOS4yTDUxMiAzNjhsMC0yNTYgMC04IDAtOCAwLTgwIDAtMTZMNDk2IDAgMzM2IDAgMzIwIDBsMCAxNiAwIDgwIDAgOCAwIDggMCAxNjB6TTMzNiA5NmwwLTgwIDE2MCAwIDAgODBMMzM2IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![socks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/socks.svg)
  */
 const Socks: typeof Icon = x => (
     <Icon {...x}>

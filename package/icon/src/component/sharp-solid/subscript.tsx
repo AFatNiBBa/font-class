@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `subscript` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subscript?s=sharp-solid subscript}
- * @preview ![subscript](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NGwzMiAwIDMyIDAgMTYuNyAwIDkuNiAxMy42TDE3NiAyMDAuMiAyNjEuOCA3Ny42IDI3MS4zIDY0IDI4OCA2NGwzMiAwIDMyIDAgMCA2NC0zMiAwLTE1LjMgMEwyMTUuMSAyNTZsODkuNiAxMjggMTUuMyAwIDMyIDAgMCA2NC0zMiAwLTMyIDAtMTYuNyAwLTkuNi0xMy42TDE3NiAzMTEuOCA5MC4yIDQzNC40IDgwLjcgNDQ4IDY0IDQ0OGwtMzIgMEwwIDQ0OGwwLTY0IDMyIDAgMTUuMyAwIDg5LjYtMTI4TDQ3LjMgMTI4IDMyIDEyOCAwIDEyOCAwIDY0ek0zODQgMjg4bDMyIDAgMzIgMCAzMiAwIDAgMzIgMCAxMjggMzIgMCAwIDY0LTMyIDAtNjQgMC0zMiAwIDAtNjQgMzIgMCAwLTk2LTMyIDAgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![subscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/subscript.svg)
  */
 const Subscript: typeof Icon = x => (
     <Icon {...x}>

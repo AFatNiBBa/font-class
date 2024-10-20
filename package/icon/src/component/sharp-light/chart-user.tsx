@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-user` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-user?s=sharp-light chart-user}
- * @preview ![chart-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDMyTDE5MiAzMmwwIDY4Yy0xMC4yLTIuNi0yMS00LTMyLTRsMC02NCAwLTMyIDMyIDBMNjA4IDBsMzIgMCAwIDMyIDAgMzUyIDAgMzItMzIgMC0yODMuNCAwTDMxNSAzODRsMjkzIDAgMC0zNTJ6TTQwMCAxMTJsMTYgMCA5NiAwIDE2IDAgMCAxNiAwIDk2IDAgMTYtMzIgMCAwLTE2IDAtNTcuNEwzOTUuMyAyNjcuMyAzODQgMjc4LjZsLTExLjMtMTEuMy04MC04MEwyODEuNCAxNzYgMzA0IDE1My40bDExLjMgMTEuM0wzODQgMjMzLjQgNDczLjQgMTQ0IDQxNiAxNDRsLTE2IDAgMC0zMnpNMTYwIDI4OGE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHptMC0xNjBhOTYgOTYgMCAxIDEgMCAxOTIgOTYgOTYgMCAxIDEgMC0xOTJ6TTcxLjggMzg0TDQzIDQ4MGwyMzQgMC0yOC44LTk2TDcxLjggMzg0ek0yNzIgMzUybDM4LjQgMTI4IDkuNiAzMi0zMy40IDBMMzMuNCA1MTIgMCA1MTJsOS42LTMyTDQ4IDM1MmwyMjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chart-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chart-user.svg)
  */
 const ChartUser: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

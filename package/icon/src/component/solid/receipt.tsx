@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `receipt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/receipt?s=solid receipt}
- * @preview ![receipt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQgMi4yQzIyLjUtMS43IDMyLjUtLjMgMzkuNiA1LjhMODAgNDAuNCAxMjAuNCA1LjhjOS03LjcgMjIuMy03LjcgMzEuMiAwTDE5MiA0MC40IDIzMi40IDUuOGM5LTcuNyAyMi4zLTcuNyAzMS4yIDBMMzA0IDQwLjQgMzQ0LjQgNS44YzcuMS02LjEgMTcuMS03LjUgMjUuNi0zLjZzMTQgMTIuNCAxNCAyMS44bDAgNDY0YzAgOS40LTUuNSAxNy45LTE0IDIxLjhzLTE4LjUgMi41LTI1LjYtMy42TDMwNCA0NzEuNmwtNDAuNCAzNC42Yy05IDcuNy0yMi4zIDcuNy0zMS4yIDBMMTkyIDQ3MS42bC00MC40IDM0LjZjLTkgNy43LTIyLjMgNy43LTMxLjIgMEw4MCA0NzEuNiAzOS42IDUwNi4yYy03LjEgNi4xLTE3LjEgNy41LTI1LjYgMy42UzAgNDk3LjQgMCA0ODhMMCAyNEMwIDE0LjYgNS41IDYuMSAxNCAyLjJ6TTk2IDE0NGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxOTIgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkw5NiAxNDR6TTgwIDM1MmMwIDguOCA3LjIgMTYgMTYgMTZsMTkyIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMOTYgMzM2Yy04LjggMC0xNiA3LjItMTYgMTZ6TTk2IDI0MGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxOTIgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkw5NiAyNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![receipt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/receipt.svg)
  */
 const Receipt: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

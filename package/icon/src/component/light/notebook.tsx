@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `notebook` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notebook?s=light notebook}
- * @preview ![notebook](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMybC02NCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDQ4IDMyIDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTMyIDAgMCA5NiAzMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0zMiAwIDAgOTYgMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMzIgMCAwIDQ4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDY0IDAgMC00NDh6bTMyIDQ0OGwxOTIgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTM4NGMwLTE3LjctMTQuMy0zMi0zMi0zMkwyMjQgMzJsMCA0NDh6bS0xNiAzMmwtODAgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC00OC00OCAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDQ4IDAgMC05Ni00OCAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDQ4IDAgMC05Ni00OCAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDQ4IDAgMC00OEM2NCAyOC43IDkyLjcgMCAxMjggMGw4MCAwTDQxNiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzg0YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yMDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![notebook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/notebook.svg)
  */
 const Notebook: typeof Icon = x => (
     <Icon {...x}>

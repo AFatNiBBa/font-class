@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `popcorn` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/popcorn?s=sharp-regular popcorn}
- * @preview ![popcorn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTU2YzAgMS4zIC4xIDIuNyAuMiA0bDg3LjYgMCAyMDguNCAwIDg3LjYgMGMuMS0xLjMgLjItMi43IC4yLTRjMC0yMC45LTE0LjUtMzguMy0zNC00Mi45YzEuMy00LjIgMi04LjYgMi0xMy4xYzAtMjQuMy0xOS43LTQ0LTQ0LTQ0Yy0xLjkgMC0zLjcgLjEtNS42IC4zQzMyOS4zIDM3LjcgMzEyLjMgMjQgMjkyIDI0Yy04LjUgMC0xNi41IDIuNC0yMy4yIDYuNkMyNjEuOCAxMi43IDI0NC40IDAgMjI0IDBzLTM3LjggMTIuNy00NC44IDMwLjZDMTcyLjUgMjYuNCAxNjQuNSAyNCAxNTYgMjRjLTIwLjMgMC0zNy4zIDEzLjctNDIuNCAzMi4zYy0xLjgtLjItMy43LS4zLTUuNi0uM2MtMjQuMyAwLTQ0IDE5LjctNDQgNDRjMCA0LjYgLjcgOSAyIDEzLjFjLTE5LjUgNC41LTM0IDIyLTM0IDQyLjl6bTg1LjUgMzA4bC01Ni0yMjQgMzkuOCAwIDQ2LjEgMTkyIDMyLjkgMEwxMzQuMiAyNDBsNzMuOCAwIDAgMTc2IDAgMTYgMzIgMCAwLTE2IDAtMTc2IDczLjggMEwyNjcuNyA0MzJsMzIuOSAwIDQ2LjEtMTkyIDM5LjggMC01NiAyMjQtMjEzIDB6TTIyNCAxOTJMNDkuNSAxOTIgMCAxOTJsMTIgNDhMODAgNTEybDI4OCAwIDY4LTI3MiAxMi00OC00OS41IDBMMjI0IDE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![popcorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/popcorn.svg)
  */
 const Popcorn: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

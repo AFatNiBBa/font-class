@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tv-retro` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv-retro?s=sharp-regular tv-retro}
- * @preview ![tv-retro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY4IDYuMWwxNyAxNyA3MSA3MSA3MS03MSAxNy0xN0wzNzcuOSA0MCAzNjEgNTdsLTM5IDM5TDQ2NCA5Nmw0OCAwIDAgNDggMCAzMjAgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4TDAgMTQ0IDAgOTZsNDggMCAxNDIuMSAwTDE1MSA1N2wtMTctMTdMMTY4IDYuMXpNNDggMTQ0bDAgMzIwIDQxNiAwIDAtMzIwTDQ4IDE0NHptMzY4IDU2YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHpNMzkyIDMwNGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwek0zNTIgMTkybDAgMjI0TDk2IDQxNmwwLTIyNCAyNTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tv-retro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tv-retro.svg)
  */
 const TvRetro: typeof Icon = x => (
     <Icon {...x}>

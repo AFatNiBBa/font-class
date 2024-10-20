@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tarp` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tarp?s=light tarp}
- * @preview ![tarp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzg0bDAtMjU2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDQ0OCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTI4LTExMiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDExMkw2NCA0MTZjLTE3LjcgMC0zMi0xNC4zLTMyLTMyem0zOTEuNCAyNy4zYy0yLjEgMi4xLTQuNiAzLjUtNy40IDQuMkw0MTYgMzA0YzAtOC44IDcuMi0xNiAxNi0xNmwxMTEuNSAwYy0uNyAyLjgtMi4xIDUuNC00LjIgNy40TDQyMy40IDQxMS4zek01NzYgMTI4YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDY0QzI4LjcgNjQgMCA5Mi43IDAgMTI4TDAgMzg0YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM0OC4xIDBjMTIuNyAwIDI0LjktNS4xIDMzLjktMTQuMUw1NjEuOSAzMTguMWM5LTkgMTQuMS0yMS4yIDE0LjEtMzMuOUw1NzYgMTI4ek05NiAxODRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tarp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tarp.svg)
  */
 const Tarp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

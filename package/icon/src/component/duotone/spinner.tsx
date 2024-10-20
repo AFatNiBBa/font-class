@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `spinner` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner?s=duotone spinner}
- * @preview ![spinner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02MC45IDQwMy4xYTQ4IDQ4IDAgMSAwIDk2IDAgNDggNDggMCAxIDAgLTk2IDB6TTIwOCA0NjRhNDggNDggMCAxIDAgOTYgMCA0OCA0OCAwIDEgMCAtOTYgMHpNMzY5LjEgNzVBNDggNDggMCAxIDAgNDM3IDE0Mi45IDQ4IDQ4IDAgMSAwIDM2OS4xIDc1em0wIDI5NC4yQTQ4IDQ4IDAgMSAwIDQzNyA0MzdhNDggNDggMCAxIDAgLTY3LjktNjcuOXpNNDE2IDI1NmE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzA0IDQ4YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTk2IDI1NkE0OCA0OCAwIDEgMCAwIDI1NmE0OCA0OCAwIDEgMCA5NiAwek03NSAxNDIuOUE0OCA0OCAwIDEgMCAxNDIuOSA3NSA0OCA0OCAwIDEgMCA3NSAxNDIuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![spinner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/spinner.svg)
  */
 const Spinner: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M60.9 403.1a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zM208 464a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zM369.1 75A48 48 0 1 0 437 142.9 48 48 0 1 0 369.1 75zm0 294.2A48 48 0 1 0 437 437a48 48 0 1 0 -67.9-67.9zM416 256a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-            <path d="M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM96 256A48 48 0 1 0 0 256a48 48 0 1 0 96 0zM75 142.9A48 48 0 1 0 142.9 75 48 48 0 1 0 75 142.9z" />
+        <path d="M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM96 256A48 48 0 1 0 0 256a48 48 0 1 0 96 0zM75 142.9A48 48 0 1 0 142.9 75 48 48 0 1 0 75 142.9z" />
     </Icon>
 );
 

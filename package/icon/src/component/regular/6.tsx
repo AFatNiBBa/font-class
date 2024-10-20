@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `6` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/6?s=regular 6}
- * @preview ![6](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDMyMGMwLTYxLjktNTAuMS0xMTItMTEyLTExMmMtMzIuMyAwLTYxLjUgMTMuNy04MS45IDM1LjZsLTUuMSA2LjNDNTYuOCAyNjkuNyA0OCAyOTQuNSA0OCAzMjBjMCA2MS45IDUwLjEgMTEyIDExMiAxMTJzMTEyLTUwLjEgMTEyLTExMnpNMTQ1LjcgMTYwLjZjNC43LS40IDkuNS0uNiAxNC4zLS42Yzg4LjQgMCAxNjAgNzEuNiAxNjAgMTYwcy03MS42IDE2MC0xNjAgMTYwUzAgNDA4LjQgMCAzMjBjMC00MS41IDE1LjgtNzkuNCA0MS44LTEwNy44TDE4MS40IDQwLjhjOC40LTEwLjMgMjMuNS0xMS44IDMzLjgtMy40czExLjggMjMuNSAzLjQgMzMuOGwtNzIuOSA4OS41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/6.svg)
  */
 const $6: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

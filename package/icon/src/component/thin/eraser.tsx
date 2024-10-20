@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eraser` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eraser?s=thin eraser}
- * @preview ![eraser](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY0LjMgNjNjLTE1LjYtMTUuNi00MC45LTE1LjYtNTYuNiAwTDE5MSAxNzkuNyAzOTYuMyAzODUgNTEzIDI2OC4zYzE1LjYtMTUuNiAxNS42LTQwLjkgMC01Ni42TDM2NC4zIDYzek02MyAzMDcuN2MtMTUuNiAxNS42LTE1LjYgNDAuOSAwIDU2LjZsODggODhjNy41IDcuNSAxNy43IDExLjcgMjguMyAxMS43bDEyMS40IDBjMTAuNiAwIDIwLjgtNC4yIDI4LjMtMTEuN2w1Ni01NkwxNzkuNyAxOTEgNjMgMzA3Ljd6bTIzMy40LTI1NmMyMS45LTIxLjkgNTcuMy0yMS45IDc5LjIgMEw1MjQuMyAyMDAuNGMyMS45IDIxLjkgMjEuOSA1Ny4zIDAgNzkuMmwtMTg0IDE4NGMtLjEgLjEtLjMgLjMtLjQgLjRMNTM2IDQ2NGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMjQ4IDBzMCAwIDAgMGwtMTA4LjcgMGMtMTQuOSAwLTI5LjEtNS45LTM5LjYtMTYuNGwtODgtODhjLTIxLjktMjEuOS0yMS45LTU3LjMgMC03OS4yTDI5Ni40IDUxLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![eraser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/eraser.svg)
  */
 const Eraser: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

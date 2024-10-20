@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `earth-oceania` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-oceania?s=sharp-regular earth-oceania}
- * @preview ![earth-oceania](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTM4Ny4zIDM3OS4zbC0yNCAyNEwzNTIgNDE0LjYgMzI5LjQgMzkybDExLjMtMTEuMyAyNC0yNEwzNzYgMzQ1LjQgMzk4LjYgMzY4bC0xMS4zIDExLjN6TTI4OCA0MDBsMCAzMi02NCAwIDAtMzIgNjQgMHpNNDE2IDI1NmwwIDY0LTMyIDAgMC02NCAzMiAwek0xOTIgMTYwbDAtMzIgOTYgMCAwIDY0LTY0IDAtMzItMzJ6TTk2IDMzNmwwLTQ4IDY0LTY0IDMyIDAgMCAzMiAzMiAwIDAtMzIgMzIgMCA2NCA2NCAwIDgwLTk2IDAtMzItMzItOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![earth-oceania](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/earth-oceania.svg)
  */
 const EarthOceania: typeof Icon = x => (
     <Icon {...x}>

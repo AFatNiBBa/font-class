@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-ruler` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-ruler?s=sharp-light pen-ruler}
- * @preview ![pen-ruler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUwLjYgMjIuNkwxMjggMCAxMDUuNCAyMi42IDIyLjYgMTA1LjQgMCAxMjhsMjIuNiAyMi42IDgyLjcgODIuN0wxMjggMjEwLjcgNDUuMiAxMjggMTI4IDQ1LjNsMzAuMSAzMC4xLTI1LjQgMjUuNEwxMjEuNCAxMTIgMTQ0IDEzNC42bDExLjMtMTEuMyAyNS40LTI1LjRMMjEwLjcgMTI4bDIyLjYtMjIuNkwxNTAuNiAyMi42ek0zNjEuNCA0ODkuNEwzODQgNTEybDIyLjYtMjIuNiA4Mi43LTgyLjdMNTEyIDM4NGwtMjIuNi0yMi42LTgyLjctODIuN0wzODQgMzAxLjNsMzAuMSAzMC4xLTI1LjQgMjUuNEwzNzcuNCAzNjggNDAwIDM5MC42bDExLjMtMTEuMyAyNS40LTI1LjRMNDY2LjcgMzg0IDM4NCA0NjYuNyAzMDEuMiAzODRsLTIyLjYgMjIuNiA4Mi43IDgyLjd6TTYuOCA0NzhMMCA1MTJsMzQtNi44TDE2MCA0ODAgNDg5LjQgMTUwLjYgNTEyIDEyOGwtMjIuNi0yMi42TDQwNi42IDIyLjYgMzg0IDAgMzYxLjQgMjIuNiAzMiAzNTIgNi44IDQ3OHptMzQtNi44TDYxLjUgMzY3LjggMzE1LjMgMTEzLjlsODIuNyA4Mi43TDE0NC4yIDQ1MC41IDQwLjggNDcxLjJ6TTQ2Ni43IDEyOGwtNDYuMSA0Ni4xTDMzNy45IDkxLjMgMzg0IDQ1LjMgNDY2LjcgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pen-ruler.svg)
  */
 const PenRuler: typeof Icon = x => (
     <Icon {...x}>

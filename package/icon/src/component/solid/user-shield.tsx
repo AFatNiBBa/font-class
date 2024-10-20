@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-shield` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-shield?s=solid user-shield}
- * @preview ![user-shield](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDI1NkExMjggMTI4IDAgMSAwIDIyNCAwYTEyOCAxMjggMCAxIDAgMCAyNTZ6bS00NS43IDQ4Qzc5LjggMzA0IDAgMzgzLjggMCA0ODIuM0MwIDQ5OC43IDEzLjMgNTEyIDI5LjcgNTEybDM4OC42IDBjMS44IDAgMy41LS4yIDUuMy0uNWMtNzYuMy01NS4xLTk5LjgtMTQxLTEwMy4xLTIwMC4yYy0xNi4xLTQuOC0zMy4xLTcuMy01MC43LTcuM2wtOTEuNCAwem0zMDguOC03OC4zbC0xMjAgNDhDMzU4IDI3Ny40IDM1MiAyODYuMiAzNTIgMjk2YzAgNjMuMyAyNS45IDE2OC44IDEzNC44IDIxNC4yYzUuOSAyLjUgMTIuNiAyLjUgMTguNSAwQzYxNC4xIDQ2NC44IDY0MCAzNTkuMyA2NDAgMjk2YzAtOS44LTYtMTguNi0xNS4xLTIyLjNsLTEyMC00OGMtNS43LTIuMy0xMi4xLTIuMy0xNy44IDB6TTU5MS40IDMxMmMtMy45IDUwLjctMjcuMiAxMTYuNy05NS40IDE0OS43bDAtMTg3LjhMNTkxLjQgMzEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-shield.svg)
  */
 const UserShield: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

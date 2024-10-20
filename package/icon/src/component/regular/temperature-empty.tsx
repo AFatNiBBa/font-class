@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `temperature-empty` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-empty?s=regular temperature-empty}
- * @preview ![temperature-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMTEyYzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRsMCAxNjEuOWMwIDE0LjUgNS43IDI3LjEgMTIuOCAzNi42YzEyIDE2IDE5LjIgMzUuOSAxOS4yIDU3LjVjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZjMC0yMS42IDcuMS00MS41IDE5LjItNTcuNUM5MC4zIDMwMSA5NiAyODguNCA5NiAyNzMuOUw5NiAxMTJ6TTE2MCAwQzk4LjEgMCA0OCA1MC4yIDQ4IDExMmwwIDE2MS45YzAgMS43LS43IDQuNC0zLjIgNy44QzI2LjcgMzA1LjcgMTYgMzM1LjcgMTYgMzY4YzAgNzkuNSA2NC41IDE0NCAxNDQgMTQ0czE0NC02NC41IDE0NC0xNDRjMC0zMi40LTEwLjctNjIuMy0yOC44LTg2LjRjLTIuNS0zLjQtMy4yLTYuMS0zLjItNy44TDI3MiAxMTJDMjcyIDUwLjIgMjIxLjkgMCAxNjAgMHptMCA0MTZhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![temperature-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/temperature-empty.svg)
  */
 const TemperatureEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

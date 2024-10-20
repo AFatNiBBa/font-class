@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `carrot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/carrot?s=sharp-regular carrot}
- * @preview ![carrot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDgwYzAgNDAgNy4zIDU1LjMgMzIgODBzNDAgMzIgODAgMzJzODAtNDAgODAtNDBzLTMyLTQwLTgwLTQwYy0zMiAwLTQwIDgtNDAgOHM4LTggOC00MGMwLTQ4LTQwLTgwLTQwLTgwcy00MCA0MC00MCA4MHpNMjguMSA0NDcuNUwwIDUxMmw2NC41LTI4LjEgMjI3LjktOTkuMWM0NS45LTE5LjkgNzUuNS02NS4yIDc1LjUtMTE1LjJDMzY4IDIwMC4yIDMxMS44IDE0NCAyNDIuNCAxNDRjLTUwIDAtOTUuMyAyOS43LTExNS4yIDc1LjVMMjguMSA0NDcuNXptMjA0LjQtODguOUwyMDkgMzM1bC0xNy0xN0wxNTguMSAzNTJsMTcgMTcgMTAuMiAxMC4yTDkyLjYgNDE5LjRsNzguNi0xODAuN2MuMi0uNCAuMy0uNyAuNS0xLjFMMjA3IDI3M2wxNyAxN0wyNTcuOSAyNTZsLTE3LTE3LTM2LjktMzYuOWMxMS41LTYuNSAyNC42LTEwLjEgMzguMy0xMC4xYzQyLjkgMCA3Ny42IDM0LjggNzcuNiA3Ny42YzAgMzAuOS0xOC4zIDU4LjktNDYuNyA3MS4ybC00MC44IDE3Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![carrot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/carrot.svg)
  */
 const Carrot: typeof Icon = x => (
     <Icon {...x}>

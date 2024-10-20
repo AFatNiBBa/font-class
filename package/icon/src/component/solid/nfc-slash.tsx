@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-slash?s=solid nfc-slash}
- * @preview ![nfc-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN2wtODYuOC02OEw1NDQgOTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMMTYwIDMyYy0yMS42IDAtNDAuNyAxMC43LTUyLjMgMjcuMUwzOC44IDUuMXpNMTczLjUgMTEwLjdjOC43LTkgMjEtMTQuNyAzNC41LTE0LjdsMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMzIgMGMtMy4zIDAtNi40IDEtOC45IDIuN2wtMjUuNi0yMC4xek0zMDIuMSAyMTEuNWMuNi0uMyAxLjMtLjUgMS45LS43bDAtNjYuN2MwLTI2LjUgMjEuNS00OCA0OC00OGw4MCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMjA2LjktMzItMjUuMUw0NDggMTQ0YzAtOC44LTcuMi0xNi0xNi0xNmwtODAgMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNjYuN2MxOC42IDYuNiAzMiAyNC40IDMyIDQ1LjNjMCAyLjMtLjIgNC42LS41IDYuOGwtNjUuNS01MS4zek00ODYuOSA0NzkuNkw0MDYuMiA0MTYgMjA4IDQxNmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0xNDUuOUw5NiAxNzEuNiA5NiA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMi4zIDAgNC42LS4xIDYuOS0uNHpNMjA4IDM4NGwxNTcuNSAwTDE5MiAyNDcuMyAxOTIgMzY4YzAgOC44IDcuMiAxNiAxNiAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![nfc-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/nfc-slash.svg)
  */
 const NfcSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

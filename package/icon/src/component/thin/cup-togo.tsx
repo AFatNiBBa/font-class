@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cup-togo` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cup-togo?s=thin cup-togo}
- * @preview ![cup-togo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgODBjNS41IDAgMTAuNi0yLjggMTMuNi03LjVsMzAuNi00OWMyLjktNC43IDguMS03LjUgMTMuNi03LjVsMjY4LjUgMGM1LjUgMCAxMC42IDIuOCAxMy42IDcuNWwzMC42IDQ5YzIuOSA0LjcgOC4xIDcuNSAxMy42IDcuNWM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkwzMiAxMTJjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6TTM4NS40IDE1Yy01LjgtOS40LTE2LjEtMTUtMjcuMS0xNUw4OS43IDBjLTExIDAtMjEuMyA1LjctMjcuMSAxNUwzMiA2NEMxNC4zIDY0IDAgNzguMyAwIDk2czE0LjMgMzIgMzIgMzJsMzg0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMMzg1LjQgMTV6TTQ3LjQgMTYwTDc0LjYgNDUzLjljMyAzMi45IDMwLjcgNTguMSA2My43IDU4LjFsMTcxLjMgMGMzMy4xIDAgNjAuNy0yNS4yIDYzLjctNTguMUw0MDAuNiAxNjBsLTE2LjEgMC01LjkgNjRMNjkuNCAyMjRsLTUuOS02NC0xNi4xIDB6bTIzLjUgODBsMzA2LjIgMEwzNjMuOCAzODQgODQuMiAzODQgNzAuOSAyNDB6TTg1LjcgNDAwbDI3Ni42IDAtNC45IDUyLjRjLTIuMyAyNC43LTIzIDQzLjYtNDcuOCA0My42bC0xNzEuMyAwYy0yNC44IDAtNDUuNS0xOC45LTQ3LjgtNDMuNkw4NS43IDQwMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cup-togo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cup-togo.svg)
  */
 const CupTogo: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

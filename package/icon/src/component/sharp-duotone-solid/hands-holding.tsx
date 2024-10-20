@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `hands-holding` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding?s=sharp-duotone-solid hands-holding}
- * @preview ![hands-holding](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik04MCAxMDRsMCA4IDAgMzIgMCA4MCAwIDY2LjcgODQuMSA4NC4xTDIwNS44IDM0N2wtMzYuNC0zNi40TDE0Ni43IDI4OGwtOS40LTkuNEwxMTQuNyAyNTYgMTYwIDIxMC43bDIyLjYgMjIuNiA5LjQgOS40IDIyLjYgMjIuNiA2NCA2NCA5LjQgOS40IDAgMTMuMyAwIDY0IDAgMzIgMCAzMiAwIDMyLTMyIDAtOTYgMC0xMy4zIDAtOS40LTkuNC0xMjgtMTI4TDAgMzY1LjMgMCAzNTIgMCAyMjRsMC02NCAwLTMyIDAtMjRMMCA2NGw4MCAwIDAgNDB6bTQ4MCAwbDAtNDAgODAgMCAwIDQwIDAgMjQgMCAzMiAwIDY0IDAgMTI4IDAgMTMuMy05LjQgOS40LTEyOCAxMjgtOS40IDkuNEw0ODAgNTEybC05NiAwLTMyIDAgMC0zMiAwLTMyIDAtMzIgMC02NCAwLTEzLjMgOS40LTkuNCA2NC02NEw0NDggMjQyLjdsOS40LTkuNEw0ODAgMjEwLjcgNTI1LjMgMjU2bC0yMi42IDIyLjYtOS40IDkuNC0yMi42IDIyLjZMNDM0LjIgMzQ3bDQxLjcgMjcuOEw1NjAgMjkwLjdsMC02Ni43IDAtODAgMC0zMiAwLTh6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9IiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hands-holding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hands-holding.svg)
  */
 const HandsHolding: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

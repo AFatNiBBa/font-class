@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `arrow-up-right-dots` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-right-dots?s=sharp-duotone-solid arrow-up-right-dots}
- * @preview ![arrow-up-right-dots](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiA0NjRhNDggNDggMCAxIDAgOTYgMCA0OCA0OCAwIDEgMCAtOTYgMHpNMjI0IDMzNmE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAwem0wIDEyOGE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAwek0zNTIgMjA4YTQ4IDQ4IDAgMSAwIDk2IDAgNDggNDggMCAxIDAgLTk2IDB6bTAgMTI4YTQ4IDQ4IDAgMSAwIDk2IDAgNDggNDggMCAxIDAgLTk2IDB6bTAgMTI4YTQ4IDQ4IDAgMSAwIDk2IDAgNDggNDggMCAxIDAgLTk2IDB6TTQ4MCA4MGE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAwem0wIDEyOGE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAwem0wIDEyOGE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAwem0wIDEyOGE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTI4IDBsMzIgMEwyODggMGwzMiAwIDAgMzIgMCAxMjggMCAzMi02NCAwIDAtMzIgMC01MC43TDcwLjYgMjk0LjYgNDggMzE3LjMgMi43IDI3MmwyMi42LTIyLjZMMjEwLjcgNjQgMTYwIDY0bC0zMiAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-up-right-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-up-right-dots.svg)
  */
 const ArrowUpRightDots: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M96 464a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zM224 336a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm0 128a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zM352 208a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm0 128a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm0 128a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zM480 80a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm0 128a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm0 128a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm0 128a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-            <path d="M128 0l32 0L288 0l32 0 0 32 0 128 0 32-64 0 0-32 0-50.7L70.6 294.6 48 317.3 2.7 272l22.6-22.6L210.7 64 160 64l-32 0 0-64z" />
+        <path d="M128 0l32 0L288 0l32 0 0 32 0 128 0 32-64 0 0-32 0-50.7L70.6 294.6 48 317.3 2.7 272l22.6-22.6L210.7 64 160 64l-32 0 0-64z" />
     </Icon>
 );
 

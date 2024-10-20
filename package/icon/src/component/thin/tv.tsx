@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tv` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv?s=thin tv}
- * @preview ![tv](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDE2YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMzIwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDY0IDQzMmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhMMTYgNjRjMC0yNi41IDIxLjUtNDggNDgtNDhsNTEyIDB6TTY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgMzg0YzAgMzUuMyAyOC43IDY0IDY0IDY0bDUxMiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDB6TTk2IDUwNGMwIDQuNCAzLjYgOCA4IDhsNDMyIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTQzMiAwYy00LjQgMC04IDMuNi04IDh6TTgwIDgwbDQ4MCAwIDAgMjg4TDgwIDM2OCA4MCA4MHpNNjQgODBsMCAyODhjMCA4LjggNy4yIDE2IDE2IDE2bDQ4MCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTI4OGMwLTguOC03LjItMTYtMTYtMTZMODAgNjRjLTguOCAwLTE2IDcuMi0xNiAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tv.svg)
  */
 const Tv: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

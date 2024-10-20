@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gear-complex` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gear-complex?s=sharp-solid gear-complex}
- * @preview ![gear-complex](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAyLjcgMGwtOTYgMC03IDU1LjdjLTE2LjggNC43LTMyLjcgMTEuNS00Ny41IDIwTDEwNy42IDQxIDM5LjcgMTA4LjlsMzUgNDVjLTguMyAxNC43LTE0LjggMzAuNC0xOS40IDQ3TC0xLjMgMjA4IDAgMzA0bDU1LjMgN2M0LjUgMTYuNiAxMS4xIDMyLjQgMTkuNCA0Ny4xbC0zNSA0NUwxMDcuNiA0NzFsNDQuNi0zNC43YzE0LjggOC41IDMwLjcgMTUuMyA0Ny41IDIwbDcgNTUuNyA5NiAwIDYuOS01NWMxNy4yLTQuNiAzMy42LTExLjMgNDguNy0xOS45TDQwMS44IDQ3MWw2Ny45LTY3LjlMNDM2LjIgMzYwYzguOS0xNS4zIDE1LjgtMzEuOCAyMC42LTQ5LjNsNTQtNi43IDAtOTYtNTQtNi43Yy00LjctMTcuNC0xMS43LTM0LTIwLjYtNDkuM2wzMy41LTQzLjFMNDAxLjggNDEgMzU4LjMgNzQuOWMtMTUuMi04LjYtMzEuNS0xNS4zLTQ4LjctMTkuOUwzMDIuNyAwek0yNTYgMTc2YTgwIDgwIDAgMSAxIDAgMTYwIDgwIDgwIDAgMSAxIDAtMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gear-complex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gear-complex.svg)
  */
 const GearComplex: typeof Icon = x => (
     <Icon {...x}>

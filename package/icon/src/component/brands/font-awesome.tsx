@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `font-awesome` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/font-awesome?s=brands font-awesome}
- * @preview ![font-awesome](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTEuNyA5NkMxMDYuMyA4Ni44IDExNiA3MC41IDExNiA1MkMxMTYgMjMuMyA5Mi43IDAgNjQgMFMxMiAyMy4zIDEyIDUyYzAgMTYuNyA3LjggMzEuNSAyMCA0MWwwIDMgMCAzNTIgMCA2NCA2NCAwIDAtNjQgMzczLjYgMGMxNC42IDAgMjYuNC0xMS44IDI2LjQtMjYuNGMwLTMuNy0uOC03LjMtMi4zLTEwLjdMNDMyIDI3Mmw2MS43LTEzOC45YzEuNS0zLjQgMi4zLTcgMi4zLTEwLjdjMC0xNC42LTExLjgtMjYuNC0yNi40LTI2LjRMOTEuNyA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![font-awesome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/font-awesome.svg)
  */
 const FontAwesome: typeof Icon = x => (
     <Icon {...x}>

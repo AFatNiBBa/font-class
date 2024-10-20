@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hood-cloak` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hood-cloak?s=sharp-thin hood-cloak}
- * @preview ![hood-cloak](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0NjRsNjQtODAgMC05NkM2NCAxMjggMTYwIDAgMjg4IDBMNDU3LjQgMCA0ODAgMCA0NjQgMTYgNDE4LjcgNjEuMyA0MDcuMiA3Mi44YzQuNSAzIDguOCA2LjIgMTMgOS42QzQ3NS40IDEyNi4xIDUxMiAxOTYuNiA1MTIgMjg4bDAgOTYgNjQgODAgMCAzMiAwIDE2LTE2IDBMMTYgNTEyIDAgNTEybDAtMTYgMC0zMnpNMjg4IDE2QzE3Mi41IDE2IDgwIDEzMi43IDgwIDI4OGwwIDk2IDAgNS42TDc2LjUgMzk0IDE2IDQ2OS42IDE2IDQ5NmwxNDQgMCAwLTE3NmMwLTcwLjcgNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4bDAgMTc2IDE0NCAwIDAtMjYuNEw0OTkuNSAzOTRsLTMuNS00LjQgMC01LjYgMC05NmMwLTkzLjUtNDAuMS0xNjIuNi05Ny44LTIwMmwtMTYtMTAuOSAxMy43LTEzLjdMNDQxLjQgMTYgMjg4IDE2ek0xNzYgNDk2bDIyNCAwIDAtMTc2YzAtNjEuOS01MC4xLTExMi0xMTItMTEycy0xMTIgNTAuMS0xMTIgMTEybDAgMTc2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hood-cloak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hood-cloak.svg)
  */
 const HoodCloak: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

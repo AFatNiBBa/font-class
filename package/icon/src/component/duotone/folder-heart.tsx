@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `folder-heart` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-heart?s=duotone folder-heart}
- * @preview ![folder-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjU2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDI4OCA5NmMtMTAuMSAwLTE5LjYtNC43LTI1LjYtMTIuOEwyNDMuMiA1Ny42QzIzMS4xIDQxLjUgMjEyLjEgMzIgMTkyIDMyTDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZ6TTE0NCAyNTMuM2MwLTMzLjggMjcuNC02MS4zIDYxLjMtNjEuM2MxNi4yIDAgMzEuOCA2LjUgNDMuMyAxNy45bDcuNCA3LjQgNy40LTcuNGMxMS41LTExLjUgMjcuMS0xNy45IDQzLjMtMTcuOWMzMy44IDAgNjEuMyAyNy40IDYxLjMgNjEuM2MwIDE2LjItNi41IDMxLjgtMTcuOSA0My4zbC04Mi43IDgyLjdjLTMuMSAzLjEtNy4yIDQuNy0xMS4zIDQuN3MtOC4yLTEuNi0xMS4zLTQuN2wtODIuNy04Mi43Yy0xMS41LTExLjUtMTcuOS0yNy4xLTE3LjktNDMuM3oiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTIwNS4zIDE5MmMtMzMuOCAwLTYxLjMgMjcuNC02MS4zIDYxLjNjMCAxNi4yIDYuNSAzMS44IDE3LjkgNDMuM2w4Mi43IDgyLjdjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBsODIuNy04Mi43YzExLjUtMTEuNSAxNy45LTI3LjEgMTcuOS00My4zYzAtMzMuOC0yNy40LTYxLjMtNjEuMy02MS4zYy0xNi4yIDAtMzEuOCA2LjUtNDMuMyAxNy45bC03LjQgNy40LTcuNC03LjRjLTExLjUtMTEuNS0yNy4xLTE3LjktNDMuMy0xNy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![folder-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/folder-heart.svg)
  */
 const FolderHeart: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L288 96c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32L64 32C28.7 32 0 60.7 0 96zM144 253.3c0-33.8 27.4-61.3 61.3-61.3c16.2 0 31.8 6.5 43.3 17.9l7.4 7.4 7.4-7.4c11.5-11.5 27.1-17.9 43.3-17.9c33.8 0 61.3 27.4 61.3 61.3c0 16.2-6.5 31.8-17.9 43.3l-82.7 82.7c-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7l-82.7-82.7c-11.5-11.5-17.9-27.1-17.9-43.3z" />
-            <path d="M205.3 192c-33.8 0-61.3 27.4-61.3 61.3c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c6.2 6.2 16.4 6.2 22.6 0l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4c-11.5-11.5-27.1-17.9-43.3-17.9z" />
+        <path d="M205.3 192c-33.8 0-61.3 27.4-61.3 61.3c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c6.2 6.2 16.4 6.2 22.6 0l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4c-11.5-11.5-27.1-17.9-43.3-17.9z" />
     </Icon>
 );
 

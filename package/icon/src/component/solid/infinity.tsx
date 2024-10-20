@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `infinity` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/infinity?s=solid infinity}
- * @preview ![infinity](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNDEuMUMwIDE2MSA2NSA5NiAxNDUuMSA5NmMzOC41IDAgNzUuNCAxNS4zIDEwMi42IDQyLjVMMzIwIDIxMC43bDcyLjItNzIuMkM0MTkuNSAxMTEuMyA0NTYuNCA5NiA0OTQuOSA5NkM1NzUgOTYgNjQwIDE2MSA2NDAgMjQxLjFsMCAyOS43QzY0MCAzNTEgNTc1IDQxNiA0OTQuOSA0MTZjLTM4LjUgMC03NS40LTE1LjMtMTAyLjYtNDIuNUwzMjAgMzAxLjNsLTcyLjIgNzIuMkMyMjAuNSA0MDAuNyAxODMuNiA0MTYgMTQ1LjEgNDE2QzY1IDQxNiAwIDM1MSAwIDI3MC45bDAtMjkuN3pNMjc0LjcgMjU2bC03Mi4yLTcyLjJjLTE1LjItMTUuMi0zNS45LTIzLjgtNTcuNC0yMy44QzEwMC4zIDE2MCA2NCAxOTYuMyA2NCAyNDEuMWwwIDI5LjdjMCA0NC44IDM2LjMgODEuMSA4MS4xIDgxLjFjMjEuNSAwIDQyLjItOC41IDU3LjQtMjMuOEwyNzQuNyAyNTZ6bTkwLjUgMGw3Mi4yIDcyLjJjMTUuMiAxNS4yIDM1LjkgMjMuOCA1Ny40IDIzLjhjNDQuOCAwIDgxLjEtMzYuMyA4MS4xLTgxLjFsMC0yOS43YzAtNDQuOC0zNi4zLTgxLjEtODEuMS04MS4xYy0yMS41IDAtNDIuMiA4LjUtNTcuNCAyMy44TDM2NS4zIDI1NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![infinity](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/infinity.svg)
  */
 const Infinity: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

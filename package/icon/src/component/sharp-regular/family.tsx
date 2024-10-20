@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `family` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family?s=sharp-regular family}
- * @preview ![family](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDY0QTY0IDY0IDAgMSAwIDY0IDY0YTY0IDY0IDAgMSAwIDEyOCAwek03OCAyMDhsNTAgMCA1MCAwIDQuNyAwYy00LjMtOS44LTYuNy0yMC42LTYuNy0zMmMwLTUuNSAuNi0xMC44IDEuNi0xNkwzMiAxNjAgMjYgMzA0bC0yIDQ4IDQwIDAgMCAxMzYgMCAyNCA0OCAwIDAtMjQgMC0xMzYgMzIgMCAwLTQ4LTMyIDAtMzggMCA0LTk2em0yNTgtMzJjMCAxMS40LTIuNCAyMi4yLTYuNyAzMmwyNi45IDAgMjcuOCAwIDI3LjggMCAzNi42IDEyOEwzNjggMzM2bDAgNDggMzIgMCAwIDEwNCAwIDI0IDQ4IDAgMC0yNCAwLTEwNCAxNC4xIDAgNDkuOSAwLTEzLjctNDhMNDQ4IDE2MGwtMTEzLjYgMGMxIDUuMiAxLjYgMTAuNSAxLjYgMTZ6TTQ0OCA2NEE2NCA2NCAwIDEgMCAzMjAgNjRhNjQgNjQgMCAxIDAgMTI4IDB6TTI1NiAyMjRhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2ek0yMjQgMzY4bDAtNjQgNjQgMCAwIDY0LTY0IDB6bTExMiA0OGwwLTQ4IDAtNjQgMC00OC00OCAwLTY0IDAtNDggMCAwIDQ4IDAgNjQgMCA0OCAzMiAwIDAgOTYgOTYgMCAwLTk2IDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![family](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/family.svg)
  */
 const Family: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diamond-half-stroke` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond-half-stroke?s=light diamond-half-stroke}
- * @preview ![diamond-half-stroke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDQ0LjdsMCA0MjIuNkw0NzcuNyAyNjEuN2MzLjEtMy4xIDMuMS04LjIgMC0xMS4zTDI3MiA0NC43ek0yNDAgNDY3LjNsMC00MjIuNkwzNC4zIDI1MC4zYy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zTDI0MCA0NjcuM3pNMjI3LjcgMTEuN2MxNS42LTE1LjYgNDAuOS0xNS42IDU2LjYgMGwyMTYgMjE2YzE1LjYgMTUuNiAxNS42IDQwLjkgMCA1Ni42bC0yMTYgMjE2Yy0xNS42IDE1LjYtNDAuOSAxNS42LTU2LjYgMGwtMjE2LTIxNmMtMTUuNi0xNS42LTE1LjYtNDAuOSAwLTU2LjZsMjE2LTIxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![diamond-half-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/diamond-half-stroke.svg)
  */
 const DiamondHalfStroke: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right?s=thin right}
- * @preview ![right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDI1NmMwIDguMS0zLjIgMTUuOS05IDIxLjdMMjc0LjYgNDI2LjFjLTMuOCAzLjgtOSA1LjktMTQuMyA1LjljLTExLjIgMC0yMC4zLTkuMS0yMC4zLTIwLjNsMC05OS43YzAtNC40LTMuNi04LTgtOEw0MCAzMDRjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtNDhjMC0xMy4zIDEwLjctMjQgMjQtMjRsMTkyIDBjNC40IDAgOC0zLjYgOC04bDAtOTkuN2MwLTExLjIgOS4xLTIwLjMgMjAuMy0yMC4zYzUuNCAwIDEwLjUgMi4xIDE0LjMgNS45TDQyMyAyMzQuM2M1LjcgNS43IDkgMTMuNSA5IDIxLjd6TTI2MC4zIDQ0OGM5LjYgMCAxOC45LTMuOCAyNS43LTEwLjZMNDM0LjQgMjg5YzguNy04LjcgMTMuNy0yMC42IDEzLjctMzNzLTQuOS0yNC4yLTEzLjctMzNMMjg1LjkgNzQuNmMtNi44LTYuOC0xNi0xMC42LTI1LjctMTAuNmMtMjAgMC0zNi4zIDE2LjItMzYuMyAzNi4zbDAgOTEuN0w0MCAxOTJjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgNDhjMCAyMi4xIDE3LjkgNDAgNDAgNDBsMTg0IDAgMCA5MS43YzAgMjAgMTYuMiAzNi4zIDM2LjMgMzYuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/right.svg)
  */
 const Right: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

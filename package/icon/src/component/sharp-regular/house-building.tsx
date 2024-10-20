@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-building` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-building?s=sharp-regular house-building}
- * @preview ![house-building](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDQ4bDI1NiAwIDAgNDE2LTE3NiAwIDAgNDggMTc2IDAgNDggMCAwLTQ4IDAtNDE2IDAtNDhMNTkyIDAgMzM2IDAgMjg4IDBsMCA0OCAwIDg2LjMgNDggNDBMMzM2IDQ4em04MCAyMDhsMzIgMCAwLTY0LTY0IDAgMCAyMi4zIDIwLjUgMTcuMUw0MTYgMjQxbDAgMTV6bTAgOTZsMzIgMCAwLTY0LTMyIDAgMCA2NHptNjQtMTYwbDAgNjQgNjQgMCAwLTY0LTY0IDB6bTY0IDk2bC02NCAwIDAgNjQgNjQgMCAwLTY0ek00NDggOTZsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bTMyIDBsMCA2NCA2NCAwIDAtNjQtNjQgMHpNNDggMjc4LjVsMTQ0LTEyMCAxNDQgMTIwTDMzNiA0NjQgNDggNDY0bDAtMTg1LjV6TTAgMjU2TDAgNDY0bDAgNDggNDggMCAyODggMCA0OCAwIDAtNDggMC0yMDhMMTkyIDk2IDAgMjU2em0yNDAgMTZsLTk2IDAgMCA5NiA5NiAwIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-building](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-building.svg)
  */
 const HouseBuilding: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

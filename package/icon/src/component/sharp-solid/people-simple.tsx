@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `people-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-simple?s=sharp-solid people-simple}
- * @preview ![people-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDEyOEE2NCA2NCAwIDEgMCAxMjggMGE2NCA2NCAwIDEgMCAwIDEyOHpNMjMyIDM1MmwtOC0xOTJMMzIgMTYwIDI0IDM1Mmw0MCAwIDAgMTYwIDEyOCAwIDAtMTYwIDQwIDB6TTM4NCAxMjhBNjQgNjQgMCAxIDAgMzg0IDBhNjQgNjQgMCAxIDAgMCAxMjh6TTUxMiAzODRMNDQ4IDE2MGwtMTI4IDBMMjU2IDM4NGw2NCAwIDAgMTI4IDEyOCAwIDAtMTI4IDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![people-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/people-simple.svg)
  */
 const PeopleSimple: typeof Icon = x => (
     <Icon {...x}>

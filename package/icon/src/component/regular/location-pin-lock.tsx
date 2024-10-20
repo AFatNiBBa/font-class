@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-pin-lock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-pin-lock?s=regular location-pin-lock}
- * @preview ![location-pin-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQ1MS43YzE4LjUtMjMuNyA0MS42LTU0LjcgNjQtODguMWwwIDgzLjJjLTE1LjMgMjAuNi0yOS4zIDM4LjYtNDAuMyA1Mi4zYy0xMi4zIDE1LjMtMzUuMSAxNS4zLTQ3LjQgMEMxMTcgNDM1IDAgMjc5LjQgMCAxOTJDMCA4NiA4NiAwIDE5MiAwYzk1LjcgMCAxNzUgNzAgMTg5LjYgMTYxLjVjLTE2LjkgMi44LTMyLjYgOS40LTQ2LjEgMTguOUMzMjkuNiAxMDYuMyAyNjcuNiA0OCAxOTIgNDhDMTEyLjUgNDggNDggMTEyLjUgNDggMTkyYzAgMTIuNCA0LjUgMzEuNiAxNS4zIDU3LjJjMTAuNSAyNC44IDI1LjQgNTIuMiA0Mi41IDc5LjljMjguNSA0Ni4yIDYxLjUgOTAuOCA4Ni4yIDEyMi42ek0yMjQgMTkyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bS0xMTIgMGE4MCA4MCAwIDEgMSAxNjAgMCA4MCA4MCAwIDEgMSAtMTYwIDB6bTI4OCA0OGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA0OCA2NCAwIDAtNDhjMC0xNy43LTE0LjMtMzItMzItMzJ6bS04MCAzMmMwLTQ0LjIgMzUuOC04MCA4MC04MHM4MCAzNS44IDgwIDgwbDAgNDhjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxMjhjMCAxNy43LTE0LjMgMzItMzIgMzJsLTE2MCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTEyOGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![location-pin-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/location-pin-lock.svg)
  */
 const LocationPinLock: typeof Icon = x => (
     <Icon {...x}>

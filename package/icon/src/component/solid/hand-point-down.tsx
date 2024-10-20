@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-point-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-down?s=solid hand-point-down}
- * @preview ![hand-point-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0yMDgtNjQgMCAwIDIwOHpNMjI0IDMyMGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtNjRjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJsMCA2NHptLTY0IDY0YzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNDhjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJsMCA0OGMwIDE3LjcgMTQuMyAzMiAzMiAzMnptMTYwLTk2YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC02NGMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDY0em0tOTYtODhsMCAuNmM5LjQtNS40IDIwLjMtOC42IDMyLTguNmMxMy4yIDAgMjUuNCA0IDM1LjYgMTAuOGM4LjctMjQuOSAzMi41LTQyLjggNjAuNC00Mi44YzExLjcgMCAyMi42IDMuMSAzMiA4LjZsMC04LjZDMzg0IDcxLjYgMzEyLjQgMCAyMjQgMEwxNjIuMyAwQzExOS44IDAgNzkuMSAxNi45IDQ5LjEgNDYuOUwzNy41IDU4LjVDMTMuNSA4Mi41IDAgMTE1LjEgMCAxNDlsMCAyN2MwIDM1LjMgMjguNyA2NCA2NCA2NGw4OCAwYzIyLjEgMCA0MC0xNy45IDQwLTQwcy0xNy45LTQwLTQwLTQwbC01NiAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDU2IDBjMzkuOCAwIDcyIDMyLjIgNzIgNzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-point-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-point-down.svg)
  */
 const HandPointDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

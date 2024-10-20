@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-grid` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-grid?s=solid folder-grid}
- * @preview ![folder-grid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQ4MEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZDMCA2MC43IDI4LjcgMzIgNjQgMzJsMTI4IDBjMjAuMSAwIDM5LjEgOS41IDUxLjIgMjUuNmwxOS4yIDI1LjZjNiA4LjEgMTUuNSAxMi44IDI1LjYgMTIuOGwxNjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDI1NmMwIDM1LjMtMjguNyA2NC02NCA2NHpNMTA0IDI0MGMtMTMuMyAwLTI0IDEwLjctMjQgMjRsMCA0OGMwIDEzLjMgMTAuNyAyNCAyNCAyNGw0OCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0bDAtNDhjMC0xMy4zLTEwLjctMjQtMjQtMjRsLTQ4IDB6bTEyOCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDQ4YzAgMTMuMyAxMC43IDI0IDI0IDI0bDQ4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNGwtNDggMHptMTA0IDI0bDAgNDhjMCAxMy4zIDEwLjcgMjQgMjQgMjRsNDggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTQ4YzAtMTMuMy0xMC43LTI0LTI0LTI0bC00OCAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![folder-grid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/folder-grid.svg)
  */
 const FolderGrid: typeof Icon = x => (
     <Icon {...x}>

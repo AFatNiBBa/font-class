@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-point-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-up?s=solid hand-point-up}
- * @preview ![hand-point-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJDMzIgMTQuMyA0Ni4zIDAgNjQgMFM5NiAxNC4zIDk2IDMybDAgMjA4LTY0IDBMMzIgMzJ6TTIyNCAxOTJjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtNjR6bS02NC02NGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDQ4YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtNDhjMC0xNy43IDE0LjMtMzIgMzItMzJ6bTE2MCA5NmMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMybDAgNjRjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC02NHptLTk2IDg4bDAtLjZjOS40IDUuNCAyMC4zIDguNiAzMiA4LjZjMTMuMiAwIDI1LjQtNCAzNS42LTEwLjhjOC43IDI0LjkgMzIuNSA0Mi44IDYwLjQgNDIuOGMxMS43IDAgMjIuNi0zLjEgMzItOC42bDAgOC42YzAgODguNC03MS42IDE2MC0xNjAgMTYwbC02MS43IDBjLTQyLjQgMC04My4xLTE2LjktMTEzLjEtNDYuOUwzNy41IDQ1My41QzEzLjUgNDI5LjUgMCAzOTYuOSAwIDM2M2wwLTI3YzAtMzUuMyAyOC43LTY0IDY0LTY0bDg4IDBjMjIuMSAwIDQwIDE3LjkgNDAgNDBzLTE3LjkgNDAtNDAgNDBsLTU2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNTYgMGMzOS44IDAgNzItMzIuMiA3Mi03MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-point-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-point-up.svg)
  */
 const HandPointUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

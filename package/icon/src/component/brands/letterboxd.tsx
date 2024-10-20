@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `letterboxd` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/letterboxd?s=brands letterboxd}
- * @preview ![letterboxd](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTIxLjMgMTI4QzU4Ni45IDEyOCA2NDAgMTgxLjEgNjQwIDI0Ni42cy01My4xIDExOC42LTExOC43IDExOC42Yy00Mi41IDAtNzkuNy0yMi4zLTEwMC43LTU1LjhjMTEuNC0xOC4yIDE4LTM5LjcgMTgtNjIuOHMtNi42LTQ0LjYtMTgtNjIuOGwwIDAgLjgtMS4yYzIwLjgtMzIuMyA1Ni44LTUzLjkgOTcuOS01NC42bDIgMHpNMzIwIDEyOGM0Mi41IDAgNzkuNyAyMi4zIDEwMC43IDU1LjhjLTExLjQgMTguMi0xOCAzOS43LTE4IDYyLjhzNi42IDQ0LjYgMTggNjIuOGwwIDAtLjggMS4yYy0yMC44IDMyLjMtNTYuOCA1My45LTk3LjkgNTQuNmwtMiAwYy00Mi41IDAtNzkuNy0yMi4zLTEwMC43LTU1LjhjMTEuNC0xOC4yIDE4LTM5LjcgMTgtNjIuOHMtNi42LTQ0LjYtMTgtNjIuOGwwIDAgLjgtMS4yYzIwLjgtMzIuMyA1Ni44LTUzLjkgOTcuOS01NC42bDIgMHptLTIwMS4zIDBjNDIuNSAwIDc5LjcgMjIuMyAxMDAuNyA1NS44Yy0xMS40IDE4LjItMTggMzkuNy0xOCA2Mi44czYuNiA0NC42IDE4IDYyLjhsMCAwLS44IDEuMmMtMjAuOCAzMi4zLTU2LjggNTMuOS05Ny45IDU0LjZsLTIgMEM1My4xIDM2NS4xIDAgMzEyLjEgMCAyNDYuNlM1My4xIDEyOCAxMTguNyAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![letterboxd](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/letterboxd.svg)
  */
 const Letterboxd: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

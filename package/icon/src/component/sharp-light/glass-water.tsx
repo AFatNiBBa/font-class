@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glass-water` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-water?s=sharp-light glass-water}
- * @preview ![glass-water](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUuOSAxNzYuOEw2NC4xIDE4NmMzMC40IDE1LjIgNjYuOSAxMS4zIDkzLjQtOS45YzIwLjEtMTYuMSA0OC44LTE2LjEgNjguOSAwYzI2LjUgMjEuMiA2MyAyNS4xIDkzLjQgOS45bDE4LjItOS4xTDMxNC40IDQ4MCA2OS42IDQ4MCA0NS45IDE3Ni44ek00MyAxMzkuNkwzNC42IDMybDMxNC44IDBMMzQxIDEzOS42bC0zNS40IDE3LjdjLTE5LjIgOS42LTQyLjMgNy4yLTU5LjEtNi4zYy0zMS44LTI1LjUtNzcuMS0yNS41LTEwOC45IDBjLTE2LjggMTMuNC0zOS45IDE1LjktNTkuMSA2LjNMNDMgMTM5LjZ6TTQwIDUxMmwzMDQgMEwzODEuNSAzMiAzODQgMCAzNTEuOSAwIDMyLjEgMCAwIDAgMi41IDMyIDQwIDUxMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![glass-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/glass-water.svg)
  */
 const GlassWater: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

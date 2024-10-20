@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-tree` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-tree?s=sharp-thin house-tree}
- * @preview ![house-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIxLjcgMTAuM0w0MTYgNC43bC01LjcgNS43TDI4Ny4xIDEzMy42bDEyLjMgMTAuM0w0MTYgMjcuM2wxNDQgMTQ0IDAgNC43LTcyIDAtMTYuOSAwIDEwLjcgMTMuMUw1OTIgMzI0bDAgMTItODggMC0xOC4yIDAgMTIuMiAxMy40TDYyNCA0ODcuMWwwIDguOS0yMDggMCAwIDE2czAgMCAwIDBsMjE2IDAgOCAwIDAtOCAwLTIwIDAtMy4xLTIuMS0yLjNMNTIyLjIgMzUybDc3LjggMCA4IDAgMC04IDAtMjIuOSAwLTIuOS0xLjgtMi4yTDUwNC45IDE5Mmw2My4xIDAgOCAwIDAtOCAwLTE2IDAtMy4zLTIuMy0yLjMtMTUyLTE1MnpNMTYgMjYzLjVMMTkyIDExNi44IDM2OCAyNjMuNSAzNjggNDk2IDE2IDQ5NmwwLTIzMi41ek0wIDI1NkwwIDQ5NmwwIDE2IDE2IDAgMzUyIDAgMTYgMCAwLTE2IDAtMjQwTDE5MiA5NiAwIDI1NnptMTUyIDI0bDgwIDAgMCA4MC04MCAwIDAtODB6bTAtMTZsLTE2IDAgMCAxNiAwIDgwIDAgMTYgMTYgMCA4MCAwIDE2IDAgMC0xNiAwLTgwIDAtMTYtMTYgMC04MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/house-tree.svg)
  */
 const HouseTree: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

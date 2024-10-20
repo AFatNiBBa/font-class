@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `starfighter` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starfighter?s=sharp-solid starfighter}
- * @preview ![starfighter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBsMzIgMjU2IDAgMjI0LTEyOCAwIDAtMjI0TDI4OCAwbDY0IDB6TTI4OCAyNTZsMCA2NCA2NCAwIDAtNjRjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJ6TTcyIDcybDAgMjQgMCAyNCAyNCAwIDAgNDgtMjQgMCAwIDE4NCA1NiAwIDAtNjQgOTYgMCAwIDY0IDAgNjQgMCAzMiAwIDMyIDAgMzItNjQgMCAwLTMyIDAtMTIuOEw3MiA0MzJsMCAxNiAwIDI0LTQ4IDAgMC0yNCAwLTI4MEwwIDE2OGwwLTQ4IDI0IDAgMC0yNCAwLTI0IDQ4IDB6bTU0NCAwbDAgMjQgMCAyNCAyNCAwIDAgNDgtMjQgMCAwIDI4MCAwIDI0LTQ4IDAgMC0yNCAwLTE2LTg4IDM1LjIgMCAxMi44IDAgMzItNjQgMCAwLTMyIDAtMzIgMC0zMiAwLTY0IDAtNjQgOTYgMCAwIDY0IDU2IDAgMC0xODQtMjQgMCAwLTQ4IDI0IDAgMC0yNCAwLTI0IDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![starfighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/starfighter.svg)
  */
 const Starfighter: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

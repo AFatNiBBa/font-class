@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-chopsticks-noodles` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-chopsticks-noodles?s=sharp-regular bowl-chopsticks-noodles}
- * @preview ![bowl-chopsticks-noodles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMjhMMCA5NiAxMjggNzJsMC0xNiAwLTI0IDQ4IDAgMCAyNCAwIDcgMCAzNy41IDAgMzggMCAzNy41IDAgNDggMzIgMCAwLTQ4IDAtMzguNSAwLTQyTDIwOCA1N2wwLTE3IDAtMjQgNDggMCAwIDI0IDAgOCAwIDQwIDAgNDggMCA0MCAwIDQ4IDMyIDAgMTc1LjkgMCA0OC4xIDAtMi44IDQ4LS44IDEzLjJDNTAzLjUgMzY4LjEgNDU0IDQzOC4yIDM4NCA0NzIuOWwwIDM5LjEtNDggMC0xNjAgMC00OCAwIDAtMzkuMUM1OCA0MzguMiA4LjUgMzY4LjEgMy42IDI4NS4yTDIuOCAyNzIgMCAyMjRsNDguMSAwIDc5LjkgMCAwLTQ4TDAgMTc2bDAtMzIgMTI4LTQgMC0zMkwwIDEyOHpNMjg4IDgzbDAtNDFMNTEyIDBsMCA0OEwyODggODN6bTAgNTJsMjI0LTcgMCA0OC0yMjQgMCAwLTQxek0xNzYgNDY0bDE2MCAwIDAtMjAuOSAyNi43LTEzLjJjNTUuMS0yNy4zIDkzLjktODIuNCA5Ny44LTE0Ny41bC42LTEwLjNMNTAuOSAyNzJsLjYgMTAuM2MzLjggNjUuMSA0Mi43IDEyMC4zIDk3LjggMTQ3LjVMMTc2IDQ0My4xbDAgMjAuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bowl-chopsticks-noodles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bowl-chopsticks-noodles.svg)
  */
 const BowlChopsticksNoodles: typeof Icon = x => (
     <Icon {...x}>

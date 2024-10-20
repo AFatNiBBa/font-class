@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-caret-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-caret-up?s=light circle-caret-up}
- * @preview ![circle-caret-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYTIyNCAyMjQgMCAxIDEgMCA0NDggMjI0IDIyNCAwIDEgMSAwLTQ0OHptMCA0ODBBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem0wLTM1MmMtOS42IDAtMTguNyA0LTI1LjIgMTFMMTM1LjMgMjczLjhjLTQuNyA1LjEtNy4zIDExLjgtNy4zIDE4LjdjMCAxNS4yIDEyLjMgMjcuNSAyNy41IDI3LjVsMjAxIDBjMTUuMiAwIDI3LjUtMTIuMyAyNy41LTI3LjVjMC02LjktMi42LTEzLjYtNy4zLTE4LjdMMjgxLjIgMTcxYy02LjUtNy0xNS42LTExLTI1LjItMTF6bS0xLjcgMzIuN2MuNC0uNSAxLjEtLjcgMS43LS43czEuMyAuMyAxLjcgLjdMMzQ2LjIgMjg4bC0xODAuMyAwIDg4LjQtOTUuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-caret-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-caret-up.svg)
  */
 const CircleCaretUp: typeof Icon = x => (
     <Icon {...x}>

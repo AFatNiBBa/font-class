@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `keyboard-left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard-left?s=sharp-light keyboard-left}
- * @preview ![keyboard-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDk2bDAgMzIwLTQxNiAwIDAtMzIwIDQxNiAwek0xOTIgNjRsLTMyIDAgMCAzMiAwIDMyMCAwIDMyIDMyIDAgNDE2IDAgMzIgMCAwLTMyIDAtMzIwIDAtMzItMzIgMEwxOTIgNjR6bTQwIDcybDAgNDggNDggMCAwLTQ4LTQ4IDB6bTQ4IDk2bC00OCAwIDAgNDggNDggMCAwLTQ4em0tNDggOTZsMCA0OCA0OCAwIDAtNDgtNDggMHpNMzc2IDEzNmwtNDggMCAwIDQ4IDQ4IDAgMC00OHptLTQ4IDk2bDAgNDggNDggMCAwLTQ4LTQ4IDB6bTE0NC05NmwtNDggMCAwIDQ4IDQ4IDAgMC00OHptLTQ4IDk2bDAgNDggNDggMCAwLTQ4LTQ4IDB6bTE0NC05NmwtNDggMCAwIDQ4IDQ4IDAgMC00OHptLTQ4IDk2bDAgNDggNDggMCAwLTQ4LTQ4IDB6bTQ4IDk2bC00OCAwIDAgNDggNDggMCAwLTQ4em0tMjMyIDhsLTE2IDAgMCAzMiAxNiAwIDEyOCAwIDE2IDAgMC0zMi0xNiAwLTEyOCAwek0xMTUuMyAxODcuM0wxMjYuNiAxNzYgMTA0IDE1My40IDkyLjcgMTY0LjdsLTgwIDgwTDEuNCAyNTZsMTEuMyAxMS4zIDgwIDgwTDEwNCAzNTguNiAxMjYuNiAzMzZsLTExLjMtMTEuM0w0Ni42IDI1Nmw2OC43LTY4Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![keyboard-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/keyboard-left.svg)
  */
 const KeyboardLeft: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

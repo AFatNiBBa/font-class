@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bolt-auto` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-auto?s=light bolt-auto}
- * @preview ![bolt-auto](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkxLjQgMGMtNi4xIDAtMTIgMi4yLTE2LjUgNi4zTDguNyAyNDIuOUMzLjIgMjQ3LjggMCAyNTQuOCAwIDI2Mi4yQzAgMjc2LjQgMTEuNiAyODggMjUuOCAyODhsMTExLjUgMEw2OS4yIDQ3OC43QzYzLjQgNDk0LjkgNzUuNCA1MTIgOTIuNiA1MTJjNi4xIDAgMTEuOS0yLjIgMTYuNS02LjJMMzc0LjkgMjcxLjNjNS44LTUuMSA5LjEtMTIuNSA5LjEtMjAuM2MwLTE0LjktMTIuMS0yNy0yNy0yN2wtMTEwLjMgMEwzMTQuOCAzMy4zQzMyMC42IDE3LjEgMzA4LjYgMCAyOTEuNCAwek00Mi4xIDI1NkwyNzUuMyA0OC43bC02Ni40IDE4NmMtMS44IDQuOS0xIDEwLjMgMiAxNC42czcuOSA2LjggMTMuMSA2LjhsMTE5LjggMEwxMDguNiA0NjMuNmw2Ni41LTE4Ni4yYzEuOC00LjkgMS0xMC4zLTItMTQuNnMtNy45LTYuOC0xMy4xLTYuOEw0Mi4xIDI1NnpNNDY0IDI4OGMtNi4xIDAtMTEuNiAzLjQtMTQuMyA4LjhsLTk2IDE5MmMtNCA3LjktLjcgMTcuNSA3LjIgMjEuNXMxNy41IC43IDIxLjUtNy4yTDQwMS45IDQ2NGwxMjQuMiAwIDE5LjYgMzkuMmM0IDcuOSAxMy42IDExLjEgMjEuNSA3LjJzMTEuMS0xMy42IDcuMi0yMS41bC05Ni0xOTJjLTIuNy01LjQtOC4yLTguOC0xNC4zLTguOHptMCA1MS44TDUxMC4xIDQzMmwtOTIuMiAwTDQ2NCAzMzkuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bolt-auto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bolt-auto.svg)
  */
 const BoltAuto: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

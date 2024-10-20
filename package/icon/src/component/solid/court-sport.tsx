@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `court-sport` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/court-sport?s=solid court-sport}
- * @preview ![court-sport](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDQ4MGwtMjQwIDAgMC0xMTMuMWM1NC4zLTcuOCA5Ni01NC40IDk2LTExMC45cy00MS43LTEwMy4xLTk2LTExMC45TDMzNiAzMmwyNDAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyLTY0IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0bDAgMTI4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDY0IDAgMCAzMmMwIDM1LjMtMjguNyA2NC02NCA2NHpNMzA0IDE0NS4xYy01NC4zIDcuOC05NiA1NC40LTk2IDExMC45czQxLjcgMTAzLjEgOTYgMTEwLjlMMzA0IDQ4MCA2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0bDAtMzIgNjQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTEyOGMwLTM1LjMtMjguNy02NC02NC02NEwwIDEyOCAwIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDI0MCAwIDAgMTEzLjF6bTAgMTg5LjNjLTM2LjUtNy40LTY0LTM5LjctNjQtNzguNHMyNy41LTcxIDY0LTc4LjRsMCAxNTYuOHptMzIgMGwwLTE1Ni44YzM2LjUgNy40IDY0IDM5LjcgNjQgNzguNHMtMjcuNSA3MS02NCA3OC40ek01NzYgMTYwbDY0IDAgMCAxOTItNjQgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xMjhjMC0xNy43IDE0LjMtMzIgMzItMzJ6TTY0IDM1MkwwIDM1MiAwIDE2MGw2NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTI4YzAgMTcuNy0xNC4zIDMyLTMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![court-sport](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/court-sport.svg)
  */
 const CourtSport: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

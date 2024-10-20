@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flux-capacitor` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flux-capacitor?s=sharp-regular flux-capacitor}
- * @preview ![flux-capacitor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDgwbDAgMzUyTDQ4IDQzMiA0OCA4MGwzNTIgMHpNNDggMzJMMCAzMiAwIDgwIDAgNDMybDAgNDggNDggMCAzNTIgMCA0OCAwIDAtNDggMC0zNTIgMC00OC00OCAwTDQ4IDMyek0yODMuMyAyNTMuM2M2LjYgMS44IDEzLjYgMi43IDIwLjcgMi43YzQ0LjIgMCA4MC0zNS44IDgwLTgwcy0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwYzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwczM1LjggODAgODAgODBjNy4yIDAgMTQuMS0uOSAyMC43LTIuN2wtNDktNDlMODcuNCAxNzYgMTQ0IDExOS40bDI4LjMgMjguM0wyMjQgMTk5LjRsNTEuNy01MS43TDMwNCAxMTkuNCAzNjAuNiAxNzZsLTI4LjMgMjguMy00OSA0OXpNMTgwLjQgMjY4LjljLTIxLjkgMTQuMy0zNi40IDM5LTM2LjQgNjcuMWMwIDQ0LjIgMzUuOCA4MCA4MCA4MHM4MC0zNS44IDgwLTgwYzAtMjguMS0xNC41LTUyLjgtMzYuNC02Ny4xbC0zLjYgMy42IDAgNjMuNCAwIDQwLTgwIDAgMC00MCAwLTYzLjQtMy42LTMuNnpNMTU1LjMgMTY0LjdMMTQ0IDE1My40IDEyMS40IDE3NmwxMS4zIDExLjNMMjA4IDI2Mi42bDAgNzMuNCAwIDE2IDMyIDAgMC0xNiAwLTczLjQgNzUuMy03NS4zTDMyNi42IDE3NiAzMDQgMTUzLjRsLTExLjMgMTEuM0wyMjQgMjMzLjRsLTY4LjctNjguN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![flux-capacitor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/flux-capacitor.svg)
  */
 const FluxCapacitor: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

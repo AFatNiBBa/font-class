@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signs-post` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signs-post?s=sharp-regular signs-post}
- * @preview ![signs-post](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDBsNDggMCAwIDMyIDE2OCAwIDY0IDgwLTY0IDgwLTE2OCAwIDAgMzIgMTUyIDAgNDggMCAwIDQ4IDAgNjQgMCA0OC00OCAwLTE1MiAwIDAgMTI4LTQ4IDAgMC0xMjhMNjQgMzg0IDAgMzA0bDY0LTgwIDE2OCAwIDAtMzJMODAgMTkybC00OCAwIDAtNDggMC02NCAwLTQ4IDQ4IDAgMTUyIDAgMC0zMnpNNDI0LjkgODBMODAgODBsMCA2NCAzNDQuOSAwIDI1LjYtMzJMNDI0LjkgODB6TTg3LjEgMjcyTDYxLjUgMzA0bDI1LjYgMzJMNDMyIDMzNmwwLTY0TDg3LjEgMjcyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![signs-post](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/signs-post.svg)
  */
 const SignsPost: typeof Icon = x => (
     <Icon {...x}>

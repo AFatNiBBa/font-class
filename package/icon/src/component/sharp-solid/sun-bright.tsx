@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sun-bright` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-bright?s=sharp-solid sun-bright}
- * @preview ![sun-bright](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDI0bDAtMjRMMjMyIDBsMCAyNCAwIDY0IDAgMjQgNDggMCAwLTI0IDAtNjR6bTE1NyA4NC45bDE3LTE3TDQyMCA1OGwtMTcgMTctNDUuMyA0NS4zLTE3IDE3IDMzLjkgMzMuOSAxNy0xN0w0MzcgMTA4Ljl6TTEwOC45IDc1TDkyIDU4IDU4IDkybDE3IDE3IDQ1LjMgNDUuMyAxNyAxNyAzMy45LTMzLjktMTctMTdMMTA4LjkgNzV6TTI0IDIzMkwwIDIzMmwwIDQ4IDI0IDAgNjQgMCAyNCAwIDAtNDgtMjQgMC02NCAwem00MDAgMGwtMjQgMCAwIDQ4IDI0IDAgNjQgMCAyNCAwIDAtNDgtMjQgMC02NCAwek0xNTQuMiAzOTEuOGwxNy0xNy0zMy45LTMzLjktMTcgMTdMNzUgNDAzLjEgNTggNDIwIDkyIDQ1NGwxNy0xNyA0NS4zLTQ1LjN6bTIzNy42LTMzLjlsLTE3LTE3LTMzLjkgMzMuOSAxNyAxN0w0MDMuMSA0MzdsMTcgMTdMNDU0IDQyMGwtMTctMTctNDUuMy00NS4zek0yODAgNDI0bDAtMjQtNDggMCAwIDI0IDAgNjQgMCAyNCA0OCAwIDAtMjQgMC02NHptLTI0LTU2YTExMiAxMTIgMCAxIDAgMC0yMjQgMTEyIDExMiAwIDEgMCAwIDIyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sun-bright](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sun-bright.svg)
  */
 const SunBright: typeof Icon = x => (
     <Icon {...x}>

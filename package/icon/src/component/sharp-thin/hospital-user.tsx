@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hospital-user` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hospital-user?s=sharp-thin hospital-user}
- * @preview ![hospital-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAwTDAgMCAwIDggMCA1MDRsMCA4IDggMCAyNDUuMSAwIDctMTZMMTYgNDk2bDAtMTEyIDEzNiAwIDggMCAwLTE2LTggMEwxNiAzNjhsMC04MCAxMzYgMCA4IDAgMC0xNi04IDBMMTYgMjcyIDE2IDE2bDI4OCAwIDAgMzc5LjZMMzIwIDM1OSAzMjAgOGwwLTgtOCAwTDggMHpNMTM2IDU2bC04IDAgMCA4IDAgMzJMOTYgOTZsLTggMCAwIDggMCA0OCAwIDggOCAwIDMyIDAgMCAzMiAwIDggOCAwIDQ4IDAgOCAwIDAtOCAwLTMyIDMyIDAgOCAwIDAtOCAwLTQ4IDAtOC04IDAtMzIgMCAwLTMyIDAtOC04IDAtNDggMHptOCA0OGwwLTMyIDMyIDAgMCAzMiAwIDggOCAwIDMyIDAgMCAzMi0zMiAwLTggMCAwIDggMCAzMi0zMiAwIDAtMzIgMC04LTggMC0zMiAwIDAtMzIgMzIgMCA4IDAgMC04ek0zNDQgMzg0bC00LjIgOS42LTQyIDk2TDI5NSA0OTZsLTcgMTYgMTcuNSAwIDcgMCAyMzkuMSAwIDcgMCAxNy41IDAtNy0xNi0yLjgtNi40LTQyLTk2TDUyMCAzODRsLTEwLjUgMC0xNTUuMSAwTDM0NCAzODR6TTU1MS41IDQ5NmwtMTcuNSAwLTIwNC4xIDAtMTcuNSAwIDctMTYgMzUtODAgMTU1LjEgMCAzNSA4MCA3IDE2ek0zNjggMjcyYTY0IDY0IDAgMSAxIDEyOCAwIDY0IDY0IDAgMSAxIC0xMjggMHptNjQgODBhODAgODAgMCAxIDAgMC0xNjAgODAgODAgMCAxIDAgMCAxNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hospital-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hospital-user.svg)
  */
 const HospitalUser: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

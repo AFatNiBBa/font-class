@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up?s=sharp-regular up}
- * @preview ![up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDI0MGwwIDQ4IDAgMTQ0IDY0IDAgMC0xNDQgMC00OCA0OCAwIDYwLjEgMEwxOTIgOTkuOSA1MS45IDI0MGw2MC4xIDAgNDggMHpNNDggMjg4TDAgMjg4bDAtNDggMC0xNkwxNTguMSA2NS45IDE5MiAzMmwzMy45IDMzLjlMMzg0IDIyNGwwIDE2IDAgNDgtNDggMC0xNiAwLTQ4IDAgMCA0OCAwIDk2IDAgNDgtNDggMC02NCAwLTQ4IDAgMC00OCAwLTk2IDAtNDgtNDggMC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/up.svg)
  */
 const Up: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

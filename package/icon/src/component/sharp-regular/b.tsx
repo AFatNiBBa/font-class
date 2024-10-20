@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `b` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/b?s=sharp-regular b}
- * @preview ![b](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMzJMMCAzMiAwIDU2IDAgMjMybDAgMjQgMCAyNEwwIDQ1NmwwIDI0IDI0IDAgMTcyIDBjNjguNSAwIDEyNC01NS41IDEyNC0xMjRjMC00OC4yLTI3LjUtOTAtNjcuOC0xMTAuNWMyMi4xLTIxLjggMzUuOC01MiAzNS44LTg1LjVsMC04YzAtNjYuMy01My43LTEyMC0xMjAtMTIwTDI0IDMyek0xNjggMjMyTDQ4IDIzMiA0OCA4MGwxMjAgMGMzOS44IDAgNzIgMzIuMiA3MiA3MmwwIDhjMCAzOS44LTMyLjIgNzItNzIgNzJ6TTQ4IDI4MGwxMjAgMCAyNCAwIDQgMGM0MiAwIDc2IDM0IDc2IDc2cy0zNCA3Ni03NiA3Nkw0OCA0MzJsMC0xNTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![b](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/b.svg)
  */
 const B: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

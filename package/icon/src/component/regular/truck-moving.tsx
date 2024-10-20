@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-moving` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-moving?s=regular truck-moving}
- * @preview ![truck-moving](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzIgODBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgMjIyLjdjOS44LTQuMyAyMC42LTYuNyAzMi02LjdjMjYuMiAwIDQ5LjQgMTIuNiA2NCAzMmMxNC42LTE5LjQgMzcuOC0zMiA2NC0zMnM0OS40IDEyLjYgNjQgMzJsMTYwIDAgMC0yNDhjMC0xMy4zLTEwLjctMjQtMjQtMjRMNzIgODB6TTIwOCA0ODBjLTI2LjIgMC00OS40LTEyLjYtNjQtMzJjLTE0LjYgMTkuNC0zNy44IDMyLTY0IDMyYy00NC4yIDAtODAtMzUuOC04MC04MGwwLTQ4IDAtNDhMMCAxMDRDMCA2NC4yIDMyLjIgMzIgNzIgMzJsMzM2IDBjMzkuOCAwIDcyIDMyLjIgNzIgNzJsMCA0MCA0OC44IDBjMTYuOCAwIDMyLjcgNy41IDQzLjMgMjAuNUw2MzEgMjM2LjRjNS44IDcuMSA5IDE2LjEgOSAyNS4zbDAgMTAuMyAwIDE2IDAgODBjMCAxNy43LTE0LjMgMzItMzIgMzJjMCA0NC4yLTM1LjggODAtODAgODBzLTgwLTM1LjgtODAtODBsLTggMC04IDAtMTQ0IDBjMCA0NC4yLTM1LjggODAtODAgODB6TTUzNSAxOTQuOWMtMS41LTEuOS0zLjgtMi45LTYuMi0yLjlMNDgwIDE5MmwwIDY0IDEwNSAwLTUwLTYxLjF6TTUyOCA0MzJhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0ek0yNDAgNDAwYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6TTgwIDQzMmEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![truck-moving](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/truck-moving.svg)
  */
 const TruckMoving: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

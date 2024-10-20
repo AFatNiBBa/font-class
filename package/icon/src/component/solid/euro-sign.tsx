@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `euro-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/euro-sign?s=solid euro-sign}
- * @preview ![euro-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguMSAyNDBjLS4xIDIuNy0uMSA1LjMtLjEgOGwwIDE2YzAgMi43IDAgNS4zIC4xIDhMMzIgMjcyYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDI4LjMgMEM4OS45IDQxOS45IDE3MCA0ODAgMjY0IDQ4MGwyNCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0yNCAwYy01Ny45IDAtMTA4LjItMzIuNC0xMzMuOS04MEwyNTYgMzM2YzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0xNDMuOCAwYy0uMS0yLjYtLjItNS4zLS4yLThsMC0xNmMwLTIuNyAuMS01LjQgLjItOEwyNTYgMjQwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0xMjUuOSAwYzI1LjctNDcuNiA3Ni04MCAxMzMuOS04MGwyNCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0yNCAwQzE3MCAzMiA4OS45IDkyLjEgNjAuMyAxNzZMMzIgMTc2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDE2LjEgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![euro-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/euro-sign.svg)
  */
 const EuroSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

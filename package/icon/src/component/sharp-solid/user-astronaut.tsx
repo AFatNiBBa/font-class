@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-astronaut` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-astronaut?s=sharp-solid user-astronaut}
- * @preview ![user-astronaut](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzcwLjcgOTZDMzQ2IDM5LjUgMjg5LjYgMCAyMjQgMFMxMDIgMzkuNSA3Ny4zIDk2TDQ4IDk2bDAgMTI4IDI5LjMgMGMyNC43IDU2LjUgODEuMSA5NiAxNDYuNyA5NnMxMjItMzkuNSAxNDYuNy05NmwyOS4zIDAgMC0xMjgtMjkuMyAwek0zMzYgMTI4bDAgMzJjMCA1My00MyA5Ni05NiA5NmwtMzIgMGMtNTMgMC05Ni00My05Ni05NmwwLTMyIDMyLTMyIDE2MCAwIDMyIDMyek0xOTIgMTYwbC0xNi0zMi0xNiAzMi0zMiAxNiAzMiAxNiAxNiAzMiAxNi0zMiAzMi0xNi0zMi0xNnpNOTcgMzA0bC00OSAwTDAgNTEybDEyOCAwIDAtOTYgMTkyIDAgMCA5NiAxMjggMEw0MDAgMzA0bC00OSAwYy0zMy44IDI5LjktNzguMyA0OC0xMjcgNDhzLTkzLjItMTguMS0xMjctNDh6bTk1IDE0NGwtMzIgMCAwIDE2IDAgNDggMzIgMCAwLTQ4IDAtMTZ6bTgwIDMyYTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-astronaut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-astronaut.svg)
  */
 const UserAstronaut: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

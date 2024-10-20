@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `french-fries` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/french-fries?s=sharp-regular french-fries}
- * @preview ![french-fries](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTcuNCAyMjEuNEw2NCAzMiAxMTIgMGwxNiA5MC43TDEyOCAyNzJsLTEwLjMgMEw5Ny40IDIyMS40ek01OS43IDE5MmwtNDEuMSAwTDAgODAgNDEuOCA5MC41IDU5LjcgMTkyem0zMDUuNiAwbC0zOS42IDBMMzQyLjcgOTAuMyAzODQgODAgMzY1LjMgMTkyem0tNzUuNiAyMS40TDI2Ni4zIDI3MiAyNTYgMjcybDAtMjI0IDY0LTE2TDI4OS44IDIxMy40ek0yMjQgMjcybC02NCAwTDE2MCAwbDY0IDMyIDAgMjA4IDAgMzJ6TTY0IDIyNGwzMiA4MCAxOTIgMCAzMi04MCAxNC44IDAgNDkuMiAwLTEwLjcgNDhMMzIwIDUxMiA2NCA1MTIgMTAuNyAyNzIgMCAyMjRsNDkuMiAwTDY0IDIyNHpNMjg4IDM1Mkw5NiAzNTJsLTE4LjQgMCAyNC45IDExMiAxNzkgMCAyNC45LTExMkwyODggMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![french-fries](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/french-fries.svg)
  */
 const FrenchFries: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

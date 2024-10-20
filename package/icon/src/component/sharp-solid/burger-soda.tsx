@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burger-soda` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-soda?s=sharp-solid burger-soda}
- * @preview ![burger-soda](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBMMjA1IDBsLTQuNCAxOC41TDE3NC45IDEyOCAzMiAxMjggMCAxMjhsMCA2NCAzMiAwIDMwMS4xIDBjMTQuNS04LjUgMzEuMy0xNiA1MC45LTIxLjZsMC00Mi40LTMyIDAtMTI3LjggMEwyNDMgNDhsMzcgMCAyNCAwIDAtNDhMMjgwIDAgMjI0IDB6TTQwIDIyNEw2NCA1MTJsMTkyIDAgMC0yMjkuNGMzLTkuMSA2LjctMTcuNSAxMS42LTI1LjljNS40LTkuMyAxMy40LTIwLjggMjQuOC0zMi43TDQwIDIyNHptNjAwIDYzLjhzLTMyLTk2LTE3Ni05NnMtMTc2IDk2LTE3NiA5NmwwIDMyIDM1MiAwIDAtMzJ6bS0yNTYtNDhhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem02NCAwYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bTk2IDBhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem0tMjU2IDExMmwwIDY0IDM1MiAwIDAtNjQtMzUyIDB6bTAgOTZsMCA2NCAzNTIgMCAwLTY0LTM1MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![burger-soda](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/burger-soda.svg)
  */
 const BurgerSoda: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

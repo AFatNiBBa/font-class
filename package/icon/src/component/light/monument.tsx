@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `monument` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monument?s=light monument}
- * @preview ![monument](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgwLjcgNC43YzYuMi02LjIgMTYuNC02LjIgMjIuNiAwbDgwIDgwYzIuNSAyLjUgNC4yIDUuOSA0LjYgOS40bDMyIDI3MmMxIDguOC01LjIgMTYuNy0xNCAxNy44cy0xNi43LTUuMi0xNy44LTE0TDI1Ni44IDEwMy40IDE5MiAzOC42bC02NC44IDY0LjhMOTUuOSAzNjkuOWMtMSA4LjgtOSAxNS4xLTE3LjggMTRzLTE1LjEtOS0xNC0xNy44bDMyLTI3MmMuNC0zLjYgMi02LjkgNC42LTkuNGw4MC04MHpNMTQ0IDMwNGMwLTguOCA3LjItMTYgMTYtMTZsNjQgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtNjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2ek00MCA0MTZsMzA0IDBjMjIuMSAwIDQwIDE3LjkgNDAgNDBsMCAxNmMwIDIyLjEtMTcuOSA0MC00MCA0MEw0MCA1MTJjLTIyLjEgMC00MC0xNy45LTQwLTQwbDAtMTZjMC0yMi4xIDE3LjktNDAgNDAtNDB6bS04IDQwbDAgMTZjMCA0LjQgMy42IDggOCA4bDMwNCAwYzQuNCAwIDgtMy42IDgtOGwwLTE2YzAtNC40LTMuNi04LTgtOEw0MCA0NDhjLTQuNCAwLTggMy42LTggOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![monument](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/monument.svg)
  */
 const Monument: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

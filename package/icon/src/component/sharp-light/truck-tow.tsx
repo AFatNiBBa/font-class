@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-tow` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-tow?s=sharp-light truck-tow}
- * @preview ![truck-tow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJsMC0xNkw2NCAwIDgwIDAgOTYgMGwzLjggMEwxNjAgMCAzODQgMjUybDAtMTQwIDAtMTYgMTYgMCAxMTIgMCA3LjggMCA0LjggNi4yIDExMiAxNDQgMy40IDQuMyAwIDUuNSAwIDE0NCAwIDE2LTE2IDAtNDggMGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwtMTI4IDBjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZsLTQ4IDBMMCA0MTZsMC0xNkwwIDI3MmwwLTE2IDE2IDAgMTc2IDBMOTYgNjRsMCAxMTJjMCAyMC45LTEzLjQgMzguNy0zMiA0NS4zbDAgMi43LTE2IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTYgMC0xNiAzMiAwIDAgMTYgMCAxNmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2TDY0IDMyek0yNTAuNSAzODRsMTM4LjkgMGMxMy4yLTM3LjMgNDguNy02NCA5MC41LTY0czc3LjQgMjYuNyA5MC41IDY0bDM3LjUgMCAwLTk2LTE5MiAwLTMyIDAtMTAuOCAwTDIwOCAyODggMzIgMjg4bDAgOTYgMzcuNSAwYzEzLjItMzcuMyA0OC43LTY0IDkwLjUtNjRzNzcuNCAyNi43IDkwLjUgNjR6TTQxNiA0MTZhNjQgNjQgMCAxIDAgMTI4IDAgNjQgNjQgMCAxIDAgLTEyOCAwem0wLTI4OGwwIDEyOCAxODcuNyAwTDUwNC4yIDEyOCA0MTYgMTI4ek0xMTUuOCAzMmwxMTIgMjI0IDExNyAwTDE0NS42IDMybC0yOS45IDB6TTIyNCA0MTZBNjQgNjQgMCAxIDAgOTYgNDE2YTY0IDY0IDAgMSAwIDEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-tow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-tow.svg)
  */
 const TruckTow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

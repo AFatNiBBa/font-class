@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `swap-arrows` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swap-arrows?s=thin swap-arrows}
- * @preview ![swap-arrows](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA2LjMgMTguM2MzLjEtMy4xIDguMi0zLjEgMTEuMyAwbDk2IDk2YzMuMSAzLjEgMy4xIDguMiAwIDExLjNzLTguMiAzLjEtMTEuMyAwTDEyMCA0My4zIDEyMCAzNjhjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwwLTIyNGMwLTYxLjkgNTAuMS0xMTIgMTEyLTExMnMxMTIgNTAuMSAxMTIgMTEybDAgMzI0LjcgODIuMy04Mi40YzMuMS0zLjEgOC4yLTMuMSAxMS4zIDBzMy4xIDguMiAwIDExLjNsLTk2IDk2Yy0zLjEgMy4xLTguMiAzLjEtMTEuMyAwbC05Ni05NmMtMy4xLTMuMS0zLjEtOC4yIDAtMTEuM3M4LjItMy4xIDExLjMgMEw1MjAgNDY4LjcgNTIwIDE0NGMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NmwwIDIyNGMwIDYxLjktNTAuMSAxMTItMTEyIDExMnMtMTEyLTUwLjEtMTEyLTExMmwwLTMyNC43TDIxLjcgMTI1LjdjLTMuMSAzLjEtOC4yIDMuMS0xMS4zIDBzLTMuMS04LjIgMC0xMS4zbDk2LTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![swap-arrows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/swap-arrows.svg)
  */
 const SwapArrows: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

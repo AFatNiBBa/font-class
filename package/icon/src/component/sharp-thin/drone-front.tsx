@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `drone-front` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drone-front?s=sharp-thin drone-front}
- * @preview ![drone-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDEwNGwwLTgtMTYgMCAwIDggMCAyNEwxNiAxMjhsLTggMCAwIDE2IDggMCAxMjAgMCAwIDE1MiAwIDggOCAwIDUzLjYgMHMwIDAgMCAwbC0zNS43IDQyLjktMS45IDIuMiAwIDIuOSAwIDU2IDAgOCAxNiAwIDAtOCAwLTUzLjEgMzUtNDIgNTYuNiAzNy43IDIgMS4zIDIuNCAwIDk2IDAgMi40IDAgMi0xLjNMNDI5IDMxMi45bDM1IDQyIDAgNTMuMSAwIDggMTYgMCAwLTggMC01NiAwLTIuOS0xLjktMi4yTDQ0Mi40IDMwNHMwIDAgMCAwbDUzLjYgMCA4IDAgMC04IDAtMTUyIDEyMCAwIDggMCAwLTE2LTggMC0xMjAgMCAwLTI0IDAtOC0xNiAwIDAgOCAwIDI0LTEyMCAwLTggMCAwIDE2IDggMCAxMjAgMCAwIDk5LjgtODAtMzVjLTI1LjMtMTEuMS01Mi42LTE2LjgtODAuMi0xNi44bC0xNS43IDBjLTI3LjYgMC01NC45IDUuNy04MC4yIDE2LjhsLTgwIDM1IDAtOTkuOCAxMjAgMCA4IDAgMC0xNi04IDAtMTIwIDAgMC0yNHptMCAxNTcuMmw4Ni40LTM3LjhjMjMuMy0xMC4yIDQ4LjQtMTUuNCA3My44LTE1LjRsMTUuNyAwYzI1LjQgMCA1MC41IDUuMyA3My44IDE1LjRMNDg4IDI2MS4ybDAgMjYuOC00OCAwLTIuNCAwLTIgMS4zLTcwIDQ2LjctOTEuMiAwLTcwLTQ2LjctMi0xLjMtMi40IDAtNDggMCAwLTI2Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![drone-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/drone-front.svg)
  */
 const DroneFront: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

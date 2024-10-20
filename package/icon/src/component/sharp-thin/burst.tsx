@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burst` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burst?s=sharp-thin burst}
- * @preview ![burst](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyLjggMTE4LjhsLTQ4LTEwMC4zTDI1NiAwbC04LjkgMTguNS00MSA4NS44LTYuOSAxNC41LTEzLjgtOC4yTDI4LjkgMTcuMyAwIDAgMTcuMyAyOC45bDkzLjMgMTU2LjUgOC4yIDEzLjgtMTQuNSA2LjktODUuOCA0MUwwIDI1NmwxOC41IDguOSAxMDAuMyA0OC0zNyAxMDQuOEw3NSA0MzdsMTkuNC02LjggMTA0LjgtMzcgNDggMTAwLjNMMjU2IDUxMmw4LjktMTguNSA0OC0xMDAuMyAxMDQuOCAzN0w0MzcgNDM3bC02LjgtMTkuNC0zNy0xMDQuOCAxMDAuMy00OEw1MTIgMjU2bC0xOC41LTguOS0xMDAuMy00OCAzNy0xMDQuOEw0MzcgNzVsLTE5LjQgNi44LTEwNC44IDM3em05OC0xNy42bC0zMi43IDkyLjYtNC44IDEzLjYgMTMgNi4yTDQ3NC45IDI1NmwtODguNiA0Mi40LTEzIDYuMiA0LjggMTMuNiAzMi43IDkyLjYtOTIuNi0zMi43LTEzLjYtNC44LTYuMiAxM0wyNTYgNDc0LjlsLTQyLjQtODguNi02LjItMTMtMTMuNiA0LjgtOTIuNiAzMi43IDMyLjctOTIuNiA0LjgtMTMuNi0xMy02LjJMMzcuMSAyNTZsODguNi00Mi40IDE1LjgtNy42LTktMTUuMUw0Ni4yIDQ2LjIgMTkxIDEzMi42bDE1LjEgOSA3LjYtMTUuOEwyNTYgMzcuMWw0Mi40IDg4LjYgNi4yIDEzIDEzLjYtNC44IDkyLjYtMzIuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/burst.svg)
  */
 const Burst: typeof Icon = x => (
     <Icon {...x}>

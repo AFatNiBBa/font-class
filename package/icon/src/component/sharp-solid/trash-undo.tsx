@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-undo` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-undo?s=sharp-solid trash-undo}
- * @preview ![trash-undo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDBsMTYgMzIgMTI4IDAgMCA2NEwwIDk2IDAgMzJsMTI4IDBMMTQ0IDAgMzA0IDB6TTMyIDEyOGwzODQgMEwzOTIgNTEyIDU2IDUxMiAzMiAxMjh6TTIwOSAyNDFsMTctMTdMMTkyIDE5MC4xbC0xNyAxNy02NCA2NC0xNyAxNyAxNyAxNyA2NCA2NCAxNyAxN0wyMjUuOSAzNTJsLTE3LTE3LTIzLTIzIDU0LjEgMGMyMi4xIDAgNDAgMTcuOSA0MCA0MGwwIDQwIDAgMjQgNDggMCAwLTI0IDAtNDBjMC00OC42LTM5LjQtODgtODgtODhsLTU0LjEgMCAyMy0yM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trash-undo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/trash-undo.svg)
  */
 const TrashUndo: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

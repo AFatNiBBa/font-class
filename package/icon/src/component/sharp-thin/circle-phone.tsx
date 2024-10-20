@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-phone` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-phone?s=sharp-thin circle-phone}
- * @preview ![circle-phone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDEgMCA0ODAgMjQwIDI0MCAwIDEgMSAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0yMDcgMTI0LjFsLTIuOS01LjItNS44IDEuMy03MiAxNi02LjMgMS40IDAgNi40IDAgMTZzMCAwIDAgMGMwIDEyOC4xIDEwMy45IDIzMiAyMzIgMjMybDE2IDAgNi40IDAgMS40LTYuMyAxNi03MiAxLjMtNS44LTUuMi0yLjktNzItNDAtNS45LTMuMy00LjIgNS4zLTI5LjMgMzYuNmMtMjguMy0xNi4zLTUxLjgtMzkuOC02OC4xLTY4LjFMMjQ1IDIwNi4zbDUuMy00LjItMy4zLTUuOS00MC03MnpNMTM2IDE2MGwwLTkuNiA1OS45LTEzLjNMMjI5LjcgMTk4bC0zNi42IDI5LjMtNS4yIDQuMSAzLjEgNS44YzE4LjggMzUuNiA0OC4xIDY0LjkgODMuNyA4My43bDUuOCAzLjEgNC4xLTUuMkwzMTQgMjgyLjNsNjAuOSAzMy44TDM2MS42IDM3NmwtOS42IDBjLTExOS4zIDAtMjE2LTk2LjctMjE2LTIxNmMwIDAgMCAwIDAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-phone.svg)
  */
 const CirclePhone: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `loader` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/loader?s=sharp-regular loader}
- * @preview ![loader](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDI0bDAtMjRMMjMyIDBsMCAyNCAwIDgwIDAgMjQgNDggMCAwLTI0IDAtODB6bTAgMzg0bDAtMjQtNDggMCAwIDI0IDAgODAgMCAyNCA0OCAwIDAtMjQgMC04MHpNMCAyMzJsMCA0OCAyNCAwIDgwIDAgMjQgMCAwLTQ4LTI0IDAtODAgMEwwIDIzMnptNDA4IDBsLTI0IDAgMCA0OCAyNCAwIDgwIDAgMjQgMCAwLTQ4LTI0IDAtODAgMHpNNDU0IDkyTDQyMCA1OGwtMTcgMTctNTYuNiA1Ni42LTE3IDE3IDMzLjkgMzMuOSAxNy0xN0w0MzcgMTA4LjlsMTctMTd6TTE2NS41IDM4MC40bDE3LTE3LTMzLjktMzMuOS0xNyAxN0w3NSA0MDMuMSA1OCA0MjAgOTIgNDU0bDE3LTE3IDU2LjYtNTYuNnpNOTIgNThMNTggOTJsMTcgMTcgNTYuNiA1Ni42IDE3IDE3IDMzLjktMzMuOS0xNy0xN0wxMDguOSA3NSA5MiA1OHpNMzgwLjUgMzQ2LjVsLTE3LTE3LTMzLjkgMzMuOSAxNyAxN0w0MDMuMSA0MzdsMTcgMTdMNDU0IDQyMGwtMTctMTctNTYuNi01Ni42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![loader](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/loader.svg)
  */
 const Loader: typeof Icon = x => (
     <Icon {...x}>

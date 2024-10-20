@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `people-line` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-line?s=sharp-solid people-line}
- * @preview ![people-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDExMmE0MCA0MCAwIDEgMCAwLTgwIDQwIDQwIDAgMSAwIDAgODB6TTE0NCAyMDhhNDAgNDAgMCAxIDAgMC04MCA0MCA0MCAwIDEgMCAwIDgwem0zOTItNDBhNDAgNDAgMCAxIDAgLTgwIDAgNDAgNDAgMCAxIDAgODAgMHpNOTYgMjI0bC0xNC4xIDBMNzUgMjM2LjMgMTkgMzM3LjFsLTExLjcgMjEgNDIgMjMuMyAxMS43LTIxIDI3LTQ4LjZMODggMzg0bDExMiAwIDAtNzIuMiAyNyA0OC42IDExLjcgMjEgNDItMjMuMy0xMS43LTIxLTM1LjItNjMuNSAzLjQtNi4zTDI2NCAyMTcuNWwwIDg2LjUgMTEyIDAgMC04Ni41IDI2LjkgNDkuOSAzLjQgNi4zTDM3MSAzMzcuMWwtMTEuNyAyMSA0MiAyMy4zIDExLjctMjEgMjctNDguNiAwIDcyLjIgMTEyIDAgMC03Mi4yIDI3IDQ4LjYgMTEuNyAyMSA0Mi0yMy4zLTExLjctMjFMNTY1IDIzNi4zIDU1OC4xIDIyNCA1NDQgMjI0bC05NiAwLTE0IDAtNDQuOS04My40TDM4Mi4zIDEyOCAzNjggMTI4bC05NiAwLTE0LjMgMC02LjggMTIuNkwyMDYgMjI0bC0xNCAwLTk2IDB6TTMyIDQxNkwwIDQxNmwwIDY0IDMyIDAgNTc2IDAgMzIgMCAwLTY0LTMyIDBMMzIgNDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![people-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/people-line.svg)
  */
 const PeopleLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

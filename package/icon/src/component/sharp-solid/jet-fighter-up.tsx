@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jet-fighter-up` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jet-fighter-up?s=sharp-solid jet-fighter-up}
- * @preview ![jet-fighter-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzOTJsMCAyNCA0OCAwIDAtMjQgMC04IDE0NCAwIDAgMzItNjQgNjQgMCAzMiAxMTIgMCAwLTQ4IDAtMTYgMzIgMCAwIDE2IDAgNDggMTEyIDAgMC0zMi02NC02NCAwLTMyIDE0NCAwIDAgOCAwIDI0IDQ4IDAgMC0yNCAwLTExMiAwLTI0LTQ4IDAgMCAyNCAwIDE2TDMyMCAyMTZsMC04OEwyNzIgMCAyNDAgMCAxOTIgMTI4bDAgODhMNDggMjk2bDAtMTYgMC0yNEwwIDI1NmwwIDI0TDAgMzkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![jet-fighter-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/jet-fighter-up.svg)
  */
 const JetFighterUp: typeof Icon = x => (
     <Icon {...x}>

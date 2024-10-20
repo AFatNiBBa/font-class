@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `unlock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/unlock?s=sharp-solid unlock}
- * @preview ![unlock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0Yy00NC4yIDAtODAgMzUuOC04MCA4MGwwIDQ4IDMwNCAwIDAgMzIwTDAgNTEyIDAgMTkybDgwIDAgMC00OEM4MCA2NC41IDE0NC41IDAgMjI0IDBjNzQuMSAwIDEzNS4yIDU2IDE0My4xIDEyOGwtNjQuNyAwQzI5NSA5MS41IDI2Mi43IDY0IDIyNCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![unlock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/unlock.svg)
  */
 const Unlock: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

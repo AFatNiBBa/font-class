@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `layer-group` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-group?s=solid layer-group}
- * @preview ![layer-group](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY0LjUgNS4yYzE0LjktNi45IDMyLjEtNi45IDQ3IDBsMjE4LjYgMTAxYzguNSAzLjkgMTMuOSAxMi40IDEzLjkgMjEuOHMtNS40IDE3LjktMTMuOSAyMS44bC0yMTguNiAxMDFjLTE0LjkgNi45LTMyLjEgNi45LTQ3IDBMNDUuOSAxNDkuOEMzNy40IDE0NS44IDMyIDEzNy4zIDMyIDEyOHM1LjQtMTcuOSAxMy45LTIxLjhMMjY0LjUgNS4yek00NzYuOSAyMDkuNmw1My4yIDI0LjZjOC41IDMuOSAxMy45IDEyLjQgMTMuOSAyMS44cy01LjQgMTcuOS0xMy45IDIxLjhsLTIxOC42IDEwMWMtMTQuOSA2LjktMzIuMSA2LjktNDcgMEw0NS45IDI3Ny44QzM3LjQgMjczLjggMzIgMjY1LjMgMzIgMjU2czUuNC0xNy45IDEzLjktMjEuOGw1My4yLTI0LjYgMTUyIDcwLjJjMjMuNCAxMC44IDUwLjQgMTAuOCA3My44IDBsMTUyLTcwLjJ6bS0xNTIgMTk4LjJsMTUyLTcwLjIgNTMuMiAyNC42YzguNSAzLjkgMTMuOSAxMi40IDEzLjkgMjEuOHMtNS40IDE3LjktMTMuOSAyMS44bC0yMTguNiAxMDFjLTE0LjkgNi45LTMyLjEgNi45LTQ3IDBMNDUuOSA0MDUuOEMzNy40IDQwMS44IDMyIDM5My4zIDMyIDM4NHM1LjQtMTcuOSAxMy45LTIxLjhsNTMuMi0yNC42IDE1MiA3MC4yYzIzLjQgMTAuOCA1MC40IDEwLjggNzMuOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![layer-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/layer-group.svg)
  */
 const LayerGroup: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

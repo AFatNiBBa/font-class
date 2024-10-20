@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-arrow-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-arrow-up?s=regular message-arrow-up}
- * @preview ![message-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDQxNmMwLTI2LjUtMjEuNS00OC00OC00OGwtOTYgMGMtOC44IDAtMTYtNy4yLTE2LTE2TDQ4IDY0YzAtOC44IDcuMi0xNiAxNi0xNmwzODQgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAyODhjMCA4LjgtNy4yIDE2LTE2IDE2bC0xMzguNyAwYy0xMC40IDAtMjAuNSAzLjQtMjguOCA5LjZMMjA4IDQzMmwwLTE2em0tLjIgNzYuMmwuMi0uMiAxMDEuMy03Nkw0NDggNDE2YzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjg4YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgMzUyYzAgMzUuMyAyOC43IDY0IDY0IDY0bDQ4IDAgNDggMCAwIDQ4IDAgNCAwIC4zIDAgNi40IDAgMjEuM2MwIDYuMSAzLjQgMTEuNiA4LjggMTQuM3MxMS45IDIuMSAxNi44LTEuNUwyMDIuNyA0OTZsNS4xLTMuOHpNMjgwIDI5NmwwLTExOC4xIDMxIDMxYzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtNzItNzJjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwbC03MiA3MmMtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlzMjQuNiA5LjQgMzMuOSAwbDMxLTMxTDIzMiAyOTZjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![message-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/message-arrow-up.svg)
  */
 const MessageArrowUp: typeof Icon = x => (
     <Icon {...x}>

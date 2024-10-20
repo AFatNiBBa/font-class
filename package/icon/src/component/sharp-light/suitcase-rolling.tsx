@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `suitcase-rolling` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/suitcase-rolling?s=sharp-light suitcase-rolling}
- * @preview ![suitcase-rolling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDBMOTYgMGwwIDE2IDAgMTEyLTY0IDBMMCAxMjhsMCAzMkwwIDQ0OGwwIDMyIDMyIDAgMzIgMCAwIDE2IDAgMTYgMzIgMCAwLTE2IDAtMTYgMTkyIDAgMCAxNiAwIDE2IDMyIDAgMC0xNiAwLTE2IDMyIDAgMzIgMCAwLTMyIDAtMjg4IDAtMzItMzIgMC02NCAwIDAtMTEyIDAtMTZMMjcyIDAgMTEyIDB6TTMyMCA0NDhsLTMyIDBMOTYgNDQ4bC0zMiAwLTMyIDAgMC0yODggODAgMCAxNjAgMCA4MCAwIDAgMjg4LTMyIDB6TTI1NiAxMjhsLTEyOCAwIDAtOTYgMTI4IDAgMCA5NnpNOTYgMjQwbDAgMzIgMTYgMCAxNjAgMCAxNiAwIDAtMzItMTYgMC0xNjAgMC0xNiAwem0wIDk2bDAgMzIgMTYgMCAxNjAgMCAxNiAwIDAtMzItMTYgMC0xNjAgMC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![suitcase-rolling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/suitcase-rolling.svg)
  */
 const SuitcaseRolling: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gun-squirt` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun-squirt?s=sharp-light gun-squirt}
- * @preview ![gun-squirt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQ4bDAtMTZMOTYgMzJsMCAxNiAwIDE2QzQzIDY0IDAgMTA3IDAgMTYwYzAgNTAuNCAzOC44IDkxLjcgODguMSA5NS43TDQwIDQ0OGwtOCAzMiAzMyAwIDEyNyAwIDMyLTEyOCA2NCAwIDAgMTYgMCAxNiAzMiAwIDAtMTYgMC0zMiAwLTMyIDAtMTYtMzIgMCAwIDE2IDAgMTYtNTYgMCAxNi02NCAyNjQgMCAxNiAwIDAtMTYgMC0zMiAzMiAwIDE2IDAgMC0xNiAwLTY0IDAtMTYtMTYgMC0zMiAwIDAtMzIgMC0xNi0xNiAwTDEyOCA2NGwwLTE2ek05NiA5NmwzMiAwIDM2OCAwIDAgMzIgMCAxNiAxNiAwIDMyIDAgMCAzMi0zMiAwLTE2IDAgMCAxNiAwIDMyTDk2IDIyNGMtMzUuMyAwLTY0LTI4LjctNjQtNjRzMjguNy02NCA2NC02NHptMCA0OGwtMTYgMCAwIDMyIDE2IDAgMzUyIDAgMTYgMCAwLTMyLTE2IDBMOTYgMTQ0ek0yMTUgMjU2TDE2NyA0NDhsLTk0IDAgNDgtMTkyIDk0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![gun-squirt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gun-squirt.svg)
  */
 const GunSquirt: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

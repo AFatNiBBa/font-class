@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hot-tub-person` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hot-tub-person?s=sharp-regular hot-tub-person}
- * @preview ![hot-tub-person](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMGE2NCA2NCAwIDEgMSAwIDEyOEE2NCA2NCAwIDEgMSA2NCAwem02NCAxNjBsMTI4IDk2IDEyMCAwIDI0IDAgNjQgMCA0OCAwIDAgNDggMCAxNjAgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4TDAgMzM2bDAtNTYgMC0yNCAwLTQ4IDAtNDggNDggMCA4MCAwem0tMTYgNDhsLTY0IDAgMCA0OCA4OCAwIDQwIDAtNjQtNDh6TTQ4IDMzNmwwIDEyOCA2NCAwIDAtMTYwLTY0IDAgMCAzMnpNMjMyIDQ2NGwwLTE2MC03MiAwIDAgMTYwIDcyIDB6bTEyMCAwbDAtMTYwLTcyIDAgMCAxNjAgNzIgMHptNDggMGw2NCAwIDAtMTYwLTY0IDAgMCAxNjB6TTI3MiAyNGMwIDI2LjcgMTQuMyA0Ni40IDM1IDczLjRsMS40IDEuOUMzMjcuNSAxMjQgMzUyIDE1NS44IDM1MiAyMDBsMCAyNC00OCAwIDAtMjRjMC0yNi43LTE0LjMtNDYuNC0zNS03My40bC0xLjQtMS45QzI0OC41IDEwMCAyMjQgNjguMiAyMjQgMjRsMC0yNCA0OCAwIDAgMjR6bTExMiAwYzAgMjYuNyAxNC4zIDQ2LjQgMzUgNzMuNGwxLjQgMS45QzQzOS41IDEyNCA0NjQgMTU1LjggNDY0IDIwMGwwIDI0LTQ4IDAgMC0yNGMwLTI2LjctMTQuMy00Ni40LTM1LTczLjRsLTEuNC0xLjlDMzYwLjUgMTAwIDMzNiA2OC4yIDMzNiAyNGwwLTI0IDQ4IDAgMCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hot-tub-person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hot-tub-person.svg)
  */
 const HotTubPerson: typeof Icon = x => (
     <Icon {...x}>

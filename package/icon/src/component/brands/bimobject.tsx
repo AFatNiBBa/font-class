@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bimobject` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bimobject?s=brands bimobject}
- * @preview ![bimobject](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMySDMyQzE0LjQgMzIgMCA0Ni40IDAgNjR2Mzg0YzAgMTcuNiAxNC40IDMyIDMyIDMyaDM4NGMxNy42IDAgMzItMTQuNCAzMi0zMlY2NGMwLTE3LjYtMTQuNC0zMi0zMi0zMnptLTY0IDI1Ny40YzAgNDkuNC0xMS40IDgyLjYtMTAzLjggODIuNmgtMTYuOWMtNDQuMSAwLTYyLjQtMTQuOS03MC40LTM4LjhoLS45VjM2OEg5NlYxMzZoNjR2NzQuN2gxLjFjNC42LTMwLjUgMzkuNy0zOC44IDY5LjctMzguOGgxNy4zYzkyLjQgMCAxMDMuOCAzMy4xIDEwMy44IDgyLjV2MzV6bS02NC0yOC45djIyLjljMCAyMS43LTMuNCAzMy44LTM4LjQgMzMuOGgtNDUuM2MtMjguOSAwLTQ0LjEtNi41LTQ0LjEtMzUuN3YtMTljMC0yOS4zIDE1LjItMzUuNyA0NC4xLTM1LjdoNDUuM2MzNS0uMiAzOC40IDEyIDM4LjQgMzMuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bimobject](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/bimobject.svg)
  */
 const Bimobject: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-xmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-xmark?s=sharp-light shield-xmark}
- * @preview ![shield-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNSAxMTQuOUwyNTYgMzQuM2wyMDcuNSA4MC41YzIuNyA0NS42LTQuNSAxMTYuOC0zNC43IDE4Ni4zUzM0NS40IDQzOC40IDI1NiA0NzcuMUMxNjYuNiA0MzguNCAxMTMuNCAzNzAuNyA4My4yIDMwMS4yUzQ1LjggMTYwLjUgNDguNSAxMTQuOXptNDQ3LTEuOWwtMS4yLTIwLjVMNDc1LjEgODUgMjY3LjYgNC41IDI1NiAwIDI0NC40IDQuNSAzNi45IDg1IDE3LjggOTIuNSAxNi42IDExM2MtMi45IDQ5LjkgNC45IDEyNi4zIDM3LjMgMjAwLjljMzIuNyA3NS4zIDkxIDE1MCAxODkuNCAxOTIuNkwyNTYgNTEybDEyLjctNS41Yzk4LjQtNDIuNiAxNTYuNy0xMTcuMyAxODkuNC0xOTIuNmMzMi40LTc0LjcgNDAuMi0xNTEgMzcuMy0yMDAuOXptLTMwNCA1NS44bC0yMi42IDIyLjYgMTEuMyAxMS4zTDIzMy40IDI1NmwtNTMuMyA1My4zLTExLjMgMTEuMyAyMi42IDIyLjYgMTEuMy0xMS4zTDI1NiAyNzguNmw1My4zIDUzLjMgMTEuMyAxMS4zIDIyLjYtMjIuNi0xMS4zLTExLjNMMjc4LjYgMjU2bDUzLjMtNTMuMyAxMS4zLTExLjMtMjIuNi0yMi42LTExLjMgMTEuM0wyNTYgMjMzLjRsLTUzLjMtNTMuMy0xMS4zLTExLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shield-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shield-xmark.svg)
  */
 const ShieldXmark: typeof Icon = x => (
     <Icon {...x}>

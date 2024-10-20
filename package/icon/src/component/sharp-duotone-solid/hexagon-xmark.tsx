@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `hexagon-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-xmark?s=sharp-duotone-solid hexagon-xmark}
- * @preview ![hexagon-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NkwxMjggMzJsMjU2IDBMNTEyIDI1NiAzODQgNDgwbC0yNTYgMEwwIDI1NnptMTU4LjEtNjRjNS43IDUuNyAxMS4zIDExLjMgMTcgMTdjMTUuNyAxNS43IDMxLjQgMzEuNCA0NyA0N2MtMTUuNyAxNS43LTMxLjQgMzEuNC00NyA0N2MtNS43IDUuNy0xMS4zIDExLjMtMTcgMTdjMTEuMyAxMS4zIDIyLjYgMjIuNiAzMy45IDMzLjlsMTctMTdjMTUuNy0xNS43IDMxLjQtMzEuNCA0Ny00N2w0NyA0NyAxNyAxN0wzNTMuOSAzMjBjLTUuNy01LjctMTEuMy0xMS4zLTE3LTE3Yy0xNS43LTE1LjctMzEuNC0zMS40LTQ3LTQ3YzE1LjctMTUuNyAzMS40LTMxLjQgNDctNDdjNS43LTUuNyAxMS4zLTExLjMgMTctMTdjLTExLjMtMTEuMy0yMi42LTIyLjYtMzMuOS0zMy45Yy01LjcgNS43LTExLjMgMTEuMy0xNyAxN2MtMTUuNyAxNS43LTMxLjQgMzEuNC00NyA0N2MtMTUuNy0xNS43LTMxLjQtMzEuNC00Ny00N2MtNS43LTUuNy0xMS4zLTExLjMtMTctMTdjLTExLjMgMTEuMy0yMi42IDIyLjYtMzMuOSAzMy45eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzM3IDIwOWwxNy0xN0wzMjAgMTU4LjFsLTE3IDE3LTQ3IDQ3LTQ3LTQ3LTE3LTE3TDE1OC4xIDE5MmwxNyAxNyA0NyA0Ny00NyA0Ny0xNyAxN0wxOTIgMzUzLjlsMTctMTcgNDctNDcgNDcgNDcgMTcgMTdMMzUzLjkgMzIwbC0xNy0xNy00Ny00NyA0Ny00N3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hexagon-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hexagon-xmark.svg)
  */
 const HexagonXmark: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256L128 32l256 0L512 256 384 480l-256 0L0 256zm158.1-64c5.7 5.7 11.3 11.3 17 17c15.7 15.7 31.4 31.4 47 47c-15.7 15.7-31.4 31.4-47 47c-5.7 5.7-11.3 11.3-17 17c11.3 11.3 22.6 22.6 33.9 33.9l17-17c15.7-15.7 31.4-31.4 47-47l47 47 17 17L353.9 320c-5.7-5.7-11.3-11.3-17-17c-15.7-15.7-31.4-31.4-47-47c15.7-15.7 31.4-31.4 47-47c5.7-5.7 11.3-11.3 17-17c-11.3-11.3-22.6-22.6-33.9-33.9c-5.7 5.7-11.3 11.3-17 17c-15.7 15.7-31.4 31.4-47 47c-15.7-15.7-31.4-31.4-47-47c-5.7-5.7-11.3-11.3-17-17c-11.3 11.3-22.6 22.6-33.9 33.9z" />
-            <path d="M337 209l17-17L320 158.1l-17 17-47 47-47-47-17-17L158.1 192l17 17 47 47-47 47-17 17L192 353.9l17-17 47-47 47 47 17 17L353.9 320l-17-17-47-47 47-47z" />
+        <path d="M337 209l17-17L320 158.1l-17 17-47 47-47-47-17-17L158.1 192l17 17 47 47-47 47-17 17L192 353.9l17-17 47-47 47 47 17 17L353.9 320l-17-17-47-47 47-47z" />
     </Icon>
 );
 

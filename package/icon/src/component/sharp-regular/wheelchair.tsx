@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wheelchair` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheelchair?s=sharp-regular wheelchair}
- * @preview ![wheelchair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2ek00OCAzNTJjMCA2MS45IDUwLjEgMTEyIDExMiAxMTJjNDIuOCAwIDgwLTI0IDk4LjktNTkuM2w0Mi4zIDIyLjZDMjc0LjMgNDc3LjcgMjIxLjIgNTEyIDE2MCA1MTJDNzEuNiA1MTIgMCA0NDAuNCAwIDM1MmMwLTY4LjUgNDMuMS0xMjYuOSAxMDMuNS0xNDkuN2wxNi45IDQ0LjlDNzguMSAyNjMuMiA0OCAzMDQuMSA0OCAzNTJ6TTIxMS4zIDEyNC4xbDQuMyAyMy42IDUuMSAyOC4zTDM0NCAxNzZsMjQgMCAwIDQ4LTI0IDAtMTE0LjUgMCAxMy40IDczLjRjLjcgMy44IDQgNi42IDcuOSA2LjZMMzg0IDMwNGwxNS43IDAgNi4zIDE0LjQgNDcuMiAxMDcuOSAyNy4yLTkuMSAyMi44LTcuNiAxNS4yIDQ1LjUtMjIuOCA3LjYtNDggMTYtMjAuOCA2LjlMNDE4IDQ2NS42IDM2OC4zIDM1MmwtMTE3LjYgMGMtMjcuMSAwLTUwLjMtMTkuNC01NS4xLTQ2TDE2OC40IDE1Ni4zbC00LjMtMjMuNiA0Ny4yLTguNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wheelchair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/wheelchair.svg)
  */
 const Wheelchair: typeof Icon = x => (
     <Icon {...x}>

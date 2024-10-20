@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chalkboard` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chalkboard?s=thin chalkboard}
- * @preview ![chalkboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgNDhDNjIuMyA0OCA0OCA2Mi4zIDQ4IDgwbDAgMzUyLTE2IDBMMzIgODBjMC0yNi41IDIxLjUtNDggNDgtNDhsNDE2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAzNTItMTYgMCAwLTM1MmMwLTE3LjctMTQuMy0zMi0zMi0zMkw4MCA0OHpNMCA0NzJjMC00LjQgMy42LTggOC04bDI0OCAwIDAtNDBjMC0yMi4xIDE3LjktNDAgNDAtNDBsODAgMGMyMi4xIDAgNDAgMTcuOSA0MCA0MGwwIDQwIDE1MiAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC0xNTIgMC04IDAtMTQ0IDAtOCAwTDggNDgwYy00LjQgMC04LTMuNi04LTh6bTQwMC04bDAtNDBjMC0xMy4zLTEwLjctMjQtMjQtMjRsLTgwIDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgNDAgMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chalkboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chalkboard.svg)
  */
 const Chalkboard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

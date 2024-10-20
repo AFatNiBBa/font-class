@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `typo3` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/typo3?s=brands typo3}
- * @preview ![typo3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc4LjcgNzguNGMwLTI0LjcgNS40LTMyLjQgMTMuOS0zOS40LTY5LjUgOC41LTE0OS4zIDM0LTE3Ni4zIDY2LjQtNS40IDcuNy05LjMgMjAuOC05LjMgMzcuMUM3IDI0NiAxMTMuOCA0ODAgMTkxLjEgNDgwYzM2LjMgMCA5Ny4zLTU5LjUgMTQ2LjctMTM5LTcgMi4zLTExLjYgMi4zLTE4LjUgMi4zLTU3LjIgMC0xNDAuNi0xOTguNS0xNDAuNi0yNjQuOXpNMzAxLjUgMzJjLTMwLjEgMC00MS43IDUuNC00MS43IDM2LjMgMCA2Ni40IDUzLjggMTk4LjUgMTAxLjcgMTk4LjUgMjYuMyAwIDc4LjgtOTkuNyA3OC44LTE4Mi4zIDAtNDAuOS02Ny01Mi41LTEzOC44LTUyLjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![typo3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/typo3.svg)
  */
 const Typo3: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

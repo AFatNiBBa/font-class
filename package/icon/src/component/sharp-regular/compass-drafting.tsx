@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `compass-drafting` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass-drafting?s=sharp-regular compass-drafting}
- * @preview ![compass-drafting](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDk2YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6bS0xOS42IDkxLjdjLTkgMi44LTE4LjUgNC4zLTI4LjQgNC4zcy0xOS40LTEuNS0yOC40LTQuM0wxNTguMSAzMDYuNEMxODcuOSAzMjAuMyAyMjEgMzI4IDI1NiAzMjhjODUuOCAwIDE2MC44LTQ2LjYgMjAxLTExNmw0MS41IDI0QzQ1MC4yIDMxOS42IDM1OS43IDM3NiAyNTYgMzc2Yy00My44IDAtODUuMy0xMC4xLTEyMi4yLTI4TDUwLjIgNDkwLjcgMzguMSA1MTEuNC0zLjMgNDg3LjIgOC44IDQ2Ni41IDkyLjYgMzIzLjRDNjAuNCAzMDAuMiAzMy40IDI3MC40IDEzLjUgMjM2TDU1IDIxMmMxNS44IDI3LjIgMzYuOSA1MSA2MS45IDY5LjdsNjkuOC0xMTkuMkMxNzAuMiAxNDUuMiAxNjAgMTIxLjggMTYwIDk2YzAtNTMgNDMtOTYgOTYtOTZzOTYgNDMgOTYgOTZjMCAyNS44LTEwLjIgNDkuMi0yNi43IDY2LjVsNTMuNSA5MS40Yy0xMi42IDkuOC0yNi40IDE4LjEtNDEuMSAyNC43bC01My4yLTkwLjl6TTUwMy4xIDQ2Ni40bDEyLjEgMjAuNy00MS40IDI0LjItMTIuMS0yMC43TDM5NC40IDM3NS43YzE0LjQtNy4xIDI4LjItMTUuNCA0MS4yLTI0LjZsNjcuNSAxMTUuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![compass-drafting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/compass-drafting.svg)
  */
 const CompassDrafting: typeof Icon = x => (
     <Icon {...x}>

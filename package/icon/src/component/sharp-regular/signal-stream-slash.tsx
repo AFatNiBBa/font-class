@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-stream-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-stream-slash?s=sharp-regular signal-stream-slash}
- * @preview ![signal-stream-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43LTgxLjMtNjMuMUM1NjIuOCAzNTQuNyA1NzYgMzA2LjkgNTc2IDI1NmMwLTY3LjQtMjMuMi0xMjkuNC02MS45LTE3OC41bC0zNy43IDI5LjdDNTA4LjcgMTQ4LjIgNTI4IDE5OS44IDUyOCAyNTZjMCAzOS44LTkuNyA3Ny4zLTI2LjggMTEwLjNsLTUxLjctNDAuMmM5LjQtMjEuNSAxNC41LTQ1LjIgMTQuNS03MC4yYzAtNDEuMi0xNC4yLTc5LjEtMzcuOS0xMDkuMWwtMzcuNyAyOS43QzQwNS43IDE5OC41IDQxNiAyMjYgNDE2IDI1NmMwIDEzLjctMi4yIDI3LTYuMiAzOS40TDQ4LjQgMTQuOHpNMTYzLjggMjI1bC00MC4zLTMxLjdDMTE2LjEgMjEyLjggMTEyIDIzMy45IDExMiAyNTZjMCA0MS4yIDE0LjIgNzkuMSAzNy45IDEwOS4xbDM3LjctMjkuN0MxNzAuMyAzMTMuNSAxNjAgMjg2IDE2MCAyNTZjMC0xMC43IDEuMy0yMS4xIDMuOC0zMXpNNzEuNSAxNTIuM0wzMyAxMjJDMTEuOSAxNjIgMCAyMDcuNiAwIDI1NmMwIDY3LjQgMjMuMiAxMjkuNCA2MS45IDE3OC41bDM3LjctMjkuN0M2Ny4zIDM2My44IDQ4IDMxMi4yIDQ4IDI1NmMwLTM3LjEgOC40LTcyLjMgMjMuNS0xMDMuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![signal-stream-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/signal-stream-slash.svg)
  */
 const SignalStreamSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

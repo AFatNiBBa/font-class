@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-smile-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-plus?s=sharp-solid face-smile-plus}
- * @preview ![face-smile-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTY4IDBMNTIwIDBsMCAyNCAwIDQ4LTQ4IDAtMjQgMCAwIDQ4IDI0IDAgNDggMCAwIDQ4IDAgMjQgNDggMCAwLTI0IDAtNDggNDggMCAyNCAwIDAtNDgtMjQgMC00OCAwIDAtNDggMC0yNHpNMjI0IDUxMmEyMjQgMjI0IDAgMSAwIDAtNDQ4IDIyNCAyMjQgMCAxIDAgMCA0NDh6TTE0NC40IDIwOGEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTEyOCAzMmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwek0yMjQgMzg0YzMzLjQgMCA2My41LTE0LjYgODQtMzcuOWwyNCAyMS4yQzMwNS42IDM5Ny4xIDI2NyA0MTYgMjI0IDQxNnMtODEuNi0xOC45LTEwOC00OC43bDI0LTIxLjJjMjAuNSAyMy4zIDUwLjYgMzcuOSA4NCAzNy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-smile-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-smile-plus.svg)
  */
 const FaceSmilePlus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

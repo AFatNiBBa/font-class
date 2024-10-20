@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-pickup` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-pickup?s=light truck-pickup}
- * @preview ![truck-pickup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDgwbDAgMTEyIDIyOS4zIDBMMzg5IDcwLjFjLTMtMy44LTcuNy02LjEtMTIuNi02LjFMMjcyIDY0Yy04LjggMC0xNiA3LjItMTYgMTZ6TTUyNC42IDE5MC4xbDEuNSAxLjkgMjUuOSAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgMTA0IDE2IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTE2IDAtMzIgMC0xNiAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2bC05NiAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2bC0xNiAwLTMyIDAtMTYgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwxNiAwIDAtMTA0YzAtMzAuOSAyNS4xLTU2IDU2LTU2bDEzNiAwIDAtMTEyYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDEwNC41IDBjMTQuNyAwIDI4LjYgNi43IDM3LjcgMTguM0w1MjQuNiAxOTAuMXpNNjQgMzUybDIxLjUgMGMxMy4yLTM3LjMgNDguNy02NCA5MC41LTY0czc3LjQgMjYuNyA5MC41IDY0bDEwNi45IDBjMTMuMi0zNy4zIDQ4LjctNjQgOTAuNS02NHM3Ny40IDI2LjcgOTAuNSA2NGwyMS41IDAgMC0xMDRjMC0xMy4zLTEwLjctMjQtMjQtMjRMODggMjI0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDEwNHptMTc2IDMyYTY0IDY0IDAgMSAwIC0xMjggMCA2NCA2NCAwIDEgMCAxMjggMHptMjI0IDY0YTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-pickup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/truck-pickup.svg)
  */
 const TruckPickup: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hockey-sticks` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-sticks?s=light hockey-sticks}
- * @preview ![hockey-sticks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAxLjQgMjg4bC0zNC45IDBMMTI5LjggMjMuM2MtNC4xLTcuOS0xLTE3LjUgNi45LTIxLjZzMTcuNS0xIDIxLjYgNi45TDMwMiAyODYuOWwtLjYgMS4xem03NSA2NEwzOTMgMzIwbDE5MSAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgODBjMCAzMC45LTI1LjEgNTYtNTYgNTZsLTE2Mi44IDBjLTIzLjkgMC00NS45LTEzLjQtNTYuOS0zNC42bC0yNi40LTUxIDE4LTM0LjkgMzYuOCA3MS4yYzUuNSAxMC42IDE2LjUgMTcuMyAyOC40IDE3LjNsOTAuOCAwIDAtMTI4LTEzNS42IDB6TTU0NCAzNTJsMCAxMjggNDAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTgwYzAtMTMuMy0xMC43LTI0LTI0LTI0bC00MCAwek01MDMuMyAxLjhjNy44IDQuMSAxMC45IDEzLjcgNi45IDIxLjZsLTIzNC42IDQ1NGMtMTEgMjEuMy0zMi45IDM0LjYtNTYuOSAzNC42TDU2IDUxMmMtMzAuOSAwLTU2LTI1LjEtNTYtNTZsMC04MGMwLTMwLjkgMjUuMS01NiA1Ni01NmwyNjQuOSAwTDQ4MS44IDguN2M0LjEtNy45IDEzLjctMTAuOSAyMS42LTYuOXpNMzA0LjQgMzUyTDEyOCAzNTJsMCAxMjggOTAuOCAwYzEyIDAgMjIuOS02LjcgMjguNC0xNy4zTDMwNC40IDM1MnpNNTYgMzUyYy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDgwYzAgMTMuMyAxMC43IDI0IDI0IDI0bDQwIDAgMC0xMjgtNDAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hockey-sticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hockey-sticks.svg)
  */
 const HockeySticks: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-doctor-message` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-doctor-message?s=sharp-regular user-doctor-message}
- * @preview ![user-doctor-message](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDEyOGE4MCA4MCAwIDEgMSAtMTYwIDAgODAgODAgMCAxIDEgMTYwIDB6TTIyNCAwYTEyOCAxMjggMCAxIDAgMCAyNTZBMTI4IDEyOCAwIDEgMCAyMjQgMHpNNTAuMiA1MTJMOTkuNSAzNTJsMzYuNSAwIDAgNTAuM2MtMjMuMSA2LjktNDAgMjguMy00MCA1My43YzAgMzAuOSAyNS4xIDU2IDU2IDU2czU2LTI1LjEgNTYtNTZjMC0yNS40LTE2LjktNDYuOC00MC01My43bDAtNTAuMyAxMTIgMCAwIDUwYy0yNy42IDcuMS00OCAzMi4yLTQ4IDYybDAgMzIgMCAxNiAxNiAwIDI0IDAgMTYgMCAwLTMyLTE2IDAtOCAwIDAtMTZjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDE2LTggMC0xNiAwIDAgMzIgMTYgMCAyNCAwIDE2IDAgMC0xNiAwLTMyYzAtMjkuOC0yMC40LTU0LjktNDgtNjJsMC01MCAzNi41IDAgNDkuMiAxNjAgNTAuMiAwTDM4NCAzMDQgNjQgMzA0IDAgNTEybDUwLjIgMHpNMTUyIDQzMmEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6TTM4NCAwbDAgMjI0IDY0IDAgMCA2NCA5Ni02NCA5NiAwTDY0MCAwIDM4NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-doctor-message](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-doctor-message.svg)
  */
 const UserDoctorMessage: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

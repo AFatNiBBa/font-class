@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-cowboy-hat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-cowboy-hat?s=sharp-solid face-cowboy-hat}
- * @preview ![face-cowboy-hat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBsNjQgMzJMMzIwIDBsNTUuNCAxMTAuOGMzNi41LTExLjEgNjguOS0yNy4xIDk1LjMtNDYuOEw0ODggODEuM0M0NjAuOCAxNjMuNSAzNjcuMiAyMjQgMjU2IDIyNFM1MS4yIDE2My41IDI0IDgxLjNMNDEuMyA2NGMyNi40IDE5LjcgNTguOCAzNS43IDk1LjMgNDYuOEwxOTIgMHpNNDggMzA0YzAtMzcuOSAxMC4xLTczLjQgMjcuOC0xMDRjNDguOCAzNS4zIDExMi41IDU2IDE4MC4yIDU2czEzMS40LTIwLjYgMTgwLjItNTZjMTcuNyAzMC42IDI3LjggNjYuMSAyNy44IDEwNGMwIDExNC45LTkzLjEgMjA4LTIwOCAyMDhTNDggNDE4LjkgNDggMzA0em0yMDguMiA3Mi44Yy00NC4zIDAtODUuNi04LTEyMC4yLTIxLjdjMTIuMiA1NS40IDYxLjQgOTYuOSAxMjAuMiA5Ni45czEwOC00MS41IDEyMC4yLTk2LjljLTM0LjYgMTMuOC03NS45IDIxLjctMTIwLjIgMjEuN3pNMjE2IDMwNGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem0xMDQgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-cowboy-hat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-cowboy-hat.svg)
  */
 const FaceCowboyHat: typeof Icon = x => (
     <Icon {...x}>

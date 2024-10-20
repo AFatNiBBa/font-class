@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `block-brick` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-brick?s=sharp-regular block-brick}
- * @preview ![block-brick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDgwbDAgNDggNTYgMCA0OCAwIDU2IDAgMC00OEwxNDQgODB6TTk2IDEyOGwwLTQ4TDQ4IDgwbDAgNDggNDggMHpNNDggMTc2bDAgNTYgMTUyIDAgMC01Nkw0OCAxNzZ6bTAgMTYwbDQ4IDAgMC01Ni00OCAwIDAgNTZ6bTAgNDhsMCA0OCAxNTIgMCAwLTQ4LTU2IDAtNDggMC00OCAwem05Ni00OGwxNjAgMCAwLTU2LTE2MCAwIDAgNTZ6bTIwOCAwbDQ4IDAgMC01Ni00OCAwIDAgNTZ6bTQ4IDQ4bC00OCAwLTQ4IDAtNTYgMCAwIDQ4IDE1MiAwIDAtNDh6bTAtMjA4bC0xNTIgMCAwIDU2IDE1MiAwIDAtNTZ6bTAtNDhsMC00OC00OCAwIDAgNDggNDggMHpNMCAzMmw0OCAwIDM1MiAwIDQ4IDAgMCA0OCAwIDM1MiAwIDQ4LTQ4IDBMNDggNDgwIDAgNDgwbDAtNDhMMCA4MCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![block-brick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/block-brick.svg)
  */
 const BlockBrick: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

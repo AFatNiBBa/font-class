@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `playstation` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/playstation?s=brands playstation}
- * @preview ![playstation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTcwLjkgMzcyLjNjLTExLjMgMTQuMi0zOC44IDI0LjMtMzguOCAyNC4zTDMyNyA0NzAuMnYtNTQuM2wxNTAuOS01My44YzE3LjEtNi4xIDE5LjgtMTQuOCA1LjgtMTkuNC0xMy45LTQuNi0zOS4xLTMuMy01Ni4yIDIuOUwzMjcgMzgxLjF2LTU2LjRjMjMuMi03LjggNDcuMS0xMy42IDc1LjctMTYuOCA0MC45LTQuNSA5MC45LjYgMTMwLjIgMTUuNSA0NC4yIDE0IDQ5LjIgMzQuNyAzOCA0OC45em0tMjI0LjQtOTIuNXYtMTM5YzAtMTYuMy0zLTMxLjMtMTguMy0zNS42LTExLjctMy44LTE5IDcuMS0xOSAyMy40djM0Ny45bC05My44LTI5LjhWMzJjMzkuOSA3LjQgOTggMjQuOSAxMjkuMiAzNS40QzQyNC4xIDk0LjcgNDUxIDEyOC43IDQ1MSAyMDUuMmMwIDc0LjUtNDYgMTAyLjgtMTA0LjUgNzQuNnpNNDMuMiA0MTAuMmMtNDUuNC0xMi44LTUzLTM5LjUtMzIuMy01NC44IDE5LjEtMTQuMiA1MS43LTI0LjkgNTEuNy0yNC45bDEzNC41LTQ3Ljh2NTQuNWwtOTYuOCAzNC42Yy0xNy4xIDYuMS0xOS43IDE0LjgtNS44IDE5LjQgMTMuOSA0LjYgMzkuMSAzLjMgNTYuMi0yLjlsNDYuNC0xNi45djQ4LjhjLTUxLjYgOS4zLTEwMS40IDcuMy0xNTMuOS0xMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![playstation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/playstation.svg)
  */
 const Playstation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

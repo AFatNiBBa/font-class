@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-arrow-down` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-arrow-down?s=sharp-regular folder-arrow-down}
- * @preview ![folder-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMybDQ4IDY0IDE5MiAwIDQ4IDAgMCA0OCAwIDI4OCAwIDQ4LTQ4IDBMNDggNDgwIDAgNDgwbDAtNDhMMCA4MCAwIDMybDQ4IDAgMTc2IDB6bTQ4IDExMmwtMjQgMC0xNC40LTE5LjJMMjAwIDgwIDQ4IDgwbDAgMzUyIDQxNiAwIDAtMjg4LTE5MiAwem04IDU2bDAgMTAyLjEgMzEtMzEgMTctMTdMMzYxLjkgMjg4bC0xNyAxNy03MiA3Mi0xNyAxNy0xNy0xNy03Mi03Mi0xNy0xN0wxODQgMjU0LjFsMTcgMTcgMzEgMzFMMjMyIDIwMGwwLTI0IDQ4IDAgMCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![folder-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/folder-arrow-down.svg)
  */
 const FolderArrowDown: typeof Icon = x => (
     <Icon {...x}>

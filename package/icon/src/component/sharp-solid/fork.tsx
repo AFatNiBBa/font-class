@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fork` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fork?s=sharp-solid fork}
- * @preview ![fork](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA4IDhsMTYgMTZMMzIwIDEyOGwxNiAxNkw0NDggNDhsMTYgMTZMMzY4IDE3NmwxNiAxNkw0ODggODhsMTYgMTZMNDMzLjUgMjI3LjRDNDE3LjcgMjU1IDM4OC40IDI3MiAzNTYuNyAyNzJjLTE5LjQgMC0zOC4xLTYuNC01My40LTE4TDcwLjYgNDg2LjYgNDggNTA5LjMgMi43IDQ2NGwyMi42LTIyLjZMMjU4IDIwOC44Yy0xMS42LTE1LjMtMTgtMzQtMTgtNTMuNGMwLTMxLjggMTctNjEuMSA0NC42LTc2LjhMNDA4IDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fork.svg)
  */
 const Fork: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-user` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-user?s=sharp-regular house-user}
- * @preview ![house-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IC41bDE1LjUgMTMuMiAyNjQgMjI0LTMxLjEgMzYuNkw1MTIgMjUzLjUgNTEyIDQ4OGwwIDI0LTI0IDBMODggNTEybC0yNCAwIDAtMjQgMC0yMzQuNUwzOS41IDI3NC4zIDguNSAyMzcuN2wyNjQtMjI0TDI4OCAuNXpNMTEyIDIxMi44TDExMiA0NjRsMzUyIDAgMC0yNTEuMkwyODggNjMuNSAxMTIgMjEyLjh6TTIyNCAyMjRhNjQgNjQgMCAxIDEgMTI4IDAgNjQgNjQgMCAxIDEgLTEyOCAwem0xNDQgOTZsMzIgOTYtMjI0IDAgMzItOTYgMTYwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-user.svg)
  */
 const HouseUser: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stapler` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stapler?s=regular stapler}
- * @preview ![stapler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDM4NGwwIDQ4TDU2IDQzMmMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwzOTIgMCA0OCAwIDI0IDAgNzIgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTk2IDAtMzYuNyAwLTExLjMtLjctLjFjLTMuOC0zMS44LTIzLjMtNTkuOS01Mi40LTc0LjRMMjYwLjcgNTAuNEMyMzYuNiAzOC4zIDIwOS45IDMyIDE4Mi45IDMyQzEyOC4yIDMyIDc2LjcgNTcuOCA0My44IDEwMS42TDExLjUgMTQ0LjdDNCAxNTQuNiAwIDE2Ni43IDAgMTc5LjFjMCAyNi40IDE3LjkgNDkuMyA0My41IDU1LjdMNjQgMjQwbDAgMTA0YzAgMjIuMSAxNy45IDQwIDQwIDQwbDM0NCAwem0wLTQ4bC0zMzYgMCAwLTg0IDMzNiA4NHptNzIgOTZsLTI0IDAgMC05NmMwLTIyLTE1LTQxLjItMzYuNC00Ni42TDU1LjIgMTg4LjNjLTQuMi0xLjEtNy4yLTQuOC03LjItOS4yYzAtMiAuNy00IDEuOS01LjdsMzIuMy00My4xQzEwNiA5OC43IDE0My4zIDgwIDE4Mi45IDgwYzE5LjUgMCAzOC44IDQuNiA1Ni4zIDEzLjNMNTY1LjUgMjU2LjRjMTQuNSA3LjMgMjQuMyAyMS4zIDI2LjIgMzcuMmMuMSAuOCAuMiAxLjYgLjMgMi40bDAgMy40IDAgMzYuNyAwIDk2LTcyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![stapler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/stapler.svg)
  */
 const Stapler: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

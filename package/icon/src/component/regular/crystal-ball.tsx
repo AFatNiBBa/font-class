@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crystal-ball` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crystal-ball?s=regular crystal-ball}
- * @preview ![crystal-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDIyNGMwIDcxLTQyIDEzMi4yLTEwMi42IDE2MGw4My4zIDBjNDEuNS00MC43IDY3LjItOTcuMyA2Ny4yLTE2MEM0NDggMTAwLjMgMzQ3LjcgMCAyMjQgMFMwIDEwMC4zIDAgMjI0YzAgNjIuNyAyNS43IDExOS4zIDY3LjIgMTYwbDgzLjMgMEM5MCAzNTYuMiA0OCAyOTUgNDggMjI0YzAtOTcuMiA3OC44LTE3NiAxNzYtMTc2czE3NiA3OC44IDE3NiAxNzZ6TTE2Ny41IDEwMC4zYy0yLjYtNy0xMi40LTctMTUgMGwtOS44IDI2LjQtMjYuNCA5LjhjLTcgMi42LTcgMTIuNCAwIDE1bDI2LjQgOS44IDkuOCAyNi40YzIuNiA3IDEyLjQgNyAxNSAwbDkuOC0yNi40IDI2LjQtOS44YzctMi42IDctMTIuNCAwLTE1bC0yNi40LTkuOC05LjgtMjYuNHptMTEzIDQ4bC0xOC40IDQ5LjgtNDkuOCAxOC40Yy03IDIuNi03IDEyLjQgMCAxNWw0OS44IDE4LjQgMTguNCA0OS44YzIuNiA3IDEyLjQgNyAxNSAwbDE4LjQtNDkuOCA0OS44LTE4LjRjNy0yLjYgNy0xMi40IDAtMTVsLTQ5LjgtMTguNC0xOC40LTQ5LjhjLTIuNi03LTEyLjQtNy0xNSAwek0yMC4zIDQ3NC4yYy01LjEgNy4zLTUuOCAxNi45LTEuNiAyNC44UzMxLjEgNTEyIDQwIDUxMmwzNjggMGM4LjkgMCAxNy4yLTUgMjEuMy0xMi45czMuNS0xNy41LTEuNi0yNC44TDM4Ni45IDQxNiA2MS4xIDQxNiAyMC4zIDQ3NC4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![crystal-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/crystal-ball.svg)
  */
 const CrystalBall: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

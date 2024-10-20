@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `display-arrow-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-arrow-down?s=sharp-light display-arrow-down}
- * @preview ![display-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEwyNDAgMGwwIDMyTDMyIDMybDAgMzUyIDE5OS43IDBjLjIgMCAuNCAwIC42IDBsMTExLjUgMGMuMiAwIC40IDAgLjYgMEw1NDQgMzg0bDAtMzUyTDMzNiAzMmwwLTMyTDU0NCAwbDMyIDAgMCAzMiAwIDM1MiAwIDMyLTMyIDAtMTgxLjEgMCAxMC43IDY0IDU4LjQgMCAxNiAwIDAgMzItMTYgMC03MiAwLTE0NCAwLTcyIDAtMTYgMCAwLTMyIDE2IDAgNTguNCAwIDEwLjctNjRMMzIgNDE2IDAgNDE2bDAtMzJMMCAzMiAwIDAgMzIgMHpNMjQ1LjYgNDE2bC0xMC43IDY0IDEwNi4yIDAtMTAuNy02NC04NC45IDB6TTMwNCAxNmwwIDIxNy40IDUyLjctNTIuN0wzNjggMTY5LjQgMzkwLjYgMTkybC0xMS4zIDExLjMtODAgODBMMjg4IDI5NC42bC0xMS4zLTExLjMtODAtODBMMTg1LjQgMTkyIDIwOCAxNjkuNGwxMS4zIDExLjNMMjcyIDIzMy40IDI3MiAxNmwwLTE2IDMyIDAgMCAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![display-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/display-arrow-down.svg)
  */
 const DisplayArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

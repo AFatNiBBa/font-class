@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side?s=sharp-thin head-side}
- * @preview ![head-side](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjI0QzE2IDEwOS4xIDEwOS4xIDE2IDIyNCAxNmwyNCAwYzk1LjcgMCAxNzIuNSA3Ny45IDE3NiAxNzIuN2wuMSAzLjQgMi42IDIuM0w0OTYgMjU2bDAgNjQtNTYgMC04IDAgMCA4IDAgMTA0LTEyMCAwLTggMCAwIDggMCA2NCAwIDggMTYgMCAwLTggMC01NiAxMjAgMCA4IDAgMC04IDAtMTA0IDU2IDAgOCAwIDAtOCAwLTc1LjYgMC0zLjYtMi43LTIuNC02OS41LTYxLjhDNDM0LjMgODMuMyAzNTEuNiAwIDI0OCAwTDIyNCAwQzEwMC4zIDAgMCAxMDAuMyAwIDIyNGMwIDU5LjEgMjMuNyAxMTQuNSA2NCAxNTYuN0w2NCA1MDRsMCA4IDE2IDAgMC04IDAtMTI2LjUgMC0zLjMtMi4zLTIuM0MzOC43IDMzMi4xIDE2IDI3OS43IDE2IDIyNHptMzIwIDBhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![head-side](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/head-side.svg)
  */
 const HeadSide: typeof Icon = x => (
     <Icon {...x}>

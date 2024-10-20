@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-medical-circle-exclamation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-circle-exclamation?s=sharp-solid house-medical-circle-exclamation}
- * @preview ![house-medical-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDM2OC43Yy4yIDU5LjIgMjkuNyAxMTEuNiA3NC44IDE0My4zTDY0LjEgNTEybDAtMjI0LjRMMCAyODcuNiAwIDI0MCAyODguNCAwIDUyMC41IDE5My43Yy04LTEuMS0xNi4yLTEuNy0yNC41LTEuN2MtNTQuNyAwLTEwMy41IDI0LjktMTM1LjggNjRMMzIwIDI1NmwwLTY0LTY0IDAgMCA2NC02NCAwIDAgNjQgNjQgMCAwIDY0IDY0IDAgMC0xNS4zek00OTYgMjI0YTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptMTYgMjI0bDAtMzItMzIgMCAwIDMyIDMyIDB6bTAtMTc2bC0zMiAwIDAgMTYgMCA4MCAwIDE2IDMyIDAgMC0xNiAwLTgwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-medical-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house-medical-circle-exclamation.svg)
  */
 const HouseMedicalCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

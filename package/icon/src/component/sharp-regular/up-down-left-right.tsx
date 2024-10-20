@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-down-left-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-down-left-right?s=sharp-regular up-down-left-right}
- * @preview ![up-down-left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE0NGwwLTQ4IDYyLjEtNjIuMUwyNTYgMGwzMy45IDMzLjlMMzUyIDk2bDAgNDgtNDggMC0yNCAwIDAgODggODggMCAwLTI0IDAtNDggNDggMCA2Mi4xIDYyLjFMNTEyIDI1NmwtMzMuOSAzMy45TDQxNiAzNTJsLTQ4IDAgMC00OCAwLTI0LTg4IDAgMCA4OCAyNCAwIDQ4IDAgMCA0OC02Mi4xIDYyLjFMMjU2IDUxMmwtMzMuOS0zMy45TDE2MCA0MTZsMC00OCA0OCAwIDI0IDAgMC04OC04OCAwIDAgMjQgMCA0OC00OCAwTDMzLjkgMjg5LjkgMCAyNTZsMzMuOS0zMy45TDk2IDE2MGw0OCAwIDAgNDggMCAyNCA4OCAwIDAtODgtMjQgMC00OCAwek0yODQuMSA5NkwyNTYgNjcuOSAyMjcuOSA5Nmw1Ni4yIDB6TTY3LjkgMjU2TDk2IDI4NC4xbDAtNTYuMkw2Ny45IDI1NnpNMjg0LjEgNDE2bC01Ni4yIDBMMjU2IDQ0NC4xIDI4NC4xIDQxNnptMTYwLTE2MEw0MTYgMjI3LjlsMCA1Ni4yTDQ0NC4xIDI1NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![up-down-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/up-down-left-right.svg)
  */
 const UpDownLeftRight: typeof Icon = x => (
     <Icon {...x}>

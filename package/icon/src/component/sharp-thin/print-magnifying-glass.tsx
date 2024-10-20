@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `print-magnifying-glass` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/print-magnifying-glass?s=sharp-thin print-magnifying-glass}
- * @preview ![print-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDE2bDAgMTQ0LTE2IDAgMC0xNDQgMC0xNiAxNiAwTDQ0OCAwbDY0IDY0IDAgOTYtMTYgMCAwLTg5LjRMNDQxLjQgMTYgMTQ0IDE2ek0zMzMuNyAyMDhMODAgMjA4bDAgMTkyIDQ4IDAgMC02NCAwLTE2IDE2IDAgMTQ0IDBjMCA1LjQgLjMgMTAuNyAuOCAxNkwxNDQgMzM2bDAgMTYwIDM1MiAwIDAtMjMuM2MuNy0uMiAxLjQtLjUgMi4yLS43TDUxMiA0ODUuOGwwIDEwLjIgMCAxNi0xNiAwLTM1MiAwLTE2IDAgMC0xNiAwLTgwLTQ4IDAtMTYgMCAwLTE2IDAtMTkyIDAtMTYgMTYgMCAyNzIgMGMtNi41IDQuOS0xMi42IDEwLjItMTguMiAxNnpNNDQ4IDQzMi4yYTExMiAxMTIgMCAxIDAgMC0yMjQgMTEyIDExMiAwIDEgMCAwIDIyNHptMCAxNmMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhzNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4YzAgMzIuNS0xMi4xIDYyLjEtMzIgODQuN2w4OS43IDg5LjUgNS43IDUuN0w2MjggNTExLjNsLTUuNy01LjctODkuNy04OS41Yy0yMi42IDE5LjktNTIuMiAzMi04NC43IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![print-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/print-magnifying-glass.svg)
  */
 const PrintMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-building` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-building?s=sharp-solid house-building}
- * @preview ![house-building](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDBMMzIwIDBsMCAxNjEgNjQgNTMuMyAwLTIyLjMgNjQgMCAwIDY0LTMyIDAgMCAzMiAzMiAwIDAgNjQtMzIgMCAwIDE2MCAyMjQgMEw2NDAgMHpNNTEyIDE5Mmw2NCAwIDAgNjQtNjQgMCAwLTY0em02NCA5NmwwIDY0LTY0IDAgMC02NCA2NCAwek00NDggOTZsMCA2NC02NCAwIDAtNjQgNjQgMHptNjQgMGw2NCAwIDAgNjQtNjQgMCAwLTY0ek0wIDI1NkwwIDUxMmwzODQgMCAwLTI1NkwxOTIgOTYgMCAyNTZ6bTI0MCAxNmwwIDk2LTk2IDAgMC05NiA5NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-building](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house-building.svg)
  */
 const HouseBuilding: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

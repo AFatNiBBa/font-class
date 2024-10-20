@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-plus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-plus?s=sharp-thin bell-plus}
- * @preview ![bell-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDBsMTYgMCAwIDMyLjJjODQuNiA0LjIgMTUyIDc0LjEgMTUyIDE1OS44bDAgOTMuMkw0NDYuMiAzNjNsMS44IDIuMiAwIDIuOCAwIDQwIDAgOC04IDBMOCA0MTZsLTggMCAwLTggMC00MCAwLTIuOEwxLjggMzYzIDY0IDI4NS4yIDY0IDE5MmMwLTg1LjcgNjcuNC0xNTUuNiAxNTItMTU5LjhMMjE2IDB6bTggNDhDMTQ0LjUgNDggODAgMTEyLjUgODAgMTkybDAgOTYgMCAyLjhMNzguMiAyOTMgMTYgMzcwLjggMTYgNDAwbDQxNiAwIDAtMjkuMkwzNjkuOCAyOTNsLTEuOC0yLjIgMC0yLjggMC05NmMwLTc5LjUtNjQuNS0xNDQtMTQ0LTE0NHpNMTkwLjEgNDgxLjljOSA5IDIxLjIgMTQuMSAzMy45IDE0LjFzMjQuOS01LjEgMzMuOS0xNC4xczE0LjEtMjEuMiAxNC4xLTMzLjlsMTYgMGMwIDE3LTYuNyAzMy4zLTE4LjcgNDUuM3MtMjguMyAxOC43LTQ1LjMgMTguN3MtMzMuMy02LjctNDUuMy0xOC43cy0xOC43LTI4LjMtMTguNy00NS4zbDE2IDBjMCAxMi43IDUuMSAyNC45IDE0LjEgMzMuOXpNMjMyIDE2MGwwIDggMCA2NCA2NCAwIDggMCAwIDE2LTggMC02NCAwIDAgNjQgMCA4LTE2IDAgMC04IDAtNjQtNjQgMC04IDAgMC0xNiA4IDAgNjQgMCAwLTY0IDAtOCAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bell-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bell-plus.svg)
  */
 const BellPlus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

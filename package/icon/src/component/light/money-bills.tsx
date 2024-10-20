@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-bills` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bills?s=light money-bills}
- * @preview ![money-bills](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDY0YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzJjLTM1LjMgMC02NC0yOC43LTY0LTY0bDMyIDB6TTIyNCA2NGwyODggMGMwIDUzIDQzIDk2IDk2IDk2bDAgOTZjLTUzIDAtOTYgNDMtOTYgOTZsLTI4OCAwYzAtNTMtNDMtOTYtOTYtOTZsMC05NmM1MyAwIDk2LTQzIDk2LTk2ek0xMjggMjg4YzM1LjMgMCA2NCAyOC43IDY0IDY0bC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTMyem00MTYgNjRjMC0zNS4zIDI4LjctNjQgNjQtNjRsMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMzIgMHpNMTkyIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0bDAtMzJjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIgMHpNMTYwIDMyYy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDIyNGMwIDM1LjMgMjguNyA2NCA2NCA2NGw0MTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTIyNGMwLTM1LjMtMjguNy02NC02NC02NEwxNjAgMzJ6TTM2OCAyNzJhNjQgNjQgMCAxIDEgMC0xMjggNjQgNjQgMCAxIDEgMCAxMjh6bS05Ni02NGE5NiA5NiAwIDEgMCAxOTIgMCA5NiA5NiAwIDEgMCAtMTkyIDB6TTMyIDExMmMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNkwwIDM2OGMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMmw0MTYgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtNDE2IDBjLTQ0LjIgMC04MC0zNS44LTgwLTgwbDAtMjU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![money-bills](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/money-bills.svg)
  */
 const MoneyBills: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

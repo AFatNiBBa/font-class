@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lari-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lari-sign?s=light lari-sign}
- * @preview ![lari-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDMyYzguOCAwIDE2IDcuMiAxNiAxNmwwIDUwLjdjMTAuNC0xLjcgMjEuMS0yLjcgMzItMi43czIxLjYgLjkgMzIgMi43TDIyNCA0OGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2bDAgNTguOWM2Mi44IDIyLjIgMTEwLjcgNzYuMiAxMjQuMiAxNDIuN2MxLjggOC43LTMuOCAxNy4xLTEyLjUgMTguOXMtMTcuMS0zLjgtMTguOS0xMi41Yy0xMC41LTUxLjYtNDUuNy05NC4xLTkyLjgtMTE0LjdMMjU2IDI3MmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTE0MC44Yy0xMC4zLTIuMS0yMS0zLjItMzItMy4ycy0yMS43IDEuMS0zMiAzLjJMMTYwIDI3MmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTEzMC43QzcxLjUgMTY2IDMyIDIyMi40IDMyIDI4OGMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MGwxNzYgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMTc2IDBMMTYgNDgwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDY5LjggMEMzNC4xIDQxMy42IDAgMzU0LjggMCAyODhjMC04My42IDUzLjQtMTU0LjcgMTI4LTE4MS4xTDEyOCA0OGMwLTguOCA3LjItMTYgMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lari-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/lari-sign.svg)
  */
 const LariSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

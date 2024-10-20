@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `florin-sign` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/florin-sign?s=regular florin-sign}
- * @preview ![florin-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE1LjMgMzJjLTM2IDAtNjguMyAyMS45LTgxLjcgNTUuM0wxNzkgMjI0IDU2IDIyNGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwxMDMuOCAwTDEwNS44IDQwNi45Qzk5LjcgNDIyIDg1IDQzMiA2OC43IDQzMkwyNCA0MzJjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNDQuNyAwYzM2IDAgNjguMy0yMS45IDgxLjctNTUuM0wyMTEuNCAyNzIgMzI4IDI3MmMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtOTcuNCAwIDQ3LjUtMTE4LjlDMjg0LjMgOTAgMjk5IDgwIDMxNS4zIDgwTDM2MCA4MGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNDQuNyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![florin-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/florin-sign.svg)
  */
 const FlorinSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

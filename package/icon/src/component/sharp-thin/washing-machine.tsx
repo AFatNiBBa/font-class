@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `washing-machine` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/washing-machine?s=sharp-thin washing-machine}
- * @preview ![washing-machine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDE2bDAgNDgwTDE2IDQ5NiAxNiAxNmw0MTYgMHpNMTYgMEwwIDAgMCAxNiAwIDQ5NmwwIDE2IDE2IDAgNDE2IDAgMTYgMCAwLTE2IDAtNDgwIDAtMTZMNDMyIDAgMTYgMHpNOTYgODBhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem0wIDQ4YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptODAtMzJhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptNDggMGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0wIDMzNmMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhjMC04LjUgLjgtMTYuOCAyLjQtMjQuOWMxNS00LjIgMzAuOS03LjEgNDUuNi03LjFjMjYuNSAwIDQ2LjYgMTMgNzEuMSAyOS4zbDEuMiAuOEMyMzkuNiAzMTcuNiAyNjcuMSAzMzYgMzA0IDMzNmMxNi4yIDAgMzEuMy0xLjkgNDUuMS00LjhjMS4yLTUuNSAyLTExLjIgMi41LTE2LjljLTE0LjMgMy40LTMwLjQgNS43LTQ3LjYgNS43Yy0zMiAwLTU2LTE2LTgwLTMycy00OC0zMi04MC0zMmMtMTMuNCAwLTI3LjQgMi4yLTQwLjcgNS4zYzE3LjYtNDkuNyA2NS04NS4zIDEyMC43LTg1LjNjNzAuNyAwIDEyOCA1Ny4zIDEyOCAxMjhzLTU3LjMgMTI4LTEyOCAxMjh6bTAgMTZhMTQ0IDE0NCAwIDEgMCAwLTI4OCAxNDQgMTQ0IDAgMSAwIDAgMjg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![washing-machine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/washing-machine.svg)
  */
 const WashingMachine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

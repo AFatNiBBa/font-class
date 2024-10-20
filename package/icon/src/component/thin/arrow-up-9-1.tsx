@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-9-1` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-9-1?s=thin arrow-up-9-1}
- * @preview ![arrow-up-9-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI4IDQ4YTY4IDY4IDAgMSAwIC0uMSAxMzYuMUE2OCA2OCAwIDEgMCA0MjggNDh6bTAgMTUyYy00Ni40IDAtODQtMzcuNi04NC04NHMzNy42LTg0IDg0LTg0YzQ1IDAgODEuOCAzNS41IDgzLjkgODBjMCAwIC4xIDAgLjEgMGMwIC43IDAgMS40IDAgMi4xYzAgLjYgMCAxLjMgMCAxLjljMCAxMy45LTMuNCAyNy4xLTkuNCAzOC43Yy00IDguNi05LjIgMTYuNy0xNS42IDI0bC02NSA3NC42Yy0yLjkgMy4zLTggMy43LTExLjMgLjhzLTMuNy04LS44LTExLjNsMzkuNy00NS42Yy02LjkgMS44LTE0LjIgMi44LTIxLjcgMi44ek0xNTQuMyAzNC4zYzMuMS0zLjEgOC4yLTMuMSAxMS4zIDBsMTEyIDExMmMzLjEgMy4xIDMuMSA4LjIgMCAxMS4zcy04LjIgMy4xLTExLjMgMEwxNjggNTkuMyAxNjggNDcyYzAgNC40LTMuNiA4LTggOHMtOC0zLjYtOC04bDAtNDEyLjdMNTMuNyAxNTcuN2MtMy4xIDMuMS04LjIgMy4xLTExLjMgMHMtMy4xLTguMiAwLTExLjNsMTEyLTExMnptMjgyLjEgMjU1YzIuMiAxLjUgMy42IDQgMy42IDYuN2wwIDE2OCA0OCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC01NiAwLTU2IDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsNDggMCAwLTE1NS45LTQ0LjggMTkuMmMtNC4xIDEuNy04LjgtLjEtMTAuNS00LjJzLjEtOC44IDQuMi0xMC41bDU2LTI0YzIuNS0xLjEgNS4zLS44IDcuNiAuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-up-9-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-9-1.svg)
  */
 const ArrowUp_9_1: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

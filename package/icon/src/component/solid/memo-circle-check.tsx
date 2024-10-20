@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `memo-circle-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo-circle-check?s=solid memo-circle-check}
- * @preview ![memo-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMzIwIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAxMzQuNkMzMTAuMSAyMTkuNSAyNTYgMjg3LjQgMjU2IDM2OGMwIDU5LjEgMjkuMSAxMTEuMyA3My43IDE0My4zYy0zLjIgLjUtNi40IC43LTkuNyAuN0w2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6bTY0IDgwYzAgOC44IDcuMiAxNiAxNiAxNmwyMjQgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkw4MCAxMjhjLTguOCAwLTE2IDcuMi0xNiAxNnptMTYgODBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTYwIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMODAgMjI0em0wIDk2Yy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDk2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTk2IDB6bTIwOCA0OGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0xODguNy00My4zTDQxNiAzODUuNGwtMjguNy0yOC43Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMHMtNi4yIDE2LjQgMCAyMi42bDQwIDQwYzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwbDcyLTcyYzYuMi02LjIgNi4yLTE2LjQgMC0yMi42cy0xNi40LTYuMi0yMi42IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![memo-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/memo-circle-check.svg)
  */
 const MemoCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

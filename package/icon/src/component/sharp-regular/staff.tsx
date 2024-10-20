@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `staff` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff?s=sharp-regular staff}
- * @preview ![staff](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgyLjIgMGw5LjkgMEwzMTIgMCA0NDAgMGw0OCAwIDI0IDAgMCAyNCAwIDQ4IDAgMTYwIDAgMzYuMiAwIDE4LjEtMTcuNCA1LTM0LjggOS45TDQ0Ni41IDMwNWwtMjQuOCA0NC00My40LTI0LjVMMjUzLjcgMzYwLjFsLTk4LjggOTguOEwxMjEgNDkyLjlsLTE3IDE3LTE3LTE3TDE5LjEgNDI1bC0xNy0xNyAxNy0xNyAzMy45LTMzLjlMOTYgMzE0LjIgOTYgMjcybDQyLjIgMCAyNi45LTI2LjkgOC44LTguOCA0LjQtNC40IDYtMS43IDEyLTMuNEwzNjggMTc3LjdsMC0zMy43LTI2LjIgMEwzMjEgMTY0LjlsLTE3IDE3LTE3LTE3TDIxOS4xIDk3bC0xNy0xNyAxNy0xNyAzMy45LTMzLjkgOC04TDI3NS4xIDdsNy03em0xOS45IDQ4bC03IDctOCA4LTE3IDE3TDMwNCAxMTMuOSAzMTQuOSAxMDNsNy03IDkuOSAwTDM5MiA5NmwyNCAwIDAgMjQgMCA3NS44IDAgMTguMS0xNy40IDVMMjA5LjQgMjcyLjlsLTYgMS43TDE5OSAyNzkgODcgMzkxbC0xNyAxN0wxMDQgNDQxLjlsMTctMTdMMjI0LjIgMzIxLjhsNC40LTQuNCA2LTEuNyAyMTItNjAuNiAxNy40LTUgMC0xOC4xIDAtMTYwIDAtMjQtMjQgMEwzMTIgNDhsLTkuOSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![staff](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/staff.svg)
  */
 const Staff: typeof Icon = x => (
     <Icon {...x}>

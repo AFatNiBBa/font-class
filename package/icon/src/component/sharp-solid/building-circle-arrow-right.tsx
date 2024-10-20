@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building-circle-arrow-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-arrow-right?s=sharp-solid building-circle-arrow-right}
- * @preview ![building-circle-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDM4NCAwbDAgMjMyLjJjLTM5LjEgMzIuMy02NCA4MS4xLTY0IDEzNS44czI0LjkgMTAzLjUgNjQgMTM1LjhsMCA4LjItMTQ0IDAgMC0xMjgtOTYgMCAwIDEyOEwwIDUxMiAwIDB6TTEyOCAyMjRsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bTMyIDBsMCA2NCA2NCAwIDAtNjQtNjQgMHptMTYwIDBsLTY0IDAgMCA2NCA2NCAwIDAtNjR6TTY0IDk2bDAgNjQgNjQgMCAwLTY0TDY0IDk2em0xNjAgMGwtNjQgMCAwIDY0IDY0IDAgMC02NHptMzIgMGwwIDY0IDY0IDAgMC02NC02NCAwem05NiAyNzJhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMTUyLTc4LjZMNDgxLjQgMzEybDExLjMgMTEuM0w1MjEuNCAzNTIgNDMyIDM1MmwtMTYgMCAwIDMyIDE2IDAgODkuNCAwLTI4LjcgMjguN0w0ODEuNCA0MjQgNTA0IDQ0Ni42bDExLjMtMTEuMyA1Ni01Nkw1ODIuNiAzNjhsLTExLjMtMTEuMy01Ni01Nkw1MDQgMjg5LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![building-circle-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/building-circle-arrow-right.svg)
  */
 const BuildingCircleArrowRight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

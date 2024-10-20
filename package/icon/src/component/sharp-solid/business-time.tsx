@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `business-time` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/business-time?s=sharp-solid business-time}
- * @preview ![business-time](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMjQgMEwzNjAgMGwyNCAwIDAgMjQgMCA3MiAxMjggMCAwIDk2LjdjLTUuMy0uNS0xMC42LS43LTE2LS43Yy01NC43IDAtMTAzLjUgMjQuOS0xMzUuOCA2NGwtOC4yIDAtMTYwIDBMMCAyNTYgMCA5NmwxMjggMCAwLTcyIDAtMjR6TTMyMCAzNjhjMCA0Mi41IDE1LjEgODEuNiA0MC4yIDExMkwwIDQ4MCAwIDI4OGwxOTIgMCAwIDY0IDEyOC43IDBjLS41IDUuMy0uNyAxMC42LS43IDE2ek0zMzYgNDhMMTc2IDQ4bDAgNDggMTYwIDAgMC00OHptMTYgMzIwYTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTE2MC04MGwtMzIgMCAwIDE2IDAgNjQgMCAxNiAxNiAwIDQ4IDAgMTYgMCAwLTMyLTE2IDAtMzIgMCAwLTQ4IDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![business-time](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/business-time.svg)
  */
 const BusinessTime: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

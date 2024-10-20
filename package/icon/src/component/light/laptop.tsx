@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop?s=light laptop}
- * @preview ![laptop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDY0TDEyOCA2NGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAyNTYtMzIgMEw2NCA5NmMwLTM1LjMgMjguNy02NCA2NC02NGwzODQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDI1Ni0zMiAwIDAtMjU2YzAtMTcuNy0xNC4zLTMyLTMyLTMyek03Ni44IDQ0OGw0ODYuNCAwYzIwLjMgMCAzNy40LTEzLjUgNDIuOS0zMkwzMy45IDQxNmM1LjUgMTguNSAyMi43IDMyIDQyLjkgMzJ6TTAgNDAzLjJDMCAzOTIuNiA4LjYgMzg0IDE5LjIgMzg0bDYwMS42IDBjMTAuNiAwIDE5LjIgOC42IDE5LjIgMTkuMmMwIDQyLjQtMzQuNCA3Ni44LTc2LjggNzYuOEw3Ni44IDQ4MEMzNC40IDQ4MCAwIDQ0NS42IDAgNDAzLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![laptop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/laptop.svg)
  */
 const Laptop: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

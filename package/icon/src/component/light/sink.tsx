@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sink` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sink?s=light sink}
- * @preview ![sink](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDgwYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4czQ4IDIxLjUgNDggNDhsMCAzMmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMzJjMC00NC4yLTM1LjgtODAtODAtODBzLTgwIDM1LjgtODAgODBsMCAyMDgtODAgMCAwLTE2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC02NCAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDY0IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTZMMTYgMjg4Yy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDEyOCAwIDExMiAwIDExMiAwIDEyOCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xMTIgMCAwLTE2YzAtOC44IDcuMi0xNiAxNi0xNmw2NCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC02NCAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDE2LTgwIDAgMC0yMDh6TTMyIDM1MmwwIDQ4YzAgNjEuOSA1MC4xIDExMiAxMTIgMTEybDIyNCAwYzYxLjkgMCAxMTItNTAuMSAxMTItMTEybDAtNDgtMzIgMCAwIDQ4YzAgNDQuMi0zNS44IDgwLTgwIDgwbC0yMjQgMGMtNDQuMiAwLTgwLTM1LjgtODAtODBsMC00OC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sink.svg)
  */
 const Sink: typeof Icon = x => (
     <Icon {...x}>

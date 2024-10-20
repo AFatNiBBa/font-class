@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-minus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-minus?s=sharp-light shield-minus}
- * @preview ![shield-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNSAxMTQuOUwyNTYgMzQuM2wyMDcuNSA4MC41YzIuNyA0NS42LTQuNSAxMTYuOC0zNC43IDE4Ni4zUzM0NS40IDQzOC40IDI1NiA0NzcuMUMxNjYuNiA0MzguNCAxMTMuNCAzNzAuNyA4My4yIDMwMS4yUzQ1LjggMTYwLjUgNDguNSAxMTQuOXptNDQ3LTEuOWwtMS4yLTIwLjVMNDc1LjEgODUgMjY3LjYgNC41IDI1NiAwIDI0NC40IDQuNSAzNi45IDg1IDE3LjggOTIuNSAxNi42IDExM2MtMi45IDQ5LjkgNC45IDEyNi4zIDM3LjMgMjAwLjljMzIuNyA3NS4zIDkxIDE1MCAxODkuNCAxOTIuNkwyNTYgNTEybDEyLjctNS41Yzk4LjQtNDIuNiAxNTYuNy0xMTcuMyAxODkuNC0xOTIuNmMzMi40LTc0LjcgNDAuMi0xNTEgMzcuMy0yMDAuOXpNMTYwIDI0MGwtMTYgMCAwIDMyIDE2IDAgMTkyIDAgMTYgMCAwLTMyLTE2IDAtMTkyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shield-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shield-minus.svg)
  */
 const ShieldMinus: typeof Icon = x => (
     <Icon {...x}>

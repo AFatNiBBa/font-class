@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `left` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left?s=sharp-thin left}
- * @preview ![left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDMwNGwxNiAwIDIwOCAwIDAtOTYtMjA4IDAtMTYgMCAwLTE2IDAtMTEyLTkuNCAwTDIyLjYgMjU2bDE3NiAxNzYgOS40IDAgMC0xMTIgMC0xNnpNMTkyIDQ0OEwxMS4zIDI2Ny4zIDAgMjU2bDExLjMtMTEuM0wxOTIgNjRsMTYgMCAxNiAwIDAgMTYgMCA5NiAwIDE2IDE2IDAgMTkyIDAgMTYgMCAwIDE2IDAgOTYgMCAxNi0xNiAwLTE5MiAwLTE2IDAgMCAxNiAwIDk2IDAgMTYtMTYgMC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/left.svg)
  */
 const Left: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

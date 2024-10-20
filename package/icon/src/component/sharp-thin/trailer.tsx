@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trailer` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trailer?s=sharp-thin trailer}
- * @preview ![trailer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw4IDAgNTEyIDAgOCAwIDAgOCAwIDMyOCAxMDQgMCA4IDAgMCAxNi04IDAtMTA0IDAtMTYgMC0xOTIgMC04IDAgMC0xNiA4IDAgMTkyIDAgMC0zMjBMMTYgNDhsMCAzMjAgNDggMCA4IDAgMCAxNi04IDBMOCAzODRsLTggMCAwLThMMCA0MGwwLTh6TTgwIDk2bDAgOCAwIDE0NCAwIDgtMTYgMCAwLTggMC0xNDQgMC04IDE2IDB6bTk2IDBsMCA4IDAgMTQ0IDAgOC0xNiAwIDAtOCAwLTE0NCAwLTggMTYgMHptOTYgMGwwIDggMCAxNDQgMCA4LTE2IDAgMC04IDAtMTQ0IDAtOCAxNiAwem05NiAwbDAgOCAwIDIwOCAwIDgtMTYgMCAwLTggMC0yMDggMC04IDE2IDB6bTk2IDBsMCA4IDAgMjA4IDAgOC0xNiAwIDAtOCAwLTIwOCAwLTggMTYgMHpNMjcyIDM4NGE4MCA4MCAwIDEgMCAtMTYwIDAgODAgODAgMCAxIDAgMTYwIDB6TTk2IDM4NGE5NiA5NiAwIDEgMSAxOTIgMEE5NiA5NiAwIDEgMSA5NiAzODR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trailer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/trailer.svg)
  */
 const Trailer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

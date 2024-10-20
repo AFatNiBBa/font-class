@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-web` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-web?s=light camera-web}
- * @preview ![camera-web](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyYTE5MiAxOTIgMCAxIDEgMCAzODQgMTkyIDE5MiAwIDEgMSAwLTM4NHpNMzU3LjUgNDAzLjlDNDEyLjQgMzYzIDQ0OCAyOTcuNyA0NDggMjI0QzQ0OCAxMDAuMyAzNDcuNyAwIDIyNCAwUzAgMTAwLjMgMCAyMjRjMCA3My43IDM1LjYgMTM5IDkwLjUgMTc5LjlMMzcgNDczLjRjLTUuNiA3LjItNi41IDE3LTIuNSAyNS4yczEyLjQgMTMuNCAyMS41IDEzLjRsMzM2IDBjOS4xIDAgMTcuNS01LjIgMjEuNS0xMy40czMuMS0xOC0yLjUtMjUuMmwtNTMuNS02OS41em0tMjcuMSAxNy4zTDM3NS44IDQ4MCA3Mi4yIDQ4MGw0NS4zLTU4LjlDMTQ5LjIgNDM4LjMgMTg1LjUgNDQ4IDIyNCA0NDhzNzQuOC05LjcgMTA2LjUtMjYuOXpNMjI0IDExMmExMTIgMTEyIDAgMSAxIDAgMjI0IDExMiAxMTIgMCAxIDEgMC0yMjR6bTAgMjU2YTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![camera-web](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/camera-web.svg)
  */
 const CameraWeb: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

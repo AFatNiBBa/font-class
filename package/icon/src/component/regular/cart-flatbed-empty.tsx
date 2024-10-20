@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-flatbed-empty` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-flatbed-empty?s=regular cart-flatbed-empty}
- * @preview ![cart-flatbed-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNEMwIDEwLjcgMTAuNyAwIDI0IDBMNzIgMGMzMC45IDAgNTYgMjUuMSA1NiA1NmwwIDM1MmMwIDQuNCAzLjYgOCA4IDhsNzIgMCAyODggMCAxMjAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtNzIgMGMwIDI2LjUtMjEuNSA0OC00OCA0OHMtNDgtMjEuNS00OC00OGwtMTkyIDBjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhsLTI0IDBjLTMwLjkgMC01Ni0yNS4xLTU2LTU2TDgwIDU2YzAtNC40LTMuNi04LTgtOEwyNCA0OEMxMC43IDQ4IDAgMzcuMyAwIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cart-flatbed-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cart-flatbed-empty.svg)
  */
 const CartFlatbedEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

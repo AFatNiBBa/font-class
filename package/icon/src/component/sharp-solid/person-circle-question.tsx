@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-circle-question` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-question?s=sharp-solid person-circle-question}
- * @preview ![person-circle-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6TTkxLjQgMTI4bDE3LjUgMCAxMDIuMiAwIDE3LjUgMCA5LjQgMTQuOCA2Ni40IDEwNGMtMTUuNSAxNi4zLTI4IDM1LjctMzYuMyA1N2wtMi4zIDEuNC0zMy44LTUzTDIzMiA0ODBsMCAzMi02NCAwIDAtMzIgMC0xMjgtMTYgMCAwIDEyOCAwIDMyLTY0IDAgMC0zMiAwLTIyNy44LTMzLjggNTNMLjIgMjcwLjggODIgMTQyLjggOTEuNCAxMjh6TTQzMiAyMjRhMTQ0IDE0NCAwIDEgMSAwIDI4OCAxNDQgMTQ0IDAgMSAxIDAtMjg4em0tMjIuNCA1NmMtMjMgMC00MS42IDE4LjYtNDEuNiA0MS42bDAgNi40IDMyIDAgMC02LjRjMC01LjMgNC4zLTkuNiA5LjYtOS42bDQwLjUgMGM3LjcgMCAxMy45IDYuMiAxMy45IDEzLjljMCA1LjItMi45IDkuOS03LjQgMTIuM2wtMzIgMTYuOC04LjYgNC41IDAgOS43IDAgNi44IDAgMTYgMzIgMCAwLTEzLjEgMjMuNS0xMi4zYzE1LjEtNy45IDI0LjUtMjMuNiAyNC41LTQwLjZjMC0yNS40LTIwLjYtNDUuOS00NS45LTQ1LjlsLTQwLjUgMHpNNDQ4IDQxNmwtMzIgMCAwIDMyIDMyIDAgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-circle-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-circle-question.svg)
  */
 const PersonCircleQuestion: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

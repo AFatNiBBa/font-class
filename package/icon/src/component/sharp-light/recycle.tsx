@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `recycle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/recycle?s=sharp-light recycle}
- * @preview ![recycle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE1IDBsOSAwIDY0IDAgOSAwIDQuNyA3LjcgOTQuNCAxNTUuMSAxMS4xLTU0IDMuMi0xNS43IDMxLjMgNi41LTMuMiAxNS43LTE5LjQgOTQuNC0zLjYgMTcuNi0xNy4xLTUuN0wzMDcgMTkxLjJsLTE1LjItNSAxMC4xLTMwLjQgMTUuMiA1IDUwLjYgMTYuOEwyNzkgMzJsLTQ2IDAtNTEuNCA4NC40TDE1NC4yIDEwMCAyMTAuMyA3LjcgMjE1IDB6TTQyMS40IDI2NmwyNy40LTE2LjUgNjAuNyA5OS44IDUuMyA4LjgtNS44IDguNUw0NjkuNiA0MjVsLTQuOCA3LTguNSAwLTE5MC4zIDAgNDAuNSAzNiAxMiAxMC42LTIxLjMgMjMuOS0xMi0xMC42LTcyLTY0LTEzLjUtMTIgMTMuNS0xMiA3Mi02NCAxMi0xMC42IDIxLjMgMjMuOS0xMiAxMC42TDI2Ni4xIDQwMGwxODEuOSAwIDI5LTQyLjhMNDIxLjQgMjY2ek0xMDEuMyAxODYuOEw0NSAyMDUuNWwtMTUuMiA1TDE5LjggMTgwLjJsMTUuMi01IDkxLjQtMzAuNCAxNy4xLTUuNyAzLjYgMTcuNiAxOS40IDk0LjQgMy4yIDE1LjctMzEuMyA2LjUtMy4yLTE1LjctMTAtNDguNEwzNS4xIDM1Ny4zbDI5IDQyLjggOTUuOSAwIDAgMzJMNTUuNiA0MzJsLTguNSAwLTQuOC03TDIuOSAzNjYuN2wtNS44LTguNSA1LjMtOC44IDk4LjktMTYyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/recycle.svg)
  */
 const Recycle: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-vneck` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-vneck?s=sharp-light user-vneck}
- * @preview ![user-vneck](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyYTk2IDk2IDAgMSAxIDAgMTkyIDk2IDk2IDAgMSAxIDAtMTkyek05NiAxMjhhMTI4IDEyOCAwIDEgMCAyNTYgMEExMjggMTI4IDAgMSAwIDk2IDEyOHpNMTk5LjcgNDIwLjhMMjI0IDQ0OS4ybDI0LjMtMjguM0wzMjEgMzM2bDM5LjQgMCA0NC4zIDE0NEw0My4zIDQ4MCA4Ny42IDMzNmwzOS40IDAgNzIuNyA4NC44ek0zODQgMzA0bC03Ny43IDAtNjEuMiA3MS40TDIyNCA0MDBsLTIxLjEtMjQuNkwxNDEuNyAzMDQgNjQgMzA0IDkuOCA0ODAgMCA1MTJsMzMuNSAwIDM4MSAwIDMzLjUgMC05LjgtMzJMMzg0IDMwNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-vneck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-vneck.svg)
  */
 const UserVneck: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

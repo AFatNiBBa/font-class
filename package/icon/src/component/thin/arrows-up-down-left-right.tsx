@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-up-down-left-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-up-down-left-right?s=thin arrows-up-down-left-right}
- * @preview ![arrows-up-down-left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTczLjcgNDEwLjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBzLTMuMSA4LjIgMCAxMS4zbDg4IDg4YzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBsODgtODhjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3MtOC4yLTMuMS0xMS4zIDBMMjY0IDQ4NC43IDI2NCAyNjRsMjIwLjcgMC03NC4zIDc0LjNjLTMuMSAzLjEtMy4xIDguMiAwIDExLjNzOC4yIDMuMSAxMS4zIDBsODgtODhjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM2wtODgtODhjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBzLTMuMSA4LjIgMCAxMS4zTDQ4NC43IDI0OCAyNjQgMjQ4bDAtMjIwLjcgNzQuMyA3NC4zYzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBzMy4xLTguMiAwLTExLjNsLTg4LTg4Yy0zLjEtMy4xLTguMi0zLjEtMTEuMyAwbC04OCA4OGMtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMEwyNDggMjcuMyAyNDggMjQ4IDI3LjMgMjQ4bDc0LjMtNzQuM2MzLjEtMy4xIDMuMS04LjIgMC0xMS4zcy04LjItMy4xLTExLjMgMGwtODggODhjLTMuMSAzLjEtMy4xIDguMiAwIDExLjNsODggODhjMy4xIDMuMSA4LjIgMy4xIDExLjMgMHMzLjEtOC4yIDAtMTEuM0wyNy4zIDI2NCAyNDggMjY0bDAgMjIwLjctNzQuMy03NC4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-up-down-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrows-up-down-left-right.svg)
  */
 const ArrowsUpDownLeftRight: typeof Icon = x => (
     <Icon {...x}>

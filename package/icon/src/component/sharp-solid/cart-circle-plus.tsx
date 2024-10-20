@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-circle-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-plus?s=sharp-solid cart-circle-plus}
- * @preview ![cart-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEwwIDAgMCA0OGwyNCAwIDUyLjEgMCA2MC4zIDMxNi41IDMuNyAxOS41IDE5LjkgMCAxNjAuNyAwYy0uNS01LjMtLjctMTAuNi0uNy0xNmMwLTEwLjkgMS0yMS42IDIuOS0zMmwtMTQzIDAtOS4xLTQ4IDE2OC41IDBjMjkuMS01NyA4OC40LTk2IDE1Ni44LTk2YzEwIDAgMTkuNyAuOCAyOS4yIDIuNEw1NzYgMzIgMTIyIDMybC0yLjQtMTIuNUwxMTUuOSAwIDk2IDAgMjQgMHpNMTc2IDUxMmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6TTM1MiAzNjhhMTQ0IDE0NCAwIDEgMCAyODggMCAxNDQgMTQ0IDAgMSAwIC0yODggMHptMjA4IDE2bC00OCAwIDAgNDggMCAxNi0zMiAwIDAtMTYgMC00OC00OCAwLTE2IDAgMC0zMiAxNiAwIDQ4IDAgMC00OCAwLTE2IDMyIDAgMCAxNiAwIDQ4IDQ4IDAgMTYgMCAwIDMyLTE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cart-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cart-circle-plus.svg)
  */
 const CartCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

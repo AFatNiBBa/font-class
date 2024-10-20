@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tooth` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tooth?s=solid tooth}
- * @preview ![tooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg2LjEgNTIuMUMxNjkuMyAzOS4xIDE0OC43IDMyIDEyNy41IDMyQzc0LjcgMzIgMzIgNzQuNyAzMiAxMjcuNWwwIDYuMmMwIDE1LjggMy43IDMxLjMgMTAuNyA0NS41bDIzLjUgNDcuMWM0LjUgOC45IDcuNiAxOC40IDkuNCAyOC4ybDM2LjcgMjA1LjhjMiAxMS4yIDExLjYgMTkuNCAyMi45IDE5LjhzMjEuNC03LjQgMjQtMTguNGwyOC45LTEyMS4zQzE5Mi4yIDMyMy43IDIwNyAzMTIgMjI0IDMxMnMzMS44IDExLjcgMzUuOCAyOC4zbDI4LjkgMTIxLjNjMi42IDExLjEgMTIuNyAxOC44IDI0IDE4LjRzMjAuOS04LjYgMjIuOS0xOS44bDM2LjctMjA1LjhjMS44LTkuOCA0LjktMTkuMyA5LjQtMjguMmwyMy41LTQ3LjFjNy4xLTE0LjEgMTAuNy0yOS43IDEwLjctNDUuNWwwLTIuMWMwLTU1LTQ0LjYtOTkuNi05OS42LTk5LjZjLTI0LjEgMC00Ny40IDguOC02NS42IDI0LjZsLTMuMiAyLjggMTkuNSAxNS4yYzcgNS40IDguMiAxNS41IDIuOCAyMi41cy0xNS41IDguMi0yMi41IDIuOGwtMjQuNC0xOS0zNy0yOC44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tooth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tooth.svg)
  */
 const Tooth: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

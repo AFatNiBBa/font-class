@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `share-nodes` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/share-nodes?s=sharp-regular share-nodes}
- * @preview ![share-nodes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDEyOGMwIDUzLTQzIDk2LTk2IDk2Yy0yOC45IDAtNTQuOC0xMi44LTcyLjQtMzNsLTg5LjcgNDQuOWMxLjQgNi41IDIuMSAxMy4yIDIuMSAyMC4xcy0uNyAxMy42LTIuMSAyMC4xTDI3OS42IDMyMWMxNy42LTIwLjIgNDMuNS0zMyA3Mi40LTMzYzUzIDAgOTYgNDMgOTYgOTZzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmMwLTYuOSAuNy0xMy42IDIuMS0yMC4xTDE2OC40IDMxOWMtMTcuNiAyMC4yLTQzLjUgMzMtNzIuNCAzM2MtNTMgMC05Ni00My05Ni05NnM0My05NiA5Ni05NmMyOC45IDAgNTQuOCAxMi44IDcyLjQgMzNsODkuNy00NC45Yy0xLjQtNi41LTIuMS0xMy4yLTIuMS0yMC4xYzAtNTMgNDMtOTYgOTYtOTZzOTYgNDMgOTYgOTZ6TTk2IDMwNGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6TTQwMCAxMjhhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMzUyIDQzMmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![share-nodes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/share-nodes.svg)
  */
 const ShareNodes: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

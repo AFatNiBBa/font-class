@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mattress-pillow` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mattress-pillow?s=sharp-regular mattress-pillow}
- * @preview ![mattress-pillow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDExMmwwIDI4OEw0OCA0MDBsMC0yODggMTkyIDB6bTQ4IDBsMzA0IDAgMCAyODgtMzA0IDAgMC0yODh6TTQ4IDY0TDAgNjRsMCA0OEwwIDQwMGwwIDQ4IDQ4IDAgNTQ0IDAgNDggMCAwLTQ4IDAtMjg4IDAtNDgtNDggMEw0OCA2NHptMzIgODBsMCAyMjQgMTI4IDAgMC0yMjRMODAgMTQ0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mattress-pillow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mattress-pillow.svg)
  */
 const MattressPillow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

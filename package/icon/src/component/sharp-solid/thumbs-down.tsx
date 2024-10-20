@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `thumbs-down` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbs-down?s=sharp-solid thumbs-down}
- * @preview ![thumbs-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDQ0NC4zbDAgMzUuNyA5NiAwIDAtMzUuN2MwLTM4LjEtOS03NS4xLTI1LjgtMTA4LjNMNDY0IDMzNmw0OCAwIDAtOTYtMTYgMCAwLTgwLTI0IDAgMC03Mi0yNCAwIDAtNTYtNDggMEwyODAgMzJsLTE0LjUgMC0xMi4xIDguMS03MiA0OEwxNjAgMTAyLjNsMCAyNS43IDAgNjQgMCA5NiAwIDIzLjEgMTggMTQuNCA3LjkgNi40YzM0LjIgMjcuMyA1NCA2OC43IDU0IDExMi40ek0xMjggMzg0bDAtMjg4TDAgOTYgMCAzODRsMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![thumbs-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/thumbs-down.svg)
  */
 const ThumbsDown: typeof Icon = x => (
     <Icon {...x}>

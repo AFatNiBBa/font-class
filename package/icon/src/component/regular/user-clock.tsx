@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-clock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-clock?s=regular user-clock}
- * @preview ![user-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDIwOGE4MCA4MCAwIDEgMCAwLTE2MCA4MCA4MCAwIDEgMCAwIDE2MHpNMjI0IDBhMTI4IDEyOCAwIDEgMSAwIDI1NkExMjggMTI4IDAgMSAxIDIyNCAwek00OS4zIDQ2NGwyOTkuMiAwYzEyLjMgMTguOCAyOCAzNS4xIDQ2LjMgNDhMMjkuNyA1MTJDMTMuMyA1MTIgMCA0OTguNyAwIDQ4Mi4zQzAgMzgzLjggNzkuOCAzMDQgMTc4LjMgMzA0bDQ1LjcgMCA0NS43IDBjMjAuNiAwIDQwLjQgMy41IDU4LjggOS45Yy00LjkgMTUuMy03LjggMzEuNC04LjQgNDguMmMtMTUuNS02LjUtMzIuNS0xMC4xLTUwLjQtMTAuMWwtOTEuNCAwYy02NS43IDAtMTIwLjEgNDguNy0xMjkgMTEyek0zNTIgMzY4YTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTE0NC04MGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2bDQ4IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTMyIDAgMC00OGMwLTguOC03LjItMTYtMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-clock.svg)
  */
 const UserClock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

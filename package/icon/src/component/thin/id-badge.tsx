@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `id-badge` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-badge?s=thin id-badge}
- * @preview ![id-badge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTZDMzcuNSAxNiAxNiAzNy41IDE2IDY0bDAgMzg0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDI1NiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzg0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDE2ek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDM4NGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6TTI0MCAyMjRhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHptLTExMiAwYTY0IDY0IDAgMSAxIDEyOCAwIDY0IDY0IDAgMSAxIC0xMjggMHptMC0xNTJjMC00LjQgMy42LTggOC04bDExMiAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDEzNiA4MGMtNC40IDAtOC0zLjYtOC04ek05NiAzOTJjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThjMC0zOS44IDMyLjItNzIgNzItNzJsODAgMGMzOS44IDAgNzIgMzIuMiA3MiA3MmMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGMwLTMwLjktMjUuMS01Ni01Ni01NmwtODAgMGMtMzAuOSAwLTU2IDI1LjEtNTYgNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![id-badge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/id-badge.svg)
  */
 const IdBadge: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-drizzle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-drizzle?s=sharp-light cloud-drizzle}
- * @preview ![cloud-drizzle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDEyOGwwIDMyIDMyIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCA2NC02NCAwTDk2IDI4OGwtNjQgMCAwLTY0YzAtMjcuOCAxNy44LTUxLjYgNDIuNy02MC40TDk2IDE1Ni4xbDAtMjIuNkw5NiAxMTJjMC00NC4yIDM1LjgtODAgODAtODBjMjcgMCA1MC45IDEzLjQgNjUuNSAzNGwxNy44IDI1LjIgMjUuOS0xNi45YzEwLTYuNSAyMi0xMC4zIDM0LjktMTAuM2MzNS4zIDAgNjQgMjguNyA2NCA2NHpNMCAzMjBsMzIgMCA2NCAwIDMyMCAwIDY0IDAgMzIgMCAwLTMyIDAtNjRjMC01My00My05Ni05Ni05NmMwLTUzLTQzLTk2LTk2LTk2Yy0xOS4zIDAtMzcuMyA1LjctNTIuNCAxNS41QzI0Ny4zIDE4LjggMjEzLjkgMCAxNzYgMEMxMTQuMSAwIDY0IDUwLjEgNjQgMTEybDAgMjEuNUMyNi43IDE0Ni42IDAgMTgyLjIgMCAyMjRsMCA2NCAwIDMyem02NCA1NmwwLTE2LTMyIDAgMCAxNiAwIDQwIDAgMTYgMzIgMCAwLTE2IDAtNDB6bTE5MiAwbDAtMTYtMzIgMCAwIDE2IDAgNDAgMCAxNiAzMiAwIDAtMTYgMC00MHptMTkyIDBsMC0xNi0zMiAwIDAgMTYgMCA0MCAwIDE2IDMyIDAgMC0xNiAwLTQwek0xNjAgNDQ4bDAtMTYtMzIgMCAwIDE2IDAgNDggMCAxNiAzMiAwIDAtMTYgMC00OHptMTkyIDBsMC0xNi0zMiAwIDAgMTYgMCA0OCAwIDE2IDMyIDAgMC0xNiAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloud-drizzle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cloud-drizzle.svg)
  */
 const CloudDrizzle: typeof Icon = x => (
     <Icon {...x}>

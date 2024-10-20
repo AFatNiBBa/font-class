@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-pouting` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pouting?s=solid face-pouting}
- * @preview ![face-pouting](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMEEyNTYgMjU2IDAgMSAxIDAgMjU2ek0xNjEuMyAzODIuMWMtNS40IDEyLjMgOC43IDIxLjYgMjEuMSAxNi40YzIyLjQtOS41IDQ3LjQtMTQuOCA3My43LTE0LjhzNTEuMyA1LjMgNzMuNyAxNC44YzEyLjQgNS4yIDI2LjUtNC4xIDIxLjEtMTYuNGMtMTYtMzYuNi01Mi40LTYyLjEtOTQuOC02Mi4xcy03OC44IDI1LjYtOTQuOCA2Mi4xek0xNzYuNCAyNzJjMTcuNyAwIDMyLTE0LjMgMzItMzJjMC0xLjUtLjEtMy0uMy00LjRsMTAuOSAzLjZjOC40IDIuOCAxNy40LTEuNyAyMC4yLTEwLjFzLTEuNy0xNy40LTEwLjEtMjAuMmwtOTYtMzJjLTguNC0yLjgtMTcuNCAxLjctMjAuMiAxMC4xczEuNyAxNy40IDEwLjEgMjAuMmwzMC43IDEwLjJjLTUuOCA1LjgtOS4zIDEzLjgtOS4zIDIyLjZjMCAxNy43IDE0LjMgMzIgMzIgMzJ6bTE5Mi0zMmMwLTguOS0zLjYtMTctOS41LTIyLjhsMzAuMi0xMC4xYzguNC0yLjggMTIuOS0xMS45IDEwLjEtMjAuMnMtMTEuOS0xMi45LTIwLjItMTAuMWwtOTYgMzJjLTguNCAyLjgtMTIuOSAxMS45LTEwLjEgMjAuMnMxMS45IDEyLjkgMjAuMiAxMC4xbDExLjctMy45Yy0uMiAxLjUtLjMgMy4xLS4zIDQuN2MwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-pouting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-pouting.svg)
  */
 const FacePouting: typeof Icon = x => (
     <Icon {...x}>

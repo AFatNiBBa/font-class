@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `left-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-right?s=regular left-right}
- * @preview ![left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA1LjYgMjM5LjdjOC41IDkuMiA4LjUgMjMuNCAwIDMyLjZsLTg5LjQgOTYuOGMtOC44IDkuNS0yMS4xIDE0LjktMzQgMTQuOWMtMjUuNSAwLTQ2LjMtMjAuNy00Ni4zLTQ2LjNsMC05LjctMTYwIDAgMCA5LjdjMCAyNS41LTIwLjcgNDYuMy00Ni4zIDQ2LjNjLTEyLjkgMC0yNS4yLTUuNC0zNC0xNC45TDYuNCAyNzIuM2MtOC41LTkuMi04LjUtMjMuNCAwLTMyLjZsODkuNC05Ni44YzguOC05LjUgMjEuMS0xNC45IDM0LTE0LjljMjUuNSAwIDQ2LjMgMjAuNyA0Ni4zIDQ2LjNsMCA5LjcgMTYwIDAgMC05LjdjMC0yNS41IDIwLjctNDYuMyA0Ni4zLTQ2LjNjMTIuOSAwIDI1LjIgNS40IDM0IDE0LjlsODkuNCA5Ni44ek0zODQgMTc4LjdsMCAyOS4zYzAgMTMuMy0xMC43IDI0LTI0IDI0bC0yMDggMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0yOS4zTDU2LjcgMjU2IDEyOCAzMzMuM2wwLTI5LjNjMC0xMy4zIDEwLjctMjQgMjQtMjRsMjA4IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAyOS4zTDQ1NS4zIDI1NiAzODQgMTc4Ljd6bS0yNTMtMy4zczAgMCAwIDBsLTEuMy0xLjIgMS4zIDEuMnMwIDAgMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/left-right.svg)
  */
 const LeftRight: typeof Icon = x => (
     <Icon {...x}>

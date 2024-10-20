@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-down?s=regular turn-down}
- * @preview ![turn-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc1LjYgNTA1LjVjOS4yIDguNyAyMy43IDguNyAzMi45IDBsMTI5LTEyMS40YzkuMy04LjggMTQuNi0yMSAxNC42LTMzLjdjMC0yNS42LTIwLjctNDYuMy00Ni4zLTQ2LjNMMjY0IDMwNGwwLTE0NEMyNjQgNzEuNiAxOTIuNCAwIDEwNCAwTDU2IDBDMjUuMSAwIDAgMjUuMSAwIDU2TDAgODhjMCAzMC45IDI1LjEgNTYgNTYgNTZsNTYgMGM0LjQgMCA4IDMuNiA4IDhsMCAxNTItNDEuNyAwQzUyLjcgMzA0IDMyIDMyNC43IDMyIDM1MC4zYzAgMTIuOCA1LjMgMjUgMTQuNiAzMy43bDEyOSAxMjEuNHpNODIuNSAzNTJsNjEuNSAwYzEzLjMgMCAyNC0xMC43IDI0LTI0bDAtMTc2YzAtMzAuOS0yNS4xLTU2LTU2LTU2TDU2IDk2Yy00LjQgMC04LTMuNi04LThsMC0zMmMwLTQuNCAzLjYtOCA4LThsNDggMGM2MS45IDAgMTEyIDUwLjEgMTEyIDExMmwwIDE2OGMwIDEzLjMgMTAuNyAyNCAyNCAyNGw2MS41IDBMMTkyIDQ1NSA4Mi41IDM1MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![turn-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/turn-down.svg)
  */
 const TurnDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `sun-bright` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-bright?s=sharp-duotone-solid sun-bright}
- * @preview ![sun-bright](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIzMmwwIDQ4IDI0IDAgNjQgMCAyNCAwIDAtNDgtMjQgMC02NCAwTDAgMjMyek01OCA5MmwxNyAxNyA0NS4zIDQ1LjMgMTcgMTcgMzMuOS0zMy45LTE3LTE3TDEwOC45IDc1IDkyIDU4IDU4IDkyek01OCA0MjBMOTIgNDU0bDE3LTE3IDQ1LjMtNDUuMyAxNy0xNy0zMy45LTMzLjktMTcgMTdMNzUgNDAzLjEgNTggNDIwek0yMzIgMGwwIDI0IDAgNjQgMCAyNCA0OCAwIDAtMjQgMC02NCAwLTI0TDIzMiAwem0wIDQwMGwwIDI0IDAgNjQgMCAyNCA0OCAwIDAtMjQgMC02NCAwLTI0LTQ4IDB6TTM0MC45IDEzNy4ybDMzLjkgMzMuOSAxNy0xN0w0MzcgMTA4LjlsMTctMTdMNDIwIDU4bC0xNyAxNy00NS4zIDQ1LjMtMTcgMTd6bTAgMjM3LjZsMTcgMTdMNDAzLjEgNDM3bDE3IDE3TDQ1NCA0MjBsLTE3LTE3LTQ1LjMtNDUuMy0xNy0xNy0zMy45IDMzLjl6TTQwMCAyMzJsMCA0OCAyNCAwIDY0IDAgMjQgMCAwLTQ4LTI0IDAtNjQgMC0yNCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjU2IDE0NGExMTIgMTEyIDAgMSAwIDAgMjI0IDExMiAxMTIgMCAxIDAgMC0yMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sun-bright](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sun-bright.svg)
  */
 const SunBright: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 232l0 48 24 0 64 0 24 0 0-48-24 0-64 0L0 232zM58 92l17 17 45.3 45.3 17 17 33.9-33.9-17-17L108.9 75 92 58 58 92zM58 420L92 454l17-17 45.3-45.3 17-17-33.9-33.9-17 17L75 403.1 58 420zM232 0l0 24 0 64 0 24 48 0 0-24 0-64 0-24L232 0zm0 400l0 24 0 64 0 24 48 0 0-24 0-64 0-24-48 0zM340.9 137.2l33.9 33.9 17-17L437 108.9l17-17L420 58l-17 17-45.3 45.3-17 17zm0 237.6l17 17L403.1 437l17 17L454 420l-17-17-45.3-45.3-17-17-33.9 33.9zM400 232l0 48 24 0 64 0 24 0 0-48-24 0-64 0-24 0z" />
-            <path d="M256 144a112 112 0 1 0 0 224 112 112 0 1 0 0-224z" />
+        <path d="M256 144a112 112 0 1 0 0 224 112 112 0 1 0 0-224z" />
     </Icon>
 );
 

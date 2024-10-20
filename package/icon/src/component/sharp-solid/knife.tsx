@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `knife` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/knife?s=sharp-solid knife}
- * @preview ![knife](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDE0Ni43TDQ2Ni43IDBzNDUuMyA0MCA0NS4zIDEwNGMwIDczLjItNjggMTQwLjgtMTY0LjMgMjM2LjRjLTkgOC45LTE4LjMgMTguMS0yNy43IDI3LjZsLTY1LjQtNjUuNHMwIDAgMCAwbC0xODQgMTg0TDQ4IDUwOS4zIDIuNyA0NjRsMjIuNi0yMi42IDI3Mi0yNzJMMzIwIDE0Ni43czAgMCAwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![knife](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/knife.svg)
  */
 const Knife: typeof Icon = x => (
     <Icon {...x}>

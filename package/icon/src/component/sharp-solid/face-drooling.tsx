@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-drooling` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-drooling?s=sharp-solid face-drooling}
- * @preview ![face-drooling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDQ3Ny44Yzc2LjUtNDQuMyAxMjgtMTI3IDEyOC0yMjEuOEM1MTIgMTE0LjYgMzk3LjQgMCAyNTYgMFMwIDExNC42IDAgMjU2UzExNC42IDUxMiAyNTYgNTEyYzMzLjkgMCA2Ni40LTYuNiA5Ni0xOC42bDAtMTIyLjRjLTkuNyA2LjQtMjAuMyAxMi4yLTMyIDE2LjlsMCA2MC4yIDAgMTYtMzIgMCAwLTE2IDAtNTAuOWMtMTAuMSAxLjktMjAuOCAyLjktMzIgMi45Yy02NyAwLTExMy44LTM2LjctMTQwLjUtNzBsLTEwLTEyLjUgMjUtMjAgMTAgMTIuNWMyMi44IDI4LjUgNjEuMyA1OCAxMTUuNSA1OHM5Mi43LTI5LjUgMTE1LjUtNThsMTAtMTIuNSAyNSAyMC0xMCAxMi41Yy0zLjggNC43LTcuOSA5LjUtMTIuNSAxNC4ybDAgMTMzLjZ6TTIwMCAxNzZjLTM5LjIgMC01OC4zIDI1LjYtNjQuOCA0NS4xbC0zMC40LTEwLjFjOS41LTI4LjUgMzguNC02Ni45IDk1LjItNjYuOWwwIDMyem0xNzYuOCA0NS4xQzM3MC4zIDIwMS42IDM1MS4yIDE3NiAzMTIgMTc2bDAtMzJjNTYuOCAwIDg1LjcgMzguNCA5NS4yIDY2LjlsLTMwLjQgMTAuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-drooling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-drooling.svg)
  */
 const FaceDrooling: typeof Icon = x => (
     <Icon {...x}>

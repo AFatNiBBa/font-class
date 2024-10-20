@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cup-straw-swoosh` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cup-straw-swoosh?s=sharp-thin cup-straw-swoosh}
- * @preview ![cup-straw-swoosh](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE3LjggMEwyMjQgMGw1NiAwIDggMCAwIDE2LTggMC00OS44IDAtMjggMTEyTDM3NiAxMjhsOCAwIDAgMTYtOCAwTDggMTQ0bC04IDAgMC0xNiA4IDAgMTc3LjggMEwyMTYuMiA2LjEgMjE3LjggMHpNNjQgNTEyTDM2IDE3NmwxNi4xIDBMNjguNyAzNzUuOGM0MC4zLTIuMSA2Ni42LTEwLjIgODUuNS0yMC44YzE5LjctMTEgMzIuMi0yNS4yIDQ0LjYtNDAuMmwyLjktMy41YzExLjQtMTMuOSAyMy40LTI4LjUgNDEuMy00MC4xYzE5LjMtMTIuNSA0NC44LTIxLjIgODIuOS0yMy4xbDYtNzIuMSAxNi4xIDBMMzIwIDUxMiA2NCA1MTJ6TTMyNC42IDI2NC4yYy0zNC43IDItNTYuOCAxMC03Mi45IDIwLjRjLTE1LjcgMTAuMi0yNi4yIDIzLTM3LjkgMzcuMWwtMi43IDMuM2MtMTIuNiAxNS4zLTI2LjYgMzEuNC00OS4xIDQ0Yy0yMS41IDEyLTUwLjIgMjAuNS05MiAyMi43TDc4LjcgNDk2bDIyNi42IDAgMTkuMy0yMzEuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cup-straw-swoosh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cup-straw-swoosh.svg)
  */
 const CupStrawSwoosh: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

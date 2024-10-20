@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `robot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/robot?s=sharp-regular robot}
- * @preview ![robot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDI0bDAtMjRMMjk2IDBsMCAyNCAwIDcyTDE0NCA5NiA5NiA5NmwwIDQ4IDAgMzIwIDAgNDggNDggMCAzNTIgMCA0OCAwIDAtNDggMC0zMjAgMC00OC00OCAwTDM0NCA5NmwwLTcyek0yOTYgMTQ0bDQ4IDAgMTUyIDAgMCAzMjAtMzUyIDAgMC0zMjAgMTUyIDB6TTY0IDIyNEwwIDIyNCAwIDQxNmw2NCAwIDAtMTkyem01NzYgMGwtNjQgMCAwIDE5MiA2NCAwIDAtMTkyek0xOTIgMzg0bDAgMzIgMTYgMCAzMiAwIDE2IDAgMC0zMi0xNiAwLTMyIDAtMTYgMHptMTQ0IDBsLTMyIDAtMTYgMCAwIDMyIDE2IDAgMzIgMCAxNiAwIDAtMzItMTYgMHptNjQgMGwtMTYgMCAwIDMyIDE2IDAgMzIgMCAxNiAwIDAtMzItMTYgMC0zMiAwek0yODAgMjU2YTQwIDQwIDAgMSAwIC04MCAwIDQwIDQwIDAgMSAwIDgwIDB6bTEyMCA0MGE0MCA0MCAwIDEgMCAwLTgwIDQwIDQwIDAgMSAwIDAgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/robot.svg)
  */
 const Robot: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

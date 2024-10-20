@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-dolly-empty` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dolly-empty?s=sharp-regular person-dolly-empty}
- * @preview ![person-dolly-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgOTZBNDggNDggMCAxIDAgODAgMGE0OCA0OCAwIDEgMCAwIDk2ek0wIDQ4OGwwIDI0IDQ4IDAgMC0yNCAwLTEwOS45TDEuNiAzNDEuNmMtLjUtLjQtMS4xLS45LTEuNi0xLjNMMCA0ODh6TTI0IDEyOEwwIDEyOGwwIDI0TDAgMjcyLjRjMCAxNy4yIDcuOSAzMy40IDIxLjQgNDRsOTIuMiA3Mi40TDEzMS4yIDUxMmw0OC41IDBMMTU5LjggMzcyLjZsLTEuNC05LjUtNy42LTUuOUwxMjAgMzMyLjlsMC00LjkgMC05My4zIDIwLjggMjcuN0wxNDggMjcybDEyIDAgNTkuMyAwIDMxLjEgMTI0LjNjLTE2IDExLjYtMjYuMyAzMC41LTI2LjMgNTEuN2MwIDM1LjMgMjguNyA2NCA2NCA2NGMzMi4zIDAgNTkuMS0yNCA2My40LTU1LjFsMTM0LjQtMzMuNiAyMy4zLTUuOC0xMS42LTQ2LjYtMjMuMyA1LjhMMzM5LjcgNDEwLjNjLTEwLTEzLjctMjUuMy0yMy4zLTQyLjktMjUuN0wyNDcuMyAxODYuMmwtNS44LTIzLjMtNDYuNiAxMS42IDUuOCAyMy4zIDYuNSAyNi4yTDE3MiAyMjRsLTY0LjgtODYuNEwxMDAgMTI4bC0xMiAwLTY0IDB6bTQ4IDU2bDAgMTExLjJMNTEuMSAyNzguN2MtMS45LTEuNS0zLjEtMy44LTMuMS02LjNMNDggMTc2bDI0IDAgMCA4ek0yNzIgNDQ4YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-dolly-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-dolly-empty.svg)
  */
 const PersonDollyEmpty: typeof Icon = x => (
     <Icon {...x}>

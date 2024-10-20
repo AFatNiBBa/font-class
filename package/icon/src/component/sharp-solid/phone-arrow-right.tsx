@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-arrow-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-arrow-right?s=sharp-solid phone-arrow-right}
- * @preview ![phone-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBMMCAzMiAwIDY0QzAgMzExLjQgMjAwLjYgNTEyIDQ0OCA1MTJsMzIgMCAzMi0xNDRMMzY4IDI4OGwtNjcgODMuOEMyMzIuNSAzMzUuNyAxNzYuMyAyNzkuNSAxNDAuMiAyMTFMMjI0IDE0NCAxNDQgMHpNNDEzLjggMjNsLTE3LTE3TDM2Mi45IDQwbDE3IDE3IDM5IDM5TDMxMiA5NmwtMjQgMCAwIDQ4IDI0IDAgMTA2LjkgMC0zOSAzOS0xNyAxNyAzMy45IDMzLjkgMTctMTcgODAtODAgMTctMTctMTctMTctODAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![phone-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/phone-arrow-right.svg)
  */
 const PhoneArrowRight: typeof Icon = x => (
     <Icon {...x}>

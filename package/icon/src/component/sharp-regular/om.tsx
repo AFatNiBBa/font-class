@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `om` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/om?s=sharp-regular om}
- * @preview ![om](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDBMMzM2IDMybDMyIDMyIDMyLTMyTDM2OCAwem0yNCAyMDBsLTkuOSAwLTcgNy01NyA1Ny04Ni40IDBDMjQyIDI0Ny44IDI0OCAyMjguNiAyNDggMjA4YzAtNTcuNC00Ni42LTEwNC0xMDQtMTA0Yy0yMy40IDAtNDUgNy43LTYyLjQgMjAuOGwyOC44IDM4LjRjOS40LTcgMjEtMTEuMiAzMy42LTExLjJjMzAuOSAwIDU2IDI1LjEgNTYgNTZzLTI1LjEgNTYtNTYgNTZsLTU2IDAgMjQgNDggMzIgMCAxMiAwYzQyIDAgNzYgMzQgNzYgNzZjMCA0MS41LTMzLjIgNzUuMi03NC41IDc2QzQ3LjUgNDYyLjYgMTYgMzY4IDE2IDM2OHMtMTUuNyAxNDEuNiAxNDAgMTQ0YzAgMCAwIDAgMCAwYy41IDAgMS4xIDAgMS42IDBjLjggMCAxLjYgMCAyLjQgMGMwIDAgMCAwIDAtLjFjNjYuNi0yLjEgMTIwLTU2LjggMTIwLTEyMy45YzAtMjguNi05LjctNTUtMjYtNzZsNzQgMCA5LjkgMCA3LTcgNTctNTcgMjIuMSAwYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgMTEyYzAgMTcuNy0xNC4zIDMyLTMyIDMyYy02NCAwLTgwLTQ4LTgwLTQ4bDAgNDhzMCA0OCA4MCA0OGM0NC4yIDAgODAtMzUuOCA4MC04MGwwLTExMmMwLTQ4LjYtMzkuNC04OC04OC04OGwtMzIgMHptODgtODhsMC00OHMtNjYuNSAzMi0xMTIgMzJzLTExMi0zMi0xMTItMzJzMTYgODAgMTIwIDgwYzcyIDAgMTA0LTMyIDEwNC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![om](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/om.svg)
  */
 const Om: typeof Icon = x => (
     <Icon {...x}>

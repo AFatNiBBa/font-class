@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `unlock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/unlock?s=regular unlock}
- * @preview ![unlock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDEyOGMwLTQ0LjIgMzUuOC04MCA4MC04MGMzNS42IDAgNjUuOCAyMy4yIDc2LjEgNTUuNGM0LjEgMTIuNiAxNy42IDE5LjUgMzAuMiAxNS41czE5LjUtMTcuNiAxNS41LTMwLjJDMzI5LjIgMzcuMiAyODEgMCAyMjQgMEMxNTMuMyAwIDk2IDU3LjMgOTYgMTI4bDAgNjQtMzIgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xOTJjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTI0MCAwIDAtNjR6TTQ4IDI1NmMwLTguOCA3LjItMTYgMTYtMTZsMzIwIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTkyYzAgOC44LTcuMiAxNi0xNiAxNkw2NCA0NjRjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![unlock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/unlock.svg)
  */
 const Unlock: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

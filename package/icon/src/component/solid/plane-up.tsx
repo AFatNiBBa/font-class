@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-up?s=solid plane-up}
- * @preview ![plane-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDkzLjdDMTkyIDU5LjUgMjIxIDAgMjU2IDBjMzYgMCA2NCA1OS41IDY0IDkzLjdsMCA2Ni4zTDQ5Ny44IDI3OC41YzguOSA1LjkgMTQuMiAxNS45IDE0LjIgMjYuNmwwIDU2LjdjMCAxMC45LTEwLjcgMTguNi0yMS4xIDE1LjJMMzIwIDMyMGwwIDgwIDU3LjYgNDMuMmM0IDMgNi40IDcuOCA2LjQgMTIuOGwwIDQyYzAgNy44LTYuMyAxNC0xNCAxNGMtMS4zIDAtMi42LS4yLTMuOS0uNUwyNTYgNDgwIDE0NS45IDUxMS41Yy0xLjMgLjQtMi42IC41LTMuOSAuNWMtNy44IDAtMTQtNi4zLTE0LTE0bDAtNDJjMC01IDIuNC05LjggNi40LTEyLjhMMTkyIDQwMGwwLTgwTDIxLjEgMzc3QzEwLjcgMzgwLjQgMCAzNzIuNyAwIDM2MS44bDAtNTYuN2MwLTEwLjcgNS4zLTIwLjcgMTQuMi0yNi42TDE5MiAxNjBsMC02Ni4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![plane-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plane-up.svg)
  */
 const PlaneUp: typeof Icon = x => (
     <Icon {...x}>

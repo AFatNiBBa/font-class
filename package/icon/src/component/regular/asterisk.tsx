@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `asterisk` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/asterisk?s=regular asterisk}
- * @preview ![asterisk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMyYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMTU2LjkgMTMxLjQtODEuM2MxMS4zLTcgMjYuMS0zLjUgMzMgNy44czMuNSAyNi4xLTcuOCAzM0wyMzcuNiAyNTZsMTM1IDgzLjZjMTEuMyA3IDE0LjcgMjEuOCA3LjggMzNzLTIxLjggMTQuNy0zMyA3LjhMMjE2IDI5OS4xIDIxNiA0NTZjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0xNTYuOUwzNi42IDM4MC40Yy0xMS4zIDctMjYuMSAzLjUtMzMtNy44cy0zLjUtMjYuMSA3LjgtMzNsMTM1LTgzLjYtMTM1LTgzLjZjLTExLjMtNy0xNC44LTIxLjgtNy44LTMzczIxLjgtMTQuOCAzMy03LjhMMTY4IDIxMi45IDE2OCA1NmMwLTEzLjMgMTAuNy0yNCAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![asterisk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/asterisk.svg)
  */
 const Asterisk: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

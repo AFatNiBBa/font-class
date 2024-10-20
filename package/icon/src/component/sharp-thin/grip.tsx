@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grip?s=sharp-thin grip}
- * @preview ![grip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDQwMGwwLTk2LTk2IDAgMCA5NiA5NiAwem0xNiAxNmwtMTYgMC05NiAwLTE2IDAgMC0xNiAwLTk2IDAtMTYgMTYgMCA5NiAwIDE2IDAgMCAxNiAwIDk2IDAgMTZ6TTQzMiAyMDhsMC05Ni05NiAwIDAgOTYgOTYgMHptMTYgMTZsLTE2IDAtOTYgMC0xNiAwIDAtMTYgMC05NiAwLTE2IDE2IDAgOTYgMCAxNiAwIDAgMTYgMCA5NiAwIDE2ek0xNzYgNDAwbDk2IDAgMC05Ni05NiAwIDAgOTZ6bTk2IDE2bC05NiAwLTE2IDAgMC0xNiAwLTk2IDAtMTYgMTYgMCA5NiAwIDE2IDAgMCAxNiAwIDk2IDAgMTYtMTYgMHptMC0yMDhsMC05Ni05NiAwIDAgOTYgOTYgMHptMTYgMTZsLTE2IDAtOTYgMC0xNiAwIDAtMTYgMC05NiAwLTE2IDE2IDAgOTYgMCAxNiAwIDAgMTYgMCA5NiAwIDE2ek0xNiA0MDBsOTYgMCAwLTk2LTk2IDAgMCA5NnptOTYgMTZsLTk2IDBMMCA0MTZsMC0xNiAwLTk2IDAtMTYgMTYgMCA5NiAwIDE2IDAgMCAxNiAwIDk2IDAgMTYtMTYgMHptMC0yMDhsMC05Ni05NiAwIDAgOTYgOTYgMHptMTYgMTZsLTE2IDAtOTYgMEwwIDIyNGwwLTE2IDAtOTZMMCA5NmwxNiAwIDk2IDAgMTYgMCAwIDE2IDAgOTYgMCAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![grip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/grip.svg)
  */
 const Grip: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

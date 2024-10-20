@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building-circle-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-exclamation?s=sharp-regular building-circle-exclamation}
- * @preview ![building-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMjg4IDAgMCAyNDYuNmMxMS4xLTI0LjMgMjcuNy00NS41IDQ4LTYyLjNMMzg0IDQ4bDAtNDhMMzM2IDAgNDggMCAwIDAgMCA0OCAwIDQ2NGwwIDQ4IDQ4IDAgMjg4IDAgNDggMCAwLTguMmMtMjAuMy0xNi44LTM2LjktMzguMS00OC02Mi4zbDAgMjIuNi05NiAwIDAtMTEyLTk2IDAgMCAxMTItOTYgMEw0OCA0OHpNODggODhsMCA4MCA4MCAwIDAtODBMODggODh6bTIwOCAwbC04MCAwIDAgODAgODAgMCAwLTgwek04OCAyMTZsMCA4MCA4MCAwIDAtODAtODAgMHptMjA4IDBsLTgwIDAgMCA4MCA4MCAwIDAtODB6TTQ5NiA1MTJhMTQ0IDE0NCAwIDEgMCAwLTI4OCAxNDQgMTQ0IDAgMSAwIDAgMjg4em0xNi02NGwtMzIgMCAwLTMyIDMyIDAgMCAzMnptMC0xNzZsMCAxNiAwIDgwIDAgMTYtMzIgMCAwLTE2IDAtODAgMC0xNiAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![building-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/building-circle-exclamation.svg)
  */
 const BuildingCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

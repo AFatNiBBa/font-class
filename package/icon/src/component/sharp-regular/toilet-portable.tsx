@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toilet-portable` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-portable?s=sharp-regular toilet-portable}
- * @preview ![toilet-portable](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEwwIDAgMCAyNCAwIDQ4OGwwIDI0IDQ4IDAgMC0yNCAwLTggMjI0IDAgMCA4IDAgMjQgNDggMCAwLTI0IDAtNDY0IDAtMjRMMjk2IDAgMjQgMHpNMjcyIDQzMkw0OCA0MzJsMC0yODggMjI0IDAgMCA4MC00OCAwIDAgOTYgNDggMCAwIDExMnpNNDggOTZsMC00OCAyMjQgMCAwIDQ4TDQ4IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![toilet-portable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/toilet-portable.svg)
  */
 const ToiletPortable: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

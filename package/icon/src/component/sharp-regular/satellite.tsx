@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `satellite` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/satellite?s=sharp-regular satellite}
- * @preview ![satellite](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAxLjkgMzk4LjFMMzY4IDQzMmwtMzMuOS0zMy45LTM1LjUtMzUuNWM2IDM2LjUgLjggNzQuNS0xNS42IDEwOC42Yy03IDE0LjUtMTYgMjguMi0yNyA0MC45bC0zNC0zNC03Ny03N0w4MSA0NjUgNDcgNDMxbDY0LTY0TDM0IDI5MCAwIDI1NmMxMi42LTExIDI2LjQtMjAuMSA0MC45LTI3YzM0LjEtMTYuNCA3Mi4xLTIxLjUgMTA4LjYtMTUuNmwtMzUuNS0zNS41TDgwIDE0NGwzMy45LTMzLjkgNzYuMS03Ni4xTDIyNCAwbDMzLjkgMzMuOUwzMDQgODBsMzAuMS0zMC4xTDM2OCAxNmwzMy45IDMzLjkgNjAuMSA2MC4xTDQ5NiAxNDRsLTMzLjkgMzMuOUw0MzIgMjA4bDQ2LjEgNDYuMUw1MTIgMjg4bC0zMy45IDMzLjktNzYuMSA3Ni4xem0tMy45LTE1Ni4xbC03Ni4xIDc2LjFMMzY4IDM2NC4xIDQ0NC4xIDI4OGwtNDYuMS00Ni4xem0tMTI4LTEyOEwyMjQgNjcuOSAxNDcuOSAxNDRsNDYuMSA0Ni4xIDc2LjEtNzYuMXpNMzY4IDgzLjlMMjE0LjQgMjM3LjVjMTIgNy4zIDIzLjMgMTYuMiAzMy42IDI2LjVzMTkuMiAyMS42IDI2LjUgMzMuNkw0MjguMSAxNDQgMzY4IDgzLjl6TTI0Ni4yIDQzNC4zYzE1LjQtNDYuNiA0LjQtOTkuOC0zMi4yLTEzNi40cy04OS44LTQ3LjYtMTM2LjQtMzIuMkwyNDYuMiA0MzQuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![satellite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/satellite.svg)
  */
 const Satellite: typeof Icon = x => (
     <Icon {...x}>

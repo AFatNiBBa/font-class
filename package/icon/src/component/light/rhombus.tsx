@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rhombus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rhombus?s=light rhombus}
- * @preview ![rhombus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDM4LjUgMjMwLjFsLTE4NC0yMTZDMjQ2LjggNS4xIDIzNS43IDAgMjI0IDBzLTIyLjggNS4xLTMwLjQgMTQuMWwtMTg0IDIxNkMtMy4yIDI0NS0zLjIgMjY3IDkuNiAyODEuOWwxODQgMjE2YzcuNiA4LjkgMTguNyAxNC4xIDMwLjQgMTQuMXMyMi44LTUuMSAzMC40LTE0LjFsMTg0LTIxNmMxMi43LTE0LjkgMTIuNy0zNi45IDAtNTEuOXpNMjMwLjEgMzQuOGwxODQgMjE2YzIuNSAzIDIuNSA3LjQgMCAxMC40bC0xODQgMjE2Yy0xLjUgMS44LTMuNyAyLjgtNi4xIDIuOHMtNC42LTEtNi4xLTIuOGwtMTg0LTIxNmMtMi41LTMtMi41LTcuNCAwLTEwLjRsMTg0LTIxNmMxLjUtMS44IDMuNy0yLjggNi4xLTIuOHM0LjYgMSA2LjEgMi44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rhombus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rhombus.svg)
  */
 const Rhombus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `empty-set` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/empty-set?s=thin empty-set}
- * @preview ![empty-set](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg1LjcgMzcuN2MzLjEtMy4xIDMuMS04LjIgMC0xMS4zcy04LjItMy4xLTExLjMgMEw0MDguNiA5Mi4xQzM2OC42IDU0LjggMzE1IDMyIDI1NiAzMkMxMzIuMyAzMiAzMiAxMzIuMyAzMiAyNTZjMCA1OSAyMi44IDExMi42IDYwLjEgMTUyLjZMMjYuMyA0NzQuM2MtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMGw2NS43LTY1LjdDMTQzLjQgNDU3LjIgMTk3IDQ4MCAyNTYgNDgwYzEyMy43IDAgMjI0LTEwMC4zIDIyNC0yMjRjMC01OS0yMi44LTExMi42LTYwLjEtMTUyLjZsNjUuNy02NS43em0tODguMyA2NS43TDEwMy40IDM5Ny4zQzY5IDM2MC4yIDQ4IDMxMC42IDQ4IDI1NkM0OCAxNDEuMSAxNDEuMSA0OCAyNTYgNDhjNTQuNiAwIDEwNC4yIDIxIDE0MS4zIDU1LjR6TTExNC43IDQwOC42TDQwOC42IDExNC43QzQ0MyAxNTEuOCA0NjQgMjAxLjQgNDY0IDI1NmMwIDExNC45LTkzLjEgMjA4LTIwOCAyMDhjLTU0LjYgMC0xMDQuMi0yMS0xNDEuMy01NS40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![empty-set](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/empty-set.svg)
  */
 const EmptySet: typeof Icon = x => (
     <Icon {...x}>

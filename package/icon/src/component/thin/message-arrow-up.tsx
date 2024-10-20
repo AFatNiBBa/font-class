@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-arrow-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-arrow-up?s=thin message-arrow-up}
- * @preview ![message-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDQxNmMwLTguOC03LjItMTYtMTYtMTZsLTk2IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4TDE2IDY0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDM4NCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMjg4YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0xMzguNyAwYy0zLjUgMC02LjggMS4xLTkuNiAzLjJMMTc2IDQ5NmwwLTgwek02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDM1MmMwIDM1LjMgMjguNyA2NCA2NCA2NGw4MCAwIDE2IDAgMCAxNiAwIDY0YzAgNi4xIDMuNCAxMS42IDguOCAxNC4zczExLjkgMi4xIDE2LjgtMS41TDMwOS4zIDQxNiA0NDggNDE2YzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjg4YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDB6TTI2NCAyOTZsMC0xNzIuNyA3NC4zIDc0LjNjMy4xIDMuMSA4LjIgMy4xIDExLjMgMHMzLjEtOC4yIDAtMTEuM2wtODgtODhjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBsLTg4IDg4Yy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zczguMiAzLjEgMTEuMyAwTDI0OCAxMjMuMyAyNDggMjk2YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![message-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/message-arrow-up.svg)
  */
 const MessageArrowUp: typeof Icon = x => (
     <Icon {...x}>

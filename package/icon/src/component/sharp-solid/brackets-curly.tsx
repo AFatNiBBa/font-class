@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brackets-curly` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brackets-curly?s=sharp-solid brackets-curly}
- * @preview ![brackets-curly](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJsMzIgMCA5NiAwIDMyIDAgMCA2NC0zMiAwLTY0IDAgMCA5NiAwIDEzLjMtOS40IDkuNEw3Ny4zIDI1Nmw0MS40IDQxLjQgOS40IDkuNCAwIDEzLjMgMCA5NiA2NCAwIDMyIDAgMCA2NC0zMiAwLTk2IDAtMzIgMCAwLTMyIDAtMTE0LjdMOS40IDI3OC42IDAgMjY5LjNsMC0yNi41IDkuNC05LjRMNjQgMTc4LjcgNjQgNjRsMC0zMnptNDQ4IDBsMCAzMiAwIDExNC43IDU0LjYgNTQuNiA5LjQgOS40IDAgMjYuNS05LjQgOS40TDUxMiAzMzMuMyA1MTIgNDQ4bDAgMzItMzIgMC05NiAwLTMyIDAgMC02NCAzMiAwIDY0IDAgMC05NiAwLTEzLjMgOS40LTkuNEw0OTguNyAyNTZsLTQxLjQtNDEuNC05LjQtOS40IDAtMTMuMyAwLTk2LTY0IDAtMzIgMCAwLTY0IDMyIDAgOTYgMCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![brackets-curly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/brackets-curly.svg)
  */
 const BracketsCurly: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

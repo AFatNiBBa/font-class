@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-chef` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-chef?s=sharp-regular user-chef}
- * @preview ![user-chef](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDQ4YzAgMjAuOS0xMy40IDM4LjctMzIgNDUuM2wwIDE4LjcgMCA2NGMwIDcwLjctNTcuMyAxMjgtMTI4IDEyOHMtMTI4LTU3LjMtMTI4LTEyOGwwLTY0IDAtMTguN0M3Ny40IDg2LjcgNjQgNjguOSA2NCA0OEM2NCAyMS41IDg1LjUgMCAxMTIgMGMxNC4zIDAgMjcuMiA2LjMgMzYgMTYuM0MxNTYuOCA2LjMgMTY5LjcgMCAxODQgMGMxNi43IDAgMzEuNCA4LjUgNDAgMjEuNUMyMzIuNiA4LjUgMjQ3LjMgMCAyNjQgMGMxNC4zIDAgMjcuMiA2LjMgMzYgMTYuM0MzMDguOCA2LjMgMzIxLjcgMCAzMzYgMGMyNi41IDAgNDggMjEuNSA0OCA0OHpNMzA0IDE3NmwwLTE2LTE2MCAwIDAgMTZjMCA0NC4yIDM1LjggODAgODAgODBzODAtMzUuOCA4MC04MHptNDggMTQ0bDAgMzIgOCAwIDQwIDAgMzMuNiAxMTJMNDQ4IDUxMmwtNTAuMSAwTDUwLjEgNTEyIDAgNTEybDE0LjQtNDhMNDggMzUybDQwIDAgOCAwIDAtMzIgNDggMTIgODAgMjAgODAtMjAgNDgtMTJ6TTY0LjUgNDY0bDYzLjUgMCAwLTI0IDAtOS45IDguOC00LjRMMTk4LjIgMzk1IDE0NCAzODEuNWwwIDE4LjUtNDggMC0xMi4zIDBMNjQuNSA0NjR6TTE2MCA0NDkuOWwwIDE0LjEgMjIzLjUgMC0xOS4yLTY0TDM1MiA0MDBsLTQ4IDAgMC0xOC41LTE0LjQgMy42TDE2MCA0NDkuOXpNMjcyIDQxNmExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-chef](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-chef.svg)
  */
 const UserChef: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

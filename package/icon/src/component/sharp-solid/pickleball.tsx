@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pickleball` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pickleball?s=sharp-solid pickleball}
- * @preview ![pickleball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBMNTI4IDI0MGwtOSA5Yy0yNC44LTE1LjctNTQuMy0yNC44LTg1LjktMjQuOGMtNzIgMC0xMzMgNDcuMy0xNTMuMyAxMTIuNUwxNTUuNyAyMTIuOGwtMTEuMy0xMS4zLTIyLjYgMjIuNyAxMS4zIDExLjNMMjczIDM3NC45Yy0uMiAzLS4zIDYuMS0uMyA5LjFjMCAzMS43IDkuMiA2MS4yIDI1LjIgODZMMjg4IDQ4MCAxNjAgNDMyIDgwIDUxMiAxNiA0NDhsODAtODBMNDggMjQwIDI4OCAwem0xNiAzODRhMTI4IDEyOCAwIDEgMSAyNTYgMCAxMjggMTI4IDAgMSAxIC0yNTYgMHptMzItMTZhMTYgMTYgMCAxIDAgMzIgMCAxNiAxNiAwIDEgMCAtMzIgMHptODAgODBhMTYgMTYgMCAxIDAgMCAzMiAxNiAxNiAwIDEgMCAwLTMyem0wLTY0YTE2IDE2IDAgMSAwIDMyIDAgMTYgMTYgMCAxIDAgLTMyIDB6bTk2IDBhMTYgMTYgMCAxIDAgMCAzMiAxNiAxNiAwIDEgMCAwLTMyem0tODAtODBhMTYgMTYgMCAxIDAgMzIgMCAxNiAxNiAwIDEgMCAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pickleball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pickleball.svg)
  */
 const Pickleball: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `child-dress` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child-dress?s=regular child-dress}
- * @preview ![child-dress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDcyYTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6TTg4IDcyYTcyIDcyIDAgMSAxIDE0NCAwQTcyIDcyIDAgMSAxIDg4IDcyem0tMTcgMTI5LjhjMjEuMy0yNS43IDUyLjctNDAuOSA4Ni00MS44Yy43IDAgMS40IDAgMi4yIDBsLjkgMCAuOSAwYy43IDAgMS40IDAgMi4yIDBjMzMuMyAuOSA2NC42IDE2LjEgODYgNDEuOGw2NS40IDc4LjhjOC41IDEwLjIgNy4xIDI1LjMtMy4xIDMzLjhzLTI1LjMgNy4xLTMzLjgtMy4xbC00My4xLTUyIDM2LjMgMTA5YzIuNCA3LjMgMS4yIDE1LjQtMy4zIDIxLjZzLTExLjggMTAtMTkuNSAxMGwtMjQgMCAwIDg4YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtODgtMzIgMCAwIDg4YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtODgtMjQgMGMtNy43IDAtMTUtMy43LTE5LjUtMTBzLTUuNy0xNC4zLTMuMy0yMS42bDM2LjMtMTA5LTQzLjEgNTJjLTguNSAxMC4yLTIzLjYgMTEuNi0zMy44IDMuMVMtMi45IDI5MC45IDUuNSAyODAuN2w2NS40LTc4Ljh6TTE2MCAyMDhjLS41IDAtMSAwLTEuNCAwYy0zLjIgLjItNi4xIDIuMy03LjEgNS41TDEwNS4zIDM1MmwxMDkuNCAwTDE2OC41IDIxMy41Yy0xLTMuMS0zLjktNS4zLTcuMS01LjVjLS41IDAtMSAwLTEuNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![child-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/child-dress.svg)
  */
 const ChildDress: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

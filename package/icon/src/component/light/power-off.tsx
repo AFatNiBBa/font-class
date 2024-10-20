@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `power-off` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/power-off?s=light power-off}
- * @preview ![power-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDE2YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMjU2YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0yNTZ6TTE2NC4zIDc4LjJjNy44LTQuMSAxMC45LTEzLjcgNi45LTIxLjZzLTEzLjctMTAuOS0yMS42LTYuOUM3NSA4OC4zIDI0IDE2Ni4yIDI0IDI1NmMwIDEyOC4xIDEwMy45IDIzMiAyMzIgMjMyczIzMi0xMDMuOSAyMzItMjMyYzAtODkuOC01MS0xNjcuNy0xMjUuNi0yMDYuMmMtNy44LTQuMS0xNy41LTEtMjEuNiA2LjlzLTEgMTcuNSA2LjkgMjEuNkM0MTIuMSAxMTEuNSA0NTYgMTc4LjYgNDU2IDI1NmMwIDExMC41LTg5LjUgMjAwLTIwMCAyMDBTNTYgMzY2LjUgNTYgMjU2YzAtNzcuNCA0My45LTE0NC41IDEwOC4zLTE3Ny44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![power-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/power-off.svg)
  */
 const PowerOff: typeof Icon = x => (
     <Icon {...x}>

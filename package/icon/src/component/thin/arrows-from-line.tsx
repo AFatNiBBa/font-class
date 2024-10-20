@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-from-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-from-line?s=thin arrows-from-line}
- * @preview ![arrows-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE4LjMgMi4zYzMuMS0zLjEgOC4yLTMuMSAxMS4zIDBsODggODhjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM3MtOC4yIDMuMS0xMS4zIDBMMjMyIDI3LjMgMjMyIDE4NGMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTE1Ni43LTc0LjMgNzQuM2MtMy4xIDMuMS04LjIgMy4xLTExLjMgMHMtMy4xLTguMiAwLTExLjNsODgtODh6bTExLjMgNTA3LjNjLTMuMSAzLjEtOC4yIDMuMS0xMS4zIDBsLTg4LTg4Yy0zLjEtMy4xLTMuMS04LjIgMC0xMS4zczguMi0zLjEgMTEuMyAwTDIxNiA0ODQuNyAyMTYgMzI4YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhsMCAxNTYuNyA3NC4zLTc0LjNjMy4xLTMuMSA4LjItMy4xIDExLjMgMHMzLjEgOC4yIDAgMTEuM2wtODggODh6TTggMjQ4bDQzMiAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4TDggMjY0Yy00LjQgMC04LTMuNi04LThzMy42LTggOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrows-from-line.svg)
  */
 const ArrowsFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

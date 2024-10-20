@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mars` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars?s=light mars}
- * @preview ![mars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDMyYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDg5LjQgMEwyODguNiAxNjguN0MyNTguMSAxNDMuMyAyMTguOCAxMjggMTc2IDEyOEM3OC44IDEyOCAwIDIwNi44IDAgMzA0czc4LjggMTc2IDE3NiAxNzZzMTc2LTc4LjggMTc2LTE3NmMwLTQyLjgtMTUuMy04Mi4xLTQwLjctMTEyLjZMNDE2IDg2LjZsMCA4OS40YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xMjhjMC04LjgtNy4yLTE2LTE2LTE2TDMwNCAzMnpNMzIgMzA0YTE0NCAxNDQgMCAxIDEgMjg4IDBBMTQ0IDE0NCAwIDEgMSAzMiAzMDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mars.svg)
  */
 const Mars: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

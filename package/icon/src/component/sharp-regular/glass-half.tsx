@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glass-half` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-half?s=sharp-regular glass-half}
- * @preview ![glass-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzAuNiAyODhsMjQyLjcgMEwyOTkuNiA0NjQgODQuNCA0NjQgNzAuNiAyODh6bS0zLjgtNDhMNTEuOSA0OGwyODAuMiAwLTE1IDE5Mkw2Ni45IDI0MHpNNDAgNTEybDMwNCAwTDM4MC4yIDQ4IDM4NCAwIDMzNS45IDAgNDguMSAwIDAgMCAzLjggNDggNDAgNTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![glass-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/glass-half.svg)
  */
 const GlassHalf: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

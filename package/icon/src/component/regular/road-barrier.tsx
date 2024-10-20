@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road-barrier` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-barrier?s=regular road-barrier}
- * @preview ![road-barrier](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMzJjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAyNCA1NDQgMCAwLTI0YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjRsMCAyNCAwIDQ4IDAgMTI4IDAgNDggMCAxNTJjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0xNTJMNDggMzA0bDAgMTUyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0TDAgNTZDMCA0Mi43IDEwLjcgMzIgMjQgMzJ6TTU5MiAyNTZsMC0xMjgtMjEuMiAwLTY0IDEyOCA4NS4yIDB6TTQ4IDI1NmwyMS4yIDAgNjQtMTI4TDQ4IDEyOGwwIDEyOHpNMzg5LjIgMTI4bC03NC4zIDAtNjQgMTI4IDc0LjMgMCA2NC0xMjh6TTM3OC44IDI1Nmw3NC4zIDAgNjQtMTI4LTc0LjMgMC02NCAxMjh6bS0xOTItMTI4bC02NCAxMjggNzQuMyAwIDY0LTEyOC03NC4zIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![road-barrier](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/road-barrier.svg)
  */
 const RoadBarrier: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

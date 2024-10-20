@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cup-togo` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cup-togo?s=sharp-light cup-togo}
- * @preview ![cup-togo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMEwzNjggMGwxMS41IDAgMy42IDEwLjlMNDExLjUgOTYgNDMyIDk2bDE2IDAgMCAzMi0xNiAwLTMxLjYgMGMtLjIgMC0uNSAwLS43IDBMNDguNCAxMjhjLS4yIDAtLjUgMC0uNyAwTDE2IDEyOCAwIDEyOCAwIDk2bDE2IDAgMjAuNSAwTDY0LjggMTAuOSA2OC41IDAgODAgMHpNMzc3LjggOTZMMzU2LjUgMzIgOTEuNSAzMiA3MC4yIDk2bDMwNy42IDB6TTgwIDUxMkw0Ny40IDE2MGwzMi4xIDAgNS45IDY0IDI3Ny4xIDAgNS45LTY0IDMyLjEgMEwzNjggNTEyIDgwIDUxMnpNMzU5LjYgMjU2TDg4LjQgMjU2bDExLjkgMTI4IDI0Ny40IDAgMTEuOS0xMjh6TTM0NC44IDQxNmwtMjQxLjUgMCA1LjkgNjQgMjI5LjcgMCA1LjktNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cup-togo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cup-togo.svg)
  */
 const CupTogo: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

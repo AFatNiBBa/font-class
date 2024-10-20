@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-up-left` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-up-left?s=sharp-thin square-up-left}
- * @preview ![square-up-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNDE2IDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA0MTYgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnpNMjg0LjcgMTc5LjNsLTI1LjQgMjUuNEwyNDggMjE2bDExLjMgMTEuMyA3My40IDczLjRMMzQ0IDMxMmwtMTEuMyAxMS4zLTQxLjQgNDEuNEwyODAgMzc2bC0xMS4zLTExLjMtNzMuNC03My40TDE4NCAyODBsLTExLjMgMTEuMy0yNS40IDI1LjRMMTM2IDMyOGwtMTEuMy0xMS4zTDExMiAzMDRsMC0xNDQgMC0xNiAxNiAwIDE0NCAwIDEyLjcgMTIuN0wyOTYgMTY4bC0xMS4zIDExLjN6bS00OCA0OEwyMjUuNCAyMTZsMTEuMy0xMS4zTDI3My40IDE2OGwtOC04TDEyOCAxNjBsMCAxMzcuNCA4IDggMzYuNy0zNi43TDE4NCAyNTcuNGwxMS4zIDExLjNMMjgwIDM1My40IDMyMS40IDMxMmwtODQuNy04NC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-up-left.svg)
  */
 const SquareUpLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

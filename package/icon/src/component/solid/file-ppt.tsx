@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-ppt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-ppt?s=solid file-ppt}
- * @preview ![file-ppt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjI0IDBsMCAxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTI4IDAgMCAxNDQtMjA4IDBjLTM1LjMgMC02NCAyOC43LTY0IDY0bDAgMTQ0LTQ4IDBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjR6bTM4NCA2NGwtMTI4IDBMMjU2IDAgMzg0IDEyOHpNMzA0IDM1MmwzMiAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2bC0xNiAwIDAgMzJjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC00OCAwLTgwYzAtOC44IDcuMi0xNiAxNi0xNnptMzIgODBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTE2IDAgMCA0OCAxNiAwek0xNzYgMzUybDMyIDBjMzAuOSAwIDU2IDI1LjEgNTYgNTZzLTI1LjEgNTYtNTYgNTZsLTE2IDAgMCAzMmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTQ4IDAtODBjMC04LjggNy4yLTE2IDE2LTE2em0zMiA4MGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMTYgMCAwIDQ4IDE2IDB6bTIwOC02NGMwLTguOCA3LjItMTYgMTYtMTZsMzIgMCAzMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xNiAwIDAgMTEyYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMTEyLTE2IDBjLTguOCAwLTE2LTcuMi0xNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-ppt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-ppt.svg)
  */
 const FilePpt: typeof Icon = x => (
     <Icon {...x}>

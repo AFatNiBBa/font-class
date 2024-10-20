@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `oil-can-drip` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-can-drip?s=sharp-solid oil-can-drip}
- * @preview ![oil-can-drip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDEyOGwtNjQgMCAwIDMyIDk2IDAgNjQgMzIgMTYwLTMyIDMyIDMyTDQzMiA0MTZsLTQ4IDBMOTYgNDE2bDAtNjkuM0wwIDMwNGwwLTk2IDAtNDggNDggMCA0OCAwIDQ4IDAgODAgMCAwLTMyLTY0IDAgMC02NCAxOTIgMCAwIDY0ek00OCAyMDhsMCA2NC44IDQ4IDIxLjNMOTYgMjA4bC00OCAwek01OTIgNDQ4Yy0yNi41IDAtNDgtMjEuNS00OC00OGMwLTMyIDQ4LTk2IDQ4LTk2czQ4IDY0IDQ4IDk2cy0yMS41IDQ4LTQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![oil-can-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/oil-can-drip.svg)
  */
 const OilCanDrip: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

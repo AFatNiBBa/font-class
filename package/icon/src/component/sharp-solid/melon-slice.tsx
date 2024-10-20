@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `melon-slice` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/melon-slice?s=sharp-solid melon-slice}
- * @preview ![melon-slice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkxLjQgMzkxLjRDMjk0LjYgNDg4LjIgMTM3LjkgNDg3LjkgNDEgMzkxTDcgNDI1YzExNS42IDExNS42IDMwMi42IDExNiA0MTguMyAuM1M1NDAuNSAxMjIuNiA0MjUgN0wzOTEgNDFjOTYuOSA5Ni45IDk3LjEgMjUzLjYgLjMgMzUwLjR6TTMyMCAxMjhjMCAxMDYtODYgMTkyLTE5MiAxOTJjLTE0LjQgMC0yOC40LTEuNi00MS45LTQuNkw0OCAzNTMuNWwxNS4zIDE1LjNjODQuNCA4NC40IDIyMS4xIDg0LjQgMzA1LjUgMGM4NC4yLTg0LjIgODQuNC0yMjAuNyAuMy0zMDUuMUwzNTMuNSA0OCAzMTUuNCA4Ni4xYzMgMTMuNSA0LjYgMjcuNSA0LjYgNDEuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![melon-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/melon-slice.svg)
  */
 const MelonSlice: typeof Icon = x => (
     <Icon {...x}>

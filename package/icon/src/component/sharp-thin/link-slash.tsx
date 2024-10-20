@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-slash?s=sharp-thin link-slash}
- * @preview ![link-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1em01NjQgMjM5LjdjNTAtNTAgNTAtMTMxIDAtMTgxcy0xMzEtNTAtMTgxIDBsLTE3IDE3IDExLjMgMTEuMyAxNy0xN2M0My43LTQzLjcgMTE0LjctNDMuNyAxNTguNCAwczQzLjcgMTE0LjcgMCAxNTguNGwtNzEuMiA3MS4yIDEyLjYgMTAgNjkuOS02OS45ek0zOTguNyA0MDkuOUwzODMuNiAzOThjLTM3LjUgMTAuMy03OS40IC43LTEwOC45LTI4LjhjLTIyLjgtMjIuOC0zMy43LTUzLjEtMzIuNy04M2wtMTUuMS0xMS45Yy00LjYgMzcuOCA3LjUgNzcuMiAzNi41IDEwNi4yYzM2LjYgMzYuNiA4OS44IDQ2LjQgMTM1LjMgMjkuNHpNMzc2LjYgMTMxLjVDMzQwIDk1IDI4Ni44IDg1LjIgMjQxLjMgMTAyLjFMMjU2LjQgMTE0YzM3LjUtMTAuMyA3OS40LS43IDEwOC45IDI4LjhjMjIuOCAyMi44IDMzLjcgNTMuMSAzMi43IDgzbDE1LjEgMTEuOWM0LjYtMzcuOC03LjUtNzcuMi0zNi41LTEwNi4yek0xNDIuMyAyMDcuNGwtMTIuNi0xMEw1OS44IDI2Ny4zYy01MCA1MC01MCAxMzEgMCAxODFzMTMxIDUwIDE4MSAwbDE3LTE3TDI0Ni41IDQyMGwtMTcgMTdjLTQzLjcgNDMuNy0xMTQuNyA0My43LTE1OC40IDBzLTQzLjctMTE0LjcgMC0xNTguNGw3MS4yLTcxLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![link-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/link-slash.svg)
  */
 const LinkSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

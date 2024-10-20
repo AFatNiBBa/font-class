@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crow` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crow?s=regular crow}
- * @preview ![crow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkuMiA0NDIuNmw3Mi01OC42IDE0OC4xIDAgNDYuNiAxMTMuMWM1IDEyLjMgMTkuMSAxOC4xIDMxLjMgMTMuMXMxOC4xLTE5LjEgMTMuMS0zMS4zTDMxMS4xIDM4NGw0MC45IDBjMS4xIDAgMi4xIDAgMy4yIDBsNDYuNiAxMTMuMmM1IDEyLjMgMTkuMSAxOC4xIDMxLjMgMTMuMXMxOC4xLTE5LjEgMTMuMS0zMS4zbC00Mi0xMDJDNDg0LjkgMzU0LjEgNTQ0IDI4MCA1NDQgMTkybDAtNjQgMC04IDk2LTI0Yy05LjQtMzcuNi00My4yLTY0LTgyLTY0bC00MyAwQzQ5Ni4xIDEyLjMgNDY5LjUgMCA0NDAgMEMzODIuNiAwIDMzNiA0Ni42IDMzNiAxMDRsMCAzNS4xTDk0LjEgMzM2IDgwLjkgMzQ2LjhsLTcyIDU4LjZzMCAwIDAgMHMwIDAgMCAwQy0xLjQgNDEzLjgtMyA0MjguOSA1LjQgNDM5LjJzMjMuNSAxMS44IDMzLjggMy41YzAgMCAwIDAgMCAwek0xOTUuNCAzMTUuNEwzMzMuMSAyMDMuNGMtMTAuOSA1MS40LTUxIDkzLjEtMTA0IDEwNC43bC0zMy43IDcuNHpNMzg0IDE2MS45czAgMCAwIDBsMC0yMi44IDAtMzUuMWMwLTMwLjkgMjUuMS01NiA1Ni01NnM1NiAyNS4xIDU2IDU2bDAgMjQgMCA2NGMwIDc5LjUtNjQuNSAxNDQtMTQ0IDE0NGwtNjIuNSAwYzU3LjEtMzEuOCA5NC41LTkyLjcgOTQuNS0xNjAuOGwwLTEzLjN6TTQ2NCAxMDRhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![crow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/crow.svg)
  */
 const Crow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

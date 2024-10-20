@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-pawn` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-pawn?s=thin chess-pawn}
- * @preview ![chess-pawn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE0NEE5NiA5NiAwIDEgMCA2NCAxNDRhOTYgOTYgMCAxIDAgMTkyIDB6bTE2IDBjMCA0MC43LTIxLjggNzYuNC01NC4zIDk2bDQuOSAwIDMzLjQgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMzAuMyAwIDI0LjggMTI4LTE2LjMgMEwyMDkuNCAyNTYgMTYwIDI1NmwtNDkuNCAwTDg1LjggMzg0bC0xNi4zIDBMOTQuMyAyNTYgNjQgMjU2Yy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDMzLjQgMCA0LjkgMEM2OS44IDIyMC40IDQ4IDE4NC43IDQ4IDE0NEM0OCA4Mi4xIDk4LjEgMzIgMTYwIDMyczExMiA1MC4xIDExMiAxMTJ6TTUwLjQgNDM3LjNMMTkuOCA0NzEuMmMtMi41IDIuNy0zLjggNi4zLTMuOCA5LjljMCA4LjIgNi42IDE0LjggMTQuOCAxNC44bDI1OC4zIDBjOC4yIDAgMTQuOC02LjYgMTQuOC0xNC44YzAtMy43LTEuNC03LjItMy44LTkuOWwtMzAuNi0zMy45Yy0zLTMuNC03LjQtNS4zLTExLjktNS4zTDYyLjMgNDMyYy00LjUgMC04LjkgMS45LTExLjkgNS4zem0yNjEuNyAyMy4yYzUuMSA1LjcgNy45IDEzIDcuOSAyMC42YzAgMTctMTMuOCAzMC44LTMwLjggMzAuOEwzMC44IDUxMkMxMy44IDUxMiAwIDQ5OC4yIDAgNDgxLjJjMC03LjYgMi44LTE1IDcuOS0yMC42bDMwLjYtMzMuOWM2LjEtNi43IDE0LjctMTAuNiAyMy44LTEwLjZsMTk1LjUgMGM5LjEgMCAxNy43IDMuOCAyMy44IDEwLjZsMzAuNiAzMy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chess-pawn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chess-pawn.svg)
  */
 const ChessPawn: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

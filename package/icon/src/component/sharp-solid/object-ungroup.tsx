@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `object-ungroup` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-ungroup?s=sharp-solid object-ungroup}
- * @preview ![object-ungroup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBMMCAwIDAgMTI4bDMyIDAgMCA5NkwwIDIyNCAwIDM1MmwxMjggMCAwLTMyIDE5MiAwIDAgMzIgMTI4IDAgMC0xMjgtMzIgMCAwLTk2IDMyIDBMNDQ4IDAgMzIwIDBsMCAzMkwxMjggMzJsMC0zMnpNMzUyIDIyNGwwIDMyLTMyIDAtMTkyIDAtMzIgMCAwLTMyIDAtOTYgMC0zMiAzMiAwIDE5MiAwIDMyIDAgMCAzMiAwIDk2ek0zMjAgNTEybDAtMzIgMTkyIDAgMCAzMiAxMjggMCAwLTEyOC0zMiAwIDAtOTYgMzIgMCAwLTEyOC0xMjggMCAwIDMyLTMyIDAgMCA2NCAzMiAwIDMyIDAgMCAzMiAwIDk2IDAgMzItMzIgMC0zMiAwLTE2MCAwLTMyIDAgMC0zMiAwLTMyLTY0IDAgMCAzMi0zMiAwIDAgMTI4IDEyOCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![object-ungroup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/object-ungroup.svg)
  */
 const ObjectUngroup: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

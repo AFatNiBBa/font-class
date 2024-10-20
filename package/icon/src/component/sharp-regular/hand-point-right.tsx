@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-point-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-right?s=sharp-regular hand-point-right}
- * @preview ![hand-point-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDEwNGwwLTI0LTI0IDBMMjcyIDgwbDAtMTYtMjQgMC01NiAwczAgMCAwIDBsLTI0IDBzMCAwIDAgMEM3NS4yIDY0IDAgMTM5LjIgMCAyMzJsMCA0OGMwIDkyLjcgNzUuMSAxNjcuOSAxNjcuOSAxNjhsLjEgMHMwIDAgMCAwbDg4IDAgNDAgMCAyNCAwIDAtMjQgMC01NiAxNiAwIDAtMjQgMC01NiA4IDAgMjQgMCAwLTI0IDAtNTYgMTIwIDAgMjQgMCAwLTI0IDAtODB6TTI1NiA0MDBsLTgwIDAgMC0zMiA5NiAwIDAgMzItMTYgMHptLTEyOC02LjhDODEuNCAzNzYuNyA0OCAzMzIuMiA0OCAyODBsMC00OGMwLTY2LjMgNTMuNy0xMjAgMTIwLTEyMGMwIDAgMCAwIDAgMGwyNCAwczAgMCAwIDBsMzIgMCAwIDcyIDAgNTYtMzIgMCAwLTU2IDAtMjQtNDggMCAwIDI0IDAgNTYgMCAyNCAwIDI0IDAgMzItMTYgMCAwIDI0IDAgNDkuMnpNMjcyIDE2MGwwLTMyIDE5MiAwIDAgMzItOTYgMC0yNCAwLTcyIDB6bTAgODBsMC0zMiA0OCAwIDAgMzItOCAwLTQwIDB6bTE2IDQ4bDAgMzItOTYgMCAwLTMyIDU2IDAgNDAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-point-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-point-right.svg)
  */
 const HandPointRight: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `overline` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/overline?s=sharp-light overline}
- * @preview ![overline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJMMCAzMiAwIDY0bDE2IDAgNDE2IDAgMTYgMCAwLTMyLTE2IDBMMTYgMzJ6bTIwOCA5NmMtODguNCAwLTE2MCA3MS42LTE2MCAxNjBsMCAzMmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MHMxNjAtNzEuNiAxNjAtMTYwbDAtMzJjMC04OC40LTcxLjYtMTYwLTE2MC0xNjB6TTk2IDI4OGMwLTcwLjcgNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4bDAgMzJjMCA3MC43LTU3LjMgMTI4LTEyOCAxMjhzLTEyOC01Ny4zLTEyOC0xMjhsMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![overline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/overline.svg)
  */
 const Overline: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

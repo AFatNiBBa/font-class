@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-spock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-spock?s=sharp-solid hand-spock}
- * @preview ![hand-spock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjUxLjIgMzkuN0wyNDIuOSA4LjggMTgxLjEgMjUuNGw4LjMgMzAuOUwyNDIuOSAyNTZsLTI5LjYgMEwxNjYuNiAxMDIuN2wtOS4zLTMwLjZMOTYuMSA5MC43bDkuMyAzMC42IDcxLjcgMjM1LjUtNjEuNi01OC42LTI5LTI3LjZMMzEuNCAzMjguNWwyOSAyNy42TDE1Ni44IDQ0OGM0My4xIDQxLjEgMTAwLjQgNjQgMTYwIDY0bDIuMyAwIDguOSAwIDguMyAwYzU2LjcgMCAxMDYuNy0zNy4zIDEyMi44LTkxLjdsODMuNy0yODMuMiA5LjEtMzAuN0w0OTAuNCA4OC4ybC05LjEgMzAuN0w0NDAuOCAyNTZsLTI0LjcgMEw0NTUuMyA3MC42bDYuNi0zMS4zTDM5OS4zIDI2LjFsLTYuNiAzMS4zTDM1MC43IDI1NmwtNDEuNSAwTDI1MS4yIDM5Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-spock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-spock.svg)
  */
 const HandSpock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

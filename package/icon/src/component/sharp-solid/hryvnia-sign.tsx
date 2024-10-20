@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hryvnia-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hryvnia-sign?s=sharp-solid hryvnia-sign}
- * @preview ![hryvnia-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE0LjIgMTIzLjFDMTMxLjUgMTA1LjcgMTU1IDk2IDE3OS41IDk2TDIyMyA5NmMyNy4xIDAgNDkgMjEuOSA0OSA0OWMwIDExLjUtNCAyMi40LTExLjEgMzFMMCAxNzZsMCA2NCAxNTUuNSAwLTUwLjYgMjguOWMtMS43IDEtMy40IDItNS4xIDMuMUwwIDI3MmwwIDY0IDUyLjMgMGMtMi44IDkuOS00LjMgMjAuNC00LjMgMzFjMCA2Mi40IDUwLjYgMTEzIDExMyAxMTNsNDMuNSAwYzQxLjUgMCA4MS4zLTE2LjUgMTEwLjYtNDUuOGwxMS41LTExLjUtNDUuMy00NS4zLTExLjUgMTEuNUMyNTIuNSA0MDYuMyAyMjkgNDE2IDIwNC41IDQxNkwxNjEgNDE2Yy0yNy4xIDAtNDktMjEuOS00OS00OWMwLTExLjUgNC0yMi40IDExLjEtMzFMMzg0IDMzNmwwLTY0LTE1NS41IDAgNTAuNi0yOC45YzEuNy0xIDMuNC0yIDUuMS0zLjFsOTkuOCAwIDAtNjQtNTIuMyAwYzIuOC0xMCA0LjMtMjAuNCA0LjMtMzFjMC02Mi40LTUwLjYtMTEzLTExMy0xMTNsLTQzLjUgMEMxMzguMSAzMiA5OC4zIDQ4LjUgNjguOSA3Ny44TDU3LjQgODkuNGw0NS4zIDQ1LjMgMTEuNS0xMS41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hryvnia-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hryvnia-sign.svg)
  */
 const HryvniaSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

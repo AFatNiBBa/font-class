@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-to-dotted-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-dotted-line?s=solid up-to-dotted-line}
- * @preview ![up-to-dotted-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRBMzIgMzIgMCAxIDEgMCA2NGEzMiAzMiAwIDEgMSA2NCAwem02NCAzMmEzMiAzMiAwIDEgMSAwLTY0IDMyIDMyIDAgMSAxIDAgNjR6TTI1NiA2NGEzMiAzMiAwIDEgMSAtNjQgMCAzMiAzMiAwIDEgMSA2NCAwem02NCAzMmEzMiAzMiAwIDEgMSAwLTY0IDMyIDMyIDAgMSAxIDAgNjR6bTk2IDBhMzIgMzIgMCAxIDEgMC02NCAzMiAzMiAwIDEgMSAwIDY0ek03My45IDI2Mi4xTDE5Ni43IDEzOS4zYzcuMi03LjIgMTcuMS0xMS4zIDI3LjMtMTEuM3MyMC4xIDQuMSAyNy4zIDExLjNMMzc0LjEgMjYyLjFjNi40IDYuNCA5LjkgMTUgOS45IDI0YzAgMTguNy0xNS4yIDMzLjktMzMuOSAzMy45TDI4OCAzMjBsMCAxMjhjMCAxNy43LTE0LjMgMzItMzIgMzJsLTY0IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTI4LTYyLjEgMEM3OS4yIDMyMCA2NCAzMDQuOCA2NCAyODYuMWMwLTkgMy42LTE3LjYgOS45LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![up-to-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/up-to-dotted-line.svg)
  */
 const UpToDottedLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

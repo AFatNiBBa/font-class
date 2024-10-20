@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `radio-tuner` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/radio-tuner?s=sharp-solid radio-tuner}
- * @preview ![radio-tuner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDg1LjcgNTUuM0w1MDkgNDkuNiA0OTcuNiAzIDQ3NC4zIDguN2wtNDU2IDExMkwwIDEyNS4yIDAgMTI4bDAgMTZMMCAzMDRsMCAyNEwwIDUxMmw1MTIgMCAwLTM4NC0zMjIuMiAwIDI5Ni03Mi43ek0zMjAgMzg0YTY0IDY0IDAgMSAxIDEyOCAwIDY0IDY0IDAgMSAxIC0xMjggMHpNODAgMzM2bDEyOCAwIDE2IDAgMCAzMi0xNiAwTDgwIDM2OGwtMTYgMCAwLTMyIDE2IDB6bTE2IDY0bDk2IDAgMTYgMCAwIDMyLTE2IDAtOTYgMC0xNiAwIDAtMzIgMTYgMHpNNjQgMTkybDMyIDAgMzIwIDAgMzIgMCAwIDY0LTMyIDBMOTYgMjU2bC0zMiAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![radio-tuner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/radio-tuner.svg)
  */
 const RadioTuner: typeof Icon = x => (
     <Icon {...x}>

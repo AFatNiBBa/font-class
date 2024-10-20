@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-dashed` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-dashed?s=sharp-solid circle-dashed}
- * @preview ![circle-dashed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNLjUgMjQwbDY0LjIgMGMzLjQtNDEgMTkuNi03OC4zIDQ0LjctMTA4TDY0IDg2LjZDMjcuNSAxMjggNC4xIDE4MS4zIC41IDI0MHpNMTMyIDEwOS40QzE2MS43IDg0LjMgMTk5IDY4IDI0MCA2NC43TDI0MCAuNUMxODEuMyA0LjEgMTI4IDI3LjUgODYuNiA2NEwxMzIgMTA5LjR6bTE0MCAzMzhsMCA2NC4yYzU4LjYtMy42IDExMi0yNyAxNTMuNC02My41TDM4MCA0MDIuNmMtMjkuNiAyNS4xLTY3IDQxLjQtMTA4IDQ0Ljd6TTQwMi42IDM4MEw0NDggNDI1LjRjMzYuNS00MS40IDU5LjktOTQuNyA2My41LTE1My40bC02NC4yIDBjLTMuNCA0MS0xOS42IDc4LjMtNDQuNyAxMDh6bS0zMTYgNjhjNDEuNCAzNi41IDk0LjcgNTkuOSAxNTMuNCA2My41bDAtNjQuMmMtNDEtMy40LTc4LjMtMTkuNi0xMDgtNDQuN0w4Ni42IDQ0OHpNNjQgNDI1LjRMMTA5LjQgMzgwQzg0LjMgMzUwLjMgNjggMzEzIDY0LjcgMjcyTC41IDI3MmMzLjYgNTguNiAyNyAxMTIgNjMuNSAxNTMuNHpNNDI1LjQgNjRDMzg0IDI3LjUgMzMwLjYgNC4xIDI3MiAuNWwwIDY0LjJjNDEgMy40IDc4LjMgMTkuNiAxMDggNDQuN0w0MjUuNCA2NHpNNDQ4IDg2LjZMNDAyLjYgMTMyYzI1LjEgMjkuNiA0MS40IDY3IDQ0LjcgMTA4bDY0LjIgMGMtMy42LTU4LjctMjctMTEyLTYzLjUtMTUzLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-dashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/circle-dashed.svg)
  */
 const CircleDashed: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `avianex` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/avianex?s=brands avianex}
- * @preview ![avianex](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUzLjEgMzJoLTMxMmMtMzguOSAwLTc2LjIgMzEuMi04My4zIDY5LjdMMS4yIDQxMC4zQy01LjkgNDQ4LjggMTkuOSA0ODAgNTguOSA0ODBoMzEyYzM4LjkgMCA3Ni4yLTMxLjIgODMuMy02OS43bDU2LjctMzA4LjVjNy0zOC42LTE4LjgtNjkuOC01Ny44LTY5Ljh6bS01OC4yIDM0Ny4zbC0zMiAxMy41LTExNS40LTExMGMtMTQuNyAxMC0yOS4yIDE5LjUtNDEuNyAyNy4xbDIyLjEgNjQuMi0xNy45IDEyLjctNDAuNi02MS01Mi40LTQ4LjEgMTUuNy0xNS40IDU4IDMxLjFjOS4zLTEwLjUgMjAuOC0yMi42IDMyLjgtMzQuOUwyMDMgMjI4LjlsLTY4LjgtOTkuOCAxOC44LTI4LjkgOC45LTQuOEwyNjUgMjA3LjhsNC45IDQuNWMxOS40LTE4LjggMzMuOC0zMi40IDMzLjgtMzIuNCA3LjctNi41IDIxLjUtMi45IDMwLjcgNy45IDkgMTAuNSAxMC42IDI0LjcgMi43IDMxLjMtMS44IDEuMy0xNS41IDExLjQtMzUuMyAyNS42bDQuNSA3LjMgOTQuOSAxMTkuNC02LjMgNy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![avianex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/avianex.svg)
  */
 const Avianex: typeof Icon = x => (
     <Icon {...x}>

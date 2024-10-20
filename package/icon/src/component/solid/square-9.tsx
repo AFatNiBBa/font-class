@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-9` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-9?s=solid square-9}
- * @preview ![square-9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6TTIyNCAyNzJhNDggNDggMCAxIDEgMC05NiA0OCA0OCAwIDEgMSAwIDk2em0tMjYgNDQuNGwtMjkuNiAyNS40Yy0xMC4xIDguNi0xMS4yIDIzLjgtMi42IDMzLjhzMjMuOCAxMS4yIDMzLjggMi42bDgxLjYtNzBDMzA1LjggMjg3LjIgMzIwIDI1Ni40IDMyMCAyMjRjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZjMCA0NCAyOS42IDgxLjEgNzAgOTIuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-9.svg)
  */
 const Square_9: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

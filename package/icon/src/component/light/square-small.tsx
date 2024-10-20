@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-small` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-small?s=light square-small}
- * @preview ![square-small](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDEyOGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE5MmMwIDE3LjctMTQuMyAzMi0zMiAzMkw2NCAzODRjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTkyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDE5MiAwek02NCA5NkMyOC43IDk2IDAgMTI0LjcgMCAxNjBMMCAzNTJjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMTkyIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xOTJjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-small](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-small.svg)
  */
 const SquareSmall: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

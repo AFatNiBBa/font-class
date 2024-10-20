@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-from-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-line?s=thin arrow-up-from-line}
- * @preview ![arrow-up-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk3LjcgMzQuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMGwtMTM2IDEzNmMtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMEwxODQgNTkuMyAxODQgMzc2YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0zMTYuN0wzMjIuMyAxODEuN2MzLjEgMy4xIDguMiAzLjEgMTEuMyAwczMuMS04LjIgMC0xMS4zbC0xMzYtMTM2ek04IDQ2NGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwzNjggMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEw4IDQ2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-up-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-from-line.svg)
  */
 const ArrowUpFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

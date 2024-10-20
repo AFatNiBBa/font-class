@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `9` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/9?s=sharp-light 9}
- * @preview ![9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE5LjIgNDgwTDI3OC44IDMwMC41YzI1LjMtMjguNCAzOS44LTY0LjcgNDEuMS0xMDIuNmMuMS0yIC4xLTMuOSAuMS01LjljMC04OC40LTcxLjYtMTYwLTE2MC0xNjBTMCAxMDMuNiAwIDE5MnM3MS42IDE2MCAxNjAgMTYwYzExLjQgMCAyMi41LTEuMiAzMy4yLTMuNUw3Ni40IDQ4MGw0Mi44IDB6TTE2MCA2NGM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOGMwIDEgMCAyIDAgMy4xQzI4Ni4zIDI2NC4zIDIyOS43IDMyMCAxNjAgMzIwQzg5LjMgMzIwIDMyIDI2Mi43IDMyIDE5MlM4OS4zIDY0IDE2MCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/9.svg)
  */
 const $9: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

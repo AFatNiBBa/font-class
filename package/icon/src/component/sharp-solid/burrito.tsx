@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burrito` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burrito?s=sharp-solid burrito}
- * @preview ![burrito](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjUxLjQgNTIuNkw0LjYgMjk5LjRDMzQuMyAzMjIuNCA3MS42IDMzNiAxMTIgMzM2Yzc5LjIgMCAxNDYuMi01Mi4zIDE2OC4zLTEyNC4zYzUtMTYuMyA3LjctMzMuNyA3LjctNTEuN2MwLTQwLjQtMTMuNi03Ny43LTM2LjYtMTA3LjR6bTE1LTMyQzI5OS43IDU3LjUgMzIwIDEwNi40IDMyMCAxNjBjMCAxMS45LTEgMjMuNi0yLjkgMzQuOWMxMS40LTEuOSAyMy0yLjkgMzQuOS0yLjljNTMuNiAwIDEwMi41IDIwLjMgMTM5LjQgNTMuNmMxMi44LTE0LjIgMjAuNi0zMyAyMC42LTUzLjZjMC0xMS40LTIuNC0yMi4yLTYuNy0zMmM0LjMtOS44IDYuNy0yMC42IDYuNy0zMmMwLTM0LjYtMjItNjQuMS01Mi44LTc1LjJDNDQ4LjEgMjIgNDE4LjYgMCAzODQgMGMtMTEuNCAwLTIyLjIgMi40LTMyIDYuN0MzNDIuMiAyLjQgMzMxLjQgMCAzMjAgMGMtMjAuNiAwLTM5LjQgNy44LTUzLjYgMjAuNnptMTkzIDI0MEM0MjkuNyAyMzcuNiAzOTIuNCAyMjQgMzUyIDIyNGMtMTUuMiAwLTI5LjkgMS45LTQzLjkgNS41QzI3OS41IDMxMC4yIDIwMi41IDM2OCAxMTIgMzY4Yy00MS4yIDAtNzkuNy0xMi0xMTItMzIuN0wwIDQwMCAxMTIgNTEybDk2IDBMNDU5LjQgMjYwLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![burrito](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/burrito.svg)
  */
 const Burrito: typeof Icon = x => (
     <Icon {...x}>

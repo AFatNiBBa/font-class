@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bottle-baby` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bottle-baby?s=sharp-light bottle-baby}
- * @preview ![bottle-baby](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDY0bDMyLTE2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4czQ4IDIxLjUgNDggNDhsMzIgMTYgMCAzMiAxNiAwIDAgMzIgMCAzMiAyMS44IDIxLjhjMjcgMjcgNDIuMiA2My42IDQyLjIgMTAxLjhMNDE2IDQ4MGwwIDMyLTMyIDAtMjU2IDAtMzIgMCAwLTMyIDAtMTk2LjRjMC0zOC4yIDE1LjItNzQuOCA0Mi4yLTEwMS44TDE2MCAxNjBsMC0zMiAwLTMyIDE2IDAgMC0zMnptMzIgMzJsOTYgMCAwLTEyLjItMTQuMy03LjJMMjcyIDY3LjggMjcyIDQ4YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTkuOC0xNy43IDguOEwyMDggODMuOCAyMDggOTZ6bS0xNiAzMmwwIDMyIDEyOCAwIDAtMzItMTYgMC05NiAwLTE2IDB6bS0zMS4yIDc2LjVjLTIxIDIxLTMyLjggNDkuNS0zMi44IDc5LjJsMCA0LjQgMTI4IDAgMCAzMi0xMjggMCAwIDY0IDEyOCAwIDAgMzItMTI4IDAgMCA2NCAyNTYgMCAwLTE5Ni40YzAtMjkuNy0xMS44LTU4LjItMzIuOC03OS4yTDMzOC43IDE5MiAzMjAgMTkybC0xMjggMC0xOC43IDAtMTIuNSAxMi41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bottle-baby](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bottle-baby.svg)
  */
 const BottleBaby: typeof Icon = x => (
     <Icon {...x}>

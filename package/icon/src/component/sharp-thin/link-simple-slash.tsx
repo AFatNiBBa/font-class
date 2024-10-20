@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link-simple-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-simple-slash?s=sharp-thin link-simple-slash}
- * @preview ![link-simple-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1ek01NzYgMjU2YzAtODguNC03MS42LTE2MC0xNjAtMTYwbC01NiAwLTggMCAwIDE2IDggMCA1NiAwYzc5LjUgMCAxNDQgNjQuNSAxNDQgMTQ0YzAgMjkuMi04LjcgNTYuNC0yMy42IDc5LjFMNTQ5IDM0NWMxNy4xLTI1LjUgMjctNTYuMSAyNy04OXptLTExMiA4bDggMCAwLTE2LTggMC0zNy45IDAgMjAuMyAxNiAxNy43IDB6TTE5My43IDI0OEwxNzYgMjQ4bC04IDAgMCAxNiA4IDAgMzcuOSAwLTIwLjMtMTZ6bS05MC03MS4xTDkxIDE2N0M3NCAxOTIuNCA2NCAyMjMgNjQgMjU2YzAgODguNCA3MS42IDE2MCAxNjAgMTYwbDU2IDAgOCAwIDAtMTYtOCAwLTU2IDBjLTc5LjUgMC0xNDQtNjQuNS0xNDQtMTQ0YzAtMjkuMiA4LjctNTYuNCAyMy42LTc5LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![link-simple-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/link-simple-slash.svg)
  */
 const LinkSimpleSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

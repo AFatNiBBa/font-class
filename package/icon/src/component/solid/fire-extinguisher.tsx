@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fire-extinguisher` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-extinguisher?s=solid fire-extinguisher}
- * @preview ![fire-extinguisher](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTAwLjMgNy4zQzUwNy43IDEzLjMgNTEyIDIyLjQgNTEyIDMybDAgOTZjMCA5LjYtNC4zIDE4LjctMTEuNyAyNC43cy0xNy4yIDguNS0yNi42IDYuNmwtMTYwLTMyQzMwMS41IDEyNC45IDI5MiAxMTUuNyAyODkgMTA0bC02NSAwIDAgMzQuOGMzNy44IDE4IDY0IDU2LjUgNjQgMTAxLjJsMCAxNDRMNjQgMzg0bDAtMTQ0YzAtNDQuNyAyNi4yLTgzLjIgNjQtMTAxLjJsMC0yOC44Yy0zNi4yIDExLjEtNjYgMzYuOS04Mi4zIDcwLjVjLTUuOCAxMS45LTIwLjIgMTYuOS0zMi4xIDExLjFTLTMuMyAxNzEuNCAyLjUgMTU5LjVDMjYuNyAxMDkuOCA3Mi43IDcyLjYgMTI4IDYwLjRMMTI4IDMyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDMyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyNCA2NSAwYzMtMTEuNyAxMi41LTIwLjkgMjQuNy0yMy40bDE2MC0zMmM5LjQtMS45IDE5LjEgLjYgMjYuNiA2LjZ6TTI4OCA0MTZsMCAzMmMwIDM1LjMtMjguNyA2NC02NCA2NGwtOTYgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0zMiAyMjQgMHpNMTc2IDk2YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fire-extinguisher](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fire-extinguisher.svg)
  */
 const FireExtinguisher: typeof Icon = x => (
     <Icon {...x}>

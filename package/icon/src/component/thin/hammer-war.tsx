@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hammer-war` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-war?s=thin hammer-war}
- * @preview ![hammer-war](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDE2Yy04LjggMC0xNiA3LjItMTYgMTZsMCAyMS4yIDExLjMgMS43YzMuMSAuNSA2LjMgLjUgOS41IDBMMjA4IDUzLjIgMjA4IDMyYzAtOC44LTcuMi0xNi0xNi0xNnpNMTYwIDUwLjhMMTYwIDMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJsMCAxOC44TDM0Ny4zIDMyLjRDMzY2LjMgMjkuNSAzODQgNDQuNyAzODQgNjRsMCAxOTJjMCAxOS4zLTE3LjcgMzQuNS0zNi43IDMxLjZMMTk2LjcgMjY1LjFjLTMuMS0uNS02LjMtLjUtOS41IDBMMzYuNyAyODcuNkMxNy43IDI5MC41IDAgMjc1LjMgMCAyNTZMMCA2NEMwIDQ0LjcgMTcuNyAyOS41IDM2LjcgMzIuNEwxNjAgNTAuOHpNMTc2IDI5MWwwIDE4OWMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMTg5IDE2IDIuNEwyMjQgNDgwYzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtMTg2LjYgMTYtMi40ek0xNiAyNTZjMCA5LjUgOSAxNy4yIDE4LjQgMTUuOGwxNTAuNS0yMi42YzQuNy0uNyA5LjUtLjcgMTQuMiAwbDE1MC41IDIyLjZjOS40IDEuNCAxOC40LTYuMyAxOC40LTE1LjhsMC0xOTJjMC05LjUtOS0xNy4yLTE4LjQtMTUuOEwxOTkuMSA3MC44Yy00LjcgLjctOS41IC43LTE0LjIgMEwzNC40IDQ4LjJDMjUgNDYuOCAxNiA1NC41IDE2IDY0bDAgMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hammer-war](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hammer-war.svg)
  */
 const HammerWar: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

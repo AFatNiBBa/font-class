@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bridge` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge?s=sharp-solid bridge}
- * @preview ![bridge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJMMCAzMiAwIDk2bDMyIDAgNDAgMCAwIDY0TDAgMTYwIDAgMjg4YzUzIDAgOTYgNDMgOTYgOTZsMCA5NiA5NiAwIDAtOTZjMC01MyA0My05NiA5Ni05NnM5NiA0MyA5NiA5NmwwIDk2IDk2IDAgMC05NmMwLTUzIDQzLTk2IDk2LTk2bDAtMTI4LTcyIDAgMC02NCA0MCAwIDMyIDAgMC02NC0zMiAwTDMyIDMyek00NTYgOTZsMCA2NC04MCAwIDAtNjQgODAgMHpNMzI4IDk2bDAgNjQtODAgMCAwLTY0IDgwIDB6TTIwMCA5NmwwIDY0LTgwIDAgMC02NCA4MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bridge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bridge.svg)
  */
 const Bridge: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

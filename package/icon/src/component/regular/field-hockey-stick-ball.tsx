@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `field-hockey-stick-ball` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/field-hockey-stick-ball?s=regular field-hockey-stick-ball}
- * @preview ![field-hockey-stick-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTAwLjMgMTAwLjlDNTIwLjcgNzIgNTEzLjcgMzIgNDg0LjkgMTEuN1M0MTYtMS44IDM5NS43IDI3LjFMMTQ3LjYgMzc5LjRjLTIgMi44LTUuMSA0LjQtOC41IDQuNGMtNS4zIDAtMTAuNS00LjctMTAuNS0xMWMwLTEuNiAuNC0zLjEgLjktNC40bDE3LTM4LjVjMTQuMy0zMi4zLS4zLTcwLjEtMzIuNy04NC40cy03MC4xIC4zLTg0LjQgMzIuN2wtMTcgMzguNUM0LjggMzM0IC43IDM1Mi45IC42IDM3MS44QzAgNDQ4LjMgNjEuOSA1MTIgMTM5LjQgNTExLjhjNDQuOS0uMSA4Ni45LTIyIDExMi44LTU4LjdMNTAwLjMgMTAwLjl6TTM5OC4xIDE2Mi42TDIxMyA0MjUuNGMtMTYuOSAyNC00NC40IDM4LjMtNzMuNyAzOC40Yy01MC41IC4xLTkxLjEtNDEuNC05MC43LTkxLjZjLjEtMTIuNCAyLjctMjQuOCA3LjgtMzYuMWwxNy0zOC41YzMuNi04LjEgMTMtMTEuNyAyMS4xLTguMnMxMS43IDEzIDguMiAyMS4xbC0xNyAzOC41Yy0zLjIgNy4zLTUgMTUuNC01IDIzLjVjLS4zIDMyLjcgMjYuMiA1OS41IDU4LjYgNTkuNGMxOS0uMSAzNi43LTkuMyA0Ny42LTI0LjhMMzcyLjUgMTQzLjRsMjUuNiAxOS4yek00MzIgNDAwYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptMCAxMTJhODAgODAgMCAxIDAgMC0xNjAgODAgODAgMCAxIDAgMCAxNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![field-hockey-stick-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/field-hockey-stick-ball.svg)
  */
 const FieldHockeyStickBall: typeof Icon = x => (
     <Icon {...x}>

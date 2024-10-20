@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `binary-circle-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary-circle-check?s=sharp-regular binary-circle-check}
- * @preview ![binary-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBsMjQgMCA1NiAwIDI0IDAgMCAyNCAwIDE1MiAzMiAwIDI0IDAgMCA0OC0yNCAwLTU2IDAtNTYgMC0yNCAwIDAtNDggMjQgMCAzMiAwIDAtMTI4LTMyIDAtMjQgMCAwLTQ4ek0wIDI4OGwyNCAwIDU2IDAgMjQgMCAwIDI0IDAgMTUyIDMyIDAgMjQgMCAwIDQ4LTI0IDAtNTYgMC01NiAwTDAgNTEybDAtNDggMjQgMCAzMiAwIDAtMTI4LTMyIDBMMCAzMzZsMC00OHpNMjQgMEwxNjggMGwyNCAwIDAgMjQgMCAxNzYgMCAyNC0yNCAwTDI0IDIyNCAwIDIyNGwwLTI0TDAgMjQgMCAwIDI0IDB6TTQ4IDE3Nmw5NiAwIDAtMTI4TDQ4IDQ4bDAgMTI4ek0xOTIgMjg4bDI0IDAgMTIzLjIgMGMtNy42IDE0LjktMTMuMiAzMS0xNi4zIDQ4TDI0MCAzMzZsMCAxMjggNDggMCA2MC41IDBjOS44IDE1IDIxLjggMjguNCAzNS41IDM5LjhsMCA4LjItMjQgMC0xNDQgMC0yNCAwIDAtMjQgMC0xNzYgMC0yNHptMTYwIDgwYTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTIyMi42LTMyTDU1MiAzMTMuNGwtMTEuMyAxMS4zTDQ4MCAzODUuNGwtMjguNy0yOC43TDQ0MCAzNDUuNCA0MTcuNCAzNjhsMTEuMyAxMS4zIDQwIDQwTDQ4MCA0MzAuNmwxMS4zLTExLjMgNzItNzJMNTc0LjYgMzM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![binary-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/binary-circle-check.svg)
  */
 const BinaryCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

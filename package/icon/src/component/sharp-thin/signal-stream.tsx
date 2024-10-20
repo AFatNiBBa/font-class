@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-stream` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-stream?s=sharp-thin signal-stream}
- * @preview ![signal-stream](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYwIDI1NmMwLTY4LjItMjUuMS0xMzAuNi02Ni42LTE3OC4zbDEyLjEtMTAuNUM1NDkuNCAxMTcuNyA1NzYgMTgzLjggNTc2IDI1NnMtMjYuNiAxMzguMy03MC41IDE4OC44bC0xMi4xLTEwLjVDNTM0LjkgMzg2LjYgNTYwIDMyNC4yIDU2MCAyNTZ6TTE2IDI1NmMwIDY4LjIgMjUuMSAxMzAuNiA2Ni42IDE3OC4zTDcwLjUgNDQ0LjhDMjYuNiAzOTQuMyAwIDMyOC4yIDAgMjU2UzI2LjYgMTE3LjcgNzAuNSA2Ny4yTDgyLjYgNzcuN0M0MS4xIDEyNS40IDE2IDE4Ny44IDE2IDI1NnptODAgMGMwLTQ4LjIgMTcuNy05Mi4yIDQ3LTEyNS45bDEyLjEgMTAuNUMxMjguMyAxNzEuNSAxMTIgMjExLjggMTEyIDI1NnMxNi4zIDg0LjUgNDMuMSAxMTUuNEwxNDMgMzgxLjlDMTEzLjcgMzQ4LjIgOTYgMzA0LjIgOTYgMjU2em0zODQgMGMwIDQ4LjItMTcuNyA5Mi4yLTQ3IDEyNS45bC0xMi4xLTEwLjVDNDQ3LjcgMzQwLjUgNDY0IDMwMC4yIDQ2NCAyNTZzLTE2LjMtODQuNS00My4xLTExNS40TDQzMyAxMzAuMWMyOS4zIDMzLjcgNDcgNzcuNyA0NyAxMjUuOXpNMjg4IDIwOGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6bTMyIDQ4YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![signal-stream](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/signal-stream.svg)
  */
 const SignalStream: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

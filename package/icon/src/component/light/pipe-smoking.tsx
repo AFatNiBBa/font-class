@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pipe-smoking` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-smoking?s=light pipe-smoking}
- * @preview ![pipe-smoking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTg2LjYgMzJjLTM1LjIgMC02OC40IDE2LjYtODkuNSA0NC43TDM5NSAyMTIuNWMxOC4yIDE1LjUgMjIuNCA0Mi40IDguOSA2Mi44TDI5NiA0MzkuOEMyNjYuNSA0ODQuOSAyMTYuMiA1MTIgMTYyLjMgNTEybC0yLjMgMEM3MS42IDUxMiAwIDQ0MC40IDAgMzUybDAtNzJjMC0zMC45IDI1LjEtNTYgNTYtNTZsMTQ0IDBjMjguNCAwIDUxLjkgMjEuMiA1NS41IDQ4LjZsNDkuNS02NmMxNC45LTE5LjkgNDIuNS0yNSA2My41LTEyLjFsMTAzLTEzN0M0OTguNyAyMS4zIDU0MS4zIDAgNTg2LjYgMEw2MjQgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMzcuNCAwem0tMjU2IDE5My44TDI1Mi44IDMyOS42Yy00LjEgNS41LTExLjMgNy44LTE3LjkgNS42UzIyNCAzMjYuOSAyMjQgMzIwbDAtNDBjMC0xMy4zLTEwLjctMjQtMjQtMjRMNTYgMjU2Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDcyYzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4bDIuMyAwYzQzLjEgMCA4My40LTIxLjcgMTA3LTU3LjhMMzc3LjIgMjU3LjhjNC44LTcuMyAyLjgtMTcuMi00LjUtMjIuMWwtMjAuNC0xMy42Yy03LjEtNC43LTE2LjYtMy4xLTIxLjcgMy43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pipe-smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pipe-smoking.svg)
  */
 const PipeSmoking: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

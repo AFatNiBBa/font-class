@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-xmark` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-xmark?s=sharp-regular user-xmark}
- * @preview ![user-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDEyOGE4MCA4MCAwIDEgMCAtMTYwIDAgODAgODAgMCAxIDAgMTYwIDB6TTY1IDQ2NGwzMTggMEwzNDguNSAzNTIgOTkuNSAzNTIgNjUgNDY0ek0zODQgMzA0bDQ5LjIgMTYwTDQ0OCA1MTJsLTUwLjIgMEw1MC4yIDUxMiAwIDUxMmwxNC44LTQ4TDY0IDMwNGwxNjAgMCAxNjAgMHpNMjI0IDBhMTI4IDEyOCAwIDEgMSAwIDI1NkExMjggMTI4IDAgMSAxIDIyNCAwek02MzMuOSAxNjBsLTE3IDE3LTQ3IDQ3IDQ3IDQ3IDE3IDE3TDYwMCAzMjEuOWwtMTctMTctNDctNDctNDcgNDctMTcgMTdMNDM4LjEgMjg4bDE3LTE3IDQ3LTQ3LTQ3LTQ3LTE3LTE3TDQ3MiAxMjYuMWwxNyAxNyA0NyA0NyA0Ny00NyAxNy0xN0w2MzMuOSAxNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-xmark.svg)
  */
 const UserXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-a-z` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-a-z?s=thin arrow-up-a-z}
- * @preview ![arrow-up-a-z](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU0LjMgMzQuM2MzLjEtMy4xIDguMi0zLjEgMTEuMyAwbDExMiAxMTJjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM3MtOC4yIDMuMS0xMS4zIDBMMTY4IDU5LjMgMTY4IDQ3MmMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTQxMi43TDUzLjcgMTU3LjdjLTMuMSAzLjEtOC4yIDMuMS0xMS4zIDBzLTMuMS04LjIgMC0xMS4zbDExMi0xMTJ6TTMzNiAyOTZjMC00LjQgMy42LTggOC04bDE0NCAwYzMuMSAwIDUuOSAxLjggNy4yIDQuNnMuOSA2LjEtMSA4LjVMMzYwLjkgNDY0IDQ4OCA0NjRjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTE0NCAwYy0zLjEgMC01LjktMS44LTcuMi00LjZzLS45LTYuMSAxLTguNUw0NzEuMSAzMDQgMzQ0IDMwNGMtNC40IDAtOC0zLjYtOC04ek00MTYgMzJjMyAwIDUuOCAxLjcgNy4yIDQuNGw2My45IDEyNy45IC4xIC4zIDIzLjkgNDcuOGMyIDQgLjQgOC44LTMuNiAxMC43cy04LjggLjQtMTAuNy0zLjZMNDc1LjEgMTc2bC0xMTguMSAwLTIxLjggNDMuNmMtMiA0LTYuOCA1LjYtMTAuNyAzLjZzLTUuNi02LjgtMy42LTEwLjdsMjMuOS00Ny44IC4xLS4zTDQwOC44IDM2LjRjMS40LTIuNyA0LjEtNC40IDcuMi00LjR6bTAgMjUuOUwzNjQuOSAxNjBsMTAyLjEgMEw0MTYgNTcuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-up-a-z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-a-z.svg)
  */
 const ArrowUpAZ: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

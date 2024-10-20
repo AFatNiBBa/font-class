@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `microwave` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microwave?s=light microwave}
- * @preview ![microwave](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDY0YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMjg4YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xNiAwTDgwIDQxNmwtMTYgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJMMzIgOTZjMC0xNy43IDE0LjMtMzIgMzItMzJsNDQ4IDB6TTQ4MCA0NDhsMCAxNmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMTZjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yODhjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDM4NGMwIDM1LjMgMjguNyA2NCA2NCA2NGwwIDE2YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xNiAzODQgMHpNNDY0IDEyOGwwIDIyNGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMjI0YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2ek0xMjggMzIwbDAtMTYwIDI1NiAwIDAgMTYwLTI1NiAwek05NiAxNTJsMCAxNzZjMCAxMy4zIDEwLjcgMjQgMjQgMjRsMjcyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC0xNzZjMC0xMy4zLTEwLjctMjQtMjQtMjRsLTI3MiAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![microwave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/microwave.svg)
  */
 const Microwave: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

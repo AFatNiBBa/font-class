@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `m` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/m?s=light m}
- * @preview ![m](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEuMyAzMi43YzYuNy0yLjEgMTQgLjUgMTcuOSA2LjNMMjI0IDMyMy43IDQxOC44IDM5YzQtNS44IDExLjItOC4zIDE3LjktNi4zUzQ0OCA0MSA0NDggNDhsMCA0MTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0zNjQuM0wyMzcuMiAzNjFjLTMgNC40LTcuOSA3LTEzLjIgN3MtMTAuMi0yLjYtMTMuMi03TDMyIDk5LjcgMzIgNDY0YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2TDAgNDhjMC03IDQuNi0xMy4yIDExLjMtMTUuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![m](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/m.svg)
  */
 const M: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

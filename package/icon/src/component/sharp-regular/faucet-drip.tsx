@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `faucet-drip` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/faucet-drip?s=sharp-regular faucet-drip}
- * @preview ![faucet-drip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDEyOGw0MCAwIDkuOSAwIDcgNyAyNSAyNSAzMC4xIDBjODMuOSAwIDE1MiA2OC4xIDE1MiAxNTJsMCA0OCAwIDI0LTI0IDAtMTEyIDAtMjQgMCAwLTI0IDAtMzJjMC00LjQtMy42LTgtOC04bC0yMC4xIDBjLTIzLjQgMjkuMi01OS41IDQ4LTk5LjkgNDhzLTc2LjUtMTguOC05OS45LTQ4TDI0IDMyMCAwIDMyMGwwLTQ4IDI0IDAgMTEyLjMgMCAxMy4xIDAgNy4xIDExLjFDMTcwLjggMzA1LjMgMTk1LjcgMzIwIDIyNCAzMjBzNTMuMi0xNC43IDY3LjQtMzYuOWw3LjEtMTEuMSAxMy4xIDAgMzIuMyAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgOCA2NCAwIDAtMjRjMC01Ny40LTQ2LjYtMTA0LTEwNC0xMDRsLTQwIDAtOS45IDAtNy03LTI1LTI1LTEwMC4xIDAtMjUgMjUtNyA3LTkuOSAwTDI0IDIwOCAwIDIwOGwwLTQ4IDI0IDAgMTAyLjEgMCAyNS0yNSA3LTcgOS45IDAgMzIgMCAwLTQ1LjZMNjQgOTZsMC02NEwyMDAgNDUuNiAyMDAgMGw0OCAwIDAgNDUuNkwzODQgMzJsMCA2NEwyNDggODIuNGwwIDQ1LjZ6TTQzMiA0MTZsMjcuOCA0OC43YzIuNyA0LjggNC4yIDEwLjIgNC4yIDE1LjdjMCAxNy41LTE0LjIgMzEuNi0zMS42IDMxLjZsLS44IDBjLTE3LjUgMC0zMS42LTE0LjItMzEuNi0zMS42YzAtNS41IDEuNC0xMC45IDQuMi0xNS43TDQzMiA0MTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![faucet-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/faucet-drip.svg)
  */
 const FaucetDrip: typeof Icon = x => (
     <Icon {...x}>

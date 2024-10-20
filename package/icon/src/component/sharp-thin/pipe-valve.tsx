@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pipe-valve` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-valve?s=sharp-thin pipe-valve}
- * @preview ![pipe-valve](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY0IDQwYzAtNC40LTMuNi04LTgtOHMtOCAzLjYtOCA4bDAgMzAuOEwxMTIgNTAuNCA5NiA0OGwwIDE2LjIgMCA2My42TDk2IDE0NGwxNi0yLjQgMTM2LTIwLjQgMCA3MC44TDY0IDE5MmwwLTE2IDAtMTYtMTYgMC0zMiAwTDAgMTYwbDAgMTZMMCA0NjRsMCAxNiAxNiAwIDMyIDAgMTYgMCAwLTE2IDAtMTYgMzg0IDAgMCAxNiAwIDE2IDE2IDAgMzIgMCAxNiAwIDAtMTYgMC0yODggMC0xNi0xNiAwLTMyIDAtMTYgMCAwIDE2IDAgMTYtMTg0IDAgMC03MC44IDEzNiAyMC40IDE2IDIuNCAwLTE2LjIgMC02My42TDQxNiA0OGwtMTYgMi40TDI2NCA3MC44IDI2NCA0MHpNNDQ4IDIwOGwwIDIyNEw2NCA0MzJsMC0yMjQgMTkyIDAgMTkyIDB6TTI0OCA4N2wwIDE4TDExMiAxMjUuNGwwLTU4LjhMMjQ4IDg3em0xNiAxOGwwLTE4TDQwMCA2Ni42bDAgNTguOEwyNjQgMTA1ek00OCAxNzZsMCAyODgtMzIgMCAwLTI4OCAzMiAwem00MTYgMGwzMiAwIDAgMjg4LTMyIDAgMC0yODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pipe-valve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pipe-valve.svg)
  */
 const PipeValve: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-nurse-hair` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-nurse-hair?s=sharp-thin user-nurse-hair}
- * @preview ![user-nurse-hair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDE0NGwyMjQgMCAwLTc3LjUtMTEyLTQ5LTExMiA0OSAwIDc3LjV6bS0xNiAwbDAtODhMMjI0IDAgMzUyIDU2bDAgODggMCAxNnMwIDAgMCAwbDAgMTZjMCA3MC43LTU3LjMgMTI4LTEyOCAxMjhzLTEyOC01Ny4zLTEyOC0xMjhsMC0xNnMwIDAgMCAwbDAtMTZ6bTE2IDE2czAgMCAwIDBsMCAxNmMwIDUuNCAuNCAxMC44IDEuMSAxNmw5Ny45IDAgMTYtMzJMMTEyIDE2MHptMTMyLjkgMGwtMjEuOCA0My42LTIuMiA0LjQtNC45IDAtOTkuNCAwYzEzLjggNDYuMyA1Ni42IDgwIDEwNy40IDgwYzYxLjkgMCAxMTItNTAuMSAxMTItMTEybDAtMTZzMCAwIDAgMGwtOTEuMSAwek0yMjQgNDQ3LjNMMjEyLjMgNDM1bC05My4xLTk5LTQzLjcgMEwyMi4yIDQ5Nmw0MDMuNiAwTDM3Mi41IDMzNmwtNDMuNyAwLTkzLjEgOTlMMjI0IDQ0Ny4zek0zMjEuOSAzMjBsNjIuMSAwIDU4LjcgMTc2IDUuMyAxNi0xNi45IDBMMTYuOSA1MTIgMCA1MTJsNS4zLTE2TDY0IDMyMGw2Mi4xIDBMMjEzIDQxMi4zIDIyNCA0MjRsMTEtMTEuN0wzMjEuOSAzMjB6TTIzMiA0OGwwIDI0IDI0IDAgOCAwIDAgMTYtOCAwLTI0IDAgMCAyNCAwIDgtMTYgMCAwLTggMC0yNC0yNCAwLTggMCAwLTE2IDggMCAyNCAwIDAtMjQgMC04IDE2IDAgMCA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-nurse-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-nurse-hair.svg)
  */
 const UserNurseHair: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `garage-open` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garage-open?s=sharp-thin garage-open}
- * @preview ![garage-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIyLjkgOC41TDMyMCA3LjRsLTIuOSAxLjEtMzEyIDEyMC01LjEgMkwwIDEzNiAwIDUwNGwwIDggMTYgMCAwLTggMC0zNjIuNUwzMjAgMjQuNiA2MjQgMTQxLjUgNjI0IDUwNGwwIDggMTYgMCAwLTggMC0zNjggMC01LjUtNS4xLTItMzEyLTEyMHpNMTA0IDE5MmwtOCAwIDAgOCAwIDMwNCAwIDggMTYgMCAwLTggMC0yMTYgNDE2IDAgMCAyMTYgMCA4IDE2IDAgMC04IDAtMzA0IDAtOC04IDAtNDMyIDB6bTQyNCA4MGwtNDE2IDAgMC02NCA0MTYgMCAwIDY0ek0xOTkuNCAzMjBsLTUuMiAxNkwxNjggMzM2bC04IDAgMCA4IDAgMTYwIDAgOCAxNiAwIDAtOCAwLTQwIDI4OCAwIDAgNDAgMCA4IDE2IDAgMC04IDAtMTYwIDAtOC04IDAtMjYuMiAwLTUuMi0xNi0xNi44IDAgNS4yIDE2LTIxOCAwIDUuMi0xNi0xNi44IDB6TTE3NiAzNTJsMjg4IDAgMCA5Ni0yODggMCAwLTk2em00OCA2NGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTIwOC0xNmExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![garage-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/garage-open.svg)
  */
 const GarageOpen: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

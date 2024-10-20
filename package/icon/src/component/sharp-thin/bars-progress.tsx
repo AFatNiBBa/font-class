@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bars-progress` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bars-progress?s=sharp-thin bars-progress}
- * @preview ![bars-progress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDgwbDAgMTI4LTE3NiAwIDAtMTI4IDE3NiAwek0xNiA4MGwyODggMCAwIDEyOEwxNiAyMDggMTYgODB6bTAtMTZMMCA2NCAwIDgwIDAgMjA4bDAgMTYgMTYgMCA0ODAgMCAxNiAwIDAtMTYgMC0xMjggMC0xNi0xNiAwTDE2IDY0ek00OTYgMzA0bDAgMTI4LTMwNCAwIDAtMTI4IDMwNCAwek0xNiAzMDRsMTYwIDAgMCAxMjhMMTYgNDMybDAtMTI4em0wLTE2TDAgMjg4bDAgMTZMMCA0MzJsMCAxNiAxNiAwIDQ4MCAwIDE2IDAgMC0xNiAwLTEyOCAwLTE2LTE2IDBMMTYgMjg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bars-progress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bars-progress.svg)
  */
 const BarsProgress: typeof Icon = x => (
     <Icon {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `piano-keyboard` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/piano-keyboard?s=duotone piano-keyboard}
- * @preview ![piano-keyboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIyNGw2NCAwIDAgMTYwIDgwIDAgMC02OC4zYzIuNCAxLjQgNC45IDIuNCA3LjYgMy4yYzEuMyAuNCAyLjcgLjYgNC4xIC44Yy43IC4xIDEuNCAuMiAyLjEgLjJzMS40IC4xIDIuMiAuMWM1LjggMCAxMS4zLTEuNiAxNi00LjNsMCA2OC4zIDk2IDAgMC02OC4zYzIuNCAxLjQgNC45IDIuNCA3LjYgMy4yYzEuMyAuNCAyLjcgLjYgNC4xIC44Yy43IC4xIDEuNCAuMiAyLjEgLjJzMS40IC4xIDIuMiAuMWM1LjggMCAxMS4zLTEuNiAxNi00LjNsMCA2OC4zIDk2IDAgMC02OC4zYzIuNCAxLjQgNC45IDIuNCA3LjYgMy4yYzEuMyAuNCAyLjcgLjYgNC4xIC44Yy43IC4xIDEuNCAuMiAyLjEgLjJzMS40IC4xIDIuMiAuMWM1LjggMCAxMS4zLTEuNiAxNi00LjNsMCA2OC4zIDgwIDAgMC0xNjAgNjQgMCAwIDE2MGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0NDhjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMjI0eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhsMCA5NiAxMjggMCAwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC02NCA2NCAwIDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTY0IDY0IDAgMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtNjQgMTI4IDAgMC05NmMwLTM1LjMtMjguNy02NC02NC02NEw2NCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![piano-keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/piano-keyboard.svg)
  */
 const PianoKeyboard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 224l64 0 0 160 80 0 0-68.3c2.4 1.4 4.9 2.4 7.6 3.2c1.3 .4 2.7 .6 4.1 .8c.7 .1 1.4 .2 2.1 .2s1.4 .1 2.2 .1c5.8 0 11.3-1.6 16-4.3l0 68.3 96 0 0-68.3c2.4 1.4 4.9 2.4 7.6 3.2c1.3 .4 2.7 .6 4.1 .8c.7 .1 1.4 .2 2.1 .2s1.4 .1 2.2 .1c5.8 0 11.3-1.6 16-4.3l0 68.3 96 0 0-68.3c2.4 1.4 4.9 2.4 7.6 3.2c1.3 .4 2.7 .6 4.1 .8c.7 .1 1.4 .2 2.1 .2s1.4 .1 2.2 .1c5.8 0 11.3-1.6 16-4.3l0 68.3 80 0 0-160 64 0 0 160c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 224z" />
-            <path d="M64 64C28.7 64 0 92.7 0 128l0 96 128 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 128 0 0-96c0-35.3-28.7-64-64-64L64 64z" />
+        <path d="M64 64C28.7 64 0 92.7 0 128l0 96 128 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 128 0 0-96c0-35.3-28.7-64-64-64L64 64z" />
     </Icon>
 );
 

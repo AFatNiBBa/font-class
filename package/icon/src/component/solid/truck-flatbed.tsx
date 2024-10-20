@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-flatbed` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-flatbed?s=solid truck-flatbed}
- * @preview ![truck-flatbed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDQxNmwtMzIgMGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwtMzIgMC05NiAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2bC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMybDU2LjQgMGMxNy42LTE5LjYgNDMuMS0zMiA3MS42LTMyczU0IDEyLjQgNzEuNiAzMkwzNTIgMzUybDAtMjI0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDE2IDAgMTYgMCA1MC43IDBjMTcgMCAzMy4zIDYuNyA0NS4zIDE4LjdMNTg5LjMgMTkyYzEyIDEyIDE4LjcgMjguMyAxOC43IDQ1LjNsMCAxOC43IDAgMzIgMCA2NGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMnpNNDE2IDE2MGwwIDk2IDEyOCAwIDAtMTguN0w0NjYuNyAxNjAgNDE2IDE2MHpNMjA4IDQxNmE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwem0yNzIgNDhhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-flatbed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/truck-flatbed.svg)
  */
 const TruckFlatbed: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

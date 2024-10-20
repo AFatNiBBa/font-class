@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `qq` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/qq?s=brands qq}
- * @preview ![qq](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMzLjc1NCA0MjAuNDQ1Yy0xMS41MjYgMS4zOTMtNDQuODYtNTIuNzQxLTQ0Ljg2LTUyLjc0MSAwIDMxLjM0NS0xNi4xMzYgNzIuMjQ3LTUxLjA1MSAxMDEuNzg2IDE2Ljg0MiA1LjE5MiA1NC44NDMgMTkuMTY3IDQ1LjgwMyAzNC40MjEtNy4zMTYgMTIuMzQzLTEyNS41MSA3Ljg4MS0xNTkuNjMyIDQuMDM3LTM0LjEyMiAzLjg0NC0xNTIuMzE2IDguMzA2LTE1OS42MzItNC4wMzctOS4wNDUtMTUuMjUgMjguOTE4LTI5LjIxNCA0NS43ODMtMzQuNDE1LTM0LjkyLTI5LjUzOS01MS4wNTktNzAuNDQ1LTUxLjA1OS0xMDEuNzkyIDAgMC0zMy4zMzQgNTQuMTM0LTQ0Ljg1OSA1Mi43NDEtNS4zNy0uNjUtMTIuNDI0LTI5LjY0NCA5LjM0Ny05OS43MDQgMTAuMjYxLTMzLjAyNCAyMS45OTUtNjAuNDc4IDQwLjE0NC0xMDUuNzc5QzYwLjY4MyA5OC4wNjMgMTA4Ljk4Mi4wMDYgMjI0IDBjMTEzLjczNy4wMDYgMTYzLjE1NiA5Ni4xMzMgMTYwLjI2NCAyMTQuOTYzIDE4LjExOCA0NS4yMjMgMjkuOTEyIDcyLjg1IDQwLjE0NCAxMDUuNzc4IDIxLjc2OCA3MC4wNiAxNC43MTYgOTkuMDUzIDkuMzQ2IDk5LjcwNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![qq](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/qq.svg)
  */
 const Qq: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

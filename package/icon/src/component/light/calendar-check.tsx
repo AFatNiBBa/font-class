@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-check?s=light calendar-check}
- * @preview ![calendar-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDE2YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgNDhMNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhsMCAzMiAwIDMyTDAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDMyMCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjU2IDAtMzIgMC0zMmMwLTM1LjMtMjguNy02NC02NC02NGwtMzIgMCAwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgNDhMMTI4IDY0bDAtNDh6TTMyIDE5MmwzODQgMCAwIDI1NmMwIDE3LjctMTQuMyAzMi0zMiAzMkw2NCA0ODBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMjU2ek02NCA5NmwzMjAgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyTDMyIDE2MGwwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyek0zMzEuMyAyODMuM2M2LjItNi4yIDYuMi0xNi40IDAtMjIuNnMtMTYuNC02LjItMjIuNiAwTDIwOCAzNjEuNGwtNTIuNy01Mi43Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMHMtNi4yIDE2LjQgMCAyMi42bDY0IDY0YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwbDExMi0xMTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![calendar-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/calendar-check.svg)
  */
 const CalendarCheck: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

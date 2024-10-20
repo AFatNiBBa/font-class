@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-wash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-wash?s=sharp-solid car-wash}
- * @preview ![car-wash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTI4Yy0yNi41IDAtNDgtMjEuNS00OC00OEMxNiA0OCA2NCAwIDY0IDBzNDggNDggNDggODBzLTIxLjUgNDgtNDggNDh6bTE2MCAwYy0yNi41IDAtNDgtMjEuNS00OC00OGMwLTMyIDQ4LTgwIDQ4LTgwczQ4IDQ4IDQ4IDgwcy0yMS41IDQ4LTQ4IDQ4ek00MzIgODBjMCAzMi0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4YzAtMzIgNDgtODAgNDgtODBzNDggNDggNDggODB6TTEwNi45IDE2MGwyMS4xIDAgMTkyIDAgMjEuMSAwIDguMyAxOS40TDM5NiAyODhsMzYgMCAwIDk2IDAgNjQgMCA2NC04MCAwIDAtNjRMOTYgNDQ4bDAgNjQtODAgMCAwLTY0IDAtNjQgMC05NiAzNiAwTDk4LjYgMTc5LjRsOC4zLTE5LjR6bTE5MiA2NGwtMTQ5LjggMC0yNy40IDY0IDIwNC43IDAtMjcuNC02NHpNOTYgMzkyYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMjgwLTI0YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![car-wash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/car-wash.svg)
  */
 const CarWash: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

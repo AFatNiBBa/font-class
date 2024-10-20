@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `train-tram` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-tram?s=sharp-regular train-tram}
- * @preview ![train-tram](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjMuMyAwTDcyIDAgMzc2IDBsOC43IDAgNi43IDUuNiA0OCA0MEw0MDguNiA4Mi40IDM2Ny4zIDQ4IDI0OCA0OGwwIDQ4IDg4IDAgNDggMCAwIDQ4IDAgMjU2IDAgNDgtMzAuMSAwIDQ3IDQ3IDE3IDE3LTY3LjkgMC02NC02NC0xMjQuMSAwLTY0IDY0LTY3LjkgMHMwIDAgMCAwbDE3LTE3IDQ3LTQ3TDY0IDQ0OGwwLTQ4IDAtMjU2IDAtNDggNDggMCA4OCAwIDAtNDhMODAuNyA0OCAzOS40IDgyLjQgOC42IDQ1LjZsNDgtNDBMNjMuMyAwek0zMzYgMTQ0bC0yMjQgMCAwIDk2IDIyNCAwIDAtOTZ6TTExMiA0MDBsMjI0IDAgMC0xMTItMjI0IDAgMCAxMTJ6bTQ4LTcyYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMTA0IDI0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![train-tram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/train-tram.svg)
  */
 const TrainTram: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

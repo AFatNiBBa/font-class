@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plate-utensils` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plate-utensils?s=sharp-solid plate-utensils}
- * @preview ![plate-utensils](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYgMTZMNDAgMTYgMCAxNTJjMCA0MS41IDMxLjYgNzUuNiA3MiA3OS42TDcyIDQ3MmwwIDI0IDQ4IDAgMC0yNCAwLTI0MC40YzQwLjQtNCA3Mi0zOC4xIDcyLTc5LjZMMTUyIDE2bC0xNiAwIDAgMTM2LTE2IDBMMTA0IDE2IDg4IDE2IDcyIDE1MmwtMTYgMEw1NiAxNnptNTg0IDBzLTEyOCAxNi0xMjggMTQ0bDAgMTYwIDgwIDAgMCAxNTIgMCAyNCA0OCAwIDAtMjQgMC0xNTIgMC0xMDQgMC0yNCAwLTE3NnpNMzM2IDMyYy00OS44IDAtOTUuOSAxNi4zLTEzMy4xIDQzLjhMMjIyLjcgMTQzYzAgMCAwIDAgMCAwYzI5LTI5IDY5LTQ3IDExMy4zLTQ3YzYzLjMgMCAxMTguMSAzNi44IDE0NCA5MC4ybDAtMjYuMmMwLTI1LjEgNC4yLTQ2LjggMTEuMi02NS41QzQ1MC45IDU1LjggMzk2LjIgMzIgMzM2IDMyem0wIDM4NGMtODguNCAwLTE2MC03MS42LTE2MC0xNjBjMC00LjIgLjItOC4zIC41LTEyLjRjLTcuNSA1LjMtMTUuNyA5LjctMjQuNSAxMy4xbDAgMTI3LjFDMTkyLjUgNDQxLjkgMjU5LjggNDgwIDMzNiA0ODBjODkuNCAwIDE2Ni41LTUyLjMgMjAyLjQtMTI4TDUxMiAzNTJsLTMyIDAgMC0yNi4yQzQ1NC4xIDM3OS4yIDM5OS4zIDQxNiAzMzYgNDE2ek00NjQgMjU2YTEyOCAxMjggMCAxIDAgLTI1NiAwIDEyOCAxMjggMCAxIDAgMjU2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![plate-utensils](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plate-utensils.svg)
  */
 const PlateUtensils: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

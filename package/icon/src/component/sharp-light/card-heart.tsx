@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `card-heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-heart?s=sharp-light card-heart}
- * @preview ![card-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMCA0NDggMzIwIDAgMC00NDhMMzIgMzJ6TTAgMEwzMiAwIDM1MiAwbDMyIDAgMCAzMiAwIDQ0OCAwIDMyLTMyIDBMMzIgNTEyIDAgNTEybDAtMzJMMCAzMiAwIDB6TTE4NC4zIDE3Ny4ybDcuNyA3LjQgNy43LTcuNGMxMS41LTExIDI2LjgtMTcuMiA0Mi43LTE3LjJsMi40IDBjMzIuNyAwIDU5LjIgMjYuNSA1OS4yIDU5LjJjMCAxNi4xLTYuNiAzMS41LTE4LjIgNDIuN2wtODIuOCA3OS42TDE5MiAzNTIuMWwtMTEuMS0xMC43TDk4LjIgMjYxLjhDODYuNiAyNTAuNyA4MCAyMzUuMyA4MCAyMTkuMmMwLTMyLjcgMjYuNS01OS4yIDU5LjItNTkuMmwyLjQgMGMxNS45IDAgMzEuMiA2LjIgNDIuNyAxNy4yem03OS4zIDYxLjZjNS4zLTUuMSA4LjMtMTIuMiA4LjMtMTkuNmMwLTE1LTEyLjItMjcuMi0yNy4yLTI3LjJsLTIuNCAwYy03LjcgMC0xNSAzLTIwLjUgOC4zbC03LjcgNy40TDE5MiAyMjlsLTIyLjItMjEuMy03LjctNy40Yy01LjUtNS4zLTEyLjktOC4zLTIwLjUtOC4zbC0yLjQgMGMtMTUgMC0yNy4yIDEyLjItMjcuMiAyNy4yYzAgNy40IDMgMTQuNSA4LjMgMTkuNkwxOTIgMzA3LjdsNzEuNy02OC45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![card-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/card-heart.svg)
  */
 const CardHeart: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

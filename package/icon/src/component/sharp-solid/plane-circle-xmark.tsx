@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-circle-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-circle-xmark?s=sharp-solid plane-circle-xmark}
- * @preview ![plane-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDkzLjdDMTkyIDU5LjUgMjIxIDAgMjU2IDBjMzYgMCA2NCA1OS41IDY0IDkzLjdsMCA2Ni4zIDg1LjUgNTdDMzU0LjMgMjQ3LjggMzIwIDMwMy45IDMyMCAzNjhjMCA1NC43IDI0LjkgMTAzLjUgNjQgMTM1LjhsMCA4LjJMMjU2IDQ4MCAxMjggNTEybDAtNjQgNjQtNDggMC04MEwwIDM4NGwwLTk2TDE5MiAxNjBsMC02Ni4zek00OTYgMjI0YTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptNTkuMyAxMDcuM0w1NjYuNiAzMjAgNTQ0IDI5Ny40bC0xMS4zIDExLjNMNDk2IDM0NS40bC0zNi43LTM2LjdMNDQ4IDI5Ny40IDQyNS40IDMyMGwxMS4zIDExLjNMNDczLjQgMzY4bC0zNi43IDM2LjdMNDI1LjQgNDE2IDQ0OCA0MzguNmwxMS4zLTExLjNMNDk2IDM5MC42bDM2LjcgMzYuN0w1NDQgNDM4LjYgNTY2LjYgNDE2bC0xMS4zLTExLjNMNTE4LjYgMzY4bDM2LjctMzYuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![plane-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plane-circle-xmark.svg)
  */
 const PlaneCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

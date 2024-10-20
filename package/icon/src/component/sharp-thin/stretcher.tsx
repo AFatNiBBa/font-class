@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stretcher` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stretcher?s=sharp-thin stretcher}
- * @preview ![stretcher](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA1LjcgMTAzLjRMMTg4LjggMTkyIDU5MiAxOTJsMzIgMCAxNiAwIDAgMTYgMCA2NCAwIDE2LTE2IDAtMzIgMC00MjQgMC0yMC44IDBMMTMzIDI3Mi44IDM1LjcgMTY5LjEgMTMuOCAxNDUuNyAyLjkgMTM0bDExLjctMTAuOUw2MS4yIDc5LjMgNzIuOSA2OC40IDgzLjggODAuMWwyMS45IDIzLjN6TTU5MiAyMDhsLTQwMy4yIDBjLTQuNCAwLTguNi0xLjgtMTEuNy01LjFMOTQuMSAxMTQuMyA3Mi4yIDkxIDI1LjUgMTM0LjhsMjEuOSAyMy4zIDk3LjMgMTAzLjggOS41IDEwLjEgMTMuOSAwIDQyNCAwIDMyIDAgMC02NC0zMiAwek0yNzIgNDY0YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTE2IDBjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhzMjEuNS00OCA0OC00OGMxNC4yIDAgMjcgNi4yIDM1LjcgMTZMMzUzIDM4My4yIDI1MyAzMjBsMzAgMCA4NSA1My43TDQ1MyAzMjBsMzAgMEwzODMgMzgzLjIgNDYwLjMgNDMyYzguOC05LjggMjEuNS0xNiAzNS43LTE2YzI2LjUgMCA0OCAyMS41IDQ4IDQ4cy0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4YzAtNi42IDEuMy0xMi44IDMuNy0xOC41TDM2OCAzOTIuNmwtODMuNyA1Mi45YzIuNCA1LjcgMy43IDEyIDMuNyAxOC41em0yMDggMzJhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![stretcher](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/stretcher.svg)
  */
 const Stretcher: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

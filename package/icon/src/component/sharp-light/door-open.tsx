@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `door-open` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/door-open?s=sharp-light door-open}
- * @preview ![door-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBMMjg4IDggNjQgNjRsMCA0MTYtNDggMEwwIDQ4MGwwIDMyIDE2IDAgNDggMCAxNiAwIDE2IDAgMTkyIDAgMzIgMCAwLTMyIDAtNDQ3IDAtMzN6TTI4OCA0MWwwIDQzOUw5NiA0ODAgOTYgODkgMjg4IDQxek0yMzIgMjg4YzEzLjIgMCAyNC0xNC40IDI0LTMycy0xMC44LTMyLTI0LTMycy0yNCAxNC40LTI0IDMyczEwLjcgMzIgMjQgMzJ6TTQ5NiA2NEwzNTIgNjRsMCAzMiAxMjggMCAwIDQwMCAwIDE2IDE2IDAgNjQgMCAxNiAwIDAtMzItMTYgMC00OCAwIDAtNDAwIDAtMTYtMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![door-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/door-open.svg)
  */
 const DoorOpen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

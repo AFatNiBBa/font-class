@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shovel-snow` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shovel-snow?s=sharp-solid shovel-snow}
- * @preview ![shovel-snow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDBMMzY2LjEgMzMuOWwtNi45IDYuOWMtMTQuOSAxNC45LTIzLjIgMzUtMjMuMiA1NmMwIDEzLjEgMy4yIDI1LjUgOC44IDM2LjRMMjU1IDIyM2wtNjMtNjNMMCAzMDQgMjA4IDUxMiAzNTIgMzIwbC02My02MyA4OS44LTg5LjhjMTAuOSA1LjcgMjMuMyA4LjggMzYuNCA4LjhjMjEgMCA0MS4xLTguMyA1Ni0yMy4ybDYuOS02LjlMNTEyIDExMiA0NzguMSA3OC4xIDQzMy45IDMzLjkgNDAwIDB6bTAgNjcuOUw0NDQuMSAxMTJsLTYuOSA2LjljLTUuOCA1LjktMTMuOCA5LjEtMjIuMSA5LjFDMzk4IDEyOCAzODQgMTE0IDM4NCA5Ni44YzAtOC4zIDMuMy0xNi4yIDkuMS0yMi4xbDYuOS02Ljl6TTIwMy4zIDI2Ny4zbC03MiA3MkwxMjAgMzUwLjYgOTcuNCAzMjhsMTEuMy0xMS4zIDcyLTcyTDE5MiAyMzMuNCAyMTQuNiAyNTZsLTExLjMgMTEuM3ptNjQgNjRsLTcyIDcyTDE4NCA0MTQuNiAxNjEuNCAzOTJsMTEuMy0xMS4zIDcyLTcyTDI1NiAyOTcuNCAyNzguNiAzMjBsLTExLjMgMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shovel-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shovel-snow.svg)
  */
 const ShovelSnow: typeof Icon = x => (
     <Icon {...x}>

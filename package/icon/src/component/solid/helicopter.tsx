@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `helicopter` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helicopter?s=solid helicopter}
- * @preview ![helicopter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyTDU0NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyTDM4NCA2NGwwIDY0IDMyIDBjODguNCAwIDE2MCA3MS42IDE2MCAxNjBsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTYwIDAtNjQgMGMtMjAuMSAwLTM5LjEtOS41LTUxLjItMjUuNmwtNzEuNC05NS4yYy0zLjUtNC43LTguMy04LjMtMTMuNy0xMC41TDQ3LjIgMTk4LjFjLTkuNS0zLjgtMTYuNy0xMi0xOS4yLTIyTDUgODMuOUMyLjQgNzMuOCAxMC4xIDY0IDIwLjUgNjRMNDggNjRjMTAuMSAwIDE5LjYgNC43IDI1LjYgMTIuOEwxMTIgMTI4bDIwOCAwIDAtNjRMMTYwIDY0Yy0xNy43IDAtMzItMTQuMy0zMi0zMnpNMzg0IDMyMGwxMjggMCAwLTMyYzAtNTMtNDMtOTYtOTYtOTZsLTMyIDAgMCAxMjh6TTYzMC42IDQyNS40YzEyLjUgMTIuNSAxMi41IDMyLjggMCA0NS4zbC0zLjkgMy45Yy0yNCAyNC01Ni42IDM3LjUtOTAuNSAzNy41TDI1NiA1MTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMjgwLjIgMGMxNyAwIDMzLjMtNi43IDQ1LjMtMTguN2wzLjktMy45YzEyLjUtMTIuNSAzMi44LTEyLjUgNDUuMyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![helicopter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/helicopter.svg)
  */
 const Helicopter: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-hoodie` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hoodie?s=sharp-regular user-hoodie}
- * @preview ![user-hoodie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDMzNmwwLTU1LjgtMTguOC0yMi43QzEwNi45IDIzNS4zIDk2IDIwNyA5NiAxNzZjMC03MC43IDU3LjMtMTI4IDEyOC0xMjhzMTI4IDU3LjMgMTI4IDEyOGMwIDMxLTExIDU5LjMtMjkuMiA4MS40TDMwNCAyODAuMmwwIDU1LjggNDMuOCAwIDM2LjYgMTI4TDYzLjYgNDY0bDM2LjYtMTI4IDQzLjggMHpNNDM0LjMgNDY0TDM5MS41IDMxNC4yIDM4NCAyODhsLTI0LjIgMGM5LjctMTEuNyAxNy44LTI0LjYgMjQuMi0zOC42YzEuNC0zLjEgMi44LTYuMiA0LTkuNGM3LjctMTkuOCAxMi00MS40IDEyLTY0QzQwMCA3OC44IDMyMS4yIDAgMjI0IDBTNDggNzguOCA0OCAxNzZjMCAyMi42IDQuMyA0NC4yIDEyIDY0YzEuMiAzLjIgMi42IDYuMyA0IDkuNGM2LjQgMTMuOSAxNC42IDI2LjkgMjQuMiAzOC42TDY0IDI4OGwtNy41IDI2LjJMMTMuNyA0NjQgMCA1MTJsNDkuOSAwIDM0OC4yIDAgNDkuOSAwLTEzLjctNDh6TTE5MiAzNTJsLTMyIDAgMCAxNiAwIDY0IDAgMTYgMzIgMCAwLTE2IDAtNjQgMC0xNnptOTYgMGwtMzIgMCAwIDE2IDAgNjQgMCAxNiAzMiAwIDAtMTYgMC02NCAwLTE2ek0xNDQgMTc2YzAgNjQgODAgMTEyIDgwIDExMnM4MC00OCA4MC0xMTJjMC00NC4yLTM1LjgtODAtODAtODBzLTgwIDM1LjgtODAgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-hoodie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-hoodie.svg)
  */
 const UserHoodie: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

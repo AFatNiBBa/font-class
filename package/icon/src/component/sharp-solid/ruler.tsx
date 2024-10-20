@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ruler` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler?s=sharp-solid ruler}
- * @preview ![ruler](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDUxMkw1MTIgMTYwIDM1MiAwIDI4My4zIDY4LjdsNDggNDhMMzQyLjYgMTI4IDMyMCAxNTAuNmwtMTEuMy0xMS4zLTQ4LTQ4LTQxLjQgNDEuNCA0OCA0OEwyNzguNiAxOTIgMjU2IDIxNC42bC0xMS4zLTExLjMtNDgtNDgtNDEuNCA0MS40IDQ4IDQ4TDIxNC42IDI1NiAxOTIgMjc4LjZsLTExLjMtMTEuMy00OC00OEw5MS4zIDI2MC43bDQ4IDQ4TDE1MC42IDMyMCAxMjggMzQyLjZsLTExLjMtMTEuMy00OC00OEwwIDM1MiAxNjAgNTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ruler.svg)
  */
 const Ruler: typeof Icon = x => (
     <Icon {...x}>

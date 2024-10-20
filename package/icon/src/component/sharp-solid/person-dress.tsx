@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-dress` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dress?s=sharp-solid person-dress}
- * @preview ![person-dress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6TTkxLjQgMTI4bDE3LjUgMCAxMDIuMiAwIDE3LjUgMCA5LjQgMTQuOCA4MS43IDEyOC01My45IDM0LjQtNDItNjUuOEwyNzIgMzg0bC00MCAwIDAgOTYgMCAzMi02NCAwIDAtMzIgMC05Ni0xNiAwIDAgOTYgMCAzMi02NCAwIDAtMzIgMC05Ni00MCAwTDk2LjIgMjM5LjRsLTQyIDY1LjhMLjIgMjcwLjggODIgMTQyLjggOTEuNCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-dress.svg)
  */
 const PersonDress: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

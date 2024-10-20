@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `guarani-sign` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guarani-sign?s=sharp-regular guarani-sign}
- * @preview ![guarani-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDBMMTY4IDBsMCA2NS41QzczLjMgNzcuMyAwIDE1OC4xIDAgMjU2czczLjMgMTc4LjcgMTY4IDE5MC41bDAgNjUuNSA0OCAwIDAtNjUuNWM5NC43LTExLjggMTY4LTkyLjYgMTY4LTE5MC41bDAtMjQtMjQgMC0xNDQgMCAwLTExOGMyOS43IDUgNTYuMiAxOSA3Ni44IDM5LjJsMzMuNi0zNC4zQzI5Ny4yIDkwLjIgMjU4LjggNzAuOCAyMTYgNjUuNUwyMTYgMHpNMTY4IDExNGwwIDI4NEM5OS45IDM4Ni42IDQ4IDMyNy40IDQ4IDI1NnM1MS45LTEzMC42IDEyMC0xNDJ6bTQ4IDI4NGwwLTExOCAxMTggMGMtMTAuMSA2MC4zLTU3LjcgMTA3LjktMTE4IDExOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![guarani-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/guarani-sign.svg)
  */
 const GuaraniSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

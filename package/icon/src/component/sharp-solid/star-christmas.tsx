@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-christmas` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-christmas?s=sharp-solid star-christmas}
- * @preview ![star-christmas](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZsMTkyIDY0IDY0IDE5MiA2NC0xOTIgMTkyLTY0TDMyMCAxOTIgMjU2IDAgMTkyIDE5MiAwIDI1NnpNNTQuMSA4OGwxNyAxNyA0OCA0OCAxNyAxN0wxNjkuOSAxMzZsLTE3LTE3TDEwNSA3MWwtMTctMTdMNTQuMSA4OHptNDAzLjkgMEw0MjQgNTQuMSA0MDcgNzFsLTQ4IDQ4LTE3IDE3TDM3NiAxNjkuOWwxNy0xNyA0OC00OCAxNy0xN3pNNDQxIDQwN2wtNDgtNDgtMTctMTdMMzQyLjEgMzc2bDE3IDE3IDQ4IDQ4IDE3IDE3TDQ1Ny45IDQyNGwtMTctMTd6TTU0LjEgNDI0TDg4IDQ1Ny45bDE3LTE3IDQ4LTQ4IDE3LTE3TDEzNiAzNDIuMWwtMTcgMTdMNzEgNDA3bC0xNyAxN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![star-christmas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/star-christmas.svg)
  */
 const StarChristmas: typeof Icon = x => (
     <Icon {...x}>

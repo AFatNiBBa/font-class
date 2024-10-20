@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-mp3` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-mp3?s=sharp-solid file-mp3}
- * @preview ![file-mp3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDIyNCAwbDAgMTYwIDE2MCAwIDAgMTQ0TDgwIDMwNGwwIDIwOEwwIDUxMiAwIDB6TTM4NCAxMjhsLTEyOCAwTDI1NiAwIDM4NCAxMjh6TTI1NiAzNjhsMCAxMjggMCAxNi0zMiAwIDAtMTYgMC03NC4yLTE3LjkgMzMuNy0xMy45IDI2LjItMTQuMy0yNkwxNjAgNDIzbDAgNzMgMCAxNi0zMiAwIDAtMTYgMC0xMjggMC0xNiAxNiAwIDQgMCA5LjUgMCA0LjYgOC4zIDI5LjcgNTQgMjguNS01My44IDQuNS04LjUgOS42IDAgNS42IDAgMTYgMCAwIDE2em00OC0xNmwzMiAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2bC0xNiAwIDAgMzIgMCAxNi0zMiAwIDAtMTYgMC00OCAwLTgwIDAtMTYgMTYgMHptMzIgODBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTE2IDAgMCA0OCAxNiAwem05Ni04MGwzMiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4YzAgMTIuMy00LjYgMjMuNS0xMi4yIDMyYzcuNiA4LjUgMTIuMiAxOS43IDEyLjIgMzJjMCAyNi41LTIxLjUgNDgtNDggNDhsLTMyIDAtMTYgMCAwLTMyIDE2IDAgMzIgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMjQgMC0xNiAwIDAtMzIgMTYgMCAyNCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0zMiAwLTE2IDAgMC0zMiAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-mp3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-mp3.svg)
  */
 const FileMp3: typeof Icon = x => (
     <Icon {...x}>

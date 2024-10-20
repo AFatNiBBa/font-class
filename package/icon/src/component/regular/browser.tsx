@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `browser` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/browser?s=regular browser}
- * @preview ![browser](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNLjMgODkuNUMuMSA5MS42IDAgOTMuOCAwIDk2bDAgNjRMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNTYgMC02NGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMmMtMi4yIDAtNC40IC4xLTYuNSAuM2MtOS4yIC45LTE3LjggMy44LTI1LjUgOC4yQzIxLjggNDYuNSAxMy40IDU1LjEgNy43IDY1LjVjLTMuOSA3LjMtNi41IDE1LjQtNy40IDI0ek00OCAxNjBsNDE2IDAgMCAyNTZjMCA4LjgtNy4yIDE2LTE2IDE2TDY0IDQzMmMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![browser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/browser.svg)
  */
 const Browser: typeof Icon = x => (
     <Icon {...x}>

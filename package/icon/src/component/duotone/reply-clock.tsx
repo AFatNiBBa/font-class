@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `reply-clock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reply-clock?s=duotone reply-clock}
- * @preview ![reply-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI0MGMwIDkuMSAzLjkgMTcuNyAxMC42IDIzLjhsMTYwIDE0NGM5LjQgOC41IDIyLjkgMTAuNiAzNC40IDUuNHMxOS0xNi42IDE5LTI5LjJsMC02NCA5NiAwYzUzIDAgOTYgNDMgOTYgOTZjMCAzMC40LTEyLjggNDcuOS0yMi4yIDU2LjdjLTUuNSA1LjEtOS44IDEyLTkuOCAxOS41YzAgMTAuOSA4LjggMTkuNyAxOS43IDE5LjdjMi44IDAgNS42LS42IDguMS0xLjlDNDMwLjUgNDk5LjkgNTEyIDQ0OS4zIDUxMiAzMzZjMC01LjYtLjMtMTEuMi0uOC0xNi42Yy01IC40LTEwLjEgLjYtMTUuMiAuNmMtOTEuOCAwLTE2Ny4yLTcwLjMtMTc1LjMtMTYwTDIyNCAxNjBsMC02NGMwLTEyLjYtNy40LTI0LjEtMTktMjkuMnMtMjUtMy0zNC40IDUuNGwtMTYwIDE0NEMzLjkgMjIyLjMgMCAyMzAuOSAwIDI0MHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQ5NiAyODhBMTQ0IDE0NCAwIDEgMCA0OTYgMGExNDQgMTQ0IDAgMSAwIDAgMjg4ek01MTIgODBsMCA0OCAzMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC00OCAwYy04LjggMC0xNi03LjItMTYtMTZsMC02NGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![reply-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/reply-clock.svg)
  */
 const ReplyClock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 240c0 9.1 3.9 17.7 10.6 23.8l160 144c9.4 8.5 22.9 10.6 34.4 5.4s19-16.6 19-29.2l0-64 96 0c53 0 96 43 96 96c0 30.4-12.8 47.9-22.2 56.7c-5.5 5.1-9.8 12-9.8 19.5c0 10.9 8.8 19.7 19.7 19.7c2.8 0 5.6-.6 8.1-1.9C430.5 499.9 512 449.3 512 336c0-5.6-.3-11.2-.8-16.6c-5 .4-10.1 .6-15.2 .6c-91.8 0-167.2-70.3-175.3-160L224 160l0-64c0-12.6-7.4-24.1-19-29.2s-25-3-34.4 5.4l-160 144C3.9 222.3 0 230.9 0 240z" />
-            <path d="M496 288A144 144 0 1 0 496 0a144 144 0 1 0 0 288zM512 80l0 48 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
+        <path d="M496 288A144 144 0 1 0 496 0a144 144 0 1 0 0 288zM512 80l0 48 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
     </Icon>
 );
 

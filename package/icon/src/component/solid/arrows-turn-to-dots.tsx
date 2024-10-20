@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-turn-to-dots` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-turn-to-dots?s=solid arrows-turn-to-dots}
- * @preview ![arrows-turn-to-dots](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ5LjQgMjUuNGMxMi41LTEyLjUgMzIuOC0xMi41IDQ1LjMgMHMxMi41IDMyLjggMCA0NS4zTDI2OS4zIDk2IDQxNiA5NmM1MyAwIDk2IDQzIDk2IDk2bDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMmMwLTE3LjctMTQuMy0zMi0zMi0zMmwtMTQ2LjcgMCAyNS40IDI1LjRjMTIuNSAxMi41IDEyLjUgMzIuOCAwIDQ1LjNzLTMyLjggMTIuNS00NS4zIDBsLTgwLTgwYy0xMi41LTEyLjUtMTIuNS0zMi44IDAtNDUuM2w4MC04MHptMTMuMyAyNTZsODAgODBjMTIuNSAxMi41IDEyLjUgMzIuOCAwIDQ1LjNsLTgwIDgwYy0xMi41IDEyLjUtMzIuOCAxMi41LTQ1LjMgMHMtMTIuNS0zMi44IDAtNDUuM0wyNDIuNyA0MTYgOTYgNDE2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDMyYzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtMzJjMC01MyA0My05NiA5Ni05NmwxNDYuNyAwLTI1LjQtMjUuNGMtMTIuNS0xMi41LTEyLjUtMzIuOCAwLTQ1LjNzMzIuOC0xMi41IDQ1LjMgMHpNMzg0IDM4NGE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6TTY0IDE5MkE2NCA2NCAwIDEgMSA2NCA2NGE2NCA2NCAwIDEgMSAwIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-turn-to-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrows-turn-to-dots.svg)
  */
 const ArrowsTurnToDots: typeof Icon = x => (
     <Icon {...x}>

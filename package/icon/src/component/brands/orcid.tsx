@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `orcid` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/orcid?s=brands orcid}
- * @preview ![orcid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk0Ljc1IDE4OC4xOWgtNDUuOTJWMzQyaDQ3LjQ3YzY3LjYyIDAgODMuMTItNTEuMzQgODMuMTItNzYuOTEgMC00MS42NC0yNi41NC03Ni45LTg0LjY3LTc2Ljl6TTI1NiA4QzExOSA4IDggMTE5IDggMjU2czExMSAyNDggMjQ4IDI0OCAyNDgtMTExIDI0OC0yNDhTMzkzIDggMjU2IDh6bS04MC43OSAzNjAuNzZoLTI5Ljg0di0yMDcuNWgyOS44NHptLTE0LjkyLTIzMS4xNGExOS41NyAxOS41NyAwIDEgMSAxOS41Ny0xOS41NyAxOS42NCAxOS42NCAwIDAgMS0xOS41NyAxOS41N3pNMzAwIDM2OWgtODFWMTYxLjI2aDgwLjZjNzYuNzMgMCAxMTAuNDQgNTQuODMgMTEwLjQ0IDEwMy44NUM0MTAgMzE4LjM5IDM2OC4zOCAzNjkgMzAwIDM2OXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![orcid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/orcid.svg)
  */
 const Orcid: typeof Icon = x => (
     <Icon {...x}>

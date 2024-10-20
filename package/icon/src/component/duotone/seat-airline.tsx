@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `seat-airline` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seat-airline?s=duotone seat-airline}
- * @preview ![seat-airline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik04MC41IDE5MmM5LjEgMjEuMyAxOC4zIDQyLjcgMjcuNCA2NGwyMTIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMkw4MC41IDE5MnpNOTYgNDg4YzAgMTMuMyAxMC43IDI0IDI0IDI0bDI0MCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC05NiAwIDAtNDgtNDggMCAwIDQ4LTk2IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzIgMEM0OS43IDAgNjQgMTQuMyA2NCAzMmwwIDExMS42YzAgNi41IDEuMyAxMi45IDMuOSAxOC45TDEyMS43IDI4OCA0MTYgMjg4YzEyLjEgMCAyMy4yIDYuOCAyOC42IDE3LjdzNC4zIDIzLjgtMyAzMy41bC00My4yIDU3LjZDMzg5LjMgNDA4LjkgMzc1LjEgNDE2IDM2MCA0MTZsLTE4OS44IDBjLTM4LjQgMC03My4xLTIyLjktODguMi01OC4yTDkuMSAxODcuN2MtNi0xMy45LTkuMS0yOS05LjEtNDQuMUwwIDMyQzAgMTQuMyAxNC4zIDAgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![seat-airline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/seat-airline.svg)
  */
 const SeatAirline: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M80.5 192c9.1 21.3 18.3 42.7 27.4 64l212 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80.5 192zM96 488c0 13.3 10.7 24 24 24l240 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-96 0 0-48-48 0 0 48-96 0c-13.3 0-24 10.7-24 24z" />
-            <path d="M32 0C49.7 0 64 14.3 64 32l0 111.6c0 6.5 1.3 12.9 3.9 18.9L121.7 288 416 288c12.1 0 23.2 6.8 28.6 17.7s4.3 23.8-3 33.5l-43.2 57.6C389.3 408.9 375.1 416 360 416l-189.8 0c-38.4 0-73.1-22.9-88.2-58.2L9.1 187.7c-6-13.9-9.1-29-9.1-44.1L0 32C0 14.3 14.3 0 32 0z" />
+        <path d="M32 0C49.7 0 64 14.3 64 32l0 111.6c0 6.5 1.3 12.9 3.9 18.9L121.7 288 416 288c12.1 0 23.2 6.8 28.6 17.7s4.3 23.8-3 33.5l-43.2 57.6C389.3 408.9 375.1 416 360 416l-189.8 0c-38.4 0-73.1-22.9-88.2-58.2L9.1 187.7c-6-13.9-9.1-29-9.1-44.1L0 32C0 14.3 14.3 0 32 0z" />
     </Icon>
 );
 

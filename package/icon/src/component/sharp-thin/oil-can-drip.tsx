@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `oil-can-drip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-can-drip?s=sharp-thin oil-can-drip}
- * @preview ![oil-can-drip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDgwbC04OCAwIDAgODAgMTIwIDAgNjQgMzIgMTYwLTMyIDMyIDMyTDQzMiA0MTZsLTQ4IDAtMjcyIDAtMTYgMCAwLTE2IDAtNTQuOUwwIDMwNCAwIDE3NmwwLTE2IDE2IDAgODAgMCAxNiAwIDEzNiAwIDAtODAtODggMCAwLTE2IDE5MiAwIDAgMTZ6TTk2IDE3NmwtODAgMCAwIDExNy40IDgwIDM0LjNMOTYgMTc2em0zNDkuOCAzMi44bC00LjktMi41TDM4MC4yIDE3NiAxMTIgMTc2bDAgMTU4LjYgMCAxNy40IDAgNDggMjcyIDAgNDEgMEw2MTcuOCAxOTIuNGwtMTUtMTVMNDUxLjEgMjA3LjdsLTUuNCAxLjF6TTYyNCA0MDBjMC00LjctMS45LTEyLjItNi4yLTIyLjJjLTQuMS05LjYtOS43LTE5LjktMTUuNS0yOS42Yy0zLjUtNS45LTcuMS0xMS40LTEwLjMtMTYuM2MtMy4yIDQuOS02LjggMTAuNC0xMC4zIDE2LjNjLTUuOCA5LjctMTEuNCAyMC0xNS41IDI5LjZjLTQuMyAxMC02LjIgMTcuNS02LjIgMjIuMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmMxMC4xIDAgMTgtMyAyMy4xLTcuOGM0LjktNC41IDguOS0xMiA4LjktMjQuMnptLTgwIDBjMC0yMi43IDI0LjItNjEuNiAzOC4yLTgyLjJDNTg4IDMwOS40IDU5MiAzMDQgNTkyIDMwNHM0IDUuNCA5LjggMTMuOGMxNCAyMC42IDM4LjIgNTkuNSAzOC4yIDgyLjJjMCAzMi0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![oil-can-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/oil-can-drip.svg)
  */
 const OilCanDrip: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `video-plus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-plus?s=light video-plus}
- * @preview ![video-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDk2YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMjU2YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDY0IDQxNmMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0yNTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMjU2IDB6TTY0IDY0QzI4LjcgNjQgMCA5Mi43IDAgMTI4TDAgMzg0YzAgMzUuMyAyOC43IDY0IDY0IDY0bDI1NiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtNDcuMiAwLTE2MS42IDAtNDcuMmMwLTM1LjMtMjguNy02NC02NC02NEw2NCA2NHpNNDE2IDM1NC40bDEwMy40IDU2LjljNS42IDMuMSAxMiA0LjcgMTguNCA0LjdjMjEuMSAwIDM4LjItMTcuMSAzOC4yLTM4LjJsMC0yNDMuNmMwLTIxLjEtMTcuMS0zOC4yLTM4LjItMzguMmMtNi40IDAtMTIuOCAxLjYtMTguNCA0LjdMNDE2IDE1Ny42bDAgMzYuNSAxMTguOC02NS40Yy45LS41IDEuOS0uOCAzLS44YzMuNCAwIDYuMiAyLjggNi4yIDYuMmwwIDI0My42YzAgMy40LTIuOCA2LjItNi4yIDYuMmMtMSAwLTIuMS0uMy0zLS44TDQxNiAzMTcuOWwwIDM2LjV6TTIwOCAxNzZjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCA2NC02NCAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDY0IDAgMCA2NGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtNjQgNjQgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtNjQgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![video-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/video-plus.svg)
  */
 const VideoPlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

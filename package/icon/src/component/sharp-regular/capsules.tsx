@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `capsules` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/capsules?s=sharp-regular capsules}
- * @preview ![capsules](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTQ0YzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRsMCAxMTJMNDggMjU2bDAtMTEyek0wIDE0NEwwIDM2OGMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMnMxMTItNTAuMSAxMTItMTEybDAtMTc4LjRjMS44IDE5LjEgOC4yIDM4IDE5LjggNTQuOEwzNzIuMyA0MzEuN2MzNS41IDUxLjcgMTA1LjMgNjQuMyAxNTYgMjguMXM2My0xMDcuNSAyNy41LTE1OS4yTDQyNy4zIDExMy4zQzM5MS44IDYxLjUgMzIxLjkgNDkgMjcxLjMgODUuMmMtMjggMjAtNDQuMyA1MC44LTQ3LjMgODNsMC0yNC4yYzAtNjEuOS01MC4xLTExMi0xMTItMTEyUzAgODIuMSAwIDE0NHptMjgzLjQgNzMuM2MtMjAuOS0zMC40LTEzLjMtNzIuMiAxNS44LTkzYzI4LjUtMjAuNCA2OC0xMy43IDg4LjUgMTYuMmw2Ni45IDk3LjVMMzQ4LjUgMzEyLjJsLTY1LjEtOTQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![capsules](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/capsules.svg)
  */
 const Capsules: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `island-tropical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/island-tropical?s=solid island-tropical}
- * @preview ![island-tropical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE0LjMgOTMuN2MtMS41IDEuNS0zLjUgMi4zLTUuNyAyLjNMNzguMiA5NmMtOC44IDAtMTYuMS03LjItMTMuOC0xNS44QzczLjYgNDQuOCAxMTIuOCAwIDE5MC4yIDBjNTguNCAwIDk1IDI1LjUgMTEzLjUgNTMuMkMzMjMuNiA0MC42IDM1MC4yIDMyIDM4NCAzMmM3Ny40IDAgMTE2LjYgNDQuOCAxMjUuOCA4MC4yYzIuMiA4LjYtNSAxNS44LTEzLjggMTUuOGwtNDQuNyAwYy0yLjEgMC00LjItLjgtNS43LTIuM2wtMjQtMjRjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBsLTI0IDI0Yy0xLjUgMS41LTMuNSAyLjMtNS43IDIuM2wtNzkuMiAwYzI4IDc5LjkgMjEuMiAxNzAuMiA5LjkgMjI2LjFDMzcwLjkgMzY1LjEgNDE2IDQxNy4zIDQxNiA0ODBjMCAxNy43LTE0LjMgMzItMzIgMzJMNjQgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMmMwLTcwLjcgNTcuMy0xMjggMTI4LTEyOGw2NCAwYzI5LjctNzkuMyAyOS40LTE1MC45IDIyLjgtMTk0bC04Ny42IDg3LjZjLTYuMiA2LjItMTYuNSA2LjItMjEtMS40Yy0xOC41LTMxLjYtMjIuNS05MC45IDMyLjMtMTQ1LjdjMS40LTEuNCAyLjgtMi43IDQuMS00Yy0uMy0uMy0uNy0uNS0xLS44bC0yNC0yNGMtMy4xLTMuMS04LjItMy4xLTExLjMgMGwtMjQgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![island-tropical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/island-tropical.svg)
  */
 const IslandTropical: typeof Icon = x => (
     <Icon {...x}>

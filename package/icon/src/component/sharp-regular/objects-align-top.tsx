@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `objects-align-top` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-top?s=sharp-regular objects-align-top}
- * @preview ![objects-align-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDBMMCAwIDAgNDhsNTEyIDAgMC00OHpNMTc2IDE3NmwwIDI4OC02NCAwIDAtMjg4IDY0IDB6bS02NC00OGwtNDggMCAwIDQ4IDAgMjg4IDAgNDggNDggMCA2NCAwIDQ4IDAgMC00OCAwLTI4OCAwLTQ4LTQ4IDAtNjQgMHptMjg4IDQ4bDAgMTYwLTY0IDAgMC0xNjAgNjQgMHptLTY0LTQ4bC00OCAwIDAgNDggMCAxNjAgMCA0OCA0OCAwIDY0IDAgNDggMCAwLTQ4IDAtMTYwIDAtNDgtNDggMC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![objects-align-top](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/objects-align-top.svg)
  */
 const ObjectsAlignTop: typeof Icon = x => (
     <Icon {...x}>

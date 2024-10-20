@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `galaxy` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/galaxy?s=solid galaxy}
- * @preview ![galaxy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBsMTEuNSAwQzM0Mi44IDAgMzUyIDkuMiAzNTIgMjAuNWMwIDcuMS0zLjcgMTMuNy05LjggMTcuNWwtMTIuNSA3LjdjLTM1LjIgMjEuNy02MC45IDU0LjktNzMuMyA5My4xYzE5LjktNyA0MS4zLTEwLjggNjMuNS0xMC44YzEwNiAwIDE5MiA4NiAxOTIgMTkybDAgMTEuNWMwIDExLjMtOS4yIDIwLjUtMjAuNSAyMC41Yy03LjEgMC0xMy43LTMuNy0xNy41LTkuOGwtNy43LTEyLjVjLTIxLjctMzUuMi01NC45LTYwLjktOTMuMS03My4zYzcgMTkuOSAxMC44IDQxLjMgMTAuOCA2My41YzAgMTA2LTg2IDE5Mi0xOTIgMTkybC0xMS41IDBjLTExLjMgMC0yMC41LTkuMi0yMC41LTIwLjVjMC03LjEgMy43LTEzLjcgOS44LTE3LjVsMTIuNS03LjdjMzUuMi0yMS43IDYwLjktNTQuOSA3My4zLTkzLjFjLTE5LjkgNy00MS4zIDEwLjgtNjMuNSAxMC44Qzg2IDM4NCAwIDI5OCAwIDE5MmwwLTExLjVDMCAxNjkuMiA5LjIgMTYwIDIwLjUgMTYwYzcuMSAwIDEzLjcgMy43IDE3LjUgOS44bDcuNyAxMi41YzIxLjcgMzUuMiA1NC45IDYwLjkgOTMuMSA3My4zYy03LTE5LjktMTAuOC00MS4zLTEwLjgtNjMuNUMxMjggODYgMjE0IDAgMzIwIDB6TTI1NiAyODhhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![galaxy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/galaxy.svg)
  */
 const Galaxy: typeof Icon = x => (
     <Icon {...x}>

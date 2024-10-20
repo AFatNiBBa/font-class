@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bitcoin-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bitcoin-sign?s=sharp-light bitcoin-sign}
- * @preview ![bitcoin-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEw5NiAwbDAgNjQgNjQgMCAwLTY0IDMyIDAgMCA2NC4zYzUzLjcgNC4xIDk2IDQ5IDk2IDEwMy43YzAgMzEuMy0xMy45IDU5LjQtMzUuOCA3OC41QzI5MS44IDI2MS4yIDMyMCAyOTkuMyAzMjAgMzQ0YzAgNTcuNC00Ni42IDEwNC0xMDQgMTA0bC0yNCAwIDAgNjQtMzIgMCAwLTY0LTY0IDAgMCA2NC0zMiAwIDAtNjQtMzIgMEwwIDQ0OGwwLTMyTDAgMjcybDAtMzJMMCA5NiAwIDY0bDMyIDAgMzIgMEw2NCAwem05NiA0MTZsMzIgMCAyNCAwYzM5LjggMCA3Mi0zMi4yIDcyLTcycy0zMi4yLTcyLTcyLTcybC0zMiAwTDMyIDI3MmwwIDE0NCAzMiAwIDMyIDAgNjQgMHpNMTg0IDk2bC0yNCAwTDk2IDk2IDY0IDk2IDMyIDk2bDAgMTQ0IDE1MiAwYzM5LjggMCA3Mi0zMi4yIDcyLTcycy0zMi4yLTcyLTcyLTcyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bitcoin-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bitcoin-sign.svg)
  */
 const BitcoinSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

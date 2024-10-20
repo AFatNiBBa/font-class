@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `weight-scale` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/weight-scale?s=light weight-scale}
- * @preview ![weight-scale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDE3NmExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0zMjAgMGMwLTI4LjgtNi45LTU2LTE5LjItODBMNDQ4IDk2YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzIwYzAgMTcuNy0xNC4zIDMyLTMyIDMyTDY0IDQ4MGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0zMjBjMC0xNy43IDE0LjMtMzIgMzItMzJsMzUuMiAwQzg2LjkgMTIwIDgwIDE0Ny4yIDgwIDE3NmMwIDk3LjIgNzguOCAxNzYgMTc2IDE3NnMxNzYtNzguOCAxNzYtMTc2ek0zOTEuOCA2NEMzNTkuNSAyNC45IDMxMC43IDAgMjU2IDBTMTUyLjUgMjQuOSAxMjAuMiA2NEw2NCA2NEMyOC43IDY0IDAgOTIuNyAwIDEyOEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzODQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NGwtNTYuMiAwek0zMjAgMjI0YzAtMjAuNi05LjctMzktMjQuOS01MC43bDIzLjYtNTVjMy41LTguMS0uMy0xNy41LTguNC0yMXMtMTcuNSAuMy0yMSA4LjRsLTIzLjYgNTVjLTMuMi0uNS02LjQtLjctOS43LS43Yy0zNS4zIDAtNjQgMjguNy02NCA2NHMyOC43IDY0IDY0IDY0czY0LTI4LjcgNjQtNjR6bS02NC0zMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![weight-scale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/weight-scale.svg)
  */
 const WeightScale: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pipe-circle-check` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-circle-check?s=thin pipe-circle-check}
- * @preview ![pipe-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzg0YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMjU2YzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZsMCAyNTZ6TTMyIDk2QzE0LjMgOTYgMCAxMTAuMyAwIDEyOEwwIDM4NGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDI1Ni43IDBjLS41LTUuMy0uNy0xMC42LS43LTE2TDY0IDM2OGwwLTIyNCAzODQgMCAwIDU0LjZjNS4yLTEuNSAxMC42LTIuNyAxNi0zLjdsMC02Ni45YzAtOC44IDcuMi0xNiAxNi0xNnMxNiA3LjIgMTYgMTZsMCA2NGM1LjQgMCAxMC43IC4yIDE2IC43bDAtNjQuN2MwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMkw2NCAxMjhjMC0xNy43LTE0LjMtMzItMzItMzJ6TTQ5NiAyNDBhMTI4IDEyOCAwIDEgMSAwIDI1NiAxMjggMTI4IDAgMSAxIDAtMjU2em0wIDI3MmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6bTY5LjctMTg5LjdjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBMNDgwIDM5Ni43bC00Mi4zLTQyLjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBzLTMuMSA4LjIgMCAxMS4zbDQ4IDQ4YzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBsODAtODBjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pipe-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pipe-circle-check.svg)
  */
 const PipeCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

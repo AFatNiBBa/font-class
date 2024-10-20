@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `soap` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/soap?s=sharp-light soap}
- * @preview ![soap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bS05NiAwYTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDEyOCA2NHpNMzIgMTkybDE5My4zIDBjMS45IDExLjUgNS45IDIyLjMgMTEuNSAzMkwzMiAyMjRsMCAyNTYgNDQ4IDAgMC0yNTYtNzYuOCAwYzUuNi05LjcgOS42LTIwLjUgMTEuNS0zMmw2NS4zIDAgMzIgMCAwIDMyIDAgMjU2IDAgMzItMzIgMEwzMiA1MTIgMCA1MTJsMC0zMkwwIDIyNGwwLTMyIDMyIDB6bTgwIDgwbDIwOCAwIDgwIDAgMzIgMCAwIDMyIDAgOTYgMCAzMi0zMiAwLTI4OCAwLTMyIDAgMC0zMiAwLTk2IDAtMzIgMzIgMHptMCAxMjhsMjg4IDAgMC05Ni0yODggMCAwIDk2ek00MDAgNjRhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyem0wLTY0YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnpNMzUyIDE3NmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0tOTYgMGE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![soap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/soap.svg)
  */
 const Soap: typeof Icon = x => (
     <Icon {...x}>

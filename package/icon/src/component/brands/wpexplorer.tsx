@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wpexplorer` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wpexplorer?s=brands wpexplorer}
- * @preview ![wpexplorer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI1NmMwIDE0MS4yLTExNC43IDI1Ni0yNTYgMjU2QzExNC44IDUxMiAwIDM5Ny4zIDAgMjU2UzExNC43IDAgMjU2IDBzMjU2IDExNC43IDI1NiAyNTZ6bS0zMiAwYzAtMTIzLjItMTAwLjMtMjI0LTIyNC0yMjRDMTMyLjUgMzIgMzIgMTMyLjUgMzIgMjU2czEwMC41IDIyNCAyMjQgMjI0IDIyNC0xMDAuNSAyMjQtMjI0ek0xNjAuOSAxMjQuNmw4Ni45IDM3LjEtMzcuMSA4Ni45LTg2LjktMzcuMSAzNy4xLTg2Ljl6bTExMCAxNjkuMWw0Ni42IDk0aC0xNC42bC01MC0xMDAtNDguOSAxMDBoLTE0bDUxLjEtMTA2LjktMjIuMy05LjQgNi0xNCA2OC42IDI5LjEtNiAxNC4zLTE2LjUtNy4xem0tMTEuOC0xMTYuM2w2OC42IDI5LjQtMjkuNCA2OC4zTDIzMCAyNDZsMjkuMS02OC42em04MC4zIDQyLjlsNTQuNiAyMy4xLTIzLjQgNTQuMy01NC4zLTIzLjEgMjMuMS01NC4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wpexplorer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/wpexplorer.svg)
  */
 const Wpexplorer: typeof Icon = x => (
     <Icon {...x}>

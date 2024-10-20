@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bottle-droplet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bottle-droplet?s=regular bottle-droplet}
- * @preview ![bottle-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQ4bDAgMTA0LjJjMCAxNi04IDMxLTIxLjMgMzkuOUM4MC45IDIwOS40IDY0IDIzOC44IDY0IDI3MmwwIDE3NmMwIDguOCA3LjIgMTYgMTYgMTZsMTYwIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMTc2YzAtMzMuMi0xNi45LTYyLjYtNDIuNy03OS45QzIwMCAxODMuMiAxOTIgMTY4LjMgMTkyIDE1Mi4yTDE5MiA0OGwtNjQgMHpNMjU2IDI0YzAgMTAuNC02LjcgMTkuMy0xNiAyMi42bDAgMTA1LjZjMzguNiAyNS44IDY0IDY5LjggNjQgMTE5LjhsMCAxNzZjMCAzNS4zLTI4LjcgNjQtNjQgNjRMODAgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTE3NmMwLTQ5LjkgMjUuNC05My45IDY0LTExOS44TDgwIDQ2LjZDNzAuNyA0My4zIDY0IDM0LjUgNjQgMjRDNjQgMTAuNyA3NC43IDAgODggMEwyMzIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHpNMTYwIDM4NGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhjMC0yMi4yIDIzLTUyIDM3LjItNjguMmM1LjgtNi43IDE1LjktNi43IDIxLjcgMEMxODUgMjg0IDIwOCAzMTMuOCAyMDggMzM2YzAgMzItMjEuNSA0OC00OCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bottle-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bottle-droplet.svg)
  */
 const BottleDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

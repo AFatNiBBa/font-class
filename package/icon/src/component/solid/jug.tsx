@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jug` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jug?s=solid jug}
- * @preview ![jug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBMMjg4IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMTYwIDY0Yy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMyek00MDAgMTY4YzAtMTMuMy0xMC43LTI0LTI0LTI0Yy0xMC4zIDAtMTkuMSA2LjUtMjIuNSAxNS42bDI1LjEgMzIuMmMxMi4xLTEuMyAyMS40LTExLjUgMjEuNC0yMy45em0tODkuMy02My4zbDExLjggMTUuMUMzMzUuNyAxMDUuMiAzNTQuOCA5NiAzNzYgOTZjMzkuOCAwIDcyIDMyLjIgNzIgNzJjMCAyOS4yLTE3LjQgNTQuMy00Mi4zIDY1LjZjNi44IDE1LjggMTAuMyAzMi45IDEwLjMgNTAuM0w0MTYgNDQ4YzAgMzUuMy0yOC43IDY0LTY0IDY0TDk2IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0xNjQuMWMwLTI4LjUgOS41LTU2LjEgMjctNzguNmw3OC4zLTEwMC43YzIuMS0yLjYgMy43LTUuNiA0LjgtOC43bDE2My45IDBjMS4xIDMuMSAyLjcgNiA0LjggOC43ek0xMjggMjg4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDE5MiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNjRjMC0xNy43LTE0LjMtMzItMzItMzJsLTE5MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![jug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/jug.svg)
  */
 const Jug: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

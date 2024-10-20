@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `freebsd` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/freebsd?s=brands freebsd}
- * @preview ![freebsd](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAzLjcgOTYuMmMxMS4xLTExLjEgMTE1LjUtNzcgMTM5LjItNTMuMiAyMy43IDIzLjctNDIuMSAxMjguMS01My4yIDEzOS4yLTExLjEgMTEuMS0zOS40LjktNjMuMS0yMi45LTIzLjgtMjMuNy0zNC4xLTUyLTIyLjktNjMuMXpNMTA5LjkgNjguMUM3My42IDQ3LjUgMjIgMjQuNiA1LjYgNDEuMWMtMTYuNiAxNi42IDcuMSA2OS40IDI3LjkgMTA1LjcgMTguNS0zMi4yIDQ0LjgtNTkuMyA3Ni40LTc4Ljd6TTQwNi43IDE3NGMzLjMgMTEuMyAyLjcgMjAuNy0yLjcgMjYuMS0yMC4zIDIwLjMtODcuNS0yNy0xMDkuMy03MC4xLTE4LTMyLjMtMTEuMS01My40IDE0LjktNDguNyA1LjctMy42IDEyLjMtNy42IDE5LjYtMTEuNi0yOS44LTE1LjUtNjMuNi0yNC4zLTk5LjUtMjQuMy0xMTkuMSAwLTIxNS42IDk2LjUtMjE1LjYgMjE1LjYgMCAxMTkgOTYuNSAyMTUuNiAyMTUuNiAyMTUuNlM0NDUuMyAzODAuMSA0NDUuMyAyNjFjMC0zOC40LTEwLjEtNzQuNS0yNy43LTEwNS44LTMuOSA3LTcuNiAxMy4zLTEwLjkgMTguOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![freebsd](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/freebsd.svg)
  */
 const Freebsd: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

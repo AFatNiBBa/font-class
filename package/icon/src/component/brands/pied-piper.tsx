@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pied-piper` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pied-piper?s=brands pied-piper}
- * @preview ![pied-piper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU1LjkzLDIzLjJDNDI5LjIzLDMwLDM4Ny43OSw1MS42OSwzNDEuMzUsOTAuNjZBMjA2LDIwNiwwLDAsMCwyNDAsNjRDMTI1LjEzLDY0LDMyLDE1Ny4xMiwzMiwyNzJzOTMuMTMsMjA4LDIwOCwyMDgsMjA4LTkzLjEzLDIwOC0yMDhhMjA3LjI1LDIwNy4yNSwwLDAsMC01OC43NS0xNDQuODEsMTU1LjM1LDE1NS4zNSwwLDAsMC0xNywyNy40QTE3Ni4xNiwxNzYuMTYsMCwwLDEsNDE3LjEsMjcyYzAsOTcuNjYtNzkuNDQsMTc3LjExLTE3Ny4wOSwxNzcuMTFhMTc1LjgxLDE3NS44MSwwLDAsMS04Ny42My0yMy40YzgyLjk0LTEwNy4zMywxNTAuNzktMzcuNzcsMTg0LjMxLTIyNi42NSw1Ljc5LTMyLjYyLDI4LTk0LjI2LDEyNi4yMy0xNjAuMThDNDcxLDMzLjQ1LDQ2NS4zNSwyMC44LDQ1NS45MywyMy4yWk0xMjUsNDA2LjRBMTc2LjY2LDE3Ni42NiwwLDAsMSw2Mi45LDI3MkM2Mi45LDE3NC4zNCwxNDIuMzUsOTQuOSwyNDAsOTQuOWExNzQsMTc0LDAsMCwxLDc2LjYzLDE3Ljc1QzI1MC42NCwxNzQuNzYsMTg5Ljc3LDI2NS41MiwxMjUsNDA2LjRaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![pied-piper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pied-piper.svg)
  */
 const PiedPiper: typeof Icon = x => (
     <Icon viewBox="0 0 480 512" {...x}>

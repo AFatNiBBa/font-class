@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-down-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-down-left?s=solid turn-down-left}
- * @preview ![turn-down-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc3LjUgNDQ2Yy04LjggMy44LTE5IDItMjYtNC42bC0xNDQtMTM2QzIuNyAzMDAuOSAwIDI5NC42IDAgMjg4czIuNy0xMi45IDcuNS0xNy40bDE0NC0xMzZjNy02LjYgMTcuMi04LjQgMjYtNC42czE0LjUgMTIuNSAxNC41IDIybDAgODggMTkyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xNDRjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE0NGMwIDcwLjctNTcuMyAxMjgtMTI4IDEyOGwtMTkyIDAgMCA4OGMwIDkuNi01LjcgMTguMi0xNC41IDIyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![turn-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/turn-down-left.svg)
  */
 const TurnDownLeft: typeof Icon = x => (
     <Icon {...x}>

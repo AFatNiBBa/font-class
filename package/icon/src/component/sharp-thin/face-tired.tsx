@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-tired` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-tired?s=sharp-thin face-tired}
- * @preview ![face-tired](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAwIDE2IDI1NmEyNDAgMjQwIDAgMSAwIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI1NiAzNjhjMzkgMCA3NS45IDcuNCAxMDguNiAyMC43QzM1Mi41IDM0MCAzMDguNCAzMDQgMjU2IDMwNHMtOTYuNSAzNi0xMDguNiA4NC43QzE4MC4xIDM3NS40IDIxNyAzNjggMjU2IDM2OHptMCAxNmMtNDAuNyAwLTc4LjggOC41LTExMS43IDIzLjRjLTUuNiAyLjUtMTEgNS4zLTE2LjMgOC4xYzAtNi40IC41LTEyLjcgMS40LTE4LjhDMTM4LjcgMzM1LjIgMTkxLjggMjg4IDI1NiAyODhzMTE3LjMgNDcuMiAxMjYuNiAxMDguOGMuOSA2LjEgMS40IDEyLjQgMS40IDE4LjhjLTUuMy0yLjktMTAuNy01LjYtMTYuMy04LjFDMzM0LjggMzkyLjUgMjk2LjcgMzg0IDI1NiAzODR6TTEzMi40IDE1Ny4zbDcuMiAzLjYgODAgNDAgMTQuMyA3LjItMTQuMyA3LjItODAgNDAtNy4yIDMuNi03LjItMTQuMyA3LjItMy42TDE5OC4xIDIwOGwtNjUuNy0zMi44LTcuMi0zLjYgNy4yLTE0LjN6bTI0MCAzLjZsNy4yLTMuNiA3LjIgMTQuMy03LjIgMy42TDMxMy45IDIwOGw2NS43IDMyLjggNy4yIDMuNi03LjIgMTQuMy03LjItMy42LTgwLTQwTDI3OC4xIDIwOGwxNC4zLTcuMiA4MC00MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-tired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-tired.svg)
  */
 const FaceTired: typeof Icon = x => (
     <Icon {...x}>

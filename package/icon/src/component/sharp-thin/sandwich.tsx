@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sandwich` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sandwich?s=sharp-thin sandwich}
- * @preview ![sandwich](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDgwbDAgOTZMMTYgMTc2bDAtOTYgNDgwIDB6TTE2IDY0TDAgNjQgMCA4MGwwIDk2IDAgMTYgMTYgMCA0ODAgMCAxNiAwIDAtMTYgMC05NiAwLTE2LTE2IDBMMTYgNjR6TTAgMzIwbDAgOEwwIDQ0MGwwIDggOCAwIDQ5NiAwIDggMCAwLTggMC0xMTIgMC04LTggMC0xMTIgMC0yLjQgMC0yIDEuMy02Ny42IDQ1LTY3LjYtNDUtMi0xLjMtMi40IDBMOCAzMjBsLTggMHptMTYgMTZsMjI5LjYgMCA3MCA0Ni43IDQuNCAzIDQuNC0zIDcwLTQ2LjdMNDk2IDMzNmwwIDk2TDE2IDQzMmwwLTk2ek0xMzAuOCAyMjQuNWwtMy0xLjEtMyAxLjMtMTEyIDQ4LTcuNCAzLjIgNi4zIDE0LjcgNy40LTMuMiAxMDktNDYuNyAxMjUgNDYuOSAyLjggMS4xIDIuOC0xLjEgMTI1LTQ2LjkgMTA5IDQ2LjcgNy40IDMuMiA2LjMtMTQuNy03LjQtMy4yLTExMi00OC0zLTEuMy0zIDEuMUwyNTYgMjcxLjUgMTMwLjggMjI0LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sandwich](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sandwich.svg)
  */
 const Sandwich: typeof Icon = x => (
     <Icon {...x}>

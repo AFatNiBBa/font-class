@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hammer-brush` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-brush?s=sharp-regular hammer-brush}
- * @preview ![hammer-brush](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM2IDBDNjAuOSAwIDAgNjAuOSAwIDEzNmwwIDMyIDAgMzYuNCAzMy41LTE0LjMgNDEuMS0xNy42TDg3IDE4NWw3IDcgOS45IDAgMTMuOCAwTDk2IDUxMmwxMjggMEwyMDIuMiAxOTJsNDUuOCAwIDI0IDAgMC0yNCAwLTggMzIgMCAwIDMyIDQ4IDAgMC0zMnMwIDAgMCAwbDAtMjQgMC04MCAwLTI0czAgMCAwIDBsMC0zMkwzMDQgMGwwIDMyLTMyIDAgMC04IDAtMjRMMjQ4IDAgMTM2IDB6TTMwNCAxMTJsLTU2IDAtMjQgMCAwIDI0IDAgOC0xMTAuMSAwTDk3IDEyNyA4NS41IDExNS41bC0xNC45IDYuNC0yMi40IDkuNkM1MC40IDg1IDg4LjkgNDggMTM2IDQ4bDg4IDAgMCA4IDAgMjQgMjQgMCA1NiAwIDAgMzJ6bTk2IDIwOGwxOTIgMCAwIDE0NC0xMTIgMCAwLTQ4IDAtMTYtMzIgMCAwIDE2IDAgNDgtNDggMCAwLTE0NHptNDgtMTI4bC05NiA2NCAwIDIwOCAwIDQ4IDQ4IDAgMTkyIDAgNDggMCAwLTQ4IDAtMjA4LTk2LTY0TDU0NCAwIDQ0OCAwbDAgMTkyek00ODAgNDhhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hammer-brush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hammer-brush.svg)
  */
 const HammerBrush: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

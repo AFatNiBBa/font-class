@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-bill-trend-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-trend-up?s=sharp-light money-bill-trend-up}
- * @preview ![money-bill-trend-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBsMCAzMiAxNiAwIDU3LjQgMEwyODcuMiAxNzAuMiAxODYuNCA4My45IDE3NiA3NC45bC0xMC40IDguOS0xMTIgOTYgMjAuOCAyNC4zTDE3NiAxMTcuMWwxMDEuNiA4Ny4xIDExLjIgOS42IDEwLjUtMTAuNUw0NDggNTQuNmwwIDU3LjQgMCAxNiAzMiAwIDAtMTYgMC05NiAwLTE2TDQ2NCAwIDM2OCAwIDM1MiAwek00ODAgMjg4bDAgNDhjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDQ4IDB6bS0zNjggMGwyODggMGMwIDQ0LjIgMzUuOCA4MCA4MCA4MGwwIDMyYy00NC4yIDAtODAgMzUuOC04MCA4MGwtMjg4IDBjMC00NC4yLTM1LjgtODAtODAtODBsMC0zMmM0NC4yIDAgODAtMzUuOCA4MC04MHpNNDMyIDQ4MGMwLTI2LjUgMjEuNS00OCA0OC00OGwwIDQ4LTQ4IDB6TTMyIDQzMmMyNi41IDAgNDggMjEuNSA0OCA0OGwtNDggMCAwLTQ4ek04MCAyODhjMCAyNi41LTIxLjUgNDgtNDggNDhsMC00OCA0OCAwek0zMiAyNTZMMCAyNTZsMCAzMkwwIDQ4MGwwIDMyIDMyIDAgNDQ4IDAgMzIgMCAwLTMyIDAtMTkyIDAtMzItMzIgMEwzMiAyNTZ6TTIyNCAzODRhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptOTYgMGE2NCA2NCAwIDEgMCAtMTI4IDAgNjQgNjQgMCAxIDAgMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![money-bill-trend-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/money-bill-trend-up.svg)
  */
 const MoneyBillTrendUp: typeof Icon = x => (
     <Icon {...x}>

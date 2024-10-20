@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dumpster-fire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumpster-fire?s=sharp-regular dumpster-fire}
- * @preview ![dumpster-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJMMCAxNjBsMTE0LjkgMEwxNDAuNSAzMiAzMiAzMnpNMjcyIDE2MGwwLTEyOC05OC45IDBMMTQ3LjUgMTYwIDI3MiAxNjB6bTMyIDBsNTYuNSAwYzE5LjctMjEuMiA0MC40LTM4LjUgNTcuOC01MC44TDQwMi45IDMyIDMwNCAzMmwwIDEyOHptMjYwLjUtMjQuN2MyLjMgMS45IDQuNiAzLjggNi44IDUuOEw1NDQgMzIgNDM1LjUgMzJsMTEuNyA1OC42IDUuNC0zLjRMNTEyIDE0Ni42bDMwLTMwIDIyLjUgMTguN3pNODAuNCAxOTJMMzIgMTkybDQgMzItMTIgMEwwIDIyNGwwIDQ4IDI0IDAgMTggMEw2NCA0NDhsMCA4IDAgMjQgNDggMCAwLTI0IDAtOCAyMjUgMGMtMTIuOC0xNC4yLTIzLjUtMzAuNC0zMS41LTQ4bC0xOTkuMSAwLTIwLTE2MEwzMDYgMjQwYzcuOC0xNy40IDE3LjYtMzMuNSAyOC4xLTQ4TDgwLjQgMTkyek00NDggMTI4Yy00Mi43IDI2LjctMTI4IDEwMi40LTEyOCAxOTJjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBzMTYwLTcxLjYgMTYwLTE2MGMwLTI2LjctMTkuMi05Ni05Ni0xNjBsLTMyIDMyLTY0LTY0em05NiAyNDAuMmMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NGMwLTQ4IDY0LTk2IDY0LTk2czY0IDQ4IDY0IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dumpster-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/dumpster-fire.svg)
  */
 const DumpsterFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

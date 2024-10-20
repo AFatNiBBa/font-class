@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `tooth` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tooth?s=duotone tooth}
- * @preview ![tooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xODYuMSA1Mi4xQzE2OS4zIDM5LjEgMTQ4LjcgMzIgMTI3LjUgMzJDNzQuNyAzMiAzMiA3NC43IDMyIDEyNy41bDAgNi4yYzAgMTUuOCAzLjcgMzEuMyAxMC43IDQ1LjVsMjMuNSA0Ny4xYzQuNSA4LjkgNy42IDE4LjQgOS40IDI4LjJsMzYuNyAyMDUuOGMyIDExLjIgMTEuNiAxOS40IDIyLjkgMTkuOHMyMS40LTcuNCAyNC0xOC40bDI4LjktMTIxLjNDMTkyLjIgMzIzLjcgMjA3IDMxMiAyMjQgMzEyczMxLjggMTEuNyAzNS44IDI4LjNsMjguOSAxMjEuM2MyLjYgMTEuMSAxMi43IDE4LjggMjQgMTguNHMyMC45LTguNiAyMi45LTE5LjhsMzYuNy0yMDUuOGMxLjgtOS44IDQuOS0xOS4zIDkuNC0yOC4ybDIzLjUtNDcuMWM3LjEtMTQuMSAxMC43LTI5LjcgMTAuNy00NS41bDAtMi4xYzAtNTUtNDQuNi05OS42LTk5LjYtOTkuNmMtMjQuMSAwLTQ3LjQgOC44LTY1LjYgMjQuNmwtMy4yIDIuOCAxOS41IDE1LjJjNyA1LjQgOC4yIDE1LjUgMi44IDIyLjVzLTE1LjUgOC4yLTIyLjUgMi44bC0yNC40LTE5LTM3LTI4Ljh6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9IiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tooth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tooth.svg)
  */
 const Tooth: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

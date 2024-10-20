@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `venus-double` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/venus-double?s=light venus-double}
- * @preview ![venus-double](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMyMGExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6TTM2OCAxNzZjMCA5MS44LTcwLjMgMTY3LjItMTYwIDE3NS4zbDAgNjQuNyA2NCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC02NCAwIDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC00OC02NCAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDY0IDAgMC02NC43Qzg2LjMgMzQzLjIgMTYgMjY3LjggMTYgMTc2QzE2IDc4LjggOTQuOCAwIDE5MiAwczE3NiA3OC44IDE3NiAxNzZ6TTM0NCAzMThjNy4zLTcuOCAxNC0xNi4yIDIwLTI1YzIzLjYgMTcgNTIuNiAyNyA4NCAyN2M3OS41IDAgMTQ0LTY0LjUgMTQ0LTE0NHMtNjQuNS0xNDQtMTQ0LTE0NGMtMzEuMyAwLTYwLjMgMTAtODQgMjdjLTYtOC45LTEyLjctMTcuMi0yMC0yNUMzNzMuMSAxMi42IDQwOS4xIDAgNDQ4IDBjOTcuMiAwIDE3NiA3OC44IDE3NiAxNzZjMCA5MS44LTcwLjMgMTY3LjItMTYwIDE3NS4zbDAgNjQuNyA2NCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC02NCAwIDAgNDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC00OC02NCAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDY0IDAgMC02NC43Yy0zMi43LTMtNjIuOS0xNC45LTg4LTMzLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![venus-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/venus-double.svg)
  */
 const VenusDouble: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

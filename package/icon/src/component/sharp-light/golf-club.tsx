@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `golf-club` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-club?s=sharp-light golf-club}
- * @preview ![golf-club](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgxLjcgOC45TDMwMy41IDM2NS4xIDIwLjIgMjg4LjYgMCAyODMuMSAwIDMwNCAwIDQ5NmwwIDE2IDE2IDAgMjQwIDAgOS45IDAgNC40LTguOCA1Ni0xMTIgMTg0LTM2OEw0ODEuNyA4Ljl6TTMyIDMyNC45bDI1Ni45IDY5LjRMMjQ2LjEgNDgwIDMyIDQ4MGwwLTMyIDQ4IDAgMTYgMCAwLTMyLTE2IDAtNDggMCAwLTE2IDQ4IDAgMTYgMCAwLTMyLTE2IDAtNDggMCAwLTQzLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![golf-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/golf-club.svg)
  */
 const GolfClub: typeof Icon = x => (
     <Icon {...x}>

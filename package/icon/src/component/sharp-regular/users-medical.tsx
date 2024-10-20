@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users-medical` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-medical?s=sharp-regular users-medical}
- * @preview ![users-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBhODAgODAgMCAxIDEgMCAxNjBBODAgODAgMCAxIDEgMTQ0IDB6TTUxMiAwYTgwIDgwIDAgMSAxIDAgMTYwQTgwIDgwIDAgMSAxIDUxMiAwek00OCAxOTJsMTQ4IDBjLTIuNiAxMC4yLTQgMjEtNCAzMmMwIDM4LjIgMTYuOCA3Mi41IDQzLjMgOTZMMCAzMjAgNDggMTkyek02NDAgMzIwbC0zMiAwIDAtMzItMzIgMC02NCAwLTMyIDAgMCAzMi03NS4zIDBjMjYuNi0yMy41IDQzLjMtNTcuOCA0My4zLTk2YzAtMTEtMS40LTIxLjgtNC0zMmwxNDggMCA0OCAxMjh6TTE3NiAzNTJsMjQwIDAgMCAzMiAwIDE2LTIwNC4zIDAtMTkuMiA2NEw0MTYgNDY0bDAgMTYgMzIgMCAzMiAwIDAgMzItMTguMSAwLTI4My44IDBMMTI4IDUxMmwxNC40LTQ4TDE3NiAzNTJ6bTE0NC04MGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bTAtMTQ0YTk2IDk2IDAgMSAxIDAgMTkyIDk2IDk2IDAgMSAxIDAtMTkyek01MTIgMzIwbDY0IDAgMCA2NCA2NCAwIDAgNjQtNjQgMCAwIDY0LTY0IDAgMC02NC02NCAwIDAtNjQgNjQgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![users-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/users-medical.svg)
  */
 const UsersMedical: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

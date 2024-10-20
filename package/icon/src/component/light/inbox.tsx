@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `inbox` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox?s=light inbox}
- * @preview ![inbox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDE2bDAtODguMWMwLTIuNiAuMy01LjIgMS03LjhsMC0uMSAxMDEuMSAwIDIzLjIgNDYuM2M1LjQgMTAuOCAxNi41IDE3LjcgMjguNiAxNy43bDE0MC4yIDBjMTIuMSAwIDIzLjItNi44IDI4LjYtMTcuN0wzNzcuOSAzMjAgNDc5IDMyMGwwIC4xYy42IDIuNSAxIDUuMSAxIDcuOGwwIDg4LjFjMCAxNy43LTE0LjMgMzItMzIgMzJMNjQgNDQ4Yy0xNy43IDAtMzItMTQuMy0zMi0zMnpNNDcxIDI4OGwtOTMuMSAwYy0xMi4xIDAtMjMuMiA2LjgtMjguNiAxNy43TDMyNi4xIDM1MmwtMTQwLjIgMC0yMy4yLTQ2LjNjLTUuNC0xMC44LTE2LjUtMTcuNy0yOC42LTE3LjdMNDEgMjg4IDkwLjkgODguMkM5NC41IDc0IDEwNy4zIDY0IDEyMiA2NEwzOTAgNjRjMTQuNyAwIDI3LjUgMTAgMzEgMjQuMkw0NzEgMjg4ek0wIDMyNy45TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtODguMWMwLTUuMi0uNi0xMC40LTEuOS0xNS41bC01OC0yMzEuOUM0NDUgNTIgNDE5LjQgMzIgMzkwIDMyTDEyMiAzMkM5Mi42IDMyIDY3IDUyIDU5LjkgODAuNUwxLjkgMzEyLjRDLjYgMzE3LjQgMCAzMjIuNiAwIDMyNy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![inbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/inbox.svg)
  */
 const Inbox: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-euro` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-euro?s=light circle-euro}
- * @preview ![circle-euro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTEyOCAxNmwyNC4yIDBjLS43LTUtMS0xMC4xLTEtMTUuMmMwLTUuNyAuNC0xMS4zIDEuMi0xNi44TDEyOCAyNDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsMzQuMiAwYzE4LjItMzcuOSA1Ni45LTY0IDEwMS43LTY0bDQxLjEgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtNDEuMSAwYy0yNi4zIDAtNDkuNiAxMi42LTY0LjQgMzJsODguNSAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xMDMuMSAwYy0xLjEgNS40LTEuNyAxMS0xLjcgMTYuOGMwIDUuMiAuNSAxMC4zIDEuNCAxNS4yTDI4OCAyNzJjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTg5LjYgMGMxNC43IDIwLjMgMzguNSAzMy41IDY1LjUgMzMuNWw0MS4xIDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTQxLjEgMGMtNDUuNCAwLTg0LjUtMjYuOC0xMDIuNC02NS41TDEyOCAzMDRjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-euro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-euro.svg)
  */
 const CircleEuro: typeof Icon = x => (
     <Icon {...x}>

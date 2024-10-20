@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `castle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/castle?s=duotone castle}
- * @preview ![castle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMjggMTZjMC04LjggNy4yLTE2IDE2LTE2bDMyIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNDggNDggMCAwLTQ4YzAtOC44IDcuMi0xNiAxNi0xNmwzMiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDQ4IDMyIDAgMC00OGMwLTguOCA3LjItMTYgMTYtMTZsMzIgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCA0OCA0OCAwIDAtNDhjMC04LjggNy4yLTE2IDE2LTE2bDMyIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNDggMCAxNDQgMCAxNi0xNiAwLTMyIDAtMjg4IDAtMzIgMC0xNiAwIDAtMTYgMC0xNDQgMC00OHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTAgMTc2YzAtOC44IDcuMi0xNiAxNi0xNmwzMiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDQ4IDUxMiAwIDAtNDhjMC04LjggNy4yLTE2IDE2LTE2bDMyIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgOTYgMCAxOTJjMCAyNi41LTIxLjUgNDgtNDggNDhsLTIwOCAwIDAtMTI4YzAtMzUuMy0yOC43LTY0LTY0LTY0cy02NCAyOC43LTY0IDY0bDAgMTI4TDQ4IDUxMmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhMMCAyNzJsMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![castle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/castle.svg)
  */
 const Castle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M128 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 32 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 0 144 0 16-16 0-32 0-288 0-32 0-16 0 0-16 0-144 0-48z" />
-            <path d="M0 176c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 512 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 96 0 192c0 26.5-21.5 48-48 48l-208 0 0-128c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 128L48 512c-26.5 0-48-21.5-48-48L0 272l0-96z" />
+        <path d="M0 176c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 512 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 96 0 192c0 26.5-21.5 48-48 48l-208 0 0-128c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 128L48 512c-26.5 0-48-21.5-48-48L0 272l0-96z" />
     </Icon>
 );
 

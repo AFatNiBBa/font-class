@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `line-height` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/line-height?s=sharp-solid line-height}
- * @preview ![line-height](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJMMCAxMjhsMCAzMiA2NCAwIDAgMTkyTDAgMzUybDAgMzIgOTYgOTYgOTYtOTYgMC0zMi02NCAwIDAtMTkyIDY0IDAgMC0zMkw5NiAzMnpNNTc2IDY0TDI1NiA2NGwwIDY0IDMyMCAwIDAtNjR6bTAgMTYwbC0zMjAgMCAwIDY0IDMyMCAwIDAtNjR6TTI1NiAzODRsMCA2NCAzMjAgMCAwLTY0LTMyMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![line-height](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/line-height.svg)
  */
 const LineHeight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

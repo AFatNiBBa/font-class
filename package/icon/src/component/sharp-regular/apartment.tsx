@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `apartment` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apartment?s=sharp-regular apartment}
- * @preview ![apartment](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDE5MmwtNDggMCAwLTQ4IDAtOTYgMC00OEw0MDAgMCAxNzYgMCAxMjggMGwwIDQ4IDAgNDhMODAgOTYgNDggOTYgMCA5NmwwIDQ4TDAgNDY0bDAgNDggNDggMCA4MCAwIDEyOCAwIDMyIDAgMzIgMCAxMjggMCA4MCAwIDQ4IDAgMC00OCAwLTIyNCAwLTQ4LTQ4IDAtMzIgMHpNMzIwIDM4NGwtNjQgMCAwIDgwLTEyOCAwLTgwIDAgMC0zMjAgODAgMCA0OCAwIDAtNDggMC00OCAyMjQgMCAwIDE0NCAwIDQ4IDQ4IDAgODAgMCAwIDIyNC04MCAwLTEyOCAwIDAtODB6bS0xNi00OGw2NCAwIDAtNjQtNjQgMCAwIDY0em0xOTIgOTZsMC02NC02NCAwIDAgNjQgNjQgMHpNODAgMzM2bDY0IDAgMC02NC02NCAwIDAgNjR6bTY0IDk2bDAtNjQtNjQgMCAwIDY0IDY0IDB6bTY0LTk2bDY0IDAgMC02NC02NCAwIDAgNjR6TTM2OCA4MGwtNjQgMCAwIDY0IDY0IDAgMC02NHpNMjA4IDgwbDAgNjQgNjQgMCAwLTY0LTY0IDB6TTM2OCAyNDBsMC02NC02NCAwIDAgNjQgNjQgMHptNjQgOTZsNjQgMCAwLTY0LTY0IDAgMCA2NHpNMTQ0IDI0MGwwLTY0LTY0IDAgMCA2NCA2NCAwem02NCAwbDY0IDAgMC02NC02NCAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![apartment](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/apartment.svg)
  */
 const Apartment: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

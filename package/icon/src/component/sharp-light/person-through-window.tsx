@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-through-window` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-through-window?s=sharp-light person-through-window}
- * @preview ![person-through-window](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsMCAzODQgOTYgMCAwLTE0NCAwLTguMyA2LjgtNC44TDMyMCAxMjcuNyAzMjAgMzIgMzIgMzJ6TTM1MiAxMzZsMCA4LjMtNi44IDQuOEwyNjcgMjA0LjUgMzI4LjEgMjg4bDcxLjkgMCA3LjQgMCA0LjggNS42IDk2IDExMiA4LjkgMTAuNCA5MC45IDAgMC0zODRMMzUyIDMybDAgMTA0em0xNSAyODBsMTA3LjkgMC04Mi4zLTk2LTUxLjMgMC01NCA0MC41IDkzLjUgMTI2LTI1LjcgMTkuMUwzMTIuNSA0NDggMzIgNDQ4IDAgNDQ4bDAtMzJMMCAzMiAwIDAgMzIgMCA2MDggMGwzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwLTIxNy41IDBMMzY3IDQxNnptLTk4LjctODEuMmwzNS4xLTI2LjNMMjQwLjkgMjIzbC0zNi40IDI1LjggNjMuOCA4NnptLTg5LjktNjcuNWwtMTguNCAxM0wxNjAgNDE2bDEyOC43IDBMMTc4LjQgMjY3LjN6TTE2OCAxMzZhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHptLTgwIDBhNTYgNTYgMCAxIDEgMTEyIDBBNTYgNTYgMCAxIDEgODggMTM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-through-window](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-through-window.svg)
  */
 const PersonThroughWindow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

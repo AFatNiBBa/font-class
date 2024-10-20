@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-a-z` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-a-z?s=regular arrow-up-a-z}
- * @preview ![arrow-up-a-z](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMyYzkuMSAwIDE3LjQgNS4xIDIxLjUgMTMuM2w4MCAxNjBjNS45IDExLjkgMS4xIDI2LjMtMTAuNyAzMi4ycy0yNi4zIDEuMS0zMi4yLTEwLjdsLTEzLjYtMjcuMmMtMS42IC4zLTMuMiAuNS00LjkgLjVsLTg1LjIgMC0xMy40IDI2LjdjLTUuOSAxMS45LTIwLjMgMTYuNy0zMi4yIDEwLjdzLTE2LjctMjAuMy0xMC43LTMyLjJsODAtMTYwQzM5OC42IDM3LjEgNDA2LjkgMzIgNDE2IDMyek0zOTQuOCAxNTJsNDIuMyAwTDQxNiAxMDkuNyAzOTQuOCAxNTJ6TTE0MyAzOWM5LjQtOS40IDI0LjYtOS40IDMzLjkgMGw5NiA5NmM5LjQgOS40IDkuNCAyNC42IDAgMzMuOXMtMjQuNiA5LjQtMzMuOSAwbC01NS01NUwxODQgNDU2YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMzQyLjFMODEgMTY5Yy05LjQgOS40LTI0LjYgOS40LTMzLjkgMHMtOS40LTI0LjYgMC0zMy45bDk2LTk2ek0zNTIgMjg4bDEyOCAwYzkuNCAwIDE4IDUuNSAyMS45IDE0LjJzMi4zIDE4LjctNCAyNS44TDQwNS40IDQzMmw3NC42IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTEyOCAwYy05LjQgMC0xOC01LjUtMjEuOS0xNC4ycy0yLjMtMTguNyA0LTI1LjhMNDI2LjYgMzM2IDM1MiAzMzZjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-up-a-z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-up-a-z.svg)
  */
 const ArrowUpAZ: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

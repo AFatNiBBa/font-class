@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `x-ray` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/x-ray?s=sharp-solid x-ray}
- * @preview ![x-ray](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwzMiAwIDQ0OCAwIDMyIDAgMCA2NC0zMiAwIDAgMzIwIDMyIDAgMCA2NC0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTY0IDMyIDBMMzIgOTYgMCA5NiAwIDMyek0yNzIgOTZsLTMyIDAgMCAxNiAwIDMyLTgwIDAtMTYgMCAwIDMyIDE2IDAgODAgMCAwIDQ4LTExMiAwLTE2IDAgMCAzMiAxNiAwIDExMiAwIDAgNzAuNkwxODEuMyAzMDQgMTI4IDMwNGwwIDU3LjZMMTcwLjcgNDE2bDE3MC43IDBMMzg0IDM2MS42bDAtNTcuNi01My4zIDBMMjcyIDMyNi42bDAtNzAuNiAxMTIgMCAxNiAwIDAtMzItMTYgMC0xMTIgMCAwLTQ4IDgwIDAgMTYgMCAwLTMyLTE2IDAtODAgMCAwLTMyIDAtMTZ6TTIwOCAzNTJhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem04MCAxNmExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![x-ray](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/x-ray.svg)
  */
 const XRay: typeof Icon = x => (
     <Icon {...x}>

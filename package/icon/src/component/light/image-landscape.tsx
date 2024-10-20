@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `image-landscape` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-landscape?s=light image-landscape}
- * @preview ![image-landscape](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDk2YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMjU2YzAgNi4xLTEuNyAxMS44LTQuNiAxNi42TDM3NyAxOTcuNmMtMTIuOC0xNi0zNy4yLTE2LTUwIDBMMjQ0LjQgMzAwLjlsLTI3LjMtMzcuNWMtMTIuMy0xNy0zNy40LTE3LjctNTAuNi0xLjRMNDUuMyA0MTBDMzcuMyA0MDQuMiAzMiAzOTQuNyAzMiAzODRsMC0yNTZjMC0xNy43IDE0LjMtMzIgMzItMzJsNDQ4IDB6bS0xLjMgMzIwbC0zMTcuNCAwIDYzLTc4LjhMMzUyIDIxNy42IDUxMC43IDQxNnpNMTYwLjEgNDQ4TDUxMiA0NDhjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhMMCAzODRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsOTUuOSAwIC4zIDB6bS03LjgtMzJsLTcwLjUgMEwxOTEuMyAyODIuMmwzMi40IDQ0LjZMMTUyLjMgNDE2ek0xNDQgMTYwYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptMCA2NGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![image-landscape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/image-landscape.svg)
  */
 const ImageLandscape: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tilde` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tilde?s=sharp-regular tilde}
- * @preview ![tilde](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMjhsMjQgMCAxMTIgMCAxMS4xIDAgNy4yIDguNUwzMjMuMSAzMzZsNzYuOSAwIDAtMTQ0IDAtMjQgNDggMCAwIDI0IDAgMTY4IDAgMjQtMjQgMC0xMTIgMC0xMS4xIDAtNy4yLTguNUwxMjQuOSAxNzYgNDggMTc2bDAgMTQ0IDAgMjRMMCAzNDRsMC0yNEwwIDE1MmwwLTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tilde](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tilde.svg)
  */
 const Tilde: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

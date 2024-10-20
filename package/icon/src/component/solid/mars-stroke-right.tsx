@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mars-stroke-right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-stroke-right?s=solid mars-stroke-right}
- * @preview ![mars-stroke-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDM2OGExMTIgMTEyIDAgMSAwIDAtMjI0IDExMiAxMTIgMCAxIDAgMCAyMjR6bTE3NC40LTg4QzM3MC43IDM2NS44IDI5Ny4xIDQzMiAyMDggNDMyYy05Ny4yIDAtMTc2LTc4LjgtMTc2LTE3NnM3OC44LTE3NiAxNzYtMTc2Yzg5LjEgMCAxNjIuNyA2Ni4yIDE3NC40IDE1MmwzMy42IDAgMC01NmMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0bDAgNTYgMzIgMCAwLTU2YzAtOS43IDUuOC0xOC41IDE0LjgtMjIuMnMxOS4zLTEuNyAyNi4yIDUuMmw4MCA4MGM5LjQgOS40IDkuNCAyNC42IDAgMzMuOWwtODAgODBjLTYuOSA2LjktMTcuMiA4LjktMjYuMiA1LjJzLTE0LjgtMTIuNS0xNC44LTIyLjJsMC01Ni0zMiAwIDAgNTZjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC01Ni0zMy42IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mars-stroke-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mars-stroke-right.svg)
  */
 const MarsStrokeRight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

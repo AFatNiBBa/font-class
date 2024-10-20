@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-day` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-day?s=sharp-regular house-day}
- * @preview ![house-day](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBMMTE5LjYgNjIuNCA0Ni45IDQ2LjlsMTUuNiA3Mi43TDAgMTYwbDYyLjQgNDAuNEw0Ni45IDI3My4xbDcyLjctMTUuNiA3LjkgMTIuMiAyMS4xLTE3LjJMMTYzIDI0MC45Yy0xIDAtMiAuMS0yLjkgLjFjLTQ0LjIgMC04MC0zNS44LTgwLTgwczM1LjgtODAgODAtODBzODAgMzUuOCA4MCA4MGMwIDYuNi0uOCAxMi45LTIuMyAxOS4xbDUwLjEtNDAuOC0zMC4zLTE5LjYgMTUuNi03Mi43TDIwMC40IDYyLjQgMTYwIDB6bTQ4IDE2MGE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwem0yMDctNTAuN2wtMTUtMTItMTUgMTItMjAwIDE2MC0xOC43IDE1IDMwIDM3LjUgMTguNy0xNSA5LTcuMkwyMjQgNDg4bDAgMjQgMjQgMCAzMDQgMCAyNCAwIDAtMjQgMC0xODguNSA5IDcuMiAxOC43IDE1IDMwLTM3LjUtMTguNy0xNS0yMDAtMTYwek01MjggMjYxLjFMNTI4IDQ2NGwtMjU2IDAgMC0yMDIuOUw0MDAgMTU4LjcgNTI4IDI2MS4xek0zNTIgMjg4bDAgOTYgOTYgMCAwLTk2LTk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-day](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-day.svg)
  */
 const HouseDay: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hands-clapping` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-clapping?s=sharp-solid hands-clapping}
- * @preview ![hands-clapping](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDE2bDAgNjQgMCAxNi0zMiAwIDAtMTYgMC02NCAwLTE2IDMyIDAgMCAxNnptLTk4LjcgNy4xbDMyIDQ4IDguOSAxMy4zLTI2LjYgMTcuOC04LjktMTMuMy0zMi00OC04LjktMTMuM0wyMjguNCA5LjhsOC45IDEzLjN6TTE1MiAxMDIuMWwxNyAxNyAxNTEgMTUxIDAtODYuMSAwLTI0IDI0IDAgMTYgMCAyNCAwIDAgMjQgMCAxNjEuNmMwIDU3LjEtMzAgMTEwLTc4LjkgMTM5LjRjLTY0IDM4LjQtMTQ1LjggMjguMy0xOTguNS0yNC40TDcgMzYxbC0xNy0xN0wyNCAzMTAuMWwxNyAxNyA2NCA2NEwxMjcgMzY5IDIzIDI2NWwtMTctMTdMNDAgMjE0LjFsMTcgMTdMMTYxIDMzNSAxODMgMzEzIDU1IDE4NWwtMTctMTdMNzIgMTM0LjFsMTcgMTdMMjE3IDI3OSAyMzkgMjU3IDEzNSAxNTNsLTE3LTE3TDE1MiAxMDIuMXpNNDMzLjEgNDg0LjljLTI0LjIgMTQuNS01MC45IDIyLjEtNzcuNyAyMy4xYzQ4LjEtMzkuNiA3Ni42LTk5IDc2LjYtMTYyLjRsMC05MS41IDE2IDE2IDAtODYuMSAwLTI0IDI0IDAgMTYgMCAyNCAwIDAgMjQgMCAxNjEuNmMwIDU3LjEtMzAgMTEwLTc4LjkgMTM5LjR6TTQxMS42IDkuOGwyNi42IDE3LjgtOC45IDEzLjMtMzIgNDgtOC45IDEzLjNMMzYxLjggODQuNGw4LjktMTMuMyAzMi00OCA4LjktMTMuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hands-clapping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hands-clapping.svg)
  */
 const HandsClapping: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-downcast-sweat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-downcast-sweat?s=sharp-solid face-downcast-sweat}
- * @preview ![face-downcast-sweat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMEw4Ni40IDUxLjJjMiAyLjcgMy43IDUuNiA1LjEgOC42Qzk0LjUgNjYuMSA5NiA3MyA5NiA4MGMwIDkuOS0zIDE5LjItOC4yIDI2LjhDNzkuMiAxMTkuNiA2NC42IDEyOCA0OCAxMjhjLTQuNCAwLTguNy0uNi0xMi44LTEuN2MwIDAgMCAwIDAgMEMxNC45IDEyMC43IDAgMTAyLjEgMCA4MEMwIDY5LjYgMy40IDU5LjUgOS42IDUxLjJMNDggMHptODAgODBjMC0xMy45LTMuNi0yNy40LTEwLjQtMzkuNEMxNTcuNSAxNC45IDIwNSAwIDI1NiAwQzM5Ny40IDAgNTEyIDExNC42IDUxMiAyNTZzLTExNC42IDI1Ni0yNTYgMjU2UzAgMzk3LjQgMCAyNTZjMC0zNS44IDcuMy02OS45IDIwLjYtMTAwLjhjOC41IDMuMSAxNy44IDQuOCAyNy40IDQuOGM0NC4yIDAgODAtMzUuOCA4MC04MHpNMzE2LjEgNDEwLjdsMTAuNyAxMS45IDIzLjgtMjEuNC0xMC43LTExLjlDMzIzLjggMzcxLjQgMjk1LjcgMzUyIDI1NiAzNTJzLTY3LjggMTkuNC04My45IDM3LjNsLTEwLjcgMTEuOSAyMy44IDIxLjQgMTAuNy0xMS45YzExLjctMTMgMzEuNi0yNi43IDYwLjEtMjYuN3M0OC40IDEzLjcgNjAuMSAyNi43ek05NiAyNTZsMCAzMiAxNiAwIDk2IDAgMTYgMCAwLTMyLTE2IDAtOTYgMC0xNiAwem0yMDggMGwtMTYgMCAwIDMyIDE2IDAgOTYgMCAxNiAwIDAtMzItMTYgMC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-downcast-sweat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-downcast-sweat.svg)
  */
 const FaceDowncastSweat: typeof Icon = x => (
     <Icon {...x}>

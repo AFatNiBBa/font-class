@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clipboard-list` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-list?s=sharp-solid clipboard-list}
- * @preview ![clipboard-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTAxLjUgNjRDMTE0LjYgMjYuNyAxNTAuMiAwIDE5MiAwczc3LjQgMjYuNyA5MC41IDY0TDM4NCA2NGwwIDQ0OEwwIDUxMiAwIDY0bDEwMS41IDB6TTIyNCA5NmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwek0xNjAgMzUybDAgMzIgMTYgMCAxMjggMCAxNiAwIDAtMzItMTYgMC0xMjggMC0xNiAwek05NiAzOTJhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em02NC0xMzZsMCAzMiAxNiAwIDEyOCAwIDE2IDAgMC0zMi0xNiAwLTEyOCAwLTE2IDB6TTk2IDI5NmEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clipboard-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/clipboard-list.svg)
  */
 const ClipboardList: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

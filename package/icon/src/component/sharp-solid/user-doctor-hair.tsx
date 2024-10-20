@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-doctor-hair` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-doctor-hair?s=sharp-solid user-doctor-hair}
- * @preview ![user-doctor-hair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDE0NGwwLTE2YzAtMTEuNC0yLjQtMjIuMi02LjctMzJMMjU2IDk2IDI0MCA4MGwtMzIgMzItNjIuNCAwYy0xIDUuMi0xLjYgMTAuNS0xLjYgMTZsMCAxNmMwIDQ0LjIgMzUuOCA4MCA4MCA4MHM4MC0zNS44IDgwLTgwek0yMjQgMGM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOGwwIDE2YzAgNzAuNy01Ny4zIDEyOC0xMjggMTI4cy0xMjgtNTcuMy0xMjgtMTI4bDAtMTZDOTYgNTcuMyAxNTMuMyAwIDIyNCAwek0xNjAgMzcwLjNsMC01MC4zIDEyOCAwIDAgNDJjLTI3LjYgNy4xLTQ4IDMyLjItNDggNjJsMCA0MCAwIDE2IDE2IDAgMTYgMCAxNiAwIDAtMzItMTYgMCAwLTI0YzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJsMCAyNC0xNiAwIDAgMzIgMTYgMCAxNiAwIDE2IDAgMC0xNiAwLTQwYzAtMjkuOC0yMC40LTU0LjktNDgtNjJsMC00MiA4MCAwIDQ4IDE5MkwwIDUxMiA0OCAzMjBsODAgMCAwIDUwLjNjLTIzLjEgNi45LTQwIDI4LjMtNDAgNTMuN2MwIDMwLjkgMjUuMSA1NiA1NiA1NnM1Ni0yNS4xIDU2LTU2YzAtMjUuNC0xNi45LTQ2LjgtNDAtNTMuN3pNMTIwIDQyNGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-doctor-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-doctor-hair.svg)
  */
 const UserDoctorHair: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

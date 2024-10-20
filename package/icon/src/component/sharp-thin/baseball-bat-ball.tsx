@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `baseball-bat-ball` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baseball-bat-ball?s=sharp-thin baseball-bat-ball}
- * @preview ![baseball-bat-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA4LjkgNy4xbC01LjctNS43LTUuNyA1LjdMMjE4LjMgMTg2LjNsLS42IC42LS41IC44TDEyMS43IDMzOSAyOCA0MzIuN2wtOS41LTkuNS01LjctNS43TDEuNSA0MjguOGw1LjcgNS43IDcwLjQgNzAuNCA1LjcgNS43IDExLjMtMTEuMy01LjctNS43TDc5LjMgNDg0IDE3MyAzOTAuM2wxNTEuMi05NS41IC44LS41IC42LS42TDUwNC45IDExNC41bDUuNy01LjctNS43LTUuNy05Ni05NnpNMzkuMyA0NDRMMTI0IDM1OS4zIDE1Mi43IDM4OCA2OCA0NzIuNyAzOS4zIDQ0NHptOTUuOC05Ni4yTDIzMC4zIDE5NyA0MDMuMiAyNC4xbDg0LjcgODQuN0wzMTUgMjgxLjcgMTY0LjIgMzc2LjlsLTI5LjEtMjkuMXpNMzY4IDQzMmE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6bTE0NCAwYTgwIDgwIDAgMSAwIC0xNjAgMCA4MCA4MCAwIDEgMCAxNjAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![baseball-bat-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/baseball-bat-ball.svg)
  */
 const BaseballBatBall: typeof Icon = x => (
     <Icon {...x}>

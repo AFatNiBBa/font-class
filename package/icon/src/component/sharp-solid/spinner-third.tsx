@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spinner-third` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-third?s=sharp-solid spinner-third}
- * @preview ![spinner-third](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc3LjcgMzg0YzIxLjgtMzcuNyAzNC4zLTgxLjQgMzQuMy0xMjhDNTEyIDExNC42IDM5Ny40IDAgMjU2IDBsMCA2NGMxMDYgMCAxOTIgODYgMTkyIDE5MmMwIDM1LTkuNCA2Ny44LTI1LjcgOTZsNTUuNCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![spinner-third](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/spinner-third.svg)
  */
 const SpinnerThird: typeof Icon = x => (
     <Icon {...x}>

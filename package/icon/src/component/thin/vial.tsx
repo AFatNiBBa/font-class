@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vial` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vial?s=thin vial}
- * @preview ![vial](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIyLjMgMi4zYzMuMS0zLjEgOC4yLTMuMSAxMS4zIDBsMjQgMjQgMTI4IDEyOCAyNCAyNGMzLjEgMy4xIDMuMSA4LjIgMCAxMS4zcy04LjIgMy4xLTExLjMgMEw0ODAgMTcxLjNsLTk4LjMgOTguM0wxNjguMiA0ODMuMUMxNDkuNyA1MDEuNiAxMjQuNiA1MTIgOTguNSA1MTJDNDQuMSA1MTIgMCA0NjcuOSAwIDQxMy41YzAtMjYuMSAxMC40LTUxLjIgMjguOS02OS43bDg1LjUtODUuNUwzNDAuNyAzMiAzMjIuMyAxMy43Yy0zLjEtMy4xLTMuMS04LjIgMC0xMS4zem0yOS43IDQxTDEzOS4zIDI1NmwyMzMuNCAwIDk2LTk2TDM1MiA0My4zek0zNTYuNyAyNzJsLTIzMy40IDBMNDAuMiAzNTUuMUMyNC43IDM3MC42IDE2IDM5MS42IDE2IDQxMy41QzE2IDQ1OS4xIDUyLjkgNDk2IDk4LjUgNDk2YzIxLjkgMCA0Mi45LTguNyA1OC4zLTI0LjJMMzU2LjcgMjcyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vial](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/vial.svg)
  */
 const Vial: typeof Icon = x => (
     <Icon {...x}>

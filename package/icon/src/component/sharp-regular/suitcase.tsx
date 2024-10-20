@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `suitcase` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/suitcase?s=sharp-regular suitcase}
- * @preview ![suitcase](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDBMMTI4IDBsMCAyNCAwIDcyTDQ4IDk2IDAgOTZsMCA0OEwwIDQzMmwwIDQ4IDQ4IDAgNDE2IDAgNDggMCAwLTQ4IDAtMjg4IDAtNDgtNDggMC04MCAwIDAtNzIgMC0yNEwzNjAgMCAxNTIgMHpNMzM2IDk2TDE3NiA5NmwwLTQ4IDE2MCAwIDAgNDh6TTE1MiAxNDRsMjA4IDAgOCAwIDAgMjg4LTIyNCAwIDAtMjg4IDggMHpNNDggMTQ0bDQ4IDAgMCAyODgtNDggMCAwLTI4OHpNNDY0IDQzMmwtNDggMCAwLTI4OCA0OCAwIDAgMjg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![suitcase](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/suitcase.svg)
  */
 const Suitcase: typeof Icon = x => (
     <Icon {...x}>

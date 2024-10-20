@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `racquet` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/racquet?s=light racquet}
- * @preview ![racquet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ5IDMyYzM1LjUgMCA2OSAxMi4yIDkzLjkgMzcuMVM0ODAgMTI3LjUgNDgwIDE2M2MwIDQ1LjEtMTkuNiA5My40LTU3LjYgMTMxLjRjLTY4LjEgNjguMS0xNjguOSA3Ni45LTIyNS4zIDIwLjVDMTcyLjIgMjkwIDE2MCAyNTYuNSAxNjAgMjIxYzAtNDUuMSAxOS42LTkzLjQgNTcuNi0xMzEuNFMzMDMuOSAzMiAzNDkgMzJ6bTAtMzJjLTU0LjIgMC0xMTAuNSAyMy40LTE1NCA2Ni45cy02NyA5OS44LTY2LjkgMTU0YzAgMjguMiA2LjQgNTYgMTkuNyA4MC43YzcuOCAxNC40IDcuMiAzMi44LTQuNCA0NC40bC0xMiAxMi00LjctNC43Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMGwtNzIgNzJjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zbDMyIDMyYzEyLjUgMTIuNSAzMi44IDEyLjUgNDUuMyAwbDcyLTcyYzEyLjUtMTIuNSAxMi41LTMyLjggMC00NS4zbC00LjctNC43IDExLjktMTEuOWMxMS42LTExLjYgMzAtMTIuMiA0NC40LTQuM2M3Mi41IDM5LjQgMTY5LjkgMTcuNSAyMzQuNy00Ny40YzQzLjYtNDMuNiA2Ny05OS44IDY2LjktMTU0YzAtNDIuOC0xNC44LTg0LjktNDYuNS0xMTYuNlMzOTEuOCAwIDM0OSAwek0xMDQgMzc2bDMyIDMyTDY0IDQ4MCAzMiA0NDhsNzItNzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![racquet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/racquet.svg)
  */
 const Racquet: typeof Icon = x => (
     <Icon {...x}>

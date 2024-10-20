@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-seat` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-seat?s=sharp-regular person-seat}
- * @preview ![person-seat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDEyOGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bS0zMiAzMmwtMjQgMCAwIDI0IDAgMTIwYzAgMzAuOSAyNS4xIDU2IDU2IDU2bDQwIDAgNzUgMCAxMy4yIDk5LjJMMjc1IDQ4MGwyMSAwIDY0IDAgMjQgMCAwLTQ4LTI0IDAtNDMgMC0xMy4yLTk5LjJMMzAxIDMxMmwtMjEgMC03MiAwIDAtNTYgNTYgMCAyNCAwIDAtNDgtMjQgMC01NiAwIDAtMjQgMC0yNC0yNCAwLTcyIDB6bTQ4IDQ4bDAgMTA0LTE2IDBjLTQuNCAwLTgtMy42LTgtOGwwLTk2IDI0IDB6TTQ4IDE1MmwwLTI0TDAgMTI4bDAgMjRMMCA0MjRsMCAyNCAyNCAwIDE3NiAwIDI0IDAgMC00OC0yNCAwTDQ4IDQwMGwwLTI0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-seat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-seat.svg)
  */
 const PersonSeat: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

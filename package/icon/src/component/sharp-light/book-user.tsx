@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-user` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-user?s=sharp-light book-user}
- * @preview ![book-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMNDMyIDBsMTYgMCAwIDE2IDAgMzg0IDAgMTYtMTYgMC0xNiAwIDAgNjQgMTYgMCAxNiAwIDAgMzItMTYgMEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0YzAgMCAwIDAgMCAwTDAgNjR6TTY0IDQxNmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmwzMjAgMCAwLTY0TDY0IDQxNnpNMzIgMzkyLjZjOS40LTUuNCAyMC4zLTguNiAzMi04LjZsMzUyIDAgMC0zNTJMNjQgMzJDNDYuMyAzMiAzMiA0Ni4zIDMyIDY0bDAgMzI4LjZ6TTI0MCAxNzZhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0em0wLTk2YTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4ek0xNjEuNyAzMzZMMTI4IDMzNmwzMi05NiAxNjAgMCAzMiA5Ni0zMy43IDAtMjEuMy02NC0xMTMuOSAwLTIxLjMgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/book-user.svg)
  */
 const BookUser: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

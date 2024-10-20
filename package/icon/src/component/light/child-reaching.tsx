@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `child-reaching` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child-reaching?s=light child-reaching}
- * @preview ![child-reaching](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bS05NiAwYTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDEyOCA2NHpNMTEyIDE4OGMtMjcuOC0xNC45LTUxLjQtMzcuNC02Ny41LTY1LjhMMzQuMSAxMDMuOWMtNC40LTcuNy0xLjctMTcuNSA2LTIxLjhzMTcuNS0xLjcgMjEuOCA2bDEwLjQgMTguM2MyNC40IDQzIDcwLjEgNjkuNiAxMTkuNSA2OS42YzQ4LjkgMCA5NC4xLTI2IDExOC43LTY4LjJsMTEuNi0xOS45YzQuNS03LjYgMTQuMi0xMC4yIDIxLjktNS44czEwLjIgMTQuMiA1LjggMjEuOWwtMTEuNiAxOS45Yy0xNiAyNy41LTM5LjEgNDkuNC02Ni4yIDYzLjlMMjcyIDQ5NmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTExMi05NiAwIDAgMTEyYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMzA4em0zMiAxMy4xTDE0NCAzNTJsOTYgMCAwLTE1MWMtMTUuNCA0LjYtMzEuNiA3LTQ4LjEgN2MtMTYuNCAwLTMyLjUtMi40LTQ3LjktNi45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![child-reaching](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/child-reaching.svg)
  */
 const ChildReaching: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

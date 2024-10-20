@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `poll-people` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poll-people?s=sharp-solid poll-people}
- * @preview ![poll-people](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQ4QTQ4IDQ4IDAgMSAwIDMyIDQ4YTQ4IDQ4IDAgMSAwIDk2IDB6TTU3NiA5NmwwIDMyLTk2IDAgMC0zMiA5NiAwek0yODggMzJsLTY0IDAgMCA2NCAwIDMyIDAgNjQgNjQgMCAyODggMCA2NCAwIDAtNjQgMC0zMiAwLTY0LTY0IDBMMjg4IDMyek01NzYgMzg0bDAgMzItMjI0IDAgMC0zMiAyMjQgMHpNMjg4IDMyMGwtNjQgMCAwIDY0IDAgMzIgMCA2NCA2NCAwIDI4OCAwIDY0IDAgMC02NCAwLTMyIDAtNjQtNjQgMC0yODggMHpNMTYwIDIyNGwtMzItOTYtOTYgMEwwIDIyNGwxNjAgMHpNMTI4IDMzNmE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwem0zMiAxNzZsLTMyLTk2LTk2IDBMMCA1MTJsMTYwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![poll-people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/poll-people.svg)
  */
 const PollPeople: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

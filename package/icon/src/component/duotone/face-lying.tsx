@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `face-lying` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-lying?s=duotone face-lying}
- * @preview ![face-lying](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NkMwIDM5Ny40IDExNC42IDUxMiAyNTYgNTEyYzEwOCAwIDIwMC40LTY2LjkgMjM4LTE2MS41Yy00LjUgMS05LjIgMS41LTE0IDEuNWwtMTI4IDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsMTI4IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJsLTE5MiAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDE5MiAwYzExLjIgMCAyMS43IDIuOSAzMC45IDcuOUM0OTguOCAxMDEuOCAzODkuMyAwIDI1NiAwQzExNC42IDAgMCAxMTQuNiAwIDI1NnptMjA4LjQtODBhMzIgMzIgMCAxIDEgLTY0IDAgMzIgMzIgMCAxIDEgNjQgMHpNMTYzLjIgMzc0LjRDMTgwLjcgMzUxLjEgMjA4LjYgMzM2IDI0MCAzMzZjMTMuNiAwIDI2LjYgMi44IDM4LjQgOGM4LjEgMy41IDExLjggMTMgOC4zIDIxLjFzLTEzIDExLjgtMjEuMSA4LjNjLTcuOC0zLjQtMTYuNS01LjMtMjUuNi01LjNjLTIwLjkgMC0zOS41IDEwLTUxLjIgMjUuNmMtNS4zIDcuMS0xNS4zIDguNS0yMi40IDMuMnMtOC41LTE1LjMtMy4yLTIyLjR6TTM2OC40IDE3NmEzMiAzMiAwIDEgMSAtNjQgMCAzMiAzMiAwIDEgMSA2NCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTc2LjQgMjA4YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMTYwIDBhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-lying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-lying.svg)
  */
 const FaceLying: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512c108 0 200.4-66.9 238-161.5c-4.5 1-9.2 1.5-14 1.5l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-192 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l192 0c11.2 0 21.7 2.9 30.9 7.9C498.8 101.8 389.3 0 256 0C114.6 0 0 114.6 0 256zm208.4-80a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM163.2 374.4C180.7 351.1 208.6 336 240 336c13.6 0 26.6 2.8 38.4 8c8.1 3.5 11.8 13 8.3 21.1s-13 11.8-21.1 8.3c-7.8-3.4-16.5-5.3-25.6-5.3c-20.9 0-39.5 10-51.2 25.6c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4zM368.4 176a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-            <path d="M176.4 208a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
+        <path d="M176.4 208a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
     </Icon>
 );
 

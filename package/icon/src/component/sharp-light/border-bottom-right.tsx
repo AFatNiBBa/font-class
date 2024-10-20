@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `border-bottom-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-bottom-right?s=sharp-light border-bottom-right}
- * @preview ![border-bottom-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDY0bDAtMTYtMzIgMCAwIDE2IDAgMzg0TDMyIDQ0OGwtMTYgMCAwIDMyIDE2IDAgNDAwIDAgMTYgMCAwLTE2IDAtNDAwek0zNDQgODhsMC00OC00OCAwIDAgNDggNDggMHpNMTUyIDg4bDAtNDgtNDggMCAwIDQ4IDQ4IDB6bTk2LTQ4bC00OCAwIDAgNDggNDggMCAwLTQ4ek01NiA4OGwwLTQ4TDggNDAgOCA4OGw0OCAwem0wIDE0NEw4IDIzMmwwIDQ4IDQ4IDAgMC00OHptMC00OGwwLTQ4TDggMTM2bDAgNDggNDggMHptMCAxNDRMOCAzMjhsMCA0OCA0OCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![border-bottom-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/border-bottom-right.svg)
  */
 const BorderBottomRight: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cat-space` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cat-space?s=sharp-solid cat-space}
- * @preview ![cat-space](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDE2MGMwIDcwLjctNTcuMyAxMjgtMTI4IDEyOHMtMTI4LTU3LjMtMTI4LTEyOGMwLTMyLjUgMTIuMS02Mi4xIDMyLTg0LjdsMCA4NC43YzAgNTMgNDMgOTYgOTYgOTZzOTYtNDMgOTYtOTZsMC04NC43YzE5LjkgMjIuNiAzMiA1Mi4yIDMyIDg0Ljd6TTQxNiA5NkwzNzQuOSA1NC45QzM5NS42IDQwLjUgNDIwLjggMzIgNDQ4IDMyczUyLjQgOC41IDczLjEgMjIuOUw0ODAgOTZsLTY0IDB6bTY0IDIyMC44QzU1MyAzMDIgNjA4IDIzNy40IDYwOCAxNjBDNjA4IDcxLjYgNTM2LjQgMCA0NDggMFMyODggNzEuNiAyODggMTYwYzAgMTEuNyAxLjMgMjMuMSAzLjYgMzQuMWMtNTQuOSA4LjEtMTAyLjIgMzkuNS0xMzEuNiA4My44bDAtODUuOGMwLTUzLTQzLTk2LTk2LTk2TDMyIDk2bDAgNjQgMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDI4OCAwIDMyIDMyIDAgMjA4IDAgMzIgMCAwLTY0LTMyIDAtNTYgMEw0MTYgMzM5LjIgNDE2IDQ4MGwwIDMyIDY0IDAgMC0zMiAwLTE2My4yek00MDAgMTYwYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bTgwLTE2YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnpNMjQxLjMgNDYuN0wyMjQgMCAyMDYuNyA0Ni43IDE2MCA2NGw0Ni43IDE3LjNMMjI0IDEyOGwxNy4zLTQ2LjdMMjg4IDY0IDI0MS4zIDQ2Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cat-space](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cat-space.svg)
  */
 const CatSpace: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

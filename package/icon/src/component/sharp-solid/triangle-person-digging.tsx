@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `triangle-person-digging` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle-person-digging?s=sharp-solid triangle-person-digging}
- * @preview ![triangle-person-digging](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDMyTDY0IDQ4MGw1MTIgMEwzMjAgMzJ6TTI4NS45IDIyNS4xbDQwIDE2IDUuNiAyLjMgMi43IDUuNCAyNy42IDU1LjMgNTIuMSAzMS4zTDQzMiAzMDRsNjQgMTEyLTEyOCAwIDMwLjItNTIuOC01Ni43LTM0LTg1LjctNTEuNC0xNC40LTguNiA5LjMtMTQgMTYtMjQgNy4yLTEwLjggMTIuMSA0Ljh6TTI4OCAxODRhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHpNMjM3LjIgMzA3LjRsMTQuOSA5LjMgNjAuMyAzNy43IDcuNSA0LjcgMCA4LjkgMCAzMiAwIDE2LTE2IDAtMTYgMCAwLTE2IDAtMjMuMS0zNy45LTIzLjdMMjE4LjkgNDE2bC0zNS43IDAgMi42LTUuMSA0My43LTg3LjcgNy45LTE1Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![triangle-person-digging](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/triangle-person-digging.svg)
  */
 const TrianglePersonDigging: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

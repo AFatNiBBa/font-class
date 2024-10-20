@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trowel-bricks` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trowel-bricks?s=sharp-solid trowel-bricks}
- * @preview ![trowel-bricks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE1MmwwIDEwNC00OCAwTDAgMTI4IDIwOCAwbDQ4IDAgMCAxMDQgODggMCAwLTI0IDE2OCAwIDAgOTYtMTY4IDAgMC0yNC04OCAwem0zMiA3MmwyMjQgMCAwIDEyOC0yMjQgMCAwLTEyOHpNMTYwIDM4NGwwIDEyOEwwIDUxMiAwIDM4NGwxNjAgMHptMzUyIDBsMCAxMjgtMzIwIDAgMC0xMjggMzIwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trowel-bricks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/trowel-bricks.svg)
  */
 const TrowelBricks: typeof Icon = x => (
     <Icon {...x}>

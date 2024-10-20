@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lira-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lira-sign?s=solid lira-sign}
- * @preview ![lira-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDE2MC40YzAtMzUuNSAyOC44LTY0LjQgNjQuNC02NC40YzYuOSAwIDEzLjggMS4xIDIwLjQgMy4zbDgxLjIgMjcuMWMxNi44IDUuNiAzNC45LTMuNSA0MC41LTIwLjJzLTMuNS0zNC45LTIwLjItNDAuNUwyMTcgMzguNmMtMTMuMS00LjQtMjYuOC02LjYtNDAuNi02LjZDMTA1LjUgMzIgNDggODkuNSA0OCAxNjAuNEw0OCAxOTJsLTE2IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsMTYgMCAwIDMyLTE2IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsMTQgMGMtMi4yIDEwLjUtNi4xIDIwLjYtMTEuNyAyOS45TDQuNiA0MzEuNWMtNS45IDkuOS02LjEgMjIuMi0uNCAzMi4yUzIwLjUgNDgwIDMyIDQ4MGwyNTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMkw4OC41IDQxNmwuNy0xLjFjMTEuNi0xOS4zIDE4LjktNDAuNyAyMS42LTYyLjlMMjI0IDM1MmMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtMTEyIDAgMC0zMiAxMTIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtMTEyIDAgMC0zMS42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lira-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/lira-sign.svg)
  */
 const LiraSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

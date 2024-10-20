@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `upwork` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/upwork?s=brands upwork}
- * @preview ![upwork](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDEgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk0LjcgMjk1LjZjLTUwLjMgMC04My41LTM4LjktOTIuOC01My45YzExLjktOTUuMyA0Ni44LTEyNS40IDkyLjgtMTI1LjRjNDUuNSAwIDgwLjkgMzYuNCA4MC45IDg5LjdzLTM1LjQgODkuNy04MC45IDg5Ljd6bTAtMjM3LjhjLTgxLjkgMC0xMjcuOCA1My40LTE0MSAxMDguNGMtMTQuOS0yOC0yNS45LTY1LjUtMzQuNS0xMDAuM0gyMDZ2MTQxYzAgNTEuMS0yMy4zIDg5LTY4LjggODlzLTcxLjYtMzcuOC03MS42LTg5bC41LTE0MUguOHYxNDFjMCA0MS4xIDEzLjMgNzguNCAzNy42IDEwNS4xYzI1IDI3LjUgNTkuMiA0MS44IDk4LjggNDEuOGM3OC44IDAgMTMzLjgtNjAuNCAxMzMuOC0xNDYuOVYxMTIuMWM4LjIgMzEuMiAyNy44IDkxLjEgNjUuMyAxNDMuNmwtMzUgMTk5LjRoNjYuNGwyMy4xLTE0MS4zYzcuNiA2LjMgMTUuNyAxMiAyNC4yIDE3YzIyLjIgMTQgNDcuNyAyMS45IDczLjkgMjIuOGMwIDAgNCAuMiA2LjEgLjJjODEuMiAwIDE0NS45LTYyLjkgMTQ1LjktMTQ3LjhzLTY0LjgtMTQ4LjEtMTQ2LTE0OC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![upwork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/upwork.svg)
  */
 const Upwork: typeof Icon = x => (
     <Icon viewBox="0 0 641 512" {...x}>

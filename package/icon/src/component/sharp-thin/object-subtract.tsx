@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `object-subtract` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-subtract?s=sharp-thin object-subtract}
- * @preview ![object-subtract](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsODAgMEw5NiAwIDE2IDAgMCAwIDAgMTYgMCA5NmwxNiAwIDAtODB6bTIwOCAwbDAtMTZMMTI4IDBsMCAxNiA5NiAwek0xNiAxMjhMMCAxMjhsMCA5NiAxNiAwIDAtOTZ6bTAgMTI4TDAgMjU2bDAgODAgMCAxNiAxNiAwIDgwIDAgMC0xNi04MCAwIDAtODB6bTExMiA5NmwzMiAwIDE2IDAgNDggMCAwLTE2LTQ4IDAtMTYgMC0zMiAwIDAgMTZ6bTMyIDMybDAgMTEyIDAgMTYgMTYgMCAzMjAgMCAxNiAwIDAtMTYgMC0zMjAgMC0xNi0xNiAwLTExMiAwIDAgMTYgMTEyIDAgMCAzMjAtMzIwIDAgMC0xMTItMTYgMHpNMzUyIDE3NmwwLTE2IDAtMzItMTYgMCAwIDMyIDAgMTYgMCA0OCAxNiAwIDAtNDh6bTAtMTYwbDAtMTZMMzM2IDAgMjU2IDBsMCAxNiA4MCAwIDAgODAgMTYgMCAwLTgwek0yNTYgMzM2bDAgMTYgODAgMCAxNiAwIDAtMTYgMC04MC0xNiAwIDAgODAtODAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![object-subtract](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/object-subtract.svg)
  */
 const ObjectSubtract: typeof Icon = x => (
     <Icon {...x}>

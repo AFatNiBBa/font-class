@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-closed` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-closed?s=thin folder-closed}
- * @preview ![folder-closed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQ2NEw2NCA0NjRjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjI0IDQ4MCAwIDAgMjI0YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4em00OC0yODhMMTYgMTc2bDAtODBjMC0yNi41IDIxLjUtNDggNDgtNDhsMTMzLjUgMGMxMi43IDAgMjQuOSA1LjEgMzMuOSAxNC4xbDM1LjkgMzUuOWM5IDkgMjEuMiAxNC4xIDMzLjkgMTQuMUw0NDggMTEyYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMTZ6TTY0IDQ4MGwzODQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTI1NmMwLTM1LjMtMjguNy02NC02NC02NEwzMDEuMyA5NmMtOC41IDAtMTYuNi0zLjQtMjIuNi05LjRMMjQyLjcgNTAuN2MtMTItMTItMjguMy0xOC43LTQ1LjMtMTguN0w2NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![folder-closed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/folder-closed.svg)
  */
 const FolderClosed: typeof Icon = x => (
     <Icon {...x}>

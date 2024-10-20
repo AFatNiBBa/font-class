@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sandwich` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sandwich?s=sharp-solid sandwich}
- * @preview ![sandwich](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NGw1MTIgMCAwIDExMkwwIDE3NiAwIDY0ek0zMjAgMzg0bDk2LTQ4IDMyIDAgNjQgMCAwIDExMkwwIDQ0OCAwIDMzNmwxOTIgMCAzMiAwIDk2IDQ4ek0xNDQuMiAyMDkuMUwyNTYgMjM4LjlsMTExLjgtMjkuOCA4LTIuMSA4IDIgOTYgMjQgMzEgNy44LTE1LjUgNjIuMS0zMS03LjgtODgtMjItMTEyIDI5LjktOC4yIDIuMi04LjItMi4yTDEzNS43IDI3M2wtODggMjItMzEgNy44TDEuMiAyNDAuN2wzMS03LjggOTYtMjQgOC0yIDggMi4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sandwich](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sandwich.svg)
  */
 const Sandwich: typeof Icon = x => (
     <Icon {...x}>

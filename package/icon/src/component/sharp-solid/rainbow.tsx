@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rainbow` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rainbow?s=sharp-solid rainbow}
- * @preview ![rainbow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDk2QzE3OC42IDk2IDY0IDIxMC42IDY0IDM1MmwwIDk2IDAgMzJMMCA0ODBsMC0zMiAwLTk2QzAgMTc1LjMgMTQzLjMgMzIgMzIwIDMyczMyMCAxNDMuMyAzMjAgMzIwbDAgOTYgMCAzMi02NCAwIDAtMzIgMC05NkM1NzYgMjEwLjYgNDYxLjQgOTYgMzIwIDk2em0wIDE5MmMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCA5NiAwIDMyLTY0IDAgMC0zMiAwLTk2YzAtNzAuNyA1Ny4zLTEyOCAxMjgtMTI4czEyOCA1Ny4zIDEyOCAxMjhsMCA5NiAwIDMyLTY0IDAgMC0zMiAwLTk2YzAtMzUuMy0yOC43LTY0LTY0LTY0ek0xNjAgMzUybDAgOTYgMCAzMi02NCAwIDAtMzIgMC05NmMwLTEyMy43IDEwMC4zLTIyNCAyMjQtMjI0czIyNCAxMDAuMyAyMjQgMjI0bDAgOTYgMCAzMi02NCAwIDAtMzIgMC05NmMwLTg4LjQtNzEuNi0xNjAtMTYwLTE2MHMtMTYwIDcxLjYtMTYwIDE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rainbow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/rainbow.svg)
  */
 const Rainbow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

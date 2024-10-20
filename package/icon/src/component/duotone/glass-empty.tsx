@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `glass-empty` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-empty?s=duotone glass-empty}
- * @preview ![glass-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik04LjYgMTAuMkMxNC42IDMuNyAyMy4xIDAgMzIgMEwzNTIgMGM4LjkgMCAxNy40IDMuNyAyMy40IDEwLjJzOS4xIDE1LjIgOC41IDI0LjFMMzU1LjEgNDM3LjdjLTMgNDEuOS0zNy44IDc0LjMtNzkuOCA3NC4zbC0xNjYuNiAwYy00MiAwLTc2LjgtMzIuNC03OS44LTc0LjNMLjEgMzQuM2MtLjYtOC45IDIuNC0xNy42IDguNS0yNC4xek02Ni40IDY0TDkyLjcgNDMzLjFjLjYgOC40IDcuNiAxNC45IDE2IDE0LjlsMTY2LjYgMGM4LjQgMCAxNS40LTYuNSAxNi0xNC45TDMxNy42IDY0IDY2LjQgNjR6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9IiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![glass-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/glass-empty.svg)
  */
 const GlassEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

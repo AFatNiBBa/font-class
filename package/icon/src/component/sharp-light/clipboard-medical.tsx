@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clipboard-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-medical?s=sharp-light clipboard-medical}
- * @preview ![clipboard-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ1LjUgNjhjNS4zLTIwLjcgMjQuMS0zNiA0Ni41LTM2czQxLjIgMTUuMyA0Ni41IDM2bDMuMSAxMkwyNTQgODBsMzQgMCAwIDQ4LTk2IDAtOTYgMCAwLTQ4IDM0IDAgMTIuNCAwIDMuMS0xMnpNMTkyIDBjLTMyLjggMC02MSAxOS44LTczLjMgNDhMODAgNDggNjQgNDhsMCAxNiAwIDE2TDMyIDgwIDAgODBsMCAzMkwwIDQ4MGwwIDMyIDMyIDAgMzIwIDAgMzIgMCAwLTMyIDAtMzY4IDAtMzItMzIgMC0zMiAwIDAtMTYgMC0xNi0xNiAwLTM4LjcgMEMyNTMgMTkuOCAyMjQuOCAwIDE5MiAwek0zMjAgMTQ0bDAtMzIgMzIgMCAwIDM2OEwzMiA0ODBsMC0zNjggMzIgMCAwIDMyIDAgMTYgMTYgMCAxMTIgMCAxMTIgMCAxNiAwIDAtMTZ6TTIwOCA4MGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwek0xNjAgMjA4bC0xNiAwIDAgMTYgMCA0OC00OCAwLTE2IDAgMCAxNiAwIDY0IDAgMTYgMTYgMCA0OCAwIDAgNDggMCAxNiAxNiAwIDY0IDAgMTYgMCAwLTE2IDAtNDggNDggMCAxNiAwIDAtMTYgMC02NCAwLTE2LTE2IDAtNDggMCAwLTQ4IDAtMTYtMTYgMC02NCAwem0xNiA4MGwwLTQ4IDMyIDAgMCA0OCAwIDE2IDE2IDAgNDggMCAwIDMyLTQ4IDAtMTYgMCAwIDE2IDAgNDgtMzIgMCAwLTQ4IDAtMTYtMTYgMC00OCAwIDAtMzIgNDggMCAxNiAwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clipboard-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/clipboard-medical.svg)
  */
 const ClipboardMedical: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

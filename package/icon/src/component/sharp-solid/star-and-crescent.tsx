@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-and-crescent` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-and-crescent?s=sharp-solid star-and-crescent}
- * @preview ![star-and-crescent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI4IDQ4YzQ0LjEgMCA4NSAxMy43IDExOC42IDM3LjFDMzk5LjggMzIuOSAzMzEuNyAwIDI1NiAwQzExNC42IDAgMCAxMTQuNiAwIDI1NlMxMTQuNiA1MTIgMjU2IDUxMmM3NS43IDAgMTQzLjgtMzIuOSAxOTAuNi04NS4xQzQxMyA0NTAuMyAzNzIuMSA0NjQgMzI4IDQ2NGMtMTE0LjkgMC0yMDgtOTMuMS0yMDgtMjA4czkzLjEtMjA4IDIwOC0yMDh6bTk4LjMgMTU3LjhMMzg0IDEyMGwtNDIuMyA4NS44TDI0NyAyMTkuNWw2OC41IDY2LjctMTYuMiA5NC4yTDM4NCAzMzZsODQuNiA0NC41LTE2LjItOTQuMkw1MjEgMjE5LjVsLTk0LjYtMTMuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![star-and-crescent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/star-and-crescent.svg)
  */
 const StarAndCrescent: typeof Icon = x => (
     <Icon {...x}>

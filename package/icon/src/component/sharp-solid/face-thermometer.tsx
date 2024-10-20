@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-thermometer` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-thermometer?s=sharp-solid face-thermometer}
- * @preview ![face-thermometer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQzLjQgMjczLjZDNTM0LjQgNDA2LjggNDIzLjUgNTEyIDI4OCA1MTJDMTQ2LjYgNTEyIDMyIDM5Ny40IDMyIDI1NlMxNDYuNiAwIDI4OCAwQzM5MS44IDAgNDgxLjIgNjEuOCA1MjEuNCAxNTAuN2wtNiA1LjhMMzM4IDMyOC41Yy0xNC43LTUuMi0zMS4zLTguNS01MC04LjVjLTcxLjYgMC0xMTMuNyA0Ny43LTEyNi4zIDcyLjhsMjguNiAxNC4zYzguNy0xNy41IDQxLjMtNTUuMiA5Ny43LTU1LjJzODguOSAzNy43IDk3LjcgNTUuMmwyOC42LTE0LjNjLTItNC00LjgtOC43LTguMy0xMy42bDEwLjMtMTAtMjQuOC0yNC44TDM4MyAzMzZsMTctMTcgOC41IDguNSAyNS4xIDI1LjEgMTUuMy0xNC44LTI1LjQtMjUuNEw0MTUgMzA0bDE3LTE3IDguNSA4LjUgMjUuNyAyNS43IDE1LjMtMTQuOC0yNS45LTI1LjlMNDQ3IDI3MmwxNy0xNyA4LjUgOC41IDI2LjIgMjYuMkw1MTQgMjc1bC0yNi41LTI2LjVMNDc5IDI0MGwxNy0xNyA4LjUgOC41IDI2LjggMjYuOCAxMi42LTEyLjFjLjEgMy4zIC4yIDYuNiAuMiA5LjljMCA0LjktLjEgOS44LS40IDE0LjZMNTQ1IDI3MmwtMS42IDEuNnpNMjA4LjQgMjQwYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMTkyLTMyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-thermometer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-thermometer.svg)
  */
 const FaceThermometer: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

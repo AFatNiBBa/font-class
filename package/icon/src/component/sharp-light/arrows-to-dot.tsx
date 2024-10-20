@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-to-dot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-dot?s=sharp-light arrows-to-dot}
- * @preview ![arrows-to-dot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDE2bDAtMTZMMjQwIDBsMCAxNiAwIDEyMS40TDE4Ny4zIDg0LjcgMTc2IDczLjQgMTUzLjQgOTZsMTEuMyAxMS4zIDgwIDgwTDI1NiAxOTguNmwxMS4zLTExLjMgODAtODBMMzU4LjYgOTYgMzM2IDczLjQgMzI0LjcgODQuNyAyNzIgMTM3LjQgMjcyIDE2em0xNiAyNDBhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptNzAuNiAxNjBsLTExLjMtMTEuMy04MC04MEwyNTYgMzEzLjRsLTExLjMgMTEuMy04MCA4MEwxNTMuNCA0MTYgMTc2IDQzOC42bDExLjMtMTEuM0wyNDAgMzc0LjYgMjQwIDQ5NmwwIDE2IDMyIDAgMC0xNiAwLTEyMS40IDUyLjcgNTIuN0wzMzYgNDM4LjYgMzU4LjYgNDE2ek05NiAxNTMuNEw3My40IDE3NmwxMS4zIDExLjNMMTM3LjQgMjQwIDE2IDI0MCAwIDI0MGwwIDMyIDE2IDAgMTIxLjQgMEw4NC43IDMyNC43IDczLjQgMzM2IDk2IDM1OC42bDExLjMtMTEuMyA4MC04MEwxOTguNiAyNTZsLTExLjMtMTEuMy04MC04MEw5NiAxNTMuNHptMzIwIDBsLTExLjMgMTEuMy04MCA4MEwzMTMuNCAyNTZsMTEuMyAxMS4zIDgwIDgwTDQxNiAzNTguNiA0MzguNiAzMzZsLTExLjMtMTEuM0wzNzQuNiAyNzIgNDk2IDI3MmwxNiAwIDAtMzItMTYgMC0xMjEuNCAwIDUyLjctNTIuN0w0MzguNiAxNzYgNDE2IDE1My40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-to-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-to-dot.svg)
  */
 const ArrowsToDot: typeof Icon = x => (
     <Icon {...x}>

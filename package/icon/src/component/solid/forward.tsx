@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `forward` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward?s=solid forward}
- * @preview ![forward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTIuNSA0NDAuNmMtOS41IDcuOS0yMi44IDkuNy0zNC4xIDQuNFMwIDQyOC40IDAgNDE2TDAgOTZDMCA4My42IDcuMiA3Mi4zIDE4LjQgNjdzMjQuNS0zLjYgMzQuMSA0LjRMMjI0IDIxNC4zbDAgNDEuNyAwIDQxLjdMNTIuNSA0NDAuNnpNMjU2IDM1MmwwLTk2IDAtMTI4IDAtMzJjMC0xMi40IDcuMi0yMy43IDE4LjQtMjlzMjQuNS0zLjYgMzQuMSA0LjRsMTkyIDE2MGM3LjMgNi4xIDExLjUgMTUuMSAxMS41IDI0LjZzLTQuMiAxOC41LTExLjUgMjQuNmwtMTkyIDE2MGMtOS41IDcuOS0yMi44IDkuNy0zNC4xIDQuNHMtMTguNC0xNi42LTE4LjQtMjlsMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![forward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/forward.svg)
  */
 const Forward: typeof Icon = x => (
     <Icon {...x}>

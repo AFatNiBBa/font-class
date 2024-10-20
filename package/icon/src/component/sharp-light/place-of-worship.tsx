@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `place-of-worship` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/place-of-worship?s=sharp-light place-of-worship}
- * @preview ![place-of-worship](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE3NmwtNjQgNDggMCAyNTYtMzIgMC05NiAwIDAtMTI1LjkgOTYtNTcuNiAwLTM3LjNMMCAzMzYgMCA0ODBsMCAzMiAzMiAwIDEyOCAwczAgMCAwIDBsMzIgMCA2NCAwIDMyIDAgNjQgMCAzMiAwIDY0IDAgMzIgMHMwIDAgMCAwbDEyOCAwIDMyIDAgMC0zMiAwLTE0NEw1MTIgMjU5LjJsMCAzNy4zIDk2IDU3LjZMNjA4IDQ4MGwtOTYgMC0zMiAwIDAtMjU2LTY0LTQ4IDAtODBMMzQyLjYgMjIuNiAzMjAgMCAyOTcuNCAyMi42IDIyNCA5NmwwIDgwek00NDggNDgwbC02NCAwIDAtOTZjMC0zNS4zLTI4LjctNjQtNjQtNjRzLTY0IDI4LjctNjQgNjRsMCA5Ni02NCAwIDAtMjQwIDUxLjItMzguNEwyNTYgMTkybDAtMTYgMC02Ni43IDY0LTY0IDY0IDY0IDAgNjYuNyAwIDE2IDEyLjggOS42TDQ0OCAyNDBsMCAyNDB6bS05NiAwbC02NCAwIDAtOTZjMC0xNy43IDE0LjMtMzIgMzItMzJzMzIgMTQuMyAzMiAzMmwwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![place-of-worship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/place-of-worship.svg)
  */
 const PlaceOfWorship: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

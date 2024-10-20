@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-code` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-code?s=sharp-solid square-code}
- * @preview ![square-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDMyTDAgMzIgMCA0ODBsNDQ4IDAgMC00NDh6TTE3NyAyMDlsLTQ3IDQ3IDQ3IDQ3IDE3IDE3TDE2MCAzNTMuOWwtMTctMTdMNzkgMjczbC0xNy0xNyAxNy0xNyA2NC02NCAxNy0xN0wxOTMuOSAxOTJsLTE3IDE3ek0zMDUgMTc1bDY0IDY0IDE3IDE3LTE3IDE3LTY0IDY0LTE3IDE3TDI1NC4xIDMyMGwxNy0xNyA0Ny00Ny00Ny00Ny0xNy0xN0wyODggMTU4LjFsMTcgMTd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-code.svg)
  */
 const SquareCode: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

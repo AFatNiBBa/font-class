@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-pdf` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-pdf?s=sharp-solid file-pdf}
- * @preview ![file-pdf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDIyNCAwbDAgMTYwIDE2MCAwIDAgMTQ0LTI3MiAwIDAgMjA4TDAgNTEyIDAgMHpNMzg0IDEyOGwtMTI4IDBMMjU2IDAgMzg0IDEyOHpNMTc2IDM1MmwzMiAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2bC0xNiAwIDAgMzIgMCAxNi0zMiAwIDAtMTYgMC00OCAwLTgwIDAtMTYgMTYgMHptMzIgODBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTE2IDAgMCA0OCAxNiAwem05Ni04MGwzMiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTMyIDAtMTYgMCAwLTE2IDAtMTI4IDAtMTYgMTYgMHptMzIgMTI4YzguOCAwIDE2LTcuMiAxNi0xNmwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNmwtMTYgMCAwIDk2IDE2IDB6bTgwLTEyOGwxNiAwIDQ4IDAgMTYgMCAwIDMyLTE2IDAtMzIgMCAwIDMyIDMyIDAgMTYgMCAwIDMyLTE2IDAtMzIgMCAwIDQ4IDAgMTYtMzIgMCAwLTE2IDAtNjQgMC02NCAwLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-pdf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-pdf.svg)
  */
 const FilePdf: typeof Icon = x => (
     <Icon {...x}>

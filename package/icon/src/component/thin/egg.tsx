@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `egg` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/egg?s=thin egg}
- * @preview ![egg](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQ4MEM5Ni40IDQ4MCAxNiAzODYuOSAxNiAyODhjMC01My40IDE1LjQtMTE4LjYgNDUuOC0xNjkuOEM5Mi4xIDY2LjkgMTM1LjcgMzIgMTkyIDMyczk5LjkgMzQuOSAxMzAuMiA4Ni4yQzM1Mi42IDE2OS40IDM2OCAyMzQuNiAzNjggMjg4YzAgOTguOS04MC40IDE5Mi0xNzYgMTkyek0wIDI4OEMwIDM5NCA4NiA0OTYgMTkyIDQ5NnMxOTItMTAyIDE5Mi0yMDhjMC0xMTItNjQtMjcyLTE5Mi0yNzJTMCAxNzYgMCAyODh6TTE0MS40IDEyMC4xYzMuMy0zIDMuNS04IC41LTExLjNzLTgtMy41LTExLjMtLjVjLTIyLjYgMjAuNi0zOS4yIDUwLjItNTAuMSA4MC45QzY5LjUgMjIwIDY0IDI1Mi42IDY0IDI4MGMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04YzAtMjUuNCA1LjItNTYuMyAxNS41LTg1LjRjMTAuNC0yOS4yIDI1LjgtNTYuMiA0NS45LTc0LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![egg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/egg.svg)
  */
 const Egg: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

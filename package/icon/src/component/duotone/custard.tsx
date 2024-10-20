@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `custard` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/custard?s=duotone custard}
- * @preview ![custard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NC4yIDM1MC45TDUxMiAzNTIgNDc2LjcgMTkzLjNDNDUzLjkgMTg0LjkgNDI0IDE3NiA0MDAgMTc2Yy0yMi43IDAtMzkuNCA4LTU2IDE2cy0zMy4zIDE2LTU2IDE2cy0zOS40LTgtNTYtMTZzLTMzLjMtMTYtNTYtMTZjLTI0IDAtNTMuOSA4LjktNzYuNyAxNy4zYy0xMS43IDUyLjUtMjMuMyAxMDUtMzUgMTU3LjV6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zOTYuNyA2NEwxNzkuMyA2NGMtMzAgMC01NiAyMC44LTYyLjUgNTAuMUw5OS4zIDE5My4zQzEyMi4xIDE4NC45IDE1MiAxNzYgMTc2IDE3NmMyMi43IDAgMzkuNCA4IDU2IDE2czMzLjMgMTYgNTYgMTZzMzkuNC04IDU2LTE2czMzLjMtMTYgNTYtMTZjMjQgMCA1My45IDguOSA3Ni43IDE3LjNsLTE3LjYtNzkuMkM0NTIuNiA4NC44IDQyNi43IDY0IDM5Ni43IDY0ek0zMiAzODRjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsNTEyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMMzIgMzg0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![custard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/custard.svg)
  */
 const Custard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M64.2 350.9L512 352 476.7 193.3C453.9 184.9 424 176 400 176c-22.7 0-39.4 8-56 16s-33.3 16-56 16s-39.4-8-56-16s-33.3-16-56-16c-24 0-53.9 8.9-76.7 17.3c-11.7 52.5-23.3 105-35 157.5z" />
-            <path d="M396.7 64L179.3 64c-30 0-56 20.8-62.5 50.1L99.3 193.3C122.1 184.9 152 176 176 176c22.7 0 39.4 8 56 16s33.3 16 56 16s39.4-8 56-16s33.3-16 56-16c24 0 53.9 8.9 76.7 17.3l-17.6-79.2C452.6 84.8 426.7 64 396.7 64zM32 384c-17.7 0-32 14.3-32 32s14.3 32 32 32l512 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 384z" />
+        <path d="M396.7 64L179.3 64c-30 0-56 20.8-62.5 50.1L99.3 193.3C122.1 184.9 152 176 176 176c22.7 0 39.4 8 56 16s33.3 16 56 16s39.4-8 56-16s33.3-16 56-16c24 0 53.9 8.9 76.7 17.3l-17.6-79.2C452.6 84.8 426.7 64 396.7 64zM32 384c-17.7 0-32 14.3-32 32s14.3 32 32 32l512 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 384z" />
     </Icon>
 );
 

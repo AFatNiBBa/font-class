@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `golf-ball-tee` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-ball-tee?s=sharp-solid golf-ball-tee}
- * @preview ![golf-ball-tee](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDE5MmMwIDY2LjgtMzQuMSAxMjUuNi04NS44IDE2MEw4NS44IDM1MkMzNC4xIDMxNy42IDAgMjU4LjggMCAxOTJDMCA4NiA4NiAwIDE5MiAwUzM4NCA4NiAzODQgMTkyek0yNDIuMSAyNTYuNmMwIDE4LjUtMTUgMzMuNS0zMy41IDMzLjVjLTQuOSAwLTkuNi0xLjEtMTMuOC0zYzUuMyAxMS42IDE2LjkgMTkuNyAzMC41IDE5LjdjMTguNSAwIDMzLjUtMTUgMzMuNS0zMy41YzAtMTMuNi04LjEtMjUuMy0xOS43LTMwLjVjMS45IDQuMiAzIDguOSAzIDEzLjh6bS01Mi4zLTQ5LjNjLTQuOSAwLTkuNi0xLjEtMTMuOC0zYzUuMyAxMS42IDE2LjkgMTkuNyAzMC41IDE5LjdjMTguNSAwIDMzLjUtMTUgMzMuNS0zMy41YzAtMTMuNi04LjEtMjUuMy0xOS43LTMwLjVjMS45IDQuMiAzIDguOSAzIDEzLjhjMCAxOC41LTE1IDMzLjUtMzMuNSAzMy41em0xMTMuNS0xNy41YzAgMTguNS0xNSAzMy41LTMzLjUgMzMuNWMtNC45IDAtOS42LTEuMS0xMy44LTNjNS4zIDExLjYgMTYuOSAxOS43IDMwLjUgMTkuN2MxOC41IDAgMzMuNS0xNSAzMy41LTMzLjVjMC0xMy42LTguMS0yNS4zLTE5LjctMzAuNWMxLjkgNC4yIDMgOC45IDMgMTMuOHpNOTYgNDQ4bDAtNjQgMTkyIDAgMCA2NC02NCAwIDAgNjQtNjQgMCAwLTY0LTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![golf-ball-tee](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/golf-ball-tee.svg)
  */
 const GolfBallTee: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

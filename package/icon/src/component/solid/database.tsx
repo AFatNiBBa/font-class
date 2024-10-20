@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `database` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/database?s=solid database}
- * @preview ![database](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDgwbDAgNDhjMCA0NC4yLTEwMC4zIDgwLTIyNCA4MFMwIDE3Mi4yIDAgMTI4TDAgODBDMCAzNS44IDEwMC4zIDAgMjI0IDBTNDQ4IDM1LjggNDQ4IDgwek0zOTMuMiAyMTQuN2MyMC44LTcuNCAzOS45LTE2LjkgNTQuOC0yOC42TDQ0OCAyODhjMCA0NC4yLTEwMC4zIDgwLTIyNCA4MFMwIDMzMi4yIDAgMjg4TDAgMTg2LjFjMTQuOSAxMS44IDM0IDIxLjIgNTQuOCAyOC42Qzk5LjcgMjMwLjcgMTU5LjUgMjQwIDIyNCAyNDBzMTI0LjMtOS4zIDE2OS4yLTI1LjN6TTAgMzQ2LjFjMTQuOSAxMS44IDM0IDIxLjIgNTQuOCAyOC42Qzk5LjcgMzkwLjcgMTU5LjUgNDAwIDIyNCA0MDBzMTI0LjMtOS4zIDE2OS4yLTI1LjNjMjAuOC03LjQgMzkuOS0xNi45IDU0LjgtMjguNmwwIDg1LjljMCA0NC4yLTEwMC4zIDgwLTIyNCA4MFMwIDQ3Ni4yIDAgNDMybDAtODUuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![database](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/database.svg)
  */
 const Database: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lyft` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lyft?s=brands lyft}
- * @preview ![lyft](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4MS4xaDc3Ljh2MjA4LjdjMCAzMy4xIDE1IDUyLjggMjcuMiA2MS0xMi43IDExLjEtNTEuMiAyMC45LTgwLjItMi44QzcuOCAzMzQgMCAzMTAuNyAwIDI4OVY4MS4xem00ODUuOSAxNzMuNXYtMjJoMjMuOHYtNzYuOGgtMjYuMWMtMTAuMS00Ni4zLTUxLjItODAuNy0xMDAuMy04MC43LTU2LjYgMC0xMDIuNyA0Ni0xMDIuNyAxMDIuN1YzNTdjMTYgMi4zIDM1LjQtLjMgNTEuNy0xNCAxNy4xLTE0IDI0LjgtMzcuMiAyNC44LTU5di02LjdoMzguOHYtNzYuOGgtMzguOHYtMjMuM2MwLTM0LjYgNTIuMi0zNC42IDUyLjIgMHY3Ny4xYzAgNTYuNiA0NiAxMDIuNyAxMDIuNyAxMDIuN3YtNzYuNWMtMTQuNSAwLTI2LjEtMTEuNy0yNi4xLTI1Ljl6bS0yOTQuMy05OXYxMTNjMCAxNS40LTIzLjggMTUuNC0yMy44IDB2LTExM0g5MXYxMzIuN2MwIDIzLjggOCA1NCA0NSA2My45IDM3IDkuOCA1OC4yLTEwLjYgNTguMi0xMC42LTIuMSAxMy40LTE0LjUgMjMuMy0zNC45IDI1LjMtMTUuNSAxLjYtMzUuMi0zLjYtNDUtNy44djcwLjNjMjUuMSA3LjUgNTEuNSA5LjggNzcuNiA0LjcgNDcuMS05LjEgNzYuOC00OC40IDc2LjgtMTAwLjhWMTU1LjFoLTc3LjF2LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lyft](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/lyft.svg)
  */
 const Lyft: typeof Icon = x => (
     <Icon {...x}>

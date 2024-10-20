@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume-xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-xmark?s=sharp-thin volume-xmark}
- * @preview ![volume-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM4LjYgMzQwbC00LjUtNC02LjEgMEwxNiAzMzZsMC0xNjAgMTEyIDAgNi4xIDAgNC41LTRMMjc4LjEgNDggMzA0IDQ4bDAgNDE2LTI1LjkgMEwxMzguNiAzNDB6TTAgMzUybDE2IDAgMTEyIDBMMjcyIDQ4MGwzMiAwIDE2IDAgMC0xNiAwLTQxNiAwLTE2LTE2IDAtMzIgMEwxMjggMTYwIDE2IDE2MCAwIDE2MGwwIDE2TDAgMzM2bDAgMTZ6bTQxMy43LTE4LjNMNDgwIDI2Ny4zbDY2LjMgNjYuMyAxMS4zLTExLjNMNDkxLjMgMjU2bDY2LjMtNjYuMy0xMS4zLTExLjNMNDgwIDI0NC43bC02Ni4zLTY2LjMtMTEuMyAxMS4zTDQ2OC43IDI1NmwtNjYuMyA2Ni4zIDExLjMgMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![volume-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/volume-xmark.svg)
  */
 const VolumeXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

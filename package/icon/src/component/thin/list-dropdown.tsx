@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `list-dropdown` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-dropdown?s=thin list-dropdown}
- * @preview ![list-dropdown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDhDMzcuNSA0OCAxNiA2OS41IDE2IDk2bDAgODAgNDgwIDAgMC04MGMwLTI2LjUtMjEuNS00OC00OC00OEw2NCA0OHpNMTYgMTkybDAgMjI0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDM4NCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMjI0TDE2IDE5MnpNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwzODQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6TTEyMCAyNzJsMjcyIDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTI3MiAwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04em0wIDk2bDI3MiAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC0yNzIgMGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOHpNMzQ5IDg5LjhsMzUgMjggMzUtMjhjMy40LTIuOCA4LjUtMi4yIDExLjIgMS4yczIuMiA4LjUtMS4yIDExLjJsLTQwIDMyYy0yLjkgMi4zLTcuMSAyLjMtMTAgMGwtNDAtMzJjLTMuNC0yLjgtNC03LjgtMS4yLTExLjJzNy44LTQgMTEuMi0xLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![list-dropdown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/list-dropdown.svg)
  */
 const ListDropdown: typeof Icon = x => (
     <Icon {...x}>

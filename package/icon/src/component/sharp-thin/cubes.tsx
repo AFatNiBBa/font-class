@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cubes` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cubes?s=sharp-thin cubes}
- * @preview ![cubes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkwLjcgNi41bC0yLjctMS0yLjcgMUwxNDkuMyA1NSAxNDQgNTYuOWwwIDUuNiAwIDE1NS45TDUuNCAyNjUuMiAwIDI2N2wwIDUuN0wwIDQzNC45bDAgNS4yIDQuNyAyLjEgMTM2IDYxLjIgMyAxLjMgMy4xLTEuMUwyODggNDUxLjRsMTQxLjIgNTIuMiAzLjEgMS4xIDMtMS4zIDEzNi02MS4yIDQuNy0yLjEgMC01LjIgMC0xNjIuMSAwLTUuNy01LjQtMS44TDQzMiAyMTguNWwwLTE1NS45IDAtNS42TDQyNi43IDU1IDI5MC43IDYuNXpNMjgwIDQzNy4zTDE1MiA0ODQuNmwwLTE0MyAxMjgtNDkuOCAwIDE0NS41ek0xMzYgNDgzLjdsLTEyMC01NCAwLTE0NSAxMjAgNTYuNSAwIDE0Mi41em0xNS43LTI1MWwxMTQuMSA0Ny40TDE0NC4zIDMyNy40IDMwLjIgMjczLjdsMTIxLjUtNDAuOXptMTQ0LjMgNTlsMTI4IDQ5LjggMCAxNDNMMjk2IDQzNy4zbDAtMTQ1LjV6bS0xNi0yM0wxNjAgMjE4LjlsMC0xNDguMSAxMjAgNDYgMCAxNTJ6bTE2IDBsMC0xNTIgMTIwLTQ2IDAgMTQ4LjFMMjk2IDI2OC44ek0zOTYuNCA2MS4yTDI4OCAxMDIuNyAxNzkuNiA2MS4yIDI4OCAyMi41IDM5Ni40IDYxLjJ6bS04Ni4xIDIxOWwxMTQuMS00Ny40IDEyMS45IDQxLjFMNDMxLjcgMzI3LjQgMzEwLjIgMjgwLjJ6TTU2MCA0MjkuN2wtMTIwIDU0IDAtMTQyLjVMNTYwIDI4NWwwIDE0NC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cubes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cubes.svg)
  */
 const Cubes: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

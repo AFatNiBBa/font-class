@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `anchor-lock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-lock?s=sharp-light anchor-lock}
- * @preview ![anchor-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDgwYTQ4IDQ4IDAgMSAxIC05NiAwIDQ4IDQ4IDAgMSAxIDk2IDB6TTI4OCAwYy00NC4yIDAtODAgMzUuOC04MCA4MGMwIDM4LjcgMjcuNSA3MSA2NCA3OC40bDAgMS42IDAgMzItNjQgMC0xNiAwIDAgMzIgMTYgMCA2NCAwIDAgMjU2TDk2IDQ4MGwwLTE2OS40IDI4LjcgMjguN0wxMzYgMzUwLjYgMTU4LjYgMzI4bC0xMS4zLTExLjMtNTYtNTZMODAgMjQ5LjQgNjguNyAyNjAuN2wtNTYgNTZMMS40IDMyOCAyNCAzNTAuNmwxMS4zLTExLjNMNjQgMzEwLjYgNjQgNDk2bDAgMTYgMTYgMCAyMDggMCA5NiAwIDAtMzItODAgMCAwLTI1NiA2NCAwIDE2IDAgMC0zMi0xNiAwLTY0IDAgMC0zMiAwLTEuNmMzNi41LTcuNCA2NC0zOS43IDY0LTc4LjRjMC00NC4yLTM1LjgtODAtODAtODB6TTUyOCAyMjRjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA0OC05NiAwIDAtNDhjMC0yNi41IDIxLjUtNDggNDgtNDh6bS04MCA0OGwwIDQ4LTMyIDAgMCAzMiAwIDEyOCAwIDMyIDMyIDAgMTYwIDAgMzIgMCAwLTMyIDAtMTI4IDAtMzItMzIgMCAwLTQ4YzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwem0wIDgwbDE2MCAwIDAgMTI4LTE2MCAwIDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![anchor-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/anchor-lock.svg)
  */
 const AnchorLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-bishop` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-bishop?s=solid chess-bishop}
- * @preview ![chess-bishop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBDMTEwLjMgMCA5NiAxNC4zIDk2IDMyYzAgMTYuMSAxMS45IDI5LjQgMjcuNCAzMS43Qzc4LjQgMTA2LjggOCAxOTAgOCAyODhjMCA0Ny40IDMwLjggNzIuMyA1NiA4NC43TDY0IDQwMGwxOTIgMCAwLTI3LjNjMjUuMi0xMi41IDU2LTM3LjQgNTYtODQuN2MwLTM3LjMtMTAuMi03Mi40LTI1LjMtMTA0LjFsLTk5LjQgOTkuNGMtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBzLTYuMi0xNi40IDAtMjIuNkwyNzAuOCAxNTQuNmMtMjMuMi0zOC4xLTUxLjgtNjkuNS03NC4yLTkwLjlDMjEyLjEgNjEuNCAyMjQgNDguMSAyMjQgMzJjMC0xNy43LTE0LjMtMzItMzItMzJMMTI4IDB6TTQ4IDQzMkw2LjYgNDczLjRjLTQuMiA0LjItNi42IDEwLTYuNiAxNkMwIDUwMS45IDEwLjEgNTEyIDIyLjYgNTEybDI3NC43IDBjMTIuNSAwIDIyLjYtMTAuMSAyMi42LTIyLjZjMC02LTIuNC0xMS44LTYuNi0xNkwyNzIgNDMyIDQ4IDQzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chess-bishop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chess-bishop.svg)
  */
 const ChessBishop: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

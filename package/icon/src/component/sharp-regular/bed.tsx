@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bed` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed?s=sharp-regular bed}
- * @preview ![bed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNTZsMC0yNEwwIDMyIDAgNTYgMCAzNjBsMCA5NiAwIDI0IDQ4IDAgMC0yNCAwLTcyIDI2NCAwIDI4MCAwIDAgNzIgMCAyNCA0OCAwIDAtMjQgMC05NiAwLTExMmMwLTY2LjMtNTMuNy0xMjAtMTIwLTEyMGwtMjA4IDAtMjQgMCAwIDI0IDAgMTg0TDQ4IDMzNiA0OCA1NnpNNTkyIDI0OGwwIDg4LTI1NiAwIDAtMTYwIDE4NCAwYzM5LjggMCA3MiAzMi4yIDcyIDcyek0xMjggMjE2YTQwIDQwIDAgMSAxIDgwIDAgNDAgNDAgMCAxIDEgLTgwIDB6bTEyOCAwQTg4IDg4IDAgMSAwIDgwIDIxNmE4OCA4OCAwIDEgMCAxNzYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bed.svg)
  */
 const Bed: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

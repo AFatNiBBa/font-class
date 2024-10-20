@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `creative-commons-pd-alt` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/creative-commons-pd-alt?s=brands creative-commons-pd-alt}
- * @preview ![creative-commons-pd-alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ3LjYgOEMxMDQuNyA4IDAgMTIzLjEgMCAyNTZjMCAxMzguNSAxMTMuNiAyNDggMjQ3LjYgMjQ4QzM3Ny41IDUwNCA0OTYgNDAzLjEgNDk2IDI1NiA0OTYgMTE4LjEgMzg5LjQgOCAyNDcuNiA4em0uOCA0NTAuOGMtMTEyLjUgMC0yMDMuNy05My0yMDMuNy0yMDIuOCAwLTEwNS40IDg1LjUtMjAzLjMgMjAzLjctMjAzLjMgMTEyLjYgMCAyMDIuOSA4OS41IDIwMi44IDIwMy4zIDAgMTIxLjctOTkuNiAyMDIuOC0yMDIuOCAyMDIuOHpNMzE2LjcgMTg2aC01My4ydjEzNy4yaDUzLjJjMjEuNCAwIDcwLTUuMSA3MC02OC42IDAtNjMuNC00OC42LTY4LjYtNzAtNjguNnptLjggMTA4LjVoLTE5Ljl2LTc5LjdsMTkuNC0uMWMzLjggMCAzNS0yLjEgMzUgMzkuOSAwIDI0LjYtMTAuNSAzOS45LTM0LjUgMzkuOXpNMjAzLjcgMTg2aC02OC4ydjEzNy4zaDM0LjZWMjc5aDI3YzU0LjEgMCA1Ny4xLTM3LjUgNTcuMS00Ni41IDAtMzEtMTYuOC00Ni41LTUwLjUtNDYuNXptLTQuOSA2Ny4zaC0yOS4ydi00MS42aDI4LjNjMzAuOSAwIDI4LjggNDEuNi45IDQxLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![creative-commons-pd-alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/creative-commons-pd-alt.svg)
  */
 const CreativeCommonsPdAlt: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

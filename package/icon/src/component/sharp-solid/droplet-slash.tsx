@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `droplet-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-slash?s=sharp-solid droplet-slash}
- * @preview ![droplet-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA5LjkgMTQwLjJMNDguNCAxNC44IDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDUwNS41IDM2OS43YzQuMi0xNS44IDYuNS0zMi41IDYuNS00OS43QzUxMiAyMTQgMzIwIDAgMzIwIDBzLTU3LjkgNjQuNS0xMTAuMSAxNDAuMnpNNDU2LjEgNDU1LjRMMTU5LjggMjIxLjljLTE5IDM2LjItMzEuOCA3MC44LTMxLjggOTguMWMwIDEwNiA4NiAxOTIgMTkyIDE5MmM1My4yIDAgMTAxLjQtMjEuNiAxMzYuMS01Ni42ek0yMjQgMzM2YzAgNDQuMiAzNS44IDgwIDgwIDgwbDE2IDAgMCAzMi0xNiAwYy02MS45IDAtMTEyLTUwLjEtMTEyLTExMmwwLTE2IDMyIDAgMCAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![droplet-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/droplet-slash.svg)
  */
 const DropletSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

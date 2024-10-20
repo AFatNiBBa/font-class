@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-praying` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-praying?s=regular person-praying}
- * @preview ![person-praying](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDY0QTY0IDY0IDAgMSAwIDIyNCA2NGE2NCA2NCAwIDEgMCAxMjggMHpNMjAyLjEgMTkyYzUuMyAwIDEwLjIgMi43IDEyLjkgNy4ybDQuMyA3LjFMMTUyLjIgMzY3LjVsLTkuNC02Yy05LjgtNi4zLTEzLjctMTguNy05LjItMjkuNGw1NC41LTEzMC43YzIuNC01LjcgNy45LTkuMyAxNC05LjN6bTQ4LjMgNjQuN2w3LjQgMTIuMWMxMi44IDIwLjkgNDEuMiAyNS40IDU5LjkgOS42bDg5LjgtNzZjMTAuMS04LjYgMTEuNC0yMy43IDIuOC0zMy44cy0yMy43LTExLjQtMzMuOC0yLjhsLTgyLjcgNzAtMzcuOS02MS42QzI0NC40IDE1NS40IDIyNCAxNDQgMjAyLjEgMTQ0Yy0yNS41IDAtNDguNSAxNS4zLTU4LjMgMzguOUw4OS4zIDMxMy42Yy0xMy40IDMyLjMtMS44IDY5LjUgMjcuNiA4OC4zTDIxNCA0NjQgNTYgNDY0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDI0MCAwYzEwLjcgMCAyMC03IDIzLTE3LjNzLTEuMS0yMS4yLTEwLjEtMjdsLTExNS43LTc0IDU3LjEtMTM3LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-praying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-praying.svg)
  */
 const PersonPraying: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

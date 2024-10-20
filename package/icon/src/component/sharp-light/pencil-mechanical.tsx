@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pencil-mechanical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil-mechanical?s=sharp-light pencil-mechanical}
- * @preview ![pencil-mechanical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDQ4TDM2OCAzMiAzNDUuNCA1NC42IDMxMS4zIDg4LjdsLTUyLTUyTDI0OCAyNS40IDIzNi43IDM2LjdsLTEyOCAxMjhMOTcuNCAxNzYgMTIwIDE5OC42bDExLjMtMTEuM0wyNDggNzAuNmw0MC43IDQwLjdMNzIgMzI4IDM0LjggNDU0LjYgMCA0ODkuNCAyMi42IDUxMmwzNC44LTM0LjhMMTg0IDQ0MCA0NTcuNCAxNjYuNiA0ODAgMTQ0bC0xNi0xNiAyNS40LTI1LjRMNTEyIDgwIDQ4OS40IDU3LjQgNDU0LjYgMjIuNiA0MzIgMCA0MDkuNCAyMi42IDM4NCA0OHptMjIuNiAyMi42TDQzMiA0NS4zIDQ2Ni43IDgwbC0yNS40IDI1LjRMNDA2LjYgNzAuNnpNMTg4LjcgMzkwLjFsLTY2LjctNjYuN0wzNjggNzcuMyA0MzQuNyAxNDQgMTg4LjcgMzkwLjF6bS0yMy4yIDIyTDcyLjYgNDM5LjRsMjcuMy05Mi45IDY1LjYgNjUuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pencil-mechanical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pencil-mechanical.svg)
  */
 const PencilMechanical: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-1-9` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-1-9?s=solid arrow-down-1-9}
- * @preview ![arrow-down-1-9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUwLjcgMzhjLTguMy02LTE5LjEtNy43LTI4LjgtNC40bC00OCAxNmMtMTYuOCA1LjYtMjUuOCAyMy43LTIwLjIgNDAuNXMyMy43IDI1LjggNDAuNSAyMC4ybDUuOS0yIDAgNTEuNi0xNiAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDQ4IDAgNDggMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtMTYgMCAwLTk2YzAtMTAuMy00LjktMTkuOS0xMy4zLTI2ek0xNjAgNDgwYzkgMCAxNy41LTMuOCAyMy42LTEwLjRsODgtOTZjMTEuOS0xMyAxMS4xLTMzLjMtMi00NS4ycy0zMy4zLTExLjEtNDUuMiAyTDE5MiAzNjUuNyAxOTIgNjRjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJsMCAzMDEuN0w5NS42IDMzMC40Yy0xMS45LTEzLTMyLjItMTMuOS00NS4yLTJzLTEzLjkgMzIuMi0yIDQ1LjJsODggOTZDMTQyLjUgNDc2LjIgMTUxIDQ4MCAxNjAgNDgwek00MTguMyAzMDdhMzIgMzIgMCAxIDEgMjcuNCA1Ny45QTMyIDMyIDAgMSAxIDQxOC4zIDMwN3pNNDA1LjEgNDE5LjhsLTYuOCA5LjJjLTEwLjUgMTQuMi03LjUgMzQuMiA2LjcgNDQuOHMzNC4yIDcuNSA0NC44LTYuN2w0OC44LTY1LjhjMTQtMTguOSAyMS41LTQxLjcgMjEuNS02NS4yYzAtNDguNi0zOS40LTg4LTg4LTg4cy04OCAzOS40LTg4IDg4YzAgMzkuMiAyNS42IDcyLjQgNjEuMSA4My44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-down-1-9.svg)
  */
 const ArrowDown_1_9: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

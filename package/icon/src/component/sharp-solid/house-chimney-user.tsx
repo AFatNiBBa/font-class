@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-chimney-user` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-user?s=sharp-solid house-chimney-user}
- * @preview ![house-chimney-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTExLjggMjg3LjZsNjQuMiAwIDAtNDcuNi02NC01My40TDUxMiAzMmwtOTYgMCAwIDc0LjVMMjg4LjQgMCAwIDI0MGwwIDQ3LjYgNjQuMSAwIDAgMjI0LjQgNDQ4LjcgMC0xLTIyNC40ek0yODggMTYwYTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4em04MCAxNjBsMzIgOTYtMjI0IDAgMzItOTYgMTYwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-chimney-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house-chimney-user.svg)
  */
 const HouseChimneyUser: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

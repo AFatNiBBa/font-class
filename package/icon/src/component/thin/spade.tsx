@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `spade` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spade?s=thin spade}
- * @preview ![spade](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDYwLjcgMjIwLjZzMCAwIDAgMEwyNjggMjFjLTctNi45LTE3LjQtNi4yLTIyLjgtLjRjMCAwIDAgMCAwIDBsLS4zIC4zTDUxLjIgMjIwLjZzMCAwIDAgMEMxLjYgMjcyLjEgNC4zIDM1Ny4zIDYwLjEgNDA1LjJjMCAwIDAgMCAwIDBsLjEgLjFjNDYuNiA0MC42IDExOS45IDMzLjcgMTY0LjgtMTJsMTkuOS0yMC45YzMuMS0zLjIgNy4zLTUgMTEuOC01czguNyAyIDExLjcgNS4zbDE4LjggMjAuN2M0NC43IDQ1LjQgMTE3IDUyLjYgMTY1LjcgMTEuOGM1NC44LTQ3LjkgNTcuNS0xMzMuMSA3LjktMTg0LjV6TTIzMy41IDkuN2MxMi0xMyAzMy0xMyA0NS45IDBMNDcyLjIgMjA5LjVjNTUuOSA1Ny45IDUyLjkgMTUzLjgtOSAyMDcuOGMtNTUuOSA0Ny0xMzcuOCAzOC0xODcuOC0xM2wtOC4yLTkuMS0zLjItMy41TDI2NCA0OTZsODAgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMTc2IDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsODAgMCAwLTEwMy44LTIuNiAyLjctOC45IDkuNGMtNDkuOSA1MS0xMzIuOCA1OS45LTE4Ni44IDEzYy02Mi45LTUzLjktNjUuOS0xNDkuOC0xMC0yMDcuOEwyMzMuNSA5Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![spade](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/spade.svg)
  */
 const Spade: typeof Icon = x => (
     <Icon {...x}>

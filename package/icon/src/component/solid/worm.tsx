@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `worm` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/worm?s=solid worm}
- * @preview ![worm](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDk2YzAtNTMgNDMtOTYgOTYtOTZsMzguNCAwQzQzOS45IDAgNDgwIDQwLjEgNDgwIDg5LjZsMCA4Ni40IDAgMTYgMCAxODRjMCA3NS4xLTYwLjkgMTM2LTEzNiAxMzZzLTEzNi02MC45LTEzNi0xMzZsMC04MGMwLTIyLjEtMTcuOS00MC00MC00MHMtNDAgMTcuOS00MCA0MGwwIDE2OGMwIDI2LjUtMjEuNSA0OC00OCA0OHMtNDgtMjEuNS00OC00OGwwLTE2OGMwLTc1LjEgNjAuOS0xMzYgMTM2LTEzNnMxMzYgNjAuOSAxMzYgMTM2bDAgODBjMCAyMi4xIDE3LjkgNDAgNDAgNDBzNDAtMTcuOSA0MC00MGwwLTE4NC0zMiAwYy01MyAwLTk2LTQzLTk2LTk2em0xNDQtOGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![worm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/worm.svg)
  */
 const Worm: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rotate-reverse` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate-reverse?s=sharp-thin rotate-reverse}
- * @preview ![rotate-reverse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkzLjkgNzkuNWM0Ny40IDM3IDc1LjggODkuMyA4My44IDE0NC41bC0xNi4yIDBjLTcuOC01MC40LTM0LjEtOTgtNzcuNS0xMzEuOWMtODEuOS02NC0xOTYuNi01Ny0yNzAuMSAxMS45bDQ3LjcgNDcuN0wxNzMgMTYzbC0xMS4zIDExLjNMMTQ0IDE5MiAzMiAxOTJsLTE2IDAgMC0xNkwxNiA2NCAzMy43IDQ2LjMgNDUgMzUgNTYuMyA0Ni4zbDQ2LjQgNDYuNGM3OS4xLTc0LjUgMjAzLTgyLjIgMjkxLjMtMTMuMnpNNDUgNTcuN2wtMTMgMTNMMzIgMTc2bDEwNS40IDAgMTMtMTNMNDUgNTcuN3pNNDY3IDQ3N2wtMTEuMy0xMS4zLTQ1LjgtNDUuOGMtNzkuMiA3NC0yMDIuNiA4MS41LTI5MC43IDEyLjdjLTQ3LjQtMzctNzUuOC04OS4zLTgzLjgtMTQ0LjVsMTYuMiAwYzcuOCA1MC40IDM0LjEgOTggNzcuNSAxMzEuOWM4MS42IDYzLjggMTk2IDU3IDI2OS41LTExLjRsLTQ4LjItNDguMkwzMzkgMzQ5bDExLjMtMTEuM0wzNjggMzIwbDExMiAwIDE2IDAgMCAxNiAwIDExMi0xNy43IDE3LjdMNDY3IDQ3N3ptMC0yMi42bDEzLTEzTDQ4MCAzMzZsLTEwNS40IDAtMTMgMTNMNDY3IDQ1NC4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rotate-reverse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/rotate-reverse.svg)
  */
 const RotateReverse: typeof Icon = x => (
     <Icon {...x}>

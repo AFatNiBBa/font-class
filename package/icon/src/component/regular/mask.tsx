@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mask` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask?s=regular mask}
- * @preview ![mask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTEuNCAxNjIuM0M2MSAxODguNSA0OCAyMjUuMiA0OCAyNzJjMCA0My45IDE1LjMgNzQuOCAzNi44IDk1YzIyIDIwLjYgNTMuNyAzMyA5MS4yIDMzbDguNCAwYzYuMSAwIDExLjYtMy40IDE0LjMtOC44bDIzLjItNDYuMyAzOSAxOS41LTM5LTE5LjVDMjM0LjQgMzE5LjggMjYwIDMwNCAyODggMzA0czUzLjYgMTUuOCA2Ni4xIDQwLjhsMjMuMiA0Ni4zYzIuNyA1LjQgOC4yIDguOCAxNC4zIDguOGw4LjQgMGMzNy40IDAgNjkuMi0xMi40IDkxLjItMzNjMjEuNS0yMC4yIDM2LjgtNTEuMSAzNi44LTk1YzAtNDYuOC0xMy04My41LTQzLjQtMTA5LjdDNDUyLjkgMTM0LjkgMzk0LjMgMTEyIDI4OCAxMTJzLTE2NC45IDIyLjktMTk2LjYgNTAuM3pNMCAyNzJDMCAxNjAgNjQgNjQgMjg4IDY0czI4OCA5NiAyODggMjA4cy04MCAxNzYtMTc2IDE3NmwtOC40IDBjLTI0LjIgMC00Ni40LTEzLjctNTcuMi0zNS40bC0yMy4yLTQ2LjNjLTQuNC04LjgtMTMuMy0xNC4zLTIzLjItMTQuM3MtMTguOCA1LjUtMjMuMiAxNC4zbC0yMy4yIDQ2LjNjLTEwLjggMjEuNy0zMyAzNS40LTU3LjIgMzUuNGwtOC40IDBDODAgNDQ4IDAgMzg0IDAgMjcyem05Ni0xNmE2NCA2NCAwIDEgMSAxMjggMEE2NCA2NCAwIDEgMSA5NiAyNTZ6bTMyMC02NGE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mask.svg)
  */
 const Mask: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

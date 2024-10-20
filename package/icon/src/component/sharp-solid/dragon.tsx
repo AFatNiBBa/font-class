@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dragon` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dragon?s=sharp-solid dragon}
- * @preview ![dragon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDE2MGwzMiAwIDMyIDMyIDk2IDAgMC02NEw1MTIgMCA0MTYgMCAzODQgMCAyODggMGwwIDMyIDQ4IDI0TDI4OCA4MGwwIDMyIDY0IDE2IDAgMTIwIDAgMjYuNiAwIDUuNCAwIDEzLjMgOS40IDkuNEw0NDggMzg5LjNsMCAyMS41TDMwLjYgNDQ4IDAgNDQ4bDAgMzEuNiAwIC43TDAgNTEybDMxLjYgMCAuNyAwTDQzMiA1MTJsNjQgMCA5NiAwIDQ4IDAgMC00OCAwLTk2IDAtMjYuNi0yMi42LTE0LjFMNDQ4IDIyMS40bDAtNjEuNHptNjQtODcuN2wwLS42YzAgLjEgMCAuMiAwIC4zczAgLjIgMCAuM3ptLTEuMyA3LjRDNTA3LjUgODkuMiA0OTguNiA5NiA0ODggOTZjLTEzLjMgMC0yNC0xMC43LTI0LTI0YzAtMS4zIC4xLTIuNiAuMy0zLjlsNDYuNCAxMS42ek0xNjAgOTZMMCAyNTZsMTc2LTE2TDk2IDMyMGwyMjQgMCAwLTEyOEwxNjAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dragon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dragon.svg)
  */
 const Dragon: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

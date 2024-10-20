@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `candle-holder` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candle-holder?s=sharp-regular candle-holder}
- * @preview ![candle-holder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE0NGMxNy43IDAgMzItMTQuMyAzMi0zMmMwIDAgMCAwIDAtLjFjLS4xLS42LS45LTQuOS01LjktMTMuNGMtNS4yLTguOS0xMi45LTE4LjYtMjEuNi0yOC4zYy0xLjUtMS42LTMtMy4zLTQuNS00LjhjLTEuNSAxLjYtMyAzLjItNC41IDQuOGMtOC44IDkuNy0xNi40IDE5LjQtMjEuNiAyOC4zYy01IDguNS01LjcgMTIuNy01LjkgMTMuNGwwIC4xYzAgMTcuNyAxNC4zIDMyIDMyIDMyek0xNjAgMHM4MCA2NCA4MCAxMTJjMCA0NC4yLTM1LjggODAtODAgODBzLTgwLTM1LjgtODAtODBDODAgNjQgMTYwIDAgMTYwIDB6TTAgNDY0bDI0IDAgMjQgMCAwLTE5MiAwLTQ4IDQ4IDAgMTI4IDAgNDggMCAwIDQ4IDAgMTkyIDM2LjEgMGMtMi43LTcuNS00LjEtMTUuNi00LjEtMjRjMC0zOS44IDMyLjItNzIgNzItNzJzNzIgMzIuMiA3MiA3MmMwIDM5LjctMzIuMiA3MS45LTcxLjggNzJjMCAwLS4xIDAtLjEgMHMwIDAtLjEgMGwtMTA0IDAtNDggMEw5NiA1MTJsLTQ4IDAtMjQgMEwwIDUxMmwwLTQ4ek0yMjQgMjcybC00OCAwIDAgNTYgMCAyNC00OCAwIDAtMjQgMC01Ni0zMiAwIDAgMTkyIDEyOCAwIDAtMTkyek0zNzYgNDY0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![candle-holder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/candle-holder.svg)
  */
 const CandleHolder: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

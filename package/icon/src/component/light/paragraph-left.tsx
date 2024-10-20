@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paragraph-left` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paragraph-left?s=light paragraph-left}
- * @preview ![paragraph-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDMybDE2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMMjI0IDAgMjA4IDAgMTc2IDAgMTQ0IDBDODIuMSAwIDMyIDUwLjEgMzIgMTEyczUwLjEgMTEyIDExMiAxMTJsNDggMCAwIDgwYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC04MCAwLTE2IDAtMTc2IDY0IDAgMCAyNzJjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTI3MnpNMTkyIDMybDAgMTYwLTQ4IDBjLTQ0LjIgMC04MC0zNS44LTgwLTgwczM1LjgtODAgODAtODBsMzIgMCAxNiAwek0xMjIuMiAzNDguM2M2LjgtNS43IDcuNy0xNS43IDItMjIuNXMtMTUuNy03LjctMjIuNS0ybC05NiA4MEMyLjEgNDA2LjcgMCA0MTEuMyAwIDQxNnMyLjEgOS4zIDUuOCAxMi4zbDk2IDgwYzYuOCA1LjcgMTYuOSA0LjcgMjIuNS0yczQuNy0xNi45LTItMjIuNUw2MC4yIDQzMiAzNjggNDMyYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2TDYwLjIgNDAwbDYyLjEtNTEuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![paragraph-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/paragraph-left.svg)
  */
 const ParagraphLeft: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

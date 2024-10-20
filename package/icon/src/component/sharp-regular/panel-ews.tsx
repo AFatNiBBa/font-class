@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `panel-ews` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panel-ews?s=sharp-regular panel-ews}
- * @preview ![panel-ews](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMCAyNDYuN0M3Ni4zIDMwNyA5NiAzMzUuMiA5NiAzNjhsMCAxNmMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMzItMzIgMCAwLTk2IDk2IDAgMCA5Ni0zMiAwIDAgMzJjMCAzNS4zLTI4LjcgNjQtNjQgNjRzLTY0LTI4LjctNjQtNjRsMC0xNmMwLTE0LjItNi4yLTI3LTE2LTM1LjhMNDggNDY0bDQxNiAwIDAtNDE2TDQ4IDQ4ek0wIDBMNDggMCA0NjQgMGw0OCAwIDAgNDggMCA0MTYgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4TDAgNDggMCAwek0xMTIgOTZsOTYgMCAxNiAwIDAgMzItMTYgMC05NiAwLTE2IDAgMC0zMiAxNiAwem0xOTIgMGw5NiAwIDE2IDAgMCAzMi0xNiAwLTk2IDAtMTYgMCAwLTMyIDE2IDB6TTExMiAxNjBsOTYgMCAxNiAwIDAgMzItMTYgMC05NiAwLTE2IDAgMC0zMiAxNiAwem0xOTIgMGw5NiAwIDE2IDAgMCAzMi0xNiAwLTk2IDAtMTYgMCAwLTMyIDE2IDB6bTExMiA5NmwwIDE2MC0xMjggMCAwLTE2MCAxMjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![panel-ews](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/panel-ews.svg)
  */
 const PanelEws: typeof Icon = x => (
     <Icon {...x}>

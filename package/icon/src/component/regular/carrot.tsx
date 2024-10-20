@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `carrot` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/carrot?s=regular carrot}
- * @preview ![carrot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDcyYzAgNDAgMTUuMyA1NS4zIDQwIDgwczQwIDQwIDgwIDQwYzI5LjcgMCA1NS0xNy42IDY2LTI2LjdjNC0zLjMgNi04LjIgNi0xMy4zcy0yLTEwLTYtMTMuMmMtMTEuNC05LjEtMzguMy0yNi44LTc0LTI2LjhjLTMyIDAtNDAgOC00MCA4czgtOCA4LTQwYzAtMzUuNy0xNy43LTYyLjYtMjYuOC03NEMzNzAgMiAzNjUuMSAwIDM2MCAwcy0xMCAyLTEzLjMgNkMzMzcuNiAxNyAzMjAgNDIuMyAzMjAgNzJ6TTE5OS4zIDE5Ny40YzEzLjItOC42IDI4LjktMTMuNCA0NS4zLTEzLjRjNDYuMSAwIDgzLjQgMzcuMyA4My40IDgzLjRjMCAzMi41LTE4LjkgNjItNDguMyA3NS43bC00Mi44IDE5LjhMMjA5IDMzNWMtOS40LTkuNC0yNC42LTkuNC0zMy45IDBzLTkuNCAyNC42IDAgMzMuOWwxNS40IDE1LjRMNzMuMyA0MzguN2w5NC44LTIwNC42TDIwNyAyNzNjOS40IDkuNCAyNC42IDkuNCAzMy45IDBzOS40LTI0LjYgMC0zMy45bC00MS43LTQxLjd6TTM0LjEgNTA5LjhMMjk5LjggMzg2LjZjNDYuNC0yMS41IDc2LjItNjggNzYuMi0xMTkuMkMzNzYgMTk0LjggMzE3LjIgMTM2IDI0NC42IDEzNmMtNTEuMiAwLTk3LjcgMjkuNy0xMTkuMiA3Ni4yTDIuMiA0NzcuOUMtMiA0ODctLjEgNDk3LjggNyA1MDVzMTcuOSA5IDI3LjEgNC44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![carrot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/carrot.svg)
  */
 const Carrot: typeof Icon = x => (
     <Icon {...x}>

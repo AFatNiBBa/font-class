@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `itunes-note` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/itunes-note?s=brands itunes-note}
- * @preview ![itunes-note](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgxLjkgMzg4LjJjLTYuNCAyNy40LTI3LjIgNDIuOC01NS4xIDQ4LTI0LjUgNC41LTQ0LjkgNS42LTY0LjUtMTAuMi0yMy45LTIwLjEtMjQuMi01My40LTIuNy03NC40IDE3LTE2LjIgNDAuOS0xOS41IDc2LjgtMjUuOCA2LTEuMSAxMS4yLTIuNSAxNS42LTcuNCA2LjQtNy4yIDQuNC00LjEgNC40LTE2My4yIDAtMTEuMi01LjUtMTQuMy0xNy0xMi4zLTguMiAxLjQtMTg1LjcgMzQuNi0xODUuNyAzNC42LTEwLjIgMi4yLTEzLjQgNS4yLTEzLjQgMTYuNyAwIDIzNC43IDEuMSAyMjMuOS0yLjUgMjM5LjUtNC4yIDE4LjItMTUuNCAzMS45LTMwLjIgMzkuNS0xNi44IDkuMy00Ny4yIDEzLjQtNjMuNCAxMC40LTQzLjItOC4xLTU4LjQtNTgtMjkuMS04Ni42IDE3LTE2LjIgNDAuOS0xOS41IDc2LjgtMjUuOCA2LTEuMSAxMS4yLTIuNSAxNS42LTcuNCAxMC4xLTExLjUgMS44LTI1Ni42IDUuMi0yNzAuMi44LTUuMiAzLTkuNiA3LjEtMTIuOSA0LjItMy41IDExLjgtNS41IDEzLjQtNS41IDIwNC0zOC4yIDIyOC45LTQzLjEgMjMyLjQtNDMuMSAxMS41LS44IDE4LjEgNiAxOC4xIDE3LjYuMiAzNDQuNSAxLjEgMzI2LTEuOCAzMzguNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![itunes-note](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/itunes-note.svg)
  */
 const ItunesNote: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

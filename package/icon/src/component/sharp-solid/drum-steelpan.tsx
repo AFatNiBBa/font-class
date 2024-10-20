@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `drum-steelpan` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drum-steelpan?s=sharp-solid drum-steelpan}
- * @preview ![drum-steelpan](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDczIDIwOS44Yy0yMi4yIDkuNC00OS43IDE3LTgxIDIyLjJMMzUzLjkgMTc2bDU3LjQtODQuM2MyMy40IDQuOSA0NC4yIDExLjIgNjEuNyAxOC42YzQ3LjEgMTkuOSA1NSAzOS45IDU1IDQ5LjhzLTggMjkuOS01NSA0OS44ek0zNDAuNyAyMzguMWMtMTYuOSAxLjMtMzQuNSAxLjktNTIuNyAxLjlzLTM1LjgtLjctNTIuNy0xLjlMMjQ5LjkgMTkybDc2LjIgMCAxNC42IDQ2LjF6bS0xNTYuNi02LjFjLTMxLjQtNS4yLTU4LjgtMTIuOC04MS0yMi4yQzU2IDE4OS45IDQ4IDE2OS45IDQ4IDE2MHM4LTI5LjkgNTUtNDkuOGMxNy41LTcuNCAzOC4zLTEzLjcgNjEuNy0xOC42TDIyMi4xIDE3NmwtMzggNTUuOXpNMjI1LjUgODIuOEMyNDUuMyA4MSAyNjYuMiA4MCAyODggODBzNDIuNyAxIDYyLjUgMi44TDMyNi4xIDE2MGwtNzYuMiAwTDIyNS41IDgyLjh6TTU3NiAxNjBDNTc2IDgwIDQ0Ny4xIDMyIDI4OCAzMlMwIDgwIDAgMTYwTDAgMzUyYzAgODAgMTI4LjkgMTI4IDI4OCAxMjhzMjg4LTQ4IDI4OC0xMjhsMC0xOTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![drum-steelpan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/drum-steelpan.svg)
  */
 const DrumSteelpan: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

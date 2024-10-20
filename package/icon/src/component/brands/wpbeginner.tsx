@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wpbeginner` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wpbeginner?s=brands wpbeginner}
- * @preview ![wpbeginner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDYyLjc5OSAzMjIuMzc0QzUxOS4wMSAzODYuNjgyIDQ2Ni45NjEgNDgwIDM3MC45NDQgNDgwYy0zOS42MDIgMC03OC44MjQtMTcuNjg3LTEwMC4xNDItNTAuMDQtNi44ODcuMzU2LTIyLjcwMi4zNTYtMjkuNTkgMEMyMTkuODQ4IDQ2Mi4zODEgMTgwLjU4OCA0ODAgMTQxLjA2OSA0ODBjLTk1LjQ5IDAtMTQ4LjM0OC05Mi45OTYtOTEuODU1LTE1Ny42MjZDLTI5LjkyNSAxOTAuNTIzIDgwLjQ3OSAzMiAyNTYuMDA2IDMyYzE3NS42MzIgMCAyODUuODcgMTU4LjYyNiAyMDYuNzkzIDI5MC4zNzR6bS0zMzkuNjQ3LTgyLjk3Mmg0MS41Mjl2LTU4LjA3NWgtNDEuNTI5djU4LjA3NXptMjE3LjE4IDg2LjA3MnYtMjMuODM5Yy02MC41MDYgMjAuOTE1LTEzMi4zNTUgOS4xOTgtMTg3LjU4OS0zMy45NzFsLjI0NiAyNC44OTdjNTEuMTAxIDQ2LjM2NyAxMzEuNzQ2IDU3Ljg3NSAxODcuMzQzIDMyLjkxM3ptLTE1MC43NTMtODYuMDcyaDE2Ni4wNTh2LTU4LjA3NUgxODkuNTc5djU4LjA3NXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wpbeginner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/wpbeginner.svg)
  */
 const Wpbeginner: typeof Icon = x => (
     <Icon {...x}>

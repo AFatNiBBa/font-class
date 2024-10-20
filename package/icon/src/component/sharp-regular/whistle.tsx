@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `whistle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whistle?s=sharp-regular whistle}
- * @preview ![whistle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE5IDk1LjJDMTA3LjggNzYuNSA4Ny40IDY0IDY0IDY0QzI4LjcgNjQgMCA5Mi43IDAgMTI4YzAgMjguNCAxOC41IDUyLjUgNDQuMSA2MC44QzM2LjMgMjA5LjcgMzIgMjMyLjQgMzIgMjU2YzAgMTA2IDg2IDE5MiAxOTIgMTkyYzY0LjcgMCAxMjEuOS0zMiAxNTYuNy04MUw1MzYgNDQ4bDcxLjItNzYuN0w2NDAgMzM2bC0zNy44LTI5LjlMMzUyLjUgMTA4LjdDMzE1LjkgNzkuNyAyNzAuNiA2NCAyMjQgNjRjLTM4LjggMC03NC44IDExLjUtMTA1IDMxLjJ6TTY4LjUgMTQzLjRjLTEuNCAuNC0yLjkgLjYtNC41IC42Yy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmMwIC4zIDAgLjcgMCAxYy00IDQuNi03LjkgOS40LTExLjUgMTQuM3pNNDAyLjkgMzI0LjRMMzY1LjggMzA1bC0yNC4yIDM0LjJDMzE1LjQgMzc2LjEgMjcyLjUgNDAwIDIyNCA0MDBjLTc5LjUgMC0xNDQtNjQuNS0xNDQtMTQ0czY0LjUtMTQ0IDE0NC0xNDRjMzUuOCAwIDcwLjYgMTIuMSA5OC43IDM0LjNsNzAgNTUuNC0xMS45IDE1LjktMTQuNCAxOS4yIDM4LjQgMjguOCAxNC40LTE5LjIgMTEuMi0xNC45IDEzOS4xIDExMC00My43IDQ3LjFMNDAyLjkgMzI0LjR6TTIyNCAzMDRhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![whistle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/whistle.svg)
  */
 const Whistle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

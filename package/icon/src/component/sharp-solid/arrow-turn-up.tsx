@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-turn-up` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-turn-up?s=sharp-solid arrow-turn-up}
- * @preview ![arrow-turn-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDQ4TDAgNDQ4bDAgNjQgMzIgMCAxNjAgMCAzMiAwIDAtMzIgMC0zNTcuNSA3My40IDczLjRMMzIwIDIxOC41bDQ1LjMtNDUuMy0yMi42LTIyLjYtMTI4LTEyOEwxOTIgMCAxNjkuNCAyMi42bC0xMjggMTI4TDE4LjcgMTczLjMgNjQgMjE4LjVsMjIuNi0yMi42TDE2MCAxMjIuNSAxNjAgNDQ4IDMyIDQ0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-turn-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-turn-up.svg)
  */
 const ArrowTurnUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

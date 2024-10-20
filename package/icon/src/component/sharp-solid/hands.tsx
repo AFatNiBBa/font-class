@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hands` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands?s=sharp-solid hands}
- * @preview ![hands](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDEyOGwwIDMyLS4xIDcyLjZjLS4xIDUyLjItMjMuOSAxMDEtNjMuOSAxMzNjLS44LTgwLjktNDIuOC0xNTUuOC0xMTEuNS0xOTguOGwtNDYuNi0yOS4xLTM0LjItMjEuNC0zOS02Ny41TDIzNi43IDI4IDI3OC4zIDRsMTIgMjAuOCA4NCAxNDUuNSAyMC44LTEyTDMzMS44IDQ4LjggMzE5LjggMjggMzYxLjQgNGwxMiAyMC44IDYzLjIgMTA5LjVzMCAwIDAgMGw0My4zIDc1IDAtNDkuMyAwLTMyIDY0IC4xek0yNTkuOSAxMTYuMmwtMjguOCA0Ni4xLTI4LjctNDkuOC0xMi0yMC44IDQxLjYtMjQgMTIgMjAuOCAxNiAyNy43em0tNDMuMiA2OS4xTDIwMCAyMTJsLTIzLjQgMEwxNTYgMTc2LjJsLTEyLTIwLjggNDEuNi0yNCAxMiAyMC44IDE5LjEgMzMuMXptNjEuMS0zNy40bDI3LjEgMTcgNjAuMiAzNy42QzQxNi43IDIzNC43IDQ0OCAyOTEuMiA0NDggMzUybDAgOGMwIDgzLjktNjguMSAxNTItMTUyIDE1MmwtMTc2IDAtMjQgMCAwLTQ4IDI0IDAgMTA0IDAgMC0yNEw4OCA0NDBsLTI0IDAgMC00OCAyNCAwIDEzNiAwIDAtMjRMNTYgMzY4bC0yNCAwIDAtNDggMjQgMCAxNjggMCAwLTI0TDg4IDI5NmwtMjQgMCAwLTQ4IDI0IDAgMTM2IDBzMCAwIDAgMGw5My4yIDBMMjcxIDIxOS4xbC0yNy4xLTE3IDMzLjktNTQuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hands](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hands.svg)
  */
 const Hands: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

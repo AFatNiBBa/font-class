@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `boxes-packing` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-packing?s=regular boxes-packing}
- * @preview ![boxes-packing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTkyIDQ4TDMwNCA0OGwwIDgwLTQ4IDAgMC04MGMwLTI2LjUgMjEuNS00OCA0OC00OEw1OTIgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDQxNmMwIDI2LjUtMjEuNSA0OC00OCA0OGwtMjEwLjcgMGMxLjgtNSAyLjctMTAuNCAyLjctMTZsMC0zMiAyMDggMCAwLTQxNnpNNTYxIDMxMWM5LjQgOS40IDkuNCAyNC42IDAgMzMuOXMtMjQuNiA5LjQtMzMuOSAwbC0yMy0yMyAwIDcwLjFjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC03MC4xLTIzIDIzYy05LjQgOS40LTI0LjYgOS40LTMzLjkgMHMtOS40LTI0LjYgMC0zMy45bDY0LTY0YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwbDY0IDY0ek00OCAyMDhsMCA0OCAzMiAwIDIyNCAwIDMyIDAgMC00OEw0OCAyMDh6TTAgMjcybDAtODBjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIwIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA4MGMwIDE3LjctMTQuMyAzMi0zMiAzMmwwIDE3NmMwIDE3LjctMTQuMyAzMi0zMiAzMkw2NCA1MTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTc2Yy0xNy43IDAtMzItMTQuMy0zMi0zMnptODAgMzJsMCAxNjAgMjI0IDAgMC0xNjBMODAgMzA0em03MiAzMmw4MCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC04MCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![boxes-packing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/boxes-packing.svg)
  */
 const BoxesPacking: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

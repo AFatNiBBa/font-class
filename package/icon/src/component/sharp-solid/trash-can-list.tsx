@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-can-list` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-list?s=sharp-solid trash-can-list}
- * @preview ![trash-can-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBMMTI4IDAgMTEyIDMyIDAgMzIgMCA5Nmw0MTYgMCAwLTY0TDMwNCAzMiAyODggMHptOTYgMTI4TDMyIDEyOGwwIDM4NCAzNTIgMCAwLTM4NHpNMTYwIDIwOGwwIDIyNCAwIDE2LTMyIDAgMC0xNiAwLTIyNCAwLTE2IDMyIDAgMCAxNnptMTI4IDBsMCAyMjQgMCAxNi0zMiAwIDAtMTYgMC0yMjQgMC0xNiAzMiAwIDAgMTZ6bTM1Mi04MGwtMTkyIDAgMCA2NCAxOTIgMCAwLTY0ek02MDggMjU2bC0xNjAgMCAwIDY0IDE2MCAwIDAtNjR6TTQ0OCAzODRsMCA2NCA5NiAwIDAtNjQtOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trash-can-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/trash-can-list.svg)
  */
 const TrashCanList: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

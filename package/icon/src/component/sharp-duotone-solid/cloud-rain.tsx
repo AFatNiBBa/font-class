@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `cloud-rain` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-rain?s=sharp-duotone-solid cloud-rain}
- * @preview ![cloud-rain](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik00OCA0NjEuOWwwIDIuMWMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4bDAtMi4xYzAtOS4xLTIuNS0xOC03LjEtMjUuOEw5NiAzNjggNTUuMSA0MzYuMWMtNC43IDcuOC03LjEgMTYuNy03LjEgMjUuOHptMTYwIDBsMCAyLjFjMCAyNi41IDIxLjUgNDggNDggNDhzNDgtMjEuNSA0OC00OGwwLTIuMWMwLTkuMS0yLjUtMTgtNy4xLTI1LjhMMjU2IDM2OGwtNDAuOSA2OC4xYy00LjcgNy44LTcuMSAxNi43LTcuMSAyNS44em0xNjAgMGwwIDIuMWMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4bDAtMi4xYzAtOS4xLTIuNS0xOC03LjEtMjUuOEw0MTYgMzY4bC00MC45IDY4LjFjLTQuNyA3LjgtNy4xIDE2LjctNy4xIDI1Ljh6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDMyMGw5NiAwIDMyMCAwIDk2IDAgMC05NmMwLTUzLTQzLTk2LTk2LTk2bDAtMTZjMC00NC4yLTM1LjgtODAtODAtODBjLTI0LjMgMC00Ni4xIDEwLjktNjAuOCAyOEMyNTYuNSAyNC4zIDIxOS4xIDAgMTc2IDBDMTE0LjEgMCA2NCA1MC4xIDY0IDExMmwwIDIxLjVDMjYuNyAxNDYuNiAwIDE4Mi4yIDAgMjI0bDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cloud-rain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-rain.svg)
  */
 const CloudRain: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M48 461.9l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8L96 368 55.1 436.1c-4.7 7.8-7.1 16.7-7.1 25.8zm160 0l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8L256 368l-40.9 68.1c-4.7 7.8-7.1 16.7-7.1 25.8zm160 0l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8L416 368l-40.9 68.1c-4.7 7.8-7.1 16.7-7.1 25.8z" />
-            <path d="M0 320l96 0 320 0 96 0 0-96c0-53-43-96-96-96l0-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C256.5 24.3 219.1 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 96z" />
+        <path d="M0 320l96 0 320 0 96 0 0-96c0-53-43-96-96-96l0-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C256.5 24.3 219.1 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 96z" />
     </Icon>
 );
 

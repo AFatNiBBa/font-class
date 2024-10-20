@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-minus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-minus?s=sharp-regular location-minus}
- * @preview ![location-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDE5MmMwLTc5LjUtNjQuNS0xNDQtMTQ0LTE0NFM0OCAxMTIuNSA0OCAxOTJjMCAxNi4zIDcuNyA0MiAyNC43IDc1LjRjMTYuNCAzMi4yIDM4LjggNjYuNCA2Mi4xIDk4LjNjMjAuMyAyNy45IDQwLjcgNTMuMyA1Ny4yIDczLjFjMTYuNS0xOS44IDM2LjktNDUuMiA1Ny4yLTczLjFjMjMuMi0zMS45IDQ1LjYtNjYuMiA2Mi4xLTk4LjNDMzI4LjMgMjM0IDMzNiAyMDguMyAzMzYgMTkyem00OCAwYzAgODMuMS0xMDUuNiAyMTktMTYwLjIgMjgzLjZDMjA0LjggNDk4LjEgMTkyIDUxMiAxOTIgNTEycy0xMi44LTEzLjktMzEuOC0zNi40QzEwNS42IDQxMSAwIDI3NS4xIDAgMTkyQzAgODYgODYgMCAxOTIgMFMzODQgODYgMzg0IDE5MnpNMTIwIDE2OGwxNDQgMCAyNCAwIDAgNDgtMjQgMC0xNDQgMC0yNCAwIDAtNDggMjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![location-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/location-minus.svg)
  */
 const LocationMinus: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

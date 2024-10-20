@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vector-polygon` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-polygon?s=sharp-regular vector-polygon}
- * @preview ![vector-polygon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA4IDcybDAgNDgtNDggMCAwLTQ4IDQ4IDB6TTM2MCAzMmwtNDAgMCAwIDQwTDEyOCA3MmwwLTQwTDg4IDMyIDQwIDMyIDAgMzIgMCA3MmwwIDQ4IDAgNDAgNDAgMCAwIDE5MkwwIDM1MmwwIDQwIDAgNDggMCA0MCA0MCAwIDQ4IDAgNDAgMCAwLTQwIDE5MiAwIDAgNDAgNDAgMCA0OCAwIDQwIDAgMC00MCAwLTQ4IDAtNDAtNDAgMC0zNC40IDBMMzUyIDMxNmwwLTM2IDAtNDggMC0zNiAyMS42LTM2IDM0LjQgMCA0MCAwIDAtNDAgMC00OCAwLTQwLTQwIDAtNDggMHpNMjk4LjQgMzIwTDMyMCAzNTZsMCAzNi0xOTIgMCAwLTQwLTQwIDAgMC0xOTIgNDAgMCAwLTQwIDE5MiAwIDAgMzYtMjEuNiAzNkwyNjQgMTkybC00MCAwIDAgNDAgMCA0OCAwIDQwIDQwIDAgMzQuNCAwek00MCAzOTJsNDggMCAwIDQ4LTQ4IDAgMC00OHptMzIwIDBsNDggMCAwIDQ4LTQ4IDAgMC00OHpNNDAgNzJsNDggMCAwIDQ4LTQ4IDAgMC00OHpNMzEyIDIzMmwwIDQ4LTQ4IDAgMC00OCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vector-polygon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/vector-polygon.svg)
  */
 const VectorPolygon: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

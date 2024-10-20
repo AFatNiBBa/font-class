@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-slash?s=sharp-light link-slash}
- * @preview ![link-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIuNCAxMEwxOS45IC4xIC4xIDI1LjNsMTIuNiA5LjlMNjA3LjggNTAyLjJsMTIuNiA5LjkgMTkuOC0yNS4yLTEyLjYtOS45TDMyLjQgMTB6TTU5MS41IDI1NmM1MC01MCA1MC0xMzEgMC0xODFzLTEzMS01MC0xODEgMEwzODcuOSA5Ny42bDIyLjYgMjIuNiAyMi42LTIyLjZjMzcuNS0zNy41IDk4LjMtMzcuNSAxMzUuOCAwczM3LjUgOTguMyAwIDEzNS44TDQ5MiAzMTAuM2wyNS4zIDIwTDU5MS41IDI1NnpNNDE0LjYgNDEyLjJsLTMzLjQtMjYuM2MtMjYuMSAxLjMtNTIuNS04LjEtNzIuNS0yOGMtMTQuMi0xNC4yLTIzLTMxLjctMjYuNC01MC4xTDI0OSAyODEuNWMtMi40IDM1LjcgMTAuMSA3MiAzNy4yIDk5LjFjMzQuOCAzNC44IDg0LjYgNDUuMyAxMjguNSAzMS43ek0zMzEuMiAxNTQuMWMxNC4yIDE0LjIgMjMgMzEuNyAyNi40IDUwLjFMMzkxIDIzMC41YzIuNC0zNS43LTEwLjEtNzItMzcuMi05OS4xYy0zNC44LTM0LjgtODQuNi00NS4zLTEyOC41LTMxLjdsMzMuNCAyNi4zYzI2LjEtMS4zIDUyLjUgOC4xIDcyLjUgMjh6TTE0OCAyMDEuN2wtMjUuMy0yMEw0OC41IDI1NmMtNTAgNTAtNTAgMTMxIDAgMTgxczEzMSA1MCAxODEgMGwyMi42LTIyLjYtMjIuNi0yMi42LTIyLjYgMjIuNmMtMzcuNSAzNy41LTk4LjMgMzcuNS0xMzUuOCAwcy0zNy41LTk4LjMgMC0xMzUuOEwxNDggMjAxLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![link-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/link-slash.svg)
  */
 const LinkSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

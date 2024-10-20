@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment?s=sharp-thin comment}
- * @preview ![comment](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzUuNSAzNjYuOGwtMy42IDkuNi0yOS42IDc5IDExOS41LTM1LjggNC42LTEuNCA0LjYgMS40YzI2LjQgOCA1NSAxMi40IDg1IDEyLjRjMTM1LjggMCAyNDAtODguOSAyNDAtMTkyUzM5MS44IDQ4IDI1NiA0OFMxNiAxMzYuOSAxNiAyNDBjMCA0NC43IDE5LjIgODYuMyA1Mi4zIDExOS41bDcuMyA3LjN6TTM1LjMgNDc0LjJMMTYgNDgwbDcuMS0xOC44IDMzLjktOTAuNEMyMS4zIDMzNS4xIDAgMjg5LjYgMCAyNDBDMCAxMjUuMSAxMTQuNiAzMiAyNTYgMzJzMjU2IDkzLjEgMjU2IDIwOHMtMTE0LjYgMjA4LTI1NiAyMDhjLTMxLjUgMC02MS43LTQuNi04OS42LTEzLjFMMzUuMyA0NzQuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![comment](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment.svg)
  */
 const Comment: typeof Icon = x => (
     <Icon {...x}>

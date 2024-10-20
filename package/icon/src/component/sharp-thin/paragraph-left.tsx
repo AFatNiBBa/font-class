@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paragraph-left` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paragraph-left?s=sharp-thin paragraph-left}
- * @preview ![paragraph-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDE2bDQwIDAgOCAwIDAtMTYtOCAwTDIwOCAwbC04IDBMMTg0IDAgMTM2IDBDNzguNiAwIDMyIDQ2LjYgMzIgMTA0czQ2LjYgMTA0IDEwNCAxMDRsNTYgMCAwIDEwNCAwIDggMTYgMCAwLTggMC0xMDQgMC04IDAtMTc2IDAtOCA4MCAwIDAgMjk2IDAgOCAxNiAwIDAtOCAwLTI5NnpNMTkyIDI0bDAgMTY4LTU2IDBjLTQ4LjYgMC04OC0zOS40LTg4LTg4czM5LjQtODggODgtODhsNDggMCA4IDAgMCA4ek0xMDkuNCAzNDEuOWw1LjktNS40LTEwLjgtMTEuOC01LjkgNS40LTg4IDgwTDQuMSA0MTZsNi41IDUuOSA4OCA4MCA1LjkgNS40IDEwLjgtMTEuOC01LjktNS40TDM2LjcgNDI0IDM3NiA0MjRsOCAwIDAtMTYtOCAwTDM2LjcgNDA4bDcyLjctNjYuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![paragraph-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/paragraph-left.svg)
  */
 const ParagraphLeft: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

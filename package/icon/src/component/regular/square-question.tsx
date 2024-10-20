@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-question` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-question?s=regular square-question}
- * @preview ![square-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgODBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDMyMGMwIDguOCA3LjIgMTYgMTYgMTZsMzIwIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMzIwYzAtOC44LTcuMi0xNi0xNi0xNkw2NCA4MHpNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwzMjAgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6bTEzNy44IDY5LjNjNy45LTIyLjMgMjkuMS0zNy4zIDUyLjgtMzcuM2w1OC4zIDBjMzQuOSAwIDYzLjEgMjguMyA2My4xIDYzLjFjMCAyMi42LTEyLjEgNDMuNS0zMS43IDU0LjhMMjQ4IDI2NC40Yy0uMiAxMy0xMC45IDIzLjYtMjQgMjMuNmMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xMy41YzAtOC42IDQuNi0xNi41IDEyLjEtMjAuOGw0NC4zLTI1LjRjNC43LTIuNyA3LjYtNy43IDcuNi0xMy4xYzAtOC40LTYuOC0xNS4xLTE1LjEtMTUuMWwtNTguMyAwYy0zLjQgMC02LjQgMi4xLTcuNSA1LjNsLS40IDEuMmMtNC40IDEyLjUtMTguMiAxOS0zMC42IDE0LjZzLTE5LTE4LjItMTQuNi0zMC42bC40LTEuMnpNMTkyIDM1MmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-question.svg)
  */
 const SquareQuestion: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

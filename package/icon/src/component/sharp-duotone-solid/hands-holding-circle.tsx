@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `hands-holding-circle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-circle?s=sharp-duotone-solid hands-holding-circle}
- * @preview ![hands-holding-circle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDY0bDAgNDAgMCAyNCAwIDMyIDAgNjRMMCAzNTJsMCAxMy4zIDkuNCA5LjQgMTI4IDEyOCA5LjQgOS40IDEzLjMgMCA5NiAwIDMyIDAgMC0zMiAwLTMyIDAtMzIgMC02NCAwLTEzLjMtOS40LTkuNC02NC02NEwxOTIgMjQyLjdsLTkuNC05LjRMMTYwIDIxMC43IDExNC43IDI1NmwyMi42IDIyLjYgOS40IDkuNCAyMi42IDIyLjZMMjA1LjggMzQ3bC00MS43IDI3LjhMODAgMjkwLjcgODAgMjI0bDAtODAgMC0zMiAwLTggMC00MEwwIDY0ek0zNTIgMzM4LjdsMCAxMy4zIDAgNjQgMCAzMiAwIDMyIDAgMzIgMzIgMCA5NiAwIDEzLjMgMCA5LjQtOS40IDEyOC0xMjggOS40LTkuNCAwLTEzLjMgMC0xMjggMC02NCAwLTMyIDAtMjQgMC00MC04MCAwIDAgNDAgMCA4IDAgMzIgMCA4MCAwIDY2LjctODQuMSA4NC4xTDQzNC4yIDM0N2wzNi40LTM2LjRMNDkzLjMgMjg4bDkuNC05LjRMNTI1LjMgMjU2IDQ4MCAyMTAuN2wtMjIuNiAyMi42LTkuNCA5LjQtMjIuNiAyMi42LTY0IDY0LTkuNCA5LjR6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zMjAgMGExMjggMTI4IDAgMSAwIDAgMjU2QTEyOCAxMjggMCAxIDAgMzIwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hands-holding-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hands-holding-circle.svg)
  */
 const HandsHoldingCircle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 64l0 40 0 24 0 32 0 64L0 352l0 13.3 9.4 9.4 128 128 9.4 9.4 13.3 0 96 0 32 0 0-32 0-32 0-32 0-64 0-13.3-9.4-9.4-64-64L192 242.7l-9.4-9.4L160 210.7 114.7 256l22.6 22.6 9.4 9.4 22.6 22.6L205.8 347l-41.7 27.8L80 290.7 80 224l0-80 0-32 0-8 0-40L0 64zM352 338.7l0 13.3 0 64 0 32 0 32 0 32 32 0 96 0 13.3 0 9.4-9.4 128-128 9.4-9.4 0-13.3 0-128 0-64 0-32 0-24 0-40-80 0 0 40 0 8 0 32 0 80 0 66.7-84.1 84.1L434.2 347l36.4-36.4L493.3 288l9.4-9.4L525.3 256 480 210.7l-22.6 22.6-9.4 9.4-22.6 22.6-64 64-9.4 9.4z" />
-            <path d="M320 0a128 128 0 1 0 0 256A128 128 0 1 0 320 0z" />
+        <path d="M320 0a128 128 0 1 0 0 256A128 128 0 1 0 320 0z" />
     </Icon>
 );
 

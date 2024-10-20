@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lightbulb-cfl` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-cfl?s=sharp-solid lightbulb-cfl}
- * @preview ![lightbulb-cfl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDY0bC0yNS4yIDVMMCA5NiAwIDMyIDEyMi41IDcuNSAxNjAgMGwwIDM4LjNMMTYwIDY0em0xNjAgMGwwIDY0TDAgMTkybDAtNjRMMzIwIDY0ek0wIDI4OGwwLTY0IDMyMC02NCAwIDY0TDAgMjg4ek02NCA0ODBsMC05NiAzMiAwIDAtODIuNiA0OC05LjYgMCA5Mi4yIDMyIDAgMC0zNS4yIDAtMjguOCAwLTM1LjJMMzIwIDI1NmwwIDY0LTk2IDE5LjIgMCA0NC44IDMyIDAgMCA5Ni02NCAwIDAgMzItNjQgMCAwLTMyLTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lightbulb-cfl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lightbulb-cfl.svg)
  */
 const LightbulbCfl: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

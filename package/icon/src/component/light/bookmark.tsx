@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bookmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bookmark?s=light bookmark}
- * @preview ![bookmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0OEMwIDIxLjUgMjEuNSAwIDQ4IDBMMzM2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA0NDEuOWMwIDEyLjItOS45IDIyLjEtMjIuMSAyMi4xYy00LjQgMC04LjYtMS4zLTEyLjMtMy43TDE5MiA0MDMuMiAzNC40IDUwOC4zYy0zLjYgMi40LTcuOSAzLjctMTIuMyAzLjdDOS45IDUxMiAwIDUwMi4xIDAgNDg5LjlMMCA0OHpNNDggMzJjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDQyMy40TDE4My4xIDM3MC43YzUuNC0zLjYgMTIuNC0zLjYgMTcuOCAwTDM1MiA0NzEuNCAzNTIgNDhjMC04LjgtNy4yLTE2LTE2LTE2TDQ4IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bookmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bookmark.svg)
  */
 const Bookmark: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

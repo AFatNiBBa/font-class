@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mound` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mound?s=thin mound}
- * @preview ![mound](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI2LjYgMzc2YzYuMSAxMC43LTEuNiAyNC0xMy45IDI0TDYzLjMgNDAwYy0xMi4zIDAtMjAtMTMuMy0xMy45LTI0TDE1OCAxODcuMmMyNi43LTQ2LjUgNzYuMy03NS4yIDEzMC03NS4yczEwMy4yIDI4LjcgMTMwIDc1LjJMNTI2LjYgMzc2ek0yODggOTZjLTU5LjQgMC0xMTQuMiAzMS43LTE0My45IDgzLjJMMzUuNiAzNjhjLTEyLjMgMjEuMyAzLjEgNDggMjcuNyA0OGw0NDkuNCAwYzI0LjYgMCA0MC0yNi42IDI3LjctNDhMNDMxLjkgMTc5LjJDNDAyLjIgMTI3LjcgMzQ3LjQgOTYgMjg4IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mound](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mound.svg)
  */
 const Mound: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

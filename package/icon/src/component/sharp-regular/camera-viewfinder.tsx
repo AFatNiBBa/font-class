@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-viewfinder` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-viewfinder?s=sharp-regular camera-viewfinder}
- * @preview ![camera-viewfinder](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDAgMjQgMCAxMzZsMCAyNCA0OCAwIDAtMjQgMC04OCA4OCAwIDI0IDAgMC00OEwxMzYgMCAyNCAwIDAgMHpNMjAwIDk2bC0xNS44IDAtNi4yIDE0LjVMMTcwLjUgMTI4IDEyMCAxMjhsLTI0IDAgMCAyNCAwIDIwOCAwIDI0IDI0IDAgMjcyIDAgMjQgMCAwLTI0IDAtMjA4IDAtMjQtMjQgMC01MC41IDAtNy41LTE3LjVMMzI3LjggOTYgMzEyIDk2IDIwMCA5NnptOC4zIDY1LjVsNy41LTE3LjUgODAuMyAwIDcuNSAxNy41IDYuMiAxNC41IDE1LjggMCA0Mi4zIDAgMCAxNjAtMjI0IDAgMC0xNjAgNDIuMyAwIDE1LjggMCA2LjItMTQuNXpNMjU2IDMxMmE1NiA1NiAwIDEgMCAwLTExMiA1NiA1NiAwIDEgMCAwIDExMnpNNDg4IDBMMzc2IDAgMzUyIDBsMCA0OCAyNCAwIDg4IDAgMCA4OCAwIDI0IDQ4IDAgMC0yNCAwLTExMiAwLTI0TDQ4OCAwek0wIDUxMmwyNCAwIDExMiAwIDI0IDAgMC00OC0yNCAwLTg4IDAgMC04OCAwLTI0TDAgMzUybDAgMjRMMCA0ODhsMCAyNHptNDg4IDBsMjQgMCAwLTI0IDAtMTEyIDAtMjQtNDggMCAwIDI0IDAgODgtODggMC0yNCAwIDAgNDggMjQgMCAxMTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![camera-viewfinder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/camera-viewfinder.svg)
  */
 const CameraViewfinder: typeof Icon = x => (
     <Icon {...x}>

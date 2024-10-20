@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `screwdriver-wrench` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screwdriver-wrench?s=sharp-regular screwdriver-wrench}
- * @preview ![screwdriver-wrench](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzMuOSAzNjYuMUwxNjAuNCAyMzkuNmwzMy45IDMzLjlMNjcuOSA0MDAgMTEyIDQ0NC4xbDk1LjQtOTUuNCAxNy45IDE3LjkgMTYgMTYtOTUuNCA5NS40TDExMiA1MTIgNzguMSA0NzguMSAzMy45IDQzMy45IDAgNDAwbDMzLjktMzMuOXpNMjI0IDE0NC44TDIyNCA5NmwwLTE2LTcuMy01LjVDMjQ1LjEgMjkuNyAyOTUuMSAwIDM1MiAwYzEzLjUgMCAyNi43IDEuNyAzOS4zIDQuOWMxNyA0LjMgMzMgMTEuMyA0Ny4zIDIwLjZMNDAzLjUgNjAuNSAzNTIgMTEybDAgNDggNDggMCA1MS41LTUxLjUgMzUuMS0zNS4xYzkuMyAxNC40IDE2LjMgMzAuMyAyMC42IDQ3LjNjMy4yIDEyLjYgNC45IDI1LjcgNC45IDM5LjNjMCA1Ny4yLTMwIDEwNy4zLTc1LjEgMTM1LjZsLTM1LjItMzUuMmMzNS44LTE3LjggNjAuOC01NC4xIDYyLjMtOTYuNWwtMzAgMzBMNDE5LjkgMjA4IDQwMCAyMDhsLTQ4IDAtNDggMCAwLTQ4IDAtNDggMC0xOS45IDE0LjEtMTQuMSAzMC0zMEMyODggNTAuMSAyNDAgOTkuNSAyNDAgMTYwbDAgLjgtMTYtMTZ6TTI4NyAzMjFsLTEyOS0xMjlMOTYgMTkyIDAgNjQgNjQgMCAxOTIgOTZsMCA2Mi4xTDMyMSAyODdsMzEtMzFMNTEyIDQxNmwtOTYgOTZMMjU2IDM1MmwzMS0zMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![screwdriver-wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/screwdriver-wrench.svg)
  */
 const ScrewdriverWrench: typeof Icon = x => (
     <Icon {...x}>

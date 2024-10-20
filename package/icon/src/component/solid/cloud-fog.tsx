@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-fog` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-fog?s=solid cloud-fog}
- * @preview ![cloud-fog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMyMGMtNTMgMC05Ni00My05Ni05NmMwLTQyLjUgMjcuNi03OC42IDY1LjktOTEuMmMtMS4zLTYuNy0xLjktMTMuNy0xLjktMjAuOEMxMjggNTAuMSAxNzguMSAwIDI0MCAwYzQzLjEgMCA4MC41IDI0LjMgOTkuMiA2MGMxNC43LTE3LjEgMzYuNS0yOCA2MC44LTI4YzQ0LjIgMCA4MCAzNS44IDgwIDgwYzAgNS41LS42IDEwLjgtMS42IDE2Yy41IDAgMS4xIDAgMS42IDBjNTMgMCA5NiA0MyA5NiA5NnMtNDMgOTYtOTYgOTZsLTMyMCAwek0wIDM5MmMwLTEzLjMgMTAuNy0yNCAyNC0yNGw1MjggMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNEwyNCA0MTZjLTEzLjMgMC0yNC0xMC43LTI0LTI0em02NCA5NmMwLTEzLjMgMTAuNy0yNCAyNC0yNGwxMTIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNEw4OCA1MTJjLTEzLjMgMC0yNC0xMC43LTI0LTI0em0yMDggMGMwLTEzLjMgMTAuNy0yNCAyNC0yNGwzMjAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtMzIwIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloud-fog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-fog.svg)
  */
 const CloudFog: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

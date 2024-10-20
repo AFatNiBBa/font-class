@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `game-board` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/game-board?s=sharp-thin game-board}
- * @preview ![game-board](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNDE2IDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA0MTYgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnpNMTM2IDk2bDAgNTYgODAgMCAwLTU2IDAtOCAxNiAwIDAgOCAwIDU2IDgwIDAgMC01NiAwLTggMTYgMCAwIDggMCA1NiA1NiAwIDggMCAwIDE2LTggMC01NiAwIDAgODAgNTYgMCA4IDAgMCAxNi04IDAtNTYgMCAwIDgwIDU2IDAgOCAwIDAgMTYtOCAwLTU2IDAgMCA1NiAwIDgtMTYgMCAwLTggMC01Ni04MCAwIDAgNTYgMCA4LTE2IDAgMC04IDAtNTYtODAgMCAwIDU2IDAgOC0xNiAwIDAtOCAwLTU2LTU2IDAtOCAwIDAtMTYgOCAwIDU2IDAgMC04MC01NiAwLTggMCAwLTE2IDggMCA1NiAwIDAtODAtNTYgMC04IDAgMC0xNiA4IDAgNTYgMCAwLTU2IDAtOCAxNiAwIDAgOHptMCAxNTJsODAgMCAwLTgwLTgwIDAgMCA4MHptOTYgMGw4MCAwIDAtODAtODAgMCAwIDgwem0wIDE2bDAgODAgODAgMCAwLTgwLTgwIDB6bS0xNiAwbC04MCAwIDAgODAgODAgMCAwLTgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![game-board](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/game-board.svg)
  */
 const GameBoard: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

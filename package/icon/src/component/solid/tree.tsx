@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tree` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree?s=solid tree}
- * @preview ![tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEwLjYgNS45TDYyIDE2OS40Yy0zLjkgNC4yLTYgOS44LTYgMTUuNUM1NiAxOTcuNyA2Ni4zIDIwOCA3OS4xIDIwOGwyNC45IDBMMzAuNiAyODEuNGMtNC4yIDQuMi02LjYgMTAtNi42IDE2QzI0IDMwOS45IDM0LjEgMzIwIDQ2LjYgMzIwTDgwIDMyMCA1LjQgNDA5LjVDMS45IDQxMy43IDAgNDE5IDAgNDI0LjVjMCAxMyAxMC41IDIzLjUgMjMuNSAyMy41TDE5MiA0NDhsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMzIgMTY4LjUgMGMxMyAwIDIzLjUtMTAuNSAyMy41LTIzLjVjMC01LjUtMS45LTEwLjgtNS40LTE1TDM2OCAzMjBsMzMuNCAwYzEyLjUgMCAyMi42LTEwLjEgMjIuNi0yMi42YzAtNi0yLjQtMTEuOC02LjYtMTZMMzQ0IDIwOGwyNC45IDBjMTIuNyAwIDIzLjEtMTAuMyAyMy4xLTIzLjFjMC01LjctMi4xLTExLjMtNi0xNS41TDIzNy40IDUuOUMyMzQgMi4xIDIyOS4xIDAgMjI0IDBzLTEwIDIuMS0xMy40IDUuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tree.svg)
  */
 const Tree: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

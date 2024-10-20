@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `presentation-screen` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/presentation-screen?s=sharp-thin presentation-screen}
- * @preview ![presentation-screen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAwTDAgMCAwIDE2bDggMCA1NjAgMCA4IDAgMC0xNi04IDBMOCAwek00OCA1NmwwLThMMzIgNDhsMCA4IDAgMjg4YzAgNC40IDMuNiA4IDggOGwyNDAgMCAwIDUyLjctODUuNyA4NS43LTUuNyA1LjdMMjAwIDUwNy4zbDUuNy01LjdMMjg4IDQxOS4zbDgyLjMgODIuMyA1LjcgNS43TDM4Ny4zIDQ5NmwtNS43LTUuN0wyOTYgNDA0LjdsMC01Mi43IDI0MCAwYzQuNCAwIDgtMy42IDgtOGwwLTI4OCAwLTgtMTYgMCAwIDggMCAyODAtMjQwIDBMNDggMzM2IDQ4IDU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![presentation-screen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/presentation-screen.svg)
  */
 const PresentationScreen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-open` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-open?s=solid book-open}
- * @preview ![book-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ5LjYgNDcxLjVjMTAuOCAzLjggMjIuNC00LjEgMjIuNC0xNS41bDAtMzc3LjRjMC00LjItMS42LTguNC01LTExQzI0Ny40IDUyIDIwMi40IDMyIDE0NCAzMkM5My41IDMyIDQ2LjMgNDUuMyAxOC4xIDU2LjFDNi44IDYwLjUgMCA3MS43IDAgODMuOEwwIDQ1NC4xYzAgMTEuOSAxMi44IDIwLjIgMjQuMSAxNi41QzU1LjYgNDYwLjEgMTA1LjUgNDQ4IDE0NCA0NDhjMzMuOSAwIDc5IDE0IDEwNS42IDIzLjV6bTc2LjggMEMzNTMgNDYyIDM5OC4xIDQ0OCA0MzIgNDQ4YzM4LjUgMCA4OC40IDEyLjEgMTE5LjkgMjIuNmMxMS4zIDMuOCAyNC4xLTQuNiAyNC4xLTE2LjVsMC0zNzAuM2MwLTEyLjEtNi44LTIzLjMtMTguMS0yNy42QzUyOS43IDQ1LjMgNDgyLjUgMzIgNDMyIDMyYy01OC40IDAtMTAzLjQgMjAtMTIzIDM1LjZjLTMuMyAyLjYtNSA2LjgtNSAxMUwzMDQgNDU2YzAgMTEuNCAxMS43IDE5LjMgMjIuNCAxNS41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/book-open.svg)
  */
 const BookOpen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

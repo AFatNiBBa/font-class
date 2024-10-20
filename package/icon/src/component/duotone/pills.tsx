@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `pills` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pills?s=duotone pills}
- * @preview ![pills](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE0NGwwIDgwIDAgMzIgMzIgMCAxNjAgMCAzMiAwIDAtMzIgMC04MGMwLTYxLjktNTAuMS0xMTItMTEyLTExMlMwIDgyLjEgMCAxNDR6TTI1NiAzMjBjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBjMjguOSAwIDU2LTcuNyA3OS40LTIxLjFjMTIuMy03LjEgMTMuMS0yMy43IDMuMS0zMy44TDMxMC45IDIzNy41Yy0xMC0xMC0yNi43LTkuMy0zMy44IDMuMUMyNjMuNyAyNjQgMjU2IDI5MS4xIDI1NiAzMjB6bTc3LjUtMTA1LjFMNTIxLjEgNDAyLjVjMTAgMTAgMjYuNyA5LjMgMzMuOC0zLjFDNTY4LjMgMzc2IDU3NiAzNDguOSA1NzYgMzIwYzAtODguNC03MS42LTE2MC0xNjAtMTYwYy0yOC45IDAtNTYgNy43LTc5LjQgMjEuMWMtMTIuMyA3LjEtMTMuMSAyMy43LTMuMSAzMy44eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzIgMjU2TDAgMjU2bDAgMzIgMCA4MGMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMnMxMTItNTAuMSAxMTItMTEybDAtODAgMC0zMi0zMiAwTDMyIDI1NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pills](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pills.svg)
  */
 const Pills: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 144l0 80 0 32 32 0 160 0 32 0 0-32 0-80c0-61.9-50.1-112-112-112S0 82.1 0 144zM256 320c0 88.4 71.6 160 160 160c28.9 0 56-7.7 79.4-21.1c12.3-7.1 13.1-23.7 3.1-33.8L310.9 237.5c-10-10-26.7-9.3-33.8 3.1C263.7 264 256 291.1 256 320zm77.5-105.1L521.1 402.5c10 10 26.7 9.3 33.8-3.1C568.3 376 576 348.9 576 320c0-88.4-71.6-160-160-160c-28.9 0-56 7.7-79.4 21.1c-12.3 7.1-13.1 23.7-3.1 33.8z" />
-            <path d="M32 256L0 256l0 32 0 80c0 61.9 50.1 112 112 112s112-50.1 112-112l0-80 0-32-32 0L32 256z" />
+        <path d="M32 256L0 256l0 32 0 80c0 61.9 50.1 112 112 112s112-50.1 112-112l0-80 0-32-32 0L32 256z" />
     </Icon>
 );
 

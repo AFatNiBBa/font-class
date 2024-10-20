@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hands-holding` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding?s=sharp-regular hands-holding}
- * @preview ![hands-holding](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDY0bDI0IDAgMCAyNCAwIDIxNC4xIDQ3LTQ3IDE3LTE3IDE3IDE3IDk1IDk1IDk1LTk1IDE3LTE3IDE3IDE3IDQ3IDQ3TDQ5NiA4OGwwLTI0IDI0IDAgOTYgMCAyNCAwIDAgMjQgMCAzMDQgMCA5LjktNyA3LTg0LjggODQuOC0xNyAxNy0zMy45LTMzLjkgMTctMTdMNTkyIDM4Mi4xIDU5MiAxMTJsLTQ4IDAgMCAyMDAgMCA5LjktNyA3LTcgNy0xNyAxNy00MCA0MGMwIDAgMCAwIDAgMGwtMTYgMTYtMTcgMTdMNDA2LjEgMzkybDE3LTE3IDE2LTE2YzAgMCAwIDAgMCAwbDIzLTIzTDQzMiAzMDUuOWwtODggODggMCA5NC4xIDAgMjQtMjQgMC0yNCAwIDAtMjQgMC05NC4xLTg4LTg4TDE3Ny45IDMzNmwyMyAyMyAxNiAxNiAxIDEgMTYgMTZMMjAwIDQyNS45bC0xNi0xNi0xLTEtMTYtMTYtNDAtNDAtMTctMTctNy03LTctNyAwLTkuOSAwLTIwMC00OCAwIDAgMjcwLjEgNzcuOCA3Ny44IDE3IDE3LTMzLjkgMzMuOS0xNy0xN0w3IDQwOWwtNy03TDAgMzkyIDAgODggMCA2NGwyNCAwIDk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hands-holding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hands-holding.svg)
  */
 const HandsHolding: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `air-conditioner` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/air-conditioner?s=sharp-regular air-conditioner}
- * @preview ![air-conditioner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMCAxNjAgNDgwIDAgMC0xNjBMNDggNDh6TTAgMEw0OCAwIDUyOCAwbDQ4IDAgMCA0OCAwIDE2MCAwIDQ4LTQ4IDBMNDggMjU2IDAgMjU2bDAtNDhMMCA0OCAwIDB6TTEyMCAxMjhsMzM2IDAgMjQgMCAwIDQ4LTI0IDAtMzM2IDAtMjQgMCAwLTQ4IDI0IDB6TTM2OCAyODhsMCAxMDRjMCAyMi4xIDE3LjkgNDAgNDAgNDBzNDAtMTcuOSA0MC00MGMwLTE0LjgtOC0yNy43LTIwLTM0LjdsMjQuMS00MS41QzQ3OC4zIDMzMSA0OTYgMzU5LjQgNDk2IDM5MmMwIDQ4LjYtMzkuNCA4OC04OCA4OHMtODgtMzkuNC04OC04OGwwLTEwNCA0OCAwek0yMDggNDI0bDAtMTM2IDQ4IDAgMCAxMzZjMCA0OC42LTM5LjQgODgtODggODhzLTg4LTM5LjQtODgtODhjMC0zMi42IDE3LjctNjEgNDMuOS03Ni4yTDE0OCAzODkuM2MtMTIgNy0yMCAxOS45LTIwIDM0LjdjMCAyMi4xIDE3LjkgNDAgNDAgNDBzNDAtMTcuOSA0MC00MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![air-conditioner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/air-conditioner.svg)
  */
 const AirConditioner: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

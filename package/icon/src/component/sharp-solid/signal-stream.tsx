@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-stream` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-stream?s=sharp-solid signal-stream}
- * @preview ![signal-stream](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAwLjEgMTg2LjZsLTUwLjItMzkuN0MxMjYuMiAxNzYuOSAxMTIgMjE0LjggMTEyIDI1NnMxNC4yIDc5LjEgMzcuOSAxMDkuMWw1MC4yLTM5LjdDMTg1IDMwNi4zIDE3NiAyODIuMiAxNzYgMjU2czktNTAuMyAyNC4xLTY5LjR6bS04Ny45LTY5LjRMNjEuOSA3Ny41QzIzLjIgMTI2LjYgMCAxODguNiAwIDI1NnMyMy4yIDEyOS40IDYxLjkgMTc4LjVsNTAuMi0zOS43QzgyIDM1Ni42IDY0IDMwOC41IDY0IDI1NnMxOC0xMDAuNiA0OC4yLTEzOC44ek0zNzUuOSAzMjUuNGw1MC4yIDM5LjdjMjMuNy0zMCAzNy45LTY3LjkgMzcuOS0xMDkuMXMtMTQuMi03OS4xLTM3LjktMTA5LjFsLTUwLjIgMzkuN0MzOTEgMjA1LjcgNDAwIDIyOS44IDQwMCAyNTZzLTkgNTAuMy0yNC4xIDY5LjR6bTg3LjkgNjkuNGw1MC4yIDM5LjdDNTUyLjggMzg1LjQgNTc2IDMyMy40IDU3NiAyNTZzLTIzLjItMTI5LjQtNjEuOS0xNzguNWwtNTAuMiAzOS43QzQ5NCAxNTUuNCA1MTIgMjAzLjUgNTEyIDI1NnMtMTggMTAwLjYtNDguMiAxMzguOHpNMjg4IDMxMmE1NiA1NiAwIDEgMCAwLTExMiA1NiA1NiAwIDEgMCAwIDExMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![signal-stream](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/signal-stream.svg)
  */
 const SignalStream: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

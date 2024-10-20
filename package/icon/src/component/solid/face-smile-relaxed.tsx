@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-smile-relaxed` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-relaxed?s=solid face-smile-relaxed}
- * @preview ![face-smile-relaxed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTE2NC4xIDMyNS41QzE4MiAzNDYuMiAyMTIuNiAzNjggMjU2IDM2OHM3NC0yMS44IDkxLjktNDIuNWM1LjgtNi43IDE1LjktNy40IDIyLjYtMS42czcuNCAxNS45IDEuNiAyMi42QzM0OS44IDM3Mi4xIDMxMS4xIDQwMCAyNTYgNDAwcy05My44LTI3LjktMTE2LjEtNTMuNWMtNS44LTYuNy01LjEtMTYuOCAxLjYtMjIuNnMxNi44LTUuMSAyMi42IDEuNnptNDcuMS05MS45Yy0xNy42LTIzLjUtNTIuOC0yMy41LTcwLjQgMGMtNS4zIDcuMS0xNS4zIDguNS0yMi40IDMuMnMtOC41LTE1LjMtMy4yLTIyLjRjMzAuNC00MC41IDkxLjItNDAuNSAxMjEuNiAwYzUuMyA3LjEgMy45IDE3LjEtMy4yIDIyLjRzLTE3LjEgMy45LTIyLjQtMy4yem04OS42IDBjLTUuMyA3LjEtMTUuMyA4LjUtMjIuNCAzLjJzLTguNS0xNS4zLTMuMi0yMi40YzMwLjQtNDAuNSA5MS4yLTQwLjUgMTIxLjYgMGM1LjMgNy4xIDMuOSAxNy4xLTMuMiAyMi40cy0xNy4xIDMuOS0yMi40LTMuMmMtMTcuNi0yMy41LTUyLjgtMjMuNS03MC40IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-smile-relaxed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-smile-relaxed.svg)
  */
 const FaceSmileRelaxed: typeof Icon = x => (
     <Icon {...x}>

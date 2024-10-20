@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-plow` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-plow?s=sharp-regular truck-plow}
- * @preview ![truck-plow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMybDI0IDAgMTM2IDAgMTMuNSAwIDcgMTEuNSA4OCAxNDRjLjkgMS41IDEuNiAzIDIuMiA0LjVsMzMuNCAwIDQ4IDAgMCA0OCAwIDk2IDMyIDAgMC0xMjggMC04LjQgNS4zLTYuNiA2NC04MCAxNS0xOC43IDM3LjUgMzAtMTUgMTguN0w1NjAgMjE2LjRsMCAxNDMuMkw2MTguNyA0MzNsMTUgMTguNy0zNy41IDMwLTE1LTE4LjctNjMuMi03OUw0ODAgMzg0bC0xNiAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2bC00OCAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2TDAgMzg0bDAtNDggMC05NiAwLTQ4IDQ4IDAgODAgMCAwLTEzNiAwLTI0em00OCAxNjBsMTY3IDBMMjc0LjUgODAgMTc2IDgwbDAgMTEyem0zNS4yIDE0NGw3My43IDBjMTYuNi0yOC43IDQ3LjYtNDggODMuMi00OGMyNC42IDAgNDcgOS4yIDY0IDI0LjRsMC03Mi40TDQ4IDI0MGwwIDkwLjlDNjUuMiAzMDUgOTQuNiAyODggMTI4IDI4OGMzNS41IDAgNjYuNiAxOS4zIDgzLjIgNDh6TTE3NiAzODRhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHptMTkyIDQ4YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck-plow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-plow.svg)
  */
 const TruckPlow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-disappointed` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-disappointed?s=solid face-disappointed}
- * @preview ![face-disappointed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6bTYwLjEtMTAxLjNjLTExLjctMTMtMzEuNi0yNi43LTYwLjEtMjYuN3MtNDguNCAxMy43LTYwLjEgMjYuN2MtNS45IDYuNi0xNiA3LjEtMjIuNiAxLjJzLTcuMS0xNi0xLjItMjIuNkMxODguMiAzNzEuNCAyMTYuMyAzNTIgMjU2IDM1MnM2Ny44IDE5LjQgODMuOSAzNy4zYzUuOSA2LjYgNS40IDE2LjctMS4yIDIyLjZzLTE2LjcgNS40LTIyLjYtMS4yek0yMTEuMyAyNjcuM2wtNy40IDcuNGMtMjMuNiAyMy42LTUzLjkgMzkuMi04Ni44IDQ0LjdsLTIuNSAuNGMtOC43IDEuNS0xNy00LjQtMTguNC0xMy4yczQuNC0xNyAxMy4yLTE4LjRsMi41LS40YzI2LjMtNC40IDUwLjYtMTYuOSA2OS41LTM1LjdsNy40LTcuNGM2LjItNi4yIDE2LjQtNi4yIDIyLjYgMHM2LjIgMTYuNCAwIDIyLjZ6bTg5LjQgMGMtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZzMTYuNC02LjIgMjIuNiAwbDcuNCA3LjRjMTguOSAxOC45IDQzLjIgMzEuNCA2OS41IDM1LjdsMi41IC40YzguNyAxLjUgMTQuNiA5LjcgMTMuMiAxOC40cy05LjcgMTQuNi0xOC40IDEzLjJsLTIuNS0uNGMtMzIuOS01LjUtNjMuMy0yMS4xLTg2LjgtNDQuN2wtNy40LTcuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-disappointed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-disappointed.svg)
  */
 const FaceDisappointed: typeof Icon = x => (
     <Icon {...x}>

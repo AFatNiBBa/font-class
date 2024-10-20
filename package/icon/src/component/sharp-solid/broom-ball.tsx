@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `broom-ball` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/broom-ball?s=sharp-solid broom-ball}
- * @preview ![broom-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc2IDI0OGw0MCA0MCAwIDMyLTUxLjcgMEwyNTYgMjExLjdsMC01MS43IDMyIDAgNDAgNDBMNTI4IDBsNDggNDhMMzc2IDI0OHpNMjIyLjYgMjM0LjlMMzQxLjEgMzUzLjRjMy43IDQyLjctMTEuNyA4NS4yLTQyLjMgMTE1LjhDMjcxLjQgNDk2LjYgMjM0LjIgNTEyIDE5NS41IDUxMkwwIDUxMmwwLTMyTDE2MCAzMzYgNjQgMzg0bDAtMy41YzAtMzguOCAxNS40LTc1LjkgNDIuOC0xMDMuNGMzMC42LTMwLjYgNzMuMS00NS45IDExNS44LTQyLjN6TTQ2NCAzNTJhODAgODAgMCAxIDEgMCAxNjAgODAgODAgMCAxIDEgMC0xNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![broom-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/broom-ball.svg)
  */
 const BroomBall: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

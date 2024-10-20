@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chrome` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chrome?s=brands chrome}
- * @preview ![chrome](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZDMCAyMDkuNCAxMi40NyAxNjUuNiAzNC4yNyAxMjcuMUwxNDQuMSAzMTguM0MxNjYgMzU3LjUgMjA3LjkgMzg0IDI1NiAzODRDMjcwLjMgMzg0IDI4My4xIDM4MS43IDI5Ni44IDM3Ny40TDIyMC41IDUwOS42Qzk1LjkgNDkyLjMgMCAzODUuMyAwIDI1NnpNMzY1LjEgMzIxLjZDMzc3LjQgMzAyLjQgMzg0IDI3OS4xIDM4NCAyNTZDMzg0IDIxNy44IDM2Ny4yIDE4My41IDM0MC43IDE2MEg0OTMuNEM1MDUuNCAxODkuNiA1MTIgMjIyLjEgNTEyIDI1NkM1MTIgMzk3LjQgMzk3LjQgNTExLjEgMjU2IDUxMkwzNjUuMSAzMjEuNnpNNDc3LjggMTI4SDI1NkMxOTMuMSAxMjggMTQyLjMgMTcyLjEgMTMwLjUgMjMwLjdMNTQuMTkgOTguNDdDMTAxIDM4LjUzIDE3NCAwIDI1NiAwQzM1MC44IDAgNDMzLjUgNTEuNDggNDc3LjggMTI4VjEyOHpNMTY4IDI1NkMxNjggMjA3LjQgMjA3LjQgMTY4IDI1NiAxNjhDMzA0LjYgMTY4IDM0NCAyMDcuNCAzNDQgMjU2QzM0NCAzMDQuNiAzMDQuNiAzNDQgMjU2IDM0NEMyMDcuNCAzNDQgMTY4IDMwNC42IDE2OCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chrome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/chrome.svg)
  */
 const Chrome: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wand-magic-sparkles` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wand-magic-sparkles?s=sharp-thin wand-magic-sparkles}
- * @preview ![wand-magic-sparkles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIzLjMgNTAwLjdMMTEyIDUxMmwtMTEuMy0xMS4zTDQzLjMgNDQzLjMgMzIgNDMybDExLjMtMTEuM0w0NTIuNyAxMS4zIDQ2NCAwbDExLjMgMTEuMyA1Ny40IDU3LjRMNTQ0IDgwIDUzMi43IDkxLjMgMTIzLjMgNTAwLjd6TTUyMS40IDgwTDQ2NCAyMi42bC0xMzUgMTM1TDM4Ni4zIDIxNWwxMzUtMTM1ek01NC42IDQzMkwxMTIgNDg5LjRsMjYzLTI2M0wzMTcuNyAxNjkgNTQuNiA0MzJ6TTEwNCA2NGwwIDU2IDU2IDAgOCAwIDAgMTYtOCAwLTU2IDAgMCA1NiAwIDgtMTYgMCAwLTggMC01Ni01NiAwLTggMCAwLTE2IDggMCA1NiAwIDAtNTYgMC04IDE2IDAgMCA4ek00ODggMzEybDAgOCAwIDU2IDU2IDAgOCAwIDAgMTYtOCAwLTU2IDAgMCA1NiAwIDgtMTYgMCAwLTggMC01Ni01NiAwLTggMCAwLTE2IDggMCA1NiAwIDAtNTYgMC04IDE2IDB6TTIzMiAzMmwwIDI0IDI0IDAgOCAwIDAgMTYtOCAwLTI0IDAgMCAyNCAwIDgtMTYgMCAwLTggMC0yNC0yNCAwLTggMCAwLTE2IDggMCAyNCAwIDAtMjQgMC04IDE2IDAgMCA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wand-magic-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/wand-magic-sparkles.svg)
  */
 const WandMagicSparkles: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

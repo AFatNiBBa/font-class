@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `erlang` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/erlang?s=brands erlang}
- * @preview ![erlang](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODcuMiA1My41SDB2NDA1aDEwMC40Yy00OS43LTUyLjYtNzguOC0xMjUuMy03OC43LTIxMi4xLS4xLTc2LjcgMjQtMTQyLjcgNjUuNS0xOTIuOXptMjM4LjIgOS43Yy00NS45LjEtODUuMSAzMy41LTg5LjIgODMuMmgxNjkuOWMtMS4xLTQ5LjctMzQuNS04My4xLTgwLjctODMuMnptMjMwLjctOS42aC4zbC0uMS0uMXptLjMgMGMzMS40IDQyLjcgNDguNyA5Ny41IDQ2LjIgMTYyLjcuNSA2IC41IDExLjcgMCAyNC4xSDIzMC4yYy0uMiAxMDkuNyAzOC45IDE5NC45IDEzOC42IDE5NS4zIDY4LjUtLjMgMTE4LTUxIDE1MS45LTEwNi4xbDk2LjQgNDguMmMtMTcuNCAzMC45LTM2LjUgNTcuOC01Ny45IDgwLjhINjQwdi00MDV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![erlang](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/erlang.svg)
  */
 const Erlang: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

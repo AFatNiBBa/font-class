@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-code` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-code?s=thin laptop-code}
- * @preview ![laptop-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQ4bDM4NCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMjU2IDE2IDAgMC0yNTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMMTI4IDMyQzkyLjcgMzIgNjQgNjAuNyA2NCA5NmwwIDI1NiAxNiAwTDgwIDk2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4ek02MjAuOCA0MDBjMS44IDAgMy4yIDEuNCAzLjIgMy4yYzAgMzMuNi0yNy4yIDYwLjgtNjAuOCA2MC44TDc2LjggNDY0QzQzLjIgNDY0IDE2IDQzNi44IDE2IDQwMy4yYzAtMS44IDEuNC0zLjIgMy4yLTMuMmw2MDEuNiAwek0xOS4yIDM4NEM4LjYgMzg0IDAgMzkyLjYgMCA0MDMuMkMwIDQ0NS42IDM0LjQgNDgwIDc2LjggNDgwbDQ4Ni40IDBjNDIuNCAwIDc2LjgtMzQuNCA3Ni44LTc2LjhjMC0xMC42LTguNi0xOS4yLTE5LjItMTkuMkwxOS4yIDM4NHpNMjY5LjcgMTU3LjdjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3MtOC4yLTMuMS0xMS4zIDBsLTY0IDY0Yy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zbDY0IDY0YzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBzMy4xLTguMiAwLTExLjNMMjExLjMgMjE2bDU4LjMtNTguM3ptMTEyLTExLjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBzLTMuMSA4LjIgMCAxMS4zTDQyOC43IDIxNmwtNTguMyA1OC4zYy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zczguMiAzLjEgMTEuMyAwbDY0LTY0YzMuMS0zLjEgMy4xLTguMiAwLTExLjNsLTY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![laptop-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/laptop-code.svg)
  */
 const LaptopCode: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

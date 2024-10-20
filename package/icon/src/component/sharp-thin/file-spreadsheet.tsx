@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-spreadsheet` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-spreadsheet?s=sharp-thin file-spreadsheet}
- * @preview ![file-spreadsheet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMTkyIDAgMCAxNTIgMCA4IDggMCAxNTIgMCAwIDMyMEwxNiA0OTYgMTYgMTZ6bTIwOCA2LjZMMzYxLjQgMTYwIDIyNCAxNjBsMC0xMzcuNHpNMjI0IDBMMTYgMCAwIDAgMCAxNiAwIDQ5NmwwIDE2IDE2IDAgMzUyIDAgMTYgMCAwLTE2IDAtMzM2TDIyNCAwek04MCAzODRsNDAgMCAwIDQ4LTQwIDAgMC00OHptMC0xNmwwLTQ4IDQwIDAgMCA0OC00MCAwem01NiA2NGwwLTQ4IDQ4IDAgMCA0OC00OCAwem0wLTY0bDAtNDggNDggMCAwIDQ4LTQ4IDB6bTY0IDY0bDAtNDggNDggMCAwIDQ4LTQ4IDB6bTAtMTEybDQ4IDAgMCA0OC00OCAwIDAtNDh6bTY0IDExMmwwLTQ4IDQwIDAgMCA0OC00MCAwem0wLTY0bDAtNDggNDAgMCAwIDQ4LTQwIDB6bTU2IDhsMC04IDAtNDggMC04IDAtOCAwLTY0IDAtMTYtMTYgMC0xMTIgMEw4MCAyMjRsLTE2IDAgMCAxNiAwIDY0IDAgOCAwIDggMCA0OCAwIDggMCA4IDAgNDggMCAxNiAxNiAwIDQwIDAgOCAwIDggMCA0OCAwIDggMCA4IDAgNDggMCA4IDAgOCAwIDQwIDAgMTYgMCAwLTE2IDAtNDggMC04em0tNjQtNzJsLTY0IDAtNjQgMC00OCAwIDAtNjQgMTEyIDAgMTEyIDAgMCA2NC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-spreadsheet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-spreadsheet.svg)
  */
 const FileSpreadsheet: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

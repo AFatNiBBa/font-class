@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-heart` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-heart?s=sharp-regular shield-heart}
- * @preview ![shield-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQuMSAxMjZMMjU2IDUxLjUgNDQ4IDEyNmMxIDQzLjUtNi45IDEwNi45LTMzLjggMTY4LjhDMzg1LjkgMzU5LjcgMzM3LjEgNDIyLjQgMjU2IDQ1OS42Yy04MS4xLTM3LjEtMTI5LjktOTkuOS0xNTguMS0xNjQuOEM3MSAyMzIuOSA2My4xIDE2OS41IDY0LjEgMTI2em00MzEuNC0xM2wtMS4yLTIwLjVMNDc1LjEgODUgMjY3LjYgNC41IDI1NiAwIDI0NC40IDQuNSAzNi45IDg1IDE3LjggOTIuNSAxNi42IDExM2MtMi45IDQ5LjkgNC45IDEyNi4zIDM3LjMgMjAwLjljMzIuNyA3NS4yIDkxIDE1MCAxODkuNCAxOTIuNkwyNTYgNTEybDEyLjctNS41Yzk4LjQtNDIuNiAxNTYuNy0xMTcuMyAxODkuNC0xOTIuNmMzMi40LTc0LjcgNDAuMi0xNTEgMzcuMy0yMDAuOXpNMTQ0IDIxOS4yYzAgMTYuMSA2LjYgMzEuNSAxOC4yIDQyLjdsODIuOCA3OS42TDI1NiAzNTIuMWwxMS4xLTEwLjcgODIuOC03OS42YzExLjYtMTEuMiAxOC4yLTI2LjYgMTguMi00Mi43YzAtMzIuNy0yNi41LTU5LjItNTkuMi01OS4ybC0yLjQgMGMtMTUuOSAwLTMxLjIgNi4yLTQyLjcgMTcuMmwtNy43IDcuNC03LjctNy40Yy0xMS41LTExLTI2LjgtMTcuMi00Mi43LTE3LjJsLTIuNCAwYy0zMi43IDAtNTkuMiAyNi41LTU5LjIgNTkuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shield-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shield-heart.svg)
  */
 const ShieldHeart: typeof Icon = x => (
     <Icon {...x}>

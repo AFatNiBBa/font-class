@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-slash?s=sharp-light nfc-slash}
- * @preview ![nfc-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAuNCAxOEwyNy44IDguMSA4LjEgMzMuNGwxMi42IDkuOEw1OTkuOCA0OTQuM2wxMi42IDkuOCAxOS43LTI1LjJMNjE5LjUgNDY5IDQwLjQgMTh6TTU0NCAzNTEuM0w1NDQgNjRsMC0zMi0zMiAwTDEzOS42IDMybDQwLjUgMzJMMTkyIDY0bDY0IDAgMjU2IDAgMCAyNjIgMzIgMjUuM3ptLTY0LTUwLjVMNDgwIDExMmwwLTE2LTE2IDBMMzIwIDk2bC0xNiAwIDAgMTYgMCA0OS44IDMyIDI1LjMgMC01OS4xIDExMiAwIDAgMTQ3LjUgMzIgMjUuM3pNMzc4LjggMzg0TDE5MiAzODRsMC0xNDcuNS0zMi0yNS4zTDE2MCA0MDBsMCAxNiAxNiAwIDI0My40IDAtNDAuNS0zMnpNMTI4IDE4Nkw5NiAxNjAuNyA5NiA0NDhsMCAzMiAzMiAwIDM3Mi40IDAtNDAuNS0zMkwxMjggNDQ4bDAtMjYyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![nfc-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/nfc-slash.svg)
  */
 const NfcSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

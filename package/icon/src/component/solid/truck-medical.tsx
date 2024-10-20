@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-medical?s=solid truck-medical}
- * @preview ![truck-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0OEMwIDIxLjUgMjEuNSAwIDQ4IDBMMzY4IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA0OCA1MC43IDBjMTcgMCAzMy4zIDYuNyA0NS4zIDE4LjdMNTg5LjMgMTkyYzEyIDEyIDE4LjcgMjguMyAxOC43IDQ1LjNsMCAxOC43IDAgMzIgMCA2NGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtMzIgMGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwtMTI4IDBjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZsLTE2IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4TDAgNDh6TTQxNiAyNTZsMTI4IDAgMC0xOC43TDQ2Ni43IDE2MCA0MTYgMTYwbDAgOTZ6TTE2MCA0NjRhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0zNjgtNDhhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMTc2IDgwbDAgNDgtNDggMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMzJjMCA4LjggNy4yIDE2IDE2IDE2bDQ4IDAgMCA0OGMwIDguOCA3LjIgMTYgMTYgMTZsMzIgMGM4LjggMCAxNi03LjIgMTYtMTZsMC00OCA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTMyYzAtOC44LTcuMi0xNi0xNi0xNmwtNDggMCAwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNmwtMzIgMGMtOC44IDAtMTYgNy4yLTE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/truck-medical.svg)
  */
 const TruckMedical: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

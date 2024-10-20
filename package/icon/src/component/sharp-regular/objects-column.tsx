@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `objects-column` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-column?s=sharp-regular objects-column}
- * @preview ![objects-column](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCAxNjAgOTYgMCAwLTE2MEw0OCA4MHpNMCAzMmw0OCAwIDk2IDAgNDggMCAwIDQ4IDAgMTYwIDAgNDgtNDggMC05NiAwTDAgMjg4bDAtNDhMMCA4MCAwIDMyek0zMDQgMjcybDAgMTYwIDk2IDAgMC0xNjAtOTYgMHptLTQ4LTQ4bDQ4IDAgOTYgMCA0OCAwIDAgNDggMCAxNjAgMCA0OC00OCAwLTk2IDAtNDggMCAwLTQ4IDAtMTYwIDAtNDh6TTE0NCAzNjhsLTk2IDAgMCA2NCA5NiAwIDAtNjR6TTQ4IDMyMGw5NiAwIDQ4IDAgMCA0OCAwIDY0IDAgNDgtNDggMC05NiAwTDAgNDgwbDAtNDggMC02NCAwLTQ4IDQ4IDB6TTMwNCA4MGwwIDY0IDk2IDAgMC02NC05NiAwek0yNTYgMzJsNDggMCA5NiAwIDQ4IDAgMCA0OCAwIDY0IDAgNDgtNDggMC05NiAwLTQ4IDAgMC00OCAwLTY0IDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![objects-column](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/objects-column.svg)
  */
 const ObjectsColumn: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gingerbread-man` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gingerbread-man?s=sharp-solid gingerbread-man}
- * @preview ![gingerbread-man](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDk2YzAgMzMuNC0xNyA2Mi44LTQyLjkgODBsOTAuOSAwIDY0IDAgMCAxMjgtNjQgMC00OCAwIDAgMjQuOCA4MCA5NiAwIDg3LjItOTQgMC04Mi05OC40TDE0MiA1MTJsLTk0IDAgMC04Ny4yIDgwLTk2IDAtMjQuOC00OCAwLTY0IDAgMC0xMjggNjQgMCA5MC45IDBDMTQ1IDE1OC44IDEyOCAxMjkuNCAxMjggOTZjMC01MyA0My05NiA5Ni05NnM5NiA0MyA5NiA5NnpNMTkyIDk2YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnptODAtMTZhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHpNMjI0IDI0MGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTE2IDExMmExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwem0tMTYtNDhhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gingerbread-man](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gingerbread-man.svg)
  */
 const GingerbreadMan: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

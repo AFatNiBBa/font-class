@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stomach` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stomach?s=solid stomach}
- * @preview ![stomach](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMyYzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgNjRjMCA3MC43IDU3LjMgMTI4IDEyOCAxMjhsMCA2NGMwIDM1LjMtMjguNyA2NC02NCA2NGwtNjQgMEM1Ny4zIDM1MiAwIDQwOS4zIDAgNDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJjMC0yNi41IDIxLjUtNDggNDgtNDhjMjQuNiAwIDM2IDkuNSA1OC4yIDI4LjJjMCAwIDAgMCAwIDBjMS43IDEuNCAzLjQgMi45IDUuMyA0LjRjMTIuNiAxMC41IDI4LjQgMjIuOSA0OS42IDMyLjJDMjQ2LjUgNTA2LjIgMjcyIDUxMiAzMDQgNTEyYzExNC45IDAgMjA4LTkzLjEgMjA4LTIwOGwwLTgwYzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4Yy00Ny40IDAtODguNyAyNS43LTExMC45IDY0TDI1NiAxNjBjLTM1LjMgMC02NC0yOC43LTY0LTY0bDAtNjR6TTQ0NS4xIDMzMi43Yy03LjIgMS45LTE0LjYgMy4zLTIxLjEgMy4zYy0xNi44IC4yLTI4LjQtNy45LTQwLTE2cy0yMy4yLTE2LjMtNDAtMTZjLTcuOSAuMS0xNy4xIDIuMS0yNS42IDQuNmMxLjEtNi43IDEuNi0xMy42IDEuNi0yMC42bDAtNjRjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NGwwIDgwYzAgOS44LTEgMTkuNC0yLjkgMjguN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![stomach](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/stomach.svg)
  */
 const Stomach: typeof Icon = x => (
     <Icon {...x}>

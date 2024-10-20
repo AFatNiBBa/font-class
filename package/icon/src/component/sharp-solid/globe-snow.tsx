@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `globe-snow` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-snow?s=sharp-solid globe-snow}
- * @preview ![globe-snow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgwLjggMzg0YzQxLjUtNDAuNyA2Ny4yLTk3LjMgNjcuMi0xNjBDNDQ4IDEwMC4zIDM0Ny43IDAgMjI0IDBTMCAxMDAuMyAwIDIyNGMwIDYyLjcgMjUuNyAxMTkuMyA2Ny4yIDE2MEwxOTIgMzg0bDAtMzItODAgMCAwLTE2IDgwLTgwLTQ4IDAgMC0xNiA4MC04MCA4MCA4MCAwIDE2LTQ4IDAgODAgODAgMCAxNi04MCAwIDAgMzIgMTI0LjggMHpNODAgMTkyYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnpNMjI0IDgwYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bTExMiA4MGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6TTAgNTEybDQ0OCAwLTY0LTk2TDY0IDQxNiAwIDUxMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![globe-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/globe-snow.svg)
  */
 const GlobeSnow: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

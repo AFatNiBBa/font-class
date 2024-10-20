@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blender` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender?s=sharp-solid blender}
- * @preview ![blender](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDMyIDBsOTYgMCAzMiAwTDUxMiAwIDQ5NC41IDY0IDMzNiA2NGwtMTYgMCAwIDMyIDE2IDAgMTQ5LjggMC0xNy41IDY0TDMzNiAxNjBsLTE2IDAgMCAzMiAxNiAwIDEyMy42IDAtMTcuNSA2NEwzMzYgMjU2bC0xNiAwIDAgMzIgMTYgMCA5Ny41IDBMNDE2IDM1MmwtMjU2IDAtOC43LTk2TDMyIDI1NiAwIDI1NmwwLTMyTDAgMzIgMCAwek0xNDUuNSAxOTJMMTMzLjggNjQgNjQgNjRsMCAxMjggODEuNSAwek00ODAgMzg0bDAgMTI4TDk2IDUxMmwwLTEyOCAzODQgMHpNMjg4IDQ4MGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![blender](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/blender.svg)
  */
 const Blender: typeof Icon = x => (
     <Icon {...x}>

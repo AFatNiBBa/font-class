@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calculator-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calculator-simple?s=sharp-solid calculator-simple}
- * @preview ![calculator-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDIyNCAwbDAgMjI0TDAgMjI0IDAgMHpNMjg4IDBMNTEyIDBsMCAyMjQtMjI0IDBMMjg4IDB6TTUxMiAyODhsMCAyMjQtMjI0IDAgMC0yMjQgMjI0IDB6TTAgMjg4bDIyNCAwIDAgMjI0TDAgNTEyIDAgMjg4ek00MTYgNjRsMC0xNi0zMiAwIDAgMTYgMCAzMi0zMiAwLTE2IDAgMCAzMiAxNiAwIDMyIDAgMCAzMiAwIDE2IDMyIDAgMC0xNiAwLTMyIDMyIDAgMTYgMCAwLTMyLTE2IDAtMzIgMCAwLTMyek02NCA5Nkw0OCA5NmwwIDMyIDE2IDAgOTYgMCAxNiAwIDAtMzItMTYgMEw2NCA5NnpNODMuMyAzNDguN0w3MiAzMzcuNCA0OS40IDM2MGwxMS4zIDExLjNMODkuNCA0MDAgNjAuNyA0MjguNyA0OS40IDQ0MCA3MiA0NjIuNmwxMS4zLTExLjNMMTEyIDQyMi42bDI4LjcgMjguN0wxNTIgNDYyLjYgMTc0LjYgNDQwbC0xMS4zLTExLjNMMTM0LjYgNDAwbDI4LjctMjguN0wxNzQuNiAzNjAgMTUyIDMzNy40bC0xMS4zIDExLjNMMTEyIDM3Ny40IDgzLjMgMzQ4Ljd6TTM1MiAzNTJsLTE2IDAgMCAzMiAxNiAwIDk2IDAgMTYgMCAwLTMyLTE2IDAtOTYgMHptMCA2NGwtMTYgMCAwIDMyIDE2IDAgOTYgMCAxNiAwIDAtMzItMTYgMC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![calculator-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calculator-simple.svg)
  */
 const CalculatorSimple: typeof Icon = x => (
     <Icon {...x}>

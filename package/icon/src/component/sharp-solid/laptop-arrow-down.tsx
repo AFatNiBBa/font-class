@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-arrow-down` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-arrow-down?s=sharp-solid laptop-arrow-down}
- * @preview ![laptop-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJMNjQgMzJsMCAzMiAwIDI4OCA2NCAwIDAtMjU2IDEyOCAwIDAtNjRMOTYgMzJ6TTUxMiA5NmwwIDI1NiA2NCAwIDAtMjg4IDAtMzItMzIgMEwzODQgMzJsMCA2NCAxMjggMHpNMCAzODRsMCA0OCA0OCA0OCA1NDQgMCA0OC00OCAwLTQ4TDAgMzg0ek0zNDQgNTZsMC0yNC00OCAwIDAgMjQgMCAxODIuMS0zOS0zOS0xNy0xN0wyMDYuMSAyMTZsMTcgMTcgODAgODAgMTcgMTcgMTctMTcgODAtODAgMTctMTdMNDAwIDE4Mi4xbC0xNyAxNy0zOSAzOUwzNDQgNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![laptop-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/laptop-arrow-down.svg)
  */
 const LaptopArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

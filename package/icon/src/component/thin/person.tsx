@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person?s=thin person}
- * @preview ![person](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDk2YTQwIDQwIDAgMSAwIDAtODAgNDAgNDAgMCAxIDAgMCA4MHptMC05NmE1NiA1NiAwIDEgMSAwIDExMkE1NiA1NiAwIDEgMSAxNjAgMHpNMTQxLjEgMTQ0Yy0yMS41IDAtNDEuMSAxMi4zLTUwLjQgMzEuN0wyMy4yIDMxNS41Yy0xLjkgNC02LjcgNS42LTEwLjcgMy43cy01LjYtNi43LTMuNy0xMC43TDc2LjMgMTY4LjdjMTItMjQuOSAzNy4yLTQwLjcgNjQuOC00MC43bDM3LjggMGMyNy42IDAgNTIuOCAxNS44IDY0LjggNDAuN2w2Ny41IDEzOS44YzEuOSA0IC4zIDguOC0zLjcgMTAuN3MtOC44IC4zLTEwLjctMy43TDIyOS4zIDE3NS43QzIyMCAxNTYuMyAyMDAuNCAxNDQgMTc4LjkgMTQ0bC0zNy44IDB6TTEwNCAyNDhsMCAyMzJjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTEyMGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0bDAgMTIwYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0yMzJjMC00LjQgMy42LTggOC04czggMy42IDggOGwwIDIzMmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTEyMGMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDEyMGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTIzMmMwLTQuNCAzLjYtOCA4LThzOCAzLjYgOCA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person.svg)
  */
 const Person: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

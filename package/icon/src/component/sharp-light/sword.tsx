@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sword` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sword?s=sharp-light sword}
- * @preview ![sword](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgyLjYgMjMzLjRMMjA1LjMgMjU2IDQxNS4xIDQ2LjJsNTkuMi04LjUtOC41IDU5LjJMMjU2IDMwNi43bDIyLjYgMjIuNkw0OTYgMTEybDExLjMtNzlMNTEyIDAgNDc5IDQuNyA0MDAgMTYgMTgyLjYgMjMzLjR6bS01OS4zLTIwLjdMMTEyIDIwMS40bC0xMS4zIDExLjMtMzIgMzItOS4xIDkuMSA2LjkgMTAuOCA0OS4xIDc3LjJMODIuNyAzNzQuNmwtMzEuNi02LjMtOC40LTEuNy02LjEgNi4xLTI0IDI0TDEuNCA0MDhsMTEuMyAxMS4zIDgwIDgwTDEwNCA1MTAuNmwxMS4zLTExLjMgMjQtMjQgNi4xLTYuMS0xLjctOC40LTYuMy0zMS42IDMyLjktMzIuOSA3Ny4yIDQ5LjEgMTAuOCA2LjkgOS4xLTkuMSAzMi0zMkwzMTAuNiA0MDBsLTExLjMtMTEuMy0xNzYtMTc2em0yNi4yIDEyMi43bC00OS4xLTc3LjJMMTEyIDI0Ni42IDI2NS40IDQwMGwtMTEuNiAxMS42LTc3LjItNDkuMS0xMC44LTYuOS05LjEgOS4xLTQ4IDQ4LTYuMSA2LjEgMS43IDguNCA2LjMgMzEuNi02LjYgNi42TDQ2LjYgNDA4bDYuNi02LjYgMzEuNiA2LjMgOC40IDEuNyA2LjEtNi4xIDQ4LTQ4IDkuMS05LjEtNi45LTEwLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sword](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sword.svg)
  */
 const Sword: typeof Icon = x => (
     <Icon {...x}>

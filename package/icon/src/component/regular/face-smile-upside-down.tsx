@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-smile-upside-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-upside-down?s=regular face-smile-upside-down}
- * @preview ![face-smile-upside-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjU2YTIwOCAyMDggMCAxIDEgNDE2IDBBMjA4IDIwOCAwIDEgMSA0OCAyNTZ6bTQ2NCAwQTI1NiAyNTYgMCAxIDAgMCAyNTZhMjU2IDI1NiAwIDEgMCA1MTIgMHpNMTc3LjYgMTkzLjlDMTkyLjggMTc3LjUgMjE4LjggMTYwIDI1NiAxNjBzNjMuMiAxNy41IDc4LjQgMzMuOWM5IDkuNyAyNC4yIDEwLjQgMzMuOSAxLjRzMTAuNC0yNC4yIDEuNC0zMy45Yy0yMi0yMy44LTYwLTQ5LjQtMTEzLjYtNDkuNHMtOTEuNyAyNS41LTExMy42IDQ5LjRjLTkgOS43LTguNCAyNC45IDEuNCAzMy45czI0LjkgOC40IDMzLjktMS40ek0yMDguNCAzMDRhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHptMTI4LTMyYTMyIDMyIDAgMSAwIDAgNjQgMzIgMzIgMCAxIDAgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-smile-upside-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-smile-upside-down.svg)
  */
 const FaceSmileUpsideDown: typeof Icon = x => (
     <Icon {...x}>

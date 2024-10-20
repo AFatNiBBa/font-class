@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `italic` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/italic?s=sharp-regular italic}
- * @preview ![italic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMybDI0IDAgMjA4IDAgMjQgMCAwIDQ4LTI0IDAtNjguNyAwTDE0NC43IDQzMmw4Ny4zIDAgMjQgMCAwIDQ4LTI0IDBMMjQgNDgwIDAgNDgwbDAtNDggMjQgMCA2OC43IDBMMjM5LjMgODAgMTUyIDgwbC0yNCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![italic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/italic.svg)
  */
 const Italic: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

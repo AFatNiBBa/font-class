@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-up-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-up-slash?s=solid plane-up-slash}
- * @preview ![plane-up-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w0ODIuNCAzNTIuOCA1NTQuOSAzNzdjMTAuNCAzLjUgMjEuMS00LjMgMjEuMS0xNS4ybDAtNTYuN2MwLTEwLjctNS4zLTIwLjctMTQuMi0yNi42TDM4NCAxNjBsMC02Ni4zQzM4NCA1OS41IDM1NiAwIDMyMCAwYy0zNSAwLTY0IDU5LjUtNjQgOTMuN2wwIDY2LjMtMTAuNiA3LjFMMzguOCA1LjF6bTEyMi41IDIxOEw3OC4yIDI3OC41QzY5LjMgMjg0LjQgNjQgMjk0LjQgNjQgMzA1LjFsMCA1Ni43YzAgMTAuOSAxMC43IDE4LjYgMjEuMSAxNS4yTDI1NiAzMjBsMCA4MC01Ny42IDQzLjJjLTQgMy02LjQgNy44LTYuNCAxMi44bDAgNDJjMCA3LjggNi4zIDE0IDE0IDE0YzEuMyAwIDIuNi0uMiAzLjktLjVMMzIwIDQ4MGwxMTAuMSAzMS41YzEuMyAuNCAyLjYgLjUgMy45IC41YzcuOCAwIDE0LTYuMyAxNC0xNGwwLTQyLjdjMC0yLjgtLjctNS42LTIuMS04TDE2MS4zIDIyMy4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![plane-up-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plane-up-slash.svg)
  */
 const PlaneUpSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

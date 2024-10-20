@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-circle-xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-xmark?s=sharp-thin cart-circle-xmark}
- * @preview ![cart-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAwTDAgMCAwIDE2bDggMCA0OS44IDAgOTQuNCAzNjIgMS42IDYgNi4yIDAgMTYwLjcgMGMtLjUtNS4zLS43LTEwLjYtLjctMTZsLTE1My44IDAtMjAuOS04MCAxOTMuOSAwYzIuOC01LjUgNS45LTEwLjggOS4zLTE2bC0yMDcuMyAwTDgyLjcgNDhsNDcxLjUgMEw1MDkuMSAxOTIuNWM1LjUgLjQgMTAuOCAxLjEgMTYuMiAxLjlMNTcxIDQ4bDUtMTYtMTYuOCAwTDc4LjUgMzIgNzEuNyA2IDcwLjIgMCA2NCAwIDggMHpNMTc2IDQzMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTAgODBhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2ek0zNjggMzY4YTEyOCAxMjggMCAxIDEgMjU2IDAgMTI4IDEyOCAwIDEgMSAtMjU2IDB6bTI3MiAwYTE0NCAxNDQgMCAxIDAgLTI4OCAwIDE0NCAxNDQgMCAxIDAgMjg4IDB6bS04Mi4zLTUwLjNsNS43LTUuN0w1NTIgMzAwLjdsLTUuNyA1LjdMNDk2IDM1Ni43bC01MC4zLTUwLjMtNS43LTUuN0w0MjguNyAzMTJsNS43IDUuN0w0ODQuNyAzNjhsLTUwLjMgNTAuMy01LjcgNS43TDQ0MCA0MzUuM2w1LjctNS43TDQ5NiAzNzkuM2w1MC4zIDUwLjMgNS43IDUuN0w1NjMuMyA0MjRsLTUuNy01LjdMNTA3LjMgMzY4bDUwLjMtNTAuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cart-circle-xmark.svg)
  */
 const CartCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

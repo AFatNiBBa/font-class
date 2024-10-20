@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-question` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-question?s=sharp-solid cloud-question}
- * @preview ![cloud-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDQ4MEwwIDQ4MCAwIDMzNmMwLTYyLjcgNDAuMS0xMTYgOTYtMTM1LjhsMC04LjJjMC04OC40IDcxLjYtMTYwIDE2MC0xNjBjNTkuMyAwIDExMSAzMi4yIDEzOC43IDgwLjJDNDA5LjkgMTAyIDQyOC4zIDk2IDQ0OCA5NmM1MyAwIDk2IDQzIDk2IDk2bDAgMzZjNTUuMiAxNC4yIDk2IDY0LjMgOTYgMTI0bDAgMTI4LTEyOCAwLTM2OCAwem04OC0yNjRsMCA2LjUgNDggMCAwLTYuNWMwLTQuNCAzLjYtOCA4LThsNTYuOSAwYzguNCAwIDE1LjEgNi44IDE1LjEgMTUuMWMwIDUuNC0yLjkgMTAuNC03LjYgMTMuMWwtNDQuMyAyNS40TDI5NiAyNjguNmwwIDEzLjkgMCAyMS41IDAgMjQgNDggMCAwLTI0IDAtNy42IDMyLjMtMTguNWMxOS42LTExLjMgMzEuNy0zMi4yIDMxLjctNTQuOGMwLTM0LjktMjguMy02My4xLTYzLjEtNjMuMUwyODggMTYwYy0zMC45IDAtNTYgMjUuMS01NiA1NnptNjQgMTUybDAgNDggNDggMCAwLTQ4LTQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cloud-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-question.svg)
  */
 const CloudQuestion: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `container-storage` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/container-storage?s=sharp-solid container-storage}
- * @preview ![container-storage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDQxNmwwLTMyMCAzMiAwIDAtNjQtMzIgMEwzMiAzMiAwIDMyIDAgOTZsMzIgMCAwIDMyMEwwIDQxNmwwIDY0IDMyIDAgNTc2IDAgMzIgMCAwLTY0LTMyIDB6TTE3NiAxNTJsMCAyMDggMCAyNC00OCAwIDAtMjQgMC0yMDggMC0yNCA0OCAwIDAgMjR6bTExMiAwbDAgMjA4IDAgMjQtNDggMCAwLTI0IDAtMjA4IDAtMjQgNDggMCAwIDI0em0xMTIgMGwwIDIwOCAwIDI0LTQ4IDAgMC0yNCAwLTIwOCAwLTI0IDQ4IDAgMCAyNHptMTEyIDBsMCAyMDggMCAyNC00OCAwIDAtMjQgMC0yMDggMC0yNCA0OCAwIDAgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![container-storage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/container-storage.svg)
  */
 const ContainerStorage: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

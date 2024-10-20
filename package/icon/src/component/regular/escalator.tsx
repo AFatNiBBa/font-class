@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `escalator` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/escalator?s=regular escalator}
- * @preview ![escalator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDQ4YTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bTE4Mi4xIDg1LjhjMTYtMTQgMzYuNi0yMS44IDU3LjktMjEuOGwxMDQgMGM0OC42IDAgODggMzkuNCA4OCA4OHMtMzkuNCA4OC04OCA4OGwtNzAuOSAwTDI0OS45IDQ5MC4yYy0xNiAxNC0zNi42IDIxLjgtNTcuOSAyMS44TDg4IDUxMmMtNDguNiAwLTg4LTM5LjQtODgtODhzMzkuNC04OCA4OC04OGw3MC45IDBMMzkwLjEgMTMzLjh6TTQ0OCAxNjBjLTkuNyAwLTE5IDMuNS0yNi4zIDkuOUwxODMuOCAzNzguMWMtNC40IDMuOC0xMCA1LjktMTUuOCA1LjlsLTgwIDBjLTIyLjEgMC00MCAxNy45LTQwIDQwczE3LjkgNDAgNDAgNDBsMTA0IDBjOS43IDAgMTktMy41IDI2LjMtOS45TDQ1Ni4yIDI0NS45YzQuNC0zLjggMTAtNS45IDE1LjgtNS45bDgwIDBjMjIuMSAwIDQwLTE3LjkgNDAtNDBzLTE3LjktNDAtNDAtNDBsLTEwNCAwek0yNTYgMTI4YzIzLjcgMCA0NC40IDEyLjkgNTUuNSAzMkwxOTIgMjY0LjVsMC03Mi41YzAtMzUuMyAyOC43LTY0IDY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![escalator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/escalator.svg)
  */
 const Escalator: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cedi-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cedi-sign?s=sharp-solid cedi-sign}
- * @preview ![cedi-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMybDAtMzJMMTkyIDBsMCAzMiAwIDM0LjdDMTAxLjIgODEuOSAzMiAxNjAuOSAzMiAyNTZzNjkuMiAxNzQuMSAxNjAgMTg5LjNsMCAzNC43IDAgMzIgNjQgMCAwLTMyIDAtMzQuN2M0OS42LTguMyA5Mi43LTM1LjYgMTIxLjYtNzQuMWwtNTEuMi0zOC40Yy0xNy4yIDIyLjktNDEuOSAzOS44LTcwLjQgNDcuMkwyNTYgMTMyYzI4LjUgNy4zIDUzLjIgMjQuMiA3MC40IDQ3LjJsNTEuMi0zOC40QzM0OC43IDEwMi4zIDMwNS42IDc1IDI1NiA2Ni43TDI1NiAzMnpNMTkyIDEzMkwxOTIgMzgwYy01NS4yLTE0LjItOTYtNjQuMy05Ni0xMjRzNDAuOC0xMDkuOCA5Ni0xMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cedi-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cedi-sign.svg)
  */
 const CediSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `images-user` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/images-user?s=thin images-user}
- * @preview ![images-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDQ4TDE2MCA0OGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAyMjRjMCAyNi41IDIxLjUgNDggNDggNDhsNjQgMCAwLTMyYzAtNDQuMiAzNS44LTgwIDgwLTgwbDY0IDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCAzMiA2NCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMjI0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4ek00NDggMzg0bC0xNiAwLTE5MiAwLTE2IDAtNjQgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMOTYgOTZjMC0zNS4zIDI4LjctNjQgNjQtNjRsMzUyIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyMjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTY0IDB6bS0xNi0xNmwwLTMyYzAtMzUuMy0yOC43LTY0LTY0LTY0bC02NCAwYy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDMyIDE5MiAwek02NCAxMjhsMCAxNmMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAyMjRjMCAyNi41IDIxLjUgNDggNDggNDhsMzUyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMTYgMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTkyYzAtMzUuMyAyOC43LTY0IDY0LTY0em0zMjAgMzJhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMzM2IDk2YTY0IDY0IDAgMSAxIDAgMTI4IDY0IDY0IDAgMSAxIDAtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![images-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/images-user.svg)
  */
 const ImagesUser: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

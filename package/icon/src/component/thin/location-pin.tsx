@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-pin` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-pin?s=thin location-pin}
- * @preview ![location-pin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUwLjIgMjYxLjZjLTExLjMgMjYuOS0yNy4xIDU1LjgtNDQuNyA4NC4zYy0zNS4yIDU3LTc2LjggMTExLjQtMTAyLjMgMTQzLjJjLTUuOSA3LjMtMTYuNiA3LjMtMjIuNCAwQzE1NS4zIDQ1Ny4zIDExMy43IDQwMyA3OC41IDM0NS45Yy0xNy42LTI4LjUtMzMuNC01Ny40LTQ0LjctODQuM0MyMi40IDIzNC41IDE2IDIxMC43IDE2IDE5MkMxNiA5NC44IDk0LjggMTYgMTkyIDE2czE3NiA3OC44IDE3NiAxNzZjMCAxOC43LTYuNCA0Mi41LTE3LjggNjkuNnpNMjE1LjcgNDk5LjJDMjY3IDQzNSAzODQgMjc5LjQgMzg0IDE5MkMzODQgODYgMjk4IDAgMTkyIDBTMCA4NiAwIDE5MmMwIDg3LjQgMTE3IDI0MyAxNjguMyAzMDcuMmMxMi4zIDE1LjMgMzUuMSAxNS4zIDQ3LjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![location-pin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/location-pin.svg)
  */
 const LocationPin: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

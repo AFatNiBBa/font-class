@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-heart` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-heart?s=sharp-solid calendar-heart}
- * @preview ![calendar-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBsMCA2NCAxMjggMCAwLTY0IDY0IDAgMCA2NCA5NiAwIDAgOTZMMCAxNjAgMCA2NGw5NiAwTDk2IDBsNjQgMHpNMCAxOTJsNDQ4IDAgMCAzMjBMMCA1MTIgMCAxOTJ6TTExMiAzMTUuMmMwIDE2LjEgNi42IDMxLjUgMTguMiA0Mi43bDgyLjggNzkuNkwyMjQgNDQ4LjFsMTEuMS0xMC43IDgyLjgtNzkuNmMxMS42LTExLjIgMTguMi0yNi42IDE4LjItNDIuN2MwLTMyLjctMjYuNS01OS4yLTU5LjItNTkuMmwtMi40IDBjLTE1LjkgMC0zMS4yIDYuMi00Mi43IDE3LjJsLTcuNyA3LjQtNy43LTcuNGMtMTEuNS0xMS0yNi44LTE3LjItNDIuNy0xNy4ybC0yLjQgMGMtMzIuNyAwLTU5LjIgMjYuNS01OS4yIDU5LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![calendar-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calendar-heart.svg)
  */
 const CalendarHeart: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

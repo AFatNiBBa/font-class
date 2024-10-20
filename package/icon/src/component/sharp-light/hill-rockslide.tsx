@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hill-rockslide` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hill-rockslide?s=sharp-light hill-rockslide}
- * @preview ![hill-rockslide](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI5LjYgMTEybDQuNC03LjggMzYtNjQgNC42LTguMiA5LjQgMCA3MiAwIDkuNCAwIDQuNiA4LjIgMzYgNjQgNC40IDcuOC00LjQgNy44LTM2IDY0LTQuNiA4LjItOS40IDAtNzIgMC05LjQgMC00LjYtOC4yLTM2LTY0LTQuNC03Ljh6bTYzLjcgNDhsNTMuMyAwIDI3LTQ4LTI3LTQ4LTUzLjMgMC0yNyA0OCAyNyA0OHpNMCA0MS40TDI3LjMgNjguN2w0MTYgNDE2TDQ3MC42IDUxMiA0MzIgNTEyIDE2IDUxMiAwIDUxMmwwLTE2TDAgODAgMCA0MS40em0zMiA3Ny4zTDMyIDQ4MGwzNjEuNCAwTDMyIDExOC42ek00ODguMiA0MzcuOWwtNjQtMzYtOC4yLTQuNiAwLTkuNCAwLTcyIDAtOS40IDguMi00LjYgNjQtMzYgNy44LTQuNCA3LjggNC40IDY0IDM2IDguMiA0LjYgMCA5LjQgMCA3MiAwIDkuNC04LjIgNC42LTY0IDM2LTcuOCA0LjQtNy44LTQuNHpNNTQ0IDMyNS40bC00OC0yNy00OCAyNyAwIDUzLjMgNDggMjcgNDgtMjcgMC01My4zek0xMjggNjRhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHpNMzUyIDI1NmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hill-rockslide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hill-rockslide.svg)
  */
 const HillRockslide: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

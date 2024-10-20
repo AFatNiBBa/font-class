@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `card-club` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-club?s=sharp-light card-club}
- * @preview ![card-club](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDMybDAgNDQ4TDMyIDQ4MCAzMiAzMmwzMjAgMHpNMzIgMEwwIDAgMCAzMiAwIDQ4MGwwIDMyIDMyIDAgMzIwIDAgMzIgMCAwLTMyIDAtNDQ4IDAtMzJMMzUyIDAgMzIgMHpNMjA4IDMzMS45YzcuNSAyLjcgMTUuNiA0LjEgMjQgNC4xYzM5LjggMCA3Mi0zMi4yIDcyLTcyYzAtMjguMy0xNi4zLTUyLjctNDAtNjQuNWMtLjMtMzkuNS0zMi40LTcxLjUtNzItNzEuNXMtNzEuNyAzMi03MiA3MS41Qzk2LjMgMjExLjMgODAgMjM1LjcgODAgMjY0YzAgMzkuOCAzMi4yIDcyIDcyIDcyYzguNCAwIDE2LjUtMS40IDI0LTQuMWwwIDIwLjEtMTYgMC0xNiAwIDAgMzIgMTYgMCAxNiAwIDMyIDAgMTYgMCAxNiAwIDAtMzItMTYgMC0xNiAwIDAtMjAuMXpNMTUyIDIwMGMwLTIyLjEgMTcuOS00MCA0MC00MHM0MCAxNy45IDQwIDQwYzAgMi41LS4yIDQuOS0uNiA3LjJsLTIuNiAxNC4zIDE0IDMuOWMxNi45IDQuNyAyOS4yIDIwLjIgMjkuMiAzOC41YzAgMjIuMS0xNy45IDQwLTQwIDQwYy0xMS4yIDAtMjEuMy00LjYtMjguNi0xMkwxOTIgMjgwLjMgMTgwLjYgMjkyYy03LjMgNy40LTE3LjQgMTItMjguNiAxMmMtMjIuMSAwLTQwLTE3LjktNDAtNDBjMC0xOC4zIDEyLjMtMzMuOCAyOS4yLTM4LjVsMTQtMy45LTIuNi0xNC4zYy0uNC0yLjMtLjYtNC43LS42LTcuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![card-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/card-club.svg)
  */
 const CardClub: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

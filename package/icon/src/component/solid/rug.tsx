@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rug` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rug?s=solid rug}
- * @preview ![rug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgNjRsMzIgMCAyNCAwIDAgMjQgMCA4OCAwIDgwIDAgODAgMCA4OCAwIDI0LTI0IDAtMzIgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGw4IDAgMC00MC04IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsOCAwIDAtMzItOCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0bDggMCAwLTMyLTggMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGw4IDAgMC00MC04IDBDMTAuNyAxMTIgMCAxMDEuMyAwIDg4UzEwLjcgNjQgMjQgNjR6bTg4IDBsNDE2IDAgMCAzODQtNDE2IDAgMC0zODR6TTY0MCA4OGMwIDEzLjMtMTAuNyAyNC0yNCAyNGwtOCAwIDAgNDAgOCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC04IDAgMCAzMiA4IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTggMCAwIDMyIDggMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtOCAwIDAgNDAgOCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0zMiAwLTI0IDAgMC0yNCAwLTg4IDAtODAgMC04MCAwLTg4IDAtMjQgMjQgMCAzMiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/rug.svg)
  */
 const Rug: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

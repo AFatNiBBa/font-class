@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pallet` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pallet?s=thin pallet}
- * @preview ![pallet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAzNTJjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsNzIgMCAwIDEyOEw4IDQ5NmMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGw4MCAwIDIzMiAwIDIzMiAwIDgwIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTcyIDAgMC0xMjggNzIgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtODAgMC0yMzIgMEw4OCAzNTIgOCAzNTJ6bTg4IDE2bDIxNiAwIDAgMTI4TDk2IDQ5NmwwLTEyOHptMjMyIDBsMjE2IDAgMCAxMjgtMjE2IDAgMC0xMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pallet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pallet.svg)
  */
 const Pallet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

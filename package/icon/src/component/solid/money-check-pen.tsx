@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-check-pen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-check-pen?s=solid money-check-pen}
- * @preview ![money-check-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhMMCAzODRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjY2LjUgMCA2LTIzLjljMi44LTExLjMgOC42LTIxLjUgMTYuOC0yOS43TDUzNC42IDIxMy4xYzExLjYtMTEuNiAyNi4zLTE4LjUgNDEuNC0yMC41bDAtNjQuNmMwLTM1LjMtMjguNy02NC02NC02NEw2NCA2NHptNDggMjI0bDIyNCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0yMjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnpNOTYgMjA4YzAtOC44IDcuMi0xNiAxNi0xNmwzMjAgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMzIwIDBjLTguOCAwLTE2LTcuMi0xNi0xNnptNTE3LjggMjcuN2MtMTUuNi0xNS42LTQwLjktMTUuNi01Ni42IDBsLTI5LjQgMjkuNCA3MSA3MSAyOS40LTI5LjRjMTUuNi0xNS42IDE1LjYtNDAuOSAwLTU2LjZsLTE0LjQtMTQuNHpNMzc1LjkgNDE3Yy00LjEgNC4xLTcgOS4yLTguNCAxNC45bC0xNSA2MC4xYy0xLjQgNS41IC4yIDExLjIgNC4yIDE1LjJzOS43IDUuNiAxNS4yIDQuMmw2MC4xLTE1YzUuNi0xLjQgMTAuOC00LjMgMTQuOS04LjRMNTc2LjEgMzU4LjdsLTcxLTcxTDM3NS45IDQxN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![money-check-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/money-check-pen.svg)
  */
 const MoneyCheckPen: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

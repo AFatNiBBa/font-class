@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left?s=sharp-light arrow-left}
- * @preview ![arrow-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIuNyAyNDQuN0wxLjQgMjU2bDExLjMgMTEuMyAxNjggMTY4TDE5MiA0NDYuNiAyMTQuNiA0MjRsLTExLjMtMTEuM0w2Mi42IDI3MiA0MzIgMjcybDE2IDAgMC0zMi0xNiAwTDYyLjYgMjQwIDIwMy4zIDk5LjMgMjE0LjYgODggMTkyIDY1LjQgMTgwLjcgNzYuN2wtMTY4IDE2OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-left.svg)
  */
 const ArrowLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

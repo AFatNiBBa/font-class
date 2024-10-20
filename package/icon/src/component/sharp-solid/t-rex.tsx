@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `t-rex` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/t-rex?s=sharp-solid t-rex}
- * @preview ![t-rex](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDI4OGwtMzIgMEw0OCAxOTJsLTE2IDAtNi4zIDkuNEM5IDIyNi42IDAgMjU2LjEgMCAyODYuNEMwIDM1OCA1OCA0MTYgMTI5LjYgNDE2bDU0LjQgMCA3MiA5NiAxMjggMCAwLTE2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0xOC42LTQ5LjYgNDEuOS0zNy43TDM2OCAzNTJsMC0zMmMwLTM1LjMtMjguNy02NC02NC02NGwtMTYgMC0xNiAwIDAtMzIgMTYgMCAxNiAwYzM0LjggMCA2NS4zIDE4LjUgODIuMSA0Ni4zTDQzMiAzMDAuOGwwIDE5LjIgMCAyNCA0OCAwIDAtMjQgMC0zMiAwLTEyLjhMNDY5LjMgMjY4bC00NC40LTI5LjZMNDY0IDIwOGwxMTIgMCAyMS4zLTMyTDU1MiAxNzZsLTMuMyAwLTIuMy0yLjNMNTE2LjcgMTQ0IDQ4OCAxNDRsLTggMCAwLTE2IDggMCAzMiAwIDMuMyAwIDIuMyAyLjNMNTU1LjMgMTYwbDUyLjcgMCAyNCAwIDggMCAwLTQ4YzAtNDQuMi0zNS44LTgwLTgwLTgwbC0xNiAwTDUyOCAwIDQ0MC4zIDAgNDQwIDBzMCAwIDAgMGMtMzMuNSAuMS02My4yIDIxLjYtNzMuOCA1My40TDM1MiA5NmwtMzIgMzItNDEgMGMtNzAuNyAwLTEzMi45IDQ2LjMtMTUzLjMgMTE0TDExMiAyODh6TTQ4MCA1NmExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![t-rex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/t-rex.svg)
  */
 const TRex: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

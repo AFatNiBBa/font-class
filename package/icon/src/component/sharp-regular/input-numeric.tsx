@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `input-numeric` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-numeric?s=sharp-regular input-numeric}
- * @preview ![input-numeric](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTkyIDExMmwwIDI4OEw0OCA0MDBsMC0yODggNTQ0IDB6TTQ4IDY0TDAgNjRsMCA0OEwwIDQwMGwwIDQ4IDQ4IDAgNTQ0IDAgNDggMCAwLTQ4IDAtMjg4IDAtNDgtNDggMEw0OCA2NHptNTYgOTZsMCA0OCAyNCAwIDggMCAwIDk2LTE2IDAtMjQgMCAwIDQ4IDI0IDAgODAgMCAyNCAwIDAtNDgtMjQgMC0xNiAwIDAtMTIwIDAtMjQtMjQgMC0zMiAwLTI0IDB6bTIxMy40IDUxLjhjNS45IDYuNyA1LjcgMTYuNy0uMyAyMy4zTDI0OCAzMDkuOWwwIDQyLjEgMTYgMCA4OCAwIDI0IDAgMC00OC0yNCAwLTMzLjIgMCAzMy42LTM2LjRjMTctMTguNCAyMS41LTQ0LjEgMTMuNS02Ni40bDMuNC0zLTE1LjgtMTguMWMtMjYuMi0zMC03My0yOS43LTk4LjkgLjVsLTE2LjkgMTkuNyAzNi40IDMxLjIgMTYuOS0xOS43YzYuOS04LjEgMTkuMy04LjEgMjYuMy0uMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![input-numeric](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/input-numeric.svg)
  */
 const InputNumeric: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

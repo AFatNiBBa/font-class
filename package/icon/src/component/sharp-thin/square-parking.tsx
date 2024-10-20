@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-parking` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-parking?s=sharp-thin square-parking}
- * @preview ![square-parking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNDE2IDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA0MTYgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnptMTUyIDk2bDEwNCAwYzQ4LjYgMCA4OCAzOS40IDg4IDg4bDAgOC0uNCAwYy00IDQ0LjktNDEuNyA4MC04Ny42IDgwbC05NiAwIDAgNzIgMCA4LTE2IDAgMC04IDAtNzIgMC0xNiAwLTE1MiAwLTggOCAwek0yNTYgMjg4YzM5LjggMCA3Mi0zMi4yIDcyLTcycy0zMi4yLTcyLTcyLTcybC05NiAwIDAgMTQ0IDk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-parking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-parking.svg)
  */
 const SquareParking: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

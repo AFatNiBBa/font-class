@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `yandex` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/yandex?s=brands yandex}
- * @preview ![yandex](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUzLjEgMzE1LjhMNjUuNyA1MTJIMmw5Ni0yMDkuOGMtNDUuMS0yMi45LTc1LjItNjQuNC03NS4yLTE0MS4xQzIyLjcgNTMuNyA5MC44IDAgMTcxLjcgMEgyNTR2NTEyaC01NS4xVjMxNS44aC00NS44em00NS44LTI2OS4zaC0yOS40Yy00NC40IDAtODcuNCAyOS40LTg3LjQgMTE0LjYgMCA4Mi4zIDM5LjQgMTA4LjggODcuNCAxMDguOGgyOS40VjQ2LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![yandex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/yandex.svg)
  */
 const Yandex: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grapes` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grapes?s=solid grapes}
- * @preview ![grapes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ2LjcgNkMzMzcuNiAxNyAzMjAgNDIuMyAzMjAgNzJjMCA0MCAxNS4zIDU1LjMgNDAgODBzNDAgNDAgODAgNDBjMjkuNyAwIDU1LTE3LjYgNjYtMjYuN2M0LTMuMyA2LTguMiA2LTEzLjNzLTItMTAtNi0xMy4yYy0xMS40LTkuMS0zOC4zLTI2LjgtNzQtMjYuOGMtMzIgMC00MCA4LTQwIDhzOC04IDgtNDBjMC0zNS43LTE3LjctNjIuNi0yNi44LTc0QzM3MCAyIDM2NS4xIDAgMzYwIDBzLTEwIDItMTMuMyA2ek0zMDQgMTUyYTU2IDU2IDAgMSAwIC0xMTIgMCA1NiA1NiAwIDEgMCAxMTIgMHpNMTEyIDIzMmE1NiA1NiAwIDEgMCAwLTExMiA1NiA1NiAwIDEgMCAwIDExMnptMzIgODBBNTYgNTYgMCAxIDAgMzIgMzEyYTU2IDU2IDAgMSAwIDExMiAwek0xMTIgNDU2QTU2IDU2IDAgMSAwIDAgNDU2YTU2IDU2IDAgMSAwIDExMiAwem0xNDQtMzJhNTYgNTYgMCAxIDAgLTExMiAwIDU2IDU2IDAgMSAwIDExMiAwem04MCAzMmE1NiA1NiAwIDEgMCAwLTExMiA1NiA1NiAwIDEgMCAwIDExMnpNMjgwIDI4OGE1NiA1NiAwIDEgMCAtMTEyIDAgNTYgNTYgMCAxIDAgMTEyIDB6bTgwIDMyYTU2IDU2IDAgMSAwIDAtMTEyIDU2IDU2IDAgMSAwIDAgMTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![grapes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/grapes.svg)
  */
 const Grapes: typeof Icon = x => (
     <Icon {...x}>

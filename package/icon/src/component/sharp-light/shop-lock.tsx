@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shop-lock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop-lock?s=sharp-light shop-lock}
- * @preview ![shop-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ5LjYgMTkyYy05LjQgOS4yLTE3LjEgMjAtMjIuOCAzMkw5NiAyMjRsMCAxMjggMjU2IDAgMC04MCAwLTE2IDMyIDAgMCAxNiAwIDE1LjdzMCAwIDAgMEwzODQgNTEybC0xNiAwTDgwIDUxMmwtMTYgMCAwLTE2IDAtMjcyLTMyIDBMMCAyMjRsMC0zMiAwLTE2TDk2IDAgNTQ0IDBsOTYgMTc2IDAgMTYgMCAzMi0xMC44IDBjLTUuNy0xMi0xMy41LTIyLjgtMjIuOC0zMmwxLjYgMCAwLTcuOEw1MjUgMzIgMTE1IDMyIDMyIDE4NC4ybDAgNy44IDMyIDAgMzIgMCAzNTMuNiAwek05NiA0ODBsMjU2IDAgMC05Nkw5NiAzODRsMCA5NnpNNTI4IDIyNGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCA0OCA5NiAwIDAtNDhjMC0yNi41LTIxLjUtNDgtNDgtNDh6bS04MCA0OGMwLTQ0LjIgMzUuOC04MCA4MC04MHM4MCAzNS44IDgwIDgwbDAgNDggMzIgMCAwIDMyIDAgMTI4IDAgMzItMzIgMC0xNjAgMC0zMiAwIDAtMzIgMC0xMjggMC0zMiAzMiAwIDAtNDh6bTAgODBsMCAxMjggMTYwIDAgMC0xMjgtMTYwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shop-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shop-lock.svg)
  */
 const ShopLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

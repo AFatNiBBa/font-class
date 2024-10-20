@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-slash?s=sharp-light signal-slash}
- * @preview ![signal-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTkyIDE2bDAtMTZMNTYwIDBsMCAxNiAwIDM0Ny45IDMyIDI1LjNMNTkyIDE2ek00NjQgNDUxLjJMNDMyIDQyNmwwIDcwIDAgMTYgMzIgMCAwLTE2IDAtNDQuOHpNMzM2IDM1MC4ybC0zMi0yNS4zTDMwNCA0OTZsMCAxNiAzMiAwIDAtMTYgMC0xNDUuOHpNNDMyIDExMmwwIDE1MC45IDMyIDI1LjNMNDY0IDExMmwwLTE2LTMyIDAgMCAxNnpNMjA4IDI4OGwtMzIgMCAwIDE2IDAgMTkyIDAgMTYgMzIgMCAwLTE2IDAtMTkyIDAtMTZ6TTgwIDM4NGwtMzIgMCAwIDE2IDAgOTYgMCAxNiAzMiAwIDAtMTYgMC05NiAwLTE2ek00MC40IDE4TDI3LjggOC4xIDguMSAzMy40bDEyLjYgOS44TDU5OS44IDQ5NC4zbDEyLjYgOS44IDE5LjctMjUuMkw2MTkuNSA0NjkgNDAuNCAxOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![signal-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/signal-slash.svg)
  */
 const SignalSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

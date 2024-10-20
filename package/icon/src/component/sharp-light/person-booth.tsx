@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-booth` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-booth?s=sharp-light person-booth}
- * @preview ![person-booth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgODBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek04MCAwYTU2IDU2IDAgMSAxIDAgMTEyQTU2IDU2IDAgMSAxIDgwIDB6TTMyIDE3NmwwIDE2IDAgOTUuNiA0OCAzM0w4MCAxNzZsLTQ4IDBzMCAwIDAgMHMwIDAgMCAwem0wIDE1MC40TDMyIDQ5NmwwIDE2TDAgNTEybDAtMTZMMCAzMDQuNHMwIDAgMCAwTDAgMjk2IDAgMTYwbDAtMTYgMTYgMCA4MCAwIDguNyAwIDQuNyA3LjNMMTc2LjcgMjU2bDYzLjMgMCAxNiAwIDAgMzItMTYgMC03MiAwLTguNyAwLTQuNy03LjNMMTEyIDIxNC41bDAgMTI4LjEgNDEuMSAyOC4yIDYuOSA0LjggMCA4LjQgMCAxMTIgMCAxNi0zMiAwIDAtMTYgMC0xMDMuNkw4MC45IDM2MGwtLjkgMCAwLS42LTQ4LTMzek0yMDggMGwxNiAwIDM0LjUgMEwyODAgMCA1NjAgMGwxNiAwIDAgMTYgMCA0MTYgMCAxNiAwIDQ4IDAgMTYtMzIgMCAwLTE2IDAtNDgtMjQwIDAtMTYgMCAwLTE2IDAtNjQgMC0zLjMgMS4zLTNMMzM1IDI1NSAyNjguMSAzMiAyNDAgMzJsMCAxOTItMzIgMCAwLTIwOCAwLTE2em05My41IDMybDY1LjggMjE5LjRMMzY5IDI1N2wtMi4zIDUuM0wzMjAgMzcxLjNsMCA0NC43IDIyNCAwIDAtMzg0TDMwMS41IDMyek0yNDAgMzIwbDAgMTc2IDAgMTYtMzIgMCAwLTE2IDAtMTc2IDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-booth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-booth.svg)
  */
 const PersonBooth: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

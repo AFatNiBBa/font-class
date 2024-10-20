@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-open-reader` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-open-reader?s=regular book-open-reader}
- * @preview ![book-open-reader](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE0NGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6TTI1NiAwYTk2IDk2IDAgMSAxIDAgMTkyQTk2IDk2IDAgMSAxIDI1NiAwek0yMjggMjc5bC0uMi0uMWMtLjctLjUtMi40LTEuNS01LjItMi45Yy01LjUtMi44LTE1LjQtNy4zLTMwLjYtMTIuMmMtMjgtOS03NC4yLTE5LjMtMTQ0LTIyLjdsMCAxNzYuM2M4NC45IDUgMTQ3LjEgMjIuMyAxODQgMzUuN0wyMzIgMjgybC00LTN6bTUyIDNsMCAxNzEuMWMzNi45LTEzLjQgOTkuMS0zMC43IDE4NC0zNS43bDAtMTc2LjNjLTY5LjkgMy40LTExNiAxMy43LTE0NCAyMi43Yy0xNS4xIDQuOS0yNSA5LjQtMzAuNiAxMi4yYy0yLjggMS40LTQuNSAyLjQtNS4yIDIuOWwtLjIgLjEtNCAzek0zMiAxOTIuNUMxOTkuMiAxOTcuNCAyNTYgMjQwIDI1NiAyNDBzNTYuOC00Mi42IDIyNC00Ny41YzE3LjctLjUgMzIgMTMuOSAzMiAzMS41bDAgMjA4YzAgMTcuNy0xNC40IDMxLjktMzIgMzIuN2MtMTE0LjkgNC43LTE4Ni45IDMzLjctMjA4LjggNDMuOGMtNC44IDIuMi05LjkgMy41LTE1LjEgMy41cy0xMC40LTEuMy0xNS4xLTMuNWMtMjEuOS0xMC4xLTkzLjktMzkuMS0yMDguOC00My44Yy0xNy43LS43LTMyLTE1LTMyLTMyLjdMMCAyMjRjMC0xNy43IDE0LjQtMzIuMSAzMi0zMS41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-open-reader](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/book-open-reader.svg)
  */
 const BookOpenReader: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clouds` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clouds?s=solid clouds}
- * @preview ![clouds](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDE2MGMtNzQuMSAwLTEzNS4yIDU2LTE0My4xIDEyOEw5NiAyODhjLTUzIDAtOTYtNDMtOTYtOTZzNDMtOTYgOTYtOTZsMS4xIDBDMTA0LjkgNDEuNyAxNTEuNiAwIDIwOCAwYzQ3LjkgMCA4OC44IDMwLjEgMTA0LjggNzIuNEMzMjQuOCA2NyAzMzggNjQgMzUyIDY0YzUzIDAgOTYgNDMgOTYgOTZjMCAxMi4xLTIuMiAyMy42LTYuMyAzNC4yYy0xMS40IDIuMy0yMi4yIDYuNC0zMi4xIDExLjlDMzgzLjMgMTc3LjcgMzQ1LjcgMTYwIDMwNCAxNjB6TTIyNCA1MTJjLTUzIDAtOTYtNDMtOTYtOTZjMC00Mi41IDI3LjYtNzguNiA2NS45LTkxLjJjLTEuMy02LjctMS45LTEzLjctMS45LTIwLjhjMC02MS45IDUwLjEtMTEyIDExMi0xMTJjNDMuMSAwIDgwLjUgMjQuMyA5OS4yIDYwYzE0LjctMTcuMSAzNi41LTI4IDYwLjgtMjhjNDQuMiAwIDgwIDM1LjggODAgODBjMCA1LjUtLjYgMTAuOC0xLjYgMTZjLjUgMCAxLjEgMCAxLjYgMGM1MyAwIDk2IDQzIDk2IDk2cy00MyA5Ni05NiA5NmwtMzIwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clouds](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/clouds.svg)
  */
 const Clouds: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

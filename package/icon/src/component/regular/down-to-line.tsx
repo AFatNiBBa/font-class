@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-to-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-to-line?s=regular down-to-line}
- * @preview ![down-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODIuMiAyMjRMMTkyIDMzNCAzMDEuOCAyMjQgMjQ4IDIyNGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xMjAtNjQgMCAwIDEyMGMwIDEzLjMtMTAuNyAyNC0yNCAyNGwtNTMuOCAwek0xOTIgMzg0Yy0xMS41IDAtMjIuNS00LjYtMzAuNi0xMi43TDQ1LjYgMjU1LjJDMzYuOSAyNDYuNSAzMiAyMzQuNyAzMiAyMjIuNEMzMiAxOTYuOCA1Mi44IDE3NiA3OC40IDE3NmwzMy42IDAgMC05NmMwLTI2LjUgMjEuNS00OCA0OC00OGw2NCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgOTYgMzMuNiAwYzI1LjYgMCA0Ni40IDIwLjggNDYuNCA0Ni40YzAgMTIuMy00LjkgMjQuMS0xMy42IDMyLjhMMjIyLjYgMzcxLjNjLTguMSA4LjEtMTkuMSAxMi43LTMwLjYgMTIuN3pNMjQgNDMybDMzNiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0TDI0IDQ4MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-to-line.svg)
  */
 const DownToLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

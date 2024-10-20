@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gas-pump` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gas-pump?s=regular gas-pump}
- * @preview ![gas-pump](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDEyOEw4MCAxOTIgODAgNjRjMC04LjggNy4yLTE2IDE2LTE2bDE2MCAwem0xNiAxOTJsMCAyMjRMODAgNDY0bDAtMjI0IDE5MiAwek0zMiA2NGwwIDQwMC04IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsOCAwIDQ4IDAgMTkyIDAgNDggMCA4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTggMCAwLTE2MCA4IDBjMjIuMSAwIDQwIDE3LjkgNDAgNDBsMCAzMmMwIDM5LjggMzIuMiA3MiA3MiA3MnM3Mi0zMi4yIDcyLTcybDAtMjIwLjFjMC0xOS4xLTcuNi0zNy40LTIxLjEtNTAuOUw0MTcgMzFjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsMzMgMzMgMCA2Mi4xYzAgMjkuOCAyMC40IDU0LjkgNDggNjJsMCAxNTRjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0zMmMwLTQ4LjYtMzkuNC04OC04OC04OGwtOCAwIDAtMTkyYzAtMzUuMy0yOC43LTY0LTY0LTY0TDk2IDBDNjAuNyAwIDMyIDI4LjcgMzIgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![gas-pump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gas-pump.svg)
  */
 const GasPump: typeof Icon = x => (
     <Icon {...x}>

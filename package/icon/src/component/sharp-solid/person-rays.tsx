@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-rays` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-rays?s=sharp-solid person-rays}
- * @preview ![person-rays](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptLTUxLjEgMzJsLTE3LjUgMEwxNzggMTQyLjhsLTgxLjcgMTI4IDUzLjkgMzQuNCAzMy44LTUzTDE4NCA0ODBsMCAzMiA2NCAwIDAtMzIgMC0xMjggMTYgMCAwIDEyOCAwIDMyIDY0IDAgMC0zMiAwLTIyNy44IDMzLjggNTMgNTMuOS0zNC40TDMzNCAxNDIuOCAzMjQuNiAxMjhsLTE3LjUgMC0xMDIuMiAwek01NyAyM0w0MCA2LjEgNi4xIDQwIDIzIDU3bDY0IDY0IDE3IDE3TDEzNy45IDEwNCAxMjEgODcgNTcgMjN6TTQ4OSA1N2wxNy0xN0w0NzIgNi4xIDQ1NSAyMyAzOTEgODdsLTE3IDE3TDQwOCAxMzcuOWwxNy0xNyA2NC02NHpNMTIxIDQyNWwxNy0xN0wxMDQgMzc0LjEgODcgMzkxIDIzIDQ1NWwtMTcgMTdMNDAgNTA1LjlsMTctMTcgNjQtNjR6TTQyNSAzOTFsLTE3LTE3TDM3NC4xIDQwOGwxNyAxNyA2NCA2NCAxNyAxN0w1MDUuOSA0NzJsLTE3LTE3LTY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-rays](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-rays.svg)
  */
 const PersonRays: typeof Icon = x => (
     <Icon {...x}>

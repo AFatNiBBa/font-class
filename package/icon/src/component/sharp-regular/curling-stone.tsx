@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `curling-stone` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/curling-stone?s=sharp-regular curling-stone}
- * @preview ![curling-stone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDMybDI0IDAgMTkyIDAgMjQgMCAwIDQ4LTI0IDBMMjI0IDgwbDAgNjQgMjU2IDAgMCA2NCAzMiAwIDY0IDY0IDAgNDAgMCA4IDAgOTYtNjQgNjRMNjQgNDgwIDAgNDE2bDAtOTYgMC04IDAtNDAgNjQtNjQgMzIgMCAwLTY0IDgwIDAgMC04OCAwLTI0ek00OCAzMTJsMCA4IDQ4MCAwIDAtOCAwLTIwLjFMNDkyLjEgMjU2IDgzLjkgMjU2IDQ4IDI5MS45IDQ4IDMxMnptMCA1NmwwIDI4LjFMODMuOSA0MzJsNDA4LjIgMEw1MjggMzk2LjFsMC0yOC4xTDQ4IDM2OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![curling-stone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/curling-stone.svg)
  */
 const CurlingStone: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

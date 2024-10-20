@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `music-note` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-note?s=sharp-regular music-note}
- * @preview ![music-note](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDEyOGwwLTQxLjhMMzM2IDYwLjNsMCA2MS41TDIyNCAxNDcuN2wwLTE5Ljd6bS00OCA4MGwwIDE1OC4zYy0xOC4xLTktNDAuMi0xNC4zLTY0LTE0LjNDNTAuMSAzNTIgMCAzODcuOCAwIDQzMnM1MC4xIDgwIDExMiA4MHMxMTItMzUuOCAxMTItODBsMC0yMzUuMUwzODQgMTYwbDAtMTEwLjdMMzg0IDAgMzM2IDExLjEgMTc2IDQ4bDAgODAgMCAzMC43IDAgNDkuM3pNMTYzLjMgNDE0LjVjMTEuMyA4LjEgMTIuNyAxNC45IDEyLjcgMTcuNXMtMS40IDkuNC0xMi43IDE3LjVjLTExLjIgOC0yOS4yIDE0LjUtNTEuMyAxNC41cy00MC4xLTYuNS01MS4zLTE0LjVDNDkuNCA0NDEuNCA0OCA0MzQuNiA0OCA0MzJzMS40LTkuNCAxMi43LTE3LjVjMTEuMi04IDI5LjItMTQuNSA1MS4zLTE0LjVzNDAuMSA2LjUgNTEuMyAxNC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![music-note](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/music-note.svg)
  */
 const MusicNote: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

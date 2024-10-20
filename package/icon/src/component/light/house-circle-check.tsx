@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-circle-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-circle-check?s=light house-circle-check}
- * @preview ![house-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc3LjQgNGM2LTUuMyAxNS4xLTUuMyAyMS4yIDBMNTEyLjUgMTkyLjhjLTUuNC0uNS0xMC45LS44LTE2LjUtLjhjLTEwLjIgMC0yMC4yIC45LTI5LjkgMi41TDI4OCAzNy4zIDk2IDIwNi43IDk2IDQzMmMwIDI2LjUgMjEuNSA0OCA0OCA0OGw2NCAwIDAtMTYwYzAtMTcuNyAxNC4zLTMyIDMyLTMybDk2IDBjMSAwIDIuMSAuMSAzLjEgLjFjLTUuMSAxMC4xLTkuMyAyMC43LTEyLjUgMzEuOUwyNDAgMzIwbDAgMTYwIDE2IDAgODAgMCAyNC4yIDBjMTAgMTIuMSAyMS43IDIyLjkgMzQuNiAzMkwxNDQgNTEyYy00NC4yIDAtODAtMzUuOC04MC04MGwwLTE5N0wyNi42IDI2OEMyMCAyNzMuOCA5LjggMjczLjIgNCAyNjYuNlMtMS4yIDI0OS44IDUuNCAyNDRMMjc3LjQgNHpNNDk2IDQ4MGExMTIgMTEyIDAgMSAwIDAtMjI0IDExMiAxMTIgMCAxIDAgMCAyMjR6bTAtMjU2YTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptNjcuMyAxMDAuN2M2LjIgNi4yIDYuMiAxNi40IDAgMjIuNmwtNzIgNzJjLTYuMiA2LjItMTYuNCA2LjItMjIuNiAwbC00MC00MGMtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZzMTYuNC02LjIgMjIuNiAwTDQ4MCAzODUuNGw2MC43LTYwLjdjNi4yLTYuMiAxNi40LTYuMiAyMi42IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/house-circle-check.svg)
  */
 const HouseCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

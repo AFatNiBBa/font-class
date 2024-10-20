@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clapperboard-play` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clapperboard-play?s=solid clapperboard-play}
- * @preview ![clapperboard-play](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUzLjggMzIuM0wzMjcgMTU5bC0xIDEtOTIuMSAwTDM2MSAzM2wxLTFMNDQ4IDMyYzIgMCAzLjkgLjEgNS44IC4zek0zOTMuOSAxNjBMNDk4IDU2YzguOCAxMSAxNCAyNC45IDE0IDQwbDAgNjQtMTE4LjEgMHpNMjAxLjkgMzJsOTIuMSAwTDE2NyAxNTlsLTEgMS05Mi4xIDBMMjAxIDMzbDEtMXptLTY3LjkgMEw3IDE1OWwtMSAxTDAgMTYwIDAgOTZDMCA2MC43IDI4LjcgMzIgNjQgMzJsNzAuMSAwek0wIDE5Mmw1MTIgMCAwIDIyNGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgMTkyem0yMTYuNSA2NS45Yy01LjIgMi44LTguNSA4LjItOC41IDE0LjFsMCAxMjhjMCA1LjkgMy4yIDExLjMgOC41IDE0LjFzMTEuNSAyLjUgMTYuNC0uOGw5Ni02NGM0LjQtMyA3LjEtOCA3LjEtMTMuM3MtMi43LTEwLjMtNy4xLTEzLjNsLTk2LTY0Yy00LjktMy4zLTExLjItMy42LTE2LjQtLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clapperboard-play](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/clapperboard-play.svg)
  */
 const ClapperboardPlay: typeof Icon = x => (
     <Icon {...x}>

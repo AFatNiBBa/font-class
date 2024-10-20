@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cabinet-filing` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabinet-filing?s=thin cabinet-filing}
- * @preview ![cabinet-filing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDI0OEwxNiAyNDggMTYgNjRjMC0yNi41IDIxLjUtNDggNDgtNDhsMzIwIDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAxODR6TTAgMjU2bDAgOEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTE4NCAwLTggMC04IDAtMTg0YzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgMjQ4bDAgOHpNNDMyIDQ0OGMwIDI2LjUtMjEuNSA0OC00OCA0OEw2NCA0OTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTg0IDQxNiAwIDAgMTg0ek0xNDQgMTIwYzAtNC40IDMuNi04IDgtOGwxNDQgMGM0LjQgMCA4IDMuNiA4IDhsMCAxNmMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtMTZjMC0xMy4zLTEwLjctMjQtMjQtMjRMMTUyIDk2Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDE2YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0xNnptOCAyMzJjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgMTZjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTE2YzAtNC40IDMuNi04IDgtOGwxNDQgMGM0LjQgMCA4IDMuNiA4IDhsMCAxNmMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtMTZjMC0xMy4zLTEwLjctMjQtMjQtMjRsLTE0NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cabinet-filing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cabinet-filing.svg)
  */
 const CabinetFiling: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

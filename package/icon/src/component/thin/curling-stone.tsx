@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `curling-stone` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/curling-stone?s=thin curling-stone}
- * @preview ![curling-stone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDEwNGMwLTMwLjkgMjUuMS01NiA1Ni01NmwxNjAgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEwyNDggMzJjLTM5LjggMC03MiAzMi4yLTcyIDcybDAgNTYtMjQgMGMtMzAuOSAwLTU2IDI1LjEtNTYgNTZsMCA5LjFDNDEuNyAyMzIuOSAwIDI3OS42IDAgMzM2bDAgMzJjMCA2MS45IDUwLjEgMTEyIDExMiAxMTJsMzUyIDBjNjEuOSAwIDExMi01MC4xIDExMi0xMTJsMC0zMmMwLTU2LjQtNDEuNy0xMDMuMS05Ni0xMTAuOWwwLTkuMWMwLTMwLjktMjUuMS01Ni01Ni01NmwtMjMyIDAgMC01NnpNNDY0IDIyNGwtMzUyIDAgMC04YzAtMjIuMSAxNy45LTQwIDQwLTQwbDMyIDAgMjQwIDBjMjIuMSAwIDQwIDE3LjkgNDAgNDBsMCA4ek0xMTIgNDY0Yy01MyAwLTk2LTQzLTk2LTk2bDAtOCA1NDQgMCAwIDhjMCA1My00MyA5Ni05NiA5NmwtMzUyIDB6TTE2IDM0NGwwLThjMC01MyA0My05NiA5Ni05NmwzNTIgMGM1MyAwIDk2IDQzIDk2IDk2bDAgOEwxNiAzNDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![curling-stone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/curling-stone.svg)
  */
 const CurlingStone: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-xmark?s=solid cart-xmark}
- * @preview ![cart-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEMxMC43IDAgMCAxMC43IDAgMjRTMTAuNyA0OCAyNCA0OGw0NS41IDBjMy44IDAgNy4xIDIuNyA3LjkgNi41bDUxLjYgMjcxYzYuNSAzNCAzNi4yIDU4LjUgNzAuNyA1OC41TDQ4OCAzODRjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTI4OC4zIDBjLTExLjUgMC0yMS40LTguMi0yMy42LTE5LjVMMTcwLjcgMjg4bDI4OC41IDBjMzIuNiAwIDYxLjEtMjEuOCA2OS41LTUzLjNsNDEtMTUyLjNDNTc2LjYgNTcgNTU3LjQgMzIgNTMxLjEgMzJsLTQxMSAwQzExMSAxMi44IDkxLjYgMCA2OS41IDBMMjQgMHpNMTc2IDUxMmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bTMzNi00OGE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwek0zOTUuNCAxMjguOUwzNjQuMyAxNjBsMzEuMSAzMS4xYzcuOCA3LjggNy44IDIwLjUgMCAyOC4zcy0yMC41IDcuOC0yOC4zIDBMMzM2IDE4OC4zbC0zMS4xIDMxLjFjLTcuOCA3LjgtMjAuNSA3LjgtMjguMyAwcy03LjgtMjAuNSAwLTI4LjNMMzA3LjcgMTYwbC0zMS4xLTMxLjFjLTcuOC03LjgtNy44LTIwLjUgMC0yOC4zczIwLjUtNy44IDI4LjMgMEwzMzYgMTMxLjdsMzEuMS0zMS4xYzcuOC03LjggMjAuNS03LjggMjguMyAwczcuOCAyMC41IDAgMjguM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-xmark.svg)
  */
 const CartXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

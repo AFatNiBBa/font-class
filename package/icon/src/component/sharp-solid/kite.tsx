@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kite` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kite?s=sharp-solid kite}
- * @preview ![kite](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDBMMzE4LjYgMGwtNS44IDI0LjgtODAgMzQ0LTEuNCA1LjhMMTQyLjEgNDY0IDEyMCA0NjRsMC0xMDcuMy0yNC0xMC0yNCAxMEw3MiA0ODhsMCAyNCAyNCAwIDU2IDAgOS45IDAgNy03IDk2LjQtOTYuNCA1LjgtMS40IDM0NC04MCAyNC44LTUuOCAwLTI1LjQgMC0yNjQgMC0zMkw2MDggMCAzNDQgMHpNMjQgMTI4TDAgMTI4bDAgNDggMjQgMCA0OCAwIDAgMTEwTDAgMjU2bDAgOTYgNzItMzAgMjQtMTAgMjQgMTAgNzIgMzAgMC05Ni03MiAzMCAwLTEzNCAwLTI0LTI0IDAtNzIgMHpNNDI3LjMgODQuN0w0ODAgMTM3LjRsNTIuNy01Mi43TDU0NCA3My40IDU2Ni42IDk2bC0xMS4zIDExLjNMNTAyLjYgMTYwbDUyLjcgNTIuN0w1NjYuNiAyMjQgNTQ0IDI0Ni42bC0xMS4zLTExLjNMNDgwIDE4Mi42IDM2My4zIDI5OS4zIDM1MiAzMTAuNiAzMjkuNCAyODhsMTEuMy0xMS4zTDQ1Ny40IDE2MGwtNTIuNy01Mi43TDM5My40IDk2IDQxNiA3My40bDExLjMgMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![kite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/kite.svg)
  */
 const Kite: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

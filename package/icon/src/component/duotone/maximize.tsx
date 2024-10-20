@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `maximize` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/maximize?s=duotone maximize}
- * @preview ![maximize](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiA1NmwwIDE0NGMwIDkuNyA1LjggMTguNSAxNC44IDIyLjJzMTkuMyAxLjcgMjYuMi01LjJsNDAtNDAgNzkgNzljMjEuMy0yMS4zIDQyLjctNDIuNyA2NC02NGwtNzktNzkgNDAtNDBjNi45LTYuOSA4LjktMTcuMiA1LjItMjYuMlMyMDkuNyAzMiAyMDAgMzJMNTYgMzJDNDIuNyAzMiAzMiA0Mi43IDMyIDU2ek0yNTYgMzIwbDc5IDc5LTQwIDQwYy02LjkgNi45LTguOSAxNy4yLTUuMiAyNi4yczEyLjUgMTQuOCAyMi4yIDE0LjhsMTQ0IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC0xNDRjMC05LjctNS44LTE4LjUtMTQuOC0yMi4ycy0xOS4zLTEuNy0yNi4yIDUuMmwtNDAgNDAtNzktNzktNjQgNjR6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik00ODAgNTZsMCAxNDRjMCA5LjctNS44IDE4LjUtMTQuOCAyMi4ycy0xOS4zIDEuNy0yNi4yLTUuMmwtNDAtNDBMMTc3IDM5OWw0MCA0MGM2LjkgNi45IDguOSAxNy4yIDUuMiAyNi4ycy0xMi41IDE0LjgtMjIuMiAxNC44TDU2IDQ4MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xNDRjMC05LjcgNS44LTE4LjUgMTQuOC0yMi4yczE5LjMtMS43IDI2LjIgNS4ybDQwIDQwTDMzNSAxMTMgMjk1IDczYy02LjktNi45LTguOS0xNy4yLTUuMi0yNi4yczEyLjUtMTQuOCAyMi4yLTE0LjhsMTQ0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![maximize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/maximize.svg)
  */
 const Maximize: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M32 56l0 144c0 9.7 5.8 18.5 14.8 22.2s19.3 1.7 26.2-5.2l40-40 79 79c21.3-21.3 42.7-42.7 64-64l-79-79 40-40c6.9-6.9 8.9-17.2 5.2-26.2S209.7 32 200 32L56 32C42.7 32 32 42.7 32 56zM256 320l79 79-40 40c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8l144 0c13.3 0 24-10.7 24-24l0-144c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2l-40 40-79-79-64 64z" />
-            <path d="M480 56l0 144c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-40-40L177 399l40 40c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8L56 480c-13.3 0-24-10.7-24-24l0-144c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l40 40L335 113 295 73c-6.9-6.9-8.9-17.2-5.2-26.2s12.5-14.8 22.2-14.8l144 0c13.3 0 24 10.7 24 24z" />
+        <path d="M480 56l0 144c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-40-40L177 399l40 40c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8L56 480c-13.3 0-24-10.7-24-24l0-144c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l40 40L335 113 295 73c-6.9-6.9-8.9-17.2-5.2-26.2s12.5-14.8 22.2-14.8l144 0c13.3 0 24 10.7 24 24z" />
     </Icon>
 );
 

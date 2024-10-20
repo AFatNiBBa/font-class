@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fork` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fork?s=sharp-light fork}
- * @preview ![fork](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg1LjIgMS4yTDI2OC4yIDg2LjljLTQuNCAzLjMtOC42IDYuOS0xMi41IDEwLjdsLTEuNiAxLjZDMjM0LjggMTE4LjUgMjI0IDE0NC43IDIyNCAxNzJjMCAyNSA5LjEgNDkuMSAyNS41IDY3LjhMNC43IDQ4NC43bDIyLjYgMjIuNkwyNzIuMiAyNjIuNUMyOTAuOSAyNzguOSAzMTUgMjg4IDM0MCAyODhjMjcuMyAwIDUzLjUtMTAuOCA3Mi44LTMwLjFsMS42LTEuNmMzLjktMy45IDcuNS04LjEgMTAuNy0xMi41bDg1LjgtMTE2LjktMjIuOS0yMi45TDM5OS4zIDIyNC45Yy0yLjMgMy4xLTQuOCA2LjEtNy42IDguOGwtMS42IDEuNkMzNzYuOCAyNDguNSAzNTguOCAyNTYgMzQwIDI1NnMtMzYuOC03LjUtNTAuMS0yMC44bC0xMy4xLTEzLjFDMjYzLjUgMjA4LjggMjU2IDE5MC44IDI1NiAxNzJzNy41LTM2LjggMjAuOC01MC4xbDEuNi0xLjZjMi43LTIuNyA1LjctNS4zIDguOC03LjZMNDA4LjEgMjQuMSAzODUuMiAxLjJ6bTM1LjUgMzUuNUwyODQuNSAxNTUuOGwtOC45IDcuOCAyMi43IDIyLjcgNy4zLTYuNEw0NDMuMyA1OS4zIDQyMC43IDM2Ljd6TTM1Ni4yIDIyNy41TDQ3NS4zIDkxLjMgNDUyLjcgNjguNyAzMzIuMSAyMDYuNWwtNi40IDcuMyAyMi43IDIyLjcgNy44LTguOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fork.svg)
  */
 const Fork: typeof Icon = x => (
     <Icon {...x}>

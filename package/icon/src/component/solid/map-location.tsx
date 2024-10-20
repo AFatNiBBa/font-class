@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `map-location` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map-location?s=solid map-location}
- * @preview ![map-location](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAyLjggMzEyQzMzNC45IDI3MS45IDQwOCAxNzQuNiA0MDggMTIwQzQwOCA1My43IDM1NC4zIDAgMjg4IDBTMTY4IDUzLjcgMTY4IDEyMGMwIDU0LjYgNzMuMSAxNTEuOSAxMDUuMiAxOTJjNy43IDkuNiAyMiA5LjYgMjkuNiAwek00MTYgNTAzbDE0NC45LTU4YzkuMS0zLjYgMTUuMS0xMi41IDE1LjEtMjIuM0w1NzYgMTUyYzAtMTctMTcuMS0yOC42LTMyLjktMjIuM2wtMTE2IDQ2LjRjLS41IDEuMi0xIDIuNS0xLjUgMy43Yy0yLjkgNi44LTYuMSAxMy43LTkuNiAyMC42TDQxNiA1MDN6TTE1LjEgMTg3LjNDNiAxOTEgMCAxOTkuOCAwIDIwOS42TDAgNDgwLjRjMCAxNyAxNy4xIDI4LjYgMzIuOSAyMi4zTDE2MCA0NTEuOGwwLTI1MS40Yy0zLjUtNi45LTYuNy0xMy44LTkuNi0yMC42Yy01LjYtMTMuMi0xMC40LTI3LjQtMTIuOC00MS41bC0xMjIuNiA0OXpNMzg0IDI1NWMtMjAuNSAzMS4zLTQyLjMgNTkuNi01Ni4yIDc3Yy0yMC41IDI1LjYtNTkuMSAyNS42LTc5LjYgMGMtMTMuOS0xNy40LTM1LjctNDUuNy01Ni4yLTc3bDAgMTk0LjQgMTkyIDU0LjlMMzg0IDI1NXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![map-location](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/map-location.svg)
  */
 const MapLocation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

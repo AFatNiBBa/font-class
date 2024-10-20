@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dolphin` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolphin?s=sharp-solid dolphin}
- * @preview ![dolphin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDBsMzAuNSAwYzQ2LjEgMCA4OS43IDEwLjIgMTI4LjkgMjguNkw0NjQgMGwxNiAxNkw0MjcuNCA5NC44YzUyLjQgNTUgODQuNiAxMjkuNCA4NC42IDIxMS4zYzAgOTQuMi03OS4yIDE2OS41LTE3My4zIDE2NC4zbC03Mi41LTRMMjQ4IDUxMmwtODggMCAzMi04MC0zMi04MCA4OCAwIDIxLjUgNTMuNyA2MC0zQzM2MCA0MDEuMiAzODQgMzc2IDM4NCAzNDUuNGMwLTMxLjctMjUuNy01Ny40LTU3LjQtNTcuNGwtNi42IDAgMCA2NC0zMiAwLTgwLTY0LTE2IDAtMTYgMEwzMiAyODggMCAyODhsMC0zMiAwLTE2IDAtMTguMSAxNS41LTkuM0w0MiAxOTYuN2MtNi40LTE2LjMtMTAtMzQuMS0xMC01Mi43QzMyIDY0LjUgOTYuNSAwIDE3NiAwem0wIDE2OGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dolphin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dolphin.svg)
  */
 const Dolphin: typeof Icon = x => (
     <Icon {...x}>

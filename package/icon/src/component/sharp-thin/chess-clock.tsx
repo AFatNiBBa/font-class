@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-clock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-clock?s=sharp-thin chess-clock}
- * @preview ![chess-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDMybDggMCAwIDE2LTggMC02NCAwIDAgODAgNDQwIDAgMTYgMCAwIDE2IDAgMzIwIDAgMTYtMTYgMEwxNiA0ODAgMCA0ODBsMC0xNkwwIDE0NGwwLTE2IDE2IDAgMTUyIDAgMC04MC02NCAwLTggMCAwLTE2IDggMCA3MiAwIDcyIDB6TTE4NCAxNDRsLTE2IDBMMTYgMTQ0bDAgMzIwIDYwOCAwIDAtMzIwLTQ0MCAwek01NDQgODBsMCAxNi04IDBMMzkyIDk2bC04IDAgMC0xNiA4IDAgMTQ0IDAgOCAwek0xNzYgNDAwYTk2IDk2IDAgMSAwIDAtMTkyIDk2IDk2IDAgMSAwIDAgMTkyem0wLTIwOGExMTIgMTEyIDAgMSAxIDAgMjI0IDExMiAxMTIgMCAxIDEgMC0yMjR6TTUzMS45IDM3MS45QTk2IDk2IDAgMSAwIDM5Ni4xIDIzNi4xIDk2IDk2IDAgMSAwIDUzMS45IDM3MS45ek0zODQuOCAyMjQuOEExMTIgMTEyIDAgMSAxIDU0My4yIDM4My4yIDExMiAxMTIgMCAxIDEgMzg0LjggMjI0Ljh6TTE2OCAyNDBsMTYgMCAwIDggMCA1NiAwIDgtMTYgMCAwLTggMC01NiAwLTh6bTM0MS4zIDMwLjFsLTM5LjYgMzkuNi01LjcgNS43TDQ1Mi43IDMwNGw1LjctNS43IDM5LjYtMzkuNiA1LjctNS43IDExLjMgMTEuMy01LjcgNS43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chess-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chess-clock.svg)
  */
 const ChessClock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

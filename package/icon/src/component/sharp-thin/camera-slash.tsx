@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-slash?s=sharp-thin camera-slash}
- * @preview ![camera-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1ek00ODcuNSA0ODBsLTIwLjMtMTZMODAgNDY0bDAtMzA1LjdMNjQgMTQ1LjYgNjQgNDY0bDAgMTYgMTYgMCA0MDcuNSAwek0yMDkuMSA3Ni43bDEzLjQgMTAuNUwyMzUuNSA0OGwxNjguOSAwIDE3LjcgNTMuMSAzLjYgMTAuOSAxMS41IDBMNTYwIDExMmwwIDI0MS43IDE2IDEyLjZMNTc2IDExMmwwLTE2LTE2IDBMNDM3LjMgOTYgNDE2IDMyIDIyNCAzMiAyMDkuMSA3Ni43em0yIDE4NWMtMiA4LjQtMy4xIDE3LjItMy4xIDI2LjJjMCA2MS45IDUwLjEgMTEyIDExMiAxMTJjMTguMyAwIDM1LjYtNC40IDUwLjgtMTIuMmwtMTQuMS0xMS4xQzM0NS40IDM4MS40IDMzMyAzODQgMzIwIDM4NGMtNTMgMC05Ni00My05Ni05NmMwLTUuMSAuNC0xMC4yIDEuMi0xNS4xbC0xNC4xLTExLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![camera-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/camera-slash.svg)
  */
 const CameraSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

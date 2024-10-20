@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burger-lettuce` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-lettuce?s=sharp-solid burger-lettuce}
- * @preview ![burger-lettuce](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTkybDAgMzIgNDQ4IDAgMC0zMnMwLTE2MC0yMjQtMTYwUzMyIDE5MiAzMiAxOTJ6bTk2LTgwYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptMjQwIDE2YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6TTI1NiA4MGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6TTQ4MCAzODRMMzIgMzg0bDAgOTYgNDQ4IDAgMC05NnpNMTc4LjkgMjU3LjlMMTY4IDI1NGwtMTAuOSA0LTc2LjkgMjhMMjcuMiAyNjYgNC44IDMyNmw2NCAyNCAxMS4xIDQuMiAxMS4xLTQgNzcuMS0yOCA3Ny4xIDI4IDEwLjkgNCAxMC45LTQgNzcuMS0yOCA3Ny4xIDI4IDExLjEgNCAxMS4xLTQuMiA2NC0yNEw0ODQuOCAyNjZsLTUyLjkgMTkuOS03Ni45LTI4TDM0NCAyNTRsLTEwLjkgNEwyNTYgMjg2bC03Ny4xLTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![burger-lettuce](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/burger-lettuce.svg)
  */
 const BurgerLettuce: typeof Icon = x => (
     <Icon {...x}>

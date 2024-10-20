@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-subtask` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-subtask?s=solid diagram-subtask}
- * @preview ![diagram-subtask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwzODQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yODggMCAwIDk2YzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyIDBjMC0zNS4zIDI4LjctNjQgNjQtNjRsMTYwIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCA2NGMwIDM1LjMtMjguNyA2NC02NCA2NGwtMTYwIDBjLTM1LjMgMC02NC0yOC43LTY0LTY0bC0zMiAwYy01MyAwLTk2LTQzLTk2LTk2bDAtOTYtMzIgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnpNNDQ4IDM1MmwtMTYwIDAgMCA2NCAxNjAgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![diagram-subtask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/diagram-subtask.svg)
  */
 const DiagramSubtask: typeof Icon = x => (
     <Icon {...x}>

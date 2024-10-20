@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `boxes-packing` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-packing?s=duotone boxes-packing}
- * @preview ![boxes-packing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yNTYgNDhsMCA4MCAxMTIgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDMyYzAgMjAuOS0xMy40IDM4LjctMzIgNDUuM0wzODQgNDk2YzAgNS42LTEgMTEtMi43IDE2TDU5MiA1MTJjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC00MTZjMC0yNi41LTIxLjUtNDgtNDgtNDhMMzA0IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4ek00MjAuNyAzMjQuN2w2NC02NGM2LjItNi4yIDE2LjQtNi4yIDIyLjYgMGw2NCA2NGM2LjIgNi4yIDYuMiAxNi40IDAgMjIuNnMtMTYuNCA2LjItMjIuNiAwTDUxMiAzMTAuNiA1MTIgNDMyYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMTIxLjQtMzYuNyAzNi43Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMHMtNi4yLTE2LjQgMC0yMi42eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTYgMTYwbDM1MiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyYzAgOC44LTcuMiAxNi0xNiAxNkwxNiAyMjRjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTMyYzAtOC44IDcuMi0xNiAxNi0xNnptMTYgOTZsMzIwIDAgMCAyMjRjMCAxNy43LTE0LjMgMzItMzIgMzJMNjQgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTIyNHptOTYgODBjMCA4LjggNy4yIDE2IDE2IDE2bDk2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTk2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![boxes-packing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/boxes-packing.svg)
  */
 const BoxesPacking: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M256 48l0 80 112 0c26.5 0 48 21.5 48 48l0 32c0 20.9-13.4 38.7-32 45.3L384 496c0 5.6-1 11-2.7 16L592 512c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L304 0c-26.5 0-48 21.5-48 48zM420.7 324.7l64-64c6.2-6.2 16.4-6.2 22.6 0l64 64c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L512 310.6 512 432c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-121.4-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6z" />
-            <path d="M16 160l352 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16L16 224c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm16 96l320 0 0 224c0 17.7-14.3 32-32 32L64 512c-17.7 0-32-14.3-32-32l0-224zm96 80c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16z" />
+        <path d="M16 160l352 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16L16 224c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm16 96l320 0 0 224c0 17.7-14.3 32-32 32L64 512c-17.7 0-32-14.3-32-32l0-224zm96 80c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16z" />
     </Icon>
 );
 

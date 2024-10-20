@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `computer-mouse-scrollwheel` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-mouse-scrollwheel?s=regular computer-mouse-scrollwheel}
- * @preview ![computer-mouse-scrollwheel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDM1MmwwLTE5MmMwLTYxLjktNTAuMS0xMTItMTEyLTExMmwtNjQgMEM5OC4xIDQ4IDQ4IDk4LjEgNDggMTYwbDAgMTkyYzAgNjEuOSA1MC4xIDExMiAxMTIgMTEybDY0IDBjNjEuOSAwIDExMi01MC4xIDExMi0xMTJ6TTAgMTYwQzAgNzEuNiA3MS42IDAgMTYwIDBsNjQgMGM4OC40IDAgMTYwIDcxLjYgMTYwIDE2MGwwIDE5MmMwIDg4LjQtNzEuNiAxNjAtMTYwIDE2MGwtNjQgMEM3MS42IDUxMiAwIDQ0MC40IDAgMzUyTDAgMTYwek0xOTIgOTZjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![computer-mouse-scrollwheel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/computer-mouse-scrollwheel.svg)
  */
 const ComputerMouseScrollwheel: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

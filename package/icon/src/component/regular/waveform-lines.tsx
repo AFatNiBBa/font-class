@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `waveform-lines` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waveform-lines?s=regular waveform-lines}
- * @preview ![waveform-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA0NjRjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC00NjRjMC0xMy4zIDEwLjctMjQgMjQtMjR6TTUyMCA2NGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDMzNmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTMzNmMwLTEzLjMgMTAuNy0yNCAyNC0yNHpNMjE2IDk2YzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMjcyYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMjcyYzAtMTMuMyAxMC43LTI0IDI0LTI0em0yMDggMzJjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAyMDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0yMDhjMC0xMy4zIDEwLjctMjQgMjQtMjR6TTEyMCAxOTJjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA4MGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTgwYzAtMTMuMyAxMC43LTI0IDI0LTI0ek0yNCAyMjRjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAxNmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTE2YzAtMTMuMyAxMC43LTI0IDI0LTI0em01OTIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDE2YzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMTZjMC0xMy4zIDEwLjctMjQgMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![waveform-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/waveform-lines.svg)
  */
 const WaveformLines: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

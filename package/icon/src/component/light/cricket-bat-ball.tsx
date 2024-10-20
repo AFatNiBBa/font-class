@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cricket-bat-ball` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cricket-bat-ball?s=light cricket-bat-ball}
- * @preview ![cricket-bat-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA3LjMgNC43YzYuMiA2LjIgNi4yIDE2LjQgMCAyMi42TDM1NC42IDE4MGwzNC4xIDM0LjFjMTguNyAxOC43IDE4LjcgNDkuMSAwIDY3LjlsLTMzLjMgMzMuM2MwIDAgMCAwIDAgMEwxNzIuNyA0OTcuOWMtOSA5LTIxLjIgMTQuMS0zMy45IDE0LjFsLTIuNyAwQzYwLjkgNTEyIDAgNDUxLjEgMCAzNzZsMC0yLjdjMC0xMi43IDUuMS0yNC45IDE0LjEtMzMuOUwxOTYuNyAxNTYuN2MwIDAgMCAwIDAgMGwzMy40LTMzLjRjMTguNy0xOC43IDQ5LjEtMTguNyA2Ny45IDBMMzMyIDE1Ny40IDQ4NC43IDQuN2M2LjItNi4yIDE2LjQtNi4yIDIyLjYgMHpNMTkyIDIwNi42TDM2LjcgMzYxLjljLTMgMy00LjcgNy4xLTQuNyAxMS4zbDAgMi43YzAgNTcuNCA0Ni42IDEwNCAxMDQgMTA0bDIuNyAwYzQuMiAwIDguMy0xLjcgMTEuMy00LjdMMzA1LjQgMzIwIDI0MCAzMjBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtNjUuNHpNMzM3LjQgMjg4bDI4LjctMjguN2M2LjItNi4yIDYuMi0xNi40IDAtMjIuNmwtOTAuNy05MC43Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMEwyMjQgMTc0LjZsMCA5Ny40YzAgOC44IDcuMiAxNiAxNiAxNmw5Ny40IDB6TTQ4MCA0MzJhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHptLTEyOCAwYTgwIDgwIDAgMSAxIDE2MCAwIDgwIDgwIDAgMSAxIC0xNjAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cricket-bat-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cricket-bat-ball.svg)
  */
 const CricketBatBall: typeof Icon = x => (
     <Icon {...x}>

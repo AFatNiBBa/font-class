@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-export` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-export?s=sharp-regular file-export}
- * @preview ![file-export](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDM2OGwwIDk2TDQ4IDQ2NCA0OCA0OGwxNzYgMCAwIDExMiAxMTIgMCAwIDk2IDQ4IDAgMC0xMjhMMjU2IDAgNDggMCAwIDAgMCA0OCAwIDQ2NGwwIDQ4IDQ4IDAgMjg4IDAgNDggMCAwLTQ4IDAtOTYtNDggMHpNNDgxIDIyM2wtMTctMTdMNDMwLjEgMjQwbDE3IDE3IDMxIDMxTDIxNiAyODhsLTI0IDAgMCA0OCAyNCAwIDI2Mi4xIDAtMzEgMzEtMTcgMTdMNDY0IDQxNy45bDE3LTE3IDcyLTcyIDE3LTE3LTE3LTE3LTcyLTcyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-export](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-export.svg)
  */
 const FileExport: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

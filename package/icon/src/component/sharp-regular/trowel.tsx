@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trowel` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trowel?s=sharp-regular trowel}
- * @preview ![trowel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA5LjkgMTk4LjFMMzc2IDIzMmwtMzEtMzFMMjMzIDMxM2w1My4xIDUzLjFMMzIwIDQwMGwtMzMuOSAzMy45TDI4MCA0NDAgNTMuMSA0OTguNCAwIDUxMmwxMy42LTUzLjFMNzIgMjMybDYuMS02LjFMMTEyIDE5MmwzMy45IDMzLjlMMTk5IDI3OSAzMTEgMTY3bC0zMS0zMSAzMy45LTMzLjkgNjguMS02OC4xTDQxNiAwbDMzLjkgMzMuOSAyOC4xIDI4LjFMNTEyIDk2bC0zMy45IDMzLjktNjguMSA2OC4xek0zNzYgMTY0LjFMNDQ0LjEgOTYgNDE2IDY3LjkgMzQ3LjkgMTM2IDM3NiAxNjQuMXptLTEyNS44IDIzNEwxMTMuOSAyNjEuOCA2Ni43IDQ0NS4zbDE4My41LTQ3LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trowel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/trowel.svg)
  */
 const Trowel: typeof Icon = x => (
     <Icon {...x}>

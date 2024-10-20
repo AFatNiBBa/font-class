@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-retro` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-retro?s=regular camera-retro}
- * @preview ![camera-retro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDExMkw2NCAxMTJjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDY0IDEwOC4xIDBjMjMuNS0yOS4zIDU5LjUtNDggOTkuOS00OHM3Ni41IDE4LjcgOTkuOSA0OEw0NjQgMTkybDAtOTZjMC04LjgtNy4yLTE2LTE2LTE2TDI3MS4xIDgwYy0yLjUgMC00LjkgLjYtNy4yIDEuN2wtNTAuNSAyNS4yYy02LjcgMy4zLTE0IDUuMS0yMS41IDUuMXpNNDggMjQwbDAgMTc2YzAgOC44IDcuMiAxNiAxNiAxNmwzODQgMGM4LjggMCAxNi03LjIgMTYtMTZsMC0xNzYtODQgMGMyLjYgMTAuMiA0IDIxIDQgMzJjMCA3MC43LTU3LjMgMTI4LTEyOCAxMjhzLTEyOC01Ny4zLTEyOC0xMjhjMC0xMSAxLjQtMjEuOCA0LTMybC04NCAwek0wIDQxNkwwIDEyOEMwIDkyLjcgMjguNyA2NCA2NCA2NGwwLTE2YzAtOC44IDcuMi0xNiAxNi0xNmw2NCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDE2IDMyIDAgNTAuNS0yNS4yYzguOS00LjQgMTguNy02LjggMjguNi02LjhMNDQ4IDMyYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjR6TTMzNiAyNzJhODAgODAgMCAxIDAgLTE2MCAwIDgwIDgwIDAgMSAwIDE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![camera-retro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/camera-retro.svg)
  */
 const CameraRetro: typeof Icon = x => (
     <Icon {...x}>

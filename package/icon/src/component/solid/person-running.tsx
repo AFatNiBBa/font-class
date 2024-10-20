@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-running` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-running?s=solid person-running}
- * @preview ![person-running](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDQ4YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTEyNS43IDE3NS41YzkuOS05LjkgMjMuNC0xNS41IDM3LjUtMTUuNWMxLjkgMCAzLjggLjEgNS42IC4zTDEzNy42IDI1NGMtOS4zIDI4IDEuNyA1OC44IDI2LjggNzQuNWw4Ni4yIDUzLjktMjUuNCA4OC44Yy00LjkgMTcgNSAzNC43IDIyIDM5LjZzMzQuNy01IDM5LjYtMjJsMjguNy0xMDAuNGM1LjktMjAuNi0yLjYtNDIuNi0yMC43LTUzLjlMMjM4IDI5OWwzMC45LTgyLjQgNS4xIDEyLjNDMjg5IDI2NC43IDMyMy45IDI4OCAzNjIuNyAyODhsMjEuMyAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0yMS4zIDBjLTEyLjkgMC0yNC42LTcuOC0yOS41LTE5LjdsLTYuMy0xNWMtMTQuNi0zNS4xLTQ0LjEtNjEuOS04MC41LTczLjFsLTQ4LjctMTVjLTExLjEtMy40LTIyLjctNS4yLTM0LjQtNS4yYy0zMSAwLTYwLjggMTIuMy04Mi43IDM0LjNMNTcuNCAxNTMuNGMtMTIuNSAxMi41LTEyLjUgMzIuOCAwIDQ1LjNzMzIuOCAxMi41IDQ1LjMgMGwyMy4xLTIzLjF6TTkxLjIgMzUyTDMyIDM1MmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmw2OS42IDBjMTkgMCAzNi4yLTExLjIgNDMuOS0yOC41TDE1NyAzNjEuNmwtOS41LTZjLTE3LjUtMTAuOS0zMC41LTI2LjgtMzcuOS00NC45TDkxLjIgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-running](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-running.svg)
  */
 const PersonRunning: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

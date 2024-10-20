@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jxl` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jxl?s=brands jxl}
- * @preview ![jxl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDEyLjIgMzJIMzUuOEMxNiAzMiAwIDQ4IDAgNjcuOFY0NDQuMkMwIDQ2NCAxNiA0ODAgMzUuOCA0ODBINDEyLjJjMTkuOCAwIDM1LjgtMTYgMzUuOC0zNS44VjY3LjhDNDQ4IDQ4IDQzMiAzMiA0MTIuMiAzMnpNMzc4LjYgMzMzLjdjMCA0MC4yLTMyLjYgNzIuOC03Mi44IDcyLjhINzAuMmMwLTQwLjIgMzIuNi03Mi44IDcyLjgtNzIuOEgzNzguNnptMC0xMTMuOWMwIDQwLjItMzIuNiA3Mi44LTcyLjggNzIuOEg3MC4yYzAtNDAuMiAzMi42LTcyLjggNzIuOC03Mi44SDM3OC42em0wLTExMy45YzAgNDAuMi0zMi42IDcyLjgtNzIuOCA3Mi44SDcwLjJjMC00MC4yIDMyLjYtNzIuOCA3Mi44LTcyLjhIMzc4LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![jxl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/jxl.svg)
  */
 const Jxl: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

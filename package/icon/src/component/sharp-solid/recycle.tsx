@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `recycle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/recycle?s=sharp-solid recycle}
- * @preview ![recycle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA5LjEgMGw5LjQgMTUgNjMuOCAxMDIuMUw0MzIuOCA4OGwxMiAyMC44TDQxMi42IDIyOSAyOTIuNCAxOTYuOGwtMTItMjAuOCA0Ni41LTI2LjhMMjczLjcgNjRsLTM1LjQgMC0zMy41IDUzLjYtNTUuNS0zMkwxOTMuNCAxNWw5LjQtMTUgMTcuNyAwIDcwLjggMCAxNy43IDB6bTk5LjIgMjc5LjVsNTUuNS0zMiA0My4zIDY5LjMgMTAuMiAxNi4zLTkuNiAxNi43LTMyIDU1LjRMNDYwLjIgNDMyIDQ1MSA0NDhsLTE4LjUgMEwzMjAgNDQ4bDAgNTYtMjQgMC04OC04OCA4OC04OCAyNCAwIDAgNTYgOTQgMCA2LjMtMTAuOSAyMi40LTM4LjgtMzQuMy01NC44ek02NC43IDIyMS4xTDE2IDE5M2wxMi0yMC44TDE0OC4yIDE0MGwzMi4yIDEyMC4yLTEyIDIwLjgtNDguMy0yNy45TDY5LjMgMzM0LjQgOTggMzg0bDYyIDAgMCA2NC04MC41IDBMNjEgNDQ4bC05LjItMTZMNC4zIDM0OS43bC05LjYtMTYuN0w0LjkgMzE2LjhsNTkuOC05NS43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/recycle.svg)
  */
 const Recycle: typeof Icon = x => (
     <Icon {...x}>

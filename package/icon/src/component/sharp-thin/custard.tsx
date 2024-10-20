@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `custard` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/custard?s=sharp-thin custard}
- * @preview ![custard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTcuOCAzODRMMTM2IDY0bDMwNCAwIDM0LjggMTQyLjVzMCAwIDAgMGw0LjMgMTcuNnMwIDAgMCAwbDM5LjEgMTYwLTE2LjUgMEw0NjEuNiAyMTkuNmwtNzcuMy0xOS4zLTkzLjggMzEuMy0yLjUgLjgtMi41LS44LTkzLjgtMzEuMy03Ny4zIDE5LjNMNzQuMiAzODRsLTE2LjUgMHptNjEtMTgxLjlsNzEuNC0xNy44IDIuMy0uNiAyLjIgLjdMMjg4IDIxNS42bDkzLjUtMzEuMiAyLjItLjcgMi4zIC42IDcxLjMgMTcuOEw0MjcuNCA4MCAxNDguNiA4MCAxMTguNyAyMDIuMXpNMCA0MzJsOCAwIDU2MCAwIDggMCAwIDE2LTggMEw4IDQ0OGwtOCAwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![custard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/custard.svg)
  */
 const Custard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

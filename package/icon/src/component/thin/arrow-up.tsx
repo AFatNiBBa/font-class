@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up?s=thin arrow-up}
- * @preview ![arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk3LjggMzQuNWMtMS41LTEuNi0zLjYtMi41LTUuOC0yLjVzLTQuMyAuOS01LjggMi41bC0xODQgMTkyYy0zLjEgMy4yLTIuOSA4LjMgLjIgMTEuM3M4LjMgMi45IDExLjMtLjJMMTg0IDU5LjkgMTg0IDQ3MmMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtNDEyLjFMMzcwLjIgMjM3LjVjMy4xIDMuMiA4LjEgMy4zIDExLjMgLjJzMy4zLTguMSAuMi0xMS4zbC0xODQtMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up.svg)
  */
 const ArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `boxes-stacked` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-stacked?s=sharp-thin boxes-stacked}
- * @preview ![boxes-stacked](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDE2bDAgMTkyIDE2IDAgMC0xOTIgMC0xNkw0MTYgMCAzMzYgMCAzMjAgMCAyNTYgMCAyNDAgMCAxNjAgMCAxNDQgMGwwIDE2IDAgMTkyIDE2IDAgMC0xOTIgODAgMCAwIDgwIDAgMTYgMTYgMCA2NCAwIDE2IDAgMC0xNiAwLTgwIDgwIDB6TTI1NiAxNmw2NCAwIDAgODAtNjQgMCAwLTgwem02NCA0OTZsMjQwIDAgMTYgMCAwLTE2IDAtMjQwIDAtMTYtMTYgMC04MCAwLTE2IDAtNjQgMC0xNiAwLTY0IDAgMCAxNiA2NCAwIDAgODAgMCAxNiAxNiAwIDY0IDAgMTYgMCAwLTE2IDAtODAgODAgMCAwIDI0MC0yNDAgMCAwIDE2em04MC0yNTZsNjQgMCAwIDgwLTY0IDAgMC04MHptLTEyOCAwbDAgMjQwTDE2IDQ5NmwwLTI0MCA4MCAwIDAgODAgMCAxNiAxNiAwIDY0IDAgMTYgMCAwLTE2IDAtODAgODAgMHpNMTEyIDMzNmwwLTgwIDY0IDAgMCA4MC02NCAwem0xNjAtOTZsLTgwIDAtMTYgMC02NCAwLTE2IDAtODAgMEwwIDI0MGwwIDE2TDAgNDk2bDAgMTYgMTYgMCAyNTYgMCAxNiAwIDAtMTYgMC0yNDAgMC0xNi0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![boxes-stacked](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/boxes-stacked.svg)
  */
 const BoxesStacked: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

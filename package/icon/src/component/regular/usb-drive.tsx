@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `usb-drive` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/usb-drive?s=regular usb-drive}
- * @preview ![usb-drive](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTQ0Yy04LjggMC0xNiA3LjItMTYgMTZsMCAxOTJjMCA4LjggNy4yIDE2IDE2IDE2bDMzNiAwIDAtMjI0TDY0IDE0NHpNMCAxNjBjMC0zNS4zIDI4LjctNjQgNjQtNjRsMzUyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyNTZjMCAxNy43LTE0LjMgMzItMzIgMzJMNjQgNDE2Yy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDE2MHptNjA4LTMyYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTkyYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xMjggMCAwLTI1NiAxMjggMHptLTQ4IDU2YTI0IDI0IDAgMSAwIDAgNDggMjQgMjQgMCAxIDAgMC00OHpNNTM2IDMwNGEyNCAyNCAwIDEgMCA0OCAwIDI0IDI0IDAgMSAwIC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![usb-drive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/usb-drive.svg)
  */
 const UsbDrive: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

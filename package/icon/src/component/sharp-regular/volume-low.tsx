@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume-low` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-low?s=sharp-regular volume-low}
- * @preview ![volume-low](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU5LjkgMzE2LjFMMTQ2LjIgMzA0IDEyOCAzMDRsLTgwIDAgMC05NiA4MCAwIDE4LjIgMCAxMy42LTEyLjFMMjcyIDk2LjJsMCAzMTkuNkwxNTkuOSAzMTYuMXpNMCAzNTJsNDggMCA4MCAwTDI3MiA0ODBsNDggMCAwLTQ4IDAtMzUyIDAtNDgtNDggMEwxMjggMTYwbC04MCAwTDAgMTYwbDAgNDggMCA5NiAwIDQ4em00MDkuNi0xOS4yQzQzMi45IDMxNS4zIDQ0OCAyODcuNCA0NDggMjU2cy0xNS4xLTU5LjMtMzguNC03Ni44bC0yOC44IDM4LjRjMTEuNyA4LjggMTkuMiAyMi43IDE5LjIgMzguNHMtNy41IDI5LjYtMTkuMiAzOC40bDI4LjggMzguNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![volume-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/volume-low.svg)
  */
 const VolumeLow: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

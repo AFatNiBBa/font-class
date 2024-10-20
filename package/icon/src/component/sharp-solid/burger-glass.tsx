@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burger-glass` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-glass?s=sharp-solid burger-glass}
- * @preview ![burger-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzYuNyAxNjBMNjkuMiA2NGwyNDUuNiAwLTcuNSA5Nkw3Ni43IDE2MHpNNDAgNTEybDIxNiAwIDAtMjI5LjRjMy05LjEgNi43LTE3LjUgMTEuNi0yNS45YzYuNi0xMS4zIDE3LTI1LjkgMzIuNy00MC40YzE3LjItMTUuOSA0MC4xLTMxIDcwLjEtNDEuNkwzNzkgNjRsNS02NEwzMTkuOCAwIDY0LjIgMCAwIDAgNSA2NCA0MCA1MTJ6TTY0MCAyODcuOHMtMzItOTYtMTc2LTk2cy0xNzYgOTYtMTc2IDk2bDAgMzIgMzUyIDAgMC0zMnptLTI1Ni00OGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bTY0IDBhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptOTYgMGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bS0yNTYgMTEybDAgNjQgMzUyIDAgMC02NC0zNTIgMHptMCA5NmwwIDY0IDM1MiAwIDAtNjQtMzUyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![burger-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/burger-glass.svg)
  */
 const BurgerGlass: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

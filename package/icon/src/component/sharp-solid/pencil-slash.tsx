@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pencil-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil-slash?s=sharp-solid pencil-slash}
- * @preview ![pencil-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDQwOS41IDI5NS4xbDc1LjItNzUuMi0xNi0xNi05Ni05Ni0xNi0xNi05MS4zIDkxLjNMNDguNCAxNC44ek0zMDYuNiAyMTUuM2w1MC01MEwzNjggMTUzLjlsMjIuNiAyMi42LTExLjMgMTEuMy00Ny4yIDQ3LjItMjUuNS0xOS44em0zMy40IDE0OS4yTDI2My4yIDMwNGwtMjcuOSAyNy45TDIyNCAzNDMuMmwtMjIuNi0yMi42IDExLjMtMTEuM0wyMzcuOSAyODRsLTQxLTMyLjNMOTYgMzUyLjZsLTIxLjggMTA5TDY0IDUxMi42bDUxLTEwLjIgMTA5LTIxLjhMMzQwLjEgMzY0LjV6TTM3OS4zIDY5LjNsMTYgMTYgOTYgOTYgMTYgMTYgMzQuNy0zNC43TDU3NiAxMjguNiA1NDIuMSA5NC42IDQ4MS45IDM0LjUgNDQ4IC42IDQxNC4xIDM0LjUgMzc5LjMgNjkuM3pNMTYzLjkgMzUyLjZsMTIuMSAwIDAgNDggNDggMCAwIDEyLjEtMjMuNyAyMy43LTc1LjEgMTUgMTUtNzUuMSAyMy43LTIzLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pencil-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pencil-slash.svg)
  */
 const PencilSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

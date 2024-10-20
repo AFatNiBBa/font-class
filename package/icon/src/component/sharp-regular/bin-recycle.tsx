@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bin-recycle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-recycle?s=sharp-regular bin-recycle}
- * @preview ![bin-recycle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwzMiAwIDQ4LjEgMCA0MTUuOCAwTDU0NCAzMmwzMiAwIDAgNDgtMzUuNCAwTDUxMiA0ODAgNjQgNDgwIDM1LjQgODAgMCA4MCAwIDMyek04My42IDgwbDI1LjEgMzUyIDM1OC42IDBMNDkyLjQgODAgODMuNiA4MHpNMjg4IDE3NmMtMi4yIDAtNC4zIDEuMS01LjUgMi45bC0zMy44IDQ4LjMtNDAuOC0yNS41IDM1LjItNTAuM2MxMC4yLTE0LjYgMjctMjMuMyA0NC44LTIzLjNzMzQuNiA4LjcgNDQuOCAyMy4zbDM1LjIgNTAuMy00MC44IDI1LjUtMzMuOC00OC4zYy0xLjMtMS44LTMuMy0yLjktNS41LTIuOXpNMTgwLjQgMjQxbDQwLjggMjUuNS0zNiA1MS40Yy0uOCAxLjEtMS4yIDIuNC0xLjIgMy43YzAgMy41IDIuOSA2LjQgNi40IDYuNGw3My42IDAgMCA0OC03My42IDBjLTMwLjEgMC01NC40LTI0LjQtNTQuNC01NC40YzAtMTEuMiAzLjQtMjIuMSA5LjgtMzEuMkwxODAuNCAyNDF6TTMxMiAzNzZsMC00OCA3My42IDBjMy41IDAgNi40LTIuOSA2LjQtNi40YzAtMS4zLS40LTIuNi0xLjItMy43bC0zNi01MS40TDM5NS42IDI0MWwzNC41IDQ5LjNjNi40IDkuMSA5LjggMjAgOS44IDMxLjJjMCAzMC4xLTI0LjQgNTQuNC01NC40IDU0LjRMMzEyIDM3NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bin-recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bin-recycle.svg)
  */
 const BinRecycle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

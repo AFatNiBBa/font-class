@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-symbol` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-symbol?s=solid nfc-symbol}
- * @preview ![nfc-symbol](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ4LjkgNDcxLjhjMTAuMyA5LjMgMjUuNCAxMC44IDM3LjQgMy45QzQ2MS42IDQzMi4xIDUxMiAzNDguOCA1MTIgMjU2cy01MC4zLTE3Ni4xLTEyNS43LTIxOS43QzM3MSAyNy41IDM1MS40IDMyLjcgMzQyLjYgNDhzLTMuNiAzNC45IDExLjcgNDMuN0M0MTAuMSAxMjQgNDQ4IDE4Ni40IDQ0OCAyNTZjMCA2MS40LTI5LjUgMTE3LjItNzQuOCAxNTEuN0wyMTMuNCAyNjQuMmMtMTMuMi0xMS44LTMzLjQtMTAuNy00NS4yIDIuNHMtMTAuNyAzMy40IDIuNCA0NS4ybDE3OC4zIDE2MHpNMTYzLjEgNDAuMmMtMTAuMy05LjMtMjUuNC0xMC44LTM3LjQtMy45QzUwLjMgNzkuOSAwIDE2My4yIDAgMjU2czUwLjMgMTc2LjEgMTI1LjcgMjE5LjdjMTUuMyA4LjggMzQuOSAzLjYgNDMuNy0xMS43czMuNi0zNC45LTExLjctNDMuN0MxMDEuOSAzODggNjQgMzI1LjcgNjQgMjU2YzAtNjEuNCAyOS41LTExNy4yIDc0LjgtMTUxLjdMMjk4LjYgMjQ3LjhjMTMuMiAxMS44IDMzLjQgMTAuNyA0NS4yLTIuNHMxMC43LTMzLjQtMi40LTQ1LjJMMTYzLjEgNDAuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![nfc-symbol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/nfc-symbol.svg)
  */
 const NfcSymbol: typeof Icon = x => (
     <Icon {...x}>

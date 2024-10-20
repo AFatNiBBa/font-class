@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `space-station-moon` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/space-station-moon?s=duotone space-station-moon}
- * @preview ![space-station-moon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NmMwIDcuOCAuMyAxNS41IDEgMjMuMUM3My4yIDMwNC43IDE2MC44IDMyMCAyNTYgMzIwczE4Mi44LTE1LjMgMjU1LTQwLjljLjctNy42IDEtMTUuMyAxLTIzLjFDNTEyIDExNC42IDM5Ny40IDAgMjU2IDBTMCAxMTQuNiAwIDI1NnptNi44IDU4LjhDMzMuNCA0MjcuOSAxMzQuOSA1MTIgMjU2IDUxMnMyMjIuNi04NC4xIDI0OS4yLTE5Ny4yQzQzMi42IDMzOC40IDM0Ny4zIDM1MiAyNTYgMzUycy0xNzYuNi0xMy42LTI0OS4yLTM3LjJ6TTI3MiAxNjBhODAgODAgMCAxIDEgLTE2MCAwIDgwIDgwIDAgMSAxIDE2MCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjI0IDE2MGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0tMTEyIDBhODAgODAgMCAxIDEgMTYwIDAgODAgODAgMCAxIDEgLTE2MCAwek02LjggMzE0LjhDNC4xIDMwMy4yIDIuMSAyOTEuMyAxIDI3OS4xQzczLjIgMzA0LjcgMTYwLjggMzIwIDI1NiAzMjBzMTgyLjgtMTUuMyAyNTUtNDAuOWMtMS4xIDEyLjItMyAyNC4xLTUuOCAzNS44QzQzMi42IDMzOC40IDM0Ny4zIDM1MiAyNTYgMzUycy0xNzYuNi0xMy42LTI0OS4yLTM3LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![space-station-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/space-station-moon.svg)
  */
 const SpaceStationMoon: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256c0 7.8 .3 15.5 1 23.1C73.2 304.7 160.8 320 256 320s182.8-15.3 255-40.9c.7-7.6 1-15.3 1-23.1C512 114.6 397.4 0 256 0S0 114.6 0 256zm6.8 58.8C33.4 427.9 134.9 512 256 512s222.6-84.1 249.2-197.2C432.6 338.4 347.3 352 256 352s-176.6-13.6-249.2-37.2zM272 160a80 80 0 1 1 -160 0 80 80 0 1 1 160 0z" />
-            <path d="M224 160a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-112 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zM6.8 314.8C4.1 303.2 2.1 291.3 1 279.1C73.2 304.7 160.8 320 256 320s182.8-15.3 255-40.9c-1.1 12.2-3 24.1-5.8 35.8C432.6 338.4 347.3 352 256 352s-176.6-13.6-249.2-37.2z" />
+        <path d="M224 160a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-112 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zM6.8 314.8C4.1 303.2 2.1 291.3 1 279.1C73.2 304.7 160.8 320 256 320s182.8-15.3 255-40.9c-1.1 12.2-3 24.1-5.8 35.8C432.6 338.4 347.3 352 256 352s-176.6-13.6-249.2-37.2z" />
     </Icon>
 );
 

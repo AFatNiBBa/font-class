@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `banana` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/banana?s=sharp-regular banana}
- * @preview ![banana](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4LjEgNTVjMTAuMyAyNy43IDE1LjkgNTcuNyAxNS45IDg5YzAgMzkuNi05IDc3LjEtMjUgMTEwLjZsNDEuNCAyNC42QzM0MC42IDIzOC40IDM1MiAxOTIuNSAzNTIgMTQ0YzAtMjMuOC0yLjctNDctNy45LTY5LjJsMi41LTEuN0MzODAgMTE0LjMgNDAwIDE2Ni44IDQwMCAyMjRjMCAxNi0xLjYgMzEuNy00LjYgNDYuOWw1MC4zLTEwLjZjMS41LTExLjkgMi4zLTI0IDIuMy0zNi4zYzAtODQuNy0zNi42LTE2MC45LTk0LjgtMjEzLjZMMjg4LjEgNTV6TTQyMC4zIDM0Ny40bDQzLTkuMSA1NC43IDYxLjZMNTM0IDQxNy45IDU2OS45IDM4NmwtMTUuOS0xNy45LTY0LTcyLTkuMy0xMC40LTEzLjYgMi45LTI3LjcgNS44TDMyNC4yIDMxOC42bC02MC45LTM2LjFzMCAwIDAgMGwtMzkuMS0yMy4yLTExLjUtNi44LTExLjggNi4yLTkyIDQ4TDg3LjYgMzE3LjhsMjIuMiA0Mi42IDIxLjMtMTEuMSA4MC4yLTQxLjggMjIuMSAxMy4xQzE4Ni43IDM2OS41IDEyMC45IDQwMCA0OCA0MDBMMCA0MDBzMCAwIDAgMGwwIDQ4IDAgNjRzMCAwIDAgMGw0OCAwIDExMiAwYzEwNyAwIDIwMC40LTU4LjQgMjUwLjEtMTQ1Yy43LTEuMiAxLjMtMi4zIDItMy41YzIuOS01LjMgNS43LTEwLjYgOC4zLTE2LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![banana](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/banana.svg)
  */
 const Banana: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `8` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/8?s=sharp-duotone-solid 8}
- * @preview ![8](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMDQgMTYwYzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4bC0zMiAwQzczLjMgMzIgMTYgODkuMyAxNiAxNjBjMCAzNC42IDEzLjcgNjYgMzYgODlDMjAuNSAyNzIuMyAwIDMwOS44IDAgMzUyYzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4bDY0IDBjNzAuNyAwIDEyOC01Ny4zIDEyOC0xMjhjMC00Mi4yLTIwLjUtNzkuNy01Mi0xMDNjMjIuMy0yMyAzNi01NC40IDM2LTg5ek0xNzYuMSAyODhsMTUuOSAwYzM1LjMgMCA2NCAyOC43IDY0IDY0cy0yOC43IDY0LTY0IDY0bC02NCAwYy0zNS4zIDAtNjQtMjguNy02NC02NHMyOC43LTY0IDY0LTY0bDE1LjkgMGMwIDAgLjEgMCAuMSAwbDMyIDBjMCAwIC4xIDAgLjEgMHptMC02NGMwIDAgMCAwIDAgMGwtMzIgMGMwIDAgMCAwIDAgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRjMC0zNS4zIDI4LjctNjQgNjQtNjRsMzIgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGMwIDM1LjMtMjguNiA2NC02NCA2NHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/8.svg)
  */
 const $8: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

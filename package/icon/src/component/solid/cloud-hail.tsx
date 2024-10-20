@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-hail` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-hail?s=solid cloud-hail}
- * @preview ![cloud-hail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzIwYy01MyAwLTk2LTQzLTk2LTk2YzAtNDIuNSAyNy42LTc4LjYgNjUuOS05MS4yQzY0LjcgMTI2LjEgNjQgMTE5LjEgNjQgMTEyQzY0IDUwLjEgMTE0LjEgMCAxNzYgMGM0My4xIDAgODAuNSAyNC4zIDk5LjIgNjBjMTQuNy0xNy4xIDM2LjUtMjggNjAuOC0yOGM0NC4yIDAgODAgMzUuOCA4MCA4MGMwIDUuNS0uNiAxMC44LTEuNiAxNmMuNSAwIDEuMSAwIDEuNiAwYzUzIDAgOTYgNDMgOTYgOTZzLTQzIDk2LTk2IDk2TDk2IDMyMHptMCA2NGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0xMjggMGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0xNjAtMzJhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0ek0zMiA0ODBhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptMTYwLTMyYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptOTYgMzJhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cloud-hail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-hail.svg)
  */
 const CloudHail: typeof Icon = x => (
     <Icon {...x}>

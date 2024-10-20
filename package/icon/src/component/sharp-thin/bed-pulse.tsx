@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bed-pulse` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-pulse?s=sharp-thin bed-pulse}
- * @preview ![bed-pulse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDBsOCAwIDUuNSAwIDEuOSA1LjJMNTAxLjUgNjQgNjMyIDY0bDggMCAwIDE2LTggMEw0OTYgODBsLTUuNSAwLTEuOS01LjItMjAuNi01NUw0MDcuNCAxNzFsLTIgNS01LjQgMC04IDAtNS4zIDAtMi4xLTQuOUwzNDYuNyA4MCAyMDAgODBsLTggMCAwLTE2IDggMCAxNTIgMCA1LjMgMCAyLjEgNC45IDM2LjUgODcuN0w0NTYuNiA1bDItNUw0NjQgMHpNMjgwIDE2MGw2NS4zIDAgNi43IDE2LTY0IDAgMCAxNzYgMzM2IDAgMC04OGMwLTQ4LjYtMzkuNC04OC04OC04OGwtOTYuMSAwIDYuNC0xNiA4OS43IDBjNTcuNCAwIDEwNCA0Ni42IDEwNCAxMDRsMCA5NiAwIDgwIDAgNjQgMCA4LTE2IDAgMC04IDAtNTZMMTYgNDQ4bDAgNTYgMCA4TDAgNTEybDAtOCAwLTY0IDAtODBMMCA3MmwwLTggMTYgMCAwIDggMCAyODAgMjU2IDAgMC0xODQgMC04IDggMHpNNjI0IDQzMmwwLTY0LTM0NCAwTDE2IDM2OGwwIDY0IDYwOCAwek0yMDggMjQwQTY0IDY0IDAgMSAwIDgwIDI0MGE2NCA2NCAwIDEgMCAxMjggMHpNNjQgMjQwYTgwIDgwIDAgMSAxIDE2MCAwQTgwIDgwIDAgMSAxIDY0IDI0MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bed-pulse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bed-pulse.svg)
  */
 const BedPulse: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

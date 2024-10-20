@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crutches` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crutches?s=sharp-light crutches}
- * @preview ![crutches](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg4LjcgMTIuN0wyMDAgMS40IDIyMi42IDI0IDIxMS4zIDM1LjMgMTk4LjYgNDhsOTguNyA5OC43LTIyLjYgMjIuNkwxNzYgNzAuNiA3MC42IDE3NiAxNzYgMjgxLjRsNjQuNS02NC41LTExLjMgNTYuNkwxOTguNiAzMDQgMjE5IDMyNC40bC03LjIgMzYtMSAxLTQ2LjEtNDYuMUw0OCAxOTguNiAzNS4zIDIxMS4zIDI0IDIyMi42IDEuNCAyMDBsMTEuMy0xMS4zIDE3Ni0xNzZ6TTM4NC42IDQwNy4ybDM3LjctNy41IDc3IDc3TDUxMC42IDQ4OCA0ODggNTEwLjZsLTExLjMtMTEuMy05Mi4xLTkyLjF6TTQ1MS4zIDEyLjdsMTc2IDE3Nkw2MzguNiAyMDAgNjE2IDIyMi42bC0xMS4zLTExLjMtMTc2LTE3Nkw0MTcuNCAyNCA0NDAgMS40bDExLjMgMTEuM3ptLTE3NC42IDIwMGw0Ny45LTQ3LjkgLjEtLjEgLjEtLjEgOTQtOTQgMjIuNiAyMi42TDM1OC42IDE3NiA0NjQgMjgxLjRsODIuNy04Mi43IDIyLjYgMjIuNi05NC4xIDk0LjEtNDggNDgtMy40IDMuNC00LjcgMS0xNTUuMyAzMUwxNjMuMyA0OTkuMyAxNTIgNTEwLjYgMTI5LjQgNDg4bDExLjMtMTEuM0wyNDEuMyAzNzYuMWwzMS0xNTUuMyAxLTQuOCAzLjQtMy40em0yNi4xIDE5LjJMMjc2LjQgMzYzLjZsMTMxLjctMjYuM0w0NDEuNCAzMDQgMzM2IDE5OC42bC0zMy4zIDMzLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![crutches](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/crutches.svg)
  */
 const Crutches: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

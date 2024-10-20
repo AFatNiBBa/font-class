@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-copy` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-copy?s=sharp-thin book-copy}
- * @preview ![book-copy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDU2YzAtMjIuMSAxNy45LTQwIDQwLTQwbDMxMiAwIDAgMjg4LTI0IDAtMjg4IDBjLTE1LjcgMC0yOS44IDYuNC00MCAxNi44TDIwOCA1NnpNMTkyIDM1OS42bDAgLjEgMCAuM2MwIDMwLjkgMjUuMSA1NiA1NiA1NmwyODggMCAzMiAwIDggMCAwLTE2LTggMC0yNCAwIDAtODAgMjQgMCA4IDAgMC04TDU3NiA4bDAtOC04IDBMMjQ4IDBjLTMwLjkgMC01NiAyNS4xLTU2IDU2bDAgMzAzLjZ6TTUyOCAzMjBsMCA4MC0yODAgMGMtMjIuMSAwLTQwLTE3LjktNDAtNDBzMTcuOS00MCA0MC00MGwyODAgMHpNMzUyIDQ5NmwwLTQ4LTE2IDAgMCA0OEw1NiA0OTZjLTIyLjEgMC00MC0xNy45LTQwLTQwczE3LjktNDAgNDAtNDBsMTI0LjEgMGMtNC4xLTQuOS03LjYtMTAuMy0xMC41LTE2TDU2IDQwMGMtMTUuNyAwLTI5LjggNi40LTQwIDE2LjhMMTYgMTUyYzAtMjIuMSAxNy45LTQwIDQwLTQwbDEwNCAwIDAtMTZMNTYgOTZDMjUuMSA5NiAwIDEyMS4xIDAgMTUyTDAgNDU1LjZsMCAuMSAwIC4zYzAgMzAuOSAyNS4xIDU2IDU2IDU2bDI4OCAwIDMyIDAgOCAwIDAtMTYtOCAwLTI0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-copy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-copy.svg)
  */
 const BookCopy: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

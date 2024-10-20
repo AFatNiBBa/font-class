@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-to-arc` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-arc?s=thin arrow-down-to-arc}
- * @preview ![arrow-down-to-arc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ5NmMxMzIuNSAwIDI0MC0xMDcuNSAyNDAtMjQwYzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhjMCAxNDEuNC0xMTQuNiAyNTYtMjU2IDI1NlMwIDM5Ny40IDAgMjU2YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhjMCAxMzIuNSAxMDcuNSAyNDAgMjQwIDI0MHpNMzkwLjEgMTk3LjJsLTEyOCAxNTJjLTEuNSAxLjgtMy44IDIuOC02LjEgMi44cy00LjYtMS02LjEtMi44bC0xMjgtMTUyYy0yLjgtMy40LTIuNC04LjQgMS0xMS4zczguNC0yLjQgMTEuMyAxTDI0OCAzMjIuMSAyNDggOGMwLTQuNCAzLjYtOCA4LThzOCAzLjYgOCA4bDAgMzE0LjFMMzc3LjkgMTg2LjhjMi44LTMuNCA3LjktMy44IDExLjMtMXMzLjggNy45IDEgMTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-down-to-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-down-to-arc.svg)
  */
 const ArrowDownToArc: typeof Icon = x => (
     <Icon {...x}>

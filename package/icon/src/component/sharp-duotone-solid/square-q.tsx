@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `square-q` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-q?s=sharp-duotone-solid square-q}
- * @preview ![square-q](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMyTDAgNDgwbDQ0OCAwIDAtNDQ4TDAgMzJ6TTk2IDI1NmMwLTcwLjcgNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4YzAgMjguMS05IDU0LTI0LjQgNzUuMUwzNjkuOSAzODRsLTYxLjUgMC0xNS45LTE5LjlDMjcyLjcgMzc2LjcgMjQ5LjIgMzg0IDIyNCAzODRjLTcwLjcgMC0xMjgtNTcuMy0xMjgtMTI4em00OCAwYzAgNDQuMiAzNS44IDgwIDgwIDgwYzEzLjkgMCAyNi45LTMuNSAzOC4zLTkuN0wyMDYuMSAyNTZsNjEuNSAwIDI4LjMgMzUuM2M1LjMtMTAuNyA4LjItMjIuNiA4LjItMzUuM2MwLTQ0LjItMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTE0NCAyNTZjMCA0NC4yIDM1LjggODAgODAgODBjMTMuOSAwIDI2LjktMy41IDM4LjMtOS43TDIwNi4xIDI1Nmw2MS41IDAgMjguMyAzNS4zYzUuMy0xMC43IDguMi0yMi42IDguMi0zNS4zYzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwek0yOTIuNiAzNjQuMUMyNzIuNyAzNzYuNyAyNDkuMiAzODQgMjI0IDM4NGMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhzNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4YzAgMjguMS05IDU0LTI0LjQgNzUuMUwzNjkuOSAzODRsLTYxLjUgMC0xNS45LTE5Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-q](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/square-q.svg)
  */
 const SquareQ: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M0 32L0 480l448 0 0-448L0 32zM96 256c0-70.7 57.3-128 128-128s128 57.3 128 128c0 28.1-9 54-24.4 75.1L369.9 384l-61.5 0-15.9-19.9C272.7 376.7 249.2 384 224 384c-70.7 0-128-57.3-128-128zm48 0c0 44.2 35.8 80 80 80c13.9 0 26.9-3.5 38.3-9.7L206.1 256l61.5 0 28.3 35.3c5.3-10.7 8.2-22.6 8.2-35.3c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-            <path d="M144 256c0 44.2 35.8 80 80 80c13.9 0 26.9-3.5 38.3-9.7L206.1 256l61.5 0 28.3 35.3c5.3-10.7 8.2-22.6 8.2-35.3c0-44.2-35.8-80-80-80s-80 35.8-80 80zM292.6 364.1C272.7 376.7 249.2 384 224 384c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128c0 28.1-9 54-24.4 75.1L369.9 384l-61.5 0-15.9-19.9z" />
+        <path d="M144 256c0 44.2 35.8 80 80 80c13.9 0 26.9-3.5 38.3-9.7L206.1 256l61.5 0 28.3 35.3c5.3-10.7 8.2-22.6 8.2-35.3c0-44.2-35.8-80-80-80s-80 35.8-80 80zM292.6 364.1C272.7 376.7 249.2 384 224 384c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128c0 28.1-9 54-24.4 75.1L369.9 384l-61.5 0-15.9-19.9z" />
     </Icon>
 );
 

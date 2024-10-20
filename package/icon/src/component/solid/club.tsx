@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `club` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/club?s=solid club}
- * @preview ![club](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgwIDE2MC4xYzIuNi0xMC4yIDQtMjEgNC0zMi4xQzM4NCA1Ny4zIDMyNi43IDAgMjU2IDBTMTI4IDU3LjMgMTI4IDEyOGMwIDExLjEgMS40IDIxLjggNCAzMi4xYy0xLjMgMC0yLjctLjEtNC0uMUM1Ny4zIDE2MCAwIDIxNy4zIDAgMjg4czU3LjMgMTI4IDEyOCAxMjhjMzguMiAwIDcyLjUtMTYuOCA5Ni00My4zbDAgNzUuMy0zMiAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDEyOCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0zMiAwIDAtNzUuM2MyMy41IDI2LjYgNTcuOCA0My4zIDk2IDQzLjNjNzAuNyAwIDEyOC01Ny4zIDEyOC0xMjhzLTU3LjMtMTI4LTEyOC0xMjhjLTEuNCAwLTIuNyAwLTQgLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/club.svg)
  */
 const Club: typeof Icon = x => (
     <Icon {...x}>

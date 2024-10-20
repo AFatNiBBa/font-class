@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gun` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun?s=sharp-solid gun}
- * @preview ![gun](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDMybDAgMjQgMCA4IDQ4IDAgMCAxNDQtOTYgMC0zMiAzMi00Ny4xIDAtMzQuMyA5Ni4xTDM2MC45IDM1MiAzNDQgMzUybC0xMjAgMEwxOTIgNDgwIDMyIDQ4MCA5MiAyNDAgMCAyNDAgMCA2NGw0ODAgMCAwLTggMC0yNCA0OCAwek0zMjcuMSAzMDRsMjIuOS02NEwyNTIgMjQwbC0xNiA2NCA5MS4xIDB6TTQ4MCAxMjhMNjQgMTI4bDAgMzIgNDE2IDAgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gun.svg)
  */
 const Gun: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

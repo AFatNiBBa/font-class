@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mountain` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain?s=regular mountain}
- * @preview ![mountain](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDQyNC4xYzAgNC40LTMuNSA3LjktNy45IDcuOUw1NS45IDQzMmMtNC40IDAtNy45LTMuNS03LjktNy45YzAtMS41IC40LTIuOSAxLjItNC4yTDE0OS42IDI2MGwzOS41IDUwLjhjNC42IDUuOSAxMS43IDkuMyAxOS4yIDkuM3MxNC41LTMuNiAxOS05LjZMMjY4IDI1Nmw5MiAwTDQ2Mi44IDQxOS45Yy44IDEuMyAxLjIgMi43IDEuMiA0LjJ6TTMyOS44IDIwOEwyNTYgMjA4Yy03LjYgMC0xNC43IDMuNi0xOS4yIDkuNmwtMjkuMSAzOC45LTMwLjktMzkuOEwyNTYgOTAuMyAzMjkuOCAyMDh6TTU1LjkgNDgwbDQwMC4yIDBjMzAuOSAwIDU1LjktMjUgNTUuOS01NS45YzAtMTAuNS0zLTIwLjgtOC42LTI5LjdMMjg2LjggNDljLTYuNi0xMC42LTE4LjMtMTctMzAuOC0xN3MtMjQuMSA2LjQtMzAuOCAxN0w4LjYgMzk0LjRDMyA0MDMuMyAwIDQxMy42IDAgNDI0LjFDMCA0NTUgMjUgNDgwIDU1LjkgNDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mountain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mountain.svg)
  */
 const Mountain: typeof Icon = x => (
     <Icon {...x}>

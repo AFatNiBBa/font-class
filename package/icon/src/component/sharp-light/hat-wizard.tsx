@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hat-wizard` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-wizard?s=sharp-light hat-wizard}
- * @preview ![hat-wizard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIxLjggNDAuOUwzODQgMTkybDYyLjkgMTc2LTM0IDAtNTktMTY1LjItMy4zLTkuMSAyLjMtOS40TDM4NC4xIDU5LjcgMjAwLjYgMTUxLjUgMTA0LjQgMzY4bC0zNSAwTDE3NiAxMjggMzk0LjMgMTguOCA0MzIgMCA0MjEuOCA0MC45ek00ODAgNDgwbDAtNDhMMzIgNDMybDAgNDggNDQ4IDB6TTMyIDQwMGw0NDggMCAzMiAwIDAgMzIgMCA0OCAwIDMyLTMyIDBMMzIgNTEyIDAgNTEybDAtMzIgMC00OCAwLTMyIDMyIDB6TTI4OCAxNzZsMCAxNiAxNiAwIDE2IDAgMCAzMi0xNiAwLTE2IDAgMCAxNiAwIDE2LTMyIDAgMC0xNiAwLTE2LTE2IDAtMTYgMCAwLTMyIDE2IDAgMTYgMCAwLTE2IDAtMTYgMzIgMCAwIDE2ek0yNDAgMzA0bDAgMzIgMzIgMCAxNiAwIDAgMzItMTYgMC0zMiAwLTMyIDAtMzIgMC0xNiAwIDAtMzIgMTYgMCAzMiAwIDAtMzIgMC0xNiAzMiAwIDAgMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hat-wizard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hat-wizard.svg)
  */
 const HatWizard: typeof Icon = x => (
     <Icon {...x}>

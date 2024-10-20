@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bench-tree` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bench-tree?s=solid bench-tree}
- * @preview ![bench-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDk2YzAgNS4xLS40IDEwLjItMS4yIDE1LjFDNjI2LjkgMTI1LjcgNjQwIDE0OS4zIDY0MCAxNzZjMCA0NC4yLTM1LjggODAtODAgODBsLTE2IDAgMCAyMjRjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0yMjQtMTYgMGMtNDQuMiAwLTgwLTM1LjgtODAtODBjMC0yNi43IDEzLjEtNTAuMyAzMy4yLTY0LjljLS44LTQuOS0xLjItMTAtMS4yLTE1LjFjMC01MyA0My05NiA5Ni05NnM5NiA0MyA5NiA5NnpNMzIgMjI0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDI1NiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNjRjMCAxNy43LTE0LjMgMzItMzIgMzJMNjQgMzIwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTY0em0wIDEyOGwzMjAgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtNjRMOTYgNDE2bDAgNjRjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC02NGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bench-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bench-tree.svg)
  */
 const BenchTree: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

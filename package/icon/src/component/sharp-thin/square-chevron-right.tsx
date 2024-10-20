@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-chevron-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-chevron-right?s=sharp-thin square-chevron-right}
- * @preview ![square-chevron-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDQ4TDE2IDQ4bDAgNDE2IDQxNiAwIDAtNDE2em0xNi0xNmwwIDE2IDAgNDE2IDAgMTYtMTYgMEwxNiA0ODAgMCA0ODBsMC0xNkwwIDQ4IDAgMzJsMTYgMCA0MTYgMCAxNiAwek0zMDkuNyAyNjEuN2wtMTIwIDEyMC01LjcgNS43TDE3Mi43IDM3Nmw1LjctNS43TDI5Mi43IDI1NiAxNzguMyAxNDEuN2wtNS43LTUuN0wxODQgMTI0LjdsNS43IDUuNyAxMjAgMTIwIDUuNyA1LjctNS43IDUuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-chevron-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-chevron-right.svg)
  */
 const SquareChevronRight: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

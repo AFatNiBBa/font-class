@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-simple-horizontal` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-simple-horizontal?s=sharp-regular chart-simple-horizontal}
- * @preview ![chart-simple-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDI0MEw0OCAyNDBsMCAzMiAzNTIgMCAwLTMyem00OCAzMmwwIDQ4LTQ4IDBMNDggMzIwIDAgMzIwbDAtNDggMC0zMiAwLTQ4IDQ4IDAgMzUyIDAgNDggMCAwIDQ4IDAgMzJ6TTIwOCA0MDBMNDggNDAwbDAgMzIgMTYwIDAgMC0zMnptNDggMzJsMCA0OC00OCAwTDQ4IDQ4MCAwIDQ4MGwwLTQ4IDAtMzIgMC00OCA0OCAwIDE2MCAwIDQ4IDAgMCA0OCAwIDMyem04MC0zMjBsMC0zMkw0OCA4MGwwIDMyIDI4OCAwem00OCA0OGwtNDggMEw0OCAxNjAgMCAxNjBsMC00OEwwIDgwIDAgMzJsNDggMCAyODggMCA0OCAwIDAgNDggMCAzMiAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-simple-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chart-simple-horizontal.svg)
  */
 const ChartSimpleHorizontal: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

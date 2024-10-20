@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `notes-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notes-medical?s=solid notes-medical}
- * @preview ![notes-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzUyTDk2IDk2YzAtMzUuMyAyOC43LTY0IDY0LTY0bDI1NiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTk3LjVjMCAxNy02LjcgMzMuMy0xOC43IDQ1LjNsLTU4LjUgNTguNWMtMTIgMTItMjguMyAxOC43LTQ1LjMgMTguN0wxNjAgNDE2Yy0zNS4zIDAtNjQtMjguNy02NC02NHpNMjcyIDEyOGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNDgtNDggMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMzJjMCA4LjggNy4yIDE2IDE2IDE2bDQ4IDAgMCA0OGMwIDguOCA3LjIgMTYgMTYgMTZsMzIgMGM4LjggMCAxNi03LjIgMTYtMTZsMC00OCA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTMyYzAtOC44LTcuMi0xNi0xNi0xNmwtNDggMCAwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNmwtMzIgMHptMjQgMzM2YzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0xNjAgMEM2MC45IDUxMiAwIDQ1MS4xIDAgMzc2TDAgMTUyYzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjRsMCAyMjRjMCA0OC42IDM5LjQgODggODggODhsMTYwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![notes-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/notes-medical.svg)
  */
 const NotesMedical: typeof Icon = x => (
     <Icon {...x}>

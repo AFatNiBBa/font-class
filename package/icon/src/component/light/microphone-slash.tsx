@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `microphone-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-slash?s=light microphone-slash}
- * @preview ![microphone-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc0LjggMjk2LjdjMy40LTEzIDUuMi0yNi42IDUuMi00MC43bDAtNDhjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCA0OGMwIDYuMy0uNSAxMi40LTEuMyAxOC41bDI4LjEgMjIuMnpNNDE2IDI1MC4yTDQxNiA5NmMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NmwwIDIuNyAzMiAyNS4zTDI1NiA5NmMwLTM1LjMgMjguNy02NCA2NC02NHM2NCAyOC43IDY0IDY0bDAgMTI5IDMyIDI1LjN6TTE5MiAyMzYuNWwtMzItMjUuMyAwIDQ0LjhjMCA4MyA2My4xIDE1MS4yIDE0NCAxNTkuMmwwIDY0LjgtNjQgMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmw4MCAwIDgwIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTY0IDAgMC02NC44YzIxLjMtMi4xIDQxLjQtOC40IDU5LjUtMTguMWwtMjguMS0yMi4yYy0xNC43IDUuOC0zMC42IDkuMS00Ny40IDkuMWMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhsMC0xOS41ek0yNS45IDMuNEMxOS0yIDguOS0uOCAzLjQgNi4xUy0uOCAyMy4xIDYuMSAyOC42bDYwOCA0ODBjNi45IDUuNSAxNyA0LjMgMjIuNS0yLjZzNC4zLTE3LTIuNi0yMi41TDI1LjkgMy40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![microphone-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/microphone-slash.svg)
  */
 const MicrophoneSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

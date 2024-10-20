@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folders` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folders?s=thin folders}
- * @preview ![folders](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDM2OGwtMzUyIDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjI0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDExNy41IDBjMTIuNyAwIDI0LjkgNS4xIDMzLjkgMTQuMWwyNi41IDI2LjVjMTUgMTUgMzUuNCAyMy40IDU2LjYgMjMuNEw1MTIgMTEyYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMTYwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4ek0xNjAgMzg0bDM1MiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMTYwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDM5NC41IDk2Yy0xNyAwLTMzLjMtNi43LTQ1LjMtMTguN0wzMjIuNyA1MC43Yy0xMi0xMi0yOC4zLTE4LjctNDUuMy0xOC43TDE2MCAzMmMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAyMjRjMCAzNS4zIDI4LjcgNjQgNjQgNjR6TTAgMTkyTDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM1MiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bC0xNiAwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDY0IDQ2NGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0yMjRjMC0yNi41IDIxLjUtNDggNDgtNDhsMC0xNmMtMzUuMyAwLTY0IDI4LjctNjQgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![folders](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/folders.svg)
  */
 const Folders: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

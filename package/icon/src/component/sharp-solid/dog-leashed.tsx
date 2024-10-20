@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dog-leashed` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dog-leashed?s=sharp-solid dog-leashed}
- * @preview ![dog-leashed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDE5Mmw4MCAwIDAgMTkxLjNjLTUuMyAuNS0xMC42IC43LTE2IC43Yy0yOC44IDAtNTYtNi45LTgwLTE5LjJMMTYwIDUxMmwtOTYgMCAwLTI2NC45Yy0yOS4xLTEzLjYtNTAuNS00MS40LTU0LjgtNzUuMWwtMS03LjktNC0zMS44IDYzLjUtNy45IDQgMzEuOCAxIDcuOWMyIDE2IDE1LjYgMjggMzEuOCAyOGwzOS41IDAgMTYgMCAxNiAwek0zMjAgMzY0LjhjLTEwLjEgNS4yLTIwLjggOS40LTMyIDEyLjZsMC0xNjkuM0w0MTYgMjYybDAgMjUwLTk2IDAgMC0xNDcuMnpNNDI2LjcgMTkybC02LjIgMzcuMkwzMDUuOSAxODAuOSAzMzYgMGwzMiAwIDI0IDMyIDcyIDAgMzIgMzIgODAgMCAwIDQ4YzAgNDQuMi0zNS44IDgwLTgwIDgwbC0zMiAwLTE2IDAtMjEuMyAwek00NDggOTZhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyek0xMzIuNiAxM0wyNzUgMTQ4LjRsMTEuNiAxMS0yMiAyMy4yLTExLjYtMTFMMTEwLjYgMzYuMiA5OSAyNS4yIDEyMSAybDExLjYgMTF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dog-leashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dog-leashed.svg)
  */
 const DogLeashed: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

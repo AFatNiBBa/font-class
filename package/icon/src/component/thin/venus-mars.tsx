@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `venus-mars` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/venus-mars?s=thin venus-mars}
- * @preview ![venus-mars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDMzNmExNjAgMTYwIDAgMSAwIDAtMzIwIDE2MCAxNjAgMCAxIDAgMCAzMjB6TTM1MiAxNzZjMCA5NC41LTc0LjUgMTcxLjYtMTY4IDE3NS44bDAgNjQuMiA4MCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC04MCAwIDAgNzJjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC03Mi04MCAwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDgwIDAgMC02NC4yQzc0LjUgMzQ3LjYgMCAyNzAuNSAwIDE3NkMwIDc4LjggNzguOCAwIDE3NiAwczE3NiA3OC44IDE3NiAxNzZ6TTI4Ni4yIDM1Mi41YzI5IDI5LjQgNjkuMyA0Ny41IDExMy44IDQ3LjVjODguNCAwIDE2MC03MS42IDE2MC0xNjBzLTcxLjYtMTYwLTE2MC0xNjBjLTEyLjggMC0yNS4zIDEuNS0zNy4yIDQuNGMtMi40LTUtNS4xLTkuOC03LjktMTQuNUMzNjkuMyA2NiAzODQuNCA2NCA0MDAgNjRjNDUuNyAwIDg3LjQgMTcuNCAxMTguNyA0Nmw5NC05NEw0ODggMTZjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThMNjMyIDBjNC40IDAgOCAzLjYgOCA4bDAgMTQ0YzAgNC40LTMuNiA4LTggOHMtOC0zLjYtOC04bDAtMTI0LjctOTQgOTRjMjguNiAzMS4zIDQ2IDcyLjkgNDYgMTE4LjdjMCA5Ny4yLTc4LjggMTc2LTE3NiAxNzZjLTUwLjUgMC05Ni0yMS4zLTEyOC4xLTU1LjRjNC45LTIuNSA5LjctNS4zIDE0LjMtOC4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![venus-mars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/venus-mars.svg)
  */
 const VenusMars: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `people-roof` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-roof?s=sharp-solid people-roof}
- * @preview ![people-roof](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM1LjYgMTIuMUwzMjAgMy4zbC0xNS42IDguNy0yNzIgMTUyTDQuNSAxNzkuN2wzMS4yIDU1LjkgMjcuOS0xNS42TDMyMCA3Ni43IDU3Ni40IDIxOS45bDI3LjkgMTUuNiAzMS4yLTU1LjktMjcuOS0xNS42LTI3Mi0xNTJ6TTMyMCAyNDBhNDAgNDAgMCAxIDAgMC04MCA0MCA0MCAwIDEgMCAwIDgwek0xNDQgMzM2YTQwIDQwIDAgMSAwIDAtODAgNDAgNDAgMCAxIDAgMCA4MHptMzkyLTQwYTQwIDQwIDAgMSAwIC04MCAwIDQwIDQwIDAgMSAwIDgwIDB6TTk2IDM1MmwtMTQuMSAwTDc1IDM2NC4zIDE5IDQ2NS4xbC0xMS43IDIxIDQyIDIzLjMgMTEuNy0yMSAyNy00OC42TDg4IDUxMmwxMTIgMCAwLTcyLjIgMjcgNDguNiAxMS43IDIxIDQyLTIzLjMtMTEuNy0yMS0zNS4yLTYzLjQgMy40LTYuM0wyNjQgMzQ1LjVsMCA4Ni41IDExMiAwIDAtODYuNSAyNi45IDQ5LjkgMy40IDYuM0wzNzEgNDY1LjFsLTExLjcgMjEgNDIgMjMuMyAxMS43LTIxIDI3LTQ4LjYgMCA3Mi4yIDExMiAwIDAtNzIuMiAyNyA0OC42IDExLjcgMjEgNDItMjMuMy0xMS43LTIxTDU2NSAzNjQuMyA1NTguMSAzNTIgNTQ0IDM1MmwtOTYgMC0xNCAwLTQ0LjktODMuNEwzODIuMyAyNTYgMzY4IDI1NmwtOTYgMC0xNC4zIDAtNi44IDEyLjZMMjA2IDM1MmwtMTQgMC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![people-roof](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/people-roof.svg)
  */
 const PeopleRoof: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

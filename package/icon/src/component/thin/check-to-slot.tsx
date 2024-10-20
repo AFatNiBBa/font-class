@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `check-to-slot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/check-to-slot?s=thin check-to-slot}
- * @preview ![check-to-slot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDQ4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDMyOCAzNTIgMCAwLTMyOGMwLTE3LjctMTQuMy0zMi0zMi0zMkwxNDQgNDh6TTQ4MCA4MGwwIDMyOCAzMiAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC0zMiAwLTE2IDAtMzUyIDAtMTYgMC0zMiAwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDMyIDBMOTYgODBjMC0yNi41IDIxLjUtNDggNDgtNDhsMjg4IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDh6TTQ4IDM1MmwxNiAwIDAgMTYtMTYgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmw0ODAgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTMyYzAtMTcuNy0xNC4zLTMyLTMyLTMybC0xNiAwIDAtMTYgMTYgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDMyYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDQ4IDQ4MGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0zMmMwLTI2LjUgMjEuNS00OCA0OC00OHpNMzczLjcgMTc2LjNMMjY3IDI4M2MtMy4xIDMuMS04LjIgMy4xLTExLjMgMGwtNTMuMy01My4zYy0zLjEtMy4xLTMuMS04LjIgMC0xMS4zczguMi0zLjEgMTEuMyAwTDI2MS4zIDI2NmwxMDEtMTAxYzMuMS0zLjEgOC4yLTMuMSAxMS4zIDBzMy4xIDguMiAwIDExLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![check-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/check-to-slot.svg)
  */
 const CheckToSlot: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

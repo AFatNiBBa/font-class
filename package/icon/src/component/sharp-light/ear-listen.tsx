@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ear-listen` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear-listen?s=sharp-light ear-listen}
- * @preview ![ear-listen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI0MGwwIDE2IDMyIDAgMC0xNkM1MTIgMTM3LjYgNDU1LjQgNDguNCAzNzEuOCAyTDM1Ni4zIDMwQzQzMC4xIDcxIDQ4MCAxNDkuNyA0ODAgMjQwek05NiAyNDBjMC03OS41IDY0LjUtMTQ0IDE0NC0xNDRzMTQ0IDY0LjUgMTQ0IDE0NGMwIDQ3LjEtMjIuNiA4OC45LTU3LjYgMTE1LjJMMzIwIDM2MGwwIDggMCAxNmMwIDUzLTQzIDk2LTk2IDk2bC0xNiAwLTE2IDAgMCAzMiAxNiAwIDE2IDBjNzAuNyAwIDEyOC01Ny4zIDEyOC0xMjhsMC04LjJjMzkuMS0zMi4zIDY0LTgxLjEgNjQtMTM1LjhjMC05Ny4yLTc4LjgtMTc2LTE3Ni0xNzZTNjQgMTQyLjggNjQgMjQwbDAgMTYgMzIgMCAwLTE2em02NCAxMzZhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek0zMiA1MDRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek02NCAzNjEuNEw0MS40IDM4NGwxMS4zIDExLjMgNjQgNjRMMTI4IDQ3MC42IDE1MC42IDQ0OGwtMTEuMy0xMS4zLTY0LTY0TDY0IDM2MS40ek0xNjAgMjQwYzAtNDQuMiAzNS44LTgwIDgwLTgwczgwIDM1LjggODAgODBsMCAxNiAzMiAwIDAtMTZjMC02MS45LTUwLjEtMTEyLTExMi0xMTJzLTExMiA1MC4xLTExMiAxMTJsMCAxNiAzMiAwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ear-listen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ear-listen.svg)
  */
 const EarListen: typeof Icon = x => (
     <Icon {...x}>

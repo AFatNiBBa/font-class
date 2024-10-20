@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side-mask` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-mask?s=sharp-light head-side-mask}
- * @preview ![head-side-mask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzguNyAxNTAuMkwyNzYuNSAyNzJsMTEuNSAwIDIyNCAwIDAtOC44LTY2LjYtNTkuMi01LjQtNC44IDAtNy4yYzAtODguNC03MS42LTE2MC0xNjAtMTYwbC0yNCAwQzE3Ni4xIDMyIDEwNy42IDgwLjggNzguNyAxNTAuMnptLTEwIDMxLjRDNjUuNiAxOTUuMyA2NCAyMDkuNCA2NCAyMjRjMCA1NC41IDIyLjYgMTAzLjYgNTkuMSAxMzguNWw0LjkgNC43IDAgNi44TDEyOCA0OTZsMCAxNi0zMiAwIDAtMTYgMC0xMTUuMkM1Ni40IDM0MC40IDMyIDI4NSAzMiAyMjRDMzIgMTAwLjMgMTMyLjMgMCAyNTYgMGwyNCAwQzM4My42IDAgNDY4IDgyIDQ3MS45IDE4NC43TDUzOC42IDI0NGw1LjQgNC44IDAgNy4yIDAgMTYgMCAxNi00LjYgMTZMNDgwIDUxMmwtMTkyIDAtMzIgMCAwLTMyIDAtMTc2IDAtNy4xTDY4LjcgMTgxLjd6TTM3NiAxNzZhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4ek01MDYuMSAzMDRMMjg4IDMwNGwwIDE3NiAxNjcuOSAwIDExLjQtNDBMMzY4IDQ0MGwtMTYgMCAwLTMyIDE2IDAgMTA4LjQgMCA5LjEtMzJMMzY4IDM3NmwtMTYgMCAwLTMyIDE2IDAgMTI2LjcgMCAxMS40LTQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![head-side-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/head-side-mask.svg)
  */
 const HeadSideMask: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

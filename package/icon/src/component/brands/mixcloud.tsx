@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mixcloud` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mixcloud?s=brands mixcloud}
- * @preview ![mixcloud](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEyLjk4IDM0Ni41NjZIMTc5Ljc4OVYxOTUuMTE0TDE4NS45NzMgMTczLjQ3SDE3NS4yNjJMMTM3LjEyNyAzNDYuNTY2SDc2LjEwNjlMMzcuNzMyMyAxNzMuNDdIMjcuMjc2TDMzLjE5MTMgMTk1LjExNFYzNDYuNTY2SDBWMTY1SDY1LjY1MDZMMTAyLjI0OCAzMzguMDk2SDExMC43NDdMMTQ3LjMyOSAxNjVIMjEyLjk4TDIxMi45OCAzNDYuNTY2Wk01NDQuNDU5IDI4My41ODlMNDU4LjQzNCAzNDUuNjU1VjMwNy41MzRMNTMxLjMyOSAyNTUuNzc2TDQ1OC40MzQgMjA0LjAxN1YxNjUuODk2TDU0NC40NTkgMjI4LjIzMUg1NTMuNzIxTDY0MCAxNjUuODk2VjIwNC4wMTdMNTY2Ljg2NiAyNTUuNzc2TDY0MCAzMDcuNTQ5VjM0NS42NTVMNTUzLjcyMSAyODMuNTg5SDU0NC40NTlaTTQzMC4xNTcgMjcyLjMxMUgyNDguMTEzVjIzOS4yNTVINDMwLjE1N1YyNzIuMzExWiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mixcloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/mixcloud.svg)
  */
 const Mixcloud: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

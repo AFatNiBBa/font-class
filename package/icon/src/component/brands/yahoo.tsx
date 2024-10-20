@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `yahoo` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/yahoo?s=brands yahoo}
- * @preview ![yahoo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjIzLjY5LDE0MS4wNiwxNjcsMjg0LjIzLDExMSwxNDEuMDZIMTQuOTNMMTIwLjc2LDM5MC4xOSw4Mi4xOSw0ODBoOTQuMTdMMzE3LjI3LDE0MS4wNlptMTA1LjQsMTM1Ljc5YTU4LjIyLDU4LjIyLDAsMSwwLDU4LjIyLDU4LjIyQTU4LjIyLDU4LjIyLDAsMCwwLDMyOS4wOSwyNzYuODVaTTM5NC42NSwzMmwtOTMsMjIzLjQ3SDQwNi40NEw0OTkuMDcsMzJaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![yahoo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/yahoo.svg)
  */
 const Yahoo: typeof Icon = x => (
     <Icon {...x}>

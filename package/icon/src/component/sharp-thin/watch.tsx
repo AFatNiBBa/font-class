@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `watch` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch?s=sharp-thin watch}
- * @preview ![watch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMGw4IDBMMzEyIDBsOCAwIDAgOCAwIDEwNC0xIDBjMzkuOSAzNS4yIDY1IDg2LjcgNjUgMTQ0YzAgNTYuOS0yNC43IDEwOC02NCAxNDMuMUwzMjAgNTA0bDAgOC04IDBMNzIgNTEybC04IDAgMC04IDAtMTA0LjlDMjQuNyAzNjQgMCAzMTIuOSAwIDI1NmMwLTU3LjMgMjUuMS0xMDguOCA2NS0xNDRsLTEgMEw2NCA4bDAtOHpNODAgNDEybDAgODQgMjI0IDAgMC04NGMtMzEuNSAyMi43LTcwLjIgMzYtMTEyIDM2cy04MC41LTEzLjQtMTEyLTM2ek0zMDQgMTZMODAgMTZsMCA4NGMzMS41LTIyLjcgNzAuMi0zNiAxMTItMzZzODAuNSAxMy40IDExMiAzNmwwLTg0em02NCAyNDBBMTc2IDE3NiAwIDEgMCAxNiAyNTZhMTc2IDE3NiAwIDEgMCAzNTIgMHpNMjAwIDE2MGwwIDkyIDYwLjggNDUuNiA2LjQgNC44LTkuNiAxMi44LTYuNC00LjgtNjQtNDhMMTg0IDI2MGwwLTQgMC05NiAwLTggMTYgMCAwIDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![watch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/watch.svg)
  */
 const Watch: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kerning` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kerning?s=light kerning}
- * @preview ![kerning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU0LjMgMjMuMmM0LTcuOSAuNy0xNy41LTcuMi0yMS41cy0xNy41LS43LTIxLjUgNy4ybC0yNDAgNDgwYy00IDcuOS0uNyAxNy41IDcuMiAyMS41czE3LjUgLjcgMjEuNS03LjJsMjQwLTQ4MHptLTQyNCA4MS43Yy00LTcuOS0xMy42LTExLjEtMjEuNS03LjJzLTExLjEgMTMuNi03LjIgMjEuNWwxNDQgMjg4YzIuNyA1LjQgOC4zIDguOCAxNC4zIDguOHMxMS42LTMuNCAxNC4zLTguOGwxNDQtMjg4YzQtNy45IC43LTE3LjUtNy4yLTIxLjVzLTE3LjUtLjctMjEuNSA3LjJMMTYwIDM2NC4yIDMwLjMgMTA0Ljh6bTMyMCAzMDIuM0wzODUuOSAzMzZsMTg4LjIgMCAzNS42IDcxLjJjNCA3LjkgMTMuNiAxMS4xIDIxLjUgNy4yczExLjEtMTMuNiA3LjItMjEuNWwtMTQ0LTI4OGMtMi43LTUuNC04LjItOC44LTE0LjMtOC44cy0xMS42IDMuNC0xNC4zIDguOGwtMTQ0IDI4OGMtNCA3LjktLjcgMTcuNSA3LjIgMjEuNXMxNy41IC43IDIxLjUtNy4yek00ODAgMTQ3LjhMNTU4LjEgMzA0bC0xNTYuMiAwTDQ4MCAxNDcuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![kerning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/kerning.svg)
  */
 const Kerning: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

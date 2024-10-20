@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-down?s=sharp-light circle-down}
- * @preview ![circle-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYTIyNCAyMjQgMCAxIDAgMCA0NDggMjI0IDIyNCAwIDEgMCAwLTQ0OHptMCA0ODBBMjU2IDI1NiAwIDEgMSAyNTYgMGEyNTYgMjU2IDAgMSAxIDAgNTEyek0yMjQgMjU2bDAgMzItMzIgMC0xOC43IDBMMjU2IDM3MC43IDMzOC43IDI4OCAzMjAgMjg4bC0zMiAwIDAtMzIgMC05Ni02NCAwIDAgOTZ6bTMyIDE2MGwtMjIuNi0yMi42TDEyOCAyODhsMC0zMiAzMiAwIDMyIDAgMC0zMiAwLTY0IDAtMzIgMzIgMCA2NCAwIDMyIDAgMCAzMiAwIDY0IDAgMzIgMzIgMCAzMiAwIDAgMzJMMjc4LjYgMzkzLjQgMjU2IDQxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-down.svg)
  */
 const CircleDown: typeof Icon = x => (
     <Icon {...x}>

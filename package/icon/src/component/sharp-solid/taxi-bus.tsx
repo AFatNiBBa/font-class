@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `taxi-bus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taxi-bus?s=sharp-solid taxi-bus}
- * @preview ![taxi-bus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBDMjk5IDAgMzg0IDM4LjQgMzg0IDM4LjRMMzg0IDY0bDAgMzItNjQgMEwyMDggOTZsMCAxMjggMzMuOSAwLTEwLjcgMzJMMTkyIDI1NmwwIDE2MC02NCAwIDAgNjQtODAgMCAwLTY0TDAgNDE2IDAgOTZzMCAwIDAgMEwwIDM4LjRTODUgMCAxOTIgMHpNMzg0IDIyNGwtNDAuOSAwLTIxLjMgNjQgNjIuMyAwIDE1OC4zIDAtMjEuMy02NEwzODQgMjI0ek0yMjQgMjg4bDMwLjMgMCAyMS4zLTY0IDE0LTQyLjEgNy4zLTIxLjkgMjMuMSAwIDQ4IDAgMC0zMiAxMjggMCAwIDMyIDQ4IDAgMjMuMSAwIDcuMyAyMS45TDYwOS43IDI4OGwzMC4zIDAgMCAxNjAgMCA2NC04MCAwIDAtNjQtMjU2IDAgMCA2NC04MCAwIDAtNjRzMCAwIDAgMGwwLTE2MHpNNjQgOTZsMCAxMjggMTEyIDAgMC0xMjhMNjQgOTZ6TTgwIDMyOGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6bTI0OCA0MGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem0yNTYgMGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![taxi-bus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/taxi-bus.svg)
  */
 const TaxiBus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

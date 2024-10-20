@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `podcast` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podcast?s=sharp-regular podcast}
- * @preview ![podcast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE2IDM3NC4xYzUwLjQtMzEgODQtODYuNiA4NC0xNTAuMWMwLTk3LjItNzguOC0xNzYtMTc2LTE3NlM0OCAxMjYuOCA0OCAyMjRjMCA2My41IDMzLjYgMTE5LjEgODQgMTUwbDguMyA1Ny44QzU4IDM5OC42IDAgMzE4LjEgMCAyMjRDMCAxMDAuMyAxMDAuMyAwIDIyNCAwUzQ0OCAxMDAuMyA0NDggMjI0YzAgOTQuMS01OCAxNzQuNi0xNDAuMiAyMDcuOGw4LjMtNTcuOHptMy4zLTQyLjFMMzEzIDMyNGwtMjMuNy0yOS42QzMwOC4yIDI3Ni45IDMyMCAyNTEuOCAzMjAgMjI0YzAtNTMtNDMtOTYtOTYtOTZzLTk2IDQzLTk2IDk2YzAgMjcuOCAxMS44IDUyLjkgMzAuNyA3MC40TDEzNSAzMjRsLTYuMyA3LjlDOTguOCAzMDUuNSA4MCAyNjcgODAgMjI0YzAtNzkuNSA2NC41LTE0NCAxNDQtMTQ0czE0NCA2NC41IDE0NCAxNDRjMCA0My0xOC44IDgxLjUtNDguNyAxMDcuOXpNMjI0IDI0MGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTAtODBhNjQgNjQgMCAxIDEgMCAxMjggNjQgNjQgMCAxIDEgMC0xMjh6TTE2MCAzNDRsMzItNDAgNjQgMCAzMiA0MEwyNjQgNTEybC04MCAwTDE2MCAzNDR6bTc3LjUgMTMuOGwtNC42LTUuOC0xNy45IDAtNC42IDUuOEwyMjQgNDUyLjZsMTMuNS05NC44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![podcast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/podcast.svg)
  */
 const Podcast: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

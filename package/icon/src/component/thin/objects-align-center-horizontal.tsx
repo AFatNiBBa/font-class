@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `objects-align-center-horizontal` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-center-horizontal?s=thin objects-align-center-horizontal}
- * @preview ![objects-align-center-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY0IDhjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCA1Nkw4MCA2NGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCA2NGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwxNjggMCAwIDY0LTEwNCAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDY0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDEwNCAwIDAgNTZjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTU2IDEwNCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtNjRjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTEwNCAwIDAtNjQgMTY4IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC02NGMwLTI2LjUtMjEuNS00OC00OC00OEwyNjQgNjRsMC01NnptLTggMjk2bDExMiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNjRjMCAxNy43LTE0LjMgMzItMzIgMzJsLTExMiAwLTExMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDExMiAwem0wLTk2TDgwIDIwOGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzNTIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xNzYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![objects-align-center-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/objects-align-center-horizontal.svg)
  */
 const ObjectsAlignCenterHorizontal: typeof Icon = x => (
     <Icon {...x}>

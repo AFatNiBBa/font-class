@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mountains` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountains?s=thin mountains}
- * @preview ![mountains](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDQyNC4xYzAgMjItMTcuOSAzOS45LTM5LjkgMzkuOUw1NS45IDQ2NGMtMjIgMC0zOS45LTE3LjktMzkuOS0zOS45YzAtNy41IDIuMS0xNC45IDYuMS0yMS4yTDIzOC44IDU3LjVDMjQyLjUgNTEuNiAyNDkgNDggMjU2IDQ4czEzLjUgMy42IDE3LjIgOS41TDQ4OS45IDQwMi45YzQgNi40IDYuMSAxMy43IDYuMSAyMS4yem0tNDk2IDBDMCA0NTUgMjUgNDgwIDU1LjkgNDgwbDQwMC4yIDAgMTIyLjggMGMzMy44IDAgNjEuMS0yNy40IDYxLjEtNjEuMWMwLTExLjItMy4xLTIyLjItOC45LTMxLjhsLTEzMi0yMTYuM0M0OTUgMTY0LjEgNDg3LjggMTYwIDQ4MCAxNjBzLTE1IDQuMS0xOS4xIDEwLjdsLTQ4LjIgNzlMMjg2LjggNDljLTYuNi0xMC42LTE4LjMtMTctMzAuOC0xN3MtMjQuMSA2LjQtMzAuOCAxN0w4LjYgMzk0LjRDMyA0MDMuMyAwIDQxMy42IDAgNDI0LjF6TTQyMi4yIDI2NC45TDQ3NC42IDE3OWMxLjItMS45IDMuMi0zIDUuNC0zczQuMyAxLjIgNS40IDNsMTMyIDIxNi4zYzQuMyA3LjEgNi42IDE1LjIgNi42IDIzLjVjMCAyNC45LTIwLjIgNDUuMS00NS4xIDQ1LjFsLTgzLjYgMGMxMC4zLTEwLjEgMTYuOC0yNC4zIDE2LjgtMzkuOWMwLTEwLjUtMy0yMC44LTguNi0yOS43TDQyMi4yIDI2NC45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mountains](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mountains.svg)
  */
 const Mountains: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

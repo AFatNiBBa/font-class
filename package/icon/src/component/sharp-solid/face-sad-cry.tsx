@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-sad-cry` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-cry?s=sharp-solid face-sad-cry}
- * @preview ![face-sad-cry](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ5My40Yy0yOS42IDEyLTYyLjEgMTguNi05NiAxOC42cy02Ni40LTYuNi05Ni0xOC42TDE2MCAyODhsMC0xNi0zMiAwIDAgMTYgMCAxODkuOEM1MS41IDQzMy41IDAgMzUwLjggMCAyNTZDMCAxMTQuNiAxMTQuNiAwIDI1NiAwUzUxMiAxMTQuNiA1MTIgMjU2YzAgOTQuOC01MS41IDE3Ny41LTEyOCAyMjEuOEwzODQgMjg4bDAtMTYtMzIgMCAwIDE2IDAgMjA1LjR6TTIwOCAzMzZsMCAzMmMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4bDAtMzJjMC0yNi41LTIxLjUtNDgtNDgtNDhzLTQ4IDIxLjUtNDggNDh6bS05MS4yLTk4LjRjMjEuNi0yOC44IDY0LjgtMjguOCA4Ni40IDBsMjUuNi0xOS4yYy0zNC40LTQ1LjktMTAzLjItNDUuOS0xMzcuNiAwbDI1LjYgMTkuMnptMjc4LjQgMGwyNS42LTE5LjJjLTM0LjQtNDUuOS0xMDMuMi00NS45LTEzNy42IDBsMjUuNiAxOS4yYzIxLjYtMjguOCA2NC44LTI4LjggODYuNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-sad-cry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-sad-cry.svg)
  */
 const FaceSadCry: typeof Icon = x => (
     <Icon {...x}>

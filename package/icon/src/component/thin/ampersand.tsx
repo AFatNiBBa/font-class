@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ampersand` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ampersand?s=thin ampersand}
- * @preview ![ampersand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc1LjYgNDhsMzMuMyAwYzM5LjMgMCA3MS4xIDMxLjggNzEuMSA3MS4xYzAgMjMtMTEuMiA0NC43LTMwIDU4bC03MCA0OS42LTU1LjctNTcuMmMtMTMtMTMuNC0yMC4zLTMxLjMtMjAuMy01MEMxMDQgODAuMSAxMzYuMSA0OCAxNzUuNiA0OHptMTUuOCAxOTAuNGw2Ny45LTQ4LjJjMjMtMTYuMyAzNi43LTQyLjggMzYuNy03MS4xQzI5NiA3MSAyNTcgMzIgMjA4LjkgMzJsLTMzLjMgMEMxMjcuMiAzMiA4OCA3MS4yIDg4IDExOS42YzAgMjIuOSA4LjkgNDQuOCAyNC45IDYxLjJsNTQgNTUuNEw3My4xIDMwMi43QzQ3LjMgMzIxIDMyIDM1MC43IDMyIDM4Mi4zYzAgNTMuOSA0My43IDk3LjcgOTcuNyA5Ny43bDc3LjYgMGMzMy4yIDAgNjQuNC0xNS44IDg0LTQyLjZMMzIyIDM5NS4zbDgwLjMgODIuM2MzLjEgMy4yIDguMiAzLjIgMTEuMyAuMXMzLjItOC4yIC4xLTExLjNsLTgyLjItODQuMyA4Mi45LTExMy40YzIuNi0zLjYgMS44LTguNi0xLjctMTEuMnMtOC42LTEuOC0xMS4yIDEuN0wzMjAuMiAzNzAuNSAxOTEuNCAyMzguNHptLTEzLjIgOS40TDMxMC43IDM4My42bC0zMi40IDQ0LjNjLTE2LjYgMjIuNy00MyAzNi4xLTcxLjEgMzYuMWwtNzcuNiAwQzg0LjYgNDY0IDQ4IDQyNy40IDQ4IDM4Mi4zYzAtMjYuNSAxMi44LTUxLjMgMzQuNC02Ni42bDk1LjgtNjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ampersand.svg)
  */
 const Ampersand: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

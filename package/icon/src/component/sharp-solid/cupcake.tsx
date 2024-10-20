@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cupcake` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cupcake?s=sharp-solid cupcake}
- * @preview ![cupcake](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDEyOGwwIC44YzMuMyAuNSA2LjYgMS40IDkuOSAyLjRsMjAuNSA2LjhjMzkuMiAxMy4xIDY1LjYgNDkuOCA2NS42IDkxLjFsMCA1OC44TDAgMjg4bDAtNTguOGMwLTQxLjMgMjYuNC03OCA2NS42LTkxLjFsMjAuNS02LjhjMy4yLTEuMSA2LjUtMS45IDkuOS0yLjRsMC0uOGMwLTM1LjMgMjguNy02NCA2NC02NGw0OS4zIDBjMTcgMCAzMC43LTEzLjcgMzAuNy0zMC43YzAtNi4xLTEuOC0xMi01LjItMTdMMjI0IDBjNzAuNyAwIDEyOCA1Ny4zIDEyOCAxMjh6TTI5MS45IDMyMGwtMjQgMTkyLTg3LjggMC0yNC0xOTIgMTM1LjggMHpNNjQgMzIwbDU5LjkgMCAyNCAxOTJMOTYgNTEyIDY0IDMyMHpNMzAwLjEgNTEybDI0LTE5MiA1OS45IDBMMzUyIDUxMmwtNTEuOSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cupcake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cupcake.svg)
  */
 const Cupcake: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-three-quarters` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-three-quarters?s=sharp-light battery-three-quarters}
- * @preview ![battery-three-quarters](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDEyOGwwIDI1NkwzMiAzODRsMC0yNTYgNDQ4IDB6TTMyIDk2TDAgOTZsMCAzMkwwIDM4NGwwIDMyIDMyIDAgNDQ4IDAgMzIgMCAwLTMyIDAtMjU2IDAtMzItMzIgMEwzMiA5NnptNTQ0IDk2bC0zMiAwIDAgMzIgMCA2NCAwIDMyIDMyIDAgMC0zMiAwLTY0IDAtMzJ6TTk2IDE5MmwyMjQgMCAwIDEyOEw5NiAzMjBsMC0xMjh6TTY0IDE2MGwwIDMyIDAgMTI4IDAgMzIgMzIgMCAyMjQgMCAzMiAwIDAtMzIgMC0xMjggMC0zMi0zMiAwTDk2IDE2MGwtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![battery-three-quarters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/battery-three-quarters.svg)
  */
 const BatteryThreeQuarters: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

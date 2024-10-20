@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cross` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cross?s=regular cross}
- * @preview ![cross](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDQ4YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDY0IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA2NCA2NCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTY0IDAgMCAxOTJjMCAyNi41LTIxLjUgNDgtNDggNDhsLTY0IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTkyLTY0IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtNjRjMC0yNi41IDIxLjUtNDggNDgtNDhsNjQgMCAwLTY0em0xMTIgMGwtNjQgMCAwIDg4YzAgMTMuMy0xMC43IDI0LTI0IDI0bC04OCAwIDAgNjQgODggMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDIxNiA2NCAwIDAtMjE2YzAtMTMuMyAxMC43LTI0IDI0LTI0bDg4IDAgMC02NC04OCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cross](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cross.svg)
  */
 const Cross: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

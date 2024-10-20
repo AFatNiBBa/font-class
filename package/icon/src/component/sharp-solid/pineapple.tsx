@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pineapple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pineapple?s=sharp-solid pineapple}
- * @preview ![pineapple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDk2bC00MCA0MCAyNCAyNC01Ny4xIDIyLjlMNDQ4IDE5MmwwIDEyOEwyNTYgNTEybC0xMjggMEwwIDM4NCAwIDI1NiAxOTIgNjRsMTI4IDAgOS4xIDkuMUwzNTIgMTZsMjQgMjRMNDE2IDBsMTAgMzAgNzAtMTRMNDgyIDg2bDMwIDEwek0xNzYgMjAxLjRMMTUzLjQgMjI0bDExLjMgMTEuMyAzMiAzMkwyMDggMjc4LjZsMTEuMy0xMS4zIDMyLTMyTDI2Mi42IDIyNCAyNDAgMjAxLjRsLTExLjMgMTEuM0wyMDggMjMzLjRsLTIwLjctMjAuN0wxNzYgMjAxLjR6bS04MCA4MEw3My40IDMwNGwxMS4zIDExLjMgMzIgMzJMMTI4IDM1OC42bDExLjMtMTEuMyAzMi0zMkwxODIuNiAzMDQgMTYwIDI4MS40bC0xMS4zIDExLjNMMTI4IDMxMy40bC0yMC43LTIwLjdMOTYgMjgxLjR6bTE2MCAwTDIzMy40IDMwNGwxMS4zIDExLjMgMzIgMzJMMjg4IDM1OC42bDExLjMtMTEuMyAzMi0zMkwzNDIuNiAzMDQgMzIwIDI4MS40bC0xMS4zIDExLjNMMjg4IDMxMy40bC0yMC43LTIwLjdMMjU2IDI4MS40em0tODAgODBMMTUzLjQgMzg0bDExLjMgMTEuMyAzMiAzMkwyMDggNDM4LjZsMTEuMy0xMS4zIDMyLTMyTDI2Mi42IDM4NCAyNDAgMzYxLjRsLTExLjMgMTEuM0wyMDggMzkzLjRsLTIwLjctMjAuN0wxNzYgMzYxLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pineapple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pineapple.svg)
  */
 const Pineapple: typeof Icon = x => (
     <Icon {...x}>

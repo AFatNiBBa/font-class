@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `balloons` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/balloons?s=sharp-solid balloons}
- * @preview ![balloons](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDE2MEMzMjAgNzEuNiAyNDguNCAwIDE2MCAwUzAgNzEuNiAwIDE2MEMwIDI3MiAxMjggMzY4IDEyOCAzNjhMOTYgNDQ4bDEyOCAwLTMyLTgwczEyOC05NiAxMjgtMjA4ek0xNjAgOTZjLTM1LjMgMC02NCAyOC43LTY0IDY0bC0zMiAwYzAtNTMgNDMtOTYgOTYtOTZsMCAzMnpNNDQ4IDQzMmwtMzIgODAgMTI4IDAtMzItODBzMTI4LTk2IDEyOC0yMDhjMC04OC40LTcxLjYtMTYwLTE2MC0xNjBjLTUzLjcgMC0xMDEuMiAyNi40LTEzMC4yIDY3YzEuNCA5LjUgMi4yIDE5LjIgMi4yIDI5YzAgMzctMTEuNCA3MS42LTI3LjMgMTAxLjlDMzQ3LjcgMzU2LjggNDQ4IDQzMiA0NDggNDMyek00MTYgMjI0bC0zMiAwYzAtNTMgNDMtOTYgOTYtOTZsMCAzMmMtMzUuMyAwLTY0IDI4LjctNjQgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![balloons](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/balloons.svg)
  */
 const Balloons: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

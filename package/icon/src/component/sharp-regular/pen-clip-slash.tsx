@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-clip-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-clip-slash?s=sharp-regular pen-clip-slash}
- * @preview ![pen-clip-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA5LjEgMjk0LjlMNDYzIDI0MXMwIDAgMCAwTDQ5NyAyMDdzMCAwIDAgMGw0NS4xLTQ1LjFMNTc2IDEyOCA1NDIuMSA5NC4xIDUxMi40IDY0LjQgNTEyIDY0bC0uNC0uNEw0ODEuOSAzMy45IDQ0OCAwIDQxNC4xIDMzLjkgMzY5IDc5IDMyMSAzMWwtMTctMTdMMjg3IDMxbC05NS4yIDk1LjJMNDguNCAxNC44IDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDQwOS4xIDI5NC45em0tMTc5LTEzOUwzMDQgODEuOWwzMSAzMS03MCA3MC0zNC45LTI3LjF6bTczLjEgNTYuOEwzNjkgMTQ2LjkgNDI5LjEgMjA3bC01OC4yIDU4LjItNjcuNy01Mi41em0zNi44IDE1MS4zbC0zOC0yOS45TDIwMC4zIDQzNS44bC03NS4xIDE1IDE1LTc1LjFMMjM0LjggMjgxbC0zOC0yOS45TDk2IDM1MiA3NC4yIDQ2MSA2NCA1MTJsNTEtMTAuMkwyMjQgNDgwIDM0MC4xIDM2My45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-clip-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pen-clip-slash.svg)
  */
 const PenClipSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

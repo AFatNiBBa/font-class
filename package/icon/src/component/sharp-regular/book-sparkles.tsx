@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-sparkles` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-sparkles?s=sharp-regular book-sparkles}
- * @preview ![book-sparkles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4OEMwIDM5LjQgMzkuNCAwIDg4IDBMNDI0IDBsMjQgMCAwIDI0IDAgMzUyIDAgMjQtMjQgMC04IDAgMCA2NCA4IDAgMjQgMCAwIDQ4LTI0IDBMODAgNTEyYy00NC4yIDAtODAtMzUuOC04MC04MGMwLTIuNyAuMS01LjQgLjQtOEwwIDQyNCAwIDg4ek00OCA0MzJjMCAxNy43IDE0LjMgMzIgMzIgMzJsMjg4IDAgMC02NEw4MCA0MDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyem0wLTczLjNjOS44LTQuMyAyMC42LTYuNyAzMi02LjdsMzIwIDAgMC0zMDRMODggNDhDNjUuOSA0OCA0OCA2NS45IDQ4IDg4bDAgMjcwLjd6TTE2MCAxMTJsMTYtMzIgMTYgMzIgMzIgMTYtMzIgMTYtMTYgMzItMTYtMzItMzItMTYgMzItMTZ6TTI2NCAyMTZsMjQtNTYgMjQgNTYgNTYgMjQtNTYgMjQtMjQgNTYtMjQtNTYtNTYtMjQgNTYtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/book-sparkles.svg)
  */
 const BookSparkles: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sensor-triangle-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-triangle-exclamation?s=sharp-regular sensor-triangle-exclamation}
- * @preview ![sensor-triangle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMzUyIDAgMCAxMDEuMiA0OC04OEw0NDggODBsMC00OC00OCAwTDQ4IDMyIDAgMzIgMCA4MCAwIDQzMmwwIDQ4IDQ4IDAgMTg5IDAgMjYuMi00OEw0OCA0MzIgNDggODB6bTk2IDcybDAtMjQtNDggMCAwIDI0IDAgMTEyIDAgMjQgNDggMCAwLTI0IDAtMTEyem05NiAwbDAtMjQtNDggMCAwIDI0IDAgMTEyIDAgMjQgNDggMCAwLTI0IDAtMTEyem0yMDggOEwyNTYgNTEybDM4NCAwTDQ0OCAxNjB6bTE2IDE0NGwwIDY0IDAgMTYtMzIgMCAwLTE2IDAtNjQgMC0xNiAzMiAwIDAgMTZ6TTQzMiA0MTZsMzIgMCAwIDMyLTMyIDAgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sensor-triangle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sensor-triangle-exclamation.svg)
  */
 const SensorTriangleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

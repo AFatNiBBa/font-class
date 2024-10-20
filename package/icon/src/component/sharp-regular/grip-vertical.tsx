@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grip-vertical` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grip-vertical?s=sharp-regular grip-vertical}
- * @preview ![grip-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAgNDQwbDAtNDggNDggMCAwIDQ4LTQ4IDB6TTAgNDgwbDQwIDAgNDggMCA0MCAwIDAtNDAgMC00OCAwLTQwLTQwIDAtNDggMEwwIDM1MmwwIDQwIDAgNDggMCA0MHptMjMyLTQwbDAtNDggNDggMCAwIDQ4LTQ4IDB6bS00MCA0MGw0MCAwIDQ4IDAgNDAgMCAwLTQwIDAtNDggMC00MC00MCAwLTQ4IDAtNDAgMCAwIDQwIDAgNDggMCA0MHpNNDAgMjMybDQ4IDAgMCA0OC00OCAwIDAtNDh6TTAgMjgwbDAgNDAgNDAgMCA0OCAwIDQwIDAgMC00MCAwLTQ4IDAtNDAtNDAgMC00OCAwTDAgMTkybDAgNDAgMCA0OHptMjMyIDBsMC00OCA0OCAwIDAgNDgtNDggMHptLTQwIDQwbDQwIDAgNDggMCA0MCAwIDAtNDAgMC00OCAwLTQwLTQwIDAtNDggMC00MCAwIDAgNDAgMCA0OCAwIDQwek00MCA3Mmw0OCAwIDAgNDgtNDggMCAwLTQ4ek0wIDEyMGwwIDQwIDQwIDAgNDggMCA0MCAwIDAtNDAgMC00OCAwLTQwTDg4IDMyIDQwIDMyIDAgMzIgMCA3MmwwIDQ4em0yMzIgMGwwLTQ4IDQ4IDAgMCA0OC00OCAwem0tNDAgNDBsNDAgMCA0OCAwIDQwIDAgMC00MCAwLTQ4IDAtNDAtNDAgMC00OCAwLTQwIDAgMCA0MCAwIDQ4IDAgNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![grip-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/grip-vertical.svg)
  */
 const GripVertical: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

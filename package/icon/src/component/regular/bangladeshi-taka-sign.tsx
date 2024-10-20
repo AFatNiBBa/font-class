@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bangladeshi-taka-sign` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bangladeshi-taka-sign?s=regular bangladeshi-taka-sign}
- * @preview ![bangladeshi-taka-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYuNCAzMi4xQzEzLjIgMzAuOCAxLjQgNDAuNCAuMSA1My42czguMyAyNSAyMS41IDI2LjNMNDQgODIuMWMyMC40IDIgMzYgMTkuMyAzNiAzOS44TDgwIDE3NmwtNTYgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw1NiAwIDAgMTY4YzAgNDguNiAzOS40IDg4IDg4IDg4bDMyIDBjMTAxLjYgMCAxODQtODIuNCAxODQtMTg0bDAtMzJjMC00OC42LTM5LjQtODgtODgtODhsLTE2IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMTYgMGMyMi4xIDAgNDAgMTcuOSA0MCA0MGwwIDMyYzAgNzUuMS02MC45IDEzNi0xMzYgMTM2bC0zMiAwYy0yMi4xIDAtNDAtMTcuOS00MC00MGwwLTE2OCA0MCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC00MCAwIDAtNTQuMWMwLTQ1LjItMzQuMy04My4xLTc5LjItODcuNkwyNi40IDMyLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bangladeshi-taka-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bangladeshi-taka-sign.svg)
  */
 const BangladeshiTakaSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

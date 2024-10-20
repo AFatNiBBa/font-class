@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `envelope-dot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-dot?s=sharp-regular envelope-dot}
- * @preview ![envelope-dot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDE2MEE4MCA4MCAwIDEgMCA0OTYgMGE4MCA4MCAwIDEgMCAwIDE2MHptMTYgMjQwbDAtMjA5LjFjLTUuMiAuNy0xMC42IDEuMS0xNiAxLjFjLTIzLjUgMC00NS40LTcuMy02My40LTE5LjdMMjU2IDI5My44IDQ4IDE1MC44IDQ4IDExMmwzNDAuNiAwYy0zLTEwLjEtNC42LTIwLjktNC42LTMyYzAtNS40IC40LTEwLjggMS4xLTE2TDQ4IDY0IDAgNjRsMCA0OCAwIDY0TDAgNDAwbDAgNDggNDggMCA0MTYgMCA0OCAwIDAtNDh6TTQ2NCAyMDlsMCAxOTFMNDggNDAwbDAtMTkxTDI1NiAzNTIgNDY0IDIwOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![envelope-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/envelope-dot.svg)
  */
 const EnvelopeDot: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

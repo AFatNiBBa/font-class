@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `coffin` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffin?s=duotone coffin}
- * @preview ![coffin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMS41IDExNC45bDkxLTEwNEMxMDguNSA0IDExNy4zIDAgMTI2LjUgMGgxMzFjOS4yIDAgMTggNCAyNC4xIDEwLjlsOTEgMTA0YzcuNCA4LjUgMTEuNSAxOS4zIDExLjUgMzAuNmMwIDQuNC0uNiA4LjctMS44IDEyLjlMMjg2LjcgNDg4LjljLTQgMTMuNy0xNi41IDIzLjEtMzAuNyAyMy4xSDEyOC4xYy0xNC4zIDAtMjYuOC05LjQtMzAuNy0yMy4xTDEuOCAxNTguM0MuNiAxNTQuMSAwIDE0OS44IDAgMTQ1LjRjMC0xMS4yIDQuMS0yMi4xIDExLjUtMzAuNnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![coffin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/coffin.svg)
  */
 const Coffin: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

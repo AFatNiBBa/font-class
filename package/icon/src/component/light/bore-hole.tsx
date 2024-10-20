@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bore-hole` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bore-hole?s=light bore-hole}
- * @preview ![bore-hole](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDI0MmMtMjcuNiA3LjEtNDggMzIuMi00OCA2MmMwIDM1LjMgMjguNyA2NCA2NCA2NHM2NC0yOC43IDY0LTY0YzAtMjkuOC0yMC40LTU0LjktNDgtNjJsMC0yNDJjMC04LjgtNy4yLTE2LTE2LTE2em0zMiAzMjBhMzIgMzIgMCAxIDEgLTY0IDAgMzIgMzIgMCAxIDEgNjQgMHpNODAgMTYwbDQ4IDAgMCAxNjBjMCA3MC43IDU3LjMgMTI4IDEyOCAxMjhzMTI4LTU3LjMgMTI4LTEyOGwwLTE2MCA0OCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMjI0YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDgwIDQ4MGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC0yMjRjMC0yNi41IDIxLjUtNDggNDgtNDh6bTgwIDBjMC0xNy43LTE0LjMtMzItMzItMzJsLTQ4IDBjLTQ0LjIgMC04MCAzNS44LTgwIDgwTDAgNDMyYzAgNDQuMiAzNS44IDgwIDgwIDgwbDM1MiAwYzQ0LjIgMCA4MC0zNS44IDgwLTgwbDAtMjI0YzAtNDQuMi0zNS44LTgwLTgwLTgwbC00OCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE2MGMwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bore-hole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bore-hole.svg)
  */
 const BoreHole: typeof Icon = x => (
     <Icon {...x}>

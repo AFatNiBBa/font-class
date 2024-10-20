@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-kanban` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-kanban?s=sharp-thin square-kanban}
- * @preview ![square-kanban](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDY0TDE2IDQ4bDQxNiAwIDAgNDE2TDE2IDQ2NHpNMCA0ODBsMTYgMCA0MTYgMCAxNiAwIDAtMTYgMC00MTYgMC0xNi0xNiAwTDE2IDMyIDAgMzIgMCA0OCAwIDQ2NGwwIDE2ek0xMTIgMTQ0bDMyIDAgMCAxNiAwIDEyOCAwIDE2LTMyIDAgMC0xNiAwLTEyOCAwLTE2em00OCAxNDRsMC0xMjggMC0xNiAwLTE2LTE2IDAtMzIgMC0xNiAwIDAgMTYgMCAxNiAwIDEyOCAwIDE2IDAgMTYgMTYgMCAzMiAwIDE2IDAgMC0xNiAwLTE2ek0zMzYgMTYwbDAgMTkyIDAgMTYtMzIgMCAwLTE2IDAtMTkyIDAtMTYgMzIgMCAwIDE2em0xNi0zMmwtMTYgMC0zMiAwLTE2IDAgMCAxNiAwIDE2IDAgMTkyIDAgMTYgMCAxNiAxNiAwIDMyIDAgMTYgMCAwLTE2IDAtMTYgMC0xOTIgMC0xNiAwLTE2ek0yNDAgMTYwbDAgNjQgMCAxNi0zMiAwIDAtMTYgMC02NCAwLTE2IDMyIDAgMCAxNnptMTYgMGwwLTE2IDAtMTYtMTYgMC0zMiAwLTE2IDAgMCAxNiAwIDE2IDAgNjQgMCAxNiAwIDE2IDE2IDAgMzIgMCAxNiAwIDAtMTYgMC0xNiAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-kanban](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-kanban.svg)
  */
 const SquareKanban: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

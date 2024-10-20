@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `input-text` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-text?s=solid input-text}
- * @preview ![input-text](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTI4bDAgMjU2IDUxMiAwIDAtMjU2TDY0IDEyOHpNMCAxMjhDMCA5Mi43IDI4LjcgNjQgNjQgNjRsNTEyIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyNTZjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNDQ4Yy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDEyOHptMTg0IDMyYzkuNSAwIDE4LjEgNS42IDIxLjkgMTQuM2w2NCAxNDRjNS40IDEyLjEtLjEgMjYuMy0xMi4yIDMxLjdzLTI2LjMtLjEtMzEuNy0xMi4ybC00LjMtOS43LTc1LjUgMC00LjMgOS43Yy01LjQgMTIuMS0xOS42IDE3LjYtMzEuNyAxMi4ycy0xNy42LTE5LjYtMTIuMi0zMS43bDY0LTE0NGMzLjktOC43IDEyLjQtMTQuMyAyMS45LTE0LjN6bTAgODMuMUwxNjcuNiAyODBsMzIuOCAwTDE4NCAyNDMuMXpNMzA0IDE4NGMwLTEzLjMgMTAuNy0yNCAyNC0yNGw1MiAwYzMzLjEgMCA2MCAyNi45IDYwIDYwYzAgOS4yLTIuMSAxNy45LTUuOCAyNS43YzEzLjMgMTEgMjEuOCAyNy42IDIxLjggNDYuM2MwIDMzLjEtMjYuOSA2MC02MCA2MGwtNjggMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC04IDAtNjQgMC02NCAwLTh6bTQ4IDI0bDAgMjQgMjggMGM2LjYgMCAxMi01LjQgMTItMTJzLTUuNC0xMi0xMi0xMmwtMjggMHptMCA5Nmw0NCAwYzYuNiAwIDEyLTUuNCAxMi0xMnMtNS40LTEyLTEyLTEybC0xNiAwLTI4IDAgMCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![input-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/input-text.svg)
  */
 const InputText: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

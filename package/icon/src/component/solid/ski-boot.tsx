@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ski-boot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ski-boot?s=solid ski-boot}
- * @preview ![ski-boot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgzLjQgMzhjMy4zLTE3LjQtOC0zNC4xLTI1LjQtMzcuNXMtMzQuMSA4LTM3LjUgMjUuNGwtMS4yIDYtNzMuNyAwYy0yMi4xIDEzMC44LTc2IDIwMS4zLTEyNy4yIDIzOC45Yy0yNi4yIDE5LjMtNTEuMiAyOS41LTY5LjkgMzVjLTYuMyAxLjgtMTEuOCAzLjEtMTYuNSA0TC42IDQ3NGMtMS44IDkuNCAuNyAxOS4xIDYuOCAyNi40UzIyLjUgNTEyIDMyIDUxMmw0MTYgMCAzMiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybDAtNzJjMC0xMi4zLTctMjMuNC0xOC0yOC44TDM0MCAyODhsLTY4IDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsNjkuNSAwIDEyLjMtNjRMMjg4IDE5MmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmw3MiAwIDE3LjMtOTAgNi4yLTMyek0zOC44IDI3NS40Yy4zLS4xIC42LS4yIC45LS4zYzE1LjYtNC42IDM3LjEtMTMuMyA1OS45LTMwYzQzLTMxLjYgOTIuMy05Mi45IDExMy43LTIxMy4xTDExMiAzMkM5Ni43IDMyIDgzLjUgNDIuOSA4MC42IDU4TDM4LjggMjc1LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ski-boot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ski-boot.svg)
  */
 const SkiBoot: typeof Icon = x => (
     <Icon {...x}>

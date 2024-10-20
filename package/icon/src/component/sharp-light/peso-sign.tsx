@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `peso-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peso-sign?s=sharp-light peso-sign}
- * @preview ![peso-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzJMMzIgMzJsMCAxNiAwIDgwTDAgMTI4bDAgMzIgMzIgMCAwIDY0TDAgMjI0bDAgMzIgMzIgMCAwIDgwIDAgMTI4IDAgMTYgMzIgMCAwLTE2IDAtMTEyIDEyOCAwYzY1LjYgMCAxMjItMzkuNSAxNDYuNy05Nmw0NS4zIDAgMC0zMi0zNS4yIDBjMi4xLTEwLjMgMy4yLTIxIDMuMi0zMnMtMS4xLTIxLjctMy4yLTMybDM1LjIgMCAwLTMyLTQ1LjMgMEMzMTQgNzEuNSAyNTcuNiAzMiAxOTIgMzJMNDggMzJ6bTI1NC45IDk2TDY0IDEyOGwwLTY0IDEyOCAwYzQ3LjQgMCA4OC43IDI1LjcgMTEwLjkgNjR6TTY0IDE2MGwyNTIgMGMyLjYgMTAuMiA0IDIxIDQgMzJzLTEuNCAyMS44LTQgMzJMNjQgMjI0bDAtNjR6bTIzOC45IDk2Yy0yMi4xIDM4LjMtNjMuNSA2NC0xMTAuOSA2NEw2NCAzMjBsMC02NCAyMzguOSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![peso-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/peso-sign.svg)
  */
 const PesoSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart?s=sharp-light heart}
- * @preview ![heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE0MS4zbC0yMi42LTIyLjZMMjA5LjEgOTQuNEMxODkuNyA3NC45IDE2My4zIDY0IDEzNS44IDY0Qzc4LjUgNjQgMzIgMTEwLjUgMzIgMTY3LjhjMCAyNy41IDEwLjkgNTMuOSAzMC40IDczLjRsMjQuMiAyNC4yTDI1NiA0MzQuOCA0MjUuNCAyNjUuNGwyNC4yLTI0LjJjMTkuNS0xOS41IDMwLjQtNDUuOSAzMC40LTczLjRDNDgwIDExMC41IDQzMy41IDY0IDM3Ni4yIDY0Yy0yNy41IDAtNTMuOSAxMC45LTczLjQgMzAuNGwtMjQuMiAyNC4yTDI1NiAxNDEuM3ptMjIuNiAzMTYuMUwyNTYgNDgwbC0yMi42LTIyLjZMNjQgMjg4IDM5LjggMjYzLjhDMTQuMyAyMzguMyAwIDIwMy44IDAgMTY3LjhDMCA5Mi44IDYwLjggMzIgMTM1LjggMzJjMzYgMCA3MC41IDE0LjMgOTYgMzkuOGwxLjYgMS42TDI1NiA5NmwyMi42LTIyLjYgMS42LTEuNmMyNS41LTI1LjUgNjAtMzkuOCA5Ni0zOS44QzQ1MS4yIDMyIDUxMiA5Mi44IDUxMiAxNjcuOGMwIDM2LTE0LjMgNzAuNS0zOS44IDk2TDQ0OCAyODggMjc4LjYgNDU3LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/heart.svg)
  */
 const Heart: typeof Icon = x => (
     <Icon {...x}>

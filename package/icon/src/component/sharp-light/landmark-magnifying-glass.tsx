@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `landmark-magnifying-glass` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark-magnifying-glass?s=sharp-light landmark-magnifying-glass}
- * @preview ![landmark-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDI4OGMtMTEgMC0yMS43LTEuMS0zMi0zLjJsMCA2Ny4yLTgwIDAgMC0xMDkuN2MtNS44LTUuNy0xMS4xLTExLjgtMTYtMTguM2wtMTYgMCAwIDEyOC05NiAwIDAtMTI4LTMyIDAgMCAxMjgtODAgMCAwLTEyOC0zMiAwIDAgMTI4LTE2IDAgMCAzMiAxNiAwIDM4NCAwIDE2IDAgMC0zMi0xNiAwIDAtNjR6TTI1NiAwTDAgMTQ0bDAgMTYgMCAzMiAzMiAwIDI2OS4zIDBjLTQuNC0xMC4yLTcuOS0yMC45LTEwLjEtMzJMMzYuOCAxNjAgMjU2IDM2LjdsNDYgMjUuOGM0LjQtOS44IDkuOC0xOS4xIDE2LTI3LjdMMjU2IDB6TTI0IDQ0OGwxNiAwIDQzMiAwIDE2IDAgMC0zMi0xNiAwTDQwIDQxNmwtMTYgMCAwIDMyek0wIDQ4MGwwIDMyIDE2IDAgNDgwIDAgMTYgMCAwLTMyLTE2IDBMMTYgNDgwIDAgNDgwek00NDggMzIuMWE5NiA5NiAwIDEgMSAwIDE5MiA5NiA5NiAwIDEgMSAwLTE5MnptMCAyMjRjMjkuNiAwIDU2LjgtMTAgNzguNS0yNi45TDYwNC43IDMwN2wxMS4zIDExLjMgMjIuNi0yMi43LTExLjMtMTEuMy03OC4xLTc3LjdDNTY2IDE4NC45IDU3NiAxNTcuNyA1NzYgMTI4LjJjMC03MC43LTU3LjMtMTI4LTEyOC0xMjhzLTEyOCA1Ny4zLTEyOCAxMjhzNTcuMyAxMjggMTI4IDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![landmark-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/landmark-magnifying-glass.svg)
  */
 const LandmarkMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

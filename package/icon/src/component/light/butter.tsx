@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `butter` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/butter?s=light butter}
- * @preview ![butter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDk2bDAgMTkyLTMyIDAgMC0xOTJMMTI4IDk2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE2MC0zMiAwIDAtMTYwYzAtMzUuMyAyOC43LTY0IDY0LTY0bDMyMCAwIDE2IDAgMTYgMCAzMiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMTYwLTMyIDAgMC0xNjBjMC0xNy43LTE0LjMtMzItMzItMzJsLTMyIDB6TTAgMzM2YzAtOC44IDcuMi0xNiAxNi0xNmwxNiAwIDMyIDAgNTEyIDAgMzIgMCAxNiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xNiAwIDAgNDhjMCAyNi41LTIxLjUgNDgtNDggNDhMODAgNDQ4Yy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTQ4LTE2IDBjLTguOCAwLTE2LTcuMi0xNi0xNnptNjQgMTZsMCA0OGMwIDguOCA3LjIgMTYgMTYgMTZsNDgwIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtNDhMNjQgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![butter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/butter.svg)
  */
 const Butter: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

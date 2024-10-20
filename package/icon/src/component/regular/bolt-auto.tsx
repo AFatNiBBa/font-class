@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bolt-auto` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-auto?s=regular bolt-auto}
- * @preview ![bolt-auto](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE3LjQgMzYuNkMzMjIuNiAxOC4zIDMwOC44IDAgMjg5LjcgMGMtNi44IDAtMTMuNSAyLjQtMTguNyA2LjlMMTEuOCAyMjguNkM0LjMgMjM1IDAgMjQ0LjQgMCAyNTQuM0MwIDI3Mi45IDE1LjEgMjg4IDMzLjcgMjg4bDg2LjQgMEw2Ni42IDQ3NS40QzYxLjQgNDkzLjcgNzUuMiA1MTIgOTQuMyA1MTJjNi44IDAgMTMuNC0yLjQgMTguNi02LjhMMzcxLjcgMjg1LjZjNy44LTYuNiAxMi4zLTE2LjQgMTIuMy0yNi42YzAtMTkuMy0xNS42LTM0LjktMzQuOS0zNC45bC04NS4yIDBMMzE3LjQgMzYuNnpNNzIuNCAyNDBMMjUzLjYgODUgMjA4LjkgMjQxLjRjLTIuMSA3LjItLjYgMTUgMy45IDIxczExLjYgOS41IDE5LjIgOS41bDgxLjUgMEwxMzAuMyA0MjcuNWw0NC44LTE1Ni45YzIuMS03LjIgLjYtMTUtMy45LTIxcy0xMS42LTkuNS0xOS4yLTkuNWwtNzkuNiAwek00NjQgMjg4Yy05LjEgMC0xNy40IDUuMS0yMS41IDEzLjNsLTg4IDE3NmMtNS45IDExLjktMS4xIDI2LjMgMTAuNyAzMi4yczI2LjMgMS4xIDMyLjItMTAuN0w0MTAuOCA0NzJsMTA2LjMgMCAxMy40IDI2LjdjNS45IDExLjkgMjAuMyAxNi43IDMyLjIgMTAuN3MxNi43LTIwLjMgMTAuNy0zMi4ybC04OC0xNzZjLTQuMS04LjEtMTIuNC0xMy4zLTIxLjUtMTMuM3ptMCA3Ny43TDQ5My4yIDQyNGwtNTguMyAwTDQ2NCAzNjUuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bolt-auto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bolt-auto.svg)
  */
 const BoltAuto: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

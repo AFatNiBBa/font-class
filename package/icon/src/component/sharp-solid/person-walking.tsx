@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-walking` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking?s=sharp-solid person-walking}
- * @preview ![person-walking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTE0Mi4zIDEyOC42bC0xMC0yLTkuMyA0LjEtNzIgMzItMTIuOSA1LjctNC41IDEzLjQtMTYgNDhMNy41IDI2MC4ybDYwLjcgMjAuMiAxMC4xLTMwLjQgMTEuNS0zNC42IDM2LjctMTYuMy0xNyA2My42Yy01LjYgMjEuMS0uMSA0My42IDE0LjcgNTkuN2w3MC45IDc3LjQgMjIgODAuNSA4LjQgMzAuOSA2MS43LTE2LjgtOC40LTMwLjktMjQtODgtMi03LjUtNS4yLTUuNy01Mi4zLTU3IDE4LjQtNjIuNCAxMy43IDI3LjQgNC44IDkuNSA5LjUgNC44IDQ4IDI0IDI4LjYtNTcuMi0zOC41LTE5LjItMzUuMi03MC41LTctMTQtMTUuMy0zLjEtODAtMTZ6TTY4LjcgMzk4TDI1LjQgNDQxLjQgMi43IDQ2NCA0OCA1MDkuM2wyMi42LTIyLjYgNDgtNDggNC42LTQuNiAyLjQtNi4xIDE1LjctMzkuMy00MC43LTQ0LjRjLTIuNS0yLjctNC44LTUuNi03LTguNkw2OC43IDM5OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-walking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-walking.svg)
  */
 const PersonWalking: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

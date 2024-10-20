@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mortar-pestle` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mortar-pestle?s=sharp-thin mortar-pestle}
- * @preview ![mortar-pestle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjUyLjMgMTYwTDQ2OS41IDBsNDAuNiA0Ny4yTDM5Ny4zIDE2MGwtMjIuNiAwTDQ4OC4zIDQ2LjQgNDY3IDIxLjcgMjc5LjMgMTYwbC0yNyAwek00ODAgMjU2YzAgNzcuMS0zNy45IDEzOS0xMDguNCAxNzAuMWMtNSAyLjItMTAuMSA0LjItMTUuNSA2LjFjMy40IDQuMyA2LjYgOC44IDkuNSAxMy42YzkuMSAxNSAxNS4yIDMyIDE3LjQgNTAuMmMuNyA1LjIgMSAxMC42IDEgMTZsLTE2IDAtMjI0IDAtMTYgMGMwLTUuNCAuMy0xMC44IDEtMTZjMi4zLTE4LjIgOC40LTM1LjIgMTcuNC01MC4yYzIuOS00LjcgNi05LjMgOS41LTEzLjZjLTUuMy0xLjktMTAuNS0zLjktMTUuNS02LjFDNjkuOSAzOTUgMzIgMzMzLjEgMzIgMjU2bDAtMzIgMC0xNi0xNiAwLTggMC04IDAgMC0xNiA4IDAgOCAwIDE2IDAgMTYgMCA0MTYgMCAxNiAwIDE2IDAgOCAwIDggMCAwIDE2LTggMC04IDAtMTYgMCAwIDE2IDAgMzJ6TTM0My42IDQ0Mi4ybC0xNC0xNy41IDIxLjEtNy41QzQyNC42IDM5MC45IDQ2NCAzMzIgNDY0IDI1NmwwLTQ4TDQ4IDIwOGwwIDQ4YzAgNzYgMzkuNCAxMzQuOSAxMTMuMiAxNjEuMmwyMS4xIDcuNS0xNCAxNy41Yy0xMi4xIDE1LjItMjAuNCAzMy42LTIzLjMgNTMuOGwyMjEuNyAwYy0yLjktMjAuMi0xMS4xLTM4LjYtMjMuMy01My44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mortar-pestle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mortar-pestle.svg)
  */
 const MortarPestle: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sailboat` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sailboat?s=light sailboat}
- * @preview ![sailboat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg1LjEgNi44Yy00LTUuNy0xMS4zLTguMi0xNy45LTYuMVMyNTYgOSAyNTYgMTZsMCAzMjBjMCA4LjggNy4yIDE2IDE2IDE2bDIyNCAwYzYgMCAxMS40LTMuMyAxNC4yLTguNnMyLjMtMTEuNy0xLjEtMTYuNmwtMjI0LTMyMHpNMjg4IDMyMGwwLTI1My4yTDQ2NS4zIDMyMCAyODggMzIwek0yMTIuMSA5Ni41Yy03LTEuOS0xNC40IDEuMi0xOCA3LjVsLTEyOCAyMjRjLTIuOCA1LTIuOCAxMSAuMSAxNnM4LjEgOCAxMy44IDhsMTI4IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMjI0YzAtNy4zLTQuOS0xMy42LTExLjktMTUuNXpNMTA3LjYgMzIwTDE5MiAxNzIuMiAxOTIgMzIwbC04NC40IDB6TTQyLjUgNDE2bDQ5MS4xIDBjLTEzLjUgMzguMS00OS42IDY0LTkwLjUgNjRMMTMzIDQ4MGMtNDAuOSAwLTc3LTI1LjktOTAuNS02NHpNMjEuMSAzODRjLTEwLjYgMC0xOC4zIDEwLjEtMTUuNCAyMC4zbDQgMTQuM0MyNS4zIDQ3My45IDc1LjYgNTEyIDEzMyA1MTJMNDQzIDUxMmM1Ny4zIDAgMTA3LjctMzguMSAxMjMuMi05My4zbDQtMTQuM2MyLjktMTAuMi00LjgtMjAuMy0xNS40LTIwLjNMMjEuMSAzODR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sailboat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sailboat.svg)
  */
 const Sailboat: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

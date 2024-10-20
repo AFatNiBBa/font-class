@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `building-circle-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-check?s=sharp-solid building-circle-check}
- * @preview ![building-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDBMMCAwIDAgNTEybDE0NCAwIDAtMTI4IDk2IDAgMCAxMjggMTQ0IDAgMC04LjJjLTM5LjEtMzIuMy02NC04MS4xLTY0LTEzNS44czI0LjktMTAzLjUgNjQtMTM1LjhMMzg0IDB6TTY0IDIyNGw2NCAwIDAgNjQtNjQgMCAwLTY0em0xNjAgMGwwIDY0LTY0IDAgMC02NCA2NCAwem0zMiAwbDY0IDAgMCA2NC02NCAwIDAtNjR6TTEyOCA5NmwwIDY0LTY0IDAgMC02NCA2NCAwem0zMiAwbDY0IDAgMCA2NC02NCAwIDAtNjR6bTE2MCAwbDAgNjQtNjQgMCAwLTY0IDY0IDB6TTY0MCAzNjhhMTQ0IDE0NCAwIDEgMCAtMjg4IDAgMTQ0IDE0NCAwIDEgMCAyODggMHptLTY1LjQtMzJsLTExLjMgMTEuMy03MiA3Mkw0ODAgNDMwLjZsLTExLjMtMTEuMy00MC00MEw0MTcuNCAzNjggNDQwIDM0NS40bDExLjMgMTEuM0w0ODAgMzg1LjRsNjAuNy02MC43TDU1MiAzMTMuNCA1NzQuNiAzMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![building-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/building-circle-check.svg)
  */
 const BuildingCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

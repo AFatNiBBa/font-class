@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paw` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paw?s=sharp-solid paw}
- * @preview ![paw](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEwLjEgMTg5LjdjLTMyLjMtMTAuNi00Ni45LTUzLjktMzIuNi05Ni44czUyLjEtNjkuMSA4NC40LTU4LjVzNDYuOSA1My45IDMyLjYgOTYuOHMtNTIuMSA2OS4xLTg0LjQgNTguNXpNMjM0LjUgOTIuOWMxNC4zIDQyLjktLjMgODYuMi0zMi42IDk2LjhzLTcwLjEtMTUuNi04NC40LTU4LjVzLjMtODYuMiAzMi42LTk2LjhzNzAuMSAxNS42IDg0LjQgNTguNXpNMTAwLjQgMTk4LjZjMTguOSAzMi40IDE0LjMgNzAuMS0xMC4yIDg0LjFzLTU5LjctLjktNzguNS0zMy4zUy0yLjcgMTc5LjMgMjEuOCAxNjUuM3M1OS43IC45IDc4LjUgMzMuM3pNNjQgNDgwYzAtMTc2IDEyOC0yNTYgMTkyLTI1NnMxOTIgODAgMTkyIDI1NkwyNTYgNDMyIDY0IDQ4MHpNNDIxLjggMjgyLjdjLTI0LjUtMTQtMjkuMS01MS43LTEwLjItODQuMXM1NC00Ny4zIDc4LjUtMzMuM3MyOS4xIDUxLjcgMTAuMiA4NC4xcy01NCA0Ny4zLTc4LjUgMzMuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![paw](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/paw.svg)
  */
 const Paw: typeof Icon = x => (
     <Icon {...x}>

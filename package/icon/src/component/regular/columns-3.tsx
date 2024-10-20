@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `columns-3` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/columns-3?s=regular columns-3}
- * @preview ![columns-3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDgwbDAgMzUyIDEyOCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTMyMGMwLTguOC03LjItMTYtMTYtMTZMNDQ4IDgwem0tNDggMEwyNDAgODBsMCAzNTIgMTYwIDAgMC0zNTJ6TTE5MiA0MzJsMC0zNTJMNjQgODBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDMyMGMwIDguOCA3LjIgMTYgMTYgMTZsMTI4IDB6TTAgOTZDMCA2MC43IDI4LjcgMzIgNjQgMzJsNTEyIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAzMjBjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNDgwYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![columns-3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/columns-3.svg)
  */
 const Columns_3: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

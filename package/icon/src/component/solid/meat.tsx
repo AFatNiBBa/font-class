@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meat` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meat?s=solid meat}
- * @preview ![meat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQzLjYgMTkuNkMyODMuNy0yMC40IDM3MS45IDIuOCA0NDAuNSA3MS41czkxLjkgMTU2LjggNTEuOCAxOTYuOWwtNDAuNSA0MC41QzQwMy45IDM1NyAzMzguNyAzODQgMjcwLjggMzg0bC01OC4yIDBjLTcuMSAwLTEzLjkgMi44LTE4LjkgNy44Yy0xMC4zIDEwLjMtOS43IDI2LjktNSA0MC43YzIuMSA2LjEgMy4yIDEyLjcgMy4yIDE5LjVjMCAzMy4xLTI2LjkgNjAtNjAgNjBzLTYwLTI2LjktNjAtNjBjMC02LjMtNS43LTEyLTEyLTEyYy0zMy4xIDAtNjAtMjYuOS02MC02MHMyNi45LTYwIDYwLTYwYzYuOCAwIDEzLjQgMS4xIDE5LjUgMy4yYzEzLjggNC43IDMwLjQgNS4zIDQwLjctNWM1LTUgNy44LTExLjggNy44LTE4LjlsMC01OC4xYzAtNjcuOSAyNy0xMzMgNzUtMTgxbDQwLjctNDAuN3ptNjQgMTg0LjhjNDkuNiA0OS42IDExMy4zIDY2LjQgMTQyLjIgMzcuNHMxMi4yLTkyLjYtMzcuNC0xNDIuMlMyOTkuMSAzMy4yIDI3MC4yIDYyLjJzLTEyLjIgOTIuNiAzNy40IDE0Mi4yem0zNi4zLTM2LjNjLTE1LjMtMTUuMy0yMC40LTM0LjktMTEuNS00My44czI4LjUtMy43IDQzLjggMTEuNXMyMC40IDM0LjkgMTEuNSA0My44cy0yOC41IDMuNy00My44LTExLjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![meat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/meat.svg)
  */
 const Meat: typeof Icon = x => (
     <Icon {...x}>

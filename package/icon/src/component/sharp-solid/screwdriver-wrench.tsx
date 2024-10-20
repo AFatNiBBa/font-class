@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `screwdriver-wrench` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screwdriver-wrench?s=sharp-solid screwdriver-wrench}
- * @preview ![screwdriver-wrench](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE0NEMyMjQgNjQuNSAyODguNSAwIDM2OCAwYzE5IDAgMzcuMSAzLjcgNTMuNyAxMC4zTDMzNiA5NmwwIDgwIDgwIDAgODUuNy04NS43QzUwOC4zIDEwNi45IDUxMiAxMjUgNTEyIDE0NGMwIDYxLjMtMzguMyAxMTMuNy05Mi4zIDEzNC40bC00NS4xLTQ1LjFMMzUyIDIxMC43bC0yMi42IDIyLjYtOC40IDguNC05Ny05NyAwLS44ek0wIDQxNkwxNjguNCAyNDcuNiAyNDEuOCAzMjFsLTguNCA4LjRMMjEwLjcgMzUybDIyLjYgMjIuNkw5NiA1MTIgMCA0MTZ6bTEzNy45LThMMTA0IDM3NC4xIDcwLjEgNDA4IDEwNCA0NDEuOSAxMzcuOSA0MDh6TTI4NyAzMjFsLTEyOS0xMjlMOTYgMTkyIDAgNjQgNjQgMCAxOTIgOTZsMCA2Mi4xTDMyMSAyODdsMzEtMzFMNTEyIDQxNmwtOTYgOTZMMjU2IDM1MmwzMS0zMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![screwdriver-wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/screwdriver-wrench.svg)
  */
 const ScrewdriverWrench: typeof Icon = x => (
     <Icon {...x}>

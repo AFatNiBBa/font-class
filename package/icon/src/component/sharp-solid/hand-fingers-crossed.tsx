@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-fingers-crossed` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-fingers-crossed?s=sharp-solid hand-fingers-crossed}
- * @preview ![hand-fingers-crossed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTAxIDM1LjZMODcuNSA2LjZsLTU4IDI3LjFMNDMgNjIuNmwzMiA2OC43IDM1LjMtNzUuN0wxMDEgMzUuNnpNMTY1LjYgMjQwbDI2LjQgMCAwLTkuNEwxODEgMjA3bC0xNS40IDMzek0yODggMzIwbC02NCAwIDAgNDggMCAxNi0xNiAwTDk2IDM4NGwtMTYgMCAwLTMyIDE2IDAgOTYgMCAwLTMyIDAtNDgtNDEuNCAwLTM1LjMgMEw4MCAyNzIgMCAyNzJsMCA5MWMwIDMzLjkgMTMuNSA2Ni41IDM3LjUgOTAuNWwxMS42IDExLjZjMzAgMzAgNzAuNyA0Ni45IDExMy4xIDQ2LjlsNjEuNyAwYzg4LjQgMCAxNjAtNzEuNiAxNjAtMTYwbC05NiAwIDAtMzJ6TTIxMi44IDYzbDEzLjUtMjktNTgtMjcuMS0xMy41IDI5TDU5LjYgMjQwbDcwLjYgMEwyMTIuOCA2M3pNMjI0IDE2MGwwIDEyOCA2NCAwIDAtMTI4LTY0IDB6bTk2IDMybDAgMTI4IDY0IDAgMC0xMjgtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-fingers-crossed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-fingers-crossed.svg)
  */
 const HandFingersCrossed: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

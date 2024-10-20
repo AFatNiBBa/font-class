@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `holly-berry` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/holly-berry?s=sharp-solid holly-berry}
- * @preview ![holly-berry](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptLTMyIDQ4YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6bTE2MCAwYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTExMiAzNDMuMUwxNiAzNTMuOGwzMy44IDY5LjNMMzIgNTEybDgxLjgtMzkuMSA3NS41IDE1LjdMMTc2IDM5Mi45bDk0LjctOUwyNDAgMzEwLjYgMjU2IDIyNGwtODAgMzYuOEw5Ny40IDI0OS4xbDE0LjYgOTR6bTIyMi43IDQ5LjhsLTEzLjMgOTUuNyA3NS41LTE1LjdMNDc4LjcgNTEybC0xNy44LTg4LjkgMzMuOC02OS4zLTk2LTEwLjcgMTQuNi05NC03OC42IDExLjctNDguOC0yMi41LTEyLjcgNjguNyAyNyA2NC41IDcuOSAxOC44IDI2LjYgMi41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![holly-berry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/holly-berry.svg)
  */
 const HollyBerry: typeof Icon = x => (
     <Icon {...x}>

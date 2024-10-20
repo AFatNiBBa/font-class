@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-helmet-safety` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-helmet-safety?s=sharp-solid user-helmet-safety}
- * @preview ![user-helmet-safety](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBMMTkyIDBsMCA4MEwxNjMuNiAyMy4xQzEyNS42IDQzLjUgOTkgODIuNiA5Ni4yIDEyOGwtLjIgMC0yNCAwIDAgNDggMjQgMCAyNTYgMCAyNCAwIDAtNDgtMjQgMC0uMiAwQzM0OSA4Mi42IDMyMi40IDQzLjUgMjg0LjQgMjMuMUwyNTYgODBsMC04MHpNMjI0IDMyMGM2NS4zIDAgMTE5LjEtNDguOSAxMjctMTEyTDk3IDIwOGM3LjkgNjMuMSA2MS43IDExMiAxMjcgMTEyek00NDggNTEyTDQwMCAzNTIgNDggMzUyIDAgNTEybDQ0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-helmet-safety](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-helmet-safety.svg)
  */
 const UserHelmetSafety: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

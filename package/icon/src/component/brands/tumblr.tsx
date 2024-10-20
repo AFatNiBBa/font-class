@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tumblr` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tumblr?s=brands tumblr}
- * @preview ![tumblr](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA5LjggNDgwLjNjLTEzLjYgMTQuNS01MCAzMS43LTk3LjQgMzEuNy0xMjAuOCAwLTE0Ny04OC44LTE0Ny0xNDAuNnYtMTQ0SDE3LjljLTUuNSAwLTEwLTQuNS0xMC0xMHYtNjhjMC03LjIgNC41LTEzLjYgMTEuMy0xNiA2Mi0yMS44IDgxLjUtNzYgODQuMy0xMTcuMS44LTExIDYuNS0xNi4zIDE2LjEtMTYuM2g3MC45YzUuNSAwIDEwIDQuNSAxMCAxMHYxMTUuMmg4M2M1LjUgMCAxMCA0LjQgMTAgOS45djgxLjdjMCA1LjUtNC41IDEwLTEwIDEwaC04My40VjM2MGMwIDM0LjIgMjMuNyA1My42IDY4IDM1LjggNC44LTEuOSA5LTMuMiAxMi43LTIuMiAzLjUuOSA1LjggMy40IDcuNCA3LjlsMjIgNjQuM2MxLjggNSAzLjMgMTAuNi0uNCAxNC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tumblr](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/tumblr.svg)
  */
 const Tumblr: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

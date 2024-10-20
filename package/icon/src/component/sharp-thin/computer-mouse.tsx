@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `computer-mouse` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-mouse?s=sharp-thin computer-mouse}
- * @preview ![computer-mouse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTkybDE2OCAwIDAtMTc2TDE2IDE2bDAgMTc2ek0xODQgMGw4IDAgOCAwTDM2OCAwbDE2IDAgMCAxNiAwIDE3NiAwIDggMCA4IDAgMTQ0YzAgODguNC03MS42IDE2MC0xNjAgMTYwbC02NCAwQzcxLjYgNTEyIDAgNDQwLjQgMCAzNTJMMCAyMDhsMC04IDAtOEwwIDE2IDAgMCAxNiAwIDE4NCAwek0xNiAyMDhsMCAxNDRjMCA3OS41IDY0LjUgMTQ0IDE0NCAxNDRsNjQgMGM3OS41IDAgMTQ0LTY0LjUgMTQ0LTE0NGwwLTE0NC0xNzYgMEwxNiAyMDh6bTM1Mi0xNmwwLTE3NkwyMDAgMTZsMCAxNzYgMTY4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![computer-mouse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/computer-mouse.svg)
  */
 const ComputerMouse: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glass-water` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-water?s=sharp-solid glass-water}
- * @preview ![glass-water](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzYuNiAxNTguM0w2OS4yIDY0bDI0NS42IDAtNy40IDk0LjMtMjAuNiAxMC4zYy0xOS40IDkuNy00Mi4yIDkuNy02MS42IDBjLTIwLjktMTAuNC00NS41LTEwLjQtNjYuNCAwYy0xOS40IDkuNy00Mi4yIDkuNy02MS42IDBMNzYuNiAxNTguM3pNNDAgNTEybDMwNCAwTDM3OSA2NGw1LTY0TDMxOS44IDAgNjQuMiAwIDAgMCA1IDY0IDQwIDUxMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![glass-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/glass-water.svg)
  */
 const GlassWater: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

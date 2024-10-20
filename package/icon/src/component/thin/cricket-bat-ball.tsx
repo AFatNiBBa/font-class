@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cricket-bat-ball` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cricket-bat-ball?s=thin cricket-bat-ball}
- * @preview ![cricket-bat-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA5LjcgMi4zYzMuMSAzLjEgMy4xIDguMiAwIDExLjNMMzUxLjMgMTcybDM2LjQgMzYuNGMyMS45IDIxLjkgMjEuOSA1Ny4zIDAgNzkuMkwxNzUgNTAwLjNjLTcuNSA3LjUtMTcuNyAxMS43LTI4LjMgMTEuN0wxMzYgNTEyQzYwLjkgNTEyIDAgNDUxLjEgMCAzNzZsMC0xMC43YzAtMTAuNiA0LjItMjAuOCAxMS43LTI4LjNMMjI0LjQgMTI0LjNjMjEuOS0yMS45IDU3LjMtMjEuOSA3OS4yIDBMMzQwIDE2MC43IDQ5OC4zIDIuM2MzLjEtMy4xIDguMi0zLjEgMTEuMyAwek0yMzUuNyAxMzUuNkwyMTYgMTU1LjMgMjE2IDI3MmMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxMTYuNyAwIDE5LjctMTkuN2MxNS42LTE1LjYgMTUuNi00MC45IDAtNTYuNmwtODQuMS04NC4xYy0xNS42LTE1LjYtNDAuOS0xNS42LTU2LjYgMHpNMjAwIDE3MS4zTDIzIDM0OC4zYy00LjUgNC41LTcgMTAuNi03IDE3TDE2IDM3NmMwIDY2LjMgNTMuNyAxMjAgMTIwIDEyMGwxMC43IDBjNi40IDAgMTIuNS0yLjUgMTctN2wxNzctMTc3TDI0MCAzMTJjLTIyLjEgMC00MC0xNy45LTQwLTQwbDAtMTAwLjd6TTQ5NiA0MzJhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAwem0tMTQ0IDBhODAgODAgMCAxIDEgMTYwIDAgODAgODAgMCAxIDEgLTE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cricket-bat-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cricket-bat-ball.svg)
  */
 const CricketBatBall: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-skiing` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-skiing?s=sharp-regular person-skiing}
- * @preview ![person-skiing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzgwLjcgNDhhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHpNMTMuOCAyNDcuNmwyMS4zIDExLjFMMjM5LjggMzY1bDQ5LjYtNzQuNS04NC43LTkwYy05LjItOS43LTE0LjEtMjEuNi0xNS0zMy43bDg5LjYgNDIuOSA1OC4yIDYxLjggMTMuMSAxMy45TDM0MCAzMDEuM2wtNTcuMyA4NiAxMzMuNSA2OS4zIDM3LjEtMTguNSAyMS41LTEwLjcgMjEuNSA0Mi45TDQ3NC43IDQ4MWwtNDggMjQtMTAuOSA1LjUtMTAuOS01LjZMMTIuOSAzMDEuMy04LjQgMjkwLjJsMjIuMS00Mi42em0zMjYuNi0xOTJsOS44IDIyLjkgNDIuOCAxMDAuNSA2NS40IDMxLjNMNDgwIDIyMC43IDQ1OS4zIDI2NGwtMjEuNy0xMC40LTQyLjQtMjAuMy0uMSAuMy0xNC40LTYuOS0yMjkuMS0xMTAtOS4yIDE4LjQtNy4yIDE0LjMtMjguNi0xNC4zIDcuMi0xNC4zIDktMTgtMTcuNi04LjRMOTAuNyA4Ny41bDEzLjgtMjguOCAxNC40IDYuOUwxMzcgNzQuMmw4LjctMTcuNCA3LjItMTQuMyAyOC42IDE0LjMtNy4yIDE0LjMtOC41IDE2LjkgNTIuNCAyNS4yYzEuMS0uNiAyLjItMS4yIDMuNC0xLjdsOTYuMS00NS4yIDIyLjUtMTAuNnpNMjczLjkgMTQwTDMzNyAxNzAuMmwtMjEuMy00OS45TDI3My45IDE0MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-skiing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-skiing.svg)
  */
 const PersonSkiing: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `object-intersect` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-intersect?s=sharp-regular object-intersect}
- * @preview ![object-intersect](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNDhMNDggNDhsMCA0OEwwIDk2IDAgNDggMCAwIDQ4IDAgOTYgMGwwIDQ4em0zMiAwbDAtNDggOTYgMCAwIDQ4LTk2IDB6TTAgMTI4bDQ4IDAgMCA5NkwwIDIyNGwwLTk2em0zNTIgMzJsMCA0OCAwIDQ4IDAgNDggMCA0OC00OCAwLTgwIDAtMTYgMC00OCAwIDAtNDggMC00OCAwLTQ4IDAtNDggNDggMCA4MCAwIDE2IDAgNDggMHpNMTYwIDQxNmw0OCAwIDAgNDggNDggMCAwIDQ4LTQ4IDAtNDggMCAwLTQ4IDAtNDh6TTM1MiA0OGwwIDQ4LTQ4IDAgMC00OC00OCAwIDAtNDggNDggMCA0OCAwIDAgNDh6bTY0IDE2MGwwLTQ4IDQ4IDAgNDggMCAwIDQ4IDAgNDgtNDggMCAwLTQ4LTQ4IDB6TTk2IDMwNGwwIDQ4LTQ4IDBMMCAzNTJsMC00OCAwLTQ4IDQ4IDAgMCA0OCA0OCAwek0yODggNDY0bDk2IDAgMCA0OC05NiAwIDAtNDh6bTE3NiA0OGwtNDggMCAwLTQ4IDQ4IDAgMC00OCA0OCAwIDAgNDggMCA0OC00OCAwem00OC0xMjhsLTQ4IDAgMC05NiA0OCAwIDAgOTZ6TTIwOCAyMDhsMCA5NiA5NiAwIDAtOTYtOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![object-intersect](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/object-intersect.svg)
  */
 const ObjectIntersect: typeof Icon = x => (
     <Icon {...x}>

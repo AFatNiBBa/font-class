@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `id-card-clip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-card-clip?s=sharp-thin id-card-clip}
- * @preview ![id-card-clip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDE2bDk2IDAgMCA5Ni05NiAwIDAtOTZ6TTIyNCAwbDAgMTYgMCA5NiAwIDE2IDE2IDAgOTYgMCAxNiAwIDAtMTYgMC05NiAwLTE2TDMzNiAwIDI0MCAwIDIyNCAwek0xOTIgNjRMMTYgNjQgMCA2NCAwIDgwIDAgNDk2bDAgMTYgMTYgMCA1NDQgMCAxNiAwIDAtMTYgMC00MTYgMC0xNi0xNiAwTDM4NCA2NGwwIDE2IDE3NiAwIDAgNDE2TDE2IDQ5NiAxNiA4MGwxNzYgMCAwLTE2em00OCAxOTJhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHptMTEyIDBhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAwek0yMTQuMiAzNjhsMTUyLjkgMCAyMS4zIDY0IDE2LjkgMC0yNi43LTgwLTE3NiAwTDE3NiA0MzJsMTYuOSAwIDIxLjMtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![id-card-clip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/id-card-clip.svg)
  */
 const IdCardClip: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

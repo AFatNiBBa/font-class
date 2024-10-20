@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `line-height` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/line-height?s=thin line-height}
- * @preview ![line-height](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTAxLjQgMzQuMWMtMy4xLTIuOC03LjctMi44LTEwLjggMGwtODggODBjLTMuMyAzLTMuNSA4LS41IDExLjNzOCAzLjUgMTEuMyAuNUw4OCA1OC4xbDAgMzk1LjhMMTMuNCAzODYuMWMtMy4zLTMtOC4zLTIuNy0xMS4zIC41cy0yLjcgOC4zIC41IDExLjNsODggODBjMy4xIDIuOCA3LjcgMi44IDEwLjggMGw4OC04MGMzLjMtMyAzLjUtOCAuNS0xMS4zcy04LTMuNS0xMS4zLS41TDEwNCA0NTMuOWwwLTM5NS44IDc0LjYgNjcuOGMzLjMgMyA4LjMgMi43IDExLjMtLjVzMi43LTguMy0uNS0xMS4zbC04OC04MHpNMjY0IDg4Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDMwNCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDI2NCA4OHptLTggMTYwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDMxMiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0zMTIgMHptMCAxNjhjMCA0LjQgMy42IDggOCA4bDMwNCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0zMDQgMGMtNC40IDAtOCAzLjYtOCA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![line-height](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/line-height.svg)
  */
 const LineHeight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

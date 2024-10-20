@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sensor-cloud` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-cloud?s=sharp-solid sensor-cloud}
- * @preview ![sensor-cloud](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDMyTDAgMzIgMCA0ODBsMjI0IDAgMC00OGMwLTQ0LjcgMjYuMi04My4zIDY0LjEtMTAxLjNDMjkwLjkgMjcxLjMgMzM5LjkgMjI0IDQwMCAyMjRjMTcuMiAwIDMzLjUgMy45IDQ4IDEwLjhMNDQ4IDMyek0xMTIgMTIwbDAgMTQ0IDAgMjQtNDggMCAwLTI0IDAtMTQ0IDAtMjQgNDggMCAwIDI0em05NiAwbDAgMTQ0IDAgMjQtNDggMCAwLTI0IDAtMTQ0IDAtMjQgNDggMCAwIDI0em00OCAzMTJsMCA4MCA4MCAwIDE2IDAgMTkyIDAgMTYgMCA4MCAwIDAtODBjMC0zOC43LTI3LjUtNzEtNjQtNzguNGwwLTkuNmMwLTMwLjktMjUuMS01Ni01Ni01NmMtMTguMSAwLTM0LjEgOC42LTQ0LjQgMjEuOEM0NjQuOCAyNzguNSA0MzUgMjU2IDQwMCAyNTZjLTQ0LjIgMC04MCAzNS44LTgwIDgwbDAgMTcuNmMtMzYuNSA3LjQtNjQgMzkuNy02NCA3OC40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sensor-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sensor-cloud.svg)
  */
 const SensorCloud: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

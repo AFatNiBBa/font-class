@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `feather` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/feather?s=sharp-regular feather}
- * @preview ![feather](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzExLjkgMTY2LjFMMTEyIDM2Ni4xbDAtMTIyLjJMMjc2LjcgNzkuMmMyMC0yMCA0Ny4xLTMxLjIgNzUuMy0zMS4yczU1LjMgMTEuMiA3NS4zIDMxLjJsNS41IDUuNWMyMCAyMCAzMS4yIDQ3LjEgMzEuMiA3NS4zYzAgMTYuOC00IDMzLjMtMTEuNCA0OGwtMTE0LjYgMCA3LjktNy45IDE3LTE3LTMzLjktMzMuOS0xNyAxN3ptLTIyIDg5LjlsMTIyLjIgMC00OCA0OC0xMjIuMiAwIDQ4LTQ4em0yNi4yIDk2bC00OCA0OC0xMjIuMiAwIDQ4LTQ4IDEyMi4yIDB6TTY0IDIyNGwwIDE5MC4xTDE4LjIgNDU5LjhsLTE3IDE3IDMzLjkgMzMuOSAxNy0xN0w5Ny45IDQ0OCAyODggNDQ4IDQ2Ni43IDI2OS4zYzI5LTI5IDQ1LjMtNjguMyA0NS4zLTEwOS4zcy0xNi4zLTgwLjMtNDUuMy0xMDkuM2wtNS41LTUuNUM0MzIuMyAxNi4zIDM5MyAwIDM1MiAwcy04MC4zIDE2LjMtMTA5LjMgNDUuM0w2NCAyMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![feather](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/feather.svg)
  */
 const Feather: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-png` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-png?s=sharp-thin file-png}
- * @preview ![file-png](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2bDk2IDAgMCAxNi05NiAwTDAgNTEybDAtMTZMMCAxNiAwIDAgMTYgMCAyMjQgMCAzODQgMTYwbDAgMTQ0LTE2IDAgMC0xMjgtMTUyIDAtOCAwIDAtOCAwLTE1MkwxNiAxNmwwIDQ4MHpNMzYxLjQgMTYwTDIyNCAyMi42IDIyNCAxNjBsMTM3LjQgMHpNMTc2IDM2OGwzMiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4cy0yMS41IDQ4LTQ4IDQ4bC0yNCAwIDAgNDAgMCA4LTE2IDAgMC04IDAtNDggMC04MCAwLTggOCAwem0zMiA4MGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtMjQgMCAwIDY0IDI0IDB6bTk2LTgwbDQgMCA1LjMgMCAyLjEgNC45IDQ0LjYgMTA1TDM2MCAzNzZsMC04IDE2IDAgMCA4IDAgMTI4IDAgOC04IDAtNS42IDAtNS4zIDAtMi4xLTQuOUwzMTIgNDA1LjlsMCA5OC4xIDAgOC0xNiAwIDAtOCAwLTEyOCAwLTggOCAwem0xMjAgMzJjMC0xNy43IDE0LjMtMzIgMzItMzJsMTYgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE2LTE2IDAgMC0xNmMwLTguOC03LjItMTYtMTYtMTZsLTE2IDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDgwYzAgOC44IDcuMiAxNiAxNiAxNmwxNiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTE2LTggMC04IDAgMC0xNiA4IDAgMTYgMCA4IDAgMCA4IDAgMjRjMCAxNy43LTE0LjMgMzItMzIgMzJsLTE2IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-png](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-png.svg)
  */
 const FilePng: typeof Icon = x => (
     <Icon {...x}>

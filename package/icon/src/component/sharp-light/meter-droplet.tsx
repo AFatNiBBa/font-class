@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meter-droplet` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-droplet?s=sharp-light meter-droplet}
- * @preview ![meter-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4MGM0OS43IDAgOTUuNS0xNi4yIDEzMi43LTQzLjVjMi44IDEwLjggNi45IDIxLjEgMTIgMzAuN0MzNTkuNSA0OTUuNSAzMDkuNyA1MTIgMjU2IDUxMkMxMTQuNiA1MTIgMCAzOTcuNCAwIDI1NlMxMTQuNiAwIDI1NiAwQzM2OS44IDAgNDY2LjMgNzQuMyA0OTkuNiAxNzdsLTIzLjYgMzYuM0M0NTYgMTEwIDM2NS4xIDMyIDI1NiAzMkMxMzIuMyAzMiAzMiAxMzIuMyAzMiAyNTZzMTAwLjMgMjI0IDIyNCAyMjR6TTE3NiAxNDRsMCA2NCAwIDE2LTMyIDAgMC0xNiAwLTY0IDAtMTYgMzIgMCAwIDE2em05NiAwbDAgNjQgMCAxNi0zMiAwIDAtMTYgMC02NCAwLTE2IDMyIDAgMCAxNnptOTYgMGwwIDY0IDAgMTYtMzIgMCAwLTE2IDAtNjQgMC0xNiAzMiAwIDAgMTZ6bTkzLjMgMjA5LjFDNDUyLjYgMzY2LjQgNDQ4IDM4MiA0NDggMzk3LjlsMCAyLjFjMCA0NC4yIDM1LjggODAgODAgODBzODAtMzUuOCA4MC04MGwwLTIuMWMwLTE1LjktNC42LTMxLjUtMTMuMy00NC44TDUyOCAyNTAuNiA0NjEuMyAzNTMuMXptLTI2LjgtMTcuNWw3NC40LTExNC4zTDUyOCAxOTJsMTkuMSAyOS4zIDc0LjQgMTE0LjNjMTIuMSAxOC41IDE4LjUgNDAuMiAxOC41IDYyLjNsMCAyLjFjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJzLTExMi01MC4xLTExMi0xMTJsMC0yLjFjMC0yMi4xIDYuNC00My43IDE4LjUtNjIuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![meter-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/meter-droplet.svg)
  */
 const MeterDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

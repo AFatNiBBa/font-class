@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rings-wedding` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rings-wedding?s=sharp-solid rings-wedding}
- * @preview ![rings-wedding](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4LjcgMTAyLjRMOTYgNDggMTI4IDBsOTYgMCAzMiA0OC0zMi43IDU0LjRDMjk3LjUgMTIzLjEgMzUyIDE5MS4yIDM1MiAyNzJjMCA1Mi4zLTIyLjggOTkuMi01OSAxMzEuNWMtMTguNy0xMS45LTMyLjEtMzEuNS0zNS45LTU0LjJDMjc2LjIgMzI5LjIgMjg4IDMwMiAyODggMjcyYzAtMTItMS45LTIzLjYtNS40LTM0LjVjLTM0LjkgMTktNTguNiA1Ni01OC42IDk4LjVjMCA2MS45IDUwLjEgMTEyIDExMiAxMTJzMTEyLTUwLjEgMTEyLTExMmMwLTQ2LjEtMjcuOC04NS43LTY3LjYtMTAyLjljLTUtMjYuMi0xNC44LTUwLjctMjguNi03Mi40QzQ0MS42IDE2OC43IDUxMiAyNDQuMSA1MTIgMzM2YzAgOTcuMi03OC44IDE3Ni0xNzYgMTc2Yy01NS4zIDAtMTA0LjctMjUuNS0xMzctNjUuNWMtNy41IDEtMTUuMiAxLjUtMjMgMS41Qzc4LjggNDQ4IDAgMzY5LjIgMCAyNzJjMC04MC44IDU0LjUtMTQ4LjkgMTI4LjctMTY5LjZ6TTY0IDI3MmMwIDU4LjcgNDUuMSAxMDYuOCAxMDIuNSAxMTEuNmMtNC4yLTE1LjEtNi41LTMxLjEtNi41LTQ3LjZjMC02NC40IDM0LjUtMTIwLjcgODYuMS0xNTEuM0MyMjYuOSAxNjkuMiAyMDIuNSAxNjAgMTc2IDE2MGMtNjEuOSAwLTExMiA1MC4xLTExMiAxMTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rings-wedding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/rings-wedding.svg)
  */
 const RingsWedding: typeof Icon = x => (
     <Icon {...x}>

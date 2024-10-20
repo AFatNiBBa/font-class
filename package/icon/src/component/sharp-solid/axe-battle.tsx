@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `axe-battle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/axe-battle?s=sharp-solid axe-battle}
- * @preview ![axe-battle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxOTJDMCA2NCA4OCAwIDg4IDBzMjYuMiA4My44IDEwNCAxMTUuOGwwIDE1Mi40QzExNC4yIDMwMC4yIDg4IDM4NCA4OCAzODRzLTg4LTY0LTg4LTE5MnptMzIwIDc2LjJsMC0xNTIuNEMzOTcuOCA4My44IDQyNCAwIDQyNCAwczczLjcgNTMuNiA4Ni4yIDE2MC45TDQ0OCAxOTJsNjIuMiAzMS4xQzQ5Ny43IDMzMC40IDQyNCAzODQgNDI0IDM4NHMtMjYuMi04My44LTEwNC0xMTUuOHpNMjg4IDY0bDAgNDE2IDAgMzItNjQgMCAwLTMyIDAtNDE2IDAtMzIgNjQgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![axe-battle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/axe-battle.svg)
  */
 const AxeBattle: typeof Icon = x => (
     <Icon {...x}>

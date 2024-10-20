@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-magnifying-glass` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-magnifying-glass?s=solid user-magnifying-glass}
- * @preview ![user-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDI1NkExMjggMTI4IDAgMSAwIDIyNCAwYTEyOCAxMjggMCAxIDAgMCAyNTZ6bS00NS43IDQ4Qzc5LjggMzA0IDAgMzgzLjggMCA0ODIuM0MwIDQ5OC43IDEzLjMgNTEyIDI5LjcgNTEybDM4OC42IDBjMTYuNCAwIDI5LjctMTMuMyAyOS43LTI5LjdjMC0uOCAwLTEuNSAwLTIuM2MtODguNCAwLTE2MC03MS42LTE2MC0xNjBjMC01LjEgLjItMTAuMSAuNy0xNWMtNi4yLS43LTEyLjYtMS0xOS0xbC05MS40IDB6TTQ0OCAyNDAuMWE4MCA4MCAwIDEgMSAwIDE2MCA4MCA4MCAwIDEgMSAwLTE2MHptMCAyMDhjMjYuNyAwIDUxLjQtOC4yIDcxLjktMjIuMUw1OTkgNTA1LjFjOS40IDkuNCAyNC42IDkuNCAzMy45IDBzOS40LTI0LjYgMC0zMy45bC03OS4xLTc5LjFjMTQtMjAuNSAyMi4xLTQ1LjMgMjIuMS03MS45YzAtNzAuNy01Ny4zLTEyOC0xMjgtMTI4cy0xMjggNTcuMy0xMjggMTI4czU3LjMgMTI4IDEyOCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-magnifying-glass.svg)
  */
 const UserMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

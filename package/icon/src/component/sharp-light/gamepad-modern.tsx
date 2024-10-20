@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gamepad-modern` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gamepad-modern?s=sharp-light gamepad-modern}
- * @preview ![gamepad-modern](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQwIDQ4MGwtMTYtOTYtMjA4IDAtMTYgOTZMMzIuMiA0ODAgMCA0ODBsMy42LTMyTDQyLjggOTYgMTYwIDMybDE2MCAwIDE2MCAwTDU5Ny4yIDk2bDM5LjIgMzUyIDMuNiAzMi0zMi4yIDBMNDQwIDQ4MHpNMTg0LjQgMzc4LjdsNC41LTI2LjcgMjcuMSAwIDIwOCAwIDI3LjEgMCA0LjUgMjYuN0w0NjcuMSA0NDhsMTM3LjEgMC0zNy0zMzEuOUw0NzEuOCA2NCAzMjAgNjQgMTY4LjIgNjQgNzIuOCAxMTYuMSAzNS44IDQ0OGwxMzcuMSAwIDExLjUtNjkuM3pNMjA4IDE2MGwwIDQ4IDQ4IDAgMTYgMCAwIDMyLTE2IDAtNDggMCAwIDQ4IDAgMTYtMzIgMCAwLTE2IDAtNDgtNDggMC0xNiAwIDAtMzIgMTYgMCA0OCAwIDAtNDggMC0xNiAzMiAwIDAgMTZ6TTQwOCAyNzJhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHptODgtMTIwYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gamepad-modern](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gamepad-modern.svg)
  */
 const GamepadModern: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-long` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-long?s=regular down-long}
- * @preview ![down-long](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2LjQgNTA1LjVjLTkuMiA4LjctMjMuNyA4LjctMzIuOSAwTDE0LjYgMzg0LjFDNS4zIDM3NS4zIDAgMzYzLjEgMCAzNTAuM0MwIDMyNC43IDIwLjcgMzA0IDQ2LjMgMzA0TDgwIDMwNCA4MCA1NmMwLTMwLjkgMjUuMS01NiA1Ni01Nmw0OCAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgMjQ4IDMzLjcgMGMyNS42IDAgNDYuMyAyMC43IDQ2LjMgNDYuM2MwIDEyLjgtNS4zIDI1LTE0LjYgMzMuN2wtMTI5IDEyMS40em05My0xNTMuNUwyMTYgMzUyYy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTI3MmMwLTQuNC0zLjYtOC04LThsLTQ4IDBjLTQuNCAwLTggMy42LTggOGwwIDI3MmMwIDYuNC0yLjUgMTIuNS03IDE3cy0xMC42IDctMTcgN2wtNTMuNSAwTDE2MCA0NTUgMjY5LjUgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![down-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-long.svg)
  */
 const DownLong: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road?s=thin road}
- * @preview ![road](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg1LjQgMzJDMTYyIDMyIDE0MSA0Ni42IDEzMi45IDY4LjZMOC40IDQwNC42Qy01LjEgNDQxLjEgMjIgNDgwIDYxIDQ4MEw1MTUgNDgwYzM5IDAgNjYuMS0zOC45IDUyLjUtNzUuNEw0NDMuMSA2OC42QzQzNSA0Ni42IDQxNCAzMiAzOTAuNiAzMkwxODUuNCAzMnpNMTQ3LjkgNzQuMUMxNTMuNyA1OC40IDE2OC43IDQ4IDE4NS40IDQ4TDI4MCA0OGwwIDU2YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC01NiA5NC42IDBjMTYuNyAwIDMxLjcgMTAuNCAzNy41IDI2LjFsMTI0LjQgMzM2YzkuNyAyNi4xLTkuNiA1My45LTM3LjUgNTMuOWwtMjE5IDAgMC01NmMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDU2TDYxIDQ2NGMtMjcuOSAwLTQ3LjItMjcuOC0zNy41LTUzLjlsMTI0LjQtMzM2ek0yOTYgMjAwYzAtNC40LTMuNi04LTgtOHMtOCAzLjYtOCA4bDAgMTEyYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0xMTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![road](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/road.svg)
  */
 const Road: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

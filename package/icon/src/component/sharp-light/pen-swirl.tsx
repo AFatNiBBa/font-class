@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-swirl` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-swirl?s=sharp-light pen-swirl}
- * @preview ![pen-swirl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY2LjMgMzE4LjNMMTg0IDIyNCAzODUuNCAyMi42IDQwOCAwbDIyLjYgMjIuNiA1OC43IDU4LjdMNTEyIDEwNGwtMjIuNiAyMi42TDI4OCAzMjhsLTk0LjMgMTcuN0wxNjAgMzUybDYuMy0zMy43em0zMy43LTYuM2w3Mi4zLTEzLjZMNDEwLjEgMTYwLjdsLTU4LjctNTguN0wyMTMuNiAyMzkuNmwtMTMuNiA3Mi4zek00NjYuNyAxMDRMNDA4IDQ1LjMgMzczLjkgNzkuM2w1OC43IDU4LjdMNDY2LjcgMTA0ek00NjQgMjU2YzAtMTgtMi4zLTM1LjUtNi42LTUyLjJsMjUuNy0yNS43YzguNCAyNC40IDEyLjkgNTAuNiAxMi45IDc3LjhjMCA3OS41LTY0LjUgMTQ0LTE0NCAxNDRjLTEyLjQgMC0yNC41LTEuNi0zNi00LjVsOC0zMWM4LjkgMi4zIDE4LjMgMy41IDI4IDMuNWM2MS45IDAgMTEyLTUwLjEgMTEyLTExMnpNMjU2IDE2YzI3LjIgMCA1My40IDQuNSA3Ny44IDEyLjlMMzA4LjIgNTQuNkMyOTEuNSA1MC4zIDI3NCA0OCAyNTYgNDhDMTQxLjEgNDggNDggMTQxLjEgNDggMjU2czkzLjEgMjA4IDIwOCAyMDhsMCAzMkMxMjMuNSA0OTYgMTYgMzg4LjUgMTYgMjU2UzEyMy41IDE2IDI1NiAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pen-swirl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pen-swirl.svg)
  */
 const PenSwirl: typeof Icon = x => (
     <Icon {...x}>

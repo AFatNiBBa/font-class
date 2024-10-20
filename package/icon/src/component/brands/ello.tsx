@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ello` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ello?s=brands ello}
- * @preview ![ello](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDhDMTExLjAzIDggMCAxMTkuMDMgMCAyNTZzMTExLjAzIDI0OCAyNDggMjQ4IDI0OC0xMTEuMDMgMjQ4LTI0OFMzODQuOTcgOCAyNDggOHptMTQzLjg0IDI4NS4yQzM3NS4zMSAzNTguNTEgMzE1Ljc5IDQwNC44IDI0OCA0MDQuOHMtMTI3LjMxLTQ2LjI5LTE0My44NC0xMTEuNmMtMS42NS03LjQ0IDIuNDgtMTUuNzEgOS45Mi0xNy4zNiA3LjQ0LTEuNjUgMTUuNzEgMi40OCAxNy4zNiA5LjkyIDE0LjA1IDUyLjkxIDYyIDkwLjExIDExNi41NiA5MC4xMXMxMDIuNTEtMzcuMiAxMTYuNTYtOTAuMTFjMS42NS03LjQ0IDkuOTItMTIuNCAxNy4zNi05LjkyIDcuNDQgMS42NSAxMi40IDkuOTIgOS45MiAxNy4zNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ello](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/ello.svg)
  */
 const Ello: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

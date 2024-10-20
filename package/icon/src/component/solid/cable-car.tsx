@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cable-car` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cable-car?s=solid cable-car}
- * @preview ![cable-car](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0ek0xNjAgNTZhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHpNMzIgMjg4YzAtMzUuMyAyOC43LTY0IDY0LTY0bDEzNiAwIDAtNjYuNS0yMDMuMSA0MmMtMTMgMi43LTI1LjctNS43LTI4LjQtMTguNnM1LjctMjUuNyAxOC42LTI4LjRsMjMyLTQ4IDIzMi00OGMxMy0yLjcgMjUuNyA1LjcgMjguNCAxOC42cy01LjcgMjUuNy0xOC42IDI4LjRMMjgwIDE0Ny41bDAgNzYuNSAxMzYgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDE2MGMwIDM1LjMtMjguNyA2NC02NCA2NEw5NiA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0bDAtMTYwem02NCAwYy04LjggMC0xNiA3LjItMTYgMTZsMCA2NGMwIDguOCA3LjIgMTYgMTYgMTZsNjQgMGM4LjggMCAxNi03LjIgMTYtMTZsMC02NGMwLTguOC03LjItMTYtMTYtMTZsLTY0IDB6bTExMiAxNmwwIDY0YzAgOC44IDcuMiAxNiAxNiAxNmw2NCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNmwtNjQgMGMtOC44IDAtMTYgNy4yLTE2IDE2em0xNDQtMTZjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDY0YzAgOC44IDcuMiAxNiAxNiAxNmw2NCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNmwtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cable-car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cable-car.svg)
  */
 const CableCar: typeof Icon = x => (
     <Icon {...x}>

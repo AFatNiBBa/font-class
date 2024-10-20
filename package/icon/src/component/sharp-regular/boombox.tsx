@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `boombox` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boombox?s=sharp-regular boombox}
- * @preview ![boombox](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMEw3MiAwIDU2OCAwbDI0IDAgMCAyNCAwIDEzNiA0OCAwIDAgNDggMCAyNTYgMCA0OC00OCAwTDQ4IDUxMiAwIDUxMmwwLTQ4TDAgMjA4bDAtNDggNDggMEw0OCAyNCA0OCAwek01NDQgNDhMOTYgNDhsMCAxMTIgOTYgMCAwLTMyIDY0IDAgMCAzMiAzMiAwIDAtMzIgNjQgMCAwIDMyIDMyIDAgMC0zMiA2NCAwIDAgMzIgOTYgMCAwLTExMnptNDggMTYwTDQ4IDIwOGwwIDI1NiA1NDQgMCAwLTI1NnpNMTc2IDI0MGE5NiA5NiAwIDEgMSAwIDE5MiA5NiA5NiAwIDEgMSAwLTE5MnptNDggOTZhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHptMTQ0IDBhOTYgOTYgMCAxIDEgMTkyIDAgOTYgOTYgMCAxIDEgLTE5MiAwem05NiA0OGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![boombox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/boombox.svg)
  */
 const Boombox: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

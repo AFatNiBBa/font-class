@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `saxophone` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/saxophone?s=sharp-solid saxophone}
- * @preview ![saxophone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ2LjcgMTc2TDE3MS40IDMwNi4xYy0yLjIgMy44LTMuNCA4LjItMy40IDEyLjZsMCAyLjZjMCAxMi41IDEwLjEgMjIuNiAyMi42IDIyLjZjNiAwIDExLjgtMi40IDE2LTYuNkwzMTkgMjI1bC04LTgtMTctMTdMMzI4IDE2Ni4xbDE3IDE3IDggOEwzNjcgMTc3bC04LTgtMTctMTdMMzc2IDExOC4xbDE3IDE3IDggOEw0MTUgMTI5bC04LTgtMTctMTdMNDI0IDcwLjFsMTcgMTcgOCA4IDYzLTYzIDgwIDAgNDggMzIgMCAzMi05NiAwTDI4OC42IDQxOC42QzI1Ny45IDQ1Ny40IDIxMS4yIDQ4MCAxNjEuOCA0ODBDNzIuNCA0ODAgMCA0MDcuNiAwIDMxOC4ybDAtMy4xYzAtMTIuNyAxLjUtMjUuNCA0LjQtMzcuOEwyOC4yIDE3NiAyNCAxNzYgMCAxNzZsMC00OCAyNCAwIDI0MCAwIDI0IDAgMCA0OC0yNCAwLTE3LjMgMHpNMTIwIDMyMGEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem04LTcyYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![saxophone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/saxophone.svg)
  */
 const Saxophone: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

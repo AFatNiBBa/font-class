@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link?s=sharp-thin link}
- * @preview ![link](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTgwLjIgMjQ0LjdjNTAtNTAgNTAtMTMxIDAtMTgxcy0xMzEtNTAtMTgxIDBsLTE3IDE3TDM5My41IDkybDE3LTE3YzQzLjctNDMuNyAxMTQuNy00My43IDE1OC40IDBzNDMuNyAxMTQuNyAwIDE1OC40TDQzMy4xIDM2OS4xYy00My43IDQzLjctMTE0LjcgNDMuNy0xNTguNCAwcy00My43LTExNC43IDAtMTU4LjRsMzkuNi0zOS42TDMwMyAxNTkuOGwtMzkuNiAzOS42Yy01MCA1MC01MCAxMzEgMCAxODFzMTMxIDUwIDE4MSAwTDU4MC4yIDI0NC43ek01OS44IDI2Ny4zYy01MCA1MC01MCAxMzEgMCAxODFzMTMxIDUwIDE4MSAwbDE3LTE3TDI0Ni41IDQyMGwtMTcgMTdjLTQzLjcgNDMuNy0xMTQuNyA0My43LTE1OC40IDBzLTQzLjctMTE0LjcgMC0xNTguNEwyMDYuOSAxNDIuOWM0My43LTQzLjcgMTE0LjctNDMuNyAxNTguNCAwczQzLjcgMTE0LjcgMCAxNTguNGwtMzkuNiAzOS42TDMzNyAzNTIuMmwzOS42LTM5LjZjNTAtNTAgNTAtMTMxIDAtMTgxcy0xMzEtNTAtMTgxIDBMNTkuOCAyNjcuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![link](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/link.svg)
  */
 const Link: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

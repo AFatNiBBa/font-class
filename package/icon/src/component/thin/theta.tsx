@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `theta` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/theta?s=thin theta}
- * @preview ![theta](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAgMjU2YzAtNjIuNyAxNy41LTExOSA0NS40LTE1OS41QzExMy40IDU2IDE1MS4yIDMyIDE5MiAzMnM3OC42IDI0IDEwNi42IDY0LjVDMzI2LjUgMTM3IDM0NCAxOTMuMyAzNDQgMjU2cy0xNy41IDExOS00NS40IDE1OS41QzI3MC42IDQ1NiAyMzIuOCA0ODAgMTkyIDQ4MHMtNzguNi0yNC0xMDYuNi02NC41QzU3LjUgMzc1IDQwIDMxOC43IDQwIDI1NnpNMTkyIDE2Yy00Ny42IDAtODkuOCAyOC0xMTkuNyA3MS40QzQyLjMgMTMwLjkgMjQgMTkwLjUgMjQgMjU2czE4LjMgMTI1LjEgNDguMyAxNjguNkMxMDIuMiA0NjggMTQ0LjQgNDk2IDE5MiA0OTZzODkuOC0yOCAxMTkuNy03MS40QzM0MS43IDM4MS4xIDM2MCAzMjEuNSAzNjAgMjU2cy0xOC4zLTEyNS4xLTQ4LjMtMTY4LjZDMjgxLjggNDQgMjM5LjYgMTYgMTkyIDE2ek05NiAyNDhjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMTkyIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMOTYgMjQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![theta](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/theta.svg)
  */
 const Theta: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

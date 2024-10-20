@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `goal-net` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/goal-net?s=sharp-thin goal-net}
- * @preview ![goal-net](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAzMkwwIDMybDAgOEwwIDQ3MmMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04TDE2IDQ4bDYwOCAwIDAgNDI0IDAgOCAxNiAwIDAtOCAwLTQzMiAwLTgtOCAwTDggMzJ6TTE2MCA5NmwtMTYgMCAwIDY0LTgwIDAgMCAxNiA4MCAwIDAgOTYtODAgMCAwIDE2IDgwIDAgMCA5Ni04MCAwIDAgMTYgODAgMCAwIDgwIDE2IDAgMC04MCA5NiAwIDAgODAgMTYgMCAwLTgwIDk2IDAgMCA4MCAxNiAwIDAtODAgOTYgMCAwIDgwIDE2IDAgMC04MCA4MCAwIDAtMTYtODAgMCAwLTk2IDgwIDAgMC0xNi04MCAwIDAtOTYgODAgMCAwLTE2LTgwIDAgMC02NC0xNiAwIDAgNjQtOTYgMCAwLTY0LTE2IDAgMCA2NC05NiAwIDAtNjQtMTYgMCAwIDY0LTk2IDAgMC02NHptMCA4MGw5NiAwIDAgOTYtOTYgMCAwLTk2em0xMTIgMGw5NiAwIDAgOTYtOTYgMCAwLTk2em0xMTIgMGw5NiAwIDAgOTYtOTYgMCAwLTk2ek0xNjAgMzg0bDAtOTYgOTYgMCAwIDk2LTk2IDB6bTExMiAwbDAtOTYgOTYgMCAwIDk2LTk2IDB6bTExMiAwbDAtOTYgOTYgMCAwIDk2LTk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![goal-net](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/goal-net.svg)
  */
 const GoalNet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

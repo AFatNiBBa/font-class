@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `medium` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/medium?s=brands medium}
- * @preview ![medium](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgwLjUsNzQuMjYyQzgwLjgxMyw3NC4yNjIsMCwxNTUuNjMzLDAsMjU2UzgwLjgxOSw0MzcuNzM4LDE4MC41LDQzNy43MzgsMzYxLDM1Ni4zNzMsMzYxLDI1NiwyODAuMTkxLDc0LjI2MiwxODAuNSw3NC4yNjJabTI4OC4yNSwxMC42NDZjLTQ5Ljg0NSwwLTkwLjI0NSw3Ni42MTktOTAuMjQ1LDE3MS4wOTVzNDAuNDA2LDE3MS4xLDkwLjI1MSwxNzEuMSw5MC4yNTEtNzYuNjE5LDkwLjI1MS0xNzEuMUg1NTlDNTU5LDE2MS41LDUxOC42LDg0LjkwOCw0NjguNzUyLDg0LjkwOFptMTM5LjUwNiwxNy44MjFjLTE3LjUyNiwwLTMxLjczNSw2OC42MjgtMzEuNzM1LDE1My4yNzRzMTQuMiwxNTMuMjc0LDMxLjczNSwxNTMuMjc0UzY0MCwzNDAuNjMxLDY0MCwyNTZDNjQwLDE3MS4zNTEsNjI1Ljc4NSwxMDIuNzI5LDYwOC4yNTgsMTAyLjcyOVoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![medium](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/medium.svg)
  */
 const Medium: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

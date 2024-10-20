@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `command` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/command?s=sharp-thin command}
- * @preview ![command](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDggMCAxNTIgMGw4IDAgMCA4IDAgMTM2IDE5MiAwTDM1MiA4bDAtOCA4IDBMNTA0IDBsOCAwIDAgOCAwIDE0NCAwIDgtOCAwLTEzNiAwIDAgMTkyIDEzNiAwIDggMCAwIDggMCAxNDQgMCA4LTggMC0xNDQgMC04IDAgMC04IDAtMTM2LTE5MiAwIDAgMTM2IDAgOC04IDBMOCA1MTJsLTggMCAwLThMMCAzNjBsMC04IDggMCAxMzYgMCAwLTE5Mkw4IDE2MGwtOCAwIDAtOEwwIDggMCAwek0xNDQgMTQ0bDAtMTI4TDE2IDE2bDAgMTI4IDEyOCAwem0xNiAyMDhsMTkyIDAgMC0xOTItMTkyIDAgMCAxOTJ6bS0xNiAxNkwxNiAzNjhsMCAxMjggMTI4IDAgMC0xMjh6bTIyNCAwbDAgMTI4IDEyOCAwIDAtMTI4LTEyOCAwem0wLTIyNGwxMjggMCAwLTEyOEwzNjggMTZsMCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![command](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/command.svg)
  */
 const Command: typeof Icon = x => (
     <Icon {...x}>

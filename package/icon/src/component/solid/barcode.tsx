@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `barcode` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/barcode?s=solid barcode}
- * @preview ![barcode](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMzJDMTAuNyAzMiAwIDQyLjcgMCA1NkwwIDQ1NmMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxNiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0TDY0IDU2YzAtMTMuMy0xMC43LTI0LTI0LTI0TDI0IDMyem04OCAwYy04LjggMC0xNiA3LjItMTYgMTZsMCA0MTZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTQxNmMwLTguOC03LjItMTYtMTYtMTZ6bTcyIDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgNDAwYzAgMTMuMyAxMC43IDI0IDI0IDI0bDE2IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC00MDBjMC0xMy4zLTEwLjctMjQtMjQtMjRsLTE2IDB6bTk2IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgNDAwYzAgMTMuMyAxMC43IDI0IDI0IDI0bDE2IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC00MDBjMC0xMy4zLTEwLjctMjQtMjQtMjRsLTE2IDB6TTQ0OCA1NmwwIDQwMGMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxNiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0bDAtNDAwYzAtMTMuMy0xMC43LTI0LTI0LTI0bC0xNiAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHptLTY0LThsMCA0MTZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTQxNmMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![barcode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/barcode.svg)
  */
 const Barcode: typeof Icon = x => (
     <Icon {...x}>

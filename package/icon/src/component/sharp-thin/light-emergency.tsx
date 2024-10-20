@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `light-emergency` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-emergency?s=sharp-thin light-emergency}
- * @preview ![light-emergency](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDMyMGwwLTEyOGMwLTc5LjUtNjQuNS0xNDQtMTQ0LTE0NFM4MCAxMTIuNSA4MCAxOTJsMCAxMjgtMTYgMCAwLTEyOGMwLTg4LjQgNzEuNi0xNjAgMTYwLTE2MHMxNjAgNzEuNiAxNjAgMTYwbDAgMTI4LTE2IDB6TTE2IDM2OGwwIDk2IDQxNiAwIDAtOTZMMTYgMzY4em0wLTE2bDQxNiAwIDE2IDAgMCAxNiAwIDk2IDAgMTYtMTYgMEwxNiA0ODAgMCA0ODBsMC0xNiAwLTk2IDAtMTYgMTYgMHpNMTQ0IDE5MmwtMTYgMGMwLTUzIDQzLTk2IDk2LTk2bDAgMTZjLTQ0LjIgMC04MCAzNS44LTgwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![light-emergency](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/light-emergency.svg)
  */
 const LightEmergency: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

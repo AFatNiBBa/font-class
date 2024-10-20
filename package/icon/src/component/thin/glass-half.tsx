@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glass-half` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-half?s=thin glass-half}
- * @preview ![glass-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMSAzMy4zQzE1LjQgMjQgMjIuNyAxNiAzMi4xIDE2TDM1MiAxNmM5LjQgMCAxNi43IDggMTUuOSAxNy4zTDM1MS4xIDI0MCAzMyAyNDAgMTYuMSAzMy4zek0zNC4zIDI1NmwzMTUuNSAwTDMzMy4yIDQ1OS4yYy0xLjcgMjAuOC0xOSAzNi44LTM5LjkgMzYuOEw5MC43IDQ5NmMtMjAuOCAwLTM4LjItMTYtMzkuOS0zNi44TDM0LjMgMjU2ek0zMi4xIDBDMTMuNCAwLTEuMyAxNiAuMiAzNC42bDM0LjcgNDI2QzM3LjMgNDg5LjYgNjEuNiA1MTIgOTAuNyA1MTJsMjAyLjYgMGMyOS4yIDAgNTMuNC0yMi40IDU1LjgtNTEuNGwzNC43LTQyNkMzODUuNCAxNiAzNzAuNyAwIDM1MiAwTDMyLjEgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![glass-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/glass-half.svg)
  */
 const GlassHalf: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

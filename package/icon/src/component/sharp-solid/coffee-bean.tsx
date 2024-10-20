@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `coffee-bean` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-bean?s=sharp-solid coffee-bean}
- * @preview ![coffee-bean](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwLjMgNzRjMSAuOSAxLjkgMS44IDIuOSAyLjhjNzQuMiA3NC4yIDU0LjIgMjE0LjYtNDQuOCAzMTMuNkMyNzEuMiA0NzcuNSAxNTIgNTAzLjUgNzQgNDU3LjhsNjguNC0xMjQuM0wzMzEuMiAyMDcuNmwzLjUtMi40IDEuOS0zLjhMNDAwLjMgNzR6TTQ4LjIgNDM4LjRjLTEuMS0xLjEtMi4yLTIuMS0zLjMtMy4yQy0yOS40IDM2MS05LjQgMjIwLjYgODkuNiAxMjEuNkMxNzYuOSAzNC4zIDI5Ni40IDguNCAzNzQuMyA1NC40TDMwOS45IDE4My4zIDEyMS40IDMwOWwtMy4zIDIuMi0xLjkgMy40TDQ4LjIgNDM4LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![coffee-bean](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/coffee-bean.svg)
  */
 const CoffeeBean: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

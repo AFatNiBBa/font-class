@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gauge-circle-minus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-circle-minus?s=sharp-solid gauge-circle-minus}
- * @preview ![gauge-circle-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDE5MmMyLjcgMCA1LjMgLjEgOCAuMkM0NzUuNiA4MS43IDM3NS40IDAgMjU2IDBDMTE0LjYgMCAwIDExNC42IDAgMjU2UzExNC42IDUxMiAyNTYgNTEyYzM5LjUgMCA3Ny05IDExMC40LTI1QzMzNy42IDQ1NS43IDMyMCA0MTMuOSAzMjAgMzY4YzAtOTcuMiA3OC44LTE3NiAxNzYtMTc2ek0zMjAgMzUyYzAgMzUuMy0yOC43IDY0LTY0IDY0cy02NC0yOC43LTY0LTY0YzAtMjYuOSAxNi41LTQ5LjkgNDAtNTkuM0wyMzIgODhsMC0yNCA0OCAwIDAgMjQgMCAyMDQuN2MyMy41IDkuNSA0MCAzMi41IDQwIDU5LjN6TTE0NCAxMTJhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0ek02NCAyNTZhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHpNMzM2IDE0NGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwek02NDAgMzY4YTE0NCAxNDQgMCAxIDAgLTI4OCAwIDE0NCAxNDQgMCAxIDAgMjg4IDB6bS02NCAxNmwtMTYgMC0xMjggMC0xNiAwIDAtMzIgMTYgMCAxMjggMCAxNiAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![gauge-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gauge-circle-minus.svg)
  */
 const GaugeCircleMinus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

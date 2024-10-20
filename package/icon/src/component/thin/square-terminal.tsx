@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-terminal` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-terminal?s=thin square-terminal}
- * @preview ![square-terminal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDQ4YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMzIwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDY0IDQ2NGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhMMTYgOTZjMC0yNi41IDIxLjUtNDggNDgtNDhsMzIwIDB6TTY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMjBjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMzJ6TTk3LjkgMTU0LjhjLTIuOSAzLjQtMi41IDguNCAuOSAxMS4zTDIwMy43IDI1NiA5OC44IDM0NS45Yy0zLjQgMi45LTMuNyA3LjktLjkgMTEuM3M3LjkgMy43IDExLjMgLjlsMTEyLTk2YzEuOC0xLjUgMi44LTMuNyAyLjgtNi4xcy0xLTQuNi0yLjgtNi4xbC0xMTItOTZjLTMuNC0yLjktOC40LTIuNS0xMS4zIC45ek0yMDAgMzY4Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDE3NiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0xNzYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-terminal.svg)
  */
 const SquareTerminal: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

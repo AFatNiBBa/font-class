@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bookmark-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bookmark-slash?s=solid bookmark-slash}
- * @preview ![bookmark-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w1MTIgMzc2bDAtMzI4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDE3NiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDI3TDM4LjggNS4xek0xMjggNDg3LjdjMCAxMy40IDEwLjkgMjQuMyAyNC4zIDI0LjNjNSAwIDkuOS0xLjUgMTQtNC40TDMyMCA0MDAgNDczLjcgNTA3LjZjNC4xIDIuOSA5IDQuNCAxNCA0LjRjOS45IDAgMTguNC01LjkgMjIuMi0xNC4zTDEyOCAxOTYuOWwwIDI5MC44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bookmark-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bookmark-slash.svg)
  */
 const BookmarkSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

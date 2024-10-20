@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-left-to-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-to-line?s=regular arrow-left-to-line}
- * @preview ![arrow-left-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0MjRjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNEw0OCA4OGMwLTEzLjMtMTAuNy0yNC0yNC0yNFMwIDc0LjcgMCA4OEwwIDQyNHpNMTM1LjYgMjM4LjVjLTQuOCA0LjUtNy42IDEwLjktNy42IDE3LjVzMi43IDEyLjkgNy42IDE3LjVsMTM2IDEyOGM5LjcgOS4xIDI0LjggOC42IDMzLjktMXM4LjYtMjQuOC0xLTMzLjlMMjEyLjUgMjgwbDgzLjUgMCAxMjggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMTI4IDAtODMuNSAwIDkxLjktODYuNWM5LjctOS4xIDEwLjEtMjQuMyAxLTMzLjlzLTI0LjMtMTAuMS0zMy45LTFsLTEzNiAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-left-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-left-to-line.svg)
  */
 const ArrowLeftToLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

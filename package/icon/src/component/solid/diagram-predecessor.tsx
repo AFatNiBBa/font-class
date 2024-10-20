@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-predecessor` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-predecessor?s=solid diagram-predecessor}
- * @preview ![diagram-predecessor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQxNmwwLTY0TDY0IDM1MmwwIDY0IDM4NCAwem0wIDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC02NGMwLTM1LjMgMjguNy02NCA2NC02NGwzODQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDY0YzAgMzUuMy0yOC43IDY0LTY0IDY0ek0yODggMTYwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDIyNGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwxNDQgMCAxNiAwIDE0NCAwYzQ0LjIgMCA4MCAzNS44IDgwIDgwbDAgMTYgMzguMSAwYzIxLjQgMCAzMi4xIDI1LjkgMTcgNDFMNDMzIDIzOWMtOS40IDkuNC0yNC42IDkuNC0zMy45IDBMMzI5IDE2OWMtMTUuMS0xNS4xLTQuNC00MSAxNy00MWwzOC4xIDAgMC0xNmMwLTguOC03LjItMTYtMTYtMTZsLTgwIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![diagram-predecessor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/diagram-predecessor.svg)
  */
 const DiagramPredecessor: typeof Icon = x => (
     <Icon {...x}>

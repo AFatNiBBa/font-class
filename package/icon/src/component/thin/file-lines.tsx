@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-lines` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-lines?s=thin file-lines}
- * @preview ![file-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDk2Yy0yNi41IDAtNDgtMjEuNS00OC00OEwxNiA2NGMwLTI2LjUgMjEuNS00OCA0OC00OGwxNDAuMSAwYzEuMyAwIDIuNiAuMSAzLjkgLjJMMjA4IDEzNmMwIDIyLjEgMTcuOSA0MCA0MCA0MGwxMTkuOCAwYy4yIDEuMyAuMiAyLjYgLjIgMy45TDM2OCA0NDhjMCAyNi41LTIxLjUgNDgtNDggNDhMNjQgNDk2ek0zNTguNiAxNTcuM2MuOSAuOSAxLjcgMS44IDIuNCAyLjdMMjQ4IDE2MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xMTMuMWMxIC44IDEuOSAxLjYgMi43IDIuNEwzNTguNiAxNTcuM3pNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNjguMWMwLTEyLjctNS4xLTI0LjktMTQuMS0zMy45TDIzOC4xIDE0LjFjLTktOS0yMS4yLTE0LjEtMzMuOS0xNC4xTDY0IDB6bTQwIDI1NmMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwxNzYgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtMTc2IDB6bTAgNjRjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMTc2IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTE3NiAwem0wIDY0Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDE3NiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0xNzYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-lines.svg)
  */
 const FileLines: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

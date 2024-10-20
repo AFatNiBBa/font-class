@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road-circle-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-circle-check?s=sharp-solid road-circle-check}
- * @preview ![road-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMybDEyOCAwIDAgNjQgMCAzMiA2NCAwIDAtMzIgMC02NCAxMjggMCA0Ni41IDE2Mi42Yy05LjktMS43LTIwLjEtMi42LTMwLjUtMi42Yy01OS41IDAtMTEyLjEgMjkuNi0xNDQgNzQuOGwwLTQyLjggMC0zMi02NCAwIDAgMzIgMCA2NCAwIDMyIDM4LjYgMGMtNC4zIDE1LjMtNi42IDMxLjQtNi42IDQ4YzAgNS40IC4yIDEwLjcgLjcgMTZMMjg4IDM4NGwwIDMyIDAgNjRMMzIgNDgwIDE2MCAzMnpNMzUyIDM2OGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0yMjIuNi0zMkw1NTIgMzEzLjRsLTExLjMgMTEuM0w0ODAgMzg1LjRsLTI4LjctMjguN0w0NDAgMzQ1LjQgNDE3LjQgMzY4bDExLjMgMTEuMyA0MCA0MEw0ODAgNDMwLjZsMTEuMy0xMS4zIDcyLTcyTDU3NC42IDMzNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![road-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/road-circle-check.svg)
  */
 const RoadCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `baby-carriage` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baby-carriage?s=solid baby-carriage}
- * @preview ![baby-carriage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE5MkwuMSAxOTJDMi43IDExNy45IDQxLjMgNTIuOSA5OSAxNC4xYzEzLjMtOC45IDMwLjgtNC4zIDM5LjkgOC44TDI1NiAxOTJ6bTEyOC0zMmMwLTM1LjMgMjguNy02NCA2NC02NGwzMiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0zMiAwIDAgNjRjMCAyNS4yLTUuOCA1MC4yLTE3IDczLjVzLTI3LjggNDQuNS00OC42IDYyLjNzLTQ1LjUgMzItNzIuNyA0MS42UzI1My40IDQxNiAyMjQgNDE2cy01OC41LTUtODUuNy0xNC42cy01MS45LTIzLjgtNzIuNy00MS42cy0zNy4zLTM5LTQ4LjYtNjIuM1MwIDI0OS4yIDAgMjI0bDIyNCAwIDE2MCAwIDAtNjR6TTgwIDQxNmE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6bTI0MCA0OGE0OCA0OCAwIDEgMSA5NiAwIDQ4IDQ4IDAgMSAxIC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![baby-carriage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/baby-carriage.svg)
  */
 const BabyCarriage: typeof Icon = x => (
     <Icon {...x}>

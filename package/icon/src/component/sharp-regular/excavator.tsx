@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `excavator` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/excavator?s=sharp-regular excavator}
- * @preview ![excavator](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwyNCAwTDI2NCAwbDEyLjQgMCA3LjIgMTAuMiA5NiAxMzYgNC40IDYuMiAwIDcuNiAwIDQ4IDAgMTYgMCA0OCAwIDQ4LTQ4IDBMNDggMzIwIDAgMzIwbDAtNDggMC02NCAwLTQ4IDQ4IDAgNDggMEw5NiAyNCA5NiAwek0yNTEuNiA0OEwxNDQgNDhsMCAxMTIgMTg2LjYgMEwyNTEuNiA0OHpNNDggMjA4bDAgNjQgMjg4IDAgMC00OCAwLTE2TDQ4IDIwOHpNODAgNDAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDI1NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMyTDgwIDQwMHpNMCA0MzJjMC00NC4yIDM1LjgtODAgODAtODBsMjU2IDBjNDQuMiAwIDgwIDM1LjggODAgODBzLTM1LjggODAtODAgODBMODAgNTEyYy00NC4yIDAtODAtMzUuOC04MC04MHptNDQ4IDMyTDU5MiAzMjBsMC0xMTIuMiAwLTYzLjgtNDggNDJMNDE2IDI5OGwwLTYzLjhMNTYwLjQgMTA3LjkgNTkyIDgwLjJsMC0zMC42TDQxNiAyMDIuMmwwLTYzLjVMNTc2IDBsMTYgMCA0OCAwIDAgMzguMiAwIDkuOCAwIDk2IDAgMTc2IDAgMTYgMCA0OCAwIDQ4YzAgNDQuMi0zNS44IDgwLTgwIDgwbC0xMTIgMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![excavator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/excavator.svg)
  */
 const Excavator: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

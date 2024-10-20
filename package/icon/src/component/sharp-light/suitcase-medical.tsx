@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `suitcase-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/suitcase-medical?s=sharp-light suitcase-medical}
- * @preview ![suitcase-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMTYgMEwzNjggMGwxNiAwIDAgMTYgMCA4MCA5NiAwIDMyIDAgMCAzMiAwIDMyMCAwIDMyLTMyIDBMMzIgNDgwIDAgNDgwbDAtMzJMMCAxMjggMCA5NmwzMiAwIDk2IDAgMC04MCAwLTE2ek0zNTIgMzJMMTYwIDMybDAgNjQgMTkyIDAgMC02NHptMTYgOTZsLTIyNCAwLTE2IDAgMCAzMjAgMjU2IDAgMC0zMjAtMTYgMHpNOTYgMTI4bC02NCAwIDAgMzIwIDY0IDAgMC0zMjB6TTQxNiA0NDhsNjQgMCAwLTMyMC02NCAwIDAgMzIwek0yMjQgMTc2bDY0IDAgMTYgMCAwIDE2IDAgNDggNDggMCAxNiAwIDAgMTYgMCA2NCAwIDE2LTE2IDAtNDggMCAwIDQ4IDAgMTYtMTYgMC02NCAwLTE2IDAgMC0xNiAwLTQ4LTQ4IDAtMTYgMCAwLTE2IDAtNjQgMC0xNiAxNiAwIDQ4IDAgMC00OCAwLTE2IDE2IDB6bTE2IDgwbDAgMTYtMTYgMC00OCAwIDAgMzIgNDggMCAxNiAwIDAgMTYgMCA0OCAzMiAwIDAtNDggMC0xNiAxNiAwIDQ4IDAgMC0zMi00OCAwLTE2IDAgMC0xNiAwLTQ4LTMyIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![suitcase-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/suitcase-medical.svg)
  */
 const SuitcaseMedical: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-trend-up` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-trend-up?s=sharp-thin arrow-trend-up}
- * @preview ![arrow-trend-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDk2bDggMCAxOTIgMCA4IDAgMCA4IDAgMTkyIDAgOC0xNiAwIDAtOCAwLTE3Mi43TDMyNS43IDM1Ny43bC01LjcgNS43LTUuNy01LjdMMTkyIDIzNS4zIDEzLjcgNDEzLjcgMi4zIDQwMi4zbDE4NC0xODQgNS43LTUuNyA1LjcgNS43TDMyMCAzNDAuNyA1NDguNyAxMTIgMzc2IDExMmwtOCAwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-trend-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-trend-up.svg)
  */
 const ArrowTrendUp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `coin-blank` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coin-blank?s=sharp-solid coin-blank}
- * @preview ![coin-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyMDhjMCA3OS41IDExNC42IDE0NCAyNTYgMTQ0czI1Ni02NC41IDI1Ni0xNDRzLTExNC42LTE0NC0yNTYtMTQ0UzAgMTI4LjUgMCAyMDh6bTAgODIuMUwwIDMyMGMwIDI3LjkgMTcuOCA1My42IDQ4IDc0LjZMNDggMzMxYy0xOC4zLTExLjUtMzQuOC0yNS4yLTQ4LTQwLjl6TTgwIDQxM2MyNy4xIDEyLjggNTkuOCAyMi43IDk2IDI4LjdsMC02NC4zYy0zNS4xLTYtNjcuNi0xNS45LTk2LTI5TDgwIDQxM3ptMTI4IDMyLjhjMTUuNSAxLjUgMzEuNiAyLjIgNDggMi4yczMyLjUtLjggNDgtMi4ybDAtNjQuMWMtMTUuNyAxLjYtMzEuNyAyLjQtNDggMi40cy0zMi4zLS44LTQ4LTIuNGwwIDY0LjF6bTEyOC00LjFjMzYuMi02IDY4LjktMTUuOSA5Ni0yOC43bDAtNjQuN2MtMjguNCAxMy4yLTYwLjkgMjMtOTYgMjlsMCA2NC4zem0xMjgtNDdjMzAuMi0yMSA0OC00Ni44IDQ4LTc0LjZsMC0yOS45Yy0xMy4yIDE1LjYtMjkuNyAyOS4zLTQ4IDQwLjlsMCA2My43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![coin-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/coin-blank.svg)
  */
 const CoinBlank: typeof Icon = x => (
     <Icon {...x}>

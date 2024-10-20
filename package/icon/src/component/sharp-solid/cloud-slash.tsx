@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-slash?s=sharp-solid cloud-slash}
- * @preview ![cloud-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM1LjIgNDgwbDQuOCAwIDAtMTI4YzAtNTkuNi00MC44LTEwOS44LTk2LTEyNGwwLTM2YzAtNTMtNDMtOTYtOTYtOTZjLTE5LjcgMC0zOC4xIDYtNTMuMyAxNi4yQzM2NyA2NC4yIDMxNS4zIDMyIDI1NiAzMmMtNDYuOCAwLTg5IDIwLjEtMTE4LjIgNTIuMkw0OC40IDE0Ljh6TTk2IDE5MmwwIDguMkM0MC4xIDIyMCAwIDI3My4zIDAgMzM2TDAgNDgwbDE0NCAwIDM0My40IDBMOTcuMiAxNzIuNmMtLjggNi40LTEuMiAxMi45LTEuMiAxOS40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloud-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-slash.svg)
  */
 const CloudSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `faucet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/faucet?s=sharp-solid faucet}
- * @preview ![faucet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDY0bDAgNDQuOEw2NCA5NmwwIDY0IDEyOC0xMi44IDMxLjItMy4xIC44LS4xczAgMCAwIDBzMCAwIDAgMGwuOCAuMSAzMS4yIDMuMUwzODQgMTYwbDAtNjRMMjU2IDEwOC44IDI1NiA2NGwtNjQgMHpNMTYwIDIyNGwtMzIgMzJMMCAyNTYgMCAzODRsMTMyLjEgMGMyMC4yIDI5IDUzLjkgNDggOTEuOSA0OHM3MS43LTE5IDkxLjktNDhsMzYuMSAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzIgMTI4IDAgMC0zMmMwLTg4LjQtNzEuNi0xNjAtMTYwLTE2MGwtMzIgMC0zMi0zMi0zMiAwIDAtNDQuNi0zMi0zLjItMzIgMy4yIDAgNDQuNi0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![faucet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/faucet.svg)
  */
 const Faucet: typeof Icon = x => (
     <Icon {...x}>

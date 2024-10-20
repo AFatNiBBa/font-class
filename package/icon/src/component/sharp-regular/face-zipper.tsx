@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-zipper` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-zipper?s=sharp-regular face-zipper}
- * @preview ![face-zipper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjU2QzQ4IDE0MS4xIDE0MS4xIDQ4IDI1NiA0OHMyMDggOTMuMSAyMDggMjA4YzAgMzIuMi03LjMgNjIuOC0yMC40IDkwbDQyLjkgMjEuNUM1MDIuOCAzMzMuOCA1MTIgMjk2IDUxMiAyNTZDNTEyIDExNC42IDM5Ny40IDAgMjU2IDBTMCAxMTQuNiAwIDI1NlMxMTQuNiA1MTIgMjU2IDUxMmM0MCAwIDc3LjgtOS4yIDExMS41LTI1LjVMMzQ2IDQ0My42Yy0yNy4yIDEzLjEtNTcuOCAyMC40LTkwIDIwLjRDMTQxLjEgNDY0IDQ4IDM3MC45IDQ4IDI1NnptMzA0IDgyLjdsMC0yLjcgMC0xNi0zMiAwIDAgMTYgMCAzMiAwIDIuNyA5LjQtOS40TDM1MiAzMzguN3pNMTc2LjQgMjQwYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMTkyLTMyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6TTIyNCAzMzZsMC0xNi0zMiAwIDAgMTYgMCAzMiAwIDE2IDMyIDAgMC0xNiAwLTMyem02NC0xNmwtMzIgMCAwIDE2IDAgMzIgMCAxNiAzMiAwIDAtMTYgMC0zMiAwLTE2em0tMTI4IDBsLTMyIDAgMCAxNiAwIDMyIDAgMTYgMzIgMCAwLTE2IDAtMzIgMC0xNnptMzUyIDk2TDM4NCAzNTJsLTMyIDMyIDY0IDEyOCAzMiAwIDY0LTY0IDAtMzJ6bS02My41IDE2LjVsLTE2IDE2TDQyNCA0NTdsLTE3LTE3IDguNS04LjUgMTYtMTZMNDQwIDQwN2wxNyAxNy04LjUgOC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-zipper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-zipper.svg)
  */
 const FaceZipper: typeof Icon = x => (
     <Icon {...x}>

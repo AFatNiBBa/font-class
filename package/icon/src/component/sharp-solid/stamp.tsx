@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stamp` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stamp?s=sharp-solid stamp}
- * @preview ![stamp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDE2Ny42YzE5LjYtMTcuNiAzMi00My4xIDMyLTcxLjZjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZjMCAyOC40IDEyLjQgNTQgMzIgNzEuNmwwIDg4LjQtODAgMEM1MC4xIDI1NiAwIDMwNi4xIDAgMzY4bDAgNDggMzIgMCAwIDMyIDAgNjQgNjQgMCAzMjAgMCA2NCAwIDAtNjQgMC0zMiAzMiAwIDAtNDhjMC02MS45LTUwLjEtMTEyLTExMi0xMTJsLTgwIDAgMC04OC40ek00MTYgNDE2bDAgMzJMOTYgNDQ4bDAtMzIgMzIwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![stamp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/stamp.svg)
  */
 const Stamp: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-shooting` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-shooting?s=solid star-shooting}
- * @preview ![star-shooting](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEzIDQxTDI2NSA4OWMtOS40IDkuNC0yNC42IDkuNC0zMy45IDBzLTkuNC0yNC42IDAtMzMuOUwyNzkgN2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjQgMjQuNiAwIDMzLjl6TTE3MC40IDE1Ny40YzguOC0xNy45IDM0LjMtMTcuOSA0My4xIDBsNDYuMyA5NCAxMDMuNSAxNS4xYzE5LjcgMi45IDI3LjUgMjcgMTMuMyA0MC45bC03NC45IDczLjIgMTcuNyAxMDMuM2MzLjQgMTkuNi0xNy4yIDM0LjYtMzQuOCAyNS4zbC05Mi42LTQ4LjhMOTkuMyA1MDkuMmMtMTcuNiA5LjMtMzguMi01LjctMzQuOC0yNS4zTDgyLjIgMzgwLjYgNy4yIDMwNy40Qy03IDI5My41IC45IDI2OS4zIDIwLjUgMjY2LjVsMTAzLjUtMTUuMSA0Ni4zLTk0ek01MDUgMTk5YzkuNCA5LjQgOS40IDI0LjYgMCAzMy45bC00OCA0OGMtOS40IDkuNC0yNC42IDkuNC0zMy45IDBzLTkuNC0yNC42IDAtMzMuOWw0OC00OGM5LjQtOS40IDI0LjYtOS40IDMzLjkgMHpNNTA1IDQxTDM2MSAxODVjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwcy05LjQtMjQuNiAwLTMzLjlMNDcxIDdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBzOS40IDI0LjYgMCAzMy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![star-shooting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/star-shooting.svg)
  */
 const StarShooting: typeof Icon = x => (
     <Icon {...x}>

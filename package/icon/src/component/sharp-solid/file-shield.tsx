@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-shield` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-shield?s=sharp-solid file-shield}
- * @preview ![file-shield](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDIyNCAwbDAgMTYwIDE2MCAwIDAgNDguM0wyNTYgMjU3LjhsMCAzOC4yYzAgNzYuNiAzNC4zIDE2NC44IDEwNi4xIDIxNkwwIDUxMiAwIDB6TTM4NCAxMjhsLTEyOCAwTDI1NiAwIDM4NCAxMjh6TTUyNy4zIDMxMi40TDQzMiAyNzUuNWwwIDE4NC45YzU2LjUtMjYuMyA5MC4yLTg3IDk1LjMtMTQ4ek00MzIgNTEyYy05Ni0zMi0xNDQtMTMwLjItMTQ0LTIxNmwwLTE2LjJMNDMyIDIyNGwxNDQgNTUuOCAwIDE2LjJjMCA4NS45LTQ4IDE4NC0xNDQgMjE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-shield.svg)
  */
 const FileShield: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

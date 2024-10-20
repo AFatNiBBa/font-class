@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `text-width` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/text-width?s=thin text-width}
- * @preview ![text-width](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNTZjMC00LjQgMy42LTggOC04bDE5MiAwIDAgMjI0LTU2IDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsNjQgMCA2NCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC01NiAwIDAtMjI0IDE5MiAwYzQuNCAwIDggMy42IDggOGwwIDQ4YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC00OGMwLTEzLjMtMTAuNy0yNC0yNC0yNEwyMjQgMzIgMjQgMzJDMTAuNyAzMiAwIDQyLjcgMCA1NmwwIDQ4YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC00OHpNNDQ1LjcgMzg5LjdjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM2wtODAtODBjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBzLTMuMSA4LjIgMCAxMS4zTDQyMC43IDM3NiAyNy4zIDM3Nmw2Ni4zLTY2LjNjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3MtOC4yLTMuMS0xMS4zIDBsLTgwIDgwYy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zbDgwIDgwYzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBzMy4xLTguMiAwLTExLjNMMjcuMyAzOTJsMzkzLjQgMC02Ni4zIDY2LjNjLTMuMSAzLjEtMy4xIDguMiAwIDExLjNzOC4yIDMuMSAxMS4zIDBsODAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![text-width](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/text-width.svg)
  */
 const TextWidth: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

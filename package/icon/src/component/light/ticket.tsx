@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ticket` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ticket?s=light ticket}
- * @preview ![ticket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhsMCA2NmMwIDcuMyA0LjkgMTMuNyAxMiAxNS41YzIwLjcgNS4zIDM2IDI0LjEgMzYgNDYuNXMtMTUuMyA0MS4yLTM2IDQ2LjVDNC45IDMwNC4zIDAgMzEwLjcgMCAzMThsMCA2NmMwIDM1LjMgMjguNyA2NCA2NCA2NGw0NDggMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTY2YzAtNy4zLTQuOS0xMy43LTEyLTE1LjVjLTIwLjctNS4zLTM2LTI0LjEtMzYtNDYuNXMxNS4zLTQxLjIgMzYtNDYuNWM3LjEtMS44IDEyLTguMiAxMi0xNS41bDAtNjZjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgNjR6TTMyIDEyOGMwLTE3LjcgMTQuMy0zMiAzMi0zMmw0NDggMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDU0LjdjLTI4LjIgMTIuMy00OCA0MC41LTQ4IDczLjNzMTkuOCA2MSA0OCA3My4zbDAgNTQuN2MwIDE3LjctMTQuMyAzMi0zMiAzMkw2NCA0MTZjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNTQuN0M2MC4yIDMxNyA4MCAyODguOCA4MCAyNTZzLTE5LjgtNjEtNDgtNzMuM0wzMiAxMjh6bTEyOCA2NGwyNTYgMCAwIDEyOC0yNTYgMCAwLTEyOHptLTMyIDBsMCAxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMjU2IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJsLTI1NiAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ticket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ticket.svg)
  */
 const Ticket: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

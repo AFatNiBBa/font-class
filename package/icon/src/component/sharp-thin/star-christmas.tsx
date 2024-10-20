@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-christmas` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-christmas?s=sharp-thin star-christmas}
- * @preview ![star-christmas](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA0LjYgMzA3LjRsLTcuNi0yLjVMNTAuNiAyNTZsMTQ2LjUtNDguOCA3LjYtMi41IDIuNS03LjZMMjU2IDUwLjZsNDguOCAxNDYuNSAyLjUgNy42IDcuNiAyLjVMNDYxLjQgMjU2IDMxNC45IDMwNC44bC03LjYgMi41LTIuNSA3LjZMMjU2IDQ2MS40IDIwNy4yIDMxNC45bC0yLjUtNy42ek0yNS4zIDI2NC40TDE5MiAzMjBsNTUuNiAxNjYuN0wyNTYgNTEybDguNC0yNS4zTDMyMCAzMjBsMTY2LjctNTUuNkw1MTIgMjU2bC0yNS4zLTguNEwzMjAgMTkyIDI2NC40IDI1LjMgMjU2IDBsLTguNCAyNS4zTDE5MiAxOTIgMjUuMyAyNDcuNiAwIDI1NmwyNS4zIDguNHpNMzYwIDM0OC43TDM0OC43IDM2MGw1LjcgNS43IDgwIDgwIDUuNyA1LjdMNDUxLjMgNDQwbC01LjctNS43LTgwLTgwLTUuNy01Ljd6bS01LjctMjAyLjNsLTUuNyA1LjdMMzYwIDE2My4zbDUuNy01LjcgODAtODAgNS43LTUuN0w0NDAgNjAuN2wtNS43IDUuNy04MCA4MHpNNzIgNjAuN0w2MC43IDcybDUuNyA1LjcgODAgODAgNS43IDUuN0wxNjMuMyAxNTJsLTUuNy01LjctODAtODBMNzIgNjAuN3pNNjYuMyA0MzQuM0w2MC43IDQ0MCA3MiA0NTEuM2w1LjctNS43IDgwLTgwIDUuNy01LjdMMTUyIDM0OC43bC01LjcgNS43LTgwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![star-christmas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/star-christmas.svg)
  */
 const StarChristmas: typeof Icon = x => (
     <Icon {...x}>

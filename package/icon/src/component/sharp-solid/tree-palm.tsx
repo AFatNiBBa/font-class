@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tree-palm` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-palm?s=sharp-solid tree-palm}
- * @preview ![tree-palm](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgODBsMzcuMiA2MS45Yy00IDMuNS04IDcuMi0xMiAxMS4yQzQxLjkgMjMyLjMgNjQuNiAzMjIuOCA5OC41IDM1Ni44TDI0OC40IDIwNi45YzQgMTAuOCA3LjggMjYuMiA5LjcgNDcuMmM0LjIgNDYuNS0xLjYgMTE2LjgtMzIuNyAyMTYuNGwtMTMgNDEuNSA0My41IDAgNjQgMCAyOC4yIDAgMy41LTI4YzEyLjQtOTktMi4zLTIwNy4yLTMxLjctMjkybDEzMS4yIDBMNDgwIDE0NGwyOC44IDQ4IDY3LjIgMGMwLTQ4LTQ4LTEyOC0xNjAtMTI4Yy00My43IDAtNzcuNiAxMi4yLTEwMi44IDI5LjhDMjk2LjUgNDkuNCAyNDggMCAxNjAgMEM0OCAwIDAgODAgMCAxMjhsNjcuMiAwTDk2IDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tree-palm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tree-palm.svg)
  */
 const TreePalm: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

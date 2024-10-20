@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `6` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/6?s=solid 6}
- * @preview ![6](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyLjQgODQuN2MxMS40LTEzLjUgOS43LTMzLjctMy44LTQ1LjFzLTMzLjctOS43LTQ1LjEgMy44TDM4LjYgMjE0LjdDMTQuNyAyNDIuOSAxLjEgMjc4LjQgLjEgMzE1LjJjMCAxLjQtLjEgMi45LS4xIDQuM2wwIC41YzAgODguNCA3MS42IDE2MCAxNjAgMTYwczE2MC03MS42IDE2MC0xNjBjMC04NS41LTY3LjEtMTU1LjQtMTUxLjUtMTU5LjhsNjMuOS03NS42ek0yNTYgMzIwQTk2IDk2IDAgMSAxIDY0IDMyMGE5NiA5NiAwIDEgMSAxOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/6.svg)
  */
 const $6: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

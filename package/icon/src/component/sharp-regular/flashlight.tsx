@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flashlight` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flashlight?s=sharp-regular flashlight}
- * @preview ![flashlight](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDEzLjggMzE0LjRsLTEzLTEwLjRMMzg0IDMwNCA0OCAzMDRsMC05NiAzMzYgMCAxNi44IDAgMTMtMTAuNHMwIDAgMCAwbC4yLS4yYy4zLS4yIC45LS43IDEuOC0xLjNjMS44LTEuMyA0LjYtMy4zIDguNS01LjhjNy43LTUgMTkuMy0xMS45IDM0LjEtMTguOGMxNS4yLTcuMSAzMy4yLTE0LjEgNTMuNi0xOS4zbDAgMjA3LjdjLTIwLjMtNS4xLTM4LjQtMTIuMS01My42LTE5LjNjLTE0LjctNi45LTI2LjMtMTMuOC0zNC4xLTE4LjhjLTMuOS0yLjUtNi43LTQuNS04LjUtNS44Yy0uOS0uNi0xLjUtMS4xLTEuOC0xLjNsLS4yLS4yczAgMCAwIDB6TTU3NiAzNjhjLTUuNCAwLTEwLjgtLjItMTYtLjVsMC0yMjNjNS4yLS4zIDEwLjYtLjUgMTYtLjVsMTYgMCAwIDIyNC0xNiAwek01OTIgOTZsLTE2IDBjLTExMiAwLTE5MiA2NC0xOTIgNjRMNDggMTYwIDAgMTYwbDAgNDggMCA5NiAwIDQ4IDQ4IDAgMzM2IDBzODAgNjQgMTkyIDY0bDE2IDAgNDggMCAwLTQ4IDAtMjI0IDAtNDgtNDggMHpNMjQ4IDIzMmwtMjQgMCAwIDQ4IDI0IDAgNDggMCAyNCAwIDAtNDgtMjQgMC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![flashlight](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/flashlight.svg)
  */
 const Flashlight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

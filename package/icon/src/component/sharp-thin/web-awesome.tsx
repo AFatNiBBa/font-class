@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `web-awesome` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/web-awesome?s=sharp-thin web-awesome}
- * @preview ![web-awesome](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg0LjIgNTJhMzYgMzYgMCAxIDEgNzIgMCAzNiAzNiAwIDEgMSAtNzIgMHpNMzIzIDEwMy45TDQzNy41IDIwNGw1LjkgNS4yIDcuNy0xLjUgMTE1LjMtMjMuMWMzLjMgMi4xIDYuOSAzLjggMTAuNyA1TDQ1My43IDQ2NGwtMjY3LjMgMEw2Mi45IDE4OS42YzMuOC0xLjIgNy40LTIuOSAxMC43LTVsMTE1LjMgMjMuMSA3LjcgMS41IDUuOS01LjJMMzE3IDEwMy45YzEuMSAuMSAyLjEgLjEgMy4yIC4xYzEgMCAxLjkgMCAyLjktLjF6TTQ2LjQgMTkyTDE3NiA0ODBsMjg4IDBMNTkzLjYgMTkyYzI1LjgtLjkgNDYuNC0yMiA0Ni40LTQ4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4cy00OCAyMS41LTQ4IDQ4YzAgMTAuMSAzLjEgMTkuNCA4LjQgMjcuMUw0NDggMTkyIDM0MiA5OS4yQzM1OS44IDkxIDM3Mi4yIDcyLjkgMzcyLjIgNTJjMC0yOC43LTIzLjMtNTItNTItNTJzLTUyIDIzLjMtNTIgNTJjMCAyMC44IDEyLjMgMzguOCAzMCA0Ny4xTDE5MiAxOTIgODcuNiAxNzEuMWM1LjMtNy43IDguNC0xNy4xIDguNC0yNy4xYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4UzAgMTE3LjUgMCAxNDRjMCAyNiAyMC42IDQ3LjEgNDYuNCA0OHpNNTkyIDExMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6TTE2IDE0NGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![web-awesome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/web-awesome.svg)
  */
 const WebAwesome: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `panorama` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panorama?s=solid panorama}
- * @preview ![panorama](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUuNiAzMkMyMC40IDMyIDAgNTIuNCAwIDc3LjZMMCA0MzQuNEMwIDQ1OS42IDIwLjQgNDgwIDQ1LjYgNDgwYzUuMSAwIDEwLS44IDE0LjctMi40Qzc0LjYgNDcyLjggMTc3LjYgNDQwIDMyMCA0NDBzMjQ1LjQgMzIuOCAyNTkuNiAzNy42YzQuNyAxLjYgOS43IDIuNCAxNC43IDIuNGMyNS4yIDAgNDUuNi0yMC40IDQ1LjYtNDUuNmwwLTM1Ni43QzY0MCA1Mi40IDYxOS42IDMyIDU5NC40IDMyYy01IDAtMTAgLjgtMTQuNyAyLjRDNTY1LjQgMzkuMiA0NjIuNCA3MiAzMjAgNzJTNzQuNiAzOS4yIDYwLjQgMzQuNEM1NS42IDMyLjggNTAuNyAzMiA0NS42IDMyek05NiAxNjBhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptMjcyIDBjNy45IDAgMTUuNCAzLjkgMTkuOCAxMC41TDUxMi4zIDM1M2M1LjQgOCA1LjYgMTguNCAuNCAyNi41cy0xNC43IDEyLjMtMjQuMiAxMC43QzQ0Mi43IDM4Mi40IDM4NS4yIDM3NiAzMjAgMzc2Yy02NS42IDAtMTIzLjQgNi41LTE2OS4zIDE0LjRjLTkuOCAxLjctMTkuNy0yLjktMjQuNy0xMS41cy00LjMtMTkuNCAxLjktMjcuMkwxOTcuMyAyNjVjNC42LTUuNyAxMS40LTkgMTguNy05czE0LjIgMy4zIDE4LjcgOWwyNi40IDMzLjEgODctMTI3LjZjNC41LTYuNiAxMS45LTEwLjUgMTkuOC0xMC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![panorama](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/panorama.svg)
  */
 const Panorama: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jack-o-lantern` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jack-o-lantern?s=sharp-solid jack-o-lantern}
- * @preview ![jack-o-lantern](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDk2Yy0xOC4xIDAtMzUuNSAyLjctNTEuOSA3LjhMMjg4IDBsNjQgMzIgMCA3NmMtMTkuOC03LjctNDEuNC0xMi02NC0xMnptMTQ2IDc3LjdjLTEwLjktMTYuMS0yNC4zLTMwLjMtMzkuOC00MmM5LjYtMi40IDE5LjYtMy43IDI5LjgtMy43YzgzLjkgMCAxNTIgODYgMTUyIDE5MnMtNjguMSAxOTItMTUyIDE5MmMtMjQuNCAwLTQ3LjUtNy4zLTY4LTIwLjJjLTIwLjUgMTIuOS00My42IDIwLjItNjggMjAuMnMtNDcuNS03LjMtNjgtMjAuMmMtMjAuNSAxMi45LTQzLjYgMjAuMi02OCAyMC4yQzY4LjEgNTEyIDAgNDI2IDAgMzIwUzY4LjEgMTI4IDE1MiAxMjhjMTAuMiAwIDIwLjEgMS4zIDI5LjggMy43Yy0xNS40IDExLjctMjguOSAyNS45LTM5LjggNDJjNDEuNC0yOC44IDkxLjctNDUuNyAxNDYtNDUuN3MxMDQuNiAxNi45IDE0NiA0NS43ek0yMDggMjA4bC00OCA4MCA5NiAwLTQ4LTgwem0xNjAgMGwtNDggODAgOTYgMC00OC04MHptMCAyMjguMmwwLTM2LjIgNDggMCAwIDEyLjRjNTMuOC0zNy45IDY0LTkyLjQgNjQtOTIuNHMtODAgNDgtMTkyIDQ4bDAgMzItNDggMCAwLTM0LjlDMTUzLjggMzU0LjcgOTYgMzIwIDk2IDMyMHMxMC4yIDU0LjYgNjQgOTIuNGwwLTEyLjQgNDggMCAwIDM2LjJjMjIuMSA3LjMgNDguNSAxMS44IDgwIDExLjhzNTcuOS00LjUgODAtMTEuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![jack-o-lantern](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/jack-o-lantern.svg)
  */
 const JackOLantern: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-pin-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-pin-slash?s=sharp-regular location-pin-slash}
- * @preview ![location-pin-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDM5LjMgMjY3LjRDNDU2LjMgMjM0IDQ2NCAyMDguMyA0NjQgMTkyYzAtNzkuNS02NC41LTE0NC0xNDQtMTQ0Yy01NS44IDAtMTA0LjIgMzEuOC0xMjguMSA3OC4yTDQxOS40IDMwMi44YzcuMi0xMS45IDEzLjktMjMuOCAxOS45LTM1LjR6bTE4LjMgNjVMNjIwLjkgNDU5LjNsMTkgMTQuNy0yOS40IDM3LjktMTktMTQuN0wxOSA1Mi43IDAgMzggMjkuNCAuMWwxOSAxNC43TDE1My41IDk2LjRDMTg2LjYgMzguOCAyNDguOCAwIDMyMCAwQzQyNiAwIDUxMiA4NiA1MTIgMTkyYzAgMzkuNC0yMy43IDkwLjYtNTQuNSAxNDAuNHpNMTkwLjcgMjQ2LjNjMi45IDYuNyA2LjIgMTMuNyAxMCAyMS4xYzE2LjQgMzIuMiAzOC44IDY2LjQgNjIuMSA5OC4zYzIwLjMgMjcuOSA0MC43IDUzLjMgNTcuMiA3My4xYzEzLTE1LjYgMjguNS0zNC43IDQ0LjQtNTUuOGwzNy43IDI5LjdjLTE4LjQgMjQuMy0zNi4xIDQ2LTUwLjMgNjIuOEMzMzIuOCA0OTguMSAzMjAgNTEyIDMyMCA1MTJzLTEyLjgtMTMuOS0zMS44LTM2LjRjLTUzLjUtNjMuNC0xNTYuMS0xOTUuMi0xNjAuMS0yNzguN2w2Mi42IDQ5LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![location-pin-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/location-pin-slash.svg)
  */
 const LocationPinSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

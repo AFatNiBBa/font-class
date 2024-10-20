@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-1-9` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-1-9?s=sharp-solid arrow-up-1-9}
- * @preview ![arrow-up-1-9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDMybDMyIDAgNDggMCAzMiAwIDAgMzIgMCA5NiAxNiAwIDMyIDAgMCA2NC0zMiAwLTQ4IDAtNDggMC0zMiAwIDAtNjQgMzIgMCAxNiAwIDAtNjQtMTYgMC0zMiAwIDAtNjR6bS0xOTIgLjZsMjMuNiAyNS43IDg4IDk2TDI5My4yIDE3OCAyNDYgMjIxLjJsLTIxLjYtMjMuNkwxOTIgMTYyLjMgMTkyIDQ0OGwwIDMyLTY0IDAgMC0zMiAwLTI4NS43TDk1LjYgMTk3LjYgNzQgMjIxLjIgMjYuOCAxNzhsMjEuNi0yMy42IDg4LTk2TDE2MCAzMi42ek00MzIgMzY4YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptLTg4LTMyYzAtNDguNiAzOS40LTg4IDg4LTg4czg4IDM5LjQgODggODhjMCAyMi42LTYuMiA0NC44LTE4IDY0LjFMNDUzLjUgNDgwbC03NC45IDAgMTAuMS0xNi42IDI1LjEtNDEuM0MzNzMuOSA0MTMuNyAzNDQgMzc4LjMgMzQ0IDMzNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-up-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-up-1-9.svg)
  */
 const ArrowUp_1_9: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

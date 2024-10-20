@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `twitch` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/twitch?s=brands twitch}
- * @preview ![twitch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkxLjE3LDEwMy40N0gzNTIuNTR2MTA5LjdoMzguNjNaTTI4NSwxMDNIMjQ2LjM3VjIxMi43NUgyODVaTTEyMC44MywwLDI0LjMxLDkxLjQyVjQyMC41OEgxNDAuMTRWNTEybDk2LjUzLTkxLjQyaDc3LjI1TDQ4Ny42OSwyNTZWMFpNNDQ5LjA3LDIzNy43NWwtNzcuMjIsNzMuMTJIMjk0LjYxbC02Ny42LDY0di02NEgxNDAuMTRWMzYuNThINDQ5LjA3WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![twitch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/twitch.svg)
  */
 const Twitch: typeof Icon = x => (
     <Icon {...x}>

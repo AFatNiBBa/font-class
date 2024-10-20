@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `floppy-disk-circle-arrow-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk-circle-arrow-right?s=sharp-regular floppy-disk-circle-arrow-right}
- * @preview ![floppy-disk-circle-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDgwTDAgNDgwbDAtNDhMMCA4MCAwIDMybDQ4IDAgMjg4IDBMNDQ4IDE0NGwwIDQ4LjdjLTUuMy0uNS0xMC42LS43LTE2LS43Yy0xMC45IDAtMjEuNiAxLTMyIDIuOWwwLTMxLTgwLTgwTDMyMCAxODRsMCAyNC0yNCAwLTE5MiAwLTI0IDAgMC0yNEw4MCA4MCA0OCA4MGwwIDM1MiAyMjAgMGM2LjkgMTcuNSAxNi40IDMzLjcgMjguMiA0OEw0OCA0ODB6TTIyNCAyNTZjMjIuMSAwIDQxLjYgMTEuMiA1My4xIDI4LjNDMjYzLjcgMzA5LjIgMjU2IDMzNy43IDI1NiAzNjhjMCAyLjUgLjEgNC45IC4yIDcuNGMtOS40IDUuNS0yMC40IDguNi0zMi4yIDguNmMtMzUuMyAwLTY0LTI4LjctNjQtNjRzMjguNy02NCA2NC02NHpNMTI4IDgwbDAgODAgMTQ0IDAgMC04MEwxMjggODB6TTI4OCAzNjhhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMTUyLTc4LjZMNDE3LjQgMzEybDExLjMgMTEuM0w0NTcuNCAzNTIgMzY4IDM1MmwtMTYgMCAwIDMyIDE2IDAgODkuNCAwLTI4LjcgMjguN0w0MTcuNCA0MjQgNDQwIDQ0Ni42bDExLjMtMTEuMyA1Ni01Nkw1MTguNiAzNjhsLTExLjMtMTEuMy01Ni01Nkw0NDAgMjg5LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![floppy-disk-circle-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/floppy-disk-circle-arrow-right.svg)
  */
 const FloppyDiskCircleArrowRight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

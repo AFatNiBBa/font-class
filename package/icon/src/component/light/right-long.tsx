@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right-long` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-long?s=light right-long}
- * @preview ![right-long](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDE4NGwwLTQ5LjNjMC0zLjcgMy02LjcgNi43LTYuN2MxLjkgMCAzLjcgLjggNSAyLjJMNDc2LjIgMjU2IDM2My43IDM4MS44Yy0xLjMgMS40LTMuMSAyLjItNSAyLjJjLTMuNyAwLTYuNy0zLTYuNy02LjdsMC00OS4zYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDQ4IDI5NmMtOC44IDAtMTYtNy4yLTE2LTE2bDAtNDhjMC04LjggNy4yLTE2IDE2LTE2bDI3MiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMyem0xNTQuNyA4NmMzLjQtMy44IDUuMy04LjggNS4zLTE0cy0xLjktMTAuMS01LjMtMTRMMzg3LjUgMTA4LjljLTcuMy04LjItMTcuOC0xMi45LTI4LjgtMTIuOWMtMjEuNCAwLTM4LjcgMTcuMy0zOC43IDM4LjdsMCAxNy4zIDAgMzItMzIgMEw0OCAxODRjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgNDhjMCAyNi41IDIxLjUgNDggNDggNDhsMjQwIDAgMzIgMCAwIDMyIDAgMTcuM2MwIDIxLjQgMTcuMyAzOC43IDM4LjcgMzguN2MxMSAwIDIxLjUtNC43IDI4LjgtMTIuOUw1MDYuNyAyNzB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![right-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/right-long.svg)
  */
 const RightLong: typeof Icon = x => (
     <Icon {...x}>

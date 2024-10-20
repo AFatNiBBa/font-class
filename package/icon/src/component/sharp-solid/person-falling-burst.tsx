@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-falling-burst` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-falling-burst?s=sharp-solid person-falling-burst}
- * @preview ![person-falling-burst](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMybDAtMzJMMTkyIDBsMCAzMiAwIDc2LjJMNDkuNyAxNzkuNCAzMiAxODguMiAzMiAyMDhsMCAxNDQgMCAzMiA2NCAwIDAtMzIgMC0xMDkuOEwyNTMuMSA0ODQuOWwxNy40IDI2LjlMMzI0LjIgNDc3bC0xNy40LTI2LjlMMjIyLjYgMzIwbDEuNCAwIDk2IDAgMzguNCA1MS4yIDE5LjIgMjUuNiA1MS4yLTM4LjQtMTkuMi0yNS42LTQ4LTY0TDM1MiAyNTZsLTE2IDAtOTUuNSAwTDE4OCAxODEuOGw1MC4zLTI1LjIgMTcuNy04LjggMC0xOS44IDAtOTZ6TTk2IDgwQTQ4IDQ4IDAgMSAwIDAgODBhNDggNDggMCAxIDAgOTYgMHpNNDY0IDI3My4ybDc2LjQgNjEuNC0uNC05OCA5NS42LTIxLjQtNzYuOS02MC44IDQyLjktODguMUw1MDYuMiA4OC41IDQ2NCAwIDQyMS44IDg4LjUgMzI2LjQgNjYuM2w0Mi45IDg4LjEtNzYuOSA2MC44IDM5LjUgOC44IDQuMSAwIDMyIDAgNy4zIDkuNyAxMi44IDIuOS0uMSAxNC4xIDM5LjEgNTIuMkw0NjQgMjczLjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-falling-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-falling-burst.svg)
  */
 const PersonFallingBurst: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

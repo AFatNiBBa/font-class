@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `telescope` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/telescope?s=sharp-regular telescope}
- * @preview ![telescope](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU4LjUgMjMyLjRsLTgwLTEzOC42IDQ4LjktMjguMiA4MCAxMzguNi00OC45IDI4LjJ6TTU3MyAyMjEuN2wtMjQtNDEuNkw0NjkgNDEuNiA0NDUgMCA0MDMuNCAyNCAzNTQuNSA1Mi4ybC00MS42IDI0IDE0IDI0LjJMMzYuNyAyODQuOWwxOS4yIDMzLjNMMCAzNTAuNWw0OS45IDg2LjQgNTUuOS0zMi4zIDE2LjMgMjguMiAxMTYtNjIuN0wxODAuMyA1MTJsNTEuOCAwIDUzLjEtMTMwLjJjNiAxLjUgMTIuMyAyLjIgMTguOCAyLjJzMTIuOC0uOCAxOC44LTIuMkwzNzUuOSA1MTJsNTEuOCAwTDM2NC4zIDM1Ni41QzM3Ni42IDM0Mi41IDM4NCAzMjQuMSAzODQgMzA0YzAtNC4yLS4zLTguMi0uOS0xMi4ybDQxLjQtMjIuNCAxNi41IDI4LjUgNDEuNi0yNCA0OC45LTI4LjIgNDEuNi0yNHpNMTQwLjQgMzY4LjRsLTM5LjEtNjcuN0wzNTAuOSAxNDIuMWw0OS41IDg1LjctMzguNiAyMC45QzM0Ny4yIDIzMy41IDMyNi43IDIyNCAzMDQgMjI0Yy00NC4yIDAtODAgMzUuOC04MCA4MGMwIDYuMiAuNyAxMi4zIDIuMSAxOC4xbC04NS43IDQ2LjN6TTMwNCAyNzJhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![telescope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/telescope.svg)
  */
 const Telescope: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

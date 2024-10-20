@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `key-skeleton-left-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/key-skeleton-left-right?s=thin key-skeleton-left-right}
- * @preview ![key-skeleton-left-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjI0IDExMmE5NiA5NiAwIDEgMCAtMTkyIDAgOTYgOTYgMCAxIDAgMTkyIDB6bTE2IDBjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJzLTExMi01MC4xLTExMi0xMTJsLTE0NCAwIDAgNzJjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC03Mi04MCAwIDAgNzJjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC04MGMwLTQuNCAzLjYtOCA4LThsMjQ5LjEgMEM0MjQuOSA0MS43IDQ3MS42IDAgNTI4IDBjNjEuOSAwIDExMiA1MC4xIDExMiAxMTJ6TTE2IDQwMGE5NiA5NiAwIDEgMCAxOTIgMEE5NiA5NiAwIDEgMCAxNiA0MDB6TTAgNDAwYzAtNjEuOSA1MC4xLTExMiAxMTItMTEyczExMiA1MC4xIDExMiAxMTJsMTQ0IDAgMC03MmMwLTQuNCAzLjYtOCA4LThzOCAzLjYgOCA4bDAgNzIgODAgMCAwLTcyYzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhsMCA4MGMwIDQuNC0zLjYgOC04IDhsLTI0OS4xIDBjLTcuOCA1NC4zLTU0LjQgOTYtMTEwLjkgOTZDNTAuMSA1MTIgMCA0NjEuOSAwIDQwMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![key-skeleton-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/key-skeleton-left-right.svg)
  */
 const KeySkeletonLeftRight: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

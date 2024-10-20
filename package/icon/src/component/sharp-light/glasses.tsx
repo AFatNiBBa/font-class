@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glasses` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glasses?s=sharp-light glasses}
- * @preview ![glasses](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjguMiAzMi42bDE0IDIuNSA3Mi43IDEzLjIgMTUuNyAyLjktNS43IDMxLjUtMTUuNy0yLjlMOTAuNCA2OS4xIDMyLjcgMjU2IDIyNCAyNTZsMzIgMCAwIDMyIDY0IDAgMC0zMiAzMiAwIDE5MS4zIDBMNDg1LjYgNjkuMSA0MjYuOSA3OS43bC0xNS43IDIuOS01LjctMzEuNSAxNS43LTIuOSA3Mi43LTEzLjIgMTQtMi41TDUxMiA0Ni4xbDYzLjMgMjA1LjIgLjcgMi4zIDAgMi40czAgMCAwIDBsMCAzMiAwIDQ4IDAgMTYgMCA5NiAwIDMyLTMyIDAtMTkyIDAtMzIgMCAwLTMyIDAtMTI4LTY0IDAgMCAxMjggMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyIDAtOTYgMC0xNiAwLTQ4IDAtMzJzMCAwIDAgMGwwLTIuNCAuNy0yLjNMNjQgNDYuMWw0LjItMTMuNnpNNTQ0IDM1MmwwLTE2IDAtNDgtMTkyIDAgMCAxNjAgMTkyIDAgMC05NnpNMzIgMzM2bDAgMTYgMCA5NiAxOTIgMCAwLTE2MEwzMiAyODhsMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![glasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/glasses.svg)
  */
 const Glasses: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

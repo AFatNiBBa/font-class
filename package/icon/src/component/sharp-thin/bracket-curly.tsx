@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bracket-curly` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bracket-curly?s=sharp-thin bracket-curly}
- * @preview ![bracket-curly](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzIgMzJsLTggMCAwIDggMCAxNDguN0wyLjMgMjUwLjMgMCAyNTIuN2wwIDYuNiAyLjMgMi4zTDY0IDMyMy4zIDY0IDQ3MmwwIDggOCAwIDEyOCAwIDggMCAwLTE2LTggMEw4MCA0NjRsMC0xNDQgMC0zLjMtMi4zLTIuM0wxOS4zIDI1Nmw1OC4zLTU4LjMgMi4zLTIuMyAwLTMuM0w4MCA0OGwxMjAgMCA4IDAgMC0xNi04IDBMNzIgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bracket-curly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bracket-curly.svg)
  */
 const BracketCurly: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

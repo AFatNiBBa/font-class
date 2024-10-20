@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sort-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sort-up?s=thin sort-up}
- * @preview ![sort-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0LjYgNTQuNmM0LTQuMiA5LjYtNi42IDE1LjQtNi42czExLjQgMi40IDE1LjQgNi42TDMwMC41IDE4Ni43YzIuMiAyLjMgMy41IDUuNCAzLjUgOC43YzAgNy01LjYgMTIuNi0xMi42IDEyLjZMMjguNiAyMDhjLTcgMC0xMi42LTUuNi0xMi42LTEyLjZjMC0zLjIgMS4yLTYuMyAzLjUtOC43TDE0NC42IDU0LjZ6TTEzMyA0My42TDcuOCAxNzUuN0MyLjggMTgxIDAgMTg4LjEgMCAxOTUuNEMwIDIxMS4yIDEyLjggMjI0IDI4LjYgMjI0bDI2Mi44IDBjMTUuOCAwIDI4LjYtMTIuOCAyOC42LTI4LjZjMC03LjMtMi44LTE0LjQtNy44LTE5LjdMMTg3IDQzLjZDMTgwIDM2LjIgMTcwLjIgMzIgMTYwIDMycy0yMCA0LjItMjcgMTEuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sort-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sort-up.svg)
  */
 const SortUp: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

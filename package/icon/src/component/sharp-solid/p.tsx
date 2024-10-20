@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `p` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/p?s=sharp-solid p}
- * @preview ![p](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjg4bDk2IDBjNTMgMCA5Ni00MyA5Ni05NnMtNDMtOTYtOTYtOTZMNjQgOTZsMCAxOTJ6TTAgMzUybDAtMzIgMC0zMkwwIDk2IDAgNjQgMCAzMmwzMiAwIDMyIDAgOTYgMGM4OC40IDAgMTYwIDcxLjYgMTYwIDE2MHMtNzEuNiAxNjAtMTYwIDE2MGwtOTYgMCAwIDk2IDAgMzJMMCA0ODBsMC0zMiAwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![p](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/p.svg)
  */
 const P: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

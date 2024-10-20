@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-arrow-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-arrow-up?s=regular trash-arrow-up}
- * @preview ![trash-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTcwLjUgNTEuNkwxNTEuNSA4MGwxNDUgMC0xOS0yOC40Yy0xLjUtMi4yLTQtMy42LTYuNy0zLjZsLTkzLjcgMGMtMi43IDAtNS4yIDEuMy02LjcgMy42em0xNDctMjYuNkwzNTQuMiA4MGwxMy43IDBMNDE2IDgwbDggMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtMTEuNiAwTDM4OC40IDQ1Mi43Yy0yLjUgMzMuNC0zMC4zIDU5LjMtNjMuOCA1OS4zbC0yMDEuMSAwYy0zMy41IDAtNjEuMy0yNS45LTYzLjgtNTkuM0wzNS42IDEyOCAyNCAxMjhjLTEzLjMgMC0yNC0xMC43LTI0LTI0UzEwLjcgODAgMjQgODBsOCAwIDQ4LjEgMCAxMy43IDAgMzYuNy01NS4xQzE0MC45IDkuNCAxNTguNCAwIDE3Ny4xIDBsOTMuNyAwYzE4LjcgMCAzNi4yIDkuNCA0Ni42IDI0Ljl6TTgzLjcgMTI4bDIzLjggMzIxLjJjLjYgOC40IDcuNiAxNC44IDE2IDE0LjhsMjAxLjEgMGM4LjQgMCAxNS4zLTYuNSAxNi0xNC44TDM2NC4zIDEyOCA4My43IDEyOHptMTU0LjUgNjUuOWw2NCA2NGM3LjggNy44IDcuOCAyMC41IDAgMjguM3MtMjAuNSA3LjgtMjguMyAwTDI0NCAyNTYuMyAyNDQgMzg0YzAgMTEtOSAyMC0yMCAyMHMtMjAtOS0yMC0yMGwwLTEyNy43LTI5LjkgMjkuOWMtNy44IDcuOC0yMC41IDcuOC0yOC4zIDBzLTcuOC0yMC41IDAtMjguM2w2NC02NGM3LjgtNy44IDIwLjUtNy44IDI4LjMgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trash-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/trash-arrow-up.svg)
  */
 const TrashArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

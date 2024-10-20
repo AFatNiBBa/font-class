@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-xmark?s=sharp-thin cart-xmark}
- * @preview ![cart-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAwTDAgMCAwIDE2bDggMCA0OS44IDAgOTQuNCAzNjIgMS42IDYgNi4yIDAgMzM2IDAgOCAwIDAtMTYtOCAwLTMyOS44IDAtMjAuOS04MEw0ODggMjg4bDUuOSAwIDEuOC01LjZMNTc0LjMgMzJsLTE2LjggMEw0ODIuMSAyNzJsLTM0MSAwTDcxLjcgNiA3MC4yIDAgNjQgMCA4IDB6TTE3NiA0MzJhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em0wIDgwYTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptMjU2LTQ4YTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6bTgwIDBhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMjYzLjQgNzYuMUwyNTIuMSA4Ny40bDUuNyA1LjdMMzA4LjcgMTQ0bC01MC45IDUwLjktNS43IDUuNyAxMS4zIDExLjMgNS43LTUuN0wzMjAgMTU1LjNsNTAuOSA1MC45IDUuNyA1LjcgMTEuMy0xMS4zLTUuNy01LjdMMzMxLjMgMTQ0bDUwLjktNTAuOSA1LjctNS43TDM3Ni42IDc2LjFsLTUuNyA1LjdMMzIwIDEzMi43IDI2OS4xIDgxLjhsLTUuNy01Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cart-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cart-xmark.svg)
  */
 const CartXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gingerbread-man` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gingerbread-man?s=solid gingerbread-man}
- * @preview ![gingerbread-man](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk2LjkgMTU4LjVjLTUuMiA2LTEuMiAxNy41IDYuNyAxNy41bDY0LjQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NHMtMjguNyA2NC02NCA2NGwtMjAuOSAwYy0xOSAwLTI5LjQgMjIuMi0xNy4yIDM2LjdMMzg1LjIgNDA3YzIyLjYgMjcuMiAxOSA2Ny41LTguMiA5MC4xcy02Ny41IDE5LTkwLjEtOC4ybC00NS42LTU0LjhjLTktMTAuNy0yNS41LTEwLjctMzQuNCAwTDE2MS4yIDQ4OWMtMjIuNiAyNy4yLTYzIDMwLjgtOTAuMSA4LjJzLTMwLjgtNjMtOC4yLTkwLjFsNTUuMi02Ni4zYzEyLjItMTQuNiAxLjgtMzYuNy0xNy4yLTM2LjdMODAgMzA0Yy0zNS4zIDAtNjQtMjguNy02NC02NHMyOC43LTY0IDY0LTY0bDY0LjQgMGM3LjkgMCAxMS45LTExLjUgNi43LTE3LjVDMTM2LjcgMTQxLjcgMTI4IDExOS45IDEyOCA5NmMwLTUzIDQzLTk2IDk2LTk2czk2IDQzIDk2IDk2YzAgMjMuOS04LjcgNDUuNy0yMy4xIDYyLjV6TTE5MiA5NmExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTgwLTE2YTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6TTIyNCAyNDBhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyem0xNiAxMTJhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptLTE2LTQ4YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gingerbread-man](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/gingerbread-man.svg)
  */
 const GingerbreadMan: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

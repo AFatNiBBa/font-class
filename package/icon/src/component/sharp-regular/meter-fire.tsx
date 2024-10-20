@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meter-fire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-fire?s=sharp-regular meter-fire}
- * @preview ![meter-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YzcwLjIgMCAxMzIuMiAzNC44IDE2OS45IDg4YzEuOC0xLjIgMy41LTIuMyA1LjEtMy4zbDIxLjYtMTMuNUw0OTMuNCAxNjBDNDU1LjQgNjYuMiAzNjMuNCAwIDI1NiAwQzExNC42IDAgMCAxMTQuNiAwIDI1NlMxMTQuNiA1MTIgMjU2IDUxMmMzMy41IDAgNjUuNS02LjQgOTQuOC0xOC4xYy0xMi43LTExLjUtMjMuOC0yNC43LTMzLTM5LjJjLTE5LjUgNi4xLTQwLjMgOS4zLTYxLjggOS4zQzE0MS4xIDQ2NCA0OCAzNzAuOSA0OCAyNTZTMTQxLjEgNDggMjU2IDQ4ek0zNjggMTUybDAtMjQtNDggMCAwIDI0IDAgNDggMCAyNCAxNC4xIDBjMi45LTQgNS45LTcuOSA4LjktMTEuN2M4LTEwLjEgMTYuNS0xOS41IDI1LTI4LjJsMC0zMi4xem0tMTc2IDBsMC0yNC00OCAwIDAgMjQgMCA0OCAwIDI0IDQ4IDAgMC0yNCAwLTQ4em04OCAwbDAtMjQtNDggMCAwIDI0IDAgNDggMCAyNCA0OCAwIDAtMjQgMC00OHptMTY4IDhjLTQyLjcgMjYuNy0xMjggMTAyLjQtMTI4IDE5MmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MHMxNjAtNzEuNiAxNjAtMTYwYzAtMjYuNy0xOS4yLTk2LTk2LTE2MGwtMzIgMzItNjQtNjR6bTk2IDI0MC4yYzAgMzUuMy0yOC43IDY0LTY0IDY0cy02NC0yOC43LTY0LTY0YzAtNDggNjQtOTYgNjQtOTZzNjQgNDggNjQgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![meter-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/meter-fire.svg)
  */
 const MeterFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

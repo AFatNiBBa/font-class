@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-school` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-school?s=sharp-thin bell-school}
- * @preview ![bell-school](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDQwMGExOTIgMTkyIDAgMSAwIDAtMzg0IDE5MiAxOTIgMCAxIDAgMCAzODR6bTAgMTZjLTQ4LjMgMC05Mi43LTE2LjQtMTI4LTQ0bDAgMTI0IDE5MiAwIDY0IDAgMC0xMjRjLTM1LjMgMjcuNi03OS43IDQ0LTEyOCA0NHptNjQgOTZMNzIgNTEybC04IDAgMC04IDAtMTQ1LjlDMjQuNiAzMjAuMiAwIDI2NyAwIDIwOEMwIDkzLjEgOTMuMSAwIDIwOCAwUzQxNiA5My4xIDQxNiAyMDhjMCA1OS0yNC42IDExMi4yLTY0IDE1MC4xTDM1MiA0OTZsMTA0IDAgMC00OC43Yy0yMi43LTMuOC00MC0yMy42LTQwLTQ3LjNjMC0yNi41IDIxLjUtNDggNDgtNDhzNDggMjEuNSA0OCA0OGMwIDIzLjgtMTcuMyA0My41LTQwIDQ3LjNsMCA1Ni43IDAgOC04IDAtMTEyIDAtOCAwLTcyIDB6TTIwOCAyNzJhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6bTAtMTQ0YTgwIDgwIDAgMSAxIDAgMTYwIDgwIDgwIDAgMSAxIDAtMTYwek00OTYgNDAwYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bell-school](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bell-school.svg)
  */
 const BellSchool: typeof Icon = x => (
     <Icon {...x}>

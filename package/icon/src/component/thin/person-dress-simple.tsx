@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-dress-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dress-simple?s=thin person-dress-simple}
- * @preview ![person-dress-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDY0QTQ4IDQ4IDAgMSAwIDgwIDY0YTQ4IDQ4IDAgMSAwIDk2IDB6TTY0IDY0YTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDY0IDY0em0yLjEgMTQ2LjhMMjcgMzQ3LjZDMjQuMSAzNTcuOCAzMS44IDM2OCA0Mi40IDM2OEw2NCAzNjhsNDggMCAzMiAwIDQ4IDAgMjEuNiAwYzEwLjYgMCAxOC4zLTEwLjIgMTUuNC0yMC40TDE4OS45IDIxMC44QzE4NCAxOTAuMiAxNjUuMiAxNzYgMTQzLjcgMTc2bC0zMS40IDBjLTIxLjQgMC00MC4zIDE0LjItNDYuMiAzNC44ek0xMzYgMzg0bC0xNiAwIDAgOTZjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC05Ni0xMy42IDBjLTIxLjMgMC0zNi42LTIwLjMtMzAuOC00MC44TDUwLjcgMjA2LjRjNy44LTI3LjUgMzMtNDYuNCA2MS41LTQ2LjRsMzEuNCAwYzI4LjYgMCA1My43IDE4LjkgNjEuNSA0Ni40bDM5LjEgMTM2LjhjNS44IDIwLjQtOS41IDQwLjgtMzAuOCA0MC44TDIwMCAzODRsMCA5NmMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTk2em00OCAwbC0zMiAwIDAgOTZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTk2ek03MiAzODRsMCA5NmMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtOTYtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-dress-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-dress-simple.svg)
  */
 const PersonDressSimple: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

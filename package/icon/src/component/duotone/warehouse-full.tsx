@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `warehouse-full` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/warehouse-full?s=duotone warehouse-full}
- * @preview ![warehouse-full](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMjggMjQ4YzAtMTMuMyAxMC43LTI0IDI0LTI0bDE0NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgODBjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTE0NCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTgwem0wIDE2MGMwLTEzLjMgMTAuNy0yNCAyNC0yNGwxNDQgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDgwYzAgMTMuMy0xMC43IDI0LTI0IDI0bC0xNDQgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC04MHptMjI0IDBjMC0xMy4zIDEwLjctMjQgMjQtMjRsMTEyIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA4MGMwIDEzLjMtMTAuNyAyNC0yNCAyNGwtMTEyIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtODB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDE3MS4zVjQ4OGMwIDEzLjMgMTAuNyAyNCAyNCAyNEg3MmMxMy4zIDAgMjQtMTAuNyAyNC0yNFYyMjRjMC0xNy43IDE0LjMtMzIgMzItMzJINTEyYzE3LjcgMCAzMiAxNC4zIDMyIDMyVjQ4OGMwIDEzLjMgMTAuNyAyNCAyNCAyNGg0OGMxMy4zIDAgMjQtMTAuNyAyNC0yNFYxNzEuM2MwLTI2LjItMTUuOS00OS43LTQwLjItNTkuNEwzMzEuOSA0LjhjLTcuNi0zLjEtMTYuMS0zLjEtMjMuOCAwTDQwLjIgMTExLjlDMTUuOSAxMjEuNiAwIDE0NS4yIDAgMTcxLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![warehouse-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/warehouse-full.svg)
  */
 const WarehouseFull: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M128 248c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-80zm0 160c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-80zm224 0c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24l0-80z" />
-            <path d="M0 171.3V488c0 13.3 10.7 24 24 24H72c13.3 0 24-10.7 24-24V224c0-17.7 14.3-32 32-32H512c17.7 0 32 14.3 32 32V488c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V171.3c0-26.2-15.9-49.7-40.2-59.4L331.9 4.8c-7.6-3.1-16.1-3.1-23.8 0L40.2 111.9C15.9 121.6 0 145.2 0 171.3z" />
+        <path d="M0 171.3V488c0 13.3 10.7 24 24 24H72c13.3 0 24-10.7 24-24V224c0-17.7 14.3-32 32-32H512c17.7 0 32 14.3 32 32V488c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V171.3c0-26.2-15.9-49.7-40.2-59.4L331.9 4.8c-7.6-3.1-16.1-3.1-23.8 0L40.2 111.9C15.9 121.6 0 145.2 0 171.3z" />
     </Icon>
 );
 

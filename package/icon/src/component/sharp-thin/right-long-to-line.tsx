@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right-long-to-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-long-to-line?s=sharp-thin right-long-to-line}
- * @preview ![right-long-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDcybDAtOC0xNiAwIDAgOCAwIDM2OCAwIDggMTYgMCAwLTggMC0zNjh6TTMyMCAyMTZsMTYgMCAwLTE2IDAtODggOS40IDAgMTQ0IDE0NC0xNDQgMTQ0LTkuNCAwIDAtODggMC0xNi0xNiAwTDE2IDI5NmwwLTgwIDMwNCAwem0xODAuNyAyOC43TDM1MiA5NmwtMTYgMC0xNiAwIDAgMTYgMCA3MiAwIDE2LTE2IDBMMTYgMjAwIDAgMjAwbDAgMTYgMCA4MCAwIDE2IDE2IDAgMjg4IDAgMTYgMCAwIDE2IDAgNzIgMCAxNiAxNiAwIDE2IDBMNTAwLjcgMjY3LjMgNTEyIDI1NmwtMTEuMy0xMS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![right-long-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/right-long-to-line.svg)
  */
 const RightLongToLine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

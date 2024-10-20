@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `bed-pulse` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-pulse?s=sharp-duotone-solid bed-pulse}
- * @preview ![bed-pulse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAyNDBhODAgODAgMCAxIDAgMTYwIDBBODAgODAgMCAxIDAgOTYgMjQwem0xOTItODBsMCAzMiAwIDEyOCAwIDMyIDMyIDAgMjg4IDAgMzIgMCAwLTMyIDAtNjRjMC01My00My05Ni05Ni05NmwtNzQuMSAwLTExLjIgMjMuOEw0NDMuNSAyMTYgNDA4IDIxNmwtMTYgMC0zNi40IDAtMTQuOC0zMy4zTDMzMC43IDE2MCAzMjAgMTYwbC0zMiAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNDcyIDBMNDU2LjggMGwtNi41IDEzLjgtNDkuOSAxMDZMMzgxLjkgNzguMyAzNzUuNiA2NCAzNjAgNjQgMjE2IDY0bC0yNCAwIDAgNDggMjQgMCAxMjguNCAwIDI1LjcgNTcuNyA2LjMgMTQuMyAxNS42IDAgMTYgMCAxNS4yIDAgNi41LTEzLjhMNDgwLjQgNjIuNWwxOC4xIDM2LjIgNi42IDEzLjMgMTQuOCAwIDk2IDAgMjQgMCAwLTQ4LTI0IDAtODEuMiAwTDUwOS41IDEzLjMgNTAyLjggMCA0ODggMCA0NzIgMHpNNjQgOTZsMC0zMkwwIDY0IDAgOTYgMCAzNTJsMCA2NCAwIDY0IDAgMzIgNjQgMCAwLTMyIDAtMzIgNTEyIDAgMCAzMiAwIDMyIDY0IDAgMC0zMiAwLTk2IDAtMzItMzIgMEw2NCAzNTIgNjQgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bed-pulse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bed-pulse.svg)
  */
 const BedPulse: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M96 240a80 80 0 1 0 160 0A80 80 0 1 0 96 240zm192-80l0 32 0 128 0 32 32 0 288 0 32 0 0-32 0-64c0-53-43-96-96-96l-74.1 0-11.2 23.8L443.5 216 408 216l-16 0-36.4 0-14.8-33.3L330.7 160 320 160l-32 0z" />
-            <path d="M472 0L456.8 0l-6.5 13.8-49.9 106L381.9 78.3 375.6 64 360 64 216 64l-24 0 0 48 24 0 128.4 0 25.7 57.7 6.3 14.3 15.6 0 16 0 15.2 0 6.5-13.8L480.4 62.5l18.1 36.2 6.6 13.3 14.8 0 96 0 24 0 0-48-24 0-81.2 0L509.5 13.3 502.8 0 488 0 472 0zM64 96l0-32L0 64 0 96 0 352l0 64 0 64 0 32 64 0 0-32 0-32 512 0 0 32 0 32 64 0 0-32 0-96 0-32-32 0L64 352 64 96z" />
+        <path d="M472 0L456.8 0l-6.5 13.8-49.9 106L381.9 78.3 375.6 64 360 64 216 64l-24 0 0 48 24 0 128.4 0 25.7 57.7 6.3 14.3 15.6 0 16 0 15.2 0 6.5-13.8L480.4 62.5l18.1 36.2 6.6 13.3 14.8 0 96 0 24 0 0-48-24 0-81.2 0L509.5 13.3 502.8 0 488 0 472 0zM64 96l0-32L0 64 0 96 0 352l0 64 0 64 0 32 64 0 0-32 0-32 512 0 0 32 0 32 64 0 0-32 0-96 0-32-32 0L64 352 64 96z" />
     </Icon>
 );
 

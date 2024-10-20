@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `euro-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/euro-sign?s=duotone euro-sign}
- * @preview ![euro-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIwOGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwyOC4zIDBjLTcuMSAyMC4xLTExLjMgNDEuNi0xMi4xIDY0TDMyIDI0MGMtMTcuNyAwLTMyLTE0LjMtMzItMzJ6bTAgOTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMTYuMSAwYy44IDIyLjQgNSA0My45IDEyLjEgNjRMMzIgMzM2Yy0xNy43IDAtMzItMTQuMy0zMi0zMnptMTEyLjItNjRjMS4yLTIzLjEgNy41LTQ0LjggMTcuOS02NEwyNTYgMTc2YzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0xNDMuOCAwem0wIDMyTDI1NiAyNzJjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTEyNS45IDBjLTEwLjQtMTkuMi0xNi43LTQwLjktMTcuOS02NHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQ4IDI0OEM0OCAxMjguNyAxNDQuNyAzMiAyNjQgMzJsMjQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtMjQgMGMtODMuOSAwLTE1MiA2OC4xLTE1MiAxNTJsMCAxNmMwIDgzLjkgNjguMSAxNTIgMTUyIDE1MmwyNCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0yNCAwQzE0NC43IDQ4MCA0OCAzODMuMyA0OCAyNjRsMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![euro-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/euro-sign.svg)
  */
 const EuroSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>
         <path class={generic.secondary} d="M0 208c0-17.7 14.3-32 32-32l28.3 0c-7.1 20.1-11.3 41.6-12.1 64L32 240c-17.7 0-32-14.3-32-32zm0 96c0-17.7 14.3-32 32-32l16.1 0c.8 22.4 5 43.9 12.1 64L32 336c-17.7 0-32-14.3-32-32zm112.2-64c1.2-23.1 7.5-44.8 17.9-64L256 176c17.7 0 32 14.3 32 32s-14.3 32-32 32l-143.8 0zm0 32L256 272c17.7 0 32 14.3 32 32s-14.3 32-32 32l-125.9 0c-10.4-19.2-16.7-40.9-17.9-64z" />
-            <path d="M48 248C48 128.7 144.7 32 264 32l24 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-24 0c-83.9 0-152 68.1-152 152l0 16c0 83.9 68.1 152 152 152l24 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-24 0C144.7 480 48 383.3 48 264l0-16z" />
+        <path d="M48 248C48 128.7 144.7 32 264 32l24 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-24 0c-83.9 0-152 68.1-152 152l0 16c0 83.9 68.1 152 152 152l24 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-24 0C144.7 480 48 383.3 48 264l0-16z" />
     </Icon>
 );
 

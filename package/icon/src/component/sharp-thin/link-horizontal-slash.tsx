@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `link-horizontal-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-horizontal-slash?s=sharp-thin link-horizontal-slash}
- * @preview ![link-horizontal-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1ek00MDYuNSA0MTZMMzIwIDQxNmMtNjEuOSAwLTExMi01MC4xLTExMi0xMTJjMC0xMy44IDIuNS0yNyA3LTM5LjFsLTEzLjEtMTAuNGMtNi40IDE1LjItOS45IDMxLjktOS45IDQ5LjVjMCA3MC43IDU3LjMgMTI4IDEyOCAxMjhsMTA2LjcgMC0yMC4zLTE2ek00MzIgMjA4YzAgMTMuOC0yLjUgMjctNyAzOS4xbDEzLjEgMTAuNGM2LjQtMTUuMiA5LjktMzEuOSA5LjktNDkuNWMwLTcwLjctNTcuMy0xMjgtMTI4LTEyOEwyMTMuMyA4MGwyMC4zIDE2TDMyMCA5NmM2MS45IDAgMTEyIDUwLjEgMTEyIDExMnpNNDYuMiAxMzEuNWwtMTIuNi05LjlDMTIuNyAxNDQuNCAwIDE3NC43IDAgMjA4YzAgNzAuNyA1Ny4zIDEyOCAxMjggMTI4bDI0IDAgMC0xNi0yNCAwQzY2LjEgMzIwIDE2IDI2OS45IDE2IDIwOGMwLTI5LjYgMTEuNS01Ni40IDMwLjItNzYuNXpNNjQwIDMwNGMwLTcwLjctNTcuMy0xMjgtMTI4LTEyOGwtMjQgMCAwIDE2IDI0IDBjNjEuOSAwIDExMiA1MC4xIDExMiAxMTJjMCAyOS42LTExLjQgNTYuNC0zMC4yIDc2LjVsMTIuNiA5LjlDNjI3LjMgMzY3LjYgNjQwIDMzNy4zIDY0MCAzMDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![link-horizontal-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/link-horizontal-slash.svg)
  */
 const LinkHorizontalSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

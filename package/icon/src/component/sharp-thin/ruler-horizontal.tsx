@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ruler-horizontal` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler-horizontal?s=sharp-thin ruler-horizontal}
- * @preview ![ruler-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzY4bDYwOCAwIDAtMjI0LTEwNCAwIDAgODAgMCA4LTE2IDAgMC04IDAtODAtODAgMCAwIDQ4IDAgMzIgMCA4LTE2IDAgMC04IDAtMzIgMC00OC04MCAwIDAgODAgMCA4LTE2IDAgMC04IDAtODAtODAgMCAwIDgwIDAgOC0xNiAwIDAtOCAwLTgwLTgwIDAgMCA4MCAwIDgtMTYgMCAwLTggMC04MEwxNiAxNDRsMCAyMjR6TTUyMCAxMjhsMTA0IDAgMTYgMCAwIDE2IDAgMjI0IDAgMTYtMTYgMEwxNiAzODQgMCAzODRsMC0xNkwwIDE0NGwwLTE2IDE2IDAgMjAwIDAgMTYgMCA4MCAwIDE2IDAgODAgMCAxNiAwIDgwIDAgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ruler-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/ruler-horizontal.svg)
  */
 const RulerHorizontal: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

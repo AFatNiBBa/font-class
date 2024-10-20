@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pump-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pump-medical?s=sharp-light pump-medical}
- * @preview ![pump-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBsOTYgMCAxNiAwIDAgMTYgMCAzMiA5NiAwIDYuNiAwIDQuNyA0LjcgNDggNDhMNDIyLjYgMTEyIDQwMCAxMzQuNmwtMTEuMy0xMS4zTDM0NS40IDgwIDI1NiA4MGwwIDQ4LTMyIDAgMC05Ni02NCAwIDAgOTYtMzIgMCAwLTExMiAwLTE2IDE2IDB6TTY0LjEgNTEyTDMyIDUxMmwyLjItMzJMNTYgMTYwbDI3MiAwIDIxLjggMzIwIDIuMiAzMi0zMi4xIDBMNjQuMSA1MTJ6bTI1My43LTMyTDI5OC4xIDE5MiA4NS45IDE5MiA2Ni4zIDQ4MGwyNTEuNSAwek0yMDggMjg4bDAgMzIgMzIgMCAxNiAwIDAgMzItMTYgMC0zMiAwIDAgMzIgMCAxNi0zMiAwIDAtMTYgMC0zMi0zMiAwLTE2IDAgMC0zMiAxNiAwIDMyIDAgMC0zMiAwLTE2IDMyIDAgMCAxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pump-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pump-medical.svg)
  */
 const PumpMedical: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `democrat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/democrat?s=sharp-solid democrat}
- * @preview ![democrat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDNjQgMTIuMSA4MCAwIDgwIDBsNDggNDUuN0wxNzYgMHMxNiAxMi4xIDE2IDMyYzAgMjYuNS0yMS45IDQyLTI5LjUgNDYuNkwyNDggMTYwbDIzMiAwIDY0IDAgMTQuMyAwIDkuNSAxMC42IDcyIDgwLTQ3LjYgNDIuOC00OS40LTU0LjlMNTQ0IDI0MGwwIDgwLTM1MiAwTDE0NCAyMDggNzIgMjU2IDAgMTg0IDg3LjYgNzQuNkM3OC4xIDY3LjQgNjQgNTMuMiA2NCAzMnpNNDQ4IDM1Mmw5NiAwIDAgNjQgMCA5Ni05NiAwIDAtOTYtMTYwIDAgMCA5Ni05NiAwIDAtOTYgMC02NCA5NiAwIDE2MCAwek0yNjkuMyAyMzQuN0wyNTYuMSAyMDggMjQzIDIzNC43bC0zMC4yIDMuOSAyMi4xIDIwLjRMMjI5LjQgMjg4bDI2LjgtMTQuMUwyODIuOSAyODhsLTUuNS0yOS4xIDIyLjEtMjAuNC0zMC4yLTMuOXpNMzY4LjEgMjA4TDM1NSAyMzQuN2wtMzAuMiAzLjkgMjIuMSAyMC40TDM0MS40IDI4OGwyNi44LTE0LjFMMzk0LjkgMjg4bC01LjUtMjkuMSAyMi4xLTIwLjQtMzAuMi0zLjlMMzY4LjEgMjA4em0xMjUuMSAyNi43TDQ4MC4xIDIwOCA0NjcgMjM0LjdsLTMwLjIgMy45IDIyLjEgMjAuNEw0NTMuNCAyODhsMjYuOC0xNC4xTDUwNi45IDI4OGwtNS41LTI5LjEgMjIuMS0yMC40LTMwLjItMy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![democrat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/democrat.svg)
  */
 const Democrat: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `siren` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/siren?s=light siren}
- * @preview ![siren](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYzLjggMzIwbDMyLjIgMEwzNzUgMTUyLjFDMzcxIDEyMCAzNDMuOCA5NiAzMTEuNSA5NmwtMTc1IDBDMTA0LjIgOTYgNzcgMTIwIDczIDE1Mi4xTDUyIDMyMGwzMi4yIDAgMjAuNS0xNjRjMi0xNiAxNS42LTI4IDMxLjgtMjhsMTc1IDBjMTYuMSAwIDI5LjggMTIgMzEuOCAyOGwyMC41IDE2NHptLTE4NS42IDBsMTMuOC0xMTBjMS4xLTguOC01LjEtMTYuOC0xMy45LTE3LjlzLTE2LjggNS4xLTE3LjkgMTMuOUwxNDUuOSAzMjBsMzIuMiAwek00OCAzODRsMzUyIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMzJjMCA4LjgtNy4yIDE2LTE2IDE2TDQ4IDQ0OGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMzJjMC04LjggNy4yLTE2IDE2LTE2ek0wIDQwMGwwIDMyYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDM1MiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzJjMC0yNi41LTIxLjUtNDgtNDgtNDhMNDggMzUyYy0yNi41IDAtNDggMjEuNS00OCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![siren](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/siren.svg)
  */
 const Siren: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

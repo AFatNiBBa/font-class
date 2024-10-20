@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-heart` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-heart?s=thin square-heart}
- * @preview ![square-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDhDMzcuNSA0OCAxNiA2OS41IDE2IDk2bDAgMzIwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyMCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzIwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDQ4ek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDMyMCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnptMjI0IDc4LjlsMTcuNy0xOGMyOS40LTI5LjggNzctMjkuOCAxMDYuNCAwczI5LjQgNzguMiAwIDEwOEwyNDYuNSAzNjguMWMtNi4yIDYuMy0xNC4zIDkuNC0yMi41IDkuNHMtMTYuMy0zLjEtMjIuNS05LjRMOTkuOSAyNjQuOWMtMjkuNC0yOS44LTI5LjQtNzguMiAwLTEwOHM3Ny0yOS44IDEwNi40IDBsMTcuNyAxOHptNS43IDE3Yy0zLjEgMy4yLTguMyAzLjItMTEuNCAwbC0yMy40LTIzLjhjLTIzLjEtMjMuNS02MC41LTIzLjUtODMuNiAwYy0yMy4yIDIzLjYtMjMuMiA2MS45IDAgODUuNUwyMTIuOSAzNTYuOWMzLjEgMy4xIDcuMSA0LjcgMTEuMSA0LjdzOC0xLjUgMTEuMS00LjdMMzM2LjcgMjUzLjdjMjMuMi0yMy42IDIzLjItNjEuOSAwLTg1LjVjLTIzLjEtMjMuNS02MC41LTIzLjUtODMuNiAwbC0yMy40IDIzLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-heart.svg)
  */
 const SquareHeart: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

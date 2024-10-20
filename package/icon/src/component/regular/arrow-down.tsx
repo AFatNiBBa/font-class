@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down?s=regular arrow-down}
- * @preview ![arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc0LjYgNDcyLjZjNC41IDQuNyAxMC44IDcuNCAxNy40IDcuNHMxMi44LTIuNyAxNy40LTcuNGwxNjgtMTc2YzkuMi05LjYgOC44LTI0LjgtLjgtMzMuOXMtMjQuOC04LjgtMzMuOSAuOEwyMTYgMzk2LjEgMjE2IDU2YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMzQwLjFMNDEuNCAyNjMuNGMtOS4yLTkuNi0yNC4zLTkuOS0zMy45LS44cy05LjkgMjQuMy0uOCAzMy45bDE2OCAxNzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-down.svg)
  */
 const ArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

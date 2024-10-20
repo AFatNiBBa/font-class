@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `function` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/function?s=sharp-solid function}
- * @preview ![function](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEw5NiAwbDk2IDAgMzIgMCAwIDY0LTMyIDAtNjQgMCAwIDEyOCAzMiAwIDMyIDAgMCA2NC0zMiAwLTMyIDAgMCAxOTIgMCAzMi0zMiAwTDAgNDgwbDAtNjQgNjQgMCAwLTE2MC0zMiAwTDAgMjU2bDAtNjQgMzIgMCAzMiAwTDY0IDMyIDY0IDB6TTI4OCAzMjBjMCA1Mi43IDE1LjcgMTAxLjYgNDIuNyAxNDIuM2wtNTMuNCAzNS4zQzI0My42IDQ0Ni43IDIyNCAzODUuNiAyMjQgMzIwczE5LjYtMTI2LjcgNTMuMy0xNzcuN2w1My40IDM1LjNDMzAzLjcgMjE4LjQgMjg4IDI2Ny4zIDI4OCAzMjB6bTI4OCAwYzAtNTIuNy0xNS43LTEwMS42LTQyLjctMTQyLjNsNTMuNC0zNS4zQzYyMC40IDE5My4zIDY0MCAyNTQuNCA2NDAgMzIwcy0xOS42IDEyNi43LTUzLjMgMTc3LjdsLTUzLjQtMzUuM2MyNy00MC43IDQyLjctODkuNiA0Mi43LTE0Mi4zek0zOTguNiAyNDEuNEw0MzIgMjc0LjdsMzMuNC0zMy40TDQ4OCAyMTguNyA1MzMuMyAyNjRsLTIyLjYgMjIuNkw0NzcuMyAzMjBsMzMuNCAzMy40TDUzMy4zIDM3NiA0ODggNDIxLjNsLTIyLjYtMjIuNkw0MzIgMzY1LjNsLTMzLjQgMzMuNEwzNzYgNDIxLjMgMzMwLjcgMzc2bDIyLjYtMjIuNkwzODYuNyAzMjBsLTMzLjQtMzMuNEwzMzAuNyAyNjQgMzc2IDIxOC43bDIyLjYgMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![function](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/function.svg)
  */
 const Function: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

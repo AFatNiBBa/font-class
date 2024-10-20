@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-arrival` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-arrival?s=sharp-regular plane-arrival}
- * @preview ![plane-arrival](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDBMMTUxLjcgMCAxNjEgMzAuOWwzNy42IDEyNS4yLTYwLjgtMTYuMkwxMTAuMyA3MS4xbC00LjYtMTEuNC0xMS45LTMtNjQtMTZMMCAzMy4zIDAgNjQgMCAxOTJsMCAxMS4zIDguNyA3LjIgMTEyLjcgOTMuNCA0LjEgMy40IDUuMSAxLjQgMzI0LjUgODYuM2MzNi4xIDkuNiA3NC4yIDguNSAxMDkuNi0zLjJjNDAuMi0xMy4zIDUxLjMtNjQuOCAyMC4yLTkzLjVsLTMxLjgtMjkuM2MtMTguMS0xNi43LTQwLTI4LjgtNjMuOC0zNS4xTDM4NiAyMDYuMSAyNzYuOSAxMi4yIDI3MCAwIDI1NiAwIDE4NCAwem03Mi45IDE4My41TDIxNi4zIDQ4IDI0MiA0OCAzNDkuMSAyMzguNGw1IDguOCA5LjggMi42IDExMyAzMC4xYzE2LjMgNC4zIDMxLjMgMTIuNiA0My43IDI0bDMxLjggMjkuM2M0LjIgMy45IDIuNyAxMC45LTIuNyAxMi43Yy0yNi42IDguOC01NS4yIDkuNi04Mi4yIDIuNEwxNDggMjYzLjUgNDggMTgwLjdsMC04NiAyMi4zIDUuNiAyNy40IDY4LjYgNC41IDExLjIgMTEuNiAzLjEgMTEzLjkgMzAuNCA0MS41IDExLjEtMTIuMy00MS4yek0yNCA0NjRMMCA0NjRsMCA0OCAyNCAwIDU5MiAwIDI0IDAgMC00OC0yNCAwTDI0IDQ2NHptMTY4LTk2YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTY0IDY0YTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![plane-arrival](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/plane-arrival.svg)
  */
 const PlaneArrival: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

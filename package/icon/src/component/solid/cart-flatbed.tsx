@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-flatbed` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-flatbed?s=solid cart-flatbed}
- * @preview ![cart-flatbed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEMxNC4zIDAgMCAxNC4zIDAgMzJTMTQuMyA2NCAzMiA2NGwxNiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDI4OGMwIDQ0LjIgMzUuOCA4MCA4MCA4MGwxOC43IDBjLTEuOCA1LTIuNyAxMC40LTIuNyAxNmMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4YzAtNS42LTEtMTEtMi43LTE2bDE5Ny41IDBjLTEuOCA1LTIuNyAxMC40LTIuNyAxNmMwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4YzAtNS42LTEtMTEtMi43LTE2bDY2LjcgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtNDY0IDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTI4OEMxMjggMzUuOCA5Mi4yIDAgNDggMEwzMiAwek0xOTIgODBsMCAxOTJjMCAyNi41IDIxLjUgNDggNDggNDhsMzIwIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xOTJjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTk2IDAgMCAxNDRjMCA1LjktMy4yIDExLjMtOC41IDE0LjFzLTExLjUgMi41LTE2LjQtLjhMNDAwIDE2My4ybC0zOS4xIDI2LjFjLTQuOSAzLjMtMTEuMiAzLjYtMTYuNCAuOHMtOC41LTguMi04LjUtMTQuMWwwLTE0NC05NiAwYy0yNi41IDAtNDggMjEuNS00OCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-flatbed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-flatbed.svg)
  */
 const CartFlatbed: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

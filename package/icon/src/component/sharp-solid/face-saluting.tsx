@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-saluting` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-saluting?s=sharp-solid face-saluting}
- * @preview ![face-saluting](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEwLjEgNjEuOWwtMjYuNSAxOC0yNi41IDE4LTMwIDIwLjQgMzUuNSA0OC45IDYuNiA5LjFjMS0uMSAyLjEtLjIgMy4yLS4yYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMyYy0xMy4xIDAtMjQuNC03LjktMjkuMy0xOS4xbC0xMy40IDkuNy04Mi4zIDU5LjljLTEzLjkgMTAuMS0yOS41IDE2LjYtNDUuNiAxOS42QzEyNi41IDQyNS41IDIyOS4xIDUxMiAzNTIgNTEyYzE0MS40IDAgMjU2LTExNC42IDI1Ni0yNTZTNDkzLjQgMCAzNTIgMGMtMjYuNSAwLTUyLjEgNC03Ni4xIDExLjVsMTYuMiAyMy45IDE4IDI2LjV6TTEyOCAxODUuOGwwLTM5LjFMMjM5LjIgNzEuM2wyNi41LTE4TDIyOS43IC40bC0yNi41IDE4TDM1LjEgMTMyLjVjLTQ0LjMgMzAuMS00Ny4xIDk0LjQtNS42IDEyOC4ybDEuNSAxLjJjMjguMSAyMi45IDY4LjIgMjQgOTcuNSAyLjdsODIuMy01OS45IDI1LjktMTguOC0zNy42LTUxLjhzMCAwIDAgMHMwIDAgMCAwTDE3My4yIDE1MyAxNjAgMTYyLjZsLTE0LjIgMTAuNEwxMjggMTg1Ljh6TTIyNy41IDM1NGwyNS0yMGM3LjIgOSAzOS43IDM0IDk5LjUgMzRzOTIuMy0yNSA5OS41LTM0bDI1IDIwYy0xNC4xIDE3LjYtNTYuMyA0Ni0xMjQuNSA0NnMtMTEwLjQtMjguNC0xMjQuNS00NnpNNDMyLjQgMTc2YTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-saluting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-saluting.svg)
  */
 const FaceSaluting: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

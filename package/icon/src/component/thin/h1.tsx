@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `h1` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h1?s=thin h1}
- * @preview ![h1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDcyYzAtMi45LTEuNi01LjYtNC4xLTdzLTUuNy0xLjMtOC4xIC4ybC02NCA0MGMtMy43IDIuMy00LjkgNy4zLTIuNSAxMXM3LjMgNC45IDExIDIuNUw0ODAgODYuNCA0ODAgNDMybC01NiAwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDY0IDAgNjQgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtNTYgMCAwLTM2MHpNMTYgNzJjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhMMCAyNDggMCA0NDBjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTE4NCAyODggMCAwIDE4NGMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtMTkyIDAtMTc2YzAtNC40LTMuNi04LTgtOHMtOCAzLjYtOCA4bDAgMTY4TDE2IDI0MCAxNiA3MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![h1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/h1.svg)
  */
 const H1: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

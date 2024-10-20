@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brightness` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brightness?s=sharp-solid brightness}
- * @preview ![brightness](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDMybDAtMzJMMjI0IDBsMCAzMiAwIDQ4IDAgMzIgNjQgMCAwLTMyIDAtNDh6TTExOC42IDczLjRMOTYgNTAuNyA1MC43IDk2bDIyLjYgMjIuNiAzMiAzMkwxMjggMTczLjMgMTczLjMgMTI4bC0yMi42LTIyLjYtMzItMzJ6bTMyMCA0NS4zTDQ2MS4zIDk2IDQxNiA1MC43IDM5My40IDczLjRsLTMyIDMyTDMzOC43IDEyOCAzODQgMTczLjNsMjIuNi0yMi42IDMyLTMyek0zMiAyMjRMMCAyMjRsMCA2NCAzMiAwIDQ4IDAgMzIgMCAwLTY0LTMyIDAtNDggMHptNDQ4IDBsLTQ4IDAtMzIgMCAwIDY0IDMyIDAgNDggMCAzMiAwIDAtNjQtMzIgMHpNMTUwLjYgNDA2LjZMMTczLjMgMzg0IDEyOCAzMzguN2wtMjIuNiAyMi42LTMyIDMyTDUwLjcgNDE2IDk2IDQ2MS4zbDIyLjYtMjIuNiAzMi0zMnptMjU2LTQ1LjNMMzg0IDMzOC43IDMzOC43IDM4NGwyMi42IDIyLjYgMzIgMzJMNDE2IDQ2MS4zIDQ2MS4zIDQxNmwtMjIuNi0yMi42LTMyLTMyek0yODggNDgwbDAtNDggMC0zMi02NCAwIDAgMzIgMCA0OCAwIDMyIDY0IDAgMC0zMnpNMjU2IDM1MmE5NiA5NiAwIDEgMCAwLTE5MiA5NiA5NiAwIDEgMCAwIDE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![brightness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/brightness.svg)
  */
 const Brightness: typeof Icon = x => (
     <Icon {...x}>

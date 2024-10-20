@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ban-smoking` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-smoking?s=light ban-smoking}
- * @preview ![ban-smoking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODYuNyAxMDkuM0wyMDEuNCAyMjRsMzIgMzIgMzIgMzIgMzIgMzJMNDAyLjcgNDI1LjNDMzYzLjQgNDU5LjQgMzEyLjEgNDgwIDI1NiA0ODBDMTMyLjMgNDgwIDMyIDM3OS43IDMyIDI1NmMwLTU2LjEgMjAuNi0xMDcuNCA1NC43LTE0Ni43ek0yNzguNiAyNTZMMzg0IDI1NmwwIDMyLTczLjQgMC0zMi0zMnptNjQgNjRsNTcuNCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTY0YzAtOC44LTcuMi0xNi0xNi0xNmwtMTUzLjQgMEwxMDkuMyA4Ni43QzE0OC42IDUyLjYgMTk5LjkgMzIgMjU2IDMyYzEyMy43IDAgMjI0IDEwMC4zIDIyNCAyMjRjMCA1Ni4xLTIwLjYgMTA3LjQtNTQuNyAxNDYuN0wzNDIuNiAzMjB6TTI1NiA1MTJBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0yNzIgOTZjLTguOCAwLTE2IDcuMi0xNiAxNmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwzMiAwYzguOCAwIDE2IDcuMiAxNiAxNnM3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0zMiAwYy04LjggMC0xNi03LjItMTYtMTZzLTcuMi0xNi0xNi0xNnpNMjIwLjEgMjg4TDEyOCAyODhsMC0zMiA2MC4xIDAtMzItMzJMMTEyIDIyNGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2bDE0MC4xIDAtMzItMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ban-smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ban-smoking.svg)
  */
 const BanSmoking: typeof Icon = x => (
     <Icon {...x}>

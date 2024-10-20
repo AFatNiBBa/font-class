@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-web-awesome-stroke` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-web-awesome-stroke?s=brands square-web-awesome-stroke}
- * @preview ![square-web-awesome-stroke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDNDYuMyA2NCAzMiA3OC4zIDMyIDk2bDAgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyMCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzIwYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDY0ek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDMyMCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnptMjM1IDgxLjZMMjg4IDIyNGw1Mi4yLTEwLjRjLTIuNi0zLjktNC4yLTguNS00LjItMTMuNmMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0YzAgMTMtMTAuMyAyMy42LTIzLjIgMjRMMzA0LjUgMzQ5LjFjLTUuMiAxMS41LTE2LjYgMTguOS0yOS4yIDE4LjlsLTEwMi42IDBjLTEyLjYgMC0yNC03LjQtMjkuMi0xOC45TDg3LjIgMjI0Qzc0LjMgMjIzLjYgNjQgMjEzIDY0IDIwMGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0YzAgNS0xLjUgOS43LTQuMiAxMy42TDE2MCAyMjRsNTMuMS00Ni40Yy04LjktNC4xLTE1LTEzLjEtMTUtMjMuNmMwLTE0LjQgMTEuNi0yNiAyNi0yNnMyNiAxMS42IDI2IDI2YzAgMTAuNS02LjIgMTkuNS0xNS4xIDIzLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-web-awesome-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-web-awesome-stroke.svg)
  */
 const SquareWebAwesomeStroke: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

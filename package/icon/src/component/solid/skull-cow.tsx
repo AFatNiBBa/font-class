@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `skull-cow` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull-cow?s=solid skull-cow}
- * @preview ![skull-cow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjMuMiAyMS4xYzIuNS03LjQtLjctMTUuNC03LjUtMTkuMVM0MC4zIDAgMzUuNSA2TDI4IDE1LjNDOS45IDM4IDAgNjYuNCAwIDk1LjVDMCAxNjYuMSA1Ny4yIDIyNCAxMjggMjI0bDAtMTYgMC0xNiAwLTMyIDAtMTYgMC0xNi0yMyAwYy0yOC43IDAtNTIuNy0yMS43LTU1LjYtNTAuM2MtLjgtNy44IC4xLTE1LjggMi42LTIzLjJMNjMuMiAyMS4xek0yNDAgOTZjLTQ0LjIgMC04MCAzNS44LTgwIDgwbDAgMTEyYzAgMzcgMjUuMiA2OC4yIDU5LjMgNzcuM2wyNy42IDExMC4zYzUuMyAyMS40IDI0LjUgMzYuNCA0Ni42IDM2LjRsNTMgMGMyMiAwIDQxLjItMTUgNDYuNi0zNi40bDI3LjYtMTEwLjNDNDU0LjggMzU2LjIgNDgwIDMyNSA0ODAgMjg4bDAtMTEyYzAtNDQuMi0zNS44LTgwLTgwLTgwTDI0MCA5NnpNMjI0IDI1NmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0xNjAtMzJhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0ek01ODQuNCAxLjljLTYuOCAzLjctMTAgMTEuOC03LjUgMTkuMUw1ODggNTQuNWMyLjUgNy41IDMuNCAxNS40IDIuNiAyMy4yQzU4Ny43IDEwNi4zIDU2My43IDEyOCA1MzUgMTI4bC0yMyAwIDAgMTYgMCAxNiAwIDMyIDAgMTYgMCAxNmM3MC44IDAgMTI4LTU3LjkgMTI4LTEyOC41YzAtMjktOS45LTU3LjQtMjgtODAuMUw2MDQuNSA2Yy00LjgtNi4xLTEzLjMtNy44LTIwLjEtNC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![skull-cow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/skull-cow.svg)
  */
 const SkullCow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

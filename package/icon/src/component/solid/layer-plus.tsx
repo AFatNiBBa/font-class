@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `layer-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-plus?s=solid layer-plus}
- * @preview ![layer-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgMzItMzIgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwzMiAwIDAgMzJjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTMyIDMyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTMyIDAgMC0zMmMwLTEzLjMtMTAuNy0yNC0yNC0yNHpNMzExLjUgMTMzLjJjLTE0LjktNi45LTMyLjEtNi45LTQ3IDBMNDUuOSAyMzQuMkMzNy40IDIzOC4xIDMyIDI0Ni42IDMyIDI1NnM1LjQgMTcuOSAxMy45IDIxLjhsMjE4LjYgMTAxYzE0LjkgNi45IDMyLjEgNi45IDQ3IDBsMjE4LjYtMTAxYzguNS0zLjkgMTMuOS0xMi40IDEzLjktMjEuOHMtNS40LTE3LjktMTMuOS0yMS44bC0yMTguNi0xMDF6bTEzLjQgMjc0LjdjLTIzLjQgMTAuOC01MC40IDEwLjgtNzMuOCAwbC0xNTItNzAuMkw0NS45IDM2Mi4yQzM3LjQgMzY2LjEgMzIgMzc0LjYgMzIgMzg0czUuNCAxNy45IDEzLjkgMjEuOGwyMTguNiAxMDFjMTQuOSA2LjkgMzIuMSA2LjkgNDcgMGwyMTguNi0xMDFjOC41LTMuOSAxMy45LTEyLjQgMTMuOS0yMS44cy01LjQtMTcuOS0xMy45LTIxLjhsLTUzLjItMjQuNi0xNTIgNzAuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![layer-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/layer-plus.svg)
  */
 const LayerPlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

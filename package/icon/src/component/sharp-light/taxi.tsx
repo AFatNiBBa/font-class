@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `taxi` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taxi?s=sharp-light taxi}
- * @preview ![taxi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDBMMTYwIDBsMCAxNiAwIDQ4LTQ4IDAtMTEuOSAwTDk2LjcgNzUuNCA1Mi4xIDIyNCAzMiAyMjQgMCAyMjRsMCAzMkwwIDQxNmwwIDE2IDAgMTYgMCA2NCAzMiAwIDAtNjQgNDQ4IDAgMCA2NCAzMiAwIDAtNjQgMC0xNiAwLTE2IDAtMTYwIDAtMzItMzIgMC0yMC4xIDBMNDE1LjMgNzUuNCA0MTEuOSA2NCA0MDAgNjRsLTQ4IDAgMC00OCAwLTE2TDMzNiAwIDE3NiAwek0zMjAgNjRMMTkyIDY0bDAtMzIgMTI4IDAgMCAzMnptNjguMSAzMmwzOC40IDEyOC0zNDEgMEwxMjMuOSA5NmwyNjQuMiAwek0zMiAyNTZsNDQ4IDAgMCAxNjBMMzIgNDE2bDAtMTYwem05NiA3MmEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem0yODAgMjRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![taxi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/taxi.svg)
  */
 const Taxi: typeof Icon = x => (
     <Icon {...x}>

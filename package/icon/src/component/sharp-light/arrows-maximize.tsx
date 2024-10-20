@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-maximize` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-maximize?s=sharp-light arrows-maximize}
- * @preview ![arrows-maximize](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDMybC0xNiAwIDAgMzIgMTYgMCA4OS40IDBMMjU2IDIzMy40IDg2LjYgNjQgMTc2IDY0bDE2IDAgMC0zMi0xNiAwTDQ4IDMyIDMyIDMybDAgMTYgMCAxMjggMCAxNiAzMiAwIDAtMTYgMC04OS40TDIzMy40IDI1NiA2NCA0MjUuNCA2NCAzMzZsMC0xNi0zMiAwIDAgMTYgMCAxMjggMCAxNiAxNiAwIDEyOCAwIDE2IDAgMC0zMi0xNiAwLTg5LjQgMEwyNTYgMjc4LjYgNDI1LjQgNDQ4IDMzNiA0NDhsLTE2IDAgMCAzMiAxNiAwIDEyOCAwIDE2IDAgMC0xNiAwLTEyOCAwLTE2LTMyIDAgMCAxNiAwIDg5LjRMMjc4LjYgMjU2IDQ0OCA4Ni42bDAgODkuNCAwIDE2IDMyIDAgMC0xNiAwLTEyOCAwLTE2LTE2IDBMMzM2IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-maximize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-maximize.svg)
  */
 const ArrowsMaximize: typeof Icon = x => (
     <Icon {...x}>

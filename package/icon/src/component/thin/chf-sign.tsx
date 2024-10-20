@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chf-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chf-sign?s=thin chf-sign}
- * @preview ![chf-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMTQuNEMwIDY4LjkgMzYuOSAzMiA4Mi40IDMybDMgMGMzMy43IDAgNjMuNSAyMS41IDc0LjIgNTMuNWMxLjQgNC4yLS45IDguNy01LjEgMTAuMXMtOC43LS45LTEwLjEtNS4xQzEzNS45IDY1LjEgMTEyLjIgNDggODUuNCA0OGwtMyAwQzQ1LjcgNDggMTYgNzcuNyAxNiAxMTQuNGwwIDI4My4yQzE2IDQzNC4zIDQ1LjcgNDY0IDgyLjQgNDY0bDMgMGMyNi44IDAgNTAuNS0xNy4xIDU5LTQyLjVjMS40LTQuMiA1LjktNi41IDEwLjEtNS4xczYuNSA1LjkgNS4xIDEwLjFDMTQ4LjkgNDU4LjUgMTE5LjEgNDgwIDg1LjQgNDgwbC0zIDBDMzYuOSA0ODAgMCA0NDMuMSAwIDM5Ny42TDAgMTE0LjR6TTIxNiAzMmM0LjQgMCA4IDMuNiA4IDhsMCAyMDAgMTYwIDAgMC0yMDBjMC00LjQgMy42LTggOC04czggMy42IDggOGwwIDQzMmMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTIxNi0xNjAgMCAwIDIxNmMwIDQuNC0zLjYgOC04IDhzLTgtMy42LTgtOGwwLTQzMmMwLTQuNCAzLjYtOCA4LTh6bTIzMiA4YzAtNC40IDMuNi04IDgtOGwxNzYgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOEw0NjQgNDhsMCAxOTIgMTM2IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTEzNiAwIDAgMjE2YzAgNC40LTMuNiA4LTggOHMtOC0zLjYtOC04bDAtNDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chf-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chf-sign.svg)
  */
 const ChfSign: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

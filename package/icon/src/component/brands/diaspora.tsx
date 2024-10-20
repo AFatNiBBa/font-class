@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diaspora` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diaspora?s=brands diaspora}
- * @preview ![diaspora](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjUxLjY0IDM1NC41NWMtMS40IDAtODggMTE5LjktODguNyAxMTkuOVM3Ni4zNCA0MTQgNzYgNDEzLjI1czg2LjYtMTI1LjcgODYuNi0xMjcuNGMwLTIuMi0xMjkuNi00NC0xMzcuNi00Ny4xLTEuMy0uNSAzMS40LTEwMS44IDMxLjctMTAyLjEuNi0uNyAxNDQuNCA0NyAxNDUuNSA0NyAuNCAwIC45LS42IDEtMS4zLjQtMiAxLTE0OC42IDEuNy0xNDkuNi44LTEuMiAxMDQuNS0uNyAxMDUuMS0uMyAxLjUgMSAzLjUgMTU2LjEgNi4xIDE1Ni4xIDEuNCAwIDEzOC43LTQ3IDEzOS4zLTQ2LjMuOC45IDMxLjkgMTAyLjIgMzEuNSAxMDIuNi0uOS45LTE0MC4yIDQ3LjEtMTQwLjYgNDguOC0uMyAxLjQgODIuOCAxMjIuMSA4Mi41IDEyMi45cy04NS41IDYzLjUtODYuMyA2My41Yy0xLS4yLTg5LTEyNS41LTkwLjktMTI1LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![diaspora](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/diaspora.svg)
  */
 const Diaspora: typeof Icon = x => (
     <Icon {...x}>

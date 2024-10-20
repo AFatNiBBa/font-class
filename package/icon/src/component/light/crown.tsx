@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crown` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crown?s=light crown}
- * @preview ![crown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA5IDEwNmMxMS40LTcgMTktMTkuNyAxOS0zNGMwLTIyLjEtMTcuOS00MC00MC00MHMtNDAgMTcuOS00MCA0MGMwIDE0LjQgNy42IDI3IDE5IDM0TDIwOS43IDIyMC42Yy05LjEgMTguMi0zMi43IDIzLjQtNDguNiAxMC43TDcyIDE2MGM1LTYuNyA4LTE1IDgtMjRjMC0yMi4xLTE3LjktNDAtNDAtNDBTMCAxMTMuOSAwIDEzNnMxNy45IDQwIDQwIDQwbC43IDBMODYuNCA0MjcuNGM1LjUgMzAuNCAzMiA1Mi42IDYzIDUyLjZsMjc3LjIgMGMzMC45IDAgNTcuNC0yMi4xIDYzLTUyLjZMNTM1LjMgMTc2Yy4yIDAgLjUgMCAuNyAwYzIyLjEgMCA0MC0xNy45IDQwLTQwcy0xNy45LTQwLTQwLTQwcy00MCAxNy45LTQwIDQwYzAgOSAzIDE3LjMgOCAyNGwtODkuMSA3MS4zYy0xNS45IDEyLjctMzkuNSA3LjUtNDguNi0xMC43TDMwOSAxMDZ6TTExNy45IDQyMS43TDc4LjggMjA2LjRsNjIuMyA0OS45YzMxLjggMjUuNSA3OSAxNS4xIDk3LjItMjEuNEwyODggMTM1LjZsNDkuNyA5OS40YzE4LjIgMzYuNCA2NS40IDQ2LjggOTcuMiAyMS40bDYyLjMtNDkuOUw0NTguMSA0MjEuN2MtMi44IDE1LjItMTYgMjYuMy0zMS41IDI2LjNsLTI3Ny4yIDBjLTE1LjUgMC0yOC43LTExLjEtMzEuNS0yNi4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/crown.svg)
  */
 const Crown: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

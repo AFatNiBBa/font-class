@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-person-confined` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-person-confined?s=solid square-person-confined}
- * @preview ![square-person-confined](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMnptOTYgMTEyYTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6bTgwIDEwNGMwLTMwLjkgMjUuMS01NiA1Ni01NnM1NiAyNS4xIDU2IDU2bDAgMTAyLjFjMCAzNi40LTI5LjUgNjUuOS02NS45IDY1LjljLTE3LjUgMC0zNC4zLTYuOS00Ni42LTE5LjNMMTg0LjggMzQybC0yOC4xIDU2LjNjLTcuOSAxNS44LTI3LjEgMjIuMi00Mi45IDE0LjNzLTIyLjItMjcuMS0xNC4zLTQyLjlsNDgtOTZjNC42LTkuMiAxMy4zLTE1LjYgMjMuNS0xNy4zczIwLjUgMS43IDI3LjggOUwyNDAgMzA2LjdsMC01OC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-person-confined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-person-confined.svg)
  */
 const SquarePersonConfined: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

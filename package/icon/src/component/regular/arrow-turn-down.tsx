@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-turn-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-turn-down?s=regular arrow-turn-down}
- * @preview ![arrow-turn-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgNDhDMTAuNyA0OCAwIDM3LjMgMCAyNFMxMC43IDAgMjQgMEwxMjggMGM0OC42IDAgODggMzkuNCA4OCA4OGwwIDM0Mi4xIDg3LTg3YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwczkuNCAyNC42IDAgMzMuOUwyMDkgNTA1Yy05LjQgOS40LTI0LjYgOS40LTMzLjkgMEw0NyAzNzdjLTkuNC05LjQtOS40LTI0LjYgMC0zMy45czI0LjYtOS40IDMzLjkgMGw4NyA4N0wxNjggODhjMC0yMi4xLTE3LjktNDAtNDAtNDBMMjQgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-turn-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-turn-down.svg)
  */
 const ArrowTurnDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

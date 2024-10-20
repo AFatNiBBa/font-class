@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `code-fork` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-fork?s=sharp-solid code-fork}
- * @preview ![code-fork](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA0IDU2bDAgNDgtNDggMCAwLTQ4IDQ4IDB6TTU2IDBMMCAwIDAgNTZsMCA0OCAwIDU2IDQ4IDAgMCAzMmMwIDUzIDQzIDk2IDk2IDk2bDQ4IDAgMCA2NC00OCAwIDAgNTYgMCA0OCAwIDU2IDU2IDAgNDggMCA1NiAwIDAtNTYgMC00OCAwLTU2LTQ4IDAgMC02NCA0OCAwYzUzIDAgOTYtNDMgOTYtOTZsMC0zMiA0OCAwIDAtNTYgMC00OCAwLTU2TDM5MiAwIDM0NCAwIDI4OCAwbDAgNTYgMCA0OCAwIDU2IDQ4IDAgMCAzMmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTYwIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMzIgNDggMCAwLTU2IDAtNDggMC01NkwxMDQgMCA1NiAwek0zOTIgNTZsMCA0OC00OCAwIDAtNDggNDggMHpNMjAwIDQwOGw0OCAwIDAgNDgtNDggMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![code-fork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/code-fork.svg)
  */
 const CodeFork: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

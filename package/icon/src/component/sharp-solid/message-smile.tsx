@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-smile` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-smile?s=sharp-solid message-smile}
- * @preview ![message-smile](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDUxMiAwbDAgNDE2LTIwOCAwTDE2MCA1MTJsMC05NkwwIDQxNiAwIDB6TTE5MiAxNzZhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0em0xMjggMGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6TTE2OC40IDIyMi4xbC0zNS44IDMyIDE2IDE3LjljMjYuMyAyOS40IDY0LjcgNDggMTA3LjMgNDhzODEtMTguNiAxMDcuMy00OGwxNi0xNy45LTM1LjgtMzItMTYgMTcuOWMtMTcuNiAxOS43LTQzLjEgMzItNzEuNiAzMnMtNTMuOS0xMi4zLTcxLjYtMzJsLTE2LTE3Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![message-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/message-smile.svg)
  */
 const MessageSmile: typeof Icon = x => (
     <Icon {...x}>

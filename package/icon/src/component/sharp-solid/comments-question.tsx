@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comments-question` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comments-question?s=sharp-solid comments-question}
- * @preview ![comments-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDM1MmMxMTQuOSAwIDIwOC03OC44IDIwOC0xNzZTMzIyLjkgMCAyMDggMFMwIDc4LjggMCAxNzZjMCAzNy41IDEzLjkgNzIuMyAzNy42IDEwMC45TDAgMzUybDEwOC4xLTIxLjZDMTM3LjcgMzQ0LjIgMTcxLjggMzUyIDIwOCAzNTJ6bTIzLjUgMzFDMjU1LjggNDU3LjQgMzM2LjQgNTEyIDQzMiA1MTJjMzYuMiAwIDcwLjMtNy44IDk5LjktMjEuNkw2NDAgNTEybC0zNy42LTc1LjFDNjI2LjEgNDA4LjMgNjQwIDM3My41IDY0MCAzMzZjMC05Mi44LTg0LjktMTY4LjktMTkyLjYtMTc1LjVjLjQgNS4xIC42IDEwLjMgLjYgMTUuNWMwIDExMi4zLTk5LjEgMTk2LjktMjE2LjUgMjA3ek0xMzQuNyAxMjRjMC0yNS44IDIwLjktNDYuNyA0Ni43LTQ2LjdsNDcuNCAwYzI5LjEgMCA1Mi42IDIzLjYgNTIuNiA1Mi42YzAgMTguOC0xMC4xIDM2LjMtMjYuNCA0NS42TDIyOCAxOTFsMCA2LjMgMCAyMC00MCAwIDAtMjAgMC0xNy45IDAtMTEuNiAxMC01LjhMMjM1IDE0MC45YzMuOS0yLjMgNi4zLTYuNCA2LjMtMTAuOWMwLTctNS43LTEyLjYtMTIuNi0xMi42bC00Ny40IDBjLTMuNyAwLTYuNyAzLTYuNyA2LjdsMCA1LjUtNDAgMCAwLTUuNXpNMTg4IDI1MC43bDQwIDAgMCA0MC00MCAwIDAtNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![comments-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/comments-question.svg)
  */
 const CommentsQuestion: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ruler-triangle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler-triangle?s=sharp-regular ruler-triangle}
- * @preview ![ruler-triangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDY0TDQ4IDY3LjlsNjYuNyA2Ni43LTE0LjEgMTQuMUw4OS40IDE2MCAxMTIgMTgyLjZsMTEuMy0xMS4zIDE0LjEtMTQuMSA1Ny40IDU3LjQtMTQuMSAxNC4xTDE2OS40IDI0MCAxOTIgMjYyLjZsMTEuMy0xMS4zIDE0LjEtMTQuMSA1Ny40IDU3LjQtMTQuMSAxNC4xTDI0OS40IDMyMCAyNzIgMzQyLjZsMTEuMy0xMS4zIDE0LjEtMTQuMSA1Ny40IDU3LjQtMTQuMSAxNC4xTDMyOS40IDQwMCAzNTIgNDIyLjZsMTEuMy0xMS4zIDE0LjEtMTQuMUw0NDQuMSA0NjQgNDggNDY0ek0wIDBMMCA0OCAwIDQ2NGwwIDQ4IDQ4IDAgNDE2IDAgNDggMCAwLTQ4TDQ4IDAgMCAwek0xMjggMjU2bDAgMTI4IDEyOCAwTDEyOCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ruler-triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ruler-triangle.svg)
  */
 const RulerTriangle: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road-circle-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-circle-xmark?s=sharp-solid road-circle-xmark}
- * @preview ![road-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMybDEyOCAwIDAgNjQgMCAzMiA2NCAwIDAtMzIgMC02NCAxMjggMCA0Ni41IDE2Mi42Yy05LjktMS43LTIwLjEtMi42LTMwLjUtMi42Yy01OS41IDAtMTEyLjEgMjkuNi0xNDQgNzQuOGwwLTQyLjggMC0zMi02NCAwIDAgMzIgMCA2NCAwIDMyIDM4LjYgMGMtNC4zIDE1LjMtNi42IDMxLjQtNi42IDQ4YzAgNS40IC4yIDEwLjcgLjcgMTZMMjg4IDM4NGwwIDMyIDAgNjRMMzIgNDgwIDE2MCAzMnpNNDk2IDIyNGExNDQgMTQ0IDAgMSAxIDAgMjg4IDE0NCAxNDQgMCAxIDEgMC0yODh6bTU5LjMgMTA3LjNMNTY2LjYgMzIwIDU0NCAyOTcuNGwtMTEuMyAxMS4zTDQ5NiAzNDUuNGwtMzYuNy0zNi43TDQ0OCAyOTcuNCA0MjUuNCAzMjBsMTEuMyAxMS4zTDQ3My40IDM2OGwtMzYuNyAzNi43TDQyNS40IDQxNiA0NDggNDM4LjZsMTEuMy0xMS4zTDQ5NiAzOTAuNmwzNi43IDM2LjdMNTQ0IDQzOC42IDU2Ni42IDQxNmwtMTEuMy0xMS4zTDUxOC42IDM2OGwzNi43LTM2Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![road-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/road-circle-xmark.svg)
  */
 const RoadCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brake-warning` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brake-warning?s=regular brake-warning}
- * @preview ![brake-warning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDgwYTE3NiAxNzYgMCAxIDEgMCAzNTIgMTc2IDE3NiAwIDEgMSAwLTM1MnptMCA0MDBhMjI0IDIyNCAwIDEgMCAwLTQ0OCAyMjQgMjI0IDAgMSAwIDAgNDQ4ek04My45IDc1LjhjLTExLjEtNy4yLTI2LTQtMzMuMiA3LjJDMTguNiAxMzIuOSAwIDE5Mi4zIDAgMjU2czE4LjYgMTIzLjEgNTAuNyAxNzNjNy4yIDExLjEgMjIgMTQuNCAzMy4yIDcuMnMxNC40LTIyIDcuMi0zMy4yQzYzLjggMzYwLjYgNDggMzEwLjIgNDggMjU2czE1LjgtMTA0LjYgNDMuMS0xNDdjNy4yLTExLjEgNC0yNi03LjItMzMuMnptNDcyLjIgMGMtMTEuMSA3LjItMTQuNCAyMi03LjIgMzMuMmMyNy4zIDQyLjQgNDMuMSA5Mi44IDQzLjEgMTQ3cy0xNS44IDEwNC42LTQzLjEgMTQ3Yy03LjIgMTEuMS00IDI2IDcuMiAzMy4yczI2IDQgMzMuMi03LjJDNjIxLjQgMzc5LjEgNjQwIDMxOS43IDY0MCAyNTZzLTE4LjYtMTIzLjEtNTAuNy0xNzNjLTcuMi0xMS4xLTIyLTE0LjQtMzMuMi03LjJ6TTMyMCAxMjhjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgMTEyYzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0xMTJjMC0xMy4zLTEwLjctMjQtMjQtMjR6bTMyIDIyNGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![brake-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/brake-warning.svg)
  */
 const BrakeWarning: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gavel` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gavel?s=light gavel}
- * @preview ![gavel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE1LjMgNC43YzYuMiA2LjIgNi4yIDE2LjQgMCAyMi42TDMwMi42IDQwIDQ3MiAyMDkuNGwxMi43LTEyLjdjNi4yLTYuMiAxNi40LTYuMiAyMi42IDBzNi4yIDE2LjQgMCAyMi42bC0yNCAyNC05NiA5Ni0yNCAyNGMtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBzLTYuMi0xNi40IDAtMjIuNkwzNTMuNCAzMjggMTg0IDE1OC42bC0xMi43IDEyLjdjLTYuMiA2LjItMTYuNCA2LjItMjIuNiAwcy02LjItMTYuNCAwLTIyLjZsMjQtMjQgOTYtOTYgMjQtMjRjNi4yLTYuMiAxNi40LTYuMiAyMi42IDB6TTIwNi42IDEzNkwzNzYgMzA1LjQgNDQ5LjQgMjMyIDI4MCA2Mi42IDIwNi42IDEzNnpNMTQ0IDMyMEwzMiA0MzJsNDggNDhMMTkyIDM2OGwtNDgtNDh6bS0yMi42LTIyLjZjMTIuNS0xMi41IDMyLjgtMTIuNSA0NS4zIDBsMTIuNyAxMi43IDQ5LjgtNDkuOCAyMi42IDIyLjYtNDkuOCA0OS44IDEyLjcgMTIuN2MxMi41IDEyLjUgMTIuNSAzMi44IDAgNDUuM2wtMTEyIDExMmMtMTIuNSAxMi41LTMyLjggMTIuNS00NS4zIDBsLTQ4LTQ4Yy0xMi41LTEyLjUtMTIuNS0zMi44IDAtNDUuM2wxMTItMTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gavel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/gavel.svg)
  */
 const Gavel: typeof Icon = x => (
     <Icon {...x}>

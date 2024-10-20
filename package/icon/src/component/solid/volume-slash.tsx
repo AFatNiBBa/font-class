@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-slash?s=solid volume-slash}
- * @preview ![volume-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w1MjUuMSAzODYuMkM1NTYuNyAzNTIgNTc2IDMwNi4zIDU3NiAyNTZjMC02MC4xLTI3LjctMTEzLjgtNzAuOS0xNDljLTEwLjMtOC40LTI1LjQtNi44LTMzLjggMy41cy02LjggMjUuNCAzLjUgMzMuOEM1MDcuMyAxNzAuNyA1MjggMjEwLjkgNTI4IDI1NmMwIDM5LjEtMTUuNiA3NC41LTQwLjkgMTAwLjVMNDQ5IDMyNi42YzE5LTE3LjUgMzEtNDIuNyAzMS03MC42YzAtMzAuMS0xMy45LTU2LjktMzUuNC03NC41Yy0xMC4zLTguNC0yNS40LTYuOC0zMy44IDMuNXMtNi44IDI1LjQgMy41IDMzLjhDNDI1LjEgMjI3LjYgNDMyIDI0MSA0MzIgMjU2cy02LjkgMjguNC0xNy43IDM3LjNjLTEuMyAxLTIuNCAyLjItMy40IDMuNEwzNTIgMjUwLjYgMzUyIDY0YzAtMTIuNi03LjQtMjQtMTguOS0yOS4ycy0yNS0zLjEtMzQuNCA1LjNMMTk3LjggMTI5LjggMzguOCA1LjF6TTM1MiAzNzMuM0w4Mi45IDE2MS4zQzUzLjggMTY3LjQgMzIgMTkzLjEgMzIgMjI0bDAgNjRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsNjcuOCAwTDI5OC43IDQ3MS45YzkuNCA4LjQgMjIuOSAxMC40IDM0LjQgNS4zUzM1MiA0NjAuNiAzNTIgNDQ4bDAtNzQuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![volume-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/volume-slash.svg)
  */
 const VolumeSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

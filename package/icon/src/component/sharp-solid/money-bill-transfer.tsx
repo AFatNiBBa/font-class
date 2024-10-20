@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-bill-transfer` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-transfer?s=sharp-solid money-bill-transfer}
- * @preview ![money-bill-transfer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDExMmwwIDY0IDI0IDBMNjQwIDg4IDUzNiAwIDUxMiAwbDAgNjRMMzg0IDY0bC0yNCAwIDAgNDggMjQgMCAxMjggMHpNMjU2IDQwMGwtMTI4IDAgMC02NC0yNCAwTDAgNDI0bDEwNCA4OCAyNCAwIDAtNjQgMTI4IDAgMjQgMCAwLTQ4LTI0IDB6bTY0LTI0OGwwLTg4TDMyIDY0bDAgMjkxIDUxLjMtNDMuNCA4LjktNy42IDExLjcgMCAyNCAwIDMyIDAgMCAzMiAwIDI0IDk2IDAgNjQgMCAwIDg4IDI4OCAwIDAtMjkxLTUxLjMgNDMuNC04LjkgNy42TDUzNiAyMDhsLTI0IDAtMzIgMCAwLTMyIDAtMjQtOTYgMC02NCAwek05NiAxOTJsMC02NCA2NCAwYzAgMzUuMy0yOC43IDY0LTY0IDY0ek00ODAgMzg0YzAtMzUuMyAyOC43LTY0IDY0LTY0bDAgNjQtNjQgMHpNMzIwIDE5MmE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![money-bill-transfer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/money-bill-transfer.svg)
  */
 const MoneyBillTransfer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

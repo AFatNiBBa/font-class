@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tooth` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tooth?s=sharp-solid tooth}
- * @preview ![tooth](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg2LjEgNTIuMUMxNjkuMyAzOS4xIDE0OC43IDMyIDEyNy41IDMyQzc0LjcgMzIgMzIgNzQuNyAzMiAxMjcuNWwwIDYuMmMwIDE1LjggMy43IDMxLjMgMTAuNyA0NS41TDczIDIzOS42bDM5LjQgMjIwLjYgMy41IDE5LjggMjAuMSAwIDggMCAxOS45IDAgMy43LTE5LjVMMTk1LjkgMzEybDU2LjMgMCAyOC4zIDE0OC41IDMuNyAxOS41IDE5LjkgMCA4IDAgMjAuMSAwIDMuNS0xOS44TDM3NSAyMzkuNmwzMC4yLTYwLjVjNy4xLTE0LjEgMTAuNy0yOS43IDEwLjctNDUuNWwwLTIuMWMwLTU1LTQ0LjYtOTkuNi05OS42LTk5LjZjLTI0LjEgMC00Ny40IDguOC02NS42IDI0LjZsLTMuMiAyLjggMzIuMSAyNS0xOS42IDI1LjMtMzctMjguOC0zNy0yOC44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tooth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tooth.svg)
  */
 const Tooth: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

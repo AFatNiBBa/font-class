@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `bottle-water` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bottle-water?s=sharp-duotone-solid bottle-water}
- * @preview ![bottle-water](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAxNjcuNWMwLTE5LjUgMTAtMzcuNiAyNi42LTQ3LjlDNzEuMSAxMTEuNyA4My43IDEwMy45IDk2IDk2bDEyNy45IDBjMTIuNCA3LjkgMjUgMTUuNyAzNy42IDIzLjZDMjc4IDEyOS45IDI4OCAxNDggMjg4IDE2Ny41YzAgMTctNy41IDMyLjMtMTkuNCA0Mi42QzI4MC42IDIyMS43IDI4OCAyMzggMjg4IDI1NmMwIDE5LjEtOC40IDM2LjMtMjEuNyA0OGMxMy4zIDExLjcgMjEuNyAyOC45IDIxLjcgNDhzLTguNCAzNi4zLTIxLjcgNDhjMTMuMyAxMS43IDIxLjcgMjguOSAyMS43IDQ4bDAgNjQtNjQgMEw5NiA1MTJsLTY0IDAgMC02NGMwLTE5LjEgOC40LTM2LjMgMjEuNy00OEM0MC40IDM4OC4zIDMyIDM3MS4xIDMyIDM1MnM4LjQtMzYuMyAyMS43LTQ4QzQwLjQgMjkyLjMgMzIgMjc1LjEgMzIgMjU2YzAtMTggNy40LTM0LjMgMTkuNC00NS45QzM5LjUgMTk5LjcgMzIgMTg0LjUgMzIgMTY3LjV6TTk2IDIyNGwwIDMyIDEyOCAwIDAtMzJMOTYgMjI0em0wIDEyOGwwIDMyIDEyOCAwIDAtMzJMOTYgMzUyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMjI0IDBMOTYgMGwwIDk2IDEyOCAwIDAtOTZ6TTk2IDIyNGwwIDMyIDEyOCAwIDAtMzJMOTYgMjI0em0wIDEyOGwwIDMyIDEyOCAwIDAtMzJMOTYgMzUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bottle-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bottle-water.svg)
  */
 const BottleWater: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>
         <path class={generic.secondary} d="M32 167.5c0-19.5 10-37.6 26.6-47.9C71.1 111.7 83.7 103.9 96 96l127.9 0c12.4 7.9 25 15.7 37.6 23.6C278 129.9 288 148 288 167.5c0 17-7.5 32.3-19.4 42.6C280.6 221.7 288 238 288 256c0 19.1-8.4 36.3-21.7 48c13.3 11.7 21.7 28.9 21.7 48s-8.4 36.3-21.7 48c13.3 11.7 21.7 28.9 21.7 48l0 64-64 0L96 512l-64 0 0-64c0-19.1 8.4-36.3 21.7-48C40.4 388.3 32 371.1 32 352s8.4-36.3 21.7-48C40.4 292.3 32 275.1 32 256c0-18 7.4-34.3 19.4-45.9C39.5 199.7 32 184.5 32 167.5zM96 224l0 32 128 0 0-32L96 224zm0 128l0 32 128 0 0-32L96 352z" />
-            <path d="M224 0L96 0l0 96 128 0 0-96zM96 224l0 32 128 0 0-32L96 224zm0 128l0 32 128 0 0-32L96 352z" />
+        <path d="M224 0L96 0l0 96 128 0 0-96zM96 224l0 32 128 0 0-32L96 224zm0 128l0 32 128 0 0-32L96 352z" />
     </Icon>
 );
 

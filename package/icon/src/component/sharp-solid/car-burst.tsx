@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-burst` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-burst?s=sharp-solid car-burst}
- * @preview ![car-burst](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE4LjIgODguNUwxNzYgMCAxMzMuOCA4OC41IDM4LjQgNjYuM2w0Mi45IDg4LjFMNC40IDIxNS4yIDEwMCAyMzYuNmwtLjQgOTggNTguNC00NyA0LjItMTUuNSAyNC44LTkyLjcgOC4zLTMwLjkgMzAuOSA4LjMgMTQuNCAzLjkgNjAtNzYuMyAxMC44LTEzLjcgMi4xLTQuNEwyMTguMiA4OC41ek0yODAuMyAxNjJsLTI3LjUgMzVzMCAwIDAgMEwyMTggMTg3LjZzMCAwIDAgMGwtOC4zIDMwLjktMTYuNiA2MS44LTEuNCA1LjQtMTUuMSA1Ni40TDE2MCA0MDRsNzcuMyAyMC43IDE2LjYtNjEuOCAyNDcuMyA2Ni4zTDQ4NC42IDQ5MWw3Ny4zIDIwLjcgMTYuNi02MS44TDU5NSAzODhsMjQuOC05Mi43TDU4NSAyODYgNTY4LjEgMTY5bC0zLTIwLjktMjAuNC01LjVMMzU5LjMgOTNsLTIwLjQtNS41LTEzIDE2LjZMMjgwLjMgMTYyek01MDcuOCAxOTlsOS45IDY4LjlMMzIwIDIxNWw0My4xLTU0LjdMNTA3LjggMTk5em0tMjI3IDYzLjRhMjQgMjQgMCAxIDEgLTEyLjQgNDYuNCAyNCAyNCAwIDEgMSAxMi40LTQ2LjR6bTIxNy45IDgzLjJBMjQgMjQgMCAxIDEgNTQ1IDM1OC4xYTI0IDI0IDAgMSAxIC00Ni40LTEyLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![car-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/car-burst.svg)
  */
 const CarBurst: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

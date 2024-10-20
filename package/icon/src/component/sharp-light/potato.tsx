@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `potato` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/potato?s=sharp-light potato}
- * @preview ![potato](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE4LjYgMjMwLjZsMi44LTIuOCAyLTMuNCA0My45LTczLjEgNzMuMS00My45IDMuNC0yIDIuOC0yLjggMzYuOS0zNi45QzMwNS4xIDQ0LjEgMzM0LjQgMzIgMzY0LjkgMzJDNDI4LjUgMzIgNDgwIDgzLjUgNDgwIDE0Ny4xYzAgMzAuNS0xMi4xIDU5LjgtMzMuNyA4MS40bC00LjkgNC45LTMuMiAzLjItMi4yIDMuOUwzNjEuMyAzNzQuOSAyNTkuNCA0MTguNmwtNS43IDIuNC00LjQgNC40LTIwLjkgMjAuOWMtMjEuNiAyMS42LTUwLjkgMzMuNy04MS40IDMzLjdDODMuNSA0ODAgMzIgNDI4LjUgMzIgMzY0LjljMC0zMC41IDEyLjEtNTkuOCAzMy43LTgxLjRsNTIuOS01Mi45ek0yMjQgODBsLTgwIDQ4TDk2IDIwOCA0My4xIDI2MC45QzE1LjUgMjg4LjUgMCAzMjUuOSAwIDM2NC45QzAgNDQ2LjIgNjUuOCA1MTIgMTQ3LjEgNTEyYzM5IDAgNzYuNC0xNS41IDEwNC00My4xTDI3MiA0NDhsMTEyLTQ4IDgwLTE0NCA0LjktNC45YzI3LjYtMjcuNiA0My4xLTY1IDQzLjEtMTA0QzUxMiA2NS44IDQ0Ni4yIDAgMzY0LjkgMGMtMzkgMC03Ni40IDE1LjUtMTA0IDQzLjFMMjI0IDgwem0xMTIgOTZsMCAzMiAzMiAwIDAtMzItMzIgMHpNMjA4IDI0MGwtMzIgMCAwIDMyIDMyIDAgMC0zMnpNMTc2IDM2OGwtMzIgMCAwIDMyIDMyIDAgMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![potato](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/potato.svg)
  */
 const Potato: typeof Icon = x => (
     <Icon {...x}>

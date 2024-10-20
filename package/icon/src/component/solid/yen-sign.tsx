@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `yen-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/yen-sign?s=solid yen-sign}
- * @preview ![yen-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTguNiA0Ni4zQzQ4LjggMzEuNSAyOSAyNy42IDE0LjIgMzcuNFMtNC40IDY3IDUuNCA4MS44TDEwMC4yIDIyNCA0OCAyMjRjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsODAgMCAwIDMyLTgwIDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsODAgMCAwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC02NCA4MCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC04MCAwIDAtMzIgODAgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtNTIuMiAwTDMxNC42IDgxLjhjOS44LTE0LjcgNS44LTM0LjYtOC45LTQ0LjRzLTM0LjYtNS44LTQ0LjQgOC45TDE2MCAxOTguMyA1OC42IDQ2LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![yen-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/yen-sign.svg)
  */
 const YenSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

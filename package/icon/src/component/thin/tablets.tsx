@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tablets` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tablets?s=thin tablets}
- * @preview ![tablets](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDI2Ny4zTDM3Mi43IDY0QzM0OS45IDg5LjUgMzM2IDEyMy4xIDMzNiAxNjBjMCA3OS41IDY0LjUgMTQ0IDE0NCAxNDRjMzYuOSAwIDcwLjUtMTMuOSA5Ni0zNi43ek01ODcuMyAyNTZjMjIuOC0yNS41IDM2LjctNTkuMSAzNi43LTk2YzAtNzkuNS02NC41LTE0NC0xNDQtMTQ0Yy0zNi45IDAtNzAuNSAxMy45LTk2IDM2LjdMNTg3LjMgMjU2ek0zMjAgMTYwYTE2MCAxNjAgMCAxIDEgMzIwIDAgMTYwIDE2MCAwIDEgMSAtMzIwIDB6TTMwMy44IDM2MEwxNi4yIDM2MEMyMC40IDQzNS44IDgzLjIgNDk2IDE2MCA0OTZzMTM5LjYtNjAuMiAxNDMuOC0xMzZ6bTAtMTZjLTQuMi03NS44LTY2LjktMTM2LTE0My44LTEzNlMyMC40IDI2OC4yIDE2LjIgMzQ0bDI4Ny42IDB6TTE2MCAxOTJhMTYwIDE2MCAwIDEgMSAwIDMyMCAxNjAgMTYwIDAgMSAxIDAtMzIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tablets](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tablets.svg)
  */
 const Tablets: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

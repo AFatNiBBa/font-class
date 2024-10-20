@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ramp-loading` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ramp-loading?s=sharp-light ramp-loading}
- * @preview ![ramp-loading](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJsMzIwIDAgMCAzMDkuNyAzMiA1OC43IDAtMTYuNCAwLTM1MiAwLTMyTDM4NCAwIDY0IDAgMzIgMGwwIDMyIDAgMzUyIDAgMTYuNCAzMi01OC43TDY0IDMyem04MCAyNTZsLTkuNSAwLTQuNSA4LjQtMTA0IDE5MkwxMy4xIDUxMiA0MCA1MTJsMzY4IDAgMjYuOSAwLTEyLjgtMjMuNi0xMDQtMTkyLTQuNS04LjQtOS41IDAtMTYwIDB6TTY2LjkgNDgwbDg2LjctMTYwIDE0MC45IDAgODYuNyAxNjBMNjYuOSA0ODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ramp-loading](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ramp-loading.svg)
  */
 const RampLoading: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

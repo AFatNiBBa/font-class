@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `black-tie` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/black-tie?s=brands black-tie}
- * @preview ![black-tie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMnY0NDhoNDQ4VjMySDB6bTMxNi41IDMyNS4yTDIyNCA0NDUuOWwtOTIuNS04OC43IDY0LjUtMTg0LTY0LjUtODYuNmgxODQuOUwyNTIgMTczLjJsNjQuNSAxODR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![black-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/black-tie.svg)
  */
 const BlackTie: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

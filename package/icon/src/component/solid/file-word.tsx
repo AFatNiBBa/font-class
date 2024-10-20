@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-word` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-word?s=solid file-word}
- * @preview ![file-word](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yODgtMTI4IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyTDIyNCAwIDY0IDB6TTI1NiAwbDAgMTI4IDEyOCAwTDI1NiAwek0xMTEgMjU3LjFsMjYuOCA4OS4yIDMxLjYtOTAuM2MzLjQtOS42IDEyLjUtMTYuMSAyMi43LTE2LjFzMTkuMyA2LjQgMjIuNyAxNi4xbDMxLjYgOTAuM0wyNzMgMjU3LjFjMy44LTEyLjcgMTcuMi0xOS45IDI5LjktMTYuMXMxOS45IDE3LjIgMTYuMSAyOS45bC00OCAxNjBjLTMgMTAtMTIgMTYuOS0yMi40IDE3LjFzLTE5LjgtNi4yLTIzLjItMTYuMUwxOTIgMzM2LjZsLTMzLjMgOTUuM2MtMy40IDkuOC0xMi44IDE2LjMtMjMuMiAxNi4xcy0xOS41LTcuMS0yMi40LTE3LjFsLTQ4LTE2MGMtMy44LTEyLjcgMy40LTI2LjEgMTYuMS0yOS45czI2LjEgMy40IDI5LjkgMTYuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-word](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-word.svg)
  */
 const FileWord: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

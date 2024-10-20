@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-king` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-king?s=regular chess-king}
- * @preview ![chess-king](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ4IDI0YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMzItMzIgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwzMiAwIDAgNDBMNTkuNiAxNDRDMjYuNyAxNDQgMCAxNzAuNyAwIDIwMy42YzAgOC4yIDEuNyAxNi4zIDQuOSAyMy44TDU5LjEgMzUybDUyLjMgMEw0OSAyMDguMmMtLjYtMS41LTEtMy0xLTQuNmMwLTYuNCA1LjItMTEuNiAxMS42LTExLjZMMjI0IDE5MmwxNjQuNCAwYzYuNCAwIDExLjYgNS4yIDExLjYgMTEuNmMwIDEuNi0uMyAzLjItMSA0LjZMMzM2LjUgMzUybDUyLjMgMCA1NC4yLTEyNC42YzMuMy03LjUgNC45LTE1LjYgNC45LTIzLjhjMC0zMi45LTI2LjctNTkuNi01OS42LTU5LjZMMjQ4IDE0NGwwLTQwIDMyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTMyIDAgMC0zMnpNMTAxLjIgNDMybDI0NS42IDAgMTYuNiAzMkw4NC43IDQ2NGwxNi42LTMyem0yODMuNy0zMC43Yy01LjUtMTAuNi0xNi41LTE3LjMtMjguNC0xNy4zbC0yNjUgMGMtMTIgMC0yMi45IDYuNy0yOC40IDE3LjNMMzYuNiA0NTIuNWMtMyA1LjgtNC42IDEyLjItNC42IDE4LjdDMzIgNDkzLjggNTAuMiA1MTIgNzIuOCA1MTJsMzAyLjUgMGMyMi41IDAgNDAuOC0xOC4yIDQwLjgtNDAuOGMwLTYuNS0xLjYtMTIuOS00LjYtMTguN2wtMjYuNS01MS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chess-king](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chess-king.svg)
  */
 const ChessKing: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

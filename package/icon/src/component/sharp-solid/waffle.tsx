@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `waffle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waffle?s=sharp-solid waffle}
- * @preview ![waffle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMEEyNTYgMjU2IDAgMSAxIDAgMjU2ek0xNzYgODBsLTMyIDAgMCAxNiAwIDQ4LTQ4IDAtMTYgMCAwIDMyIDE2IDAgNDggMCAwIDY0LTgwIDAtMTYgMCAwIDMyIDE2IDAgODAgMCAwIDY0LTQ4IDAtMTYgMCAwIDMyIDE2IDAgNDggMCAwIDQ4IDAgMTYgMzIgMCAwLTE2IDAtNDggNjQgMCAwIDgwIDAgMTYgMzIgMCAwLTE2IDAtODAgNjQgMCAwIDQ4IDAgMTYgMzIgMCAwLTE2IDAtNDggNDggMCAxNiAwIDAtMzItMTYgMC00OCAwIDAtNjQgODAgMCAxNiAwIDAtMzItMTYgMC04MCAwIDAtNjQgNDggMCAxNiAwIDAtMzItMTYgMC00OCAwIDAtNDggMC0xNi0zMiAwIDAgMTYgMCA0OC02NCAwIDAtODAgMC0xNi0zMiAwIDAgMTYgMCA4MC02NCAwIDAtNDggMC0xNnptMCAyNTZsMC02NCA2NCAwIDAgNjQtNjQgMHptOTYgMGwwLTY0IDY0IDAgMCA2NC02NCAwem02NC0xNjBsMCA2NC02NCAwIDAtNjQgNjQgMHptLTk2IDBsMCA2NC02NCAwIDAtNjQgNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![waffle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/waffle.svg)
  */
 const Waffle: typeof Icon = x => (
     <Icon {...x}>

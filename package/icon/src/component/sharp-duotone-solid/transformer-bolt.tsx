@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `transformer-bolt` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transformer-bolt?s=sharp-duotone-solid transformer-bolt}
- * @preview ![transformer-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik00OCAzMmwwIDMyIDE2IDAgMjQgMCA0OCAwIDI0IDAgMTYgMCAwLTMyLTE2IDAtMjQgMCAwLTggMC0yNEw4OCAwbDAgMjQgMCA4TDY0IDMyIDQ4IDMyem0wIDY0bDAgMzIgMTYgMCA5NiAwIDE2IDAgMC0zMi0xNiAwTDY0IDk2IDQ4IDk2ek05NiAzNTJsNzAuNSA1Yy03LjUgMzUuNy0xNSA3MS4zLTIyLjUgMTA3TDI4OCAzMjBsLTcwLjUtNUwyNDAgMjA4IDk2IDM1MnpNMjA4IDMybDAgMzIgMTYgMCAyNCAwIDQ4IDAgMjQgMCAxNiAwIDAtMzItMTYgMC0yNCAwIDAtOCAwLTI0TDI0OCAwbDAgMjQgMCA4LTI0IDAtMTYgMHptMCA2NGwwIDMyIDE2IDAgOTYgMCAxNiAwIDAtMzItMTYgMC05NiAwLTE2IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0wIDE2MGwzMiAwIDMyMCAwIDMyIDAgMCA2NC0zMiAwIDAgMjI0IDMyIDAgMCA2NC0zMiAwTDMyIDUxMiAwIDUxMmwwLTY0IDMyIDAgMC0yMjRMMCAyMjRsMC02NHptMjQwIDQ4TDk2IDM1Mmw3MC41IDVMMTQ0IDQ2NCAyODggMzIwbC03MC41LTVMMjQwIDIwOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![transformer-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/transformer-bolt.svg)
  */
 const TransformerBolt: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>
         <path class={generic.secondary} d="M48 32l0 32 16 0 24 0 48 0 24 0 16 0 0-32-16 0-24 0 0-8 0-24L88 0l0 24 0 8L64 32 48 32zm0 64l0 32 16 0 96 0 16 0 0-32-16 0L64 96 48 96zM96 352l70.5 5c-7.5 35.7-15 71.3-22.5 107L288 320l-70.5-5L240 208 96 352zM208 32l0 32 16 0 24 0 48 0 24 0 16 0 0-32-16 0-24 0 0-8 0-24L248 0l0 24 0 8-24 0-16 0zm0 64l0 32 16 0 96 0 16 0 0-32-16 0-96 0-16 0z" />
-            <path d="M0 160l32 0 320 0 32 0 0 64-32 0 0 224 32 0 0 64-32 0L32 512 0 512l0-64 32 0 0-224L0 224l0-64zm240 48L96 352l70.5 5L144 464 288 320l-70.5-5L240 208z" />
+        <path d="M0 160l32 0 320 0 32 0 0 64-32 0 0 224 32 0 0 64-32 0L32 512 0 512l0-64 32 0 0-224L0 224l0-64zm240 48L96 352l70.5 5L144 464 288 320l-70.5-5L240 208z" />
     </Icon>
 );
 

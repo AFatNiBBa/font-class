@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clipboard-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-check?s=regular clipboard-check}
- * @preview ![clipboard-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDY0bC00MCAwLTkuNiAwQzI2MyAyNy41IDIzMC43IDAgMTkyIDBzLTcxIDI3LjUtNzguNCA2NEwxMDQgNjQgNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMjBjMC0zNS4zLTI4LjctNjQtNjQtNjR6TTgwIDExMmwwIDI0YzAgMTMuMyAxMC43IDI0IDI0IDI0bDg4IDAgODggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTI0IDE2IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMzIwYzAgOC44LTcuMiAxNi0xNiAxNkw2NCA0NjRjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTMyMGMwLTguOCA3LjItMTYgMTYtMTZsMTYgMHptODgtMzJhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHpNMjg5IDI2Ny42YzkuNC05LjQgOS40LTI0LjYgMC0zMy45cy0yNC42LTkuNC0zMy45IDBsLTg5LjcgODkuN0wxMjkgMjg3Yy05LjQtOS40LTI0LjYtOS40LTMzLjkgMHMtOS40IDI0LjYgMCAzMy45bDUzLjMgNTMuM2M0LjUgNC41IDEwLjYgNyAxNyA3czEyLjUtMi41IDE3LTdMMjg5IDI2Ny42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clipboard-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/clipboard-check.svg)
  */
 const ClipboardCheck: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

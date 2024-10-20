@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vent-damper` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vent-damper?s=sharp-regular vent-damper}
- * @preview ![vent-damper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDExMmwwIDI4OC00MTYgMCAwLTI4OCA0MTYgMHpNMTEyIDY0TDY0IDY0bDAgNDggMCA0OEwwIDE2MCAwIDM1Mmw2NCAwIDAgNDggMCA0OCA0OCAwIDQxNiAwIDQ4IDAgMC00OCAwLTQ4IDY0IDAgMC0xOTItNjQgMCAwLTQ4IDAtNDgtNDggMEwxMTIgNjR6bTcyIDgwbC0yNCAwIDAgNDggMjQgMCAyNzIgMCAyNCAwIDAtNDgtMjQgMC0yNzIgMHptMCA4OGwtMjQgMCAwIDQ4IDI0IDAgMjcyIDAgMjQgMCAwLTQ4LTI0IDAtMjcyIDB6bTAgODhsLTI0IDAgMCA0OCAyNCAwIDI3MiAwIDI0IDAgMC00OC0yNCAwLTI3MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vent-damper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/vent-damper.svg)
  */
 const VentDamper: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

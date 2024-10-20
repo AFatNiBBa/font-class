@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chair` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chair?s=sharp-thin chair}
- * @preview ![chair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDE2bDAgMjQwLTE2IDAgMC0yNDAtNTYgMCAwIDI0MC0xNiAwIDAtMjQwLTU2IDAgMCAyNDAtMTYgMCAwLTI0MEw4MCAxNmwwIDI0MC0xNiAwTDY0IDE2IDY0IDAgODAgMCAzNjggMGwxNiAwIDAgMTYgMCAyNDAtMTYgMCAwLTI0MC02NCAwek0xNiAzNjhsNDE2IDAgMC0xMi4yTDQwNi4xIDMwNCA0MS45IDMwNCAxNiAzNTUuOCAxNiAzNjh6TTAgMzY4bDAtMTYgMzItNjQgMzg0IDAgMzIgNjQgMCAxNiAwIDE2LTE2IDAtMzIgMCAwIDEyMCAwIDgtMTYgMCAwLTggMC0xMjBMNjQgMzg0bDAgMTIwIDAgOC0xNiAwIDAtOCAwLTEyMC0zMiAwTDAgMzg0bDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chair.svg)
  */
 const Chair: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

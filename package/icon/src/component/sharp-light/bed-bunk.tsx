@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bed-bunk` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-bunk?s=sharp-light bed-bunk}
- * @preview ![bed-bunk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTZMMzIgMCAwIDAgMCAxNiAwIDE3NiAwIDQzMS43IDAgNDk2bDAgMTYgMzIgMCAwLTE2IDAtNDguMyAyMDggMCAzMDQgMCAwIDQ4LjMgMCAxNiAzMiAwIDAtMTYgMC02NC4zTDU3NiAyNzJsMC05NiAwLTY0QzU3NiA1MC4xIDUyNS45IDAgNDY0IDBMMjQwIDAgMjI0IDBsMCAxNiAwIDE0NEwzMiAxNjAgMzIgMTZ6TTIyNCAyNzJsMCAxNDMuNy0xOTIgMEwzMiAxOTJsMjA4IDAgMzA0IDAgMCA2NC0zMDQgMC0xNiAwIDAgMTZ6TTU0NCAxMTJsMCA0OC0yODggMCAwLTEyOCAyMDggMGM0NC4yIDAgODAgMzUuOCA4MCA4MHpNMjU2IDI4OGwyODggMCAwIDEyNy43LTI4OCAwTDI1NiAyODh6TTEyOCAzMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTAgOTZBNjQgNjQgMCAxIDAgMTI4IDBhNjQgNjQgMCAxIDAgMCAxMjh6bTAgMTYwYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptMCA5NmE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bed-bunk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bed-bunk.svg)
  */
 const BedBunk: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

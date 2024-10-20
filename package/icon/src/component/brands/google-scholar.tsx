@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `google-scholar` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/google-scholar?s=brands google-scholar}
- * @preview ![google-scholar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkwLjkgMjk4LjVjMCAwIDAgLjEgLjEgLjFjOS4yIDE5LjQgMTQuNCA0MS4xIDE0LjQgNjRDNDA1LjMgNDQ1LjEgMzM4LjUgNTEyIDI1NiA1MTJzLTE0OS4zLTY2LjktMTQ5LjMtMTQ5LjNjMC0yMi45IDUuMi00NC42IDE0LjQtNjRoMGMxLjctMy42IDMuNi03LjIgNS42LTEwLjdjNC40LTcuNiA5LjQtMTQuNyAxNS0yMS4zYzI3LjQtMzIuNiA2OC41LTUzLjMgMTE0LjQtNTMuM2MzMy42IDAgNjQuNiAxMS4xIDg5LjYgMjkuOWM5LjEgNi45IDE3LjQgMTQuNyAyNC44IDIzLjVjNS42IDYuNiAxMC42IDEzLjggMTUgMjEuM2MyIDMuNCAzLjggNyA1LjUgMTAuNXptMjYuNC0xOC44Yy0zMC4xLTU4LjQtOTEtOTguNC0xNjEuMy05OC40cy0xMzEuMiA0MC0xNjEuMyA5OC40TDAgMjAyLjcgMjU2IDAgNTEyIDIwMi43bC05NC43IDc3LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![google-scholar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/google-scholar.svg)
  */
 const GoogleScholar: typeof Icon = x => (
     <Icon {...x}>

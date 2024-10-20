@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grid-2-plus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-2-plus?s=sharp-regular grid-2-plus}
- * @preview ![grid-2-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDgwTDgwIDgwbDAgOTYgOTYgMCAwLTk2ek04MCAzMmw5NiAwIDQ4IDAgMCA0OCAwIDk2IDAgNDgtNDggMC05NiAwLTQ4IDAgMC00OCAwLTk2IDAtNDggNDggMHptOTYgMzA0bC05NiAwIDAgOTYgOTYgMCAwLTk2ek04MCAyODhsOTYgMCA0OCAwIDAgNDggMCA5NiAwIDQ4LTQ4IDAtOTYgMC00OCAwIDAtNDggMC05NiAwLTQ4IDQ4IDB6TTMzNiA4MGwwIDk2IDk2IDAgMC05Ni05NiAwek0yODggMzJsNDggMCA5NiAwIDQ4IDAgMCA0OCAwIDk2IDAgNDgtNDggMC05NiAwLTQ4IDAgMC00OCAwLTk2IDAtNDh6TTQwOCAyNzJsMCAyNCAwIDY0IDY0IDAgMjQgMCAwIDQ4LTI0IDAtNjQgMCAwIDY0IDAgMjQtNDggMCAwLTI0IDAtNjQtNjQgMC0yNCAwIDAtNDggMjQgMCA2NCAwIDAtNjQgMC0yNCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![grid-2-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/grid-2-plus.svg)
  */
 const Grid_2Plus: typeof Icon = x => (
     <Icon {...x}>

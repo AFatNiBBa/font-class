@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gofore` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gofore?s=brands gofore}
- * @preview ![gofore](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI0IDMxOS44aC0xMy4ydjM0LjdjLTI0LjUgMjMuMS01Ni4zIDM1LjgtODkuOSAzNS44LTczLjIgMC0xMzIuNC02MC4yLTEzMi40LTEzNC40IDAtNzQuMSA1OS4yLTEzNC40IDEzMi40LTEzNC40IDM1LjMgMCA2OC42IDE0IDkzLjYgMzkuNGw2Mi4zLTYzLjNDMzM1IDU1LjMgMjc5LjcgMzIgMjIwLjcgMzIgOTggMzIgMCAxMzIuNiAwIDI1NmMwIDEyMi41IDk3IDIyNCAyMjAuNyAyMjQgNjMuMiAwIDEyNC41LTI2LjIgMTcxLTgyLjUtMi0yNy42LTEzLjQtNzcuNy02Ny43LTc3Ljd6bS0xMi4xLTExMi41SDIwNS42djg5SDMyNGMzMy41IDAgNjAuNSAxNS4xIDc2IDQxLjh2LTMwLjZjMC02NS4yLTQwLjQtMTAwLjItODguMS0xMDAuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gofore](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/gofore.svg)
  */
 const Gofore: typeof Icon = x => (
     <Icon viewBox="0 0 400 512" {...x}>

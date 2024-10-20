@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-plus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-plus?s=regular cart-plus}
- * @preview ![cart-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNEMwIDEwLjcgMTAuNyAwIDI0IDBMNjkuNSAwYzI2LjkgMCA1MCAxOS4xIDU1IDQ1LjVsMzcgMTk0LjUgMjk3LjYgMGMxMC45IDAgMjAuNC03LjMgMjMuMi0xNy44TDUyOC44IDQ5LjhjMy40LTEyLjggMTYuNi0yMC40IDI5LjQtMTYuOXMyMC40IDE2LjYgMTYuOSAyOS40TDUyOC43IDIzNC43Yy04LjUgMzEuNC0zNyA1My4zLTY5LjUgNTMuM2wtMjg4LjUgMCA1LjQgMjguNWMyLjIgMTEuMyAxMi4xIDE5LjUgMjMuNiAxOS41TDQ4OCAzMzZjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTI4OC4zIDBjLTM0LjYgMC02NC4zLTI0LjYtNzAuNy01OC41TDc3LjQgNTQuNWMtLjctMy44LTQtNi41LTcuOS02LjVMMjQgNDhDMTAuNyA0OCAwIDM3LjMgMCAyNHpNMTI4IDQ2NGE0OCA0OCAwIDEgMSA5NiAwIDQ4IDQ4IDAgMSAxIC05NiAwem0zMzYtNDhhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2ek0zNDQgNDhsMCA0MCA0MCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC00MCAwIDAgNDBjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC00MC00MCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0bDQwIDAgMC00MGMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cart-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cart-plus.svg)
  */
 const CartPlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

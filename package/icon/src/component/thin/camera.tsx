@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera?s=thin camera}
- * @preview ![camera](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk2LjggMzJjLTIwLjcgMC0zOSAxMy4yLTQ1LjUgMzIuOEwxNDAuOSA5NiA2NCA5NkMyOC43IDk2IDAgMTI0LjcgMCAxNjBMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNTZjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTc2LjkgMEwzNjAuNyA2NC44QzM1NC4yIDQ1LjIgMzM1LjggMzIgMzE1LjIgMzJMMTk2LjggMzJ6TTE2Ni41IDY5LjlDMTcwLjggNTYuOCAxODMuMSA0OCAxOTYuOCA0OGwxMTguMyAwYzEzLjggMCAyNiA4LjggMzAuNCAyMS45bDEyLjIgMzYuNmMxLjEgMy4zIDQuMSA1LjUgNy42IDUuNWw4Mi43IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAyNTZjMCAyNi41LTIxLjUgNDgtNDggNDhMNjQgNDY0Yy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTI1NmMwLTI2LjUgMjEuNS00OCA0OC00OGw4Mi43IDBjMy40IDAgNi41LTIuMiA3LjYtNS41bDEyLjItMzYuNnpNMjU2IDQwMGExMTIgMTEyIDAgMSAwIDAtMjI0IDExMiAxMTIgMCAxIDAgMCAyMjR6TTE2MCAyODhhOTYgOTYgMCAxIDEgMTkyIDAgOTYgOTYgMCAxIDEgLTE5MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![camera](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/camera.svg)
  */
 const Camera: typeof Icon = x => (
     <Icon {...x}>

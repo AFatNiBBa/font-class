@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mushroom` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mushroom?s=solid mushroom}
- * @preview ![mushroom](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMjU4LjFDMjQgMTMzLjIgMTI1LjIgMzIgMjUwLjEgMzJsMTEuOCAwQzM4Ni44IDMyIDQ4OCAxMzMuMiA0ODggMjU4LjFjMCAzNC4yLTI3LjcgNjEuOS02MS45IDYxLjlMMzEzIDMyMGwtMTE0IDBMODUuOSAzMjBDNTEuNyAzMjAgMjQgMjkyLjMgMjQgMjU4LjF6bTM4Ny41LTk2LjdjLTMuNy0uOS03LjUtMS40LTExLjUtMS40Yy0yNi41IDAtNDggMjEuNS00OCA0OHMyMS41IDQ4IDQ4IDQ4YzE1LjkgMCAzMC03LjcgMzguNy0xOS42Yy0zLjMtMjcuNC0xMi45LTUyLjktMjcuMi03NXpNMTQ1LjkgMTEzLjZjOCAzNS43IDM5LjkgNjIuNCA3OC4xIDYyLjRjNDQuMiAwIDgwLTM1LjggODAtODBjMC0zLjgtLjMtNy41LS44LTExLjJDMjkwIDgxLjcgMjc2LjEgODAgMjYxLjkgODBsLTExLjggMGMtMzguOSAwLTc0LjkgMTIuNS0xMDQuMiAzMy42ek0xOTEgMzUybDEzMCAwTDM0MyA0NDAuMmMyLjQgOS42IC4yIDE5LjctNS44IDI3LjVzLTE1LjQgMTIuMy0yNS4yIDEyLjNsLTExMiAwYy05LjkgMC0xOS4yLTQuNS0yNS4yLTEyLjNzLTguMi0xNy45LTUuOC0yNy41TDE5MSAzNTJ6TTE2MCAyMjRhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mushroom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mushroom.svg)
  */
 const Mushroom: typeof Icon = x => (
     <Icon {...x}>

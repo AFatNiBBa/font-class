@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lock-open` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-open?s=thin lock-open}
- * @preview ![lock-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDEyOGMwLTYxLjkgNTAuMS0xMTIgMTEyLTExMnMxMTIgNTAuMSAxMTIgMTEybDAgODhjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTg4QzU3NiA1Ny4zIDUxOC43IDAgNDQ4IDBTMzIwIDU3LjMgMzIwIDEyOGwwIDY0TDY0IDE5MmMtMzUuMyAwLTY0IDI4LjctNjQgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0xOTJjMC0zNS4zLTI4LjctNjQtNjQtNjRsLTQ4IDAgMC02NHptLTE2IDgwbDE2IDAgNDggMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDE5MmMwIDI2LjUtMjEuNSA0OC00OCA0OEw2NCA0OTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMTkyYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDI1NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lock-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/lock-open.svg)
  */
 const LockOpen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

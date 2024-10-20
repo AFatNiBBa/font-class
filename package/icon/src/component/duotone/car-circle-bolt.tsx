@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `car-circle-bolt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-circle-bolt?s=duotone car-circle-bolt}
- * @preview ![car-circle-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NkwwIDQwMGwwIDQ4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC00OCAyMjYuOSAwYy0xLjktMTAuNC0yLjktMjEuMS0yLjktMzJjMC04OC44IDY1LjgtMTYyLjMgMTUxLjMtMTc0LjNMNDM3LjIgOTYuM0M0MjMuNyA1Ny44IDM4Ny40IDMyIDM0Ni42IDMyTDE2NS40IDMyYy00MC44IDAtNzcuMSAyNS44LTkwLjYgNjQuM0wzOS42IDE5Ni44QzE2LjQgMjA2LjQgMCAyMjkuMyAwIDI1NnptMTI4IDMyYTMyIDMyIDAgMSAxIC02NCAwIDMyIDMyIDAgMSAxIDY0IDB6bS0xOC45LTk2bDI2LjEtNzQuNmM0LjUtMTIuOCAxNi42LTIxLjQgMzAuMi0yMS40bDE4MS4yIDBjMTMuNiAwIDI1LjcgOC42IDMwLjIgMjEuNEw0MDIuOSAxOTJsLTI5My44IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zNTIgMzY4YTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTE5NC41LTY2LjJjMi44LTUgMS43LTExLjEtMi42LTE0LjlzLTEwLjYtNC0xNS4xLS42bC05NiA3MmMtNC4xIDMuMS01LjggOC41LTQuMiAxMy40czYuMiA4LjIgMTEuNCA4LjJsMzUuNiAwLTMwLjEgNTQuMmMtMi44IDUtMS43IDExLjEgMi42IDE0LjlzMTAuNiA0IDE1LjEgLjZsOTYtNzJjNC4xLTMuMSA1LjgtOC41IDQuMi0xMy40cy02LjItOC4yLTExLjQtOC4ybC0zNS42IDAgMzAuMS01NC4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![car-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/car-circle-bolt.svg)
  */
 const CarCircleBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 256L0 400l0 48c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-48 226.9 0c-1.9-10.4-2.9-21.1-2.9-32c0-88.8 65.8-162.3 151.3-174.3L437.2 96.3C423.7 57.8 387.4 32 346.6 32L165.4 32c-40.8 0-77.1 25.8-90.6 64.3L39.6 196.8C16.4 206.4 0 229.3 0 256zm128 32a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm-18.9-96l26.1-74.6c4.5-12.8 16.6-21.4 30.2-21.4l181.2 0c13.6 0 25.7 8.6 30.2 21.4L402.9 192l-293.8 0z" />
-            <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm194.5-66.2c2.8-5 1.7-11.1-2.6-14.9s-10.6-4-15.1-.6l-96 72c-4.1 3.1-5.8 8.5-4.2 13.4s6.2 8.2 11.4 8.2l35.6 0-30.1 54.2c-2.8 5-1.7 11.1 2.6 14.9s10.6 4 15.1 .6l96-72c4.1-3.1 5.8-8.5 4.2-13.4s-6.2-8.2-11.4-8.2l-35.6 0 30.1-54.2z" />
+        <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm194.5-66.2c2.8-5 1.7-11.1-2.6-14.9s-10.6-4-15.1-.6l-96 72c-4.1 3.1-5.8 8.5-4.2 13.4s6.2 8.2 11.4 8.2l35.6 0-30.1 54.2c-2.8 5-1.7 11.1 2.6 14.9s10.6 4 15.1 .6l96-72c4.1-3.1 5.8-8.5 4.2-13.4s-6.2-8.2-11.4-8.2l-35.6 0 30.1-54.2z" />
     </Icon>
 );
 

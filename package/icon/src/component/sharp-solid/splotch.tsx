@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `splotch` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/splotch?s=sharp-solid splotch}
- * @preview ![splotch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBoODBsMzAuOSAxMDNjMTAuOCAzNS45IDM3LjcgNjQuNyA3Mi44IDc3LjlMNTEyIDIwOHY2NGwtNzMuMiA1NC45Yy0zNCAyNS41LTUyIDY3LTQ3LjMgMTA5LjNMNDAwIDUxMkgzMDRsLTczLjMtNTguNmMtNC41LTMuNi05LjMtNi43LTE0LjUtOS4yYy0xNS44LTcuOS0zMy43LTEwLjQtNTEtNy4zTDE2IDQ2NFYzNzZsMjQuMy0yOS4xYzE0LjYtMTcuNCAyMi42LTM5LjQgMjIuNi02Mi4xYzAtMTguOC01LjUtMzcuMi0xNS44LTUzTDAgMTYwVjgwTDEwMS4xIDk3LjJjNDQgNy41IDg4LjUtMTAuMSAxMTUuNS00NS41TDI1NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![splotch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/splotch.svg)
  */
 const Splotch: typeof Icon = x => (
     <Icon {...x}>

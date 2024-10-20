@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chair-office` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chair-office?s=sharp-regular chair-office}
- * @preview ![chair-office](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDQ4bDAgMTc2IDQ4IDAgMC0xNzYgMC00OEwzMDQgMCAxNDQgMCA5NiAwbDAgNDggMCAxNzYgNDggMCAwLTE3NiAxNjAgMHpNNjQgMTUybDAtMjQtNDggMCAwIDI0IDAgNDggMCAyNCA0OCAwIDAtMjQgMC00OHptMzY4IDBsMC0yNC00OCAwIDAgMjQgMCA0OCAwIDI0IDQ4IDAgMC0yNCAwLTQ4ek0yNDggNDAwbDEyMCAwIDQ4IDAgMC0zMi02LjktMTZMMzY4IDI1NiA4MCAyNTYgMzguOSAzNTIgMzIgMzY4bDAgMzIgNDggMCAxMjAgMCAwIDY0LTQ4IDAtMjQgMCAwIDQ4IDI0IDAgNzIgMCA3MiAwIDI0IDAgMC00OC0yNCAwLTQ4IDAgMC02NHpNMTExLjcgMzA0bDIyNC43IDAgMjAuNiA0OEwyNDggMzUybC00OCAwTDkxLjEgMzUybDIwLjYtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chair-office](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chair-office.svg)
  */
 const ChairOffice: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

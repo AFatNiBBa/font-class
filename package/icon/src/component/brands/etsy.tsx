@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `etsy` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/etsy?s=brands etsy}
- * @preview ![etsy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDM0OGMtMS43NSAxMC43NS0xMy43NSAxMTAtMTUuNSAxMzItMTE3Ljg3OS00LjI5OS0yMTkuODk1LTQuNzQzLTM2OC41IDB2LTI1LjVjNDUuNDU3LTguOTQ4IDYwLjYyNy04LjAxOSA2MS0zNS4yNSAxLjc5My03Mi4zMjIgMy41MjQtMjQ0LjE0MyAwLTMyMi0xLjAyOS0yOC40Ni0xMi4xMy0yNi43NjUtNjEtMzZ2LTI1LjVjNzMuODg2IDIuMzU4IDI1NS45MzMgOC41NTEgMzYyLjk5OS0zLjc1LTMuNSAzOC4yNS03Ljc1IDEyNi41LTcuNzUgMTI2LjVIMzMyQzMyMC45NDcgMTE1LjY2NSAzMTMuMjQxIDY4IDI3Ny4yNSA2OGgtMTM3Yy0xMC4yNSAwLTEwLjc1IDMuNS0xMC43NSA5Ljc1VjI0MS41YzU4IC41IDg4LjUtMi41IDg4LjUtMi41IDI5Ljc3LS45NTEgMjcuNTYtOC41MDIgNDAuNzUtNjUuMjUxaDI1Ljc1Yy00LjQwNyAxMDEuMzUxLTMuOTEgNjEuODI5LTEuNzUgMTYwLjI1SDI1N2MtOS4xNTUtNDAuMDg2LTkuMDY1LTYxLjA0NS0zOS41MDEtNjEuNSAwIDAtMjEuNS0yLTg4LTJ2MTM5YzAgMjYgMTQuMjUgMzguMjUgNDQuMjUgMzguMjVIMjYzYzYzLjYzNiAwIDY2LjU2NC0yNC45OTYgOTguNzUxLTk5Ljc1SDM4NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![etsy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/etsy.svg)
  */
 const Etsy: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

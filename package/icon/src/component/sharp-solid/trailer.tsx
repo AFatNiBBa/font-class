@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trailer` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trailer?s=sharp-solid trailer}
- * @preview ![trailer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDMyTDAgMzIgMCAzODRsNjUuMSAwYzcuOC01NC4zIDU0LjQtOTYgMTEwLjktOTZzMTAzLjEgNDEuNyAxMTAuOSA5Nkw0ODAgMzg0bDMyIDAgMzIgMCA2NCAwIDMyIDAgMC02NC0zMiAwLTY0IDAgMC0yODh6TTQ4MCAzMjBsLTMyIDAgMC0xNiAwLTE5MiAwLTE2IDMyIDAgMCAxNiAwIDE5MiAwIDE2ek05NiA5NmwwIDE2IDAgMTMxLjJjLTExLjQgNS45LTIyLjIgMTIuOS0zMiAyMUw2NCAxMTJsMC0xNiAzMiAwem04MCAxMjhjLTUuNCAwLTEwLjcgLjItMTYgLjdMMTYwIDExMmwwLTE2IDMyIDAgMCAxNiAwIDExMi43Yy01LjMtLjUtMTAuNi0uNy0xNi0uN3ptODAgMTkuMkwyNTYgMTEybDAtMTYgMzIgMCAwIDE2IDAgMTUyLjJjLTkuOC04LjEtMjAuNi0xNS4yLTMyLTIxek0zODQgOTZsMCAxNiAwIDE5MiAwIDE2LTMyIDAgMC0xNiAwLTE5MiAwLTE2IDMyIDB6TTE3NiA0ODBhODAgODAgMCAxIDAgMC0xNjAgODAgODAgMCAxIDAgMCAxNjB6bTAtMTEyYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trailer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/trailer.svg)
  */
 const Trailer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

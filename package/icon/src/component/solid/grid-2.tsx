@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grid-2` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-2?s=solid grid-2}
- * @preview ![grid-2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDgwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDgwIDMyQzUzLjUgMzIgMzIgNTMuNSAzMiA4MGwwIDk2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDk2IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC05NnptMCAyNTZjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTk2IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgOTZjMCAyNi41IDIxLjUgNDggNDggNDhsOTYgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTk2ek0yODggODBsMCA5NmMwIDI2LjUgMjEuNSA0OCA0OCA0OGw5NiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtOTZjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTk2IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4ek00ODAgMzM2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC05NiAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDk2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDk2IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![grid-2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/grid-2.svg)
  */
 const Grid_2: typeof Icon = x => (
     <Icon {...x}>

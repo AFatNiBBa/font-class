@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-left-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left-up?s=regular turn-left-up}
- * @preview ![turn-left-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4LjQgNi41Yy05LjItOC43LTIzLjctOC43LTMyLjkgMEw0Ni42IDEyNy45Yy05LjMgOC44LTE0LjYgMjEtMTQuNiAzMy43QzMyIDE4Ny4zIDUyLjcgMjA4IDc4LjMgMjA4bDQxLjcgMCAwIDE0NGMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MGw0OCAwYzMwLjkgMCA1Ni0yNS4xIDU2LTU2bDAtMzJjMC0zMC45LTI1LjEtNTYtNTYtNTZsLTU2IDBjLTQuNCAwLTgtMy42LTgtOGwwLTE1MiA0MS43IDBjMjUuNiAwIDQ2LjMtMjAuNyA0Ni4zLTQ2LjNjMC0xMi44LTUuMy0yNS0xNC42LTMzLjdMMjA4LjQgNi41em05MyAxNTMuNUwyNDAgMTYwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDE3NmMwIDMwLjkgMjUuMSA1NiA1NiA1Nmw1NiAwYzQuNCAwIDggMy42IDggOGwwIDMyYzAgNC40LTMuNiA4LTggOGwtNDggMGMtNjEuOSAwLTExMi01MC4xLTExMi0xMTJsMC0xNjhjMC0xMy4zLTEwLjctMjQtMjQtMjRsLTYxLjUgMEwxOTIgNTcgMzAxLjUgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![turn-left-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/turn-left-up.svg)
  */
 const TurnLeftUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `layer-minus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-minus?s=solid layer-minus}
- * @preview ![layer-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA4IDU2Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDExMiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDQwOCA1NnptLTk2LjUgNzcuMmMtMTQuOS02LjktMzIuMS02LjktNDcgMEw0NS45IDIzNC4yQzM3LjQgMjM4LjEgMzIgMjQ2LjYgMzIgMjU2czUuNCAxNy45IDEzLjkgMjEuOGwyMTguNiAxMDFjMTQuOSA2LjkgMzIuMSA2LjkgNDcgMGwyMTguNi0xMDFjOC41LTMuOSAxMy45LTEyLjQgMTMuOS0yMS44cy01LjQtMTcuOS0xMy45LTIxLjhsLTIxOC42LTEwMXptMTMuNCAyNzQuN2MtMjMuNCAxMC44LTUwLjQgMTAuOC03My44IDBsLTE1Mi03MC4yTDQ1LjkgMzYyLjJDMzcuNCAzNjYuMSAzMiAzNzQuNiAzMiAzODRzNS40IDE3LjkgMTMuOSAyMS44bDIxOC42IDEwMWMxNC45IDYuOSAzMi4xIDYuOSA0NyAwbDIxOC42LTEwMWM4LjUtMy45IDEzLjktMTIuNCAxMy45LTIxLjhzLTUuNC0xNy45LTEzLjktMjEuOGwtNTMuMi0yNC42LTE1MiA3MC4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![layer-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/layer-minus.svg)
  */
 const LayerMinus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

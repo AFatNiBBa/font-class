@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `film-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film-slash?s=sharp-light film-slash}
- * @preview ![film-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIuNCAxMEwxOS45IC4xIC4xIDI1LjNsMTIuNiA5LjlMNjA3LjggNTAyLjJsMTIuNiA5LjkgMTkuOC0yNS4yLTEyLjYtOS45TDMyLjQgMTB6bTQ2OCA0NzBMNDQ4IDQzOC42bDAgOS40LTI1NiAwIDAtOTYgMC05NiAwLTE2LTMyIDAtNjQgMCAwLTY0IDAtMTUuM0w2NCAxMzUuNCA2NCA0NDhsMCAzMiAzMiAwIDQwNC40IDB6TTEzOS42IDMyTDE5MiA3My40bDAtOS40IDI1NiAwIDAgOTYgMCA5NiAwIDE2IDMyIDAgNjQgMCAwIDY0IDAgMTUuMyAzMiAyNS4zTDU3NiA2NGwwLTMyLTMyIDBMMTM5LjYgMzJ6TTE2MCA0NDhsLTY0IDAgMC04MCA2NCAwIDAgODB6TTk2IDMzNmwwLTY0IDY0IDAgMCA2NC02NCAwek00ODAgMTc2bDY0IDAgMCA2NC02NCAwIDAtNjR6bTY0LTMybC02NCAwIDAtODAgNjQgMCAwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![film-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/film-slash.svg)
  */
 const FilmSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

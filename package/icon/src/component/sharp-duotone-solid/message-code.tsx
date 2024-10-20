@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `message-code` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-code?s=sharp-duotone-solid message-code}
- * @preview ![message-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDBMNTEyIDBsMCA0MTYtMjA4IDBMMTYwIDUxMmwwLTk2TDAgNDE2IDAgMHpNMTAyLjEgMjA4bDE3IDE3IDY0IDY0IDE3IDE3TDIzMy45IDI3MmwtMTctMTctNDctNDcgNDctNDcgMTctMTdMMjAwIDExMC4xbC0xNyAxNy02NCA2NC0xNyAxN3ptMTc2LTY0bDE3IDE3IDQ3IDQ3LTQ3IDQ3LTE3IDE3TDMxMiAzMDUuOWwxNy0xNyA2NC02NCAxNy0xNy0xNy0xNy02NC02NC0xNy0xN0wyNzguMSAxNDR6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yMzMuOSAxNDRsLTE3IDE3LTQ3IDQ3IDQ3IDQ3IDE3IDE3TDIwMCAzMDUuOWwtMTctMTctNjQtNjQtMTctMTcgMTctMTcgNjQtNjQgMTctMTdMMjMzLjkgMTQ0ek0zMTIgMTEwLjFsMTcgMTcgNjQgNjQgMTcgMTctMTcgMTctNjQgNjQtMTcgMTdMMjc4LjEgMjcybDE3LTE3IDQ3LTQ3LTQ3LTQ3LTE3LTE3TDMxMiAxMTAuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![message-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/message-code.svg)
  */
 const MessageCode: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 0L512 0l0 416-208 0L160 512l0-96L0 416 0 0zM102.1 208l17 17 64 64 17 17L233.9 272l-17-17-47-47 47-47 17-17L200 110.1l-17 17-64 64-17 17zm176-64l17 17 47 47-47 47-17 17L312 305.9l17-17 64-64 17-17-17-17-64-64-17-17L278.1 144z" />
-            <path d="M233.9 144l-17 17-47 47 47 47 17 17L200 305.9l-17-17-64-64-17-17 17-17 64-64 17-17L233.9 144zM312 110.1l17 17 64 64 17 17-17 17-64 64-17 17L278.1 272l17-17 47-47-47-47-17-17L312 110.1z" />
+        <path d="M233.9 144l-17 17-47 47 47 47 17 17L200 305.9l-17-17-64-64-17-17 17-17 64-64 17-17L233.9 144zM312 110.1l17 17 64 64 17 17-17 17-64 64-17 17L278.1 272l17-17 47-47-47-47-17-17L312 110.1z" />
     </Icon>
 );
 

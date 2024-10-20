@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `highlighter` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/highlighter?s=sharp-light highlighter}
- * @preview ![highlighter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYzLjQgNDE2bDcyLjYgMEw1NjAgODAgNDgwIDAgMTQ0IDIyNGwwIDcyLjZMOTQuNiAzNDYgNzIgMzY4LjYgODguNCAzODUgNC43IDQ2OC43IDAgNDczLjQgMCA0ODBsMCAxNiAwIDE2IDE2IDAgMTEyIDAgNi42IDAgNC43LTQuN0wxNzUgNDcxLjYgMTkxLjQgNDg4IDIxNCA0NjUuNCAyNjMuNCA0MTZ6bS0xMTEgMzNsLTMxIDMxLTgyLjcgMEwxMTEgNDA3LjYgMTUyLjQgNDQ5em0zOS02LjJsLTc0LjEtNzQuMSA0OS40LTQ5LjQgOS40LTkuNCAwLTEzLjMgMC01NS41IDM1LjEtMjMuNEwzNDIuMyAzNDguOSAzMTguOSAzODRsLTU1LjUgMC0xMy4zIDAtOS40IDkuNC00OS40IDQ5LjR6bTQ2LjktMjQzLjFMNDc1LjkgNDEuMmw0Mi45IDQyLjlMMzYwLjQgMzIxLjcgMjM4LjIgMTk5LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![highlighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/highlighter.svg)
  */
 const Highlighter: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

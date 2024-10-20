@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signature-lock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signature-lock?s=sharp-solid signature-lock}
- * @preview ![signature-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMTI4YzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJsMCA3LjhjMCAyNy43LTIuNCA1NS4zLTcuMSA4Mi41bC0xMzAgMzlMMCAyNjQuMiAwIDI4OCAwIDQ0OGwwIDMyIDMyIDAgNjQgMCAxOC42IDAgOS4yLTE2LjEgMjUuNS00NC43YzI2LjgtNDcgNDYuNS05Ny43IDU4LjQtMTUwLjVMMjg4IDI0NC42bDAgNDMuNCAwIDMyIDMyIDAgMzIgMCAzMiAwIDAtMzIgMC0zMi0zMiAwIDAtNTQuNCAwLTQzLTQxLjIgMTIuNC05MC40IDI3LjFjMi40LTIwLjcgMy42LTQxLjQgMy42LTYyLjNsMC03LjhjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZsMCAzMiAwIDMyIDY0IDAgMC0zMiAwLTMyek0yMDkuOSAzNjhjLTYuNyAxNi4zLTE0LjIgMzIuMy0yMi4zIDQ4TDM4NCA0MTZsMC00OC0xNzQuMSAwek02NCAzMTEuOGw3MS44LTIxLjVjLTEwLjQgMzMuOC0yNC41IDY2LjQtNDIuMSA5Ny4yTDc3LjQgNDE2IDY0IDQxNmwwLTEwNC4yek01MjggMjQwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgNDgtNjQgMCAwLTQ4YzAtMTcuNyAxNC4zLTMyIDMyLTMyem0tODAgMzJsMCA0OC0zMiAwIDAgMTkyIDIyNCAwIDAtMTkyLTMyIDAgMC00OGMwLTQ0LjItMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![signature-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/signature-lock.svg)
  */
 const SignatureLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

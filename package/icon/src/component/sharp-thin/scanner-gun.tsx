@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scanner-gun` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-gun?s=sharp-thin scanner-gun}
- * @preview ![scanner-gun](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMybDAgMTYgMTYwIDAgMC0xNkw0MTYgMzJ6TTU3NiA4MEw0MTYgODBsMCAxNiAxNjAgMCAwLTE2em0wIDQ4bC0xNjAgMCAwIDE2IDE2MCAwIDAtMTZ6bTAgNjRsLTE2MCAwIDAgMTYgMTYwIDAgMC0xNnpNNDE2IDI3MmwwIDE2IDE2MCAwIDAtMTYtMTYwIDB6bTE2MCA0OGwtMTYwIDAgMCAxNiAxNjAgMCAwLTE2ek00MTYgMzc2bDAgMTYgMTYwIDAgMC0xNi0xNjAgMHptMTYwIDg4bC0xNjAgMCAwIDE2IDE2MCAwIDAtMTZ6TTIxLjUgMzk0LjFMOTcuNSAyNTZsMTQuNSAwIDEzMi41IDBMMTMwLjEgNDU4IDIxLjUgMzk0LjF6bTYwLTE0Mi4zTDAgNDAwbDEyMi4yIDcxLjlMMTM2IDQ4MGw3LjktMTMuOUwyNjIuOSAyNTZsNzMuMSAwIDE2IDAgMC0xNiAwLTE5MiAwLTE2LTE2IDBMMTEyIDMyQzUwLjEgMzIgMCA4Mi4xIDAgMTQ0YzAgNTEuMyAzNC41IDk0LjUgODEuNSAxMDcuOHpNMTEyIDI0MGMtNTMgMC05Ni00My05Ni05NnM0My05NiA5Ni05NmwyMjQgMCAwIDE5Mi02NCAwLTE4LjQgMEwxMTIgMjQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![scanner-gun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/scanner-gun.svg)
  */
 const ScannerGun: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

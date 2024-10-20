@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-ppt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-ppt?s=sharp-regular file-ppt}
- * @preview ![file-ppt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDQ2NGwtNjQgMEw0OCA0OGwxNzYgMCAwIDExMiAxMTIgMCAwIDE0NCA0OCAwIDAtMTc2TDI1NiAwIDQ4IDAgMCAwIDAgNDggMCA0NjRsMCA0OCA0OCAwIDY0IDAgMC00OHpNMjg4IDM1MmwwIDE2IDAgODAgMCA0OCAwIDE2IDMyIDAgMC0xNiAwLTMyIDE2IDBjMzAuOSAwIDU2LTI1LjEgNTYtNTZzLTI1LjEtNTYtNTYtNTZsLTMyIDAtMTYgMHptMzIgODBsMC00OCAxNiAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0xNiAwek0xNjAgMzUybDAgMTYgMCA4MCAwIDQ4IDAgMTYgMzIgMCAwLTE2IDAtMzIgMTYgMGMzMC45IDAgNTYtMjUuMSA1Ni01NnMtMjUuMS01Ni01Ni01NmwtMzIgMC0xNiAwem0zMiA4MGwwLTQ4IDE2IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTE2IDB6bTIyNC04MGwwIDMyIDE2IDAgMTYgMCAwIDExMiAwIDE2IDMyIDAgMC0xNiAwLTExMiAxNiAwIDE2IDAgMC0zMi0xNiAwLTMyIDAtMzIgMC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-ppt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-ppt.svg)
  */
 const FilePpt: typeof Icon = x => (
     <Icon {...x}>

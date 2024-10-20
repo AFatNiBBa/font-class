@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-polaroid` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-polaroid?s=sharp-light camera-polaroid}
- * @preview ![camera-polaroid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NmwwIDkuNyA1LjQgOC4xTDUxNi4yIDMyMCA1OS44IDMyMGwzMC44LTQ2LjIgNS40LTguMSAwLTkuN0w5NiA2NGwzODQgMCAwIDE5MnpNMzIgMzYxLjdsNi41LTkuNyA0OTkuMSAwIDYuNSA5LjcgMCA4Ni4zTDMyIDQ0OGwwLTg2LjN6TTU3NiA0NDhsMC05Ni02NC05NiAwLTE5MiAwLTMyLTMyIDBMOTYgMzIgNjQgMzJsMCAzMiAwIDE5MkwwIDM1MmwwIDk2IDAgMzIgMzIgMCA1MTIgMCAzMiAwIDAtMzJ6TTMzNiAxOTJhNDggNDggMCAxIDEgLTk2IDAgNDggNDggMCAxIDEgOTYgMHptLTQ4LTgwYTgwIDgwIDAgMSAwIDAgMTYwIDgwIDgwIDAgMSAwIDAtMTYwek05NiAzODRsMCAzMiAxNiAwIDM1MiAwIDE2IDAgMC0zMi0xNiAwLTM1MiAwLTE2IDB6TTQ0MCAxMDRsLTQ4IDAgMCA0OCA0OCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![camera-polaroid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/camera-polaroid.svg)
  */
 const CameraPolaroid: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

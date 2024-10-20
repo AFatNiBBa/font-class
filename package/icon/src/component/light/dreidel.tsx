@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dreidel` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dreidel?s=light dreidel}
- * @preview ![dreidel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQzLjMgMzYuN2M2LjIgNi4yIDYuMiAxNi40IDAgMjIuNkwzMjEuOSAxODAuN2w3My40IDczLjRjMTguNyAxOC43IDE4LjcgNDkuMSAwIDY3LjlMMjU2IDQ2MS4zYy0xMiAxMi0yOC4zIDE4LjctNDUuMyAxOC43TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAyNjkuM2MwLTE3IDYuNy0zMy4zIDE4LjctNDUuM0wxNTguMSA4NC43YzE4LjctMTguNyA0OS4xLTE4LjcgNjcuOSAwbDczLjQgNzMuNEw0MjAuNyAzNi43YzYuMi02LjIgMTYuNC02LjIgMjIuNiAwem0tMjQwIDcwLjZjLTYuMi02LjItMTYuNC02LjItMjIuNiAwbC01Ny40IDU3LjQgMTkyIDE5MiA1Ny40LTU3LjRjNi4yLTYuMiA2LjItMTYuNCAwLTIyLjZMMjAzLjMgMTA3LjN6bTg5LjQgMjcybC0xOTItMTkyTDQxLjQgMjQ2LjZjLTYgNi05LjQgMTQuMS05LjQgMjIuNkwzMiA0MTZjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTQ2LjcgMGM4LjUgMCAxNi42LTMuNCAyMi42LTkuNGw1OS4zLTU5LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dreidel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dreidel.svg)
  */
 const Dreidel: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

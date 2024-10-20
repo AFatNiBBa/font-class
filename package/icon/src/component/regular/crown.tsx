@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crown` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crown?s=regular crown}
- * @preview ![crown](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA5IDEwNmMxMS40LTcgMTktMTkuNyAxOS0zNGMwLTIyLjEtMTcuOS00MC00MC00MHMtNDAgMTcuOS00MCA0MGMwIDE0LjQgNy42IDI3IDE5IDM0bC01LjggMTEuNkwyMDkuNyAyMjAuNmMtOS4xIDE4LjItMzIuNyAyMy40LTQ4LjYgMTAuN2wtNzItNTcuNkw3MiAxNjBjNS02LjcgOC0xNSA4LTI0YzAtMjIuMS0xNy45LTQwLTQwLTQwUzAgMTEzLjkgMCAxMzZzMTcuOSA0MCA0MCA0MGMuMiAwIC41IDAgLjcgMGw0LjQgMjMuOUw4Ni40IDQyNy40YzUuNSAzMC40IDMyIDUyLjYgNjMgNTIuNmwyNzcuMiAwYzMwLjkgMCA1Ny40LTIyLjEgNjMtNTIuNmw0MS40LTIyNy41IDQuNC0yMy45Yy4yIDAgLjUgMCAuNyAwYzIyLjEgMCA0MC0xNy45IDQwLTQwcy0xNy45LTQwLTQwLTQwcy00MCAxNy45LTQwIDQwYzAgOSAzIDE3LjMgOCAyNGwtMTcuMSAxMy43LTcyIDU3LjZjLTE1LjkgMTIuNy0zOS41IDcuNS00OC42LTEwLjdMMzE0LjggMTE3LjcgMzA5IDEwNnpNMTMzLjcgNDE4LjlMMTAyLjIgMjQ1LjZsMjguOSAyMy4xYzM5LjggMzEuOCA5OC44IDE4LjkgMTIxLjUtMjYuN0wyODggMTcxLjNsMzUuNCA3MC43YzIyLjggNDUuNiA4MS44IDU4LjUgMTIxLjUgMjYuN2wyOC45LTIzLjFMNDQyLjMgNDE4LjljLTEuNCA3LjYtOCAxMy4xLTE1LjcgMTMuMWwtMjc3LjIgMGMtNy43IDAtMTQuNC01LjUtMTUuNy0xMy4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/crown.svg)
  */
 const Crown: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

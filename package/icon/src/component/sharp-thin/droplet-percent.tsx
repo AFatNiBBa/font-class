@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `droplet-percent` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-percent?s=sharp-thin droplet-percent}
- * @preview ![droplet-percent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDMyMGMwLTIyLjUtMTAuNS01Mi45LTI4LjItODcuNGMtMTcuNS0zNC00MS03MC02NC44LTEwM2MtMjMuNy0zMy00Ny41LTYyLjctNjUuMy04NC4zYy02LjktOC4zLTEyLjktMTUuNC0xNy43LTIxYy00LjggNS42LTEwLjggMTIuNi0xNy43IDIxYy0xNy44IDIxLjUtNDEuNiA1MS4zLTY1LjMgODQuM2MtMjMuOCAzMy00Ny4zIDY5LTY0LjggMTAzQzI2LjUgMjY3LjEgMTYgMjk3LjUgMTYgMzIwYzAgOTcuMiA3OC44IDE3NiAxNzYgMTc2czE3Ni03OC44IDE3Ni0xNzZ6TTAgMzIwQzAgMjI5LjEgMTQxLjEgNTguOSAxODEuNCAxMi4xQzE4OC4xIDQuNCAxOTIgMCAxOTIgMHMzLjkgNC40IDEwLjYgMTIuMUMyNDIuOSA1OC45IDM4NCAyMjkuMSAzODQgMzIwYzAgMTA2LTg2IDE5Mi0xOTIgMTkyUzAgNDI2IDAgMzIwem0yNjkuNy02Ni4zbC0xNDQgMTQ0LTUuNyA1LjdMMTA4LjcgMzkybDUuNy01LjcgMTQ0LTE0NCA1LjctNS43TDI3NS4zIDI0OGwtNS43IDUuN3pNMTEyIDI3MmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0zMiAxNmExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6bTk2IDQ4YTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptMTYgMzJhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![droplet-percent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/droplet-percent.svg)
  */
 const DropletPercent: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

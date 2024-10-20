@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-wide-short` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-wide-short?s=thin arrow-up-wide-short}
- * @preview ![arrow-up-wide-short](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMzLjcgMzQuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMGwtMTA0IDEwNGMtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMEwxMjAgNTkuMyAxMjAgNDcyYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC00MTIuNyA5MC4zIDkwLjNjMy4xIDMuMSA4LjIgMy4xIDExLjMgMHMzLjEtOC4yIDAtMTEuM2wtMTA0LTEwNHpNMjk2IDQ2NGw4MCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC04MCAwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4em0wLTE0NGwxNDQgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtMTQ0IDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDh6bTAtMTI4bDIwOCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0yMDggMGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOHptMC0xMjhsMjcyIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMMjk2IDQ4Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-up-wide-short](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-wide-short.svg)
  */
 const ArrowUpWideShort: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

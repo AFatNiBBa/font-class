@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-clip` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-clip?s=thin pen-clip}
- * @preview ![pen-clip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc0LjEgMzAuNmMxOC43LTE4LjcgNDkuMS0xOC43IDY3LjkgMGwzOS40IDM5LjRjMTguNyAxOC43IDE4LjcgNDkuMSAwIDY3LjlMNDI3LjMgMTkyIDMyMCA4NC43bDU0LjEtNTQuMXpNMjk3LjQgODQuN0w5OS41IDI4Mi41Yy00OCA0OC04MC44IDEwOS4yLTk0LjEgMTc1LjhsLTUgMjVjLTEuNiA3LjkgLjkgMTYgNi42IDIxLjdzMTMuOCA4LjEgMjEuNyA2LjZsMjUtNWM2Ni42LTEzLjMgMTI3LjgtNDYuMSAxNzUuOC05NC4xTDQ5Mi43IDE0OS4zYzI1LTI1IDI1LTY1LjUgMC05MC41TDQ1My4zIDE5LjNjLTI1LTI1LTY1LjUtMjUtOTAuNSAwTDMwOC43IDczLjQgMjk1LjYgNjAuM2MtMjEuOS0yMS45LTU3LjMtMjEuOS03OS4yIDBMOTguMyAxNzguM2MtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM3M4LjIgMy4xIDExLjMgMEwyMjcuNyA3MS42YzE1LjYtMTUuNiA0MC45LTE1LjYgNTYuNiAwbDEzLjEgMTMuMXpNMzA4LjcgOTZMNDE2IDIwMy4zIDIxOC4yIDQwMS4xYy00NS44IDQ1LjgtMTA0LjEgNzctMTY3LjYgODkuN2wtMjUgNWMtMi42IC41LTUuMy0uMy03LjItMi4ycy0yLjctNC42LTIuMi03LjJsNS0yNWMxMi43LTYzLjUgNDMuOS0xMjEuOCA4OS43LTE2Ny42TDMwOC43IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-clip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pen-clip.svg)
  */
 const PenClip: typeof Icon = x => (
     <Icon {...x}>

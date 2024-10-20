@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-xmark?s=solid comment-xmark}
- * @preview ![comment-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ0OGMxNDEuNCAwIDI1Ni05My4xIDI1Ni0yMDhTMzk3LjQgMzIgMjU2IDMyUzAgMTI1LjEgMCAyNDBjMCA0NS4xIDE3LjcgODYuOCA0Ny43IDEyMC45Yy0xLjkgMjQuNS0xMS40IDQ2LjMtMjEuNCA2Mi45Yy01LjUgOS4yLTExLjEgMTYuNi0xNS4yIDIxLjZjLTIuMSAyLjUtMy43IDQuNC00LjkgNS43Yy0uNiAuNi0xIDEuMS0xLjMgMS40bC0uMyAuM2MwIDAgMCAwIDAgMGMwIDAgMCAwIDAgMHMwIDAgMCAwczAgMCAwIDBjLTQuNiA0LjYtNS45IDExLjQtMy40IDE3LjRjMi41IDYgOC4zIDkuOSAxNC44IDkuOWMyOC43IDAgNTcuNi04LjkgODEuNi0xOS4zYzIyLjktMTAgNDIuNC0yMS45IDU0LjMtMzAuNmMzMS44IDExLjUgNjcgMTcuOSAxMDQuMSAxNy45ek0xNzUgMTU5YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwbDQ3IDQ3IDQ3LTQ3YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwczkuNCAyNC42IDAgMzMuOWwtNDcgNDcgNDcgNDdjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlzLTI0LjYgOS40LTMzLjkgMGwtNDctNDctNDcgNDdjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwcy05LjQtMjQuNiAwLTMzLjlsNDctNDctNDctNDdjLTkuNC05LjQtOS40LTI0LjYgMC0zMy45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![comment-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/comment-xmark.svg)
  */
 const CommentXmark: typeof Icon = x => (
     <Icon {...x}>

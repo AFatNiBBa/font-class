@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-eyes-xmarks` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-eyes-xmarks?s=sharp-regular face-eyes-xmarks}
- * @preview ![face-eyes-xmarks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTEzNyAxMzVsMjMgMjMgMjMtMjMgMTctMTdMMjMzLjkgMTUybC0xNyAxNy0yMyAyMyAyMyAyMyAxNyAxN0wyMDAgMjY1LjlsLTE3LTE3LTIzLTIzLTIzIDIzLTE3IDE3TDg2LjEgMjMybDE3LTE3IDIzLTIzLTIzLTIzLTE3LTE3TDEyMCAxMTguMWwxNyAxN3ptMTkyIDBsMjMgMjMgMjMtMjMgMTctMTdMNDI1LjkgMTUybC0xNyAxNy0yMyAyMyAyMyAyMyAxNyAxN0wzOTIgMjY1LjlsLTE3LTE3LTIzLTIzLTIzIDIzLTE3IDE3TDI3OC4xIDIzMmwxNy0xNyAyMy0yMy0yMy0yMy0xNy0xN0wzMTIgMTE4LjFsMTcgMTd6TTI1NiAzMDRjNDQuMiAwIDgwIDM1LjggODAgODBsMCAxNi0xNjAgMCAwLTE2YzAtNDQuMiAzNS44LTgwIDgwLTgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-eyes-xmarks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-eyes-xmarks.svg)
  */
 const FaceEyesXmarks: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `delete-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/delete-right?s=thin delete-right}
- * @preview ![delete-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTI4YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDMwNi43IDBjMTIuNyAwIDI0LjkgNS4xIDMzLjkgMTQuMUw1NTUuMyAyNDQuN2MzIDMgNC43IDcuMSA0LjcgMTEuM3MtMS43IDguMy00LjcgMTEuM0w0MDQuNyA0MTcuOWMtOSA5LTIxLjIgMTQuMS0zMy45IDE0LjFMNjQgNDMyYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTI1NnpNNTY2LjYgMjMzLjRMNDE2IDgyLjdDNDA0IDcwLjcgMzg3LjcgNjQgMzcwLjcgNjRMNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhMMCAzODRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzA2LjcgMGMxNyAwIDMzLjMtNi43IDQ1LjMtMTguN0w1NjYuNiAyNzguNmM2LTYgOS40LTE0LjEgOS40LTIyLjZzLTMuNC0xNi42LTkuNC0yMi42em0tNDIwLjMtNTVjLTMuMSAzLjEtMy4xIDguMiAwIDExLjNMMjEyLjcgMjU2bC02Ni4zIDY2LjNjLTMuMSAzLjEtMy4xIDguMiAwIDExLjNzOC4yIDMuMSAxMS4zIDBMMjI0IDI2Ny4zbDY2LjMgNjYuM2MzLjEgMy4xIDguMiAzLjEgMTEuMyAwczMuMS04LjIgMC0xMS4zTDIzNS4zIDI1Nmw2Ni4zLTY2LjNjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3MtOC4yLTMuMS0xMS4zIDBMMjI0IDI0NC43bC02Ni4zLTY2LjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![delete-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/delete-right.svg)
  */
 const DeleteRight: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

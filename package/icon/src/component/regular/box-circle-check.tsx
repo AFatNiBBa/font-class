@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `box-circle-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-circle-check?s=regular box-circle-check}
- * @preview ![box-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQyLjQgODBjNi4zIDAgMTIuMSAzLjcgMTQuNiA5LjVMMzg4LjQgMTYwIDI0OCAxNjBsMC04MCA5NC40IDB6TTQ4IDIwOGwzMTAuNiAwYzIyLjMtMTAuMyA0Ny4yLTE2IDczLjQtMTZjNS40IDAgMTAuNyAuMiAxNiAuN2wwLTMuMWMwLTktMS45LTE3LjgtNS41LTI2TDQwMC45IDcwYy0xMC4zLTIzLjEtMzMuMi0zOC01OC41LTM4TDEwNS42IDMyQzgwLjMgMzIgNTcuNCA0Ni45IDQ3LjEgNzBMNS41IDE2My42Yy0zLjYgOC4yLTUuNSAxNy01LjUgMjZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjMyLjIgMGMtMTEuOC0xNC4zLTIxLjQtMzAuNS0yOC4yLTQ4TDY0IDQzMmMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjA4em0xMS42LTQ4TDkxIDg5LjVjMi42LTUuOCA4LjMtOS41IDE0LjYtOS41TDIwMCA4MGwwIDgwTDU5LjYgMTYwek01NzYgMzY4YTE0NCAxNDQgMCAxIDAgLTI4OCAwIDE0NCAxNDQgMCAxIDAgMjg4IDB6bS03Ni43LTQzLjNjNi4yIDYuMiA2LjIgMTYuNCAwIDIyLjZsLTcyIDcyYy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMGwtNDAtNDBjLTYuMi02LjItNi4yLTE2LjQgMC0yMi42czE2LjQtNi4yIDIyLjYgMEw0MTYgMzg1LjRsNjAuNy02MC43YzYuMi02LjIgMTYuNC02LjIgMjIuNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![box-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/box-circle-check.svg)
  */
 const BoxCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

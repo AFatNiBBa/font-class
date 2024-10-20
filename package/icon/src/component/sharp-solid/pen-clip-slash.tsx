@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-clip-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-clip-slash?s=sharp-solid pen-clip-slash}
- * @preview ![pen-clip-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA5LjEgMjk0LjlMNDQ3IDI1N2wzMy0zMyAxLTFMMzA1IDQ3bC0xNy0xN0wyNzEgNDdsLTc5LjIgNzkuMkw0OC40IDE0LjggMjkuNCAuMSAwIDM4IDE5IDUyLjcgNTkxLjUgNDk3LjJsMTkgMTQuN0w2MzkuOSA0NzRsLTE5LTE0LjdMNDA5LjEgMjk0Ljl6bS0xNzkuMS0xMzlMMjg4IDk3LjlsMzEgMzEtNTQgNTQtMzQuOS0yNy4xem0xMTAgMjA4LjFMMTk2LjkgMjUxLjEgOTYgMzUyIDY0IDUxMmwxNjAtMzJMMzQwLjEgMzYzLjl6TTU3NiAxMjhMNDQ4IDAgMzc1LjYgNzIuNGwxMjggMTI4TDU3NiAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pen-clip-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pen-clip-slash.svg)
  */
 const PenClipSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

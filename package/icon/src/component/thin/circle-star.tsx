@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-star` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-star?s=thin circle-star}
- * @preview ![circle-star](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDEgMCA0ODAgMjQwIDI0MCAwIDEgMSAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0yMDcuNyAyMDIuMmM1LjItLjggOS43LTQgMTItOC44TDI1NiAxMjBsMzYuMiA3My40YzIuMyA0LjcgNi44IDggMTIgOC44TDM4NS4zIDIxNGwtNTguNiA1Ny4yYy0zLjggMy43LTUuNSA5LTQuNiAxNC4yTDMzNS45IDM2NmwtNzIuNS0zOC4xYy00LjctMi41LTEwLjItMi41LTE0LjkgMEwxNzYuMSAzNjZsMTMuOC04MC43Yy45LTUuMi0uOC0xMC41LTQuNi0xNC4yTDEyNi43IDIxNGw4MS0xMS44em0xNzkuOS00LjFsLTgxLjEtMTEuOC0zNi4yLTczLjRjLTIuNy01LjUtOC4zLTguOS0xNC4zLTguOXMtMTEuNyAzLjUtMTQuMyA4LjlsLTM2LjIgNzMuNC04MSAxMS44Yy02IC45LTExIDUuMS0xMi45IDEwLjlzLS4zIDEyLjIgNCAxNi40bDU4LjYgNTcuMi0xMy44IDgwLjdjLTEgNiAxLjQgMTIuMSA2LjQgMTUuNnMxMS41IDQuMSAxNi44IDEuMkwyNTYgMzQyLjFsNzIuNSAzOC4xYzUuNCAyLjggMTEuOSAyLjQgMTYuOS0xLjJzNy40LTkuNiA2LjQtMTUuNmwtMTMuOC04MC43IDU4LjYtNTcuMmM0LjQtNC4zIDUuOS0xMC42IDQtMTYuNHMtNi45LTEwLTEyLjktMTAuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-star.svg)
  */
 const CircleStar: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `display-arrow-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-arrow-down?s=light display-arrow-down}
- * @preview ![display-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEwyNDAgMGwwIDMyTDY0IDMyQzQ2LjMgMzIgMzIgNDYuMyAzMiA2NGwwIDI4OGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxNjcuNyAwYy4yIDAgLjQgMCAuNiAwbDExMS41IDBjLjIgMCAuNCAwIC42IDBMNTEyIDM4NGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTI4OGMwLTE3LjctMTQuMy0zMi0zMi0zMkwzMzYgMzJsMC0zMkw1MTIgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDI4OGMwIDM1LjMtMjguNyA2NC02NCA2NGwtMTQ5LjEgMCAxMC43IDY0IDU4LjQgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtNzIgMC0xNDQgMC03MiAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDU4LjQgMCAxMC43LTY0TDY0IDQxNmMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA2NEMwIDI4LjcgMjguNyAwIDY0IDB6TTI0NS42IDQxNmwtMTAuNyA2NCAxMDYuMiAwLTEwLjctNjQtODQuOSAwek0zMDQgMTZsMCAyMTcuNCA1Mi43LTUyLjdjNi4yLTYuMiAxNi40LTYuMiAyMi42IDBzNi4yIDE2LjQgMCAyMi42bC04MCA4MGMtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBsLTgwLTgwYy02LjItNi4yLTYuMi0xNi40IDAtMjIuNnMxNi40LTYuMiAyMi42IDBMMjcyIDIzMy40IDI3MiAxNmMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![display-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/display-arrow-down.svg)
  */
 const DisplayArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

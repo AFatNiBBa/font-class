@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `download` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/download?s=sharp-thin download}
- * @preview ![download](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY0IDhsMC04TDI0OCAwbDAgOCAwIDM0OC43TDEzMy43IDI0Mi4zbC01LjctNS43TDExNi43IDI0OGw1LjcgNS43IDEyOCAxMjggNS43IDUuNyA1LjctNS43IDEyOC0xMjggNS43LTUuN0wzODQgMjM2LjdsLTUuNyA1LjdMMjY0IDM1Ni43IDI2NCA4ek0xNDMuNCAzMjBMMTYgMzIwIDAgMzIwbDAgMTZMMCA0OTZsMCAxNiAxNiAwIDQ4MCAwIDE2IDAgMC0xNiAwLTE2MCAwLTE2LTE2IDAtMTI3LjQgMC0xNiAxNkw0OTYgMzM2bDAgMTYwTDE2IDQ5NmwwLTE2MCAxNDMuNCAwLTE2LTE2ek00MzIgNDMyYTE2IDE2IDAgMSAxIDAtMzIgMTYgMTYgMCAxIDEgMCAzMnptLTMyLTE2YTMyIDMyIDAgMSAwIDY0IDAgMzIgMzIgMCAxIDAgLTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![download](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/download.svg)
  */
 const Download: typeof Icon = x => (
     <Icon {...x}>

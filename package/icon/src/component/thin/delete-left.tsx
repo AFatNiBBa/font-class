@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `delete-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/delete-left?s=thin delete-left}
- * @preview ![delete-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYwIDEyOGMwLTI2LjUtMjEuNS00OC00OC00OEwyMDUuMyA4MGMtMTIuNyAwLTI0LjkgNS4xLTMzLjkgMTQuMUwyMC43IDI0NC43Yy0zIDMtNC43IDcuMS00LjcgMTEuM3MxLjcgOC4zIDQuNyAxMS4zTDE3MS4zIDQxNy45YzkgOSAyMS4yIDE0LjEgMzMuOSAxNC4xTDUxMiA0MzJjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0yNTZ6TTkuNCAyMzMuNEwxNjAgODIuN2MxMi0xMiAyOC4zLTE4LjcgNDUuMy0xOC43TDUxMiA2NGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDI1NmMwIDM1LjMtMjguNyA2NC02NCA2NGwtMzA2LjcgMGMtMTcgMC0zMy4zLTYuNy00NS4zLTE4LjdMOS40IDI3OC42Yy02LTYtOS40LTE0LjEtOS40LTIyLjZzMy40LTE2LjYgOS40LTIyLjZ6bTQyMC4zLTU1YzMuMSAzLjEgMy4xIDguMiAwIDExLjNMMzYzLjMgMjU2bDY2LjMgNjYuM2MzLjEgMy4xIDMuMSA4LjIgMCAxMS4zcy04LjIgMy4xLTExLjMgMEwzNTIgMjY3LjNsLTY2LjMgNjYuM2MtMy4xIDMuMS04LjIgMy4xLTExLjMgMHMtMy4xLTguMiAwLTExLjNMMzQwLjcgMjU2bC02Ni4zLTY2LjNjLTMuMS0zLjEtMy4xLTguMiAwLTExLjNzOC4yLTMuMSAxMS4zIDBMMzUyIDI0NC43bDY2LjMtNjYuM2MzLjEtMy4xIDguMi0zLjEgMTEuMyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![delete-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/delete-left.svg)
  */
 const DeleteLeft: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

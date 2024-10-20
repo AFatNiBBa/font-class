@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-seat` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-seat?s=regular person-seat}
- * @preview ![person-seat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDEyOGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bS04IDkyYzAtNi42IDUuNC0xMiAxMi0xMnMxMiA1LjQgMTIgMTJsMCA5Mi0xNiAwYy00LjQgMC04LTMuNi04LThsMC04NHptNzIgOTJsMC01NiA1NiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC01Ny4yIDBjLTUuNi0yNy40LTI5LjgtNDgtNTguOC00OGMtMzMuMSAwLTYwIDI2LjktNjAgNjBsMCA4NGMwIDMwLjkgMjUuMSA1NiA1NiA1Nmw0MCAwIDU0IDBjMTIgMCAyMi4yIDguOSAyMy44IDIwLjhsMTAuNCA3OC4zQzI3My44IDQ3MS4xIDI4NCA0ODAgMjk2IDQ4MGw2NCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC00MyAwLTcuNy01Ny41QzMwNC42IDMzOC43IDI3NC4xIDMxMiAyMzggMzEybC0zMCAwek00OCAxNTJjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRMMCAzMjhjMCA2Ni4zIDUzLjcgMTIwIDEyMCAxMjBsODAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtODAgMGMtMzkuOCAwLTcyLTMyLjItNzItNzJsMC0xNzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-seat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-seat.svg)
  */
 const PersonSeat: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-running` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-running?s=sharp-light person-running}
- * @preview ![person-running](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDgwYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMC04MGE1NiA1NiAwIDEgMSAwIDExMkE1NiA1NiAwIDEgMSAyODAgMHpNMTIxLjQgMTEybDYuNiAwIDQ4IDAgMi4yIDAgMi4yIC42IDExMiAzMiA4LjUgMi40IDIuNCA4LjVMMzMyLjEgMjU2bDY3LjkgMCAxNiAwIDAgMzItMTYgMC04MCAwLTEyLjEgMC0zLjMtMTEuNi0yMC4zLTcwLjlMMjQ3LjIgMzE3LjFjLS4yIC41LS4zIC45LS41IDEuM2w0OS4yIDI3LjcgMTEuNyA2LjYtNC41IDEyLjdMMjUxLjMgNTEybC0zMy45IDAgNTEuMS0xNDQuNi05My4zLTUyLjVjLTIwLTExLjMtMjkuMy0zNS4yLTIyLTU3bDM2LjQtMTA5LjNMMTczLjggMTQ0bC0zOS4xIDBMNzUuMyAyMDMuMyA2NCAyMTQuNiA0MS40IDE5MmwxMS4zLTExLjMgNjQtNjQgNC43LTQuN3ptOTkgNDUuM0wxODMuNSAyNjhjLTIuNCA3LjMgLjcgMTUuMiA3LjMgMTlsMjcuNSAxNS40IDQ0LjMtMTMzLTQyLjItMTIuMXpNMTMwIDMxNC4xYzUuOSAxMCAxNC4xIDE4LjcgMjQuMSAyNS40bC0yNy40IDY2LjYtNC4xIDkuOUwxMTIgNDE2bC05NiAwTDAgNDE2bDAtMzIgMTYgMCA4NS4zIDBMMTMwIDMxNC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-running](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-running.svg)
  */
 const PersonRunning: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

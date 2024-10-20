@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bread-loaf` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-loaf?s=light bread-loaf}
- * @preview ![bread-loaf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjI0Yy0xNy43IDAtMzItMTQuMy0zMi0zMmMwLTQ1LjggMzAuNC03Ny4zIDc3LjQtOTguOUMxNTYuNCA3MS40IDIxMS42IDY0IDI0MCA2NHM4My42IDcuNCAxMzAuNiAyOS4xYzQ3IDIxLjcgNzcuNCA1My4xIDc3LjQgOTguOWMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzIgMTQuMy0zMiAzMmwwIDE3NmMwIDguOC03LjIgMTYtMTYgMTZsLTQ4IDAtMjA4IDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTE3NmMwLTE3LjctMTQuMy0zMi0zMi0zMnptMzUyIDMybDEyOCAwIDAgMTc2YzAgOC44LTcuMiAxNi0xNiAxNmwtMTE0LjcgMGMxLjgtNSAyLjctMTAuNCAyLjctMTZsMC0xNDQgMC0zMnptMTU1LjMtMzEuN2MtMS4xLS4yLTIuMi0uMy0zLjMtLjNsLTk2LjYgMGM1LjQtOS40IDguNi0yMC4zIDguNi0zMmMwLTY0LTQ0LTEwNC05Ni0xMjhsMTYgMGMyOC40IDAgODMuNiA3LjQgMTMwLjYgMjkuMWM0NyAyMS43IDc3LjQgNTMuMSA3Ny40IDk4LjljMCAxNy43LTE0LjMgMzItMzIgMzJjLTEuNiAwLTMuMiAuMS00LjcgLjN6TTExMiA0ODBsMjA4IDAgNDggMCAxNjAgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTE0NCAwLTMyYzM1LjMgMCA2NC0yOC43IDY0LTY0QzY0MCA2NCA0NjQgMzIgNDAwIDMyTDI3MiAzMmwtMzIgMEMxNzYgMzIgMCA2NCAwIDE5MmMwIDM1LjMgMjguNyA2NCA2NCA2NGwwIDMyIDAgMTQ0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bread-loaf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bread-loaf.svg)
  */
 const BreadLoaf: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

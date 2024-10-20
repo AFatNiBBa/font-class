@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `code` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code?s=sharp-thin code}
- * @preview ![code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk0LjkgNS45bC0yLjUgNy42LTE2MCA0ODAtMi41IDcuNiAxNS4yIDUuMSAyLjUtNy42IDE2MC00ODAgMi41LTcuNkwzOTQuOSA1Ljl6bTg5LjggMTMwLjVsNS44IDUuNUw2MTIuMyAyNTYgNDkwLjUgMzcwLjJsLTUuOCA1LjUgMTAuOSAxMS43IDUuOC01LjUgMTI4LTEyMCA2LjItNS44LTYuMi01LjgtMTI4LTEyMC01LjgtNS41LTEwLjkgMTEuN3pNMTQ0LjQgMTI0LjdsLTUuOCA1LjUtMTI4IDEyMEw0LjMgMjU2bDYuMiA1LjggMTI4IDEyMCA1LjggNS41IDEwLjktMTEuNy01LjgtNS41TDI3LjcgMjU2IDE0OS41IDE0MS44bDUuOC01LjUtMTAuOS0xMS43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/code.svg)
  */
 const Code: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-venn` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-venn?s=solid diagram-venn}
- * @preview ![diagram-venn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQxMi44QzIxNi40IDM3Mi40IDE5MiAzMTcgMTkyIDI1NnMyNC40LTExNi40IDY0LTE1Ni44QzI0NS43IDk3LjEgMjM1IDk2IDIyNCA5NkMxMzUuNiA5NiA2NCAxNjcuNiA2NCAyNTZzNzEuNiAxNjAgMTYwIDE2MGMxMSAwIDIxLjctMS4xIDMyLTMuMnptNjQgNDUuN2MtMjkuMSAxMy44LTYxLjYgMjEuNi05NiAyMS42QzEwMC4zIDQ4MCAwIDM3OS43IDAgMjU2UzEwMC4zIDMyIDIyNCAzMmMzNC40IDAgNjYuOSA3LjcgOTYgMjEuNkMzNDkuMSAzOS43IDM4MS42IDMyIDQxNiAzMmMxMjMuNyAwIDIyNCAxMDAuMyAyMjQgMjI0cy0xMDAuMyAyMjQtMjI0IDIyNGMtMzQuNCAwLTY2LjktNy43LTk2LTIxLjZ6TTM3MC43IDE5MmwtMTAxLjQgMGMtNi41IDE0LjktMTAuOCAzMS4xLTEyLjUgNDhsMTI2LjQgMGMtMS43LTE2LjktNi0zMy4xLTEyLjUtNDh6TTI2OS4zIDMyMGwxMDEuNCAwYzYuNS0xNC45IDEwLjgtMzEuMSAxMi41LTQ4bC0xMjYuNCAwYzEuNyAxNi45IDYgMzMuMSAxMi41IDQ4ek0yODggMzUyYzkuMSAxMi4xIDE5LjkgMjIuOSAzMiAzMmMxMi4xLTkuMSAyMi45LTE5LjkgMzItMzJsLTY0IDB6bTY0LTE5MmMtOS4xLTEyLjEtMTkuOS0yMi45LTMyLTMyYy0xMi4xIDkuMS0yMi45IDE5LjktMzIgMzJsNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![diagram-venn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/diagram-venn.svg)
  */
 const DiagramVenn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

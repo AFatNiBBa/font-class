@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `play-pause` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/play-pause?s=regular play-pause}
- * @preview ![play-pause](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDg4YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMzM2YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0zMzZ6bTE0NCAwYzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMzM2YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC0zMzZ6TTExMiAzODEuOGwwLTI1MS43TDI2MyAyNTYgMTEyIDM4MS44em00LjUtMzEwLjRjLTkuNS03LjktMjIuOC05LjctMzQuMS00LjRTNjQgODMuNiA2NCA5NmwwIDMyMGMwIDEyLjQgNy4yIDIzLjcgMTguNCAyOXMyNC41IDMuNiAzNC4xLTQuNGwxOTItMTYwYzcuMy02LjEgMTEuNS0xNS4xIDExLjUtMjQuNnMtNC4yLTE4LjUtMTEuNS0yNC42bC0xOTItMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![play-pause](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/play-pause.svg)
  */
 const PlayPause: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

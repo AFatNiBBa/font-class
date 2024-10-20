@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wagon-covered` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wagon-covered?s=sharp-solid wagon-covered}
- * @preview ![wagon-covered](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDIyNCAxNmwwIDIwOEw2NCAyMjQgMCAwek0zODQgMTZsMCAyMDgtMTI4IDAgMC0yMDggMTI4IDB6TTY0IDI1Nmw1MTIgMCAwIDY0LTMzLjYgMGMyMC43IDIwLjMgMzMuNiA0OC43IDMzLjYgODBjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJjLTU2LjQgMC0xMDMuMS00MS43LTExMC45LTk2bC02Ni4zIDBjLTcuOCA1NC4zLTU0LjQgOTYtMTEwLjkgOTZjLTYxLjkgMC0xMTItNTAuMS0xMTItMTEyYzAtMzEuMyAxMi45LTU5LjcgMzMuNi04MEw2NCAzMjBsMC02NHptOTYgMTYwbC00NiAwYzUuOCAyMi41IDIzLjUgNDAuMiA0NiA0NmwwLTQ2em0wLTMybDAtNDZjLTIyLjUgNS44LTQwLjIgMjMuNS00NiA0Nmw0NiAwem0zMiA3OGMyMi41LTUuOCA0MC4yLTIzLjUgNDYtNDZsLTQ2IDAgMCA0NnptMC0xMjRsMCA0NiA0NiAwYy01LjgtMjIuNS0yMy41LTQwLjItNDYtNDZ6TTQ0OCA0NjJsMC00Ni00NiAwYzUuOCAyMi41IDIzLjUgNDAuMiA0NiA0NnptLTQ2LTc4bDQ2IDAgMC00NmMtMjIuNSA1LjgtNDAuMiAyMy41LTQ2IDQ2em0xMjQgMzJsLTQ2IDAgMCA0NmMyMi41LTUuOCA0MC4yLTIzLjUgNDYtNDZ6bTAtMzJjLTUuOC0yMi41LTIzLjUtNDAuMi00Ni00NmwwIDQ2IDQ2IDB6TTQxNiAxNkw2NDAgMCA1NzYgMjI0bC0xNjAgMCAwLTIwOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wagon-covered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wagon-covered.svg)
  */
 const WagonCovered: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

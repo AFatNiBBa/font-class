@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-rotary` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-rotary?s=solid phone-rotary}
- * @preview ![phone-rotary](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxNDEuM2MwLTguNSAzLjQtMTYuNiA5LjktMjIuMUMzOC4yIDk1LjQgMTI1LjkgMzIgMjU2IDMyczIxNy44IDYzLjQgMjQ2LjEgODcuMmM2LjUgNS41IDkuOSAxMy42IDkuOSAyMi4xbDAgMzQuN2MwIDE3LjctMTQuMyAzMi0zMiAzMmwtNDIuMyAwYy0xMy4xIDAtMjQuOS04LTI5LjctMjAuMWwtMTkuNC00OC42Yy0yLjktNy4zLTguNC0xMy4yLTE1LjctMTZjLTE4LjYtNy01OS41LTE5LjMtMTE2LjgtMTkuM3MtOTguMiAxMi4zLTExNi44IDE5LjNjLTcuMyAyLjgtMTIuOCA4LjctMTUuNyAxNkwxMDQgMTg3LjlDOTkuMiAyMDAgODcuNCAyMDggNzQuMyAyMDhMMzIgMjA4Yy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTM0Ljd6TTMyIDQzMmwwLTMxYzAtMTEuMSAyLjktMjIuMSA4LjQtMzEuOGwxMDEuMS0xNzdDMTUzIDE3Mi4zIDE3NC4yIDE2MCAxOTcuMSAxNjBsMTE3LjcgMGMyMyAwIDQ0LjIgMTIuMyA1NS42IDMyLjJsMTAxLjEgMTc3YzUuNSA5LjcgOC40IDIwLjYgOC40IDMxLjhsMCAzMWMwIDI2LjUtMjEuNSA0OC00OCA0OEw4MCA0ODBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4ek0zMjggMzEyYTcyIDcyIDAgMSAwIC0xNDQgMCA3MiA3MiAwIDEgMCAxNDQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![phone-rotary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-rotary.svg)
  */
 const PhoneRotary: typeof Icon = x => (
     <Icon {...x}>

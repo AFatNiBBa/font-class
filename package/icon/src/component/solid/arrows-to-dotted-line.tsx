@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-to-dotted-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-dotted-line?s=solid arrows-to-dotted-line}
- * @preview ![arrows-to-dotted-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMzItMzIgMGMtMTIuOSAwLTI0LjYgNy44LTI5LjYgMTkuOHMtMi4yIDI1LjcgNi45IDM0LjlsNjQgNjRjMTIuNSAxMi41IDMyLjggMTIuNSA0NS4zIDBsNjQtNjRjOS4yLTkuMiAxMS45LTIyLjkgNi45LTM0LjlzLTE2LjYtMTkuOC0yOS42LTE5LjhsLTMyIDAgMC0zMnpNMjAxLjQgMzI5LjRsLTY0IDY0Yy05LjIgOS4yLTExLjkgMjIuOS02LjkgMzQuOXMxNi42IDE5LjggMjkuNiAxOS44bDMyIDAgMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMzIgMzIgMGMxMi45IDAgMjQuNi03LjggMjkuNi0xOS44czIuMi0yNS43LTYuOS0zNC45bC02NC02NGMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDB6TTMyIDIyNGEzMiAzMiAwIDEgMCAwIDY0IDMyIDMyIDAgMSAwIDAtNjR6bTk2IDBhMzIgMzIgMCAxIDAgMCA2NCAzMiAzMiAwIDEgMCAwLTY0em05NiA2NGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6bTk2LTY0YTMyIDMyIDAgMSAwIDAgNjQgMzIgMzIgMCAxIDAgMC02NHptNjQgMzJhMzIgMzIgMCAxIDAgNjQgMCAzMiAzMiAwIDEgMCAtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-to-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrows-to-dotted-line.svg)
  */
 const ArrowsToDottedLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

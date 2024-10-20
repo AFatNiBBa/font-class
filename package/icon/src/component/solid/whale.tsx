@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `whale` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whale?s=solid whale}
- * @preview ![whale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc1LjggMTMuNGMtMS01LjktNS4yLTEwLjgtMTAuOS0xMi42cy0xMi0uMy0xNi4yIDMuOUwxMDggNDUuNEM4OS43IDYzLjcgODEuNCA4OS42IDg1LjYgMTE1LjFsNy45IDQ3LjRMNDMuNiAyMTIuNEMxNS43IDI0MC4zIDAgMjc4LjIgMCAzMTcuNkMwIDQwNy4zIDcyLjcgNDgwIDE2Mi40IDQ4MEw1NDQgNDgwYzUzIDAgOTYtNDMgOTYtOTZsMC0xMTEuOUM2NDAgMTkyLjUgNTc1LjUgMTI4IDQ5NS45IDEyOGMtODIuNSAwLTE2Mi40IDI5LjUtMjI1IDgzLjJMMTU2LjQgMzA5LjRjLTggNi44LTE4LjEgMTAuNi0yOC42IDEwLjZsLTEuMSAwYy0xOC4zIDAtMzQuNS0xMS43LTQwLjMtMjljLTQtMTItMi40LTI1LjIgNC4zLTM1LjlsMzcuNi02MC4xIDQ0LjcgNy41YzI1LjUgNC4yIDUxLjUtNC4xIDY5LjctMjIuM2w0MC43LTQwLjdjNC4yLTQuMiA1LjgtMTAuNSAzLjktMTYuMnMtNi43LTkuOS0xMi42LTEwLjlMMTg5LjkgOTguMSAxNzUuOCAxMy40ek00MDAgMjgwYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![whale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/whale.svg)
  */
 const Whale: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

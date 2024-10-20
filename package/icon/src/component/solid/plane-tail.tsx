@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-tail` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-tail?s=solid plane-tail}
- * @preview ![plane-tail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjEuNSAzMDguOEwuOCAzOUMtMy43IDE5IDExLjUgMCAzMiAwbDc2LjkgMGMxNy4zIDAgMzMuOSA3IDQ2IDE5LjVMMzg0IDI1NmwxMDQgMCAyNCAwIDAgMjQgMCAyNCAwIDE2MCAwIDI0IDAgMjQtMjQgMC0yMjAuMyAwYy0xMC43IDAtMjEuMi0xLjktMzEuMi01LjdMNDAuNCA0MzEuOUMxNi4xIDQyMi43IDAgMzk5LjQgMCAzNzMuNGMwLTI4LjIgMTguOC01Mi44IDQ1LjktNjAuM2wxNS41LTQuM3pNMjE2IDM1MmMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwxNDQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMTQ0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![plane-tail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plane-tail.svg)
  */
 const PlaneTail: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `train-tunnel` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-tunnel?s=solid train-tunnel}
- * @preview ![train-tunnel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBDMTE0LjYgMCAwIDExNC42IDAgMjU2TDAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDQxLjQgMCA2NC4zLTY0LjNDMTM3LjMgNDQ0LjUgMTEyIDQxNy4yIDExMiAzODRsMC0xOTJjMC0zNS4zIDI4LjctNjQgNjQtNjRsMTYwIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAxOTJjMCAzMy4yLTI1LjMgNjAuNS01Ny43IDYzLjdMNDA2LjYgNTEybDQxLjQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTE5MkM1MTIgMTE0LjYgMzk3LjQgMCAyNTYgMHpNMzYxLjQgNTEybC02NC02NC04Mi43IDAtNjQgNjQgMjEwLjcgMHpNMTg0IDE5MmMtMTMuMyAwLTI0IDEwLjctMjQgMjRsMCA4MGMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxNDQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTgwYzAtMTMuMy0xMC43LTI0LTI0LTI0bC0xNDQgMHpNMjg4IDM4NGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![train-tunnel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/train-tunnel.svg)
  */
 const TrainTunnel: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-left` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left?s=regular turn-left}
- * @preview ![turn-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNi41IDI0MC40Yy04LjctOS4yLTguNy0yMy43IDAtMzIuOWwxMjEuNC0xMjljOC44LTkuMyAyMS0xNC42IDMzLjctMTQuNmMyNS42IDAgNDYuMyAyMC43IDQ2LjMgNDYuM2wwIDQxLjcgMTQ0IDBjODguNCAwIDE2MCA3MS42IDE2MCAxNjBsMCAxMTJjMCAzMC45LTI1LjEgNTYtNTYgNTZsLTMyIDBjLTMwLjkgMC01Ni0yNS4xLTU2LTU2bDAtMTIwYzAtNC40LTMuNi04LTgtOGwtMTUyIDAgMCA0MS43YzAgMjUuNi0yMC43IDQ2LjMtNDYuMyA0Ni4zYy0xMi44IDAtMjUtNS4zLTMzLjctMTQuNkw2LjUgMjQwLjR6bTE1My41IDkzbDAtNjEuNWMwLTEzLjMgMTAuNy0yNCAyNC0yNGwxNzYgMGMzMC45IDAgNTYgMjUuMSA1NiA1NmwwIDEyMGMwIDQuNCAzLjYgOCA4IDhsMzIgMGM0LjQgMCA4LTMuNiA4LThsMC0xMTJjMC02MS45LTUwLjEtMTEyLTExMi0xMTJsLTE2OCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTYxLjVMNTcgMjI0IDE2MCAzMzMuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![turn-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/turn-left.svg)
  */
 const TurnLeft: typeof Icon = x => (
     <Icon {...x}>

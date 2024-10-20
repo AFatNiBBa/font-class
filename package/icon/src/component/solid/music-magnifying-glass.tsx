@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `music-magnifying-glass` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-magnifying-glass?s=solid music-magnifying-glass}
- * @preview ![music-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDIwOGMwIDQ1LjktMTQuOSA4OC4zLTQwIDEyMi43TDYzMC42IDQ1Ny40YzEyLjUgMTIuNSAxMi41IDMyLjggMCA0NS4zcy0zMi44IDEyLjUtNDUuMyAwTDQ1OC43IDM3NmMtMzAuOCAyMi41LTY4LjEgMzYuOC0xMDguNSAzOS42YzEuMS00LjkgMS44LTEwLjEgMS44LTE1LjVjMC0xLjQgMC0yLjgtLjEtNC4yYy4xLTEuMyAuMS0yLjUgLjEtMy44bDAtMjA4YzAtMTgtOC43LTM0LjktMjMuMy00NS40cy0zMy40LTEzLjQtNTAuNS03LjdMMTI5LjggMTgwLjRDMTQzLjMgNzguNiAyMzAuNSAwIDMzNiAwQzQ1MC45IDAgNTQ0IDkzLjEgNTQ0IDIwOHpNMzIwIDE4NGMwLTcuNy0zLjctMTUtMTAtMTkuNXMtMTQuMy01LjctMjEuNi0zLjNsLTE5MiA2NEM4Ni42IDIyOC41IDgwIDIzNy43IDgwIDI0OGwwIDQ4IDAgMTIxLjVjLTUuMS0xLTEwLjUtMS41LTE2LTEuNWMtMzUuMyAwLTY0IDIxLjUtNjQgNDhzMjguNyA0OCA2NCA0OHM2NC0yMS41IDY0LTQ4bDAtMTUwLjcgMTQ0LTQ4IDAgODguMmMtNS4xLTEtMTAuNS0xLjUtMTYtMS41Yy0zNS4zIDAtNjQgMjEuNS02NCA0OHMyOC43IDQ4IDY0IDQ4czY0LTIxLjUgNjQtNDhjMC0xLjUtLjEtMy0uMy00LjRjLjItMS4yIC4zLTIuNCAuMy0zLjZsMC0xNjAgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![music-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/music-magnifying-glass.svg)
  */
 const MusicMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

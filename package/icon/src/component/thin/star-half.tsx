@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-half` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-half?s=thin star-half}
- * @preview ![star-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEyLjEgMTYxLjhjLTIuMyA0LjgtNi44IDguMS0xMi4xIDguOEw0Ni44IDE5My4zYy0zIC40LTUuNSAyLjUtNi40IDUuNHMtLjIgNiAyIDguMkwzMS4xIDIxOC4zYy02LjUtNi40LTguNy0xNS45LTUuOS0yNC41czEwLjMtMTQuOSAxOS4zLTE2LjNsMTUzLjItMjIuNkwyNjYuMyAxMy41YzQuOS0xMC4xIDE2LjEtMTUuNCAyNy0xMi45czE4LjYgMTIuMiAxOC42IDIzLjRsMCAzODQuN2MwIDguOS00LjkgMTctMTIuNyAyMS4yTDE1MSA1MDkuMWMtOC4xIDQuMy0xNy45IDMuNy0yNS4zLTEuN3MtMTEuMi0xNC41LTkuNy0yMy41bDI2LjItMTU1LjZMMzEuMSAyMTguM2wxMS4zLTExLjRMMTUzLjUgMzE3YzMuNyAzLjcgNS40IDguOSA0LjUgMTRMMTMxLjggNDg2LjZjLS41IDMgLjcgNiAzLjIgNy44czUuOCAyIDguNCAuNmwxNDguMy03OS4yYzIuNi0xLjQgNC4yLTQuMSA0LjItNy4xbDAtMzg0LjdjMC0zLjctMi42LTctNi4yLTcuOHMtNy40IC45LTkgNC4zTDIxMi4xIDE2MS44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![star-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/star-half.svg)
  */
 const StarHalf: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

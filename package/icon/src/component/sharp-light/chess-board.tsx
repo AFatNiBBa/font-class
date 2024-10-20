@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-board` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-board?s=sharp-light chess-board}
- * @preview ![chess-board](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMzg0IDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnpNODAgOTZsNzIgMCA3MiAwIDcyIDAgNzIgMCAxNiAwIDAgMTYgMCA3MiAwIDcyIDAgNzIgMCA3MiAwIDE2LTE2IDAtNzIgMC03MiAwLTcyIDAtNzIgMC0xNiAwIDAtMTYgMC03MiAwLTcyIDAtNzIgMC03MiAwLTE2IDE2IDB6bTE2IDcybDQwIDAgMC00MC00MCAwIDAgNDB6bTcyIDBsNDAgMCAwLTQwLTQwIDAgMCA0MHptNzIgMGw0MCAwIDAtNDAtNDAgMCAwIDQwem03MiAwbDQwIDAgMC00MC00MCAwIDAgNDB6bTAgMzJsMCA0MCA0MCAwIDAtNDAtNDAgMHptMCA3MmwwIDQwIDQwIDAgMC00MC00MCAwem0wIDcybDAgNDAgNDAgMCAwLTQwLTQwIDB6bS0zMiAwbC00MCAwIDAgNDAgNDAgMCAwLTQwem0tNzIgMGwtNDAgMCAwIDQwIDQwIDAgMC00MHptLTcyIDBsLTQwIDAgMCA0MCA0MCAwIDAtNDB6bTAtMzJsMC00MC00MCAwIDAgNDAgNDAgMHptMC03MmwwLTQwLTQwIDAgMCA0MCA0MCAwem0zMiAwbDQwIDAgMC00MC00MCAwIDAgNDB6bTcyIDBsNDAgMCAwLTQwLTQwIDAgMCA0MHptMCAzMmwwIDQwIDQwIDAgMC00MC00MCAwem0tMzIgMGwtNDAgMCAwIDQwIDQwIDAgMC00MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chess-board](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chess-board.svg)
  */
 const ChessBoard: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

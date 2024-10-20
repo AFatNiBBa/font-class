@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-prescription` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-prescription?s=solid file-prescription}
- * @preview ![file-prescription](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yODgtMTI4IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyTDIyNCAwIDY0IDB6TTI1NiAwbDAgMTI4IDEyOCAwTDI1NiAwek0xMDQgMTk2bDcyIDBjMzMuMSAwIDYwIDI2LjkgNjAgNjBjMCAyNS41LTE1LjkgNDcuMi0zOC4zIDU1LjlsNDMgNDAuMyAzMy44LTMxYzguMS03LjUgMjAuOC02LjkgMjguMyAxLjJzNi45IDIwLjgtMS4yIDI4LjNMMjcwIDM3OS43bDMxLjcgMjkuN2M4LjEgNy42IDguNSAyMC4yIC45IDI4LjNzLTIwLjIgOC41LTI4LjMgLjlsLTMzLjktMzEuOC0zNC45IDMyYy04LjEgNy41LTIwLjggNi45LTI4LjMtMS4ycy02LjktMjAuOCAxLjItMjguM2wzMi42LTI5LjktNjQuOC02MC44Yy0uOS0uOC0xLjYtMS43LTIuMy0yLjZsLTIwIDAgMCA0NGMwIDExLTkgMjAtMjAgMjBzLTIwLTktMjAtMjBsMC02NCAwLTgwYzAtMTEgOS0yMCAyMC0yMHptNzIgODBjMTEgMCAyMC05IDIwLTIwcy05LTIwLTIwLTIwbC01MiAwIDAgNDAgNTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-prescription](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-prescription.svg)
  */
 const FilePrescription: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `baht-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baht-sign?s=duotone baht-sign}
- * @preview ![baht-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xMTIgMzJsMCAzMiA2NCAwIDAtMzJjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJ6bTAgOTZsMCA5NiA2NCAwIDAtOTYtNjQgMHptMCAxNjBsMCA5NiA2NCAwIDAtOTYtNjQgMHptMCAxNjBsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMzItNjQgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTY0IDIyNGwxMTIgMGMyNi41IDAgNDgtMjEuNSA0OC00OHMtMjEuNS00OC00OC00OEw2NCAxMjhsMCA5NnpNMCAyNjUuN0wwIDIyNCAwIDEwMS42QzAgODAuOCAxNi44IDY0IDM3LjYgNjRMMTc2IDY0YzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEyYzAgMjQuMi03LjcgNDYuNi0yMC43IDY0LjljMzEuNyAxOS44IDUyLjcgNTUgNTIuNyA5NS4xYzAgNjEuOS01MC4xIDExMi0xMTIgMTEyTDQxLjcgNDQ4QzE4LjcgNDQ4IDAgNDI5LjMgMCA0MDYuM0wwIDI4OGwwLTIyLjN6TTE3NiAyODhMNjQgMjg4bDAgOTYgMTQ0IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhzLTIxLjUtNDgtNDgtNDhsLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![baht-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/baht-sign.svg)
  */
 const BahtSign: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>
         <path class={generic.secondary} d="M112 32l0 32 64 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32zm0 96l0 96 64 0 0-96-64 0zm0 160l0 96 64 0 0-96-64 0zm0 160l0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32-64 0z" />
-            <path d="M64 224l112 0c26.5 0 48-21.5 48-48s-21.5-48-48-48L64 128l0 96zM0 265.7L0 224 0 101.6C0 80.8 16.8 64 37.6 64L176 64c61.9 0 112 50.1 112 112c0 24.2-7.7 46.6-20.7 64.9c31.7 19.8 52.7 55 52.7 95.1c0 61.9-50.1 112-112 112L41.7 448C18.7 448 0 429.3 0 406.3L0 288l0-22.3zM176 288L64 288l0 96 144 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-32 0z" />
+        <path d="M64 224l112 0c26.5 0 48-21.5 48-48s-21.5-48-48-48L64 128l0 96zM0 265.7L0 224 0 101.6C0 80.8 16.8 64 37.6 64L176 64c61.9 0 112 50.1 112 112c0 24.2-7.7 46.6-20.7 64.9c31.7 19.8 52.7 55 52.7 95.1c0 61.9-50.1 112-112 112L41.7 448C18.7 448 0 429.3 0 406.3L0 288l0-22.3zM176 288L64 288l0 96 144 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-32 0z" />
     </Icon>
 );
 

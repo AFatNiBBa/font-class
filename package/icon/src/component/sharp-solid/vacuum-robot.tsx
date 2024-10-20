@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vacuum-robot` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vacuum-robot?s=sharp-solid vacuum-robot}
- * @preview ![vacuum-robot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTM1Ni43IDM1Ni43YzU1LjYtNTUuNiA1NS42LTE0NS44IDAtMjAxLjRzLTE0NS44LTU1LjYtMjAxLjQgMGwtMjIuNi0yMi42YzY4LjEtNjguMSAxNzguNS02OC4xIDI0Ni42IDBzNjguMSAxNzguNSAwIDI0Ni42bC0yMi42LTIyLjZ6TTIyNCAyMDEuNGwxMS4zIDExLjMgNjQgNjRMMzEwLjYgMjg4IDI4OCAzMTAuNmwtMTEuMy0xMS4zLTY0LTY0TDIwMS40IDIyNCAyMjQgMjAxLjR6bS04MCAxNmwxMS4zIDExLjMgMTI4IDEyOEwyOTQuNiAzNjggMjcyIDM5MC42bC0xMS4zLTExLjMtMTI4LTEyOEwxMjEuNCAyNDAgMTQ0IDIxNy40em0tMTYgODBsMTEuMyAxMS4zIDY0IDY0TDIxNC42IDM4NCAxOTIgNDA2LjZsLTExLjMtMTEuMy02NC02NEwxMDUuNCAzMjAgMTI4IDI5Ny40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vacuum-robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/vacuum-robot.svg)
  */
 const VacuumRobot: typeof Icon = x => (
     <Icon {...x}>

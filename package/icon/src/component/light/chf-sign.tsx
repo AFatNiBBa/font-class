@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chf-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chf-sign?s=light chf-sign}
- * @preview ![chf-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMTJDMCA2Ny44IDM1LjggMzIgODAgMzJsNC4yIDBjMjggMCA1My42IDE1LjggNjYuMSA0MC44YzQgNy45IC43IDE3LjUtNy4yIDIxLjVzLTE3LjUgLjctMjEuNS03LjJDMTE0LjYgNzMgMTAwLjEgNjQgODQuMiA2NEw4MCA2NGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAyODhjMCAyNi41IDIxLjUgNDggNDggNDhsNC4yIDBjMTUuOSAwIDMwLjQtOSAzNy41LTIzLjJjNC03LjkgMTMuNi0xMS4xIDIxLjUtNy4yczExLjEgMTMuNiA3LjIgMjEuNWMtMTIuNSAyNS0zOC4xIDQwLjgtNjYuMSA0MC44TDgwIDQ4MGMtNDQuMiAwLTgwLTM1LjgtODAtODBMMCAxMTJ6TTIwOCAzMmM4LjggMCAxNiA3LjIgMTYgMTZsMCAxNzYgMTYwIDAgMC0xNzZjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDQxNmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTIwOC0xNjAgMCAwIDIwOGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTQxNmMwLTguOCA3LjItMTYgMTYtMTZ6TTQ0OCA0OGMwLTguOCA3LjItMTYgMTYtMTZsMTYwIDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZMNDgwIDY0bDAgMTYwIDExMiAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xMTIgMCAwIDIwOGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTQxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chf-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chf-sign.svg)
  */
 const ChfSign: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

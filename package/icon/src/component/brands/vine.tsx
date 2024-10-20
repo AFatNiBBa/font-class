@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vine` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vine?s=brands vine}
- * @preview ![vine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDI1NC43djUyLjFjLTE4LjQgNC4yLTM2LjkgNi4xLTUyLjEgNi4xLTM2LjkgNzcuNC0xMDMgMTQzLjgtMTI1LjEgMTU2LjItMTQgNy45LTI3LjEgOC40LTQyLjctLjhDMTM3IDQ1MiAzNC4yIDM2Ny43IDAgMTAyLjdoNzQuNUM5My4yIDI2MS44IDEzOSAzNDMuNCAxODkuMyA0MDQuNWMyNy45LTI3LjkgNTQuOC02NS4xIDc1LjYtMTA2LjktNDkuOC0yNS4zLTgwLjEtODAuOS04MC4xLTE0NS42IDAtNjUuNiAzNy43LTExNS4xIDEwMi4yLTExNS4xIDExNC45IDAgMTA2LjIgMTI3LjkgODEuNiAxODEuNSAwIDAtNDYuNCA5LjItNjMuNS0yMC41IDMuNC0xMS4zIDguMi0zMC44IDguMi00OC41IDAtMzEuMy0xMS4zLTQ2LjYtMjguNC00Ni42LTE4LjIgMC0zMC44IDE3LjEtMzAuOCA1MCAuMSA3OS4yIDU5LjQgMTE4LjcgMTI5LjkgMTAxLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![vine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/vine.svg)
  */
 const Vine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

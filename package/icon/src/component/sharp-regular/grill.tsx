@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `grill` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grill?s=sharp-regular grill}
- * @preview ![grill](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDgwbDAgMTZjMCA5Ny4yLTc4LjggMTc2LTE3NiAxNzZTNDggMTkzLjIgNDggOTZsMC0xNiAzNTIgMHpNNDggMzJMMCAzMiAwIDgwIDAgOTZjMCA4OS44IDUyLjkgMTY3LjMgMTI5LjIgMjAzbC0yMy4xIDUzLjhjLTMuMy0uNS02LjctLjgtMTAuMS0uOGMtMzUuMyAwLTY0IDI4LjctNjQgNjRzMjguNyA2NCA2NCA2NHM2NC0yOC43IDY0LTY0bDE1Ni43IDAgMTMuMiAzMC44IDQgOS4zIDkuNSAyMi4xIDQ0LjEtMTguOS05LjUtMjIuMS00LTkuM0wzMTguOCAyOTlDMzk1LjEgMjYzLjMgNDQ4IDE4NS44IDQ0OCA5NmwwLTE2IDAtNDgtNDggMEw0OCAzMnpNMjk2LjIgMzY4bC0xNDQuMyAwIDIyLjktNTMuNGMxNS45IDMuNiAzMi4zIDUuNCA0OS4zIDUuNHMzMy40LTEuOSA0OS4zLTUuNEwyOTYuMiAzNjh6TTk2IDM5MmEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![grill](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/grill.svg)
  */
 const Grill: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

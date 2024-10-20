@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-q` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-q?s=sharp-solid circle-q}
- * @preview ![circle-q](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6bTAtMzM2Yy00NC4yIDAtODAgMzUuOC04MCA4MHMzNS44IDgwIDgwIDgwYzEzLjkgMCAyNi45LTMuNSAzOC4zLTkuN0wyMzguMSAyNTZsNjEuNSAwIDI4LjMgMzUuM2M1LjMtMTAuNyA4LjItMjIuNiA4LjItMzUuM2MwLTQ0LjItMzUuOC04MC04MC04MHptMCAyMDhjLTcwLjcgMC0xMjgtNTcuMy0xMjgtMTI4czU3LjMtMTI4IDEyOC0xMjhzMTI4IDU3LjMgMTI4IDEyOGMwIDI4LjEtOSA1NC0yNC40IDc1LjFMNDAxLjkgMzg0bC02MS41IDAtMTUuOS0xOS45QzMwNC43IDM3Ni43IDI4MS4yIDM4NCAyNTYgMzg0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circle-q](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/circle-q.svg)
  */
 const CircleQ: typeof Icon = x => (
     <Icon {...x}>

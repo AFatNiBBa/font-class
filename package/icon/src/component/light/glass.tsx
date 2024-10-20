@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `glass` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass?s=light glass}
- * @preview ![glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIuMSA0MC43Yy0uNC00LjcgMy4zLTguNyA4LTguN2wzMDMuNyAwYzQuNyAwIDguNCA0IDggOC43TDM0Ny4xIDk2IDM2LjggOTYgMzIuMSA0MC43ek0zOS41IDEyOGwzMDUgMEwzMTcuMiA0NTAuN0MzMTUuOCA0NjcuMyAzMDIgNDgwIDI4NS40IDQ4MEw5OC42IDQ4MGMtMTYuNiAwLTMwLjUtMTIuNy0zMS45LTI5LjNMMzkuNSAxMjh6TTQwLjEgMEMxNi43IDAtMS43IDIwIC4yIDQzLjRsMzQuNiA0MTBDMzcuNiA0ODYuNSA2NS4zIDUxMiA5OC42IDUxMmwxODYuOCAwYzMzLjMgMCA2MS0yNS41IDYzLjgtNTguNmwzNC42LTQxMEMzODUuNiAyMCAzNjcuMiAwIDM0My44IDBMNDAuMSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/glass.svg)
  */
 const Glass: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `coffee-beans` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-beans?s=sharp-light coffee-beans}
- * @preview ![coffee-beans](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc2LjggMjU4YzUwLTUwIDM5LjktMTQxLjItMjIuNi0yMDMuNlMzMDAuNS0xOC4yIDI1MC41IDMxLjhzLTM5LjkgMTQxLjIgMjIuNiAyMDMuNlM0MjYuOCAzMDggNDc2LjggMjU4em0tNzIuNy04Mi44bDQyLjQgNjYuN2MtMzUuNCAyNi4xLTk5LjcgMjEuOS0xNTAuOC0yOS4yQzI1MCAxNjcuMSAyNDEuOSAxMTAuNyAyNTkuNCA3NGw0Mi45IDY3LjMgMTAxLjggMzMuOXpNNDMxLjUgNzdjNDUuNyA0NS43IDUzLjkgMTAyLjEgMzYuMyAxMzguOEw0MjUgMTQ4LjUgMzIzLjIgMTE0LjUgMjgwLjcgNDcuOEMzMTYuMSAyMS43IDM4MC41IDI2IDQzMS41IDc3ek0xMzUuMSA0MDIuMUwxMTggNDc5LjJDNzQuNSA0NzIuNyAzMiA0MjQuMiAzMiAzNTJjMC02NC43IDM0LjEtMTEwLjMgNzIuNS0xMjMuOEw4OC40IDMwMC41bC0xLjIgNS41IDIuNSA1LjEgNDUuNSA5MC45ek0xMjggMjI0bC0uOCAwIC44IDAgLjggMC0uOCAwem05NiAxMjhjMCA2NC43LTM0LjEgMTEwLjMtNzIuNSAxMjMuOGwxNi4xLTcyLjQgMS4yLTUuNS0yLjUtNS4xLTQ1LjUtOTAuOUwxMzggMjI0LjhjNDMuNSA2LjUgODYgNTUuMSA4NiAxMjcuMnpNMTI4IDUxMmM3MC43IDAgMTI4LTcxLjYgMTI4LTE2MHMtNTcuMy0xNjAtMTI4LTE2MFMwIDI2My42IDAgMzUyczU3LjMgMTYwIDEyOCAxNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![coffee-beans](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/coffee-beans.svg)
  */
 const CoffeeBeans: typeof Icon = x => (
     <Icon {...x}>

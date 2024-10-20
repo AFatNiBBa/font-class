@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `buffer` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/buffer?s=brands buffer}
- * @preview ![buffer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI3Ljg0IDM4MC42N2wtMTk2LjUgOTcuODJhMTguNiAxOC42IDAgMCAxLTE0LjY3IDBMMjAuMTYgMzgwLjY3Yy00LTItNC01LjI4IDAtNy4yOUw2Ny4yMiAzNTBhMTguNjUgMTguNjUgMCAwIDEgMTQuNjkgMGwxMzQuNzYgNjdhMTguNTEgMTguNTEgMCAwIDAgMTQuNjcgMGwxMzQuNzYtNjdhMTguNjIgMTguNjIgMCAwIDEgMTQuNjggMGw0Ny4wNiAyMy40M2M0LjA1IDEuOTYgNC4wNSA1LjI0IDAgNy4yNHptMC0xMzYuNTNsLTQ3LjA2LTIzLjQzYTE4LjYyIDE4LjYyIDAgMCAwLTE0LjY4IDBsLTEzNC43NiA2Ny4wOGExOC42OCAxOC42OCAwIDAgMS0xNC42NyAwTDgxLjkxIDIyMC43MWExOC42NSAxOC42NSAwIDAgMC0xNC42OSAwbC00Ny4wNiAyMy40M2MtNCAyLTQgNS4yOSAwIDcuMzFsMTk2LjUxIDk3LjhhMTguNiAxOC42IDAgMCAwIDE0LjY3IDBsMTk2LjUtOTcuOGM0LjA1LTIuMDIgNC4wNS01LjMgMC03LjMxek0yMC4xNiAxMzAuNDJsMTk2LjUgOTAuMjlhMjAuMDggMjAuMDggMCAwIDAgMTQuNjcgMGwxOTYuNTEtOTAuMjljNC0xLjg2IDQtNC44OSAwLTYuNzRMMjMxLjMzIDMzLjRhMTkuODggMTkuODggMCAwIDAtMTQuNjcgMGwtMTk2LjUgOTAuMjhjLTQuMDUgMS44NS00LjA1IDQuODggMCA2Ljc0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![buffer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/buffer.svg)
  */
 const Buffer: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

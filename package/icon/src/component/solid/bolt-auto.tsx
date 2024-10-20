@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bolt-auto` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-auto?s=solid bolt-auto}
- * @preview ![bolt-auto](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzE3LjQgNDQuNmM1LjktMTMuNyAxLjUtMjkuNy0xMC42LTM4LjVzLTI4LjYtOC0zOS45IDEuOGwtMjU2IDIyNEMuOSAyNDAuNy0yLjYgMjU0LjggMiAyNjcuM1MxOC43IDI4OCAzMiAyODhsMTExLjUgMEw2Ni42IDQ2Ny40Yy01LjkgMTMuNy0xLjUgMjkuNyAxMC42IDM4LjVzMjguNiA4IDM5LjktMS44bDI1Ni0yMjRjMTAtOC44IDEzLjYtMjIuOSA4LjktMzUuM3MtMTYuNi0yMC43LTMwLTIwLjdsLTExMS41IDBMMzE3LjQgNDQuNnpNNDY0IDI4OGMtMTIuMSAwLTIzLjIgNi44LTI4LjYgMTcuN2wtODAgMTYwYy03LjkgMTUuOC0xLjUgMzUgMTQuMyA0Mi45czM1IDEuNSA0Mi45LTE0LjNsNy4yLTE0LjMgODguNCAwIDcuMiAxNC4zYzcuOSAxNS44IDI3LjEgMjIuMiA0Mi45IDE0LjNzMjIuMi0yNy4xIDE0LjMtNDIuOWwtODAtMTYwQzQ4Ny4yIDI5NC44IDQ3Ni4xIDI4OCA0NjQgMjg4ek00NDcuOCA0MjRMNDY0IDM5MS42IDQ4MC4yIDQyNGwtMzIuNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bolt-auto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bolt-auto.svg)
  */
 const BoltAuto: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `moon-stars` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon-stars?s=sharp-light moon-stars}
- * @preview ![moon-stars](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBMMjg4IDBsMCAxNiAwIDMyLTMyIDAtMTYgMCAwIDMyIDE2IDAgMzIgMCAwIDMyIDAgMTYgMzIgMCAwLTE2IDAtMzIgMzIgMCAxNiAwIDAtMzItMTYgMC0zMiAwIDAtMzIgMC0xNnpNMjUyLjIgMTM3LjZjLTE1LjgtNS4yLTMyLjUtOC40LTQ5LjgtOS4zYy0zLjQtLjItNi45LS4zLTEwLjQtLjNDODYgMTI4IDAgMjE0IDAgMzIwUzg2IDUxMiAxOTIgNTEyYzU4LjQgMCAxMTAuOC0yNi4xIDE0Ni02Ny4zYzExLTEyLjggMjAuMy0yNy4xIDI3LjYtNDIuNWMtMTMuOSA2LjYtMjkgMTEtNDQuOCAxMi44Yy01LjUgLjYtMTEuMSAxLTE2LjcgMWMtNzkuNSAwLTE0NC02NC41LTE0NC0xNDRjMC00NC41IDIwLjItODQuNCA1Mi0xMTAuOGMxMS45LTkuOSAyNS41LTE3LjkgNDAuMi0yMy42ek0xNjYuNiAxNjJDMTQyLjUgMTkyLjEgMTI4IDIzMC40IDEyOCAyNzJjMCA5Mi4xIDcwLjggMTY3LjcgMTYwLjkgMTc1LjRDMjYyIDQ2Ny44IDIyOC40IDQ4MCAxOTIgNDgwYy04OC40IDAtMTYwLTcxLjYtMTYwLTE2MGMwLTc5LjcgNTguMy0xNDUuOCAxMzQuNi0xNTh6TTQzMiAxNjBsMC0xNi0zMiAwIDAgMTYgMCA2NC02NCAwLTE2IDAgMCAzMiAxNiAwIDY0IDAgMCA2NCAwIDE2IDMyIDAgMC0xNiAwLTY0IDY0IDAgMTYgMCAwLTMyLTE2IDAtNjQgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![moon-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/moon-stars.svg)
  */
 const MoonStars: typeof Icon = x => (
     <Icon {...x}>

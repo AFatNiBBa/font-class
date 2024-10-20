@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `mask` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask?s=duotone mask}
- * @preview ![mask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI3MkMwIDM4NCA4MCA0NDggMTc2IDQ0OGw4LjQgMGMyNC4yIDAgNDYuNC0xMy43IDU3LjItMzUuNGwyMy4yLTQ2LjNjNC40LTguOCAxMy4zLTE0LjMgMjMuMi0xNC4zczE4LjggNS41IDIzLjIgMTQuM2wyMy4yIDQ2LjNjMTAuOCAyMS43IDMzIDM1LjQgNTcuMiAzNS40bDguNCAwYzk2IDAgMTc2LTY0IDE3Ni0xNzZzLTY0LTIwOC0yODgtMjA4UzAgMTYwIDAgMjcyem0yMjQtMTZBNjQgNjQgMCAxIDEgOTYgMjU2YTY0IDY0IDAgMSAxIDEyOCAwem0yNTYgMGE2NCA2NCAwIDEgMSAtMTI4IDAgNjQgNjQgMCAxIDEgMTI4IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0xNjAgMzIwYTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4em0yNTYgMGE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mask.svg)
  */
 const Mask: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 272C0 384 80 448 176 448l8.4 0c24.2 0 46.4-13.7 57.2-35.4l23.2-46.3c4.4-8.8 13.3-14.3 23.2-14.3s18.8 5.5 23.2 14.3l23.2 46.3c10.8 21.7 33 35.4 57.2 35.4l8.4 0c96 0 176-64 176-176s-64-208-288-208S0 160 0 272zm224-16A64 64 0 1 1 96 256a64 64 0 1 1 128 0zm256 0a64 64 0 1 1 -128 0 64 64 0 1 1 128 0z" />
-            <path d="M160 320a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm256 0a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
+        <path d="M160 320a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm256 0a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
     </Icon>
 );
 

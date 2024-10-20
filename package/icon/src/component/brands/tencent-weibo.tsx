@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tencent-weibo` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tencent-weibo?s=brands tencent-weibo}
- * @preview ![tencent-weibo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzIuMyA0OTUuOGMxLjQgMTkuOS0yNy42IDIyLjItMjkuNyAyLjlDMzEgMzY4LjggNzMuNyAyNTkuMiAxNDQgMTg1LjVjLTE1LjYtMzQgOS4yLTc3LjEgNTAuNi03Ny4xIDMwLjMgMCA1NS4xIDI0LjYgNTUuMSA1NS4xIDAgNDQtNDkuNSA3MC44LTg2LjkgNDUuMS02NS43IDcxLjMtMTAxLjQgMTY5LjgtOTAuNSAyODcuMnpNMTkyIC4xQzY2LjEuMS0xMi4zIDEzNC4zIDQzLjcgMjQyLjQgNTIuNCAyNTkuOCA3OSAyNDYuOSA3MCAyMjkgMjMuNyAxMzYuNCA5MSAyOS44IDE5MiAyOS44Yzc1LjQgMCAxMzYuOSA2MS40IDEzNi45IDEzNi45IDAgOTAuOC04Ni45IDE1My45LTE2Ny43IDEzMy4xLTE5LjEtNC4xLTI1LjYgMjQuNC02LjYgMjkuMSAxMTAuNyAyMy4yIDIwNC02MCAyMDQtMTYyLjNDMzU4LjYgNzQuNyAyODQgLjEgMTkyIC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tencent-weibo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/tencent-weibo.svg)
  */
 const TencentWeibo: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

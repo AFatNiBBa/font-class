@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wifi` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi?s=regular wifi}
- * @preview ![wifi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkuOSAxODUuN0MxMTQuNiAxMTkuOSAyMTIuNiA4MCAzMjAgODBzMjA1LjQgMzkuOSAyODAuMSAxMDUuN2M5LjkgOC44IDI1LjEgNy44IDMzLjktMi4yczcuOC0yNS4xLTIuMi0zMy45QzU0OC43IDc2LjQgNDM5LjUgMzIgMzIwIDMyUzkxLjMgNzYuNCA4LjIgMTQ5LjZjLTkuOSA4LjgtMTAuOSAyMy45LTIuMiAzMy45czIzLjkgMTAuOSAzMy45IDIuMnpNMzIwIDI1NmM2NC42IDAgMTIzLjUgMjQuNyAxNjcuNiA2NS4yYzkuOCA5IDI0LjkgOC4zIDMzLjktMS41czguMy0yNC45LTEuNS0zMy45QzQ2Ny40IDIzNy41IDM5Ny4xIDIwOCAzMjAgMjA4cy0xNDcuNCAyOS41LTIwMC4xIDc3LjljLTkuOCA5LTEwLjQgMjQuMS0xLjUgMzMuOXMyNC4xIDEwLjQgMzMuOSAxLjVDMTk2LjUgMjgwLjcgMjU1LjQgMjU2IDMyMCAyNTZ6bTU2IDE2OGE1NiA1NiAwIDEgMCAtMTEyIDAgNTYgNTYgMCAxIDAgMTEyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![wifi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/wifi.svg)
  */
 const Wifi: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mask-snorkel` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask-snorkel?s=sharp-light mask-snorkel}
- * @preview ![mask-snorkel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDMybDMyIDAgMCAxMjgtMzIgMCAwLTEyOHptMCAxNjBsMzIgMCAwIDE5MmMwIDcwLjctNTcuMyAxMjgtMTI4IDEyOHMtMTI4LTU3LjMtMTI4LTEyOGwwLTMyIDMyIDAgMCAzMmMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDAtMTkyek0yNjQgMjg4bC0yMi4xLTQ0LjItNC42LTkuMUwyMzIgMjI0bC0xNiAwLTUuMyAxMC43LTQuNiA5LjFMMTg0IDI4OCAzMiAyODggMCAyODhsMC0zMkwwIDk2IDAgNjRsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAxNjAgMCAzMi0zMiAwLTE1MiAwem0tNzYuNi03OC4zbDguOC0xNy43IDE5LjggMCAxNiAwIDE5LjggMCA4LjggMTcuN0wyODMuOCAyNTYgNDE2IDI1NmwwLTE2MEwzMiA5NmwwIDE2MCAxMzIuMiAwIDIzLjItNDYuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mask-snorkel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mask-snorkel.svg)
  */
 const MaskSnorkel: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

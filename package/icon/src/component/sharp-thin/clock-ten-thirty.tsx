@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clock-ten-thirty` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-ten-thirty?s=sharp-thin clock-ten-thirty}
- * @preview ![clock-ten-thirty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjU2YTI0MCAyNDAgMCAxIDEgNDgwIDBBMjQwIDI0MCAwIDEgMSAxNiAyNTZ6bTQ5NiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZhMjU2IDI1NiAwIDEgMCA1MTIgMHpNMjY0IDQwOGwwLTE1MiAwLTQuMy0zLjYtMi40LTk2LTY0LTYuNy00LjQtOC45IDEzLjMgNi43IDQuNEwyNDggMjYwLjMgMjQ4IDQwOGwwIDggMTYgMCAwLTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clock-ten-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/clock-ten-thirty.svg)
  */
 const ClockTenThirty: typeof Icon = x => (
     <Icon {...x}>

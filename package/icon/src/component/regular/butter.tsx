@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `butter` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/butter?s=regular butter}
- * @preview ![butter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDExMmwwIDE3Ni00OCAwIDAtMTc2LTI4OCAwYy04LjggMC0xNiA3LjItMTYgMTZsMCAxNjAtNDggMCAwLTE2MGMwLTM1LjMgMjguNy02NCA2NC02NGwyODggMCAyNCAwIDI0IDAgNDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDE2MC00OCAwIDAtMTYwYzAtOC44LTcuMi0xNi0xNi0xNmwtNDggMHpNMCAzNDRjMC0xMy4zIDEwLjctMjQgMjQtMjRsNTkyIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTggMCAwIDQ4YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDY0IDQ0OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC00OC04IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![butter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/butter.svg)
  */
 const Butter: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

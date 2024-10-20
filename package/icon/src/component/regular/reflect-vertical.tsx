@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `reflect-vertical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-vertical?s=regular reflect-vertical}
- * @preview ![reflect-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZjMC0xMy4zIDEwLjctMjQgMjQtMjRsNDY0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRMMjQgMjgwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHpNMTY2LjYgNDY0bDE3OC43IDBMMjU2IDM3NC42IDE2Ni42IDQ2NHpNMTI4IDUxMmMtMTIuOSAwLTI0LjYtNy44LTI5LjYtMTkuOHMtMi4yLTI1LjcgNi45LTM0LjlsMTI4LTEyOGMxMi41LTEyLjUgMzIuOC0xMi41IDQ1LjMgMGwxMjggMTI4YzkuMiA5LjIgMTEuOSAyMi45IDYuOSAzNC45cy0xNi42IDE5LjgtMjkuNiAxOS44bC0yNTYgMHpNMjU2IDEzNy40TDM0NS40IDQ4IDE2Ni42IDQ4IDI1NiAxMzcuNHpNOTguNCAxOS44QzEwMy40IDcuOCAxMTUuMSAwIDEyOCAwTDM4NCAwYzEyLjkgMCAyNC42IDcuOCAyOS42IDE5LjhzMi4yIDI1LjctNi45IDM0LjlsLTEyOCAxMjhjLTEyLjUgMTIuNS0zMi44IDEyLjUtNDUuMyAwbC0xMjgtMTI4Yy05LjItOS4yLTExLjktMjIuOS02LjktMzQuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![reflect-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/reflect-vertical.svg)
  */
 const ReflectVertical: typeof Icon = x => (
     <Icon {...x}>

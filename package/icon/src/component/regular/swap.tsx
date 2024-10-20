@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `swap` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swap?s=regular swap}
- * @preview ![swap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDExOWMwIDIyLjYtMTguMyA0MS00MSA0MWwtNDcgMCAwIDIwMGMwIDM5LjggMzIuMiA3MiA3MiA3MnM3Mi0zMi4yIDcyLTcybDAtMjA4YzAtNjYuMyA1My43LTEyMCAxMjAtMTIwczEyMCA1My43IDEyMCAxMjBsMCAyMDAgNDcgMGMyMi42IDAgNDEgMTguMyA0MSA0MWMwIDEwLjktNC4zIDIxLjMtMTIgMjlsLTgzIDgzYy00LjUgNC41LTEwLjYgNy0xNyA3cy0xMi41LTIuNS0xNy03bC04My04M2MtNy43LTcuNy0xMi0xOC4xLTEyLTI5YzAtMjIuNiAxOC4zLTQxIDQxLTQxbDQ3IDAgMC0yMDBjMC0zOS44LTMyLjItNzItNzItNzJzLTcyIDMyLjItNzIgNzJsMCAyMDhjMCA2Ni4zLTUzLjcgMTIwLTEyMCAxMjBzLTEyMC01My43LTEyMC0xMjBsMC0yMDAtNDcgMGMtMjIuNiAwLTQxLTE4LjMtNDEtNDFjMC0xMC45IDQuMy0yMS4zIDEyLTI5TDExMSA3YzQuNS00LjUgMTAuNi03IDE3LTdzMTIuNSAyLjUgMTcgN2w4MyA4M2M3LjcgNy43IDEyIDE4LjEgMTIgMjl6TTczLjkgMTEybDEwOC4xIDBMMTI4IDU3LjkgNzMuOSAxMTJ6bTM4NCAyODhMNTEyIDQ1NC4xIDU2Ni4xIDQwMGwtMTA4LjEgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![swap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/swap.svg)
  */
 const Swap: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

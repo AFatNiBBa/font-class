@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `camera-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-slash?s=duotone camera-slash}
- * @preview ![camera-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCAxNjBsMCAyNTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzU5LjQgMEwzNTYuNCAzNzYuOGMtMTEuMiA0LjYtMjMuNSA3LjItMzYuNCA3LjJjLTUzIDAtOTYtNDMtOTYtOTZjMC01IC40LTkuOSAxLjEtMTQuNkw2NS4yIDE0Ny40Yy0uOCA0LjEtMS4yIDguMy0xLjIgMTIuNnptOTAuOC02NGM0My42IDM0LjEgODcuMSA2OC4zIDEzMC43IDEwMi40YzEwLjctNC4xIDIyLjQtNi40IDM0LjYtNi40YzUzIDAgOTYgNDMgOTYgOTZjMCA0LjEtLjMgOC4yLS44IDEyLjJjNTMuNCA0MS44IDEwNi43IDgzLjYgMTYwIDEyNS40Yy41LTMuMSAuNy02LjMgLjctOS42bDAtMjU2YzAtMzUuMy0yOC43LTY0LTY0LTY0bC03NC43IDBMNDI2LjkgNjQuOEM0MjAuNCA0NS4yIDQwMi4xIDMyIDM4MS40IDMyTDI1OC42IDMyYy0yMC43IDAtMzkgMTMuMi00NS41IDMyLjhMMjAyLjcgOTZsLTQ3LjkgMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTUuMSA5LjJDMTMuMy0xLjIgMjguNC0zLjEgMzguOCA1LjFsNTkyIDQ2NGMxMC40IDguMiAxMi4zIDIzLjMgNC4xIDMzLjdzLTIzLjMgMTIuMy0zMy43IDQuMUw5LjIgNDIuOUMtMS4yIDM0LjctMy4xIDE5LjYgNS4xIDkuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![camera-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/camera-slash.svg)
  */
 const CameraSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M64 160l0 256c0 35.3 28.7 64 64 64l359.4 0L356.4 376.8c-11.2 4.6-23.5 7.2-36.4 7.2c-53 0-96-43-96-96c0-5 .4-9.9 1.1-14.6L65.2 147.4c-.8 4.1-1.2 8.3-1.2 12.6zm90.8-64c43.6 34.1 87.1 68.3 130.7 102.4c10.7-4.1 22.4-6.4 34.6-6.4c53 0 96 43 96 96c0 4.1-.3 8.2-.8 12.2c53.4 41.8 106.7 83.6 160 125.4c.5-3.1 .7-6.3 .7-9.6l0-256c0-35.3-28.7-64-64-64l-74.7 0L426.9 64.8C420.4 45.2 402.1 32 381.4 32L258.6 32c-20.7 0-39 13.2-45.5 32.8L202.7 96l-47.9 0z" />
-            <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
+        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-tie` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie?s=thin user-tie}
- * @preview ![user-tie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDI0MGExMTIgMTEyIDAgMSAwIDAtMjI0IDExMiAxMTIgMCAxIDAgMCAyMjR6TTM1MiAxMjhBMTI4IDEyOCAwIDEgMSA5NiAxMjhhMTI4IDEyOCAwIDEgMSAyNTYgMHpNMTc2LjkgMzA4LjNjMS40LTIuNyA0LjEtNC4zIDcuMS00LjNsODAgMGMzIDAgNS43IDEuNyA3LjEgNC4zczEuMSA1LjktLjYgOC4zbC0zNy4yIDUyLjEgMjMuMiA0Ni4zIDQ3LjEtOTQuMmM4MS4yIDguNCAxNDQuNCA3NyAxNDQuNCAxNjAuNGMwIDE3LTEzLjggMzAuNy0zMC43IDMwLjdsLTE5MS40IDAtMy44IDBMMzAuNyA1MTJDMTMuOCA1MTIgMCA0OTguMiAwIDQ4MS4zYzAtODMuNCA2My4zLTE1MiAxNDQuNC0xNjAuNGw0Ny4xIDk0LjIgMjMuMi00Ni4zLTM3LjItNTIuMWMtMS43LTIuNC0yLTUuNi0uNi04LjN6TTE5OS41IDMyMEwyMjQgMzU0LjIgMjQ4LjUgMzIwbC00OC45IDB6bTEwLjEgMTY3LjJMMTM1LjMgMzM4LjNDNjcuNSAzNTAuNiAxNiA0MDkuOSAxNiA0ODEuM2MwIDguMSA2LjYgMTQuNyAxNC43IDE0LjdsMTgzLjQgMC00LjQtOC44em0tOS4yLTU0LjJsMTQuNiAyOS4yTDIyNCA0ODBsOC45LTE3LjkgMTQuNi0yOS4yTDIyNCAzODUuOWwtMjMuNSA0Ny4xek00MzIgNDgxLjNjMC03MS40LTUxLjUtMTMwLjctMTE5LjMtMTQzTDIzOC4zIDQ4Ny4ybC00LjQgOC44IDE4My40IDBjOC4xIDAgMTQuNy02LjYgMTQuNy0xNC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-tie.svg)
  */
 const UserTie: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

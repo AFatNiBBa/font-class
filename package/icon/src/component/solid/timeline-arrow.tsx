@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `timeline-arrow` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timeline-arrow?s=solid timeline-arrow}
- * @preview ![timeline-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDcyYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMzIgOTcuM2MyOC4zLTEyLjMgNDgtNDAuNSA0OC03My4zYzAtNDQuMi0zNS44LTgwLTgwLTgwUzQ4IDUxLjggNDggOTZjMCAzMi44IDE5LjcgNjEgNDggNzMuM0w5NiAyMjRsLTY0IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJsMTYwIDAgMCA1NC43Yy0yOC4zIDEyLjMtNDggNDAuNS00OCA3My4zYzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBjMC0zMi44LTE5LjctNjEtNDgtNzMuM2wwLTU0LjcgMjc0LjcgMC00MS40IDQxLjRjLTEyLjUgMTIuNS0xMi41IDMyLjggMCA0NS4zczMyLjggMTIuNSA0NS4zIDBsOTYtOTZjMTIuNS0xMi41IDEyLjUtMzIuOCAwLTQ1LjNsLTk2LTk2Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMHMtMTIuNSAzMi44IDAgNDUuM0w1MzAuNyAyMjQgMzg0IDIyNGwwLTU0LjdjMjguMy0xMi4zIDQ4LTQwLjUgNDgtNzMuM2MwLTQ0LjItMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MGMwIDMyLjggMTkuNyA2MSA0OCA3My4zbDAgNTQuNy0xNjAgMCAwLTU0Ljd6TTMyOCA5NmEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwek0yMjQgMzkyYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![timeline-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/timeline-arrow.svg)
  */
 const TimelineArrow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

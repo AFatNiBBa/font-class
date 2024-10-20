@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comma` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comma?s=light comma}
- * @preview ![comma](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM2IDM1Mi4zYzAtMTcuOC0xNC40LTMyLjMtMzIuMy0zMi4zYy0xNi4xIDAtMjkuNyAxMS44LTMxLjkgMjcuN2wtMTggMTI1LjhjLS41IDMuNCAyLjIgNi41IDUuNyA2LjVjMS45IDAgMy43LTEgNC44LTIuNmw2Ni0xMDEuOWMzLjgtNS44IDUuOC0xMi42IDUuOC0xOS41bDAtMy43em0zMiAwbDAgMy43YzAgMTMuMS0zLjggMjUuOS0xMC45IDM2LjlsLTY2IDEwMS45Qzg0LjIgNTA1LjUgNzIuMyA1MTIgNTkuNSA1MTJjLTIzIDAtNDAuNi0yMC4zLTM3LjMtNDNsMTgtMTI1LjhjNC41LTMxLjcgMzEuNi01NS4yIDYzLjYtNTUuMmMzNS41IDAgNjQuMyAyOC44IDY0LjMgNjQuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![comma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comma.svg)
  */
 const Comma: typeof Icon = x => (
     <Icon viewBox="0 0 192 512" {...x}>

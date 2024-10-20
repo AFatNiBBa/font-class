@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scalpel-line-dashed` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scalpel-line-dashed?s=sharp-thin scalpel-line-dashed}
- * @preview ![scalpel-line-dashed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQxLjQgMTZjLTE2LjEgMC0zMS40IDcuMS00MS43IDE5LjRMMjAwIDI3MmwxNDcuNSAwTDQ4Mi4yIDExMi40YzguOS0xMC42IDEzLjgtMjQgMTMuOC0zNy44bDAtNEM0OTYgNDAuNSA0NzEuNSAxNiA0NDEuNCAxNnpNMzU0LjkgMjg4bC03LjQgMEwyMDAgMjg4bC0xMy41IDAtMjAuOSAwIDEzLjUtMTYgOC43LTEwLjNMMzg3LjQgMjUuMUM0MDAuOCA5LjIgNDIwLjYgMCA0NDEuNCAwYzM5IDAgNzAuNiAzMS42IDcwLjYgNzAuNmwwIDRjMCAxNy42LTYuMiAzNC42LTE3LjYgNDguMUwzNTkuNyAyODIuM2wtNC44IDUuN3pNMTcwLjcgMzIwbDIxLjQgMEw0MC4yIDQ5MC45YzYuMi0xLjEgMTIuOS0yLjQgMjAtMy45YzMwLjgtNi42IDY4LjgtMTcgMTA1LjYtMzIuN2M2Ni45LTI4LjQgMTI0LjMtNzEuNCAxMzYuMS0xMzQuM2wxNi4zIDBDMjk2LjQgNDUyLjkgOTYuMiA0OTkuNyAyMy40IDUwOS44QzEyLjIgNTExLjMgNC4xIDUxMiAwIDUxMmwxNS40LTE3LjNMMTcwLjcgMzIwek0yMzIgNDk2bDgwIDAgOCAwIDAgMTYtOCAwLTgwIDAtOCAwIDAtMTYgOCAwem0xMjggMGw4MCAwIDggMCAwIDE2LTggMC04MCAwLTggMCAwLTE2IDggMHptMTI4IDBsODAgMCA4IDAgMCAxNi04IDAtODAgMC04IDAgMC0xNiA4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![scalpel-line-dashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/scalpel-line-dashed.svg)
  */
 const ScalpelLineDashed: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

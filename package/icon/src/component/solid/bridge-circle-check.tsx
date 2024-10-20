@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bridge-circle-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-circle-check?s=solid bridge-circle-check}
- * @preview ![bridge-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDNDYuMyAzMiAzMiA0Ni4zIDMyIDY0czE0LjMgMzIgMzIgMzJsNDAgMCAwIDY0LTcyIDAgMCAxMjhjNTMgMCA5NiA0MyA5NiA5NmwwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC02NGMwLTUzIDQzLTk2IDk2LTk2YzYuMyAwIDEyLjQgLjYgMTguMyAxLjdDMzY3LjEgMjMxLjggNDI2LjkgMTkyIDQ5NiAxOTJjNDIuNSAwIDgxLjYgMTUuMSAxMTIgNDAuMmwwLTcyLjItNzIgMCAwLTY0IDQwIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJMNjQgMzJ6TTQ4OCA5NmwwIDY0LTgwIDAgMC02NCA4MCAwek0zNjAgOTZsMCA2NC04MCAwIDAtNjQgODAgMHpNMjMyIDk2bDAgNjQtODAgMCAwLTY0IDgwIDB6TTY0MCAzNjhhMTQ0IDE0NCAwIDEgMCAtMjg4IDAgMTQ0IDE0NCAwIDEgMCAyODggMHptLTc2LjctNDMuM2M2LjIgNi4yIDYuMiAxNi40IDAgMjIuNmwtNzIgNzJjLTYuMiA2LjItMTYuNCA2LjItMjIuNiAwbC00MC00MGMtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZzMTYuNC02LjIgMjIuNiAwTDQ4MCAzODUuNGw2MC43LTYwLjdjNi4yLTYuMiAxNi40LTYuMiAyMi42IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bridge-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bridge-circle-check.svg)
  */
 const BridgeCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

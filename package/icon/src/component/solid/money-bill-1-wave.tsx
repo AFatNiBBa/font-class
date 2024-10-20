@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-bill-1-wave` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-1-wave?s=solid money-bill-1-wave}
- * @preview ![money-bill-1-wave](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxMTIuNUwwIDQyMi4zYzAgMTggMTAuMSAzNSAyNyA0MS4zYzg3IDMyLjUgMTc0IDEwLjMgMjYxLTExLjljNzkuOC0yMC4zIDE1OS42LTQwLjcgMjM5LjMtMTguOWMyMyA2LjMgNDguNy05LjUgNDguNy0zMy40bDAtMzA5LjljMC0xOC0xMC4xLTM1LTI3LTQxLjNDNDYyIDE1LjkgMzc1IDM4LjEgMjg4IDYwLjNDMjA4LjIgODAuNiAxMjguNCAxMDAuOSA0OC43IDc5LjFDMjUuNiA3Mi44IDAgODguNiAwIDExMi41ek0xMjggNDE2bC02NCAwIDAtNjRjMzUuMyAwIDY0IDI4LjcgNjQgNjR6TTY0IDIyNGwwLTY0IDY0IDBjMCAzNS4zLTI4LjcgNjQtNjQgNjR6TTQ0OCAzNTJjMC0zNS4zIDI4LjctNjQgNjQtNjRsMCA2NC02NCAwem02NC0xOTJjLTM1LjMgMC02NC0yOC43LTY0LTY0bDY0IDAgMCA2NHpNMzg0IDI1NmMwIDYxLjktNDMgMTEyLTk2IDExMnMtOTYtNTAuMS05Ni0xMTJzNDMtMTEyIDk2LTExMnM5NiA1MC4xIDk2IDExMnpNMjUyIDIwOGMwIDkuNyA2LjkgMTcuNyAxNiAxOS42bDAgNDguNC00IDBjLTExIDAtMjAgOS0yMCAyMHM5IDIwIDIwIDIwbDI0IDAgMjQgMGMxMSAwIDIwLTkgMjAtMjBzLTktMjAtMjAtMjBsLTQgMCAwLTY4YzAtMTEtOS0yMC0yMC0yMGwtMTYgMGMtMTEgMC0yMCA5LTIwIDIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![money-bill-1-wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/money-bill-1-wave.svg)
  */
 const MoneyBill_1Wave: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fire-flame` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-flame?s=sharp-regular fire-flame}
- * @preview ![fire-flame](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgwLjkgOS43TDE5MiAwbDExLjEgOS43Yzc2LjcgNjcuMSAxMzUuMiAxNTIuNSAxNzAgMjQ4LjNjNy4yIDE5LjkgMTAuOSA0MS4xIDEwLjkgNjIuMkMzODQgNDI1LjQgMjk3LjIgNTEyIDE5MiA1MTJTMCA0MjUuNCAwIDMyMC4yQzAgMjk5IDMuNyAyNzcuOCAxMC45IDI1OGMzNC44LTk1LjggOTMuMy0xODEuMiAxNzAtMjQ4LjN6TTU2IDI3NC40Yy01LjMgMTQuNS04IDMwLjItOCA0NS44QzQ4IDM5OC44IDExMy4zIDQ2NCAxOTIgNDY0czE0NC02NS4yIDE0NC0xNDMuOGMwLTE1LjYtMi43LTMxLjItOC00NS44QzI5OS4xIDE5NSAyNTIuNiAxMjMuMyAxOTIgNjQuN0MxMzEuNCAxMjMuMyA4NC45IDE5NSA1NiAyNzQuNHpNMjA1LjcgMTYwbDAgMTQuNGMwIDExLjMgNC40IDIyLjIgMTIuMyAzMC4ybDQwLjMgNDEuMWMxOSAxOS40IDI5LjYgNDUuNSAyOS42IDcyLjZsMCAxLjZjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZsMC00LjZjMC0yMi4zIDEwLjMtNDMuNCAyNy45LTU3LjFMMTM3LjEgMjQ4bDAgNTAuM2MwIDIwLjggMTYuOSAzNy43IDM3LjcgMzcuN3MzNy43LTE2LjkgMzcuNy0zNy43bDAtMS41YzAtMTAuMi0zLjktMTkuOS0xMS0yNy4zbC0xNC4yLTE0LjdjLTEwLjItMTAuNi0xNi0yNC44LTE2LTM5LjZjMC0xNyA3LjYtMzMgMjAuNi00My45TDIwNS43IDE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fire-flame](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/fire-flame.svg)
  */
 const FireFlame: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

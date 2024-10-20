@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `angles-up-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angles-up-down?s=regular angles-up-down}
- * @preview ![angles-up-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM5IDQ5OC43Yy04LjggNy0yMS4yIDctMzAgMEw0OSAzNzAuN2MtMTAuNC04LjMtMTItMjMuNC0zLjctMzMuN3MyMy40LTEyIDMzLjctMy44bDE0NSAxMTYgMTQ1LTExNmMxMC4zLTguMyAyNS41LTYuNiAzMy43IDMuOHM2LjYgMjUuNS0zLjcgMzMuN2wtMTYwIDEyOHpNMzk5IDE0MS4zYzEwLjQgOC4zIDEyIDIzLjQgMy44IDMzLjdzLTIzLjQgMTItMzMuNyAzLjdMMjI0IDYyLjcgNzkgMTc4LjdjLTEwLjQgOC4zLTI1LjUgNi42LTMzLjctMy43cy02LjYtMjUuNSAzLjctMzMuN2wxNjAtMTI4YzguOC03IDIxLjItNyAzMCAwbDE2MCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![angles-up-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/angles-up-down.svg)
  */
 const AnglesUpDown: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

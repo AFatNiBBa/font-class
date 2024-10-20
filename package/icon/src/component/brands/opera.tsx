@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `opera` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/opera?s=brands opera}
- * @preview ![opera](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEzLjkgMzIuN2MtMTcwLjIgMC0yNTIuNiAyMjMuOC0xNDcuNSAzNTUuMSAzNi41IDQ1LjQgODguNiA3NS42IDE0Ny41IDc1LjYgMzYuMyAwIDcwLjMtMTEuMSA5OS40LTMwLjQtNDMuOCAzOS4yLTEwMS45IDYzLTE2NS4zIDYzLTMuOSAwLTggMC0xMS45LS4zQzEwNC42IDQ4OS42IDAgMzgxLjEgMCAyNDggMCAxMTEgMTExIDAgMjQ4IDBoLjhjNjMuMS4zIDEyMC43IDI0LjEgMTY0LjQgNjMuMS0yOS0xOS40LTYzLjEtMzAuNC05OS4zLTMwLjR6bTEwMS44IDM5Ny43Yy00MC45IDI0LjctOTAuNyAyMy42LTEzMi01LjggNTYuMi0yMC41IDk3LjctOTEuNiA5Ny43LTE3Ni42IDAtODQuNy00MS4yLTE1NS44LTk3LjQtMTc2LjYgNDEuOC0yOS4yIDkxLjItMzAuMyAxMzIuOS01IDEwNS45IDk4LjcgMTA1LjUgMjY1LjctMS4yIDM2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![opera](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/opera.svg)
  */
 const Opera: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

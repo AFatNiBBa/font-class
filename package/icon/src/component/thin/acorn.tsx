@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `acorn` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/acorn?s=thin acorn}
- * @preview ![acorn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYxLjcgMTMuN2MzLjEtMy4xIDMuMS04LjIgMC0xMS4zcy04LjItMy4xLTExLjMgMEwyNDEgMTEuN0MyMjYuOSAyNS44IDIxOC4yIDQ0LjMgMjE2LjQgNjRMOTYgNjRDNDMgNjQgMCAxMDcgMCAxNjBsMCAxNmMwIDE3LjcgMTQuMyAzMiAzMiAzMmwzODQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTE2YzAtNTMtNDMtOTYtOTYtOTZMMjMyLjUgNjRjMS44LTE1LjQgOC43LTI5LjkgMTkuOC00MWw5LjQtOS40ek0zNTIgODBjNDQuMiAwIDgwIDM1LjggODAgODBsMCAxNmMwIDguOC03LjIgMTYtMTYgMTZMMzIgMTkyYy04LjggMC0xNi03LjItMTYtMTZsMC0xNmMwLTQ0LjIgMzUuOC04MCA4MC04MGwyNTYgMHpNNDguNCAyNDBjNC4xIDc4LjEgMzkgMTg5LjMgMTY1LjUgMjM2LjRjNi41IDIuNCAxMy43IDIuNCAyMC4yIDBDMzYwLjYgNDI5LjMgMzk1LjUgMzE4LjEgMzk5LjYgMjQwbC0xNiAwYy00IDc0LjUtMzcuNCAxNzcuNi0xNTUuMSAyMjEuNGMtMi45IDEuMS02LjEgMS4xLTkgMEMxMDEuOCA0MTcuNSA2OC41IDMxNC41IDY0LjQgMjQwbC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![acorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/acorn.svg)
  */
 const Acorn: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

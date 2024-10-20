@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-visor` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-visor?s=sharp-thin user-visor}
- * @preview ![user-visor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzMxLjQgMTYwYy0xMy44IDQ2LjMtNTYuNiA4MC0xMDcuNCA4MHMtOTMuNi0zMy43LTEwNy40LTgwbDIxNC43IDB6TTk2IDE2MGw0IDBjMTQuMiA1NS4yIDY0LjMgOTYgMTI0IDk2czEwOS44LTQwLjggMTI0LTk2bDQgMCAxNiAwIDAtMTYgMC02NCAwLTE2LTE2IDAtMTcuMSAwQzMxMi43IDI1LjcgMjcxLjQgMCAyMjQgMHMtODguNyAyNS43LTExMC45IDY0TDk2IDY0IDgwIDY0bDAgMTYgMCA2NCAwIDE2IDE2IDB6TTIyNCAxNmMzOC4xIDAgNzEuNyAxOSA5MS45IDQ4TDEzMi4xIDY0YzIwLjItMjkgNTMuOS00OCA5MS45LTQ4ek0zNTIgODBsMCA2NEw5NiAxNDRsMC02NCAyNTYgMHpNMTI4IDEwNGwtOCAwIDAgMTYgOCAwIDE5MiAwIDggMCAwLTE2LTggMC0xOTIgMHpNNzUuOCAzMjBsMjk2LjQgMCA1NC4yIDE3NkwyMS43IDQ5NiA3NS44IDMyMHpNMzg0IDMwNEw2NCAzMDQgNC45IDQ5NiAwIDUxMmwxNi43IDAgNDE0LjUgMCAxNi43IDAtNC45LTE2TDM4NCAzMDR6bS01Ni43IDYwLjdsLTcuMy0xNi03LjMgMTYtNDAgODgtMi4zIDUgMy45IDMuOSA4IDggNC40IDQuNCA1LjQtMy4yIDM0LjYtMjAuOCAxOS42IDE5LjYgNS43IDUuNyA1LjctNS43IDgtOCAzLjktMy45LTIuMy01LTQwLTg4em0tMy40IDY4LjVsLTM0IDIwLjRMMzIwIDM4Ny4zbDI3LjggNjEuMS0xNC4xLTE0LjEtNC40LTQuNC01LjQgMy4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-visor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-visor.svg)
  */
 const UserVisor: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

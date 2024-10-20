@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `monkey` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monkey?s=sharp-solid monkey}
- * @preview ![monkey](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQxNmMwLTgwLjYgNDkuNi0xNDkuNiAxMjAtMTc4bDAgMTggMCAzMiAzMiAwIDEzNS45IDBMNTY2LjEgNDAwLjlsOS45IDkuNSAwIDEzLjcgMCA1NiAwIDMyLTY0IDAgMC0zMiAwLTQyLjMtOTYtOTEuNkw0MTYgNDQ4bDMyIDAgMzIgMCAwIDY0LTMyIDAtMzIgMC0yNTYgMEM3MS42IDUxMiAwIDQ0MC40IDAgMzUyTDAgMzIgMCAwIDMyIDAgMTkyIDBsMzIgMCAwIDMyIDAgMTI4IDAgMzItMzIgMC02NCAwLTMyIDAgMC02NCAzMiAwIDMyIDAgMC02NEw2NCA2NGwwIDI4OGMwIDUzIDQzIDk2IDk2IDk2bDAtMzJ6bTk2LTI4OGMwLTM1LjMgMjguNi02NCA2NC02NGMxNS43LTM3LjYgNTIuOC02NCA5Ni02NHM4MC40IDI2LjQgOTYgNjRjMzUuMyAwIDY0IDI4LjcgNjQgNjRjMCAzMi42LTI0LjQgNTkuNi01NiA2My41bDAgNjQuNS0xMDQgMC03MiAwLTMyIDAgMC0yNy44IDAtMzYuN2MtMzEuNi0zLjktNTYtMzAuOS01Ni02My41ek0zODQgNjRjLTI2LjUgMC00OCAyMS41LTQ4IDQ4YzAgMjMuOCAxNy4zIDQzLjUgNDAgNDcuM2wwIDQ4LjcgODAgMCAwLTQ4LjdjMjIuNy0zLjggNDAtMjMuNiA0MC00Ny4zYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC02NCAwem0wIDMyYTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptNDggMTZhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![monkey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/monkey.svg)
  */
 const Monkey: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

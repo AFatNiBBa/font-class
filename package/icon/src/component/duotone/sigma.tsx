@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `sigma` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sigma?s=duotone sigma}
- * @preview ![sigma](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yLjQgNTEuOEM3LjQgMzkuOCAxOS4xIDMyIDMyIDMybDI4OCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMkwxMDkuMyA5NiAyNDYuNiAyMzMuNGMxMi41IDEyLjUgMTIuNSAzMi44IDAgNDUuM0wxMDkuMyA0MTYgMzIwIDQxNmwwLTMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJsMCAzMmMwIDM1LjMtMjguNyA2NC02NCA2NEwzMiA0ODBjLTEyLjkgMC0yNC42LTcuOC0yOS42LTE5LjhzLTIuMi0yNS43IDYuOS0zNC45TDE3OC43IDI1NiA5LjQgODYuNkMuMiA3Ny41LTIuNSA2My43IDIuNCA1MS44eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSIiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sigma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sigma.svg)
  */
 const Sigma: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

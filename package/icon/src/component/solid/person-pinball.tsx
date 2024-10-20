@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-pinball` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-pinball?s=solid person-pinball}
- * @preview ![person-pinball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNDhhNDggNDggMCAxIDEgOTYgMEE0OCA0OCAwIDEgMSAzMiA0OHpNOTYgMjQxLjdsMCA2NS4xIDQ5LjkgNDkuOWM5IDkgMTQuMSAyMS4yIDE0LjEgMzMuOWwwIDg5LjRjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC04Mi43TDE4LjcgMzIwQzYuNyAzMDggMCAyOTEuNyAwIDI3NC43bDAtODguMUMwIDE1NC4yIDI2LjIgMTI4IDU4LjYgMTI4YzI0LjEgMCA0Ni41IDEyIDU5LjkgMzJsNDIuNiA2NCA2Mi45IDBjMTIuOSAwIDI0LjEgNy43IDI5LjEgMTguN2wyOTUtNDkuMkw1MTUuMyA5NWMtMi4yLTYuNS0zLjMtMTMuNC0zLjMtMjAuMkw1MTIgMzJjMC0xNy43IDE0LjMtMzIgMzItMzJsNjQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE0Ni4yIDAgMzcuOCAwIDggMCAyNTZjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC05Ni0zMjAgMCAwIDk2YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtMTkyLTM5LjQgMGMtMTYgMC0zMS04LTM5LjktMjEuNEw5NiAyNDEuN3pNMCA0ODBMMCAzNDYuNWw2NCA2NEw2NCA0ODBzMCAwIDAgMGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMnpNMjgwIDMzNmEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-pinball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-pinball.svg)
  */
 const PersonPinball: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

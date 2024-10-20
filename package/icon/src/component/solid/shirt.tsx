@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shirt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt?s=solid shirt}
- * @preview ![shirt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjExLjggMGM3LjggMCAxNC4zIDUuNyAxNi43IDEzLjJDMjQwLjggNTEuOSAyNzcuMSA4MCAzMjAgODBzNzkuMi0yOC4xIDkxLjUtNjYuOEM0MTMuOSA1LjcgNDIwLjQgMCA0MjguMiAwbDEyLjYgMGMyMi41IDAgNDQuMiA3LjkgNjEuNSAyMi4zTDYyOC41IDEyNy40YzYuNiA1LjUgMTAuNyAxMy41IDExLjQgMjIuMXMtMi4xIDE3LjEtNy44IDIzLjZsLTU2IDY0Yy0xMS40IDEzLjEtMzEuMiAxNC42LTQ0LjYgMy41TDQ4MCAxOTcuNyA0ODAgNDQ4YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0xOTIgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0yNTAuMy01MS41IDQyLjljLTEzLjMgMTEuMS0zMy4xIDkuNi00NC42LTMuNWwtNTYtNjRjLTUuNy02LjUtOC41LTE1LTcuOC0yMy42czQuOC0xNi42IDExLjQtMjIuMUwxMzcuNyAyMi4zQzE1NSA3LjkgMTc2LjcgMCAxOTkuMiAwbDEyLjYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shirt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shirt.svg)
  */
 const Shirt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

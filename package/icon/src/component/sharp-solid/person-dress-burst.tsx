@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-dress-burst` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dress-burst?s=sharp-solid person-dress-burst}
- * @preview ![person-dress-burst](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDBMMTMzLjggODguNSAzOC40IDY2LjNsNDIuOSA4OC4xTDQuNCAyMTUuMiAxMDAgMjM2LjZsLS40IDk4TDE3NiAyNzMuMmw3Ni40IDYxLjQtLjQtOThMMzEyLjggMjIzbDE1LTIzLjUtNTcuMS00NS4xIDQyLjktODguMUwyMTguMiA4OC41IDE3NiAwek00ODAgOTZhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0tNTEuMSAzMmwtMTcuNSAwLTkuNCAxNC44LTgxLjcgMTI4IDUzLjkgMzQuNCA0Mi02NS44TDM2OCAzODRsNDAgMCAwIDk2IDAgMzIgNjQgMCAwLTMyIDAtOTYgMTYgMCAwIDk2IDAgMzIgNjQgMCAwLTMyIDAtOTYgNDAgMEw1NDMuOCAyMzkuNGw0MiA2NS44IDUzLjktMzQuNEw1NTggMTQyLjggNTQ4LjYgMTI4bC0xNy41IDAtMTAyLjIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-dress-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-dress-burst.svg)
  */
 const PersonDressBurst: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

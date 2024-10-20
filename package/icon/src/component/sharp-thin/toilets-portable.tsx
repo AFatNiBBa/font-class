@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toilets-portable` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilets-portable?s=sharp-thin toilets-portable}
- * @preview ![toilets-portable](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDggMCAyNDggMGw4IDAgMCA4IDAgNDk2IDAgOC0xNiAwIDAtOCAwLTQwTDE2IDQ2NGwwIDQwIDAgOEwwIDUxMmwwLThMMCA4IDAgMHpNMjQwIDExMkwxNiAxMTJsMCAzMzYgMjI0IDAgMC0zMzZ6bTAtMTZsMC04MEwxNiAxNmwwIDgwIDIyNCAwek0xNzYgMjE2bDggMCAzMiAwIDggMCAwIDE2LTggMC0yNCAwIDAgODAgMjQgMCA4IDAgMCAxNi04IDAtMzIgMC04IDAgMC04IDAtOTYgMC04ek0zMjAgMGw4IDBMNTY4IDBsOCAwIDAgOCAwIDQ5NiAwIDgtMTYgMCAwLTggMC00MC0yMjQgMCAwIDQwIDAgOC0xNiAwIDAtOEwzMjAgOGwwLTh6TTU2MCAxMTJsLTIyNCAwIDAgMzM2IDIyNCAwIDAtMzM2em0wLTE2bDAtODBMMzM2IDE2bDAgODAgMjI0IDB6TTQ5NiAyMTZsOCAwIDMyIDAgOCAwIDAgMTYtOCAwLTI0IDAgMCA4MCAyNCAwIDggMCAwIDE2LTggMC0zMiAwLTggMCAwLTggMC05NiAwLTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![toilets-portable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/toilets-portable.svg)
  */
 const ToiletsPortable: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

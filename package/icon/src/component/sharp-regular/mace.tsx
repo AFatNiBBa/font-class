@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mace` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mace?s=sharp-regular mace}
- * @preview ![mace](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE3LjkgMTgzLjdDNDA0LjcgMTQxIDM3MSAxMDcuMyAzMjguMyA5NC4xTDI4OCAwIDI0Ny43IDk0LjFjLTQyLjcgMTMuMi03Ni40IDQ2LjktODkuNiA4OS42TDY0IDIyNGw5NC4xIDQwLjNjNC4yIDEzLjUgMTAuNCAyNi4xIDE4LjMgMzcuNEwxOC4yIDQ1OS44bC0xNyAxNyAzMy45IDMzLjkgMTctMTdMMjEwLjMgMzM1LjZjMTEuMyA3LjkgMjMuOSAxNC4xIDM3LjQgMTguM0wyODggNDQ4bDQwLjMtOTQuMWM0Mi43LTEzLjIgNzYuNC00Ni45IDg5LjYtODkuNkw1MTIgMjI0bC05NC4xLTQwLjN6TTI4OCAxMzZhODggODggMCAxIDEgMCAxNzYgODggODggMCAxIDEgMC0xNzZ6bTMyIDg4YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mace.svg)
  */
 const Mace: typeof Icon = x => (
     <Icon {...x}>

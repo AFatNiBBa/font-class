@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paintbrush-pencil` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paintbrush-pencil?s=solid paintbrush-pencil}
- * @preview ![paintbrush-pencil](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTU5LjYgOTUuNmMyMS45LTIxLjkgMjEuOS01Ny4zIDAtNzkuMnMtNTcuMy0yMS45LTc5LjIgMEwyMjcuNyAyNjkuMWw3OS4yIDc5LjJMNTU5LjYgOTUuNnpNMjA1IDI5MS44Yy05LjMtMi41LTE5LTMuOC0yOS0zLjhjLTYxLjkgMC0xMTIgNTAuMS0xMTIgMTEyYzAgMy45IC4yIDcuOCAuNiAxMS42QzY2LjQgNDI5LjEgNTQuNCA0NDggMzYuOCA0NDhMMzIgNDQ4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDE0NCAwYzYxLjkgMCAxMTItNTAuMSAxMTItMTEyYzAtMTAtMS4zLTE5LjgtMy44LTI5bC4xLS4xLTc5LjItNzkuMi0uMSAuMXptOTMuNC0xMzguN0wxNjQuNyAxOS4zYy0yNS0yNS02NS41LTI1LTkwLjUgMEw1MC43IDQyLjdjLTI1IDI1LTI1IDY1LjUgMCA5MC41TDE3My41IDI1NmMuOCAwIDEuNyAwIDIuNSAwYzYuMiAwIDEyLjQgLjQgMTguNCAxLjJMMjk4LjUgMTUzLjF6TTMyMCA0MDIuNWw2NC42IDY0LjZjNi43IDYuNyAxNS4xIDExLjYgMjQuMiAxNC4ybDEwNCAyOS43YzguNCAyLjQgMTcuNCAuMSAyMy42LTYuMXM4LjUtMTUuMiA2LjEtMjMuNmwtMjkuNy0xMDRjLTIuNi05LjItNy41LTE3LjUtMTQuMi0yNC4ybC03NS42LTc1LjZMMzE4LjggMzgxLjZjLjggNiAxLjIgMTIuMiAxLjIgMTguNGMwIC44IDAgMS43IDAgMi41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![paintbrush-pencil](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/paintbrush-pencil.svg)
  */
 const PaintbrushPencil: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-shopping` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-shopping?s=solid cart-shopping}
- * @preview ![cart-shopping](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNEMwIDEwLjcgMTAuNyAwIDI0IDBMNjkuNSAwYzIyIDAgNDEuNSAxMi44IDUwLjYgMzJsNDExIDBjMjYuMyAwIDQ1LjUgMjUgMzguNiA1MC40bC00MSAxNTIuM2MtOC41IDMxLjQtMzcgNTMuMy02OS41IDUzLjNsLTI4OC41IDAgNS40IDI4LjVjMi4yIDExLjMgMTIuMSAxOS41IDIzLjYgMTkuNUw0ODggMzM2YzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC0yODguMyAwYy0zNC42IDAtNjQuMy0yNC42LTcwLjctNTguNUw3Ny40IDU0LjVjLS43LTMuOC00LTYuNS03LjktNi41TDI0IDQ4QzEwLjcgNDggMCAzNy4zIDAgMjR6TTEyOCA0NjRhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHptMzM2LTQ4YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-shopping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-shopping.svg)
  */
 const CartShopping: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `forklift` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forklift?s=solid forklift}
- * @preview ![forklift](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTYwbDQ4IDBMOTYgNDhjMC0yNi41IDIxLjUtNDggNDgtNDhMMjkyLjcgMGMyMC4zIDAgMzguNCAxMi44IDQ1LjIgMzEuOWw3NS4zIDIxMC44YzEuOCA1LjIgMi44IDEwLjYgMi44IDE2LjFsMCA4NS43YzE5LjYgMTcuNiAzMiA0My4xIDMyIDcxLjZjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZsLTY0IDBjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZMMCAyMDhjMC0yNi41IDIxLjUtNDggNDgtNDh6bTIwOCA5Nmw5NCAwTDI4MS40IDY0IDE2MCA2NGwwIDk2IDk2IDk2ek05NiA0NjRhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0yNTYgMGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6TTU0NCAzMmwwIDM1MiA2NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC05NiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTM4NGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![forklift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/forklift.svg)
  */
 const Forklift: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-virus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-virus?s=sharp-solid square-virus}
- * @preview ![square-virus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDMyTDAgMzIgMCA0ODBsNDQ4IDAgMC00NDh6TTMwMy45IDE0MC45bC4xLS4xIDE2LjgtMTYuOCAzMy45IDMzLjktMTcgMTctLjIgLjJjLTIwLjUgMjAuNy01LjggNTUuOSAyMy40IDU1LjljMCAwIDAgMCAwIDBsMjQgMCAwIDQ4LTI0IDBzMCAwIDAgMGMtMjkuMiAwLTQzLjggMzUuMi0yMy40IDU1LjlsLjIgLjIgMTcgMTctMzMuOSAzMy45TDMwNCAzNjlsLS4xLS4xYy0yMC42LTIwLjYtNTUuOS02LjEtNTYuMSAyM2wwIC4zIDAgMjQtMjQgMC0yNCAwIDAtMjMuOCAwLS4yYzAtMjkuMi0zNS4yLTQzLjgtNTUuOS0yMy40bC0uMiAuMi0xNyAxN0wxMTAgMzY5bC0uMS0uMS0uMS0uMUw5Mi45IDM1MS45bDE2LjgtMTYuOCAuMS0uMWMyMC43LTIwLjcgNi01Ni4xLTIzLjItNTYuMWwtMjQgMCAwLTIzLjggMC0uMiAwLS4yIDAtMjMuOCAyNCAwYzI5LjMgMCA0My45LTM1LjQgMjMuMi01Ni4xbC0uMS0uMUw5Mi45IDE1Ny44IDEwOS43IDE0MWwuMS0uMSAuMS0uMSAxNi44LTE2LjggMTcgMTcgLjIgLjJjMjAuNyAyMC41IDU1LjkgNS44IDU1LjktMjMuNGwwLS4yIDAtMjMuOCAyNCAwIDI0IDAgMCAyNCAwIC4zYy4yIDI5LjEgMzUuNCA0My42IDU2LjEgMjN6TTE5MiAyNTZhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0em04OCAzMmEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-virus.svg)
  */
 const SquareVirus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

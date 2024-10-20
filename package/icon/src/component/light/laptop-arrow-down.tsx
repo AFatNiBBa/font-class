@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-arrow-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-arrow-down?s=light laptop-arrow-down}
- * @preview ![laptop-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDMybDE0NCAwIDAgMzJMMTI4IDY0Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDI1Ni0zMiAwTDY0IDk2YzAtMzUuMyAyOC43LTY0IDY0LTY0ek01MTIgNjRMMzY4IDY0bDAtMzIgMTQ0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyNTYtMzIgMCAwLTI1NmMwLTE3LjctMTQuMy0zMi0zMi0zMnpNNzYuOCA0NDhsNDg2LjQgMGMyMC4zIDAgMzcuNC0xMy41IDQyLjktMzJMMzMuOSA0MTZjNS41IDE4LjUgMjIuNyAzMiA0Mi45IDMyek0wIDQwMy4yQzAgMzkyLjYgOC42IDM4NCAxOS4yIDM4NGw2MDEuNiAwYzEwLjYgMCAxOS4yIDguNiAxOS4yIDE5LjJjMCA0Mi40LTM0LjQgNzYuOC03Ni44IDc2LjhMNzYuOCA0ODBDMzQuNCA0ODAgMCA0NDUuNiAwIDQwMy4yek0zMzYgNDhsMCAyMTcuNCA1Mi43LTUyLjdjNi4yLTYuMiAxNi40LTYuMiAyMi42IDBzNi4yIDE2LjQgMCAyMi42bC04MCA4MGMtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBsLTgwLTgwYy02LjItNi4yLTYuMi0xNi40IDAtMjIuNnMxNi40LTYuMiAyMi42IDBMMzA0IDI2NS40IDMwNCA0OGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![laptop-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/laptop-arrow-down.svg)
  */
 const LaptopArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

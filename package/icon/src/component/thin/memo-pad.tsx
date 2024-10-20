@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `memo-pad` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo-pad?s=thin memo-pad}
- * @preview ![memo-pad](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTI4bDAgMzIwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyMCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzIwTDE2IDEyOHptMC0xNmw0MTYgMCAwLTQ4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDE2QzM3LjUgMTYgMTYgMzcuNSAxNiA2NGwwIDQ4ek00NDggNjRsMCA0OCAwIDggMCA4IDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAxMjhsMC04IDAtOEwwIDY0QzAgMjguNyAyOC43IDAgNjQgMEwzODQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NHpNMTA0IDIwOGwyNDAgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMjQwIDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LTh6bTAgOTZsMjQwIDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTI0MCAwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04em0wIDk2bDE0NCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC0xNDQgMGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![memo-pad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/memo-pad.svg)
  */
 const MemoPad: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

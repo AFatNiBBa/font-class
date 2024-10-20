@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eye-dropper` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-dropper?s=sharp-light eye-dropper}
- * @preview ![eye-dropper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk4LjEgMTcyLjdsMjIuNiAyMi42IDk1LjkgOTUuOSAyMi42IDIyLjYgNi4xIDYuMSAxMS4zIDExLjNMMzY4IDM0Mi42IDM5MC42IDMyMGwtNi4xLTYuMS01LjItNS4yTDM2OCAyOTcuNGwtNi4xLTYuMSAyMi42LTIyLjYgOTguMy05OC4zYzM5LTM5IDM5LTEwMi4yIDAtMTQxLjFzLTEwMi4yLTM5LTE0MS4xIDBsLTk4LjMgOTguMy0yMi42IDIyLjYtNi4xLTYuMS0xMS4zLTExLjMtNS4yLTUuMi02LjEtNi4xTDE2OS40IDE0NGwxMS4zIDExLjNMMTkyIDE2Ni42bDYuMSA2LjF6bTI2Mi0yNUwzMzkuMyAyNjguNmwtOTUuOS05NS45TDM2NC4yIDUxLjljMjYuNS0yNi41IDY5LjQtMjYuNSA5NS45IDBzMjYuNSA2OS40IDAgOTUuOXpNMzIgMzQ0bDAgODBMMCA0NzJsNDAgNDAgNDgtMzIgODAgMEwzMTQuMSAzMzMuOWwtMjIuNi0yMi42TDE1NC43IDQ0OCA4OCA0NDhsLTkuNyAwLTguMSA1LjRMNDQuMSA0NzAuOGwtMi45LTIuOSAxNy40LTI2LjIgNS40LTguMSAwLTkuNyAwLTY2LjdMMjAwLjcgMjIwLjZsLTIyLjYtMjIuNkwzMiAzNDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![eye-dropper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/eye-dropper.svg)
  */
 const EyeDropper: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tent-arrow-turn-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrow-turn-left?s=solid tent-arrow-turn-left}
- * @preview ![tent-arrow-turn-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwLjEgNDEuOGM5LjktOC45IDEwLjctMjQgMS44LTMzLjlTOTcuOC0yLjcgODcuOSA2LjJsLTgwIDcyQzIuOSA4Mi43IDAgODkuMiAwIDk2czIuOSAxMy4zIDcuOSAxNy44bDgwIDcyYzkuOSA4LjkgMjUgOC4xIDMzLjktMS44czguMS0yNS0xLjgtMzMuOUw4Ni41IDEyMCA0NTYgMTIwYzM5LjggMCA3MiAzMi4yIDcyIDcybDAgNDBjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTQwYzAtNjYuMy01My43LTEyMC0xMjAtMTIwTDg2LjUgNzJsMzMuNS0zMC4yek0zMDcuNCAxNjYuNWMtMTEuNS04LjctMjcuMy04LjctMzguOCAwbC0xNjggMTI4Yy02LjYgNS0xMSAxMi41LTEyLjMgMjAuN2wtMjQgMTYwYy0xLjQgOS4yIDEuMyAxOC42IDcuNCAyNS42Uzg2LjcgNTEyIDk2IDUxMmwxNDQgMCAxNiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTE4LjFjMC01LjUgNC40LTkuOSA5LjktOS45YzMuNyAwIDcuMiAyLjEgOC44IDUuNWw2OC40IDEzNi44YzUuNCAxMC44IDE2LjUgMTcuNyAyOC42IDE3LjdsNjAuMiAwIDE2IDBjOS4zIDAgMTguMi00LjEgMjQuMi0xMS4xczguOC0xNi40IDcuNC0yNS42bC0yNC0xNjBjLTEuMi04LjItNS42LTE1LjctMTIuMy0yMC43bC0xNjgtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tent-arrow-turn-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tent-arrow-turn-left.svg)
  */
 const TentArrowTurnLeft: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

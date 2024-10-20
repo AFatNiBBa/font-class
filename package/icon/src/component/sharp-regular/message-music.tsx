@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-music` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-music?s=sharp-regular message-music}
- * @preview ![message-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDUxMmw0OC0zMiA5Ni02NCAxNjAgMCA0OCAwIDAtNDggMC0zMjAgMC00OEw0NjQgMCA0OCAwIDAgMCAwIDQ4IDAgMzY4bDAgNDggNDggMCA2NCAwIDQ4IDAgMCAzOC4zIDAgOS43IDAgNDh6TTI3Ny40IDM3Ni4xTDIwOCA0MjIuM2wwLTYuMyAwLTQ4LTQ4IDBMNDggMzY4IDQ4IDQ4bDQxNiAwIDAgMzIwLTE2MCAwLTE0LjUgMC0xMi4xIDguMXpNMzUyIDk2bDAtMjMuMUwzMzAuNCA4MWwtMTI4IDQ4TDE5MiAxMzIuOWwwIDExLjEgMCAzMiAwIDgxLjhjLTUtMS4yLTEwLjQtMS44LTE2LTEuOGMtMjYuNSAwLTQ4IDE0LjMtNDggMzJzMjEuNSAzMiA0OCAzMnM0OC0xNC4zIDQ4LTMybDAtMTAwLjkgOTYtMzYgMCA3NC43Yy01LTEuMi0xMC40LTEuOC0xNi0xLjhjLTI2LjUgMC00OCAxNC4zLTQ4IDMyczIxLjUgMzIgNDggMzJzNDgtMTQuMyA0OC0zMmwwLTEyOCAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![message-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/message-music.svg)
  */
 const MessageMusic: typeof Icon = x => (
     <Icon {...x}>

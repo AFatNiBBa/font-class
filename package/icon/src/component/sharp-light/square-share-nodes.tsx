@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-share-nodes` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-share-nodes?s=sharp-light square-share-nodes}
- * @preview ![square-share-nodes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMzg0IDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnpNMzIwIDE5MmEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6bTAgMzJjLTE4LjQgMC0zNS4xLTcuOC00Ni43LTIwLjNsLTgxLjcgNDQuNmMuMyAyLjUgLjUgNS4xIC41IDcuN3MtLjIgNS4yLS41IDcuN2w4MS43IDQ0LjZDMjg0LjkgMjk1LjggMzAxLjYgMjg4IDMyMCAyODhjMzUuMyAwIDY0IDI4LjcgNjQgNjRzLTI4LjcgNjQtNjQgNjRzLTY0LTI4LjctNjQtNjRjMC01LjQgLjctMTAuNiAxLjktMTUuNmwtNzguMi00Mi43QzE2OC4xIDMwOS42IDE0OS4yIDMyMCAxMjggMzIwYy0zNS4zIDAtNjQtMjguNy02NC02NHMyOC43LTY0IDY0LTY0YzIxLjIgMCA0MC4xIDEwLjQgNTEuNyAyNi4zbDc4LjItNDIuN2MtMS4zLTUtMS45LTEwLjItMS45LTE1LjZjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NHMtMjguNyA2NC02NCA2NHptMCAxNjBhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0ek0xNjAgMjU2YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-share-nodes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-share-nodes.svg)
  */
 const SquareShareNodes: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

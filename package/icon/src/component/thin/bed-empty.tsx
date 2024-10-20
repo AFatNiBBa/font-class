@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bed-empty` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-empty?s=thin bed-empty}
- * @preview ![bed-empty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDBjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhMMCAyMDAgMCAzMjhsMCA4MCAwIDY0YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC01NiA2MDggMCAwIDU2YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC02NCAwLTgwIDAtMzJjMC01Ny40LTQ2LjYtMTA0LTEwNC0xMDRMMTYgMTkyIDE2IDQwek02MjQgMzIwTDE2IDMyMGwwLTExMiA1MjAgMGM0OC42IDAgODggMzkuNCA4OCA4OGwwIDI0ek0xNiAzMzZsNjA4IDAgMCA2NEwxNiA0MDBsMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bed-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bed-empty.svg)
  */
 const BedEmpty: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

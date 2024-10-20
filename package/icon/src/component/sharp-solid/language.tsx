@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `language` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/language?s=sharp-solid language}
- * @preview ![language](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDY0TDAgNjQgMCA0NDhsMjU2IDAgNDggMCAxNiAwIDI1NiAwIDY0IDAgMC02NCAwLTI1NiAwLTY0LTY0IDBMMzIwIDY0bC0xNiAwLTQ4IDB6bTMyMCA2NGwwIDI1Ni0yNTYgMCAwLTI1NiAyNTYgMHpNMTQ0LjkgMTYwbDMwLjMgMCAzLjQgOC42IDQ3LjggMTE5LjZjLjEgLjMgLjIgLjYgLjMgLjlsMjMuOCA1OS42IDEuNCAzLjQtNDMuMSAwLTE0LjQtMzYtNjguOSAwLTE0LjQgMzYtNDMuMSAwIDEuNC0zLjRMOTMuMyAyODljLjEtLjMgLjItLjYgLjQtLjlsNDcuOC0xMTkuNiAzLjQtOC42ek0xNjAgMjI5LjlMMTQxLjUgMjc2bDM2LjkgMEwxNjAgMjI5Ljl6TTQ2OCAxNjRsLTQwIDAgMCAyMCAwIDQtMzYgMC0yMCAwIDAgNDAgMjAgMCA1NiAwIDMyLjkgMC0yMi43IDUwLTIwLjEtMjAuMUw0MjQgMjQzLjcgMzk1LjcgMjcybDE0LjEgMTQuMSAxMi40IDEyLjQtMjMuMiAxMS42LTE3LjkgOC45IDE3LjkgMzUuOCAxNy45LTguOSAzOC4yLTE5LjEgMzAuNiAxOC4zIDE3LjIgMTAuMyAyMC42LTM0LjMtMTcuMS0xMC4zLTE1LTlMNTI0LjkgMjI4bDE1LjEgMCAwLTQwLTIwIDAtOCAwLTQ0IDAgMC00IDAtMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![language](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/language.svg)
  */
 const Language: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

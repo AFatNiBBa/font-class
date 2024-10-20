@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-down?s=solid up-down}
- * @preview ![up-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ1LjYgNy43QzE0MSAyLjggMTM0LjcgMCAxMjggMHMtMTMgMi44LTE3LjYgNy43bC0xMDQgMTEyYy02LjUgNy04LjIgMTcuMi00LjQgMjUuOVMxNC41IDE2MCAyNCAxNjBsNTYgMCAwIDE5Mi01NiAwYy05LjUgMC0xOC4yIDUuNy0yMiAxNC40cy0yLjEgMTguOSA0LjQgMjUuOWwxMDQgMTEyYzQuNSA0LjkgMTAuOSA3LjcgMTcuNiA3LjdzMTMtMi44IDE3LjYtNy43bDEwNC0xMTJjNi41LTcgOC4yLTE3LjIgNC40LTI1LjlzLTEyLjUtMTQuNC0yMi0xNC40bC01NiAwIDAtMTkyIDU2IDBjOS41IDAgMTguMi01LjcgMjItMTQuNHMyLjEtMTguOS00LjQtMjUuOWwtMTA0LTExMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![up-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/up-down.svg)
  */
 const UpDown: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

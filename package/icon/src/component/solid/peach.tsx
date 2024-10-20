@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `peach` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peach?s=solid peach}
- * @preview ![peach](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDgwYy0zMS41IDAtNjEuNCA3LjMtODggMjAuNEMyMjkuNCA4Ny4zIDE5OS41IDgwIDE2OCA4MGMtMTEuNCAwLTIyLjYgMS0zMy41IDIuOEMxMjAuNSA2Ny4yIDExMiA0Ni42IDExMiAyNGMwLTEzLjMgMTAuNy0yNCAyNC0yNGwyNCAwYzUzIDAgOTYgNDMgOTYgOTZjMC01MyA0My05NiA5Ni05NmwyNCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0YzAgMjIuNi04LjUgNDMuMi0yMi41IDU4LjhDMzY2LjYgODEgMzU1LjQgODAgMzQ0IDgwek0xNjggMTEyYzE3LjggMCAzNC45IDIuOCA1MC45IDcuOWM2MyAyMCAxMDkuOSA3Ni4yIDExNi4zIDE0NC4yYy44IDguOCA3LjkgMTYgMTYuOCAxNnMxNi4xLTcuMiAxNS40LTE2Yy00LjYtNTguMi0zNC4yLTEwOS41LTc4LTE0M2MuOC0uMiAxLjUtLjUgMi4zLS43YzE2LjUtNS40IDM0LTguMyA1Mi4zLTguM2M5Mi44IDAgMTY4IDc1LjIgMTY4IDE2OGMwIDEzNi4yLTE5OS4zIDIxNC42LTI0MC42IDIyOS40Yy01IDEuOC0xMC4xIDIuNi0xNS40IDIuNnMtMTAuNC0uOC0xNS40LTIuNkMxOTkuMyA0OTQuNiAwIDQxNi4yIDAgMjgwYzAtOTIuOCA3NS4yLTE2OCAxNjgtMTY4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![peach](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/peach.svg)
  */
 const Peach: typeof Icon = x => (
     <Icon {...x}>

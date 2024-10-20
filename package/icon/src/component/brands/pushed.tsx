@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pushed` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pushed?s=brands pushed}
- * @preview ![pushed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MzIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA3IDExMS45bC05OC41LTkgMTQtMzMuNGMxMC40LTIzLjUtMTAuOC00MC40LTI4LjctMzdMMjIuNSA3Ni45Yy0xNS4xIDIuNy0yNiAxOC4zLTIxLjQgMzYuNmwxMDUuMSAzNDguM2M2LjUgMjEuMyAzNi43IDI0LjIgNDcuNyA3bDM1LjMtODAuOCAyMzUuMi0yMzEuM2MxNi40LTE2LjggNC4zLTQyLjktMTcuNC00NC44ek0yOTcuNiA1My42YzUuMS0uNyA3LjUgMi41IDUuMiA3LjRMMjg2IDEwMC45IDEwOC42IDg0LjZsMTg5LTMxek0yMi43IDEwNy45Yy0zLjEtNS4xIDEtMTAgNi4xLTkuMWwyNDguNyAyMi43LTk2LjkgMjMwLjdMMjIuNyAxMDcuOXpNMTM2IDQ1Ni40Yy0yLjYgNC03LjkgMy4xLTkuNC0xLjJMNDMuNSAxNzkuN2wxMjcuNyAxOTcuNmMtNyAxNS0zNS4yIDc5LjEtMzUuMiA3OS4xem0yNzIuOC0zMTQuNUwyMTAuMSAzMzcuM2w4OS43LTIxMy43IDEwNi40IDkuN2M0IDEuMSA1LjcgNS4zIDIuNiA4LjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pushed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pushed.svg)
  */
 const Pushed: typeof Icon = x => (
     <Icon viewBox="0 0 432 512" {...x}>

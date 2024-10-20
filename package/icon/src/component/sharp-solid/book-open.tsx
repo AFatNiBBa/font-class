@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-open` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-open?s=sharp-solid book-open}
- * @preview ![book-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDQ4MGwwLTQwOGMtMTYtMTYtNjQtNDAtMTI4LTQwUzIxLjMgNTMuMyAwIDY0TDAgNDgwYzIxLjMtMTAuNyA5Mi44LTMyIDE0NC0zMnMxMjggMzIgMTI4IDMyem0zMiAwczc2LjgtMzIgMTI4LTMyczEyMi43IDIxLjMgMTQ0IDMybDAtNDE2Yy0yMS4zLTEwLjctODAtMzItMTQ0LTMycy0xMTIgMjQtMTI4IDQwbDAgNDA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/book-open.svg)
  */
 const BookOpen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

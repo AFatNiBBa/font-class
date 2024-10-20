@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `parachute-box` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/parachute-box?s=sharp-light parachute-box}
- * @preview ![parachute-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDIyNGMwLTEwLjQtLjktMjEuMS0yLjctMzJDNDk0LjIgMTAxLjkgNDE1LjkgMCAyNTYgMFMxNy44IDEwMS45IDIuNyAxOTJDLjkgMjAyLjkgMCAyMTMuNiAwIDIyNGwzMiAwIDE3LjEgMEwxNjAgMzQxLjRsMCAxMC42IDAgMTI4IDAgMzIgMzIgMCAxMjggMCAzMiAwIDAtMzIgMC0xMjggMC0xMC42TDQ2Mi45IDIyNGwxNy4xIDAgMzIgMHptLTkzLjEgMGwtOTAuNyA5Ni04LjIgMC00OCAwIDAtOTYgOTUuNSAwIDMyIDAgMTkuMyAwek0yNDAgMjI0bDAgOTYtNDggMC04LjIgMEw5My4xIDIyNGwxOS4zIDAgMzIgMCA5NS41IDB6bTAgMTI4bDMyIDAgNDggMCAwIDEyOC0xMjggMCAwLTEyOCA0OCAwek0zNS4yIDE5MkM0Ni4zIDEzNS43IDg2LjggNzMuNiAxNjUuNSA0Ni4yYy0yOS45IDM1LTUwIDg3LTUzLjEgMTQ1LjhsLTc3LjIgMHpNMTgwLjUgNzkuMUMyMDIuNSA0Ny40IDIyOS43IDMyIDI1NiAzMnM1My41IDE1LjQgNzUuNSA0Ny4xYzE5LjYgMjguMyAzMy40IDY3LjggMzYgMTEyLjlsLTIyMy4xIDBjMi43LTQ1LjEgMTYuNC04NC41IDM2LTExMi45em0xNjYtMzIuOUM0MjUuMiA3My42IDQ2NS43IDEzNS43IDQ3Ni44IDE5MmwtNzcuMiAwYy0zLjEtNTguOC0yMy4xLTExMC44LTUzLjEtMTQ1Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![parachute-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/parachute-box.svg)
  */
 const ParachuteBox: typeof Icon = x => (
     <Icon {...x}>

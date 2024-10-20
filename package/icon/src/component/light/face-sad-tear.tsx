@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-sad-tear` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-tear?s=light face-sad-tear}
- * @preview ![face-sad-tear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4MGEyMjQgMjI0IDAgMSAwIDAtNDQ4IDIyNCAyMjQgMCAxIDAgMCA0NDh6TTI1NiAwYTI1NiAyNTYgMCAxIDEgMCA1MTJBMjU2IDI1NiAwIDEgMSAyNTYgMHpNMTYwIDMwMC40Yy01LjUgNi45LTExIDE0LjMtMTYuMiAyMmMtMTEuNCAxNy4xLTE1LjggMjktMTUuOCAzNC45YzAgMTIuMiAxMS43IDI2LjcgMzIgMjYuN3MzMi0xNC41IDMyLTI2LjdjMC01LjktNC40LTE3LjgtMTUuOC0zNC45Yy01LjEtNy43LTEwLjctMTUuMS0xNi4yLTIyem0tOC42LTQwLjNjNC4zLTUuNSAxMi44LTUuNSAxNy4xIDBjMS42IDIgMy4zIDQuMSA1LjIgNi4zYzE4LjkgMjMgNTAuMyA2MS4yIDUwLjMgOTAuOGMwIDMyLjUtMjguNyA1OC43LTY0IDU4LjdzLTY0LTI2LjItNjQtNTguN2MwLTI5LjIgMzAuOC02Ni45IDQ5LjYtOTBjMCAwIDAgMCAwIDBzMCAwIDAgMGMyLjEtMi42IDQuMS01IDUuOC03LjJ6TTI1NiAzMjBjNDUgMCA4NS42IDIwLjUgMTE1LjcgNTMuMWM2IDYuNSA1LjYgMTYuNi0uOSAyMi42cy0xNi42IDUuNi0yMi42LS45Yy0yNS0yNy4xLTU3LjQtNDIuOS05Mi4zLTQyLjljLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6TTM1OS42IDIwOGEyNCAyNCAwIDEgMSAtNDggMCAyNCAyNCAwIDEgMSA0OCAwem0tMTg0LTI0YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-sad-tear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-sad-tear.svg)
  */
 const FaceSadTear: typeof Icon = x => (
     <Icon {...x}>

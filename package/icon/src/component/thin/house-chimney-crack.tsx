@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-chimney-crack` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-crack?s=thin house-chimney-crack}
- * @preview ![house-chimney-crack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgyLjcgMmMzLTIuNyA3LjYtMi43IDEwLjYgMEwzODQgODIuMyAzODQgNTZjMC0xMy4zIDEwLjctMjQgMjQtMjRsODAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDEzOS43TDU3My4zIDI1MGMzLjMgMi45IDMuNiA4IC43IDExLjNzLTggMy42LTExLjMgLjdMNTEyIDIxNy4xIDUxMiA0NDhjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTMyMCAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTIzMC45TDEzLjMgMjYyYy0zLjMgMi45LTguNCAyLjYtMTEuMy0uN1MtLjYgMjUyLjkgMi43IDI1MEwyODIuNyAyek00OTYgMTgxLjVMNDk2IDU2YzAtNC40LTMuNi04LTgtOGwtODAgMGMtNC40IDAtOCAzLjYtOCA4bDAgNDAuNSA5NiA4NXpNMzg0IDEwMy43bC05Ni04NUw4MCAyMDIuOSA4MCA0NDhjMCAyNi41IDIxLjUgNDggNDggNDhsMTUzLjEgMC01NS43LTgzLjZjLTEuMi0xLjgtMS42LTQuMS0xLjEtNi4zczEuOS00IDMuOC01LjFsMTAyLjEtNTguNEwyMjYuOCAyNTQuMWMtMy40LTIuOS0zLjctNy45LS45LTExLjNzNy45LTMuNyAxMS4zLS45bDExMiA5NmMyIDEuNyAzIDQuMiAyLjggNi44cy0xLjcgNC45LTQgNi4yTDI0My40IDQxMC43IDMwMC4zIDQ5NiA0NDggNDk2YzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMjQ1LjFMMzg0LjMgMTA0bC0uMyAwIDAtLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-chimney-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/house-chimney-crack.svg)
  */
 const HouseChimneyCrack: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

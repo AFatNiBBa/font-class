@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-day` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-day?s=sharp-solid house-day}
- * @preview ![house-day](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBMMTE5LjYgNjIuNCA0Ni45IDQ2LjlsMTUuNiA3Mi43TDAgMTYwbDYyLjQgNDAuNEw0Ni45IDI3My4xbDcyLjctMTUuNiAxNi4yIDI1LjEgMy4yLTIuOCA1Mi4xLTQ1LjFjLTkuNiA0LTIwLjEgNi4zLTMxLjEgNi4zYy00NC4yIDAtODAtMzUuOC04MC04MHMzNS44LTgwIDgwLTgwczgwIDM1LjggODAgODBjMCAxNS4xLTQuMiAyOS4zLTExLjUgNDEuM2w2Ny01OC4xLTM4LTI0LjYgMTUuNi03Mi43TDIwMC40IDYyLjQgMTYwIDB6bTQ4IDE2MGE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwek00MDAgOTZMMTYwIDMwNGwwIDQ4IDY0IDAgMCAxNjAgMzUyIDAgMC0xNjAgNjQgMCAwLTQ4TDQwMCA5NnpNMzUyIDI4OGw5NiAwIDAgOTYtOTYgMCAwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-day](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house-day.svg)
  */
 const HouseDay: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

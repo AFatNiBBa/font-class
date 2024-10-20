@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-can-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-xmark?s=solid trash-can-xmark}
- * @preview ![trash-can-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYzLjggMEwyODQuMiAwYzEyLjEgMCAyMy4yIDYuOCAyOC42IDE3LjdMMzIwIDMybDk2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgOTZDMTQuMyA5NiAwIDgxLjcgMCA2NFMxNC4zIDMyIDMyIDMybDk2IDAgNy4yLTE0LjNDMTQwLjYgNi44IDE1MS43IDAgMTYzLjggMHpNMzIgMTI4bDM4NCAwIDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDk2IDUxMmMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC0zMjB6TTE0MyAyMzljLTkuNCA5LjQtOS40IDI0LjYgMCAzMy45bDQ3IDQ3LTQ3IDQ3Yy05LjQgOS40LTkuNCAyNC42IDAgMzMuOXMyNC42IDkuNCAzMy45IDBsNDctNDcgNDcgNDdjOS40IDkuNCAyNC42IDkuNCAzMy45IDBzOS40LTI0LjYgMC0zMy45bC00Ny00NyA0Ny00N2M5LjQtOS40IDkuNC0yNC42IDAtMzMuOXMtMjQuNi05LjQtMzMuOSAwbC00NyA0Ny00Ny00N2MtOS40LTkuNC0yNC42LTkuNC0zMy45IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![trash-can-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-can-xmark.svg)
  */
 const TrashCanXmark: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

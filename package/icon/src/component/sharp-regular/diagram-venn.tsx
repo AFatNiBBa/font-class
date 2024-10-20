@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-venn` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-venn?s=sharp-regular diagram-venn}
- * @preview ![diagram-venn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcwIDQyNS45Yy00Ny44LTQxLjEtNzgtMTAyLTc4LTE2OS45czMwLjMtMTI4LjggNzgtMTY5LjljLTE0LjctNC0zMC4xLTYuMS00Ni02LjFDMTI2LjggODAgNDggMTU4LjggNDggMjU2czc4LjggMTc2IDE3NiAxNzZjMTUuOSAwIDMxLjQtMi4xIDQ2LTYuMXpNMjUyIDMyMGwxMzYgMGM1LjktMTUuMSA5LjgtMzEuMiAxMS4zLTQ4bC0xNTguNiAwYzEuNSAxNi44IDUuNCAzMi45IDExLjMgNDh6bTE2LjUgMzJjMTMuNCAyMC42IDMxIDM4LjEgNTEuNSA1MS41YzIwLjYtMTMuNCAzOC4xLTMxIDUxLjUtNTEuNWwtMTAzLjEgMHpNMjUyIDE5MmMtNS45IDE1LjEtOS44IDMxLjItMTEuMyA0OGwxNTguNiAwYy0xLjUtMTYuOC01LjQtMzIuOS0xMS4zLTQ4bC0xMzYgMHptMTE5LjUtMzJjLTEzLjQtMjAuNi0zMS0zOC4xLTUxLjUtNTEuNWMtMjAuNiAxMy40LTM4LjEgMzEtNTEuNSA1MS41bDEwMy4xIDB6TTMyMCA0NTguNGMtMjkuMSAxMy44LTYxLjYgMjEuNi05NiAyMS42QzEwMC4zIDQ4MCAwIDM3OS43IDAgMjU2UzEwMC4zIDMyIDIyNCAzMmMzNC40IDAgNjYuOSA3LjcgOTYgMjEuNkMzNDkuMSAzOS43IDM4MS42IDMyIDQxNiAzMmMxMjMuNyAwIDIyNCAxMDAuMyAyMjQgMjI0cy0xMDAuMyAyMjQtMjI0IDIyNGMtMzQuNCAwLTY2LjktNy43LTk2LTIxLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![diagram-venn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/diagram-venn.svg)
  */
 const DiagramVenn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

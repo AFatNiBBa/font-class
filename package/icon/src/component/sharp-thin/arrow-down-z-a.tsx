@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-z-a` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-z-a?s=sharp-thin arrow-down-z-a}
- * @preview ![arrow-down-z-a](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQ3NS4zbDUuNy01LjcgMTEyLTExMiA1LjctNS43TDI3MiAzNDAuN2wtNS43IDUuN0wxNjggNDQ0LjcgMTY4IDQwbDAtOC0xNiAwIDAgOCAwIDQwNC43TDUzLjcgMzQ2LjMgNDggMzQwLjcgMzYuNyAzNTJsNS43IDUuNyAxMTIgMTEyIDUuNyA1Ljd6TTMzNiAzMmwwIDE2IDggMCAxMzMuMiAwTDMzOC4xIDIwMi42bC0yLjEgMi4zIDAgMy4xIDAgOCAwIDggOCAwIDE0NCAwIDggMCAwLTE2LTggMC0xMzMuMiAwTDQ5My45IDUzLjRsMi4xLTIuMyAwLTMuMSAwLTggMC04LTggMEwzNDQgMzJsLTggMHptNzIuNyAyNjAuNkwzMjEuOSA0ODBsMTcuNiAwIDIyLjMtNDggMTA4LjUgMCAyMi4zIDQ4IDE3LjYgMEw0MjMuMyAyOTIuNmwtMi4xLTQuNi0xMC4yIDAtMi4xIDQuNnpNNDE2IDMxNWw0Ni44IDEwMS05My42IDBMNDE2IDMxNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-down-z-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-down-z-a.svg)
  */
 const ArrowDownZA: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `c` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/c?s=sharp-light c}
- * @preview ![c](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDY0QzExOCA2NCAzMiAxNTAgMzIgMjU2czg2IDE5MiAxOTIgMTkyYzUxLjYgMCA5OC40LTIwLjMgMTMyLjktNTMuNGwyMi4yIDIzLjFDMzM4LjggNDU2LjIgMjg0LjIgNDgwIDIyNCA0ODBDMTAwLjMgNDgwIDAgMzc5LjcgMCAyNTZTMTAwLjMgMzIgMjI0IDMyYzYwLjIgMCAxMTQuOCAyMy44IDE1NS4xIDYyLjRsLTIyLjIgMjMuMUMzMjIuNCA4NC4zIDI3NS42IDY0IDIyNCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![c](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/c.svg)
  */
 const C: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

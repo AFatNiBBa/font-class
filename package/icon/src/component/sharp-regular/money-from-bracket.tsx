@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-from-bracket` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-from-bracket?s=sharp-regular money-from-bracket}
- * @preview ![money-from-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEw2MTYgMGwyNCAwIDAgMjQgMCAxNDQgMCAyNC00OCAwIDAtMjQgMC0xMjBMNDggNDhsMCAxMjAgMCAyNEwwIDE5MmwwLTI0TDAgMjQgMCAwIDI0IDB6TTQ2NCA0MDBsMC0zMDQgNDggMCAwIDM5MiAwIDI0LTI0IDAtMzM2IDAtMjQgMCAwLTI0IDAtMzkyIDQ4IDAgMCAzMDRjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMTYwIDBjMC0zNS4zIDI4LjctNjQgNjQtNjR6TTMyMCAzNTJjLTUzIDAtOTYtMzUuOC05Ni04MHM0My04MCA5Ni04MHM5NiAzNS44IDk2IDgwcy00MyA4MC05NiA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![money-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/money-from-bracket.svg)
  */
 const MoneyFromBracket: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

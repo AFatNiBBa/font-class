@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `folder-magnifying-glass` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-magnifying-glass?s=duotone folder-magnifying-glass}
- * @preview ![folder-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjU2YzAtMzUuMy0yOC43LTY0LTY0LTY0TDI4OCA5NmMtMTAuMSAwLTE5LjYtNC43LTI1LjYtMTIuOEwyNDMuMiA1Ny42QzIzMS4xIDQxLjUgMjEyLjEgMzIgMTkyIDMyTDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZ6TTE0NCAyNzJjMC01MyA0My05NiA5Ni05NnM5NiA0MyA5NiA5NmMwIDE3LjgtNC45IDM0LjUtMTMuMyA0OC45TDM2MSAzNTkuMmM0LjcgNC43IDcgMTAuOCA3IDE3cy0yLjMgMTIuMy03IDE3cy0xMC44IDctMTcgN3MtMTIuMy0yLjMtMTctN2wtMzguNC0zOC40QzI3NC40IDM2My4yIDI1Ny44IDM2OCAyNDAgMzY4Yy01MyAwLTk2LTQzLTk2LTk2em00OCAwYTQ4IDQ4IDAgMSAwIDk2IDAgNDggNDggMCAxIDAgLTk2IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zMjIuNyAzMjAuOWM4LjUtMTQuMyAxMy4zLTMxIDEzLjMtNDguOWMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NnM0MyA5NiA5NiA5NmMxNy44IDAgMzQuNC00LjggNDguNy0xMy4yTDMyNyAzOTMuMWM5LjQgOS40IDI0LjYgOS40IDMzLjkgMHM5LjQtMjQuNiAwLTMzLjlsLTM4LjMtMzguM3pNMTkyIDI3MmE0OCA0OCAwIDEgMSA5NiAwIDQ4IDQ4IDAgMSAxIC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![folder-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/folder-magnifying-glass.svg)
  */
 const FolderMagnifyingGlass: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L288 96c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32L64 32C28.7 32 0 60.7 0 96zM144 272c0-53 43-96 96-96s96 43 96 96c0 17.8-4.9 34.5-13.3 48.9L361 359.2c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17s-10.8 7-17 7s-12.3-2.3-17-7l-38.4-38.4C274.4 363.2 257.8 368 240 368c-53 0-96-43-96-96zm48 0a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-            <path d="M322.7 320.9c8.5-14.3 13.3-31 13.3-48.9c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c17.8 0 34.4-4.8 48.7-13.2L327 393.1c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-38.3-38.3zM192 272a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
+        <path d="M322.7 320.9c8.5-14.3 13.3-31 13.3-48.9c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c17.8 0 34.4-4.8 48.7-13.2L327 393.1c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-38.3-38.3zM192 272a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
     </Icon>
 );
 

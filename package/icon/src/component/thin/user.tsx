@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user?s=thin user}
- * @preview ![user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDEyOGExMTIgMTEyIDAgMSAwIC0yMjQgMCAxMTIgMTEyIDAgMSAwIDIyNCAwek05NiAxMjhhMTI4IDEyOCAwIDEgMSAyNTYgMEExMjggMTI4IDAgMSAxIDk2IDEyOHpNMTYgNDgyLjNjMCA3LjYgNi4xIDEzLjcgMTMuNyAxMy43bDM4OC42IDBjNy42IDAgMTMuNy02LjEgMTMuNy0xMy43QzQzMiAzOTIuNyAzNTkuMyAzMjAgMjY5LjcgMzIwbC05MS40IDBDODguNyAzMjAgMTYgMzkyLjcgMTYgNDgyLjN6bS0xNiAwQzAgMzgzLjggNzkuOCAzMDQgMTc4LjMgMzA0bDkxLjQgMEMzNjguMiAzMDQgNDQ4IDM4My44IDQ0OCA0ODIuM2MwIDE2LjQtMTMuMyAyOS43LTI5LjcgMjkuN0wyOS43IDUxMkMxMy4zIDUxMiAwIDQ5OC43IDAgNDgyLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user.svg)
  */
 const User: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-circle-user` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-circle-user?s=sharp-regular calendar-circle-user}
- * @preview ![calendar-circle-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUyIDBsMCAyNCAwIDQwIDE0NCAwIDAtNDAgMC0yNCA0OCAwIDAgMjQgMCA0MCAxMDQgMCAwIDgwIDAgNDgtMTYgMC0zMiAwLTQ4IDBMNDggMTkybDAgMjcyIDIzNi41IDBjMTIuMyAxOC44IDI4IDM1LjEgNDYuMyA0OEw0OCA1MTIgMCA1MTJsMC00OEwwIDE5MmwwLTQ4TDAgNjRsMTA0IDAgMC00MCAwLTI0IDQ4IDB6TTI4OCAzNjhhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMjI0LjcgNzcuN0w0ODggNDE2bC0xMTIgMC0yNC43IDI5LjdjMjAuNCAyMS4yIDQ5IDM0LjMgODAuNyAzNC4zczYwLjMtMTMuMiA4MC43LTM0LjN6TTQ4MCAzMzZhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![calendar-circle-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/calendar-circle-user.svg)
  */
 const CalendarCircleUser: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

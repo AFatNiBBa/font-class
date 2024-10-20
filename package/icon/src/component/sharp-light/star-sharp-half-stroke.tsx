@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-sharp-half-stroke` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-sharp-half-stroke?s=sharp-light star-sharp-half-stroke}
- * @preview ![star-sharp-half-stroke](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0LjkgNTEuOGw0Ni43IDE0My44IDE1MS4yIDAgNTQuNCAwLTQ0IDMyTDM5MC45IDMxNi40bDQ2LjcgMTQzLjhMNDU0LjQgNTEybC00NC0zMkwyODguMSAzOTEuMSAxNjUuNyA0ODBsLTQ0IDMyIDE2LjgtNTEuOCA0Ni43LTE0My44TDYyLjkgMjI3LjZsLTQ0LTMyIDU0LjQgMCAxNTEuMiAwTDI3MS4yIDUxLjggMjg4LjEgMGwxNi44IDUxLjh6bTQ2LjcgMTc1LjhsLTIzLjMgMC03LjItMjIuMUwzMDQgMTUyLjZsMCAyMTAuNSAyLjkgMi4xIDg2LjcgNjNMMzYwLjQgMzI2LjNsLTcuMi0yMi4xIDE4LjgtMTMuNyA4Ni43LTYzLTEwNy4xIDB6TTI3MiAzNjMuMkwyNzIgMTUzbC0xNy4xIDUyLjUtNy4yIDIyLjEtMjMuMiAwLTEwNy4xIDAgODYuNyA2MyAxOC44IDEzLjctNy4yIDIyLjFMMTgyLjYgNDI4LjJsODYuNy02MyAyLjgtMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![star-sharp-half-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/star-sharp-half-stroke.svg)
  */
 const StarSharpHalfStroke: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

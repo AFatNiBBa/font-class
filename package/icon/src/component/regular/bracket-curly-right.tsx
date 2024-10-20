@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bracket-curly-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bracket-curly-right?s=regular bracket-curly-right}
- * @preview ![bracket-curly-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDEyMGMwLTQ4LjYtMzkuNC04OC04OC04OEw1NiAzMkM0Mi43IDMyIDMyIDQyLjcgMzIgNTZzMTAuNyAyNCAyNCAyNGw0OCAwYzIyLjEgMCA0MCAxNy45IDQwIDQwbDAgNDUuNWMwIDIzLjMgOS4zIDQ1LjcgMjUuOCA2Mi4yTDE5OC4xIDI1NmwtMjguMyAyOC4zYy0xNi41IDE2LjUtMjUuOCAzOC45LTI1LjggNjIuMmwwIDQ1LjVjMCAyMi4xLTE3LjkgNDAtNDAgNDBsLTQ4IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNDggMGM0OC42IDAgODgtMzkuNCA4OC04OGwwLTQ1LjVjMC0xMC42IDQuMi0yMC44IDExLjctMjguM0wyNDkgMjczYzkuNC05LjQgOS40LTI0LjYgMC0zMy45bC00NS4zLTQ1LjNjLTcuNS03LjUtMTEuNy0xNy43LTExLjctMjguM2wwLTQ1LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bracket-curly-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bracket-curly-right.svg)
  */
 const BracketCurlyRight: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

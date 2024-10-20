@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plant-wilt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plant-wilt?s=solid plant-wilt}
- * @preview ![plant-wilt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDEyMGMwLTMwLjkgMjUuMS01NiA1Ni01NnM1NiAyNS4xIDU2IDU2bDAgMTNjLTI5LjMgMTAtNDggMzQuNS00OCA3MC4xYzAgMjcuOSAyNS4zIDc0LjggNjYgMTExLjZjMy44IDMuNSA4LjkgNS4zIDE0IDUuM3MxMC4yLTEuOCAxNC01LjNjNDAuNy0zNi44IDY2LTgzLjcgNjYtMTExLjZjMC0zNS42LTE4LjctNjAuMi00OC03MC4xbDAtMTNDNDY0IDUzLjcgNDEwLjMgMCAzNDQgMFMyMjQgNTMuNyAyMjQgMTIwbDAgMjEuOEMyMDcuMyAxMzMgMTg4LjIgMTI4IDE2OCAxMjhjLTY2LjMgMC0xMjAgNTMuNy0xMjAgMTIwbDAgMTNjLTI5LjMgMTAtNDggMzQuNS00OCA3MC4xQzAgMzU5IDI1LjMgNDA1LjkgNjYgNDQyLjdjMy44IDMuNSA4LjkgNS4zIDE0IDUuM3MxMC4yLTEuOCAxNC01LjNjNDAuNy0zNi44IDY2LTgzLjcgNjYtMTExLjZjMC0zNS42LTE4LjctNjAuMi00OC03MC4xbDAtMTNjMC0zMC45IDI1LjEtNTYgNTYtNTZzNTYgMjUuMSA1NiA1NmwwIDMyIDAgMjAwYzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMC0yMDAgMC0zMiAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![plant-wilt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plant-wilt.svg)
  */
 const PlantWilt: typeof Icon = x => (
     <Icon {...x}>

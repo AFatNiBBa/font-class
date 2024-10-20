@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right?s=regular right}
- * @preview ![right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk3LjYgMjU2TDI0Ny43IDM5OC43Yy0uOCAuOC0yIDEuMy0zLjIgMS4zYy0yLjUgMC00LjYtMi00LjYtNC42bDAtODMuNGMwLTEzLjMtMTAuNy0yNC0yNC0yNEw0OCAyODhsMC02NCAxNjggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTgzLjRjMC0yLjUgMi00LjYgNC42LTQuNmMxLjIgMCAyLjMgLjUgMy4yIDEuM0wzOTcuNiAyNTZ6bS0xNTMgMTkyYzEzLjUgMCAyNi41LTUuMiAzNi4zLTE0LjVMNDM0LjggMjg2LjljOC41LTguMSAxMy4yLTE5LjIgMTMuMi0zMC45cy00LjgtMjIuOC0xMy4yLTMwLjlMMjgwLjggNzguNUMyNzEuMSA2OS4yIDI1OC4xIDY0IDI0NC42IDY0Yy0yOSAwLTUyLjYgMjMuNS01Mi42IDUyLjZsMCA1OS40TDQ4IDE3NmMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCA2NGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwxNDQgMCAwIDU5LjRjMCAyOSAyMy41IDUyLjYgNTIuNiA1Mi42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/right.svg)
  */
 const Right: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

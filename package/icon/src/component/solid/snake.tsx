@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `snake` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snake?s=solid snake}
- * @preview ![snake](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgzLjQgNjUuN0w0MDMuNiAyNS44Yy0zMC44LTE1LjQtNjgtOS40LTkyLjMgMTVMMjg4IDY0IDE3NiA2NEM5Ni41IDY0IDMyIDEyOC41IDMyIDIwOHM2NC41IDE0NCAxNDQgMTQ0bDE0NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC02My45IDAtLjEgMC0xNDQuNCAwYy0xMC4zIDAtMjAuNiAxLjctMzAuNCA0LjlsLTY2IDIyQzYuMSA0NDYgMCA0NTQuNCAwIDQ2NHM2LjEgMTggMTUuMiAyMS4xbDY2IDIyYzkuOCAzLjMgMjAgNC45IDMwLjQgNC45bDY0LjMgMCAuMSAwIDE0NCAwYzcwLjcgMCAxMjgtNTcuMyAxMjgtMTI4cy01Ny4zLTEyOC0xMjgtMTI4bC0xNDQgMGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhzMjEuNS00OCA0OC00OGwxMTIgMCAyMy4yIDIzLjJjMjQuMyAyNC4zIDYxLjUgMzAuNCA5Mi4zIDE1bDc5LjgtMzkuOWMxNy41LTguOCAyOC42LTI2LjcgMjguNi00Ni4zcy0xMS4xLTM3LjUtMjguNi00Ni4zek0zNTIgODBhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptMTYgNDhhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/snake.svg)
  */
 const Snake: typeof Icon = x => (
     <Icon {...x}>

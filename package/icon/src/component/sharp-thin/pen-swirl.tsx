@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-swirl` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-swirl?s=sharp-thin pen-swirl}
- * @preview ![pen-swirl](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQyLjMgMTQzbDQ3LTQ3TDQxNiAyMi42bC00NyA0N0w0NDIuMyAxNDN6TTM1MiA2NGw1LjctNS43IDQ3LTQ3TDQxNiAwbDExLjMgMTEuMyA3My40IDczLjRMNTEyIDk2bC0xMS4zIDExLjMtNDcgNDdMNDQ4IDE2MGwtNS43IDUuN0wyODggMzIwIDE3Ny42IDM0Ny42IDE2MCAzNTJsNC40LTE3LjZMMTkyIDIyNCAzNDYuMyA2OS43IDM1MiA2NHptNS43IDE3TDIwNi40IDIzMi4yIDE4MiAzMzBsOTcuOC0yNC41TDQzMSAxNTQuMyAzNTcuNyA4MXpNNDcyIDI1NmMwLTIyLjYtMy41LTQ0LjQtOS45LTY0LjhsOC41LTguNSA0LjEtNC4xYzguNiAyNC4yIDEzLjMgNTAuMyAxMy4zIDc3LjVjMCA3NS4xLTYwLjkgMTM2LTEzNiAxMzZjLTE4IDAtMzUuMi0zLjUtNTEtOS45Yy00LjEtMS43LTYuMS02LjMtNC40LTEwLjRzNi4zLTYuMSAxMC40LTQuNGMxMy45IDUuNiAyOS4xIDguNyA0NSA4LjdjNjYuMyAwIDEyMC01My43IDEyMC0xMjB6TTI1NiAyNGMyNy4yIDAgNTMuMyA0LjcgNzcuNSAxMy4zbC00LjEgNC4xLTguNSA4LjVDMzAwLjQgNDMuNSAyNzguNiA0MCAyNTYgNDBDMTM2LjcgNDAgNDAgMTM2LjcgNDAgMjU2czk2LjcgMjE2IDIxNiAyMTZjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhDMTI3LjkgNDg4IDI0IDM4NC4xIDI0IDI1NlMxMjcuOSAyNCAyNTYgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pen-swirl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pen-swirl.svg)
  */
 const PenSwirl: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-chalkboard` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-chalkboard?s=sharp-regular person-chalkboard}
- * @preview ![person-chalkboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptLTUxLjEgMzJsLTE0IDBMMTIwIDE0MC4ybC03Ni45IDEzNiA0MS44IDIzLjZMMTI4IDIyMy42IDEyOCA0ODhsMCAyNCA0OCAwIDAtMjQgMC0xMzYgMzIgMCAwIDEzNiAwIDI0IDQ4IDAgMC0yNCAwLTMxMiAxMzYgMCAyNCAwIDAtNDgtMjQgMC0yNCAwIDAtODAgMjI0IDAgMCAyMjQtMjI0IDAgMC00OC00OCAwIDAgNDggMCA0OCA0OCAwIDIyNCAwIDQ4IDAgMC00OCAwLTIyNCAwLTQ4TDU5MiAwIDM2OCAwIDMyMCAwbDAgNDggMCA4MC03Ni45IDAtMTAyLjIgMHpNMjA4IDMwNGwtMzIgMCAwLTEyOCAzMiAwIDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-chalkboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-chalkboard.svg)
  */
 const PersonChalkboard: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

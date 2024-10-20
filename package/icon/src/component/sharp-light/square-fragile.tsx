@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-fragile` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-fragile?s=sharp-light square-fragile}
- * @preview ![square-fragile](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMzg0IDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnptMzA0IDk2bC03My40IDAgMjAuNyAyMC43IDEzLjggMTMuOC0xNi4yIDEwLjgtMzAuMiAyMC4xIDMxLjUgMjYuM0wyNjIuNSAyMzAgMjQyIDI1NC41bC0xMi4zLTEwLjItNDgtNDAtMTYuNS0xMy43IDE3LjgtMTEuOSAzMS44LTIxLjJMMTg1LjQgMTI4IDE0NCAxMjhsMCA4MGMwIDQ0LjIgMzUuOCA4MCA4MCA4MHM4MC0zNS44IDgwLTgwbDAtODB6TTE0NCA5NmwxNjAgMCAzMiAwIDAgMzIgMCA4MGMwIDU2LjQtNDEuNyAxMDMuMS05NiAxMTAuOWwwIDY1LjEgNDggMCAwIDMyLTEyOCAwIDAtMzIgNDggMCAwLTY1LjFjLTU0LjMtNy44LTk2LTU0LjQtOTYtMTEwLjlsMC04MCAwLTMyIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-fragile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-fragile.svg)
  */
 const SquareFragile: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

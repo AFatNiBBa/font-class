@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `xing` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xing?s=brands xing}
- * @preview ![xing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYyLjcgMjEwYy0xLjggMy4zLTI1LjIgNDQuNC03MC4xIDEyMy41LTQuOSA4LjMtMTAuOCAxMi41LTE3LjcgMTIuNUg5LjhjLTcuNyAwLTEyLjEtNy41LTguNS0xNC40bDY5LTEyMS4zYy4yIDAgLjItLjEgMC0uM2wtNDMuOS03NS42Yy00LjMtNy44LjMtMTQuMSA4LjUtMTQuMUgxMDBjNy4zIDAgMTMuMyA0LjEgMTggMTIuMmw0NC43IDc3LjV6TTM4Mi42IDQ2LjFsLTE0NCAyNTN2LjNMMzMwLjIgNDY2YzMuOSA3LjEuMiAxNC4xLTguNSAxNC4xaC02NS4yYy03LjYgMC0xMy42LTQtMTgtMTIuMmwtOTIuNC0xNjguNWMzLjMtNS44IDUxLjUtOTAuOCAxNDQuOC0yNTUuMiA0LjYtOC4xIDEwLjQtMTIuMiAxNy41LTEyLjJoNjUuN2M4IDAgMTIuMyA2LjcgOC41IDE0LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![xing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/xing.svg)
  */
 const Xing: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

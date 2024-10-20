@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `can-food` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/can-food?s=solid can-food}
- * @preview ![can-food](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcwLjMgMzA0LjVjMTIuMS0yLjUgMjMuNC01LjUgMzMuNy05TDMwNCA0MjZjLTIuOCAxLjYtNi42IDMuNi0xMS44IDUuN0MyNjkuOCA0NDAuOSAyMzQuNCA0NDggMTkyIDQ0OHMtNzcuOC03LjEtMTAwLjItMTYuM2MtNS4yLTIuMS05LTQuMS0xMS44LTUuN2wwLTEzMC40YzEwLjMgMy41IDIxLjYgNi41IDMzLjcgOWM3LjYgMzYuMyAzOS44IDYzLjUgNzguMyA2My41czcwLjctMjcuMiA3OC4zLTYzLjV6bS0xMDAuMS00MGEzMiAzMiAwIDEgMSA0My41IDQ2LjkgMzIgMzIgMCAxIDEgLTQzLjUtNDYuOXpNMTYgNzJsMCAxNjggMCAyMDBjMCAzOS44IDc4LjggNzIgMTc2IDcyczE3Ni0zMi4yIDE3Ni03MmwwLTIwMCAwLTE2OGMwLTM5LjgtNzguOC03Mi0xNzYtNzJTMTYgMzIuMiAxNiA3MnptMjg4IDBjMCAxMy4zLTUwLjEgMjQtMTEyIDI0UzgwIDg1LjMgODAgNzJzNTAuMS0yNCAxMTItMjRzMTEyIDEwLjcgMTEyIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![can-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/can-food.svg)
  */
 const CanFood: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

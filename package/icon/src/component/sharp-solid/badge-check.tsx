@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `badge-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badge-check?s=sharp-solid badge-check}
- * @preview ![badge-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBjMzYuOCAwIDY4LjggMjAuNyA4NC45IDUxLjFDMzczLjggNDEgNDExIDQ5IDQzNyA3NXMzNCA2My4zIDIzLjkgOTYuMUM0OTEuMyAxODcuMiA1MTIgMjE5LjIgNTEyIDI1NnMtMjAuNyA2OC44LTUxLjEgODQuOUM0NzEgMzczLjggNDYzIDQxMSA0MzcgNDM3cy02My4zIDM0LTk2LjEgMjMuOUMzMjQuOCA0OTEuMyAyOTIuOCA1MTIgMjU2IDUxMnMtNjguOC0yMC43LTg0LjktNTEuMUMxMzguMiA0NzEgMTAxIDQ2MyA3NSA0MzdzLTM0LTYzLjMtMjMuOS05Ni4xQzIwLjcgMzI0LjggMCAyOTIuOCAwIDI1NnMyMC43LTY4LjggNTEuMS04NC45QzQxIDEzOC4yIDQ5IDEwMSA3NSA3NXM2My4zLTM0IDk2LjEtMjMuOUMxODcuMiAyMC43IDIxOS4yIDAgMjU2IDB6TTM2OSAyMDlsMTctMTdMMzUyIDE1OC4xbC0xNyAxNy0xMTEgMTExLTQ3LTQ3LTE3LTE3TDEyNi4xIDI1NmwxNyAxNyA2NCA2NCAxNyAxNyAxNy0xN0wzNjkgMjA5eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![badge-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/badge-check.svg)
  */
 const BadgeCheck: typeof Icon = x => (
     <Icon {...x}>

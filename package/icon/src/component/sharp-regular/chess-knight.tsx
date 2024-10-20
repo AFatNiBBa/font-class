@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-knight` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-knight?s=sharp-regular chess-knight}
- * @preview ![chess-knight](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMEw2NCAwbDAgMjQgMCAzMiAwIDEyIDkuNiA3LjJMODAgODBsLTYuNCA0LjhMNjQgOTJsMCAxMi0uNCAxNTEuNiAwIDEyLjQgMTAuMSA3LjIgMTkuMyAxMy44TDc1LjUgMjk5LjVsLTExLjUgN0w2NCAzMjBsMCAzMiA0OCAwIDAtMTguNSAxMjQuNS03NS45TDI1NyAyNDUuMWwtMjUtNDEtMjAuNSAxMi41LTc0IDQ1LjEtMjUuOS0xOC41TDExMiAxMTZsMjIuNC0xNi44TDE2MCA4MCAxMzQuNCA2MC44IDExNy4zIDQ4bDEwOS4zIDBDMzA0LjcgNDggMzY4IDExMS4zIDM2OCAxODkuNGMwIDguMy0uNyAxNi42LTIuMiAyNC44TDM0MS4zIDM1Mmw0OC44IDAgMjMtMTI5LjRjMS45LTEwLjkgMi45LTIyIDIuOS0zMy4yQzQxNiA4NC44IDMzMS4yIDAgMjI2LjYgMEw4OCAwek02OC43IDQ2NGwxNi42LTMyIDI3Ny42IDAgMTYuNiAzMkw2OC43IDQ2NHpNNDMyIDQ2MS4zTDM5MiAzODQgNTYgMzg0IDE2IDQ2MS4zbDAgMi43IDAgNDggNDggMCAzMjAgMCA0OCAwIDAtNDggMC0yLjd6TTE3MiAxNjhhMjAgMjAgMCAxIDAgMC00MCAyMCAyMCAwIDEgMCAwIDQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chess-knight](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chess-knight.svg)
  */
 const ChessKnight: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

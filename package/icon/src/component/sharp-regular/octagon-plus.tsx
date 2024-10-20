@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `octagon-plus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-plus?s=sharp-regular octagon-plus}
- * @preview ![octagon-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzMyLjFsMC0xNTIuMkwxNzkuOSA0OGwxNTIuMiAwTDQ2NCAxNzkuOWwwIDE1Mi4yTDMzMi4xIDQ2NGwtMTUyLjIgMEw0OCAzMzIuMXpNMTYwIDBMMCAxNjAgMCAzNTIgMTYwIDUxMmwxOTIgMEw1MTIgMzUybDAtMTkyTDM1MiAwIDE2MCAwem03MiAzNjhsNDggMCAwLTI0IDAtNjQgNjQgMCAyNCAwIDAtNDgtMjQgMC02NCAwIDAtNjQgMC0yNC00OCAwIDAgMjQgMCA2NC02NCAwLTI0IDAgMCA0OCAyNCAwIDY0IDAgMCA2NCAwIDI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![octagon-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/octagon-plus.svg)
  */
 const OctagonPlus: typeof Icon = x => (
     <Icon {...x}>

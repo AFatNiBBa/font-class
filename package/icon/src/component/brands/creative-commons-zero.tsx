@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `creative-commons-zero` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/creative-commons-zero?s=brands creative-commons-zero}
- * @preview ![creative-commons-zero](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ3LjYgOEMzODkuNCA4IDQ5NiAxMTguMSA0OTYgMjU2YzAgMTQ3LjEtMTE4LjUgMjQ4LTI0OC40IDI0OEMxMTMuNiA1MDQgMCAzOTQuNSAwIDI1NiAwIDEyMy4xIDEwNC43IDggMjQ3LjYgOHptLjggNDQuN0MxMzAuMiA1Mi43IDQ0LjcgMTUwLjYgNDQuNyAyNTZjMCAxMDkuOCA5MS4yIDIwMi44IDIwMy43IDIwMi44IDEwMy4yIDAgMjAyLjgtODEuMSAyMDIuOC0yMDIuOC4xLTExMy44LTkwLjItMjAzLjMtMjAyLjgtMjAzLjN6bS0uNCA2MC41Yy04MS45IDAtMTAyLjUgNzcuMy0xMDIuNSAxNDIuOCAwIDY1LjUgMjAuNiAxNDIuOCAxMDIuNSAxNDIuOFMzNTAuNSAzMjEuNSAzNTAuNSAyNTZjMC02NS41LTIwLjYtMTQyLjgtMTAyLjUtMTQyLjh6bTAgNTMuOWMzLjMgMCA2LjQuNSA5LjIgMS4yIDUuOSA1LjEgOC44IDEyLjEgMy4xIDIxLjlsLTU0LjUgMTAwLjJjLTEuNy0xMi43LTEuOS0yNS4xLTEuOS0zNC40IDAtMjguOCAyLTg4LjkgNDQuMS04OC45em00MC44IDQ2LjJjMi45IDE1LjQgMy4zIDMxLjQgMy4zIDQyLjcgMCAyOC45LTIgODguOS00NC4xIDg4LjktMTMuNSAwLTMyLjYtNy43LTIwLjEtMjYuNGw2MC45LTEwNS4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![creative-commons-zero](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/creative-commons-zero.svg)
  */
 const CreativeCommonsZero: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

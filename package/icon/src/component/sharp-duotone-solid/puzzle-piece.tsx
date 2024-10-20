@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `puzzle-piece` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/puzzle-piece?s=sharp-duotone-solid puzzle-piece}
- * @preview ![puzzle-piece](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xOTIgODkuNmMtMTkuMS04LjMtMzItMjMuOC0zMi00MS42YzAtMjYuNSAyOC43LTQ4IDY0LTQ4czY0IDIxLjUgNjQgNDhjMCAxNy44LTEyLjkgMzMuMy0zMiA0MS42bDAgMzguNCAxMjggMCAwIDEyOCAzOC40IDBjOC4zLTE5LjEgMjMuOC0zMiA0MS42LTMyYzI2LjUgMCA0OCAyOC43IDQ4IDY0cy0yMS41IDY0LTQ4IDY0Yy0xNy44IDAtMzMuMy0xMi45LTQxLjYtMzJMMzg0IDMyMGwwIDE5Mi0xMjggMCAwLTM4LjRjMTkuMS04LjMgMzItMjMuOCAzMi00MS42YzAtMjYuNS0yOC43LTQ4LTY0LTQ4cy02NCAyMS41LTY0IDQ4YzAgMTcuOCAxMi45IDMzLjMgMzIgNDEuNmwwIDM4LjRMMCA1MTIgMCAzMjBsMzguNCAwYzguMyAxOS4xIDIzLjggMzIgNDEuNiAzMmMyNi41IDAgNDgtMjguNyA0OC02NHMtMjEuNS02NC00OC02NGMtMTcuOCAwLTMzLjMgMTIuOS00MS42IDMyTDAgMjU2IDAgMTI4bDE5MiAwIDAtMzguNHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![puzzle-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/puzzle-piece.svg)
  */
 const PuzzlePiece: typeof Icon = x => (
     <Icon {...x}>

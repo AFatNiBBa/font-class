@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-showers-heavy` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-showers-heavy?s=sharp-thin cloud-showers-heavy}
- * @preview ![cloud-showers-heavy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDEyOGwwIDE2IDE2IDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCA4MC04MCAwTDk2IDMwNGwtODAgMCAwLTgwYzAtMzQuOCAyMi4yLTY0LjUgNTMuMy03NS41TDgwIDE0NC44bDAtMTEuM0w4MCAxMTJjMC01MyA0My05NiA5Ni05NmMzMi40IDAgNjEuMSAxNi4xIDc4LjUgNDAuOGw4LjkgMTIuNiAxMi45LTguNEMyODguOSA1Mi44IDMwMy45IDQ4IDMyMCA0OGM0NC4yIDAgODAgMzUuOCA4MCA4MHpNMCAzMjBsMTYgMCA4MCAwIDMyMCAwIDgwIDAgMTYgMCAwLTE2IDAtODBjMC01My00My05Ni05Ni05NmMwLTUzLTQzLTk2LTk2LTk2Yy0xOS4zIDAtMzcuMyA1LjctNTIuNCAxNS41QzI0Ny4zIDE4LjggMjEzLjkgMCAxNzYgMEMxMTQuMSAwIDY0IDUwLjEgNjQgMTEybDAgMjEuNUMyNi43IDE0Ni42IDAgMTgyLjIgMCAyMjRsMCA4MCAwIDE2ek0wIDUxMmwxNiAwTDg4IDM1MmwtMTYgMEwwIDUxMnpNMTkyIDM1MkwxMjAgNTEybDE2IDAgNzItMTYwLTE2IDB6bTEyOCAwbC0xNiAwTDIzMiA1MTJsMTYgMCA3Mi0xNjB6bTEwNCAwTDM1MiA1MTJsMTYgMCA3Mi0xNjAtMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cloud-showers-heavy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cloud-showers-heavy.svg)
  */
 const CloudShowersHeavy: typeof Icon = x => (
     <Icon {...x}>

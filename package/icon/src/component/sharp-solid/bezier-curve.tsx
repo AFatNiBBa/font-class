@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bezier-curve` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bezier-curve?s=sharp-solid bezier-curve}
- * @preview ![bezier-curve](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDg4bDAgNDgtNDggMCAwLTQ4IDQ4IDB6TTI5NiAzMmwtNTYgMCAwIDUyTDEyMS42IDg0QzExMS4yIDYyLjcgODkuMyA0OCA2NCA0OEMyOC43IDQ4IDAgNzYuNyAwIDExMnMyOC43IDY0IDY0IDY0YzI1LjMgMCA0Ny4yLTE0LjcgNTcuNi0zNmw2Ni45IDBjLTU4LjkgMzkuNi05OC45IDEwNS0xMDQgMTgwTDMyIDMyMGwwIDU2IDAgNDggMCA1NiA1NiAwIDQ4IDAgNTYgMCAwLTU2IDAtNDggMC01Ni01MS4zIDBjNS42LTYzLjggNDQuNi0xMTguMSA5OS4zLTE0NS4zbDAgMTcuMyA1NiAwIDQ4IDAgNTYgMCAwLTE3LjNjNTQuNyAyNy4yIDkzLjcgODEuNSA5OS4zIDE0NS4zTDQ0OCAzMjBsMCA1NiAwIDQ4IDAgNTYgNTYgMCA0OCAwIDU2IDAgMC01NiAwLTQ4IDAtNTYtNTIuNSAwYy01LTc1LTQ1LjEtMTQwLjQtMTA0LTE4MGw2Ni45IDBjMTAuNCAyMS4zIDMyLjMgMzYgNTcuNiAzNmMzNS4zIDAgNjQtMjguNyA2NC02NHMtMjguNy02NC02NC02NGMtMjUuMyAwLTQ3LjIgMTQuNy01Ny42IDM2TDQwMCA4NGwwLTUyLTU2IDAtNDggMHpNMTM2IDM3NmwwIDQ4LTQ4IDAgMC00OCA0OCAwem0zNjggMGw0OCAwIDAgNDgtNDggMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bezier-curve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bezier-curve.svg)
  */
 const BezierCurve: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

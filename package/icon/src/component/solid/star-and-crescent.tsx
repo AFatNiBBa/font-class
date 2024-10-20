@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-and-crescent` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-and-crescent?s=solid star-and-crescent}
- * @preview ![star-and-crescent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZDMCAxMTQuNiAxMTQuNiAwIDI1NiAwYzMzIDAgNjQuNiA2LjMgOTMuNiAxNy43YzcuNCAyLjkgMTEuNSAxMC43IDkuOCAxOC40cy04LjggMTMtMTYuNyAxMi40Yy00LjgtLjMtOS43LS41LTE0LjYtLjVjLTExNC45IDAtMjA4IDkzLjEtMjA4IDIwOHM5My4xIDIwOCAyMDggMjA4YzQuOSAwIDkuOC0uMiAxNC42LS41YzcuOS0uNSAxNSA0LjcgMTYuNyAxMi40cy0yLjQgMTUuNS05LjggMTguNEMzMjAuNiA1MDUuNyAyODkgNTEyIDI1NiA1MTJDMTE0LjYgNTEyIDAgMzk3LjQgMCAyNTZ6TTM3NS40IDEzNy40YzMuNS03LjEgMTMuNy03LjEgMTcuMiAwbDMxLjUgNjMuOGMxLjQgMi44IDQuMSA0LjggNy4yIDUuM2w3MC40IDEwLjJjNy45IDEuMSAxMSAxMC44IDUuMyAxNi40bC01MC45IDQ5LjZjLTIuMyAyLjItMy4zIDUuNC0yLjggOC41bDEyIDcwLjFjMS4zIDcuOC02LjkgMTMuOC0xMy45IDEwLjFsLTYzLTMzLjFjLTIuOC0xLjUtNi4xLTEuNS04LjkgMGwtNjMgMzMuMWMtNyAzLjctMTUuMy0yLjMtMTMuOS0xMC4xbDEyLTcwLjFjLjUtMy4xLS41LTYuMy0yLjgtOC41TDI2MSAyMzMuMWMtNS43LTUuNi0yLjYtMTUuMiA1LjMtMTYuNGw3MC40LTEwLjJjMy4xLS41IDUuOC0yLjQgNy4yLTUuM2wzMS41LTYzLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![star-and-crescent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/star-and-crescent.svg)
  */
 const StarAndCrescent: typeof Icon = x => (
     <Icon {...x}>

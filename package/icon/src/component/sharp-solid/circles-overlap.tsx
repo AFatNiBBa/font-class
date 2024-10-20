@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circles-overlap` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circles-overlap?s=sharp-solid circles-overlap}
- * @preview ![circles-overlap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDI4OGMwIDM0LjIgNy43IDY2LjYgMjEuNCA5NS43QzEzMCAzNzguMiA2NCAzMDguOCA2NCAyMjRjMC04OC40IDcxLjYtMTYwIDE2MC0xNjBjMzIuMiAwIDYyLjIgOS41IDg3LjMgMjUuOUMyNDAuNCAxMjcuNSAxOTIgMjAyLjEgMTkyIDI4OHptMzIgMTYwYzExLjIgMCAyMi4xLS44IDMyLjgtMi40YzQwLjYgNDEgOTYuOSA2Ni40IDE1OS4yIDY2LjRjMTIzLjcgMCAyMjQtMTAwLjMgMjI0LTIyNFM1MzkuNyA2NCA0MTYgNjRjLTExLjIgMC0yMi4xIC44LTMyLjggMi40QzM0Mi42IDI1LjQgMjg2LjMgMCAyMjQgMEMxMDAuMyAwIDAgMTAwLjMgMCAyMjRTMTAwLjMgNDQ4IDIyNCA0NDh6bTE5MiAwYy0zMi4yIDAtNjIuMi05LjUtODcuMy0yNS45QzM5OS42IDM4NC41IDQ0OCAzMDkuOSA0NDggMjI0YzAtMzQuMi03LjctNjYuNi0yMS40LTk1LjdDNTEwIDEzMy44IDU3NiAyMDMuMiA1NzYgMjg4YzAgODguNC03MS42IDE2MC0xNjAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circles-overlap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/circles-overlap.svg)
  */
 const CirclesOverlap: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `flux-capacitor` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flux-capacitor?s=sharp-solid flux-capacitor}
- * @preview ![flux-capacitor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw0NDggMCAwIDQ0OEwwIDQ4MCAwIDMyek0xNDguNyAyMzcuM2wtNDktNDlMNzEuNCAxNjAgMTI4IDEwMy40bDI4LjMgMjguMyA0OSA0OWMxLjgtNi42IDIuNy0xMy42IDIuNy0yMC43YzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwczM1LjggODAgODAgODBjNy4yIDAgMTQuMS0uOSAyMC43LTIuN3pNMTg0IDI4Mi43Yy0yMy45IDEzLjgtNDAgMzkuNy00MCA2OS4zYzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBjMC0yOS42LTE2LjEtNTUuNS00MC02OS4zbDAgNjkuMyAwIDQwLTgwIDAgMC00MCAwLTY5LjN6bTExNS4zLTQ1LjRjNi42IDEuOCAxMy42IDIuNyAyMC43IDIuN2M0NC4yIDAgODAtMzUuOCA4MC04MHMtMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MGMwIDcuMiAuOSAxNC4xIDIuNyAyMC43bDQ5LTQ5TDMyMCAxMDMuNCAzNzYuNiAxNjBsLTI4LjMgMjguMy00OSA0OXptLTE2MC04OC42TDEyOCAxMzcuNCAxMDUuNCAxNjBsMTEuMyAxMS4zTDIwOCAyNjIuNmwwIDg5LjQgMCAxNiAzMiAwIDAtMTYgMC04OS40IDkxLjMtOTEuM0wzNDIuNiAxNjAgMzIwIDEzNy40bC0xMS4zIDExLjNMMjI0IDIzMy40bC04NC43LTg0Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![flux-capacitor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/flux-capacitor.svg)
  */
 const FluxCapacitor: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

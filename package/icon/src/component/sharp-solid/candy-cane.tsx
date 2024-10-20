@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `candy-cane` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy-cane?s=sharp-solid candy-cane}
- * @preview ![candy-cane](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ4LjggMTMxLjVjMy43LTIuMyA3LjktMy41IDEyLjItMy41YzEyLjcgMCAyMyAxMC4zIDIzIDIzbDAgNS42YzAgOS45LTUuMSAxOS4xLTEzLjUgMjQuM0wxNC41IDQwMy41IDgyLjQgNTEybDM1Ni0yMjIuNWM0NS44LTI4LjYgNzMuNi03OC44IDczLjYtMTMyLjhsMC01LjZDNTEyIDY3LjYgNDQ0LjQgMCAzNjEgMGMtMjguMyAwLTU2IDgtODAgMjNMMjAwLjQgNzMuM2w2Ny44IDEwOC41IDgwLjUtNTAuM3pNMjk4LjQgNDkuOGM5LjItNS43IDE5LjEtMTAuMSAyOS40LTEzLjFMMzQ4IDk3LjVjLTUuNyAxLjQtMTEuMiAzLjctMTYuMyA2LjhsLTEyLjYgNy45TDI5OC40IDQ5Ljh6bTg4LjUgNTIuN2w0Ni4yLTQ2LjJjOC41IDYuNSAxNi4xIDE0LjEgMjIuNiAyMi42bC00Ni4yIDQ2LjJjLTUuMS05LjYtMTMtMTcuNS0yMi42LTIyLjZ6bTI4LjkgNTkuM2w2MS42IDIwLjVjLTIuMiAxMC41LTUuOCAyMC43LTEwLjUgMzAuMmwtNjItMjAuN2M2LjItOC44IDEwLjEtMTkuMSAxMS0zMC4xem0tODYuMSA4Mi41bDYwLjQgMzcuNy0zMC4yIDE4LjktNjAuNC0zNy43IDMwLjItMTguOXptLTEwNy4yIDY3bDYwLjQgMzcuNy0zMC4yIDE4LjktNjAuNC0zNy43IDMwLjItMTguOXpNMTE5LjMgMzc1LjdsNjAuNCAzNy43LTMwLjIgMTguOUw4OS4xIDM5NC42bDMwLjItMTguOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![candy-cane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/candy-cane.svg)
  */
 const CandyCane: typeof Icon = x => (
     <Icon {...x}>

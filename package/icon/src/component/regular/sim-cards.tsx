@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sim-cards` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sim-cards?s=regular sim-cards}
- * @preview ![sim-cards](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDM1MmMwIDguOCA3LjIgMTYgMTYgMTZsMjI0IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMjEzLjVjMC00LjItMS43LTguMy00LjctMTEuM0wzMjAuOCA1Mi43Yy0zLTMtNy4xLTQuNy0xMS4zLTQuN0wxNjAgNDhjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDI4OHpNNDI5LjMgOTMuM2MxMiAxMiAxOC43IDI4LjMgMTguNyA0NS4zTDQ0OCAzNTJjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTIyNCAwYy0zNS4zIDAtNjQtMjguNy02NC02NEw5NiA2NGMwLTM1LjMgMjguNy02NCA2NC02NEwzMDkuNSAwYzE3IDAgMzMuMyA2LjcgNDUuMyAxOC43bDc0LjUgNzQuNXpNMjQgOTZjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAyNTZjMCA0OC42IDM5LjQgODggODggODhsMjI0IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTIyNCAwQzYwLjkgNTEyIDAgNDUxLjEgMCAzNzZMMCAxMjBjMC0xMy4zIDEwLjctMjQgMjQtMjR6bTE4NCA4MGw2NCAwIDAgNjQtMTYgMC04MCAwIDAtMzJjMC0xNy43IDE0LjMtMzIgMzItMzJ6TTE3NiAzMDRsMC0zMiA2NCAwIDAgNjQtMzIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJ6bTE5MiAwYzAgMTcuNy0xNC4zIDMyLTMyIDMybC02NCAwIDAtNjQgMTYgMCA4MCAwIDAgMzJ6bTAtOTZsMCAzMi02NCAwIDAtNjQgMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sim-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sim-cards.svg)
  */
 const SimCards: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-laugh-squint` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-squint?s=light face-laugh-squint}
- * @preview ![face-laugh-squint](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI1NiA0MDBjNTIgMCA5Ny4xLTMyLjggMTE1LjctODBsLTIzMS40IDBjMTguNiA0Ny4yIDYzLjcgODAgMTE1LjcgODB6TTEyNi41IDI4OGwyNTkuMSAwYzE0LjIgMCAyNS40IDEyLjMgMjEuOCAyNmMtMTguMSA2OC03OSAxMTgtMTUxLjMgMTE4cy0xMzMuMi01MC0xNTEuMy0xMThjLTMuNi0xMy43IDcuNi0yNiAyMS44LTI2em0yLjktMTM1LjJjNC03LjkgMTMuNi0xMS4xIDIxLjUtNy4ybDY0IDMyYzUuNCAyLjcgOC44IDguMyA4LjggMTQuM3MtMy40IDExLjYtOC44IDE0LjNsLTY0IDMyYy03LjkgNC0xNy41IC43LTIxLjUtNy4ycy0uNy0xNy41IDcuMi0yMS41TDE3MS45IDE5MmwtMzUuNC0xNy43Yy03LjktNC0xMS4xLTEzLjYtNy4yLTIxLjV6bTI0Ni4yIDIxLjVMMzQwLjIgMTkybDM1LjQgMTcuN2M3LjkgNCAxMS4xIDEzLjYgNy4yIDIxLjVzLTEzLjYgMTEuMS0yMS41IDcuMmwtNjQtMzJjLTUuNC0yLjctOC44LTguMy04LjgtMTQuM3MzLjQtMTEuNiA4LjgtMTQuM2w2NC0zMmM3LjktNCAxNy41LS43IDIxLjUgNy4ycy43IDE3LjUtNy4yIDIxLjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-laugh-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-laugh-squint.svg)
  */
 const FaceLaughSquint: typeof Icon = x => (
     <Icon {...x}>

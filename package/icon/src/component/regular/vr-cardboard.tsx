@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vr-cardboard` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vr-cardboard?s=regular vr-cardboard}
- * @preview ![vr-cardboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYwIDExMkw4MCAxMTJjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMjI0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDExMC42IDBjMTIuMSAwIDIzLjItNi44IDI4LjYtMTcuN2wzNC43LTY5LjVDMjY2LjQgMjg3LjggMjkyIDI3MiAzMjAgMjcyczUzLjYgMTUuOCA2Ni4xIDQwLjhsMzQuNyA2OS41YzUuNCAxMC44IDE2LjUgMTcuNyAyOC42IDE3LjdMNTYwIDQwMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTIyNGMwLTE3LjctMTQuMy0zMi0zMi0zMnpNODAgNjRsNDgwIDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCAyMjRjMCA0NC4yLTM1LjggODAtODAgODBsLTExMC42IDBjLTMwLjMgMC01OC0xNy4xLTcxLjYtNDQuMmwtMzQuNy02OS41Yy00LjQtOC44LTEzLjQtMTQuMy0yMy4yLTE0LjNzLTE4LjggNS41LTIzLjIgMTQuM2wtMzQuNyA2OS41Yy0xMy42IDI3LjEtNDEuMyA0NC4yLTcxLjYgNDQuMkw4MCA0NDhjLTQ0LjIgMC04MC0zNS44LTgwLTgwTDAgMTQ0QzAgOTkuOCAzNS44IDY0IDgwIDY0ek05NiAyNDBhNjQgNjQgMCAxIDEgMTI4IDBBNjQgNjQgMCAxIDEgOTYgMjQwem0zODQtNjRhNjQgNjQgMCAxIDEgMCAxMjggNjQgNjQgMCAxIDEgMC0xMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![vr-cardboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/vr-cardboard.svg)
  */
 const VrCardboard: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

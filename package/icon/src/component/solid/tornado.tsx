@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tornado` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tornado?s=solid tornado}
- * @preview ![tornado](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMkwwIDQ1LjZDMCA2Mi43IDEuNyA3OS42IDUgOTZsMzUyLjggMGMzLjItNi45IDcuNS0xMy4zIDEzLTE4LjhsMzguNi0zOC42YzQuMi00LjIgNi42LTEwIDYuNi0xNkM0MTYgMTAuMSA0MDUuOSAwIDM5My40IDBMMzIgMEMxNC4zIDAgMCAxNC4zIDAgMzJ6bTM1Mi4yIDk2TDEzLjYgMTI4YzEyLjIgMzUuOSAzMi4zIDY4LjcgNTguOCA5Nkw0MTIgMjI0bC00Ny4yLTYyLjljLTcuMy05LjctMTEuNi0yMS4yLTEyLjYtMzMuMXptLTIyNiAxMzguMmwxMTYuNCA2OC41YzguMiA0LjggMTUuOCAxMC43IDIyLjUgMTcuM0w0NDUgMzUyYzItOS44IDMtMTkuOSAzLTMwLjFjMC0yMy01LjMtNDUuNS0xNS4zLTY1LjlsLTMyMi41IDBjNS4yIDMuNiAxMC41IDcgMTYgMTAuMnpNMjg4IDM4NGMxMC4zIDIxLjQgMTMuOCA0NS41IDkuOSA2OWwtNS45IDM1LjdjLTIgMTIuMiA3LjQgMjMuNCAxOS44IDIzLjRjNS4zIDAgMTAuNC0yLjEgMTQuMi01LjlsNzguMi03OC4yYzEyLjgtMTIuOCAyMy4xLTI3LjcgMzAuNC00My45TDI4OCAzODR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tornado](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tornado.svg)
  */
 const Tornado: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

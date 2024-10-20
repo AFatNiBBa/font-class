@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-left-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left-up?s=sharp-regular turn-left-up}
- * @preview ![turn-left-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY0IDMyMGwwIDQ4IDQ4IDAgMjQgMCA0OCAwIDAgNDggMCA0OCAwIDQ4LTQ4IDAtMTY4IDAtNDggMCAwLTQ4IDAtMjA4IDAtNDgtNDAgMC04IDAtNDAgMCAwLTQ4TDE1OC4xIDMzLjkgMTkyIDBsMzMuOSAzMy45TDM1MiAxNjBsMCA0OC00MCAwLTggMC00MCAwIDAgNDggMCA2NHptMjAuMS0xNjBMMTkyIDY3LjkgOTkuOSAxNjBsMjAuMSAwIDQ4IDAgMCA0OCAwIDI1NiAxNjggMCAwLTQ4LTcyIDAtNDggMCAwLTQ4IDAtMTYwIDAtNDggNDggMCAyMC4xIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![turn-left-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/turn-left-up.svg)
  */
 const TurnLeftUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

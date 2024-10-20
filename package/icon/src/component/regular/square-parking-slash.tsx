@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-parking-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-parking-slash?s=regular square-parking-slash}
- * @preview ![square-parking-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN2wtODYuOC02OEw1NDQgOTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMMTYwIDMyYy0yMS42IDAtNDAuNyAxMC43LTUyLjMgMjcuMUwzOC44IDUuMXpNMTQ1LjcgODguOWMyLjYtNS4zIDguMS04LjkgMTQuMy04LjlsMzIwIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMjY3LjVMNDA4LjYgMjk1YzE5LjMtMTcuNiAzMS40LTQyLjkgMzEuNC03MWMwLTUzLTQzLTk2LTk2LTk2bC04MCAwYy0xNi41IDAtMzAuMiAxMi42LTMxLjggMjguN0wxNDUuNyA4OC45ek0zNjkuOCAyNjQuNUwyODAgMTk0LjJsMC0xOC4yIDY0IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhjMCAxNy04LjkgMzItMjIuMiA0MC41ek00MjYuNSA0MzJMMTYwIDQzMmMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjA2LjVMOTYgMTcxLjYgOTYgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDMyMCAwYzIuMyAwIDQuNi0uMSA2LjktLjRMNDI2LjUgNDMyek0yMzIgMjc4LjhsMCAxNy4yIDAgNjRjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTggMC0zMiAwLTMuNC00OC0zNy44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-parking-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-parking-slash.svg)
  */
 const SquareParkingSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `walkie-talkie` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/walkie-talkie?s=solid walkie-talkie}
- * @preview ![walkie-talkie](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDI0YzAtMTMuMy0xMC43LTI0LTI0LTI0UzY0IDEwLjcgNjQgMjRsMCA3Mkw0OCA5NkMyMS41IDk2IDAgMTE3LjUgMCAxNDRMMCAzMDAuMWMwIDEyLjcgNS4xIDI0LjkgMTQuMSAzMy45bDMuOSAzLjljOSA5IDE0LjEgMjEuMiAxNC4xIDMzLjlMMzIgNDY0YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDIyNCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtOTIuMWMwLTEyLjcgNS4xLTI0LjkgMTQuMS0zMy45bDMuOS0zLjljOS05IDE0LjEtMjEuMiAxNC4xLTMzLjlMMzg0IDE0NGMwLTI2LjUtMjEuNS00OC00OC00OGwtMTYgMGMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwtMzIgMGMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwtNDggMCAwLTcyem0wIDEzNmwxNjAgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNmwtMTYwIDBjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6bTAgNjRsMTYwIDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTE2MCAwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2em0wIDY0bDE2MCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xNjAgMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![walkie-talkie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/walkie-talkie.svg)
  */
 const WalkieTalkie: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

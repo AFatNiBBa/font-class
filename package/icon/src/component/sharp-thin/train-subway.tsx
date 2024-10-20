@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `train-subway` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-subway?s=sharp-thin train-subway}
- * @preview ![train-subway](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMCA0MTYgNDE2IDAgMC00MTZMMTYgMTZ6TTAgMEwxNiAwIDQzMiAwbDE2IDAgMCAxNiAwIDQxNiAwIDE2LTE2IDAtNjguNyAwIDU4LjMgNTguMyA1LjcgNS43LTIyLjYgMC02NC02NC0yMzMuNCAwLTY0IDY0LTIyLjYgMCA1LjctNS43TDg0LjcgNDQ4IDE2IDQ0OCAwIDQ0OGwwLTE2TDAgMTYgMCAwek0xMTIgMzA0YTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptMTYgMzJhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptMTc2IDBhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHptMzIgMTZhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyek0zNjggODBMMjMyIDgwbDAgMTYwIDEzNiAwIDAtMTYwek04MCA4MGwwIDE2MCAxMzYgMCAwLTE2MEw4MCA4MHptMC0xNmwyODggMCAxNiAwIDAgMTYgMCAxNjAgMCAxNi0xNiAwTDgwIDI1NmwtMTYgMCAwLTE2TDY0IDgwbDAtMTYgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![train-subway](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/train-subway.svg)
  */
 const TrainSubway: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

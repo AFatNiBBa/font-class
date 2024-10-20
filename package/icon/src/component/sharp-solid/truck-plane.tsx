@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-plane` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-plane?s=sharp-solid truck-plane}
- * @preview ![truck-plane](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAwIDBjMzEuNSAwIDU2IDU0LjcgNTYgODYuMWwwIDkuOSAwIDQwNC43LTU2LTE5LjhMODggNTEybDAtNTYgNTYtNDQuNSAwLTgxLjJMMCAzNjhsMC04MCAxNDQtOTUuNSAwLTEwNi41QzE0NCA1NC43IDE2OS40IDAgMjAwIDB6bTg4IDEyOGwzNTIgMCAwIDMyMC0zMiAwIDAgNjQtNjQgMCAwLTY0LTE2MCAwIDAgNjQtNjQgMCAwLTY0LTMyIDAgMC0zMjB6TTU1MiAyNDBsLTE3NiAwLTI0IDY0IDIyNCAwLTI0LTY0em0xNiAxNjBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4ek0zODQgMzc2YTI0IDI0IDAgMSAwIC00OCAwIDI0IDI0IDAgMSAwIDQ4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![truck-plane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-plane.svg)
  */
 const TruckPlane: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

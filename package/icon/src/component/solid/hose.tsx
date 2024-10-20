@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hose` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hose?s=solid hose}
- * @preview ![hose](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDEwNGMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtMi4zIDgwLjItMTEuNUM0MTcuMyA5OCA0MjMuOSAxMDQgNDMyIDEwNGM4LjggMCAxNi03LjIgMTYtMTZsMC00OGMwLTguOC03LjItMTYtMTYtMTZjLTguMSAwLTE0LjcgNi0xNS44IDEzLjdMMzM2IDI2LjNsMC0yLjNjMC0xMy4zLTEwLjctMjQtMjQtMjRzLTI0IDEwLjctMjQgMjRsMCA4MHpNNjQgMTc2YzAtNDQuMiAzNS44LTgwIDgwLTgwbDExMiAwIDAtNjRMMTQ0IDMyQzY0LjUgMzIgMCA5Ni41IDAgMTc2czY0LjUgMTQ0IDE0NCAxNDRsMjcyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJzLTE0LjMtMzItMzItMzJsLTI3MiAwYy00NC4yIDAtODAtMzUuOC04MC04MHpNMzIgMzUyYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDM4NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMyTDMyIDM1MnptMCA5NmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmwzODQgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMkwzMiA0NDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hose](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hose.svg)
  */
 const Hose: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-woozy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-woozy?s=sharp-solid face-woozy}
- * @preview ![face-woozy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTQxMS4zIDM0Ny4zTDM3MiAzODYuNmMtMTMuNyAxMy43LTMyLjMgMjEuNC01MS43IDIxLjRjLTEzLjcgMC0yNy4xLTMuOC0zOC43LTExLjFMMjY3LjQgMzg4Yy0xOC4yLTExLjQtNDAuOC0xMy40LTYwLjctNS40Yy0zMC40IDEyLjItNjQuOCA4LjYtOTItOS42bC0xMS41LTcuNy0xMy4zLTguOSAxNy44LTI2LjYgMTMuMyA4LjkgMTEuNSA3LjdjMTguNSAxMi4zIDQxLjggMTQuNyA2Mi40IDYuNWMyOS40LTExLjggNjIuNy04LjggODkuNiA4bDE0LjIgOC45YzYuNSA0LjEgMTQuMSA2LjIgMjEuOCA2LjJjMTAuOSAwIDIxLjMtNC4zIDI5LTEybDM5LjMtMzkuM0w0MDAgMzEzLjQgNDIyLjYgMzM2bC0xMS4zIDExLjN6TTIxNC4yIDEwNy42bC04LjkgMTMuM2MtMjggNDItNjkuNiA2NC4xLTg4LjMgNzAuM2wtMTUuMiA1LjFMOTEuOCAxNjUuOWwxNS4yLTUuMWMxMy40LTQuNSA0OC41LTIyLjkgNzEuNy01Ny43bDguOS0xMy4zIDI2LjYgMTcuOHptNS41IDk3bDcuOCAzMS0xNS41IDMuOS02NCAxNi0xNS41IDMuOS03LjgtMzEgMTUuNS0zLjkgNjQtMTYgMTUuNS0zLjl6TTMzNiAyNzJjLTE3LjcgMC0zMi0yOC43LTMyLTY0czE0LjMtNjQgMzItNjRzMzIgMjguNyAzMiA2NHMtMTQuMyA2NC0zMiA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-woozy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-woozy.svg)
  */
 const FaceWoozy: typeof Icon = x => (
     <Icon {...x}>

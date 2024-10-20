@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-ad` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-ad?s=light rectangle-ad}
- * @preview ![rectangle-ad](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDNDYuMyA2NCAzMiA3OC4zIDMyIDk2bDAgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDQ0OCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzIwYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDY0ek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDQ0OCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnptMjE0LjYgNzMuNGw3MiAxNjBjMy42IDguMSAwIDE3LjUtOCAyMS4ycy0xNy41IDAtMjEuMi04TDI0Ny4zIDMyMGwtOTQuNSAwLTEwLjIgMjIuNmMtMy42IDguMS0xMy4xIDExLjctMjEuMiA4cy0xMS43LTEzLjEtOC0yMS4ybDcyLTE2MGMyLjYtNS43IDguMy05LjQgMTQuNi05LjRzMTIgMy43IDE0LjYgOS40ek0yMDAgMjE1bC0zMi45IDczIDY1LjcgMEwyMDAgMjE1em0xNzYgMjVhNDAgNDAgMCAxIDAgMCA4MCA0MCA0MCAwIDEgMCAwLTgwem00MC0xOS45bDAtNDQuMWMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2bDAgMTA0IDAgNTZjMCA4LjgtNy4yIDE2LTE2IDE2Yy03LjYgMC0xNC01LjMtMTUuNi0xMi40QzQwNC45IDM0Ny40IDM5MSAzNTIgMzc2IDM1MmMtMzkuOCAwLTcyLTMyLjItNzItNzJzMzIuMi03MiA3Mi03MmMxNC44IDAgMjguNiA0LjUgNDAgMTIuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rectangle-ad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rectangle-ad.svg)
  */
 const RectangleAd: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

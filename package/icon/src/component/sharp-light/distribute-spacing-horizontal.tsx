@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `distribute-spacing-horizontal` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/distribute-spacing-horizontal?s=sharp-light distribute-spacing-horizontal}
- * @preview ![distribute-spacing-horizontal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDBMNDQ4IDBsMCA1MTIgMzIgMEw0ODAgMHpNMzIwIDM4NGwtMTI4IDAgMC0yNTYgMTI4IDAgMCAyNTZ6bTMyLTI1NmwwLTMyLTMyIDBMMTkyIDk2bC0zMiAwIDAgMzIgMCAyNTYgMCAzMiAzMiAwIDEyOCAwIDMyIDAgMC0zMiAwLTI1NnpNNjQgNTEyTDY0IDAgMzIgMGwwIDUxMiAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![distribute-spacing-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/distribute-spacing-horizontal.svg)
  */
 const DistributeSpacingHorizontal: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bridge-lock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-lock?s=sharp-thin bridge-lock}
- * @preview ![bridge-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMzJsOCAwIDU2MCAwIDggMCAwIDE2LTggMC04MCAwIDAgOTYgODAgMCA4IDAgMCAxNi04IDAtNzIgMEw0MCAxNjBsLTggMCAwLTE2IDggMCA4MCAwIDAtOTZMNDAgNDhsLTggMCAwLTE2ek0zODQgMjg4bDAgMjNjLTEyLTIzLjItMzYuMS0zOS02NC0zOWMtMzkuOCAwLTcyIDMyLjItNzIgNzJsMCAxMjggMCA4LTggMC05NiAwLTggMCAwLTggMC0xMjhjMC0zOS44LTMyLjItNzItNzItNzJsLTI0IDAtOCAwIDAtMTYgOCAwIDI0IDBjNDguNiAwIDg4IDM5LjQgODggODhsMCAxMjAgODAgMCAwLTEyMGMwLTQ4LjYgMzkuNC04OCA4OC04OGMyNS4yIDAgNDggMTAuNiA2NCAyNy42bDAgNC40em04LTI0MGwwIDk2IDExMiAwIDAtOTZMMzkyIDQ4em0tMTYgOTZsMC05NkwyNjQgNDhsMCA5NiAxMTIgMHpNMTM2IDQ4bDAgOTYgMTEyIDAgMC05NkwxMzYgNDh6TTUyOCAyMDhjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgNjQgOTYgMCAwLTY0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4em0tNjQgNDhjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NGwwIDY0IDMyIDAgMTYgMCAwIDE2IDAgMTYwIDAgMTYtMTYgMC0xOTIgMC0xNiAwIDAtMTYgMC0xNjAgMC0xNiAxNiAwIDMyIDAgMC02NHptLTMyIDgwbDAgMTYwIDE5MiAwIDAtMTYwLTMyIDAtMTYgMC05NiAwLTE2IDAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bridge-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bridge-lock.svg)
  */
 const BridgeLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

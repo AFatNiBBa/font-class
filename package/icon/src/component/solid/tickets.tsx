@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tickets` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets?s=solid tickets}
- * @preview ![tickets](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgOTZsMCA0OGMwIDguOCA3LjQgMTUuNyAxNS43IDE4LjZDMTMwLjUgMTY5LjEgMTQ0IDE4NyAxNDQgMjA4cy0xMy41IDM4LjktMzIuMyA0NS40QzEwMy40IDI1Ni4zIDk2IDI2My4yIDk2IDI3MmwwIDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDQxNiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtNDhjMC04LjgtNy40LTE1LjctMTUuNy0xOC42QzYwNS41IDI0Ni45IDU5MiAyMjkgNTkyIDIwOHMxMy41LTM4LjkgMzIuMy00NS40YzguMy0yLjkgMTUuNy05LjggMTUuNy0xOC42bDAtNDhjMC0zNS4zLTI4LjctNjQtNjQtNjRMMTYwIDMyYy0zNS4zIDAtNjQgMjguNy02NCA2NHptNDE2IDMybC0yODggMCAwIDE2MCAyODggMCAwLTE2MHpNMjI0IDk2bDI4OCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTYwYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0yODggMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xNjBjMC0xNy43IDE0LjMtMzIgMzItMzJ6TTQ4IDEyMGMwLTEzLjMtMTAuNy0yNC0yNC0yNFMwIDEwNi43IDAgMTIwTDAgMzYwYzAgNjYuMyA1My43IDEyMCAxMjAgMTIwbDQwMCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC00MDAgMGMtMzkuOCAwLTcyLTMyLjItNzItNzJsMC0yNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tickets](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tickets.svg)
  */
 const Tickets: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-nodes` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-nodes?s=regular circle-nodes}
- * @preview ![circle-nodes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDgwYTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6bS0yOS45IDUwLjZjNi44IDguMyAxNS4yIDE1LjIgMjQuNyAyMC4yTDMyNiAzNTIuNmMtMTEuNSAxLjQtMjIuMiA1LjMtMzEuNyAxMS4xTDE1My4zIDI0MC4yYzQuMy05LjkgNi43LTIwLjcgNi43LTMyLjJjMC0yLS4xLTQuMS0uMi02LjFsMTc4LjMtNzEuM3pNNDEwIDE1OS40YzM5LjUtNC45IDcwLTM4LjYgNzAtNzkuNGMwLTQ0LjItMzUuOC04MC04MC04MHMtODAgMzUuOC04MCA4MGMwIDIgLjEgNC4xIC4yIDYuMUwxNDEuOSAxNTcuNEMxMjcuMyAxMzkuNCAxMDUgMTI4IDgwIDEyOGMtNDQuMiAwLTgwIDM1LjgtODAgODBzMzUuOCA4MCA4MCA4MGMxNS4zIDAgMjkuNS00LjMgNDEuNi0xMS43TDI2Mi43IDM5OS44Yy00LjMgOS45LTYuNyAyMC43LTYuNyAzMi4yYzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBjMC0zMC43LTE3LjMtNTcuNC00Mi43LTcwLjhMNDEwIDE1OS40ek0zMDQgNDMyYTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6TTgwIDE3NmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-nodes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-nodes.svg)
  */
 const CircleNodes: typeof Icon = x => (
     <Icon {...x}>

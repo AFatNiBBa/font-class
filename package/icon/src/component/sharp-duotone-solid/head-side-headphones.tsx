@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `head-side-headphones` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-headphones?s=sharp-duotone-solid head-side-headphones}
- * @preview ![head-side-headphones](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0yMjQuMyAwQzEwMC40IDAgMCAxMDAuNCAwIDIyNC4zYzAgNTguNyAyMyAxMTUgNjQgMTU2LjlMNjQgNDgwbDAgMzIgMzIgMCAxOTIgMCAzMiAwIDAtMzIgMC0zMiA5NiAwIDMyIDAgMC0zMiAwLTk2IDMyIDAgMzIgMCAwLTMyIDAtMTYgMC0xMS4yLTctOC44LTU3LjMtNzEuN0M0NDEuNiA3OS43IDM1OC4xIDAgMjU2IDBMMjI0LjMgMHptMCAwTDI1NiAwbDAgMzIgMCA3NC44YzM3LjggMTggNjQgNTYuNSA2NCAxMDEuMmMwIDYxLjktNTAuMSAxMTItMTEyIDExMnMtMTEyLTUwLjEtMTEyLTExMmMwLTQ0LjcgMjYuMi04My4yIDY0LTEwMS4yTDE2MCAzMmwwLTIyLjZDMTgwLjQgMy4zIDIwMiAwIDIyNC4zIDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yMjQuMyAwTDI1NiAwbDAgMzIgMCA3NC44YzM3LjggMTggNjQgNTYuNSA2NCAxMDEuMmMwIDYxLjktNTAuMSAxMTItMTEyIDExMnMtMTEyLTUwLjEtMTEyLTExMmMwLTQ0LjcgMjYuMi04My4yIDY0LTEwMS4yTDE2MCAzMmwwLTIyLjZDMTgwLjQgMy4zIDIwMiAwIDIyNC4zIDB6TTI3MiAyMDhhNjQgNjQgMCAxIDAgLTEyOCAwIDY0IDY0IDAgMSAwIDEyOCAwem0tOTYgMGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![head-side-headphones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/head-side-headphones.svg)
  */
 const HeadSideHeadphones: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M224.3 0C100.4 0 0 100.4 0 224.3c0 58.7 23 115 64 156.9L64 480l0 32 32 0 192 0 32 0 0-32 0-32 96 0 32 0 0-32 0-96 32 0 32 0 0-32 0-16 0-11.2-7-8.8-57.3-71.7C441.6 79.7 358.1 0 256 0L224.3 0zm0 0L256 0l0 32 0 74.8c37.8 18 64 56.5 64 101.2c0 61.9-50.1 112-112 112s-112-50.1-112-112c0-44.7 26.2-83.2 64-101.2L160 32l0-22.6C180.4 3.3 202 0 224.3 0z" />
-            <path d="M224.3 0L256 0l0 32 0 74.8c37.8 18 64 56.5 64 101.2c0 61.9-50.1 112-112 112s-112-50.1-112-112c0-44.7 26.2-83.2 64-101.2L160 32l0-22.6C180.4 3.3 202 0 224.3 0zM272 208a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-96 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
+        <path d="M224.3 0L256 0l0 32 0 74.8c37.8 18 64 56.5 64 101.2c0 61.9-50.1 112-112 112s-112-50.1-112-112c0-44.7 26.2-83.2 64-101.2L160 32l0-22.6C180.4 3.3 202 0 224.3 0zM272 208a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-96 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
     </Icon>
 );
 

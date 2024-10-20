@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toothbrush` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toothbrush?s=sharp-regular toothbrush}
- * @preview ![toothbrush](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTYwYzAtOC44IDcuMi0xNiAxNi0xNmwyMjQgMGMxNi42IDAgMzMuNC0zLjcgNDguMy0xMy40YzE1LTkuOCAyNC4zLTIzLjEgMjkuOC0zNS44YzEtMi4yIDEuOC00LjUgMi42LTYuN2M0LjkgMi4xIDkuNCA0LjUgMTMuMiA3LjJjMTIgOC4zIDE4IDE4LjUgMTggMzIuOGMwIDI2LjUtMjEuNSA0OC00OCA0OEw2NCAxNzZsLTE2IDAgMC0xNnpNMzc2IDM5LjVjLTE1LjQtNS0zMS45LTcuNS00OC03LjVjMCAzMC44LTIuMyA2NC00MCA2NEw2NCA5NkMyOC43IDk2IDAgMTI0LjcgMCAxNjBsMCAxNiAwIDQ4IDQ4IDAgMTYgMCAyODggMGM1MyAwIDk2LTQzIDk2LTk2YzAtNDYuNC0zMi41LTc1LjctNzItODguNXpNODAgMjgwbDAtMjQtNDggMCAwIDI0IDAgMTUyLTggMEwwIDQzMmwwIDQ4IDI0IDAgMzIgMCA4MCAwIDgwIDAgODAgMCA4MCAwIDE3NiAwIDI0IDAgMC00OC0yNCAwLTE1MiAwIDAtMTUyIDAtMjQtNDggMCAwIDI0IDAgMTUyLTMyIDAgMC0xNTIgMC0yNC00OCAwIDAgMjQgMCAxNTItMzIgMCAwLTE1MiAwLTI0LTQ4IDAgMCAyNCAwIDE1Mi0zMiAwIDAtMTUyIDAtMjQtNDggMCAwIDI0IDAgMTUyLTMyIDAgMC0xNTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![toothbrush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/toothbrush.svg)
  */
 const Toothbrush: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

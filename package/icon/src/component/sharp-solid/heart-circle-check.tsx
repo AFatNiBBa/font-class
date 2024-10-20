@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `heart-circle-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-check?s=sharp-solid heart-circle-check}
- * @preview ![heart-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjg4TDM5LjggMjYzLjhDMTQuMyAyMzguMyAwIDIwMy44IDAgMTY3LjhDMCA5Mi44IDYwLjggMzIgMTM1LjggMzJjMzYgMCA3MC41IDE0LjMgOTYgMzkuOEwyNTYgOTZsMjQuMi0yNC4yYzI1LjUtMjUuNSA2MC0zOS44IDk2LTM5LjhDNDUxLjIgMzIgNTEyIDkyLjggNTEyIDE2Ny44YzAgMTMuOC0yLjEgMjcuNC02LjIgNDAuNEM0ODMuNCAxOTcuOCA0NTguNCAxOTIgNDMyIDE5MmMtOTcuMiAwLTE3NiA3OC44LTE3NiAxNzZjMCAzMi4yIDguNiA2Mi4zIDIzLjcgODguM0wyNTYgNDgwIDY0IDI4OHptMjI0IDgwYTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTIyMi42LTMyTDQ4OCAzMTMuNGwtMTEuMyAxMS4zTDQxNiAzODUuNGwtMjguNy0yOC43TDM3NiAzNDUuNCAzNTMuNCAzNjhsMTEuMyAxMS4zIDQwIDQwTDQxNiA0MzAuNmwxMS4zLTExLjMgNzItNzJMNTEwLjYgMzM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![heart-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heart-circle-check.svg)
  */
 const HeartCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

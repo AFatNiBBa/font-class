@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `octagon` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon?s=duotone octagon}
- * @preview ![octagon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xOTEuNSAuMWMtMTkuMSAwLTM3LjQgNy42LTUwLjkgMjEuMUwyMS4yIDE0MC42QzcuNyAxNTQuMSAuMSAxNzIuNCAuMSAxOTEuNWwwIDEyOWMwIDE5LjEgNy42IDM3LjQgMjEuMSA1MC45TDE0MC42IDQ5MC44YzEzLjUgMTMuNSAzMS44IDIxLjEgNTAuOSAyMS4xbDEyOSAwYzE5LjEgMCAzNy40LTcuNiA1MC45LTIxLjFMNDkwLjggMzcxLjRjMTMuNS0xMy41IDIxLjEtMzEuOCAyMS4xLTUwLjlsMC0xMjljMC0xOS4xLTcuNi0zNy40LTIxLjEtNTAuOUwzNzEuNCAyMS4yQzM1Ny45IDcuNyAzMzkuNiAuMSAzMjAuNSAuMWwtMTI5IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9IiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![octagon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/octagon.svg)
  */
 const Octagon: typeof Icon = x => (
     <Icon {...x}>

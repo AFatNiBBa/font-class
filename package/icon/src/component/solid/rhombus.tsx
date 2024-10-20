@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rhombus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rhombus?s=solid rhombus}
- * @preview ![rhombus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU0LjQgMTQuMUMyNDYuOCA1LjEgMjM1LjcgMCAyMjQgMHMtMjIuOCA1LjEtMzAuNCAxNC4xbC0xODQgMjE2Qy0zLjIgMjQ1LTMuMiAyNjcgOS42IDI4MS45bDE4NCAyMTZjNy42IDguOSAxOC43IDE0LjEgMzAuNCAxNC4xczIyLjgtNS4xIDMwLjQtMTQuMWwxODQtMjE2YzEyLjctMTQuOSAxMi43LTM2LjkgMC01MS45bC0xODQtMjE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rhombus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/rhombus.svg)
  */
 const Rhombus: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

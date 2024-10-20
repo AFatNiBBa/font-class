@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `yin-yang` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/yin-yang?s=light yin-yang}
- * @preview ![yin-yang](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NmMwIDEyMy43LTEwMC4zIDIyNC0yMjQgMjI0Yy01Ny40IDAtMTA0LTQ2LjYtMTA0LTEwNHM0Ni42LTEwNCAxMDQtMTA0Yzc1LjEgMCAxMzYtNjAuOSAxMzYtMTM2YzAtMjYuNS03LjYtNTEuMi0yMC42LTcyQzQzNi41IDEwMy4xIDQ4MCAxNzQuNSA0ODAgMjU2ek0yNTYgMzJjNTcuNCAwIDEwNCA0Ni42IDEwNCAxMDRzLTQ2LjYgMTA0LTEwNCAxMDRjLTc1LjEgMC0xMzYgNjAuOS0xMzYgMTM2YzAgMjYuNSA3LjYgNTEuMiAyMC42IDcyQzc1LjUgNDA4LjkgMzIgMzM3LjUgMzIgMjU2QzMyIDEzMi4zIDEzMi4zIDMyIDI1NiAzMnptMCA0ODBBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem0yNC0xMzZhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHpNMjU2IDE2MGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![yin-yang](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/yin-yang.svg)
  */
 const YinYang: typeof Icon = x => (
     <Icon {...x}>

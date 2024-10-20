@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `thumbtack` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbtack?s=sharp-light thumbtack}
- * @preview ![thumbtack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjgwIDIwOS43bDExLjkgOC43YzIxLjIgMTUuNSAzNi42IDM1LjkgNDYuNiA1NWM1IDkuNSA4LjUgMTguNCAxMC43IDI1LjZjMS4xIDMuNiAxLjggNi43IDIuMyA5Yy4yIDEuMiAuMyAyLjEgLjQgMi44YzAgLjQgLjEgLjYgLjEgLjhsMCAuMmMwIDAgMCAwIDAgLjFjMCAwIDAgMCAwIDBzMCAwIDAgMHMwIDAgMCAwYzAgMCAwIDAgMCAwbDAgOC0xNDQgMCAwLTk2IDAtMTYtMzIgMCAwIDE2IDAgOTZMMzIgMzIwbDAtOHMwIDAgMCAwYzAtNiAzLjItMjIgMTMuNS00MS42YzkuOS0xOC45IDI1LjEtMzguNSA0Ni4yLTUzLjNsMTIuNC04LjcgMS4yLTE1LjFMMTE3LjYgMzJsMTQ4LjcgMCAxMi41IDE2MyAxLjEgMTQuN3pNMjA4IDM1MmwxNDQgMCAzMiAwIDAtMzIgMC04YzAtMjEuMy0yMS4zLTgxLjYtNzMuMi0xMTkuNUwyOTguNSAzMiAzMjAgMzJsMTYgMCAwLTMyTDMyMCAwIDI5NiAwIDg4IDAgNjQgMCA0OCAwbDAgMzIgMTYgMCAyMS41IDBMNzMuMyAxOTFDMjEuMyAyMjcuNSAwIDI4Ni40IDAgMzEybDAgOCAwIDMyIDMyIDAgMTQ0IDAgMCAxNDQgMCAxNiAzMiAwIDAtMTYgMC0xNDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![thumbtack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/thumbtack.svg)
  */
 const Thumbtack: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

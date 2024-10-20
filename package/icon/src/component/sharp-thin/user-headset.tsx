@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-headset` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-headset?s=sharp-thin user-headset}
- * @preview ![user-headset](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTkyYzAtODguNCA3MS42LTE2MCAxNjAtMTYwczE2MCA3MS42IDE2MCAxNjBsMCAxMTItMTEyIDAgMC0zMiAwLTE2LTE2IDAtNjQgMC0xNiAwIDAgMTYgMCAzMiAwIDE2IDE2IDAgMzIgMCAzMiAwIDE2IDAgMTIwIDAgOCAwIDAtOCAwLTEyMGMwLTk3LjItNzguOC0xNzYtMTc2LTE3NlM0OCA5NC44IDQ4IDE5MmwwIDE2IDAgOCAxNiAwIDAtOCAwLTE2ek0yNTYgMzA0bC0zMiAwLTMyIDAgMC0zMiA2NCAwIDAgMzJ6TTU5LjkgMzY4bDMyOC4yIDAgMzguNCAxMjgtNDA1IDBMNTkuOSAzNjh6TTQwMCAzNTJMNDggMzUyIDQuOCA0OTYgMCA1MTJsMTYuNyAwIDQxNC42IDAgMTYuNyAwLTQuOC0xNkw0MDAgMzUyem0tOTYtODEuNmwwIDIxLjVjMjkuMy0yMy41IDQ4LTU5LjUgNDgtOTkuOWMwLTcwLjctNTcuMy0xMjgtMTI4LTEyOFM5NiAxMjEuMyA5NiAxOTJjMCA0MC40IDE4LjcgNzYuNSA0OCA5OS45bDAtMjEuNWMtMTkuOC0yMC4yLTMyLTQ3LjktMzItNzguNGMwLTYxLjkgNTAuMS0xMTIgMTEyLTExMnMxMTIgNTAuMSAxMTIgMTEyYzAgMzAuNS0xMi4yIDU4LjItMzIgNzguNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-headset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-headset.svg)
  */
 const UserHeadset: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

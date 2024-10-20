@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vault` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vault?s=light vault}
- * @preview ![vault](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDNDYuMyAzMiAzMiA0Ni4zIDMyIDY0bDAgMzUyYzAgMTcuNyAxNC4zIDMyIDMyIDMybDQ0OCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMzUyYzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDMyek0wIDY0QzAgMjguNyAyOC43IDAgNjQgMEw1MTIgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDM1MmMwIDM1LjMtMjguNyA2NC02NCA2NGwwIDE2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMTZMOTYgNDgwbDAgMTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0xNmMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA2NHpNMzUyIDI0MEExMjggMTI4IDAgMSAwIDk2IDI0MGExMjggMTI4IDAgMSAwIDI1NiAwek02NCAyNDBhMTYwIDE2MCAwIDEgMSAzMjAgMEExNjAgMTYwIDAgMSAxIDY0IDI0MHptMTYwIDMyYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMC05NmE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHptMjU2IDBhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptMzIgMGMwIDIwLjktMTMuNCAzOC43LTMyIDQ1LjNMNDgwIDMzNmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTExNC43Yy0xOC42LTYuNi0zMi0yNC40LTMyLTQ1LjNjMC0yNi41IDIxLjUtNDggNDgtNDhzNDggMjEuNSA0OCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![vault](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/vault.svg)
  */
 const Vault: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

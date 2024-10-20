@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `eggplant` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eggplant?s=duotone eggplant}
- * @preview ![eggplant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDMzMi43YzAgMS4xIDAgMi4yIDAgMy4zYzEuNCA5NS4zIDc5LjggMTc1LjkgMTc2LjQgMTc2YzE0NS43IC4xIDI1MC4xLTE3NC41IDI5MS4zLTMwNS42QzQ0Ny4xIDIwMSA0MzIgMTgyLjMgNDMyIDE2MGMwLTUuOC00LTEwLjctOS40LTEyLjZjLTEzLjMtNC44LTI1LjQtMTMtMzUuMS0yMi44cy0xOC0yMS45LTIyLjgtMzUuMWMtMi01LjQtNi45LTkuNC0xMi42LTkuNGMtLjcgMC0xLjMgMC0xLjkgMGMtLjYgMC0xLjMtLjEtMS45LS4xYy0xLjMtLjEtMi41LS4yLTMuNy0uNGMtMi40LS40LTQuOC0xLTcuMS0xLjdjLTQuNi0xLjUtOC45LTMuNi0xMi44LTYuNGMtNy44LTUuNS0xMy45LTEzLjItMTcuMy0yMi4yYy0zNC42IDQwLjMtODYuMiA2NS4zLTEzNy4zIDkwLjFDODQuMiAxODAuOSAwIDIyMS43IDAgMzMyLjd6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik01MDUgNDFjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMGwtOSA5TDMyMCAxNmMtOC44IDAtMTYgNy4yLTE2IDE2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4YzUuOCAwIDEwLjcgNCAxMi42IDkuNGM0LjggMTMuMyAxMyAyNS40IDIyLjggMzUuMXMyMS45IDE4IDM1LjEgMjIuOGM1LjQgMiA5LjQgNi45IDkuNCAxMi42YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4YzguOCAwIDE2LTcuMiAxNi0xNmwwLTE0Mi4xIDktOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![eggplant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/eggplant.svg)
  */
 const Eggplant: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 332.7c0 1.1 0 2.2 0 3.3c1.4 95.3 79.8 175.9 176.4 176c145.7 .1 250.1-174.5 291.3-305.6C447.1 201 432 182.3 432 160c0-5.8-4-10.7-9.4-12.6c-13.3-4.8-25.4-13-35.1-22.8s-18-21.9-22.8-35.1c-2-5.4-6.9-9.4-12.6-9.4c-.7 0-1.3 0-1.9 0c-.6 0-1.3-.1-1.9-.1c-1.3-.1-2.5-.2-3.7-.4c-2.4-.4-4.8-1-7.1-1.7c-4.6-1.5-8.9-3.6-12.8-6.4c-7.8-5.5-13.9-13.2-17.3-22.2c-34.6 40.3-86.2 65.3-137.3 90.1C84.2 180.9 0 221.7 0 332.7z" />
-            <path d="M505 41c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-9 9L320 16c-8.8 0-16 7.2-16 16c0 26.5 21.5 48 48 48c5.8 0 10.7 4 12.6 9.4c4.8 13.3 13 25.4 22.8 35.1s21.9 18 35.1 22.8c5.4 2 9.4 6.9 9.4 12.6c0 26.5 21.5 48 48 48c8.8 0 16-7.2 16-16l0-142.1 9-9z" />
+        <path d="M505 41c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-9 9L320 16c-8.8 0-16 7.2-16 16c0 26.5 21.5 48 48 48c5.8 0 10.7 4 12.6 9.4c4.8 13.3 13 25.4 22.8 35.1s21.9 18 35.1 22.8c5.4 2 9.4 6.9 9.4 12.6c0 26.5 21.5 48 48 48c8.8 0 16-7.2 16-16l0-142.1 9-9z" />
     </Icon>
 );
 

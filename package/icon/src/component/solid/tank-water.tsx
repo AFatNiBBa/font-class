@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tank-water` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tank-water?s=solid tank-water}
- * @preview ![tank-water](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg1LjkgOTZsLTIyLTQwLjNMMjUxIDMybDEzMyAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwxMzMgMEwxODQuMSA1NS43IDE2Mi4xIDk2IDY0IDk2bDAgMjAxLjljOC4zLTMgMTYuMi02LjggMjMuMy0xMC44YzYuOS0zLjkgMTMuMS04LjIgMTguOS0xMi43YzEyLjktMTAgMzAuNi0xMCA0My40IDBjNS45IDQuNiAxMiA4LjggMTguOSAxMi43YzE1LjggOSAzNS41IDE2LjggNTUuMiAxNi45bC40IDBjMTkuNiAwIDM5LjMtNy45IDU1LjItMTYuOWM2LjktMy45IDEzLjEtOC4yIDE4LjktMTIuN2MxMi45LTEwIDMwLjYtMTAgNDMuNCAwYzUuOSA0LjYgMTIgOC44IDE5IDEyLjhjNy4xIDQgMTUgNy45IDIzLjQgMTAuOGwwLTIwMi05OC4xIDB6TTE3NSAxMzkuMkwyMTIuMiA3MWMyLjQtNC4zIDYuOS03IDExLjgtN3M5LjUgMi43IDExLjggN0wyNzMgMTM5LjJjNC42IDguNCA3IDE3LjkgNyAyNy41bDAgMS40YzAgMzAuOS0yNS4xIDU2LTU2IDU2cy01Ni0yNS4xLTU2LTU2bDAtMS40YzAtOS42IDIuNC0xOSA3LTI3LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tank-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tank-water.svg)
  */
 const TankWater: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

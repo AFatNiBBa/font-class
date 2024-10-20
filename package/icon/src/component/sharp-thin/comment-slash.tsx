@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-slash?s=sharp-thin comment-slash}
- * @preview ![comment-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1ek00MDkuNCA0MTguM0MzODIgNDI3LjEgMzUxLjggNDMyIDMyMCA0MzJjLTMwIDAtNTguNi00LjQtODUtMTIuNGwtNC42LTEuNC00LjYgMS40TDEwNi4zIDQ1NS40bDI5LjYtNzkgMy42LTkuNi03LjMtNy4zQzk5LjIgMzI2LjMgODAgMjg0LjcgODAgMjQwYzAtMjQuMSA1LjctNDcuNCAxNi4xLTY5TDgzLjIgMTYwLjhDNzAuOCAxODUuMiA2NCAyMTIgNjQgMjQwYzAgNDkuNiAyMS4zIDk1LjEgNTYuOSAxMzAuOEw4Ny4xIDQ2MS4yIDgwIDQ4MGwxOS4zLTUuOCAxMzEuMS0zOS4zYzI3LjkgOC41IDU4LjEgMTMuMSA4OS42IDEzLjFjMzcuMSAwIDcyLjQtNi40IDEwNC4yLTE4bC0xNC45LTExLjd6TTMyMCAzMmMtNDcuNyAwLTkyLjQgMTAuNi0xMzAuNyAyOS4xbDE0IDExQzIzNy42IDU2LjggMjc3LjIgNDggMzIwIDQ4YzEzNS44IDAgMjQwIDg4LjkgMjQwIDE5MmMwIDMyLjUtMTAuNCA2My42LTI4LjggOTFsMTIuNyAxMGMyMC41LTI5LjkgMzIuMS02NC4zIDMyLjEtMTAxQzU3NiAxMjUuMSA0NjEuNCAzMiAzMjAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![comment-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-slash.svg)
  */
 const CommentSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sigma` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sigma?s=sharp-regular sigma}
- * @preview ![sigma](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0ODBsMjQgMCAzMzYgMCAyNCAwIDAtMjQgMC04MCAwLTI0LTQ4IDAgMCAyNCAwIDU2TDgxLjkgNDMyIDI0MSAyNzNsMTctMTctMTctMTdMODEuOSA4MCAzMzYgODBsMCA1NiAwIDI0IDQ4IDAgMC0yNCAwLTgwIDAtMjQtMjQgMEwyNCAzMiAwIDMyIDAgNjUuOWw3IDcgMTgzIDE4M0w3IDQzOWwtNyA3TDAgNDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sigma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sigma.svg)
  */
 const Sigma: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

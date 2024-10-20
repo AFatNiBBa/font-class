@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `2` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/2?s=sharp-regular 2}
- * @preview ![2](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ3LjUgMzJjLTM5LjQgMC03Ny4xIDE1LjYtMTA1IDQzLjVMMTguNyA5OS40bC0xNyAxNyAzMy45IDMzLjkgMTctMTcgMjMuOS0yMy45Qzk1LjQgOTAuNiAxMjAuOSA4MCAxNDcuNSA4MGw3LjMgMGM1MS41IDAgOTMuMiA0MS43IDkzLjIgOTMuMmMwIDI1LjgtMTAuNyA1MC40LTI5LjUgNjhMNy42IDQzOC41IDAgNDQ1LjYgMCA0ODBsMjQgMCAyNzIgMCAyNCAwIDAtNDgtMjQgMEw4NC44IDQzMiAyNTEuMyAyNzYuM2MyOC41LTI2LjcgNDQuNy02NCA0NC43LTEwMy4xQzI5NiA5NS4yIDIzMi44IDMyIDE1NC44IDMybC03LjMgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/2.svg)
  */
 const $2: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

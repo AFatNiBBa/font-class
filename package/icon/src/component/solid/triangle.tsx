@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `triangle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle?s=solid triangle}
- * @preview ![triangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkwLjUgNTEuOEMyODMuMyAzOS41IDI3MC4yIDMyIDI1NiAzMnMtMjcuMyA3LjUtMzQuNSAxOS44bC0yMTYgMzY4Yy03LjMgMTIuNC03LjMgMjcuNy0uMiA0MC4xUzI1LjcgNDgwIDQwIDQ4MGw0MzIgMGMxNC4zIDAgMjcuNi03LjcgMzQuNy0yMC4xczctMjcuOC0uMi00MC4xbC0yMTYtMzY4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/triangle.svg)
  */
 const Triangle: typeof Icon = x => (
     <Icon {...x}>

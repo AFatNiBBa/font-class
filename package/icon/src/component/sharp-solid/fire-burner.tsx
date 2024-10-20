@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fire-burner` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-burner?s=sharp-solid fire-burner}
- * @preview ![fire-burner](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBsNjQgNjQgMzItMzJjNzYuOCA2NCA5NiAxMzMuMyA5NiAxNjBjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBzLTE2MC03MS42LTE2MC0xNjBjMC04OS42IDg1LjMtMTY1LjMgMTI4LTE5MnptOTYgMjQwLjJjMC00OC02NC05Ni02NC05NnMtNjQgNDgtNjQgOTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NHpNMzIgMjU2bDMyIDAgMzIgMCAzMiAwIDAgNjQtMzIgMCAwIDY0IDQ0OCAwIDAtNjQtMzIgMCAwLTY0IDMyIDAgMzIgMCAzMiAwIDAgMzIgMCA5NiAzMiAwIDAgMTI4TDAgNTEyIDAgMzg0bDMyIDAgMC05NiAwLTMyek0zMjAgNDgwYTMyIDMyIDAgMSAwIDAtNjQgMzIgMzIgMCAxIDAgMCA2NHptMTYwLTMyYTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6TTE5MiA0ODBhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![fire-burner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fire-burner.svg)
  */
 const FireBurner: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

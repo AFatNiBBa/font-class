@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `manhole` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/manhole?s=sharp-regular manhole}
- * @preview ![manhole](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI1NiAxMjhjMTYuNiAwIDMwLjMtMTIuNiAzMS44LTI4LjhDMzYxIDExMy45IDQxNiAxNzguNSA0MTYgMjU2cy01NSAxNDIuMS0xMjguMiAxNTYuOEMyODYuMyAzOTYuNiAyNzIuNiAzODQgMjU2IDM4NHMtMzAuMyAxMi42LTMxLjggMjguOEMxNTEgMzk4LjEgOTYgMzMzLjUgOTYgMjU2czU1LTE0Mi4xIDEyOC4yLTE1Ni44YzEuNiAxNi4yIDE1LjIgMjguOCAzMS44IDI4Ljh6bS04MCA0OGwwIDMyIDMyIDAgMC0zMi0zMiAwem0wIDY0bDAgMzIgMzIgMCAwLTMyLTMyIDB6bTMyIDY0bC0zMiAwIDAgMzIgMzIgMCAwLTMyem02NC0xMjhsLTMyIDAgMCAzMiAzMiAwIDAtMzJ6bS0zMiA2NGwwIDMyIDMyIDAgMC0zMi0zMiAwem0zMiA2NGwtMzIgMCAwIDMyIDMyIDAgMC0zMnptNjQtMTI4bC0zMiAwIDAgMzIgMzIgMCAwLTMyem0tMzIgNjRsMCAzMiAzMiAwIDAtMzItMzIgMHptMzIgNjRsLTMyIDAgMCAzMiAzMiAwIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![manhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/manhole.svg)
  */
 const Manhole: typeof Icon = x => (
     <Icon {...x}>

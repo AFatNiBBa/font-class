@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-breastfeeding` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-breastfeeding?s=solid person-breastfeeding}
- * @preview ![person-breastfeeding](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBhODAgODAgMCAxIDEgMCAxNjBBODAgODAgMCAxIDEgMjI0IDB6TTQzNi44IDM4Mi44TDM3My41IDQ2MmMtMTYuNiAyMC43LTQ2LjggMjQuMS02Ny41IDcuNWMtMTcuNi0xNC4xLTIyLjctMzguMS0xMy41LTU3LjdsLS44LS4xYy0zOC45LTUuNi03NC4zLTI1LjEtOTkuNy01NC44bDAtMzYuOGMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDQ4YzAgLjggMCAxLjYgLjEgMi40bDEwMS40IDUwLjdjMjMuNyAxMS45IDMzLjMgNDAuNyAyMS41IDY0LjRzLTQwLjcgMzMuMy02NC40IDIxLjVMMjcuMiA0MjcuM2MtMS4xLS41LTIuMi0xLjEtMy4zLTEuN2MtNC45LTIuOC05LjItNi40LTEyLjYtMTAuNmMtNC42LTUuNC03LjgtMTEuNy05LjYtMTguNGMtMy4zLTEyLTEuOS0yNS4yIDQuOC0zNi42Yy42LTEuMSAxLjMtMi4yIDItMy4yTDc1LjYgMjU2LjFjMjYuNy00MC4xIDcxLjctNjQuMSAxMTkuOC02NC4xbDc1LjIgMGM0Ni41IDAgOTAuMSAyMi41IDExNy4yIDYwLjNsNTAuNyA3MC45YzIuMiAzIDQgNi4xIDUuNSA5LjRjMi45IDYuNyA0LjMgMTMuOCA0IDIwLjhjLS4zIDEwLjYtNC4yIDIxLTExLjIgMjkuNHpNMzIwIDMzMmE0NCA0NCAwIDEgMCAtODggMCA0NCA0NCAwIDEgMCA4OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-breastfeeding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-breastfeeding.svg)
  */
 const PersonBreastfeeding: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

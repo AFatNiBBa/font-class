@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `staff` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff?s=sharp-solid staff}
- * @preview ![staff](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA2LjMgMEwzMzYgMCA0NjQgMGw0OCAwIDAgNDggMCAxNjAgMCAzNi4yLTM0LjggOS45LTMzLjQgOS42TDQxMy43IDMxN2wtNTIuNi0yOS43LTk2IDI3LjRMMTA1LjkgNDczLjkgNzIgNTA3LjkgNC4xIDQ0MGwzMy45LTMzLjlMOTYgMzQ4LjEgOTYgMjg4bDYwLjEgMCA0OS45LTQ5LjkgOC44LTguOCAxMi0zLjRMNDE2IDE3MS44IDQxNiA5NmwtNTAuMyAwLTIuNyA1LjUtMjEuNSA0Mi45LTg1LjktNDIuOSAyMS41LTQyLjkgMTYtMzJMMzA2LjMgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![staff](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/staff.svg)
  */
 const Staff: typeof Icon = x => (
     <Icon {...x}>

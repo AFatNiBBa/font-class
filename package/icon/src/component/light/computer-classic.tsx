@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `computer-classic` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-classic?s=light computer-classic}
- * @preview ![computer-classic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMyYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzA0YzAgMTcuNy0xNC4zIDMyLTMyIDMyTDY0IDQwMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJMMzIgNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIwIDB6TTY0IDBDMjguNyAwIDAgMjguNyAwIDY0TDAgMzY4YzAgMjMuNyAxMi45IDQ0LjQgMzIgNTUuNEwzMiA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzIwIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC01Ni42YzE5LjEtMTEuMSAzMi0zMS43IDMyLTU1LjRsMC0zMDRjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMHptMCA0MzJsMzIwIDAgMCA0OEw2NCA0ODBsMC00OHpNMzUyIDk2bDAgMTI4TDk2IDIyNCA5NiA5NmwyNTYgMHpNOTYgNjRDNzguMyA2NCA2NCA3OC4zIDY0IDk2bDAgMTI4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDI1NiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTI4YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDk2IDY0ek0yMjQgMzM2YzAgOC44IDcuMiAxNiAxNiAxNmwxMjggMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMTI4IDBjLTguOCAwLTE2IDcuMi0xNiAxNnpNOTYgMzYwYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![computer-classic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/computer-classic.svg)
  */
 const ComputerClassic: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

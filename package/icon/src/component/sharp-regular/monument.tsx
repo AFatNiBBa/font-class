@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `monument` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monument?s=sharp-regular monument}
- * @preview ![monument](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQxLjIgMTE4LjdMOTUuNSA0MzIgNDcgNDMyIDk2IDk2bDYyLjEtNjIuMUwxOTIgMGwzMy45IDMzLjlMMjg4IDk2bDQ5IDMzNi00OC41IDBMMjQyLjggMTE4LjcgMTkyIDY3LjlsLTUwLjggNTAuOHpNMzQ0IDUxMmwtNDggMEw4OCA1MTJsLTQ4IDAtMTYgMEwwIDUxMmwwLTQ4IDI0IDAgMTguMyAwIDQ4LjUgMCAyMDIuMyAwIDQ4LjUgMCAxOC4zIDAgMjQgMCAwIDQ4LTI0IDAtMTYgMHpNMTQ0IDMzNmwwLTQ4IDk2IDAgMCA0OC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![monument](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/monument.svg)
  */
 const Monument: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `border-top-left` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-top-left?s=sharp-regular border-top-left}
- * @preview ![border-top-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0NTZsMCAyNCA0OCAwIDAtMjRMNDggODBsMzc2IDAgMjQgMCAwLTQ4LTI0IDBMMjQgMzIgMCAzMiAwIDU2IDAgNDU2em05Ni00MGwwIDY0IDY0IDAgMC02NC02NCAwem0xOTIgMGwwIDY0IDY0IDAgMC02NC02NCAwem0tOTYgNjRsNjQgMCAwLTY0LTY0IDAgMCA2NHptMTkyLTY0bDAgNjQgNjQgMCAwLTY0LTY0IDB6bTAtMTI4bDY0IDAgMC02NC02NCAwIDAgNjR6bTAgMzJsMCA2NCA2NCAwIDAtNjQtNjQgMHptMC0xMjhsNjQgMCAwLTY0LTY0IDAgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![border-top-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/border-top-left.svg)
  */
 const BorderTopLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

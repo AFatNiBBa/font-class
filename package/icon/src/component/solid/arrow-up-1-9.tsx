@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-1-9` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-1-9?s=solid arrow-up-1-9}
- * @preview ![arrow-up-1-9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDUwLjcgMzhjOC4zIDYgMTMuMyAxNS43IDEzLjMgMjZsMCA5NiAxNiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC00OCAwLTQ4IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMTYgMCAwLTUxLjYtNS45IDJjLTE2LjggNS42LTM0LjktMy41LTQwLjUtMjAuMnMzLjUtMzQuOSAyMC4yLTQwLjVsNDgtMTZjOS44LTMuMyAyMC41LTEuNiAyOC44IDQuNHpNMTYwIDMyYzkgMCAxNy41IDMuOCAyMy42IDEwLjRsODggOTZjMTEuOSAxMyAxMS4xIDMzLjMtMiA0NS4ycy0zMy4zIDExLjEtNDUuMi0yTDE5MiAxNDYuMyAxOTIgNDQ4YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtMzAxLjdMOTUuNiAxODEuNmMtMTEuOSAxMy0zMi4yIDEzLjktNDUuMiAycy0xMy45LTMyLjItMi00NS4ybDg4LTk2QzE0Mi41IDM1LjggMTUxIDMyIDE2MCAzMnpNNDQ1LjcgMzY0LjlBMzIgMzIgMCAxIDAgNDE4LjMgMzA3YTMyIDMyIDAgMSAwIDI3LjQgNTcuOXptLTQwLjcgNTQuOUMzNjkuNiA0MDguNCAzNDQgMzc1LjIgMzQ0IDMzNmMwLTQ4LjYgMzkuNC04OCA4OC04OHM4OCAzOS40IDg4IDg4YzAgMjMuNS03LjUgNDYuMy0yMS41IDY1LjJMNDQ5LjcgNDY3Yy0xMC41IDE0LjItMzAuNiAxNy4yLTQ0LjggNi43cy0xNy4yLTMwLjYtNi43LTQ0LjhsNi44LTkuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-up-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-up-1-9.svg)
  */
 const ArrowUp_1_9: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gramophone` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gramophone?s=sharp-solid gramophone}
- * @preview ![gramophone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA4LjggMi42bDQwLjYgMTAuMiAxLjEgMy4yYzAgMCAwIDAgMCAuMWwuMyAuN2MuMyAuNyAuNyAxLjcgMS4zIDMuMmMxLjIgMi45IDMuMiA3LjMgNiAxMi44YzUuNyAxMS4xIDE0LjggMjcgMjguMiA0NS4xYzI2LjkgMzYuMiA3MS40IDgxLjUgMTQxLjMgMTE2LjhjMTcuMyA4LjcgMzEuNiAyMi45IDQwLjEgNDAuNGM1LjQgMTAuOSA4LjIgMjMgOC4yIDM1bDAgLjMgMCAuM2MwIDQ1LTM2LjUgODEuNC04MS40IDgxLjRMMTg0IDM1MmwtMjQgMCAwLTQ4IDI0IDAgMTEwIDBjMTguNyAwIDMzLjktMTUuMSAzNC0zMy43Yy0uMS01LjQtMS41LTEwLjctNC4xLTE1LjZjLTMuMS00LjktNy43LTcuOC0xMi40LTguNmMtOC43LTEuNC0xOS0yLjYtMzAuOS0zbC0xLjMgMGMtNDcuMS0xLjMtMTE4LjIgOS45LTIwMS4zIDY2LjljLTIgMS4zLTMuOSAyLjctNS45IDQuMUwyOS4yIDMwMy40bDMuNi0xMy41IDcyLTI3MiA0LTE1LjN6TTMyIDQ0OGwwLTY0IDMyMCAwIDAgNjQgMzIgMCAwIDY0LTMyIDBMMzIgNTEyIDAgNTEybDAtNjQgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gramophone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gramophone.svg)
  */
 const Gramophone: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

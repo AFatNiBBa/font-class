@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-import` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-import?s=thin file-import}
- * @preview ![file-import](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQ5NmwtMjU2IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtOTYtMTYgMCAwIDk2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDI1NiAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMjY4LjFjMC0xMi43LTUuMS0yNC45LTE0LjEtMzMuOUwzNjYuMSAxNC4xYy05LTktMjEuMi0xNC4xLTMzLjktMTQuMUwxOTIgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAxOTIgMTYgMCAwLTE5MmMwLTI2LjUgMjEuNS00OCA0OC00OGwxNDAuMSAwYzEuMyAwIDIuNiAuMSAzLjkgLjJMMzM2IDEzNmMwIDIyLjEgMTcuOSA0MCA0MCA0MGwxMTkuOCAwYy4yIDEuMyAuMiAyLjYgLjIgMy45TDQ5NiA0NDhjMCAyNi41LTIxLjUgNDgtNDggNDh6bTQxLjEtMzM2TDM3NiAxNjBjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtMTEzLjFjMSAuOCAxLjkgMS42IDIuNyAyLjRMNDg2LjYgMTU3LjNjLjkgLjkgMS43IDEuOCAyLjQgMi43ek0yNjkuNyAxODYuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMHMtMy4xIDguMiAwIDExLjNMMzU2LjcgMjk2IDggMjk2Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDM0OC43IDAtOTguMyA5OC4zYy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zczguMiAzLjEgMTEuMyAwbDExMi0xMTJjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM2wtMTEyLTExMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-import](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-import.svg)
  */
 const FileImport: typeof Icon = x => (
     <Icon {...x}>

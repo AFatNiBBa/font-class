@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hurricane` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hurricane?s=solid hurricane}
- * @preview ![hurricane](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyMDhDMCAxMDQuNCA3NS43IDE4LjUgMTc0LjkgMi42QzE4NCAxLjIgMTkyIDguNiAxOTIgMTcuOWwwIDYzLjNjMCA4LjQgNi41IDE1LjMgMTQuNyAxNi41QzMwNyAxMTIuNSAzODQgMTk5IDM4NCAzMDMuNGMwIDEwMy42LTc1LjcgMTg5LjUtMTc0LjkgMjA1LjRjLTkuMiAxLjUtMTcuMS01LjktMTcuMS0xNS4ybDAtNjMuM2MwLTguNC02LjUtMTUuMy0xNC43LTE2LjVDNzcgMzk4LjkgMCAzMTIuNCAwIDIwOHptMjg4IDQ4QTk2IDk2IDAgMSAwIDk2IDI1NmE5NiA5NiAwIDEgMCAxOTIgMHptLTk2LTMyYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hurricane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hurricane.svg)
  */
 const Hurricane: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shekel-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shekel-sign?s=thin shekel-sign}
- * @preview ![shekel-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYgMzJDMzMuOSAzMiAxNiA0OS45IDE2IDcybDAgNDAwYzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThMMzIgNzJjMC0xMy4zIDEwLjctMjQgMjQtMjRsMTM2IDBjNDguNiAwIDg4IDM5LjQgODggODhsMCAyMTZjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTIxNmMwLTU3LjQtNDYuNi0xMDQtMTA0LTEwNEw1NiAzMnpNMzI4IDQ4MGM1Ny40IDAgMTA0LTQ2LjYgMTA0LTEwNGwwLTMzNmMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDMzNmMwIDQ4LjYtMzkuNCA4OC04OCA4OGwtMTM2IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0bDAtMjcyYzAtNC40LTMuNi04LTgtOHMtOCAzLjYtOCA4bDAgMjcyYzAgMjIuMSAxNy45IDQwIDQwIDQwbDEzNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shekel-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shekel-sign.svg)
  */
 const ShekelSign: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

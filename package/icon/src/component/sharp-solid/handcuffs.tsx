@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `handcuffs` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handcuffs?s=sharp-solid handcuffs}
- * @preview ![handcuffs](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM0LjkgMTRMMjk4IDIuOWwxMS4xIDYzTDI0NiA3Ny4xIDIzNC45IDE0ek05NiAxNjBsMzQuNyAwTDE2MCAxMzAuNyAxODkuMyAxNjBsMzQuNyAwIDAgNDUuM2M1Ni41IDI0LjcgOTYgODEuMSA5NiAxNDYuN2MwIDg4LjQtNzEuNiAxNjAtMTYwIDE2MFMwIDQ0MC40IDAgMzUyYzAtNjUuNiAzOS41LTEyMiA5Ni0xNDYuN0w5NiAxNjB6bTY0IDI4OGE5NiA5NiAwIDEgMCAwLTE5MiA5NiA5NiAwIDEgMCAwIDE5MnptMTkyLTk2YzAtMjUuOS01LjEtNTAuNS0xNC40LTczLjFjMTYuOC0zMi43IDQ0LjUtNTguOCA3OC40LTczLjZsMC00NS4zIDM0LjcgMEw0ODAgMTMwLjcgNTA5LjMgMTYwbDM0LjcgMCAwIDQ1LjNjNTYuNSAyNC43IDk2IDgxLjEgOTYgMTQ2LjdjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBjLTYyIDAtMTE1LjgtMzUuMy0xNDIuNC04Ni45YzkuMy0yMi41IDE0LjQtNDcuMiAxNC40LTczLjF6bTIyNCAwYTk2IDk2IDAgMSAwIC0xOTIgMCA5NiA5NiAwIDEgMCAxOTIgMHpNMjAxLjQgNDMuN2wzNC45IDUzLjctNTMuNyAzNC45TDE0Ny43IDc4LjZsNTMuNy0zNC45em0yMzcuMiAwbDUzLjcgMzQuOS0zNC45IDUzLjdMNDAzLjcgOTcuNGwzNC45LTUzLjd6TTQwNS4xIDE0TDM5NCA3Ny4xIDMzMC45IDY2IDM0MiAyLjlsNjMgMTEuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![handcuffs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/handcuffs.svg)
  */
 const Handcuffs: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

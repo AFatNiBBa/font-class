@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bracket-curly-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bracket-curly-right?s=sharp-regular bracket-curly-right}
- * @preview ![bracket-curly-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY4IDMybDI0IDAgMCAyNCAwIDEyNi4xIDU3IDU3IDcgNyAwIDE5LjktNyA3LTU3IDU3TDE5MiA0NTZsMCAyNC0yNCAwTDU2IDQ4MGwtMjQgMCAwLTQ4IDI0IDAgODggMCAwLTExMiAwLTkuOSA3LTcgNDctNDctNDctNDctNy03IDAtOS45IDAtMTEyTDU2IDgwIDMyIDgwbDAtNDggMjQgMCAxMTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bracket-curly-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bracket-curly-right.svg)
  */
 const BracketCurlyRight: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

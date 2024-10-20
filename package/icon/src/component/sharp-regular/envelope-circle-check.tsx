@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `envelope-circle-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-circle-check?s=sharp-regular envelope-circle-check}
- * @preview ![envelope-circle-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTUwLjhsMjA4IDE0MyAxMDguMi03NC40Yy0yMS4zIDI0LTM2LjEgNTMuOS00MS43IDg2LjlMMjU2IDM1MiA0OCAyMDlsMCAxOTEgMjg0IDBjNi45IDE3LjUgMTYuNCAzMy43IDI4LjIgNDhMNDggNDQ4IDAgNDQ4bDAtNDhMMCAxNzZsMC02NEwwIDY0bDQ4IDAgNDE2IDAgNDggMCAwIDQ4IDAgNDguN2MtNS4zLS41LTEwLjYtLjctMTYtLjdjLTIxLjYgMC00Mi40IDMuOS02MS41IDExLjFMNDY0IDE1MC44bDAtMzguOEw0OCAxMTJsMCAzOC44ek0zNTIgMzM2YTE0NCAxNDQgMCAxIDEgMjg4IDAgMTQ0IDE0NCAwIDEgMSAtMjg4IDB6bTIyMi42LTMyTDU1MiAyODEuNGwtMTEuMyAxMS4zTDQ4MCAzNTMuNGwtMjguNy0yOC43TDQ0MCAzMTMuNCA0MTcuNCAzMzZsMTEuMyAxMS4zIDQwIDQwTDQ4MCAzOTguNmwxMS4zLTExLjMgNzItNzJMNTc0LjYgMzA0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![envelope-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/envelope-circle-check.svg)
  */
 const EnvelopeCircleCheck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

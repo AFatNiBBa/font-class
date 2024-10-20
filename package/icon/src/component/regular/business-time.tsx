@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `business-time` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/business-time?s=regular business-time}
- * @preview ![business-time](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDU2bDAgNDAgMTYwIDAgMC00MGMwLTQuNC0zLjYtOC04LThMMTg0IDQ4Yy00LjQgMC04IDMuNi04IDh6TTEyOCA5NmwwLTQwYzAtMzAuOSAyNS4xLTU2IDU2LTU2TDMyOCAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2bDAgNDAgNjQgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyLjdjLTUuMy0uNS0xMC42LS43LTE2LS43Yy0xMC45IDAtMjEuNiAxLTMyIDIuOWwwLTM0LjljMC04LjgtNy4yLTE2LTE2LTE2bC04OCAwLTIwOCAwLTg4IDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDk2IDE0NCAwIDE2MCAwIDguMiAwYy0yMS45IDI2LjYtMzYuMiA1OS43LTM5LjUgOTZsLS43IDAtOTYgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xNkw0OCAzMDRsMCAxMTJjMCA4LjggNy4yIDE2IDE2IDE2bDI2OCAwYzYuOSAxNy41IDE2LjQgMzMuNyAyOC4yIDQ4TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCAyODAgMCAxNjBjMC0zNS4zIDI4LjctNjQgNjQtNjRsNjQgMHpNMzUyIDM2OGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0xNDQtODBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDY0YzAgOC44IDcuMiAxNiAxNiAxNmw0OCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0zMiAwIDAtNDhjMC04LjgtNy4yLTE2LTE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![business-time](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/business-time.svg)
  */
 const BusinessTime: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

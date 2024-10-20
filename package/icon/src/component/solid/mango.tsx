@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mango` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mango?s=solid mango}
- * @preview ![mango](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDBsOCAwIDI0IDAgOCAwIDU2IDBjMzkuOCAwIDcyIDMyLjIgNzIgNzJjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTQwIDBjLTMzLjQgMC02Mi44LTE3LTgwLTQyLjlsMCA0OWMzMi4yIDguMyA2Mi42IDI1IDg3LjggNTAuMkM0OTMuMyAxODkuNyA1MTIgMjM4LjkgNTEyIDI4OGMwIDc2LjYtNTcuNSAyMjQtMjI0IDIyNGMtMTQ0IDAtMjQ0LjEtNDMuMy0yNDQuMS00My4zQzEwLjMgNDU3LjYtNy45IDQyMS40IDMuMyAzODcuOUM3LjQgMzc1LjQgMTUgMzY1IDI0LjcgMzU3LjVjMzQuMy0yNS43IDUyLjEtNTcuNiA3MS4yLTkxLjhjMjAuNi0zNi44IDQyLjYtNzYuMyA4OC40LTExMy41QzIyMS43IDExNC43IDI3MC45IDk2IDMyMCA5NmwwLTcyYzAtMTMuMyAxMC43LTI0IDI0LTI0em04OCAzMDRjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZjMCA1My00MyA5Ni05NiA5NmMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmM3MC43IDAgMTI4LTU3LjMgMTI4LTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mango](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mango.svg)
  */
 const Mango: typeof Icon = x => (
     <Icon {...x}>

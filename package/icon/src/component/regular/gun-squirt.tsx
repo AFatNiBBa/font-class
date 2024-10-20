@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gun-squirt` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun-squirt?s=regular gun-squirt}
- * @preview ![gun-squirt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA0IDMyYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgOCAzMjAgMGM0MS44IDAgNzcuNCAyNi43IDkwLjUgNjRsMTMuNSAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgMTZjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTEzLjUgMGMtMTMuMiAzNy4zLTQ4LjcgNjQtOTAuNSA2NGwtMTk5IDAtMTggNzIgNDEgMCAwLTE2YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjRsMCA0MCAwIDQwYzAgMTMuMy0xMC43IDI0LTI0IDI0cy0yNC0xMC43LTI0LTI0bDAtMTYtNTMgMEwxOTkgNDU1LjhDMTk1LjUgNDcwIDE4Mi43IDQ4MCAxNjggNDgwTDY0IDQ4MGMtOS45IDAtMTkuMi00LjUtMjUuMi0xMi4zcy04LjItMTcuOS01LjgtMjcuNUw3OS40IDI1NC42QzM0LjMgMjQ2LjcgMCAyMDcuMyAwIDE2MGMwLTQ3LjYgMzQuNi04Ny4xIDgwLTk0LjdMODAgNTZjMC0xMy4zIDEwLjctMjQgMjQtMjR6bTI0LjUgMjI0bC00NCAxNzYgNzEgMCA0NC0xNzYtNzEgMHpNNDQ4IDIwOGMyNi41IDAgNDgtMjEuNSA0OC00OHMtMjEuNS00OC00OC00OGwtMzQ0IDAtOCAwYy0yNi41IDAtNDggMjEuNS00OCA0OHMyMS41IDQ4IDQ4IDQ4bDExNS41IDAgNDkuNSAwIDE4NyAwek05NiAxNDRsMzUyIDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZMOTYgMTc2Yy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![gun-squirt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gun-squirt.svg)
  */
 const GunSquirt: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pied-piper-pp` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pied-piper-pp?s=brands pied-piper-pp}
- * @preview ![pied-piper-pp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA1LjMgMTc0LjZjMCAyMS4xLTE0LjIgMzguMS0zMS43IDM4LjEtNy4xIDAtMTIuOC0xLjItMTcuMi0zLjd2LTY4YzQuNC0yLjcgMTAuMS00LjIgMTcuMi00LjIgMTcuNSAwIDMxLjcgMTYuOSAzMS43IDM3Ljh6bTUyLjYgNjdjLTcuMSAwLTEyLjggMS41LTE3LjIgNC4ydjY4YzQuNCAyLjUgMTAuMSAzLjcgMTcuMiAzLjcgMTcuNCAwIDMxLjctMTYuOSAzMS43LTM3LjggMC0yMS4xLTE0LjMtMzguMS0zMS43LTM4LjF6TTQ0OCA4MHYzNTJjMCAyNi41LTIxLjUgNDgtNDggNDhINDhjLTI2LjUgMC00OC0yMS41LTQ4LTQ4VjgwYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4aDM1MmMyNi41IDAgNDggMjEuNSA0OCA0OHpNMTg1IDI1NS4xYzQxIDAgNzQuMi0zNS42IDc0LjItNzkuNiAwLTQ0LTMzLjItNzkuNi03NC4yLTc5LjYtMTIgMC0yNC4xIDMuMi0zNC42IDguOGgtNDUuN1YzMTFsNTEuOC0xMC4xdi01MC42YzguNiAzLjEgMTguMSA0LjggMjguNSA0Ljh6bTE1OC40IDI1LjNjMC00NC0zMy4yLTc5LjYtNzMuOS03OS42LTMuMiAwLTYuNC4yLTkuNi43LTMuNyAxMi41LTEwLjEgMjMuOC0xOS4yIDMzLjQtMTMuOCAxNS0zMi4yIDIzLjgtNTEuOCAyNC44VjQxNmw1MS44LTEwLjF2LTUwLjZjOC42IDMuMiAxOC4yIDQuNyAyOC43IDQuNyA0MC44IDAgNzQtMzUuNiA3NC03OS42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pied-piper-pp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pied-piper-pp.svg)
  */
 const PiedPiperPp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

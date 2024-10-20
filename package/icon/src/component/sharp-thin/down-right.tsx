@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `down-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-right?s=sharp-thin down-right}
- * @preview ![down-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMyLjcgMzE1LjNMNTkuMyAzODguNyA0OCA0MDBsMTEuMyAxMS4zTDgwIDQzMmwyNzIgMCAxNiAwIDAtMTYgMC0yNzItMjAuNy0yMC43TDMzNiAxMTJsLTExLjMgMTEuMy03My40IDczLjRMMjQwIDIwOGwtMTEuMy0xMS4zTDEwNy4zIDc1LjMgOTYgNjQgODQuNyA3NS4zIDExLjMgMTQ4LjcgMCAxNjBsMTEuMyAxMS4zTDEzMi43IDI5Mi43IDE0NCAzMDRsLTExLjMgMTEuM3pNMjIuNiAxNjBMOTYgODYuNiAyMjguNyAyMTkuMyAyNDAgMjMwLjZsMTEuMy0xMS4zTDMzNiAxMzQuNmwxNiAxNkwzNTIgNDE2IDg2LjYgNDE2bC0xNi0xNiA4NC43LTg0LjdMMTY2LjYgMzA0bC0xMS4zLTExLjNMMjIuNiAxNjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![down-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/down-right.svg)
  */
 const DownRight: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

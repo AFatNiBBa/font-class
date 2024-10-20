@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paintbrush-fine` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paintbrush-fine?s=light paintbrush-fine}
- * @preview ![paintbrush-fine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTM0LjUgNDEuNGMtMTIuNS0xMi41LTMyLjgtMTIuNS00NS4zIDBMMzI0LjYgMjA2bDQ1LjMgNDUuM0w1MzQuNSA4Ni42YzEyLjUtMTIuNSAxMi41LTMyLjggMC00NS4zek0zMDIgMjI4LjZsLTM2LjYgMzYuNnMwIDAgMCAwTDIyNC42IDMwNmw0NS4zIDQ1LjMgNC42LTQuNnMwIDAgMCAwbDM2LjEtMzYuMSAzNi42LTM2LjZMMzAyIDIyOC42ek0xOTUuOSAzMjIuNWMtNi4zLTEuNi0xMy0yLjUtMTkuOS0yLjVjLTQ0LjIgMC04MCAzNS44LTgwIDgwYzAgMi44IC4xIDUuNiAuNCA4LjNjMS43IDE2LjctMyAzMy42LTEyLjUgNDYuN0M3NC4zIDQ2OC41IDU4IDQ4MCAzNi44IDQ4MEwxNzYgNDgwYzQ0LjIgMCA4MC0zNS44IDgwLTgwYzAtNi45LS45LTEzLjUtMi41LTE5LjlsLTU3LjctNTcuN3pNNTU3LjIgMTA5LjNMMjg2LjMgMzgwLjJjMS4xIDYuNCAxLjcgMTMuMSAxLjcgMTkuOGMwIDYxLjktNTAuMSAxMTItMTEyIDExMkwzMiA1MTJjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsNC44IDBjMTcuNiAwIDI5LjYtMTguOSAyNy44LTM2LjRjLS40LTMuOC0uNi03LjctLjYtMTEuNmMwLTYxLjkgNTAuMS0xMTIgMTEyLTExMmM2LjcgMCAxMy4zIC42IDE5LjcgMS43bDI3MS0yNzFjMjUtMjUgNjUuNS0yNSA5MC41IDBzMjUgNjUuNSAwIDkwLjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![paintbrush-fine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/paintbrush-fine.svg)
  */
 const PaintbrushFine: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

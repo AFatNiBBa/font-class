@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `claw-marks` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/claw-marks?s=solid claw-marks}
- * @preview ![claw-marks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDEuNCA5LjRDNTMuOS0zLjEgNzQuMS0zLjEgODYuNiA5LjRsOTYgOTYgNjQgNjQgMTYwIDE2MCA2NCA2NCA2NCA2NGMxMi41IDEyLjUgMTIuNSAzMi44IDAgNDUuM3MtMzIuOCAxMi41LTQ1LjMgMEw0MzQuNyA0NDggMzg0IDQ0OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC01MC43TDIxMC43IDIyNCAxNjAgMjI0Yy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTUwLjdMNDEuNCA1NC42Yy0xMi41LTEyLjUtMTIuNS0zMi44IDAtNDUuM3ptMCAyMjRjMTIuNS0xMi41IDMyLjgtMTIuNSA0NS4zIDBsNjQgNjQgOTYgOTYgNjQgNjRjMTIuNSAxMi41IDEyLjUgMzIuOCAwIDQ1LjNzLTMyLjggMTIuNS00NS4zIDBMMjEwLjcgNDQ4IDEyOCA0NDhjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtODIuN0w0MS40IDI3OC42Yy0xMi41LTEyLjUtMTIuNS0zMi44IDAtNDUuM3pNMzEwLjYgOS40bDMyIDMyIDY0IDY0IDY0IDY0IDY0IDY0IDMyIDMyYzEyLjUgMTIuNSAxMi41IDMyLjggMCA0NS4zcy0zMi44IDEyLjUtNDUuMyAwTDQ5OC43IDI4OCA0NDggMjg4Yy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTUwLjdMMzcwLjcgMTYwIDMyMCAxNjBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNTAuN0wyNjUuNCA1NC42Yy0xMi41LTEyLjUtMTIuNS0zMi44IDAtNDUuM3MzMi44LTEyLjUgNDUuMyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![claw-marks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/claw-marks.svg)
  */
 const ClawMarks: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

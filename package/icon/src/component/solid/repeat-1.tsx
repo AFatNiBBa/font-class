@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `repeat-1` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/repeat-1?s=solid repeat-1}
- * @preview ![repeat-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjU2Yy0xNy43IDAtMzItMTQuMy0zMi0zMkMwIDEzNS42IDcxLjYgNjQgMTYwIDY0bDE2MCAwIDAtMzJjMC0xMi45IDcuOC0yNC42IDE5LjgtMjkuNnMyNS43LTIuMiAzNC45IDYuOWw2NCA2NGMxMi41IDEyLjUgMTIuNSAzMi44IDAgNDUuM2wtNjQgNjRjLTkuMiA5LjItMjIuOSAxMS45LTM0LjkgNi45cy0xOS44LTE2LjYtMTkuOC0yOS42bDAtMzItMTYwIDBjLTUzIDAtOTYgNDMtOTYgOTZjMCAxNy43LTE0LjMgMzItMzIgMzJ6bTQ0OCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMyYzAgODguNC03MS42IDE2MC0xNjAgMTYwbC0xNjAgMCAwIDMyYzAgMTIuOS03LjggMjQuNi0xOS44IDI5LjZzLTI1LjcgMi4yLTM0LjktNi45bC02NC02NGMtMTIuNS0xMi41LTEyLjUtMzIuOCAwLTQ1LjNsNjQtNjRjOS4yLTkuMiAyMi45LTExLjkgMzQuOS02LjlzMTkuOCAxNi42IDE5LjggMjkuNmwwIDMyIDE2MCAwYzUzIDAgOTYtNDMgOTYtOTZjMC0xNy43IDE0LjMtMzIgMzItMzJ6TTI4OCAyMTZsMCA4MGMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTQ4Yy0xMCAwLTE5LjQtNi40LTIyLjgtMTYuNGMtNC4yLTEyLjYgMi42LTI2LjIgMTUuMi0zMC40bDI0LThjNy4zLTIuNCAxNS40LTEuMiAyMS42IDMuM3MxMCAxMS44IDEwIDE5LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![repeat-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/repeat-1.svg)
  */
 const Repeat_1: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fire-flame` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-flame?s=solid fire-flame}
- * @preview ![fire-flame](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzcyLjUgMjU2LjVsLS43LTEuOUMzMzcuOCAxNjAuOCAyODIgNzYuNSAyMDkuMSA4LjVsLTMuMy0zQzIwMi4xIDIgMTk3LjEgMCAxOTIgMHMtMTAuMSAyLTEzLjggNS41bC0zLjMgM0MxMDIgNzYuNSA0Ni4yIDE2MC44IDEyLjIgMjU0LjZsLS43IDEuOUMzLjkgMjc3LjMgMCAyOTkuNCAwIDMyMS42QzAgNDI2LjcgODYuOCA1MTIgMTkyIDUxMnMxOTItODUuMyAxOTItMTkwLjRjMC0yMi4yLTMuOS00NC4yLTExLjUtNjUuMXpNMTg4LjggMTQ4LjNjMi0yLjcgNS4yLTQuMyA4LjUtNC4zYzUuOSAwIDEwLjcgNC44IDEwLjcgMTAuN2wwIDExLjRjMCA4LjkgMy42IDE3LjQgOS45IDIzLjZsNTEuNSA1MC43QzI5MS41IDI2Mi4yIDMwNCAyOTIgMzA0IDMyM2MwIDYwLjItNDguOCAxMDktMTA5IDEwOWwtMyAwYy02MS45IDAtMTEyLTUwLjEtMTEyLTExMmwwLTguMmMwLTIxLjIgNy44LTQxLjYgMjEuOC01Ny40bDYuOS03LjhjMi4xLTIuNCA1LjEtMy43IDguMy0zLjdjNi4xIDAgMTEgNC45IDExIDExbDAgNDRjMCAyNC4zIDE5LjggNDQgNDQuMSA0NGMyNC4yIDAgNDMuOS0xOS42IDQzLjktNDMuOGMwLTExLjYtNC42LTIyLjgtMTIuOC0zMWwtMTMuMi0xMy4yYy0xNC0xNC0yMS45LTMzLjEtMjEuOS01M2MwLTE2LjIgNS4zLTMyIDE1LTQ0LjlsNS44LTcuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fire-flame](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fire-flame.svg)
  */
 const FireFlame: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

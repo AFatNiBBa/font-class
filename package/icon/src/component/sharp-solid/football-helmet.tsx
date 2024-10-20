@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `football-helmet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/football-helmet?s=sharp-solid football-helmet}
- * @preview ![football-helmet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk0LjIgMjI2LjJMMzQwLjMgMjQ1LjVsMTQgNzQuNUw0OTYgMzIwbDE2IDAgMCAxNiAwIDcyIDAgNzIgMCAxNi0xNiAwLTEyOCAwLTEzLjMgMC0yLjQtMTMuMS0xMy41LTcyTDMyNy43IDM1MiAyOTIgMzUybDcuNyAyMC41YzIuOSA3LjYgNC4zIDE1LjcgNC4zIDIzLjhsMCAxLjNjMCAzNi43LTI5LjcgNjYuNC02Ni40IDY2LjRjLTkgMC0xNy45LTEuOC0yNi4xLTUuNEwxMTIgNDE2bC0zNC45IDBDMzkuMSAzNzMuNSAxNiAzMTcuNSAxNiAyNTZDMTYgMTIzLjUgMTIzLjUgMTYgMjU2IDE2YzEyMi41IDAgMjIzLjUgOTEuNyAyMzguMiAyMTAuMnpNMjU2IDI1NmwyNCA2NCA0MS43IDAtMTMuMi03MC42TDI1NiAyNTZ6bTEwNC4zIDk2bDcuNSA0MEw0ODAgMzkybDAtNDAtMTE5LjcgMHpNNDgwIDQyNGwtMTA2LjIgMCA3LjUgNDAgOTguNyAwIDAtNDB6TTE3NiAzNjBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![football-helmet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/football-helmet.svg)
  */
 const FootballHelmet: typeof Icon = x => (
     <Icon {...x}>

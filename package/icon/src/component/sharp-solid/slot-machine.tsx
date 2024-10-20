@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `slot-machine` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/slot-machine?s=sharp-solid slot-machine}
- * @preview ![slot-machine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDBMNjQgMGwwIDY0IDM4NCAwIDAtNjR6bTY0IDk2TDAgOTYgMCA0MTZsNjQgMCAwIDk2IDM1MiAwIDMyIDAgMTQ0IDAgMzIgMCAwLTMyIDAtMjY4LjJjOS44LTguOCAxNi0yMS42IDE2LTM1LjhjMC0yNi41LTIxLjUtNDgtNDgtNDhzLTQ4IDIxLjUtNDggNDhjMCAxNC4yIDYuMiAyNyAxNiAzNS44TDU2MCA0NDhsLTExMiAwIDAtMzIgNjQgMCAwLTMyMHpNODAgMTc2bDcyIDAgMjQgMCAwIDI0IDAgOCAwIDUuMy0yLjIgNC44TDExOS40IDMzNmwtNTIuOSAwIDMuNy04LjEgNDgtMTAzLjlMODAgMjI0bC0yNCAwIDAtNDggMjQgMHpNMjYzLjQgMzM2bC01Mi45IDAgMy43LTguMSA0OC0xMDMuOUwyMjQgMjI0bC0yNCAwIDAtNDggMjQgMCA3MiAwIDI0IDAgMCAyNCAwIDggMCA1LjMtMi4yIDQuOEwyNjMuNCAzMzZ6bTE0NCAwbC01Mi45IDAgMy43LTguMSA0OC0xMDMuOUwzNjggMjI0bC0yNCAwIDAtNDggMjQgMCA3MiAwIDI0IDAgMCAyNCAwIDggMCA1LjMtMi4yIDQuOEw0MDcuNCAzMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![slot-machine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/slot-machine.svg)
  */
 const SlotMachine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

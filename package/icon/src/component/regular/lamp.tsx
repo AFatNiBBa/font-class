@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lamp` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp?s=regular lamp}
- * @preview ![lamp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMi41IDIxMS43bDgwLTE5MkM4Ny40IDcuOCA5OS4xIDAgMTEyIDBMMzM2IDBjMTIuOSAwIDI0LjYgNy44IDI5LjUgMTkuN2w4MCAxOTJjNC4xIDkuOSAzIDIxLjItMi45IDMwLjFzLTE1LjkgMTQuMi0yNi42IDE0LjJMMzIgMjU2Yy0xMC43IDAtMjAuNy01LjMtMjYuNi0xNC4ycy03LTIwLjItMi45LTMwLjF6TTU2IDIwOGwzMzYgMEwzMjUuMyA0OCAxMjIuNyA0OCA1NiAyMDh6bTg4IDEwNS40bDAtMjUuNCA0OCAwIDAgMjUuNGMwIDE3LTYuNyAzMi0xNi4yIDQyLjlDMTY1LjcgMzY4IDE0NCAzOTguMSAxNDQgNDMyYzAgMTIuMiAzLjcgMjMuMSA4LjQgMzEuOWMuNiAuMSAxLjMgLjEgMi4xIC4xbDEzOSAwYy44IDAgMS41LS4xIDIuMS0uMWM0LjYtOC44IDguNC0xOS43IDguNC0zMS45YzAtMzIuMy0yMi4xLTYzLjgtMzIuNi03Ni40Yy05LjItMTAuOS0xNS40LTI1LjYtMTUuNC00MmwwLTI1LjYgNDggMCAwIDI1LjZjMCA0LjEgMS42IDggNC4yIDExLjJjMTEuNyAxNCA0My44IDU2LjkgNDMuOCAxMDcuMmMwIDI0LjQtOC4zIDQ0LjYtMTYuNCA1OC43Yy04LjUgMTQuNy0yNS4yIDIxLjMtNDIuMSAyMS4zbC0xMzkgMGMtMTcgMC0zMy42LTYuNi00Mi4xLTIxLjNDMTA0LjMgNDc2LjYgOTYgNDU2LjQgOTYgNDMyYzAtNTEuOSAzMS42LTkzLjQgNDMuNS0xMDcuMWMyLjgtMy4yIDQuNS03LjMgNC41LTExLjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lamp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/lamp.svg)
  */
 const Lamp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

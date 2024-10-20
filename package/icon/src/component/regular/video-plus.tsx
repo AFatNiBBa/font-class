@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `video-plus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-plus?s=regular video-plus}
- * @preview ![video-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDExMmM4LjggMCAxNiA3LjIgMTYgMTZsMCAyNTZjMCA4LjgtNy4yIDE2LTE2IDE2TDY0IDQwMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjU2YzAtOC44IDcuMi0xNiAxNi0xNmwyNTYgMHpNNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhMMCAzODRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMyAwLTE5MCAwLTMzYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDY0em00NjQgODQuNmwwIDIxNC43TDQxNiAzMTNsMCA1Mi42IDEwNC4zIDQ2LjljNS4xIDIuMyAxMC42IDMuNSAxNi4yIDMuNWMyMS44IDAgMzkuNS0xNy43IDM5LjUtMzkuNWwwLTI0MWMwLTIxLjgtMTcuNy0zOS41LTM5LjUtMzkuNWMtNS42IDAtMTEuMSAxLjItMTYuMiAzLjVMNDE2IDE0Ni40bDAgNTIuNiAxMTItNTAuNHpNMjE2IDE4NGMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDQ4LTQ4IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNDggMCAwIDQ4YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjRsMC00OCA0OCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC00OCAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![video-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/video-plus.svg)
  */
 const VideoPlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

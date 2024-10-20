@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `oven` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oven?s=sharp-thin oven}
- * @preview ![oven](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMCAxNDQgNDE2IDAgMC0xNDRMMTYgMTZ6TTAgMTY4TDAgMTYgMCAwIDE2IDAgNDMyIDBsMTYgMCAwIDE2IDAgMTUyIDAgMzI4IDAgMTYtMTYgMEwxNiA1MTIgMCA1MTJsMC0xNkwwIDE2OHptNDMyIDhMMTYgMTc2bDAgMzIwIDQxNiAwIDAtMzIwek04MCA4MGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bTgwIDE2YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6TTI3MiA4MGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bTgwIDE2YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6TTgwIDI0MGwwIDE5MiAyODggMCAwLTE5Mkw4MCAyNDB6TTY0IDIyNGwxNiAwIDI4OCAwIDE2IDAgMCAxNiAwIDE5MiAwIDE2LTE2IDBMODAgNDQ4bC0xNiAwIDAtMTYgMC0xOTIgMC0xNnptNjQgNjRsOCAwIDE3NiAwIDggMCAwIDE2LTggMC0xNzYgMC04IDAgMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![oven](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/oven.svg)
  */
 const Oven: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sunrise` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunrise?s=sharp-light sunrise}
- * @preview ![sunrise](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDEuNEwyNzYuNyAxMi43bC05NiA5NkwxNjkuNCAxMjAgMTkyIDE0Mi42bDExLjMtMTEuM0wyNzIgNjIuNiAyNzIgMjA4bDAgMTYgMzIgMCAwLTE2IDAtMTQ1LjQgNjguNyA2OC43TDM4NCAxNDIuNiA0MDYuNiAxMjBsLTExLjMtMTEuMy05Ni05NkwyODggMS40em0wIDI3OS43bC03Ny4zLTQxLjZMMTgyIDIyNGwtOS40IDMxLjMtMjUuMiA4NC4xTDYzLjMgMzY0LjYgMzIgMzc0bDE1LjUgMjguOEw3MS45IDQ0OGwzNi4zIDBMNzguOCAzOTMuMyAxNTYuNiAzNzBsMTYuNS01IDUtMTYuNSAyMy4zLTc3LjggNzEuNSAzOC41IDE1LjIgOC4yIDE1LjItOC4yIDcxLjUtMzguNUwzOTggMzQ4LjZsNSAxNi41IDE2LjUgNSA3Ny44IDIzLjNMNDY3LjggNDQ4bDM2LjMgMCAyNC40LTQ1LjNMNTQ0IDM3NGwtMzEuMy05LjQtODQuMS0yNS4yLTI1LjItODQuMUwzOTQgMjI0bC0yOC44IDE1LjVMMjg4IDI4MS4xek00MTIgNDQ4Yy0xNC4yLTU1LjItNjQuMy05Ni0xMjQtOTZzLTEwOS44IDQwLjgtMTI0IDk2bDMzLjQgMGMxMy4yLTM3LjMgNDguNy02NCA5MC41LTY0czc3LjQgMjYuNyA5MC41IDY0bDMzLjQgMHpNMTYgNDgwTDAgNDgwbDAgMzIgMTYgMCA1NDQgMCAxNiAwIDAtMzItMTYgMEwxNiA0ODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sunrise](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sunrise.svg)
  */
 const Sunrise: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-sterling` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-sterling?s=sharp-thin circle-sterling}
- * @preview ![circle-sterling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAwIDE2IDI1NmEyNDAgMjQwIDAgMSAwIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTI2Ny42IDEzNmMtMjQuNyAwLTQ0LjYgMjAuMS00NC40IDQ0LjdsLjQgNTkuMyA1Ni41IDAgOCAwIDAgMTYtOCAwLTU2LjQgMCAuNCA1Ny4zIDAgMy40LTIuNCAyLjRMMTg3LjcgMzUyIDM0NCAzNTJsOCAwIDAgMTYtOCAwLTE3NiAwLTE5LjcgMCAxNC4xLTEzLjdMMjA4IDMxMGwtLjMtNTRMMTY4IDI1NmwtOCAwIDAtMTYgOCAwIDM5LjUgMC0uNC01OS4yYy0uMi0zMy41IDI2LjktNjAuOCA2MC40LTYwLjhjOS40IDAgMTguNiAyLjIgMjcgNi40bDIwLjkgMTAuNSA3LjIgMy42LTcuMiAxNC4zLTcuMi0zLjYtMjAuOS0xMC41Yy02LjItMy4xLTEzLTQuNy0xOS45LTQuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-sterling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-sterling.svg)
  */
 const CircleSterling: typeof Icon = x => (
     <Icon {...x}>

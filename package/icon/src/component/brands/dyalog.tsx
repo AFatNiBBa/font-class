@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dyalog` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dyalog?s=brands dyalog}
- * @preview ![dyalog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMnYxMTkuMmg2NFY5NmgxMDcuMkMyODQuNiA5NiAzNTIgMTc2LjIgMzUyIDI1NS45IDM1MiAzMzIgMjkzLjQgNDE2IDE3MS4yIDQxNkgwdjY0aDE3MS4yQzMzMS45IDQ4MCA0MTYgMzY3LjMgNDE2IDI1NS45YzAtNTguNy0yMi4xLTExMy40LTYyLjMtMTU0LjNDMzA4LjkgNTYgMjQ1LjcgMzIgMTcxLjIgMzJIMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dyalog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/dyalog.svg)
  */
 const Dyalog: typeof Icon = x => (
     <Icon viewBox="0 0 416 512" {...x}>

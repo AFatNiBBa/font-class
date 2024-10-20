@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `network-wired` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/network-wired?s=sharp-light network-wired}
- * @preview ![network-wired](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMybDAgMTI4LTE5MiAwIDAtMTI4IDE5MiAwek0yMjQgMEwxOTIgMGwwIDMyIDAgMTI4IDAgMzIgMzIgMCA4MCAwIDAgNDgtMTI4IDAtMzIgMEwxNiAyNDAgMCAyNDBsMCAzMiAxNiAwIDEyOCAwIDAgNDgtODAgMC0zMiAwIDAgMzIgMCAxMjggMCAzMiAzMiAwIDE5MiAwIDMyIDAgMC0zMiAwLTEyOCAwLTMyLTMyIDAtODAgMCAwLTQ4IDEyOCAwIDMyIDAgMTI4IDAgMCA0OC04MCAwLTMyIDAgMCAzMiAwIDEyOCAwIDMyIDMyIDAgMTkyIDAgMzIgMCAwLTMyIDAtMTI4IDAtMzItMzIgMC04MCAwIDAtNDggMTI4IDAgMTYgMCAwLTMyLTE2IDAtMTI4IDAtMzIgMC0xMjggMCAwLTQ4IDgwIDAgMzIgMCAwLTMyIDAtMTI4IDAtMzJMNDE2IDAgMjI0IDB6TTY0IDM1MmwxOTIgMCAwIDEyOEw2NCA0ODBsMC0xMjh6bTUxMiAwbDAgMTI4LTE5MiAwIDAtMTI4IDE5MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![network-wired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/network-wired.svg)
  */
 const NetworkWired: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

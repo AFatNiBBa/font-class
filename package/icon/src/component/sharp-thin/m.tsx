@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `m` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/m?s=sharp-thin m}
- * @preview ![m](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwwIDhMMCA0NzJsMCA4IDE2IDAgMC04TDE2IDY1LjEgMjE3LjUgMzQ4LjZsNi41IDkuMiA2LjUtOS4yTDQzMiA2NS4xIDQzMiA0NjRsMCA4IDE2IDAgMC04IDAtNDI0IDAtOC0xMi4xIDAtMi40IDMuNEwyMjQgMzMwLjIgMTQuNSAzNS40IDEyLjEgMzIgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![m](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/m.svg)
  */
 const M: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

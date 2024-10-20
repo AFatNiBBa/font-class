@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `image` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image?s=sharp-light image}
- * @preview ![image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAyNjUuNCA4NC43LTg0LjdMMTI4IDIzMy40bDExLjMgMTEuM0wyMjQgMzI5LjQgMzcyLjcgMTgwLjcgMzg0IDE2OS40bDExLjMgMTEuM0w0ODAgMjY1LjQgNDgwIDY0IDMyIDY0em0wIDMxMC42TDMyIDQ0OGw3My40IDAgOTYtOTZMMTI4IDI3OC42bC05NiA5NnptMzUyLTE2MEwxNTAuNiA0NDggNDgwIDQ0OGwwLTEzNy40LTk2LTk2ek0wIDMybDMyIDAgNDQ4IDAgMzIgMCAwIDMyIDAgMzg0IDAgMzItMzIgMEwzMiA0ODAgMCA0ODBsMC0zMkwwIDY0IDAgMzJ6TTE2MCAxNDRhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptLTY0IDBhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/image.svg)
  */
 const Image: typeof Icon = x => (
     <Icon {...x}>

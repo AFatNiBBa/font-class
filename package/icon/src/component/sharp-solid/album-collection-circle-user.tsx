@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `album-collection-circle-user` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-collection-circle-user?s=sharp-solid album-collection-circle-user}
- * @preview ![album-collection-circle-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEw1NiAwIDQ1NiAwbDI0IDAgMCA0OC0yNCAwTDU2IDQ4IDMyIDQ4IDMyIDB6bTggNTEyTDAgMTYwbDUxMiAwLTMuNyAzMi40Yy00LjEtLjMtOC4yLS40LTEyLjMtLjRjLTQ2LjkgMC04OS41IDE4LjMtMTIxIDQ4LjJDMzQyLjkgMjIwLjEgMzAxLjQgMjA4IDI1NiAyMDhDMTU0LjQgMjA4IDcyIDI2OC45IDcyIDM0NHM4Mi40IDEzNiAxODQgMTM2YzMzLjIgMCA2NC40LTYuNSA5MS4zLTE3LjljMTIuNCAxOS42IDI4LjYgMzYuNiA0Ny41IDQ5LjlMNDAgNTEyek0yNTYgMzc2Yy0xNy43IDAtMzItMTAuNy0zMi0yNHMxNC4zLTI0IDMyLTI0czMyIDEwLjcgMzIgMjRzLTE0LjMgMjQtMzIgMjR6TTQwIDgwbDQzMiAwIDI0IDAgMCA0OC0yNCAwTDQwIDEyOGwtMjQgMCAwLTQ4IDI0IDB6TTM1MiAzNjhhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMjI0LjcgNzcuN0w1NTIgNDE2bC0xMTIgMC0yNC43IDI5LjdjMjAuNCAyMS4yIDQ5IDM0LjMgODAuNyAzNC4zczYwLjMtMTMuMiA4MC43LTM0LjN6TTU0NCAzMzZhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![album-collection-circle-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/album-collection-circle-user.svg)
  */
 const AlbumCollectionCircleUser: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

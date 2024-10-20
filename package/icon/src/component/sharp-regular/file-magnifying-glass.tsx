@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-magnifying-glass` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-magnifying-glass?s=sharp-regular file-magnifying-glass}
- * @preview ![file-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDY0TDQ4IDQ4bDE3NiAwIDAgMTEyIDExMiAwIDAgMzA0TDQ4IDQ2NHpNMjU2IDBMNDggMCAwIDAgMCA0OCAwIDQ2NGwwIDQ4IDQ4IDAgMjg4IDAgNDggMCAwLTQ4IDAtMzM2TDI1NiAwem0xNiAzMDRjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZzNDMgOTYgOTYgOTZjMTcuOCAwIDM0LjQtNC44IDQ4LjctMTMuMkwyNjMgNDI1LjFsMTcgMTcgMzMuOS0zMy45LTE3LTE3LTM4LjMtMzguM2M4LjUtMTQuMyAxMy4zLTMxIDEzLjMtNDguOXptLTk2LTQ4YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-magnifying-glass.svg)
  */
 const FileMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

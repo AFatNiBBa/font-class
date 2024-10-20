@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-rolling-eyes` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-rolling-eyes?s=sharp-solid face-rolling-eyes}
- * @preview ![face-rolling-eyes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTE5MiAzNjhsMTI4IDAgMTYgMCAwIDMyLTE2IDAtMTI4IDAtMTYgMCAwLTMyIDE2IDB6bTMyLTE0NGMwIDM1LjMtMjguNyA2NC02NCA2NHMtNjQtMjguNy02NC02NGMwLTI2IDE1LjUtNDguNCAzNy44LTU4LjRjLTMuNyA1LjItNS44IDExLjYtNS44IDE4LjRjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmMwLTYuOS0yLjItMTMuMi01LjgtMTguNEMyMDguNSAxNzUuNiAyMjQgMTk4IDIyNCAyMjR6bTEyOCA2NGMtMzUuMyAwLTY0LTI4LjctNjQtNjRjMC0yNiAxNS41LTQ4LjQgMzcuOC01OC40Yy0zLjcgNS4yLTUuOCAxMS42LTUuOCAxOC40YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJjMC02LjktMi4yLTEzLjItNS44LTE4LjRDNDAwLjUgMTc1LjYgNDE2IDE5OCA0MTYgMjI0YzAgMzUuMy0yOC43IDY0LTY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-rolling-eyes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-rolling-eyes.svg)
  */
 const FaceRollingEyes: typeof Icon = x => (
     <Icon {...x}>

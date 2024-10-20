@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `award-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/award-simple?s=sharp-solid award-simple}
- * @preview ![award-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDBsNDQuMiAyNi45TDI4OCAyNS43bDI0LjggNDUuNEwzNTguMyA5NmwtMS4yIDUxLjhMMzg0IDE5MmwtMjYuOSA0NC4yIDEuMiA1MS44LTQ1LjQgMjQuOEwyODggMzU4LjNsLTUxLjgtMS4yTDE5MiAzODRsLTQ0LjItMjYuOUw5NiAzNTguMyA3MS4yIDMxMi44IDI1LjcgMjg4bDEuMi01MS44TDAgMTkybDI2LjktNDQuMkwyNS43IDk2IDcxLjIgNzEuMiA5NiAyNS43bDUxLjggMS4yTDE5MiAwem04MCAxOTJhODAgODAgMCAxIDAgLTE2MCAwIDgwIDgwIDAgMSAwIDE2MCAwek02NCA1MTJMOTIuNiAzODhsNDIuOC0xIDM5LjkgMjQuM0wxOTIgNDIxLjVsMTYuNi0xMC4xTDI0OC41IDM4N2w0Mi44IDFMMzIwIDUxMiAxOTIgNDgwIDY0IDUxMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![award-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/award-simple.svg)
  */
 const AwardSimple: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-school-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-school-slash?s=sharp-light bell-school-slash}
- * @preview ![bell-school-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQxIDUxMmwtNDAuNS0zMkw0MTYgNDgwbDAtNjYuNy0zMi0yNS4zIDAgOTEuOS00OCAwLTE3NiAwIDAtOTYuN0MxOTIuMyA0MDQgMjMwLjggNDE2IDI3MiA0MTZjMzkuOCAwIDc3LTExLjIgMTA4LjYtMzAuNkwzNTMuNSAzNjRjLTI0LjQgMTIuOC01Mi4xIDIwLTgxLjUgMjBjLTk3LjIgMC0xNzYtNzguOC0xNzYtMTc2YzAtMTQuOSAxLjgtMjkuMyA1LjMtNDMuMUw3NC4yIDE0My41QzY3LjYgMTYzLjggNjQgMTg1LjUgNjQgMjA4YzAgNTkgMjQuNiAxMTIuMiA2NCAxNTAuMUwxMjggNDk2bDAgMTYgMTYgMCAxOTIgMCA2NCAwIDE2IDAgMTEyIDAgMTMgMHpNNDgwIDIwOEM0ODAgOTMuMSAzODYuOSAwIDI3MiAwYy00NS44IDAtODguMSAxNC44LTEyMi41IDM5LjlsMjYuMyAyMC43QzIwMy40IDQyLjUgMjM2LjUgMzIgMjcyIDMyYzk3LjIgMCAxNzYgNzguOCAxNzYgMTc2YzAgMjAuOC0zLjYgNDAuOC0xMC4zIDU5LjRMNDY0IDI4OC4xYzEwLjMtMjQuNyAxNi01MS43IDE2LTgwLjF6TTI3MiAxMjhjLTMuNCAwLTYuOCAuMi0xMC4xIC42bDg5LjYgNzAuN0MzNDcuMiAxNTkuMiAzMTMuMyAxMjggMjcyIDEyOHpNNDAuNCAxOEwyNy44IDguMSA4LjEgMzMuNGwxMi42IDkuOEw1OTkuOCA0OTQuM2wxMi42IDkuOCAxOS43LTI1LjJMNjE5LjUgNDY5IDQwLjQgMTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bell-school-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bell-school-slash.svg)
  */
 const BellSchoolSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

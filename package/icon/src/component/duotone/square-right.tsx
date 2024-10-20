@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `square-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-right?s=duotone square-right}
- * @preview ![square-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDMyMCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZ6TTk2IDI0MGMwLTE3LjcgMTQuMy0zMiAzMi0zMmw5NiAwIDAtNTcuN2MwLTEyLjMgMTAtMjIuMyAyMi4zLTIyLjNjNi4yIDAgMTIuMSAyLjYgMTYuMyA3LjFsOTkuOSAxMDcuMWMzLjUgMy44IDUuNSA4LjcgNS41IDEzLjhzLTIgMTAuMS01LjUgMTMuOEwyNjIuNiAzNzYuOWMtNC4yIDQuNS0xMC4xIDcuMS0xNi4zIDcuMUMyMzQgMzg0IDIyNCAzNzQgMjI0IDM2MS43bDAtNTcuNy05NiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzYyLjUgMjQyLjJMMjYyLjYgMTM1LjFjLTQuMi00LjUtMTAuMS03LjEtMTYuMy03LjFDMjM0IDEyOCAyMjQgMTM4IDIyNCAxNTAuM2wwIDU3LjctOTYgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAzMmMwIDE3LjcgMTQuMyAzMiAzMiAzMmw5NiAwIDAgNTcuN2MwIDEyLjMgMTAgMjIuMyAyMi4zIDIyLjNjNi4yIDAgMTIuMS0yLjYgMTYuMy03LjFsOTkuOS0xMDcuMWMzLjUtMy44IDUuNS04LjcgNS41LTEzLjhzLTItMTAuMS01LjUtMTMuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-right.svg)
  */
 const SquareRight: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM96 240c0-17.7 14.3-32 32-32l96 0 0-57.7c0-12.3 10-22.3 22.3-22.3c6.2 0 12.1 2.6 16.3 7.1l99.9 107.1c3.5 3.8 5.5 8.7 5.5 13.8s-2 10.1-5.5 13.8L262.6 376.9c-4.2 4.5-10.1 7.1-16.3 7.1C234 384 224 374 224 361.7l0-57.7-96 0c-17.7 0-32-14.3-32-32l0-32z" />
-            <path d="M362.5 242.2L262.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C234 128 224 138 224 150.3l0 57.7-96 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l96 0 0 57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8z" />
+        <path d="M362.5 242.2L262.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C234 128 224 138 224 150.3l0 57.7-96 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l96 0 0 57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8z" />
     </Icon>
 );
 

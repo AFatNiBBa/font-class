@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grin-beam` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-beam?s=sharp-regular face-grin-beam}
- * @preview ![face-grin-beam](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTI1NS45IDYyLjhjNTAuMyAwIDk3LjItOC42IDEzNi41LTIzLjVDMzc4LjYgMzU1LjIgMzIyLjcgNDAwIDI1NS45IDQwMHMtMTIyLjctNDQuOC0xMzYuNS0xMDQuNmMzOS4zIDE0LjkgODYuMiAyMy41IDEzNi41IDIzLjV6TTE3NiAxNTJjMjggMCA1NiA0MCA1NiA4MGMwIDAtMjgtMzItNTYtMzJzLTU2IDMyLTU2IDMyYzAtNDAgMjgtODAgNTYtODB6bTEwNCA4MGMwLTQwIDI4LTgwIDU2LTgwczU2IDQwIDU2IDgwYzAgMC0yOC0zMi01Ni0zMnMtNTYgMzItNTYgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-grin-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-grin-beam.svg)
  */
 const FaceGrinBeam: typeof Icon = x => (
     <Icon {...x}>

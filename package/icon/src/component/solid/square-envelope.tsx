@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-envelope` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-envelope?s=solid square-envelope}
- * @preview ![square-envelope](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyMGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAzMnpNMjE4IDI3MS43TDY0LjIgMTcyLjRDNjYgMTU2LjQgNzkuNSAxNDQgOTYgMTQ0bDI1NiAwYzE2LjUgMCAzMCAxMi40IDMxLjggMjguNEwyMzAgMjcxLjdjLTEuOCAxLjItMy45IDEuOC02IDEuOHMtNC4yLS42LTYtMS44em0yOS40IDI2LjlMMzg0IDIxMC40IDM4NCAzMzZjMCAxNy43LTE0LjMgMzItMzIgMzJMOTYgMzY4Yy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTEyNS42IDEzNi42IDg4LjJjNyA0LjUgMTUuMSA2LjkgMjMuNCA2LjlzMTYuNC0yLjQgMjMuNC02Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-envelope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-envelope.svg)
  */
 const SquareEnvelope: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

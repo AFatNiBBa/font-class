@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shovel-snow` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shovel-snow?s=sharp-thin shovel-snow}
- * @preview ![shovel-snow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE4LjUgNS41TDQxMi44LS4xbC01LjcgNS43TDM3Mi42IDQwLjFDMzU5LjQgNTMuMyAzNTIgNzEuMiAzNTIgODkuOGMwIDE2LjUgNS43IDMxLjcgMTUuMiA0My43TDI2Ni4zIDIzNC4zIDE5MiAxNjAgMTIuOSAyOTQuMyAwIDMwNGwxMS40IDExLjRMMTk2LjYgNTAwLjYgMjA4IDUxMmw5LjctMTIuOUwzNTIgMzIwbC03NC4zLTc0LjNMMzc4LjUgMTQ0LjhjMTIgOS41IDI3LjIgMTUuMiA0My43IDE1LjJjMTguNiAwIDM2LjUtNy40IDQ5LjctMjAuNmwzNC42LTM0LjYgNS43LTUuNy01LjctNS43LTg4LTg4ek0zODMuOSA1MS40bDI4LjktMjguOSA3Ni43IDc2LjctMjguOSAyOC45Yy0xMC4yIDEwLjItMjQgMTUuOS0zOC4zIDE1LjljLTI5LjkgMC01NC4yLTI0LjMtNTQuMi01NC4yYzAtMTQuNCA1LjctMjguMiAxNS45LTM4LjN6TTI0LjQgMzA1LjdMMTkwLjUgMTgxLjEgMzMwLjkgMzIxLjUgMjA2LjMgNDg3LjYgMjQuNCAzMDUuN3ptMTczLjMtNDQuMWw1LjctNS43TDE5MiAyNDQuN2wtNS43IDUuNy03MiA3Mi01LjcgNS43TDEyMCAzMzkuM2w1LjctNS43IDcyLTcyem02NCA2NGw1LjctNS43TDI1NiAzMDguN2wtNS43IDUuNy03MiA3Mi01LjcgNS43TDE4NCA0MDMuM2w1LjctNS43IDcyLTcyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shovel-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shovel-snow.svg)
  */
 const ShovelSnow: typeof Icon = x => (
     <Icon {...x}>

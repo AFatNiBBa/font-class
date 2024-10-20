@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `key-skeleton` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/key-skeleton?s=light key-skeleton}
- * @preview ![key-skeleton](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDMyYTExMiAxMTIgMCAxIDEgMCAyMjQgMTEyIDExMiAwIDEgMSAwLTIyNHptMCAyNTZjNzkuNSAwIDE0NC02NC41IDE0NC0xNDRTMzgzLjUgMCAzMDQgMFMxNjAgNjQuNSAxNjAgMTQ0YzAgMzQgMTEuOCA2NS4yIDMxLjUgODkuOUw0LjcgNDIwLjdjLTYuMiA2LjItNi4yIDE2LjQgMCAyMi42bDY0IDY0YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwczYuMi0xNi40IDAtMjIuNkwzOC42IDQzMiA4MCAzOTAuNmw1Mi43IDUyLjdjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBzNi4yLTE2LjQgMC0yMi42TDEwMi42IDM2OCAyMTQuMSAyNTYuNUMyMzguOCAyNzYuMiAyNzAgMjg4IDMwNCAyODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![key-skeleton](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/key-skeleton.svg)
  */
 const KeySkeleton: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

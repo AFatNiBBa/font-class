@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `facebook-f` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/facebook-f?s=brands facebook-f}
- * @preview ![facebook-f](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMjk5LjNWNTEySDE5NlYyOTkuM2g4Ni41bDE4LTk3LjhIMTk2VjE2Ni45YzAtNTEuNyAyMC4zLTcxLjUgNzIuNy03MS41YzE2LjMgMCAyOS40IC40IDM3IDEuMlY3LjlDMjkxLjQgNCAyNTYuNCAwIDIzNi4yIDBDMTI5LjMgMCA4MCA1MC41IDgwIDE1OS40djQyLjFIMTR2OTcuOEg4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![facebook-f](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/facebook-f.svg)
  */
 const FacebookF: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

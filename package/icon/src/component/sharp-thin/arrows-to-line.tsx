@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-to-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-line?s=sharp-thin arrows-to-line}
- * @preview ![arrows-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE5NS4zbDUuNy01LjcgODgtODggNS43LTUuN0wzMTIgODQuN2wtNS43IDUuN0wyMzIgMTY0LjcgMjMyIDhsMC04TDIxNiAwbDAgOCAwIDE1Ni43TDE0MS43IDkwLjMgMTM2IDg0LjcgMTI0LjcgOTZsNS43IDUuNyA4OCA4OCA1LjcgNS43em0wIDEyMS40bC01LjcgNS43LTg4IDg4LTUuNyA1LjdMMTM2IDQyNy4zbDUuNy01LjdMMjE2IDM0Ny4zIDIxNiA1MDRsMCA4IDE2IDAgMC04IDAtMTU2LjcgNzQuMyA3NC4zIDUuNyA1LjdMMzIzLjMgNDE2bC01LjctNS43LTg4LTg4LTUuNy01Ljd6TTggMjQ4bC04IDAgMCAxNiA4IDAgNDMyIDAgOCAwIDAtMTYtOCAwTDggMjQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrows-to-line.svg)
  */
 const ArrowsToLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

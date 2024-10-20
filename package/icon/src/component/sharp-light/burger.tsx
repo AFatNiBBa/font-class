@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `burger` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger?s=sharp-light burger}
- * @preview ![burger](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYzExMi44IDAgMjA2LjIgODMuNCAyMjEuNyAxOTJjMS41IDEwLjUgMi4zIDIxLjEgMi4zIDMybC0zMiAwTDY0IDI1NmwtMzIgMGMwLTEwLjkgLjgtMjEuNSAyLjMtMzJDNDkuOCAxMTUuNCAxNDMuMiAzMiAyNTYgMzJ6bTAgMzJDMTYwLjkgNjQgODEuOSAxMzMuMiA2Ni43IDIyNGwzNzguNyAwQzQzMC4xIDEzMy4yIDM1MS4xIDY0IDI1NiA2NHpNNDQ4IDM4NEw2NCAzODRsMCA2NCAzODQgMCAwLTY0ek0zMiAzNTJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCA2NCAwIDMyLTMyIDBMNjQgNDgwbC0zMiAwIDAtMzIgMC02NCAwLTMyek0xNiAyODhsMTYgMCA0NDggMCAxNiAwIDAgMzItMTYgMEwzMiAzMjBsLTE2IDAgMC0zMnpNMTYwIDEyOGExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6bTgwLTE2YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6bTExMiAxNmExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![burger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/burger.svg)
  */
 const Burger: typeof Icon = x => (
     <Icon {...x}>

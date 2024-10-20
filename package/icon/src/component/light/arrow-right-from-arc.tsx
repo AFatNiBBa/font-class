@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-right-from-arc` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-from-arc?s=light arrow-right-from-arc}
- * @preview ![arrow-right-from-arc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjU2QzMyIDEzMi4zIDEzMi4zIDMyIDI1NiAzMmM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNkMxMTQuNiAwIDAgMTE0LjYgMCAyNTZTMTE0LjYgNTEyIDI1NiA1MTJjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZDMTMyLjMgNDgwIDMyIDM3OS43IDMyIDI1NnpNMzYyLjYgMTE2Yy02LjYtNS45LTE2LjctNS4zLTIyLjYgMS4zcy01LjMgMTYuNyAxLjMgMjIuNkw0NTMuOSAyNDAgMTc2IDI0MGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwyNzcuOSAwTDM0MS40IDM3MmMtNi42IDUuOS03LjIgMTYtMS4zIDIyLjZzMTYgNy4yIDIyLjYgMS4zbDE0NC0xMjhjMy40LTMgNS40LTcuNCA1LjQtMTJzLTItOC45LTUuNC0xMmwtMTQ0LTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-right-from-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-right-from-arc.svg)
  */
 const ArrowRightFromArc: typeof Icon = x => (
     <Icon {...x}>

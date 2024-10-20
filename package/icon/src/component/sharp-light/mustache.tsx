@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mustache` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mustache?s=sharp-light mustache}
- * @preview ![mustache](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg3LjIgMTEybDQuOCAwIDgwIDAgNC44IDAgNCAyLjdMMzIwIDE0MC44bDM5LjEtMjYuMSA0LTIuNyA0LjggMCA4MCAwIDUuMyAwIDQuMyAzLjIgODguMSA2Ni4xIDcxLjItMzUuNkw2NDAgMTM0LjFsMCAyNS45IDAgNDRjMCAxMDguMi04Ny44IDE5Ni0xOTYgMTk2Yy00Mi40IDAtODMuNy0xMy44LTExNy42LTM5LjJMMzIwIDM1NmwtNi40IDQuOEMyNzkuNyAzODYuMiAyMzguNCA0MDAgMTk2IDQwMEM4Ny44IDQwMCAwIDMxMi4yIDAgMjA0bDAtNDQgMC0yMy42IDIxLjkgOC44TDk0LjEgMTc0bDg5LTU5LjMgNC0yLjd6TTE5NiAzNjhjMzUuNSAwIDcwLTExLjUgOTguNC0zMi44bDE2LTEyTDMyMCAzMTZsOS42IDcuMiAxNiAxMkMzNzQgMzU2LjUgNDA4LjUgMzY4IDQ0NCAzNjhjOTAuNiAwIDE2NC03My40IDE2NC0xNjRsMC0xOC4xLTU2LjggMjguNC04LjggNC40LTcuOS01LjlMNDQyLjcgMTQ0bC02OS44IDAtNDQgMjkuMy04LjkgNS45LTguOS01LjktNDQtMjkuMy03MC4zIDAtOTIgNjEuMy03IDQuNy03LjgtMy4xTDMyIDE4My42IDMyIDIwNGMwIDkwLjYgNzMuNCAxNjQgMTY0IDE2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mustache](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mustache.svg)
  */
 const Mustache: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

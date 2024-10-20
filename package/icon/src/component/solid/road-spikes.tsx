@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road-spikes` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-spikes?s=solid road-spikes}
- * @preview ![road-spikes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTE2LjhjMC0xNS44IDIwLjUtMjIgMjkuMy04LjlMMTkyIDI1NmwwLTEzOS4yYzAtMTUuOCAyMC41LTIyIDI5LjMtOC45TDMyMCAyNTZsMC0xMzkuMmMwLTE1LjggMjAuNS0yMiAyOS4zLTguOUw0NDggMjU2bDAtMTM5LjJjMC0xNS44IDIwLjUtMjIgMjkuMy04LjlMNjA2LjggMzAyLjJjMTQuMiAyMS4zLTEuMSA0OS43LTI2LjYgNDkuN0w1MTIgMzUybC02NCAwLTY0IDAtNjQgMC02NCAwLTY0IDBMNjQgMzUybDAtMjM1LjJ6TTMyIDM4NGw1NzYgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkwzMiA0NDhjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![road-spikes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/road-spikes.svg)
  */
 const RoadSpikes: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

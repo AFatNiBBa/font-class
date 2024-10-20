@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wind-warning` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wind-warning?s=light wind-warning}
- * @preview ![wind-warning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkwLjMgMzUyYy0zMy4yIDU3LjQtOTUuMiA5Ni0xNjYuMyA5NkMxMTggNDQ4IDMyIDM2MiAzMiAyNTZTMTE4IDY0IDIyNCA2NHMxOTIgODYgMTkyIDE5MmwzMiAwQzQ0OCAxMzIuMyAzNDcuNyAzMiAyMjQgMzJTMCAxMzIuMyAwIDI1NlMxMDAuMyA0ODAgMjI0IDQ4MGM4OS40IDAgMTY2LjUtNTIuMyAyMDIuNC0xMjhsLTM2LjEgMHpNMjI0IDEyOGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMTI4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xMjhjMC04LjgtNy4yLTE2LTE2LTE2em0yNCAyMjRhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHpNNDk2IDQ4MGw0OCAwYzUzIDAgOTYtNDMgOTYtOTZzLTQzLTk2LTk2LTk2bC0yMDggMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwyMDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NHMtMjguNyA2NC02NCA2NGwtNDggMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNnptNDgtMjU2YzUzIDAgOTYtNDMgOTYtOTZzLTQzLTk2LTk2LTk2bC00OCAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDQ4IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRzLTI4LjcgNjQtNjQgNjRsLTcyLjEgMGMyLjcgMTAuNCA0LjcgMjEuMSA2LjEgMzJsNjYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wind-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/wind-warning.svg)
  */
 const WindWarning: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

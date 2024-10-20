@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-departure` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-departure?s=sharp-light plane-departure}
- * @preview ![plane-departure](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgxLjUgNjVsLTYuMi0yLjMtNiAyLjctODggNDBMNTQuMSAxMTcuOGwyNS40IDE1LjggMTM2LjMgODQuNi01Ny45IDI5TDkxLjUgMjMyLjRsLTYtMS4zLTUuNCAzLjEtNTYgMzJMNS45IDI3Ni41bDE0LjggMTQuOCA4OCA4OCA0LjcgNC43IDYuNiAwIDEzNiAwIDMuOCAwIDMuNC0xLjdMNTQzLjMgMjQyLjJjMzkuNC0xOS43IDcwLjktNTIuMiA4OS4zLTkyLjJjMTUuMS0zMi43LTguOC03MC00NC44LTcwbC02MS42IDBjLTIyLjQgMC00NC40IDUuMi02NC40IDE1LjJsLTgzLjcgNDEuOUwxODEuNSA2NXptLTU5LjYgNTcuMmw1NC44LTI0LjkgMTk2LjkgNzIuMiA2LjUgMi40IDYuMi0zLjEgODkuOS00NC45YzE1LjYtNy44IDMyLjctMTEuOCA1MC4xLTExLjhsNjEuNiAwYzEyLjcgMCAyMS4xIDEzLjEgMTUuOCAyNC42Yy0xNS40IDMzLjQtNDEuNyA2MC41LTc0LjYgNzdMMjUyLjIgMzUybC0xMjUuNiAwTDU4LjEgMjgzLjUgOTAuNiAyNjVsNjYgMTQuNyA1LjUgMS4yIDUuMS0yLjVMMjU1LjggMjM0bDI1LjYtMTIuOC0yNC4zLTE1LjFMMTIxLjkgMTIyLjJ6TTE2IDQ4MEwwIDQ4MGwwIDMyIDE2IDAgNjA4IDAgMTYgMCAwLTMyLTE2IDBMMTYgNDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![plane-departure](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/plane-departure.svg)
  */
 const PlaneDeparture: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

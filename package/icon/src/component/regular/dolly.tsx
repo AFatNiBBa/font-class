@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dolly` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolly?s=regular dolly}
- * @preview ![dolly](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEMxMC43IDAgMCAxMC43IDAgMjRTMTAuNyA0OCAyNCA0OGw4MC44IDBjMy41IDAgNi41IDIuMiA3LjYgNS41bDkxLjkgMjgxLjZDMTc3LjcgMzUyLjEgMTYwIDM4MiAxNjAgNDE2YzAgNTMgNDMgOTYgOTYgOTZzOTYtNDMgOTYtOTZjMC0yLjgtLjEtNS41LS4zLTguMkw1NjAgMzM0LjZjMTIuNS00LjQgMTkuMS0xOC4xIDE0LjctMzAuNnMtMTguMS0xOS4xLTMwLjYtMTQuN0wzMzUuOCAzNjIuNUMzMTguNSAzMzYuOSAyODkuMiAzMjAgMjU2IDMyMGMtMiAwLTQgLjEtNiAuMkwxNTggMzguNkMxNTAuNSAxNS42IDEyOSAwIDEwNC44IDBMMjQgMHpNMjU2IDM2OGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6TTQ1Ny40IDExNy4zYy0xMC42LTI4LjctNDIuMi00My43LTcxLjEtMzMuNUwyMjQuOSAxNDAuNWwxNC45IDQ1LjYgNTcuNS0yMC4yIDI0LjEgNjYuM2M0LjUgMTIuNSAxOC4zIDE4LjkgMzAuOCAxNC40czE4LjktMTguMyAxNC40LTMwLjhMMzQyLjYgMTUwbDU5LjYtMjAuOWM0LjEtMS40IDguNyAuNyAxMC4yIDQuOEw0NjcgMjgyLjVsNDUuMy0xNS45TDQ1Ny40IDExNy4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dolly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dolly.svg)
  */
 const Dolly: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `subtitles-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subtitles-slash?s=solid subtitles-slash}
- * @preview ![subtitles-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN2wtMzAtMjMuNWM0LjYtOC44IDcuMi0xOC45IDcuMi0yOS42bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDk2IDMyYy02LjcgMC0xMy4xIDEtMTkuMiAyLjlMMzguOCA1LjF6bTM1NSAyNzguMmwtMS4yLS45Yy01LjMtNC40LTguNi0xMS04LjYtMTguNGMwLTEzLjMgMTAuNy0yNCAyNC0yNGw4MCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC04MCAwYy01LjMgMC0xMC4yLTEuNy0xNC4yLTQuNnpNNDYxIDMzNmwyNyAwYzEzLjMgMCAyNCAxMC43IDI0IDI0YzAgNC44LTEuNCA5LjMtMy44IDEzTDQ2MSAzMzZ6bTI2LjQgMTQ0TDM2NS41IDM4NCAzMTIgMzg0Yy0xMy4zIDAtMjQtMTAuNy0yNC0yNGMwLTExLjEgNy41LTIwLjQgMTcuNy0yMy4ybC02Mi00OC44TDE1MiAyODhjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsMzAuOCAwTDMyIDEyMS4yIDMyIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzOTEuNCAwek0xNTIgMzM2bDgwIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTgwIDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![subtitles-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/subtitles-slash.svg)
  */
 const SubtitlesSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-square-triangle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-square-triangle?s=regular arrow-down-square-triangle}
- * @preview ![arrow-down-square-triangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDcgMzc3bDk2IDk2YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwbDk2LTk2YzkuNC05LjQgOS40LTI0LjYgMC0zMy45cy0yNC42LTkuNC0zMy45IDBsLTU1IDU1TDE4NCA1NmMwLTEzLjMtMTAuNy0yNC0yNC0yNHMtMjQgMTAuNy0yNCAyNGwwIDM0Mi4xTDgxIDM0M2MtOS40LTkuNC0yNC42LTkuNC0zMy45IDBzLTkuNCAyNC42IDAgMzMuOXptNDgxIDc4YzAtNC41LTEuMi05LTMuNi0xMi45TDQ0MC4yIDMwMS43Yy01LjEtOC41LTE0LjMtMTMuNy0yNC4yLTEzLjdzLTE5LjEgNS4yLTI0LjIgMTMuN0wzMDcuNiA0NDJjLTIuMyAzLjktMy42IDguNC0zLjYgMTIuOWMwIDEzLjggMTEuMiAyNS4xIDI1LjEgMjUuMWwxNzMuOSAwYzEzLjggMCAyNS4xLTExLjIgMjUuMS0yNS4xek0zNjggODBsOTYgMCAwIDk2LTk2IDAgMC05NnptOTQuNCAzNTJsLTkyLjggMEw0MTYgMzU0LjYgNDYyLjQgNDMyek0zMjAgODBsMCA5NmMwIDI2LjUgMjEuNSA0OCA0OCA0OGw5NiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtOTZjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTk2IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-square-triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-down-square-triangle.svg)
  */
 const ArrowDownSquareTriangle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

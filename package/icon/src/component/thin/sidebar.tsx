@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sidebar` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sidebar?s=thin sidebar}
- * @preview ![sidebar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDQ4YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMzIwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0yMjQgMCAwLTQxNiAyMjQgMHpNNjQgNDhsMTQ0IDAgMCA0MTZMNjQgNDY0Yy0yNi41IDAtNDgtMjEuNS00OC00OEwxNiA5NmMwLTI2LjUgMjEuNS00OCA0OC00OHptMC0xNkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyem04IDY0Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDgwIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMNzIgOTZ6bS04IDcyYzAgNC40IDMuNiA4IDggOGw4MCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC04MCAwYy00LjQgMC04IDMuNi04IDh6bTggNTZjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsODAgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtODAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sidebar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sidebar.svg)
  */
 const Sidebar: typeof Icon = x => (
     <Icon {...x}>

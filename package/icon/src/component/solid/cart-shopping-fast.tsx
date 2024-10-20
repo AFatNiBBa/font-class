@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-shopping-fast` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-shopping-fast?s=solid cart-shopping-fast}
- * @preview ![cart-shopping-fast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggMEM3NC43IDAgNjQgMTAuNyA2NCAyNHMxMC43IDI0IDI0IDI0bDQ1LjUgMGMzLjggMCA3LjEgMi43IDcuOSA2LjVsNTEuNiAyNzFjNi41IDM0IDM2LjIgNTguNSA3MC43IDU4LjVMNTUyIDM4NGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMjg4LjMgMGMtMTEuNSAwLTIxLjQtOC4yLTIzLjYtMTkuNUwyMzQuNyAyODhsMjg4LjUgMGMzMi42IDAgNjEuMS0yMS44IDY5LjUtNTMuM2w0MS0xNTIuM0M2NDAuNiA1NyA2MjEuNCAzMiA1OTUuMSAzMmwtNDExIDBDMTc1IDEyLjggMTU1LjYgMCAxMzMuNSAwTDg4IDB6TTI0MCA1MTJhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0zMzYtNDhhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMjQgOTZDMTAuNyA5NiAwIDEwNi43IDAgMTIwczEwLjcgMjQgMjQgMjRsODAgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEwyNCA5NnptMCA4MGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGw5NiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC05NiAwem0wIDgwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDExMiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDI0IDI1NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-shopping-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-shopping-fast.svg)
  */
 const CartShoppingFast: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

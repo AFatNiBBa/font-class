@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `note` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/note?s=sharp-thin note}
- * @preview ![note](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDQ4bDAgMjcyLTEyOCAwLTE2IDAgMCAxNiAwIDEyOEwxNiA0NjQgMTYgNDhsNDE2IDB6bS02LjYgMjg4TDMwNCA0NTcuNCAzMDQgMzM2bDEyMS40IDB6TTE2IDQ4MGwyNzIgMCAxNiAwTDQ0OCAzMzZsMC0xNiAwLTI3MiAwLTE2LTE2IDBMMTYgMzIgMCAzMiAwIDQ4IDAgNDY0bDAgMTYgMTYgMHpNNzIgOTZsLTggMCAwIDggMCA0OCAwIDggOCAwIDQ4IDAgOCAwIDAtOCAwLTQ4IDAtOC04IDBMNzIgOTZ6bTggNDhsMC0zMiAzMiAwIDAgMzItMzIgMHpNNjQgMjI0bDAgOCAwIDQ4IDAgOCA4IDAgNDggMCA4IDAgMC04IDAtNDggMC04LTggMC00OCAwLTggMHptMTYgMTZsMzIgMCAwIDMyLTMyIDAgMC0zMnpNNzIgMzUybC04IDAgMCA4IDAgNDggMCA4IDggMCA0OCAwIDggMCAwLTggMC00OCAwLTgtOCAwLTQ4IDB6bTggNDhsMC0zMiAzMiAwIDAgMzItMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![note](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/note.svg)
  */
 const Note: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

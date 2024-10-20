@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `floppy-disk-pen` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk-pen?s=duotone floppy-disk-pen}
- * @preview ![floppy-disk-pen](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDI0Mi43IDBjMTcgMCAzMy4zIDYuNyA0NS4zIDE4LjdMNDI5LjMgMTI4YzEyIDEyIDE4LjcgMjguMyAxOC43IDQ1LjNsMCA2Mi40TDI4OS4zIDM5NC4zYy04LjIgOC4yLTE0IDE4LjUtMTYuOCAyOS43bC0xNCA1NS45TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnptNjQgMzJsMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMmwxOTIgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDk2IDk2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnptOTYgMjI0YTY0IDY0IDAgMSAwIDEyOCAwIDY0IDY0IDAgMSAwIC0xMjggMHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTQ5My4yIDIzNS44bC0yOS40IDI5LjQgNzEgNzEgMjkuNC0yOS40YzE1LjYtMTUuNiAxNS42LTQwLjkgMC01Ni42bC0xNC40LTE0LjRjLTE1LjYtMTUuNi00MC45LTE1LjYtNTYuNiAwem0tNTIgNTJMMzExLjkgNDE3LjFjLTQuMSA0LjEtNyA5LjItOC40IDE0LjlsLTE1IDYwLjFjLTEuNCA1LjUgLjIgMTEuMiA0LjIgMTUuMnM5LjcgNS42IDE1LjIgNC4ybDYwLjEtMTVjNS42LTEuNCAxMC44LTQuMyAxNC45LTguNEw1MTIuMSAzNTguOGwtNzEtNzF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![floppy-disk-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/floppy-disk-pen.svg)
  */
 const FloppyDiskPen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l242.7 0c17 0 33.3 6.7 45.3 18.7L429.3 128c12 12 18.7 28.3 18.7 45.3l0 62.4L289.3 394.3c-8.2 8.2-14 18.5-16.8 29.7l-14 55.9L64 480c-35.3 0-64-28.7-64-64L0 96zm64 32l0 64c0 17.7 14.3 32 32 32l192 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L96 96c-17.7 0-32 14.3-32 32zm96 224a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-            <path d="M493.2 235.8l-29.4 29.4 71 71 29.4-29.4c15.6-15.6 15.6-40.9 0-56.6l-14.4-14.4c-15.6-15.6-40.9-15.6-56.6 0zm-52 52L311.9 417.1c-4.1 4.1-7 9.2-8.4 14.9l-15 60.1c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l60.1-15c5.6-1.4 10.8-4.3 14.9-8.4L512.1 358.8l-71-71z" />
+        <path d="M493.2 235.8l-29.4 29.4 71 71 29.4-29.4c15.6-15.6 15.6-40.9 0-56.6l-14.4-14.4c-15.6-15.6-40.9-15.6-56.6 0zm-52 52L311.9 417.1c-4.1 4.1-7 9.2-8.4 14.9l-15 60.1c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l60.1-15c5.6-1.4 10.8-4.3 14.9-8.4L512.1 358.8l-71-71z" />
     </Icon>
 );
 

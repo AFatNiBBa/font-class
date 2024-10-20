@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `id-card-clip` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-card-clip?s=regular id-card-clip}
- * @preview ![id-card-clip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJsNjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTY0YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDI1NiAwek0xOTIgNjRMNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsNDQ4IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMjBjMC0zNS4zLTI4LjctNjQtNjQtNjRMMzg0IDY0bDAgNDggMTI4IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMzIwYzAgOC44LTcuMiAxNi0xNiAxNkw2NCA0NjRjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTMyMGMwLTguOCA3LjItMTYgMTYtMTZsMTI4IDAgMC00OHptOTYgMjQwYTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4em0tMzIgMzJjLTQ0LjIgMC04MCAzNS44LTgwIDgwYzAgOC44IDcuMiAxNiAxNiAxNmwxOTIgMGM4LjggMCAxNi03LjIgMTYtMTZjMC00NC4yLTM1LjgtODAtODAtODBsLTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![id-card-clip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/id-card-clip.svg)
  */
 const IdCardClip: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

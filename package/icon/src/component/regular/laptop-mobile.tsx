@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-mobile` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-mobile?s=regular laptop-mobile}
- * @preview ![laptop-mobile](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDQ4bDMyMCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyIDQ4IDAgMC0zMmMwLTM1LjMtMjguNy02NC02NC02NEwxMjggMEM5Mi43IDAgNjQgMjguNyA2NCA2NGwwIDI1Ni00OCAwYy04LjggMC0xNiA3LjItMTYgMTZjMCAyNi41IDIxLjUgNDggNDggNDhsMzA0IDAgMC02NC0yNDAgMCAwLTI1NmMwLTguOCA3LjItMTYgMTYtMTZ6TTM4NCA0NjRjMCAyNi41IDIxLjUgNDggNDggNDhsMTYwIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0yODhjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTE2MCAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDI4OHptMjA4IDBsLTE2MCAwIDAtMjg4IDE2MCAwIDAgMjg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![laptop-mobile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/laptop-mobile.svg)
  */
 const LaptopMobile: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

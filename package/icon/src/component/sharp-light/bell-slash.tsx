@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-slash?s=sharp-light bell-slash}
- * @preview ![bell-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE5LjQgNDE2bC00MC41LTMyTDEyOCAzODRsMC0xNy40IDU5LjMtNTkuMyA0LjctNC43IDAtNi42IDAtNTkuNS0zMi0yNS4zIDAgNzguMS01OS4zIDU5LjNMOTYgMzUzLjRsMCA2LjYgMCA0MCAwIDE2IDE2IDAgMzA3LjQgMHpNMjAzLjQgODIuNGwyNS4yIDE5LjlDMjUxLjkgNzguNyAyODQuMiA2NCAzMjAgNjRjNzAuNyAwIDEyOCA1Ny4zIDEyOCAxMjhsMCA4My41IDMyIDI1LjMgMC0xMS40IDAtOTcuNGMwLTgzLTYzLjEtMTUxLjItMTQ0LTE1OS4yTDMzNiAwIDMwNCAwbDAgMzIuOEMyNjQuNSAzNi43IDIyOS4yIDU1IDIwMy40IDgyLjR6TTMyMCA1MTJjMzUuMyAwIDY0LTI4LjcgNjQtNjRsLTMyIDBjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsLTMyIDBjMCAzNS4zIDI4LjcgNjQgNjQgNjR6TTQwLjQgMThMMjcuOCA4LjEgOC4xIDMzLjRsMTIuNiA5LjhMNTk5LjggNDk0LjNsMTIuNiA5LjggMTkuNy0yNS4yTDYxOS41IDQ2OSA0MC40IDE4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bell-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bell-slash.svg)
  */
 const BellSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

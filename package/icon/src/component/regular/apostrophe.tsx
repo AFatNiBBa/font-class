@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `apostrophe` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apostrophe?s=regular apostrophe}
- * @preview ![apostrophe](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDE3NmM4LjggMCAxNi03LjIgMTYtMTZsMC0zMiAwLTMyYzAtOC44LTcuMi0xNi0xNi0xNkw2NCA4MGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgNjRjMCA4LjggNy4yIDE2IDE2IDE2bDY0IDB6bTE2IDQ2Yy01LjEgMS4zLTEwLjUgMi0xNiAybC02NCAwYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDY0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAzMiAwIDMyIDAgNzJjMCA2Ni4zLTUzLjcgMTIwLTEyMCAxMjBsLTE2IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsMTYgMGMzOS44IDAgNzItMzIuMiA3Mi03MmwwLTEweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![apostrophe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/apostrophe.svg)
  */
 const Apostrophe: typeof Icon = x => (
     <Icon viewBox="0 0 192 512" {...x}>

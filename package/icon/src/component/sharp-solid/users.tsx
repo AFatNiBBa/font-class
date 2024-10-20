@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users?s=sharp-solid users}
- * @preview ![users](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBhODAgODAgMCAxIDEgMCAxNjBBODAgODAgMCAxIDEgMTQ0IDB6TTUxMiAwYTgwIDgwIDAgMSAxIDAgMTYwQTgwIDgwIDAgMSAxIDUxMiAwek00OCAxOTJsMTQ4IDBjLTIuNiAxMC4yLTQgMjEtNCAzMmMwIDM4LjIgMTYuOCA3Mi41IDQzLjMgOTZMMCAzMjAgNDggMTkyek02NDAgMzIwbC0yMzUuMyAwYzI2LjYtMjMuNSA0My4zLTU3LjggNDMuMy05NmMwLTExLTEuNC0yMS44LTQtMzJsMTQ4IDAgNDggMTI4ek0yMjQgMjI0YTk2IDk2IDAgMSAxIDE5MiAwIDk2IDk2IDAgMSAxIC0xOTIgMHpNNDY0IDM1Mmw0OCAxNjAtMzg0IDAgNDgtMTYwIDI4OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/users.svg)
  */
 const Users: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cabinet-filing` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabinet-filing?s=regular cabinet-filing}
- * @preview ![cabinet-filing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDIzMkw0OCAyMzIgNDggNjRjMC04LjggNy4yLTE2IDE2LTE2bDMyMCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDE2OHpNMCAyNTZsMCAyNEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTE2OCAwLTI0IDAtMjQgMC0xNjhjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCAyMzJsMCAyNHpNNDAwIDQ0OGMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDY0Yy04LjggMC0xNi03LjItMTYtMTZsMC0xNjggMzUyIDAgMCAxNjh6TTE2MCAxNTJsMC04IDEyOCAwIDAgOGMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtMTZjMC0yMi4xLTE3LjktNDAtNDAtNDBMMTUyIDk2Yy0yMi4xIDAtNDAgMTcuOS00MCA0MGwwIDE2YzAgMTMuMyAxMC43IDI0IDI0IDI0czI0LTEwLjcgMjQtMjR6bS04IDE4NGMtMjIuMSAwLTQwIDE3LjktNDAgNDBsMCAxNmMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtOCAxMjggMCAwIDhjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTE2YzAtMjIuMS0xNy45LTQwLTQwLTQwbC0xNDQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cabinet-filing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cabinet-filing.svg)
  */
 const CabinetFiling: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

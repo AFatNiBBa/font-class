@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ski-boot-ski` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ski-boot-ski?s=light ski-boot-ski}
- * @preview ![ski-boot-ski](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE1LjYgMTkuNGMxLjktOC42LTMuNy0xNy4xLTEyLjMtMTlzLTE3LjEgMy43LTE5IDEyLjNMMzgwLjIgMzIgMTY4IDMyYy03LjYgMC0xNC4yIDUuMy0xNS43IDEyLjhMODguMiAzNTguNGMtNi4xIDI5LjggMTYuNyA1Ny42IDQ3IDU3LjZMNDMyIDQxNmMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTUyLjJjMC0xOC4yLTEwLjMtMzQuOC0yNi41LTQyLjlsLTgzLjItNDEuNkw0MTUuNiAxOS40ek0yNzkuMiA2NGw5NC4yIDAtMjAuNiA5NmMtLjMgMC0uNSAwLS44IDBsLTQ4IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNDEuOSAwLTYuOSAzMkwyODggMjI0Yy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDYwLjIgMCA5MC45IDQ1LjVjNS40IDIuNyA4LjggOC4zIDguOCAxNC4zbDAgNTIuMmMwIDguOC03LjIgMTYtMTYgMTZsLTI5Ni44IDBjLTEwLjEgMC0xNy43LTkuMy0xNS43LTE5LjJsMjUuMi0xMjMuM2M0My42LTIwIDEwNy42LTY3LjIgMTM0LjQtMTc3LjV6bS0zMyAwYy0yMC4zIDc2LTYwIDExNS43LTkzIDEzNi42TDE4MS4xIDY0bDY1LjEgMHpNNjQwIDQxNmMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmMwIDM1LjMtMjguNyA2NC02NCA2NEwxNiA0ODBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNTI4IDBjNTMgMCA5Ni00MyA5Ni05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ski-boot-ski](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ski-boot-ski.svg)
  */
 const SkiBootSki: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

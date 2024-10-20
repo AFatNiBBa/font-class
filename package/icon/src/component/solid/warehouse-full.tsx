@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `warehouse-full` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/warehouse-full?s=solid warehouse-full}
- * @preview ![warehouse-full](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0ODhMMCAxNzEuM2MwLTI2LjIgMTUuOS00OS43IDQwLjItNTkuNEwzMDguMSA0LjhjNy42LTMuMSAxNi4xLTMuMSAyMy44IDBMNTk5LjggMTExLjljMjQuMyA5LjcgNDAuMiAzMy4zIDQwLjIgNTkuNEw2NDAgNDg4YzAgMTMuMy0xMC43IDI0LTI0IDI0bC00OCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTI2NGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtMzg0IDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMjY0YzAgMTMuMy0xMC43IDI0LTI0IDI0bC00OCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNHpNMzc2IDM4NGwxMTIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDgwYzAgMTMuMy0xMC43IDI0LTI0IDI0bC0xMTIgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC04MGMwLTEzLjMgMTAuNy0yNCAyNC0yNHpNMTI4IDI0OGMwLTEzLjMgMTAuNy0yNCAyNC0yNGwxNDQgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDgwYzAgMTMuMy0xMC43IDI0LTI0IDI0bC0xNDQgMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC04MHptMjQgMTM2bDE0NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgODBjMCAxMy4zLTEwLjcgMjQtMjQgMjRsLTE0NCAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTgwYzAtMTMuMyAxMC43LTI0IDI0LTI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![warehouse-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/warehouse-full.svg)
  */
 const WarehouseFull: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

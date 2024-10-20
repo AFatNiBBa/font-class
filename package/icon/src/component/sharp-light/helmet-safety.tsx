@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `helmet-safety` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helmet-safety?s=sharp-light helmet-safety}
- * @preview ![helmet-safety](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMybC0xNiAwIDAgMTYgMCAyMjQgMCAxNiAzMiAwIDAtMTYgMC0yMDggOTYgMCAwIDIwOCAwIDE2IDMyIDAgMC0xNiAwLTIyNCAwLTE2LTE2IDBMMjI0IDMyek0xNzYgNzguN0M5MS44IDExMC45IDMyIDE5Mi41IDMyIDI4OGwwIDMyIDMyIDAgMC0zMmMwLTc3LjUgNDUuOS0xNDQuMyAxMTItMTc0LjZsMC0zNC43em0yMjQgMzQuN2M2NS41IDMwIDExMS4xIDk1LjggMTEyIDE3Mi4zbDAgMzQuMyAzMiAwIDAtMzIgMC0yLjRjLTEtOTQuNS02MC41LTE3NC45LTE0NC0yMDYuOWwwIDM0Ljd6TTMyIDM5MS43bDAtNy43IDUxMiAwIDAgNy43LS44IC41Yy05LjEgNS43LTIzLjggMTMuOC00NC45IDIyLjFDNDU2LjIgNDMwLjcgMzg4LjIgNDQ4IDI4OCA0NDhzLTE2OC4yLTE3LjMtMjEwLjMtMzMuOGMtMjEuMS04LjItMzUuOC0xNi4zLTQ0LjktMjIuMWwtLjgtLjV6TTU3NiA0MDhsMC0yNCAwLTMyLTMyIDBMMzIgMzUyIDAgMzUybDAgMzIgMCAyNHM4MCA3MiAyODggNzJzMjg4LTcyIDI4OC03MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![helmet-safety](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/helmet-safety.svg)
  */
 const HelmetSafety: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

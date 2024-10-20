@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `css3-alt` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/css3-alt?s=brands css3-alt}
- * @preview ![css3-alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmwzNC45IDM5NS44TDE5MiA0ODBsMTU3LjEtNTIuMkwzODQgMzJIMHptMzEzLjEgODBsLTQuOCA0Ny4zTDE5MyAyMDguNmwtLjMuMWgxMTEuNWwtMTIuOCAxNDYuNi05OC4yIDI4LjctOTguOC0yOS4yLTYuNC03My45aDQ4LjlsMy4yIDM4LjMgNTIuNiAxMy4zIDU0LjctMTUuNCAzLjctNjEuNi0xNjYuMy0uNXYtLjFsLS4yLjEtMy42LTQ2LjNMMTkzLjEgMTYybDYuNS0yLjdINzYuN0w3MC45IDExMmgyNDIuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![css3-alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/css3-alt.svg)
  */
 const Css3Alt: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

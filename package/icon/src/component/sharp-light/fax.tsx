@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fax` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fax?s=sharp-light fax}
- * @preview ![fax](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMTYgMEw0MDggMGw2LjYgMCA0LjcgNC43IDU2IDU2IDQuNyA0LjcgMCA2LjYgMCA4OC0zMiAwIDAtODEuNEw0MDEuNCAzMiAxNjAgMzJsMCA5NiAwIDMyIDAgMzIgMzM2IDAgMTYgMCAwIDE2IDAgMjg4IDAgMTYtMTYgMC0zMzYgMC0zMiAwLTMyIDAtNjQgMEwwIDUxMmwwLTMyTDAgMTYwbDAtMzIgMzIgMCA5NiAwIDAtMTEyIDAtMTZ6TTQ4MCAyMjRsLTMyMCAwIDAgMjU2IDMyMCAwIDAtMjU2em0tMzUyIDBsMC0xNiAwLTQ4LTk2IDAgMCAzMjAgNjQgMCAzMiAwIDAtMjU2ek0yOTYgMzc2bDAgNDgtNDggMCAwLTQ4IDQ4IDB6bS00OC05Nmw0OCAwIDAgNDgtNDggMCAwLTQ4em0xNDQgMGwwIDQ4LTQ4IDAgMC00OCA0OCAwem0tNDggOTZsNDggMCAwIDQ4LTQ4IDAgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fax](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fax.svg)
  */
 const Fax: typeof Icon = x => (
     <Icon {...x}>

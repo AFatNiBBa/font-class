@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloud-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-xmark?s=sharp-solid cloud-xmark}
- * @preview ![cloud-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDQ4MEwwIDQ4MCAwIDMzNmMwLTYyLjcgNDAuMS0xMTYgOTYtMTM1LjhsMC04LjJjMC04OC40IDcxLjYtMTYwIDE2MC0xNjBjNTkuMyAwIDExMSAzMi4yIDEzOC43IDgwLjJDNDA5LjkgMTAyIDQyOC4zIDk2IDQ0OCA5NmM1MyAwIDk2IDQzIDk2IDk2bDAgMzZjNTUuMiAxNC4yIDk2IDY0LjMgOTYgMTI0bDAgMTI4LTEyOCAwLTM2OCAwek00MTcuOSAyMjRMMzg0IDE5MC4xbC0xNyAxNy00NyA0Ny00Ny00Ny0xNy0xN0wyMjIuMSAyMjRsMTcgMTcgNDcgNDctNDcgNDctMTcgMTdMMjU2IDM4NS45bDE3LTE3IDQ3LTQ3IDQ3IDQ3IDE3IDE3TDQxNy45IDM1MmwtMTctMTctNDctNDcgNDctNDcgMTctMTd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cloud-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-xmark.svg)
  */
 const CloudXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

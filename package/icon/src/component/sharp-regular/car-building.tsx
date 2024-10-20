@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-building` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-building?s=sharp-regular car-building}
- * @preview ![car-building](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDhsMjU2IDAgMCA4MCA0OCAwIDAtODAgMC00OEwzMDQgMCA0OCAwIDAgMCAwIDQ4IDAgNDMybDAgNDggNDggMCAxNDQgMCAwLTQ4TDQ4IDQzMiA0OCA0OHpNMjU2IDE5MmwtNjQgMCAwIDQ3LjcgNTYuNyAuNCAxLjggMCA1LjUtMTUuOSAwLTMyLjJ6TTE2MCA5Nkw5NiA5NmwwIDY0IDY0IDAgMC02NHptMzIgMGwwIDY0IDY0IDAgMC02NC02NCAwem0tMzIgOTZsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bTAgOTZsLTY0IDAgMCA2NCA2NCAwIDAtNjR6TTMxMS4xIDE2MGwtNS43IDE1LjlMMjcxLjEgMjcyIDIyNCAyNzJsMCA0OCAwIDgwIDAgMTYgMCAzMiAwIDY0IDQ4IDAgMC02NCAzMjAgMCAwIDY0IDQ4IDAgMC02NCAwLTMyIDAtMTYgMC04MCAwLTQ4LTQ3LjEgMC0zNC4zLTk2LjFMNTUyLjkgMTYwIDUzNiAxNjBsLTIwOCAwLTE2LjkgMHpNNTc2LjYgMzIwbDE1LjQgMCAwIDgwLTMyMCAwIDAtODAgMTUuNCAwYy40IDAgLjcgMCAxLjEgMGwyODYuOSAwYy40IDAgLjcgMCAxLjEgMHpNNTE5LjEgMjA4bDIyLjkgNjQtMjE5LjkgMCAyMi45LTY0IDE3NC4yIDB6TTMzNiAzODRhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em0yMTYtMjRhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![car-building](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/car-building.svg)
  */
 const CarBuilding: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

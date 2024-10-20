@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `creative-commons-remix` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/creative-commons-remix?s=brands creative-commons-remix}
- * @preview ![creative-commons-remix](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ3LjYgOEMzODkuNCA4IDQ5NiAxMTguMSA0OTYgMjU2YzAgMTQ3LjEtMTE4LjUgMjQ4LTI0OC40IDI0OEMxMTMuNiA1MDQgMCAzOTQuNSAwIDI1NiAwIDEyMy4xIDEwNC43IDggMjQ3LjYgOHptLjggNDQuN0MxMzAuMiA1Mi43IDQ0LjcgMTUwLjYgNDQuNyAyNTZjMCAxMDkuOCA5MS4yIDIwMi44IDIwMy43IDIwMi44IDEwMy4yIDAgMjAyLjgtODEuMSAyMDIuOC0yMDIuOC4xLTExMy44LTkwLjItMjAzLjMtMjAyLjgtMjAzLjN6bTE2MS43IDIwNy43bDQuOSAyLjJ2NzBjLTcuMiAzLjYtNjMuNCAyNy41LTY3LjMgMjguOC02LjUtMS44LTExMy43LTQ2LjgtMTM3LjMtNTYuMmwtNjQuMiAyNi42LTYzLjMtMjcuNXYtNjMuOGw1OS4zLTI0LjhjLS43LS43LS40IDUtLjQtNzAuNGw2Ny4zLTI5LjdMMzYxIDE3OC41djYxLjZsNDkuMSAyMC4zem0tNzAuNCA4MS41di00My44aC0uNHYtMS44bC0xMTMuOC00Ni41VjI5NWwxMTMuOCA0Ni45di0uNGwuNC40em03LjUtNTcuNmwzOS45LTE2LjQtMzYuOC0xNS41LTM5IDE2LjQgMzUuOSAxNS41em01Mi4zIDM4LjF2LTQzTDM1NS4yIDI5OHY0My40bDQ0LjMtMTl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![creative-commons-remix](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/creative-commons-remix.svg)
  */
 const CreativeCommonsRemix: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

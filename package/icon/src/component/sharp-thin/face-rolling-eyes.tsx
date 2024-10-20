@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-rolling-eyes` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-rolling-eyes?s=sharp-thin face-rolling-eyes}
- * @preview ![face-rolling-eyes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAwIDE2IDI1NmEyNDAgMjQwIDAgMSAwIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTE5MiAzNzZsMTI4IDAgOCAwIDAgMTYtOCAwLTEyOCAwLTggMCAwLTE2IDggMHptLTMyLTg4YzM1LjMgMCA2NC0yOC43IDY0LTY0YzAtMjAuOS0xMC0zOS41LTI1LjYtNTEuMmMxIDMuNiAxLjYgNy4zIDEuNiAxMS4yYzAgMjIuMS0xNy45IDQwLTQwIDQwcy00MC0xNy45LTQwLTQwYzAtMy45IC42LTcuNiAxLjYtMTEuMkMxMDYgMTg0LjUgOTYgMjAzLjEgOTYgMjI0YzAgMzUuMyAyOC43IDY0IDY0IDY0ek04MCAyMjRhODAgODAgMCAxIDEgMTYwIDBBODAgODAgMCAxIDEgODAgMjI0em01Ni00MGEyNCAyNCAwIDEgMCA0OCAwIDI0IDI0IDAgMSAwIC00OCAwem0yODAgNDBjMC0yMC45LTEwLjEtMzkuNS0yNS42LTUxLjJjMSAzLjYgMS42IDcuMyAxLjYgMTEuMmMwIDIyLjEtMTcuOSA0MC00MCA0MHMtNDAtMTcuOS00MC00MGMwLTMuOSAuNi03LjYgMS42LTExLjJDMjk4IDE4NC41IDI4OCAyMDMuMSAyODggMjI0YzAgMzUuMyAyOC43IDY0IDY0IDY0czY0LTI4LjcgNjQtNjR6bS02NCA4MGE4MCA4MCAwIDEgMSAwLTE2MCA4MCA4MCAwIDEgMSAwIDE2MHptMC0xNDRhMjQgMjQgMCAxIDAgMCA0OCAyNCAyNCAwIDEgMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![face-rolling-eyes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-rolling-eyes.svg)
  */
 const FaceRollingEyes: typeof Icon = x => (
     <Icon {...x}>

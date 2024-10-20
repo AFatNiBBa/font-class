@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tally` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tally?s=sharp-solid tally}
- * @preview ![tally](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMybDAgMzIgMCAyMTQuNSA2NC0yMi42TDIyNCA2NGwwLTMyIDY0IDAgMCAzMiAwIDE2OS40IDY0LTIyLjZMMzUyIDY0bDAtMzIgNjQgMCAwIDMyIDAgMTI0LjIgNjQtMjIuNkw0ODAgNjRsMC0zMiA2NCAwIDAgMzIgMCA3OSAzNy40LTEzLjIgMzAuMi0xMC43IDIxLjMgNjAuNC0zMC4yIDEwLjdMNTQ0IDIxMC45IDU0NCA0NDhsMCAzMi02NCAwIDAtMzIgMC0yMTQuNS02NCAyMi42TDQxNiA0NDhsMCAzMi02NCAwIDAtMzIgMC0xNjkuNC02NCAyMi42TDI4OCA0NDhsMCAzMi02NCAwIDAtMzIgMC0xMjQuMi02NCAyMi42TDE2MCA0NDhsMCAzMi02NCAwIDAtMzIgMC03OUw1OC42IDM4Mi4yIDI4LjUgMzkyLjggNy4yIDMzMi41bDMwLjItMTAuNkw5NiAzMDEuMSA5NiA2NGwwLTMyIDY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tally](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tally.svg)
  */
 const Tally: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

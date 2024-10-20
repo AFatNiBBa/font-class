@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `place-of-worship` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/place-of-worship?s=sharp-solid place-of-worship}
- * @preview ![place-of-worship](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDk2bDAgODkuNkwxNjAgMjI0bDAgMjg4IDk2IDAgMC05NmMwLTM1LjMgMjguNy02NCA2NC02NHM2NCAyOC43IDY0IDY0bDAgOTYgOTYgMCAwLTI4OC02NC0zOC40TDQxNiA5NiAzMjAgMCAyMjQgOTZ6TTAgMzQ0TDAgNTEybDEyOCAwIDAtMjM4LjRMMCAzNDR6TTY0MCA1MTJsMC0xNjhMNTEyIDI3My42IDUxMiA1MTJsMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![place-of-worship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/place-of-worship.svg)
  */
 const PlaceOfWorship: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

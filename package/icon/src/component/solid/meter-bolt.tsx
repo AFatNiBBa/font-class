@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meter-bolt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-bolt?s=solid meter-bolt}
- * @preview ![meter-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMmM3My43IDAgMTQwLjEtMzEuMSAxODYuOC04MWw3LjUtMTVMNDMyIDQxNmMtMjAuNCAwLTM4LjUtMTIuOS00NS4zLTMyLjFzLS42LTQwLjYgMTUuMy01My40bDEwOS42LTg3LjdDNTA0LjggMTA3LjUgMzkzIDAgMjU2IDBDMTE0LjYgMCAwIDExNC42IDAgMjU2UzExNC42IDUxMiAyNTYgNTEyek0xOTIgMTYwbDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMmMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyem05NiAwbDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMmMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyem05NiAwbDAgMzJjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0zMmMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMyem0yMTguMSA2Ny42Yy01LjgtNC43LTE0LjItNC43LTIwLjEtLjFsLTE2MCAxMjhjLTUuMyA0LjItNy40IDExLjQtNS4xIDE3LjhzOC4zIDEwLjcgMTUuMSAxMC43bDcwLjEgMEw0NDkuNyA0ODguOGMtMy40IDYuNy0xLjYgMTQuOSA0LjMgMTkuNnMxNC4yIDQuNyAyMC4xIC4xbDE2MC0xMjhjNS4zLTQuMiA3LjQtMTEuNCA1LjEtMTcuOHMtOC4zLTEwLjctMTUuMS0xMC43bC03MC4xIDAgNTIuNC0xMDQuOGMzLjQtNi43IDEuNi0xNC45LTQuMi0xOS42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![meter-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/meter-bolt.svg)
  */
 const MeterBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

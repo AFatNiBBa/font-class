@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `caravan` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caravan?s=sharp-regular caravan}
- * @preview ![caravan](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDgwYzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEybDAgMTc2LTQ4IDAgMC0xOTIgMC00OC00OCAwLTY0IDAtNDggMCAwIDQ4IDAgMTkyLTQ0LjggMGMtMTYuNi0yOC43LTQ3LjYtNDgtODMuMi00OHMtNjYuNiAxOS4zLTgzLjIgNDhMNDggMzY4IDQ4IDgwbDM2OCAwek00OCA0MTZsNDggMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDMyIDAgNDggMCA2NCAwIDQ4IDAgNDggMCA0OCAwIDQwIDAgMjQgMCAwLTQ4LTI0IDAtNDAgMCAwLTE3NmMwLTg4LjQtNzEuNi0xNjAtMTYwLTE2MEw0OCAzMiAwIDMyIDAgODAgMCAzNjhsMCA0OCA0OCAwek00MzIgMjI0bC0xNiAwLTI0IDAgMCA0OCAyNCAwIDE2IDAgMCA5Ni02NCAwIDAtMTkyIDY0IDAgMCA0OHpNMjg4IDEyOEw5NiAxMjhsMCAxMjggMTkyIDAgMC0xMjh6TTE5MiAzNjhhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![caravan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/caravan.svg)
  */
 const Caravan: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

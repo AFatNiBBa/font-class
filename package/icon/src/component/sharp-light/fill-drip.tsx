@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fill-drip` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fill-drip?s=sharp-light fill-drip}
- * @preview ![fill-drip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNzJsMjIuNiAyMi42TDIxNy40IDQ4OS40IDI0MCA1MTJsMjIuNi0yMi42TDQ4OS40IDI2Mi42IDUxMiAyNDBsLTIyLjYtMjIuNkwyOTQuNiAyMi42IDI3MiAwIDI0OS40IDIyLjZsLTg2LjEgODYuMS05Ni05Nkw1NiAxLjQgMzMuNCAyNCA0NC43IDM1LjNsOTYgOTZMMjIuNiAyNDkuNCAwIDI3MnptMjQ0LjctMzYuN0wyNTYgMjQ2LjYgMjc4LjYgMjI0bC0xMS4zLTExLjMtODEuNC04MS40TDI3MiA0NS4zIDQ2Ni43IDI0MGwtNDggNDhMNjEuMyAyODhsLTE2LTE2TDE2My4zIDE1My45bDgxLjQgODEuNHpNOTMuMyAzMjBsMjkzLjUgMEwyNDAgNDY2LjcgOTMuMyAzMjB6TTQ4NC4xIDQzMy4zTDUxMiAzODQuNWwyNy45IDQ4LjhjMi43IDQuNyA0LjEgMTAuMSA0LjEgMTUuNWMwIDE3LjItMTQgMzEuMi0zMS4yIDMxLjJsLTEuNiAwQzQ5NCA0ODAgNDgwIDQ2NiA0ODAgNDQ4LjhjMC01LjQgMS40LTEwLjggNC4xLTE1LjV6bS0yNy44LTE1LjljLTUuNSA5LjYtOC4zIDIwLjQtOC4zIDMxLjRjMCAzNC45IDI4LjMgNjMuMiA2My4yIDYzLjJsMS42IDBjMzQuOSAwIDYzLjItMjguMyA2My4yLTYzLjJjMC0xMS0yLjktMjEuOC04LjMtMzEuNGwtMzcuMi02NS4yTDUxMiAzMjBsLTE4LjQgMzIuMi0zNy4yIDY1LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fill-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fill-drip.svg)
  */
 const FillDrip: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

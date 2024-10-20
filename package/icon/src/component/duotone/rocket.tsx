@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `rocket` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rocket?s=duotone rocket}
- * @preview ![rocket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zLjEgMjc1LjhDNy4zIDI4My4zIDE1LjMgMjg4IDI0IDI4OGw5NC41IDBjMTkuNS00My41IDUxLjYtMTEyLjEgODAuMS0xNThsLTgwLjggMGMtMjUuMiAwLTQ4LjUgMTMuMS02MS41IDM0LjZMMy41IDI1MS41Yy00LjUgNy40LTQuNyAxNi43LS40IDI0LjJ6TTIyNCAzOTEuOGwwIDk2LjJjMCA4LjcgNC43IDE2LjcgMTIuMiAyMC45YzMuNyAyLjEgNy43IDMuMSAxMS44IDMuMWM0LjMgMCA4LjYtMS4yIDEyLjUtMy41bDg2LjktNTIuOGMyMS41LTEzLjEgMzQuNi0zNi40IDM0LjYtNjEuNWwwLTgwLjhjLTQ1LjYgMjguMi0xMTQgNTkuNC0xNTggNzguNHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTE2Ni41IDM5NC44bC01MC43LTUwLjdjLTkuMi05LjItMTEuOS0yMy02LjctMzQuOWMxOC4zLTQxLjkgNjIuNy0xNDAuMiA5OC4xLTE5Mi41QzI4OS4xLTQuMSA0MTEuMS04LjEgNDgzLjkgNS4zYzExLjYgMi4xIDIwLjYgMTEuMiAyMi44IDIyLjhjMTMuNCA3Mi45IDkuMyAxOTQuOC0xMTEuNCAyNzYuN0MzNDIuNiAzNDAuNSAyNDMgMzgzLjkgMjAxIDQwMS43Yy0xMS44IDUtMjUuNCAyLjItMzQuNS02Ljl6TTM4NCAxNjhhNDAgNDAgMCAxIDAgMC04MCA0MCA0MCAwIDEgMCAwIDgweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rocket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rocket.svg)
  */
 const Rocket: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M3.1 275.8C7.3 283.3 15.3 288 24 288l94.5 0c19.5-43.5 51.6-112.1 80.1-158l-80.8 0c-25.2 0-48.5 13.1-61.5 34.6L3.5 251.5c-4.5 7.4-4.7 16.7-.4 24.2zM224 391.8l0 96.2c0 8.7 4.7 16.7 12.2 20.9c3.7 2.1 7.7 3.1 11.8 3.1c4.3 0 8.6-1.2 12.5-3.5l86.9-52.8c21.5-13.1 34.6-36.4 34.6-61.5l0-80.8c-45.6 28.2-114 59.4-158 78.4z" />
-            <path d="M166.5 394.8l-50.7-50.7c-9.2-9.2-11.9-23-6.7-34.9c18.3-41.9 62.7-140.2 98.1-192.5C289.1-4.1 411.1-8.1 483.9 5.3c11.6 2.1 20.6 11.2 22.8 22.8c13.4 72.9 9.3 194.8-111.4 276.7C342.6 340.5 243 383.9 201 401.7c-11.8 5-25.4 2.2-34.5-6.9zM384 168a40 40 0 1 0 0-80 40 40 0 1 0 0 80z" />
+        <path d="M166.5 394.8l-50.7-50.7c-9.2-9.2-11.9-23-6.7-34.9c18.3-41.9 62.7-140.2 98.1-192.5C289.1-4.1 411.1-8.1 483.9 5.3c11.6 2.1 20.6 11.2 22.8 22.8c13.4 72.9 9.3 194.8-111.4 276.7C342.6 340.5 243 383.9 201 401.7c-11.8 5-25.4 2.2-34.5-6.9zM384 168a40 40 0 1 0 0-80 40 40 0 1 0 0 80z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jedi` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jedi?s=sharp-solid jedi}
- * @preview ![jedi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ1LjIgMzE4LjNsLTI1LjEtNTAuMiA1MC4xIDI1LjFMMjgwIDBsMTYgMCA5LjggMjkzLjIgNTAuMS0yNS4xLTI1LjEgNTAuMkwzODQgMzM2bC01My4yIDE3LjcgMjUuMSA1MC4yLTQ3LjItMjMuNiAyLjIgNjUuN0MzNzAuNiA0MzUuMiA0MTYgMzgyLjkgNDE2IDMyMGMwLTM4LjMtMTYuOC03Mi43LTQzLjUtOTYuMUM0MTcuOCAxOTUuNiA0NDggMTQ1LjMgNDQ4IDg4YzAtMzAuNS04LjUtNTktMjMuMy04My4yYzY0LjkgMzcuOCAxMTIuOCAxMDEuNyAxMjkuMiAxNzcuNEw1MTIgMjI0bDQ3LjUgMGMuMyA1LjMgLjUgMTAuNiAuNSAxNmMwIDE4LjItMS44IDM2LTUuMiA1My4yTDQ5NiAzNTJsMzkuOSAwQzQ5My4zIDQ0Ni40IDM5OC4zIDUxMiAyODggNTEyUzgyLjcgNDQ2LjQgNDAuMSAzNTJMODAgMzUyIDIxLjIgMjkzLjJDMTcuOCAyNzYgMTYgMjU4LjIgMTYgMjQwYzAtNS40IC4yLTEwLjcgLjUtMTZMNjQgMjI0IDIyLjIgMTgyLjJDMzguNSAxMDYuNSA4Ni40IDQyLjYgMTUxLjMgNC44QzEzNi41IDI5IDEyOCA1Ny41IDEyOCA4OGMwIDU3LjMgMzAuMiAxMDcuNiA3NS41IDEzNS45QzE3Ni44IDI0Ny4zIDE2MCAyODEuNyAxNjAgMzIwYzAgNjIuOSA0NS40IDExNS4yIDEwNS4xIDEyNmwyLjItNjUuNy00Ny4yIDIzLjYgMjUuMS01MC4yTDE5MiAzMzZsNTMuMi0xNy43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![jedi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/jedi.svg)
  */
 const Jedi: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

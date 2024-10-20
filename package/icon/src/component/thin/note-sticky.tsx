@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `note-sticky` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/note-sticky?s=thin note-sticky}
- * @preview ![note-sticky](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDhDMzcuNSA0OCAxNiA2OS41IDE2IDk2bDAgMzIwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDIyMC4xIDBjMS4zIDAgMi42LS4xIDMuOS0uMmwwLTk1LjhjMC0yNi41IDIxLjUtNDggNDgtNDhsOTUuOCAwYy4yLTEuMyAuMi0yLjYgLjItMy45TDQzMiA5NmMwLTI2LjUtMjEuNS00OC00OC00OEw2NCA0OHpNMzA0IDQ1Ny4xYzEtLjggMS45LTEuNiAyLjctMi40TDQyMi42IDMzOC43Yy45LS45IDEuNy0xLjggMi40LTIuN0wzMzYgMzM2Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDg5LjF6TTAgOTZDMCA2MC43IDI4LjcgMzIgNjQgMzJsMzIwIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyMjAuMWMwIDEyLjctNS4xIDI0LjktMTQuMSAzMy45TDMxOC4xIDQ2NS45Yy05IDktMjEuMiAxNC4xLTMzLjkgMTQuMUw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![note-sticky](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/note-sticky.svg)
  */
 const NoteSticky: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

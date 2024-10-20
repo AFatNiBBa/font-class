@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-simple-from-bracket` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-simple-from-bracket?s=light money-simple-from-bracket}
- * @preview ![money-simple-from-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMzJDNTMuNSAzMiAzMiA1My41IDMyIDgwbDAgOTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZMMCA4MEMwIDM1LjggMzUuOCAwIDgwIDBMNTYwIDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCA5NmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTk2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDgwIDMyek00OTYgOTZjOC44IDAgMTYgNy4yIDE2IDE2bDAgMzQ0YzAgMzAuOS0yNS4xIDU2LTU2IDU2bC0yNzIgMGMtMzAuOSAwLTU2LTI1LjEtNTYtNTZsMC0zNDRjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDM0NGMwIDEzLjMgMTAuNyAyNCAyNCAyNGwyNzIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTM0NGMwLTguOCA3LjItMTYgMTYtMTZ6TTMyMCAyMDhjLTQ3IDAtODAgMzEuMy04MCA2NHMzMyA2NCA4MCA2NHM4MC0zMS4zIDgwLTY0cy0zMy02NC04MC02NHptMTEyIDY0YzAgNTUuNi01MyA5Ni0xMTIgOTZzLTExMi00MC40LTExMi05NnM1My05NiAxMTItOTZzMTEyIDQwLjQgMTEyIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![money-simple-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/money-simple-from-bracket.svg)
  */
 const MoneySimpleFromBracket: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

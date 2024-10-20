@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pinball` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pinball?s=sharp-thin pinball}
- * @preview ![pinball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ4YTgwIDgwIDAgMSAxIDAgMTYwIDgwIDgwIDAgMSAxIDAtMTYwem0wIDE3NmE5NiA5NiAwIDEgMCAwLTE5MiA5NiA5NiAwIDEgMCAwIDE5MnpNNzEuMyAzNjQuMWMtMTAuMS0zLjMtMTktOC4zLTI2LjYtMTQuN2MtMzMuOS0yOC40LTM4LjMtNzguOS05LjktMTEyLjhzNzguOC0zOC4zIDExMi43LTkuOWMwIDAgMCAwIDAgMEwzODMuNSA0MjYuN2wtMTcuMyAzMi40LTI5NS05NXMwIDAgMCAwem0tMzYuOS0yLjVjOS4yIDcuNyAxOS45IDEzLjggMzIgMTcuN2wzMDcuOCA5OS4xIDI5LjYtNTUuNy0yNDYtMjA4LjNjLTQwLjYtMzQuMS0xMDEuMi0yOC44LTEzNS4yIDExLjhTLTYuMyAzMjcuNSAzNC4zIDM2MS42ek0xMTIgMjg4YTE2IDE2IDAgMSAxIC0zMiAwIDE2IDE2IDAgMSAxIDMyIDB6TTk2IDI1NmEzMiAzMiAwIDEgMCAwIDY0IDMyIDMyIDAgMSAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pinball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pinball.svg)
  */
 const Pinball: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `notes` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notes?s=sharp-solid notes}
- * @preview ![notes](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDMyTDk2IDMybDAgMzg0IDI1NiAwIDAtOTYgMC0zMiAzMiAwIDk2IDAgMC0yNTZ6TTM4NCAzNTJsMCA0NS43IDAgMTguMyA5Ni05Ni0xOC4zIDBMNDE2IDMyMGwtMzIgMCAwIDMyek0yOTYgNDY0TDQ4IDQ2NGwwLTMxMiAwLTI0TDAgMTI4bDAgMjRMMCA0ODhsMCAyNCAyNCAwIDI3MiAwIDI0IDAgMC00OC0yNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![notes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/notes.svg)
  */
 const Notes: typeof Icon = x => (
     <Icon {...x}>

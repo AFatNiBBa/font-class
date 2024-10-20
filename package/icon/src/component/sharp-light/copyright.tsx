@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `copyright` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/copyright?s=sharp-light copyright}
- * @preview ![copyright](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYTIyNCAyMjQgMCAxIDEgMCA0NDggMjI0IDIyNCAwIDEgMSAwLTQ0OHptMCA0ODBBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xNjAgMjU2YzAtNTMgNDMtOTYgOTYtOTZjMzEuNCAwIDU5LjMgMTUuMSA3Ni44IDM4LjVsMjUuNi0xOS4yQzMzNS4xIDE0OC4yIDI5Ny45IDEyOCAyNTYgMTI4Yy03MC43IDAtMTI4IDU3LjMtMTI4IDEyOHM1Ny4zIDEyOCAxMjggMTI4YzQxLjkgMCA3OS4xLTIwLjIgMTAyLjQtNTEuM2wtMjUuNi0xOS4yQzMxNS4zIDMzNi45IDI4Ny40IDM1MiAyNTYgMzUyYy01MyAwLTk2LTQzLTk2LTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![copyright](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/copyright.svg)
  */
 const Copyright: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cards-blank` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cards-blank?s=solid cards-blank}
- * @preview ![cards-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcuOCAxMTguOEMxLjIgMTM0LjItNy45IDE2OC4yIDcuNSAxOTQuOWwxNjcgMjg5LjNjMTUuNCAyNi42IDQ5LjQgMzUuOCA3Ni4xIDIwLjRMNDQzLjQgMzkzLjJjMjYuNi0xNS40IDM1LjgtNDkuNCAyMC40LTc2LjFMMjk2LjggMjcuOEMyODEuNCAxLjIgMjQ3LjMtNy45IDIyMC43IDcuNUwyNy44IDExOC44ek00NTkuNCA0MjAuOUwzMjQuMSA0OTljOS43IDguMSAyMi4yIDEzIDM1LjkgMTNsMjI0IDBjMzAuOSAwIDU2LTI1LjEgNTYtNTZsMC0zMzZjMC0zMC45LTI1LjEtNTYtNTYtNTZMMzYwIDY0Yy0xLjggMC0zLjUgLjEtNS4zIC4yTDQ5MS41IDMwMS4xYzI0LjIgNDEuOSA5LjggOTUuNi0zMi4xIDExOS44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cards-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cards-blank.svg)
  */
 const CardsBlank: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

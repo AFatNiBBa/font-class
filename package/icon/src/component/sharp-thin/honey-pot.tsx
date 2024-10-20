@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `honey-pot` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/honey-pot?s=sharp-thin honey-pot}
- * @preview ![honey-pot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAwIDQ4bDAgNDgtODAgMC04MCAwIDAgMTYgODAgMGM2MS45IDAgMTEyIDUwLjEgMTEyIDExMmMwIDUuNC0uMSAxMC44LS40IDE2TDE2LjQgMjQwYy0uMi01LjItLjQtMTAuNi0uNC0xNmMwLTYxLjkgNTAuMS0xMTIgMTEyLTExMmwwLTE2TDQ4IDk2bDAtNDggMTA0IDAgMCAxMTIgMCA4IDggMCA0MCAwIDggMCAwLTggMC0xMTIgMTkyIDB6bTMwLjUgMjA4Yy0yLjkgMzAtOS43IDU2LjctMTguNyA4MEwzNi4zIDMzNmMtOS0yMy4zLTE1LjgtNTAtMTguNy04MGw0MTMgMHpNNDA1IDM1MmMtMTAuMSAyMi0yMS45IDQwLjgtMzMuNyA1Ni4zYy0xNS4yIDE5LjktMzAuNCAzNC42LTQxLjcgNDQuM2MtNS42IDQuOC0xMC4zIDguNC0xMy41IDEwLjdsLTEgLjctMTgyLjIgMC0xLS43Yy0zLjItMi4zLTcuOC01LjgtMTMuNS0xMC43Yy0xMS4zLTkuNy0yNi41LTI0LjMtNDEuNy00NC4zQzY0LjkgMzkyLjggNTMgMzc0IDQzIDM1MmwzNjIgMHpNMTY4IDQ4bDI0IDAgMCAxMDQtMjQgMCAwLTEwNHpNNDggMTEybDE4IDBDMjYuNiAxMzMuOCAwIDE3NS44IDAgMjI0QzAgNDAwIDEyOCA0ODAgMTI4IDQ4MGwxOTIgMHMxMjgtODAgMTI4LTI1NmMwLTQ4LjItMjYuNi05MC4yLTY2LTExMmwxOCAwIDE2IDAgMC0xNiAwLTQ4IDAtMTYtMTYgMEw0OCAzMiAzMiAzMmwwIDE2IDAgNDggMCAxNiAxNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![honey-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/honey-pot.svg)
  */
 const HoneyPot: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

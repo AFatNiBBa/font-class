@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-to-bracket` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-bracket?s=thin arrow-down-to-bracket}
- * @preview ![arrow-down-to-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY1LjcgMjEzLjdsLTEzNiAxMzZjLTMuMSAzLjEtOC4yIDMuMS0xMS4zIDBsLTEzNi0xMzZjLTMuMS0zLjEtMy4xLTguMiAwLTExLjNzOC4yLTMuMSAxMS4zIDBMMjE2IDMyNC43IDIxNiA4YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhsMCAzMTYuN0wzNTQuMyAyMDIuM2MzLjEtMy4xIDguMi0zLjEgMTEuMyAwczMuMSA4LjIgMCAxMS4zek0xNiAzMjhsMCA5NmMwIDM5LjggMzIuMiA3MiA3MiA3MmwyNzIgMGMzOS44IDAgNzItMzIuMiA3Mi03MmwwLTk2YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhsMCA5NmMwIDQ4LjYtMzkuNCA4OC04OCA4OEw4OCA1MTJjLTQ4LjYgMC04OC0zOS40LTg4LTg4bDAtOTZjMC00LjQgMy42LTggOC04czggMy42IDggOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-down-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-down-to-bracket.svg)
  */
 const ArrowDownToBracket: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

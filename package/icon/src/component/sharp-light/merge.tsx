@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `merge` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/merge?s=sharp-light merge}
- * @preview ![merge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NGwxNiAwIDgwIDAgNjQgMCA4LjEgMCA0LjggNi42TDI5Ni4xIDI0MGwxNTMuMiAwLTUyLjctNTIuN0wzODUuNCAxNzYgNDA4IDE1My40bDExLjMgMTEuM0w0OTQuNiAyNDBsMS40IDAgMCAxLjQgMy4zIDMuM0w1MTAuNiAyNTZsLTExLjMgMTEuMy0zLjMgMy4zIDAgMS40LTEuNCAwLTc1LjMgNzUuM0w0MDggMzU4LjYgMzg1LjQgMzM2bDExLjMtMTEuM0w0NDkuNCAyNzJsLTE1My4yIDBMMTcyLjkgNDQxLjRsLTQuOCA2LjYtOC4xIDAtNjQgMC04MCAwTDAgNDQ4bDAtMzIgMTYgMCA4MCAwIDU1LjkgMEwyNjguMiAyNTYgMTUxLjkgOTYgOTYgOTYgMTYgOTYgMCA5NiAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![merge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/merge.svg)
  */
 const Merge: typeof Icon = x => (
     <Icon {...x}>

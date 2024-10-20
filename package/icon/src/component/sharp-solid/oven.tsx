@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `oven` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oven?s=sharp-solid oven}
- * @preview ![oven](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDAgMTYwbDQ0OCAwTDQ0OCAwIDAgMHpNNTYgODBhMjQgMjQgMCAxIDEgNDggMEEyNCAyNCAwIDEgMSA1NiA4MHpNMTc2IDU2YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptNzIgMjRhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHpNMzY4IDU2YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMTYgMjAwbDAgMTkyTDY0IDQ0OGwwLTE5MiAzMjAgMHpNNjQgMTkyTDAgMTkybDAgNjRMMCA0NDhsMCA2NCA2NCAwIDMyMCAwIDY0IDAgMC02NCAwLTE5MiAwLTY0LTY0IDBMNjQgMTkyem0yNzIgOTZsLTIyNCAwLTE2IDAgMCAzMiAxNiAwIDIyNCAwIDE2IDAgMC0zMi0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![oven](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/oven.svg)
  */
 const Oven: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

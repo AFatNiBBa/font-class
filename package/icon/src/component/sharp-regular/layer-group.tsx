@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `layer-group` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-group?s=sharp-regular layer-group}
- * @preview ![layer-group](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDIwMy41TDExOC4yIDEyOCAyODggNTIuNSA0NTcuOCAxMjggMjg4IDIwMy41ek01MTYuOSAxMDEuN0wyODggMCA1OS4xIDEwMS43IDAgMTI4bDU5LjEgMjYuM0wyODggMjU2IDUxNi45IDE1NC4zIDU3NiAxMjhsLTU5LjEtMjYuM3ptLTM1My4yIDEzNGwtNTkuMS0yNi4zTDU5LjEgMjI5LjcgMCAyNTZsNTkuMSAyNi4zTDI4OCAzODQgNTE2LjkgMjgyLjMgNTc2IDI1NmwtNTkuMS0yNi4zLTQ1LjUtMjAuMi01OS4xIDI2LjNMNDU3LjggMjU2IDI4OCAzMzEuNSAxMTguMiAyNTZsNDUuNS0yMC4yek0xMDQuNiAzMzcuNUw1OS4xIDM1Ny43IDAgMzg0bDU5LjEgMjYuM0wyODggNTEyIDUxNi45IDQxMC4zIDU3NiAzODRsLTU5LjEtMjYuMy00NS41LTIwLjItNTkuMSAyNi4zTDQ1Ny44IDM4NCAyODggNDU5LjUgMTE4LjIgMzg0bDQ1LjUtMjAuMi01OS4xLTI2LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![layer-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/layer-group.svg)
  */
 const LayerGroup: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

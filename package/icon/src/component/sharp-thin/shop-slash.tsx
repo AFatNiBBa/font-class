@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shop-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop-slash?s=sharp-thin shop-slash}
- * @preview ![shop-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjI0IDIyNGwxNiAwIDAtMTYgMC0zMkw1NDQgMCAxMTEuOSAwbDIwLjMgMTYgNDAyLjMgMEw2MjQgMTgwLjFsMCAyNy45LTI0OC42IDAgMjAuMyAxNkw1NjAgMjI0bDAgMTI5LjcgMTYgMTIuNkw1NzYgMjI0bDQ4IDB6TTAgMTc2bDAgMzIgMCAxNiAxNiAwIDQ4IDAgMCAyODAgMCA4IDggMCAzMDQgMCA4IDAgMC04IDAtMTA1LjctMTYtMTIuNkwzNjggNDk2IDgwIDQ5NmwwLTI3MiA4My4zIDBMMTQzIDIwOCAxNiAyMDhsMC0yNy45IDI3LjYtNTAuNkwzMC44IDExOS41IDAgMTc2ek0zMDQgMzY4bC0xNjAgMCAwLTExMi0xNiAwIDAgMTIwIDAgOCA4IDAgMTc2IDAgOCAwIDAtOCAwLTI4LjMtMTYtMTIuNiAwIDMyLjl6TTE2LjIgNUw5LjkgMCAwIDEyLjVsNi4zIDVMNjIzLjggNTA3bDYuMyA1IDkuOS0xMi41LTYuMy01TDE2LjIgNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shop-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shop-slash.svg)
  */
 const ShopSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

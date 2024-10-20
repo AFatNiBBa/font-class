@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dial-max` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-max?s=sharp-solid dial-max}
- * @preview ![dial-max](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBsMCA2NC02NCAwIDAtNjQgNjQgMHpNMTI4IDY0bDAgNjQtNjQgMCAwLTY0IDY0IDB6bTM4NCAwbDAgNjQtNjQgMCAwLTY0IDY0IDB6bTAgMTkybDY0IDAgMCA2NC02NCAwIDAtNjR6bTAgMTkybDAgNjQtNjQgMCAwLTY0IDY0IDB6TTY0IDQ0OGw2NCAwIDAgNjQtNjQgMCAwLTY0ek0wIDI1Nmw2NCAwIDAgNjRMMCAzMjBsMC02NHptNDAxLjQtODEuM2M1Ni43IDU2LjcgNjIgMTQ1LjQgMTUuNyAyMDhMMzA1LjMgMjcwLjlsLTE3LTE3LTMzLjkgMzMuOSAxNyAxN0wzODMuMiA0MTYuN2MtNjIuNiA0Ni4yLTE1MS4zIDQxLTIwOC0xNS43Yy02Mi41LTYyLjUtNjIuNS0xNjMuOCAwLTIyNi4zczE2My44LTYyLjUgMjI2LjMgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dial-max](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dial-max.svg)
  */
 const DialMax: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

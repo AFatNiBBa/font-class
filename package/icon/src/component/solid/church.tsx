@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `church` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/church?s=solid church}
- * @preview ![church](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ0IDI0YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgMjQtMzIgMGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwzMiAwIDAgNDYuNEwxODMuMyAyMTBjLTE0LjUgOC43LTIzLjMgMjQuMy0yMy4zIDQxLjJMMTYwIDUxMmw5NiAwIDAtOTZjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NGwwIDk2IDk2IDAgMC0yNjAuOGMwLTE2LjktOC44LTMyLjUtMjMuMy00MS4yTDM0NCAxNDIuNCAzNDQgOTZsMzIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMzIgMCAwLTI0ek0yNC45IDMzMC4zQzkuNSAzMzguOCAwIDM1NC45IDAgMzcyLjRMMCA0NjRjMCAyNi41IDIxLjUgNDggNDggNDhsODAgMCAwLTIzOC40TDI0LjkgMzMwLjN6TTU5MiA1MTJjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC05MS42YzAtMTcuNS05LjUtMzMuNi0yNC45LTQyLjFMNTEyIDI3My42IDUxMiA1MTJsODAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![church](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/church.svg)
  */
 const Church: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

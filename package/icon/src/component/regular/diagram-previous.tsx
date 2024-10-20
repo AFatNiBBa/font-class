@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-previous` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-previous?s=regular diagram-previous}
- * @preview ![diagram-previous](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDQxNmMwIDguOC03LjIgMTYtMTYgMTZMNjQgNDMyYy04LjggMC0xNi03LjItMTYtMTZsMC02NGMwLTguOCA3LjItMTYgMTYtMTZsMzg0IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNjR6bTQ4LTY0YzAtMzUuMy0yOC43LTY0LTY0LTY0bC0xNjggMCAwLTg2LjEgMjMgMjNjOS40IDkuNCAyNC42IDkuNCAzMy45IDBzOS40LTI0LjYgMC0zMy45bC02NC02NGMtOS40LTkuNC0yNC42LTkuNC0zMy45IDBsLTY0IDY0Yy05LjQgOS40LTkuNCAyNC42IDAgMzMuOXMyNC42IDkuNCAzMy45IDBsMjMtMjMgMCA4Ni4xTDY0IDI4OGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCA2NGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzODQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTY0ek02NCAyMjRsNzQuMyAwYy01LjctMTkuMS0xLTQwLjUgMTQuMS01NS42bDY0LTY0YzIxLjktMjEuOSA1Ny4zLTIxLjkgNzkuMiAwbDY0IDY0YzE1IDE1IDE5LjcgMzYuNSAxNC4xIDU1LjZsNzQuMyAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtNjRjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NmwwIDY0YzAgMzUuMyAyOC43IDY0IDY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![diagram-previous](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/diagram-previous.svg)
  */
 const DiagramPrevious: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-to-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-line?s=sharp-thin arrow-down-to-line}
- * @preview ![arrow-down-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCA0ODBsLTggMCAwLTE2IDggMCAzNjggMCA4IDAgMCAxNi04IDBMOCA0ODB6bTE4OS43LTk4LjNsLTUuNyA1LjctNS43LTUuNy0xMzYtMTM2TDQ0LjcgMjQwIDU2IDIyOC43bDUuNyA1LjdMMTg0IDM1Ni43IDE4NCA0MGwwLTggMTYgMCAwIDggMCAzMTYuN0wzMjIuMyAyMzQuM2w1LjctNS43TDMzOS4zIDI0MGwtNS43IDUuNy0xMzYgMTM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-down-to-line.svg)
  */
 const ArrowDownToLine: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-frown-open` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-frown-open?s=light face-frown-open}
- * @preview ![face-frown-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTE3Ni40LTcyYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMTM2IDI0YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bTIyIDE5Mi4xYy0yMi40LTkuNS00Ny43LTE0LjgtNzQuNS0xNC44Yy0yNi44IDAtNTIgNS4zLTc0LjQgMTQuOGMtMTEuMiA0LjctMjMuOCAzLjEtMzIuOC0zLjZjLTkuNy03LjItMTQuOS0yMC40LTktMzMuOWMxOS4yLTQ0LjEgNjQuMi03NC43IDExNi4yLTc0LjdjNTIgMCA5NyAzMC42IDExNi4yIDc0LjdjNS45IDEzLjYgLjggMjYuNy05IDMzLjljLTkgNi42LTIxLjUgOC4zLTMyLjggMy41em0tNzQuNC04MC4yYy0zNi45IDAtNjguNSAyMC4zLTgzLjkgNDkuNWMyNS42LTEwLjQgNTQtMTYuMSA4My45LTE2LjFjMjkuOSAwIDU4LjQgNS44IDg0IDE2LjFjLTE1LjQtMjkuMi00Ny4xLTQ5LjUtODQtNDkuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-frown-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-frown-open.svg)
  */
 const FaceFrownOpen: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-dashed` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dashed?s=sharp-thin square-dashed}
- * @preview ![square-dashed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAzMmwxMjAgMCAwIDE2TDE2IDQ4bDAgMTEyTDAgMTYwIDAgNDBsMC04IDggMHpNMCAxOTJsMTYgMCAwIDEyOEwwIDMyMCAwIDE5MnptNDMyIDBsMTYgMCAwIDEyOC0xNiAwIDAtMTI4em0xNi0zMmwtMTYgMCAwLTExMkwzMjAgNDhsMC0xNiAxMjAgMCA4IDAgMCA4IDAgMTIwem0wIDE5MmwwIDEyMCAwIDgtOCAwLTEyMCAwIDAtMTYgMTEyIDAgMC0xMTIgMTYgMHpNMTYgMzUybDAgMTEyIDExMiAwIDAgMTZMOCA0ODBsLTggMCAwLThMMCAzNTJsMTYgMHpNMjg4IDQ4MGwtMTI4IDAgMC0xNiAxMjggMCAwIDE2ek0xNjAgNDhsMC0xNiAxMjggMCAwIDE2TDE2MCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-dashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-dashed.svg)
  */
 const SquareDashed: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

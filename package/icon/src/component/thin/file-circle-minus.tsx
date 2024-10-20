@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-circle-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-minus?s=thin file-circle-minus}
- * @preview ![file-circle-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDk2bDI0Ny4yIDBjNS44IDUuNSAxMiAxMC42IDE4LjUgMTUuM2MtMy4yIC41LTYuNCAuNy05LjcgLjdMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDY0QzAgMjguNyAyOC43IDAgNjQgMEwyMDQuMSAwYzEyLjcgMCAyNC45IDUuMSAzMy45IDE0LjFMMzY5LjkgMTQ1LjljOSA5IDE0LjEgMjEuMiAxNC4xIDMzLjlsMCAxOC43Yy01LjQgMS41LTEwLjggMy4zLTE2IDUuNGwwLTI0LjFjMC0xLjMtLjEtMi42LS4yLTMuOUwyNDggMTc2Yy0yMi4xIDAtNDAtMTcuOS00MC00MGwwLTExOS44Yy0xLjMtLjItMi42LS4yLTMuOS0uMkw2NCAxNkMzNy41IDE2IDE2IDM3LjUgMTYgNjRsMCAzODRjMCAyNi41IDIxLjUgNDggNDggNDh6TTM2MS4xIDE2MGMtLjgtMS0xLjYtMS45LTIuNC0yLjdMMjI2LjcgMjUuNGMtLjktLjktMS44LTEuNy0yLjctMi40TDIyNCAxMzZjMCAxMy4zIDEwLjcgMjQgMjQgMjRsMTEzLjEgMHpNNDMyIDQ5NmExMjggMTI4IDAgMSAwIDAtMjU2IDEyOCAxMjggMCAxIDAgMCAyNTZ6bTAtMjcyYTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptODAgMTQ0YzAgNC40LTMuNiA4LTggOGwtMTQ0IDBjLTQuNCAwLTgtMy42LTgtOHMzLjYtOCA4LThsMTQ0IDBjNC40IDAgOCAzLjYgOCA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-circle-minus.svg)
  */
 const FileCircleMinus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

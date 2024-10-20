@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `objects-align-center-vertical` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-center-vertical?s=light objects-align-center-vertical}
- * @preview ![objects-align-center-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDY0YzguOCAwIDE2IDcuMiAxNiAxNmwwIDE3NiAwIDE3NmMwIDguOC03LjIgMTYtMTYgMTZsLTY0IDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTE3NnMwIDAgMCAwczAgMCAwIDBMOTYgODBjMC04LjggNy4yLTE2IDE2LTE2bDY0IDB6bTQ4IDE3NmwwLTE2MGMwLTI2LjUtMjEuNS00OC00OC00OGwtNjQgMEM4NS41IDMyIDY0IDUzLjUgNjQgODBsMCAxNjAtNDggMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmw0OCAwIDAgMTYwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDY0IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0xNjAgNjQgMCAwIDk2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDY0IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC05NiA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC00OCAwIDAtOTZjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTY0IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgOTYtNjQgMHptOTYgMTZsMC0xMTJjMC04LjggNy4yLTE2IDE2LTE2bDY0IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTEyIDAgMTEyYzAgOC44LTcuMiAxNi0xNiAxNmwtNjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![objects-align-center-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/objects-align-center-vertical.svg)
  */
 const ObjectsAlignCenterVertical: typeof Icon = x => (
     <Icon {...x}>

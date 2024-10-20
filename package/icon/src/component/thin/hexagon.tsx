@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hexagon` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon?s=thin hexagon}
- * @preview ![hexagon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAuOSAyMjhjLTEwIDE3LjMtMTAgMzguNyAwIDU2bDg4LjMgMTUyLjljMTAgMTcuMyAyOC41IDI4IDQ4LjUgMjhsMTc2LjYgMGMyMCAwIDM4LjUtMTAuNyA0OC41LTI4TDQ4MS4xIDI4NGMxMC0xNy4zIDEwLTM4LjcgMC01NkwzOTIuOCA3NS4xYy0xMC0xNy4zLTI4LjUtMjgtNDguNS0yOGwtMTc2LjYgMGMtMjAgMC0zOC41IDEwLjctNDguNSAyOEwzMC45IDIyOHpNMTcuMSAyOTJjLTEyLjktMjIuMy0xMi45LTQ5LjcgMC03MkwxMDUuNCA2Ny4xYzEyLjktMjIuMyAzNi42LTM2IDYyLjQtMzZsMTc2LjYgMGMyNS43IDAgNDkuNSAxMy43IDYyLjQgMzZMNDk0LjkgMjIwYzEyLjkgMjIuMyAxMi45IDQ5LjcgMCA3Mkw0MDYuNiA0NDQuOWMtMTIuOSAyMi4zLTM2LjYgMzYtNjIuNCAzNmwtMTc2LjYgMGMtMjUuNyAwLTQ5LjUtMTMuNy02Mi40LTM2TDE3LjEgMjkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hexagon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hexagon.svg)
  */
 const Hexagon: typeof Icon = x => (
     <Icon {...x}>

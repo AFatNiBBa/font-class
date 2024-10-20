@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tty` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tty?s=sharp-regular tty}
- * @preview ![tty](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDI1My4ybDAtNjQuNGMtNDAuOS0xNy4yLTg3LjEtMTcuMi0xMjggMGwwIDY0LjRMMzIgMjg4IDAgMTUyLjZDMzAuOCAxMTIuNCAxMTguNyAzMiAyNTYgMzJzMjI1LjIgODAuNCAyNTYgMTIwLjZMNDgwIDI4OCAzMjAgMjUzLjJ6TTE0NCAxODguOGwwLTMxLjkgMjkuNS0xMi4zYzUyLjgtMjIuMSAxMTIuMy0yMi4xIDE2NS4xIDBMMzY4IDE1Ni44bDAgMzEuOSAwIDI1LjggNzYuMSAxNi42IDE1LjUtNjUuNkM0MjUuOSAxMzAuNCAzNTYuNCA4MCAyNTYgODBTODYuMSAxMzAuNCA1Mi4zIDE2NS40bDE1LjUgNjUuNkwxNDQgMjE0LjVsMC0yNS44ek0zMiAzMjBsNjQgMCAwIDY0LTY0IDAgMC02NHptMCA5Nmw2NCAwIDAgNjQtNjQgMCAwLTY0em0xNjAtOTZsMCA2NC02NCAwIDAtNjQgNjQgMHptMzIgMGw2NCAwIDAgNjQtNjQgMCAwLTY0em0xNjAgMGwwIDY0LTY0IDAgMC02NCA2NCAwem0zMiAwbDY0IDAgMCA2NC02NCAwIDAtNjR6bTY0IDk2bDAgNjQtNjQgMCAwLTY0IDY0IDB6bS0zNTIgMGwyNTYgMCAwIDY0LTI1NiAwIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tty.svg)
  */
 const Tty: typeof Icon = x => (
     <Icon {...x}>

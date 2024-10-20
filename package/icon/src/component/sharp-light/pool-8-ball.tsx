@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pool-8-ball` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pool-8-ball?s=sharp-light pool-8-ball}
- * @preview ![pool-8-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTM2OC02NGExMTIgMTEyIDAgMSAwIC0yMjQgMCAxMTIgMTEyIDAgMSAwIDIyNCAwem0tMjU2IDBhMTQ0IDE0NCAwIDEgMSAyODggMCAxNDQgMTQ0IDAgMSAxIC0yODggMHptMTQ0LTMyYTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnptMzcuMyAxNC4yQzMwNC44IDE4NC41IDMxMiAxOTkuNCAzMTIgMjE2YzAgMzAuOS0yNS4xIDU2LTU2IDU2cy01Ni0yNS4xLTU2LTU2YzAtMTYuNiA3LjItMzEuNSAxOC43LTQxLjhDMjEyIDE2NiAyMDggMTU1LjUgMjA4IDE0NGMwLTI2LjUgMjEuNS00OCA0OC00OHM0OCAyMS41IDQ4IDQ4YzAgMTEuNS00IDIyLTEwLjcgMzAuMnpNMjU2IDE5MmEyNCAyNCAwIDEgMCAwIDQ4IDI0IDI0IDAgMSAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pool-8-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pool-8-ball.svg)
  */
 const Pool_8Ball: typeof Icon = x => (
     <Icon {...x}>

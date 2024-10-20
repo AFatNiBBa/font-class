@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-mirrors` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-mirrors?s=sharp-light car-mirrors}
- * @preview ![car-mirrors](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMyLjEgMzJMMTQ0IDMybDI4OCAwIDExLjkgMCAzLjQgMTEuNEw0OTEuOSAxOTJsMjAuMSAwIDMyIDAgMTYgMCAxNiAwIDAgMzItMTYgMC0xNiAwIDAgMTYwIDAgMTYgMCAxNiAwIDY0LTMyIDAgMC02NEw2NCA0MTZsMCA2NC0zMiAwIDAtNjQgMC0xNiAwLTE2IDAtMTYwLTE2IDBMMCAyMjRsMC0zMiAxNiAwIDE2IDAgMzIgMCAyMC4xIDBMMTI4LjcgNDMuNCAxMzIuMSAzMnpNMTEyIDIyNGwtMTYgMC0zMiAwIDAgMTYwIDQ0OCAwIDAtMTYwLTMyIDAtMTYgMC0zNTIgMHpNNDIwLjEgNjRMMTU1LjkgNjQgMTE3LjUgMTkybDM0MSAwTDQyMC4xIDY0ek0xMTIgMjk2YTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bTMyOC0yNGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![car-mirrors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/car-mirrors.svg)
  */
 const CarMirrors: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

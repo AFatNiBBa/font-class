@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `battery-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-slash?s=regular battery-slash}
- * @preview ![battery-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN2wtODcuNS02OC42QzU2My4xIDM4NiA1NzYgMzYyLjUgNTc2IDMzNmwwLTE2YzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNjRjMC0xNy43LTE0LjMtMzItMzItMzJsMC0xNmMwLTQ0LjItMzUuOC04MC04MC04MEwxNTQuOCA5NiAzOC44IDUuMXpNMjE2IDE0NGwyODAgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE2MGMwIDE1LjktMTEuNiAyOS4xLTI2LjcgMzEuNkwyMTYgMTQ0ek00MDYuMiA0MTZsLTYwLjktNDhMMTEyIDM2OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xNjBjMC01LjEgMS4yLTEwIDMuNC0xNC4zbC0zOC0zMEMzNi45IDE0NC40IDMyIDE1OS42IDMyIDE3NmwwIDE2MGMwIDQ0LjIgMzUuOCA4MCA4MCA4MGwyOTQuMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![battery-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/battery-slash.svg)
  */
 const BatterySlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

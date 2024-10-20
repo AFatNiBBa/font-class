@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wind-warning` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wind-warning?s=sharp-regular wind-warning}
- * @preview ![wind-warning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQzMmM2MS44IDAgMTE2LjEtMzEuOCAxNDcuNS04MGw1NC45IDBjLTM2IDc1LjctMTEzLjEgMTI4LTIwMi40IDEyOEMxMDAuMyA0ODAgMCAzNzkuNyAwIDI1NlMxMDAuMyAzMiAyMjQgMzJjMTE4LjMgMCAyMTUuMiA5MS44IDIyMy40IDIwOGwtNDguMiAwQzM5MS4yIDE1MC4zIDMxNS44IDgwIDIyNCA4MEMxMjYuOCA4MCA0OCAxNTguOCA0OCAyNTZzNzguOCAxNzYgMTc2IDE3NnpNNTQ0IDIyNGwtNjYgMGMtMi4xLTE2LjUtNS43LTMyLjYtMTAuOC00OGw3Ni43IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhzLTIxLjUtNDgtNDgtNDhsLTQwIDAtMjQgMCAwLTQ4IDI0IDAgNDAgMGM1MyAwIDk2IDQzIDk2IDk2cy00MyA5Ni05NiA5NnpNNDQ4IDQ4MGwwLTQ4IDI0IDAgNjQgMGMzMC45IDAgNTYtMjUuMSA1Ni01NnMtMjUuMS01Ni01Ni01NmwtMTkyIDAtMjQgMCAwLTQ4IDI0IDAgMTkyIDBjNTcuNCAwIDEwNCA0Ni42IDEwNCAxMDRzLTQ2LjYgMTA0LTEwNCAxMDRsLTY0IDAtMjQgMHpNMjQ4IDEyOGwwIDI0IDAgMTEyIDAgMjQtNDggMCAwLTI0IDAtMTEyIDAtMjQgNDggMHpNMjAwIDM2OGwwLTQ4IDQ4IDAgMCA0OC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wind-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/wind-warning.svg)
  */
 const WindWarning: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

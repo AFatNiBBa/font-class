@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `left-long` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-long?s=solid left-long}
- * @preview ![left-long](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc3LjUgNDE0Yy04LjggMy44LTE5IDItMjYtNC42bC0xNDQtMTM2QzIuNyAyNjguOSAwIDI2Mi42IDAgMjU2czIuNy0xMi45IDcuNS0xNy40bDE0NC0xMzZjNy02LjYgMTcuMi04LjQgMjYtNC42czE0LjUgMTIuNSAxNC41IDIybDAgNzIgMjg4IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMjg4IDAgMCA3MmMwIDkuNi01LjcgMTguMi0xNC41IDIyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![left-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/left-long.svg)
  */
 const LeftLong: typeof Icon = x => (
     <Icon {...x}>

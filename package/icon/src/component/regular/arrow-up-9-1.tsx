@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-9-1` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-9-1?s=regular arrow-up-9-1}
- * @preview ![arrow-up-9-1](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI0IDgwYTQwIDQwIDAgMSAwIDAgODAgNDAgNDAgMCAxIDAgMC04MHptODggNDBjMCAuOCAwIDEuNiAwIDIuNWMtLjYgMjAuMi03LjkgMzkuNy0yMC45IDU1LjNsLTY0LjYgNzcuNmMtOC41IDEwLjItMjMuNiAxMS42LTMzLjggMy4xcy0xMS42LTIzLjYtMy4xLTMzLjhMNDA1LjEgMjA2Yy0zOS41LTguNi02OS4xLTQzLjgtNjkuMS04NmMwLTQ4LjYgMzkuNC04OCA4OC04OHM4OCAzOS40IDg4IDg4ek0xNDMgMzljOS40LTkuNCAyNC42LTkuNCAzMy45IDBsOTYgOTZjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlzLTI0LjYgOS40LTMzLjkgMGwtNTUtNTVMMTg0IDQ1NmMwIDEzLjMtMTAuNyAyNC0yNCAyNHMtMjQtMTAuNy0yNC0yNGwwLTM0Mi4xTDgxIDE2OWMtOS40IDkuNC0yNC42IDkuNC0zMy45IDBzLTkuNC0yNC42IDAtMzMuOWw5Ni05NnpNNDU2IDMxMmwwIDEyMCAyNCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC00OCAwLTQ4IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsMjQgMCAwLTg2LjctMTYuNCA1LjVjLTEyLjYgNC4yLTI2LjItMi42LTMwLjQtMTUuMnMyLjYtMjYuMiAxNS4yLTMwLjRsNDgtMTZjNy4zLTIuNCAxNS40LTEuMiAyMS42IDMuM3MxMCAxMS44IDEwIDE5LjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-up-9-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-up-9-1.svg)
  */
 const ArrowUp_9_1: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

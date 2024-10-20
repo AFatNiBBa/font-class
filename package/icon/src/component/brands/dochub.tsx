@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dochub` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dochub?s=brands dochub}
- * @preview ![dochub](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk3LjkgMTYwSDI1NlYxOS42TDM5Ny45IDE2MHpNMzA0IDE5MnYxMzBjMCA2Ni44LTM2LjUgMTAwLjEtMTEzLjMgMTAwLjFIOTZWODQuOGg5NC43YzEyIDAgMjMuMS44IDMzLjEgMi41di04NEMyMTIuOSAxLjEgMjAxLjQgMCAxODkuMiAwSDB2NTEyaDE4OS4yQzMyOS43IDUxMiA0MDAgNDQ3LjQgNDAwIDMxOC4xVjE5MmgtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dochub](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/dochub.svg)
  */
 const Dochub: typeof Icon = x => (
     <Icon viewBox="0 0 416 512" {...x}>

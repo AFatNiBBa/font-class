@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cc-amex` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cc-amex?s=brands cc-amex}
- * @preview ![cc-amex](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA0MzJjMCAyNi41IDIxLjUgNDggNDggNDhINTI4YzI2LjUgMCA0OC0yMS41IDQ4LTQ4di0xLjFINTE0LjNsLTMxLjktMzUuMS0zMS45IDM1LjFIMjQ2LjhWMjY3LjFIMTgxTDI2Mi43IDgyLjRoNzguNmwyOC4xIDYzLjJWODIuNGg5Ny4yTDQ4My41IDEzMGwxNy00Ny42SDU3NlY4MGMwLTI2LjUtMjEuNS00OC00OC00OEg0OEMyMS41IDMyIDAgNTMuNSAwIDgwVjQzMnptNDQwLjQtMjEuN0w0ODIuNiAzNjRsNDIgNDYuM0g1NzZsLTY4LTcyLjEgNjgtNzIuMUg1MjUuNGwtNDIgNDYuNy00MS41LTQ2LjdIMzkwLjVMNDU4IDMzOC42bC02Ny40IDcxLjZWMzc3LjFoLTgzVjM1NC45aDgwLjlWMzIyLjZIMzA3LjZWMzAwLjJoODNWMjY3LjFoLTEyMlY0MTAuM0g0NDAuNHptOTYuMy03Mkw1NzYgMzgwLjJWMjk2LjlsLTM5LjMgNDEuNHptLTM2LjMtOTJsMzYuOS0xMDAuNlYyNDYuM0g1NzZWMTAzSDUxNS44bC0zMi4yIDg5LjNMNDUxLjcgMTAzSDM5MC41VjI0Ni4xTDMyNy4zIDEwM0gyNzYuMUwyMTMuNyAyNDYuM2g0M2wxMS45LTI4LjdoNjUuOWwxMiAyOC43aDgyLjdWMTQ2TDQ2NiAyNDYuM2gzNC40ek0yODIgMTg1LjRsMTkuNS00Ni45IDE5LjQgNDYuOUgyODJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![cc-amex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/cc-amex.svg)
  */
 const CcAmex: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-bot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-bot?s=sharp-light message-bot}
- * @preview ![message-bot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQxNmwzMiAwIDAgMzIgMCAyNS41IDAgMzguNSAzMi0yMS4zTDM2OCA0MTZsMTQ0IDAgMzIgMCAwLTMyIDAtMTc2IDMyIDAgMCAxNiA2NCAwIDAtNjQtNjQgMCAwIDE2LTMyIDAgMC0xNDQgMC0zMkw1MTIgMCAxMjggMCA5NiAwbDAgMzIgMCAxNDQtMzIgMCAwLTE2TDAgMTYwbDAgNjQgNjQgMCAwLTE2IDMyIDAgMCAxNzYgMCAzMiAzMiAwIDY0IDB6TTUxMiAzMmwwIDE2MCAwIDE5Mi0xNDQgMC05LjcgMC04LjEgNS40TDI1NiA0NTIuMmwwLTM2LjIgMC0zMi0zMiAwLTk2IDAgMC0xOTIgMC0xNjAgMzg0IDB6TTE5MiAxMjhsMjU2IDAgMCAxMjgtMjU2IDAgMC0xMjh6TTE2MCA5NmwwIDMyIDAgMTI4IDAgMzIgMzIgMCAyNTYgMCAzMiAwIDAtMzIgMC0xMjggMC0zMi0zMiAwTDE5MiA5NmwtMzIgMHptMTIwIDk2YTMyIDMyIDAgMSAwIC02NCAwIDMyIDMyIDAgMSAwIDY0IDB6bTExMiAzMmEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![message-bot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-bot.svg)
  */
 const MessageBot: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

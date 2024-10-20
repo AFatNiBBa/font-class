@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clipboard-list` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-list?s=regular clipboard-list}
- * @preview ![clipboard-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDY0bC00MCAwLTkuNiAwQzI2MyAyNy41IDIzMC43IDAgMTkyIDBzLTcxIDI3LjUtNzguNCA2NEwxMDQgNjQgNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMjBjMC0zNS4zLTI4LjctNjQtNjQtNjR6TTgwIDExMmwwIDI0YzAgMTMuMyAxMC43IDI0IDI0IDI0bDg4IDAgODggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTI0IDE2IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMzIwYzAgOC44LTcuMiAxNi0xNiAxNkw2NCA0NjRjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTMyMGMwLTguOCA3LjItMTYgMTYtMTZsMTYgMHptODgtMzJhMjQgMjQgMCAxIDEgNDggMCAyNCAyNCAwIDEgMSAtNDggMHpNMTM2IDI3MmEyNCAyNCAwIDEgMCAtNDggMCAyNCAyNCAwIDEgMCA0OCAwem00MC0xNmMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmw5NiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC05NiAwem0wIDk2Yy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDk2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTk2IDB6bS02NCA0MGEyNCAyNCAwIDEgMCAwLTQ4IDI0IDI0IDAgMSAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![clipboard-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/clipboard-list.svg)
  */
 const ClipboardList: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

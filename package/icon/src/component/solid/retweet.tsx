@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `retweet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/retweet?s=solid retweet}
- * @preview ![retweet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDQxNmMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtMTEyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTI4IDMyIDBjMTIuOSAwIDI0LjYtNy44IDI5LjYtMTkuOHMyLjItMjUuNy02LjktMzQuOWwtNjQtNjRjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwbC02NCA2NGMtOS4yIDkuMi0xMS45IDIyLjktNi45IDM0LjlzMTYuNiAxOS44IDI5LjYgMTkuOGwzMiAwIDAgMTI4YzAgNTMgNDMgOTYgOTYgOTZsMTEyIDB6TTMwNCA5NmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJzMTQuMyAzMiAzMiAzMmwxMTIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDEyOC0zMiAwYy0xMi45IDAtMjQuNiA3LjgtMjkuNiAxOS44cy0yLjIgMjUuNyA2LjkgMzQuOWw2NCA2NGMxMi41IDEyLjUgMzIuOCAxMi41IDQ1LjMgMGw2NC02NGM5LjItOS4yIDExLjktMjIuOSA2LjktMzQuOXMtMTYuNi0xOS44LTI5LjYtMTkuOGwtMzIgMCAwLTEyOGMwLTUzLTQzLTk2LTk2LTk2TDMwNCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![retweet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/retweet.svg)
  */
 const Retweet: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

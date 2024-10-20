@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `objects-align-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-right?s=thin objects-align-right}
- * @preview ![objects-align-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDhjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhsMCA0OTZjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOEw1MTIgOHpNNDAwIDE3NmMwIDE3LjctMTQuMyAzMi0zMiAzMkw0OCAyMDhjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIwIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCA2NHptMTYtNjRjMC0yNi41LTIxLjUtNDgtNDgtNDhMNDggNjRDMjEuNSA2NCAwIDg1LjUgMCAxMTJsMCA2NGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwzMjAgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTY0ek00MDAgNDAwYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0xOTIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwxOTIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0em0xNi02NGMwLTI2LjUtMjEuNS00OC00OC00OGwtMTkyIDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgNjRjMCAyNi41IDIxLjUgNDggNDggNDhsMTkyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![objects-align-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/objects-align-right.svg)
  */
 const ObjectsAlignRight: typeof Icon = x => (
     <Icon {...x}>

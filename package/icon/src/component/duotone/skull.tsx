@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `skull` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull?s=duotone skull}
- * @preview ![skull](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIyNGMwIDcwLjcgMzcuNSAxMzMuOCA5NiAxNzQuOWMwIC40IDAgLjcgMCAxLjFsMCA2NGMwIDI2LjUgMjEuNSA0OCA0OCA0OGw0OCAwIDAtNDhjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDQ4IDY0IDAgMC00OGMwLTguOCA3LjItMTYgMTYtMTZzMTYgNy4yIDE2IDE2bDAgNDggNDggMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTY0YzAtLjQgMC0uNyAwLTEuMWM1OC41LTQxLjEgOTYtMTA0LjEgOTYtMTc0LjlDNTEyIDEwMC4zIDM5Ny40IDAgMjU2IDBTMCAxMDAuMyAwIDIyNHptMjI0IDMyQTY0IDY0IDAgMSAxIDk2IDI1NmE2NCA2NCAwIDEgMSAxMjggMHptMTkyIDBhNjQgNjQgMCAxIDEgLTEyOCAwIDY0IDY0IDAgMSAxIDEyOCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTYwIDMyMGE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHptMTkyIDBhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/skull.svg)
  */
 const Skull: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 224c0 70.7 37.5 133.8 96 174.9c0 .4 0 .7 0 1.1l0 64c0 26.5 21.5 48 48 48l48 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 64 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 48 0c26.5 0 48-21.5 48-48l0-64c0-.4 0-.7 0-1.1c58.5-41.1 96-104.1 96-174.9C512 100.3 397.4 0 256 0S0 100.3 0 224zm224 32A64 64 0 1 1 96 256a64 64 0 1 1 128 0zm192 0a64 64 0 1 1 -128 0 64 64 0 1 1 128 0z" />
-            <path d="M160 320a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm192 0a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
+        <path d="M160 320a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm192 0a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
     </Icon>
 );
 

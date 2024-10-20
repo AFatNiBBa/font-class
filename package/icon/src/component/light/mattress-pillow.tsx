@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mattress-pillow` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mattress-pillow?s=light mattress-pillow}
- * @preview ![mattress-pillow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDk2bDAgMzIwTDY0IDQxNmMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0yNTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMTkyIDB6bTMyIDBsMjg4IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyNTZjMCAxNy43LTE0LjMgMzItMzIgMzJsLTI4OCAwIDAtMzIwek02NCA2NEMyOC43IDY0IDAgOTIuNyAwIDEyOEwwIDM4NGMwIDM1LjMgMjguNyA2NCA2NCA2NGw1MTIgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTI1NmMwLTM1LjMtMjguNy02NC02NC02NEw2NCA2NHptMTEyIDk2YzguOCAwIDE2IDcuMiAxNiAxNmwwIDE2MGMwIDguOC03LjIgMTYtMTYgMTZsLTY0IDBjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTE2MGMwLTguOCA3LjItMTYgMTYtMTZsNjQgMHptLTY0LTMyYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDE2MGMwIDI2LjUgMjEuNSA0OCA0OCA0OGw2NCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMTYwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC02NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![mattress-pillow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mattress-pillow.svg)
  */
 const MattressPillow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

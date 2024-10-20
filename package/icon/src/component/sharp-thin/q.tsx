@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `q` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/q?s=sharp-thin q}
- * @preview ![q](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjU2YzAgMTE0LjkgOTMuMSAyMDggMjA4IDIwOGM0Ny45IDAgOTEuOS0xNi4yIDEyNy4xLTQzLjNMMjE5LjQgMjU2bDIwLjUgMEwzNjMuNCA0MTAuNEM0MDUuNSAzNzIuMyA0MzIgMzE3LjMgNDMyIDI1NmMwLTExNC45LTkzLjEtMjA4LTIwOC0yMDhTMTYgMTQxLjEgMTYgMjU2ek0zNjEuMSA0MzMuMkMzMjMuMiA0NjIuNSAyNzUuNiA0ODAgMjI0IDQ4MEMxMDAuMyA0ODAgMCAzNzkuNyAwIDI1NlMxMDAuMyAzMiAyMjQgMzJzMjI0IDEwMC4zIDIyNCAyMjRjMCA2Ni4zLTI4LjggMTI1LjktNzQuNiAxNjYuOUw0NDQuNiA1MTJsLTIwLjUgMC02My4xLTc4Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![q](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/q.svg)
  */
 const Q: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

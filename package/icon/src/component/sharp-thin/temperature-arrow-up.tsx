@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `temperature-arrow-up` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-arrow-up?s=sharp-thin temperature-arrow-up}
- * @preview ![temperature-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTA0LjkgMjYxLjZsNy4xLTQuOCAwLTguNUwxMTIgMTZsMTI4IDAgMCAyMzIuMiAwIDguNSA3LjEgNC44YzM0LjMgMjMgNTYuOSA2Mi4xIDU2LjkgMTA2LjVjMCA3MC43LTU3LjMgMTI4LTEyOCAxMjhzLTEyOC01Ny4zLTEyOC0xMjhjMC00NC40IDIyLjYtODMuNSA1Ni45LTEwNi41ek0yNTYgMEwyNDAgMCAxMTIgMCA5NiAwbDAgMTYgMCAyMzIuMkM1Ny40IDI3NC4xIDMyIDMxOC4xIDMyIDM2OGMwIDc5LjUgNjQuNSAxNDQgMTQ0IDE0NHMxNDQtNjQuNSAxNDQtMTQ0YzAtNDkuOS0yNS40LTkzLjktNjQtMTE5LjhMMjU2IDE2bDAtMTZ6TTEyOCAzNjhhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHptMTEyIDBjMC0zMi42LTI0LjQtNTkuNi01Ni02My41TDE4NCA3MmwwLTgtMTYgMCAwIDggMCAyMzIuNWMtMzEuNiAzLjktNTYgMzAuOS01NiA2My41YzAgMzUuMyAyOC43IDY0IDY0IDY0czY0LTI4LjcgNjQtNjR6TTQ1MC4zIDM0LjNsLTgwIDgwIDExLjMgMTEuM0w0NDggNTkuMyA0NDggNDcybDAgOCAxNiAwIDAtOCAwLTQxMi43IDY2LjMgNjYuMyAxMS4zLTExLjMtODAtODBMNDU2IDI4LjdsLTUuNyA1Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![temperature-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/temperature-arrow-up.svg)
  */
 const TemperatureArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `joystick` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/joystick?s=sharp-thin joystick}
- * @preview ![joystick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDExMmE5NiA5NiAwIDEgMCAtMTkyIDAgOTYgOTYgMCAxIDAgMTkyIDB6bTE2IDBjMCA1OS4yLTQ1LjkgMTA3LjYtMTA0IDExMS43TDIzMiAzNTJsMjAwIDAgMTYgMCAwIDE2IDAgMTI4IDAgMTYtMTYgMEwxNiA1MTIgMCA1MTJsMC0xNkwwIDM2OGwwLTE2IDE2IDAgMjAwIDAgMC0xMjguM2MtNTguMS00LjEtMTA0LTUyLjYtMTA0LTExMS43QzExMiA1MC4xIDE2Mi4xIDAgMjI0IDBzMTEyIDUwLjEgMTEyIDExMnpNNjQgMzA0bDggMCA0OCAwIDggMCAwIDE2LTggMC00OCAwLTggMCAwLTE2ek00MzIgNDk2bDAtMTI4TDE2IDM2OGwwIDEyOCA0MTYgMHpNMTkyIDgwYTE2IDE2IDAgMSAwIDMyIDAgMTYgMTYgMCAxIDAgLTMyIDB6bTE2IDMyYTMyIDMyIDAgMSAxIDAtNjQgMzIgMzIgMCAxIDEgMCA2NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![joystick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/joystick.svg)
  */
 const Joystick: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

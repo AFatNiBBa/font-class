@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mortar-pestle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mortar-pestle?s=solid mortar-pestle}
- * @preview ![mortar-pestle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA0LjMgMTEuMUM0OTMuMy0xLjYgNDc0LjUtMy43IDQ2MSA2LjJMMjUyLjMgMTYwbDE0NC45IDBMNTAyLjYgNTQuNmMxMS44LTExLjggMTIuNi0zMC44IDEuNi00My41ek0zMiAxOTJjLTE3LjcgMC0zMiAxNC4zLTMyIDMyczE0LjMgMzIgMzIgMzJjMCA4Mi41IDQzLjQgMTQ3LjcgMTIzLjkgMTc2LjJjLTExLjEgMTMuOS0xOS40IDMwLjMtMjMuOSA0OC4xQzEyNy42IDQ5Ny40IDE0Mi4zIDUxMiAxNjAgNTEybDE5MiAwYzE3LjcgMCAzMi40LTE0LjYgMjguMS0zMS43Yy00LjUtMTcuOC0xMi44LTM0LjEtMjMuOS00OC4xQzQzNi42IDQwMy43IDQ4MCAzMzguNSA0ODAgMjU2YzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMyTDMyIDE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mortar-pestle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mortar-pestle.svg)
  */
 const MortarPestle: typeof Icon = x => (
     <Icon {...x}>

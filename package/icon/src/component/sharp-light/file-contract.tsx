@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-contract` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-contract?s=sharp-light file-contract}
- * @preview ![file-contract](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ4MEwzMiA0ODAgMzIgMzJsMTYwIDAgMCAxNDQgMCAxNiAxNiAwIDE0NCAwIDAgMjg4ek0yMjQgMzcuM0wzNDYuNyAxNjAgMjI0IDE2MGwwLTEyMi43ek0yMzIgMEwzMiAwIDAgMCAwIDMyIDAgNDgwbDAgMzIgMzIgMCAzMjAgMCAzMiAwIDAtMzIgMC0zMjhMMjMyIDB6TTgwIDY0TDY0IDY0bDAgMzIgMTYgMCA2NCAwIDE2IDAgMC0zMi0xNiAwTDgwIDY0em0wIDY0bC0xNiAwIDAgMzIgMTYgMCA2NCAwIDE2IDAgMC0zMi0xNiAwLTY0IDB6bTU2IDE3NmwtMTEuOSAwLTMuNCAxMS40TDEwMC4xIDM4NCA4MCAzODRsLTE2IDAgMCAzMiAxNiAwIDMyIDAgMTEuOSAwIDMuNC0xMS40TDE0NCAzNDlsMTYuNyA1NS42IDMuNCAxMS40IDExLjkgMCA4IDAgOS45IDAgNC40LTguOEwyMDkuOSAzODRsNC4yIDAgMTEuNiAyMy4yIDQuNCA4LjggOS45IDAgNjQgMCAxNiAwIDAtMzItMTYgMC01NC4xIDAtMTEuNi0yMy4yLTQuNC04LjgtOS45IDAtMjQgMC05LjkgMC00LjQgOC44LTMgNS45LTE1LjQtNTEuNEwxNjMuOSAzMDQgMTUyIDMwNGwtMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![file-contract](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-contract.svg)
  */
 const FileContract: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

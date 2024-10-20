@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-missed` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-missed?s=solid phone-missed}
- * @preview ![phone-missed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDBjOS43IDAgMTguNSA1LjggMjIuMiAxNC44czEuNyAxOS4zLTUuMiAyNi4ybC0zOSAzOSA1OC43IDU4LjdDMjgyLjMgMTUyLjQgMzAwLjggMTYwIDMyMCAxNjBzMzcuNy03LjYgNTEuMy0yMS4zTDUwMyA3YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwczkuNCAyNC42IDAgMzMuOUw0MDUuMyAxNzIuN0MzODIuNiAxOTUuMyAzNTIgMjA4IDMyMCAyMDhzLTYyLjYtMTIuNy04NS4zLTM1LjNMMTc2IDExMy45bC0zOSAzOWMtNi45IDYuOS0xNy4yIDguOS0yNi4yIDUuMnMtMTQuOC0xMi41LTE0LjgtMjIuMkw5NiAyNGMwLTEzLjMgMTAuNy0yNCAyNC0yNEwyMzIgMHpNNTEuNCA0ODkuOWwtMzUuNC02MmMtOS43LTE2LjktOC4zLTM4LjEgNS41LTUxLjdDNzIuNiAzMjUuOSAxNzguMSAyNTYgMzIwIDI1NnMyNDcuNCA2OS45IDI5OC41IDEyMC4yYzEzLjkgMTMuNiAxNS4yIDM0LjggNS41IDUxLjdsLTM1LjQgNjJjLTcuNCAxMi45LTIyLjcgMTkuMS0zNyAxNC44TDQzOC44IDQ3MC44Yy0xMy41LTQuMS0yMi44LTE2LjUtMjIuOC0zMC42bDAtNTYuMmMtNjIuMy0yMC44LTEyOS43LTIwLjgtMTkyIDBsMCA1Ni4yYzAgMTQuMS05LjMgMjYuNi0yMi44IDMwLjZMODguNCA1MDQuN2MtMTQuMyA0LjMtMjkuNi0xLjgtMzctMTQuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![phone-missed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-missed.svg)
  */
 const PhoneMissed: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

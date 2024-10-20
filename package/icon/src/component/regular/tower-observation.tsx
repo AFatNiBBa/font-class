@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tower-observation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-observation?s=regular tower-observation}
- * @preview ![tower-observation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ1LjcgMi4zYzYuNS0zLjEgMTQuMS0zLjEgMjAuNiAwbDE2OCA4MGMxMiA1LjcgMTcgMjAgMTEuMyAzMmMtNS4zIDExLjItMTguMiAxNi40LTI5LjcgMTIuM2wwIDczLjRjMCAyNy4yLTE5LjQgNDkuOS00NS4yIDU1bDM0LjggMjA5IDgyLjMgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNEwyNCA1MTJjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsODIuMyAwIDM0LjgtMjA5Yy0yNS43LTUtNDUuMi0yNy43LTQ1LjItNTVsMC03My40Yy0xMS40IDQuMS0yNC4zLTEuMS0yOS43LTEyLjNjLTUuNy0xMi0uNi0yNi4zIDExLjQtMzJsMTY4LTgwek0yNTYgNTAuNkwxNDQgMTAzLjlsMCAyNC4xIDIyNCAwIDAtMjQuMUwyNTYgNTAuNnpNMTQ0IDE3NmwwIDI0YzAgNC40IDMuNiA4IDggOGwyMDggMGM0LjQgMCA4LTMuNiA4LThsMC0yNC0yMjQgMHpNMzMwLjggNDY0TDI1NiA0MDAuNyAxODEuMiA0NjRsMTQ5LjcgMHpNMTg5LjcgMjU2bC0zLjcgMjIuNUwyNTYgMzM3LjhsNzAuMS01OS4zTDMyMi4zIDI1NmwtMTMyLjcgMHptLTEyLjkgNzcuNmwtMTMuOCA4MyA1NS45LTQ3LjMtNDIuMS0zNS42em0xMTYuNCAzNS42bDU1LjkgNDcuMy0xMy44LTgzLTQyLjEgMzUuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tower-observation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tower-observation.svg)
  */
 const TowerObservation: typeof Icon = x => (
     <Icon {...x}>

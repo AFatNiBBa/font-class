@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grin` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin?s=solid face-grin}
- * @preview ![face-grin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTM4OC4xIDMxMi44YzEyLjMtMy44IDI0LjMgNi45IDE5LjMgMTguN0MzODIuNCAzOTAuNiAzMjQuMiA0MzIgMjU2LjMgNDMycy0xMjYuMi00MS40LTE1MS4xLTEwMC41Yy01LTExLjggNy0yMi41IDE5LjMtMTguN2MzOS43IDEyLjIgODQuNSAxOSAxMzEuOCAxOXM5Mi4xLTYuOCAxMzEuOC0xOXpNMTQ0LjQgMjA4YTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6bTE5Mi0zMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-grin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-grin.svg)
  */
 const FaceGrin: typeof Icon = x => (
     <Icon {...x}>

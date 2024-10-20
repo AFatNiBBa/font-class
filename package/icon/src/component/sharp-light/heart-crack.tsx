@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `heart-crack` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-crack?s=sharp-light heart-crack}
- * @preview ![heart-crack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDEyNS4zbDAgMTguNyAwIDYuNiA0LjcgNC43IDM0LjIgMzQuMi03OS44IDUzLjItMTQuNSA5LjdMMTk1LjUgMjY2bDY0IDgwIDI1LTIwLTUzLjEtNjYuNCA4MS41LTU0LjMgMTYuMi0xMC44LTEzLjgtMTMuOEwyNzIgMTM3LjRsMC0xMi4xIDYuNi02LjYgMjQuMi0yNC4yQzMyMi4zIDc0LjkgMzQ4LjcgNjQgMzc2LjIgNjRDNDMzLjUgNjQgNDgwIDExMC41IDQ4MCAxNjcuOGMwIDI3LjUtMTAuOSA1My45LTMwLjQgNzMuNGwtMjQuMiAyNC4yTDI1NiA0MzQuOCA4Ni42IDI2NS40IDYyLjQgMjQxLjJDNDIuOSAyMjEuNyAzMiAxOTUuMyAzMiAxNjcuOEMzMiAxMTAuNSA3OC41IDY0IDEzNS44IDY0YzI3LjUgMCA1My45IDEwLjkgNzMuNCAzMC40bDI0LjIgMjQuMiA2LjYgNi42ek0yNTYgNDgwbDIyLjYtMjIuNkw0NDggMjg4bDI0LjItMjQuMmMyNS41LTI1LjUgMzkuOC02MCAzOS44LTk2QzUxMiA5Mi44IDQ1MS4yIDMyIDM3Ni4yIDMyYy0zNiAwLTcwLjUgMTQuMy05NiAzOS44bC0xLjYgMS42TDI1NiA5NiAyMzMuNCA3My40bC0xLjYtMS42Yy0yNS41LTI1LjUtNjAtMzkuOC05Ni0zOS44QzYwLjggMzIgMCA5Mi44IDAgMTY3LjhjMCAzNiAxNC4zIDcwLjUgMzkuOCA5Nkw2NCAyODggMjMzLjQgNDU3LjQgMjU2IDQ4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![heart-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/heart-crack.svg)
  */
 const HeartCrack: typeof Icon = x => (
     <Icon {...x}>

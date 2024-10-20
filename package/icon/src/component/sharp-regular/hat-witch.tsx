@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hat-witch` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-witch?s=sharp-regular hat-witch}
- * @preview ![hat-witch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDIyNGwyNi42LTQ2LjZMNTc2IDExMiA0NDggMCAyMDggMTI4IDk2IDM4NGw1Mi40IDAgOTYuOS0yMjEuNUw0NDEuMyA1OGw3My41IDY0LjMtMy4zIDUuNy01LjkgMEw0ODAgMTI4bC00OCAwLTI5LjcgMC0xMy4zIDI2LjUtMTYgMzJMMzYzLjggMjA1bDcuMSAxOS40IDU4IDE1OS42IDUxLjEgMEw0MTYgMjA4bDE2LTMyIDQ4IDAgMi4yIDMuM0w1MTIgMjI0ek0zMzYgMzA0bC05NiAwIDAgODAgOTYgMCAwLTgwek0wIDQxNmwwIDMyIDEyOCA2NCAzMjAgMCAxMjgtNjQgMC0zMkwwIDQxNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hat-witch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hat-witch.svg)
  */
 const HatWitch: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

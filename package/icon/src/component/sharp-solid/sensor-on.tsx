@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sensor-on` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-on?s=sharp-solid sensor-on}
- * @preview ![sensor-on](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw0NDggMCAwIDQ0OEwwIDQ4MCAwIDMyek0xMTIgOTZMNjQgOTZsMCAyNCAwIDE0NCAwIDI0IDQ4IDAgMC0yNCAwLTE0NCAwLTI0em05NiAwbC00OCAwIDAgMjQgMCAxNDQgMCAyNCA0OCAwIDAtMjQgMC0xNDQgMC0yNHptMzg5LjMgMTJsLTQ4IDMyLTIwIDEzLjMtMjYuNi0zOS45IDIwLTEzLjMgNDgtMzIgMjAtMTMuMyAyNi42IDM5LjktMjAgMTMuM3pNNTM2IDIzMmw4MCAwIDI0IDAgMCA0OC0yNCAwLTgwIDAtMjQgMCAwLTQ4IDI0IDB6bTEzLjMgMTQwbDQ4IDMyIDIwIDEzLjMtMjYuNiAzOS45LTIwLTEzLjMtNDgtMzItMjAtMTMuMyAyNi42LTM5LjkgMjAgMTMuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sensor-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sensor-on.svg)
  */
 const SensorOn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

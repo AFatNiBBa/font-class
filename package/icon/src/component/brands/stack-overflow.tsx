@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `stack-overflow` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stack-overflow?s=brands stack-overflow}
- * @preview ![stack-overflow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkwLjcgMzExTDk1IDI2OS43IDg2LjggMzA5bDE5NS43IDQxem01MS04N0wxODguMiA5NS43bC0yNS41IDMwLjggMTUzLjUgMTI4LjN6bS0zMS4yIDM5LjdMMTI5LjIgMTc5bC0xNi43IDM2LjVMMjkzLjcgMzAwek0yNjIgMzJsLTMyIDI0IDExOS4zIDE2MC4zIDMyLTI0em0yMC41IDMyOGgtMjAwdjM5LjdoMjAwem0zOS43IDgwSDQyLjdWMzIwaC00MHYxNjBoMzU5LjVWMzIwaC00MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![stack-overflow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/stack-overflow.svg)
  */
 const StackOverflow: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volleyball` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volleyball?s=sharp-regular volleyball}
- * @preview ![volleyball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc4LjggNDIzLjlsLTUuNC0uN0wxOTEuNiAzOTkuN2wtNS4xIDUyLjRjMjEuNyA3LjcgNDUuMSAxMS45IDY5LjUgMTEuOWM0NS45IDAgODguNC0xNC45IDEyMi44LTQwLjF6bTYzLjQtNzVjMTIuMS0yNC4yIDE5LjYtNTEgMjEuNC03OS40bC01My42IDI0LjQtNiAyLjctNi42LS43TDI2Ny4xIDI4MS40bC01My41IDcyLjggMTYwIDIwLjcgNjguNi0yNS45em0xOC40LTEzMC44QzQ0OCAxNDkuNyA0MDEuOSA5MyAzNDAgNjUuN2wyLjEgNS4xIDcwLjUgMTY5LjEgNDcuOS0yMS44ek0xNDAuNSA0MjlsNS43LTU4LjcgLjYtNi42IDMuOS01LjMgNzcuNi0xMDUuNS0zNi4yLTgyLjdMOTQuMyAyOTguNCA4Mi41IDM3MC43YzE1LjMgMjMuMSAzNS4xIDQyLjkgNTguMSA1OC4zek00OS4yIDI3OC4zbDMuMy00LjNMMTYzLjcgMTI4LjQgMTIxIDk3LjhDNzYuMyAxMzUuOSA0OCAxOTIuNyA0OCAyNTZjMCA3LjYgLjQgMTUgMS4yIDIyLjN6TTE2My45IDY5LjVsNDggMzQuMyA1LjQgMy44IDIuNiA2IDUyLjYgMTIwIDg5LjggMTAtNjItMTQ4LjlMMjQzLjQgNDguNGMtMjguNCAxLjctNTUuNCA5LjEtNzkuNiAyMS4xek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![volleyball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/volleyball.svg)
  */
 const Volleyball: typeof Icon = x => (
     <Icon {...x}>

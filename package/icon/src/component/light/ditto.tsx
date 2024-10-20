@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ditto` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ditto?s=light ditto}
- * @preview ![ditto](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgOTguM0w5NiA5NmMwLTE3LjctMTQuMy0zMi0zMi0zMlMzMiA3OC4zIDMyIDk2bDAgMi4zYzAgMiAuMiAzLjkgLjUgNS45TDU4IDI1MWMuNSAyLjkgMyA1IDYgNXM1LjUtMi4xIDYtNUw5NS41IDEwNC4ybDMwLjkgNS40LTMwLjktNS40Yy4zLTEuOSAuNS0zLjkgLjUtNS45em0tOTYgMEwwIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMyczY0IDI4LjcgNjQgNjRsMCAyLjNjMCAzLjgtLjMgNy42LTEgMTEuNEwxMDEuNSAyNTYuNUM5OC4zIDI3NC43IDgyLjUgMjg4IDY0IDI4OHMtMzQuMy0xMy4zLTM3LjUtMzEuNUwxIDEwOS42Yy0uNy0zLjgtMS03LjUtMS0xMS40em0yODggMGwwLTIuM2MwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDIuM2MwIDIgLjIgMy45IC41IDUuOUwyNTAgMjUxYy41IDIuOSAzIDUgNiA1czUuNS0yLjEgNi01bDI1LjUtMTQ2LjggMzAuOSA1LjQtMzAuOS01LjRjLjMtMS45IC41LTMuOSAuNS01Ljl6bS05NiAwbDAtMi4zYzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRsMCAyLjNjMCAzLjgtLjMgNy42LTEgMTEuNEwyOTMuNSAyNTYuNWMtMy4yIDE4LjItMTkgMzEuNS0zNy41IDMxLjVzLTM0LjMtMTMuMy0zNy41LTMxLjVMMTkzIDEwOS42Yy0uNy0zLjgtMS03LjUtMS0xMS40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ditto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ditto.svg)
  */
 const Ditto: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

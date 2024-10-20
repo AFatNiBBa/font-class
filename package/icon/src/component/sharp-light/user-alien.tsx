@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-alien` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-alien?s=sharp-light user-alien}
- * @preview ![user-alien](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMyQzE1NC42IDMyIDk2IDkxLjEgOTYgMTY3YzAgNDYuMSAzMS43IDkyLjMgNzAuNCAxMzAuNGMxOC42IDE4LjMgMzcuNCAzMy4zIDUxLjUgNDMuN2MyLjEgMS42IDQuMiAzIDYuMSA0LjRjMS45LTEuMyAzLjktMi44IDYuMS00LjRjMTQuMS0xMC40IDMyLjktMjUuMyA1MS41LTQzLjdDMzIwLjMgMjU5LjQgMzUyIDIxMy4xIDM1MiAxNjdjMC03NS45LTU4LjYtMTM1LTEyOC0xMzV6TTY0IDE2N0M2NCA3NC44IDEzNS42IDAgMjI0IDBzMTYwIDc0LjggMTYwIDE2N2MwIDExOS4zLTE2MCAyMTctMTYwIDIxN3MtMTYwLTk3LjctMTYwLTIxN3pNMTY4LjYgMzg0bC05Ni44IDBMNDMgNDgwbDM2MiAwLTI4LjgtOTYtOTYuOCAwYzExLjMtOC44IDI0LjMtMTkuNSAzNy43LTMybDgyLjkgMCAzOC40IDEyOCA5LjYgMzItMzMuNCAwTDMzLjQgNTEyIDAgNTEybDkuNi0zMkw0OCAzNTJsODIuOSAwYzEzLjQgMTIuNSAyNi4zIDIzLjIgMzcuNyAzMnpNMTQ5LjEgMTc2LjhsNDggMTYgMTUuMiA1LjEtMTAuMSAzMC40LTE1LjItNS4xLTQ4LTE2LTE1LjItNS4xIDEwLjEtMzAuNCAxNS4yIDUuMXptMTYwIDMwLjRsLTQ4IDE2LTE1LjIgNS4xLTEwLjEtMzAuNCAxNS4yLTUuMSA0OC0xNiAxNS4yLTUuMSAxMC4xIDMwLjQtMTUuMiA1LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-alien](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-alien.svg)
  */
 const UserAlien: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

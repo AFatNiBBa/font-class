@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `robot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/robot?s=sharp-light robot}
- * @preview ![robot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDBsMCAxNiAwIDgwIDE3NiAwIDMyIDAgMCAzMiAwIDM1MiAwIDMyLTMyIDAtMzg0IDAtMzIgMCAwLTMyIDAtMzUyIDAtMzIgMzIgMCAxNzYgMCAwLTgwIDAtMTYgMzIgMHpNMTI4IDEyOGwwIDM1MiAzODQgMCAwLTM1Mi0xNzYgMC0zMiAwLTE3NiAwem04MCAyNTZsMzIgMCAxNiAwIDAgMzItMTYgMC0zMiAwLTE2IDAgMC0zMiAxNiAwem05NiAwbDMyIDAgMTYgMCAwIDMyLTE2IDAtMzIgMC0xNiAwIDAtMzIgMTYgMHptOTYgMGwzMiAwIDE2IDAgMCAzMi0xNiAwLTMyIDAtMTYgMCAwLTMyIDE2IDB6TTIyNCAyMjRhMzIgMzIgMCAxIDAgMCA2NCAzMiAzMiAwIDEgMCAwLTY0em02NCAzMmE2NCA2NCAwIDEgMSAtMTI4IDAgNjQgNjQgMCAxIDEgMTI4IDB6bTk2IDBhMzIgMzIgMCAxIDAgNjQgMCAzMiAzMiAwIDEgMCAtNjQgMHptMzIgNjRhNjQgNjQgMCAxIDEgMC0xMjggNjQgNjQgMCAxIDEgMCAxMjh6TTMyIDIyNGwzMiAwIDAgMzItMzIgMCAwIDEyOCAzMiAwIDAgMzItMzIgMEwwIDQxNmwwLTMyTDAgMjU2bDAtMzIgMzIgMHpNNjA4IDM4NGwwLTEyOC0zMiAwIDAtMzIgMzIgMCAzMiAwIDAgMzIgMCAxMjggMCAzMi0zMiAwLTMyIDAgMC0zMiAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/robot.svg)
  */
 const Robot: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

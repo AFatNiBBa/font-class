@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dumpster` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumpster?s=solid dumpster}
- * @preview ![dumpster](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDkuNyAzMmMtMTAuNSAwLTE5LjggNi45LTIyLjkgMTYuOUwuOSAxMzNjLS42IDItLjkgNC4xLS45IDYuMUMwIDE1MC43IDkuMyAxNjAgMjAuOSAxNjBsOTQgMEwxNDAuNSAzMiA0OS43IDMyek0yNzIgMTYwbDAtMTI4LTk4LjkgMEwxNDcuNSAxNjAgMjcyIDE2MHptMzIgMGwxMjQuNSAwTDQwMi45IDMyIDMwNCAzMmwwIDEyOHptMTU3LjEgMGw5NCAwYzExLjUgMCAyMC45LTkuMyAyMC45LTIwLjljMC0yLjEtLjMtNC4xLS45LTYuMUw1NDkuMiA0OC45QzU0Ni4xIDM4LjkgNTM2LjggMzIgNTI2LjMgMzJsLTkwLjggMCAyNS42IDEyOHpNMzIgMTkybDQgMzItNCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnMxNC4zIDMyIDMyIDMybDEyIDBMNjQgNDQ4YzAgMTcuNyAxNC4zIDMyIDMyIDMyczMyLTE0LjMgMzItMzJsMzIwIDBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwyMC0xNjAgMTIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtNCAwIDQtMzJMMzIgMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![dumpster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dumpster.svg)
  */
 const Dumpster: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

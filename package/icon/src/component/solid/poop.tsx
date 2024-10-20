@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `poop` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poop?s=solid poop}
- * @preview ![poop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU0LjQgNi42YzMuNS00LjMgOS02LjUgMTQuNS01LjdDMzE1LjggNy4yIDM1MiA0Ny40IDM1MiA5NmMwIDExLjItMS45IDIyLTUuNSAzMmw1LjUgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGMwIDE5LjEtOC40IDM2LjMtMjEuNyA0OGwxMy43IDBjMzkuOCAwIDcyIDMyLjIgNzIgNzJjMCAyMy4yLTExIDQzLjgtMjggNTdjMzQuMSA1LjcgNjAgMzUuMyA2MCA3MWMwIDM5LjgtMzIuMiA3Mi03MiA3Mkw3MiA1MTJjLTM5LjggMC03Mi0zMi4yLTcyLTcyYzAtMzUuNyAyNS45LTY1LjMgNjAtNzFjLTE3LTEzLjItMjgtMzMuOC0yOC01N2MwLTM5LjggMzIuMi03MiA3Mi03MmwxMy43IDBDMTA0LjQgMjI4LjMgOTYgMjExLjEgOTYgMTkyYzAtMzUuMyAyOC43LTY0IDY0LTY0bDE2LjIgMGM0NC4xLS4xIDc5LjgtMzUuOSA3OS44LTgwYzAtOS4yLTEuNS0xNy45LTQuMy0yNi4xYy0xLjgtNS4yLS44LTExLjEgMi44LTE1LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![poop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/poop.svg)
  */
 const Poop: typeof Icon = x => (
     <Icon {...x}>

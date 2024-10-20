@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-tennis-paddle-ball` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-tennis-paddle-ball?s=sharp-light table-tennis-paddle-ball}
- * @preview ![table-tennis-paddle-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDQ4MGwtNDQuNy00NC43LTIyLjYtMjIuNi0yMS44IDIzLjQtNDkgNTIuNUw4MCA1MTIgNTcuNCA0ODkuNCAyMi42IDQ1NC42IDAgNDMybDIzLjQtMjEuOCA1Mi41LTQ5IDIzLjQtMjEuOEw3Ni43IDMxNi43IDMyIDI3MmwwLTEwOC44IDk3LjYtOTcuNmM4Ny41LTg3LjUgMjI5LjMtODcuNSAzMTYuOCAwYzY3LjEgNjcuMSA4Mi43IDE2Ni4zIDQ2LjggMjQ4LjNjLTguNS02LjUtMTcuOS0xMS45LTI3LjktMTYuMWMyOS02OS43IDE1LjEtMTUyLjktNDEuNS0yMDkuNmMtNzUtNzUtMTk2LjUtNzUtMjcxLjUgMEw5OS41IDE0MC45IDMwNy4yIDM0OC42Yy02IDkuNi0xMC43IDIwLjEtMTQgMzEuM0w3Ni45IDE2My41IDY0IDE3Ni41bDAgODIuMyA1Ny45IDU3LjkgMjMuNCAyMy40LTI0LjIgMjIuNkw0NiA0MzIuOCA3OS4yIDQ2Nmw3MC4xLTc1LjEgMjIuNi0yNC4yIDIzLjQgMjMuNEwyNTMuMyA0NDhsMzguOCAwYzIuOSAxMS40IDcuNCAyMi4xIDEzLjEgMzJMMjQwIDQ4MHptMjQwLTY0YTY0IDY0IDAgMSAwIC0xMjggMCA2NCA2NCAwIDEgMCAxMjggMHptLTE2MCAwYTk2IDk2IDAgMSAxIDE5MiAwIDk2IDk2IDAgMSAxIC0xOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![table-tennis-paddle-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/table-tennis-paddle-ball.svg)
  */
 const TableTennisPaddleBall: typeof Icon = x => (
     <Icon {...x}>

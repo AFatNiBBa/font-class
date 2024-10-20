@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-ski-lift` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-ski-lift?s=sharp-solid person-ski-lift}
- * @preview ![person-ski-lift](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE5OC4zbC0zMiA4LjVMMjI0IDBsMzIgMCAwIDE5OC4zek02NCA4MGE0OCA0OCAwIDEgMSA5NiAwQTQ4IDQ4IDAgMSAxIDY0IDgwem0xMDMuNSA2MC43bDEzLjcgMzAuMSAzMi43IDcxLjkgNjUuOS0xNy42TDMyMCAyNTZsMCAxMzIuNSAxNDQtNTMuMiAwLTIzLjMgMC0yNCA0OCAwIDAgMjQgMCA0MGMwIDEwLTYuMyAxOS0xNS43IDIyLjVsLTM0NCAxMjcuMUwxMjkuOCA1MTBsLTE2LjYtNDUgMjIuNS04LjNMMjU2IDQxMi4ybDAtMTE0LjUtNjYuNyAxNy44Yy0yMi42IDYtNDYuMi01LjEtNTUuOS0yNi4zTDk2LjkgMjEwLjMgODMuOCAxODJsMjcuOS0xMy44IDI2LjEtMTIuOSAyOS42LTE0Ljd6bS0xMjEuOCA0OUwxMjUgMzU1LjZsNjguNy0xOC43IDIzLjItNi4zIDEyLjYgNDYuMy0yMy4yIDYuMy04OCAyNEw5OSA0MTIuNGwtOC42LTE4LjEtODgtMTg0TC04IDE4OC43IDM1LjMgMTY4bDEwLjQgMjEuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-ski-lift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-ski-lift.svg)
  */
 const PersonSkiLift: typeof Icon = x => (
     <Icon {...x}>

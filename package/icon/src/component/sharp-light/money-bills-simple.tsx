@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `money-bills-simple` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bills-simple?s=sharp-light money-bills-simple}
- * @preview ![money-bills-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDY0bDAgMjg4LTQ4MCAwIDAtMjg4IDQ4MCAwek0xMjggMzJMOTYgMzJsMCAzMiAwIDI4OCAwIDMyIDMyIDAgNDgwIDAgMzIgMCAwLTMyIDAtMjg4IDAtMzItMzIgMEwxMjggMzJ6TTM2OCAyNzJhNjQgNjQgMCAxIDEgMC0xMjggNjQgNjQgMCAxIDEgMCAxMjh6bS05Ni02NGE5NiA5NiAwIDEgMCAxOTIgMCA5NiA5NiAwIDEgMCAtMTkyIDB6TTMyIDExMmwwLTE2TDAgOTZsMCAxNkwwIDQ2NGwwIDE2IDE2IDAgNTEyIDAgMTYgMCAwLTMyLTE2IDBMMzIgNDQ4bDAtMzM2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![money-bills-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/money-bills-simple.svg)
  */
 const MoneyBillsSimple: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

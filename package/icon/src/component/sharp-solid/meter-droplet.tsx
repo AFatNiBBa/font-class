@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meter-droplet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-droplet?s=sharp-solid meter-droplet}
- * @preview ![meter-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMmM1My43IDAgMTAzLjUtMTYuNSAxNDQuNi00NC43QzM5MCA0NDcuMiAzODQgNDI0LjMgMzg0IDQwMGwwLTIuMWMwLTI4LjMgOC4yLTU2IDIzLjctNzkuN0w0OTkuNiAxNzdDNDY2LjMgNzQuMyAzNjkuOCAwIDI1NiAwQzExNC42IDAgMCAxMTQuNiAwIDI1NlMxMTQuNiA1MTIgMjU2IDUxMnpNMTkyIDE2MGwwIDMyIDAgMzItNjQgMCAwLTMyIDAtMzIgMC0zMiA2NCAwIDAgMzJ6bTk2IDBsMCAzMiAwIDMyLTY0IDAgMC0zMiAwLTMyIDAtMzIgNjQgMCAwIDMyem05NiAwbDAgMzIgMCAzMi02NCAwIDAtMzIgMC0zMiAwLTMyIDY0IDAgMCAzMnptMTQ0IDMyTDQzNC41IDMzNS42Yy0xMi4xIDE4LjUtMTguNSA0MC4yLTE4LjUgNjIuM2wwIDIuMWMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMnMxMTItNTAuMSAxMTItMTEybDAtMi4xYzAtMjIuMS02LjQtNDMuNy0xOC41LTYyLjNMNTI4IDE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![meter-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/meter-droplet.svg)
  */
 const MeterDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

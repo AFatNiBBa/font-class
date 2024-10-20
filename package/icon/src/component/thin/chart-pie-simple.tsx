@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-pie-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pie-simple?s=thin chart-pie-simple}
- * @preview ![chart-pie-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU5IDcuNmMtMS45IDIuOS0zIDYuMy0zIDEwTDI1NiAyNDBjMCA4LjggNy4yIDE2IDE2IDE2bDIyMi4zIDBjOS42IDAgMTcuNy03LjQgMTcuNy0xNy4xQzUxMiAxMDcgNDA1IDAgMjczLjEgMGMtNS45IDAtMTEgMy4xLTE0LjEgNy42ek00OTQuMyAyNDBMMjcyIDI0MGwwLTIyMi4zYzAtLjcgLjItMS4xIC41LTEuNGMuMS0uMSAuMi0uMiAuMy0uMmMwIDAgLjEgMCAuMyAwQzM5Ni4yIDE2IDQ5NiAxMTUuOCA0OTYgMjM4LjljMCAuMSAwIC4yIDAgLjNjMCAuMS0uMSAuMi0uMiAuM2MtLjMgLjMtLjggLjUtMS40IC41ek0yMDggMjg4YzAgOC44IDcuMiAxNiAxNiAxNmwyMjEuMyAwYzEwIDAgMTUuMyA4IDEzLjkgMTQuNUM0MzcuOCA0MTkuOSAzNDcuNyA0OTYgMjQwIDQ5NkMxMTYuMyA0OTYgMTYgMzk1LjcgMTYgMjcyQzE2IDE2NC4zIDkyLjEgNzQuMiAxOTMuNSA1Mi44QzIwMCA1MS40IDIwOCA1Ni43IDIwOCA2Ni43TDIwOCAyODh6TTIyNCA2Ni43YzAtMTguNS0xNS43LTMzLjMtMzMuOC0yOS41QzgxLjUgNjAuMSAwIDE1Ni41IDAgMjcyQzAgNDA0LjUgMTA3LjUgNTEyIDI0MCA1MTJjMTE1LjUgMCAyMTEuOS04MS41IDIzNC44LTE5MC4yYzMuOC0xOC4xLTExLTMzLjgtMjkuNS0zMy44TDI0MCAyODhsLTE2IDAgMC0xNiAwLTIwNS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-pie-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-pie-simple.svg)
  */
 const ChartPieSimple: typeof Icon = x => (
     <Icon {...x}>

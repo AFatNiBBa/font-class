@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comet?s=solid comet}
- * @preview ![comet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk5LjQgNzUuNkw0OTMuNyAuOWMxLjUtLjYgMy4yLS45IDQuOC0uOUM1MDYgMCA1MTIgNiA1MTIgMTMuNWMwIDEuNy0uMyAzLjMtLjkgNC44TDQzNi40IDIxMi42bDI5LjMtMi4zYzEyLjgtMSAyMS41IDEyLjggMTUuMSAyNEwzNzguNiA0MTAuN0MzNDIuMyA0NzMuNCAyNzUuNCA1MTIgMjAzIDUxMkM5MC45IDUxMiAwIDQyMS4xIDAgMzA5YzAtNzIuNCAzOC42LTEzOS40IDEwMS4zLTE3NS43TDI3Ny43IDMxLjJjMTEuMS02LjUgMjUgMi4yIDI0IDE1LjFsLTIuMyAyOS4zek0xOTIgMjAwYy02LjEgMC0xMS43IDMuNS0xNC4zIDguOWwtMjkuMiA1OS4yLTY1LjMgOS41Yy02IC45LTExIDUuMS0xMi45IDEwLjlzLS4zIDEyLjIgNCAxNi40bDQ3LjIgNDYtMTEuMiA2NWMtMSA2IDEuNCAxMi4xIDYuNCAxNS43czExLjUgNC4xIDE2LjggMS4yTDE5MiA0MDIuMWw1OC40IDMwLjdjNS40IDIuOCAxMS45IDIuNCAxNi44LTEuMnM3LjQtOS42IDYuNC0xNS43bC0xMS4yLTY1IDQ3LjItNDZjNC40LTQuMyA1LjktMTAuNiA0LTE2LjRzLTYuOS0xMC0xMi45LTEwLjlsLTY1LjMtOS41LTI5LjItNTkuMmMtMi43LTUuNS04LjMtOC45LTE0LjMtOC45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![comet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/comet.svg)
  */
 const Comet: typeof Icon = x => (
     <Icon {...x}>

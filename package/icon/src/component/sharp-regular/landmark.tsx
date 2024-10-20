@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `landmark` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark?s=sharp-regular landmark}
- * @preview ![landmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxOTJsNDggMCA0MTYgMCA0OCAwIDAtNDhMMjU2IDAgMCAxNDRsMCA0OHpNMjU2IDU1LjFMNDE0LjEgMTQ0IDk3LjkgMTQ0IDI1NiA1NS4xek0xMTIgMjI0bC00OCAwIDAgMTYwLTggMC0yNCAwIDAgNDggMjQgMCA0MDAgMCAyNCAwIDAtNDgtMjQgMC04IDAgMC0xNjAtNDggMCAwIDE2MC02NCAwIDAtMTYwLTQ4IDAgMCAxNjAtNjQgMCAwLTE2MC00OCAwIDAgMTYwLTY0IDAgMC0xNjB6TTAgNDY0bDAgNDggMjQgMCA0NjQgMCAyNCAwIDAtNDgtMjQgMEwyNCA0NjQgMCA0NjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![landmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/landmark.svg)
  */
 const Landmark: typeof Icon = x => (
     <Icon {...x}>

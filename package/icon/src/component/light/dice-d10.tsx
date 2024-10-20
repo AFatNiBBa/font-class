@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dice-d10` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d10?s=light dice-d10}
- * @preview ![dice-d10](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEzLjggODQuMUw1NS42IDI2NC4xbDkyLjctMjEuOEwyMTMuOCA4NC4xek00OC42IDI5OC42TDI0MCA0NjMuNmwwLTEzNS4xLTgzLjEtNTUuNEw0OC42IDI5OC42ek0yNzIgNDYzLjZsMTkxLjQtMTY1TDM1NS4xIDI3My4yIDI3MiAzMjguNmwwIDEzNS4xek00NTYuNCAyNjQuMUwyOTguMiA4NC4xbDY1LjQgMTU4LjIgOTIuNyAyMS44ek0yNTYgMGM2LjkgMCAxMy41IDMgMTggOC4ybDIzMiAyNjRjNC4yIDQuOCA2LjQgMTEuMSA1LjkgMTcuNXMtMy40IDEyLjMtOC4zIDE2LjVsLTIzMiAyMDBjLTkgNy44LTIyLjMgNy44LTMxLjMgMGwtMjMyLTIwMEMzLjUgMzAyIC41IDI5NiAuMSAyODkuN1MxLjcgMjc3IDYgMjcyLjJMMjM4IDguMkMyNDIuNSAzIDI0OS4xIDAgMjU2IDB6bTAgMzAwLjhMMzMyLjIgMjUwIDI1NiA2NS44IDE3OS44IDI1MCAyNTYgMzAwLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dice-d10](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dice-d10.svg)
  */
 const DiceD10: typeof Icon = x => (
     <Icon {...x}>

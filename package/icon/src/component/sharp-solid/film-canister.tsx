@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `film-canister` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film-canister?s=sharp-solid film-canister}
- * @preview ![film-canister](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBMOTYgMGwwIDMyTDMyIDMyIDAgMzIgMCA5NmwzMiAwIDAgMzUyTDAgNDQ4bDAgNjQgMzIgMCAyODggMCAzMiAwIDAtNjQtMzIgMCAwLTM1MiAzMiAwIDAtNjQtMzIgMC02NCAwIDAtMzJ6bTk2IDEyOGwwIDI4OCAxNjAgMCAwLTk2IDY0IDAgMC0xOTItMjI0IDB6bTg4IDQwbDAgNDgtNDggMCAwLTQ4IDQ4IDB6bTQ4IDBsNDggMCAwIDQ4LTQ4IDAgMC00OHpNNDQwIDMyOGwwIDQ4LTQ4IDAgMC00OCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![film-canister](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/film-canister.svg)
  */
 const FilmCanister: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

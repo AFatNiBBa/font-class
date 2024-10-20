@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wind` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wind?s=thin wind}
- * @preview ![wind](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDhjMCA0LjQgMy42IDggOCA4bDY0IDBjMzkuOCAwIDcyIDMyLjIgNzIgNzJzLTMyLjIgNzItNzIgNzJMOCAxNjBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMzUyIDBjNDguNiAwIDg4LTM5LjQgODgtODhzLTM5LjQtODgtODgtODhMMjk2IDBjLTQuNCAwLTggMy42LTggOHptNjQgNDAwYzAgNC40IDMuNiA4IDggOGw2OCAwYzQ2LjQgMCA4NC0zNy42IDg0LTg0cy0zNy42LTg0LTg0LTg0TDggMjQ4Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDQyMCAwYzM3LjYgMCA2OCAzMC40IDY4IDY4cy0zMC40IDY4LTY4IDY4bC02OCAwYy00LjQgMC04IDMuNi04IDh6TTEwNCA1MTJsNjQgMGM0OC42IDAgODgtMzkuNCA4OC04OHMtMzkuNC04OC04OC04OEw4IDMzNmMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwxNjAgMGMzOS44IDAgNzIgMzIuMiA3MiA3MnMtMzIuMiA3Mi03MiA3MmwtNjQgMGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wind](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/wind.svg)
  */
 const Wind: typeof Icon = x => (
     <Icon {...x}>

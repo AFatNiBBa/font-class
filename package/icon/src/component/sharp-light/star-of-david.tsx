@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-of-david` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-of-david?s=sharp-light star-of-david}
- * @preview ![star-of-david](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc2IDM1MmwyMCAzMi0zNy43IDBMMzM2IDM4NGwtNjEuMSA5Ny44TDI1NiA1MTJsLTE4LjktMzAuMkwxNzYgMzg0IDUzLjcgMzg0IDE2IDM4NGwyMC0zMiA2MC05NkwzNiAxNjAgMTYgMTI4bDM3LjcgMEwxNzYgMTI4bDYxLjEtOTcuOEwyNTYgMGwxOC45IDMwLjJMMzM2IDEyOGwxMjIuMyAwIDM3LjcgMC0yMCAzMi02MCA5NiA2MCA5NnpNMzk3LjEgMjI1LjhMNDM4LjMgMTYwIDM1NiAxNjBsNDEuMSA2NS44ek0zMTguMyAxNjBsLTEyNC41IDAtNjAgOTYgNjAgOTYgMTI0LjUgMCA2MC05Ni02MC05NnptLTIwLTMyTDI1NiA2MC40IDIxMy43IDEyOGw4NC41IDB6TTE1NiAxNjBsLTgyLjMgMCA0MS4xIDY1LjhMMTU2IDE2MHpNMTE0LjkgMjg2LjJMNzMuNyAzNTJsODIuMyAwLTQxLjEtNjUuOHpNMzU2IDM1Mmw4Mi4zIDAtNDEuMS02NS44TDM1NiAzNTJ6TTIxMy43IDM4NEwyNTYgNDUxLjYgMjk4LjMgMzg0bC04NC41IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![star-of-david](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/star-of-david.svg)
  */
 const StarOfDavid: typeof Icon = x => (
     <Icon {...x}>

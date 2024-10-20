@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-pickup` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-pickup?s=sharp-thin truck-pickup}
- * @preview ![truck-pickup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDMybC04IDAgMCA4IDAgMTUyTDQ4IDE5MmwtMTYgMCAwIDE2IDAgMTYwTDggMzY4bC04IDAgMCAxNiA4IDAgMjQgMCAxNiAwIDMyIDBjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05Nmw5NiAwYzAgNTMgNDMgOTYgOTYgOTZzOTYtNDMgOTYtOTZsMzIgMCAxNiAwIDI0IDAgOCAwIDAtMTYtOCAwLTI0IDAgMC0xNjAgMC0xNi0xNiAwLTc3LjggMC0zLjktNUwzOTAuMyAzNWwtMi40LTNMMzg0IDMyIDIzMiAzMnpNNTkyIDIwOGwwIDE2MC0zMy4zIDBjLTcuNi00NS40LTQ3LjEtODAtOTQuNy04MHMtODcuMSAzNC42LTk0LjcgODBsLTk4LjcgMGMtNy42LTQ1LjQtNDcuMS04MC05NC43LTgwcy04Ny4xIDM0LjYtOTQuNyA4MEw0OCAzNjhsMC0xNjAgNTQ0IDB6bS05OC4yLTE2TDI0MCAxOTJsMC0xNDQgMTQwLjEgMEw0OTMuOCAxOTJ6TTk2IDM4NGE4MCA4MCAwIDEgMSAxNjAgMEE4MCA4MCAwIDEgMSA5NiAzODR6bTM2OC04MGE4MCA4MCAwIDEgMSAwIDE2MCA4MCA4MCAwIDEgMSAwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck-pickup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/truck-pickup.svg)
  */
 const TruckPickup: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

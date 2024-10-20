@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-soft-serve` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-soft-serve?s=sharp-regular bowl-soft-serve}
- * @preview ![bowl-soft-serve](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBMMjExLjIgMCAyMzYgMzcuM2wxMC44IDE2LjNjLjcgMS4xIDEuMSAyLjQgMS4xIDMuN2MwIDMuNy0zIDYuNy02LjcgNi43TDE3MiA2NGMtNDIgMC03NiAzNC03NiA3NmMwIDQuOSAuNSA5LjggMS40IDE0LjVDNTAuOCAxNjQuOCAxNiAyMDYuMyAxNiAyNTZsMCA3MiAwIDI0IDI0IDAgOC4zIDBjNC4xIDUzLjcgNDkgOTYgMTAzLjcgOTZsMzIgMC0yNCA2NCAxOTIgMC0yNC02NCAzMiAwYzU0LjcgMCA5OS42LTQyLjMgMTAzLjctOTZsOC4zIDAgMjQgMCAwLTI0IDAtNzJjMC00OS45LTM1LjItOTEuNi04Mi4xLTEwMS43YzEuNC01LjkgMi4xLTEyIDIuMS0xOC4zQzQxNiA2MC45IDM1NS4xIDAgMjgwIDBMMjU2IDB6bTQwIDU3LjNjMC0yLjctLjItNS4zLS42LThDMzM2LjcgNTYuNiAzNjggOTIuNyAzNjggMTM2YzAgNS44LTEuNSAxMS4zLTQuMyAxNkwyODAgMTUybC0yNCAwIDAgNDggMjQgMCAzNi40IDAgNTguOCAwIDguOCAwIDggMGMzMC45IDAgNTYgMjUuMSA1NiA1NmwwIDQ4TDY0IDMwNGwwLTQ4YzAtMzAuOSAyNS4xLTU2IDU2LTU2bDggMCA2LjUgMCAzMy41IDAgMjIuOCAwIDEuMiAwIDAtNDgtMjQgMC0yMS4zIDBjLTEuNy0zLjYtMi43LTcuNy0yLjctMTJjMC0xNS41IDEyLjUtMjggMjgtMjhsNjkuMyAwYzMwLjIgMCA1NC43LTI0LjUgNTQuNy01NC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bowl-soft-serve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bowl-soft-serve.svg)
  */
 const BowlSoftServe: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `microchip` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microchip?s=sharp-solid microchip}
- * @preview ![microchip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDI0bDAtMjRMMTI4IDBsMCAyNCAwIDQwTDY0IDY0bDAgNjQtNDAgMEwwIDEyOGwwIDQ4IDI0IDAgNDAgMCAwIDU2LTQwIDBMMCAyMzJsMCA0OCAyNCAwIDQwIDAgMCA1Ni00MCAwTDAgMzM2bDAgNDggMjQgMCA0MCAwIDAgNjQgNjQgMCAwIDQwIDAgMjQgNDggMCAwLTI0IDAtNDAgNTYgMCAwIDQwIDAgMjQgNDggMCAwLTI0IDAtNDAgNTYgMCAwIDQwIDAgMjQgNDggMCAwLTI0IDAtNDAgNjQgMCAwLTY0IDQwIDAgMjQgMCAwLTQ4LTI0IDAtNDAgMCAwLTU2IDQwIDAgMjQgMCAwLTQ4LTI0IDAtNDAgMCAwLTU2IDQwIDAgMjQgMCAwLTQ4LTI0IDAtNDAgMCAwLTY0LTY0IDAgMC00MCAwLTI0TDMzNiAwbDAgMjQgMCA0MC01NiAwIDAtNDAgMC0yNEwyMzIgMGwwIDI0IDAgNDAtNTYgMCAwLTQwek0zNTIgMTYwbC0xOTIgMCAwIDE5MiAxOTIgMCAwLTE5MnpNMTYwIDEyOGwxOTIgMCAzMiAwIDAgMzIgMCAxOTIgMCAzMi0zMiAwLTE5MiAwLTMyIDAgMC0zMiAwLTE5MiAwLTMyIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![microchip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/microchip.svg)
  */
 const Microchip: typeof Icon = x => (
     <Icon {...x}>

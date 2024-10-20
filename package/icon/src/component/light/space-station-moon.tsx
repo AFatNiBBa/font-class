@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `space-station-moon` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/space-station-moon?s=light space-station-moon}
- * @preview ![space-station-moon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjU2QzMyIDEzMi4zIDEzMi4zIDMyIDI1NiAzMnMyMjQgMTAwLjMgMjI0IDIyNGMwIDE0LjgtMS40IDI5LjMtNC4yIDQzLjNjLTIuMSAuNy00LjIgMS41LTYuNSAyLjNDNDMzIDMxNC43IDM2OS45IDMzNy40IDI1NiAzMzcuNHMtMTc3LTIyLjctMjEzLjMtMzUuOGMwIDAgMCAwIDAgMGMtMi4zLS44LTQuNC0xLjYtNi41LTIuM2MtMi43LTE0LTQuMi0yOC41LTQuMi00My4zek0yNTYgMzY5LjRjMTA0LjggMCAxNjkuNi0xOC43IDIwOC44LTMyLjNDNDMyLjMgNDIwLjggMzUxLjEgNDgwIDI1NiA0ODBzLTE3Ni4zLTU5LjItMjA4LjgtMTQyLjhjMzkuMiAxMy42IDEwNCAzMi4zIDIwOC44IDMyLjN6TTI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJBMjU2IDI1NiAwIDEgMCAyNTYgMHpNMTM2IDE2MGE1NiA1NiAwIDEgMSAxMTIgMCA1NiA1NiAwIDEgMSAtMTEyIDB6bTE0NCAwYTg4IDg4IDAgMSAwIC0xNzYgMCA4OCA4OCAwIDEgMCAxNzYgMHptLTg4IDI0YTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![space-station-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/space-station-moon.svg)
  */
 const SpaceStationMoon: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users-rectangle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-rectangle?s=sharp-solid users-rectangle}
- * @preview ![users-rectangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEwwIDAgMCAzMiAwIDQ4MGwwIDMyIDMyIDAgNTc2IDAgMzIgMCAwLTMyIDAtNDQ4IDAtMzJMNjA4IDAgMzIgMHpNNjQgNDQ4TDY0IDY0bDUxMiAwIDAgMzg0TDY0IDQ0OHpNMjIzLjggMTc2YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTEyMCAyNTZMOTYgMzM2bDk0LjMgMCAxOS40LTU4LjEgNy4zLTIxLjlMMTIwIDI1NnptMzI5LjcgODBsOTQuMyAwLTI0LTgwLTk2LjkgMCA3LjMgMjEuOUw0NDkuNyAzMzZ6TTQzMiAzODRsLTE2LTQ4LTE2LTQ4LTE3LjYgMC0xMjQuOCAwTDI0MCAyODhsLTE2IDQ4LTE2IDQ4IDIyNCAwem04MC0yMDhhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHpNMzIwIDI1NmE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![users-rectangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/users-rectangle.svg)
  */
 const UsersRectangle: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

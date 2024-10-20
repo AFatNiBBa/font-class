@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `not-equal` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/not-equal?s=sharp-thin not-equal}
- * @preview ![not-equal](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ2LjcgMzUyTDU2LjYgNDgwbDE5LjYgMCA5MC4xLTEyOEw0MjQgMzUybDggMCAwLTE2LTggMC0yNDYuNSAwTDI5MC4xIDE3NiA0MjQgMTc2bDggMCAwLTE2LTggMC0xMjIuNyAwTDM5MS40IDMybC0xOS42IDBMMjgxLjggMTYwIDI0IDE2MGwtOCAwIDAgMTYgOCAwIDI0Ni41IDBMMTU3LjkgMzM2IDI0IDMzNmwtOCAwIDAgMTYgOCAwIDEyMi43IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![not-equal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/not-equal.svg)
  */
 const NotEqual: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-turret` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-turret?s=sharp-regular house-turret}
- * @preview ![house-turret](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDI0IDAgOTYgMGw0OCAwIDY0IDAgNDggMCA3MiAwIDI0IDAgMCAyNCAwIDExMC4zLTQ4IDQwTDMwNCA0OGwtNDggMCAwIDQwIDAgMjQtNDggMCAwLTI0IDAtNDAtNjQgMCAwIDQwIDAgMjQtNDggMCAwLTI0IDAtNDBMNDggNDhsMCAxNTguOSA1Ny45IDY1LjIgNi4xIDYuOCAwIDkuMSAwIDIwMCAwIDI0LTQ4IDAgMC0yNCAwLTE5MC45TDYuMSAyMzEuOSAwIDIyNS4xIDAgMjE2IDAgMjQgMCAwek0zMDQgMjE2bDQ4LTQwIDk2LTgwTDY0MCAyNTZsMCAyMDggMCA0OC00OCAwLTI4OCAwLTQ4IDAgMC00OCAwLTIwOCA0OC00MHpNMTc2IDE0NGMyMi4xIDAgNDAgMTcuOSA0MCA0MGwwIDU2LTgwIDAgMC01NmMwLTIyLjEgMTcuOS00MCA0MC00MHpNMzA0IDI3OC41TDMwNCA0NjRsMjg4IDAgMC0xODUuNS0xNDQtMTIwLTE0NCAxMjB6TTQ5NiAyNzJsMCA5Ni05NiAwIDAtOTYgOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![house-turret](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-turret.svg)
  */
 const HouseTurret: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

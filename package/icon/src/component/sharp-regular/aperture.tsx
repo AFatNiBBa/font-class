@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `aperture` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/aperture?s=sharp-regular aperture}
- * @preview ![aperture](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA0LjcgNDAxLjVMMzQ4LjQgMzA0IDMyMyAzNDggMjU2IDQ2NGM1OC4yIDAgMTEwLjktMjMuOSAxNDguNy02Mi41ek00MzYuMiAzNjBjMTcuNy0zMC42IDI3LjgtNjYuMSAyNy44LTEwNGMwLTE5LjQtMi43LTM4LjItNy42LTU2bC0xMTIuNiAwIDI1LjQgNDQgNjcgMTE2em0wLTIwOGMtMjcuNi00Ny44LTczLjctODMuNS0xMjguNS05Ny41TDI1MS40IDE1Mmw1MC44IDAgMTM0IDB6TTI1NiA0OGMtNTguMiAwLTExMC45IDIzLjktMTQ4LjcgNjIuNUwxNjMuNiAyMDggMTg5IDE2NCAyNTYgNDh6TTc1LjggMTUyQzU4LjEgMTgyLjYgNDggMjE4LjEgNDggMjU2YzAgMTkuNCAyLjcgMzguMiA3LjYgNTZsMTEyLjYgMC0yNS40LTQ0LTY3LTExNnptMCAyMDhjMjcuNiA0Ny44IDczLjcgODMuNSAxMjguNSA5Ny41TDI2MC42IDM2MGwtNTAuOCAwLTEzNCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTIyMy43LTU2bC0zMi4zIDU2IDMyLjMgNTYgNjQuNyAwIDMyLjMtNTYtMzIuMy01Ni02NC43IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![aperture](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/aperture.svg)
  */
 const Aperture: typeof Icon = x => (
     <Icon {...x}>

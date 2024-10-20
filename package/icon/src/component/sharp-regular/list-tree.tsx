@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `list-tree` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-tree?s=sharp-regular list-tree}
- * @preview ![list-tree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNDhMMCA0OGwwIDk2IDI0IDAgMCAxMTIgMCAxNjAgMCAyNCAyNCAwIDgwIDAgMCAyNCA5NiAwIDAtOTYtOTYgMCAwIDI0LTU2IDAgMC0xMTIgNTYgMCAwIDI0IDk2IDAgMC05Ni05NiAwIDAgMjQtNTYgMCAwLTg4IDI0IDAgMC05NnptNjQgMjRsMCA0OCAyNCAwIDMwNCAwIDI0IDAgMC00OC0yNCAwTDE4NCA3MmwtMjQgMHpNMjg4IDIzMmwwIDQ4IDI0IDAgMTc2IDAgMjQgMCAwLTQ4LTI0IDAtMTc2IDAtMjQgMHptMCAxNjBsMCA0OCAyNCAwIDE3NiAwIDI0IDAgMC00OC0yNCAwLTE3NiAwLTI0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![list-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/list-tree.svg)
  */
 const ListTree: typeof Icon = x => (
     <Icon {...x}>

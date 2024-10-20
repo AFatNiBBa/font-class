@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-confounded` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-confounded?s=sharp-light face-confounded}
- * @preview ![face-confounded](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDI1NkEyMjQgMjI0IDAgMSAwIDMyIDI1NmEyMjQgMjI0IDAgMSAwIDQ0OCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTIxNi45IDk4LjdMMjU2IDM4MC44bDM5LjEtMjYuMSA4LjktNS45IDguOSA1LjkgNDAuMyAyNi44IDIzLjctMTEuOCAxNC4zLTcuMiAxNC4zIDI4LjYtMTQuMyA3LjItMzIgMTYtOC4zIDQuMi03LjctNS4yTDMwNCAzODcuMmwtMzkuMSAyNi4xLTguOSA1LjktOC45LTUuOUwyMDggMzg3LjJsLTM5LjEgMjYuMS03LjcgNS4yLTguMy00LjItMzItMTYtMTQuMy03LjIgMTQuMy0yOC42IDE0LjMgNy4yIDIzLjcgMTEuOCA0MC4zLTI2LjggOC45LTUuOSA4LjkgNS45ek0xMjEuOCAyMzBsMTUuOS0yNy44IDEzLjkgNy45IDU2IDMyTDIzMS45IDI1NmwtMjQuMyAxMy45LTU2IDMyLTEzLjkgNy45TDEyMS44IDI4MmwxMy45LTcuOUwxNjcuNCAyNTZsLTMxLjctMTguMUwxMjEuOCAyMzB6bTI1NC41IDcuOUwzNDQuNiAyNTZsMzEuNyAxOC4xIDEzLjkgNy45LTE1LjkgMjcuOC0xMy45LTcuOS01Ni0zMkwyODAuMSAyNTZsMjQuMy0xMy45IDU2LTMyIDEzLjktNy45TDM5MC4yIDIzMGwtMTMuOSA3Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-confounded](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-confounded.svg)
  */
 const FaceConfounded: typeof Icon = x => (
     <Icon {...x}>

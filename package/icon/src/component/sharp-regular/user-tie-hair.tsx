@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-tie-hair` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie-hair?s=sharp-regular user-tie-hair}
- * @preview ![user-tie-hair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDE0NGwwLTE2YzAtMTEuNC0yLjQtMjIuMi02LjctMzJMMjU2IDk2IDI0MCA4MGwtMzIgMzItNjIuNCAwYy0xIDUuMi0xLjYgMTAuNS0xLjYgMTZsMCAxNmMwIDQ0LjIgMzUuOCA4MCA4MCA4MHM4MC0zNS44IDgwLTgwek0yMjQgMGM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOGwwIDE2YzAgNzAuNy01Ny4zIDEyOC0xMjggMTI4cy0xMjgtNTcuMy0xMjgtMTI4bDAtMTZDOTYgNTcuMyAxNTMuMyAwIDIyNCAwek0yMDkuMSAzNTkuMkwxNzYgMzA0bDQ4IDAgNDggMC0zMy4xIDU1LjIgMTUuOSA1OS4yTDMwNCAzMjBsODAgMCA0OCAxNDQgMTYgNDgtNTAuNiAwTDI4MCA1MTJsLTE4LjMgMC03NS4zIDBMMTY4IDUxMiA1MC42IDUxMiAwIDUxMmwxNi00OEw2NCAzMjBsODAgMCA0OS4yIDk4LjQgMTUuOS01OS4yek0zODEuNCA0NjRsLTMyLTk2LTE1LjcgMC00OCA5NiA5NS43IDB6TTExNC4zIDM2OGwtMTUuNyAwLTMyIDk2IDk1LjcgMC00OC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-tie-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-tie-hair.svg)
  */
 const UserTieHair: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-1-9` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-1-9?s=sharp-thin arrow-down-1-9}
- * @preview ![arrow-down-1-9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQ3NS4zbDUuNy01LjcgMTEyLTExMiA1LjctNS43TDI3MiAzNDAuN2wtNS43IDUuN0wxNjggNDQ0LjcgMTY4IDQwbDAtOC0xNiAwIDAgOCAwIDQwNC43TDUzLjcgMzQ2LjMgNDggMzQwLjcgMzYuNyAzNTJsNS43IDUuNyAxMTIgMTEyIDUuNyA1Ljd6TTM2OCAzMmwwIDE2IDggMCA0OCAwIDAgMTYwLTQ4IDAtOCAwIDAgMTYgOCAwIDU2IDAgNTYgMCA4IDAgMC0xNi04IDAtNDggMCAwLTE2OCAwLTgtOCAwLTU2IDAtOCAwem02MCAyNDBjMzYuOSAwIDY3IDI5LjQgNjggNjYuMWMtLjIgOS4yLTEuOCAxOC4zLTQuNyAyNi45Yy0xMCAyNS4yLTM0LjUgNDMtNjMuMiA0M2MtMzcuNiAwLTY4LTMwLjQtNjgtNjhzMzAuNC02OCA2OC02OHptMCAxNTJjOS4yIDAgMTgtMS41IDI2LjMtNC4yTDQwNS43IDQ4MGwyMC42IDAgNjItNzYuN2M3LjktOS44IDE0LTIwLjkgMTgtMzIuNmMzLjctOS41IDUuOC0xOS44IDUuOC0zMC42YzAtLjYgMC0xLjMgMC0xLjljMC0uNyAwLTEuNCAwLTIuMWwtLjEgMGMtMi4xLTQ0LjUtMzguOS04MC04My45LTgwYy00Ni40IDAtODQgMzcuNi04NCA4NHMzNy42IDg0IDg0IDg0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-down-1-9.svg)
  */
 const ArrowDown_1_9: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

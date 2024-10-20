@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `magnifying-glass-play` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-play?s=sharp-solid magnifying-glass-play}
- * @preview ![magnifying-glass-play](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc2IDMzMC43YzI1LjItMzQuNCA0MC03Ni44IDQwLTEyMi43QzQxNiA5My4xIDMyMi45IDAgMjA4IDBTMCA5My4xIDAgMjA4UzkzLjEgNDE2IDIwOCA0MTZjNDUuOSAwIDg4LjMtMTQuOSAxMjIuNy00MEw0NDEuNCA0ODYuNiA0NjQgNTA5LjMgNTA5LjMgNDY0bC0yMi42LTIyLjZMMzc2IDMzMC43ek0xNDUuOCAxMTYuMmwyNCAxNCAxMTAuMiA2NEwzMDMuOSAyMDggMjgwIDIyMS44bC0xMTAuMiA2NC0yNCAxNCAwLTI3LjggMC0xMjggMC0yNy44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![magnifying-glass-play](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/magnifying-glass-play.svg)
  */
 const MagnifyingGlassPlay: typeof Icon = x => (
     <Icon {...x}>

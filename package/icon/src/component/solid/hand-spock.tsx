@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-spock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-spock?s=solid hand-spock}
- * @preview ![hand-spock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ2LjkgMjMuN0MyNDIuMyA2LjYgMjI0LjgtMy41IDIwNy43IDEuMXMtMjcuMiAyMi4xLTIyLjYgMzkuMkwyMzggMjM3LjhjMi41IDkuMi00LjUgMTguMi0xNCAxOC4yYy02LjQgMC0xMi00LjItMTMuOS0xMC4zTDE2Ni42IDEwMi43Yy01LjEtMTYuOS0yMy0yNi40LTM5LjktMjEuM3MtMjYuNCAyMy0yMS4zIDM5LjlsNjIuOCAyMDYuNGMyLjQgNy45LTcuMiAxMy44LTEzLjIgOC4xTDk5LjYgMjgzYy0xNi0xNS4yLTQxLjMtMTQuNi01Ni42IDEuNHMtMTQuNiA0MS4zIDEuNCA1Ni42TDE1Ni44IDQ0OGM0My4xIDQxLjEgMTAwLjQgNjQgMTYwIDY0bDEwLjkgMCA4LjIgMGMuMSAwIC4xLS4xIC4xLS4xcy4xLS4xIC4xLS4xYzU4LjMtMy41IDEwOC42LTQzLjIgMTI1LjMtOTkuN2w4MS4yLTI3NWM1LTE2LjktNC43LTM0LjctMjEuNi0zOS44cy0zNC43IDQuNy0zOS44IDIxLjZMNDQzLjUgMjQ3LjFjLTEuNiA1LjMtNi40IDguOS0xMiA4LjljLTcuOSAwLTEzLjgtNy4zLTEyLjItMTUuMWwzNi0xNzAuM2MzLjctMTcuMy03LjQtMzQuMy0yNC43LTM3LjlzLTM0LjMgNy40LTM3LjkgMjQuN0wzNTUuMSAyMzUuMWMtMi42IDEyLjItMTMuMyAyMC45LTI1LjggMjAuOWMtMTEuOSAwLTIyLjQtOC0yNS40LTE5LjVsLTU3LTIxMi44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-spock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-spock.svg)
  */
 const HandSpock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

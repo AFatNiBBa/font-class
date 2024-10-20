@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `uber` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/uber?s=brands uber}
- * @preview ![uber](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE0LjEgMzJIMzMuOUMxNS4yIDMyIDAgNDcuMiAwIDY1LjlWNDQ2YzAgMTguOCAxNS4yIDM0IDMzLjkgMzRINDE0YzE4LjcgMCAzMy45LTE1LjIgMzMuOS0zMy45VjY1LjlDNDQ4IDQ3LjIgNDMyLjggMzIgNDE0LjEgMzJ6TTIzNy42IDM5MS4xQzE2MyAzOTguNiA5Ni40IDM0NC4yIDg4LjkgMjY5LjZoOTQuNFYyOTBjMCAzLjcgMyA2LjggNi44IDYuOEgyNThjMy43IDAgNi44LTMgNi44LTYuOHYtNjcuOWMwLTMuNy0zLTYuOC02LjgtNi44aC02Ny45Yy0zLjcgMC02LjggMy02LjggNi44djIwLjRIODguOWM3LTY5LjQgNjUuNC0xMjIuMiAxMzUuMS0xMjIuMiA2OS43IDAgMTI4LjEgNTIuOCAxMzUuMSAxMjIuMiA3LjUgNzQuNS00Ni45IDE0MS4xLTEyMS41IDE0OC42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![uber](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/uber.svg)
  */
 const Uber: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

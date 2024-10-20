@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chestnut` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chestnut?s=sharp-regular chestnut}
- * @preview ![chestnut](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMzg0bDAgMTIuMUw4My45IDQzMmwyODAuMiAwTDQwMCAzOTYuMWwwLTEyLjFMNDggMzg0em0zNTEuNC00OGMtNS4yLTY4LjQtNDMuNy0xMTkuOS05MC0xNjIuOGMtMTkuOS0xOC40LTM5LjctMzMuOS01OC42LTQ4LjdjMCAwIDAgMCAwIDBjLTUtMy45LTEwLTcuOC0xNC45LTExLjdjLTQtMy4yLTgtNi40LTExLjktOS42Yy0zLjkgMy4zLTggNi41LTExLjkgOS42Yy00LjkgMy45LTkuOCA3LjctMTQuOSAxMS43YzAgMCAwIDAgMCAwczAgMCAwIDBjLTE4LjggMTQuNy0zOC43IDMwLjItNTguNiA0OC43Yy00Ni4zIDQyLjgtODQuOCA5NC4zLTkwIDE2Mi44bDM1MC44IDB6TTE2OC40IDg2LjJjNy43LTYgMTUtMTEuNyAyMS42LTE3LjFDMjA3LjcgNTQuNiAyMjAuNSA0Mi41IDIyNCAzMmMzLjUgMTAuNSAxNi4zIDIyLjYgMzQuMSAzNy4xYzYuNiA1LjMgMTMuOCAxMSAyMS42IDE3LjFDMzQ2LjMgMTM4LjIgNDQ4IDIxNy43IDQ0OCAzNTJsMCAzMiAwIDMyLTY0IDY0TDY0IDQ4MCAwIDQxNmwwLTMyIDAtMzJDMCAyMTcuNyAxMDEuNyAxMzguMiAxNjguNCA4Ni4yYzAgMCAwIDAgMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chestnut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chestnut.svg)
  */
 const Chestnut: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

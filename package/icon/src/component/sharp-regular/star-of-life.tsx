@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-of-life` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-of-life?s=sharp-regular star-of-life}
- * @preview ![star-of-life](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI4IDc1LjlMMzI4IDQ4bDAtNDhMMjgwIDAgMjMyIDAgMTg0IDBsMCA0OCAwIDI3LjkgMCA1NS40LTQ4LTI3LjdMMTExLjkgODkuNmwtNDEuNi0yNC0yNCA0MS42LTI0IDQxLjYtMjQgNDEuNiA0MS42IDI0TDY0IDIyOC4zIDExMiAyNTYgNjQgMjgzLjcgMzkuOSAyOTcuNmwtNDEuNiAyNCAyNCA0MS42IDI0IDQxLjYgMjQgNDEuNiA0MS42LTI0TDEzNiA0MDguNGw0OC0yNy43IDAgNTUuNCAwIDI3LjkgMCA0OCA0OCAwIDQ4IDAgNDggMCAwLTQ4IDAtMjcuOSAwLTU1LjQgNDggMjcuNyAyNC4xIDEzLjkgNDEuNiAyNCAyNC00MS42IDI0LTQxLjYgMjQtNDEuNi00MS42LTI0TDQ0OCAyODMuNyA0MDAgMjU2bDQ4LTI3LjcgMjQuMS0xMy45IDQxLjYtMjQtMjQtNDEuNi0yNC00MS42LTI0LTQxLjYtNDEuNiAyNEwzNzYgMTAzLjZsLTQ4IDI3LjcgMC01NS40em05Ni4xIDU1LjNsMjQgNDEuNkwzNzYgMjE0LjQgMzA0IDI1Nmw3MiA0MS42IDcyLjEgNDEuNi0yNCA0MS42TDM1MiAzMzkuMWwtNzItNDEuNiAwIDgzLjEgMCA4My4zLTQ4IDAgMC04My4zIDAtODMuMS03MiA0MS42TDg3LjkgMzgwLjhsLTI0LTQxLjZMMTM2IDI5Ny42IDIwOCAyNTZsLTcyLTQxLjZMNjMuOSAxNzIuOGwyNC00MS42TDE2MCAxNzIuOWw3MiA0MS42IDAtODMuMUwyMzIgNDhsNDggMCAwIDgzLjMgMCA4My4xIDcyLTQxLjYgNzIuMS00MS42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![star-of-life](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/star-of-life.svg)
  */
 const StarOfLife: typeof Icon = x => (
     <Icon {...x}>

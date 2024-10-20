@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `snooze` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snooze?s=regular snooze}
- * @preview ![snooze](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNTkuMSAwLTc3LjIgODguMmMtNi4yIDcuMS03LjcgMTcuMS0zLjggMjUuN1MxNzQuNiAxNzYgMTg0IDE3NmwxMTIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNTkuMSAwIDc3LjItODguMmM2LjItNy4xIDcuNy0xNy4xIDMuOC0yNS43UzMwNS40IDAgMjk2IDBMMTg0IDB6TTMxMiAyMjRjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNjIuOSAwTDI5My4xIDM3Ny4zYy01LjYgNy4yLTYuNiAxNy0yLjYgMjUuM3MxMi40IDEzLjUgMjEuNiAxMy41bDExMiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC02Mi45IDAgODEuOS0xMDUuM2M1LjYtNy4yIDYuNi0xNyAyLjYtMjUuM3MtMTIuNC0xMy41LTIxLjYtMTMuNWwtMTEyIDB6TTI0IDIyNGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwxMjguNiAwTDQuNiA0NzMuOGMtNS4zIDcuMy02LjEgMTctMi4xIDI1UzE1IDUxMiAyNCA1MTJsMTc2IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMNzEuNCA0NjRsMTQ4LTIwMS44YzUuMy03LjMgNi4xLTE3IDIuMS0yNVMyMDkgMjI0IDIwMCAyMjRMMjQgMjI0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![snooze](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/snooze.svg)
  */
 const Snooze: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

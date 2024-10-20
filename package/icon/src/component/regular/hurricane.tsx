@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hurricane` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hurricane?s=regular hurricane}
- * @preview ![hurricane](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMjA4QzQ4IDEzMy41IDk5IDcwLjggMTY4IDUzbDAgNTIuNGMwIDIxLjIgMTYgMzcuMSAzNC42IDQwLjJDMjc4LjMgMTU4LjMgMzM2IDIyNC4xIDMzNiAzMDMuNGMwIDc0LjUtNTEgMTM3LjItMTIwIDE1NWwwLTUyLjRjMC0yMS4yLTE2LTM3LjEtMzQuNi00MC4yQzEwNS43IDM1My4xIDQ4IDI4Ny4zIDQ4IDIwOHpNMjE2IDQyLjFjMC0yMi43LTIwLjEtNDMuNC00NS42LTM4LjdDNzMuNSAyMS4xIDAgMTA1LjkgMCAyMDhDMCAzMDkuMiA3Mi4zIDM5My41IDE2OCA0MTIuMmwwIDU3LjFjMCAyMi43IDIwLjEgNDMuNCA0NS42IDM4LjdDMzEwLjUgNDkwLjMgMzg0IDQwNS41IDM4NCAzMDMuNGMwLTEwMS4yLTcyLjMtMTg1LjUtMTY4LTIwNC4ybDAtNTcuMXpNMTc2IDI1NmExNiAxNiAwIDEgMSAzMiAwIDE2IDE2IDAgMSAxIC0zMiAwem04MCAwYTY0IDY0IDAgMSAwIC0xMjggMCA2NCA2NCAwIDEgMCAxMjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hurricane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hurricane.svg)
  */
 const Hurricane: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

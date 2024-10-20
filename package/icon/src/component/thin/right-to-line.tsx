@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `right-to-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-to-line?s=thin right-to-line}
- * @preview ![right-to-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDcybDAgMzY4YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC0zNjhjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDh6TTMzMi43IDI0OGMyLjEgMi4xIDMuMyA1IDMuMyA4cy0xLjIgNS45LTMuMyA4TDIwMC42IDM5NS44Yy0yLjcgMi43LTYuNCA0LjItMTAuMiA0LjJjLTggMC0xNC40LTYuNS0xNC40LTE0LjRsMC03My42YzAtNC40LTMuNi04LTgtOEwzMiAzMDRjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTY0YzAtOC44IDcuMi0xNiAxNi0xNmwxMzYgMGM0LjQgMCA4LTMuNiA4LThsMC03My42YzAtOCA2LjUtMTQuNCAxNC40LTE0LjRjMy44IDAgNy41IDEuNSAxMC4yIDQuMkwzMzIuNyAyNDh6bTE5LjMgOGMwLTcuMi0yLjktMTQuMi04LTE5LjNMMjExLjkgMTA0LjljLTUuNy01LjctMTMuNC04LjktMjEuNS04LjljLTE2LjggMC0zMC40IDEzLjYtMzAuNCAzMC40bDAgNjUuNkwzMiAxOTJjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTI4IDAgMCA2NS42YzAgMTYuOCAxMy42IDMwLjQgMzAuNCAzMC40YzguMSAwIDE1LjgtMy4yIDIxLjUtOC45TDM0NCAyNzUuM2M1LjEtNS4xIDgtMTIuMSA4LTE5LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![right-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/right-to-line.svg)
  */
 const RightToLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

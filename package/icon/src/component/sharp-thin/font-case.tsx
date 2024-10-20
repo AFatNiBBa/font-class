@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `font-case` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/font-case?s=sharp-thin font-case}
- * @preview ![font-case](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY4LjUgMzcuMmwxLjktNS4yIDExLjEgMCAxLjkgNS4yTDM0OC40IDQ4MGwtMTcuMSAwTDI4My43IDM1MiA2OC4zIDM1MiAyMC43IDQ4MCAzLjYgNDgwIDE2OC41IDM3LjJ6TTc0LjMgMzM2bDIwMy40IDBMMTc2IDYyLjkgNzQuMyAzMzZ6TTY0MCAxNjhsMCAxMDggMCA4OCAwIDEwOCAwIDgtMTYgMCAwLTggMC00OS4yQzYwMy44IDQ1NyA1NjYuNiA0ODAgNTI0IDQ4MGMtNjQuMSAwLTExNi01MS45LTExNi0xMTZsMC04OGMwLTY0LjEgNTEuOS0xMTYgMTE2LTExNmM0Mi42IDAgNzkuOCAyMyAxMDAgNTcuMmwwLTQ5LjIgMC04IDE2IDAgMCA4em0tMTE2IDhjLTU1LjIgMC0xMDAgNDQuOC0xMDAgMTAwbDAgODhjMCA1NS4yIDQ0LjggMTAwIDEwMCAxMDBzMTAwLTQ0LjggMTAwLTEwMGwwLTg4YzAtNTUuMi00NC44LTEwMC0xMDAtMTAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![font-case](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/font-case.svg)
  */
 const FontCase: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

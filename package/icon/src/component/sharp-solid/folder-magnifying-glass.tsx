@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-magnifying-glass` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-magnifying-glass?s=sharp-solid folder-magnifying-glass}
- * @preview ![folder-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDQ4MEwwIDQ4MCAwIDMybDIyNCAwIDQ4IDY0IDI0MCAwIDAgMzg0ek0zMzYgMjcyYzAtNTMtNDMtOTYtOTYtOTZzLTk2IDQzLTk2IDk2czQzIDk2IDk2IDk2YzE3LjggMCAzNC40LTQuOCA0OC43LTEzLjJMMzI3IDM5My4xbDE3IDE3IDMzLjktMzMuOS0xNy0xNy0zOC4zLTM4LjNjOC41LTE0LjMgMTMuMy0zMSAxMy4zLTQ4Ljl6bS05Ni00OGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![folder-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/folder-magnifying-glass.svg)
  */
 const FolderMagnifyingGlass: typeof Icon = x => (
     <Icon {...x}>

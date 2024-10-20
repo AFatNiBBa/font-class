@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scalpel-line-dashed` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scalpel-line-dashed?s=sharp-solid scalpel-line-dashed}
- * @preview ![scalpel-line-dashed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk1LjcgMTE1LjZMMzUyIDI4OGwtMTkyIDBMMzk2LjIgMjIuMkM0MDguOCA4LjEgNDI2LjggMCA0NDUuOCAwQzQ4Mi4zIDAgNTEyIDI5LjcgNTEyIDY2LjJsMCA0LjJjMCAxNi41LTUuOCAzMi41LTE2LjMgNDUuMXpNMCA1MTJMMTc2IDMyMGwxMTIgMEMyODggNDk2IDAgNTEyIDAgNTEyem0yNDAtMzJsNjQgMCAxNiAwIDAgMzItMTYgMC02NCAwLTE2IDAgMC0zMiAxNiAwem0xMjggMGw2NCAwIDE2IDAgMCAzMi0xNiAwLTY0IDAtMTYgMCAwLTMyIDE2IDB6bTEyOCAwbDY0IDAgMTYgMCAwIDMyLTE2IDAtNjQgMC0xNiAwIDAtMzIgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scalpel-line-dashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/scalpel-line-dashed.svg)
  */
 const ScalpelLineDashed: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

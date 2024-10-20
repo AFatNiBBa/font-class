@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `guitar` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guitar?s=solid guitar}
- * @preview ![guitar](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY1IDdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwTDM4MyA1NWMtMi40IDIuNC00LjMgNS4zLTUuNSA4LjVsLTE1LjQgNDEtNzcuNSA3Ny42Yy00NS4xLTI5LjQtOTkuMy0zMC4yLTEzMSAxLjZjLTExIDExLTE4IDI0LjYtMjEuNCAzOS42Yy0zLjcgMTYuNi0xOS4xIDMwLjctMzYuMSAzMS42Yy0yNS42IDEuMy00OS4zIDEwLjctNjcuMyAyOC42Qy0xNiAzMjguNC03LjYgNDA5LjQgNDcuNSA0NjQuNXMxMzYuMSA2My41IDE4MC45IDE4LjdjMTcuOS0xNy45IDI3LjQtNDEuNyAyOC42LTY3LjNjLjktMTcgMTUtMzIuMyAzMS42LTM2LjFjMTUtMy40IDI4LjYtMTAuNSAzOS42LTIxLjRjMzEuOC0zMS44IDMxLTg1LjkgMS42LTEzMWw3Ny42LTc3LjYgNDEtMTUuNGMzLjItMS4yIDYuMS0zLjEgOC41LTUuNWw0OC00OGM5LjQtOS40IDkuNC0yNC42IDAtMzMuOUw0NjUgN3pNMjA4IDI1NmE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![guitar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/guitar.svg)
  */
 const Guitar: typeof Icon = x => (
     <Icon {...x}>

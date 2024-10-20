@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-down?s=sharp-light turn-down}
- * @preview ![turn-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDM1MmwwLTMyIDAtMTkyIDAtMzItMzIgMEwzMiA5NmwwLTY0IDE5MiAwIDAgMjg4IDAgMzIgMzIgMCA1MC43IDBMMTkyIDQ2Ni43IDc3LjMgMzUybDUwLjcgMCAzMiAwek02NCAzMjBsLTMyIDAgMCAzMkwxNjkuNCA0ODkuNCAxOTIgNTEybDIyLjYtMjIuNkwzNTIgMzUybDAtMzItMzIgMC0zMiAwLTMyIDAgMC0zMiAwLTI1NiAwLTMyTDIyNCAwIDMyIDAgMCAwIDAgMzIgMCA5NmwwIDMyIDMyIDAgNjQgMCAzMiAwIDAgMzIgMCAxMjggMCAzMi0zMiAwLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![turn-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/turn-down.svg)
  */
 const TurnDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-arrival` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-arrival?s=solid plane-arrival}
- * @preview ![plane-arrival](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNLjMgMTY2LjlMMCA2OEMwIDU3LjcgOS41IDUwLjEgMTkuNSA1Mi4zbDM1LjYgNy45YzEwLjYgMi4zIDE5LjIgOS45IDIzIDIwTDk2IDEyOGwxMjcuMyAzNy42TDE4MS44IDIwLjRDMTc4LjkgMTAuMiAxODYuNiAwIDE5Ny4yIDBsNDAuMSAwYzExLjYgMCAyMi4yIDYuMiAyNy45IDE2LjNsMTA5IDE5My44IDEwNy4yIDMxLjdjMTUuOSA0LjcgMzAuOCAxMi41IDQzLjcgMjIuOGwzNC40IDI3LjZjMjQgMTkuMiAxOC4xIDU3LjMtMTAuNyA2OC4yYy00MS4yIDE1LjYtODYuMiAxOC4xLTEyOC44IDdMMTIxLjcgMjg5LjhjLTExLjEtMi45LTIxLjItOC43LTI5LjMtMTYuOUw5LjUgMTg5LjRjLTUuOS02LTkuMy0xNC4xLTkuMy0yMi41ek0zMiA0NDhsNTc2IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMnMxNC4zLTMyIDMyLTMyem05Ni04MGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem0xMjgtMTZhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![plane-arrival](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plane-arrival.svg)
  */
 const PlaneArrival: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book?s=light book}
- * @preview ![book](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhzMCAwIDAgMGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzNjggMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMTYgMCAwLTY2LjdjMTguNi02LjYgMzItMjQuNCAzMi00NS4zbDAtMzIwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDY0IDB6TTM4NCA0MTZsMCA2NEw2NCA0ODBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMzIwIDB6TTY0IDM4NGMtMTEuNyAwLTIyLjYgMy4xLTMyIDguNkwzMiA2NGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMiAwIDAgMzUyLTMyIDB6bTY0IDBsMC0zNTIgMjcyIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMzIwYzAgOC44LTcuMiAxNi0xNiAxNmwtMjcyIDB6bTQ4LTI0MGMwIDguOCA3LjIgMTYgMTYgMTZsMTYwIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTE2MCAwYy04LjggMC0xNiA3LjItMTYgMTZ6bTAgOTZjMCA4LjggNy4yIDE2IDE2IDE2bDE2MCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xNjAgMGMtOC44IDAtMTYgNy4yLTE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/book.svg)
  */
 const Book: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

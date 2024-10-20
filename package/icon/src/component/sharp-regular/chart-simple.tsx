@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-simple?s=sharp-regular chart-simple}
- * @preview ![chart-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDgwbDAgMzUyLTMyIDAgMC0zNTIgMzIgMHpNMjA4IDMybC00OCAwIDAgNDggMCAzNTIgMCA0OCA0OCAwIDMyIDAgNDggMCAwLTQ4IDAtMzUyIDAtNDgtNDggMC0zMiAwek04MCAyNzJsMCAxNjAtMzIgMCAwLTE2MCAzMiAwek00OCAyMjRMMCAyMjRsMCA0OEwwIDQzMmwwIDQ4IDQ4IDAgMzIgMCA0OCAwIDAtNDggMC0xNjAgMC00OC00OCAwLTMyIDB6bTMyMC04MGwzMiAwIDAgMjg4LTMyIDAgMC0yODh6TTMyMCA5NmwwIDQ4IDAgMjg4IDAgNDggNDggMCAzMiAwIDQ4IDAgMC00OCAwLTI4OCAwLTQ4LTQ4IDAtMzIgMC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chart-simple.svg)
  */
 const ChartSimple: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

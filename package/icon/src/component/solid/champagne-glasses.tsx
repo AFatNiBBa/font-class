@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `champagne-glasses` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/champagne-glasses?s=solid champagne-glasses}
- * @preview ![champagne-glasses](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU1LjYgMTcuM0MxNjMgMyAxNzkuOS0zLjYgMTk1IDEuOUwzMjAgNDcuNWwxMjUtNDUuNmMxNS4xLTUuNSAzMiAxLjEgMzkuNCAxNS40bDc4LjggMTUyLjljMjguOCA1NS44IDEwLjMgMTIyLjMtMzguNSAxNTYuNkw1NTYuMSA0MTNsNDEtMTVjMTYuNi02IDM1IDIuNSA0MSAxOS4xcy0yLjUgMzUtMTkuMSA0MWwtNzEuMSAyNS45TDQ3Ni44IDUxMGMtMTYuNiA2LjEtMzUtMi41LTQxLTE5LjFzMi41LTM1IDE5LjEtNDFsNDEtMTUtMzEuMy04Ni4yYy01OS40IDUuMi0xMTYuMi0zNC0xMzAtOTUuMkwzMjAgMTg4LjhsLTE0LjYgNjQuN2MtMTMuOCA2MS4zLTcwLjYgMTAwLjQtMTMwIDk1LjJsLTMxLjMgODYuMiA0MSAxNWMxNi42IDYgMjUuMiAyNC40IDE5LjEgNDFzLTI0LjQgMjUuMi00MSAxOS4xTDkyLjIgNDg0LjEgMjEuMSA0NTguMmMtMTYuNi02LjEtMjUuMi0yNC40LTE5LjEtNDFzMjQuNC0yNS4yIDQxLTE5LjFsNDEgMTUgMzEuMy04Ni4yQzY2LjUgMjkyLjUgNDguMSAyMjYgNzYuOSAxNzAuMkwxNTUuNiAxNy4zem00NCA1NC40bC0yNy4yIDUyLjhMMjYxLjYgMTU3bDEzLjEtNTcuOUwxOTkuNiA3MS43em0yNDAuOSAwTDM2NS40IDk5LjEgMzc4LjUgMTU3bDg5LjItMzIuNUw0NDAuNSA3MS43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![champagne-glasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/champagne-glasses.svg)
  */
 const ChampagneGlasses: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

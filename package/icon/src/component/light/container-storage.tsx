@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `container-storage` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/container-storage?s=light container-storage}
- * @preview ![container-storage](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMzJDNy4yIDMyIDAgMzkuMiAwIDQ4czcuMiAxNiAxNiAxNmwxNiAwIDAgMzg0LTE2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMzIgMCA1NDQgMCAzMiAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xNiAwIDAtMzg0IDE2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTMyIDBMNDggMzIgMTYgMzJ6TTY0IDQ0OEw2NCA2NGw1MTIgMCAwIDM4NEw2NCA0NDh6TTE5MiAxNDRjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCAyMjRjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTIyNHptOTYgMGMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNmwwIDIyNGMwIDguOCA3LjIgMTYgMTYgMTZzMTYtNy4yIDE2LTE2bDAtMjI0em05NiAwYzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMjI0YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0yMjR6bTk2IDBjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCAyMjRjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTIyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![container-storage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/container-storage.svg)
  */
 const ContainerStorage: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

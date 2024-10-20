@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-tag` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tag?s=sharp-thin user-tag}
- * @preview ![user-tag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE2YTExMiAxMTIgMCAxIDEgMCAyMjQgMTEyIDExMiAwIDEgMSAwLTIyNHpNNzUuOCAzMjBMMzIwIDMyMGwwLTE2TDY0IDMwNCA0LjkgNDk2IDAgNTEybDE2LjcgMCA0MTQuNSAwIDE2LjcgMC00LjktMTYtMy40LTExLjEtMjQuMi0yNC4yTDQyNi4zIDQ5NiAyMS43IDQ5NiA3NS44IDMyMHpNMzUyIDEyOEExMjggMTI4IDAgMSAwIDk2IDEyOGExMjggMTI4IDAgMSAwIDI1NiAwek02MjguNyAzNzIuN0w0ODAgMjI0bC05NiAwLTMyIDMyIDAgOTZMNTAwLjcgNTAwLjcgNTEyIDUxMmwxMS4zLTExLjNMNjI4LjcgMzk1LjMgNjQwIDM4NGwtMTEuMy0xMS4zek00NzMuNCAyNDBsMTQ0IDE0NEw1MTIgNDg5LjRsLTE0NC0xNDQgMC04Mi43TDM5MC42IDI0MGw4Mi43IDB6TTQ0MCAyOTZhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-tag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-tag.svg)
  */
 const UserTag: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

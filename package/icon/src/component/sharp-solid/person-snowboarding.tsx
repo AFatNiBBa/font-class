@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-snowboarding` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-snowboarding?s=sharp-solid person-snowboarding}
- * @preview ![person-snowboarding](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDBhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2ek0yMjcuNCAxMTAuM2wtNDAtODBMMjQ0LjYgMS43bDMzIDY2IDY0LjcgMTIuOSA3LjQgMS41IDYgNC42IDE0NCAxMTIgMjUuMyAxOS42LTM5LjMgNTAuNS0yNS4zLTE5LjYtNzIuMS01Ni4xLTcxLjUgMzEuOCA1NS44IDQ2LjVMMzg3LjYgMjg0bC00LjQgMTkuMi0yNCAxMDQtNS44IDI1IDgzIDMxLjggMzUuNiAwIDI0IDAgMCA0OC0yNCAwLTQwIDAtNC40IDAtNC4xLTEuNi0zNzYtMTQ0LTQuOC0xLjhMMzkgMzYxIDcgMzI5bC0xNy0xN0wyNCAyNzguMWwxNyAxNyAyOC40IDI4LjQgMjkuOSAxMS40TDg3LjUgMjk5LjhsMzAuNC0xMC4xTDE5MiAyNjQuOWwwLTUzLjJjMC0yNC4yIDEzLjctNDYuNCAzNS40LTU3LjJsNDUuMi0yMi42LTIyLjgtNC42LTE1LjMtMy4xLTctMTR6TTEzOSAzNTAuMWwxNTQuMSA1OSAzLjgtMTYuM0wzMTYuNCAzMDggMjU2IDI1Ny43bDAgMzAuMyAwIDIzLjEtMjEuOSA3LjNMMTM5IDM1MC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-snowboarding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-snowboarding.svg)
  */
 const PersonSnowboarding: typeof Icon = x => (
     <Icon {...x}>

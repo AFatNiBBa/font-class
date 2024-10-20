@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cube` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cube?s=sharp-regular cube}
- * @preview ![cube](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDYuM2w4LjUgMy4yIDIzMiA4OCAxNS41IDUuOSAwIDE2LjYgMCAyNjQgMCAxNi0xNC44IDYuMS0yMzIgOTZMMjU2IDUwNmwtOS4yLTMuOC0yMzItOTZMMCA0MDBsMC0xNkwwIDEyMGwwLTE2LjYgMTUuNS01LjkgMjMyLTg4TDI1NiA2LjN6TTQ4IDM2OGwxODQgNzYuMSAwLTIwMy43TDQ4IDE2OC4xIDQ4IDM2OHptMjMyIDc2LjFMNDY0IDM2OGwwLTE5OS45TDI4MCAyNDAuNGwwIDIwMy43ek0yNTYgNTcuN2wtMTgyIDY5IDE4MiA3MS41IDE4Mi03MS41LTE4Mi02OXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cube](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cube.svg)
  */
 const Cube: typeof Icon = x => (
     <Icon {...x}>

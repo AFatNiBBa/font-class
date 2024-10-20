@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `quote-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quote-right?s=thin quote-right}
- * @preview ![quote-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDI5NmMwIDY2LjMtNTMuNyAxMjAtMTIwIDEyMGwtMTYgMGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGwxNiAwYzU3LjQgMCAxMDQtNDYuNiAxMDQtMTA0bDAtMzQuN2MtMTMuMiAxNi4zLTMzLjQgMjYuNy01NiAyNi43bC00OCAwYy0zOS44IDAtNzItMzIuMi03Mi03MmwwLTQ4YzAtMzkuOCAzMi4yLTcyIDcyLTcybDQ4IDBjMzkuOCAwIDcyIDMyLjIgNzIgNzJsMCAzMiAwIDE2IDAgODB6bS0xNi05NmwwLTMyYzAtMzAuOS0yNS4xLTU2LTU2LTU2bC00OCAwYy0zMC45IDAtNTYgMjUuMS01NiA1NmwwIDQ4YzAgMzAuOSAyNS4xIDU2IDU2IDU2bDQ4IDBjMzAuOSAwIDU2LTI1LjEgNTYtNTZsMC0xNnpNMTkyIDI5NmMwIDY2LjMtNTMuNyAxMjAtMTIwIDEyMGwtMTYgMGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGwxNiAwYzU3LjQgMCAxMDQtNDYuNiAxMDQtMTA0bDAtMzQuN2MtMTMuMiAxNi4zLTMzLjQgMjYuNy01NiAyNi43bC00OCAwYy0zOS44IDAtNzItMzIuMi03Mi03MmwwLTQ4YzAtMzkuOCAzMi4yLTcyIDcyLTcybDQ4IDBjMzkuOCAwIDcyIDMyLjIgNzIgNzJsMCAzMiAwIDE2IDAgODB6bS0xNi05NmwwLTMyYzAtMzAuOS0yNS4xLTU2LTU2LTU2bC00OCAwYy0zMC45IDAtNTYgMjUuMS01NiA1NmwwIDQ4YzAgMzAuOSAyNS4xIDU2IDU2IDU2bDQ4IDBjMzAuOSAwIDU2LTI1LjEgNTYtNTZsMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![quote-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/quote-right.svg)
  */
 const QuoteRight: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

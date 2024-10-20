@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shuttlecock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuttlecock?s=sharp-solid shuttlecock}
- * @preview ![shuttlecock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBsMCA0OC0xNiAwLTQxIDBMMjUwLjYgODcuMWwtMzEuMyA5OS4yTDE3NiAyMDhsLTQwIDgwIDI3IDI3IDcxLjktNzEuOUwyODEuMSA5Ni44IDI4Ni40IDgwIDMwNCA4MGwxMDQgMCAyNCAwIDAgMjQgMCAxMDQgMCAxNy42LTE2LjggNS4zTDI2OC44IDI3Ny4xIDE5NyAzNDlsMjcgMjcgODAtNDAgMjEuNi00My4zIDk5LjItMzEuM0w0NjQgMjQ5bDAtNDEgMC0xNiA0OCAwIDAgOTZMMjQwIDQxNmwtMzYuNyAzNi43LTE0NC0xNDRMOTYgMjcyIDIyNCAwbDk2IDB6TTM2LjcgMzMxLjNsMTQ0IDE0NC02LjkgNi45Yy0xOS4xIDE5LjEtNDUgMjkuOC03MiAyOS44QzQ1LjYgNTEyIDAgNDY2LjQgMCA0MTAuMmMwLTI3IDEwLjctNTIuOSAyOS44LTcybDYuOS02Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shuttlecock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shuttlecock.svg)
  */
 const Shuttlecock: typeof Icon = x => (
     <Icon {...x}>

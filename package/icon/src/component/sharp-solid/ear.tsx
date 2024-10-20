@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ear` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear?s=sharp-solid ear}
- * @preview ![ear](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDE5MmMwIDcxLjItMzguNyAxMzMuMy05Ni4zIDE2Ni41Yy4yIDMuMSAuMyA2LjMgLjMgOS41YzAgNzkuNS02NC41IDE0NC0xNDQgMTQ0UzAgNDQ3LjUgMCAzNjhMMCAxOTJDMCA4NiA4NiAwIDE5MiAwUzM4NCA4NiAzODQgMTkyem0tMjU2IDBjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NGwwIDggMCAyNCA0OCAwIDAtMjQgMC04YzAtNjEuOS01MC4xLTExMi0xMTItMTEyUzgwIDEzMC4xIDgwIDE5MmwwIDQwIDAgMTQuOCAxMy4zIDYuNkwxMjggMjcwLjhsMCA1LjlMODguNiAzMDkuNiA3MC4yIDMyNC45bDMwLjcgMzYuOSAxOC40LTE1LjQgNDgtNDAgOC42LTcuMiAwLTExLjIgMC0zMiAwLTE0LjgtMTMuMy02LjZMMTI4IDIxNy4ybDAtMjUuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ear.svg)
  */
 const Ear: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

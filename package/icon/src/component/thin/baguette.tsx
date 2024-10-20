@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `baguette` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baguette?s=thin baguette}
- * @preview ![baguette](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA1LjIgNjUuOUM1NzAuOSAxNC40IDUwMS4zIC41IDQ0OS45IDM0LjhMMzYxLjIgOTMuOWw2MC40IDYwLjRjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM3MtOC4yIDMuMS0xMS4zIDBMMzQ3LjYgMTAzIDI0NiAxNzAuN2w2My42IDYzLjZjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM3MtOC4yIDMuMS0xMS4zIDBsLTY1LjktNjUuOUwxMzAuOCAyNDcuNWw2Ni44IDY2LjhjMy4xIDMuMSAzLjEgOC4yIDAgMTEuM3MtOC4yIDMuMS0xMS4zIDBsLTY5LjEtNjkuMUw2NS45IDI5MC44QzE0LjQgMzI1LjEgLjUgMzk0LjcgMzQuOCA0NDYuMXMxMDMuOCA2NS40IDE1NS4zIDMxLjFsMzg0LTI1NmM1MS41LTM0LjMgNjUuNC0xMDMuOCAzMS4xLTE1NS4zek02MTguNSA1N2MzOS4yIDU4LjggMjMuMyAxMzguMy0zNS41IDE3Ny41bC0zODQgMjU2QzE0MC4yIDUyOS43IDYwLjcgNTEzLjggMjEuNSA0NTVTLTEuOCAzMTYuNyA1NyAyNzcuNWwzODQtMjU2QzQ5OS44LTE3LjcgNTc5LjMtMS44IDYxOC41IDU3eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![baguette](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/baguette.svg)
  */
 const Baguette: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

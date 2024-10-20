@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trello` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trello?s=brands trello}
- * @preview ![trello](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzkyLjMgMzJINTYuMUMyNS4xIDMyIDAgNTcuMSAwIDg4Yy0uMSAwIDAtNCAwIDMzNiAwIDMwLjkgMjUuMSA1NiA1NiA1NmgzMzYuMmMzMC44LS4yIDU1LjctMjUuMiA1NS43LTU2Vjg4Yy4xLTMwLjgtMjQuOC01NS44LTU1LjYtNTZ6TTE5NyAzNzEuM2MtLjIgMTQuNy0xMi4xIDI2LjYtMjYuOSAyNi42SDg3LjRjLTE0LjguMS0yNi45LTExLjgtMjctMjYuNlYxMTcuMWMwLTE0LjggMTItMjYuOSAyNi45LTI2LjloODIuOWMxNC44IDAgMjYuOSAxMiAyNi45IDI2Ljl2MjU0LjJ6bTE5My4xLTExMmMwIDE0LjgtMTIgMjYuOS0yNi45IDI2LjloLTgxYy0xNC44IDAtMjYuOS0xMi0yNi45LTI2LjlWMTE3LjJjMC0xNC44IDEyLTI2LjkgMjYuOC0yNi45aDgxLjFjMTQuOCAwIDI2LjkgMTIgMjYuOSAyNi45djE0Mi4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trello](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/trello.svg)
  */
 const Trello: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

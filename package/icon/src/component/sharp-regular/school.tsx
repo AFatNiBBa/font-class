@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `school` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school?s=sharp-regular school}
- * @preview ![school](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY2LjcgMTQ0bC0xMS40LTYuOEwzMjAgNTYgMTg0LjcgMTM3LjIgMTczLjMgMTQ0IDE2MCAxNDQgNDggMTQ0bDAgMzIwIDIwOCAwIDAtODBjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NGwwIDgwIDIwOCAwIDAtMzIwLTExMiAwLTEzLjMgMHpNNTkyIDk2bDQ4IDAgMCA0OCAwIDMyMCAwIDQ4LTQ4IDBMNDggNTEyIDAgNTEybDAtNDhMMCAxNDQgMCA5Nmw0OCAwIDExMiAwTDMyMCAwIDQ4MCA5NmwxMTIgMHpNMTYwIDE5MmwwIDk2LTY0IDAgMC05NiA2NCAwem0zMjAgMGw2NCAwIDAgOTYtNjQgMCAwLTk2ek0xNjAgMzIwbDAgOTYtNjQgMCAwLTk2IDY0IDB6bTMyMCAwbDY0IDAgMCA5Ni02NCAwIDAtOTZ6TTI0MCAxOTJhODAgODAgMCAxIDEgMTYwIDAgODAgODAgMCAxIDEgLTE2MCAwem05Ni00OGwtMzIgMCAwIDE2IDAgMzIgMCAxNiAxNiAwIDI0IDAgMTYgMCAwLTMyLTE2IDAtOCAwIDAtMTYgMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![school](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/school.svg)
  */
 const School: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

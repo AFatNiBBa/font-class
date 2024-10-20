@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `send-back` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/send-back?s=regular send-back}
- * @preview ![send-back](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDQ4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDEyOGMwIDguOC03LjIgMTYtMTYgMTZMNjQgMjA4Yy04LjggMC0xNi03LjItMTYtMTZMNDggNjRjMC04LjggNy4yLTE2IDE2LTE2bDEyOCAwek02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDE5MmMwIDM1LjMgMjguNyA2NCA2NCA2NGwxMjggMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTEyOGMwLTM1LjMtMjguNy02NC02NC02NEw2NCAwek01NzYgMzA0YzguOCAwIDE2IDcuMiAxNiAxNmwwIDEyOGMwIDguOC03LjIgMTYtMTYgMTZsLTEyOCAwYy04LjggMC0xNi03LjItMTYtMTZsMC0xMjhjMC04LjggNy4yLTE2IDE2LTE2bDEyOCAwek00NDggMjU2Yy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDEyOGMwIDM1LjMgMjguNyA2NCA2NCA2NGwxMjggMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTEyOGMwLTM1LjMtMjguNy02NC02NC02NGwtMTI4IDB6TTE2MCAyODhsMCA2NGMwIDM1LjMgMjguNyA2NCA2NCA2NGwxMjggMCAwLTk2YzAtNTMgNDMtOTYgOTYtOTZsMzIgMCAwLTY0YzAtMzUuMy0yOC43LTY0LTY0LTY0TDI4OCA5NmwwIDk2YzAgNTMtNDMgOTYtOTYgOTZsLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![send-back](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/send-back.svg)
  */
 const SendBack: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

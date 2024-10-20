@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-paintbrush` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-paintbrush?s=sharp-light pen-paintbrush}
- * @preview ![pen-paintbrush](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA0NzhMMzIgNTEybDM0LTYuOEwxOTIgNDgwIDUyMS40IDE1MC42IDU0NCAxMjhsLTIyLjYtMjIuNkw0MzguNiAyMi42IDQxNiAwIDM5My40IDIyLjYgNjQgMzUyIDM4LjggNDc4em0zNC02LjhMOTMuNSAzNjcuOCAzNDcuMyAxMTMuOWw4Mi43IDgyLjdMMTc2LjIgNDUwLjUgNzIuOCA0NzEuMnpNNDk4LjcgMTI4bC00Ni4xIDQ2LjFMMzY5LjkgOTEuMyA0MTYgNDUuMyA0OTguNyAxMjh6TTEzNi40IDQ1LjlMMTEzLjggMjMuMyA5MS4yIC43IDY4LjYgMjMuMyAyMy4zIDY4LjYgLjcgOTEuMmwyMi42IDIyLjZMNDYgMTM2LjVsOTQuMiA5NC4yTDE2Mi44IDIwOCA2OC42IDExMy44IDQ1LjkgOTEuMiA5MS4yIDQ1LjlsMjIuNiAyMi42TDIwOCAxNjIuN2wyMi42LTIyLjZMMTM2LjQgNDUuOXpNNDAwIDUxMnMwIDAgMCAwbDgwIDAgMzIgMCAzMiAwIDE2IDAgMTYgMCAwLTMyLTE2IDAtMTYgMHMwIDAgMCAwbC0zMiAwIDAtMzIgMC00OGMwLTUyLjgtMzYuNi05Ny4xLTg1LjgtMTA4LjlsLTI5IDI5Yy45IDAgMS45IDAgMi44IDBjNDQuMiAwIDgwIDM1LjggODAgODBsMCA4MC04MCAwczAgMCAwIDBjLTQ0LjIgMC04MC0zNS44LTgwLTgwYzAtLjkgMC0xLjkgMC0yLjhsLTI5IDI5QzMwMi45IDQ3NS40IDM0Ny4yIDUxMiA0MDAgNTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pen-paintbrush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pen-paintbrush.svg)
  */
 const PenPaintbrush: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

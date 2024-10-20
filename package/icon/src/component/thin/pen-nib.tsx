@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pen-nib` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-nib?s=thin pen-nib}
- * @preview ![pen-nib](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc5LjcgMzEuNkwzMDcuMyAxMDQgNDA4IDIwNC43bDcyLjQtNzIuNGMxNS42LTE1LjYgMTUuNi00MC45IDAtNTYuNkw0MzYuMyAzMS42Yy0xNS42LTE1LjYtNDAuOS0xNS42LTU2LjYgMHptLTg4IDY1LjNsNzYuNi03Ni42YzIxLjktMjEuOSA1Ny4zLTIxLjkgNzkuMiAwbDQ0LjEgNDQuMWMyMS45IDIxLjkgMjEuOSA1Ny4zIDAgNzkuMmwtNzYuNiA3Ni42TDM2OS41IDM3MC4xYy02LjkgMjIuNy0yNC41IDQwLjUtNDcuMSA0Ny43TDM3LjIgNTA4LjJjLTkuNSAzLTE5LjggLjUtMjYuOS02LjZzLTkuNi0xNy40LTYuNS0yNi45TDk0LjIgMTg5LjdjNy4yLTIyLjYgMjUtNDAuMiA0Ny43LTQ3LjFMMjkxLjggOTYuOXptMiAxNi4xTDE0Ni41IDE1Ny45Yy0xNy42IDUuNC0zMS41IDE5LjEtMzcuMSAzNi42TDE5IDQ3OS42Yy0uMyAuOC0uNCAxLjYtLjUgMi41TDE2My4xIDMzNy41Yy03LTkuNC0xMS4xLTIxLTExLjEtMzMuNWMwLTMwLjkgMjUuMS01NiA1Ni01NnM1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2Yy0xMi42IDAtMjQuMi00LjEtMzMuNS0xMS4xTDI5LjkgNDkzLjRjLjgtLjEgMS43LS4yIDIuNS0uNWwyODUuMS05MC40YzE3LjYtNS42IDMxLjMtMTkuNCAzNi42LTM3LjFsNDQuOC0xNDcuMkwyOTMuNyAxMTMuMXpNMjA4IDI2NGE0MCA0MCAwIDEgMCAwIDgwIDQwIDQwIDAgMSAwIDAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pen-nib](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pen-nib.svg)
  */
 const PenNib: typeof Icon = x => (
     <Icon {...x}>

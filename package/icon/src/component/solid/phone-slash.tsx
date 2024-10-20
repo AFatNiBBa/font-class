@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-slash?s=solid phone-slash}
- * @preview ![phone-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI4LjkgMjQuNmMtNy43LTE4LjYtMjgtMjguNS00Ny40LTIzLjJsLTg4IDI0Qzc2LjEgMzAuMiA2NCA0NiA2NCA2NGMwIDEwNy40IDM3LjggMjA2IDEwMC44IDI4My4xTDkuMiA0NjkuMWMtMTAuNCA4LjItMTIuMyAyMy4zLTQuMSAzMy43czIzLjMgMTIuMyAzMy43IDQuMWw1OTItNDY0YzEwLjQtOC4yIDEyLjMtMjMuMyA0LjEtMzMuN3MtMjMuMy0xMi4zLTMzLjctNC4xTDI1MyAyNzhjLTE3LjgtMjEuNS0zMi45LTQ1LjItNDUtNzAuN0wyNTcuMyAxNjdjMTMuNy0xMS4yIDE4LjQtMzAgMTEuNi00Ni4zbC00MC05NnptOTYuOCAzMTlsLTkxLjMgNzJDMzEwLjcgNDc2IDQwNy4xIDUxMiA1MTIgNTEyYzE4IDAgMzMuOC0xMi4xIDM4LjYtMjkuNWwyNC04OGM1LjMtMTkuNC00LjYtMzkuNy0yMy4yLTQ3LjRsLTk2LTQwYy0xNi4zLTYuOC0zNS4yLTIuMS00Ni4zIDExLjZMMzY4LjcgMzY4Yy0xNS03LjEtMjkuMy0xNS4yLTQzLTI0LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![phone-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-slash.svg)
  */
 const PhoneSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

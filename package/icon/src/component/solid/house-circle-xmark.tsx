@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-circle-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-circle-xmark?s=solid house-circle-xmark}
- * @preview ![house-circle-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwLjcgMzUyYzguMS04OS43IDgzLjUtMTYwIDE3NS4zLTE2MGM4LjkgMCAxNy42IC43IDI2LjEgMS45TDMwOS41IDdjLTYtNS0xNC03LTIxLTdzLTE1IDEtMjIgOEwxMCAyMzEuNWMtNyA3LTEwIDE1LTEwIDI0YzAgMTggMTQgMzIuMSAzMiAzMi4xbDMyIDAgMCA2OS43Yy0uMSAuOS0uMSAxLjgtLjEgMi44bDAgMTEyYzAgMjIuMSAxNy45IDQwIDQwIDQwbDE2IDBjMS4yIDAgMi40LS4xIDMuNi0uMmMxLjUgLjEgMyAuMiA0LjUgLjJsMzEuOSAwIDI0IDBjMjIuMSAwIDQwLTE3LjkgNDAtNDBsMC0yNCAwLTY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDY0IDAgLjcgMHpNNDk2IDUxMmExNDQgMTQ0IDAgMSAwIDAtMjg4IDE0NCAxNDQgMCAxIDAgMCAyODh6bTU5LjMtMTgwLjdMNTE4LjYgMzY4bDM2LjcgMzYuN2M2LjIgNi4yIDYuMiAxNi40IDAgMjIuNnMtMTYuNCA2LjItMjIuNiAwTDQ5NiAzOTAuNmwtMzYuNyAzNi43Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMHMtNi4yLTE2LjQgMC0yMi42TDQ3My40IDM2OGwtMzYuNy0zNi43Yy02LjItNi4yLTYuMi0xNi40IDAtMjIuNnMxNi40LTYuMiAyMi42IDBMNDk2IDM0NS40bDM2LjctMzYuN2M2LjItNi4yIDE2LjQtNi4yIDIyLjYgMHM2LjIgMTYuNCAwIDIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-circle-xmark.svg)
  */
 const HouseCircleXmark: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

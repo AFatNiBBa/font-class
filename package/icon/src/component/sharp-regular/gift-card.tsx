@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gift-card` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gift-card?s=sharp-regular gift-card}
- * @preview ![gift-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUzLjUgNjguOEwzMTguNyAxMjhsMS4zIDAgNzIgMGMyMi4xIDAgNDAtMTcuOSA0MC00MHMtMTcuOS00MC00MC00MGwtMi4yIDBjLTE0LjkgMC0yOC44IDcuOS0zNi4zIDIwLjh6TTI4OCAxOTcuNWwtNjEuNiA3My45LTE1LjQgMTguNC0zNi45LTMwLjcgMTUuNC0xOC40TDI0My40IDE3NiAxODQgMTc2IDQ4IDE3NmwwIDE0NCA0ODAgMCAwLTE0NC0xMzYgMC01OS40IDAgNTMuOSA2NC42IDE1LjQgMTguNC0zNi45IDMwLjctMTUuNC0xOC40TDI4OCAxOTcuNXpNNDggMzg0bDAgODAgNDgwIDAgMC04MEw0OCAzODR6TTI1NiAxMjhsMS4zIDBMMjIyLjUgNjguOEMyMTQuOSA1NS45IDIwMS4xIDQ4IDE4Ni4yIDQ4TDE4NCA0OGMtMjIuMSAwLTQwIDE3LjktNDAgNDBzMTcuOSA0MCA0MCA0MGw3MiAwem03LjktODMuNmwyNC4xIDQxIDI0LjEtNDFDMzI4LjMgMTYuOSAzNTcuOSAwIDM4OS44IDBMMzkyIDBjNDguNiAwIDg4IDM5LjQgODggODhjMCAxNC40LTMuNSAyOC05LjYgNDBsNTcuNiAwIDQ4IDAgMCA0OCAwIDI4OCAwIDQ4LTQ4IDBMNDggNTEyIDAgNTEybDAtNDhMMCAxNzZsMC00OCA0OCAwIDU3LjYgMEM5OS41IDExNiA5NiAxMDIuNCA5NiA4OGMwLTQ4LjYgMzkuNC04OCA4OC04OGwyLjIgMGMzMS45IDAgNjEuNSAxNi45IDc3LjcgNDQuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gift-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/gift-card.svg)
  */
 const GiftCard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

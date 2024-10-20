@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tick` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tick?s=thin tick}
- * @preview ![tick](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggOTZjMC0yNi41IDIxLjUtNDggNDgtNDhzNDggMjEuNSA0OCA0OGwwIDcuOWMwIDQuMi0uNSA4LjMtMS40IDEyLjRMMTA5LjcgMjYxLjFjLTEuNSA2LjQtNy4xIDEwLjktMTMuNyAxMC45cy0xMi4zLTQuNS0xMy43LTEwLjlMNDkuNCAxMTYuM2MtLjktNC4xLTEuNC04LjItMS40LTEyLjRMNDggOTZ6TTMyIDk2bDAgNy45YzAgNS40IC42IDEwLjcgMS44IDE1LjlMNjYuNyAyNjQuNkM2OS44IDI3OC4zIDgyIDI4OCA5NiAyODhzMjYuMi05LjcgMjkuMy0yMy40bDMyLjktMTQ0LjdjMS4yLTUuMiAxLjgtMTAuNiAxLjgtMTUuOWwwLTcuOWMwLTM1LjMtMjguNy02NC02NC02NFMzMiA2MC43IDMyIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tick.svg)
  */
 const Tick: typeof Icon = x => (
     <Icon viewBox="0 0 192 512" {...x}>

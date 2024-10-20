@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `kickstarter-k` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kickstarter-k?s=brands kickstarter-k}
- * @preview ![kickstarter-k](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzU2LjYgMjU2LjJsNDAuOC00MC41YzQyLjItNDEuOSA0Mi4yLTExMC4zIDAtMTUyLjFzLTExMS00MS45LTE1My4yIDBMMjI5LjMgNzguNEMyMDkuNiA1MC4zIDE3Ny4xIDMyIDE0MC4yIDMyQzgwLjUgMzIgMzIgODAuMiAzMiAxMzkuNVYzNzIuNUMzMiA0MzEuOSA4MC41IDQ4MCAxNDAuMiA0ODBjMzcuMSAwIDY5LjMtMTguMyA4OS00Ni40bDE0LjkgMTQuN2M0Mi4yIDQxLjkgMTExIDQxLjkgMTUzLjIgMHM0Mi4yLTExMC4zIDAtMTUyLjFsLTQwLjgtNDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![kickstarter-k](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/kickstarter-k.svg)
  */
 const KickstarterK: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

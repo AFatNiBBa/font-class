@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `google-plus` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/google-plus?s=brands google-plus}
- * @preview ![google-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2LDhDMTE5LjEsOCw4LDExOS4xLDgsMjU2UzExOS4xLDUwNCwyNTYsNTA0LDUwNCwzOTIuOSw1MDQsMjU2LDM5Mi45LDgsMjU2LDhaTTE4NS4zLDM4MGExMjQsMTI0LDAsMCwxLDAtMjQ4YzMxLjMsMCw2MC4xLDExLDgzLDMyLjNsLTMzLjYsMzIuNmMtMTMuMi0xMi45LTMxLjMtMTkuMS00OS40LTE5LjEtNDIuOSwwLTc3LjIsMzUuNS03Ny4yLDc4LjFTMTQyLjMsMzM0LDE4NS4zLDMzNGMzMi42LDAsNjQuOS0xOS4xLDcwLjEtNTMuM0gxODUuM1YyMzguMUgzMDIuMmExMDkuMiwxMDkuMiwwLDAsMSwxLjksMjAuN2MwLDcwLjgtNDcuNSwxMjEuMi0xMTguOCwxMjEuMlpNNDE1LjUsMjczLjh2MzUuNUgzODBWMjczLjhIMzQ0LjVWMjM4LjNIMzgwVjIwMi44aDM1LjV2MzUuNWgzNS4ydjM1LjVaIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![google-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/google-plus.svg)
  */
 const GooglePlus: typeof Icon = x => (
     <Icon {...x}>

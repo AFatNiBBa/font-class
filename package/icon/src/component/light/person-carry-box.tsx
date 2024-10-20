@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-carry-box` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-carry-box?s=light person-carry-box}
- * @preview ![person-carry-box](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTYgNTZhMjQgMjQgMCAxIDEgNDggMEEyNCAyNCAwIDEgMSA1NiA1NnptODAgMEE1NiA1NiAwIDEgMCAyNCA1NmE1NiA1NiAwIDEgMCAxMTIgMHpNMCA0OTZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTEzMC41TDEuNiAzNDEuNmMtLjUtLjQtMS4xLS45LTEuNi0xLjNMMCA0OTZ6TTYwIDE3NmM3IDAgMTMuOCAxLjUgMjAgNC4ybDAgMTM5LjNMMzkuMSAyOTIuMmMtNC41LTMtNy4xLTgtNy4xLTEzLjNMMzIgMjA0YzAtMTUuNSAxMi41LTI4IDI4LTI4em01MiAzOC41bDM3LjggNTguOGM1LjkgOS4yIDE2IDE0LjcgMjYuOSAxNC43bDQ3LjMgMCAxNiAwIDExMiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMTI4YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDIyNCA5NmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCAxMjgtMTUuMyAwLTQ3LjgtNzQuNEMxMTMuOSAxNTguMiA4Ny45IDE0NCA2MCAxNDRjLTMzLjEgMC02MCAyNi45LTYwIDYwbDAgNzQuOWMwIDE2IDggMzEgMjEuNCAzOS45bDEwMC4yIDY2LjggMjIuNyAxMTMuNWMxLjcgOC43IDEwLjIgMTQuMyAxOC44IDEyLjZzMTQuMy0xMC4yIDEyLjYtMTguOEwxNTMgMzc5LjRjLTEuNy04LjMtNi42LTE1LjYtMTMuNi0yMC4zTDExMiAzNDAuOGwwLTEyNi4zek0yMjQgMjU2bDAtMTI4IDEyOCAwIDAgMTI4LTExMiAwLTE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-carry-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-carry-box.svg)
  */
 const PersonCarryBox: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

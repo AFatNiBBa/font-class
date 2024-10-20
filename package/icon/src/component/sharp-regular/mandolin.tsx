@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mandolin` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mandolin?s=sharp-regular mandolin}
- * @preview ![mandolin](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDBMMzY4IDQ4bC0zMSA5My4xLTQ5IDQ5QzIwNi45IDE4Ny40IDAgMTk0LjUgMCAzMzZjMCA5Ny4yIDc4LjggMTc2IDE3NiAxNzZjMTQxLjUgMCAxNDguNi0yMDYuOSAxNDUuOS0yODcuOWw0OS00OUw0NjQgMTQ0bDQ4LTgwTDQ0OCAwek0xNjguMyAyNDUuM2MyNC41LTQuMyA0OS4zLTYuMyA3MS42LTcuMWwtNTEuNSA1MS41Yy00LTEuMS04LjEtMS42LTEyLjQtMS42Yy0yNi41IDAtNDggMjEuNS00OCA0OHMyMS41IDQ4IDQ4IDQ4czQ4LTIxLjUgNDgtNDhjMC00LjMtLjYtOC41LTEuNi0xMi40bDUxLjUtNTEuNWMtLjggMjIuMy0yLjggNDcuMS03LjEgNzEuNmMtNi41IDM2LjktMTcuMyA2OC42LTMyLjggOTAuMWMtMTQgMTkuMy0zMS4zIDMwLjItNTcuOSAzMC4yYy03MC43IDAtMTI4LTU3LjMtMTI4LTEyOGMwLTI2LjYgMTAuOS00My45IDMwLjItNTcuOWMyMS41LTE1LjYgNTMuMi0yNi40IDkwLjEtMzIuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mandolin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mandolin.svg)
  */
 const Mandolin: typeof Icon = x => (
     <Icon {...x}>

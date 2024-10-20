@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `check-to-slot` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/check-to-slot?s=regular check-to-slot}
- * @preview ![check-to-slot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDgwbDAgMjgwIDI4OCAwIDAtMjgwTDE0NCA4MHpNOTYgMzYwTDk2IDgwYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDI4OCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMjgwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC00OCAwLTI4OCAwLTQ4IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjR6TTY0IDI4OGwwIDQ4LTE2IDAgMCA5NiA0ODAgMCAwLTk2LTE2IDAgMC00OCAxNiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgOTZjMCAyNi41LTIxLjUgNDgtNDggNDhMNDggNDgwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTk2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDE2IDB6TTM4NSAxNzkuNkwyNzguMyAyODYuM2MtNC41IDQuNS0xMC42IDctMTcgN3MtMTIuNS0yLjUtMTctN0wxOTEgMjMzYy05LjQtOS40LTkuNC0yNC42IDAtMzMuOXMyNC42LTkuNCAzMy45IDBsMzYuNCAzNi40TDM1MSAxNDUuN2M5LjQtOS40IDI0LjYtOS40IDMzLjkgMHM5LjQgMjQuNiAwIDMzLjl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![check-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/check-to-slot.svg)
  */
 const CheckToSlot: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

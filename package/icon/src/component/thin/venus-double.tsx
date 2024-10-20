@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `venus-double` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/venus-double?s=thin venus-double}
- * @preview ![venus-double](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMzNmExNjAgMTYwIDAgMSAwIDAtMzIwIDE2MCAxNjAgMCAxIDAgMCAzMjB6TTM2OCAxNzZjMCA5NC41LTc0LjUgMTcxLjYtMTY4IDE3NS44bDAgNjQuMiA4MCAwYzQuNCAwIDggMy42IDggOHMtMy42IDgtOCA4bC04MCAwIDAgNzJjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC03Mi04MCAwYy00LjQgMC04LTMuNi04LThzMy42LTggOC04bDgwIDAgMC02NC4yQzkwLjUgMzQ3LjYgMTYgMjcwLjUgMTYgMTc2QzE2IDc4LjggOTQuOCAwIDE5MiAwczE3NiA3OC44IDE3NiAxNzZ6TTM1NC41IDMwNS45YzI2LjMgMTkgNTguNiAzMC4xIDkzLjUgMzAuMWM4OC40IDAgMTYwLTcxLjYgMTYwLTE2MHMtNzEuNi0xNjAtMTYwLTE2MGMtMzQuOSAwLTY3LjIgMTEuMi05My41IDMwLjFDMzUxLjIgNDIgMzQ3LjYgMzcuOSAzNDQgMzRDMzczLjEgMTIuNiA0MDkuMSAwIDQ0OCAwYzk3LjIgMCAxNzYgNzguOCAxNzYgMTc2YzAgOTQuNS03NC41IDE3MS42LTE2OCAxNzUuOGwwIDY0LjIgODAgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtODAgMCAwIDcyYzAgNC40LTMuNiA4LTggOHMtOC0zLjYtOC04bDAtNzItODAgMGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGw4MCAwIDAtNjQuMmMtMzUuOC0xLjYtNjguOS0xMy45LTk2LTMzLjhjMy43LTMuOSA3LjItOCAxMC41LTEyLjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![venus-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/venus-double.svg)
  */
 const VenusDouble: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

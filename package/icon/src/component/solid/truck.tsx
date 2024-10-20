@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck?s=solid truck}
- * @preview ![truck](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMEMyMS41IDAgMCAyMS41IDAgNDhMMCAzNjhjMCAyNi41IDIxLjUgNDggNDggNDhsMTYgMGMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDEyOCAwYzAgNTMgNDMgOTYgOTYgOTZzOTYtNDMgOTYtOTZsMzIgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwwLTY0IDAtMzIgMC0xOC43YzAtMTctNi43LTMzLjMtMTguNy00NS4zTDUxMiAxMTQuN2MtMTItMTItMjguMy0xOC43LTQ1LjMtMTguN0w0MTYgOTZsMC00OGMwLTI2LjUtMjEuNS00OC00OC00OEw0OCAwek00MTYgMTYwbDUwLjcgMEw1NDQgMjM3LjNsMCAxOC43LTEyOCAwIDAtOTZ6TTExMiA0MTZhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHptMzY4LTQ4YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/truck.svg)
  */
 const Truck: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

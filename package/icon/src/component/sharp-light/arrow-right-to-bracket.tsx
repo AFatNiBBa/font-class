@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-right-to-bracket` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-to-bracket?s=sharp-light arrow-right-to-bracket}
- * @preview ![arrow-right-to-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ3LjMgMjY3LjNMMzU4LjYgMjU2bC0xMS4zLTExLjMtMTI4LTEyOEwyMDggMTA1LjQgMTg1LjQgMTI4bDExLjMgMTEuM0wyOTcuNCAyNDAgMTYgMjQwIDAgMjQwbDAgMzIgMTYgMCAyODEuNCAwTDE5Ni43IDM3Mi43IDE4NS40IDM4NCAyMDggNDA2LjZsMTEuMy0xMS4zIDEyOC0xMjh6TTMzNiA0NDhsLTE2IDAgMCAzMiAxNiAwIDE2MCAwIDE2IDAgMC0xNiAwLTQxNiAwLTE2LTE2IDBMMzM2IDMybC0xNiAwIDAgMzIgMTYgMCAxNDQgMCAwIDM4NC0xNDQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-right-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-right-to-bracket.svg)
  */
 const ArrowRightToBracket: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tv-music` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv-music?s=sharp-regular tv-music}
- * @preview ![tv-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTkyIDQ4bDAgMzIwTDQ4IDM2OCA0OCA0OGw1NDQgMHpNNDggMEwwIDAgMCA0OCAwIDM2OGwwIDQ4IDQ4IDAgNTQ0IDAgNDggMCAwLTQ4IDAtMzIwIDAtNDhMNTkyIDAgNDggMHpNOTYgNDY0bDAgNDggMjQgMCA0MDAgMCAyNCAwIDAtNDgtMjQgMC00MDAgMC0yNCAwek00MTYgOTZsMC0yMy4xTDM5NC40IDgxbC0xMjggNDhMMjU2IDEzMi45bDAgMTEuMSAwIDMyIDAgODEuOGMtNS0xLjItMTAuNC0xLjgtMTYtMS44Yy0yNi41IDAtNDggMTQuMy00OCAzMnMyMS41IDMyIDQ4IDMyczQ4LTE0LjMgNDgtMzJsMC0xMDAuOSA5Ni0zNiAwIDc0LjdjLTUtMS4yLTEwLjQtMS44LTE2LTEuOGMtMjYuNSAwLTQ4IDE0LjMtNDggMzJzMjEuNSAzMiA0OCAzMnM0OC0xNC4zIDQ4LTMybDAtMTI4IDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tv-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tv-music.svg)
  */
 const TvMusic: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

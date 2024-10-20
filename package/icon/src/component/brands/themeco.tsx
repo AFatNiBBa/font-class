@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `themeco` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/themeco?s=brands themeco}
- * @preview ![themeco](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAyLjkgOC40M2M5LjktNS43MyAyNi01LjgyIDM1Ljk1LS4yMUw0MzAgMTE1Ljg1YzEwIDUuNiAxOCAxOS40NCAxOCAzMC44NlYzNjRjMCAxMS40NC04LjA2IDI1LjI5LTE4IDMxTDIzOC44MSA1MDMuNzRjLTkuOTMgNS42Ni0yNiA1LjU3LTM1Ljg1LS4yMUwxNy44NiAzOTUuMTJDOCAzODkuMzQgMCAzNzUuMzggMCAzNjRWMTQ2LjcxYzAtMTEuNDQgOC0yNS4zNiAxNy45MS0zMS4wOHptLTc3LjQgMTk5LjgzYy0xNS45NCAwLTMxLjg5LjE0LTQ3LjgzLjE0djEwMS40NUg5Ni44VjI4MGgyOC43YzQ5LjcxIDAgNDkuNTYtNzEuNzQgMC03MS43NHptMTQwLjE0IDEwMC4yOWwtMzAuNzMtMzQuNjRjMzctNy41MSAzNC44LTY1LjIzLTEwLjg3LTY1LjUxLTE2LjA5IDAtMzIuMTctLjE0LTQ4LjI2LS4xNHYxMDEuNTloMTkuMTN2LTMzLjkxaDE4LjQxbDI5LjU2IDMzLjkxaDIyLjc2em0tNDEuNTktODIuMzJjMjMuMzQgMCAyMy4yNiAzMi40NiAwIDMyLjQ2aC0yOS4xM3YtMzIuNDZ6bS05NS41Ni0xLjZjMjEuMTggMCAyMS4xMSAzOC44NSAwIDM4Ljg1SDk2LjE4di0zOC44NHptMTkyLjY1LTE4LjI1Yy02OC40NiAwLTcxIDEwNS44IDAgMTA1LjggNjkuNDgtLjAxIDY5LjQxLTEwNS44IDAtMTA1Ljh6bTAgMTcuMzljNDQuMTIgMCA0NC44IDcwLjg2IDAgNzAuODZzLTQ0LjQzLTcwLjg2IDAtNzAuODZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![themeco](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/themeco.svg)
  */
 const Themeco: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

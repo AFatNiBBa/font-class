@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `get-pocket` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/get-pocket?s=brands get-pocket}
- * @preview ![get-pocket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA3LjYgNjRoLTM2N0MxOC41IDY0IDAgODIuNSAwIDEwNC42djEzNS4yQzAgMzY0LjUgOTkuNyA0NjQgMjI0LjIgNDY0YzEyNCAwIDIyMy44LTk5LjUgMjIzLjgtMjI0LjJWMTA0LjZjMC0yMi40LTE3LjctNDAuNi00MC40LTQwLjZ6bS0xNjIgMjY4LjVjLTEyLjQgMTEuOC0zMS40IDExLjEtNDIuNCAwQzg5LjUgMjIzLjYgODguMyAyMjcuNCA4OC4zIDIwOS4zYzAtMTYuOSAxMy44LTMwLjcgMzAuNy0zMC43IDE3IDAgMTYuMSAzLjggMTA1LjIgODkuMyA5MC42LTg2LjkgODguNi04OS4zIDEwNS41LTg5LjMgMTYuOSAwIDMwLjcgMTMuOCAzMC43IDMwLjcgMCAxNy44LTIuOSAxNS43LTExNC44IDEyMy4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![get-pocket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/get-pocket.svg)
  */
 const GetPocket: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diamond-turn-right` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond-turn-right?s=light diamond-turn-right}
- * @preview ![diamond-turn-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYxLjcgMzQuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMGwtMjE2IDIxNmMtMy4xIDMuMS0zLjEgOC4yIDAgMTEuM2wyMTYgMjE2YzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBsMjE2LTIxNmMzLjEtMy4xIDMuMS04LjIgMC0xMS4zbC0yMTYtMjE2ek0yMjcuNyAxMS43YzE1LjYtMTUuNiA0MC45LTE1LjYgNTYuNiAwbDIxNiAyMTZjMTUuNiAxNS42IDE1LjYgNDAuOSAwIDU2LjZsLTIxNiAyMTZjLTE1LjYgMTUuNi00MC45IDE1LjYtNTYuNiAwbC0yMTYtMjE2Yy0xNS42LTE1LjYtMTUuNi00MC45IDAtNTYuNmwyMTYtMjE2em02NSAxMzdjNi4yLTYuMiAxNi40LTYuMiAyMi42IDBsNjQgNjRjNi4yIDYuMiA2LjIgMTYuNCAwIDIyLjZsLTY0IDY0Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMHMtNi4yLTE2LjQgMC0yMi42TDMyOS40IDI0MCAyMzIgMjQwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDU2YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNTZjMC0zMC45IDI1LjEtNTYgNTYtNTZsOTcuNCAwLTM2LjctMzYuN2MtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![diamond-turn-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/diamond-turn-right.svg)
  */
 const DiamondTurnRight: typeof Icon = x => (
     <Icon {...x}>

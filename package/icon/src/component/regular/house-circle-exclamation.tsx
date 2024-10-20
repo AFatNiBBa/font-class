@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-circle-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-circle-exclamation?s=regular house-circle-exclamation}
- * @preview ![house-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAzLjUgNS43Yy05LTcuNi0yMi4xLTcuNi0zMS4xIDBsLTI2NCAyMjRjLTEwLjEgOC42LTExLjMgMjMuNy0yLjggMzMuOHMyMy43IDExLjMgMzMuOCAyLjhMNjQgMjQ1LjUgNjQgNDMyYzAgNDQuMiAzNS44IDgwIDgwIDgwbDI1MC44IDBjLTE4LjMtMTIuOS0zNC4xLTI5LjItNDYuMy00OEwzMzYgNDY0czAgMCAwIDBsLTk2IDAgMC0xNDQgODYuNiAwYzQuOC0xNy4xIDEyLjItMzMuMiAyMS43LTQ3LjhjLTEuNC0uMi0yLjktLjItNC4zLS4ybC0xMTIgMGMtMjIuMSAwLTQwIDE3LjktNDAgNDBsMCAxNTItNDggMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0yMjcuMkwyODggNTUuNSA0NTQuNyAxOTYuOWMxMy4zLTMuMiAyNy4xLTQuOSA0MS4zLTQuOWMxMC4zIDAgMjAuMyAuOSAzMC4xIDIuNkwzMDMuNSA1Ljd6TTQ5NiA1MTJhMTQ0IDE0NCAwIDEgMCAwLTI4OCAxNDQgMTQ0IDAgMSAwIDAgMjg4em0wLTk2YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMC0xNDRjOC44IDAgMTYgNy4yIDE2IDE2bDAgODBjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC04MGMwLTguOCA3LjItMTYgMTYtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-circle-exclamation.svg)
  */
 const HouseCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

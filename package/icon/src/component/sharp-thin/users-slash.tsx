@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-slash?s=sharp-thin users-slash}
- * @preview ![users-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDIyNGMwLTUzLTQzLTk2LTk2LTk2Yy0xMyAwLTI1LjQgMi42LTM2LjcgNy4zTDI5OC4yIDE0N2M2LjktMiAxNC4zLTMgMjEuOC0zYzQ0LjIgMCA4MCAzNS44IDgwIDgwYzAgMS4xIDAgMi4zLS4xIDMuNGwxNC45IDExLjhjLjgtNC45IDEuMi0xMCAxLjItMTUuMXpNMjI0IDgwYzAtNDQuMi0zNS44LTgwLTgwLTgwYy05LjMgMC0xOC4xIDEuNi0yNi40IDQuNWwxNS43IDEyLjRjMy41LS42IDctLjkgMTAuNy0uOWMzMy45IDAgNjEuNyAyNi40IDYzLjkgNTkuN2wxNS43IDEyLjRjLjMtMi43IC40LTUuNCAuNC04LjJ6TTQ4IDE5Mkw2IDMwNGwxNy4xIDAgMzYtOTYgODMuOSAwLTIwLjMtMTZMNDggMTkyek0xNzYgMzUyTDEzMi44IDQ5NiAxMjggNTEybDE2LjcgMCAzNTAuNiAwIDE2LjcgMC00LjgtMTYtLjItLjYtMjEuOS0xNy4zIDUuNCAxNy45LTM0MSAwIDM4LjQtMTI4IDE1Ny44IDAtMjAuMy0xNkwxNzYgMzUyek00NDQgMTkyYzEuMyA1LjIgMi40IDEwLjYgMyAxNmwxMzMuOSAwIDM2IDk2IDE3LjEgMEw1OTIgMTkybC0xNDggMHptNC0xMTJhNjQgNjQgMCAxIDEgMTI4IDBBNjQgNjQgMCAxIDEgNDQ4IDgwem0xNDQgMEE4MCA4MCAwIDEgMCA0MzIgODBhODAgODAgMCAxIDAgMTYwIDB6TTE2LjIgNUw5LjkgMCAwIDEyLjVsNi4zIDVMNjIzLjggNTA3bDYuMyA1IDkuOS0xMi41LTYuMy01TDE2LjIgNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![users-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/users-slash.svg)
  */
 const UsersSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

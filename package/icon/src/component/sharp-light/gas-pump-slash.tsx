@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gas-pump-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gas-pump-slash?s=sharp-light gas-pump-slash}
- * @preview ![gas-pump-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDM2Mi44TDM1MiA0ODBsLTIyNCAwIDAtMjk0TDk2IDE2MC43IDk2IDQ4MGwtMzIgMCAwIDMyIDMyIDAgMzIgMCAyMjQgMCAzMiAwIDMyIDAgMC0zMi0zMiAwIDAtOTEuOS0zMi0yNS4zek0xMzkuNiAzMkwzNTIgMzJsMCAxNjcuN0wzODQgMjI1bDAtMTkzIDAtMzJMMzUyIDAgMTI4IDAgOTkgMGw0MC41IDMyek01NzYgMTM2bDAtNy01LjItNC44LTk2LTg4TDQ2MyAyNS40IDQ0MS40IDQ5bDExLjggMTAuOEw0ODAgODQuNGwwIDc1LjZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMCAxMjcuMyAzMiAyNS4zTDU3NiAxMzZ6bS02NC0yMi4zTDU0NCAxNDNsMCA0OWMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC00Ni4zek0zMi41IDEwTDE5LjkgLjEgLjEgMjUuM2wxMi42IDkuOUw2MDcuOCA1MDIuMmwxMi42IDkuOSAxOS44LTI1LjItMTIuNi05LjlMMzIuNSAxMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gas-pump-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gas-pump-slash.svg)
  */
 const GasPumpSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

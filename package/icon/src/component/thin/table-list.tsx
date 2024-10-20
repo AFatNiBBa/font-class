@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-list` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-list?s=thin table-list}
- * @preview ![table-list](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQ4bDAgMTI4IDMzNiAwIDAtODBjMC0yNi41LTIxLjUtNDgtNDgtNDhMMTYwIDQ4em0tMTYgMEw2NCA0OEMzNy41IDQ4IDE2IDY5LjUgMTYgOTZsMCA4MCAxMjggMCAwLTEyOHpNMTYgMTkybDAgMTI4IDEyOCAwIDAtMTI4TDE2IDE5MnptMCAxNDRsMCA4MGMwIDI2LjUgMjEuNSA0OCA0OCA0OGw4MCAwIDAtMTI4TDE2IDMzNnpNMTYwIDQ2NGwyODggMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTgwLTMzNiAwIDAgMTI4ek00OTYgMzIwbDAtMTI4LTMzNiAwIDAgMTI4IDMzNiAwek0wIDk2QzAgNjAuNyAyOC43IDMyIDY0IDMybDM4NCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzIwYzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![table-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/table-list.svg)
  */
 const TableList: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-minus?s=thin file-minus}
- * @preview ![file-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDk2Yy0yNi41IDAtNDgtMjEuNS00OC00OEwxNiA2NGMwLTI2LjUgMjEuNS00OCA0OC00OGwxNDAuMSAwYzEuMyAwIDIuNiAuMSAzLjkgLjJMMjA4IDEzNmMwIDIyLjEgMTcuOSA0MCA0MCA0MGwxMTkuOCAwYy4yIDEuMyAuMiAyLjYgLjIgMy45TDM2OCA0NDhjMCAyNi41LTIxLjUgNDgtNDggNDhMNjQgNDk2ek0zNTguNiAxNTcuM2MuOSAuOSAxLjcgMS44IDIuNCAyLjdMMjQ4IDE2MGMtMTMuMyAwLTI0LTEwLjctMjQtMjRsMC0xMTMuMWMxIC44IDEuOSAxLjYgMi43IDIuNEwzNTguNiAxNTcuM3pNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNjguMWMwLTEyLjctNS4xLTI0LjktMTQuMS0zMy45TDIzOC4xIDE0LjFjLTktOS0yMS4yLTE0LjEtMzMuOS0xNC4xTDY0IDB6TTk2IDMwNGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwxOTIgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOEw5NiAzMDR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-minus.svg)
  */
 const FileMinus: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

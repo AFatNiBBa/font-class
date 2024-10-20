@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `broccoli` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/broccoli?s=sharp-solid broccoli}
- * @preview ![broccoli](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzNTJsOTYgMCAzMjAgMCA5NiAwIDAtOTZjMC00NS41LTMxLjYtODMuNi03NC4xLTkzLjVjNi40LTEwIDEwLjEtMjEuOCAxMC4xLTM0LjVjMC0zNS4zLTI4LjctNjQtNjQtNjRjLTEyLjcgMC0yNC42IDMuNy0zNC41IDEwLjFDMzM5LjYgMzEuNiAzMDEuNSAwIDI1NiAwcy04My42IDMxLjYtOTMuNSA3NC4xQzE1Mi42IDY3LjcgMTQwLjcgNjQgMTI4IDY0Yy0zNS4zIDAtNjQgMjguNy02NCA2NGMwIDEyLjcgMy43IDI0LjYgMTAuMSAzNC41QzMxLjYgMTcyLjQgMCAyMTAuNSAwIDI1NmwwIDk2ek0yMDAgNTEybDExMiAwYzE4LjQtNTUuMyA0NC45LTEwMC4xIDYzLjktMTI4TDI4MCAzODRsLTI0IDQ4LTI0LTQ4LTk1LjkgMGMxOS4xIDI3LjkgNDUuNSA3Mi43IDYzLjkgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![broccoli](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/broccoli.svg)
  */
 const Broccoli: typeof Icon = x => (
     <Icon {...x}>

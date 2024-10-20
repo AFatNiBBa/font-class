@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `photo-film` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/photo-film?s=sharp-light photo-film}
- * @preview ![photo-film](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjA4IDMyTDIyNCAzMmwwIDIwMS40IDg0LjctODQuN0wzMjAgMTM3LjRsMTEuMyAxMS4zTDM4NCAyMDEuNCA1MDAuNyA4NC43IDUxMiA3My40bDExLjMgMTEuM0w2MDggMTY5LjQgNjA4IDMyem0zMiAxNzZjMCAwIDAgMCAwIC4xbDAgMTEyIDAgMzItMzIgMC0zMzYgMGMwIDAgMCAwIDAgMGwtNDggMC0zMiAwIDAtMzIgMC00OHMwIDAgMCAwbDAtMjQwIDAtMzIgMzIgMEw2MDggMGwzMiAwIDAgMzIgMCAxNzZ6bS0zMiA2LjdsLTk2LTk2TDM5NS4zIDIzNS4zIDMxMC42IDMyMCA2MDggMzIwbDAtMTA1LjR6TTI2NS40IDMyMGw5Ni05NkwzMjAgMTgyLjZsLTk2IDk2IDAgNDEuNCA0MS40IDB6TTI5NiA4MGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6TTEyOCAxNjBsMzIgMCAwIDMyLTMyIDAgMCA4MCAwIDEyOCAwIDgwIDI1NiAwIDAtOTYgMzIgMCAwIDk2IDY0IDAgMC05NiAzMiAwIDAgOTYgMCAzMi0zMiAwLTY0IDAtMTYgMC0xNiAwLTI1NiAwLTE2IDAtMTYgMC02NCAwTDAgNTEybDAtMzJMMCAxOTJsMC0zMiAzMiAwIDY0IDAgMTYgMCAxNiAwek05NiAxOTJsLTY0IDAgMCA2NCA2NCAwIDAtNjR6TTMyIDQ4MGw2NCAwIDAtNjQtNjQgMCAwIDY0em02NC05NmwwLTk2LTY0IDAgMCA5NiA2NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![photo-film](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/photo-film.svg)
  */
 const PhotoFilm: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

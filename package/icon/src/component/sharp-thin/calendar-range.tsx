@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-range` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-range?s=sharp-thin calendar-range}
- * @preview ![calendar-range](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBsMCA4IDAgNTYgMTkyIDAgMC01NiAwLTggMTYgMCAwIDggMCA1NiA5NiAwIDE2IDAgMCAxNiAwIDk2IDAgMTYgMCAzMDQgMCAxNi0xNiAwTDE2IDUxMiAwIDUxMmwwLTE2TDAgMTkybDAtMTZMMCA4MCAwIDY0bDE2IDAgOTYgMCAwLTU2IDAtOCAxNiAwek00MzIgMTkyTDE2IDE5MmwwIDMwNCA0MTYgMCAwLTMwNHpNMTEyIDEyMGwwLTQwTDE2IDgwbDAgOTYgNDE2IDAgMC05Ni05NiAwIDAgNDAgMCA4LTE2IDAgMC04IDAtNDBMMTI4IDgwbDAgNDAgMCA4LTE2IDAgMC04ek0zNzYgMjg4bC04IDAtMTkyIDAtOCAwIDAtMTYgOCAwIDE5MiAwIDggMCAwIDE2ek0yNzIgNDE2TDgwIDQxNmwtOCAwIDAtMTYgOCAwIDE5MiAwIDggMCAwIDE2LTggMHpNMTIwIDI2NGwtNDggMCAwIDQ4IDQ4IDAgMC00OHpNNzIgMjQ4bDQ4IDAgMTYgMCAwIDE2IDAgNDggMCAxNi0xNiAwLTQ4IDAtMTYgMCAwLTE2IDAtNDggMC0xNiAxNiAwek0zMjggMzkybDAgNDggNDggMCAwLTQ4LTQ4IDB6bS0xNi0xNmwxNiAwIDQ4IDAgMTYgMCAwIDE2IDAgNDggMCAxNi0xNiAwLTQ4IDAtMTYgMCAwLTE2IDAtNDggMC0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![calendar-range](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/calendar-range.svg)
  */
 const CalendarRange: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

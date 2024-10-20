@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `austral-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/austral-sign?s=sharp-thin austral-sign}
- * @preview ![austral-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEwLjYgMzJsNS40IDAgMTUgMCA1LjQgMCAyIDQuOUwzMjIuMiAyNDAgNDQwIDI0MGw4IDAgMCAxNi04IDAtMTExLjEgMCAzMyA4MCA3OC4xIDAgOCAwIDAgMTYtOCAwLTcxLjUgMCA1Mi45IDEyOEw0MDQgNDgwIDM1MS4yIDM1MiA5Ni41IDM1MiA0My45IDQ4MGwtMTcuMyAwTDc5LjIgMzUyIDggMzUybC04IDAgMC0xNiA4IDAgNzcuOCAwIDMyLjktODBMOCAyNTZsLTggMCAwLTE2IDggMCAxMTcuMiAwTDIwOC42IDM3bDItNXptMTUgMTZsLTQuMyAwTDE0Mi41IDI0MGwxNjIuNCAwTDIyNS42IDQ4ek0xMDMuMSAzMzZsMjQxLjUgMC0zMy04MC0xNzUuNiAwLTMyLjkgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![austral-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/austral-sign.svg)
  */
 const AustralSign: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-slash?s=solid file-slash}
- * @preview ![file-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w1MTIgMzc2bDAtMjE2LTEyOCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMkwzNTIgMCAxOTIgMGMtMzUuMyAwLTY0IDI4LjctNjQgNjRsMCAxMUwzOC44IDUuMXpNMTI4IDE5Ni45TDEyOCA0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMjAuMSAwIDM4LjEtOS4zIDQ5LjgtMjMuOEwxMjggMTk2Ljl6TTUxMiAxMjhMMzg0IDBsMCAxMjggMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-slash.svg)
  */
 const FileSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

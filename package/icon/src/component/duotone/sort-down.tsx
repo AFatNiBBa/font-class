@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `sort-down` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sort-down?s=duotone sort-down}
- * @preview ![sort-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE5MmMwIDQuMSAuOCA4LjMgMi40IDEyLjJjNSAxMiAxNi42IDE5LjggMjkuNiAxOS44bDI1NiAwYzEyLjkgMCAyNC42LTcuOCAyOS42LTE5LjhzMi4yLTI1LjctNi45LTM0LjlsLTEyOC0xMjhjLTEyLjUtMTIuNS0zMi44LTEyLjUtNDUuMyAwbC0xMjggMTI4QzMuMyAxNzUuNSAwIDE4My43IDAgMTkyem0xMDkuMy0zMkwxNjAgMTA5LjMgMjEwLjcgMTYwbC0xMDEuNSAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTgyLjYgNDcwLjZjLTEyLjUgMTIuNS0zMi44IDEyLjUtNDUuMyAwbC0xMjgtMTI4Yy05LjItOS4yLTExLjktMjIuOS02LjktMzQuOXMxNi42LTE5LjggMjkuNi0xOS44bDI1NiAwYzEyLjkgMCAyNC42IDcuOCAyOS42IDE5LjhzMi4yIDI1LjctNi45IDM0LjlsLTEyOCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sort-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sort-down.svg)
  */
 const SortDown: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>
         <path class={generic.secondary} d="M0 192c0 4.1 .8 8.3 2.4 12.2c5 12 16.6 19.8 29.6 19.8l256 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128c-12.5-12.5-32.8-12.5-45.3 0l-128 128C3.3 175.5 0 183.7 0 192zm109.3-32L160 109.3 210.7 160l-101.5 0z" />
-            <path d="M182.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8l256 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128z" />
+        <path d="M182.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8l256 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128z" />
     </Icon>
 );
 

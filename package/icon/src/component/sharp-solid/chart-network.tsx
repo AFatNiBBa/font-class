@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-network` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-network?s=sharp-solid chart-network}
- * @preview ![chart-network](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBMMTYwIDBsMCAxMjggNTguNiAwIDI5LjEgNjIuM0MyMjEuOCAyMTAuNCAyMDMgMjM5IDE5NS42IDI3MkwxMjggMjcybDAtMzJMMCAyNDAgMCAzNjhsMTI4IDAgMC0zMiA2Ny42IDBjMTQuNiA2NC4xIDcxLjkgMTEyIDE0MC40IDExMmMzOC40IDAgNzMuMy0xNSA5OS4xLTM5LjVMNTEyIDQ1OS44bDAgNTIuMiAxMjggMCAwLTEyOC0xMjYuMyAwLTQzLjEtMjguN2M2LjEtMTUuOSA5LjQtMzMuMiA5LjQtNTEuM2MwLTIwLjMtNC4yLTM5LjctMTEuOC01Ny4yTDU0Mi44IDE5Mmw5Ny4yIDAgMC0xMjhMNTEyIDY0bDAgNzEuMy04MS43IDU5LjlDNDA1IDE3My4zIDM3Mi4xIDE2MCAzMzYgMTYwYy0xMC40IDAtMjAuNiAxLjEtMzAuNCAzLjJMMjg4IDEyNS41IDI4OCAwem00OCAyNTZhNDggNDggMCAxIDEgMCA5NiA0OCA0OCAwIDEgMSAwLTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chart-network](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chart-network.svg)
  */
 const ChartNetwork: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

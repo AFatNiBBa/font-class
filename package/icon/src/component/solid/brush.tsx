@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `brush` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brush?s=solid brush}
- * @preview ![brush](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYyLjQgNmMtMS41LTMuNi01LTYtOC45LTZsLTE5IDBjLTMuOSAwLTcuNSAyLjQtOC45IDZMMTA0LjkgNTcuN2MtMy4yIDgtMTQuNiA4LTE3LjggMEw2Ni40IDZjLTEuNS0zLjYtNS02LTguOS02TDQ4IDBDMjEuNSAwIDAgMjEuNSAwIDQ4TDAgMjI0bDAgMjIuNEwwIDI1Nmw5LjYgMCAzNjQuOCAwIDkuNiAwIDAtOS42IDAtMjIuNCAwLTE3NmMwLTI2LjUtMjEuNS00OC00OC00OEwyMzAuNSAwYy0zLjkgMC03LjUgMi40LTguOSA2TDIwMC45IDU3LjdjLTMuMiA4LTE0LjYgOC0xNy44IDBMMTYyLjQgNnpNMCAyODhsMCAzMmMwIDM1LjMgMjguNyA2NCA2NCA2NGw2NCAwIDAgNjRjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NGwwLTY0IDY0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMkwwIDI4OHpNMTkyIDQzMmExNiAxNiAwIDEgMSAwIDMyIDE2IDE2IDAgMSAxIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![brush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/brush.svg)
  */
 const Brush: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

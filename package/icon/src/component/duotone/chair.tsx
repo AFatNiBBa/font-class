@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `chair` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chair?s=duotone chair}
- * @preview ![chair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiAzODRsMCA5NmMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtOTYtNjQgMHpNNjQgMTI4bDAgMTYwIDQ4IDAgMC0xNjBjMC0yOS42IDE2LjEtNTUuNSA0MC02OS4zTDE1MiAyODhsNDggMCAwLTI0MCA0OCAwIDAgMjQwIDQ4IDAgMC0yMjkuM2MyMy45IDEzLjggNDAgMzkuNyA0MCA2OS4zbDAgMTYwIDQ4IDAgMC0xNjBDMzg0IDU3LjMgMzI2LjcgMCAyNTYgMEwxOTIgMEMxMjEuMyAwIDY0IDU3LjMgNjQgMTI4ek0zNTIgMzg0bDAgOTZjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTk2LTY0IDB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0xOS40IDMwNS43QzI0LjggMjk0LjggMzUuOSAyODggNDggMjg4bDM1MiAwYzEyLjEgMCAyMy4yIDYuOCAyOC42IDE3LjdsMTYgMzJjNSA5LjkgNC40IDIxLjctMS40IDMxLjFzLTE2LjEgMTUuMi0yNy4yIDE1LjJMMzIgMzg0Yy0xMS4xIDAtMjEuNC01LjctMjcuMi0xNS4ycy02LjQtMjEuMi0xLjQtMzEuMWwxNi0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chair.svg)
  */
 const Chair: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>
         <path class={generic.secondary} d="M32 384l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96-64 0zM64 128l0 160 48 0 0-160c0-29.6 16.1-55.5 40-69.3L152 288l48 0 0-240 48 0 0 240 48 0 0-229.3c23.9 13.8 40 39.7 40 69.3l0 160 48 0 0-160C384 57.3 326.7 0 256 0L192 0C121.3 0 64 57.3 64 128zM352 384l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96-64 0z" />
-            <path d="M19.4 305.7C24.8 294.8 35.9 288 48 288l352 0c12.1 0 23.2 6.8 28.6 17.7l16 32c5 9.9 4.4 21.7-1.4 31.1s-16.1 15.2-27.2 15.2L32 384c-11.1 0-21.4-5.7-27.2-15.2s-6.4-21.2-1.4-31.1l16-32z" />
+        <path d="M19.4 305.7C24.8 294.8 35.9 288 48 288l352 0c12.1 0 23.2 6.8 28.6 17.7l16 32c5 9.9 4.4 21.7-1.4 31.1s-16.1 15.2-27.2 15.2L32 384c-11.1 0-21.4-5.7-27.2-15.2s-6.4-21.2-1.4-31.1l16-32z" />
     </Icon>
 );
 

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `3` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/3?s=sharp-solid 3}
- * @preview ![3](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDMybDAgNDYuMS0xMC40IDkuNUwxNjIuMyAyMDhsMjEuNyAwYzc1LjEgMCAxMzYgNjAuOSAxMzYgMTM2cy02MC45IDEzNi0xMzYgMTM2bC03Mi42IDBDNjQuOCA0ODAgMjMgNDUxIDYuNiA0MDcuM0wyIDM5NS4yIDYyIDM3Mi44bDQuNSAxMi4xYzcgMTguNyAyNC45IDMxLjEgNDQuOSAzMS4xbDcyLjYgMGMzOS44IDAgNzItMzIuMiA3Mi03MnMtMzIuMi03Mi03Mi03Mkw4MCAyNzJsLTMyIDAgMC00Ni4xIDEwLjQtOS41TDE4OS43IDk2IDMyIDk2IDAgOTYgMCAzMmwzMiAwIDI0MCAwIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/3.svg)
  */
 const $3: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

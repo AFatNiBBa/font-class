@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `solar-panel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/solar-panel?s=sharp-solid solar-panel}
- * @preview ![solar-panel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMEw3MC4yIDAgNjQuNyAyNS4ybC02NCAyOTZMMCAzMjQuNiAwIDMyOGwwIDI0IDAgMzIgMzIgMCAyNTYgMCAwIDY0LTY0IDAtMzIgMCAwIDY0IDMyIDAgMTkyIDAgMzIgMCAwLTY0LTMyIDAtNjQgMCAwLTY0IDI1NiAwIDMyIDAgMC0zMiAwLTI0IDAtMy40LS43LTMuMy02NC0yOTZMNTY5LjggMCA1NDQgMCA5NiAwem0zLjMgMTY4TDEyMS44IDY0bDkwLjkgMEwyMDIuMyAxNjggOTkuMyAxNjh6TTg5IDIxNmwxMDguNSAwTDE4Ny4xIDMyMCA2Ni41IDMyMCA4OSAyMTZ6bTE1Ni44IDBsMTQ4LjYgMCAxMC40IDEwNC0xNjkuNCAwIDEwLjQtMTA0em0xOTYuOCAwTDU1MSAyMTZsMjIuNSAxMDQtMTIwLjYgMEw0NDIuNSAyMTZ6bTk4LjEtNDhsLTEwMi45IDBMNDI3LjMgNjRsOTAuOSAwIDIyLjUgMTA0em0tMTUxLjIgMGwtMTM5IDBMMjYwLjkgNjRsMTE4LjIgMCAxMC40IDEwNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![solar-panel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/solar-panel.svg)
  */
 const SolarPanel: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

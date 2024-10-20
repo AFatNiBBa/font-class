@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hexagon-plus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-plus?s=regular hexagon-plus}
- * @preview ![hexagon-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTcuMSAyOTJjLTEyLjktMjIuMy0xMi45LTQ5LjcgMC03MkwxMDUuNCA2Ny4xYzEyLjktMjIuMyAzNi42LTM2IDYyLjQtMzZsMTc2LjYgMGMyNS43IDAgNDkuNSAxMy43IDYyLjQgMzZMNDk0LjkgMjIwYzEyLjkgMjIuMyAxMi45IDQ5LjcgMCA3Mkw0MDYuNiA0NDQuOWMtMTIuOSAyMi4zLTM2LjYgMzYtNjIuNCAzNmwtMTc2LjYgMGMtMjUuNyAwLTQ5LjUtMTMuNy02Mi40LTM2TDE3LjEgMjkyem00MS42LTQ4Yy00LjMgNy40LTQuMyAxNi42IDAgMjRsODguMyAxNTIuOWM0LjMgNy40IDEyLjIgMTIgMjAuOCAxMmwxNzYuNiAwYzguNiAwIDE2LjUtNC42IDIwLjgtMTJMNDUzLjQgMjY4YzQuMy03LjQgNC4zLTE2LjYgMC0yNEwzNjUuMSA5MS4xYy00LjMtNy40LTEyLjItMTItMjAuOC0xMmwtMTc2LjYgMGMtOC42IDAtMTYuNSA0LjYtMjAuOCAxMkw1OC42IDI0NHpNMjMyIDM0NGwwLTY0LTY0IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsNjQgMCAwLTY0YzAtMTMuMyAxMC43LTI0IDI0LTI0czI0IDEwLjcgMjQgMjRsMCA2NCA2NCAwYzEzLjMgMCAyNCAxMC43IDI0IDI0cy0xMC43IDI0LTI0IDI0bC02NCAwIDAgNjRjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hexagon-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hexagon-plus.svg)
  */
 const HexagonPlus: typeof Icon = x => (
     <Icon {...x}>

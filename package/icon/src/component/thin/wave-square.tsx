@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wave-square` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wave-square?s=thin wave-square}
- * @preview ![wave-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDQ4Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNGwwIDE1MmMwIDIyLjEtMTcuOSA0MC00MCA0MEw4IDI2NGMtNC40IDAtOC0zLjYtOC04czMuNi04IDgtOGwxMTIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTE1MmMwLTIyLjEgMTcuOS00MCA0MC00MGwxMDQgMGMyMi4xIDAgNDAgMTcuOSA0MCA0MGwwIDM2OGMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxMDQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTE1MmMwLTIyLjEgMTcuOS00MCA0MC00MGwxMTIgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtMTEyIDBjLTEzLjMgMC0yNCAxMC43LTI0IDI0bDAgMTUyYzAgMjIuMS0xNy45IDQwLTQwIDQwbC0xMDQgMGMtMjIuMSAwLTQwLTE3LjktNDAtNDBsMC0zNjhjMC0xMy4zLTEwLjctMjQtMjQtMjRMMTg0IDQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wave-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/wave-square.svg)
  */
 const WaveSquare: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

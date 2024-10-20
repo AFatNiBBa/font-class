@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bat` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bat?s=solid bat}
- * @preview ![bat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM1LjYgNTIuOGwxMC44IDE0LjRjNiA4LjEgMTUuNSAxMi44IDI1LjYgMTIuOGwzMiAwYzEwLjEgMCAxOS42LTQuNyAyNS42LTEyLjhsMTAuOC0xNC40YzIuMy0zIDUuOC00LjggOS42LTQuOGM1LjggMCAxMC44IDQuMSAxMS44IDkuOGwxOSAxMDEuNEw0NTIuNiAxMjVjMTYuMi03LjcgMzUuNS0zLjYgNDcuMSAxMEM1NDguOSAxOTIuNCA1NzYgMjY1LjYgNTc2IDM0MS4ybDAgMzcuNmMwIDkuNy0xMC4yIDE2LTE4LjkgMTEuN2wtNjMuOC0zMS45Yy03LjUtMy43LTE2LjYtMS4xLTIwLjkgNi4xbC0yOS44IDQ5LjdjLTUuNCA4LjktMTcuNyAxMC40LTI1IDMuMWwtMzYuNi0zNi42Yy02LjgtNi44LTE4LjEtNi4xLTI0IDEuNmwtNTYuMiA3My4xYy02LjQgOC4zLTE5IDguMy0yNS40IDBsLTU2LjItNzMuMWMtNS45LTcuNy0xNy4yLTguNC0yNC0xLjZsLTM2LjYgMzYuNmMtNy40IDcuNC0xOS43IDUuOC0yNS0zLjFsLTI5LjgtNDkuN2MtNC4zLTcuMi0xMy40LTkuOC0yMC45LTYuMUwxOC45IDM5MC41Yy04LjcgNC4zLTE4LjktMi0xOC45LTExLjdsMC0zNy42QzAgMjY1LjYgMjcuMSAxOTIuNCA3Ni4zIDEzNWMxMS42LTEzLjYgMzAuOS0xNy43IDQ3LjEtMTBsNzEuOCAzNC4yIDE5LTEwMS40YzEuMS01LjcgNi05LjggMTEuOC05LjhjMy44IDAgNy40IDEuOCA5LjYgNC44eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bat.svg)
  */
 const Bat: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-right-to-city` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-to-city?s=sharp-solid arrow-right-to-city}
- * @preview ![arrow-right-to-city](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDBMNDgwIDBsMCAxOTIgNDAgMCAwLTcyIDAtMjQgNDggMCAwIDI0IDAgNzIgNzIgMCAwIDMyMC0xNjAgMC05NiAwLTk2IDBMMjg4IDB6bTY0IDY0bDAgNjQgNjQgMCAwLTY0LTY0IDB6bTY0IDk2bC02NCAwIDAgNjQgNjQgMCAwLTY0em0tNjQgOTZsMCA2NCA2NCAwIDAtNjQtNjQgMHptMjI0IDBsLTY0IDAgMCA2NCA2NCAwIDAtNjR6bS02NCA5NmwwIDY0IDY0IDAgMC02NC02NCAwek0xNTAuNiAxNTMuNGw4MCA4MEwyNTMuMyAyNTZsLTIyLjYgMjIuNi04MCA4MEwxMjggMzgxLjMgODIuNyAzMzZsMjIuNi0yMi42TDEzMC43IDI4OCAzMiAyODggMCAyODhsMC02NCAzMiAwIDk4LjcgMC0yNS40LTI1LjRMODIuNyAxNzYgMTI4IDEzMC43bDIyLjYgMjIuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-right-to-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-right-to-city.svg)
  */
 const ArrowRightToCity: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lasso` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lasso?s=sharp-solid lasso}
- * @preview ![lasso](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDE3NmMwIDk3LjItMTI4LjkgMTc2LTI4OCAxNzZjLTEzLjIgMC0yNi4zLS41LTM5LTEuNmM0LjYgMTIuOCA3IDI2LjUgNyA0MC42YzAgNjYuOC01NC4yIDEyMS0xMjEgMTIxbC03MSAwLTMyIDAgMC02NCAzMiAwIDcxIDBjMzEuNSAwIDU3LTI1LjUgNTctNTdjMC0yMS42LTEyLjItNDEuMy0zMS41LTUxbC00Ni44LTIzLjQgLjItLjRDNDQuNyAyODQuMSAwIDIzMy4yIDAgMTc2QzAgNzguOCAxMjguOSAwIDI4OCAwUzU3NiA3OC44IDU3NiAxNzZ6TTI4OCAyODhjMTIzLjcgMCAyMjQtNTAuMSAyMjQtMTEycy0xMDAuMy0xMTItMjI0LTExMlM2NCAxMTQuMSA2NCAxNzZzMTAwLjMgMTEyIDIyNCAxMTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lasso](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lasso.svg)
  */
 const Lasso: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

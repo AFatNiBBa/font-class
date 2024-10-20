@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tilde` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tilde?s=light tilde}
- * @preview ![tilde](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYuOCAxNjBDNjEuMiAxNjAgMzIgMTg4LjggMzIgMjI0bDAgOTZjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC05NmMwLTUzLjIgNDMuOS05NiA5Ni44LTk2YzI5LjQgMCA1Ny42IDEzLjUgNzUuOSAzNi43bDEyOCAxNjIuOGMxMi4xIDE1LjQgMzEgMjQuNSA1MC43IDI0LjVjMzUuNSAwIDY0LjgtMjguOCA2NC44LTY0bDAtOTZjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDk2YzAgNTMuMi00My45IDk2LTk2LjggOTZjLTI5LjQgMC01Ny42LTEzLjUtNzUuOS0zNi43bC0xMjgtMTYyLjljLTEyLjEtMTUuNC0zMS0yNC41LTUwLjctMjQuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![tilde](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tilde.svg)
  */
 const Tilde: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

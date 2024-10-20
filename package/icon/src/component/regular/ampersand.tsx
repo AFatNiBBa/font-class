@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ampersand` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ampersand?s=regular ampersand}
- * @preview ![ampersand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc4IDgwbDQ0LjQgMGMyNy40IDAgNDkuNyAyMi4yIDQ5LjcgNDkuN2MwIDE2LjItNy45IDMxLjQtMjEuMiA0MC43bC02MS40IDQzLTQ3LjItNDguNUMxMzMuMSAxNTUuNSAxMjggMTQzIDEyOCAxMzBjMC0yNy42IDIyLjQtNTAgNTAtNTB6bTQ1LjMgMTY4LjJsNTUuMS0zOC41YzI2LjEtMTguMyA0MS43LTQ4LjEgNDEuNy04MEMzMjAgNzUuNyAyNzYuMyAzMiAyMjIuMyAzMkwxNzggMzJjLTU0LjEgMC05OCA0My45LTk4IDk4YzAgMjUuNSAxMCA1MCAyNy43IDY4LjNsNDEuOCA0M0w3NS45IDI5Mi44QzQ4LjQgMzEyIDMyIDM0My41IDMyIDM3Ny4xQzMyIDQzMy45IDc4LjEgNDgwIDEzNC45IDQ4MGw3Ny44IDBjMzUuMSAwIDY3LjgtMTcuNyA4Ny00Ny4xbDE0LjYtMjIuMyA2MC40IDYyLjFjOS4yIDkuNSAyNC40IDkuNyAzMy45IC41czkuNy0yNC40IC41LTMzLjlsLTY3LjktNjkuOCA3MC44LTEwOC4zYzcuMy0xMS4xIDQuMS0yNi03LTMzLjJzLTI2LTQuMS0zMy4yIDdMMzA3IDMzNC4ybC04My43LTg2em0tMzkuOCAyNy45bDk2LjYgOTkuMy0yMC41IDMxLjNjLTEwLjMgMTUuOC0yOCAyNS40LTQ2LjkgMjUuNGwtNzcuOCAwQzEwNC42IDQzMiA4MCA0MDcuNCA4MCAzNzcuMWMwLTE3LjkgOC43LTM0LjcgMjMuNC00NWw4MC01NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ampersand.svg)
  */
 const Ampersand: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

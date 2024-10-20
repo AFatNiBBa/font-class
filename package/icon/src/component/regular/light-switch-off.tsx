@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `light-switch-off` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-switch-off?s=regular light-switch-off}
- * @preview ![light-switch-off](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY5LjQgNDY0YzMuMy05LjMgMTIuMi0xNiAyMi42LTE2czE5LjMgNi43IDIyLjYgMTZMMzIwIDQ2NGM4LjggMCAxNi03LjIgMTYtMTZsMC0zODRjMC04LjgtNy4yLTE2LTE2LTE2TDIxNC42IDQ4Yy0zLjMgOS4zLTEyLjIgMTYtMjIuNiAxNnMtMTkuMy02LjctMjIuNi0xNkw2NCA0OGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMzg0YzAgOC44IDcuMiAxNiAxNiAxNmwxMDUuNCAwek02NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgNjRDMCAyOC43IDI4LjcgMCA2NCAwTDMyMCAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMzg0YzAgMzUuMy0yOC43IDY0LTY0IDY0TDY0IDUxMnptODAtMjU2bDk2IDAgMC0xMTItOTYgMCAwIDExMnptMCAxNjBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjI0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDk2IDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAyMjRjMCAyNi41LTIxLjUgNDgtNDggNDhsLTk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![light-switch-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/light-switch-off.svg)
  */
 const LightSwitchOff: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `light-emergency-on` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-emergency-on?s=sharp-solid light-emergency-on}
- * @preview ![light-emergency-on](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjkuMyAzNmwtMjAtMTMuM0wyMi43IDYyLjcgNDIuNyA3Nmw0OCAzMiAyMCAxMy4zIDI2LjYtMzkuOUwxMTcuMyA2OGwtNDgtMzJ6TTU5Ny4zIDc2bDIwLTEzLjNMNTkwLjcgMjIuNyA1NzAuNyAzNmwtNDggMzItMjAgMTMuMyAyNi42IDM5LjkgMjAtMTMuMyA0OC0zMnpNMjQgMTkyTDAgMTkybDAgNDggMjQgMCA3MiAwIDI0IDAgMC00OC0yNCAwLTcyIDB6bTUyMCAwbC0yNCAwIDAgNDggMjQgMCA3MiAwIDI0IDAgMC00OC0yNCAwLTcyIDB6TTMyMCAzMmMtODguNCAwLTE2MCA3MS42LTE2MCAxNjBsMCAxNjAgMzIwIDAgMC0xNjBjMC04OC40LTcxLjYtMTYwLTE2MC0xNjB6TTI0MCAxOTJsLTMyIDBjMC02MS45IDUwLjEtMTEyIDExMi0xMTJsMCAzMmMtNDQuMiAwLTgwIDM1LjgtODAgODB6TTU0NCAzODRMOTYgMzg0bDAgOTYgNDQ4IDAgMC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![light-emergency-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/light-emergency-on.svg)
  */
 const LightEmergencyOn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

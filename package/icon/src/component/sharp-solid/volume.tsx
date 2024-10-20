@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume?s=sharp-solid volume}
- * @preview ![volume](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTYwbDAgMTkyIDEyOCAwTDMwNCA0ODBsNDggMCAwLTQ0OC00OCAwTDE2MCAxNjAgMzIgMTYwek00NDEuNiAzMzIuOEM0NjQuOSAzMTUuMyA0ODAgMjg3LjQgNDgwIDI1NnMtMTUuMS01OS4zLTM4LjQtNzYuOGwtMjguOCAzOC40YzExLjcgOC44IDE5LjIgMjIuNyAxOS4yIDM4LjRzLTcuNSAyOS42LTE5LjIgMzguNGwyOC44IDM4LjR6bTU3LjYgNzYuOGM0Ni42LTM1IDc2LjgtOTAuOCA3Ni44LTE1My42cy0zMC4yLTExOC42LTc2LjgtMTUzLjZsLTI4LjggMzguNGMzNSAyNi4zIDU3LjYgNjguMSA1Ny42IDExNS4ycy0yMi42IDg4LjktNTcuNiAxMTUuMmwyOC44IDM4LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![volume](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/volume.svg)
  */
 const Volume: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

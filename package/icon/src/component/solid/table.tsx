@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table?s=solid table}
- * @preview ![table](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjU2bDAtOTYgMTYwIDAgMCA5Nkw2NCAyNTZ6bTAgNjRsMTYwIDAgMCA5Nkw2NCA0MTZsMC05NnptMjI0IDk2bDAtOTYgMTYwIDAgMCA5Ni0xNjAgMHpNNDQ4IDI1NmwtMTYwIDAgMC05NiAxNjAgMCAwIDk2ek02NCAzMkMyOC43IDMyIDAgNjAuNyAwIDk2TDAgNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0bDM4NCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzIwYzAtMzUuMy0yOC43LTY0LTY0LTY0TDY0IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![table](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/table.svg)
  */
 const Table: typeof Icon = x => (
     <Icon {...x}>

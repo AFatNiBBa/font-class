@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-from-square` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-square?s=thin arrow-up-from-square}
- * @preview ![arrow-up-from-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjYxLjcgMi4zYy0zLjEtMy4xLTguMi0zLjEtMTEuMyAwbC0xMTIgMTEyYy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zczguMiAzLjEgMTEuMyAwTDI0OCAyNy4zIDI0OCAzMjhjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTMwMC43IDk4LjMgOTguM2MzLjEgMy4xIDguMiAzLjEgMTEuMyAwczMuMS04LjIgMC0xMS4zbC0xMTItMTEyek01NiAzMkMyNS4xIDMyIDAgNTcuMSAwIDg4TDAgNDU2YzAgMzAuOSAyNS4xIDU2IDU2IDU2bDQwMCAwYzMwLjkgMCA1Ni0yNS4xIDU2LTU2bDAtMzY4YzAtMzAuOS0yNS4xLTU2LTU2LTU2bC00OCAwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDQ4IDBjMjIuMSAwIDQwIDE3LjkgNDAgNDBsMCAzNjhjMCAyMi4xLTE3LjkgNDAtNDAgNDBMNTYgNDk2Yy0yMi4xIDAtNDAtMTcuOS00MC00MEwxNiA4OGMwLTIyLjEgMTcuOS00MCA0MC00MGw0OCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDU2IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-up-from-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-from-square.svg)
  */
 const ArrowUpFromSquare: typeof Icon = x => (
     <Icon {...x}>

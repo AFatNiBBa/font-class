@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `backward` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backward?s=thin backward}
- * @preview ![backward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU4IDgwYy0zIDAtNS44IC45LTguMiAyLjdMMTkuMyAyNDkuNUMxNy4yIDI1MSAxNiAyNTMuNCAxNiAyNTZzMS4yIDUgMy4zIDYuNUwyNDkuNyA0MjkuM2MyLjQgMS43IDUuMyAyLjcgOC4yIDIuN2M3LjggMCAxNC02LjMgMTQtMTRMMjcyIDk0YzAtNy44LTYuMy0xNC0xNC0xNHptMC0xNmMxNi42IDAgMzAgMTMuNSAzMCAzMGwwIDEwMy40TDQ2NC4zIDY5LjdDNDY5LjUgNjYgNDc1LjYgNjQgNDgyIDY0YzE2LjYgMCAzMCAxMy41IDMwIDMwTDUxMiA0MThjMCAxNi42LTEzLjQgMzAtMzAgMzBjLTYuMyAwLTEyLjUtMi0xNy42LTUuN0wyODggMzE0LjYgMjg4IDQxOGMwIDE2LjYtMTMuNSAzMC0zMCAzMGMtNi4zIDAtMTIuNS0yLTE3LjYtNS43TDkuOSAyNzUuNEMzLjcgMjcwLjkgMCAyNjMuNyAwIDI1NnMzLjctMTQuOSA5LjktMTkuNEwyNDAuMyA2OS43QzI0NS41IDY2IDI1MS42IDY0IDI1OCA2NHptMzAgMjMwLjhMNDczLjcgNDI5LjNjMi40IDEuNyA1LjMgMi43IDguMiAyLjdjNy44IDAgMTQtNi4zIDE0LTE0TDQ5NiA5NGMwLTcuOC02LjMtMTQtMTQtMTRjLTMgMC01LjggLjktOC4yIDIuN0wyODggMjE3LjJsMCA3Ny43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![backward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/backward.svg)
  */
 const Backward: typeof Icon = x => (
     <Icon {...x}>

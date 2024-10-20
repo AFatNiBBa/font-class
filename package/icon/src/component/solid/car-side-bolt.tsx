@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-side-bolt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-side-bolt?s=solid car-side-bolt}
- * @preview ![car-side-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODIuMiA5Mi4zTDQwLjYgMTk2LjRDMTYuOCAyMDUuOCAwIDIyOC45IDAgMjU2TDAgMzY4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDMzLjMgMGM3LjYgNDUuNCA0Ny4xIDgwIDk0LjcgODBzODcuMS0zNC42IDk0LjctODBsMTMwLjcgMGM3LjYgNDUuNCA0Ny4xIDgwIDk0LjcgODBzODcuMS0zNC42IDk0LjctODBsMzMuMyAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNDhjMC02NS4yLTQ4LjgtMTE5LTExMS44LTEyN0w0MjguMiA2OGMtMTguMi0yMi44LTQ1LjgtMzYtNzUtMzZMMTcxLjMgMzJjLTM5LjMgMC03NC42IDIzLjktODkuMSA2MC4zek00ODAgMzM2YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnpNMTE0LjcgMzY4YTQ4IDQ4IDAgMSAxIDkwLjUgMzIgNDggNDggMCAxIDEgLTkwLjUtMzJ6TTMzMS4yIDEwMC42YzUuMyA1LjIgNi4zIDEzLjMgMi41IDE5LjZMMzAwLjMgMTc2bDUxLjcgMGM3LjEgMCAxMy40IDQuNyAxNS40IDExLjZzLS44IDE0LjItNi45IDE4bC0xMjggODBjLTYuMyAzLjktMTQuNCAzLTE5LjctMi4ycy02LjMtMTMuMy0yLjUtMTkuNkwyNDMuNyAyMDggMTkyIDIwOGMtNy4xIDAtMTMuNC00LjctMTUuNC0xMS42cy44LTE0LjIgNi45LTE4bDEyOC04MGM2LjMtMy45IDE0LjQtMyAxOS43IDIuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![car-side-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/car-side-bolt.svg)
  */
 const CarSideBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

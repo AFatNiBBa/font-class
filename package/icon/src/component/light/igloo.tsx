@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `igloo` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/igloo?s=light igloo}
- * @preview ![igloo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTc2IDMyMGwwIDMyIDAgNjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTEyOCAwLTE5MiAwTDY0IDQ4MGMtMzUuMyAwLTY0LTI4LjctNjQtNjRsMC05NkMwIDE2MC45IDEyOC45IDMyIDI4OCAzMnMyODggMTI4LjkgMjg4IDI4OHptLTMyIDMybC02NCAwLTMyIDAtNjQgMCAwIDk2IDEyOCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNjR6bTAtMzJjMC00Ni42LTEyLjUtOTAuMy0zNC4yLTEyOEw0ODAgMTkybDAgMTI4IDY0IDB6TTM1MiAxOTJsLTMyIDAtMTkyIDAgMCAxMjggNjkuNSAwYzEzLjItMzcuMyA0OC43LTY0IDkwLjUtNjRzNzcuNCAyNi43IDkwLjUgNjRsNjkuNSAwIDAtMTI4LTk2IDB6TTk2IDM1MmwtNjQgMCAwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDEyOCAwIDAtOTYtNjQgMC0zMiAwem0wLTMybDAtMTI4LTI5LjggMEM0NC41IDIyOS43IDMyIDI3My40IDMyIDMyMGw2NCAwek00ODcuOSAxNjBDNDUzLjggMTE3LjUgNDA2LjQgODYuMSAzNTIgNzIuMWwwIDg3LjkgMTM1LjkgMHpNMzIwIDY2Yy0xMC41LTEuMy0yMS4yLTItMzItMmMtODAuOCAwLTE1Mi45IDM3LjUtMTk5LjkgOTZMMzIwIDE2MGwwLTk0ek0yODggMjg4Yy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDk2IDEyOCAwIDAtOTZjMC0zNS4zLTI4LjctNjQtNjQtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![igloo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/igloo.svg)
  */
 const Igloo: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

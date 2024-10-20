@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mask-snorkel` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask-snorkel?s=sharp-thin mask-snorkel}
- * @preview ![mask-snorkel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDE0NGw0OCAwIDAtOTYtNDggMCAwIDk2em0wIDE2bDAgMzIgNDggMCAwLTMyLTQ4IDB6bTAgMjA3LjFjMCA0NC43LTM2LjIgODAuOS04MC45IDgwLjljLTM4LjkgMC03Mi40LTI3LjctNzkuNS02NmwtNS0yNi43LTQ3LjIgOC44IDUgMjYuN0MzMTUuOCA0NTEuOCAzNjkgNDk2IDQzMS4xIDQ5NkM1MDIuMyA0OTYgNTYwIDQzOC4zIDU2MCAzNjcuMUw1NjAgMjA4bC00OCAwIDAgMTU5LjF6bS0xNiAwTDQ5NiA0OGwwLTE2IDE2IDAgNDggMCAxNiAwIDAgMTYgMCAzMTkuMWMwIDgwLTY0LjkgMTQ0LjktMTQ0LjkgMTQ0LjljLTY5LjcgMC0xMjkuNi00OS43LTE0Mi40LTExOC4ybC01LTI2LjctMi45LTE1LjcgMTUuNy0zIDQ3LjItOC44IDE1LjctMyAyLjkgMTUuNyA1IDI2LjdjNS44IDMwLjcgMzIuNiA1MyA2My44IDUzYzM1LjkgMCA2NC45LTI5LjEgNjQuOS02NC45ek0yNTYgMjg4bC0xOC4zLTY0LTI3LjQgMEwxOTIgMjg4IDE2IDI4OCAwIDI4OGwwLTE2TDAgODAgMCA2NGwxNiAwIDQxNiAwIDE2IDAgMCAxNiAwIDE5MiAwIDE2LTE2IDAtMTc2IDB6bS02MS4xLTY4LjRsMy4zLTExLjYgMTIuMSAwIDI3LjQgMCAxMi4xIDAgMy4zIDExLjYgMTUgNTIuNEw0MzIgMjcybDAtMTkyTDE2IDgwbDAgMTkyIDE2My45IDAgMTUtNTIuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mask-snorkel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mask-snorkel.svg)
  */
 const MaskSnorkel: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

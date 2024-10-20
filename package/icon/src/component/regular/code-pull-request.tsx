@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `code-pull-request` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-pull-request?s=regular code-pull-request}
- * @preview ![code-pull-request](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA1LjggMi4xQzMxNC40IDUuOSAzMjAgMTQuNSAzMjAgMjRsMCA0OCAxNiAwYzY2LjMgMCAxMjAgNTMuNyAxMjAgMTIwbDAgMTYzLjdjMzIuNSAxMC4yIDU2IDQwLjUgNTYgNzYuM2MwIDQ0LjItMzUuOCA4MC04MCA4MHMtODAtMzUuOC04MC04MGMwLTM1LjggMjMuNS02Ni4xIDU2LTc2LjNMNDA4IDE5MmMwLTM5LjgtMzIuMi03Mi03Mi03MmwtMTYgMCAwIDQ4YzAgOS41LTUuNiAxOC4xLTE0LjIgMjEuOXMtMTguOCAyLjMtMjUuOC00LjFsLTgwLTcyYy01LjEtNC42LTcuOS0xMS03LjktMTcuOHMyLjktMTMuMyA3LjktMTcuOGw4MC03MmM3LTYuMyAxNy4yLTcuOSAyNS44LTQuMXpNMTEyIDgwQTMyIDMyIDAgMSAwIDQ4IDgwYTMyIDMyIDAgMSAwIDY0IDB6bS04IDc2LjNsMCAxOTkuM2MzMi41IDEwLjIgNTYgNDAuNSA1NiA3Ni4zYzAgNDQuMi0zNS44IDgwLTgwIDgwcy04MC0zNS44LTgwLTgwYzAtMzUuOCAyMy41LTY2LjEgNTYtNzYuM2wwLTE5OS4zQzIzLjUgMTQ2LjEgMCAxMTUuOCAwIDgwQzAgMzUuOCAzNS44IDAgODAgMHM4MCAzNS44IDgwIDgwYzAgMzUuOC0yMy41IDY2LjEtNTYgNzYuM3pNMTEyIDQzMmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0zMjAgMzJhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![code-pull-request](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/code-pull-request.svg)
  */
 const CodePullRequest: typeof Icon = x => (
     <Icon {...x}>

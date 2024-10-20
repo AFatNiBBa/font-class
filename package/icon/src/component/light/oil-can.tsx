@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `oil-can` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-can?s=light oil-can}
- * @preview ![oil-can](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDk2YzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2TDE3NiA2NGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmw2NCAwIDAgNjQtMTEyIDAtMzIgMC00OCAwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDYyLjdjMCAyMCAxMi40IDM3LjkgMzEuMSA0NC45TDk2IDM0MGwwIDI4YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDI1OS4xIDBjMTguNCAwIDM1LjgtNy45IDQ4LTIxLjdMNjMzLjUgMTg3LjdjMTIuMy0xMy45LS4zLTM1LjQtMTguNC0zMS41TDQ0OCAxOTJsLTUwLjUtMjUuMmMtOC45LTQuNC0xOC43LTYuOC0yOC42LTYuOEwyNzIgMTYwbDAtNjQgNjQgMHptOTcuNyAxMjQuNmM2LjUgMy4yIDEzLjkgNC4yIDIxIDIuN2wxMjkuMS0yNy43TDQyNy4xIDM3My4yYy02LjEgNi45LTE0LjggMTAuOC0yNCAxMC44TDE0NCAzODRjLTguOCAwLTE2LTcuMi0xNi0xNmwwLTE2IDAtMzQuMkwxMjggMTkybDI0MC45IDBjNSAwIDkuOSAxLjIgMTQuMyAzLjRsNTAuNSAyNS4yek05NiAzMDUuOEw0Mi40IDI4NS43Yy02LjItMi4zLTEwLjQtOC4zLTEwLjQtMTVMMzIgMjA4YzAtOC44IDcuMi0xNiAxNi0xNmw0OCAwIDAgMTEzLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![oil-can](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/oil-can.svg)
  */
 const OilCan: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

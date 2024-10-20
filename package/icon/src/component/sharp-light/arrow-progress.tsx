@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-progress` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-progress?s=sharp-light arrow-progress}
- * @preview ![arrow-progress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDMybDAgNjQgNjQgMCAwLTY0LTY0IDB6TTM4NCAwbDMyIDAgNjQgMCAzMiAwIDAgMzIgMCA2NCAwIDMyLTMyIDAtNjQgMC0zMiAwIDAtMzIgMC02NCAwLTMyek0yODYgMS41bDEyLjMgMTAuMiA0OCA0MEwzNjEgNjQgMzQ2LjIgNzYuM2wtNDggNDBMMjg2IDEyNi41IDI2NS41IDEwMmwxMi4zLTEwLjIgMTQtMTEuN0wzMiA4MGwwIDE2MCA0NjQgMCAxNiAwIDAgMTYgMCAxOTIgMCAxNi0xNiAwLTgwIDAgMCAxNiAwIDMyLTMyIDAtNjQgMC0zMiAwIDAtMzIgMC02NCAwLTMyIDMyIDAgNjQgMCAzMiAwIDAgMzIgMCAxNiA2NCAwIDAtMTYwTDE2IDI3MiAwIDI3MmwwLTE2TDAgNjQgMCA0OGwxNiAwIDI3NS44IDAtMTQtMTEuN0wyNjUuNSAyNiAyODYgMS41ek0xMjggNDE2bDAgMTYgNjcuOCAwLTE0LjEtMTEuN0wxNjkuNSA0MTAgMTkwIDM4NS41bDEyLjMgMTAuMiA0OCA0MEwyNjUgNDQ4bC0xNC43IDEyLjMtNDggNDBMMTkwIDUxMC41IDE2OS41IDQ4NmwxMi4zLTEwLjJMMTk1LjggNDY0IDEyOCA0NjRsMCAxNiAwIDMyLTMyIDAtNjQgMEwwIDUxMmwwLTMyIDAtNjQgMC0zMiAzMiAwIDY0IDAgMzIgMCAwIDMyem0tMzIgMGwtNjQgMCAwIDY0IDY0IDAgMC02NHptMjI0IDBsMCA2NCA2NCAwIDAtNjQtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-progress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-progress.svg)
  */
 const ArrowProgress: typeof Icon = x => (
     <Icon {...x}>

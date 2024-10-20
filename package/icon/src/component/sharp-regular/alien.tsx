@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `alien` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alien?s=sharp-regular alien}
- * @preview ![alien](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ4QzEyNi44IDQ4IDQ4IDEyNi44IDQ4IDIyNGMwIDY3LjIgNDMuMyAxMjcuMiA5NiAxNzQuMmMyNS41IDIyLjggNTEuMiA0MC43IDcwLjYgNTNjMy4zIDIuMSA2LjUgNCA5LjQgNS44YzIuOS0xLjggNi0zLjcgOS40LTUuOGMxOS40LTEyLjMgNDUuMS0zMC4yIDcwLjYtNTNjNTIuNy00NyA5Ni0xMDYuOSA5Ni0xNzQuMmMwLTk3LjItNzguOC0xNzYtMTc2LTE3NnpNMCAyMjRDMCAxMDAuMyAxMDAuMyAwIDIyNCAwUzQ0OCAxMDAuMyA0NDggMjI0YzAgMTc2LTIyNCAyODgtMjI0IDI4OFMwIDQwMCAwIDIyNHptMjQwIDgwYzAtNDQuMiAzNS44LTgwIDgwLTgwbDQ4IDAgMCAxNmMwIDQ0LjItMzUuOCA4MC04MCA4MGwtNDggMCAwLTE2ek0xMjggMjI0YzQ0LjIgMCA4MCAzNS44IDgwIDgwbDAgMTYtNDggMGMtNDQuMiAwLTgwLTM1LjgtODAtODBsMC0xNiA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![alien](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/alien.svg)
  */
 const Alien: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

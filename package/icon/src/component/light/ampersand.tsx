@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ampersand` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ampersand?s=light ampersand}
- * @preview ![ampersand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc1LjIgNjRsMzMuOSAwYzM0LjcgMCA2Mi45IDI4LjIgNjIuOSA2Mi45YzAgMjAuNS0xMCAzOS44LTI2LjggNTEuNUwxODEuNiAyMjNsLTUxLjEtNTEuMUMxMTguNyAxNjAgMTEyIDE0NCAxMTIgMTI3LjJDMTEyIDkyLjMgMTQwLjMgNjQgMTc1LjIgNjR6bTI5LjQgMTgxLjlsNTktNDEuM2MyNS40LTE3LjggNDAuNS00Ni44IDQwLjUtNzcuOEMzMDQgNzQuNSAyNjEuNSAzMiAyMDkuMSAzMmwtMzMuOSAwQzEyMi42IDMyIDgwIDc0LjYgODAgMTI3LjJjMCAyNS4yIDEwIDQ5LjUgMjcuOSA2Ny4zTDE1NSAyNDEuNiA3Mi45IDI5OUM0Ny4zIDMxNyAzMiAzNDYuMyAzMiAzNzcuN2wwIDYuM2MwIDUzIDQzIDk2IDk2IDk2bDgwIDBjMzUuMyAwIDY4LjQtMTYuNiA4OS42LTQ0LjhsMjEuOC0yOS4xIDY5LjIgNjkuMmM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMHM2LjItMTYuNCAwLTIyLjZsLTcyLjUtNzIuNSA3NC05OC42YzUuMy03LjEgMy45LTE3LjEtMy4yLTIyLjRzLTE3LjEtMy45LTIyLjQgMy4ybC03MS4yIDk1TDIwNC42IDI0NS45em0tMjYuNiAxOC42TDI5Ni42IDM4My4yIDI3MiA0MTZjLTE1LjEgMjAuMS0zOC44IDMyLTY0IDMybC04MCAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTYuM2MwLTIwLjkgMTAuMi00MC41IDI3LjMtNTIuNGw4Ni42LTYwLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ampersand.svg)
  */
 const Ampersand: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `angle-90` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angle-90?s=thin angle-90}
- * @preview ![angle-90](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDBjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhMMCA0NzJjMCA0LjQgMy42IDggOCA4bDQzMiAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04TDE2IDQ2NCAxNiA0MHpNMTgzLjggMTU0Yy0zNC4yLTE1LjctNzItMjQuOC0xMTEuOC0yNS45Yy00LjQtLjEtOCAzLjUtOCA3LjlzMy42IDggOCA4LjFjMzcuMyAxLjEgNzIuNyA5LjcgMTA0LjggMjQuM2MzLjggMS43IDguMiAuNCAxMC40LTMuMWMyLjUtNCAxLTkuMy0zLjMtMTEuM3pNMjg4LjQgMjYyLjJjMi41IDMuNiA3LjMgNC43IDExIDIuNGMzLjgtMi40IDUtNy40IDIuNC0xMS4xYy0yMC4yLTI5LjYtNDUuOC01NS4yLTc1LjQtNzUuNGMtMy43LTIuNS04LjctMS40LTExLjEgMi40Yy0yLjMgMy43LTEuMiA4LjYgMi40IDExYzI3LjcgMTkgNTEuNiA0MyA3MC42IDcwLjZ6bTIzLjIgNDFjMTQuNiAzMi4xIDIzLjIgNjcuNSAyNC4zIDEwNC44Yy4xIDQuNCAzLjcgOCA4LjEgOHM4LTMuNiA3LjktOGMtMS4xLTM5LjgtMTAuMy03Ny42LTI1LjktMTExLjhjLTItNC4zLTcuMy01LjgtMTEuMy0zLjNjLTMuNSAyLjItNC44IDYuNi0zLjEgMTAuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![angle-90](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/angle-90.svg)
  */
 const Angle_90: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

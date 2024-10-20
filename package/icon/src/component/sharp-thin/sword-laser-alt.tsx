@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sword-laser-alt` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sword-laser-alt?s=sharp-thin sword-laser-alt}
- * @preview ![sword-laser-alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ5LjkgMjI0bC0yMS4zIDBMNDkwLjEgNDAuNyA0NzEuMyAyMS45IDI0MS45IDIyNGwtMjQuMiAwTDQ3MiAwbDQwIDQwTDM0OS45IDIyNHpNMTA3LjMgNTAwLjdMOTYgNTEyIDg0LjcgNTAwLjcgMTEuMyA0MjcuMyAwIDQxNmwxMS4zLTExLjNMMTYwIDI1NmwxNjkuNCAwIDIyLjYgMC0xNiAxNkwxMDcuMyA1MDAuN3pNOTYgNDg5LjRsODEuNS04MS41Yy0yLjUgLjUtNS4yLS4yLTcuMi0yLjJMMTQ0IDM3OS4zbC03OSA3OSAzMSAzMXpNMzEzLjQgMjcybC0xNDYuNyAwLTU2LjEgNTYuMWMyLjUtLjUgNS4yIC4yIDcuMiAyLjJsMzIgMzIgMzIgMzJjMS45IDIgMi43IDQuNyAyLjIgNy4yTDMxMy40IDI3MnpNMjIuNiA0MTZsMzEgMzEgNzktNzktMjYuMy0yNi4zYy0xLjktMi0yLjctNC43LTIuMi03LjJMMjIuNiA0MTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sword-laser-alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sword-laser-alt.svg)
  */
 const SwordLaserAlt: typeof Icon = x => (
     <Icon {...x}>

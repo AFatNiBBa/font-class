@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-up-big-small` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-big-small?s=sharp-regular arrow-up-big-small}
- * @preview ![arrow-up-big-small](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDIwOGwwLTEyOCAxMjggMCAwIDEyOC0xMjggMHptLTQ4IDQ4bDQ4IDAgMTI4IDAgNDggMCAwLTQ4IDAtMTI4IDAtNDgtNDggMEwzNjggMzJsLTQ4IDAgMCA0OCAwIDEyOCAwIDQ4ek0xNjAgMzMuM2wtMTcgMTctOTYgOTYtMTcgMTdMNjQgMTk3LjFsMTctMTcgNTUtNTVMMTM2IDQ1NmwwIDI0IDQ4IDAgMC0yNCAwLTMzMC45IDU1IDU1IDE3IDE3IDMzLjktMzMuOS0xNy0xNy05Ni05Ni0xNy0xN3pNNDMyIDQzMmwtNjQgMCAwLTY0IDY0IDAgMCA2NHptLTY0IDQ4bDY0IDAgNDggMCAwLTQ4IDAtNjQgMC00OC00OCAwLTY0IDAtNDggMCAwIDQ4IDAgNjQgMCA0OCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-up-big-small](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-up-big-small.svg)
  */
 const ArrowUpBigSmall: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

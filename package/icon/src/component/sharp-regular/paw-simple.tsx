@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paw-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paw-simple?s=sharp-regular paw-simple}
- * @preview ![paw-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDgwQTQ4IDQ4IDAgMSAwIDk2IDgwYTQ4IDQ4IDAgMSAwIDk2IDB6TTEzOS41IDMyNC41bDEwLjEtMTguMkwyMDQuMiAyMDhsMzkuNSAwIDU0LjYgOTguMyAxMC4xIDE4LjIgMjAuMiA1YzIyLjYgNS43IDM5LjMgMjYuMiAzOS4zIDUwLjVjMCAyOC43LTIzLjMgNTItNTIgNTJjLTEyLjkgMC0yNC43LTQuNy0zMy44LTEyLjVMMjY4LjcgNDA4IDI1MSA0MDhsLTU0IDAtMTcuNyAwLTEzLjUgMTEuNWMtOS4xIDcuOC0yMC44IDEyLjUtMzMuOCAxMi41Yy0yOC43IDAtNTItMjMuMy01Mi01MmMwLTI0LjMgMTYuNy00NC44IDM5LjMtNTAuNWwyMC4yLTV6TTE3NiAxNjBMMTA3LjcgMjgzQzY0LjIgMjkzLjggMzIgMzMzLjIgMzIgMzgwYzAgNTUuMiA0NC44IDEwMCAxMDAgMTAwYzI0LjggMCA0Ny41LTkgNjUtMjRsNTQgMGMxNy41IDE1IDQwLjIgMjQgNjUgMjRjNTUuMiAwIDEwMC00NC44IDEwMC0xMDBjMC00Ni44LTMyLjItODYuMi03NS43LTk3TDI3MiAxNjBsLTk2IDB6bTEyOC0zMmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bTE0NCA2NGE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwek00OCAyNDBhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![paw-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/paw-simple.svg)
  */
 const PawSimple: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

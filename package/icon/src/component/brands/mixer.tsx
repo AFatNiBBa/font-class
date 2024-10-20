@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mixer` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mixer?s=brands mixer}
- * @preview ![mixer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE0LjU3LDc2LjA3YTQ1LjcxLDQ1LjcxLDAsMCwwLTY3LjUxLTYuNDFjLTE3LjU4LDE2LjE4LTE5LDQzLjUyLTQuNzUsNjIuNzdsOTEuNzgsMTIzTDQxLjc2LDM3OS41OGMtMTQuMjMsMTkuMjUtMTMuMTEsNDYuNTksNC43NCw2Mi43N0E0NS43MSw0NS43MSwwLDAsMCwxMTQsNDM1Ljk0TDI0Mi44OSwyNjIuN2ExMi4xNCwxMi4xNCwwLDAsMCwwLTE0LjIzWk00NzAuMjQsMzc5LjU4LDM3Ny45MSwyNTUuNDVsOTEuNzgtMTIzYzE0LjIyLTE5LjI1LDEyLjgzLTQ2LjU5LTQuNzUtNjIuNzdhNDUuNzEsNDUuNzEsMCwwLDAtNjcuNTEsNi40MWwtMTI4LDE3Mi4xMmExMi4xNCwxMi4xNCwwLDAsMCwwLDE0LjIzTDM5OCw0MzUuOTRhNDUuNzEsNDUuNzEsMCwwLDAsNjcuNTEsNi40MUM0ODMuMzUsNDI2LjE3LDQ4NC40NywzOTguODMsNDcwLjI0LDM3OS41OFoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mixer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/mixer.svg)
  */
 const Mixer: typeof Icon = x => (
     <Icon {...x}>

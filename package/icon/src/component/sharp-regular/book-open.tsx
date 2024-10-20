@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-open` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-open?s=sharp-regular book-open}
- * @preview ![book-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDQ4MHMtNjQuNy0zOC44LTE0NC00MGMtMjguNy0uNC02Ni40IDYtOTYgMTIuNEMyMC41IDQ1OC4yIDAgNDY0IDAgNDY0bDAtNDkuN0wwIDcyczY0LTQwIDE2MC00MGM3MiAwIDEyOCAyNCAxMjggMjRzNjQtMjQgMTI4LTI0Yzk2IDAgMTYwIDQwIDE2MCA0MGwwIDM0Mi4zIDAgNDkuN3MtMjAuNS01LjgtNDgtMTEuNmMtMjkuNi02LjMtNjcuMy0xMi44LTk2LTEyLjRjLTc5LjMgMS4yLTE0NCA0MC0xNDQgNDB6bTI0MC03Ni43bDAtMzAxLjVjLTMuNy0xLjUtNy43LTMuMS0xMi4xLTQuN0M0OTEuOCA4OC42IDQ1Ny40IDgwIDQxNiA4MGMtMjYuNiAwLTU0LjMgNS4xLTc2LjQgMTAuNmMtMTAuOCAyLjctMTkuOCA1LjQtMjYgNy40Yy0uNiAuMi0xLjIgLjQtMS43IC41TDMxMiA0MTZjLjQtLjIgLjktLjMgMS4zLS41YzI5LjMtMTEuMSA3MS0yMi44IDExOC0yMy41YzMxLS41IDY4IDUuNSA5Ni43IDExLjN6TTI2NCA0MTZsMC0zMTcuOWMtLjYtLjItMS4yLS40LTEuOS0uN2MtNS4zLTEuOS0xMy4yLTQuNS0yMy4zLTcuMUMyMTguNyA4NS4yIDE5MC44IDgwIDE2MCA4MGMtNDEuNCAwLTc1LjggOC42LTk5LjkgMTcuMmMtNC40IDEuNi04LjUgMy4yLTEyLjEgNC43bDAgMzAxLjVjMjguOC01LjggNjUuOC0xMS44IDk2LjctMTEuM2M0NyAuNyA4OC42IDEyLjUgMTE4IDIzLjVjLjQgLjIgLjkgLjMgMS4zIC41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/book-open.svg)
  */
 const BookOpen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

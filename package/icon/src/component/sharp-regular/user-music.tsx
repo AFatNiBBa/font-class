@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-music` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-music?s=sharp-regular user-music}
- * @preview ![user-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDEyOGE4MCA4MCAwIDEgMCAtMTYwIDAgODAgODAgMCAxIDAgMTYwIDB6TTk2IDEyOGExMjggMTI4IDAgMSAxIDI1NiAwQTEyOCAxMjggMCAxIDEgOTYgMTI4ek02NSA0NjRsMjIzIDBjMCAxOS4xIDcuOCAzNS40IDE5LjEgNDhMNTAuMiA1MTIgMCA1MTJsMTQuOC00OEw2NCAzMDRsMzA0IDAgMCA4MC45Yy0zIC40LTUuOSAuOS04LjggMS42TDM0OC41IDM1MiA5OS41IDM1MiA2NSA0NjR6TTY0MCAxNTJsMCAzMy4zIDAgNDggMCAxNjBjMCAxLS4xIDIuMS0uMiAzYy4xIDEuMiAuMiAyLjUgLjIgMy43YzAgMjYuNS0yOC43IDQ4LTY0IDQ4cy02NC0yMS41LTY0LTQ4czI4LjctNDggNjQtNDhjNS41IDAgMTAuOSAuNSAxNiAxLjVsMC04Ny0xNDQgNDggMCAxNDkuNSAwIDEuMmMwIDEuOC0uMiAzLjUtLjYgNS4yYy00LjIgMjMuNS0zMSA0MS42LTYzLjQgNDEuNmMtMzUuMyAwLTY0LTIxLjUtNjQtNDhzMjguNy00OCA2NC00OGM1LjUgMCAxMC45IC41IDE2IDEuNWwwLTEyMC4zIDAtNDggMC0xNy4zIDE2LjQtNS41IDE5Mi02NEw2NDAgMTUyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-music.svg)
  */
 const UserMusic: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

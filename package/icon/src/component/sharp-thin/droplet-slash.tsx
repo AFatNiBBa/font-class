@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `droplet-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-slash?s=sharp-thin droplet-slash}
- * @preview ![droplet-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQzLjYgNDQ1LjNDNDExLjggNDc2LjcgMzY4LjIgNDk2IDMyMCA0OTZjLTk3LjIgMC0xNzYtNzguOC0xNzYtMTc2YzAtMjIuNSAxMC41LTUyLjkgMjguMi04Ny40bC42LTEuMUwxNjAgMjIxLjRjLTE5LjEgMzYuNC0zMiA3MS4xLTMyIDk4LjZjMCAxMDYgODYgMTkyIDE5MiAxOTJjNTMuMyAwIDEwMS41LTIxLjcgMTM2LjItNTYuN2wtMTIuNi0xMHpNMzA5LjQgMTIuMWMtMTQuNCAxNi43LTQxLjYgNDkuMS03MC42IDg4bDEyLjYgOS45YzE4LjgtMjUuMSAzNi44LTQ3LjYgNTEtNjQuN2M2LjktOC4zIDEyLjktMTUuNCAxNy43LTIxYzQuOCA1LjYgMTAuOCAxMi42IDE3LjcgMjFjMTcuOCAyMS41IDQxLjYgNTEuMyA2NS4zIDg0LjNjMjMuOCAzMyA0Ny4zIDY5IDY0LjggMTAzYzEzLjMgMjUuOSAyMi41IDQ5LjUgMjYuMyA2OS4xbDE3LjggMTQuMUM1MDcuNyAyMjMuOSAzNzAuMyA1OC4yIDMzMC42IDEyLjFDMzIzLjkgNC40IDMyMCAwIDMyMCAwcy0zLjkgNC40LTEwLjYgMTIuMXpNMzIwIDQwOGMtNDguNiAwLTg4LTM5LjQtODgtODhsLTE2IDBjMCA1Ny40IDQ2LjYgMTA0IDEwNCAxMDRsMC0xNnpNMTYuMiA1TDkuOSAwIDAgMTIuNWw2LjMgNUw2MjMuOCA1MDdsNi4zIDUgOS45LTEyLjUtNi4zLTVMMTYuMiA1eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![droplet-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/droplet-slash.svg)
  */
 const DropletSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

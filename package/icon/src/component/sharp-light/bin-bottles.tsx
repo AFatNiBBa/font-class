@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bin-bottles` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-bottles?s=sharp-light bin-bottles}
- * @preview ![bin-bottles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDBsMCAzMiAxNiAwIDk2IDAgMTYgMCAwLTMyTDQ5NiAwIDQwMCAwIDM4NCAwek0zNTIgMTkybDAtMi41czAgMCAwIDBsMC00NS41LS40LS4yLTMyLTE2TDI1NiA5NiAxMjggOTYgMzIgMTQ0bDAgNDggMzIgMCAwLTI4LjJMMTM1LjYgMTI4bDExMi45IDAgNzEuMiAzNS42IDAgMjguNGMwIDAgMCAwIDAgLjFsLjQgMCAzMiAwem0yMjMuNiAwYzAgMCAwIDAgMC0uMWwwLTMxLjkgMC02NS45TDUxMS4zIDY0IDM4My45IDY0IDMyMS44IDkzLjFsMzYuNSAxOC4yTDM5MSA5NmwxMTMuMiAwIDM5LjQgMTguNSAwIDcxLjljLS4zIDEuOC0uNSAzLjctLjUgNS42bDMyIDAgLjUgMHptMzAuNSA2NGwxLjkgMCAzMiAwIDAtMzItMzIgMC0xLjkgMEw1OTIgMjI0bC0xNC4zIDBMNjIuMyAyMjQgNDggMjI0bC0xNC4xIDBMMzIgMjI0IDAgMjI0bDAgMzIgMzIgMCAxLjkgMEw2NCA1MTJsNTEyIDAgMzAuMS0yNTZ6TTU0Ny41IDQ4MEw5Mi41IDQ4MCA2Ni4xIDI1Nmw1MDcuOCAwTDU0Ny41IDQ4MHpNMTQ0IDBMMTI4IDBsMCAxNiAwIDE2LTE2IDAgMCAzMiAxNiAwIDE2IDAgMTYgMCAwLTE2IDAtMTYgNjQgMCAwIDE2IDAgMTYgMTYgMCAxNiAwIDE2IDAgMC0zMi0xNiAwIDAtMTYgMC0xNkwyNDAgMCAxNDQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bin-bottles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bin-bottles.svg)
  */
 const BinBottles: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

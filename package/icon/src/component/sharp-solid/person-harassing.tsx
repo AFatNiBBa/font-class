@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-harassing` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-harassing?s=sharp-solid person-harassing}
- * @preview ![person-harassing](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDk2YTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnpNNTkuNCAzMDQuNUw4OCAyNTYuOSA4OCA0ODBsMCAzMiA2NCAwIDAtMzIgMC0xMjggMTYgMCAwIDEyOCAwIDMyIDY0IDAgMC0zMiAwLTI0NC40IDYwLjEgNzIuOCA0OS4zLTQwLjgtMTA1LjctMTI4TDIyNi4yIDEyOGwtMTUuMSAwLTEwMi4yIDAtMTguMSAwLTkuMyAxNS41TDQuNiAyNzEuNWw1NC45IDMzek00ODAgMjQwYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6bTE4LjcgNDhsLTkuNCA5LjQtMTYgMTYtOS40IDkuNCAwIDEzLjMgMCA2Ni43LTQxLjQtNDEuNEwzNzIuOSAzNjdsLTQ4IDc2LjgtMTcgMjcuMSA1NC4zIDMzLjkgMTctMjcuMSAyNi43LTQyLjcgNTcuNiA1Ny42YzEyLjQgMTIuNCAyOS4xIDE5LjMgNDYuNiAxOS4zYzM2LjQgMCA2NS45LTI5LjUgNjUuOS02NS45TDU3NiAzMjBsMC0zMi0zMiAwLTMyIDAtMTMuMyAwek0yODggMzJsMCAzMiAxNiAwIDU2IDAgMTYgMCAwLTMyLTE2IDAtNTYgMC0xNiAwem0tLjggNjUuN2wtMTQuMy03LjItMTQuMyAyOC42IDE0LjMgNy4yIDQ4IDI0IDE0LjMgNy4yIDE0LjMtMjguNi0xNC4zLTcuMi00OC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-harassing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-harassing.svg)
  */
 const PersonHarassing: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `billboard` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/billboard?s=sharp-solid billboard}
- * @preview ![billboard](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDMybDAtMzJMMzg0IDBsMCAzMkwyNTYgMzJsMC0zMkwxOTIgMGwwIDMyTDk2IDMyIDMyIDMybDAgNjQgMCAyNTZMMCAzNTJsMCA2NCAzMiAwIDY0IDAgMTkyIDAgMCA2NCAwIDMyIDY0IDAgMC0zMiAwLTY0IDE5MiAwIDY0IDAgMzIgMCAwLTY0LTMyIDAgMC0yNTYgMC02NC02NCAwLTk2IDB6TTM1MiAzNTJsLTY0IDBMOTYgMzUyIDk2IDk2bDk2IDAgMCAzMi0zMiAwIDAgNjQgMzIgMCAzMiAwIDMyIDAgMzIgMCAwLTY0LTMyIDAgMC0zMiAxMjggMCAwIDMyLTMyIDAgMCA2NCAzMiAwIDMyIDAgMzIgMCAzMiAwIDAtNjQtMzIgMCAwLTMyIDk2IDAgMCAyNTYtMTkyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![billboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/billboard.svg)
  */
 const Billboard: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wifi-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-exclamation?s=sharp-light wifi-exclamation}
- * @preview ![wifi-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzM2IDQ4bDAtMTYtMzIgMCAwIDE2IDAgMjQwIDAgMTYgMzIgMCAwLTE2IDAtMjQwek0zLjEgMTYzLjRsMjEuNiAyMy43Qzg5LjQgMTIxLjggMTc1LjcgNzcuOCAyNzIgNjYuN0wyNzIgNDhsMC0xMy41QzE2Ny40IDQ1LjcgNzMuNSA5Mi44IDMuMSAxNjMuNHpNMTEwLjkgMjgybDIxLjYgMjMuOGMzNi40LTM5LjEgODQuOS02Ni45IDEzOS41LTc3LjJsMC0zMi41Yy02MyAxMC42LTExOS4xIDQxLjYtMTYxLjEgODZ6TTM2OCAxOTZsMCAzMi41YzU0LjYgMTAuNCAxMDMuMSAzOC4xIDEzOS41IDc3LjJMNTI5LjEgMjgyQzQ4NyAyMzcuNiA0MzEgMjA2LjUgMzY4IDE5NnptMC0xNDhsMCAxOC43Yzk2LjMgMTEuMSAxODIuNiA1NSAyNDcuNCAxMjAuM2wyMS42LTIzLjdDNTY2LjUgOTIuOCA0NzIuNiA0NS43IDM2OCAzNC41TDM2OCA0OHpNMjg4IDQxNmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem05NiAwYTY0IDY0IDAgMSAwIC0xMjggMCA2NCA2NCAwIDEgMCAxMjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wifi-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/wifi-exclamation.svg)
  */
 const WifiExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

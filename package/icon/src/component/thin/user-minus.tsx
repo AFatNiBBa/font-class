@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-minus?s=thin user-minus}
- * @preview ![user-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE2YTExMiAxMTIgMCAxIDEgMCAyMjQgMTEyIDExMiAwIDEgMSAwLTIyNHptMCAyNDBBMTI4IDEyOCAwIDEgMCAyMjQgMGExMjggMTI4IDAgMSAwIDAgMjU2em0tNDUuNyA2NGw5MS40IDBDMzU5LjMgMzIwIDQzMiAzOTIuNyA0MzIgNDgyLjNjMCA3LjYtNi4xIDEzLjctMTMuNyAxMy43TDI5LjcgNDk2Yy03LjYgMC0xMy43LTYuMS0xMy43LTEzLjdDMTYgMzkyLjcgODguNyAzMjAgMTc4LjMgMzIwem0wLTE2Qzc5LjggMzA0IDAgMzgzLjggMCA0ODIuM0MwIDQ5OC43IDEzLjMgNTEyIDI5LjcgNTEybDM4OC42IDBjMTYuNCAwIDI5LjctMTMuMyAyOS43LTI5LjdDNDQ4IDM4My44IDM2OC4yIDMwNCAyNjkuNyAzMDRsLTkxLjQgMHpNNDMyIDIwMGMtNC40IDAtOCAzLjYtOCA4czMuNiA4IDggOGwxOTIgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtMTkyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![user-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-minus.svg)
  */
 const UserMinus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

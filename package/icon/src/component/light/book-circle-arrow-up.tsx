@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-circle-arrow-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-circle-arrow-up?s=light book-circle-arrow-up}
- * @preview ![book-circle-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDhzMCAwIDAgMGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMzAuOCAwYy0xMi45LTkuMS0yNC41LTE5LjktMzQuNi0zMkw2NCA0ODBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMjYyLjYgMGMtMi45LTEwLjMtNC45LTIxLTUuOS0zMkw2NCAzODRjLTExLjcgMC0yMi42IDMuMS0zMiA4LjZMMzIgNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMzM2IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMTYzLjJjMTAuMS01LjIgMjAuOC05LjQgMzItMTIuNkw0NDggNDhjMC0yNi41LTIxLjUtNDgtNDgtNDhMNjQgMHpNMzg0IDM2OGExMTIgMTEyIDAgMSAxIDIyNCAwIDExMiAxMTIgMCAxIDEgLTIyNCAwem0yNTYgMGExNDQgMTQ0IDAgMSAwIC0yODggMCAxNDQgMTQ0IDAgMSAwIDI4OCAwem0tMjExLjMgMy4zYzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwTDQ4MCAzNDIuNmwwIDg5LjRjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTg5LjQgMjguNyAyOC43YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwczYuMi0xNi40IDAtMjIuNmwtNTYtNTZjLTYuMi02LjItMTYuNC02LjItMjIuNiAwbC01NiA1NmMtNi4yIDYuMi02LjIgMTYuNCAwIDIyLjZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![book-circle-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/book-circle-arrow-up.svg)
  */
 const BookCircleArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

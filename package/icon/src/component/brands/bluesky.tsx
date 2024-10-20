@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bluesky` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bluesky?s=brands bluesky}
- * @preview ![bluesky](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA3LjggMjk0LjdjLTMuMy0uNC02LjctLjgtMTAtMS4zYzMuNCAuNCA2LjcgLjkgMTAgMS4zek0yODggMjI3LjFDMjYxLjkgMTc2LjQgMTkwLjkgODEuOSAxMjQuOSAzNS4zQzYxLjYtOS40IDM3LjUtMS43IDIxLjYgNS41QzMuMyAxMy44IDAgNDEuOSAwIDU4LjRTOS4xIDE5NCAxNSAyMTMuOWMxOS41IDY1LjcgODkuMSA4Ny45IDE1My4yIDgwLjdjMy4zLS41IDYuNi0uOSAxMC0xLjRjLTMuMyAuNS02LjYgMS0xMCAxLjRDNzQuMyAzMDguNi05LjEgMzQyLjggMTAwLjMgNDY0LjVDMjIwLjYgNTg5LjEgMjY1LjEgNDM3LjggMjg4IDM2MS4xYzIyLjkgNzYuNyA0OS4yIDIyMi41IDE4NS42IDEwMy40YzEwMi40LTEwMy40IDI4LjEtMTU2LTY1LjgtMTY5LjljLTMuMy0uNC02LjctLjgtMTAtMS4zYzMuNCAuNCA2LjcgLjkgMTAgMS4zYzY0LjEgNy4xIDEzMy42LTE1LjEgMTUzLjItODAuN0M1NjYuOSAxOTQgNTc2IDc1IDU3NiA1OC40cy0zLjMtNDQuNy0yMS42LTUyLjljLTE1LjgtNy4xLTQwLTE0LjktMTAzLjIgMjkuOEMzODUuMSA4MS45IDMxNC4xIDE3Ni40IDI4OCAyMjcuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bluesky](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/bluesky.svg)
  */
 const Bluesky: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

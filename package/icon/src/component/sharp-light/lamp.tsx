@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lamp` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp?s=sharp-light lamp}
- * @preview ![lamp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQuMiAyNTZMMCAyNTZsMTItMzJMOTYgMCAzNTIgMGw4NCAyMjQgMTIgMzItMzQuMiAwTDM0LjIgMjU2em0xMi0zMmwzNTUuNiAwLTcyLTE5MkwxMTguMiAzMmwtNzIgMTkyek0xNjAgMzIwbDAtMzIgMzIgMCAwIDMyIDAgMTUuNS0xMi4xIDkuNnMwIDAgMCAwbC0uMyAuMmMtLjMgLjItLjggLjctMS41IDEuM2MtMS40IDEuMi0zLjUgMy02LjEgNS41Yy01LjIgNC45LTEyLjEgMTItMTguOSAyMC43QzEzOC44IDM5MC45IDEyOCA0MTEuOSAxMjggNDMyYzAgMTYuOCA1LjYgMzEuNCAxMS44IDQyLjFjMS4yIDIuMiAyLjUgNC4xIDMuNiA1LjlsMTYxLjIgMGMxLjItMS44IDIuNC0zLjcgMy42LTUuOWM2LjItMTAuOCAxMS44LTI1LjMgMTEuOC00Mi4xYzAtMjAuMS0xMC44LTQxLjEtMjUuMS01OS4zYy02LjgtOC43LTEzLjctMTUuOC0xOC45LTIwLjdjLTIuNi0yLjQtNC43LTQuMy02LjEtNS41Yy0uNy0uNi0xLjItMS0xLjUtMS4zbC0uMy0uMnMwIDAgMCAwTDI1NiAzMzUuNWwwLTE1LjUgMC0zMiAzMiAwIDAgMzJzNjQgNTAuNSA2NCAxMTJjMCA0OC0zMiA4MC0zMiA4MGwtMTkyIDBzLTMyLTMyLTMyLTgwYzAtNjEuNSA2NC0xMTIgNjQtMTEyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lamp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lamp.svg)
  */
 const Lamp: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

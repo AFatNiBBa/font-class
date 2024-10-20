@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circles-overlap` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circles-overlap?s=light circles-overlap}
- * @preview ![circles-overlap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyIDQxNS44Yy0yNS4yLTM2LjItNDAtODAuMy00MC0xMjcuOGMwLTk5LjEgNjQuMy0xODMuMSAxNTMuNS0yMTIuN0MzMTIuNCA0OC4yIDI3MC4xIDMyIDIyNCAzMkMxMTggMzIgMzIgMTE4IDMyIDIyNHM4NiAxOTIgMTkyIDE5MmMyLjcgMCA1LjQtLjEgOC0uMnptMzYuNC01QzM1MyAzOTAuOCA0MTYgMzE0LjcgNDE2IDIyNGMwLTQ2LjctMTYuNy04OS41LTQ0LjQtMTIyLjhDMjg3IDEyMS4yIDIyNCAxOTcuMyAyMjQgMjg4YzAgNDYuNyAxNi43IDg5LjUgNDQuNCAxMjIuOHptLTExLjYgMzQuOGMtMTAuNyAxLjYtMjEuNyAyLjQtMzIuOCAyLjRDMTAwLjMgNDQ4IDAgMzQ3LjcgMCAyMjRTMTAwLjMgMCAyMjQgMGM2Mi4zIDAgMTE4LjYgMjUuNCAxNTkuMiA2Ni40QzM5My45IDY0LjggNDA0LjggNjQgNDE2IDY0YzEyMy43IDAgMjI0IDEwMC4zIDIyNCAyMjRzLTEwMC4zIDIyNC0yMjQgMjI0Yy02Mi4zIDAtMTE4LjYtMjUuNC0xNTkuMi02Ni40ek00MDggOTYuMmMyNS4yIDM2LjMgNDAgODAuMyA0MCAxMjcuOGMwIDk5LjEtNjQuMyAxODMuMS0xNTMuNSAyMTIuN0MzMjcuNiA0NjMuOCAzNjkuOSA0ODAgNDE2IDQ4MGMxMDYgMCAxOTItODYgMTkyLTE5MnMtODYtMTkyLTE5Mi0xOTJjLTIuNyAwLTUuNCAuMS04IC4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circles-overlap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circles-overlap.svg)
  */
 const CirclesOverlap: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

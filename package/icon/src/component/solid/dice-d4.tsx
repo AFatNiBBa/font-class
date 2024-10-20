@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dice-d4` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d4?s=solid dice-d4}
- * @preview ![dice-d4](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI4LjggLjdDMjM1LjUgMi44IDI0MCA5IDI0MCAxNmwwIDQ4MGMwIDYuMy0zLjcgMTItOS40IDE0LjZzLTEyLjUgMS42LTE3LjItMi42TDUuNCAzMjRjLTYuMS01LjQtNy4yLTE0LjUtMi41LTIxLjJsMjA4LTI5NmM0LTUuNyAxMS4zLTguMiAxNy45LTYuMXptNTQuNCAwYzYuNy0yLjEgMTMuOSAuMyAxNy45IDYuMWwyMDggMjk2YzQuNyA2LjcgMy42IDE1LjgtMi41IDIxLjJsLTIwOCAxODRjLTQuNyA0LjItMTEuNCA1LjItMTcuMiAyLjZzLTkuNC04LjMtOS40LTE0LjZsMC00ODBjMC03IDQuNS0xMy4yIDExLjItMTUuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dice-d4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dice-d4.svg)
  */
 const DiceD4: typeof Icon = x => (
     <Icon {...x}>

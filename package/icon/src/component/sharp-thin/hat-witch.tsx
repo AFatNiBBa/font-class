@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hat-witch` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-witch?s=sharp-thin hat-witch}
- * @preview ![hat-witch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDE3NmwyMi4xIDMzLjFMNTEyIDIyNGw4LjktMTUuNUw1NzYgMTEyIDQ0OCAwIDIwOCAxMjggOTYgMzg0bDE3LjUgMCAxMDctMjQ0LjVMNDQ1LjggMTkuM2wxMDkuOCA5Ni4xTDUxMSAxOTMuNmwtMTcuNi0yNi41LTQuNy03LjEtOC42IDAtNDggMC05LjkgMC00LjQgOC44LTE2IDMyLTMuMSA2LjIgMi40IDYuNUw0NjMgMzg0bDE3IDBMNDE2IDIwOGwxNi0zMiA0OCAwek0yNDAgMzM2bDk2IDAgMCA0OCAxNiAwIDAtNDggMC0xNi0xNiAwLTk2IDAtMTYgMCAwIDE2IDAgNDggMTYgMCAwLTQ4em0zMjAgOTZsMCA2LjFMNDQ0LjIgNDk2bC0zMTIuNCAwTDE2IDQzOC4xbDAtNi4xIDU0NCAwem0wLTE2TDE2IDQxNiAwIDQxNmwwIDE2IDAgMTYgMTI4IDY0IDMyMCAwIDEyOC02NCAwLTE2IDAtMTYtMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hat-witch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hat-witch.svg)
  */
 const HatWitch: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

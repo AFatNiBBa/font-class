@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scarf` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scarf?s=sharp-solid scarf}
- * @preview ![scarf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTg0IDBsLTguNyAwLTQuNyA3LjMtNzIgMTEyLTIuNSA0IDAgNC43IDAgODAgMCA2LjYgNC43IDQuNyAxNzYgMTc2IDExMiAxMTIgMjIuNi0yMi42TDMxMC42IDM4NCAzMzYgMzU4LjYgNDM2LjcgNDU5LjNsMjIuNi0yMi42TDM1OC42IDMzNiAzODQgMzEwLjYgNDg0LjcgNDExLjNsMjIuNi0yMi42LTExMi0xMTJMMzg0IDI2NS40bC05LjQtOS40TDI1NiAxMzcuNCAyMTQuNiA5NiAyNTYgOTZsNDEuNCAwLTE4LjcgMTguN0wzOTcuMyAyMzMuNGwxNC4xLTE0LjEgNC43LTQuNyAwLTYuNiAwLTgwIDAtNC43LTIuNS00LTcyLTExMkwzMzYuNyAwIDMyOCAwIDE4NCAwek00LjcgMzg4LjdsMjIuNiAyMi42IDExMi0xMTItMjIuNi0yMi42LTExMiAxMTJ6bTQ4IDQ4bDIyLjYgMjIuNiAxMTItMTEyLTIyLjYtMjIuNi0xMTIgMTEyem00OCA0OGwyMi42IDIyLjYgMTEyLTExMi0yMi42LTIyLjYtMTEyIDExMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scarf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/scarf.svg)
  */
 const Scarf: typeof Icon = x => (
     <Icon {...x}>

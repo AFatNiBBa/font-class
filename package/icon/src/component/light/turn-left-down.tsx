@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-left-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left-down?s=light turn-left-down}
- * @preview ![turn-left-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDM1Mmw1Ny4zIDBjMy43IDAgNi43IDMgNi43IDYuN2MwIDEuOS0uOCAzLjctMi4yIDVMMTkyIDQ3Ni4yIDY2LjIgMzYzLjdjLTEuNC0xLjMtMi4yLTMuMS0yLjItNWMwLTMuNyAzLTYuNyA2LjctNi43bDU3LjMgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTE3NmMwLTYxLjkgNTAuMS0xMTIgMTEyLTExMmw2NCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyYzAgOC44LTcuMiAxNi0xNiAxNmwtNjQgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAxNzZjMCAxNy43IDE0LjMgMzIgMzIgMzJ6TTE3OCA1MDYuN2MzLjggMy40IDguOCA1LjMgMTQgNS4zczEwLjEtMS45IDE0LTUuM0wzMzkuMSAzODcuNWM4LjItNy4zIDEyLjktMTcuOCAxMi45LTI4LjhjMC0yMS40LTE3LjMtMzguNy0zOC43LTM4LjdMMjg4IDMyMGwtMzIgMCAwLTMyIDAtMTQ0YzAtOC44IDcuMi0xNiAxNi0xNmw2NCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMzJjMC0yNi41LTIxLjUtNDgtNDgtNDhMMjcyIDBDMTkyLjUgMCAxMjggNjQuNSAxMjggMTQ0bDAgMTQ0IDAgMzItMzIgMC0yNS4zIDBDNDkuMyAzMjAgMzIgMzM3LjMgMzIgMzU4LjdjMCAxMSA0LjcgMjEuNSAxMi45IDI4LjhMMTc4IDUwNi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![turn-left-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/turn-left-down.svg)
  */
 const TurnLeftDown: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

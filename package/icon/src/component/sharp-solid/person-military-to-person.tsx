@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-military-to-person` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-military-to-person?s=sharp-solid person-military-to-person}
- * @preview ![person-military-to-person](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAwIDBMNTYgMTQuMWwwIDMyIDE0NCAwTDIwMCAwek0xODkuNSA3OC4xbC0xMjIuOSAwQzY0LjkgODMuOCA2NCA4OS44IDY0IDk2YzAgMzUuMyAyOC43IDY0IDY0IDY0czY0LTI4LjcgNjQtNjRjMC02LjItLjktMTIuMi0yLjUtMTcuOXpNMTkyIDE5Mkw4My44IDE5MiAyMTcuOCAyOTUgMTkyIDE5MnpNMzIgMzIwbDE2NS44IDBMNTguNyAyMTMuMSAzMiAzMjB6TTM4NCAxNjBhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6bTk2IDE2MEw0NDggMTkybC0xMjggMEwyODggMzIwbDE5MiAwek0yNzIgNDMybDk2IDgwIDE2IDAgMC01NiAxMDQgMCAyNCAwIDAtNDgtMjQgMC0xMDQgMCAwLTU2LTE2IDAtOTYgODB6TTEyOCAzNTJsMCA1NkwyNCA0MDggMCA0MDhsMCA0OCAyNCAwIDEwNCAwIDAgNTYgMTYgMCA5Ni04MC05Ni04MC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-military-to-person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-military-to-person.svg)
  */
 const PersonMilitaryToPerson: typeof Icon = x => (
     <Icon {...x}>

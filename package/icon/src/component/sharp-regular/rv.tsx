@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rv` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rv?s=sharp-regular rv}
- * @preview ![rv](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBMMzg0IDBsMCAzMiAyMDAgMCAyNCAwIDAgMjQgMCAxMjggMCAyNC0yNCAwLTEwLjYgMCA1Ny40IDQ1LjEgOS4yIDcuMiAwIDExLjcgMCAxMjAgMCAyNC0yNCAwLTQxLjYgMGMxIDUuMiAxLjYgMTAuNSAxLjYgMTZjMCA0NC4yLTM1LjggODAtODAgODBzLTgwLTM1LjgtODAtODBjMC01LjUgLjYtMTAuOCAxLjYtMTZsLTkuNiAwLTE1My42IDBjMSA1LjIgMS42IDEwLjUgMS42IDE2YzAgNDQuMi0zNS44IDgwLTgwIDgwcy04MC0zNS44LTgwLTgwYzAtNi44IC44LTEzLjQgMi40LTE5LjZMOTUgNDA5IDcgMzIxbC03LTdMMCAzMDQgMCA1NiAwIDMybDI0IDAgMjAwIDAgMC0zMnpNNDMyIDI1NmwxMjQuOCAwLTYxLjEtNDhMNDMyIDIwOGwwIDQ4ek0zODQgMzY4bDAtMTEyIDAtNzIgMC0yNCAyNCAwIDE2IDAgODAgMCA4LjMgMCA0Ny43IDAgMC04MEw0OCA4MGwwIDIxNC4xTDEyMS45IDM2OGw2LjEgMGMxMy40LTEwIDMwLTE2IDQ4LTE2czM0LjYgNiA0OCAxNmwxNjAgMHpNMjA4IDQzMmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0zMjAgMGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwek0yODggMTI4bDAgMTI4TDk2IDI1NmwwLTEyOCAxOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rv.svg)
  */
 const Rv: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

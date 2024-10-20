@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-down-left` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-down-left?s=sharp-thin circle-down-left}
- * @preview ![circle-down-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDE2YTI0MCAyNDAgMCAxIDAgMCA0ODAgMjQwIDI0MCAwIDEgMCAwLTQ4MHptMCA0OTZBMjU2IDI1NiAwIDEgMSAyNTYgMGEyNTYgMjU2IDAgMSAxIDAgNTEyem02MC43LTE3OS4zTDMyOCAzNDRsLTExLjMgMTEuM0wzMDQgMzY4bC0xNDQgMC0xNiAwIDAtMTYgMC0xNDQgMTIuNy0xMi43TDE2OCAxODRsMTEuMyAxMS4zIDI1LjQgMjUuNEwyMTYgMjMybDExLjMtMTEuMyA3My40LTczLjRMMzEyIDEzNmwxMS4zIDExLjMgNDEuNCA0MS40TDM3NiAyMDBsLTExLjMgMTEuMy03My40IDczLjRMMjgwIDI5NmwxMS4zIDExLjMgMjUuNCAyNS40em0tNDgtNDhMMzUzLjQgMjAwIDMxMiAxNTguNmwtODQuNyA4NC43TDIxNiAyNTQuNmwtMTEuMy0xMS4zTDE2OCAyMDYuNmwtOCA4TDE2MCAzNTJsMTM3LjQgMCA4LTgtMzYuNy0zNi43TDI1Ny40IDI5NmwxMS4zLTExLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-down-left.svg)
  */
 const CircleDownLeft: typeof Icon = x => (
     <Icon {...x}>

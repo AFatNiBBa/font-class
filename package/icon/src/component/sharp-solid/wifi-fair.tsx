@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wifi-fair` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-fair?s=sharp-solid wifi-fair}
- * @preview ![wifi-fair](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTcxLjggMzEyYzM5LjUtMzQuOSA5MS4zLTU2IDE0OC4yLTU2czEwOC42IDIxLjEgMTQ4LjIgNTZsNDIuNC00OEM0NTkuOCAyMTkuMiAzOTMgMTkyIDMyMCAxOTJzLTEzOS44IDI3LjItMTkwLjUgNzJsNDIuNCA0OHpNMzIwIDQ4MGE2NCA2NCAwIDEgMCAwLTEyOCA2NCA2NCAwIDEgMCAwIDEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![wifi-fair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wifi-fair.svg)
  */
 const WifiFair: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

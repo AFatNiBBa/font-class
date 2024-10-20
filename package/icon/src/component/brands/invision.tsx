@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `invision` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/invision?s=brands invision}
- * @preview ![invision](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA3LjQgMzJINDAuNkMxOC4yIDMyIDAgNTAuMiAwIDcyLjZ2MzY2LjhDMCA0NjEuOCAxOC4yIDQ4MCA0MC42IDQ4MGgzNjYuOGMyMi40IDAgNDAuNi0xOC4yIDQwLjYtNDAuNlY3Mi42YzAtMjIuNC0xOC4yLTQwLjYtNDAuNi00MC42ek0xNzYuMSAxNDUuNmMuNCAyMy40LTIyLjQgMjcuMy0yNi42IDI3LjQtMTQuOSAwLTI3LjEtMTItMjcuMS0yNyAuMS0zNS4yIDUzLjEtMzUuNSA1My43LS40ek0zMzIuOCAzNzdjLTY1LjYgMC0zNC4xLTc0LTI1LTEwNi42IDE0LjEtNDYuNC00NS4yLTU5LTU5LjkuN2wtMjUuOCAxMDMuM0gxNzdsOC4xLTMyLjVjLTMxLjUgNTEuOC05NC42IDQ0LjQtOTQuNi00LjMuMS0xNC4zLjktMTQgMjMtMTA0LjFIODEuN2w5LjctMzUuNmg3Ni40Yy0zMy42IDEzMy43LTMyLjYgMTI2LjktMzIuOSAxMzguMiAwIDIwLjkgNDAuOSAxMy41IDU3LjQtMjMuMmwxOS44LTc5LjRoLTMyLjNsOS43LTM1LjZoNjguOGwtOC45IDQwLjVjNDAuNS03NS41IDEyNy45LTQ3LjggMTAxLjggMzgtMTQuMiA1MS4xLTE0LjYgNTAuNy0xNC45IDU4LjggMCAxNS41IDE3LjUgMjIuNiAzMS44LTE2LjlMMzg2IDMyNWMtMTAuNSAzNi43LTI5LjQgNTItNTMuMiA1MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![invision](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/invision.svg)
  */
 const Invision: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

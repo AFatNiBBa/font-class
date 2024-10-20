@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `utility-pole` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utility-pole?s=sharp-light utility-pole}
- * @preview ![utility-pole](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDBsMTYgMCA2NCAwIDE2IDAgMCAxNiAwIDgwIDgwIDAgMC00OCAwLTE2IDMyIDAgMCAxNiAwIDQ4IDE1LjggMCAuMyAwTDQ4MCA5NmwwLTQ4IDAtMTYgMzIgMCAwIDE2IDAgNjQgMCAxNi0xNiAwLTU4LjUgMEwzMDQgMjMxLjggMzA0IDQ5NmwwIDE2LTMyIDAgMC0xNiAwLTI3MS44IDAtLjMgMC05NS45LTMyIDAgMCA5NS45IDAgLjNMMjQwIDQ5NmwwIDE2LTMyIDAgMC0xNiAwLTI2NC4yTDc0LjUgMTI4IDE2IDEyOCAwIDEyOGwwLTE2TDAgNDggMCAzMmwzMiAwIDAgMTYgMCA0OCA0Ny45IDAgLjMgMEw5NiA5NmwwLTQ4IDAtMTYgMzIgMCAwIDE2IDAgNDggODAgMCAwLTgwIDAtMTZ6TTEyNi42IDEyOEwyMDggMTkxLjNsMC02My4zLTgxLjQgMHpNMzA0IDE5MS4zTDM4NS40IDEyOCAzMDQgMTI4bDAgNjMuM3pNMjcyIDMybC0zMiAwIDAgNjQgMzIgMCAwLTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![utility-pole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/utility-pole.svg)
  */
 const UtilityPole: typeof Icon = x => (
     <Icon {...x}>

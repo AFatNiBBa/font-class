@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side-mask` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-mask?s=solid head-side-mask}
- * @preview ![head-side-mask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMjI0LjJjMC0yMi4yIDMuMi00My42IDkuMi02My45TDI2Mi4yIDMyMWMtNCA5LjUtNi4yIDIwLTYuMiAzMWwwIDE2MC0xMjggMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC03Mi43YzAtMTYuNy02LjktMzIuNS0xNy4xLTQ1LjhDNDguNiAzMjIuNCAzMiAyNzQuMSAzMiAyMjQuMnptMjQ4LjMgNzAuNEw1MyAxMjkuM0M4OC43IDUzIDE2Ni4yIDAgMjU2IDBsMjQgMGM5NS4yIDAgMTgxLjIgNjkuMyAxOTcuMyAxNjAuMmMyLjMgMTMgNi44IDI1LjcgMTUuMSAzNmw0MiA1Mi42YzUuNCA2LjcgOC42IDE0LjggOS40IDIzLjJMMzM2IDI3MmMtMjEuNyAwLTQxLjMgOC42LTU1LjcgMjIuNnpNMzM2IDMwNGwxOTggMHMwIDAgMCAwbDEwIDAtMTkuNyA2NEwzNjggMzY4Yy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDE0Ni41IDAtOS44IDMyTDM2OCA0MzJjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTI2LjggMC0uOSAyLjhjLTguMyAyNi45LTMzLjEgNDUuMi02MS4yIDQ1LjJMMjg4IDUxMmwwLTE2MGMwLTE0IDYtMjYuNyAxNS42LTM1LjRjMCAwIDAgMCAwIDBjOC41LTcuOCAxOS45LTEyLjYgMzIuNC0xMi42em00OC04MGEzMiAzMiAwIDEgMCAwLTY0IDMyIDMyIDAgMSAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![head-side-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/head-side-mask.svg)
  */
 const HeadSideMask: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

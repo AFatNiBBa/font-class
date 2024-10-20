@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-arrow-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-arrow-up?s=sharp-light file-arrow-up}
- * @preview ![file-arrow-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDQ4MEwzMiA0ODAgMzIgMzJsMTYwIDAgMCAxNDQgMCAxNiAxNiAwIDE0NCAwIDAgMjg4ek0yMjQgMzcuM0wzNDYuNyAxNjAgMjI0IDE2MGwwLTEyMi43ek0yMzIgMEwzMiAwIDAgMCAwIDMyIDAgNDgwbDAgMzIgMzIgMCAzMjAgMCAzMiAwIDAtMzIgMC0zMjhMMjMyIDB6TTIwOCA0MDBsMC0xMjEuNCA1Mi43IDUyLjdMMjcyIDM0Mi42IDI5NC42IDMyMGwtMTEuMy0xMS4zLTgwLTgwTDE5MiAyMTcuNGwtMTEuMyAxMS4zLTgwIDgwTDg5LjQgMzIwIDExMiAzNDIuNmwxMS4zLTExLjNMMTc2IDI3OC42IDE3NiA0MDBsMCAxNiAzMiAwIDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-arrow-up.svg)
  */
 const FileArrowUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

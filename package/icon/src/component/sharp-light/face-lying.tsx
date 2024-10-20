@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-lying` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-lying?s=sharp-light face-lying}
- * @preview ![face-lying](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyQzEzMi4zIDMyIDMyIDEzMi4zIDMyIDI1NnMxMDAuMyAyMjQgMjI0IDIyNGM3OS44IDAgMTQ5LjgtNDEuNyAxODkuNS0xMDQuNWwyNy4xIDE3LjFDNDI3LjMgNDY0LjMgMzQ3LjIgNTEyIDI1NiA1MTJDMTE0LjYgNTEyIDAgMzk3LjQgMCAyNTZTMTE0LjYgMCAyNTYgMEMzNzMuOCAwIDQ3Mi45IDc5LjUgNTAyLjggMTg3LjdsLTMwLjggOC41QzQ0NS44IDEwMS41IDM1OSAzMiAyNTYgMzJ6TTE1Mi40IDE3NmEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwem0xNjAgMGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwek0xODguOCAzOTMuNmwtOS42IDEyLjgtMjUuNi0xOS4yIDkuNi0xMi44QzE4MC43IDM1MS4xIDIwOC42IDMzNiAyNDAgMzM2YzEzLjYgMCAyNi42IDIuOCAzOC40IDhsMTQuNyA2LjQtMTIuOCAyOS4zLTE0LjctNi40Yy03LjgtMy40LTE2LjUtNS4zLTI1LjYtNS4zYy0yMC45IDAtMzkuNSAxMC01MS4yIDI1LjZ6TTI4OCAyMjRsMTYwIDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRzLTI4LjcgNjQtNjQgNjRsLTk2IDAtMTYgMCAwLTMyIDE2IDAgOTYgMGMxNy43IDAgMzItMTQuMyAzMi0zMnMtMTQuMy0zMi0zMi0zMmwtMTYwIDAtMTYgMCAwLTMyIDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-lying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-lying.svg)
  */
 const FaceLying: typeof Icon = x => (
     <Icon {...x}>

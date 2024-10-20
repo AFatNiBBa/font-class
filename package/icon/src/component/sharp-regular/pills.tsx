@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pills` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pills?s=sharp-regular pills}
- * @preview ![pills](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTQ0YzAtMzUuMyAyOC43LTY0IDY0LTY0czY0IDI4LjcgNjQgNjRsMCAxMTJMNDggMjU2bDAtMTEyek0xMTIgMzJDNTAuMSAzMiAwIDgyLjEgMCAxNDRMMCAzNjhjMCA2MS45IDUwLjEgMTEyIDExMiAxMTJzMTEyLTUwLjEgMTEyLTExMmwwLTIyNGMwLTYxLjktNTAuMS0xMTItMTEyLTExMnpNNTEwLjMgMzgwLjRMMzU1LjYgMjI1LjdDMzczIDIxNC41IDM5My44IDIwOCA0MTYgMjA4YzYxLjkgMCAxMTIgNTAuMSAxMTIgMTEyYzAgMjIuMi02LjUgNDMtMTcuNyA2MC40em0tMzMuOSAzMy45QzQ1OSA0MjUuNSA0MzguMiA0MzIgNDE2IDQzMmMtNjEuOSAwLTExMi01MC4xLTExMi0xMTJjMC0yMi4yIDYuNS00MyAxNy43LTYwLjRMNDc2LjQgNDE0LjN6TTQxNiA0ODBhMTYwIDE2MCAwIDEgMCAwLTMyMCAxNjAgMTYwIDAgMSAwIDAgMzIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![pills](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pills.svg)
  */
 const Pills: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

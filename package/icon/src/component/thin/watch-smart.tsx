@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `watch-smart` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-smart?s=thin watch-smart}
- * @preview ![watch-smart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgNDBsMCAyNCAyMjQgMCAwLTI0YzAtMTMuMy0xMC43LTI0LTI0LTI0TDEwNCAxNkM5MC43IDE2IDgwIDI2LjcgODAgNDB6TTY0IDY1LjZMNjQgNDBDNjQgMTcuOSA4MS45IDAgMTA0IDBMMjgwIDBjMjIuMSAwIDQwIDE3LjkgNDAgNDBsMCAyNS42YzM2LjUgNy40IDY0IDM5LjcgNjQgNzguNGwwIDIyNGMwIDM4LjctMjcuNSA3MS02NCA3OC40bDAgMjUuNmMwIDIyLjEtMTcuOSA0MC00MCA0MGwtMTc2IDBjLTIyLjEgMC00MC0xNy45LTQwLTQwbDAtMjUuNkMyNy41IDQzOSAwIDQwNi43IDAgMzY4TDAgMTQ0YzAtMzguNyAyNy41LTcxIDY0LTc4LjR6TTgwIDQ3MmMwIDEzLjMgMTAuNyAyNCAyNCAyNGwxNzYgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTI0TDgwIDQ0OGwwIDI0em0yMjQtNDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yMjRjMC0zNS4zLTI4LjctNjQtNjQtNjRMODAgODBjLTM1LjMgMC02NCAyOC43LTY0IDY0bDAgMjI0YzAgMzUuMyAyOC42IDY0IDYzLjkgNjRjMCAwIDAgMCAuMSAwbDIyNCAwek0yMDAgMTYwbDAgOTIgNjAuOCA0NS42YzMuNSAyLjcgNC4zIDcuNyAxLjYgMTEuMnMtNy43IDQuMy0xMS4yIDEuNmwtNjQtNDhjLTItMS41LTMuMi0zLjktMy4yLTYuNGwwLTk2YzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![watch-smart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/watch-smart.svg)
  */
 const WatchSmart: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

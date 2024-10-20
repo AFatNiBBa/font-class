@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pinball` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pinball?s=solid pinball}
- * @preview ![pinball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDIyNGE5NiA5NiAwIDEgMCAwLTE5MiA5NiA5NiAwIDEgMCAwIDE5MnptMjIuMSAyNTQuNGMxNC45IDQuOCAzMC43LTEuOCAzNy45LTE1YzcuNC0xMy41IDQuMi0zMC44LTguNC00MC42bC0yNDYtMjA4LjNjLTQwLjYtMzQuMS0xMDEuMi0yOC44LTEzNS4yIDExLjhTLTYuMyAzMjcuNSAzNC4zIDM2MS42YzkuMiA3LjcgMTkuOSAxMy44IDMyIDE3LjdsMzA3LjggOTkuMXpNNjQgMjg4YTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pinball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pinball.svg)
  */
 const Pinball: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

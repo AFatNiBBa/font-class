@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-minus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-minus?s=light cart-minus}
- * @preview ![cart-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxNkMwIDcuMiA3LjIgMCAxNiAwTDUzLjkgMGMyMi44IDAgNDIuNSAxNiA0NyAzOC40TDE0NS40IDI1NmwzMjEuMSAwYzE0LjcgMCAyNy41LTEwIDMxLTI0LjJMNTQ0LjUgNDQuMWMyLjEtOC42IDEwLjgtMTMuOCAxOS40LTExLjZzMTMuOCAxMC44IDExLjYgMTkuNEw1MjguNiAyMzkuNUM1MjEuNSAyNjggNDk1LjkgMjg4IDQ2Ni41IDI4OEwxNTIgMjg4bDcuOSAzOC40YzMgMTQuOSAxNi4xIDI1LjYgMzEuNCAyNS42TDQ5NiAzNTJjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZsLTMwNC44IDBjLTMwLjQgMC01Ni42LTIxLjQtNjIuNy01MS4yTDY5LjYgNDQuOEM2OCAzNy4zIDYxLjUgMzIgNTMuOSAzMkwxNiAzMkM3LjIgMzIgMCAyNC44IDAgMTZ6TTE5MiA0ODBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em0wLTgwYTU2IDU2IDAgMSAxIDAgMTEyIDU2IDU2IDAgMSAxIDAtMTEyem0yODAgNTZhMjQgMjQgMCAxIDAgLTQ4IDAgMjQgMjQgMCAxIDAgNDggMHptLTgwIDBhNTYgNTYgMCAxIDEgMTEyIDAgNTYgNTYgMCAxIDEgLTExMiAwek0yNTYgMTEybDEyOCAwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0xMjggMGMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cart-minus.svg)
  */
 const CartMinus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

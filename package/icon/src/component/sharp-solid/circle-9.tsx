@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-9` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-9?s=sharp-solid circle-9}
- * @preview ![circle-9](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTZhMjU2IDI1NiAwIDEgMSA1MTIgMEEyNTYgMjU2IDAgMSAxIDAgMjU2em0yNTYgMTZhNDggNDggMCAxIDEgMC05NiA0OCA0OCAwIDEgMSAwIDk2em05Ni00OGMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NmMwIDQ5LjIgMzcgODkuOCA4NC43IDk1LjNsLTQ0LjQgNDguNEwxODUuNCAzODRsNjUuMSAwIDY4LjEtNzQuM2MyMS40LTIzLjQgMzMuMy01NCAzMy4zLTg1Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/circle-9.svg)
  */
 const Circle_9: typeof Icon = x => (
     <Icon {...x}>

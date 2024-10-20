@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `border-center-h` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-center-h?s=sharp-light border-center-h}
- * @preview ![border-center-h](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDI0MEwxNiAyNDAgMCAyNDBsMCAzMiAxNiAwIDQxNiAwIDE2IDAgMC0zMi0xNiAwek04IDg4bDQ4IDAgMC00OEw4IDQwIDggODh6TTggNDcybDQ4IDAgMC00OEw4IDQyNGwwIDQ4ek0xMDQgODhsNDggMCAwLTQ4LTQ4IDAgMCA0OHptMCAzODRsNDggMCAwLTQ4LTQ4IDAgMCA0OHptMTkyLTQ4bDAgNDggNDggMCAwLTQ4LTQ4IDB6bTAtMzM2bDQ4IDAgMC00OC00OCAwIDAgNDh6TTIwMCA0MjRsMCA0OCA0OCAwIDAtNDgtNDggMHptMC0zMzZsNDggMCAwLTQ4LTQ4IDAgMCA0OHpNMzkyIDQyNGwwIDQ4IDQ4IDAgMC00OC00OCAwem0wLTM4NGwwIDQ4IDQ4IDAgMC00OC00OCAwek0yMDAgMzI4bDAgNDggNDggMCAwLTQ4LTQ4IDB6bTE5MiA0OGw0OCAwIDAtNDgtNDggMCAwIDQ4ek04IDMyOGwwIDQ4IDQ4IDAgMC00OEw4IDMyOHpNMzkyIDE4NGw0OCAwIDAtNDgtNDggMCAwIDQ4ek04IDEzNmwwIDQ4IDQ4IDAgMC00OEw4IDEzNnptMTkyIDQ4bDQ4IDAgMC00OC00OCAwIDAgNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![border-center-h](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/border-center-h.svg)
  */
 const BorderCenterH: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

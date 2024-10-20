@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `road-circle-exclamation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-circle-exclamation?s=solid road-circle-exclamation}
- * @preview ![road-circle-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEzLjIgMzJMMjg4IDMybDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTY0IDc0LjggMGMyNy4xIDAgNTEuMyAxNy4xIDYwLjMgNDIuNmw0Mi43IDEyMC42Yy0xMC45LTIuMS0yMi4yLTMuMi0zMy44LTMuMmMtNTkuNSAwLTExMi4xIDI5LjYtMTQ0IDc0LjhsMC00Mi44YzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgNjRjMCAxNy43IDE0LjMgMzIgMzIgMzJjMi4zIDAgNC42LS4zIDYuOC0uN2MtNC41IDE1LjUtNi44IDMxLjgtNi44IDQ4LjdjMCA1LjQgLjIgMTAuNyAuNyAxNmwtLjcgMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA2NEw4Ni42IDQ4MEM1Ni41IDQ4MCAzMiA0NTUuNSAzMiA0MjUuNGMwLTYuMiAxLjEtMTIuNCAzLjEtMTguMkwxNTIuOSA3NC42QzE2MiA0OS4xIDE4Ni4xIDMyIDIxMy4yIDMyek00OTYgMjI0YTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptMCAyNDBhMjQgMjQgMCAxIDAgMC00OCAyNCAyNCAwIDEgMCAwIDQ4em0wLTE5MmMtOC44IDAtMTYgNy4yLTE2IDE2bDAgODBjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTgwYzAtOC44LTcuMi0xNi0xNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![road-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/road-circle-exclamation.svg)
  */
 const RoadCircleExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

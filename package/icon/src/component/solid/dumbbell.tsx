@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dumbbell` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumbbell?s=solid dumbbell}
- * @preview ![dumbbell](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgNjRjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE2MCAwIDY0IDAgMTYwYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTY0LTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtNjRjLTE3LjcgMC0zMi0xNC4zLTMyLTMyczE0LjMtMzIgMzItMzJsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMiAwIDAtNjR6bTQ0OCAwbDAgNjQgMzIgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDY0YzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybDAgNjRjMCAxNy43LTE0LjMgMzItMzIgMzJsLTMyIDAgMCA2NGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMzIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xNjAgMC02NCAwLTE2MGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMyek00MTYgMjI0bDAgNjQtMTkyIDAgMC02NCAxOTIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dumbbell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dumbbell.svg)
  */
 const Dumbbell: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

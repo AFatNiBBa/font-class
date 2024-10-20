@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `futbol` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/futbol?s=sharp-regular futbol}
- * @preview ![futbol](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDEyLjQgMTE4LjlsLTM0LjcgOTcuNkw0NjMuMSAyNzVjLTIuOSAzMS43LTEyLjkgNjEuNC0yOC40IDg3LjRsLTEwMy41LTIuOC0yOS4zIDk5LjRjLTE0LjggMy4zLTMwLjIgNS4xLTQ1LjkgNS4xcy0zMS4yLTEuOC00NS45LTUuMWwtMjkuMy05OS40TDc3LjIgMzYyLjRjLTE1LjUtMjYtMjUuNS01NS43LTI4LjQtODcuNGw4NS40LTU4LjVMOTkuNiAxMTguOWMyMC4zLTIzLjEgNDUuNi00MS43IDc0LjMtNTQuMUwyNTYgMTI4bDgyLjEtNjMuMmMyOC43IDEyLjMgNTQgMzAuOSA3NC4zIDU0LjF6TTI1NiA1MTJBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem0wLTMzNmwtNzYuMSA1NS4zTDIwOSAzMjAuN2w5NCAwIDI5LjEtODkuNEwyNTYgMTc2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![futbol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/futbol.svg)
  */
 const Futbol: typeof Icon = x => (
     <Icon {...x}>

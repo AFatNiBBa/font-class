@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `intersection` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/intersection?s=sharp-thin intersection}
- * @preview ![intersection](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjA4bDAgMjcyIDE2IDAgMC0yNzJjMC04OC40IDcxLjYtMTYwIDE2MC0xNjBzMTYwIDcxLjYgMTYwIDE2MGwwIDI3MiAxNiAwIDAtMjcyYzAtOTcuMi03OC44LTE3Ni0xNzYtMTc2UzE2IDExMC44IDE2IDIwOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![intersection](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/intersection.svg)
  */
 const Intersection: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

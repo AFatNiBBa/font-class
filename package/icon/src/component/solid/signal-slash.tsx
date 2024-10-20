@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signal-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-slash?s=solid signal-slash}
- * @preview ![signal-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN0w2MDggNDUxLjIgNjA4IDMyYzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMzY5LjEtNjQtNTAuMkw0ODAgMTI4YzAtMTcuNy0xNC4zLTMyLTMyLTMycy0zMiAxNC4zLTMyIDMybDAgMTcyLjgtNjQtNTAuMiAwLTI2LjZjMC0xNy43LTE0LjMtMzItMzItMzJjLTEwLjcgMC0yMC4xIDUuMi0yNS45IDEzLjJMMzguOCA1LjF6TTU3NiA1MTJsLS4zIDAgLjYgMC0uMyAwem0tOTYtMzJsMC01LjgtNjQtNTAuNCAwIDU2LjJjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMnpNMzUyIDM3My4zbC02NC01MC40TDI4OCA0ODBjMCAxNy43IDE0LjMgMzIgMzIgMzJzMzItMTQuMyAzMi0zMmwwLTEwNi43ek0xOTIgMjg4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDE2MGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtMTYwYzAtMTcuNy0xNC4zLTMyLTMyLTMyek05NiA0MTZjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJsMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMnMzMi0xNC4zIDMyLTMybDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![signal-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/signal-slash.svg)
  */
 const SignalSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

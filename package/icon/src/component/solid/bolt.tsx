@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bolt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt?s=solid bolt}
- * @preview ![bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQ5LjQgNDQuNmM1LjktMTMuNyAxLjUtMjkuNy0xMC42LTM4LjVzLTI4LjYtOC0zOS45IDEuOGwtMjU2IDIyNGMtMTAgOC44LTEzLjYgMjIuOS04LjkgMzUuM1M1MC43IDI4OCA2NCAyODhsMTExLjUgMEw5OC42IDQ2Ny40Yy01LjkgMTMuNy0xLjUgMjkuNyAxMC42IDM4LjVzMjguNiA4IDM5LjktMS44bDI1Ni0yMjRjMTAtOC44IDEzLjYtMjIuOSA4LjktMzUuM3MtMTYuNi0yMC43LTMwLTIwLjdsLTExMS41IDBMMzQ5LjQgNDQuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bolt.svg)
  */
 const Bolt: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

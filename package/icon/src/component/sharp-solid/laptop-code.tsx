@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `laptop-code` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-code?s=sharp-solid laptop-code}
- * @preview ![laptop-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMzJsMzIgMCA0NDggMCAzMiAwIDAgMzIgMCAyODgtNjQgMCAwLTI1NkwxMjggOTZsMCAyNTYtNjQgMEw2NCA2NGwwLTMyek0wIDQzMmwwLTQ4IDY0MCAwIDAgNDgtNDggNDhMNDggNDgwIDAgNDMyek0yODEgMjA5bC0zMSAzMSAzMSAzMSAxNyAxN0wyNjQgMzIxLjlsLTE3LTE3LTQ4LTQ4LTE3LTE3IDE3LTE3IDQ4LTQ4IDE3LTE3TDI5Ny45IDE5MmwtMTcgMTd6TTM5MyAxNzVsNDggNDggMTcgMTctMTcgMTctNDggNDgtMTcgMTdMMzQyLjEgMjg4bDE3LTE3IDMxLTMxLTMxLTMxLTE3LTE3TDM3NiAxNTguMWwxNyAxN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![laptop-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/laptop-code.svg)
  */
 const LaptopCode: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

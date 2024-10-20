@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `gift` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gift?s=solid gift}
- * @preview ![gift](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkwLjUgNjguOEwyMjUuMyAxMjhsLTEuMyAwLTcyIDBjLTIyLjEgMC00MC0xNy45LTQwLTQwczE3LjktNDAgNDAtNDBsMi4yIDBjMTQuOSAwIDI4LjggNy45IDM2LjMgMjAuOHpNNjQgODhjMCAxNC40IDMuNSAyOCA5LjYgNDBMMzIgMTI4Yy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDY0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDQ0OCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtNjRjMC0xNy43LTE0LjMtMzItMzItMzJsLTQxLjYgMGM2LjEtMTIgOS42LTI1LjYgOS42LTQwYzAtNDguNi0zOS40LTg4LTg4LTg4bC0yLjIgMGMtMzEuOSAwLTYxLjUgMTYuOS03Ny43IDQ0LjRMMjU2IDg1LjVsLTI0LjEtNDFDMjE1LjcgMTYuOSAxODYuMSAwIDE1NC4yIDBMMTUyIDBDMTAzLjQgMCA2NCAzOS40IDY0IDg4em0zMzYgMGMwIDIyLjEtMTcuOSA0MC00MCA0MGwtNzIgMC0xLjMgMCAzNC44LTU5LjJDMzI5LjEgNTUuOSAzNDIuOSA0OCAzNTcuOCA0OGwyLjIgMGMyMi4xIDAgNDAgMTcuOSA0MCA0MHpNMzIgMjg4bDAgMTc2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDE0NCAwIDAtMjI0TDMyIDI4OHpNMjg4IDUxMmwxNDQgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTE3Ni0xOTIgMCAwIDIyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![gift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/gift.svg)
  */
 const Gift: typeof Icon = x => (
     <Icon {...x}>

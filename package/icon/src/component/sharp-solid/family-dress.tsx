@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `family-dress` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family-dress?s=sharp-solid family-dress}
- * @preview ![family-dress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDEyOEE2NCA2NCAwIDEgMCAxMjggMGE2NCA2NCAwIDEgMCAwIDEyOHptNDggNDhjMC01LjUgLjYtMTAuOCAxLjYtMTZMNjQgMTYwIDAgMzg0bDY0IDAgMCAxMjggMTEyIDAgMC02NC0zMiAwIDAtMzIgMC0xNjAgMC0zMiAzMiAwIDE2IDBjLTEwLTEzLjQtMTYtMzAtMTYtNDh6bTI3Mi0xNmwtMTEzLjYgMGMxIDUuMiAxLjYgMTAuNSAxLjYgMTZjMCAxOC02IDM0LjYtMTYgNDhsMTYgMCAzMiAwIDAgMzIgMCAxNjAgMCAzMi0zMiAwIDAgNjQgMTEyIDAgMC0xMjggNjQgMEw0NDggMTYwem0tNjQtMzJBNjQgNjQgMCAxIDAgMzg0IDBhNjQgNjQgMCAxIDAgMCAxMjh6TTI1NiAyMjRhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em04MCAxOTJsMC0xNjAtMTYwIDAgMCAxNjAgMzIgMCAwIDk2IDk2IDAgMC05NiAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![family-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/family-dress.svg)
  */
 const FamilyDress: typeof Icon = x => (
     <Icon {...x}>

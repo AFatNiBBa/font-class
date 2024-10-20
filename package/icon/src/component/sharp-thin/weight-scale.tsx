@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `weight-scale` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/weight-scale?s=sharp-thin weight-scale}
- * @preview ![weight-scale](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDE3NmMwLTM2LTExLjktNjkuMy0zMi05NmMtNC4yLTUuNS04LjctMTAuOC0xMy41LTE1LjhsLS4yLS4yYy0yOS0yOS42LTY5LjUtNDgtMTE0LjMtNDhzLTg1LjIgMTguNC0xMTQuMyA0OGMtNC42IDQuNi04LjggOS42LTEyLjggMTQuN0wxMjggODBjLTIwLjEgMjYuNy0zMiA2MC0zMiA5NmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MHMxNjAtNzEuNiAxNjAtMTYwek00MDMuNSA4MGMxOCAyNy42IDI4LjUgNjAuNiAyOC41IDk2YzAgOTcuMi03OC44IDE3Ni0xNzYgMTc2cy0xNzYtNzguOC0xNzYtMTc2YzAtMzUuNCAxMC41LTY4LjQgMjguNS05NkwxNiA4MGwwIDQxNiA0ODAgMCAwLTQxNi05Mi41IDB6TTEyMC4yIDY0QzE1Mi41IDI0LjkgMjAxLjMgMCAyNTYgMHMxMDMuNSAyNC45IDEzNS44IDY0TDQ5NiA2NGwxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDUxMiAwIDUxMmwwLTE2TDAgODAgMCA2NGwxNiAwIDEwNC4yIDB6TTMwNCAyMjRjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhzMjEuNS00OCA0OC00OGM0LjQgMCA4LjcgLjYgMTIuOCAxLjdsMzYtNzcuMSAzLjQtNy4yIDE0LjUgNi44LTMuNCA3LjItMzYgNzcuMWMxMi41IDguNyAyMC43IDIzLjEgMjAuNyAzOS41em0tNDggMzJhMzIgMzIgMCAxIDAgMC02NCAzMiAzMiAwIDEgMCAwIDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![weight-scale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/weight-scale.svg)
  */
 const WeightScale: typeof Icon = x => (
     <Icon {...x}>

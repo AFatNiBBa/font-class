@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-quarter` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-quarter?s=regular circle-quarter}
- * @preview ![circle-quarter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDUzLjZMMjA4IDIwOCA1My42IDIwOEM3MS42IDEzMS43IDEzMS43IDcxLjYgMjA4IDUzLjZ6TTIgMjI0LjFDLS4yIDI0MS42IDE0LjMgMjU2IDMyIDI1NmwxOTIgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTE5MmMwLTE3LjctMTQuNC0zMi4yLTMxLjktMzBDMTA4LjIgMTYuNCAxNi40IDEwOC4yIDIgMjI0LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![circle-quarter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-quarter.svg)
  */
 const CircleQuarter: typeof Icon = x => (
     <Icon {...x}>

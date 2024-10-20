@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `crystal-ball` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crystal-ball?s=sharp-thin crystal-ball}
- * @preview ![crystal-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDIyNGMwIDU1LjktMjIgMTA2LjYtNTcuOSAxNDRsMjEuNSAwYzMyLjctMzguOSA1Mi40LTg5LjIgNTIuNC0xNDRDNDQ4IDEwMC4zIDM0Ny43IDAgMjI0IDBTMCAxMDAuMyAwIDIyNGMwIDU0LjggMTkuNyAxMDUuMSA1Mi40IDE0NGwyMS41IDBDMzggMzMwLjYgMTYgMjc5LjkgMTYgMjI0QzE2IDEwOS4xIDEwOS4xIDE2IDIyNCAxNnMyMDggOTMuMSAyMDggMjA4ek0xOSA1MTJsNDEwIDAgMTkgMC0xMC4zLTE2TDM3NiA0MDAgNzIgNDAwIDEwLjMgNDk2IDAgNTEybDE5IDB6bTM0OC4yLTk2bDUxLjQgODBMMjkuMyA0OTZsNTEuNC04MCAyODYuNSAwek0yOTYgMTUybC0xNiAwIDAgOCAwIDU2LTU2IDAtOCAwIDAgMTYgOCAwIDU2IDAgMCA1NiAwIDggMTYgMCAwLTggMC01NiA1NiAwIDggMCAwLTE2LTggMC01NiAwIDAtNTYgMC04ek0xNTIgMTA0bC0xNiAwIDAgOCAwIDI0LTI0IDAtOCAwIDAgMTYgOCAwIDI0IDAgMCAyNCAwIDggMTYgMCAwLTggMC0yNCAyNCAwIDggMCAwLTE2LTggMC0yNCAwIDAtMjQgMC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![crystal-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/crystal-ball.svg)
  */
 const CrystalBall: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

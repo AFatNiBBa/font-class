@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `temperature-half` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-half?s=thin temperature-half}
- * @preview ![temperature-half](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDE2Yy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDE2My43YzAgOC40LTQuNCAxNS43LTEwLjcgMjAuM0M1MyAyODcuMyAzMiAzMjUuMiAzMiAzNjhjMCA3MC43IDU3LjMgMTI4IDEyOCAxMjhzMTI4LTU3LjMgMTI4LTEyOGMwLTQyLjgtMjEtODAuNy01My4zLTEwNGMtNi4zLTQuNi0xMC43LTExLjktMTAuNy0yMC4zTDIyNCA4MGMwLTM1LjMtMjguNy02NC02NC02NHpNODAgODBjMC00NC4yIDM1LjgtODAgODAtODBzODAgMzUuOCA4MCA4MGwwIDE2My43YzAgMi43IDEuNCA1LjQgNCA3LjNjMzYuMyAyNi4xIDYwIDY4LjggNjAgMTE3YzAgNzkuNS02NC41IDE0NC0xNDQgMTQ0UzE2IDQ0Ny41IDE2IDM2OGMwLTQ4LjIgMjMuNy05MC44IDYwLTExN2MyLjYtMS45IDQtNC42IDQtNy4zTDgwIDgwem04MCAzMzZhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2em0wIDE2Yy0zNS4zIDAtNjQtMjguNy02NC02NGMwLTMyLjYgMjQuNC01OS42IDU2LTYzLjVMMTUyIDIwMGMwLTQuNCAzLjYtOCA4LThzOCAzLjYgOCA4bDAgMTA0LjVjMzEuNiAzLjkgNTYgMzAuOSA1NiA2My41YzAgMzUuMy0yOC43IDY0LTY0IDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![temperature-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/temperature-half.svg)
  */
 const TemperatureHalf: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

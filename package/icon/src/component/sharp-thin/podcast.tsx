@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `podcast` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podcast?s=sharp-thin podcast}
- * @preview ![podcast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDIyNGMwIDg0LTQ5LjggMTU2LjQtMTIxLjYgMTg5LjJsLTIuNyAxOC42QzM5MCAzOTguNiA0NDggMzE4LjEgNDQ4IDIyNEM0NDggMTAwLjMgMzQ3LjcgMCAyMjQgMFMwIDEwMC4zIDAgMjI0YzAgOTQuMSA1OCAxNzQuNiAxNDAuMiAyMDcuOGwtMi43LTE4LjZDNjUuOCAzODAuNCAxNiAzMDggMTYgMjI0QzE2IDEwOS4xIDEwOS4xIDE2IDIyNCAxNnMyMDggOTMuMSAyMDggMjA4em0tODAgMGMwIDM3LjktMTYuNSA3Mi00Mi43IDk1LjRMMzEzIDMyNGw2LjMgNy45QzM0OS4yIDMwNS41IDM2OCAyNjcgMzY4IDIyNGMwLTc5LjUtNjQuNS0xNDQtMTQ0LTE0NFM4MCAxNDQuNSA4MCAyMjRjMCA0MyAxOC44IDgxLjUgNDguNyAxMDcuOUwxMzUgMzI0bDMuNy00LjZDMTEyLjUgMjk2IDk2IDI2MS45IDk2IDIyNGMwLTcwLjcgNTcuMy0xMjggMTI4LTEyOHMxMjggNTcuMyAxMjggMTI4ek0yMjQgMTc2YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnptMCAxMTJhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6bTI2LjEgMjA4bC01Mi4yIDBMMTc2LjggMzQ4LjYgMTk5LjcgMzIwbDQ4LjYgMCAyMi45IDI4LjZMMjUwLjEgNDk2ek0xNjAgMzQ0bDI0IDE2OCA4MCAwIDI0LTE2OC0zMi00MC02NCAwLTMyIDQweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![podcast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/podcast.svg)
  */
 const Podcast: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

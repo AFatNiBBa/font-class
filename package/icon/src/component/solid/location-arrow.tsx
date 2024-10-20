@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-arrow` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-arrow?s=solid location-arrow}
- * @preview ![location-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI5LjYgOTIuMWM0LjktMTEuOSAyLjEtMjUuNi03LTM0LjdzLTIyLjgtMTEuOS0zNC43LTdsLTM1MiAxNDRjLTE0LjIgNS44LTIyLjIgMjAuOC0xOS4zIDM1LjhzMTYuMSAyNS44IDMxLjQgMjUuOGwxNzYgMCAwIDE3NmMwIDE1LjMgMTAuOCAyOC40IDI1LjggMzEuNHMzMC01LjEgMzUuOC0xOS4zbDE0NC0zNTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![location-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/location-arrow.svg)
  */
 const LocationArrow: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

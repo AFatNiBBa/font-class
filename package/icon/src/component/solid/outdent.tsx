@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `outdent` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/outdent?s=solid outdent}
- * @preview ![outdent](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA2NEMwIDQ2LjMgMTQuMyAzMiAzMiAzMmwzODQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkwzMiA5NkMxNC4zIDk2IDAgODEuNyAwIDY0ek0xOTIgMTkyYzAtMTcuNyAxNC4zLTMyIDMyLTMybDE5MiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0xOTIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJ6bTMyIDk2bDE5MiAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC0xOTIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMnpNMCA0NDhjMC0xNy43IDE0LjMtMzIgMzItMzJsMzg0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJMMzIgNDgwYy0xNy43IDAtMzItMTQuMy0zMi0zMnpNLjIgMjY4LjZjLTguMi02LjQtOC4yLTE4LjkgMC0yNS4zbDEwMS45LTc5LjNjMTAuNS04LjIgMjUuOC0uNyAyNS44IDEyLjZsMCAxNTguNmMwIDEzLjMtMTUuMyAyMC44LTI1LjggMTIuNkwuMiAyNjguNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![outdent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/outdent.svg)
  */
 const Outdent: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

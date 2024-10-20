@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-repeat` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-repeat?s=regular arrows-repeat}
- * @preview ![arrows-repeat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNTQuNWMtLjggMTMuMiA5LjIgMjQuNiAyMi41IDI1LjVzMjQuNi05LjIgMjUuNS0yMi41bC41LThDNTEuOSAxOTQuNyA5Ny4zIDE1MiAxNTIuMiAxNTJsMjEzLjggMC01NSA1NWMtOS40IDkuNC05LjQgMjQuNiAwIDMzLjlzMjQuNiA5LjQgMzMuOSAwbDk2LTk2YzkuNC05LjQgOS40LTI0LjYgMC0zMy45TDM0NSAxNWMtOS40LTkuNC0yNC42LTkuNC0zMy45IDBzLTkuNCAyNC42IDAgMzMuOWw1NSA1NS0yMTMuOCAwQzcyIDEwNCA1LjYgMTY2LjQgLjUgMjQ2LjVsLS41IDh6bTUxMS45IDNjLjgtMTMuMi05LjItMjQuNi0yMi41LTI1LjVzLTI0LjYgOS4yLTI1LjQgMjIuNWwtLjUgOGMtMy40IDU0LjgtNDguOSA5Ny41LTEwMy44IDk3LjVsLTIxMy44IDAgNTUtNTVjOS40LTkuNCA5LjQtMjQuNiAwLTMzLjlzLTI0LjYtOS40LTMzLjkgMEw3MSAzNjdjLTkuNCA5LjQtOS40IDI0LjYgMCAzMy45bDk2IDk2YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtNTUtNTUgMjEzLjggMGM4MC4zIDAgMTQ2LjctNjIuNCAxNTEuNy0xNDIuNWwuNS04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-repeat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrows-repeat.svg)
  */
 const ArrowsRepeat: typeof Icon = x => (
     <Icon {...x}>

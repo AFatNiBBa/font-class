@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clover` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clover?s=sharp-solid clover}
- * @preview ![clover](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwLjkgMTI2LjlMMTYwIDE5MiA5NC45IDE1Mi45Qzg1LjEgMTQ3LjEgNzQgMTQ0IDYyLjYgMTQ0QzI4IDE0NCAwIDE3MiAwIDIwNi42VjIyNGwzMiAzMkwwIDI4OHYxNy40QzAgMzQwIDI4IDM2OCA2Mi42IDM2OGMxMS40IDAgMjIuNS0zLjEgMzIuMi04LjlMMTYwIDMyMGwtMzkuMSA2NS4xYy01LjggOS43LTguOSAyMC45LTguOSAzMi4yYzAgMzQuNiAyOCA2Mi42IDYyLjYgNjIuNkgxOTJsMzItMzIgMzIgMzJoMTcuNGMzNC42IDAgNjIuNi0yOCA2Mi42LTYyLjZjMC0xMS40LTMuMS0yMi41LTguOS0zMi4yTDI4OCAzMjBsNjUuMSAzOS4xYzkuNyA1LjggMjAuOSA4LjkgMzIuMiA4LjljMzQuNiAwIDYyLjYtMjggNjIuNi02Mi42VjI4OGwtMzItMzIgMzItMzJWMjA2LjZjMC0zNC42LTI4LTYyLjYtNjIuNi02Mi42Yy0xMS40IDAtMjIuNSAzLjEtMzIuMiA4LjlMMjg4IDE5MmwzOS4xLTY1LjFjNS44LTkuNyA4LjktMjAuOSA4LjktMzIuMkMzMzYgNjAgMzA4IDMyIDI3My40IDMySDI1NkwyMjQgNjQgMTkyIDMySDE3NC42QzE0MCAzMiAxMTIgNjAgMTEyIDk0LjZjMCAxMS40IDMuMSAyMi41IDguOSAzMi4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/clover.svg)
  */
 const Clover: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

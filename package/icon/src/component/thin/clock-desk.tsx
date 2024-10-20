@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `clock-desk` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-desk?s=thin clock-desk}
- * @preview ![clock-desk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjI0YTIwOCAyMDggMCAxIDEgNDE2IDBBMjA4IDIwOCAwIDEgMSAxNiAyMjR6bTQxNiA4My4zTDQzMiA0NTZjMCAyMi4xLTE3LjkgNDAtNDAgNDBMNTYgNDk2Yy0yMi4xIDAtNDAtMTcuOS00MC00MGwwLTE0OC43QzQ5LjEgMzg5LjggMTI5LjcgNDQ4IDIyNCA0NDhzMTc0LjktNTguMiAyMDgtMTQwLjd6TTAgMjI0TDAgNDU2YzAgMzAuOSAyNS4xIDU2IDU2IDU2bDMzNiAwYzMwLjkgMCA1Ni0yNS4xIDU2LTU2bDAtMjMyQzQ0OCAxMDAuMyAzNDcuNyAwIDIyNCAwUzAgMTAwLjMgMCAyMjR6TTIyNCA5NmMtNC40IDAtOCAzLjYtOCA4bDAgMTIwYzAgMi4xIC44IDQuMiAyLjMgNS43bDU2IDU2YzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBzMy4xLTguMiAwLTExLjNMMjMyIDIyMC43IDIzMiAxMDRjMC00LjQtMy42LTgtOC04eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![clock-desk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/clock-desk.svg)
  */
 const ClockDesk: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

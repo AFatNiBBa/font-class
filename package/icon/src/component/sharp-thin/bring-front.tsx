@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bring-front` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bring-front?s=sharp-thin bring-front}
- * @preview ![bring-front](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMTZsMjI0IDAgMCA0OCAxNiAwIDAtNDggMC0xNkwyNDAgMCAxNiAwIDAgMCAwIDE2IDAgMjQwbDAgMTYgMTYgMCAxMTIgMCAwLTE2TDE2IDI0MCAxNiAxNnpNMzg0IDQ5NmwwIDE2IDE2IDAgMjI0IDAgMTYgMCAwLTE2IDAtMjI0IDAtMTYtMTYgMC0xMTIgMCAwIDE2IDExMiAwIDAgMjI0LTIyNCAwIDAtNDgtMTYgMCAwIDQ4em04MC0zODRsMCAyODgtMjg4IDAgMC0yODggMjg4IDB6TTE3NiA5NmwtMTYgMCAwIDE2IDAgMjg4IDAgMTYgMTYgMCAyODggMCAxNiAwIDAtMTYgMC0yODggMC0xNi0xNiAwTDE3NiA5NnptNjQgODBsMTYwIDAgMCAxNjAtMTYwIDAgMC0xNjB6bS0xNi0xNmwwIDE2IDAgMTYwIDAgMTYgMTYgMCAxNjAgMCAxNiAwIDAtMTYgMC0xNjAgMC0xNi0xNiAwLTE2MCAwLTE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bring-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bring-front.svg)
  */
 const BringFront: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

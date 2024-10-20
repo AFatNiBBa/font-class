@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hat-cowboy` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-cowboy?s=sharp-light hat-cowboy}
- * @preview ![hat-cowboy](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQ1LjQgNDUuNkwyMTYgMzJsLTguOCAzMS4yTDE1MS43IDI2MC42YzkuNSAzLjQgMTkuNyA2LjYgMzAuNSA5LjZMMjM2LjYgNzYuOGw2OS45IDMyLjMgMTMuNCA2LjIgMTMuNC02LjIgNjkuOS0zMi4zIDU0LjQgMTkzLjVjMTAuOS0zIDIxLTYuMiAzMC41LTkuNkw0MzIuOCA2My4yIDQyNCAzMiAzOTQuNiA0NS42IDMyMCA4MCAyNDUuNCA0NS42ek02NDAgMjU2bC00LjctNi4yTDYxNiAyMjRzLTguMiA4LjMtMjQuOSAyMC4xQzU1MSAyNzIuMiA0NjIuMSAzMjAgMzIwIDMyMHMtMjMxLTQ3LjgtMjcxLjEtNzUuOUMzMi4yIDIzMi4zIDI0IDIyNCAyNCAyMjRMNC43IDI0OS44IDAgMjU2czk2IDE5MiAzMjAgMTkyczMyMC0xOTIgMzIwLTE5MnptLTgyLjMgNDQuN2M3LjYtMy43IDE0LjYtNy41IDIxLjEtMTEuMWMtOS45IDEyLjEtMjIgMjUuNS0zNi41IDM4LjlDNDk0LjYgMzcyLjUgNDIyIDQxNiAzMjAgNDE2cy0xNzQuNi00My41LTIyMi4zLTg3LjVjLTE0LjUtMTMuNC0yNi42LTI2LjgtMzYuNS0zOC45YzYuNSAzLjcgMTMuNSA3LjQgMjEuMSAxMS4xQzEzNS4yIDMyNi43IDIxNCAzNTIgMzIwIDM1MnMxODQuOC0yNS4zIDIzNy43LTUxLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hat-cowboy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hat-cowboy.svg)
  */
 const HatCowboy: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

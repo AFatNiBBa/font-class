@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-grin-squint` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-squint?s=regular face-grin-squint}
- * @preview ![face-grin-squint](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NkEyMDggMjA4IDAgMSAwIDQ4IDI1NmEyMDggMjA4IDAgMSAwIDQxNiAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6bTM0OS41IDUyLjRjMTguNy00LjQgMzUuOSAxMiAyNS41IDI4LjFDMzUwLjQgMzc0LjYgMzA2LjMgNDAwIDI1NS45IDQwMHMtOTQuNS0yNS40LTExOS4xLTYzLjVjLTEwLjQtMTYuMSA2LjgtMzIuNSAyNS41LTI4LjFjMjguOSA2LjggNjAuNSAxMC41IDkzLjYgMTAuNXM2NC43LTMuNyA5My42LTEwLjV6bS0yMTYtMTYxLjdsODkuOSA0Ny45YzEwLjcgNS43IDEwLjcgMjEuMSAwIDI2LjhsLTg5LjkgNDcuOWMtNy45IDQuMi0xNy41LTEuNS0xNy41LTEwLjVjMC0yLjggMS01LjUgMi44LTcuNmwzNi00My4yLTM2LTQzLjJjLTEuOC0yLjEtMi44LTQuOC0yLjgtNy42YzAtOSA5LjYtMTQuNyAxNy41LTEwLjV6TTM5NiAxNTcuMWMwIDIuOC0xIDUuNS0yLjggNy42bC0zNiA0My4yIDM2IDQzLjJjMS44IDIuMSAyLjggNC44IDIuOCA3LjZjMCA5LTkuNiAxNC43LTE3LjUgMTAuNWwtODkuOS00Ny45Yy0xMC43LTUuNy0xMC43LTIxLjEgMC0yNi44bDg5LjktNDcuOWM3LjktNC4yIDE3LjUgMS41IDE3LjUgMTAuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-grin-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-grin-squint.svg)
  */
 const FaceGrinSquint: typeof Icon = x => (
     <Icon {...x}>

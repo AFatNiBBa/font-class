@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-c` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-c?s=sharp-light square-c}
- * @preview ![square-c](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgNjRsMCAzODQgMzg0IDAgMC0zODRMMzIgNjR6TTAgMzJsMzIgMCAzODQgMCAzMiAwIDAgMzIgMCAzODQgMCAzMi0zMiAwTDMyIDQ4MCAwIDQ4MGwwLTMyTDAgNjQgMCAzMnpNMTI4IDI1NmMwIDUzIDQzIDk2IDk2IDk2YzMxLjQgMCA1OS4zLTE1LjEgNzYuOC0zOC41bDI1LjYgMTkuMkMzMDMuMSAzNjMuOCAyNjUuOSAzODQgMjI0IDM4NGMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhzNTcuMy0xMjggMTI4LTEyOGM0MS45IDAgNzkuMSAyMC4yIDEwMi40IDUxLjJsLTI1LjYgMTkuMkMyODMuMyAxNzUuMSAyNTUuNCAxNjAgMjI0IDE2MGMtNTMgMC05NiA0My05NiA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![square-c](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-c.svg)
  */
 const SquareC: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

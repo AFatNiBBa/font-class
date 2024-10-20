@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `code-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-simple?s=sharp-regular code-simple}
- * @preview ![code-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY3IDExNC44bC0xNi45LTE3TDM4NC4xIDY0IDQwMSA4MSA1NTggMjM5LjEgNTc0LjggMjU2IDU1OCAyNzIuOSA0MDEgNDMxbC0xNi45IDE3LTM0LjEtMzMuOCAxNi45LTE3TDUwNy4yIDI1NiAzNjcgMTE0Ljh6bS0xNzMuMS0uOUw2Ny4yIDI1NiAxOTMuOSAzOTguMmwxNiAxNy45TDE3NC4xIDQ0OGwtMTYtMTcuOUwxNy4xIDI3MiAyLjkgMjU2bDE0LjItMTYgMTQxLTE1OC4xIDE2LTE3LjlMMjA5LjkgOTZsLTE2IDE3Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![code-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/code-simple.svg)
  */
 const CodeSimple: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

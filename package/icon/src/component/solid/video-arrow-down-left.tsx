@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `video-arrow-down-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-arrow-down-left?s=solid video-arrow-down-left}
- * @preview ![video-arrow-down-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRDMjguNyA2NCAwIDkyLjcgMCAxMjhMMCAzODRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMjU2IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0yNTZjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgNjR6bTUxMiA2NGMwLTExLjgtNi41LTIyLjYtMTYuOS0yOC4ycy0yMy01LTMyLjkgMS42bC05NiA2NEw0MTYgMTc0LjlsMCAxNy4xIDAgMTI4IDAgMTcuMSAxNC4yIDkuNSA5NiA2NGM5LjggNi41IDIyLjQgNy4yIDMyLjkgMS42czE2LjktMTYuNCAxNi45LTI4LjJsMC0yNTZ6TTIzMiAzNTJsLTExMiAwYy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTExMmMwLTEzLjMgMTAuNy0yNCAyNC0yNHMyNCAxMC43IDI0IDI0bDAgNTQuMUwyNDcgMTY3YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwczkuNCAyNC42IDAgMzMuOWwtMTAzIDEwMyA1NC4xIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![video-arrow-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/video-arrow-down-left.svg)
  */
 const VideoArrowDownLeft: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-helmet-safety` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-helmet-safety?s=regular user-helmet-safety}
- * @preview ![user-helmet-safety](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDBsMTYgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDU2IDI4LjQtNTYuOWMzOCAyMC40IDY0LjUgNTkuNCA2Ny4zIDEwNC45bC4yIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRMOTYgMTc2Yy0xMy4zIDAtMjQtMTAuNy0yNC0yNHMxMC43LTI0IDI0LTI0bC4yIDBDOTkgODIuNiAxMjUuNiA0My41IDE2My42IDIzLjFMMTkyIDgwbDAtNTZjMC0xMy4zIDEwLjctMjQgMjQtMjR6TTE2MiAzMDRjLTM0LjktMTkuNC01OS44LTU0LjYtNjUtOTZsNDguNiAwYzcuNCAzNi41IDM5LjcgNjQgNzguNCA2NHM3MS0yNy41IDc4LjQtNjRsNDguNiAwYy01LjIgNDEuNC0zMC4xIDc2LjYtNjUgOTZjLTE4LjQgMTAuMi0zOS41IDE2LTYyIDE2cy00My42LTUuOC02Mi0xNnptLTExLjQgNDhsNzMuNCAwIDczLjQgMCAxNi4yIDBDMzg3LjggMzUyIDQ0OCA0MTIuMiA0NDggNDg2LjRjMCAxNC4xLTExLjUgMjUuNi0yNS42IDI1LjZMMjUuNiA1MTJDMTEuNSA1MTIgMCA1MDAuNSAwIDQ4Ni40QzAgNDEyLjIgNjAuMiAzNTIgMTM0LjQgMzUybDE2LjIgMHpNMzk3LjEgNDY0Yy05LjktMzYuOS00My41LTY0LTgzLjUtNjRsLTE3OS4yIDBjLTQwIDAtNzMuNiAyNy4xLTgzLjUgNjRsMzQ2LjEgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-helmet-safety](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-helmet-safety.svg)
  */
 const UserHelmetSafety: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

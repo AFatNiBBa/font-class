@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-jpg` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-jpg?s=sharp-thin file-jpg}
- * @preview ![file-jpg](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2bDk2IDAgMCAxNi05NiAwTDAgNTEybDAtMTZMMCAxNiAwIDAgMTYgMCAyMjQgMCAzODQgMTYwbDAgMTQ0LTE2IDAgMC0xMjgtMTUyIDAtOCAwIDAtOCAwLTE1MkwxNiAxNmwwIDQ4MHpNMzYxLjQgMTYwTDIyNCAyMi42IDIyNCAxNjBsMTM3LjQgMHpNMjA4IDUxMmMtMjIuMSAwLTQwLTE3LjktNDAtNDBsMC0xNiAwLTggMTYgMCAwIDggMCAxNmMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtOTYgMC04IDE2IDAgMCA4IDAgOTZjMCAyMi4xLTE3LjkgNDAtNDAgNDB6TTQ1NiAzNjhsMTYgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE2LTE2IDAgMC0xNmMwLTguOC03LjItMTYtMTYtMTZsLTE2IDBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDgwYzAgOC44IDcuMiAxNiAxNiAxNmwxNiAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTE2LTggMC04IDAgMC0xNiA4IDAgMTYgMCA4IDAgMCA4IDAgMjRjMCAxNy43LTE0LjMgMzItMzIgMzJsLTE2IDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtODBjMC0xNy43IDE0LjMtMzIgMzItMzJ6bS0xNjAgMGw4IDAgMzIgMGMyNi41IDAgNDggMjEuNSA0OCA0OHMtMjEuNSA0OC00OCA0OGwtMjQgMCAwIDQwIDAgOC0xNiAwIDAtOCAwLTQ4IDAtODAgMC04em0xNiA4MGwyNCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0yNCAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-jpg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-jpg.svg)
  */
 const FileJpg: typeof Icon = x => (
     <Icon {...x}>

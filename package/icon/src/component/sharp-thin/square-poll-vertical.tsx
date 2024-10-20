@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-poll-vertical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-poll-vertical?s=sharp-thin square-poll-vertical}
- * @preview ![square-poll-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNDE2IDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA0MTYgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnpNMTEyIDM2OGwzMiAwIDAtMTYgMC05NiAwLTE2LTMyIDAgMCAxNiAwIDk2IDAgMTZ6bTQ4LTE0NGwwIDE2IDAgMTYgMCA5NiAwIDE2IDAgMTYtMTYgMC0zMiAwLTE2IDAgMC0xNiAwLTE2IDAtOTYgMC0xNiAwLTE2IDE2IDAgMzIgMCAxNiAwem00OCAxNDRsMzIgMCAwLTE2IDAtMTkyIDAtMTYtMzIgMCAwIDE2IDAgMTkyIDAgMTZ6bTk2IDBsMzIgMCAwLTE2IDAtMzIgMC0xNi0zMiAwIDAgMTYgMCAzMiAwIDE2ek0xOTIgMzUybDAtMTkyIDAtMTYgMC0xNiAxNiAwIDMyIDAgMTYgMCAwIDE2IDAgMTYgMCAxOTIgMCAxNiAwIDE2LTE2IDAtMzIgMC0xNiAwIDAtMTYgMC0xNnptOTYgMGwwLTMyIDAtMTYgMC0xNiAxNiAwIDMyIDAgMTYgMCAwIDE2IDAgMTYgMCAzMiAwIDE2IDAgMTYtMTYgMC0zMiAwLTE2IDAgMC0xNiAwLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-poll-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-poll-vertical.svg)
  */
 const SquarePollVertical: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

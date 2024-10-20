@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-worried` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-worried?s=sharp-thin face-worried}
- * @preview ![face-worried](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDI1NkEyNDAgMjQwIDAgMSAwIDE2IDI1NmEyNDAgMjQwIDAgMSAwIDQ4MCAwek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTM0MCA0MjhjLTI0LTEyLjYtNTIuOS0yMC04NC0yMGMtMzEuMSAwLTYwIDcuNC04NCAyMGwtMTMuMSA2LjkgMS40LTE0LjhDMTY1IDM3Mi43IDIwNi4zIDMzNiAyNTYgMzM2czkxIDM2LjcgOTUuNyA4NC4ybDEuNCAxNC44TDM0MCA0Mjh6bS04NC03NmMtMzYuNCAwLTY2LjkgMjMuMy03Ni43IDU1YzIzLTkuNiA0OS4xLTE1IDc2LjctMTVjMjcuNiAwIDUzLjcgNS40IDc2LjggMTVjLTkuOC0zMS43LTQwLjMtNTUtNzYuOC01NXptLTk1LjYtODBhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHptMTc2LTE2YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnpNMjAwLjUgMTQzLjVsLTggLjVjLTMyLjUgMi02MS42IDE2LjUtODIuNyAzOC43bC01LjUgNS44LTExLjYtMTEgNS41LTUuOGMyMy43LTI1LjEgNTYuNi00MS40IDkzLjMtNDMuN2w4LS41IDEgMTZ6bTExOSAuNWwtOC0uNSAxLTE2IDggLjVjMzYuNyAyLjMgNjkuNiAxOC42IDkzLjMgNDMuN2w1LjUgNS44LTExLjYgMTEtNS41LTUuOEMzODEuMSAxNjAuNSAzNTIgMTQ2IDMxOS41IDE0NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-worried](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-worried.svg)
  */
 const FaceWorried: typeof Icon = x => (
     <Icon {...x}>

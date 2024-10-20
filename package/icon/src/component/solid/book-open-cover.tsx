@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `book-open-cover` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-open-cover?s=solid book-open-cover}
- * @preview ![book-open-cover](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDMybDAgMzc2TDk2IDM2OCA5NiAzNC43Qzk2IDE0LjkgMTEzLjgtLjIgMTMzLjMgMy4xTDMwNCAzMnpNODkuNyA0MDUuMUwzMjAgNDUxLjJsMjMwLjMtNDYuMWMxNS0zIDI1LjctMTYuMSAyNS43LTMxLjRsMC0zNDUgMjUuNy01LjFDNjIxLjUgMTkuNyA2NDAgMzQuOCA2NDAgNTVsMCAzNjYuN2MwIDE1LjMtMTAuOCAyOC40LTI1LjcgMzEuNEwzMjAgNTEyIDI1LjcgNDUzLjFDMTAuOCA0NTAuMiAwIDQzNyAwIDQyMS44TDAgNTVDMCAzNC44IDE4LjUgMTkuNyAzOC4zIDIzLjdMNjQgMjguOGwwIDM0NWMwIDE1LjMgMTAuOCAyOC40IDI1LjcgMzEuNHpNMzM2IDQwOGwwLTM3Nkw1MDYuNyAzLjFDNTI2LjItLjIgNTQ0IDE0LjkgNTQ0IDM0LjdMNTQ0IDM2OCAzMzYgNDA4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![book-open-cover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/book-open-cover.svg)
  */
 const BookOpenCover: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-check?s=light shield-check}
- * @preview ![shield-check](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQzLjUgMzcuM2M4LTMuNCAxNy0zLjQgMjUgMGwxNzYuNyA3NWMxMS4zIDQuOCAxOC45IDE1LjUgMTguOCAyNy42Yy0uNSA5NC0zOS40IDI1OS44LTE5NS41IDMzNC41Yy03LjkgMy44LTE3LjIgMy44LTI1LjEgMEM4Ny4zIDM5OS42IDQ4LjUgMjMzLjggNDggMTM5LjhjLS4xLTEyLjEgNy41LTIyLjggMTguOC0yNy42bDE3Ni43LTc1ek0yODEgNy44Yy0xNi02LjgtMzQtNi44LTUwIDBMNTQuMyA4Mi44Yy0yMiA5LjMtMzguNCAzMS0zOC4zIDU3LjJjLjUgOTkuMiA0MS4zIDI4MC43IDIxMy42IDM2My4yYzE2LjcgOCAzNi4xIDggNTIuOCAwQzQ1NC43IDQyMC43IDQ5NS41IDIzOS4yIDQ5NiAxNDBjLjEtMjYuMi0xNi4zLTQ3LjktMzguMy01Ny4yTDI4MSA3Ljh6bTgyLjMgMTk1LjVjNi4yLTYuMiA2LjItMTYuNCAwLTIyLjZzLTE2LjQtNi4yLTIyLjYgMEwyMjQgMjk3LjRsLTUyLjctNTIuN2MtNi4yLTYuMi0xNi40LTYuMi0yMi42IDBzLTYuMiAxNi40IDAgMjIuNmw2NCA2NGM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMGwxMjgtMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shield-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shield-check.svg)
  */
 const ShieldCheck: typeof Icon = x => (
     <Icon {...x}>

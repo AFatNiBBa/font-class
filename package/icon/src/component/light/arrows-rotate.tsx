@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-rotate` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-rotate?s=light arrows-rotate}
- * @preview ![arrows-rotate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjkuNCAyMTAuNkM4OS44IDEyNi41IDE2NS42IDY0IDI1NiA2NGM3MS4xIDAgMTMzLjEgMzguNiAxNjYuMyA5NkwzNjggMTYwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDgwLjcgMCAxNS4zIDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtOTZjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCA2MC42QzQwOC44IDc1LjUgMzM3LjUgMzIgMjU2IDMyQzE0OS42IDMyIDYwLjUgMTA2LjIgMzcuNyAyMDUuNkMzNS41IDIxNS4yIDQzLjEgMjI0IDUzIDIyNGM3LjkgMCAxNC42LTUuNyAxNi41LTEzLjR6bTM3My4yIDkwLjlDNDIyLjIgMzg1LjUgMzQ2LjQgNDQ4IDI1NiA0NDhjLTcxLjEgMC0xMzMuMS0zOC42LTE2Ni4zLTk2bDU0LjUgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtODAuOSAwLTE1LjEgMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgOTZjMCA4LjggNy4yIDE2IDE2IDE2czE2LTcuMiAxNi0xNmwwLTYwLjJDMTAzLjQgNDM2LjYgMTc0LjcgNDgwIDI1NiA0ODBjMTA2LjQgMCAxOTUuNS03NC4yIDIxOC4zLTE3My42YzIuMi05LjYtNS40LTE4LjQtMTUuMy0xOC40Yy03LjkgMC0xNC42IDUuNy0xNi41IDEzLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrows-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrows-rotate.svg)
  */
 const ArrowsRotate: typeof Icon = x => (
     <Icon {...x}>

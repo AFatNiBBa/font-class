@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signature-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signature-lock?s=sharp-regular signature-lock}
- * @preview ![signature-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDgwYy0yNi41IDAtNDggMjEuNS00OCA0OGwwIDQwIDAgMjQtNDggMCAwLTI0IDAtNDBjMC01MyA0My05NiA5Ni05NnM5NiA0MyA5NiA5NmwwIDcuOWMwIDIyLjItMS40IDQ0LjQtNC4xIDY2LjRsMTMzLTQxLjIgNDUuOC0xNC4yLTE2LjEgNDUuMkwzNTQuMSAyNzJsMjkuOSAwIDAgMTYgMCAzMi02NCAwLTM0LjEgMCAxMS41LTMyLjEgMjMuOS02Ni44TDIxMC41IDI1NS40bC0xIDQuN2MtMTIuNSA1Ni4yLTM0IDExMC4xLTYzLjYgMTU5LjVsLTI5LjMgNDguOC03IDExLjdMOTYgNDgwbC03MiAwTDAgNDgwbDAtMjRMMCAyODhsMC0xNy43IDE2LjktNS4yTDE2OSAyMThjNC42LTI3LjEgNy01NC42IDctODIuMWwwLTcuOWMwLTI2LjUtMjEuNS00OC00OC00OHpNMzg0IDM2OGwwIDQ4LTE5OS4yIDBjOC41LTE1LjYgMTYuMy0zMS43IDIzLjMtNDhMMzg0IDM2OHpNMTU3LjEgMjcxLjlMNDggMzA1LjcgNDggNDMybDM0LjQgMCAyMi4zLTM3LjFjMjMuMS0zOC40IDQwLjctNzkuOCA1Mi40LTEyM3pNNTI4IDI0MGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsMCA0OCA2NCAwIDAtNDhjMC0xNy43LTE0LjMtMzItMzItMzJ6bS04MCAzMmMwLTQ0LjIgMzUuOC04MCA4MC04MHM4MCAzNS44IDgwIDgwbDAgNDggMzIgMCAwIDE5Mi0yMjQgMCAwLTE5MiAzMiAwIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![signature-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/signature-lock.svg)
  */
 const SignatureLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

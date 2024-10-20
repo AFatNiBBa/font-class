@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-open` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-open?s=thin folder-open}
- * @preview ![folder-open](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDY0Yy0xMC42IDAtMjAuNS01LjMtMjYuNS0xNC4xcy03LjItMjAtMy4yLTI5LjhsNjQtMTYwQzEwMy4xIDI0OCAxMTQuOSAyNDAgMTI4IDI0MGw0MDAgMGMxMC42IDAgMjAuNSA1LjMgMjYuNSAxNC4xczcuMiAyMCAzLjIgMjkuOGwtNjQgMTYwQzQ4OC45IDQ1NiA0NzcuMSA0NjQgNDY0IDQ2NGwtODAgMEw2NCA0NjR6bTMyMCAxNmw4MCAwYzE5LjYgMCAzNy4zLTExLjkgNDQuNi0zMC4ybDY0LTE2MGM1LjktMTQuOCA0LjEtMzEuNS00LjgtNDQuN1M1NDMuOSAyMjQgNTI4IDIyNGwtNDAwIDBjLTE5LjYgMC0zNy4zIDExLjktNDQuNiAzMC4ybC02NCAxNjBjLTEuMyAzLjItMi4yIDYuNS0yLjggOS44Yy0uNC0yLjYtLjctNS4zLS43LThMMTYgOTZjMC0yNi41IDIxLjUtNDggNDgtNDhsMTE3LjUgMGMxMi43IDAgMjQuOSA1LjEgMzMuOSAxNC4xbDI2LjUgMjYuNWMxNSAxNSAzNS40IDIzLjQgNTYuNiAyMy40TDQxNiAxMTJjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCAzMiAxNiAwIDAtMzJjMC0zNS4zLTI4LjctNjQtNjQtNjRMMjk4LjUgOTZjLTE3IDAtMzMuMy02LjctNDUuMy0xOC43TDIyNi43IDUwLjdjLTEyLTEyLTI4LjMtMTguNy00NS4zLTE4LjdMNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMjAgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![folder-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/folder-open.svg)
  */
 const FolderOpen: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

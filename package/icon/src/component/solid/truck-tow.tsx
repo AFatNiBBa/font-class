@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-tow` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-tow?s=solid truck-tow}
- * @preview ![truck-tow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGw0OS42IDBjOS4xIDAgMTcuOCAzLjkgMjMuOSAxMC43TDM4NCAyNTJsMC0xMjRjMC0xNy43IDE0LjMtMzIgMzItMzJsODIuNyAwYzE3IDAgMzMuMyA2LjcgNDUuMyAxOC43TDYyMS4zIDE5MmMxMiAxMiAxOC43IDI4LjMgMTguNyA0NS4zbDAgMTguNyAwIDMyIDAgODhjMCAyMi4xLTE3LjkgNDAtNDAgNDBsLTI0IDBjMCA1My00MyA5Ni05NiA5NnMtOTYtNDMtOTYtOTZsLTEyOCAwYzAgNTMtNDMgOTYtOTYgOTZzLTk2LTQzLTk2LTk2bC0xNiAwYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTY0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDE0NCAwTDk2IDY0bDAgMTEyYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4bDAtMTZjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDE2YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZMNjQgMzJDNjQgMTQuMyA3OC4zIDAgOTYgMHpNNTc2IDI1NmwwLTE4LjdMNDk4LjcgMTYwIDQ0OCAxNjBsMCA5NiAxMjggMHpNMjA4IDQxNmE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAwem0yNzIgNDhhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![truck-tow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/truck-tow.svg)
  */
 const TruckTow: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

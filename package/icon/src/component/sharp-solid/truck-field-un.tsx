@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-field-un` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-field-un?s=sharp-solid truck-field-un}
- * @preview ![truck-field-un](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDMyTDMyIDMybDAgOTZMMCAxMjggMCAyODhsMzIgMCAwIDMyTDAgMzIwbDAgNjQgMzIgMCAzMiAwYzAgNTMgNDMgOTYgOTYgOTZzOTYtNDMgOTYtOTZsMTI4IDBjMCA1MyA0MyA5NiA5NiA5NnM5Ni00MyA5Ni05NmwzMiAwIDMyIDAgMC02NC0zMiAwIDAtOTYtNjguMSAwTDQ3Ny4yIDgzbC04LjQtMTlMNDQ4IDY0bC02NCAwIDAtMzJ6bTAgOTZsNDMuMiAwIDQyLjcgOTZMMzg0IDIyNGwwLTk2ek0xNjAgMzM2YTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnptMzIwIDk2YTQ4IDQ4IDAgMSAxIDAtOTYgNDggNDggMCAxIDEgMCA5NnpNMTI4IDE0NGwwIDY0YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC02NCAwLTE2IDMyIDAgMCAxNiAwIDY0YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4bDAtNjQgMC0xNiAzMiAwIDAgMTZ6bTExMi0xNmw4IDAgOS45IDAgNC40IDguOEwyODggMTg4LjJsMC00NC4yIDAtMTYgMzIgMCAwIDE2IDAgOTYgMCAxNi0xNiAwLTggMC05LjkgMC00LjQtOC44TDI1NiAxOTUuOGwwIDQ0LjIgMCAxNi0zMiAwIDAtMTYgMC05NiAwLTE2IDE2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![truck-field-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-field-un.svg)
  */
 const TruckFieldUn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

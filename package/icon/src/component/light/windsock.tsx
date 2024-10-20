@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `windsock` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/windsock?s=light windsock}
- * @preview ![windsock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAxMTIgNjQgMCAwLTQxLjNjMC0yMC4xIDE4LjMtMzUuMiAzOC0zMS40TDQ4NiAxMjNjMTUuMSAyLjkgMjYgMTYuMSAyNiAzMS40bDAgMTA3LjFjMCAxNS4zLTEwLjkgMjguNS0yNiAzMS40TDEzNCAzNjAuN2MtMTkuNyAzLjgtMzgtMTEuMy0zOC0zMS40TDk2IDI4OGwtNjQgMCAwIDIwOGMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNkwwIDI3MiAwIDE0NCAwIDE2QzAgNy4yIDcuMiAwIDE2IDB6TTMyIDE2MGwwIDk2IDY0IDAgMC05Ni02NCAwem05Ni03My4zbDAgMjQyLjUgOTYtMTguNSAwLTIwNS42TDEyOCA4Ni43em0xMjggMjQuNmwwIDE5My4zTDM4NCAyODAgMzg0IDEzNiAyNTYgMTExLjR6bTE2MCAzMC44bDAgMTMxLjggNjQtMTIuMyAwLTEwNy4xLTY0LTEyLjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![windsock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/windsock.svg)
  */
 const Windsock: typeof Icon = x => (
     <Icon {...x}>

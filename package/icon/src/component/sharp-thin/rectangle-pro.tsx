@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-pro` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-pro?s=sharp-thin rectangle-pro}
- * @preview ![rectangle-pro](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNjA4IDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA2MDggMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnpNODggMTYwbDU2IDBjMzAuOSAwIDU2IDI1LjEgNTYgNTZsMCA4LS42IDBjLTMuOSAyNy4xLTI3LjIgNDgtNTUuNCA0OGwtNDggMCAwIDcyIDAgOC0xNiAwIDAtOCAwLTgwIDAtOTYgMC04IDggMHptNTYgOTZjMjIuMSAwIDQwLTE3LjkgNDAtNDBzLTE3LjktNDAtNDAtNDBsLTQ4IDAgMCA4MCA0OCAwem0yNjQtMjRjMC0zOS44IDMyLjItNzIgNzItNzJzNzIgMzIuMiA3MiA3MmwwIDQ4YzAgMzkuOC0zMi4yIDcyLTcyIDcycy03Mi0zMi4yLTcyLTcybDAtNDh6bTcyLTU2Yy0zMC45IDAtNTYgMjUuMS01NiA1NmwwIDQ4YzAgMzAuOSAyNS4xIDU2IDU2IDU2czU2LTI1LjEgNTYtNTZsMC00OGMwLTMwLjktMjUuMS01Ni01Ni01NnpNMjQwIDE2MGw4IDAgNTYgMGMzMC45IDAgNTYgMjUuMSA1NiA1NmMwIDIzLjktMTUgNDQuNC0zNi4yIDUyLjRMMzcyLjYgMzUybC0xOC41IDAtNDYuNy04MC4xYy0xLjEgLjEtMi4yIC4xLTMuMyAuMWwtNDggMCAwIDcyIDAgOC0xNiAwIDAtOCAwLTgwIDAtOTYgMC04em0xNiA5Nmw0OCAwYzIyLjEgMCA0MC0xNy45IDQwLTQwcy0xNy45LTQwLTQwLTQwbC00OCAwIDAgODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rectangle-pro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/rectangle-pro.svg)
  */
 const RectanglePro: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

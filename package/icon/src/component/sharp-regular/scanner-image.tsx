@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `scanner-image` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-image?s=sharp-regular scanner-image}
- * @preview ![scanner-image](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjYuMiA0Mi4zTDQ0LjQgMzIuMSAyNC4xIDc1LjYgNDUuOCA4NS43IDQ3OC4yIDI4OCA0OCAyODggMCAyODhsMCA0OCAwIDk2IDAgNDggNDggMCA0ODAgMCA0OCAwIDAtNDggMC0yNCAwLTI0IDAtNDggMC00MCAwLTggMC03LjMtMTMuOC02LjUtNDk2LTIzMnpNNTI4IDMzNmwwIDQ4IDAgMjQgMCAyNEw0OCA0MzJsMC05NiA0ODAgMHpNMTUyIDM2MGwwIDQ4IDQ4IDAgMC00OC00OCAwem0tMzIgMGwtNDggMCAwIDQ4IDQ4IDAgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![scanner-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/scanner-image.svg)
  */
 const ScannerImage: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

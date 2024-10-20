@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `subtitles-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subtitles-slash?s=sharp-light subtitles-slash}
- * @preview ![subtitles-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAuNCAxOEwyNy44IDguMSA4LjEgMzMuNGwxMi42IDkuOEw1OTkuOCA0OTQuM2wxMi42IDkuOCAxOS43LTI1LjJMNjE5LjUgNDY5IDQwLjQgMTh6TTQ1OS45IDQ0OEw2NCA0NDhsMC0zMTIuNkwzMiAxMTAuMiAzMiA0NDhsMCAzMiAzMiAwIDQzNi40IDAtNDAuNS0zMnpNNTc2IDMyTDEzOS42IDMybDQwLjUgMzJMNTc2IDY0bDAgMzEyLjYgMzIgMjUuM0w2MDggNjRsMC0zMi0zMiAwek00MjMuMyAyNTZsNDAuNSAzMiAzMi4yIDAgMTYgMCAwLTMyLTE2IDAtNzIuNyAwek0xNDQgMjU2bC0xNiAwIDAgMzIgMTYgMCAxMTMuMiAwLTQwLjUtMzJMMTQ0IDI1NnptMTYwIDk2bC0xNiAwIDAgMzIgMTYgMCA3NC44IDAtNDAuNS0zMkwzMDQgMzUyem0tMTYwIDBsLTE2IDAgMCAzMiAxNiAwIDk2IDAgMTYgMCAwLTMyLTE2IDAtOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![subtitles-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/subtitles-slash.svg)
  */
 const SubtitlesSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

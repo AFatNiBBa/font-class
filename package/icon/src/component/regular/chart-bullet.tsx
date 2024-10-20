@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-bullet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-bullet?s=regular chart-bullet}
- * @preview ![chart-bullet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY0IDMyYzEzLjMgMCAyNCAxMC43IDI0IDI0bDAgOCAxNzYgMGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDY0YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC0xNzYgMCAwIDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC04TDQ4IDIyNGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC02NEMwIDg1LjUgMjEuNSA2NCA0OCA2NGwxOTIgMCAwLThjMC0xMy4zIDEwLjctMjQgMjQtMjR6TTE2MCAxMTJsMCA2NCA4MCAwIDAtNjQtODAgMHptMTI4IDBsMCA2NCAxNzYgMCAwLTY0LTE3NiAwem0tMTc2IDBsLTY0IDAgMCA2NCA2NCAwIDAtNjR6TTM2MCAyNTZjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA4IDgwIDBjMjYuNSAwIDQ4IDIxLjUgNDggNDhsMCA2NGMwIDI2LjUtMjEuNSA0OC00OCA0OGwtODAgMCAwIDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC04TDQ4IDQ0OGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC02NGMwLTI2LjUgMjEuNS00OCA0OC00OGwyODggMCAwLThjMC0xMy4zIDEwLjctMjQgMjQtMjR6TTIyNCAzMzZsMCA2NCAxMTIgMCAwLTY0LTExMiAwem0xNjAgMGwwIDY0IDgwIDAgMC02NC04MCAwem0tMjA4IDBMNDggMzM2bDAgNjQgMTI4IDAgMC02NHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![chart-bullet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chart-bullet.svg)
  */
 const ChartBullet: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `magnifying-glass-location` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-location?s=sharp-thin magnifying-glass-location}
- * @preview ![magnifying-glass-location](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDE2YTE5MiAxOTIgMCAxIDEgMCAzODQgMTkyIDE5MiAwIDEgMSAwLTM4NHptMCA0MDBjNTQuNiAwIDEwNC4yLTIxIDE0MS4zLTU1LjRMNDk5LjkgNTExLjNsMTEuMy0xMS4zTDM2MC42IDM0OS4zQzM5NSAzMTIuMiA0MTYgMjYyLjYgNDE2IDIwOEM0MTYgOTMuMSAzMjIuOSAwIDIwOCAwUzAgOTMuMSAwIDIwOFM5My4xIDQxNiAyMDggNDE2em01Mi44LTE5NS42Yy03IDE2LjEtMTYuNSAzMi4yLTI2LjEgNDYuOGMtOS43IDE0LjUtMTkuMyAyNy4xLTI2LjYgMzZsLS4xIC4xLS4xLS4xYy03LjMtOS0xNy0yMS42LTI2LjYtMzZjLTkuNy0xNC41LTE5LjEtMzAuNy0yNi4xLTQ2LjhDMTQ4LjEgMjA0LjEgMTQ0IDE4OC45IDE0NCAxNzZjMC0zNS4zIDI4LjctNjQgNjQtNjRzNjQgMjguNyA2NCA2NGMwIDEyLjktNC4xIDI4LjEtMTEuMiA0NC40em0tNDIuMyA5NS4zQzI0MC4yIDI4OS4zIDI4OCAyMjUuNSAyODggMTc2YzAtNDQuMi0zNS44LTgwLTgwLTgwcy04MCAzNS44LTgwIDgwYzAgNDkuNSA0Ny44IDExMy4zIDY5LjUgMTM5LjdDMjAzLjkgMzIzLjUgMjA4IDMyOCAyMDggMzI4czQuMS00LjUgMTAuNS0xMi4zek0yMjQgMTc2YTE2IDE2IDAgMSAwIC0zMiAwIDE2IDE2IDAgMSAwIDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![magnifying-glass-location](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/magnifying-glass-location.svg)
  */
 const MagnifyingGlassLocation: typeof Icon = x => (
     <Icon {...x}>

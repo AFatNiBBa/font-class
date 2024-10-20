@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jedi-order` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jedi-order?s=brands jedi-order}
- * @preview ![jedi-order](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk4LjUgMzczLjZjOTUuOS0xMjIuMSAxNy4yLTIzMy4xIDE3LjItMjMzLjEgNDUuNCA4NS44LTQxLjQgMTcwLjUtNDEuNCAxNzAuNSAxMDUtMTcxLjUtNjAuNS0yNzEuNS02MC41LTI3MS41IDk2LjkgNzIuNy0xMC4xIDE5MC43LTEwLjEgMTkwLjcgODUuOCAxNTguNC02OC42IDIzMC4xLTY4LjYgMjMwLjFzLS40LTE2LjktMi4yLTg1LjdjNC4zIDQuNSAzNC41IDM2LjIgMzQuNSAzNi4ybC0yNC4yLTQ3LjQgNjIuNi05LjEtNjIuNi05LjEgMjAuMi01NS41LTMxLjQgNDUuOWMtMi4yLTg3LjctNy44LTMwNS4xLTcuOS0zMDYuOXYtMi40IDEtMSAyLjRjMCAxLTUuNiAyMTktNy45IDMwNi45bC0zMS40LTQ1LjkgMjAuMiA1NS41LTYyLjYgOS4xIDYyLjYgOS4xLTI0LjIgNDcuNCAzNC41LTM2LjJjLTEuOCA2OC44LTIuMiA4NS43LTIuMiA4NS43cy0xNTQuNC03MS43LTY4LjYtMjMwLjFjMCAwLTEwNy0xMTguMS0xMC4xLTE5MC43IDAgMC0xNjUuNSA5OS45LTYwLjUgMjcxLjUgMCAwLTg2LjgtODQuOC00MS40LTE3MC41IDAgMC03OC43IDExMSAxNy4yIDIzMy4xIDAgMC0yNi4yLTE2LjEtNDkuNC03Ny43IDAgMCAxNi45IDE4My4zIDIyMiAxODUuN2g0LjFjMjA1LTIuNCAyMjItMTg1LjcgMjIyLTE4NS43LTIzLjYgNjEuNS00OS45IDc3LjctNDkuOSA3Ny43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![jedi-order](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/jedi-order.svg)
  */
 const JediOrder: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

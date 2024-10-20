@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `truck-ramp-couch` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-ramp-couch?s=solid truck-ramp-couch}
- * @preview ![truck-ramp-couch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQwIDBsMCA0MDBjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJjLTYxIDAtMTEwLjUtNDguNy0xMTItMTA5LjNMNDguNCA1MDIuOWMtMTcuMSA0LjYtMzQuNi01LjQtMzkuMy0yMi41czUuNC0zNC42IDIyLjUtMzkuM0wzNTIgMzUzLjggMzUyIDY0YzAtMzUuMyAyOC43LTY0IDY0LTY0TDY0MCAwek01NzYgNDAwYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6TTI5NC41IDIwOS4yYzguNy0yLjMgMTcuNC0yLjEgMjUuNSAuMmwwIDEyNS41LTM4LjcgMTAuNEwxMjYuNyAzODYuNiA2NC45IDQwMy4yYy0xNy4xIDQuNi0zNC42LTUuNi0zOS4yLTIyLjZMMTMuMyAzMzQuMmMtNi45LTI1LjYgOC4zLTUxLjkgMzMuOS01OC44czUxLjkgOC4zIDU4LjggMzMuOWw0LjEgMTUuNSAxNTQuNS00MS40LTQuMS0xNS41Yy02LjktMjUuNiA4LjMtNTEuOSAzMy45LTU4Ljh6TTggMjUyLjhjLTkuMS0zNC4xIDExLjEtNjkuMiA0NS4zLTc4LjRsMTg1LjUtNDkuN2MzNC4xLTkuMSA2OS4yIDExLjEgNzguNCA0NS4zbDEuNyA2LjRjLTEwLjYtMS42LTIxLjYtMS4xLTMyLjYgMS45Yy0zNy40IDEwLTYxLjUgNDQuOS01OS4yIDgyLjFMMTMxLjIgMjg2Yy0xNi42LTMzLjQtNTQuOS01MS41LTkyLjMtNDEuNWMtMTEgMi45LTIwLjggOC0yOS4yIDE0LjdMOCAyNTIuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![truck-ramp-couch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/truck-ramp-couch.svg)
  */
 const TruckRampCouch: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

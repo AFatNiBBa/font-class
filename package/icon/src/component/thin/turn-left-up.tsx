@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-left-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left-up?s=thin turn-left-up}
- * @preview ![turn-left-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDE3Nmw4OS4xIDBjMy44IDAgNi45LTMuMSA2LjktNi45YzAtMS44LS43LTMuNS0xLjktNC43TDE2MS45IDE2LjhjLS41LS41LTEuMi0uOC0xLjktLjhzLTEuNCAuMy0xLjkgLjhMMTcuOSAxNjQuNGMtMS4yIDEuMy0xLjkgMy0xLjkgNC43YzAgMy44IDMuMSA2LjkgNi45IDYuOWw4OS4xIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMjA4YzAgNTMgNDMgOTYgOTYgOTZsODggMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTE2YzAtMTMuMy0xMC43LTI0LTI0LTI0bC04OCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTIwOGMwLTguOCA3LjItMTYgMTYtMTZ6TTE3My41IDUuOEwzMTMuNyAxNTMuNGM0IDQuMyA2LjMgOS45IDYuMyAxNS44YzAgMTIuNi0xMC4yIDIyLjktMjIuOSAyMi45TDIyNCAxOTJsLTE2IDAgMCAxNiAwIDE5MmMwIDguOCA3LjIgMTYgMTYgMTZsODggMGMyMi4xIDAgNDAgMTcuOSA0MCA0MGwwIDE2YzAgMjIuMS0xNy45IDQwLTQwIDQwbC04OCAwYy02MS45IDAtMTEyLTUwLjEtMTEyLTExMmwwLTE5MiAwLTE2LTE2IDAtNzMuMSAwQzEwLjIgMTkyIDAgMTgxLjggMCAxNjkuMWMwLTUuOSAyLjMtMTEuNSA2LjMtMTUuOEwxNDYuNSA1LjhDMTUwIDIuMSAxNTQuOSAwIDE2MCAwczEwIDIuMSAxMy41IDUuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![turn-left-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/turn-left-up.svg)
  */
 const TurnLeftUp: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

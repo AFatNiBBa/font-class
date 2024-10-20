@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bath` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bath?s=sharp-solid bath}
- * @preview ![bath](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEwzMiAwbDAgMzIgMCAyMjRMMCAyNTZsMCA2NCAzMiAwIDQ0OCAwIDMyIDAgMC02NC0zMiAwTDk2IDI1NiA5NiA2NGwxOC43IDAgMTguOCAxOC44QzEzMCA5MS44IDEyOCAxMDEuNyAxMjggMTEyYzAgMTkuNiA3IDM3LjUgMTguNyA1MS40TDEzNC4xIDE3NiAxNjggMjA5LjlsMTctMTdMMjg5IDg5bDE3LTE3TDI3MiAzOC4xIDI1OS40IDUwLjdDMjQ1LjUgMzkgMjI3LjYgMzIgMjA4IDMyYy0xMC4zIDAtMjAuMiAyLTI5LjIgNS41TDE1MC42IDkuNCAxNDEuMyAwIDEyOCAwIDY0IDB6TTMyIDM1MmwwIDE2YzAgMjguNCAxMi40IDU0IDMyIDcxLjZMNjQgNDgwbDAgMzIgNjQgMCAwLTMyIDAtMTYgMjU2IDAgMCAxNiAwIDMyIDY0IDAgMC0zMiAwLTQwLjRjMTkuNi0xNy42IDMyLTQzLjEgMzItNzEuNmwwLTE2TDMyIDM1MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bath](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bath.svg)
  */
 const Bath: typeof Icon = x => (
     <Icon {...x}>

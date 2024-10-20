@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `splotch` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/splotch?s=sharp-light splotch}
- * @preview ![splotch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEgMjM3LjhjNy44IDExLjkgMTIuMSAyNS43IDEyLjQgMzkuOGMuNCAxNy00LjkgMzMuNy0xNS4yIDQ3LjRMMTYgMzY4bDAgNjMuOUwxNiA0NjRsMzItMi45TDE5MiA0NDhjMjAuNyAwIDQwLjggNyA1NyAyMGw1NSA0NCA2My44IDAgMzIuMiAwLTMuNi0zMi00LjktNDMuOWMtNC43LTQyLjIgMTMuMy04My44IDQ3LjMtMTA5LjNMNTEyIDI3MmwwLTgwLTc0LjQtMjcuOWMtMzMuOS0xMi43LTYwLjMtNDAuMS03MS43LTc0LjRMMzM2IDAgMjU2IDAgMjIwLjggNDIuMmMtMjcuNyAzMy4yLTcxLjEgNDktMTEzLjcgNDEuMkwzMiA2OS44IDAgNjQgMCA5Ni41IDAgMTYwbDUxIDc3Ljh6TTMyIDE1MC41bDAtNDguMUwxMDEuNCAxMTVjNTMuOSA5LjggMTA4LjktMTAuMiAxNDQtNTIuMkwyNzEgMzJsNDEuOSAwIDIyLjYgNjcuOGMxNC41IDQzLjUgNDcuOSA3OC4yIDkwLjggOTQuM0w0ODAgMjE0LjJsMCA0MS44LTYwLjQgNDUuM2MtNDMgMzIuMy02NS44IDg0LjktNTkuOSAxMzguNGw0LjUgNDAuMy00OSAwTDI2OSA0NDNjLTIxLjgtMTcuNS00OS0yNy03Ny0yN2MtMSAwLTEuOSAwLTIuOSAuMUw0OCA0MjlsMC01MC4zIDI1LjgtMzQuNGMxNC41LTE5LjQgMjIuMS00My4xIDIxLjYtNjcuM2MtLjUtMjAuMi02LjYtMzkuOC0xNy42LTU2LjZMMzIgMTUwLjV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![splotch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/splotch.svg)
  */
 const Splotch: typeof Icon = x => (
     <Icon {...x}>

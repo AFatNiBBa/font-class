@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paste` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paste?s=sharp-light paste}
- * @preview ![paste](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTM2LjUgNTEuMkMxMzguNyA0MC4yIDE0OC40IDMyIDE2MCAzMnMyMS4zIDguMiAyMy41IDE5LjJMMTg2LjEgNjRsNS45IDAgNy4yIDBMMjI0IDY0bDggMCAyNCAwIDMyIDAgMCAzMiAzMiAwIDAtMzIgMC0zMi0zMiAwLTMyIDAtMTYgMC0yOS40IDBjLTktMTguOS0yOC4zLTMyLTUwLjYtMzJzLTQxLjYgMTMuMS01MC42IDMyTDgwIDMyIDY0IDMyIDMyIDMyIDAgMzIgMCA2NCAwIDQxNmwwIDMyIDMyIDAgMTYwIDAgMC0zMkwzMiA0MTYgMzIgNjRsMzIgMCAwIDQ4IDAgMTYgMTYgMCAxMTIgMCAwLTMyTDk2IDk2bDAtMzIgMjQuOCAwIDEzLjEgMCAyLjYtMTIuOHpNNDgwIDQ4MGwtMjI0IDAgMC0zMjAgMTM4LjcgMEw0ODAgMjQ1LjMgNDgwIDQ4MHptMzItMjQ4TDQwOCAxMjhsLTE1MiAwLTMyIDAgMCAzMiAwIDMyMCAwIDMyIDMyIDAgMjI0IDAgMzIgMCAwLTMyIDAtMjQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![paste](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/paste.svg)
  */
 const Paste: typeof Icon = x => (
     <Icon {...x}>

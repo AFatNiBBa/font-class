@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wifi-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-slash?s=sharp-regular wifi-slash}
- * @preview ![wifi-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDguNCAxNC44TDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDM2NC4xIDI1OS45YzQ3LjQgOC41IDkwIDMwLjQgMTI0IDYxLjdsMzIuNS0zNS4zQzQ2Ny45IDIzNy43IDM5Ny40IDIwOCAzMjAgMjA4Yy03LjMgMC0xNC42IC4zLTIxLjcgLjhMMTY4LjMgMTA3LjlDMjE1LjQgODkuOSAyNjYuNiA4MCAzMjAgODBjMTEwLjQgMCAyMTAuOSA0Mi4yIDI4Ni4zIDExMS4zbDMyLjQtMzUuNEM1NTQuOCA3OSA0NDIuOSAzMiAzMjAgMzJjLTY5LjYgMC0xMzUuNyAxNS4xLTE5NS4yIDQyLjFMNDguNCAxNC44ek03Ni45IDE1Ni42TDM3LjcgMTI1LjdDMjUgMTM1LjIgMTIuOSAxNDUuMiAxLjIgMTU1LjlsMzIuNCAzNS40YzEzLjYtMTIuNSAyOC4xLTI0LjEgNDMuMi0zNC43ek0yMjYuMyAyNzQuM0wxODQgMjQxYy0yMy42IDEyLjItNDUuMyAyNy41LTY0LjcgNDUuNGwzMi41IDM1LjNjMjEuNi0xOS45IDQ2LjgtMzYuMSA3NC40LTQ3LjN6TTM3NiA0MjRhNTYgNTYgMCAxIDAgLTExMiAwIDU2IDU2IDAgMSAwIDExMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wifi-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/wifi-slash.svg)
  */
 const WifiSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

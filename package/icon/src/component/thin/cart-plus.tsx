@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-plus?s=thin cart-plus}
- * @preview ![cart-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOCAwQzMuNiAwIDAgMy42IDAgOHMzLjYgOCA4IDhsMzcuNyAwQzU3LjEgMTYgNjcgMjQuMSA2OS4yIDM1LjRsNTkuNCAzMDMuNGM1LjEgMjYuMyAyOC4yIDQ1LjIgNTUgNDUuMkw1MDQgMzg0YzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0zMjAuNSAwYy0xOS4xIDAtMzUuNi0xMy41LTM5LjMtMzIuM0wxMzQuOSAyODhsMzM5IDBjMjYgMCA0OC42LTE3LjkgNTQuNS00My4zTDU3NS44IDQxLjhjMS00LjMtMS43LTguNi02LTkuNnMtOC42IDEuNy05LjYgNkw1MTIuOSAyNDEuMWMtNC4yIDE4LjEtMjAuNCAzMC45LTM5IDMwLjlsLTM0Mi4xIDBMODQuOSAzMi4zQzgxLjIgMTMuNSA2NC44IDAgNDUuNyAwTDggMHpNMTQ0IDQ2NGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwem04MCAwYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6bTI0MC0zMmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTAgODBhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2ek0yMzIgMTQ0YzAgNC40IDMuNiA4IDggOGw3MiAwIDAgNzJjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOGwwLTcyIDcyIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTcyIDAgMC03MmMwLTQuNC0zLjYtOC04LThzLTggMy42LTggOGwwIDcyLTcyIDBjLTQuNCAwLTggMy42LTggOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cart-plus.svg)
  */
 const CartPlus: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

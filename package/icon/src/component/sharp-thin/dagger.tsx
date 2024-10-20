@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dagger` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dagger?s=sharp-thin dagger}
- * @preview ![dagger](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAwIDBsMCA4IDAgMTIwIDQwIDAgMTYgMCA1NiAwIDY0IDAgOCAwIDAgOCAwIDMyYzAgMjIuMS0xNy45IDQwLTQwIDQwcy00MC0xNy45LTQwLTQwbDAtMjQtNDggMC0xNiAwLTQwIDAtMTYgMC00MCAwLTE2IDAtNDggMCAwIDI0YzAgMjIuMS0xNy45IDQwLTQwIDQwcy00MC0xNy45LTQwLTQwbDAtMzIgMC04IDggMCA2NCAwIDU2IDAgMTYgMCA0MCAwTDE4NCA4bDAtOCAxNiAwek02NCAxNDRsLTQ4IDAgMCAyNGMwIDEzLjMgMTAuNyAyNCAyNCAyNHMyNC0xMC43IDI0LTI0bDAtMjR6bTI1NiAwbDAgMjRjMCAxMy4zIDEwLjcgMjQgMjQgMjRzMjQtMTAuNyAyNC0yNGwwLTI0LTQ4IDB6TTE0NCA0MjYuNGw0OCA2MCA0OC02MEwyNDAgMTc2bDE2IDAgMCAyNTYtNTMuOCA2Ny4yTDE5MiA1MTJsLTEwLjItMTIuOEwxMjggNDMybDAtMjU2IDE2IDAgMCAyNTAuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dagger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/dagger.svg)
  */
 const Dagger: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

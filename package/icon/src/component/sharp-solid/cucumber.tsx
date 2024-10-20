@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cucumber` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cucumber?s=sharp-solid cucumber}
- * @preview ![cucumber](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzcuNSA0NzQuNWM0Ny44IDQ3LjggMTIzLjkgNDkuOSAxNzQuMiA2LjRMMjMyIDUwMS4zIDI3Ny4zIDQ1NmwtMjAuMS0yMC4xTDQzNS45IDI1Ny4xIDQ1NiAyNzcuMyA1MDEuMyAyMzJsLTIwLjQtMjAuNGM0My41LTUwLjMgNDEuNC0xMjYuNC02LjQtMTc0LjJjLTUwLTUwLTEzMS01MC0xODEgMEwxNzIuMSAxNTguOSAxNTIgMTM4LjcgMTA2LjcgMTg0bDIwLjEgMjAuMUwzNy41IDI5My41Yy01MCA1MC01MCAxMzEgMCAxODF6TTE2OCAyODBsMCA0OC00OCAwIDAtNDggNDggMHptMTEyLTMybDQ4IDAgMCA0OC00OCAwIDAtNDh6TTQyNCA4OGwwIDQ4LTQ4IDAgMC00OCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cucumber](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cucumber.svg)
  */
 const Cucumber: typeof Icon = x => (
     <Icon {...x}>

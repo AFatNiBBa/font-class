@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-fire` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-fire?s=solid house-fire}
- * @preview ![house-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDM1MC4xbDAgMS45LTMyIDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgNjQgMCAyNGMwIDIyLjEtMTcuOSA0MC00MCA0MGwtMjQgMC0zMS45IDBjLTEuNSAwLTMtLjEtNC41LS4yYy0xLjIgLjEtMi40IC4yLTMuNiAuMmwtMTYgMGMtMjIuMSAwLTQwLTE3LjktNDAtNDBsMC0xMTJjMC0uOSAwLTEuOSAuMS0yLjhsMC02OS43LTMyIDBjLTE4IDAtMzItMTQtMzItMzIuMWMwLTkgMy0xNyAxMC0yNEwyNjYuNCA4YzctNyAxNS04IDIyLThzMTUgMiAyMSA3TDQ0Ny4zIDEyOC4xYy0xMi4zLTEtMjUgMy0zNC44IDExLjdjLTM1LjQgMzEuNi02NS42IDY3LjctODcuMyAxMDIuOEMzMDQuMyAyNzYuNSAyODggMzE0LjkgMjg4IDM1MC4xek00ODAgNTEyYy04OC40IDAtMTYwLTcxLjYtMTYwLTE2MGMwLTc2LjcgNjIuNS0xNDQuNyAxMDcuMi0xNzkuNGM1LTMuOSAxMC45LTUuOCAxNi44LTUuOGM3LjktLjEgMTYgMy4xIDIyIDkuMmw0NiA0NiAxMS4zLTExLjNjMTEuNy0xMS43IDMwLjYtMTIuNyA0Mi4zLTFDNjI0LjUgMjY4IDY0MCAzMjAuMiA2NDAgMzUyYzAgODguNC03MS42IDE2MC0xNjAgMTYwem02NC0xMTEuOGMwLTM2LjUtMzctNzMtNTQuOC04OC40Yy01LjQtNC43LTEzLjEtNC43LTE4LjUgMEM0NTMgMzI3LjEgNDE2IDM2My42IDQxNiA0MDAuMmMwIDM1LjMgMjguNyA2NCA2NCA2NHM2NC0yOC43IDY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![house-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-fire.svg)
  */
 const HouseFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

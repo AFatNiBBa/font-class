@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `triangle` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle?s=light triangle}
- * @preview ![triangle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM1LjUgNzUuOGM0LjItNy4zIDEyLTExLjggMjAuNS0xMS44czE2LjIgNC41IDIwLjUgMTEuOGwyMDEgMzQ0LjZjMS42IDIuOCAyLjUgNiAyLjUgOS4zYzAgMTAuMi04LjIgMTguNC0xOC40IDE4LjRMNTAuNCA0NDhDNDAuMiA0NDggMzIgNDM5LjggMzIgNDI5LjZjMC0zLjMgLjktNi40IDIuNS05LjNsMjAxLTM0NC42ek0yMDcuOSA1OS42TDYuOSA0MDQuMkMyLjQgNDExLjkgMCA0MjAuNyAwIDQyOS42QzAgNDU3LjQgMjIuNiA0ODAgNTAuNCA0ODBsNDExLjIgMGMyNy44IDAgNTAuNC0yMi42IDUwLjQtNTAuNGMwLTguOS0yLjQtMTcuNy02LjktMjUuNEwzMDQuMSA1OS42QzI5NC4xIDQyLjUgMjc1LjggMzIgMjU2IDMycy0zOC4xIDEwLjUtNDguMSAyNy42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/triangle.svg)
  */
 const Triangle: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-cells-unlock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-unlock?s=sharp-regular table-cells-unlock}
- * @preview ![table-cells-unlock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYwIDgwbDAgODggMTA0IDAgMC04OEwzNjAgODB6bS00OCAwTDIwMCA4MGwwIDg4IDExMiAwIDAtODh6TTE1MiA4MEw0OCA4MGwwIDg4IDEwNCAwIDAtODh6TTQ4IDIxNmwwIDgwIDEwNCAwIDAtODBMNDggMjE2em0wIDEyOGwwIDg4IDEwNCAwIDAtODhMNDggMzQ0em0xNTIgODhsMTEyIDAgMC04OC0xMTIgMCAwIDg4em0xNjAgMGwyNCAwIDAgNDhMNDggNDgwIDAgNDgwbDAtNDhMMCA4MCAwIDMybDQ4IDAgNDE2IDAgNDggMCAwIDQ4IDAgODEuMWMtMzQuNyA1LTY0LjIgMjUuOC04MSA1NC45bC03MSAwIDAgODAgMjQgMCAwIDQ4LTI0IDAgMCA4OHpNMjAwIDI5NmwxMTIgMCAwLTgwLTExMiAwIDAgODB6bTI5Ni0yNGwwIDQ4IDMyIDAgMzIgMCA0OCAwIDMyIDAgMCAxOTItMjI0IDAgMC0xOTIgMzIgMCAwLTQ4YzAtNDQuMiAzNS44LTgwIDgwLTgwczgwIDM1LjggODAgODBsLTQ4IDBjMC0xNy43LTE0LjMtMzItMzItMzJzLTMyIDE0LjMtMzIgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![table-cells-unlock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/table-cells-unlock.svg)
  */
 const TableCellsUnlock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

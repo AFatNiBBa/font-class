@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fire-hydrant` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-hydrant?s=sharp-light fire-hydrant}
- * @preview ![fire-hydrant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDBsMCAxNiAwIDE3YzU3LjkgNy4yIDEwMy44IDUzLjEgMTExIDExMWwxNyAwIDE2IDAgMCAzMi0xNiAwTDQ4IDE3NmwtMTYgMCAwLTMyIDE2IDAgMTcgMEM3Mi4yIDg2LjEgMTE4LjEgNDAuMiAxNzYgMzNsMC0xNyAwLTE2IDMyIDB6TTE5MiA2NGMtNDcuNiAwLTg3LjEgMzQuNi05NC43IDgwbDE4OS4zIDBjLTcuNi00NS40LTQ3LjEtODAtOTQuNy04MHpNMzIgNDgwbDE2IDAgMTYgMCAwLTgwLTQ4IDBMMCA0MDBsMC0xNkwwIDI1NmwwLTE2IDE2IDAgNDggMCAwLTMyIDMyIDAgMCA0OCAwIDEyOCAwIDk2IDE5MiAwIDAtOTYgMC0xMjggMC00OCAzMiAwIDAgMzIgNDggMCAxNiAwIDAgMTYgMCAxMjggMCAxNi0xNiAwLTQ4IDAgMCA4MCAxNiAwIDE2IDAgMCAzMi0xNiAwLTMyIDBMODAgNTEybC0zMiAwLTE2IDAgMC0zMnpNNjQgMzY4bDAtOTYtMzIgMCAwIDk2IDMyIDB6bTE2MC00OGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0xMjggNDhsMC05Ni0zMiAwIDAgOTYgMzIgMHpNMTI4IDMyMGE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fire-hydrant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fire-hydrant.svg)
  */
 const FireHydrant: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

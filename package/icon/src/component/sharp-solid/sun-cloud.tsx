@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sun-cloud` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-cloud?s=sharp-solid sun-cloud}
- * @preview ![sun-cloud](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDczLjFMMTUwIDAgMTI2LjcgMTI2LjcgMCAxNTAgNzMuMSAyNTYgMCAzNjJsMTI2LjcgMjMuM0wxNTAgNTEybDEwNi03My4xTDM2MiA1MTJsMTEuOC02NEwyODggNDQ4bDAtNjhjLTEwLjIgMi42LTIxIDQtMzIgNGMtNzAuNyAwLTEyOC01Ny4zLTEyOC0xMjhzNTcuMy0xMjggMTI4LTEyOGM2MS4zIDAgMTEyLjYgNDMuMSAxMjUuMSAxMDAuN2MyMC41LTIyLjUgNTAtMzYuNyA4Mi45LTM2LjdjNi4xIDAgMTIuMiAuNSAxOCAxLjRMNTEyIDE1MCAzODUuMyAxMjYuNyAzNjIgMCAyNTYgNzMuMXptMzIuMiAyNzMuNGMyLjItMzkuMyAyOC4xLTcyLjMgNjMuNy04NWMuMS0xLjggLjItMy43IC4yLTUuNWMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NnM0MyA5NiA5NiA5NmMxMS4zIDAgMjIuMS0xLjkgMzIuMi01LjV6TTU2OCA0MTZsNzIgMCAwLTcyYzAtMzkuOC0zMi4yLTcyLTcyLTcyYy0xMC4xIDAtMTkuNyAyLjEtMjguNCA1LjhDNTI4LjggMjQ2LjUgNDk5IDIyNCA0NjQgMjI0Yy0zOC43IDAtNzEgMjcuNS03OC40IDY0Yy0uNSAwLTEuMSAwLTEuNiAwYy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDY0IDY0IDAgMTg0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sun-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sun-cloud.svg)
  */
 const SunCloud: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

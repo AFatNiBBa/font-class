@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bring-forward` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bring-forward?s=light bring-forward}
- * @preview ![bring-forward](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ4MGwyMjQgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTIyNGMwLTE3LjctMTQuMy0zMi0zMi0zMmwtNjQgMCAwLTMyIDY0IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyMjRjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTIyNCAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTY0IDMyIDAgMCA2NGMwIDE3LjcgMTQuMyAzMiAzMiAzMnpNNjQgMzIwbDIyNCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMjI0YzAtMTcuNy0xNC4zLTMyLTMyLTMyTDY0IDMyQzQ2LjMgMzIgMzIgNDYuMyAzMiA2NGwwIDIyNGMwIDE3LjcgMTQuMyAzMiAzMiAzMnptMjI0IDMyTDY0IDM1MmMtMzUuMyAwLTY0LTI4LjctNjQtNjRMMCA2NEMwIDI4LjcgMjguNyAwIDY0IDBMMjg4IDBjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyMjRjMCAzNS4zLTI4LjcgNjQtNjQgNjR6bS0zMi05NmwwLTE2MEw5NiA5NmwwIDE2MCAxNjAgMHptMzIgMGMwIDE3LjctMTQuMyAzMi0zMiAzMkw5NiAyODhjLTE3LjcgMC0zMi0xNC4zLTMyLTMyTDY0IDk2YzAtMTcuNyAxNC4zLTMyIDMyLTMybDE2MCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTYweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bring-forward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bring-forward.svg)
  */
 const BringForward: typeof Icon = x => (
     <Icon {...x}>

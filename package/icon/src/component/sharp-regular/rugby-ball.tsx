@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rugby-ball` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rugby-ball?s=sharp-regular rugby-ball}
- * @preview ![rugby-ball](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDgwTDQzMiAxNmwtOTYgMEMxNTkuMyAxNiAxNiAxNTkuMyAxNiAzMzZsMCA5NiA2NCA2NCA5NiAwYzE3Ni43IDAgMzIwLTE0My4zIDMyMC0zMjBsMC05NnpNMzQzLjcgNjRMMjM1LjMgMTE2LjQgMTE2LjQgMjM1LjMgNjQgMzQzLjdjMC02Ny4xIDIwLjQtMTMxLjMgNjQtMTgzYzkuOC0xMS42IDIwLjUtMjIuMyAzMi0zMi4xQzIxMS44IDg0LjYgMjc2LjMgNjQgMzQzLjcgNjR6TTg2LjIgNDM0LjNsLTguNi04LjYgNzguNC0xNjIuM0wyNjMuNSAxNTYuMSA0MjUuOCA3Ny43bDguNiA4LjZMMzU1LjkgMjQ4LjUgMjQ4LjUgMzU1LjkgODYuMiA0MzQuM3pNMTY4LjMgNDQ4bDEwOC40LTUyLjRMMzk1LjYgMjc2LjcgNDQ4IDE2OC4zYzAgNjcuNC0yMC42IDEzMS45LTY0LjYgMTgzLjdjLTkuNiAxMS4zLTIwLjEgMjEuOC0zMS40IDMxLjRjLTUxLjggNDQtMTE2LjMgNjQuNi0xODMuNyA2NC42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rugby-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rugby-ball.svg)
  */
 const RugbyBall: typeof Icon = x => (
     <Icon {...x}>

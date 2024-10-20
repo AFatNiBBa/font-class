@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trowel-bricks` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trowel-bricks?s=light trowel-bricks}
- * @preview ![trowel-bricks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMTI4TDIyNCAzMmwwIDE5MkwzMiAxMjh6TTI1NiAzMmMwLTExLjEtNS43LTIxLjQtMTUuMi0yNy4ycy0yMS4yLTYuNC0zMS4xLTEuNGwtMTkyIDk2QzYuOCAxMDQuOCAwIDExNS45IDAgMTI4czYuOCAyMy4yIDE3LjcgMjguNmwxOTIgOTZjOS45IDUgMjEuNyA0LjQgMzEuMS0xLjRzMTUuMi0xNi4xIDE1LjItMjcuMmwwLTgwIDg4IDBjMCAxNy43IDE0LjMgMzIgMzIgMzJsODggMGMyNi41IDAgNDgtMjEuNSA0OC00OHMtMjEuNS00OC00OC00OGwtODggMGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJsLTg4IDAgMC04MHptMjA4IDgwYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC04OCAwIDAtMzIgODggMHpNMjg4IDM4NGwxNiAwIDE2IDAgMTYwIDAgMCA4IDAgODgtMjI0IDAgMC05NiAzMiAwem0tNjQgMGwwIDk2TDMyIDQ4MGwwLTk2IDE5MiAwem0yNTYtMzJsLTE2MCAwIDAtOTYgMTYwIDAgMCA5NnpNMjg4IDI1NmwwIDY0IDAgMzItMzIgMEwzMiAzNTJjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgOTZjMCAxNy43IDE0LjMgMzIgMzIgMzJsNDQ4IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC04OCAwLTggMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJsLTE2MCAwYy0xNy43IDAtMzIgMTQuMy0zMiAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trowel-bricks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/trowel-bricks.svg)
  */
 const TrowelBricks: typeof Icon = x => (
     <Icon {...x}>

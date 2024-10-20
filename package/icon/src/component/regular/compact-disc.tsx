@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `compact-disc` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compact-disc?s=regular compact-disc}
- * @preview ![compact-disc](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4YTIwOCAyMDggMCAxIDEgMCA0MTYgMjA4IDIwOCAwIDEgMSAwLTQxNnptMCA0NjRBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem0wLTE2MGE5NiA5NiAwIDEgMCAwLTE5MiA5NiA5NiAwIDEgMCAwIDE5MnptMC0xMjBhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4ek0yNDEuOCAxMjguOGM4LjgtMSAxNS4xLTguOSAxNC4xLTE3LjdzLTguOS0xNS4xLTE3LjctMTQuMUMxNjQuMSAxMDUuMiAxMDUuMiAxNjQuMSA5NyAyMzguMmMtMSA4LjggNS40IDE2LjcgMTQuMSAxNy43czE2LjctNS40IDE3LjctMTQuMWM2LjYtNTkuMyA1My43LTEwNi40IDExMy0xMTN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![compact-disc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/compact-disc.svg)
  */
 const CompactDisc: typeof Icon = x => (
     <Icon {...x}>

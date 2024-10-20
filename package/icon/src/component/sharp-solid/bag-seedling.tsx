@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bag-seedling` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bag-seedling?s=sharp-solid bag-seedling}
- * @preview ![bag-seedling](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMEw0ODAgMCA0NDggNjQgNjQgNjQgMzIgMHpNNTYgOTZsNDAwIDAgMTAuNiA0Mi41YzguOSAzNS41IDEzLjQgNzIgMTMuNCAxMDguN2wwIDE3LjdjMCAzNi42LTQuNSA3My4xLTEzLjQgMTA4LjdMNDU2IDQxNiA1NiA0MTYgNDUuNCAzNzMuNUMzNi41IDMzOCAzMiAzMDEuNSAzMiAyNjQuOGwwLTE3LjdjMC0zNi42IDQuNS03My4xIDEzLjQtMTA4LjdMNTYgOTZ6bTggMzUybDM4NCAwIDMyIDY0TDMyIDUxMmwzMi02NHptOTYtMjg4bC0zMiAwIDAgMTZjMCA1OS4yIDQ1LjkgMTA3LjYgMTA0IDExMS43bDAgNDAuMyAwIDI0IDQ4IDAgMC0yNCAwLTQwLjNjNTguMS00LjEgMTA0LTUyLjYgMTA0LTExMS43bDAtMTYtMzIgMGMtNDAuNyAwLTc2LjQgMjEuOC05NiA1NC4zYy0xOS42LTMyLjUtNTUuMy01NC4zLTk2LTU0LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bag-seedling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bag-seedling.svg)
  */
 const BagSeedling: typeof Icon = x => (
     <Icon {...x}>

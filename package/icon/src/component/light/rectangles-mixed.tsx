@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangles-mixed` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangles-mixed?s=light rectangles-mixed}
- * @preview ![rectangles-mixed](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDY0YzguOCAwIDE2IDcuMiAxNiAxNmwwIDEyOGMwIDguOC03LjIgMTYtMTYgMTZMNDggMjI0Yy04LjggMC0xNi03LjItMTYtMTZMMzIgODBjMC04LjggNy4yLTE2IDE2LTE2bDIyNCAwek00OCAzMkMyMS41IDMyIDAgNTMuNSAwIDgwTDAgMjA4YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDIyNCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMTI4YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4TDQ4IDMyek01MjggNjRjOC44IDAgMTYgNy4yIDE2IDE2bDAgMjU2YzAgOC44LTcuMiAxNi0xNiAxNmwtOTYgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjU2YzAtOC44IDcuMi0xNiAxNi0xNmw5NiAwek00MzIgMzJjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMjU2YzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDk2IDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0yNTZjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTk2IDB6TTExMiAzMzZsMTc2IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgODBjMCA4LjgtNy4yIDE2LTE2IDE2bC0xNzYgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtODBjMC04LjggNy4yLTE2IDE2LTE2ek02NCAzNTJsMCA4MGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwxNzYgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTgwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0xNzYgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![rectangles-mixed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rectangles-mixed.svg)
  */
 const RectanglesMixed: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

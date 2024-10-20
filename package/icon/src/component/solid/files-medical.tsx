@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `files-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/files-medical?s=solid files-medical}
- * @preview ![files-medical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDBMMzIwIDBsMCA5NmMwIDE3LjcgMTQuMyAzMiAzMiAzMmw5NiAwIDAgMjI0YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yMjQgMGMtMzUuMyAwLTY0LTI4LjctNjQtNjRMOTYgNjRjMC0zNS4zIDI4LjctNjQgNjQtNjR6TTQxNiA2NGwzMiAzMi00NS4zIDBMMzg0IDk2bC0zMiAwIDAtMzIgMC0xOC43TDM1MiAwbDMyIDMyIDMyIDMyek0yNCA5NmMxMy4zIDAgMjQgMTAuNyAyNCAyNGwwIDI1NmMwIDQ4LjYgMzkuNCA4OCA4OCA4OGwxOTIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNGwtMTkyIDBDNjAuOSA1MTIgMCA0NTEuMSAwIDM3NkwwIDEyMGMwLTEzLjMgMTAuNy0yNCAyNC0yNHptMjE2IDgwbDAgNDgtNDggMGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMzJjMCA4LjggNy4yIDE2IDE2IDE2bDQ4IDAgMCA0OGMwIDguOCA3LjIgMTYgMTYgMTZsMzIgMGM4LjggMCAxNi03LjIgMTYtMTZsMC00OCA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNmwwLTMyYzAtOC44LTcuMi0xNi0xNi0xNmwtNDggMCAwLTQ4YzAtOC44LTcuMi0xNi0xNi0xNmwtMzIgMGMtOC44IDAtMTYgNy4yLTE2IDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![files-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/files-medical.svg)
  */
 const FilesMedical: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

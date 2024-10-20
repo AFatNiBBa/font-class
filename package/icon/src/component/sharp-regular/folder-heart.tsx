@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-heart` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-heart?s=sharp-regular folder-heart}
- * @preview ![folder-heart](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMybDQ4IDY0IDE5MiAwIDQ4IDAgMCA0OCAwIDI4OCAwIDQ4LTQ4IDBMNDggNDgwIDAgNDgwbDAtNDhMMCA4MCAwIDMybDQ4IDAgMTc2IDB6bTQ4IDExMmwtMjQgMC0xNC40LTE5LjJMMjAwIDgwIDQ4IDgwbDAgMzUyIDQxNiAwIDAtMjg4LTE5MiAwek0xNDQgMjUxLjJjMC0zMi43IDI2LjUtNTkuMiA1OS4yLTU5LjJsMi40IDBjMTUuOSAwIDMxLjIgNi4yIDQyLjcgMTcuMmw3LjcgNy40IDcuNy03LjRjMTEuNS0xMSAyNi44LTE3LjIgNDIuNy0xNy4ybDIuNCAwYzMyLjcgMCA1OS4yIDI2LjUgNTkuMiA1OS4yYzAgMTYuMS02LjYgMzEuNS0xOC4yIDQyLjdsLTgyLjggNzkuNkwyNTYgMzg0LjFsLTExLjEtMTAuNy04Mi44LTc5LjZjLTExLjYtMTEuMi0xOC4yLTI2LjYtMTguMi00Mi43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![folder-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/folder-heart.svg)
  */
 const FolderHeart: typeof Icon = x => (
     <Icon {...x}>

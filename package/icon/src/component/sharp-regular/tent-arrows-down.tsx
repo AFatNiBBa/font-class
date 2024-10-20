@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tent-arrows-down` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrows-down?s=sharp-regular tent-arrows-down}
- * @preview ![tent-arrows-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE3LjkgMTM4bC0xNy45IDE1LjktNzIgNjRMMTEyIDIzMi4xIDk2LjEgMjE3LjlsLTcyLTY0TDYuMSAxMzggMzggMTAyLjFsMTcuOSAxNS45TDg4IDE0Ni42IDg4IDI0IDg4IDBsNDggMCAwIDI0IDAgMTIyLjYgMzIuMS0yOC41TDE4NiAxMDIuMSAyMTcuOSAxMzh6bTM1MiAwbC0xNy45IDE1LjktNzIgNjRMNDY0IDIzMi4xbC0xNS45LTE0LjItNzItNjRMMzU4LjEgMTM4IDM5MCAxMDIuMWwxNy45IDE1LjlMNDQwIDE0Ni42IDQ0MCAyNGwwLTI0IDQ4IDAgMCAyNCAwIDEyMi42IDMyLjEtMjguNUw1MzggMTAyLjEgNTY5LjkgMTM4ek0xMTIuNSA1MTJMNjQgNTEybDYuOS00OEw5NiAyODggMjg4IDE2MCA0ODAgMjg4bDI1LjEgMTc2IDYuOSA0OC00OC41IDAtMzUxIDB6TTI2NCAyMzMuN0wxNDAuNSAzMTYgMTE5LjMgNDY0IDI2NCA0NjRsMC0yMzAuM3ptNDggMEwzMTIgMzYwbDYyLjQgMTA0IDgyLjMgMEw0MzUuNSAzMTYgMzEyIDIzMy43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tent-arrows-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tent-arrows-down.svg)
  */
 const TentArrowsDown: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

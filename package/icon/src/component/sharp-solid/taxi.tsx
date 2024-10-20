@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `taxi` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taxi?s=sharp-solid taxi}
- * @preview ![taxi](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBMMTYwIDBsMCA2NC00MCAwTDk3LjMgNjQgODkuOCA4NS40IDQxLjMgMjI0IDAgMjI0IDAgNDMybDAgODAgOTYgMCAwLTgwIDMyMCAwIDAgODAgOTYgMCAwLTgwIDAtMjA4LTQxLjMgMEw0MjIuMiA4NS40IDQxNC43IDY0IDM5MiA2NGwtNDAgMCAwLTY0em0xNy4zIDEyOGwzMy42IDk2LTI5My44IDAgMzMuNi05NiAyMjYuNiAwek05NiAyODhhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em0yODggMzJhMzIgMzIgMCAxIDEgNjQgMCAzMiAzMiAwIDEgMSAtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![taxi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/taxi.svg)
  */
 const Taxi: typeof Icon = x => (
     <Icon {...x}>

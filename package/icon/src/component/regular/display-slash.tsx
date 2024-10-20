@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `display-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-slash?s=regular display-slash}
- * @preview ![display-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzguOCA1LjFDMjguNC0zLjEgMTMuMy0xLjIgNS4xIDkuMlMtMS4yIDM0LjcgOS4yIDQyLjlsNTkyIDQ2NGMxMC40IDguMiAyNS41IDYuMyAzMy43LTQuMXM2LjMtMjUuNS00LjEtMzMuN2wtNzAuNS01NS4yYzI3LjQtNy4yIDQ3LjYtMzIuMiA0Ny42LTYxLjlsMC0yODhjMC0zNS4zLTI4LjctNjQtNjQtNjRMOTYgMEM3OS42IDAgNjQuNiA2LjIgNTMuMiAxNi40TDM4LjggNS4xem01NC45IDQzYy43LS4xIDEuNS0uMiAyLjMtLjJsNDQ4IDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgMjg4YzAgOC44LTcuMiAxNi0xNiAxNmwtNDIuMiAwTDkzLjcgNDguMnpNODAgMzUybDAtMTkyLjhMMzIgMTIxLjQgMzIgMzUyYzAgMzUuMyAyOC43IDY0IDY0IDY0bDE0Ny43IDAtOCA0OEwxODQgNDY0Yy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDcyIDAgMTI4IDAgNzIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtNTEuNyAwLTgtNDggOS42IDBMMzQ1IDM2OGwtNzIuNiAwYy0uMiAwLS40IDAtLjYgMGMtLjEgMC0uMiAwLS4zIDBMOTYgMzY4Yy04LjggMC0xNi03LjItMTYtMTZ6bTIxMi4zIDY0bDU1LjMgMCA4IDQ4LTcxLjMgMCA4LTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![display-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/display-slash.svg)
  */
 const DisplaySlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

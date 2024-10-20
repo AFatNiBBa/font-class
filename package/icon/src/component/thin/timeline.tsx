@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `timeline` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timeline?s=thin timeline}
- * @preview ![timeline](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDMyYTQ4IDQ4IDAgMSAxIDAgOTYgNDggNDggMCAxIDEgMC05NnptOCAxMTEuNWMzMS42LTMuOSA1Ni0zMC45IDU2LTYzLjVjMC0zNS4zLTI4LjctNjQtNjQtNjRzLTY0IDI4LjctNjQgNjRjMCAzMi42IDI0LjQgNTkuNiA1NiA2My41TDE1MiAyNTYgOCAyNTZjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMzA0IDAgMCA5Ni41Yy0zMS42IDMuOS01NiAzMC45LTU2IDYzLjVjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NGMwLTMyLjYtMjQuNC01OS42LTU2LTYzLjVsMC05Ni41IDMwNCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC0xNDQgMCAwLTExMi41YzMxLjYtMy45IDU2LTMwLjkgNTYtNjMuNWMwLTM1LjMtMjguNy02NC02NC02NHMtNjQgMjguNy02NCA2NGMwIDMyLjYgMjQuNCA1OS42IDU2IDYzLjVMNDcyIDI1NmwtMzA0IDAgMC0xMTIuNXpNNDMyIDgwYTQ4IDQ4IDAgMSAxIDk2IDAgNDggNDggMCAxIDEgLTk2IDB6TTI3MiA0MzJhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![timeline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/timeline.svg)
  */
 const Timeline: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

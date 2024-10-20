@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-hair-mullet` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-mullet?s=sharp-regular user-hair-mullet}
- * @preview ![user-hair-mullet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDEyOGMwLTUuNS0uNi0xMC44LTEuNi0xNkwyNzIgMTEybC0xMiAwLTcuMi05LjZMMjI0IDY0bC0yOC44IDM4LjRMMTg4IDExMmwtMTIgMC0zMC40IDBjLTEgNS4yLTEuNiAxMC41LTEuNiAxNmwwIDE2YzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBsMC0xNnptNDctMTZjLjcgNS4yIDEgMTAuNiAxIDE2bDAgMTZjMCAyMS43LTUuNCA0Mi4xLTE0LjkgNTkuOUwzNTIgMjU2bC0zMiAxNi0yNC0xNi04IDMyLTMyIDAtMTYuOS0xNi45Yy01IC42LTEwIC45LTE1LjEgLjlzLTEwLjItLjMtMTUuMS0uOUwxOTIgMjg4bC0zMiAwLTgtMzItMjQgMTZMOTYgMjU2bDE0LjktNTIuMUMxMDEuNCAxODYuMSA5NiAxNjUuNyA5NiAxNDRsMC0xNmMwLTUuNCAuMy0xMC44IDEtMTZsLTkgMCAwLTQ4IDI0IDAgMS4xIDBDMTM1LjMgMjUuNyAxNzYuNiAwIDIyNCAwczg4LjcgMjUuNyAxMTAuOSA2NGwxLjEgMCAyNCAwIDAgNDgtOSAwek02Ni42IDQ2NGwzMTQuOCAwLTMyLTk2TDk4LjYgMzY4bC0zMiA5NnpNNjQgMzIwbDMyMCAwIDQ4IDE0NCAxNiA0OC01MC42IDBMNTAuNiA1MTIgMCA1MTJsMTYtNDhMNjQgMzIweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-hair-mullet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-hair-mullet.svg)
  */
 const UserHairMullet: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

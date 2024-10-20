@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `melon` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/melon?s=regular melon}
- * @preview ![melon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY0IDI1NmMwLTI1LjgtNC43LTUwLjQtMTMuMi03My4yYy0xNC45IDUxLjMtNTEuMiAxMTAuNS0xMDQuMyAxNjMuNnMtMTEyLjMgODkuNC0xNjMuNiAxMDQuM2MyMi44IDguNiA0Ny40IDEzLjIgNzMuMiAxMy4yYzExNC45IDAgMjA4LTkzLjEgMjA4LTIwOHpNNjEuMiAzMjkuMmMxNC45LTUxLjMgNTEuMi0xMTAuNSAxMDQuMy0xNjMuNnMxMTIuMy04OS40IDE2My42LTEwNC4zQzMwNi40IDUyLjcgMjgxLjggNDggMjU2IDQ4QzE0MS4xIDQ4IDQ4IDE0MS4xIDQ4IDI1NmMwIDI1LjggNC43IDUwLjQgMTMuMiA3My4yek0wIDI1NmEyNTYgMjU2IDAgMSAxIDUxMiAwQTI1NiAyNTYgMCAxIDEgMCAyNTZ6TTQwMyAxMDljLTUuMi01LjItMjQuMS0xMy45LTY3LjggLjdjLTQwLjcgMTMuNi04OS44IDQ0LTEzNS43IDg5LjlzLTc2LjMgOTUtODkuOSAxMzUuN2MtMTQuNiA0My43LTUuOCA2Mi42LS43IDY3LjhzMjQuMSAxMy45IDY3LjgtLjdjNDAuNy0xMy42IDg5LjktNDQgMTM1LjctODkuOXM3Ni4zLTk1IDg5LjktMTM1LjdjMTQuNi00My43IDUuOC02Mi42IC43LTY3Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![melon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/melon.svg)
  */
 const Melon: typeof Icon = x => (
     <Icon {...x}>

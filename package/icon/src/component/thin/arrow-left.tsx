@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left?s=thin arrow-left}
- * @preview ![arrow-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMi41IDI1MC4yQy45IDI1MS43IDAgMjUzLjggMCAyNTZzLjkgNC4zIDIuNSA1LjhsMTkyIDE4NGMzLjIgMy4xIDguMyAzIDExLjMtLjJzMi45LTguMy0uMi0xMS4zTDI3LjkgMjY0IDQ0MCAyNjRjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMMjcuOSAyNDggMjA1LjUgNzcuOGMzLjItMy4xIDMuMy04LjEgLjItMTEuM3MtOC4xLTMuMy0xMS4zLS4ybC0xOTIgMTg0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-left.svg)
  */
 const ArrowLeft: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

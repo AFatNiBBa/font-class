@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cube` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cube?s=solid cube}
- * @preview ![cube](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM0LjUgNS43YzEzLjktNSAyOS4xLTUgNDMuMSAwbDE5MiA2OC42QzQ5NSA4My40IDUxMiAxMDcuNSA1MTIgMTM0LjZsMCAyNDIuOWMwIDI3LTE3IDUxLjItNDIuNSA2MC4zbC0xOTIgNjguNmMtMTMuOSA1LTI5LjEgNS00My4xIDBsLTE5Mi02OC42QzE3IDQyOC42IDAgNDA0LjUgMCAzNzcuNEwwIDEzNC42YzAtMjcgMTctNTEuMiA0Mi41LTYwLjNsMTkyLTY4LjZ6TTI1NiA2Nkw4Mi4zIDEyOCAyNTYgMTkwbDE3My43LTYyTDI1NiA2NnptMzIgMzY4LjZsMTYwLTU3LjEgMC0xODhMMjg4IDI0Ni42bDAgMTg4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cube](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cube.svg)
  */
 const Cube: typeof Icon = x => (
     <Icon {...x}>

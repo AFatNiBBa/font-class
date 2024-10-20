@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `block-question` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-question?s=sharp-thin block-question}
- * @preview ![block-question](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDhsMCA0MTYgNDE2IDAgMC00MTZMMTYgNDh6TTAgMzJsMTYgMCA0MTYgMCAxNiAwIDAgMTYgMCA0MTYgMCAxNi0xNiAwTDE2IDQ4MCAwIDQ4MGwwLTE2TDAgNDggMCAzMnpNODAgOTZhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem0yNzIgMTZhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHpNODAgMzg0YTE2IDE2IDAgMSAxIDAgMzIgMTYgMTYgMCAxIDEgMC0zMnptMjcyIDE2YTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6TTEzNiAxOTJjMC0zMC45IDI1LjEtNTYgNTYtNTZsNTYuMiAwYzM1LjIgMCA2My44IDI4LjYgNjMuOCA2My44YzAgMjEuNC0xMC44IDQxLjUtMjguNyA1My4zTDIzMiAyODYuOWwwIDI1LjEgMCA4LTE2IDAgMC04IDAtMjkuNSAwLTQuMyAzLjYtMi40IDU0LjktMzYuMmMxMy40LTguOCAyMS41LTIzLjggMjEuNS0zOS45YzAtMjYuNC0yMS40LTQ3LjgtNDcuOC00Ny44TDE5MiAxNTJjLTIyLjEgMC00MCAxNy45LTQwIDQwbDAgNi41LTE2IDAgMC02LjV6bTcyIDE1MmwzMiAwIDAgMzItMzIgMCAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![block-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/block-question.svg)
  */
 const BlockQuestion: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `champagne-glasses` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/champagne-glasses?s=sharp-solid champagne-glasses}
- * @preview ![champagne-glasses](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTgzLjYgMTI3LjRMMjA5IDc5LjJsNjEuMiAyMi4zLTExLjUgNTMuMi03NS0yNy4zek0xNzguNCAwTDg3LjcgMTcyLjJDNjAuMiAyMjQuNCA3Ni44IDI4NyAxMjIgMzE5LjhMOTEuMSA0MDQuNyA1MiAzOTAuNCAyMS45IDM3OS41IDAgNDM5LjZsMzAuMSAxMC45IDY5LjIgMjUuMkwxNjguNiA1MDFsMzAuMSAxMC45IDIxLjktNjAuMS0zMC4xLTEwLjktMzkuMi0xNC4zIDMwLjktODQuOWM1NS43IDMuOSAxMDguNi0zMy4zIDEyMS4yLTkxTDMyMCAxNzMuOGwxNi43IDc2LjljMTIuNSA1Ny43IDY1LjQgOTQuOSAxMjEuMiA5MWwzMC45IDg0LjktMzkuMiAxNC4zLTMwLjEgMTAuOSAyMS45IDYwLjFMNDcxLjQgNTAxbDY5LjItMjUuMiA2OS4yLTI1LjJMNjQwIDQzOS42bC0yMS45LTYwLjFMNTg4IDM5MC40bC0zOS4yIDE0LjNMNTE4IDMxOS44YzQ1LjItMzIuOCA2MS44LTk1LjQgMzQuMy0xNDcuNkw0NjEuNiAwIDMyMCA1MS41IDE3OC40IDB6bTI3OCAxMjcuNGwtNzUgMjcuMy0xMS41LTUzLjJMNDMxIDc5LjJsMjUuMyA0OC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![champagne-glasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/champagne-glasses.svg)
  */
 const ChampagneGlasses: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

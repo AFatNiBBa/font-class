@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-a-z` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-a-z?s=thin arrow-down-a-z}
- * @preview ![arrow-down-a-z](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY1LjcgNDc3LjdsMTEyLTExMmMzLjEtMy4xIDMuMS04LjIgMC0xMS4zcy04LjItMy4xLTExLjMgMEwxNjggNDUyLjcgMTY4IDQwYzAtNC40LTMuNi04LTgtOHMtOCAzLjYtOCA4bDAgNDEyLjdMNTMuNyAzNTQuM2MtMy4xLTMuMS04LjItMy4xLTExLjMgMHMtMy4xIDguMiAwIDExLjNsMTEyIDExMmMzLjEgMy4xIDguMiAzLjEgMTEuMyAwek0zMzYgMjk2YzAgNC40IDMuNiA4IDggOGwxMjcuMSAwTDMzNy44IDQ2Ni45Yy0yIDIuNC0yLjQgNS43LTEgOC41czQuMSA0LjYgNy4yIDQuNmwxNDQgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtMTI3LjEgMEw0OTQuMiAzMDEuMWMyLTIuNCAyLjQtNS43IDEtOC41cy00LjEtNC42LTcuMi00LjZsLTE0NCAwYy00LjQgMC04IDMuNi04IDh6TTQxNiAzMmMtMyAwLTUuOCAxLjctNy4yIDQuNEwzNDQuOSAxNjQuM2wtLjEgLjMtMjMuOSA0Ny44Yy0yIDQtLjQgOC44IDMuNiAxMC43czguOCAuNCAxMC43LTMuNkwzNTYuOSAxNzZsMTE4LjEgMCAyMS44IDQzLjZjMiA0IDYuOCA1LjYgMTAuNyAzLjZzNS42LTYuOCAzLjYtMTAuN2wtMjMuOS00Ny44LS4xLS4zTDQyMy4yIDM2LjRDNDIxLjggMzMuNyA0MTkgMzIgNDE2IDMyem0wIDI1LjlMNDY3LjEgMTYwbC0xMDIuMSAwTDQxNiA1Ny45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-a-z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-down-a-z.svg)
  */
 const ArrowDownAZ: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `timer` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timer?s=thin timer}
- * @preview ![timer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDBjLTQuNCAwLTggMy42LTggOGwwIDExMmMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtMTAzLjljMTI4LjggNC4yIDIzMiAxMTAgMjMyIDIzOS45YzAgMTMyLjUtMTA3LjUgMjQwLTI0MCAyNDBTMTYgMzg4LjUgMTYgMjU2YzAtNjYuMyAyNi45LTEyNi4zIDcwLjMtMTY5LjdjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3MtOC4yLTMuMS0xMS4zIDBDMjguNyAxMjEuMyAwIDE4NS4zIDAgMjU2QzAgMzk3LjQgMTE0LjYgNTEyIDI1NiA1MTJzMjU2LTExNC42IDI1Ni0yNTZTMzk3LjQgMCAyNTYgMHpNMTY1LjcgMTU0LjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBzLTMuMSA4LjIgMCAxMS4zbDk2IDk2YzMuMSAzLjEgOC4yIDMuMSAxMS4zIDBzMy4xLTguMiAwLTExLjNsLTk2LTk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![timer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/timer.svg)
  */
 const Timer: typeof Icon = x => (
     <Icon {...x}>

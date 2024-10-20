@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-simple` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-simple?s=sharp-thin person-simple}
- * @preview ![person-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDY0QTQ4IDQ4IDAgMSAwIDgwIDY0YTQ4IDQ4IDAgMSAwIDk2IDB6TTY0IDY0YTY0IDY0IDAgMSAxIDEyOCAwQTY0IDY0IDAgMSAxIDY0IDY0ek00MC43IDMzNkw2NCAzMzZsNDggMCAzMiAwIDQ4IDAgMjMuMyAwLTYuNy0xNjBMNDcuMyAxNzYgNDAuNyAzMzZ6TTEzNiAzNTJsLTE2IDAgMCAxNTIgMCA4LTggMC00OCAwLTggMCAwLTggMC0xNTItMTYgMC0xNiAwIC43LTE2TDMyIDE2MGwxOTIgMCA3LjMgMTc2IC43IDE2LTE2IDAtMTYgMCAwIDE1MiAwIDgtOCAwLTQ4IDAtOCAwIDAtOCAwLTE1MnptNDggMGwtMzIgMCAwIDE0NCAzMiAwIDAtMTQ0ek03MiAzNTJsMCAxNDQgMzIgMCAwLTE0NC0zMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![person-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-simple.svg)
  */
 const PersonSimple: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

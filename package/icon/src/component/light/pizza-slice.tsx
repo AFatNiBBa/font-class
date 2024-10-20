@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pizza-slice` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pizza-slice?s=light pizza-slice}
- * @preview ![pizza-slice](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY3LjUgMzIuOGMtNi4xLS40LTEyLjQgMy43LTE0LjQgMTEuMWwtMTAgMzcuNkMyOTUgOTYuMSA0MTUuOSAyMTcgNDMwLjUgMzY4LjlsMzcuNi0xMGM3LjQtMiAxMS41LTguMyAxMS4xLTE0LjRDNDY3LjcgMTc3LjcgMzM0LjMgNDQuMyAxNjcuNSAzMi44ek0zOC42IDQ3My40bDM2MC41LTk2LjFjLTExLTE0MC45LTEyMy41LTI1My40LTI2NC40LTI2NC40TDM4LjYgNDczLjR6TTQuNyA1MDcuM2MtNC00LTUuNi05LjktNC4xLTE1LjRMMTIyLjIgMzUuNkMxMjcuNyAxNC45IDE0Ni45LS43IDE2OS43IC45QzM1Mi41IDEzLjUgNDk4LjUgMTU5LjUgNTExLjEgMzQyLjNjMS42IDIyLjgtMTQgNDEuOS0zNC43IDQ3LjVMMjAuMSA1MTEuNWMtNS41IDEuNS0xMS40LS4xLTE1LjQtNC4xek0xNzYgMjE2YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptNzIgMTIwYTI0IDI0IDAgMSAxIDQ4IDAgMjQgMjQgMCAxIDEgLTQ4IDB6bS0xMDQgOGEyNCAyNCAwIDEgMSAwIDQ4IDI0IDI0IDAgMSAxIDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![pizza-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pizza-slice.svg)
  */
 const PizzaSlice: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `paper-plane-top` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paper-plane-top?s=regular paper-plane-top}
- * @preview ![paper-plane-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMzLjkgMjMyTDY1LjggOTUuOSAzODMuNCAyMzJsLTI0OS41IDB6bTAgNDhsMjQ5LjUgMEw2NS44IDQxNi4xbDY4LTEzNi4xek00NC42IDM0LjZDMzIuMyAyOS4zIDE3LjkgMzIuMyA4LjcgNDJTLTIuNiA2Ni4zIDMuNCA3OC4zTDkyLjIgMjU2IDMuNCA0MzMuN2MtNiAxMi0zLjkgMjYuNSA1LjMgMzYuM3MyMy41IDEyLjcgMzUuOSA3LjVsNDQ4LTE5MmMxMS44LTUgMTkuNC0xNi42IDE5LjQtMjkuNHMtNy42LTI0LjQtMTkuNC0yOS40bC00NDgtMTkyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![paper-plane-top](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/paper-plane-top.svg)
  */
 const PaperPlaneTop: typeof Icon = x => (
     <Icon {...x}>

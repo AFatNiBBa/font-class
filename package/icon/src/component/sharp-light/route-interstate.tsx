@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `route-interstate` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/route-interstate?s=sharp-light route-interstate}
- * @preview ![route-interstate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjY1LjYgMTEuMkwyNTYgNGwtOS42IDcuMkMxODcuMSA1NS42IDExMy4zIDYzLjEgNDYuNSAzMy40TDI2LjQgMjQuNSAyNC4xIDQ2LjNjLTEyIDExMi0xMy41IDIwMyAxNy43IDI3Ny44QzczLjYgNDAwIDEzNy43IDQ1Ni40IDI0OS45IDUwMi44bDYuNSAyLjcgNi40LTIuOUMzNzIuNCA0NTEuOSA0MzYuMyAzOTUuNiA0NjguNiAzMjFjMzEuOC03My43IDMxLjQtMTYyLjUgMTkuMy0yNzQuN2wtMi4zLTIxLjgtMjAuMSA4LjlDMzk4LjcgNjMuMSAzMjQuOSA1NS42IDI2NS42IDExLjJ6TTUzLjggNzAuNkMxMjEuOSA5My45IDE5NSA4NC45IDI1NiA0My42YzYwLjkgNDEuMyAxMzQuMSA1MC4yIDIwMi4yIDI2LjljMy4xIDMyLjMgNSA2MiA1LjIgODkuNEwyNTYgMTYwIDQ4LjIgMTYwYy40LTI3LjYgMi40LTU3LjMgNS41LTg5LjR6TTQ4LjUgMTkybDQxNC40IDBjLTEuOSA0NC40LTkuMSA4Mi41LTIzLjcgMTE2LjNjLTI3LjMgNjMuMi04MS43IDExNC4xLTE4My41IDE2Mi4yQzE1Mi4zIDQyNi42IDk4LjEgMzc1LjggNzEuNCAzMTEuN0M1Ni44IDI3NyA1MCAyMzcuNiA0OC41IDE5MnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![route-interstate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/route-interstate.svg)
  */
 const RouteInterstate: typeof Icon = x => (
     <Icon {...x}>

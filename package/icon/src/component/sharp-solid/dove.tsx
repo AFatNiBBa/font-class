@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dove` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dove?s=sharp-solid dove}
- * @preview ![dove](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjEwLjMgMTM4LjdjLTE4LTExLTM0LjYtMjQuNC00OC40LTQwLjljMjIuOC01MC4xIDU5LjktODIgNzUtOTVjMS4yLTEuMSAyLjMtMiAzLjItMi44Yy0zLjYgNTUuNyAxNy43IDEwMy4xIDQ4IDE0MC43bDAgMjkuNmMtMjQtNS44LTUxLjktMTUuOC03Ny43LTMxLjZ6TTMyMCAxNzQuNWwwLTMwLjVjMC00NC4yIDM1LjgtODAgODAtODBsMTEyIDAtMzIgNTYgMCAxNjhjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBsLTgzLjIgMEwxNjAgNTEyIDgwIDQ5NiAwIDQzMmwxNTMuOC01MS4zQzExNy4yIDM2MC40IDMyIDI5Ni42IDMyIDE3NkMzMiAxMTEuNSA2OS42IDY1LjEgODcuOSA0Mi40YzMuNS00LjQgNi4zLTcuOCA4LjEtMTAuNGMyNS42IDEyOCAxNjAgMTcwLjcgMjI0IDE3NmwwLTMyLjFzMCAwIDAgMGwwLTEuNHMwIDAgMCAwek00MDAgMTYwYTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dove](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dove.svg)
  */
 const Dove: typeof Icon = x => (
     <Icon {...x}>

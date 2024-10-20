@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `table-picnic` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-picnic?s=sharp-light table-picnic}
- * @preview ![table-picnic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRsMTYgMCAzNTIgMCAxNiAwIDAgMzItMTYgMC04OC42IDAgNDkuOCAxMjhMNDk2IDIyNGwxNiAwIDAgMzItMTYgMC05MC40IDAtMzQuMyAwLTIzMC42IDAtMzQuMyAwTDE2IDI1NiAwIDI1NmwwLTMyIDE2IDAgMTAyLjggMEwxNjguNiA5NiA4MCA5NiA2NCA5NmwwLTMyem04OS4yIDE2MGwyMDUuNyAwTDMwOS4xIDk2IDIwMi45IDk2IDE1My4yIDIyNHptMjY0LjkgNjRsNjIuMiAxNjAtMzQuMyAwTDM4My43IDI4OGwzNC4zIDB6bS0yODkuOCAwTDY2LjEgNDQ4bC0zNC4zIDBMOTMuOSAyODhsMzQuMyAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![table-picnic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/table-picnic.svg)
  */
 const TablePicnic: typeof Icon = x => (
     <Icon {...x}>

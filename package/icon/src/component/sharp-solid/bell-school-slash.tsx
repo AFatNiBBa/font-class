@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-school-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-school-slash?s=sharp-solid bell-school-slash}
- * @preview ![bell-school-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTI4IDUxMmwyNCAwczAgMCAwIDBsLTI0IDAtMTEyIDAtMzIgMC0yNTYgMCAwLTExMmM0MC4xIDMwLjEgOTAgNDggMTQ0IDQ4YzQ3IDAgOTAuOS0xMy41IDEyNy45LTM2LjlMNDE2IDQyMy44bDAgNDAuMiA1MS4xIDBMNTI4IDUxMnptNDMuMy05MS4ybDQ5LjYgMzguNSAxOSAxNC43LTI5LjQgMzcuOS0xOS0xNC43TDE5IDUyLjcgMCAzOCAyOS40IC4xbDE5IDE0LjcgNjkuMyA1My44QzE1NS43IDI2LjUgMjEwLjggMCAyNzIgMEMzODYuOSAwIDQ4MCA5My4xIDQ4MCAyMDhjMCA0Mi41LTEyLjggODItMzQuNiAxMTVsNTEuOCA0MC4yYzguMy03IDE5LjEtMTEuMiAzMC44LTExLjJjMjYuNSAwIDQ4IDIxLjUgNDggNDhjMCA3LjQtMS43IDE0LjUtNC43IDIwLjh6TTM0My41IDI0My45YzUuNC0xMC44IDguNS0yMyA4LjUtMzUuOWMwLTQ0LjItMzUuOC04MC04MC04MGMtMjAuMSAwLTM4LjUgNy40LTUyLjUgMTkuNmwyNi4xIDIwLjNjNy42LTUgMTYuNi03LjkgMjYuNC03LjljMjYuNSAwIDQ4IDIxLjUgNDggNDhjMCA1LjUtLjkgMTAuNy0yLjYgMTUuNmwyNi4xIDIwLjN6TTY0IDIwOGMwLTE5LjMgMi42LTM3LjkgNy41LTU1LjZMMzczIDM4OS45QzM0My4xIDQwNi41IDMwOC43IDQxNiAyNzIgNDE2QzE1Ny4xIDQxNiA2NCAzMjIuOSA2NCAyMDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bell-school-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bell-school-slash.svg)
  */
 const BellSchoolSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `audio-description-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/audio-description-slash?s=thin audio-description-slash}
- * @preview ![audio-description-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTMgMS43QzkuNS0xIDQuNS0uNCAxLjcgM1MtLjQgMTEuNSAzIDE0LjNsNjI0IDQ5NmMzLjUgMi43IDguNSAyLjIgMTEuMi0xLjNzMi4yLTguNS0xLjMtMTEuMkwxMyAxLjd6TTQ4Ny41IDQ4MGwtMjAuMy0xNkw5NiA0NjRjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjgzTDMyIDEyMC40IDMyIDQxNmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzOTEuNSAwek0xNTIuNSAzMmwyMC4zIDE2TDU0NCA0OGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDI4MyAxNiAxMi42TDYwOCA5NmMwLTM1LjMtMjguNy02NC02NC02NEwxNTIuNSAzMnpNMzQ0IDE4My4ybDE2IDEyLjYgMC0xOS44IDU2IDBjNDQuMiAwIDgwIDM1LjggODAgODBjMCAxNC4yLTMuNyAyNy42LTEwLjIgMzkuMWwxMi43IDEwQzUwNy4xIDI5MC44IDUxMiAyNzQgNTEyIDI1NmMwLTUzLTQzLTk2LTk2LTk2bC02NCAwYy00LjQgMC04IDMuNi04IDhsMCAxNS4yek0xODAuMyAyMzcuNWwtMTkuNCAzOC44LS4xIC4zLTMxLjkgNjMuOGMtMiA0LS40IDguOCAzLjYgMTAuN3M4LjggLjQgMTAuNy0zLjZMMTcyLjkgMjg4bDcxLjQgMC0yMC4zLTE2LTQzLjEgMCAxMi4yLTI0LjQtMTIuOC0xMC4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![audio-description-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/audio-description-slash.svg)
  */
 const AudioDescriptionSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

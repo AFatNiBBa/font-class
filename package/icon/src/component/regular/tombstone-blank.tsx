@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tombstone-blank` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tombstone-blank?s=regular tombstone-blank}
- * @preview ![tombstone-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDE5MmwwIDI0MCA0OCAwIDAtMjQwQzQxNiA4NiAzMzAgMCAyMjQgMFMzMiA4NiAzMiAxOTJsMCAyNDAgNDggMCAwLTI0MGMwLTc5LjUgNjQuNS0xNDQgMTQ0LTE0NHMxNDQgNjQuNSAxNDQgMTQ0ek0yNCA0NjRjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsNDAwIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMMjQgNDY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![tombstone-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tombstone-blank.svg)
  */
 const TombstoneBlank: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

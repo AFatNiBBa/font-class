@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `function` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/function?s=sharp-regular function}
- * @preview ![function](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzIgMEw5NiAwIDIwMCAwbDI0IDAgMCA0OC0yNCAwLTgwIDAgMCAxNDQgNDggMCAyNCAwIDAgNDgtMjQgMC00OCAwIDAgMjE2IDAgMjQtMjQgMC03MiAwTDAgNDgwbDAtNDggMjQgMCA0OCAwIDAtMTkyLTQ4IDBMMCAyNDBsMC00OCAyNCAwIDQ4IDBMNzIgMjQgNzIgMHpNMjcyIDMyMGMwIDU3LjUgMTYuNCAxMTAuOSA0NC4zIDE1NS4ybC00MC42IDI1LjZDMjQzIDQ0OC45IDIyNCAzODYuNyAyMjQgMzIwczE5LTEyOC45IDUxLjctMTgwLjhsNDAuNiAyNS42QzI4OC40IDIwOS4xIDI3MiAyNjIuNSAyNzIgMzIwem0zMjAgMGMwLTU3LjUtMTYuNC0xMTAuOS00NC4zLTE1NS4ybDQwLjYtMjUuNkM2MjEgMTkxLjEgNjQwIDI1My4zIDY0MCAzMjBzLTE5IDEyOC45LTUxLjcgMTgwLjhsLTQwLjYtMjUuNkM1NzUuNiA0MzAuOSA1OTIgMzc3LjUgNTkyIDMyMHpNMzkzIDI0N2wzOSAzOSAzOS0zOSAxNy0xN0w1MjEuOSAyNjRsLTE3IDE3LTM5IDM5IDM5IDM5IDE3IDE3TDQ4OCA0MDkuOWwtMTctMTctMzktMzktMzkgMzktMTcgMTdMMzQyLjEgMzc2bDE3LTE3IDM5LTM5LTM5LTM5LTE3LTE3TDM3NiAyMzAuMWwxNyAxN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![function](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/function.svg)
  */
 const Function: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

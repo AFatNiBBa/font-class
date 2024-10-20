@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-simple?s=thin chart-simple}
- * @preview ![chart-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDQ4YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzUyYzAgMTcuNy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTM1MmMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzMiAwek0yMDggMzJjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMzUyYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDMyIDBjMjYuNSAwIDQ4LTIxLjUgNDgtNDhsMC0zNTJjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTMyIDB6TTgwIDI0MGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDE2MGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMzIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC0xNjBjMC0xNy43IDE0LjMtMzIgMzItMzJsMzIgMHpNNDggMjI0Yy0yNi41IDAtNDggMjEuNS00OCA0OEwwIDQzMmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwzMiAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMTYwYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0zMiAwek0zNjggMTEybDMyIDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAyODhjMCAxNy43LTE0LjMgMzItMzIgMzJsLTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMjg4YzAtMTcuNyAxNC4zLTMyIDMyLTMyem0tNDggMzJsMCAyODhjMCAyNi41IDIxLjUgNDggNDggNDhsMzIgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTI4OGMwLTI2LjUtMjEuNS00OC00OC00OGwtMzIgMGMtMjYuNSAwLTQ4IDIxLjUtNDggNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-simple.svg)
  */
 const ChartSimple: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tents` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tents?s=sharp-regular tents}
- * @preview ![tents](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTkxLjUgMzUybC0xMzQgMC02LjktNDggMTM0IDBMNTYzLjUgMTU2IDQxNiA1Ny43IDI3Mi4xIDE1My42bC0zMC40LTIwLjItMTIuOS04LjZMNDE2IDAgNjA4IDEyOGwyNS4xIDE3NiA2LjkgNDgtNDguNSAwek00OC41IDUxMkwwIDUxMmw2LjktNDhMMzIgMjg4IDIyNCAxNjAgNDE2IDI4OGwyNS4xIDE3NiA2LjkgNDgtNDguNSAwLTM1MSAwek0yMDAgMjMzLjdMNzYuNSAzMTYgNTUuMyA0NjQgMjAwIDQ2NGwwLTIzMC4zem00OCAwTDI0OCAzNjBsNjIuNCAxMDQgODIuMyAwTDM3MS41IDMxNiAyNDggMjMzLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tents](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tents.svg)
  */
 const Tents: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

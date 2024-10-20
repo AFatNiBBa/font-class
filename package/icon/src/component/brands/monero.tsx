@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `monero` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monero?s=brands monero}
- * @preview ![monero](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDM4NGgxMDguNEM0MTcgNDU1LjkgMzM4LjEgNTA0IDI0OCA1MDRTNzkgNDU1LjkgMzUuNiAzODRIMTQ0VjI1Ni4yTDI0OCAzNjFsMTA0LTEwNXYxMjh6TTg4IDMzNlYxMjhsMTU5LjQgMTU5LjRMNDA4IDEyOHYyMDhoNzQuOGM4LjUtMjUuMSAxMy4yLTUyIDEzLjItODBDNDk2IDExOSAzODUgOCAyNDggOFMwIDExOSAwIDI1NmMwIDI4IDQuNiA1NC45IDEzLjIgODBIODh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![monero](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/monero.svg)
  */
 const Monero: typeof Icon = x => (
     <Icon viewBox="0 0 496 512" {...x}>

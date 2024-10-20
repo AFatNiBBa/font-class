@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chalkboard-user` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chalkboard-user?s=solid chalkboard-user}
- * @preview ![chalkboard-user](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDY0YzAtMzUuMyAyOC43LTY0IDY0LTY0TDU3NiAwYzM1LjMgMCA2NCAyOC43IDY0IDY0bDAgMjg4YzAgMzUuMy0yOC43IDY0LTY0IDY0bC0yMzkuMiAwYy0xMS44LTI1LjUtMjkuOS00Ny41LTUyLjQtNjRsOTkuNiAwIDAtMzJjMC0xNy43IDE0LjMtMzIgMzItMzJsNjQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDMyIDY0IDAgMC0yODhMMjI0IDY0bDAgNDkuMUMyMDUuMiAxMDIuMiAxODMuMyA5NiAxNjAgOTZsMC0zMnptMCA2NGE5NiA5NiAwIDEgMSAwIDE5MiA5NiA5NiAwIDEgMSAwLTE5MnpNMTMzLjMgMzUybDUzLjMgMEMyNjAuMyAzNTIgMzIwIDQxMS43IDMyMCA0ODUuM2MwIDE0LjctMTEuOSAyNi43LTI2LjcgMjYuN0wyNi43IDUxMkMxMS45IDUxMiAwIDUwMC4xIDAgNDg1LjNDMCA0MTEuNyA1OS43IDM1MiAxMzMuMyAzNTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chalkboard-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chalkboard-user.svg)
  */
 const ChalkboardUser: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

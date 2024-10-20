@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bell-on` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-on?s=sharp-regular bell-on}
- * @preview ![bell-on](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDBMMjg4IDBsMCA1MS4yQzIxNSA2NiAxNjAgMTMwLjYgMTYwIDIwOGwwIDg4TDk2IDM2OGwwIDQ4IDQ4IDAgMzUyIDAgNDggMCAwLTQ4LTY0LTcyIDAtODhjMC03Ny40LTU1LTE0Mi0xMjgtMTU2LjhMMzUyIDB6bTgwIDMxNC4ybDEyLjEgMTMuNkw0NzkuOCAzNjhsLTMxOS42IDAgMzUuNy00MC4xTDIwOCAzMTQuMmwwLTE4LjIgMC04OGMwLTYxLjkgNTAuMS0xMTIgMTEyLTExMnMxMTIgNTAuMSAxMTIgMTEybDAgODggMCAxOC4yek0zODQgNDQ4bC02NCAwLTY0IDBjMCAxNyA2LjcgMzMuMyAxOC43IDQ1LjNzMjguMyAxOC43IDQ1LjMgMTguN3MzMy4zLTYuNyA0NS4zLTE4LjdzMTguNy0yOC4zIDE4LjctNDUuM3pNMCAxNzZsMCA0OCAyNCAwIDgwIDAgMjQgMCAwLTQ4LTI0IDAtODAgMEwwIDE3NnptNTM2IDBsLTI0IDAgMCA0OCAyNCAwIDgwIDAgMjQgMCAwLTQ4LTI0IDAtODAgMHpNNjA4LjIgNTAuN0w1ODYuNyA3LjggNTY1LjMgMTguNWwtNjQgMzJMNDc5LjggNjEuM2wyMS41IDQyLjkgMjEuNS0xMC43IDY0LTMyIDIxLjUtMTAuN3pNNTMuMyA2MS41bDY0IDMyIDIxLjUgMTAuNyAyMS41LTQyLjlMMTM4LjcgNTAuNWwtNjQtMzJMNTMuMyA3LjggMzEuOCA1MC43IDUzLjMgNjEuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bell-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bell-on.svg)
  */
 const BellOn: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-bolt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-bolt?s=solid car-bolt}
- * @preview ![car-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzQuOCA5Ni4zTDM5LjYgMTk2LjhDMTYuNCAyMDYuNCAwIDIyOS4zIDAgMjU2TDAgNDAwbDAgNDhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzIgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTQ4IDMyMCAwIDAgNDhjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzIgMGMxNy43IDAgMzItMTQuMyAzMi0zMmwwLTQ4IDAtMTQ0YzAtMjYuNy0xNi40LTQ5LjYtMzkuNi01OS4yTDQzNy4yIDk2LjNDNDIzLjcgNTcuOCAzODcuNCAzMiAzNDYuNiAzMkwxNjUuNCAzMmMtNDAuOCAwLTc3LjEgMjUuOC05MC42IDY0LjN6TTk2IDI1NmEzMiAzMiAwIDEgMSAwIDY0IDMyIDMyIDAgMSAxIDAtNjR6bTI4OCAzMmEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwek0zMTguMyAxMTkuMkwyODEuOSAxOTJsNTQuMSAwYzYuOSAwIDEzIDQuNCAxNS4yIDEwLjlzLS4xIDEzLjctNS42IDE3LjlsLTEyOCA5NmMtNS45IDQuNS0xNC4yIDQuMi0xOS45LS41cy03LjQtMTIuOC00LjEtMTkuNEwyMzAuMSAyMjQgMTc2IDIyNGMtNi45IDAtMTMtNC40LTE1LjItMTAuOXMuMS0xMy43IDUuNi0xNy45bDEyOC05NmM1LjktNC41IDE0LjItNC4yIDE5LjkgLjVzNy40IDEyLjggNC4xIDE5LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![car-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/car-bolt.svg)
  */
 const CarBolt: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chart-column` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-column?s=sharp-thin chart-column}
- * @preview ![chart-column](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDBsMC04TDAgMzJsMCA4TDAgNDcybDAgOCA4IDAgNDk2IDAgOCAwIDAtMTYtOCAwTDE2IDQ2NCAxNiA0MHptNDMyIDcybDAgMTYgMCAyMjQgMCAxNi0zMiAwIDAtMTYgMC0yMjQgMC0xNiAzMiAwek0yNTYgMTc2bDAgMTYgMCAxNjAgMCAxNi0zMiAwIDAtMTYgMC0xNjAgMC0xNiAzMiAwem0tOTYgOTZsMCAxNiAwIDY0IDAgMTYtMzIgMCAwLTE2IDAtNjQgMC0xNiAzMiAwem0yMDgtNDhsLTE2IDAtMzIgMC0xNiAwIDAgMTYgMCAxNiAwIDk2IDAgMTYgMCAxNiAxNiAwIDMyIDAgMTYgMCAwLTE2IDAtMTYgMC05NiAwLTE2IDAtMTZ6bS00OCAzMmwwLTE2IDMyIDAgMCAxNiAwIDk2IDAgMTYtMzIgMCAwLTE2IDAtOTZ6TTQ2NCAxMjhsMC0xNiAwLTE2LTE2IDAtMzIgMC0xNiAwIDAgMTYgMCAxNiAwIDIyNCAwIDE2IDAgMTYgMTYgMCAzMiAwIDE2IDAgMC0xNiAwLTE2IDAtMjI0ek0yNzIgMTkybDAtMTYgMC0xNi0xNiAwLTMyIDAtMTYgMCAwIDE2IDAgMTYgMCAxNjAgMCAxNiAwIDE2IDE2IDAgMzIgMCAxNiAwIDAtMTYgMC0xNiAwLTE2MHptLTk2IDk2bDAtMTYgMC0xNi0xNiAwLTMyIDAtMTYgMCAwIDE2IDAgMTYgMCA2NCAwIDE2IDAgMTYgMTYgMCAzMiAwIDE2IDAgMC0xNiAwLTE2IDAtNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![chart-column](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chart-column.svg)
  */
 const ChartColumn: typeof Icon = x => (
     <Icon {...x}>

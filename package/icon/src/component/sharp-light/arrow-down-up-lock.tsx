@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-up-lock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-up-lock?s=sharp-light arrow-down-up-lock}
- * @preview ![arrow-down-up-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDUxMC42bDExLjMtMTEuMyA5Ni05NkwyNDYuNiAzOTIgMjI0IDM2OS40bC0xMS4zIDExLjNMMTQ0IDQ0OS40IDE0NCAyNzJsMTYwIDAgMzIgMCA4MCAwYzAtMTEuMSAxLjYtMjEuOSA0LjYtMzJMMzM2IDI0MGwwLTE3Ny40IDY4LjcgNjguN0w0MTYgMTQyLjYgNDM4LjYgMTIwbC0xMS4zLTExLjMtOTYtOTZMMzIwIDEuNCAzMDguNyAxMi43bC05NiA5NkwyMDEuNCAxMjAgMjI0IDE0Mi42bDExLjMtMTEuM0wzMDQgNjIuNiAzMDQgMjQwbC0xNjAgMC0zMiAwLTk2IDBMMCAyNDBsMCAzMiAxNiAwIDk2IDAgMCAxNzcuNEw0My4zIDM4MC43IDMyIDM2OS40IDkuNCAzOTJsMTEuMyAxMS4zIDk2IDk2TDEyOCA1MTAuNnpNMTEyIDQ4bDAgMTUyIDMyIDAgMC0xNTIgMC0xNi0zMiAwIDAgMTZ6TTMzNiAzMTJsLTMyIDAgMCAxNTIgMCAxNiAzMiAwIDAtMTYgMC0xNTJ6bTE5Mi04OGMyNi41IDAgNDggMjEuNSA0OCA0OGwwIDQ4LTk2IDAgMC00OGMwLTI2LjUgMjEuNS00OCA0OC00OHptLTgwIDQ4bDAgNDgtMzIgMCAwIDMyIDAgMTI4IDAgMzIgMzIgMCAxNjAgMCAzMiAwIDAtMzIgMC0xMjggMC0zMi0zMiAwIDAtNDhjMC00NC4yLTM1LjgtODAtODAtODBzLTgwIDM1LjgtODAgODB6bTAgODBsMTYwIDAgMCAxMjgtMTYwIDAgMC0xMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![arrow-down-up-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-down-up-lock.svg)
  */
 const ArrowDownUpLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

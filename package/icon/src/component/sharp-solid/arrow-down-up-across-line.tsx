@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-up-across-line` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-up-across-line?s=sharp-solid arrow-down-up-across-line}
- * @preview ![arrow-down-up-across-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDUwOS4zbDIyLjYtMjIuNiA5Ni05NkwzMDEuMyAzNjggMjU2IDMyMi43bC0yMi42IDIyLjZMMTkyIDM4Ni43bDAtOTguNyAzNTIgMCAzMiAwIDAtNjQtMzIgMC05NiAwIDAtOTguNyA0MS40IDQxLjRMNTEyIDE4OS4zIDU1Ny4zIDE0NGwtMjIuNi0yMi42LTk2LTk2TDQxNiAyLjcgMzkzLjQgMjUuNGwtOTYgOTZMMjc0LjcgMTQ0IDMyMCAxODkuM2wyMi42LTIyLjZMMzg0IDEyNS4zbDAgOTguNy0xOTIgMC02NCAwLTk2IDBMMCAyMjRsMCA2NCAzMiAwIDk2IDAgMCA5OC43TDg2LjYgMzQ1LjQgNjQgMzIyLjcgMTguNyAzNjhsMjIuNiAyMi42IDk2IDk2TDE2MCA1MDkuM3pNMTI4IDY0bDAgMTI4IDY0IDAgMC0xMjggMC0zMi02NCAwIDAgMzJ6TTM4NCAzMjBsMCAxMjggMCAzMiA2NCAwIDAtMzIgMC0xMjgtNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-down-up-across-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-down-up-across-line.svg)
  */
 const ArrowDownUpAcrossLine: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

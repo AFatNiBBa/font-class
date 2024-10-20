@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blender` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender?s=regular blender}
- * @preview ![blender](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4MEMwIDM1LjggMzUuOCAwIDgwIDBsNDggMCAzMiAwIDE2LjIgMEw0NzEgMGMyMC44IDAgMzYuMSAxOS42IDMxIDM5LjhMNDI1LjYgMzQ1LjVDNDU3LjggMzYxIDQ4MCAzOTMuOSA0ODAgNDMybDAgMTZjMCAzNS4zLTI4LjcgNjQtNjQgNjRsLTI1NiAwYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTE2YzAtNDAuNSAyNS4xLTc1LjEgNjAuNi04OS4yTDE0OS4zIDI1NiA4MCAyNTZjLTQ0LjIgMC04MC0zNS44LTgwLTgwTDAgODB6TTE0NCA0MzJsMCAxNmMwIDguOCA3LjIgMTYgMTYgMTZsMjU2IDBjOC44IDAgMTYtNy4yIDE2LTE2bDAtMTZjMC0yNi41LTIxLjUtNDgtNDgtNDhsLTE5MiAwYy0yNi41IDAtNDggMjEuNS00OCA0OHpNNDA2LjUgMjI0TDMwNCAyMjRjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZsMTEwLjUgMCAxNi02NEwzMDQgMTI4Yy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDEzNC41IDAgMTItNDhMMTgwLjIgNDhsMjQgMjg4IDE3NC40IDAgMjgtMTEyek04MCA0OEM2Mi4zIDQ4IDQ4IDYyLjMgNDggODBsMCA5NmMwIDE3LjcgMTQuMyAzMiAzMiAzMmw2NS4zIDBMMTMyIDQ4IDgwIDQ4ek0yODggNDAwYTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![blender](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/blender.svg)
  */
 const Blender: typeof Icon = x => (
     <Icon {...x}>

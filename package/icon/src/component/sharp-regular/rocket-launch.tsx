@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rocket-launch` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rocket-launch?s=sharp-regular rocket-launch}
- * @preview ![rocket-launch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTk3LjkgMjUzLjljMzIuMi0xMTMuNSA4Ni45LTE2NC4xIDEzNy0xODYuOWM0My44LTIwIDkwLjEtMjEuNCAxMjYuOC0xNi42YzQuOCAzNi42IDMuNCA4Mi45LTE2LjYgMTI2LjhjLTIyLjggNTAtNzMuNCAxMDQuOC0xODYuOSAxMzdjLTYuNC0xMi45LTE0LjgtMjQuNy0yNS4yLTM1cy0yMi4yLTE4LjgtMzUtMjUuMnpNNDQuNCAyODcuN2MxLjIgLjIgMi40IC4zIDMuNiAuM2w5MC43IDBjMjIuNiAwIDQ0LjMgOSA2MC4zIDI1czI1IDM3LjcgMjUgNjAuM2wwIDgyLjcgMCAuMiAwIDU1LjggMTYwLTgwIDAtMTE5LjlDNTI3LjUgMjIzIDUyMC40IDgwLjIgNTAyLjcgOS4zQzQzMS44LTguNCAyODktMTUuNSAxOTkuOSAxMjhsLTY0LjQgMC0uMyAwTDgwIDEyOCAwIDI4Ny42bDQ0LjQgLjF6TS41IDUxMS41czExNi41IDggMTY2LTQxLjVjMzQuNC0zNC40IDM0LjQtOTAuMSAwLTEyNC41cy05MC4xLTM0LjQtMTI0LjUgMEMtNy41IDM5NSAuNSA1MTEuNSAuNSA1MTEuNXptNjQuMS02NC4xcy0yLjctMzguNyAxMy44LTU1LjJjMTEuNC0xMS40IDMwLTExLjQgNDEuNCAwczExLjQgMzAgMCA0MS40Yy0xNi41IDE2LjUtNTUuMiAxMy44LTU1LjIgMTMuOHpNNDA4IDE0NGE0MCA0MCAwIDEgMCAtODAgMCA0MCA0MCAwIDEgMCA4MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rocket-launch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rocket-launch.svg)
  */
 const RocketLaunch: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `q` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/q?s=duotone q}
- * @preview ![q](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCAyNTZjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBjMjguOSAwIDU2LTcuNyA3OS40LTIxLjFsLTcyLTg2LjRjLTExLjMtMTMuNi05LjUtMzMuOCA0LjEtNDUuMXMzMy44LTkuNSA0NS4xIDQuMWw3MC45IDg1LjFDMzcxLjkgMzI1LjggMzg0IDI5Mi4zIDM4NCAyNTZjMC04OC40LTcxLjYtMTYwLTE2MC0xNjBTNjQgMTY3LjYgNjQgMjU2ek0zNDQuOSA0NDQuNkMzMTAgNDY3IDI2OC41IDQ4MCAyMjQgNDgwQzEwMC4zIDQ4MCAwIDM3OS43IDAgMjU2UzEwMC4zIDMyIDIyNCAzMnMyMjQgMTAwLjMgMjI0IDIyNGMwIDU2LjEtMjAuNiAxMDcuNC01NC43IDE0Ni43bDQ3LjMgNTYuOGMxMS4zIDEzLjYgOS41IDMzLjgtNC4xIDQ1LjFzLTMzLjggOS41LTQ1LjEtNC4xbC00Ni42LTU1Ljl6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9IiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![q](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/q.svg)
  */
 const Q: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

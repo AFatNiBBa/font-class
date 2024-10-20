@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `comment` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment?s=duotone comment}
- * @preview ![comment](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik01MTIgMjQwYzAgMTE0LjktMTE0LjYgMjA4LTI1NiAyMDhjLTM3LjEgMC03Mi4zLTYuNC0xMDQuMS0xNy45Yy0xMS45IDguNy0zMS4zIDIwLjYtNTQuMyAzMC42QzczLjYgNDcxLjEgNDQuNyA0ODAgMTYgNDgwYy02LjUgMC0xMi4zLTMuOS0xNC44LTkuOWMtMi41LTYtMS4xLTEyLjggMy40LTE3LjRjMCAwIDAgMCAwIDBzMCAwIDAgMHMwIDAgMCAwYzAgMCAwIDAgMCAwbC4zLS4zYy4zLS4zIC43LS43IDEuMy0xLjRjMS4xLTEuMiAyLjgtMy4xIDQuOS01LjdjNC4xLTUgOS42LTEyLjQgMTUuMi0yMS42YzEwLTE2LjYgMTkuNS0zOC40IDIxLjQtNjIuOUMxNy43IDMyNi44IDAgMjg1LjEgMCAyNDBDMCAxMjUuMSAxMTQuNiAzMiAyNTYgMzJzMjU2IDkzLjEgMjU2IDIwOHoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iIi8+PC9zdmc+|width=32|height=32)
+ * @preview ![comment](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/comment.svg)
  */
 const Comment: typeof Icon = x => (
     <Icon {...x}>

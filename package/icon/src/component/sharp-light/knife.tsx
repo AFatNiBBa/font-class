@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `knife` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/knife?s=sharp-light knife}
- * @preview ![knife](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY1LjIgMTMuOEw0NTQuNCAyNS42YzEwLjgtMTEuOCAxMC44LTExLjggMTAuOC0xMS44czAgMCAwIDBzMCAwIDAgMGMwIDAgMCAwIC4xIC4xbC4yIC4xIC41IC41Yy40IC40IC45IC45IDEuNiAxLjZjMS4zIDEuNCAzLjIgMy4zIDUuNCA1LjhjNC40IDQuOSAxMC4xIDEyLjEgMTUuOCAyMS4yQzUwMC4yIDYxLjIgNTEyIDg3LjggNTEyIDEyMGMwIDI5LjktMTQuMiA2My4yLTQwLjQgMTAxLjVjLTI2LjUgMzguNi02Ni42IDg0LjMtMTIxLjQgMTM5LjFsLTQyLjggNDIuOEwyOTYgNDE0LjhsLTExLjMtMTEuM0wyMDEuMiAzMjAgMjQuNSA1MTAuMSAxLjEgNDg4LjMgMTg5IDI4NmMwIDAgMCAwIDAgMEw0NDIuNyAxNC43IDQ1My41IDMuMWwxMS43IDEwLjZ6bS0xMSAzNS42TDIyMyAyOTYuNWw3MyA3M0wzMjcuNSAzMzhjNTQuMy01NC4zIDkyLjgtOTguMyAxMTcuNi0xMzQuNmMyNS0zNi41IDM0LjgtNjMuMyAzNC44LTgzLjVjMC0yNC4zLTktNDUtMTguMy01OS45Yy0yLjYtNC4xLTUuMi03LjctNy41LTEwLjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![knife](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/knife.svg)
  */
 const Knife: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ice-skate` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ice-skate?s=solid ice-skate}
- * @preview ![ice-skate](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDMzNmMwIDI2LjUtMjEuNSA0OC00OCA0OEw4MCAzODRjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMjAzLjhjMC0yMS40IDE0LjItNDAuMyAzNC44LTQ2LjJMMjU2IDMyYzAtMTcuNyAxNC4zLTMyIDMyLTMyczMyIDE0LjMgMzIgMzJsMCA2NC00OCAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDQ4IDAgMCAzMi00OCAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDQ4IDAgMTE5LjMgMjkuOEM0ODIgMjMyLjUgNTEyIDI3MC45IDUxMiAzMTVsMCAyMXptNDAgNzJjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCA4YzAgMzkuOC0zMi4yIDcyLTcyIDcybC05NiAwLTI4OCAwLTk2IDBjLTEzLjMgMC0yNC0xMC43LTI0LTI0czEwLjctMjQgMjQtMjRsNzIgMCAwLTQ4IDQ4IDAgMCA0OCAyNDAgMCAwLTQ4IDQ4IDAgMCA0OCA3MiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0bDAtOGMwLTEzLjMgMTAuNy0yNCAyNC0yNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![ice-skate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ice-skate.svg)
  */
 const IceSkate: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

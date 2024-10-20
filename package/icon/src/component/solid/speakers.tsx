@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `speakers` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/speakers?s=solid speakers}
- * @preview ![speakers](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEwyODAuNCAwQzI2NS4yIDE3IDI1NiAzOS40IDI1NiA2NGwwIDE5My42Yy0yMC4zLTIwLjctNDguNy0zMy42LTgwLTMzLjZjLTYxLjkgMC0xMTIgNTAuMS0xMTIgMTEyczUwLjEgMTEyIDExMiAxMTJjMzEuMyAwIDU5LjctMTIuOSA4MC0zMy42bDAgMzMuNmMwIDI0LjYgOS4yIDQ3IDI0LjQgNjRMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDY0QzAgMjguNyAyOC43IDAgNjQgMHpNMzIwIDUwMy40Yy0xOS4xLTExLjEtMzItMzEuNy0zMi01NS40bDAtMTEyIDAtMjcyYzAtMjMuNyAxMi45LTQ0LjQgMzItNTUuNEMzMjkuNCAzLjEgMzQwLjMgMCAzNTIgMEw1NzYgMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDM4NGMwIDM1LjMtMjguNyA2NC02NCA2NGwtMjI0IDBjLTExLjcgMC0yMi42LTMuMS0zMi04LjZ6TTM1MiAzMzZhMTEyIDExMiAwIDEgMCAyMjQgMCAxMTIgMTEyIDAgMSAwIC0yMjQgMHpNMTc2IDI3MmE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHptMC0xMTJhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2ek00MDAgMzM2YTY0IDY0IDAgMSAxIDEyOCAwIDY0IDY0IDAgMSAxIC0xMjggMHpNNTEyIDExMmE0OCA0OCAwIDEgMCAtOTYgMCA0OCA0OCAwIDEgMCA5NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![speakers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/speakers.svg)
  */
 const Speakers: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

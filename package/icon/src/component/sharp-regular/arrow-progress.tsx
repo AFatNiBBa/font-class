@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-progress` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-progress?s=sharp-regular arrow-progress}
- * @preview ![arrow-progress](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDg4bDAgNDAgMjQgMCA3Mi02NEwyODAgMCAyNTYgMGwwIDQwTDI0IDQwIDAgNDAgMCA2NCAwIDI1NmwwIDI0IDI0IDAgNDQwIDAgMCAxNDQtNDggMCAwLTQwLTQwIDAtNDggMC00MCAwIDAgNDAgMCA0OCAwIDQwIDQwIDAgNDggMCA0MCAwIDAtNDAgNzIgMCAyNCAwIDAtMjQgMC0xOTIgMC0yNC0yNCAwTDQ4IDIzMiA0OCA4OGwyMDggMHpNMTYwIDM4NGwwIDQwLTMyIDAgMC00MC00MCAwLTQ4IDBMMCAzODRsMCA0MCAwIDQ4IDAgNDAgNDAgMCA0OCAwIDQwIDAgMC00MCAzMiAwIDAgNDAgMjQgMCA3Mi02NC03Mi02NC0yNCAwek00MjQgNDBsNDggMCAwIDQ4LTQ4IDAgMC00OHpNMzg0IDBsMCA0MCAwIDQ4IDAgNDAgNDAgMCA0OCAwIDQwIDAgMC00MCAwLTQ4IDAtNDBMNDcyIDAgNDI0IDAgMzg0IDB6TTg4IDQyNGwwIDQ4LTQ4IDAgMC00OCA0OCAwem0yNDAgMGw0OCAwIDAgNDgtNDggMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-progress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-progress.svg)
  */
 const ArrowProgress: typeof Icon = x => (
     <Icon {...x}>

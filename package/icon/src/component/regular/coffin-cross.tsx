@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `coffin-cross` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffin-cross?s=regular coffin-cross}
- * @preview ![coffin-cross](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQwLjEgNDY0bDEwMy44IDAgOTEuOS0zMTguMkwyNTAuMiA0OCAxMzMuOCA0OCA0OC4yIDE0NS44IDE0MC4xIDQ2NHpNMTEuNSAxMTQuOWw5MS0xMDRDMTA4LjUgNCAxMTcuMyAwIDEyNi41IDBsMTMxIDBjOS4yIDAgMTggNCAyNC4xIDEwLjlsOTEgMTA0YzcuNCA4LjUgMTEuNSAxOS4zIDExLjUgMzAuNmMwIDQuNC0uNiA4LjctMS44IDEyLjlMMjg2LjcgNDg4LjljLTQgMTMuNy0xNi41IDIzLjEtMzAuNyAyMy4xbC0xMjcuOSAwYy0xNC4zIDAtMjYuOC05LjQtMzAuNy0yMy4xTDEuOCAxNTguM0MuNiAxNTQuMSAwIDE0OS44IDAgMTQ1LjRjMC0xMS4yIDQuMS0yMi4xIDExLjUtMzAuNnpNMjE2IDEyMGwwIDQwIDQ4IDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRzLTEwLjcgMjQtMjQgMjRsLTQ4IDAgMCAxMjBjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRsMC0xMjAtNDggMGMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGw0OCAwIDAtNDBjMC0xMy4zIDEwLjctMjQgMjQtMjRzMjQgMTAuNyAyNCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![coffin-cross](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/coffin-cross.svg)
  */
 const CoffinCross: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

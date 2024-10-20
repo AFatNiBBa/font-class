@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `diagram-project` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-project?s=sharp-thin diagram-project}
- * @preview ![diagram-project](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDQ4bDAgMTYwTDE2IDIwOCAxNiA0OGwxNjAgMHpNMTYgMzJMMCAzMiAwIDQ4IDAgMjA4bDAgMTYgMTYgMCAxNjAgMCAzLjUgMEwyMjQgMjk4LjJsMCA1LjggMCAxNjAgMCAxNiAxNiAwIDE2MCAwIDE2IDAgMC0xNiAwLTE2MCAwLTE2LTE2IDAtMTYwIDAtMy41IDBMMTkyIDIxMy44bDAtNS44IDAtNzIgMTkyIDAgMCA3MiAwIDE2IDE2IDAgMTYwIDAgMTYgMCAwLTE2IDAtMTYwIDAtMTYtMTYgMEw0MDAgMzJsLTE2IDAgMCAxNiAwIDcyLTE5MiAwIDAtNzIgMC0xNi0xNiAwTDE2IDMyek00MDAgMzA0bDAgMTYwLTE2MCAwIDAtMTYwIDE2MCAwem0wLTI1NmwxNjAgMCAwIDE2MC0xNjAgMCAwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![diagram-project](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/diagram-project.svg)
  */
 const DiagramProject: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

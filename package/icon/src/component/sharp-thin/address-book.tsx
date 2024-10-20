@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `address-book` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/address-book?s=sharp-thin address-book}
- * @preview ![address-book](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggMTZsMCA0ODAgMzg0IDAgMC00ODBMNDggMTZ6TTMyIDBMNDggMCA0MzIgMGwxNiAwIDAgMTYgMCA0ODAgMCAxNi0xNiAwTDQ4IDUxMmwtMTYgMCAwLTE2TDMyIDE2IDMyIDB6TTUwNCA4MGwwIDY0IDAgOC0xNiAwIDAtOCAwLTY0IDAtOCAxNiAwIDAgOHptMCAxMjBsMCA4IDAgNjQgMCA4LTE2IDAgMC04IDAtNjQgMC04IDE2IDB6bTAgMTM2bDAgNjQgMCA4LTE2IDAgMC04IDAtNjQgMC04IDE2IDAgMCA4ek0xNTAuMiAzNjhsLTE2LjkgMEwxNjAgMjg4bDE2MCAwIDI2LjcgODAtMTYuOSAwLTIxLjMtNjQtMTM2LjkgMC0yMS4zIDY0ek0yODggMTkyYTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6bS0xMTIgMGE2NCA2NCAwIDEgMSAxMjggMCA2NCA2NCAwIDEgMSAtMTI4IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![address-book](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/address-book.svg)
  */
 const AddressBook: typeof Icon = x => (
     <Icon {...x}>

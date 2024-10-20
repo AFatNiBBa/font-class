@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-ski-jumping` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-ski-jumping?s=sharp-thin person-ski-jumping}
- * @preview ![person-ski-jumping](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc0LjQgMjI3LjRsNDQtNTEuNCAxMy43LTE2LTIxLjEgMEwxNjAgMTYwbC0xNiAwLTE2IDAgMC0xNiAwLTMyIDAtMTYgMTYgMCAxNiAwIDE2MCAwIDEzLjMgMCA5LjQgOS40IDEzLjggMTMuOEwzNzEgMTMzLjdsMTEuNCAxMS40LTEyLjkgOS44LTE2LjMgMTIuNEwyMzAuMSAyNjAuOCAyMjMgMjY5bC0xMi4xLTEwLjQgNy4xLTguM0wyMTkgMjQ5bDEuNC0xIDEyMy4xLTkzLjUgMTQuNi0xMS4xLTEzLTEzLTEzLjgtMTMuOC00LjctNC43LTYuNiAwLTE2MCAwLTE2IDAgMCAzMiAxNiAwIDcyLjEgMCAzNC44IDAtMjIuNiAyNi40LTU3LjcgNjcuNGMtNS41IDYuNS0xMCAxMy44LTEzLjMgMjEuN0wxMTYuMSAzOTguNmwyOS42IDEyLjIgNTcuMi0xMzkuMmMxLjktNC43IDQuNi05LjEgOC0xM0wyMjMgMjY5Yy0yLjIgMi42LTQgNS41LTUuMyA4LjdMMTYwLjUgNDE2LjlsLTEgMi40TDQ5NiAyNTEuMWwwLTY3LjEgMC04IDE2IDAgMCA4IDAgNzIgMCA0LjktNC40IDIuMi00OTYgMjQ4TDQuNCA0OTYuOGwxMzkuMi02OS42LTQtMS42TDExMCA0MTMuNGwtMTQuOC02LjEgNi4xLTE0LjggNTcuMi0xMzkuMmMzLjktOS41IDkuMy0xOC4yIDE1LjktMjZ6TTQzMiA0OGEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwek00MDAgMGE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![person-ski-jumping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-ski-jumping.svg)
  */
 const PersonSkiJumping: typeof Icon = x => (
     <Icon {...x}>

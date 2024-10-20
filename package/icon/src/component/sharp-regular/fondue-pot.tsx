@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fondue-pot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fondue-pot?s=sharp-regular fondue-pot}
- * @preview ![fondue-pot](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzc5LjYgMTYzLjVsLTE5IDI4LjUtMzguNSAwIDMwLjgtNDYuMi0xMy4zLTguOUw0MzAuOSAwbDUzLjMgMzUuNUwzOTIuOSAxNzIuNGwtMTMuMy04Ljl6TTI2NC41IDE5MmwtMzMgMCA5LjItMzYuOC0xNS41LTMuOUwyNjMgMGw2Mi4xIDE1LjVMMjg3LjMgMTY2LjhsLTE1LjUtMy45TDI2NC41IDE5MnpNMTkyIDI3MmwwIDQ4LTQ4IDAgMC00OC0xNiAwIDAgODAtNDggMCAwLTgwLTMyIDAgMCA0OGMwIDYxLjkgNTAuMSAxMTIgMTEyIDExMmwxMjggMGM2MS45IDAgMTEyLTUwLjEgMTEyLTExMmwwLTQ4LTggMC0yMDAgMHptMjU2IDBsMCA0OGMwIDUyLjMtMjUuMSA5OC44LTY0IDEyOGwwIDQwIDAgMjQtNDggMCAwLTI0IDAtMTUuM2MtMTUuMiA0LjgtMzEuMyA3LjMtNDggNy4zbC0xMjggMGMtMTYuNyAwLTMyLjgtMi42LTQ4LTcuM2wwIDE1LjMgMCAyNC00OCAwIDAtMjQgMC00MEMyNS4xIDQxOC44IDAgMzcyLjMgMCAzMjBsMC00OCAwLTQ4IDQ4IDAgMzQ0IDAgOCAwIDE2IDAgMzIgMCA0MCAwIDI0IDAgMCA0OC0yNCAwLTQwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![fondue-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/fondue-pot.svg)
  */
 const FonduePot: typeof Icon = x => (
     <Icon {...x}>

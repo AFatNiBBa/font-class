@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `golf-club` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-club?s=thin golf-club}
- * @preview ![golf-club](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTExLjIgMTEuNmMyLTQgLjQtOC44LTMuNi0xMC43cy04LjgtLjQtMTAuNyAzLjZMMzA5LjYgMzc4LjggNTAuNCAzMDguOEMyNSAzMDEuOSAwIDMyMS4xIDAgMzQ3LjRMMCAzODRsMCA2NCAwIDI0YzAgMjIuMSAxNy45IDQwIDQwIDQwbDE4Ni4zIDBjMjEuMiAwIDQwLjYtMTIgNTAuMS0zMUwzMjEgMzkxLjggNTExLjIgMTEuNnpNMTYgNDU2bDY0IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTY0IDAgMC00OCA2NCAwYzQuNCAwIDgtMy42IDgtOHMtMy42LTgtOC04bC02NCAwIDAtMjguNmMwLTE1LjggMTUtMjcuMyAzMC4zLTIzLjJsMjU2LjEgNjkuMi00MC4yIDgwLjVjLTYuOCAxMy42LTIwLjYgMjIuMS0zNS44IDIyLjFMNDAgNDk2Yy0xMy4zIDAtMjQtMTAuNy0yNC0yNGwwLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![golf-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/golf-club.svg)
  */
 const GolfClub: typeof Icon = x => (
     <Icon {...x}>

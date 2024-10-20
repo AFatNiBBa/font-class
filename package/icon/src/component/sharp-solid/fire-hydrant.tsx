@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fire-hydrant` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-hydrant?s=sharp-solid fire-hydrant}
- * @preview ![fire-hydrant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMybDAgNGM0NSAxMS42IDgwLjQgNDcgOTIgOTJsMTIgMCAyNCAwIDAgNDgtMjQgMEw1NiAxNzZsLTI0IDAgMC00OCAyNCAwIDEyIDBjMTEuNi00NSA0Ny04MC40IDkyLTkybDAtNCAwLTMyIDY0IDAgMCAzMnpNMzIgNDY0bDI0IDAgOCAwIDAtNjQtNDggMCAwLTEyOCA0OCAwIDAtNjQgMjU2IDAgMCA2NCA0OCAwIDAgMTI4LTQ4IDAgMCA2NCA4IDAgMjQgMCAwIDQ4LTI0IDAtOCAwTDY0IDUxMmwtOCAwLTI0IDAgMC00OHptMTYwLTY0YTY0IDY0IDAgMSAwIDAtMTI4IDY0IDY0IDAgMSAwIDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![fire-hydrant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fire-hydrant.svg)
  */
 const FireHydrant: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

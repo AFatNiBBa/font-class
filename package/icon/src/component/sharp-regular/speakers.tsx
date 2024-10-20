@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `speakers` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/speakers?s=sharp-regular speakers}
- * @preview ![speakers](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDIwOGMxMS4xIDAgMjEuOSAxLjYgMzIgNC42bDAgNTEuOWMtOS40LTUuNC0yMC4zLTguNi0zMi04LjZjLTM1LjMgMC02NCAyOC43LTY0IDY0czI4LjcgNjQgNjQgNjRjMTEuNyAwIDIyLjYtMy4xIDMyLTguNmwwIDUxLjljLTEwLjEgMy0yMC45IDQuNi0zMiA0LjZjLTYxLjkgMC0xMTItNTAuMS0xMTItMTEyczUwLjEtMTEyIDExMi0xMTJ6bTMyLTU2Yy03LjMgOS43LTE4LjkgMTYtMzIgMTZjLTIyLjEgMC00MC0xNy45LTQwLTQwczE3LjktNDAgNDAtNDBjMTMuMSAwIDI0LjcgNi4zIDMyIDE2bDAgNDh6TTQ4IDQ4bDAgNDE2IDE3NiAwIDAgNDhMNDggNTEyIDAgNTEybDAtNDhMMCA0OCAwIDAgNDggMCAyMjQgMGwwIDQ4TDQ4IDQ4em0yNTYgMGwwIDQxNiAyODggMCAwLTQxNkwzMDQgNDh6TTI1NiAwbDQ4IDBMNTkyIDBsNDggMCAwIDQ4IDAgNDE2IDAgNDgtNDggMC0yODggMC00OCAwIDAtNDggMC00MTYgMC00OHpNNDQ4IDg4YTQwIDQwIDAgMSAxIDAgODAgNDAgNDAgMCAxIDEgMC04MHpNMzM2IDMyMGExMTIgMTEyIDAgMSAxIDIyNCAwIDExMiAxMTIgMCAxIDEgLTIyNCAwem0xMTIgNjRhNjQgNjQgMCAxIDAgMC0xMjggNjQgNjQgMCAxIDAgMCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![speakers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/speakers.svg)
  */
 const Speakers: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

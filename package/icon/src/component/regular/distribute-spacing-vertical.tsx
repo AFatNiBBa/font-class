@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `distribute-spacing-vertical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/distribute-spacing-vertical?s=regular distribute-spacing-vertical}
- * @preview ![distribute-spacing-vertical](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA1NkMwIDY5LjMgMTAuNyA4MCAyNCA4MGw0NjQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNEwyNCAzMkMxMC43IDMyIDAgNDIuNyAwIDU2ek0zNjggMjA4bDAgOTYtMjI0IDAgMC05NiAyMjQgMHpNMTQ0IDE2MGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCA5NmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwyMjQgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTk2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC0yMjQgMHpNMjQgNDMyYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDQ2NCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDI0IDQzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![distribute-spacing-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/distribute-spacing-vertical.svg)
  */
 const DistributeSpacingVertical: typeof Icon = x => (
     <Icon {...x}>

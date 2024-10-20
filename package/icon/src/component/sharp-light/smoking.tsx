@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `smoking` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smoking?s=sharp-light smoking}
- * @preview ![smoking](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDBsMzIgMCAwIDQzYzAgMzguMiAxNS4yIDc0LjggNDIuMiAxMDEuOGwyMSAyMWMyMSAyMSAzMi44IDQ5LjUgMzIuOCA3OS4ybDAgNDMtMzIgMCAwLTQzYzAtMjEuMi04LjQtNDEuNi0yMy40LTU2LjZsLTIxLTIxQzQ2Ni41IDEzNC40IDQ0OCA4OS43IDQ0OCA0M2wwLTQzek02NDAgMjg4bC0zMiAwIDAtNDNjMC0zOC4yLTE1LjItNzQuOC00Mi4yLTEwMS44bC0yMS0yMWMtMjEtMjEtMzIuOC00OS41LTMyLjgtNzkuMmwwLTQzIDMyIDAgMCA0M2MwIDIxLjIgOC40IDQxLjYgMjMuNCA1Ni42bDIxIDIxYzMzIDMzIDUxLjUgNzcuOCA1MS41IDEyNC41bDAgNDN6TTAgMzUybDE2IDAgMTc2IDAgMzIgMCAyNzIgMCAxNiAwIDAgMTYgMCAxMjggMCAxNi0xNiAwLTI3MiAwLTMyIDBMMTYgNTEyIDAgNTEybDAtMTZMMCAzNjhsMC0xNnptMzIgMzJsMCA5NiAxNjAgMCAwLTk2TDMyIDM4NHptNDQ4IDk2bDAtOTYtMjU2IDAgMCA5NiAyNTYgMHptOTYtMTI4bDAgMTYgMCAxMjggMCAxNi0zMiAwIDAtMTYgMC0xMjggMC0xNiAzMiAwem02NCAwbDAgMTYgMCAxMjggMCAxNi0zMiAwIDAtMTYgMC0xMjggMC0xNiAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/smoking.svg)
  */
 const Smoking: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `amilia` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/amilia?s=brands amilia}
- * @preview ![amilia](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwLjEgMzJjLTYxLjkgMC0xMzEuNSAxNi45LTE4NC4yIDU1LjQtNS4xIDMuMS05LjEgOS4yLTcuMiAxOS40IDEuMSA1LjEgNS4xIDI3LjQgMTAuMiAzOS42IDQuMSAxMC4yIDE0LjIgMTAuMiAyMC4zIDYuMSAzMi41LTIyLjMgOTYuNS00Ny43IDE1Mi4zLTQ3LjcgNTcuOSAwIDU4LjkgMjguNCA1OC45IDczLjF2MzguNUMyMDMgMjI3LjcgNzguMiAyNTEgNDYuNyAyNjQuMiAxMS4yIDI4MC41IDE2LjMgMzU3LjcgMTYuMyAzNzZzMTUuMiAxMDQgMTI0LjkgMTA0YzQ3LjggMCAxMTMuNy0yMC43IDE1My4zLTQyLjF2MjUuNGMwIDMgMi4xIDguMiA2LjEgOS4xIDMuMSAxIDUwLjcgMiA1OS45IDJzNjIuNS4zIDY2LjUtLjdjNC4xLTEgNS4xLTYuMSA1LjEtOS4xVjE2OGMtLjEtODAuMy01Ny45LTEzNi0xOTItMTM2em01MC4yIDM0OGMtMjEuNCAxMy4yLTQ4LjcgMjQuNC03OS4xIDI0LjQtNTIuOCAwLTU4LjktMzMuNS01OS00NC43IDAtMTIuMi0zLTQyLjcgMTguMy01Mi45IDI0LjMtMTMuMiA3NS4xLTI5LjQgMTE5LjgtMzMuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![amilia](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/amilia.svg)
  */
 const Amilia: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

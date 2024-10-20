@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `compass-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass-slash?s=sharp-thin compass-slash}
- * @preview ![compass-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU1LjEgNDU0LjRDNDE2LjYgNDgwLjYgMzcwLjEgNDk2IDMyMCA0OTZDMTg3LjUgNDk2IDgwIDM4OC41IDgwIDI1NmMwLTMwLjEgNS41LTU4LjkgMTUuNi04NS40TDgyLjUgMTYwLjJDNzAuNiAxODkuOCA2NCAyMjIuMSA2NCAyNTZjMCAxNDEuNCAxMTQuNiAyNTYgMjU2IDI1NmM1NS4yIDAgMTA2LjQtMTcuNSAxNDguMi00Ny4ybC0xMy4xLTEwLjR6TTMyMCAwQzI2NC44IDAgMjEzLjYgMTcuNSAxNzEuOCA0Ny4ybDEzLjEgMTAuNEMyMjMuNCAzMS40IDI2OS45IDE2IDMyMCAxNmMxMzIuNSAwIDI0MCAxMDcuNSAyNDAgMjQwYzAgMzAuMS01LjUgNTguOS0xNS42IDg1LjRsMTMuMSAxMC40QzU2OS40IDMyMi4yIDU3NiAyODkuOSA1NzYgMjU2QzU3NiAxMTQuNiA0NjEuNCAwIDMyMCAwek0xOTguMyAzNjVMMTkyIDM4NGwxOS02LjMgMTAzLjMtMzQuNC0xNS0xMS45LTgyIDI3LjMgMjQuMy03Mi45LTEzLjQtMTAuNUwxOTguMyAzNjV6TTMyNS43IDE2OC44bDE1IDExLjkgODItMjcuMy0yNC4zIDcyLjkgMTMuNCAxMC41TDQ0MS43IDE0N2w2LjMtMTktMTkgNi4zTDMyNS43IDE2OC44ek0xNi4yIDVMOS45IDAgMCAxMi41bDYuMyA1TDYyMy44IDUwN2w2LjMgNSA5LjktMTIuNS02LjMtNUwxNi4yIDV6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![compass-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/compass-slash.svg)
  */
 const CompassSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

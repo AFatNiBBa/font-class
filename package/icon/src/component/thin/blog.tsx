@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blog` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blog?s=thin blog}
- * @preview ![blog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAwIDMyYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4YzE0NS44IDAgMjY0IDExOC4yIDI2NCAyNjRjMCA0LjQgMy42IDggOCA4czgtMy42IDgtOEM0ODAgMTU3LjQgMzU0LjYgMzIgMjAwIDMyem0wIDk2Yy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4YzkyLjggMCAxNjggNzUuMiAxNjggMTY4YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThjMC0xMDEuNi04Mi40LTE4NC0xODQtMTg0ek0xNiAxMDRjMC00LjQtMy42LTgtOC04cy04IDMuNi04IDhMMCAzNjhjMCA3OS41IDY0LjUgMTQ0IDE0NCAxNDRzMTQ0LTY0LjUgMTQ0LTE0NHMtNjQuNS0xNDQtMTQ0LTE0NGwtOCAwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDggMGM3MC43IDAgMTI4IDU3LjMgMTI4IDEyOHMtNTcuMyAxMjgtMTI4IDEyOFMxNiA0MzguNyAxNiAzNjhsMC0yNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![blog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/blog.svg)
  */
 const Blog: typeof Icon = x => (
     <Icon {...x}>

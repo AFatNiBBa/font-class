@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `industry-windows` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/industry-windows?s=sharp-thin industry-windows}
- * @preview ![industry-windows](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAgMzJsLTggMCAwIDggMCAyMTYgMCAxMjggMCA4OCAwIDggOCAwIDQ5NiAwIDggMCAwLTggMC0xNTIgMC02NCAwLTE0NCAwLTEzLjZMNTMyLjEgMTA1IDM2OCAxOTYuOWwwLTg0LjkgMC0xMy45LTEyIDdMMTkyIDIwMC43IDE5MiA0MGwwLTgtOCAwTDQwIDMyem04IDIyNEw0OCA0OGwxMjggMCAwIDE2Ni43IDAgMTMuOSAxMi03IDE2NC05NS42IDAgODQuNiAwIDEzLjYgMTEuOS02LjdMNTI4IDEyNS42IDUyOCAyNTZsMCA2NCAwIDE0NEw0OCA0NjRsMC04MCAwLTEyOHptODAgNDhsLTggMCAwIDggMCA2NCAwIDggOCAwIDY0IDAgOCAwIDAtOCAwLTY0IDAtOC04IDAtNjQgMHptOCA2NGwwLTQ4IDQ4IDAgMCA0OC00OCAwem0xMTItNjRsMCA4IDAgNjQgMCA4IDggMCA2NCAwIDggMCAwLTggMC02NCAwLTgtOCAwLTY0IDAtOCAwem0xNiAxNmw0OCAwIDAgNDgtNDggMCAwLTQ4em0xMjAtMTZsLTggMCAwIDggMCA2NCAwIDggOCAwIDY0IDAgOCAwIDAtOCAwLTY0IDAtOC04IDAtNjQgMHptOCA2NGwwLTQ4IDQ4IDAgMCA0OC00OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![industry-windows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/industry-windows.svg)
  */
 const IndustryWindows: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

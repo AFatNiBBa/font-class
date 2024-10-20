@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-tail` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-tail?s=regular plane-tail}
- * @preview ![plane-tail](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNLjggMzlMNjEuNSAzMDguOGwtMTUuNSA0LjNDMTguOCAzMjAuNSAwIDM0NS4yIDAgMzczLjRjMCAyNiAxNi4xIDQ5LjMgNDAuNCA1OC41bDE5Ni4xIDc0LjRjMTAgMy44IDIwLjUgNS43IDMxLjIgNS43TDQ4OCA1MTJjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTIyMC4zIDBjLTQuOCAwLTkuNy0uOS0xNC4yLTIuNkw1Ny40IDM4N2MtNS43LTIuMS05LjQtNy42LTkuNC0xMy42YzAtNi42IDQuNC0xMi4zIDEwLjctMTQuMUwyNTQgMzA1LjRjMy41LTEgNy0xLjQgMTAuNi0xLjRMNDg4IDMwNGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMTA0IDBMMTU0LjkgMTkuNUMxNDIuOCA3IDEyNi4yIDAgMTA4LjkgMEwzMiAwQzExLjUgMC0zLjcgMTkgLjggMzl6TTIxNiAzNTJjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMTQ0IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTE0NCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![plane-tail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/plane-tail.svg)
  */
 const PlaneTail: typeof Icon = x => (
     <Icon {...x}>

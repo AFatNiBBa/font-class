@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `dumpster` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumpster?s=duotone dumpster}
- * @preview ![dumpster](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDEzOS4xYzAtMi4xIC4zLTQuMSAuOS02LjFMMjYuOCA0OC45QzI5LjkgMzguOSAzOS4yIDMyIDQ5LjcgMzJsOTAuOCAwTDExNC45IDE2MGwtOTQgMEM5LjMgMTYwIDAgMTUwLjcgMCAxMzkuMXpNMTQ3LjUgMTYwTDE3My4xIDMyIDI3MiAzMmwwIDEyOC0xMjQuNSAwek0zMDQgMzJsOTguOSAwIDI1LjYgMTI4TDMwNCAxNjBsMC0xMjh6bTEzMS41IDBsOTAuOCAwYzEwLjUgMCAxOS44IDYuOSAyMi45IDE2LjlMNTc1LjEgMTMzYy42IDIgLjkgNC4xIC45IDYuMWMwIDExLjUtOS4zIDIwLjktMjAuOSAyMC45bC05NCAwTDQzNS41IDMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNNjQgNDQ4TDQ0IDI4OGwtMTIgMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmw0IDAtNC0zMiA1MTIgMC00IDMyIDQgMGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMmwtMTIgMEw1MTIgNDQ4YzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybC0zMjAgMGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dumpster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/dumpster.svg)
  */
 const Dumpster: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
         <path class={generic.secondary} d="M0 139.1c0-2.1 .3-4.1 .9-6.1L26.8 48.9C29.9 38.9 39.2 32 49.7 32l90.8 0L114.9 160l-94 0C9.3 160 0 150.7 0 139.1zM147.5 160L173.1 32 272 32l0 128-124.5 0zM304 32l98.9 0 25.6 128L304 160l0-128zm131.5 0l90.8 0c10.5 0 19.8 6.9 22.9 16.9L575.1 133c.6 2 .9 4.1 .9 6.1c0 11.5-9.3 20.9-20.9 20.9l-94 0L435.5 32z" />
-            <path d="M64 448L44 288l-12 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l4 0-4-32 512 0-4 32 4 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-12 0L512 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l-320 0c0 17.7-14.3 32-32 32s-32-14.3-32-32z" />
+        <path d="M64 448L44 288l-12 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l4 0-4-32 512 0-4 32 4 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-12 0L512 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l-320 0c0 17.7-14.3 32-32 32s-32-14.3-32-32z" />
     </Icon>
 );
 

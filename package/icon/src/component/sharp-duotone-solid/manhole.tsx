@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `manhole` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/manhole?s=sharp-duotone-solid manhole}
- * @preview ![manhole](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik05NiAyNTZjMCA3Ny41IDU1IDE0Mi4xIDEyOC4yIDE1Ni44YzEuNi0xNi4yIDE1LjItMjguOCAzMS44LTI4LjhzMzAuMyAxMi42IDMxLjggMjguOEMzNjEgMzk4LjEgNDE2IDMzMy41IDQxNiAyNTZzLTU1LTE0Mi4xLTEyOC4yLTE1Ni44QzI4Ni4zIDExNS40IDI3Mi42IDEyOCAyNTYgMTI4cy0zMC4zLTEyLjYtMzEuOC0yOC44QzE1MSAxMTMuOSA5NiAxNzguNSA5NiAyNTZ6bTgwLTgwbDMyIDAgMCAzMi0zMiAwIDAtMzJ6bTAgNjRsMzIgMCAwIDMyLTMyIDAgMC0zMnptMCA2NGwzMiAwIDAgMzItMzIgMCAwLTMyem02NC0xMjhsMzIgMCAwIDMyLTMyIDAgMC0zMnptMCA2NGwzMiAwIDAgMzItMzIgMCAwLTMyem0wIDY0bDMyIDAgMCAzMi0zMiAwIDAtMzJ6bTY0LTEyOGwzMiAwIDAgMzItMzIgMCAwLTMyem0wIDY0bDMyIDAgMCAzMi0zMiAwIDAtMzJ6bTAgNjRsMzIgMCAwIDMyLTMyIDAgMC0zMnoiLz48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZD0iTTI1NiA1MTJBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyem0wLTQ0OGExOTIgMTkyIDAgMSAxIDAgMzg0IDE5MiAxOTIgMCAxIDEgMC0zODR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![manhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/manhole.svg)
  */
 const Manhole: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M96 256c0 77.5 55 142.1 128.2 156.8c1.6-16.2 15.2-28.8 31.8-28.8s30.3 12.6 31.8 28.8C361 398.1 416 333.5 416 256s-55-142.1-128.2-156.8C286.3 115.4 272.6 128 256 128s-30.3-12.6-31.8-28.8C151 113.9 96 178.5 96 256zm80-80l32 0 0 32-32 0 0-32zm0 64l32 0 0 32-32 0 0-32zm0 64l32 0 0 32-32 0 0-32zm64-128l32 0 0 32-32 0 0-32zm0 64l32 0 0 32-32 0 0-32zm0 64l32 0 0 32-32 0 0-32zm64-128l32 0 0 32-32 0 0-32zm0 64l32 0 0 32-32 0 0-32zm0 64l32 0 0 32-32 0 0-32z" />
-            <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-448a192 192 0 1 1 0 384 192 192 0 1 1 0-384z" />
+        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-448a192 192 0 1 1 0 384 192 192 0 1 1 0-384z" />
     </Icon>
 );
 

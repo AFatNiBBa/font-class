@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `thermometer` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thermometer?s=solid thermometer}
- * @preview ![thermometer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzgyLjFsMC04OC44YzAtMTQuOSA1LjktMjkuMSAxNi40LTM5LjZsMjcuMy0yNy4zIDU3IDU3YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwczYuMi0xNi40IDAtMjIuNmwtNTctNTcgNDEuNC00MS40IDU3IDU3YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwczYuMi0xNi40IDAtMjIuNmwtNTctNTcgNDEuNC00MS40IDU3IDU3YzYuMiA2LjIgMTYuNCA2LjIgMjIuNiAwczYuMi0xNi40IDAtMjIuNmwtNTctNTcgNDUuNS00NS41QzM1NS4yIDEwLjkgMzgxLjQgMCA0MDguOCAwQzQ2NS44IDAgNTEyIDQ2LjIgNTEyIDEwMy4yYzAgMjcuNC0xMC45IDUzLjYtMzAuMiA3M0wyNTguMyAzOTkuNmMtMTAuNSAxMC41LTI0LjcgMTYuNC0zOS42IDE2LjRsLTg4LjggMEw0MSA1MDVjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwcy05LjQtMjQuNiAwLTMzLjlsODktODl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![thermometer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/thermometer.svg)
  */
 const Thermometer: typeof Icon = x => (
     <Icon {...x}>

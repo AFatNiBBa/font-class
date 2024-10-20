@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `cactus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cactus?s=duotone cactus}
- * @preview ![cactus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDE0NGwwIDY0YzAgNjEuOSA1MC4xIDExMiAxMTIgMTEybDQ4IDAgMC05Ni00OCAwYy04LjggMC0xNi03LjItMTYtMTZsMC02NGMwLTI2LjUtMjEuNS00OC00OC00OFMwIDExNy41IDAgMTQ0ek0zNTIgMzUybDAgOTYgNDggMGM2MS45IDAgMTEyLTUwLjEgMTEyLTExMmwwLTY0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4cy00OCAyMS41LTQ4IDQ4bDAgNjRjMCA4LjgtNy4yIDE2LTE2IDE2bC00OCAweiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMTYwIDk2YzAtNTMgNDMtOTYgOTYtOTZzOTYgNDMgOTYgOTZsMCAzNjhjMCAyNi41LTIxLjUgNDgtNDggNDhsLTk2IDBjLTI2LjUgMC00OC0yMS41LTQ4LTQ4bDAtMzY4em04MCA2NGExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwem00OCAyNDBhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cactus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cactus.svg)
  */
 const Cactus: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 144l0 64c0 61.9 50.1 112 112 112l48 0 0-96-48 0c-8.8 0-16-7.2-16-16l0-64c0-26.5-21.5-48-48-48S0 117.5 0 144zM352 352l0 96 48 0c61.9 0 112-50.1 112-112l0-64c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 64c0 8.8-7.2 16-16 16l-48 0z" />
-            <path d="M160 96c0-53 43-96 96-96s96 43 96 96l0 368c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-368zm80 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 240a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
+        <path d="M160 96c0-53 43-96 96-96s96 43 96 96l0 368c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-368zm80 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 240a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
     </Icon>
 );
 

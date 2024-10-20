@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-bookmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-bookmark?s=light circle-bookmark}
- * @preview ![circle-bookmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDMyYTIyNCAyMjQgMCAxIDEgMCA0NDggMjI0IDIyNCAwIDEgMSAwLTQ0OHptMCA0ODBBMjU2IDI1NiAwIDEgMCAyNTYgMGEyNTYgMjU2IDAgMSAwIDAgNTEyek0xOTIgMTc2YzAtOC44IDcuMi0xNiAxNi0xNmw5NiAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDE1OC43LTU0LTQzLjJjLTUuOC00LjctMTQuMS00LjctMjAgMGwtNTQgNDMuMkwxOTIgMTc2em0xNi00OGMtMjYuNSAwLTQ4IDIxLjUtNDggNDhsMCAxOTJjMCA2LjIgMy41IDExLjggOS4xIDE0LjRzMTIuMSAxLjkgMTYuOS0xLjlsNzAtNTYgNzAgNTZjNC44IDMuOCAxMS40IDQuNiAxNi45IDEuOXM5LjEtOC4zIDkuMS0xNC40bDAtMTkyYzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC05NiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circle-bookmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-bookmark.svg)
  */
 const CircleBookmark: typeof Icon = x => (
     <Icon {...x}>

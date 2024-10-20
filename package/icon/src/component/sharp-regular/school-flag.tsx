@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `school-flag` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school-flag?s=sharp-regular school-flag}
- * @preview ![school-flag](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyIDBMNDE2IDBsMCA5Ni05Ny45IDAgODkuNiA2NEw1NTIgMTYwbDI0IDAgMCAyNCAwIDMwNCAwIDI0LTI0IDAtMjE2IDAtOTYgMEwyNCA1MTIgMCA1MTJsMC0yNEwwIDE4NGwwLTI0IDI0IDAgMTQ0LjMgMEwyNjQgOTEuNiAyNjQgMjRsMC0yNCAyNCAwIDI0IDB6TTUyOCA0NjRsMC0yNTYtMTI4IDAtNy43IDAtNi4zLTQuNS05OC4xLTcwLTk4LjEgNzAtNi4zIDQuNS03LjcgMEw0OCAyMDhsMCAyNTYgMTkyIDAgMC02NGMwLTI2LjUgMjEuNS00OCA0OC00OHM0OCAyMS41IDQ4IDQ4bDAgNjQgMTkyIDB6TTI0MCAyNDBhNDggNDggMCAxIDEgOTYgMCA0OCA0OCAwIDEgMSAtOTYgMHptLTgwIDE2bDAgNjQtNjQgMCAwLTY0IDY0IDB6bTI1NiAwbDY0IDAgMCA2NC02NCAwIDAtNjR6TTE2MCAzNTJsMCA2NC02NCAwIDAtNjQgNjQgMHptMzIwIDBsMCA2NC02NCAwIDAtNjQgNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![school-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/school-flag.svg)
  */
 const SchoolFlag: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

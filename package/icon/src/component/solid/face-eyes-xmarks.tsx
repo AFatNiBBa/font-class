@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-eyes-xmarks` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-eyes-xmarks?s=solid face-eyes-xmarks}
- * @preview ![face-eyes-xmarks](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMkEyNTYgMjU2IDAgMSAwIDI1NiAwYTI1NiAyNTYgMCAxIDAgMCA1MTJ6TTEyMy4zIDEzMi43TDE2MCAxNjkuNGwzNi43LTM2LjdjNi4yLTYuMiAxNi40LTYuMiAyMi42IDBzNi4yIDE2LjQgMCAyMi42TDE4Mi42IDE5MmwzNi43IDM2LjdjNi4yIDYuMiA2LjIgMTYuNCAwIDIyLjZzLTE2LjQgNi4yLTIyLjYgMEwxNjAgMjE0LjZsLTM2LjcgMzYuN2MtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBzLTYuMi0xNi40IDAtMjIuNkwxMzcuNCAxOTJsLTM2LjctMzYuN2MtNi4yLTYuMi02LjItMTYuNCAwLTIyLjZzMTYuNC02LjIgMjIuNiAwem0xOTIgMEwzNTIgMTY5LjRsMzYuNy0zNi43YzYuMi02LjIgMTYuNC02LjIgMjIuNiAwczYuMiAxNi40IDAgMjIuNkwzNzQuNiAxOTJsMzYuNyAzNi43YzYuMiA2LjIgNi4yIDE2LjQgMCAyMi42cy0xNi40IDYuMi0yMi42IDBMMzUyIDIxNC42bC0zNi43IDM2LjdjLTYuMiA2LjItMTYuNCA2LjItMjIuNiAwcy02LjItMTYuNCAwLTIyLjZMMzI5LjQgMTkybC0zNi43LTM2LjdjLTYuMi02LjItNi4yLTE2LjQgMC0yMi42czE2LjQtNi4yIDIyLjYgMHpNMjU2IDMwNGM0NC4yIDAgODAgMzUuOCA4MCA4MGMwIDguOC03LjIgMTYtMTYgMTZsLTEyOCAwYy04LjggMC0xNi03LjItMTYtMTZjMC00NC4yIDM1LjgtODAgODAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-eyes-xmarks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-eyes-xmarks.svg)
  */
 const FaceEyesXmarks: typeof Icon = x => (
     <Icon {...x}>

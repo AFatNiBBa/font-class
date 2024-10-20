@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `users-rays` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-rays?s=sharp-regular users-rays}
- * @preview ![users-rays](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDAgNi4xTDYuMSA0MCAyMyA1N2w1NiA1NiAxNyAxN0wxMjkuOSA5NiAxMTMgNzkgNTcgMjMgNDAgNi4xem01NjAgMEw1ODMgMjMgNTI3IDc5bC0xNyAxN0w1NDQgMTI5LjlsMTctMTcgNTYtNTYgMTctMTdMNjAwIDYuMXpNNTcgNDg5bDU2LTU2IDE3LTE3TDk2IDM4Mi4xIDc5IDM5OSAyMyA0NTVsLTE3IDE3TDQwIDUwNS45bDE3LTE3em01NDMgMTdMNjMzLjkgNDcybC0xNy0xNy01Ni01Ni0xNy0xN0w1MTAuMSA0MTZsMTcgMTcgNTYgNTYgMTcgMTd6TTI2MC4xIDI4OEwyMjQgMjg4bC0yMCA4MC0xMiA0OCA0OS41IDAgMTU3IDAgNDkuNSAwLTEyLTQ4LTIwLTgwLTM2LjEgMEwzMjAgMjg4bC01OS45IDB6bTEuNCA0OGwxMTcgMCA4IDMyLTEzMyAwIDgtMzJ6bTEzLjMtOTZhNzIgNzIgMCAxIDAgOTAuNS0xMTIuMUE3MiA3MiAwIDEgMCAyNzQuNyAyNDB6TTMyMCAxNjBhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4em0yMDAgOTZsLTc5IDAgNi4xIDI0LjJMNDYxIDMzNmw4MyAwLTI0LTgwem0tNDAwIDBMOTYgMzM2bDgzIDBMMTkzIDI4MC4yIDE5OSAyNTZsLTc5IDB6bTU1LjgtMzJhNDggNDggMCAxIDAgMC05NiA0OCA0OCAwIDEgMCAwIDk2ek01MTIgMTc2YTQ4IDQ4IDAgMSAwIC05NiAwIDQ4IDQ4IDAgMSAwIDk2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![users-rays](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/users-rays.svg)
  */
 const UsersRays: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

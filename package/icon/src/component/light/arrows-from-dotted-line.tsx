@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-from-dotted-line` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-from-dotted-line?s=light arrows-from-dotted-line}
- * @preview ![arrows-from-dotted-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjM1LjMgNC43Yy0zLTMtNy4xLTQuNy0xMS4zLTQuN3MtOC4zIDEuNy0xMS4zIDQuN2wtODAgODBjLTYuMiA2LjItNi4yIDE2LjQgMCAyMi42czE2LjQgNi4yIDIyLjYgMEwyMDggNTQuNiAyMDggMTc2YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xMjEuNCA1Mi43IDUyLjdjNi4yIDYuMiAxNi40IDYuMiAyMi42IDBzNi4yLTE2LjQgMC0yMi42bC04MC04MHpNOCAyNTZhMjQgMjQgMCAxIDAgNDggMEEyNCAyNCAwIDEgMCA4IDI1NnptMzg0IDBhMjQgMjQgMCAxIDAgNDggMCAyNCAyNCAwIDEgMCAtNDggMHptLTcyLTI0YTI0IDI0IDAgMSAwIDAgNDggMjQgMjQgMCAxIDAgMC00OHpNMjAwIDI1NmEyNCAyNCAwIDEgMCA0OCAwIDI0IDI0IDAgMSAwIC00OCAwem0tNzItMjRhMjQgMjQgMCAxIDAgMCA0OCAyNCAyNCAwIDEgMCAwLTQ4em05NiAyODBjNC4yIDAgOC4zLTEuNyAxMS4zLTQuN2w4MC04MGM2LjItNi4yIDYuMi0xNi40IDAtMjIuNnMtMTYuNC02LjItMjIuNiAwTDI0MCA0NTcuNCAyNDAgMzM2YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTIxLjQtNTIuNy01Mi43Yy02LjItNi4yLTE2LjQtNi4yLTIyLjYgMHMtNi4yIDE2LjQgMCAyMi42bDgwIDgwYzMgMyA3LjEgNC43IDExLjMgNC43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrows-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrows-from-dotted-line.svg)
  */
 const ArrowsFromDottedLine: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

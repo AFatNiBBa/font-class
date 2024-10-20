@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sliders-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sliders-up?s=sharp-light sliders-up}
- * @preview ![sliders-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDBsMCAxNiAwIDY0IDMyIDAgMzIgMCAwIDMyIDAgOTYgMCAzMi0zMiAwLTMyIDAgMCAyNTYgMCAxNi0zMiAwIDAtMTYgMC0yNTYtMzIgMC0zMiAwIDAtMzIgMC05NiAwLTMyIDMyIDAgMzIgMCAwLTY0TDgwIDBsMzIgMHpNODAgMjA4bDMyIDAgMzIgMCAwLTk2LTMyIDAtMzIgMC0zMiAwIDAgOTYgMzIgMHpNMjcyIDBsMCAxNiAwIDI1NiAzMiAwIDMyIDAgMCAzMiAwIDk2IDAgMzItMzIgMC0zMiAwIDAgNjQgMCAxNi0zMiAwIDAtMTYgMC02NC0zMiAwLTMyIDAgMC0zMiAwLTk2IDAtMzIgMzIgMCAzMiAwIDAtMjU2IDAtMTYgMzIgMHpNNDAwIDExMmwwLTk2IDAtMTYgMzIgMCAwIDE2IDAgOTYgMzIgMCAzMiAwIDAgMzIgMCA5NiAwIDMyLTMyIDAtMzIgMCAwIDIyNCAwIDE2LTMyIDAgMC0xNiAwLTIyNC0zMiAwLTMyIDAgMC0zMiAwLTk2IDAtMzIgMzIgMCAzMiAwem0wIDMybC0zMiAwIDAgOTYgMzIgMCAzMiAwIDMyIDAgMC05Ni0zMiAwLTMyIDB6TTI3MiA0MDBsMzIgMCAwLTk2LTMyIDAtMzIgMC0zMiAwIDAgOTYgMzIgMCAzMiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![sliders-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sliders-up.svg)
  */
 const SlidersUp: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mask` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask?s=solid mask}
- * @preview ![mask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDY0QzY0IDY0IDAgMTYwIDAgMjcyUzgwIDQ0OCAxNzYgNDQ4bDguNCAwYzI0LjIgMCA0Ni40LTEzLjcgNTcuMi0zNS40bDIzLjItNDYuM2M0LjQtOC44IDEzLjMtMTQuMyAyMy4yLTE0LjNzMTguOCA1LjUgMjMuMiAxNC4zbDIzLjIgNDYuM2MxMC44IDIxLjcgMzMgMzUuNCA1Ny4yIDM1LjRsOC40IDBjOTYgMCAxNzYtNjQgMTc2LTE3NnMtNjQtMjA4LTI4OC0yMDh6TTk2IDI1NmE2NCA2NCAwIDEgMSAxMjggMEE2NCA2NCAwIDEgMSA5NiAyNTZ6bTMyMC02NGE2NCA2NCAwIDEgMSAwIDEyOCA2NCA2NCAwIDEgMSAwLTEyOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mask.svg)
  */
 const Mask: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

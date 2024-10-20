@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `peso-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peso-sign?s=light peso-sign}
- * @preview ![peso-sign](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzEuNCAzMkM0OS42IDMyIDMyIDQ5LjYgMzIgNzEuNEwzMiAxMjhsLTE2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTYgMCAwIDY0LTE2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTYgMCAwIDgwIDAgMTI4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xMTIgMTI4IDBjNjUuNiAwIDEyMi0zOS41IDE0Ni43LTk2bDI5LjMgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMTkuMiAwYzIuMS0xMC4zIDMuMi0yMSAzLjItMzJzLTEuMS0yMS43LTMuMi0zMmwxOS4yIDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZsLTI5LjMgMEMzMTQgNzEuNSAyNTcuNiAzMiAxOTIgMzJMNzEuNCAzMnptMjMxLjUgOTZMNjQgMTI4bDAtNTYuNmMwLTQuMSAzLjMtNy40IDcuNC03LjRMMTkyIDY0YzQ3LjQgMCA4OC43IDI1LjcgMTEwLjkgNjR6TTY0IDE2MGwyNTIgMGMyLjYgMTAuMiA0IDIxIDQgMzJzLTEuNCAyMS44LTQgMzJMNjQgMjI0bDAtNjR6bTIzOC45IDk2Yy0yMi4xIDM4LjMtNjMuNSA2NC0xMTAuOSA2NEw2NCAzMjBsMC02NCAyMzguOSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![peso-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/peso-sign.svg)
  */
 const PesoSign: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `toilet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet?s=sharp-solid toilet}
- * @preview ![toilet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEwwIDAgMCA0OGwyNCAwIDggMCAwIDE0OC45Yy0xLjkgMS40LTMuOCAyLjktNS42IDQuNEMxMC45IDIxNC41IDAgMjMyLjkgMCAyNTZjMCA0Ni45IDE0LjMgODQuMSAzNyAxMTIuNWMxNS4xIDE4LjkgMzMuMyAzMy4xIDUxLjkgNDMuOUw2NCA1MTJsMzIwIDAtMjQuOS05OS42YzE4LjYtMTAuOCAzNi44LTI1IDUxLjktNDMuOWMyMi43LTI4LjQgMzctNjUuNSAzNy0xMTIuNWMwLTIzLjEtMTAuOS00MS41LTI2LjQtNTQuNmMtMS44LTEuNS0zLjctMy01LjYtNC40TDQxNiA0OGw4IDAgMjQgMCAwLTQ4TDQyNCAwIDI0IDB6TTM4NCAyNTZsMCAuM2MwIDEtLjMgMi42LTMuOCA1LjZjLTQuOCA0LjEtMTQgOS0yOS4zIDEzLjRDMzIwLjUgMjg0IDI3Ni4xIDI4OCAyMjQgMjg4cy05Ni41LTQtMTI2LjktMTIuOGMtMTUuMy00LjQtMjQuNS05LjMtMjkuMy0xMy40Yy0zLjUtMy0zLjgtNC42LTMuOC01LjZsMC0uM2MwIDAgMC0uMSAwLS4xYzAtMSAwLTIuNSAzLjgtNS44YzQuOC00LjEgMTQtOSAyOS4zLTEzLjRDMTI3LjUgMjI4IDE3MS45IDIyNCAyMjQgMjI0czk2LjUgNCAxMjYuOSAxMi44YzE1LjMgNC40IDI0LjUgOS4zIDI5LjMgMTMuNGMzLjggMy4yIDMuOCA0LjggMy44IDUuOGMwIDAgMCAuMSAwIC4xek0xMTIgNjRsMzIgMCAxNiAwIDAgMzItMTYgMC0zMiAwTDk2IDk2bDAtMzIgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![toilet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/toilet.svg)
  */
 const Toilet: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

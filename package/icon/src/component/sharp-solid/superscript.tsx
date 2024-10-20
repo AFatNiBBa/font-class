@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `superscript` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/superscript?s=sharp-solid superscript}
- * @preview ![superscript](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDBsMzIgMCAzMiAwIDMyIDAgMCAzMiAwIDEyOCAzMiAwIDAgNjQtMzIgMC02NCAwLTMyIDAgMC02NCAzMiAwIDAtOTYtMzIgMCAwLTY0ek0wIDY0bDMyIDAgMzIgMCAxNi43IDAgOS42IDEzLjZMMTc2IDIwMC4yIDI2MS44IDc3LjYgMjcxLjMgNjQgMjg4IDY0bDMyIDAgMzIgMCAwIDY0LTMyIDAtMTUuMyAwTDIxNS4xIDI1Nmw4OS42IDEyOCAxNS4zIDAgMzIgMCAwIDY0LTMyIDAtMzIgMC0xNi43IDAtOS42LTEzLjZMMTc2IDMxMS44IDkwLjIgNDM0LjQgODAuNyA0NDggNjQgNDQ4bC0zMiAwTDAgNDQ4bDAtNjQgMzIgMCAxNS4zIDAgODkuNi0xMjhMNDcuMyAxMjggMzIgMTI4IDAgMTI4IDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![superscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/superscript.svg)
  */
 const Superscript: typeof Icon = x => (
     <Icon {...x}>

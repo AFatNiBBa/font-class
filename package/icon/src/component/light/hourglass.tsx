@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hourglass` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass?s=light hourglass}
- * @preview ![hourglass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMEM3LjIgMCAwIDcuMiAwIDE2czcuMiAxNiAxNiAxNmwxNiAwIDAgNDEuNmMwIDQ5LjQgMjIuOCA5NiA2MS44IDEyNi4zTDE2NS45IDI1NiA5My44IDMxMi4xQzU0LjggMzQyLjQgMzIgMzg5LjEgMzIgNDM4LjRMMzIgNDgwbC0xNiAwYy04LjggMC0xNiA3LjItMTYgMTZzNy4yIDE2IDE2IDE2bDMyIDAgMjg4IDAgMzIgMGM4LjggMCAxNi03LjIgMTYtMTZzLTcuMi0xNi0xNi0xNmwtMTYgMCAwLTQxLjZjMC00OS40LTIyLjgtOTYtNjEuOC0xMjYuM0wyMTguMSAyNTZsNzIuMi01Ni4xYzM5LTMwLjMgNjEuOC03Ni45IDYxLjgtMTI2LjNMMzUyIDMybDE2IDBjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZMMzM2IDAgNDggMCAxNiAwek0zMjAgMzJsMCA0MS42YzAgMzkuNS0xOC4yIDc2LjgtNDkuNCAxMDFMMTkyIDIzNS43bC03OC42LTYxLjFDODIuMiAxNTAuNCA2NCAxMTMuMSA2NCA3My42TDY0IDMybDI1NiAwek0xOTIgMjc2LjNsNzguNiA2MS4xYzMxLjIgMjQuMiA0OS40IDYxLjUgNDkuNCAxMDFsMCA0MS42TDY0IDQ4MGwwLTQxLjZjMC0zOS41IDE4LjItNzYuOCA0OS40LTEwMUwxOTIgMjc2LjN6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hourglass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hourglass.svg)
  */
 const Hourglass: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-small-big` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-small-big?s=light arrow-down-small-big}
- * @preview ![arrow-down-small-big](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTcxLjMgNDc1LjNsOTYtOTZjNi4yLTYuMiA2LjItMTYuNCAwLTIyLjZzLTE2LjQtNi4yLTIyLjYgMEwxNzYgNDI1LjQgMTc2IDQ4YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMzc3LjRMNzUuMyAzNTYuN2MtNi4yLTYuMi0xNi40LTYuMi0yMi42IDBzLTYuMiAxNi40IDAgMjIuNmw5NiA5NmM2LjIgNi4yIDE2LjQgNi4yIDIyLjYgMHpNMzUyIDgwYzAtOC44IDcuMi0xNiAxNi0xNmw2NCAwYzguOCAwIDE2IDcuMiAxNiAxNmwwIDY0YzAgOC44LTcuMiAxNi0xNiAxNmwtNjQgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtNjR6bS0zMiAwbDAgNjRjMCAyNi41IDIxLjUgNDggNDggNDhsNjQgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTY0YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4bC02NCAwYy0yNi41IDAtNDggMjEuNS00OCA0OHptMzIgMzUybDAtMTI4YzAtOC44IDcuMi0xNiAxNi0xNmwxMjggMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAxMjhjMCA4LjgtNy4yIDE2LTE2IDE2bC0xMjggMGMtOC44IDAtMTYtNy4yLTE2LTE2em0tMzIgMGMwIDI2LjUgMjEuNSA0OCA0OCA0OGwxMjggMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTEyOGMwLTI2LjUtMjEuNS00OC00OC00OGwtMTI4IDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4bDAgMTI4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![arrow-down-small-big](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-down-small-big.svg)
  */
 const ArrowDownSmallBig: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

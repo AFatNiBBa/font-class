@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `jar-wheat` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jar-wheat?s=sharp-regular jar-wheat}
- * @preview ![jar-wheat](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIgMGwwIDQ4IDI1NiAwIDAtNDhMMzIgMHpNMjcyIDEyOGwwIDMzNkw0OCA0NjRsMC0zMzYgMjI0IDB6TTQ4IDgwTDAgODBsMCA0OEwwIDQ2NGwwIDQ4IDQ4IDAgMjI0IDAgNDggMCAwLTQ4IDAtMzM2IDAtNDgtNDggMEw0OCA4MHpNMTkyIDMyMGMzNS4zIDAgNjQtMjguNyA2NC02NGwtNDggMGMtMTkuMSAwLTM2LjMgOC40LTQ4IDIxLjdjLTExLjctMTMuMy0yOC45LTIxLjctNDgtMjEuN2wtNDggMGMwIDM1LjMgMjguNyA2NCA2NCA2NGwxNiAwIDMyIDAgMTYgMHptMC05NmMzNS4zIDAgNjQtMjguNyA2NC02NGwtNDggMGMtMTkuMSAwLTM2LjMgOC40LTQ4IDIxLjdjLTExLjctMTMuMy0yOC45LTIxLjctNDgtMjEuN2wtNDggMGMwIDM1LjMgMjguNyA2NCA2NCA2NGwxNiAwIDMyIDAgMTYgMHptMCAxOTJjMzUuMyAwIDY0LTI4LjcgNjQtNjRsLTQ4IDBjLTE5LjEgMC0zNi4zIDguNC00OCAyMS43Yy0xMS43LTEzLjMtMjguOS0yMS43LTQ4LTIxLjdsLTQ4IDBjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMTYgMCAwIDE2IDAgMTYgMzIgMCAwLTE2IDAtMTYgMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![jar-wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/jar-wheat.svg)
  */
 const JarWheat: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

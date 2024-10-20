@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mastodon` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mastodon?s=brands mastodon}
- * @preview ![mastodon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMzIDE3OS4xMWMwLTk3LjItNjMuNzEtMTI1LjctNjMuNzEtMTI1LjctNjIuNTItMjguNy0yMjguNTYtMjguNC0yOTAuNDggMCAwIDAtNjMuNzIgMjguNS02My43MiAxMjUuNyAwIDExNS43LTYuNiAyNTkuNCAxMDUuNjMgMjg5LjEgNDAuNTEgMTAuNyA3NS4zMiAxMyAxMDMuMzMgMTEuNCA1MC44MS0yLjggNzkuMzItMTguMSA3OS4zMi0xOC4xbC0xLjctMzYuOXMtMzYuMzEgMTEuNC03Ny4xMiAxMC4xYy00MC40MS0xLjQtODMtNC40LTg5LjYzLTU0YTEwMi41NCAxMDIuNTQgMCAwIDEtLjktMTMuOWM4NS42MyAyMC45IDE1OC42NSA5LjEgMTc4Ljc1IDYuNyA1Ni4xMi02LjcgMTA1LTQxLjMgMTExLjIzLTcyLjkgOS44LTQ5LjggOS0xMjEuNSA5LTEyMS41em0tNzUuMTIgMTI1LjJoLTQ2LjYzdi0xMTQuMmMwLTQ5LjctNjQtNTEuNi02NCA2Ljl2NjIuNWgtNDYuMzNWMTk3YzAtNTguNS02NC01Ni42LTY0LTYuOXYxMTQuMkg5MC4xOWMwLTEyMi4xLTUuMi0xNDcuOSAxOC40MS0xNzUgMjUuOS0yOC45IDc5LjgyLTMwLjggMTAzLjgzIDYuMWwxMS42IDE5LjUgMTEuNi0xOS41YzI0LjExLTM3LjEgNzguMTItMzQuOCAxMDMuODMtNi4xIDIzLjcxIDI3LjMgMTguNCA1MyAxOC40IDE3NXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mastodon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/mastodon.svg)
  */
 const Mastodon: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

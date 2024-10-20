@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `slot-machine` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/slot-machine?s=sharp-light slot-machine}
- * @preview ![slot-machine](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDQxNkw5NiA0MTZsMCA2NCAyODggMCAzMiAwIDAtNjR6bS0zMiA5Nkw5NiA1MTJsLTMyIDAgMC0zMiAwLTY0LTMyIDBMMCA0MTZsMC0zMkwwIDEyOCAwIDk2bDMyIDAgMzIgMCAwLTY0TDY0IDAgOTYgMCA0MTYgMGwzMiAwIDAgMzIgMCA2NCAzMiAwIDMyIDAgMCAzMiAwIDI1NiAwIDMyLTMyIDAtMzIgMCAwIDY0IDEyOCAwIDAtMjU4LjdjLTE4LjYtNi42LTMyLTI0LjQtMzItNDUuM2MwLTI2LjUgMjEuNS00OCA0OC00OHM0OCAyMS41IDQ4IDQ4YzAgMjAuOS0xMy40IDM4LjctMzIgNDUuM0w2MDggNDk2bDAgMTYtMTYgMC0xNDQgMC0zMiAwLTMyIDBzMCAwIDAgMHpNNjA4IDE3NmExNiAxNiAwIDEgMCAtMzIgMCAxNiAxNiAwIDEgMCAzMiAwek00MTYgMzJMOTYgMzJsMCA2NCAzMjAgMCAwLTY0em02NCA5NkwzMiAxMjhsMCAyNTYgNDQ4IDAgMC0yNTZ6bS00OCA0OGwwIDE4LjktMSAyLjdMMzc5LjEgMzM2bC0zNC4yIDAgNDgtMTI4TDM1MiAyMDhsLTE2IDAgMC0zMiAxNiAwIDY0IDAgMTYgMHpNMzExIDE5Ny42TDI1OS4xIDMzNmwtMzQuMiAwIDQ4LTEyOEwyMzIgMjA4bC0xNiAwIDAtMzIgMTYgMCA2NCAwIDE2IDAgMCAxOC45LTEgMi43em0tMTIwIDBMMTM5LjEgMzM2bC0zNC4yIDAgNDgtMTI4TDExMiAyMDhsLTE2IDAgMC0zMiAxNiAwIDY0IDAgMTYgMCAwIDE4LjktMSAyLjd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![slot-machine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/slot-machine.svg)
  */
 const SlotMachine: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `court-sport` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/court-sport?s=sharp-regular court-sport}
- * @preview ![court-sport](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCA0OCAzMiAwIDQ4IDAgMCA0OCAwIDE2MCAwIDQ4LTQ4IDAtMzIgMCAwIDQ4IDI0OCAwIDAtNjYuNmMtNTAuMy0xMS04OC01NS44LTg4LTEwOS40czM3LjctOTguNCA4OC0xMDkuNEwyOTYgODAgNDggODB6TTM0NCAzNjUuNGwwIDY2LjYgMjQ4IDAgMC00OC0zMiAwLTQ4IDAgMC00OCAwLTE2MCAwLTQ4IDQ4IDAgMzIgMCAwLTQ4TDM0NCA4MGwwIDY2LjZjNTAuMyAxMSA4OCA1NS44IDg4IDEwOS40cy0zNy43IDk4LjQtODggMTA5LjR6bTAtMTY4LjhsMCAxMTguN2MyMy41LTkuNSA0MC0zMi41IDQwLTU5LjNzLTE2LjUtNDkuOS00MC01OS4zem0tNDggMGMtMjMuNSA5LjUtNDAgMzIuNS00MCA1OS4zczE2LjUgNDkuOSA0MCA1OS4zbDAtMTE4Ljd6TTQ4IDE3NmwwIDE2MCAzMiAwIDAtMTYwLTMyIDB6TTU2MCAzMzZsMzIgMCAwLTE2MC0zMiAwIDAgMTYwek0wIDMybDQ4IDAgNTQ0IDAgNDggMCAwIDQ4IDAgMzUyIDAgNDgtNDggMEw0OCA0ODAgMCA0ODBsMC00OEwwIDgwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![court-sport](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/court-sport.svg)
  */
 const CourtSport: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

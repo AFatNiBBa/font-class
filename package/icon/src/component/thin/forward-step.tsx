@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `forward-step` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward-step?s=thin forward-step}
- * @preview ![forward-step](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjcyIDcyYzAtNC40IDMuNi04IDgtOHM4IDMuNiA4IDhsMCAxODQgMCAxODRjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC0xNjIuNEw4MC4yIDQ0MWMtNS4zIDQuNS0xMiA3LTE5IDdDNDUuMSA0NDggMzIgNDM0LjkgMzIgNDE4LjhMMzIgOTMuMkMzMiA3Ny4xIDQ1LjEgNjQgNjEuMiA2NGM2LjkgMCAxMy43IDIuNSAxOSA3TDI3MiAyMzQuNCAyNzIgNzJ6bTAgMTg0YzAtLjQtLjItLjgtLjUtMUw2OS44IDgzLjJjLTIuNC0yLTUuNC0zLjItOC42LTMuMkM1My45IDgwIDQ4IDg1LjkgNDggOTMuMmwwIDMyNS41YzAgNy4zIDUuOSAxMy4yIDEzLjIgMTMuMmMzLjEgMCA2LjItMS4xIDguNi0zLjJMMjcxLjUgMjU3Yy4zLS4zIC41LS42IC41LTF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![forward-step](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/forward-step.svg)
  */
 const ForwardStep: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

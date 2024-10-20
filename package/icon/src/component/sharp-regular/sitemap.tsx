@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sitemap` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sitemap?s=sharp-regular sitemap}
- * @preview ![sitemap](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDgwbDAgNjQtNjQgMCAwLTY0IDY0IDB6TTI1NiAzMmwtNDggMCAwIDQ4IDAgNjQgMCA0OCA0OCAwIDggMCAwIDQwTDgwIDIzMmwtMjQgMCAwIDI0IDAgNjQtOCAwTDAgMzIwbDAgNDggMCA2NCAwIDQ4IDQ4IDAgNjQgMCA0OCAwIDAtNDggMC02NCAwLTQ4LTQ4IDAtOCAwIDAtNDAgMTYwIDAgMCA0MC04IDAtNDggMCAwIDQ4IDAgNjQgMCA0OCA0OCAwIDY0IDAgNDggMCAwLTQ4IDAtNjQgMC00OC00OCAwLTggMCAwLTQwIDE2MCAwIDAgNDAtOCAwLTQ4IDAgMCA0OCAwIDY0IDAgNDggNDggMCA2NCAwIDQ4IDAgMC00OCAwLTY0IDAtNDgtNDggMC04IDAgMC02NCAwLTI0LTI0IDAtMTg0IDAgMC00MCA4IDAgNDggMCAwLTQ4IDAtNjQgMC00OC00OCAwLTY0IDB6TTQ4IDQzMmwwLTY0IDY0IDAgMCA2NC02NCAwem0yMDgtNjRsNjQgMCAwIDY0LTY0IDAgMC02NHptMjA4IDY0bDAtNjQgNjQgMCAwIDY0LTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sitemap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sitemap.svg)
  */
 const Sitemap: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

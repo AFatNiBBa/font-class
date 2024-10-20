@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-excel` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-excel?s=regular file-excel}
- * @preview ![file-excel](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggNDQ4TDQ4IDY0YzAtOC44IDcuMi0xNiAxNi0xNmwxNjAgMCAwIDgwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDgwIDAgMCAyODhjMCA4LjgtNy4yIDE2LTE2IDE2TDY0IDQ2NGMtOC44IDAtMTYtNy4yLTE2LTE2ek02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwyNTYgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTI5My41YzAtMTctNi43LTMzLjMtMTguNy00NS4zTDI3NC43IDE4LjdDMjYyLjcgNi43IDI0Ni41IDAgMjI5LjUgMEw2NCAwem05MC45IDIzMy4zYy04LjEtMTAuNS0yMy4yLTEyLjMtMzMuNy00LjJzLTEyLjMgMjMuMi00LjIgMzMuN0wxNjEuNiAzMjBsLTQ0LjUgNTcuM2MtOC4xIDEwLjUtNi4zIDI1LjUgNC4yIDMzLjdzMjUuNSA2LjMgMzMuNy00LjJMMTkyIDM1OS4xbDM3LjEgNDcuNmM4LjEgMTAuNSAyMy4yIDEyLjMgMzMuNyA0LjJzMTIuMy0yMy4yIDQuMi0zMy43TDIyMi40IDMyMGw0NC41LTU3LjNjOC4xLTEwLjUgNi4zLTI1LjUtNC4yLTMzLjdzLTI1LjUtNi4zLTMzLjcgNC4yTDE5MiAyODAuOWwtMzcuMS00Ny42eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-excel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-excel.svg)
  */
 const FileExcel: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

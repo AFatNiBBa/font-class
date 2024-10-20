@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `octagon` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon?s=thin octagon}
- * @preview ![octagon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTUxLjkgMzIuNWMxMC41LTEwLjUgMjQuNy0xNi40IDM5LjYtMTYuNGwxMjkgMGMxNC45IDAgMjkuMSA1LjkgMzkuNiAxNi40TDQ3OS41IDE1MS45YzEwLjUgMTAuNSAxNi40IDI0LjcgMTYuNCAzOS42bDAgMTI5YzAgMTQuOS01LjkgMjkuMS0xNi40IDM5LjZMMzYwLjEgNDc5LjVjLTEwLjUgMTAuNS0yNC43IDE2LjQtMzkuNiAxNi40bC0xMjkgMGMtMTQuOSAwLTI5LjEtNS45LTM5LjYtMTYuNEwzMi41IDM2MC4xQzIyIDM0OS42IDE2LjEgMzM1LjMgMTYuMSAzMjAuNWwwLTEyOWMwLTE0LjkgNS45LTI5LjEgMTYuNC0zOS42TDE1MS45IDMyLjV6TTE5MS41IC4xYy0xOS4xIDAtMzcuNCA3LjYtNTAuOSAyMS4xTDIxLjIgMTQwLjZDNy43IDE1NC4xIC4xIDE3Mi40IC4xIDE5MS41bDAgMTI5YzAgMTkuMSA3LjYgMzcuNCAyMS4xIDUwLjlMMTQwLjYgNDkwLjhjMTMuNSAxMy41IDMxLjggMjEuMSA1MC45IDIxLjFsMTI5IDBjMTkuMSAwIDM3LjQtNy42IDUwLjktMjEuMUw0OTAuOCAzNzEuNGMxMy41LTEzLjUgMjEuMS0zMS44IDIxLjEtNTAuOWwwLTEyOWMwLTE5LjEtNy42LTM3LjQtMjEuMS01MC45TDM3MS40IDIxLjJDMzU3LjkgNy43IDMzOS42IC4xIDMyMC41IC4xbC0xMjkgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![octagon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/octagon.svg)
  */
 const Octagon: typeof Icon = x => (
     <Icon {...x}>

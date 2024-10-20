@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-eps` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-eps?s=sharp-solid file-eps}
- * @preview ![file-eps](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDIyNCAwbDAgMTYwIDE2MCAwIDAgMTQ0LTI3MiAwIDAgMjA4TDAgNTEyIDAgMHpNMzg0IDEyOGwtMTI4IDBMMjU2IDAgMzg0IDEyOHpNMTYwIDM1MmwxNiAwIDY0IDAgMTYgMCAwIDMyLTE2IDAtNDggMCAwIDMyIDMyIDAgMTYgMCAwIDMyLTE2IDAtMzIgMCAwIDMyIDQ4IDAgMTYgMCAwIDMyLTE2IDAtNjQgMC0xNiAwIDAtMTYgMC02NCAwLTY0IDAtMTZ6bTE0NCAwbDMyIDBjMzAuOSAwIDU2IDI1LjEgNTYgNTZzLTI1LjEgNTYtNTYgNTZsLTE2IDAgMCAzMiAwIDE2LTMyIDAgMC0xNiAwLTQ4IDAtODAgMC0xNiAxNiAwem0zMiA4MGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMTYgMCAwIDQ4IDE2IDB6bTExNy43LTgwbDI2LjMgMCAxNiAwIDAgMzItMTYgMC0yNi4zIDBjLTcuNSAwLTEzLjcgNi4xLTEzLjcgMTMuN2MwIDUuMiAyLjkgOS45IDcuNiAxMi4ybDMxLjIgMTUuNmMxNS41IDcuNyAyNS4yIDIzLjUgMjUuMiA0MC44YzAgMjUuMi0yMC40IDQ1LjctNDUuNyA0NS43TDQyNCA1MTJsLTE2IDAgMC0zMiAxNiAwIDM0LjMgMGM3LjUgMCAxMy43LTYuMSAxMy43LTEzLjdjMC01LjItMi45LTkuOS03LjYtMTIuMmwtMzEuMi0xNS42QzQxNy44IDQzMC44IDQwOCA0MTUgNDA4IDM5Ny43YzAtMjUuMiAyMC40LTQ1LjcgNDUuNy00NS43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-eps](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-eps.svg)
  */
 const FileEps: typeof Icon = x => (
     <Icon {...x}>

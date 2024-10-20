@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-mask` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-mask?s=sharp-solid face-mask}
- * @preview ![face-mask](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA5LjggMzg0YzIxLjgtMzcuNyAzNC4yLTgxLjQgMzQuMi0xMjhjMC0yLjIgMC00LjUtLjEtNi43TDQxNiAyODQuMmwwIDk5LjggOTMuOCAwem0tMjEuOSAzMkw0MTYgNDE2czAgMCAwIDBsLTMyIDMyLTE5MiAwLTMyLTMyczAgMCAwIDBsLTcxLjkgMGM0Ni45IDU4LjUgMTE5IDk2IDE5OS45IDk2czE1Mi45LTM3LjUgMTk5LjktOTZ6TTY2LjIgMzg0bDkzLjggMCAwLTk5LjhMMzIuMSAyNDkuM2MtLjEgMi4yLS4xIDQuNC0uMSA2LjdjMCA0Ni42IDEyLjUgOTAuMyAzNC4yIDEyOHpNMzUgMjE2LjlsMTQzLjIgMzkgMjE5LjcgMCAxNDMuMi0zOUM1MjIuMiA5NC4xIDQxNi4xIDAgMjg4IDBTNTMuOCA5NC4xIDM1IDIxNi45ek0yNDAgMTc2Yy00NyAwLTc3LjEgMTkuNy04NC43IDI3LjNsLTIyLjYtMjIuNkMxNDYuNCAxNjcgMTg0LjYgMTQ0IDI0MCAxNDRsMTYgMCAwIDMyLTE2IDB6bTgwLTMybDE2IDBjNTUuNCAwIDkzLjYgMjMgMTA3LjMgMzYuN2wtMjIuNiAyMi42QzQxMy4xIDE5NS43IDM4MyAxNzYgMzM2IDE3NmwtMTYgMCAwLTMyek0yMDggMzA0bC0xNiAwIDAgMzIgMTYgMCAxNjAgMCAxNiAwIDAtMzItMTYgMC0xNjAgMHptMCA2NGwtMTYgMCAwIDMyIDE2IDAgMTYwIDAgMTYgMCAwLTMyLTE2IDAtMTYwIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-mask.svg)
  */
 const FaceMask: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

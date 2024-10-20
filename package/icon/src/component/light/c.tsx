@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `c` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/c?s=light c}
- * @preview ![c](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzU2LjkgMTIwLjNjLTc0LjQtNzUtMTk0LjktNzUtMjY5LjMgMHMtNzQuNCAxOTYuNSAwIDI3MS40czE5NC45IDc1IDI2OS4zIDBjNi4yLTYuMyAxNi4zLTYuMyAyMi41IDBzNi4yIDE2LjQgMCAyMi43Yy04Ni44IDg3LjUtMjI3LjUgODcuNS0zMTQuNCAwcy04Ni44LTIyOS40IDAtMzE2LjlzMjI3LjUtODcuNSAzMTQuNCAwYzYuMiA2LjMgNi4yIDE2LjQgMCAyMi43cy0xNi4zIDYuMy0yMi41IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![c](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/c.svg)
  */
 const C: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `backward-fast` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backward-fast?s=sharp-regular backward-fast}
- * @preview ![backward-fast](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNjRsMCAyNCAwIDEzNC4xTDI0MCA5Ny45IDI4OCA2NGwwIDU4LjggMCA5OS40TDQ2NCA5Ny45IDUxMiA2NGwwIDU4LjggMCAyNjYuNSAwIDU4LjgtNDgtMzMuOUwyODggMjg5LjlsMCA5OS40IDAgNTguOC00OC0zMy45TDY0IDI4OS45IDY0IDQyNGwwIDI0LTQ4IDAgMC0yNCAwLTE2OEwxNiA4OGwwLTI0IDQ4IDB6TTI0MCAyNTZsMC05OS40TDk5LjIgMjU2IDI0MCAzNTUuNGwwLTk5LjR6bTgzLjIgMEw0NjQgMzU1LjRsMC0xOTguN0wzMjMuMiAyNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![backward-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/backward-fast.svg)
  */
 const BackwardFast: typeof Icon = x => (
     <Icon {...x}>

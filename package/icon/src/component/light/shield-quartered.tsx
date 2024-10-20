@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shield-quartered` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-quartered?s=light shield-quartered}
- * @preview ![shield-quartered](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjYuOCAxMTIuM0M1NS41IDExNyA0Ny45IDEyNy43IDQ4IDEzOS44Yy4xIDIwIDEuOSA0My4yIDYuMyA2OC4yTDI0MCAyMDhsMC0xNjkuMkw2Ni44IDExMi4zek02MS4xIDI0MEM4Mi4zIDMyNC42IDEzMy4zIDQyMC4xIDI0MCA0NzIuNkwyNDAgMjQwIDYxLjEgMjQwek0yNzIgMjQwbDAgMjMyLjZjMTA2LjctNTIuNSAxNTcuNy0xNDggMTc5LTIzMi42bC0xNzkgMHptMTg1LjgtMzJjNC4zLTI0LjkgNi4yLTQ4LjIgNi4zLTY4LjJjLjEtMTIuMS03LjUtMjIuOC0xOC44LTI3LjZMMjcyIDM4LjggMjcyIDIwOGwxODUuOCAwek0yMzEgNy44YzE2LTYuOCAzNC02LjggNTAgMGwxNzYuNyA3NWMyMiA5LjMgMzguNCAzMSAzOC4zIDU3LjJjLS41IDk5LjItNDEuMyAyODAuNy0yMTMuNiAzNjMuMmMtMTYuNyA4LTM2LjEgOC01Mi44IDBDNTcuMyA0MjAuNyAxNi41IDIzOS4yIDE2IDE0MGMtLjEtMjYuMiAxNi4zLTQ3LjkgMzguMy01Ny4yTDIzMSA3Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![shield-quartered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shield-quartered.svg)
  */
 const ShieldQuartered: typeof Icon = x => (
     <Icon {...x}>

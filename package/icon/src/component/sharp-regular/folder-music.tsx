@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `folder-music` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-music?s=sharp-regular folder-music}
- * @preview ![folder-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDMybDQ4IDY0IDE5MiAwIDQ4IDAgMCA0OCAwIDI4OCAwIDQ4LTQ4IDBMNDggNDgwIDAgNDgwbDAtNDhMMCA4MCAwIDMybDQ4IDAgMTc2IDB6bTQ4IDExMmwtMjQgMC0xNC40LTE5LjJMMjAwIDgwIDQ4IDgwbDAgMzUyIDQxNiAwIDAtMjg4LTE5MiAwem04MCA0OGwwIDMyIDAgMTI4YzAgMTcuNy0yMS41IDMyLTQ4IDMycy00OC0xNC4zLTQ4LTMyczIxLjUtMzIgNDgtMzJjNS42IDAgMTEgLjYgMTYgMS44bDAtNzQuNy05NiAzNkwyMjQgMzg0YzAgMTcuNy0yMS41IDMyLTQ4IDMycy00OC0xNC4zLTQ4LTMyczIxLjUtMzIgNDgtMzJjNS42IDAgMTEgLjYgMTYgMS44bDAtODEuOCAwLTMyIDAtMTEuMSAxMC40LTMuOSAxMjgtNDggMjEuNi04LjEgMCAyMy4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![folder-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/folder-music.svg)
  */
 const FolderMusic: typeof Icon = x => (
     <Icon {...x}>

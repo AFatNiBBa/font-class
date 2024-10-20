@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-visor` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-visor?s=sharp-solid user-visor}
- * @preview ![user-visor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzQyLjcgMTc2Yy0xOSA0Ni45LTY1IDgwLTExOC43IDgwcy05OS43LTMzLjEtMTE4LjctODBMODAgMTc2IDgwIDQ4bDQ0LjEgMEMxNDcuNSAxOC43IDE4My42IDAgMjI0IDBzNzYuNSAxOC43IDk5LjkgNDhMMzY4IDQ4bDAgMTI4LTI1LjMgMHpNMzg0IDMwNGw2NCAyMDhMMCA1MTIgNjQgMzA0bDMyMCAwek0zMjggNDQwbDI0IDI0IDgtOC00MC04OC00MCA4OCA4IDggNDAtMjR6TTE0NCA5NmwtMTYgMCAwIDMyIDE2IDAgMTYwIDAgMTYgMCAwLTMyLTE2IDBMMTQ0IDk2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![user-visor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-visor.svg)
  */
 const UserVisor: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `foursquare` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/foursquare?s=brands foursquare}
- * @preview ![foursquare](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNjggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIzLjEgM0g0OS45QzEyLjQgMyAwIDMxLjMgMCA0OS4xdjQzMy44YzAgMjAuMyAxMi4xIDI3LjcgMTguMiAzMC4xIDYuMiAyLjUgMjIuOCA0LjYgMzIuOS03LjFDMTgwIDM1Ni41IDE4Mi4yIDM1NCAxODIuMiAzNTRjMy4xLTMuNCAzLjQtMy4xIDYuOC0zLjFoODMuNGMzNS4xIDAgNDAuNi0yNS4yIDQ0LjMtMzkuN2w0OC42LTI0M0MzNzMuOCAyNS44IDM2My4xIDMgMzIzLjEgM3ptLTE2LjMgNzMuOGwtMTEuNCA1OS43Yy0xLjIgNi41LTkuNSAxMy4yLTE2LjkgMTMuMkgxNzIuMWMtMTIgMC0yMC42IDguMy0yMC42IDIwLjN2MTNjMCAxMiA4LjYgMjAuNiAyMC42IDIwLjZoOTAuNGM4LjMgMCAxNi42IDkuMiAxNC44IDE4LjItMS44IDguOS0xMC41IDUzLjgtMTEuNCA1OC44LS45IDQuOS02LjggMTMuNS0xNi45IDEzLjVoLTczLjVjLTEzLjUgMC0xNy4yIDEuOC0yNi41IDEyLjYgMCAwLTguOSAxMS40LTg5LjUgMTA4LjMtLjkuOS0xLjguNi0xLjgtLjNWNzUuOWMwLTcuNyA2LjgtMTYuNiAxNi42LTE2LjZoMjE5YzguMiAwIDE1LjYgNy43IDEzLjUgMTcuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![foursquare](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/foursquare.svg)
  */
 const Foursquare: typeof Icon = x => (
     <Icon viewBox="0 0 368 512" {...x}>

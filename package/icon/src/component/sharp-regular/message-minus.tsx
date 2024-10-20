@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `message-minus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-minus?s=sharp-regular message-minus}
- * @preview ![message-minus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDQ2NGwwIDQ4IDQ4LTMyIDk2LTY0IDE2MCAwIDQ4IDAgMC00OCAwLTMyMCAwLTQ4TDQ2NCAwIDQ4IDAgMCAwIDAgNDggMCAzNjhsMCA0OCA0OCAwIDY0IDAgNDggMCAwIDM4LjMgMCA5Ljd6bTExNy40LTg3LjlMMjA4IDQyMi4zbDAtNi4zIDAtNDgtNDggMEw0OCAzNjggNDggNDhsNDE2IDAgMCAzMjAtMTYwIDAtMTQuNSAwLTEyLjEgOC4xek0xODQgMTg0bC0yNCAwIDAgNDggMjQgMCAxNDQgMCAyNCAwIDAtNDgtMjQgMC0xNDQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![message-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/message-minus.svg)
  */
 const MessageMinus: typeof Icon = x => (
     <Icon {...x}>

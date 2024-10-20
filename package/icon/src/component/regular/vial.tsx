@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vial` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vial?s=regular vial}
- * @preview ![vial](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI5IDdjLTkuNC05LjQtMjQuNi05LjQtMzMuOSAwcy05LjQgMjQuNiAwIDMzLjlsMTUgMTVMMzAuMiAzMzUuOEMxMC45IDM1NS4yIDAgMzgxLjQgMCA0MDguOEMwIDQ2NS44IDQ2LjIgNTEyIDEwMy4yIDUxMmMyNy40IDAgNTMuNi0xMC45IDczLTMwLjJMNDU2IDIwMS45bDE1IDE1YzkuNCA5LjQgMjQuNiA5LjQgMzMuOSAwczkuNC0yNC42IDAtMzMuOWwtMzItMzJMMzYxIDM5IDMyOSA3em0tMTUxIDI0OUwzNDQgODkuOSA0MjIuMSAxNjhsLTg4IDg4LTE1Ni4xIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![vial](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/vial.svg)
  */
 const Vial: typeof Icon = x => (
     <Icon {...x}>

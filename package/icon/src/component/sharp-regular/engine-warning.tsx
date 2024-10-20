@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `engine-warning` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/engine-warning?s=sharp-regular engine-warning}
- * @preview ![engine-warning](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI0IDExMmwtMjQgMC03MiAwIDAgMzIgODggMCA5NiA2NCAwIDE5MiAwIDQ4LTQ4IDAtMjQwIDAtNTEuMi02NEwxMjggMzg0bC00OCAwIDAtNDggMC01Ni0zMiAwIDAgNzIgMCAyNEwwIDM3NmwwLTI0TDAgMTYwbDAtMjQgNDggMCAwIDI0IDAgNzIgMzIgMCAwLTQwIDAtNDggNDggMCAzMiAwIDMyIDAgODggMCAwLTMyLTcyIDAtMjQgMCAwLTQ4IDI0IDAgMTkyIDAgMjQgMCAwIDQ4ek0yMTAuMyAzNTRsMzYuOCA0Nkw0NjQgNDAwbDAtMTY2LjNMNDAxLjUgMTkyIDE5MiAxOTJsLTMyIDAtMzIgMCAwIDE0NCA0NC44IDAgMjMuMSAwIDE0LjQgMTh6TTU0NCAxOTJsOTYgMCAwIDI1Ni05NiAwIDAtMjU2ek0zMjQgMjEybDAgMjAgMCA1NiAwIDIwLTQwIDAgMC0yMCAwLTU2IDAtMjAgNDAgMHpNMjgwIDMyOGw0OCAwIDAgNDgtNDggMCAwLTQ4eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![engine-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/engine-warning.svg)
  */
 const EngineWarning: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

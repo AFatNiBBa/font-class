@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `car-circle-bolt` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-circle-bolt?s=sharp-solid car-circle-bolt}
- * @preview ![car-circle-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTIwIDMyTDk3LjMgMzIgODkuOCA1My40IDQxLjMgMTkyIDAgMTkyIDAgNDAwbDAgODAgOTYgMCAwLTgwIDIyNi45IDBjLTEuOS0xMC40LTIuOS0yMS4xLTIuOS0zMmMwLTk3LjIgNzguOC0xNzYgMTc2LTE3NmM1LjQgMCAxMC43IC4yIDE2IC43bDAtLjctMTYgMC0yNS4zIDBMNDIyLjIgNTMuNCA0MTQuNyAzMiAzOTIgMzIgMTIwIDMyek00MDIuOSAxOTJsLTI5My44IDAgMzMuNi05NiAyMjYuNiAwIDMzLjYgOTZ6TTY0IDI4OGEzMiAzMiAwIDEgMSA2NCAwIDMyIDMyIDAgMSAxIC02NCAwek00OTYgNTEyYTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHptMjQtMjI0bC0xMC43IDY0IDY2LjcgMEw0NzIgNDQ4bDEwLjctNjRMNDE2IDM4NGwxMDQtOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![car-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/car-circle-bolt.svg)
  */
 const CarCircleBolt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `signature` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signature?s=sharp-solid signature}
- * @preview ![signature](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDEyOGMwLTE3LjcgMTQuMy0zMiAzMi0zMnMzMiAxNC4zIDMyIDMybDAgNy44YzAgMjcuNy0yLjQgNTUuMy03LjEgODIuNWwtMTMwIDM5TDk2IDI2NC4yIDk2IDI4OGwwIDE2MCAwIDMyIDMyIDAgNjQgMCAxOC42IDAgOS4yLTE2LjEgMjUuNS00NC43YzI2LjgtNDcgNDYuNS05Ny43IDU4LjQtMTUwLjVsOTQuNC0yOC4zLTEyLjUgMzcuNS0xNCA0Mi4xIDQ0LjQgMCAxMjggMCAzMiAwIDAtNjQtMzIgMC04My42IDAgMTgtNTMuOSAxOS41LTU4LjUtNTkgMTcuN0wzMTYuNCAxOTguMWMyLjQtMjAuNyAzLjYtNDEuNCAzLjYtNjIuM2wwLTcuOGMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NmwwIDMyIDAgMzIgNjQgMCAwLTMyIDAtMzJ6TTE2MCAzMTEuOGw3MS44LTIxLjVjLTEwLjQgMzMuOC0yNC41IDY2LjQtNDIuMSA5Ny4yTDE3My40IDQxNiAxNjAgNDE2bDAtMTA0LjJ6TTI0IDM2OEwwIDM2OGwwIDQ4IDI0IDAgNDAuMyAwYy0uMi0yLjgtLjMtNS42LS4zLTguNUw2NCAzNjhsLTQwIDB6bTU5MiA0OGwyNCAwIDAtNDgtMjQgMC0zMTAuMSAwYy02LjcgMTYuMy0xNC4yIDMyLjMtMjIuMyA0OEw2MTYgNDE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![signature](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/signature.svg)
  */
 const Signature: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

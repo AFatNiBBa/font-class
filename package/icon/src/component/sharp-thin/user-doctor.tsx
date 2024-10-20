@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `user-doctor` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-doctor?s=sharp-thin user-doctor}
- * @preview ![user-doctor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDI0MGExMTIgMTEyIDAgMSAwIDAtMjI0IDExMiAxMTIgMCAxIDAgMCAyMjR6TTM1MiAxMjhBMTI4IDEyOCAwIDEgMSA5NiAxMjhhMTI4IDEyOCAwIDEgMSAyNTYgMHpNMjEuNyA0OTZsNDA0LjcgMEwzNzIuMiAzMjAgMzEyIDMyMGwwIDQ4LjdjMjIuNyAzLjggNDAgMjMuNiA0MCA0Ny4zbDAgNDAgMCA4LTggMC0xNiAwLTggMCAwLTE2IDggMCA4IDAgMC0zMmMwLTE3LjctMTQuMy0zMi0zMi0zMnMtMzIgMTQuMy0zMiAzMmwwIDMyIDggMCA4IDAgMCAxNi04IDAtMTYgMC04IDAgMC04IDAtNDBjMC0yMy44IDE3LjMtNDMuNSA0MC00Ny4zbDAtNDguNy0xNDQgMCAwIDQ4LjdjMjIuNyAzLjggNDAgMjMuNiA0MCA0Ny4zYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4YzAtMjMuOCAxNy4zLTQzLjUgNDAtNDcuM2wwLTQ4LjctNjAuMiAwTDIxLjcgNDk2ek0xNDQgMzg0YTMyIDMyIDAgMSAwIDAgNjQgMzIgMzIgMCAxIDAgMC02NHpNNjQgMzA0bDMyMCAwIDU5LjEgMTkyIDQuOSAxNi0xNi43IDBMMTYuNyA1MTIgMCA1MTJsNC45LTE2TDY0IDMwNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![user-doctor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-doctor.svg)
  */
 const UserDoctor: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bullhorn` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bullhorn?s=sharp-light bullhorn}
- * @preview ![bullhorn](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDI0LjggMGwtNiAwLTQuNSA0TDM1Mi4yIDU4LjVjLTQ1LjcgNDAuMS0xMDMuNSA2My43LTE2NC4yIDY3LjFMMTQzLjYgMTI4IDE2IDEyOCAwIDEyOGwwIDE2TDAgMzM2bDAgMTYgMTYgMCA0OCAwIDAgMTQ0IDAgMTYgMTYgMCA5NiAwIDE2IDAgMC0xNiAwLTE0MS4zYzU5LjIgNC4yIDExNS41IDI3LjYgMTYwLjIgNjYuOEw0MTQuMyA0NzZsNC41IDQgNiAwIDcuMiAwIDE2IDAgMC0xNiAwLTQ0OCAwLTE2TDQzMiAwbC03LjIgMHpNMTYwIDM1Mi45TDE2MCA0ODBsLTY0IDAgMC0xMjggNDcuNiAwIDE2LjQgLjl6TTM3My4zIDgyLjVMNDE2IDQ1IDQxNiA0MzVsLTQyLjctMzcuNWMtNDIuNC0zNy4yLTk0LjEtNjEuNy0xNDkuMy03MS4xbDAtMTcyLjhjNTUuMS05LjQgMTA2LjktMzMuOSAxNDkuMy03MS4xek0xOTIgMTU3LjRsMCAxNjUuM2MtLjggMC0xLjUtLjEtMi4zLS4xTDE0NC45IDMyMGwtLjQgMC0uNCAwTDMyIDMyMGwwLTE2MCAxMTIgMCAuNCAwIC40IDAgNDQuOC0yLjVjLjggMCAxLjUtLjEgMi4zLS4xek01MTIgMTkybC0zMiAwIDAgMTYgMCA2NCAwIDE2IDMyIDAgMC0xNiAwLTY0IDAtMTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bullhorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bullhorn.svg)
  */
 const Bullhorn: typeof Icon = x => (
     <Icon {...x}>

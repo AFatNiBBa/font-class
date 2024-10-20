@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `traffic-light-slow` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-light-slow?s=sharp-thin traffic-light-slow}
- * @preview ![traffic-light-slow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDE2bDAgMzM2YzAgNzkuNS02NC41IDE0NC0xNDQgMTQ0UzE2IDQzMS41IDE2IDM1MkwxNiAxNmwyODggMHpNMTYgMEwwIDAgMCAxNiAwIDM1MmMwIDg4LjQgNzEuNiAxNjAgMTYwIDE2MHMxNjAtNzEuNiAxNjAtMTYwbDAtMzM2IDAtMTZMMzA0IDAgMTYgMHpNMTYwIDQzMmE0MCA0MCAwIDEgMSAwLTgwIDQwIDQwIDAgMSAxIDAgODB6bTAtOTZhNTYgNTYgMCAxIDAgMCAxMTIgNTYgNTYgMCAxIDAgMC0xMTJ6bTQwLTgwYTQwIDQwIDAgMSAxIC04MCAwIDQwIDQwIDAgMSAxIDgwIDB6bS05NiAwYTU2IDU2IDAgMSAwIDExMiAwIDU2IDU2IDAgMSAwIC0xMTIgMHptNTYtOTZhNDAgNDAgMCAxIDEgMC04MCA0MCA0MCAwIDEgMSAwIDgwem0wLTk2YTU2IDU2IDAgMSAwIDAgMTEyIDU2IDU2IDAgMSAwIDAtMTEyem0wIDE3NmExNiAxNiAwIDEgMCAwIDMyIDE2IDE2IDAgMSAwIDAtMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![traffic-light-slow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/traffic-light-slow.svg)
  */
 const TrafficLightSlow: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

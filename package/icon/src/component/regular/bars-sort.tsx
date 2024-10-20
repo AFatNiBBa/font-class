@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bars-sort` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bars-sort?s=regular bars-sort}
- * @preview ![bars-sort](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCA4OEMwIDc0LjcgMTAuNyA2NCAyNCA2NGw0MDAgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNEwyNCAxMTJDMTAuNyAxMTIgMCAxMDEuMyAwIDg4ek0wIDI0OGMwLTEzLjMgMTAuNy0yNCAyNC0yNGwyNzIgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHMtMTAuNyAyNC0yNCAyNEwyNCAyNzJjLTEzLjMgMC0yNC0xMC43LTI0LTI0ek0xOTIgNDA4YzAgMTMuMy0xMC43IDI0LTI0IDI0TDI0IDQzMmMtMTMuMyAwLTI0LTEwLjctMjQtMjRzMTAuNy0yNCAyNC0yNGwxNDQgMGMxMy4zIDAgMjQgMTAuNyAyNCAyNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bars-sort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bars-sort.svg)
  */
 const BarsSort: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

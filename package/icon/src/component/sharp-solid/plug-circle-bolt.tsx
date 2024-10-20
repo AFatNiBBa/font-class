@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plug-circle-bolt` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-bolt?s=sharp-solid plug-circle-bolt}
- * @preview ![plug-circle-bolt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDBMNjQgMGwwIDMyIDAgOTYgNjQgMCAwLTk2IDAtMzJ6TTMyMCAwTDI1NiAwbDAgMzIgMCA5NiA2NCAwIDAtOTYgMC0zMnpNMzIgMTYwTDAgMTYwbDAgNjQgMzIgMCAwIDMyYzAgNzcuNCA1NSAxNDIgMTI4IDE1Ni44bDAgOTkuMiA2NCAwIDAtOTkuMmMxMi4zLTIuNSAyNC4xLTYuNCAzNS4xLTExLjVjLTIuMS0xMC44LTMuMS0yMS45LTMuMS0zMy4zYzAtODAuNiA1NC4xLTE0OC41IDEyOC0xNjkuNGwwLTM4LjYtMzIgMEwzMiAxNjB6TTQzMiA1MTJhMTQ0IDE0NCAwIDEgMCAwLTI4OCAxNDQgMTQ0IDAgMSAwIDAgMjg4em0yNC0yMjRsLTEwLjcgNjQgNjYuNyAwTDQwOCA0NDhsMTAuNy02NEwzNTIgMzg0bDEwNC05NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![plug-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plug-circle-bolt.svg)
  */
 const PlugCircleBolt: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

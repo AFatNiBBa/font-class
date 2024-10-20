@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ribbon` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ribbon?s=sharp-regular ribbon}
- * @preview ![ribbon](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDE0Mi45bC0xMS44LTE3LjItMTYuNSAxOC40LTQ1LjkgNTEtMzIuMy0zNS45TDI4OCAxMTIgMjI0IDQ4bC02NCA2NEw0MTUuNyAzOTYuMSA0NDggNDMybC0zOS4zIDI4LjFMMzM2IDUxMiA0OCAxOTJsMC02NEwxMzYgMGw0MCAwIDQ4IDAgNDggMCA0MCAwIDg4IDEyOCAwIDY0LTYyLjUgNjkuNC0zMi4zLTM1LjkgNDYuOC01MiAwLTMwLjd6TTE0Mi44IDM0NS4xbC03MS4xIDc5TDEwNSA0NDhsNjUuMi03Mi40IDMyLjMgMzUuOUwxMTIgNTEyIDM5LjMgNDYwLjEgMCA0MzJsMzIuMy0zNS45IDc4LjItODYuOCAzMi4zIDM1Ljl6TTk2IDE0Mi45bDAgMzAuN0wzNDMgNDQ4bDMzLjQtMjMuOEwxMjQuMyAxNDQuMWwtMTYuNS0xOC40TDk2IDE0Mi45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![ribbon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ribbon.svg)
  */
 const Ribbon: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

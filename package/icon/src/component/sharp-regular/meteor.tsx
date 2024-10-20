@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `meteor` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meteor?s=sharp-regular meteor}
- * @preview ![meteor](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzA0IDE2TDI1My42IDQ1LjIgMTAxLjMgMTMzLjRDMzguNiAxNjkuNyAwIDIzNi42IDAgMzA5QzAgNDIxLjEgOTAuOSA1MTIgMjAzIDUxMmM3Mi40IDAgMTM5LjQtMzguNiAxNzUuNy0xMDEuM2w4OC4yLTE1Mi4zTDQ5NiAyMDhsLTcuNSAuNkw0MzggMjEyLjVsLTEuOSAuMSAxNy43LTQ5LjVMNDkxLjEgNTguNCA1MTIgMCA0NTMuNiAyMC45IDM0OC45IDU4LjMgMjk5LjQgNzUuOWwuMS0xLjkgMy45LTUwLjVMMzA0IDE2ek0xMjUuMyAxNzQuOWwxMjMuOC03MS43TDI0NS45IDE0Nmw2OS43LTI0LjlMNDMyLjcgNzkuMyAzOTAuOSAxOTYuNSAzNjYgMjY2LjFsNDIuOC0zLjNMMzM3LjEgMzg2LjdDMzA5LjQgNDM0LjUgMjU4LjMgNDY0IDIwMyA0NjRjLTg1LjYgMC0xNTUtNjkuNC0xNTUtMTU1YzAtNTUuMyAyOS41LTEwNi40IDc3LjMtMTM0LjF6TTIwMCA0MjRhMTEyIDExMiAwIDEgMCAwLTIyNCAxMTIgMTEyIDAgMSAwIDAgMjI0ek0xNzYgMjY0YTI0IDI0IDAgMSAxIDAgNDggMjQgMjQgMCAxIDEgMC00OHptMjQgOTZhMTYgMTYgMCAxIDEgMzIgMCAxNiAxNiAwIDEgMSAtMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![meteor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/meteor.svg)
  */
 const Meteor: typeof Icon = x => (
     <Icon {...x}>

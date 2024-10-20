@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bird` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bird?s=sharp-thin bird}
- * @preview ![bird](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDE3NkwxNiAxNzZsMCA4YzAgMTEwLjUgODkuNSAyMDAgMjAwIDIwMHMyMDAtODkuNSAyMDAtMjAwbDAtODBjMC03LjQtLjktMTQuNi0yLjYtMjEuNWwtLjUtLjMgLjMtLjRDNDAzLjMgNDQgMzY4LjkgMTYgMzI4IDE2Yy00OC42IDAtODggMzkuNC04OCA4OGwwIDU2IDAgMTYtMTYgMHpNNDMxLjYgOTQuN2MuMyAzLjEgLjQgNi4yIC40IDkuM2wwIDU3LjFMNDgxLjYgMTI4bC01MC0zMy4zem0uNCA4NS42bDAgMy43YzAgOTUuMi02MS41IDE3Ni0xNDcgMjA0LjdMMzU3LjMgNTEybC0xOC42IDBMMjY5LjIgMzkzLjRjLTE3IDQuMy0zNC44IDYuNi01My4yIDYuNmMtNiAwLTExLjktLjItMTcuOC0uN0wyNjEuNyA1MTJsLTE4LjQgMEwxNzguNCAzOTYuN0M3NyAzNzkgMCAyOTAuNSAwIDE4NGwwLTggMC0xNiAxNiAwIDE5MiAwIDE2IDAgMC0xNiAwLTQwQzIyNCA0Ni42IDI3MC42IDAgMzI4IDBjNDYuNCAwIDg1LjggMzAuNCA5OS4xIDcyLjVsMS4zIC45IDcyIDQ4IDEwIDYuNy0xMCA2LjdMNDMyIDE4MC4zek0zMjAgMTEyYTE2IDE2IDAgMSAxIDMyIDAgMTYgMTYgMCAxIDEgLTMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bird](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bird.svg)
  */
 const Bird: typeof Icon = x => (
     <Icon {...x}>

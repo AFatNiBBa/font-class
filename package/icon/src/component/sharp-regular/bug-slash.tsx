@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bug-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug-slash?s=sharp-regular bug-slash}
- * @preview ![bug-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDc3LjYgMzQ4YzEuNi05LjEgMi40LTE4LjQgMi40LTI4bDAtOCA3MiAwIDI0IDAgMC00OC0yNCAwLTcyIDAgMC01NiAwLTE0LjEgNTctNTcgMTctMTdMNTIwIDg2LjFsLTE3IDE3LTU3IDU3TDQzMiAxNjBsLTE5Ni42IDBMNDguNCAxNC44IDI5LjQgLjEgMCAzOCAxOSA1Mi43IDU5MS41IDQ5Ny4ybDE5IDE0LjdMNjM5LjkgNDc0bC0xOS0xNC43TDQ3Ny42IDM0OHpNMjk3LjIgMjA4TDQzMiAyMDhsMCAxMDQuNkwyOTcuMiAyMDh6TTM0NCAzNjdsLTQ4LTM3LjggMCAxMDAuMmMtNTAuMy0xMS04OC01NS44LTg4LTEwOS40bDAtNjAuMS00OC0zNy44IDAgNDEuOS03MiAwLTI0IDAgMCA0OCAyNCAwIDcyIDAgMCA4YzAgMjcuMiA2LjggNTIuOCAxOC44IDc1LjNsLTY0LjYgNjQuNi0xNyAxNyAzMy45IDMzLjkgMTctMTcgNTkuNy01OS43QzIzNi43IDQ2Mi41IDI3Ni4zIDQ4MCAzMjAgNDgwYzQzIDAgODIuMS0xNyAxMTAuOC00NC42bC0zOC4yLTMwLjFjLTEzLjcgMTEuNy0zMC4zIDIwLjEtNDguNiAyNC4xbDAtNjIuNHpNMjI0IDk2bDAgMzIgMTkyIDAgMC0zMmMwLTUzLTQzLTk2LTk2LTk2cy05NiA0My05NiA5NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bug-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bug-slash.svg)
  */
 const BugSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `waveform-lines` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waveform-lines?s=light waveform-lines}
- * @preview ![waveform-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDBjOC44IDAgMTYgNy4yIDE2IDE2bDAgNDgwYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtNDgwYzAtOC44IDcuMi0xNiAxNi0xNnpNNTEyIDY0YzguOCAwIDE2IDcuMiAxNiAxNmwwIDM1MmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTM1MmMwLTguOCA3LjItMTYgMTYtMTZ6TTIyNCA5NmM4LjggMCAxNiA3LjIgMTYgMTZsMCAyODhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZsMC0yODhjMC04LjggNy4yLTE2IDE2LTE2em0xOTIgMzJjOC44IDAgMTYgNy4yIDE2IDE2bDAgMjI0YzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMjI0YzAtOC44IDcuMi0xNiAxNi0xNnpNMTI4IDE5MmM4LjggMCAxNiA3LjIgMTYgMTZsMCA5NmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTk2YzAtOC44IDcuMi0xNiAxNi0xNnpNMzIgMjI0YzguOCAwIDE2IDcuMiAxNiAxNmwwIDMyYzAgOC44LTcuMiAxNi0xNiAxNnMtMTYtNy4yLTE2LTE2bDAtMzJjMC04LjggNy4yLTE2IDE2LTE2em01NzYgMGM4LjggMCAxNiA3LjIgMTYgMTZsMCAzMmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTMyYzAtOC44IDcuMi0xNiAxNi0xNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![waveform-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/waveform-lines.svg)
  */
 const WaveformLines: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `person-dots-from-line` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dots-from-line?s=sharp-solid person-dots-from-line}
- * @preview ![person-dots-from-line](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDE3NkE4OCA4OCAwIDEgMCAyODggMGE4OCA4OCAwIDEgMCAwIDE3NnptLTY0IDMybC0xMC40IDAtOS41IDQuMy03Ni43IDM0LjhDMTI0IDI3MC4zIDEwNC4xIDI4OCA4MCAyODhjLTkuNSAwLTE4LjQtMi44LTI1LjgtNy41bC0xMCA0LjZMLjQgMzA0LjlsMzkuNyA4Ny40IDQzLjctMTkuOUwxNzYgMzMwLjUgMTc2IDQzMmwyMjQgMCAwLTEwMS41IDkyLjEgNDEuOSA0My43IDE5LjkgMzkuNy04Ny40TDUzMS45IDI4NWwtMzEuMS0xNC4xYy04LjggMTAuNS0yMiAxNy4xLTM2LjcgMTcuMWMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhjMC0yLjUgLjItNSAuNi03LjRsLTQ0LjctMjAuMy05LjUtNC4zTDM1MiAyMDhsLTEyOCAwek0yNCA0NjRMMCA0NjRsMCA0OCAyNCAwIDUyOCAwIDI0IDAgMC00OC0yNCAwTDI0IDQ2NHpNMjI0IDI4MGEyNCAyNCAwIDEgMSA0OCAwIDI0IDI0IDAgMSAxIC00OCAwem0xMDQgNTZhMjQgMjQgMCAxIDEgMCA0OCAyNCAyNCAwIDEgMSAwLTQ4ek05NiAyNDBhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHptMzY4IDE2YTE2IDE2IDAgMSAwIDAtMzIgMTYgMTYgMCAxIDAgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![person-dots-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-dots-from-line.svg)
  */
 const PersonDotsFromLine: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

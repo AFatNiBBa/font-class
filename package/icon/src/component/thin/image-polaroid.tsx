@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `image-polaroid` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-polaroid?s=thin image-polaroid}
- * @preview ![image-polaroid](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDM1MmwwIDY0YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4TDY0IDQ2NGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhsMC02NCA0MTYgMHptLTExLjMtMTZsLTI2NS40IDAgNDIuMy00Mi4zTDI4Mi4zIDIwOWMzLjEtMy4xIDguMi0zLjEgMTEuMyAwbDEyNyAxMjd6bS0yODIuMy01LjdsLTUuNyA1LjdMMjcuMyAzMzZsOTUtOTVjMy4xLTMuMSA4LjItMy4xIDExLjMgMGw0NyA0Ny00Mi4zIDQyLjN6TTE2IDk2YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDMyMCAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMjI4LjctMTI3LTEyN2MtOS40LTkuNC0yNC42LTkuNC0zMy45IDBsLTc5IDc5LTQ3LTQ3Yy05LjQtOS40LTI0LjYtOS40LTMzLjkgMGwtOTUgOTVMMTYgOTZ6TTQ0OCAzMzZsMC0yNDBjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMzJDMjguNyAzMiAwIDYwLjcgMCA5NkwwIDMzNmwwIDggMCA4IDAgNjRjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzIwIDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC02NCAwLTggMC04ek0xMzYgMTQ0YTI0IDI0IDAgMSAxIC00OCAwIDI0IDI0IDAgMSAxIDQ4IDB6bS0yNC00MGE0MCA0MCAwIDEgMCAwIDgwIDQwIDQwIDAgMSAwIDAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![image-polaroid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/image-polaroid.svg)
  */
 const ImagePolaroid: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bolt-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-slash?s=light bolt-slash}
- * @preview ![bolt-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUxLjQgMzYyLjNMMjM2LjYgNDYzLjYgMjkwIDMxMy45IDI2My41IDI5MyAxOTcuMiA0NzguN2MtNS44IDE2LjIgNi4yIDMzLjMgMjMuNSAzMy4zYzYuMSAwIDExLjktMi4yIDE2LjUtNi4yTDM3Ni45IDM4Mi40bC0yNS41LTIwLjJ6TTIxNi43IDI1NmwtNDYuNiAwTDE5MiAyMzYuNWwtMjUuNS0yMC4xLTI5LjggMjYuNWMtNS41IDQuOS04LjcgMTEuOS04LjcgMTkuM2MwIDE0LjMgMTEuNiAyNS44IDI1LjggMjUuOGwxMDMuNCAwLTQwLjUtMzJ6bTcyLjUtMTA1LjlMNDAzLjMgNDguNyAzNTAgMTk4LjEgMzc2LjUgMjE5IDQ0Mi44IDMzLjNDNDQ4LjYgMTcuMSA0MzYuNiAwIDQxOS40IDBjLTYuMSAwLTEyIDIuMi0xNi41IDYuM0wyNjMuNyAxMzBsMjUuNSAyMC4xek00ODUgMjI0bC0xMDIuMiAwIDQwLjUgMzIgNDguNSAwLTIyLjkgMjAuMiAyNS41IDIwLjIgMjguNC0yNS4xYzUuOC01LjEgOS4xLTEyLjUgOS4xLTIwLjNjMC0xNC45LTEyLjEtMjctMjctMjd6TTI1LjkgMy40QzE5LTIgOC45LS44IDMuNCA2LjFTLS44IDIzLjEgNi4xIDI4LjZsNjA4IDQ4MGM2LjkgNS41IDE3IDQuMyAyMi41LTIuNnM0LjMtMTctMi42LTIyLjVMMjUuOSAzLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![bolt-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bolt-slash.svg)
  */
 const BoltSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

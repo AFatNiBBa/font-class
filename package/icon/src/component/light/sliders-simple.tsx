@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sliders-simple` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sliders-simple?s=light sliders-simple}
- * @preview ![sliders-simple](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODAgMzIwYTQ4IDQ4IDAgMSAwIDAgOTYgNDggNDggMCAxIDAgMC05NnptNzguNCAzMkw0OTYgMzUyYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2bC0zMzcuNiAwYy03LjQgMzYuNS0zOS43IDY0LTc4LjQgNjRjLTQ0LjIgMC04MC0zNS44LTgwLTgwczM1LjgtODAgODAtODBjMzguNyAwIDcxIDI3LjUgNzguNCA2NHpNMzg0IDE0NGE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwIC05NiAwem0tMzAuNC0xNkMzNjEgOTEuNSAzOTMuMyA2NCA0MzIgNjRjNDQuMiAwIDgwIDM1LjggODAgODBzLTM1LjggODAtODAgODBjLTM4LjcgMC03MS0yNy41LTc4LjQtNjRMMTYgMTYwYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2bDMzNy42IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sliders-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sliders-simple.svg)
  */
 const SlidersSimple: typeof Icon = x => (
     <Icon {...x}>

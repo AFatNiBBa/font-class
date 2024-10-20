@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `couch` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/couch?s=solid couch}
- * @preview ![couch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMTYwQzY0IDg5LjMgMTIxLjMgMzIgMTkyIDMybDI1NiAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4bDAgMzMuNmMtMzYuNSA3LjQtNjQgMzkuNy02NCA3OC40bDAgNDgtMzg0IDAgMC00OGMwLTM4LjctMjcuNS03MS02NC03OC40TDY0IDE2MHpNNTQ0IDI3MmMwLTIwLjkgMTMuNC0zOC43IDMyLTQ1LjNjNS0xLjggMTAuNC0yLjcgMTYtMi43YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMTc2YzAgMTcuNy0xNC4zIDMyLTMyIDMybC0zMiAwYy0xNy43IDAtMzItMTQuMy0zMi0zMkw5NiA0NDhjMCAxNy43LTE0LjMgMzItMzIgMzJsLTMyIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMyTDAgMjcyYzAtMjYuNSAyMS41LTQ4IDQ4LTQ4YzUuNiAwIDExIDEgMTYgMi43YzE4LjYgNi42IDMyIDI0LjQgMzIgNDUuM2wwIDQ4IDAgMzIgMzIgMCAzODQgMCAzMiAwIDAtMzIgMC00OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![couch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/couch.svg)
  */
 const Couch: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

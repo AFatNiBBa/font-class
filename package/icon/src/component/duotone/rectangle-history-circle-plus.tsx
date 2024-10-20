@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `rectangle-history-circle-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-history-circle-plus?s=duotone rectangle-history-circle-plus}
- * @preview ![rectangle-history-circle-plus](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDIyNEwwIDQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NGwzMzAuOCAwQzM0OS41IDQ4MC4xIDMyMCA0MjcuNSAzMjAgMzY4YzAtOTcuMiA3OC44LTE3NiAxNzYtMTc2YzIuNSAwIDUgLjEgNy41IC4yYy0xMS0xOS4yLTMxLjgtMzIuMi01NS41LTMyLjJMNjQgMTYwYy0zNS4zIDAtNjQgMjguNy02NCA2NHpNNDggMTA0YzAgMTMuMyAxMC43IDI0IDI0IDI0bDM2OCAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDcyIDgwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHpNOTYgMjRjMCAxMy4zIDEwLjcgMjQgMjQgMjRsMjcyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRMMTIwIDBDMTA2LjcgMCA5NiAxMC43IDk2IDI0eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzUyIDM2OGExNDQgMTQ0IDAgMSAxIDI4OCAwIDE0NCAxNDQgMCAxIDEgLTI4OCAwem0xNDQtODBjLTguOCAwLTE2IDcuMi0xNiAxNmwwIDQ4LTQ4IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsNDggMCAwIDQ4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC00OCA0OCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC00OCAwIDAtNDhjMC04LjgtNy4yLTE2LTE2LTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rectangle-history-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rectangle-history-circle-plus.svg)
  */
 const RectangleHistoryCirclePlus: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M0 224L0 448c0 35.3 28.7 64 64 64l330.8 0C349.5 480.1 320 427.5 320 368c0-97.2 78.8-176 176-176c2.5 0 5 .1 7.5 .2c-11-19.2-31.8-32.2-55.5-32.2L64 160c-35.3 0-64 28.7-64 64zM48 104c0 13.3 10.7 24 24 24l368 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L72 80c-13.3 0-24 10.7-24 24zM96 24c0 13.3 10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L120 0C106.7 0 96 10.7 96 24z" />
-            <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16z" />
+        <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16z" />
     </Icon>
 );
 

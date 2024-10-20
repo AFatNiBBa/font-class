@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `industry` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/industry?s=regular industry}
- * @preview ![industry](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODggODBjLTQuNCAwLTggMy42LTggOGwwIDIxNiAwIDQ4IDAgNTZjMCAxMy4zIDEwLjcgMjQgMjQgMjRsMzY4IDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRsMC04OCAwLTE2IDAtMTQ4LjEtMTM5LjEgODljLTcuNCA0LjctMTYuOCA1LTI0LjUgLjhzLTEyLjUtMTIuMy0xMi41LTIxLjFsMC03MC45TDE4MC4xIDIzNS40Yy03LjQgNC4zLTE2LjYgNC40LTI0IC4xcy0xMi0xMi4yLTEyLTIwLjhMMTQ0IDg4YzAtNC40LTMuNi04LTgtOEw4OCA4MHpNMzIgODhjMC0zMC45IDI1LjEtNTYgNTYtNTZsNDggMGMzMC45IDAgNTYgMjUuMSA1NiA1NmwwIDg0LjkgMTAzLjgtNjAuNmMzMi0xOC43IDcyLjIgNC40IDcyLjIgNDEuNWwwIDI3IDEwMi4xLTY1LjRDNTAyLjEgOTUgNTQ0IDExNy45IDU0NCAxNTUuOUw1NDQgMzA0bDAgMTYgMCA4OGMwIDM5LjgtMzIuMiA3Mi03MiA3MmwtMzY4IDBjLTM5LjggMC03Mi0zMi4yLTcyLTcybDAtNTYgMC00OEwzMiA4OHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![industry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/industry.svg)
  */
 const Industry: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

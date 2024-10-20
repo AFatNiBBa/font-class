@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `location-dot-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-dot-slash?s=sharp-solid location-dot-slash}
- * @preview ![location-dot-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDU3LjUgMzMyLjRDNDg4LjMgMjgyLjYgNTEyIDIzMS40IDUxMiAxOTJDNTEyIDg2IDQyNiAwIDMyMCAwQzI0OC44IDAgMTg2LjYgMzguOCAxNTMuNSA5Ni40TDQ4LjQgMTQuOCAyOS40IC4xIDAgMzggMTkgNTIuNyA1OTEuNSA0OTcuMmwxOSAxNC43TDYzOS45IDQ3NGwtMTktMTQuN0w0NTcuNSAzMzIuNHpNMjU3LjcgMTc3LjNjNi42LTI4LjMgMzItNDkuMyA2Mi4zLTQ5LjNjMzUuMyAwIDY0IDI4LjcgNjQgNjRjMCAyNC42LTEzLjkgNDYtMzQuMyA1Ni43bC05Mi03MS40ek00MDIuMSA0MTIuOEwxMjguMSAxOTYuOUMxMzMuNSAzMTAgMzIwIDUxMiAzMjAgNTEyczM5LjEtNDIuNCA4Mi4xLTk5LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![location-dot-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/location-dot-slash.svg)
  */
 const LocationDotSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

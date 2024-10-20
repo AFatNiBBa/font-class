@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-back-fist` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-fist?s=solid hand-back-fist}
- * @preview ![hand-back-fist](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBDMTE3LjUgMCA5NiAyMS41IDk2IDQ4bDAgNDggMCAyOC41TDk2IDE3NmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTI2LjctOSA3LjVDNDAuNCAxNjkgMzIgMTg3IDMyIDIwNkwzMiAyNDRjMCAzOCAxNi45IDc0IDQ2LjEgOTguM0wxMjggMzg0bDAgOTZjMCAxNy43IDE0LjMgMzIgMzIgMzJsMTYwIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMDUuM2M0Ni45LTE5IDgwLTY1IDgwLTExOC43bDAtODAgMC0xNiAwLTE2YzAtMjYuNS0yMS41LTQ4LTQ4LTQ4Yy0xMi40IDAtMjMuNiA0LjctMzIuMSAxMi4zQzM1MCA4My41IDMyOS4zIDY0IDMwNCA2NGMtMTIuNCAwLTIzLjYgNC43LTMyLjEgMTIuM0MyNzAgNTEuNSAyNDkuMyAzMiAyMjQgMzJjLTEyLjQgMC0yMy42IDQuNy0zMi4xIDEyLjNDMTkwIDE5LjUgMTY5LjMgMCAxNDQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hand-back-fist](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-back-fist.svg)
  */
 const HandBackFist: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

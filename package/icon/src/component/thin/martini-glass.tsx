@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `martini-glass` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/martini-glass?s=thin martini-glass}
- * @preview ![martini-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgMjUuNWMwLTUuMyA0LjMtOS41IDkuNS05LjVsNDYwLjkgMGM1LjMgMCA5LjUgNC4zIDkuNSA5LjVjMCAyLjUtMSA1LTIuOCA2LjdMMzk3LjUgMTI4bC0yODMgMEwxOC44IDMyLjNDMTcgMzAuNSAxNiAyOC4xIDE2IDI1LjV6TTEzMC41IDE0NGwyNTEgMEwyNTYgMjY5LjUgMTMwLjUgMTQ0ek03LjUgNDMuNkwyNDggMjg0LjEgMjQ4IDQ5NmwtMTEyIDBjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDhsMTIwIDAgMTIwIDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThsLTExMiAwIDAtMjExLjlMNTA0LjUgNDMuNmM0LjgtNC44IDcuNS0xMS4zIDcuNS0xOC4xQzUxMiAxMS40IDUwMC42IDAgNDg2LjUgMEwyNS41IDBDMTEuNCAwIDAgMTEuNCAwIDI1LjVjMCA2LjggMi43IDEzLjMgNy41IDE4LjF6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![martini-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/martini-glass.svg)
  */
 const MartiniGlass: typeof Icon = x => (
     <Icon {...x}>

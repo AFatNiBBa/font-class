@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `plane-lock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-lock?s=solid plane-lock}
- * @preview ![plane-lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDkzLjdDMTkyIDU5LjUgMjIxIDAgMjU2IDBjMzYgMCA2NCA1OS41IDY0IDkzLjdsMCA4NC42IDEwMS44IDU4LjJDNDE4IDI0Ny42IDQxNiAyNTkuNiA0MTYgMjcybDAgMjQuNmMtMTcuOSAxMC40LTMwLjMgMjkuMS0zMS44IDUwLjlMMzIwIDMyOS4xbDAgNzAuOSA1Ny42IDQzLjJjNCAzIDYuNCA3LjggNi40IDEyLjhsMCAyNCAwIDE4YzAgNy44LTYuMyAxNC0xNCAxNGMtMS4zIDAtMi42LS4yLTMuOS0uNUwyNTYgNDgwIDE0NS45IDUxMS41Yy0xLjMgLjQtMi42IC41LTMuOSAuNWMtNy44IDAtMTQtNi4zLTE0LTE0bDAtNDJjMC01IDIuNC05LjggNi40LTEyLjhMMTkyIDQwMGwwLTcwLjktMTcxLjYgNDlDMTAuMiAzODEuMSAwIDM3My40IDAgMzYyLjhsMC02NS41YzAtNS43IDMuMS0xMSA4LjEtMTMuOUwxOTIgMTc4LjNsMC04NC42ek01MjggMjQwYy0xNy43IDAtMzIgMTQuMy0zMiAzMmwwIDQ4IDY0IDAgMC00OGMwLTE3LjctMTQuMy0zMi0zMi0zMnptLTgwIDMyYzAtNDQuMiAzNS44LTgwIDgwLTgwczgwIDM1LjggODAgODBsMCA0OGMxNy43IDAgMzIgMTQuMyAzMiAzMmwwIDEyOGMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTYwIDBjLTE3LjcgMC0zMi0xNC4zLTMyLTMybDAtMTI4YzAtMTcuNyAxNC4zLTMyIDMyLTMybDAtNDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![plane-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plane-lock.svg)
  */
 const PlaneLock: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

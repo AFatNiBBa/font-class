@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ampersand` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ampersand?s=sharp-light ampersand}
- * @preview ![ampersand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMzJMODAgMzJsMCAxNiAwIDgwLjZjMCAyNC4zIDkuMiA0Ny42IDI1LjcgNjUuNEwxNTIgMjQzLjcgNzIuOSAyOTlDNDcuMyAzMTcgMzIgMzQ2LjMgMzIgMzc3LjdMMzIgNDY0bDAgMTYgMTYgMCAyMDggMCA4IDAgNC44LTYuNCA0My4zLTU3LjdMMzcxLjcgNDgwbDQzLjcgMC04My44LTkwLjEgODEuMi0xMDguMy0yNS42LTE5LjJMMzA5LjUgMzY2LjFsLTEwOS0xMTcuMkwyNjMuMSAyMDVjMjUuNy0xOCA0MC45LTQ3LjMgNDAuOS03OC42TDMwNCA0OGwwLTE2LTE2IDBMOTYgMzJ6TTI0NC43IDE3OC44bC02Ni4zIDQ2LjQtNDkuMy01M2MtMTEtMTEuOC0xNy4xLTI3LjQtMTcuMS00My42TDExMiA2NGwxNjAgMCAwIDYyLjNjMCAyMC45LTEwLjIgNDAuNS0yNy4zIDUyLjR6TTkxLjMgMzI1LjJMMTc0IDI2Ny40bDExNiAxMjQuN0wyNDggNDQ4IDY0IDQ0OGwwLTcwLjNjMC0yMC45IDEwLjItNDAuNSAyNy4zLTUyLjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ampersand.svg)
  */
 const Ampersand: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

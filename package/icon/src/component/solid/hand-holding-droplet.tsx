@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-holding-droplet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-droplet?s=solid hand-holding-droplet}
- * @preview ![hand-holding-droplet](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc1LjUgNi42QzI3OC4zIDIuNSAyODMgMCAyODggMHM5LjcgMi41IDEyLjUgNi42TDM2Ni44IDEwM0MzNzggMTE5LjMgMzg0IDEzOC42IDM4NCAxNTguM2wwIDEuN2MwIDUzLTQzIDk2LTk2IDk2cy05Ni00My05Ni05NmwwLTEuN2MwLTE5LjggNi0zOSAxNy4yLTU1LjNMMjc1LjUgNi42ek01NjguMiAzMzYuM2MxMy4xIDE3LjggOS4zIDQyLjgtOC41IDU1LjlMNDMzLjEgNDg1LjVjLTIzLjQgMTcuMi01MS42IDI2LjUtODAuNyAyNi41TDE5MiA1MTIgMzIgNTEyYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTY0YzAtMTcuNyAxNC4zLTMyIDMyLTMybDM2LjggMCA0NC45LTM2YzIyLjctMTguMiA1MC45LTI4IDgwLTI4bDc4LjMgMCAxNiAwIDY0IDBjMTcuNyAwIDMyIDE0LjMgMzIgMzJzLTE0LjMgMzItMzIgMzJsLTY0IDAtMTYgMGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxMjAuNiAwIDExOS43LTg4LjJjMTcuOC0xMy4xIDQyLjgtOS4zIDU1LjkgOC41ek0xOTMuNiAzODRjMCAwIDAgMCAwIDBsLS45IDBjLjMgMCAuNiAwIC45IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-holding-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-holding-droplet.svg)
  */
 const HandHoldingDroplet: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

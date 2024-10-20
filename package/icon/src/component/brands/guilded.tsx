@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `guilded` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guilded?s=brands guilded}
- * @preview ![guilded](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQzLjQyNyw2NEg0LjU3MWMwLDEwMy4yNiwyMi4xOTIsMTgwLjA2LDQzLjQxOCwyMjIuMzU4QzExMi4wNDYsNDE0LjEzNSwyMjQsNDQ4LDIyNS4yNTYsNDQ4YTMxMi44MjQsMzEyLjgyNCwwLDAsMCwxNDAuNTUtMTAzLjQ3N2MyNS45MDctMzMuOTIzLDUzLjEtODcuMTksNjUuOTE2LTE0NS43NjFIMTcxLjgzM2M0LjE0LDM2LjQyOSwyMi4xNzcsNjcuOTQ2LDQ1LjEsODYuOTQ0aDg4LjU4OWMtMTcuMDEyLDI4LjIxMy00OC4xODYsNTQuNC04MC40NTYsNjkuNDgyLTMxLjIzMi0xMy4yNTktNjkuMDktNDYuNTQ0LTk2LjU0OC05OC4zNjItMjYuNzI2LTUzLjgzMy0yNy4wOTItMTA1Ljg4My0yNy4wOTItMTA1Ljg4M0g0MzcuNTczQTYyNS45MSw2MjUuOTEsMCwwLDAsNDQzLjQyNyw2NFoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![guilded](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/guilded.svg)
  */
 const Guilded: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

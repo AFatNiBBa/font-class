@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrows-rotate-reverse` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-rotate-reverse?s=sharp-solid arrows-rotate-reverse}
- * @preview ![arrows-rotate-reverse](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDA2LjcgMjAyLjZjLTcuNy0yMS44LTIwLjItNDIuMy0zNy44LTU5LjhjLTYyLjUtNjIuNS0xNjMuOC02Mi41LTIyNi4zIDBMMTI1LjUgMTYwbDM0LjMgMCAzMiAwIDAgNjQtMzIgMC0xMTIgMC0zMiAwIDAtMzIgMC0xMTIgMC0zMiA2NCAwIDAgMzIgMCAzNS4yTDk3LjQgOTcuNmM4Ny41LTg3LjUgMjI5LjMtODcuNSAzMTYuOCAwYzI0LjQgMjQuNCA0Mi4xIDUzLjEgNTIuOSA4My43bC02MC40IDIxLjN6bTI1LjEgMTk0LjNsLTE3LjYgMTcuNWMwIDAgMCAwIDAgMGMtODcuNSA4Ny40LTIyOS4zIDg3LjQtMzE2LjcgMEM3MyAzOTAgNTUuMyAzNjEuMyA0NC41IDMzMC42bDYwLjQtMjEuM2M3LjcgMjEuOCAyMC4yIDQyLjMgMzcuOCA1OS44YzYyLjUgNjIuNSAxNjMuOCA2Mi41IDIyNi4zIDBsLjEtLjFMMzg2LjEgMzUybC0zNC40IDAtMzIgMCAwLTY0IDMyIDAgMTEyIDAgMzIgMCAwIDMyIDAgMTEyIDAgMzItNjQgMCAwLTMyIDAtMzUuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrows-rotate-reverse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrows-rotate-reverse.svg)
  */
 const ArrowsRotateReverse: typeof Icon = x => (
     <Icon {...x}>

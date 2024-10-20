@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-music` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-music?s=sharp-solid comment-music}
- * @preview ![comment-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDI0MGMwIDExNC45LTExNC42IDIwOC0yNTYgMjA4Yy0zMS41IDAtNjEuNy00LjYtODkuNi0xMy4xTDE2IDQ4MCA1Ni45IDM3MC44QzIxLjMgMzM1LjEgMCAyODkuNiAwIDI0MEMwIDEyNS4xIDExNC42IDMyIDI1NiAzMnMyNTYgOTMuMSAyNTYgMjA4ek0zNTIgMTI4bDAtMjMuMUwzMzAuNCAxMTNsLTEyOCA0OEwxOTIgMTY0LjlsMCAxMS4xIDAgMzIgMCA4MS44Yy01LTEuMi0xMC40LTEuOC0xNi0xLjhjLTI2LjUgMC00OCAxNC4zLTQ4IDMyczIxLjUgMzIgNDggMzJzNDgtMTQuMyA0OC0zMmwwLTEwMC45IDk2LTM2IDAgNzQuN2MtNS0xLjItMTAuNC0xLjgtMTYtMS44Yy0yNi41IDAtNDggMTQuMy00OCAzMnMyMS41IDMyIDQ4IDMyczQ4LTE0LjMgNDgtMzJsMC0xMjggMC0zMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![comment-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/comment-music.svg)
  */
 const CommentMusic: typeof Icon = x => (
     <Icon {...x}>

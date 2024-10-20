@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bowl-scoop` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-scoop?s=sharp-thin bowl-scoop}
- * @preview ![bowl-scoop](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDIyNGMwLTEwNi04Ni0xOTItMTkyLTE5MlMzMiAxMTggMzIgMjI0bDE2IDBjMC05Ny4yIDc4LjgtMTc2IDE3Ni0xNzZzMTc2IDc4LjggMTc2IDE3NmwxNiAwek05LjYgMjU2TC44IDI1NmwuOSA4LjggMS40IDE0LjNDMTAuOCAzNTYuOCA3Ni4yIDQxNiAxNTQuMyA0MTZsMy43IDAtNjAgNjYuNkw5NiA0ODQuOWwwIDMuMSAwIDE2IDAgOCA4IDAgMjQwIDAgOCAwIDAtOCAwLTE2IDAtMy4xLTIuMS0yLjNMMjkwIDQxNmwzLjcgMGM3OC4xIDAgMTQzLjUtNTkuMiAxNTEuMi0xMzYuOWwxLjQtMTQuMyAuOS04LjgtOC44IDBMOS42IDI1NnpNMTkgMjc3LjVsLS42LTUuNSA0MTEuMSAwLS42IDUuNWMtNyA2OS41LTY1LjUgMTIyLjUtMTM1LjMgMTIyLjVMMjcyIDQwMGwtMTggMCAxMiAxMy40TDMzNiA0OTEuMWwwIDQuOS0yMjQgMCAwLTQuOSA2OS45LTc3LjdMMTk0IDQwMGwtMTggMC0yMS43IDBDODQuNCA0MDAgMjUuOSAzNDcuMSAxOSAyNzcuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bowl-scoop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bowl-scoop.svg)
  */
 const BowlScoop: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

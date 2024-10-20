@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-sleeping` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sleeping?s=sharp-solid face-sleeping}
- * @preview ![face-sleeping](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzg0IDQ4bDAtMTMuOEMzNDYuMyAxMi41IDMwMi42IDAgMjU2IDBDMTE0LjYgMCAwIDExNC42IDAgMjU2UzExNC42IDUxMiAyNTYgNTEyczI1Ni0xMTQuNiAyNTYtMjU2YzAtNDYuNi0xMi41LTkwLjMtMzQuMi0xMjhMNDMyIDEyOGwtNDggMCAwLTQ4IDAtOCAwLTggMC0xNnpNMjU2IDY0bDE2IDAgNjQgMCAxNiAwIDAgMTYgMCA4IDAgOC02LjQgNC44TDMwOS4zIDEyOGwyNi43IDAgMTYgMCAwIDMyLTE2IDAtNjQgMC0xNiAwIDAtMTYgMC04IDAtOCA2LjQtNC44TDI5OC43IDk2IDI3MiA5NmwtMTYgMCAwLTMyek0yMTYgMzg0YTQwIDQwIDAgMSAxIDgwIDAgNDAgNDAgMCAxIDEgLTgwIDB6TTM5NS4yIDIzNC40bDI1LjYgMTkuMmMtMzQuNCA0NS45LTEwMy4yIDQ1LjktMTM3LjYgMGwyNS42LTE5LjJjMjEuNiAyOC44IDY0LjggMjguOCA4Ni40IDB6bS0yNzguNCAwYzIxLjYgMjguOCA2NC44IDI4LjggODYuNCAwbDI1LjYgMTkuMmMtMzQuNCA0NS45LTEwMy4yIDQ1LjktMTM3LjYgMGwyNS42LTE5LjJ6TTQzMiAwTDQxNiAwbDAgMzIgMTYgMCAyNi43IDBMNDIyLjQgNTkuMiA0MTYgNjRsMCA4IDAgOCAwIDE2IDE2IDAgNjQgMCAxNiAwIDAtMzItMTYgMC0yNi43IDAgMzYuMy0yNy4yTDUxMiAzMmwwLTggMC04IDAtMTZMNDk2IDAgNDMyIDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![face-sleeping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-sleeping.svg)
  */
 const FaceSleeping: typeof Icon = x => (
     <Icon {...x}>

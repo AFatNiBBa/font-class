@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-vimeo` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-vimeo?s=brands square-vimeo}
- * @preview ![square-vimeo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDk2YzAtMzUuMy0yOC43LTY0LTY0LTY0SDY0QzI4LjcgMzIgMCA2MC43IDAgOTZWNDE2YzAgMzUuMyAyOC43IDY0IDY0IDY0SDM4NGMzNS4zIDAgNjQtMjguNyA2NC02NFY5NnpNMzE4LjUgMzA5LjVDMjc1IDM2NiAyMzguMiAzOTQuMyAyMDguMSAzOTQuM2MtMTguNyAwLTM0LjQtMTcuMi00Ny4zLTUxLjZjLTMuOC0xMy45LTcuMy0yNi45LTEwLjUtMzljLTE4LjItNjguMy0yOC42LTEwNy40LTQ2LjItMTA3LjRjLTIuNCAwLTEwLjggNS0yNS4xIDE1LjFMNjQgMTkyYzctNi4xIDEzLjktMTIuNCAyMC42LTE4LjVjMjkuMS0yNi4zIDU1LjYtNTAuMyA3My41LTUxLjljMjQuOS0yLjQgNDAuMiAxNC42IDQ2IDUxLjFjMjAuNSAxMjkuNiAyOS42IDE0OS4yIDY2LjggOTAuNWMxMy40LTIxLjIgMjAuNi0zNy4yIDIxLjUtNDguM2MzLjQtMzIuOC0yNS42LTMwLjYtNDUuMi0yMi4yYzE1LjctNTEuNSA0NS44LTc2LjUgOTAuMS03NS4xYzMyLjkgMSA0OC40IDIyLjQgNDYuNSA2NGMtMS40IDMxLjEtMjMuMiA3My44LTY1LjMgMTI3Ljl6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![square-vimeo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-vimeo.svg)
  */
 const SquareVimeo: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

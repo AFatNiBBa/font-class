@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `panorama` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panorama?s=sharp-regular panorama}
- * @preview ![panorama](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMkwwIDgwIDAgNDMybDAgNDggNDggMCA1LjUgMGM4NC44LTMwLjMgMTc2LjktNDAgMjY2LjUtNDBzMTgxLjcgOS43IDI2Ni41IDQwbDUuNSAwIDQ4IDAgMC00OCAwLTM1MiAwLTQ4LTQ4IDAtNS41IDBDNTAxLjcgNjIuMyA0MDkuNSA3MiAzMjAgNzJzLTE4MS43LTkuNy0yNjYuNS00MEw0OCAzMiAwIDMyek00OCA4MC45QzEzNi43IDExMC43IDIzMC45IDEyMCAzMjAgMTIwczE4My4zLTkuMyAyNzItMzkuMWwwIDM1MC4yYy0yMS45LTcuNC00NC4yLTEzLjUtNjYuNy0xOC42bC0xLjctMi40LTEzNi0xOTJMMzY4IDE5MC41bC0xOS42IDI3LjZMMjY3IDMzM2wtMzEuNy00My4yTDIxNiAyNjMuNGwtMTkuNCAyNi40LTg4IDEyMC0zLjcgNWMtMTkuMiA0LjYtMzguMiAxMC01NyAxNi4zTDQ4IDgwLjl6TTE3NiAyMDhhMzIgMzIgMCAxIDAgLTY0IDAgMzIgMzIgMCAxIDAgNjQgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![panorama](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/panorama.svg)
  */
 const Panorama: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

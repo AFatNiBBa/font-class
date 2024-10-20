@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `charging-station` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/charging-station?s=sharp-light charging-station}
- * @preview ![charging-station](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjg4IDMybDAgNDQ4TDY0IDQ4MCA2NCAzMmwyMjQgMHpNMzIgMzJsMCA0NDhMMCA0ODBsMCAzMiAzMiAwIDMyIDAgMjI0IDAgMzIgMCAzMiAwIDAtMzItMzIgMCAwLTE5MiAxNiAwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgNDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRzNjQtMjguNyA2NC02NGwwLTExMy42YzM2LjUtNy40IDY0LTM5LjcgNjQtNzguNGwwLTQ4IDAtMTYtMTYgMC0xNiAwIDAtNDggMC0xNi0zMiAwIDAgMTYgMCA0OC0zMiAwIDAtNDggMC0xNi0zMiAwIDAgMTYgMCA0OC0xNiAwLTE2IDAgMCAxNiAwIDQ4YzAgMzguNyAyNy41IDcxIDY0IDc4LjRMNDgwIDM4NGMwIDE3LjctMTQuMyAzMi0zMiAzMnMtMzItMTQuMy0zMi0zMmwwLTQ4YzAtNDQuMi0zNS44LTgwLTgwLTgwbC0xNiAwIDAtMjI0IDAtMzJMMjg4IDAgNjQgMCAzMiAwbDAgMzJ6TTUxMiAxNjBsMzIgMCAwIDMyYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4bDAtMzIgMzIgMCAzMiAwek0yMDQuOCAxMjEuNmw5LjYtMTIuOEwxODguOCA4OS42bC05LjYgMTIuOC03MiA5Nkw4OCAyMjRsMzIgMCA4MCAwLTUyLjggNzAuNC05LjYgMTIuOCAyNS42IDE5LjIgOS42LTEyLjggNzItOTZMMjY0IDE5MmwtMzIgMC04MCAwIDUyLjgtNzAuNHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![charging-station](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/charging-station.svg)
  */
 const ChargingStation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

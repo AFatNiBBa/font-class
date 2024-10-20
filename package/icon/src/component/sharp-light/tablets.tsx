@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tablets` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tablets?s=sharp-light tablets}
- * @preview ![tablets](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjAzLjkgMjYxLjNjLTMuNCA0LjEtNi45IDguMS0xMC44IDExLjlzLTcuOCA3LjQtMTEuOSAxMC44Yy02Mi44IDUxLjUtMTU1LjcgNDcuOS0yMTQuNC0xMC44cy02Mi4zLTE1MS42LTEwLjgtMjE0LjRjMy40LTQuMSA2LjktOC4xIDEwLjgtMTEuOXM3LjgtNy40IDExLjktMTAuOGM2Mi44LTUxLjUgMTU1LjctNDcuOSAyMTQuNCAxMC44czYyLjMgMTUxLjYgMTAuOCAyMTQuNHpNNTcwLjUgNjkuNWMtNDYuMi00Ni4yLTExOC44LTQ5LjctMTY5LTEwLjZMNTgxLjEgMjM4LjVjMzkuMS01MC4yIDM1LjUtMTIyLjgtMTAuNi0xNjl6bS0xMiAxOTEuNkwzNzguOSA4MS41Yy0zOS4xIDUwLjItMzUuNSAxMjIuOCAxMC42IDE2OXMxMTguOCA0OS43IDE2OSAxMC42ek0zMTkuMiAzMzZjLjUgNS4zIC44IDEwLjYgLjggMTZzLS4zIDEwLjctLjggMTZjLTggODAuOS03Ni4yIDE0NC0xNTkuMiAxNDRTOC44IDQ0OC45IC44IDM2OGMtLjUtNS4zLS44LTEwLjYtLjgtMTZzLjMtMTAuNyAuOC0xNkM4LjggMjU1LjEgNzcgMTkyIDE2MCAxOTJzMTUxLjIgNjMuMSAxNTkuMiAxNDR6TTE2MCAyMjRDOTQuNyAyMjQgNDAuOSAyNzIuOSAzMyAzMzZsMjU0IDBjLTcuOS02My4xLTYxLjctMTEyLTEyNy0xMTJ6bTAgMjU2YzY1LjMgMCAxMTkuMS00OC45IDEyNy0xMTJMMzMgMzY4YzcuOSA2My4xIDYxLjcgMTEyIDEyNyAxMTJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tablets](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tablets.svg)
  */
 const Tablets: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

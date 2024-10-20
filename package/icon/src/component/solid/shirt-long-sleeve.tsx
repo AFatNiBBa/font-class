@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shirt-long-sleeve` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt-long-sleeve?s=solid shirt-long-sleeve}
- * @preview ![shirt-long-sleeve](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU3IC4zYy0zMi4xIDIuNS02MSAyMC45LTc2LjcgNDkuNUwxMy45IDE3MC41QzQuOCAxODcgMCAyMDUuNiAwIDIyNC40TDAgMzg0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xNTkuNmMwLTIuNyAuNy01LjMgMi03LjdsNDYtODMuN0wxNDQgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDIyNCAwYzM1LjMgMCA2NC0yOC43IDY0LTY0bDAtMzE0LjkgNDYgODMuN2MxLjMgMi40IDIgNSAyIDcuN0w1NDQgMzg0YzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xNTkuNmMwLTE4LjktNC44LTM3LjQtMTMuOS01NEw1NTkuNyA0OS43QzU0NC4xIDIxLjIgNTE1LjEgMi44IDQ4MyAuM2MtMS0uMi0yLS4zLTMtLjNsLTQuNCAwTDQ2MCAwIDQzMiAwYy04LjggMC0xNS45IDcuMi0xNy4zIDE1LjlDNDA3LjEgNjEuNCAzNjcuNiA5NiAzMjAgOTZzLTg3LjEtMzQuNi05NC43LTgwLjFDMjIzLjkgNy4yIDIxNi44IDAgMjA4IDBMMTgwIDAgMTY0LjQgMCAxNjAgMGMtMSAwLTIgLjEtMyAuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![shirt-long-sleeve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shirt-long-sleeve.svg)
  */
 const ShirtLongSleeve: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

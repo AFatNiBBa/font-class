@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `thumbtack` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbtack?s=sharp-solid thumbtack}
- * @preview ![thumbtack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMEwzMiAwbDAgNjQgMzIgMCAyOS41IDBMODIuMSAyMTIuMUMyMy43IDI0MC43IDAgMjkzIDAgMzIwbDAgMzIgMzg0IDAgMC0zMmMwLTIyLjUtMjMuNy03Ni41LTgyLjEtMTA2LjdMMjkwLjUgNjQgMzIwIDY0bDMyIDAgMC02NEwzMjAgMCA2NCAwem05NiA0ODBsMCAzMiA2NCAwIDAtMzIgMC05Ni02NCAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![thumbtack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/thumbtack.svg)
  */
 const Thumbtack: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `head-side-goggles` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-goggles?s=sharp-thin head-side-goggles}
- * @preview ![head-side-goggles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzcuNyAzNzEuOUMzOC43IDMzMi4xIDE2IDI3OS43IDE2IDIyNEwwIDIyNGMwIDU5LjEgMjMuNyAxMTQuNCA2NCAxNTYuN0w2NCA1MDRsMCA4IDE2IDAgMC04IDAtMTI2LjUgMC0zLjMtMi4zLTIuM3pNNDAuMSA5Nkw4IDk2IDAgOTZsMCA4IDAgODAgMCA4IDggMCAyMTQuMiAwYzE1LjcgMjQuMSA0Mi45IDQwIDczLjggNDBsMTEyIDAgOTYgMCA4IDAgMC04IDAtMTYwIDAtOC04IDAtOTYgMC0yNS42IDBDMzQ3LjkgMjEuNSAzMDAuNiAwIDI0OCAwTDIyNCAwQzE0Ny45IDAgODAuNiAzOCA0MC4xIDk2ek02MCA5NmMzOC4xLTQ4LjcgOTcuNC04MCAxNjQtODBsMjQgMGM0Mi4xIDAgODAuNSAxNS4xIDExMC42IDQwTDI5NiA1NmMtMzAuOSAwLTU4LjEgMTUuOS03My44IDQwTDYwIDk2ek00OTYgMzIwbC01NiAwLTggMCAwIDggMCAxMDQtMTIwIDAtOCAwIDAgOCAwIDY0IDAgOCAxNiAwIDAtOCAwLTU2IDEyMCAwIDggMCAwLTggMC0xMDQgNTYgMCA4IDAgMC04IDAtNzItMTYgMCAwIDY0ek0yOTYgNzJsMTA0IDAgMCAxNDQtMTA0IDBjLTM5LjggMC03Mi0zMi4yLTcyLTcyczMyLjItNzIgNzItNzJ6TTQxNiAyMTZsMC0xNDQgODAgMCAwIDE0NC04MCAwek0yMDggMTQ0YzAgMTEuMyAyLjEgMjIuMSA2IDMyTDE2IDE3NmwwLTY0IDE5OCAwYy0zLjkgOS45LTYgMjAuNy02IDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![head-side-goggles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/head-side-goggles.svg)
  */
 const HeadSideGoggles: typeof Icon = x => (
     <Icon {...x}>

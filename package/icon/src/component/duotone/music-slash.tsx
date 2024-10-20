@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `music-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-slash?s=duotone music-slash}
- * @preview ![music-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik02NCA0MzJjMCA0NC4yIDQzIDgwIDk2IDgwczk2LTM1LjggOTYtODBsMC0xMzQuMy02NC01MC40IDAgMTA5LjNjLTEwLTMtMjAuOC00LjYtMzItNC42Yy01MyAwLTk2IDM1LjgtOTYgODB6TTE5Mi4xIDEyNS4zYzM2LjIgMjguNCA3Mi40IDU2LjcgMTA4LjYgODUuMUw1MTIgMTQ3bDAgMTQ1LjVjLTEwLTIuOS0yMC44LTQuNi0zMi00LjZjLTIyLjIgMC00Mi42IDYuMy01OC44IDE2LjhjNDYuMSAzNi4xIDkyLjEgNzIuMiAxMzguMiAxMDguM0M1NjkuOCA0MDAuMiA1NzYgMzg0LjcgNTc2IDM2OGwwLTI2NCAwLTcyYzAtMTAuMS00LjgtMTkuNi0xMi45LTI1LjdDNTU3LjUgMi4yIDU1MC44IDAgNTQ0IDBjLTMuMSAwLTYuMiAuNC05LjIgMS4zbC0zMjAgOTZjLTEyLjcgMy44LTIxLjYgMTQuOS0yMi43IDI3Ljl6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik01LjEgOS4yQzEzLjMtMS4yIDI4LjQtMy4xIDM4LjggNS4xbDU5MiA0NjRjMTAuNCA4LjIgMTIuMyAyMy4zIDQuMSAzMy43cy0yMy4zIDEyLjMtMzMuNyA0LjFMOS4yIDQyLjlDLTEuMiAzNC43LTMuMSAxOS42IDUuMSA5LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![music-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/music-slash.svg)
  */
 const MusicSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>
         <path class={generic.secondary} d="M64 432c0 44.2 43 80 96 80s96-35.8 96-80l0-134.3-64-50.4 0 109.3c-10-3-20.8-4.6-32-4.6c-53 0-96 35.8-96 80zM192.1 125.3c36.2 28.4 72.4 56.7 108.6 85.1L512 147l0 145.5c-10-2.9-20.8-4.6-32-4.6c-22.2 0-42.6 6.3-58.8 16.8c46.1 36.1 92.1 72.2 138.2 108.3C569.8 400.2 576 384.7 576 368l0-264 0-72c0-10.1-4.8-19.6-12.9-25.7C557.5 2.2 550.8 0 544 0c-3.1 0-6.2 .4-9.2 1.3l-320 96c-12.7 3.8-21.6 14.9-22.7 27.9z" />
-            <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
+        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
     </Icon>
 );
 

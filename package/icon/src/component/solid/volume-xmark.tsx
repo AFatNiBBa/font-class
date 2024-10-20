@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `volume-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-xmark?s=solid volume-xmark}
- * @preview ![volume-xmark](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzAxLjEgMzQuOEMzMTIuNiA0MCAzMjAgNTEuNCAzMjAgNjRsMCAzODRjMCAxMi42LTcuNCAyNC0xOC45IDI5LjJzLTI1IDMuMS0zNC40LTUuM0wxMzEuOCAzNTIgNjQgMzUyYy0zNS4zIDAtNjQtMjguNy02NC02NGwwLTY0YzAtMzUuMyAyOC43LTY0IDY0LTY0bDY3LjggMEwyNjYuNyA0MC4xYzkuNC04LjQgMjIuOS0xMC40IDM0LjQtNS4zek00MjUgMTY3bDU1IDU1IDU1LTU1YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwczkuNCAyNC42IDAgMzMuOWwtNTUgNTUgNTUgNTVjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlzLTI0LjYgOS40LTMzLjkgMGwtNTUtNTUtNTUgNTVjLTkuNCA5LjQtMjQuNiA5LjQtMzMuOSAwcy05LjQtMjQuNiAwLTMzLjlsNTUtNTUtNTUtNTVjLTkuNC05LjQtOS40LTI0LjYgMC0zMy45czI0LjYtOS40IDMzLjkgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![volume-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/volume-xmark.svg)
  */
 const VolumeXmark: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

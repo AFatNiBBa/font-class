@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turn-left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left?s=sharp-light turn-left}
- * @preview ![turn-left](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYwIDI1NmwzMiAwIDE5MiAwIDMyIDAgMCAzMiAwIDE2MCA2NCAwIDAtMjU2LTI4OCAwLTMyIDAgMC0zMiAwLTUwLjdMNDUuMyAyMjQgMTYwIDMzOC43bDAtNTAuNyAwLTMyem0zMiA5NmwwIDMyLTMyIDBMMjIuNiAyNDYuNiAwIDIyNGwyMi42LTIyLjZMMTYwIDY0bDMyIDAgMCAzMiAwIDMyIDAgMzIgMzIgMCAyNTYgMCAzMiAwIDAgMzIgMCAyNTYgMCAzMi0zMiAwLTY0IDAtMzIgMCAwLTMyIDAtMTI4IDAtMzItMzIgMC0xMjggMC0zMiAwIDAgMzIgMCAzMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![turn-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/turn-left.svg)
  */
 const TurnLeft: typeof Icon = x => (
     <Icon {...x}>

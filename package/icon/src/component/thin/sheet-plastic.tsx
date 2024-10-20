@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sheet-plastic` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sheet-plastic?s=thin sheet-plastic}
- * @preview ![sheet-plastic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDE2YzI2LjUgMCA0OCAyMS41IDQ4IDQ4bDAgMjY4LjFjMCAxLjMtLjEgMi42LS4yIDMuOUwyNDggMzM2Yy0yMi4xIDAtNDAgMTcuOS00MCA0MGwwIDExOS44Yy0xLjMgLjItMi42IC4yLTMuOSAuMkw2NCA0OTZjLTI2LjUgMC00OC0yMS41LTQ4LTQ4TDE2IDY0YzAtMjYuNSAyMS41LTQ4IDQ4LTQ4bDI1NiAwem00MS4xIDMzNmMtLjggMS0xLjYgMS45LTIuNCAyLjdMMjI2LjcgNDg2LjZjLS45IC45LTEuOCAxLjctMi43IDIuNEwyMjQgMzc2YzAtMTMuMyAxMC43LTI0IDI0LTI0bDExMy4xIDB6TTAgNDQ4YzAgMzUuMyAyOC43IDY0IDY0IDY0bDE0MC4xIDBjMTIuNyAwIDI0LjktNS4xIDMzLjktMTQuMUwzNjkuOSAzNjYuMWM5LTkgMTQuMS0yMS4yIDE0LjEtMzMuOUwzODQgNjRjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMEMyOC43IDAgMCAyOC43IDAgNjRMMCA0NDh6TTE3My43IDY2LjNjLTMuMS0zLjEtOC4yLTMuMS0xMS4zIDBsLTk2IDk2Yy0zLjEgMy4xLTMuMSA4LjIgMCAxMS4zczguMiAzLjEgMTEuMyAwbDk2LTk2YzMuMS0zLjEgMy4xLTguMiAwLTExLjN6bTk2IDQzLjNjMy4xLTMuMSAzLjEtOC4yIDAtMTEuM3MtOC4yLTMuMS0xMS4zIDBsLTE2MCAxNjBjLTMuMSAzLjEtMy4xIDguMiAwIDExLjNzOC4yIDMuMSAxMS4zIDBsMTYwLTE2MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![sheet-plastic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sheet-plastic.svg)
  */
 const SheetPlastic: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

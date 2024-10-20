@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mercury` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mercury?s=thin mercury}
- * @preview ![mercury](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNODMuNSAyLjRDODAuNC0uOCA3NS4zLS44IDcyLjEgMi4zUzY4LjkgMTAuNCA3MiAxMy42YzE4LjcgMTkuMSA0MiAzMy43IDY4IDQyLjJDNjguMiA3OCAxNiAxNDQuOSAxNiAyMjRjMCA5NC41IDc0LjUgMTcxLjYgMTY4IDE3NS44bDAgNDguMi01NiAwYy00LjQgMC04IDMuNi04IDhzMy42IDggOCA4bDU2IDAgMCA0MGMwIDQuNCAzLjYgOCA4IDhzOC0zLjYgOC04bDAtNDAgNTYgMGM0LjQgMCA4LTMuNiA4LThzLTMuNi04LTgtOGwtNTYgMCAwLTQ4LjJjOTMuNS00LjIgMTY4LTgxLjMgMTY4LTE3NS44YzAtNzkuMS01Mi4yLTE0Ni0xMjQtMTY4LjJjMjYtOC41IDQ5LjMtMjMuMSA2OC00Mi4yYzMuMS0zLjIgMy04LjItLjEtMTEuM3MtOC4yLTMtMTEuMyAuMUMyNzMgMzAuNSAyMzQuNSA0OCAxOTIgNDhTMTExIDMwLjUgODMuNSAyLjR6TTE5MiA2NGExNjAgMTYwIDAgMSAxIDAgMzIwIDE2MCAxNjAgMCAxIDEgMC0zMjB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mercury](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mercury.svg)
  */
 const Mercury: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

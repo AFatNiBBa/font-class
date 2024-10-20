@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `goodreads-g` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/goodreads-g?s=brands goodreads-g}
- * @preview ![goodreads-g](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDIuNiA0MDMuM2gyLjhjMTIuNyAwIDI1LjUgMCAzOC4yLjEgMS42IDAgMy4xLS40IDMuNiAyLjEgNy4xIDM0LjkgMzAgNTQuNiA2Mi45IDYzLjkgMjYuOSA3LjYgNTQuMSA3LjggODEuMyAxLjggMzMuOC03LjQgNTYtMjguMyA2OC02MC40IDgtMjEuNSAxMC43LTQzLjggMTEtNjYuNS4xLTUuOC4zLTQ3LS4yLTUyLjhsLS45LS4zYy0uOCAxLjUtMS43IDIuOS0yLjUgNC40LTIyLjEgNDMuMS02MS4zIDY3LjQtMTA1LjQgNjkuMS0xMDMgNC0xNjkuNC01Ny0xNzItMTc2LjItLjUtMjMuNyAxLjgtNDYuOSA4LjMtNjkuN0M1OC4zIDQ3LjcgMTEyLjMuNiAxOTEuNiAwYzYxLjMtLjQgMTAxLjUgMzguNyAxMTYuMiA3MC4zLjUgMS4xIDEuMyAyLjMgMi40IDEuOVYxMC42aDQ0LjNjMCAyODAuMy4xIDMzMi4yLjEgMzMyLjItLjEgNzguNS0yNi43IDE0My43LTEwMyAxNjIuMi02OS41IDE2LjktMTU5IDQuOC0xOTYtNTcuMi04LTEzLjUtMTEuOC0yOC4zLTEzLTQ0LjV6TTE4OC45IDM2LjVjLTUyLjUtLjUtMTA4LjUgNDAuNy0xMTUgMTMzLjgtNC4xIDU5IDE0LjggMTIyLjIgNzEuNSAxNDguNiAyNy42IDEyLjkgNzQuMyAxNSAxMDguMy04LjcgNDcuNi0zMy4yIDYyLjctOTcgNTQuOC0xNTQtOS43LTcxLjEtNDcuOC0xMjAtMTE5LjYtMTE5Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![goodreads-g](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/goodreads-g.svg)
  */
 const GoodreadsG: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

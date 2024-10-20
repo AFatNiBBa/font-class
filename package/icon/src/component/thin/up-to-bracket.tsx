@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-to-bracket` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-bracket?s=thin up-to-bracket}
- * @preview ![up-to-bracket](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjE2IDE3OS4zYzIuMS0yLjEgNS0zLjMgOC0zLjNzNS45IDEuMiA4IDMuM0wzNjMuOCAzMTEuNGMyLjcgMi43IDQuMiA2LjQgNC4yIDEwLjJjMCA4LTYuNSAxNC40LTE0LjQgMTQuNEwyODAgMzM2Yy00LjQgMC04IDMuNi04IDhsMCAxMzZjMCA4LjgtNy4yIDE2LTE2IDE2bC02NCAwYy04LjggMC0xNi03LjItMTYtMTZsMC0xMzZjMC00LjQtMy42LTgtOC04bC03My42IDBjLTggMC0xNC40LTYuNS0xNC40LTE0LjRjMC0zLjggMS41LTcuNSA0LjItMTAuMkwyMTYgMTc5LjN6bTgtMTkuM2MtNy4yIDAtMTQuMiAyLjktMTkuMyA4TDcyLjkgMzAwLjFjLTUuNyA1LjctOC45IDEzLjQtOC45IDIxLjVDNjQgMzM4LjQgNzcuNiAzNTIgOTQuNCAzNTJsNjUuNiAwIDAgMTI4YzAgMTcuNyAxNC4zIDMyIDMyIDMybDY0IDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMjggNjUuNiAwYzE2LjggMCAzMC40LTEzLjYgMzAuNC0zMC40YzAtOC4xLTMuMi0xNS44LTguOS0yMS41TDI0My4zIDE2OGMtNS4xLTUuMS0xMi4xLTgtMTkuMy04ek0xNiAxODRsMC05NmMwLTM5LjggMzIuMi03MiA3Mi03MmwyNzIgMGMzOS44IDAgNzIgMzIuMiA3MiA3MmwwIDk2YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LThsMC05NmMwLTQ4LjYtMzkuNC04OC04OC04OEw4OCAwQzM5LjQgMCAwIDM5LjQgMCA4OGwwIDk2YzAgNC40IDMuNiA4IDggOHM4LTMuNiA4LTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![up-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/up-to-bracket.svg)
  */
 const UpToBracket: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

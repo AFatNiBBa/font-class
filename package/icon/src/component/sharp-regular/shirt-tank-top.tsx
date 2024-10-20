@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `shirt-tank-top` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt-tank-top?s=sharp-regular shirt-tank-top}
- * @preview ![shirt-tank-top](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDcyYzAgNDQuMiAzNS44IDgwIDgwIDgwczgwLTM1LjggODAtODBsMC00OCAwLTI0IDQ4IDAgMCAyNCAwIDQ4IDAgNTAuMyA2MS41IDEyMi45IDIuNSA1LjEgMCA1LjcgMCAyMzIgMCAyNC0yNCAwTDI0IDUxMiAwIDUxMmwwLTI0TDAgMjU2bDAtNS43IDIuNS01LjFMNjQgMTIyLjMgNjQgNzJsMC00OEw2NCAwbDQ4IDAgMCAyNCAwIDQ4em0xNzMuMSA4Ny45QzI2MS44IDE4NC42IDIyOC43IDIwMCAxOTIgMjAwcy02OS44LTE1LjQtOTMuMS00MC4xTDQ4IDI2MS43IDQ4IDQ2NGwyODggMCAwLTIwMi4zTDI4NS4xIDE1OS45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![shirt-tank-top](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shirt-tank-top.svg)
  */
 const ShirtTankTop: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

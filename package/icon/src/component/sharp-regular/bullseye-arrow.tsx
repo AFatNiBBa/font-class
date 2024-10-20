@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bullseye-arrow` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bullseye-arrow?s=sharp-regular bullseye-arrow}
- * @preview ![bullseye-arrow](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzYxLjUgMjE4LjRjNC4yIDExLjggNi41IDI0LjQgNi41IDM3LjZjMCA2MS45LTUwLjEgMTEyLTExMiAxMTJzLTExMi01MC4xLTExMi0xMTJzNTAuMS0xMTIgMTEyLTExMmMxMy4yIDAgMjUuOSAyLjMgMzcuNiA2LjVsNC45LTQuOS03LjYtNDUuOEMyNzkuNiA5Ny4zIDI2OCA5NiAyNTYgOTZDMTY3LjYgOTYgOTYgMTY3LjYgOTYgMjU2czcxLjYgMTYwIDE2MCAxNjBzMTYwLTcxLjYgMTYwLTE2MGMwLTEyLTEuMy0yMy42LTMuOC0zNC45bC00NS44LTcuNi00LjkgNC45em05Ny40LTguMWMzLjMgMTQuNyA1IDMwIDUgNDUuN2MwIDExNC45LTkzLjEgMjA4LTIwOCAyMDhTNDggMzcwLjkgNDggMjU2UzE0MS4xIDQ4IDI1NiA0OGMxNS43IDAgMzEgMS43IDQ1LjcgNWwzOC44LTM4LjhDMzE0IDUgMjg1LjYgMCAyNTYgMEMxMTQuNiAwIDAgMTE0LjYgMCAyNTZTMTE0LjYgNTEyIDI1NiA1MTJzMjU2LTExNC42IDI1Ni0yNTZjMC0yOS42LTUtNTgtMTQuMy04NC41TDQ1OSAyMTAuM3ptLTkzLjktMjkuNEw0MzIgMTkybDgwLTgwTDQzMiA4MCA0MDAgMCAzMjAgODBsMTEuMiA2Ni45TDIzMSAyNDcgMjY1IDI4MSAzNjUuMSAxODAuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![bullseye-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bullseye-arrow.svg)
  */
 const BullseyeArrow: typeof Icon = x => (
     <Icon {...x}>

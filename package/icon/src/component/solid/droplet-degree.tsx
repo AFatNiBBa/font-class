@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `droplet-degree` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-degree?s=solid droplet-degree}
- * @preview ![droplet-degree](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDUxMkM4NiA1MTIgMCA0MjYgMCAzMjBDMCAyMjguOCAxMzAuMiA1Ny43IDE2Ni42IDExLjdDMTcyLjYgNC4yIDE4MS41IDAgMTkxLjEgMGwxLjggMGM5LjYgMCAxOC41IDQuMiAyNC41IDExLjdDMjUzLjggNTcuNyAzODQgMjI4LjggMzg0IDMyMGMwIDEwNi04NiAxOTItMTkyIDE5MnpNNDY0IDExMmEzMiAzMiAwIDEgMCAtNjQgMCAzMiAzMiAwIDEgMCA2NCAwem0tMTEyIDBhODAgODAgMCAxIDEgMTYwIDAgODAgODAgMCAxIDEgLTE2MCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![droplet-degree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/droplet-degree.svg)
  */
 const DropletDegree: typeof Icon = x => (
     <Icon {...x}>

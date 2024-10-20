@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-code` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-code?s=light rectangle-code}
- * @preview ![rectangle-code](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDY0YzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMzIwYzAgMTcuNy0xNC4zIDMyLTMyIDMyTDY0IDQ0OGMtMTcuNyAwLTMyLTE0LjMtMzItMzJMMzIgOTZjMC0xNy43IDE0LjMtMzIgMzItMzJsMzg0IDB6TTY0IDMyQzI4LjcgMzIgMCA2MC43IDAgOTZMMCA0MTZjMCAzNS4zIDI4LjcgNjQgNjQgNjRsMzg0IDBjMzUuMyAwIDY0LTI4LjcgNjQtNjRsMC0zMjBjMC0zNS4zLTI4LjctNjQtNjQtNjRMNjQgMzJ6TTI5My40IDE3MmMtNi42IDUuOS03LjIgMTYtMS4zIDIyLjZMMzQ2LjYgMjU2IDI5MiAzMTcuNGMtNS45IDYuNi01LjMgMTYuNyAxLjMgMjIuNnMxNi43IDUuMyAyMi42LTEuM2w2NC03MmM1LjQtNi4xIDUuNC0xNS4yIDAtMjEuM2wtNjQtNzJjLTUuOS02LjYtMTYtNy4yLTIyLjYtMS4zek0yMjAgMTk0LjZjNS45LTYuNiA1LjMtMTYuNy0xLjMtMjIuNnMtMTYuNy01LjMtMjIuNiAxLjNsLTY0IDcyYy01LjQgNi4xLTUuNCAxNS4yIDAgMjEuM2w2NCA3MmM1LjkgNi42IDE2IDcuMiAyMi42IDEuM3M3LjItMTYgMS4zLTIyLjZMMTY1LjQgMjU2IDIyMCAxOTQuNnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![rectangle-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rectangle-code.svg)
  */
 const RectangleCode: typeof Icon = x => (
     <Icon {...x}>

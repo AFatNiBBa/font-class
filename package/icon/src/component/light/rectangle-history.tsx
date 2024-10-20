@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `rectangle-history` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-history?s=light rectangle-history}
- * @preview ![rectangle-history](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDgwIDE5MmMwLTE3LjctMTQuMy0zMi0zMi0zMkw2NCAxNjBjLTE3LjcgMC0zMiAxNC4zLTMyIDMybDAgMjU2YzAgMTcuNyAxNC4zIDMyIDMyIDMybDM4NCAwYzE3LjcgMCAzMi0xNC4zIDMyLTMybDAtMjU2em0tMzItNjRjMzUuMyAwIDY0IDI4LjcgNjQgNjRsMCAyNTZjMCAzNS4zLTI4LjcgNjQtNjQgNjRMNjQgNTEyYy0zNS4zIDAtNjQtMjguNy02NC02NEwwIDE5MmMwLTM1LjMgMjguNy02NCA2NC02NGwzODQgMHptMC02NGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkw2NCA5NmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNmwzODQgMHpNNDAwIDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZMMTEyIDMyYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2TDQwMCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![rectangle-history](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rectangle-history.svg)
  */
 const RectangleHistory: typeof Icon = x => (
     <Icon {...x}>

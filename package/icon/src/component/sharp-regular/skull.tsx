@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `skull` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull?s=sharp-regular skull}
- * @preview ![skull](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDM3My45bDAgMjUgMCA2NS4xLTQ4IDAgMC0yNCAwLTI0LTQ4IDAgMCAyNCAwIDI0LTMyIDAgMC0yNCAwLTI0LTQ4IDAgMCAyNCAwIDI0LTQ4IDAgMC02NS4xIDAtMjUtMjAuNC0xNC4zQzc1LjkgMzI2LjIgNDggMjc2LjkgNDggMjI0YzAtOTEuNCA4Ni45LTE3NiAyMDgtMTc2czIwOCA4NC42IDIwOCAxNzZjMCA1Mi45LTI3LjkgMTAyLjItNzUuNiAxMzUuNkwzNjggMzczLjl6bTQ4IDI1YzU4LjUtNDEuMSA5Ni0xMDQuMSA5Ni0xNzQuOUM1MTIgMTAwLjMgMzk3LjQgMCAyNTYgMFMwIDEwMC4zIDAgMjI0YzAgNzAuNyAzNy41IDEzMy44IDk2IDE3NC45TDk2IDQ2NGwwIDQ4IDQ4IDAgMjI0IDAgNDggMCAwLTQ4IDAtNjUuMXpNMjI0IDI1NmE1NiA1NiAwIDEgMCAtMTEyIDAgNTYgNTYgMCAxIDAgMTEyIDB6bTEyMCA1NmE1NiA1NiAwIDEgMCAwLTExMiA1NiA1NiAwIDEgMCAwIDExMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/skull.svg)
  */
 const Skull: typeof Icon = x => (
     <Icon {...x}>

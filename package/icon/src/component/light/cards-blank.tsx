@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cards-blank` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cards-blank?s=light cards-blank}
- * @preview ![cards-blank](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAyLjMgNDY4LjNjNi43IDExIDIwLjkgMTQuOCAzMi4xIDguNmwuMS0uMUw0MjcuNCAzNjUuNWwuMS0uMWMxMS4yLTYuNyAxNS0yMS4yIDguNC0zMi42TDI2OS4yIDQ0LjFjLTYuNi0xMS41LTIxLjMtMTUuNC0zMi44LTguOEw0NC4xIDE0Ni40Yy0xMS4zIDYuNS0xNS4zIDIwLjktOSAzMi4zbC4xIC4yIDE2NyAyODkuMyAuMSAuMnptLTI3LjUgMTYuNGMtLjItLjMtLjMtLjYtLjUtLjlMNy42IDE5NS4yYy0uMi0uMy0uMy0uNi0uNS0uOWMtMTQuOS0yNi41LTUuNy02MC4yIDIwLjctNzUuNUwyMjAuNyA3LjVjMjYuNi0xNS40IDYwLjctNi4zIDc2LjEgMjAuNGwxNjcgMjg5LjNjMTUuMyAyNi41IDYuMyA2MC4zLTIwIDc1LjhjLS4yIC4xLS41IC4zLS43IC40bC0xOTIuMyAxMTFjLS4yIC4xLS41IC4zLS43IC40Yy0yNi40IDE0LjktNTkuOCA2LTc1LjMtMjB6TTMyNC4xIDQ5OWwzMy4yLTE5LjFjLjkgLjEgMS44IC4yIDIuNyAuMmwyMjQgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNGwwLTMzNmMwLTEzLjMtMTAuNy0yNC0yNC0yNEwzNzMgOTYgMzU0LjcgNjQuMmMxLjctLjIgMy41LS4yIDUuMy0uMmwyMjQgMGMzMC45IDAgNTYgMjUuMSA1NiA1NmwwIDMzNmMwIDMwLjktMjUuMSA1Ni01NiA1NmwtMjI0IDBjLTEzLjcgMC0yNi4yLTQuOS0zNS45LTEzeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cards-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cards-blank.svg)
  */
 const CardsBlank: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

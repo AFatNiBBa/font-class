@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `blackberry` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blackberry?s=brands blackberry}
- * @preview ![blackberry](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTY2IDExNi45YzAgMjMuNC0xNi40IDQ5LjEtNzIuNSA0OS4xSDIzLjRsMjEtODguOGg2Ny44YzQyLjEgMCA1My44IDIzLjMgNTMuOCAzOS43em0xMjYuMi0zOS43aC02Ny44TDIwNS43IDE2Nmg3MC4xYzUzLjggMCA3MC4xLTI1LjcgNzAuMS00OS4xLjEtMTYuNC0xMS42LTM5LjctNTMuNy0zOS43ek04OC44IDIwOC4xSDIxTDAgMjk2LjloNzAuMWM1Ni4xIDAgNzIuNS0yMy40IDcyLjUtNDkuMSAwLTE2LjMtMTEuNy0zOS43LTUzLjgtMzkuN3ptMTgwLjEgMGgtNjcuOGwtMTguNyA4OC44aDcwLjFjNTMuOCAwIDcwLjEtMjMuNCA3MC4xLTQ5LjEgMC0xNi4zLTExLjctMzkuNy01My43LTM5Ljd6bTE4OS4zLTUzLjhoLTY3LjhsLTE4LjcgODguOGg3MC4xYzUzLjggMCA3MC4xLTIzLjQgNzAuMS00OS4xLjEtMTYuMy0xMS42LTM5LjctNTMuNy0zOS43em0tMjggMTM3LjloLTY3LjhMMzQzLjcgMzgxaDcwLjFjNTYuMSAwIDcwLjEtMjMuNCA3MC4xLTQ5LjEgMC0xNi4zLTExLjYtMzkuNy01My43LTM5Ljd6TTI0MC44IDM0NkgxNzNsLTE4LjcgODguOGg3MC4xYzU2LjEgMCA3MC4xLTI1LjcgNzAuMS00OS4xLjEtMTYuMy0xMS42LTM5LjctNTMuNy0zOS43eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![blackberry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/blackberry.svg)
  */
 const Blackberry: typeof Icon = x => (
     <Icon {...x}>

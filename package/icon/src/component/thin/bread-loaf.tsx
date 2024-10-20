@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bread-loaf` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-loaf?s=thin bread-loaf}
- * @preview ![bread-loaf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgMjQwYy0yNi41IDAtNDgtMjEuNS00OC00OGMwLTU0LjkgMzcuMi05MC42IDg2LjctMTEzLjVDMTUyLjIgNTUuNyAyMDkuOCA0OCAyNDAgNDhzODcuOCA3LjcgMTM3LjMgMzAuNUM0MjYuOCAxMDEuNCA0NjQgMTM3LjEgNDY0IDE5MmMwIDI2LjUtMjEuNSA0OC00OCA0OGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMTc2YzAgMTcuNy0xNC4zIDMyLTMyIDMybC00OCAwLTIwOCAwYy0xNy43IDAtMzItMTQuMy0zMi0zMmwwLTE3NmMwLTguOC03LjItMTYtMTYtMTZ6bTM1MiAxNmwxNDQgMCAwIDE3NmMwIDE3LjctMTQuMyAzMi0zMiAzMmwtMTI0LjIgMGM3LjYtOC41IDEyLjItMTkuNyAxMi4yLTMybDAtMTYwIDAtMTZ6bTE2MC0xNmwtOCAwLTEwOS43IDBjMTMuMy0xMS43IDIxLjctMjguOSAyMS43LTQ4YzAtODEuMS03MC43LTEyMy43LTEzOC44LTE0NEw0MDAgNDhjMzAuMiAwIDg3LjggNy43IDEzNy4zIDMwLjVDNTg2LjggMTAxLjQgNjI0IDEzNy4xIDYyNCAxOTJjMCAyNi41LTIxLjUgNDgtNDggNDhjMCAwIDAgMCAwIDB6bTAgMTZjMzUuMyAwIDY0LTI4LjcgNjQtNjRDNjQwIDY0IDQ2NCAzMiA0MDAgMzJMMjU2IDMybC0xNiAwQzE3NiAzMiAwIDY0IDAgMTkyYzAgMzUuMyAyOC43IDY0IDY0IDY0bDAgMTYgMCAxNjBjMCAyNi41IDIxLjUgNDggNDggNDhsMjA4IDAgNDggMCAxNjAgMGMyNi41IDAgNDgtMjEuNSA0OC00OGwwLTE2MCAwLTE2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bread-loaf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bread-loaf.svg)
  */
 const BreadLoaf: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

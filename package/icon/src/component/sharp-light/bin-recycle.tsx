@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `bin-recycle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-recycle?s=sharp-light bin-recycle}
- * @preview ![bin-recycle](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTQ0IDY0bDAgMzItMzIuMSAwTDY0LjEgOTYgMzIgOTZsMC0zMiA1MTIgMHpNMzIgMTI4bDIuNyAwTDY0IDQ4MGw0NDggMCAyOS4zLTM1MiAyLjcgMCAzMiAwIDAtMzIgMC0zMiAwLTMyLTMyIDBMMzIgMzIgMCAzMiAwIDY0IDAgOTZsMCAzMiAzMiAwem0zNC44IDBsNDQyLjQgMEw0ODIuNiA0NDggOTMuNCA0NDggNjYuOCAxMjh6TTI4OCAxOTJjNSAwIDkuNyAyLjQgMTIuNiA2LjRsMzkuOCA1NCAyNy4yLTE3LTQxLjItNTZjLTktMTIuMi0yMy4yLTE5LjQtMzguNC0xOS40cy0yOS40IDcuMi0zOC40IDE5LjRsLTQxLjIgNTYgMjcuMiAxNyAzOS44LTU0YzMtNCA3LjYtNi40IDEyLjYtNi40em0tOTguNyA2OS4yTDE1MyAzMTAuNWMtNS44IDcuOS05IDE3LjUtOSAyNy40YzAgMjUuNSAyMC42IDQ2LjEgNDYuMSA0Ni4xbDgxLjkgMCAwLTMyLTgxLjkgMGMtNy44IDAtMTQuMS02LjMtMTQuMS0xNC4xYzAtMyAxLTUuOSAyLjgtOC40bDM3LjgtNTEuMy0yNy4yLTE3ek0zMDQgMzg0bDgxLjkgMGMyNS41IDAgNDYuMS0yMC42IDQ2LjEtNDYuMWMwLTkuOC0zLjEtMTkuNC05LTI3LjRsLTM2LjQtNDkuMy0yNy4yIDE3IDM3LjggNTEuM2MxLjggMi40IDIuNyA1LjQgMi43IDguNGMwIDcuOC02LjMgMTQuMS0xNC4xIDE0LjFMMzA0IDM1MmwwIDMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![bin-recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bin-recycle.svg)
  */
 const BinRecycle: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

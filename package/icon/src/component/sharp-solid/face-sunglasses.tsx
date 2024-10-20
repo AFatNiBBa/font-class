@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `face-sunglasses` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sunglasses?s=sharp-solid face-sunglasses}
- * @preview ![face-sunglasses](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDUxMmMxNDEuNCAwIDI1Ni0xMTQuNiAyNTYtMjU2YzAtMzEuOC01LjgtNjIuMi0xNi40LTkwLjNsLjQtMS4zIDAtNC41IDAtMzIgMC0zMi0zMiAwLTguMSAwQzQwOC45IDM3LjUgMzM2LjggMCAyNTYgMFMxMDMuMSAzNy41IDU2LjEgOTZMNDggOTYgMTYgOTZsMCAzMiAwIDMyIDAgNC41IC40IDEuM0M1LjggMTkzLjggMCAyMjQuMiAwIDI1NkMwIDM5Ny40IDExNC42IDUxMiAyNTYgNTEyek0yMDggMjcyTDgwIDI3MiA0OCAxNjBsMC0zMiAxOTIgMCAwIDE2IDMyIDAgMC0xNiAxOTIgMCAwIDMyTDQzMiAyNzJsLTEyOCAwLTI3LjQtOTYtNDEuMSAwTDIwOCAyNzJ6bS03OC4zIDcxLjJsMjguNi0xNC4zYzguNyAxNy41IDQxLjMgNTUuMiA5Ny43IDU1LjJzODguOS0zNy43IDk3LjctNTUuMmwyOC42IDE0LjNDMzY5LjcgMzY4LjMgMzI3LjYgNDE2IDI1NiA0MTZzLTExMy43LTQ3LjctMTI2LjMtNzIuOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![face-sunglasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-sunglasses.svg)
  */
 const FaceSunglasses: typeof Icon = x => (
     <Icon {...x}>

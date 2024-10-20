@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hammer-war` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-war?s=sharp-thin hammer-war}
- * @preview ![hammer-war](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDBMMjA4IDAgMTc2IDAgMTYwIDBsMCAxNiAwIDE2IDAgMjQuOUw0OCAzMiAxNiAzMiAwIDMyIDAgNDggMCAyNzJsMCAxNiAxNiAwIDMyIDAgMTQ0LTMyIDE0NCAzMiAzMiAwIDE2IDAgMC0xNiAwLTIyNCAwLTE2LTE2IDAtMzIgMEwyMjQgNTYuOSAyMjQgMzJsMC0xNiAwLTE2ek0yMDggNjAuNEwxOTIgNjRsLTE2LTMuNkwxNzYgMzJsMC0xNiAzMiAwIDAgMTYgMCAyOC40em0xNiAyMzUuNGwtMTYtMy42TDIwOCA0ODBsMCAxNi0zMiAwIDAtMTYgMC0xODcuNy0xNiAzLjZMMTYwIDQ4MGwwIDE2IDAgMTYgMTYgMCAzMiAwIDE2IDAgMC0xNiAwLTE2IDAtMTg0LjF6bS0zNS41LTU1LjVMNDYuMiAyNzIgMTYgMjcyIDE2IDQ4bDMwLjIgMEwxODguNSA3OS42YzIuMyAuNSA0LjcgLjUgNi45IDBMMzM3LjggNDggMzY4IDQ4bDAgMjI0LTMwLjIgMEwxOTUuNSAyNDAuNGMtMi4zLS41LTQuNy0uNS02LjkgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![hammer-war](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hammer-war.svg)
  */
 const HammerWar: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

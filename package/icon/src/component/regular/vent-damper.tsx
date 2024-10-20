@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `vent-damper` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vent-damper?s=regular vent-damper}
- * @preview ![vent-damper](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDExMmM4LjggMCAxNiA3LjIgMTYgMTZsMCAyNTZjMCA4LjgtNy4yIDE2LTE2IDE2bC0zODQgMGMtOC44IDAtMTYtNy4yLTE2LTE2bDAtMjU2YzAtOC44IDcuMi0xNiAxNi0xNmwzODQgMHpNMTI4IDY0Yy0zNS4zIDAtNjQgMjguNy02NCA2NGwwIDMyLTMyIDBjLTE3LjcgMC0zMiAxNC4zLTMyIDMyTDAgMzIwYzAgMTcuNyAxNC4zIDMyIDMyIDMybDMyIDAgMCAzMmMwIDM1LjMgMjguNyA2NCA2NCA2NGwzODQgMGMzNS4zIDAgNjQtMjguNyA2NC02NGwwLTMyIDMyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xMjhjMC0xNy43LTE0LjMtMzItMzItMzJsLTMyIDAgMC0zMmMwLTM1LjMtMjguNy02NC02NC02NEwxMjggNjR6bTU2IDgwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDI3MiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0yNzIgMHptMCA4OGMtMTMuMyAwLTI0IDEwLjctMjQgMjRzMTAuNyAyNCAyNCAyNGwyNzIgMGMxMy4zIDAgMjQtMTAuNyAyNC0yNHMtMTAuNy0yNC0yNC0yNGwtMjcyIDB6bTAgODhjLTEzLjMgMC0yNCAxMC43LTI0IDI0czEwLjcgMjQgMjQgMjRsMjcyIDBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRsLTI3MiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![vent-damper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/vent-damper.svg)
  */
 const VentDamper: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

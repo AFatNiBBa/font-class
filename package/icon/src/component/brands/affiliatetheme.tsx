@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `affiliatetheme` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/affiliatetheme?s=brands affiliatetheme}
- * @preview ![affiliatetheme](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU5LjcgMjM3LjRDMTA4LjQgMzA4LjMgNDMuMSAzNDguMiAxNCAzMjYuNi0xNS4yIDMwNC45IDIuOCAyMzAgNTQuMiAxNTkuMWM1MS4zLTcwLjkgMTE2LjYtMTEwLjggMTQ1LjctODkuMiAyOS4xIDIxLjYgMTEuMSA5Ni42LTQwLjIgMTY3LjV6bTM1MS4yLTU3LjNDNDM3LjEgMzAzLjUgMzE5IDM2Ny44IDI0Ni40IDMyMy43Yy0yNS0xNS4yLTQxLjMtNDEuMi00OS03My44LTMzLjYgNjQuOC05Mi44IDExMy44LTE2NC4xIDEzMy4yIDQ5LjggNTkuMyAxMjQuMSA5Ni45IDIwNyA5Ni45IDE1MCAwIDI3MS42LTEyMy4xIDI3MS42LTI3NC45LjEtOC41LS4zLTE2LjgtMS0yNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![affiliatetheme](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/affiliatetheme.svg)
  */
 const Affiliatetheme: typeof Icon = x => (
     <Icon {...x}>

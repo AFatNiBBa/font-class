@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `camera-security` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-security?s=sharp-thin camera-security}
- * @preview ![camera-security](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMyIDE2bDAgMzg0LTk0LjIgMC0xOC4zIDAtMTkwLjkgMC0xOC4zIDBMMTYgNDAwIDE2IDE2bDQxNiAwek0xNiA0MTZsODUuMyAwTDU2LjkgNDk2IDQ4IDUxMmwxOC4zIDAgMzE1LjQgMCAxOC4zIDAtOC45LTE2LTQ0LjQtODAgODUuMyAwIDE2IDAgMC0xNiAwLTM4NCAwLTE2TDQzMiAwIDE2IDAgMCAwIDAgMTYgMCA0MDBsMCAxNiAxNiAwem01OS4yIDgwbDQ0LjQtODAgMjA4LjcgMCA0NC40IDgwTDc1LjIgNDk2ek0yMjQgMzM2YTEyOCAxMjggMCAxIDAgMC0yNTYgMTI4IDEyOCAwIDEgMCAwIDI1NnpNMTEyIDIwOGExMTIgMTEyIDAgMSAxIDIyNCAwIDExMiAxMTIgMCAxIDEgLTIyNCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![camera-security](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/camera-security.svg)
  */
 const CameraSecurity: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

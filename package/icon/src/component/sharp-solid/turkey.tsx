@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `turkey` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turkey?s=sharp-solid turkey}
- * @preview ![turkey](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTg0IDU2YzAgNS42LS44IDExLTIuMyAxNmMuOCAwIDEuNiAwIDIuMyAwYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2Yy0yMC4zIDAtMzgtMTAuOC00Ny45LTI2LjlsLTQ3LjYgMzMuNmMtMzAgMjEuMi00Ni41IDU1LjgtNjMgOTAuM2MwIDAgMCAwIDAgMGMtOC43IDE4LjItMTcuMyAzNi40LTI4IDUyLjVjLTYuMiA5LjQtMTMuOSAxOC4xLTIzLjIgMjUuNmMtNDguMSAzOC45LTExOC42IDMxLjUtMTU3LjUtMTYuNmMtMS4yLTEuNS0yLjQtMy0zLjUtNC42Yy04LjktMTIuMi0xNS0yNS43LTE4LjMtMzkuNmMtLjgtMy40LTEuNS02LjgtMi0xMC4zbC0zMi4zIDBjMi45IDI2LjQgMTMuMiA1Mi40IDMxLjIgNzQuNmM1MCA2MS44IDE0MC43IDcxLjQgMjAyLjUgMjEuNGMxMS44LTkuNiAyMS44LTIwLjcgMjkuOC0zMi45YzExLjgtMTggMjEuMy0zNy44IDI5LjctNTUuNGwuNC0uOWMxNy4zLTM2LjMgMzAuNi02Mi41IDUyLjUtNzcuOWwxLjctMS4yQzU0OC43IDI2Mi45IDU3NiAzMjEgNTc2IDM4NGwwIDEyOC0yODggMEwwIDUxMiAwIDM4NEMwIDIyNCAxNzYgOTYgMjg4IDk2YzM5LjkgMCA4Ny45IDE2LjIgMTMzLjEgNDQuM0w0ODYuOCA5NEM0NzcuNiA4NCA0NzIgNzAuNyA0NzIgNTZjMC0zMC45IDI1LjEtNTYgNTYtNTZzNTYgMjUuMSA1NiA1NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![turkey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/turkey.svg)
  */
 const Turkey: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

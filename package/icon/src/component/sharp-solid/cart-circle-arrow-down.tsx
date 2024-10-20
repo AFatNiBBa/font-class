@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cart-circle-arrow-down` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-arrow-down?s=sharp-solid cart-circle-arrow-down}
- * @preview ![cart-circle-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQgMEwwIDAgMCA0OGwyNCAwIDUyLjEgMCA2MC4zIDMxNi41IDMuNyAxOS41IDE5LjkgMCAxNjAuNyAwYy0uNS01LjMtLjctMTAuNi0uNy0xNmMwLTEwLjkgMS0yMS42IDIuOS0zMmwtMTQzIDAtOS4xLTQ4IDE2OC41IDBjMjkuMS01NyA4OC40LTk2IDE1Ni44LTk2YzEwIDAgMTkuNyAuOCAyOS4yIDIuNEw1NzYgMzIgMTIyIDMybC0yLjQtMTIuNUwxMTUuOSAwIDk2IDAgMjQgMHpNMTc2IDUxMmE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6bTMyMCAwYTE0NCAxNDQgMCAxIDAgMC0yODggMTQ0IDE0NCAwIDEgMCAwIDI4OHptNzguNi0xMzZsLTExLjMgMTEuMy01NiA1Nkw0OTYgNDU0LjZsLTExLjMtMTEuMy01Ni01Nkw0MTcuNCAzNzYgNDQwIDM1My40bDExLjMgMTEuM0w0ODAgMzkzLjRsMC04OS40IDAtMTYgMzIgMCAwIDE2IDAgODkuNCAyOC43LTI4LjdMNTUyIDM1My40IDU3NC42IDM3NnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cart-circle-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cart-circle-arrow-down.svg)
  */
 const CartCircleArrowDown: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

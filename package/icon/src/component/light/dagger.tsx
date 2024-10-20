@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dagger` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dagger?s=light dagger}
- * @preview ![dagger](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDE2YzAtOC44LTcuMi0xNi0xNi0xNnMtMTYgNy4yLTE2IDE2bDAgMTEyLTMyIDAtMzIgMC0zMiAwLTMyIDBjLTI2LjUgMC00OCAyMS41LTQ4IDQ4czIxLjUgNDggNDggNDhzNDgtMjEuNSA0OC00OGwwLTE2IDE2IDAgMzIgMCA0OCAwIDQ4IDAgMzIgMCAxNiAwIDAgMTZjMCAyNi41IDIxLjUgNDggNDggNDhzNDgtMjEuNSA0OC00OHMtMjEuNS00OC00OC00OGwtMzIgMC0zMiAwLTMyIDAtMzIgMCAwLTExMnpNNDggMTYwbDE2IDAgMCAxNmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6bTI3MiAwbDE2IDBjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNmwwLTE2ek0yNDAgMzk3LjljMCA0LjktMS41IDkuNy00LjMgMTMuOEwxOTIgNDc0LjFsLTQzLjctNjIuNGMtMi44LTQtNC4zLTguOC00LjMtMTMuOEwxNDQgMTkybC0zMiAwIDAgMjA1LjljMCAxMS41IDMuNSAyMi43IDEwLjEgMzIuMWw1MC4yIDcxLjdjNC41IDYuNCAxMS44IDEwLjIgMTkuNyAxMC4yczE1LjItMy44IDE5LjctMTAuMkwyNjEuOSA0MzBjNi42LTkuNCAxMC4xLTIwLjYgMTAuMS0zMi4xTDI3MiAxOTJsLTMyIDAgMCAyMDUuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dagger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dagger.svg)
  */
 const Dagger: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `credit-card` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/credit-card?s=thin credit-card}
- * @preview ![credit-card](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNjQgNDhDMzcuNSA0OCAxNiA2OS41IDE2IDk2bDAgMzIgNTQ0IDAgMC0zMmMwLTI2LjUtMjEuNS00OC00OC00OEw2NCA0OHpNMTYgMTQ0bDAgOTYgNTQ0IDAgMC05NkwxNiAxNDR6bTAgMTEybDAgMTYwYzAgMjYuNSAyMS41IDQ4IDQ4IDQ4bDQ0OCAwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMTYwTDE2IDI1NnpNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmw0NDggMGMzNS4zIDAgNjQgMjguNyA2NCA2NGwwIDMyMGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA0ODBjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6TTk2IDM2MGMwLTQuNCAzLjYtOCA4LThsODAgMGM0LjQgMCA4IDMuNiA4IDhzLTMuNiA4LTggOGwtODAgMGMtNC40IDAtOC0zLjYtOC04em0xMjggMGMwLTQuNCAzLjYtOCA4LThsMTQ0IDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTE0NCAwYy00LjQgMC04LTMuNi04LTh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![credit-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/credit-card.svg)
  */
 const CreditCard: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

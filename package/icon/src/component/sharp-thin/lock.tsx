@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock?s=sharp-thin lock}
- * @preview ![lock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTEyIDEyOGwwIDY0IDIyNCAwIDAtNjRjMC02MS45LTUwLjEtMTEyLTExMi0xMTJzLTExMiA1MC4xLTExMiAxMTJ6TTk2IDE5MmwwLTY0Qzk2IDU3LjMgMTUzLjMgMCAyMjQgMHMxMjggNTcuMyAxMjggMTI4bDAgNjQgODAgMCAxNiAwIDAgMTYgMCAyODggMCAxNi0xNiAwTDE2IDUxMiAwIDUxMmwwLTE2TDAgMjA4bDAtMTYgMTYgMCA4MCAwem0wIDE2bC04MCAwIDAgMjg4IDQxNiAwIDAtMjg4LTgwIDAtMTYgMC0yMjQgMC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lock.svg)
  */
 const Lock: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

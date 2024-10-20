@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `caret-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caret-up?s=light caret-up}
- * @preview ![caret-up](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU0LjQgMTYyLjJjMS40LTEuMyAzLjUtMi4yIDUuNi0yLjJzNC4yIC44IDUuNiAyLjJMMjg1LjggMjc1LjdjMS40IDEuMyAyLjIgMy4yIDIuMiA1LjJjMCAzLjktMy4yIDcuMS03LjEgNy4xTDM5LjEgMjg4Yy0zLjkgMC03LjEtMy4yLTcuMS03LjFjMC0yIC44LTMuOCAyLjItNS4yTDE1NC40IDE2Mi4yem0tMjItMjMuM0wxMi4zIDI1Mi40QzQuNCAyNTkuOCAwIDI3MC4xIDAgMjgwLjlDMCAzMDIuNSAxNy41IDMyMCAzOS4xIDMyMGwyNDEuNyAwYzIxLjYgMCAzOS4xLTE3LjUgMzkuMS0zOS4xYzAtMTAuOC00LjQtMjEuMS0xMi4zLTI4LjRMMTg3LjYgMTM4LjljLTcuNC03LTE3LjMtMTAuOS0yNy42LTEwLjlzLTIwLjEgMy45LTI3LjYgMTAuOXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![caret-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/caret-up.svg)
  */
 const CaretUp: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

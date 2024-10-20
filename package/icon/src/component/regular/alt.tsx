@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `alt` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alt?s=regular alt}
- * @preview ![alt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDY3LjkgMTIwLjRjNC42LTUuMyAxMS4yLTguNCAxOC4yLTguNEw2MTYgMTEyYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0TDQ4Ni4xIDY0Yy0yMSAwLTQxIDkuMi01NC43IDI1LjFMMTcyLjEgMzkxLjZjLTQuNiA1LjMtMTEuMiA4LjQtMTguMiA4LjRMMjQgNDAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDEyOS45IDBjMjEgMCA0MS05LjIgNTQuNy0yNS4xTDQ2Ny45IDEyMC40ek00NDAgNDAwYy0xMy4zIDAtMjQgMTAuNy0yNCAyNHMxMC43IDI0IDI0IDI0bDE3NiAwYzEzLjMgMCAyNC0xMC43IDI0LTI0cy0xMC43LTI0LTI0LTI0bC0xNzYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/alt.svg)
  */
 const Alt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

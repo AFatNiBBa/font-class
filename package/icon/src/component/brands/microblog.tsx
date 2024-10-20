@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `microblog` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microblog?s=brands microblog}
- * @preview ![microblog](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk5LjM2LDM2Mi4yM2MyOS40OS0zNC42OSw0Ny4xLTc4LjM0LDQ3LjEtMTI1Ljc5QzQ0Ni40NiwxMjMuNDksMzQ2Ljg2LDMyLDIyNCwzMlMxLjU0LDEyMy40OSwxLjU0LDIzNi40NCwxMDEuMTQsNDQwLjg3LDIyNCw0NDAuODdhMjM5LjI4LDIzOS4yOCwwLDAsMCw3OS40NC0xMy40NCw3LjE4LDcuMTgsMCwwLDEsOC4xMiwyLjU2YzE4LjU4LDI1LjA5LDQ3LjYxLDQyLjc0LDc5Ljg5LDQ5LjkyYTQuNDIsNC40MiwwLDAsMCw1LjIyLTMuNDMsNC4zNyw0LjM3LDAsMCwwLS44NS0zLjYyLDg3LDg3LDAsMCwxLDMuNjktMTEwLjY5Wk0zMjkuNTIsMjEyLjRsLTU3LjMsNDMuNDlMMjkzLDMyNC43NWE2LjUsNi41LDAsMCwxLTkuOTQsNy4yMkwyMjQsMjkwLjkyLDE2NC45NCwzMzJhNi41MSw2LjUxLDAsMCwxLTkuOTUtNy4yMmwyMC43OS02OC44Ni01Ny4zLTQzLjQ5YTYuNSw2LjUsMCwwLDEsMy44LTExLjY4bDcxLjg4LTEuNTEsMjMuNjYtNjcuOTJhNi41LDYuNSwwLDAsMSwxMi4yOCwwbDIzLjY2LDY3LjkyLDcxLjg4LDEuNTFhNi41LDYuNSwwLDAsMSwzLjg4LDExLjY4WiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![microblog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/microblog.svg)
  */
 const Microblog: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

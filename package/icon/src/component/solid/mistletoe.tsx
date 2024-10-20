@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mistletoe` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mistletoe?s=solid mistletoe}
- * @preview ![mistletoe](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzEyIDI0YzAtMTMuMy0xMC43LTI0LTI0LTI0cy0yNCAxMC43LTI0IDI0bDAgOTQuMS05OCA5OEw5MS4zIDIzMC40QzM4LjMgMjQwLjYgMCAyODcgMCAzNDFjMCA0MS40IDMzLjYgNzUgNzUgNzVjNTAuNSAwIDk0LjMtMzMuNSAxMDguMS04MS4yYzcuMiAxMC40IDE5LjMgMTcuMiAzMi45IDE3LjJjMjIuMSAwIDQwLTE3LjkgNDAtNDBzLTE3LjktNDAtNDAtNDBjLTcuOSAwLTE1LjMgMi4zLTIxLjUgNi4zbDUuNC0yOC4yTDI2NCAxODUuOWwwIDcyLjRjMTQuNyAxMy4yIDI0IDMyLjMgMjQgNTMuN2MwIDM5LjgtMzIuMiA3Mi03MiA3MmMtNy4yIDAtMTQuMi0xLjEtMjAuOC0zYy0yLjEgOC40LTMuMiAxNy4xLTMuMiAyNS45bDAgOS4xYzAgNTMgNDMgOTYgOTYgOTZzOTYtNDMgOTYtOTZsMC05LjFjMC0yNS4xLTktNDkuNC0yNS4zLTY4LjRMMzEyIDI4NGwwLTk4LjFMMzc2LjEgMjUwbDE0LjQgNzQuN0M0MDAuNiAzNzcuNyA0NDcgNDE2IDUwMSA0MTZjNDEuNCAwIDc1LTMzLjYgNzUtNzVjMC01NC0zOC4zLTEwMC4zLTkxLjMtMTEwLjVMNDEwIDIxNi4xbC05OC05OEwzMTIgMjR6bTY0IDg4YTQwIDQwIDAgMSAwIDAtODAgNDAgNDAgMCAxIDAgMCA4MHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![mistletoe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mistletoe.svg)
  */
 const Mistletoe: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

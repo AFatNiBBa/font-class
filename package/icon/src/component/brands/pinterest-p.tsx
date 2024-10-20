@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `pinterest-p` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pinterest-p?s=brands pinterest-p}
- * @preview ![pinterest-p](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA0IDYuNUMxMDEuNCA2LjUgMCA3NC45IDAgMTg1LjYgMCAyNTYgMzkuNiAyOTYgNjMuNiAyOTZjOS45IDAgMTUuNi0yNy42IDE1LjYtMzUuNCAwLTkuMy0yMy43LTI5LjEtMjMuNy02Ny44IDAtODAuNCA2MS4yLTEzNy40IDE0MC40LTEzNy40IDY4LjEgMCAxMTguNSAzOC43IDExOC41IDEwOS44IDAgNTMuMS0yMS4zIDE1Mi43LTkwLjMgMTUyLjctMjQuOSAwLTQ2LjItMTgtNDYuMi00My44IDAtMzcuOCAyNi40LTc0LjQgMjYuNC0xMTMuNCAwLTY2LjItOTMuOS01NC4yLTkzLjkgMjUuOCAwIDE2LjggMi4xIDM1LjQgOS42IDUwLjctMTMuOCA1OS40LTQyIDE0Ny45LTQyIDIwOS4xIDAgMTguOSAyLjcgMzcuNSA0LjUgNTYuNCAzLjQgMy44IDEuNyAzLjQgNi45IDEuNSA1MC40LTY5IDQ4LjYtODIuNSA3MS40LTE3Mi44IDEyLjMgMjMuNCA0NC4xIDM2IDY5LjMgMzYgMTA2LjIgMCAxNTMuOS0xMDMuNSAxNTMuOS0xOTYuOEMzODQgNzEuMyAyOTguMiA2LjUgMjA0IDYuNXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![pinterest-p](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pinterest-p.svg)
  */
 const PinterestP: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

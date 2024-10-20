@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `message-music` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-music?s=sharp-duotone-solid message-music}
- * @preview ![message-music](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDBMNTEyIDBsMCA0MTYtMjA4IDBMMTYwIDUxMmwwLTk2TDAgNDE2IDAgMHpNMTI4IDI4OGMwIDE3LjcgMjEuNSAzMiA0OCAzMnM0OC0xNC4zIDQ4LTMybDAtMTAwLjkgOTYtMzYgMCA3NC43Yy01LTEuMi0xMC40LTEuOC0xNi0xLjhjLTI2LjUgMC00OCAxNC4zLTQ4IDMyczIxLjUgMzIgNDggMzJzNDgtMTQuMyA0OC0zMmwwLTEyOCAwLTMyIDAtMjMuMUwzMzAuNCA4MWwtMTI4IDQ4TDE5MiAxMzIuOWwwIDExLjEgMCAzMiAwIDgxLjhjLTUtMS4yLTEwLjQtMS44LTE2LTEuOGMtMjYuNSAwLTQ4IDE0LjMtNDggMzJ6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0zNTIgNzIuOUwzNTIgOTZsMCAzMiAwIDEyOGMwIDE3LjctMjEuNSAzMi00OCAzMnMtNDgtMTQuMy00OC0zMnMyMS41LTMyIDQ4LTMyYzUuNiAwIDExIC42IDE2IDEuOGwwLTc0LjctOTYgMzZMMjI0IDI4OGMwIDE3LjctMjEuNSAzMi00OCAzMnMtNDgtMTQuMy00OC0zMnMyMS41LTMyIDQ4LTMyYzUuNiAwIDExIC42IDE2IDEuOGwwLTgxLjggMC0zMiAwLTExLjEgMTAuNC0zLjkgMTI4LTQ4TDM1MiA3Mi45eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![message-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/message-music.svg)
  */
 const MessageMusic: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 0L512 0l0 416-208 0L160 512l0-96L0 416 0 0zM128 288c0 17.7 21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32 0-23.1L330.4 81l-128 48L192 132.9l0 11.1 0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32z" />
-            <path d="M352 72.9L352 96l0 32 0 128c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-74.7-96 36L224 288c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-81.8 0-32 0-11.1 10.4-3.9 128-48L352 72.9z" />
+        <path d="M352 72.9L352 96l0 32 0 128c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-74.7-96 36L224 288c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-81.8 0-32 0-11.1 10.4-3.9 128-48L352 72.9z" />
     </Icon>
 );
 

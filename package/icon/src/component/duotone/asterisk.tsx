@@ -4,7 +4,7 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `asterisk` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/asterisk?s=duotone asterisk}
- * @preview ![asterisk](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0xOTIgMzJjMTcuNyAwIDMyIDE0LjMgMzIgMzJsMCAxMzUuNSAxMTEuNS02Ni45YzE1LjItOS4xIDM0LjgtNC4yIDQzLjkgMTFzNC4yIDM0LjgtMTEgNDMuOUwyNTQuMiAyNTZsMTE0LjMgNjguNmMxNS4yIDkuMSAyMC4xIDI4LjcgMTEgNDMuOXMtMjguNyAyMC4xLTQzLjkgMTFMMjI0IDMxMi41IDIyNCA0NDhjMCAxNy43LTE0LjMgMzItMzIgMzJzLTMyLTE0LjMtMzItMzJsMC0xMzUuNUw0OC41IDM3OS40Yy0xNS4yIDkuMS0zNC44IDQuMi00My45LTExcy00LjItMzQuOCAxMS00My45TDEyOS44IDI1NiAxNS41IDE4Ny40Yy0xNS4yLTkuMS0yMC4xLTI4LjctMTEtNDMuOXMyOC43LTIwLjEgNDMuOS0xMUwxNjAgMTk5LjUgMTYwIDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMyeiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSIiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![asterisk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/asterisk.svg)
  */
 const Asterisk: typeof Icon = x => (
     <Icon viewBox="0 0 384 512" {...x}>

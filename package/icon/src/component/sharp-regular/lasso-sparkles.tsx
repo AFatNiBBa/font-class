@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `lasso-sparkles` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lasso-sparkles?s=sharp-regular lasso-sparkles}
- * @preview ![lasso-sparkles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjkxLjMgMGMtMS4xIDAtMi4yIDAtMy4zIDBDMTI4LjkgMCAwIDc4LjggMCAxNzZjMCA2MC42IDUwLjIgMTE0LjEgMTI2LjYgMTQ1LjhsNDQuMyAyMC41YzIyLjYgMTAuNCAzNy4xIDMzIDM3LjEgNTcuOWMwIDM1LjItMjguNiA2My44LTYzLjggNjMuOEw1NiA0NjRsLTI0IDAgMCA0OCAyNCAwIDg4LjIgMEMyMDUuOSA1MTIgMjU2IDQ2MS45IDI1NiA0MDAuMmMwLTE3LjgtNC4yLTM0LjktMTEuOS01MC4yYzE0LjMgMS4zIDI5IDIgNDMuOSAyYzE1OS4xIDAgMjg4LTc4LjggMjg4LTE3NmMwLTc2LjItNzkuMi0xNDEuMS0xOTAuMS0xNjUuNmw2LjUgMTMuMUw0NDkgNTEuOGwwIDI5LjNjNDguNSAyMy40IDc5IDU3LjMgNzkgOTQuOWMwIDcwLjctMTA3LjUgMTI4LTI0MCAxMjhTNDggMjQ2LjcgNDggMTc2YzAtNTguMSA3Mi43LTEwNy4yIDE3Mi4yLTEyMi44bDU5LjMtMjkuN0wyOTEuMyAwek00NjkuMyA0MDUuM0w0MTYgNDMybDUzLjMgMjYuN0w0OTYgNTEybDI2LjctNTMuM0w1NzYgNDMybC01My4zLTI2LjdMNDk2IDM1MmwtMjYuNyA1My4zek0zMzYgMEwzMDkuMyA1My4zIDI1NiA4MGw1My4zIDI2LjdMMzM2IDE2MGwyNi43LTUzLjNMNDE2IDgwIDM2Mi43IDUzLjMgMzM2IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![lasso-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lasso-sparkles.svg)
  */
 const LassoSparkles: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

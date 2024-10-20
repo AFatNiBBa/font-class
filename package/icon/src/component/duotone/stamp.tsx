@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `stamp` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stamp?s=duotone stamp}
- * @preview ![stamp](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0zMiA0MTZsOCAwIDU2IDAgMCAzMiAzMjAgMCAwLTMyIDU2IDAgOCAwIDAgNDhjMCAyNi41LTIxLjUgNDgtNDggNDhMODAgNTEyYy0yNi41IDAtNDgtMjEuNS00OC00OGwwLTQ4eiIvPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBkPSJNMzEyIDIwMS44YzAtMTcuNCA5LjItMzMuMiAxOS45LTQ3QzM0NC41IDEzOC41IDM1MiAxMTguMSAzNTIgOTZjMC01My00My05Ni05Ni05NnMtOTYgNDMtOTYgOTZjMCAyMi4xIDcuNSA0Mi41IDIwLjEgNTguOGMxMC43IDEzLjggMTkuOSAyOS42IDE5LjkgNDdjMCAyOS45LTI0LjMgNTQuMi01NC4yIDU0LjJMMTEyIDI1NkM1MC4xIDI1NiAwIDMwNi4xIDAgMzY4bDAgOGMwIDIyLjEgMTcuOSA0MCA0MCA0MGw0MzIgMGMyMi4xIDAgNDAtMTcuOSA0MC00MGwwLThjMC02MS45LTUwLjEtMTEyLTExMi0xMTJsLTMzLjggMGMtMjkuOSAwLTU0LjItMjQuMy01NC4yLTU0LjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![stamp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/stamp.svg)
  */
 const Stamp: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M32 416l8 0 56 0 0 32 320 0 0-32 56 0 8 0 0 48c0 26.5-21.5 48-48 48L80 512c-26.5 0-48-21.5-48-48l0-48z" />
-            <path d="M312 201.8c0-17.4 9.2-33.2 19.9-47C344.5 138.5 352 118.1 352 96c0-53-43-96-96-96s-96 43-96 96c0 22.1 7.5 42.5 20.1 58.8c10.7 13.8 19.9 29.6 19.9 47c0 29.9-24.3 54.2-54.2 54.2L112 256C50.1 256 0 306.1 0 368l0 8c0 22.1 17.9 40 40 40l432 0c22.1 0 40-17.9 40-40l0-8c0-61.9-50.1-112-112-112l-33.8 0c-29.9 0-54.2-24.3-54.2-54.2z" />
+        <path d="M312 201.8c0-17.4 9.2-33.2 19.9-47C344.5 138.5 352 118.1 352 96c0-53-43-96-96-96s-96 43-96 96c0 22.1 7.5 42.5 20.1 58.8c10.7 13.8 19.9 29.6 19.9 47c0 29.9-24.3 54.2-54.2 54.2L112 256C50.1 256 0 306.1 0 368l0 8c0 22.1 17.9 40 40 40l432 0c22.1 0 40-17.9 40-40l0-8c0-61.9-50.1-112-112-112l-33.8 0c-29.9 0-54.2-24.3-54.2-54.2z" />
     </Icon>
 );
 

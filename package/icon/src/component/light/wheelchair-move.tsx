@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `wheelchair-move` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheelchair-move?s=light wheelchair-move}
- * @preview ![wheelchair-move](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzY4IDgwYTI0IDI0IDAgMSAwIDAtNDggMjQgMjQgMCAxIDAgMCA0OHptMC04MGE1NiA1NiAwIDEgMSAwIDExMkE1NiA1NiAwIDEgMSAzNjggMHpNMTk5LjUgMTA2LjljLTExLjktNC45LTI1LjYtMi4xLTM0LjcgN2wtNDEuNCA0MS40Yy02LjIgNi4yLTE2LjQgNi4yLTIyLjYgMHMtNi4yLTE2LjQgMC0yMi42bDQxLjQtNDEuNGMxOC4yLTE4LjIgNDUuNi0yMy43IDY5LjUtMTRMMzEzLjUgMTE5YzMxLjcgMTMgNDAgNTQuMSAxNS44IDc4LjRsLTQ5LjEgNDkuMWM2LjkgNy45IDEzLjEgMTYuNCAxOC40IDI1LjZsMTEzLjUgMGMyMC41IDAgMzUuNyAxOSAzMS4yIDM4LjlMNDE1LjYgNDM1LjVjLTEuOSA4LjYtMTAuNSAxNC4xLTE5LjEgMTIuMXMtMTQuMS0xMC41LTEyLjEtMTkuMUw0MTIuMSAzMDRsLTk5LjQgMGM0LjggMTUuMiA3LjMgMzEuMyA3LjMgNDhjMCA4OC40LTcxLjYgMTYwLTE2MCAxNjBTMCA0NDAuNCAwIDM1MnM3MS42LTE2MCAxNjAtMTYwYzUuNiAwIDExLjEgLjMgMTYuNSAuOGw2Ny43LTY3LjctNDQuNy0xOC4zem0xMDcuMiA2Ny44YzguMS04LjEgNS4zLTIxLjgtNS4zLTI2LjFsLTI1LjEtMTAuMy02Mi44IDYyLjhjMTUuNyA1LjYgMzAuMyAxMy41IDQzLjMgMjMuNGw0OS45LTQ5Ljl6TTE2MCA0ODBhMTI4IDEyOCAwIDEgMCAwLTI1NiAxMjggMTI4IDAgMSAwIDAgMjU2eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![wheelchair-move](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/wheelchair-move.svg)
  */
 const WheelchairMove: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

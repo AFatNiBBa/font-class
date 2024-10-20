@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `steam-symbol` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/steam-symbol?s=brands steam-symbol}
- * @preview ![steam-symbol](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzk1LjUgMTc3LjVjMCAzMy44LTI3LjUgNjEtNjEgNjEtMzMuOCAwLTYxLTI3LjMtNjEtNjFzMjcuMy02MSA2MS02MWMzMy41IDAgNjEgMjcuMiA2MSA2MXptNTIuNS4yYzAgNjMtNTEgMTEzLjgtMTEzLjcgMTEzLjhMMjI1IDM3MS4zYy00IDQzLTQwLjUgNzYuOC04NC41IDc2LjgtNDAuNSAwLTc0LjctMjguOC04My02N0wwIDM1OFYyNTAuN0w5Ny4yIDI5MGMxNS4xLTkuMiAzMi4yLTEzLjMgNTItMTEuNWw3MS0xMDEuN2MuNS02Mi4zIDUxLjUtMTEyLjggMTE0LTExMi44QzM5NyA2NCA0NDggMTE1IDQ0OCAxNzcuN3pNMjAzIDM2M2MwLTM0LjctMjcuOC02Mi41LTYyLjUtNjIuNS00LjUgMC05IC41LTEzLjUgMS41bDI2IDEwLjVjMjUuNSAxMC4yIDM4IDM5IDI3LjcgNjQuNS0xMC4yIDI1LjUtMzkuMiAzOC02NC43IDI3LjUtMTAuMi00LTIwLjUtOC4zLTMwLjctMTIuMiAxMC41IDE5LjcgMzEuMiAzMy4yIDU1LjIgMzMuMiAzNC43IDAgNjIuNS0yNy44IDYyLjUtNjIuNXptMjA3LjUtMTg1LjNjMC00Mi0zNC4zLTc2LjItNzYuMi03Ni4yLTQyLjMgMC03Ni41IDM0LjItNzYuNSA3Ni4yIDAgNDIuMiAzNC4zIDc2LjIgNzYuNSA3Ni4yIDQxLjkuMSA3Ni4yLTMzLjkgNzYuMi03Ni4yeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![steam-symbol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/steam-symbol.svg)
  */
 const SteamSymbol: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

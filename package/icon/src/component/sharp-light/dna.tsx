@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dna` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dna?s=sharp-light dna}
- * @preview ![dna](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDE2IDBsMCAxNmMwIDEyMC4yLTk0LjIgMTg4LjYtMTc5LjcgMjUwLjlsLTIuOCAyLjFjLTM3LjggMjcuNS03My45IDU0LTEwMi45IDgzLjFsMTg3IDBjLTE5LjgtMTkuOC00Mi44LTM4LjQtNjcuNS01N2MzLjItMi4zIDYuNC00LjYgOS43LTYuOWM1LjktNC4yIDExLjctOC40IDE3LjYtMTIuN0MzNDkuNCAzMzAuNCA0MTYgMzk0LjkgNDE2IDQ5NmwwIDE2LTMyIDAgMC0xNmMwLTUuNS0uMi0xMC44LS43LTE2TDY0LjcgNDgwYy0uNCA1LjItLjcgMTAuNS0uNyAxNmwwIDE2LTMyIDAgMC0xNmMwLTExMy4yIDgzLjYtMTgwLjUgMTY0LjgtMjQwQzExNS42IDE5Ni41IDMyIDEyOS4yIDMyIDE2TDMyIDAgNjQgMGwwIDE2YzAgNS41IC4yIDEwLjggLjcgMTZsMzE4LjcgMGMuNC01LjIgLjctMTAuNSAuNy0xNmwwLTE2IDMyIDB6TTM3Ny42IDY0TDcwLjQgNjRjNi41IDIzLjQgMTcuNiA0NC41IDMyLjIgNjRsMjQyLjkgMGMxNC42LTE5LjUgMjUuNy00MC42IDMyLjItNjR6bS02MC4xIDk2bC0xODcgMGMyNi42IDI2LjcgNTkuMSA1MS4xIDkzLjUgNzYuMmMzNC40LTI1LjEgNjYuOS00OS41IDkzLjUtNzYuMnpNNzAuNCA0NDhsMzA3LjMgMGMtNi41LTIzLjUtMTcuNi00NC41LTMyLjItNjQuMWMtLjUgMC0uOSAuMS0xLjQgLjFsLTI0MCAwYy0uNSAwLS45IDAtMS40LS4xQzg4IDQwMy41IDc2LjggNDI0LjUgNzAuNCA0NDh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![dna](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/dna.svg)
  */
 const Dna: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-xml` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-xml?s=sharp-solid file-xml}
- * @preview ![file-xml](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAwTDIyNCAwbDAgMTYwIDE2MCAwIDAgMTQ0LTI3MiAwIDAgMjA4TDAgNTEyIDAgMHpNMzg0IDEyOGwtMTI4IDBMMjU2IDAgMzg0IDEyOHptMzIgMjI0bDAgMTYgMCAxMjggMCAxNi0zMiAwIDAtMTYgMC03NC4yLTE3LjkgMzMuNy0xMy45IDI2LjItMTQuMy0yNkwzMjAgNDIzbDAgNzMgMCAxNi0zMiAwIDAtMTYgMC0xMjggMC0xNiAxNiAwIDQgMCA5LjUgMCA0LjYgOC4zIDI5LjcgNTQgMjguNS01My44IDQuNS04LjUgOS42IDAgNS42IDAgMTYgMHptLTIyNCAwbDAgMTZjMCA3LjMgMi4yIDE0LjQgNi4yIDIwLjRsOS44IDE0LjcgOS44LTE0LjdjNC02LjEgNi4yLTEzLjIgNi4yLTIwLjRsMC0xNiAzMiAwIDAgMTZjMCAxMy42LTQgMjYuOS0xMS42IDM4LjJMMjI3LjIgNDMybDE3LjIgMjUuOEMyNTIgNDY5LjEgMjU2IDQ4Mi40IDI1NiA0OTZsMCAxNi0zMiAwIDAtMTZjMC03LjMtMi4yLTE0LjQtNi4yLTIwLjRMMjA4IDQ2MC44bC05LjggMTQuN2MtNCA2LjEtNi4yIDEzLjItNi4yIDIwLjRsMCAxNi0zMiAwIDAtMTZjMC0xMy42IDQtMjYuOSAxMS42LTM4LjJMMTg4LjggNDMybC0xNy4yLTI1LjhDMTY0IDM5NC45IDE2MCAzODEuNiAxNjAgMzY4bDAtMTYgMzIgMHpNNDQ4IDUxMmwwLTE2IDAtMTI4IDAtMTYgMzIgMCAwIDE2IDAgMTEyIDE2IDAgMTYgMCAwIDMyLTE2IDAtMzIgMC0xNiAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![file-xml](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-xml.svg)
  */
 const FileXml: typeof Icon = x => (
     <Icon {...x}>

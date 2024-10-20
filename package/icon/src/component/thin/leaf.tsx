@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `leaf` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf?s=thin leaf}
- * @preview ![leaf](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTE0LjYgMjQzLjFDMTQwLjUgMjMwLjggMTY5LjUgMjI0IDIwMCAyMjRsMTEyIDBjNC40IDAgOCAzLjYgOCA4cy0zLjYgOC04IDhsLTExMiAwYy0zMS44IDAtNjEuNiA4LTg3LjcgMjIuMmMtLjIgMy4yLS4zIDYuNS0uMyA5LjhjMCA4OC40IDcxLjYgMTYwIDE2MCAxNjBjMCAwIDAgMCAwIDBsLjkgMEMzOTMuNSA0MzEuNCA0OTYgMzExLjMgNDk2IDE1Ni42YzAtMzUuMS01LjMtNjguNS0xNS05OS4zQzQ1Ny44IDkwLjMgNDE5LjUgMTEyIDM3NiAxMTJsLTEwNCAwYy03OC41IDAtMTQzLjggNTYuNS0xNTcuNCAxMzEuMXptLTE3LjUgOS40QzEwNi44IDE2NC41IDE4MS40IDk2IDI3MiA5NmwxMDQgMGM0Mi43IDAgNzkuOS0yMy45IDk4LjgtNTkuMWMzLjUtNi41IDEzLjYtNi44IDE2LjIgLjFjMTMuNSAzNi41IDIxLjEgNzcgMjEuMSAxMTkuNkM1MTIgMzE3LjEgNDA1LjEgNDQ3LjMgMjczIDQ0OGwtMSAwYy05Ny4xIDAtMTc1LjktNzguNy0xNzYtMTc1LjhDNDcuNyAzMDUuNCAxNiAzNjEgMTYgNDI0bDAgNDhjMCA0LjQtMy42IDgtOCA4cy04LTMuNi04LThsMC00OGMwLTcyLjggMzguOS0xMzYuNSA5Ny4xLTE3MS41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![leaf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/leaf.svg)
  */
 const Leaf: typeof Icon = x => (
     <Icon {...x}>

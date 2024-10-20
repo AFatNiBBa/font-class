@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `circle-up-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-up-right?s=sharp-thin circle-up-right}
- * @preview ![circle-up-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ5NmEyNDAgMjQwIDAgMSAwIDAtNDgwIDI0MCAyNDAgMCAxIDAgMCA0ODB6TTI1NiAwYTI1NiAyNTYgMCAxIDEgMCA1MTJBMjU2IDI1NiAwIDEgMSAyNTYgMHpNMTk1LjMgMTc5LjNMMTg0IDE2OGwxMS4zLTExLjNMMjA4IDE0NGwxNDQgMCAxNiAwIDAgMTYgMCAxNDQtMTIuNyAxMi43TDM0NCAzMjhsLTExLjMtMTEuMy0yNS40LTI1LjRMMjk2IDI4MGwtMTEuMyAxMS4zLTczLjQgNzMuNEwyMDAgMzc2bC0xMS4zLTExLjMtNDEuNC00MS40TDEzNiAzMTJsMTEuMy0xMS4zIDczLjQtNzMuNEwyMzIgMjE2bC0xMS4zLTExLjMtMjUuNC0yNS40em00OCA0OEwxNTguNiAzMTIgMjAwIDM1My40bDg0LjctODQuN0wyOTYgMjU3LjRsMTEuMyAxMS4zTDM0NCAzMDUuNGw4LThMMzUyIDE2MGwtMTM3LjQgMC04IDggMzYuNyAzNi43TDI1NC42IDIxNmwtMTEuMyAxMS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![circle-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-up-right.svg)
  */
 const CircleUpRight: typeof Icon = x => (
     <Icon {...x}>

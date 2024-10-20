@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `tornado` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tornado?s=sharp-light tornado}
- * @preview ![tornado](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDEyMi42YzAgMTMuOSA0LjUgMjcuNCAxMi44IDM4LjVsNTUuNiA3NC4yYzE3LjkgMjMuOCAyNy41IDUyLjggMjcuNSA4Mi42YzAgNDEuOC0xOSA4MS4zLTUxLjYgMTA3LjRsLTcwLjkgNTYuN0wyODggNTEybDcuOS00Ny4zIDItMTEuOGM0LTI0IC4zLTQ4LjctMTAuNi03MC41Yy0xMC0xOS45LTI1LjUtMzYuNS00NC42LTQ3LjhMMTI2LjIgMjY2LjJDNDggMjIwLjIgMCAxMzYuMyAwIDQ1LjZMMCAzMiAwIDAgMzIgMCAzODQgMGwzMiAwIDAgMzJMMzcwLjggNzcuMmMtMTIgMTItMTguOCAyOC40LTE4LjggNDUuNHptMjQuNCAyNzcuN2MyNS0yMCAzOS42LTUwLjQgMzkuNi04Mi41YzAtNC43LS4zLTkuMy0uOS0xMy45bC0xNjEuNiAwIDUuMyAzLjFjMjQuNSAxNC40IDQ0LjMgMzUuNiA1NyA2MWMxMC42IDIxLjIgMTUuOSA0NC42IDE1LjUgNjguMWw0NS0zNnpNNDA1LjUgMjcyYy0zLTYuMS02LjUtMTItMTAuNi0xNy41bC01NS42LTc0LjJjLTQuNy02LjMtOC42LTEzLjEtMTEuNy0yMC4zTDYzLjQgMTYwYzE5IDMxLjkgNDUuOSA1OS4yIDc5IDc4LjdMMjAwIDI3Mi41bDAtLjUgMjA1LjUgMHpNMzIwIDEyMi42YzAtMjUuNSAxMC4xLTUwIDI4LjItNjhMMzcwLjcgMzIgMzIgMzJsMCAxMy42YzAgMjguNyA1LjUgNTYuNiAxNS43IDgyLjRsMjcyLjQgMGMtLjEtMS44LS4yLTMuNi0uMi01LjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![tornado](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tornado.svg)
  */
 const Tornado: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

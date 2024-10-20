@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `up-right-from-square` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-right-from-square?s=light up-right-from-square}
- * @preview ![up-right-from-square](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDMzYzAtMTguMiAxNC44LTMzIDMzLTMzTDQ4MCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMybDAgMTI3YzAgMTguMi0xNC44IDMzLTMzIDMzYy04LjcgMC0xNy4xLTMuNS0yMy4zLTkuN0w0MDQgMTMwLjYgMjM1LjMgMjk5LjNjLTYuMiA2LjItMTYuNCA2LjItMjIuNiAwcy02LjItMTYuNCAwLTIyLjZMMzgxLjQgMTA4IDMyOS43IDU2LjNDMzIzLjUgNTAuMSAzMjAgNDEuNyAzMjAgMzN6bTMzLTFjLS41IDAtMSAuNC0xIDFjMCAuMyAuMSAuNSAuMyAuN0w0NzguMyAxNTkuN2MuMiAuMiAuNCAuMyAuNyAuM2MuNSAwIDEtLjQgMS0xbDAtMTI3TDM1MyAzMnpNMCA5NkMwIDYwLjcgMjguNyAzMiA2NCAzMmwxNDQgMGM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkw2NCA2NEM0Ni4zIDY0IDMyIDc4LjMgMzIgOTZsMCAzNTJjMCAxNy43IDE0LjMgMzIgMzIgMzJsMzUyIDBjMTcuNyAwIDMyLTE0LjMgMzItMzJsMC0xNDRjMC04LjggNy4yLTE2IDE2LTE2czE2IDcuMiAxNiAxNmwwIDE0NGMwIDM1LjMtMjguNyA2NC02NCA2NEw2NCA1MTJjLTM1LjMgMC02NC0yOC43LTY0LTY0TDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![up-right-from-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/up-right-from-square.svg)
  */
 const UpRightFromSquare: typeof Icon = x => (
     <Icon {...x}>

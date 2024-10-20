@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-slash?s=light trash-slash}
- * @preview ![trash-slash](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA5LjcgOTZMNTI4IDk2YzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xNiAwLTMyLjEgMC00NyAwTDQwNyAyMi42QzM5OC4yIDguNSAzODIuOCAwIDM2Ni4zIDBMMjczLjcgMEMyNTcuMiAwIDI0MS44IDguNSAyMzMgMjIuNkwyMDcuMSA2NGwtMjcgMCA0MC41IDMyIDI1NyAwTDQ2My45IDI4OC4xbDMwLjQgMjRMNTA5LjcgOTZ6TTQ1Mi45IDQ0Mi41bC0uNiA3LjhDNDUxLjEgNDY3IDQzNy4yIDQ4MCA0MjAuNCA0ODBsLTIwMC44IDBjLTE2LjggMC0zMC43LTEzLTMxLjktMjkuN0wxNzEuMiAyMjAuMWwtMzQtMjYuOCAxOC41IDI1OS4zYzIuNCAzMy41IDMwLjMgNTkuNCA2My44IDU5LjRsMjAwLjggMGMyOS4xIDAgNTQtMTkuNSA2MS42LTQ2LjZsLTI5LjEtMjN6TTI3My43IDMybDkyLjUgMGM1LjUgMCAxMC42IDIuOCAxMy42IDcuNUwzOTUuMSA2NCAyNDQuOSA2NGwxNS4zLTI0LjVjMi45LTQuNyA4LjEtNy41IDEzLjYtNy41ek0yNS45IDMuNEMxOS0yIDguOS0uOCAzLjQgNi4xUy0uOCAyMy4xIDYuMSAyOC42bDYwOCA0ODBjNi45IDUuNSAxNyA0LjMgMjIuNS0yLjZzNC4zLTE3LTIuNi0yMi41TDI1LjkgMy40eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![trash-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/trash-slash.svg)
  */
 const TrashSlash: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

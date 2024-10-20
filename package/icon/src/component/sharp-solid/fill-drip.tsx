@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `fill-drip` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fill-drip?s=sharp-solid fill-drip}
- * @preview ![fill-drip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAyNzJsNDUuMyA0NS4zTDE5NC43IDQ2Ni43IDI0MCA1MTJsNDUuMy00NS4zTDQ2Ni43IDI4NS4zIDUxMiAyNDBsLTQ1LjMtNDUuM0wzMTcuMyA0NS4zIDI3MiAwIDIyNi43IDQ1LjNsLTYwLjEgNjAuMS04MC04MEw2NCAyLjcgMTguNyA0OCA0MS40IDcwLjZsODAgODBMNDUuMyAyMjYuNyAwIDI3MnptMTg1LjQtNTcuNEwyMDggMjM3LjMgMjUzLjMgMTkybC0yMi42LTIyLjYtMTguNy0xOC43TDI3MiA5MC41IDQyMS41IDI0MGwtNDggNDgtMjY3IDAtMTYtMTYgNzYuMS03Ni4xIDE4LjcgMTguN3pNNTEyIDMyMGwtNTUuNyA5Ny40Yy01LjUgOS42LTguMyAyMC40LTguMyAzMS40YzAgMzQuOSAyOC4zIDYzLjIgNjMuMiA2My4ybDEuNiAwYzM0LjkgMCA2My4yLTI4LjMgNjMuMi02My4yYzAtMTEtMi45LTIxLjgtOC4zLTMxLjRMNTEyIDMyMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![fill-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fill-drip.svg)
  */
 const FillDrip: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

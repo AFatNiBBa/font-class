@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cloudsmith` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloudsmith?s=brands cloudsmith}
- * @preview ![cloudsmith](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTEyIDIyNy42djU2LjlMMjg0LjQgNTEySDIyNy42TDAgMjg0LjRWMjI3LjZMMjI3LjYgMGg1Ni45TDUxMiAyMjcuNnptLTI1NiAxNjJhMTMzLjYgMTMzLjYgMCAxIDAgMC0yNjcuMSAxMzMuNiAxMzMuNiAwIDEgMCAwIDI2Ny4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![cloudsmith](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/cloudsmith.svg)
  */
 const Cloudsmith: typeof Icon = x => (
     <Icon {...x}>

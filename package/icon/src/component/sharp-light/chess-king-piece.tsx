@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `chess-king-piece` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-king-piece?s=sharp-light chess-king-piece}
- * @preview ![chess-king-piece](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTQ0IDBsMCAxNiAwIDE2IDE2IDAgMTYgMCAwIDMyLTE2IDAtMTYgMCAwIDMyIDQ4IDAgMzIgMCAwIDMyIDAgMjQtMzIuNyA3MiA4LjcgMCAxNiAwIDAgMzItMTYgMC0xMy44IDAgMTMuMSA5NkwxNjcgMzUybC0xMy4xLTk2LTUxLjggMEw4OSAzNTJsLTMyLjMgMCAxMy4xLTk2TDU2IDI1NmwtMTYgMCAwLTMyIDE2IDAgOC43IDBMMzIgMTUybDAtMjQgMC0zMiAzMiAwIDQ4IDAgMC0zMkw5NiA2NCA4MCA2NGwwLTMyIDE2IDAgMTYgMCAwLTE2IDAtMTYgMzIgMHpNOTkuOSAyMjRsNTYuMiAwTDE5MiAxNDUuMWwwLTE3LjEtNDggMC0zMiAwLTQ4IDAgMCAxNy4xTDk5LjkgMjI0ek0zMiA0ODBsMTkyIDAgMC0xNi43TDE5MS4yIDQxNiA2NC44IDQxNiAzMiA0NjMuMyAzMiA0ODB6TTAgNDgwbDAtMjYuN0w0OCAzODRsMTYwIDAgNDggNjkuMyAwIDI2LjcgMCAzMi0zMiAwTDMyIDUxMiAwIDUxMmwwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![chess-king-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chess-king-piece.svg)
  */
 const ChessKingPiece: typeof Icon = x => (
     <Icon viewBox="0 0 256 512" {...x}>

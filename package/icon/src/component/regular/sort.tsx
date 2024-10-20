@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `sort` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sort?s=regular sort}
- * @preview ![sort](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzAuNiAxNzZsMTc4LjcgMEwxNjAgODYuNiA3MC42IDE3NnptMTEyLTEzNC42bDEyOCAxMjhjOS4yIDkuMiAxMS45IDIyLjkgNi45IDM0LjlzLTE2LjYgMTkuOC0yOS42IDE5LjhMMzIgMjI0Yy0xMi45IDAtMjQuNi03LjgtMjkuNi0xOS44cy0yLjItMjUuNyA2LjktMzQuOWwxMjgtMTI4YzEyLjUtMTIuNSAzMi44LTEyLjUgNDUuMyAwek03MC42IDMzNkwxNjAgNDI1LjQgMjQ5LjQgMzM2IDcwLjYgMzM2em0xMTIgMTM0LjZjLTEyLjUgMTIuNS0zMi44IDEyLjUtNDUuMyAwbC0xMjgtMTI4Yy05LjItOS4yLTExLjktMjIuOS02LjktMzQuOXMxNi42LTE5LjggMjkuNi0xOS44bDI1NiAwYzEyLjkgMCAyNC42IDcuOCAyOS42IDE5LjhzMi4yIDI1LjctNi45IDM0LjlsLTEyOCAxMjh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![sort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sort.svg)
  */
 const Sort: typeof Icon = x => (
     <Icon viewBox="0 0 320 512" {...x}>

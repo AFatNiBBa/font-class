@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `comment-arrow-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-down?s=sharp-thin comment-arrow-down}
- * @preview ![comment-arrow-down](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNzEuOSAzNzYuNGwzLjYtOS42LTcuMy03LjNDMzUuMiAzMjYuMyAxNiAyODQuNyAxNiAyNDBDMTYgMTM2LjkgMTIwLjIgNDggMjU2IDQ4czI0MCA4OC45IDI0MCAxOTJzLTEwNC4yIDE5Mi0yNDAgMTkyYy0zMCAwLTU4LjYtNC40LTg1LTEyLjRsLTQuNi0xLjQtNC42IDEuNEw0Mi4zIDQ1NS40bDI5LjYtNzl6TTE2IDQ4MGwxOS4zLTUuOCAxMzEuMS0zOS4zYzI3LjkgOC41IDU4LjEgMTMuMSA4OS42IDEzLjFjMTQxLjQgMCAyNTYtOTMuMSAyNTYtMjA4UzM5Ny40IDMyIDI1NiAzMlMwIDEyNS4xIDAgMjQwYzAgNDkuNiAyMS4zIDk1LjEgNTYuOSAxMzAuOEwyMy4xIDQ2MS4yIDE2IDQ4MHpNMjY0IDEzNmwwLTgtMTYgMCAwIDggMCAxNzIuNy03NC4zLTc0LjMtNS43LTUuN0wxNTYuNyAyNDBsNS43IDUuNyA4OCA4OCA1LjcgNS43IDUuNy01LjcgODgtODggNS43LTUuN0wzNDQgMjI4LjdsLTUuNyA1LjdMMjY0IDMwOC43IDI2NCAxMzZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![comment-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-arrow-down.svg)
  */
 const CommentArrowDown: typeof Icon = x => (
     <Icon {...x}>

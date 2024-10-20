@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `eggplant` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eggplant?s=solid eggplant}
- * @preview ![eggplant](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA1IDdjOS40IDkuNCA5LjQgMjQuNiAwIDMzLjlsLTkgOUw0OTYgMTkyYzAgOC44LTcuMiAxNi0xNiAxNmMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhjMC01LjgtNC0xMC43LTkuNC0xMi42Yy0xMy4zLTQuOC0yNS40LTEzLTM1LjEtMjIuOHMtMTgtMjEuOS0yMi44LTM1LjFjLTItNS40LTYuOS05LjQtMTIuNi05LjRjLTI2LjUgMC00OC0yMS41LTQ4LTQ4YzAtOC44IDcuMi0xNiAxNi0xNmwxNDIuMSAwIDktOWM5LjQtOS40IDI0LjYtOS40IDMzLjkgMHpNMTY5LjkgMTM5LjNjNDAuMy0xOS42IDgxLTM5LjMgMTEzLjQtNjYuNmMxMS44IDIwIDMyLjEgMzQuNCA1NS45IDM4LjNjNi43IDE0IDE1LjggMjYuMyAyNS44IDM2LjJzMjIuMiAxOS4xIDM2LjIgMjUuOGM1IDMwLjQgMjcuMSA1NS4xIDU2LjIgNjMuOEM0MTAuNiAzNjIuNyAzMTEuMSA1MTIuMiAxNzYuNCA1MTJDNzkuOSA1MTEuOSAxLjQgNDMxLjMgMCAzMzZDLTEuNiAyMjIuNSA4My40IDE4MS4zIDE2OS45IDEzOS4zeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![eggplant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/eggplant.svg)
  */
 const Eggplant: typeof Icon = x => (
     <Icon {...x}>

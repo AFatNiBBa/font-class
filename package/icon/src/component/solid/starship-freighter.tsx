@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `starship-freighter` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starship-freighter?s=solid starship-freighter}
- * @preview ![starship-freighter](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjI0IDQ4MEMxMDAuMyA0ODAgMCAzNzkuNyAwIDI1NlMxMDAuMyAzMiAyMjQgMzJjNDIuMyAwIDg0LjIgNy45IDEyMy42IDIzLjJsMjA3LjkgODAuOWMxMi4zIDQuOCAyMC40IDE2LjYgMjAuNCAyOS44bDAgNDIuMWMwIDguOC03LjIgMTYtMTYgMTZsLTExNC4zIDBMNDMyIDIyNGMtOC44IDAtMTYgNy4yLTE2IDE2bDAgMzJjMCA4LjggNy4yIDE2IDE2IDE2bDEzLjcgMEw1NjAgMjg4YzguOCAwIDE2IDcuMiAxNiAxNmwwIDQyLjFjMCAxMy4yLTguMSAyNS0yMC40IDI5LjhsLTgyLjEgMzEuOWM0LjEgNy4xIDYuNSAxNS4zIDYuNSAyNC4xYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4bC04MCAwYy0xMS41IDAtMjEuNi02LjEtMjcuMy0xNS4yQzI5Mi4yIDQ3NC45IDI1OC4yIDQ4MCAyMjQgNDgwem0wLTI3MmE0OCA0OCAwIDEgMSAwIDk2IDQ4IDQ4IDAgMSAxIDAtOTZ6bTAgMTI4YTgwIDgwIDAgMSAwIDAtMTYwIDgwIDgwIDAgMSAwIDAgMTYwek04MCAyNzJhMTYgMTYgMCAxIDAgMC0zMiAxNiAxNiAwIDEgMCAwIDMyem00OC0xMTJhMTYgMTYgMCAxIDAgLTMyIDAgMTYgMTYgMCAxIDAgMzIgMHpNMTEyIDM2OGExNiAxNiAwIDEgMCAwLTMyIDE2IDE2IDAgMSAwIDAgMzJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![starship-freighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/starship-freighter.svg)
  */
 const StarshipFreighter: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

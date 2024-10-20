@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `magnifying-glass-arrow-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-arrow-right?s=sharp-thin magnifying-glass-arrow-right}
- * @preview ![magnifying-glass-arrow-right](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjA4IDE2YTE5MiAxOTIgMCAxIDEgMCAzODQgMTkyIDE5MiAwIDEgMSAwLTM4NHptMCA0MDBjNTQuNiAwIDEwNC4yLTIxIDE0MS4zLTU1LjRMNDk5LjkgNTExLjNsMTEuMy0xMS4zTDM2MC42IDM0OS4zQzM5NSAzMTIuMiA0MTYgMjYyLjYgNDE2IDIwOEM0MTYgOTMuMSAzMjIuOSAwIDIwOCAwUzAgOTMuMSAwIDIwOFM5My4xIDQxNiAyMDggNDE2em0yOS43LTI5My43bC01LjctNS43TDIyMC43IDEyOGw1LjcgNS43TDI5Mi43IDIwMCAxMDQgMjAwbC04IDAgMCAxNiA4IDAgMTg4LjcgMC02Ni4zIDY2LjMtNS43IDUuN0wyMzIgMjk5LjNsNS43LTUuNyA4MC04MCA1LjctNS43LTUuNy01LjctODAtODB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![magnifying-glass-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/magnifying-glass-arrow-right.svg)
  */
 const MagnifyingGlassArrowRight: typeof Icon = x => (
     <Icon {...x}>

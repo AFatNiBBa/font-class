@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `venus-double` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/venus-double?s=sharp-thin venus-double}
- * @preview ![venus-double](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDMzNmExNjAgMTYwIDAgMSAwIDAtMzIwIDE2MCAxNjAgMCAxIDAgMCAzMjB6TTM2OCAxNzZjMCA5NC41LTc0LjUgMTcxLjYtMTY4IDE3NS44bDAgNjQuMiA4MCAwIDggMCAwIDE2LTggMC04MCAwIDAgNzIgMCA4LTE2IDAgMC04IDAtNzItODAgMC04IDAgMC0xNiA4IDAgODAgMCAwLTY0LjJDOTAuNSAzNDcuNiAxNiAyNzAuNSAxNiAxNzZDMTYgNzguOCA5NC44IDAgMTkyIDBzMTc2IDc4LjggMTc2IDE3NnpNMzU0LjUgMzA1LjljMjYuMyAxOSA1OC42IDMwLjEgOTMuNSAzMC4xYzg4LjQgMCAxNjAtNzEuNiAxNjAtMTYwcy03MS42LTE2MC0xNjAtMTYwYy0zNC45IDAtNjcuMiAxMS4yLTkzLjUgMzAuMUMzNTEuMiA0MiAzNDcuNiAzNy45IDM0NCAzNEMzNzMuMSAxMi42IDQwOS4xIDAgNDQ4IDBjOTcuMiAwIDE3NiA3OC44IDE3NiAxNzZjMCA5NC41LTc0LjUgMTcxLjYtMTY4IDE3NS44bDAgNjQuMiA4MCAwIDggMCAwIDE2LTggMC04MCAwIDAgNzIgMCA4LTE2IDAgMC04IDAtNzItODAgMC04IDAgMC0xNiA4IDAgODAgMCAwLTY0LjJjLTM1LjgtMS42LTY4LjktMTMuOS05Ni0zMy44YzMuNy0zLjkgNy4yLTggMTAuNS0xMi4xeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![venus-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/venus-double.svg)
  */
 const VenusDouble: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

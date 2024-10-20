@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `nfc-magnifying-glass` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-magnifying-glass?s=sharp-solid nfc-magnifying-glass}
- * @preview ![nfc-magnifying-glass](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAzMmw0NDggMCAwIDEyOGMtMjIuOCAwLTQ0LjQgNC44LTY0IDEzLjNsMC02MS4zIDAtMTYtMTYgMEwyMjQgOTZsLTE2IDAgMCAxNiAwIDk4LjdjLTE4LjYgNi42LTMyIDI0LjQtMzIgNDUuM2MwIDI2LjUgMjEuNSA0OCA0OCA0OHM0OC0yMS41IDQ4LTQ4YzAtMjAuOS0xMy40LTM4LjctMzItNDUuM2wwLTgyLjcgMTEyIDAgMCA2NGMtMzguOSAyOS4yLTY0IDc1LjctNjQgMTI4YzAgMjIuOCA0LjggNDQuNCAxMy4zIDY0TDk2IDM4NGwwLTI1NiA0OCAwIDE2IDAgMC0zMi0xNiAwTDgwIDk2IDY0IDk2bDAgMTYgMCAyODggMCAxNiAxNiAwIDI0MCAwYzI5LjIgMzguOSA3NS43IDY0IDEyOCA2NEwwIDQ4MCAwIDMyek00NDggNDAwLjJhODAgODAgMCAxIDAgMC0xNjAgODAgODAgMCAxIDAgMCAxNjB6bTAgNDhjLTcwLjcgMC0xMjgtNTcuMy0xMjgtMTI4czU3LjMtMTI4IDEyOC0xMjhzMTI4IDU3LjMgMTI4IDEyOGMwIDI2LjctOC4yIDUxLjQtMjIuMSA3MS45bDYzIDYyLjYgMTcgMTYuOS0zMy44IDM0LTE3LTE2LjlMNTIwIDQyNmMtMjAuNSAxNC00NS4zIDIyLjEtNzIgMjIuMXoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![nfc-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/nfc-magnifying-glass.svg)
  */
 const NfcMagnifyingGlass: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

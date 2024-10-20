@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `trash-clock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-clock?s=sharp-thin trash-clock}
- * @preview ![trash-clock](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTU1LjYgMEwxNjAgMCAyODggMGw0LjQgMCAyLjQgMy44TDMzMi40IDY0IDQ0OCA2NGwwIDE2TDAgODAgMCA2NGwxMTUuNiAwTDE1My4yIDMuOCAxNTUuNiAwem0xMjggMTZMMTY0LjQgMTZsLTMwIDQ4IDE3OS4xIDAtMzAtNDh6TTI0IDExMi44TDI0IDExMiA0MCAxMTIgNzkuMiA0OTZsMjMyIDBjNi4xIDUuOCAxMi43IDExLjEgMTkuNiAxNkw3MiA1MTJsLTcuMiAwLS43LTcuMi00MC0zOTJ6bTM5MS44IDc5LjljLTUuNSAuNS0xMSAxLjMtMTYuMyAyLjNsOC41LTgzIDE2LjEgMC0uMSAuOC04LjIgNzkuOXpNNDMyIDQ5NmExMjggMTI4IDAgMSAwIDAtMjU2IDEyOCAxMjggMCAxIDAgMCAyNTZ6bTAtMjcyYTE0NCAxNDQgMCAxIDEgMCAyODggMTQ0IDE0NCAwIDEgMSAwLTI4OHptOCA2NGwwIDggMCA2NCA0OCAwIDggMCAwIDE2LTggMC01NiAwLTggMCAwLTggMC03MiAwLTggMTYgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![trash-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/trash-clock.svg)
  */
 const TrashClock: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `dice-d6` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d6?s=sharp-regular dice-d6}
- * @preview ![dice-d6](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjAwIDQ5OC4zTDIyNCA1MTJsMjQtMTMuN0w0NDggMzg0bDAtMjM0LjYgMC0yOC0yNC41LTEzLjNMMjI0IDAgMjQuMyAxMTEuNCAwIDEyNWwwIDI3LjhMMCAzODQgMjAwIDQ5OC4zek00OCAzNTYuMWwwLTE3NS4zIDE1MiA4OC45TDIwMCA0NDMgNDggMzU2LjF6TTcyLjQgMTM5LjVMMjI0LjMgNTQuOGwxNTEuNCA4Mi4xTDIyMy44IDIyOC4xIDcyLjQgMTM5LjV6TTQwMCAxNzguM2wwIDE3Ny45TDI0OCA0NDNsMC0xNzMuNCAxNTItOTEuM3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![dice-d6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/dice-d6.svg)
  */
 const DiceD6: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

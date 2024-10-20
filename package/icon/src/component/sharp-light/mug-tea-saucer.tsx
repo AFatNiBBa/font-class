@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `mug-tea-saucer` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-tea-saucer?s=sharp-light mug-tea-saucer}
- * @preview ![mug-tea-saucer](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjQwIDY0bDE3NiAwIDE2IDAgMTYgMCAwIDE2MCAwIDMyIDAgOTYtMzIwIDAgMC0yODggODAgMCAwIDQwLjUtNDIuMiAzNS4yLTUuOCA0LjggMCA3LjUgMCA4OCAwIDE2IDE2IDAgOTYgMCAxNiAwIDAtMTYgMC04OCAwLTcuNS01LjgtNC44TDI0MCAxMDQuNSAyNDAgNjR6TTIyNCAzMmwtOTYgMEw5NiAzMmwwIDMyIDAgMjg4IDAgMzIgMzIgMCAzMjAgMCAzMiAwIDAtMzIgMC05NiA0OCAwYzYxLjkgMCAxMTItNTAuMSAxMTItMTEycy01MC4xLTExMi0xMTItMTEybC00OCAwLTMyIDAtMTYgMC0xNiAwTDIyNCAzMnpNNDgwIDIyNGwwLTE2MCA0OCAwYzQ0LjIgMCA4MCAzNS44IDgwIDgwcy0zNS44IDgwLTgwIDgwbC00OCAwek0wIDQ0OGwwIDMyIDE2IDAgNTQ0IDAgMTYgMCAwLTMyLTE2IDBMMTYgNDQ4IDAgNDQ4ek0xOTIgMjI0bDAtNjQuNSAzMi0yNi43IDMyIDI2LjcgMCA2NC41LTY0IDB6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![mug-tea-saucer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mug-tea-saucer.svg)
  */
 const MugTeaSaucer: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

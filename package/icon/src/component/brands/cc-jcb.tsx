@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `cc-jcb` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cc-jcb?s=brands cc-jcb}
- * @preview ![cc-jcb](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDMxLjUgMjQ0LjNWMjEyYzQxLjIgMCAzOC41LjIgMzguNS4yIDcuMyAxLjMgMTMuMyA3LjMgMTMuMyAxNiAwIDguOC02IDE0LjUtMTMuMyAxNS44LTEuMi40LTMuMy4zLTM4LjUuM3ptNDIuOCAyMC4yYy0yLjgtLjctMy4zLS41LTQyLjgtLjV2MzVjMzkuNiAwIDQwIC4yIDQyLjgtLjUgNy41LTEuNSAxMy41LTggMTMuNS0xNyAwLTguNy02LTE1LjUtMTMuNS0xN3pNNTc2IDgwdjM1MmMwIDI2LjUtMjEuNSA0OC00OCA0OEg0OGMtMjYuNSAwLTQ4LTIxLjUtNDgtNDhWODBjMC0yNi41IDIxLjUtNDggNDgtNDhoNDgwYzI2LjUgMCA0OCAyMS41IDQ4IDQ4ek0xODIgMTkyLjNoLTU3YzAgNjcuMSAxMC43IDEwOS43LTM1LjggMTA5LjctMTkuNSAwLTM4LjgtNS43LTU3LjItMTQuOHYyOGMzMCA4LjMgNjggOC4zIDY4IDguMyA5Ny45IDAgODItNDcuNyA4Mi0xMzEuMnptMTc4LjUgNC41Yy02My40LTE2LTE2NS0xNC45LTE2NSA1OS4zIDAgNzcuMSAxMDguMiA3My42IDE2NSA1OS4yVjI4N0MzMTIuOSAzMTEuNyAyNTMgMzA5IDI1MyAyNTZzNTkuOC01NS42IDEwNy41LTMxLjJ2LTI4ek01NDQgMjg2LjVjMC0xOC41LTE2LjUtMzAuNS0zOC0zMnYtLjhjMTkuNS0yLjcgMzAuMy0xNS41IDMwLjMtMzAuMiAwLTE5LTE1LjctMzAtMzctMzEgMCAwIDYuMy0uMy0xMjAuMy0uM3YxMjcuNWgxMjIuN2MyNC4zLjEgNDIuMy0xMi45IDQyLjMtMzMuMnoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![cc-jcb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/cc-jcb.svg)
  */
 const CcJcb: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

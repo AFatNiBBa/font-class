@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `superpowers` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/superpowers?s=brands superpowers}
- * @preview ![superpowers](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDQ4IDMyYy04My4zIDExLTE2Ni44IDIyLTI1MCAzMy05MiAxMi41LTE2My4zIDg2LjctMTY5IDE4MC0zLjMgNTUuNSAxOCAxMDkuNSA1Ny44IDE0OC4yTDAgNDgwYzgzLjMtMTEgMTY2LjUtMjIgMjQ5LjgtMzMgOTEuOC0xMi41IDE2My4zLTg2LjggMTY4LjctMTc5LjggMy41LTU1LjUtMTgtMTA5LjUtNTcuNy0xNDguMkw0NDggMzJ6bS03OS43IDIzMi4zYy00LjIgNzkuNS03NCAxMzkuMi0xNTIuOCAxMzQuNS03OS41LTQuNy0xNDAuNy03MS0xMzYuMy0xNTEgNC41LTc5LjIgNzQuMy0xMzkuMyAxNTMtMTM0LjUgNzkuMyA0LjcgMTQwLjUgNzEgMTM2LjEgMTUxeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![superpowers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/superpowers.svg)
  */
 const Superpowers: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

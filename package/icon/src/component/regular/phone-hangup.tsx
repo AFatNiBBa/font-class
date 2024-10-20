@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `phone-hangup` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-hangup?s=regular phone-hangup}
- * @preview ![phone-hangup](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzIwIDE0NEMxOTMuMSAxNDQgOTguNyAyMDUuOSA1My4zIDI1MC4yYy00LjYgNC41LTYuNiAxMi45LTIuMSAyMS44bDM2LjEgNzEuNWMxLjYgMy4yIDUuMiA0LjkgOC43IDQuMmwxMDIuNC0yMC4zYzMuNy0uNyA2LjQtNCA2LjQtNy44bDAtNzEuMWMwLTEwLjQgNi42LTE5LjUgMTYuNS0yMi44bDMuNC0xLjFjNjEuOS0yMC40IDEyOC43LTIwLjQgMTkwLjcgMGwzLjQgMS4xYzkuOCAzLjIgMTYuNSAxMi40IDE2LjUgMjIuOGwwIDcxLjFjMCAzLjggMi43IDcuMSA2LjQgNy44TDU0NCAzNDcuN2MzLjUgLjcgNy4xLTEgOC43LTQuMkw1ODguOCAyNzJjNC41LTguOSAyLjYtMTcuMy0yLjEtMjEuOEM1NDEuMyAyMDUuOSA0NDYuOSAxNDQgMzIwIDE0NHpNMTkuOCAyMTUuOEM3MS41IDE2NS40IDE3Ny40IDk2IDMyMCA5NnMyNDguNSA2OS40IDMwMC4yIDExOS44YzIyIDIxLjUgMjMuOCA1My40IDExLjQgNzcuOGwtMzYuMSA3MS41Yy0xMS4zIDIyLjQtMzYuMiAzNC42LTYwLjkgMjkuN0w0MzIuMyAzNzQuNWMtMjYuMi01LjItNDUuMS0yOC4yLTQ1LjEtNTQuOWwwLTUzLjRjLTQ0LTEyLTkwLjQtMTItMTM0LjQgMGwwIDUzLjRjMCAyNi43LTE4LjkgNDkuNy00NS4xIDU0LjlMMTA1LjMgMzk0LjhjLTI0LjcgNC45LTQ5LjYtNy4zLTYwLjktMjkuN0w4LjMgMjkzLjZDLTQgMjY5LjItMi4zIDIzNy4zIDE5LjggMjE1Ljh6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![phone-hangup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/phone-hangup.svg)
  */
 const PhoneHangup: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

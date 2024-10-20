@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `ban-bug` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-bug?s=sharp-light ban-bug}
- * @preview ![ban-bug](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjU2IDQ4MEMxMzIuMyA0ODAgMzIgMzc5LjcgMzIgMjU2YzAtNTYuMSAyMC42LTEwNy40IDU0LjctMTQ2LjdsMzE2IDMxNkMzNjMuNCA0NTkuNCAzMTIuMSA0ODAgMjU2IDQ4MHptODAtMTY2LjZsMC0xNS4yIDQ2IDUuOCAxNS45IDIgNC0zMS44LTE1LjktMi01MC02LjIgMC0yMS40IDUxLjktMTMgMTUuNS0zLjktNy44LTMxLTE1LjUgMy45LTQ0LjEgMTEgMC0yNi45IDQwLjktMjcuMiAxMy4zLTguOS0xNy44LTI2LjYtMTMuMyA4LjktNDEuMSAyNy40TDI4OCAxMjhsLTY0IDAtMzYuNyAzNi43LTc4LTc4QzE0OC42IDUyLjYgMTk5LjkgMzIgMjU2IDMyYzEyMy43IDAgMjI0IDEwMC4zIDIyNCAyMjRjMCA1Ni4xLTIwLjYgMTA3LjQtNTQuNyAxNDYuN0wzMzYgMzEzLjR6TTIwOS45IDE4Ny4zTDIzNy4zIDE2MGwzNy41IDBMMzA0IDE4OS4zbDAgODkuNy0uMyAyLjEtOTMuOC05My44ek0yNTYgNTEyQTI1NiAyNTYgMCAxIDAgMjU2IDBhMjU2IDI1NiAwIDEgMCAwIDUxMnpNMTc2IDI2NS45bC01MCA2LjItMTUuOSAyIDQgMzEuOCAxNS45LTIgNDYtNS44IDAgMjkuMy00MC45IDI3LjMtMTMuMyA4LjkgMTcuOCAyNi42IDEzLjMtOC45IDQxLjEtMjcuNEwyMjQgMzg0bDY0IDAgMTQuMS0xNC4xLTIyLjYtMjIuNi00LjcgNC43LTM3LjUgMEwyMDggMzIyLjdsMC00Ni45LTMyLTMyIDAgMjJ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![ban-bug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ban-bug.svg)
  */
 const BanBug: typeof Icon = x => (
     <Icon {...x}>

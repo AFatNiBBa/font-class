@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `arrow-down-left-and-arrow-up-right-to-center` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-left-and-arrow-up-right-to-center?s=light arrow-down-left-and-arrow-up-right-to-center}
- * @preview ![arrow-down-left-and-arrow-up-right-to-center](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNTA3LjMgMjcuM2M2LjItNi4yIDYuMi0xNi40IDAtMjIuNnMtMTYuNC02LjItMjIuNiAwTDMyMCAxNjkuNCAzMjAgNjRjMC04LjgtNy4yLTE2LTE2LTE2cy0xNiA3LjItMTYgMTZsMCAxNDRjMCA4LjggNy4yIDE2IDE2IDE2bDE0NCAwYzguOCAwIDE2LTcuMiAxNi0xNnMtNy4yLTE2LTE2LTE2bC0xMDUuNCAwTDUwNy4zIDI3LjN6TTQuNyA0ODQuN2MtNi4yIDYuMi02LjIgMTYuNCAwIDIyLjZzMTYuNCA2LjIgMjIuNiAwTDE5MiAzNDIuNiAxOTIgNDQ4YzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC0xNDRjMC04LjgtNy4yLTE2LTE2LTE2TDY0IDI4OGMtOC44IDAtMTYgNy4yLTE2IDE2czcuMiAxNiAxNiAxNmwxMDUuNCAwTDQuNyA0ODQuN3oiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![arrow-down-left-and-arrow-up-right-to-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-down-left-and-arrow-up-right-to-center.svg)
  */
 const ArrowDownLeftAndArrowUpRightToCenter: typeof Icon = x => (
     <Icon {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `square-ampersand` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-ampersand?s=sharp-regular square-ampersand}
- * @preview ![square-ampersand](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDggODBsMCAzNTIgMzUyIDAgMC0zNTJMNDggODB6TTAgMzJsNDggMCAzNTIgMCA0OCAwIDAgNDggMCAzNTIgMCA0OC00OCAwTDQ4IDQ4MCAwIDQ4MGwwLTQ4TDAgODAgMCAzMnptMTM2IDk2bDI0IDAgOTYgMCAyNCAwIDAgMjQgMCAzNS43YzAgMjAuNC05LjcgMzkuNi0yNi4yIDUxLjZsLTE4IDEzLjIgMjguNiAyOS45IDI3LjctNDAuMSAxMy43LTE5LjcgMzkuNSAyNy4zLTEzLjcgMTkuNy0zMy4zIDQ4LjEgNjAuOSA2My42Yy44IC44IDEuNSAxLjcgMi4yIDIuNmwtNjYuMSAwLTI0LjgtMjUuOS0xMC44IDE1LjZMMjUyLjYgMzg0IDI0MCAzODRsLTE2IDAtODggMC0yNCAwIDAtMjQgMC0zOS43YzAtMjIuOSAxMC45LTQ0LjUgMjkuNC01OC4xbDIxLjktMTYuMS03LjMtNy43Yy0xMi44LTEzLjQtMjAtMzEuMi0yMC00OS44bDAtMzYuNyAwLTI0em02Ni40IDg5LjZsMjMuMS0xNi45YzQuMS0zIDYuNS03LjggNi41LTEyLjlsMC0xMS43LTQ4IDAgMCAxMi43YzAgNi4yIDIuNCAxMi4xIDYuNyAxNi42bDExLjcgMTIuMnptLTUuNiA2My42bC0yNyAxOS44Yy02LjIgNC41LTkuOCAxMS43LTkuOCAxOS40bDAgMTUuNyA2Ny40IDAgOS4yLTEzLjMtMzkuOC00MS41eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![square-ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-ampersand.svg)
  */
 const SquareAmpersand: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

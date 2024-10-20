@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `conveyor-belt` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt?s=sharp-thin conveyor-belt}
- * @preview ![conveyor-belt](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNNDk2IDE2bDAgMjU2LTM1MiAwIDAtMjU2IDExMiAwIDAgMTA4IDAgMjAgMTYtMTIgNDgtMzYgNDggMzYgMTYgMTIgMC0yMCAwLTEwOCAxMTIgMHpNMjcyIDE2bDk2IDAgMCA5NkwzMjkuNiA4My4yIDMyMCA3NmwtOS42IDcuMkwyNzIgMTEybDAtOTZ6TTQ5NiAwTDM4NCAwIDM2OCAwIDI3MiAwIDI1NiAwIDE0NCAwIDEyOCAwbDAgMTYgMCAyNTYgMCAxNiAxNiAwIDM1MiAwIDE2IDAgMC0xNiAwLTI1NiAwLTE2TDQ5NiAwek02MjQgNDE2YzAgNDQuMi0zNS44IDgwLTgwIDgwTDk2IDQ5NmMtNDQuMiAwLTgwLTM1LjgtODAtODBzMzUuOC04MCA4MC04MGw0NDggMGM0NC4yIDAgODAgMzUuOCA4MCA4MHpNOTYgMzIwYy01MyAwLTk2IDQzLTk2IDk2czQzIDk2IDk2IDk2bDQ0OCAwYzUzIDAgOTYtNDMgOTYtOTZzLTQzLTk2LTk2LTk2TDk2IDMyMHptMTYgNjRhMzIgMzIgMCAxIDEgMCA2NCAzMiAzMiAwIDEgMSAwLTY0em0wIDgwYTQ4IDQ4IDAgMSAwIDAtOTYgNDggNDggMCAxIDAgMCA5NnptMTc2LTQ4YTMyIDMyIDAgMSAxIDY0IDAgMzIgMzIgMCAxIDEgLTY0IDB6bTgwIDBhNDggNDggMCAxIDAgLTk2IDAgNDggNDggMCAxIDAgOTYgMHptMTYwLTMyYTMyIDMyIDAgMSAxIDAgNjQgMzIgMzIgMCAxIDEgMC02NHptMCA4MGE0OCA0OCAwIDEgMCAwLTk2IDQ4IDQ4IDAgMSAwIDAgOTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![conveyor-belt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/conveyor-belt.svg)
  */
 const ConveyorBelt: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

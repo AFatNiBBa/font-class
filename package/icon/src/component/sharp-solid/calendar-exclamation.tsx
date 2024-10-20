@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `calendar-exclamation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-exclamation?s=sharp-solid calendar-exclamation}
- * @preview ![calendar-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNOTYgMGwwIDY0TDAgNjRsMCA5NiA0NDggMCAwLTk2LTk2IDAgMC02NEwyODggMGwwIDY0TDE2MCA2NGwwLTY0TDk2IDB6TTQ0OCAxOTJMMCAxOTIgMCA1MTJsNDQ4IDAgMC0zMjB6TTI0OCAyNDBsMCAyNCAwIDk2IDAgMjQtNDggMCAwLTI0IDAtOTYgMC0yNCA0OCAwem0wIDE3NmwwIDQ4LTQ4IDAgMC00OCA0OCAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![calendar-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calendar-exclamation.svg)
  */
 const CalendarExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 448 512" {...x}>

@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `republican` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/republican?s=sharp-solid republican}
- * @preview ![republican](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMCAxOTJDMCAxMDMuNiA3MS42IDMyIDE2MCAzMmwyMjQgMGM4OC40IDAgMTYwIDcxLjYgMTYwIDE2MGwwIDY0TDAgMjU2bDAtNjR6bTEyNy44LTY0bC0xNS43IDMyLTM2LjMgNC42IDI2LjUgMjQuNEw5NS43IDIyNGwzMi4xLTE2LjlMMTYwIDIyNGwtNi43LTM0LjkgMjYuNS0yNC40TDE0My42IDE2MGwtMTUuNy0zMnptMTU5LjcgMzJsLTE1LjctMzItMTUuNyAzMi0zNi4zIDQuNiAyNi41IDI0LjRMMjM5LjcgMjI0bDMyLjEtMTYuOUwzMDQgMjI0bC02LjctMzQuOSAyNi41LTI0LjRMMjg3LjYgMTYwem0xMjguMy0zMmwtMTUuNyAzMi0zNi4zIDQuNiAyNi41IDI0LjRMMzgzLjcgMjI0bDMyLjEtMTYuOUw0NDggMjI0bC02LjctMzQuOSAyNi41LTI0LjRMNDMxLjYgMTYwbC0xNS43LTMyek0xMjggMjg4bDE5MiAwIDk2IDAgMzIgMCA2NCAwIDMyIDAgMCAzMiAwIDgwYzAgOC44IDcuMiAxNiAxNiAxNnMxNi03LjIgMTYtMTZsMC00OCAwLTMyIDY0IDAgMCAzMiAwIDQ4YzAgNDQuMi0zNS44IDgwLTgwIDgwcy04MC0zNS44LTgwLTgwbDAtNDgtMzIgMCAwIDMyIDAgOTYtMTI4IDAgMC05Ni0xOTIgMCAwIDk2TDAgNDgwbDAtOTYgMC05NiAxMjggMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![republican](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/republican.svg)
  */
 const Republican: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

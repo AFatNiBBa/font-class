@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `traffic-cone` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-cone?s=thin traffic-cone}
- * @preview ![traffic-cone](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjMyLjkgMTZsNDYuMiAwYzYuOCAwIDEyLjggNC4zIDE1LjEgMTAuNkwzNDEuOCAxNjBsLTE3MS42IDBMMjE3LjggMjYuNmMyLjMtNi40IDguMy0xMC42IDE1LjEtMTAuNnpNMzQ3LjUgMTc2bDUxLjQgMTQ0LTI4NS45IDAgNTEuNC0xNDQgMTgzIDB6bTU3LjEgMTYwbDQzLjggMTIyLjdjMS41IDQuMiA2LjEgNi4zIDEwLjIgNC44czYuMy02LjEgNC44LTEwLjJMMzA5LjIgMjEuMkMzMDQuNyA4LjUgMjkyLjYgMCAyNzkuMSAwTDIzMi45IDBjLTEzLjUgMC0yNS42IDguNS0zMC4xIDIxLjJMNDguNSA0NTMuM2MtMS41IDQuMiAuNyA4LjcgNC44IDEwLjJzOC43LS43IDEwLjItNC44TDEwNy40IDMzNmwyOTcuMyAwek0wIDUwNGMwIDQuNCAzLjYgOCA4IDhsNDk2IDBjNC40IDAgOC0zLjYgOC04cy0zLjYtOC04LThMOCA0OTZjLTQuNCAwLTggMy42LTggOHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![traffic-cone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/traffic-cone.svg)
  */
 const TrafficCone: typeof Icon = x => (
     <Icon {...x}>

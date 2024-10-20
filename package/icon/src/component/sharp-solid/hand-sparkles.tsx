@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-sparkles` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-sparkles?s=sharp-solid hand-sparkles}
- * @preview ![hand-sparkles](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzUyIDMybDAtMzJMMjg4IDBsMCAzMiAwIDIyNC0zMiAwIDAtMTkyIDAtMzItNjQgMCAwIDMyIDAgMjcyYzAgMS41IDAgMy4xIC4xIDQuNmwtNDMuNi00MS41LTI5LTI3LjZMNjQuMyAzMjkuNGwyOSAyNy42IDk1LjUgOTFjNDMuMSA0MS4xIDEwMC40IDY0IDE2MCA2NGwxOS4yIDBjNDQuNCAwIDg0LjktMTYuNCAxMTUuOS00My41TDQ0OCA0NTMuMWwwLTQyLjIgNjMuNi0yNy4zTDU0NCAzMDguMSA1NDQgMTI4bDAtMzItNjQgMCAwIDMyIDAgMTI4LTMyIDAgMC0xOTIgMC0zMi02NCAwIDAgMzIgMCAxOTItMzIgMCAwLTIyNHpNMjg4IDM1MmwxNi0zMiAxNiAzMiAzMiAxNi0zMiAxNi0xNiAzMi0xNi0zMi0zMi0xNiAzMi0xNnpNNTYgMTIwTDAgMTQ0bDU2IDI0IDI0IDU2IDI0LTU2IDU2LTI0LTU2LTI0TDgwIDY0IDU2IDEyMHpNNTYwIDM1MmwtMjQgNTYtNTYgMjQgNTYgMjQgMjQgNTYgMjQtNTYgNTYtMjQtNTYtMjQtMjQtNTZ6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![hand-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-sparkles.svg)
  */
 const HandSparkles: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

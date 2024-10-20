@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `file-zip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-zip?s=sharp-thin file-zip}
- * @preview ![file-zip](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTYgNDk2bDE2MCAwIDAgMTZMMTYgNTEyIDAgNTEybDAtMTZMMCAxNiAwIDAgMTYgMCAyMjQgMCAzODQgMTYwbDAgMTQ0LTE2IDAgMC0xMjgtMTUyIDAtOCAwIDAtOCAwLTE1MkwxNiAxNmwwIDQ4MHpNMzYxLjQgMTYwTDIyNCAyMi42IDIyNCAxNjBsMTM3LjQgMHpNMjQwIDM2OGw2NCAwIDggMCAwIDggMCA4IDAgMi4xLTEuMSAxLjhMMjQ5LjIgNDk2bDU0LjggMCA4IDAgMCAxNi04IDAtNjQgMC04IDAgMC04IDAtOCAwLTIuMSAxLjEtMS44IDYxLjctMTA4TDI0MCAzODRsLTggMCAwLTE2IDggMHptMTM2IDhsMCAxMjggMCA4LTE2IDAgMC04IDAtMTI4IDAtOCAxNiAwIDAgOHptNDgtOGw4IDAgMjQgMGMyNi41IDAgNDggMjEuNSA0OCA0OHMtMjEuNSA0OC00OCA0OGwtMTYgMCAwIDQwIDAgOC0xNiAwIDAtOCAwLTQ4IDAtODAgMC04em0xNiA4MGwxNiAwYzE3LjcgMCAzMi0xNC4zIDMyLTMycy0xNC4zLTMyLTMyLTMybC0xNiAwIDAgNjR6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![file-zip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-zip.svg)
  */
 const FileZip: typeof Icon = x => (
     <Icon {...x}>

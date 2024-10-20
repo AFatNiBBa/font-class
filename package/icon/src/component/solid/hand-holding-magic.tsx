@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `hand-holding-magic` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-magic?s=solid hand-holding-magic}
- * @preview ![hand-holding-magic](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTkyIDgwYzAgOC44IDcuMiAxNiAxNiAxNmw4MCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC04MCAwYy00NC4yIDAtODAtMzUuOC04MC04MHMzNS44LTgwIDgwLTgwTDMyMCAwYzcwLjcgMCAxMjggNTcuMyAxMjggMTI4cy01Ny4zIDEyOC0xMjggMTI4bC0zMiAwYzAgMTcuNy0xNC4zIDMyLTMyIDMycy0zMi0xNC4zLTMyLTMybDAtMzJjMC0xNy43IDE0LjMtMzIgMzItMzJsNjQgMGMzNS4zIDAgNjQtMjguNyA2NC02NHMtMjguNy02NC02NC02NEwyMDggNjRjLTguOCAwLTE2IDcuMi0xNiAxNnpNNTY4LjIgMzM2LjNjMTMuMSAxNy44IDkuMyA0Mi44LTguNSA1NS45TDQzMy4xIDQ4NS41Yy0yMy40IDE3LjItNTEuNiAyNi41LTgwLjcgMjYuNUwxOTIgNTEyIDMyIDUxMmMtMTcuNyAwLTMyLTE0LjMtMzItMzJsMC02NGMwLTE3LjcgMTQuMy0zMiAzMi0zMmwzNi44IDAgNDQuOS0zNmMyMi43LTE4LjIgNTAuOS0yOCA4MC0yOGw3OC4zIDAgMTYgMCA2NCAwYzE3LjcgMCAzMiAxNC4zIDMyIDMycy0xNC4zIDMyLTMyIDMybC02NCAwLTE2IDBjLTguOCAwLTE2IDcuMi0xNiAxNnM3LjIgMTYgMTYgMTZsMTIwLjYgMCAxMTkuNy04OC4yYzE3LjgtMTMuMSA0Mi44LTkuMyA1NS45IDguNXpNMTkzLjYgMzg0YzAgMCAwIDAgMCAwbC0uOSAwYy4zIDAgLjYgMCAuOSAweiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![hand-holding-magic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-holding-magic.svg)
  */
 const HandHoldingMagic: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

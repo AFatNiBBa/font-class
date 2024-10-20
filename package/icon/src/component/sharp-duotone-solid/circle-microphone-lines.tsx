@@ -4,12 +4,12 @@ import { Icon, generic } from "../../index";
 /**
  * A component that renders the `circle-microphone-lines` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-microphone-lines?s=sharp-duotone-solid circle-microphone-lines}
- * @preview ![circle-microphone-lines](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48ZGVmcz48c3R5bGU+LmZhLXNlY29uZGFyeXtvcGFjaXR5Oi40fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGQ9Ik0wIDI1NmEyNTYgMjU2IDAgMSAwIDUxMiAwQTI1NiAyNTYgMCAxIDAgMCAyNTZ6bTEyOC0zMmwzMiAwIDAgMTYgMCAxNmMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDAtMTYgMC0xNiAzMiAwIDAgMTYgMCAxNmMwIDY1LjMtNDguOSAxMTkuMS0xMTIgMTI3bDAgMTcgMCAxNi0zMiAwIDAtMTYgMC0xN2MtNjMuMS03LjktMTEyLTYxLjctMTEyLTEyN2wwLTE2IDAtMTZ6TTIwOCA5Nmw5NiAwIDAgNDgtMzIgMC0xNiAwIDAgMzIgMTYgMCAzMiAwIDAgMzItMzIgMC0xNiAwIDAgMzIgMTYgMCAzMiAwIDAgMTZjMCAyNi41LTIxLjUgNDgtNDggNDhzLTQ4LTIxLjUtNDgtNDhsMC0xNjB6Ii8+PHBhdGggY2xhc3M9ImZhLXByaW1hcnkiIGQ9Ik0yMDggOTZsOTYgMCAwIDQ4LTMyIDAtMTYgMCAwIDMyIDE2IDAgMzIgMCAwIDMyLTMyIDAtMTYgMCAwIDMyIDE2IDAgMzIgMCAwIDE2YzAgMjYuNS0yMS41IDQ4LTQ4IDQ4cy00OC0yMS41LTQ4LTQ4bDAtMTYwek0xNjAgMjI0bDAgMTYgMCAxNmMwIDUzIDQzIDk2IDk2IDk2czk2LTQzIDk2LTk2bDAtMTYgMC0xNiAzMiAwIDAgMTYgMCAxNmMwIDY1LjMtNDguOSAxMTkuMS0xMTIgMTI3bDAgMTcgMCAxNi0zMiAwIDAtMTYgMC0xN2MtNjMuMS03LjktMTEyLTYxLjctMTEyLTEyN2wwLTE2IDAtMTYgMzIgMHoiLz48L3N2Zz4=|width=32|height=32)
+ * @preview ![circle-microphone-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle-microphone-lines.svg)
  */
 const CircleMicrophoneLines: typeof Icon = x => (
     <Icon {...x}>
         <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128-32l32 0 0 16 0 16c0 53 43 96 96 96s96-43 96-96l0-16 0-16 32 0 0 16 0 16c0 65.3-48.9 119.1-112 127l0 17 0 16-32 0 0-16 0-17c-63.1-7.9-112-61.7-112-127l0-16 0-16zM208 96l96 0 0 48-32 0-16 0 0 32 16 0 32 0 0 32-32 0-16 0 0 32 16 0 32 0 0 16c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-160z" />
-            <path d="M208 96l96 0 0 48-32 0-16 0 0 32 16 0 32 0 0 32-32 0-16 0 0 32 16 0 32 0 0 16c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-160zM160 224l0 16 0 16c0 53 43 96 96 96s96-43 96-96l0-16 0-16 32 0 0 16 0 16c0 65.3-48.9 119.1-112 127l0 17 0 16-32 0 0-16 0-17c-63.1-7.9-112-61.7-112-127l0-16 0-16 32 0z" />
+        <path d="M208 96l96 0 0 48-32 0-16 0 0 32 16 0 32 0 0 32-32 0-16 0 0 32 16 0 32 0 0 16c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-160zM160 224l0 16 0 16c0 53 43 96 96 96s96-43 96-96l0-16 0-16 32 0 0 16 0 16c0 65.3-48.9 119.1-112 127l0 17 0 16-32 0 0-16 0-17c-63.1-7.9-112-61.7-112-127l0-16 0-16 32 0z" />
     </Icon>
 );
 

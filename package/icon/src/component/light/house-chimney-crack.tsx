@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `house-chimney-crack` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-crack?s=light house-chimney-crack}
- * @preview ![house-chimney-crack](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjc3LjQgNGM2LTUuMyAxNS4xLTUuMyAyMS4yIDBMMzg0IDc5LjQgMzg0IDU2YzAtMTMuMyAxMC43LTI0IDI0LTI0bDgwIDBjMTMuMyAwIDI0IDEwLjcgMjQgMjRsMCAxMzYuM0w1NzAuNiAyNDRjNi42IDUuOCA3LjMgMTYgMS40IDIyLjZzLTE2IDcuMy0yMi42IDEuNEw1MTIgMjM1bDAgMTk3YzAgNDQuMi0zNS44IDgwLTgwIDgwbC0yODggMGMtNDQuMiAwLTgwLTM1LjgtODAtODBsMC0xOTdMMjYuNiAyNjhDMjAgMjczLjggOS44IDI3My4yIDQgMjY2LjZTLTEuMiAyNDkuOCA1LjQgMjQ0TDI3Ny40IDR6TTQ4MCAxNjQuMUw0ODAgNjRsLTY0IDAgMCA0My42IDY0IDU2LjV6TTk2IDIwNi43TDk2IDQzMmMwIDI2LjUgMjEuNSA0OCA0OCA0OGwxMzAuMSAwLTQ3LjQtNzEuMWMtNC45LTcuNC0yLjktMTcuMyA0LjQtMjIuMmw3OS44LTUzLjItODIuMi04Mi4yYy02LjItNi4yLTYuMi0xNi40IDAtMjIuNnMxNi40LTYuMiAyMi42IDBsOTYgOTZjMy40IDMuNCA1LjEgOC4xIDQuNiAxMi45cy0zLjEgOS4xLTcgMTEuN2wtODIuNyA1NS4xTDMxMi42IDQ4MCA0MzIgNDgwYzI2LjUgMCA0OC0yMS41IDQ4LTQ4bDAtMjI1LjNMMjg4IDM3LjMgOTYgMjA2Ljd6Ii8+PC9zdmc+|width=32|height=32)
+ * @preview ![house-chimney-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/house-chimney-crack.svg)
  */
 const HouseChimneyCrack: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>

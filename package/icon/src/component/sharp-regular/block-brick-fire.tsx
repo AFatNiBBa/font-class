@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `block-brick-fire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-brick-fire?s=sharp-regular block-brick-fire}
- * @preview ![block-brick-fire](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTc2IDgwbDAgNDggNTYgMCA0OCAwIDU2IDAgMC00OEwxNzYgODB6bS00OCA0OGwwLTQ4TDgwIDgwbDAgNDggNDggMHpNODAgMTc2bDAgNTYgMTUyIDAgMC01Nkw4MCAxNzZ6bTAgMTYwbDQ4IDAgMC01Ni00OCAwIDAgNTZ6bTAgNDhsMCA0OCAxNTIgMCAwLTQ4LTU2IDAtNDggMC00OCAwem05Ni00OGwxMTIuNyAwYy0uNSA1LjItLjcgMTAuNS0uNyAxNS44YzAgMTEgLjkgMjEuNyAyLjcgMzIuMkwyODAgMzg0bDAgNDggMjUuNSAwYzguMSAxNy42IDE4LjggMzMuOCAzMS41IDQ4TDgwIDQ4MGwtNDggMCAwLTQ4TDMyIDgwbDAtNDggNDggMCAzNTIgMCA0OCAwIDAgNDggMCA2Ni42LTI3LjQtMjcuNEw0MzEgMTMyLjdjLTE1LjMgOS42LTM1IDI0LjQtNTQuOCA0My4zTDI4MCAxNzZsMCA1NiA0OC41IDBjLTkuOSAxNC42LTE4LjkgMzAuNy0yNS45IDQ4TDE3NiAyODBsMCA1NnpNNDMyIDEyOGwwLTQ4LTQ4IDAgMCA0OCA0OCAwem0xNiAzMmw2NCA2NCAzMi0zMmM3Ni44IDY0IDk2IDEzMy4zIDk2IDE2MGMwIDg4LjQtNzEuNiAxNjAtMTYwIDE2MHMtMTYwLTcxLjYtMTYwLTE2MGMwLTg5LjYgODUuMy0xNjUuMyAxMjgtMTkyem05NiAyNDAuMmMwLTQ4LTY0LTk2LTY0LTk2cy02NCA0OC02NCA5NmMwIDM1LjMgMjguNyA2NCA2NCA2NHM2NC0yOC43IDY0LTY0eiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![block-brick-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/block-brick-fire.svg)
  */
 const BlockBrickFire: typeof Icon = x => (
     <Icon viewBox="0 0 640 512" {...x}>

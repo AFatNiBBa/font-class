@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `taco` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taco?s=sharp-thin taco}
- * @preview ![taco](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMzI1LjkgODYuMWw4OC4zLTIuNyAyNC43IDg0LjlMNTEyIDIxOGwtMjIuMiA2MS44Yy0zLjctNS4xLTcuNi0xMC4yLTExLjYtMTVsMTQuNi00MC41LTYyLjgtNDIuNy00LjgtMy4yLTEuNi01LjUtMjEuMi03My03NiAyLjMtNS43IC4yLTQuNS0zLjVMMjU2IDUyLjIgMTk1LjkgOTguOGwtNC41IDMuNS01LjctLjItNzYtMi4zLTIxLjIgNzMtMS42IDUuNS00LjggMy4yTDE5LjIgMjI0LjJsMTQuNiA0MC41Yy00IDQuOS03LjkgOS45LTExLjYgMTVMMCAyMThsNzMuMS00OS43TDk3LjggODMuNGw4OC4zIDIuN0wyNTYgMzJsNjkuOSA1NC4xek0xNiA0NDhsMCAxNiA0ODAgMCAwLTE2YzAtMTMyLjUtMTA3LjUtMjQwLTI0MC0yNDBTMTYgMzE1LjUgMTYgNDQ4ek0wIDQ2NGwwLTE2QzAgMzA2LjYgMTE0LjYgMTkyIDI1NiAxOTJzMjU2IDExNC42IDI1NiAyNTZsMCAxNiAwIDE2LTE2IDBMMTYgNDgwIDAgNDgwbDAtMTZ6TTE3NiAyODhhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyem0tNjQgNjRhMTYgMTYgMCAxIDEgMCAzMiAxNiAxNiAwIDEgMSAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![taco](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/taco.svg)
  */
 const Taco: typeof Icon = x => (
     <Icon {...x}>

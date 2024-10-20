@@ -4,7 +4,7 @@ import { Icon } from "../../index";
 /**
  * A component that renders the `star-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-exclamation?s=sharp-thin star-exclamation}
- * @preview ![star-exclamation](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNi4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDI0IEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMjk3LjEgMTcuMUwzNzQuNiAxNjRsMTYzLjYgMjguMyAxOS4xIDMuMy0xMy41IDEzLjlMNDI4IDMyOC41bDIzLjcgMTY0LjggMi43IDE4LjctMTcuMy03LjdMMjg4LjEgNDM4LjIgMTM5IDUwNC4zIDEyMS43IDUxMmwyLjctMTguNyAyMy43LTE2NC44TDMyLjQgMjA5LjUgMTguOSAxOTUuNiAzOCAxOTIuMyAyMDEuNiAxNjQgMjc5IDE3LjFsOS0xNy4xIDkgMTcuMXptNzQuNyAxNjIuNmwtNy44LTEuMy0zLjctN0wyODguMSAzNC4zIDIxNS43IDE3MS40bC0zLjcgNy03LjggMS4zTDUxLjUgMjA2LjIgMTU5LjYgMzE3LjQgMTY1IDMyM2wtMS4xIDcuOEwxNDEuNyA0ODUuNmwxMzkuOS02Mi4xIDYuNS0yLjkgNi41IDIuOSAxMzkuOSA2Mi4xTDQxMi4yIDMzMC44bC0xLjEtNy44IDUuNS01LjZMNTI0LjYgMjA2LjIgMzcxLjggMTc5Ljd6TTI5NiAxNTJsMCA4IDAgMTM2IDAgOC0xNiAwIDAtOCAwLTEzNiAwLTggMTYgMHpNMjcyIDMzNmwzMiAwIDAgMzItMzIgMCAwLTMyeiIvPjwvc3ZnPg==|width=32|height=32)
+ * @preview ![star-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/star-exclamation.svg)
  */
 const StarExclamation: typeof Icon = x => (
     <Icon viewBox="0 0 576 512" {...x}>
