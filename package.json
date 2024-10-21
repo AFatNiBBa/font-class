@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "build": "npm run start -w package/converter",
-    "start": "npm run start -w package/icon",
-    "save": "npm run save -w package/icon",
+    "start": "npm run start -w package/component",
+    "save": "npm run save -w package/component",
     "clean": "git clean -Xdf"
   },
   "workspaces": [

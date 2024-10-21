@@ -1,12 +1,12 @@
 {
 	"name": "solid-fa6-pro",
 	"description": "Font Awesome 6.6 Pro components for solid-js",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"author": "AFatNiBBa",
 	"license": "ISC",
 	"exports": {
 		".": { "import": "./src/index.tsx" },
-		"./*": { "import": "./src/component/*.tsx" }
+		"./*": { "import": "./src/lib/*.tsx" }
 	},
 	"scripts": {
 		"start": "vite dev",

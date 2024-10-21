@@ -9,10 +9,10 @@ export const CSS_VARIABLE_PREFIX = "--solid-fa6-pro-";
  * Applies the {@link CSS_VARIABLE_PREFIX} to each property of {@link opts}
  * @param opts The object on which to prefix the properties 
  */
-export function custom(opts: IconOpts) {
-    const out: { [k in keyof IconOpts as `${typeof CSS_VARIABLE_PREFIX}${k}`]: IconOpts[k] } = {};
-    for (const k in opts)
-        out[`${CSS_VARIABLE_PREFIX}${k as keyof IconOpts}`] = opts[k as keyof IconOpts] as any;
+export function custom<T extends IconOpts>(obj: T) {
+    const out: { [k in Extract<keyof T, string> as `${typeof CSS_VARIABLE_PREFIX}${k}`]: T[k] } = <any>{};
+    for (const k in obj)
+        out[`${CSS_VARIABLE_PREFIX}${k}`] = <any>obj[k];
     return out;
 }
 

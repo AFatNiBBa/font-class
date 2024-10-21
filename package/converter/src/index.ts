@@ -6,7 +6,7 @@ import { join } from "path";
 const source = join(import.meta.dirname, "../svg");
 
 /** The destination folder */
-const dest = join(import.meta.dirname, "../../icon/src/component");
+const dest = join(import.meta.dirname, "../../component/src/lib");
 
 await svgToComponentDir(source, dest, "unknown");
 console.log("Completed");
