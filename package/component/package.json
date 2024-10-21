@@ -1,7 +1,7 @@
 {
 	"name": "solid-fa6-pro",
 	"description": "Font Awesome 6.6 Pro components for solid-js",
-	"version": "2.1.2",
+	"version": "2.1.4",
 	"author": "AFatNiBBa",
 	"license": "ISC",
 	"exports": {

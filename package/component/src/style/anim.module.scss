@@ -2,7 +2,8 @@
 @use "./util.scss" as *;
 
 .beat {
-	@include default(beat);
+	@extend %default;
+	animation-name: beat;
 
 	@keyframes beat {
 		from,
@@ -12,7 +13,8 @@
 }
 
 .fade {
-	@include default(fade);
+	@extend %default;
+	animation-name: fade;
 	animation-timing-function: custom(animationTimingFunction, cubic-bezier(0.4, 0, 0.6, 1));
 
 	@keyframes fade {
@@ -21,7 +23,8 @@
 }
 
 .beatFade {
-	@include default(beatFade);
+	@extend %default;
+	animation-name: beatFade;
 	animation-timing-function: custom(animationTimingFunction, cubic-bezier(0.4, 0, 0.6, 1));
 
 	@keyframes beatFade {
@@ -39,8 +42,9 @@
 }
 
 .bounce {
-	@include default(bounce);
-    animation-timing-function: custom(animationTimingFunction, cubic-bezier(0.28, 0.84, 0.42, 1));
+	@extend %default;
+	animation-name: bounce;
+	animation-timing-function: custom(animationTimingFunction, cubic-bezier(0.28, 0.84, 0.42, 1));
 
 	@keyframes bounce {
 		from { transform: scale(1) translateY(0); }
@@ -54,7 +58,8 @@
 }
 
 .flip {
-	@include default(flip);
+	@extend %default;
+	animation-name: flip;
 	
 	@keyframes flip {
 		50% { transform: rotate3d(custom(flipX, 0), custom(flipY, 1), custom(flipZ, 0), custom(flipAngle, -180deg)); }
@@ -62,8 +67,9 @@
 }
 
 .shake {
-	@include default(shake);
-    animation-timing-function: custom(animationTimingFunction, linear);
+	@extend %default;
+	animation-name: shake;
+	animation-timing-function: custom(animationTimingFunction, linear);
 
 	@keyframes shake {
 		from { transform: rotate(-15deg); }
@@ -82,9 +88,10 @@
 }
 
 .spin {
-	@include default(spin);
+	@extend %default;
+	animation-name: spin;
 	animation-duration: custom(animationDuration, 2s);
-    animation-timing-function: custom(animationTimingFunction, linear);
+	animation-timing-function: custom(animationTimingFunction, linear);
 
 	@keyframes spin {
 		from { transform: rotate(0deg); }
@@ -93,6 +100,7 @@
 }
 
 .pulse {
-	@include default(spin);
-    animation-timing-function: custom(animationTimingFunction, steps(8));
+	@extend %default;
+	animation-name: spin;
+	animation-timing-function: custom(animationTimingFunction, steps(8));
 }
