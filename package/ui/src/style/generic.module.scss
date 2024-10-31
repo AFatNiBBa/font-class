@@ -3,8 +3,6 @@
 
 .reverse { #{prefix(animation-direction)}: reverse; }
 
-.secondary { opacity: custom(secondaryOpacity, .4); }
-
 .rotateBy { transform: rotate(custom(rotateAngle, none)); }
 
 .rotate90 { transform: rotate(90deg); }

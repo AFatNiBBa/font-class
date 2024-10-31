@@ -1,4 +1,5 @@
 declare const classNames: {
-  readonly text: "text";
+  readonly icon: "icon";
+  readonly duotone: "duotone";
 };
 export default classNames;

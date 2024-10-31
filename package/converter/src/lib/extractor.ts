@@ -2,17 +2,17 @@
 import { Font, FontEditor, type TTF } from "fonteditor-core";
 import { TTFEditor } from "./ttf.ts";
 
-/** Regular expression that extracts the real name and the {@link Category} from a glyph */
-const REGEX_GET_CATEGORY = /^(.*)-(primary|secondary)$/;
+/** Regular expression that extracts the real name and the {@link Part} from a glyph */
+const REGEX_GET_PART = /^(.*)-(primary|secondary)$/;
 
 /** Object that contains the parts of an icon */
-export type Icon = { [Category.primary]: TTF.Glyph, [Category.secondary]?: TTF.Glyph };
+export type Icon = { [Part.primary]: TTF.Glyph, [Part.secondary]?: TTF.Glyph };
 
 /** Metadata abount an icon part */
-type Meta = { icon: string, category: Category, glyph: TTF.Glyph };
+type Meta = { icon: string, part: Part, glyph: TTF.Glyph };
 
 /** The name of the part of the icon a certain glyph represents */
-enum Category { primary = "primary", secondary = "secondary" }
+enum Part { primary = "primary", secondary = "secondary" }
 
 /**
  * Gets a new font that contains only the glyphs of {@link Icon}
@@ -37,8 +37,8 @@ export function getFontFromIcon(icon: Icon, parent: FontEditor.Font) {
 export function getIconsFromFont(font: FontEditor.Font) {
     const meta = Iterator.from(font.get().glyf).drop(1).map(getMetaFromGlyph); // Skips the ".notdef" glyph, which is always the first glyph of the font
     const icon = Object.groupBy(meta, x => x.icon);
-    const groupByCategory = (x: Meta[] | undefined) => x!.reduce((map, x) => (map[x.category] = x.glyph, map), {} as Icon);
-    return mapObject(icon, groupByCategory);
+    const groupByPart = (x: Meta[] | undefined) => x!.reduce((map, x) => (map[x.part] = x.glyph, map), {} as Icon);
+    return mapObject(icon, groupByPart);
 }
 
 /**
@@ -46,10 +46,10 @@ export function getIconsFromFont(font: FontEditor.Font) {
  * @param glyph The glyph from which to extract the icon information
  */
 function getMetaFromGlyph(glyph: TTF.Glyph): Meta {
-    const match = glyph.name.match(REGEX_GET_CATEGORY);
-    if (!match) return { glyph, icon: glyph.name, category: Category.primary };
-    const [ , name, category ] = match;
-    return { glyph, icon: name, category: category as Category };
+    const match = glyph.name.match(REGEX_GET_PART);
+    if (!match) return { glyph, icon: glyph.name, part: Part.primary };
+    const [ , name, part ] = match;
+    return { glyph, icon: name, part: part as Part };
 }
 
 /**

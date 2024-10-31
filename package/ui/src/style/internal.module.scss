@@ -1,6 +1,26 @@
 
-.text {
-    display: inline flex;
-    align-items: center;
-    vertical-align: bottom;
+@use "./util.scss" as *;
+
+.icon {
+    position: relative;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: normal;
+    text-rendering: auto;
+    font-variant: normal;
+    font-style: normal;
+    line-height: 1;
+
+    &::after {
+        content: "\e001";
+        color: custom(primaryColor, inherit);
+        opacity: custom(primaryOpacity, 1);
+    }
+}
+
+.duotone::before {
+    content: "\e002";
+    position: absolute;
+    color: custom(secondaryColor, inherit);
+    opacity: custom(secondaryOpacity, .4);
 }

@@ -4,7 +4,7 @@ Font Awesome 6.6 Pro components for solid-js
 
 ## Objective
 This package aims to provide a customizable component for each SVG in Font Awesome 6.6 Pro for free, but with some peculiarities:
-- **Non global**: There are no global classes like "fad", "fa-circle-xmark", etc...
+- **Non global**: There are no global clas1s like "fad", "fa-circle-xmark", etc...
 - **Actual SVGs**: It doesn't use a font, what you're going to include in your program are actual SVGs
 - **Completely tree shakable**: You can import each icon separately, in fact you actually can't do otherwise since there are A LOT of icons
 - **TypeScript package**: The package is not compiled, it ships directly in TypeScript and SCSS
@@ -43,7 +43,6 @@ Style sheet that contains animations
 ### `generic`
 Style sheets that contains generic functionalities
 - <span id="generic-reverse">`reverse`</span> (**fa-spin-reverse**): Sets [`IconOpts.animationDirection`](#iconopts) to "reverse"
-- `secondary` (**fa-secondary**): Decreases the element's opacity
 - `rotateBy` (**fa-rotate-by**): Rotates the element by [`IconOpts.rotateAngle`](#iconopts)
 - `rotate90` (**fa-rotate-90**): Rotates the element by 90°
 - `rotate180` (**fa-rotate-180**): Rotates the element by 180°

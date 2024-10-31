@@ -19,7 +19,16 @@ export function custom<T extends IconOpts>(obj: T) {
 /** Type that lists the available customization CSS variables */
 export interface IconOpts {
 
-    /** Custom angle for the {@link generic.secondary} class */
+    /** Custom override of the color for secondary part of icons */
+    primaryColor?: string;
+
+    /** Custom override of the opacity for secondary part of icons */
+    primaryOpacity?: number | string;
+
+    /** Custom override of the color for secondary part of icons */
+    secondaryColor?: string;
+
+    /** Custom override of the opacity for secondary part of icons */
     secondaryOpacity?: number | string;
 
     /** Custom angle for the {@link generic.rotateBy} class */
