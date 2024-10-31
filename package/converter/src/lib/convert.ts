@@ -1,6 +1,6 @@
 
 import dedent from "dedent-js";
-import { exists, mkdir, readdir, readFile, writeFile } from "fs/promises";
+import { mkdir, readdir, readFile, rm, writeFile } from "fs/promises";
 import { basename, extname, join } from "path";
 import { pascalCase } from "change-case";
 import { parseSvg } from "./parse";
@@ -27,6 +27,8 @@ function sanitize(name: string) {
  * @param nameSpace The name of the current directory
  */
 export async function svgToComponentDir(source: string, dest: string, nameSpace: string) {
+    await rm(dest, { recursive: true });
+    await mkdir(dest, { recursive: true });
     const files = await readdir(source, { withFileTypes: true });
     await Promise.all(files.map(x => svgToComponentEntry(source, dest, x.name, nameSpace, x.isDirectory())));
 }
@@ -45,7 +47,6 @@ export async function svgToComponentEntry(source: string, dest: string, input: s
     const name = basename(input, extname(input)), output = `${name}.tsx`;
     const svg = await readFile(sub);
     const component = svgToComponent(name, nameSpace, svg.toString());
-    if (!await exists(dest)) await mkdir(dest, { recursive: true });
     await writeFile(join(dest, output), component);
 }
 

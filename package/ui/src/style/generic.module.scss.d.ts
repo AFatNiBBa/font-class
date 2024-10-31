@@ -9,4 +9,4 @@ declare const classNames: {
   readonly flipVertical: "flipVertical";
   readonly flipBoth: "flipBoth";
 };
-export = classNames;
+export default classNames;

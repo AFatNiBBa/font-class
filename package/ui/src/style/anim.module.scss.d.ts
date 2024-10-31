@@ -8,4 +8,4 @@ declare const classNames: {
   readonly spin: "spin";
   readonly pulse: "pulse";
 };
-export = classNames;
+export default classNames;
