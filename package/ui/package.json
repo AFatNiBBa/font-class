@@ -6,7 +6,7 @@
 	"license": "ISC",
 	"exports": {
 		".": { "import": "./src/index.tsx" },
-		"./*": { "import": "./src/lib/*.tsx" }
+		"./*": { "import": "./src/component/*.tsx" }
 	},
 	"scripts": {
 		"start": "vite dev",
