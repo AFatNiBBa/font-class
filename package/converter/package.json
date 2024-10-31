@@ -1,5 +1,5 @@
 {
-  "name": "solid-fa6-pro-converter",
+  "name": "converter",
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
@@ -14,6 +14,7 @@
   "dependencies": {
     "change-case": "^5.4.4",
     "dedent-js": "^1.0.1",
+    "fonteditor-core": "^2.4.1",
     "node-html-parser": "^6.1.13"
   }
 }
