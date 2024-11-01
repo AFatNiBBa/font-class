@@ -2,7 +2,7 @@
 import FontEditor, { type TTF } from "fonteditor-core";
 
 /** Typed version of {@link FontEditor.TTF} */
-export const TTFEditor = (FontEditor as unknown as typeof FontEditor.default).TTF as typeof TTF;
+export const TTFEditor = FontEditor.TTF as typeof TTF;
 export type TTFEditor = TTF;
 
 /** Partial type declaration for instances of {@link TTFEditor} */

@@ -9,7 +9,7 @@ export * from "./custom";
 export { anim, generic };
 
 /**
- * Register an icon to be used in the application
+ * Creates a new icon component based on the provided font
  * @param name An hint name of the icon
  * @param hasSecondary Whether the icon has a secondary part
  * @param fontUrl The URL of the WOFF2 font file containing the glyphs

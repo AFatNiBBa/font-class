@@ -3,9 +3,9 @@
 Font Awesome 6.6 Pro components for solid-js
 
 ## Objective
-This package aims to provide a customizable component for each SVG in Font Awesome 6.6 Pro for free, but with some peculiarities:
+This package aims to provide a customizable component for each icon in Font Awesome 6.6 Pro for free, but with some peculiarities:
 - **Non global**: There are no global clas1s like "fad", "fa-circle-xmark", etc...
-- **Actual SVGs**: It doesn't use a font, what you're going to include in your program are actual SVGs
+- **Separate fonts**: Each icon has its own specific font
 - **Completely tree shakable**: You can import each icon separately, in fact you actually can't do otherwise since there are A LOT of icons
 - **TypeScript package**: The package is not compiled, it ships directly in TypeScript and SCSS
 
@@ -54,16 +54,14 @@ Style sheets that contains generic functionalities
 ## Utility
 Utilities for customization and primitives
 
-### Constants
-- `DEFAULT_ICON_SIZE`: The default width and height of an icon
-- <span id="prefix">`CSS_VARIABLE_PREFIX`</span>: The prefix each customization CSS variable has
-
-### `Icon`
-The base component each icons inherits from.
-It's an SVG with some defaults and the ability to set both width and height at the same time through the `size` attribute
+### <span id="prefix">`CSS_VARIABLE_PREFIX`</span>
+The prefix each customization CSS variable has
 
 ### <span id="iconopts">`IconOpts`</span>
 Type that lists the available customization CSS variables
+
+### `createIcon()`
+Creates a new icon component based on the provided font
 
 ### `custom()`
 Takes an [`IconOpts`](#iconopts) as argument and prefixes each of its properties with [`CSS_VARIABLE_PREFIX`](#prefix)

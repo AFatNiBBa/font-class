@@ -1,35 +1,65 @@
 
-import { parse } from "node-html-parser";
+import { Font, FontEditor, type TTF } from "fonteditor-core";
+import { TTFEditor } from "./ttf.ts";
 
-/** Attribute names used inside {@link parseSvg} */
-const ATTR_VIEWBOX_NAME = "viewBox", ATTR_CLASS_NAME = "class", ATTR_D_NAME = "d";
+/** Regular expression that extracts the real name and the {@link Part} from a glyph */
+const REGEX_GET_PART = /^(.*)-(primary|secondary)$/;
 
-/** Attribute values used to check against inside {@link parseSvg} */
-const ATTR_VIEWBOX_DEFAULT = "0 0 512 512", ATTR_CLASS_SECONDARY = "fa-secondary";
+/** Object that contains the parts of an icon */
+export type Icon = { [Part.primary]: TTF.Glyph, [Part.secondary]?: TTF.Glyph };
 
-/** Informations about an SVG path of an icon */
-export type IconPathInfo = { d: string, isSecondary: boolean };
+/** Metadata abount an icon part */
+type Meta = { icon: string, part: Part, glyph: TTF.Glyph };
 
-/** Informations about an SVG of an icon */
-export type IconSvgInfo = { viewBox?: string, path: IconPathInfo[] };
+/** The name of the part of the icon a certain glyph represents */
+enum Part { primary = "primary", secondary = "secondary" }
 
 /**
- * Parses in a readable manner the informations about an SVG
- * @param source The source of the SVG
+ * Gets a new font that contains only the glyphs of {@link Icon}
+ * @param icon The parts of the icon
+ * @param parent The parent font of the icon
  */
-export function parseSvg(source: string) {
-    const dom = parse(source).querySelector("svg")!;
-    const path: IconPathInfo[] = [];
-    const svg: IconSvgInfo = { path };
+export function getFontFromIcon(icon: Icon, parent: FontEditor.Font) {
+    const out = new Font(), ttf = new TTFEditor(out.get()), old = parent.get();
+    const { primary, secondary } = icon;
+    var codePoint = 0xe001;
+    ttf.setHead(old.head);
+    ttf.setOS2(old["OS/2"]);
+    ttf.addGlyf({ ...primary, unicode: [ codePoint++ ] });
+    if (secondary) ttf.addGlyf({ ...secondary, unicode: [ codePoint++ ] });
+    return out;
+}
 
-    const viewBox = dom.getAttribute(ATTR_VIEWBOX_NAME);
-    if (viewBox !== ATTR_VIEWBOX_DEFAULT)
-        svg.viewBox = viewBox;
+/**
+ * Gets an object that maps each icon name to its parts
+ * @param font The font from which to extract the icons
+ */
+export function getIconsFromFont(font: FontEditor.Font) {
+    const meta = Iterator.from(font.get().glyf).drop(1).map(getMetaFromGlyph); // Skips the ".notdef" glyph, which is always the first glyph of the font
+    const icon = Object.groupBy(meta, x => x.icon);
+    const groupByPart = (x: Meta[] | undefined) => x!.reduce((map, x) => (map[x.part] = x.glyph, map), {} as Icon);
+    return mapObject(icon, groupByPart);
+}
 
-    var d: string | undefined;
-    for (const elm of dom.querySelectorAll(":scope > path"))
-        if (d = elm.getAttribute(ATTR_D_NAME))
-            path.push({ d, isSecondary: elm.getAttribute(ATTR_CLASS_NAME) === ATTR_CLASS_SECONDARY });
+/**
+ * Gets the icon information from one of its glyphs
+ * @param glyph The glyph from which to extract the icon information
+ */
+function getMetaFromGlyph(glyph: TTF.Glyph): Meta {
+    const match = glyph.name.match(REGEX_GET_PART);
+    if (!match) return { glyph, icon: glyph.name, part: Part.primary };
+    const [ , name, part ] = match;
+    return { glyph, icon: name, part: part as Part };
+}
 
-    return svg;
+/**
+ * Returns an object with the same properties as the input object, but with the values transformed by {@link f}
+ * @param obj The object to map
+ * @param f The transformation function
+ */
+function mapObject<T, R>(obj: T, f: (x: T[keyof T]) => R) {
+    const out = {} as { [k in keyof T]: R };
+    for (const k in obj) 
+        out[k] = f(obj[k]);
+    return out;
 }
